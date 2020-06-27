@@ -5,15 +5,15 @@ VALUES (0x7CF2B001,  1154, 0xCF2B0038, 150.3821, 174.1234, 231.0325, -0.2085131,
 /* @teleloc 0xCF2B0038 [150.382100 174.123400 231.032500] -0.208513 0.000000 0.000000 -0.978020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF2B001, 0x7CF2B002, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7CF2B001, 0x7CF2B003, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7CF2B001, 0x7CF2B004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7CF2B001, 0x7CF2B005, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7CF2B001, 0x7CF2B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7CF2B001, 0x7CF2B007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CF2B001, 0x7CF2B008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CF2B001, 0x7CF2B009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CF2B001, 0x7CF2B00A, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7CF2B001, 0x7CF2B002, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7CF2B001, 0x7CF2B003, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7CF2B001, 0x7CF2B004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7CF2B001, 0x7CF2B005, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7CF2B001, 0x7CF2B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7CF2B001, 0x7CF2B007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CF2B001, 0x7CF2B008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CF2B001, 0x7CF2B009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CF2B001, 0x7CF2B00A, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF2B002,  7100, 0xCF2B0038, 150.3821, 174.1234, 231.0325, -0.2085131, 0, 0, -0.9780195,  True, '2019-02-10 00:00:00'); /* Extas Lugian */
@@ -56,7 +56,7 @@ VALUES (0x7CF2B00B,  1542, 0xCF2B0009, 32.28668, 13.17957, 213.7889, 0.9238795, 
 /* @teleloc 0xCF2B0009 [32.286680 13.179570 213.788900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF2B00B, 0x7CF2B00C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7CF2B00B, 0x7CF2B00C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF2B00C,  4180, 0xCF2B0009, 32.28668, 13.17957, 213.7889, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

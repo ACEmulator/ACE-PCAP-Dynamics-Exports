@@ -5,21 +5,21 @@ VALUES (0x7F91E001,  1154, 0xF91E0005, 16.33422, 119.1327, 18.07887, 0.9537169, 
 /* @teleloc 0xF91E0005 [16.334220 119.132700 18.078870] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F91E001, 0x7F91E002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F91E001, 0x7F91E008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F91E001, 0x7F91E009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F91E001, 0x7F91E00B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F91E001, 0x7F91E00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F91E001, 0x7F91E00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F91E001, 0x7F91E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F91E001, 0x7F91E00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F91E001, 0x7F91E010, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7F91E001, 0x7F91E002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F91E001, 0x7F91E008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F91E001, 0x7F91E009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F91E001, 0x7F91E00B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F91E001, 0x7F91E00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F91E001, 0x7F91E00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F91E001, 0x7F91E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F91E001, 0x7F91E00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F91E001, 0x7F91E010, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F91E002,  4248, 0xF91E0005, 16.33422, 119.1327, 18.07887, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -86,7 +86,7 @@ VALUES (0x7F91E011,  1542, 0xF91E0005, 17.86886, 116.7568, 19.25336, 0.9990482, 
 /* @teleloc 0xF91E0005 [17.868860 116.756800 19.253360] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F91E011, 0x7F91E012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F91E011, 0x7F91E012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F91E012,  4179, 0xF91E0005, 17.86886, 116.7568, 19.25336, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

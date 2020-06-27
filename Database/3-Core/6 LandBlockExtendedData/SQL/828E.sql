@@ -45,9 +45,9 @@ VALUES (0x7828E00B,  1154, 0x828E002A, 142.9582, 29.3315, 124.0025, 0.4001708, 0
 /* @teleloc 0x828E002A [142.958200 29.331500 124.002500] 0.400171 0.000000 0.000000 -0.916441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7828E00B, 0x7828E00C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7828E00B, 0x7828E00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7828E00B, 0x7828E00E, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7828E00B, 0x7828E00C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7828E00B, 0x7828E00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7828E00B, 0x7828E00E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7828E00C,  1756, 0x828E002A, 142.9582, 29.3315, 124.0025, 0.4001708, 0, 0, -0.9164406,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -66,7 +66,7 @@ VALUES (0x7828E00F,  1154, 0x828E001E, 78.8453, 125.981, 124.005, 0.105943, 0, 0
 /* @teleloc 0x828E001E [78.845300 125.981000 124.005000] 0.105943 0.000000 0.000000 0.994372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7828E00F, 0x7828E010, '2019-02-10 00:00:00') /* Dizah ibn Nadqab */;
+VALUES (0x7828E00F, 0x7828E010, '2019-02-10 00:00:00') /* Dizah ibn Nadqab (5636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7828E010,  5636, 0x828E001E, 78.8453, 125.981, 124.005, 0.105943, 0, 0, 0.994372,  True, '2019-02-10 00:00:00'); /* Dizah ibn Nadqab */

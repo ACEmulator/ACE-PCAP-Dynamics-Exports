@@ -5,17 +5,17 @@ VALUES (0x7211D001,  1154, 0x211D0029, 130.4406, 14.31159, 15.70642, 0.997055, 0
 /* @teleloc 0x211D0029 [130.440600 14.311590 15.706420] 0.997055 0.000000 0.000000 -0.076690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7211D001, 0x7211D002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7211D001, 0x7211D003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7211D001, 0x7211D004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7211D001, 0x7211D005, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7211D001, 0x7211D006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7211D001, 0x7211D007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7211D001, 0x7211D008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7211D001, 0x7211D009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7211D001, 0x7211D00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7211D001, 0x7211D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7211D001, 0x7211D00C, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x7211D001, 0x7211D002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7211D001, 0x7211D003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7211D001, 0x7211D004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7211D001, 0x7211D005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7211D001, 0x7211D006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7211D001, 0x7211D007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7211D001, 0x7211D008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7211D001, 0x7211D009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7211D001, 0x7211D00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7211D001, 0x7211D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7211D001, 0x7211D00C, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7211D002, 23489, 0x211D0029, 130.4406, 14.31159, 15.70642, 0.997055, 0, 0, -0.07668985,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

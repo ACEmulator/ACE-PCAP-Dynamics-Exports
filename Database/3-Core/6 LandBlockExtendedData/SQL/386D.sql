@@ -5,19 +5,19 @@ VALUES (0x7386D001,  1154, 0x386D0009, 42.30694, 17.06157, 37.4323, 0.6655191, 0
 /* @teleloc 0x386D0009 [42.306940 17.061570 37.432300] 0.665519 0.000000 0.000000 -0.746381 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7386D001, 0x7386D002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386D001, 0x7386D003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7386D001, 0x7386D004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7386D001, 0x7386D005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7386D001, 0x7386D006, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7386D001, 0x7386D007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7386D001, 0x7386D008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7386D001, 0x7386D009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7386D001, 0x7386D00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7386D001, 0x7386D00B, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7386D001, 0x7386D00C, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7386D001, 0x7386D00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7386D001, 0x7386D00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7386D001, 0x7386D002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386D001, 0x7386D003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7386D001, 0x7386D004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7386D001, 0x7386D005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7386D001, 0x7386D006, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7386D001, 0x7386D007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7386D001, 0x7386D008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7386D001, 0x7386D009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7386D001, 0x7386D00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7386D001, 0x7386D00B, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7386D001, 0x7386D00C, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7386D001, 0x7386D00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7386D001, 0x7386D00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7386D002,  7081, 0x386D0009, 42.30694, 17.06157, 37.4323, 0.6655191, 0, 0, -0.7463808,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -76,7 +76,7 @@ VALUES (0x7386D00F,  1542, 0x386D0021, 110.8722, 20.29329, 42.93045, 0.9990482, 
 /* @teleloc 0x386D0021 [110.872200 20.293290 42.930450] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7386D00F, 0x7386D010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7386D00F, 0x7386D010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7386D010,  4179, 0x386D0021, 110.8722, 20.29329, 42.93045, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

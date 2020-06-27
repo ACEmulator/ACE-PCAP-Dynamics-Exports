@@ -5,12 +5,12 @@ VALUES (0x77ADD001,  1154, 0x7ADD002F, 121.8107, 155.5093, 247.8689, 1, 0, 0, 0,
 /* @teleloc 0x7ADD002F [121.810700 155.509300 247.868900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ADD001, 0x77ADD002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77ADD001, 0x77ADD003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77ADD001, 0x77ADD004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77ADD001, 0x77ADD005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77ADD001, 0x77ADD006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77ADD001, 0x77ADD007, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x77ADD001, 0x77ADD002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77ADD001, 0x77ADD003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77ADD001, 0x77ADD004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77ADD001, 0x77ADD005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77ADD001, 0x77ADD006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77ADD001, 0x77ADD007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ADD002,  7086, 0x7ADD002F, 121.8107, 155.5093, 247.8689, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -41,7 +41,7 @@ VALUES (0x77ADD008,  1542, 0x7ADD0027, 111.5571, 162.8035, 247.1966, 1, 0, 0, 0,
 /* @teleloc 0x7ADD0027 [111.557100 162.803500 247.196600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ADD008, 0x77ADD009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77ADD008, 0x77ADD009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ADD009,  4380, 0x7ADD0027, 111.5571, 162.8035, 247.1966, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

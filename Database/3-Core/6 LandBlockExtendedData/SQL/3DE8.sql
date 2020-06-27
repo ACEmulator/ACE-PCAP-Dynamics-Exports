@@ -5,15 +5,15 @@ VALUES (0x73DE8001,  1154, 0x3DE80007, 12.2073, 154.651, 0.006600022, -0.7895396
 /* @teleloc 0x3DE80007 [12.207300 154.651000 0.006600] -0.789540 0.000000 0.000000 -0.613700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DE8001, 0x73DE8002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73DE8001, 0x73DE8003, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73DE8001, 0x73DE8004, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73DE8001, 0x73DE8005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73DE8001, 0x73DE8006, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73DE8001, 0x73DE8007, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73DE8001, 0x73DE8008, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x73DE8001, 0x73DE8009, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73DE8001, 0x73DE800A, '2019-02-10 00:00:00') /* Ruschk Sadist */;
+VALUES (0x73DE8001, 0x73DE8002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73DE8001, 0x73DE8003, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73DE8001, 0x73DE8004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73DE8001, 0x73DE8005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73DE8001, 0x73DE8006, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73DE8001, 0x73DE8007, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73DE8001, 0x73DE8008, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x73DE8001, 0x73DE8009, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73DE8001, 0x73DE800A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DE8002, 28668, 0x3DE80007, 12.2073, 154.651, 0.006600022, -0.7895396, 0, 0, -0.6136997,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

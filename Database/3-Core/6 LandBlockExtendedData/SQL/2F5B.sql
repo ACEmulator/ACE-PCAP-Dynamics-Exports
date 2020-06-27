@@ -5,28 +5,28 @@ VALUES (0x72F5B001,  1154, 0x2F5B001B, 86.94044, 62.46806, 37.99549, -0.4815866,
 /* @teleloc 0x2F5B001B [86.940440 62.468060 37.995490] -0.481587 0.000000 0.000000 -0.876399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F5B001, 0x72F5B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F5B001, 0x72F5B003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72F5B001, 0x72F5B004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72F5B001, 0x72F5B005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F5B001, 0x72F5B006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F5B001, 0x72F5B007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F5B001, 0x72F5B008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F5B001, 0x72F5B009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72F5B001, 0x72F5B00A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F5B001, 0x72F5B00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72F5B001, 0x72F5B00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F5B001, 0x72F5B00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F5B001, 0x72F5B00E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72F5B001, 0x72F5B00F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72F5B001, 0x72F5B010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F5B001, 0x72F5B011, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F5B001, 0x72F5B012, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x72F5B001, 0x72F5B013, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72F5B001, 0x72F5B014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F5B001, 0x72F5B015, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F5B001, 0x72F5B016, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F5B001, 0x72F5B017, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x72F5B001, 0x72F5B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F5B001, 0x72F5B003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72F5B001, 0x72F5B004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72F5B001, 0x72F5B005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F5B001, 0x72F5B006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F5B001, 0x72F5B007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F5B001, 0x72F5B008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F5B001, 0x72F5B009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72F5B001, 0x72F5B00A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F5B001, 0x72F5B00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72F5B001, 0x72F5B00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F5B001, 0x72F5B00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F5B001, 0x72F5B00E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72F5B001, 0x72F5B00F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72F5B001, 0x72F5B010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F5B001, 0x72F5B011, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72F5B001, 0x72F5B012, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x72F5B001, 0x72F5B013, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x72F5B001, 0x72F5B014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F5B001, 0x72F5B015, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F5B001, 0x72F5B016, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F5B001, 0x72F5B017, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F5B002,  7119, 0x2F5B001B, 86.94044, 62.46806, 37.99549, -0.4815866, 0, 0, -0.8763985,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -121,9 +121,9 @@ VALUES (0x72F5B018,  1542, 0x2F5B0015, 57.88472, 108.3857, 52.49669, 0.9914449, 
 /* @teleloc 0x2F5B0015 [57.884720 108.385700 52.496690] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F5B018, 0x72F5B019, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F5B018, 0x72F5B01A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72F5B018, 0x72F5B01B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F5B018, 0x72F5B019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F5B018, 0x72F5B01A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72F5B018, 0x72F5B01B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F5B019,  4380, 0x2F5B0015, 57.88472, 108.3857, 52.49669, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

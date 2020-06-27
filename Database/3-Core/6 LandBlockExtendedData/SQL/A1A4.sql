@@ -201,12 +201,12 @@ VALUES (0x7A1A408C,  1154, 0xA1A4002C, 133.375, 80.1674, 50, 0.6895869, 0, 0, 0.
 /* @teleloc 0xA1A4002C [133.375000 80.167400 50.000000] 0.689587 0.000000 0.000000 0.724203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A408C, 0x7A1A408D, '2019-02-10 00:00:00') /* Sword of Frozen Fury */
-     , (0x7A1A408C, 0x7A1A408E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A1A408C, 0x7A1A408F, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A1A408C, 0x7A1A4090, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7A1A408C, 0x7A1A4091, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A1A408C, 0x7A1A4092, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7A1A408C, 0x7A1A408D, '2019-02-10 00:00:00') /* Sword of Frozen Fury (24067) */
+     , (0x7A1A408C, 0x7A1A408E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A1A408C, 0x7A1A408F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A1A408C, 0x7A1A4090, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7A1A408C, 0x7A1A4091, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A1A408C, 0x7A1A4092, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A408D, 24067, 0xA1A4002C, 133.375, 80.1674, 50, 0.6895869, 0, 0, 0.7242029,  True, '2019-02-10 00:00:00'); /* Sword of Frozen Fury */
@@ -237,18 +237,18 @@ VALUES (0x7A1A4093,  1154, 0xA1A40104, 66, 151.08, 49.925, 0.9205049, 0, 0, -0.3
 /* @teleloc 0xA1A40104 [66.000000 151.080000 49.925000] 0.920505 0.000000 0.000000 -0.390731 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A4093, 0x7A1A4094, '2019-02-10 00:00:00') /* Londigul Ellic the Armorer */
-     , (0x7A1A4093, 0x7A1A4095, '2019-02-10 00:00:00') /* Tomo Genza */
-     , (0x7A1A4093, 0x7A1A4096, '2019-02-10 00:00:00') /* Captain Sovano */
-     , (0x7A1A4093, 0x7A1A4097, '2019-02-10 00:00:00') /* Captain Anrayl */
-     , (0x7A1A4093, 0x7A1A4098, '2019-02-10 00:00:00') /* Captain Nyino */
-     , (0x7A1A4093, 0x7A1A4099, '2019-02-10 00:00:00') /* Ivory Crafter */
-     , (0x7A1A4093, 0x7A1A409A, '2019-02-10 00:00:00') /* Copper Vanurp */
-     , (0x7A1A4093, 0x7A1A409B, '2019-02-10 00:00:00') /* Tiffany Comfore */
-     , (0x7A1A4093, 0x7A1A409C, '2019-02-10 00:00:00') /* Wils Morrem */
-     , (0x7A1A4093, 0x7A1A409D, '2019-02-10 00:00:00') /* Student */
-     , (0x7A1A4093, 0x7A1A409E, '2019-02-10 00:00:00') /* Apprentice Cook */
-     , (0x7A1A4093, 0x7A1A409F, '2019-02-10 00:00:00') /* Wing Collector */;
+VALUES (0x7A1A4093, 0x7A1A4094, '2019-02-10 00:00:00') /* Londigul Ellic the Armorer (32360) */
+     , (0x7A1A4093, 0x7A1A4095, '2019-02-10 00:00:00') /* Tomo Genza (32362) */
+     , (0x7A1A4093, 0x7A1A4096, '2019-02-10 00:00:00') /* Captain Sovano (32394) */
+     , (0x7A1A4093, 0x7A1A4097, '2019-02-10 00:00:00') /* Captain Anrayl (32395) */
+     , (0x7A1A4093, 0x7A1A4098, '2019-02-10 00:00:00') /* Captain Nyino (32396) */
+     , (0x7A1A4093, 0x7A1A4099, '2019-02-10 00:00:00') /* Ivory Crafter (3925) */
+     , (0x7A1A4093, 0x7A1A409A, '2019-02-10 00:00:00') /* Copper Vanurp (22075) */
+     , (0x7A1A4093, 0x7A1A409B, '2019-02-10 00:00:00') /* Tiffany Comfore (22074) */
+     , (0x7A1A4093, 0x7A1A409C, '2019-02-10 00:00:00') /* Wils Morrem (22076) */
+     , (0x7A1A4093, 0x7A1A409D, '2019-02-10 00:00:00') /* Student (22893) */
+     , (0x7A1A4093, 0x7A1A409E, '2019-02-10 00:00:00') /* Apprentice Cook (28185) */
+     , (0x7A1A4093, 0x7A1A409F, '2019-02-10 00:00:00') /* Wing Collector (3923) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A4094, 32360, 0xA1A40104, 66, 151.08, 49.925, 0.9205049, 0, 0, -0.390731,  True, '2019-02-10 00:00:00'); /* Londigul Ellic the Armorer */
@@ -303,15 +303,15 @@ VALUES (0x7A1A40A0,  1542, 0xA1A40030, 129.6849, 186.445, 50.0057, -0.07062688, 
 /* @teleloc 0xA1A40030 [129.684900 186.445000 50.005700] -0.070627 0.000000 0.000000 -0.997503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A40A0, 0x7A1A40A1, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A1A40A0, 0x7A1A40A2, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A1A40A0, 0x7A1A40A3, '2019-02-10 00:00:00') /* Platemail Sleeves */
-     , (0x7A1A40A0, 0x7A1A40A4, '2019-02-10 00:00:00') /* Heaume */
-     , (0x7A1A40A0, 0x7A1A40A5, '2019-02-10 00:00:00') /* Platemail Breastplate */
-     , (0x7A1A40A0, 0x7A1A40A6, '2019-02-10 00:00:00') /* Gem of Knowledge */
-     , (0x7A1A40A0, 0x7A1A40A7, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A1A40A0, 0x7A1A40A8, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A1A40A0, 0x7A1A40A9, '2019-02-10 00:00:00') /* Bundle of Prismatic Arrowheads */;
+VALUES (0x7A1A40A0, 0x7A1A40A1, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A1A40A0, 0x7A1A40A2, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A1A40A0, 0x7A1A40A3, '2019-02-10 00:00:00') /* Platemail Sleeves (103) */
+     , (0x7A1A40A0, 0x7A1A40A4, '2019-02-10 00:00:00') /* Heaume (8489) */
+     , (0x7A1A40A0, 0x7A1A40A5, '2019-02-10 00:00:00') /* Platemail Breastplate (40) */
+     , (0x7A1A40A0, 0x7A1A40A6, '2019-02-10 00:00:00') /* Gem of Knowledge (36510) */
+     , (0x7A1A40A0, 0x7A1A40A7, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A1A40A0, 0x7A1A40A8, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A1A40A0, 0x7A1A40A9, '2019-02-10 00:00:00') /* Bundle of Prismatic Arrowheads (44070) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A40A1,    14, 0xA1A40030, 129.6849, 186.445, 50.0057, -0.07062688, 0, 0, -0.9975028,  True, '2019-02-10 00:00:00'); /* Cow */

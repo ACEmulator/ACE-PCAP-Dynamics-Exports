@@ -9,30 +9,30 @@ VALUES (0x7BED3001,  1154, 0xBED30031, 147.0819, 14.56902, 154.8814, 0.7071068, 
 /* @teleloc 0xBED30031 [147.081900 14.569020 154.881400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED3001, 0x7BED3002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED3001, 0x7BED3003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED3001, 0x7BED3004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7BED3001, 0x7BED3005, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7BED3001, 0x7BED3006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BED3001, 0x7BED3007, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BED3001, 0x7BED3008, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BED3001, 0x7BED3009, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BED3001, 0x7BED300A, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BED3001, 0x7BED300B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BED3001, 0x7BED300C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED3001, 0x7BED300D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BED3001, 0x7BED300E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED3001, 0x7BED300F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED3001, 0x7BED3010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BED3001, 0x7BED3011, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BED3001, 0x7BED3012, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BED3001, 0x7BED3013, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BED3001, 0x7BED3014, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED3001, 0x7BED3015, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BED3001, 0x7BED3016, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BED3001, 0x7BED3017, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BED3001, 0x7BED3018, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED3001, 0x7BED3019, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BED3001, 0x7BED3002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED3001, 0x7BED3003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED3001, 0x7BED3004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7BED3001, 0x7BED3005, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7BED3001, 0x7BED3006, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BED3001, 0x7BED3007, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7BED3001, 0x7BED3008, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7BED3001, 0x7BED3009, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7BED3001, 0x7BED300A, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7BED3001, 0x7BED300B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BED3001, 0x7BED300C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED3001, 0x7BED300D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BED3001, 0x7BED300E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED3001, 0x7BED300F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED3001, 0x7BED3010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BED3001, 0x7BED3011, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BED3001, 0x7BED3012, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BED3001, 0x7BED3013, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BED3001, 0x7BED3014, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED3001, 0x7BED3015, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BED3001, 0x7BED3016, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BED3001, 0x7BED3017, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BED3001, 0x7BED3018, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED3001, 0x7BED3019, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED3002,   199, 0xBED30031, 147.0819, 14.56902, 154.8814, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -135,9 +135,9 @@ VALUES (0x7BED301A,  1542, 0xBED30031, 147.5762, 12.43615, 155.487, -0.5865172, 
 /* @teleloc 0xBED30031 [147.576200 12.436150 155.487000] -0.586517 0.000000 0.000000 -0.809937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED301A, 0x7BED301B, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7BED301A, 0x7BED301C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BED301A, 0x7BED301D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BED301A, 0x7BED301B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7BED301A, 0x7BED301C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BED301A, 0x7BED301D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED301B,  8646, 0xBED30031, 147.5762, 12.43615, 155.487, -0.5865172, 0, 0, -0.8099368,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

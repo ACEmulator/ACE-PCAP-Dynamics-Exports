@@ -5,14 +5,14 @@ VALUES (0x7B04C001,  1154, 0xB04C002B, 141.5108, 67.35188, 19.61406, 1, 0, 0, 0,
 /* @teleloc 0xB04C002B [141.510800 67.351880 19.614060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B04C001, 0x7B04C002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B04C001, 0x7B04C003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B04C001, 0x7B04C004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B04C001, 0x7B04C005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B04C001, 0x7B04C006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B04C001, 0x7B04C007, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7B04C001, 0x7B04C008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B04C001, 0x7B04C009, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7B04C001, 0x7B04C002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B04C001, 0x7B04C003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B04C001, 0x7B04C004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B04C001, 0x7B04C005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B04C001, 0x7B04C006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B04C001, 0x7B04C007, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B04C001, 0x7B04C008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B04C001, 0x7B04C009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B04C002,    18, 0xB04C002B, 141.5108, 67.35188, 19.61406, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -51,7 +51,7 @@ VALUES (0x7B04C00A,  1542, 0xB04C000D, 39.96675, 118.9694, 23.42394, 0.9990482, 
 /* @teleloc 0xB04C000D [39.966750 118.969400 23.423940] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B04C00A, 0x7B04C00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B04C00A, 0x7B04C00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B04C00B,  4179, 0xB04C000D, 39.96675, 118.9694, 23.42394, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

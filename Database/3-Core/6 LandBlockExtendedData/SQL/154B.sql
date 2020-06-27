@@ -5,12 +5,12 @@ VALUES (0x7154B001,  1154, 0x154B000E, 39.10475, 136.2297, 44.00455, -0.4654905,
 /* @teleloc 0x154B000E [39.104750 136.229700 44.004550] -0.465491 0.000000 0.000000 -0.885053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154B001, 0x7154B002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7154B001, 0x7154B003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7154B001, 0x7154B004, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7154B001, 0x7154B005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7154B001, 0x7154B006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7154B001, 0x7154B007, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x7154B001, 0x7154B002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7154B001, 0x7154B003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7154B001, 0x7154B004, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7154B001, 0x7154B005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7154B001, 0x7154B006, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7154B001, 0x7154B007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154B002, 36821, 0x154B000E, 39.10475, 136.2297, 44.00455, -0.4654905, 0, 0, -0.8850529,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

@@ -5,12 +5,12 @@ VALUES (0x74E31001,  1154, 0x4E310038, 167.9765, 171.1345, -0.09000003, 0.766044
 /* @teleloc 0x4E310038 [167.976500 171.134500 -0.090000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E31001, 0x74E31002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74E31001, 0x74E31003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74E31001, 0x74E31004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74E31001, 0x74E31005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74E31001, 0x74E31006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74E31001, 0x74E31007, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x74E31001, 0x74E31002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74E31001, 0x74E31003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74E31001, 0x74E31004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74E31001, 0x74E31005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74E31001, 0x74E31006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74E31001, 0x74E31007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E31002, 36834, 0x4E310038, 167.9765, 171.1345, -0.09000003, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

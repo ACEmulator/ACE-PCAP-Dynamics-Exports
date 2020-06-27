@@ -5,17 +5,17 @@ VALUES (0x7AC67001,  1154, 0xAC67001F, 80.9867, 162.9627, 39.75335, -0.2034104, 
 /* @teleloc 0xAC67001F [80.986700 162.962700 39.753350] -0.203410 0.000000 0.000000 -0.979094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC67001, 0x7AC67002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AC67001, 0x7AC67003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AC67001, 0x7AC67004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AC67001, 0x7AC67005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AC67001, 0x7AC67006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC67001, 0x7AC67007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC67001, 0x7AC67008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AC67001, 0x7AC67009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC67001, 0x7AC6700A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC67001, 0x7AC6700B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC67001, 0x7AC6700C, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AC67001, 0x7AC67002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AC67001, 0x7AC67003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AC67001, 0x7AC67004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AC67001, 0x7AC67005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AC67001, 0x7AC67006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC67001, 0x7AC67007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC67001, 0x7AC67008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AC67001, 0x7AC67009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AC67001, 0x7AC6700A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC67001, 0x7AC6700B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC67001, 0x7AC6700C, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC67002,  8673, 0xAC67001F, 80.9867, 162.9627, 39.75335, -0.2034104, 0, 0, -0.9790936,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -66,7 +66,7 @@ VALUES (0x7AC6700D,  1542, 0xAC670027, 109.2001, 150.8609, 29.8413, 1, 0, 0, 0, 
 /* @teleloc 0xAC670027 [109.200100 150.860900 29.841300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC6700D, 0x7AC6700E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AC6700D, 0x7AC6700E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC6700E, 31443, 0xAC670027, 109.2001, 150.8609, 29.8413, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

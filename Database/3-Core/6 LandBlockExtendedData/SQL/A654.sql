@@ -5,12 +5,12 @@ VALUES (0x7A654001,  1154, 0xA6540039, 179.268, 15.7338, 22.01, -0.3564445, 0, 0
 /* @teleloc 0xA6540039 [179.268000 15.733800 22.010000] -0.356445 0.000000 0.000000 -0.934317 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A654001, 0x7A654002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A654001, 0x7A654003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A654001, 0x7A654004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A654001, 0x7A654005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A654001, 0x7A654006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A654001, 0x7A654007, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x7A654001, 0x7A654002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A654001, 0x7A654003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A654001, 0x7A654004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A654001, 0x7A654005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A654001, 0x7A654006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A654001, 0x7A654007, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A654002,  8142, 0xA6540039, 179.268, 15.7338, 22.01, -0.3564445, 0, 0, -0.9343165,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */

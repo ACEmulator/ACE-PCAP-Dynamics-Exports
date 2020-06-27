@@ -5,22 +5,22 @@ VALUES (0x743C3001,  1154, 0x43C3002C, 123.2901, 82.75167, 10.92497, 0.8191521, 
 /* @teleloc 0x43C3002C [123.290100 82.751670 10.924970] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743C3001, 0x743C3002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x743C3001, 0x743C3003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x743C3001, 0x743C3004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743C3001, 0x743C3005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x743C3001, 0x743C3006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743C3001, 0x743C3007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743C3001, 0x743C3008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x743C3001, 0x743C3009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743C3001, 0x743C300A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743C3001, 0x743C300B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743C3001, 0x743C300C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x743C3001, 0x743C300D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x743C3001, 0x743C300E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743C3001, 0x743C300F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743C3001, 0x743C3010, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743C3001, 0x743C3011, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x743C3001, 0x743C3002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x743C3001, 0x743C3003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x743C3001, 0x743C3004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743C3001, 0x743C3005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x743C3001, 0x743C3006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743C3001, 0x743C3007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743C3001, 0x743C3008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x743C3001, 0x743C3009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743C3001, 0x743C300A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743C3001, 0x743C300B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743C3001, 0x743C300C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x743C3001, 0x743C300D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x743C3001, 0x743C300E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743C3001, 0x743C300F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743C3001, 0x743C3010, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743C3001, 0x743C3011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743C3002,  7340, 0x43C3002C, 123.2901, 82.75167, 10.92497, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -91,9 +91,9 @@ VALUES (0x743C3012,  1542, 0x43C3002C, 124.1553, 84.81358, 12.26797, 1, 0, 0, 0,
 /* @teleloc 0x43C3002C [124.155300 84.813580 12.267970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743C3012, 0x743C3013, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x743C3012, 0x743C3014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x743C3012, 0x743C3015, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x743C3012, 0x743C3013, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x743C3012, 0x743C3014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x743C3012, 0x743C3015, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743C3013,  8999, 0x43C3002C, 124.1553, 84.81358, 12.26797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

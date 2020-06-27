@@ -5,10 +5,10 @@ VALUES (0x7C1A6001,  1154, 0xC1A60030, 139.0996, 168.3293, 52.00825, -0.6708372,
 /* @teleloc 0xC1A60030 [139.099600 168.329300 52.008250] -0.670837 0.000000 0.000000 -0.741605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A6001, 0x7C1A6002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C1A6001, 0x7C1A6003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1A6001, 0x7C1A6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C1A6001, 0x7C1A6005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C1A6001, 0x7C1A6002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C1A6001, 0x7C1A6003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1A6001, 0x7C1A6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C1A6001, 0x7C1A6005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A6002,  8673, 0xC1A60030, 139.0996, 168.3293, 52.00825, -0.6708372, 0, 0, -0.7416046,  True, '2019-02-10 00:00:00'); /* Risen Knight */

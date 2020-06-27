@@ -5,8 +5,8 @@ VALUES (0x7A0C1001,  1154, 0xA0C1001E, 83.35068, 133.6885, 69.1528, -0.1736482, 
 /* @teleloc 0xA0C1001E [83.350680 133.688500 69.152800] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0C1001, 0x7A0C1002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0C1001, 0x7A0C1003, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A0C1001, 0x7A0C1002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0C1001, 0x7A0C1003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0C1002,  1627, 0xA0C1001E, 83.35068, 133.6885, 69.1528, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

@@ -5,19 +5,19 @@ VALUES (0x736E8001,  1154, 0x36E80007, 12.60708, 162.6992, 4.843229, -0.06454143
 /* @teleloc 0x36E80007 [12.607080 162.699200 4.843229] -0.064541 0.000000 0.000000 -0.997915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736E8001, 0x736E8002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x736E8001, 0x736E8003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x736E8001, 0x736E8004, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x736E8001, 0x736E8005, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x736E8001, 0x736E8006, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x736E8001, 0x736E8007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736E8001, 0x736E8008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x736E8001, 0x736E8009, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x736E8001, 0x736E800A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x736E8001, 0x736E800B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x736E8001, 0x736E800C, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x736E8001, 0x736E800D, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x736E8001, 0x736E800E, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x736E8001, 0x736E8002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x736E8001, 0x736E8003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x736E8001, 0x736E8004, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x736E8001, 0x736E8005, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x736E8001, 0x736E8006, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x736E8001, 0x736E8007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736E8001, 0x736E8008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736E8001, 0x736E8009, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x736E8001, 0x736E800A, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x736E8001, 0x736E800B, '2019-02-10 00:00:00') /* Banderling Enforcer (7331) */
+     , (0x736E8001, 0x736E800C, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x736E8001, 0x736E800D, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x736E8001, 0x736E800E, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736E8002, 24290, 0x36E80007, 12.60708, 162.6992, 4.843229, -0.06454143, 0, 0, -0.997915,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

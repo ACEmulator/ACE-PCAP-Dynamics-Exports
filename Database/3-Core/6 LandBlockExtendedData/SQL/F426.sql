@@ -9,15 +9,15 @@ VALUES (0x7F426001,  1154, 0xF4260039, 173.0566, 21.34417, -0.08700001, -0.01829
 /* @teleloc 0xF4260039 [173.056600 21.344170 -0.087000] -0.018290 0.000000 0.000000 -0.999833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F426001, 0x7F426002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F426001, 0x7F426003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F426001, 0x7F426004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F426001, 0x7F426005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F426001, 0x7F426006, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F426001, 0x7F426007, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F426001, 0x7F426008, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F426001, 0x7F426009, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F426001, 0x7F42600A, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F426001, 0x7F426002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F426001, 0x7F426003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F426001, 0x7F426004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F426001, 0x7F426005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F426001, 0x7F426006, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F426001, 0x7F426007, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F426001, 0x7F426008, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F426001, 0x7F426009, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F426001, 0x7F42600A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F426002,  7183, 0xF4260039, 173.0566, 21.34417, -0.08700001, -0.01829026, 0, 0, -0.9998327,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

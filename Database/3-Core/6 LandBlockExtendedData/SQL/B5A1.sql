@@ -5,21 +5,21 @@ VALUES (0x7B5A1001,  1154, 0xB5A1003C, 172.1501, 72.51197, 48.97447, -0.9634916,
 /* @teleloc 0xB5A1003C [172.150100 72.511970 48.974470] -0.963492 0.000000 0.000000 -0.267739 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A1001, 0x7B5A1002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B5A1001, 0x7B5A1003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B5A1001, 0x7B5A1004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B5A1001, 0x7B5A1005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B5A1001, 0x7B5A1006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B5A1001, 0x7B5A1007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B5A1001, 0x7B5A1008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B5A1001, 0x7B5A1009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B5A1001, 0x7B5A100A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B5A1001, 0x7B5A100B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B5A1001, 0x7B5A100C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B5A1001, 0x7B5A100D, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B5A1001, 0x7B5A100E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B5A1001, 0x7B5A100F, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B5A1001, 0x7B5A1010, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7B5A1001, 0x7B5A1002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B5A1001, 0x7B5A1003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B5A1001, 0x7B5A1004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B5A1001, 0x7B5A1005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B5A1001, 0x7B5A1006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B5A1001, 0x7B5A1007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B5A1001, 0x7B5A1008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B5A1001, 0x7B5A1009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B5A1001, 0x7B5A100A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B5A1001, 0x7B5A100B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B5A1001, 0x7B5A100C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B5A1001, 0x7B5A100D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B5A1001, 0x7B5A100E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B5A1001, 0x7B5A100F, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B5A1001, 0x7B5A1010, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A1002,   216, 0xB5A1003C, 172.1501, 72.51197, 48.97447, -0.9634916, 0, 0, -0.2677386,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */
@@ -86,7 +86,7 @@ VALUES (0x7B5A1011,  1542, 0xB5A1003B, 191.5456, 51.62597, 49.13137, 1, 0, 0, 0,
 /* @teleloc 0xB5A1003B [191.545600 51.625970 49.131370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A1011, 0x7B5A1012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B5A1011, 0x7B5A1012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A1012,  4179, 0xB5A1003B, 191.5456, 51.62597, 49.13137, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,11 +5,11 @@ VALUES (0x73C36001,  1154, 0x3C360030, 124.8549, 171.0056, 31.78216, 0.8092204, 
 /* @teleloc 0x3C360030 [124.854900 171.005600 31.782160] 0.809220 0.000000 0.000000 -0.587505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C36001, 0x73C36002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C36001, 0x73C36003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73C36001, 0x73C36004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73C36001, 0x73C36005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73C36001, 0x73C36006, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x73C36001, 0x73C36002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C36001, 0x73C36003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73C36001, 0x73C36004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73C36001, 0x73C36005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73C36001, 0x73C36006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C36002, 38180, 0x3C360030, 124.8549, 171.0056, 31.78216, 0.8092204, 0, 0, -0.5875052,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */

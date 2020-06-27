@@ -5,11 +5,11 @@ VALUES (0x7D6B7001,  1154, 0xD6B70002, 18.67615, 45.67677, 51.90563, 0.7660445, 
 /* @teleloc 0xD6B70002 [18.676150 45.676770 51.905630] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6B7001, 0x7D6B7002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D6B7001, 0x7D6B7003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D6B7001, 0x7D6B7004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D6B7001, 0x7D6B7005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D6B7001, 0x7D6B7006, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7D6B7001, 0x7D6B7002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D6B7001, 0x7D6B7003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D6B7001, 0x7D6B7004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D6B7001, 0x7D6B7005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D6B7001, 0x7D6B7006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6B7002,   195, 0xD6B70002, 18.67615, 45.67677, 51.90563, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -36,7 +36,7 @@ VALUES (0x7D6B7007,  1542, 0xD6B70002, 0.3193388, 34.03448, 48.14254, -0.4881876
 /* @teleloc 0xD6B70002 [0.319339 34.034480 48.142540] -0.488188 0.000000 0.000000 -0.872739 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6B7007, 0x7D6B7008, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7D6B7007, 0x7D6B7008, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6B7008,  8644, 0xD6B70002, 0.3193388, 34.03448, 48.14254, -0.4881876, 0, 0, -0.8727387,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

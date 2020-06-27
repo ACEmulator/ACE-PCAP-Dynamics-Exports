@@ -5,12 +5,12 @@ VALUES (0x7F655001,  1154, 0xF6550032, 160.6651, 46.68368, 61.55006, 0.3549819, 
 /* @teleloc 0xF6550032 [160.665100 46.683680 61.550060] 0.354982 0.000000 0.000000 -0.934873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F655001, 0x7F655002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F655001, 0x7F655003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F655001, 0x7F655004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F655001, 0x7F655005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F655001, 0x7F655006, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7F655001, 0x7F655007, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7F655001, 0x7F655002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F655001, 0x7F655003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F655001, 0x7F655004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F655001, 0x7F655005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F655001, 0x7F655006, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7F655001, 0x7F655007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F655002,  7978, 0xF6550032, 160.6651, 46.68368, 61.55006, 0.3549819, 0, 0, -0.9348732,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

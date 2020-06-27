@@ -5,21 +5,21 @@ VALUES (0x7A5D9001,  1154, 0xA5D90007, 10.52361, 150.2751, 65.20622, 0.8546941, 
 /* @teleloc 0xA5D90007 [10.523610 150.275100 65.206220] 0.854694 0.000000 0.000000 -0.519132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D9001, 0x7A5D9002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A5D9001, 0x7A5D9003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A5D9001, 0x7A5D9004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A5D9001, 0x7A5D9005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A5D9001, 0x7A5D9006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A5D9001, 0x7A5D9007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A5D9001, 0x7A5D9008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A5D9001, 0x7A5D9009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7A5D9001, 0x7A5D900A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A5D9001, 0x7A5D900B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A5D9001, 0x7A5D900C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A5D9001, 0x7A5D900D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A5D9001, 0x7A5D900E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A5D9001, 0x7A5D900F, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7A5D9001, 0x7A5D9010, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7A5D9001, 0x7A5D9002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A5D9001, 0x7A5D9003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A5D9001, 0x7A5D9004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A5D9001, 0x7A5D9005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A5D9001, 0x7A5D9006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A5D9001, 0x7A5D9007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A5D9001, 0x7A5D9008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A5D9001, 0x7A5D9009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7A5D9001, 0x7A5D900A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A5D9001, 0x7A5D900B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A5D9001, 0x7A5D900C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A5D9001, 0x7A5D900D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A5D9001, 0x7A5D900E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A5D9001, 0x7A5D900F, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7A5D9001, 0x7A5D9010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D9002, 23565, 0xA5D90007, 10.52361, 150.2751, 65.20622, 0.8546941, 0, 0, -0.519132,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

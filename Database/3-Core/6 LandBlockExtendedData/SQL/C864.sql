@@ -5,10 +5,10 @@ VALUES (0x7C864001,  1154, 0xC864000C, 24.3111, 72.79518, 24.0066, 0.06104851, 0
 /* @teleloc 0xC864000C [24.311100 72.795180 24.006600] 0.061049 0.000000 0.000000 -0.998135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C864001, 0x7C864002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C864001, 0x7C864003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C864001, 0x7C864004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C864001, 0x7C864005, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7C864001, 0x7C864002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C864001, 0x7C864003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C864001, 0x7C864004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C864001, 0x7C864005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C864002,  8427, 0xC864000C, 24.3111, 72.79518, 24.0066, 0.06104851, 0, 0, -0.9981348,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */

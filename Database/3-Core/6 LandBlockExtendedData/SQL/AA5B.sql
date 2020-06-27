@@ -5,14 +5,14 @@ VALUES (0x7AA5B001,  1154, 0xAA5B000C, 34.42942, 91.46663, 32.38778, 0.7071068, 
 /* @teleloc 0xAA5B000C [34.429420 91.466630 32.387780] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA5B001, 0x7AA5B002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA5B001, 0x7AA5B003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA5B001, 0x7AA5B004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AA5B001, 0x7AA5B005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA5B001, 0x7AA5B006, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA5B001, 0x7AA5B007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA5B001, 0x7AA5B008, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7AA5B001, 0x7AA5B009, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7AA5B001, 0x7AA5B002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA5B001, 0x7AA5B003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA5B001, 0x7AA5B004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AA5B001, 0x7AA5B005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA5B001, 0x7AA5B006, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA5B001, 0x7AA5B007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA5B001, 0x7AA5B008, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7AA5B001, 0x7AA5B009, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA5B002,   194, 0xAA5B000C, 34.42942, 91.46663, 32.38778, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Golem */

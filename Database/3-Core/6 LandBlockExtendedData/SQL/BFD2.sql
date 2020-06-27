@@ -17,39 +17,39 @@ VALUES (0x7BFD2004,  1154, 0xBFD20007, 22.36455, 166.0718, 177.5957, 0.9238795, 
 /* @teleloc 0xBFD20007 [22.364550 166.071800 177.595700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD2004, 0x7BFD2005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFD2004, 0x7BFD2006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFD2004, 0x7BFD2007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD2008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFD2004, 0x7BFD2009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD200A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BFD2004, 0x7BFD200B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BFD2004, 0x7BFD200C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD200D, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BFD2004, 0x7BFD200E, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BFD2004, 0x7BFD200F, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BFD2004, 0x7BFD2010, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BFD2004, 0x7BFD2011, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BFD2004, 0x7BFD2012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD2013, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFD2004, 0x7BFD2014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BFD2004, 0x7BFD2015, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BFD2004, 0x7BFD2016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BFD2004, 0x7BFD2017, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFD2004, 0x7BFD2018, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BFD2004, 0x7BFD2019, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD201A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BFD2004, 0x7BFD201B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BFD2004, 0x7BFD201C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BFD2004, 0x7BFD201D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BFD2004, 0x7BFD201E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BFD2004, 0x7BFD201F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BFD2004, 0x7BFD2020, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD2021, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD2004, 0x7BFD2022, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFD2004, 0x7BFD2023, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BFD2004, 0x7BFD2024, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BFD2004, 0x7BFD2025, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7BFD2004, 0x7BFD2005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFD2004, 0x7BFD2006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFD2004, 0x7BFD2007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD2008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFD2004, 0x7BFD2009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD200A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BFD2004, 0x7BFD200B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BFD2004, 0x7BFD200C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD200D, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7BFD2004, 0x7BFD200E, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BFD2004, 0x7BFD200F, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7BFD2004, 0x7BFD2010, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BFD2004, 0x7BFD2011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BFD2004, 0x7BFD2012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD2013, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFD2004, 0x7BFD2014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BFD2004, 0x7BFD2015, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BFD2004, 0x7BFD2016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BFD2004, 0x7BFD2017, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFD2004, 0x7BFD2018, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BFD2004, 0x7BFD2019, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD201A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BFD2004, 0x7BFD201B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BFD2004, 0x7BFD201C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BFD2004, 0x7BFD201D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BFD2004, 0x7BFD201E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BFD2004, 0x7BFD201F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BFD2004, 0x7BFD2020, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD2021, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD2004, 0x7BFD2022, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFD2004, 0x7BFD2023, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BFD2004, 0x7BFD2024, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BFD2004, 0x7BFD2025, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD2005,  7090, 0xBFD20007, 22.36455, 166.0718, 177.5957, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -188,14 +188,14 @@ VALUES (0x7BFD2026,  1542, 0xBFD20026, 102.6316, 122.3746, 210.4084, 1, 0, 0, 0,
 /* @teleloc 0xBFD20026 [102.631600 122.374600 210.408400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD2026, 0x7BFD2027, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BFD2026, 0x7BFD2028, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BFD2026, 0x7BFD2029, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7BFD2026, 0x7BFD202A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BFD2026, 0x7BFD202B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BFD2026, 0x7BFD202C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BFD2026, 0x7BFD202D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BFD2026, 0x7BFD202E, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7BFD2026, 0x7BFD2027, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BFD2026, 0x7BFD2028, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BFD2026, 0x7BFD2029, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7BFD2026, 0x7BFD202A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BFD2026, 0x7BFD202B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BFD2026, 0x7BFD202C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BFD2026, 0x7BFD202D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BFD2026, 0x7BFD202E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD2027, 22567, 0xBFD20026, 102.6316, 122.3746, 210.4084, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

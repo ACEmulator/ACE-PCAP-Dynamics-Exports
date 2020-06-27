@@ -5,15 +5,15 @@ VALUES (0x7C52F001,  1154, 0xC52F0019, 90.76725, 8.384193, 226.4343, 0.7093065, 
 /* @teleloc 0xC52F0019 [90.767250 8.384193 226.434300] 0.709307 0.000000 0.000000 -0.704900 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C52F001, 0x7C52F002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C52F001, 0x7C52F003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C52F001, 0x7C52F004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C52F001, 0x7C52F005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C52F001, 0x7C52F006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C52F001, 0x7C52F007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C52F001, 0x7C52F008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C52F001, 0x7C52F009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C52F001, 0x7C52F00A, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7C52F001, 0x7C52F002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C52F001, 0x7C52F003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C52F001, 0x7C52F004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C52F001, 0x7C52F005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C52F001, 0x7C52F006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C52F001, 0x7C52F007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C52F001, 0x7C52F008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C52F001, 0x7C52F009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C52F001, 0x7C52F00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52F002, 14800, 0xC52F0019, 90.76725, 8.384193, 226.4343, 0.7093065, 0, 0, -0.7049002,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

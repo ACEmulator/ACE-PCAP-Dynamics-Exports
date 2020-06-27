@@ -5,17 +5,17 @@ VALUES (0x75B10001,  1154, 0x5B100035, 152.0438, 103.389, -0.9000001, 0.9535109,
 /* @teleloc 0x5B100035 [152.043800 103.389000 -0.900000] 0.953511 0.000000 0.000000 -0.301359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B10001, 0x75B10002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75B10001, 0x75B10003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75B10001, 0x75B10004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75B10001, 0x75B10005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75B10001, 0x75B10006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75B10001, 0x75B10007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75B10001, 0x75B10008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B10001, 0x75B10009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75B10001, 0x75B1000A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75B10001, 0x75B1000B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B10001, 0x75B1000C, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75B10001, 0x75B10002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75B10001, 0x75B10003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75B10001, 0x75B10004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75B10001, 0x75B10005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75B10001, 0x75B10006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75B10001, 0x75B10007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75B10001, 0x75B10008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B10001, 0x75B10009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75B10001, 0x75B1000A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75B10001, 0x75B1000B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B10001, 0x75B1000C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B10002,  7111, 0x5B100035, 152.0438, 103.389, -0.9000001, 0.9535109, 0, 0, -0.3013586,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

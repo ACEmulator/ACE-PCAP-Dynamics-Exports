@@ -5,23 +5,23 @@ VALUES (0x71875001,  1154, 0x18750020, 82.16834, 180.6083, 144.9593, -0.9947986,
 /* @teleloc 0x18750020 [82.168340 180.608300 144.959300] -0.994799 0.000000 0.000000 -0.101861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71875001, 0x71875002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71875001, 0x71875003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71875001, 0x71875004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71875001, 0x71875005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71875001, 0x71875006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71875001, 0x71875007, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71875001, 0x71875008, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71875001, 0x71875009, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71875001, 0x7187500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71875001, 0x7187500B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71875001, 0x7187500C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71875001, 0x7187500D, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71875001, 0x7187500E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71875001, 0x7187500F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71875001, 0x71875010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71875001, 0x71875011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71875001, 0x71875012, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x71875001, 0x71875002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71875001, 0x71875003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71875001, 0x71875004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71875001, 0x71875005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71875001, 0x71875006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71875001, 0x71875007, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71875001, 0x71875008, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71875001, 0x71875009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71875001, 0x7187500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71875001, 0x7187500B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71875001, 0x7187500C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71875001, 0x7187500D, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71875001, 0x7187500E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71875001, 0x7187500F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71875001, 0x71875010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71875001, 0x71875011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71875001, 0x71875012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71875002, 24497, 0x18750020, 82.16834, 180.6083, 144.9593, -0.9947986, 0, 0, -0.1018613,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -96,7 +96,7 @@ VALUES (0x71875013,  1542, 0x1875001A, 90.07838, 33.39759, 151.7365, 1, 0, 0, 0,
 /* @teleloc 0x1875001A [90.078380 33.397590 151.736500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71875013, 0x71875014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71875013, 0x71875014, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71875014, 22571, 0x1875001A, 90.07838, 33.39759, 151.7365, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

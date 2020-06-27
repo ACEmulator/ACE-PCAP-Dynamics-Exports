@@ -5,11 +5,11 @@ VALUES (0x777C2001,  1154, 0x77C2003D, 188.5094, 100.5991, 298.0045, -0.7446498,
 /* @teleloc 0x77C2003D [188.509400 100.599100 298.004500] -0.744650 0.000000 0.000000 -0.667455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C2001, 0x777C2002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x777C2001, 0x777C2003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x777C2001, 0x777C2004, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x777C2001, 0x777C2005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777C2001, 0x777C2006, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x777C2001, 0x777C2002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x777C2001, 0x777C2003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x777C2001, 0x777C2004, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x777C2001, 0x777C2005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777C2001, 0x777C2006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C2002, 24281, 0x77C2003D, 188.5094, 100.5991, 298.0045, -0.7446498, 0, 0, -0.6674553,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
@@ -36,9 +36,9 @@ VALUES (0x777C2007,  1542, 0x77C2003D, 172.1184, 99.85255, 298, -4.371139E-08, 0
 /* @teleloc 0x77C2003D [172.118400 99.852550 298.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C2007, 0x777C2008, '2019-02-10 00:00:00') /* Bones */
-     , (0x777C2007, 0x777C2009, '2019-02-10 00:00:00') /* Asheron's Second Missive */
-     , (0x777C2007, 0x777C200A, '2019-02-10 00:00:00') /* Instructions */;
+VALUES (0x777C2007, 0x777C2008, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x777C2007, 0x777C2009, '2019-02-10 00:00:00') /* Asheron's Second Missive (8814) */
+     , (0x777C2007, 0x777C200A, '2019-02-10 00:00:00') /* Instructions (24614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C2008,  4380, 0x77C2003D, 172.1184, 99.85255, 298, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

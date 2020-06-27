@@ -5,10 +5,10 @@ VALUES (0x75715001,  1154, 0x5715003D, 175.7891, 99.13851, 73.67168, -0.947964, 
 /* @teleloc 0x5715003D [175.789100 99.138510 73.671680] -0.947964 0.000000 0.000000 -0.318378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75715001, 0x75715002, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75715001, 0x75715003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75715001, 0x75715004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75715001, 0x75715005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75715001, 0x75715002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75715001, 0x75715003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75715001, 0x75715004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75715001, 0x75715005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75715002,  7117, 0x5715003D, 175.7891, 99.13851, 73.67168, -0.947964, 0, 0, -0.3183777,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */

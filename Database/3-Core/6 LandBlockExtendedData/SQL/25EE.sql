@@ -5,32 +5,32 @@ VALUES (0x725EE001,  1154, 0x25EE0032, 161.6919, 24.15017, 0, 0.4338773, 0, 0, -
 /* @teleloc 0x25EE0032 [161.691900 24.150170 0.000000] 0.433877 0.000000 0.000000 -0.900972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725EE001, 0x725EE002, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x725EE001, 0x725EE003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x725EE001, 0x725EE004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x725EE001, 0x725EE005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x725EE001, 0x725EE006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x725EE001, 0x725EE007, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x725EE001, 0x725EE008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x725EE001, 0x725EE009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x725EE001, 0x725EE00A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x725EE001, 0x725EE00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x725EE001, 0x725EE00C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x725EE001, 0x725EE00D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x725EE001, 0x725EE00E, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EE001, 0x725EE00F, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EE001, 0x725EE010, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EE001, 0x725EE011, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x725EE001, 0x725EE012, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x725EE001, 0x725EE013, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x725EE001, 0x725EE014, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x725EE001, 0x725EE015, '2019-02-10 00:00:00') /* Eater */
-     , (0x725EE001, 0x725EE016, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x725EE001, 0x725EE017, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x725EE001, 0x725EE018, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x725EE001, 0x725EE019, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x725EE001, 0x725EE01A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x725EE001, 0x725EE01B, '2019-02-10 00:00:00') /* Eater */;
+VALUES (0x725EE001, 0x725EE002, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x725EE001, 0x725EE003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x725EE001, 0x725EE004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x725EE001, 0x725EE005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x725EE001, 0x725EE006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x725EE001, 0x725EE007, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x725EE001, 0x725EE008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x725EE001, 0x725EE009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x725EE001, 0x725EE00A, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x725EE001, 0x725EE00B, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x725EE001, 0x725EE00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x725EE001, 0x725EE00D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x725EE001, 0x725EE00E, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EE001, 0x725EE00F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EE001, 0x725EE010, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EE001, 0x725EE011, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x725EE001, 0x725EE012, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x725EE001, 0x725EE013, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x725EE001, 0x725EE014, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x725EE001, 0x725EE015, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x725EE001, 0x725EE016, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x725EE001, 0x725EE017, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x725EE001, 0x725EE018, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x725EE001, 0x725EE019, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x725EE001, 0x725EE01A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x725EE001, 0x725EE01B, '2019-02-10 00:00:00') /* Eater (28640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725EE002, 29297, 0x25EE0032, 161.6919, 24.15017, 0, 0.4338773, 0, 0, -0.9009719,  True, '2019-02-10 00:00:00'); /* Truffle Thrungus */

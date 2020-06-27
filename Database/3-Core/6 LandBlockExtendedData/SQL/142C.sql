@@ -5,16 +5,16 @@ VALUES (0x7142C001,  1154, 0x142C0028, 112.8208, 179.6094, 14.14464, 0.973837, 0
 /* @teleloc 0x142C0028 [112.820800 179.609400 14.144640] 0.973837 0.000000 0.000000 -0.227248 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142C001, 0x7142C002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7142C001, 0x7142C003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142C001, 0x7142C004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7142C001, 0x7142C005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142C001, 0x7142C006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7142C001, 0x7142C007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7142C001, 0x7142C008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7142C001, 0x7142C009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7142C001, 0x7142C00A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7142C001, 0x7142C00B, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x7142C001, 0x7142C002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7142C001, 0x7142C003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142C001, 0x7142C004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7142C001, 0x7142C005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142C001, 0x7142C006, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7142C001, 0x7142C007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7142C001, 0x7142C008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7142C001, 0x7142C009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7142C001, 0x7142C00A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7142C001, 0x7142C00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142C002, 36826, 0x142C0028, 112.8208, 179.6094, 14.14464, 0.973837, 0, 0, -0.2272476,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */
@@ -61,7 +61,7 @@ VALUES (0x7142C00C,  1542, 0x142C0003, 2.600922, 62.91294, 8.007303, -0.477964, 
 /* @teleloc 0x142C0003 [2.600922 62.912940 8.007303] -0.477964 0.000000 0.000000 -0.878380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142C00C, 0x7142C00D, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7142C00C, 0x7142C00D, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142C00D, 31688, 0x142C0003, 2.600922, 62.91294, 8.007303, -0.477964, 0, 0, -0.8783795,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

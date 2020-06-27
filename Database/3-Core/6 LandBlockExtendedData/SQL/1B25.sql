@@ -5,14 +5,14 @@ VALUES (0x71B25001,  1154, 0x1B25002E, 122.4387, 129.8829, 4.232222, 0.9659258, 
 /* @teleloc 0x1B25002E [122.438700 129.882900 4.232222] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B25001, 0x71B25002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71B25001, 0x71B25003, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71B25001, 0x71B25004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71B25001, 0x71B25005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71B25001, 0x71B25006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71B25001, 0x71B25007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71B25001, 0x71B25008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71B25001, 0x71B25009, '2019-02-10 00:00:00') /* Theral */;
+VALUES (0x71B25001, 0x71B25002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71B25001, 0x71B25003, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71B25001, 0x71B25004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71B25001, 0x71B25005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71B25001, 0x71B25006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71B25001, 0x71B25007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71B25001, 0x71B25008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71B25001, 0x71B25009, '2019-02-10 00:00:00') /* Theral (14880) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B25002,  9264, 0x1B25002E, 122.4387, 129.8829, 4.232222, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

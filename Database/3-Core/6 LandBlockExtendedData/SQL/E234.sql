@@ -5,11 +5,11 @@ VALUES (0x7E234001,  1154, 0xE2340006, 7.927839, 129.1549, 144.4842, 0.9766459, 
 /* @teleloc 0xE2340006 [7.927839 129.154900 144.484200] 0.976646 0.000000 0.000000 -0.214855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E234001, 0x7E234002, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7E234001, 0x7E234003, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E234001, 0x7E234004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E234001, 0x7E234005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7E234001, 0x7E234006, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7E234001, 0x7E234002, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7E234001, 0x7E234003, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E234001, 0x7E234004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E234001, 0x7E234005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7E234001, 0x7E234006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E234002,  8140, 0xE2340006, 7.927839, 129.1549, 144.4842, 0.9766459, 0, 0, -0.2148553,  True, '2019-02-10 00:00:00'); /* Laigus Raider */

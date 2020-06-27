@@ -5,10 +5,10 @@ VALUES (0x749EF001,  1154, 0x49EF0026, 100.0738, 120.6396, 1.665521, -0.6350022,
 /* @teleloc 0x49EF0026 [100.073800 120.639600 1.665521] -0.635002 0.000000 0.000000 -0.772510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749EF001, 0x749EF002, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x749EF001, 0x749EF003, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x749EF001, 0x749EF004, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x749EF001, 0x749EF005, '2019-02-10 00:00:00') /* Royal Thaumaturge */;
+VALUES (0x749EF001, 0x749EF002, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x749EF001, 0x749EF003, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x749EF001, 0x749EF004, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x749EF001, 0x749EF005, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749EF002, 29303, 0x49EF0026, 100.0738, 120.6396, 1.665521, -0.6350022, 0, 0, -0.7725103,  True, '2019-02-10 00:00:00'); /* Royal Thaumaturge */

@@ -5,34 +5,34 @@ VALUES (0x7A8AF001,  1154, 0xA8AF0005, 7.136002, 102.542, 110.5372, 1, 0, 0, 0, 
 /* @teleloc 0xA8AF0005 [7.136002 102.542000 110.537200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8AF001, 0x7A8AF002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8AF001, 0x7A8AF003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF006, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8AF001, 0x7A8AF007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8AF001, 0x7A8AF008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8AF001, 0x7A8AF009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8AF001, 0x7A8AF00A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF00B, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A8AF001, 0x7A8AF00C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8AF001, 0x7A8AF00D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A8AF001, 0x7A8AF00E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8AF001, 0x7A8AF010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8AF001, 0x7A8AF012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8AF001, 0x7A8AF013, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8AF001, 0x7A8AF014, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A8AF001, 0x7A8AF015, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8AF001, 0x7A8AF016, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8AF001, 0x7A8AF017, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A8AF001, 0x7A8AF018, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8AF001, 0x7A8AF019, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A8AF001, 0x7A8AF01A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8AF001, 0x7A8AF01B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A8AF001, 0x7A8AF01C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A8AF001, 0x7A8AF01D, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7A8AF001, 0x7A8AF002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8AF001, 0x7A8AF003, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF006, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8AF001, 0x7A8AF007, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8AF001, 0x7A8AF008, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8AF001, 0x7A8AF009, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8AF001, 0x7A8AF00A, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF00B, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A8AF001, 0x7A8AF00C, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8AF001, 0x7A8AF00D, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A8AF001, 0x7A8AF00E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF00F, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8AF001, 0x7A8AF010, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF011, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8AF001, 0x7A8AF012, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8AF001, 0x7A8AF013, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8AF001, 0x7A8AF014, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A8AF001, 0x7A8AF015, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8AF001, 0x7A8AF016, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8AF001, 0x7A8AF017, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A8AF001, 0x7A8AF018, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8AF001, 0x7A8AF019, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A8AF001, 0x7A8AF01A, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8AF001, 0x7A8AF01B, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A8AF001, 0x7A8AF01C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A8AF001, 0x7A8AF01D, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8AF002, 24937, 0xA8AF0005, 7.136002, 102.542, 110.5372, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */

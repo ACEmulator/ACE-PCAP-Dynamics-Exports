@@ -5,28 +5,28 @@ VALUES (0x79FBA001,  1154, 0x9FBA002A, 143.8362, 25.79601, 61.95785, 0.8870109, 
 /* @teleloc 0x9FBA002A [143.836200 25.796010 61.957850] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FBA001, 0x79FBA002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79FBA001, 0x79FBA003, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79FBA001, 0x79FBA004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FBA001, 0x79FBA005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FBA001, 0x79FBA006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FBA001, 0x79FBA007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FBA001, 0x79FBA008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FBA001, 0x79FBA009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FBA001, 0x79FBA00A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FBA001, 0x79FBA00B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FBA001, 0x79FBA00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79FBA001, 0x79FBA00D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79FBA001, 0x79FBA00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79FBA001, 0x79FBA00F, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79FBA001, 0x79FBA010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79FBA001, 0x79FBA011, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79FBA001, 0x79FBA012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79FBA001, 0x79FBA013, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FBA001, 0x79FBA014, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79FBA001, 0x79FBA015, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79FBA001, 0x79FBA016, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79FBA001, 0x79FBA017, '2019-02-10 00:00:00') /* Tusker Shrine Statue */;
+VALUES (0x79FBA001, 0x79FBA002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79FBA001, 0x79FBA003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79FBA001, 0x79FBA004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FBA001, 0x79FBA005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FBA001, 0x79FBA006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79FBA001, 0x79FBA007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79FBA001, 0x79FBA008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79FBA001, 0x79FBA009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79FBA001, 0x79FBA00A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FBA001, 0x79FBA00B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FBA001, 0x79FBA00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79FBA001, 0x79FBA00D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79FBA001, 0x79FBA00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79FBA001, 0x79FBA00F, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79FBA001, 0x79FBA010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79FBA001, 0x79FBA011, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79FBA001, 0x79FBA012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79FBA001, 0x79FBA013, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FBA001, 0x79FBA014, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79FBA001, 0x79FBA015, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79FBA001, 0x79FBA016, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79FBA001, 0x79FBA017, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FBA002,  2576, 0x9FBA002A, 143.8362, 25.79601, 61.95785, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -121,12 +121,12 @@ VALUES (0x79FBA018,  1542, 0x9FBA002A, 141.3457, 28.40318, 61.95785, 0.9990482, 
 /* @teleloc 0x9FBA002A [141.345700 28.403180 61.957850] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FBA018, 0x79FBA019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79FBA018, 0x79FBA01A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x79FBA018, 0x79FBA01B, '2019-02-10 00:00:00') /* Bones */
-     , (0x79FBA018, 0x79FBA01C, '2019-02-10 00:00:00') /* Bones */
-     , (0x79FBA018, 0x79FBA01D, '2019-02-10 00:00:00') /* Bones */
-     , (0x79FBA018, 0x79FBA01E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79FBA018, 0x79FBA019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79FBA018, 0x79FBA01A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x79FBA018, 0x79FBA01B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79FBA018, 0x79FBA01C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79FBA018, 0x79FBA01D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79FBA018, 0x79FBA01E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FBA019,  4179, 0x9FBA002A, 141.3457, 28.40318, 61.95785, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

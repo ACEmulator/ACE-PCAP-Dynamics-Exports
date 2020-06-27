@@ -101,39 +101,39 @@ VALUES (0x72B2001E,  1154, 0x2B20001C, 80.0965, 74.8801, 200, -0.912917, 0, 0, 0
 /* @teleloc 0x2B20001C [80.096500 74.880100 200.000000] -0.912917 0.000000 0.000000 0.408145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B2001E, 0x72B2001F, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72B2001E, 0x72B20020, '2019-02-10 00:00:00') /* Gronk the Hammer */
-     , (0x72B2001E, 0x72B20021, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x72B2001E, 0x72B20022, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x72B2001E, 0x72B20023, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20024, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20025, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20026, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20027, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20028, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20029, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002A, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002B, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002C, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002D, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002E, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2002F, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20030, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20031, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20032, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20033, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20034, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20035, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20036, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20037, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20038, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B20039, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2003A, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2003B, '2019-02-10 00:00:00') /* Bandit Forger */
-     , (0x72B2001E, 0x72B2003C, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B2001E, 0x72B2003D, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B2001E, 0x72B2003E, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B2001E, 0x72B2003F, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x72B2001E, 0x72B2001F, '2019-02-10 00:00:00') /* Exploration Marker (39822) */
+     , (0x72B2001E, 0x72B20020, '2019-02-10 00:00:00') /* Gronk the Hammer (31338) */
+     , (0x72B2001E, 0x72B20021, '2019-02-10 00:00:00') /* Famished Eater (31225) */
+     , (0x72B2001E, 0x72B20022, '2019-02-10 00:00:00') /* Famished Eater (31225) */
+     , (0x72B2001E, 0x72B20023, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20024, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20025, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20026, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20027, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20028, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20029, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002A, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002B, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002C, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002D, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002E, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2002F, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20030, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20031, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20032, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20033, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20034, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20035, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20036, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20037, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20038, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B20039, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2003A, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2003B, '2019-02-10 00:00:00') /* Bandit Forger (31339) */
+     , (0x72B2001E, 0x72B2003C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B2001E, 0x72B2003D, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B2001E, 0x72B2003E, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B2001E, 0x72B2003F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B2001F, 39822, 0x2B20001C, 80.0965, 74.8801, 200, -0.912917, 0, 0, 0.408145,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -272,10 +272,10 @@ VALUES (0x72B20040,  1154, 0x2B20011B, 98.6781, 77.1309, 210.005, 0.721136, 0, 0
 /* @teleloc 0x2B20011B [98.678100 77.130900 210.005000] 0.721136 0.000000 0.000000 -0.692794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B20040, 0x72B20041, '2019-02-10 00:00:00') /* Hinkel */
-     , (0x72B20040, 0x72B20042, '2019-02-10 00:00:00') /* Chef Jonus */
-     , (0x72B20040, 0x72B20043, '2019-02-10 00:00:00') /* Larnia */
-     , (0x72B20040, 0x72B20044, '2019-02-10 00:00:00') /* Markis */;
+VALUES (0x72B20040, 0x72B20041, '2019-02-10 00:00:00') /* Hinkel (31842) */
+     , (0x72B20040, 0x72B20042, '2019-02-10 00:00:00') /* Chef Jonus (31841) */
+     , (0x72B20040, 0x72B20043, '2019-02-10 00:00:00') /* Larnia (31840) */
+     , (0x72B20040, 0x72B20044, '2019-02-10 00:00:00') /* Markis (31839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B20041, 31842, 0x2B20011B, 98.6781, 77.1309, 210.005, 0.721136, 0, 0, -0.692794,  True, '2019-02-10 00:00:00'); /* Hinkel */
@@ -298,9 +298,9 @@ VALUES (0x72B20045,  1542, 0x2B20003E, 187.6092, 140.9382, 3.695396, 1, 0, 0, 0,
 /* @teleloc 0x2B20003E [187.609200 140.938200 3.695396] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B20045, 0x72B20046, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72B20045, 0x72B20047, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72B20045, 0x72B20048, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x72B20045, 0x72B20046, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72B20045, 0x72B20047, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72B20045, 0x72B20048, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B20046, 22566, 0x2B20003E, 187.6092, 140.9382, 3.695396, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

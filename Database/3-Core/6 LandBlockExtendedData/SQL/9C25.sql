@@ -5,27 +5,27 @@ VALUES (0x79C25001,  1154, 0x9C25000E, 45.71032, 134.8973, 113.8658, 0.9238795, 
 /* @teleloc 0x9C25000E [45.710320 134.897300 113.865800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C25001, 0x79C25002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79C25001, 0x79C25003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79C25001, 0x79C25004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x79C25001, 0x79C25005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79C25001, 0x79C25006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79C25001, 0x79C25007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79C25001, 0x79C25008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79C25001, 0x79C25009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79C25001, 0x79C2500A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79C25001, 0x79C2500B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79C25001, 0x79C2500C, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79C25001, 0x79C2500D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79C25001, 0x79C2500E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79C25001, 0x79C2500F, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79C25001, 0x79C25010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79C25001, 0x79C25011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79C25001, 0x79C25012, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x79C25001, 0x79C25013, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79C25001, 0x79C25014, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79C25001, 0x79C25015, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79C25001, 0x79C25016, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x79C25001, 0x79C25002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79C25001, 0x79C25003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79C25001, 0x79C25004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x79C25001, 0x79C25005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79C25001, 0x79C25006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79C25001, 0x79C25007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79C25001, 0x79C25008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79C25001, 0x79C25009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79C25001, 0x79C2500A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79C25001, 0x79C2500B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79C25001, 0x79C2500C, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79C25001, 0x79C2500D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79C25001, 0x79C2500E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79C25001, 0x79C2500F, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79C25001, 0x79C25010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79C25001, 0x79C25011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79C25001, 0x79C25012, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x79C25001, 0x79C25013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79C25001, 0x79C25014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79C25001, 0x79C25015, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79C25001, 0x79C25016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C25002,  7123, 0x9C25000E, 45.71032, 134.8973, 113.8658, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -116,8 +116,8 @@ VALUES (0x79C25017,  1542, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 
 /* @teleloc 0x9C250011 [65.729430 16.757110 100.513400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C25017, 0x79C25018, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79C25017, 0x79C25019, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x79C25017, 0x79C25018, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79C25017, 0x79C25019, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C25018,  4180, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

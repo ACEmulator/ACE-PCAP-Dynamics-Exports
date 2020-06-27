@@ -5,17 +5,17 @@ VALUES (0x763D2001,  1154, 0x63D20037, 150.1798, 164.4166, 46.52213, 0.7071068, 
 /* @teleloc 0x63D20037 [150.179800 164.416600 46.522130] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D2001, 0x763D2002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x763D2001, 0x763D2003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x763D2001, 0x763D2004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D2001, 0x763D2005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D2001, 0x763D2006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x763D2001, 0x763D2007, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x763D2001, 0x763D2008, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x763D2001, 0x763D2009, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x763D2001, 0x763D200A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763D2001, 0x763D200B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763D2001, 0x763D200C, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x763D2001, 0x763D2002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x763D2001, 0x763D2003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x763D2001, 0x763D2004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D2001, 0x763D2005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D2001, 0x763D2006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x763D2001, 0x763D2007, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x763D2001, 0x763D2008, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x763D2001, 0x763D2009, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x763D2001, 0x763D200A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763D2001, 0x763D200B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763D2001, 0x763D200C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D2002,  7346, 0x63D20037, 150.1798, 164.4166, 46.52213, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -66,9 +66,9 @@ VALUES (0x763D200D,  1542, 0x63D20037, 152.6221, 164.049, 46.71851, -4.371139E-0
 /* @teleloc 0x63D20037 [152.622100 164.049000 46.718510] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D200D, 0x763D200E, '2019-02-10 00:00:00') /* Bones */
-     , (0x763D200D, 0x763D200F, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x763D200D, 0x763D2010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x763D200D, 0x763D200E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x763D200D, 0x763D200F, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x763D200D, 0x763D2010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D200E,  4380, 0x63D20037, 152.6221, 164.049, 46.71851, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

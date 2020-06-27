@@ -5,10 +5,10 @@ VALUES (0x7B8D5001,  1154, 0xB8D5000E, 41.39573, 140.4125, 50.24239, 0.9415566, 
 /* @teleloc 0xB8D5000E [41.395730 140.412500 50.242390] 0.941557 0.000000 0.000000 -0.336855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8D5001, 0x7B8D5002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7B8D5001, 0x7B8D5003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B8D5001, 0x7B8D5004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7B8D5001, 0x7B8D5005, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7B8D5001, 0x7B8D5002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7B8D5001, 0x7B8D5003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B8D5001, 0x7B8D5004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7B8D5001, 0x7B8D5005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8D5002,  9252, 0xB8D5000E, 41.39573, 140.4125, 50.24239, 0.9415566, 0, 0, -0.3368548,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

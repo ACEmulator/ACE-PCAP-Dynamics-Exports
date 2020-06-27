@@ -5,15 +5,15 @@ VALUES (0x76ED8001,  1154, 0x6ED8001D, 87.97141, 110.6713, 319.5289, 0.9238795, 
 /* @teleloc 0x6ED8001D [87.971410 110.671300 319.528900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76ED8001, 0x76ED8002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76ED8001, 0x76ED8003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x76ED8001, 0x76ED8004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x76ED8001, 0x76ED8005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x76ED8001, 0x76ED8006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x76ED8001, 0x76ED8007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x76ED8001, 0x76ED8008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x76ED8001, 0x76ED8009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x76ED8001, 0x76ED800A, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x76ED8001, 0x76ED8002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x76ED8001, 0x76ED8003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x76ED8001, 0x76ED8004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x76ED8001, 0x76ED8005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x76ED8001, 0x76ED8006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x76ED8001, 0x76ED8007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x76ED8001, 0x76ED8008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x76ED8001, 0x76ED8009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x76ED8001, 0x76ED800A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76ED8002, 36832, 0x6ED8001D, 87.97141, 110.6713, 319.5289, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -56,7 +56,7 @@ VALUES (0x76ED800B,  1542, 0x6ED80032, 156.4612, 24.48301, 331.8189, -0.969251, 
 /* @teleloc 0x6ED80032 [156.461200 24.483010 331.818900] -0.969251 0.000000 0.000000 -0.246074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76ED800B, 0x76ED800C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x76ED800B, 0x76ED800C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76ED800C, 42528, 0x6ED80032, 156.4612, 24.48301, 331.8189, -0.969251, 0, 0, -0.2460742,  True, '2019-02-10 00:00:00'); /* Rock */

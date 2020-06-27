@@ -5,10 +5,10 @@ VALUES (0x7B91C001,  1154, 0xB91C002F, 135.8337, 157.5503, 248.7386, -0.03408599
 /* @teleloc 0xB91C002F [135.833700 157.550300 248.738600] -0.034086 0.000000 0.000000 -0.999419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91C001, 0x7B91C002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B91C001, 0x7B91C003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B91C001, 0x7B91C004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7B91C001, 0x7B91C005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B91C001, 0x7B91C002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B91C001, 0x7B91C003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B91C001, 0x7B91C004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7B91C001, 0x7B91C005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91C002,  4253, 0xB91C002F, 135.8337, 157.5503, 248.7386, -0.03408599, 0, 0, -0.9994189,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

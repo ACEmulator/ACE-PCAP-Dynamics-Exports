@@ -5,24 +5,24 @@ VALUES (0x71F51001,  1154, 0x1F510035, 166.4075, 111.1517, 69.3999, 0.4064171, 0
 /* @teleloc 0x1F510035 [166.407500 111.151700 69.399900] 0.406417 0.000000 0.000000 -0.913688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F51001, 0x71F51002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71F51001, 0x71F51003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71F51001, 0x71F51004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71F51001, 0x71F51005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71F51001, 0x71F51006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71F51001, 0x71F51007, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71F51001, 0x71F51008, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71F51001, 0x71F51009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71F51001, 0x71F5100A, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71F51001, 0x71F5100B, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71F51001, 0x71F5100C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F51001, 0x71F5100D, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71F51001, 0x71F5100E, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71F51001, 0x71F5100F, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71F51001, 0x71F51010, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71F51001, 0x71F51011, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71F51001, 0x71F51012, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71F51001, 0x71F51013, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x71F51001, 0x71F51002, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71F51001, 0x71F51003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71F51001, 0x71F51004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71F51001, 0x71F51005, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71F51001, 0x71F51006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71F51001, 0x71F51007, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71F51001, 0x71F51008, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71F51001, 0x71F51009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71F51001, 0x71F5100A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71F51001, 0x71F5100B, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71F51001, 0x71F5100C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F51001, 0x71F5100D, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71F51001, 0x71F5100E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71F51001, 0x71F5100F, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71F51001, 0x71F51010, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71F51001, 0x71F51011, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71F51001, 0x71F51012, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71F51001, 0x71F51013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F51002, 36823, 0x1F510035, 166.4075, 111.1517, 69.3999, 0.4064171, 0, 0, -0.9136876,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
@@ -101,10 +101,10 @@ VALUES (0x71F51014,  1542, 0x1F51002C, 130.0793, 86.95644, 69.91115, 1, 0, 0, 0,
 /* @teleloc 0x1F51002C [130.079300 86.956440 69.911150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F51014, 0x71F51015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71F51014, 0x71F51016, '2019-02-10 00:00:00') /* Bones */
-     , (0x71F51014, 0x71F51017, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x71F51014, 0x71F51018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71F51014, 0x71F51015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71F51014, 0x71F51016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71F51014, 0x71F51017, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x71F51014, 0x71F51018, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F51015,  4179, 0x1F51002C, 130.0793, 86.95644, 69.91115, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x7288A001,  1154, 0x288A001B, 90.86326, 69.50294, 113.9372, 0.9233884, 
 /* @teleloc 0x288A001B [90.863260 69.502940 113.937200] 0.923388 0.000000 0.000000 -0.383867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288A001, 0x7288A002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7288A001, 0x7288A003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288A001, 0x7288A004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7288A001, 0x7288A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7288A001, 0x7288A006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7288A001, 0x7288A007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288A001, 0x7288A008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7288A001, 0x7288A009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7288A001, 0x7288A00A, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7288A001, 0x7288A002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7288A001, 0x7288A003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288A001, 0x7288A004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7288A001, 0x7288A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7288A001, 0x7288A006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7288A001, 0x7288A007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288A001, 0x7288A008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7288A001, 0x7288A009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7288A001, 0x7288A00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288A002, 23564, 0x288A001B, 90.86326, 69.50294, 113.9372, 0.9233884, 0, 0, -0.3838671,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -56,8 +56,8 @@ VALUES (0x7288A00B,  1542, 0x288A000C, 31.66724, 87.81752, 138, -0.1644839, 0, 0
 /* @teleloc 0x288A000C [31.667240 87.817520 138.000000] -0.164484 0.000000 0.000000 -0.986380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288A00B, 0x7288A00C, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7288A00B, 0x7288A00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7288A00B, 0x7288A00C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7288A00B, 0x7288A00D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288A00C,  8648, 0x288A000C, 31.66724, 87.81752, 138, -0.1644839, 0, 0, -0.9863798,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

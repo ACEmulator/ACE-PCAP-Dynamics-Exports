@@ -5,49 +5,49 @@ VALUES (0x7CB5C001,  1154, 0xCB5C000B, 47.75729, 51.63361, 5.892, -0.6729385, 0,
 /* @teleloc 0xCB5C000B [47.757290 51.633610 5.892000] -0.672939 0.000000 0.000000 -0.739699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5C001, 0x7CB5C002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5C001, 0x7CB5C003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5C001, 0x7CB5C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C00C, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CB5C001, 0x7CB5C00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C00F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C012, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB5C001, 0x7CB5C014, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C015, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C016, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C019, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C01A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C01B, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB5C001, 0x7CB5C01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5C001, 0x7CB5C01D, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB5C001, 0x7CB5C01E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C01F, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C020, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7CB5C001, 0x7CB5C021, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CB5C001, 0x7CB5C022, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CB5C001, 0x7CB5C023, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5C001, 0x7CB5C024, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C025, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C026, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5C001, 0x7CB5C027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB5C001, 0x7CB5C028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB5C001, 0x7CB5C029, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C02A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C02B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5C001, 0x7CB5C02C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7CB5C001, 0x7CB5C002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5C001, 0x7CB5C003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5C001, 0x7CB5C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C00C, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CB5C001, 0x7CB5C00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C00F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C012, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB5C001, 0x7CB5C014, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C015, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C016, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C019, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C01A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C01B, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB5C001, 0x7CB5C01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5C001, 0x7CB5C01D, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB5C001, 0x7CB5C01E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C01F, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C020, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7CB5C001, 0x7CB5C021, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CB5C001, 0x7CB5C022, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CB5C001, 0x7CB5C023, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5C001, 0x7CB5C024, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C025, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C026, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5C001, 0x7CB5C027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB5C001, 0x7CB5C028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB5C001, 0x7CB5C029, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C02A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C02B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5C001, 0x7CB5C02C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5C002, 24937, 0xCB5C000B, 47.75729, 51.63361, 5.892, -0.6729385, 0, 0, -0.7396985,  True, '2019-02-10 00:00:00'); /* Chicken */

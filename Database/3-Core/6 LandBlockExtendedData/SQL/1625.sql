@@ -5,19 +5,19 @@ VALUES (0x71625001,  1154, 0x16250031, 145.8555, 11.93383, 12.01, 0.2588191, 0, 
 /* @teleloc 0x16250031 [145.855500 11.933830 12.010000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71625001, 0x71625002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71625001, 0x71625003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71625001, 0x71625004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71625001, 0x71625005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71625001, 0x71625006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71625001, 0x71625007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71625001, 0x71625008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71625001, 0x71625009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71625001, 0x7162500A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71625001, 0x7162500B, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71625001, 0x7162500C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71625001, 0x7162500D, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71625001, 0x7162500E, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x71625001, 0x71625002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71625001, 0x71625003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71625001, 0x71625004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71625001, 0x71625005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71625001, 0x71625006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71625001, 0x71625007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71625001, 0x71625008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71625001, 0x71625009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71625001, 0x7162500A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71625001, 0x7162500B, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71625001, 0x7162500C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71625001, 0x7162500D, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71625001, 0x7162500E, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71625002, 36839, 0x16250031, 145.8555, 11.93383, 12.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */
@@ -76,7 +76,7 @@ VALUES (0x7162500F,  1542, 0x16250029, 142.7043, 2.315564, 12.011, -0.9062876, 0
 /* @teleloc 0x16250029 [142.704300 2.315564 12.011000] -0.906288 0.000000 0.000000 -0.422662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7162500F, 0x71625010, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7162500F, 0x71625010, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71625010, 31688, 0x16250029, 142.7043, 2.315564, 12.011, -0.9062876, 0, 0, -0.4226615,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

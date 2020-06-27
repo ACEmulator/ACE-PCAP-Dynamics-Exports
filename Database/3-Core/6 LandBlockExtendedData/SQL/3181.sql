@@ -5,11 +5,11 @@ VALUES (0x73181001,  1154, 0x31810034, 167.1713, 93.48811, 149.7857, -0.9603914,
 /* @teleloc 0x31810034 [167.171300 93.488110 149.785700] -0.960391 0.000000 0.000000 -0.278655 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73181001, 0x73181002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73181001, 0x73181003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x73181001, 0x73181004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73181001, 0x73181005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73181001, 0x73181006, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73181001, 0x73181002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73181001, 0x73181003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x73181001, 0x73181004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73181001, 0x73181005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73181001, 0x73181006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73181002, 36842, 0x31810034, 167.1713, 93.48811, 149.7857, -0.9603914, 0, 0, -0.2786545,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

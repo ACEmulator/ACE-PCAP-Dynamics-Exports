@@ -5,36 +5,36 @@ VALUES (0x7123C001,  1154, 0x123C0023, 117.9129, 50.49427, 59.48822, -0.7660444,
 /* @teleloc 0x123C0023 [117.912900 50.494270 59.488220] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123C001, 0x7123C002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7123C001, 0x7123C003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7123C001, 0x7123C004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7123C001, 0x7123C005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7123C001, 0x7123C007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7123C001, 0x7123C008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7123C001, 0x7123C009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7123C001, 0x7123C00A, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7123C001, 0x7123C00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7123C001, 0x7123C00C, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7123C001, 0x7123C00D, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7123C001, 0x7123C00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C010, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7123C001, 0x7123C011, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7123C001, 0x7123C012, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7123C001, 0x7123C013, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7123C001, 0x7123C014, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7123C001, 0x7123C015, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7123C001, 0x7123C016, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7123C001, 0x7123C017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C018, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7123C001, 0x7123C019, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7123C001, 0x7123C01A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C01B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7123C001, 0x7123C01C, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7123C001, 0x7123C01D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123C001, 0x7123C01E, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7123C001, 0x7123C01F, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7123C001, 0x7123C002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7123C001, 0x7123C003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7123C001, 0x7123C004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7123C001, 0x7123C005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7123C001, 0x7123C007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7123C001, 0x7123C008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7123C001, 0x7123C009, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7123C001, 0x7123C00A, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7123C001, 0x7123C00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123C001, 0x7123C00C, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7123C001, 0x7123C00D, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7123C001, 0x7123C00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C010, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7123C001, 0x7123C011, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7123C001, 0x7123C012, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7123C001, 0x7123C013, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7123C001, 0x7123C014, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7123C001, 0x7123C015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123C001, 0x7123C016, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7123C001, 0x7123C017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C018, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7123C001, 0x7123C019, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7123C001, 0x7123C01A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C01B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7123C001, 0x7123C01C, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7123C001, 0x7123C01D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123C001, 0x7123C01E, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7123C001, 0x7123C01F, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123C002, 24497, 0x123C0023, 117.9129, 50.49427, 59.48822, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -161,7 +161,7 @@ VALUES (0x7123C020,  1542, 0x123C001C, 83.61765, 87.92731, 55.46378, -4.371139E-
 /* @teleloc 0x123C001C [83.617650 87.927310 55.463780] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123C020, 0x7123C021, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7123C020, 0x7123C021, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123C021,  4380, 0x123C001C, 83.61765, 87.92731, 55.46378, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

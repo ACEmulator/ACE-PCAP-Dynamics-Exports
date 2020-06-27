@@ -5,12 +5,12 @@ VALUES (0x7E233001,  1154, 0xE233002F, 135.5776, 160.1253, 220.9633, 0.01718444,
 /* @teleloc 0xE233002F [135.577600 160.125300 220.963300] 0.017184 0.000000 0.000000 -0.999852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E233001, 0x7E233002, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E233001, 0x7E233003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E233001, 0x7E233004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7E233001, 0x7E233005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E233001, 0x7E233006, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7E233001, 0x7E233007, '2019-02-10 00:00:00') /* Gotrok Obeloth */;
+VALUES (0x7E233001, 0x7E233002, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E233001, 0x7E233003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E233001, 0x7E233004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7E233001, 0x7E233005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E233001, 0x7E233006, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7E233001, 0x7E233007, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E233002,   205, 0xE233002F, 135.5776, 160.1253, 220.9633, 0.01718444, 0, 0, -0.9998524,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */

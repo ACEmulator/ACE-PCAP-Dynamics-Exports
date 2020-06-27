@@ -5,10 +5,10 @@ VALUES (0x7AA7E001,  1154, 0xAA7E001C, 94.45552, 80.00912, 42.67058, 0.9370539, 
 /* @teleloc 0xAA7E001C [94.455520 80.009120 42.670580] 0.937054 0.000000 0.000000 -0.349185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA7E001, 0x7AA7E002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AA7E001, 0x7AA7E003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA7E001, 0x7AA7E004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA7E001, 0x7AA7E005, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7AA7E001, 0x7AA7E002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AA7E001, 0x7AA7E003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA7E001, 0x7AA7E004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA7E001, 0x7AA7E005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA7E002,   206, 0xAA7E001C, 94.45552, 80.00912, 42.67058, 0.9370539, 0, 0, -0.3491847,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

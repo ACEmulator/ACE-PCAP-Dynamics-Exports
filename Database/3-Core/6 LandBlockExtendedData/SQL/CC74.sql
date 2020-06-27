@@ -5,13 +5,13 @@ VALUES (0x7CC74001,  1154, 0xCC740036, 160.8598, 142.3098, 24.59802, 0.4817465, 
 /* @teleloc 0xCC740036 [160.859800 142.309800 24.598020] 0.481747 0.000000 0.000000 -0.876311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC74001, 0x7CC74002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC74001, 0x7CC74003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC74001, 0x7CC74004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC74001, 0x7CC74005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC74001, 0x7CC74006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC74001, 0x7CC74007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC74001, 0x7CC74008, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7CC74001, 0x7CC74002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC74001, 0x7CC74003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC74001, 0x7CC74004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC74001, 0x7CC74005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC74001, 0x7CC74006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC74001, 0x7CC74007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC74001, 0x7CC74008, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC74002, 21168, 0xCC740036, 160.8598, 142.3098, 24.59802, 0.4817465, 0, 0, -0.8763106,  True, '2019-02-10 00:00:00'); /* Charge */

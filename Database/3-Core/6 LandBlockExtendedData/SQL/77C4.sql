@@ -5,11 +5,11 @@ VALUES (0x777C4001,  1154, 0x77C40034, 166.4062, 83.94331, 213.0576, 0.07393529,
 /* @teleloc 0x77C40034 [166.406200 83.943310 213.057600] 0.073935 0.000000 0.000000 -0.997263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C4001, 0x777C4002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x777C4001, 0x777C4003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x777C4001, 0x777C4004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x777C4001, 0x777C4005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x777C4001, 0x777C4006, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x777C4001, 0x777C4002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x777C4001, 0x777C4003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x777C4001, 0x777C4004, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x777C4001, 0x777C4005, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x777C4001, 0x777C4006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C4002, 24283, 0x77C40034, 166.4062, 83.94331, 213.0576, 0.07393529, 0, 0, -0.997263,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

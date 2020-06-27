@@ -5,12 +5,12 @@ VALUES (0x7A9EA001,  1154, 0xA9EA0003, 8.461707, 50.11326, -0.8934, -0.3726859, 
 /* @teleloc 0xA9EA0003 [8.461707 50.113260 -0.893400] -0.372686 0.000000 0.000000 -0.927958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9EA001, 0x7A9EA002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7A9EA001, 0x7A9EA003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A9EA001, 0x7A9EA004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A9EA001, 0x7A9EA005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A9EA001, 0x7A9EA006, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7A9EA001, 0x7A9EA007, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7A9EA001, 0x7A9EA002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7A9EA001, 0x7A9EA003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A9EA001, 0x7A9EA004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A9EA001, 0x7A9EA005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A9EA001, 0x7A9EA006, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7A9EA001, 0x7A9EA007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9EA002,  7103, 0xA9EA0003, 8.461707, 50.11326, -0.8934, -0.3726859, 0, 0, -0.9279575,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -41,7 +41,7 @@ VALUES (0x7A9EA008,  1542, 0xA9EA0029, 129.3615, 8.65694, -0.08900001, 0.93081, 
 /* @teleloc 0xA9EA0029 [129.361500 8.656940 -0.089000] 0.930810 0.000000 0.000000 -0.365503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9EA008, 0x7A9EA009, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7A9EA008, 0x7A9EA009, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9EA009, 31687, 0xA9EA0029, 129.3615, 8.65694, -0.08900001, 0.93081, 0, 0, -0.3655034,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

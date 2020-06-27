@@ -5,10 +5,10 @@ VALUES (0x7BDD8001,  1154, 0xBDD8000D, 39.70172, 104.3177, 195.8428, -0.7022024,
 /* @teleloc 0xBDD8000D [39.701720 104.317700 195.842800] -0.702202 0.000000 0.000000 -0.711977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD8001, 0x7BDD8002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BDD8001, 0x7BDD8003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD8001, 0x7BDD8004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BDD8001, 0x7BDD8005, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7BDD8001, 0x7BDD8002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BDD8001, 0x7BDD8003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD8001, 0x7BDD8004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BDD8001, 0x7BDD8005, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD8002,  6041, 0xBDD8000D, 39.70172, 104.3177, 195.8428, -0.7022024, 0, 0, -0.7119774,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

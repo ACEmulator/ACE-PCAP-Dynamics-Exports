@@ -5,18 +5,18 @@ VALUES (0x7B247001,  1154, 0xB247003F, 182.7399, 167.7908, 46.11865, 0.9238795, 
 /* @teleloc 0xB247003F [182.739900 167.790800 46.118650] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B247001, 0x7B247002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B247001, 0x7B247003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B247001, 0x7B247004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7B247001, 0x7B247005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B247001, 0x7B247006, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B247001, 0x7B247007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B247001, 0x7B247008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B247001, 0x7B247009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B247001, 0x7B24700A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B247001, 0x7B24700B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B247001, 0x7B24700C, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B247001, 0x7B24700D, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7B247001, 0x7B247002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B247001, 0x7B247003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B247001, 0x7B247004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B247001, 0x7B247005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B247001, 0x7B247006, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B247001, 0x7B247007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B247001, 0x7B247008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B247001, 0x7B247009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B247001, 0x7B24700A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B247001, 0x7B24700B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B247001, 0x7B24700C, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B247001, 0x7B24700D, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B247002,  8270, 0xB247003F, 182.7399, 167.7908, 46.11865, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

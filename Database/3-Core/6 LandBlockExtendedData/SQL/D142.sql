@@ -5,9 +5,9 @@ VALUES (0x7D142001,  1154, 0xD1420018, 69.9527, 186.6688, 106.765, -0.2020999, 0
 /* @teleloc 0xD1420018 [69.952700 186.668800 106.765000] -0.202100 0.000000 0.000000 -0.979365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D142001, 0x7D142002, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7D142001, 0x7D142003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D142001, 0x7D142004, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7D142001, 0x7D142002, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7D142001, 0x7D142003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D142001, 0x7D142004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D142002,  8140, 0xD1420018, 69.9527, 186.6688, 106.765, -0.2020999, 0, 0, -0.9793649,  True, '2019-02-10 00:00:00'); /* Laigus Raider */

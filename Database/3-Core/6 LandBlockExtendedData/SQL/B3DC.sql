@@ -5,30 +5,30 @@ VALUES (0x7B3DC001,  1154, 0xB3DC0033, 151.6671, 67.31147, 1.366476, 0.9043009, 
 /* @teleloc 0xB3DC0033 [151.667100 67.311470 1.366476] 0.904301 0.000000 0.000000 -0.426896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3DC001, 0x7B3DC002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B3DC001, 0x7B3DC003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B3DC001, 0x7B3DC004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B3DC001, 0x7B3DC005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7B3DC001, 0x7B3DC006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B3DC001, 0x7B3DC007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B3DC001, 0x7B3DC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B3DC001, 0x7B3DC009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B3DC001, 0x7B3DC00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B3DC001, 0x7B3DC00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B3DC001, 0x7B3DC00C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B3DC001, 0x7B3DC00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B3DC001, 0x7B3DC00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B3DC001, 0x7B3DC00F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B3DC001, 0x7B3DC010, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B3DC001, 0x7B3DC011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B3DC001, 0x7B3DC012, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B3DC001, 0x7B3DC013, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B3DC001, 0x7B3DC014, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B3DC001, 0x7B3DC015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B3DC001, 0x7B3DC016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B3DC001, 0x7B3DC017, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B3DC001, 0x7B3DC018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B3DC001, 0x7B3DC019, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7B3DC001, 0x7B3DC002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B3DC001, 0x7B3DC003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B3DC001, 0x7B3DC004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B3DC001, 0x7B3DC005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7B3DC001, 0x7B3DC006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B3DC001, 0x7B3DC007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B3DC001, 0x7B3DC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B3DC001, 0x7B3DC009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B3DC001, 0x7B3DC00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B3DC001, 0x7B3DC00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B3DC001, 0x7B3DC00C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B3DC001, 0x7B3DC00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B3DC001, 0x7B3DC00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B3DC001, 0x7B3DC00F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B3DC001, 0x7B3DC010, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B3DC001, 0x7B3DC011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B3DC001, 0x7B3DC012, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B3DC001, 0x7B3DC013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B3DC001, 0x7B3DC014, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B3DC001, 0x7B3DC015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B3DC001, 0x7B3DC016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B3DC001, 0x7B3DC017, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B3DC001, 0x7B3DC018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B3DC001, 0x7B3DC019, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3DC002,  4247, 0xB3DC0033, 151.6671, 67.31147, 1.366476, 0.9043009, 0, 0, -0.4268956,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

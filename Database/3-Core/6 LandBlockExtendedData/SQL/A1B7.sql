@@ -5,14 +5,14 @@ VALUES (0x7A1B7001,  1154, 0xA1B70032, 160.9424, 27.13216, 74.0014, 0.9537169, 0
 /* @teleloc 0xA1B70032 [160.942400 27.132160 74.001400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B7001, 0x7A1B7002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A1B7001, 0x7A1B7003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1B7001, 0x7A1B7004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1B7001, 0x7A1B7005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1B7001, 0x7A1B7006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A1B7001, 0x7A1B7007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A1B7001, 0x7A1B7008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A1B7001, 0x7A1B7009, '2019-02-10 00:00:00') /* Mite Squire */;
+VALUES (0x7A1B7001, 0x7A1B7002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A1B7001, 0x7A1B7003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1B7001, 0x7A1B7004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1B7001, 0x7A1B7005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1B7001, 0x7A1B7006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A1B7001, 0x7A1B7007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A1B7001, 0x7A1B7008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A1B7001, 0x7A1B7009, '2019-02-10 00:00:00') /* Mite Squire (946) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B7002,   222, 0xA1B70032, 160.9424, 27.13216, 74.0014, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */

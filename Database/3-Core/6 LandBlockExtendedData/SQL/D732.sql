@@ -5,14 +5,14 @@ VALUES (0x7D732001,  1154, 0xD7320026, 116.8578, 123.165, 120.5243, -0.7618185, 
 /* @teleloc 0xD7320026 [116.857800 123.165000 120.524300] -0.761819 0.000000 0.000000 -0.647791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D732001, 0x7D732002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D732001, 0x7D732003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D732001, 0x7D732004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D732001, 0x7D732005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D732001, 0x7D732006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D732001, 0x7D732007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D732001, 0x7D732008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D732001, 0x7D732009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7D732001, 0x7D732002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D732001, 0x7D732003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D732001, 0x7D732004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D732001, 0x7D732005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D732001, 0x7D732006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D732001, 0x7D732007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D732001, 0x7D732008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D732001, 0x7D732009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D732002,  7334, 0xD7320026, 116.8578, 123.165, 120.5243, -0.7618185, 0, 0, -0.6477906,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -51,9 +51,9 @@ VALUES (0x7D73200A,  1542, 0xD7320016, 59.13572, 140.6279, 120.052, -0.7465194, 
 /* @teleloc 0xD7320016 [59.135720 140.627900 120.052000] -0.746519 0.000000 0.000000 -0.665364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D73200A, 0x7D73200B, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7D73200A, 0x7D73200C, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7D73200A, 0x7D73200D, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7D73200A, 0x7D73200B, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7D73200A, 0x7D73200C, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7D73200A, 0x7D73200D, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D73200B, 14789, 0xD7320016, 59.13572, 140.6279, 120.052, -0.7465194, 0, 0, -0.6653636,  True, '2019-02-10 00:00:00'); /* Ginger */

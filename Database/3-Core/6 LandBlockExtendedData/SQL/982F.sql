@@ -5,18 +5,18 @@ VALUES (0x7982F001,  1154, 0x982F0027, 111.2003, 167.5433, 57.32912, -0.9989949,
 /* @teleloc 0x982F0027 [111.200300 167.543300 57.329120] -0.998995 0.000000 0.000000 -0.044824 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982F001, 0x7982F002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7982F001, 0x7982F003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7982F001, 0x7982F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7982F001, 0x7982F005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7982F001, 0x7982F006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7982F001, 0x7982F007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7982F001, 0x7982F008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7982F001, 0x7982F009, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7982F001, 0x7982F00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7982F001, 0x7982F00B, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7982F001, 0x7982F00C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7982F001, 0x7982F00D, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7982F001, 0x7982F002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7982F001, 0x7982F003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7982F001, 0x7982F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7982F001, 0x7982F005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7982F001, 0x7982F006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7982F001, 0x7982F007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7982F001, 0x7982F008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7982F001, 0x7982F009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7982F001, 0x7982F00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7982F001, 0x7982F00B, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7982F001, 0x7982F00C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7982F001, 0x7982F00D, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982F002, 24959, 0x982F0027, 111.2003, 167.5433, 57.32912, -0.9989949, 0, 0, -0.04482427,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -71,8 +71,8 @@ VALUES (0x7982F00E,  1542, 0x982F003C, 171.2616, 80.26437, 41.15117, -0.9924219,
 /* @teleloc 0x982F003C [171.261600 80.264370 41.151170] -0.992422 0.000000 0.000000 -0.122878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982F00E, 0x7982F00F, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7982F00E, 0x7982F010, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7982F00E, 0x7982F00F, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7982F00E, 0x7982F010, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982F00F,  8037, 0x982F003C, 171.2616, 80.26437, 41.15117, -0.9924219, 0, 0, -0.1228775,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

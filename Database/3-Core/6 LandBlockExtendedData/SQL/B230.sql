@@ -5,18 +5,18 @@ VALUES (0x7B230001,  1154, 0xB2300023, 117.2008, 61.78579, 75.92754, -0.2709767,
 /* @teleloc 0xB2300023 [117.200800 61.785790 75.927540] -0.270977 0.000000 0.000000 -0.962586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B230001, 0x7B230002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B230001, 0x7B230003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B230001, 0x7B230004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B230001, 0x7B230005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B230001, 0x7B230006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B230001, 0x7B230007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B230001, 0x7B230008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B230001, 0x7B230009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B230001, 0x7B23000A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B230001, 0x7B23000B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B230001, 0x7B23000C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B230001, 0x7B23000D, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B230001, 0x7B230002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B230001, 0x7B230003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B230001, 0x7B230004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B230001, 0x7B230005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B230001, 0x7B230006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B230001, 0x7B230007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B230001, 0x7B230008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B230001, 0x7B230009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B230001, 0x7B23000A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B230001, 0x7B23000B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B230001, 0x7B23000C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B230001, 0x7B23000D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B230002,  2575, 0xB2300023, 117.2008, 61.78579, 75.92754, -0.2709767, 0, 0, -0.9625859,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

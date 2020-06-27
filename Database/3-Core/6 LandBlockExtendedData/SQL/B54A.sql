@@ -9,144 +9,144 @@ VALUES (0x7B54A008,  1154, 0xB54A0021, 113.1829, 1.83517, 27.02282, 0.9748809, 0
 /* @teleloc 0xB54A0021 [113.182900 1.835170 27.022820] 0.974881 0.000000 0.000000 0.222727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A008, 0x7B54A009, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A00A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A00B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A00C, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A00D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A00E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A00F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A010, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A011, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A012, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A013, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A014, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A015, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A016, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A017, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A018, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A019, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A01A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A01B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A01C, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A01D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A01E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A01F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A020, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A021, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A022, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A023, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A024, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A025, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A026, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A027, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A028, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A029, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A02A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A02B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A02C, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A02D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A02E, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A02F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A030, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A031, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A032, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A033, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A034, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A035, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A036, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A037, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A038, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A039, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A03A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A03B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A03C, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A03D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A03E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A03F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A040, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A041, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A042, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A043, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A044, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A045, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A046, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A047, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A048, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A049, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A04A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A04B, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A04C, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A04D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A04E, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A04F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A050, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A051, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A052, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A053, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A054, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A055, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A056, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A057, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A058, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A059, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A05A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A05B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A05C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A05D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A05E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A05F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A060, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A061, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A062, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A063, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A064, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A065, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A066, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A067, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A068, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A069, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A06A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A06B, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A06C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A06D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A06E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A06F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A070, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A071, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A072, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A073, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A074, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A075, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A076, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A077, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A078, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A079, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A07A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A07B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A07C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A07D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A07E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A07F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A080, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A081, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A082, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A083, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A084, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A085, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A086, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A087, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A088, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A089, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A08A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A08B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B54A008, 0x7B54A08C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A08D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A08E, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A08F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A090, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B54A008, 0x7B54A091, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B54A008, 0x7B54A092, '2019-02-10 00:00:00') /* Sath'tik Tendril */;
+VALUES (0x7B54A008, 0x7B54A009, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A00A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A00B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A00C, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A00D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A00E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A00F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A010, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A011, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A012, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A013, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A014, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A015, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A016, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A017, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A018, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A019, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A01A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A01B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A01C, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A01D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A01E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A01F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A020, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A021, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A022, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A023, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A024, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A025, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A026, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A027, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A028, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A029, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A02A, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A02B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A02C, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A02D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A02E, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A02F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A030, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A031, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A032, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A033, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A034, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A035, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A036, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A037, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A038, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A039, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A03A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A03B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A03C, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A03D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A03E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A03F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A040, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A041, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A042, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A043, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A044, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A045, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A046, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A047, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A048, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A049, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A04A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A04B, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A04C, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A04D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A04E, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A04F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A050, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A051, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A052, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A053, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A054, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A055, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A056, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A057, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A058, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A059, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A05A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A05B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A05C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A05D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A05E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A05F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A060, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A061, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A062, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A063, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A064, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A065, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A066, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A067, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A068, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A069, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A06A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A06B, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A06C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A06D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A06E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A06F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A070, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A071, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A072, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A073, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A074, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A075, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A076, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A077, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A078, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A079, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A07A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A07B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A07C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A07D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A07E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A07F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A080, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A081, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A082, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A083, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A084, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A085, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A086, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A087, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A088, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A089, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A08A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A08B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B54A008, 0x7B54A08C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A08D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A08E, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A08F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A090, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B54A008, 0x7B54A091, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B54A008, 0x7B54A092, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A009, 53376, 0xB54A0021, 113.1829, 1.83517, 27.02282, 0.9748809, 0, 0, 0.222727,  True, '2019-02-10 00:00:00'); /* Sath'tik Tendril */
@@ -705,21 +705,21 @@ VALUES (0x7B54A093,  1154, 0xB54A000C, 30.7, 91, 118.005, -0.9396926, 0, 0, -0.3
 /* @teleloc 0xB54A000C [30.700000 91.000000 118.005000] -0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A093, 0x7B54A094, '2019-02-10 00:00:00') /* Brellegia */
-     , (0x7B54A093, 0x7B54A095, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A096, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A097, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A098, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A099, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A09A, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A09B, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A09C, '2019-02-10 00:00:00') /* Doriathazaar's Horde */
-     , (0x7B54A093, 0x7B54A09D, '2019-02-10 00:00:00') /* Doriathazaar */
-     , (0x7B54A093, 0x7B54A09E, '2019-02-10 00:00:00') /* Summercrown */
-     , (0x7B54A093, 0x7B54A09F, '2019-02-10 00:00:00') /* Aangesilus */
-     , (0x7B54A093, 0x7B54A0A0, '2019-02-10 00:00:00') /* Dridge */
-     , (0x7B54A093, 0x7B54A0A1, '2019-02-10 00:00:00') /* Kervim'telek */
-     , (0x7B54A093, 0x7B54A0A2, '2019-02-10 00:00:00') /* Swift */;
+VALUES (0x7B54A093, 0x7B54A094, '2019-02-10 00:00:00') /* Brellegia (53280) */
+     , (0x7B54A093, 0x7B54A095, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A093, 0x7B54A096, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A093, 0x7B54A097, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53275) */
+     , (0x7B54A093, 0x7B54A098, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53274) */
+     , (0x7B54A093, 0x7B54A099, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53274) */
+     , (0x7B54A093, 0x7B54A09A, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53273) */
+     , (0x7B54A093, 0x7B54A09B, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53273) */
+     , (0x7B54A093, 0x7B54A09C, '2019-02-10 00:00:00') /* Doriathazaar's Horde (53276) */
+     , (0x7B54A093, 0x7B54A09D, '2019-02-10 00:00:00') /* Doriathazaar (53272) */
+     , (0x7B54A093, 0x7B54A09E, '2019-02-10 00:00:00') /* Summercrown (53451) */
+     , (0x7B54A093, 0x7B54A09F, '2019-02-10 00:00:00') /* Aangesilus (53281) */
+     , (0x7B54A093, 0x7B54A0A0, '2019-02-10 00:00:00') /* Dridge (53306) */
+     , (0x7B54A093, 0x7B54A0A1, '2019-02-10 00:00:00') /* Kervim'telek (53271) */
+     , (0x7B54A093, 0x7B54A0A2, '2019-02-10 00:00:00') /* Swift (53283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A094, 53280, 0xB54A000C, 30.7, 91, 118.005, -0.9396926, 0, 0, -0.3420202,  True, '2019-02-10 00:00:00'); /* Brellegia */
@@ -786,8 +786,8 @@ VALUES (0x7B54A0A3,  1542, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0
 /* @teleloc 0xB54A001D [86.016700 110.633000 117.999000] 0.998266 0.000000 0.000000 -0.058860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A0A3, 0x7B54A0A4, '2019-02-10 00:00:00') /* Token of the New Paragon */
-     , (0x7B54A0A3, 0x7B54A0A5, '2019-02-10 00:00:00') /* Rabbit */;
+VALUES (0x7B54A0A3, 0x7B54A0A4, '2019-02-10 00:00:00') /* Token of the New Paragon (53479) */
+     , (0x7B54A0A3, 0x7B54A0A5, '2019-02-10 00:00:00') /* Rabbit (33040) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A0A4, 53479, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0, -0.0588598,  True, '2019-02-10 00:00:00'); /* Token of the New Paragon */

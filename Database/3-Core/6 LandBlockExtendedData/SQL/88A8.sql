@@ -5,12 +5,12 @@ VALUES (0x788A8001,  1154, 0x88A80039, 176.7708, 17.102, 54.4737, 1, 0, 0, 0, Fa
 /* @teleloc 0x88A80039 [176.770800 17.102000 54.473700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788A8001, 0x788A8002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x788A8001, 0x788A8003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x788A8001, 0x788A8004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x788A8001, 0x788A8005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x788A8001, 0x788A8006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x788A8001, 0x788A8007, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x788A8001, 0x788A8002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x788A8001, 0x788A8003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x788A8001, 0x788A8004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x788A8001, 0x788A8005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x788A8001, 0x788A8006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x788A8001, 0x788A8007, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788A8002,   231, 0x88A80039, 176.7708, 17.102, 54.4737, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -41,7 +41,7 @@ VALUES (0x788A8008,  1542, 0x88A80039, 175.3585, 17.02831, 54.09454, 1, 0, 0, 0,
 /* @teleloc 0x88A80039 [175.358500 17.028310 54.094540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788A8008, 0x788A8009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x788A8008, 0x788A8009, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788A8009, 31443, 0x88A80039, 175.3585, 17.02831, 54.09454, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

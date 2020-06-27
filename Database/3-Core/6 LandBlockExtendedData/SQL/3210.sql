@@ -5,12 +5,12 @@ VALUES (0x73210001,  1154, 0x32100003, 17.03591, 69.01351, 72.84582, -0.08715577
 /* @teleloc 0x32100003 [17.035910 69.013510 72.845820] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73210001, 0x73210002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73210001, 0x73210003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73210001, 0x73210004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73210001, 0x73210005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73210001, 0x73210006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73210001, 0x73210007, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73210001, 0x73210002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73210001, 0x73210003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73210001, 0x73210004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73210001, 0x73210005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73210001, 0x73210006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73210001, 0x73210007, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73210002,  7119, 0x32100003, 17.03591, 69.01351, 72.84582, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -41,8 +41,8 @@ VALUES (0x73210008,  1542, 0x3210002C, 143.7213, 93.53395, 64.71193, -4.371139E-
 /* @teleloc 0x3210002C [143.721300 93.533950 64.711930] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73210008, 0x73210009, '2019-02-10 00:00:00') /* Bones */
-     , (0x73210008, 0x7321000A, '2019-02-10 00:00:00') /* Portal to Hebian-To */;
+VALUES (0x73210008, 0x73210009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73210008, 0x7321000A, '2019-02-10 00:00:00') /* Portal to Hebian-To (42846) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73210009,  4380, 0x3210002C, 143.7213, 93.53395, 64.71193, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

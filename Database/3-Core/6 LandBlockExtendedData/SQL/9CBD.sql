@@ -5,17 +5,17 @@ VALUES (0x79CBD001,  1154, 0x9CBD001C, 77.49425, 79.40975, 96.90071, 0.9073027, 
 /* @teleloc 0x9CBD001C [77.494250 79.409750 96.900710] 0.907303 0.000000 0.000000 -0.420478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CBD001, 0x79CBD002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79CBD001, 0x79CBD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBD001, 0x79CBD004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBD001, 0x79CBD005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBD001, 0x79CBD006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79CBD001, 0x79CBD007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79CBD001, 0x79CBD008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79CBD001, 0x79CBD009, '2019-02-10 00:00:00') /* Charge */
-     , (0x79CBD001, 0x79CBD00A, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x79CBD001, 0x79CBD00B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79CBD001, 0x79CBD00C, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79CBD001, 0x79CBD002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79CBD001, 0x79CBD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBD001, 0x79CBD004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBD001, 0x79CBD005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBD001, 0x79CBD006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79CBD001, 0x79CBD007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79CBD001, 0x79CBD008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79CBD001, 0x79CBD009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79CBD001, 0x79CBD00A, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x79CBD001, 0x79CBD00B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79CBD001, 0x79CBD00C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CBD002, 28552, 0x9CBD001C, 77.49425, 79.40975, 96.90071, 0.9073027, 0, 0, -0.4204781,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -66,10 +66,10 @@ VALUES (0x79CBD00D,  1542, 0x9CBD002C, 120.1537, 78.76778, 100.5622, -0.7701081,
 /* @teleloc 0x9CBD002C [120.153700 78.767780 100.562200] -0.770108 0.000000 0.000000 -0.637913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CBD00D, 0x79CBD00E, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x79CBD00D, 0x79CBD00F, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x79CBD00D, 0x79CBD010, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79CBD00D, 0x79CBD011, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79CBD00D, 0x79CBD00E, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x79CBD00D, 0x79CBD00F, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x79CBD00D, 0x79CBD010, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79CBD00D, 0x79CBD011, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CBD00E, 31686, 0x9CBD002C, 120.1537, 78.76778, 100.5622, -0.7701081, 0, 0, -0.6379134,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

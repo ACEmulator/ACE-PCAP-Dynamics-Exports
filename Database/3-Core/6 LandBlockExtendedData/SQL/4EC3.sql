@@ -5,10 +5,10 @@ VALUES (0x74EC3001,  1154, 0x4EC30018, 62.19106, 179.1173, 0.004000008, 0.999994
 /* @teleloc 0x4EC30018 [62.191060 179.117300 0.004000] 0.999995 0.000000 0.000000 -0.003217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC3001, 0x74EC3002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74EC3001, 0x74EC3003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74EC3001, 0x74EC3004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74EC3001, 0x74EC3005, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x74EC3001, 0x74EC3002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74EC3001, 0x74EC3003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74EC3001, 0x74EC3004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74EC3001, 0x74EC3005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC3002,  4254, 0x4EC30018, 62.19106, 179.1173, 0.004000008, 0.9999948, 0, 0, -0.003216846,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -31,7 +31,7 @@ VALUES (0x74EC3006,  1542, 0x4EC30018, 49.9025, 184.5886, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x4EC30018 [49.902500 184.588600 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC3006, 0x74EC3007, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x74EC3006, 0x74EC3007, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC3007,  8999, 0x4EC30018, 49.9025, 184.5886, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

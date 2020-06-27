@@ -5,19 +5,19 @@ VALUES (0x79BD4001,  1154, 0x9BD4000D, 33.89049, 114.2458, 176.2559, 0.5304337, 
 /* @teleloc 0x9BD4000D [33.890490 114.245800 176.255900] 0.530434 0.000000 0.000000 -0.847727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD4001, 0x79BD4002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79BD4001, 0x79BD4003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79BD4001, 0x79BD4004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79BD4001, 0x79BD4005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD4001, 0x79BD4006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD4001, 0x79BD4007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD4001, 0x79BD4008, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79BD4001, 0x79BD4009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79BD4001, 0x79BD400A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79BD4001, 0x79BD400B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BD4001, 0x79BD400C, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79BD4001, 0x79BD400D, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79BD4001, 0x79BD400E, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x79BD4001, 0x79BD4002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79BD4001, 0x79BD4003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79BD4001, 0x79BD4004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79BD4001, 0x79BD4005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD4001, 0x79BD4006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD4001, 0x79BD4007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD4001, 0x79BD4008, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79BD4001, 0x79BD4009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79BD4001, 0x79BD400A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79BD4001, 0x79BD400B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BD4001, 0x79BD400C, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79BD4001, 0x79BD400D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79BD4001, 0x79BD400E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD4002,  6041, 0x9BD4000D, 33.89049, 114.2458, 176.2559, 0.5304337, 0, 0, -0.8477265,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

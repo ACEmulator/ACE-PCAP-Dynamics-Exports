@@ -5,9 +5,9 @@ VALUES (0x7D124001,  1154, 0xD1240024, 103.6228, 86.43822, 82.51068, -0.9982508,
 /* @teleloc 0xD1240024 [103.622800 86.438220 82.510680] -0.998251 0.000000 0.000000 -0.059121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D124001, 0x7D124002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D124001, 0x7D124003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D124001, 0x7D124004, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7D124001, 0x7D124002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D124001, 0x7D124003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D124001, 0x7D124004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D124002,   201, 0xD1240024, 103.6228, 86.43822, 82.51068, -0.9982508, 0, 0, -0.05912064,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

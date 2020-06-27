@@ -5,34 +5,34 @@ VALUES (0x7AB0C001,  1154, 0xAB0C0012, 65.17078, 24.09499, 2.033301, 0.7071068, 
 /* @teleloc 0xAB0C0012 [65.170780 24.094990 2.033301] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0C001, 0x7AB0C002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7AB0C001, 0x7AB0C003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7AB0C001, 0x7AB0C004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7AB0C001, 0x7AB0C005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AB0C001, 0x7AB0C006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AB0C001, 0x7AB0C007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7AB0C001, 0x7AB0C008, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7AB0C001, 0x7AB0C009, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AB0C001, 0x7AB0C00A, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7AB0C001, 0x7AB0C00B, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7AB0C001, 0x7AB0C00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AB0C001, 0x7AB0C00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AB0C001, 0x7AB0C00E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7AB0C001, 0x7AB0C00F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AB0C001, 0x7AB0C010, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7AB0C001, 0x7AB0C011, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7AB0C001, 0x7AB0C012, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AB0C001, 0x7AB0C013, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7AB0C001, 0x7AB0C014, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AB0C001, 0x7AB0C015, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AB0C001, 0x7AB0C016, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7AB0C001, 0x7AB0C017, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7AB0C001, 0x7AB0C018, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7AB0C001, 0x7AB0C019, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7AB0C001, 0x7AB0C01A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AB0C001, 0x7AB0C01B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AB0C001, 0x7AB0C01C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AB0C001, 0x7AB0C01D, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AB0C001, 0x7AB0C002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7AB0C001, 0x7AB0C003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7AB0C001, 0x7AB0C004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7AB0C001, 0x7AB0C005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AB0C001, 0x7AB0C006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AB0C001, 0x7AB0C007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7AB0C001, 0x7AB0C008, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7AB0C001, 0x7AB0C009, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AB0C001, 0x7AB0C00A, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7AB0C001, 0x7AB0C00B, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7AB0C001, 0x7AB0C00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AB0C001, 0x7AB0C00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AB0C001, 0x7AB0C00E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7AB0C001, 0x7AB0C00F, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7AB0C001, 0x7AB0C010, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7AB0C001, 0x7AB0C011, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7AB0C001, 0x7AB0C012, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AB0C001, 0x7AB0C013, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7AB0C001, 0x7AB0C014, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AB0C001, 0x7AB0C015, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AB0C001, 0x7AB0C016, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7AB0C001, 0x7AB0C017, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7AB0C001, 0x7AB0C018, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7AB0C001, 0x7AB0C019, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7AB0C001, 0x7AB0C01A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AB0C001, 0x7AB0C01B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AB0C001, 0x7AB0C01C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AB0C001, 0x7AB0C01D, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0C002,  7987, 0xAB0C0012, 65.17078, 24.09499, 2.033301, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -151,7 +151,7 @@ VALUES (0x7AB0C01E,  1542, 0xAB0C001B, 75.04913, 62.18216, 0.9277531, 0.6773136,
 /* @teleloc 0xAB0C001B [75.049130 62.182160 0.927753] 0.677314 0.000000 0.000000 -0.735694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0C01E, 0x7AB0C01F, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7AB0C01E, 0x7AB0C01F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0C01F,  8644, 0xAB0C001B, 75.04913, 62.18216, 0.9277531, 0.6773136, 0, 0, -0.7356944,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

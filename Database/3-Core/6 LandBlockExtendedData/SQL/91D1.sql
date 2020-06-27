@@ -5,8 +5,8 @@ VALUES (0x791D1001,  1154, 0x91D10006, 1.463226, 128.6331, 298.496, -0.1563955, 
 /* @teleloc 0x91D10006 [1.463226 128.633100 298.496000] -0.156396 0.000000 0.000000 -0.987695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D1001, 0x791D1002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x791D1001, 0x791D1003, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x791D1001, 0x791D1002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x791D1001, 0x791D1003, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D1002,   619, 0x91D10006, 1.463226, 128.6331, 298.496, -0.1563955, 0, 0, -0.9876945,  True, '2019-02-10 00:00:00'); /* Revenant */

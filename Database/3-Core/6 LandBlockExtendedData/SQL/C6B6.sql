@@ -5,22 +5,22 @@ VALUES (0x7C6B6001,  1154, 0xC6B6002E, 142.9985, 122.5707, 208.0434, 0.991944, 0
 /* @teleloc 0xC6B6002E [142.998500 122.570700 208.043400] 0.991944 0.000000 0.000000 -0.126677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6B6001, 0x7C6B6002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7C6B6001, 0x7C6B6003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6B6001, 0x7C6B6004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B6005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6B6001, 0x7C6B6006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B6007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B6008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6B6001, 0x7C6B6009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6B6001, 0x7C6B600A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B600B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B600C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B600D, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C6B6001, 0x7C6B600E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B600F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B6001, 0x7C6B6010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6B6001, 0x7C6B6011, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C6B6001, 0x7C6B6002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7C6B6001, 0x7C6B6003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6B6001, 0x7C6B6004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B6005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6B6001, 0x7C6B6006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B6007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B6008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6B6001, 0x7C6B6009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6B6001, 0x7C6B600A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B600B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B600C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B600D, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C6B6001, 0x7C6B600E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B600F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B6001, 0x7C6B6010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6B6001, 0x7C6B6011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6B6002,  7346, 0xC6B6002E, 142.9985, 122.5707, 208.0434, 0.991944, 0, 0, -0.1266773,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

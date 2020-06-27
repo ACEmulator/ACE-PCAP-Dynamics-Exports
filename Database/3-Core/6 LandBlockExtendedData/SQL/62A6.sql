@@ -5,20 +5,20 @@ VALUES (0x762A6001,  1154, 0x62A6002E, 139.0071, 123.261, 79.46749, -0.09445398,
 /* @teleloc 0x62A6002E [139.007100 123.261000 79.467490] -0.094454 0.000000 0.000000 -0.995529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762A6001, 0x762A6002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x762A6001, 0x762A6003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x762A6001, 0x762A6004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x762A6001, 0x762A6005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x762A6001, 0x762A6006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x762A6001, 0x762A6007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x762A6001, 0x762A6008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x762A6001, 0x762A6009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x762A6001, 0x762A600A, '2019-02-10 00:00:00') /* Static */
-     , (0x762A6001, 0x762A600B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x762A6001, 0x762A600C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x762A6001, 0x762A600D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x762A6001, 0x762A600E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x762A6001, 0x762A600F, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x762A6001, 0x762A6002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x762A6001, 0x762A6003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x762A6001, 0x762A6004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x762A6001, 0x762A6005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x762A6001, 0x762A6006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x762A6001, 0x762A6007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x762A6001, 0x762A6008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x762A6001, 0x762A6009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x762A6001, 0x762A600A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x762A6001, 0x762A600B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x762A6001, 0x762A600C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x762A6001, 0x762A600D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x762A6001, 0x762A600E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x762A6001, 0x762A600F, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762A6002,  1628, 0x62A6002E, 139.0071, 123.261, 79.46749, -0.09445398, 0, 0, -0.9955292,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -81,7 +81,7 @@ VALUES (0x762A6010,  1542, 0x62A6002E, 139.2494, 126.9383, 78.85462, -0.09445398
 /* @teleloc 0x62A6002E [139.249400 126.938300 78.854620] -0.094454 0.000000 0.000000 -0.995529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762A6010, 0x762A6011, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x762A6010, 0x762A6011, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762A6011, 31687, 0x62A6002E, 139.2494, 126.9383, 78.85462, -0.09445398, 0, 0, -0.9955292,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

@@ -5,17 +5,17 @@ VALUES (0x77A11001,  1154, 0x7A110033, 167.6868, 50.99002, 3.224511, 0.9042606, 
 /* @teleloc 0x7A110033 [167.686800 50.990020 3.224511] 0.904261 0.000000 0.000000 -0.426981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A11001, 0x77A11002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77A11001, 0x77A11003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77A11001, 0x77A11004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x77A11001, 0x77A11005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x77A11001, 0x77A11006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77A11001, 0x77A11007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77A11001, 0x77A11008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x77A11001, 0x77A11009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77A11001, 0x77A1100A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77A11001, 0x77A1100B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77A11001, 0x77A1100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x77A11001, 0x77A11002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77A11001, 0x77A11003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77A11001, 0x77A11004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x77A11001, 0x77A11005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x77A11001, 0x77A11006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77A11001, 0x77A11007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77A11001, 0x77A11008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x77A11001, 0x77A11009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77A11001, 0x77A1100A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77A11001, 0x77A1100B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77A11001, 0x77A1100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A11002,  7987, 0x7A110033, 167.6868, 50.99002, 3.224511, 0.9042606, 0, 0, -0.426981,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

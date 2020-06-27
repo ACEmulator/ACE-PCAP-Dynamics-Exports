@@ -5,12 +5,12 @@ VALUES (0x788D1001,  1154, 0x88D1003A, 185.8132, 31.72072, 168.5055, -0.9979593,
 /* @teleloc 0x88D1003A [185.813200 31.720720 168.505500] -0.997959 0.000000 0.000000 -0.063853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D1001, 0x788D1002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x788D1001, 0x788D1003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x788D1001, 0x788D1004, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x788D1001, 0x788D1005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x788D1001, 0x788D1006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x788D1001, 0x788D1007, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x788D1001, 0x788D1002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x788D1001, 0x788D1003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x788D1001, 0x788D1004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x788D1001, 0x788D1005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x788D1001, 0x788D1006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x788D1001, 0x788D1007, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D1002, 11478, 0x88D1003A, 185.8132, 31.72072, 168.5055, -0.9979593, 0, 0, -0.06385286,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

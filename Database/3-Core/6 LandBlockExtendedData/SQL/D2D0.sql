@@ -5,16 +5,16 @@ VALUES (0x7D2D0001,  1154, 0xD2D00011, 61.856, 13.05, 77.87022, 0.8089611, 0, 0,
 /* @teleloc 0xD2D00011 [61.856000 13.050000 77.870220] 0.808961 0.000000 0.000000 -0.587862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2D0001, 0x7D2D0002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7D2D0001, 0x7D2D0003, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D2D0001, 0x7D2D0004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D2D0001, 0x7D2D0005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D0001, 0x7D2D0006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D0001, 0x7D2D0007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D2D0001, 0x7D2D0008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D2D0001, 0x7D2D0009, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D2D0001, 0x7D2D000A, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7D2D0001, 0x7D2D000B, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7D2D0001, 0x7D2D0002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7D2D0001, 0x7D2D0003, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D2D0001, 0x7D2D0004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D2D0001, 0x7D2D0005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D0001, 0x7D2D0006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D0001, 0x7D2D0007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D2D0001, 0x7D2D0008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D2D0001, 0x7D2D0009, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D2D0001, 0x7D2D000A, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7D2D0001, 0x7D2D000B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D0002, 24280, 0xD2D00011, 61.856, 13.05, 77.87022, 0.8089611, 0, 0, -0.5878622,  True, '2019-02-10 00:00:00'); /* Murk Drudge */

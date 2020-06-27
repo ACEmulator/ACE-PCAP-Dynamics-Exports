@@ -5,14 +5,14 @@ VALUES (0x7E5D2001,  1154, 0xE5D2003A, 184.0016, 41.90812, 0.007149994, 0.802220
 /* @teleloc 0xE5D2003A [184.001600 41.908120 0.007150] 0.802221 0.000000 0.000000 -0.597028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E5D2001, 0x7E5D2002, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E5D2001, 0x7E5D2003, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E5D2001, 0x7E5D2004, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E5D2001, 0x7E5D2005, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E5D2001, 0x7E5D2006, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E5D2001, 0x7E5D2007, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E5D2001, 0x7E5D2008, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E5D2001, 0x7E5D2009, '2019-02-10 00:00:00') /* Banderling Crusher */;
+VALUES (0x7E5D2001, 0x7E5D2002, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E5D2001, 0x7E5D2003, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E5D2001, 0x7E5D2004, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E5D2001, 0x7E5D2005, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E5D2001, 0x7E5D2006, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E5D2001, 0x7E5D2007, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E5D2001, 0x7E5D2008, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E5D2001, 0x7E5D2009, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E5D2002, 43488, 0xE5D2003A, 184.0016, 41.90812, 0.007149994, 0.8022206, 0, 0, -0.5970277,  True, '2019-02-10 00:00:00'); /* Banderling Smasher */

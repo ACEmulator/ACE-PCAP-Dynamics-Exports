@@ -5,11 +5,11 @@ VALUES (0x750B4001,  1154, 0x50B4000A, 39.07867, 36.55326, 118.5316, 0.3987491, 
 /* @teleloc 0x50B4000A [39.078670 36.553260 118.531600] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750B4001, 0x750B4002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x750B4001, 0x750B4003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x750B4001, 0x750B4004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x750B4001, 0x750B4005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x750B4001, 0x750B4006, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x750B4001, 0x750B4002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x750B4001, 0x750B4003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x750B4001, 0x750B4004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x750B4001, 0x750B4005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x750B4001, 0x750B4006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750B4002,  7085, 0x50B4000A, 39.07867, 36.55326, 118.5316, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

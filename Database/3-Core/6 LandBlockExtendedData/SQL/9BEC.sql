@@ -5,16 +5,16 @@ VALUES (0x79BEC001,  1154, 0x9BEC0019, 77.26509, 22.06901, 35.1776, 0.7130091, 0
 /* @teleloc 0x9BEC0019 [77.265090 22.069010 35.177600] 0.713009 0.000000 0.000000 -0.701155 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEC001, 0x79BEC002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x79BEC001, 0x79BEC003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79BEC001, 0x79BEC004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79BEC001, 0x79BEC005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79BEC001, 0x79BEC006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79BEC001, 0x79BEC007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79BEC001, 0x79BEC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79BEC001, 0x79BEC009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79BEC001, 0x79BEC00A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x79BEC001, 0x79BEC00B, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x79BEC001, 0x79BEC002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x79BEC001, 0x79BEC003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79BEC001, 0x79BEC004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79BEC001, 0x79BEC005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79BEC001, 0x79BEC006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79BEC001, 0x79BEC007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79BEC001, 0x79BEC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79BEC001, 0x79BEC009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79BEC001, 0x79BEC00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x79BEC001, 0x79BEC00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEC002, 26470, 0x9BEC0019, 77.26509, 22.06901, 35.1776, 0.7130091, 0, 0, -0.7011548,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
@@ -61,7 +61,7 @@ VALUES (0x79BEC00C,  1542, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0,
 /* @teleloc 0x9BEC002A [133.397800 40.815610 38.313880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEC00C, 0x79BEC00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79BEC00C, 0x79BEC00D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEC00D, 22567, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

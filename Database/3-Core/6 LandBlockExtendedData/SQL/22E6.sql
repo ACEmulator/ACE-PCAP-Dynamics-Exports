@@ -5,20 +5,20 @@ VALUES (0x722E6001,  1154, 0x22E6002B, 141.089, 70.56384, 118.2798, 0.9797064, 0
 /* @teleloc 0x22E6002B [141.089000 70.563840 118.279800] 0.979706 0.000000 0.000000 -0.200438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E6001, 0x722E6002, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x722E6001, 0x722E6003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x722E6001, 0x722E6004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x722E6001, 0x722E6005, '2019-02-10 00:00:00') /* Maddened Fiun */
-     , (0x722E6001, 0x722E6006, '2019-02-10 00:00:00') /* Morel Thrungus */
-     , (0x722E6001, 0x722E6007, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x722E6001, 0x722E6008, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x722E6001, 0x722E6009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x722E6001, 0x722E600A, '2019-02-10 00:00:00') /* Maddened Fiun */
-     , (0x722E6001, 0x722E600B, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x722E6001, 0x722E600C, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E6001, 0x722E600D, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E6001, 0x722E600E, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x722E6001, 0x722E600F, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x722E6001, 0x722E6002, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x722E6001, 0x722E6003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x722E6001, 0x722E6004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x722E6001, 0x722E6005, '2019-02-10 00:00:00') /* Maddened Fiun (28646) */
+     , (0x722E6001, 0x722E6006, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */
+     , (0x722E6001, 0x722E6007, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x722E6001, 0x722E6008, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x722E6001, 0x722E6009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x722E6001, 0x722E600A, '2019-02-10 00:00:00') /* Maddened Fiun (28646) */
+     , (0x722E6001, 0x722E600B, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x722E6001, 0x722E600C, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E6001, 0x722E600D, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E6001, 0x722E600E, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x722E6001, 0x722E600F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E6002, 29356, 0x22E6002B, 141.089, 70.56384, 118.2798, 0.9797064, 0, 0, -0.2004379,  True, '2019-02-10 00:00:00'); /* Damaged Glacial Golem */

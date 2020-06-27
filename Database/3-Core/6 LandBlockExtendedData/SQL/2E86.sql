@@ -5,23 +5,23 @@ VALUES (0x72E86001,  1154, 0x2E860001, 3.985184, 22.07658, 56.01741, 0.9238795, 
 /* @teleloc 0x2E860001 [3.985184 22.076580 56.017410] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E86001, 0x72E86002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E86001, 0x72E86003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E86001, 0x72E86004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72E86001, 0x72E86005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72E86001, 0x72E86006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72E86001, 0x72E86007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E86001, 0x72E86008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E86001, 0x72E86009, '2019-02-10 00:00:00') /* Frost */
-     , (0x72E86001, 0x72E8600A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72E86001, 0x72E8600B, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72E86001, 0x72E8600C, '2019-02-10 00:00:00') /* Frost */
-     , (0x72E86001, 0x72E8600D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E86001, 0x72E8600E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E86001, 0x72E8600F, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x72E86001, 0x72E86010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E86001, 0x72E86011, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72E86001, 0x72E86012, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x72E86001, 0x72E86002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E86001, 0x72E86003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E86001, 0x72E86004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72E86001, 0x72E86005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72E86001, 0x72E86006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72E86001, 0x72E86007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E86001, 0x72E86008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E86001, 0x72E86009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72E86001, 0x72E8600A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72E86001, 0x72E8600B, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72E86001, 0x72E8600C, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72E86001, 0x72E8600D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E86001, 0x72E8600E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E86001, 0x72E8600F, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x72E86001, 0x72E86010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E86001, 0x72E86011, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72E86001, 0x72E86012, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E86002, 24497, 0x2E860001, 3.985184, 22.07658, 56.01741, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -96,8 +96,8 @@ VALUES (0x72E86013,  1542, 0x2E860004, 19.56657, 90.74722, 36.36945, 1, 0, 0, 0,
 /* @teleloc 0x2E860004 [19.566570 90.747220 36.369450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E86013, 0x72E86014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72E86013, 0x72E86015, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x72E86013, 0x72E86014, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x72E86013, 0x72E86015, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E86014, 22567, 0x2E860004, 19.56657, 90.74722, 36.36945, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

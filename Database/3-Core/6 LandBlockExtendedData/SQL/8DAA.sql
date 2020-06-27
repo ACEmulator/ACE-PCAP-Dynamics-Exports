@@ -5,10 +5,10 @@ VALUES (0x78DAA001,  1154, 0x8DAA000E, 37.71127, 122.5533, 37.9985, -0.02432385,
 /* @teleloc 0x8DAA000E [37.711270 122.553300 37.998500] -0.024324 0.000000 0.000000 -0.999704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAA001, 0x78DAA002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x78DAA001, 0x78DAA003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x78DAA001, 0x78DAA004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DAA001, 0x78DAA005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x78DAA001, 0x78DAA002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x78DAA001, 0x78DAA003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x78DAA001, 0x78DAA004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DAA001, 0x78DAA005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAA002,  7979, 0x8DAA000E, 37.71127, 122.5533, 37.9985, -0.02432385, 0, 0, -0.9997041,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

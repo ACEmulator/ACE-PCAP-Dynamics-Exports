@@ -5,15 +5,15 @@ VALUES (0x7BDDD001,  1154, 0xBDDD002C, 134.3713, 91.61972, 3.554628, 0.3987491, 
 /* @teleloc 0xBDDD002C [134.371300 91.619720 3.554628] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDDD001, 0x7BDDD002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDDD001, 0x7BDDD003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDDD001, 0x7BDDD004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDDD001, 0x7BDDD005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDDD001, 0x7BDDD006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDDD001, 0x7BDDD007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BDDD001, 0x7BDDD008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BDDD001, 0x7BDDD009, '2019-02-10 00:00:00') /* Static */
-     , (0x7BDDD001, 0x7BDDD00A, '2019-02-10 00:00:00') /* Scintilla */;
+VALUES (0x7BDDD001, 0x7BDDD002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDDD001, 0x7BDDD003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDDD001, 0x7BDDD004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDDD001, 0x7BDDD005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDDD001, 0x7BDDD006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDDD001, 0x7BDDD007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BDDD001, 0x7BDDD008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BDDD001, 0x7BDDD009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BDDD001, 0x7BDDD00A, '2019-02-10 00:00:00') /* Scintilla (6380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDDD002, 24288, 0xBDDD002C, 134.3713, 91.61972, 3.554628, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7BDDD00B,  1542, 0xBDDD000C, 27.99831, 84.52463, 2.956281, -0.824946, 
 /* @teleloc 0xBDDD000C [27.998310 84.524630 2.956281] -0.824946 0.000000 0.000000 -0.565212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDDD00B, 0x7BDDD00C, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7BDDD00B, 0x7BDDD00C, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDDD00C,  8039, 0xBDDD000C, 27.99831, 84.52463, 2.956281, -0.824946, 0, 0, -0.5652115,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

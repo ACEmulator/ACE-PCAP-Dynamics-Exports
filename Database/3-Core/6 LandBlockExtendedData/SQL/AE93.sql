@@ -5,12 +5,12 @@ VALUES (0x7AE93001,  1154, 0xAE930002, 22.46393, 33.65619, 39.35674, -0.9575114,
 /* @teleloc 0xAE930002 [22.463930 33.656190 39.356740] -0.957511 0.000000 0.000000 -0.288396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE93001, 0x7AE93002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AE93001, 0x7AE93003, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7AE93001, 0x7AE93004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AE93001, 0x7AE93005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AE93001, 0x7AE93006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7AE93001, 0x7AE93007, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7AE93001, 0x7AE93002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AE93001, 0x7AE93003, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7AE93001, 0x7AE93004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AE93001, 0x7AE93005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AE93001, 0x7AE93006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7AE93001, 0x7AE93007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE93002,  8143, 0xAE930002, 22.46393, 33.65619, 39.35674, -0.9575114, 0, 0, -0.2883955,  True, '2019-02-10 00:00:00'); /* Amploth Raider */
@@ -41,7 +41,7 @@ VALUES (0x7AE93008,  1542, 0xAE93000C, 41.27943, 73.70117, 53.18546, 0.7071068, 
 /* @teleloc 0xAE93000C [41.279430 73.701170 53.185460] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE93008, 0x7AE93009, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7AE93008, 0x7AE93009, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE93009,  5779, 0xAE93000C, 41.27943, 73.70117, 53.18546, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

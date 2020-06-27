@@ -5,12 +5,12 @@ VALUES (0x7CF56001,  1154, 0xCF56001C, 86.30151, 75.21558, 59.74635, -0.08715577
 /* @teleloc 0xCF56001C [86.301510 75.215580 59.746350] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF56001, 0x7CF56002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF56001, 0x7CF56003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CF56001, 0x7CF56004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF56001, 0x7CF56005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF56001, 0x7CF56006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF56001, 0x7CF56007, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7CF56001, 0x7CF56002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF56001, 0x7CF56003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CF56001, 0x7CF56004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF56001, 0x7CF56005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF56001, 0x7CF56006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF56001, 0x7CF56007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF56002, 24940, 0xCF56001C, 86.30151, 75.21558, 59.74635, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

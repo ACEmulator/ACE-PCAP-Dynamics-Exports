@@ -5,16 +5,16 @@ VALUES (0x7134D001,  1154, 0x134D0018, 50.01406, 171.8906, 31.67579, -0.9018919,
 /* @teleloc 0x134D0018 [50.014060 171.890600 31.675790] -0.901892 0.000000 0.000000 -0.431962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7134D001, 0x7134D002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7134D001, 0x7134D003, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7134D001, 0x7134D004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7134D001, 0x7134D005, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7134D001, 0x7134D006, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7134D001, 0x7134D007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7134D001, 0x7134D008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7134D001, 0x7134D009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7134D001, 0x7134D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7134D001, 0x7134D00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */;
+VALUES (0x7134D001, 0x7134D002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7134D001, 0x7134D003, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7134D001, 0x7134D004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7134D001, 0x7134D005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7134D001, 0x7134D006, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7134D001, 0x7134D007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7134D001, 0x7134D008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7134D001, 0x7134D009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7134D001, 0x7134D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7134D001, 0x7134D00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7134D002, 24133, 0x134D0018, 50.01406, 171.8906, 31.67579, -0.9018919, 0, 0, -0.4319618,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

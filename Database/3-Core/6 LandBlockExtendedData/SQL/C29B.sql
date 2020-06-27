@@ -5,20 +5,20 @@ VALUES (0x7C29B001,  1154, 0xC29B0017, 49.87492, 153.4756, 36.90237, 0.6419761, 
 /* @teleloc 0xC29B0017 [49.874920 153.475600 36.902370] 0.641976 0.000000 0.000000 -0.766725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29B001, 0x7C29B002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C29B001, 0x7C29B003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29B001, 0x7C29B004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C29B001, 0x7C29B005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C29B001, 0x7C29B006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C29B001, 0x7C29B007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C29B001, 0x7C29B008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C29B001, 0x7C29B009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C29B001, 0x7C29B00A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C29B001, 0x7C29B00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C29B001, 0x7C29B00C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C29B001, 0x7C29B00D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29B001, 0x7C29B00E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29B001, 0x7C29B00F, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7C29B001, 0x7C29B002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C29B001, 0x7C29B003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29B001, 0x7C29B004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C29B001, 0x7C29B005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C29B001, 0x7C29B006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C29B001, 0x7C29B007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C29B001, 0x7C29B008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C29B001, 0x7C29B009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C29B001, 0x7C29B00A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C29B001, 0x7C29B00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C29B001, 0x7C29B00C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C29B001, 0x7C29B00D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29B001, 0x7C29B00E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29B001, 0x7C29B00F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29B002,  1612, 0xC29B0017, 49.87492, 153.4756, 36.90237, 0.6419761, 0, 0, -0.7667247,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -81,9 +81,9 @@ VALUES (0x7C29B010,  1542, 0xC29B0039, 188.9585, 17.51807, 33.04707, 1, 0, 0, 0,
 /* @teleloc 0xC29B0039 [188.958500 17.518070 33.047070] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29B010, 0x7C29B011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C29B010, 0x7C29B012, '2019-02-10 00:00:00') /* Dart Flinger */
-     , (0x7C29B010, 0x7C29B013, '2019-02-10 00:00:00') /* Loose Breeches */;
+VALUES (0x7C29B010, 0x7C29B011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C29B010, 0x7C29B012, '2019-02-10 00:00:00') /* Dart Flinger (30746) */
+     , (0x7C29B010, 0x7C29B013, '2019-02-10 00:00:00') /* Loose Breeches (2602) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29B011,  4179, 0xC29B0039, 188.9585, 17.51807, 33.04707, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

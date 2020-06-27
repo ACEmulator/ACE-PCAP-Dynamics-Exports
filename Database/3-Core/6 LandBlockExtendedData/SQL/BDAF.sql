@@ -9,34 +9,34 @@ VALUES (0x7BDAF00C,  1154, 0xBDAF0103, 179.4758, 128.4565, 92.12923, 0.0569634, 
 /* @teleloc 0xBDAF0103 [179.475800 128.456500 92.129230] 0.056963 0.000000 0.000000 -0.998376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDAF00C, 0x7BDAF00D, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF00E, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF00F, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF010, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF011, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF012, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF013, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF014, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF015, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF016, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF017, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BDAF00C, 0x7BDAF018, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BDAF00C, 0x7BDAF019, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BDAF00C, 0x7BDAF01A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDAF00C, 0x7BDAF01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BDAF00C, 0x7BDAF01C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BDAF00C, 0x7BDAF01D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDAF00C, 0x7BDAF01E, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF01F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDAF00C, 0x7BDAF020, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BDAF00C, 0x7BDAF021, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BDAF00C, 0x7BDAF022, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7BDAF00C, 0x7BDAF023, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BDAF00C, 0x7BDAF024, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BDAF00C, 0x7BDAF025, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BDAF00C, 0x7BDAF026, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BDAF00C, 0x7BDAF027, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BDAF00C, 0x7BDAF028, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7BDAF00C, 0x7BDAF00D, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF00E, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF00F, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF010, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF011, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF012, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF013, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF014, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF015, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF016, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF017, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BDAF00C, 0x7BDAF018, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BDAF00C, 0x7BDAF019, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BDAF00C, 0x7BDAF01A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDAF00C, 0x7BDAF01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BDAF00C, 0x7BDAF01C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BDAF00C, 0x7BDAF01D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDAF00C, 0x7BDAF01E, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF01F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDAF00C, 0x7BDAF020, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BDAF00C, 0x7BDAF021, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BDAF00C, 0x7BDAF022, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7BDAF00C, 0x7BDAF023, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BDAF00C, 0x7BDAF024, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF025, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BDAF00C, 0x7BDAF026, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BDAF00C, 0x7BDAF027, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BDAF00C, 0x7BDAF028, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDAF00D,   945, 0xBDAF0103, 179.4758, 128.4565, 92.12923, 0.0569634, 0, 0, -0.998376,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
@@ -155,7 +155,7 @@ VALUES (0x7BDAF029,  1542, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0, F
 /* @teleloc 0xBDAF0027 [98.591250 155.263000 117.222000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDAF029, 0x7BDAF02A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BDAF029, 0x7BDAF02A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDAF02A,  4380, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

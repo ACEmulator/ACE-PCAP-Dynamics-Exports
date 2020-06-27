@@ -5,17 +5,17 @@ VALUES (0x7D253001,  1154, 0xD253002F, 137.191, 151.6688, 143.4335, 0.9956799, 0
 /* @teleloc 0xD253002F [137.191000 151.668800 143.433500] 0.995680 0.000000 0.000000 -0.092852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D253001, 0x7D253002, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D253001, 0x7D253003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7D253001, 0x7D253004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D253001, 0x7D253005, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D253001, 0x7D253006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D253001, 0x7D253007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D253001, 0x7D253008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D253001, 0x7D253009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D253001, 0x7D25300A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D253001, 0x7D25300B, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D253001, 0x7D25300C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7D253001, 0x7D253002, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D253001, 0x7D253003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7D253001, 0x7D253004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D253001, 0x7D253005, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D253001, 0x7D253006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D253001, 0x7D253007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D253001, 0x7D253008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D253001, 0x7D253009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D253001, 0x7D25300A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D253001, 0x7D25300B, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D253001, 0x7D25300C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D253002, 11537, 0xD253002F, 137.191, 151.6688, 143.4335, 0.9956799, 0, 0, -0.09285242,  True, '2019-02-10 00:00:00'); /* Virtuous Doll */
@@ -66,8 +66,8 @@ VALUES (0x7D25300D,  1542, 0xD2530007, 14.84089, 161.2649, 151.812, 1, 0, 0, 0, 
 /* @teleloc 0xD2530007 [14.840890 161.264900 151.812000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D25300D, 0x7D25300E, '2019-02-10 00:00:00') /* Meat */
-     , (0x7D25300D, 0x7D25300F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D25300D, 0x7D25300E, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7D25300D, 0x7D25300F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D25300E,   265, 0xD2530007, 14.84089, 161.2649, 151.812, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

@@ -9,49 +9,49 @@ VALUES (0x7EF17002,  1154, 0xEF170028, 110.7168, 189.6791, 20.013, 0.9726657, 0,
 /* @teleloc 0xEF170028 [110.716800 189.679100 20.013000] 0.972666 0.000000 0.000000 -0.232210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF17002, 0x7EF17003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EF17002, 0x7EF17004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF17005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EF17002, 0x7EF17006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF17007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF17008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF17009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF1700A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF1700B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF1700C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF1700D, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7EF17002, 0x7EF1700E, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7EF17002, 0x7EF1700F, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF17010, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF17011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF17012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7EF17002, 0x7EF17013, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF17014, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF17015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF17016, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF17017, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF17018, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7EF17002, 0x7EF17019, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7EF17002, 0x7EF1701A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF1701B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF1701C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7EF17002, 0x7EF1701D, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7EF17002, 0x7EF1701E, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7EF17002, 0x7EF1701F, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7EF17002, 0x7EF17020, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EF17002, 0x7EF17021, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EF17002, 0x7EF17022, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EF17002, 0x7EF17023, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EF17002, 0x7EF17024, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7EF17002, 0x7EF17025, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7EF17002, 0x7EF17026, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7EF17002, 0x7EF17027, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7EF17002, 0x7EF17028, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF17029, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF1702A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7EF17002, 0x7EF1702B, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7EF17002, 0x7EF1702C, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7EF17002, 0x7EF1702D, '2019-02-10 00:00:00') /* Blood Fiend */;
+VALUES (0x7EF17002, 0x7EF17003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EF17002, 0x7EF17004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF17005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EF17002, 0x7EF17006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF17007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF17008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF17009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF1700A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF1700B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF1700C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF1700D, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7EF17002, 0x7EF1700E, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7EF17002, 0x7EF1700F, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF17010, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF17011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF17012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7EF17002, 0x7EF17013, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF17014, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF17015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF17016, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF17017, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF17018, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7EF17002, 0x7EF17019, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7EF17002, 0x7EF1701A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF1701B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF1701C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7EF17002, 0x7EF1701D, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7EF17002, 0x7EF1701E, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7EF17002, 0x7EF1701F, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7EF17002, 0x7EF17020, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EF17002, 0x7EF17021, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EF17002, 0x7EF17022, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EF17002, 0x7EF17023, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EF17002, 0x7EF17024, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7EF17002, 0x7EF17025, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7EF17002, 0x7EF17026, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7EF17002, 0x7EF17027, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7EF17002, 0x7EF17028, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF17029, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF1702A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7EF17002, 0x7EF1702B, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7EF17002, 0x7EF1702C, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7EF17002, 0x7EF1702D, '2019-02-10 00:00:00') /* Blood Fiend (27799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF17003,  7183, 0xEF170028, 110.7168, 189.6791, 20.013, 0.9726657, 0, 0, -0.2322098,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -230,9 +230,9 @@ VALUES (0x7EF1702E,  1542, 0xEF170010, 38.10145, 182.6857, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xEF170010 [38.101450 182.685700 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF1702E, 0x7EF1702F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7EF1702E, 0x7EF17030, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7EF1702E, 0x7EF17031, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7EF1702E, 0x7EF1702F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7EF1702E, 0x7EF17030, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7EF1702E, 0x7EF17031, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF1702F,  4179, 0xEF170010, 38.10145, 182.6857, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

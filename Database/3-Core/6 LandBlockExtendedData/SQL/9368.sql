@@ -5,9 +5,9 @@ VALUES (0x79368001,  1154, 0x93680008, 15.98067, 188.5052, 10.96791, 0.002602888
 /* @teleloc 0x93680008 [15.980670 188.505200 10.967910] 0.002603 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79368001, 0x79368002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x79368001, 0x79368003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79368001, 0x79368004, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79368001, 0x79368002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x79368001, 0x79368003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79368001, 0x79368004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79368002,   218, 0x93680008, 15.98067, 188.5052, 10.96791, 0.002602888, 0, 0, -0.9999966,  True, '2019-02-10 00:00:00'); /* Black Rat */

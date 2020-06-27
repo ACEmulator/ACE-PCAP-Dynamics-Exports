@@ -5,12 +5,12 @@ VALUES (0x7CCBF001,  1154, 0xCCBF003B, 185.4043, 52.94725, 7.175459, -0.9423257,
 /* @teleloc 0xCCBF003B [185.404300 52.947250 7.175459] -0.942326 0.000000 0.000000 -0.334698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCBF001, 0x7CCBF002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBF001, 0x7CCBF003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBF001, 0x7CCBF004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CCBF001, 0x7CCBF005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CCBF001, 0x7CCBF006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBF001, 0x7CCBF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */;
+VALUES (0x7CCBF001, 0x7CCBF002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBF001, 0x7CCBF003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBF001, 0x7CCBF004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CCBF001, 0x7CCBF005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CCBF001, 0x7CCBF006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBF001, 0x7CCBF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCBF002, 23482, 0xCCBF003B, 185.4043, 52.94725, 7.175459, -0.9423257, 0, 0, -0.3346975,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

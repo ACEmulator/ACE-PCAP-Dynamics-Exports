@@ -5,13 +5,13 @@ VALUES (0x73C45001,  1154, 0x3C450040, 178.9481, 184.9047, 26.15575, 0.1277044, 
 /* @teleloc 0x3C450040 [178.948100 184.904700 26.155750] 0.127704 0.000000 0.000000 -0.991812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C45001, 0x73C45002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73C45001, 0x73C45003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C45001, 0x73C45004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73C45001, 0x73C45005, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73C45001, 0x73C45006, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73C45001, 0x73C45007, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x73C45001, 0x73C45008, '2019-02-10 00:00:00') /* Burun Ruuk Seer */;
+VALUES (0x73C45001, 0x73C45002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73C45001, 0x73C45003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C45001, 0x73C45004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73C45001, 0x73C45005, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73C45001, 0x73C45006, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73C45001, 0x73C45007, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x73C45001, 0x73C45008, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C45002, 36834, 0x3C450040, 178.9481, 184.9047, 26.15575, 0.1277044, 0, 0, -0.9918123,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

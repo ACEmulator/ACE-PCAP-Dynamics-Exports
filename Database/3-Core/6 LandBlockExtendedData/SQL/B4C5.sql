@@ -5,13 +5,13 @@ VALUES (0x7B4C5001,  1154, 0xB4C5001A, 91.77769, 24.3628, 204.4731, 0.4226182, 0
 /* @teleloc 0xB4C5001A [91.777690 24.362800 204.473100] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4C5001, 0x7B4C5002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4C5001, 0x7B4C5003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4C5001, 0x7B4C5004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B4C5001, 0x7B4C5005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B4C5001, 0x7B4C5006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B4C5001, 0x7B4C5007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B4C5001, 0x7B4C5008, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7B4C5001, 0x7B4C5002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4C5001, 0x7B4C5003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4C5001, 0x7B4C5004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B4C5001, 0x7B4C5005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B4C5001, 0x7B4C5006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B4C5001, 0x7B4C5007, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7B4C5001, 0x7B4C5008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4C5002,  1609, 0xB4C5001A, 91.77769, 24.3628, 204.4731, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

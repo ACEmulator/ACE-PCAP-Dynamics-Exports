@@ -5,14 +5,14 @@ VALUES (0x70B75001,  1154, 0x0B750003, 17.0294, 63.49838, 56.51353, -0.1779142, 
 /* @teleloc 0x0B750003 [17.029400 63.498380 56.513530] -0.177914 0.000000 0.000000 -0.984046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B75001, 0x70B75002, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70B75001, 0x70B75003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70B75001, 0x70B75004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B75001, 0x70B75005, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70B75001, 0x70B75006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70B75001, 0x70B75007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B75001, 0x70B75008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B75001, 0x70B75009, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70B75001, 0x70B75002, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70B75001, 0x70B75003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70B75001, 0x70B75004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B75001, 0x70B75005, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70B75001, 0x70B75006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70B75001, 0x70B75007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B75001, 0x70B75008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B75001, 0x70B75009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B75002, 36836, 0x0B750003, 17.0294, 63.49838, 56.51353, -0.1779142, 0, 0, -0.984046,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
@@ -51,7 +51,7 @@ VALUES (0x70B7500A,  1542, 0x0B750010, 42.13916, 191.5934, 17.56121, 1, 0, 0, 0,
 /* @teleloc 0x0B750010 [42.139160 191.593400 17.561210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B7500A, 0x70B7500B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70B7500A, 0x70B7500B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B7500B,  4179, 0x0B750010, 42.13916, 191.5934, 17.56121, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

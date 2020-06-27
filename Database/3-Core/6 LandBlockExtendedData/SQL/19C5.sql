@@ -5,17 +5,17 @@ VALUES (0x719C5001,  1154, 0x19C50022, 103.8408, 36.60305, 20.0065, -0.9032765, 
 /* @teleloc 0x19C50022 [103.840800 36.603050 20.006500] -0.903277 0.000000 0.000000 -0.429059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C5001, 0x719C5002, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x719C5001, 0x719C5003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x719C5001, 0x719C5004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x719C5001, 0x719C5005, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x719C5001, 0x719C5006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C5001, 0x719C5007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C5001, 0x719C5008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C5001, 0x719C5009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C5001, 0x719C500A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x719C5001, 0x719C500B, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C5001, 0x719C500C, '2019-02-10 00:00:00') /* Viamontian Knight */;
+VALUES (0x719C5001, 0x719C5002, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x719C5001, 0x719C5003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x719C5001, 0x719C5004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x719C5001, 0x719C5005, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x719C5001, 0x719C5006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C5001, 0x719C5007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C5001, 0x719C5008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C5001, 0x719C5009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C5001, 0x719C500A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x719C5001, 0x719C500B, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C5001, 0x719C500C, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C5002, 11517, 0x19C50022, 103.8408, 36.60305, 20.0065, -0.9032765, 0, 0, -0.4290588,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */

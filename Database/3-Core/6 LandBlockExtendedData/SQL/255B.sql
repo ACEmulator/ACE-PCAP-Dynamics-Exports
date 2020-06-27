@@ -5,22 +5,22 @@ VALUES (0x7255B001,  1154, 0x255B0028, 109.0124, 171.2312, 31.35382, 0.2587672, 
 /* @teleloc 0x255B0028 [109.012400 171.231200 31.353820] 0.258767 0.000000 0.000000 -0.965940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7255B001, 0x7255B002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7255B001, 0x7255B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7255B001, 0x7255B004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7255B001, 0x7255B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7255B001, 0x7255B006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7255B001, 0x7255B00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7255B001, 0x7255B00D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7255B001, 0x7255B00E, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7255B001, 0x7255B00F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7255B001, 0x7255B010, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7255B001, 0x7255B011, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x7255B001, 0x7255B002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7255B001, 0x7255B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7255B001, 0x7255B004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7255B001, 0x7255B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7255B001, 0x7255B006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B00B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7255B001, 0x7255B00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7255B001, 0x7255B00D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7255B001, 0x7255B00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7255B001, 0x7255B00F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7255B001, 0x7255B010, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7255B001, 0x7255B011, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7255B002, 41535, 0x255B0028, 109.0124, 171.2312, 31.35382, 0.2587672, 0, 0, -0.9659397,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

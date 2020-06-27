@@ -5,24 +5,24 @@ VALUES (0x74AC5001,  1154, 0x4AC50029, 126.5117, 11.52826, 2.0065, 0.7071068, 0,
 /* @teleloc 0x4AC50029 [126.511700 11.528260 2.006500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC5001, 0x74AC5002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74AC5001, 0x74AC5003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AC5001, 0x74AC5004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74AC5001, 0x74AC5005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74AC5001, 0x74AC5006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74AC5001, 0x74AC5007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74AC5001, 0x74AC5008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC5001, 0x74AC5009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC5001, 0x74AC500A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC5001, 0x74AC500B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74AC5001, 0x74AC500C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74AC5001, 0x74AC500D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74AC5001, 0x74AC500E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AC5001, 0x74AC500F, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AC5001, 0x74AC5010, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AC5001, 0x74AC5011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74AC5001, 0x74AC5012, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74AC5001, 0x74AC5013, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x74AC5001, 0x74AC5002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74AC5001, 0x74AC5003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AC5001, 0x74AC5004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74AC5001, 0x74AC5005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74AC5001, 0x74AC5006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74AC5001, 0x74AC5007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74AC5001, 0x74AC5008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC5001, 0x74AC5009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC5001, 0x74AC500A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC5001, 0x74AC500B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74AC5001, 0x74AC500C, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x74AC5001, 0x74AC500D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x74AC5001, 0x74AC500E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AC5001, 0x74AC500F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AC5001, 0x74AC5010, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AC5001, 0x74AC5011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74AC5001, 0x74AC5012, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74AC5001, 0x74AC5013, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC5002, 10806, 0x4AC50029, 126.5117, 11.52826, 2.0065, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -101,8 +101,8 @@ VALUES (0x74AC5014,  1542, 0x4AC50020, 94.88701, 181.8961, 4, 0.9990482, 0, 0, -
 /* @teleloc 0x4AC50020 [94.887010 181.896100 4.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC5014, 0x74AC5015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74AC5014, 0x74AC5016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74AC5014, 0x74AC5015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74AC5014, 0x74AC5016, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC5015,  4179, 0x4AC50020, 94.88701, 181.8961, 4, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

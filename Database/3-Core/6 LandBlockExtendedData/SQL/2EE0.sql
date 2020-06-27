@@ -5,11 +5,11 @@ VALUES (0x72EE0001,  1154, 0x2EE00038, 167.3914, 187.745, 20.0025, 0.8596961, 0,
 /* @teleloc 0x2EE00038 [167.391400 187.745000 20.002500] 0.859696 0.000000 0.000000 -0.510806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE0001, 0x72EE0002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72EE0001, 0x72EE0003, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72EE0001, 0x72EE0004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x72EE0001, 0x72EE0005, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x72EE0001, 0x72EE0006, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x72EE0001, 0x72EE0002, '2019-02-10 00:00:00') /* Skeleton Captain (7821) */
+     , (0x72EE0001, 0x72EE0003, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72EE0001, 0x72EE0004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x72EE0001, 0x72EE0005, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x72EE0001, 0x72EE0006, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE0002,  7821, 0x2EE00038, 167.3914, 187.745, 20.0025, 0.8596961, 0, 0, -0.5108057,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

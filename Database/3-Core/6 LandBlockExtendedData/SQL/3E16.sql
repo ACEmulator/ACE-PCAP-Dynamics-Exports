@@ -5,12 +5,12 @@ VALUES (0x73E16001,  1154, 0x3E160029, 130.8198, 16.53783, -0.09349996, 0.953716
 /* @teleloc 0x3E160029 [130.819800 16.537830 -0.093500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E16001, 0x73E16002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E16001, 0x73E16003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E16001, 0x73E16004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E16001, 0x73E16005, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73E16001, 0x73E16006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73E16001, 0x73E16007, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73E16001, 0x73E16002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E16001, 0x73E16003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E16001, 0x73E16004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E16001, 0x73E16005, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73E16001, 0x73E16006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73E16001, 0x73E16007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E16002,  8431, 0x3E160029, 130.8198, 16.53783, -0.09349996, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -41,7 +41,7 @@ VALUES (0x73E16008,  1542, 0x3E160013, 58.64743, 64.61478, 6.451742, 0.501591, 0
 /* @teleloc 0x3E160013 [58.647430 64.614780 6.451742] 0.501591 0.000000 0.000000 -0.865105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E16008, 0x73E16009, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73E16008, 0x73E16009, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E16009,  9288, 0x3E160013, 58.64743, 64.61478, 6.451742, 0.501591, 0, 0, -0.8651049,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

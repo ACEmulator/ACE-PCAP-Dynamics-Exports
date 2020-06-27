@@ -5,22 +5,22 @@ VALUES (0x7A036001,  1154, 0xA036000F, 39.59645, 158.5095, 62.0121, 0.9911898, 0
 /* @teleloc 0xA036000F [39.596450 158.509500 62.012100] 0.991190 0.000000 0.000000 -0.132449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A036001, 0x7A036002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A036001, 0x7A036003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A036001, 0x7A036004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A036001, 0x7A036005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A036001, 0x7A036006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7A036001, 0x7A036007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A036001, 0x7A036008, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7A036001, 0x7A036009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A036001, 0x7A03600A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7A036001, 0x7A03600B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A036001, 0x7A03600C, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7A036001, 0x7A03600D, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7A036001, 0x7A03600E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A036001, 0x7A03600F, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A036001, 0x7A036010, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A036001, 0x7A036011, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7A036001, 0x7A036002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A036001, 0x7A036003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A036001, 0x7A036004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A036001, 0x7A036005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A036001, 0x7A036006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7A036001, 0x7A036007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A036001, 0x7A036008, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7A036001, 0x7A036009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A036001, 0x7A03600A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7A036001, 0x7A03600B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A036001, 0x7A03600C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7A036001, 0x7A03600D, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7A036001, 0x7A03600E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A036001, 0x7A03600F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A036001, 0x7A036010, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A036001, 0x7A036011, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A036002,  1627, 0xA036000F, 39.59645, 158.5095, 62.0121, 0.9911898, 0, 0, -0.1324488,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -91,8 +91,8 @@ VALUES (0x7A036012,  1542, 0xA0360018, 56.81005, 186.4577, 61.937, 0.9537169, 0,
 /* @teleloc 0xA0360018 [56.810050 186.457700 61.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A036012, 0x7A036013, '2019-02-10 00:00:00') /* Golem Sanctum Portal */
-     , (0x7A036012, 0x7A036014, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7A036012, 0x7A036013, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */
+     , (0x7A036012, 0x7A036014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A036013,  7934, 0xA0360018, 56.81005, 186.4577, 61.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

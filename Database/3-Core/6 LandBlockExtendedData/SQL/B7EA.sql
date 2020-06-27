@@ -5,42 +5,42 @@ VALUES (0x7B7EA001,  1154, 0xB7EA0017, 63.93769, 161.0962, 67.91758, 0.7933533, 
 /* @teleloc 0xB7EA0017 [63.937690 161.096200 67.917580] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7EA001, 0x7B7EA002, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B7EA001, 0x7B7EA003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B7EA001, 0x7B7EA005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7B7EA001, 0x7B7EA006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA007, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B7EA001, 0x7B7EA008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7B7EA001, 0x7B7EA009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7B7EA001, 0x7B7EA00A, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B7EA001, 0x7B7EA00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B7EA001, 0x7B7EA00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B7EA001, 0x7B7EA00D, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B7EA001, 0x7B7EA00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B7EA001, 0x7B7EA00F, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7B7EA001, 0x7B7EA010, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B7EA001, 0x7B7EA011, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B7EA001, 0x7B7EA012, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B7EA001, 0x7B7EA013, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA014, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA015, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA016, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA017, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B7EA001, 0x7B7EA018, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B7EA001, 0x7B7EA019, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B7EA001, 0x7B7EA01A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B7EA001, 0x7B7EA01B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B7EA001, 0x7B7EA01C, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7B7EA001, 0x7B7EA01D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7B7EA001, 0x7B7EA01E, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B7EA001, 0x7B7EA01F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA020, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B7EA001, 0x7B7EA021, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B7EA001, 0x7B7EA022, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B7EA001, 0x7B7EA023, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B7EA001, 0x7B7EA024, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B7EA001, 0x7B7EA025, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7B7EA001, 0x7B7EA002, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B7EA001, 0x7B7EA003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B7EA001, 0x7B7EA005, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7B7EA001, 0x7B7EA006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA007, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B7EA001, 0x7B7EA008, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7B7EA001, 0x7B7EA009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7B7EA001, 0x7B7EA00A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B7EA001, 0x7B7EA00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B7EA001, 0x7B7EA00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B7EA001, 0x7B7EA00D, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B7EA001, 0x7B7EA00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B7EA001, 0x7B7EA00F, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7B7EA001, 0x7B7EA010, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B7EA001, 0x7B7EA011, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B7EA001, 0x7B7EA012, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B7EA001, 0x7B7EA013, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA014, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA015, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA016, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA017, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B7EA001, 0x7B7EA018, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B7EA001, 0x7B7EA019, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B7EA001, 0x7B7EA01A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B7EA001, 0x7B7EA01B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B7EA001, 0x7B7EA01C, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7B7EA001, 0x7B7EA01D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7B7EA001, 0x7B7EA01E, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B7EA001, 0x7B7EA01F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA020, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B7EA001, 0x7B7EA021, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B7EA001, 0x7B7EA022, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B7EA001, 0x7B7EA023, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B7EA001, 0x7B7EA024, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B7EA001, 0x7B7EA025, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7EA002,  7178, 0xB7EA0017, 63.93769, 161.0962, 67.91758, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Cursed Bones */

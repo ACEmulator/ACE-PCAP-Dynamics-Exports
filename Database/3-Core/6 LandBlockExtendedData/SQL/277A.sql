@@ -9,28 +9,28 @@ VALUES (0x7277A001,  1154, 0x277A0040, 190.792, 179.886, 380, 0.999922, 0, 0, -0
 /* @teleloc 0x277A0040 [190.792000 179.886000 380.000000] 0.999922 0.000000 0.000000 -0.012518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277A001, 0x7277A002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7277A001, 0x7277A003, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x7277A001, 0x7277A004, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A005, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A006, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A007, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A008, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A009, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00A, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00B, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00C, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00D, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00E, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A00F, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A010, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7277A001, 0x7277A011, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7277A001, 0x7277A012, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7277A001, 0x7277A013, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7277A001, 0x7277A014, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7277A001, 0x7277A015, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7277A001, 0x7277A016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277A001, 0x7277A017, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x7277A001, 0x7277A002, '2019-02-10 00:00:00') /* Exploration Marker (39762) */
+     , (0x7277A001, 0x7277A003, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x7277A001, 0x7277A004, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A005, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A006, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A007, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A008, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A009, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00A, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00B, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00C, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00D, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00E, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A00F, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A010, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7277A001, 0x7277A011, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7277A001, 0x7277A012, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277A001, 0x7277A013, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7277A001, 0x7277A014, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277A001, 0x7277A015, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7277A001, 0x7277A016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277A001, 0x7277A017, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277A002, 39762, 0x277A0040, 190.792, 179.886, 380, 0.999922, 0, 0, -0.0125182,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -125,7 +125,7 @@ VALUES (0x7277A018,  1542, 0x277A001A, 93.1356, 41.60676, 308.8065, 0.9990482, 0
 /* @teleloc 0x277A001A [93.135600 41.606760 308.806500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277A018, 0x7277A019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7277A018, 0x7277A019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277A019,  4179, 0x277A001A, 93.1356, 41.60676, 308.8065, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

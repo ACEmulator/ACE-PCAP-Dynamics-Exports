@@ -5,12 +5,12 @@ VALUES (0x7C47A001,  1154, 0xC47A0019, 85.81196, 16.69057, 25.1555, 0.761422, 0,
 /* @teleloc 0xC47A0019 [85.811960 16.690570 25.155500] 0.761422 0.000000 0.000000 -0.648257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C47A001, 0x7C47A002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C47A001, 0x7C47A003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C47A001, 0x7C47A004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C47A001, 0x7C47A005, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C47A001, 0x7C47A006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7C47A001, 0x7C47A007, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7C47A001, 0x7C47A002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C47A001, 0x7C47A003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C47A001, 0x7C47A004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C47A001, 0x7C47A005, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C47A001, 0x7C47A006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7C47A001, 0x7C47A007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C47A002,  1614, 0xC47A0019, 85.81196, 16.69057, 25.1555, 0.761422, 0, 0, -0.6482565,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
@@ -41,7 +41,7 @@ VALUES (0x7C47A008,  1542, 0xC47A001E, 91.1151, 123.5276, 44.995, -0.8070776, 0,
 /* @teleloc 0xC47A001E [91.115100 123.527600 44.995000] -0.807078 0.000000 0.000000 -0.590445 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C47A008, 0x7C47A009, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C47A008, 0x7C47A009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C47A009,  8646, 0xC47A001E, 91.1151, 123.5276, 44.995, -0.8070776, 0, 0, -0.5904453,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

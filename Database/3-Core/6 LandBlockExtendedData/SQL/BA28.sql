@@ -5,11 +5,11 @@ VALUES (0x7BA28001,  1154, 0xBA280038, 145.135, 183.282, 208.3884, 0.9238795, 0,
 /* @teleloc 0xBA280038 [145.135000 183.282000 208.388400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA28001, 0x7BA28002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA28001, 0x7BA28003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA28001, 0x7BA28004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA28001, 0x7BA28005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA28001, 0x7BA28006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7BA28001, 0x7BA28002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA28001, 0x7BA28003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA28001, 0x7BA28004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA28001, 0x7BA28005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA28001, 0x7BA28006, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA28002, 24494, 0xBA280038, 145.135, 183.282, 208.3884, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -36,7 +36,7 @@ VALUES (0x7BA28007,  1542, 0xBA280012, 51.83519, 39.13863, 206.3952, 0.8249135, 
 /* @teleloc 0xBA280012 [51.835190 39.138630 206.395200] 0.824914 0.000000 0.000000 -0.565259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA28007, 0x7BA28008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BA28007, 0x7BA28008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA28008, 42528, 0xBA280012, 51.83519, 39.13863, 206.3952, 0.8249135, 0, 0, -0.565259,  True, '2019-02-10 00:00:00'); /* Rock */

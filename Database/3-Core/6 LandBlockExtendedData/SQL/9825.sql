@@ -5,15 +5,15 @@ VALUES (0x79825001,  1154, 0x98250003, 18.28477, 52.98943, 121.2129, 0.9374179, 
 /* @teleloc 0x98250003 [18.284770 52.989430 121.212900] 0.937418 0.000000 0.000000 -0.348207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79825001, 0x79825002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79825001, 0x79825003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79825001, 0x79825004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79825001, 0x79825005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79825001, 0x79825006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79825001, 0x79825007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79825001, 0x79825008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79825001, 0x79825009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79825001, 0x7982500A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x79825001, 0x79825002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79825001, 0x79825003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79825001, 0x79825004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79825001, 0x79825005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79825001, 0x79825006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79825001, 0x79825007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79825001, 0x79825008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79825001, 0x79825009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79825001, 0x7982500A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79825002,  5748, 0x98250003, 18.28477, 52.98943, 121.2129, 0.9374179, 0, 0, -0.3482065,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -56,8 +56,8 @@ VALUES (0x7982500B,  1542, 0x98250033, 148.0737, 67.77979, 94.5444, 0.09575522, 
 /* @teleloc 0x98250033 [148.073700 67.779790 94.544400] 0.095755 0.000000 0.000000 -0.995405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982500B, 0x7982500C, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7982500B, 0x7982500D, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7982500B, 0x7982500C, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7982500B, 0x7982500D, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982500C, 14789, 0x98250033, 148.0737, 67.77979, 94.5444, 0.09575522, 0, 0, -0.9954049,  True, '2019-02-10 00:00:00'); /* Ginger */

@@ -5,26 +5,26 @@ VALUES (0x7A0D9001,  1154, 0xA0D9003D, 187.7594, 115.5326, 56.39519, -0.8964565,
 /* @teleloc 0xA0D9003D [187.759400 115.532600 56.395190] -0.896457 0.000000 0.000000 -0.443132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D9001, 0x7A0D9002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A0D9001, 0x7A0D9003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A0D9001, 0x7A0D9004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A0D9001, 0x7A0D9005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A0D9001, 0x7A0D9006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A0D9001, 0x7A0D9007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D9001, 0x7A0D9008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D9001, 0x7A0D9009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D9001, 0x7A0D900A, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7A0D9001, 0x7A0D900B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D9001, 0x7A0D900C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D9001, 0x7A0D900D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D9001, 0x7A0D900E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A0D9001, 0x7A0D900F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A0D9001, 0x7A0D9010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A0D9001, 0x7A0D9011, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A0D9001, 0x7A0D9012, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A0D9001, 0x7A0D9013, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7A0D9001, 0x7A0D9014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A0D9001, 0x7A0D9015, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7A0D9001, 0x7A0D9002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A0D9001, 0x7A0D9003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A0D9001, 0x7A0D9004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A0D9001, 0x7A0D9005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A0D9001, 0x7A0D9006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A0D9001, 0x7A0D9007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D9001, 0x7A0D9008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D9001, 0x7A0D9009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D9001, 0x7A0D900A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7A0D9001, 0x7A0D900B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D9001, 0x7A0D900C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D9001, 0x7A0D900D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D9001, 0x7A0D900E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A0D9001, 0x7A0D900F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A0D9001, 0x7A0D9010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A0D9001, 0x7A0D9011, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A0D9001, 0x7A0D9012, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A0D9001, 0x7A0D9013, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7A0D9001, 0x7A0D9014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A0D9001, 0x7A0D9015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D9002,  4254, 0xA0D9003D, 187.7594, 115.5326, 56.39519, -0.8964565, 0, 0, -0.4431318,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -111,8 +111,8 @@ VALUES (0x7A0D9016,  1542, 0xA0D9003C, 175.1817, 83.35502, 61.61238, 0.9990482, 
 /* @teleloc 0xA0D9003C [175.181700 83.355020 61.612380] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D9016, 0x7A0D9017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A0D9016, 0x7A0D9018, '2019-02-10 00:00:00') /* Oak Talisman */;
+VALUES (0x7A0D9016, 0x7A0D9017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A0D9016, 0x7A0D9018, '2019-02-10 00:00:00') /* Oak Talisman (748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D9017,  4179, 0xA0D9003C, 175.1817, 83.35502, 61.61238, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,11 +5,11 @@ VALUES (0x774EC001,  1154, 0x74EC0004, 1.407002, 87.50229, 163.7852, 0.3573152, 
 /* @teleloc 0x74EC0004 [1.407002 87.502290 163.785200] 0.357315 0.000000 0.000000 -0.933984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774EC001, 0x774EC002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x774EC001, 0x774EC003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x774EC001, 0x774EC004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x774EC001, 0x774EC005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x774EC001, 0x774EC006, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x774EC001, 0x774EC002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x774EC001, 0x774EC003, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x774EC001, 0x774EC004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x774EC001, 0x774EC005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x774EC001, 0x774EC006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774EC002, 24497, 0x74EC0004, 1.407002, 87.50229, 163.7852, 0.3573152, 0, 0, -0.9339839,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -36,7 +36,7 @@ VALUES (0x774EC007,  1542, 0x74EC000C, 32.14424, 92.08359, 168.9915, 0.3573152, 
 /* @teleloc 0x74EC000C [32.144240 92.083590 168.991500] 0.357315 0.000000 0.000000 -0.933984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774EC007, 0x774EC008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x774EC007, 0x774EC008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774EC008, 42528, 0x74EC000C, 32.14424, 92.08359, 168.9915, 0.3573152, 0, 0, -0.9339839,  True, '2019-02-10 00:00:00'); /* Rock */

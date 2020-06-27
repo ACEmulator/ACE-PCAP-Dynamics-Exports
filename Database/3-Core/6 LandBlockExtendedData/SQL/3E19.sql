@@ -5,10 +5,10 @@ VALUES (0x73E19001,  1154, 0x3E19003F, 169.5229, 145.877, 120.01, 0.6267738, 0, 
 /* @teleloc 0x3E19003F [169.522900 145.877000 120.010000] 0.626774 0.000000 0.000000 -0.779201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E19001, 0x73E19002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73E19001, 0x73E19003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E19001, 0x73E19004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73E19001, 0x73E19005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73E19001, 0x73E19002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73E19001, 0x73E19003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E19001, 0x73E19004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73E19001, 0x73E19005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E19002, 36829, 0x3E19003F, 169.5229, 145.877, 120.01, 0.6267738, 0, 0, -0.7792013,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

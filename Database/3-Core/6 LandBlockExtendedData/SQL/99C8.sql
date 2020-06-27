@@ -5,15 +5,15 @@ VALUES (0x799C8001,  1154, 0x99C8001D, 89.28315, 119.5157, 75.80511, -4.371139E-
 /* @teleloc 0x99C8001D [89.283150 119.515700 75.805110] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799C8001, 0x799C8002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x799C8001, 0x799C8003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x799C8001, 0x799C8004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x799C8001, 0x799C8005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x799C8001, 0x799C8006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x799C8001, 0x799C8007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x799C8001, 0x799C8008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x799C8001, 0x799C8009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x799C8001, 0x799C800A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x799C8001, 0x799C8002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x799C8001, 0x799C8003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x799C8001, 0x799C8004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x799C8001, 0x799C8005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x799C8001, 0x799C8006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x799C8001, 0x799C8007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x799C8001, 0x799C8008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x799C8001, 0x799C8009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x799C8001, 0x799C800A, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799C8002,  7345, 0x99C8001D, 89.28315, 119.5157, 75.80511, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

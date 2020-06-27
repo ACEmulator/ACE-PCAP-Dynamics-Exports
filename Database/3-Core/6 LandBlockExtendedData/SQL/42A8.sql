@@ -5,13 +5,13 @@ VALUES (0x742A8001,  1154, 0x42A80031, 148.2746, 0.8841591, 57.35767, 0.3893347,
 /* @teleloc 0x42A80031 [148.274600 0.884159 57.357670] 0.389335 0.000000 0.000000 -0.921096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742A8001, 0x742A8002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x742A8001, 0x742A8003, '2019-02-10 00:00:00') /* Static */
-     , (0x742A8001, 0x742A8004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x742A8001, 0x742A8005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x742A8001, 0x742A8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742A8001, 0x742A8007, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x742A8001, 0x742A8008, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x742A8001, 0x742A8002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x742A8001, 0x742A8003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x742A8001, 0x742A8004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x742A8001, 0x742A8005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x742A8001, 0x742A8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742A8001, 0x742A8007, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x742A8001, 0x742A8008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742A8002,  6380, 0x42A80031, 148.2746, 0.8841591, 57.35767, 0.3893347, 0, 0, -0.9210963,  True, '2019-02-10 00:00:00'); /* Scintilla */

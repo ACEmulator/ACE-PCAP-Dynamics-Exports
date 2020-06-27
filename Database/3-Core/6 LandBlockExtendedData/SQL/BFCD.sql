@@ -5,22 +5,22 @@ VALUES (0x7BFCD001,  1154, 0xBFCD000B, 42.05595, 54.75277, 350.9907, 0.6864412, 
 /* @teleloc 0xBFCD000B [42.055950 54.752770 350.990700] 0.686441 0.000000 0.000000 -0.727185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFCD001, 0x7BFCD002, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7BFCD001, 0x7BFCD003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BFCD001, 0x7BFCD004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BFCD001, 0x7BFCD005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BFCD001, 0x7BFCD006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BFCD001, 0x7BFCD007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BFCD001, 0x7BFCD008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BFCD001, 0x7BFCD009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BFCD001, 0x7BFCD00A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BFCD001, 0x7BFCD00B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BFCD001, 0x7BFCD00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BFCD001, 0x7BFCD00D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFCD001, 0x7BFCD00E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BFCD001, 0x7BFCD00F, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7BFCD001, 0x7BFCD010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BFCD001, 0x7BFCD011, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7BFCD001, 0x7BFCD002, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7BFCD001, 0x7BFCD003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BFCD001, 0x7BFCD004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BFCD001, 0x7BFCD005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BFCD001, 0x7BFCD006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BFCD001, 0x7BFCD007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BFCD001, 0x7BFCD008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BFCD001, 0x7BFCD009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BFCD001, 0x7BFCD00A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BFCD001, 0x7BFCD00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BFCD001, 0x7BFCD00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BFCD001, 0x7BFCD00D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFCD001, 0x7BFCD00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BFCD001, 0x7BFCD00F, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7BFCD001, 0x7BFCD010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BFCD001, 0x7BFCD011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFCD002, 11987, 0xBFCD000B, 42.05595, 54.75277, 350.9907, 0.6864412, 0, 0, -0.7271853,  True, '2019-02-10 00:00:00'); /* Sentient Fragment */
@@ -91,8 +91,8 @@ VALUES (0x7BFCD012,  1542, 0xBFCD001F, 94.77808, 160.6318, 328.0945, -0.09250645
 /* @teleloc 0xBFCD001F [94.778080 160.631800 328.094500] -0.092506 0.000000 0.000000 -0.995712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFCD012, 0x7BFCD013, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BFCD012, 0x7BFCD014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BFCD012, 0x7BFCD013, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BFCD012, 0x7BFCD014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFCD013,  8648, 0xBFCD001F, 94.77808, 160.6318, 328.0945, -0.09250645, 0, 0, -0.9957121,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

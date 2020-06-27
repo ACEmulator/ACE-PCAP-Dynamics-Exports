@@ -5,14 +5,14 @@ VALUES (0x7D463001,  1154, 0xD4630025, 105.945, 105.9969, 26.83282, 0.2627896, 0
 /* @teleloc 0xD4630025 [105.945000 105.996900 26.832820] 0.262790 0.000000 0.000000 -0.964853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D463001, 0x7D463002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D463001, 0x7D463003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D463001, 0x7D463004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7D463001, 0x7D463005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D463001, 0x7D463006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D463001, 0x7D463007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7D463001, 0x7D463008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D463001, 0x7D463009, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7D463001, 0x7D463002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D463001, 0x7D463003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D463001, 0x7D463004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7D463001, 0x7D463005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D463001, 0x7D463006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D463001, 0x7D463007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7D463001, 0x7D463008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D463001, 0x7D463009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D463002,   218, 0xD4630025, 105.945, 105.9969, 26.83282, 0.2627896, 0, 0, -0.9648532,  True, '2019-02-10 00:00:00'); /* Black Rat */

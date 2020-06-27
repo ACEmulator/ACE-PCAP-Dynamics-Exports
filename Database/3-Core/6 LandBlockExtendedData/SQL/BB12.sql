@@ -5,24 +5,24 @@ VALUES (0x7BB12001,  1154, 0xBB120029, 140.3326, 0.2912199, -0.09000003, 0.92387
 /* @teleloc 0xBB120029 [140.332600 0.291220 -0.090000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB12001, 0x7BB12002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BB12001, 0x7BB12003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BB12001, 0x7BB12004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB12001, 0x7BB12005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BB12001, 0x7BB12006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB12001, 0x7BB12007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB12001, 0x7BB12008, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BB12001, 0x7BB12009, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BB12001, 0x7BB1200A, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BB12001, 0x7BB1200B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BB12001, 0x7BB1200C, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BB12001, 0x7BB1200D, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BB12001, 0x7BB1200E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BB12001, 0x7BB1200F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BB12001, 0x7BB12010, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BB12001, 0x7BB12011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB12001, 0x7BB12012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB12001, 0x7BB12013, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7BB12001, 0x7BB12002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BB12001, 0x7BB12003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BB12001, 0x7BB12004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB12001, 0x7BB12005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BB12001, 0x7BB12006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB12001, 0x7BB12007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB12001, 0x7BB12008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BB12001, 0x7BB12009, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BB12001, 0x7BB1200A, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BB12001, 0x7BB1200B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BB12001, 0x7BB1200C, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BB12001, 0x7BB1200D, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BB12001, 0x7BB1200E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BB12001, 0x7BB1200F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BB12001, 0x7BB12010, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BB12001, 0x7BB12011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB12001, 0x7BB12012, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB12001, 0x7BB12013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB12002,   201, 0xBB120029, 140.3326, 0.2912199, -0.09000003, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -101,14 +101,14 @@ VALUES (0x7BB12014,  1542, 0xBB120030, 143.7477, 173.3981, 55.13482, 0.9790272, 
 /* @teleloc 0xBB120030 [143.747700 173.398100 55.134820] 0.979027 0.000000 0.000000 -0.203730 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB12014, 0x7BB12015, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BB12014, 0x7BB12016, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BB12014, 0x7BB12017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BB12014, 0x7BB12018, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7BB12014, 0x7BB12019, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BB12014, 0x7BB1201A, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7BB12014, 0x7BB1201B, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7BB12014, 0x7BB1201C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BB12014, 0x7BB12015, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BB12014, 0x7BB12016, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BB12014, 0x7BB12017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BB12014, 0x7BB12018, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7BB12014, 0x7BB12019, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BB12014, 0x7BB1201A, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7BB12014, 0x7BB1201B, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7BB12014, 0x7BB1201C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB12015, 42528, 0xBB120030, 143.7477, 173.3981, 55.13482, 0.9790272, 0, 0, -0.2037295,  True, '2019-02-10 00:00:00'); /* Rock */

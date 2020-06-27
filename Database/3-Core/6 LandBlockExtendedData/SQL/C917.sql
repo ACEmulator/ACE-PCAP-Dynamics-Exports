@@ -5,12 +5,12 @@ VALUES (0x7C917001,  1154, 0xC9170029, 142.747, 0.9902813, 82.39577, 0.7789239, 
 /* @teleloc 0xC9170029 [142.747000 0.990281 82.395770] 0.778924 0.000000 0.000000 -0.627118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C917001, 0x7C917002, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7C917001, 0x7C917003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C917001, 0x7C917004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7C917001, 0x7C917005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C917001, 0x7C917006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C917001, 0x7C917007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7C917001, 0x7C917002, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7C917001, 0x7C917003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C917001, 0x7C917004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7C917001, 0x7C917005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C917001, 0x7C917006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C917001, 0x7C917007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C917002, 26469, 0xC9170029, 142.747, 0.9902813, 82.39577, 0.7789239, 0, 0, -0.6271184,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */

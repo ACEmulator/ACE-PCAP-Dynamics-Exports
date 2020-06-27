@@ -5,19 +5,19 @@ VALUES (0x7C26F001,  1154, 0xC26F000B, 27.66145, 51.54424, 57.91866, 0.9135455, 
 /* @teleloc 0xC26F000B [27.661450 51.544240 57.918660] 0.913546 0.000000 0.000000 -0.406737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26F001, 0x7C26F002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C26F001, 0x7C26F003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C26F001, 0x7C26F004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7C26F001, 0x7C26F005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7C26F001, 0x7C26F006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7C26F001, 0x7C26F007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C26F001, 0x7C26F008, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C26F001, 0x7C26F009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C26F001, 0x7C26F00A, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7C26F001, 0x7C26F00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7C26F001, 0x7C26F00C, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7C26F001, 0x7C26F00D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C26F001, 0x7C26F00E, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7C26F001, 0x7C26F002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C26F001, 0x7C26F003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C26F001, 0x7C26F004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7C26F001, 0x7C26F005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7C26F001, 0x7C26F006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7C26F001, 0x7C26F007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C26F001, 0x7C26F008, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C26F001, 0x7C26F009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C26F001, 0x7C26F00A, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7C26F001, 0x7C26F00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7C26F001, 0x7C26F00C, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7C26F001, 0x7C26F00D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C26F001, 0x7C26F00E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C26F002,   222, 0xC26F000B, 27.66145, 51.54424, 57.91866, 0.9135455, 0, 0, -0.4067366,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -76,7 +76,7 @@ VALUES (0x7C26F00F,  1542, 0xC26F000B, 29.90981, 53.17669, 57.91866, 1, 0, 0, 0,
 /* @teleloc 0xC26F000B [29.909810 53.176690 57.918660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26F00F, 0x7C26F010, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C26F00F, 0x7C26F010, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C26F010,   265, 0xC26F000B, 29.90981, 53.17669, 57.91866, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

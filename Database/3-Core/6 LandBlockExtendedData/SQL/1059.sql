@@ -5,21 +5,21 @@ VALUES (0x71059001,  1154, 0x1059000A, 47.96642, 47.32632, 5.832985, 0.3023401, 
 /* @teleloc 0x1059000A [47.966420 47.326320 5.832985] 0.302340 0.000000 0.000000 -0.953200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71059001, 0x71059002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71059001, 0x71059003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71059001, 0x71059004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71059001, 0x71059005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71059001, 0x71059006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71059001, 0x71059007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71059001, 0x71059008, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71059001, 0x71059009, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71059001, 0x7105900A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71059001, 0x7105900B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71059001, 0x7105900C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71059001, 0x7105900D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71059001, 0x7105900E, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71059001, 0x7105900F, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71059001, 0x71059010, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71059001, 0x71059002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71059001, 0x71059003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71059001, 0x71059004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71059001, 0x71059005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71059001, 0x71059006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71059001, 0x71059007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71059001, 0x71059008, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71059001, 0x71059009, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71059001, 0x7105900A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71059001, 0x7105900B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71059001, 0x7105900C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71059001, 0x7105900D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71059001, 0x7105900E, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71059001, 0x7105900F, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71059001, 0x71059010, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71059002, 14877, 0x1059000A, 47.96642, 47.32632, 5.832985, 0.3023401, 0, 0, -0.9532001,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -86,7 +86,7 @@ VALUES (0x71059011,  1542, 0x10590004, 17.6784, 75.55241, 8.888103, 0.9990482, 0
 /* @teleloc 0x10590004 [17.678400 75.552410 8.888103] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71059011, 0x71059012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71059011, 0x71059012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71059012,  4179, 0x10590004, 17.6784, 75.55241, 8.888103, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

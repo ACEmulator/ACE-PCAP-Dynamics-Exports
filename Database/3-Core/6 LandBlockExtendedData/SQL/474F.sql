@@ -5,12 +5,12 @@ VALUES (0x7474F001,  1154, 0x474F000F, 35.10084, 156.6375, 1.08493, 0.7660445, 0
 /* @teleloc 0x474F000F [35.100840 156.637500 1.084930] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7474F001, 0x7474F002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7474F001, 0x7474F003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7474F001, 0x7474F004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7474F001, 0x7474F005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7474F001, 0x7474F006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7474F001, 0x7474F007, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x7474F001, 0x7474F002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7474F001, 0x7474F003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7474F001, 0x7474F004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7474F001, 0x7474F005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7474F001, 0x7474F006, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7474F001, 0x7474F007, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7474F002, 36828, 0x474F000F, 35.10084, 156.6375, 1.08493, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Coral Golem */

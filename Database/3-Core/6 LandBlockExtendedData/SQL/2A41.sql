@@ -5,17 +5,17 @@ VALUES (0x72A41001,  1154, 0x2A410030, 123.6034, 186.8619, 36.83864, -0.9979538,
 /* @teleloc 0x2A410030 [123.603400 186.861900 36.838640] -0.997954 0.000000 0.000000 -0.063939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A41001, 0x72A41002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A41001, 0x72A41003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72A41001, 0x72A41004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A41001, 0x72A41005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A41001, 0x72A41006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72A41001, 0x72A41007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72A41001, 0x72A41008, '2019-02-10 00:00:00') /* Flare */
-     , (0x72A41001, 0x72A41009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72A41001, 0x72A4100A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72A41001, 0x72A4100B, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72A41001, 0x72A4100C, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x72A41001, 0x72A41002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A41001, 0x72A41003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72A41001, 0x72A41004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A41001, 0x72A41005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A41001, 0x72A41006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72A41001, 0x72A41007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72A41001, 0x72A41008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72A41001, 0x72A41009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72A41001, 0x72A4100A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72A41001, 0x72A4100B, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72A41001, 0x72A4100C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A41002, 24325, 0x2A410030, 123.6034, 186.8619, 36.83864, -0.9979538, 0, 0, -0.06393851,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -66,11 +66,11 @@ VALUES (0x72A4100D,  1542, 0x2A41003E, 178.9601, 131.2572, 23.82452, 1, 0, 0, 0,
 /* @teleloc 0x2A41003E [178.960100 131.257200 23.824520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4100D, 0x72A4100E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72A4100D, 0x72A4100F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72A4100D, 0x72A41010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72A4100D, 0x72A41011, '2019-02-10 00:00:00') /* Bones */
-     , (0x72A4100D, 0x72A41012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72A4100D, 0x72A4100E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72A4100D, 0x72A4100F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72A4100D, 0x72A41010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72A4100D, 0x72A41011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72A4100D, 0x72A41012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4100E, 31445, 0x2A41003E, 178.9601, 131.2572, 23.82452, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

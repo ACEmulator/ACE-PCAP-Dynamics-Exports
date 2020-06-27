@@ -5,16 +5,16 @@ VALUES (0x7CF41001,  1154, 0xCF41000A, 32.60945, 31.14069, 70.23679, 0.9999201, 
 /* @teleloc 0xCF41000A [32.609450 31.140690 70.236790] 0.999920 0.000000 0.000000 -0.012639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF41001, 0x7CF41002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CF41001, 0x7CF41003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CF41001, 0x7CF41004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CF41001, 0x7CF41005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CF41001, 0x7CF41006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CF41001, 0x7CF41007, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CF41001, 0x7CF41008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CF41001, 0x7CF41009, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CF41001, 0x7CF4100A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CF41001, 0x7CF4100B, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7CF41001, 0x7CF41002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CF41001, 0x7CF41003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CF41001, 0x7CF41004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CF41001, 0x7CF41005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CF41001, 0x7CF41006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CF41001, 0x7CF41007, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CF41001, 0x7CF41008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CF41001, 0x7CF41009, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CF41001, 0x7CF4100A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CF41001, 0x7CF4100B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF41002, 24937, 0xCF41000A, 32.60945, 31.14069, 70.23679, 0.9999201, 0, 0, -0.01263879,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -61,7 +61,7 @@ VALUES (0x7CF4100C,  1542, 0xCF410028, 105.6306, 181.5913, 62.47249, 0.9990482, 
 /* @teleloc 0xCF410028 [105.630600 181.591300 62.472490] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF4100C, 0x7CF4100D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CF4100C, 0x7CF4100D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF4100D,  4179, 0xCF410028, 105.6306, 181.5913, 62.47249, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

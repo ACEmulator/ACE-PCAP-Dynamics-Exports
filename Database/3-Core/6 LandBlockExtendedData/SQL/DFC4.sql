@@ -5,10 +5,10 @@ VALUES (0x7DFC4001,  1154, 0xDFC40007, 20.16411, 162.5576, -0.09460002, 0.866025
 /* @teleloc 0xDFC40007 [20.164110 162.557600 -0.094600] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DFC4001, 0x7DFC4002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DFC4001, 0x7DFC4003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DFC4001, 0x7DFC4004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DFC4001, 0x7DFC4005, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7DFC4001, 0x7DFC4002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DFC4001, 0x7DFC4003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DFC4001, 0x7DFC4004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DFC4001, 0x7DFC4005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DFC4002,  4247, 0xDFC40007, 20.16411, 162.5576, -0.09460002, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -31,7 +31,7 @@ VALUES (0x7DFC4006,  1542, 0xDFC4000F, 24.99401, 158.6343, -0.09999999, 0.999048
 /* @teleloc 0xDFC4000F [24.994010 158.634300 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DFC4006, 0x7DFC4007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DFC4006, 0x7DFC4007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DFC4007,  4179, 0xDFC4000F, 24.99401, 158.6343, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

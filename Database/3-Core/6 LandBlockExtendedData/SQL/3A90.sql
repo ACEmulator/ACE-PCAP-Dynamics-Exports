@@ -5,11 +5,11 @@ VALUES (0x73A90001,  1154, 0x3A90003E, 190.54, 123.4902, 19.32977, -0.06051552, 
 /* @teleloc 0x3A90003E [190.540000 123.490200 19.329770] -0.060516 0.000000 0.000000 -0.998167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A90001, 0x73A90002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73A90001, 0x73A90003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A90001, 0x73A90004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A90001, 0x73A90005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A90001, 0x73A90006, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x73A90001, 0x73A90002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73A90001, 0x73A90003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A90001, 0x73A90004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A90001, 0x73A90005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A90001, 0x73A90006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A90002, 21549, 0x3A90003E, 190.54, 123.4902, 19.32977, -0.06051552, 0, 0, -0.9981673,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -36,7 +36,7 @@ VALUES (0x73A90007,  1542, 0x3A90003E, 169.3188, 123.6843, 26.33228, -4.371139E-
 /* @teleloc 0x3A90003E [169.318800 123.684300 26.332280] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A90007, 0x73A90008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73A90007, 0x73A90008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A90008,  4380, 0x3A90003E, 169.3188, 123.6843, 26.33228, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,18 +5,18 @@ VALUES (0x7AB24001,  1154, 0xAB240008, 19.2056, 173.196, 280.4119, 0.3632574, 0,
 /* @teleloc 0xAB240008 [19.205600 173.196000 280.411900] 0.363257 0.000000 0.000000 -0.931689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB24001, 0x7AB24002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AB24001, 0x7AB24003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AB24001, 0x7AB24004, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7AB24001, 0x7AB24005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AB24001, 0x7AB24006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AB24001, 0x7AB24007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AB24001, 0x7AB24008, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AB24001, 0x7AB24009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AB24001, 0x7AB2400A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AB24001, 0x7AB2400B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AB24001, 0x7AB2400C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AB24001, 0x7AB2400D, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7AB24001, 0x7AB24002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AB24001, 0x7AB24003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AB24001, 0x7AB24004, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7AB24001, 0x7AB24005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AB24001, 0x7AB24006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AB24001, 0x7AB24007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AB24001, 0x7AB24008, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AB24001, 0x7AB24009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AB24001, 0x7AB2400A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AB24001, 0x7AB2400B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AB24001, 0x7AB2400C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AB24001, 0x7AB2400D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB24002,   199, 0xAB240008, 19.2056, 173.196, 280.4119, 0.3632574, 0, 0, -0.9316888,  True, '2019-02-10 00:00:00'); /* Magma Golem */

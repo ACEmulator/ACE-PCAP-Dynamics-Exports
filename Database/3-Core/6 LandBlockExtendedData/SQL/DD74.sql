@@ -5,8 +5,8 @@ VALUES (0x7DD74001,  1154, 0xDD740007, 20.53568, 152.0302, 26.29519, 0.3374814, 
 /* @teleloc 0xDD740007 [20.535680 152.030200 26.295190] 0.337481 0.000000 0.000000 -0.941332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD74001, 0x7DD74002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DD74001, 0x7DD74003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7DD74001, 0x7DD74002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DD74001, 0x7DD74003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD74002, 21170, 0xDD740007, 20.53568, 152.0302, 26.29519, 0.3374814, 0, 0, -0.9413322,  True, '2019-02-10 00:00:00'); /* Voltarc */

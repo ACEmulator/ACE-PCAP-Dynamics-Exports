@@ -5,34 +5,34 @@ VALUES (0x7C3A7001,  1154, 0xC3A70024, 109.3093, 87.35661, 63.77367, -0.7964536,
 /* @teleloc 0xC3A70024 [109.309300 87.356610 63.773670] -0.796454 0.000000 0.000000 -0.604700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A7001, 0x7C3A7002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C3A7001, 0x7C3A7003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C3A7001, 0x7C3A7004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C3A7001, 0x7C3A7005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C3A7001, 0x7C3A7006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C3A7001, 0x7C3A7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C3A7001, 0x7C3A7008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A700A, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7C3A7001, 0x7C3A700B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C3A7001, 0x7C3A700C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A700D, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C3A7001, 0x7C3A700E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A700F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7012, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C3A7001, 0x7C3A7013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7014, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C3A7001, 0x7C3A7015, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C3A7001, 0x7C3A7016, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C3A7001, 0x7C3A7017, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C3A7001, 0x7C3A7018, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A7019, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C3A7001, 0x7C3A701A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A701B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A7001, 0x7C3A701C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C3A7001, 0x7C3A701D, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x7C3A7001, 0x7C3A7002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C3A7001, 0x7C3A7003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C3A7001, 0x7C3A7004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C3A7001, 0x7C3A7005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C3A7001, 0x7C3A7006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C3A7001, 0x7C3A7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C3A7001, 0x7C3A7008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A700A, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7C3A7001, 0x7C3A700B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C3A7001, 0x7C3A700C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A700D, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C3A7001, 0x7C3A700E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A700F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7012, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C3A7001, 0x7C3A7013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7014, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C3A7001, 0x7C3A7015, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C3A7001, 0x7C3A7016, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C3A7001, 0x7C3A7017, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C3A7001, 0x7C3A7018, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A7019, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C3A7001, 0x7C3A701A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A701B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A7001, 0x7C3A701C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C3A7001, 0x7C3A701D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A7002,  2575, 0xC3A70024, 109.3093, 87.35661, 63.77367, -0.7964536, 0, 0, -0.6046997,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -151,10 +151,10 @@ VALUES (0x7C3A701E,  1542, 0xC3A70018, 48.98783, 187.3089, 80.99052, 0.9537169, 
 /* @teleloc 0xC3A70018 [48.987830 187.308900 80.990520] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A701E, 0x7C3A701F, '2019-02-10 00:00:00') /* Golem Sanctum Portal */
-     , (0x7C3A701E, 0x7C3A7020, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C3A701E, 0x7C3A7021, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C3A701E, 0x7C3A7022, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C3A701E, 0x7C3A701F, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */
+     , (0x7C3A701E, 0x7C3A7020, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C3A701E, 0x7C3A7021, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C3A701E, 0x7C3A7022, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A701F,  7934, 0xC3A70018, 48.98783, 187.3089, 80.99052, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

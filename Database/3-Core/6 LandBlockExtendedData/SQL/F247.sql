@@ -5,24 +5,24 @@ VALUES (0x7F247001,  1154, 0xF247002A, 138.2094, 38.26468, 17.36256, 0.9225892, 
 /* @teleloc 0xF247002A [138.209400 38.264680 17.362560] 0.922589 0.000000 0.000000 -0.385784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F247001, 0x7F247002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F247001, 0x7F247003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F247001, 0x7F247004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F247001, 0x7F247005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F247001, 0x7F247006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F247001, 0x7F247007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F247001, 0x7F247008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7F247001, 0x7F247009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7F247001, 0x7F24700A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7F247001, 0x7F24700B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F247001, 0x7F24700C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F247001, 0x7F24700D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F247001, 0x7F24700E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F247001, 0x7F24700F, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7F247001, 0x7F247010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F247001, 0x7F247011, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7F247001, 0x7F247012, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F247001, 0x7F247013, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7F247001, 0x7F247002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F247001, 0x7F247003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F247001, 0x7F247004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F247001, 0x7F247005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F247001, 0x7F247006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F247001, 0x7F247007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F247001, 0x7F247008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7F247001, 0x7F247009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7F247001, 0x7F24700A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7F247001, 0x7F24700B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F247001, 0x7F24700C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F247001, 0x7F24700D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F247001, 0x7F24700E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F247001, 0x7F24700F, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7F247001, 0x7F247010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F247001, 0x7F247011, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7F247001, 0x7F247012, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F247001, 0x7F247013, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F247002,  8428, 0xF247002A, 138.2094, 38.26468, 17.36256, 0.9225892, 0, 0, -0.3857839,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */
@@ -101,8 +101,8 @@ VALUES (0x7F247014,  1542, 0xF2470035, 161.959, 117.3024, 43.72385, 1, 0, 0, 0, 
 /* @teleloc 0xF2470035 [161.959000 117.302400 43.723850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F247014, 0x7F247015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7F247014, 0x7F247016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7F247014, 0x7F247015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7F247014, 0x7F247016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F247015, 31443, 0xF2470035, 161.959, 117.3024, 43.72385, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

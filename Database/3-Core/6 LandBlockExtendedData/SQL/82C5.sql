@@ -5,12 +5,12 @@ VALUES (0x782C5001,  1154, 0x82C50009, 47.74181, 15.25285, 111.1882, -0.8236282,
 /* @teleloc 0x82C50009 [47.741810 15.252850 111.188200] -0.823628 0.000000 0.000000 -0.567130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782C5001, 0x782C5002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x782C5001, 0x782C5003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x782C5001, 0x782C5004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x782C5001, 0x782C5005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x782C5001, 0x782C5006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x782C5001, 0x782C5007, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x782C5001, 0x782C5002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x782C5001, 0x782C5003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x782C5001, 0x782C5004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x782C5001, 0x782C5005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x782C5001, 0x782C5006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x782C5001, 0x782C5007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782C5002, 11481, 0x82C50009, 47.74181, 15.25285, 111.1882, -0.8236282, 0, 0, -0.5671301,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -41,8 +41,8 @@ VALUES (0x782C5008,  1542, 0x82C5000A, 42.43352, 39.71964, 115.1804, -0.8236282,
 /* @teleloc 0x82C5000A [42.433520 39.719640 115.180400] -0.823628 0.000000 0.000000 -0.567130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782C5008, 0x782C5009, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x782C5008, 0x782C500A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x782C5008, 0x782C5009, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x782C5008, 0x782C500A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782C5009,  8648, 0x82C5000A, 42.43352, 39.71964, 115.1804, -0.8236282, 0, 0, -0.5671301,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

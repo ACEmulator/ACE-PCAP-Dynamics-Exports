@@ -5,10 +5,10 @@ VALUES (0x72056001,  1154, 0x20560034, 153.032, 88.0758, 0.02899998, -0.8584347,
 /* @teleloc 0x20560034 [153.032000 88.075800 0.029000] -0.858435 0.000000 0.000000 -0.512923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72056001, 0x72056002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72056001, 0x72056003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72056001, 0x72056004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72056001, 0x72056005, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x72056001, 0x72056002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72056001, 0x72056003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72056001, 0x72056004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72056001, 0x72056005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72056002,  9264, 0x20560034, 153.032, 88.0758, 0.02899998, -0.8584347, 0, 0, -0.5129229,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

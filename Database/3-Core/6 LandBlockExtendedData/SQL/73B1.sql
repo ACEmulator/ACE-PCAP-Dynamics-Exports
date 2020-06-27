@@ -5,29 +5,29 @@ VALUES (0x773B1001,  1154, 0x73B1001A, 76.32967, 43.80553, 101.6463, 0.7071068, 
 /* @teleloc 0x73B1001A [76.329670 43.805530 101.646300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B1001, 0x773B1002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x773B1001, 0x773B1003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x773B1001, 0x773B1004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x773B1001, 0x773B1005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x773B1001, 0x773B1006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x773B1001, 0x773B1007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x773B1001, 0x773B1008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x773B1001, 0x773B1009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x773B1001, 0x773B100A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B1001, 0x773B100B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B1001, 0x773B100C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x773B1001, 0x773B100D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x773B1001, 0x773B100E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B1001, 0x773B100F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x773B1001, 0x773B1010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x773B1001, 0x773B1011, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x773B1001, 0x773B1012, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x773B1001, 0x773B1013, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x773B1001, 0x773B1014, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773B1001, 0x773B1015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B1001, 0x773B1016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x773B1001, 0x773B1017, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x773B1001, 0x773B1018, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x773B1001, 0x773B1002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x773B1001, 0x773B1003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x773B1001, 0x773B1004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x773B1001, 0x773B1005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x773B1001, 0x773B1006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x773B1001, 0x773B1007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x773B1001, 0x773B1008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x773B1001, 0x773B1009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x773B1001, 0x773B100A, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B1001, 0x773B100B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B1001, 0x773B100C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x773B1001, 0x773B100D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x773B1001, 0x773B100E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B1001, 0x773B100F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x773B1001, 0x773B1010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x773B1001, 0x773B1011, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x773B1001, 0x773B1012, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x773B1001, 0x773B1013, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x773B1001, 0x773B1014, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773B1001, 0x773B1015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B1001, 0x773B1016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x773B1001, 0x773B1017, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x773B1001, 0x773B1018, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B1002,  7333, 0x73B1001A, 76.32967, 43.80553, 101.6463, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -126,8 +126,8 @@ VALUES (0x773B1019,  1542, 0x73B1001A, 72.90292, 47.02382, 102, -4.371139E-08, 0
 /* @teleloc 0x73B1001A [72.902920 47.023820 102.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B1019, 0x773B101A, '2019-02-10 00:00:00') /* Bones */
-     , (0x773B1019, 0x773B101B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x773B1019, 0x773B101A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x773B1019, 0x773B101B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B101A,  4380, 0x73B1001A, 72.90292, 47.02382, 102, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

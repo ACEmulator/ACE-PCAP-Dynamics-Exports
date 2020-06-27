@@ -5,15 +5,15 @@ VALUES (0x7AA66001,  1154, 0xAA66001F, 72.57482, 151.9758, 46.15065, -0.9668901,
 /* @teleloc 0xAA66001F [72.574820 151.975800 46.150650] -0.966890 0.000000 0.000000 -0.255193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA66001, 0x7AA66002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA66001, 0x7AA66003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA66001, 0x7AA66004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA66001, 0x7AA66005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA66001, 0x7AA66006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AA66001, 0x7AA66007, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AA66001, 0x7AA66008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA66001, 0x7AA66009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA66001, 0x7AA6600A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7AA66001, 0x7AA66002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA66001, 0x7AA66003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA66001, 0x7AA66004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA66001, 0x7AA66005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA66001, 0x7AA66006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AA66001, 0x7AA66007, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AA66001, 0x7AA66008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA66001, 0x7AA66009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA66001, 0x7AA6600A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA66002,   217, 0xAA66001F, 72.57482, 151.9758, 46.15065, -0.9668901, 0, 0, -0.2551932,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -56,7 +56,7 @@ VALUES (0x7AA6600B,  1542, 0xAA66001A, 72.05202, 45.28992, 39.1292, 0.9254642, 0
 /* @teleloc 0xAA66001A [72.052020 45.289920 39.129200] 0.925464 0.000000 0.000000 -0.378835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA6600B, 0x7AA6600C, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7AA6600B, 0x7AA6600C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA6600C,  8037, 0xAA66001A, 72.05202, 45.28992, 39.1292, 0.9254642, 0, 0, -0.3788352,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

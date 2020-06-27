@@ -5,16 +5,16 @@ VALUES (0x757E9001,  1154, 0x57E9000A, 46.99673, 44.83901, 13.994, 0.3987491, 0,
 /* @teleloc 0x57E9000A [46.996730 44.839010 13.994000] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E9001, 0x757E9002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x757E9001, 0x757E9003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x757E9001, 0x757E9004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x757E9001, 0x757E9005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x757E9001, 0x757E9006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E9001, 0x757E9007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x757E9001, 0x757E9008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x757E9001, 0x757E9009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x757E9001, 0x757E900A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x757E9001, 0x757E900B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x757E9001, 0x757E9002, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x757E9001, 0x757E9003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x757E9001, 0x757E9004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x757E9001, 0x757E9005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x757E9001, 0x757E9006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E9001, 0x757E9007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x757E9001, 0x757E9008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x757E9001, 0x757E9009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x757E9001, 0x757E900A, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x757E9001, 0x757E900B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E9002, 24291, 0x57E9000A, 46.99673, 44.83901, 13.994, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */

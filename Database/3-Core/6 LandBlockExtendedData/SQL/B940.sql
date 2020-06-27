@@ -5,10 +5,10 @@ VALUES (0x7B940001,  1154, 0xB9400040, 184.3692, 187.4753, 38.05167, 0.1405312, 
 /* @teleloc 0xB9400040 [184.369200 187.475300 38.051670] 0.140531 0.000000 0.000000 -0.990076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B940001, 0x7B940002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B940001, 0x7B940003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B940001, 0x7B940004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B940001, 0x7B940005, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7B940001, 0x7B940002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B940001, 0x7B940003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B940001, 0x7B940004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B940001, 0x7B940005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B940002, 22009, 0xB9400040, 184.3692, 187.4753, 38.05167, 0.1405312, 0, 0, -0.9900762,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

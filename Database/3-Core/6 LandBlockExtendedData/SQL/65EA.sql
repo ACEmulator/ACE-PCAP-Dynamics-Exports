@@ -5,20 +5,20 @@ VALUES (0x765EA001,  1154, 0x65EA000B, 42.96977, 71.5673, 45.09551, 1, 0, 0, 0, 
 /* @teleloc 0x65EA000B [42.969770 71.567300 45.095510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765EA001, 0x765EA002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765EA001, 0x765EA003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765EA001, 0x765EA004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x765EA001, 0x765EA005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x765EA001, 0x765EA006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x765EA001, 0x765EA007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x765EA001, 0x765EA008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x765EA001, 0x765EA009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x765EA001, 0x765EA00A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x765EA001, 0x765EA00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x765EA001, 0x765EA00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x765EA001, 0x765EA00D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x765EA001, 0x765EA00E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765EA001, 0x765EA00F, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x765EA001, 0x765EA002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765EA001, 0x765EA003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765EA001, 0x765EA004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x765EA001, 0x765EA005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x765EA001, 0x765EA006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x765EA001, 0x765EA007, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x765EA001, 0x765EA008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x765EA001, 0x765EA009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x765EA001, 0x765EA00A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x765EA001, 0x765EA00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x765EA001, 0x765EA00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x765EA001, 0x765EA00D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x765EA001, 0x765EA00E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765EA001, 0x765EA00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765EA002, 23566, 0x65EA000B, 42.96977, 71.5673, 45.09551, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -81,9 +81,9 @@ VALUES (0x765EA010,  1542, 0x65EA000C, 41.50978, 72.12894, 44.92688, 1, 0, 0, 0,
 /* @teleloc 0x65EA000C [41.509780 72.128940 44.926880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765EA010, 0x765EA011, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x765EA010, 0x765EA012, '2019-02-10 00:00:00') /* Bones */
-     , (0x765EA010, 0x765EA013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x765EA010, 0x765EA011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x765EA010, 0x765EA012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x765EA010, 0x765EA013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765EA011, 31445, 0x65EA000C, 41.50978, 72.12894, 44.92688, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

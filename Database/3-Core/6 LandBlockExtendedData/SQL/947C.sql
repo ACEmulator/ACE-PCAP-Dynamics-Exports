@@ -9,28 +9,28 @@ VALUES (0x7947C003,  1154, 0x947C0012, 61.9885, 29.40134, 38.012, 0.9645404, 0, 
 /* @teleloc 0x947C0012 [61.988500 29.401340 38.012000] 0.964540 0.000000 0.000000 0.263935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7947C003, 0x7947C004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7947C003, 0x7947C005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7947C003, 0x7947C006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7947C003, 0x7947C007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7947C003, 0x7947C008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7947C003, 0x7947C009, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7947C003, 0x7947C00A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7947C003, 0x7947C00B, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7947C003, 0x7947C00C, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7947C003, 0x7947C00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7947C003, 0x7947C00E, '2019-02-10 00:00:00') /* Spark */
-     , (0x7947C003, 0x7947C00F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7947C003, 0x7947C010, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7947C003, 0x7947C011, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7947C003, 0x7947C012, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7947C003, 0x7947C013, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7947C003, 0x7947C014, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7947C003, 0x7947C015, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7947C003, 0x7947C016, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7947C003, 0x7947C017, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7947C003, 0x7947C018, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7947C003, 0x7947C019, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7947C003, 0x7947C004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7947C003, 0x7947C005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7947C003, 0x7947C006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7947C003, 0x7947C007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7947C003, 0x7947C008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7947C003, 0x7947C009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7947C003, 0x7947C00A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7947C003, 0x7947C00B, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7947C003, 0x7947C00C, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7947C003, 0x7947C00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7947C003, 0x7947C00E, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7947C003, 0x7947C00F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7947C003, 0x7947C010, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7947C003, 0x7947C011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7947C003, 0x7947C012, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7947C003, 0x7947C013, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7947C003, 0x7947C014, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7947C003, 0x7947C015, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7947C003, 0x7947C016, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7947C003, 0x7947C017, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7947C003, 0x7947C018, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7947C003, 0x7947C019, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947C004,    12, 0x947C0012, 61.9885, 29.40134, 38.012, 0.9645404, 0, 0, 0.2639351,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */
@@ -125,11 +125,11 @@ VALUES (0x7947C01A,  1542, 0x947C0012, 57.38795, 30.75796, 38, 1, 0, 0, 0, False
 /* @teleloc 0x947C0012 [57.387950 30.757960 38.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7947C01A, 0x7947C01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7947C01A, 0x7947C01C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7947C01A, 0x7947C01D, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7947C01A, 0x7947C01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7947C01A, 0x7947C01F, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7947C01A, 0x7947C01B, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7947C01A, 0x7947C01C, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7947C01A, 0x7947C01D, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7947C01A, 0x7947C01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7947C01A, 0x7947C01F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947C01B, 22568, 0x947C0012, 57.38795, 30.75796, 38, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

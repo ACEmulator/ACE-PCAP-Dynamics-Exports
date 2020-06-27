@@ -5,16 +5,16 @@ VALUES (0x7DE83001,  1154, 0xDE830019, 74.39806, 14.48477, -0.8975, -0.1410983, 
 /* @teleloc 0xDE830019 [74.398060 14.484770 -0.897500] -0.141098 0.000000 0.000000 -0.989996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE83001, 0x7DE83002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DE83001, 0x7DE83003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7DE83001, 0x7DE83004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DE83001, 0x7DE83005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DE83001, 0x7DE83006, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7DE83001, 0x7DE83007, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DE83001, 0x7DE83008, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7DE83001, 0x7DE83009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DE83001, 0x7DE8300A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7DE83001, 0x7DE8300B, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7DE83001, 0x7DE83002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DE83001, 0x7DE83003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7DE83001, 0x7DE83004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DE83001, 0x7DE83005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DE83001, 0x7DE83006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DE83001, 0x7DE83007, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DE83001, 0x7DE83008, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7DE83001, 0x7DE83009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DE83001, 0x7DE8300A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7DE83001, 0x7DE8300B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE83002,  1761, 0xDE830019, 74.39806, 14.48477, -0.8975, -0.1410983, 0, 0, -0.9899956,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

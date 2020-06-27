@@ -5,11 +5,11 @@ VALUES (0x75AC3001,  1154, 0x5AC30008, 8.442322, 174.0382, 151.2695, 0.9388335, 
 /* @teleloc 0x5AC30008 [8.442322 174.038200 151.269500] 0.938834 0.000000 0.000000 -0.344371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AC3001, 0x75AC3002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x75AC3001, 0x75AC3003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75AC3001, 0x75AC3004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75AC3001, 0x75AC3005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75AC3001, 0x75AC3006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x75AC3001, 0x75AC3002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x75AC3001, 0x75AC3003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75AC3001, 0x75AC3004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75AC3001, 0x75AC3005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75AC3001, 0x75AC3006, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AC3002, 28553, 0x5AC30008, 8.442322, 174.0382, 151.2695, 0.9388335, 0, 0, -0.3443713,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

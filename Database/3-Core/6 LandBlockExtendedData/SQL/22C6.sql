@@ -5,10 +5,10 @@ VALUES (0x722C6001,  1154, 0x22C6003E, 173.623, 139.1989, 27.06283, -0.2039771, 
 /* @teleloc 0x22C6003E [173.623000 139.198900 27.062830] -0.203977 0.000000 0.000000 -0.978976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C6001, 0x722C6002, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C6001, 0x722C6003, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x722C6001, 0x722C6004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x722C6001, 0x722C6005, '2019-02-10 00:00:00') /* Badlands Siraluun */;
+VALUES (0x722C6001, 0x722C6002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C6001, 0x722C6003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x722C6001, 0x722C6004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x722C6001, 0x722C6005, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C6002, 27708, 0x22C6003E, 173.623, 139.1989, 27.06283, -0.2039771, 0, 0, -0.9789757,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -31,7 +31,7 @@ VALUES (0x722C6006,  1542, 0x22C6003E, 172.1897, 137.1955, 27.23381, -0.2039771,
 /* @teleloc 0x22C6003E [172.189700 137.195500 27.233810] -0.203977 0.000000 0.000000 -0.978976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C6006, 0x722C6007, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x722C6006, 0x722C6007, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C6007, 27719, 0x22C6003E, 172.1897, 137.1955, 27.23381, -0.2039771, 0, 0, -0.9789757,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

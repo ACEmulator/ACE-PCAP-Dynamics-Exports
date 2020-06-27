@@ -9,17 +9,17 @@ VALUES (0x7D73C001,  1154, 0xD73C0036, 157.2175, 137.241, 106.3353, -0.2346584, 
 /* @teleloc 0xD73C0036 [157.217500 137.241000 106.335300] -0.234658 0.000000 0.000000 -0.972078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D73C001, 0x7D73C002, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7D73C001, 0x7D73C003, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7D73C001, 0x7D73C004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C00A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D73C001, 0x7D73C00B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D73C001, 0x7D73C00C, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7D73C001, 0x7D73C002, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7D73C001, 0x7D73C003, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D73C001, 0x7D73C004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D73C001, 0x7D73C00B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D73C001, 0x7D73C00C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D73C002, 12000, 0xD73C0036, 157.2175, 137.241, 106.3353, -0.2346584, 0, 0, -0.9720779,  True, '2019-02-10 00:00:00'); /* Tundra Mattekar */

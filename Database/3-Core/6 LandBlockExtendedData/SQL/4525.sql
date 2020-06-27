@@ -5,10 +5,10 @@ VALUES (0x74525001,  1154, 0x4525000F, 29.39209, 155.1834, 44.89845, 0.5905366, 
 /* @teleloc 0x4525000F [29.392090 155.183400 44.898450] 0.590537 0.000000 0.000000 -0.807011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74525001, 0x74525002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x74525001, 0x74525003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74525001, 0x74525004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74525001, 0x74525005, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x74525001, 0x74525002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x74525001, 0x74525003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74525001, 0x74525004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74525001, 0x74525005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74525002, 36833, 0x4525000F, 29.39209, 155.1834, 44.89845, 0.5905366, 0, 0, -0.8070109,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

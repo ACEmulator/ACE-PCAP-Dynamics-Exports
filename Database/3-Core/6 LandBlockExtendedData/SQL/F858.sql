@@ -5,24 +5,24 @@ VALUES (0x7F858001,  1154, 0xF8580019, 80.36121, 10.92338, 0.01050007, -0.968508
 /* @teleloc 0xF8580019 [80.361210 10.923380 0.010500] -0.968509 0.000000 0.000000 -0.248980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F858001, 0x7F858002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F858001, 0x7F858003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F858001, 0x7F858004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F858001, 0x7F858005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F858001, 0x7F858006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F858001, 0x7F858007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F858001, 0x7F858008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F858001, 0x7F858009, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F858001, 0x7F85800A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F858001, 0x7F85800B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F858001, 0x7F85800C, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F858001, 0x7F85800D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F858001, 0x7F85800E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F858001, 0x7F85800F, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F858001, 0x7F858010, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F858001, 0x7F858011, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F858001, 0x7F858012, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F858001, 0x7F858013, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7F858001, 0x7F858002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F858001, 0x7F858003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F858001, 0x7F858004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F858001, 0x7F858005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F858001, 0x7F858006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F858001, 0x7F858007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F858001, 0x7F858008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F858001, 0x7F858009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F858001, 0x7F85800A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F858001, 0x7F85800B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F858001, 0x7F85800C, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F858001, 0x7F85800D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F858001, 0x7F85800E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F858001, 0x7F85800F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F858001, 0x7F858010, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F858001, 0x7F858011, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F858001, 0x7F858012, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F858001, 0x7F858013, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F858002,  7082, 0xF8580019, 80.36121, 10.92338, 0.01050007, -0.9685087, 0, 0, -0.2489797,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -101,8 +101,8 @@ VALUES (0x7F858014,  1542, 0xF8580024, 119.1544, 89.11163, 1.030334, 0.9990482, 
 /* @teleloc 0xF8580024 [119.154400 89.111630 1.030334] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F858014, 0x7F858015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F858014, 0x7F858016, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7F858014, 0x7F858015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F858014, 0x7F858016, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F858015,  4179, 0xF8580024, 119.1544, 89.11163, 1.030334, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

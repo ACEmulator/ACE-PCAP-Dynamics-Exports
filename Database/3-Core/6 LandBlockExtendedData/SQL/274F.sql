@@ -5,10 +5,10 @@ VALUES (0x7274F001,  1154, 0x274F000D, 32.25991, 105.0181, 22.18793, -0.6987985,
 /* @teleloc 0x274F000D [32.259910 105.018100 22.187930] -0.698799 0.000000 0.000000 -0.715319 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7274F001, 0x7274F002, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7274F001, 0x7274F003, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x7274F001, 0x7274F004, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7274F001, 0x7274F005, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x7274F001, 0x7274F002, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7274F001, 0x7274F003, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x7274F001, 0x7274F004, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7274F001, 0x7274F005, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7274F002, 25341, 0x274F000D, 32.25991, 105.0181, 22.18793, -0.6987985, 0, 0, -0.7153186,  True, '2019-02-10 00:00:00'); /* Olthoi Sentinel */

@@ -5,23 +5,23 @@ VALUES (0x7EF1F001,  1154, 0xEF1F0017, 62.77973, 156.7408, 34.65538, 0.8660254, 
 /* @teleloc 0xEF1F0017 [62.779730 156.740800 34.655380] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF1F001, 0x7EF1F002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1F001, 0x7EF1F003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EF1F001, 0x7EF1F004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EF1F001, 0x7EF1F005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EF1F001, 0x7EF1F006, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EF1F001, 0x7EF1F007, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EF1F001, 0x7EF1F008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EF1F001, 0x7EF1F009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EF1F001, 0x7EF1F00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EF1F001, 0x7EF1F00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EF1F001, 0x7EF1F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EF1F001, 0x7EF1F00D, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EF1F001, 0x7EF1F00E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1F001, 0x7EF1F00F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1F001, 0x7EF1F010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1F001, 0x7EF1F011, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EF1F001, 0x7EF1F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7EF1F001, 0x7EF1F002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1F001, 0x7EF1F003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EF1F001, 0x7EF1F004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EF1F001, 0x7EF1F005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EF1F001, 0x7EF1F006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EF1F001, 0x7EF1F007, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7EF1F001, 0x7EF1F008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EF1F001, 0x7EF1F009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EF1F001, 0x7EF1F00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EF1F001, 0x7EF1F00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EF1F001, 0x7EF1F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EF1F001, 0x7EF1F00D, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EF1F001, 0x7EF1F00E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1F001, 0x7EF1F00F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1F001, 0x7EF1F010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1F001, 0x7EF1F011, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EF1F001, 0x7EF1F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF1F002,  7082, 0xEF1F0017, 62.77973, 156.7408, 34.65538, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -96,7 +96,7 @@ VALUES (0x7EF1F013,  1542, 0xEF1F001A, 87.61822, 33.85513, 27.73797, 1, 0, 0, 0,
 /* @teleloc 0xEF1F001A [87.618220 33.855130 27.737970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF1F013, 0x7EF1F014, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7EF1F013, 0x7EF1F014, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF1F014,  8588, 0xEF1F001A, 87.61822, 33.85513, 27.73797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

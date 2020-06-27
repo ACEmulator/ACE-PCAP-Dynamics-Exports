@@ -5,18 +5,18 @@ VALUES (0x7AC5A001,  1154, 0xAC5A0027, 107.3293, 159.2941, 44.72882, -0.8360626,
 /* @teleloc 0xAC5A0027 [107.329300 159.294100 44.728820] -0.836063 0.000000 0.000000 -0.548634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5A001, 0x7AC5A002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC5A001, 0x7AC5A003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC5A001, 0x7AC5A004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC5A001, 0x7AC5A005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AC5A001, 0x7AC5A006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AC5A001, 0x7AC5A007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7AC5A001, 0x7AC5A008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AC5A001, 0x7AC5A009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AC5A001, 0x7AC5A00A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AC5A001, 0x7AC5A00B, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AC5A001, 0x7AC5A00C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AC5A001, 0x7AC5A00D, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7AC5A001, 0x7AC5A002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC5A001, 0x7AC5A003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC5A001, 0x7AC5A004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC5A001, 0x7AC5A005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AC5A001, 0x7AC5A006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AC5A001, 0x7AC5A007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7AC5A001, 0x7AC5A008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AC5A001, 0x7AC5A009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AC5A001, 0x7AC5A00A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AC5A001, 0x7AC5A00B, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AC5A001, 0x7AC5A00C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AC5A001, 0x7AC5A00D, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5A002,  1608, 0xAC5A0027, 107.3293, 159.2941, 44.72882, -0.8360626, 0, 0, -0.5486341,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -71,9 +71,9 @@ VALUES (0x7AC5A00E,  1542, 0xAC5A000F, 32.2007, 165.7609, 44.18659, 1, 0, 0, 0, 
 /* @teleloc 0xAC5A000F [32.200700 165.760900 44.186590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5A00E, 0x7AC5A00F, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7AC5A00E, 0x7AC5A010, '2019-02-10 00:00:00') /* Vat */
-     , (0x7AC5A00E, 0x7AC5A011, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7AC5A00E, 0x7AC5A00F, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7AC5A00E, 0x7AC5A010, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x7AC5A00E, 0x7AC5A011, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5A00F,  8999, 0xAC5A000F, 32.2007, 165.7609, 44.18659, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

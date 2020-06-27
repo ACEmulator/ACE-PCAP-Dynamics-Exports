@@ -5,18 +5,18 @@ VALUES (0x7D52E001,  1154, 0xD52E001E, 74.0875, 122.1358, 200.8803, 0.9713524, 0
 /* @teleloc 0xD52E001E [74.087500 122.135800 200.880300] 0.971352 0.000000 0.000000 -0.237644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D52E001, 0x7D52E002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D52E001, 0x7D52E003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D52E001, 0x7D52E004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D52E001, 0x7D52E005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D52E001, 0x7D52E006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D52E001, 0x7D52E007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D52E001, 0x7D52E008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D52E001, 0x7D52E009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D52E001, 0x7D52E00A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D52E001, 0x7D52E00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D52E001, 0x7D52E00C, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7D52E001, 0x7D52E00D, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7D52E001, 0x7D52E002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D52E001, 0x7D52E003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D52E001, 0x7D52E004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D52E001, 0x7D52E005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D52E001, 0x7D52E006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D52E001, 0x7D52E007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D52E001, 0x7D52E008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D52E001, 0x7D52E009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D52E001, 0x7D52E00A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D52E001, 0x7D52E00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D52E001, 0x7D52E00C, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7D52E001, 0x7D52E00D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D52E002,  7334, 0xD52E001E, 74.0875, 122.1358, 200.8803, 0.9713524, 0, 0, -0.2376437,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

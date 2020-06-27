@@ -5,9 +5,9 @@ VALUES (0x7A256001,  1154, 0xA2560002, 2.04213, 30.07777, 124.006, -0.4838112, 0
 /* @teleloc 0xA2560002 [2.042130 30.077770 124.006000] -0.483811 0.000000 0.000000 -0.875172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A256001, 0x7A256002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A256001, 0x7A256003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A256001, 0x7A256004, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7A256001, 0x7A256002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A256001, 0x7A256003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A256001, 0x7A256004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A256002,   226, 0xA2560002, 2.04213, 30.07777, 124.006, -0.4838112, 0, 0, -0.8751724,  True, '2019-02-10 00:00:00'); /* High Tumerok */

@@ -5,22 +5,22 @@ VALUES (0x796EB001,  1154, 0x96EB0027, 105.3636, 159.9969, 22.6702, -0.1498897, 
 /* @teleloc 0x96EB0027 [105.363600 159.996900 22.670200] -0.149890 0.000000 0.000000 -0.988703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796EB001, 0x796EB002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x796EB001, 0x796EB003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x796EB001, 0x796EB004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x796EB001, 0x796EB005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x796EB001, 0x796EB006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x796EB001, 0x796EB007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x796EB001, 0x796EB008, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x796EB001, 0x796EB009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796EB001, 0x796EB00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x796EB001, 0x796EB00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x796EB001, 0x796EB00C, '2019-02-10 00:00:00') /* Frost */
-     , (0x796EB001, 0x796EB00D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x796EB001, 0x796EB00E, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x796EB001, 0x796EB00F, '2019-02-10 00:00:00') /* Frost */
-     , (0x796EB001, 0x796EB010, '2019-02-10 00:00:00') /* Frost */
-     , (0x796EB001, 0x796EB011, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x796EB001, 0x796EB002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x796EB001, 0x796EB003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x796EB001, 0x796EB004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x796EB001, 0x796EB005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x796EB001, 0x796EB006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x796EB001, 0x796EB007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x796EB001, 0x796EB008, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x796EB001, 0x796EB009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796EB001, 0x796EB00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB00B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB00C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB00D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x796EB001, 0x796EB00E, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x796EB001, 0x796EB00F, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB010, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB011, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EB002,  7780, 0x96EB0027, 105.3636, 159.9969, 22.6702, -0.1498897, 0, 0, -0.9887027,  True, '2019-02-10 00:00:00'); /* Ashen Bones */

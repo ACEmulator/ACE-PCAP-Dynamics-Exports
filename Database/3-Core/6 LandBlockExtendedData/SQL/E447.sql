@@ -5,14 +5,14 @@ VALUES (0x7E447001,  1154, 0xE447002D, 121.1265, 96.2384, 26.08401, -0.2792658, 
 /* @teleloc 0xE447002D [121.126500 96.238400 26.084010] -0.279266 0.000000 0.000000 -0.960214 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E447001, 0x7E447002, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E447001, 0x7E447003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E447001, 0x7E447004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E447001, 0x7E447005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E447001, 0x7E447006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E447001, 0x7E447007, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E447001, 0x7E447008, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E447001, 0x7E447009, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7E447001, 0x7E447002, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E447001, 0x7E447003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E447001, 0x7E447004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E447001, 0x7E447005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E447001, 0x7E447006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E447001, 0x7E447007, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E447001, 0x7E447008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E447001, 0x7E447009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E447002,   198, 0xE447002D, 121.1265, 96.2384, 26.08401, -0.2792658, 0, 0, -0.9602138,  True, '2019-02-10 00:00:00'); /* Limestone Golem */
@@ -51,7 +51,7 @@ VALUES (0x7E44700A,  1542, 0xE4470011, 60.28087, 12.60452, 27.93226, 0.7719243, 
 /* @teleloc 0xE4470011 [60.280870 12.604520 27.932260] 0.771924 0.000000 0.000000 -0.635715 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44700A, 0x7E44700B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E44700A, 0x7E44700B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44700B,  8037, 0xE4470011, 60.28087, 12.60452, 27.93226, 0.7719243, 0, 0, -0.6357145,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

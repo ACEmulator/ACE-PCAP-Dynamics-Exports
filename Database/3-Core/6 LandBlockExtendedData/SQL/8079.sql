@@ -5,8 +5,8 @@ VALUES (0x78079001,  1154, 0x8079002F, 141.7587, 157.8264, 23.1812, 0.095654, 0,
 /* @teleloc 0x8079002F [141.758700 157.826400 23.181200] 0.095654 0.000000 0.000000 -0.995415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78079001, 0x78079002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x78079001, 0x78079003, '2019-02-10 00:00:00') /* Ancient Mu-miyah */;
+VALUES (0x78079001, 0x78079002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x78079001, 0x78079003, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78079002,  5497, 0x8079002F, 141.7587, 157.8264, 23.1812, 0.095654, 0, 0, -0.9954146,  True, '2019-02-10 00:00:00'); /* Virindi Director */

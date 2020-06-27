@@ -5,22 +5,22 @@ VALUES (0x778C4001,  1154, 0x78C40002, 8.403484, 41.46898, 203.4837, 1, 0, 0, 0,
 /* @teleloc 0x78C40002 [8.403484 41.468980 203.483700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778C4001, 0x778C4002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778C4001, 0x778C4003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778C4001, 0x778C4004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x778C4001, 0x778C4005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x778C4001, 0x778C4006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x778C4001, 0x778C4007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x778C4001, 0x778C4008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778C4001, 0x778C4009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778C4001, 0x778C400A, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x778C4001, 0x778C400B, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x778C4001, 0x778C400C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C4001, 0x778C400D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C4001, 0x778C400E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C4001, 0x778C400F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C4001, 0x778C4010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C4001, 0x778C4011, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x778C4001, 0x778C4002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778C4001, 0x778C4003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778C4001, 0x778C4004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x778C4001, 0x778C4005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x778C4001, 0x778C4006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x778C4001, 0x778C4007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x778C4001, 0x778C4008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778C4001, 0x778C4009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778C4001, 0x778C400A, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x778C4001, 0x778C400B, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x778C4001, 0x778C400C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C4001, 0x778C400D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C4001, 0x778C400E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C4001, 0x778C400F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C4001, 0x778C4010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C4001, 0x778C4011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778C4002, 23566, 0x78C40002, 8.403484, 41.46898, 203.4837, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -91,9 +91,9 @@ VALUES (0x778C4012,  1542, 0x78C40002, 6.104446, 41.71898, 203.4837, 1, 0, 0, 0,
 /* @teleloc 0x78C40002 [6.104446 41.718980 203.483700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778C4012, 0x778C4013, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x778C4012, 0x778C4014, '2019-02-10 00:00:00') /* Bones */
-     , (0x778C4012, 0x778C4015, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x778C4012, 0x778C4013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x778C4012, 0x778C4014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x778C4012, 0x778C4015, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778C4013, 31445, 0x78C40002, 6.104446, 41.71898, 203.4837, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

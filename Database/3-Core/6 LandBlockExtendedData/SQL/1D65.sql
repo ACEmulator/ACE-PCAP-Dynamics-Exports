@@ -5,11 +5,11 @@ VALUES (0x71D65001,  1154, 0x1D650031, 157.218, 18.88152, 72.54844, -0.8895823, 
 /* @teleloc 0x1D650031 [157.218000 18.881520 72.548440] -0.889582 0.000000 0.000000 -0.456775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D65001, 0x71D65002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71D65001, 0x71D65003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x71D65001, 0x71D65004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x71D65001, 0x71D65005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71D65001, 0x71D65006, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x71D65001, 0x71D65002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71D65001, 0x71D65003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x71D65001, 0x71D65004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x71D65001, 0x71D65005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71D65001, 0x71D65006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D65002, 23617, 0x1D650031, 157.218, 18.88152, 72.54844, -0.8895823, 0, 0, -0.4567748,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

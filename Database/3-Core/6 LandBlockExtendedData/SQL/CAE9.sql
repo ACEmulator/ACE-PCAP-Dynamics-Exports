@@ -5,30 +5,30 @@ VALUES (0x7CAE9001,  1154, 0xCAE90006, 4.200849, 140.9955, 0, -0.2494409, 0, 0, 
 /* @teleloc 0xCAE90006 [4.200849 140.995500 0.000000] -0.249441 0.000000 0.000000 -0.968390 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAE9001, 0x7CAE9002, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9003, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9004, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9005, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9006, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE9007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE9008, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE9009, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE900A, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE900B, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE900C, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy */
-     , (0x7CAE9001, 0x7CAE900D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7CAE9001, 0x7CAE900E, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CAE9001, 0x7CAE900F, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9010, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9011, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9012, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CAE9001, 0x7CAE9013, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CAE9001, 0x7CAE9014, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CAE9001, 0x7CAE9015, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CAE9001, 0x7CAE9016, '2019-02-10 00:00:00') /* Glissnal Sleech */
-     , (0x7CAE9001, 0x7CAE9017, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CAE9001, 0x7CAE9018, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CAE9001, 0x7CAE9019, '2019-02-10 00:00:00') /* Degenerate Mukkir */;
+VALUES (0x7CAE9001, 0x7CAE9002, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7CAE9001, 0x7CAE9003, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9004, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9005, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9006, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7CAE9001, 0x7CAE9007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7CAE9001, 0x7CAE9008, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7CAE9001, 0x7CAE9009, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7CAE9001, 0x7CAE900A, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7CAE9001, 0x7CAE900B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7CAE9001, 0x7CAE900C, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy (40147) */
+     , (0x7CAE9001, 0x7CAE900D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7CAE9001, 0x7CAE900E, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CAE9001, 0x7CAE900F, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7CAE9001, 0x7CAE9010, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9011, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9012, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAE9001, 0x7CAE9013, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7CAE9001, 0x7CAE9014, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CAE9001, 0x7CAE9015, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CAE9001, 0x7CAE9016, '2019-02-10 00:00:00') /* Glissnal Sleech (33636) */
+     , (0x7CAE9001, 0x7CAE9017, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7CAE9001, 0x7CAE9018, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CAE9001, 0x7CAE9019, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAE9002, 33739, 0xCAE90006, 4.200849, 140.9955, 0, -0.2494409, 0, 0, -0.96839,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
@@ -131,7 +131,7 @@ VALUES (0x7CAE901A,  1542, 0xCAE90015, 53.32995, 112.6436, 0, -0.5161565, 0, 0, 
 /* @teleloc 0xCAE90015 [53.329950 112.643600 0.000000] -0.516157 0.000000 0.000000 -0.856494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAE901A, 0x7CAE901B, '2019-02-10 00:00:00') /* Black Coral */;
+VALUES (0x7CAE901A, 0x7CAE901B, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAE901B, 38613, 0xCAE90015, 53.32995, 112.6436, 0, -0.5161565, 0, 0, -0.8564943,  True, '2019-02-10 00:00:00'); /* Black Coral */

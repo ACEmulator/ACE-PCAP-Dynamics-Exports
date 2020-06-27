@@ -5,13 +5,13 @@ VALUES (0x7B076001,  1154, 0xB0760036, 154.7592, 131.7519, 36.00444, 0.7071068, 
 /* @teleloc 0xB0760036 [154.759200 131.751900 36.004440] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B076001, 0x7B076002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B076001, 0x7B076003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B076001, 0x7B076004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B076001, 0x7B076005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B076001, 0x7B076006, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B076001, 0x7B076007, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B076001, 0x7B076008, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7B076001, 0x7B076002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B076001, 0x7B076003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B076001, 0x7B076004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B076001, 0x7B076005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B076001, 0x7B076006, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B076001, 0x7B076007, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B076001, 0x7B076008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B076002,  1762, 0xB0760036, 154.7592, 131.7519, 36.00444, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

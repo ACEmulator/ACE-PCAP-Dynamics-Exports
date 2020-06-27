@@ -5,11 +5,11 @@ VALUES (0x7A069001,  1154, 0xA069002D, 132.3459, 101.6488, 26.47673, -0.3865316,
 /* @teleloc 0xA069002D [132.345900 101.648800 26.476730] -0.386532 0.000000 0.000000 -0.922276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A069001, 0x7A069002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A069001, 0x7A069003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A069001, 0x7A069004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A069001, 0x7A069005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A069001, 0x7A069006, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7A069001, 0x7A069002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A069001, 0x7A069003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A069001, 0x7A069004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A069001, 0x7A069005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A069001, 0x7A069006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A069002,   226, 0xA069002D, 132.3459, 101.6488, 26.47673, -0.3865316, 0, 0, -0.9222761,  True, '2019-02-10 00:00:00'); /* High Tumerok */

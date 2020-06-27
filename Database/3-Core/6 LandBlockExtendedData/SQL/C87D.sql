@@ -5,21 +5,21 @@ VALUES (0x7C87D001,  1154, 0xC87D0037, 166.7384, 162.732, 60.36436, 0.7431667, 0
 /* @teleloc 0xC87D0037 [166.738400 162.732000 60.364360] 0.743167 0.000000 0.000000 -0.669106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C87D001, 0x7C87D002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C87D001, 0x7C87D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C87D001, 0x7C87D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C87D001, 0x7C87D005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C87D001, 0x7C87D006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C87D001, 0x7C87D007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C87D001, 0x7C87D008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C87D001, 0x7C87D009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C87D001, 0x7C87D00A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C87D001, 0x7C87D00B, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C87D001, 0x7C87D00C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C87D001, 0x7C87D00D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C87D001, 0x7C87D00E, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C87D001, 0x7C87D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C87D001, 0x7C87D010, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7C87D001, 0x7C87D002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C87D001, 0x7C87D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C87D001, 0x7C87D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C87D001, 0x7C87D005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C87D001, 0x7C87D006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C87D001, 0x7C87D007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C87D001, 0x7C87D008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C87D001, 0x7C87D009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C87D001, 0x7C87D00A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C87D001, 0x7C87D00B, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C87D001, 0x7C87D00C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C87D001, 0x7C87D00D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C87D001, 0x7C87D00E, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C87D001, 0x7C87D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C87D001, 0x7C87D010, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C87D002,   216, 0xC87D0037, 166.7384, 162.732, 60.36436, 0.7431667, 0, 0, -0.6691062,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */
@@ -86,7 +86,7 @@ VALUES (0x7C87D011,  1542, 0xC87D0021, 103.5396, 5.127326, 34.63, 1, 0, 0, 0, Fa
 /* @teleloc 0xC87D0021 [103.539600 5.127326 34.630000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C87D011, 0x7C87D012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C87D011, 0x7C87D012, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C87D012,  4180, 0xC87D0021, 103.5396, 5.127326, 34.63, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

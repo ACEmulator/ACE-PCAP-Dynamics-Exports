@@ -5,20 +5,20 @@ VALUES (0x74717001,  1154, 0x4717002D, 124.4565, 99.01595, 63.27617, 0.9409959, 
 /* @teleloc 0x4717002D [124.456500 99.015950 63.276170] 0.940996 0.000000 0.000000 -0.338418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74717001, 0x74717002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74717001, 0x74717003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74717001, 0x74717004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74717001, 0x74717005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74717001, 0x74717006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74717001, 0x74717007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74717001, 0x74717008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74717001, 0x74717009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74717001, 0x7471700A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74717001, 0x7471700B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74717001, 0x7471700C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74717001, 0x7471700D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74717001, 0x7471700E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74717001, 0x7471700F, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x74717001, 0x74717002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74717001, 0x74717003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74717001, 0x74717004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74717001, 0x74717005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74717001, 0x74717006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74717001, 0x74717007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74717001, 0x74717008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74717001, 0x74717009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74717001, 0x7471700A, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74717001, 0x7471700B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74717001, 0x7471700C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74717001, 0x7471700D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74717001, 0x7471700E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74717001, 0x7471700F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74717002,  7119, 0x4717002D, 124.4565, 99.01595, 63.27617, 0.9409959, 0, 0, -0.3384181,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -81,7 +81,7 @@ VALUES (0x74717010,  1542, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-
 /* @teleloc 0x47170025 [118.573100 111.652400 54.956370] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74717010, 0x74717011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74717010, 0x74717011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74717011,  4380, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

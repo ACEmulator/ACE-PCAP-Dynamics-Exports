@@ -5,12 +5,12 @@ VALUES (0x7B983001,  1154, 0xB983001B, 83.3284, 50.94787, 36.74, 0.9171117, 0, 0
 /* @teleloc 0xB983001B [83.328400 50.947870 36.740000] 0.917112 0.000000 0.000000 -0.398630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B983001, 0x7B983002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B983001, 0x7B983003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B983001, 0x7B983004, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B983001, 0x7B983005, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B983001, 0x7B983006, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B983001, 0x7B983007, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B983001, 0x7B983002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B983001, 0x7B983003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B983001, 0x7B983004, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B983001, 0x7B983005, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B983001, 0x7B983006, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B983001, 0x7B983007, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B983002,    10, 0xB983001B, 83.3284, 50.94787, 36.74, 0.9171117, 0, 0, -0.3986303,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

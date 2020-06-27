@@ -5,8 +5,8 @@ VALUES (0x724B5001,  1154, 0x24B50022, 117.7709, 27.47694, 22.005, -0.7336693, 0
 /* @teleloc 0x24B50022 [117.770900 27.476940 22.005000] -0.733669 0.000000 0.000000 -0.679507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B5001, 0x724B5002, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x724B5001, 0x724B5003, '2019-02-10 00:00:00') /* Highwayman */;
+VALUES (0x724B5001, 0x724B5002, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x724B5001, 0x724B5003, '2019-02-10 00:00:00') /* Highwayman (11503) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B5002, 11502, 0x24B50022, 117.7709, 27.47694, 22.005, -0.7336693, 0, 0, -0.6795067,  True, '2019-02-10 00:00:00'); /* Cutthroat */
@@ -21,8 +21,8 @@ VALUES (0x724B5004,  1542, 0x24B50022, 113.9573, 27.66973, 23.70302, 1, 0, 0, 0,
 /* @teleloc 0x24B50022 [113.957300 27.669730 23.703020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B5004, 0x724B5005, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x724B5004, 0x724B5006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x724B5004, 0x724B5005, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x724B5004, 0x724B5006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B5005,  9024, 0x24B50022, 113.9573, 27.66973, 23.70302, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

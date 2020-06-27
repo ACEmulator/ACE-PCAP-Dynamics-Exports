@@ -5,27 +5,27 @@ VALUES (0x7EC0F001,  1154, 0xEC0F0033, 145.307, 49.9336, 233.1052, -0.8395573, 0
 /* @teleloc 0xEC0F0033 [145.307000 49.933600 233.105200] -0.839557 0.000000 0.000000 0.543271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0F001, 0x7EC0F002, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F001, 0x7EC0F003, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EC0F001, 0x7EC0F004, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EC0F001, 0x7EC0F005, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EC0F001, 0x7EC0F006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7EC0F001, 0x7EC0F007, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EC0F001, 0x7EC0F008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7EC0F001, 0x7EC0F009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7EC0F001, 0x7EC0F00A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7EC0F001, 0x7EC0F00B, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F001, 0x7EC0F00C, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EC0F001, 0x7EC0F00D, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EC0F001, 0x7EC0F00E, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EC0F001, 0x7EC0F00F, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EC0F001, 0x7EC0F010, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F001, 0x7EC0F011, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EC0F001, 0x7EC0F012, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EC0F001, 0x7EC0F013, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EC0F001, 0x7EC0F014, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EC0F001, 0x7EC0F015, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F001, 0x7EC0F016, '2019-02-10 00:00:00') /* Disgusting Moarsman */;
+VALUES (0x7EC0F001, 0x7EC0F002, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F001, 0x7EC0F003, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F001, 0x7EC0F004, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F001, 0x7EC0F005, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F001, 0x7EC0F006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7EC0F001, 0x7EC0F007, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F001, 0x7EC0F008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7EC0F001, 0x7EC0F009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7EC0F001, 0x7EC0F00A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7EC0F001, 0x7EC0F00B, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F001, 0x7EC0F00C, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F001, 0x7EC0F00D, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F001, 0x7EC0F00E, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F001, 0x7EC0F00F, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F001, 0x7EC0F010, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F001, 0x7EC0F011, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F001, 0x7EC0F012, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F001, 0x7EC0F013, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F001, 0x7EC0F014, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F001, 0x7EC0F015, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F001, 0x7EC0F016, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC0F002, 27853, 0xEC0F0033, 145.307, 49.9336, 233.1052, -0.8395573, 0, 0, 0.5432712,  True, '2019-02-10 00:00:00'); /* Disgusting Moarsman */
@@ -116,31 +116,31 @@ VALUES (0x7EC0F017,  1542, 0xEC0F002A, 133.68, 25.9624, 235.1, -0.15579, 0, 0, -
 /* @teleloc 0xEC0F002A [133.680000 25.962400 235.100000] -0.155790 0.000000 0.000000 -0.987790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0F017, 0x7EC0F018, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F019, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01A, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01B, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01C, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01D, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01E, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F01F, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F020, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F021, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F022, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F023, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F024, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F025, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F026, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F027, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F028, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F029, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02A, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02B, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02C, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02D, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02E, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F02F, '2019-02-10 00:00:00') /* King's Crown */
-     , (0x7EC0F017, 0x7EC0F030, '2019-02-10 00:00:00') /* King's Crown */;
+VALUES (0x7EC0F017, 0x7EC0F018, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F019, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01A, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01B, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01C, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01D, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01E, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F01F, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F020, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F021, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F022, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F023, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F024, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F025, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F026, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F027, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F028, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F029, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02A, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02B, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02C, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02D, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02E, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F02F, '2019-02-10 00:00:00') /* King's Crown (35769) */
+     , (0x7EC0F017, 0x7EC0F030, '2019-02-10 00:00:00') /* King's Crown (35769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC0F018, 35769, 0xEC0F002A, 133.68, 25.9624, 235.1, -0.15579, 0, 0, -0.98779,  True, '2019-02-10 00:00:00'); /* King's Crown */

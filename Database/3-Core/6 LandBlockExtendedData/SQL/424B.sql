@@ -5,34 +5,34 @@ VALUES (0x7424B001,  1154, 0x424B0100, 85.429, 81.6265, 0.405, -0.8534939, 0, 0,
 /* @teleloc 0x424B0100 [85.429000 81.626500 0.405000] -0.853494 0.000000 0.000000 -0.521103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424B001, 0x7424B002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7424B001, 0x7424B003, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7424B001, 0x7424B004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7424B001, 0x7424B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7424B001, 0x7424B006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7424B001, 0x7424B007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7424B001, 0x7424B008, '2019-02-10 00:00:00') /* Cold One */
-     , (0x7424B001, 0x7424B009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7424B001, 0x7424B00A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7424B001, 0x7424B00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7424B001, 0x7424B00C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7424B001, 0x7424B00D, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7424B001, 0x7424B00E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7424B001, 0x7424B00F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7424B001, 0x7424B010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7424B001, 0x7424B011, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7424B001, 0x7424B012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7424B001, 0x7424B013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7424B001, 0x7424B014, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424B001, 0x7424B015, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424B001, 0x7424B016, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424B001, 0x7424B017, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend */
-     , (0x7424B001, 0x7424B018, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend */
-     , (0x7424B001, 0x7424B019, '2019-02-10 00:00:00') /* Thralled Guruk Smasher */
-     , (0x7424B001, 0x7424B01A, '2019-02-10 00:00:00') /* Thralled Guruk Crusher */
-     , (0x7424B001, 0x7424B01B, '2019-02-10 00:00:00') /* Thralled Ruuk Soothsayer */
-     , (0x7424B001, 0x7424B01C, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424B001, 0x7424B01D, '2019-02-10 00:00:00') /* Desolation Moarsman */;
+VALUES (0x7424B001, 0x7424B002, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7424B001, 0x7424B003, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7424B001, 0x7424B004, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7424B001, 0x7424B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7424B001, 0x7424B006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7424B001, 0x7424B007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7424B001, 0x7424B008, '2019-02-10 00:00:00') /* Cold One (12020) */
+     , (0x7424B001, 0x7424B009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7424B001, 0x7424B00A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7424B001, 0x7424B00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7424B001, 0x7424B00C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7424B001, 0x7424B00D, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7424B001, 0x7424B00E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7424B001, 0x7424B00F, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7424B001, 0x7424B010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7424B001, 0x7424B011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7424B001, 0x7424B012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7424B001, 0x7424B013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7424B001, 0x7424B014, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424B001, 0x7424B015, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424B001, 0x7424B016, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424B001, 0x7424B017, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend (34336) */
+     , (0x7424B001, 0x7424B018, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend (34336) */
+     , (0x7424B001, 0x7424B019, '2019-02-10 00:00:00') /* Thralled Guruk Smasher (34334) */
+     , (0x7424B001, 0x7424B01A, '2019-02-10 00:00:00') /* Thralled Guruk Crusher (34330) */
+     , (0x7424B001, 0x7424B01B, '2019-02-10 00:00:00') /* Thralled Ruuk Soothsayer (34339) */
+     , (0x7424B001, 0x7424B01C, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424B001, 0x7424B01D, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424B002, 23089, 0x424B0100, 85.429, 81.6265, 0.405, -0.8534939, 0, 0, -0.5211029,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
@@ -151,9 +151,9 @@ VALUES (0x7424B01E,  1542, 0x424B0011, 67.79902, 16.02851, 0.6642909, 1, 0, 0, 0
 /* @teleloc 0x424B0011 [67.799020 16.028510 0.664291] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424B01E, 0x7424B01F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7424B01E, 0x7424B020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7424B01E, 0x7424B021, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7424B01E, 0x7424B01F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7424B01E, 0x7424B020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7424B01E, 0x7424B021, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424B01F, 22571, 0x424B0011, 67.79902, 16.02851, 0.6642909, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

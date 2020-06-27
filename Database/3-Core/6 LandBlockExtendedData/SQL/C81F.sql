@@ -5,18 +5,18 @@ VALUES (0x7C81F001,  1154, 0xC81F0027, 109.8897, 151.8922, 132.189, -0.8219928, 
 /* @teleloc 0xC81F0027 [109.889700 151.892200 132.189000] -0.821993 0.000000 0.000000 -0.569498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C81F001, 0x7C81F002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C81F001, 0x7C81F003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7C81F001, 0x7C81F004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7C81F001, 0x7C81F005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C81F001, 0x7C81F006, '2019-02-10 00:00:00') /* Ember */
-     , (0x7C81F001, 0x7C81F007, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7C81F001, 0x7C81F008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C81F001, 0x7C81F009, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7C81F001, 0x7C81F00A, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7C81F001, 0x7C81F00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C81F001, 0x7C81F00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C81F001, 0x7C81F00D, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7C81F001, 0x7C81F002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C81F001, 0x7C81F003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7C81F001, 0x7C81F004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7C81F001, 0x7C81F005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C81F001, 0x7C81F006, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7C81F001, 0x7C81F007, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7C81F001, 0x7C81F008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C81F001, 0x7C81F009, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7C81F001, 0x7C81F00A, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7C81F001, 0x7C81F00B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C81F001, 0x7C81F00C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C81F001, 0x7C81F00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C81F002,  4253, 0xC81F0027, 109.8897, 151.8922, 132.189, -0.8219928, 0, 0, -0.5694979,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7C81F00E,  1542, 0xC81F001F, 80.61196, 153.5928, 124.1653, 0.9537169, 
 /* @teleloc 0xC81F001F [80.611960 153.592800 124.165300] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C81F00E, 0x7C81F00F, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7C81F00E, 0x7C81F00F, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C81F00F,  5779, 0xC81F001F, 80.61196, 153.5928, 124.1653, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

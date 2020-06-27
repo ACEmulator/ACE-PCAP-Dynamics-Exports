@@ -5,10 +5,10 @@ VALUES (0x798E8001,  1154, 0x98E80025, 109.4475, 114.5413, 101.3664, 0.7071068, 
 /* @teleloc 0x98E80025 [109.447500 114.541300 101.366400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E8001, 0x798E8002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x798E8001, 0x798E8003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x798E8001, 0x798E8004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x798E8001, 0x798E8005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x798E8001, 0x798E8002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x798E8001, 0x798E8003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x798E8001, 0x798E8004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x798E8001, 0x798E8005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E8002,  7335, 0x98E80025, 109.4475, 114.5413, 101.3664, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -31,13 +31,13 @@ VALUES (0x798E8006,  1542, 0x98E80020, 85.03935, 173.4037, 98.52081, 1, 0, 0, 0,
 /* @teleloc 0x98E80020 [85.039350 173.403700 98.520810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E8006, 0x798E8007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x798E8006, 0x798E8008, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x798E8006, 0x798E8009, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x798E8006, 0x798E800A, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x798E8006, 0x798E800B, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x798E8006, 0x798E800C, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x798E8006, 0x798E800D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x798E8006, 0x798E8007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x798E8006, 0x798E8008, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x798E8006, 0x798E8009, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x798E8006, 0x798E800A, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x798E8006, 0x798E800B, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x798E8006, 0x798E800C, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x798E8006, 0x798E800D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E8007,  9024, 0x98E80020, 85.03935, 173.4037, 98.52081, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

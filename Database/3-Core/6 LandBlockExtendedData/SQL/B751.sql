@@ -5,9 +5,9 @@ VALUES (0x7B751001,  1154, 0xB751001F, 88.75402, 158.5201, 15.77614, -0.8141739,
 /* @teleloc 0xB751001F [88.754020 158.520100 15.776140] -0.814174 0.000000 0.000000 -0.580621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B751001, 0x7B751002, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B751001, 0x7B751003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B751001, 0x7B751004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B751001, 0x7B751002, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B751001, 0x7B751003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B751001, 0x7B751004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B751002,     5, 0xB751001F, 88.75402, 158.5201, 15.77614, -0.8141739, 0, 0, -0.580621,  True, '2019-02-10 00:00:00'); /* Laigus Lugian */

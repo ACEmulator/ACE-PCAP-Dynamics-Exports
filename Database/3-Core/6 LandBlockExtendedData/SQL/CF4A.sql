@@ -9,31 +9,31 @@ VALUES (0x7CF4A00A,  1154, 0xCF4A0018, 52.80315, 170.277, 78.59753, -0.7660444, 
 /* @teleloc 0xCF4A0018 [52.803150 170.277000 78.597530] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF4A00A, 0x7CF4A00B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CF4A00A, 0x7CF4A00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CF4A00A, 0x7CF4A00D, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CF4A00A, 0x7CF4A00E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CF4A00A, 0x7CF4A00F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF4A00A, 0x7CF4A010, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF4A00A, 0x7CF4A011, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CF4A00A, 0x7CF4A012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CF4A00A, 0x7CF4A013, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CF4A00A, 0x7CF4A014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7CF4A00A, 0x7CF4A015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CF4A00A, 0x7CF4A016, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CF4A00A, 0x7CF4A017, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CF4A00A, 0x7CF4A018, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CF4A00A, 0x7CF4A019, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CF4A00A, 0x7CF4A01A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CF4A00A, 0x7CF4A01B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF4A00A, 0x7CF4A01C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CF4A00A, 0x7CF4A01D, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CF4A00A, 0x7CF4A01E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CF4A00A, 0x7CF4A01F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CF4A00A, 0x7CF4A020, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CF4A00A, 0x7CF4A021, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CF4A00A, 0x7CF4A022, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CF4A00A, 0x7CF4A023, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7CF4A00A, 0x7CF4A00B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CF4A00A, 0x7CF4A00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CF4A00A, 0x7CF4A00D, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CF4A00A, 0x7CF4A00E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CF4A00A, 0x7CF4A00F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF4A00A, 0x7CF4A010, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF4A00A, 0x7CF4A011, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CF4A00A, 0x7CF4A012, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x7CF4A00A, 0x7CF4A013, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CF4A00A, 0x7CF4A014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7CF4A00A, 0x7CF4A015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CF4A00A, 0x7CF4A016, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CF4A00A, 0x7CF4A017, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CF4A00A, 0x7CF4A018, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CF4A00A, 0x7CF4A019, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CF4A00A, 0x7CF4A01A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CF4A00A, 0x7CF4A01B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF4A00A, 0x7CF4A01C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CF4A00A, 0x7CF4A01D, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CF4A00A, 0x7CF4A01E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CF4A00A, 0x7CF4A01F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CF4A00A, 0x7CF4A020, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CF4A00A, 0x7CF4A021, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CF4A00A, 0x7CF4A022, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CF4A00A, 0x7CF4A023, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF4A00B,  9400, 0xCF4A0018, 52.80315, 170.277, 78.59753, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

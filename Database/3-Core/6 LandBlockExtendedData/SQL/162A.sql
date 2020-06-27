@@ -5,13 +5,13 @@ VALUES (0x7162A001,  1154, 0x162A001D, 90.77109, 96.11076, -0.8999987, 0.2248754
 /* @teleloc 0x162A001D [90.771090 96.110760 -0.899999] 0.224875 0.000000 0.000000 -0.974388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7162A001, 0x7162A002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7162A001, 0x7162A003, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7162A001, 0x7162A004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7162A001, 0x7162A005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7162A001, 0x7162A006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7162A001, 0x7162A007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7162A001, 0x7162A008, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x7162A001, 0x7162A002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7162A001, 0x7162A003, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7162A001, 0x7162A004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7162A001, 0x7162A005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7162A001, 0x7162A006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7162A001, 0x7162A007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7162A001, 0x7162A008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7162A002,  7127, 0x162A001D, 90.77109, 96.11076, -0.8999987, 0.2248754, 0, 0, -0.9743875,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
@@ -46,9 +46,9 @@ VALUES (0x7162A009,  1542, 0x162A001C, 82.11379, 85.63272, -0.4599999, 0.2248754
 /* @teleloc 0x162A001C [82.113790 85.632720 -0.460000] 0.224875 0.000000 0.000000 -0.974388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7162A009, 0x7162A00A, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7162A009, 0x7162A00B, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x7162A009, 0x7162A00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7162A009, 0x7162A00A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7162A009, 0x7162A00B, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x7162A009, 0x7162A00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7162A00A,  9288, 0x162A001C, 82.11379, 85.63272, -0.4599999, 0.2248754, 0, 0, -0.9743875,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

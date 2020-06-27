@@ -5,23 +5,23 @@ VALUES (0x7B29B001,  1154, 0xB29B0003, 2.755579, 60.45466, 56.0075, 0.976296, 0,
 /* @teleloc 0xB29B0003 [2.755579 60.454660 56.007500] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B29B001, 0x7B29B002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B29B001, 0x7B29B003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7B29B001, 0x7B29B004, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B29B001, 0x7B29B005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B29B001, 0x7B29B006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B29B001, 0x7B29B007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B29B001, 0x7B29B008, '2019-02-10 00:00:00') /* Gout */
-     , (0x7B29B001, 0x7B29B009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B29B001, 0x7B29B00A, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7B29B001, 0x7B29B00B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B29B001, 0x7B29B00C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B29B001, 0x7B29B00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B29B001, 0x7B29B00E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B29B001, 0x7B29B00F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B29B001, 0x7B29B010, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B29B001, 0x7B29B011, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B29B001, 0x7B29B012, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B29B001, 0x7B29B002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B29B001, 0x7B29B003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B29B001, 0x7B29B004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B29B001, 0x7B29B005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B29B001, 0x7B29B006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B29B001, 0x7B29B007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B29B001, 0x7B29B008, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7B29B001, 0x7B29B009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B29B001, 0x7B29B00A, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7B29B001, 0x7B29B00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B29B001, 0x7B29B00C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B29B001, 0x7B29B00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B29B001, 0x7B29B00E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B29B001, 0x7B29B00F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B29B001, 0x7B29B010, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B29B001, 0x7B29B011, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B29B001, 0x7B29B012, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B29B002,  1630, 0xB29B0003, 2.755579, 60.45466, 56.0075, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -96,8 +96,8 @@ VALUES (0x7B29B013,  1542, 0xB29B0003, 1.769531, 59.02752, 56, 1, 0, 0, 0, False
 /* @teleloc 0xB29B0003 [1.769531 59.027520 56.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B29B013, 0x7B29B014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B29B013, 0x7B29B015, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7B29B013, 0x7B29B014, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7B29B013, 0x7B29B015, '2019-02-10 00:00:00') /* Old Gravestone (34104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B29B014, 22570, 0xB29B0003, 1.769531, 59.02752, 56, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7E455001,  1154, 0xE455001C, 87.41992, 92.07095, 4.00765, -0.8995166, 
 /* @teleloc 0xE455001C [87.419920 92.070950 4.007650] -0.899517 0.000000 0.000000 -0.436887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E455001, 0x7E455002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E455001, 0x7E455003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7E455001, 0x7E455004, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7E455001, 0x7E455002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E455001, 0x7E455003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7E455001, 0x7E455004, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E455002,   182, 0xE455001C, 87.41992, 92.07095, 4.00765, -0.8995166, 0, 0, -0.4368866,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

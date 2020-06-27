@@ -21,47 +21,47 @@ VALUES (0x73EA4007,  1154, 0x3EA4002C, 124.3586, 86.05208, 4.72894, 0.4566771, 0
 /* @teleloc 0x3EA4002C [124.358600 86.052080 4.728940] 0.456677 0.000000 0.000000 -0.889633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA4007, 0x73EA4008, '2019-02-10 00:00:00') /* Ember */
-     , (0x73EA4007, 0x73EA4009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA4007, 0x73EA400A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x73EA4007, 0x73EA400B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA4007, 0x73EA400C, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x73EA4007, 0x73EA400D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73EA4007, 0x73EA400E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x73EA4007, 0x73EA400F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73EA4007, 0x73EA4010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73EA4007, 0x73EA4011, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA4007, 0x73EA4012, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA4007, 0x73EA4013, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73EA4007, 0x73EA4014, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73EA4007, 0x73EA4015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73EA4007, 0x73EA4016, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73EA4007, 0x73EA4017, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73EA4007, 0x73EA4018, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA4007, 0x73EA4019, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73EA4007, 0x73EA401A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x73EA4007, 0x73EA401B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA4007, 0x73EA401C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA4007, 0x73EA401D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x73EA4007, 0x73EA401E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73EA4007, 0x73EA401F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x73EA4007, 0x73EA4020, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EA4007, 0x73EA4021, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x73EA4007, 0x73EA4022, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x73EA4007, 0x73EA4023, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73EA4007, 0x73EA4024, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73EA4007, 0x73EA4025, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73EA4007, 0x73EA4026, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73EA4007, 0x73EA4027, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x73EA4007, 0x73EA4028, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73EA4007, 0x73EA4029, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73EA4007, 0x73EA402A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73EA4007, 0x73EA402B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73EA4007, 0x73EA402C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73EA4007, 0x73EA402D, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x73EA4007, 0x73EA402E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x73EA4007, 0x73EA402F, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x73EA4007, 0x73EA4030, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x73EA4007, 0x73EA4008, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x73EA4007, 0x73EA4009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA4007, 0x73EA400A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x73EA4007, 0x73EA400B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA4007, 0x73EA400C, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x73EA4007, 0x73EA400D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73EA4007, 0x73EA400E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x73EA4007, 0x73EA400F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73EA4007, 0x73EA4010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73EA4007, 0x73EA4011, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA4007, 0x73EA4012, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA4007, 0x73EA4013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73EA4007, 0x73EA4014, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73EA4007, 0x73EA4015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73EA4007, 0x73EA4016, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73EA4007, 0x73EA4017, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73EA4007, 0x73EA4018, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA4007, 0x73EA4019, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73EA4007, 0x73EA401A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x73EA4007, 0x73EA401B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA4007, 0x73EA401C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA4007, 0x73EA401D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x73EA4007, 0x73EA401E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73EA4007, 0x73EA401F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x73EA4007, 0x73EA4020, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EA4007, 0x73EA4021, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x73EA4007, 0x73EA4022, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x73EA4007, 0x73EA4023, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73EA4007, 0x73EA4024, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73EA4007, 0x73EA4025, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73EA4007, 0x73EA4026, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73EA4007, 0x73EA4027, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x73EA4007, 0x73EA4028, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73EA4007, 0x73EA4029, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73EA4007, 0x73EA402A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73EA4007, 0x73EA402B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73EA4007, 0x73EA402C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73EA4007, 0x73EA402D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x73EA4007, 0x73EA402E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x73EA4007, 0x73EA402F, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x73EA4007, 0x73EA4030, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA4008,  7607, 0x3EA4002C, 124.3586, 86.05208, 4.72894, 0.4566771, 0, 0, -0.8896325,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -232,7 +232,7 @@ VALUES (0x73EA4031,  1154, 0x3EA40102, 84.8114, 35.3803, -0.7950001, -0.876774, 
 /* @teleloc 0x3EA40102 [84.811400 35.380300 -0.795000] -0.876774 0.000000 0.000000 -0.480903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA4031, 0x73EA4032, '2019-02-10 00:00:00') /* Collector */;
+VALUES (0x73EA4031, 0x73EA4032, '2019-02-10 00:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA4032,  3917, 0x3EA40102, 84.8114, 35.3803, -0.7950001, -0.876774, 0, 0, -0.480903,  True, '2019-02-10 00:00:00'); /* Collector */
@@ -243,10 +243,10 @@ VALUES (0x73EA4033,  1542, 0x3EA4001A, 88.7234, 45.1535, 0.005699992, 0.394835, 
 /* @teleloc 0x3EA4001A [88.723400 45.153500 0.005700] 0.394835 0.000000 0.000000 -0.918752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA4033, 0x73EA4034, '2019-02-10 00:00:00') /* Cow */
-     , (0x73EA4033, 0x73EA4035, '2019-02-10 00:00:00') /* Corpse */
-     , (0x73EA4033, 0x73EA4036, '2019-02-10 00:00:00') /* Bones */
-     , (0x73EA4033, 0x73EA4037, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73EA4033, 0x73EA4034, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x73EA4033, 0x73EA4035, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x73EA4033, 0x73EA4036, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73EA4033, 0x73EA4037, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA4034,   618, 0x3EA4001A, 88.7234, 45.1535, 0.005699992, 0.394835, 0, 0, -0.918752,  True, '2019-02-10 00:00:00'); /* Cow */

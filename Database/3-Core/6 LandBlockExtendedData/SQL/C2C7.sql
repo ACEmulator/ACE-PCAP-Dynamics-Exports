@@ -5,17 +5,17 @@ VALUES (0x7C2C7001,  1154, 0xC2C7002F, 142.8707, 151.7259, 78.97746, 0.8266341, 
 /* @teleloc 0xC2C7002F [142.870700 151.725900 78.977460] 0.826634 0.000000 0.000000 -0.562740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2C7001, 0x7C2C7002, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C2C7001, 0x7C2C7003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C2C7001, 0x7C2C7004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2C7001, 0x7C2C7005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C2C7001, 0x7C2C7006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2C7001, 0x7C2C7007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2C7001, 0x7C2C7008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2C7001, 0x7C2C7009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C2C7001, 0x7C2C700A, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7C2C7001, 0x7C2C700B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C2C7001, 0x7C2C700C, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x7C2C7001, 0x7C2C7002, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C2C7001, 0x7C2C7003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C2C7001, 0x7C2C7004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2C7001, 0x7C2C7005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C2C7001, 0x7C2C7006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2C7001, 0x7C2C7007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2C7001, 0x7C2C7008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2C7001, 0x7C2C7009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C2C7001, 0x7C2C700A, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7C2C7001, 0x7C2C700B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C2C7001, 0x7C2C700C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2C7002, 14874, 0xC2C7002F, 142.8707, 151.7259, 78.97746, 0.8266341, 0, 0, -0.5627398,  True, '2019-02-10 00:00:00'); /* Augmented Olthoi */

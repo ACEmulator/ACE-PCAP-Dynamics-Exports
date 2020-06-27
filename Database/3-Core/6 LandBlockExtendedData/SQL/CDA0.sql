@@ -5,11 +5,11 @@ VALUES (0x7CDA0001,  1154, 0xCDA00013, 58.28553, 54.45364, 28.53267, -0.9472583,
 /* @teleloc 0xCDA00013 [58.285530 54.453640 28.532670] -0.947258 0.000000 0.000000 -0.320471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDA0001, 0x7CDA0002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CDA0001, 0x7CDA0003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CDA0001, 0x7CDA0004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CDA0001, 0x7CDA0005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CDA0001, 0x7CDA0006, '2019-02-10 00:00:00') /* Drudge Slave */;
+VALUES (0x7CDA0001, 0x7CDA0002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CDA0001, 0x7CDA0003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CDA0001, 0x7CDA0004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CDA0001, 0x7CDA0005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CDA0001, 0x7CDA0006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDA0002,   217, 0xCDA00013, 58.28553, 54.45364, 28.53267, -0.9472583, 0, 0, -0.3204712,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

@@ -5,72 +5,72 @@ VALUES (0x7A4D0001,  1154, 0xA4D0000C, 47.87226, 82.53755, 172.6762, -0.1229594,
 /* @teleloc 0xA4D0000C [47.872260 82.537550 172.676200] -0.122959 0.000000 0.000000 -0.992412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4D0001, 0x7A4D0002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A4D0001, 0x7A4D0003, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7A4D0001, 0x7A4D0004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A4D0001, 0x7A4D0005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A4D0001, 0x7A4D0006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A4D0001, 0x7A4D0007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A4D0001, 0x7A4D0008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A4D0001, 0x7A4D0009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A4D0001, 0x7A4D000A, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A4D0001, 0x7A4D000B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A4D0001, 0x7A4D000C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A4D0001, 0x7A4D000D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A4D0001, 0x7A4D000E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A4D0001, 0x7A4D000F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A4D0001, 0x7A4D0010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A4D0001, 0x7A4D0011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A4D0001, 0x7A4D0012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A4D0001, 0x7A4D0013, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A4D0001, 0x7A4D0014, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A4D0001, 0x7A4D0015, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A4D0001, 0x7A4D0016, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D0001, 0x7A4D0017, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A4D0001, 0x7A4D0018, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A4D0001, 0x7A4D0019, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A4D0001, 0x7A4D001A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A4D0001, 0x7A4D001B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A4D0001, 0x7A4D001C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D001D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D001E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A4D0001, 0x7A4D001F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A4D0001, 0x7A4D0020, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D0001, 0x7A4D0021, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D0001, 0x7A4D0022, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D0001, 0x7A4D0023, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D0001, 0x7A4D0024, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x7A4D0001, 0x7A4D0025, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A4D0001, 0x7A4D0026, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A4D0001, 0x7A4D0027, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A4D0001, 0x7A4D0028, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D0029, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A4D0001, 0x7A4D002A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A4D0001, 0x7A4D002B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4D0001, 0x7A4D002C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4D0001, 0x7A4D002D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A4D0001, 0x7A4D002E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D002F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D0030, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A4D0001, 0x7A4D0031, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A4D0001, 0x7A4D0032, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A4D0001, 0x7A4D0033, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A4D0001, 0x7A4D0034, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A4D0001, 0x7A4D0035, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7A4D0001, 0x7A4D0036, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A4D0001, 0x7A4D0037, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A4D0001, 0x7A4D0038, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D0039, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D003A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D003B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D003C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4D0001, 0x7A4D003D, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A4D0001, 0x7A4D003E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A4D0001, 0x7A4D003F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A4D0001, 0x7A4D0040, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D0041, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D0042, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A4D0001, 0x7A4D0043, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x7A4D0001, 0x7A4D0002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A4D0001, 0x7A4D0003, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7A4D0001, 0x7A4D0004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A4D0001, 0x7A4D0005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A4D0001, 0x7A4D0006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A4D0001, 0x7A4D0007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A4D0001, 0x7A4D0008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A4D0001, 0x7A4D0009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A4D0001, 0x7A4D000A, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A4D0001, 0x7A4D000B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A4D0001, 0x7A4D000C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A4D0001, 0x7A4D000D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A4D0001, 0x7A4D000E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A4D0001, 0x7A4D000F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A4D0001, 0x7A4D0010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A4D0001, 0x7A4D0011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A4D0001, 0x7A4D0012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A4D0001, 0x7A4D0013, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A4D0001, 0x7A4D0014, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A4D0001, 0x7A4D0015, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A4D0001, 0x7A4D0016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D0001, 0x7A4D0017, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A4D0001, 0x7A4D0018, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A4D0001, 0x7A4D0019, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A4D0001, 0x7A4D001A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A4D0001, 0x7A4D001B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A4D0001, 0x7A4D001C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D001D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D001E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A4D0001, 0x7A4D001F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A4D0001, 0x7A4D0020, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D0001, 0x7A4D0021, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D0001, 0x7A4D0022, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D0001, 0x7A4D0023, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D0001, 0x7A4D0024, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x7A4D0001, 0x7A4D0025, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A4D0001, 0x7A4D0026, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A4D0001, 0x7A4D0027, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A4D0001, 0x7A4D0028, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D0029, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A4D0001, 0x7A4D002A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A4D0001, 0x7A4D002B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4D0001, 0x7A4D002C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4D0001, 0x7A4D002D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A4D0001, 0x7A4D002E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D002F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D0030, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A4D0001, 0x7A4D0031, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A4D0001, 0x7A4D0032, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A4D0001, 0x7A4D0033, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A4D0001, 0x7A4D0034, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A4D0001, 0x7A4D0035, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7A4D0001, 0x7A4D0036, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A4D0001, 0x7A4D0037, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A4D0001, 0x7A4D0038, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D0039, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D003A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D003B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D003C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4D0001, 0x7A4D003D, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A4D0001, 0x7A4D003E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D0001, 0x7A4D003F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A4D0001, 0x7A4D0040, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D0041, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D0042, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A4D0001, 0x7A4D0043, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4D0002, 22519, 0xA4D0000C, 47.87226, 82.53755, 172.6762, -0.1229594, 0, 0, -0.9924117,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -341,12 +341,12 @@ VALUES (0x7A4D0044,  1542, 0xA4D0003D, 170.2157, 105.6113, 153.5677, -0.00727210
 /* @teleloc 0xA4D0003D [170.215700 105.611300 153.567700] -0.007272 0.000000 0.000000 -0.999974 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4D0044, 0x7A4D0045, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x7A4D0044, 0x7A4D0046, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7A4D0044, 0x7A4D0047, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A4D0044, 0x7A4D0048, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A4D0044, 0x7A4D0049, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A4D0044, 0x7A4D004A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A4D0044, 0x7A4D0045, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7A4D0044, 0x7A4D0046, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7A4D0044, 0x7A4D0047, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A4D0044, 0x7A4D0048, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A4D0044, 0x7A4D0049, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A4D0044, 0x7A4D004A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4D0045,  9071, 0xA4D0003D, 170.2157, 105.6113, 153.5677, -0.007272104, 0, 0, -0.9999735,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

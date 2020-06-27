@@ -5,21 +5,21 @@ VALUES (0x7267F001,  1154, 0x267F0029, 120.0112, 12.06013, 31.0201, 1, 0, 0, 0, 
 /* @teleloc 0x267F0029 [120.011200 12.060130 31.020100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7267F001, 0x7267F002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7267F001, 0x7267F003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7267F001, 0x7267F004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7267F001, 0x7267F005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7267F001, 0x7267F006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7267F001, 0x7267F007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7267F001, 0x7267F008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7267F001, 0x7267F009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7267F001, 0x7267F00A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7267F001, 0x7267F00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7267F001, 0x7267F00C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7267F001, 0x7267F00D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7267F001, 0x7267F00E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7267F001, 0x7267F00F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7267F001, 0x7267F010, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x7267F001, 0x7267F002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7267F001, 0x7267F003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7267F001, 0x7267F004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7267F001, 0x7267F005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7267F001, 0x7267F006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7267F001, 0x7267F007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7267F001, 0x7267F008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7267F001, 0x7267F009, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7267F001, 0x7267F00A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7267F001, 0x7267F00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7267F001, 0x7267F00C, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7267F001, 0x7267F00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7267F001, 0x7267F00E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7267F001, 0x7267F00F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7267F001, 0x7267F010, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7267F002, 23566, 0x267F0029, 120.0112, 12.06013, 31.0201, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

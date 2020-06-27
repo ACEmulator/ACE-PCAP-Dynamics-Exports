@@ -5,47 +5,47 @@ VALUES (0x73FF1001,  1154, 0x3FF10011, 68.66438, 17.30306, 14.003, -0.8901914, 0
 /* @teleloc 0x3FF10011 [68.664380 17.303060 14.003000] -0.890191 0.000000 0.000000 -0.455587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FF1001, 0x73FF1002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x73FF1001, 0x73FF1003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73FF1001, 0x73FF1004, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73FF1001, 0x73FF1005, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FF1001, 0x73FF1006, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FF1001, 0x73FF1007, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73FF1001, 0x73FF1008, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FF1001, 0x73FF1009, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x73FF1001, 0x73FF100A, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FF1001, 0x73FF100B, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FF1001, 0x73FF100C, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FF1001, 0x73FF100D, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FF1001, 0x73FF100E, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FF1001, 0x73FF100F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73FF1001, 0x73FF1010, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x73FF1001, 0x73FF1011, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x73FF1001, 0x73FF1012, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73FF1001, 0x73FF1013, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FF1001, 0x73FF1014, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x73FF1001, 0x73FF1015, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FF1001, 0x73FF1016, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73FF1001, 0x73FF1017, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73FF1001, 0x73FF1018, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x73FF1001, 0x73FF1019, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FF1001, 0x73FF101A, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FF1001, 0x73FF101B, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FF1001, 0x73FF101C, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FF1001, 0x73FF101D, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FF1001, 0x73FF101E, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x73FF1001, 0x73FF101F, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FF1001, 0x73FF1020, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FF1001, 0x73FF1021, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73FF1001, 0x73FF1022, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x73FF1001, 0x73FF1023, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FF1001, 0x73FF1024, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FF1001, 0x73FF1025, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FF1001, 0x73FF1026, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FF1001, 0x73FF1027, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73FF1001, 0x73FF1028, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FF1001, 0x73FF1029, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x73FF1001, 0x73FF102A, '2019-02-10 00:00:00') /* Maniacal Fiun */;
+VALUES (0x73FF1001, 0x73FF1002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x73FF1001, 0x73FF1003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73FF1001, 0x73FF1004, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73FF1001, 0x73FF1005, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FF1001, 0x73FF1006, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FF1001, 0x73FF1007, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73FF1001, 0x73FF1008, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FF1001, 0x73FF1009, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73FF1001, 0x73FF100A, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FF1001, 0x73FF100B, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FF1001, 0x73FF100C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FF1001, 0x73FF100D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FF1001, 0x73FF100E, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FF1001, 0x73FF100F, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73FF1001, 0x73FF1010, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF1001, 0x73FF1011, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x73FF1001, 0x73FF1012, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x73FF1001, 0x73FF1013, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FF1001, 0x73FF1014, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x73FF1001, 0x73FF1015, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FF1001, 0x73FF1016, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x73FF1001, 0x73FF1017, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73FF1001, 0x73FF1018, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x73FF1001, 0x73FF1019, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FF1001, 0x73FF101A, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FF1001, 0x73FF101B, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FF1001, 0x73FF101C, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FF1001, 0x73FF101D, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FF1001, 0x73FF101E, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF1001, 0x73FF101F, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FF1001, 0x73FF1020, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FF1001, 0x73FF1021, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73FF1001, 0x73FF1022, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x73FF1001, 0x73FF1023, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FF1001, 0x73FF1024, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FF1001, 0x73FF1025, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FF1001, 0x73FF1026, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FF1001, 0x73FF1027, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x73FF1001, 0x73FF1028, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FF1001, 0x73FF1029, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x73FF1001, 0x73FF102A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FF1002, 27711, 0x3FF10011, 68.66438, 17.30306, 14.003, -0.8901914, 0, 0, -0.4555867,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */

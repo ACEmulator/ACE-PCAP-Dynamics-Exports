@@ -205,36 +205,36 @@ VALUES (0x758700F7,  1154, 0x587002DC, 198.938, -120.99, 0.004999995, 1, 0, 0, 0
 /* @teleloc 0x587002DC [198.938000 -120.990000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758700F7, 0x758700F8, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700F9, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700FA, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700FB, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700FC, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x758700FD, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700FE, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x758700FF, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870100, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870101, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870102, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870103, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x75870104, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870105, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x75870106, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x75870107, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870108, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x75870109, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x7587010A, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x7587010B, '2019-02-10 00:00:00') /* Olthoi Hive Warrior */
-     , (0x758700F7, 0x7587010C, '2019-02-10 00:00:00') /* Simulacrum Doppelganger */
-     , (0x758700F7, 0x7587010D, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x7587010E, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x7587010F, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x75870110, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x75870111, '2019-02-10 00:00:00') /* Hollow Servant */
-     , (0x758700F7, 0x75870112, '2019-02-10 00:00:00') /* Hollow Servitor */
-     , (0x758700F7, 0x75870113, '2019-02-10 00:00:00') /* Kul Bronzegear */
-     , (0x758700F7, 0x75870114, '2019-02-10 00:00:00') /* Aun Siminua */
-     , (0x758700F7, 0x75870115, '2019-02-10 00:00:00') /* Oggma */;
+VALUES (0x758700F7, 0x758700F8, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700F9, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FA, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FB, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FC, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x758700FD, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FE, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x758700FF, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870100, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870101, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870102, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870103, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870104, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870105, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870106, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x75870107, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870108, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x75870109, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587010A, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587010B, '2019-02-10 00:00:00') /* Olthoi Hive Warrior (51376) */
+     , (0x758700F7, 0x7587010C, '2019-02-10 00:00:00') /* Simulacrum Doppelganger (51399) */
+     , (0x758700F7, 0x7587010D, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x7587010E, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x7587010F, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870110, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870111, '2019-02-10 00:00:00') /* Hollow Servant (51349) */
+     , (0x758700F7, 0x75870112, '2019-02-10 00:00:00') /* Hollow Servitor (51375) */
+     , (0x758700F7, 0x75870113, '2019-02-10 00:00:00') /* Kul Bronzegear (51382) */
+     , (0x758700F7, 0x75870114, '2019-02-10 00:00:00') /* Aun Siminua (51381) */
+     , (0x758700F7, 0x75870115, '2019-02-10 00:00:00') /* Oggma (51380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758700F8, 51399, 0x587002DC, 198.938, -120.99, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Simulacrum Doppelganger */
@@ -361,9 +361,9 @@ VALUES (0x75870116,  1154, 0x58700106, 10, -50, -11.995, -4.371139E-08, 0, 0, -1
 /* @teleloc 0x58700106 [10.000000 -50.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75870116, 0x75870117, '2019-02-10 00:00:00') /* Aun Siminua */
-     , (0x75870116, 0x75870118, '2019-02-10 00:00:00') /* Kul Bronzegear */
-     , (0x75870116, 0x75870119, '2019-02-10 00:00:00') /* Oggma */;
+VALUES (0x75870116, 0x75870117, '2019-02-10 00:00:00') /* Aun Siminua (51378) */
+     , (0x75870116, 0x75870118, '2019-02-10 00:00:00') /* Kul Bronzegear (51379) */
+     , (0x75870116, 0x75870119, '2019-02-10 00:00:00') /* Oggma (51377) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75870117, 51378, 0x58700106, 10, -50, -11.995, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Aun Siminua */
@@ -382,9 +382,9 @@ VALUES (0x7587011A,  1542, 0x58700106, 7.08661, -45.4479, -11.056, 0.7514313, 0,
 /* @teleloc 0x58700106 [7.086610 -45.447900 -11.056000] 0.751431 0.000000 0.000000 -0.659811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587011A, 0x7587011B, '2019-02-10 00:00:00') /* Cracked Message Shard */
-     , (0x7587011A, 0x7587011C, '2019-02-10 00:00:00') /* Fractured Message Shard */
-     , (0x7587011A, 0x7587011D, '2019-02-10 00:00:00') /* Chipped Message Shard */;
+VALUES (0x7587011A, 0x7587011B, '2019-02-10 00:00:00') /* Cracked Message Shard (51385) */
+     , (0x7587011A, 0x7587011C, '2019-02-10 00:00:00') /* Fractured Message Shard (51387) */
+     , (0x7587011A, 0x7587011D, '2019-02-10 00:00:00') /* Chipped Message Shard (51386) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587011B, 51385, 0x58700106, 7.08661, -45.4479, -11.056, 0.7514313, 0, 0, -0.6598113,  True, '2019-02-10 00:00:00'); /* Cracked Message Shard */

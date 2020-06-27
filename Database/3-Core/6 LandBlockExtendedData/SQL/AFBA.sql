@@ -5,22 +5,22 @@ VALUES (0x7AFBA001,  1154, 0xAFBA0039, 169.4919, 22.97322, 112.5513, 0.2344649, 
 /* @teleloc 0xAFBA0039 [169.491900 22.973220 112.551300] 0.234465 0.000000 0.000000 -0.972125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFBA001, 0x7AFBA002, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AFBA001, 0x7AFBA003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFBA001, 0x7AFBA004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7AFBA001, 0x7AFBA005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AFBA001, 0x7AFBA006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AFBA001, 0x7AFBA007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFBA001, 0x7AFBA008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFBA001, 0x7AFBA009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AFBA001, 0x7AFBA00A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFBA001, 0x7AFBA00B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AFBA001, 0x7AFBA00C, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AFBA001, 0x7AFBA00D, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7AFBA001, 0x7AFBA00E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7AFBA001, 0x7AFBA00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AFBA001, 0x7AFBA010, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7AFBA001, 0x7AFBA011, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7AFBA001, 0x7AFBA002, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AFBA001, 0x7AFBA003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFBA001, 0x7AFBA004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7AFBA001, 0x7AFBA005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AFBA001, 0x7AFBA006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AFBA001, 0x7AFBA007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFBA001, 0x7AFBA008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFBA001, 0x7AFBA009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AFBA001, 0x7AFBA00A, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFBA001, 0x7AFBA00B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AFBA001, 0x7AFBA00C, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AFBA001, 0x7AFBA00D, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7AFBA001, 0x7AFBA00E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7AFBA001, 0x7AFBA00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AFBA001, 0x7AFBA010, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7AFBA001, 0x7AFBA011, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFBA002,  1668, 0xAFBA0039, 169.4919, 22.97322, 112.5513, 0.2344649, 0, 0, -0.9721246,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */
@@ -91,7 +91,7 @@ VALUES (0x7AFBA012,  1542, 0xAFBA001D, 90.1663, 104.784, 105.2181, 1, 0, 0, 0, F
 /* @teleloc 0xAFBA001D [90.166300 104.784000 105.218100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFBA012, 0x7AFBA013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AFBA012, 0x7AFBA013, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFBA013, 22572, 0xAFBA001D, 90.1663, 104.784, 105.2181, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

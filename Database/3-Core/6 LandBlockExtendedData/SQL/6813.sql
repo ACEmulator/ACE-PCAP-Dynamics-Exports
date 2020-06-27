@@ -5,15 +5,15 @@ VALUES (0x76813001,  1154, 0x68130017, 68.22659, 166.9765, 69.68805, 0.2802511, 
 /* @teleloc 0x68130017 [68.226590 166.976500 69.688050] 0.280251 0.000000 0.000000 -0.959927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76813001, 0x76813002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x76813001, 0x76813003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x76813001, 0x76813004, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x76813001, 0x76813005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x76813001, 0x76813006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x76813001, 0x76813007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x76813001, 0x76813008, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x76813001, 0x76813009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76813001, 0x7681300A, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x76813001, 0x76813002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x76813001, 0x76813003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x76813001, 0x76813004, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x76813001, 0x76813005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x76813001, 0x76813006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x76813001, 0x76813007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x76813001, 0x76813008, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x76813001, 0x76813009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76813001, 0x7681300A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76813002,  7334, 0x68130017, 68.22659, 166.9765, 69.68805, 0.2802511, 0, 0, -0.9599267,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -56,7 +56,7 @@ VALUES (0x7681300B,  1542, 0x6813002A, 129.3622, 40.52242, 68.47947, 1, 0, 0, 0,
 /* @teleloc 0x6813002A [129.362200 40.522420 68.479470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7681300B, 0x7681300C, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7681300B, 0x7681300C, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7681300C,  8999, 0x6813002A, 129.3622, 40.52242, 68.47947, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

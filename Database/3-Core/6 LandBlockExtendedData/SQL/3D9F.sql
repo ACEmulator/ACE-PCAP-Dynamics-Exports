@@ -5,18 +5,18 @@ VALUES (0x73D9F001,  1154, 0x3D9F0033, 154.5342, 61.67013, 24.38796, 0.5031462, 
 /* @teleloc 0x3D9F0033 [154.534200 61.670130 24.387960] 0.503146 0.000000 0.000000 -0.864201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D9F001, 0x73D9F002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x73D9F001, 0x73D9F003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73D9F001, 0x73D9F004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73D9F001, 0x73D9F005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73D9F001, 0x73D9F006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73D9F001, 0x73D9F007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73D9F001, 0x73D9F008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73D9F001, 0x73D9F009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73D9F001, 0x73D9F00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73D9F001, 0x73D9F00B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x73D9F001, 0x73D9F00C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73D9F001, 0x73D9F00D, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x73D9F001, 0x73D9F002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x73D9F001, 0x73D9F003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73D9F001, 0x73D9F004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73D9F001, 0x73D9F005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73D9F001, 0x73D9F006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73D9F001, 0x73D9F007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73D9F001, 0x73D9F008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73D9F001, 0x73D9F009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73D9F001, 0x73D9F00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73D9F001, 0x73D9F00B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x73D9F001, 0x73D9F00C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73D9F001, 0x73D9F00D, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D9F002,   199, 0x3D9F0033, 154.5342, 61.67013, 24.38796, 0.5031462, 0, 0, -0.8642013,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -71,7 +71,7 @@ VALUES (0x73D9F00E,  1542, 0x3D9F0029, 141.2807, 10.59824, 48.62235, 0.9990482, 
 /* @teleloc 0x3D9F0029 [141.280700 10.598240 48.622350] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D9F00E, 0x73D9F00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73D9F00E, 0x73D9F00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D9F00F,  4179, 0x3D9F0029, 141.2807, 10.59824, 48.62235, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

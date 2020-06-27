@@ -5,15 +5,15 @@ VALUES (0x7D38A001,  1154, 0xD38A000D, 39.37544, 106.8923, 44.01, -0.41894, 0, 0
 /* @teleloc 0xD38A000D [39.375440 106.892300 44.010000] -0.418940 0.000000 0.000000 -0.908014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D38A001, 0x7D38A002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D38A001, 0x7D38A003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7D38A001, 0x7D38A004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7D38A001, 0x7D38A005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D38A001, 0x7D38A006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7D38A001, 0x7D38A007, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D38A001, 0x7D38A008, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7D38A001, 0x7D38A009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7D38A001, 0x7D38A00A, '2019-02-10 00:00:00') /* Amploth Raider */;
+VALUES (0x7D38A001, 0x7D38A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D38A001, 0x7D38A003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7D38A001, 0x7D38A004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D38A001, 0x7D38A005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D38A001, 0x7D38A006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7D38A001, 0x7D38A007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D38A001, 0x7D38A008, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7D38A001, 0x7D38A009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7D38A001, 0x7D38A00A, '2019-02-10 00:00:00') /* Amploth Raider (8143) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D38A002,   194, 0xD38A000D, 39.37544, 106.8923, 44.01, -0.41894, 0, 0, -0.9080139,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -56,7 +56,7 @@ VALUES (0x7D38A00B,  1542, 0xD38A0037, 164.9293, 151.3593, 38.25739, 0.1810563, 
 /* @teleloc 0xD38A0037 [164.929300 151.359300 38.257390] 0.181056 0.000000 0.000000 -0.983473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D38A00B, 0x7D38A00C, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7D38A00B, 0x7D38A00C, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D38A00C, 15715, 0xD38A0037, 164.9293, 151.3593, 38.25739, 0.1810563, 0, 0, -0.9834727,  True, '2019-02-10 00:00:00'); /* Sunflower */

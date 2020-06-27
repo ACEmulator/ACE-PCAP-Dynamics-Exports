@@ -5,22 +5,22 @@ VALUES (0x7C82E001,  1154, 0xC82E0009, 31.8404, 20.59467, 214.4121, -0.99981, 0,
 /* @teleloc 0xC82E0009 [31.840400 20.594670 214.412100] -0.999810 0.000000 0.000000 -0.019494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C82E001, 0x7C82E002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C82E001, 0x7C82E003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C82E001, 0x7C82E004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C82E001, 0x7C82E005, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7C82E001, 0x7C82E006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C82E001, 0x7C82E007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C82E001, 0x7C82E008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C82E001, 0x7C82E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C82E001, 0x7C82E00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C82E001, 0x7C82E00B, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7C82E001, 0x7C82E00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C82E001, 0x7C82E00D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C82E001, 0x7C82E00E, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7C82E001, 0x7C82E00F, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7C82E001, 0x7C82E010, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7C82E001, 0x7C82E011, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x7C82E001, 0x7C82E002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C82E001, 0x7C82E003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C82E001, 0x7C82E004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C82E001, 0x7C82E005, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7C82E001, 0x7C82E006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C82E001, 0x7C82E007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C82E001, 0x7C82E008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C82E001, 0x7C82E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C82E001, 0x7C82E00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C82E001, 0x7C82E00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7C82E001, 0x7C82E00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C82E001, 0x7C82E00D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C82E001, 0x7C82E00E, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x7C82E001, 0x7C82E00F, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7C82E001, 0x7C82E010, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7C82E001, 0x7C82E011, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C82E002, 38181, 0xC82E0009, 31.8404, 20.59467, 214.4121, -0.99981, 0, 0, -0.0194944,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -91,8 +91,8 @@ VALUES (0x7C82E012,  1542, 0xC82E000C, 45.62587, 78.28579, 229.1429, -0.2040291,
 /* @teleloc 0xC82E000C [45.625870 78.285790 229.142900] -0.204029 0.000000 0.000000 -0.978965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C82E012, 0x7C82E013, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7C82E012, 0x7C82E014, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7C82E012, 0x7C82E013, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7C82E012, 0x7C82E014, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C82E013,  8646, 0xC82E000C, 45.62587, 78.28579, 229.1429, -0.2040291, 0, 0, -0.9789648,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

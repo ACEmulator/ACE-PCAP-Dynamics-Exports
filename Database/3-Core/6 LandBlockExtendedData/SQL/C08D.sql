@@ -5,13 +5,13 @@ VALUES (0x7C08D001,  1154, 0xC08D0020, 82.05758, 182.3843, 20.0035, 0.5040761, 0
 /* @teleloc 0xC08D0020 [82.057580 182.384300 20.003500] 0.504076 0.000000 0.000000 -0.863659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C08D001, 0x7C08D002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C08D001, 0x7C08D003, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C08D001, 0x7C08D004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C08D001, 0x7C08D005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C08D001, 0x7C08D006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C08D001, 0x7C08D007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C08D001, 0x7C08D008, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7C08D001, 0x7C08D002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C08D001, 0x7C08D003, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C08D001, 0x7C08D004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C08D001, 0x7C08D005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C08D001, 0x7C08D006, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C08D001, 0x7C08D007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C08D001, 0x7C08D008, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C08D002,   192, 0xC08D0020, 82.05758, 182.3843, 20.0035, 0.5040761, 0, 0, -0.8636592,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

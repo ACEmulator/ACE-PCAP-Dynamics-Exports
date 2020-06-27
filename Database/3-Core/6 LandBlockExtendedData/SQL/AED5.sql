@@ -5,19 +5,19 @@ VALUES (0x7AED5001,  1154, 0xAED50032, 166.0468, 37.55677, 34.17026, 0.9238795, 
 /* @teleloc 0xAED50032 [166.046800 37.556770 34.170260] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED5001, 0x7AED5002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AED5001, 0x7AED5003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AED5001, 0x7AED5004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AED5001, 0x7AED5005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AED5001, 0x7AED5006, '2019-02-10 00:00:00') /* Static */
-     , (0x7AED5001, 0x7AED5007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AED5001, 0x7AED5008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AED5001, 0x7AED5009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AED5001, 0x7AED500A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AED5001, 0x7AED500B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AED5001, 0x7AED500C, '2019-02-10 00:00:00') /* Ember */
-     , (0x7AED5001, 0x7AED500D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AED5001, 0x7AED500E, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7AED5001, 0x7AED5002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AED5001, 0x7AED5003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AED5001, 0x7AED5004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AED5001, 0x7AED5005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AED5001, 0x7AED5006, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AED5001, 0x7AED5007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AED5001, 0x7AED5008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AED5001, 0x7AED5009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AED5001, 0x7AED500A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AED5001, 0x7AED500B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AED5001, 0x7AED500C, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7AED5001, 0x7AED500D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AED5001, 0x7AED500E, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED5002,  7123, 0xAED50032, 166.0468, 37.55677, 34.17026, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -76,7 +76,7 @@ VALUES (0x7AED500F,  1542, 0xAED50032, 165.0874, 38.65199, 35.1442, 0.9238795, 0
 /* @teleloc 0xAED50032 [165.087400 38.651990 35.144200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED500F, 0x7AED5010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7AED500F, 0x7AED5010, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED5010,  4180, 0xAED50032, 165.0874, 38.65199, 35.1442, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,24 +5,24 @@ VALUES (0x7942C001,  1154, 0x942C0003, 13.8621, 58.97976, 59.9692, 0.5385454, 0,
 /* @teleloc 0x942C0003 [13.862100 58.979760 59.969200] 0.538545 0.000000 0.000000 -0.842597 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7942C001, 0x7942C002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7942C001, 0x7942C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7942C001, 0x7942C004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7942C001, 0x7942C005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7942C001, 0x7942C006, '2019-02-10 00:00:00') /* Mox */
-     , (0x7942C001, 0x7942C007, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7942C001, 0x7942C008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7942C001, 0x7942C009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7942C001, 0x7942C00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7942C001, 0x7942C00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7942C001, 0x7942C00C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7942C001, 0x7942C00D, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7942C001, 0x7942C00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7942C001, 0x7942C00F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7942C001, 0x7942C010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7942C001, 0x7942C011, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7942C001, 0x7942C012, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7942C001, 0x7942C013, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7942C001, 0x7942C002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7942C001, 0x7942C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7942C001, 0x7942C004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7942C001, 0x7942C005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7942C001, 0x7942C006, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7942C001, 0x7942C007, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7942C001, 0x7942C008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7942C001, 0x7942C009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7942C001, 0x7942C00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7942C001, 0x7942C00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7942C001, 0x7942C00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7942C001, 0x7942C00D, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7942C001, 0x7942C00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7942C001, 0x7942C00F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7942C001, 0x7942C010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7942C001, 0x7942C011, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7942C001, 0x7942C012, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7942C001, 0x7942C013, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942C002,  7128, 0x942C0003, 13.8621, 58.97976, 59.9692, 0.5385454, 0, 0, -0.8425965,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -101,7 +101,7 @@ VALUES (0x7942C014,  1542, 0x942C0020, 85.56159, 179.6699, 94.7048, 0.4311403, 0
 /* @teleloc 0x942C0020 [85.561590 179.669900 94.704800] 0.431140 0.000000 0.000000 -0.902285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7942C014, 0x7942C015, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7942C014, 0x7942C015, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942C015,  8037, 0x942C0020, 85.56159, 179.6699, 94.7048, 0.4311403, 0, 0, -0.9022849,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

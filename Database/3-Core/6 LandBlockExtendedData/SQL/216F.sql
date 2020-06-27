@@ -5,9 +5,9 @@ VALUES (0x7216F001,  1542, 0x216F0038, 148.9313, 187.1934, 178.3375, 0.06525569,
 /* @teleloc 0x216F0038 [148.931300 187.193400 178.337500] 0.065256 0.000000 0.000000 -0.997869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7216F001, 0x7216F002, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7216F001, 0x7216F003, '2019-02-10 00:00:00') /* Empyrean Spherule */
-     , (0x7216F001, 0x7216F004, '2019-02-10 00:00:00') /* Idol Gem */;
+VALUES (0x7216F001, 0x7216F002, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7216F001, 0x7216F003, '2019-02-10 00:00:00') /* Empyrean Spherule (36946) */
+     , (0x7216F001, 0x7216F004, '2019-02-10 00:00:00') /* Idol Gem (8425) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7216F002,  1955, 0x216F0038, 148.9313, 187.1934, 178.3375, 0.06525569, 0, 0, -0.9978686,  True, '2019-02-10 00:00:00'); /* Gateway */

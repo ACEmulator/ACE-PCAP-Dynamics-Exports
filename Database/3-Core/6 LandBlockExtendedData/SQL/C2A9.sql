@@ -9,26 +9,26 @@ VALUES (0x7C2A9001,  1154, 0xC2A9002B, 130.7977, 60.87037, 103.7849, 0.7354563, 
 /* @teleloc 0xC2A9002B [130.797700 60.870370 103.784900] 0.735456 0.000000 0.000000 -0.677572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A9001, 0x7C2A9002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2A9001, 0x7C2A9003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2A9001, 0x7C2A9004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C2A9001, 0x7C2A9005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C2A9001, 0x7C2A9006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C2A9001, 0x7C2A9007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C2A9001, 0x7C2A9008, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C2A9001, 0x7C2A9009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C2A9001, 0x7C2A900A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C2A9001, 0x7C2A900B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C2A9001, 0x7C2A900C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C2A9001, 0x7C2A900D, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C2A9001, 0x7C2A900E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C2A9001, 0x7C2A900F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C2A9001, 0x7C2A9010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C2A9001, 0x7C2A9011, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C2A9001, 0x7C2A9012, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C2A9001, 0x7C2A9013, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C2A9001, 0x7C2A9014, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C2A9001, 0x7C2A9015, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C2A9001, 0x7C2A9002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2A9001, 0x7C2A9003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2A9001, 0x7C2A9004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C2A9001, 0x7C2A9005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C2A9001, 0x7C2A9006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C2A9001, 0x7C2A9007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C2A9001, 0x7C2A9008, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C2A9001, 0x7C2A9009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C2A9001, 0x7C2A900A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C2A9001, 0x7C2A900B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C2A9001, 0x7C2A900C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C2A9001, 0x7C2A900D, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C2A9001, 0x7C2A900E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C2A9001, 0x7C2A900F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C2A9001, 0x7C2A9010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C2A9001, 0x7C2A9011, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C2A9001, 0x7C2A9012, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C2A9001, 0x7C2A9013, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C2A9001, 0x7C2A9014, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C2A9001, 0x7C2A9015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A9002,   217, 0xC2A9002B, 130.7977, 60.87037, 103.7849, 0.7354563, 0, 0, -0.6775721,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -115,9 +115,9 @@ VALUES (0x7C2A9016,  1542, 0xC2A9003F, 170.6942, 158.5402, 108, -0.4404038, 0, 0
 /* @teleloc 0xC2A9003F [170.694200 158.540200 108.000000] -0.440404 0.000000 0.000000 -0.897800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A9016, 0x7C2A9017, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C2A9016, 0x7C2A9018, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C2A9016, 0x7C2A9019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C2A9016, 0x7C2A9017, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C2A9016, 0x7C2A9018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C2A9016, 0x7C2A9019, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A9017,  8037, 0xC2A9003F, 170.6942, 158.5402, 108, -0.4404038, 0, 0, -0.8977998,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

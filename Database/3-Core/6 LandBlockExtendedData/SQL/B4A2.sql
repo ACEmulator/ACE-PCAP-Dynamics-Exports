@@ -5,39 +5,39 @@ VALUES (0x7B4A2001,  1154, 0xB4A20032, 146.2074, 37.46445, 67.31313, -0.231353, 
 /* @teleloc 0xB4A20032 [146.207400 37.464450 67.313130] -0.231353 0.000000 0.000000 -0.972870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4A2001, 0x7B4A2002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4A2001, 0x7B4A2005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A200A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A200B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B4A2001, 0x7B4A200C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A200D, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A200E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B4A2001, 0x7B4A200F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2010, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2011, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2012, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B4A2001, 0x7B4A2013, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B4A2001, 0x7B4A2014, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4A2001, 0x7B4A2015, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4A2001, 0x7B4A2016, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2017, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2018, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B4A2001, 0x7B4A2019, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B4A2001, 0x7B4A201A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A201B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A201C, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B4A2001, 0x7B4A201D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B4A2001, 0x7B4A201E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4A2001, 0x7B4A201F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2020, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2021, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B4A2001, 0x7B4A2022, '2019-02-10 00:00:00') /* Small Shadow Child */;
+VALUES (0x7B4A2001, 0x7B4A2002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4A2001, 0x7B4A2005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A200A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A200B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B4A2001, 0x7B4A200C, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A200D, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A200E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B4A2001, 0x7B4A200F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2010, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2011, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2012, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B4A2001, 0x7B4A2013, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B4A2001, 0x7B4A2014, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4A2001, 0x7B4A2015, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4A2001, 0x7B4A2016, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2017, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2018, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B4A2001, 0x7B4A2019, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B4A2001, 0x7B4A201A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A201B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A201C, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B4A2001, 0x7B4A201D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B4A2001, 0x7B4A201E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4A2001, 0x7B4A201F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2020, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2021, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B4A2001, 0x7B4A2022, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4A2002,   939, 0xB4A20032, 146.2074, 37.46445, 67.31313, -0.231353, 0, 0, -0.9728699,  True, '2019-02-10 00:00:00'); /* Young Banderling */

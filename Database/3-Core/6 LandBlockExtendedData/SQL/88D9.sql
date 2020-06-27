@@ -5,8 +5,8 @@ VALUES (0x788D9001,  1154, 0x88D9000C, 28.85278, 73.69087, 148.3961, 0.5, 0, 0, 
 /* @teleloc 0x88D9000C [28.852780 73.690870 148.396100] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D9001, 0x788D9002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x788D9001, 0x788D9003, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x788D9001, 0x788D9002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x788D9001, 0x788D9003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D9002,  4216, 0x88D9000C, 28.85278, 73.69087, 148.3961, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

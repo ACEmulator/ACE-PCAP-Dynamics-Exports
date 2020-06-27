@@ -5,29 +5,29 @@ VALUES (0x7EE6D001,  1154, 0xEE6D0038, 145.1775, 180.3905, 44.85278, 0.8846794, 
 /* @teleloc 0xEE6D0038 [145.177500 180.390500 44.852780] 0.884679 0.000000 0.000000 -0.466200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE6D001, 0x7EE6D002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EE6D001, 0x7EE6D004, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE6D001, 0x7EE6D005, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE6D001, 0x7EE6D006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EE6D001, 0x7EE6D007, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D008, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EE6D001, 0x7EE6D009, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EE6D001, 0x7EE6D00A, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EE6D001, 0x7EE6D00B, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EE6D001, 0x7EE6D00C, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EE6D001, 0x7EE6D00D, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE6D001, 0x7EE6D00E, '2019-02-10 00:00:00') /* Tuskie Gunner */
-     , (0x7EE6D001, 0x7EE6D00F, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE6D001, 0x7EE6D010, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EE6D001, 0x7EE6D011, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EE6D001, 0x7EE6D012, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D013, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D014, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EE6D001, 0x7EE6D015, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D016, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D017, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE6D001, 0x7EE6D018, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7EE6D001, 0x7EE6D002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EE6D001, 0x7EE6D004, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE6D001, 0x7EE6D005, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE6D001, 0x7EE6D006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EE6D001, 0x7EE6D007, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D008, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EE6D001, 0x7EE6D009, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7EE6D001, 0x7EE6D00A, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EE6D001, 0x7EE6D00B, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EE6D001, 0x7EE6D00C, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EE6D001, 0x7EE6D00D, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE6D001, 0x7EE6D00E, '2019-02-10 00:00:00') /* Tuskie Gunner (22521) */
+     , (0x7EE6D001, 0x7EE6D00F, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE6D001, 0x7EE6D010, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EE6D001, 0x7EE6D011, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7EE6D001, 0x7EE6D012, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D013, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D014, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EE6D001, 0x7EE6D015, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D016, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D017, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE6D001, 0x7EE6D018, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE6D002, 22053, 0xEE6D0038, 145.1775, 180.3905, 44.85278, 0.8846794, 0, 0, -0.4661998,  True, '2019-02-10 00:00:00'); /* Assailer */

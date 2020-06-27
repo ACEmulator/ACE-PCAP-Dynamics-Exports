@@ -5,9 +5,9 @@ VALUES (0x72DE3001,  1154, 0x2DE3003E, 176.4899, 135.5567, 20.005, -0.8497679, 0
 /* @teleloc 0x2DE3003E [176.489900 135.556700 20.005000] -0.849768 0.000000 0.000000 -0.527157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DE3001, 0x72DE3002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72DE3001, 0x72DE3003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72DE3001, 0x72DE3004, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x72DE3001, 0x72DE3002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72DE3001, 0x72DE3003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72DE3001, 0x72DE3004, '2019-02-10 00:00:00') /* Skeleton Captain (7821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DE3002,  1758, 0x2DE3003E, 176.4899, 135.5567, 20.005, -0.8497679, 0, 0, -0.5271571,  True, '2019-02-10 00:00:00'); /* Shadow */

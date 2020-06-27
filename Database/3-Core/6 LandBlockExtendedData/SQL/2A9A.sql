@@ -5,11 +5,11 @@ VALUES (0x72A9A001,  1154, 0x2A9A0008, 12.50448, 190.0169, 30.0065, 0.9952905, 0
 /* @teleloc 0x2A9A0008 [12.504480 190.016900 30.006500] 0.995291 0.000000 0.000000 -0.096938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A9A001, 0x72A9A002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72A9A001, 0x72A9A003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x72A9A001, 0x72A9A004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72A9A001, 0x72A9A005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72A9A001, 0x72A9A006, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x72A9A001, 0x72A9A002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72A9A001, 0x72A9A003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x72A9A001, 0x72A9A004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72A9A001, 0x72A9A005, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72A9A001, 0x72A9A006, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A9A002, 21551, 0x2A9A0008, 12.50448, 190.0169, 30.0065, 0.9952905, 0, 0, -0.09693763,  True, '2019-02-10 00:00:00'); /* Strife Wisp */

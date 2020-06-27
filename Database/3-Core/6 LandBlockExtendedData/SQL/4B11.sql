@@ -5,9 +5,9 @@ VALUES (0x74B11001,  1154, 0x4B110008, 0.526911, 173.4842, 20.45863, 0.8660254, 
 /* @teleloc 0x4B110008 [0.526911 173.484200 20.458630] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B11001, 0x74B11002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74B11001, 0x74B11003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74B11001, 0x74B11004, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x74B11001, 0x74B11002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74B11001, 0x74B11003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74B11001, 0x74B11004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B11002,  7982, 0x4B110008, 0.526911, 173.4842, 20.45863, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

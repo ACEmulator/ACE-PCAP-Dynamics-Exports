@@ -5,11 +5,11 @@ VALUES (0x77A98001,  1154, 0x7A98003B, 185.7293, 58.94254, 112.01, -0.9916301, 0
 /* @teleloc 0x7A98003B [185.729300 58.942540 112.010000] -0.991630 0.000000 0.000000 -0.129112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A98001, 0x77A98002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77A98001, 0x77A98003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77A98001, 0x77A98004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x77A98001, 0x77A98005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77A98001, 0x77A98006, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x77A98001, 0x77A98002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77A98001, 0x77A98003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77A98001, 0x77A98004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x77A98001, 0x77A98005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77A98001, 0x77A98006, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A98002, 11528, 0x7A98003B, 185.7293, 58.94254, 112.01, -0.9916301, 0, 0, -0.1291115,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

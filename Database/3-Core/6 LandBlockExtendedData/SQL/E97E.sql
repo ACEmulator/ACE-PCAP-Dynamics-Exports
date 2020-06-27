@@ -5,34 +5,34 @@ VALUES (0x7E97E001,  1154, 0xE97E0033, 144.1299, 71.69115, 4.10795, 0.9972098, 0
 /* @teleloc 0xE97E0033 [144.129900 71.691150 4.107950] 0.997210 0.000000 0.000000 -0.074650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E97E001, 0x7E97E002, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E97E001, 0x7E97E003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E004, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7E97E001, 0x7E97E006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E007, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E009, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E00A, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E00B, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E00C, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E00D, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E97E001, 0x7E97E00E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7E97E001, 0x7E97E00F, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E97E001, 0x7E97E010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E011, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E97E001, 0x7E97E012, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7E97E001, 0x7E97E013, '2019-02-10 00:00:00') /* Tuskie Gunner */
-     , (0x7E97E001, 0x7E97E014, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E015, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E016, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E017, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7E97E001, 0x7E97E018, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E97E001, 0x7E97E019, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E01A, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E01B, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E01C, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E97E001, 0x7E97E01D, '2019-02-10 00:00:00') /* Infected Assailer */;
+VALUES (0x7E97E001, 0x7E97E002, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7E97E001, 0x7E97E003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E004, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7E97E001, 0x7E97E006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E007, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E009, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E00A, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E00B, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E00C, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E00D, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E97E001, 0x7E97E00E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7E97E001, 0x7E97E00F, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7E97E001, 0x7E97E010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E011, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E97E001, 0x7E97E012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7E97E001, 0x7E97E013, '2019-02-10 00:00:00') /* Tuskie Gunner (22521) */
+     , (0x7E97E001, 0x7E97E014, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E015, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E016, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E017, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7E97E001, 0x7E97E018, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E97E001, 0x7E97E019, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E01A, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E01B, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E01C, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E97E001, 0x7E97E01D, '2019-02-10 00:00:00') /* Infected Assailer (27800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E97E002, 22514, 0xE97E0033, 144.1299, 71.69115, 4.10795, 0.9972098, 0, 0, -0.07465024,  True, '2019-02-10 00:00:00'); /* Tusker Sycophant */
@@ -151,8 +151,8 @@ VALUES (0x7E97E01E,  1542, 0xE97E0022, 109.3134, 45.2419, 4.921981, 0.1997402, 0
 /* @teleloc 0xE97E0022 [109.313400 45.241900 4.921981] 0.199740 0.000000 0.000000 -0.979849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E97E01E, 0x7E97E01F, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */
-     , (0x7E97E01E, 0x7E97E020, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */;
+VALUES (0x7E97E01E, 0x7E97E01F, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */
+     , (0x7E97E01E, 0x7E97E020, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E97E01F, 27803, 0xE97E0022, 109.3134, 45.2419, 4.921981, 0.1997402, 0, 0, -0.9798489,  True, '2019-02-10 00:00:00'); /* Infected Assailer Camp Generator */

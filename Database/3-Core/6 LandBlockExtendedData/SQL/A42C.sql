@@ -5,10 +5,10 @@ VALUES (0x7A42C001,  1154, 0xA42C0025, 116.8499, 107.8285, 135.4921, 0.4226182, 
 /* @teleloc 0xA42C0025 [116.849900 107.828500 135.492100] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A42C001, 0x7A42C002, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7A42C001, 0x7A42C003, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7A42C001, 0x7A42C004, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7A42C001, 0x7A42C005, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7A42C001, 0x7A42C002, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7A42C001, 0x7A42C003, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7A42C001, 0x7A42C004, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7A42C001, 0x7A42C005, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A42C002,  2572, 0xA42C0025, 116.8499, 107.8285, 135.4921, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* K'nath D'Nob */

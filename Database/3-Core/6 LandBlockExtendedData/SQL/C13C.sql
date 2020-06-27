@@ -5,9 +5,9 @@ VALUES (0x7C13C001,  1154, 0xC13C002C, 131.476, 93.18058, 46, 0.9877493, 0, 0, -
 /* @teleloc 0xC13C002C [131.476000 93.180580 46.000000] 0.987749 0.000000 0.000000 -0.156049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C13C001, 0x7C13C002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C13C001, 0x7C13C003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C13C001, 0x7C13C004, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7C13C001, 0x7C13C002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C13C001, 0x7C13C003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C13C001, 0x7C13C004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C13C002,  1989, 0xC13C002C, 131.476, 93.18058, 46, 0.9877493, 0, 0, -0.1560488,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

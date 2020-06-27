@@ -5,13 +5,13 @@ VALUES (0x746D2001,  1154, 0x46D20019, 86.14923, 10.60436, 20.04931, 0.9573157, 
 /* @teleloc 0x46D20019 [86.149230 10.604360 20.049310] 0.957316 0.000000 0.000000 -0.289044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746D2001, 0x746D2002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x746D2001, 0x746D2003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x746D2001, 0x746D2004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x746D2001, 0x746D2005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x746D2001, 0x746D2006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x746D2001, 0x746D2007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x746D2001, 0x746D2008, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x746D2001, 0x746D2002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x746D2001, 0x746D2003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x746D2001, 0x746D2004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x746D2001, 0x746D2005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x746D2001, 0x746D2006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x746D2001, 0x746D2007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x746D2001, 0x746D2008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746D2002, 10806, 0x46D20019, 86.14923, 10.60436, 20.04931, 0.9573157, 0, 0, -0.2890443,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

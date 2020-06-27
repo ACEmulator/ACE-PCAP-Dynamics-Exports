@@ -5,15 +5,15 @@ VALUES (0x7B734001,  1154, 0xB7340012, 68.92177, 26.62438, 151.44, 0.1536454, 0,
 /* @teleloc 0xB7340012 [68.921770 26.624380 151.440000] 0.153645 0.000000 0.000000 -0.988126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B734001, 0x7B734002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B734001, 0x7B734003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B734001, 0x7B734004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7B734001, 0x7B734005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B734001, 0x7B734006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B734001, 0x7B734007, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7B734001, 0x7B734008, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7B734001, 0x7B734009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B734001, 0x7B73400A, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B734001, 0x7B734002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B734001, 0x7B734003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B734001, 0x7B734004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7B734001, 0x7B734005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B734001, 0x7B734006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B734001, 0x7B734007, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7B734001, 0x7B734008, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7B734001, 0x7B734009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B734001, 0x7B73400A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B734002,   195, 0xB7340012, 68.92177, 26.62438, 151.44, 0.1536454, 0, 0, -0.988126,  True, '2019-02-10 00:00:00'); /* Granite Golem */

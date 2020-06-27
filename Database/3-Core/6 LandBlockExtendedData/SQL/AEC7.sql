@@ -9,19 +9,19 @@ VALUES (0x7AEC7001,  1154, 0xAEC70039, 189.7626, 16.37535, 124.6098, 0.7071068, 
 /* @teleloc 0xAEC70039 [189.762600 16.375350 124.609800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC7001, 0x7AEC7002, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7AEC7001, 0x7AEC7003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AEC7001, 0x7AEC7004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AEC7001, 0x7AEC7005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AEC7001, 0x7AEC7006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AEC7001, 0x7AEC7007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AEC7001, 0x7AEC7008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AEC7001, 0x7AEC7009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AEC7001, 0x7AEC700A, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AEC7001, 0x7AEC700B, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AEC7001, 0x7AEC700C, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AEC7001, 0x7AEC700D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7AEC7001, 0x7AEC700E, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7AEC7001, 0x7AEC7002, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7AEC7001, 0x7AEC7003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AEC7001, 0x7AEC7004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AEC7001, 0x7AEC7005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AEC7001, 0x7AEC7006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AEC7001, 0x7AEC7007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AEC7001, 0x7AEC7008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AEC7001, 0x7AEC7009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AEC7001, 0x7AEC700A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AEC7001, 0x7AEC700B, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AEC7001, 0x7AEC700C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AEC7001, 0x7AEC700D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7AEC7001, 0x7AEC700E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC7002,  2574, 0xAEC70039, 189.7626, 16.37535, 124.6098, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rough Monouga */
@@ -80,7 +80,7 @@ VALUES (0x7AEC700F,  1542, 0xAEC70039, 188.1281, 16.68895, 124.1001, 0.9238795, 
 /* @teleloc 0xAEC70039 [188.128100 16.688950 124.100100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC700F, 0x7AEC7010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AEC700F, 0x7AEC7010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC7010,  4380, 0xAEC70039, 188.1281, 16.68895, 124.1001, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

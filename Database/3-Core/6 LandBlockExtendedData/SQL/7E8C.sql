@@ -5,12 +5,12 @@ VALUES (0x77E8C001,  1154, 0x7E8C0019, 89.81852, 20.89766, 134.9808, -0.9940321,
 /* @teleloc 0x7E8C0019 [89.818520 20.897660 134.980800] -0.994032 0.000000 0.000000 -0.109088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E8C001, 0x77E8C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77E8C001, 0x77E8C003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x77E8C001, 0x77E8C004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x77E8C001, 0x77E8C005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77E8C001, 0x77E8C006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77E8C001, 0x77E8C007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x77E8C001, 0x77E8C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77E8C001, 0x77E8C003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x77E8C001, 0x77E8C004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x77E8C001, 0x77E8C005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77E8C001, 0x77E8C006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77E8C001, 0x77E8C007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E8C002,   217, 0x7E8C0019, 89.81852, 20.89766, 134.9808, -0.9940321, 0, 0, -0.1090882,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

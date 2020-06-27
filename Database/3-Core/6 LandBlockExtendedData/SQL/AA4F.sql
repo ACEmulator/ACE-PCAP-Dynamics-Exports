@@ -9,28 +9,28 @@ VALUES (0x7AA4F007,  1154, 0xAA4F001D, 84.58516, 105.922, 35.05526, -4.371139E-0
 /* @teleloc 0xAA4F001D [84.585160 105.922000 35.055260] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA4F007, 0x7AA4F008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7AA4F007, 0x7AA4F009, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7AA4F007, 0x7AA4F00A, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7AA4F007, 0x7AA4F00B, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x7AA4F007, 0x7AA4F00C, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7AA4F007, 0x7AA4F00D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AA4F007, 0x7AA4F00E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AA4F007, 0x7AA4F00F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA4F007, 0x7AA4F010, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AA4F007, 0x7AA4F011, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7AA4F007, 0x7AA4F012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AA4F007, 0x7AA4F013, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AA4F007, 0x7AA4F014, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AA4F007, 0x7AA4F015, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA4F007, 0x7AA4F016, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA4F007, 0x7AA4F017, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AA4F007, 0x7AA4F018, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AA4F007, 0x7AA4F019, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA4F007, 0x7AA4F01A, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AA4F007, 0x7AA4F01B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AA4F007, 0x7AA4F01C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA4F007, 0x7AA4F01D, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7AA4F007, 0x7AA4F008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7AA4F007, 0x7AA4F009, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7AA4F007, 0x7AA4F00A, '2019-02-10 00:00:00') /* Exploration Marker (39803) */
+     , (0x7AA4F007, 0x7AA4F00B, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x7AA4F007, 0x7AA4F00C, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7AA4F007, 0x7AA4F00D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AA4F007, 0x7AA4F00E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AA4F007, 0x7AA4F00F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA4F007, 0x7AA4F010, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AA4F007, 0x7AA4F011, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7AA4F007, 0x7AA4F012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AA4F007, 0x7AA4F013, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AA4F007, 0x7AA4F014, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AA4F007, 0x7AA4F015, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA4F007, 0x7AA4F016, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA4F007, 0x7AA4F017, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AA4F007, 0x7AA4F018, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AA4F007, 0x7AA4F019, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA4F007, 0x7AA4F01A, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AA4F007, 0x7AA4F01B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AA4F007, 0x7AA4F01C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA4F007, 0x7AA4F01D, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA4F008, 21170, 0xAA4F001D, 84.58516, 105.922, 35.05526, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Voltarc */
@@ -125,7 +125,7 @@ VALUES (0x7AA4F01E,  1542, 0xAA4F0022, 108.3082, 31.80065, 40.01752, 1, 0, 0, 0,
 /* @teleloc 0xAA4F0022 [108.308200 31.800650 40.017520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA4F01E, 0x7AA4F01F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AA4F01E, 0x7AA4F01F, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA4F01F, 22576, 0xAA4F0022, 108.3082, 31.80065, 40.01752, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,11 +5,11 @@ VALUES (0x70C5F001,  1154, 0x0C5F0035, 165.4792, 105.6388, -0.46875, 0.7372774, 
 /* @teleloc 0x0C5F0035 [165.479200 105.638800 -0.468750] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C5F001, 0x70C5F002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C5F001, 0x70C5F003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70C5F001, 0x70C5F004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70C5F001, 0x70C5F005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C5F001, 0x70C5F006, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x70C5F001, 0x70C5F002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C5F001, 0x70C5F003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70C5F001, 0x70C5F004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70C5F001, 0x70C5F005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C5F001, 0x70C5F006, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C5F002,  7114, 0x0C5F0035, 165.4792, 105.6388, -0.46875, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

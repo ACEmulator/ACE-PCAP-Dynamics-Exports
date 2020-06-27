@@ -5,20 +5,20 @@ VALUES (0x71974001,  1154, 0x19740016, 71.06577, 121.4938, 209.6086, -0.9915514,
 /* @teleloc 0x19740016 [71.065770 121.493800 209.608600] -0.991551 0.000000 0.000000 -0.129714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71974001, 0x71974002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71974001, 0x71974003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71974001, 0x71974004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71974001, 0x71974005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71974001, 0x71974006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71974001, 0x71974007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71974001, 0x71974008, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71974001, 0x71974009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71974001, 0x7197400A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71974001, 0x7197400B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71974001, 0x7197400C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71974001, 0x7197400D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71974001, 0x7197400E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71974001, 0x7197400F, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x71974001, 0x71974002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71974001, 0x71974003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71974001, 0x71974004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71974001, 0x71974005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71974001, 0x71974006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71974001, 0x71974007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71974001, 0x71974008, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71974001, 0x71974009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71974001, 0x7197400A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71974001, 0x7197400B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71974001, 0x7197400C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71974001, 0x7197400D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71974001, 0x7197400E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71974001, 0x7197400F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71974002,  7981, 0x19740016, 71.06577, 121.4938, 209.6086, -0.9915514, 0, 0, -0.1297143,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
@@ -81,7 +81,7 @@ VALUES (0x71974010,  1542, 0x1974001E, 72.67665, 122.6153, 210.2819, 1, 0, 0, 0,
 /* @teleloc 0x1974001E [72.676650 122.615300 210.281900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71974010, 0x71974011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71974010, 0x71974011, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71974011, 22566, 0x1974001E, 72.67665, 122.6153, 210.2819, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7AFB3001,  1154, 0xAFB3001F, 79.20505, 148.5978, 44.13751, 0.9812796, 
 /* @teleloc 0xAFB3001F [79.205050 148.597800 44.137510] 0.981280 0.000000 0.000000 -0.192589 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB3001, 0x7AFB3002, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7AFB3001, 0x7AFB3003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7AFB3001, 0x7AFB3004, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7AFB3001, 0x7AFB3002, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7AFB3001, 0x7AFB3003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7AFB3001, 0x7AFB3004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB3002, 19260, 0xAFB3001F, 79.20505, 148.5978, 44.13751, 0.9812796, 0, 0, -0.1925887,  True, '2019-02-10 00:00:00'); /* Mite Snippet */

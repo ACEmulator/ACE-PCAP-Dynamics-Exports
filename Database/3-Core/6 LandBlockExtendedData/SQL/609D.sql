@@ -5,10 +5,10 @@ VALUES (0x7609D001,  1154, 0x609D0004, 10.81055, 76.22589, 30.55865, -0.2654627,
 /* @teleloc 0x609D0004 [10.810550 76.225890 30.558650] -0.265463 0.000000 0.000000 -0.964121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7609D001, 0x7609D002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7609D001, 0x7609D003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7609D001, 0x7609D004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7609D001, 0x7609D005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7609D001, 0x7609D002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7609D001, 0x7609D003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7609D001, 0x7609D004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7609D001, 0x7609D005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7609D002,  4217, 0x609D0004, 10.81055, 76.22589, 30.55865, -0.2654627, 0, 0, -0.9641211,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

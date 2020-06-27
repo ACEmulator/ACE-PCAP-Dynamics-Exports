@@ -5,13 +5,13 @@ VALUES (0x74048001,  1154, 0x40480002, 13.45218, 37.43969, 19.76151, 0.2588191, 
 /* @teleloc 0x40480002 [13.452180 37.439690 19.761510] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74048001, 0x74048002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74048001, 0x74048003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74048001, 0x74048004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74048001, 0x74048005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74048001, 0x74048006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74048001, 0x74048007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74048001, 0x74048008, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x74048001, 0x74048002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74048001, 0x74048003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74048001, 0x74048004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74048001, 0x74048005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74048001, 0x74048006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74048001, 0x74048007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74048001, 0x74048008, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74048002, 36859, 0x40480002, 13.45218, 37.43969, 19.76151, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

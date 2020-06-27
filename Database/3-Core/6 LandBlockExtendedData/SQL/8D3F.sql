@@ -5,13 +5,13 @@ VALUES (0x78D3F001,  1154, 0x8D3F003D, 174.9007, 111.519, 11.29575, -0.2808196, 
 /* @teleloc 0x8D3F003D [174.900700 111.519000 11.295750] -0.280820 0.000000 0.000000 -0.959761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D3F001, 0x78D3F002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x78D3F001, 0x78D3F003, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x78D3F001, 0x78D3F004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78D3F001, 0x78D3F005, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x78D3F001, 0x78D3F006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78D3F001, 0x78D3F007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78D3F001, 0x78D3F008, '2019-02-10 00:00:00') /* Marionette */;
+VALUES (0x78D3F001, 0x78D3F002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x78D3F001, 0x78D3F003, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x78D3F001, 0x78D3F004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78D3F001, 0x78D3F005, '2019-02-10 00:00:00') /* Broken Doll (10774) */
+     , (0x78D3F001, 0x78D3F006, '2019-02-10 00:00:00') /* Battered Doll (10769) */
+     , (0x78D3F001, 0x78D3F007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78D3F001, 0x78D3F008, '2019-02-10 00:00:00') /* Marionette (9249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D3F002, 38179, 0x8D3F003D, 174.9007, 111.519, 11.29575, -0.2808196, 0, 0, -0.9597605,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

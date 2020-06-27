@@ -5,10 +5,10 @@ VALUES (0x71C24001,  1154, 0x1C240006, 4.311578, 122.5895, 0.007000029, -0.47454
 /* @teleloc 0x1C240006 [4.311578 122.589500 0.007000] -0.474543 0.000000 0.000000 -0.880232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C24001, 0x71C24002, '2019-02-10 00:00:00') /* Scoriscant */
-     , (0x71C24001, 0x71C24003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71C24001, 0x71C24004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71C24001, 0x71C24005, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x71C24001, 0x71C24002, '2019-02-10 00:00:00') /* Scoriscant (19540) */
+     , (0x71C24001, 0x71C24003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71C24001, 0x71C24004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71C24001, 0x71C24005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C24002, 19540, 0x1C240006, 4.311578, 122.5895, 0.007000029, -0.4745432, 0, 0, -0.8802322,  True, '2019-02-10 00:00:00'); /* Scoriscant */
@@ -31,7 +31,7 @@ VALUES (0x71C24006,  1542, 0x1C24000D, 46.06957, 106.6011, 5.074502, -4.371139E-
 /* @teleloc 0x1C24000D [46.069570 106.601100 5.074502] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C24006, 0x71C24007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C24006, 0x71C24007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C24007,  4380, 0x1C24000D, 46.06957, 106.6011, 5.074502, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

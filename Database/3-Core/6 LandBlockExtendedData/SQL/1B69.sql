@@ -5,10 +5,10 @@ VALUES (0x71B69001,  1154, 0x1B690023, 101.9162, 55.76397, 38.23816, 1, 0, 0, 0,
 /* @teleloc 0x1B690023 [101.916200 55.763970 38.238160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B69001, 0x71B69002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B69001, 0x71B69003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B69001, 0x71B69004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B69001, 0x71B69005, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x71B69001, 0x71B69002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B69001, 0x71B69003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B69001, 0x71B69004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B69001, 0x71B69005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B69002, 23566, 0x1B690023, 101.9162, 55.76397, 38.23816, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -31,7 +31,7 @@ VALUES (0x71B69006,  1542, 0x1B690023, 99.74008, 53.90456, 34.47801, 1, 0, 0, 0,
 /* @teleloc 0x1B690023 [99.740080 53.904560 34.478010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B69006, 0x71B69007, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71B69006, 0x71B69007, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B69007, 31445, 0x1B690023, 99.74008, 53.90456, 34.47801, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

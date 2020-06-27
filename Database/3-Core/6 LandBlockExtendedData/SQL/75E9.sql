@@ -5,16 +5,16 @@ VALUES (0x775E9001,  1154, 0x75E90014, 64.19312, 79.45873, 177.4826, 0.1177228, 
 /* @teleloc 0x75E90014 [64.193120 79.458730 177.482600] 0.117723 0.000000 0.000000 -0.993047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775E9001, 0x775E9002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x775E9001, 0x775E9003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x775E9001, 0x775E9004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x775E9001, 0x775E9005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775E9001, 0x775E9006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775E9001, 0x775E9007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x775E9001, 0x775E9008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x775E9001, 0x775E9009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775E9001, 0x775E900A, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x775E9001, 0x775E900B, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x775E9001, 0x775E9002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x775E9001, 0x775E9003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x775E9001, 0x775E9004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x775E9001, 0x775E9005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x775E9001, 0x775E9006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x775E9001, 0x775E9007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x775E9001, 0x775E9008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x775E9001, 0x775E9009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x775E9001, 0x775E900A, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x775E9001, 0x775E900B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775E9002,  7981, 0x75E90014, 64.19312, 79.45873, 177.4826, 0.1177228, 0, 0, -0.9930465,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */

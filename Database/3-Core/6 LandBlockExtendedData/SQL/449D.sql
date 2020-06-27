@@ -5,13 +5,13 @@ VALUES (0x7449D001,  1154, 0x449D0029, 127.5024, 1.042313, 46.75559, -0.999864, 
 /* @teleloc 0x449D0029 [127.502400 1.042313 46.755590] -0.999864 0.000000 0.000000 -0.016493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7449D001, 0x7449D002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7449D001, 0x7449D003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7449D001, 0x7449D004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7449D001, 0x7449D005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7449D001, 0x7449D006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7449D001, 0x7449D007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7449D001, 0x7449D008, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7449D001, 0x7449D002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7449D001, 0x7449D003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7449D001, 0x7449D004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7449D001, 0x7449D005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7449D001, 0x7449D006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7449D001, 0x7449D007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7449D001, 0x7449D008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7449D002,   227, 0x449D0029, 127.5024, 1.042313, 46.75559, -0.999864, 0, 0, -0.01649296,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

@@ -5,11 +5,11 @@ VALUES (0x7728F001,  1154, 0x728F0016, 50.42035, 123.9802, 171.6648, -0.8462613,
 /* @teleloc 0x728F0016 [50.420350 123.980200 171.664800] -0.846261 0.000000 0.000000 -0.532768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7728F001, 0x7728F002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7728F001, 0x7728F003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7728F001, 0x7728F004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7728F001, 0x7728F005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7728F001, 0x7728F006, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7728F001, 0x7728F002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7728F001, 0x7728F003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7728F001, 0x7728F004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7728F001, 0x7728F005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7728F001, 0x7728F006, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7728F002,     3, 0x728F0016, 50.42035, 123.9802, 171.6648, -0.8462613, 0, 0, -0.532768,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -36,8 +36,8 @@ VALUES (0x7728F007,  1542, 0x728F0016, 63.58428, 134.451, 162.6896, 1, 0, 0, 0, 
 /* @teleloc 0x728F0016 [63.584280 134.451000 162.689600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7728F007, 0x7728F008, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7728F007, 0x7728F009, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7728F007, 0x7728F008, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7728F007, 0x7728F009, '2019-02-10 00:00:00') /* Old Gravestone (34132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7728F008, 22576, 0x728F0016, 63.58428, 134.451, 162.6896, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

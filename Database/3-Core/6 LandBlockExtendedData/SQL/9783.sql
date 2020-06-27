@@ -5,10 +5,10 @@ VALUES (0x79783001,  1154, 0x97830009, 45.88789, 10.47612, 30.07656, -0.8129438,
 /* @teleloc 0x97830009 [45.887890 10.476120 30.076560] -0.812944 0.000000 0.000000 -0.582342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79783001, 0x79783002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79783001, 0x79783003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79783001, 0x79783004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79783001, 0x79783005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79783001, 0x79783002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79783001, 0x79783003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79783001, 0x79783004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79783001, 0x79783005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79783002,  7345, 0x97830009, 45.88789, 10.47612, 30.07656, -0.8129438, 0, 0, -0.5823421,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

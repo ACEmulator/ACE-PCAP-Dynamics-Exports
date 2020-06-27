@@ -5,22 +5,22 @@ VALUES (0x710BE001,  1154, 0x10BE0011, 61.35074, 13.29128, 4.006, 0.9105691, 0, 
 /* @teleloc 0x10BE0011 [61.350740 13.291280 4.006000] 0.910569 0.000000 0.000000 -0.413357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x710BE001, 0x710BE002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x710BE001, 0x710BE003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x710BE001, 0x710BE004, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x710BE001, 0x710BE005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x710BE001, 0x710BE006, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x710BE001, 0x710BE007, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x710BE001, 0x710BE008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x710BE001, 0x710BE009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BE001, 0x710BE00A, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BE001, 0x710BE00B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x710BE001, 0x710BE00C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x710BE001, 0x710BE00D, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x710BE001, 0x710BE00E, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x710BE001, 0x710BE00F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x710BE001, 0x710BE010, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BE001, 0x710BE011, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x710BE001, 0x710BE002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x710BE001, 0x710BE003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x710BE001, 0x710BE004, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x710BE001, 0x710BE005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x710BE001, 0x710BE006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x710BE001, 0x710BE007, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x710BE001, 0x710BE008, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x710BE001, 0x710BE009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BE001, 0x710BE00A, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BE001, 0x710BE00B, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x710BE001, 0x710BE00C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x710BE001, 0x710BE00D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x710BE001, 0x710BE00E, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x710BE001, 0x710BE00F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x710BE001, 0x710BE010, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BE001, 0x710BE011, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x710BE002, 11519, 0x10BE0011, 61.35074, 13.29128, 4.006, 0.9105691, 0, 0, -0.4133569,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */

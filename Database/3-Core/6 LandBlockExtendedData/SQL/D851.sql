@@ -5,14 +5,14 @@ VALUES (0x7D851001,  1154, 0xD8510031, 149.8122, 18.82007, 34.47685, -0.9888406,
 /* @teleloc 0xD8510031 [149.812200 18.820070 34.476850] -0.988841 0.000000 0.000000 -0.148977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D851001, 0x7D851002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D851001, 0x7D851003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D851001, 0x7D851004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D851001, 0x7D851005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7D851001, 0x7D851006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D851001, 0x7D851007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D851001, 0x7D851008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D851001, 0x7D851009, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D851001, 0x7D851002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D851001, 0x7D851003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D851001, 0x7D851004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D851001, 0x7D851005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7D851001, 0x7D851006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D851001, 0x7D851007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D851001, 0x7D851008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D851001, 0x7D851009, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D851002,  2612, 0xD8510031, 149.8122, 18.82007, 34.47685, -0.9888406, 0, 0, -0.1489772,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

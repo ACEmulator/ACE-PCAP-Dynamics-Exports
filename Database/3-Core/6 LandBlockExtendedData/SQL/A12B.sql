@@ -5,15 +5,15 @@ VALUES (0x7A12B001,  1154, 0xA12B003D, 180.834, 116.027, 143.8613, 0.5083818, 0,
 /* @teleloc 0xA12B003D [180.834000 116.027000 143.861300] 0.508382 0.000000 0.000000 -0.861132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A12B001, 0x7A12B002, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A12B001, 0x7A12B003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A12B001, 0x7A12B004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A12B001, 0x7A12B005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A12B001, 0x7A12B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A12B001, 0x7A12B007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A12B001, 0x7A12B008, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A12B001, 0x7A12B009, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A12B001, 0x7A12B00A, '2019-02-10 00:00:00') /* Gotrok Amploth */;
+VALUES (0x7A12B001, 0x7A12B002, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A12B001, 0x7A12B003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A12B001, 0x7A12B004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A12B001, 0x7A12B005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A12B001, 0x7A12B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A12B001, 0x7A12B007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A12B001, 0x7A12B008, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A12B001, 0x7A12B009, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A12B001, 0x7A12B00A, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A12B002, 24939, 0xA12B003D, 180.834, 116.027, 143.8613, 0.5083818, 0, 0, -0.8611317,  True, '2019-02-10 00:00:00'); /* Gotrok Amploth */

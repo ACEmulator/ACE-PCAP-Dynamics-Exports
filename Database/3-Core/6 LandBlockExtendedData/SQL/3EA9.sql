@@ -5,15 +5,15 @@ VALUES (0x73EA9001,  1154, 0x3EA9000C, 44.88846, 85.60822, 1.748205, 0.9238795, 
 /* @teleloc 0x3EA9000C [44.888460 85.608220 1.748205] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA9001, 0x73EA9002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA9001, 0x73EA9003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA9001, 0x73EA9004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x73EA9001, 0x73EA9005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73EA9001, 0x73EA9006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73EA9001, 0x73EA9007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73EA9001, 0x73EA9008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EA9001, 0x73EA9009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73EA9001, 0x73EA900A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x73EA9001, 0x73EA9002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA9001, 0x73EA9003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA9001, 0x73EA9004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x73EA9001, 0x73EA9005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73EA9001, 0x73EA9006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73EA9001, 0x73EA9007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73EA9001, 0x73EA9008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EA9001, 0x73EA9009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73EA9001, 0x73EA900A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA9002,  7123, 0x3EA9000C, 44.88846, 85.60822, 1.748205, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -56,7 +56,7 @@ VALUES (0x73EA900B,  1542, 0x3EA9000C, 46.67856, 83.96033, 2.458267, 0.9238795, 
 /* @teleloc 0x3EA9000C [46.678560 83.960330 2.458267] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA900B, 0x73EA900C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x73EA900B, 0x73EA900C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA900C,  4180, 0x3EA9000C, 46.67856, 83.96033, 2.458267, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

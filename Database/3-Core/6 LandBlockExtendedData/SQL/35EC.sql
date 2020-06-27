@@ -5,20 +5,20 @@ VALUES (0x735EC001,  1154, 0x35EC0040, 182.7859, 171.4594, 94.88302, -0.8442452,
 /* @teleloc 0x35EC0040 [182.785900 171.459400 94.883020] -0.844245 0.000000 0.000000 -0.535957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735EC001, 0x735EC002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735EC001, 0x735EC003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x735EC001, 0x735EC004, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EC001, 0x735EC005, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EC001, 0x735EC006, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EC001, 0x735EC007, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EC001, 0x735EC008, '2019-02-10 00:00:00') /* Kroktok Lugian */
-     , (0x735EC001, 0x735EC009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x735EC001, 0x735EC00A, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x735EC001, 0x735EC00B, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EC001, 0x735EC00C, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EC001, 0x735EC00D, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735EC001, 0x735EC00E, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EC001, 0x735EC00F, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x735EC001, 0x735EC002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735EC001, 0x735EC003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x735EC001, 0x735EC004, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EC001, 0x735EC005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EC001, 0x735EC006, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EC001, 0x735EC007, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EC001, 0x735EC008, '2019-02-10 00:00:00') /* Kroktok Lugian (29349) */
+     , (0x735EC001, 0x735EC009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x735EC001, 0x735EC00A, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x735EC001, 0x735EC00B, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EC001, 0x735EC00C, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EC001, 0x735EC00D, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735EC001, 0x735EC00E, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EC001, 0x735EC00F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EC002, 28657, 0x35EC0040, 182.7859, 171.4594, 94.88302, -0.8442452, 0, 0, -0.5359572,  True, '2019-02-10 00:00:00'); /* Viamontian Man-at-Arms */

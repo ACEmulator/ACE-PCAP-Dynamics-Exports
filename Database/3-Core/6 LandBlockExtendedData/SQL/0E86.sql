@@ -5,15 +5,15 @@ VALUES (0x70E86001,  1154, 0x0E860011, 71.57368, 13.79451, 33.94572, 0.6293204, 
 /* @teleloc 0x0E860011 [71.573680 13.794510 33.945720] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E86001, 0x70E86002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E86001, 0x70E86003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E86001, 0x70E86004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E86001, 0x70E86005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x70E86001, 0x70E86006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70E86001, 0x70E86007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E86001, 0x70E86008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E86001, 0x70E86009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70E86001, 0x70E8600A, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70E86001, 0x70E86002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E86001, 0x70E86003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E86001, 0x70E86004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E86001, 0x70E86005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x70E86001, 0x70E86006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70E86001, 0x70E86007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E86001, 0x70E86008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E86001, 0x70E86009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70E86001, 0x70E8600A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E86002,  7114, 0x0E860011, 71.57368, 13.79451, 33.94572, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -56,7 +56,7 @@ VALUES (0x70E8600B,  1542, 0x0E860004, 4.452741, 81.42789, 34, -4.371139E-08, 0,
 /* @teleloc 0x0E860004 [4.452741 81.427890 34.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E8600B, 0x70E8600C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70E8600B, 0x70E8600C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E8600C,  4380, 0x0E860004, 4.452741, 81.42789, 34, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,12 +5,12 @@ VALUES (0x7D24B001,  1154, 0xD24B0031, 166.8696, 7.830561, 40.57135, -0.1623972,
 /* @teleloc 0xD24B0031 [166.869600 7.830561 40.571350] -0.162397 0.000000 0.000000 -0.986725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D24B001, 0x7D24B002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D24B001, 0x7D24B003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D24B001, 0x7D24B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D24B001, 0x7D24B005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7D24B001, 0x7D24B006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D24B001, 0x7D24B007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7D24B001, 0x7D24B002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D24B001, 0x7D24B003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D24B001, 0x7D24B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D24B001, 0x7D24B005, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7D24B001, 0x7D24B006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D24B001, 0x7D24B007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D24B002,   217, 0xD24B0031, 166.8696, 7.830561, 40.57135, -0.1623972, 0, 0, -0.9867254,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

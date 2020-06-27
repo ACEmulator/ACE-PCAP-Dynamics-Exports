@@ -5,15 +5,15 @@ VALUES (0x7CB2D001,  1154, 0xCB2D0007, 17.84968, 161.0771, 169.4915, -0.2852899,
 /* @teleloc 0xCB2D0007 [17.849680 161.077100 169.491500] -0.285290 0.000000 0.000000 -0.958441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB2D001, 0x7CB2D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CB2D001, 0x7CB2D003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CB2D001, 0x7CB2D004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CB2D001, 0x7CB2D005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CB2D001, 0x7CB2D006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CB2D001, 0x7CB2D007, '2019-02-10 00:00:00') /* Ember */
-     , (0x7CB2D001, 0x7CB2D008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CB2D001, 0x7CB2D009, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CB2D001, 0x7CB2D00A, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7CB2D001, 0x7CB2D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CB2D001, 0x7CB2D003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CB2D001, 0x7CB2D004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CB2D001, 0x7CB2D005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CB2D001, 0x7CB2D006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CB2D001, 0x7CB2D007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7CB2D001, 0x7CB2D008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CB2D001, 0x7CB2D009, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CB2D001, 0x7CB2D00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB2D002,  4254, 0xCB2D0007, 17.84968, 161.0771, 169.4915, -0.2852899, 0, 0, -0.9584413,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

@@ -5,10 +5,10 @@ VALUES (0x71773001,  1154, 0x17730034, 157.0765, 77.73858, 131.6033, 0.5788557, 
 /* @teleloc 0x17730034 [157.076500 77.738580 131.603300] 0.578856 0.000000 0.000000 -0.815430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71773001, 0x71773002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71773001, 0x71773003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71773001, 0x71773004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71773001, 0x71773005, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x71773001, 0x71773002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71773001, 0x71773003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71773001, 0x71773004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71773001, 0x71773005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71773002,  7981, 0x17730034, 157.0765, 77.73858, 131.6033, 0.5788557, 0, 0, -0.81543,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
@@ -31,7 +31,7 @@ VALUES (0x71773006,  1542, 0x17730036, 148.1355, 127.8799, 106.7277, 0.9955091, 
 /* @teleloc 0x17730036 [148.135500 127.879900 106.727700] 0.995509 0.000000 0.000000 -0.094666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71773006, 0x71773007, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x71773006, 0x71773007, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71773007, 31688, 0x17730036, 148.1355, 127.8799, 106.7277, 0.9955091, 0, 0, -0.09466597,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

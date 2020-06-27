@@ -5,21 +5,21 @@ VALUES (0x7DABD001,  1154, 0xDABD0017, 71.40756, 155.0275, 2.04547, 0.8725416, 0
 /* @teleloc 0xDABD0017 [71.407560 155.027500 2.045470] 0.872542 0.000000 0.000000 -0.488540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DABD001, 0x7DABD002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DABD001, 0x7DABD003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DABD001, 0x7DABD004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DABD001, 0x7DABD005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DABD001, 0x7DABD006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DABD001, 0x7DABD007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DABD001, 0x7DABD008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DABD001, 0x7DABD009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DABD001, 0x7DABD00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DABD001, 0x7DABD00B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DABD001, 0x7DABD00C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DABD001, 0x7DABD00D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DABD001, 0x7DABD00E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DABD001, 0x7DABD00F, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DABD001, 0x7DABD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7DABD001, 0x7DABD002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DABD001, 0x7DABD003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DABD001, 0x7DABD004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DABD001, 0x7DABD005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DABD001, 0x7DABD006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DABD001, 0x7DABD007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DABD001, 0x7DABD008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DABD001, 0x7DABD009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DABD001, 0x7DABD00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DABD001, 0x7DABD00B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DABD001, 0x7DABD00C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DABD001, 0x7DABD00D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DABD001, 0x7DABD00E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DABD001, 0x7DABD00F, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DABD001, 0x7DABD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DABD002, 24959, 0xDABD0017, 71.40756, 155.0275, 2.04547, 0.8725416, 0, 0, -0.4885398,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

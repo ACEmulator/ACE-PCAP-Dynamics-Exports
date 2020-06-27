@@ -5,20 +5,20 @@ VALUES (0x777C1001,  1154, 0x77C10007, 19.19888, 166.8974, 201.4879, -0.4507972,
 /* @teleloc 0x77C10007 [19.198880 166.897400 201.487900] -0.450797 0.000000 0.000000 -0.892626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C1001, 0x777C1002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x777C1001, 0x777C1003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x777C1001, 0x777C1004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C1001, 0x777C1005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x777C1001, 0x777C1006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C1001, 0x777C1007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C1001, 0x777C1008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x777C1001, 0x777C1009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C1001, 0x777C100A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x777C1001, 0x777C100B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777C1001, 0x777C100C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777C1001, 0x777C100D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777C1001, 0x777C100E, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x777C1001, 0x777C100F, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x777C1001, 0x777C1002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x777C1001, 0x777C1003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x777C1001, 0x777C1004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C1001, 0x777C1005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x777C1001, 0x777C1006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C1001, 0x777C1007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C1001, 0x777C1008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x777C1001, 0x777C1009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C1001, 0x777C100A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x777C1001, 0x777C100B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777C1001, 0x777C100C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777C1001, 0x777C100D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777C1001, 0x777C100E, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x777C1001, 0x777C100F, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C1002, 36833, 0x77C10007, 19.19888, 166.8974, 201.4879, -0.4507972, 0, 0, -0.8926264,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -81,8 +81,8 @@ VALUES (0x777C1010,  1542, 0x77C10010, 26.08209, 180.3624, 202.0185, 1, 0, 0, 0,
 /* @teleloc 0x77C10010 [26.082090 180.362400 202.018500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C1010, 0x777C1011, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x777C1010, 0x777C1012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x777C1010, 0x777C1011, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x777C1010, 0x777C1012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C1011,  8646, 0x77C10010, 26.08209, 180.3624, 202.0185, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

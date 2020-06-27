@@ -5,14 +5,14 @@ VALUES (0x7937D001,  1154, 0x937D0022, 115.3726, 44.77718, 31.991, -0.830434, 0,
 /* @teleloc 0x937D0022 [115.372600 44.777180 31.991000] -0.830434 0.000000 0.000000 -0.557117 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937D001, 0x7937D002, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7937D001, 0x7937D003, '2019-02-10 00:00:00') /* Lich */
-     , (0x7937D001, 0x7937D004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937D001, 0x7937D005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937D001, 0x7937D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7937D001, 0x7937D007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7937D001, 0x7937D008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7937D001, 0x7937D009, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7937D001, 0x7937D002, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7937D001, 0x7937D003, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7937D001, 0x7937D004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937D001, 0x7937D005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937D001, 0x7937D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7937D001, 0x7937D007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7937D001, 0x7937D008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7937D001, 0x7937D009, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937D002,  2574, 0x937D0022, 115.3726, 44.77718, 31.991, -0.830434, 0, 0, -0.557117,  True, '2019-02-10 00:00:00'); /* Rough Monouga */

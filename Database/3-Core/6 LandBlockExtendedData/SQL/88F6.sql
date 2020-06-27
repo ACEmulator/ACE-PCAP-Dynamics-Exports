@@ -5,9 +5,9 @@ VALUES (0x788F6001,  1154, 0x88F60005, 20.75821, 112.2058, 20.00825, 0.6732554, 
 /* @teleloc 0x88F60005 [20.758210 112.205800 20.008250] 0.673255 0.000000 0.000000 -0.739410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788F6001, 0x788F6002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x788F6001, 0x788F6003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x788F6001, 0x788F6004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x788F6001, 0x788F6002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x788F6001, 0x788F6003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x788F6001, 0x788F6004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788F6002, 24319, 0x88F60005, 20.75821, 112.2058, 20.00825, 0.6732554, 0, 0, -0.73941,  True, '2019-02-10 00:00:00'); /* Dark Master */

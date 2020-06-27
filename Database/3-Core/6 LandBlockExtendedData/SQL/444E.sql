@@ -5,14 +5,14 @@ VALUES (0x7444E001,  1154, 0x444E003B, 185.6422, 60.06234, -0.09175003, 0.825275
 /* @teleloc 0x444E003B [185.642200 60.062340 -0.091750] 0.825276 0.000000 0.000000 -0.564730 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7444E001, 0x7444E002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7444E001, 0x7444E003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7444E001, 0x7444E004, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7444E001, 0x7444E005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7444E001, 0x7444E006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7444E001, 0x7444E007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7444E001, 0x7444E008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7444E001, 0x7444E009, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x7444E001, 0x7444E002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7444E001, 0x7444E003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7444E001, 0x7444E004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7444E001, 0x7444E005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7444E001, 0x7444E006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7444E001, 0x7444E007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7444E001, 0x7444E008, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7444E001, 0x7444E009, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7444E002, 24320, 0x444E003B, 185.6422, 60.06234, -0.09175003, 0.8252758, 0, 0, -0.5647299,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -51,9 +51,9 @@ VALUES (0x7444E00A,  1542, 0x444E0022, 113.6152, 38.14854, 3.72529E-08, 0.999048
 /* @teleloc 0x444E0022 [113.615200 38.148540 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7444E00A, 0x7444E00B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7444E00A, 0x7444E00C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7444E00A, 0x7444E00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7444E00A, 0x7444E00B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7444E00A, 0x7444E00C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7444E00A, 0x7444E00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7444E00B,  4179, 0x444E0022, 113.6152, 38.14854, 3.72529E-08, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

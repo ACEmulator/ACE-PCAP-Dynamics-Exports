@@ -197,93 +197,93 @@ VALUES (0x701360AE,  1154, 0x013602B8, 47.3171, -103.671, 0.006600022, 0.7523227
 /* @teleloc 0x013602B8 [47.317100 -103.671000 0.006600] 0.752323 0.000000 0.000000 0.658795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701360AE, 0x701360AF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B4, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B5, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B7, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B8, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360B9, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BB, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BC, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BD, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BE, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360BF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C4, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C5, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C7, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C8, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360C9, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360CA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360CB, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360CC, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360CD, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360CE, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360CF, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D0, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360D2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360D3, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D4, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D5, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D6, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D7, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D8, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360D9, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DA, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DB, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DC, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DD, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DE, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360DF, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E0, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E1, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E2, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E3, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E4, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E5, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E6, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E7, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E8, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360E9, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360EA, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360EB, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360EC, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360ED, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360EE, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360EF, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F0, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F1, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F2, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F3, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F4, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F5, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F6, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F7, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F8, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360F9, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360FA, '2019-02-10 00:00:00') /* Siessa Sclavus */
-     , (0x701360AE, 0x701360FB, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360FC, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360FD, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360FE, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x701360FF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136100, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136101, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136102, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136103, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136104, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x701360AE, 0x70136105, '2019-02-10 00:00:00') /* Enthralled Zealot */;
+VALUES (0x701360AE, 0x701360AF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B4, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B5, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B7, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B8, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360B9, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BB, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BC, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BD, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BE, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360BF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C4, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C5, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C7, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C8, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360C9, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360CA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360CB, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360CC, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360CD, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360CE, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360CF, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D0, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360D2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360D3, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D4, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D5, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D6, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D7, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D8, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360D9, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DA, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DB, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DC, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DD, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DE, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360DF, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E0, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E1, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E2, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E3, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E4, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E5, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E6, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E7, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E8, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360E9, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360EA, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360EB, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360EC, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360ED, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360EE, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360EF, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F0, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F1, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F2, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F3, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F4, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F5, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F6, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F7, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F8, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360F9, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360FA, '2019-02-10 00:00:00') /* Siessa Sclavus (34045) */
+     , (0x701360AE, 0x701360FB, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360FC, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360FD, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360FE, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x701360FF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136100, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136101, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136102, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136103, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136104, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x701360AE, 0x70136105, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701360AF, 27423, 0x013602B8, 47.3171, -103.671, 0.006600022, 0.7523227, 0, 0, 0.6587948,  True, '2019-02-10 00:00:00'); /* Enthralled Zealot */
@@ -638,7 +638,7 @@ VALUES (0x70136106,  1542, 0x01360184, 112.063, -190.449, -41.93125, 0.2915039, 
 /* @teleloc 0x01360184 [112.063000 -190.449000 -41.931250] 0.291504 0.000000 0.000000 -0.956570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70136106, 0x70136107, '2019-02-10 00:00:00') /* Ancient Pyreal Dagger */;
+VALUES (0x70136106, 0x70136107, '2019-02-10 00:00:00') /* Ancient Pyreal Dagger (6032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70136107,  6032, 0x01360184, 112.063, -190.449, -41.93125, 0.2915039, 0, 0, -0.9565697,  True, '2019-02-10 00:00:00'); /* Ancient Pyreal Dagger */

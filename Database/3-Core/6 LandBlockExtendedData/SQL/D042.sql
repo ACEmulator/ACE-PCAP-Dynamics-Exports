@@ -5,16 +5,16 @@ VALUES (0x7D042001,  1154, 0xD0420030, 139.2714, 173.1199, 57.34367, -0.9195522,
 /* @teleloc 0xD0420030 [139.271400 173.119900 57.343670] -0.919552 0.000000 0.000000 -0.392968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D042001, 0x7D042002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D042001, 0x7D042003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D042001, 0x7D042004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D042001, 0x7D042005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D042001, 0x7D042006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D042001, 0x7D042007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D042001, 0x7D042008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D042001, 0x7D042009, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7D042001, 0x7D04200A, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7D042001, 0x7D04200B, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7D042001, 0x7D042002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D042001, 0x7D042003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D042001, 0x7D042004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D042001, 0x7D042005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D042001, 0x7D042006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D042001, 0x7D042007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D042001, 0x7D042008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D042001, 0x7D042009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7D042001, 0x7D04200A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7D042001, 0x7D04200B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D042002,  7978, 0xD0420030, 139.2714, 173.1199, 57.34367, -0.9195522, 0, 0, -0.3929679,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7D04200C,  1542, 0xD042002F, 126.0453, 153.8493, 54.55011, 1, 0, 0, 0,
 /* @teleloc 0xD042002F [126.045300 153.849300 54.550110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D04200C, 0x7D04200D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D04200C, 0x7D04200D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D04200D, 31443, 0xD042002F, 126.0453, 153.8493, 54.55011, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

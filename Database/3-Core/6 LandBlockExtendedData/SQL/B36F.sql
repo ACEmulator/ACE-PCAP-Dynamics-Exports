@@ -5,13 +5,13 @@ VALUES (0x7B36F001,  1154, 0xB36F003E, 179.867, 132.151, 44.59146, 0.999973, 0, 
 /* @teleloc 0xB36F003E [179.867000 132.151000 44.591460] 0.999973 0.000000 0.000000 -0.007410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36F001, 0x7B36F002, '2019-02-10 00:00:00') /* First Enchanted Candle */
-     , (0x7B36F001, 0x7B36F003, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher */
-     , (0x7B36F001, 0x7B36F004, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher */
-     , (0x7B36F001, 0x7B36F005, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher */
-     , (0x7B36F001, 0x7B36F006, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher */
-     , (0x7B36F001, 0x7B36F007, '2019-02-10 00:00:00') /* Third Enchanted Candle */
-     , (0x7B36F001, 0x7B36F008, '2019-02-10 00:00:00') /* Second Enchanted Candle */;
+VALUES (0x7B36F001, 0x7B36F002, '2019-02-10 00:00:00') /* First Enchanted Candle (42958) */
+     , (0x7B36F001, 0x7B36F003, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher (42955) */
+     , (0x7B36F001, 0x7B36F004, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher (42955) */
+     , (0x7B36F001, 0x7B36F005, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher (42955) */
+     , (0x7B36F001, 0x7B36F006, '2019-02-10 00:00:00') /* Wedding Fireworks Launcher (42955) */
+     , (0x7B36F001, 0x7B36F007, '2019-02-10 00:00:00') /* Third Enchanted Candle (42960) */
+     , (0x7B36F001, 0x7B36F008, '2019-02-10 00:00:00') /* Second Enchanted Candle (42959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36F002, 42958, 0xB36F003E, 179.867, 132.151, 44.59146, 0.999973, 0, 0, -0.00740989,  True, '2019-02-10 00:00:00'); /* First Enchanted Candle */
@@ -46,8 +46,8 @@ VALUES (0x7B36F009,  1154, 0xB36F002B, 122.995, 64.4338, 20.005, 0.8869227, 0, 0
 /* @teleloc 0xB36F002B [122.995000 64.433800 20.005000] 0.886923 0.000000 0.000000 -0.461918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36F009, 0x7B36F00A, '2019-02-10 00:00:00') /* Sir Draithon */
-     , (0x7B36F009, 0x7B36F00B, '2019-02-10 00:00:00') /* Hoshino Kiri */;
+VALUES (0x7B36F009, 0x7B36F00A, '2019-02-10 00:00:00') /* Sir Draithon (42734) */
+     , (0x7B36F009, 0x7B36F00B, '2019-02-10 00:00:00') /* Hoshino Kiri (42957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36F00A, 42734, 0xB36F002B, 122.995, 64.4338, 20.005, 0.8869227, 0, 0, -0.4619178,  True, '2019-02-10 00:00:00'); /* Sir Draithon */
@@ -62,29 +62,29 @@ VALUES (0x7B36F00C,  1542, 0xB36F0024, 110.3605, 81.30518, 20.33784, 1, 0, 0, 0,
 /* @teleloc 0xB36F0024 [110.360500 81.305180 20.337840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36F00C, 0x7B36F00D, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F00E, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F00F, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F010, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F011, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F012, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F013, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F014, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F015, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F016, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F017, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F018, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F019, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01A, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01B, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01C, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01D, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01E, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F01F, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F020, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F021, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F022, '2019-02-10 00:00:00') /* Tulip */
-     , (0x7B36F00C, 0x7B36F023, '2019-02-10 00:00:00') /* Tulip */;
+VALUES (0x7B36F00C, 0x7B36F00D, '2019-02-10 00:00:00') /* Tulip (42540) */
+     , (0x7B36F00C, 0x7B36F00E, '2019-02-10 00:00:00') /* Tulip (42531) */
+     , (0x7B36F00C, 0x7B36F00F, '2019-02-10 00:00:00') /* Tulip (42540) */
+     , (0x7B36F00C, 0x7B36F010, '2019-02-10 00:00:00') /* Tulip (42531) */
+     , (0x7B36F00C, 0x7B36F011, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F012, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F013, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F014, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F015, '2019-02-10 00:00:00') /* Tulip (42540) */
+     , (0x7B36F00C, 0x7B36F016, '2019-02-10 00:00:00') /* Tulip (42531) */
+     , (0x7B36F00C, 0x7B36F017, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F018, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F019, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F01A, '2019-02-10 00:00:00') /* Tulip (42531) */
+     , (0x7B36F00C, 0x7B36F01B, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F01C, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F01D, '2019-02-10 00:00:00') /* Tulip (42540) */
+     , (0x7B36F00C, 0x7B36F01E, '2019-02-10 00:00:00') /* Tulip (42540) */
+     , (0x7B36F00C, 0x7B36F01F, '2019-02-10 00:00:00') /* Tulip (42531) */
+     , (0x7B36F00C, 0x7B36F020, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F021, '2019-02-10 00:00:00') /* Tulip (42530) */
+     , (0x7B36F00C, 0x7B36F022, '2019-02-10 00:00:00') /* Tulip (42541) */
+     , (0x7B36F00C, 0x7B36F023, '2019-02-10 00:00:00') /* Tulip (42531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36F00D, 42540, 0xB36F0024, 110.3605, 81.30518, 20.33784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tulip */

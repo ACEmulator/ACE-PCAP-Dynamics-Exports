@@ -5,17 +5,17 @@ VALUES (0x7ED34001,  1154, 0xED34003E, 175.1528, 122.2996, 1.2187, -0.995258, 0,
 /* @teleloc 0xED34003E [175.152800 122.299600 1.218700] -0.995258 0.000000 0.000000 -0.097270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED34001, 0x7ED34002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7ED34001, 0x7ED34003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7ED34001, 0x7ED34004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7ED34001, 0x7ED34005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7ED34001, 0x7ED34006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED34001, 0x7ED34007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7ED34001, 0x7ED34008, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7ED34001, 0x7ED34009, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7ED34001, 0x7ED3400A, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7ED34001, 0x7ED3400B, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7ED34001, 0x7ED3400C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7ED34001, 0x7ED34002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7ED34001, 0x7ED34003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7ED34001, 0x7ED34004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7ED34001, 0x7ED34005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7ED34001, 0x7ED34006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED34001, 0x7ED34007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7ED34001, 0x7ED34008, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7ED34001, 0x7ED34009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7ED34001, 0x7ED3400A, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7ED34001, 0x7ED3400B, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7ED34001, 0x7ED3400C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED34002,  7180, 0xED34003E, 175.1528, 122.2996, 1.2187, -0.995258, 0, 0, -0.0972699,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -66,7 +66,7 @@ VALUES (0x7ED3400D,  1542, 0xED34003B, 179.3463, 67.13857, 8.96513, 0.9537169, 0
 /* @teleloc 0xED34003B [179.346300 67.138570 8.965130] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED3400D, 0x7ED3400E, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7ED3400D, 0x7ED3400E, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED3400E,  7934, 0xED34003B, 179.3463, 67.13857, 8.96513, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

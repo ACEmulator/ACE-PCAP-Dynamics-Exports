@@ -5,28 +5,28 @@ VALUES (0x7CA5F001,  1154, 0xCA5F0027, 111.8665, 160.0062, 6, -0.8951559, 0, 0, 
 /* @teleloc 0xCA5F0027 [111.866500 160.006200 6.000000] -0.895156 0.000000 0.000000 -0.445753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA5F001, 0x7CA5F002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CA5F001, 0x7CA5F003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7CA5F001, 0x7CA5F004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA5F001, 0x7CA5F005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CA5F001, 0x7CA5F006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA5F001, 0x7CA5F007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA5F001, 0x7CA5F008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA5F001, 0x7CA5F009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA5F001, 0x7CA5F00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CA5F001, 0x7CA5F00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CA5F001, 0x7CA5F00C, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CA5F001, 0x7CA5F00D, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CA5F001, 0x7CA5F00E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CA5F001, 0x7CA5F00F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CA5F001, 0x7CA5F010, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CA5F001, 0x7CA5F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CA5F001, 0x7CA5F012, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CA5F001, 0x7CA5F013, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CA5F001, 0x7CA5F014, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CA5F001, 0x7CA5F015, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CA5F001, 0x7CA5F016, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CA5F001, 0x7CA5F017, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7CA5F001, 0x7CA5F002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CA5F001, 0x7CA5F003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7CA5F001, 0x7CA5F004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA5F001, 0x7CA5F005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CA5F001, 0x7CA5F006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA5F001, 0x7CA5F007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA5F001, 0x7CA5F008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA5F001, 0x7CA5F009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA5F001, 0x7CA5F00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CA5F001, 0x7CA5F00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CA5F001, 0x7CA5F00C, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CA5F001, 0x7CA5F00D, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CA5F001, 0x7CA5F00E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CA5F001, 0x7CA5F00F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CA5F001, 0x7CA5F010, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CA5F001, 0x7CA5F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CA5F001, 0x7CA5F012, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CA5F001, 0x7CA5F013, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CA5F001, 0x7CA5F014, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CA5F001, 0x7CA5F015, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CA5F001, 0x7CA5F016, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CA5F001, 0x7CA5F017, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA5F002,   213, 0xCA5F0027, 111.8665, 160.0062, 6, -0.8951559, 0, 0, -0.4457532,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */

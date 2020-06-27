@@ -5,13 +5,13 @@ VALUES (0x79D6C001,  1154, 0x9D6C0002, 18.0465, 35.68368, 66.3298, -0.146922, 0,
 /* @teleloc 0x9D6C0002 [18.046500 35.683680 66.329800] -0.146922 0.000000 0.000000 -0.989148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D6C001, 0x79D6C002, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79D6C001, 0x79D6C003, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x79D6C001, 0x79D6C004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79D6C001, 0x79D6C005, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79D6C001, 0x79D6C006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79D6C001, 0x79D6C007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x79D6C001, 0x79D6C008, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x79D6C001, 0x79D6C002, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79D6C001, 0x79D6C003, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x79D6C001, 0x79D6C004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79D6C001, 0x79D6C005, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79D6C001, 0x79D6C006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79D6C001, 0x79D6C007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x79D6C001, 0x79D6C008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D6C002,  5683, 0x9D6C0002, 18.0465, 35.68368, 66.3298, -0.146922, 0, 0, -0.9891481,  True, '2019-02-10 00:00:00'); /* Seared Skeleton */

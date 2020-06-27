@@ -5,9 +5,9 @@ VALUES (0x72565001,  1154, 0x2565003F, 186.6016, 152.9294, 20.01, 0.9277374, 0, 
 /* @teleloc 0x2565003F [186.601600 152.929400 20.010000] 0.927737 0.000000 0.000000 -0.373234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72565001, 0x72565002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72565001, 0x72565003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72565001, 0x72565004, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72565001, 0x72565002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72565001, 0x72565003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72565001, 0x72565004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72565002, 36829, 0x2565003F, 186.6016, 152.9294, 20.01, 0.9277374, 0, 0, -0.3732335,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

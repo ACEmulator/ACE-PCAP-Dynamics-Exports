@@ -5,13 +5,13 @@ VALUES (0x7C15F001,  1154, 0xC15F0035, 146.6573, 119.8856, 6.0075, -0.8489186, 0
 /* @teleloc 0xC15F0035 [146.657300 119.885600 6.007500] -0.848919 0.000000 0.000000 -0.528524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15F001, 0x7C15F002, '2019-02-10 00:00:00') /* Undead */
-     , (0x7C15F001, 0x7C15F003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C15F001, 0x7C15F004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C15F001, 0x7C15F005, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C15F001, 0x7C15F006, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C15F001, 0x7C15F007, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C15F001, 0x7C15F008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C15F001, 0x7C15F002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7C15F001, 0x7C15F003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C15F001, 0x7C15F004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C15F001, 0x7C15F005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C15F001, 0x7C15F006, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C15F001, 0x7C15F007, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C15F001, 0x7C15F008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15F002,    16, 0xC15F0035, 146.6573, 119.8856, 6.0075, -0.8489186, 0, 0, -0.5285237,  True, '2019-02-10 00:00:00'); /* Undead */

@@ -5,19 +5,19 @@ VALUES (0x748E5001,  1154, 0x48E5002C, 141.1275, 80.64344, 7.53229, 0.9238795, 0
 /* @teleloc 0x48E5002C [141.127500 80.643440 7.532290] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748E5001, 0x748E5002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x748E5001, 0x748E5003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x748E5001, 0x748E5004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x748E5001, 0x748E5005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x748E5001, 0x748E5006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x748E5001, 0x748E5007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x748E5001, 0x748E5008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x748E5001, 0x748E5009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x748E5001, 0x748E500A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x748E5001, 0x748E500B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x748E5001, 0x748E500C, '2019-02-10 00:00:00') /* Caustic */
-     , (0x748E5001, 0x748E500D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x748E5001, 0x748E500E, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x748E5001, 0x748E5002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x748E5001, 0x748E5003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x748E5001, 0x748E5004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x748E5001, 0x748E5005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x748E5001, 0x748E5006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x748E5001, 0x748E5007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x748E5001, 0x748E5008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x748E5001, 0x748E5009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x748E5001, 0x748E500A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x748E5001, 0x748E500B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x748E5001, 0x748E500C, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x748E5001, 0x748E500D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x748E5001, 0x748E500E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748E5002,  7184, 0x48E5002C, 141.1275, 80.64344, 7.53229, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

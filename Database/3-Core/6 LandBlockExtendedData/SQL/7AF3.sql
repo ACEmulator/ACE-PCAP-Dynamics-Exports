@@ -5,12 +5,12 @@ VALUES (0x77AF3001,  1154, 0x7AF30018, 60.0134, 191.6196, 43.07328, 0.9961947, 0
 /* @teleloc 0x7AF30018 [60.013400 191.619600 43.073280] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AF3001, 0x77AF3002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77AF3001, 0x77AF3003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77AF3001, 0x77AF3004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77AF3001, 0x77AF3005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77AF3001, 0x77AF3006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77AF3001, 0x77AF3007, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x77AF3001, 0x77AF3002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77AF3001, 0x77AF3003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77AF3001, 0x77AF3004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77AF3001, 0x77AF3005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77AF3001, 0x77AF3006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77AF3001, 0x77AF3007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF3002,  1629, 0x7AF30018, 60.0134, 191.6196, 43.07328, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

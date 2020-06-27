@@ -5,41 +5,41 @@ VALUES (0x7B9F3001,  1154, 0xB9F3003C, 171.0231, 91.4228, 40.212, 0.7071068, 0, 
 /* @teleloc 0xB9F3003C [171.023100 91.422800 40.212000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9F3001, 0x7B9F3002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B9F3001, 0x7B9F3003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B9F3001, 0x7B9F3004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B9F3001, 0x7B9F3005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B9F3001, 0x7B9F3006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B9F3001, 0x7B9F3007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B9F3001, 0x7B9F3008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B9F3001, 0x7B9F3009, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7B9F3001, 0x7B9F300A, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7B9F3001, 0x7B9F300B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B9F3001, 0x7B9F300C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B9F3001, 0x7B9F300D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B9F3001, 0x7B9F300E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B9F3001, 0x7B9F300F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B9F3001, 0x7B9F3010, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B9F3001, 0x7B9F3011, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B9F3001, 0x7B9F3012, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B9F3001, 0x7B9F3013, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B9F3001, 0x7B9F3014, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B9F3001, 0x7B9F3015, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B9F3001, 0x7B9F3016, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B9F3001, 0x7B9F3017, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B9F3001, 0x7B9F3018, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B9F3001, 0x7B9F3019, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B9F3001, 0x7B9F301A, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7B9F3001, 0x7B9F301B, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B9F3001, 0x7B9F301C, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B9F3001, 0x7B9F301D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B9F3001, 0x7B9F301E, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B9F3001, 0x7B9F301F, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B9F3001, 0x7B9F3020, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B9F3001, 0x7B9F3021, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B9F3001, 0x7B9F3022, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B9F3001, 0x7B9F3023, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B9F3001, 0x7B9F3024, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x7B9F3001, 0x7B9F3002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B9F3001, 0x7B9F3003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B9F3001, 0x7B9F3004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B9F3001, 0x7B9F3005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B9F3001, 0x7B9F3006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B9F3001, 0x7B9F3007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B9F3001, 0x7B9F3008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B9F3001, 0x7B9F3009, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7B9F3001, 0x7B9F300A, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7B9F3001, 0x7B9F300B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B9F3001, 0x7B9F300C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B9F3001, 0x7B9F300D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B9F3001, 0x7B9F300E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B9F3001, 0x7B9F300F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B9F3001, 0x7B9F3010, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B9F3001, 0x7B9F3011, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B9F3001, 0x7B9F3012, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B9F3001, 0x7B9F3013, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B9F3001, 0x7B9F3014, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B9F3001, 0x7B9F3015, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B9F3001, 0x7B9F3016, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B9F3001, 0x7B9F3017, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B9F3001, 0x7B9F3018, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B9F3001, 0x7B9F3019, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B9F3001, 0x7B9F301A, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7B9F3001, 0x7B9F301B, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B9F3001, 0x7B9F301C, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B9F3001, 0x7B9F301D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B9F3001, 0x7B9F301E, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B9F3001, 0x7B9F301F, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B9F3001, 0x7B9F3020, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B9F3001, 0x7B9F3021, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B9F3001, 0x7B9F3022, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B9F3001, 0x7B9F3023, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B9F3001, 0x7B9F3024, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9F3002, 24275, 0xB9F3003C, 171.0231, 91.4228, 40.212, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -186,7 +186,7 @@ VALUES (0x7B9F3025,  1542, 0xB9F30032, 152.5479, 44.23306, 91.229, 0.9990482, 0,
 /* @teleloc 0xB9F30032 [152.547900 44.233060 91.229000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9F3025, 0x7B9F3026, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B9F3025, 0x7B9F3026, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9F3026,  4179, 0xB9F30032, 152.5479, 44.23306, 91.229, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

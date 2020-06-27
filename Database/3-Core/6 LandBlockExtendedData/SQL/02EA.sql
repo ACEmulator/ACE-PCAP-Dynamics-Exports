@@ -13,18 +13,18 @@ VALUES (0x702EA02C,  1154, 0x02EA0180, 7.69221, -21.6911, 6.012, -0.101934, 0, 0
 /* @teleloc 0x02EA0180 [7.692210 -21.691100 6.012000] -0.101934 0.000000 0.000000 -0.994791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EA02C, 0x702EA02D, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x702EA02C, 0x702EA02E, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x702EA02C, 0x702EA02F, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x702EA02C, 0x702EA030, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x702EA02C, 0x702EA031, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x702EA02C, 0x702EA032, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x702EA02C, 0x702EA033, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x702EA02C, 0x702EA034, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x702EA02C, 0x702EA035, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x702EA02C, 0x702EA036, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x702EA02C, 0x702EA037, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x702EA02C, 0x702EA038, '2019-02-10 00:00:00') /* Pestilence Rat */;
+VALUES (0x702EA02C, 0x702EA02D, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA02C, 0x702EA02E, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA02C, 0x702EA02F, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x702EA02C, 0x702EA030, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA02C, 0x702EA031, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x702EA02C, 0x702EA032, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA02C, 0x702EA033, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x702EA02C, 0x702EA034, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x702EA02C, 0x702EA035, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA02C, 0x702EA036, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA02C, 0x702EA037, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA02C, 0x702EA038, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EA02D, 25879, 0x02EA0180, 7.69221, -21.6911, 6.012, -0.101934, 0, 0, -0.994791,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */

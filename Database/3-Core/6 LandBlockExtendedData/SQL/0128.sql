@@ -41,10 +41,10 @@ VALUES (0x70128009,  1542, 0x0128010E, 29.71279, -33.00418, 1.888637, -0.0051752
 /* @teleloc 0x0128010E [29.712790 -33.004180 1.888637] -0.005175 0.000000 0.000000 -0.999987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70128009, 0x7012800A, '2019-02-10 00:00:00') /* Couch */
-     , (0x70128009, 0x7012800B, '2019-02-10 00:00:00') /* Spirit of Aun Tanua */
-     , (0x70128009, 0x7012800C, '2019-02-10 00:00:00') /* Spirit of Aun Tanua */
-     , (0x70128009, 0x7012800D, '2019-02-10 00:00:00') /* Fez */;
+VALUES (0x70128009, 0x7012800A, '2019-02-10 00:00:00') /* Couch (274) */
+     , (0x70128009, 0x7012800B, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x70128009, 0x7012800C, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x70128009, 0x7012800D, '2019-02-10 00:00:00') /* Fez (5894) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7012800A,   274, 0x0128010E, 29.71279, -33.00418, 1.888637, -0.005175253, 0, 0, -0.9999866,  True, '2019-02-10 00:00:00'); /* Couch */

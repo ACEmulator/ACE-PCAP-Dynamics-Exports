@@ -5,12 +5,12 @@ VALUES (0x79C61001,  1154, 0x9C61000D, 31.65578, 116.8198, 58.37546, 0.2280189, 
 /* @teleloc 0x9C61000D [31.655780 116.819800 58.375460] 0.228019 0.000000 0.000000 -0.973657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C61001, 0x79C61002, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79C61001, 0x79C61003, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79C61001, 0x79C61004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x79C61001, 0x79C61005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79C61001, 0x79C61006, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x79C61001, 0x79C61007, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x79C61001, 0x79C61002, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79C61001, 0x79C61003, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79C61001, 0x79C61004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x79C61001, 0x79C61005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79C61001, 0x79C61006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x79C61001, 0x79C61007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C61002,  5683, 0x9C61000D, 31.65578, 116.8198, 58.37546, 0.2280189, 0, 0, -0.9736567,  True, '2019-02-10 00:00:00'); /* Seared Skeleton */

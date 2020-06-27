@@ -5,21 +5,21 @@ VALUES (0x71629001,  1154, 0x16290004, 19.91337, 88.39817, 4.102042, 0.7071068, 
 /* @teleloc 0x16290004 [19.913370 88.398170 4.102042] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71629001, 0x71629002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71629001, 0x71629003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71629001, 0x71629004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71629001, 0x71629005, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71629001, 0x71629006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71629001, 0x71629007, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71629001, 0x71629008, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71629001, 0x71629009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71629001, 0x7162900A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71629001, 0x7162900B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71629001, 0x7162900C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71629001, 0x7162900D, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71629001, 0x7162900E, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71629001, 0x7162900F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71629001, 0x71629010, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71629001, 0x71629002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71629001, 0x71629003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71629001, 0x71629004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71629001, 0x71629005, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71629001, 0x71629006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71629001, 0x71629007, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71629001, 0x71629008, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71629001, 0x71629009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71629001, 0x7162900A, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71629001, 0x7162900B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71629001, 0x7162900C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71629001, 0x7162900D, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71629001, 0x7162900E, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71629001, 0x7162900F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71629001, 0x71629010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71629002, 24317, 0x16290004, 19.91337, 88.39817, 4.102042, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */
@@ -86,7 +86,7 @@ VALUES (0x71629011,  1542, 0x16290004, 20.74328, 84.71696, 3.179241, 0.9990482, 
 /* @teleloc 0x16290004 [20.743280 84.716960 3.179241] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71629011, 0x71629012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71629011, 0x71629012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71629012,  4179, 0x16290004, 20.74328, 84.71696, 3.179241, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,14 +5,14 @@ VALUES (0x7E848001,  1154, 0xE8480005, 8.665603, 115.6701, 49.95198, -0.6283903,
 /* @teleloc 0xE8480005 [8.665603 115.670100 49.951980] -0.628390 0.000000 0.000000 -0.777898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E848001, 0x7E848002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E848001, 0x7E848003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E848001, 0x7E848004, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E848001, 0x7E848005, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E848001, 0x7E848006, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E848001, 0x7E848007, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E848001, 0x7E848008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E848001, 0x7E848009, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x7E848001, 0x7E848002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E848001, 0x7E848003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E848001, 0x7E848004, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E848001, 0x7E848005, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E848001, 0x7E848006, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E848001, 0x7E848007, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E848001, 0x7E848008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E848001, 0x7E848009, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E848002,  7991, 0xE8480005, 8.665603, 115.6701, 49.95198, -0.6283903, 0, 0, -0.7778983,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

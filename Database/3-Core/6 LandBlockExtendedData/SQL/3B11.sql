@@ -5,16 +5,16 @@ VALUES (0x73B11001,  1154, 0x3B110015, 58, 109.5, 10.355, -0.699663, 0, 0, -0.71
 /* @teleloc 0x3B110015 [58.000000 109.500000 10.355000] -0.699663 0.000000 0.000000 -0.714473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B11001, 0x73B11002, '2019-02-10 00:00:00') /* Coral Hollow */
-     , (0x73B11001, 0x73B11003, '2019-02-10 00:00:00') /* Coral Hollow */
-     , (0x73B11001, 0x73B11004, '2019-02-10 00:00:00') /* Coral Hollow */
-     , (0x73B11001, 0x73B11005, '2019-02-10 00:00:00') /* Statue */
-     , (0x73B11001, 0x73B11006, '2019-02-10 00:00:00') /* Statue */
-     , (0x73B11001, 0x73B11007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B11001, 0x73B11008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73B11001, 0x73B11009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73B11001, 0x73B1100A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73B11001, 0x73B1100B, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73B11001, 0x73B11002, '2019-02-10 00:00:00') /* Coral Hollow (38344) */
+     , (0x73B11001, 0x73B11003, '2019-02-10 00:00:00') /* Coral Hollow (38343) */
+     , (0x73B11001, 0x73B11004, '2019-02-10 00:00:00') /* Coral Hollow (38342) */
+     , (0x73B11001, 0x73B11005, '2019-02-10 00:00:00') /* Statue (38339) */
+     , (0x73B11001, 0x73B11006, '2019-02-10 00:00:00') /* Statue (38332) */
+     , (0x73B11001, 0x73B11007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B11001, 0x73B11008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73B11001, 0x73B11009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73B11001, 0x73B1100A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73B11001, 0x73B1100B, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B11002, 38344, 0x3B110015, 58, 109.5, 10.355, -0.699663, 0, 0, -0.714473,  True, '2019-02-10 00:00:00'); /* Coral Hollow */
@@ -61,7 +61,7 @@ VALUES (0x73B1100C,  1542, 0x3B110007, 14.99344, 163.8973, 21.61, 0.9990482, 0, 
 /* @teleloc 0x3B110007 [14.993440 163.897300 21.610000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B1100C, 0x73B1100D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B1100C, 0x73B1100D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B1100D,  4179, 0x3B110007, 14.99344, 163.8973, 21.61, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

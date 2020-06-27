@@ -5,17 +5,17 @@ VALUES (0x7BAD4001,  1154, 0xBAD4000D, 28.2157, 118.1741, 48.004, 0.8870109, 0, 
 /* @teleloc 0xBAD4000D [28.215700 118.174100 48.004000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAD4001, 0x7BAD4002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BAD4001, 0x7BAD4003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BAD4001, 0x7BAD4004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BAD4001, 0x7BAD4005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BAD4001, 0x7BAD4006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BAD4001, 0x7BAD4007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAD4001, 0x7BAD4008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAD4001, 0x7BAD4009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BAD4001, 0x7BAD400A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BAD4001, 0x7BAD400B, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BAD4001, 0x7BAD400C, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7BAD4001, 0x7BAD4002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BAD4001, 0x7BAD4003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BAD4001, 0x7BAD4004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BAD4001, 0x7BAD4005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BAD4001, 0x7BAD4006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BAD4001, 0x7BAD4007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAD4001, 0x7BAD4008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAD4001, 0x7BAD4009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BAD4001, 0x7BAD400A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BAD4001, 0x7BAD400B, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BAD4001, 0x7BAD400C, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAD4002,  4254, 0xBAD4000D, 28.2157, 118.1741, 48.004, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

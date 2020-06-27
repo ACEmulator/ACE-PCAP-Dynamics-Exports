@@ -5,19 +5,19 @@ VALUES (0x7C7D9001,  1154, 0xC7D9002E, 128.5937, 138.5896, 69.23769, -0.8323641,
 /* @teleloc 0xC7D9002E [128.593700 138.589600 69.237690] -0.832364 0.000000 0.000000 -0.554229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7D9001, 0x7C7D9002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7C7D9001, 0x7C7D9003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C7D9001, 0x7C7D9004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7C7D9001, 0x7C7D9005, '2019-02-10 00:00:00') /* Static */
-     , (0x7C7D9001, 0x7C7D9006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C7D9001, 0x7C7D9007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C7D9001, 0x7C7D9008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C7D9001, 0x7C7D9009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C7D9001, 0x7C7D900A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C7D9001, 0x7C7D900B, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7C7D9001, 0x7C7D900C, '2019-02-10 00:00:00') /* Banished Banderling */
-     , (0x7C7D9001, 0x7C7D900D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C7D9001, 0x7C7D900E, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7C7D9001, 0x7C7D9002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7C7D9001, 0x7C7D9003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C7D9001, 0x7C7D9004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7C7D9001, 0x7C7D9005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C7D9001, 0x7C7D9006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C7D9001, 0x7C7D9007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C7D9001, 0x7C7D9008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C7D9001, 0x7C7D9009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C7D9001, 0x7C7D900A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C7D9001, 0x7C7D900B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7C7D9001, 0x7C7D900C, '2019-02-10 00:00:00') /* Banished Banderling (30898) */
+     , (0x7C7D9001, 0x7C7D900D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C7D9001, 0x7C7D900E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7D9002,  9252, 0xC7D9002E, 128.5937, 138.5896, 69.23769, -0.8323641, 0, 0, -0.5542291,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

@@ -5,8 +5,8 @@ VALUES (0x72068001,  1154, 0x2068001F, 91.76656, 153.8967, 25.87887, -0.7060169,
 /* @teleloc 0x2068001F [91.766560 153.896700 25.878870] -0.706017 0.000000 0.000000 -0.708195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72068001, 0x72068002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72068001, 0x72068003, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72068001, 0x72068002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72068001, 0x72068003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72068002, 36859, 0x2068001F, 91.76656, 153.8967, 25.87887, -0.7060169, 0, 0, -0.708195,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

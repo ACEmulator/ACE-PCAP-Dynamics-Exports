@@ -5,27 +5,27 @@ VALUES (0x797E4001,  1154, 0x97E4000F, 27.72312, 167.0472, 141.4819, 1, 0, 0, 0,
 /* @teleloc 0x97E4000F [27.723120 167.047200 141.481900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E4001, 0x797E4002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x797E4001, 0x797E4003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x797E4001, 0x797E4007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x797E4001, 0x797E4008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x797E4001, 0x797E4009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x797E4001, 0x797E400A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x797E4001, 0x797E400B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x797E4001, 0x797E400C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x797E4001, 0x797E400D, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x797E4001, 0x797E400E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x797E4001, 0x797E400F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x797E4001, 0x797E4010, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4011, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4012, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797E4001, 0x797E4013, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x797E4001, 0x797E4014, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x797E4001, 0x797E4015, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797E4001, 0x797E4016, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x797E4001, 0x797E4002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x797E4001, 0x797E4003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x797E4001, 0x797E4007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x797E4001, 0x797E4008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x797E4001, 0x797E4009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x797E4001, 0x797E400A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x797E4001, 0x797E400B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x797E4001, 0x797E400C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x797E4001, 0x797E400D, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x797E4001, 0x797E400E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x797E4001, 0x797E400F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x797E4001, 0x797E4010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797E4001, 0x797E4013, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x797E4001, 0x797E4014, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x797E4001, 0x797E4015, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797E4001, 0x797E4016, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E4002, 23082, 0x97E4000F, 27.72312, 167.0472, 141.4819, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
@@ -116,9 +116,9 @@ VALUES (0x797E4017,  1542, 0x97E4001A, 72.72869, 24.21494, 152.2265, 1, 0, 0, 0,
 /* @teleloc 0x97E4001A [72.728690 24.214940 152.226500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E4017, 0x797E4018, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x797E4017, 0x797E4019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x797E4017, 0x797E401A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x797E4017, 0x797E4018, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x797E4017, 0x797E4019, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x797E4017, 0x797E401A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E4018, 22837, 0x97E4001A, 72.72869, 24.21494, 152.2265, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Snowflower */

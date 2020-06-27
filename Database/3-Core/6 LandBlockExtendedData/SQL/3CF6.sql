@@ -5,12 +5,12 @@ VALUES (0x73CF6001,  1154, 0x3CF60022, 117.2495, 32.67435, 3.541576, 0.8248486, 
 /* @teleloc 0x3CF60022 [117.249500 32.674350 3.541576] 0.824849 0.000000 0.000000 -0.565354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73CF6001, 0x73CF6002, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73CF6001, 0x73CF6003, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73CF6001, 0x73CF6004, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73CF6001, 0x73CF6005, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73CF6001, 0x73CF6006, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x73CF6001, 0x73CF6007, '2019-02-10 00:00:00') /* Ruschk Laktar */;
+VALUES (0x73CF6001, 0x73CF6002, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73CF6001, 0x73CF6003, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73CF6001, 0x73CF6004, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73CF6001, 0x73CF6005, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73CF6001, 0x73CF6006, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x73CF6001, 0x73CF6007, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73CF6002, 28639, 0x3CF60022, 117.2495, 32.67435, 3.541576, 0.8248486, 0, 0, -0.5653538,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
@@ -41,7 +41,7 @@ VALUES (0x73CF6008,  1542, 0x3CF6002D, 142.4686, 111.3982, 4, 0.8312784, 0, 0, -
 /* @teleloc 0x3CF6002D [142.468600 111.398200 4.000000] 0.831278 0.000000 0.000000 -0.555856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73CF6008, 0x73CF6009, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x73CF6008, 0x73CF6009, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73CF6009, 31032, 0x3CF6002D, 142.4686, 111.3982, 4, 0.8312784, 0, 0, -0.5558563,  True, '2019-02-10 00:00:00'); /* Snow Lily */

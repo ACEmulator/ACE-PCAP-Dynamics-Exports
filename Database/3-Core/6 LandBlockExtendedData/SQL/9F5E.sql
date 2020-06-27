@@ -5,18 +5,18 @@ VALUES (0x79F5E001,  1154, 0x9F5E0034, 149.6338, 95.20354, 117.6029, 0.8132475, 
 /* @teleloc 0x9F5E0034 [149.633800 95.203540 117.602900] 0.813248 0.000000 0.000000 -0.581918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F5E001, 0x79F5E002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79F5E001, 0x79F5E003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79F5E001, 0x79F5E004, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79F5E001, 0x79F5E005, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79F5E001, 0x79F5E006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79F5E001, 0x79F5E007, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79F5E001, 0x79F5E008, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79F5E001, 0x79F5E009, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79F5E001, 0x79F5E00A, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79F5E001, 0x79F5E00B, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79F5E001, 0x79F5E00C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79F5E001, 0x79F5E00D, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79F5E001, 0x79F5E002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79F5E001, 0x79F5E003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79F5E001, 0x79F5E004, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79F5E001, 0x79F5E005, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79F5E001, 0x79F5E006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79F5E001, 0x79F5E007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79F5E001, 0x79F5E008, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79F5E001, 0x79F5E009, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79F5E001, 0x79F5E00A, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79F5E001, 0x79F5E00B, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79F5E001, 0x79F5E00C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79F5E001, 0x79F5E00D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F5E002,  9254, 0x9F5E0034, 149.6338, 95.20354, 117.6029, 0.8132475, 0, 0, -0.5819179,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */

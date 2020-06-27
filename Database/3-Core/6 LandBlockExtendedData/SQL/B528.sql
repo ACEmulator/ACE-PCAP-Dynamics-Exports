@@ -5,11 +5,11 @@ VALUES (0x7B528001,  1154, 0xB5280018, 65.37181, 183.2066, 256.185, -0.9795405, 
 /* @teleloc 0xB5280018 [65.371810 183.206600 256.185000] -0.979541 0.000000 0.000000 -0.201247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B528001, 0x7B528002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B528001, 0x7B528003, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7B528001, 0x7B528004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7B528001, 0x7B528005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B528001, 0x7B528006, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7B528001, 0x7B528002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B528001, 0x7B528003, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7B528001, 0x7B528004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7B528001, 0x7B528005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B528001, 0x7B528006, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B528002,  7089, 0xB5280018, 65.37181, 183.2066, 256.185, -0.9795405, 0, 0, -0.2012473,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -36,7 +36,7 @@ VALUES (0x7B528007,  1542, 0xB5280024, 114.9073, 83.62789, 288.6578, -0.1731735,
 /* @teleloc 0xB5280024 [114.907300 83.627890 288.657800] -0.173174 0.000000 0.000000 -0.984891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B528007, 0x7B528008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B528007, 0x7B528008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B528008, 42528, 0xB5280024, 114.9073, 83.62789, 288.6578, -0.1731735, 0, 0, -0.9848914,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,11 +5,11 @@ VALUES (0x789D3001,  1154, 0x89D30001, 12.25449, 1.04753, 200.052, -0.3652584, 0
 /* @teleloc 0x89D30001 [12.254490 1.047530 200.052000] -0.365258 0.000000 0.000000 -0.930906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789D3001, 0x789D3002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x789D3001, 0x789D3003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x789D3001, 0x789D3004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x789D3001, 0x789D3005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x789D3001, 0x789D3006, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x789D3001, 0x789D3002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x789D3001, 0x789D3003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x789D3001, 0x789D3004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x789D3001, 0x789D3005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x789D3001, 0x789D3006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789D3002, 22810, 0x89D30001, 12.25449, 1.04753, 200.052, -0.3652584, 0, 0, -0.9309062,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */

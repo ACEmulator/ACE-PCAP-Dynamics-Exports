@@ -5,11 +5,11 @@ VALUES (0x754CD001,  1154, 0x54CD001A, 79.09759, 35.0288, 166.8532, -0.9592556, 
 /* @teleloc 0x54CD001A [79.097590 35.028800 166.853200] -0.959256 0.000000 0.000000 -0.282540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754CD001, 0x754CD002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x754CD001, 0x754CD003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x754CD001, 0x754CD004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x754CD001, 0x754CD005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x754CD001, 0x754CD006, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x754CD001, 0x754CD002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x754CD001, 0x754CD003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x754CD001, 0x754CD004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x754CD001, 0x754CD005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x754CD001, 0x754CD006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754CD002,  7981, 0x54CD001A, 79.09759, 35.0288, 166.8532, -0.9592556, 0, 0, -0.2825396,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */

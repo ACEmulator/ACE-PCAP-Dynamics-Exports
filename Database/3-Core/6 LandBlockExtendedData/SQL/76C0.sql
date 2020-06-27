@@ -5,19 +5,19 @@ VALUES (0x776C0001,  1154, 0x76C00010, 35.42422, 188.0464, 108.5245, -4.371139E-
 /* @teleloc 0x76C00010 [35.424220 188.046400 108.524500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C0001, 0x776C0002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x776C0001, 0x776C0003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x776C0001, 0x776C0004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x776C0001, 0x776C0005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C0001, 0x776C0006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C0001, 0x776C0007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C0001, 0x776C0008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C0001, 0x776C0009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C0001, 0x776C000A, '2019-02-10 00:00:00') /* Brumal */
-     , (0x776C0001, 0x776C000B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776C0001, 0x776C000C, '2019-02-10 00:00:00') /* Horripal */
-     , (0x776C0001, 0x776C000D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776C0001, 0x776C000E, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x776C0001, 0x776C0002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x776C0001, 0x776C0003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x776C0001, 0x776C0004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x776C0001, 0x776C0005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C0001, 0x776C0006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C0001, 0x776C0007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C0001, 0x776C0008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C0001, 0x776C0009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C0001, 0x776C000A, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x776C0001, 0x776C000B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776C0001, 0x776C000C, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x776C0001, 0x776C000D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776C0001, 0x776C000E, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C0002,  7982, 0x76C00010, 35.42422, 188.0464, 108.5245, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -76,8 +76,8 @@ VALUES (0x776C000F,  1542, 0x76C0001B, 83.00019, 67.75106, 123.039, 1, 0, 0, 0, 
 /* @teleloc 0x76C0001B [83.000190 67.751060 123.039000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C000F, 0x776C0010, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x776C000F, 0x776C0011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x776C000F, 0x776C0010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x776C000F, 0x776C0011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C0010, 31445, 0x76C0001B, 83.00019, 67.75106, 123.039, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

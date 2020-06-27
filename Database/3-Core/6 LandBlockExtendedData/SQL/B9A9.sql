@@ -5,12 +5,12 @@ VALUES (0x7B9A9001,  1154, 0xB9A90014, 59.93413, 83.72553, 83.01237, -0.836498, 
 /* @teleloc 0xB9A90014 [59.934130 83.725530 83.012370] -0.836498 0.000000 0.000000 -0.547970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A9001, 0x7B9A9002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B9A9001, 0x7B9A9003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B9A9001, 0x7B9A9004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B9A9001, 0x7B9A9005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B9A9001, 0x7B9A9006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B9A9001, 0x7B9A9007, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7B9A9001, 0x7B9A9002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B9A9001, 0x7B9A9003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B9A9001, 0x7B9A9004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B9A9001, 0x7B9A9005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B9A9001, 0x7B9A9006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B9A9001, 0x7B9A9007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A9002,  7345, 0xB9A90014, 59.93413, 83.72553, 83.01237, -0.836498, 0, 0, -0.5479699,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

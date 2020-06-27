@@ -5,15 +5,15 @@ VALUES (0x77DC5001,  1154, 0x7DC50027, 113.6883, 154.1792, 227.7261, 1, 0, 0, 0,
 /* @teleloc 0x7DC50027 [113.688300 154.179200 227.726100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC5001, 0x77DC5002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x77DC5001, 0x77DC5003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x77DC5001, 0x77DC5004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x77DC5001, 0x77DC5005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77DC5001, 0x77DC5006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77DC5001, 0x77DC5007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77DC5001, 0x77DC5008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77DC5001, 0x77DC5009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77DC5001, 0x77DC500A, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x77DC5001, 0x77DC5002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x77DC5001, 0x77DC5003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x77DC5001, 0x77DC5004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x77DC5001, 0x77DC5005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77DC5001, 0x77DC5006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77DC5001, 0x77DC5007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77DC5001, 0x77DC5008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77DC5001, 0x77DC5009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77DC5001, 0x77DC500A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC5002, 28551, 0x7DC50027, 113.6883, 154.1792, 227.7261, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -56,7 +56,7 @@ VALUES (0x77DC500B,  1542, 0x7DC50014, 69.46179, 88.61209, 178.5909, 1, 0, 0, 0,
 /* @teleloc 0x7DC50014 [69.461790 88.612090 178.590900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC500B, 0x77DC500C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77DC500B, 0x77DC500C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC500C,  4179, 0x7DC50014, 69.46179, 88.61209, 178.5909, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

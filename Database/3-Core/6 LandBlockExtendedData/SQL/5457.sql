@@ -13,49 +13,49 @@ VALUES (0x75457036,  1154, 0x5457019F, 122.541, -119.84, -0.003000021, -0.699863
 /* @teleloc 0x5457019F [122.541000 -119.840000 -0.003000] -0.699863 0.000000 0.000000 0.714277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75457036, 0x75457037, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457038, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457039, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x7545703A, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545703B, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545703C, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545703D, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545703E, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545703F, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457040, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457041, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457042, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457043, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457044, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457045, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457046, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457047, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457048, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457049, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545704A, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545704B, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545704C, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545704D, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545704E, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545704F, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457050, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457051, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457052, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x75457053, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457054, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457055, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457056, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457057, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457058, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x75457059, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver */
-     , (0x75457036, 0x7545705A, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */
-     , (0x75457036, 0x7545705B, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545705C, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545705D, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545705E, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x7545705F, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457060, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi */
-     , (0x75457036, 0x75457061, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow */;
+VALUES (0x75457036, 0x75457037, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457038, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457039, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x7545703A, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545703B, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545703C, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545703D, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545703E, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545703F, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457040, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457041, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457042, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457043, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457044, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457045, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457046, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457047, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457048, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457049, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545704A, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545704B, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545704C, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545704D, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545704E, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545704F, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457050, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457051, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457052, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457053, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457054, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457055, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457056, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457057, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457058, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x75457059, '2019-02-10 00:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x75457036, 0x7545705A, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x7545705B, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545705C, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545705D, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545705E, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x7545705F, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457060, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x75457036, 0x75457061, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457037, 19267, 0x5457019F, 122.541, -119.84, -0.003000021, -0.699863, 0, 0, 0.714277,  True, '2019-02-10 00:00:00'); /* Bronze Statue of a Grievver */
@@ -234,7 +234,7 @@ VALUES (0x75457062,  1542, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 
 /* @teleloc 0x54570134 [165.144700 -46.937630 -6.063000] -0.785183 0.000000 0.000000 -0.619263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75457062, 0x75457063, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x75457062, 0x75457063, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457063,  1955, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 0, 0, -0.6192634,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,13 +5,13 @@ VALUES (0x79CC2001,  1154, 0x9CC2003B, 168.0776, 54.61716, 27.535, -0.5542061, 0
 /* @teleloc 0x9CC2003B [168.077600 54.617160 27.535000] -0.554206 0.000000 0.000000 -0.832380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CC2001, 0x79CC2002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x79CC2001, 0x79CC2003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x79CC2001, 0x79CC2004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x79CC2001, 0x79CC2005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x79CC2001, 0x79CC2006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79CC2001, 0x79CC2007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79CC2001, 0x79CC2008, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79CC2001, 0x79CC2002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x79CC2001, 0x79CC2003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x79CC2001, 0x79CC2004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x79CC2001, 0x79CC2005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x79CC2001, 0x79CC2006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79CC2001, 0x79CC2007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79CC2001, 0x79CC2008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CC2002,  8014, 0x9CC2003B, 168.0776, 54.61716, 27.535, -0.5542061, 0, 0, -0.8323795,  True, '2019-02-10 00:00:00'); /* Fragment */

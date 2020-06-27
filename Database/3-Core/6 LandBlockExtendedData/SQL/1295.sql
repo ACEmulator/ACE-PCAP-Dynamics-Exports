@@ -5,14 +5,14 @@ VALUES (0x71295001,  1154, 0x1295002D, 136.8257, 109.5232, -0.11875, 0.8910903, 
 /* @teleloc 0x1295002D [136.825700 109.523200 -0.118750] 0.891090 0.000000 0.000000 -0.453826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71295001, 0x71295002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71295001, 0x71295003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71295001, 0x71295004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71295001, 0x71295005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71295001, 0x71295006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71295001, 0x71295007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71295001, 0x71295008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71295001, 0x71295009, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x71295001, 0x71295002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71295001, 0x71295003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71295001, 0x71295004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71295001, 0x71295005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71295001, 0x71295006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71295001, 0x71295007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71295001, 0x71295008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x71295001, 0x71295009, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71295002,  7114, 0x1295002D, 136.8257, 109.5232, -0.11875, 0.8910903, 0, 0, -0.453826,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -51,7 +51,7 @@ VALUES (0x7129500A,  1542, 0x1295002D, 138.4835, 108.0655, -0.11, 0.8910903, 0, 
 /* @teleloc 0x1295002D [138.483500 108.065500 -0.110000] 0.891090 0.000000 0.000000 -0.453826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7129500A, 0x7129500B, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7129500A, 0x7129500B, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7129500B,  9286, 0x1295002D, 138.4835, 108.0655, -0.11, 0.8910903, 0, 0, -0.453826,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

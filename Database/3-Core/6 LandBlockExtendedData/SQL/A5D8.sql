@@ -5,12 +5,12 @@ VALUES (0x7A5D8001,  1154, 0xA5D8000B, 25.32521, 57.93304, 86.45743, 0.7451091, 
 /* @teleloc 0xA5D8000B [25.325210 57.933040 86.457430] 0.745109 0.000000 0.000000 -0.666943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D8001, 0x7A5D8002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A5D8001, 0x7A5D8003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A5D8001, 0x7A5D8004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A5D8001, 0x7A5D8005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A5D8001, 0x7A5D8006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A5D8001, 0x7A5D8007, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7A5D8001, 0x7A5D8002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A5D8001, 0x7A5D8003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A5D8001, 0x7A5D8004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A5D8001, 0x7A5D8005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A5D8001, 0x7A5D8006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A5D8001, 0x7A5D8007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D8002,  7607, 0xA5D8000B, 25.32521, 57.93304, 86.45743, 0.7451091, 0, 0, -0.6669426,  True, '2019-02-10 00:00:00'); /* Ember */

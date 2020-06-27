@@ -5,12 +5,12 @@ VALUES (0x7378B001,  1154, 0x378B002C, 143.9006, 79.13715, 84.0075, 0.9358693, 0
 /* @teleloc 0x378B002C [143.900600 79.137150 84.007500] 0.935869 0.000000 0.000000 -0.352347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7378B001, 0x7378B002, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7378B001, 0x7378B003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7378B001, 0x7378B004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7378B001, 0x7378B005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7378B001, 0x7378B006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7378B001, 0x7378B007, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7378B001, 0x7378B002, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7378B001, 0x7378B003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7378B001, 0x7378B004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7378B001, 0x7378B005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7378B001, 0x7378B006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7378B001, 0x7378B007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7378B002, 20190, 0x378B002C, 143.9006, 79.13715, 84.0075, 0.9358693, 0, 0, -0.3523473,  True, '2019-02-10 00:00:00'); /* Gelid */

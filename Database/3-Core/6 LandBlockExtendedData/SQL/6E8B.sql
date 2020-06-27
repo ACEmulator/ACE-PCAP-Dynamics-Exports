@@ -5,12 +5,12 @@ VALUES (0x76E8B001,  1154, 0x6E8B001C, 79.4077, 89.71957, 3.105936, 0.9537169, 0
 /* @teleloc 0x6E8B001C [79.407700 89.719570 3.105936] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E8B001, 0x76E8B002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x76E8B001, 0x76E8B003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x76E8B001, 0x76E8B004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x76E8B001, 0x76E8B005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x76E8B001, 0x76E8B006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x76E8B001, 0x76E8B007, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x76E8B001, 0x76E8B002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x76E8B001, 0x76E8B003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x76E8B001, 0x76E8B004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x76E8B001, 0x76E8B005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x76E8B001, 0x76E8B006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x76E8B001, 0x76E8B007, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E8B002,  4246, 0x6E8B001C, 79.4077, 89.71957, 3.105936, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -41,7 +41,7 @@ VALUES (0x76E8B008,  1542, 0x6E8B002D, 134.0187, 109.5466, 7.683771, 0.9990482, 
 /* @teleloc 0x6E8B002D [134.018700 109.546600 7.683771] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E8B008, 0x76E8B009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76E8B008, 0x76E8B009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E8B009,  4179, 0x6E8B002D, 134.0187, 109.5466, 7.683771, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

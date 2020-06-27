@@ -5,18 +5,18 @@ VALUES (0x7B433001,  1154, 0xB4330016, 63.49222, 141.242, 38.71158, 0.7102979, 0
 /* @teleloc 0xB4330016 [63.492220 141.242000 38.711580] 0.710298 0.000000 0.000000 -0.703901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B433001, 0x7B433002, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7B433001, 0x7B433003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B433001, 0x7B433004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B433001, 0x7B433005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B433001, 0x7B433006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B433001, 0x7B433007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B433001, 0x7B433008, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B433001, 0x7B433009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B433001, 0x7B43300A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B433001, 0x7B43300B, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B433001, 0x7B43300C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B433001, 0x7B43300D, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7B433001, 0x7B433002, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7B433001, 0x7B433003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B433001, 0x7B433004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B433001, 0x7B433005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B433001, 0x7B433006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B433001, 0x7B433007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B433001, 0x7B433008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B433001, 0x7B433009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B433001, 0x7B43300A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B433001, 0x7B43300B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B433001, 0x7B43300C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B433001, 0x7B43300D, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B433002,  7992, 0xB4330016, 63.49222, 141.242, 38.71158, 0.7102979, 0, 0, -0.7039012,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */
@@ -71,7 +71,7 @@ VALUES (0x7B43300E,  1542, 0xB433001F, 92.49422, 155.5547, 43.35196, 0.7071068, 
 /* @teleloc 0xB433001F [92.494220 155.554700 43.351960] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B43300E, 0x7B43300F, '2019-02-10 00:00:00') /* Eyebright */;
+VALUES (0x7B43300E, 0x7B43300F, '2019-02-10 00:00:00') /* Eyebright (770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B43300F,   770, 0xB433001F, 92.49422, 155.5547, 43.35196, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Eyebright */

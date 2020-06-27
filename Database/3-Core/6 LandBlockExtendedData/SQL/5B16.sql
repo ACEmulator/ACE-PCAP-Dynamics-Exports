@@ -5,19 +5,19 @@ VALUES (0x75B16001,  1154, 0x5B16002C, 130.8117, 76.45181, 120.0046, 0.1512131, 
 /* @teleloc 0x5B16002C [130.811700 76.451810 120.004600] 0.151213 0.000000 0.000000 -0.988501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B16001, 0x75B16002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75B16001, 0x75B16003, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75B16001, 0x75B16004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75B16001, 0x75B16005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75B16001, 0x75B16006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x75B16001, 0x75B16007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75B16001, 0x75B16008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75B16001, 0x75B16009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75B16001, 0x75B1600A, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75B16001, 0x75B1600B, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75B16001, 0x75B1600C, '2019-02-10 00:00:00') /* Ethereal Rift */
-     , (0x75B16001, 0x75B1600D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75B16001, 0x75B1600E, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x75B16001, 0x75B16002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75B16001, 0x75B16003, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75B16001, 0x75B16004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75B16001, 0x75B16005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75B16001, 0x75B16006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x75B16001, 0x75B16007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75B16001, 0x75B16008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75B16001, 0x75B16009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75B16001, 0x75B1600A, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75B16001, 0x75B1600B, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75B16001, 0x75B1600C, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */
+     , (0x75B16001, 0x75B1600D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75B16001, 0x75B1600E, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B16002,  1610, 0x5B16002C, 130.8117, 76.45181, 120.0046, 0.1512131, 0, 0, -0.9885012,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -76,9 +76,9 @@ VALUES (0x75B1600F,  1542, 0x5B160017, 60.76665, 146.0337, 69.9583, 0.9934421, 0
 /* @teleloc 0x5B160017 [60.766650 146.033700 69.958300] 0.993442 0.000000 0.000000 -0.114336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B1600F, 0x75B16010, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x75B1600F, 0x75B16011, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal */
-     , (0x75B1600F, 0x75B16012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75B1600F, 0x75B16010, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x75B1600F, 0x75B16011, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */
+     , (0x75B1600F, 0x75B16012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B16010,  8039, 0x5B160017, 60.76665, 146.0337, 69.9583, 0.9934421, 0, 0, -0.1143363,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

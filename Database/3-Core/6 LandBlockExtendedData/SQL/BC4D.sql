@@ -5,20 +5,20 @@ VALUES (0x7BC4D001,  1154, 0xBC4D003E, 172.7805, 139.9779, 32.3385, -0.6427876, 
 /* @teleloc 0xBC4D003E [172.780500 139.977900 32.338500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC4D001, 0x7BC4D002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC4D001, 0x7BC4D003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7BC4D001, 0x7BC4D004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BC4D001, 0x7BC4D005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BC4D001, 0x7BC4D006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BC4D001, 0x7BC4D007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BC4D001, 0x7BC4D008, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7BC4D001, 0x7BC4D009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC4D001, 0x7BC4D00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC4D001, 0x7BC4D00B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7BC4D001, 0x7BC4D00C, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7BC4D001, 0x7BC4D00D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7BC4D001, 0x7BC4D00E, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7BC4D001, 0x7BC4D00F, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7BC4D001, 0x7BC4D002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BC4D001, 0x7BC4D003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7BC4D001, 0x7BC4D004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BC4D001, 0x7BC4D005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BC4D001, 0x7BC4D006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BC4D001, 0x7BC4D007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BC4D001, 0x7BC4D008, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7BC4D001, 0x7BC4D009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BC4D001, 0x7BC4D00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BC4D001, 0x7BC4D00B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7BC4D001, 0x7BC4D00C, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7BC4D001, 0x7BC4D00D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7BC4D001, 0x7BC4D00E, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7BC4D001, 0x7BC4D00F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC4D002,  1608, 0xBC4D003E, 172.7805, 139.9779, 32.3385, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -81,9 +81,9 @@ VALUES (0x7BC4D010,  1542, 0xBC4D0023, 110.4543, 56.96988, 37.25251, 1, 0, 0, 0,
 /* @teleloc 0xBC4D0023 [110.454300 56.969880 37.252510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC4D010, 0x7BC4D011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BC4D010, 0x7BC4D012, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7BC4D010, 0x7BC4D013, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7BC4D010, 0x7BC4D011, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7BC4D010, 0x7BC4D012, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7BC4D010, 0x7BC4D013, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC4D011, 22576, 0xBC4D0023, 110.4543, 56.96988, 37.25251, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

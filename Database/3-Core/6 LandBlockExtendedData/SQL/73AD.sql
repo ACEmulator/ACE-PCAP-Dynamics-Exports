@@ -5,13 +5,13 @@ VALUES (0x773AD001,  1154, 0x73AD0040, 175.0955, 183.3378, 68.29267, -0.861531, 
 /* @teleloc 0x73AD0040 [175.095500 183.337800 68.292670] -0.861531 0.000000 0.000000 -0.507705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773AD001, 0x773AD002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773AD001, 0x773AD003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773AD001, 0x773AD004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773AD001, 0x773AD005, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x773AD001, 0x773AD006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x773AD001, 0x773AD007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x773AD001, 0x773AD008, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x773AD001, 0x773AD002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773AD001, 0x773AD003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773AD001, 0x773AD004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773AD001, 0x773AD005, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x773AD001, 0x773AD006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x773AD001, 0x773AD007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x773AD001, 0x773AD008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773AD002, 22520, 0x73AD0040, 175.0955, 183.3378, 68.29267, -0.861531, 0, 0, -0.507705,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

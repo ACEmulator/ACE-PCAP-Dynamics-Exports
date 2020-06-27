@@ -5,19 +5,19 @@ VALUES (0x78DF0001,  1154, 0x8DF00040, 183.5503, 172.41, 20, 0.2588191, 0, 0, -0
 /* @teleloc 0x8DF00040 [183.550300 172.410000 20.000000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DF0001, 0x78DF0002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DF0001, 0x78DF0003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DF0001, 0x78DF0004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DF0001, 0x78DF0005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DF0001, 0x78DF0006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DF0001, 0x78DF0007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DF0001, 0x78DF0008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78DF0001, 0x78DF0009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78DF0001, 0x78DF000A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DF0001, 0x78DF000B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78DF0001, 0x78DF000C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DF0001, 0x78DF000D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DF0001, 0x78DF000E, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x78DF0001, 0x78DF0002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DF0001, 0x78DF0003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DF0001, 0x78DF0004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DF0001, 0x78DF0005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DF0001, 0x78DF0006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DF0001, 0x78DF0007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DF0001, 0x78DF0008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78DF0001, 0x78DF0009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78DF0001, 0x78DF000A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DF0001, 0x78DF000B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78DF0001, 0x78DF000C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DF0001, 0x78DF000D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DF0001, 0x78DF000E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DF0002,  7085, 0x8DF00040, 183.5503, 172.41, 20, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -76,8 +76,8 @@ VALUES (0x78DF000F,  1542, 0x8DF00040, 179.599, 169.1871, 20, 0.9990482, 0, 0, -
 /* @teleloc 0x8DF00040 [179.599000 169.187100 20.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DF000F, 0x78DF0010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78DF000F, 0x78DF0011, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x78DF000F, 0x78DF0010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78DF000F, 0x78DF0011, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DF0010,  4179, 0x8DF00040, 179.599, 169.1871, 20, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

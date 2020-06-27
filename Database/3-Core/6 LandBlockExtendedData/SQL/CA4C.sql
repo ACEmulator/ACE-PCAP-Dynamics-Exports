@@ -5,8 +5,8 @@ VALUES (0x7CA4C001,  1154, 0xCA4C000B, 46.58601, 59.992, 40.01133, -0.2706812, 0
 /* @teleloc 0xCA4C000B [46.586010 59.992000 40.011330] -0.270681 0.000000 0.000000 -0.962669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA4C001, 0x7CA4C002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CA4C001, 0x7CA4C003, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7CA4C001, 0x7CA4C002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CA4C001, 0x7CA4C003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA4C002,  6645, 0xCA4C000B, 46.58601, 59.992, 40.01133, -0.2706812, 0, 0, -0.962669,  True, '2019-02-10 00:00:00'); /* Magma Golem */

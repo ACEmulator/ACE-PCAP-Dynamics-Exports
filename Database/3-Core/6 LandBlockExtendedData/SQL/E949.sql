@@ -5,13 +5,13 @@ VALUES (0x7E949001,  1154, 0xE949002D, 141.8639, 115.7028, 13.8221, 0.8748267, 0
 /* @teleloc 0xE949002D [141.863900 115.702800 13.822100] 0.874827 0.000000 0.000000 -0.484436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E949001, 0x7E949002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E949001, 0x7E949003, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E949001, 0x7E949004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E949001, 0x7E949005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E949001, 0x7E949006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E949001, 0x7E949007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E949001, 0x7E949008, '2019-02-10 00:00:00') /* Jibrit Zefir */;
+VALUES (0x7E949001, 0x7E949002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E949001, 0x7E949003, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E949001, 0x7E949004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E949001, 0x7E949005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E949001, 0x7E949006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E949001, 0x7E949007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E949001, 0x7E949008, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E949002,  7991, 0xE949002D, 141.8639, 115.7028, 13.8221, 0.8748267, 0, 0, -0.4844359,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

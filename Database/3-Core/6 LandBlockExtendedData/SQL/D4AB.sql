@@ -5,14 +5,14 @@ VALUES (0x7D4AB001,  1154, 0xD4AB0027, 114.2241, 159.1493, 5.738855, -0.1010185,
 /* @teleloc 0xD4AB0027 [114.224100 159.149300 5.738855] -0.101019 0.000000 0.000000 -0.994885 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4AB001, 0x7D4AB002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4AB001, 0x7D4AB003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D4AB001, 0x7D4AB004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D4AB001, 0x7D4AB005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D4AB001, 0x7D4AB006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4AB001, 0x7D4AB007, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D4AB001, 0x7D4AB008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D4AB001, 0x7D4AB009, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7D4AB001, 0x7D4AB002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4AB001, 0x7D4AB003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D4AB001, 0x7D4AB004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D4AB001, 0x7D4AB005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D4AB001, 0x7D4AB006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4AB001, 0x7D4AB007, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D4AB001, 0x7D4AB008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D4AB001, 0x7D4AB009, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4AB002,  1630, 0xD4AB0027, 114.2241, 159.1493, 5.738855, -0.1010185, 0, 0, -0.9948846,  True, '2019-02-10 00:00:00'); /* Lich Lord */

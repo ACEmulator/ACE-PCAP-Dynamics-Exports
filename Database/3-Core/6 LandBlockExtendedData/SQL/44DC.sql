@@ -5,26 +5,26 @@ VALUES (0x744DC001,  1154, 0x44DC0015, 69.22849, 96.12675, 44.47498, 0.8191521, 
 /* @teleloc 0x44DC0015 [69.228490 96.126750 44.474980] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744DC001, 0x744DC002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x744DC001, 0x744DC003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x744DC001, 0x744DC004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x744DC001, 0x744DC005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x744DC001, 0x744DC006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x744DC001, 0x744DC007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744DC001, 0x744DC008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744DC001, 0x744DC009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744DC001, 0x744DC00A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x744DC001, 0x744DC00B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x744DC001, 0x744DC00C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x744DC001, 0x744DC00D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x744DC001, 0x744DC00E, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x744DC001, 0x744DC00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x744DC001, 0x744DC010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x744DC001, 0x744DC011, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x744DC001, 0x744DC012, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x744DC001, 0x744DC013, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x744DC001, 0x744DC014, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x744DC001, 0x744DC015, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x744DC001, 0x744DC002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x744DC001, 0x744DC003, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x744DC001, 0x744DC004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x744DC001, 0x744DC005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x744DC001, 0x744DC006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x744DC001, 0x744DC007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744DC001, 0x744DC008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744DC001, 0x744DC009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744DC001, 0x744DC00A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x744DC001, 0x744DC00B, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x744DC001, 0x744DC00C, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x744DC001, 0x744DC00D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x744DC001, 0x744DC00E, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x744DC001, 0x744DC00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x744DC001, 0x744DC010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x744DC001, 0x744DC011, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x744DC001, 0x744DC012, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x744DC001, 0x744DC013, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x744DC001, 0x744DC014, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x744DC001, 0x744DC015, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744DC002,  7121, 0x44DC0015, 69.22849, 96.12675, 44.47498, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

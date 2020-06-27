@@ -5,19 +5,19 @@ VALUES (0x7AFB1001,  1154, 0xAFB1000A, 41.01378, 43.85818, 27.9925, 0.9926826, 0
 /* @teleloc 0xAFB1000A [41.013780 43.858180 27.992500] 0.992683 0.000000 0.000000 -0.120753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB1001, 0x7AFB1002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFB1001, 0x7AFB1003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFB1001, 0x7AFB1004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFB1001, 0x7AFB1005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AFB1001, 0x7AFB1006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AFB1001, 0x7AFB1007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AFB1001, 0x7AFB1008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB1001, 0x7AFB1009, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AFB1001, 0x7AFB100A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFB1001, 0x7AFB100B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB1001, 0x7AFB100C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7AFB1001, 0x7AFB100D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFB1001, 0x7AFB100E, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7AFB1001, 0x7AFB1002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFB1001, 0x7AFB1003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFB1001, 0x7AFB1004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFB1001, 0x7AFB1005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AFB1001, 0x7AFB1006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AFB1001, 0x7AFB1007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AFB1001, 0x7AFB1008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB1001, 0x7AFB1009, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AFB1001, 0x7AFB100A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFB1001, 0x7AFB100B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB1001, 0x7AFB100C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7AFB1001, 0x7AFB100D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFB1001, 0x7AFB100E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB1002,  2612, 0xAFB1000A, 41.01378, 43.85818, 27.9925, 0.9926826, 0, 0, -0.1207526,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

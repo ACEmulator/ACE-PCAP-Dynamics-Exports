@@ -5,23 +5,23 @@ VALUES (0x79E60001,  1154, 0x9E600013, 67.40831, 49.54918, 101.3608, -0.4502088,
 /* @teleloc 0x9E600013 [67.408310 49.549180 101.360800] -0.450209 0.000000 0.000000 -0.892923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E60001, 0x79E60002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79E60001, 0x79E60003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79E60001, 0x79E60004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79E60001, 0x79E60005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79E60001, 0x79E60006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E60001, 0x79E60007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E60001, 0x79E60008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79E60001, 0x79E60009, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79E60001, 0x79E6000A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79E60001, 0x79E6000B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79E60001, 0x79E6000C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x79E60001, 0x79E6000D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E60001, 0x79E6000E, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79E60001, 0x79E6000F, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79E60001, 0x79E60010, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79E60001, 0x79E60011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79E60001, 0x79E60012, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x79E60001, 0x79E60002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79E60001, 0x79E60003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79E60001, 0x79E60004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79E60001, 0x79E60005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79E60001, 0x79E60006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E60001, 0x79E60007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E60001, 0x79E60008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79E60001, 0x79E60009, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79E60001, 0x79E6000A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79E60001, 0x79E6000B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79E60001, 0x79E6000C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x79E60001, 0x79E6000D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E60001, 0x79E6000E, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79E60001, 0x79E6000F, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79E60001, 0x79E60010, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79E60001, 0x79E60011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79E60001, 0x79E60012, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E60002,  9257, 0x9E600013, 67.40831, 49.54918, 101.3608, -0.4502088, 0, 0, -0.8929233,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
@@ -96,7 +96,7 @@ VALUES (0x79E60013,  1542, 0x9E600024, 108.1814, 76.82966, 126.8781, 0.7543867, 
 /* @teleloc 0x9E600024 [108.181400 76.829660 126.878100] 0.754387 0.000000 0.000000 -0.656430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E60013, 0x79E60014, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79E60013, 0x79E60014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E60014,  8037, 0x9E600024, 108.1814, 76.82966, 126.8781, 0.7543867, 0, 0, -0.6564302,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

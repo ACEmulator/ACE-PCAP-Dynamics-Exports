@@ -5,24 +5,24 @@ VALUES (0x7B5DC001,  1154, 0xB5DC003D, 172.6955, 117.9853, -0.4495, -0.6427876, 
 /* @teleloc 0xB5DC003D [172.695500 117.985300 -0.449500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5DC001, 0x7B5DC002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B5DC001, 0x7B5DC003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B5DC001, 0x7B5DC004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7B5DC001, 0x7B5DC005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B5DC001, 0x7B5DC006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B5DC001, 0x7B5DC007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B5DC001, 0x7B5DC008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B5DC001, 0x7B5DC009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7B5DC001, 0x7B5DC00A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B5DC001, 0x7B5DC00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B5DC001, 0x7B5DC00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B5DC001, 0x7B5DC00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B5DC001, 0x7B5DC00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B5DC001, 0x7B5DC00F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7B5DC001, 0x7B5DC010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B5DC001, 0x7B5DC011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7B5DC001, 0x7B5DC012, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B5DC001, 0x7B5DC013, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7B5DC001, 0x7B5DC002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B5DC001, 0x7B5DC003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B5DC001, 0x7B5DC004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7B5DC001, 0x7B5DC005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B5DC001, 0x7B5DC006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B5DC001, 0x7B5DC007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B5DC001, 0x7B5DC008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B5DC001, 0x7B5DC009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7B5DC001, 0x7B5DC00A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B5DC001, 0x7B5DC00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B5DC001, 0x7B5DC00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B5DC001, 0x7B5DC00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B5DC001, 0x7B5DC00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B5DC001, 0x7B5DC00F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7B5DC001, 0x7B5DC010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B5DC001, 0x7B5DC011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7B5DC001, 0x7B5DC012, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B5DC001, 0x7B5DC013, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5DC002,  7987, 0xB5DC003D, 172.6955, 117.9853, -0.4495, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -101,7 +101,7 @@ VALUES (0x7B5DC014,  1542, 0xB5DC0010, 29.10448, 173.3955, -0.91, 0.8360819, 0, 
 /* @teleloc 0xB5DC0010 [29.104480 173.395500 -0.910000] 0.836082 0.000000 0.000000 -0.548605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5DC014, 0x7B5DC015, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x7B5DC014, 0x7B5DC015, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5DC015,  9287, 0xB5DC0010, 29.10448, 173.3955, -0.91, 0.8360819, 0, 0, -0.5486047,  True, '2019-02-10 00:00:00'); /* Master's Holding */

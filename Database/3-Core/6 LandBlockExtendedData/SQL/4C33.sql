@@ -5,13 +5,13 @@ VALUES (0x74C33001,  1154, 0x4C330009, 36.15831, 8.255517, -0.89175, 0.2588191, 
 /* @teleloc 0x4C330009 [36.158310 8.255517 -0.891750] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C33001, 0x74C33002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74C33001, 0x74C33003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74C33001, 0x74C33004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74C33001, 0x74C33005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74C33001, 0x74C33006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74C33001, 0x74C33007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74C33001, 0x74C33008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x74C33001, 0x74C33002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74C33001, 0x74C33003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74C33001, 0x74C33004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74C33001, 0x74C33005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74C33001, 0x74C33006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74C33001, 0x74C33007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74C33001, 0x74C33008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C33002, 24320, 0x4C330009, 36.15831, 8.255517, -0.89175, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -46,7 +46,7 @@ VALUES (0x74C33009,  1542, 0x4C330009, 33.99562, 12.60785, 0, -4.371139E-08, 0, 
 /* @teleloc 0x4C330009 [33.995620 12.607850 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C33009, 0x74C3300A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74C33009, 0x74C3300A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C3300A,  4380, 0x4C330009, 33.99562, 12.60785, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

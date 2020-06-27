@@ -5,22 +5,22 @@ VALUES (0x78EED001,  1154, 0x8EED003B, 177.2012, 57.45585, 13.21451, -0.3946718,
 /* @teleloc 0x8EED003B [177.201200 57.455850 13.214510] -0.394672 0.000000 0.000000 -0.918822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EED001, 0x78EED002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78EED001, 0x78EED003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EED001, 0x78EED004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EED001, 0x78EED005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EED001, 0x78EED006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78EED001, 0x78EED007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EED001, 0x78EED008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EED001, 0x78EED009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x78EED001, 0x78EED00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EED001, 0x78EED00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EED001, 0x78EED00C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x78EED001, 0x78EED00D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78EED001, 0x78EED00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EED001, 0x78EED00F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78EED001, 0x78EED010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EED001, 0x78EED011, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x78EED001, 0x78EED002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78EED001, 0x78EED003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EED001, 0x78EED004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EED001, 0x78EED005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EED001, 0x78EED006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78EED001, 0x78EED007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EED001, 0x78EED008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EED001, 0x78EED009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x78EED001, 0x78EED00A, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EED001, 0x78EED00B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EED001, 0x78EED00C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x78EED001, 0x78EED00D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78EED001, 0x78EED00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EED001, 0x78EED00F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78EED001, 0x78EED010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EED001, 0x78EED011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EED002,  7179, 0x8EED003B, 177.2012, 57.45585, 13.21451, -0.3946718, 0, 0, -0.9188222,  True, '2019-02-10 00:00:00'); /* Relic Bones */

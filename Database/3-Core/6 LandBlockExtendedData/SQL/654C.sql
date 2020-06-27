@@ -33,7 +33,7 @@ VALUES (0x7654C10F,  1154, 0x654C069C, 136.173, -147.413, 0.004999995, -0.39868,
 /* @teleloc 0x654C069C [136.173000 -147.413000 0.005000] -0.398680 0.000000 0.000000 -0.917090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654C10F, 0x7654C110, '2019-02-10 00:00:00') /* Calitoth */;
+VALUES (0x7654C10F, 0x7654C110, '2019-02-10 00:00:00') /* Calitoth (48937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654C110, 48937, 0x654C069C, 136.173, -147.413, 0.004999995, -0.39868, 0, 0, -0.91709,  True, '2019-02-10 00:00:00'); /* Calitoth */
@@ -44,7 +44,7 @@ VALUES (0x7654C111,  1542, 0x654C0690, 118.2064, -170.9289, -0.06299996, 0.92387
 /* @teleloc 0x654C0690 [118.206400 -170.928900 -0.063000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654C111, 0x7654C112, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7654C111, 0x7654C112, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654C112,  1955, 0x654C0690, 118.2064, -170.9289, -0.06299996, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gateway */

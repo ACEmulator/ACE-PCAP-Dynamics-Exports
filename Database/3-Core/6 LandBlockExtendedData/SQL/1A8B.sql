@@ -5,19 +5,19 @@ VALUES (0x71A8B001,  1154, 0x1A8B003A, 190.7133, 31.93384, 126.7042, 0.7660445, 
 /* @teleloc 0x1A8B003A [190.713300 31.933840 126.704200] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8B001, 0x71A8B002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8B001, 0x71A8B003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8B001, 0x71A8B004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A8B001, 0x71A8B005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8B001, 0x71A8B006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8B001, 0x71A8B007, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71A8B001, 0x71A8B008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8B001, 0x71A8B009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A8B001, 0x71A8B00A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A8B001, 0x71A8B00B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A8B001, 0x71A8B00C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71A8B001, 0x71A8B00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A8B001, 0x71A8B00E, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x71A8B001, 0x71A8B002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8B001, 0x71A8B003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8B001, 0x71A8B004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71A8B001, 0x71A8B005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8B001, 0x71A8B006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8B001, 0x71A8B007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71A8B001, 0x71A8B008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8B001, 0x71A8B009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A8B001, 0x71A8B00A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A8B001, 0x71A8B00B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A8B001, 0x71A8B00C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71A8B001, 0x71A8B00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A8B001, 0x71A8B00E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8B002, 36832, 0x1A8B003A, 190.7133, 31.93384, 126.7042, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */

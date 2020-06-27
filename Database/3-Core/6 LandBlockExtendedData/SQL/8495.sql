@@ -5,12 +5,12 @@ VALUES (0x78495001,  1154, 0x8495001D, 78.4522, 105.7984, 134.8685, 0.9317708, 0
 /* @teleloc 0x8495001D [78.452200 105.798400 134.868500] 0.931771 0.000000 0.000000 -0.363047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78495001, 0x78495002, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x78495001, 0x78495003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78495001, 0x78495004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78495001, 0x78495005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78495001, 0x78495006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78495001, 0x78495007, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x78495001, 0x78495002, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x78495001, 0x78495003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78495001, 0x78495004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78495001, 0x78495005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78495001, 0x78495006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78495001, 0x78495007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78495002, 36443, 0x8495001D, 78.4522, 105.7984, 134.8685, 0.9317708, 0, 0, -0.363047,  True, '2019-02-10 00:00:00'); /* Harvest Reaper */

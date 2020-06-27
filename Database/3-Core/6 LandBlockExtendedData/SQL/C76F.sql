@@ -5,15 +5,15 @@ VALUES (0x7C76F001,  1154, 0xC76F003B, 172.719, 48.39606, 48.39575, 0.7933533, 0
 /* @teleloc 0xC76F003B [172.719000 48.396060 48.395750] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C76F001, 0x7C76F002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C76F001, 0x7C76F003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7C76F001, 0x7C76F004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7C76F001, 0x7C76F005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C76F001, 0x7C76F006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C76F001, 0x7C76F007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C76F001, 0x7C76F008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C76F001, 0x7C76F009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C76F001, 0x7C76F00A, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7C76F001, 0x7C76F002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C76F001, 0x7C76F003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7C76F001, 0x7C76F004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7C76F001, 0x7C76F005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C76F001, 0x7C76F006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C76F001, 0x7C76F007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C76F001, 0x7C76F008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C76F001, 0x7C76F009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C76F001, 0x7C76F00A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C76F002,  1762, 0xC76F003B, 172.719, 48.39606, 48.39575, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

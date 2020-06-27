@@ -9,43 +9,43 @@ VALUES (0x73EF8001,  1154, 0x3EF80015, 60.3992, 98.43254, 3.146299, 0.9068655, 0
 /* @teleloc 0x3EF80015 [60.399200 98.432540 3.146299] 0.906866 0.000000 0.000000 -0.421420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EF8001, 0x73EF8002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x73EF8001, 0x73EF8003, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x73EF8001, 0x73EF8004, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x73EF8001, 0x73EF8005, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x73EF8001, 0x73EF8006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73EF8001, 0x73EF8007, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF8008, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x73EF8001, 0x73EF8009, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF800A, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF800B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x73EF8001, 0x73EF800C, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF800D, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF800E, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF800F, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF8010, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF8001, 0x73EF8011, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x73EF8001, 0x73EF8012, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF8001, 0x73EF8013, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF8001, 0x73EF8014, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF8015, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF8016, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EF8001, 0x73EF8017, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x73EF8001, 0x73EF8018, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73EF8001, 0x73EF8019, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73EF8001, 0x73EF801A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EF8001, 0x73EF801B, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x73EF8001, 0x73EF801C, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF8001, 0x73EF801D, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EF8001, 0x73EF801E, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF801F, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73EF8001, 0x73EF8020, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EF8001, 0x73EF8021, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EF8001, 0x73EF8022, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EF8001, 0x73EF8023, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EF8001, 0x73EF8024, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF8001, 0x73EF8025, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EF8001, 0x73EF8026, '2019-02-10 00:00:00') /* Insatiable Eater */;
+VALUES (0x73EF8001, 0x73EF8002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x73EF8001, 0x73EF8003, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x73EF8001, 0x73EF8004, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73EF8001, 0x73EF8005, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73EF8001, 0x73EF8006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73EF8001, 0x73EF8007, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF8008, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x73EF8001, 0x73EF8009, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF800A, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF800B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x73EF8001, 0x73EF800C, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF800D, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF800E, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF800F, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF8010, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF8001, 0x73EF8011, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x73EF8001, 0x73EF8012, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF8001, 0x73EF8013, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF8001, 0x73EF8014, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF8015, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF8016, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EF8001, 0x73EF8017, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x73EF8001, 0x73EF8018, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73EF8001, 0x73EF8019, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73EF8001, 0x73EF801A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF8001, 0x73EF801B, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x73EF8001, 0x73EF801C, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF8001, 0x73EF801D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EF8001, 0x73EF801E, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF801F, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73EF8001, 0x73EF8020, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EF8001, 0x73EF8021, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EF8001, 0x73EF8022, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EF8001, 0x73EF8023, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EF8001, 0x73EF8024, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF8001, 0x73EF8025, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EF8001, 0x73EF8026, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF8002, 24317, 0x3EF80015, 60.3992, 98.43254, 3.146299, 0.9068655, 0, 0, -0.42142,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */

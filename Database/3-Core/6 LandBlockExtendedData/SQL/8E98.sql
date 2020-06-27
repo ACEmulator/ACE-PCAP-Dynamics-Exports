@@ -5,26 +5,26 @@ VALUES (0x78E98001,  1154, 0x8E980005, 8.629637, 107.2578, 69.89719, 0.8870109, 
 /* @teleloc 0x8E980005 [8.629637 107.257800 69.897190] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E98001, 0x78E98002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78E98001, 0x78E98003, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x78E98001, 0x78E98004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78E98001, 0x78E98005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78E98001, 0x78E98006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78E98001, 0x78E98007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78E98001, 0x78E98008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78E98001, 0x78E98009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78E98001, 0x78E9800A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E9800B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x78E98001, 0x78E9800C, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x78E98001, 0x78E9800D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78E98001, 0x78E9800E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78E98001, 0x78E9800F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E98010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E98011, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78E98001, 0x78E98012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E98013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E98014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E98001, 0x78E98015, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x78E98001, 0x78E98002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78E98001, 0x78E98003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78E98001, 0x78E98004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78E98001, 0x78E98005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78E98001, 0x78E98006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78E98001, 0x78E98007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78E98001, 0x78E98008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78E98001, 0x78E98009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78E98001, 0x78E9800A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E9800B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x78E98001, 0x78E9800C, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78E98001, 0x78E9800D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78E98001, 0x78E9800E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78E98001, 0x78E9800F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E98010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E98011, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78E98001, 0x78E98012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E98013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E98014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E98001, 0x78E98015, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E98002,  2576, 0x8E980005, 8.629637, 107.2578, 69.89719, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -111,9 +111,9 @@ VALUES (0x78E98016,  1542, 0x8E980016, 53.97877, 137.7161, 70.74017, 0.9238795, 
 /* @teleloc 0x8E980016 [53.978770 137.716100 70.740170] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E98016, 0x78E98017, '2019-02-10 00:00:00') /* Bones */
-     , (0x78E98016, 0x78E98018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78E98016, 0x78E98019, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x78E98016, 0x78E98017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78E98016, 0x78E98018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78E98016, 0x78E98019, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E98017,  4380, 0x8E980016, 53.97877, 137.7161, 70.74017, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -285,9 +285,9 @@ VALUES (0x7C88C067,  1154, 0xC88C003B, 190.446, 65.30096, 6.055257, -0.8670632, 
 /* @teleloc 0xC88C003B [190.446000 65.300960 6.055257] -0.867063 0.000000 0.000000 -0.498198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C067, 0x7C88C068, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C88C067, 0x7C88C069, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C88C067, 0x7C88C06A, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7C88C067, 0x7C88C068, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C88C067, 0x7C88C069, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C88C067, 0x7C88C06A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C068, 24937, 0xC88C003B, 190.446, 65.30096, 6.055257, -0.8670632, 0, 0, -0.4981981,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -306,105 +306,105 @@ VALUES (0x7C88C06B,  1154, 0xC88C010A, 100.714, 35.5584, 25.005, -0.9503369, 0, 
 /* @teleloc 0xC88C010A [100.714000 35.558400 25.005000] -0.950337 0.000000 0.000000 0.311223 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C06B, 0x7C88C06C, '2019-02-10 00:00:00') /* Mesalina */
-     , (0x7C88C06B, 0x7C88C06D, '2019-02-10 00:00:00') /* Yuudai */
-     , (0x7C88C06B, 0x7C88C06E, '2019-02-10 00:00:00') /* Celcynd the Dour */
-     , (0x7C88C06B, 0x7C88C06F, '2019-02-10 00:00:00') /* Apprentice Fletcher */
-     , (0x7C88C06B, 0x7C88C070, '2019-02-10 00:00:00') /* Tackle Master */
-     , (0x7C88C06B, 0x7C88C071, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C072, '2019-02-10 00:00:00') /* Collector */
-     , (0x7C88C06B, 0x7C88C073, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C074, '2019-02-10 00:00:00') /* Royal Guard Gabrielle */
-     , (0x7C88C06B, 0x7C88C075, '2019-02-10 00:00:00') /* Astara Duskshield */
-     , (0x7C88C06B, 0x7C88C076, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C077, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C078, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C079, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C07F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C080, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C081, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C082, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C083, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C084, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C085, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C086, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C087, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C088, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C089, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C08F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C090, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C091, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C092, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C093, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C094, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C095, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C096, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C097, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C098, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C099, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C09F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0A9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0AF, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0B9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0BF, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0C9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0CA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0CB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0CC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0CD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C88C06B, 0x7C88C0CE, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7C88C06B, 0x7C88C06C, '2019-02-10 00:00:00') /* Mesalina (42982) */
+     , (0x7C88C06B, 0x7C88C06D, '2019-02-10 00:00:00') /* Yuudai (42981) */
+     , (0x7C88C06B, 0x7C88C06E, '2019-02-10 00:00:00') /* Celcynd the Dour (4795) */
+     , (0x7C88C06B, 0x7C88C06F, '2019-02-10 00:00:00') /* Apprentice Fletcher (27746) */
+     , (0x7C88C06B, 0x7C88C070, '2019-02-10 00:00:00') /* Tackle Master (23336) */
+     , (0x7C88C06B, 0x7C88C071, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C072, '2019-02-10 00:00:00') /* Collector (3917) */
+     , (0x7C88C06B, 0x7C88C073, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C074, '2019-02-10 00:00:00') /* Royal Guard Gabrielle (27689) */
+     , (0x7C88C06B, 0x7C88C075, '2019-02-10 00:00:00') /* Astara Duskshield (23348) */
+     , (0x7C88C06B, 0x7C88C076, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C077, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C078, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C079, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07C, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C07F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C080, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C081, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C082, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C083, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C084, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C085, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C086, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C087, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C088, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C089, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08C, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C08F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C090, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C091, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C092, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C093, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C094, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C095, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C096, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C097, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C098, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C099, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09C, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C09F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A0, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A1, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A2, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A3, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A4, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A5, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A6, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A7, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A8, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0A9, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AA, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AB, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AC, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AD, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AE, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0AF, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B0, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B1, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B2, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B3, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B4, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B5, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B6, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B7, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B8, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0B9, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BA, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BB, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BC, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BD, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BE, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0BF, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C0, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C1, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C2, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C3, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C4, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C5, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C6, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C7, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C8, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0C9, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0CA, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0CB, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0CC, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0CD, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C88C06B, 0x7C88C0CE, '2019-02-10 00:00:00') /* Town Crier (5772) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C06C, 42982, 0xC88C010A, 100.714, 35.5584, 25.005, -0.9503369, 0, 0, 0.311223,  True, '2019-02-10 00:00:00'); /* Mesalina */
@@ -807,17 +807,17 @@ VALUES (0x7C88C0CF,  1542, 0xC88C014A, 18.8385, 148.029, 22.94, 0.5662912, 0, 0,
 /* @teleloc 0xC88C014A [18.838500 148.029000 22.940000] 0.566291 0.000000 0.000000 -0.824205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C0CF, 0x7C88C0D0, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem */
-     , (0x7C88C0CF, 0x7C88C0D1, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem */
-     , (0x7C88C0CF, 0x7C88C0D2, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem */
-     , (0x7C88C0CF, 0x7C88C0D3, '2019-02-10 00:00:00') /* Hammer of Lightning  */
-     , (0x7C88C0CF, 0x7C88C0D4, '2019-02-10 00:00:00') /* Empty Book Binding */
-     , (0x7C88C0CF, 0x7C88C0D5, '2019-02-10 00:00:00') /* Cow */
-     , (0x7C88C0CF, 0x7C88C0D6, '2019-02-10 00:00:00') /* Cow */
-     , (0x7C88C0CF, 0x7C88C0D7, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C88C0CF, 0x7C88C0D8, '2019-02-10 00:00:00') /* Apple Pie */
-     , (0x7C88C0CF, 0x7C88C0D9, '2019-02-10 00:00:00') /* Apple Pie */
-     , (0x7C88C0CF, 0x7C88C0DA, '2019-02-10 00:00:00') /* Chainmail Basinet */;
+VALUES (0x7C88C0CF, 0x7C88C0D0, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */
+     , (0x7C88C0CF, 0x7C88C0D1, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
+     , (0x7C88C0CF, 0x7C88C0D2, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
+     , (0x7C88C0CF, 0x7C88C0D3, '2019-02-10 00:00:00') /* Hammer of Lightning  (1436) */
+     , (0x7C88C0CF, 0x7C88C0D4, '2019-02-10 00:00:00') /* Empty Book Binding (30928) */
+     , (0x7C88C0CF, 0x7C88C0D5, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7C88C0CF, 0x7C88C0D6, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7C88C0CF, 0x7C88C0D7, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C88C0CF, 0x7C88C0D8, '2019-02-10 00:00:00') /* Apple Pie (4709) */
+     , (0x7C88C0CF, 0x7C88C0D9, '2019-02-10 00:00:00') /* Apple Pie (4709) */
+     , (0x7C88C0CF, 0x7C88C0DA, '2019-02-10 00:00:00') /* Chainmail Basinet (35) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C0D0, 45981, 0xC88C014A, 18.8385, 148.029, 22.94, 0.5662912, 0, 0, -0.8242053,  True, '2019-02-10 00:00:00'); /* Explorer Light Weapons Gem */

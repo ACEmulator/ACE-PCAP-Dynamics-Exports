@@ -13,51 +13,51 @@ VALUES (0x74AF3003,  1154, 0x4AF30100, 60, 55.27686, 12.6064, 0.7071068, 0, 0, -
 /* @teleloc 0x4AF30100 [60.000000 55.276860 12.606400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AF3003, 0x74AF3004, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3005, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3006, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3007, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3008, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3009, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF300A, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF300B, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF300C, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF300D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x74AF3003, 0x74AF300E, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF300F, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3010, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3011, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3012, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3013, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x74AF3003, 0x74AF3014, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x74AF3003, 0x74AF3015, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman */
-     , (0x74AF3003, 0x74AF3016, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74AF3003, 0x74AF3017, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x74AF3003, 0x74AF3018, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF3003, 0x74AF3019, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x74AF3003, 0x74AF301A, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x74AF3003, 0x74AF301B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x74AF3003, 0x74AF301C, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x74AF3003, 0x74AF301D, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x74AF3003, 0x74AF301E, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74AF3003, 0x74AF301F, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74AF3003, 0x74AF3020, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x74AF3003, 0x74AF3021, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74AF3003, 0x74AF3022, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x74AF3003, 0x74AF3023, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x74AF3003, 0x74AF3024, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF3003, 0x74AF3025, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF3003, 0x74AF3026, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x74AF3003, 0x74AF3027, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74AF3003, 0x74AF3028, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74AF3003, 0x74AF3029, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74AF3003, 0x74AF302A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x74AF3003, 0x74AF302B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF3003, 0x74AF302C, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x74AF3003, 0x74AF302D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF3003, 0x74AF302E, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x74AF3003, 0x74AF302F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74AF3003, 0x74AF3030, '2019-02-10 00:00:00') /* Royal Thaumaturge */;
+VALUES (0x74AF3003, 0x74AF3004, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3005, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3006, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3007, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3008, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (39011) */
+     , (0x74AF3003, 0x74AF3009, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300A, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300B, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300C, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x74AF3003, 0x74AF300E, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF300F, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3010, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3011, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3012, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3013, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x74AF3003, 0x74AF3014, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x74AF3003, 0x74AF3015, '2019-02-10 00:00:00') /* Blighted Grimy Moarsman (37418) */
+     , (0x74AF3003, 0x74AF3016, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74AF3003, 0x74AF3017, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x74AF3003, 0x74AF3018, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF3003, 0x74AF3019, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x74AF3003, 0x74AF301A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x74AF3003, 0x74AF301B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x74AF3003, 0x74AF301C, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x74AF3003, 0x74AF301D, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x74AF3003, 0x74AF301E, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74AF3003, 0x74AF301F, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74AF3003, 0x74AF3020, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x74AF3003, 0x74AF3021, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74AF3003, 0x74AF3022, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x74AF3003, 0x74AF3023, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x74AF3003, 0x74AF3024, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF3003, 0x74AF3025, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF3003, 0x74AF3026, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x74AF3003, 0x74AF3027, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74AF3003, 0x74AF3028, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74AF3003, 0x74AF3029, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74AF3003, 0x74AF302A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x74AF3003, 0x74AF302B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF3003, 0x74AF302C, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x74AF3003, 0x74AF302D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF3003, 0x74AF302E, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x74AF3003, 0x74AF302F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74AF3003, 0x74AF3030, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AF3004, 37418, 0x4AF30100, 60, 55.27686, 12.6064, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blighted Grimy Moarsman */
@@ -244,8 +244,8 @@ VALUES (0x74AF3031,  1542, 0x4AF30021, 111.6362, 5.088058, 13.09203, 0.9920673, 
 /* @teleloc 0x4AF30021 [111.636200 5.088058 13.092030] 0.992067 0.000000 0.000000 -0.125707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AF3031, 0x74AF3032, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x74AF3031, 0x74AF3033, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x74AF3031, 0x74AF3032, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x74AF3031, 0x74AF3033, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AF3032, 31032, 0x4AF30021, 111.6362, 5.088058, 13.09203, 0.9920673, 0, 0, -0.1257074,  True, '2019-02-10 00:00:00'); /* Snow Lily */

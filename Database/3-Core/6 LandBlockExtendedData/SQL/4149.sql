@@ -5,30 +5,30 @@ VALUES (0x74149001,  1154, 0x41490005, 2.888905, 100.3472, 5.094299, 0.9531779, 
 /* @teleloc 0x41490005 [2.888905 100.347200 5.094299] 0.953178 0.000000 0.000000 -0.302410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74149001, 0x74149002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x74149001, 0x74149003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74149001, 0x74149004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74149001, 0x74149007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x74149001, 0x74149008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x7414900A, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74149001, 0x7414900B, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74149001, 0x7414900C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x7414900D, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x74149001, 0x7414900E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x7414900F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74149001, 0x74149013, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149014, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149015, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74149001, 0x74149016, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74149001, 0x74149017, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74149001, 0x74149018, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x74149001, 0x74149019, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74149001, 0x74149002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x74149001, 0x74149003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74149001, 0x74149004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74149001, 0x74149007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x74149001, 0x74149008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x7414900A, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74149001, 0x7414900B, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74149001, 0x7414900C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x7414900D, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x74149001, 0x7414900E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x7414900F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74149001, 0x74149013, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149014, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149015, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74149001, 0x74149016, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74149001, 0x74149017, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74149001, 0x74149018, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x74149001, 0x74149019, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74149002, 41533, 0x41490005, 2.888905, 100.3472, 5.094299, 0.9531779, 0, 0, -0.3024099,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
@@ -131,8 +131,8 @@ VALUES (0x7414901A,  1542, 0x4149000E, 35.90376, 126.3411, 11.1597, 0.9990482, 0
 /* @teleloc 0x4149000E [35.903760 126.341100 11.159700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414901A, 0x7414901B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7414901A, 0x7414901C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7414901A, 0x7414901B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7414901A, 0x7414901C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414901B,  4179, 0x4149000E, 35.90376, 126.3411, 11.1597, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x7A97E001,  1154, 0xA97E003C, 188.1787, 95.31873, 25.74334, -0.04628665
 /* @teleloc 0xA97E003C [188.178700 95.318730 25.743340] -0.046287 0.000000 0.000000 -0.998928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A97E001, 0x7A97E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A97E001, 0x7A97E003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A97E001, 0x7A97E004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A97E001, 0x7A97E005, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7A97E001, 0x7A97E006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A97E001, 0x7A97E007, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7A97E001, 0x7A97E008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A97E001, 0x7A97E009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A97E001, 0x7A97E00A, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7A97E001, 0x7A97E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A97E001, 0x7A97E003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A97E001, 0x7A97E004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A97E001, 0x7A97E005, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7A97E001, 0x7A97E006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A97E001, 0x7A97E007, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7A97E001, 0x7A97E008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A97E001, 0x7A97E009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A97E001, 0x7A97E00A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A97E002,  1758, 0xA97E003C, 188.1787, 95.31873, 25.74334, -0.04628665, 0, 0, -0.9989282,  True, '2019-02-10 00:00:00'); /* Shadow */

@@ -5,10 +5,10 @@ VALUES (0x7BFB8001,  1154, 0xBFB8000C, 47.86974, 94.3083, 380.0543, 0.5930396, 0
 /* @teleloc 0xBFB8000C [47.869740 94.308300 380.054300] 0.593040 0.000000 0.000000 -0.805173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFB8001, 0x7BFB8002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BFB8001, 0x7BFB8003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BFB8001, 0x7BFB8004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7BFB8001, 0x7BFB8005, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7BFB8001, 0x7BFB8002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BFB8001, 0x7BFB8003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BFB8001, 0x7BFB8004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7BFB8001, 0x7BFB8005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFB8002,  2582, 0xBFB8000C, 47.86974, 94.3083, 380.0543, 0.5930396, 0, 0, -0.8051733,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

@@ -5,11 +5,11 @@ VALUES (0x74D9C001,  1154, 0x4D9C0005, 17.06297, 106.2482, 25.72676, -0.9901409,
 /* @teleloc 0x4D9C0005 [17.062970 106.248200 25.726760] -0.990141 0.000000 0.000000 -0.140075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D9C001, 0x74D9C002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74D9C001, 0x74D9C003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74D9C001, 0x74D9C004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74D9C001, 0x74D9C005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x74D9C001, 0x74D9C006, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x74D9C001, 0x74D9C002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74D9C001, 0x74D9C003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74D9C001, 0x74D9C004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74D9C001, 0x74D9C005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x74D9C001, 0x74D9C006, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D9C002, 24293, 0x4D9C0005, 17.06297, 106.2482, 25.72676, -0.9901409, 0, 0, -0.1400753,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

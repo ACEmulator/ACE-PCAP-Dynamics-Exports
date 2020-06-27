@@ -5,15 +5,15 @@ VALUES (0x71594001,  1154, 0x15940014, 61.70148, 87.55309, 0, 0.8496165, 0, 0, -
 /* @teleloc 0x15940014 [61.701480 87.553090 0.000000] 0.849617 0.000000 0.000000 -0.527401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71594001, 0x71594002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71594001, 0x71594003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71594001, 0x71594004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71594001, 0x71594005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71594001, 0x71594006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71594001, 0x71594007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71594001, 0x71594008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71594001, 0x71594009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71594001, 0x7159400A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x71594001, 0x71594002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71594001, 0x71594003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71594001, 0x71594004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71594001, 0x71594005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71594001, 0x71594006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71594001, 0x71594007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71594001, 0x71594008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71594001, 0x71594009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71594001, 0x7159400A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71594002, 24133, 0x15940014, 61.70148, 87.55309, 0, 0.8496165, 0, 0, -0.5274009,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

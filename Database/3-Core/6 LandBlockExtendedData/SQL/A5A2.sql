@@ -5,9 +5,9 @@ VALUES (0x7A5A2001,  1154, 0xA5A2000F, 46.28759, 156.672, 164.3657, 0.8870109, 0
 /* @teleloc 0xA5A2000F [46.287590 156.672000 164.365700] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A2001, 0x7A5A2002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A5A2001, 0x7A5A2003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A5A2001, 0x7A5A2004, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7A5A2001, 0x7A5A2002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A5A2001, 0x7A5A2003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A5A2001, 0x7A5A2004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A2002,  2576, 0xA5A2000F, 46.28759, 156.672, 164.3657, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -26,8 +26,8 @@ VALUES (0x7A5A2005,  1542, 0xA5A20017, 51.44028, 157.6811, 172.93, 0.9990482, 0,
 /* @teleloc 0xA5A20017 [51.440280 157.681100 172.930000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A2005, 0x7A5A2006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A5A2005, 0x7A5A2007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A5A2005, 0x7A5A2006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A5A2005, 0x7A5A2007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A2006,  4179, 0xA5A20017, 51.44028, 157.6811, 172.93, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

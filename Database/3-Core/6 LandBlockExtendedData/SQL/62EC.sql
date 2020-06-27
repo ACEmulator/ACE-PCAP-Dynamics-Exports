@@ -5,18 +5,18 @@ VALUES (0x762EC001,  1154, 0x62EC001C, 73.46642, 87.35312, -0.8934, -0.9283946, 
 /* @teleloc 0x62EC001C [73.466420 87.353120 -0.893400] -0.928395 0.000000 0.000000 -0.371596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762EC001, 0x762EC002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x762EC001, 0x762EC003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x762EC001, 0x762EC004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x762EC001, 0x762EC005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x762EC001, 0x762EC006, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x762EC001, 0x762EC007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x762EC001, 0x762EC008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x762EC001, 0x762EC009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x762EC001, 0x762EC00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x762EC001, 0x762EC00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x762EC001, 0x762EC00C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x762EC001, 0x762EC00D, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x762EC001, 0x762EC002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x762EC001, 0x762EC003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x762EC001, 0x762EC004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x762EC001, 0x762EC005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x762EC001, 0x762EC006, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x762EC001, 0x762EC007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x762EC001, 0x762EC008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x762EC001, 0x762EC009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x762EC001, 0x762EC00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x762EC001, 0x762EC00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x762EC001, 0x762EC00C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x762EC001, 0x762EC00D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762EC002,  4248, 0x62EC001C, 73.46642, 87.35312, -0.8934, -0.9283946, 0, 0, -0.3715959,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x762EC00E,  1542, 0x62EC003A, 183.4466, 46.08648, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x62EC003A [183.446600 46.086480 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762EC00E, 0x762EC00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x762EC00E, 0x762EC00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762EC00F,  4179, 0x62EC003A, 183.4466, 46.08648, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

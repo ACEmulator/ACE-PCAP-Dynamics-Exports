@@ -5,10 +5,10 @@ VALUES (0x785C6001,  1154, 0x85C60011, 70.01389, 17.65111, 88.69458, 0.8805987, 
 /* @teleloc 0x85C60011 [70.013890 17.651110 88.694580] 0.880599 0.000000 0.000000 -0.473863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785C6001, 0x785C6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x785C6001, 0x785C6003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x785C6001, 0x785C6004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x785C6001, 0x785C6005, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x785C6001, 0x785C6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x785C6001, 0x785C6003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x785C6001, 0x785C6004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x785C6001, 0x785C6005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785C6002, 28551, 0x85C60011, 70.01389, 17.65111, 88.69458, 0.8805987, 0, 0, -0.4738627,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

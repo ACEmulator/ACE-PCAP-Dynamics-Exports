@@ -5,10 +5,10 @@ VALUES (0x71369001,  1154, 0x13690006, 22.06675, 121.4827, 18.13071, 0.7071068, 
 /* @teleloc 0x13690006 [22.066750 121.482700 18.130710] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71369001, 0x71369002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71369001, 0x71369003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71369001, 0x71369004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71369001, 0x71369005, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x71369001, 0x71369002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71369001, 0x71369003, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71369001, 0x71369004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71369001, 0x71369005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71369002, 36819, 0x13690006, 22.06675, 121.4827, 18.13071, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -31,7 +31,7 @@ VALUES (0x71369006,  1542, 0x13690001, 16.73203, 14.55964, 26.42068, 1, 0, 0, 0,
 /* @teleloc 0x13690001 [16.732030 14.559640 26.420680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71369006, 0x71369007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71369006, 0x71369007, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71369007, 22566, 0x13690001, 16.73203, 14.55964, 26.42068, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

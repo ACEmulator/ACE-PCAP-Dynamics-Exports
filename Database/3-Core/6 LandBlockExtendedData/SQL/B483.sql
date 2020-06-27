@@ -5,16 +5,16 @@ VALUES (0x7B483001,  1154, 0xB4830033, 150.2528, 63.68332, 28.35503, 0.4224017, 
 /* @teleloc 0xB4830033 [150.252800 63.683320 28.355030] 0.422402 0.000000 0.000000 -0.906409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B483001, 0x7B483002, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7B483001, 0x7B483003, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7B483001, 0x7B483004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B483001, 0x7B483005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B483001, 0x7B483006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B483001, 0x7B483007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B483001, 0x7B483008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B483001, 0x7B483009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B483001, 0x7B48300A, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7B483001, 0x7B48300B, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7B483001, 0x7B483002, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7B483001, 0x7B483003, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7B483001, 0x7B483004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B483001, 0x7B483005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B483001, 0x7B483006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B483001, 0x7B483007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B483001, 0x7B483008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B483001, 0x7B483009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B483001, 0x7B48300A, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7B483001, 0x7B48300B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B483002, 11981, 0xB4830033, 150.2528, 63.68332, 28.35503, 0.4224017, 0, 0, -0.9064087,  True, '2019-02-10 00:00:00'); /* Master of the Herd */
@@ -61,7 +61,7 @@ VALUES (0x7B48300C,  1542, 0xB4830025, 113.8875, 99.24187, 30.00035, 0.9273294, 
 /* @teleloc 0xB4830025 [113.887500 99.241870 30.000350] 0.927329 0.000000 0.000000 -0.374246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B48300C, 0x7B48300D, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7B48300C, 0x7B48300D, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B48300D,  8041, 0xB4830025, 113.8875, 99.24187, 30.00035, 0.9273294, 0, 0, -0.3742461,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

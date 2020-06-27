@@ -5,35 +5,35 @@ VALUES (0x7424A001,  1154, 0x424A0002, 21.25189, 37.35317, 0.2365094, 0.8031336,
 /* @teleloc 0x424A0002 [21.251890 37.353170 0.236509] 0.803134 0.000000 0.000000 -0.595799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424A001, 0x7424A002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7424A001, 0x7424A003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7424A001, 0x7424A004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x7424A001, 0x7424A005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7424A001, 0x7424A006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7424A001, 0x7424A007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7424A001, 0x7424A008, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7424A001, 0x7424A009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7424A001, 0x7424A00A, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7424A001, 0x7424A00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7424A001, 0x7424A00C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7424A001, 0x7424A00D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7424A001, 0x7424A00E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7424A001, 0x7424A00F, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7424A001, 0x7424A010, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7424A001, 0x7424A011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7424A001, 0x7424A012, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424A001, 0x7424A013, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424A001, 0x7424A014, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424A001, 0x7424A015, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7424A001, 0x7424A016, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7424A001, 0x7424A017, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7424A001, 0x7424A018, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7424A001, 0x7424A019, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7424A001, 0x7424A01A, '2019-02-10 00:00:00') /* True Believer */
-     , (0x7424A001, 0x7424A01B, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x7424A001, 0x7424A01C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7424A001, 0x7424A01D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7424A001, 0x7424A01E, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7424A001, 0x7424A002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7424A001, 0x7424A003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7424A001, 0x7424A004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x7424A001, 0x7424A005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7424A001, 0x7424A006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7424A001, 0x7424A007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7424A001, 0x7424A008, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7424A001, 0x7424A009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7424A001, 0x7424A00A, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7424A001, 0x7424A00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7424A001, 0x7424A00C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7424A001, 0x7424A00D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7424A001, 0x7424A00E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7424A001, 0x7424A00F, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7424A001, 0x7424A010, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7424A001, 0x7424A011, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7424A001, 0x7424A012, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424A001, 0x7424A013, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424A001, 0x7424A014, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424A001, 0x7424A015, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7424A001, 0x7424A016, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7424A001, 0x7424A017, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7424A001, 0x7424A018, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7424A001, 0x7424A019, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7424A001, 0x7424A01A, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x7424A001, 0x7424A01B, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x7424A001, 0x7424A01C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7424A001, 0x7424A01D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7424A001, 0x7424A01E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424A002, 41533, 0x424A0002, 21.25189, 37.35317, 0.2365094, 0.8031336, 0, 0, -0.595799,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
@@ -156,8 +156,8 @@ VALUES (0x7424A01F,  1542, 0x424A0011, 48.0863, 19.31037, 0.5349013, 1, 0, 0, 0,
 /* @teleloc 0x424A0011 [48.086300 19.310370 0.534901] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424A01F, 0x7424A020, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7424A01F, 0x7424A021, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7424A01F, 0x7424A020, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7424A01F, 0x7424A021, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424A020, 31445, 0x424A0011, 48.0863, 19.31037, 0.5349013, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

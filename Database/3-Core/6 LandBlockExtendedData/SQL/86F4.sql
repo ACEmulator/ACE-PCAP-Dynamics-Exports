@@ -5,11 +5,11 @@ VALUES (0x786F4001,  1154, 0x86F40021, 115.3594, 16.64507, 101.4589, 0.9997627, 
 /* @teleloc 0x86F40021 [115.359400 16.645070 101.458900] 0.999763 0.000000 0.000000 -0.021787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786F4001, 0x786F4002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x786F4001, 0x786F4003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x786F4001, 0x786F4004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x786F4001, 0x786F4005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x786F4001, 0x786F4006, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x786F4001, 0x786F4002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x786F4001, 0x786F4003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x786F4001, 0x786F4004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x786F4001, 0x786F4005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x786F4001, 0x786F4006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786F4002, 36842, 0x86F40021, 115.3594, 16.64507, 101.4589, 0.9997627, 0, 0, -0.02178676,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

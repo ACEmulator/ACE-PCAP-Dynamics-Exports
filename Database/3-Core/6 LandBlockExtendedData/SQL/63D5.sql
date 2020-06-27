@@ -5,33 +5,33 @@ VALUES (0x763D5001,  1154, 0x63D5000C, 31.52743, 95.05723, 56.47731, -0.9999822,
 /* @teleloc 0x63D5000C [31.527430 95.057230 56.477310] -0.999982 0.000000 0.000000 0.005971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D5001, 0x763D5002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x763D5001, 0x763D5003, '2019-02-10 00:00:00') /* Frost */
-     , (0x763D5001, 0x763D5004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x763D5001, 0x763D5005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x763D5001, 0x763D5006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x763D5001, 0x763D5007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x763D5001, 0x763D5008, '2019-02-10 00:00:00') /* Frost */
-     , (0x763D5001, 0x763D5009, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x763D5001, 0x763D500A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x763D5001, 0x763D500B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x763D5001, 0x763D500C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x763D5001, 0x763D500D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x763D5001, 0x763D500E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x763D5001, 0x763D500F, '2019-02-10 00:00:00') /* Gelid */
-     , (0x763D5001, 0x763D5010, '2019-02-10 00:00:00') /* Frost */
-     , (0x763D5001, 0x763D5011, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x763D5001, 0x763D5012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x763D5001, 0x763D5013, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x763D5001, 0x763D5014, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x763D5001, 0x763D5015, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D5001, 0x763D5016, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D5001, 0x763D5017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D5001, 0x763D5018, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x763D5001, 0x763D5019, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x763D5001, 0x763D501A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x763D5001, 0x763D501B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x763D5001, 0x763D501C, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x763D5001, 0x763D5002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x763D5001, 0x763D5003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x763D5001, 0x763D5004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x763D5001, 0x763D5005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x763D5001, 0x763D5006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x763D5001, 0x763D5007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x763D5001, 0x763D5008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x763D5001, 0x763D5009, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x763D5001, 0x763D500A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x763D5001, 0x763D500B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x763D5001, 0x763D500C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x763D5001, 0x763D500D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x763D5001, 0x763D500E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x763D5001, 0x763D500F, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x763D5001, 0x763D5010, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x763D5001, 0x763D5011, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x763D5001, 0x763D5012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x763D5001, 0x763D5013, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x763D5001, 0x763D5014, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x763D5001, 0x763D5015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D5001, 0x763D5016, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D5001, 0x763D5017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D5001, 0x763D5018, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x763D5001, 0x763D5019, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x763D5001, 0x763D501A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x763D5001, 0x763D501B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x763D5001, 0x763D501C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D5002,   937, 0x63D5000C, 31.52743, 95.05723, 56.47731, -0.9999822, 0, 0, 0.005970901,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -146,7 +146,7 @@ VALUES (0x763D501D,  1542, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0,
 /* @teleloc 0x63D50014 [63.971440 78.394680 59.432250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D501D, 0x763D501E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x763D501D, 0x763D501E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D501E, 31445, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

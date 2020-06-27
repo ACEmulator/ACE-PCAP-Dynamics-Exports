@@ -5,15 +5,15 @@ VALUES (0x72DEF001,  1154, 0x2DEF0028, 119.1653, 185.0448, 8.01, 0.5884518, 0, 0
 /* @teleloc 0x2DEF0028 [119.165300 185.044800 8.010000] 0.588452 0.000000 0.000000 -0.808532 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DEF001, 0x72DEF002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72DEF001, 0x72DEF003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72DEF001, 0x72DEF004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DEF001, 0x72DEF005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72DEF001, 0x72DEF006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72DEF001, 0x72DEF007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72DEF001, 0x72DEF008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DEF001, 0x72DEF009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72DEF001, 0x72DEF00A, '2019-02-10 00:00:00') /* Arctic Mattekar */;
+VALUES (0x72DEF001, 0x72DEF002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72DEF001, 0x72DEF003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72DEF001, 0x72DEF004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DEF001, 0x72DEF005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72DEF001, 0x72DEF006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72DEF001, 0x72DEF007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72DEF001, 0x72DEF008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DEF001, 0x72DEF009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72DEF001, 0x72DEF00A, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DEF002, 22933, 0x2DEF0028, 119.1653, 185.0448, 8.01, 0.5884518, 0, 0, -0.8085323,  True, '2019-02-10 00:00:00'); /* Mist Golem */

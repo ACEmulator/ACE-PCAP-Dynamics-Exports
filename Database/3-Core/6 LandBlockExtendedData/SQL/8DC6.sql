@@ -5,17 +5,17 @@ VALUES (0x78DC6001,  1154, 0x8DC60024, 100.5647, 82.59465, 70.39539, -0.9995156,
 /* @teleloc 0x8DC60024 [100.564700 82.594650 70.395390] -0.999516 0.000000 0.000000 -0.031121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DC6001, 0x78DC6002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78DC6001, 0x78DC6003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC6001, 0x78DC6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC6001, 0x78DC6005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78DC6001, 0x78DC6006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DC6001, 0x78DC6007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DC6001, 0x78DC6008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78DC6001, 0x78DC6009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DC6001, 0x78DC600A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78DC6001, 0x78DC600B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DC6001, 0x78DC600C, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x78DC6001, 0x78DC6002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78DC6001, 0x78DC6003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC6001, 0x78DC6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC6001, 0x78DC6005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78DC6001, 0x78DC6006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DC6001, 0x78DC6007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DC6001, 0x78DC6008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78DC6001, 0x78DC6009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DC6001, 0x78DC600A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78DC6001, 0x78DC600B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DC6001, 0x78DC600C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DC6002, 11533, 0x8DC60024, 100.5647, 82.59465, 70.39539, -0.9995156, 0, 0, -0.03112139,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

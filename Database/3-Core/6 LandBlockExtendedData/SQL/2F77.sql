@@ -5,8 +5,8 @@ VALUES (0x72F77001,  1154, 0x2F770008, 16.28976, 186.2809, 144.01, 0.2958769, 0,
 /* @teleloc 0x2F770008 [16.289760 186.280900 144.010000] 0.295877 0.000000 0.000000 -0.955226 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F77001, 0x72F77002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F77001, 0x72F77003, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72F77001, 0x72F77002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F77001, 0x72F77003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F77002,  8138, 0x2F770008, 16.28976, 186.2809, 144.01, 0.2958769, 0, 0, -0.9552261,  True, '2019-02-10 00:00:00'); /* Extas Raider */

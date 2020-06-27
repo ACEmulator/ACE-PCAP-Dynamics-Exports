@@ -5,9 +5,9 @@ VALUES (0x795CE001,  1154, 0x95CE0017, 62.38985, 147.0442, 171.3049, 0.9589138, 
 /* @teleloc 0x95CE0017 [62.389850 147.044200 171.304900] 0.958914 0.000000 0.000000 -0.283698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795CE001, 0x795CE002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795CE001, 0x795CE003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795CE001, 0x795CE004, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x795CE001, 0x795CE002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795CE001, 0x795CE003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795CE001, 0x795CE004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795CE002, 24293, 0x95CE0017, 62.38985, 147.0442, 171.3049, 0.9589138, 0, 0, -0.2836977,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -26,7 +26,7 @@ VALUES (0x795CE005,  1542, 0x95CE0017, 56.29371, 154.5571, 175.9662, 0.9589138, 
 /* @teleloc 0x95CE0017 [56.293710 154.557100 175.966200] 0.958914 0.000000 0.000000 -0.283698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795CE005, 0x795CE006, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x795CE005, 0x795CE006, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795CE006, 42528, 0x95CE0017, 56.29371, 154.5571, 175.9662, 0.9589138, 0, 0, -0.2836977,  True, '2019-02-10 00:00:00'); /* Rock */

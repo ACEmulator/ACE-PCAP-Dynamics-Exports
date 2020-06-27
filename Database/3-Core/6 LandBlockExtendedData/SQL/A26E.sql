@@ -5,10 +5,10 @@ VALUES (0x7A26E001,  1154, 0xA26E0026, 119.9841, 137.4222, 21.98632, 0.906007, 0
 /* @teleloc 0xA26E0026 [119.984100 137.422200 21.986320] 0.906007 0.000000 0.000000 -0.423263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A26E001, 0x7A26E002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A26E001, 0x7A26E003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A26E001, 0x7A26E004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A26E001, 0x7A26E005, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7A26E001, 0x7A26E002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A26E001, 0x7A26E003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A26E001, 0x7A26E004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A26E001, 0x7A26E005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A26E002,  8014, 0xA26E0026, 119.9841, 137.4222, 21.98632, 0.906007, 0, 0, -0.4232628,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -31,7 +31,7 @@ VALUES (0x7A26E006,  1542, 0xA26E0023, 107.6064, 56.417, 22.70142, 0.9238795, 0,
 /* @teleloc 0xA26E0023 [107.606400 56.417000 22.701420] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A26E006, 0x7A26E007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A26E006, 0x7A26E007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A26E007,  4380, 0xA26E0023, 107.6064, 56.417, 22.70142, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

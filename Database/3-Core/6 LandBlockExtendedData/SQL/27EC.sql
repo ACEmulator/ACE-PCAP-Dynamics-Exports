@@ -137,23 +137,23 @@ VALUES (0x727EC038,  1154, 0x27EC0102, 67.8788, 138.759, 84.005, 0.7700167, 0, 0
 /* @teleloc 0x27EC0102 [67.878800 138.759000 84.005000] 0.770017 0.000000 0.000000 -0.638024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727EC038, 0x727EC039, '2019-02-10 00:00:00') /* Donatello Linante */
-     , (0x727EC038, 0x727EC03A, '2019-02-10 00:00:00') /* Scorus */
-     , (0x727EC038, 0x727EC03B, '2019-02-10 00:00:00') /* Chef Martam */
-     , (0x727EC038, 0x727EC03C, '2019-02-10 00:00:00') /* Huntsman of Silyun */
-     , (0x727EC038, 0x727EC03D, '2019-02-10 00:00:00') /* Rickard Dumalia */
-     , (0x727EC038, 0x727EC03E, '2019-02-10 00:00:00') /* Marlan Nessunello */
-     , (0x727EC038, 0x727EC03F, '2019-02-10 00:00:00') /* Hashina */
-     , (0x727EC038, 0x727EC040, '2019-02-10 00:00:00') /* Sacci Mijob */
-     , (0x727EC038, 0x727EC041, '2019-02-10 00:00:00') /* Raimonestes Risolu */
-     , (0x727EC038, 0x727EC042, '2019-02-10 00:00:00') /* Raphel Detante */
-     , (0x727EC038, 0x727EC043, '2019-02-10 00:00:00') /* Carlito Gallo */
-     , (0x727EC038, 0x727EC044, '2019-02-10 00:00:00') /* Lucari di Bellenesse */
-     , (0x727EC038, 0x727EC045, '2019-02-10 00:00:00') /* Enzo Ilario */
-     , (0x727EC038, 0x727EC046, '2019-02-10 00:00:00') /* Grand Mother */
-     , (0x727EC038, 0x727EC047, '2019-02-10 00:00:00') /* Lord Tyragar */
-     , (0x727EC038, 0x727EC048, '2019-02-10 00:00:00') /* Mendica Scarsolo */
-     , (0x727EC038, 0x727EC049, '2019-02-10 00:00:00') /* Mancanza the Wanderer */;
+VALUES (0x727EC038, 0x727EC039, '2019-02-10 00:00:00') /* Donatello Linante (34259) */
+     , (0x727EC038, 0x727EC03A, '2019-02-10 00:00:00') /* Scorus (28703) */
+     , (0x727EC038, 0x727EC03B, '2019-02-10 00:00:00') /* Chef Martam (28836) */
+     , (0x727EC038, 0x727EC03C, '2019-02-10 00:00:00') /* Huntsman of Silyun (29468) */
+     , (0x727EC038, 0x727EC03D, '2019-02-10 00:00:00') /* Rickard Dumalia (28680) */
+     , (0x727EC038, 0x727EC03E, '2019-02-10 00:00:00') /* Marlan Nessunello (30436) */
+     , (0x727EC038, 0x727EC03F, '2019-02-10 00:00:00') /* Hashina (32628) */
+     , (0x727EC038, 0x727EC040, '2019-02-10 00:00:00') /* Sacci Mijob (30437) */
+     , (0x727EC038, 0x727EC041, '2019-02-10 00:00:00') /* Raimonestes Risolu (30434) */
+     , (0x727EC038, 0x727EC042, '2019-02-10 00:00:00') /* Raphel Detante (41523) */
+     , (0x727EC038, 0x727EC043, '2019-02-10 00:00:00') /* Carlito Gallo (41522) */
+     , (0x727EC038, 0x727EC044, '2019-02-10 00:00:00') /* Lucari di Bellenesse (32835) */
+     , (0x727EC038, 0x727EC045, '2019-02-10 00:00:00') /* Enzo Ilario (31651) */
+     , (0x727EC038, 0x727EC046, '2019-02-10 00:00:00') /* Grand Mother (28699) */
+     , (0x727EC038, 0x727EC047, '2019-02-10 00:00:00') /* Lord Tyragar (43406) */
+     , (0x727EC038, 0x727EC048, '2019-02-10 00:00:00') /* Mendica Scarsolo (30435) */
+     , (0x727EC038, 0x727EC049, '2019-02-10 00:00:00') /* Mancanza the Wanderer (31728) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727EC039, 34259, 0x27EC0102, 67.8788, 138.759, 84.005, 0.7700167, 0, 0, -0.6380237,  True, '2019-02-10 00:00:00'); /* Donatello Linante */
@@ -228,8 +228,8 @@ VALUES (0x727EC04A,  1542, 0x27EC0016, 71.292, 141.607, 81.0417, -0.7056588, 0, 
 /* @teleloc 0x27EC0016 [71.292000 141.607000 81.041700] -0.705659 0.000000 0.000000 -0.708552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727EC04A, 0x727EC04B, '2019-02-10 00:00:00') /* Haebrean Token of the Aura of Invulnerability */
-     , (0x727EC04A, 0x727EC04C, '2019-02-10 00:00:00') /* Haebrean Token of the Aura of Hardening */;
+VALUES (0x727EC04A, 0x727EC04B, '2019-02-10 00:00:00') /* Haebrean Token of the Aura of Invulnerability (43457) */
+     , (0x727EC04A, 0x727EC04C, '2019-02-10 00:00:00') /* Haebrean Token of the Aura of Hardening (43455) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727EC04B, 43457, 0x27EC0016, 71.292, 141.607, 81.0417, -0.7056588, 0, 0, -0.7085518,  True, '2019-02-10 00:00:00'); /* Haebrean Token of the Aura of Invulnerability */

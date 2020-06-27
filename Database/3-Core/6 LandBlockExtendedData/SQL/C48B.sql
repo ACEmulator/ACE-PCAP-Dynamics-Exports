@@ -5,11 +5,11 @@ VALUES (0x7C48B001,  1154, 0xC48B0010, 32.60611, 183.7894, 28.002, 0.5407703, 0,
 /* @teleloc 0xC48B0010 [32.606110 183.789400 28.002000] 0.540770 0.000000 0.000000 -0.841170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C48B001, 0x7C48B002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C48B001, 0x7C48B003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C48B001, 0x7C48B004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C48B001, 0x7C48B005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C48B001, 0x7C48B006, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7C48B001, 0x7C48B002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C48B001, 0x7C48B003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C48B001, 0x7C48B004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C48B001, 0x7C48B005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C48B001, 0x7C48B006, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C48B002,  7990, 0xC48B0010, 32.60611, 183.7894, 28.002, 0.5407703, 0, 0, -0.8411703,  True, '2019-02-10 00:00:00'); /* Field Ursuin */

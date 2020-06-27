@@ -5,10 +5,10 @@ VALUES (0x74561001,  1154, 0x45610035, 163.0092, 118.1745, -0.4499986, -0.526160
 /* @teleloc 0x45610035 [163.009200 118.174500 -0.449999] -0.526161 0.000000 0.000000 -0.850385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74561001, 0x74561002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74561001, 0x74561003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74561001, 0x74561004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74561001, 0x74561005, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x74561001, 0x74561002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74561001, 0x74561003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74561001, 0x74561004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74561001, 0x74561005, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74561002,  7126, 0x45610035, 163.0092, 118.1745, -0.4499986, -0.5261607, 0, 0, -0.8503851,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

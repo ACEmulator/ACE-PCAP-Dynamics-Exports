@@ -5,14 +5,14 @@ VALUES (0x72827001,  1154, 0x2827000F, 39.4391, 161.5553, 20, -0.9621921, 0, 0, 
 /* @teleloc 0x2827000F [39.439100 161.555300 20.000000] -0.962192 0.000000 0.000000 -0.272372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72827001, 0x72827002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72827001, 0x72827003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72827001, 0x72827004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72827001, 0x72827005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72827001, 0x72827006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72827001, 0x72827007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72827001, 0x72827008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72827001, 0x72827009, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x72827001, 0x72827002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72827001, 0x72827003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72827001, 0x72827004, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72827001, 0x72827005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72827001, 0x72827006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72827001, 0x72827007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72827001, 0x72827008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72827001, 0x72827009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72827002, 11536, 0x2827000F, 39.4391, 161.5553, 20, -0.9621921, 0, 0, -0.2723717,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

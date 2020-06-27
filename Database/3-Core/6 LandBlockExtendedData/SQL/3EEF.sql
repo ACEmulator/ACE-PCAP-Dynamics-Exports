@@ -5,15 +5,15 @@ VALUES (0x73EEF001,  1154, 0x3EEF0039, 180.3695, 1.958048, -0.1, -0.7823179, 0, 
 /* @teleloc 0x3EEF0039 [180.369500 1.958048 -0.100000] -0.782318 0.000000 0.000000 -0.622879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEF001, 0x73EEF002, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73EEF001, 0x73EEF003, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EEF001, 0x73EEF004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73EEF001, 0x73EEF005, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73EEF001, 0x73EEF006, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EEF001, 0x73EEF007, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EEF001, 0x73EEF008, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73EEF001, 0x73EEF009, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x73EEF001, 0x73EEF00A, '2019-02-10 00:00:00') /* Spectral Wisp */;
+VALUES (0x73EEF001, 0x73EEF002, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73EEF001, 0x73EEF003, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EEF001, 0x73EEF004, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73EEF001, 0x73EEF005, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73EEF001, 0x73EEF006, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EEF001, 0x73EEF007, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EEF001, 0x73EEF008, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x73EEF001, 0x73EEF009, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x73EEF001, 0x73EEF00A, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEF002, 28639, 0x3EEF0039, 180.3695, 1.958048, -0.1, -0.7823179, 0, 0, -0.6228793,  True, '2019-02-10 00:00:00'); /* Voracious Eater */

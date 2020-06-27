@@ -5,10 +5,10 @@ VALUES (0x78DAE001,  1154, 0x8DAE000E, 46.12056, 140.2858, 48.012, -0.884901, 0,
 /* @teleloc 0x8DAE000E [46.120560 140.285800 48.012000] -0.884901 0.000000 0.000000 -0.465779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAE001, 0x78DAE002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DAE001, 0x78DAE003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78DAE001, 0x78DAE004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DAE001, 0x78DAE005, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x78DAE001, 0x78DAE002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DAE001, 0x78DAE003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78DAE001, 0x78DAE004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DAE001, 0x78DAE005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAE002,  7105, 0x8DAE000E, 46.12056, 140.2858, 48.012, -0.884901, 0, 0, -0.4657791,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -31,7 +31,7 @@ VALUES (0x78DAE006,  1542, 0x8DAE0027, 109.8752, 151.8928, 48, 1, 0, 0, 0, False
 /* @teleloc 0x8DAE0027 [109.875200 151.892800 48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAE006, 0x78DAE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78DAE006, 0x78DAE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAE007,  4179, 0x8DAE0027, 109.8752, 151.8928, 48, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

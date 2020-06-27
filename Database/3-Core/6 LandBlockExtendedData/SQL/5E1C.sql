@@ -5,11 +5,11 @@ VALUES (0x75E1C001,  1154, 0x5E1C001D, 93.35857, 97.62057, -0.8974999, -0.948818
 /* @teleloc 0x5E1C001D [93.358570 97.620570 -0.897500] -0.948818 0.000000 0.000000 -0.315823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E1C001, 0x75E1C002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75E1C001, 0x75E1C003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75E1C001, 0x75E1C004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75E1C001, 0x75E1C005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75E1C001, 0x75E1C006, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x75E1C001, 0x75E1C002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75E1C001, 0x75E1C003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75E1C001, 0x75E1C004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75E1C001, 0x75E1C005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75E1C001, 0x75E1C006, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E1C002,  7121, 0x5E1C001D, 93.35857, 97.62057, -0.8974999, -0.9488181, 0, 0, -0.3158231,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

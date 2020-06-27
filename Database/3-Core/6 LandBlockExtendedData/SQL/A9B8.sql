@@ -5,17 +5,17 @@ VALUES (0x7A9B8001,  1154, 0xA9B80004, 5.436034, 90.41483, 30.46876, 0.2122835, 
 /* @teleloc 0xA9B80004 [5.436034 90.414830 30.468760] 0.212284 0.000000 0.000000 -0.977208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B8001, 0x7A9B8002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A9B8001, 0x7A9B8003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A9B8001, 0x7A9B8004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A9B8001, 0x7A9B8005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A9B8001, 0x7A9B8006, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A9B8001, 0x7A9B8007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A9B8001, 0x7A9B8008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A9B8001, 0x7A9B8009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A9B8001, 0x7A9B800A, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A9B8001, 0x7A9B800B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A9B8001, 0x7A9B800C, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7A9B8001, 0x7A9B8002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A9B8001, 0x7A9B8003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A9B8001, 0x7A9B8004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A9B8001, 0x7A9B8005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A9B8001, 0x7A9B8006, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A9B8001, 0x7A9B8007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A9B8001, 0x7A9B8008, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A9B8001, 0x7A9B8009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A9B8001, 0x7A9B800A, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A9B8001, 0x7A9B800B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A9B8001, 0x7A9B800C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B8002, 19257, 0xA9B80004, 5.436034, 90.41483, 30.46876, 0.2122835, 0, 0, -0.9772081,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

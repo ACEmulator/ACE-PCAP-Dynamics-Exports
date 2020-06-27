@@ -5,10 +5,10 @@ VALUES (0x7D42B001,  1154, 0xD42B0013, 67.68077, 56.09763, 115.7929, -0.950833, 
 /* @teleloc 0xD42B0013 [67.680770 56.097630 115.792900] -0.950833 0.000000 0.000000 -0.309704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D42B001, 0x7D42B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D42B001, 0x7D42B003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D42B001, 0x7D42B004, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7D42B001, 0x7D42B005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7D42B001, 0x7D42B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D42B001, 0x7D42B003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D42B001, 0x7D42B004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7D42B001, 0x7D42B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D42B002,  7334, 0xD42B0013, 67.68077, 56.09763, 115.7929, -0.950833, 0, 0, -0.3097042,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

@@ -5,11 +5,11 @@ VALUES (0x77913001,  1154, 0x7913002E, 127.2523, 129.4037, 23.9486, 0.9238795, 0
 /* @teleloc 0x7913002E [127.252300 129.403700 23.948600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77913001, 0x77913002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77913001, 0x77913003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77913001, 0x77913004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77913001, 0x77913005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x77913001, 0x77913006, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x77913001, 0x77913002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77913001, 0x77913003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77913001, 0x77913004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77913001, 0x77913005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x77913001, 0x77913006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77913002,  7123, 0x7913002E, 127.2523, 129.4037, 23.9486, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */

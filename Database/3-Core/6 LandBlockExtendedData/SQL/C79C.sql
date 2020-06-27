@@ -5,13 +5,13 @@ VALUES (0x7C79C001,  1154, 0xC79C0029, 131.8652, 16.81477, 18.5793, 0.5060376, 0
 /* @teleloc 0xC79C0029 [131.865200 16.814770 18.579300] 0.506038 0.000000 0.000000 -0.862511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C79C001, 0x7C79C002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C79C001, 0x7C79C003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C79C001, 0x7C79C004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C79C001, 0x7C79C005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C79C001, 0x7C79C006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C79C001, 0x7C79C007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C79C001, 0x7C79C008, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C79C001, 0x7C79C002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C79C001, 0x7C79C003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C79C001, 0x7C79C004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C79C001, 0x7C79C005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C79C001, 0x7C79C006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C79C001, 0x7C79C007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C79C001, 0x7C79C008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C79C002, 21168, 0xC79C0029, 131.8652, 16.81477, 18.5793, 0.5060376, 0, 0, -0.8625114,  True, '2019-02-10 00:00:00'); /* Charge */

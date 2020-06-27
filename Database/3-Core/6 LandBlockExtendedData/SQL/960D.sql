@@ -5,19 +5,19 @@ VALUES (0x7960D001,  1154, 0x960D0010, 47.65299, 172.4464, 0.007499993, 1, 0, 0,
 /* @teleloc 0x960D0010 [47.652990 172.446400 0.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7960D001, 0x7960D002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7960D001, 0x7960D003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7960D001, 0x7960D004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7960D001, 0x7960D005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7960D001, 0x7960D006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7960D001, 0x7960D007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7960D001, 0x7960D008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7960D001, 0x7960D009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7960D001, 0x7960D00A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7960D001, 0x7960D00B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7960D001, 0x7960D00C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7960D001, 0x7960D00D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7960D001, 0x7960D00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7960D001, 0x7960D002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7960D001, 0x7960D003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7960D001, 0x7960D004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7960D001, 0x7960D005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7960D001, 0x7960D006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7960D001, 0x7960D007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7960D001, 0x7960D008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7960D001, 0x7960D009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7960D001, 0x7960D00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7960D001, 0x7960D00B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7960D001, 0x7960D00C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7960D001, 0x7960D00D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7960D001, 0x7960D00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7960D002,  7124, 0x960D0010, 47.65299, 172.4464, 0.007499993, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -76,7 +76,7 @@ VALUES (0x7960D00F,  1542, 0x960D0018, 52.75819, 187.0025, 1.490116E-08, -0.5699
 /* @teleloc 0x960D0018 [52.758190 187.002500 0.000000] -0.569992 0.000000 0.000000 -0.821650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7960D00F, 0x7960D010, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7960D00F, 0x7960D010, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7960D010,  8644, 0x960D0018, 52.75819, 187.0025, 1.490116E-08, -0.5699921, 0, 0, -0.8216501,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

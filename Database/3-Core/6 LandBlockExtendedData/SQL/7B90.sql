@@ -5,13 +5,13 @@ VALUES (0x77B90001,  1154, 0x7B900020, 77.85083, 184.6758, 104.9021, -0.07805581
 /* @teleloc 0x7B900020 [77.850830 184.675800 104.902100] -0.078056 0.000000 0.000000 -0.996949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B90001, 0x77B90002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77B90001, 0x77B90003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77B90001, 0x77B90004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77B90001, 0x77B90005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x77B90001, 0x77B90006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77B90001, 0x77B90007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x77B90001, 0x77B90008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x77B90001, 0x77B90002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77B90001, 0x77B90003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77B90001, 0x77B90004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77B90001, 0x77B90005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x77B90001, 0x77B90006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77B90001, 0x77B90007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x77B90001, 0x77B90008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B90002,  1989, 0x7B900020, 77.85083, 184.6758, 104.9021, -0.07805581, 0, 0, -0.996949,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -46,9 +46,9 @@ VALUES (0x77B90009,  1542, 0x7B900039, 174.0141, 2.192593, 98.011, 0.9860298, 0,
 /* @teleloc 0x7B900039 [174.014100 2.192593 98.011000] 0.986030 0.000000 0.000000 -0.166569 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B90009, 0x77B9000A, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x77B90009, 0x77B9000B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77B90009, 0x77B9000C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77B90009, 0x77B9000A, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x77B90009, 0x77B9000B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77B90009, 0x77B9000C, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B9000A, 31686, 0x7B900039, 174.0141, 2.192593, 98.011, 0.9860298, 0, 0, -0.1665691,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

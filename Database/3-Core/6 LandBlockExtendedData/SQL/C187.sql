@@ -5,20 +5,20 @@ VALUES (0x7C187001,  1154, 0xC1870032, 152.0893, 44.51058, 36.22874, 0.956824, 0
 /* @teleloc 0xC1870032 [152.089300 44.510580 36.228740] 0.956824 0.000000 0.000000 -0.290668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C187001, 0x7C187002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C187001, 0x7C187003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C187001, 0x7C187004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C187001, 0x7C187005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C187001, 0x7C187006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C187001, 0x7C187007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C187001, 0x7C187008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C187001, 0x7C187009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C187001, 0x7C18700A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C187001, 0x7C18700B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C187001, 0x7C18700C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C187001, 0x7C18700D, '2019-02-10 00:00:00') /* Static */
-     , (0x7C187001, 0x7C18700E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C187001, 0x7C18700F, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7C187001, 0x7C187002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C187001, 0x7C187003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C187001, 0x7C187004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C187001, 0x7C187005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C187001, 0x7C187006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C187001, 0x7C187007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C187001, 0x7C187008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C187001, 0x7C187009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C187001, 0x7C18700A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C187001, 0x7C18700B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C187001, 0x7C18700C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C187001, 0x7C18700D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C187001, 0x7C18700E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C187001, 0x7C18700F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C187002,    12, 0xC1870032, 152.0893, 44.51058, 36.22874, 0.956824, 0, 0, -0.2906679,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */
@@ -81,7 +81,7 @@ VALUES (0x7C187010,  1542, 0xC187001B, 74.33034, 56.04686, 36.54863, 0.5936126, 
 /* @teleloc 0xC187001B [74.330340 56.046860 36.548630] 0.593613 0.000000 0.000000 -0.804751 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C187010, 0x7C187011, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C187010, 0x7C187011, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C187011,  8646, 0xC187001B, 74.33034, 56.04686, 36.54863, 0.5936126, 0, 0, -0.804751,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

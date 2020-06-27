@@ -5,9 +5,9 @@ VALUES (0x7CF5A001,  1154, 0xCF5A000C, 47.6858, 91.59252, 23.61771, -0.9207581, 
 /* @teleloc 0xCF5A000C [47.685800 91.592520 23.617710] -0.920758 0.000000 0.000000 -0.390134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF5A001, 0x7CF5A002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CF5A001, 0x7CF5A003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7CF5A001, 0x7CF5A004, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7CF5A001, 0x7CF5A002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CF5A001, 0x7CF5A003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7CF5A001, 0x7CF5A004, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF5A002,  8010, 0xCF5A000C, 47.6858, 91.59252, 23.61771, -0.9207581, 0, 0, -0.3901341,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

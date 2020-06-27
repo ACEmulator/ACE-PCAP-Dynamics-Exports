@@ -5,14 +5,14 @@ VALUES (0x73765001,  1154, 0x37650006, 1.99344, 125.5769, 30.04012, -0.715326, 0
 /* @teleloc 0x37650006 [1.993440 125.576900 30.040120] -0.715326 0.000000 0.000000 -0.698791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73765001, 0x73765002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73765001, 0x73765003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73765001, 0x73765004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73765001, 0x73765005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73765001, 0x73765006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73765001, 0x73765007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73765001, 0x73765008, '2019-02-10 00:00:00') /* Flare */
-     , (0x73765001, 0x73765009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x73765001, 0x73765002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73765001, 0x73765003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73765001, 0x73765004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73765001, 0x73765005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73765001, 0x73765006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73765001, 0x73765007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73765001, 0x73765008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73765001, 0x73765009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73765002,  8431, 0x37650006, 1.99344, 125.5769, 30.04012, -0.715326, 0, 0, -0.6987909,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

@@ -5,17 +5,17 @@ VALUES (0x7CCBB001,  1154, 0xCCBB0030, 135.9434, 185.5496, 46, -0.8031917, 0, 0,
 /* @teleloc 0xCCBB0030 [135.943400 185.549600 46.000000] -0.803192 0.000000 0.000000 -0.595721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCBB001, 0x7CCBB002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBB001, 0x7CCBB003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBB001, 0x7CCBB004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CCBB001, 0x7CCBB005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CCBB001, 0x7CCBB006, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7CCBB001, 0x7CCBB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CCBB001, 0x7CCBB008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBB001, 0x7CCBB009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBB001, 0x7CCBB00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7CCBB001, 0x7CCBB00B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7CCBB001, 0x7CCBB00C, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x7CCBB001, 0x7CCBB002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBB001, 0x7CCBB003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBB001, 0x7CCBB004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CCBB001, 0x7CCBB005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CCBB001, 0x7CCBB006, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7CCBB001, 0x7CCBB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CCBB001, 0x7CCBB008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBB001, 0x7CCBB009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBB001, 0x7CCBB00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7CCBB001, 0x7CCBB00B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7CCBB001, 0x7CCBB00C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCBB002, 23482, 0xCCBB0030, 135.9434, 185.5496, 46, -0.8031917, 0, 0, -0.5957206,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -66,7 +66,7 @@ VALUES (0x7CCBB00D,  1542, 0xCCBB000C, 25.22311, 90.18015, 53.12596, 1, 0, 0, 0,
 /* @teleloc 0xCCBB000C [25.223110 90.180150 53.125960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCBB00D, 0x7CCBB00E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CCBB00D, 0x7CCBB00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCBB00E, 31445, 0xCCBB000C, 25.22311, 90.18015, 53.12596, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

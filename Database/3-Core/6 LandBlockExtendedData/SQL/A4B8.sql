@@ -5,19 +5,19 @@ VALUES (0x7A4B8001,  1154, 0xA4B8003A, 189.321, 44.76543, 92.26555, -0.3359814, 
 /* @teleloc 0xA4B8003A [189.321000 44.765430 92.265550] -0.335981 0.000000 0.000000 -0.941869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4B8001, 0x7A4B8002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A4B8001, 0x7A4B8003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A4B8001, 0x7A4B8004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A4B8001, 0x7A4B8005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A4B8001, 0x7A4B8006, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A4B8001, 0x7A4B8007, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A4B8001, 0x7A4B8008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A4B8001, 0x7A4B8009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A4B8001, 0x7A4B800A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A4B8001, 0x7A4B800B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A4B8001, 0x7A4B800C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A4B8001, 0x7A4B800D, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A4B8001, 0x7A4B800E, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7A4B8001, 0x7A4B8002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A4B8001, 0x7A4B8003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A4B8001, 0x7A4B8004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A4B8001, 0x7A4B8005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A4B8001, 0x7A4B8006, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A4B8001, 0x7A4B8007, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A4B8001, 0x7A4B8008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A4B8001, 0x7A4B8009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A4B8001, 0x7A4B800A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A4B8001, 0x7A4B800B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A4B8001, 0x7A4B800C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A4B8001, 0x7A4B800D, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A4B8001, 0x7A4B800E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4B8002,  4109, 0xA4B8003A, 189.321, 44.76543, 92.26555, -0.3359814, 0, 0, -0.9418686,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

@@ -5,42 +5,42 @@ VALUES (0x7B8EF001,  1154, 0xB8EF0040, 168.5717, 185.8661, 125.669, 0.9729352, 0
 /* @teleloc 0xB8EF0040 [168.571700 185.866100 125.669000] 0.972935 0.000000 0.000000 -0.231078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8EF001, 0x7B8EF002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF006, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B8EF001, 0x7B8EF007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B8EF001, 0x7B8EF00A, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7B8EF001, 0x7B8EF00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF00C, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7B8EF001, 0x7B8EF00D, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B8EF001, 0x7B8EF00E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8EF001, 0x7B8EF00F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF010, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF011, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF012, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8EF001, 0x7B8EF013, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF014, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF016, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8EF001, 0x7B8EF017, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF018, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8EF001, 0x7B8EF019, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF01A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF01B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF01C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF01D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8EF001, 0x7B8EF01E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF01F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF020, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8EF001, 0x7B8EF021, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8EF001, 0x7B8EF022, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7B8EF001, 0x7B8EF023, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7B8EF001, 0x7B8EF024, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8EF001, 0x7B8EF025, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B8EF001, 0x7B8EF002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B8EF001, 0x7B8EF007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B8EF001, 0x7B8EF00A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7B8EF001, 0x7B8EF00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF00C, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7B8EF001, 0x7B8EF00D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B8EF001, 0x7B8EF00E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8EF001, 0x7B8EF00F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF010, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF011, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF012, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8EF001, 0x7B8EF013, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF014, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF016, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8EF001, 0x7B8EF017, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF018, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8EF001, 0x7B8EF019, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF01A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF01B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF01C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF01D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8EF001, 0x7B8EF01E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF01F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF020, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8EF001, 0x7B8EF021, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8EF001, 0x7B8EF022, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7B8EF001, 0x7B8EF023, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7B8EF001, 0x7B8EF024, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF025, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8EF002,  7092, 0xB8EF0040, 168.5717, 185.8661, 125.669, 0.9729352, 0, 0, -0.231078,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -191,7 +191,7 @@ VALUES (0x7B8EF026,  1542, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0, Fa
 /* @teleloc 0xB8EF0022 [119.986000 27.540060 212.590000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8EF026, 0x7B8EF027, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B8EF026, 0x7B8EF027, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8EF027,  4179, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

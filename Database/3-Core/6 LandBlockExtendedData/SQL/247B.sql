@@ -5,25 +5,25 @@ VALUES (0x7247B001,  1154, 0x247B001F, 95.85666, 162.2748, 111.272, -0.911568, 0
 /* @teleloc 0x247B001F [95.856660 162.274800 111.272000] -0.911568 0.000000 0.000000 -0.411149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7247B001, 0x7247B002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7247B001, 0x7247B003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7247B001, 0x7247B004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7247B001, 0x7247B005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7247B001, 0x7247B006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7247B001, 0x7247B007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7247B001, 0x7247B008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7247B001, 0x7247B009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7247B001, 0x7247B00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7247B001, 0x7247B00E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7247B001, 0x7247B00F, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7247B001, 0x7247B010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B011, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247B001, 0x7247B013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7247B001, 0x7247B014, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x7247B001, 0x7247B002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7247B001, 0x7247B003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7247B001, 0x7247B004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7247B001, 0x7247B005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7247B001, 0x7247B006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7247B001, 0x7247B007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7247B001, 0x7247B008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7247B001, 0x7247B009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7247B001, 0x7247B00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7247B001, 0x7247B00E, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7247B001, 0x7247B00F, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7247B001, 0x7247B010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247B001, 0x7247B013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7247B001, 0x7247B014, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7247B002, 23482, 0x247B001F, 95.85666, 162.2748, 111.272, -0.911568, 0, 0, -0.4111494,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -106,7 +106,7 @@ VALUES (0x7247B015,  1542, 0x247B0038, 155.0844, 185.6462, 88.90421, 1, 0, 0, 0,
 /* @teleloc 0x247B0038 [155.084400 185.646200 88.904210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7247B015, 0x7247B016, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7247B015, 0x7247B016, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7247B016, 31445, 0x247B0038, 155.0844, 185.6462, 88.90421, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

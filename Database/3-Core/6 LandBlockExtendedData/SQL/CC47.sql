@@ -5,12 +5,12 @@ VALUES (0x7CC47001,  1154, 0xCC470030, 121.3102, 169.1584, 123.8954, 0.9396926, 
 /* @teleloc 0xCC470030 [121.310200 169.158400 123.895400] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC47001, 0x7CC47002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC47001, 0x7CC47003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC47001, 0x7CC47004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC47001, 0x7CC47005, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CC47001, 0x7CC47006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC47001, 0x7CC47007, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7CC47001, 0x7CC47002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC47001, 0x7CC47003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC47001, 0x7CC47004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC47001, 0x7CC47005, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CC47001, 0x7CC47006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC47001, 0x7CC47007, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC47002,  1609, 0xCC470030, 121.3102, 169.1584, 123.8954, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

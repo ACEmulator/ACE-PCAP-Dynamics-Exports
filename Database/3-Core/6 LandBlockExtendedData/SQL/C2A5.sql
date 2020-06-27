@@ -5,12 +5,12 @@ VALUES (0x7C2A5001,  1154, 0xC2A5002F, 133.5183, 167.1353, 46.0025, 0.9636837, 0
 /* @teleloc 0xC2A5002F [133.518300 167.135300 46.002500] 0.963684 0.000000 0.000000 -0.267047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A5001, 0x7C2A5002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C2A5001, 0x7C2A5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C2A5001, 0x7C2A5004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C2A5001, 0x7C2A5005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C2A5001, 0x7C2A5006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C2A5001, 0x7C2A5007, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C2A5001, 0x7C2A5002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C2A5001, 0x7C2A5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C2A5001, 0x7C2A5004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C2A5001, 0x7C2A5005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C2A5001, 0x7C2A5006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C2A5001, 0x7C2A5007, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A5002, 22208, 0xC2A5002F, 133.5183, 167.1353, 46.0025, 0.9636837, 0, 0, -0.2670465,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
@@ -41,7 +41,7 @@ VALUES (0x7C2A5008,  1542, 0xC2A50024, 114.7658, 75.25513, 41.56382, -0.9944279,
 /* @teleloc 0xC2A50024 [114.765800 75.255130 41.563820] -0.994428 0.000000 0.000000 -0.105419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A5008, 0x7C2A5009, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7C2A5008, 0x7C2A5009, '2019-02-10 00:00:00') /* Old Gravestone (34130) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A5009, 34130, 0xC2A50024, 114.7658, 75.25513, 41.56382, -0.9944279, 0, 0, -0.1054188,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

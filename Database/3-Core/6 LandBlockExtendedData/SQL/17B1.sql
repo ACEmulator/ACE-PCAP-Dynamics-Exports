@@ -5,11 +5,11 @@ VALUES (0x717B1001,  1154, 0x17B10039, 187.9494, 5.91128, -0.09500001, 0.7312775
 /* @teleloc 0x17B10039 [187.949400 5.911280 -0.095000] 0.731278 0.000000 0.000000 -0.682080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B1001, 0x717B1002, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x717B1001, 0x717B1003, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x717B1001, 0x717B1004, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x717B1001, 0x717B1005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x717B1001, 0x717B1006, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x717B1001, 0x717B1002, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x717B1001, 0x717B1003, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x717B1001, 0x717B1004, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x717B1001, 0x717B1005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x717B1001, 0x717B1006, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B1002, 11521, 0x17B10039, 187.9494, 5.91128, -0.09500001, 0.7312775, 0, 0, -0.6820801,  True, '2019-02-10 00:00:00'); /* Hea Runner */

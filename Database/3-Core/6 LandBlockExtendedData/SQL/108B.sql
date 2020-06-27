@@ -5,31 +5,31 @@ VALUES (0x7108B001,  1154, 0x108B000E, 29.7093, 142.4418, 7.164674, -0.8768116, 
 /* @teleloc 0x108B000E [29.709300 142.441800 7.164674] -0.876812 0.000000 0.000000 -0.480834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7108B001, 0x7108B002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7108B001, 0x7108B003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7108B001, 0x7108B004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7108B001, 0x7108B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7108B001, 0x7108B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7108B001, 0x7108B007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7108B001, 0x7108B008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7108B001, 0x7108B009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7108B001, 0x7108B00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7108B001, 0x7108B00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7108B001, 0x7108B00C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7108B001, 0x7108B00D, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7108B001, 0x7108B00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7108B001, 0x7108B00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7108B001, 0x7108B010, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7108B001, 0x7108B011, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7108B001, 0x7108B012, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7108B001, 0x7108B013, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7108B001, 0x7108B014, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7108B001, 0x7108B015, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7108B001, 0x7108B016, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7108B001, 0x7108B017, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7108B001, 0x7108B018, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7108B001, 0x7108B019, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7108B001, 0x7108B01A, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x7108B001, 0x7108B002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7108B001, 0x7108B003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7108B001, 0x7108B004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7108B001, 0x7108B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7108B001, 0x7108B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7108B001, 0x7108B007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7108B001, 0x7108B008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7108B001, 0x7108B009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7108B001, 0x7108B00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7108B001, 0x7108B00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7108B001, 0x7108B00C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7108B001, 0x7108B00D, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7108B001, 0x7108B00E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7108B001, 0x7108B00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7108B001, 0x7108B010, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7108B001, 0x7108B011, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7108B001, 0x7108B012, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7108B001, 0x7108B013, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7108B001, 0x7108B014, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x7108B001, 0x7108B015, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7108B001, 0x7108B016, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7108B001, 0x7108B017, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7108B001, 0x7108B018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7108B001, 0x7108B019, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7108B001, 0x7108B01A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7108B002, 22054, 0x108B000E, 29.7093, 142.4418, 7.164674, -0.8768116, 0, 0, -0.480834,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -136,7 +136,7 @@ VALUES (0x7108B01B,  1542, 0x108B000C, 34.78389, 83.6521, 22, -4.371139E-08, 0, 
 /* @teleloc 0x108B000C [34.783890 83.652100 22.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7108B01B, 0x7108B01C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7108B01B, 0x7108B01C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7108B01C,  4380, 0x108B000C, 34.78389, 83.6521, 22, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

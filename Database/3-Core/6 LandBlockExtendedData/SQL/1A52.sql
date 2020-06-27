@@ -9,14 +9,14 @@ VALUES (0x71A52019,  1154, 0x1A520100, 35.8293, 71.5056, -6.3395, 0.9999276, 0, 
 /* @teleloc 0x1A520100 [35.829300 71.505600 -6.339500] 0.999928 0.000000 0.000000 -0.012036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A52019, 0x71A5201A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71A52019, 0x71A5201B, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71A52019, 0x71A5201C, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71A52019, 0x71A5201D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71A52019, 0x71A5201E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71A52019, 0x71A5201F, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71A52019, 0x71A52020, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71A52019, 0x71A52021, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x71A52019, 0x71A5201A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71A52019, 0x71A5201B, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71A52019, 0x71A5201C, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71A52019, 0x71A5201D, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71A52019, 0x71A5201E, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71A52019, 0x71A5201F, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71A52019, 0x71A52020, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71A52019, 0x71A52021, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A5201A, 23091, 0x1A520100, 35.8293, 71.5056, -6.3395, 0.9999276, 0, 0, -0.01203569,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */

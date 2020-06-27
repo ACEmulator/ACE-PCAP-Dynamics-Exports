@@ -5,20 +5,20 @@ VALUES (0x7F71B001,  1154, 0xF71B0031, 164.2626, 9.573936, 20.32645, 0.9238795, 
 /* @teleloc 0xF71B0031 [164.262600 9.573936 20.326450] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F71B001, 0x7F71B002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F71B001, 0x7F71B003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F71B001, 0x7F71B004, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F71B001, 0x7F71B005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F71B001, 0x7F71B006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F71B001, 0x7F71B007, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F71B001, 0x7F71B008, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F71B001, 0x7F71B009, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F71B001, 0x7F71B00A, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F71B001, 0x7F71B00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F71B001, 0x7F71B00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F71B001, 0x7F71B00D, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F71B001, 0x7F71B00E, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F71B001, 0x7F71B00F, '2019-02-10 00:00:00') /* Slithayr Tentacle */;
+VALUES (0x7F71B001, 0x7F71B002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F71B001, 0x7F71B003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F71B001, 0x7F71B004, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F71B001, 0x7F71B005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F71B001, 0x7F71B006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F71B001, 0x7F71B007, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F71B001, 0x7F71B008, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F71B001, 0x7F71B009, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F71B001, 0x7F71B00A, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F71B001, 0x7F71B00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F71B001, 0x7F71B00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F71B001, 0x7F71B00D, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F71B001, 0x7F71B00E, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F71B001, 0x7F71B00F, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F71B002,  7129, 0xF71B0031, 164.2626, 9.573936, 20.32645, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -81,7 +81,7 @@ VALUES (0x7F71B010,  1542, 0xF71B0031, 165.987, 10.54681, 21.49606, 0.9537169, 0
 /* @teleloc 0xF71B0031 [165.987000 10.546810 21.496060] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F71B010, 0x7F71B011, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7F71B010, 0x7F71B011, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F71B011,  5779, 0xF71B0031, 165.987, 10.54681, 21.49606, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

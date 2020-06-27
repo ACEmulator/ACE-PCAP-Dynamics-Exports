@@ -5,14 +5,14 @@ VALUES (0x71D74001,  1154, 0x1D74001D, 84.43808, 100.1767, 162.0132, -0.8122776,
 /* @teleloc 0x1D74001D [84.438080 100.176700 162.013200] -0.812278 0.000000 0.000000 -0.583271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D74001, 0x71D74002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71D74001, 0x71D74003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71D74001, 0x71D74004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71D74001, 0x71D74005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71D74001, 0x71D74006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71D74001, 0x71D74007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71D74001, 0x71D74008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71D74001, 0x71D74009, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x71D74001, 0x71D74002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71D74001, 0x71D74003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71D74001, 0x71D74004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71D74001, 0x71D74005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71D74001, 0x71D74006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71D74001, 0x71D74007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71D74001, 0x71D74008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71D74001, 0x71D74009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D74002,  7184, 0x1D74001D, 84.43808, 100.1767, 162.0132, -0.8122776, 0, 0, -0.5832711,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -51,7 +51,7 @@ VALUES (0x71D7400A,  1542, 0x1D74002A, 132.8479, 41.42851, 163.4524, -0.7637289,
 /* @teleloc 0x1D74002A [132.847900 41.428510 163.452400] -0.763729 0.000000 0.000000 -0.645537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D7400A, 0x71D7400B, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x71D7400A, 0x71D7400B, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D7400B, 11555, 0x1D74002A, 132.8479, 41.42851, 163.4524, -0.7637289, 0, 0, -0.6455371,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

@@ -5,17 +5,17 @@ VALUES (0x7F575001,  1154, 0xF5750040, 177.8459, 188.8768, 19.40506, 0.9833525, 
 /* @teleloc 0xF5750040 [177.845900 188.876800 19.405060] 0.983353 0.000000 0.000000 -0.181708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F575001, 0x7F575002, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F575001, 0x7F575003, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F575001, 0x7F575004, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F575001, 0x7F575005, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F575001, 0x7F575006, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F575001, 0x7F575007, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F575001, 0x7F575008, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F575001, 0x7F575009, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F575001, 0x7F57500A, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F575001, 0x7F57500B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F575001, 0x7F57500C, '2019-02-10 00:00:00') /* Tusker Kin */;
+VALUES (0x7F575001, 0x7F575002, '2019-02-10 00:00:00') /* Tusker Kin (22510) */
+     , (0x7F575001, 0x7F575003, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F575001, 0x7F575004, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F575001, 0x7F575005, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F575001, 0x7F575006, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F575001, 0x7F575007, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F575001, 0x7F575008, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F575001, 0x7F575009, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F575001, 0x7F57500A, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F575001, 0x7F57500B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F575001, 0x7F57500C, '2019-02-10 00:00:00') /* Tusker Kin (22509) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F575002, 22510, 0xF5750040, 177.8459, 188.8768, 19.40506, 0.9833525, 0, 0, -0.1817081,  True, '2019-02-10 00:00:00'); /* Tusker Kin */

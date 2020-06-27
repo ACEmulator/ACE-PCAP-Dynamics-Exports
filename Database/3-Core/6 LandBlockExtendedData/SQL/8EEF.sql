@@ -5,11 +5,11 @@ VALUES (0x78EEF001,  1154, 0x8EEF000F, 47.39265, 145.0206, 14.10005, 0.9537169, 
 /* @teleloc 0x8EEF000F [47.392650 145.020600 14.100050] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EEF001, 0x78EEF002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EEF001, 0x78EEF003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EEF001, 0x78EEF004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EEF001, 0x78EEF005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EEF001, 0x78EEF006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78EEF001, 0x78EEF002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EEF001, 0x78EEF003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EEF001, 0x78EEF004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EEF001, 0x78EEF005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EEF001, 0x78EEF006, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EEF002,  7129, 0x8EEF000F, 47.39265, 145.0206, 14.10005, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */

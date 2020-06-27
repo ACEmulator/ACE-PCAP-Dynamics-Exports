@@ -5,20 +5,20 @@ VALUES (0x72069001,  1154, 0x20690036, 164.4024, 138.7757, 40.005, 0.9618232, 0,
 /* @teleloc 0x20690036 [164.402400 138.775700 40.005000] 0.961823 0.000000 0.000000 -0.273671 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72069001, 0x72069002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72069001, 0x72069003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72069001, 0x72069004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72069001, 0x72069005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72069001, 0x72069006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72069001, 0x72069007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72069001, 0x72069008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72069001, 0x72069009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72069001, 0x7206900A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72069001, 0x7206900B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72069001, 0x7206900C, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72069001, 0x7206900D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72069001, 0x7206900E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72069001, 0x7206900F, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72069001, 0x72069002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72069001, 0x72069003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72069001, 0x72069004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72069001, 0x72069005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72069001, 0x72069006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72069001, 0x72069007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72069001, 0x72069008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72069001, 0x72069009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72069001, 0x7206900A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72069001, 0x7206900B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72069001, 0x7206900C, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72069001, 0x7206900D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72069001, 0x7206900E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72069001, 0x7206900F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72069002, 23563, 0x20690036, 164.4024, 138.7757, 40.005, 0.9618232, 0, 0, -0.2736714,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

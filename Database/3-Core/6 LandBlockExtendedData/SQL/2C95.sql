@@ -5,10 +5,10 @@ VALUES (0x72C95001,  1154, 0x2C950003, 16.13556, 59.32073, 5.283029, -4.371139E-
 /* @teleloc 0x2C950003 [16.135560 59.320730 5.283029] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C95001, 0x72C95002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72C95001, 0x72C95003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72C95001, 0x72C95004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72C95001, 0x72C95005, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x72C95001, 0x72C95002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72C95001, 0x72C95003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72C95001, 0x72C95004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72C95001, 0x72C95005, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C95002,  7112, 0x2C950003, 16.13556, 59.32073, 5.283029, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

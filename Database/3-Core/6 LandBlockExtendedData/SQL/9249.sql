@@ -5,11 +5,11 @@ VALUES (0x79249001,  1154, 0x9249003F, 171.7543, 153.3865, 16.04364, -0.5076815,
 /* @teleloc 0x9249003F [171.754300 153.386500 16.043640] -0.507682 0.000000 0.000000 -0.861545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79249001, 0x79249002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79249001, 0x79249003, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79249001, 0x79249004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79249001, 0x79249005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79249001, 0x79249006, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x79249001, 0x79249002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79249001, 0x79249003, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79249001, 0x79249004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79249001, 0x79249005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79249001, 0x79249006, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79249002,  6645, 0x9249003F, 171.7543, 153.3865, 16.04364, -0.5076815, 0, 0, -0.8615448,  True, '2019-02-10 00:00:00'); /* Magma Golem */

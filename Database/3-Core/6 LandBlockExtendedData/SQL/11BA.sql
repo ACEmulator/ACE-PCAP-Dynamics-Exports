@@ -5,10 +5,10 @@ VALUES (0x711BA001,  1154, 0x11BA0029, 125.8551, 22.53978, 21.88331, -0.4264754,
 /* @teleloc 0x11BA0029 [125.855100 22.539780 21.883310] -0.426475 0.000000 0.000000 -0.904499 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BA001, 0x711BA002, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x711BA001, 0x711BA003, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x711BA001, 0x711BA004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x711BA001, 0x711BA005, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x711BA001, 0x711BA002, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x711BA001, 0x711BA003, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x711BA001, 0x711BA004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x711BA001, 0x711BA005, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BA002, 11504, 0x11BA0029, 125.8551, 22.53978, 21.88331, -0.4264754, 0, 0, -0.9044992,  True, '2019-02-10 00:00:00'); /* Mercenary */
@@ -31,8 +31,8 @@ VALUES (0x711BA006,  1542, 0x11BA0021, 108.1463, 21.8219, 22.00192, 1, 0, 0, 0, 
 /* @teleloc 0x11BA0021 [108.146300 21.821900 22.001920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BA006, 0x711BA007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x711BA006, 0x711BA008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x711BA006, 0x711BA007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x711BA006, 0x711BA008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BA007,  9024, 0x11BA0021, 108.1463, 21.8219, 22.00192, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

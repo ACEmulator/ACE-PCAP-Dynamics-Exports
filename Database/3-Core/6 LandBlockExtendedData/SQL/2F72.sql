@@ -5,13 +5,13 @@ VALUES (0x72F72001,  1154, 0x2F720034, 159.9228, 75.94602, 34.00715, -0.9593059,
 /* @teleloc 0x2F720034 [159.922800 75.946020 34.007150] -0.959306 0.000000 0.000000 -0.282369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F72001, 0x72F72002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72F72001, 0x72F72003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F72001, 0x72F72004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72F72001, 0x72F72005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F72001, 0x72F72006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F72001, 0x72F72007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F72001, 0x72F72008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x72F72001, 0x72F72002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72F72001, 0x72F72003, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72F72001, 0x72F72004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72F72001, 0x72F72005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F72001, 0x72F72006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F72001, 0x72F72007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F72001, 0x72F72008, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F72002, 24277, 0x2F720034, 159.9228, 75.94602, 34.00715, -0.9593059, 0, 0, -0.2823687,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

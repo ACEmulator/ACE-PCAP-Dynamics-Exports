@@ -5,13 +5,13 @@ VALUES (0x7F818001,  1154, 0xF8180013, 71.2673, 71.55738, 34.159, 0.2785765, 0, 
 /* @teleloc 0xF8180013 [71.267300 71.557380 34.159000] 0.278577 0.000000 0.000000 -0.960414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F818001, 0x7F818002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F818001, 0x7F818003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F818001, 0x7F818004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F818001, 0x7F818005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F818001, 0x7F818006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F818001, 0x7F818007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F818001, 0x7F818008, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7F818001, 0x7F818002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F818001, 0x7F818003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F818001, 0x7F818004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F818001, 0x7F818005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F818001, 0x7F818006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F818001, 0x7F818007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F818001, 0x7F818008, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F818002,  7112, 0xF8180013, 71.2673, 71.55738, 34.159, 0.2785765, 0, 0, -0.9604141,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -46,7 +46,7 @@ VALUES (0x7F818009,  1542, 0xF818002C, 128.1206, 91.25356, 23.71882, 0.9990482, 
 /* @teleloc 0xF818002C [128.120600 91.253560 23.718820] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F818009, 0x7F81800A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F818009, 0x7F81800A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81800A,  4179, 0xF818002C, 128.1206, 91.25356, 23.71882, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

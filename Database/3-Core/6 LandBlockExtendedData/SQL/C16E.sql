@@ -5,14 +5,14 @@ VALUES (0x7C16E001,  1154, 0xC16E0033, 157.3582, 58.95272, 60.003, 0.2238969, 0,
 /* @teleloc 0xC16E0033 [157.358200 58.952720 60.003000] 0.223897 0.000000 0.000000 -0.974613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16E001, 0x7C16E002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C16E001, 0x7C16E003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C16E001, 0x7C16E004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C16E001, 0x7C16E005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7C16E001, 0x7C16E006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C16E001, 0x7C16E007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C16E001, 0x7C16E008, '2019-02-10 00:00:00') /* Static */
-     , (0x7C16E001, 0x7C16E009, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7C16E001, 0x7C16E002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C16E001, 0x7C16E003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C16E001, 0x7C16E004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C16E001, 0x7C16E005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7C16E001, 0x7C16E006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C16E001, 0x7C16E007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C16E001, 0x7C16E008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C16E001, 0x7C16E009, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16E002, 21168, 0xC16E0033, 157.3582, 58.95272, 60.003, 0.2238969, 0, 0, -0.9746128,  True, '2019-02-10 00:00:00'); /* Charge */

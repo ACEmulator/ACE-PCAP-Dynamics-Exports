@@ -5,16 +5,16 @@ VALUES (0x77EDB001,  1154, 0x7EDB003F, 179.8782, 153.8138, 276.0263, 0.8191521, 
 /* @teleloc 0x7EDB003F [179.878200 153.813800 276.026300] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EDB001, 0x77EDB002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77EDB001, 0x77EDB003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77EDB001, 0x77EDB004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77EDB001, 0x77EDB005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77EDB001, 0x77EDB006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EDB001, 0x77EDB007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EDB001, 0x77EDB008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77EDB001, 0x77EDB009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EDB001, 0x77EDB00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77EDB001, 0x77EDB00B, '2019-02-10 00:00:00') /* Hyem */;
+VALUES (0x77EDB001, 0x77EDB002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77EDB001, 0x77EDB003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77EDB001, 0x77EDB004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77EDB001, 0x77EDB005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77EDB001, 0x77EDB006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EDB001, 0x77EDB007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EDB001, 0x77EDB008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77EDB001, 0x77EDB009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EDB001, 0x77EDB00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77EDB001, 0x77EDB00B, '2019-02-10 00:00:00') /* Hyem (14875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EDB002, 23566, 0x7EDB003F, 179.8782, 153.8138, 276.0263, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

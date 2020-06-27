@@ -5,12 +5,12 @@ VALUES (0x73568001,  1154, 0x3568003B, 176.3614, 50.89491, 70.92108, -0.7068437,
 /* @teleloc 0x3568003B [176.361400 50.894910 70.921080] -0.706844 0.000000 0.000000 -0.707370 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73568001, 0x73568002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73568001, 0x73568003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73568001, 0x73568004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73568001, 0x73568005, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x73568001, 0x73568006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73568001, 0x73568007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73568001, 0x73568002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73568001, 0x73568003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73568001, 0x73568004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73568001, 0x73568005, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x73568001, 0x73568006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73568001, 0x73568007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73568002, 36829, 0x3568003B, 176.3614, 50.89491, 70.92108, -0.7068437, 0, 0, -0.7073697,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

@@ -5,23 +5,23 @@ VALUES (0x74A2D001,  1154, 0x4A2D002D, 141.557, 114.778, 0.008249998, 0.99414, 0
 /* @teleloc 0x4A2D002D [141.557000 114.778000 0.008250] 0.994140 0.000000 0.000000 0.108100 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A2D001, 0x74A2D002, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D003, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D004, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D005, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D006, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D007, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D008, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D009, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D00A, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D00B, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D00C, '2019-02-10 00:00:00') /* Blight Lictor */
-     , (0x74A2D001, 0x74A2D00D, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D00E, '2019-02-10 00:00:00') /* Blight Revenant */
-     , (0x74A2D001, 0x74A2D00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74A2D001, 0x74A2D010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74A2D001, 0x74A2D011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74A2D001, 0x74A2D012, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74A2D001, 0x74A2D002, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D003, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D004, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D005, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D006, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D007, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D008, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D009, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D00A, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D00B, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D00C, '2019-02-10 00:00:00') /* Blight Lictor (37609) */
+     , (0x74A2D001, 0x74A2D00D, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D00E, '2019-02-10 00:00:00') /* Blight Revenant (37608) */
+     , (0x74A2D001, 0x74A2D00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74A2D001, 0x74A2D010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74A2D001, 0x74A2D011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74A2D001, 0x74A2D012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A2D002, 37608, 0x4A2D002D, 141.557, 114.778, 0.008249998, 0.99414, 0, 0, 0.1081,  True, '2019-02-10 00:00:00'); /* Blight Revenant */
@@ -96,7 +96,7 @@ VALUES (0x74A2D013,  1154, 0x4A2D0027, 98.534, 162.535, 8.004999, -0.159498, 0, 
 /* @teleloc 0x4A2D0027 [98.534000 162.535000 8.004999] -0.159498 0.000000 0.000000 0.987198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A2D013, 0x74A2D014, '2019-02-10 00:00:00') /* Jawaq ibn Janath */;
+VALUES (0x74A2D013, 0x74A2D014, '2019-02-10 00:00:00') /* Jawaq ibn Janath (37607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A2D014, 37607, 0x4A2D0027, 98.534, 162.535, 8.004999, -0.159498, 0, 0, 0.987198,  True, '2019-02-10 00:00:00'); /* Jawaq ibn Janath */

@@ -5,15 +5,15 @@ VALUES (0x73D16001,  1154, 0x3D160019, 81.94736, 2.875443, 68, 0.9911926, 0, 0, 
 /* @teleloc 0x3D160019 [81.947360 2.875443 68.000000] 0.991193 0.000000 0.000000 -0.132428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D16001, 0x73D16002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D16001, 0x73D16003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D16001, 0x73D16004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x73D16001, 0x73D16005, '2019-02-10 00:00:00') /* Frost */
-     , (0x73D16001, 0x73D16006, '2019-02-10 00:00:00') /* Frost */
-     , (0x73D16001, 0x73D16007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73D16001, 0x73D16008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D16001, 0x73D16009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73D16001, 0x73D1600A, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x73D16001, 0x73D16002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D16001, 0x73D16003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D16001, 0x73D16004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x73D16001, 0x73D16005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73D16001, 0x73D16006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73D16001, 0x73D16007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73D16001, 0x73D16008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D16001, 0x73D16009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73D16001, 0x73D1600A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D16002, 23482, 0x3D160019, 81.94736, 2.875443, 68, 0.9911926, 0, 0, -0.1324283,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

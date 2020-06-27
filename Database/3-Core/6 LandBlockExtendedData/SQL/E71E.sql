@@ -5,19 +5,19 @@ VALUES (0x7E71E001,  1154, 0xE71E0039, 181.6221, 8.861232, 22.79348, -0.9999638,
 /* @teleloc 0xE71E0039 [181.622100 8.861232 22.793480] -0.999964 0.000000 0.000000 -0.008507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E71E001, 0x7E71E002, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71E001, 0x7E71E003, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71E001, 0x7E71E004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E71E001, 0x7E71E005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E71E001, 0x7E71E006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E71E001, 0x7E71E007, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71E001, 0x7E71E008, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E71E001, 0x7E71E009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E71E001, 0x7E71E00A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E71E001, 0x7E71E00B, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E71E001, 0x7E71E00C, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71E001, 0x7E71E00D, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71E001, 0x7E71E00E, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E71E001, 0x7E71E002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71E001, 0x7E71E003, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71E001, 0x7E71E004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E71E001, 0x7E71E005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E71E001, 0x7E71E006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E71E001, 0x7E71E007, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71E001, 0x7E71E008, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E71E001, 0x7E71E009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E71E001, 0x7E71E00A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E71E001, 0x7E71E00B, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E71E001, 0x7E71E00C, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71E001, 0x7E71E00D, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71E001, 0x7E71E00E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E71E002,  1986, 0xE71E0039, 181.6221, 8.861232, 22.79348, -0.9999638, 0, 0, -0.0085073,  True, '2019-02-10 00:00:00'); /* Water Wisp */
@@ -76,8 +76,8 @@ VALUES (0x7E71E00F,  1542, 0xE71E0018, 62.11639, 176.7061, -0.1, 0.9962532, 0, 0
 /* @teleloc 0xE71E0018 [62.116390 176.706100 -0.100000] 0.996253 0.000000 0.000000 -0.086485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E71E00F, 0x7E71E010, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E71E00F, 0x7E71E011, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7E71E00F, 0x7E71E010, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E71E00F, 0x7E71E011, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E71E010,  8588, 0xE71E0018, 62.11639, 176.7061, -0.1, 0.9962532, 0, 0, -0.08648463,  True, '2019-02-10 00:00:00'); /* Idol */

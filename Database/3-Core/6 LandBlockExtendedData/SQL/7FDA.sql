@@ -5,9 +5,9 @@ VALUES (0x77FDA001,  1154, 0x7FDA001A, 95.84484, 35.93138, 308.5276, -0.7660444,
 /* @teleloc 0x7FDA001A [95.844840 35.931380 308.527600] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDA001, 0x77FDA002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77FDA001, 0x77FDA003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77FDA001, 0x77FDA004, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x77FDA001, 0x77FDA002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77FDA001, 0x77FDA003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77FDA001, 0x77FDA004, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDA002, 24494, 0x7FDA001A, 95.84484, 35.93138, 308.5276, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -26,9 +26,9 @@ VALUES (0x77FDA005,  1542, 0x7FDA0010, 37.01587, 190.2801, 276.1433, 0.1729967, 
 /* @teleloc 0x7FDA0010 [37.015870 190.280100 276.143300] 0.172997 0.000000 0.000000 -0.984922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDA005, 0x77FDA006, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x77FDA005, 0x77FDA007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77FDA005, 0x77FDA008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77FDA005, 0x77FDA006, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x77FDA005, 0x77FDA007, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x77FDA005, 0x77FDA008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDA006, 11555, 0x7FDA0010, 37.01587, 190.2801, 276.1433, 0.1729967, 0, 0, -0.9849224,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

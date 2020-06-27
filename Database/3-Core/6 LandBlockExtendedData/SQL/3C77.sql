@@ -5,10 +5,10 @@ VALUES (0x73C77001,  1154, 0x3C770004, 10.81349, 88.89992, 8.515452, 0.2588191, 
 /* @teleloc 0x3C770004 [10.813490 88.899920 8.515452] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C77001, 0x73C77002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C77001, 0x73C77003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C77001, 0x73C77004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C77001, 0x73C77005, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x73C77001, 0x73C77002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C77001, 0x73C77003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C77001, 0x73C77004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C77001, 0x73C77005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C77002, 24320, 0x3C770004, 10.81349, 88.89992, 8.515452, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -31,7 +31,7 @@ VALUES (0x73C77006,  1542, 0x3C770004, 16.02446, 89.66742, 8.136913, 0.9990482, 
 /* @teleloc 0x3C770004 [16.024460 89.667420 8.136913] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C77006, 0x73C77007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73C77006, 0x73C77007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C77007,  4179, 0x3C770004, 16.02446, 89.66742, 8.136913, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

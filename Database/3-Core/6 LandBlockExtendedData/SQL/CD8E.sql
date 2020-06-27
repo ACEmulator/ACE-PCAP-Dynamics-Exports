@@ -9,19 +9,19 @@ VALUES (0x7CD8E001,  1154, 0xCD8E000C, 33.78522, 80.19267, 22.005, 0.9461294, 0,
 /* @teleloc 0xCD8E000C [33.785220 80.192670 22.005000] 0.946129 0.000000 0.000000 -0.323789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD8E001, 0x7CD8E002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7CD8E001, 0x7CD8E003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CD8E001, 0x7CD8E004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CD8E001, 0x7CD8E005, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CD8E001, 0x7CD8E006, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CD8E001, 0x7CD8E007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CD8E001, 0x7CD8E008, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CD8E001, 0x7CD8E009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CD8E001, 0x7CD8E00A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CD8E001, 0x7CD8E00B, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CD8E001, 0x7CD8E00C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CD8E001, 0x7CD8E00D, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CD8E001, 0x7CD8E00E, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7CD8E001, 0x7CD8E002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7CD8E001, 0x7CD8E003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CD8E001, 0x7CD8E004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CD8E001, 0x7CD8E005, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CD8E001, 0x7CD8E006, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CD8E001, 0x7CD8E007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CD8E001, 0x7CD8E008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CD8E001, 0x7CD8E009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CD8E001, 0x7CD8E00A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CD8E001, 0x7CD8E00B, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CD8E001, 0x7CD8E00C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CD8E001, 0x7CD8E00D, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CD8E001, 0x7CD8E00E, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD8E002,    10, 0xCD8E000C, 33.78522, 80.19267, 22.005, 0.9461294, 0, 0, -0.3237886,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

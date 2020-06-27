@@ -5,9 +5,9 @@ VALUES (0x7C247001,  1154, 0xC2470019, 81.46305, 21.29052, 167.1577, -0.3637341,
 /* @teleloc 0xC2470019 [81.463050 21.290520 167.157700] -0.363734 0.000000 0.000000 -0.931503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C247001, 0x7C247002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C247001, 0x7C247003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C247001, 0x7C247004, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7C247001, 0x7C247002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C247001, 0x7C247003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C247001, 0x7C247004, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C247002,  9400, 0xC2470019, 81.46305, 21.29052, 167.1577, -0.3637341, 0, 0, -0.9315028,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

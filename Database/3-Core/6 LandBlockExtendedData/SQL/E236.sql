@@ -5,13 +5,13 @@ VALUES (0x7E236001,  1154, 0xE2360015, 56.00868, 99.10939, 121.9022, 0.9995682, 
 /* @teleloc 0xE2360015 [56.008680 99.109390 121.902200] 0.999568 0.000000 0.000000 -0.029386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E236001, 0x7E236002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7E236001, 0x7E236003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7E236001, 0x7E236004, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E236001, 0x7E236005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7E236001, 0x7E236006, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E236001, 0x7E236007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E236001, 0x7E236008, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7E236001, 0x7E236002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7E236001, 0x7E236003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E236001, 0x7E236004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E236001, 0x7E236005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7E236001, 0x7E236006, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E236001, 0x7E236007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E236001, 0x7E236008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E236002,   206, 0xE2360015, 56.00868, 99.10939, 121.9022, 0.9995682, 0, 0, -0.02938551,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
@@ -46,7 +46,7 @@ VALUES (0x7E236009,  1542, 0xE2360015, 49.83218, 112.4495, 120.5107, 0.8433914, 
 /* @teleloc 0xE2360015 [49.832180 112.449500 120.510700] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E236009, 0x7E23600A, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7E236009, 0x7E23600A, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E23600A,  8190, 0xE2360015, 49.83218, 112.4495, 120.5107, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

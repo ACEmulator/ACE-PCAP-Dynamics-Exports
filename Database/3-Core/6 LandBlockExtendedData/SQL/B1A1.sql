@@ -5,25 +5,25 @@ VALUES (0x7B1A1001,  1154, 0xB1A1002F, 135.871, 150.2404, 87.20195, -0.7263141, 
 /* @teleloc 0xB1A1002F [135.871000 150.240400 87.201950] -0.726314 0.000000 0.000000 -0.687363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A1001, 0x7B1A1002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1A1001, 0x7B1A1003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B1A1001, 0x7B1A1004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1A1001, 0x7B1A1005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1A1001, 0x7B1A1006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1A1001, 0x7B1A1007, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B1A1001, 0x7B1A1008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1A1001, 0x7B1A1009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1A1001, 0x7B1A100A, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1A1001, 0x7B1A100B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A1001, 0x7B1A100C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B1A1001, 0x7B1A100D, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B1A1001, 0x7B1A100E, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B1A1001, 0x7B1A100F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B1A1001, 0x7B1A1010, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A1001, 0x7B1A1011, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1A1001, 0x7B1A1012, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1A1001, 0x7B1A1013, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B1A1001, 0x7B1A1014, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7B1A1001, 0x7B1A1002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1A1001, 0x7B1A1003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B1A1001, 0x7B1A1004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1A1001, 0x7B1A1005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1A1001, 0x7B1A1006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1A1001, 0x7B1A1007, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B1A1001, 0x7B1A1008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1A1001, 0x7B1A1009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1A1001, 0x7B1A100A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1A1001, 0x7B1A100B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A1001, 0x7B1A100C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B1A1001, 0x7B1A100D, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B1A1001, 0x7B1A100E, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B1A1001, 0x7B1A100F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B1A1001, 0x7B1A1010, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A1001, 0x7B1A1011, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1A1001, 0x7B1A1012, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1A1001, 0x7B1A1013, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B1A1001, 0x7B1A1014, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A1002,  1614, 0xB1A1002F, 135.871, 150.2404, 87.20195, -0.7263141, 0, 0, -0.6873629,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
@@ -106,7 +106,7 @@ VALUES (0x7B1A1015,  1542, 0xB1A1002D, 126.1022, 114.4008, 86.89052, -4.371139E-
 /* @teleloc 0xB1A1002D [126.102200 114.400800 86.890520] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A1015, 0x7B1A1016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B1A1015, 0x7B1A1016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A1016,  4380, 0xB1A1002D, 126.1022, 114.4008, 86.89052, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,26 +5,26 @@ VALUES (0x7BC63001,  1154, 0xBC630024, 98.48297, 86.94188, 5.932046, -0.7071068,
 /* @teleloc 0xBC630024 [98.482970 86.941880 5.932046] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC63001, 0x7BC63002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63003, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7BC63001, 0x7BC63004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63005, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7BC63001, 0x7BC63006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63008, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7BC63001, 0x7BC63009, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7BC63001, 0x7BC6300A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC6300B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC6300C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BC63001, 0x7BC6300D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC6300E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC6300F, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BC63001, 0x7BC63010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63011, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC63001, 0x7BC63014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BC63001, 0x7BC63015, '2019-02-10 00:00:00') /* Ethereal Wisp */;
+VALUES (0x7BC63001, 0x7BC63002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63003, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (27098) */
+     , (0x7BC63001, 0x7BC63004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63005, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (27098) */
+     , (0x7BC63001, 0x7BC63006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63008, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (27098) */
+     , (0x7BC63001, 0x7BC63009, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (27098) */
+     , (0x7BC63001, 0x7BC6300A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC6300B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC6300C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BC63001, 0x7BC6300D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC6300E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC6300F, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BC63001, 0x7BC63010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63011, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC63001, 0x7BC63014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BC63001, 0x7BC63015, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC63002, 27100, 0xBC630024, 98.48297, 86.94188, 5.932046, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */

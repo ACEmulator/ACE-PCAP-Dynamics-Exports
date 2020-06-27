@@ -5,18 +5,18 @@ VALUES (0x7370A001,  1154, 0x370A0033, 162.1037, 66.27998, -0.439, -0.5714096, 0
 /* @teleloc 0x370A0033 [162.103700 66.279980 -0.439000] -0.571410 0.000000 0.000000 -0.820665 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7370A001, 0x7370A002, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7370A001, 0x7370A003, '2019-02-10 00:00:00') /* Shrine of the Blood Pearl */
-     , (0x7370A001, 0x7370A004, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7370A001, 0x7370A005, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7370A001, 0x7370A006, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7370A001, 0x7370A007, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7370A001, 0x7370A008, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7370A001, 0x7370A009, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7370A001, 0x7370A00A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7370A001, 0x7370A00B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7370A001, 0x7370A00C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7370A001, 0x7370A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun */;
+VALUES (0x7370A001, 0x7370A002, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40466) */
+     , (0x7370A001, 0x7370A003, '2019-02-10 00:00:00') /* Shrine of the Blood Pearl (38263) */
+     , (0x7370A001, 0x7370A004, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A005, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7370A001, 0x7370A006, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A007, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7370A001, 0x7370A008, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A009, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38829) */
+     , (0x7370A001, 0x7370A00A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7370A001, 0x7370A00B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A00C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7370A002, 40466, 0x370A0033, 162.1037, 66.27998, -0.439, -0.5714096, 0, 0, -0.8206651,  True, '2019-02-10 00:00:00'); /* Corrupted Coral Golem */

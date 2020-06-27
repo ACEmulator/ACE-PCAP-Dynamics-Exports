@@ -5,12 +5,12 @@ VALUES (0x74651001,  1154, 0x46510025, 96.80873, 105.1025, 4.275889, 0.2588191, 
 /* @teleloc 0x46510025 [96.808730 105.102500 4.275889] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74651001, 0x74651002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74651001, 0x74651003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74651001, 0x74651004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74651001, 0x74651005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74651001, 0x74651006, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74651001, 0x74651007, '2019-02-10 00:00:00') /* Desolation Moarsman */;
+VALUES (0x74651001, 0x74651002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74651001, 0x74651003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74651001, 0x74651004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74651001, 0x74651005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74651001, 0x74651006, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74651001, 0x74651007, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74651002, 24319, 0x46510025, 96.80873, 105.1025, 4.275889, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -41,7 +41,7 @@ VALUES (0x74651008,  1542, 0x46510005, 23.19566, 96.09512, 17.50144, 0.9990482, 
 /* @teleloc 0x46510005 [23.195660 96.095120 17.501440] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74651008, 0x74651009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74651008, 0x74651009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74651009,  4179, 0x46510005, 23.19566, 96.09512, 17.50144, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

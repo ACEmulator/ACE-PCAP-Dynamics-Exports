@@ -5,31 +5,31 @@ VALUES (0x7C4ED001,  1154, 0xC4ED003D, 178.9664, 100.058, 48.17227, -0.9255057, 
 /* @teleloc 0xC4ED003D [178.966400 100.058000 48.172270] -0.925506 0.000000 0.000000 -0.378734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4ED001, 0x7C4ED002, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED003, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED004, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED005, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED006, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED007, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED008, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED009, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED00A, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C4ED001, 0x7C4ED00B, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C4ED001, 0x7C4ED00C, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C4ED001, 0x7C4ED00D, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED00E, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED00F, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED010, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C4ED001, 0x7C4ED011, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C4ED001, 0x7C4ED012, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED013, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED014, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C4ED001, 0x7C4ED015, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED016, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED017, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED018, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED019, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C4ED001, 0x7C4ED01A, '2019-02-10 00:00:00') /* Depraved Mukkir */;
+VALUES (0x7C4ED001, 0x7C4ED002, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
+     , (0x7C4ED001, 0x7C4ED003, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED004, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED005, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED006, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
+     , (0x7C4ED001, 0x7C4ED007, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED008, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED009, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED00A, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C4ED001, 0x7C4ED00B, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C4ED001, 0x7C4ED00C, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C4ED001, 0x7C4ED00D, '2019-02-10 00:00:00') /* Horrid Remoran (33737) */
+     , (0x7C4ED001, 0x7C4ED00E, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C4ED001, 0x7C4ED00F, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C4ED001, 0x7C4ED010, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C4ED001, 0x7C4ED011, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C4ED001, 0x7C4ED012, '2019-02-10 00:00:00') /* Horrid Remoran (33737) */
+     , (0x7C4ED001, 0x7C4ED013, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C4ED001, 0x7C4ED014, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C4ED001, 0x7C4ED015, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED016, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED017, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED018, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
+     , (0x7C4ED001, 0x7C4ED019, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C4ED001, 0x7C4ED01A, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4ED002, 33733, 0xC4ED003D, 178.9664, 100.058, 48.17227, -0.9255057, 0, 0, -0.3787337,  True, '2019-02-10 00:00:00'); /* Depraved Mukkir */
@@ -136,7 +136,7 @@ VALUES (0x7C4ED01B,  1542, 0xC4ED001B, 79.86906, 51.79041, 40.0148, 0.9453742, 0
 /* @teleloc 0xC4ED001B [79.869060 51.790410 40.014800] 0.945374 0.000000 0.000000 -0.325987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4ED01B, 0x7C4ED01C, '2019-02-10 00:00:00') /* Black Coral */;
+VALUES (0x7C4ED01B, 0x7C4ED01C, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4ED01C, 38613, 0xC4ED001B, 79.86906, 51.79041, 40.0148, 0.9453742, 0, 0, -0.3259872,  True, '2019-02-10 00:00:00'); /* Black Coral */

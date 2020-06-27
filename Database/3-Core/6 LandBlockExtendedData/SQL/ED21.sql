@@ -5,12 +5,12 @@ VALUES (0x7ED21001,  1154, 0xED210023, 112.5742, 65.70149, -0.09460002, 0.444080
 /* @teleloc 0xED210023 [112.574200 65.701490 -0.094600] 0.444080 0.000000 0.000000 -0.895987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED21001, 0x7ED21002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED21001, 0x7ED21003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED21001, 0x7ED21004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED21001, 0x7ED21005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED21001, 0x7ED21006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED21001, 0x7ED21007, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7ED21001, 0x7ED21002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED21001, 0x7ED21003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED21001, 0x7ED21004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED21001, 0x7ED21005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED21001, 0x7ED21006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED21001, 0x7ED21007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED21002,  4247, 0xED210023, 112.5742, 65.70149, -0.09460002, 0.4440803, 0, 0, -0.895987,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

@@ -5,12 +5,12 @@ VALUES (0x7AB0D001,  1154, 0xAB0D0031, 166.4266, 18.25188, 21.00812, -0.3704227,
 /* @teleloc 0xAB0D0031 [166.426600 18.251880 21.008120] -0.370423 0.000000 0.000000 -0.928863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0D001, 0x7AB0D002, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7AB0D001, 0x7AB0D003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AB0D001, 0x7AB0D004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AB0D001, 0x7AB0D005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AB0D001, 0x7AB0D006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AB0D001, 0x7AB0D007, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7AB0D001, 0x7AB0D002, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7AB0D001, 0x7AB0D003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AB0D001, 0x7AB0D004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AB0D001, 0x7AB0D005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AB0D001, 0x7AB0D006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AB0D001, 0x7AB0D007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0D002, 26469, 0xAB0D0031, 166.4266, 18.25188, 21.00812, -0.3704227, 0, 0, -0.9288633,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
@@ -41,9 +41,9 @@ VALUES (0x7AB0D008,  1542, 0xAB0D0034, 149.7476, 86.91451, 40.19068, -0.08405381
 /* @teleloc 0xAB0D0034 [149.747600 86.914510 40.190680] -0.084054 0.000000 0.000000 -0.996461 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0D008, 0x7AB0D009, '2019-02-10 00:00:00') /* Rock */
-     , (0x7AB0D008, 0x7AB0D00A, '2019-02-10 00:00:00') /* Rock */
-     , (0x7AB0D008, 0x7AB0D00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AB0D008, 0x7AB0D009, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7AB0D008, 0x7AB0D00A, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7AB0D008, 0x7AB0D00B, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0D009, 42528, 0xAB0D0034, 149.7476, 86.91451, 40.19068, -0.08405381, 0, 0, -0.9964612,  True, '2019-02-10 00:00:00'); /* Rock */

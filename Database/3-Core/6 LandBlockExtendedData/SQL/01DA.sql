@@ -45,16 +45,16 @@ VALUES (0x701DA013,  1154, 0x01DA0120, 31.49144, -17.71297, 0.003324986, -0.7071
 /* @teleloc 0x01DA0120 [31.491440 -17.712970 0.003325] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DA013, 0x701DA014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DA013, 0x701DA015, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DA013, 0x701DA016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DA013, 0x701DA017, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DA013, 0x701DA018, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DA013, 0x701DA019, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DA013, 0x701DA01A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701DA013, 0x701DA01B, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701DA013, 0x701DA01C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DA013, 0x701DA01D, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x701DA013, 0x701DA014, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DA013, 0x701DA015, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DA013, 0x701DA016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DA013, 0x701DA017, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DA013, 0x701DA018, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DA013, 0x701DA019, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DA013, 0x701DA01A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701DA013, 0x701DA01B, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701DA013, 0x701DA01C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DA013, 0x701DA01D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DA014,     7, 0x01DA0120, 31.49144, -17.71297, 0.003324986, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -101,11 +101,11 @@ VALUES (0x701DA01E,  1542, 0x01DA0109, -0.09038997, -52.73487, -5.9795, 1, 0, 0,
 /* @teleloc 0x01DA0109 [-0.090390 -52.734870 -5.979500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DA01E, 0x701DA01F, '2019-02-10 00:00:00') /* Ring */
-     , (0x701DA01E, 0x701DA020, '2019-02-10 00:00:00') /* Gem */
-     , (0x701DA01E, 0x701DA021, '2019-02-10 00:00:00') /* Shirt */
-     , (0x701DA01E, 0x701DA022, '2019-02-10 00:00:00') /* Gem */
-     , (0x701DA01E, 0x701DA023, '2019-02-10 00:00:00') /* Ring */;
+VALUES (0x701DA01E, 0x701DA01F, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x701DA01E, 0x701DA020, '2019-02-10 00:00:00') /* Gem (2416) */
+     , (0x701DA01E, 0x701DA021, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x701DA01E, 0x701DA022, '2019-02-10 00:00:00') /* Gem (2415) */
+     , (0x701DA01E, 0x701DA023, '2019-02-10 00:00:00') /* Ring (624) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DA01F,   297, 0x01DA0109, -0.09038997, -52.73487, -5.9795, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ring */

@@ -5,17 +5,17 @@ VALUES (0x7BA68001,  1154, 0xBA68001F, 82.79321, 151.0266, 5.55, 0.02603221, 0, 
 /* @teleloc 0xBA68001F [82.793210 151.026600 5.550000] 0.026032 0.000000 0.000000 -0.999661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA68001, 0x7BA68002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BA68001, 0x7BA68003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BA68001, 0x7BA68004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BA68001, 0x7BA68005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BA68001, 0x7BA68006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BA68001, 0x7BA68007, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BA68001, 0x7BA68008, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BA68001, 0x7BA68009, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BA68001, 0x7BA6800A, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA68001, 0x7BA6800B, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BA68001, 0x7BA6800C, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x7BA68001, 0x7BA68002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BA68001, 0x7BA68003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BA68001, 0x7BA68004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BA68001, 0x7BA68005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BA68001, 0x7BA68006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BA68001, 0x7BA68007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BA68001, 0x7BA68008, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BA68001, 0x7BA68009, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BA68001, 0x7BA6800A, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA68001, 0x7BA6800B, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BA68001, 0x7BA6800C, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA68002,  2584, 0xBA68001F, 82.79321, 151.0266, 5.55, 0.02603221, 0, 0, -0.9996611,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -66,8 +66,8 @@ VALUES (0x7BA6800D,  1542, 0xBA680031, 165.5948, 18.13374, 5.9, 0.8660254, 0, 0,
 /* @teleloc 0xBA680031 [165.594800 18.133740 5.900000] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6800D, 0x7BA6800E, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BA6800D, 0x7BA6800F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BA6800D, 0x7BA6800E, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7BA6800D, 0x7BA6800F, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA6800E,  4382, 0xBA680031, 165.5948, 18.13374, 5.9, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,13 +5,13 @@ VALUES (0x7261D001,  1154, 0x261D0011, 56.14883, 14.87144, 25.24179, 0.658013, 0
 /* @teleloc 0x261D0011 [56.148830 14.871440 25.241790] 0.658013 0.000000 0.000000 -0.753007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261D001, 0x7261D002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7261D001, 0x7261D003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7261D001, 0x7261D004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7261D001, 0x7261D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7261D001, 0x7261D006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7261D001, 0x7261D007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7261D001, 0x7261D008, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7261D001, 0x7261D002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7261D001, 0x7261D003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7261D001, 0x7261D004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7261D001, 0x7261D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7261D001, 0x7261D006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7261D001, 0x7261D007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7261D001, 0x7261D008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261D002, 24317, 0x261D0011, 56.14883, 14.87144, 25.24179, 0.658013, 0, 0, -0.7530066,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */
@@ -46,8 +46,8 @@ VALUES (0x7261D009,  1542, 0x261D0013, 69.05607, 65.43035, 25.99, -0.7816763, 0,
 /* @teleloc 0x261D0013 [69.056070 65.430350 25.990000] -0.781676 0.000000 0.000000 -0.623684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261D009, 0x7261D00A, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7261D009, 0x7261D00B, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7261D009, 0x7261D00A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7261D009, 0x7261D00B, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261D00A,  9288, 0x261D0013, 69.05607, 65.43035, 25.99, -0.7816763, 0, 0, -0.6236843,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

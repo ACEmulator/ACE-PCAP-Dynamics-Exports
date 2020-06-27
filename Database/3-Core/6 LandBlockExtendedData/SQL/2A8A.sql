@@ -5,11 +5,11 @@ VALUES (0x72A8A001,  1154, 0x2A8A003B, 187.969, 49.46893, 148, 0.9112839, 0, 0, 
 /* @teleloc 0x2A8A003B [187.969000 49.468930 148.000000] 0.911284 0.000000 0.000000 -0.411779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8A001, 0x72A8A002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A8A001, 0x72A8A003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x72A8A001, 0x72A8A004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A8A001, 0x72A8A005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A8A001, 0x72A8A006, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72A8A001, 0x72A8A002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A8A001, 0x72A8A003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x72A8A001, 0x72A8A004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A8A001, 0x72A8A005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A8A001, 0x72A8A006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A8A002, 24958, 0x2A8A003B, 187.969, 49.46893, 148, 0.9112839, 0, 0, -0.4117787,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

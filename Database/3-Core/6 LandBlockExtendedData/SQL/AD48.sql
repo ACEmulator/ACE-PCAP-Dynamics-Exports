@@ -5,15 +5,15 @@ VALUES (0x7AD48001,  1154, 0xAD480010, 31.11864, 188.0612, 6.029, 0.8191521, 0, 
 /* @teleloc 0xAD480010 [31.118640 188.061200 6.029000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD48001, 0x7AD48002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AD48001, 0x7AD48003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AD48001, 0x7AD48004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AD48001, 0x7AD48005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD48001, 0x7AD48006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD48001, 0x7AD48007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AD48001, 0x7AD48008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AD48001, 0x7AD48009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AD48001, 0x7AD4800A, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7AD48001, 0x7AD48002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AD48001, 0x7AD48003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AD48001, 0x7AD48004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AD48001, 0x7AD48005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD48001, 0x7AD48006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD48001, 0x7AD48007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AD48001, 0x7AD48008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AD48001, 0x7AD48009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AD48001, 0x7AD4800A, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD48002,  5497, 0xAD480010, 31.11864, 188.0612, 6.029, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Director */

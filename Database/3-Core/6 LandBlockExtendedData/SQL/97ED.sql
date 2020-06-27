@@ -5,13 +5,13 @@ VALUES (0x797ED001,  1154, 0x97ED0039, 191.2133, 2.569824, -0.09949996, -0.64278
 /* @teleloc 0x97ED0039 [191.213300 2.569824 -0.099500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797ED001, 0x797ED002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x797ED001, 0x797ED003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x797ED001, 0x797ED004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x797ED001, 0x797ED005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797ED001, 0x797ED006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x797ED001, 0x797ED007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x797ED001, 0x797ED008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x797ED001, 0x797ED002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x797ED001, 0x797ED003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x797ED001, 0x797ED004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x797ED001, 0x797ED005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797ED001, 0x797ED006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x797ED001, 0x797ED007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x797ED001, 0x797ED008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797ED002,  7987, 0x97ED0039, 191.2133, 2.569824, -0.09949996, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -46,7 +46,7 @@ VALUES (0x797ED009,  1542, 0x97ED0031, 161.7248, 4.855356, -0.163, -0.5875497, 0
 /* @teleloc 0x97ED0031 [161.724800 4.855356 -0.163000] -0.587550 0.000000 0.000000 -0.809188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797ED009, 0x797ED00A, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x797ED009, 0x797ED00A, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797ED00A,  9071, 0x97ED0031, 161.7248, 4.855356, -0.163, -0.5875497, 0, 0, -0.8091881,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

@@ -5,31 +5,31 @@ VALUES (0x7154C001,  1154, 0x154C000E, 35.10336, 137.5164, 16.48909, 0.7894008, 
 /* @teleloc 0x154C000E [35.103360 137.516400 16.489090] 0.789401 0.000000 0.000000 -0.613878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154C001, 0x7154C002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7154C001, 0x7154C003, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7154C001, 0x7154C004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154C001, 0x7154C005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7154C001, 0x7154C006, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7154C001, 0x7154C007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7154C001, 0x7154C008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7154C001, 0x7154C009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7154C001, 0x7154C00A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7154C001, 0x7154C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154C001, 0x7154C00C, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7154C001, 0x7154C00D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7154C001, 0x7154C00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7154C001, 0x7154C00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154C001, 0x7154C010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154C001, 0x7154C011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7154C001, 0x7154C012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7154C001, 0x7154C013, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7154C001, 0x7154C014, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7154C001, 0x7154C015, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154C001, 0x7154C016, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7154C001, 0x7154C017, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7154C001, 0x7154C018, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154C001, 0x7154C019, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154C001, 0x7154C01A, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7154C001, 0x7154C002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7154C001, 0x7154C003, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7154C001, 0x7154C004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154C001, 0x7154C005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7154C001, 0x7154C006, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7154C001, 0x7154C007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7154C001, 0x7154C008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7154C001, 0x7154C009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7154C001, 0x7154C00A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7154C001, 0x7154C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154C001, 0x7154C00C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7154C001, 0x7154C00D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7154C001, 0x7154C00E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7154C001, 0x7154C00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154C001, 0x7154C010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154C001, 0x7154C011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7154C001, 0x7154C012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7154C001, 0x7154C013, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7154C001, 0x7154C014, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7154C001, 0x7154C015, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154C001, 0x7154C016, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7154C001, 0x7154C017, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7154C001, 0x7154C018, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154C001, 0x7154C019, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154C001, 0x7154C01A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154C002, 22914, 0x154C000E, 35.10336, 137.5164, 16.48909, 0.7894008, 0, 0, -0.6138782,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -136,11 +136,11 @@ VALUES (0x7154C01B,  1542, 0x154C000D, 34.99978, 103.1931, 24.2079, 0.4362473, 0
 /* @teleloc 0x154C000D [34.999780 103.193100 24.207900] 0.436247 0.000000 0.000000 -0.899827 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154C01B, 0x7154C01C, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7154C01B, 0x7154C01D, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x7154C01B, 0x7154C01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7154C01B, 0x7154C01F, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7154C01B, 0x7154C020, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7154C01B, 0x7154C01C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7154C01B, 0x7154C01D, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x7154C01B, 0x7154C01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7154C01B, 0x7154C01F, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7154C01B, 0x7154C020, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154C01C,  9288, 0x154C000D, 34.99978, 103.1931, 24.2079, 0.4362473, 0, 0, -0.8998268,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

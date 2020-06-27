@@ -5,13 +5,13 @@ VALUES (0x7BB5F001,  1154, 0xBB5F001E, 93.89301, 128.3864, 5.55495, 0.9999902, 0
 /* @teleloc 0xBB5F001E [93.893010 128.386400 5.554950] 0.999990 0.000000 0.000000 -0.004430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB5F001, 0x7BB5F002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BB5F001, 0x7BB5F003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB5F001, 0x7BB5F004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB5F001, 0x7BB5F005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BB5F001, 0x7BB5F006, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB5F001, 0x7BB5F007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB5F001, 0x7BB5F008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7BB5F001, 0x7BB5F002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BB5F001, 0x7BB5F003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB5F001, 0x7BB5F004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB5F001, 0x7BB5F005, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BB5F001, 0x7BB5F006, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB5F001, 0x7BB5F007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB5F001, 0x7BB5F008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB5F002,     8, 0xBB5F001E, 93.89301, 128.3864, 5.55495, 0.9999902, 0, 0, -0.004429741,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

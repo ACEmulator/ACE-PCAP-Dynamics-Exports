@@ -5,12 +5,12 @@ VALUES (0x7D61E001,  1154, 0xD61E001B, 84.36716, 48.86979, 0.006600022, -0.63707
 /* @teleloc 0xD61E001B [84.367160 48.869790 0.006600] -0.637077 0.000000 0.000000 -0.770800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D61E001, 0x7D61E002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7D61E001, 0x7D61E003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D61E001, 0x7D61E004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D61E001, 0x7D61E005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D61E001, 0x7D61E006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7D61E001, 0x7D61E007, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7D61E001, 0x7D61E002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7D61E001, 0x7D61E003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D61E001, 0x7D61E004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D61E001, 0x7D61E005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D61E001, 0x7D61E006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7D61E001, 0x7D61E007, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D61E002,  7102, 0xD61E001B, 84.36716, 48.86979, 0.006600022, -0.6370771, 0, 0, -0.7708001,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

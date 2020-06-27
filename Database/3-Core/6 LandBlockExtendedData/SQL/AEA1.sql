@@ -5,23 +5,23 @@ VALUES (0x7AEA1001,  1154, 0xAEA10027, 100.2047, 145.8227, 154.1544, 0.409758, 0
 /* @teleloc 0xAEA10027 [100.204700 145.822700 154.154400] 0.409758 0.000000 0.000000 -0.912194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA1001, 0x7AEA1002, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7AEA1001, 0x7AEA1003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AEA1001, 0x7AEA1004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AEA1001, 0x7AEA1005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA1001, 0x7AEA1006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AEA1001, 0x7AEA1007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AEA1001, 0x7AEA1008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AEA1001, 0x7AEA1009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA1001, 0x7AEA100A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA1001, 0x7AEA100B, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7AEA1001, 0x7AEA100C, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7AEA1001, 0x7AEA100D, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7AEA1001, 0x7AEA100E, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7AEA1001, 0x7AEA100F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA1001, 0x7AEA1010, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AEA1001, 0x7AEA1011, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AEA1001, 0x7AEA1012, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7AEA1001, 0x7AEA1002, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7AEA1001, 0x7AEA1003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AEA1001, 0x7AEA1004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AEA1001, 0x7AEA1005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA1001, 0x7AEA1006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AEA1001, 0x7AEA1007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AEA1001, 0x7AEA1008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AEA1001, 0x7AEA1009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA1001, 0x7AEA100A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA1001, 0x7AEA100B, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7AEA1001, 0x7AEA100C, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7AEA1001, 0x7AEA100D, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7AEA1001, 0x7AEA100E, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7AEA1001, 0x7AEA100F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA1001, 0x7AEA1010, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AEA1001, 0x7AEA1011, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AEA1001, 0x7AEA1012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA1002, 28877, 0xAEA10027, 100.2047, 145.8227, 154.1544, 0.409758, 0, 0, -0.9121943,  True, '2019-02-10 00:00:00'); /* Nasty Scarecrow */
@@ -96,9 +96,9 @@ VALUES (0x7AEA1013,  1542, 0xAEA10027, 98.87627, 144.3276, 154.1544, 1, 0, 0, 0,
 /* @teleloc 0xAEA10027 [98.876270 144.327600 154.154400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA1013, 0x7AEA1014, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AEA1013, 0x7AEA1015, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AEA1013, 0x7AEA1016, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7AEA1013, 0x7AEA1014, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AEA1013, 0x7AEA1015, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AEA1013, 0x7AEA1016, '2019-02-10 00:00:00') /* Old Gravestone (34130) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA1014,  8232, 0xAEA10027, 98.87627, 144.3276, 154.1544, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

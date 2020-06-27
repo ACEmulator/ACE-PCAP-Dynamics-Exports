@@ -5,12 +5,12 @@ VALUES (0x7F46F001,  1154, 0xF46F0007, 19.64905, 165.4251, 0.3125098, -0.6455085
 /* @teleloc 0xF46F0007 [19.649050 165.425100 0.312510] -0.645509 0.000000 0.000000 -0.763753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F46F001, 0x7F46F002, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7F46F001, 0x7F46F003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7F46F001, 0x7F46F004, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7F46F001, 0x7F46F005, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7F46F001, 0x7F46F006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7F46F001, 0x7F46F007, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7F46F001, 0x7F46F002, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7F46F001, 0x7F46F003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7F46F001, 0x7F46F004, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7F46F001, 0x7F46F005, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7F46F001, 0x7F46F006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7F46F001, 0x7F46F007, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F46F002, 22518, 0xF46F0007, 19.64905, 165.4251, 0.3125098, -0.6455085, 0, 0, -0.7637531,  True, '2019-02-10 00:00:00'); /* Devastator */

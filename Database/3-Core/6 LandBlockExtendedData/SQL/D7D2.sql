@@ -9,52 +9,52 @@ VALUES (0x7D7D2001,  1154, 0xD7D20003, 23.03993, 71.41037, 29.9961, 0.9903361, 0
 /* @teleloc 0xD7D20003 [23.039930 71.410370 29.996100] 0.990336 0.000000 0.000000 -0.138688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7D2001, 0x7D7D2002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D2001, 0x7D7D2003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D2007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D2008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D2001, 0x7D7D2009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D200A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D2001, 0x7D7D200B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D2001, 0x7D7D200C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D200D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D7D2001, 0x7D7D200E, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D2001, 0x7D7D200F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D2001, 0x7D7D2010, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D7D2001, 0x7D7D2011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D2012, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D7D2001, 0x7D7D2013, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D7D2001, 0x7D7D2014, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D7D2001, 0x7D7D2015, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D7D2001, 0x7D7D2016, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D2001, 0x7D7D2017, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D2018, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D7D2001, 0x7D7D2019, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D7D2001, 0x7D7D201A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D7D2001, 0x7D7D201B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D7D2001, 0x7D7D201C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7D7D2001, 0x7D7D201D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D7D2001, 0x7D7D201E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D201F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D2001, 0x7D7D2020, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2021, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D2001, 0x7D7D2022, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7D2001, 0x7D7D2023, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7D2001, 0x7D7D2024, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2025, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2026, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D2027, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D7D2001, 0x7D7D2028, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D7D2001, 0x7D7D2029, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D7D2001, 0x7D7D202A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D7D2001, 0x7D7D202B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D7D2001, 0x7D7D202C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D7D2001, 0x7D7D202D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D2001, 0x7D7D202E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D2001, 0x7D7D202F, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7D7D2001, 0x7D7D2002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D2001, 0x7D7D2003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D2007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D2008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D2001, 0x7D7D2009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D200A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D2001, 0x7D7D200B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D2001, 0x7D7D200C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D200D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D7D2001, 0x7D7D200E, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D2001, 0x7D7D200F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D2001, 0x7D7D2010, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D7D2001, 0x7D7D2011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D2012, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D7D2001, 0x7D7D2013, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D7D2001, 0x7D7D2014, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D7D2001, 0x7D7D2015, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D7D2001, 0x7D7D2016, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D2001, 0x7D7D2017, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D2018, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D7D2001, 0x7D7D2019, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D7D2001, 0x7D7D201A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D7D2001, 0x7D7D201B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D7D2001, 0x7D7D201C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7D7D2001, 0x7D7D201D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D7D2001, 0x7D7D201E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D201F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D2001, 0x7D7D2020, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2021, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D2001, 0x7D7D2022, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7D2001, 0x7D7D2023, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7D2001, 0x7D7D2024, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2025, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2026, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D2027, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D7D2001, 0x7D7D2028, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D7D2001, 0x7D7D2029, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D7D2001, 0x7D7D202A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D7D2001, 0x7D7D202B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D7D2001, 0x7D7D202C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D7D2001, 0x7D7D202D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D2001, 0x7D7D202E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D2001, 0x7D7D202F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7D2002, 24959, 0xD7D20003, 23.03993, 71.41037, 29.9961, 0.9903361, 0, 0, -0.1386881,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -245,9 +245,9 @@ VALUES (0x7D7D2030,  1542, 0xD7D2003A, 183.6143, 30.55465, 28, 1, 0, 0, 0, False
 /* @teleloc 0xD7D2003A [183.614300 30.554650 28.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7D2030, 0x7D7D2031, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D7D2030, 0x7D7D2032, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D7D2030, 0x7D7D2033, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D7D2030, 0x7D7D2031, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7D7D2030, 0x7D7D2032, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7D7D2030, 0x7D7D2033, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7D2031, 22570, 0xD7D2003A, 183.6143, 30.55465, 28, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

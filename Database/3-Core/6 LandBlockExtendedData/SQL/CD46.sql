@@ -5,17 +5,17 @@ VALUES (0x7CD46001,  1154, 0xCD460025, 107.6608, 100.6981, 98.76956, -0.6604759,
 /* @teleloc 0xCD460025 [107.660800 100.698100 98.769560] -0.660476 0.000000 0.000000 -0.750847 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD46001, 0x7CD46002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD46001, 0x7CD46003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CD46001, 0x7CD46004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CD46001, 0x7CD46005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CD46001, 0x7CD46006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CD46001, 0x7CD46007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD46001, 0x7CD46008, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CD46001, 0x7CD46009, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CD46001, 0x7CD4600A, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7CD46001, 0x7CD4600B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CD46001, 0x7CD4600C, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7CD46001, 0x7CD46002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD46001, 0x7CD46003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CD46001, 0x7CD46004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CD46001, 0x7CD46005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CD46001, 0x7CD46006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CD46001, 0x7CD46007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD46001, 0x7CD46008, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CD46001, 0x7CD46009, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CD46001, 0x7CD4600A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7CD46001, 0x7CD4600B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CD46001, 0x7CD4600C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD46002, 28552, 0xCD460025, 107.6608, 100.6981, 98.76956, -0.6604759, 0, 0, -0.7508472,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

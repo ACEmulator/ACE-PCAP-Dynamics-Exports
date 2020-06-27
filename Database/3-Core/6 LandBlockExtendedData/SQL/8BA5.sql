@@ -5,11 +5,11 @@ VALUES (0x78BA5001,  1154, 0x8BA5003E, 187.9845, 130.9386, 78.65399, 0.7346286, 
 /* @teleloc 0x8BA5003E [187.984500 130.938600 78.653990] 0.734629 0.000000 0.000000 -0.678470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BA5001, 0x78BA5002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78BA5001, 0x78BA5003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78BA5001, 0x78BA5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78BA5001, 0x78BA5005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78BA5001, 0x78BA5006, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x78BA5001, 0x78BA5002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78BA5001, 0x78BA5003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78BA5001, 0x78BA5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78BA5001, 0x78BA5005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78BA5001, 0x78BA5006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BA5002,  2576, 0x8BA5003E, 187.9845, 130.9386, 78.65399, 0.7346286, 0, 0, -0.6784695,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

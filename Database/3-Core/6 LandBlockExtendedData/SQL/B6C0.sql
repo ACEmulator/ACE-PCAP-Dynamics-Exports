@@ -5,10 +5,10 @@ VALUES (0x7B6C0001,  1154, 0xB6C0003B, 181.9579, 63.335, 307.0999, 0.9238795, 0,
 /* @teleloc 0xB6C0003B [181.957900 63.335000 307.099900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6C0001, 0x7B6C0002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B6C0001, 0x7B6C0003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B6C0001, 0x7B6C0004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B6C0001, 0x7B6C0005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7B6C0001, 0x7B6C0002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B6C0001, 0x7B6C0003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B6C0001, 0x7B6C0004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B6C0001, 0x7B6C0005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6C0002,  9400, 0xB6C0003B, 181.9579, 63.335, 307.0999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -31,7 +31,7 @@ VALUES (0x7B6C0006,  1542, 0xB6C0003B, 183.2959, 64.2036, 307.0725, 0.9990482, 0
 /* @teleloc 0xB6C0003B [183.295900 64.203600 307.072500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6C0006, 0x7B6C0007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B6C0006, 0x7B6C0007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6C0007,  4179, 0xB6C0003B, 183.2959, 64.2036, 307.0725, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

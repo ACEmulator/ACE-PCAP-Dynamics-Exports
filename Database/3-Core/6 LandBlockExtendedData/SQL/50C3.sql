@@ -5,28 +5,28 @@ VALUES (0x750C3001,  1154, 0x50C30005, 16.75115, 111.5381, 0.02899998, 0.8191521
 /* @teleloc 0x50C30005 [16.751150 111.538100 0.029000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750C3001, 0x750C3002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x750C3001, 0x750C3003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x750C3001, 0x750C3004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x750C3001, 0x750C3005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x750C3001, 0x750C3006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x750C3001, 0x750C3007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x750C3001, 0x750C3008, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x750C3001, 0x750C3009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x750C3001, 0x750C300A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x750C3001, 0x750C300B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x750C3001, 0x750C300C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x750C3001, 0x750C300D, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x750C3001, 0x750C300E, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x750C3001, 0x750C300F, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x750C3001, 0x750C3010, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x750C3001, 0x750C3011, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x750C3001, 0x750C3012, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x750C3001, 0x750C3013, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x750C3001, 0x750C3014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x750C3001, 0x750C3015, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x750C3001, 0x750C3016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x750C3001, 0x750C3017, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x750C3001, 0x750C3002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x750C3001, 0x750C3003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x750C3001, 0x750C3004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x750C3001, 0x750C3005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x750C3001, 0x750C3006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x750C3001, 0x750C3007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x750C3001, 0x750C3008, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x750C3001, 0x750C3009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x750C3001, 0x750C300A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x750C3001, 0x750C300B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x750C3001, 0x750C300C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x750C3001, 0x750C300D, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x750C3001, 0x750C300E, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x750C3001, 0x750C300F, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x750C3001, 0x750C3010, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x750C3001, 0x750C3011, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x750C3001, 0x750C3012, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x750C3001, 0x750C3013, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x750C3001, 0x750C3014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x750C3001, 0x750C3015, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x750C3001, 0x750C3016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x750C3001, 0x750C3017, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750C3002,  7340, 0x50C30005, 16.75115, 111.5381, 0.02899998, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -121,10 +121,10 @@ VALUES (0x750C3018,  1542, 0x50C3000A, 24.55133, 41.37057, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x50C3000A [24.551330 41.370570 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750C3018, 0x750C3019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x750C3018, 0x750C301A, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x750C3018, 0x750C301B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x750C3018, 0x750C301C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x750C3018, 0x750C3019, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x750C3018, 0x750C301A, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x750C3018, 0x750C301B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x750C3018, 0x750C301C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750C3019, 22566, 0x50C3000A, 24.55133, 41.37057, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

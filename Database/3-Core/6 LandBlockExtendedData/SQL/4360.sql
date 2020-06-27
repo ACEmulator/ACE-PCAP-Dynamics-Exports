@@ -5,10 +5,10 @@ VALUES (0x74360001,  1154, 0x43600019, 93.54431, 19.05579, 19.47946, 0.4533886, 
 /* @teleloc 0x43600019 [93.544310 19.055790 19.479460] 0.453389 0.000000 0.000000 -0.891313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74360001, 0x74360002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74360001, 0x74360003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74360001, 0x74360004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74360001, 0x74360005, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x74360001, 0x74360002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74360001, 0x74360003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74360001, 0x74360004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74360001, 0x74360005, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74360002,  9264, 0x43600019, 93.54431, 19.05579, 19.47946, 0.4533886, 0, 0, -0.891313,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

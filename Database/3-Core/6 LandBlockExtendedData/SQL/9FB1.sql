@@ -5,16 +5,16 @@ VALUES (0x79FB1001,  1154, 0x9FB10015, 60.59608, 96.3265, 69.991, -0.09316959, 0
 /* @teleloc 0x9FB10015 [60.596080 96.326500 69.991000] -0.093170 0.000000 0.000000 -0.995650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB1001, 0x79FB1002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79FB1001, 0x79FB1003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FB1001, 0x79FB1004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79FB1001, 0x79FB1005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79FB1001, 0x79FB1006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FB1001, 0x79FB1007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79FB1001, 0x79FB1008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79FB1001, 0x79FB1009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79FB1001, 0x79FB100A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79FB1001, 0x79FB100B, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79FB1001, 0x79FB1002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79FB1001, 0x79FB1003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FB1001, 0x79FB1004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79FB1001, 0x79FB1005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79FB1001, 0x79FB1006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FB1001, 0x79FB1007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79FB1001, 0x79FB1008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FB1001, 0x79FB1009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79FB1001, 0x79FB100A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79FB1001, 0x79FB100B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB1002,  9253, 0x9FB10015, 60.59608, 96.3265, 69.991, -0.09316959, 0, 0, -0.9956502,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

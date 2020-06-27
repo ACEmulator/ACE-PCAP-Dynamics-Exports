@@ -5,13 +5,13 @@ VALUES (0x76EDC001,  1154, 0x6EDC000D, 31.97453, 107.6801, 246.6657, 1, 0, 0, 0,
 /* @teleloc 0x6EDC000D [31.974530 107.680100 246.665700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EDC001, 0x76EDC002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x76EDC001, 0x76EDC003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x76EDC001, 0x76EDC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76EDC001, 0x76EDC005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x76EDC001, 0x76EDC006, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x76EDC001, 0x76EDC007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x76EDC001, 0x76EDC008, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x76EDC001, 0x76EDC002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x76EDC001, 0x76EDC003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x76EDC001, 0x76EDC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76EDC001, 0x76EDC005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x76EDC001, 0x76EDC006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x76EDC001, 0x76EDC007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x76EDC001, 0x76EDC008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EDC002, 24958, 0x6EDC000D, 31.97453, 107.6801, 246.6657, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

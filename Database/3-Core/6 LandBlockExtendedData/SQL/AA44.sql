@@ -5,10 +5,10 @@ VALUES (0x7AA44001,  1154, 0xAA440026, 98.1683, 121.5047, 20.29269, 1, 0, 0, 0, 
 /* @teleloc 0xAA440026 [98.168300 121.504700 20.292690] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA44001, 0x7AA44002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AA44001, 0x7AA44003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AA44001, 0x7AA44004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA44001, 0x7AA44005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AA44001, 0x7AA44002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AA44001, 0x7AA44003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AA44001, 0x7AA44004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA44001, 0x7AA44005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA44002,    18, 0xAA440026, 98.1683, 121.5047, 20.29269, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -31,7 +31,7 @@ VALUES (0x7AA44006,  1542, 0xAA440009, 33.01228, 15.93663, 9.304373, 0.06992751,
 /* @teleloc 0xAA440009 [33.012280 15.936630 9.304373] 0.069928 0.000000 0.000000 -0.997552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA44006, 0x7AA44007, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7AA44006, 0x7AA44007, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA44007, 15715, 0xAA440009, 33.01228, 15.93663, 9.304373, 0.06992751, 0, 0, -0.9975521,  True, '2019-02-10 00:00:00'); /* Sunflower */

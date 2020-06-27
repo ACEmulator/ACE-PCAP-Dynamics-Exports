@@ -5,14 +5,14 @@ VALUES (0x721B5001,  1154, 0x21B50008, 4.794534, 170.1447, 90.005, 1, 0, 0, 0, F
 /* @teleloc 0x21B50008 [4.794534 170.144700 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721B5001, 0x721B5002, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x721B5001, 0x721B5003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721B5001, 0x721B5004, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x721B5001, 0x721B5005, '2019-02-10 00:00:00') /* Static */
-     , (0x721B5001, 0x721B5006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x721B5001, 0x721B5007, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x721B5001, 0x721B5008, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x721B5001, 0x721B5009, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x721B5001, 0x721B5002, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x721B5001, 0x721B5003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721B5001, 0x721B5004, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x721B5001, 0x721B5005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x721B5001, 0x721B5006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x721B5001, 0x721B5007, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x721B5001, 0x721B5008, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x721B5001, 0x721B5009, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721B5002, 11504, 0x21B50008, 4.794534, 170.1447, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mercenary */

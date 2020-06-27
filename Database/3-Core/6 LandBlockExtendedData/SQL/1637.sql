@@ -5,14 +5,14 @@ VALUES (0x71637001,  1154, 0x16370020, 78.62463, 170.5683, 33.4525, 0.9238795, 0
 /* @teleloc 0x16370020 [78.624630 170.568300 33.452500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71637001, 0x71637002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71637001, 0x71637003, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71637001, 0x71637004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71637001, 0x71637005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71637001, 0x71637006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71637001, 0x71637007, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71637001, 0x71637008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71637001, 0x71637009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71637001, 0x71637002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71637001, 0x71637003, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71637001, 0x71637004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71637001, 0x71637005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71637001, 0x71637006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71637001, 0x71637007, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71637001, 0x71637008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71637001, 0x71637009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71637002, 36821, 0x16370020, 78.62463, 170.5683, 33.4525, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -51,7 +51,7 @@ VALUES (0x7163700A,  1542, 0x1637001F, 94.11488, 145.7497, 31.37271, 1, 0, 0, 0,
 /* @teleloc 0x1637001F [94.114880 145.749700 31.372710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163700A, 0x7163700B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7163700A, 0x7163700B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163700B,  4179, 0x1637001F, 94.11488, 145.7497, 31.37271, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

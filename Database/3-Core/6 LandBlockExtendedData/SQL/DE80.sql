@@ -5,22 +5,22 @@ VALUES (0x7DE80001,  1154, 0xDE800014, 53.85138, 81.70288, 2.012, -0.3556804, 0,
 /* @teleloc 0xDE800014 [53.851380 81.702880 2.012000] -0.355680 0.000000 0.000000 -0.934608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE80001, 0x7DE80002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE80001, 0x7DE80003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE80001, 0x7DE80004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE80001, 0x7DE80005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DE80001, 0x7DE80006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DE80001, 0x7DE80007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DE80001, 0x7DE80008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DE80001, 0x7DE80009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DE80001, 0x7DE8000A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE80001, 0x7DE8000B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE80001, 0x7DE8000C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE80001, 0x7DE8000D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE80001, 0x7DE8000E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE80001, 0x7DE8000F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE80001, 0x7DE80010, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DE80001, 0x7DE80011, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7DE80001, 0x7DE80002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE80001, 0x7DE80003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE80001, 0x7DE80004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE80001, 0x7DE80005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DE80001, 0x7DE80006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DE80001, 0x7DE80007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DE80001, 0x7DE80008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DE80001, 0x7DE80009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DE80001, 0x7DE8000A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE80001, 0x7DE8000B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE80001, 0x7DE8000C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE80001, 0x7DE8000D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE80001, 0x7DE8000E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE80001, 0x7DE8000F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE80001, 0x7DE80010, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DE80001, 0x7DE80011, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE80002,  7105, 0xDE800014, 53.85138, 81.70288, 2.012, -0.3556804, 0, 0, -0.9346076,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -91,8 +91,8 @@ VALUES (0x7DE80012,  1542, 0xDE800015, 48.44768, 113.8871, 2.011, -0.9720234, 0,
 /* @teleloc 0xDE800015 [48.447680 113.887100 2.011000] -0.972023 0.000000 0.000000 -0.234884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE80012, 0x7DE80013, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7DE80012, 0x7DE80014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DE80012, 0x7DE80013, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7DE80012, 0x7DE80014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE80013, 31687, 0xDE800015, 48.44768, 113.8871, 2.011, -0.9720234, 0, 0, -0.2348841,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

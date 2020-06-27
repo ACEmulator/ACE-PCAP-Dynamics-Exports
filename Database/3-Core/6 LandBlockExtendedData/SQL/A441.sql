@@ -5,20 +5,20 @@ VALUES (0x7A441001,  1154, 0xA441002E, 121.0691, 133.7882, 9.824813, 0.811293, 0
 /* @teleloc 0xA441002E [121.069100 133.788200 9.824813] 0.811293 0.000000 0.000000 -0.584640 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A441001, 0x7A441002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A441001, 0x7A441003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A441001, 0x7A441004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A441001, 0x7A441005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A441001, 0x7A441006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A441001, 0x7A441007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A441001, 0x7A441008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A441001, 0x7A441009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A441001, 0x7A44100A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A441001, 0x7A44100B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A441001, 0x7A44100C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A441001, 0x7A44100D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A441001, 0x7A44100E, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A441001, 0x7A44100F, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A441001, 0x7A441002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A441001, 0x7A441003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A441001, 0x7A441004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A441001, 0x7A441005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A441001, 0x7A441006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A441001, 0x7A441007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A441001, 0x7A441008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A441001, 0x7A441009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A441001, 0x7A44100A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A441001, 0x7A44100B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A441001, 0x7A44100C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A441001, 0x7A44100D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A441001, 0x7A44100E, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A441001, 0x7A44100F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A441002, 21168, 0xA441002E, 121.0691, 133.7882, 9.824813, 0.811293, 0, 0, -0.5846398,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -81,7 +81,7 @@ VALUES (0x7A441010,  1542, 0xA441002F, 130.5132, 146.6264, 12.72164, 1, 0, 0, 0,
 /* @teleloc 0xA441002F [130.513200 146.626400 12.721640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A441010, 0x7A441011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A441010, 0x7A441011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A441011,  4380, 0xA441002F, 130.5132, 146.6264, 12.72164, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

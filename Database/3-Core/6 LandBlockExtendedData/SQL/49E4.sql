@@ -5,30 +5,30 @@ VALUES (0x749E4001,  1154, 0x49E40028, 119.2772, 183.7829, 10.69076, 1, 0, 0, 0,
 /* @teleloc 0x49E40028 [119.277200 183.782900 10.690760] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E4001, 0x749E4002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749E4001, 0x749E4003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E4001, 0x749E4004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E4001, 0x749E4005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749E4001, 0x749E4006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E4001, 0x749E4007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x749E4001, 0x749E4008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x749E4001, 0x749E4009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749E4001, 0x749E400A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749E4001, 0x749E400B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E4001, 0x749E400C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749E4001, 0x749E400D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749E4001, 0x749E400E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E4001, 0x749E400F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x749E4001, 0x749E4010, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x749E4001, 0x749E4011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x749E4001, 0x749E4012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x749E4001, 0x749E4013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x749E4001, 0x749E4014, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x749E4001, 0x749E4015, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x749E4001, 0x749E4016, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x749E4001, 0x749E4017, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x749E4001, 0x749E4018, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x749E4001, 0x749E4019, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x749E4001, 0x749E4002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749E4001, 0x749E4003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E4001, 0x749E4004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E4001, 0x749E4005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749E4001, 0x749E4006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E4001, 0x749E4007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x749E4001, 0x749E4008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x749E4001, 0x749E4009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749E4001, 0x749E400A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749E4001, 0x749E400B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E4001, 0x749E400C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749E4001, 0x749E400D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749E4001, 0x749E400E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E4001, 0x749E400F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x749E4001, 0x749E4010, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x749E4001, 0x749E4011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x749E4001, 0x749E4012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x749E4001, 0x749E4013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x749E4001, 0x749E4014, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x749E4001, 0x749E4015, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x749E4001, 0x749E4016, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x749E4001, 0x749E4017, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x749E4001, 0x749E4018, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x749E4001, 0x749E4019, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E4002,   228, 0x49E40028, 119.2772, 183.7829, 10.69076, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -131,24 +131,24 @@ VALUES (0x749E401A,  1154, 0x49E40101, 132.986, 62.3554, 11.705, 0.0279671, 0, 0
 /* @teleloc 0x49E40101 [132.986000 62.355400 11.705000] 0.027967 0.000000 0.000000 -0.999609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E401A, 0x749E401B, '2019-02-10 00:00:00') /* Lieutenant Takamaki */
-     , (0x749E401A, 0x749E401C, '2019-02-10 00:00:00') /* Hanamoto Aki'ko */
-     , (0x749E401A, 0x749E401D, '2019-02-10 00:00:00') /* Griffon */
-     , (0x749E401A, 0x749E401E, '2019-02-10 00:00:00') /* Corporal Irashi */
-     , (0x749E401A, 0x749E401F, '2019-02-10 00:00:00') /* Lord Eorlinde */
-     , (0x749E401A, 0x749E4020, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E4021, '2019-02-10 00:00:00') /* Lieutenant Roothe */
-     , (0x749E401A, 0x749E4022, '2019-02-10 00:00:00') /* Sergeant Freng */
-     , (0x749E401A, 0x749E4023, '2019-02-10 00:00:00') /* Lord Brem */
-     , (0x749E401A, 0x749E4024, '2019-02-10 00:00:00') /* Mareeno Donn */
-     , (0x749E401A, 0x749E4025, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E4026, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E4027, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E4028, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E4029, '2019-02-10 00:00:00') /* Lieutenant Aurin */
-     , (0x749E401A, 0x749E402A, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x749E401A, 0x749E402B, '2019-02-10 00:00:00') /* Aun Kirtal */
-     , (0x749E401A, 0x749E402C, '2019-02-10 00:00:00') /* Sergeant Trebuus */;
+VALUES (0x749E401A, 0x749E401B, '2019-02-10 00:00:00') /* Lieutenant Takamaki (46686) */
+     , (0x749E401A, 0x749E401C, '2019-02-10 00:00:00') /* Hanamoto Aki'ko (46684) */
+     , (0x749E401A, 0x749E401D, '2019-02-10 00:00:00') /* Griffon (46682) */
+     , (0x749E401A, 0x749E401E, '2019-02-10 00:00:00') /* Corporal Irashi (46681) */
+     , (0x749E401A, 0x749E401F, '2019-02-10 00:00:00') /* Lord Eorlinde (46680) */
+     , (0x749E401A, 0x749E4020, '2019-02-10 00:00:00') /* Royal Guard (42945) */
+     , (0x749E401A, 0x749E4021, '2019-02-10 00:00:00') /* Lieutenant Roothe (48920) */
+     , (0x749E401A, 0x749E4022, '2019-02-10 00:00:00') /* Sergeant Freng (52294) */
+     , (0x749E401A, 0x749E4023, '2019-02-10 00:00:00') /* Lord Brem (48853) */
+     , (0x749E401A, 0x749E4024, '2019-02-10 00:00:00') /* Mareeno Donn (46445) */
+     , (0x749E401A, 0x749E4025, '2019-02-10 00:00:00') /* Royal Guard (42941) */
+     , (0x749E401A, 0x749E4026, '2019-02-10 00:00:00') /* Royal Guard (42940) */
+     , (0x749E401A, 0x749E4027, '2019-02-10 00:00:00') /* Royal Guard (42939) */
+     , (0x749E401A, 0x749E4028, '2019-02-10 00:00:00') /* Royal Guard (42938) */
+     , (0x749E401A, 0x749E4029, '2019-02-10 00:00:00') /* Lieutenant Aurin (46678) */
+     , (0x749E401A, 0x749E402A, '2019-02-10 00:00:00') /* Royal Guard (42937) */
+     , (0x749E401A, 0x749E402B, '2019-02-10 00:00:00') /* Aun Kirtal (46683) */
+     , (0x749E401A, 0x749E402C, '2019-02-10 00:00:00') /* Sergeant Trebuus (46679) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E401B, 46686, 0x49E40101, 132.986, 62.3554, 11.705, 0.0279671, 0, 0, -0.9996088,  True, '2019-02-10 00:00:00'); /* Lieutenant Takamaki */
@@ -227,10 +227,10 @@ VALUES (0x749E402D,  1542, 0x49E4002A, 125.999, 46.46611, 11.937, -0.8804867, 0,
 /* @teleloc 0x49E4002A [125.999000 46.466110 11.937000] -0.880487 0.000000 0.000000 -0.474071 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E402D, 0x749E402E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x749E402D, 0x749E402F, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x749E402D, 0x749E4030, '2019-02-10 00:00:00') /* Bones */
-     , (0x749E402D, 0x749E4031, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x749E402D, 0x749E402E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x749E402D, 0x749E402F, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x749E402D, 0x749E4030, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x749E402D, 0x749E4031, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E402E,  1955, 0x49E4002A, 125.999, 46.46611, 11.937, -0.8804867, 0, 0, -0.4740709,  True, '2019-02-10 00:00:00'); /* Gateway */

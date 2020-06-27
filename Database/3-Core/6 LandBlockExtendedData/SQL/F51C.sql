@@ -5,13 +5,13 @@ VALUES (0x7F51C001,  1154, 0xF51C0018, 66.0778, 176.0053, 21.34589, -0.9961297, 
 /* @teleloc 0xF51C0018 [66.077800 176.005300 21.345890] -0.996130 0.000000 0.000000 -0.087896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51C001, 0x7F51C002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51C001, 0x7F51C003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51C001, 0x7F51C004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51C001, 0x7F51C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51C001, 0x7F51C006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51C001, 0x7F51C007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F51C001, 0x7F51C008, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F51C001, 0x7F51C002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51C001, 0x7F51C003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51C001, 0x7F51C004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51C001, 0x7F51C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51C001, 0x7F51C006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51C001, 0x7F51C007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F51C001, 0x7F51C008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51C002,  7183, 0xF51C0018, 66.0778, 176.0053, 21.34589, -0.9961297, 0, 0, -0.08789594,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

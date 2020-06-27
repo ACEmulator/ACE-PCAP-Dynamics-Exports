@@ -5,14 +5,14 @@ VALUES (0x7CF51001,  1154, 0xCF510024, 97.23815, 87.0231, 73.80573, -0.9768313, 
 /* @teleloc 0xCF510024 [97.238150 87.023100 73.805730] -0.976831 0.000000 0.000000 -0.214011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF51001, 0x7CF51002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CF51001, 0x7CF51003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CF51001, 0x7CF51004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CF51001, 0x7CF51005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CF51001, 0x7CF51006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CF51001, 0x7CF51007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF51001, 0x7CF51008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF51001, 0x7CF51009, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7CF51001, 0x7CF51002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CF51001, 0x7CF51003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CF51001, 0x7CF51004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CF51001, 0x7CF51005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CF51001, 0x7CF51006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CF51001, 0x7CF51007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF51001, 0x7CF51008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF51001, 0x7CF51009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF51002,  1627, 0xCF510024, 97.23815, 87.0231, 73.80573, -0.9768313, 0, 0, -0.2140111,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

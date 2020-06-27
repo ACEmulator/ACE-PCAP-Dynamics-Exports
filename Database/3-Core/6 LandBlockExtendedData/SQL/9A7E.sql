@@ -5,26 +5,26 @@ VALUES (0x79A7E001,  1154, 0x9A7E0007, 8.678415, 150.1392, 34.90331, -0.2757444,
 /* @teleloc 0x9A7E0007 [8.678415 150.139200 34.903310] -0.275744 0.000000 0.000000 -0.961231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7E001, 0x79A7E002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79A7E001, 0x79A7E003, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x79A7E001, 0x79A7E004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A7E001, 0x79A7E005, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79A7E001, 0x79A7E006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A7E001, 0x79A7E007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A7E001, 0x79A7E008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79A7E001, 0x79A7E009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79A7E001, 0x79A7E00A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79A7E001, 0x79A7E00B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79A7E001, 0x79A7E00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79A7E001, 0x79A7E00D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79A7E001, 0x79A7E00E, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x79A7E001, 0x79A7E00F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A7E001, 0x79A7E010, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x79A7E001, 0x79A7E011, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x79A7E001, 0x79A7E012, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79A7E001, 0x79A7E013, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x79A7E001, 0x79A7E014, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79A7E001, 0x79A7E015, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x79A7E001, 0x79A7E002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79A7E001, 0x79A7E003, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x79A7E001, 0x79A7E004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A7E001, 0x79A7E005, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79A7E001, 0x79A7E006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A7E001, 0x79A7E007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A7E001, 0x79A7E008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79A7E001, 0x79A7E009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79A7E001, 0x79A7E00A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79A7E001, 0x79A7E00B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79A7E001, 0x79A7E00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79A7E001, 0x79A7E00D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79A7E001, 0x79A7E00E, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x79A7E001, 0x79A7E00F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A7E001, 0x79A7E010, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x79A7E001, 0x79A7E011, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x79A7E001, 0x79A7E012, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79A7E001, 0x79A7E013, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x79A7E001, 0x79A7E014, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79A7E001, 0x79A7E015, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7E002,    19, 0x9A7E0007, 8.678415, 150.1392, 34.90331, -0.2757444, 0, 0, -0.961231,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */
@@ -111,12 +111,12 @@ VALUES (0x79A7E016,  1542, 0x9A7E003D, 175.1984, 96.85276, -0.3645, 0.132027, 0,
 /* @teleloc 0x9A7E003D [175.198400 96.852760 -0.364500] 0.132027 0.000000 0.000000 -0.991246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7E016, 0x79A7E017, '2019-02-10 00:00:00') /* Aura of Heartseeker Self III */
-     , (0x79A7E016, 0x79A7E018, '2019-02-10 00:00:00') /* Chainmail Greaves */
-     , (0x79A7E016, 0x79A7E019, '2019-02-10 00:00:00') /* Buckler */
-     , (0x79A7E016, 0x79A7E01A, '2019-02-10 00:00:00') /* Scroll of Recklessness Mastery Self V */
-     , (0x79A7E016, 0x79A7E01B, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x79A7E016, 0x79A7E01C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79A7E016, 0x79A7E017, '2019-02-10 00:00:00') /* Aura of Heartseeker Self III (2833) */
+     , (0x79A7E016, 0x79A7E018, '2019-02-10 00:00:00') /* Chainmail Greaves (2605) */
+     , (0x79A7E016, 0x79A7E019, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x79A7E016, 0x79A7E01A, '2019-02-10 00:00:00') /* Scroll of Recklessness Mastery Self V (45304) */
+     , (0x79A7E016, 0x79A7E01B, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x79A7E016, 0x79A7E01C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7E017,  2833, 0x9A7E003D, 175.1984, 96.85276, -0.3645, 0.132027, 0, 0, -0.991246,  True, '2019-02-10 00:00:00'); /* Aura of Heartseeker Self III */

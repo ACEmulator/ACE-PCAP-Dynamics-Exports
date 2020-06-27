@@ -5,15 +5,15 @@ VALUES (0x7BE62001,  1154, 0xBE620034, 147.6054, 86.72668, 5.5544, 0.2139636, 0,
 /* @teleloc 0xBE620034 [147.605400 86.726680 5.554400] 0.213964 0.000000 0.000000 -0.976842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE62001, 0x7BE62002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BE62001, 0x7BE62003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BE62001, 0x7BE62004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BE62001, 0x7BE62005, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BE62001, 0x7BE62006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE62001, 0x7BE62007, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BE62001, 0x7BE62008, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BE62001, 0x7BE62009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7BE62001, 0x7BE6200A, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7BE62001, 0x7BE62002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BE62001, 0x7BE62003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BE62001, 0x7BE62004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BE62001, 0x7BE62005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BE62001, 0x7BE62006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE62001, 0x7BE62007, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BE62001, 0x7BE62008, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BE62001, 0x7BE62009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7BE62001, 0x7BE6200A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE62002,  4249, 0xBE620034, 147.6054, 86.72668, 5.5544, 0.2139636, 0, 0, -0.9768416,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -56,7 +56,7 @@ VALUES (0x7BE6200B,  1542, 0xBE620007, 10.03366, 147.1912, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xBE620007 [10.033660 147.191200 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE6200B, 0x7BE6200C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BE6200B, 0x7BE6200C, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE6200C, 22572, 0xBE620007, 10.03366, 147.1912, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,27 +5,27 @@ VALUES (0x71A8C001,  1154, 0x1A8C0017, 50.58286, 145.1058, 231.5441, -0.794676, 
 /* @teleloc 0x1A8C0017 [50.582860 145.105800 231.544100] -0.794676 0.000000 0.000000 -0.607034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8C001, 0x71A8C002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71A8C001, 0x71A8C003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A8C001, 0x71A8C004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71A8C001, 0x71A8C005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71A8C001, 0x71A8C006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A8C001, 0x71A8C007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A8C001, 0x71A8C008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A8C001, 0x71A8C009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A8C001, 0x71A8C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A8C001, 0x71A8C00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A8C001, 0x71A8C00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A8C001, 0x71A8C00D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A8C001, 0x71A8C00E, '2019-02-10 00:00:00') /* Brumal */
-     , (0x71A8C001, 0x71A8C00F, '2019-02-10 00:00:00') /* Horripal */
-     , (0x71A8C001, 0x71A8C010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8C001, 0x71A8C011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8C001, 0x71A8C012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8C001, 0x71A8C013, '2019-02-10 00:00:00') /* Horripal */
-     , (0x71A8C001, 0x71A8C014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A8C001, 0x71A8C015, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A8C001, 0x71A8C016, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71A8C001, 0x71A8C002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71A8C001, 0x71A8C003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A8C001, 0x71A8C004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71A8C001, 0x71A8C005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71A8C001, 0x71A8C006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A8C001, 0x71A8C007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71A8C001, 0x71A8C008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A8C001, 0x71A8C009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A8C001, 0x71A8C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A8C001, 0x71A8C00B, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71A8C001, 0x71A8C00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A8C001, 0x71A8C00D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A8C001, 0x71A8C00E, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x71A8C001, 0x71A8C00F, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x71A8C001, 0x71A8C010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8C001, 0x71A8C011, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8C001, 0x71A8C012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8C001, 0x71A8C013, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x71A8C001, 0x71A8C014, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A8C001, 0x71A8C015, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A8C001, 0x71A8C016, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8C002, 24277, 0x1A8C0017, 50.58286, 145.1058, 231.5441, -0.794676, 0, 0, -0.6070338,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

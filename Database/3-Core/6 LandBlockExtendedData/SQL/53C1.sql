@@ -5,34 +5,34 @@ VALUES (0x753C1001,  1154, 0x53C10014, 68.65389, 91.69195, 7.093811, -0.855455, 
 /* @teleloc 0x53C10014 [68.653890 91.691950 7.093811] -0.855455 0.000000 0.000000 -0.517877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753C1001, 0x753C1002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x753C1001, 0x753C1003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753C1001, 0x753C1004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753C1001, 0x753C1005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x753C1001, 0x753C1006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x753C1001, 0x753C1007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753C1001, 0x753C1008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x753C1001, 0x753C1009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x753C1001, 0x753C100A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x753C1001, 0x753C100B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x753C1001, 0x753C100C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x753C1001, 0x753C100D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753C1001, 0x753C100E, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x753C1001, 0x753C100F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x753C1001, 0x753C1010, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x753C1001, 0x753C1011, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x753C1001, 0x753C1012, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x753C1001, 0x753C1013, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x753C1001, 0x753C1014, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x753C1001, 0x753C1015, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x753C1001, 0x753C1016, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x753C1001, 0x753C1017, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x753C1001, 0x753C1018, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x753C1001, 0x753C1019, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x753C1001, 0x753C101A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x753C1001, 0x753C101B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x753C1001, 0x753C101C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x753C1001, 0x753C101D, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x753C1001, 0x753C1002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x753C1001, 0x753C1003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753C1001, 0x753C1004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753C1001, 0x753C1005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x753C1001, 0x753C1006, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x753C1001, 0x753C1007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753C1001, 0x753C1008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x753C1001, 0x753C1009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x753C1001, 0x753C100A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x753C1001, 0x753C100B, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x753C1001, 0x753C100C, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x753C1001, 0x753C100D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753C1001, 0x753C100E, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x753C1001, 0x753C100F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x753C1001, 0x753C1010, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x753C1001, 0x753C1011, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x753C1001, 0x753C1012, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x753C1001, 0x753C1013, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x753C1001, 0x753C1014, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x753C1001, 0x753C1015, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x753C1001, 0x753C1016, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x753C1001, 0x753C1017, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x753C1001, 0x753C1018, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x753C1001, 0x753C1019, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x753C1001, 0x753C101A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x753C1001, 0x753C101B, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x753C1001, 0x753C101C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x753C1001, 0x753C101D, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753C1002,  7081, 0x53C10014, 68.65389, 91.69195, 7.093811, -0.855455, 0, 0, -0.5178771,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -151,8 +151,8 @@ VALUES (0x753C101E,  1542, 0x53C10012, 60.4535, 37.90192, -0.09999999, -0.702666
 /* @teleloc 0x53C10012 [60.453500 37.901920 -0.100000] -0.702667 0.000000 0.000000 -0.711519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753C101E, 0x753C101F, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x753C101E, 0x753C1020, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x753C101E, 0x753C101F, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x753C101E, 0x753C1020, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753C101F, 11554, 0x53C10012, 60.4535, 37.90192, -0.09999999, -0.7026665, 0, 0, -0.7115193,  True, '2019-02-10 00:00:00'); /* Colban Plant */

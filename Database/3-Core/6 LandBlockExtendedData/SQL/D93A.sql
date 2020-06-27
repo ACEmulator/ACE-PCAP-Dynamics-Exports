@@ -5,27 +5,27 @@ VALUES (0x7D93A001,  1154, 0xD93A002C, 142.5175, 75.46205, 87.55341, 0.8271932, 
 /* @teleloc 0xD93A002C [142.517500 75.462050 87.553410] 0.827193 0.000000 0.000000 -0.561918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D93A001, 0x7D93A002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D93A001, 0x7D93A003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D93A001, 0x7D93A004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D93A001, 0x7D93A005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7D93A001, 0x7D93A006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D93A001, 0x7D93A007, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7D93A001, 0x7D93A008, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7D93A001, 0x7D93A009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7D93A001, 0x7D93A00A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D93A001, 0x7D93A00B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D93A001, 0x7D93A00C, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D93A001, 0x7D93A00D, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D93A001, 0x7D93A00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D93A001, 0x7D93A00F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D93A001, 0x7D93A010, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D93A001, 0x7D93A011, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D93A001, 0x7D93A012, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D93A001, 0x7D93A013, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D93A001, 0x7D93A014, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D93A001, 0x7D93A015, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D93A001, 0x7D93A016, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7D93A001, 0x7D93A002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D93A001, 0x7D93A003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D93A001, 0x7D93A004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D93A001, 0x7D93A005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7D93A001, 0x7D93A006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D93A001, 0x7D93A007, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7D93A001, 0x7D93A008, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7D93A001, 0x7D93A009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7D93A001, 0x7D93A00A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D93A001, 0x7D93A00B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D93A001, 0x7D93A00C, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D93A001, 0x7D93A00D, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D93A001, 0x7D93A00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D93A001, 0x7D93A00F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D93A001, 0x7D93A010, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D93A001, 0x7D93A011, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D93A001, 0x7D93A012, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D93A001, 0x7D93A013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D93A001, 0x7D93A014, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D93A001, 0x7D93A015, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D93A001, 0x7D93A016, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D93A002,  7345, 0xD93A002C, 142.5175, 75.46205, 87.55341, 0.8271932, 0, 0, -0.5619176,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

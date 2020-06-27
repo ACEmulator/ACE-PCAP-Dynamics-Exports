@@ -5,13 +5,13 @@ VALUES (0x716BB001,  1154, 0x16BB0002, 18.29292, 47.55159, 49.39939, -0.821448, 
 /* @teleloc 0x16BB0002 [18.292920 47.551590 49.399390] -0.821448 0.000000 0.000000 -0.570283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716BB001, 0x716BB002, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x716BB001, 0x716BB003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x716BB001, 0x716BB004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x716BB001, 0x716BB005, '2019-02-10 00:00:00') /* Assassin */
-     , (0x716BB001, 0x716BB006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x716BB001, 0x716BB007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x716BB001, 0x716BB008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x716BB001, 0x716BB002, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x716BB001, 0x716BB003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x716BB001, 0x716BB004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x716BB001, 0x716BB005, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x716BB001, 0x716BB006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x716BB001, 0x716BB007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x716BB001, 0x716BB008, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716BB002, 11504, 0x16BB0002, 18.29292, 47.55159, 49.39939, -0.821448, 0, 0, -0.5702834,  True, '2019-02-10 00:00:00'); /* Mercenary */
@@ -46,10 +46,10 @@ VALUES (0x716BB009,  1542, 0x16BB0002, 16.83814, 33.30267, 50.39939, 1, 0, 0, 0,
 /* @teleloc 0x16BB0002 [16.838140 33.302670 50.399390] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716BB009, 0x716BB00A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716BB009, 0x716BB00B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x716BB009, 0x716BB00C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716BB009, 0x716BB00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x716BB009, 0x716BB00A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716BB009, 0x716BB00B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x716BB009, 0x716BB00C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716BB009, 0x716BB00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716BB00A,  9024, 0x16BB0002, 16.83814, 33.30267, 50.39939, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

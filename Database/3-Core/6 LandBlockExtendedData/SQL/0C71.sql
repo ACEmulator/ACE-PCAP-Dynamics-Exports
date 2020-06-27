@@ -5,12 +5,12 @@ VALUES (0x70C71001,  1154, 0x0C710008, 3.794276, 188.2961, 70, 0.4393638, 0, 0, 
 /* @teleloc 0x0C710008 [3.794276 188.296100 70.000000] 0.439364 0.000000 0.000000 -0.898309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C71001, 0x70C71002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C71001, 0x70C71003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C71001, 0x70C71004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C71001, 0x70C71005, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70C71001, 0x70C71006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C71001, 0x70C71007, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x70C71001, 0x70C71002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C71001, 0x70C71003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C71001, 0x70C71004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C71001, 0x70C71005, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70C71001, 0x70C71006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C71001, 0x70C71007, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C71002, 23481, 0x0C710008, 3.794276, 188.2961, 70, 0.4393638, 0, 0, -0.8983092,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

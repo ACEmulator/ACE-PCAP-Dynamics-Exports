@@ -5,11 +5,11 @@ VALUES (0x750BB001,  1154, 0x50BB0021, 97.98685, 22.78197, 76.70427, 0.7071068, 
 /* @teleloc 0x50BB0021 [97.986850 22.781970 76.704270] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750BB001, 0x750BB002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750BB001, 0x750BB003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750BB001, 0x750BB004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750BB001, 0x750BB005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x750BB001, 0x750BB006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x750BB001, 0x750BB002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x750BB001, 0x750BB003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x750BB001, 0x750BB004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x750BB001, 0x750BB005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x750BB001, 0x750BB006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750BB002,  7335, 0x50BB0021, 97.98685, 22.78197, 76.70427, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

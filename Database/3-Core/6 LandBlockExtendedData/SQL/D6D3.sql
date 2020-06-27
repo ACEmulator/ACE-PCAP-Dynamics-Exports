@@ -5,15 +5,15 @@ VALUES (0x7D6D3001,  1154, 0xD6D3000F, 28.18953, 156.3308, 35.43637, 0.8870109, 
 /* @teleloc 0xD6D3000F [28.189530 156.330800 35.436370] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6D3001, 0x7D6D3002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D6D3001, 0x7D6D3003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D6D3001, 0x7D6D3004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D3001, 0x7D6D3005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D6D3001, 0x7D6D3006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D6D3001, 0x7D6D3007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D3001, 0x7D6D3008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D3001, 0x7D6D3009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D6D3001, 0x7D6D300A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7D6D3001, 0x7D6D3002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D6D3001, 0x7D6D3003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D6D3001, 0x7D6D3004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D3001, 0x7D6D3005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D6D3001, 0x7D6D3006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D6D3001, 0x7D6D3007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D3001, 0x7D6D3008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D3001, 0x7D6D3009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D6D3001, 0x7D6D300A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6D3002,  1610, 0xD6D3000F, 28.18953, 156.3308, 35.43637, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -56,7 +56,7 @@ VALUES (0x7D6D300B,  1542, 0xD6D3000F, 25.02531, 154.5279, 34.71742, 1, 0, 0, 0,
 /* @teleloc 0xD6D3000F [25.025310 154.527900 34.717420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6D300B, 0x7D6D300C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D6D300B, 0x7D6D300C, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6D300C, 22576, 0xD6D3000F, 25.02531, 154.5279, 34.71742, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

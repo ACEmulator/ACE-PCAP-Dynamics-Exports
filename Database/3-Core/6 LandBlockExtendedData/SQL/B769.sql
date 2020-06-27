@@ -5,15 +5,15 @@ VALUES (0x7B769001,  1154, 0xB7690017, 61.6124, 153.5228, 14.00935, 0.5833366, 0
 /* @teleloc 0xB7690017 [61.612400 153.522800 14.009350] 0.583337 0.000000 0.000000 -0.812231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B769001, 0x7B769002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B769001, 0x7B769003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B769001, 0x7B769004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B769001, 0x7B769005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B769001, 0x7B769006, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B769001, 0x7B769007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B769001, 0x7B769008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B769001, 0x7B769009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B769001, 0x7B76900A, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7B769001, 0x7B769002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B769001, 0x7B769003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B769001, 0x7B769004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B769001, 0x7B769005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B769001, 0x7B769006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B769001, 0x7B769007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B769001, 0x7B769008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B769001, 0x7B769009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B769001, 0x7B76900A, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B769002,    20, 0xB7690017, 61.6124, 153.5228, 14.00935, 0.5833366, 0, 0, -0.8122305,  True, '2019-02-10 00:00:00'); /* Auroch Bull */

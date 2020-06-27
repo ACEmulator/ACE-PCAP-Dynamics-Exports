@@ -5,18 +5,18 @@ VALUES (0x759BC001,  1154, 0x59BC001B, 77.98991, 51.68468, 21.70344, 0.3794578, 
 /* @teleloc 0x59BC001B [77.989910 51.684680 21.703440] 0.379458 0.000000 0.000000 -0.925209 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759BC001, 0x759BC002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x759BC001, 0x759BC003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759BC001, 0x759BC004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759BC001, 0x759BC005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759BC001, 0x759BC006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x759BC001, 0x759BC007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x759BC001, 0x759BC008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x759BC001, 0x759BC009, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x759BC001, 0x759BC00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x759BC001, 0x759BC00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759BC001, 0x759BC00C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759BC001, 0x759BC00D, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x759BC001, 0x759BC002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759BC001, 0x759BC003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759BC001, 0x759BC004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759BC001, 0x759BC005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759BC001, 0x759BC006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x759BC001, 0x759BC007, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x759BC001, 0x759BC008, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x759BC001, 0x759BC009, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x759BC001, 0x759BC00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x759BC001, 0x759BC00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759BC001, 0x759BC00C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759BC001, 0x759BC00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759BC002,  7081, 0x59BC001B, 77.98991, 51.68468, 21.70344, 0.3794578, 0, 0, -0.925209,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -71,7 +71,7 @@ VALUES (0x759BC00E,  1542, 0x59BC001A, 84.50146, 29.69306, 23.52558, 0.9914449, 
 /* @teleloc 0x59BC001A [84.501460 29.693060 23.525580] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759BC00E, 0x759BC00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x759BC00E, 0x759BC00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759BC00F,  4380, 0x59BC001A, 84.50146, 29.69306, 23.52558, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

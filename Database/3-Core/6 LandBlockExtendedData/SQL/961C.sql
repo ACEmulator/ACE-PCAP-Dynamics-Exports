@@ -5,9 +5,9 @@ VALUES (0x7961C001,  1154, 0x961C0017, 63.36362, 148.5518, 284.0234, 0.4040708, 
 /* @teleloc 0x961C0017 [63.363620 148.551800 284.023400] 0.404071 0.000000 0.000000 -0.914728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7961C001, 0x7961C002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7961C001, 0x7961C003, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7961C001, 0x7961C004, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7961C001, 0x7961C002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7961C001, 0x7961C003, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7961C001, 0x7961C004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7961C002,  8139, 0x961C0017, 63.36362, 148.5518, 284.0234, 0.4040708, 0, 0, -0.9147277,  True, '2019-02-10 00:00:00'); /* Gigas Raider */

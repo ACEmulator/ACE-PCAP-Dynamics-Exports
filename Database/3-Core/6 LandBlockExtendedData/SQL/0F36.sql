@@ -5,28 +5,28 @@ VALUES (0x70F36001,  1154, 0x0F36003F, 174.5898, 144.6556, 1.560113, 0.8629905, 
 /* @teleloc 0x0F36003F [174.589800 144.655600 1.560113] 0.862991 0.000000 0.000000 -0.505220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F36001, 0x70F36002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70F36001, 0x70F36003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F36001, 0x70F36004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70F36001, 0x70F36005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F36001, 0x70F36006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70F36001, 0x70F36007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70F36001, 0x70F36008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70F36001, 0x70F36009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70F36001, 0x70F3600A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70F36001, 0x70F3600B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70F36001, 0x70F3600C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F36001, 0x70F3600D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F36001, 0x70F3600E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70F36001, 0x70F3600F, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70F36001, 0x70F36010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x70F36001, 0x70F36011, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F36001, 0x70F36012, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70F36001, 0x70F36013, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70F36001, 0x70F36014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F36001, 0x70F36015, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70F36001, 0x70F36016, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70F36001, 0x70F36017, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x70F36001, 0x70F36002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70F36001, 0x70F36003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F36001, 0x70F36004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70F36001, 0x70F36005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F36001, 0x70F36006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70F36001, 0x70F36007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70F36001, 0x70F36008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70F36001, 0x70F36009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70F36001, 0x70F3600A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70F36001, 0x70F3600B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70F36001, 0x70F3600C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F36001, 0x70F3600D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F36001, 0x70F3600E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70F36001, 0x70F3600F, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70F36001, 0x70F36010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x70F36001, 0x70F36011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F36001, 0x70F36012, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70F36001, 0x70F36013, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70F36001, 0x70F36014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F36001, 0x70F36015, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70F36001, 0x70F36016, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70F36001, 0x70F36017, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F36002,  7125, 0x0F36003F, 174.5898, 144.6556, 1.560113, 0.8629905, 0, 0, -0.5052202,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -121,7 +121,7 @@ VALUES (0x70F36018,  1542, 0x0F36003F, 184.5804, 156.0708, 2.71479, -4.371139E-0
 /* @teleloc 0x0F36003F [184.580400 156.070800 2.714790] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F36018, 0x70F36019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F36018, 0x70F36019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F36019,  4380, 0x0F36003F, 184.5804, 156.0708, 2.71479, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

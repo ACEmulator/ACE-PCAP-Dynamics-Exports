@@ -5,11 +5,11 @@ VALUES (0x72472001,  1154, 0x24720007, 0.3557739, 154.181, 110.0075, 0.02846929,
 /* @teleloc 0x24720007 [0.355774 154.181000 110.007500] 0.028469 0.000000 0.000000 -0.999595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72472001, 0x72472002, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72472001, 0x72472003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72472001, 0x72472004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72472001, 0x72472005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72472001, 0x72472006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72472001, 0x72472002, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72472001, 0x72472003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72472001, 0x72472004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72472001, 0x72472005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72472001, 0x72472006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72472002, 41538, 0x24720007, 0.3557739, 154.181, 110.0075, 0.02846929, 0, 0, -0.9995947,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
@@ -36,8 +36,8 @@ VALUES (0x72472007,  1542, 0x24720014, 67.46847, 94.76117, 143.9978, 1, 0, 0, 0,
 /* @teleloc 0x24720014 [67.468470 94.761170 143.997800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72472007, 0x72472008, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72472007, 0x72472009, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x72472007, 0x72472008, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72472007, 0x72472009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72472008, 31445, 0x24720014, 67.46847, 94.76117, 143.9978, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

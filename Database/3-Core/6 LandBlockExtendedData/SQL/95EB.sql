@@ -5,25 +5,25 @@ VALUES (0x795EB001,  1154, 0x95EB0009, 40.34616, 12.34806, 20.00715, -0.8685638,
 /* @teleloc 0x95EB0009 [40.346160 12.348060 20.007150] -0.868564 0.000000 0.000000 -0.495577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795EB001, 0x795EB002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795EB001, 0x795EB003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x795EB001, 0x795EB004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x795EB001, 0x795EB005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x795EB001, 0x795EB006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x795EB001, 0x795EB007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x795EB001, 0x795EB008, '2019-02-10 00:00:00') /* Static */
-     , (0x795EB001, 0x795EB009, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x795EB001, 0x795EB00A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795EB001, 0x795EB00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795EB001, 0x795EB00C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795EB001, 0x795EB00D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795EB001, 0x795EB00E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795EB001, 0x795EB00F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x795EB001, 0x795EB010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x795EB001, 0x795EB011, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x795EB001, 0x795EB012, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x795EB001, 0x795EB013, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x795EB001, 0x795EB014, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x795EB001, 0x795EB002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795EB001, 0x795EB003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x795EB001, 0x795EB004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795EB001, 0x795EB005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795EB001, 0x795EB006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795EB001, 0x795EB007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x795EB001, 0x795EB008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x795EB001, 0x795EB009, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x795EB001, 0x795EB00A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x795EB001, 0x795EB00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795EB001, 0x795EB00C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795EB001, 0x795EB00D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795EB001, 0x795EB00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795EB001, 0x795EB00F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x795EB001, 0x795EB010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x795EB001, 0x795EB011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x795EB001, 0x795EB012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x795EB001, 0x795EB013, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x795EB001, 0x795EB014, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795EB002,  7333, 0x95EB0009, 40.34616, 12.34806, 20.00715, -0.8685638, 0, 0, -0.4955774,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -106,7 +106,7 @@ VALUES (0x795EB015,  1542, 0x95EB0013, 57.66131, 60.62258, 20, -4.371139E-08, 0,
 /* @teleloc 0x95EB0013 [57.661310 60.622580 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795EB015, 0x795EB016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x795EB015, 0x795EB016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795EB016,  4380, 0x95EB0013, 57.66131, 60.62258, 20, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,15 +5,15 @@ VALUES (0x74BE7001,  1154, 0x4BE7002B, 139.3932, 53.543, -0.09000003, 0.9289827,
 /* @teleloc 0x4BE7002B [139.393200 53.543000 -0.090000] 0.928983 0.000000 0.000000 -0.370123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BE7001, 0x74BE7002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74BE7001, 0x74BE7003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74BE7001, 0x74BE7004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74BE7001, 0x74BE7005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74BE7001, 0x74BE7006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74BE7001, 0x74BE7007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74BE7001, 0x74BE7008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74BE7001, 0x74BE7009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74BE7001, 0x74BE700A, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x74BE7001, 0x74BE7002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x74BE7001, 0x74BE7003, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74BE7001, 0x74BE7004, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74BE7001, 0x74BE7005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x74BE7001, 0x74BE7006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74BE7001, 0x74BE7007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74BE7001, 0x74BE7008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x74BE7001, 0x74BE7009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74BE7001, 0x74BE700A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE7002,  7099, 0x4BE7002B, 139.3932, 53.543, -0.09000003, 0.9289827, 0, 0, -0.3701232,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

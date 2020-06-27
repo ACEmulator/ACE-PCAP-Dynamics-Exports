@@ -5,15 +5,15 @@ VALUES (0x79442001,  1154, 0x94420033, 150.0128, 66.95582, 19.08018, -0.2620821,
 /* @teleloc 0x94420033 [150.012800 66.955820 19.080180] -0.262082 0.000000 0.000000 -0.965046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79442001, 0x79442002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79442001, 0x79442003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79442001, 0x79442004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79442001, 0x79442005, '2019-02-10 00:00:00') /* Gout */
-     , (0x79442001, 0x79442006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79442001, 0x79442007, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79442001, 0x79442008, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79442001, 0x79442009, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79442001, 0x7944200A, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x79442001, 0x79442002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79442001, 0x79442003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79442001, 0x79442004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79442001, 0x79442005, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79442001, 0x79442006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79442001, 0x79442007, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79442001, 0x79442008, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79442001, 0x79442009, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79442001, 0x7944200A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79442002,  9257, 0x94420033, 150.0128, 66.95582, 19.08018, -0.2620821, 0, 0, -0.9650456,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
@@ -56,7 +56,7 @@ VALUES (0x7944200B,  1542, 0x94420017, 50.37083, 145.7433, 17.3666, -0.752122, 0
 /* @teleloc 0x94420017 [50.370830 145.743300 17.366600] -0.752122 0.000000 0.000000 -0.659024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7944200B, 0x7944200C, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7944200B, 0x7944200C, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7944200C,  8041, 0x94420017, 50.37083, 145.7433, 17.3666, -0.752122, 0, 0, -0.6590239,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

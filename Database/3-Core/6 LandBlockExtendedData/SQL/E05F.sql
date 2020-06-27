@@ -5,22 +5,22 @@ VALUES (0x7E05F001,  1154, 0xE05F000E, 40.1197, 143.6618, 12.69127, -0.397995, 0
 /* @teleloc 0xE05F000E [40.119700 143.661800 12.691270] -0.397995 0.000000 0.000000 -0.917388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E05F001, 0x7E05F002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E05F001, 0x7E05F003, '2019-02-10 00:00:00') /* Mox */
-     , (0x7E05F001, 0x7E05F004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7E05F001, 0x7E05F005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7E05F001, 0x7E05F009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7E05F001, 0x7E05F00A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E05F001, 0x7E05F00B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7E05F001, 0x7E05F00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F00F, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F010, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E05F001, 0x7E05F011, '2019-02-10 00:00:00') /* Mox */;
+VALUES (0x7E05F001, 0x7E05F002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E05F001, 0x7E05F003, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7E05F001, 0x7E05F004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7E05F001, 0x7E05F005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7E05F001, 0x7E05F009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7E05F001, 0x7E05F00A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E05F001, 0x7E05F00B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7E05F001, 0x7E05F00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F00F, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F010, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E05F001, 0x7E05F011, '2019-02-10 00:00:00') /* Mox (20188) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E05F002,  7180, 0xE05F000E, 40.1197, 143.6618, 12.69127, -0.397995, 0, 0, -0.9173875,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

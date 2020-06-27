@@ -5,9 +5,9 @@ VALUES (0x743B6001,  1154, 0x43B60027, 104.7746, 166.9725, 26.63759, 0.9292902, 
 /* @teleloc 0x43B60027 [104.774600 166.972500 26.637590] 0.929290 0.000000 0.000000 -0.369350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743B6001, 0x743B6002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x743B6001, 0x743B6003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x743B6001, 0x743B6004, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x743B6001, 0x743B6002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x743B6001, 0x743B6003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x743B6001, 0x743B6004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743B6002, 24289, 0x43B60027, 104.7746, 166.9725, 26.63759, 0.9292902, 0, 0, -0.3693503,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

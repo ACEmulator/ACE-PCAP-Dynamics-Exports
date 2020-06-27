@@ -5,17 +5,17 @@ VALUES (0x75AA5001,  1154, 0x5AA50034, 147.0172, 78.45053, 66.60979, 0.8191521, 
 /* @teleloc 0x5AA50034 [147.017200 78.450530 66.609790] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA5001, 0x75AA5002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75AA5001, 0x75AA5003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75AA5001, 0x75AA5004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75AA5001, 0x75AA5005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75AA5001, 0x75AA5006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75AA5001, 0x75AA5007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA5001, 0x75AA5008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75AA5001, 0x75AA5009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75AA5001, 0x75AA500A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75AA5001, 0x75AA500B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75AA5001, 0x75AA500C, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75AA5001, 0x75AA5002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75AA5001, 0x75AA5003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75AA5001, 0x75AA5004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75AA5001, 0x75AA5005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75AA5001, 0x75AA5006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75AA5001, 0x75AA5007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA5001, 0x75AA5008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75AA5001, 0x75AA5009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75AA5001, 0x75AA500A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75AA5001, 0x75AA500B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75AA5001, 0x75AA500C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA5002,  7334, 0x5AA50034, 147.0172, 78.45053, 66.60979, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -66,8 +66,8 @@ VALUES (0x75AA500D,  1542, 0x5AA5002D, 129.1519, 117.8332, 71.93298, 1, 0, 0, 0,
 /* @teleloc 0x5AA5002D [129.151900 117.833200 71.932980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA500D, 0x75AA500E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75AA500D, 0x75AA500F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75AA500D, 0x75AA500E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75AA500D, 0x75AA500F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA500E, 22567, 0x5AA5002D, 129.1519, 117.8332, 71.93298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

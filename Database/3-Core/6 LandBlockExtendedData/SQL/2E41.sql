@@ -5,24 +5,24 @@ VALUES (0x72E41001,  1154, 0x2E410020, 77.76085, 190.8981, 21.62375, -4.371139E-
 /* @teleloc 0x2E410020 [77.760850 190.898100 21.623750] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E41001, 0x72E41002, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72E41001, 0x72E41003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72E41001, 0x72E41004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72E41001, 0x72E41005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72E41001, 0x72E41006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E41001, 0x72E41007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E41001, 0x72E41008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E41001, 0x72E41009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72E41001, 0x72E4100A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72E41001, 0x72E4100B, '2019-02-10 00:00:00') /* Flare */
-     , (0x72E41001, 0x72E4100C, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E41001, 0x72E4100D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E41001, 0x72E4100E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E41001, 0x72E4100F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E41001, 0x72E41010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E41001, 0x72E41011, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E41001, 0x72E41012, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72E41001, 0x72E41013, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x72E41001, 0x72E41002, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72E41001, 0x72E41003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72E41001, 0x72E41004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72E41001, 0x72E41005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72E41001, 0x72E41006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E41001, 0x72E41007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E41001, 0x72E41008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E41001, 0x72E41009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72E41001, 0x72E4100A, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72E41001, 0x72E4100B, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72E41001, 0x72E4100C, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E41001, 0x72E4100D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E41001, 0x72E4100E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E41001, 0x72E4100F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E41001, 0x72E41010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E41001, 0x72E41011, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E41001, 0x72E41012, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72E41001, 0x72E41013, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E41002, 24310, 0x2E410020, 77.76085, 190.8981, 21.62375, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Direland Rat */
@@ -101,7 +101,7 @@ VALUES (0x72E41014,  1542, 0x2E410014, 71.64035, 77.08112, 61.4162, 1, 0, 0, 0, 
 /* @teleloc 0x2E410014 [71.640350 77.081120 61.416200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E41014, 0x72E41015, '2019-02-10 00:00:00') /* Eastham Portal */;
+VALUES (0x72E41014, 0x72E41015, '2019-02-10 00:00:00') /* Eastham Portal (42815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E41015, 42815, 0x2E410014, 71.64035, 77.08112, 61.4162, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Eastham Portal */

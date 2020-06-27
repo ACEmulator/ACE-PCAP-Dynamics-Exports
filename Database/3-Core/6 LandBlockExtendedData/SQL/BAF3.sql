@@ -5,25 +5,25 @@ VALUES (0x7BAF3001,  1154, 0xBAF3002A, 126.6575, 46.49602, 39.04131, -0.08715577
 /* @teleloc 0xBAF3002A [126.657500 46.496020 39.041310] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAF3001, 0x7BAF3002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BAF3001, 0x7BAF3003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BAF3001, 0x7BAF3004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BAF3001, 0x7BAF3005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7BAF3001, 0x7BAF3006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BAF3001, 0x7BAF3007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BAF3001, 0x7BAF3008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7BAF3001, 0x7BAF3009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7BAF3001, 0x7BAF300A, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BAF3001, 0x7BAF300B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAF3001, 0x7BAF300C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7BAF3001, 0x7BAF300D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7BAF3001, 0x7BAF300E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7BAF3001, 0x7BAF300F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7BAF3001, 0x7BAF3010, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BAF3001, 0x7BAF3011, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7BAF3001, 0x7BAF3012, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BAF3001, 0x7BAF3013, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BAF3001, 0x7BAF3014, '2019-02-10 00:00:00') /* Ancient Diamond Golem */;
+VALUES (0x7BAF3001, 0x7BAF3002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BAF3001, 0x7BAF3003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BAF3001, 0x7BAF3004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BAF3001, 0x7BAF3005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7BAF3001, 0x7BAF3006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BAF3001, 0x7BAF3007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BAF3001, 0x7BAF3008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7BAF3001, 0x7BAF3009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7BAF3001, 0x7BAF300A, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BAF3001, 0x7BAF300B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAF3001, 0x7BAF300C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7BAF3001, 0x7BAF300D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7BAF3001, 0x7BAF300E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7BAF3001, 0x7BAF300F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7BAF3001, 0x7BAF3010, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BAF3001, 0x7BAF3011, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7BAF3001, 0x7BAF3012, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BAF3001, 0x7BAF3013, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BAF3001, 0x7BAF3014, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF3002,  7346, 0xBAF3002A, 126.6575, 46.49602, 39.04131, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -106,8 +106,8 @@ VALUES (0x7BAF3015,  1542, 0xBAF3002B, 129.2946, 52.33316, 35.45742, 0.9990482, 
 /* @teleloc 0xBAF3002B [129.294600 52.333160 35.457420] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAF3015, 0x7BAF3016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BAF3015, 0x7BAF3017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BAF3015, 0x7BAF3016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BAF3015, 0x7BAF3017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF3016,  4179, 0xBAF3002B, 129.2946, 52.33316, 35.45742, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

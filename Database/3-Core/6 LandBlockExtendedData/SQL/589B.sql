@@ -5,14 +5,14 @@ VALUES (0x7589B001,  1154, 0x589B0016, 53.02623, 126.5576, 0.5530656, 0.7861934,
 /* @teleloc 0x589B0016 [53.026230 126.557600 0.553066] 0.786193 0.000000 0.000000 -0.617981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7589B001, 0x7589B002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7589B001, 0x7589B003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7589B001, 0x7589B004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7589B001, 0x7589B005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7589B001, 0x7589B006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7589B001, 0x7589B007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7589B001, 0x7589B008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7589B001, 0x7589B009, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7589B001, 0x7589B002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7589B001, 0x7589B003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7589B001, 0x7589B004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7589B001, 0x7589B005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7589B001, 0x7589B006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7589B001, 0x7589B007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7589B001, 0x7589B008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7589B001, 0x7589B009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7589B002,  7102, 0x589B0016, 53.02623, 126.5576, 0.5530656, 0.7861934, 0, 0, -0.6179806,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

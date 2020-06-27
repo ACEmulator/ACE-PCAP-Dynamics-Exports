@@ -9,23 +9,23 @@ VALUES (0x7BCD1001,  1154, 0xBCD1002F, 133.9812, 165.4269, 92.22192, -0.4370397,
 /* @teleloc 0xBCD1002F [133.981200 165.426900 92.221920] -0.437040 0.000000 0.000000 -0.899442 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD1001, 0x7BCD1002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD1001, 0x7BCD1003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD1001, 0x7BCD1004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCD1001, 0x7BCD1005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD1001, 0x7BCD1006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BCD1001, 0x7BCD1007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD1001, 0x7BCD1008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BCD1001, 0x7BCD1009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BCD1001, 0x7BCD100A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD1001, 0x7BCD100B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BCD1001, 0x7BCD100C, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BCD1001, 0x7BCD100D, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BCD1001, 0x7BCD100E, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BCD1001, 0x7BCD100F, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BCD1001, 0x7BCD1010, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BCD1001, 0x7BCD1011, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BCD1001, 0x7BCD1012, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7BCD1001, 0x7BCD1002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD1001, 0x7BCD1003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD1001, 0x7BCD1004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCD1001, 0x7BCD1005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD1001, 0x7BCD1006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BCD1001, 0x7BCD1007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD1001, 0x7BCD1008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BCD1001, 0x7BCD1009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BCD1001, 0x7BCD100A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD1001, 0x7BCD100B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BCD1001, 0x7BCD100C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BCD1001, 0x7BCD100D, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BCD1001, 0x7BCD100E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD1001, 0x7BCD100F, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD1001, 0x7BCD1010, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD1001, 0x7BCD1011, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD1001, 0x7BCD1012, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD1002,  7123, 0xBCD1002F, 133.9812, 165.4269, 92.22192, -0.4370397, 0, 0, -0.8994422,  True, '2019-02-10 00:00:00'); /* Dark Leech */

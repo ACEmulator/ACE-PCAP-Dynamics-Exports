@@ -5,14 +5,14 @@ VALUES (0x766C1001,  1154, 0x66C10006, 6.256441, 122.5449, 61.31837, 0.8191521, 
 /* @teleloc 0x66C10006 [6.256441 122.544900 61.318370] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766C1001, 0x766C1002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x766C1001, 0x766C1003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x766C1001, 0x766C1004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x766C1001, 0x766C1005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x766C1001, 0x766C1006, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x766C1001, 0x766C1007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x766C1001, 0x766C1008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x766C1001, 0x766C1009, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x766C1001, 0x766C1002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x766C1001, 0x766C1003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x766C1001, 0x766C1004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x766C1001, 0x766C1005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x766C1001, 0x766C1006, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x766C1001, 0x766C1007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x766C1001, 0x766C1008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x766C1001, 0x766C1009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766C1002, 23566, 0x66C10006, 6.256441, 122.5449, 61.31837, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -51,7 +51,7 @@ VALUES (0x766C100A,  1542, 0x66C1001A, 92.12046, 31.43405, 29.53306, 1, 0, 0, 0,
 /* @teleloc 0x66C1001A [92.120460 31.434050 29.533060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766C100A, 0x766C100B, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x766C100A, 0x766C100B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766C100B, 31445, 0x66C1001A, 92.12046, 31.43405, 29.53306, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

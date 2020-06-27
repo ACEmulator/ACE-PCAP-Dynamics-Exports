@@ -5,29 +5,29 @@ VALUES (0x7BCEA001,  1154, 0xBCEA003D, 189.6245, 116.7879, 20.01, 1, 0, 0, 0, Fa
 /* @teleloc 0xBCEA003D [189.624500 116.787900 20.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCEA001, 0x7BCEA002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BCEA001, 0x7BCEA003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BCEA001, 0x7BCEA004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BCEA001, 0x7BCEA005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BCEA001, 0x7BCEA006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BCEA001, 0x7BCEA007, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEA001, 0x7BCEA008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEA001, 0x7BCEA009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEA001, 0x7BCEA00A, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEA001, 0x7BCEA00B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEA001, 0x7BCEA00C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEA001, 0x7BCEA00D, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEA001, 0x7BCEA00E, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEA001, 0x7BCEA00F, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEA001, 0x7BCEA010, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BCEA001, 0x7BCEA011, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEA001, 0x7BCEA012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BCEA001, 0x7BCEA013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEA001, 0x7BCEA014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEA001, 0x7BCEA015, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEA001, 0x7BCEA016, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEA001, 0x7BCEA017, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEA001, 0x7BCEA018, '2019-02-10 00:00:00') /* Black Phyntos Wasp */;
+VALUES (0x7BCEA001, 0x7BCEA002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BCEA001, 0x7BCEA003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BCEA001, 0x7BCEA004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BCEA001, 0x7BCEA005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BCEA001, 0x7BCEA006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BCEA001, 0x7BCEA007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEA001, 0x7BCEA008, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEA001, 0x7BCEA009, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEA001, 0x7BCEA00A, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEA001, 0x7BCEA00B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEA001, 0x7BCEA00C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEA001, 0x7BCEA00D, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEA001, 0x7BCEA00E, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEA001, 0x7BCEA00F, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEA001, 0x7BCEA010, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BCEA001, 0x7BCEA011, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEA001, 0x7BCEA012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BCEA001, 0x7BCEA013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEA001, 0x7BCEA014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEA001, 0x7BCEA015, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEA001, 0x7BCEA016, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEA001, 0x7BCEA017, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEA001, 0x7BCEA018, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCEA002, 23082, 0xBCEA003D, 189.6245, 116.7879, 20.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

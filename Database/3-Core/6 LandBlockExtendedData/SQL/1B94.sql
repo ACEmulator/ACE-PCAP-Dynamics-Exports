@@ -5,18 +5,18 @@ VALUES (0x71B94001,  1154, 0x1B940034, 159.6768, 75.92431, -0.0934, -0.9956467, 
 /* @teleloc 0x1B940034 [159.676800 75.924310 -0.093400] -0.995647 0.000000 0.000000 -0.093208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B94001, 0x71B94002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x71B94001, 0x71B94003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71B94001, 0x71B94004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71B94001, 0x71B94005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71B94001, 0x71B94006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71B94001, 0x71B94007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71B94001, 0x71B94008, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x71B94001, 0x71B94009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x71B94001, 0x71B9400A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x71B94001, 0x71B9400B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71B94001, 0x71B9400C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x71B94001, 0x71B9400D, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x71B94001, 0x71B94002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x71B94001, 0x71B94003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71B94001, 0x71B94004, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x71B94001, 0x71B94005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x71B94001, 0x71B94006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x71B94001, 0x71B94007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71B94001, 0x71B94008, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x71B94001, 0x71B94009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x71B94001, 0x71B9400A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x71B94001, 0x71B9400B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71B94001, 0x71B9400C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x71B94001, 0x71B9400D, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B94002,  4248, 0x1B940034, 159.6768, 75.92431, -0.0934, -0.9956467, 0, 0, -0.09320768,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x71B9400E,  1542, 0x1B940033, 162.9504, 65.66495, 1.356188, -0.07535239
 /* @teleloc 0x1B940033 [162.950400 65.664950 1.356188] -0.075352 0.000000 0.000000 -0.997157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B9400E, 0x71B9400F, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x71B9400E, 0x71B9400F, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B9400F, 31688, 0x1B940033, 162.9504, 65.66495, 1.356188, -0.07535239, 0, 0, -0.997157,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

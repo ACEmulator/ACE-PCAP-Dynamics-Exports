@@ -5,13 +5,13 @@ VALUES (0x723E8001,  1154, 0x23E80004, 19.24179, 84.91779, 0.00999999, -0.457843
 /* @teleloc 0x23E80004 [19.241790 84.917790 0.010000] -0.457843 0.000000 0.000000 -0.889033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723E8001, 0x723E8002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x723E8001, 0x723E8003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x723E8001, 0x723E8004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x723E8001, 0x723E8005, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x723E8001, 0x723E8006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x723E8001, 0x723E8007, '2019-02-10 00:00:00') /* Mite Emissary */
-     , (0x723E8001, 0x723E8008, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x723E8001, 0x723E8002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x723E8001, 0x723E8003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x723E8001, 0x723E8004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x723E8001, 0x723E8005, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x723E8001, 0x723E8006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x723E8001, 0x723E8007, '2019-02-10 00:00:00') /* Mite Emissary (29354) */
+     , (0x723E8001, 0x723E8008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E8002, 22933, 0x23E80004, 19.24179, 84.91779, 0.00999999, -0.4578433, 0, 0, -0.8890329,  True, '2019-02-10 00:00:00'); /* Mist Golem */

@@ -5,12 +5,12 @@ VALUES (0x73897001,  1154, 0x3897003F, 189.8266, 148.5425, 2.368725, 0.4931593, 
 /* @teleloc 0x3897003F [189.826600 148.542500 2.368725] 0.493159 0.000000 0.000000 -0.869939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73897001, 0x73897002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73897001, 0x73897003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x73897001, 0x73897004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73897001, 0x73897005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73897001, 0x73897006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73897001, 0x73897007, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x73897001, 0x73897002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73897001, 0x73897003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x73897001, 0x73897004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73897001, 0x73897005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73897001, 0x73897006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73897001, 0x73897007, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73897002, 21549, 0x3897003F, 189.8266, 148.5425, 2.368725, 0.4931593, 0, 0, -0.869939,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -41,9 +41,9 @@ VALUES (0x73897008,  1542, 0x38970032, 161.9026, 30.31103, 11.95759, 0.7858413, 
 /* @teleloc 0x38970032 [161.902600 30.311030 11.957590] 0.785841 0.000000 0.000000 -0.618428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73897008, 0x73897009, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x73897008, 0x7389700A, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x73897008, 0x7389700B, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x73897008, 0x73897009, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x73897008, 0x7389700A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x73897008, 0x7389700B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73897009, 31688, 0x38970032, 161.9026, 30.31103, 11.95759, 0.7858413, 0, 0, -0.6184282,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

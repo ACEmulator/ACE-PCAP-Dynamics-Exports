@@ -5,25 +5,25 @@ VALUES (0x75C11001,  1154, 0x5C11001F, 90.35624, 148.9136, 74.1233, -0.9387734, 
 /* @teleloc 0x5C11001F [90.356240 148.913600 74.123300] -0.938773 0.000000 0.000000 -0.344535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C11001, 0x75C11002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75C11001, 0x75C11003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75C11001, 0x75C11004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75C11001, 0x75C11005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75C11001, 0x75C11006, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75C11001, 0x75C11007, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75C11001, 0x75C11008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75C11001, 0x75C11009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75C11001, 0x75C1100A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75C11001, 0x75C1100B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75C11001, 0x75C1100C, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75C11001, 0x75C1100D, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x75C11001, 0x75C1100E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75C11001, 0x75C1100F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75C11001, 0x75C11010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75C11001, 0x75C11011, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75C11001, 0x75C11012, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C11001, 0x75C11013, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C11001, 0x75C11014, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x75C11001, 0x75C11002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75C11001, 0x75C11003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75C11001, 0x75C11004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75C11001, 0x75C11005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75C11001, 0x75C11006, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75C11001, 0x75C11007, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75C11001, 0x75C11008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75C11001, 0x75C11009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75C11001, 0x75C1100A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75C11001, 0x75C1100B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75C11001, 0x75C1100C, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75C11001, 0x75C1100D, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x75C11001, 0x75C1100E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75C11001, 0x75C1100F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75C11001, 0x75C11010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75C11001, 0x75C11011, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75C11001, 0x75C11012, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C11001, 0x75C11013, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C11001, 0x75C11014, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C11002,  1610, 0x5C11001F, 90.35624, 148.9136, 74.1233, -0.9387734, 0, 0, -0.3445352,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -106,7 +106,7 @@ VALUES (0x75C11015,  1542, 0x5C11002E, 123.3439, 142.0157, 119.99, -0.9387734, 0
 /* @teleloc 0x5C11002E [123.343900 142.015700 119.990000] -0.938773 0.000000 0.000000 -0.344535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C11015, 0x75C11016, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x75C11015, 0x75C11016, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C11016,  9287, 0x5C11002E, 123.3439, 142.0157, 119.99, -0.9387734, 0, 0, -0.3445352,  True, '2019-02-10 00:00:00'); /* Master's Holding */

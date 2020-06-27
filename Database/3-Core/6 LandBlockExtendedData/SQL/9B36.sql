@@ -5,11 +5,11 @@ VALUES (0x79B36001,  1154, 0x9B360009, 27.00068, 19.50438, 81.30083, 0.9423062, 
 /* @teleloc 0x9B360009 [27.000680 19.504380 81.300830] 0.942306 0.000000 0.000000 -0.334752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B36001, 0x79B36002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79B36001, 0x79B36003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79B36001, 0x79B36004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79B36001, 0x79B36005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79B36001, 0x79B36006, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x79B36001, 0x79B36002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79B36001, 0x79B36003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79B36001, 0x79B36004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79B36001, 0x79B36005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79B36001, 0x79B36006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B36002, 11528, 0x9B360009, 27.00068, 19.50438, 81.30083, 0.9423062, 0, 0, -0.3347521,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

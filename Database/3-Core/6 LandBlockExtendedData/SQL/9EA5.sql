@@ -5,44 +5,44 @@ VALUES (0x79EA5001,  1154, 0x9EA5003A, 168.0494, 31.39411, 74.00412, -0.5517532,
 /* @teleloc 0x9EA5003A [168.049400 31.394110 74.004120] -0.551753 0.000000 0.000000 0.834007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA5001, 0x79EA5002, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA5003, '2019-02-10 00:00:00') /* Eater */
-     , (0x79EA5001, 0x79EA5004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EA5001, 0x79EA5005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EA5001, 0x79EA5006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA5001, 0x79EA5007, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA5008, '2019-02-10 00:00:00') /* Eater */
-     , (0x79EA5001, 0x79EA5009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x79EA5001, 0x79EA500A, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x79EA5001, 0x79EA500B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79EA5001, 0x79EA500C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79EA5001, 0x79EA500D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA5001, 0x79EA500E, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA500F, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x79EA5001, 0x79EA5010, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x79EA5001, 0x79EA5011, '2019-02-10 00:00:00') /* Eater */
-     , (0x79EA5001, 0x79EA5012, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x79EA5001, 0x79EA5013, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EA5001, 0x79EA5014, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x79EA5001, 0x79EA5015, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA5016, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA5001, 0x79EA5017, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA5001, 0x79EA5018, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79EA5001, 0x79EA5019, '2019-02-10 00:00:00') /* Fragment */
-     , (0x79EA5001, 0x79EA501A, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79EA5001, 0x79EA501B, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79EA5001, 0x79EA501C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79EA5001, 0x79EA501D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79EA5001, 0x79EA501E, '2019-02-10 00:00:00') /* Eater */
-     , (0x79EA5001, 0x79EA501F, '2019-02-10 00:00:00') /* Eater */
-     , (0x79EA5001, 0x79EA5020, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA5021, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA5001, 0x79EA5022, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA5001, 0x79EA5023, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EA5001, 0x79EA5024, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x79EA5001, 0x79EA5025, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EA5001, 0x79EA5026, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EA5001, 0x79EA5027, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x79EA5001, 0x79EA5002, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA5003, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x79EA5001, 0x79EA5004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EA5001, 0x79EA5005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EA5001, 0x79EA5006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA5001, 0x79EA5007, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA5008, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x79EA5001, 0x79EA5009, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x79EA5001, 0x79EA500A, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x79EA5001, 0x79EA500B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79EA5001, 0x79EA500C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79EA5001, 0x79EA500D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA5001, 0x79EA500E, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA500F, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x79EA5001, 0x79EA5010, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x79EA5001, 0x79EA5011, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x79EA5001, 0x79EA5012, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x79EA5001, 0x79EA5013, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EA5001, 0x79EA5014, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x79EA5001, 0x79EA5015, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA5016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA5001, 0x79EA5017, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA5001, 0x79EA5018, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79EA5001, 0x79EA5019, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x79EA5001, 0x79EA501A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79EA5001, 0x79EA501B, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79EA5001, 0x79EA501C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79EA5001, 0x79EA501D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79EA5001, 0x79EA501E, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x79EA5001, 0x79EA501F, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x79EA5001, 0x79EA5020, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA5021, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA5001, 0x79EA5022, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA5001, 0x79EA5023, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EA5001, 0x79EA5024, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x79EA5001, 0x79EA5025, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EA5001, 0x79EA5026, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EA5001, 0x79EA5027, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA5002, 32315, 0x9EA5003A, 168.0494, 31.39411, 74.00412, -0.5517532, 0, 0, 0.8340074,  True, '2019-02-10 00:00:00'); /* Famished Eater */
@@ -201,7 +201,7 @@ VALUES (0x79EA5028,  1542, 0x9EA5001F, 75.23396, 145.2682, 64.75036, 1, 0, 0, 0,
 /* @teleloc 0x9EA5001F [75.233960 145.268200 64.750360] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA5028, 0x79EA5029, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79EA5028, 0x79EA5029, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA5029,  8232, 0x9EA5001F, 75.23396, 145.2682, 64.75036, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

@@ -5,10 +5,10 @@ VALUES (0x7905D001,  1154, 0x905D002C, 138.957, 80.8549, 29.26542, -0.0343176, 0
 /* @teleloc 0x905D002C [138.957000 80.854900 29.265420] -0.034318 0.000000 0.000000 0.999411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7905D001, 0x7905D002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7905D001, 0x7905D003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7905D001, 0x7905D004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7905D001, 0x7905D005, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x7905D001, 0x7905D002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7905D001, 0x7905D003, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7905D001, 0x7905D004, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7905D001, 0x7905D005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7905D002,     7, 0x905D002C, 138.957, 80.8549, 29.26542, -0.0343176, 0, 0, 0.999411,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

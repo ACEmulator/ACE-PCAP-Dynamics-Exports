@@ -5,11 +5,11 @@ VALUES (0x71D45001,  1154, 0x1D450019, 75.83549, 19.63779, 55.74111, -0.8833609,
 /* @teleloc 0x1D450019 [75.835490 19.637790 55.741110] -0.883361 0.000000 0.000000 -0.468693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D45001, 0x71D45002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71D45001, 0x71D45003, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71D45001, 0x71D45004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71D45001, 0x71D45005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71D45001, 0x71D45006, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x71D45001, 0x71D45002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71D45001, 0x71D45003, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71D45001, 0x71D45004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71D45001, 0x71D45005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71D45001, 0x71D45006, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D45002, 15267, 0x1D450019, 75.83549, 19.63779, 55.74111, -0.8833609, 0, 0, -0.4686933,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

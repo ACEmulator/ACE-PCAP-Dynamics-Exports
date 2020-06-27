@@ -5,25 +5,25 @@ VALUES (0x7133A001,  1154, 0x133A0011, 48.61122, 14.21245, 7.393364, -0.953294, 
 /* @teleloc 0x133A0011 [48.611220 14.212450 7.393364] -0.953294 0.000000 0.000000 -0.302044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7133A001, 0x7133A002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7133A001, 0x7133A003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7133A001, 0x7133A004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7133A001, 0x7133A005, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7133A001, 0x7133A006, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7133A001, 0x7133A007, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7133A001, 0x7133A008, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7133A001, 0x7133A009, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7133A001, 0x7133A00A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7133A001, 0x7133A00B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7133A001, 0x7133A00C, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7133A001, 0x7133A00D, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7133A001, 0x7133A00E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7133A001, 0x7133A00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7133A001, 0x7133A010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133A001, 0x7133A011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133A001, 0x7133A012, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7133A001, 0x7133A013, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7133A001, 0x7133A014, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x7133A001, 0x7133A002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7133A001, 0x7133A003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7133A001, 0x7133A004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7133A001, 0x7133A005, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7133A001, 0x7133A006, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7133A001, 0x7133A007, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7133A001, 0x7133A008, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7133A001, 0x7133A009, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7133A001, 0x7133A00A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7133A001, 0x7133A00B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7133A001, 0x7133A00C, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7133A001, 0x7133A00D, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7133A001, 0x7133A00E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7133A001, 0x7133A00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7133A001, 0x7133A010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133A001, 0x7133A011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133A001, 0x7133A012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7133A001, 0x7133A013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7133A001, 0x7133A014, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7133A002, 24133, 0x133A0011, 48.61122, 14.21245, 7.393364, -0.953294, 0, 0, -0.302044,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
@@ -106,10 +106,10 @@ VALUES (0x7133A015,  1542, 0x133A0016, 49.08575, 140.0979, -0.45, 0.02794571, 0,
 /* @teleloc 0x133A0016 [49.085750 140.097900 -0.450000] 0.027946 0.000000 0.000000 0.999610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7133A015, 0x7133A016, '2019-02-10 00:00:00') /* Blackthorn Talisman */
-     , (0x7133A015, 0x7133A017, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7133A015, 0x7133A018, '2019-02-10 00:00:00') /* Blackthorn Talisman */
-     , (0x7133A015, 0x7133A019, '2019-02-10 00:00:00') /* Gold Scarab */;
+VALUES (0x7133A015, 0x7133A016, '2019-02-10 00:00:00') /* Blackthorn Talisman (742) */
+     , (0x7133A015, 0x7133A017, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7133A015, 0x7133A018, '2019-02-10 00:00:00') /* Blackthorn Talisman (742) */
+     , (0x7133A015, 0x7133A019, '2019-02-10 00:00:00') /* Gold Scarab (687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7133A016,   742, 0x133A0016, 49.08575, 140.0979, -0.45, 0.02794571, 0, 0, 0.9996095,  True, '2019-02-10 00:00:00'); /* Blackthorn Talisman */

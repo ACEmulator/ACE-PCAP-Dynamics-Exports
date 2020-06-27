@@ -5,14 +5,14 @@ VALUES (0x72896001,  1154, 0x28960015, 57.87317, 101.2209, 72.18039, 0.9498402, 
 /* @teleloc 0x28960015 [57.873170 101.220900 72.180390] 0.949840 0.000000 0.000000 -0.312736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72896001, 0x72896002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72896001, 0x72896003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72896001, 0x72896004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72896001, 0x72896005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72896001, 0x72896006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72896001, 0x72896007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72896001, 0x72896008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72896001, 0x72896009, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x72896001, 0x72896002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72896001, 0x72896003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72896001, 0x72896004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72896001, 0x72896005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72896001, 0x72896006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72896001, 0x72896007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72896001, 0x72896008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72896001, 0x72896009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72896002, 23563, 0x28960015, 57.87317, 101.2209, 72.18039, 0.9498402, 0, 0, -0.3127357,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

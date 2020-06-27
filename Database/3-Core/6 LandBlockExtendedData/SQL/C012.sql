@@ -5,29 +5,29 @@ VALUES (0x7C012001,  1154, 0xC012000B, 27.48537, 58.6391, -0.1481122, 0.8932484,
 /* @teleloc 0xC012000B [27.485370 58.639100 -0.148112] 0.893248 0.000000 0.000000 -0.449564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C012001, 0x7C012002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C012001, 0x7C012003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C012001, 0x7C012004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C012001, 0x7C012005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C012001, 0x7C012006, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7C012001, 0x7C012007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C012001, 0x7C012008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C012001, 0x7C012009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C01200A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C01200B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C01200C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C012001, 0x7C01200D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C012001, 0x7C01200E, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C012001, 0x7C01200F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C012010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C012001, 0x7C012011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C012012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C012001, 0x7C012013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C012001, 0x7C012014, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C012001, 0x7C012015, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C012001, 0x7C012016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C012001, 0x7C012017, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C012001, 0x7C012018, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7C012001, 0x7C012002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C012001, 0x7C012003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C012001, 0x7C012004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C012001, 0x7C012005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C012001, 0x7C012006, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7C012001, 0x7C012007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C012001, 0x7C012008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C012001, 0x7C012009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C01200A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C01200B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C01200C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C012001, 0x7C01200D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C012001, 0x7C01200E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C012001, 0x7C01200F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C012010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C012001, 0x7C012011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C012012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C012001, 0x7C012013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C012001, 0x7C012014, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C012001, 0x7C012015, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C012001, 0x7C012016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C012001, 0x7C012017, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C012001, 0x7C012018, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C012002,  7183, 0xC012000B, 27.48537, 58.6391, -0.1481122, 0.8932484, 0, 0, -0.4495635,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -126,7 +126,7 @@ VALUES (0x7C012019,  1542, 0xC0120005, 22.98563, 117.8134, 13.00437, -0.9527419,
 /* @teleloc 0xC0120005 [22.985630 117.813400 13.004370] -0.952742 0.000000 0.000000 -0.303781 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C012019, 0x7C01201A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C012019, 0x7C01201A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C01201A,  8646, 0xC0120005, 22.98563, 117.8134, 13.00437, -0.9527419, 0, 0, -0.303781,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

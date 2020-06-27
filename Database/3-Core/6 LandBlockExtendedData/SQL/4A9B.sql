@@ -5,15 +5,15 @@ VALUES (0x74A9B001,  1154, 0x4A9B0013, 58.29186, 52.67496, 63.14885, 0.994829, 0
 /* @teleloc 0x4A9B0013 [58.291860 52.674960 63.148850] 0.994829 0.000000 0.000000 -0.101564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A9B001, 0x74A9B002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x74A9B001, 0x74A9B003, '2019-02-10 00:00:00') /* Static */
-     , (0x74A9B001, 0x74A9B004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74A9B001, 0x74A9B005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74A9B001, 0x74A9B006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74A9B001, 0x74A9B007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74A9B001, 0x74A9B008, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x74A9B001, 0x74A9B009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74A9B001, 0x74A9B00A, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x74A9B001, 0x74A9B002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x74A9B001, 0x74A9B003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x74A9B001, 0x74A9B004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74A9B001, 0x74A9B005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74A9B001, 0x74A9B006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74A9B001, 0x74A9B007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74A9B001, 0x74A9B008, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x74A9B001, 0x74A9B009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74A9B001, 0x74A9B00A, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A9B002,  6380, 0x4A9B0013, 58.29186, 52.67496, 63.14885, 0.994829, 0, 0, -0.1015644,  True, '2019-02-10 00:00:00'); /* Scintilla */

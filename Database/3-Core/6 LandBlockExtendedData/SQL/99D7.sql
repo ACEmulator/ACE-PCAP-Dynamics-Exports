@@ -5,10 +5,10 @@ VALUES (0x799D7001,  1154, 0x99D7000C, 37.08806, 78.67844, 96.75278, -0.8709534,
 /* @teleloc 0x99D7000C [37.088060 78.678440 96.752780] -0.870953 0.000000 0.000000 -0.491366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799D7001, 0x799D7002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799D7001, 0x799D7003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x799D7001, 0x799D7004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x799D7001, 0x799D7005, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x799D7001, 0x799D7002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799D7001, 0x799D7003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x799D7001, 0x799D7004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x799D7001, 0x799D7005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799D7002, 24293, 0x99D7000C, 37.08806, 78.67844, 96.75278, -0.8709534, 0, 0, -0.4913656,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

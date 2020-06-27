@@ -5,11 +5,11 @@ VALUES (0x7966F001,  1154, 0x966F0039, 173.2244, 9.408015, 60.0084, 0.7660445, 0
 /* @teleloc 0x966F0039 [173.224400 9.408015 60.008400] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7966F001, 0x7966F002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7966F001, 0x7966F003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7966F001, 0x7966F004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7966F001, 0x7966F005, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7966F001, 0x7966F006, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7966F001, 0x7966F002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7966F001, 0x7966F003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7966F001, 0x7966F004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7966F001, 0x7966F005, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7966F001, 0x7966F006, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7966F002,  1766, 0x966F0039, 173.2244, 9.408015, 60.0084, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

@@ -5,9 +5,9 @@ VALUES (0x79DB1001,  1154, 0x9DB1003C, 177.9182, 86.0965, 92.71138, -0.8063138, 
 /* @teleloc 0x9DB1003C [177.918200 86.096500 92.711380] -0.806314 0.000000 0.000000 -0.591488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DB1001, 0x79DB1002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79DB1001, 0x79DB1003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79DB1001, 0x79DB1004, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79DB1001, 0x79DB1002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79DB1001, 0x79DB1003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79DB1001, 0x79DB1004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DB1002,  7128, 0x9DB1003C, 177.9182, 86.0965, 92.71138, -0.8063138, 0, 0, -0.591488,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -26,7 +26,7 @@ VALUES (0x79DB1005,  1542, 0x9DB1002F, 135.9841, 162.7543, 106.2419, 0.4400518, 
 /* @teleloc 0x9DB1002F [135.984100 162.754300 106.241900] 0.440052 0.000000 0.000000 -0.897972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DB1005, 0x79DB1006, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x79DB1005, 0x79DB1006, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DB1006, 31686, 0x9DB1002F, 135.9841, 162.7543, 106.2419, 0.4400518, 0, 0, -0.8979724,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

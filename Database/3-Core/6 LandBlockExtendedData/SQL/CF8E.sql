@@ -5,16 +5,16 @@ VALUES (0x7CF8E001,  1154, 0xCF8E001E, 79.48114, 140.8515, 39.1252, 0.9961947, 0
 /* @teleloc 0xCF8E001E [79.481140 140.851500 39.125200] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF8E001, 0x7CF8E002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7CF8E001, 0x7CF8E003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7CF8E001, 0x7CF8E004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7CF8E001, 0x7CF8E005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CF8E001, 0x7CF8E006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CF8E001, 0x7CF8E007, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7CF8E001, 0x7CF8E008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF8E001, 0x7CF8E009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CF8E001, 0x7CF8E00A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CF8E001, 0x7CF8E00B, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7CF8E001, 0x7CF8E002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7CF8E001, 0x7CF8E003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7CF8E001, 0x7CF8E004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7CF8E001, 0x7CF8E005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CF8E001, 0x7CF8E006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CF8E001, 0x7CF8E007, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7CF8E001, 0x7CF8E008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF8E001, 0x7CF8E009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CF8E001, 0x7CF8E00A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CF8E001, 0x7CF8E00B, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF8E002,  1629, 0xCF8E001E, 79.48114, 140.8515, 39.1252, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

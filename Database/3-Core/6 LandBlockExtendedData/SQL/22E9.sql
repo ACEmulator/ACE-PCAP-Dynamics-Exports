@@ -5,17 +5,17 @@ VALUES (0x722E9001,  1154, 0x22E90001, 11.43668, 13.2488, 1.991, 0.2939676, 0, 0
 /* @teleloc 0x22E90001 [11.436680 13.248800 1.991000] 0.293968 0.000000 0.000000 -0.955815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E9001, 0x722E9002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x722E9001, 0x722E9003, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x722E9001, 0x722E9004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x722E9001, 0x722E9005, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722E9001, 0x722E9006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x722E9001, 0x722E9007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x722E9001, 0x722E9008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x722E9001, 0x722E9009, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x722E9001, 0x722E900A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x722E9001, 0x722E900B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x722E9001, 0x722E900C, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x722E9001, 0x722E9002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x722E9001, 0x722E9003, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x722E9001, 0x722E9004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x722E9001, 0x722E9005, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E9001, 0x722E9006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x722E9001, 0x722E9007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x722E9001, 0x722E9008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x722E9001, 0x722E9009, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x722E9001, 0x722E900A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x722E9001, 0x722E900B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x722E9001, 0x722E900C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E9002,  9252, 0x22E90001, 11.43668, 13.2488, 1.991, 0.2939676, 0, 0, -0.9558154,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

@@ -5,9 +5,9 @@ VALUES (0x73213001,  1154, 0x32130010, 43.15385, 170.3752, 14.80822, -0.7961397,
 /* @teleloc 0x32130010 [43.153850 170.375200 14.808220] -0.796140 0.000000 0.000000 -0.605113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73213001, 0x73213002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73213001, 0x73213003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73213001, 0x73213004, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x73213001, 0x73213002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73213001, 0x73213003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73213001, 0x73213004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73213002,  7092, 0x32130010, 43.15385, 170.3752, 14.80822, -0.7961397, 0, 0, -0.605113,  True, '2019-02-10 00:00:00'); /* Firestorm */

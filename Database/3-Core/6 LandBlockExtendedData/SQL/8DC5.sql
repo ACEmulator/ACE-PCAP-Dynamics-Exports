@@ -5,13 +5,13 @@ VALUES (0x78DC5001,  1154, 0x8DC5003B, 183.7317, 66.5399, 60.41096, -0.1065218, 
 /* @teleloc 0x8DC5003B [183.731700 66.539900 60.410960] -0.106522 0.000000 0.000000 -0.994310 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DC5001, 0x78DC5002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78DC5001, 0x78DC5003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78DC5001, 0x78DC5004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DC5001, 0x78DC5005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DC5001, 0x78DC5006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC5001, 0x78DC5007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC5001, 0x78DC5008, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x78DC5001, 0x78DC5002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78DC5001, 0x78DC5003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78DC5001, 0x78DC5004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DC5001, 0x78DC5005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DC5001, 0x78DC5006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC5001, 0x78DC5007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC5001, 0x78DC5008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DC5002, 14800, 0x8DC5003B, 183.7317, 66.5399, 60.41096, -0.1065218, 0, 0, -0.9943104,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -46,7 +46,7 @@ VALUES (0x78DC5009,  1542, 0x8DC50013, 63.83112, 57.16108, 64.82533, 0.9537169, 
 /* @teleloc 0x8DC50013 [63.831120 57.161080 64.825330] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DC5009, 0x78DC500A, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x78DC5009, 0x78DC500A, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DC500A,  8389, 0x8DC50013, 63.83112, 57.16108, 64.82533, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */

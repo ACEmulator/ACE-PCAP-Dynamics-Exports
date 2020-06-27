@@ -5,13 +5,13 @@ VALUES (0x71534001,  1154, 0x1534000C, 46.75595, 83.76453, 0.1326704, 0.7228924,
 /* @teleloc 0x1534000C [46.755950 83.764530 0.132670] 0.722892 0.000000 0.000000 -0.690961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71534001, 0x71534002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71534001, 0x71534003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71534001, 0x71534004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71534001, 0x71534005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71534001, 0x71534006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71534001, 0x71534007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71534001, 0x71534008, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71534001, 0x71534002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71534001, 0x71534003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71534001, 0x71534004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71534001, 0x71534005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71534001, 0x71534006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71534001, 0x71534007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71534001, 0x71534008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71534002, 23489, 0x1534000C, 46.75595, 83.76453, 0.1326704, 0.7228924, 0, 0, -0.6909606,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

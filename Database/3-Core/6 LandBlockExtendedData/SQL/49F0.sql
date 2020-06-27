@@ -61,7 +61,7 @@ VALUES (0x749F001A,  1154, 0x49F00039, 188.5516, 6.343548, 24.42632, 0.92852, 0,
 /* @teleloc 0x49F00039 [188.551600 6.343548 24.426320] 0.928520 0.000000 0.000000 -0.371283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F001A, 0x749F001B, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x749F001A, 0x749F001B, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F001B,  7125, 0x49F00039, 188.5516, 6.343548, 24.42632, 0.92852, 0, 0, -0.3712825,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -72,16 +72,16 @@ VALUES (0x749F001C,  1154, 0x49F00022, 102.992, 31.3927, 178.805, 0.199165, 0, 0
 /* @teleloc 0x49F00022 [102.992000 31.392700 178.805000] 0.199165 0.000000 0.000000 0.979966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F001C, 0x749F001D, '2019-02-10 00:00:00') /* Marcello */
-     , (0x749F001C, 0x749F001E, '2019-02-10 00:00:00') /* Claire Artmad */
-     , (0x749F001C, 0x749F001F, '2019-02-10 00:00:00') /* Ruqaya al Mubarak */
-     , (0x749F001C, 0x749F0020, '2019-02-10 00:00:00') /* Orfeo Orlando */
-     , (0x749F001C, 0x749F0021, '2019-02-10 00:00:00') /* Xun Yu */
-     , (0x749F001C, 0x749F0022, '2019-02-10 00:00:00') /* Taku Yukio */
-     , (0x749F001C, 0x749F0023, '2019-02-10 00:00:00') /* Ricardo */
-     , (0x749F001C, 0x749F0024, '2019-02-10 00:00:00') /* Moina */
-     , (0x749F001C, 0x749F0025, '2019-02-10 00:00:00') /* Ryuichi Tai */
-     , (0x749F001C, 0x749F0026, '2019-02-10 00:00:00') /* Francisco the Hunter */;
+VALUES (0x749F001C, 0x749F001D, '2019-02-10 00:00:00') /* Marcello (31654) */
+     , (0x749F001C, 0x749F001E, '2019-02-10 00:00:00') /* Claire Artmad (31650) */
+     , (0x749F001C, 0x749F001F, '2019-02-10 00:00:00') /* Ruqaya al Mubarak (31658) */
+     , (0x749F001C, 0x749F0020, '2019-02-10 00:00:00') /* Orfeo Orlando (31653) */
+     , (0x749F001C, 0x749F0021, '2019-02-10 00:00:00') /* Xun Yu (31646) */
+     , (0x749F001C, 0x749F0022, '2019-02-10 00:00:00') /* Taku Yukio (31657) */
+     , (0x749F001C, 0x749F0023, '2019-02-10 00:00:00') /* Ricardo (31316) */
+     , (0x749F001C, 0x749F0024, '2019-02-10 00:00:00') /* Moina (31647) */
+     , (0x749F001C, 0x749F0025, '2019-02-10 00:00:00') /* Ryuichi Tai (31656) */
+     , (0x749F001C, 0x749F0026, '2019-02-10 00:00:00') /* Francisco the Hunter (37441) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F001D, 31654, 0x49F00022, 102.992, 31.3927, 178.805, 0.199165, 0, 0, 0.979966,  True, '2019-02-10 00:00:00'); /* Marcello */
@@ -128,7 +128,7 @@ VALUES (0x749F0027,  1542, 0x49F00022, 99.99857, 39.26427, 179.305, -0.9725732, 
 /* @teleloc 0x49F00022 [99.998570 39.264270 179.305000] -0.972573 0.000000 0.000000 -0.232597 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F0027, 0x749F0028, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x749F0027, 0x749F0028, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F0028,  1955, 0x49F00022, 99.99857, 39.26427, 179.305, -0.9725732, 0, 0, -0.2325972,  True, '2019-02-10 00:00:00'); /* Gateway */

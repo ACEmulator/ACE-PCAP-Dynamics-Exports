@@ -5,12 +5,12 @@ VALUES (0x7B70D001,  1154, 0xB70D0032, 153.0631, 27.5188, -0.12175, 0.9576259, 0
 /* @teleloc 0xB70D0032 [153.063100 27.518800 -0.121750] 0.957626 0.000000 0.000000 -0.288015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B70D001, 0x7B70D002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B70D001, 0x7B70D003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B70D001, 0x7B70D004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B70D001, 0x7B70D005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B70D001, 0x7B70D006, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7B70D001, 0x7B70D007, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7B70D001, 0x7B70D002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B70D001, 0x7B70D003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B70D001, 0x7B70D004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B70D001, 0x7B70D005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B70D001, 0x7B70D006, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7B70D001, 0x7B70D007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B70D002,  4255, 0xB70D0032, 153.0631, 27.5188, -0.12175, 0.9576259, 0, 0, -0.2880151,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

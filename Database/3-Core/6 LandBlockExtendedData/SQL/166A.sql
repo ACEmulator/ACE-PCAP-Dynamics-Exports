@@ -5,10 +5,10 @@ VALUES (0x7166A001,  1154, 0x166A0019, 89.85248, 4.638513, 77.23244, 0.1736482, 
 /* @teleloc 0x166A0019 [89.852480 4.638513 77.232440] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166A001, 0x7166A002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7166A001, 0x7166A003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7166A001, 0x7166A004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7166A001, 0x7166A005, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7166A001, 0x7166A002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7166A001, 0x7166A003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7166A001, 0x7166A004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7166A001, 0x7166A005, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166A002, 36832, 0x166A0019, 89.85248, 4.638513, 77.23244, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */

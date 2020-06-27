@@ -509,7 +509,7 @@ VALUES (0x73FB407F,  1154, 0x3FB4002A, 124.0041, 24.53187, 0.007499993, -0.81738
 /* @teleloc 0x3FB4002A [124.004100 24.531870 0.007500] -0.817390 0.000000 0.000000 -0.576085 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB407F, 0x73FB4080, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x73FB407F, 0x73FB4080, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB4080,  7123, 0x3FB4002A, 124.0041, 24.53187, 0.007499993, -0.8173896, 0, 0, -0.5760853,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -520,138 +520,138 @@ VALUES (0x73FB4081,  1542, 0x3FB4000A, 32.01199, 38.33027, -0.03749999, -0.39154
 /* @teleloc 0x3FB4000A [32.011990 38.330270 -0.037500] -0.391548 0.000000 0.000000 -0.920158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB4081, 0x73FB4082, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x73FB4081, 0x73FB4083, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x73FB4081, 0x73FB4084, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB4085, '2019-02-10 00:00:00') /* Lugian Pick Axe */
-     , (0x73FB4081, 0x73FB4086, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x73FB4081, 0x73FB4087, '2019-02-10 00:00:00') /* Leather Girth */
-     , (0x73FB4081, 0x73FB4088, '2019-02-10 00:00:00') /* Diforsa Sollerets */
-     , (0x73FB4081, 0x73FB4089, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x73FB4081, 0x73FB408A, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB408B, '2019-02-10 00:00:00') /* Long Leather Gauntlets */
-     , (0x73FB4081, 0x73FB408C, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB408D, '2019-02-10 00:00:00') /* Shoes */
-     , (0x73FB4081, 0x73FB408E, '2019-02-10 00:00:00') /* Scalemail Gauntlets */
-     , (0x73FB4081, 0x73FB408F, '2019-02-10 00:00:00') /* Yoroi Greaves */
-     , (0x73FB4081, 0x73FB4090, '2019-02-10 00:00:00') /* Studded Leather Girth */
-     , (0x73FB4081, 0x73FB4091, '2019-02-10 00:00:00') /* Kasa */
-     , (0x73FB4081, 0x73FB4092, '2019-02-10 00:00:00') /* Nariyid Breastplate */
-     , (0x73FB4081, 0x73FB4093, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB4094, '2019-02-10 00:00:00') /* Haebrean Greaves */
-     , (0x73FB4081, 0x73FB4095, '2019-02-10 00:00:00') /* Yoroi Pauldrons */
-     , (0x73FB4081, 0x73FB4096, '2019-02-10 00:00:00') /* Crown */
-     , (0x73FB4081, 0x73FB4097, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x73FB4081, 0x73FB4098, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x73FB4081, 0x73FB4099, '2019-02-10 00:00:00') /* Studded Leather Tassets */
-     , (0x73FB4081, 0x73FB409A, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x73FB4081, 0x73FB409B, '2019-02-10 00:00:00') /* Studded Leather Tassets */
-     , (0x73FB4081, 0x73FB409C, '2019-02-10 00:00:00') /* Signet Crown */
-     , (0x73FB4081, 0x73FB409D, '2019-02-10 00:00:00') /* Gorget */
-     , (0x73FB4081, 0x73FB409E, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x73FB4081, 0x73FB409F, '2019-02-10 00:00:00') /* Pants */
-     , (0x73FB4081, 0x73FB40A0, '2019-02-10 00:00:00') /* Sandals */
-     , (0x73FB4081, 0x73FB40A1, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB40A2, '2019-02-10 00:00:00') /* Haebrean Breastplate */
-     , (0x73FB4081, 0x73FB40A3, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x73FB4081, 0x73FB40A4, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x73FB4081, 0x73FB40A5, '2019-02-10 00:00:00') /* Covenant Gauntlets */
-     , (0x73FB4081, 0x73FB40A6, '2019-02-10 00:00:00') /* Studded Leather Basinet */
-     , (0x73FB4081, 0x73FB40A7, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets */
-     , (0x73FB4081, 0x73FB40A8, '2019-02-10 00:00:00') /* Scalemail Coif */
-     , (0x73FB4081, 0x73FB40A9, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AC, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AD, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40AF, '2019-02-10 00:00:00') /* Salvage (95) */
-     , (0x73FB4081, 0x73FB40B0, '2019-02-10 00:00:00') /* Salvage (82) */
-     , (0x73FB4081, 0x73FB40B1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40B2, '2019-02-10 00:00:00') /* Intricate Carving Tool */
-     , (0x73FB4081, 0x73FB40B3, '2019-02-10 00:00:00') /* Knuckles */
-     , (0x73FB4081, 0x73FB40B4, '2019-02-10 00:00:00') /* Olthoi Shield */
-     , (0x73FB4081, 0x73FB40B5, '2019-02-10 00:00:00') /* Shirt */
-     , (0x73FB4081, 0x73FB40B6, '2019-02-10 00:00:00') /* Flared Shirt */
-     , (0x73FB4081, 0x73FB40B7, '2019-02-10 00:00:00') /* Viamontian Pants */
-     , (0x73FB4081, 0x73FB40B8, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x73FB4081, 0x73FB40B9, '2019-02-10 00:00:00') /* Necklace */
-     , (0x73FB4081, 0x73FB40BA, '2019-02-10 00:00:00') /* Shoes */
-     , (0x73FB4081, 0x73FB40BB, '2019-02-10 00:00:00') /* Diforsa Sollerets */
-     , (0x73FB4081, 0x73FB40BC, '2019-02-10 00:00:00') /* Baggy Pants */
-     , (0x73FB4081, 0x73FB40BD, '2019-02-10 00:00:00') /* Ring */
-     , (0x73FB4081, 0x73FB40BE, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x73FB4081, 0x73FB40BF, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x73FB4081, 0x73FB40C0, '2019-02-10 00:00:00') /* Ring */
-     , (0x73FB4081, 0x73FB40C1, '2019-02-10 00:00:00') /* Bandana */
-     , (0x73FB4081, 0x73FB40C2, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB40C3, '2019-02-10 00:00:00') /* Staff */
-     , (0x73FB4081, 0x73FB40C4, '2019-02-10 00:00:00') /* Brewmaster's Bible */
-     , (0x73FB4081, 0x73FB40C5, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x73FB4081, 0x73FB40C6, '2019-02-10 00:00:00') /* Long Leather Gauntlets */
-     , (0x73FB4081, 0x73FB40C7, '2019-02-10 00:00:00') /* Olthoi Tassets */
-     , (0x73FB4081, 0x73FB40C8, '2019-02-10 00:00:00') /* Smock */
-     , (0x73FB4081, 0x73FB40C9, '2019-02-10 00:00:00') /* Baggy Shirt */
-     , (0x73FB4081, 0x73FB40CA, '2019-02-10 00:00:00') /* Studded Leather Greaves */
-     , (0x73FB4081, 0x73FB40CB, '2019-02-10 00:00:00') /* Leather Jerkin */
-     , (0x73FB4081, 0x73FB40CC, '2019-02-10 00:00:00') /* Lightning Hammer */
-     , (0x73FB4081, 0x73FB40CD, '2019-02-10 00:00:00') /* Stick */
-     , (0x73FB4081, 0x73FB40CE, '2019-02-10 00:00:00') /* Ultimate Singularity Crossbow */
-     , (0x73FB4081, 0x73FB40CF, '2019-02-10 00:00:00') /* Shoes */
-     , (0x73FB4081, 0x73FB40D0, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x73FB4081, 0x73FB40D1, '2019-02-10 00:00:00') /* Olthoi Gauntlets */
-     , (0x73FB4081, 0x73FB40D2, '2019-02-10 00:00:00') /* Shirt */
-     , (0x73FB4081, 0x73FB40D3, '2019-02-10 00:00:00') /* Alduressa Gauntlets */
-     , (0x73FB4081, 0x73FB40D4, '2019-02-10 00:00:00') /* Silver Pea */
-     , (0x73FB4081, 0x73FB40D5, '2019-02-10 00:00:00') /* Lightning Epee */
-     , (0x73FB4081, 0x73FB40D6, '2019-02-10 00:00:00') /* Flaming Hammer */
-     , (0x73FB4081, 0x73FB40D7, '2019-02-10 00:00:00') /* Kasrullah */
-     , (0x73FB4081, 0x73FB40D8, '2019-02-10 00:00:00') /* Covenant Gauntlets */
-     , (0x73FB4081, 0x73FB40D9, '2019-02-10 00:00:00') /* Acid Knife */
-     , (0x73FB4081, 0x73FB40DA, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x73FB4081, 0x73FB40DB, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x73FB4081, 0x73FB40DC, '2019-02-10 00:00:00') /* Black Stone */
-     , (0x73FB4081, 0x73FB40DD, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x73FB4081, 0x73FB40DE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40DF, '2019-02-10 00:00:00') /* Frost Khanjar */
-     , (0x73FB4081, 0x73FB40E0, '2019-02-10 00:00:00') /* Gloves */
-     , (0x73FB4081, 0x73FB40E1, '2019-02-10 00:00:00') /* Fez */
-     , (0x73FB4081, 0x73FB40E2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40E3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40E4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB40E5, '2019-02-10 00:00:00') /* Smock */
-     , (0x73FB4081, 0x73FB40E6, '2019-02-10 00:00:00') /* Flaming Morning Star */
-     , (0x73FB4081, 0x73FB40E7, '2019-02-10 00:00:00') /* Lancet */
-     , (0x73FB4081, 0x73FB40E8, '2019-02-10 00:00:00') /* Salvage (87) */
-     , (0x73FB4081, 0x73FB40E9, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x73FB4081, 0x73FB40EA, '2019-02-10 00:00:00') /* Insidious Monouga Idol */
-     , (0x73FB4081, 0x73FB40EB, '2019-02-10 00:00:00') /* Unframed map of Dereth */
-     , (0x73FB4081, 0x73FB40EC, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction */
-     , (0x73FB4081, 0x73FB40ED, '2019-02-10 00:00:00') /* Entryway Key */
-     , (0x73FB4081, 0x73FB40EE, '2019-02-10 00:00:00') /* Beautiful key */
-     , (0x73FB4081, 0x73FB40EF, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x73FB4081, 0x73FB40F0, '2019-02-10 00:00:00') /* Olthoi Alduressa Boots */
-     , (0x73FB4081, 0x73FB40F1, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x73FB4081, 0x73FB40F2, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x73FB4081, 0x73FB40F3, '2019-02-10 00:00:00') /* Ring */
-     , (0x73FB4081, 0x73FB40F4, '2019-02-10 00:00:00') /* Koujia Breastplate */
-     , (0x73FB4081, 0x73FB40F5, '2019-02-10 00:00:00') /* Vitriol */
-     , (0x73FB4081, 0x73FB40F6, '2019-02-10 00:00:00') /* Door Key */
-     , (0x73FB4081, 0x73FB40F7, '2019-02-10 00:00:00') /* Thief of Dreams Message Shard */
-     , (0x73FB4081, 0x73FB40F8, '2019-02-10 00:00:00') /* Sdolin Buk! */
-     , (0x73FB4081, 0x73FB40F9, '2019-02-10 00:00:00') /* Note from Wardley */
-     , (0x73FB4081, 0x73FB40FA, '2019-02-10 00:00:00') /* Flying Machine Instructions */
-     , (0x73FB4081, 0x73FB40FB, '2019-02-10 00:00:00') /* Pack */
-     , (0x73FB4081, 0x73FB40FC, '2019-02-10 00:00:00') /* Suikan War Master Robe */
-     , (0x73FB4081, 0x73FB40FD, '2019-02-10 00:00:00') /* Suikan Life Master Robe */
-     , (0x73FB4081, 0x73FB40FE, '2019-02-10 00:00:00') /* Suikan Creature Master Robe */
-     , (0x73FB4081, 0x73FB40FF, '2019-02-10 00:00:00') /* Suikan Item Master Robe */
-     , (0x73FB4081, 0x73FB4100, '2019-02-10 00:00:00') /* Teardrop Crown */
-     , (0x73FB4081, 0x73FB4101, '2019-02-10 00:00:00') /* Shoes */
-     , (0x73FB4081, 0x73FB4102, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB4103, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73FB4081, 0x73FB4104, '2019-02-10 00:00:00') /* Puffy Shirt */
-     , (0x73FB4081, 0x73FB4105, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x73FB4081, 0x73FB4082, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x73FB4081, 0x73FB4083, '2019-02-10 00:00:00') /* Chevron Cloak (44851) */
+     , (0x73FB4081, 0x73FB4084, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB4085, '2019-02-10 00:00:00') /* Lugian Pick Axe (7549) */
+     , (0x73FB4081, 0x73FB4086, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x73FB4081, 0x73FB4087, '2019-02-10 00:00:00') /* Leather Girth (25643) */
+     , (0x73FB4081, 0x73FB4088, '2019-02-10 00:00:00') /* Diforsa Sollerets (28625) */
+     , (0x73FB4081, 0x73FB4089, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x73FB4081, 0x73FB408A, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB408B, '2019-02-10 00:00:00') /* Long Leather Gauntlets (25646) */
+     , (0x73FB4081, 0x73FB408C, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB408D, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x73FB4081, 0x73FB408E, '2019-02-10 00:00:00') /* Scalemail Gauntlets (58) */
+     , (0x73FB4081, 0x73FB408F, '2019-02-10 00:00:00') /* Yoroi Greaves (69) */
+     , (0x73FB4081, 0x73FB4090, '2019-02-10 00:00:00') /* Studded Leather Girth (63) */
+     , (0x73FB4081, 0x73FB4091, '2019-02-10 00:00:00') /* Kasa (5901) */
+     , (0x73FB4081, 0x73FB4092, '2019-02-10 00:00:00') /* Nariyid Breastplate (27227) */
+     , (0x73FB4081, 0x73FB4093, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB4094, '2019-02-10 00:00:00') /* Haebrean Greaves (42752) */
+     , (0x73FB4081, 0x73FB4095, '2019-02-10 00:00:00') /* Yoroi Pauldrons (90) */
+     , (0x73FB4081, 0x73FB4096, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x73FB4081, 0x73FB4097, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x73FB4081, 0x73FB4098, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x73FB4081, 0x73FB4099, '2019-02-10 00:00:00') /* Studded Leather Tassets (112) */
+     , (0x73FB4081, 0x73FB409A, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x73FB4081, 0x73FB409B, '2019-02-10 00:00:00') /* Studded Leather Tassets (112) */
+     , (0x73FB4081, 0x73FB409C, '2019-02-10 00:00:00') /* Signet Crown (31868) */
+     , (0x73FB4081, 0x73FB409D, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x73FB4081, 0x73FB409E, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x73FB4081, 0x73FB409F, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x73FB4081, 0x73FB40A0, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x73FB4081, 0x73FB40A1, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB40A2, '2019-02-10 00:00:00') /* Haebrean Breastplate (42749) */
+     , (0x73FB4081, 0x73FB40A3, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x73FB4081, 0x73FB40A4, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x73FB4081, 0x73FB40A5, '2019-02-10 00:00:00') /* Covenant Gauntlets (40708) */
+     , (0x73FB4081, 0x73FB40A6, '2019-02-10 00:00:00') /* Studded Leather Basinet (554) */
+     , (0x73FB4081, 0x73FB40A7, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets (37187) */
+     , (0x73FB4081, 0x73FB40A8, '2019-02-10 00:00:00') /* Scalemail Coif (793) */
+     , (0x73FB4081, 0x73FB40A9, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AC, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AD, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40AF, '2019-02-10 00:00:00') /* Salvage (95) (21056) */
+     , (0x73FB4081, 0x73FB40B0, '2019-02-10 00:00:00') /* Salvage (82) (21069) */
+     , (0x73FB4081, 0x73FB40B1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40B2, '2019-02-10 00:00:00') /* Intricate Carving Tool (9295) */
+     , (0x73FB4081, 0x73FB40B3, '2019-02-10 00:00:00') /* Knuckles (30611) */
+     , (0x73FB4081, 0x73FB40B4, '2019-02-10 00:00:00') /* Olthoi Shield (37291) */
+     , (0x73FB4081, 0x73FB40B5, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x73FB4081, 0x73FB40B6, '2019-02-10 00:00:00') /* Flared Shirt (2588) */
+     , (0x73FB4081, 0x73FB40B7, '2019-02-10 00:00:00') /* Viamontian Pants (28606) */
+     , (0x73FB4081, 0x73FB40B8, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x73FB4081, 0x73FB40B9, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x73FB4081, 0x73FB40BA, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x73FB4081, 0x73FB40BB, '2019-02-10 00:00:00') /* Diforsa Sollerets (28625) */
+     , (0x73FB4081, 0x73FB40BC, '2019-02-10 00:00:00') /* Baggy Pants (2598) */
+     , (0x73FB4081, 0x73FB40BD, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x73FB4081, 0x73FB40BE, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x73FB4081, 0x73FB40BF, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x73FB4081, 0x73FB40C0, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x73FB4081, 0x73FB40C1, '2019-02-10 00:00:00') /* Bandana (28612) */
+     , (0x73FB4081, 0x73FB40C2, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB40C3, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x73FB4081, 0x73FB40C4, '2019-02-10 00:00:00') /* Brewmaster's Bible (28758) */
+     , (0x73FB4081, 0x73FB40C5, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x73FB4081, 0x73FB40C6, '2019-02-10 00:00:00') /* Long Leather Gauntlets (25646) */
+     , (0x73FB4081, 0x73FB40C7, '2019-02-10 00:00:00') /* Olthoi Tassets (37212) */
+     , (0x73FB4081, 0x73FB40C8, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x73FB4081, 0x73FB40C9, '2019-02-10 00:00:00') /* Baggy Shirt (2590) */
+     , (0x73FB4081, 0x73FB40CA, '2019-02-10 00:00:00') /* Studded Leather Greaves (68) */
+     , (0x73FB4081, 0x73FB40CB, '2019-02-10 00:00:00') /* Leather Jerkin (25639) */
+     , (0x73FB4081, 0x73FB40CC, '2019-02-10 00:00:00') /* Lightning Hammer (45115) */
+     , (0x73FB4081, 0x73FB40CD, '2019-02-10 00:00:00') /* Stick (31788) */
+     , (0x73FB4081, 0x73FB40CE, '2019-02-10 00:00:00') /* Ultimate Singularity Crossbow (29246) */
+     , (0x73FB4081, 0x73FB40CF, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x73FB4081, 0x73FB40D0, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x73FB4081, 0x73FB40D1, '2019-02-10 00:00:00') /* Olthoi Gauntlets (40685) */
+     , (0x73FB4081, 0x73FB40D2, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x73FB4081, 0x73FB40D3, '2019-02-10 00:00:00') /* Alduressa Gauntlets (30951) */
+     , (0x73FB4081, 0x73FB40D4, '2019-02-10 00:00:00') /* Silver Pea (8331) */
+     , (0x73FB4081, 0x73FB40D5, '2019-02-10 00:00:00') /* Lightning Epee (45101) */
+     , (0x73FB4081, 0x73FB40D6, '2019-02-10 00:00:00') /* Flaming Hammer (45116) */
+     , (0x73FB4081, 0x73FB40D7, '2019-02-10 00:00:00') /* Kasrullah (325) */
+     , (0x73FB4081, 0x73FB40D8, '2019-02-10 00:00:00') /* Covenant Gauntlets (40698) */
+     , (0x73FB4081, 0x73FB40D9, '2019-02-10 00:00:00') /* Acid Knife (45417) */
+     , (0x73FB4081, 0x73FB40DA, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (37201) */
+     , (0x73FB4081, 0x73FB40DB, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x73FB4081, 0x73FB40DC, '2019-02-10 00:00:00') /* Black Stone (3692) */
+     , (0x73FB4081, 0x73FB40DD, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x73FB4081, 0x73FB40DE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40DF, '2019-02-10 00:00:00') /* Frost Khanjar (45435) */
+     , (0x73FB4081, 0x73FB40E0, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x73FB4081, 0x73FB40E1, '2019-02-10 00:00:00') /* Fez (5894) */
+     , (0x73FB4081, 0x73FB40E2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40E3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40E4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB40E5, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x73FB4081, 0x73FB40E6, '2019-02-10 00:00:00') /* Flaming Morning Star (3937) */
+     , (0x73FB4081, 0x73FB40E7, '2019-02-10 00:00:00') /* Lancet (31794) */
+     , (0x73FB4081, 0x73FB40E8, '2019-02-10 00:00:00') /* Salvage (87) (21046) */
+     , (0x73FB4081, 0x73FB40E9, '2019-02-10 00:00:00') /* Salvage (100) (21072) */
+     , (0x73FB4081, 0x73FB40EA, '2019-02-10 00:00:00') /* Insidious Monouga Idol (24844) */
+     , (0x73FB4081, 0x73FB40EB, '2019-02-10 00:00:00') /* Unframed map of Dereth (20197) */
+     , (0x73FB4081, 0x73FB40EC, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */
+     , (0x73FB4081, 0x73FB40ED, '2019-02-10 00:00:00') /* Entryway Key (43519) */
+     , (0x73FB4081, 0x73FB40EE, '2019-02-10 00:00:00') /* Beautiful key (2218) */
+     , (0x73FB4081, 0x73FB40EF, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x73FB4081, 0x73FB40F0, '2019-02-10 00:00:00') /* Olthoi Alduressa Boots (37207) */
+     , (0x73FB4081, 0x73FB40F1, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x73FB4081, 0x73FB40F2, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x73FB4081, 0x73FB40F3, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x73FB4081, 0x73FB40F4, '2019-02-10 00:00:00') /* Koujia Breastplate (6003) */
+     , (0x73FB4081, 0x73FB40F5, '2019-02-10 00:00:00') /* Vitriol (764) */
+     , (0x73FB4081, 0x73FB40F6, '2019-02-10 00:00:00') /* Door Key (45024) */
+     , (0x73FB4081, 0x73FB40F7, '2019-02-10 00:00:00') /* Thief of Dreams Message Shard (36930) */
+     , (0x73FB4081, 0x73FB40F8, '2019-02-10 00:00:00') /* Sdolin Buk! (28757) */
+     , (0x73FB4081, 0x73FB40F9, '2019-02-10 00:00:00') /* Note from Wardley (44988) */
+     , (0x73FB4081, 0x73FB40FA, '2019-02-10 00:00:00') /* Flying Machine Instructions (30658) */
+     , (0x73FB4081, 0x73FB40FB, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x73FB4081, 0x73FB40FC, '2019-02-10 00:00:00') /* Suikan War Master Robe (5911) */
+     , (0x73FB4081, 0x73FB40FD, '2019-02-10 00:00:00') /* Suikan Life Master Robe (5908) */
+     , (0x73FB4081, 0x73FB40FE, '2019-02-10 00:00:00') /* Suikan Creature Master Robe (5917) */
+     , (0x73FB4081, 0x73FB40FF, '2019-02-10 00:00:00') /* Suikan Item Master Robe (5914) */
+     , (0x73FB4081, 0x73FB4100, '2019-02-10 00:00:00') /* Teardrop Crown (31864) */
+     , (0x73FB4081, 0x73FB4101, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x73FB4081, 0x73FB4102, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB4103, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73FB4081, 0x73FB4104, '2019-02-10 00:00:00') /* Puffy Shirt (2591) */
+     , (0x73FB4081, 0x73FB4105, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB4082,   116, 0x3FB4000A, 32.01199, 38.33027, -0.03749999, -0.3915483, 0, 0, -0.9201576,  True, '2019-02-10 00:00:00'); /* Studded Leather Boots */

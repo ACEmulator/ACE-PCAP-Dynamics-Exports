@@ -5,12 +5,12 @@ VALUES (0x7C878001,  1154, 0xC878000A, 29.78413, 40.54722, 7.390934, 0.4635313, 
 /* @teleloc 0xC878000A [29.784130 40.547220 7.390934] 0.463531 0.000000 0.000000 -0.886081 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C878001, 0x7C878002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C878001, 0x7C878003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C878001, 0x7C878004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C878001, 0x7C878005, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C878001, 0x7C878006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C878001, 0x7C878007, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7C878001, 0x7C878002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C878001, 0x7C878003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C878001, 0x7C878004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C878001, 0x7C878005, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C878001, 0x7C878006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C878001, 0x7C878007, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C878002,   216, 0xC878000A, 29.78413, 40.54722, 7.390934, 0.4635313, 0, 0, -0.8860806,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

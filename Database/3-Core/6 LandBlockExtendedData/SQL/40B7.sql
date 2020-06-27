@@ -5,19 +5,19 @@ VALUES (0x740B7001,  1154, 0x40B7003A, 169.9034, 31.50523, 40.58649, 0.7071068, 
 /* @teleloc 0x40B7003A [169.903400 31.505230 40.586490] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B7001, 0x740B7002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x740B7001, 0x740B7003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740B7001, 0x740B7004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740B7001, 0x740B7005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x740B7001, 0x740B7006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x740B7001, 0x740B7007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740B7001, 0x740B7008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x740B7001, 0x740B7009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B7001, 0x740B700A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x740B7001, 0x740B700B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x740B7001, 0x740B700C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740B7001, 0x740B700D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740B7001, 0x740B700E, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x740B7001, 0x740B7002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x740B7001, 0x740B7003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740B7001, 0x740B7004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740B7001, 0x740B7005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x740B7001, 0x740B7006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x740B7001, 0x740B7007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740B7001, 0x740B7008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x740B7001, 0x740B7009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B7001, 0x740B700A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x740B7001, 0x740B700B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x740B7001, 0x740B700C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740B7001, 0x740B700D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740B7001, 0x740B700E, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B7002,  4253, 0x40B7003A, 169.9034, 31.50523, 40.58649, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -76,7 +76,7 @@ VALUES (0x740B700F,  1542, 0x40B70039, 188.7608, 18.24557, 33.34966, 0.8390663, 
 /* @teleloc 0x40B70039 [188.760800 18.245570 33.349660] 0.839066 0.000000 0.000000 -0.544029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B700F, 0x740B7010, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x740B700F, 0x740B7010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B7010,  8041, 0x40B70039, 188.7608, 18.24557, 33.34966, 0.8390663, 0, 0, -0.5440292,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

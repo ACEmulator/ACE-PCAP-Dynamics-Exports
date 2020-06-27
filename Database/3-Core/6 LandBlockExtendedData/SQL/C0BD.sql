@@ -5,15 +5,15 @@ VALUES (0x7C0BD001,  1154, 0xC0BD002E, 122.0545, 124.6355, 160.7762, 0.7983394, 
 /* @teleloc 0xC0BD002E [122.054500 124.635500 160.776200] 0.798339 0.000000 0.000000 -0.602208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0BD001, 0x7C0BD002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C0BD001, 0x7C0BD003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0BD001, 0x7C0BD004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0BD001, 0x7C0BD005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C0BD001, 0x7C0BD006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C0BD001, 0x7C0BD007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C0BD001, 0x7C0BD008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0BD001, 0x7C0BD009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C0BD001, 0x7C0BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C0BD001, 0x7C0BD002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C0BD001, 0x7C0BD003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0BD001, 0x7C0BD004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0BD001, 0x7C0BD005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C0BD001, 0x7C0BD006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C0BD001, 0x7C0BD007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C0BD001, 0x7C0BD008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0BD001, 0x7C0BD009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C0BD001, 0x7C0BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0BD002, 24958, 0xC0BD002E, 122.0545, 124.6355, 160.7762, 0.7983394, 0, 0, -0.6022078,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

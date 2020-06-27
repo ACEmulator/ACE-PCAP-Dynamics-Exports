@@ -5,10 +5,10 @@ VALUES (0x79AE1001,  1154, 0x9AE1000E, 34.23806, 130.3335, 152.5786, 0.9734867, 
 /* @teleloc 0x9AE1000E [34.238060 130.333500 152.578600] 0.973487 0.000000 0.000000 -0.228744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AE1001, 0x79AE1002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x79AE1001, 0x79AE1003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AE1001, 0x79AE1004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AE1001, 0x79AE1005, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x79AE1001, 0x79AE1002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x79AE1001, 0x79AE1003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AE1001, 0x79AE1004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AE1001, 0x79AE1005, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AE1002, 22810, 0x9AE1000E, 34.23806, 130.3335, 152.5786, 0.9734867, 0, 0, -0.2287437,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */

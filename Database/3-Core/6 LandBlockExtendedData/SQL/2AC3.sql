@@ -5,13 +5,13 @@ VALUES (0x72AC3001,  1154, 0x2AC30035, 154.3475, 111.638, 19.55913, -0.5269167, 
 /* @teleloc 0x2AC30035 [154.347500 111.638000 19.559130] -0.526917 0.000000 0.000000 -0.849917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AC3001, 0x72AC3002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72AC3001, 0x72AC3003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x72AC3001, 0x72AC3004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72AC3001, 0x72AC3005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72AC3001, 0x72AC3006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72AC3001, 0x72AC3007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72AC3001, 0x72AC3008, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x72AC3001, 0x72AC3002, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72AC3001, 0x72AC3003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x72AC3001, 0x72AC3004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72AC3001, 0x72AC3005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72AC3001, 0x72AC3006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72AC3001, 0x72AC3007, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72AC3001, 0x72AC3008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AC3002,  8012, 0x2AC30035, 154.3475, 111.638, 19.55913, -0.5269167, 0, 0, -0.8499169,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

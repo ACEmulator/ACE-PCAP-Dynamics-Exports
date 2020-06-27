@@ -5,9 +5,9 @@ VALUES (0x74BC7001,  1154, 0x4BC70003, 17.50821, 57.54138, 10.78861, 0.7071068, 
 /* @teleloc 0x4BC70003 [17.508210 57.541380 10.788610] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BC7001, 0x74BC7002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74BC7001, 0x74BC7003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74BC7001, 0x74BC7004, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x74BC7001, 0x74BC7002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74BC7001, 0x74BC7003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74BC7001, 0x74BC7004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BC7002, 24287, 0x4BC70003, 17.50821, 57.54138, 10.78861, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

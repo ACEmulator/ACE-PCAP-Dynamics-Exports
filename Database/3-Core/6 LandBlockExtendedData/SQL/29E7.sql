@@ -5,15 +5,15 @@ VALUES (0x729E7001,  1154, 0x29E70010, 36.69672, 176.9989, 7.99459, 0.2910004, 0
 /* @teleloc 0x29E70010 [36.696720 176.998900 7.994590] 0.291000 0.000000 0.000000 -0.956723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729E7001, 0x729E7002, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729E7001, 0x729E7003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x729E7001, 0x729E7004, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x729E7001, 0x729E7005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x729E7001, 0x729E7006, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x729E7001, 0x729E7007, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729E7001, 0x729E7008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x729E7001, 0x729E7009, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x729E7001, 0x729E700A, '2019-02-10 00:00:00') /* Auroch Ravager */;
+VALUES (0x729E7001, 0x729E7002, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729E7001, 0x729E7003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x729E7001, 0x729E7004, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x729E7001, 0x729E7005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x729E7001, 0x729E7006, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x729E7001, 0x729E7007, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729E7001, 0x729E7008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x729E7001, 0x729E7009, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x729E7001, 0x729E700A, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729E7002, 28650, 0x29E70010, 36.69672, 176.9989, 7.99459, 0.2910004, 0, 0, -0.9567229,  True, '2019-02-10 00:00:00'); /* Demented Fiun */

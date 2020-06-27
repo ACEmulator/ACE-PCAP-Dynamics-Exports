@@ -5,16 +5,16 @@ VALUES (0x78DB3001,  1154, 0x8DB30019, 88.51891, 19.49445, 58.04459, 0.177149, 0
 /* @teleloc 0x8DB30019 [88.518910 19.494450 58.044590] 0.177149 0.000000 0.000000 -0.984184 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB3001, 0x78DB3002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DB3001, 0x78DB3003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB3001, 0x78DB3004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB3001, 0x78DB3005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB3001, 0x78DB3006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB3001, 0x78DB3007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB3001, 0x78DB3008, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78DB3001, 0x78DB3009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DB3001, 0x78DB300A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DB3001, 0x78DB300B, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x78DB3001, 0x78DB3002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DB3001, 0x78DB3003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB3001, 0x78DB3004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB3001, 0x78DB3005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB3001, 0x78DB3006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB3001, 0x78DB3007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB3001, 0x78DB3008, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78DB3001, 0x78DB3009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DB3001, 0x78DB300A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DB3001, 0x78DB300B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB3002, 22520, 0x8DB30019, 88.51891, 19.49445, 58.04459, 0.177149, 0, 0, -0.984184,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -61,12 +61,12 @@ VALUES (0x78DB300C,  1542, 0x8DB3000C, 25.65043, 78.38558, 70.58985, 1, 0, 0, 0,
 /* @teleloc 0x8DB3000C [25.650430 78.385580 70.589850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB300C, 0x78DB300D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x78DB300C, 0x78DB300E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78DB300C, 0x78DB300F, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x78DB300C, 0x78DB3010, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x78DB300C, 0x78DB3011, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x78DB300C, 0x78DB3012, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */;
+VALUES (0x78DB300C, 0x78DB300D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x78DB300C, 0x78DB300E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78DB300C, 0x78DB300F, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x78DB300C, 0x78DB3010, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x78DB300C, 0x78DB3011, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x78DB300C, 0x78DB3012, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB300D,  9024, 0x8DB3000C, 25.65043, 78.38558, 70.58985, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

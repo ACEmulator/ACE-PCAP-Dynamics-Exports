@@ -13,10 +13,10 @@ VALUES (0x7868C012,  1154, 0x868C0100, 182.336, 80.0924, 300.012, 0.210653, 0, 0
 /* @teleloc 0x868C0100 [182.336000 80.092400 300.012000] 0.210653 0.000000 0.000000 -0.977561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7868C012, 0x7868C013, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7868C012, 0x7868C014, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7868C012, 0x7868C015, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7868C012, 0x7868C016, '2019-02-10 00:00:00') /* Grizzled Monouga */;
+VALUES (0x7868C012, 0x7868C013, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7868C012, 0x7868C014, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7868C012, 0x7868C015, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7868C012, 0x7868C016, '2019-02-10 00:00:00') /* Grizzled Monouga (28555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7868C013,  7106, 0x868C0100, 182.336, 80.0924, 300.012, 0.210653, 0, 0, -0.977561,  True, '2019-02-10 00:00:00'); /* Sewer Rat */

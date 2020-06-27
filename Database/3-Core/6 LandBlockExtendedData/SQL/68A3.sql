@@ -5,19 +5,19 @@ VALUES (0x768A3001,  1154, 0x68A3001A, 92.10118, 31.61003, 46.6523, 0.9527069, 0
 /* @teleloc 0x68A3001A [92.101180 31.610030 46.652300] 0.952707 0.000000 0.000000 -0.303891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768A3001, 0x768A3002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x768A3001, 0x768A3003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x768A3001, 0x768A3004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x768A3001, 0x768A3005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x768A3001, 0x768A3006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x768A3001, 0x768A3007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x768A3001, 0x768A3008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x768A3001, 0x768A3009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x768A3001, 0x768A300A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x768A3001, 0x768A300B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x768A3001, 0x768A300C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x768A3001, 0x768A300D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x768A3001, 0x768A300E, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x768A3001, 0x768A3002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x768A3001, 0x768A3003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x768A3001, 0x768A3004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x768A3001, 0x768A3005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x768A3001, 0x768A3006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x768A3001, 0x768A3007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x768A3001, 0x768A3008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x768A3001, 0x768A3009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x768A3001, 0x768A300A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x768A3001, 0x768A300B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x768A3001, 0x768A300C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x768A3001, 0x768A300D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x768A3001, 0x768A300E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768A3002,  7121, 0x68A3001A, 92.10118, 31.61003, 46.6523, 0.9527069, 0, 0, -0.3038905,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -76,10 +76,10 @@ VALUES (0x768A300F,  1542, 0x68A30012, 51.98049, 44.08293, 57.65284, 0.9990482, 
 /* @teleloc 0x68A30012 [51.980490 44.082930 57.652840] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768A300F, 0x768A3010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x768A300F, 0x768A3011, '2019-02-10 00:00:00') /* Corpse */
-     , (0x768A300F, 0x768A3012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x768A300F, 0x768A3013, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x768A300F, 0x768A3010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x768A300F, 0x768A3011, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x768A300F, 0x768A3012, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x768A300F, 0x768A3013, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768A3010,  4179, 0x68A30012, 51.98049, 44.08293, 57.65284, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

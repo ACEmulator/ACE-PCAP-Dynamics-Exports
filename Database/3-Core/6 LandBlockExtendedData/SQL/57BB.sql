@@ -5,23 +5,23 @@ VALUES (0x757BB001,  1154, 0x57BB001D, 80.24712, 112.4254, 3.264949, 0.8367565, 
 /* @teleloc 0x57BB001D [80.247120 112.425400 3.264949] 0.836757 0.000000 0.000000 -0.547575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757BB001, 0x757BB002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x757BB001, 0x757BB003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x757BB001, 0x757BB004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x757BB001, 0x757BB005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x757BB001, 0x757BB006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x757BB001, 0x757BB007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x757BB001, 0x757BB008, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x757BB001, 0x757BB009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x757BB001, 0x757BB00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x757BB001, 0x757BB00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x757BB001, 0x757BB00C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x757BB001, 0x757BB00D, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x757BB001, 0x757BB00E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x757BB001, 0x757BB00F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x757BB001, 0x757BB010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x757BB001, 0x757BB011, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x757BB001, 0x757BB012, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x757BB001, 0x757BB002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x757BB001, 0x757BB003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x757BB001, 0x757BB004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x757BB001, 0x757BB005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x757BB001, 0x757BB006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x757BB001, 0x757BB007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x757BB001, 0x757BB008, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x757BB001, 0x757BB009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x757BB001, 0x757BB00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x757BB001, 0x757BB00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x757BB001, 0x757BB00C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x757BB001, 0x757BB00D, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x757BB001, 0x757BB00E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x757BB001, 0x757BB00F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x757BB001, 0x757BB010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x757BB001, 0x757BB011, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x757BB001, 0x757BB012, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757BB002,  4217, 0x57BB001D, 80.24712, 112.4254, 3.264949, 0.8367565, 0, 0, -0.5475752,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -96,7 +96,7 @@ VALUES (0x757BB013,  1542, 0x57BB000C, 27.06099, 83.20654, 11.74492, 0.9990482, 
 /* @teleloc 0x57BB000C [27.060990 83.206540 11.744920] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757BB013, 0x757BB014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x757BB013, 0x757BB014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757BB014,  4179, 0x57BB000C, 27.06099, 83.20654, 11.74492, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

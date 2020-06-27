@@ -5,28 +5,28 @@ VALUES (0x7D75C001,  1154, 0xD75C003F, 185.7026, 150.4984, 5.092501, -0.9380593,
 /* @teleloc 0xD75C003F [185.702600 150.498400 5.092501] -0.938059 0.000000 0.000000 -0.346475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D75C001, 0x7D75C002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D75C001, 0x7D75C003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D75C001, 0x7D75C004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75C001, 0x7D75C005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75C001, 0x7D75C006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75C001, 0x7D75C007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75C001, 0x7D75C008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75C001, 0x7D75C009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75C001, 0x7D75C00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D75C001, 0x7D75C00B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75C001, 0x7D75C00C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75C001, 0x7D75C00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D75C001, 0x7D75C00E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75C001, 0x7D75C00F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D75C001, 0x7D75C010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D75C001, 0x7D75C011, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D75C001, 0x7D75C012, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75C001, 0x7D75C013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75C001, 0x7D75C014, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75C001, 0x7D75C015, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7D75C001, 0x7D75C016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75C001, 0x7D75C017, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D75C001, 0x7D75C002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D75C001, 0x7D75C003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D75C001, 0x7D75C004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75C001, 0x7D75C005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75C001, 0x7D75C006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75C001, 0x7D75C007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75C001, 0x7D75C008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75C001, 0x7D75C009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75C001, 0x7D75C00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D75C001, 0x7D75C00B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75C001, 0x7D75C00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75C001, 0x7D75C00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D75C001, 0x7D75C00E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75C001, 0x7D75C00F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D75C001, 0x7D75C010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D75C001, 0x7D75C011, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D75C001, 0x7D75C012, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75C001, 0x7D75C013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75C001, 0x7D75C014, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75C001, 0x7D75C015, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7D75C001, 0x7D75C016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75C001, 0x7D75C017, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75C002,  2612, 0xD75C003F, 185.7026, 150.4984, 5.092501, -0.9380593, 0, 0, -0.3464748,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

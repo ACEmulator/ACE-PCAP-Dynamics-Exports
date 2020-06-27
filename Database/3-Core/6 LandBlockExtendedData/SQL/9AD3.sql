@@ -5,13 +5,13 @@ VALUES (0x79AD3001,  1154, 0x9AD30033, 147.4758, 59.721, 171.9486, 0.7071068, 0,
 /* @teleloc 0x9AD30033 [147.475800 59.721000 171.948600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD3001, 0x79AD3002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AD3001, 0x79AD3003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AD3001, 0x79AD3004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AD3001, 0x79AD3005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79AD3001, 0x79AD3006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AD3001, 0x79AD3007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AD3001, 0x79AD3008, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x79AD3001, 0x79AD3002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AD3001, 0x79AD3003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AD3001, 0x79AD3004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AD3001, 0x79AD3005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79AD3001, 0x79AD3006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AD3001, 0x79AD3007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AD3001, 0x79AD3008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD3002,  7088, 0x9AD30033, 147.4758, 59.721, 171.9486, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -46,8 +46,8 @@ VALUES (0x79AD3009,  1542, 0x9AD3002B, 143.5163, 58.51155, 171.9486, -4.371139E-
 /* @teleloc 0x9AD3002B [143.516300 58.511550 171.948600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD3009, 0x79AD300A, '2019-02-10 00:00:00') /* Bones */
-     , (0x79AD3009, 0x79AD300B, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x79AD3009, 0x79AD300A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79AD3009, 0x79AD300B, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD300A,  4380, 0x9AD3002B, 143.5163, 58.51155, 171.9486, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

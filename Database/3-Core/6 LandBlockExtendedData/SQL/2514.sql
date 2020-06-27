@@ -5,15 +5,15 @@ VALUES (0x72514001,  1154, 0x2514003B, 185.1683, 60.796, 8.029, -0.05437973, 0, 
 /* @teleloc 0x2514003B [185.168300 60.796000 8.029000] -0.054380 0.000000 0.000000 -0.998520 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72514001, 0x72514002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72514001, 0x72514003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72514001, 0x72514004, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72514001, 0x72514005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72514001, 0x72514006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72514001, 0x72514007, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72514001, 0x72514008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72514001, 0x72514009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72514001, 0x7251400A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x72514001, 0x72514002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x72514001, 0x72514003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72514001, 0x72514004, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72514001, 0x72514005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72514001, 0x72514006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72514001, 0x72514007, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72514001, 0x72514008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72514001, 0x72514009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72514001, 0x7251400A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72514002, 22914, 0x2514003B, 185.1683, 60.796, 8.029, -0.05437973, 0, 0, -0.9985203,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

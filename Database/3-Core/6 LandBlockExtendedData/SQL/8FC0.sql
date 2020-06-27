@@ -5,9 +5,9 @@ VALUES (0x78FC0001,  1154, 0x8FC00002, 18.61677, 28.21442, 122.556, -0.1198382, 
 /* @teleloc 0x8FC00002 [18.616770 28.214420 122.556000] -0.119838 0.000000 0.000000 -0.992793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FC0001, 0x78FC0002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78FC0001, 0x78FC0003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78FC0001, 0x78FC0004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x78FC0001, 0x78FC0002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78FC0001, 0x78FC0003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78FC0001, 0x78FC0004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FC0002, 11528, 0x8FC00002, 18.61677, 28.21442, 122.556, -0.1198382, 0, 0, -0.9927934,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

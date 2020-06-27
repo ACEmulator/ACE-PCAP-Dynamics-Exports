@@ -5,31 +5,31 @@ VALUES (0x7312E001,  1154, 0x312E0005, 21.0061, 96.52512, 15.7113, -0.1040243, 0
 /* @teleloc 0x312E0005 [21.006100 96.525120 15.711300] -0.104024 0.000000 0.000000 -0.994575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312E001, 0x7312E002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7312E001, 0x7312E003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7312E001, 0x7312E004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7312E001, 0x7312E005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7312E001, 0x7312E006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7312E001, 0x7312E007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7312E001, 0x7312E008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7312E001, 0x7312E009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7312E001, 0x7312E00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7312E001, 0x7312E00B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7312E001, 0x7312E00C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7312E001, 0x7312E00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7312E001, 0x7312E00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7312E001, 0x7312E00F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7312E001, 0x7312E010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7312E001, 0x7312E011, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7312E001, 0x7312E012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7312E001, 0x7312E013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7312E001, 0x7312E014, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7312E001, 0x7312E015, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7312E001, 0x7312E016, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7312E001, 0x7312E017, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7312E001, 0x7312E018, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7312E001, 0x7312E019, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7312E001, 0x7312E01A, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x7312E001, 0x7312E002, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7312E001, 0x7312E003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7312E001, 0x7312E004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7312E001, 0x7312E005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7312E001, 0x7312E006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7312E001, 0x7312E007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7312E001, 0x7312E008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7312E001, 0x7312E009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7312E001, 0x7312E00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7312E001, 0x7312E00B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7312E001, 0x7312E00C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7312E001, 0x7312E00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7312E001, 0x7312E00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7312E001, 0x7312E00F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7312E001, 0x7312E010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7312E001, 0x7312E011, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7312E001, 0x7312E012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7312E001, 0x7312E013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7312E001, 0x7312E014, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7312E001, 0x7312E015, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7312E001, 0x7312E016, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7312E001, 0x7312E017, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7312E001, 0x7312E018, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7312E001, 0x7312E019, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7312E001, 0x7312E01A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312E002, 24282, 0x312E0005, 21.0061, 96.52512, 15.7113, -0.1040243, 0, 0, -0.9945748,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -136,7 +136,7 @@ VALUES (0x7312E01B,  1542, 0x312E0035, 154.4807, 107.858, 29.01184, 0.9990482, 0
 /* @teleloc 0x312E0035 [154.480700 107.858000 29.011840] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312E01B, 0x7312E01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7312E01B, 0x7312E01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312E01C,  4179, 0x312E0035, 154.4807, 107.858, 29.01184, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

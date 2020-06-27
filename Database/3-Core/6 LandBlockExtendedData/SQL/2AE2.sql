@@ -9,21 +9,21 @@ VALUES (0x72AE2001,  1154, 0x2AE2001E, 79.26911, 121.1044, 0.003324956, -0.99697
 /* @teleloc 0x2AE2001E [79.269110 121.104400 0.003325] -0.996974 0.000000 0.000000 -0.077731 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE2001, 0x72AE2002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x72AE2001, 0x72AE2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE2001, 0x72AE2009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x72AE2001, 0x72AE200A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x72AE2001, 0x72AE200B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x72AE2001, 0x72AE200C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x72AE2001, 0x72AE200D, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x72AE2001, 0x72AE200E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x72AE2001, 0x72AE200F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x72AE2001, 0x72AE2010, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x72AE2001, 0x72AE2002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x72AE2001, 0x72AE2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE2001, 0x72AE2009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x72AE2001, 0x72AE200A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x72AE2001, 0x72AE200B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x72AE2001, 0x72AE200C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x72AE2001, 0x72AE200D, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x72AE2001, 0x72AE200E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x72AE2001, 0x72AE200F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x72AE2001, 0x72AE2010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE2002,     7, 0x2AE2001E, 79.26911, 121.1044, 0.003324956, -0.9969744, 0, 0, -0.07773052,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

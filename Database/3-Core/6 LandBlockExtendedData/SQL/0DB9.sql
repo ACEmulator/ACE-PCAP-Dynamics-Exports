@@ -5,11 +5,11 @@ VALUES (0x70DB9001,  1154, 0x0DB9003B, 186.4014, 67.39133, 0, -0.3036386, 0, 0, 
 /* @teleloc 0x0DB9003B [186.401400 67.391330 0.000000] -0.303639 0.000000 0.000000 -0.952787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70DB9001, 0x70DB9002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x70DB9001, 0x70DB9003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x70DB9001, 0x70DB9004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x70DB9001, 0x70DB9005, '2019-02-10 00:00:00') /* Putiputipuh */
-     , (0x70DB9001, 0x70DB9006, '2019-02-10 00:00:00') /* Ferocious Ursuin */;
+VALUES (0x70DB9001, 0x70DB9002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x70DB9001, 0x70DB9003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x70DB9001, 0x70DB9004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x70DB9001, 0x70DB9005, '2019-02-10 00:00:00') /* Putiputipuh (10924) */
+     , (0x70DB9001, 0x70DB9006, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70DB9002, 11493, 0x0DB9003B, 186.4014, 67.39133, 0, -0.3036386, 0, 0, -0.9527873,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
@@ -36,7 +36,7 @@ VALUES (0x70DB9007,  1154, 0x0DB90004, 13.8769, 81.6908, 0.003999949, 0.4147221,
 /* @teleloc 0x0DB90004 [13.876900 81.690800 0.004000] 0.414722 0.000000 0.000000 -0.909948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70DB9007, 0x70DB9008, '2019-02-10 00:00:00') /* Tekapuapuh */;
+VALUES (0x70DB9007, 0x70DB9008, '2019-02-10 00:00:00') /* Tekapuapuh (10923) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70DB9008, 10923, 0x0DB90004, 13.8769, 81.6908, 0.003999949, 0.4147221, 0, 0, -0.9099481,  True, '2019-02-10 00:00:00'); /* Tekapuapuh */

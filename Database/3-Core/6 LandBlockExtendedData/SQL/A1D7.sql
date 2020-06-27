@@ -5,12 +5,12 @@ VALUES (0x7A1D7001,  1154, 0xA1D70018, 49.0777, 185.1616, 94.47603, 0.4981813, 0
 /* @teleloc 0xA1D70018 [49.077700 185.161600 94.476030] 0.498181 0.000000 0.000000 -0.867073 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D7001, 0x7A1D7002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7A1D7001, 0x7A1D7003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A1D7001, 0x7A1D7004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A1D7001, 0x7A1D7005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A1D7001, 0x7A1D7006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A1D7001, 0x7A1D7007, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7A1D7001, 0x7A1D7002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7A1D7001, 0x7A1D7003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A1D7001, 0x7A1D7004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A1D7001, 0x7A1D7005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A1D7001, 0x7A1D7006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A1D7001, 0x7A1D7007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D7002,   228, 0xA1D70018, 49.0777, 185.1616, 94.47603, 0.4981813, 0, 0, -0.8670729,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

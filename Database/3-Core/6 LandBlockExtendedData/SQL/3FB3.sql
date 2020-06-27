@@ -5,21 +5,21 @@ VALUES (0x73FB3001,  1154, 0x3FB30012, 60.60737, 26.59544, 6.517512, 0.8660254, 
 /* @teleloc 0x3FB30012 [60.607370 26.595440 6.517512] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB3001, 0x73FB3002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73FB3001, 0x73FB3003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73FB3001, 0x73FB3004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73FB3001, 0x73FB3005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73FB3001, 0x73FB3006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73FB3001, 0x73FB3007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73FB3001, 0x73FB3008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73FB3001, 0x73FB3009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73FB3001, 0x73FB300A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73FB3001, 0x73FB300B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73FB3001, 0x73FB300C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73FB3001, 0x73FB300D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73FB3001, 0x73FB300E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73FB3001, 0x73FB300F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73FB3001, 0x73FB3010, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x73FB3001, 0x73FB3002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73FB3001, 0x73FB3003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73FB3001, 0x73FB3004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73FB3001, 0x73FB3005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73FB3001, 0x73FB3006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73FB3001, 0x73FB3007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73FB3001, 0x73FB3008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73FB3001, 0x73FB3009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73FB3001, 0x73FB300A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73FB3001, 0x73FB300B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73FB3001, 0x73FB300C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73FB3001, 0x73FB300D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73FB3001, 0x73FB300E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73FB3001, 0x73FB300F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73FB3001, 0x73FB3010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB3002,  7988, 0x3FB30012, 60.60737, 26.59544, 6.517512, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

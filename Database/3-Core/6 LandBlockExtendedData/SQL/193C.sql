@@ -5,12 +5,12 @@ VALUES (0x7193C001,  1154, 0x193C001C, 78.86511, 73.91212, 24.58059, -0.04686955
 /* @teleloc 0x193C001C [78.865110 73.912120 24.580590] -0.046870 0.000000 0.000000 -0.998901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7193C001, 0x7193C002, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7193C001, 0x7193C003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7193C001, 0x7193C004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7193C001, 0x7193C005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7193C001, 0x7193C006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7193C001, 0x7193C007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7193C001, 0x7193C002, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7193C001, 0x7193C003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7193C001, 0x7193C004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7193C001, 0x7193C005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7193C001, 0x7193C006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7193C001, 0x7193C007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193C002, 14514, 0x193C001C, 78.86511, 73.91212, 24.58059, -0.04686955, 0, 0, -0.998901,  True, '2019-02-10 00:00:00'); /* Miasma */
@@ -41,8 +41,8 @@ VALUES (0x7193C008,  1542, 0x193C0005, 13.0426, 116.9762, 17.42963, -4.371139E-0
 /* @teleloc 0x193C0005 [13.042600 116.976200 17.429630] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7193C008, 0x7193C009, '2019-02-10 00:00:00') /* Bones */
-     , (0x7193C008, 0x7193C00A, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7193C008, 0x7193C009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7193C008, 0x7193C00A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193C009,  4380, 0x193C0005, 13.0426, 116.9762, 17.42963, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

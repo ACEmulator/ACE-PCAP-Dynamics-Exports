@@ -5,14 +5,14 @@ VALUES (0x76A96001,  1154, 0x6A96001F, 92.52219, 146.757, 77.12254, 0.7071068, 0
 /* @teleloc 0x6A96001F [92.522190 146.757000 77.122540] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A96001, 0x76A96002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76A96001, 0x76A96003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76A96001, 0x76A96004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76A96001, 0x76A96005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76A96001, 0x76A96006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x76A96001, 0x76A96007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76A96001, 0x76A96008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76A96001, 0x76A96009, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x76A96001, 0x76A96002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76A96001, 0x76A96003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76A96001, 0x76A96004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76A96001, 0x76A96005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76A96001, 0x76A96006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x76A96001, 0x76A96007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76A96001, 0x76A96008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76A96001, 0x76A96009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A96002, 24288, 0x6A96001F, 92.52219, 146.757, 77.12254, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -51,7 +51,7 @@ VALUES (0x76A9600A,  1542, 0x6A96001F, 91.29654, 148.5284, 76.82413, 0.9990482, 
 /* @teleloc 0x6A96001F [91.296540 148.528400 76.824130] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A9600A, 0x76A9600B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76A9600A, 0x76A9600B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A9600B,  4179, 0x6A96001F, 91.29654, 148.5284, 76.82413, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,47 +5,47 @@ VALUES (0x761EB001,  1154, 0x61EB0030, 126.4082, 176.5976, -0.895, 0.9396926, 0,
 /* @teleloc 0x61EB0030 [126.408200 176.597600 -0.895000] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761EB001, 0x761EB002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x761EB001, 0x761EB003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x761EB001, 0x761EB004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x761EB001, 0x761EB005, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB008, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB009, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x761EB001, 0x761EB00A, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB00B, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB00C, '2019-02-10 00:00:00') /* Caustic */
-     , (0x761EB001, 0x761EB00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x761EB001, 0x761EB00E, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x761EB001, 0x761EB00F, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x761EB001, 0x761EB010, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x761EB001, 0x761EB011, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x761EB001, 0x761EB012, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x761EB001, 0x761EB013, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x761EB001, 0x761EB014, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x761EB001, 0x761EB015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x761EB001, 0x761EB016, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x761EB001, 0x761EB017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x761EB001, 0x761EB018, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x761EB001, 0x761EB019, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x761EB001, 0x761EB01A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x761EB001, 0x761EB01B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x761EB001, 0x761EB01C, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x761EB001, 0x761EB01D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x761EB001, 0x761EB01E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x761EB001, 0x761EB01F, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x761EB001, 0x761EB020, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x761EB001, 0x761EB021, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x761EB001, 0x761EB022, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x761EB001, 0x761EB023, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x761EB001, 0x761EB024, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x761EB001, 0x761EB025, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x761EB001, 0x761EB026, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x761EB001, 0x761EB027, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x761EB001, 0x761EB028, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x761EB001, 0x761EB029, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x761EB001, 0x761EB02A, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x761EB001, 0x761EB002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x761EB001, 0x761EB003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x761EB001, 0x761EB004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x761EB001, 0x761EB005, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB008, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB009, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x761EB001, 0x761EB00A, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB00B, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB00C, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x761EB001, 0x761EB00D, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x761EB001, 0x761EB00E, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x761EB001, 0x761EB00F, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x761EB001, 0x761EB010, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x761EB001, 0x761EB011, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x761EB001, 0x761EB012, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x761EB001, 0x761EB013, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x761EB001, 0x761EB014, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x761EB001, 0x761EB015, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x761EB001, 0x761EB016, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x761EB001, 0x761EB017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x761EB001, 0x761EB018, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x761EB001, 0x761EB019, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x761EB001, 0x761EB01A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x761EB001, 0x761EB01B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x761EB001, 0x761EB01C, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x761EB001, 0x761EB01D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x761EB001, 0x761EB01E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x761EB001, 0x761EB01F, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x761EB001, 0x761EB020, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x761EB001, 0x761EB021, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x761EB001, 0x761EB022, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x761EB001, 0x761EB023, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x761EB001, 0x761EB024, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x761EB001, 0x761EB025, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x761EB001, 0x761EB026, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x761EB001, 0x761EB027, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x761EB001, 0x761EB028, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x761EB001, 0x761EB029, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x761EB001, 0x761EB02A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761EB002, 37098, 0x61EB0030, 126.4082, 176.5976, -0.895, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */
@@ -216,10 +216,10 @@ VALUES (0x761EB02B,  1542, 0x61EB0019, 83.18807, 13.26091, 37.25293, -4.371139E-
 /* @teleloc 0x61EB0019 [83.188070 13.260910 37.252930] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761EB02B, 0x761EB02C, '2019-02-10 00:00:00') /* Bones */
-     , (0x761EB02B, 0x761EB02D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x761EB02B, 0x761EB02E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x761EB02B, 0x761EB02F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x761EB02B, 0x761EB02C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x761EB02B, 0x761EB02D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x761EB02B, 0x761EB02E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x761EB02B, 0x761EB02F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761EB02C,  4380, 0x61EB0019, 83.18807, 13.26091, 37.25293, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

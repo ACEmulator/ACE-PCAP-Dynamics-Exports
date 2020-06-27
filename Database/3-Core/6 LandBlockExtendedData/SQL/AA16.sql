@@ -5,19 +5,19 @@ VALUES (0x7AA16001,  1154, 0xAA16000D, 43.47507, 103.4151, 150.8528, 0.4586373, 
 /* @teleloc 0xAA16000D [43.475070 103.415100 150.852800] 0.458637 0.000000 0.000000 -0.888624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA16001, 0x7AA16002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AA16001, 0x7AA16003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7AA16001, 0x7AA16004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA16001, 0x7AA16005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA16001, 0x7AA16006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7AA16001, 0x7AA16007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AA16001, 0x7AA16008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AA16001, 0x7AA16009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7AA16001, 0x7AA1600A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7AA16001, 0x7AA1600B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AA16001, 0x7AA1600C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AA16001, 0x7AA1600D, '2019-02-10 00:00:00') /* Flare */
-     , (0x7AA16001, 0x7AA1600E, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x7AA16001, 0x7AA16002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AA16001, 0x7AA16003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7AA16001, 0x7AA16004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA16001, 0x7AA16005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA16001, 0x7AA16006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7AA16001, 0x7AA16007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AA16001, 0x7AA16008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AA16001, 0x7AA16009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7AA16001, 0x7AA1600A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7AA16001, 0x7AA1600B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AA16001, 0x7AA1600C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AA16001, 0x7AA1600D, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7AA16001, 0x7AA1600E, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA16002,  4254, 0xAA16000D, 43.47507, 103.4151, 150.8528, 0.4586373, 0, 0, -0.8886235,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

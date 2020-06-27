@@ -13,23 +13,23 @@ VALUES (0x7D853005,  1154, 0xD8530100, 79.2775, 182.834, 36.40833, -0.9904955, 0
 /* @teleloc 0xD8530100 [79.277500 182.834000 36.408330] -0.990496 0.000000 0.000000 0.137545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D853005, 0x7D853006, '2019-02-10 00:00:00') /* Wounded Drudge Skulker */
-     , (0x7D853005, 0x7D853007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D853005, 0x7D853008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D853005, 0x7D853009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D853005, 0x7D85300A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D853005, 0x7D85300B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D853005, 0x7D85300C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D853005, 0x7D85300D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D853005, 0x7D85300E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D853005, 0x7D85300F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D853005, 0x7D853010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7D853005, 0x7D853011, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7D853005, 0x7D853012, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D853005, 0x7D853013, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7D853005, 0x7D853014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D853005, 0x7D853015, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D853005, 0x7D853016, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7D853005, 0x7D853006, '2019-02-10 00:00:00') /* Wounded Drudge Skulker (5196) */
+     , (0x7D853005, 0x7D853007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D853005, 0x7D853008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D853005, 0x7D853009, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7D853005, 0x7D85300A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D85300B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D85300C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D85300D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D85300E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D853005, 0x7D85300F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D853005, 0x7D853010, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D853005, 0x7D853011, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7D853005, 0x7D853012, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7D853005, 0x7D853013, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7D853005, 0x7D853014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D853005, 0x7D853015, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D853016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D853006,  5196, 0xD8530100, 79.2775, 182.834, 36.40833, -0.9904955, 0, 0, 0.1375449,  True, '2019-02-10 00:00:00'); /* Wounded Drudge Skulker */
@@ -104,7 +104,7 @@ VALUES (0x7D853017,  1154, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, 
 /* @teleloc 0xD8530100 [79.454000 186.352000 36.410000] 0.521122 0.000000 0.000000 -0.853482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D853017, 0x7D853018, '2019-02-10 00:00:00') /* Nen Ai */;
+VALUES (0x7D853017, 0x7D853018, '2019-02-10 00:00:00') /* Nen Ai (5197) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D853018,  5197, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, -0.8534824,  True, '2019-02-10 00:00:00'); /* Nen Ai */

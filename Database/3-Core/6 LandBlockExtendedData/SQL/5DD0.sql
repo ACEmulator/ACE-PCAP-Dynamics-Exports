@@ -5,12 +5,12 @@ VALUES (0x75DD0001,  1154, 0x5DD00017, 63.44278, 149.1595, 85.14659, 0.9238795, 
 /* @teleloc 0x5DD00017 [63.442780 149.159500 85.146590] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DD0001, 0x75DD0002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75DD0001, 0x75DD0003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75DD0001, 0x75DD0004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x75DD0001, 0x75DD0005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75DD0001, 0x75DD0006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75DD0001, 0x75DD0007, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x75DD0001, 0x75DD0002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75DD0001, 0x75DD0003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75DD0001, 0x75DD0004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x75DD0001, 0x75DD0005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75DD0001, 0x75DD0006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x75DD0001, 0x75DD0007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DD0002, 10807, 0x5DD00017, 63.44278, 149.1595, 85.14659, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -41,7 +41,7 @@ VALUES (0x75DD0008,  1542, 0x5DD00005, 9.341039, 101.9063, 89.79403, 1, 0, 0, 0,
 /* @teleloc 0x5DD00005 [9.341039 101.906300 89.794030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DD0008, 0x75DD0009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75DD0008, 0x75DD0009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DD0009,  4179, 0x5DD00005, 9.341039, 101.9063, 89.79403, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

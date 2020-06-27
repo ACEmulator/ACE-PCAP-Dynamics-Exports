@@ -5,16 +5,16 @@ VALUES (0x766DB001,  1154, 0x66DB0009, 36.43201, 17.19479, 251.6953, 1, 0, 0, 0,
 /* @teleloc 0x66DB0009 [36.432010 17.194790 251.695300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766DB001, 0x766DB002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x766DB001, 0x766DB003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x766DB001, 0x766DB004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x766DB001, 0x766DB005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x766DB001, 0x766DB006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x766DB001, 0x766DB007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x766DB001, 0x766DB008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x766DB001, 0x766DB009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x766DB001, 0x766DB00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x766DB001, 0x766DB00B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x766DB001, 0x766DB002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x766DB001, 0x766DB003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x766DB001, 0x766DB004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x766DB001, 0x766DB005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x766DB001, 0x766DB006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x766DB001, 0x766DB007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x766DB001, 0x766DB008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x766DB001, 0x766DB009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x766DB001, 0x766DB00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x766DB001, 0x766DB00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DB002, 36843, 0x66DB0009, 36.43201, 17.19479, 251.6953, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -61,7 +61,7 @@ VALUES (0x766DB00C,  1542, 0x66DB0023, 108.4671, 59.96727, 245.0261, 1, 0, 0, 0,
 /* @teleloc 0x66DB0023 [108.467100 59.967270 245.026100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766DB00C, 0x766DB00D, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x766DB00C, 0x766DB00D, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DB00D, 42528, 0x66DB0023, 108.4671, 59.96727, 245.0261, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rock */

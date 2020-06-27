@@ -5,13 +5,13 @@ VALUES (0x7A160001,  1154, 0xA1600020, 88.59531, 179.4232, 129.7228, -0.9397593,
 /* @teleloc 0xA1600020 [88.595310 179.423200 129.722800] -0.939759 0.000000 0.000000 -0.341837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A160001, 0x7A160002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A160001, 0x7A160003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A160001, 0x7A160004, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A160001, 0x7A160005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A160001, 0x7A160006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A160001, 0x7A160007, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A160001, 0x7A160008, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7A160001, 0x7A160002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A160001, 0x7A160003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A160001, 0x7A160004, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A160001, 0x7A160005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A160001, 0x7A160006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A160001, 0x7A160007, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A160001, 0x7A160008, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A160002,  1615, 0xA1600020, 88.59531, 179.4232, 129.7228, -0.9397593, 0, 0, -0.341837,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */

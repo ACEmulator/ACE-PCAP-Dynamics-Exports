@@ -5,30 +5,30 @@ VALUES (0x7346C001,  1154, 0x346C0008, 14.21782, 191.1665, 159.1284, 0.9238795, 
 /* @teleloc 0x346C0008 [14.217820 191.166500 159.128400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346C001, 0x7346C002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7346C001, 0x7346C003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7346C001, 0x7346C004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7346C001, 0x7346C005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7346C001, 0x7346C006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7346C001, 0x7346C007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7346C001, 0x7346C008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7346C001, 0x7346C009, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7346C001, 0x7346C00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7346C001, 0x7346C00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7346C001, 0x7346C00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7346C001, 0x7346C00D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7346C001, 0x7346C00E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7346C001, 0x7346C00F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7346C001, 0x7346C010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7346C001, 0x7346C011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7346C001, 0x7346C012, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7346C001, 0x7346C013, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7346C001, 0x7346C014, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7346C001, 0x7346C015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7346C001, 0x7346C016, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7346C001, 0x7346C017, '2019-02-10 00:00:00') /* Frost */
-     , (0x7346C001, 0x7346C018, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7346C001, 0x7346C019, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x7346C001, 0x7346C002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7346C001, 0x7346C003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7346C001, 0x7346C004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7346C001, 0x7346C005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7346C001, 0x7346C006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7346C001, 0x7346C007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7346C001, 0x7346C008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7346C001, 0x7346C009, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7346C001, 0x7346C00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7346C001, 0x7346C00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7346C001, 0x7346C00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7346C001, 0x7346C00D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7346C001, 0x7346C00E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7346C001, 0x7346C00F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7346C001, 0x7346C010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7346C001, 0x7346C011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7346C001, 0x7346C012, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7346C001, 0x7346C013, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7346C001, 0x7346C014, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7346C001, 0x7346C015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7346C001, 0x7346C016, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7346C001, 0x7346C017, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7346C001, 0x7346C018, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7346C001, 0x7346C019, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346C002, 24494, 0x346C0008, 14.21782, 191.1665, 159.1284, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -131,9 +131,9 @@ VALUES (0x7346C01A,  1542, 0x346C0008, 7.568318, 191.8953, 155.486, 1, 0, 0, 0, 
 /* @teleloc 0x346C0008 [7.568318 191.895300 155.486000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346C01A, 0x7346C01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7346C01A, 0x7346C01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7346C01A, 0x7346C01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7346C01A, 0x7346C01B, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7346C01A, 0x7346C01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7346C01A, 0x7346C01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346C01B, 22571, 0x346C0008, 7.568318, 191.8953, 155.486, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

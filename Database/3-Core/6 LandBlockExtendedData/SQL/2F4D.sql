@@ -5,38 +5,38 @@ VALUES (0x72F4D001,  1154, 0x2F4D0012, 52.42128, 34.60531, 15.70683, -0.9983183,
 /* @teleloc 0x2F4D0012 [52.421280 34.605310 15.706830] -0.998318 0.000000 0.000000 -0.057970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F4D001, 0x72F4D002, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72F4D001, 0x72F4D003, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72F4D001, 0x72F4D004, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout */
-     , (0x72F4D001, 0x72F4D005, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72F4D001, 0x72F4D006, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72F4D001, 0x72F4D007, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72F4D001, 0x72F4D008, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72F4D001, 0x72F4D009, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72F4D001, 0x72F4D00A, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72F4D001, 0x72F4D00B, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72F4D001, 0x72F4D00C, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72F4D001, 0x72F4D00D, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x72F4D001, 0x72F4D00E, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x72F4D001, 0x72F4D00F, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72F4D001, 0x72F4D010, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72F4D001, 0x72F4D011, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72F4D001, 0x72F4D012, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72F4D001, 0x72F4D013, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72F4D001, 0x72F4D014, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72F4D001, 0x72F4D015, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72F4D001, 0x72F4D016, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72F4D001, 0x72F4D017, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72F4D001, 0x72F4D018, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72F4D001, 0x72F4D019, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72F4D001, 0x72F4D01A, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72F4D001, 0x72F4D01B, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72F4D001, 0x72F4D01C, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72F4D001, 0x72F4D01D, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72F4D001, 0x72F4D01E, '2019-02-10 00:00:00') /* Swarthy Mattekar */
-     , (0x72F4D001, 0x72F4D01F, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x72F4D001, 0x72F4D020, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72F4D001, 0x72F4D021, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x72F4D001, 0x72F4D002, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72F4D001, 0x72F4D003, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72F4D001, 0x72F4D004, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout (41735) */
+     , (0x72F4D001, 0x72F4D005, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72F4D001, 0x72F4D006, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72F4D001, 0x72F4D007, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72F4D001, 0x72F4D008, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72F4D001, 0x72F4D009, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72F4D001, 0x72F4D00A, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72F4D001, 0x72F4D00B, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72F4D001, 0x72F4D00C, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72F4D001, 0x72F4D00D, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x72F4D001, 0x72F4D00E, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x72F4D001, 0x72F4D00F, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72F4D001, 0x72F4D010, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72F4D001, 0x72F4D011, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72F4D001, 0x72F4D012, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72F4D001, 0x72F4D013, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72F4D001, 0x72F4D014, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72F4D001, 0x72F4D015, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72F4D001, 0x72F4D016, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72F4D001, 0x72F4D017, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72F4D001, 0x72F4D018, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72F4D001, 0x72F4D019, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72F4D001, 0x72F4D01A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72F4D001, 0x72F4D01B, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72F4D001, 0x72F4D01C, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72F4D001, 0x72F4D01D, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72F4D001, 0x72F4D01E, '2019-02-10 00:00:00') /* Swarthy Mattekar (22901) */
+     , (0x72F4D001, 0x72F4D01F, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x72F4D001, 0x72F4D020, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72F4D001, 0x72F4D021, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F4D002, 41734, 0x2F4D0012, 52.42128, 34.60531, 15.70683, -0.9983183, 0, 0, -0.05796987,  True, '2019-02-10 00:00:00'); /* Copper Cog Heavy Scout */
@@ -171,8 +171,8 @@ VALUES (0x72F4D022,  1542, 0x2F4D0007, 1.571476, 163.414, 0, -0.07388485, 0, 0, 
 /* @teleloc 0x2F4D0007 [1.571476 163.414000 0.000000] -0.073885 0.000000 0.000000 -0.997267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F4D022, 0x72F4D023, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72F4D022, 0x72F4D024, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */;
+VALUES (0x72F4D022, 0x72F4D023, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72F4D022, 0x72F4D024, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F4D023, 46284, 0x2F4D0007, 1.571476, 163.414, 0, -0.07388485, 0, 0, -0.9972668,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

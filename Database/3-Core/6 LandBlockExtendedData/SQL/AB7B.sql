@@ -5,14 +5,14 @@ VALUES (0x7AB7B001,  1154, 0xAB7B0003, 19.53645, 50.03451, 23.7484, 0.4274336, 0
 /* @teleloc 0xAB7B0003 [19.536450 50.034510 23.748400] 0.427434 0.000000 0.000000 -0.904047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB7B001, 0x7AB7B002, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AB7B001, 0x7AB7B003, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AB7B001, 0x7AB7B004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AB7B001, 0x7AB7B005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AB7B001, 0x7AB7B006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AB7B001, 0x7AB7B007, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB7B001, 0x7AB7B008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AB7B001, 0x7AB7B009, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AB7B001, 0x7AB7B002, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AB7B001, 0x7AB7B003, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AB7B001, 0x7AB7B004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AB7B001, 0x7AB7B005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AB7B001, 0x7AB7B006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AB7B001, 0x7AB7B007, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB7B001, 0x7AB7B008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AB7B001, 0x7AB7B009, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB7B002,  1606, 0xAB7B0003, 19.53645, 50.03451, 23.7484, 0.4274336, 0, 0, -0.9040468,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */

@@ -5,10 +5,10 @@ VALUES (0x7C17A001,  1154, 0xC17A0031, 166.5598, 6.323131, 26.54373, 0.8381013, 
 /* @teleloc 0xC17A0031 [166.559800 6.323131 26.543730] 0.838101 0.000000 0.000000 -0.545515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C17A001, 0x7C17A002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C17A001, 0x7C17A003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C17A001, 0x7C17A004, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C17A001, 0x7C17A005, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7C17A001, 0x7C17A002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C17A001, 0x7C17A003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C17A001, 0x7C17A004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C17A001, 0x7C17A005, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17A002,  1612, 0xC17A0031, 166.5598, 6.323131, 26.54373, 0.8381013, 0, 0, -0.5455146,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -31,7 +31,7 @@ VALUES (0x7C17A006,  1542, 0xC17A0027, 115.0634, 151.1951, 34.37642, 1, 0, 0, 0,
 /* @teleloc 0xC17A0027 [115.063400 151.195100 34.376420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C17A006, 0x7C17A007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C17A006, 0x7C17A007, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17A007, 22572, 0xC17A0027, 115.0634, 151.1951, 34.37642, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

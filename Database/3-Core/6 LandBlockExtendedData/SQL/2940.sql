@@ -5,12 +5,12 @@ VALUES (0x72940001,  1154, 0x29400006, 16.20945, 133.4456, 23.13046, -0.1964085,
 /* @teleloc 0x29400006 [16.209450 133.445600 23.130460] -0.196409 0.000000 0.000000 -0.980522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72940001, 0x72940002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72940001, 0x72940003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72940001, 0x72940004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72940001, 0x72940005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72940001, 0x72940006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72940001, 0x72940007, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x72940001, 0x72940002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72940001, 0x72940003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72940001, 0x72940004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72940001, 0x72940005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72940001, 0x72940006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72940001, 0x72940007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72940002,  8138, 0x29400006, 16.20945, 133.4456, 23.13046, -0.1964085, 0, 0, -0.9805222,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -41,7 +41,7 @@ VALUES (0x72940008,  1542, 0x2940002B, 143.6885, 50.31084, 23.47702, -0.1736482,
 /* @teleloc 0x2940002B [143.688500 50.310840 23.477020] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72940008, 0x72940009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x72940008, 0x72940009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72940009,  4180, 0x2940002B, 143.6885, 50.31084, 23.47702, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

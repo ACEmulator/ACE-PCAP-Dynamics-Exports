@@ -5,12 +5,12 @@ VALUES (0x7A9CB001,  1154, 0xA9CB001D, 86.10862, 108.2323, 59.34508, -0.998568, 
 /* @teleloc 0xA9CB001D [86.108620 108.232300 59.345080] -0.998568 0.000000 0.000000 -0.053497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9CB001, 0x7A9CB002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9CB001, 0x7A9CB003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A9CB001, 0x7A9CB004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7A9CB001, 0x7A9CB005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A9CB001, 0x7A9CB006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A9CB001, 0x7A9CB007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7A9CB001, 0x7A9CB002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9CB001, 0x7A9CB003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A9CB001, 0x7A9CB004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7A9CB001, 0x7A9CB005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A9CB001, 0x7A9CB006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A9CB001, 0x7A9CB007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9CB002,   217, 0xA9CB001D, 86.10862, 108.2323, 59.34508, -0.998568, 0, 0, -0.05349671,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

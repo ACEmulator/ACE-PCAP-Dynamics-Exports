@@ -5,33 +5,33 @@ VALUES (0x7163D001,  1154, 0x163D000E, 28.41333, 140.7584, 58.08627, 0.5748392, 
 /* @teleloc 0x163D000E [28.413330 140.758400 58.086270] 0.574839 0.000000 0.000000 -0.818266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163D001, 0x7163D002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7163D001, 0x7163D003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7163D001, 0x7163D004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7163D001, 0x7163D005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163D001, 0x7163D006, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x7163D001, 0x7163D007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7163D001, 0x7163D008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7163D001, 0x7163D009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163D001, 0x7163D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7163D001, 0x7163D00B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7163D001, 0x7163D00C, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7163D001, 0x7163D00D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7163D001, 0x7163D00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7163D001, 0x7163D00F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7163D001, 0x7163D010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7163D001, 0x7163D011, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7163D001, 0x7163D012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7163D001, 0x7163D013, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7163D001, 0x7163D014, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7163D001, 0x7163D015, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7163D001, 0x7163D016, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7163D001, 0x7163D017, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7163D001, 0x7163D018, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7163D001, 0x7163D019, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7163D001, 0x7163D01A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7163D001, 0x7163D01B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7163D001, 0x7163D01C, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7163D001, 0x7163D002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7163D001, 0x7163D003, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7163D001, 0x7163D004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7163D001, 0x7163D005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163D001, 0x7163D006, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x7163D001, 0x7163D007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7163D001, 0x7163D008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7163D001, 0x7163D009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163D001, 0x7163D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7163D001, 0x7163D00B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7163D001, 0x7163D00C, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7163D001, 0x7163D00D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7163D001, 0x7163D00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7163D001, 0x7163D00F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7163D001, 0x7163D010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7163D001, 0x7163D011, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7163D001, 0x7163D012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7163D001, 0x7163D013, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7163D001, 0x7163D014, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7163D001, 0x7163D015, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7163D001, 0x7163D016, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7163D001, 0x7163D017, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7163D001, 0x7163D018, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7163D001, 0x7163D019, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7163D001, 0x7163D01A, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7163D001, 0x7163D01B, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7163D001, 0x7163D01C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163D002,  7127, 0x163D000E, 28.41333, 140.7584, 58.08627, 0.5748392, 0, 0, -0.8182664,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
@@ -146,7 +146,7 @@ VALUES (0x7163D01D,  1542, 0x163D001E, 83.80077, 140.3944, 30.01701, -0.9529105,
 /* @teleloc 0x163D001E [83.800770 140.394400 30.017010] -0.952911 0.000000 0.000000 -0.303252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163D01D, 0x7163D01E, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7163D01D, 0x7163D01E, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163D01E,  9286, 0x163D001E, 83.80077, 140.3944, 30.01701, -0.9529105, 0, 0, -0.3032517,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

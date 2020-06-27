@@ -5,18 +5,18 @@ VALUES (0x73F91001,  1154, 0x3F910032, 151.9768, 24.44695, -0.4449999, -0.639992
 /* @teleloc 0x3F910032 [151.976800 24.446950 -0.445000] -0.639992 0.000000 0.000000 -0.768382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F91001, 0x73F91002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73F91001, 0x73F91003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73F91001, 0x73F91004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F91001, 0x73F91005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73F91001, 0x73F91006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F91001, 0x73F91007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F91001, 0x73F91008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73F91001, 0x73F91009, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73F91001, 0x73F9100A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F91001, 0x73F9100B, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F91001, 0x73F9100C, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F91001, 0x73F9100D, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x73F91001, 0x73F91002, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73F91001, 0x73F91003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73F91001, 0x73F91004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F91001, 0x73F91005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73F91001, 0x73F91006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F91001, 0x73F91007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F91001, 0x73F91008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73F91001, 0x73F91009, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73F91001, 0x73F9100A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F91001, 0x73F9100B, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F91001, 0x73F9100C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F91001, 0x73F9100D, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F91002, 23090, 0x3F910032, 151.9768, 24.44695, -0.4449999, -0.6399921, 0, 0, -0.7683815,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */

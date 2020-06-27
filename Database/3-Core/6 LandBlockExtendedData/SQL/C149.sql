@@ -5,12 +5,12 @@ VALUES (0x7C149001,  1154, 0xC1490002, 15.02875, 43.88777, 35.60718, 0.7071068, 
 /* @teleloc 0xC1490002 [15.028750 43.887770 35.607180] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C149001, 0x7C149002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C149001, 0x7C149003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C149001, 0x7C149004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C149001, 0x7C149005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C149001, 0x7C149006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C149001, 0x7C149007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C149001, 0x7C149002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C149001, 0x7C149003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C149001, 0x7C149004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C149001, 0x7C149005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C149001, 0x7C149006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C149001, 0x7C149007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C149002,  1627, 0xC1490002, 15.02875, 43.88777, 35.60718, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -41,7 +41,7 @@ VALUES (0x7C149008,  1542, 0xC1490002, 21.02323, 43.63047, 36.0093, 0.7071068, 0
 /* @teleloc 0xC1490002 [21.023230 43.630470 36.009300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C149008, 0x7C149009, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7C149008, 0x7C149009, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C149009,  5779, 0xC1490002, 21.02323, 43.63047, 36.0093, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

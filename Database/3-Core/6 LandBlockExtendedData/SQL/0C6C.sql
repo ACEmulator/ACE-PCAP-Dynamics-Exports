@@ -5,18 +5,18 @@ VALUES (0x70C6C001,  1154, 0x0C6C001C, 95.6564, 87.91331, 12.65677, 0.7071068, 0
 /* @teleloc 0x0C6C001C [95.656400 87.913310 12.656770] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6C001, 0x70C6C002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6C001, 0x70C6C003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C6C001, 0x70C6C004, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70C6C001, 0x70C6C005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6C001, 0x70C6C006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6C001, 0x70C6C007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6C001, 0x70C6C008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70C6C001, 0x70C6C009, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C6C001, 0x70C6C00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70C6C001, 0x70C6C00B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C6C001, 0x70C6C00C, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C6C001, 0x70C6C00D, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x70C6C001, 0x70C6C002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6C001, 0x70C6C003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C6C001, 0x70C6C004, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70C6C001, 0x70C6C005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6C001, 0x70C6C006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6C001, 0x70C6C007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6C001, 0x70C6C008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70C6C001, 0x70C6C009, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C6C001, 0x70C6C00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70C6C001, 0x70C6C00B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C6C001, 0x70C6C00C, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C6C001, 0x70C6C00D, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6C002, 36822, 0x0C6C001C, 95.6564, 87.91331, 12.65677, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -71,7 +71,7 @@ VALUES (0x70C6C00E,  1542, 0x0C6C001D, 74.86158, 99.54944, 14, 1, 0, 0, 0, False
 /* @teleloc 0x0C6C001D [74.861580 99.549440 14.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6C00E, 0x70C6C00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70C6C00E, 0x70C6C00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6C00F,  4179, 0x0C6C001D, 74.86158, 99.54944, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

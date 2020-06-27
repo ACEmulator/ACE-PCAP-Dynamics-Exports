@@ -5,9 +5,9 @@ VALUES (0x7502D001,  1154, 0x502D0038, 152.9162, 171.649, -0.8924999, 0.07929701
 /* @teleloc 0x502D0038 [152.916200 171.649000 -0.892500] 0.079297 0.000000 0.000000 -0.996851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7502D001, 0x7502D002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7502D001, 0x7502D003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7502D001, 0x7502D004, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x7502D001, 0x7502D002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7502D001, 0x7502D003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7502D001, 0x7502D004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7502D002, 14516, 0x502D0038, 152.9162, 171.649, -0.8924999, 0.07929701, 0, 0, -0.996851,  True, '2019-02-10 00:00:00'); /* Caustic */

@@ -5,10 +5,10 @@ VALUES (0x7C1AE001,  1154, 0xC1AE0023, 101.5652, 66.09819, 128.0042, 0.7660445, 
 /* @teleloc 0xC1AE0023 [101.565200 66.098190 128.004200] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1AE001, 0x7C1AE002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C1AE001, 0x7C1AE003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C1AE001, 0x7C1AE004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C1AE001, 0x7C1AE005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C1AE001, 0x7C1AE002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C1AE001, 0x7C1AE003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C1AE001, 0x7C1AE004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C1AE001, 0x7C1AE005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1AE002,  1608, 0xC1AE0023, 101.5652, 66.09819, 128.0042, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -31,7 +31,7 @@ VALUES (0x7C1AE006,  1542, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0
 /* @teleloc 0xC1AE000D [24.947250 109.946000 142.841300] -0.372636 0.000000 0.000000 -0.927978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1AE006, 0x7C1AE007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C1AE006, 0x7C1AE007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1AE007,  8037, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0, 0, -0.9279776,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

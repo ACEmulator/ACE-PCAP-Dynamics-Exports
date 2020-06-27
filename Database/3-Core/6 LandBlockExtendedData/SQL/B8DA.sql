@@ -5,19 +5,19 @@ VALUES (0x7B8DA001,  1154, 0xB8DA0009, 28.90957, 14.63735, 41.59637, -0.02885589
 /* @teleloc 0xB8DA0009 [28.909570 14.637350 41.596370] -0.028856 0.000000 0.000000 -0.999584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8DA001, 0x7B8DA002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B8DA001, 0x7B8DA003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8DA001, 0x7B8DA004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8DA001, 0x7B8DA005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7B8DA001, 0x7B8DA006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B8DA001, 0x7B8DA007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B8DA001, 0x7B8DA008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B8DA001, 0x7B8DA009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B8DA001, 0x7B8DA00A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B8DA001, 0x7B8DA00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B8DA001, 0x7B8DA00C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B8DA001, 0x7B8DA00D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B8DA001, 0x7B8DA00E, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7B8DA001, 0x7B8DA002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B8DA001, 0x7B8DA003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8DA001, 0x7B8DA004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8DA001, 0x7B8DA005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7B8DA001, 0x7B8DA006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B8DA001, 0x7B8DA007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B8DA001, 0x7B8DA008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B8DA001, 0x7B8DA009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B8DA001, 0x7B8DA00A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B8DA001, 0x7B8DA00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B8DA001, 0x7B8DA00C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B8DA001, 0x7B8DA00D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B8DA001, 0x7B8DA00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8DA002,   231, 0xB8DA0009, 28.90957, 14.63735, 41.59637, -0.02885589, 0, 0, -0.9995836,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -76,7 +76,7 @@ VALUES (0x7B8DA00F,  1542, 0xB8DA000B, 42.55778, 57.0463, 36.9458, 1, 0, 0, 0, F
 /* @teleloc 0xB8DA000B [42.557780 57.046300 36.945800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8DA00F, 0x7B8DA010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B8DA00F, 0x7B8DA010, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8DA010, 22567, 0xB8DA000B, 42.55778, 57.0463, 36.9458, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

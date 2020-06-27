@@ -5,12 +5,12 @@ VALUES (0x79827001,  1154, 0x98270009, 45.84288, 17.88833, 132.9217, 1, 0, 0, 0,
 /* @teleloc 0x98270009 [45.842880 17.888330 132.921700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79827001, 0x79827002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79827001, 0x79827003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79827001, 0x79827004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79827001, 0x79827005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79827001, 0x79827006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79827001, 0x79827007, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x79827001, 0x79827002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79827001, 0x79827003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79827001, 0x79827004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79827001, 0x79827005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79827001, 0x79827006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79827001, 0x79827007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79827002,  7124, 0x98270009, 45.84288, 17.88833, 132.9217, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -41,7 +41,7 @@ VALUES (0x79827008,  1542, 0x98270009, 45.71183, 15.89263, 133.1716, 0.9238795, 
 /* @teleloc 0x98270009 [45.711830 15.892630 133.171600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79827008, 0x79827009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79827008, 0x79827009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79827009,  4180, 0x98270009, 45.71183, 15.89263, 133.1716, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

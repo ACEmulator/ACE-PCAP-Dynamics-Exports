@@ -5,15 +5,15 @@ VALUES (0x79D2D001,  1154, 0x9D2D0030, 132.2278, 188.3577, 81.39694, 0.9238795, 
 /* @teleloc 0x9D2D0030 [132.227800 188.357700 81.396940] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D2D001, 0x79D2D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79D2D001, 0x79D2D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79D2D001, 0x79D2D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79D2D001, 0x79D2D005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79D2D001, 0x79D2D006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79D2D001, 0x79D2D007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79D2D001, 0x79D2D008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79D2D001, 0x79D2D009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79D2D001, 0x79D2D00A, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x79D2D001, 0x79D2D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79D2D001, 0x79D2D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79D2D001, 0x79D2D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79D2D001, 0x79D2D005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79D2D001, 0x79D2D006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79D2D001, 0x79D2D007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79D2D001, 0x79D2D008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79D2D001, 0x79D2D009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79D2D001, 0x79D2D00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D2D002,  4254, 0x9D2D0030, 132.2278, 188.3577, 81.39694, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -56,7 +56,7 @@ VALUES (0x79D2D00B,  1542, 0x9D2D0015, 60.28473, 117.4964, 65.58273, 0.4721233, 
 /* @teleloc 0x9D2D0015 [60.284730 117.496400 65.582730] 0.472123 0.000000 0.000000 -0.881533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D2D00B, 0x79D2D00C, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79D2D00B, 0x79D2D00C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D2D00C,  8037, 0x9D2D0015, 60.28473, 117.4964, 65.58273, 0.4721233, 0, 0, -0.8815325,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

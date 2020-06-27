@@ -5,13 +5,13 @@ VALUES (0x793D2001,  1154, 0x93D20030, 137.4432, 170.4627, 386.3241, -0.4114442,
 /* @teleloc 0x93D20030 [137.443200 170.462700 386.324100] -0.411444 0.000000 0.000000 -0.911435 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793D2001, 0x793D2002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x793D2001, 0x793D2003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x793D2001, 0x793D2004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793D2001, 0x793D2005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x793D2001, 0x793D2006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D2001, 0x793D2007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D2001, 0x793D2008, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x793D2001, 0x793D2002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x793D2001, 0x793D2003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x793D2001, 0x793D2004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793D2001, 0x793D2005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x793D2001, 0x793D2006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D2001, 0x793D2007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D2001, 0x793D2008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793D2002, 24960, 0x93D20030, 137.4432, 170.4627, 386.3241, -0.4114442, 0, 0, -0.9114349,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
@@ -46,7 +46,7 @@ VALUES (0x793D2009,  1542, 0x93D2002E, 125.443, 134.4931, 396.1939, -0.4114442, 
 /* @teleloc 0x93D2002E [125.443000 134.493100 396.193900] -0.411444 0.000000 0.000000 -0.911435 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793D2009, 0x793D200A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x793D2009, 0x793D200A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793D200A, 42528, 0x93D2002E, 125.443, 134.4931, 396.1939, -0.4114442, 0, 0, -0.9114349,  True, '2019-02-10 00:00:00'); /* Rock */

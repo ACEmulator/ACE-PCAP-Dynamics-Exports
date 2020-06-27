@@ -5,11 +5,11 @@ VALUES (0x7C43B001,  1154, 0xC43B0016, 62.39921, 130.4341, 49.12149, 0.6214976, 
 /* @teleloc 0xC43B0016 [62.399210 130.434100 49.121490] 0.621498 0.000000 0.000000 -0.783416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C43B001, 0x7C43B002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C43B001, 0x7C43B003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C43B001, 0x7C43B004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C43B001, 0x7C43B005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C43B001, 0x7C43B006, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7C43B001, 0x7C43B002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C43B001, 0x7C43B003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C43B001, 0x7C43B004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C43B001, 0x7C43B005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C43B001, 0x7C43B006, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C43B002,  9251, 0xC43B0016, 62.39921, 130.4341, 49.12149, 0.6214976, 0, 0, -0.783416,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

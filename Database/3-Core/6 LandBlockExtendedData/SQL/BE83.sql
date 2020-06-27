@@ -5,18 +5,18 @@ VALUES (0x7BE83001,  1154, 0xBE830028, 102.2714, 173.1083, 33.58631, -0.08031107
 /* @teleloc 0xBE830028 [102.271400 173.108300 33.586310] -0.080311 0.000000 0.000000 -0.996770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE83001, 0x7BE83002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BE83001, 0x7BE83008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE83001, 0x7BE83009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE83001, 0x7BE8300A, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BE83001, 0x7BE8300B, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BE83001, 0x7BE8300C, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BE83001, 0x7BE8300D, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7BE83001, 0x7BE83002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE83001, 0x7BE83003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE83001, 0x7BE83004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE83001, 0x7BE83005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BE83001, 0x7BE83006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BE83001, 0x7BE83007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BE83001, 0x7BE83008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE83001, 0x7BE83009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE83001, 0x7BE8300A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BE83001, 0x7BE8300B, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BE83001, 0x7BE8300C, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BE83001, 0x7BE8300D, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE83002,   215, 0xBE830028, 102.2714, 173.1083, 33.58631, -0.08031107, 0, 0, -0.9967698,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

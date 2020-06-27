@@ -5,10 +5,10 @@ VALUES (0x7A15D001,  1154, 0xA15D002F, 132.1693, 157.0624, 58, -0.9077918, 0, 0,
 /* @teleloc 0xA15D002F [132.169300 157.062400 58.000000] -0.907792 0.000000 0.000000 -0.419421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A15D001, 0x7A15D002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15D001, 0x7A15D003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A15D001, 0x7A15D004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A15D001, 0x7A15D005, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7A15D001, 0x7A15D002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15D001, 0x7A15D003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A15D001, 0x7A15D004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A15D001, 0x7A15D005, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A15D002,  5429, 0xA15D002F, 132.1693, 157.0624, 58, -0.9077918, 0, 0, -0.4194212,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

@@ -5,15 +5,15 @@ VALUES (0x76F9B001,  1154, 0x6F9B0008, 5.480485, 174.3016, 71.65132, -0.8841978,
 /* @teleloc 0x6F9B0008 [5.480485 174.301600 71.651320] -0.884198 0.000000 0.000000 -0.467113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F9B001, 0x76F9B002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76F9B001, 0x76F9B003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x76F9B001, 0x76F9B004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76F9B001, 0x76F9B005, '2019-02-10 00:00:00') /* Ember */
-     , (0x76F9B001, 0x76F9B006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76F9B001, 0x76F9B007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76F9B001, 0x76F9B008, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x76F9B001, 0x76F9B009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76F9B001, 0x76F9B00A, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x76F9B001, 0x76F9B002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76F9B001, 0x76F9B003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x76F9B001, 0x76F9B004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76F9B001, 0x76F9B005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x76F9B001, 0x76F9B006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76F9B001, 0x76F9B007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76F9B001, 0x76F9B008, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x76F9B001, 0x76F9B009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76F9B001, 0x76F9B00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F9B002,  7123, 0x6F9B0008, 5.480485, 174.3016, 71.65132, -0.8841978, 0, 0, -0.4671126,  True, '2019-02-10 00:00:00'); /* Dark Leech */

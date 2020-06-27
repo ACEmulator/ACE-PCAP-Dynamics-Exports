@@ -5,25 +5,25 @@ VALUES (0x773EB001,  1154, 0x73EB0035, 149.9489, 102.5678, 153.2423, 0.1139257, 
 /* @teleloc 0x73EB0035 [149.948900 102.567800 153.242300] 0.113926 0.000000 0.000000 -0.993489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773EB001, 0x773EB002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x773EB001, 0x773EB003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x773EB001, 0x773EB004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x773EB001, 0x773EB005, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x773EB001, 0x773EB006, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x773EB001, 0x773EB007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x773EB001, 0x773EB008, '2019-02-10 00:00:00') /* Brumal */
-     , (0x773EB001, 0x773EB009, '2019-02-10 00:00:00') /* Horripal */
-     , (0x773EB001, 0x773EB00A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x773EB001, 0x773EB00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x773EB001, 0x773EB00C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x773EB001, 0x773EB00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x773EB001, 0x773EB00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x773EB001, 0x773EB00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x773EB001, 0x773EB010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773EB001, 0x773EB011, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773EB001, 0x773EB012, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x773EB001, 0x773EB013, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x773EB001, 0x773EB014, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x773EB001, 0x773EB002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x773EB001, 0x773EB003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x773EB001, 0x773EB004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x773EB001, 0x773EB005, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x773EB001, 0x773EB006, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x773EB001, 0x773EB007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x773EB001, 0x773EB008, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x773EB001, 0x773EB009, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x773EB001, 0x773EB00A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x773EB001, 0x773EB00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x773EB001, 0x773EB00C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x773EB001, 0x773EB00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x773EB001, 0x773EB00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x773EB001, 0x773EB00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x773EB001, 0x773EB010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773EB001, 0x773EB011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773EB001, 0x773EB012, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x773EB001, 0x773EB013, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x773EB001, 0x773EB014, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773EB002, 36830, 0x73EB0035, 149.9489, 102.5678, 153.2423, 0.1139257, 0, 0, -0.9934893,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -106,8 +106,8 @@ VALUES (0x773EB015,  1542, 0x73EB002B, 136.0721, 70.42744, 134.5509, 1, 0, 0, 0,
 /* @teleloc 0x73EB002B [136.072100 70.427440 134.550900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773EB015, 0x773EB016, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x773EB015, 0x773EB017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x773EB015, 0x773EB016, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x773EB015, 0x773EB017, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773EB016, 31445, 0x73EB002B, 136.0721, 70.42744, 134.5509, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,19 +5,19 @@ VALUES (0x7188B001,  1154, 0x188B000C, 45.10639, 92.05037, 167.6872, 0.481497, 0
 /* @teleloc 0x188B000C [45.106390 92.050370 167.687200] 0.481497 0.000000 0.000000 -0.876448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7188B001, 0x7188B002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7188B001, 0x7188B003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7188B001, 0x7188B004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7188B001, 0x7188B005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7188B001, 0x7188B006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7188B001, 0x7188B007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7188B001, 0x7188B008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7188B001, 0x7188B009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7188B001, 0x7188B00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7188B001, 0x7188B00B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7188B001, 0x7188B00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7188B001, 0x7188B00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7188B001, 0x7188B00E, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x7188B001, 0x7188B002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7188B001, 0x7188B003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7188B001, 0x7188B004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7188B001, 0x7188B005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7188B001, 0x7188B006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7188B001, 0x7188B007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7188B001, 0x7188B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7188B001, 0x7188B009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7188B001, 0x7188B00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7188B001, 0x7188B00B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7188B001, 0x7188B00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7188B001, 0x7188B00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7188B001, 0x7188B00E, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7188B002, 36840, 0x188B000C, 45.10639, 92.05037, 167.6872, 0.481497, 0, 0, -0.8764477,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -76,7 +76,7 @@ VALUES (0x7188B00F,  1542, 0x188B000D, 26.54249, 112.1974, 167.7251, 1, 0, 0, 0,
 /* @teleloc 0x188B000D [26.542490 112.197400 167.725100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7188B00F, 0x7188B010, '2019-02-10 00:00:00') /* North Desert Edge */;
+VALUES (0x7188B00F, 0x7188B010, '2019-02-10 00:00:00') /* North Desert Edge (1905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7188B010,  1905, 0x188B000D, 26.54249, 112.1974, 167.7251, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */

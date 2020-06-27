@@ -5,11 +5,11 @@ VALUES (0x7BD75001,  1154, 0xBD75001F, 76.14462, 144.2784, 22.02652, 0.5854964, 
 /* @teleloc 0xBD75001F [76.144620 144.278400 22.026520] 0.585496 0.000000 0.000000 -0.810675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD75001, 0x7BD75002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BD75001, 0x7BD75003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BD75001, 0x7BD75004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BD75001, 0x7BD75005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BD75001, 0x7BD75006, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7BD75001, 0x7BD75002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BD75001, 0x7BD75003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BD75001, 0x7BD75004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BD75001, 0x7BD75005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BD75001, 0x7BD75006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD75002,   193, 0xBD75001F, 76.14462, 144.2784, 22.02652, 0.5854964, 0, 0, -0.810675,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

@@ -5,18 +5,18 @@ VALUES (0x728E9001,  1154, 0x28E90002, 8.123941, 29.41838, 8.012, -0.764896, 0, 
 /* @teleloc 0x28E90002 [8.123941 29.418380 8.012000] -0.764896 0.000000 0.000000 -0.644154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728E9001, 0x728E9002, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x728E9001, 0x728E9003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x728E9001, 0x728E9004, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728E9001, 0x728E9005, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x728E9001, 0x728E9006, '2019-02-10 00:00:00') /* Eater */
-     , (0x728E9001, 0x728E9007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x728E9001, 0x728E9008, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x728E9001, 0x728E9009, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728E9001, 0x728E900A, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x728E9001, 0x728E900B, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x728E9001, 0x728E900C, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x728E9001, 0x728E900D, '2019-02-10 00:00:00') /* Dread Mu-miyah */;
+VALUES (0x728E9001, 0x728E9002, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x728E9001, 0x728E9003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x728E9001, 0x728E9004, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728E9001, 0x728E9005, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x728E9001, 0x728E9006, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x728E9001, 0x728E9007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x728E9001, 0x728E9008, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x728E9001, 0x728E9009, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728E9001, 0x728E900A, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x728E9001, 0x728E900B, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x728E9001, 0x728E900C, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x728E9001, 0x728E900D, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728E9002, 29358, 0x28E90002, 8.123941, 29.41838, 8.012, -0.764896, 0, 0, -0.6441538,  True, '2019-02-10 00:00:00'); /* Woodland Phyntos Wasp */

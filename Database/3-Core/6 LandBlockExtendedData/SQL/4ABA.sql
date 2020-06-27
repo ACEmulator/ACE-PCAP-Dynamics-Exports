@@ -5,8 +5,8 @@ VALUES (0x74ABA001,  1154, 0x4ABA003E, 186.7917, 135.1898, 78.21356, 0.9238795, 
 /* @teleloc 0x4ABA003E [186.791700 135.189800 78.213560] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74ABA001, 0x74ABA002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74ABA001, 0x74ABA003, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x74ABA001, 0x74ABA002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74ABA001, 0x74ABA003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74ABA002,  1629, 0x4ABA003E, 186.7917, 135.1898, 78.21356, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

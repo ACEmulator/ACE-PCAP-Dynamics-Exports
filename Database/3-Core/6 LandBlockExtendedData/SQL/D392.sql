@@ -5,26 +5,26 @@ VALUES (0x7D392001,  1154, 0xD392001B, 81.63171, 58.72928, 0.006600022, -0.51356
 /* @teleloc 0xD392001B [81.631710 58.729280 0.006600] -0.513568 0.000000 0.000000 -0.858049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D392001, 0x7D392002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D392001, 0x7D392003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D392001, 0x7D392004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D392001, 0x7D392005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D392001, 0x7D392006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D392001, 0x7D392007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D392001, 0x7D392008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D392001, 0x7D392009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D392001, 0x7D39200A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D392001, 0x7D39200B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D392001, 0x7D39200C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D39200D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D39200E, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D39200F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D392001, 0x7D392010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D392001, 0x7D392011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D392001, 0x7D392012, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D392013, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D392014, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D392001, 0x7D392015, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7D392001, 0x7D392002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D392001, 0x7D392003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D392001, 0x7D392004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D392001, 0x7D392005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D392001, 0x7D392006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D392001, 0x7D392007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D392001, 0x7D392008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D392001, 0x7D392009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D392001, 0x7D39200A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D392001, 0x7D39200B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D392001, 0x7D39200C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D39200D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D39200E, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D39200F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D392001, 0x7D392010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D392001, 0x7D392011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D392001, 0x7D392012, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D392013, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D392014, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D392001, 0x7D392015, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D392002,  8429, 0xD392001B, 81.63171, 58.72928, 0.006600022, -0.5135683, 0, 0, -0.8580487,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */
@@ -111,7 +111,7 @@ VALUES (0x7D392016,  1542, 0xD3920005, 13.81105, 115.6121, 7.997838, 1, 0, 0, 0,
 /* @teleloc 0xD3920005 [13.811050 115.612100 7.997838] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D392016, 0x7D392017, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D392016, 0x7D392017, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D392017, 31443, 0xD3920005, 13.81105, 115.6121, 7.997838, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

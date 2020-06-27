@@ -5,15 +5,15 @@ VALUES (0x7425C001,  1154, 0x425C001B, 89.5298, 61.71561, 0.9600465, -0.2675492,
 /* @teleloc 0x425C001B [89.529800 61.715610 0.960047] -0.267549 0.000000 0.000000 -0.963544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7425C001, 0x7425C002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7425C001, 0x7425C003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7425C001, 0x7425C004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7425C001, 0x7425C005, '2019-02-10 00:00:00') /* Flare */
-     , (0x7425C001, 0x7425C006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7425C001, 0x7425C007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7425C001, 0x7425C008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7425C001, 0x7425C009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7425C001, 0x7425C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7425C001, 0x7425C002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7425C001, 0x7425C003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7425C001, 0x7425C004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7425C001, 0x7425C005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7425C001, 0x7425C006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7425C001, 0x7425C007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7425C001, 0x7425C008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7425C001, 0x7425C009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7425C001, 0x7425C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7425C002,  8431, 0x425C001B, 89.5298, 61.71561, 0.9600465, -0.2675492, 0, 0, -0.9635442,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

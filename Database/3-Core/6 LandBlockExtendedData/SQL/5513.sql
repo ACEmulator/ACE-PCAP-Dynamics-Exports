@@ -5,9 +5,9 @@ VALUES (0x75513001,  1154, 0x5513000B, 47.8133, 65.815, 135.8956, -0.9178407, 0,
 /* @teleloc 0x5513000B [47.813300 65.815000 135.895600] -0.917841 0.000000 0.000000 -0.396949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75513001, 0x75513002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75513001, 0x75513003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75513001, 0x75513004, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75513001, 0x75513002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75513001, 0x75513003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75513001, 0x75513004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75513002,  7089, 0x5513000B, 47.8133, 65.815, 135.8956, -0.9178407, 0, 0, -0.3969491,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

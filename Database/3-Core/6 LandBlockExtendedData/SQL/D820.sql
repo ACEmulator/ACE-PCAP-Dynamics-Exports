@@ -5,22 +5,22 @@ VALUES (0x7D820001,  1154, 0xD8200022, 110.4188, 25.19187, -0.888, 0.2747166, 0,
 /* @teleloc 0xD8200022 [110.418800 25.191870 -0.888000] 0.274717 0.000000 0.000000 -0.961525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D820001, 0x7D820002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D820001, 0x7D820003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D820001, 0x7D820004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D820001, 0x7D820005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D820001, 0x7D820006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7D820001, 0x7D820007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D820001, 0x7D820008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D820001, 0x7D820009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D820001, 0x7D82000A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D820001, 0x7D82000B, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7D820001, 0x7D82000C, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D820001, 0x7D82000D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D820001, 0x7D82000E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D820001, 0x7D82000F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D820001, 0x7D820010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7D820001, 0x7D820011, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7D820001, 0x7D820002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D820001, 0x7D820003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D820001, 0x7D820004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D820001, 0x7D820005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D820001, 0x7D820006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7D820001, 0x7D820007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D820001, 0x7D820008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D820001, 0x7D820009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D820001, 0x7D82000A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D820001, 0x7D82000B, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7D820001, 0x7D82000C, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D820001, 0x7D82000D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D820001, 0x7D82000E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D820001, 0x7D82000F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D820001, 0x7D820010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7D820001, 0x7D820011, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D820002,  7105, 0xD8200022, 110.4188, 25.19187, -0.888, 0.2747166, 0, 0, -0.9615252,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -91,7 +91,7 @@ VALUES (0x7D820012,  1542, 0xD8200006, 3.988312, 127.0541, 26.23164, 0.9990482, 
 /* @teleloc 0xD8200006 [3.988312 127.054100 26.231640] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D820012, 0x7D820013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D820012, 0x7D820013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D820013,  4179, 0xD8200006, 3.988312, 127.0541, 26.23164, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

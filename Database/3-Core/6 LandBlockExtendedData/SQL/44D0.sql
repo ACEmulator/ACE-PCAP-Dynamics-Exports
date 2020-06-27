@@ -5,13 +5,13 @@ VALUES (0x744D0001,  1154, 0x44D00021, 103.2414, 15.41605, 33.72746, 0.8191521, 
 /* @teleloc 0x44D00021 [103.241400 15.416050 33.727460] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744D0001, 0x744D0002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x744D0001, 0x744D0003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x744D0001, 0x744D0004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x744D0001, 0x744D0005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x744D0001, 0x744D0006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x744D0001, 0x744D0007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x744D0001, 0x744D0008, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x744D0001, 0x744D0002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x744D0001, 0x744D0003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x744D0001, 0x744D0004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x744D0001, 0x744D0005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x744D0001, 0x744D0006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x744D0001, 0x744D0007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x744D0001, 0x744D0008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744D0002,  7340, 0x44D00021, 103.2414, 15.41605, 33.72746, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -46,8 +46,8 @@ VALUES (0x744D0009,  1542, 0x44D0002A, 132.3977, 46.57165, 46.86137, 1, 0, 0, 0,
 /* @teleloc 0x44D0002A [132.397700 46.571650 46.861370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744D0009, 0x744D000A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x744D0009, 0x744D000B, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x744D0009, 0x744D000A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x744D0009, 0x744D000B, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744D000A, 22567, 0x44D0002A, 132.3977, 46.57165, 46.86137, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

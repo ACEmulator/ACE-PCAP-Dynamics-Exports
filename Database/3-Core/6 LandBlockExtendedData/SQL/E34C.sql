@@ -5,17 +5,17 @@ VALUES (0x7E34C001,  1154, 0xE34C003E, 178.3856, 120.9392, 23.99675, 0.9573171, 
 /* @teleloc 0xE34C003E [178.385600 120.939200 23.996750] 0.957317 0.000000 0.000000 -0.289040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34C001, 0x7E34C002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E34C001, 0x7E34C003, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E34C001, 0x7E34C004, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E34C001, 0x7E34C005, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E34C001, 0x7E34C006, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7E34C001, 0x7E34C007, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7E34C001, 0x7E34C008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E34C001, 0x7E34C009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7E34C001, 0x7E34C00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E34C001, 0x7E34C00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E34C001, 0x7E34C00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7E34C001, 0x7E34C002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E34C001, 0x7E34C003, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E34C001, 0x7E34C004, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E34C001, 0x7E34C005, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E34C001, 0x7E34C006, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7E34C001, 0x7E34C007, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7E34C001, 0x7E34C008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E34C001, 0x7E34C009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7E34C001, 0x7E34C00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E34C001, 0x7E34C00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E34C001, 0x7E34C00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34C002, 24938, 0xE34C003E, 178.3856, 120.9392, 23.99675, 0.9573171, 0, 0, -0.2890397,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
@@ -66,9 +66,9 @@ VALUES (0x7E34C00D,  1542, 0xE34C0016, 70.79408, 140.3107, 24, 1, 0, 0, 0, False
 /* @teleloc 0xE34C0016 [70.794080 140.310700 24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34C00D, 0x7E34C00E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E34C00D, 0x7E34C00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E34C00D, 0x7E34C010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E34C00D, 0x7E34C00E, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7E34C00D, 0x7E34C00F, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7E34C00D, 0x7E34C010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34C00E, 22572, 0xE34C0016, 70.79408, 140.3107, 24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -281,129 +281,129 @@ VALUES (0x789040E6,  1154, 0x8904011D, 35, -10, 0.01100004, -4.37114E-08, 0, 0, 
 /* @teleloc 0x8904011D [35.000000 -10.000000 0.011000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789040E6, 0x789040E7, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x789040E8, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x789040E9, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x789040EA, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x789040EB, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x789040EC, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x789040ED, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x789040EE, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x789040EF, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x789040F0, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040F1, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040F2, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040F3, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040F4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040F5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040F6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040F7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040F8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040F9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040FA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040FB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x789040FC, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040FD, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040FE, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x789040FF, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x78904100, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904101, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904102, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904103, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904104, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904105, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904106, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904107, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904108, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x78904109, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410A, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410C, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410D, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410E, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890410F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x78904110, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904111, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904112, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904113, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904114, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904115, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904116, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904117, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904118, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904119, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890411A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890411B, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890411C, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890411D, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890411E, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890411F, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904120, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904121, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904122, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904123, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904124, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904125, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904126, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904127, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904128, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904129, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412A, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412B, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412C, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412D, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412E, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890412F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904130, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904131, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904132, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904133, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904134, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904135, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904136, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904137, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904138, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904139, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890413A, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890413B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x7890413C, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890413D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890413E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x7890413F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x78904140, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904141, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904142, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904143, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904144, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904145, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904146, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904147, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904148, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904149, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890414A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890414B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x7890414C, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890414D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890414E, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x7890414F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904150, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904151, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904152, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904153, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904154, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904155, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904156, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp */
-     , (0x789040E6, 0x78904157, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x789040E6, 0x78904158, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904159, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890415A, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890415B, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x7890415C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x7890415D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x7890415E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x7890415F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x789040E6, 0x78904160, '2019-02-10 00:00:00') /* Masonry Golem */
-     , (0x789040E6, 0x78904161, '2019-02-10 00:00:00') /* Masonry Golem */;
+VALUES (0x789040E6, 0x789040E7, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x789040E8, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x789040E9, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x789040EA, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x789040EB, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x789040EC, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x789040ED, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x789040EE, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x789040EF, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x789040F0, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040F1, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040F2, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040F3, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040F4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040F5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040F6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040F7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040F8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040F9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040FA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040FB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x789040FC, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040FD, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040FE, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x789040FF, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x78904100, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904101, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904102, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904103, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904104, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904105, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904106, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904107, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904108, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x78904109, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410A, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410C, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410D, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410E, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890410F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x78904110, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904111, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904112, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904113, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904114, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904115, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904116, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904117, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904118, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904119, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890411A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890411B, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890411C, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890411D, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890411E, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890411F, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904120, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904121, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904122, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904123, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904124, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904125, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904126, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904127, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904128, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904129, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412A, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412B, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412C, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412D, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412E, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890412F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904130, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904131, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904132, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904133, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904134, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904135, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904136, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904137, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904138, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904139, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890413A, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890413B, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x7890413C, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890413D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890413E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x7890413F, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x78904140, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904141, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904142, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904143, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904144, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904145, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904146, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904147, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904148, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904149, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890414A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890414B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x7890414C, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890414D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890414E, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x7890414F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904150, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904151, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904152, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904153, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904154, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904155, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904156, '2019-02-10 00:00:00') /* Intense Corroding Crystalline Wisp (42668) */
+     , (0x789040E6, 0x78904157, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (42670) */
+     , (0x789040E6, 0x78904158, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904159, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890415A, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890415B, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x7890415C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x7890415D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x7890415E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x7890415F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (42671) */
+     , (0x789040E6, 0x78904160, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x789040E6, 0x78904161, '2019-02-10 00:00:00') /* Masonry Golem (33033) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789040E7, 33033, 0x8904011D, 35, -10, 0.01100004, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
@@ -902,7 +902,7 @@ VALUES (0x78904162,  1542, 0x89040335, 54.99787, 0.1459976, 23.94855, 0.7173561,
 /* @teleloc 0x89040335 [54.997870 0.145998 23.948550] 0.717356 0.000000 0.000000 -0.696707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78904162, 0x78904163, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x78904162, 0x78904163, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78904163,  1955, 0x89040335, 54.99787, 0.1459976, 23.94855, 0.7173561, 0, 0, -0.6967067,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,423 +5,423 @@ VALUES (0x7BCEB001,  1154, 0xBCEB0008, 20.40481, 177.6268, -0.0975, 1, 0, 0, 0, 
 /* @teleloc 0xBCEB0008 [20.404810 177.626800 -0.097500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCEB001, 0x7BCEB002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB005, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB006, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB00A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB00B, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEB001, 0x7BCEB00C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB00D, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB010, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB011, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB012, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB013, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB014, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB015, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB016, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB017, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB018, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB019, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01E, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB01F, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB020, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB021, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BCEB001, 0x7BCEB022, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB023, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB024, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB025, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BCEB001, 0x7BCEB026, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB027, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB028, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB029, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB02A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB02B, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB02C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB02D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB02E, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BCEB001, 0x7BCEB02F, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB030, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB031, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB032, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB033, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB034, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB035, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB036, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB037, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB038, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB039, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BCEB001, 0x7BCEB03A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BCEB001, 0x7BCEB03B, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEB001, 0x7BCEB03C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB03D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB03E, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB03F, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB040, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB041, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB042, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB043, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB044, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB045, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB046, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB047, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB048, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB049, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB04A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB04B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB04C, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB04D, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB04E, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB04F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB050, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB051, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB052, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB053, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB054, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB055, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB056, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB057, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB058, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB059, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB05A, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB05B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB05C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB05D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB05E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB05F, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB060, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB061, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB062, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB063, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB064, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB065, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB066, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB067, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB068, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB069, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB06A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB06B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB06C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB06D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB06E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB06F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB070, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB071, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB072, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB073, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB074, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB075, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB076, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB077, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB078, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB079, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB07A, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB07B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB07C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB07D, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB07E, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB07F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB080, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB081, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB082, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB083, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB084, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB085, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB086, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BCEB001, 0x7BCEB087, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BCEB001, 0x7BCEB088, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB089, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB08A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB08B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB08C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BCEB001, 0x7BCEB08D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB08E, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB08F, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB090, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB091, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB092, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB093, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB094, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB095, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB096, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB097, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB098, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB099, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB09A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB09B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB09C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB09D, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB09E, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB09F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0A0, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0A1, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB0A2, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB0A3, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0A4, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB0A5, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BCEB001, 0x7BCEB0A6, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB0A7, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0A8, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0A9, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0AA, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0AB, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0AC, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0AD, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0AE, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0AF, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0B0, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0B1, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0B2, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0B3, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0B4, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0B5, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEB001, 0x7BCEB0B6, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0B7, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0B8, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0B9, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0BA, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB0BB, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0BC, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0BD, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0BE, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB0BF, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB0C0, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0C1, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEB001, 0x7BCEB0C2, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0C3, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0C4, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0C5, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0C6, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0C7, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0C8, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0C9, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB0CA, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB0CB, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0CC, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0CD, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0CE, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0CF, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB0D0, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0D1, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0D2, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB0D3, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0D4, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0D5, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0D6, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0D7, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0D8, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0D9, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0DA, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0DB, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0DC, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0DD, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0DE, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0DF, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BCEB001, 0x7BCEB0E0, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0E1, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BCEB001, 0x7BCEB0E2, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0E3, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0E4, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB0E5, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0E6, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB0E7, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB0E8, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB0E9, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB0EA, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB0EB, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB0EC, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0ED, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0EE, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0EF, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0F0, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0F1, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB0F2, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0F3, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0F4, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0F5, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0F6, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0F7, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB0F8, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0F9, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB0FA, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0FB, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0FC, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB0FD, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0FE, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB0FF, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB100, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB101, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB102, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB103, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB104, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB105, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB106, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB107, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB108, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB109, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB10A, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB10B, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB10C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB10D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB10E, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCEB001, 0x7BCEB10F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB110, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB111, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB112, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB113, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB114, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB115, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB116, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB117, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB118, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB119, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB11A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB11B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB11C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB11D, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB11E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB11F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB120, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB121, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB122, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB123, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB124, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB125, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB126, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB127, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB128, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB129, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB12A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB12B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB12C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB12D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB12E, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB12F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB130, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB131, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB132, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB133, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB134, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB135, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB136, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB137, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB138, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB139, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB13A, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB13B, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB13C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB13D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB13E, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB13F, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB140, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB141, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB142, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB143, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB144, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB145, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB146, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB147, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB148, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB149, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB14A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB14B, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB14C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB14D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB14E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB14F, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB150, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB151, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BCEB001, 0x7BCEB152, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB153, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB154, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB155, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB156, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB157, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB158, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB159, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB15A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB15B, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB15C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB15D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB15E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB15F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB160, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB161, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB162, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB163, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB164, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB165, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB166, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB167, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB168, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB169, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB16A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB16B, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB16C, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCEB001, 0x7BCEB16D, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB16E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB16F, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB170, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCEB001, 0x7BCEB171, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB172, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB173, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB174, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB175, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB176, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BCEB001, 0x7BCEB177, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCEB001, 0x7BCEB178, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCEB001, 0x7BCEB179, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB17A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB17B, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB17C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB17D, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB17E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB17F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB180, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB181, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB182, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB183, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB184, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB185, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB186, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB187, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB188, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB189, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB18A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB18B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB18C, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BCEB001, 0x7BCEB18D, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB18E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB18F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BCEB001, 0x7BCEB190, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB191, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB192, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB193, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB194, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCEB001, 0x7BCEB195, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB196, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB197, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB198, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB199, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB19A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCEB001, 0x7BCEB19B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB19C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BCEB001, 0x7BCEB19D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB19E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BCEB001, 0x7BCEB19F, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB1A0, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BCEB001, 0x7BCEB1A1, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCEB001, 0x7BCEB1A2, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7BCEB001, 0x7BCEB002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB003, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB004, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB005, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB00B, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEB001, 0x7BCEB00C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB00D, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB010, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB011, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB012, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB013, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB014, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB015, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB016, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB017, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB018, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB019, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01E, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB01F, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB020, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB021, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BCEB001, 0x7BCEB022, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB023, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB024, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB025, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BCEB001, 0x7BCEB026, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB027, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB028, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB029, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB02A, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB02B, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB02C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB02D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB02E, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BCEB001, 0x7BCEB02F, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB030, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB031, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB032, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB033, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB034, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB035, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB036, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB037, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB038, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB039, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BCEB001, 0x7BCEB03A, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BCEB001, 0x7BCEB03B, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEB001, 0x7BCEB03C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB03D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB03E, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB03F, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB040, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB041, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB042, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB043, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB044, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB045, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB046, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB047, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB048, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB049, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB04A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB04B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB04C, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB04D, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB04E, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB04F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB050, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB051, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB052, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB053, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB054, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB055, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB056, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB057, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB058, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB059, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB05A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB05B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB05C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB05D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB05E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB05F, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB060, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB061, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB062, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB063, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB064, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB065, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB066, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB067, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB068, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB069, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB06A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB06B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB06C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB06D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB06E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB06F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB070, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB071, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB072, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB073, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB074, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB075, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB076, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB077, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB078, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB079, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB07A, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB07B, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB07C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB07D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB07E, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB07F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB080, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB081, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB082, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB083, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB084, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB085, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB086, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BCEB001, 0x7BCEB087, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BCEB001, 0x7BCEB088, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB089, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB08A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB08B, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB08C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BCEB001, 0x7BCEB08D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB08E, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB08F, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB090, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB091, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB092, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB093, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB094, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB095, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB096, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB097, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB098, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB099, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB09A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB09B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB09C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB09D, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB09E, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB09F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0A0, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0A1, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB0A2, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB0A3, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0A4, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB0A5, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BCEB001, 0x7BCEB0A6, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB0A7, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0A8, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB0A9, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0AA, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0AB, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0AC, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0AD, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB0AE, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0AF, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0B0, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0B1, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0B2, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0B3, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0B4, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0B5, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEB001, 0x7BCEB0B6, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0B7, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0B8, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0B9, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0BA, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB0BB, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0BC, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0BD, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0BE, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB0BF, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB0C0, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB0C1, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEB001, 0x7BCEB0C2, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0C3, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0C4, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0C5, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0C6, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0C7, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0C8, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0C9, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB0CA, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB0CB, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0CC, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0CD, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0CE, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0CF, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB0D0, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0D1, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0D2, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB0D3, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0D4, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0D5, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0D6, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0D7, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0D8, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0D9, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0DA, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0DB, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0DC, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0DD, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0DE, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0DF, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BCEB001, 0x7BCEB0E0, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0E1, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BCEB001, 0x7BCEB0E2, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0E3, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0E4, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB0E5, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0E6, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB0E7, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB0E8, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB0E9, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB0EA, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB0EB, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB0EC, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB0ED, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0EE, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0EF, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0F0, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0F1, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB0F2, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0F3, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0F4, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0F5, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0F6, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0F7, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB0F8, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0F9, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB0FA, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0FB, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0FC, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB0FD, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0FE, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB0FF, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB100, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB101, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB102, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB103, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB104, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB105, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB106, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB107, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB108, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB109, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB10A, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB10B, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB10C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB10D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB10E, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCEB001, 0x7BCEB10F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB110, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB111, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB112, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB113, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB114, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB115, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB116, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB117, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB118, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB119, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB11A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB11B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB11C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB11D, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB11E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB11F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB120, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB121, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB122, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB123, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB124, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB125, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB126, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB127, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB128, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB129, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB12A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB12B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB12C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB12D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB12E, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB12F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB130, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB131, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB132, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB133, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB134, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB135, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB136, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB137, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB138, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB139, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB13A, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB13B, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB13C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB13D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB13E, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB13F, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB140, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB141, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB142, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB143, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB144, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB145, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB146, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB147, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB148, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB149, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB14A, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB14B, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB14C, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB14D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB14E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB14F, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB150, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB151, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BCEB001, 0x7BCEB152, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB153, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB154, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB155, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB156, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB157, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB158, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB159, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB15A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB15B, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB15C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB15D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB15E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB15F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB160, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB161, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB162, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB163, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB164, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB165, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB166, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB167, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB168, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB169, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB16A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB16B, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB16C, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCEB001, 0x7BCEB16D, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB16E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB16F, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB170, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCEB001, 0x7BCEB171, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB172, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB173, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB174, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB175, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB176, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BCEB001, 0x7BCEB177, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCEB001, 0x7BCEB178, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCEB001, 0x7BCEB179, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB17A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB17B, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BCEB001, 0x7BCEB17C, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB17D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB17E, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB17F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB180, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB181, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB182, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB183, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB184, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB185, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB186, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB187, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB188, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB189, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB18A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB18B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB18C, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BCEB001, 0x7BCEB18D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB18E, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB18F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BCEB001, 0x7BCEB190, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB191, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB192, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB193, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB194, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCEB001, 0x7BCEB195, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB196, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB197, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB198, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB199, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB19A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCEB001, 0x7BCEB19B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB19C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BCEB001, 0x7BCEB19D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB19E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BCEB001, 0x7BCEB19F, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB1A0, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BCEB001, 0x7BCEB1A1, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCEB001, 0x7BCEB1A2, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCEB002,  7607, 0xBCEB0008, 20.40481, 177.6268, -0.0975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -2096,14 +2096,14 @@ VALUES (0x7BCEB1A3,  1542, 0xBCEB001F, 94.33203, 145.1653, 78.09592, 1, 0, 0, 0,
 /* @teleloc 0xBCEB001F [94.332030 145.165300 78.095920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCEB1A3, 0x7BCEB1A4, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1A5, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1A6, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1A7, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1A8, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1A9, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1AA, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BCEB1A3, 0x7BCEB1AB, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BCEB1A3, 0x7BCEB1A4, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1A5, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1A6, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1A7, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1A8, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1A9, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1AA, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BCEB1A3, 0x7BCEB1AB, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCEB1A4,  4179, 0xBCEB001F, 94.33203, 145.1653, 78.09592, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

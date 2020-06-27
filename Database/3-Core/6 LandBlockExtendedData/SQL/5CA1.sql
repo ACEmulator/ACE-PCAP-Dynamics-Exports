@@ -5,20 +5,20 @@ VALUES (0x75CA1001,  1154, 0x5CA1003F, 183.7627, 147.9817, 72.99793, 0.9998456, 
 /* @teleloc 0x5CA1003F [183.762700 147.981700 72.997930] 0.999846 0.000000 0.000000 -0.017573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CA1001, 0x75CA1002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75CA1001, 0x75CA1003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75CA1001, 0x75CA1004, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA1001, 0x75CA1005, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA1001, 0x75CA1006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75CA1001, 0x75CA1007, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75CA1001, 0x75CA1008, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA1001, 0x75CA1009, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA1001, 0x75CA100A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75CA1001, 0x75CA100B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75CA1001, 0x75CA100C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75CA1001, 0x75CA100D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75CA1001, 0x75CA100E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75CA1001, 0x75CA100F, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x75CA1001, 0x75CA1002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75CA1001, 0x75CA1003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75CA1001, 0x75CA1004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA1001, 0x75CA1005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA1001, 0x75CA1006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75CA1001, 0x75CA1007, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75CA1001, 0x75CA1008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA1001, 0x75CA1009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA1001, 0x75CA100A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75CA1001, 0x75CA100B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75CA1001, 0x75CA100C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75CA1001, 0x75CA100D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75CA1001, 0x75CA100E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75CA1001, 0x75CA100F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CA1002,  7121, 0x5CA1003F, 183.7627, 147.9817, 72.99793, 0.9998456, 0, 0, -0.01757263,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -81,7 +81,7 @@ VALUES (0x75CA1010,  1542, 0x5CA1003E, 190.4423, 130.4235, 69.9651, 0.9238795, 0
 /* @teleloc 0x5CA1003E [190.442300 130.423500 69.965100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CA1010, 0x75CA1011, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x75CA1010, 0x75CA1011, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CA1011,  4180, 0x5CA1003E, 190.4423, 130.4235, 69.9651, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

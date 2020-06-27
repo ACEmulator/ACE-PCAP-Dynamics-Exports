@@ -5,20 +5,20 @@ VALUES (0x7CD9D001,  1154, 0xCD9D001A, 83.55659, 27.00577, 20.013, -0.6451445, 0
 /* @teleloc 0xCD9D001A [83.556590 27.005770 20.013000] -0.645145 0.000000 0.000000 -0.764061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9D001, 0x7CD9D002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD9D001, 0x7CD9D003, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7CD9D001, 0x7CD9D004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD9D001, 0x7CD9D005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD9D001, 0x7CD9D006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD9D001, 0x7CD9D007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD9D001, 0x7CD9D008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD9D001, 0x7CD9D009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CD9D001, 0x7CD9D00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CD9D001, 0x7CD9D00B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD9D001, 0x7CD9D00C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD9D001, 0x7CD9D00D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD9D001, 0x7CD9D00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD9D001, 0x7CD9D00F, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CD9D001, 0x7CD9D002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD9D001, 0x7CD9D003, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7CD9D001, 0x7CD9D004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD9D001, 0x7CD9D005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD9D001, 0x7CD9D006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD9D001, 0x7CD9D007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD9D001, 0x7CD9D008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD9D001, 0x7CD9D009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CD9D001, 0x7CD9D00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CD9D001, 0x7CD9D00B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD9D001, 0x7CD9D00C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD9D001, 0x7CD9D00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD9D001, 0x7CD9D00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD9D001, 0x7CD9D00F, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9D002,   217, 0xCD9D001A, 83.55659, 27.00577, 20.013, -0.6451445, 0, 0, -0.7640606,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -81,10 +81,10 @@ VALUES (0x7CD9D010,  1542, 0xCD9D0019, 83.96046, 9.488939, 20.47877, 0.9990482, 
 /* @teleloc 0xCD9D0019 [83.960460 9.488939 20.478770] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9D010, 0x7CD9D011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CD9D010, 0x7CD9D012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CD9D010, 0x7CD9D013, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7CD9D010, 0x7CD9D014, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7CD9D010, 0x7CD9D011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CD9D010, 0x7CD9D012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CD9D010, 0x7CD9D013, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7CD9D010, 0x7CD9D014, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9D011,  4179, 0xCD9D0019, 83.96046, 9.488939, 20.47877, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

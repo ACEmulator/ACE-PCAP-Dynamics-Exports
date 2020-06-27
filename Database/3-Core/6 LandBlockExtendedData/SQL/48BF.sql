@@ -5,12 +5,12 @@ VALUES (0x748BF001,  1154, 0x48BF0012, 57.06972, 47.22573, 40.91668, -4.371139E-
 /* @teleloc 0x48BF0012 [57.069720 47.225730 40.916680] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748BF001, 0x748BF002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x748BF001, 0x748BF003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x748BF001, 0x748BF004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x748BF001, 0x748BF005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x748BF001, 0x748BF006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x748BF001, 0x748BF007, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x748BF001, 0x748BF002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x748BF001, 0x748BF003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x748BF001, 0x748BF004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x748BF001, 0x748BF005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x748BF001, 0x748BF006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x748BF001, 0x748BF007, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748BF002,   231, 0x48BF0012, 57.06972, 47.22573, 40.91668, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -41,7 +41,7 @@ VALUES (0x748BF008,  1542, 0x48BF0012, 59.87146, 46.83814, 40.91668, 0.9990482, 
 /* @teleloc 0x48BF0012 [59.871460 46.838140 40.916680] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748BF008, 0x748BF009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x748BF008, 0x748BF009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748BF009,  4179, 0x48BF0012, 59.87146, 46.83814, 40.91668, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,9 +5,9 @@ VALUES (0x7D737001,  1154, 0xD7370011, 48.11776, 9.593655, 58.81928, -0.7660444,
 /* @teleloc 0xD7370011 [48.117760 9.593655 58.819280] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D737001, 0x7D737002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D737001, 0x7D737003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D737001, 0x7D737004, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7D737001, 0x7D737002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D737001, 0x7D737003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D737001, 0x7D737004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D737002, 24940, 0xD7370011, 48.11776, 9.593655, 58.81928, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -26,7 +26,7 @@ VALUES (0x7D737005,  1542, 0xD737002D, 120.7233, 106.2591, 82.79465, 1, 0, 0, 0,
 /* @teleloc 0xD737002D [120.723300 106.259100 82.794650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D737005, 0x7D737006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D737005, 0x7D737006, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D737006, 22576, 0xD737002D, 120.7233, 106.2591, 82.79465, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

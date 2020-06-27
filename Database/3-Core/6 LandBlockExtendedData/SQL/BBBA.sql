@@ -5,9 +5,9 @@ VALUES (0x7BBBA001,  1154, 0xBBBA0015, 61.00494, 108.5835, 215.6576, -0.1413269,
 /* @teleloc 0xBBBA0015 [61.004940 108.583500 215.657600] -0.141327 0.000000 0.000000 -0.989963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBBA001, 0x7BBBA002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BBBA001, 0x7BBBA003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7BBBA001, 0x7BBBA004, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7BBBA001, 0x7BBBA002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BBBA001, 0x7BBBA003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7BBBA001, 0x7BBBA004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBBA002,  9400, 0xBBBA0015, 61.00494, 108.5835, 215.6576, -0.1413269, 0, 0, -0.989963,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

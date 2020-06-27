@@ -5,10 +5,10 @@ VALUES (0x7B0CC001,  1154, 0xB0CC0010, 42.32696, 169.2374, 130.0916, 0.6558586, 
 /* @teleloc 0xB0CC0010 [42.326960 169.237400 130.091600] 0.655859 0.000000 0.000000 -0.754884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0CC001, 0x7B0CC002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B0CC001, 0x7B0CC003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B0CC001, 0x7B0CC004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B0CC001, 0x7B0CC005, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7B0CC001, 0x7B0CC002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B0CC001, 0x7B0CC003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B0CC001, 0x7B0CC004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B0CC001, 0x7B0CC005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0CC002,   217, 0xB0CC0010, 42.32696, 169.2374, 130.0916, 0.6558586, 0, 0, -0.7548837,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -31,7 +31,7 @@ VALUES (0x7B0CC006,  1542, 0xB0CC001B, 88.30323, 49.49462, 169.7022, 1, 0, 0, 0,
 /* @teleloc 0xB0CC001B [88.303230 49.494620 169.702200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0CC006, 0x7B0CC007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B0CC006, 0x7B0CC007, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0CC007, 22576, 0xB0CC001B, 88.30323, 49.49462, 169.7022, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,28 +5,28 @@ VALUES (0x7215D001,  1154, 0x215D0010, 24.13182, 180.904, 34.25739, 0.644866, 0,
 /* @teleloc 0x215D0010 [24.131820 180.904000 34.257390] 0.644866 0.000000 0.000000 -0.764296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215D001, 0x7215D002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7215D001, 0x7215D003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7215D001, 0x7215D004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7215D001, 0x7215D005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7215D001, 0x7215D006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7215D001, 0x7215D007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7215D001, 0x7215D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7215D001, 0x7215D009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7215D001, 0x7215D00A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7215D001, 0x7215D00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7215D001, 0x7215D00C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7215D001, 0x7215D00D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7215D001, 0x7215D00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7215D001, 0x7215D00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7215D001, 0x7215D010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7215D001, 0x7215D011, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7215D001, 0x7215D012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7215D001, 0x7215D013, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7215D001, 0x7215D014, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7215D001, 0x7215D015, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7215D001, 0x7215D016, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7215D001, 0x7215D017, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7215D001, 0x7215D002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7215D001, 0x7215D003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7215D001, 0x7215D004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7215D001, 0x7215D005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7215D001, 0x7215D006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7215D001, 0x7215D007, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7215D001, 0x7215D008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7215D001, 0x7215D009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7215D001, 0x7215D00A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7215D001, 0x7215D00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7215D001, 0x7215D00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7215D001, 0x7215D00D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7215D001, 0x7215D00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7215D001, 0x7215D00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7215D001, 0x7215D010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7215D001, 0x7215D011, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7215D001, 0x7215D012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7215D001, 0x7215D013, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7215D001, 0x7215D014, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7215D001, 0x7215D015, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7215D001, 0x7215D016, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7215D001, 0x7215D017, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215D002, 33309, 0x215D0010, 24.13182, 180.904, 34.25739, 0.644866, 0, 0, -0.7642956,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
@@ -121,7 +121,7 @@ VALUES (0x7215D018,  1542, 0x215D0025, 96.47195, 109.3792, 27.09126, 1, 0, 0, 0,
 /* @teleloc 0x215D0025 [96.471950 109.379200 27.091260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215D018, 0x7215D019, '2019-02-10 00:00:00') /* North Desert Edge */;
+VALUES (0x7215D018, 0x7215D019, '2019-02-10 00:00:00') /* North Desert Edge (1905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215D019,  1905, 0x215D0025, 96.47195, 109.3792, 27.09126, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */

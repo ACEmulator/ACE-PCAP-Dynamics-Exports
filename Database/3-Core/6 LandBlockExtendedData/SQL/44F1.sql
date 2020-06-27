@@ -5,13 +5,13 @@ VALUES (0x744F1001,  1154, 0x44F1002C, 143.5003, 94.69444, 51.63697, 0.948139, 0
 /* @teleloc 0x44F1002C [143.500300 94.694440 51.636970] 0.948139 0.000000 0.000000 -0.317856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744F1001, 0x744F1002, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x744F1001, 0x744F1003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x744F1001, 0x744F1004, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x744F1001, 0x744F1005, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x744F1001, 0x744F1006, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x744F1001, 0x744F1007, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x744F1001, 0x744F1008, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x744F1001, 0x744F1002, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x744F1001, 0x744F1003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x744F1001, 0x744F1004, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x744F1001, 0x744F1005, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x744F1001, 0x744F1006, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x744F1001, 0x744F1007, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x744F1001, 0x744F1008, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F1002, 29303, 0x44F1002C, 143.5003, 94.69444, 51.63697, 0.948139, 0, 0, -0.3178562,  True, '2019-02-10 00:00:00'); /* Royal Thaumaturge */

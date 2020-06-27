@@ -5,15 +5,15 @@ VALUES (0x79ADE001,  1154, 0x9ADE0005, 17.14154, 98.81853, 132.7146, -0.7558786,
 /* @teleloc 0x9ADE0005 [17.141540 98.818530 132.714600] -0.755879 0.000000 0.000000 -0.654712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ADE001, 0x79ADE002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79ADE001, 0x79ADE003, '2019-02-10 00:00:00') /* Frost */
-     , (0x79ADE001, 0x79ADE004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79ADE001, 0x79ADE005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79ADE001, 0x79ADE006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79ADE001, 0x79ADE007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79ADE001, 0x79ADE008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x79ADE001, 0x79ADE009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79ADE001, 0x79ADE00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x79ADE001, 0x79ADE002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79ADE001, 0x79ADE003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x79ADE001, 0x79ADE004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79ADE001, 0x79ADE005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79ADE001, 0x79ADE006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79ADE001, 0x79ADE007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79ADE001, 0x79ADE008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x79ADE001, 0x79ADE009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79ADE001, 0x79ADE00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ADE002, 14800, 0x9ADE0005, 17.14154, 98.81853, 132.7146, -0.7558786, 0, 0, -0.6547118,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -56,8 +56,8 @@ VALUES (0x79ADE00B,  1542, 0x9ADE0025, 116.7271, 105.1879, 129.6438, 0.9990482, 
 /* @teleloc 0x9ADE0025 [116.727100 105.187900 129.643800] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ADE00B, 0x79ADE00C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79ADE00B, 0x79ADE00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79ADE00B, 0x79ADE00C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79ADE00B, 0x79ADE00D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ADE00C,  4179, 0x9ADE0025, 116.7271, 105.1879, 129.6438, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

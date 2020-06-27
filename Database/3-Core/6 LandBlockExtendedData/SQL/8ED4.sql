@@ -5,32 +5,32 @@ VALUES (0x78ED4001,  1154, 0x8ED4003A, 191.7901, 31.99836, 489.3089, 0.04940544,
 /* @teleloc 0x8ED4003A [191.790100 31.998360 489.308900] 0.049405 0.000000 0.000000 -0.998779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED4001, 0x78ED4002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78ED4001, 0x78ED4003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78ED4001, 0x78ED4004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78ED4001, 0x78ED4005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78ED4001, 0x78ED4006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78ED4001, 0x78ED4007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78ED4001, 0x78ED4008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78ED4001, 0x78ED4009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78ED4001, 0x78ED400A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78ED4001, 0x78ED400B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78ED4001, 0x78ED400C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78ED4001, 0x78ED400D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78ED4001, 0x78ED400E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78ED4001, 0x78ED400F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78ED4001, 0x78ED4010, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78ED4001, 0x78ED4011, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78ED4001, 0x78ED4012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78ED4001, 0x78ED4013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78ED4001, 0x78ED4014, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78ED4001, 0x78ED4015, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78ED4001, 0x78ED4016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78ED4001, 0x78ED4017, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78ED4001, 0x78ED4018, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78ED4001, 0x78ED4019, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x78ED4001, 0x78ED401A, '2019-02-10 00:00:00') /* Shivver */
-     , (0x78ED4001, 0x78ED401B, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x78ED4001, 0x78ED4002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78ED4001, 0x78ED4003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78ED4001, 0x78ED4004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78ED4001, 0x78ED4005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78ED4001, 0x78ED4006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78ED4001, 0x78ED4007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78ED4001, 0x78ED4008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78ED4001, 0x78ED4009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78ED4001, 0x78ED400A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78ED4001, 0x78ED400B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78ED4001, 0x78ED400C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78ED4001, 0x78ED400D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78ED4001, 0x78ED400E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78ED4001, 0x78ED400F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78ED4001, 0x78ED4010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78ED4001, 0x78ED4011, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78ED4001, 0x78ED4012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78ED4001, 0x78ED4013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78ED4001, 0x78ED4014, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78ED4001, 0x78ED4015, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78ED4001, 0x78ED4016, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78ED4001, 0x78ED4017, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78ED4001, 0x78ED4018, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78ED4001, 0x78ED4019, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x78ED4001, 0x78ED401A, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x78ED4001, 0x78ED401B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED4002, 26468, 0x8ED4003A, 191.7901, 31.99836, 489.3089, 0.04940544, 0, 0, -0.9987788,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -141,7 +141,7 @@ VALUES (0x78ED401C,  1542, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0, 
 /* @teleloc 0x8ED4003A [178.235200 43.473300 483.214800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED401C, 0x78ED401D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78ED401C, 0x78ED401D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED401D, 22567, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

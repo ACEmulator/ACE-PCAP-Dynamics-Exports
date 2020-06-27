@@ -5,10 +5,10 @@ VALUES (0x72661001,  1154, 0x2661000E, 47.5807, 143.1761, 40.17721, -0.8125908, 
 /* @teleloc 0x2661000E [47.580700 143.176100 40.177210] -0.812591 0.000000 0.000000 -0.582835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72661001, 0x72661002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72661001, 0x72661003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72661001, 0x72661004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72661001, 0x72661005, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x72661001, 0x72661002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72661001, 0x72661003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72661001, 0x72661004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72661001, 0x72661005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72661002, 36855, 0x2661000E, 47.5807, 143.1761, 40.17721, -0.8125908, 0, 0, -0.5828347,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -31,7 +31,7 @@ VALUES (0x72661006,  1542, 0x2661000E, 46.98669, 128.4047, 40.42221, 1, 0, 0, 0,
 /* @teleloc 0x2661000E [46.986690 128.404700 40.422210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72661006, 0x72661007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72661006, 0x72661007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72661007, 22567, 0x2661000E, 46.98669, 128.4047, 40.42221, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,14 +5,14 @@ VALUES (0x7D73B001,  1154, 0xD73B0039, 184.56, 15.80521, 85.3129, -0.7660444, 0,
 /* @teleloc 0xD73B0039 [184.560000 15.805210 85.312900] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D73B001, 0x7D73B002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D73B001, 0x7D73B003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D73B001, 0x7D73B004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D73B001, 0x7D73B005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D73B001, 0x7D73B006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D73B001, 0x7D73B007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D73B001, 0x7D73B008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D73B001, 0x7D73B009, '2019-02-10 00:00:00') /* Linvak Ursuin */;
+VALUES (0x7D73B001, 0x7D73B002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D73B001, 0x7D73B003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D73B001, 0x7D73B004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D73B001, 0x7D73B005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D73B001, 0x7D73B006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D73B001, 0x7D73B007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D73B001, 0x7D73B008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D73B001, 0x7D73B009, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D73B002, 24940, 0xD73B0039, 184.56, 15.80521, 85.3129, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -51,7 +51,7 @@ VALUES (0x7D73B00A,  1542, 0xD73B0039, 174.2973, 12.45332, 86.41375, 0.9521961, 
 /* @teleloc 0xD73B0039 [174.297300 12.453320 86.413750] 0.952196 0.000000 0.000000 -0.305488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D73B00A, 0x7D73B00B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7D73B00A, 0x7D73B00B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D73B00B, 42528, 0xD73B0039, 174.2973, 12.45332, 86.41375, 0.9521961, 0, 0, -0.3054875,  True, '2019-02-10 00:00:00'); /* Rock */

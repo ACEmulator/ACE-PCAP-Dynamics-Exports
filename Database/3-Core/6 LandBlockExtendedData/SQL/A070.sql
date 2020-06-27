@@ -5,10 +5,10 @@ VALUES (0x7A070001,  1154, 0xA0700014, 65.80788, 72.94514, 23.985, 0.08879878, 0
 /* @teleloc 0xA0700014 [65.807880 72.945140 23.985000] 0.088799 0.000000 0.000000 -0.996050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A070001, 0x7A070002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A070001, 0x7A070003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A070001, 0x7A070004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A070001, 0x7A070005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A070001, 0x7A070002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A070001, 0x7A070003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A070001, 0x7A070004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A070001, 0x7A070005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A070002,  8014, 0xA0700014, 65.80788, 72.94514, 23.985, 0.08879878, 0, 0, -0.9960496,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -31,7 +31,7 @@ VALUES (0x7A070006,  1542, 0xA070001C, 80.04617, 80.70117, 24.0015, -0.1065859, 
 /* @teleloc 0xA070001C [80.046170 80.701170 24.001500] -0.106586 0.000000 0.000000 -0.994304 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A070006, 0x7A070007, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7A070006, 0x7A070007, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A070007, 15715, 0xA070001C, 80.04617, 80.70117, 24.0015, -0.1065859, 0, 0, -0.9943035,  True, '2019-02-10 00:00:00'); /* Sunflower */

@@ -25,67 +25,67 @@ VALUES (0x7018B036,  1154, 0x018B0185, 31.4866, -28.7398, 0.007150054, -4.37114E
 /* @teleloc 0x018B0185 [31.486600 -28.739800 0.007150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B036, 0x7018B037, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B038, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B039, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B03A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B03B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B03C, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B03D, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B03E, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B03F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B040, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B041, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B042, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B043, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B044, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B045, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B046, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B047, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B048, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B049, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B04A, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B04B, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B04C, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B04D, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B04E, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B04F, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B050, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B051, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B052, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B053, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B054, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B055, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B056, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7018B036, 0x7018B057, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B058, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B059, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B05A, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x7018B036, 0x7018B05B, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B05C, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B05D, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B05E, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B05F, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B060, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B061, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B062, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B063, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B064, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B065, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B066, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B067, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B068, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7018B036, 0x7018B069, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B06A, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B06B, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B06C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7018B036, 0x7018B06D, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B06E, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B06F, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B070, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B071, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7018B036, 0x7018B072, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7018B036, 0x7018B073, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7018B036, 0x7018B037, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B038, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B039, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B03A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B03B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B03C, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B03D, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B03E, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B03F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B040, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B041, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B042, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B043, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B044, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B045, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B046, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B047, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B048, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B049, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B04A, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B04B, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B04C, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B04D, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B04E, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B04F, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B050, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B051, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B052, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B053, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B054, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B055, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B056, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7018B036, 0x7018B057, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B058, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B059, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B05A, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x7018B036, 0x7018B05B, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B05C, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B05D, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B05E, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B05F, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B060, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B061, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B062, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B063, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B064, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B065, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B066, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B067, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B068, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7018B036, 0x7018B069, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B06A, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B06B, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B06C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7018B036, 0x7018B06D, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B06E, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B06F, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B070, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B071, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7018B036, 0x7018B072, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B036, 0x7018B073, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B037,  7332, 0x018B0185, 31.4866, -28.7398, 0.007150054, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Blade */
@@ -336,7 +336,7 @@ VALUES (0x7018B074,  1154, 0x018B01C7, 80.6764, -60.4128, 0.004999995, 0.8966797
 /* @teleloc 0x018B01C7 [80.676400 -60.412800 0.005000] 0.896680 0.000000 0.000000 -0.442680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B074, 0x7018B075, '2019-02-10 00:00:00') /* Tibri the Cavedweller */;
+VALUES (0x7018B074, 0x7018B075, '2019-02-10 00:00:00') /* Tibri the Cavedweller (3607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B075,  3607, 0x018B01C7, 80.6764, -60.4128, 0.004999995, 0.8966797, 0, 0, -0.4426799,  True, '2019-02-10 00:00:00'); /* Tibri the Cavedweller */
@@ -347,10 +347,10 @@ VALUES (0x7018B076,  1542, 0x018B0109, 67.6217, -109.169, -17.981, -4.37114E-08,
 /* @teleloc 0x018B0109 [67.621700 -109.169000 -17.981000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B076, 0x7018B077, '2019-02-10 00:00:00') /* Tibri's Fire Spear */
-     , (0x7018B076, 0x7018B078, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7018B076, 0x7018B079, '2019-02-10 00:00:00') /* Leather Cuirass */
-     , (0x7018B076, 0x7018B07A, '2019-02-10 00:00:00') /* Frost Shashqa */;
+VALUES (0x7018B076, 0x7018B077, '2019-02-10 00:00:00') /* Tibri's Fire Spear (3645) */
+     , (0x7018B076, 0x7018B078, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7018B076, 0x7018B079, '2019-02-10 00:00:00') /* Leather Cuirass (25641) */
+     , (0x7018B076, 0x7018B07A, '2019-02-10 00:00:00') /* Frost Shashqa (41071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B077,  3645, 0x018B0109, 67.6217, -109.169, -17.981, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tibri's Fire Spear */

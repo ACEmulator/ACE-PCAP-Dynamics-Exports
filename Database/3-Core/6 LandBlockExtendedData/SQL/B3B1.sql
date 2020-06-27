@@ -5,23 +5,23 @@ VALUES (0x7B3B1001,  1154, 0xB3B1000A, 25.95674, 35.73721, 109.0723, 0.9238795, 
 /* @teleloc 0xB3B1000A [25.956740 35.737210 109.072300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3B1001, 0x7B3B1002, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B3B1001, 0x7B3B1003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B3B1001, 0x7B3B1004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B3B1001, 0x7B3B1005, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B3B1001, 0x7B3B1006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B3B1001, 0x7B3B1007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B3B1001, 0x7B3B1008, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B3B1001, 0x7B3B1009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3B1001, 0x7B3B100A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3B1001, 0x7B3B100B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B3B1001, 0x7B3B100C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B3B1001, 0x7B3B100D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B3B1001, 0x7B3B100E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3B1001, 0x7B3B100F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3B1001, 0x7B3B1010, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B3B1001, 0x7B3B1011, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3B1001, 0x7B3B1012, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B3B1001, 0x7B3B1002, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B3B1001, 0x7B3B1003, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B3B1001, 0x7B3B1004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B3B1001, 0x7B3B1005, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B3B1001, 0x7B3B1006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B3B1001, 0x7B3B1007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B3B1001, 0x7B3B1008, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B3B1001, 0x7B3B1009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3B1001, 0x7B3B100A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3B1001, 0x7B3B100B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B3B1001, 0x7B3B100C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B3B1001, 0x7B3B100D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B3B1001, 0x7B3B100E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3B1001, 0x7B3B100F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3B1001, 0x7B3B1010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B3B1001, 0x7B3B1011, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3B1001, 0x7B3B1012, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3B1002,  1631, 0xB3B1000A, 25.95674, 35.73721, 109.0723, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Servant */

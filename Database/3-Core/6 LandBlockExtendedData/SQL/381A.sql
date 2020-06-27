@@ -5,12 +5,12 @@ VALUES (0x7381A001,  1154, 0x381A002B, 120.6998, 57.56782, 23.4855, -0.8605459, 
 /* @teleloc 0x381A002B [120.699800 57.567820 23.485500] -0.860546 0.000000 0.000000 -0.509373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7381A001, 0x7381A002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7381A001, 0x7381A003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7381A001, 0x7381A004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7381A001, 0x7381A005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7381A001, 0x7381A006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7381A001, 0x7381A007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x7381A001, 0x7381A002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7381A001, 0x7381A003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7381A001, 0x7381A004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7381A001, 0x7381A005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7381A001, 0x7381A006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7381A001, 0x7381A007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7381A002, 10802, 0x381A002B, 120.6998, 57.56782, 23.4855, -0.8605459, 0, 0, -0.5093729,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
@@ -41,7 +41,7 @@ VALUES (0x7381A008,  1542, 0x381A001D, 79.49749, 115.1192, 12.61479, 0.7511826, 
 /* @teleloc 0x381A001D [79.497490 115.119200 12.614790] 0.751183 0.000000 0.000000 -0.660095 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7381A008, 0x7381A009, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7381A008, 0x7381A009, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7381A009,  9286, 0x381A001D, 79.49749, 115.1192, 12.61479, 0.7511826, 0, 0, -0.6600945,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

@@ -5,23 +5,23 @@ VALUES (0x70B6C001,  1154, 0x0B6C0007, 11.67776, 148.4073, -0.871, 0.995292, 0, 
 /* @teleloc 0x0B6C0007 [11.677760 148.407300 -0.871000] 0.995292 0.000000 0.000000 -0.096922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B6C001, 0x70B6C002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70B6C001, 0x70B6C003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70B6C001, 0x70B6C004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70B6C001, 0x70B6C005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70B6C001, 0x70B6C006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70B6C001, 0x70B6C007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x70B6C001, 0x70B6C008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C00A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C00B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70B6C001, 0x70B6C00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C00D, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B6C001, 0x70B6C00E, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C00F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B6C001, 0x70B6C010, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70B6C001, 0x70B6C011, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70B6C001, 0x70B6C012, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x70B6C001, 0x70B6C002, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70B6C001, 0x70B6C003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70B6C001, 0x70B6C004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70B6C001, 0x70B6C005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70B6C001, 0x70B6C006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70B6C001, 0x70B6C007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x70B6C001, 0x70B6C008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C009, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C00A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C00B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70B6C001, 0x70B6C00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C00D, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B6C001, 0x70B6C00E, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C00F, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B6C001, 0x70B6C010, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70B6C001, 0x70B6C011, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x70B6C001, 0x70B6C012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B6C002, 30447, 0x0B6C0007, 11.67776, 148.4073, -0.871, 0.995292, 0, 0, -0.09692176,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */
@@ -96,7 +96,7 @@ VALUES (0x70B6C013,  1542, 0x0B6C001B, 74.67158, 69.06123, -0.9, 1, 0, 0, 0, Fal
 /* @teleloc 0x0B6C001B [74.671580 69.061230 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B6C013, 0x70B6C014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x70B6C013, 0x70B6C014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B6C014, 22566, 0x0B6C001B, 74.67158, 69.06123, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

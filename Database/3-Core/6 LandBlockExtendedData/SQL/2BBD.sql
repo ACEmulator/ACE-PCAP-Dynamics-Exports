@@ -5,10 +5,10 @@ VALUES (0x72BBD001,  1154, 0x2BBD0004, 4.808084, 92.48059, 33.31941, -0.2146373,
 /* @teleloc 0x2BBD0004 [4.808084 92.480590 33.319410] -0.214637 0.000000 0.000000 -0.976694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BBD001, 0x72BBD002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BBD001, 0x72BBD003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x72BBD001, 0x72BBD004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72BBD001, 0x72BBD005, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x72BBD001, 0x72BBD002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BBD001, 0x72BBD003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x72BBD001, 0x72BBD004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72BBD001, 0x72BBD005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BBD002, 23082, 0x2BBD0004, 4.808084, 92.48059, 33.31941, -0.2146373, 0, 0, -0.9766938,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

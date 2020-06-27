@@ -5,9 +5,9 @@ VALUES (0x7BC7D001,  1154, 0xBC7D0022, 101.4077, 30.76731, 41.10222, 0.3342441, 
 /* @teleloc 0xBC7D0022 [101.407700 30.767310 41.102220] 0.334244 0.000000 0.000000 -0.942487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC7D001, 0x7BC7D002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BC7D001, 0x7BC7D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC7D001, 0x7BC7D004, '2019-02-10 00:00:00') /* Tan Rat */;
+VALUES (0x7BC7D001, 0x7BC7D002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BC7D001, 0x7BC7D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC7D001, 0x7BC7D004, '2019-02-10 00:00:00') /* Tan Rat (4131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC7D002,  1464, 0xBC7D0022, 101.4077, 30.76731, 41.10222, 0.3342441, 0, 0, -0.9424865,  True, '2019-02-10 00:00:00'); /* Drudge Robber */

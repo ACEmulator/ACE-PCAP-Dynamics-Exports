@@ -5,14 +5,14 @@ VALUES (0x7298D001,  1154, 0x298D0007, 2.505589, 159.7203, 102.01, -0.9345697, 0
 /* @teleloc 0x298D0007 [2.505589 159.720300 102.010000] -0.934570 0.000000 0.000000 -0.355780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298D001, 0x7298D002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7298D001, 0x7298D003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7298D001, 0x7298D004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298D001, 0x7298D005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7298D001, 0x7298D006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7298D001, 0x7298D007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7298D001, 0x7298D008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7298D001, 0x7298D009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7298D001, 0x7298D002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7298D001, 0x7298D003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7298D001, 0x7298D004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298D001, 0x7298D005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7298D001, 0x7298D006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7298D001, 0x7298D007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7298D001, 0x7298D008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7298D001, 0x7298D009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298D002,  8138, 0x298D0007, 2.505589, 159.7203, 102.01, -0.9345697, 0, 0, -0.3557802,  True, '2019-02-10 00:00:00'); /* Extas Raider */

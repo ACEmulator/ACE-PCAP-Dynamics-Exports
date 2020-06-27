@@ -5,19 +5,19 @@ VALUES (0x7A959001,  1154, 0xA9590017, 63.58079, 167.2677, 33.3084, 0.9238795, 0
 /* @teleloc 0xA9590017 [63.580790 167.267700 33.308400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A959001, 0x7A959002, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A959001, 0x7A959003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A959001, 0x7A959004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A959001, 0x7A959005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A959006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A959007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A959008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A959001, 0x7A959009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A95900A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A95900B, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A959001, 0x7A95900C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A95900D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A959001, 0x7A95900E, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7A959001, 0x7A959002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A959001, 0x7A959003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A959001, 0x7A959004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A959001, 0x7A959005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A959006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A959007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A959008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A959001, 0x7A959009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A95900A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A95900B, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A959001, 0x7A95900C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A95900D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A959001, 0x7A95900E, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A959002, 24942, 0xA9590017, 63.58079, 167.2677, 33.3084, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */
@@ -76,7 +76,7 @@ VALUES (0x7A95900F,  1542, 0xA9590017, 69.29037, 161.5755, 34, 1, 0, 0, 0, False
 /* @teleloc 0xA9590017 [69.290370 161.575500 34.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A95900F, 0x7A959010, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7A95900F, 0x7A959010, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A959010,  4383, 0xA9590017, 69.29037, 161.5755, 34, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

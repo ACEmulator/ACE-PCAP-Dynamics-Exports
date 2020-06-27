@@ -5,9 +5,9 @@ VALUES (0x7CA95001,  1154, 0xCA95003E, 169.148, 139.8768, 24.44377, 0.4452734, 0
 /* @teleloc 0xCA95003E [169.148000 139.876800 24.443770] 0.445273 0.000000 0.000000 -0.895395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA95001, 0x7CA95002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CA95001, 0x7CA95003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7CA95001, 0x7CA95004, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7CA95001, 0x7CA95002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CA95001, 0x7CA95003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7CA95001, 0x7CA95004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA95002,  1613, 0xCA95003E, 169.148, 139.8768, 24.44377, 0.4452734, 0, 0, -0.8953946,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */

@@ -5,32 +5,32 @@ VALUES (0x71E38001,  1154, 0x1E38002E, 120.5814, 124.0721, 3.483258, 0.8191521, 
 /* @teleloc 0x1E38002E [120.581400 124.072100 3.483258] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E38001, 0x71E38002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71E38001, 0x71E38003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71E38001, 0x71E38004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E38001, 0x71E38005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E38001, 0x71E38006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71E38001, 0x71E38007, '2019-02-10 00:00:00') /* Theral */
-     , (0x71E38001, 0x71E38008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E38001, 0x71E38009, '2019-02-10 00:00:00') /* Theral */
-     , (0x71E38001, 0x71E3800A, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71E38001, 0x71E3800B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71E38001, 0x71E3800C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71E38001, 0x71E3800D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71E38001, 0x71E3800E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E38001, 0x71E3800F, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71E38001, 0x71E38010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71E38001, 0x71E38011, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71E38001, 0x71E38012, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71E38001, 0x71E38013, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71E38001, 0x71E38014, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E38001, 0x71E38015, '2019-02-10 00:00:00') /* Conflagration */
-     , (0x71E38001, 0x71E38016, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71E38001, 0x71E38017, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71E38001, 0x71E38018, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71E38001, 0x71E38019, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71E38001, 0x71E3801A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E38001, 0x71E3801B, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x71E38001, 0x71E38002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71E38001, 0x71E38003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71E38001, 0x71E38004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E38001, 0x71E38005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E38001, 0x71E38006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71E38001, 0x71E38007, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x71E38001, 0x71E38008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E38001, 0x71E38009, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x71E38001, 0x71E3800A, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71E38001, 0x71E3800B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71E38001, 0x71E3800C, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71E38001, 0x71E3800D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71E38001, 0x71E3800E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E38001, 0x71E3800F, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71E38001, 0x71E38010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71E38001, 0x71E38011, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71E38001, 0x71E38012, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71E38001, 0x71E38013, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71E38001, 0x71E38014, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71E38001, 0x71E38015, '2019-02-10 00:00:00') /* Conflagration (19539) */
+     , (0x71E38001, 0x71E38016, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71E38001, 0x71E38017, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71E38001, 0x71E38018, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71E38001, 0x71E38019, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71E38001, 0x71E3801A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E38001, 0x71E3801B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E38002, 36860, 0x1E38002E, 120.5814, 124.0721, 3.483258, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */
@@ -141,9 +141,9 @@ VALUES (0x71E3801C,  1542, 0x1E380017, 65.44915, 149.7664, 10.65166, -4.371139E-
 /* @teleloc 0x1E380017 [65.449150 149.766400 10.651660] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E3801C, 0x71E3801D, '2019-02-10 00:00:00') /* Bones */
-     , (0x71E3801C, 0x71E3801E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71E3801C, 0x71E3801F, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71E3801C, 0x71E3801D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71E3801C, 0x71E3801E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71E3801C, 0x71E3801F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E3801D,  4380, 0x1E380017, 65.44915, 149.7664, 10.65166, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

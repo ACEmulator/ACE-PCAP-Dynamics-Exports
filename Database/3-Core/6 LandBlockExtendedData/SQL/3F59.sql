@@ -5,10 +5,10 @@ VALUES (0x73F59001,  1154, 0x3F59000B, 35.96068, 53.31373, 33.62338, -0.3394786,
 /* @teleloc 0x3F59000B [35.960680 53.313730 33.623380] -0.339479 0.000000 0.000000 -0.940614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F59001, 0x73F59002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73F59001, 0x73F59003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F59001, 0x73F59004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73F59001, 0x73F59005, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x73F59001, 0x73F59002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73F59001, 0x73F59003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F59001, 0x73F59004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73F59001, 0x73F59005, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F59002, 10802, 0x3F59000B, 35.96068, 53.31373, 33.62338, -0.3394786, 0, 0, -0.9406138,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
@@ -31,7 +31,7 @@ VALUES (0x73F59006,  1542, 0x3F59003B, 173.9271, 65.62811, 23.49291, 1, 0, 0, 0,
 /* @teleloc 0x3F59003B [173.927100 65.628110 23.492910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F59006, 0x73F59007, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73F59006, 0x73F59007, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F59007,  8999, 0x3F59003B, 173.9271, 65.62811, 23.49291, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

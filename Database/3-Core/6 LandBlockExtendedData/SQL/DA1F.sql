@@ -5,13 +5,13 @@ VALUES (0x7DA1F001,  1154, 0xDA1F001F, 88.63588, 148.4034, -0.9000001, -0.173648
 /* @teleloc 0xDA1F001F [88.635880 148.403400 -0.900000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA1F001, 0x7DA1F002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DA1F001, 0x7DA1F003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7DA1F001, 0x7DA1F004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7DA1F001, 0x7DA1F005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DA1F001, 0x7DA1F006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DA1F001, 0x7DA1F007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DA1F001, 0x7DA1F008, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7DA1F001, 0x7DA1F002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DA1F001, 0x7DA1F003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7DA1F001, 0x7DA1F004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7DA1F001, 0x7DA1F005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DA1F001, 0x7DA1F006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DA1F001, 0x7DA1F007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DA1F001, 0x7DA1F008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA1F002,  7111, 0xDA1F001F, 88.63588, 148.4034, -0.9000001, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

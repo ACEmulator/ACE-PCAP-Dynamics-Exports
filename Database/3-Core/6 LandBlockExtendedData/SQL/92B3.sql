@@ -641,15 +641,15 @@ VALUES (0x792B30A1,  1542, 0x92B30106, 134.805, 151.746, 111.6, 0.707107, 0, 0, 
 /* @teleloc 0x92B30106 [134.805000 151.746000 111.600000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792B30A1, 0x792B30A2, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A3, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A4, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A5, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A6, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A7, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A8, '2019-02-10 00:00:00') /* Wall Hook */
-     , (0x792B30A1, 0x792B30A9, '2019-02-10 00:00:00') /* Ceiling Hook */
-     , (0x792B30A1, 0x792B30AA, '2019-02-10 00:00:00') /* Wall Hook */;
+VALUES (0x792B30A1, 0x792B30A2, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A3, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A4, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A5, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A6, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A7, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A8, '2019-02-10 00:00:00') /* Wall Hook (9686) */
+     , (0x792B30A1, 0x792B30A9, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */
+     , (0x792B30A1, 0x792B30AA, '2019-02-10 00:00:00') /* Wall Hook (9686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792B30A2,  9686, 0x92B30106, 134.805, 151.746, 111.6, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Wall Hook */

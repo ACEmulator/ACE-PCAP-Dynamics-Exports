@@ -5,19 +5,19 @@ VALUES (0x716B5001,  1154, 0x16B5003B, 175.6066, 60.86833, 20.005, -0.5117819, 0
 /* @teleloc 0x16B5003B [175.606600 60.868330 20.005000] -0.511782 0.000000 0.000000 -0.859115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B5001, 0x716B5002, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B5001, 0x716B5003, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x716B5001, 0x716B5004, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x716B5001, 0x716B5005, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x716B5001, 0x716B5006, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x716B5001, 0x716B5007, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x716B5001, 0x716B5008, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B5001, 0x716B5009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x716B5001, 0x716B500A, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x716B5001, 0x716B500B, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x716B5001, 0x716B500C, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x716B5001, 0x716B500D, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x716B5001, 0x716B500E, '2019-02-10 00:00:00') /* Strand Siraluun */;
+VALUES (0x716B5001, 0x716B5002, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B5001, 0x716B5003, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x716B5001, 0x716B5004, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x716B5001, 0x716B5005, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x716B5001, 0x716B5006, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x716B5001, 0x716B5007, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x716B5001, 0x716B5008, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B5001, 0x716B5009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x716B5001, 0x716B500A, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x716B5001, 0x716B500B, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x716B5001, 0x716B500C, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x716B5001, 0x716B500D, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x716B5001, 0x716B500E, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B5002, 11502, 0x16B5003B, 175.6066, 60.86833, 20.005, -0.5117819, 0, 0, -0.8591154,  True, '2019-02-10 00:00:00'); /* Cutthroat */
@@ -76,11 +76,11 @@ VALUES (0x716B500F,  1542, 0x16B5003B, 177.1763, 56.80462, 20.95736, 1, 0, 0, 0,
 /* @teleloc 0x16B5003B [177.176300 56.804620 20.957360] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B500F, 0x716B5010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716B500F, 0x716B5011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x716B500F, 0x716B5012, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x716B500F, 0x716B5013, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716B500F, 0x716B5014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x716B500F, 0x716B5010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716B500F, 0x716B5011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x716B500F, 0x716B5012, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x716B500F, 0x716B5013, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716B500F, 0x716B5014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B5010,  9024, 0x16B5003B, 177.1763, 56.80462, 20.95736, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

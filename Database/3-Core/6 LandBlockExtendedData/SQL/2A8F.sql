@@ -5,17 +5,17 @@ VALUES (0x72A8F001,  1154, 0x2A8F0006, 0.50895, 123.3463, 30.01, -0.94449, 0, 0,
 /* @teleloc 0x2A8F0006 [0.508950 123.346300 30.010000] -0.944490 0.000000 0.000000 -0.328540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8F001, 0x72A8F002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A8F001, 0x72A8F003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A8F001, 0x72A8F004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A8F001, 0x72A8F005, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x72A8F001, 0x72A8F006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A8F001, 0x72A8F007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72A8F001, 0x72A8F008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A8F001, 0x72A8F009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A8F001, 0x72A8F00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A8F001, 0x72A8F00B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A8F001, 0x72A8F00C, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x72A8F001, 0x72A8F002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A8F001, 0x72A8F003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A8F001, 0x72A8F004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A8F001, 0x72A8F005, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x72A8F001, 0x72A8F006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A8F001, 0x72A8F007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72A8F001, 0x72A8F008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A8F001, 0x72A8F009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A8F001, 0x72A8F00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A8F001, 0x72A8F00B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A8F001, 0x72A8F00C, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A8F002, 24497, 0x2A8F0006, 0.50895, 123.3463, 30.01, -0.94449, 0, 0, -0.3285404,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -66,8 +66,8 @@ VALUES (0x72A8F00D,  1542, 0x2A8F000E, 40.23357, 141.2612, 29.99784, 1, 0, 0, 0,
 /* @teleloc 0x2A8F000E [40.233570 141.261200 29.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8F00D, 0x72A8F00E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72A8F00D, 0x72A8F00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72A8F00D, 0x72A8F00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72A8F00D, 0x72A8F00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A8F00E, 31445, 0x2A8F000E, 40.23357, 141.2612, 29.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

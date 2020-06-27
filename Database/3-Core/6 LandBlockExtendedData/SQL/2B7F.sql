@@ -5,15 +5,15 @@ VALUES (0x72B7F001,  1154, 0x2B7F0007, 14.05424, 165.1781, 71.80869, 0.8616237, 
 /* @teleloc 0x2B7F0007 [14.054240 165.178100 71.808690] 0.861624 0.000000 0.000000 -0.507548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B7F001, 0x72B7F002, '2019-02-10 00:00:00') /* Frost */
-     , (0x72B7F001, 0x72B7F003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B7F001, 0x72B7F004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72B7F001, 0x72B7F005, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72B7F001, 0x72B7F006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72B7F001, 0x72B7F007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72B7F001, 0x72B7F008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B7F001, 0x72B7F009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B7F001, 0x72B7F00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72B7F001, 0x72B7F002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72B7F001, 0x72B7F003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B7F001, 0x72B7F004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72B7F001, 0x72B7F005, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72B7F001, 0x72B7F006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72B7F001, 0x72B7F007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72B7F001, 0x72B7F008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B7F001, 0x72B7F009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B7F001, 0x72B7F00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B7F002, 14517, 0x2B7F0007, 14.05424, 165.1781, 71.80869, 0.8616237, 0, 0, -0.5075476,  True, '2019-02-10 00:00:00'); /* Frost */

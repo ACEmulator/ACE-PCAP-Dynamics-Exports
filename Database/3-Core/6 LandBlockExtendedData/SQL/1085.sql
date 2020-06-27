@@ -5,16 +5,16 @@ VALUES (0x71085001,  1154, 0x10850003, 0.5354019, 63.46539, 63.78418, 0.8870109,
 /* @teleloc 0x10850003 [0.535402 63.465390 63.784180] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71085001, 0x71085002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71085001, 0x71085003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71085001, 0x71085004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71085001, 0x71085005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71085001, 0x71085006, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x71085001, 0x71085007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71085001, 0x71085008, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71085001, 0x71085009, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71085001, 0x7108500A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71085001, 0x7108500B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71085001, 0x71085002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71085001, 0x71085003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71085001, 0x71085004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71085001, 0x71085005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71085001, 0x71085006, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x71085001, 0x71085007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71085001, 0x71085008, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71085001, 0x71085009, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71085001, 0x7108500A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71085001, 0x7108500B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71085002, 36845, 0x10850003, 0.5354019, 63.46539, 63.78418, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

@@ -5,10 +5,10 @@ VALUES (0x7AA6F001,  1154, 0xAA6F0023, 116.1092, 69.36758, 37.53065, -0.08715577
 /* @teleloc 0xAA6F0023 [116.109200 69.367580 37.530650] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA6F001, 0x7AA6F002, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AA6F001, 0x7AA6F003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AA6F001, 0x7AA6F004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AA6F001, 0x7AA6F005, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7AA6F001, 0x7AA6F002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AA6F001, 0x7AA6F003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AA6F001, 0x7AA6F004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AA6F001, 0x7AA6F005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA6F002, 24942, 0xAA6F0023, 116.1092, 69.36758, 37.53065, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */
@@ -31,7 +31,7 @@ VALUES (0x7AA6F006,  1542, 0xAA6F0024, 112.7676, 74.86799, 32.18569, 1, 0, 0, 0,
 /* @teleloc 0xAA6F0024 [112.767600 74.867990 32.185690] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA6F006, 0x7AA6F007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AA6F006, 0x7AA6F007, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA6F007, 22570, 0xAA6F0024, 112.7676, 74.86799, 32.18569, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

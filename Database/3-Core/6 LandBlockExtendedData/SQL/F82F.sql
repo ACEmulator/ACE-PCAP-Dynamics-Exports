@@ -5,25 +5,25 @@ VALUES (0x7F82F001,  1154, 0xF82F0007, 17.45993, 162.0691, 46.70248, -0.9987465,
 /* @teleloc 0xF82F0007 [17.459930 162.069100 46.702480] -0.998747 0.000000 0.000000 -0.050055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F82F001, 0x7F82F002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F82F001, 0x7F82F003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F006, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F82F001, 0x7F82F007, '2019-02-10 00:00:00') /* K'nath Y'nda */
-     , (0x7F82F001, 0x7F82F008, '2019-02-10 00:00:00') /* K'nath N'da */
-     , (0x7F82F001, 0x7F82F009, '2019-02-10 00:00:00') /* K'nath C'ire */
-     , (0x7F82F001, 0x7F82F00A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F82F001, 0x7F82F00B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F82F001, 0x7F82F00C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F00D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F00E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F00F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F82F001, 0x7F82F010, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F82F001, 0x7F82F011, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F82F001, 0x7F82F012, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F82F001, 0x7F82F013, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F82F001, 0x7F82F014, '2019-02-10 00:00:00') /* Blessed Moarsman */;
+VALUES (0x7F82F001, 0x7F82F002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F82F001, 0x7F82F003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F006, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x7F82F001, 0x7F82F007, '2019-02-10 00:00:00') /* K'nath Y'nda (38011) */
+     , (0x7F82F001, 0x7F82F008, '2019-02-10 00:00:00') /* K'nath N'da (38009) */
+     , (0x7F82F001, 0x7F82F009, '2019-02-10 00:00:00') /* K'nath C'ire (38015) */
+     , (0x7F82F001, 0x7F82F00A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x7F82F001, 0x7F82F00B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F82F001, 0x7F82F00C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F00D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F00E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F00F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F82F001, 0x7F82F010, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F82F001, 0x7F82F011, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F82F001, 0x7F82F012, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F82F001, 0x7F82F013, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F82F001, 0x7F82F014, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F82F002, 40307, 0xF82F0007, 17.45993, 162.0691, 46.70248, -0.9987465, 0, 0, -0.05005476,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

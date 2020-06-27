@@ -5,23 +5,23 @@ VALUES (0x7C16F001,  1154, 0xC16F0019, 81.42256, 21.91036, 58.00333, 1, 0, 0, 0,
 /* @teleloc 0xC16F0019 [81.422560 21.910360 58.003330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16F001, 0x7C16F002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C16F001, 0x7C16F003, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F004, '2019-02-10 00:00:00') /* Undead */
-     , (0x7C16F001, 0x7C16F005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C16F001, 0x7C16F008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C16F001, 0x7C16F009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C16F001, 0x7C16F00A, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C16F001, 0x7C16F00B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C16F001, 0x7C16F00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C16F001, 0x7C16F00D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C16F001, 0x7C16F00E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F00F, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C16F001, 0x7C16F011, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C16F001, 0x7C16F012, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C16F001, 0x7C16F002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C16F001, 0x7C16F003, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7C16F001, 0x7C16F005, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C16F001, 0x7C16F008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C16F001, 0x7C16F009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C16F001, 0x7C16F00A, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C16F001, 0x7C16F00B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C16F001, 0x7C16F00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C16F001, 0x7C16F00D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C16F001, 0x7C16F00E, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F00F, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C16F001, 0x7C16F011, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C16F001, 0x7C16F012, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16F002,     7, 0xC16F0019, 81.42256, 21.91036, 58.00333, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -96,12 +96,12 @@ VALUES (0x7C16F013,  1542, 0xC16F0019, 76.17971, 22.58514, 58, 1, 0, 0, 0, False
 /* @teleloc 0xC16F0019 [76.179710 22.585140 58.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16F013, 0x7C16F014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C16F013, 0x7C16F015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C16F013, 0x7C16F016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C16F013, 0x7C16F017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C16F013, 0x7C16F018, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C16F013, 0x7C16F019, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7C16F013, 0x7C16F014, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7C16F013, 0x7C16F015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C16F013, 0x7C16F016, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7C16F013, 0x7C16F017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C16F013, 0x7C16F018, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C16F013, 0x7C16F019, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16F014, 22572, 0xC16F0019, 76.17971, 22.58514, 58, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

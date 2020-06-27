@@ -5,25 +5,25 @@ VALUES (0x75C1D001,  1154, 0x5C1D0011, 48.52188, 13.47529, 0.002499998, 0.992450
 /* @teleloc 0x5C1D0011 [48.521880 13.475290 0.002500] 0.992451 0.000000 0.000000 -0.122644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C1D001, 0x75C1D002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75C1D001, 0x75C1D003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75C1D001, 0x75C1D007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75C1D001, 0x75C1D00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75C1D001, 0x75C1D00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75C1D001, 0x75C1D00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75C1D001, 0x75C1D00D, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75C1D001, 0x75C1D00E, '2019-02-10 00:00:00') /* Frost */
-     , (0x75C1D001, 0x75C1D00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75C1D001, 0x75C1D010, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75C1D001, 0x75C1D011, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75C1D001, 0x75C1D012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75C1D001, 0x75C1D013, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75C1D001, 0x75C1D014, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x75C1D001, 0x75C1D002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75C1D001, 0x75C1D003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75C1D001, 0x75C1D004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75C1D001, 0x75C1D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x75C1D001, 0x75C1D006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75C1D001, 0x75C1D007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75C1D001, 0x75C1D008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75C1D001, 0x75C1D009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75C1D001, 0x75C1D00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75C1D001, 0x75C1D00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75C1D001, 0x75C1D00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75C1D001, 0x75C1D00D, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75C1D001, 0x75C1D00E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75C1D001, 0x75C1D00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75C1D001, 0x75C1D010, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75C1D001, 0x75C1D011, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75C1D001, 0x75C1D012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75C1D001, 0x75C1D013, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75C1D001, 0x75C1D014, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C1D002,  7179, 0x5C1D0011, 48.52188, 13.47529, 0.002499998, 0.9924507, 0, 0, -0.1226442,  True, '2019-02-10 00:00:00'); /* Relic Bones */

@@ -5,29 +5,29 @@ VALUES (0x7972E001,  1154, 0x972E000B, 41.1655, 53.62504, 40.47875, 0.9585388, 0
 /* @teleloc 0x972E000B [41.165500 53.625040 40.478750] 0.958539 0.000000 0.000000 -0.284962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972E001, 0x7972E002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7972E001, 0x7972E003, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7972E001, 0x7972E004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7972E001, 0x7972E005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7972E001, 0x7972E006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7972E001, 0x7972E007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7972E001, 0x7972E008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7972E001, 0x7972E009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7972E001, 0x7972E00A, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7972E001, 0x7972E00B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7972E001, 0x7972E00C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7972E001, 0x7972E00D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7972E001, 0x7972E00E, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7972E001, 0x7972E00F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7972E001, 0x7972E010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7972E001, 0x7972E011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7972E001, 0x7972E012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7972E001, 0x7972E013, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7972E001, 0x7972E014, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7972E001, 0x7972E015, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7972E001, 0x7972E016, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7972E001, 0x7972E017, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7972E001, 0x7972E018, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7972E001, 0x7972E002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7972E001, 0x7972E003, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7972E001, 0x7972E004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7972E001, 0x7972E005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7972E001, 0x7972E006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7972E001, 0x7972E007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7972E001, 0x7972E008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7972E001, 0x7972E009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7972E001, 0x7972E00A, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7972E001, 0x7972E00B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7972E001, 0x7972E00C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7972E001, 0x7972E00D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7972E001, 0x7972E00E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7972E001, 0x7972E00F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7972E001, 0x7972E010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7972E001, 0x7972E011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7972E001, 0x7972E012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7972E001, 0x7972E013, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7972E001, 0x7972E014, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7972E001, 0x7972E015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7972E001, 0x7972E016, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7972E001, 0x7972E017, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7972E001, 0x7972E018, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972E002,   942, 0x972E000B, 41.1655, 53.62504, 40.47875, 0.9585388, 0, 0, -0.284962,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -126,7 +126,7 @@ VALUES (0x7972E019,  1542, 0x972E000B, 41.02937, 57.48096, 41.64051, 0.9238795, 
 /* @teleloc 0x972E000B [41.029370 57.480960 41.640510] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972E019, 0x7972E01A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7972E019, 0x7972E01A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972E01A,  4380, 0x972E000B, 41.02937, 57.48096, 41.64051, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

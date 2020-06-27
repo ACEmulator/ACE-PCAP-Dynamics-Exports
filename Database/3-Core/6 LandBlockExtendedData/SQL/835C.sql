@@ -5,10 +5,10 @@ VALUES (0x7835C001,  1154, 0x835C0034, 156.0497, 94.25945, 20.15355, -0.7069436,
 /* @teleloc 0x835C0034 [156.049700 94.259450 20.153550] -0.706944 0.000000 0.000000 -0.707270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7835C001, 0x7835C002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7835C001, 0x7835C003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7835C001, 0x7835C004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7835C001, 0x7835C005, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7835C001, 0x7835C002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7835C001, 0x7835C003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7835C001, 0x7835C004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7835C001, 0x7835C005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835C002,   181, 0x835C0034, 156.0497, 94.25945, 20.15355, -0.7069436, 0, 0, -0.70727,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

@@ -169,47 +169,47 @@ VALUES (0x702B2063,  1154, 0x02B20250, 176.821, -267.275, 12.005, 0.929354, 0, 0
 /* @teleloc 0x02B20250 [176.821000 -267.275000 12.005000] 0.929354 0.000000 0.000000 -0.369189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2063, 0x702B2064, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2065, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2066, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2067, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2068, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2069, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B206F, '2019-02-10 00:00:00') /* Upper Shadow Heart Leader */
-     , (0x702B2063, 0x702B2070, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2071, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2072, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2073, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2074, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x702B2063, 0x702B2075, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2076, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2077, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2078, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2079, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B207A, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B207B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B207C, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B207D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B207E, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x702B2063, 0x702B207F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x702B2063, 0x702B2080, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x702B2063, 0x702B2081, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x702B2063, 0x702B2082, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x702B2063, 0x702B2083, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x702B2063, 0x702B2084, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x702B2063, 0x702B2085, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B2086, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B2087, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B2088, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x702B2063, 0x702B2089, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x702B2063, 0x702B208A, '2019-02-10 00:00:00') /* Lower Shadow Heart Leader */
-     , (0x702B2063, 0x702B208B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x702B2063, 0x702B208C, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x702B2063, 0x702B2064, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2065, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2066, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2067, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2068, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2069, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B206F, '2019-02-10 00:00:00') /* Upper Shadow Heart Leader (8818) */
+     , (0x702B2063, 0x702B2070, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2071, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2072, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2073, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2074, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x702B2063, 0x702B2075, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2076, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2077, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2078, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2079, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B207A, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B207B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B207C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B207D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B207E, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B2063, 0x702B207F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B2063, 0x702B2080, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B2063, 0x702B2081, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B2063, 0x702B2082, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B2063, 0x702B2083, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B2063, 0x702B2084, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B2063, 0x702B2085, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B2086, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B2087, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B2088, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B2063, 0x702B2089, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B2063, 0x702B208A, '2019-02-10 00:00:00') /* Lower Shadow Heart Leader (8817) */
+     , (0x702B2063, 0x702B208B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x702B2063, 0x702B208C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2064, 23564, 0x02B20250, 176.821, -267.275, 12.005, 0.929354, 0, 0, -0.369189,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -380,7 +380,7 @@ VALUES (0x702B208D,  1542, 0x02B20104, 8.29088, -60, -30.001, 1, 0, 0, 0, False,
 /* @teleloc 0x02B20104 [8.290880 -60.000000 -30.001000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B208D, 0x702B208E, '2019-02-10 00:00:00') /* Heart of Shadow */;
+VALUES (0x702B208D, 0x702B208E, '2019-02-10 00:00:00') /* Heart of Shadow (8778) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B208E,  8778, 0x02B20104, 8.29088, -60, -30.001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Heart of Shadow */

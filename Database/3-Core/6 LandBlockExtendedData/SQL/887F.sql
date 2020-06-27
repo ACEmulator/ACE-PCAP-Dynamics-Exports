@@ -5,12 +5,12 @@ VALUES (0x7887F001,  1154, 0x887F0007, 12.60769, 155.3903, 30.95985, -0.1456604,
 /* @teleloc 0x887F0007 [12.607690 155.390300 30.959850] -0.145660 0.000000 0.000000 -0.989335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7887F001, 0x7887F002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7887F001, 0x7887F003, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7887F001, 0x7887F004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7887F001, 0x7887F005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7887F001, 0x7887F006, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7887F001, 0x7887F007, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7887F001, 0x7887F002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7887F001, 0x7887F003, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7887F001, 0x7887F004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7887F001, 0x7887F005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7887F001, 0x7887F006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7887F001, 0x7887F007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7887F002,   195, 0x887F0007, 12.60769, 155.3903, 30.95985, -0.1456604, 0, 0, -0.9893346,  True, '2019-02-10 00:00:00'); /* Granite Golem */

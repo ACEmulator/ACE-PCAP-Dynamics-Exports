@@ -5,11 +5,11 @@ VALUES (0x7945A001,  1154, 0x945A000B, 31.57695, 53.19754, 11.27202, 1, 0, 0, 0,
 /* @teleloc 0x945A000B [31.576950 53.197540 11.272020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7945A001, 0x7945A002, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7945A001, 0x7945A003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7945A001, 0x7945A004, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7945A001, 0x7945A005, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7945A001, 0x7945A006, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x7945A001, 0x7945A002, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7945A001, 0x7945A003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7945A001, 0x7945A004, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7945A001, 0x7945A005, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7945A001, 0x7945A006, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7945A002,   949, 0x945A000B, 31.57695, 53.19754, 11.27202, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Red Rat */
@@ -36,7 +36,7 @@ VALUES (0x7945A007,  1542, 0x945A000A, 37.29707, 36.59975, 12.21618, 0.9977236, 
 /* @teleloc 0x945A000A [37.297070 36.599750 12.216180] 0.997724 0.000000 0.000000 -0.067436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7945A007, 0x7945A008, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7945A007, 0x7945A008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7945A008,  8041, 0x945A000A, 37.29707, 36.59975, 12.21618, 0.9977236, 0, 0, -0.06743616,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

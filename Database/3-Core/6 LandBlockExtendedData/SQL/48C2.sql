@@ -5,10 +5,10 @@ VALUES (0x748C2001,  1154, 0x48C20018, 50.66666, 178.2431, -0.8974999, 0.7660445
 /* @teleloc 0x48C20018 [50.666660 178.243100 -0.897500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748C2001, 0x748C2002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x748C2001, 0x748C2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x748C2001, 0x748C2004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x748C2001, 0x748C2005, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x748C2001, 0x748C2002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x748C2001, 0x748C2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x748C2001, 0x748C2004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x748C2001, 0x748C2005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748C2002,  7334, 0x48C20018, 50.66666, 178.2431, -0.8974999, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

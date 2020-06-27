@@ -5,11 +5,11 @@ VALUES (0x79A6E001,  1154, 0x9A6E0005, 7.620861, 98.38871, 73.86233, 0.9537169, 
 /* @teleloc 0x9A6E0005 [7.620861 98.388710 73.862330] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A6E001, 0x79A6E002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79A6E001, 0x79A6E003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79A6E001, 0x79A6E004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79A6E001, 0x79A6E005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79A6E001, 0x79A6E006, '2019-02-10 00:00:00') /* Seared Skeleton */;
+VALUES (0x79A6E001, 0x79A6E002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79A6E001, 0x79A6E003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79A6E001, 0x79A6E004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79A6E001, 0x79A6E005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79A6E001, 0x79A6E006, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A6E002,  1613, 0x9A6E0005, 7.620861, 98.38871, 73.86233, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */

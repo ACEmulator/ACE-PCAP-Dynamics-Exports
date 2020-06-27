@@ -5,10 +5,10 @@ VALUES (0x7C856001,  1154, 0xC8560010, 33.41953, 186.3768, 13.11343, -0.1922766,
 /* @teleloc 0xC8560010 [33.419530 186.376800 13.113430] -0.192277 0.000000 0.000000 -0.981341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C856001, 0x7C856002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C856001, 0x7C856003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C856001, 0x7C856004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C856001, 0x7C856005, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7C856001, 0x7C856002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C856001, 0x7C856003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C856001, 0x7C856004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C856001, 0x7C856005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C856002,   235, 0xC8560010, 33.41953, 186.3768, 13.11343, -0.1922766, 0, 0, -0.9813408,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

@@ -5,83 +5,83 @@ VALUES (0x7E3D1001,  1154, 0xE3D1003F, 170.4685, 156.38, 0.004999995, -0.9846815
 /* @teleloc 0xE3D1003F [170.468500 156.380000 0.005000] -0.984682 0.000000 0.000000 -0.174363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E3D1001, 0x7E3D1002, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1003, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1004, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E3D1001, 0x7E3D1005, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D1001, 0x7E3D1006, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E3D1001, 0x7E3D1007, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D1001, 0x7E3D1008, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1009, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D100A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D100B, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D100C, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D100D, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D100E, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D100F, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1010, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1011, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E3D1001, 0x7E3D1012, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1013, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1014, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1015, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D1001, 0x7E3D1016, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1017, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1018, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1019, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D101A, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E3D1001, 0x7E3D101B, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D101C, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D101D, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E3D1001, 0x7E3D101E, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E3D1001, 0x7E3D101F, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1020, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1021, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1022, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1023, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1024, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1025, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1026, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1027, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D1001, 0x7E3D1028, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1029, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D102A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D102B, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D102C, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D102D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D102E, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D102F, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1030, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1031, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1032, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1033, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1034, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1035, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1036, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1037, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D1038, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1039, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D103A, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E3D1001, 0x7E3D103B, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D103C, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D103D, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D103E, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D103F, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E3D1001, 0x7E3D1040, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D1041, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E3D1001, 0x7E3D1042, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1043, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1044, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1045, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D1046, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1047, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D1048, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E3D1001, 0x7E3D1049, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D104A, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E3D1001, 0x7E3D104B, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E3D1001, 0x7E3D104C, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E3D1001, 0x7E3D104D, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E3D1001, 0x7E3D104E, '2019-02-10 00:00:00') /* Burrowing Grievver */;
+VALUES (0x7E3D1001, 0x7E3D1002, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1003, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1004, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E3D1001, 0x7E3D1005, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D1001, 0x7E3D1006, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E3D1001, 0x7E3D1007, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D1001, 0x7E3D1008, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1009, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D100A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D100B, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D100C, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D100D, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D100E, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D100F, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1010, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1011, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E3D1001, 0x7E3D1012, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1013, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1014, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1015, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D1001, 0x7E3D1016, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1017, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1018, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1019, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D101A, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E3D1001, 0x7E3D101B, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D101C, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D101D, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E3D1001, 0x7E3D101E, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E3D1001, 0x7E3D101F, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1020, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1021, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1022, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1023, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1024, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1025, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1026, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1027, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D1001, 0x7E3D1028, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1029, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D102A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D102B, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D102C, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D102D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D102E, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D102F, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1030, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1031, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1032, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1033, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1034, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1035, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1036, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1037, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1038, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1039, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D103A, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E3D1001, 0x7E3D103B, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D103C, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D103D, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D103E, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D103F, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E3D1001, 0x7E3D1040, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D1041, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E3D1001, 0x7E3D1042, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1043, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1044, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1045, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D1046, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1047, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D1048, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E3D1001, 0x7E3D1049, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D104A, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E3D1001, 0x7E3D104B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E3D1001, 0x7E3D104C, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E3D1001, 0x7E3D104D, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D104E, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E3D1002, 31849, 0xE3D1003F, 170.4685, 156.38, 0.004999995, -0.9846815, 0, 0, -0.1743627,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */
@@ -396,7 +396,7 @@ VALUES (0x7E3D104F,  1542, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0, Fals
 /* @teleloc 0xE3D10035 [152.853000 101.548000 5.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E3D104F, 0x7E3D1050, '2019-02-10 00:00:00') /* Olthoi Tunnel */;
+VALUES (0x7E3D104F, 0x7E3D1050, '2019-02-10 00:00:00') /* Olthoi Tunnel (43544) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E3D1050, 43544, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

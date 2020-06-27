@@ -9,27 +9,27 @@ VALUES (0x79EDB001,  1154, 0x9EDB0015, 51.86463, 116.6882, 108.0561, 0.9214726, 
 /* @teleloc 0x9EDB0015 [51.864630 116.688200 108.056100] 0.921473 0.000000 0.000000 -0.388443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EDB001, 0x79EDB002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79EDB001, 0x79EDB003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79EDB001, 0x79EDB004, '2019-02-10 00:00:00') /* Frost */
-     , (0x79EDB001, 0x79EDB005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x79EDB001, 0x79EDB006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79EDB001, 0x79EDB007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79EDB001, 0x79EDB008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x79EDB001, 0x79EDB009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79EDB001, 0x79EDB00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79EDB001, 0x79EDB00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79EDB001, 0x79EDB00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79EDB001, 0x79EDB00D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79EDB001, 0x79EDB00E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79EDB001, 0x79EDB00F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79EDB001, 0x79EDB010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79EDB001, 0x79EDB011, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x79EDB001, 0x79EDB012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79EDB001, 0x79EDB013, '2019-02-10 00:00:00') /* Ember */
-     , (0x79EDB001, 0x79EDB014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79EDB001, 0x79EDB015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79EDB001, 0x79EDB016, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x79EDB001, 0x79EDB002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79EDB001, 0x79EDB003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79EDB001, 0x79EDB004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79EDB001, 0x79EDB005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x79EDB001, 0x79EDB006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79EDB001, 0x79EDB007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79EDB001, 0x79EDB008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x79EDB001, 0x79EDB009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79EDB001, 0x79EDB00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79EDB001, 0x79EDB00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79EDB001, 0x79EDB00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79EDB001, 0x79EDB00D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79EDB001, 0x79EDB00E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79EDB001, 0x79EDB00F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79EDB001, 0x79EDB010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79EDB001, 0x79EDB011, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x79EDB001, 0x79EDB012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79EDB001, 0x79EDB013, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x79EDB001, 0x79EDB014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79EDB001, 0x79EDB015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79EDB001, 0x79EDB016, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EDB002,   199, 0x9EDB0015, 51.86463, 116.6882, 108.0561, 0.9214726, 0, 0, -0.3884434,  True, '2019-02-10 00:00:00'); /* Magma Golem */

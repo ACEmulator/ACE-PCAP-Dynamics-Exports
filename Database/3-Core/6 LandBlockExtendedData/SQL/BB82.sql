@@ -9,10 +9,10 @@ VALUES (0x7BB82001,  1154, 0xBB82003D, 190.8033, 115.7333, 31.81056, 0.9238795, 
 /* @teleloc 0xBB82003D [190.803300 115.733300 31.810560] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB82001, 0x7BB82002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7BB82001, 0x7BB82003, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7BB82001, 0x7BB82004, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7BB82001, 0x7BB82005, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7BB82001, 0x7BB82002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7BB82001, 0x7BB82003, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7BB82001, 0x7BB82004, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7BB82001, 0x7BB82005, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB82002, 24941, 0xBB82003D, 190.8033, 115.7333, 31.81056, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -35,7 +35,7 @@ VALUES (0x7BB82006,  1542, 0xBB82003D, 181.6412, 113.9275, 30.27353, 1, 0, 0, 0,
 /* @teleloc 0xBB82003D [181.641200 113.927500 30.273530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB82006, 0x7BB82007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BB82006, 0x7BB82007, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB82007, 22572, 0xBB82003D, 181.6412, 113.9275, 30.27353, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

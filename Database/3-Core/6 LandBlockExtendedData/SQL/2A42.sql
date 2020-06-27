@@ -5,24 +5,24 @@ VALUES (0x72A42001,  1154, 0x2A420018, 59.72517, 186.8254, 21.46411, 0.0502928, 
 /* @teleloc 0x2A420018 [59.725170 186.825400 21.464110] 0.050293 0.000000 0.000000 -0.998735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A42001, 0x72A42002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72A42001, 0x72A42003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72A42001, 0x72A42004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72A42001, 0x72A42005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72A42001, 0x72A42006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72A42001, 0x72A42007, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72A42001, 0x72A42008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A42001, 0x72A42009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A42001, 0x72A4200A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72A42001, 0x72A4200B, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72A42001, 0x72A4200C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72A42001, 0x72A4200D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A42001, 0x72A4200E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A42001, 0x72A4200F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72A42001, 0x72A42010, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x72A42001, 0x72A42011, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72A42001, 0x72A42012, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72A42001, 0x72A42013, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x72A42001, 0x72A42002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72A42001, 0x72A42003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72A42001, 0x72A42004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72A42001, 0x72A42005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72A42001, 0x72A42006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72A42001, 0x72A42007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72A42001, 0x72A42008, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72A42001, 0x72A42009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72A42001, 0x72A4200A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72A42001, 0x72A4200B, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x72A42001, 0x72A4200C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x72A42001, 0x72A4200D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72A42001, 0x72A4200E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A42001, 0x72A4200F, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72A42001, 0x72A42010, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x72A42001, 0x72A42011, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72A42001, 0x72A42012, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72A42001, 0x72A42013, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A42002,  8138, 0x2A420018, 59.72517, 186.8254, 21.46411, 0.0502928, 0, 0, -0.9987345,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -101,10 +101,10 @@ VALUES (0x72A42014,  1542, 0x2A420003, 23.03962, 51.54488, 25.12631, 1, 0, 0, 0,
 /* @teleloc 0x2A420003 [23.039620 51.544880 25.126310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A42014, 0x72A42015, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72A42014, 0x72A42016, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x72A42014, 0x72A42017, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72A42014, 0x72A42018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72A42014, 0x72A42015, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72A42014, 0x72A42016, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x72A42014, 0x72A42017, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72A42014, 0x72A42018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A42015,  8999, 0x2A420003, 23.03962, 51.54488, 25.12631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

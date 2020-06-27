@@ -5,23 +5,23 @@ VALUES (0x71A16001,  1154, 0x1A160027, 111.6182, 149.2446, 1.754701, 0.9448459, 
 /* @teleloc 0x1A160027 [111.618200 149.244600 1.754701] 0.944846 0.000000 0.000000 -0.327515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A16001, 0x71A16002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71A16001, 0x71A16003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71A16001, 0x71A16004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71A16001, 0x71A16005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71A16001, 0x71A16006, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71A16001, 0x71A16007, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71A16001, 0x71A16008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71A16001, 0x71A16009, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71A16001, 0x71A1600A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71A16001, 0x71A1600B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71A16001, 0x71A1600C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71A16001, 0x71A1600D, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71A16001, 0x71A1600E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71A16001, 0x71A1600F, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71A16001, 0x71A16010, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71A16001, 0x71A16011, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71A16001, 0x71A16012, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x71A16001, 0x71A16002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71A16001, 0x71A16003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71A16001, 0x71A16004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71A16001, 0x71A16005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71A16001, 0x71A16006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71A16001, 0x71A16007, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71A16001, 0x71A16008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71A16001, 0x71A16009, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71A16001, 0x71A1600A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71A16001, 0x71A1600B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71A16001, 0x71A1600C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71A16001, 0x71A1600D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71A16001, 0x71A1600E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71A16001, 0x71A1600F, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71A16001, 0x71A16010, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71A16001, 0x71A16011, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71A16001, 0x71A16012, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A16002, 30687, 0x1A160027, 111.6182, 149.2446, 1.754701, 0.9448459, 0, 0, -0.3275154,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */

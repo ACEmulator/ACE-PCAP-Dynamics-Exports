@@ -5,12 +5,12 @@ VALUES (0x74ED5001,  1154, 0x4ED5000E, 29.27934, 131.1835, 33.00353, 0.9282203, 
 /* @teleloc 0x4ED5000E [29.279340 131.183500 33.003530] 0.928220 0.000000 0.000000 -0.372031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74ED5001, 0x74ED5002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74ED5001, 0x74ED5003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74ED5001, 0x74ED5004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74ED5001, 0x74ED5005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x74ED5001, 0x74ED5006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74ED5001, 0x74ED5007, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x74ED5001, 0x74ED5002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74ED5001, 0x74ED5003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74ED5001, 0x74ED5004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74ED5001, 0x74ED5005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x74ED5001, 0x74ED5006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74ED5001, 0x74ED5007, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74ED5002,  7184, 0x4ED5000E, 29.27934, 131.1835, 33.00353, 0.9282203, 0, 0, -0.3720309,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

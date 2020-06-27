@@ -5,35 +5,35 @@ VALUES (0x72E0F001,  1154, 0x2E0F0010, 37.47466, 182.7962, 9.233019, -0.9842063,
 /* @teleloc 0x2E0F0010 [37.474660 182.796200 9.233019] -0.984206 0.000000 0.000000 -0.177026 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0F001, 0x72E0F002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72E0F001, 0x72E0F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E0F001, 0x72E0F004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E0F001, 0x72E0F005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72E0F001, 0x72E0F006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E0F001, 0x72E0F007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E0F001, 0x72E0F008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E0F001, 0x72E0F009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72E0F001, 0x72E0F00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E0F001, 0x72E0F00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72E0F001, 0x72E0F00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E0F001, 0x72E0F00D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E0F001, 0x72E0F00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0F001, 0x72E0F00F, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0F001, 0x72E0F010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0F001, 0x72E0F011, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E0F001, 0x72E0F012, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x72E0F001, 0x72E0F013, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72E0F001, 0x72E0F014, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72E0F001, 0x72E0F015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E0F001, 0x72E0F016, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0F001, 0x72E0F017, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0F001, 0x72E0F018, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E0F001, 0x72E0F019, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72E0F001, 0x72E0F01A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E0F001, 0x72E0F01B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E0F001, 0x72E0F01C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E0F001, 0x72E0F01D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E0F001, 0x72E0F01E, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72E0F001, 0x72E0F002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72E0F001, 0x72E0F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E0F001, 0x72E0F004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E0F001, 0x72E0F005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72E0F001, 0x72E0F006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E0F001, 0x72E0F007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72E0F001, 0x72E0F008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E0F001, 0x72E0F009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72E0F001, 0x72E0F00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E0F001, 0x72E0F00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72E0F001, 0x72E0F00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E0F001, 0x72E0F00D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E0F001, 0x72E0F00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0F001, 0x72E0F00F, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0F001, 0x72E0F010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0F001, 0x72E0F011, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E0F001, 0x72E0F012, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x72E0F001, 0x72E0F013, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72E0F001, 0x72E0F014, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72E0F001, 0x72E0F015, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E0F001, 0x72E0F016, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0F001, 0x72E0F017, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0F001, 0x72E0F018, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E0F001, 0x72E0F019, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72E0F001, 0x72E0F01A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E0F001, 0x72E0F01B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E0F001, 0x72E0F01C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E0F001, 0x72E0F01D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E0F001, 0x72E0F01E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0F002,  7126, 0x2E0F0010, 37.47466, 182.7962, 9.233019, -0.9842063, 0, 0, -0.1770255,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -156,9 +156,9 @@ VALUES (0x72E0F01F,  1542, 0x2E0F0001, 9.32164, 16.08729, 14, 0.7066406, 0, 0, -
 /* @teleloc 0x2E0F0001 [9.321640 16.087290 14.000000] 0.706641 0.000000 0.000000 -0.707573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0F01F, 0x72E0F020, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x72E0F01F, 0x72E0F021, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72E0F01F, 0x72E0F022, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x72E0F01F, 0x72E0F020, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x72E0F01F, 0x72E0F021, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72E0F01F, 0x72E0F022, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0F020, 11554, 0x2E0F0001, 9.32164, 16.08729, 14, 0.7066406, 0, 0, -0.7075726,  True, '2019-02-10 00:00:00'); /* Colban Plant */

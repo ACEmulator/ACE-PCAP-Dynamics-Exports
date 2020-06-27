@@ -5,12 +5,12 @@ VALUES (0x71B79001,  1154, 0x1B790040, 187.6066, 182.6471, 198.1754, 1, 0, 0, 0,
 /* @teleloc 0x1B790040 [187.606600 182.647100 198.175400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B79001, 0x71B79002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B79001, 0x71B79003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71B79001, 0x71B79004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B79001, 0x71B79005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B79001, 0x71B79006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71B79001, 0x71B79007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x71B79001, 0x71B79002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B79001, 0x71B79003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71B79001, 0x71B79004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B79001, 0x71B79005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B79001, 0x71B79006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71B79001, 0x71B79007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B79002, 23566, 0x1B790040, 187.6066, 182.6471, 198.1754, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -41,7 +41,7 @@ VALUES (0x71B79008,  1542, 0x1B790040, 186.5744, 183.4155, 199.04, 1, 0, 0, 0, F
 /* @teleloc 0x1B790040 [186.574400 183.415500 199.040000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B79008, 0x71B79009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71B79008, 0x71B79009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B79009, 31445, 0x1B790040, 186.5744, 183.4155, 199.04, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

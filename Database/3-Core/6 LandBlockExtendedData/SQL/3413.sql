@@ -5,20 +5,20 @@ VALUES (0x73413001,  1154, 0x34130017, 67.5797, 153.5625, 11.60024, 0.9238795, 0
 /* @teleloc 0x34130017 [67.579700 153.562500 11.600240] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73413001, 0x73413002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73413001, 0x73413003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73413001, 0x73413004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73413001, 0x73413005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73413001, 0x73413006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73413001, 0x73413007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73413001, 0x73413008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73413001, 0x73413009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73413001, 0x7341300A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73413001, 0x7341300B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73413001, 0x7341300C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73413001, 0x7341300D, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73413001, 0x7341300E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73413001, 0x7341300F, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73413001, 0x73413002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73413001, 0x73413003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73413001, 0x73413004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73413001, 0x73413005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73413001, 0x73413006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73413001, 0x73413007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73413001, 0x73413008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73413001, 0x73413009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73413001, 0x7341300A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73413001, 0x7341300B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73413001, 0x7341300C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73413001, 0x7341300D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73413001, 0x7341300E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73413001, 0x7341300F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73413002, 10807, 0x34130017, 67.5797, 153.5625, 11.60024, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -81,7 +81,7 @@ VALUES (0x73413010,  1542, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0, False
 /* @teleloc 0x3413003B [180.605300 71.982440 14.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73413010, 0x73413011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73413010, 0x73413011, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73413011, 22566, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

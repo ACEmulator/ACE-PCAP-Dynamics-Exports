@@ -5,12 +5,12 @@ VALUES (0x73A54001,  1154, 0x3A540019, 73.20016, 1.355881, 24.60758, -0.4052372,
 /* @teleloc 0x3A540019 [73.200160 1.355881 24.607580] -0.405237 0.000000 0.000000 -0.914212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A54001, 0x73A54002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73A54001, 0x73A54003, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x73A54001, 0x73A54004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73A54001, 0x73A54005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73A54001, 0x73A54006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73A54001, 0x73A54007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x73A54001, 0x73A54002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73A54001, 0x73A54003, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x73A54001, 0x73A54004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73A54001, 0x73A54005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73A54001, 0x73A54006, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73A54001, 0x73A54007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A54002, 10802, 0x3A540019, 73.20016, 1.355881, 24.60758, -0.4052372, 0, 0, -0.9142116,  True, '2019-02-10 00:00:00'); /* Unstable Rift */

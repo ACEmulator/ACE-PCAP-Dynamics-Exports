@@ -5,13 +5,13 @@ VALUES (0x72022001,  1154, 0x2022000E, 43.021, 125.1987, 48.18904, 0.1056877, 0,
 /* @teleloc 0x2022000E [43.021000 125.198700 48.189040] 0.105688 0.000000 0.000000 -0.994399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72022001, 0x72022002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72022001, 0x72022003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72022001, 0x72022004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72022001, 0x72022005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72022001, 0x72022006, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x72022001, 0x72022007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x72022001, 0x72022008, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x72022001, 0x72022002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72022001, 0x72022003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72022001, 0x72022004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72022001, 0x72022005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72022001, 0x72022006, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x72022001, 0x72022007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x72022001, 0x72022008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72022002, 23481, 0x2022000E, 43.021, 125.1987, 48.18904, 0.1056877, 0, 0, -0.9943994,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

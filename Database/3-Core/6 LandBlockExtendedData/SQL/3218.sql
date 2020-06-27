@@ -5,18 +5,18 @@ VALUES (0x73218001,  1154, 0x32180029, 129.1211, 22.70309, 56.0025, -0.9610711, 
 /* @teleloc 0x32180029 [129.121100 22.703090 56.002500] -0.961071 0.000000 0.000000 -0.276301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73218001, 0x73218002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73218001, 0x73218003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73218001, 0x73218004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73218001, 0x73218005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73218001, 0x73218006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73218001, 0x73218007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73218001, 0x73218008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73218001, 0x73218009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73218001, 0x7321800A, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73218001, 0x7321800B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73218001, 0x7321800C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73218001, 0x7321800D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */;
+VALUES (0x73218001, 0x73218002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73218001, 0x73218003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73218001, 0x73218004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73218001, 0x73218005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73218001, 0x73218006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73218001, 0x73218007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73218001, 0x73218008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73218001, 0x73218009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73218001, 0x7321800A, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73218001, 0x7321800B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73218001, 0x7321800C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73218001, 0x7321800D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73218002, 36855, 0x32180029, 129.1211, 22.70309, 56.0025, -0.9610711, 0, 0, -0.2763012,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

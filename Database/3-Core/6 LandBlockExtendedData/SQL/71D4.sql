@@ -5,16 +5,16 @@ VALUES (0x771D4001,  1154, 0x71D4000B, 33.05389, 56.17958, 315.9343, 0.3288497, 
 /* @teleloc 0x71D4000B [33.053890 56.179580 315.934300] 0.328850 0.000000 0.000000 -0.944382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771D4001, 0x771D4002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x771D4001, 0x771D4003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x771D4001, 0x771D4004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x771D4001, 0x771D4005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x771D4001, 0x771D4006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x771D4001, 0x771D4007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x771D4001, 0x771D4008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x771D4001, 0x771D4009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x771D4001, 0x771D400A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x771D4001, 0x771D400B, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x771D4001, 0x771D4002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x771D4001, 0x771D4003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x771D4001, 0x771D4004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x771D4001, 0x771D4005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x771D4001, 0x771D4006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x771D4001, 0x771D4007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x771D4001, 0x771D4008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x771D4001, 0x771D4009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x771D4001, 0x771D400A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x771D4001, 0x771D400B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771D4002, 24275, 0x71D4000B, 33.05389, 56.17958, 315.9343, 0.3288497, 0, 0, -0.9443823,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

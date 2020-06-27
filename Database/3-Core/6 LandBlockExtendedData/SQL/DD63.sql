@@ -5,26 +5,26 @@ VALUES (0x7DD63001,  1154, 0xDD63000F, 31.13682, 165.2861, 23.41187, -0.9837613,
 /* @teleloc 0xDD63000F [31.136820 165.286100 23.411870] -0.983761 0.000000 0.000000 -0.179482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD63001, 0x7DD63002, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7DD63001, 0x7DD63003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7DD63001, 0x7DD63004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DD63001, 0x7DD63005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7DD63001, 0x7DD63006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7DD63001, 0x7DD63007, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7DD63001, 0x7DD63008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7DD63001, 0x7DD63009, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7DD63001, 0x7DD6300A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DD63001, 0x7DD6300B, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7DD63001, 0x7DD6300C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DD63001, 0x7DD6300D, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7DD63001, 0x7DD6300E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD63001, 0x7DD6300F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7DD63001, 0x7DD63010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD63001, 0x7DD63011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DD63001, 0x7DD63012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7DD63001, 0x7DD63013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7DD63001, 0x7DD63014, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DD63001, 0x7DD63015, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7DD63001, 0x7DD63002, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7DD63001, 0x7DD63003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7DD63001, 0x7DD63004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DD63001, 0x7DD63005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7DD63001, 0x7DD63006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7DD63001, 0x7DD63007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7DD63001, 0x7DD63008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7DD63001, 0x7DD63009, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7DD63001, 0x7DD6300A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DD63001, 0x7DD6300B, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7DD63001, 0x7DD6300C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DD63001, 0x7DD6300D, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7DD63001, 0x7DD6300E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD63001, 0x7DD6300F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7DD63001, 0x7DD63010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD63001, 0x7DD63011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DD63001, 0x7DD63012, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7DD63001, 0x7DD63013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7DD63001, 0x7DD63014, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DD63001, 0x7DD63015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD63002,   210, 0xDD63000F, 31.13682, 165.2861, 23.41187, -0.9837613, 0, 0, -0.179482,  True, '2019-02-10 00:00:00'); /* Mosswart Chief */
@@ -111,8 +111,8 @@ VALUES (0x7DD63016,  1542, 0xDD630007, 9.520318, 153.3297, 25.20664, 0.8870109, 
 /* @teleloc 0xDD630007 [9.520318 153.329700 25.206640] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD63016, 0x7DD63017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7DD63016, 0x7DD63018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7DD63016, 0x7DD63017, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7DD63016, 0x7DD63018, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD63017,  4379, 0xDD630007, 9.520318, 153.3297, 25.20664, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Bones */

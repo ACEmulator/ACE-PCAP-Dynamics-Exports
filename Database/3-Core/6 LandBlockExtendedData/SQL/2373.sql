@@ -5,33 +5,33 @@ VALUES (0x72373001,  1154, 0x23730018, 56.86547, 185.7349, 110.008, -0.745039, 0
 /* @teleloc 0x23730018 [56.865470 185.734900 110.008000] -0.745039 0.000000 0.000000 0.667021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72373001, 0x72373002, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x72373003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72373001, 0x72373004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72373001, 0x72373005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72373001, 0x72373006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72373001, 0x72373007, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72373001, 0x72373008, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x72373009, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72373001, 0x7237300A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x7237300B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72373001, 0x7237300C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72373001, 0x7237300D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72373001, 0x7237300E, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */
-     , (0x72373001, 0x7237300F, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72373001, 0x72373010, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72373001, 0x72373011, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72373001, 0x72373012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72373001, 0x72373013, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72373001, 0x72373014, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72373001, 0x72373015, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72373001, 0x72373016, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72373001, 0x72373017, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x72373018, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72373001, 0x72373019, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72373001, 0x7237301A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x7237301B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72373001, 0x7237301C, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */;
+VALUES (0x72373001, 0x72373002, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x72373003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72373001, 0x72373004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72373001, 0x72373005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72373001, 0x72373006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72373001, 0x72373007, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72373001, 0x72373008, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x72373009, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72373001, 0x7237300A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x7237300B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72373001, 0x7237300C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72373001, 0x7237300D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72373001, 0x7237300E, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72373001, 0x7237300F, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72373001, 0x72373010, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72373001, 0x72373011, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72373001, 0x72373012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72373001, 0x72373013, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72373001, 0x72373014, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72373001, 0x72373015, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72373001, 0x72373016, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72373001, 0x72373017, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x72373018, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72373001, 0x72373019, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72373001, 0x7237301A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x7237301B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72373001, 0x7237301C, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72373002, 41531, 0x23730018, 56.86547, 185.7349, 110.008, -0.745039, 0, 0, 0.667021,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
@@ -146,9 +146,9 @@ VALUES (0x7237301D,  1542, 0x2373001F, 78.73552, 154.5266, 107.1935, 0.0269496, 
 /* @teleloc 0x2373001F [78.735520 154.526600 107.193500] 0.026950 0.000000 0.000000 0.999637 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7237301D, 0x7237301E, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x7237301D, 0x7237301F, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x7237301D, 0x72373020, '2019-02-10 00:00:00') /* Rez'arean Ore */;
+VALUES (0x7237301D, 0x7237301E, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7237301D, 0x7237301F, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7237301D, 0x72373020, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7237301E, 46287, 0x2373001F, 78.73552, 154.5266, 107.1935, 0.0269496, 0, 0, 0.999637,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */

@@ -5,10 +5,10 @@ VALUES (0x787C0001,  1154, 0x87C00036, 144.7021, 126.838, 96.93181, -0.9999599, 
 /* @teleloc 0x87C00036 [144.702100 126.838000 96.931810] -0.999960 0.000000 0.000000 -0.008960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787C0001, 0x787C0002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x787C0001, 0x787C0003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x787C0001, 0x787C0004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x787C0001, 0x787C0005, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x787C0001, 0x787C0002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x787C0001, 0x787C0003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x787C0001, 0x787C0004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x787C0001, 0x787C0005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787C0002, 11533, 0x87C00036, 144.7021, 126.838, 96.93181, -0.9999599, 0, 0, -0.008959563,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

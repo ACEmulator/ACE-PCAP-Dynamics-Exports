@@ -5,18 +5,18 @@ VALUES (0x7EC4D001,  1154, 0xEC4D002F, 143.8157, 152.3148, 9.921606, 0.3354415, 
 /* @teleloc 0xEC4D002F [143.815700 152.314800 9.921606] 0.335442 0.000000 0.000000 -0.942061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC4D001, 0x7EC4D002, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7EC4D001, 0x7EC4D003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7EC4D001, 0x7EC4D004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7EC4D001, 0x7EC4D005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7EC4D001, 0x7EC4D006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7EC4D001, 0x7EC4D007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7EC4D001, 0x7EC4D008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7EC4D001, 0x7EC4D009, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7EC4D001, 0x7EC4D00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EC4D001, 0x7EC4D00B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EC4D001, 0x7EC4D00C, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7EC4D001, 0x7EC4D00D, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7EC4D001, 0x7EC4D002, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7EC4D001, 0x7EC4D003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7EC4D001, 0x7EC4D004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7EC4D001, 0x7EC4D005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7EC4D001, 0x7EC4D006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7EC4D001, 0x7EC4D007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7EC4D001, 0x7EC4D008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7EC4D001, 0x7EC4D009, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7EC4D001, 0x7EC4D00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EC4D001, 0x7EC4D00B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EC4D001, 0x7EC4D00C, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7EC4D001, 0x7EC4D00D, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC4D002,  7985, 0xEC4D002F, 143.8157, 152.3148, 9.921606, 0.3354415, 0, 0, -0.942061,  True, '2019-02-10 00:00:00'); /* Listris Niffis */

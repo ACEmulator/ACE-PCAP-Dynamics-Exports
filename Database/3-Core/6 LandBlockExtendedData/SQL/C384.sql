@@ -5,25 +5,25 @@ VALUES (0x7C384001,  1154, 0xC3840016, 63.96034, 125.4901, 41.08949, -0.9013731,
 /* @teleloc 0xC3840016 [63.960340 125.490100 41.089490] -0.901373 0.000000 0.000000 -0.433043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C384001, 0x7C384002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C384001, 0x7C384003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C384001, 0x7C384004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C384001, 0x7C384005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C384001, 0x7C384006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C384001, 0x7C384007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C384001, 0x7C384008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C384001, 0x7C384009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C384001, 0x7C38400A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C384001, 0x7C38400B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C384001, 0x7C38400C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C384001, 0x7C38400D, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C384001, 0x7C38400E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C384001, 0x7C38400F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C384001, 0x7C384010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C384001, 0x7C384011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C384001, 0x7C384012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C384001, 0x7C384013, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C384001, 0x7C384014, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7C384001, 0x7C384002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C384001, 0x7C384003, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7C384001, 0x7C384004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C384001, 0x7C384005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C384001, 0x7C384006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C384001, 0x7C384007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C384001, 0x7C384008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C384001, 0x7C384009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C384001, 0x7C38400A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C384001, 0x7C38400B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C384001, 0x7C38400C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C384001, 0x7C38400D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C384001, 0x7C38400E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C384001, 0x7C38400F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C384001, 0x7C384010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C384001, 0x7C384011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C384001, 0x7C384012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C384001, 0x7C384013, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C384001, 0x7C384014, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C384002,  1613, 0xC3840016, 63.96034, 125.4901, 41.08949, -0.9013731, 0, 0, -0.4330433,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */
@@ -106,7 +106,7 @@ VALUES (0x7C384015,  1542, 0xC3840015, 65.45454, 115.8754, 43.03116, 1, 0, 0, 0,
 /* @teleloc 0xC3840015 [65.454540 115.875400 43.031160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C384015, 0x7C384016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C384015, 0x7C384016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C384016,  4179, 0xC3840015, 65.45454, 115.8754, 43.03116, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

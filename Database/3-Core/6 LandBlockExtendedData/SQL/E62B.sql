@@ -5,36 +5,36 @@ VALUES (0x7E62B001,  1154, 0xE62B0014, 69.28799, 86.45366, 7.166814, 0.8660254, 
 /* @teleloc 0xE62B0014 [69.287990 86.453660 7.166814] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62B001, 0x7E62B002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E62B001, 0x7E62B003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E62B001, 0x7E62B004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E62B001, 0x7E62B005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E62B001, 0x7E62B006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7E62B001, 0x7E62B007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7E62B001, 0x7E62B008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7E62B001, 0x7E62B009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7E62B001, 0x7E62B00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E62B001, 0x7E62B00B, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E62B001, 0x7E62B00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E62B001, 0x7E62B00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E62B001, 0x7E62B00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E62B001, 0x7E62B00F, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E62B001, 0x7E62B010, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E62B001, 0x7E62B011, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7E62B001, 0x7E62B012, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7E62B001, 0x7E62B013, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7E62B001, 0x7E62B014, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E62B001, 0x7E62B015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B016, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B017, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E62B001, 0x7E62B018, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E62B001, 0x7E62B019, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B01A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E62B001, 0x7E62B01B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E62B001, 0x7E62B01C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B01D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B01E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E62B001, 0x7E62B01F, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7E62B001, 0x7E62B002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E62B001, 0x7E62B003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E62B001, 0x7E62B004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E62B001, 0x7E62B005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E62B001, 0x7E62B006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7E62B001, 0x7E62B007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7E62B001, 0x7E62B008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7E62B001, 0x7E62B009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7E62B001, 0x7E62B00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E62B001, 0x7E62B00B, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E62B001, 0x7E62B00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E62B001, 0x7E62B00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E62B001, 0x7E62B00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E62B001, 0x7E62B00F, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E62B001, 0x7E62B010, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E62B001, 0x7E62B011, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7E62B001, 0x7E62B012, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7E62B001, 0x7E62B013, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7E62B001, 0x7E62B014, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E62B001, 0x7E62B015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B016, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B017, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E62B001, 0x7E62B018, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E62B001, 0x7E62B019, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B01A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E62B001, 0x7E62B01B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E62B001, 0x7E62B01C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B01D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B01E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E62B001, 0x7E62B01F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62B002,  4247, 0xE62B0014, 69.28799, 86.45366, 7.166814, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -161,8 +161,8 @@ VALUES (0x7E62B020,  1542, 0xE62B0014, 66.85577, 80.72616, 5.324167, 0.9990482, 
 /* @teleloc 0xE62B0014 [66.855770 80.726160 5.324167] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62B020, 0x7E62B021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E62B020, 0x7E62B022, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7E62B020, 0x7E62B021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E62B020, 0x7E62B022, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62B021,  4179, 0xE62B0014, 66.85577, 80.72616, 5.324167, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

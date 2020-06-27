@@ -5,8 +5,8 @@ VALUES (0x72BC1001,  1154, 0x2BC10014, 50.34133, 85.91171, 22.47183, 0.7260984, 
 /* @teleloc 0x2BC10014 [50.341330 85.911710 22.471830] 0.726098 0.000000 0.000000 -0.687591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BC1001, 0x72BC1002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x72BC1001, 0x72BC1003, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x72BC1001, 0x72BC1002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x72BC1001, 0x72BC1003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BC1002,   201, 0x2BC10014, 50.34133, 85.91171, 22.47183, 0.7260984, 0, 0, -0.6875908,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

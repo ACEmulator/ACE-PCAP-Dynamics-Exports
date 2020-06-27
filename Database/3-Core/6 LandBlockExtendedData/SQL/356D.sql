@@ -5,21 +5,21 @@ VALUES (0x7356D001,  1154, 0x356D0023, 119.922, 64.81318, 99.3746, -0.2053043, 0
 /* @teleloc 0x356D0023 [119.922000 64.813180 99.374600] -0.205304 0.000000 0.000000 -0.978698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356D001, 0x7356D002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7356D001, 0x7356D003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7356D001, 0x7356D004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7356D001, 0x7356D005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7356D001, 0x7356D006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7356D001, 0x7356D007, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7356D001, 0x7356D008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7356D001, 0x7356D009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7356D001, 0x7356D00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7356D001, 0x7356D00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7356D001, 0x7356D00C, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7356D001, 0x7356D00D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7356D001, 0x7356D00E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7356D001, 0x7356D00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7356D001, 0x7356D010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7356D001, 0x7356D002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7356D001, 0x7356D003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7356D001, 0x7356D004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7356D001, 0x7356D005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7356D001, 0x7356D006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7356D001, 0x7356D007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7356D001, 0x7356D008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7356D001, 0x7356D009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7356D001, 0x7356D00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7356D001, 0x7356D00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7356D001, 0x7356D00C, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7356D001, 0x7356D00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7356D001, 0x7356D00E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7356D001, 0x7356D00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7356D001, 0x7356D010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356D002, 36844, 0x356D0023, 119.922, 64.81318, 99.3746, -0.2053043, 0, 0, -0.9786982,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -86,10 +86,10 @@ VALUES (0x7356D011,  1542, 0x356D0033, 155.96, 59.98925, 109.9976, 0.1764082, 0,
 /* @teleloc 0x356D0033 [155.960000 59.989250 109.997600] 0.176408 0.000000 0.000000 -0.984317 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356D011, 0x7356D012, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7356D011, 0x7356D013, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7356D011, 0x7356D014, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7356D011, 0x7356D015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7356D011, 0x7356D012, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7356D011, 0x7356D013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7356D011, 0x7356D014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7356D011, 0x7356D015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356D012,  8648, 0x356D0033, 155.96, 59.98925, 109.9976, 0.1764082, 0, 0, -0.9843171,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

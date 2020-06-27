@@ -5,21 +5,21 @@ VALUES (0x7D925001,  1154, 0xD9250019, 74.69037, 8.532686, 313.3849, 0.02012327,
 /* @teleloc 0xD9250019 [74.690370 8.532686 313.384900] 0.020123 0.000000 0.000000 -0.999798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D925001, 0x7D925002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D925001, 0x7D925003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D925001, 0x7D925004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D925001, 0x7D925005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D925001, 0x7D925006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7D925001, 0x7D925007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D925001, 0x7D925008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D925001, 0x7D925009, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7D925001, 0x7D92500A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D925001, 0x7D92500B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D925001, 0x7D92500C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7D925001, 0x7D92500D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7D925001, 0x7D92500E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7D925001, 0x7D92500F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7D925001, 0x7D925010, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7D925001, 0x7D925002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D925001, 0x7D925003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D925001, 0x7D925004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D925001, 0x7D925005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D925001, 0x7D925006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7D925001, 0x7D925007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D925001, 0x7D925008, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D925001, 0x7D925009, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7D925001, 0x7D92500A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D925001, 0x7D92500B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D925001, 0x7D92500C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7D925001, 0x7D92500D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7D925001, 0x7D92500E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7D925001, 0x7D92500F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7D925001, 0x7D925010, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D925002,  1757, 0xD9250019, 74.69037, 8.532686, 313.3849, 0.02012327, 0, 0, -0.9997975,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -86,7 +86,7 @@ VALUES (0x7D925011,  1542, 0xD9250025, 97.19192, 101.9688, 274.384, -0.9882185, 
 /* @teleloc 0xD9250025 [97.191920 101.968800 274.384000] -0.988219 0.000000 0.000000 -0.153049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D925011, 0x7D925012, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7D925011, 0x7D925012, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D925012, 42528, 0xD9250025, 97.19192, 101.9688, 274.384, -0.9882185, 0, 0, -0.1530492,  True, '2019-02-10 00:00:00'); /* Rock */

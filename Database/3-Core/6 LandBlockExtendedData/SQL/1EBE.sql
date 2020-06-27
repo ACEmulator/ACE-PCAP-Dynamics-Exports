@@ -5,16 +5,16 @@ VALUES (0x71EBE001,  1154, 0x1EBE003B, 181.3864, 52.47704, 93.31306, 1, 0, 0, 0,
 /* @teleloc 0x1EBE003B [181.386400 52.477040 93.313060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBE001, 0x71EBE002, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71EBE001, 0x71EBE003, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71EBE001, 0x71EBE004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBE001, 0x71EBE005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBE001, 0x71EBE006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBE001, 0x71EBE007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBE001, 0x71EBE008, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71EBE001, 0x71EBE009, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBE001, 0x71EBE00A, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71EBE001, 0x71EBE00B, '2019-02-10 00:00:00') /* Aun Elder Shaman */;
+VALUES (0x71EBE001, 0x71EBE002, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71EBE001, 0x71EBE003, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71EBE001, 0x71EBE004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBE001, 0x71EBE005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBE001, 0x71EBE006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBE001, 0x71EBE007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBE001, 0x71EBE008, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71EBE001, 0x71EBE009, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBE001, 0x71EBE00A, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71EBE001, 0x71EBE00B, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBE002, 11501, 0x1EBE003B, 181.3864, 52.47704, 93.31306, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist */
@@ -61,8 +61,8 @@ VALUES (0x71EBE00C,  1542, 0x1EBE003B, 188.794, 65.23304, 93.31306, 1, 0, 0, 0, 
 /* @teleloc 0x1EBE003B [188.794000 65.233040 93.313060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBE00C, 0x71EBE00D, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x71EBE00C, 0x71EBE00E, '2019-02-10 00:00:00') /* Small Hive Portal */;
+VALUES (0x71EBE00C, 0x71EBE00D, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x71EBE00C, 0x71EBE00E, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBE00D, 11556, 0x1EBE003B, 188.794, 65.23304, 93.31306, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

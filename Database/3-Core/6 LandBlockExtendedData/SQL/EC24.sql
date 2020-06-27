@@ -5,17 +5,17 @@ VALUES (0x7EC24001,  1154, 0xEC24003B, 176.2269, 54.44628, 1.430511E-06, -0.9852
 /* @teleloc 0xEC24003B [176.226900 54.446280 0.000001] -0.985248 0.000000 0.000000 -0.171131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC24001, 0x7EC24002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EC24001, 0x7EC24003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EC24001, 0x7EC24004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EC24001, 0x7EC24005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC24001, 0x7EC24006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC24001, 0x7EC24007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EC24001, 0x7EC24008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EC24001, 0x7EC24009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC24001, 0x7EC2400A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC24001, 0x7EC2400B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EC24001, 0x7EC2400C, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7EC24001, 0x7EC24002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EC24001, 0x7EC24003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EC24001, 0x7EC24004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EC24001, 0x7EC24005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC24001, 0x7EC24006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC24001, 0x7EC24007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EC24001, 0x7EC24008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EC24001, 0x7EC24009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC24001, 0x7EC2400A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC24001, 0x7EC2400B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EC24001, 0x7EC2400C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC24002,  7126, 0xEC24003B, 176.2269, 54.44628, 1.430511E-06, -0.9852483, 0, 0, -0.1711312,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

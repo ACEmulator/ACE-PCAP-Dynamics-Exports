@@ -9,8 +9,8 @@ VALUES (0x73941001,  1154, 0x3941003E, 191.4433, 142.2034, 29.45209, 0.9659258, 
 /* @teleloc 0x3941003E [191.443300 142.203400 29.452090] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73941001, 0x73941002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73941001, 0x73941003, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73941001, 0x73941002, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73941001, 0x73941003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73941002, 10776, 0x3941003E, 191.4433, 142.2034, 29.45209, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

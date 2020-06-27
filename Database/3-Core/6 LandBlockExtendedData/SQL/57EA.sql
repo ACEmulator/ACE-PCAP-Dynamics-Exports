@@ -5,19 +5,19 @@ VALUES (0x757EA001,  1154, 0x57EA0037, 153.107, 164.2018, -0.8934, -0.1730363, 0
 /* @teleloc 0x57EA0037 [153.107000 164.201800 -0.893400] -0.173036 0.000000 0.000000 -0.984915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757EA001, 0x757EA002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x757EA001, 0x757EA003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x757EA001, 0x757EA004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x757EA001, 0x757EA005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x757EA001, 0x757EA006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x757EA001, 0x757EA007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x757EA001, 0x757EA008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x757EA001, 0x757EA009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x757EA001, 0x757EA00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x757EA001, 0x757EA00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x757EA001, 0x757EA00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x757EA001, 0x757EA00D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x757EA001, 0x757EA00E, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x757EA001, 0x757EA002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x757EA001, 0x757EA003, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x757EA001, 0x757EA004, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x757EA001, 0x757EA005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x757EA001, 0x757EA006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x757EA001, 0x757EA007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x757EA001, 0x757EA008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x757EA001, 0x757EA009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x757EA001, 0x757EA00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x757EA001, 0x757EA00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x757EA001, 0x757EA00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x757EA001, 0x757EA00D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x757EA001, 0x757EA00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757EA002,  4248, 0x57EA0037, 153.107, 164.2018, -0.8934, -0.1730363, 0, 0, -0.9849154,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

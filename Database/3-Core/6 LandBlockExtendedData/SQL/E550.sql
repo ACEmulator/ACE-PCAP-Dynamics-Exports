@@ -5,15 +5,15 @@ VALUES (0x7E550001,  1154, 0xE550002C, 142.775, 94.99268, -0.8989001, -0.8703763
 /* @teleloc 0xE550002C [142.775000 94.992680 -0.898900] -0.870376 0.000000 0.000000 -0.492387 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E550001, 0x7E550002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E550001, 0x7E550003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E550001, 0x7E550004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E550001, 0x7E550005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E550001, 0x7E550006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E550001, 0x7E550007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E550001, 0x7E550008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E550001, 0x7E550009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E550001, 0x7E55000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7E550001, 0x7E550002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E550001, 0x7E550003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E550001, 0x7E550004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E550001, 0x7E550005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E550001, 0x7E550006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E550001, 0x7E550007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E550001, 0x7E550008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E550001, 0x7E550009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E550001, 0x7E55000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E550002,  2577, 0xE550002C, 142.775, 94.99268, -0.8989001, -0.8703763, 0, 0, -0.4923871,  True, '2019-02-10 00:00:00'); /* Shallows Shark */

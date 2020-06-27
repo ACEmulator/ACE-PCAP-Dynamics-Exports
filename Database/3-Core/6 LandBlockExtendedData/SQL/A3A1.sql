@@ -5,13 +5,13 @@ VALUES (0x7A3A1001,  1154, 0xA3A10035, 161.7063, 96.63599, 143.5653, -0.1736482,
 /* @teleloc 0xA3A10035 [161.706300 96.635990 143.565300] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A1001, 0x7A3A1002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A3A1001, 0x7A3A1003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3A1001, 0x7A3A1004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A3A1001, 0x7A3A1005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A3A1001, 0x7A3A1006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3A1001, 0x7A3A1007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3A1001, 0x7A3A1008, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A3A1001, 0x7A3A1002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A3A1001, 0x7A3A1003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3A1001, 0x7A3A1004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A3A1001, 0x7A3A1005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A3A1001, 0x7A3A1006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3A1001, 0x7A3A1007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3A1001, 0x7A3A1008, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A1002,  2575, 0xA3A10035, 161.7063, 96.63599, 143.5653, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

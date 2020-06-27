@@ -5,35 +5,35 @@ VALUES (0x7B0C6001,  1154, 0xB0C6000C, 32.67606, 90.04666, 130.2919, -0.8604463,
 /* @teleloc 0xB0C6000C [32.676060 90.046660 130.291900] -0.860446 0.000000 0.000000 -0.509541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0C6001, 0x7B0C6002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B0C6001, 0x7B0C6003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B0C6001, 0x7B0C6004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B0C6001, 0x7B0C6005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B0C6001, 0x7B0C6006, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B0C6001, 0x7B0C6007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B0C6001, 0x7B0C6008, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B0C6001, 0x7B0C6009, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B0C6001, 0x7B0C600A, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7B0C6001, 0x7B0C600B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B0C6001, 0x7B0C600C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B0C6001, 0x7B0C600D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B0C6001, 0x7B0C600E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B0C6001, 0x7B0C600F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B0C6001, 0x7B0C6010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B0C6001, 0x7B0C6011, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B0C6001, 0x7B0C6012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B0C6001, 0x7B0C6013, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B0C6001, 0x7B0C6014, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B0C6001, 0x7B0C6015, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B0C6001, 0x7B0C6016, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B0C6001, 0x7B0C6017, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0C6001, 0x7B0C6018, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B0C6001, 0x7B0C6019, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B0C6001, 0x7B0C601A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B0C6001, 0x7B0C601B, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7B0C6001, 0x7B0C601C, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B0C6001, 0x7B0C601D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B0C6001, 0x7B0C601E, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7B0C6001, 0x7B0C6002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B0C6001, 0x7B0C6003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B0C6001, 0x7B0C6004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B0C6001, 0x7B0C6005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B0C6001, 0x7B0C6006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B0C6001, 0x7B0C6007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B0C6001, 0x7B0C6008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B0C6001, 0x7B0C6009, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B0C6001, 0x7B0C600A, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7B0C6001, 0x7B0C600B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B0C6001, 0x7B0C600C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B0C6001, 0x7B0C600D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B0C6001, 0x7B0C600E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B0C6001, 0x7B0C600F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B0C6001, 0x7B0C6010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B0C6001, 0x7B0C6011, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B0C6001, 0x7B0C6012, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7B0C6001, 0x7B0C6013, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B0C6001, 0x7B0C6014, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B0C6001, 0x7B0C6015, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B0C6001, 0x7B0C6016, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B0C6001, 0x7B0C6017, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0C6001, 0x7B0C6018, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B0C6001, 0x7B0C6019, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B0C6001, 0x7B0C601A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B0C6001, 0x7B0C601B, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7B0C6001, 0x7B0C601C, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B0C6001, 0x7B0C601D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B0C6001, 0x7B0C601E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0C6002,   937, 0xB0C6000C, 32.67606, 90.04666, 130.2919, -0.8604463, 0, 0, -0.5095412,  True, '2019-02-10 00:00:00'); /* Banderling Guard */

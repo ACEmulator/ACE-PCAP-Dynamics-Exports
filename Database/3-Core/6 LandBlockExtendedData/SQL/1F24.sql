@@ -5,20 +5,20 @@ VALUES (0x71F24001,  1154, 0x1F24003C, 181.3982, 91.9287, 27.3209, -0.9127798, 0
 /* @teleloc 0x1F24003C [181.398200 91.928700 27.320900] -0.912780 0.000000 0.000000 -0.408452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F24001, 0x71F24002, '2019-02-10 00:00:00') /* Conflagration */
-     , (0x71F24001, 0x71F24003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71F24001, 0x71F24004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71F24001, 0x71F24005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71F24001, 0x71F24006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71F24001, 0x71F24007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F24001, 0x71F24008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F24001, 0x71F24009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F24001, 0x71F2400A, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71F24001, 0x71F2400B, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71F24001, 0x71F2400C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71F24001, 0x71F2400D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71F24001, 0x71F2400E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71F24001, 0x71F2400F, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71F24001, 0x71F24002, '2019-02-10 00:00:00') /* Conflagration (19539) */
+     , (0x71F24001, 0x71F24003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71F24001, 0x71F24004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71F24001, 0x71F24005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71F24001, 0x71F24006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71F24001, 0x71F24007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F24001, 0x71F24008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F24001, 0x71F24009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F24001, 0x71F2400A, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71F24001, 0x71F2400B, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71F24001, 0x71F2400C, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71F24001, 0x71F2400D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71F24001, 0x71F2400E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71F24001, 0x71F2400F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F24002, 19539, 0x1F24003C, 181.3982, 91.9287, 27.3209, -0.9127798, 0, 0, -0.4084519,  True, '2019-02-10 00:00:00'); /* Conflagration */

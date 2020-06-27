@@ -5,10 +5,10 @@ VALUES (0x7388B001,  1154, 0x388B0010, 27.7965, 190.7055, 82.0075, 0.7316216, 0,
 /* @teleloc 0x388B0010 [27.796500 190.705500 82.007500] 0.731622 0.000000 0.000000 -0.681711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388B001, 0x7388B002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7388B001, 0x7388B003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7388B001, 0x7388B004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7388B001, 0x7388B005, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7388B001, 0x7388B002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7388B001, 0x7388B003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7388B001, 0x7388B004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7388B001, 0x7388B005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388B002, 41535, 0x388B0010, 27.7965, 190.7055, 82.0075, 0.7316216, 0, 0, -0.681711,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

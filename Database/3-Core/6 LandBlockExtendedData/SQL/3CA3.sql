@@ -5,27 +5,27 @@ VALUES (0x73CA3001,  1154, 0x3CA3001F, 92.36244, 150.1697, 3.182728, -4.371139E-
 /* @teleloc 0x3CA3001F [92.362440 150.169700 3.182728] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73CA3001, 0x73CA3002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73CA3001, 0x73CA3003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73CA3001, 0x73CA3004, '2019-02-10 00:00:00') /* Static */
-     , (0x73CA3001, 0x73CA3005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73CA3001, 0x73CA3006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73CA3001, 0x73CA3007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73CA3001, 0x73CA3008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73CA3001, 0x73CA3009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73CA3001, 0x73CA300A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73CA3001, 0x73CA300B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73CA3001, 0x73CA300C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73CA3001, 0x73CA300D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73CA3001, 0x73CA300E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x73CA3001, 0x73CA300F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73CA3001, 0x73CA3010, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73CA3001, 0x73CA3011, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73CA3001, 0x73CA3012, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73CA3001, 0x73CA3013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73CA3001, 0x73CA3014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73CA3001, 0x73CA3015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73CA3001, 0x73CA3016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x73CA3001, 0x73CA3002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73CA3001, 0x73CA3003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73CA3001, 0x73CA3004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x73CA3001, 0x73CA3005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73CA3001, 0x73CA3006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73CA3001, 0x73CA3007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73CA3001, 0x73CA3008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73CA3001, 0x73CA3009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73CA3001, 0x73CA300A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73CA3001, 0x73CA300B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73CA3001, 0x73CA300C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73CA3001, 0x73CA300D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73CA3001, 0x73CA300E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x73CA3001, 0x73CA300F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73CA3001, 0x73CA3010, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73CA3001, 0x73CA3011, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73CA3001, 0x73CA3012, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73CA3001, 0x73CA3013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73CA3001, 0x73CA3014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73CA3001, 0x73CA3015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73CA3001, 0x73CA3016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73CA3002,  7111, 0x3CA3001F, 92.36244, 150.1697, 3.182728, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -116,7 +116,7 @@ VALUES (0x73CA3017,  1542, 0x3CA30002, 4.185319, 47.70213, -0.46, -0.2529253, 0,
 /* @teleloc 0x3CA30002 [4.185319 47.702130 -0.460000] -0.252925 0.000000 0.000000 -0.967486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73CA3017, 0x73CA3018, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x73CA3017, 0x73CA3018, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73CA3018,  9287, 0x3CA30002, 4.185319, 47.70213, -0.46, -0.2529253, 0, 0, -0.9674858,  True, '2019-02-10 00:00:00'); /* Master's Holding */

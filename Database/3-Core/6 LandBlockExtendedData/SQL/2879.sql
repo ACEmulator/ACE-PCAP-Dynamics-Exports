@@ -5,11 +5,11 @@ VALUES (0x72879001,  1154, 0x28790001, 3.841049, 9.212418, 283.8333, 0.987646, 0
 /* @teleloc 0x28790001 [3.841049 9.212418 283.833300] 0.987646 0.000000 0.000000 -0.156702 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72879001, 0x72879002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72879001, 0x72879003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72879001, 0x72879004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72879001, 0x72879005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72879001, 0x72879006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72879001, 0x72879002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72879001, 0x72879003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72879001, 0x72879004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72879001, 0x72879005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72879001, 0x72879006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72879002, 24958, 0x28790001, 3.841049, 9.212418, 283.8333, 0.987646, 0, 0, -0.1567018,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

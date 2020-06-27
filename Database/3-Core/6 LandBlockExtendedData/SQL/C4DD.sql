@@ -5,30 +5,30 @@ VALUES (0x7C4DD001,  1154, 0xC4DD003E, 171.0321, 125.8503, 7.027448, -0.08715422
 /* @teleloc 0xC4DD003E [171.032100 125.850300 7.027448] -0.087154 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4DD001, 0x7C4DD002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C4DD001, 0x7C4DD003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7C4DD001, 0x7C4DD004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C4DD001, 0x7C4DD005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C4DD001, 0x7C4DD006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C4DD001, 0x7C4DD007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C4DD001, 0x7C4DD008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C4DD001, 0x7C4DD009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C4DD001, 0x7C4DD00A, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C4DD001, 0x7C4DD00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C4DD001, 0x7C4DD00C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C4DD001, 0x7C4DD00D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C4DD001, 0x7C4DD00E, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C4DD001, 0x7C4DD00F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C4DD001, 0x7C4DD010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C4DD001, 0x7C4DD011, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C4DD001, 0x7C4DD012, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C4DD001, 0x7C4DD013, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C4DD001, 0x7C4DD014, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C4DD001, 0x7C4DD015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C4DD001, 0x7C4DD016, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C4DD001, 0x7C4DD017, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C4DD001, 0x7C4DD018, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C4DD001, 0x7C4DD019, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x7C4DD001, 0x7C4DD002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C4DD001, 0x7C4DD003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7C4DD001, 0x7C4DD004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C4DD001, 0x7C4DD005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C4DD001, 0x7C4DD006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C4DD001, 0x7C4DD007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C4DD001, 0x7C4DD008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C4DD001, 0x7C4DD009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C4DD001, 0x7C4DD00A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C4DD001, 0x7C4DD00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C4DD001, 0x7C4DD00C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C4DD001, 0x7C4DD00D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C4DD001, 0x7C4DD00E, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C4DD001, 0x7C4DD00F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C4DD001, 0x7C4DD010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C4DD001, 0x7C4DD011, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C4DD001, 0x7C4DD012, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C4DD001, 0x7C4DD013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C4DD001, 0x7C4DD014, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C4DD001, 0x7C4DD015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C4DD001, 0x7C4DD016, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C4DD001, 0x7C4DD017, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C4DD001, 0x7C4DD018, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C4DD001, 0x7C4DD019, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4DD002,  7179, 0xC4DD003E, 171.0321, 125.8503, 7.027448, -0.08715422, 0, 0, -0.9961948,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -131,9 +131,9 @@ VALUES (0x7C4DD01A,  1542, 0xC4DD0023, 98.47923, 55.6715, 28.24747, 0.9990482, 0
 /* @teleloc 0xC4DD0023 [98.479230 55.671500 28.247470] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4DD01A, 0x7C4DD01B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C4DD01A, 0x7C4DD01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C4DD01A, 0x7C4DD01D, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7C4DD01A, 0x7C4DD01B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C4DD01A, 0x7C4DD01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C4DD01A, 0x7C4DD01D, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4DD01B,  4179, 0xC4DD0023, 98.47923, 55.6715, 28.24747, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

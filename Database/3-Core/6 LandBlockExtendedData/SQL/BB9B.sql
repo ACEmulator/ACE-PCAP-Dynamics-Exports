@@ -5,11 +5,11 @@ VALUES (0x7BB9B001,  1154, 0xBB9B0010, 28.4674, 178.6742, 17.96232, 0.9234182, 0
 /* @teleloc 0xBB9B0010 [28.467400 178.674200 17.962320] 0.923418 0.000000 0.000000 -0.383795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9B001, 0x7BB9B002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BB9B001, 0x7BB9B003, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7BB9B001, 0x7BB9B004, '2019-02-10 00:00:00') /* Static */
-     , (0x7BB9B001, 0x7BB9B005, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BB9B001, 0x7BB9B006, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7BB9B001, 0x7BB9B002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BB9B001, 0x7BB9B003, '2019-02-10 00:00:00') /* Exploration Marker (39813) */
+     , (0x7BB9B001, 0x7BB9B004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BB9B001, 0x7BB9B005, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BB9B001, 0x7BB9B006, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9B002,  7989, 0xBB9B0010, 28.4674, 178.6742, 17.96232, 0.9234182, 0, 0, -0.3837952,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

@@ -5,207 +5,207 @@ VALUES (0x72270001,  1154, 0x22700001, 2.086982, 3.395135, 167.7233, -0.105266, 
 /* @teleloc 0x22700001 [2.086982 3.395135 167.723300] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72270001, 0x72270002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270003, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270005, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270007, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270008, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270009, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227000A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x7227000B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227000C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x7227000D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x7227000E, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x7227000F, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270010, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72270001, 0x72270011, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270013, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270014, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270015, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270016, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270017, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270018, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270019, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */
-     , (0x72270001, 0x7227001A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x7227001B, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x7227001C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227001D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72270001, 0x7227001E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227001F, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270020, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270021, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x72270022, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x72270023, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270024, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270025, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270026, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72270001, 0x72270027, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270028, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270029, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x7227002A, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227002B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227002C, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227002D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227002E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227002F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270030, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270031, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270032, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270033, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270034, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270035, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270036, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270037, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270038, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270039, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227003A, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x7227003B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227003C, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */
-     , (0x72270001, 0x7227003D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227003E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227003F, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270040, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270041, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270042, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270043, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270044, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270045, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270046, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270047, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270048, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270049, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x7227004A, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227004B, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227004C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227004D, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227004E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227004F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270050, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270051, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270052, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270053, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270054, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270055, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270056, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x72270057, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270058, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270059, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x7227005A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227005B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227005C, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227005D, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227005E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227005F, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x72270060, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270061, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270062, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270063, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270064, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270065, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270066, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270067, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270068, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270069, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227006A, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227006B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227006C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227006D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227006E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x7227006F, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270070, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270071, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270072, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270073, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270074, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x72270075, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270076, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270077, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270078, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270079, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x7227007A, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227007B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227007C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227007D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227007E, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227007F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270080, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270081, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270082, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270083, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72270001, 0x72270084, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270085, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x72270086, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270087, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270088, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270089, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x7227008A, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227008B, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x7227008C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227008D, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227008E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x7227008F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270090, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x72270091, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x72270092, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x72270093, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x72270094, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270095, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72270001, 0x72270096, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x72270097, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x72270098, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x72270099, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227009A, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x7227009B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227009C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x7227009D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x7227009E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x7227009F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x722700A0, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */
-     , (0x72270001, 0x722700A1, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x722700A2, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x722700A3, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72270001, 0x722700A4, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x722700A5, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700A6, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x722700A7, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x722700A8, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x722700A9, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x722700AA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700AB, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700AC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x722700AD, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700AE, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x722700AF, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700B0, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700B1, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x722700B2, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700B3, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700B4, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700B5, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700B6, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700B7, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700B8, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700B9, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x722700BA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700BB, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700BC, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x722700BD, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700BE, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700BF, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72270001, 0x722700C0, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72270001, 0x722700C1, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72270001, 0x722700C2, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x722700C3, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72270001, 0x722700C4, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72270001, 0x722700C5, '2019-02-10 00:00:00') /* Invading Copper Cog Squire */
-     , (0x72270001, 0x722700C6, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72270001, 0x722700C7, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x72270001, 0x722700C8, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72270001, 0x722700C9, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72270001, 0x722700CA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */;
+VALUES (0x72270001, 0x72270002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270003, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270005, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270007, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270008, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270009, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227000A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x7227000B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227000C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x7227000D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x7227000E, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x7227000F, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270010, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x72270011, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270013, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270014, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270015, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270016, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270017, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270018, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270019, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x7227001A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x7227001B, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x7227001C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227001D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x7227001E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227001F, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270020, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270021, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x72270022, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x72270023, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270024, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270025, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270026, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72270001, 0x72270027, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270028, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270029, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x7227002A, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227002B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227002C, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227002D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227002E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227002F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270030, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270031, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270032, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270033, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270034, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270035, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270036, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270037, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270038, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270039, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227003A, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x7227003B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227003C, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x7227003D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227003E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227003F, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270040, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270041, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270042, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270043, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270044, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270045, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270046, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270047, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270048, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270049, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x7227004A, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227004B, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227004C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227004D, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227004E, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227004F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270050, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270051, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270052, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270053, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270054, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270055, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270056, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x72270057, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270058, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270059, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x7227005A, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227005B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227005C, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227005D, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227005E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227005F, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x72270060, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270061, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270062, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270063, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270064, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270065, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270066, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270067, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270068, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270069, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227006A, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227006B, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227006C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227006D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227006E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x7227006F, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270070, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270071, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270072, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270073, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270074, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270075, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270076, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270077, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270078, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270079, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x7227007A, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227007B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227007C, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227007D, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227007E, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227007F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270080, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270081, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270082, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270083, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x72270084, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270085, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x72270086, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270087, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270088, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270089, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x7227008A, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227008B, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x7227008C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227008D, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227008E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x7227008F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270090, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x72270091, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x72270092, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x72270093, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x72270094, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270095, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x72270096, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x72270097, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270098, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270099, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227009A, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x7227009B, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227009C, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x7227009D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x7227009E, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x7227009F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700A0, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x722700A1, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x722700A2, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700A3, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72270001, 0x722700A4, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700A5, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700A6, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700A7, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x722700A8, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x722700A9, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700AA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700AB, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700AC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700AD, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700AE, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700AF, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700B0, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700B1, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700B2, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700B3, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700B4, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700B5, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700B6, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700B7, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700B8, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700B9, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700BA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700BB, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700BC, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700BD, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700BE, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700BF, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700C0, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700C1, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700C2, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700C3, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700C4, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700C5, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x722700C6, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700C7, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x722700C8, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700C9, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x722700CA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72270002, 41534, 0x22700001, 2.086982, 3.395135, 167.7233, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
@@ -1016,28 +1016,28 @@ VALUES (0x722700CB,  1542, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 
 /* @teleloc 0x22700001 [3.502325 8.943583 164.814200] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722700CB, 0x722700CC, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700CD, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700CE, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700CF, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700D0, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D1, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D2, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D3, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700D4, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700D5, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D6, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700D7, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D8, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700D9, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700DA, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700DB, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700DC, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700DD, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700DE, '2019-02-10 00:00:00') /* Aetherium Ore */
-     , (0x722700CB, 0x722700DF, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700E0, '2019-02-10 00:00:00') /* Rez'arean Ore */
-     , (0x722700CB, 0x722700E1, '2019-02-10 00:00:00') /* Rez'arean Ore */;
+VALUES (0x722700CB, 0x722700CC, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700CD, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700CE, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700CF, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700D0, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D1, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D2, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D3, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700D4, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700D5, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D6, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700D7, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D8, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700D9, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700DA, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700DB, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700DC, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700DD, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700DE, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x722700CB, 0x722700DF, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700E0, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x722700CB, 0x722700E1, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722700CC, 46287, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */

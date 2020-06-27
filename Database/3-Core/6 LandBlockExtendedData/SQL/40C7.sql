@@ -5,10 +5,10 @@ VALUES (0x740C7001,  1154, 0x40C7000C, 30.08825, 75.36795, 42.28566, 0.7071068, 
 /* @teleloc 0x40C7000C [30.088250 75.367950 42.285660] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740C7001, 0x740C7002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x740C7001, 0x740C7003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740C7001, 0x740C7004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x740C7001, 0x740C7005, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x740C7001, 0x740C7002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x740C7001, 0x740C7003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740C7001, 0x740C7004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x740C7001, 0x740C7005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740C7002,  1758, 0x40C7000C, 30.08825, 75.36795, 42.28566, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -31,7 +31,7 @@ VALUES (0x740C7006,  1542, 0x40C7000C, 33.77338, 77.17767, 42.43147, 1, 0, 0, 0,
 /* @teleloc 0x40C7000C [33.773380 77.177670 42.431470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740C7006, 0x740C7007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x740C7006, 0x740C7007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740C7007, 22571, 0x40C7000C, 33.77338, 77.17767, 42.43147, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,69 +5,69 @@ VALUES (0x72BEF001,  1154, 0x2BEF0031, 147.0737, 21.41416, 50.5723, 0.8725709, 0
 /* @teleloc 0x2BEF0031 [147.073700 21.414160 50.572300] 0.872571 0.000000 0.000000 -0.488488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BEF001, 0x72BEF002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEF001, 0x72BEF003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x72BEF001, 0x72BEF005, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72BEF001, 0x72BEF006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BEF001, 0x72BEF008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72BEF001, 0x72BEF00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BEF001, 0x72BEF00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BEF001, 0x72BEF00C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BEF001, 0x72BEF00E, '2019-02-10 00:00:00') /* Eater */
-     , (0x72BEF001, 0x72BEF00F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF010, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF011, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF012, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72BEF001, 0x72BEF013, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF014, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BEF001, 0x72BEF015, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF016, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72BEF001, 0x72BEF017, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BEF001, 0x72BEF018, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF019, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF01A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BEF001, 0x72BEF01B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72BEF001, 0x72BEF01C, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BEF001, 0x72BEF01D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEF001, 0x72BEF01E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BEF001, 0x72BEF01F, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BEF001, 0x72BEF020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x72BEF001, 0x72BEF021, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF022, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEF001, 0x72BEF023, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF024, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72BEF001, 0x72BEF025, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BEF001, 0x72BEF026, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BEF001, 0x72BEF027, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BEF001, 0x72BEF028, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF029, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF02A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72BEF001, 0x72BEF02B, '2019-02-10 00:00:00') /* Eater */
-     , (0x72BEF001, 0x72BEF02C, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF02D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BEF001, 0x72BEF02E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEF001, 0x72BEF02F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BEF001, 0x72BEF030, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72BEF001, 0x72BEF031, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72BEF001, 0x72BEF032, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72BEF001, 0x72BEF033, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BEF001, 0x72BEF034, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72BEF001, 0x72BEF035, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEF001, 0x72BEF036, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72BEF001, 0x72BEF037, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72BEF001, 0x72BEF038, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BEF001, 0x72BEF039, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BEF001, 0x72BEF03A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BEF001, 0x72BEF03B, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72BEF001, 0x72BEF03C, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72BEF001, 0x72BEF03D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72BEF001, 0x72BEF03E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72BEF001, 0x72BEF03F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BEF001, 0x72BEF040, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x72BEF001, 0x72BEF002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEF001, 0x72BEF003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x72BEF001, 0x72BEF005, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72BEF001, 0x72BEF006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BEF001, 0x72BEF008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72BEF001, 0x72BEF00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BEF001, 0x72BEF00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BEF001, 0x72BEF00C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF00D, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BEF001, 0x72BEF00E, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72BEF001, 0x72BEF00F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF010, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF012, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72BEF001, 0x72BEF013, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF014, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BEF001, 0x72BEF015, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF016, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72BEF001, 0x72BEF017, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BEF001, 0x72BEF018, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF019, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF01A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BEF001, 0x72BEF01B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72BEF001, 0x72BEF01C, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BEF001, 0x72BEF01D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEF001, 0x72BEF01E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BEF001, 0x72BEF01F, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BEF001, 0x72BEF020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x72BEF001, 0x72BEF021, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF022, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEF001, 0x72BEF023, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF024, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72BEF001, 0x72BEF025, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BEF001, 0x72BEF026, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BEF001, 0x72BEF027, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BEF001, 0x72BEF028, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF029, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF02A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72BEF001, 0x72BEF02B, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72BEF001, 0x72BEF02C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF02D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BEF001, 0x72BEF02E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEF001, 0x72BEF02F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BEF001, 0x72BEF030, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72BEF001, 0x72BEF031, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72BEF001, 0x72BEF032, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72BEF001, 0x72BEF033, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BEF001, 0x72BEF034, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72BEF001, 0x72BEF035, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEF001, 0x72BEF036, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72BEF001, 0x72BEF037, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72BEF001, 0x72BEF038, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BEF001, 0x72BEF039, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BEF001, 0x72BEF03A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BEF001, 0x72BEF03B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72BEF001, 0x72BEF03C, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72BEF001, 0x72BEF03D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72BEF001, 0x72BEF03E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72BEF001, 0x72BEF03F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BEF001, 0x72BEF040, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BEF002,  7085, 0x2BEF0031, 147.0737, 21.41416, 50.5723, 0.8725709, 0, 0, -0.4884876,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

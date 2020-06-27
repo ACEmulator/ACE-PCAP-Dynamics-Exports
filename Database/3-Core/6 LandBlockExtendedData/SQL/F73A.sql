@@ -5,9 +5,9 @@ VALUES (0x7F73A001,  1154, 0xF73A002A, 140.0802, 36.73765, -0.4495, -0.1283825, 
 /* @teleloc 0xF73A002A [140.080200 36.737650 -0.449500] -0.128383 0.000000 0.000000 -0.991725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F73A001, 0x7F73A002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F73A001, 0x7F73A003, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F73A001, 0x7F73A004, '2019-02-10 00:00:00') /* Verdant Moarsman */;
+VALUES (0x7F73A001, 0x7F73A002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F73A001, 0x7F73A003, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F73A001, 0x7F73A004, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F73A002, 40307, 0xF73A002A, 140.0802, 36.73765, -0.4495, -0.1283825, 0, 0, -0.9917247,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

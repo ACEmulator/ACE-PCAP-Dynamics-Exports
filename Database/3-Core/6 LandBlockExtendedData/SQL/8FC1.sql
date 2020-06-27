@@ -5,22 +5,22 @@ VALUES (0x78FC1001,  1154, 0x8FC10003, 4.049591, 57.46307, 77.44852, 0.9190575, 
 /* @teleloc 0x8FC10003 [4.049591 57.463070 77.448520] 0.919058 0.000000 0.000000 -0.394123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FC1001, 0x78FC1002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78FC1001, 0x78FC1003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78FC1001, 0x78FC1004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78FC1001, 0x78FC1005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78FC1001, 0x78FC1006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78FC1001, 0x78FC1007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78FC1001, 0x78FC1008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78FC1001, 0x78FC1009, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x78FC1001, 0x78FC100A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x78FC1001, 0x78FC100B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78FC1001, 0x78FC100C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78FC1001, 0x78FC100D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78FC1001, 0x78FC100E, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78FC1001, 0x78FC100F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78FC1001, 0x78FC1010, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78FC1001, 0x78FC1011, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x78FC1001, 0x78FC1002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78FC1001, 0x78FC1003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78FC1001, 0x78FC1004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78FC1001, 0x78FC1005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78FC1001, 0x78FC1006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78FC1001, 0x78FC1007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78FC1001, 0x78FC1008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78FC1001, 0x78FC1009, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x78FC1001, 0x78FC100A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x78FC1001, 0x78FC100B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78FC1001, 0x78FC100C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78FC1001, 0x78FC100D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78FC1001, 0x78FC100E, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78FC1001, 0x78FC100F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78FC1001, 0x78FC1010, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78FC1001, 0x78FC1011, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FC1002, 24959, 0x8FC10003, 4.049591, 57.46307, 77.44852, 0.9190575, 0, 0, -0.3941234,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -91,7 +91,7 @@ VALUES (0x78FC1012,  1542, 0x8FC1001E, 85.59194, 122.3503, 68.44024, 0.9990482, 
 /* @teleloc 0x8FC1001E [85.591940 122.350300 68.440240] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FC1012, 0x78FC1013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78FC1012, 0x78FC1013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FC1013,  4179, 0x8FC1001E, 85.59194, 122.3503, 68.44024, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

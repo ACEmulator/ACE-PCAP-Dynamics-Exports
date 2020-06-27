@@ -5,12 +5,12 @@ VALUES (0x7DC34001,  1154, 0xDC340024, 106.979, 82.71017, 119.525, -0.9159869, 0
 /* @teleloc 0xDC340024 [106.979000 82.710170 119.525000] -0.915987 0.000000 0.000000 -0.401208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC34001, 0x7DC34002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DC34001, 0x7DC34003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DC34001, 0x7DC34004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7DC34001, 0x7DC34005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DC34001, 0x7DC34006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7DC34001, 0x7DC34007, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7DC34001, 0x7DC34002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DC34001, 0x7DC34003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DC34001, 0x7DC34004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7DC34001, 0x7DC34005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DC34001, 0x7DC34006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7DC34001, 0x7DC34007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC34002,  8142, 0xDC340024, 106.979, 82.71017, 119.525, -0.9159869, 0, 0, -0.4012082,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */

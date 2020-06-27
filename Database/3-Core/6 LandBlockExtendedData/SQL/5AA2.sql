@@ -5,28 +5,28 @@ VALUES (0x75AA2001,  1154, 0x5AA2000E, 44.56478, 141.3367, 33.82063, 0.4320621, 
 /* @teleloc 0x5AA2000E [44.564780 141.336700 33.820630] 0.432062 0.000000 0.000000 -0.901844 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA2001, 0x75AA2002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75AA2001, 0x75AA2003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75AA2001, 0x75AA2004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA2001, 0x75AA2005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA2001, 0x75AA2006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75AA2001, 0x75AA2007, '2019-02-10 00:00:00') /* Static */
-     , (0x75AA2001, 0x75AA2008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA2001, 0x75AA2009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75AA2001, 0x75AA200A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75AA2001, 0x75AA200B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75AA2001, 0x75AA200C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75AA2001, 0x75AA200D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75AA2001, 0x75AA200E, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75AA2001, 0x75AA200F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75AA2001, 0x75AA2010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75AA2001, 0x75AA2011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75AA2001, 0x75AA2012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75AA2001, 0x75AA2013, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA2001, 0x75AA2014, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA2001, 0x75AA2015, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75AA2001, 0x75AA2016, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75AA2001, 0x75AA2017, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x75AA2001, 0x75AA2002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75AA2001, 0x75AA2003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75AA2001, 0x75AA2004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA2001, 0x75AA2005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA2001, 0x75AA2006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75AA2001, 0x75AA2007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75AA2001, 0x75AA2008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA2001, 0x75AA2009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75AA2001, 0x75AA200A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75AA2001, 0x75AA200B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75AA2001, 0x75AA200C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75AA2001, 0x75AA200D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75AA2001, 0x75AA200E, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75AA2001, 0x75AA200F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75AA2001, 0x75AA2010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75AA2001, 0x75AA2011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75AA2001, 0x75AA2012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75AA2001, 0x75AA2013, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA2001, 0x75AA2014, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA2001, 0x75AA2015, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75AA2001, 0x75AA2016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75AA2001, 0x75AA2017, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA2002, 26470, 0x5AA2000E, 44.56478, 141.3367, 33.82063, 0.4320621, 0, 0, -0.9018439,  True, '2019-02-10 00:00:00'); /* Fire Shreth */

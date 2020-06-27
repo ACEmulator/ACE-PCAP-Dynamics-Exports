@@ -5,15 +5,15 @@ VALUES (0x72279001,  1154, 0x22790008, 4.694927, 181.9655, 40.004, 0.9238795, 0,
 /* @teleloc 0x22790008 [4.694927 181.965500 40.004000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72279001, 0x72279002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72279001, 0x72279003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72279001, 0x72279004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72279001, 0x72279005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72279001, 0x72279006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72279001, 0x72279007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72279001, 0x72279008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72279001, 0x72279009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72279001, 0x7227900A, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x72279001, 0x72279002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72279001, 0x72279003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72279001, 0x72279004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72279001, 0x72279005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72279001, 0x72279006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72279001, 0x72279007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72279001, 0x72279008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72279001, 0x72279009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72279001, 0x7227900A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72279002,  4254, 0x22790008, 4.694927, 181.9655, 40.004, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -56,8 +56,8 @@ VALUES (0x7227900B,  1542, 0x2279002D, 125.7754, 106.5558, 55.92513, 1, 0, 0, 0,
 /* @teleloc 0x2279002D [125.775400 106.555800 55.925130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7227900B, 0x7227900C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7227900B, 0x7227900D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7227900B, 0x7227900C, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7227900B, 0x7227900D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7227900C, 22567, 0x2279002D, 125.7754, 106.5558, 55.92513, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,11 +5,11 @@ VALUES (0x7C8D1001,  1154, 0xC8D10019, 78.72108, 22.34945, 55.12018, 0.5570845, 
 /* @teleloc 0xC8D10019 [78.721080 22.349450 55.120180] 0.557085 0.000000 0.000000 -0.830456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8D1001, 0x7C8D1002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8D1001, 0x7C8D1003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8D1001, 0x7C8D1004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C8D1001, 0x7C8D1005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8D1001, 0x7C8D1006, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7C8D1001, 0x7C8D1002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8D1001, 0x7C8D1003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8D1001, 0x7C8D1004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C8D1001, 0x7C8D1005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8D1001, 0x7C8D1006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8D1002,   213, 0xC8D10019, 78.72108, 22.34945, 55.12018, 0.5570845, 0, 0, -0.8304558,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */

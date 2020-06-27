@@ -5,9 +5,9 @@ VALUES (0x798E0001,  1154, 0x98E00020, 79.32117, 170.8623, 168.8762, 0.7670225, 
 /* @teleloc 0x98E00020 [79.321170 170.862300 168.876200] 0.767023 0.000000 0.000000 -0.641620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E0001, 0x798E0002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x798E0001, 0x798E0003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x798E0001, 0x798E0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x798E0001, 0x798E0002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x798E0001, 0x798E0003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x798E0001, 0x798E0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E0002,   212, 0x98E00020, 79.32117, 170.8623, 168.8762, 0.7670225, 0, 0, -0.6416202,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

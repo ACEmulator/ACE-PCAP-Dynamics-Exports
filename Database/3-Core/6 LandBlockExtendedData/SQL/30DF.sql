@@ -5,10 +5,10 @@ VALUES (0x730DF001,  1154, 0x30DF000D, 39.4402, 105.5348, 8.0045, 0.7092717, 0, 
 /* @teleloc 0x30DF000D [39.440200 105.534800 8.004500] 0.709272 0.000000 0.000000 -0.704935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x730DF001, 0x730DF002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x730DF001, 0x730DF003, '2019-02-10 00:00:00') /* Undead */
-     , (0x730DF001, 0x730DF004, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x730DF001, 0x730DF005, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x730DF001, 0x730DF002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x730DF001, 0x730DF003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x730DF001, 0x730DF004, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x730DF001, 0x730DF005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x730DF002,  1614, 0x30DF000D, 39.4402, 105.5348, 8.0045, 0.7092717, 0, 0, -0.7049353,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

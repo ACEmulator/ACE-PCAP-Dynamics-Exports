@@ -5,11 +5,11 @@ VALUES (0x7C962001,  1154, 0xC9620007, 7.434422, 147.8339, 5.985, -0.1987894, 0,
 /* @teleloc 0xC9620007 [7.434422 147.833900 5.985000] -0.198789 0.000000 0.000000 -0.980042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C962001, 0x7C962002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C962001, 0x7C962003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C962001, 0x7C962004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C962001, 0x7C962005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C962001, 0x7C962006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7C962001, 0x7C962002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C962001, 0x7C962003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C962001, 0x7C962004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C962001, 0x7C962005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C962001, 0x7C962006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C962002, 28552, 0xC9620007, 7.434422, 147.8339, 5.985, -0.1987894, 0, 0, -0.9800422,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

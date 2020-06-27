@@ -5,25 +5,25 @@ VALUES (0x721BA001,  1154, 0x21BA000F, 31.51449, 166.2565, 90.48591, 1, 0, 0, 0,
 /* @teleloc 0x21BA000F [31.514490 166.256500 90.485910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721BA001, 0x721BA002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BA001, 0x721BA003, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x721BA001, 0x721BA004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BA001, 0x721BA005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BA001, 0x721BA006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x721BA001, 0x721BA007, '2019-02-10 00:00:00') /* Static */
-     , (0x721BA001, 0x721BA008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x721BA001, 0x721BA009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x721BA001, 0x721BA00A, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x721BA001, 0x721BA00B, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x721BA001, 0x721BA00C, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x721BA001, 0x721BA00D, '2019-02-10 00:00:00') /* Cultist */
-     , (0x721BA001, 0x721BA00E, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x721BA001, 0x721BA00F, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x721BA001, 0x721BA010, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x721BA001, 0x721BA011, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x721BA001, 0x721BA012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BA001, 0x721BA013, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BA001, 0x721BA014, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x721BA001, 0x721BA002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BA001, 0x721BA003, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x721BA001, 0x721BA004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BA001, 0x721BA005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BA001, 0x721BA006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x721BA001, 0x721BA007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x721BA001, 0x721BA008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x721BA001, 0x721BA009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x721BA001, 0x721BA00A, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x721BA001, 0x721BA00B, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x721BA001, 0x721BA00C, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x721BA001, 0x721BA00D, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x721BA001, 0x721BA00E, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x721BA001, 0x721BA00F, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x721BA001, 0x721BA010, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x721BA001, 0x721BA011, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x721BA001, 0x721BA012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BA001, 0x721BA013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BA001, 0x721BA014, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721BA002, 11526, 0x21BA000F, 31.51449, 166.2565, 90.48591, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -106,10 +106,10 @@ VALUES (0x721BA015,  1542, 0x21BA0008, 16.40783, 169.4185, 90, 1, 0, 0, 0, False
 /* @teleloc 0x21BA0008 [16.407830 169.418500 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721BA015, 0x721BA016, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x721BA015, 0x721BA017, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x721BA015, 0x721BA018, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x721BA015, 0x721BA019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x721BA015, 0x721BA016, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x721BA015, 0x721BA017, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x721BA015, 0x721BA018, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x721BA015, 0x721BA019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721BA016, 11556, 0x21BA0008, 16.40783, 169.4185, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

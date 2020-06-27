@@ -5,24 +5,24 @@ VALUES (0x7310F001,  1154, 0x310F0005, 17.33569, 108.7931, 10.01, 0.02326405, 0,
 /* @teleloc 0x310F0005 [17.335690 108.793100 10.010000] 0.023264 0.000000 0.000000 -0.999729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7310F001, 0x7310F002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7310F001, 0x7310F003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7310F001, 0x7310F004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7310F001, 0x7310F005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7310F001, 0x7310F006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7310F001, 0x7310F007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7310F001, 0x7310F008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7310F001, 0x7310F009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7310F001, 0x7310F00A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7310F001, 0x7310F00B, '2019-02-10 00:00:00') /* Flare */
-     , (0x7310F001, 0x7310F00C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7310F001, 0x7310F00D, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7310F001, 0x7310F00E, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7310F001, 0x7310F00F, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7310F001, 0x7310F010, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7310F001, 0x7310F011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7310F001, 0x7310F012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7310F001, 0x7310F013, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x7310F001, 0x7310F002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7310F001, 0x7310F003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7310F001, 0x7310F004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7310F001, 0x7310F005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7310F001, 0x7310F006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7310F001, 0x7310F007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7310F001, 0x7310F008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7310F001, 0x7310F009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7310F001, 0x7310F00A, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7310F001, 0x7310F00B, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7310F001, 0x7310F00C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7310F001, 0x7310F00D, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7310F001, 0x7310F00E, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7310F001, 0x7310F00F, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7310F001, 0x7310F010, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7310F001, 0x7310F011, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7310F001, 0x7310F012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7310F001, 0x7310F013, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7310F002, 36830, 0x310F0005, 17.33569, 108.7931, 10.01, 0.02326405, 0, 0, -0.9997293,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -101,7 +101,7 @@ VALUES (0x7310F014,  1542, 0x310F0040, 191.9135, 184.8068, 54.2017, 0.9990482, 0
 /* @teleloc 0x310F0040 [191.913500 184.806800 54.201700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7310F014, 0x7310F015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7310F014, 0x7310F015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7310F015,  4179, 0x310F0040, 191.9135, 184.8068, 54.2017, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,22 +5,22 @@ VALUES (0x7CC1F001,  1154, 0xCC1F001D, 89.39577, 106.2779, 114.5777, 0.4518742, 
 /* @teleloc 0xCC1F001D [89.395770 106.277900 114.577700] 0.451874 0.000000 0.000000 -0.892082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC1F001, 0x7CC1F002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CC1F001, 0x7CC1F003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC1F001, 0x7CC1F004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC1F001, 0x7CC1F005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC1F001, 0x7CC1F006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CC1F001, 0x7CC1F007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CC1F001, 0x7CC1F008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CC1F001, 0x7CC1F009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC1F001, 0x7CC1F00A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CC1F001, 0x7CC1F00B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CC1F001, 0x7CC1F00C, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CC1F001, 0x7CC1F00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CC1F001, 0x7CC1F00E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CC1F001, 0x7CC1F00F, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC1F001, 0x7CC1F010, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC1F001, 0x7CC1F011, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7CC1F001, 0x7CC1F002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CC1F001, 0x7CC1F003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC1F001, 0x7CC1F004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC1F001, 0x7CC1F005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC1F001, 0x7CC1F006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CC1F001, 0x7CC1F007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CC1F001, 0x7CC1F008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CC1F001, 0x7CC1F009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC1F001, 0x7CC1F00A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CC1F001, 0x7CC1F00B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CC1F001, 0x7CC1F00C, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CC1F001, 0x7CC1F00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CC1F001, 0x7CC1F00E, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7CC1F001, 0x7CC1F00F, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC1F001, 0x7CC1F010, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC1F001, 0x7CC1F011, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC1F002,   619, 0xCC1F001D, 89.39577, 106.2779, 114.5777, 0.4518742, 0, 0, -0.8920817,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -91,8 +91,8 @@ VALUES (0x7CC1F012,  1542, 0xCC1F0024, 102.2079, 87.3732, 110.9653, -0.1266088, 
 /* @teleloc 0xCC1F0024 [102.207900 87.373200 110.965300] -0.126609 0.000000 0.000000 -0.991953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC1F012, 0x7CC1F013, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7CC1F012, 0x7CC1F014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CC1F012, 0x7CC1F013, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7CC1F012, 0x7CC1F014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC1F013, 14789, 0xCC1F0024, 102.2079, 87.3732, 110.9653, -0.1266088, 0, 0, -0.9919527,  True, '2019-02-10 00:00:00'); /* Ginger */

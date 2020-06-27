@@ -5,9 +5,9 @@ VALUES (0x78D26001,  1154, 0x8D26001E, 81.73176, 134.1234, -0.89175, -0.9881898,
 /* @teleloc 0x8D26001E [81.731760 134.123400 -0.891750] -0.988190 0.000000 0.000000 -0.153235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D26001, 0x78D26002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78D26001, 0x78D26003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78D26001, 0x78D26004, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x78D26001, 0x78D26002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78D26001, 0x78D26003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78D26001, 0x78D26004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D26002,  4217, 0x8D26001E, 81.73176, 134.1234, -0.89175, -0.9881898, 0, 0, -0.1532351,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -26,7 +26,7 @@ VALUES (0x78D26005,  1542, 0x8D260020, 93.4087, 174.7316, -0.9629999, 0.3731284,
 /* @teleloc 0x8D260020 [93.408700 174.731600 -0.963000] 0.373128 0.000000 0.000000 -0.927780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D26005, 0x78D26006, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x78D26005, 0x78D26006, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D26006,  9071, 0x8D260020, 93.4087, 174.7316, -0.9629999, 0.3731284, 0, 0, -0.9277797,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

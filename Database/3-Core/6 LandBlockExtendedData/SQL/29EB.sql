@@ -5,22 +5,22 @@ VALUES (0x729EB001,  1154, 0x29EB0003, 6.98634, 60.51311, 30, 0.0395795, 0, 0, -
 /* @teleloc 0x29EB0003 [6.986340 60.513110 30.000000] 0.039580 0.000000 0.000000 -0.999216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729EB001, 0x729EB002, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x729EB001, 0x729EB003, '2019-02-10 00:00:00') /* Eater */
-     , (0x729EB001, 0x729EB004, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EB001, 0x729EB005, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EB001, 0x729EB006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x729EB001, 0x729EB007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x729EB001, 0x729EB008, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x729EB001, 0x729EB009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x729EB001, 0x729EB00A, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x729EB001, 0x729EB00B, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EB001, 0x729EB00C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EB001, 0x729EB00D, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EB001, 0x729EB00E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x729EB001, 0x729EB00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x729EB001, 0x729EB010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x729EB001, 0x729EB011, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x729EB001, 0x729EB002, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x729EB001, 0x729EB003, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x729EB001, 0x729EB004, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EB001, 0x729EB005, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EB001, 0x729EB006, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x729EB001, 0x729EB007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x729EB001, 0x729EB008, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x729EB001, 0x729EB009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x729EB001, 0x729EB00A, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x729EB001, 0x729EB00B, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EB001, 0x729EB00C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EB001, 0x729EB00D, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EB001, 0x729EB00E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x729EB001, 0x729EB00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x729EB001, 0x729EB010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x729EB001, 0x729EB011, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729EB002, 28642, 0x29EB0003, 6.98634, 60.51311, 30, 0.0395795, 0, 0, -0.9992164,  True, '2019-02-10 00:00:00'); /* Engorged Eater */

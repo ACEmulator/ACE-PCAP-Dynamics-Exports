@@ -5,17 +5,17 @@ VALUES (0x7BF5F001,  1154, 0xBF5F0007, 23.65675, 144.3045, 5.561, 0.9088382, 0, 
 /* @teleloc 0xBF5F0007 [23.656750 144.304500 5.561000] 0.908838 0.000000 0.000000 -0.417149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5F001, 0x7BF5F002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF5F001, 0x7BF5F003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BF5F001, 0x7BF5F004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BF5F001, 0x7BF5F005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BF5F001, 0x7BF5F006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BF5F001, 0x7BF5F007, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BF5F001, 0x7BF5F008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5F001, 0x7BF5F009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF5F001, 0x7BF5F00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BF5F001, 0x7BF5F00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BF5F001, 0x7BF5F00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7BF5F001, 0x7BF5F002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF5F001, 0x7BF5F003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BF5F001, 0x7BF5F004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BF5F001, 0x7BF5F005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BF5F001, 0x7BF5F006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BF5F001, 0x7BF5F007, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BF5F001, 0x7BF5F008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5F001, 0x7BF5F009, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF5F001, 0x7BF5F00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BF5F001, 0x7BF5F00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BF5F001, 0x7BF5F00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5F002,   200, 0xBF5F0007, 23.65675, 144.3045, 5.561, 0.9088382, 0, 0, -0.4171488,  True, '2019-02-10 00:00:00'); /* Mud Golem */
@@ -66,7 +66,7 @@ VALUES (0x7BF5F00D,  1542, 0xBF5F0006, 13.58003, 132.8589, 5.888428, 0.5278056, 
 /* @teleloc 0xBF5F0006 [13.580030 132.858900 5.888428] 0.527806 0.000000 0.000000 -0.849365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5F00D, 0x7BF5F00E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7BF5F00D, 0x7BF5F00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5F00E,  8041, 0xBF5F0006, 13.58003, 132.8589, 5.888428, 0.5278056, 0, 0, -0.8493652,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

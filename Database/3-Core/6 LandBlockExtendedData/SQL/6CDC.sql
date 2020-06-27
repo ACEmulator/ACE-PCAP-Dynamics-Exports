@@ -5,18 +5,18 @@ VALUES (0x76CDC001,  1154, 0x6CDC0002, 16.57911, 35.51928, 291.0401, 0.4201613, 
 /* @teleloc 0x6CDC0002 [16.579110 35.519280 291.040100] 0.420161 0.000000 0.000000 -0.907449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CDC001, 0x76CDC002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76CDC001, 0x76CDC003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76CDC001, 0x76CDC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76CDC001, 0x76CDC005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76CDC001, 0x76CDC006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x76CDC001, 0x76CDC007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x76CDC001, 0x76CDC008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76CDC001, 0x76CDC009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x76CDC001, 0x76CDC00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76CDC001, 0x76CDC00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x76CDC001, 0x76CDC00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x76CDC001, 0x76CDC00D, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x76CDC001, 0x76CDC002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76CDC001, 0x76CDC003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76CDC001, 0x76CDC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76CDC001, 0x76CDC005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x76CDC001, 0x76CDC006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x76CDC001, 0x76CDC007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x76CDC001, 0x76CDC008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x76CDC001, 0x76CDC009, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x76CDC001, 0x76CDC00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x76CDC001, 0x76CDC00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x76CDC001, 0x76CDC00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x76CDC001, 0x76CDC00D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CDC002, 23482, 0x6CDC0002, 16.57911, 35.51928, 291.0401, 0.4201613, 0, 0, -0.9074494,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -71,7 +71,7 @@ VALUES (0x76CDC00E,  1542, 0x6CDC0024, 102.4681, 82.89029, 285.1167, -4.371139E-
 /* @teleloc 0x6CDC0024 [102.468100 82.890290 285.116700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CDC00E, 0x76CDC00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x76CDC00E, 0x76CDC00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CDC00F,  4380, 0x6CDC0024, 102.4681, 82.89029, 285.1167, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

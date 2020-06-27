@@ -5,11 +5,11 @@ VALUES (0x78CD4001,  1154, 0x8CD40020, 74.81289, 188.2769, 264.0898, -0.2616224,
 /* @teleloc 0x8CD40020 [74.812890 188.276900 264.089800] -0.261622 0.000000 0.000000 -0.965170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD4001, 0x78CD4002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CD4001, 0x78CD4003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CD4001, 0x78CD4004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD4001, 0x78CD4005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CD4001, 0x78CD4006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x78CD4001, 0x78CD4002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CD4001, 0x78CD4003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CD4001, 0x78CD4004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD4001, 0x78CD4005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CD4001, 0x78CD4006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD4002,  7333, 0x8CD40020, 74.81289, 188.2769, 264.0898, -0.2616224, 0, 0, -0.9651703,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -36,7 +36,7 @@ VALUES (0x78CD4007,  1542, 0x8CD4001D, 87.74037, 117.0298, 270.6127, 0.8825468, 
 /* @teleloc 0x8CD4001D [87.740370 117.029800 270.612700] 0.882547 0.000000 0.000000 -0.470225 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD4007, 0x78CD4008, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x78CD4007, 0x78CD4008, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD4008,  8644, 0x8CD4001D, 87.74037, 117.0298, 270.6127, 0.8825468, 0, 0, -0.4702245,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

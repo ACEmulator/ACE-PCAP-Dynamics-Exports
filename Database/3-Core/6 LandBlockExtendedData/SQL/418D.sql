@@ -5,11 +5,11 @@ VALUES (0x7418D001,  1154, 0x418D0012, 59.57761, 27.40157, 14.71773, 0.7261908, 
 /* @teleloc 0x418D0012 [59.577610 27.401570 14.717730] 0.726191 0.000000 0.000000 -0.687493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7418D001, 0x7418D002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7418D001, 0x7418D003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7418D001, 0x7418D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7418D001, 0x7418D005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7418D001, 0x7418D006, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x7418D001, 0x7418D002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7418D001, 0x7418D003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7418D001, 0x7418D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7418D001, 0x7418D005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7418D001, 0x7418D006, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7418D002, 36827, 0x418D0012, 59.57761, 27.40157, 14.71773, 0.7261908, 0, 0, -0.6874932,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
@@ -36,7 +36,7 @@ VALUES (0x7418D007,  1542, 0x418D000E, 24.43764, 131.7816, 28.86612, 1, 0, 0, 0,
 /* @teleloc 0x418D000E [24.437640 131.781600 28.866120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7418D007, 0x7418D008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7418D007, 0x7418D008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7418D008,  4380, 0x418D000E, 24.43764, 131.7816, 28.86612, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

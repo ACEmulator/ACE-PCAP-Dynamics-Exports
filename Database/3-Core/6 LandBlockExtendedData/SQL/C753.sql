@@ -5,10 +5,10 @@ VALUES (0x7C753001,  1154, 0xC753003E, 176.2529, 122.4632, 23.9919, -0.9760011, 
 /* @teleloc 0xC753003E [176.252900 122.463200 23.991900] -0.976001 0.000000 0.000000 -0.217766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C753001, 0x7C753002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C753001, 0x7C753003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C753001, 0x7C753004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C753001, 0x7C753005, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7C753001, 0x7C753002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C753001, 0x7C753003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C753001, 0x7C753004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C753001, 0x7C753005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C753002,  2575, 0xC753003E, 176.2529, 122.4632, 23.9919, -0.9760011, 0, 0, -0.2177656,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -31,7 +31,7 @@ VALUES (0x7C753006,  1542, 0xC7530020, 87.8286, 188.8095, 20.32993, -0.8361612, 
 /* @teleloc 0xC7530020 [87.828600 188.809500 20.329930] -0.836161 0.000000 0.000000 -0.548484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C753006, 0x7C753007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C753006, 0x7C753007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C753007,  8037, 0xC7530020, 87.8286, 188.8095, 20.32993, -0.8361612, 0, 0, -0.5484838,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

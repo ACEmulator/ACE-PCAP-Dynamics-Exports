@@ -5,16 +5,16 @@ VALUES (0x7F934001,  1154, 0xF9340024, 109.3754, 86.38199, 60.51738, 0.682681, 0
 /* @teleloc 0xF9340024 [109.375400 86.381990 60.517380] 0.682681 0.000000 0.000000 -0.730717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F934001, 0x7F934002, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F934001, 0x7F934003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F934001, 0x7F934004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F934001, 0x7F934005, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F934001, 0x7F934006, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F934001, 0x7F934007, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F934001, 0x7F934008, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F934001, 0x7F934009, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F934001, 0x7F93400A, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F934001, 0x7F93400B, '2019-02-10 00:00:00') /* Ardent Moar */;
+VALUES (0x7F934001, 0x7F934002, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F934001, 0x7F934003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F934001, 0x7F934004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F934001, 0x7F934005, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F934001, 0x7F934006, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F934001, 0x7F934007, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F934001, 0x7F934008, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F934001, 0x7F934009, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F934001, 0x7F93400A, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F934001, 0x7F93400B, '2019-02-10 00:00:00') /* Ardent Moar (40298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F934002, 40305, 0xF9340024, 109.3754, 86.38199, 60.51738, 0.682681, 0, 0, -0.7307166,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */

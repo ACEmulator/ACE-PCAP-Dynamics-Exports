@@ -5,22 +5,22 @@ VALUES (0x71944001,  1154, 0x19440008, 15.85632, 177.2563, 15.63998, 0.7071068, 
 /* @teleloc 0x19440008 [15.856320 177.256300 15.639980] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71944001, 0x71944002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71944001, 0x71944003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71944001, 0x71944004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71944001, 0x71944005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71944001, 0x71944006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71944001, 0x71944007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71944001, 0x71944008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71944001, 0x71944009, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71944001, 0x7194400A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71944001, 0x7194400B, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71944001, 0x7194400C, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71944001, 0x7194400D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71944001, 0x7194400E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71944001, 0x7194400F, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71944001, 0x71944010, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71944001, 0x71944011, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71944001, 0x71944002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71944001, 0x71944003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71944001, 0x71944004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71944001, 0x71944005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71944001, 0x71944006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71944001, 0x71944007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71944001, 0x71944008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71944001, 0x71944009, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71944001, 0x7194400A, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71944001, 0x7194400B, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71944001, 0x7194400C, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71944001, 0x7194400D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71944001, 0x7194400E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71944001, 0x7194400F, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71944001, 0x71944010, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71944001, 0x71944011, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71944002, 36825, 0x19440008, 15.85632, 177.2563, 15.63998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -91,8 +91,8 @@ VALUES (0x71944012,  1542, 0x19440030, 138.2676, 180.1878, 35.1338, 1, 0, 0, 0, 
 /* @teleloc 0x19440030 [138.267600 180.187800 35.133800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71944012, 0x71944013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71944012, 0x71944014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71944012, 0x71944013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71944012, 0x71944014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71944013,  4179, 0x19440030, 138.2676, 180.1878, 35.1338, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

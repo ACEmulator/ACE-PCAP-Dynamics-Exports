@@ -5,9 +5,9 @@ VALUES (0x725E9001,  1154, 0x25E90038, 158.4532, 175.3708, 0.00999999, -0.912638
 /* @teleloc 0x25E90038 [158.453200 175.370800 0.010000] -0.912638 0.000000 0.000000 -0.408768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725E9001, 0x725E9002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x725E9001, 0x725E9003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x725E9001, 0x725E9004, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x725E9001, 0x725E9002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x725E9001, 0x725E9003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x725E9001, 0x725E9004, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E9002, 22933, 0x25E90038, 158.4532, 175.3708, 0.00999999, -0.9126384, 0, 0, -0.4087679,  True, '2019-02-10 00:00:00'); /* Mist Golem */

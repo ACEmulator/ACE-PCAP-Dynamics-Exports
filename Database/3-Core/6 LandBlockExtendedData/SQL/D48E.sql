@@ -5,9 +5,9 @@ VALUES (0x7D48E001,  1154, 0xD48E002F, 123.1466, 167.1146, 15.82156, 0.5142725, 
 /* @teleloc 0xD48E002F [123.146600 167.114600 15.821560] 0.514273 0.000000 0.000000 -0.857627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D48E001, 0x7D48E002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7D48E001, 0x7D48E003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7D48E001, 0x7D48E004, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7D48E001, 0x7D48E002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7D48E001, 0x7D48E003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7D48E001, 0x7D48E004, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D48E002,  8143, 0xD48E002F, 123.1466, 167.1146, 15.82156, 0.5142725, 0, 0, -0.8576269,  True, '2019-02-10 00:00:00'); /* Amploth Raider */

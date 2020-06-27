@@ -5,15 +5,15 @@ VALUES (0x7B480001,  1154, 0xB4800006, 19.26305, 124.5488, 25.99532, 0.9659258, 
 /* @teleloc 0xB4800006 [19.263050 124.548800 25.995320] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B480001, 0x7B480002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B480001, 0x7B480003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B480001, 0x7B480004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B480001, 0x7B480005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B480001, 0x7B480006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B480001, 0x7B480007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B480001, 0x7B480008, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B480001, 0x7B480009, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B480001, 0x7B48000A, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x7B480001, 0x7B480002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B480001, 0x7B480003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B480001, 0x7B480004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B480001, 0x7B480005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B480001, 0x7B480006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B480001, 0x7B480007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B480001, 0x7B480008, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B480001, 0x7B480009, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B480001, 0x7B48000A, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B480002,   195, 0xB4800006, 19.26305, 124.5488, 25.99532, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -56,7 +56,7 @@ VALUES (0x7B48000B,  1542, 0xB4800016, 62.23266, 139.2047, 27.6004, 1, 0, 0, 0, 
 /* @teleloc 0xB4800016 [62.232660 139.204700 27.600400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B48000B, 0x7B48000C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B48000B, 0x7B48000C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B48000C,  4380, 0xB4800016, 62.23266, 139.2047, 27.6004, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

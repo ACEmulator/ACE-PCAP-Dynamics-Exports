@@ -5,12 +5,12 @@ VALUES (0x7D97B001,  1154, 0xD97B002A, 130.1826, 24.38071, 21.18918, -0.547254, 
 /* @teleloc 0xD97B002A [130.182600 24.380710 21.189180] -0.547254 0.000000 0.000000 -0.836967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D97B001, 0x7D97B002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D97B001, 0x7D97B003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D97B001, 0x7D97B004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D97B001, 0x7D97B005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D97B001, 0x7D97B006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7D97B001, 0x7D97B007, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7D97B001, 0x7D97B002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D97B001, 0x7D97B003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D97B001, 0x7D97B004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D97B001, 0x7D97B005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D97B001, 0x7D97B006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7D97B001, 0x7D97B007, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D97B002,   227, 0xD97B002A, 130.1826, 24.38071, 21.18918, -0.547254, 0, 0, -0.8369666,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

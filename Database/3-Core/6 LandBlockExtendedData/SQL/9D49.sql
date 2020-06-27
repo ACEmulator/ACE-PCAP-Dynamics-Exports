@@ -5,22 +5,22 @@ VALUES (0x79D49001,  1154, 0x9D49003C, 187.8356, 77.78259, 83.66297, 0.3251869, 
 /* @teleloc 0x9D49003C [187.835600 77.782590 83.662970] 0.325187 0.000000 0.000000 -0.945650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D49001, 0x79D49002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79D49001, 0x79D49003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79D49001, 0x79D49004, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79D49001, 0x79D49005, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79D49001, 0x79D49006, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79D49001, 0x79D49007, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79D49001, 0x79D49008, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79D49001, 0x79D49009, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79D49001, 0x79D4900A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79D49001, 0x79D4900B, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79D49001, 0x79D4900C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79D49001, 0x79D4900D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79D49001, 0x79D4900E, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79D49001, 0x79D4900F, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79D49001, 0x79D49010, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79D49001, 0x79D49011, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79D49001, 0x79D49002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79D49001, 0x79D49003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79D49001, 0x79D49004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79D49001, 0x79D49005, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79D49001, 0x79D49006, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79D49001, 0x79D49007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79D49001, 0x79D49008, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79D49001, 0x79D49009, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79D49001, 0x79D4900A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79D49001, 0x79D4900B, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79D49001, 0x79D4900C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79D49001, 0x79D4900D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79D49001, 0x79D4900E, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79D49001, 0x79D4900F, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79D49001, 0x79D49010, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79D49001, 0x79D49011, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D49002,  6645, 0x9D49003C, 187.8356, 77.78259, 83.66297, 0.3251869, 0, 0, -0.9456497,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -91,7 +91,7 @@ VALUES (0x79D49012,  1542, 0x9D49001F, 85.90998, 144.5328, 69.20356, 1, 0, 0, 0,
 /* @teleloc 0x9D49001F [85.909980 144.532800 69.203560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D49012, 0x79D49013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79D49012, 0x79D49013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D49013, 22576, 0x9D49001F, 85.90998, 144.5328, 69.20356, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

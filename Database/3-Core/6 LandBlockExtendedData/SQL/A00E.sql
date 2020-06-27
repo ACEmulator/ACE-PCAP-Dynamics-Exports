@@ -5,11 +5,11 @@ VALUES (0x7A00E001,  1154, 0xA00E002E, 143.8802, 141.5911, -0.09949994, 0.819152
 /* @teleloc 0xA00E002E [143.880200 141.591100 -0.099500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A00E001, 0x7A00E002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A00E001, 0x7A00E003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A00E001, 0x7A00E004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A00E001, 0x7A00E005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A00E001, 0x7A00E006, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7A00E001, 0x7A00E002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A00E001, 0x7A00E003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A00E001, 0x7A00E004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A00E001, 0x7A00E005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A00E001, 0x7A00E006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A00E002,  7987, 0xA00E002E, 143.8802, 141.5911, -0.09949994, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

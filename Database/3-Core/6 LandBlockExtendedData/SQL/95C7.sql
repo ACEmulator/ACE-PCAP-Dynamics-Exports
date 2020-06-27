@@ -5,19 +5,19 @@ VALUES (0x795C7001,  1154, 0x95C70035, 153.9862, 109.2093, 33.20621, 0.950165, 0
 /* @teleloc 0x95C70035 [153.986200 109.209300 33.206210] 0.950165 0.000000 0.000000 -0.311748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795C7001, 0x795C7002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x795C7001, 0x795C7003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795C7001, 0x795C7004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795C7001, 0x795C7005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795C7001, 0x795C7006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795C7001, 0x795C7007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795C7001, 0x795C7008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795C7001, 0x795C7009, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x795C7001, 0x795C700A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x795C7001, 0x795C700B, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x795C7001, 0x795C700C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795C7001, 0x795C700D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795C7001, 0x795C700E, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x795C7001, 0x795C7002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x795C7001, 0x795C7003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795C7001, 0x795C7004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795C7001, 0x795C7005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795C7001, 0x795C7006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795C7001, 0x795C7007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795C7001, 0x795C7008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795C7001, 0x795C7009, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x795C7001, 0x795C700A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x795C7001, 0x795C700B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x795C7001, 0x795C700C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795C7001, 0x795C700D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795C7001, 0x795C700E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795C7002,  7105, 0x95C70035, 153.9862, 109.2093, 33.20621, 0.950165, 0, 0, -0.3117475,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

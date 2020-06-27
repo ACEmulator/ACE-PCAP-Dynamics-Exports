@@ -5,9 +5,9 @@ VALUES (0x7BC7E001,  1154, 0xBC7E003C, 174.5007, 75.58542, 66.04467, -0.8415264,
 /* @teleloc 0xBC7E003C [174.500700 75.585420 66.044670] -0.841526 0.000000 0.000000 -0.540216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC7E001, 0x7BC7E002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BC7E001, 0x7BC7E003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BC7E001, 0x7BC7E004, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7BC7E001, 0x7BC7E002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BC7E001, 0x7BC7E003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BC7E001, 0x7BC7E004, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC7E002,    20, 0xBC7E003C, 174.5007, 75.58542, 66.04467, -0.8415264, 0, 0, -0.5402159,  True, '2019-02-10 00:00:00'); /* Auroch Bull */

@@ -5,14 +5,14 @@ VALUES (0x74933001,  1154, 0x4933003E, 169.3799, 133.095, 2.732755, 0.5360473, 0
 /* @teleloc 0x4933003E [169.379900 133.095000 2.732755] 0.536047 0.000000 0.000000 -0.844188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74933001, 0x74933002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x74933001, 0x74933003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x74933001, 0x74933004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74933001, 0x74933005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74933001, 0x74933006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74933001, 0x74933007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74933001, 0x74933008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74933001, 0x74933009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x74933001, 0x74933002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x74933001, 0x74933003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x74933001, 0x74933004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74933001, 0x74933005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x74933001, 0x74933006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74933001, 0x74933007, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x74933001, 0x74933008, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x74933001, 0x74933009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74933002, 20189, 0x4933003E, 169.3799, 133.095, 2.732755, 0.5360473, 0, 0, -0.844188,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -51,7 +51,7 @@ VALUES (0x7493300A,  1542, 0x49330006, 7.190229, 126.1813, 68, -0.5680494, 0, 0,
 /* @teleloc 0x49330006 [7.190229 126.181300 68.000000] -0.568049 0.000000 0.000000 -0.822995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7493300A, 0x7493300B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7493300A, 0x7493300B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7493300B,  8644, 0x49330006, 7.190229, 126.1813, 68, -0.5680494, 0, 0, -0.8229945,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

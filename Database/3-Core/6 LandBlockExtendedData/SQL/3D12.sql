@@ -5,24 +5,24 @@ VALUES (0x73D12001,  1154, 0x3D120016, 65.17908, 124.102, -0.44, 0.8814647, 0, 0
 /* @teleloc 0x3D120016 [65.179080 124.102000 -0.440000] 0.881465 0.000000 0.000000 -0.472250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D12001, 0x73D12002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D12001, 0x73D12003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D12001, 0x73D12004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D12001, 0x73D12005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D12001, 0x73D12006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D12001, 0x73D12007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D12001, 0x73D12008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73D12001, 0x73D12009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73D12001, 0x73D1200A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73D12001, 0x73D1200B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D12001, 0x73D1200C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D12001, 0x73D1200D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73D12001, 0x73D1200E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73D12001, 0x73D1200F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73D12001, 0x73D12010, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D12001, 0x73D12011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D12001, 0x73D12012, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D12001, 0x73D12013, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73D12001, 0x73D12002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73D12001, 0x73D12003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D12001, 0x73D12004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D12001, 0x73D12005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D12001, 0x73D12006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D12001, 0x73D12007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D12001, 0x73D12008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73D12001, 0x73D12009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73D12001, 0x73D1200A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73D12001, 0x73D1200B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D12001, 0x73D1200C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D12001, 0x73D1200D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73D12001, 0x73D1200E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73D12001, 0x73D1200F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73D12001, 0x73D12010, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D12001, 0x73D12011, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D12001, 0x73D12012, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D12001, 0x73D12013, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D12002, 36828, 0x3D120016, 65.17908, 124.102, -0.44, 0.8814647, 0, 0, -0.47225,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -101,8 +101,8 @@ VALUES (0x73D12014,  1542, 0x3D12001F, 81.9618, 160.243, 0, -4.371139E-08, 0, 0,
 /* @teleloc 0x3D12001F [81.961800 160.243000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D12014, 0x73D12015, '2019-02-10 00:00:00') /* Bones */
-     , (0x73D12014, 0x73D12016, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73D12014, 0x73D12015, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73D12014, 0x73D12016, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D12015,  4380, 0x3D12001F, 81.9618, 160.243, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

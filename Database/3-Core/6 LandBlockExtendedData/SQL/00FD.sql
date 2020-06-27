@@ -193,215 +193,215 @@ VALUES (0x700FD167,  1154, 0x00FD0558, 140.529, -48.3518, -11.96154, 0.675409, 0
 /* @teleloc 0x00FD0558 [140.529000 -48.351800 -11.961540] 0.675409 0.000000 0.000000 0.737443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700FD167, 0x700FD168, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD169, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD16A, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD16B, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD16C, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD16D, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD16E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD16F, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD170, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD171, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD172, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD173, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD174, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD175, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD176, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD177, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD178, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD179, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD17A, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD17B, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD17C, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD17D, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD17E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD17F, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD180, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD181, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD182, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD183, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD184, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD185, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD186, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD187, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD188, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD189, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD18A, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD18B, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD18C, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD18D, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD18E, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD18F, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD190, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD191, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD192, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD193, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD194, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD195, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD196, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD197, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD198, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD199, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD19A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD19B, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD19C, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD19D, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD19E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD19F, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1A0, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1A1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1A2, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1A3, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1A4, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1A5, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1A6, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1A7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1A8, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1A9, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1AA, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1AB, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1AC, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1AD, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1AE, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1AF, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1B0, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1B1, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1B2, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1B3, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1B4, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1B5, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1B6, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1B7, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1B8, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1B9, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1BA, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1BB, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1BC, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1BD, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1BE, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1BF, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1C0, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1C1, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1C2, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1C3, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1C4, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1C5, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1C6, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1C7, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1C8, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1C9, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1CA, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1CB, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1CC, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1CD, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1CE, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1CF, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1D0, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1D1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1D2, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1D3, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1D4, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1D5, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1D6, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1D7, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1D8, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1D9, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1DA, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1DB, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1DC, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1DD, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1DE, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1DF, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1E0, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1E1, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1E2, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1E3, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1E4, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD1E5, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD1E6, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD1E7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1E8, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1E9, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD1EA, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1EB, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1EC, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1ED, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1EE, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1EF, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1F0, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1F1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1F2, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1F3, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1F4, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD1F5, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1F6, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1F7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1F8, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD1F9, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1FA, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1FB, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD1FC, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD1FD, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD1FE, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD1FF, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD200, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD201, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD202, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD203, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD204, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD205, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x700FD167, 0x700FD206, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD207, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD208, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD209, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD20A, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD20B, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD20C, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD20D, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD20E, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD20F, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD210, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD211, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x700FD167, 0x700FD212, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x700FD167, 0x700FD213, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD214, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD215, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD216, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD217, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD218, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD219, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD21A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD21B, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD21C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD21D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD21E, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD21F, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD220, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD221, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD222, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD223, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD224, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD225, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD226, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD227, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD228, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD229, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD22A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD22B, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD22C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD22D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD22E, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD22F, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD230, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x700FD167, 0x700FD231, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD232, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD233, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x700FD167, 0x700FD234, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD235, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x700FD167, 0x700FD236, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x700FD167, 0x700FD237, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x700FD167, 0x700FD238, '2019-02-10 00:00:00') /* Burun Ruuk Lout */;
+VALUES (0x700FD167, 0x700FD168, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD169, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD16A, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD16B, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD16C, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD16D, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD16E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD16F, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD170, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD171, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD172, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD173, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD174, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD175, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD176, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD177, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD178, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD179, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD17A, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD17B, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD17C, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD17D, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD17E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD17F, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD180, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD181, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD182, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD183, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD184, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD185, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD186, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD187, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD188, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD189, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD18A, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD18B, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD18C, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD18D, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD18E, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD18F, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD190, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD191, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD192, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD193, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD194, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD195, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD196, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD197, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD198, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD199, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD19A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD19B, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD19C, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD19D, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD19E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD19F, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1A0, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1A1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1A2, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1A3, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1A4, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1A5, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1A6, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1A7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1A8, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1A9, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1AA, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1AB, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1AC, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1AD, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1AE, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1AF, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1B0, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1B1, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1B2, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1B3, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1B4, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1B5, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1B6, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1B7, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1B8, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1B9, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1BA, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1BB, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1BC, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1BD, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1BE, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1BF, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1C0, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1C1, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1C2, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1C3, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1C4, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1C5, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1C6, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1C7, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1C8, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1C9, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1CA, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1CB, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1CC, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1CD, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1CE, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1CF, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1D0, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1D1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1D2, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1D3, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1D4, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1D5, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1D6, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1D7, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1D8, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1D9, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1DA, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1DB, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1DC, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1DD, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1DE, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1DF, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1E0, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1E1, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1E2, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1E3, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1E4, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD1E5, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD1E6, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD1E7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1E8, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1E9, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD1EA, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1EB, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1EC, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1ED, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1EE, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1EF, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1F0, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1F1, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1F2, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1F3, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1F4, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD1F5, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1F6, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1F7, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1F8, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD1F9, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1FA, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1FB, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD1FC, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD1FD, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD1FE, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD1FF, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD200, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD201, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD202, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD203, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD204, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD205, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x700FD167, 0x700FD206, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD207, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD208, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD209, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD20A, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD20B, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD20C, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD20D, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD20E, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD20F, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD210, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD211, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x700FD167, 0x700FD212, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x700FD167, 0x700FD213, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD214, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD215, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD216, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD217, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD218, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD219, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD21A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD21B, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD21C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD21D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD21E, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD21F, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD220, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD221, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD222, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD223, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD224, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD225, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD226, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD227, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD228, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD229, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD22A, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD22B, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD22C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD22D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD22E, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD22F, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD230, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x700FD167, 0x700FD231, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD232, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD233, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x700FD167, 0x700FD234, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD235, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x700FD167, 0x700FD236, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x700FD167, 0x700FD237, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x700FD167, 0x700FD238, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700FD168, 26019, 0x00FD0558, 140.529, -48.3518, -11.96154, 0.675409, 0, 0, 0.737443,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Seer */

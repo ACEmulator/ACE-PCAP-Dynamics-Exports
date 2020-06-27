@@ -21,15 +21,15 @@ VALUES (0x73D5F004,  1154, 0x3D5F0011, 63.86301, 14.40398, 32.10274, 0.9238795, 
 /* @teleloc 0x3D5F0011 [63.863010 14.403980 32.102740] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D5F004, 0x73D5F005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73D5F004, 0x73D5F006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73D5F004, 0x73D5F007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D5F004, 0x73D5F008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73D5F004, 0x73D5F009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D5F004, 0x73D5F00A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73D5F004, 0x73D5F00B, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73D5F004, 0x73D5F00C, '2019-02-10 00:00:00') /* Flare */
-     , (0x73D5F004, 0x73D5F00D, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x73D5F004, 0x73D5F005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73D5F004, 0x73D5F006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73D5F004, 0x73D5F007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D5F004, 0x73D5F008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73D5F004, 0x73D5F009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D5F004, 0x73D5F00A, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73D5F004, 0x73D5F00B, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73D5F004, 0x73D5F00C, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73D5F004, 0x73D5F00D, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D5F005, 24497, 0x3D5F0011, 63.86301, 14.40398, 32.10274, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -72,9 +72,9 @@ VALUES (0x73D5F00E,  1542, 0x3D5F0011, 57.03318, 14.19814, 31.22511, 1, 0, 0, 0,
 /* @teleloc 0x3D5F0011 [57.033180 14.198140 31.225110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D5F00E, 0x73D5F00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73D5F00E, 0x73D5F010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73D5F00E, 0x73D5F011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73D5F00E, 0x73D5F00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x73D5F00E, 0x73D5F010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73D5F00E, 0x73D5F011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D5F00F, 22567, 0x3D5F0011, 57.03318, 14.19814, 31.22511, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

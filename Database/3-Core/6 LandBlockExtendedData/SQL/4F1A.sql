@@ -5,12 +5,12 @@ VALUES (0x74F1A001,  1154, 0x4F1A0021, 106.3525, 23.37982, 118.3106, 0.831671, 0
 /* @teleloc 0x4F1A0021 [106.352500 23.379820 118.310600] 0.831671 0.000000 0.000000 -0.555269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F1A001, 0x74F1A002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74F1A001, 0x74F1A003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74F1A001, 0x74F1A004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74F1A001, 0x74F1A005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74F1A001, 0x74F1A006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74F1A001, 0x74F1A007, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x74F1A001, 0x74F1A002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74F1A001, 0x74F1A003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74F1A001, 0x74F1A004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74F1A001, 0x74F1A005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74F1A001, 0x74F1A006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74F1A001, 0x74F1A007, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F1A002, 36858, 0x4F1A0021, 106.3525, 23.37982, 118.3106, 0.831671, 0, 0, -0.5552687,  True, '2019-02-10 00:00:00'); /* Great Skeleton */

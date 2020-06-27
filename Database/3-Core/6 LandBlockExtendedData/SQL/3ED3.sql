@@ -5,15 +5,15 @@ VALUES (0x73ED3001,  1154, 0x3ED30007, 1.053612, 144.4861, 0.007499993, -0.71672
 /* @teleloc 0x3ED30007 [1.053612 144.486100 0.007500] -0.716726 0.000000 0.000000 -0.697355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED3001, 0x73ED3002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73ED3001, 0x73ED3003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73ED3001, 0x73ED3004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED3001, 0x73ED3005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED3001, 0x73ED3006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED3001, 0x73ED3007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED3001, 0x73ED3008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73ED3001, 0x73ED3009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73ED3001, 0x73ED300A, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x73ED3001, 0x73ED3002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73ED3001, 0x73ED3003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73ED3001, 0x73ED3004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED3001, 0x73ED3005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED3001, 0x73ED3006, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED3001, 0x73ED3007, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED3001, 0x73ED3008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73ED3001, 0x73ED3009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73ED3001, 0x73ED300A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED3002, 24326, 0x3ED30007, 1.053612, 144.4861, 0.007499993, -0.7167263, 0, 0, -0.6973546,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -56,8 +56,8 @@ VALUES (0x73ED300B,  1542, 0x3ED3000A, 27.87083, 47.52379, -3.72529E-09, -4.3711
 /* @teleloc 0x3ED3000A [27.870830 47.523790 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED300B, 0x73ED300C, '2019-02-10 00:00:00') /* Bones */
-     , (0x73ED300B, 0x73ED300D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73ED300B, 0x73ED300C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73ED300B, 0x73ED300D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED300C,  4380, 0x3ED3000A, 27.87083, 47.52379, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

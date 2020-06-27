@@ -5,36 +5,36 @@ VALUES (0x7E84F001,  1154, 0xE84F001F, 87.79064, 158.7153, -0.904, -0.6577478, 0
 /* @teleloc 0xE84F001F [87.790640 158.715300 -0.904000] -0.657748 0.000000 0.000000 -0.753238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E84F001, 0x7E84F002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E84F001, 0x7E84F003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E84F001, 0x7E84F004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E84F001, 0x7E84F005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E84F001, 0x7E84F006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E84F001, 0x7E84F007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7E84F001, 0x7E84F008, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7E84F001, 0x7E84F009, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E84F001, 0x7E84F00A, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E84F001, 0x7E84F00B, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E84F001, 0x7E84F00C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E84F001, 0x7E84F00D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E84F001, 0x7E84F00E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E84F001, 0x7E84F00F, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E84F001, 0x7E84F010, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E84F001, 0x7E84F011, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E84F001, 0x7E84F012, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E84F001, 0x7E84F013, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E84F001, 0x7E84F014, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E84F001, 0x7E84F015, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E84F001, 0x7E84F016, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E84F001, 0x7E84F017, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E84F001, 0x7E84F018, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E84F001, 0x7E84F019, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E84F001, 0x7E84F01A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E84F001, 0x7E84F01B, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E84F001, 0x7E84F01C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E84F001, 0x7E84F01D, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E84F001, 0x7E84F01E, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E84F001, 0x7E84F01F, '2019-02-10 00:00:00') /* Dark Wisp */;
+VALUES (0x7E84F001, 0x7E84F002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E84F001, 0x7E84F003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E84F001, 0x7E84F004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E84F001, 0x7E84F005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E84F001, 0x7E84F006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E84F001, 0x7E84F007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7E84F001, 0x7E84F008, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7E84F001, 0x7E84F009, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E84F001, 0x7E84F00A, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E84F001, 0x7E84F00B, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E84F001, 0x7E84F00C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E84F001, 0x7E84F00D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E84F001, 0x7E84F00E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E84F001, 0x7E84F00F, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E84F001, 0x7E84F010, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E84F001, 0x7E84F011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E84F001, 0x7E84F012, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E84F001, 0x7E84F013, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E84F001, 0x7E84F014, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E84F001, 0x7E84F015, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E84F001, 0x7E84F016, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E84F001, 0x7E84F017, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E84F001, 0x7E84F018, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E84F001, 0x7E84F019, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E84F001, 0x7E84F01A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E84F001, 0x7E84F01B, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E84F001, 0x7E84F01C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E84F001, 0x7E84F01D, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E84F001, 0x7E84F01E, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E84F001, 0x7E84F01F, '2019-02-10 00:00:00') /* Dark Wisp (1988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E84F002,  4109, 0xE84F001F, 87.79064, 158.7153, -0.904, -0.6577478, 0, 0, -0.7532382,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -161,8 +161,8 @@ VALUES (0x7E84F020,  1542, 0xE84F000B, 32.67075, 59.34117, 12.84167, 1, 0, 0, 0,
 /* @teleloc 0xE84F000B [32.670750 59.341170 12.841670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E84F020, 0x7E84F021, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7E84F020, 0x7E84F022, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7E84F020, 0x7E84F021, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7E84F020, 0x7E84F022, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E84F021,  5779, 0xE84F000B, 32.67075, 59.34117, 12.84167, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Strange Stick */

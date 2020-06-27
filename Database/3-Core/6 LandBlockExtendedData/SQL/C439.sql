@@ -5,19 +5,19 @@ VALUES (0x7C439001,  1154, 0xC439000F, 43.31028, 151.2723, 60.56973, 0.04272455,
 /* @teleloc 0xC439000F [43.310280 151.272300 60.569730] 0.042725 0.000000 0.000000 -0.999087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C439001, 0x7C439002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C439001, 0x7C439003, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C439001, 0x7C439004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C439001, 0x7C439005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C439001, 0x7C439006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C439001, 0x7C439007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C439001, 0x7C439008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C439001, 0x7C439009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C439001, 0x7C43900A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C439001, 0x7C43900B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C439001, 0x7C43900C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C439001, 0x7C43900D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C439001, 0x7C43900E, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C439001, 0x7C439002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C439001, 0x7C439003, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C439001, 0x7C439004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C439001, 0x7C439005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C439001, 0x7C439006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C439001, 0x7C439007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C439001, 0x7C439008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C439001, 0x7C439009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C439001, 0x7C43900A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C439001, 0x7C43900B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C439001, 0x7C43900C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C439001, 0x7C43900D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C439001, 0x7C43900E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C439002,  1608, 0xC439000F, 43.31028, 151.2723, 60.56973, 0.04272455, 0, 0, -0.9990869,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

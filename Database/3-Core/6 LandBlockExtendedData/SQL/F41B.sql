@@ -5,32 +5,32 @@ VALUES (0x7F41B001,  1154, 0xF41B003B, 172.1705, 50.87521, 0.006500006, 0.953716
 /* @teleloc 0xF41B003B [172.170500 50.875210 0.006500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41B001, 0x7F41B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F41B001, 0x7F41B003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F41B001, 0x7F41B006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F41B001, 0x7F41B007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41B001, 0x7F41B00B, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F41B001, 0x7F41B00C, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F41B001, 0x7F41B00D, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F41B001, 0x7F41B00E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F41B001, 0x7F41B00F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F41B001, 0x7F41B010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F41B001, 0x7F41B011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F41B001, 0x7F41B012, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F41B001, 0x7F41B013, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F41B001, 0x7F41B014, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F41B001, 0x7F41B015, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F41B001, 0x7F41B016, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F41B001, 0x7F41B017, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F41B001, 0x7F41B018, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F41B001, 0x7F41B019, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F41B001, 0x7F41B01A, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F41B001, 0x7F41B01B, '2019-02-10 00:00:00') /* Sulthis Tendril */;
+VALUES (0x7F41B001, 0x7F41B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F41B001, 0x7F41B003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F41B001, 0x7F41B006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F41B001, 0x7F41B007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41B001, 0x7F41B00B, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F41B001, 0x7F41B00C, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F41B001, 0x7F41B00D, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F41B001, 0x7F41B00E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F41B001, 0x7F41B00F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F41B001, 0x7F41B010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F41B001, 0x7F41B011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F41B001, 0x7F41B012, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F41B001, 0x7F41B013, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F41B001, 0x7F41B014, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F41B001, 0x7F41B015, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F41B001, 0x7F41B016, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F41B001, 0x7F41B017, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F41B001, 0x7F41B018, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F41B001, 0x7F41B019, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F41B001, 0x7F41B01A, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F41B001, 0x7F41B01B, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41B002,  8431, 0xF41B003B, 172.1705, 50.87521, 0.006500006, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -141,7 +141,7 @@ VALUES (0x7F41B01C,  1542, 0xF41B001E, 91.20685, 136.8691, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xF41B001E [91.206850 136.869100 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41B01C, 0x7F41B01D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F41B01C, 0x7F41B01D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41B01D,  4179, 0xF41B001E, 91.20685, 136.8691, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

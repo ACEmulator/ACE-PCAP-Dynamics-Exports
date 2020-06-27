@@ -5,11 +5,11 @@ VALUES (0x792CD001,  1154, 0x92CD002C, 136.5469, 74.11797, 213.822, 0.7660445, 0
 /* @teleloc 0x92CD002C [136.546900 74.117970 213.822000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792CD001, 0x792CD002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x792CD001, 0x792CD003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x792CD001, 0x792CD004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792CD001, 0x792CD005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792CD001, 0x792CD006, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x792CD001, 0x792CD002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x792CD001, 0x792CD003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x792CD001, 0x792CD004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792CD001, 0x792CD005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792CD001, 0x792CD006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792CD002,  7084, 0x92CD002C, 136.5469, 74.11797, 213.822, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

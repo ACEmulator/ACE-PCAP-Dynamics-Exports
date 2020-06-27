@@ -5,15 +5,15 @@ VALUES (0x72561001,  1154, 0x2561002C, 143.382, 84.90484, 85.52574, 0.9977187, 0
 /* @teleloc 0x2561002C [143.382000 84.904840 85.525740] 0.997719 0.000000 0.000000 -0.067509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72561001, 0x72561002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72561001, 0x72561003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72561001, 0x72561004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72561001, 0x72561005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72561001, 0x72561006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72561001, 0x72561007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72561001, 0x72561008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72561001, 0x72561009, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72561001, 0x7256100A, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x72561001, 0x72561002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72561001, 0x72561003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72561001, 0x72561004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72561001, 0x72561005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72561001, 0x72561006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72561001, 0x72561007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72561001, 0x72561008, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72561001, 0x72561009, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72561001, 0x7256100A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72561002, 24134, 0x2561002C, 143.382, 84.90484, 85.52574, 0.9977187, 0, 0, -0.06750899,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */

@@ -5,16 +5,16 @@ VALUES (0x78EF1001,  1154, 0x8EF10023, 110.2338, 54.50765, -0.8934, 0.4621534, 0
 /* @teleloc 0x8EF10023 [110.233800 54.507650 -0.893400] 0.462153 0.000000 0.000000 -0.886800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EF1001, 0x78EF1002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78EF1001, 0x78EF1003, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x78EF1001, 0x78EF1004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x78EF1001, 0x78EF1005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78EF1001, 0x78EF1006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78EF1001, 0x78EF1007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x78EF1001, 0x78EF1008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x78EF1001, 0x78EF1009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x78EF1001, 0x78EF100A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78EF1001, 0x78EF100B, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x78EF1001, 0x78EF1002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78EF1001, 0x78EF1003, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x78EF1001, 0x78EF1004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x78EF1001, 0x78EF1005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78EF1001, 0x78EF1006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78EF1001, 0x78EF1007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x78EF1001, 0x78EF1008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x78EF1001, 0x78EF1009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x78EF1001, 0x78EF100A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78EF1001, 0x78EF100B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EF1002,  7102, 0x8EF10023, 110.2338, 54.50765, -0.8934, 0.4621534, 0, 0, -0.8868,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

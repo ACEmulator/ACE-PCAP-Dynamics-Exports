@@ -5,9 +5,9 @@ VALUES (0x7DE48001,  1154, 0xDE48002C, 127.5508, 85.25372, 28, 0.7269335, 0, 0, 
 /* @teleloc 0xDE48002C [127.550800 85.253720 28.000000] 0.726934 0.000000 0.000000 -0.686708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE48001, 0x7DE48002, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7DE48001, 0x7DE48003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7DE48001, 0x7DE48004, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7DE48001, 0x7DE48002, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7DE48001, 0x7DE48003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7DE48001, 0x7DE48004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE48002,  2581, 0xDE48002C, 127.5508, 85.25372, 28, 0.7269335, 0, 0, -0.6867079,  True, '2019-02-10 00:00:00'); /* Snowy Mattekar */

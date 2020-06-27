@@ -5,8 +5,8 @@ VALUES (0x78FAC001,  1154, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.5651497, 0
 /* @teleloc 0x8FAC001C [82.294620 87.317400 47.010280] 0.565150 0.000000 0.000000 -0.824988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FAC001, 0x78FAC002, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x78FAC001, 0x78FAC003, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x78FAC001, 0x78FAC002, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x78FAC001, 0x78FAC003, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FAC002, 28877, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.5651497, 0, 0, -0.8249884,  True, '2019-02-10 00:00:00'); /* Nasty Scarecrow */
@@ -21,8 +21,8 @@ VALUES (0x78FAC004,  1542, 0x8FAC001C, 81.49484, 89.12857, 46.99015, 1, 0, 0, 0,
 /* @teleloc 0x8FAC001C [81.494840 89.128570 46.990150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FAC004, 0x78FAC005, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x78FAC004, 0x78FAC006, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x78FAC004, 0x78FAC005, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x78FAC004, 0x78FAC006, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FAC005,  8232, 0x8FAC001C, 81.49484, 89.12857, 46.99015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

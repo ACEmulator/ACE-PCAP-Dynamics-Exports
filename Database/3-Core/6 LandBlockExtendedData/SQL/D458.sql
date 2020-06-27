@@ -25,16 +25,16 @@ VALUES (0x7D458005,  1154, 0xD4580103, 60.08516, 86.12492, 50.0035, -0.9999908, 
 /* @teleloc 0xD4580103 [60.085160 86.124920 50.003500] -0.999991 0.000000 0.000000 0.004283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D458005, 0x7D458006, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7D458005, 0x7D458007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D458005, 0x7D458008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D458005, 0x7D458009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D458005, 0x7D45800A, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D458005, 0x7D45800B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D458005, 0x7D45800C, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D458005, 0x7D45800D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D458005, 0x7D45800E, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7D458005, 0x7D45800F, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7D458005, 0x7D458006, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7D458005, 0x7D458007, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x7D458005, 0x7D458008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D458005, 0x7D458009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D458005, 0x7D45800A, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D458005, 0x7D45800B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D458005, 0x7D45800C, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D458005, 0x7D45800D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D458005, 0x7D45800E, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7D458005, 0x7D45800F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D458006,  1464, 0xD4580103, 60.08516, 86.12492, 50.0035, -0.9999908, 0, 0, 0.004282519,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -81,14 +81,14 @@ VALUES (0x7D458010,  1542, 0xD4580103, 53.748, 86.76801, 50.079, -0.335978, 0, 0
 /* @teleloc 0xD4580103 [53.748000 86.768010 50.079000] -0.335978 0.000000 0.000000 0.941870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D458010, 0x7D458011, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7D458010, 0x7D458012, '2019-02-10 00:00:00') /* Parchment */
-     , (0x7D458010, 0x7D458013, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7D458010, 0x7D458014, '2019-02-10 00:00:00') /* A torn note  */
-     , (0x7D458010, 0x7D458015, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7D458010, 0x7D458016, '2019-02-10 00:00:00') /* Holtburg Dungeon Directions */
-     , (0x7D458010, 0x7D458017, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7D458010, 0x7D458018, '2019-02-10 00:00:00') /* An old note  */;
+VALUES (0x7D458010, 0x7D458011, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7D458010, 0x7D458012, '2019-02-10 00:00:00') /* Parchment (365) */
+     , (0x7D458010, 0x7D458013, '2019-02-10 00:00:00') /* Rumor (1515) */
+     , (0x7D458010, 0x7D458014, '2019-02-10 00:00:00') /* A torn note  (1417) */
+     , (0x7D458010, 0x7D458015, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7D458010, 0x7D458016, '2019-02-10 00:00:00') /* Holtburg Dungeon Directions (1221) */
+     , (0x7D458010, 0x7D458017, '2019-02-10 00:00:00') /* Rumor (1514) */
+     , (0x7D458010, 0x7D458018, '2019-02-10 00:00:00') /* An old note  (1418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D458011,  1418, 0xD4580103, 53.748, 86.76801, 50.079, -0.335978, 0, 0, 0.9418699,  True, '2019-02-10 00:00:00'); /* An old note  */

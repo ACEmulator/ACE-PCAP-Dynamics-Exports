@@ -5,9 +5,9 @@ VALUES (0x7CE88001,  1154, 0xCE88002B, 140.1995, 59.25465, 31.69329, 0.8404134, 
 /* @teleloc 0xCE88002B [140.199500 59.254650 31.693290] 0.840413 0.000000 0.000000 -0.541946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE88001, 0x7CE88002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CE88001, 0x7CE88003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CE88001, 0x7CE88004, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7CE88001, 0x7CE88002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CE88001, 0x7CE88003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CE88001, 0x7CE88004, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE88002,   942, 0xCE88002B, 140.1995, 59.25465, 31.69329, 0.8404134, 0, 0, -0.5419459,  True, '2019-02-10 00:00:00'); /* Wood Golem */

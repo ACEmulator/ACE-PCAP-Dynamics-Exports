@@ -5,34 +5,34 @@ VALUES (0x72AB6001,  1154, 0x2AB60012, 66.6367, 25.70195, 15.19449, -0.9465786, 
 /* @teleloc 0x2AB60012 [66.636700 25.701950 15.194490] -0.946579 0.000000 0.000000 -0.322473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB6001, 0x72AB6002, '2019-02-10 00:00:00') /* Brigand */
-     , (0x72AB6001, 0x72AB6003, '2019-02-10 00:00:00') /* Bandit */
-     , (0x72AB6001, 0x72AB6004, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x72AB6001, 0x72AB6005, '2019-02-10 00:00:00') /* Bandit */
-     , (0x72AB6001, 0x72AB6006, '2019-02-10 00:00:00') /* Brigand */
-     , (0x72AB6001, 0x72AB6007, '2019-02-10 00:00:00') /* Hea Hunter */
-     , (0x72AB6001, 0x72AB6008, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x72AB6001, 0x72AB6009, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AB6001, 0x72AB600A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AB6001, 0x72AB600B, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x72AB6001, 0x72AB600C, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x72AB6001, 0x72AB600D, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x72AB6001, 0x72AB600E, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x72AB6001, 0x72AB600F, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x72AB6001, 0x72AB6010, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x72AB6001, 0x72AB6011, '2019-02-10 00:00:00') /* Brigand */
-     , (0x72AB6001, 0x72AB6012, '2019-02-10 00:00:00') /* Bandit */
-     , (0x72AB6001, 0x72AB6013, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x72AB6001, 0x72AB6014, '2019-02-10 00:00:00') /* Hea Hunter */
-     , (0x72AB6001, 0x72AB6015, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x72AB6001, 0x72AB6016, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x72AB6001, 0x72AB6017, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB6018, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB6019, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB601A, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB601B, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB601C, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB6001, 0x72AB601D, '2019-02-10 00:00:00') /* Tidal Siraluun */;
+VALUES (0x72AB6001, 0x72AB6002, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x72AB6001, 0x72AB6003, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x72AB6001, 0x72AB6004, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x72AB6001, 0x72AB6005, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x72AB6001, 0x72AB6006, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x72AB6001, 0x72AB6007, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x72AB6001, 0x72AB6008, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x72AB6001, 0x72AB6009, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x72AB6001, 0x72AB600A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x72AB6001, 0x72AB600B, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x72AB6001, 0x72AB600C, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x72AB6001, 0x72AB600D, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x72AB6001, 0x72AB600E, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x72AB6001, 0x72AB600F, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x72AB6001, 0x72AB6010, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x72AB6001, 0x72AB6011, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x72AB6001, 0x72AB6012, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x72AB6001, 0x72AB6013, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x72AB6001, 0x72AB6014, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x72AB6001, 0x72AB6015, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x72AB6001, 0x72AB6016, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x72AB6001, 0x72AB6017, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB6018, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB6019, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB601A, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB601B, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB601C, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB6001, 0x72AB601D, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB6002, 11500, 0x2AB60012, 66.6367, 25.70195, 15.19449, -0.9465786, 0, 0, -0.3224733,  True, '2019-02-10 00:00:00'); /* Brigand */
@@ -151,15 +151,15 @@ VALUES (0x72AB601E,  1542, 0x2AB60011, 63.65154, 22.08962, 16.19449, 1, 0, 0, 0,
 /* @teleloc 0x2AB60011 [63.651540 22.089620 16.194490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB601E, 0x72AB601F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB601E, 0x72AB6020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB601E, 0x72AB6021, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB601E, 0x72AB6022, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB601E, 0x72AB6023, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator */
-     , (0x72AB601E, 0x72AB6024, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB601E, 0x72AB6025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB601E, 0x72AB6026, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator */
-     , (0x72AB601E, 0x72AB6027, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator */;
+VALUES (0x72AB601E, 0x72AB601F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB601E, 0x72AB6020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB601E, 0x72AB6021, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB601E, 0x72AB6022, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB601E, 0x72AB6023, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator (11565) */
+     , (0x72AB601E, 0x72AB6024, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB601E, 0x72AB6025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB601E, 0x72AB6026, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator (11567) */
+     , (0x72AB601E, 0x72AB6027, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator (11567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB601F,  9024, 0x2AB60011, 63.65154, 22.08962, 16.19449, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,12 +5,12 @@ VALUES (0x72E93001,  1154, 0x2E930033, 163.4753, 53.27841, 30.0132, 0.4647976, 0
 /* @teleloc 0x2E930033 [163.475300 53.278410 30.013200] 0.464798 0.000000 0.000000 -0.885417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E93001, 0x72E93002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E93001, 0x72E93003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72E93001, 0x72E93004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E93001, 0x72E93005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72E93001, 0x72E93006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E93001, 0x72E93007, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x72E93001, 0x72E93002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E93001, 0x72E93003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72E93001, 0x72E93004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E93001, 0x72E93005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72E93001, 0x72E93006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E93001, 0x72E93007, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E93002,  7184, 0x2E930033, 163.4753, 53.27841, 30.0132, 0.4647976, 0, 0, -0.8854169,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

@@ -5,11 +5,11 @@ VALUES (0x7F71D001,  1154, 0xF71D0006, 20.45436, 130.208, 63.83396, 0.9537169, 0
 /* @teleloc 0xF71D0006 [20.454360 130.208000 63.833960] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F71D001, 0x7F71D002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71D001, 0x7F71D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71D001, 0x7F71D004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71D001, 0x7F71D005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F71D001, 0x7F71D006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7F71D001, 0x7F71D002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71D001, 0x7F71D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71D001, 0x7F71D004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71D001, 0x7F71D005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F71D001, 0x7F71D006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F71D002,  8431, 0xF71D0006, 20.45436, 130.208, 63.83396, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

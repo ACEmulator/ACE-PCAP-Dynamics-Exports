@@ -5,26 +5,26 @@ VALUES (0x7251D001,  1154, 0x251D003B, 178.2908, 64.60266, 24.83882, 0.7372774, 
 /* @teleloc 0x251D003B [178.290800 64.602660 24.838820] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251D001, 0x7251D002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7251D001, 0x7251D003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7251D001, 0x7251D004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7251D001, 0x7251D007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7251D001, 0x7251D008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7251D001, 0x7251D009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7251D001, 0x7251D00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7251D001, 0x7251D00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7251D001, 0x7251D00C, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D00D, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D00E, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D00F, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7251D001, 0x7251D010, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x7251D001, 0x7251D011, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7251D001, 0x7251D012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7251D001, 0x7251D013, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7251D001, 0x7251D014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7251D001, 0x7251D015, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7251D001, 0x7251D002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7251D001, 0x7251D003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7251D001, 0x7251D004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7251D001, 0x7251D007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7251D001, 0x7251D008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7251D001, 0x7251D009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7251D001, 0x7251D00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7251D001, 0x7251D00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7251D001, 0x7251D00C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D00D, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D00E, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D00F, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7251D001, 0x7251D010, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x7251D001, 0x7251D011, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7251D001, 0x7251D012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7251D001, 0x7251D013, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7251D001, 0x7251D014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7251D001, 0x7251D015, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251D002,  7114, 0x251D003B, 178.2908, 64.60266, 24.83882, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -111,9 +111,9 @@ VALUES (0x7251D016,  1542, 0x251D0017, 56.27396, 151.2485, 23.99, -0.8783119, 0,
 /* @teleloc 0x251D0017 [56.273960 151.248500 23.990000] -0.878312 0.000000 0.000000 -0.478088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251D016, 0x7251D017, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7251D016, 0x7251D018, '2019-02-10 00:00:00') /* Bones */
-     , (0x7251D016, 0x7251D019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7251D016, 0x7251D017, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7251D016, 0x7251D018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7251D016, 0x7251D019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251D017,  9288, 0x251D0017, 56.27396, 151.2485, 23.99, -0.8783119, 0, 0, -0.4780881,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

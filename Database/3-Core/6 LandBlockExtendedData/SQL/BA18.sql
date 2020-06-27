@@ -5,47 +5,47 @@ VALUES (0x7BA18001,  1154, 0xBA180001, 13.55846, 6.367872, 82.72639, -0.4703309,
 /* @teleloc 0xBA180001 [13.558460 6.367872 82.726390] -0.470331 0.000000 0.000000 -0.882490 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA18001, 0x7BA18002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA18001, 0x7BA18003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA18001, 0x7BA18004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA18001, 0x7BA18005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BA18001, 0x7BA18006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA18001, 0x7BA18007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA18001, 0x7BA18008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BA18001, 0x7BA18009, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA18001, 0x7BA1800A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA18001, 0x7BA1800B, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BA18001, 0x7BA1800C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA18001, 0x7BA1800D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA1800E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA1800F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BA18001, 0x7BA18010, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA18001, 0x7BA18011, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA18012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA18013, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BA18001, 0x7BA18014, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BA18001, 0x7BA18015, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BA18001, 0x7BA18016, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BA18001, 0x7BA18017, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA18001, 0x7BA18018, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA18001, 0x7BA18019, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA18001, 0x7BA1801A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA1801B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA1801C, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BA18001, 0x7BA1801D, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BA18001, 0x7BA1801E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BA18001, 0x7BA1801F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BA18001, 0x7BA18020, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BA18001, 0x7BA18021, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BA18001, 0x7BA18022, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BA18001, 0x7BA18023, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA18001, 0x7BA18024, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BA18001, 0x7BA18025, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA18001, 0x7BA18026, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA18001, 0x7BA18027, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA18001, 0x7BA18028, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA18001, 0x7BA18029, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA18001, 0x7BA1802A, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7BA18001, 0x7BA18002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA18001, 0x7BA18003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA18001, 0x7BA18004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA18001, 0x7BA18005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BA18001, 0x7BA18006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA18001, 0x7BA18007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA18001, 0x7BA18008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BA18001, 0x7BA18009, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA18001, 0x7BA1800A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA18001, 0x7BA1800B, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BA18001, 0x7BA1800C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA18001, 0x7BA1800D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA1800E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA1800F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BA18001, 0x7BA18010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA18001, 0x7BA18011, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA18012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA18013, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BA18001, 0x7BA18014, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BA18001, 0x7BA18015, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BA18001, 0x7BA18016, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BA18001, 0x7BA18017, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA18001, 0x7BA18018, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA18001, 0x7BA18019, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA18001, 0x7BA1801A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA1801B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA1801C, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BA18001, 0x7BA1801D, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BA18001, 0x7BA1801E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BA18001, 0x7BA1801F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BA18001, 0x7BA18020, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BA18001, 0x7BA18021, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BA18001, 0x7BA18022, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BA18001, 0x7BA18023, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA18001, 0x7BA18024, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BA18001, 0x7BA18025, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA18001, 0x7BA18026, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA18001, 0x7BA18027, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA18001, 0x7BA18028, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA18001, 0x7BA18029, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA18001, 0x7BA1802A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA18002,  1610, 0xBA180001, 13.55846, 6.367872, 82.72639, -0.4703309, 0, 0, -0.8824902,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -216,13 +216,13 @@ VALUES (0x7BA1802B,  1542, 0xBA18002E, 140.5545, 142.8897, 156.6951, -0.5913396,
 /* @teleloc 0xBA18002E [140.554500 142.889700 156.695100] -0.591340 0.000000 0.000000 -0.806423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA1802B, 0x7BA1802C, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BA1802B, 0x7BA1802D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA1802B, 0x7BA1802E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BA1802B, 0x7BA1802F, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BA1802B, 0x7BA18030, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA1802B, 0x7BA18031, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BA1802B, 0x7BA18032, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BA1802B, 0x7BA1802C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BA1802B, 0x7BA1802D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BA1802B, 0x7BA1802E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BA1802B, 0x7BA1802F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BA1802B, 0x7BA18030, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BA1802B, 0x7BA18031, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BA1802B, 0x7BA18032, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA1802C,  8648, 0xBA18002E, 140.5545, 142.8897, 156.6951, -0.5913396, 0, 0, -0.8064227,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

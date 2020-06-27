@@ -65,13 +65,13 @@ VALUES (0x7E822010,  1154, 0xE8220019, 74.30911, 2.233105, 26.0055, 0.2588191, 0
 /* @teleloc 0xE8220019 [74.309110 2.233105 26.005500] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E822010, 0x7E822011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E822010, 0x7E822012, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E822010, 0x7E822013, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E822010, 0x7E822014, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E822010, 0x7E822015, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E822010, 0x7E822016, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E822010, 0x7E822017, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7E822010, 0x7E822011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E822010, 0x7E822012, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E822010, 0x7E822013, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E822010, 0x7E822014, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E822010, 0x7E822015, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E822010, 0x7E822016, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E822010, 0x7E822017, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E822011,   211, 0xE8220019, 74.30911, 2.233105, 26.0055, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -106,10 +106,10 @@ VALUES (0x7E822018,  1154, 0xE8220026, 113.6383, 143.664, 0.004999995, 0.909006,
 /* @teleloc 0xE8220026 [113.638300 143.664000 0.005000] 0.909006 0.000000 0.000000 0.416783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E822018, 0x7E822019, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7E822018, 0x7E82201A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7E822018, 0x7E82201B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7E822018, 0x7E82201C, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7E822018, 0x7E822019, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7E822018, 0x7E82201A, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7E822018, 0x7E82201B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7E822018, 0x7E82201C, '2019-02-10 00:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E822019,  5777, 0xE8220026, 113.6383, 143.664, 0.004999995, 0.909006, 0, 0, 0.416783,  True, '2019-02-10 00:00:00'); /* Town Crier */
@@ -132,9 +132,9 @@ VALUES (0x7E82201D,  1542, 0xE8220011, 69.13839, 9.230907, 26.48691, 0.8870109, 
 /* @teleloc 0xE8220011 [69.138390 9.230907 26.486910] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E82201D, 0x7E82201E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E82201D, 0x7E82201F, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E82201D, 0x7E822020, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E82201D, 0x7E82201E, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7E82201D, 0x7E82201F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E82201D, 0x7E822020, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82201E,  4379, 0xE8220011, 69.13839, 9.230907, 26.48691, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -9,12 +9,12 @@ VALUES (0x7A672005,  1154, 0xA6720100, 109.7279, 149.5359, 19.661, 0.112463, 0, 
 /* @teleloc 0xA6720100 [109.727900 149.535900 19.661000] 0.112463 0.000000 0.000000 0.993656 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A672005, 0x7A672006, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7A672005, 0x7A672007, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7A672005, 0x7A672008, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7A672005, 0x7A672009, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7A672005, 0x7A67200A, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A672005, 0x7A67200B, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7A672005, 0x7A672006, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7A672005, 0x7A672007, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7A672005, 0x7A672008, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7A672005, 0x7A672009, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7A672005, 0x7A67200A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A672005, 0x7A67200B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A672006,  1764, 0xA6720100, 109.7279, 149.5359, 19.661, 0.112463, 0, 0, 0.993656,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */
@@ -45,7 +45,7 @@ VALUES (0x7A67200C,  1154, 0xA6720100, 105.667, 153.294, 19.6605, 0.0240241, 0, 
 /* @teleloc 0xA6720100 [105.667000 153.294000 19.660500] 0.024024 0.000000 0.000000 -0.999711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A67200C, 0x7A67200D, '2019-02-10 00:00:00') /* Leikotha */;
+VALUES (0x7A67200C, 0x7A67200D, '2019-02-10 00:00:00') /* Leikotha (6771) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A67200D,  6771, 0xA6720100, 105.667, 153.294, 19.6605, 0.0240241, 0, 0, -0.999711,  True, '2019-02-10 00:00:00'); /* Leikotha */

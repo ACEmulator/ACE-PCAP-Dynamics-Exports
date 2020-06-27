@@ -5,30 +5,30 @@ VALUES (0x7A0B9001,  1154, 0xA0B90021, 110.4234, 23.69716, 41.23219, -0.1781535,
 /* @teleloc 0xA0B90021 [110.423400 23.697160 41.232190] -0.178154 0.000000 0.000000 -0.984003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B9001, 0x7A0B9002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B9001, 0x7A0B9003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A0B9001, 0x7A0B9004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A0B9001, 0x7A0B9005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A0B9001, 0x7A0B9006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A0B9001, 0x7A0B9007, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A0B9001, 0x7A0B9008, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B9001, 0x7A0B9009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B9001, 0x7A0B900A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B9001, 0x7A0B900B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A0B9001, 0x7A0B900C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B9001, 0x7A0B900D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B9001, 0x7A0B900E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B9001, 0x7A0B900F, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A0B9001, 0x7A0B9010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A0B9001, 0x7A0B9011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A0B9001, 0x7A0B9012, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A0B9001, 0x7A0B9013, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7A0B9001, 0x7A0B9014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A0B9001, 0x7A0B9015, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A0B9001, 0x7A0B9016, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A0B9001, 0x7A0B9017, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A0B9001, 0x7A0B9018, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7A0B9001, 0x7A0B9019, '2019-02-10 00:00:00') /* Mite Digger */;
+VALUES (0x7A0B9001, 0x7A0B9002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B9001, 0x7A0B9003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A0B9001, 0x7A0B9004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A0B9001, 0x7A0B9005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A0B9001, 0x7A0B9006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A0B9001, 0x7A0B9007, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A0B9001, 0x7A0B9008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B9001, 0x7A0B9009, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B9001, 0x7A0B900A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B9001, 0x7A0B900B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A0B9001, 0x7A0B900C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B9001, 0x7A0B900D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B9001, 0x7A0B900E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B9001, 0x7A0B900F, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A0B9001, 0x7A0B9010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A0B9001, 0x7A0B9011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A0B9001, 0x7A0B9012, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A0B9001, 0x7A0B9013, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7A0B9001, 0x7A0B9014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A0B9001, 0x7A0B9015, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A0B9001, 0x7A0B9016, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A0B9001, 0x7A0B9017, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A0B9001, 0x7A0B9018, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7A0B9001, 0x7A0B9019, '2019-02-10 00:00:00') /* Mite Digger (944) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B9002,   943, 0xA0B90021, 110.4234, 23.69716, 41.23219, -0.1781535, 0, 0, -0.9840027,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -131,9 +131,9 @@ VALUES (0x7A0B901A,  1542, 0xA0B90033, 154.6689, 68.18381, 50.53765, 0.9659258, 
 /* @teleloc 0xA0B90033 [154.668900 68.183810 50.537650] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B901A, 0x7A0B901B, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7A0B901A, 0x7A0B901C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A0B901A, 0x7A0B901D, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7A0B901A, 0x7A0B901B, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7A0B901A, 0x7A0B901C, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7A0B901A, 0x7A0B901D, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B901B,  4180, 0xA0B90033, 154.6689, 68.18381, 50.53765, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

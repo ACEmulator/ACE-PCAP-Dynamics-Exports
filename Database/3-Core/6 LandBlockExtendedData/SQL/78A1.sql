@@ -5,18 +5,18 @@ VALUES (0x778A1001,  1154, 0x78A10019, 78.2884, 0.3727207, 118.8653, -0.7265522,
 /* @teleloc 0x78A10019 [78.288400 0.372721 118.865300] -0.726552 0.000000 0.000000 -0.687111 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778A1001, 0x778A1002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x778A1001, 0x778A1003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x778A1001, 0x778A1004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x778A1001, 0x778A1005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x778A1001, 0x778A1006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x778A1001, 0x778A1007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x778A1001, 0x778A1008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x778A1001, 0x778A1009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x778A1001, 0x778A100A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x778A1001, 0x778A100B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x778A1001, 0x778A100C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x778A1001, 0x778A100D, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x778A1001, 0x778A1002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x778A1001, 0x778A1003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x778A1001, 0x778A1004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x778A1001, 0x778A1005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x778A1001, 0x778A1006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x778A1001, 0x778A1007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x778A1001, 0x778A1008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x778A1001, 0x778A1009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x778A1001, 0x778A100A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x778A1001, 0x778A100B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x778A1001, 0x778A100C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x778A1001, 0x778A100D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778A1002,  6380, 0x78A10019, 78.2884, 0.3727207, 118.8653, -0.7265522, 0, 0, -0.6871113,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -71,7 +71,7 @@ VALUES (0x778A100E,  1542, 0x78A1001A, 88.9357, 36.55729, 108.0381, 1, 0, 0, 0, 
 /* @teleloc 0x78A1001A [88.935700 36.557290 108.038100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778A100E, 0x778A100F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x778A100E, 0x778A100F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778A100F,  4179, 0x78A1001A, 88.9357, 36.55729, 108.0381, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,25 +5,25 @@ VALUES (0x72953001,  1154, 0x2953002B, 140.3224, 55.99091, 1.644783, 0.9979002, 
 /* @teleloc 0x2953002B [140.322400 55.990910 1.644783] 0.997900 0.000000 0.000000 -0.064771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72953001, 0x72953002, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72953001, 0x72953003, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72953001, 0x72953004, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72953001, 0x72953005, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72953001, 0x72953006, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72953001, 0x72953007, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72953001, 0x72953008, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72953001, 0x72953009, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72953001, 0x7295300A, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72953001, 0x7295300B, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72953001, 0x7295300C, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72953001, 0x7295300D, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72953001, 0x7295300E, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72953001, 0x7295300F, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72953001, 0x72953010, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72953001, 0x72953011, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72953001, 0x72953012, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72953001, 0x72953013, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72953001, 0x72953014, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */;
+VALUES (0x72953001, 0x72953002, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72953001, 0x72953003, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72953001, 0x72953004, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72953001, 0x72953005, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72953001, 0x72953006, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72953001, 0x72953007, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72953001, 0x72953008, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72953001, 0x72953009, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72953001, 0x7295300A, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72953001, 0x7295300B, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72953001, 0x7295300C, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72953001, 0x7295300D, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72953001, 0x7295300E, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72953001, 0x7295300F, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72953001, 0x72953010, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72953001, 0x72953011, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72953001, 0x72953012, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72953001, 0x72953013, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72953001, 0x72953014, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72953002, 25665, 0x2953002B, 140.3224, 55.99091, 1.644783, 0.9979002, 0, 0, -0.06477053,  True, '2019-02-10 00:00:00'); /* Wretched */
@@ -106,7 +106,7 @@ VALUES (0x72953015,  1542, 0x29530033, 144.0011, 52.42481, 1.152136, 0.9979002, 
 /* @teleloc 0x29530033 [144.001100 52.424810 1.152136] 0.997900 0.000000 0.000000 -0.064771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72953015, 0x72953016, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72953015, 0x72953016, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72953016, 46284, 0x29530033, 144.0011, 52.42481, 1.152136, 0.9979002, 0, 0, -0.06477053,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

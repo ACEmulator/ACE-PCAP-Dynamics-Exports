@@ -5,10 +5,10 @@ VALUES (0x79F8A001,  1154, 0x9F8A0011, 68.55579, 4.369696, 22.63616, 0.8550001, 
 /* @teleloc 0x9F8A0011 [68.555790 4.369696 22.636160] 0.855000 0.000000 0.000000 -0.518628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F8A001, 0x79F8A002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79F8A001, 0x79F8A003, '2019-02-10 00:00:00') /* Gout */
-     , (0x79F8A001, 0x79F8A004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79F8A001, 0x79F8A005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x79F8A001, 0x79F8A002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79F8A001, 0x79F8A003, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79F8A001, 0x79F8A004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79F8A001, 0x79F8A005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F8A002, 28552, 0x9F8A0011, 68.55579, 4.369696, 22.63616, 0.8550001, 0, 0, -0.5186278,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -31,7 +31,7 @@ VALUES (0x79F8A006,  1542, 0x9F8A0010, 26.15998, 184.6043, 43.92369, 0.9238795, 
 /* @teleloc 0x9F8A0010 [26.159980 184.604300 43.923690] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F8A006, 0x79F8A007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79F8A006, 0x79F8A007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F8A007,  4380, 0x9F8A0010, 26.15998, 184.6043, 43.92369, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,17 +5,17 @@ VALUES (0x73F48001,  1154, 0x3F480039, 170.3167, 23.58437, 20.07642, 0.7071068, 
 /* @teleloc 0x3F480039 [170.316700 23.584370 20.076420] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F48001, 0x73F48002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73F48001, 0x73F48003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73F48001, 0x73F48004, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x73F48001, 0x73F48005, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73F48001, 0x73F48006, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73F48001, 0x73F48007, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73F48001, 0x73F48008, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73F48001, 0x73F48009, '2019-02-10 00:00:00') /* True Believer */
-     , (0x73F48001, 0x73F4800A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73F48001, 0x73F4800B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73F48001, 0x73F4800C, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x73F48001, 0x73F48002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73F48001, 0x73F48003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73F48001, 0x73F48004, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x73F48001, 0x73F48005, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73F48001, 0x73F48006, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73F48001, 0x73F48007, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73F48001, 0x73F48008, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73F48001, 0x73F48009, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x73F48001, 0x73F4800A, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73F48001, 0x73F4800B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73F48001, 0x73F4800C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F48002,  7333, 0x3F480039, 170.3167, 23.58437, 20.07642, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -66,7 +66,7 @@ VALUES (0x73F4800D,  1542, 0x3F48003A, 173.5703, 28.72773, 20, 1, 0, 0, 0, False
 /* @teleloc 0x3F48003A [173.570300 28.727730 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4800D, 0x73F4800E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73F4800D, 0x73F4800E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4800E, 22567, 0x3F48003A, 173.5703, 28.72773, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x7B3D5001,  1154, 0xB3D50014, 63.74864, 88.695, 42.69312, 0.8665292, 0,
 /* @teleloc 0xB3D50014 [63.748640 88.695000 42.693120] 0.866529 0.000000 0.000000 -0.499126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3D5001, 0x7B3D5002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B3D5001, 0x7B3D5003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B3D5001, 0x7B3D5004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B3D5001, 0x7B3D5005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7B3D5001, 0x7B3D5002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B3D5001, 0x7B3D5003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B3D5001, 0x7B3D5004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B3D5001, 0x7B3D5005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3D5002,   231, 0xB3D50014, 63.74864, 88.695, 42.69312, 0.8665292, 0, 0, -0.4991263,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

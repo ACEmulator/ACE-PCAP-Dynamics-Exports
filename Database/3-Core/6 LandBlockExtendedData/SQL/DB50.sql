@@ -5,14 +5,14 @@ VALUES (0x7DB50001,  1154, 0xDB50002D, 138.4576, 101.8705, 28.005, 0.1568275, 0,
 /* @teleloc 0xDB50002D [138.457600 101.870500 28.005000] 0.156828 0.000000 0.000000 -0.987626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB50001, 0x7DB50002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DB50001, 0x7DB50003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DB50001, 0x7DB50004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB50001, 0x7DB50005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB50001, 0x7DB50006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB50001, 0x7DB50007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DB50001, 0x7DB50008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7DB50001, 0x7DB50009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7DB50001, 0x7DB50002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DB50001, 0x7DB50003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DB50001, 0x7DB50004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB50001, 0x7DB50005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB50001, 0x7DB50006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB50001, 0x7DB50007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DB50001, 0x7DB50008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7DB50001, 0x7DB50009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB50002,   232, 0xDB50002D, 138.4576, 101.8705, 28.005, 0.1568275, 0, 0, -0.987626,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

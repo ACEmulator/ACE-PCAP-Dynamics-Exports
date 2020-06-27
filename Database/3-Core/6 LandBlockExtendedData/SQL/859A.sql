@@ -5,18 +5,18 @@ VALUES (0x7859A001,  1154, 0x859A003E, 188.667, 139.3095, 122.9449, 0.9459572, 0
 /* @teleloc 0x859A003E [188.667000 139.309500 122.944900] 0.945957 0.000000 0.000000 -0.324291 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7859A001, 0x7859A002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7859A001, 0x7859A003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7859A001, 0x7859A004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7859A001, 0x7859A005, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7859A001, 0x7859A006, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7859A001, 0x7859A007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7859A001, 0x7859A008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7859A001, 0x7859A009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7859A001, 0x7859A00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7859A001, 0x7859A00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7859A001, 0x7859A00C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7859A001, 0x7859A00D, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7859A001, 0x7859A002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7859A001, 0x7859A003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7859A001, 0x7859A004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7859A001, 0x7859A005, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7859A001, 0x7859A006, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7859A001, 0x7859A007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7859A001, 0x7859A008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7859A001, 0x7859A009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7859A001, 0x7859A00A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7859A001, 0x7859A00B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7859A001, 0x7859A00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7859A001, 0x7859A00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7859A002,  7978, 0x859A003E, 188.667, 139.3095, 122.9449, 0.9459572, 0, 0, -0.3242914,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -71,8 +71,8 @@ VALUES (0x7859A00E,  1542, 0x859A001E, 73.41331, 121.4033, 160.7095, -0.01526074
 /* @teleloc 0x859A001E [73.413310 121.403300 160.709500] -0.015261 0.000000 0.000000 -0.999884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7859A00E, 0x7859A00F, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7859A00E, 0x7859A010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7859A00E, 0x7859A00F, '2019-02-10 00:00:00') /* Old Gravestone (34131) */
+     , (0x7859A00E, 0x7859A010, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7859A00F, 34131, 0x859A001E, 73.41331, 121.4033, 160.7095, -0.01526074, 0, 0, -0.9998835,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

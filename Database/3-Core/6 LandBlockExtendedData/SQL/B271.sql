@@ -5,25 +5,25 @@ VALUES (0x7B271001,  1154, 0xB271002F, 127.4036, 146.1244, 39.82477, 0.8660254, 
 /* @teleloc 0xB271002F [127.403600 146.124400 39.824770] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B271001, 0x7B271002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B271001, 0x7B271003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B271001, 0x7B271004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B271001, 0x7B271005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B271001, 0x7B271006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B271001, 0x7B271007, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B271001, 0x7B271008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B271001, 0x7B271009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B271001, 0x7B27100A, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B271001, 0x7B27100B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B271001, 0x7B27100C, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B271001, 0x7B27100D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B271001, 0x7B27100E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B271001, 0x7B27100F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B271001, 0x7B271010, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B271001, 0x7B271011, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B271001, 0x7B271012, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B271001, 0x7B271013, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B271001, 0x7B271014, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B271001, 0x7B271002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B271001, 0x7B271003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B271001, 0x7B271004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B271001, 0x7B271005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B271001, 0x7B271006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B271001, 0x7B271007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B271001, 0x7B271008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B271001, 0x7B271009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B271001, 0x7B27100A, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B271001, 0x7B27100B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B271001, 0x7B27100C, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B271001, 0x7B27100D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B271001, 0x7B27100E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B271001, 0x7B27100F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B271001, 0x7B271010, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B271001, 0x7B271011, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B271001, 0x7B271012, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B271001, 0x7B271013, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B271001, 0x7B271014, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B271002,  7989, 0xB271002F, 127.4036, 146.1244, 39.82477, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
@@ -106,8 +106,8 @@ VALUES (0x7B271015,  1542, 0xB271002E, 136.7778, 128.0832, 39.27545, 1, 0, 0, 0,
 /* @teleloc 0xB271002E [136.777800 128.083200 39.275450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B271015, 0x7B271016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B271015, 0x7B271017, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B271015, 0x7B271016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B271015, 0x7B271017, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B271016,  4179, 0xB271002E, 136.7778, 128.0832, 39.27545, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

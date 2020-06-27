@@ -5,14 +5,14 @@ VALUES (0x73A37001,  1154, 0x3A370018, 64.49875, 177.8437, 102.1617, 0.2270739, 
 /* @teleloc 0x3A370018 [64.498750 177.843700 102.161700] 0.227074 0.000000 0.000000 -0.973878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A37001, 0x73A37002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73A37001, 0x73A37003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73A37001, 0x73A37004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73A37001, 0x73A37005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73A37001, 0x73A37006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A37001, 0x73A37007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A37001, 0x73A37008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73A37001, 0x73A37009, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x73A37001, 0x73A37002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73A37001, 0x73A37003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73A37001, 0x73A37004, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73A37001, 0x73A37005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73A37001, 0x73A37006, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73A37001, 0x73A37007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73A37001, 0x73A37008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73A37001, 0x73A37009, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A37002, 23566, 0x3A370018, 64.49875, 177.8437, 102.1617, 0.2270739, 0, 0, -0.9738775,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

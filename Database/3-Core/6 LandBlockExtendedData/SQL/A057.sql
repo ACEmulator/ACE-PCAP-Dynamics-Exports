@@ -5,16 +5,16 @@ VALUES (0x7A057001,  1154, 0xA0570022, 97.21091, 30.55519, 54.67617, -0.9418675,
 /* @teleloc 0xA0570022 [97.210910 30.555190 54.676170] -0.941868 0.000000 0.000000 -0.335985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A057001, 0x7A057002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A057001, 0x7A057003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A057001, 0x7A057004, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7A057001, 0x7A057005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A057001, 0x7A057006, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A057001, 0x7A057007, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A057001, 0x7A057008, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A057001, 0x7A057009, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7A057001, 0x7A05700A, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A057001, 0x7A05700B, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7A057001, 0x7A057002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A057001, 0x7A057003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A057001, 0x7A057004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7A057001, 0x7A057005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A057001, 0x7A057006, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A057001, 0x7A057007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A057001, 0x7A057008, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A057001, 0x7A057009, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7A057001, 0x7A05700A, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A057001, 0x7A05700B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A057002, 10770, 0xA0570022, 97.21091, 30.55519, 54.67617, -0.9418675, 0, 0, -0.3359845,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

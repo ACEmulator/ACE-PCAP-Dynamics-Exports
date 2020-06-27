@@ -5,13 +5,13 @@ VALUES (0x7C5BB001,  1154, 0xC5BB0022, 117.0748, 31.91497, 171.7348, -0.4239584,
 /* @teleloc 0xC5BB0022 [117.074800 31.914970 171.734800] -0.423958 0.000000 0.000000 -0.905682 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5BB001, 0x7C5BB002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7C5BB001, 0x7C5BB003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C5BB001, 0x7C5BB004, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7C5BB001, 0x7C5BB005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C5BB001, 0x7C5BB006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C5BB001, 0x7C5BB007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C5BB001, 0x7C5BB008, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C5BB001, 0x7C5BB002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7C5BB001, 0x7C5BB003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C5BB001, 0x7C5BB004, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7C5BB001, 0x7C5BB005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C5BB001, 0x7C5BB006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C5BB001, 0x7C5BB007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C5BB001, 0x7C5BB008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5BB002,  7346, 0xC5BB0022, 117.0748, 31.91497, 171.7348, -0.4239584, 0, 0, -0.9056817,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

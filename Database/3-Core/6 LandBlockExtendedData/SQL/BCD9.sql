@@ -5,9 +5,9 @@ VALUES (0x7BCD9001,  1154, 0xBCD90036, 162.8495, 141.2612, 70.86652, -0.1691476,
 /* @teleloc 0xBCD90036 [162.849500 141.261200 70.866520] -0.169148 0.000000 0.000000 -0.985591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD9001, 0x7BCD9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BCD9001, 0x7BCD9003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD9001, 0x7BCD9004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7BCD9001, 0x7BCD9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BCD9001, 0x7BCD9003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD9001, 0x7BCD9004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD9002, 28551, 0xBCD90036, 162.8495, 141.2612, 70.86652, -0.1691476, 0, 0, -0.9855908,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

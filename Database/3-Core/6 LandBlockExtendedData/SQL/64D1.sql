@@ -5,10 +5,10 @@ VALUES (0x764D1001,  1154, 0x64D10026, 115.8052, 120.5286, 41.48706, 0.5, 0, 0, 
 /* @teleloc 0x64D10026 [115.805200 120.528600 41.487060] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D1001, 0x764D1002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764D1001, 0x764D1003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764D1001, 0x764D1004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764D1001, 0x764D1005, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x764D1001, 0x764D1002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764D1001, 0x764D1003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764D1001, 0x764D1004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764D1001, 0x764D1005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D1002,  4216, 0x64D10026, 115.8052, 120.5286, 41.48706, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

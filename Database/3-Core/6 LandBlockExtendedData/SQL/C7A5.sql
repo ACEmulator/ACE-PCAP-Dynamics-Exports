@@ -5,19 +5,19 @@ VALUES (0x7C7A5001,  1154, 0xC7A5000C, 41.75512, 85.29732, 56.96746, 0.9659258, 
 /* @teleloc 0xC7A5000C [41.755120 85.297320 56.967460] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A5001, 0x7C7A5002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C7A5001, 0x7C7A5003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C7A5001, 0x7C7A5004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C7A5001, 0x7C7A5005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C7A5001, 0x7C7A5006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7C7A5001, 0x7C7A5007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C7A5001, 0x7C7A5008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C7A5001, 0x7C7A5009, '2019-02-10 00:00:00') /* Gout */
-     , (0x7C7A5001, 0x7C7A500A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A5001, 0x7C7A500B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A5001, 0x7C7A500C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A5001, 0x7C7A500D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A5001, 0x7C7A500E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C7A5001, 0x7C7A5002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C7A5001, 0x7C7A5003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C7A5001, 0x7C7A5004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C7A5001, 0x7C7A5005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C7A5001, 0x7C7A5006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7C7A5001, 0x7C7A5007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C7A5001, 0x7C7A5008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C7A5001, 0x7C7A5009, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7C7A5001, 0x7C7A500A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A5001, 0x7C7A500B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A5001, 0x7C7A500C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A5001, 0x7C7A500D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A5001, 0x7C7A500E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A5002,  1630, 0xC7A5000C, 41.75512, 85.29732, 56.96746, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -76,8 +76,8 @@ VALUES (0x7C7A500F,  1542, 0xC7A5000C, 42.39064, 78.79036, 56.96746, 0.9990482, 
 /* @teleloc 0xC7A5000C [42.390640 78.790360 56.967460] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A500F, 0x7C7A5010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C7A500F, 0x7C7A5011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C7A500F, 0x7C7A5010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C7A500F, 0x7C7A5011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A5010,  4179, 0xC7A5000C, 42.39064, 78.79036, 56.96746, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

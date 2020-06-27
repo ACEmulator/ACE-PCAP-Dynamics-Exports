@@ -5,12 +5,12 @@ VALUES (0x7BBE9001,  1154, 0xBBE90030, 127.6866, 175.4553, 135.5174, 0.8191521, 
 /* @teleloc 0xBBE90030 [127.686600 175.455300 135.517400] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBE9001, 0x7BBE9002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BBE9001, 0x7BBE9003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BBE9001, 0x7BBE9004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BBE9001, 0x7BBE9005, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BBE9001, 0x7BBE9006, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BBE9001, 0x7BBE9007, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7BBE9001, 0x7BBE9002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BBE9001, 0x7BBE9003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BBE9001, 0x7BBE9004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BBE9001, 0x7BBE9005, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BBE9001, 0x7BBE9006, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BBE9001, 0x7BBE9007, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBE9002,  7179, 0xBBE90030, 127.6866, 175.4553, 135.5174, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Relic Bones */

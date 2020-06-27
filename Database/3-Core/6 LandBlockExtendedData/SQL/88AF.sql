@@ -9,15 +9,15 @@ VALUES (0x788AF00E,  1154, 0x88AF0011, 60.7801, 9.24833, 123.2365, 0.08749837, 0
 /* @teleloc 0x88AF0011 [60.780100 9.248330 123.236500] 0.087498 0.000000 0.000000 0.996165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788AF00E, 0x788AF00F, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF011, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x788AF00E, 0x788AF012, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x788AF00E, 0x788AF013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x788AF00E, 0x788AF014, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF015, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF016, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x788AF00E, 0x788AF017, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x788AF00E, 0x788AF00F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF011, '2019-02-10 00:00:00') /* Banderling Rogue (1462) */
+     , (0x788AF00E, 0x788AF012, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x788AF00E, 0x788AF013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x788AF00E, 0x788AF014, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF015, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF016, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x788AF00E, 0x788AF017, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788AF00F,  7085, 0x88AF0011, 60.7801, 9.24833, 123.2365, 0.08749837, 0, 0, 0.9961647,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

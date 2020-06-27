@@ -5,12 +5,12 @@ VALUES (0x7DA39001,  1154, 0xDA39003B, 171.033, 55.62398, 30.76516, 0.6686239, 0
 /* @teleloc 0xDA39003B [171.033000 55.623980 30.765160] 0.668624 0.000000 0.000000 -0.743601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA39001, 0x7DA39002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA39001, 0x7DA39003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA39001, 0x7DA39004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA39001, 0x7DA39005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7DA39001, 0x7DA39006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7DA39001, 0x7DA39007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7DA39001, 0x7DA39002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA39001, 0x7DA39003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA39001, 0x7DA39004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA39001, 0x7DA39005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7DA39001, 0x7DA39006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7DA39001, 0x7DA39007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA39002,  2567, 0xDA39003B, 171.033, 55.62398, 30.76516, 0.6686239, 0, 0, -0.7436008,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */

@@ -9,512 +9,512 @@ VALUES (0x7F07F001,  1154, 0xF07F002E, 128.2805, 123.3292, 12.41481, -0.6244811,
 /* @teleloc 0xF07F002E [128.280500 123.329200 12.414810] -0.624481 0.000000 0.000000 -0.781040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F07F001, 0x7F07F002, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F005, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F007, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F008, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F00A, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F00B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F00C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F00D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F00F, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F011, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F012, '2019-02-10 00:00:00') /* Horned Chittick */
-     , (0x7F07F001, 0x7F07F013, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F014, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F015, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F016, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F017, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F018, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F019, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F01A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F01B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F01C, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F01D, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F01E, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F01F, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F020, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F021, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F023, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F024, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F025, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F026, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F027, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F028, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F029, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F02A, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F02B, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F02C, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F02D, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F02E, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F02F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F030, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F031, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F032, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F033, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F034, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F035, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F036, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F037, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F038, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F039, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F03A, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F03B, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F03C, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F03D, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F03E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F03F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F040, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F041, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F042, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F043, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F044, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F045, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F046, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F047, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F048, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F049, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F04A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F04B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F04C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F04D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F04E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F04F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F050, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F051, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F052, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F053, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F054, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F055, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F056, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F057, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F058, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F059, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F05A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F05B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F05C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F05D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F05E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F05F, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F060, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F061, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F062, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F063, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F064, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F065, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F066, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F067, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F068, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F069, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F06A, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F06B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F06C, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F06D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F06E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F06F, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F070, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F071, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F072, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F073, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F074, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F075, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F076, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F077, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F078, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F079, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F07A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F07B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F07C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F07D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F07E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F07F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F080, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F081, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F082, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F083, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F084, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F085, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F086, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F087, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F088, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F089, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F08A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F08B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F08C, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F08D, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F08E, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F08F, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F090, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F091, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F092, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F093, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F094, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F095, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F096, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F097, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F098, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F099, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F09A, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F09B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F09C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F09D, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F09E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F09F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0A0, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0A1, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0A2, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0A3, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0A4, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0A5, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F0A6, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F0A7, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0A8, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0A9, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0AA, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0AB, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0AC, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F0AD, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0AE, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0AF, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F0B0, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0B1, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0B2, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0B3, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0B4, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0B5, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0B6, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0B7, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0B8, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0B9, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0BA, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0BB, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0BC, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0BD, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0BE, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F0BF, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0C0, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0C1, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0C2, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0C3, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F0C4, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0C5, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F0C6, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F0C7, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0C8, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0C9, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0CA, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0CB, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0CC, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0CD, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0CE, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F0CF, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F0D0, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F0D1, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0D2, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0D3, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0D4, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0D5, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0D6, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0D7, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F0D8, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0D9, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0DA, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0DB, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0DC, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0DD, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0DE, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F0DF, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0E0, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0E1, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0E2, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0E3, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0E4, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0E5, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0E6, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F0E7, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F0E8, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F0E9, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0EA, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0EB, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F0EC, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0ED, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F0EE, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F0EF, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F0F0, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F0F1, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F0F2, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F0F3, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F0F4, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F0F5, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F0F6, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F0F7, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0F8, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F0F9, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0FA, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0FB, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0FC, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0FD, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F0FE, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F0FF, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F100, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F101, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F102, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F103, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F104, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F105, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F106, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F107, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F108, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F109, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F10A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F10B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F10C, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F10D, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F10E, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F10F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F110, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F111, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F112, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F113, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F114, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F115, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F116, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F117, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F118, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F119, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F11A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F11B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F11C, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F11D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F11E, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F11F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F120, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F121, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F122, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F123, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F124, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F125, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F126, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F127, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F128, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F129, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F12A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F12B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F12C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F12D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F12E, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F12F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F130, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F131, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F132, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F133, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F134, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F135, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F136, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F137, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F138, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F139, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F13A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F13B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F13C, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F13D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F13E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F13F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F140, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F141, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F142, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F143, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F144, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F145, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F146, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F147, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F148, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F149, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F14A, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F14B, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F14C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F14D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F14E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F14F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F150, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F151, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F152, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F153, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F154, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F155, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F156, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F157, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F158, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F159, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F15A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F15B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F15C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F15D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F15E, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F15F, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F160, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F161, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F162, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F163, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F164, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F165, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F166, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F167, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F168, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F169, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F16A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F16B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F16C, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F16D, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F16E, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F16F, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F170, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F171, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F172, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F173, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F174, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F175, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F176, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F177, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F178, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F179, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F17A, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F17B, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F17C, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F17D, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F17E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F17F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F180, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F181, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F182, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F183, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F184, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F185, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F186, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F187, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F188, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F189, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F18A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F18B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F18C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F18D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F18E, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F18F, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F190, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F191, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F192, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F193, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F194, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F195, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F196, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F197, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F198, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F199, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F19A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F19B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F19C, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F19D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F19E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F19F, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F1A0, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1A1, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1A2, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1A3, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1A4, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1A5, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F1A6, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1A7, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1A8, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1A9, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1AA, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1AB, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1AC, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1AD, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1AE, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1AF, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1B0, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1B1, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1B2, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1B3, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1B4, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1B5, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1B6, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1B7, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F1B8, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1B9, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1BA, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F07F001, 0x7F07F1BB, '2019-02-10 00:00:00') /* Horned Chittick */
-     , (0x7F07F001, 0x7F07F1BC, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1BD, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1BE, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1BF, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1C0, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1C1, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1C2, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F1C3, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F07F001, 0x7F07F1C4, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1C5, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1C6, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1C7, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1C8, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1C9, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1CA, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F1CB, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F1CC, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1CD, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1CE, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F1CF, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F1D0, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F1D1, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F07F001, 0x7F07F1D2, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1D3, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1D4, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1D5, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F1D6, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F07F001, 0x7F07F1D7, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1D8, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F1D9, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1DA, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1DB, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F07F001, 0x7F07F1DC, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1DD, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1DE, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F1DF, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E0, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F07F001, 0x7F07F1E1, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E2, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1E3, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F07F001, 0x7F07F1E4, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E5, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1E6, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E7, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E8, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1E9, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1EA, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1EB, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F07F001, 0x7F07F1EC, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1ED, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F07F001, 0x7F07F1EE, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1EF, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F07F001, 0x7F07F1F0, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1F1, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1F2, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1F3, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1F4, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1F5, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F07F001, 0x7F07F1F6, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1F7, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1F8, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F07F001, 0x7F07F1F9, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F07F001, 0x7F07F1FA, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F07F001, 0x7F07F1FB, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7F07F001, 0x7F07F002, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F07F001, 0x7F07F004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F005, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F007, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F008, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F00A, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F00B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F00C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F00D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F07F001, 0x7F07F00F, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F012, '2019-02-10 00:00:00') /* Horned Chittick (4243) */
+     , (0x7F07F001, 0x7F07F013, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F014, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F015, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F016, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F017, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F018, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F019, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F01A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F01B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F01C, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F01D, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F01E, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F01F, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F07F001, 0x7F07F020, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F021, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F07F001, 0x7F07F022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F07F001, 0x7F07F023, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F024, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F025, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F026, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F027, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F028, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F029, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F02A, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F02B, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F02C, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F02D, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F02E, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F02F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F030, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F031, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F032, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F033, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F034, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F035, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F036, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F037, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F038, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F039, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F03A, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F03B, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F03C, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F03D, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F03E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F03F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F040, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F041, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F042, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F043, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F044, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F045, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F046, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F047, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F048, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F049, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F04A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F04B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F04C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F04D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F04E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F04F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F050, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F051, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F052, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F053, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F054, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F055, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F056, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F057, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F058, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F059, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F05A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F05B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F05C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F05D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F05E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F05F, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F060, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F061, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F062, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F063, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F064, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F065, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F066, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F067, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F068, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F069, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F06A, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F06B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F06C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F06D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F06E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F06F, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F070, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F071, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F072, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F073, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F074, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F075, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F076, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F077, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F078, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F079, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F07A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F07B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F07C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F07D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F07E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F07F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F080, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F081, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F082, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F083, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F084, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F085, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F086, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F087, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F088, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F089, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F08A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F08B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F08C, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F08D, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F08E, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F08F, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F090, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F091, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F092, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F093, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F094, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F095, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F096, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F097, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F098, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F099, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F09A, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F09B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F09C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F09D, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F09E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F09F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0A0, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0A1, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0A2, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0A3, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0A4, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0A5, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F07F001, 0x7F07F0A6, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F07F001, 0x7F07F0A7, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0A8, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0A9, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0AA, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0AB, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0AC, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F0AD, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0AE, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0AF, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F0B0, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0B1, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0B2, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0B3, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0B4, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0B5, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0B6, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0B7, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0B8, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0B9, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0BA, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F0BB, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0BC, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0BD, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0BE, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F0BF, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0C0, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0C1, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0C2, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0C3, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F0C4, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0C5, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F0C6, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F0C7, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F0C8, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0C9, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0CA, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0CB, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0CC, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0CD, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0CE, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F0CF, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F0D0, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F0D1, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0D2, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0D3, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0D4, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0D5, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0D6, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0D7, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F0D8, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F0D9, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0DA, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0DB, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0DC, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0DD, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0DE, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F0DF, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0E0, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0E1, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0E2, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0E3, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0E4, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0E5, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0E6, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F0E7, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F0E8, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F0E9, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0EA, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0EB, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F0EC, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0ED, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F0EE, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F0EF, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F0F0, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F0F1, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F0F2, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F0F3, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F0F4, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F0F5, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F0F6, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F0F7, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0F8, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F0F9, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0FA, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0FB, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0FC, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F0FD, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F0FE, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F0FF, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F100, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F101, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F102, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F103, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F104, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F105, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F106, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F107, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F07F001, 0x7F07F108, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F109, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F10A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F10B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F10C, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F10D, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F10E, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F10F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F110, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F111, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F07F001, 0x7F07F112, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F113, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F114, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F115, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F116, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F117, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F118, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F119, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F11A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F11B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F11C, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F11D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F11E, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F11F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F120, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F121, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F122, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F123, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F124, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F125, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F126, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F127, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F128, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F129, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F12A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F12B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F12C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F12D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F12E, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F12F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F130, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F131, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F132, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F133, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F134, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F135, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F136, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F137, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F138, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F139, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F13A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F13B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F13C, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F13D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F13E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F13F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F140, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F141, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F142, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F143, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F144, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F145, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F146, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F147, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F148, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F149, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F14A, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F14B, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F14C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F14D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F14E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F14F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F150, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F151, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F152, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F153, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F154, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F155, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F156, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F157, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F158, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F159, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F15A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F15B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F15C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F15D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F15E, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F15F, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F160, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F161, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F162, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F163, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F164, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F165, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F166, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F167, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F168, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F169, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F16A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F16B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F16C, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F16D, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F16E, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F16F, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F170, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F171, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F172, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F173, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F174, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F175, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F176, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F177, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F178, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F179, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F17A, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F17B, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F17C, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F17D, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F17E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F17F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F180, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F181, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F182, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F183, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F184, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F185, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F186, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F187, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F188, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F189, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F18A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F18B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F18C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F18D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F18E, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F18F, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F190, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F191, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F192, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F193, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F194, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F195, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F196, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F197, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F198, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F199, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F19A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F19B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F19C, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F19D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F19E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F19F, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F07F001, 0x7F07F1A0, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1A1, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1A2, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1A3, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1A4, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1A5, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F1A6, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1A7, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1A8, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1A9, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1AA, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1AB, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1AC, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1AD, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1AE, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1AF, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1B0, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1B1, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1B2, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F1B3, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1B4, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1B5, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1B6, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1B7, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F1B8, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1B9, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1BA, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F07F001, 0x7F07F1BB, '2019-02-10 00:00:00') /* Horned Chittick (4243) */
+     , (0x7F07F001, 0x7F07F1BC, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1BD, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1BE, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1BF, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1C0, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1C1, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1C2, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F1C3, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F07F001, 0x7F07F1C4, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1C5, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1C6, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1C7, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1C8, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1C9, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1CA, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F1CB, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F1CC, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1CD, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1CE, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F1CF, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F1D0, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F1D1, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F07F001, 0x7F07F1D2, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1D3, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1D4, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1D5, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F1D6, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F07F001, 0x7F07F1D7, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1D8, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F1D9, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1DA, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1DB, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F07F001, 0x7F07F1DC, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1DD, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1DE, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F1DF, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E0, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F07F001, 0x7F07F1E1, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E2, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F07F001, 0x7F07F1E3, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F07F001, 0x7F07F1E4, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E5, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1E6, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E7, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E8, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1E9, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1EA, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1EB, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F07F001, 0x7F07F1EC, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F1ED, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F07F001, 0x7F07F1EE, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1EF, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F07F001, 0x7F07F1F0, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1F1, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1F2, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1F3, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1F4, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1F5, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F07F001, 0x7F07F1F6, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1F7, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1F8, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F07F001, 0x7F07F1F9, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F07F001, 0x7F07F1FA, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F07F001, 0x7F07F1FB, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F07F002, 22746, 0xF07F002E, 128.2805, 123.3292, 12.41481, -0.6244811, 0, 0, -0.7810399,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */

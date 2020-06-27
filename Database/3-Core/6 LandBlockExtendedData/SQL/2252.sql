@@ -5,12 +5,12 @@ VALUES (0x72252001,  1154, 0x22520036, 152.7202, 124.3952, 4.565683, -4.371139E-
 /* @teleloc 0x22520036 [152.720200 124.395200 4.565683] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72252001, 0x72252002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72252001, 0x72252003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72252001, 0x72252004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72252001, 0x72252005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72252001, 0x72252006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72252001, 0x72252007, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x72252001, 0x72252002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72252001, 0x72252003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72252001, 0x72252004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72252001, 0x72252005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72252001, 0x72252006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72252001, 0x72252007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72252002,  7184, 0x22520036, 152.7202, 124.3952, 4.565683, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -41,7 +41,7 @@ VALUES (0x72252008,  1542, 0x22520010, 24.4627, 171.722, 35.13846, 0.7071068, 0,
 /* @teleloc 0x22520010 [24.462700 171.722000 35.138460] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72252008, 0x72252009, '2019-02-10 00:00:00') /* Hyssop */;
+VALUES (0x72252008, 0x72252009, '2019-02-10 00:00:00') /* Hyssop (774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72252009,   774, 0x22520010, 24.4627, 171.722, 35.13846, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hyssop */

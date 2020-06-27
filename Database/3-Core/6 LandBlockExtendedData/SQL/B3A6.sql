@@ -5,20 +5,20 @@ VALUES (0x7B3A6001,  1154, 0xB3A60012, 68.27419, 33.75596, 27.112, -0.9035367, 0
 /* @teleloc 0xB3A60012 [68.274190 33.755960 27.112000] -0.903537 0.000000 0.000000 -0.428511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A6001, 0x7B3A6002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B3A6001, 0x7B3A6003, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B3A6001, 0x7B3A6004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A6005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B3A6001, 0x7B3A6006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A6007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A6008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A6009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A600A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A600B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A6001, 0x7B3A600C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B3A6001, 0x7B3A600D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B3A6001, 0x7B3A600E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B3A6001, 0x7B3A600F, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7B3A6001, 0x7B3A6002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B3A6001, 0x7B3A6003, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B3A6001, 0x7B3A6004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A6005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B3A6001, 0x7B3A6006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A6007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A6008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A6009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A600A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A600B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A6001, 0x7B3A600C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B3A6001, 0x7B3A600D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B3A6001, 0x7B3A600E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B3A6001, 0x7B3A600F, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A6002,   215, 0xB3A60012, 68.27419, 33.75596, 27.112, -0.9035367, 0, 0, -0.4285107,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -81,9 +81,9 @@ VALUES (0x7B3A6010,  1542, 0xB3A60019, 78.1356, 10.39806, 28, -0.9035367, 0, 0, 
 /* @teleloc 0xB3A60019 [78.135600 10.398060 28.000000] -0.903537 0.000000 0.000000 -0.428511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A6010, 0x7B3A6011, '2019-02-10 00:00:00') /* Frost Jitte */
-     , (0x7B3A6010, 0x7B3A6012, '2019-02-10 00:00:00') /* Diforsa Breastplate */
-     , (0x7B3A6010, 0x7B3A6013, '2019-02-10 00:00:00') /* Chainmail Leggings */;
+VALUES (0x7B3A6010, 0x7B3A6011, '2019-02-10 00:00:00') /* Frost Jitte (3805) */
+     , (0x7B3A6010, 0x7B3A6012, '2019-02-10 00:00:00') /* Diforsa Breastplate (28628) */
+     , (0x7B3A6010, 0x7B3A6013, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A6011,  3805, 0xB3A60019, 78.1356, 10.39806, 28, -0.9035367, 0, 0, -0.4285107,  True, '2019-02-10 00:00:00'); /* Frost Jitte */

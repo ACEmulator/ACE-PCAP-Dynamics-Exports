@@ -5,15 +5,15 @@ VALUES (0x726EF001,  1154, 0x26EF0032, 157.8174, 43.01256, -0.4454499, 0.8138558
 /* @teleloc 0x26EF0032 [157.817400 43.012560 -0.445450] 0.813856 0.000000 0.000000 -0.581067 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726EF001, 0x726EF002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x726EF001, 0x726EF003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x726EF001, 0x726EF004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x726EF001, 0x726EF005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x726EF001, 0x726EF006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x726EF001, 0x726EF007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x726EF001, 0x726EF008, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x726EF001, 0x726EF009, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x726EF001, 0x726EF00A, '2019-02-10 00:00:00') /* Engorged Eater */;
+VALUES (0x726EF001, 0x726EF002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x726EF001, 0x726EF003, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x726EF001, 0x726EF004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x726EF001, 0x726EF005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x726EF001, 0x726EF006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x726EF001, 0x726EF007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x726EF001, 0x726EF008, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x726EF001, 0x726EF009, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x726EF001, 0x726EF00A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726EF002,  1610, 0x26EF0032, 157.8174, 43.01256, -0.4454499, 0.8138558, 0, 0, -0.581067,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

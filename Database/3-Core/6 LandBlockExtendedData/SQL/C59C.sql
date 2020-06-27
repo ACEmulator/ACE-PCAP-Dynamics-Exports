@@ -9,11 +9,11 @@ VALUES (0x7C59C001,  1154, 0xC59C002E, 140.3638, 120.2744, 8.00495, 1, 0, 0, 0, 
 /* @teleloc 0xC59C002E [140.363800 120.274400 8.004950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C59C001, 0x7C59C002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C59C001, 0x7C59C003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C59C001, 0x7C59C004, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C59C001, 0x7C59C005, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C59C001, 0x7C59C006, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7C59C001, 0x7C59C002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C59C001, 0x7C59C003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C59C001, 0x7C59C004, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C59C001, 0x7C59C005, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C59C001, 0x7C59C006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C59C002,     8, 0xC59C002E, 140.3638, 120.2744, 8.00495, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -40,7 +40,7 @@ VALUES (0x7C59C007,  1542, 0xC59C002D, 141.3502, 118.261, 8.000001, 1, 0, 0, 0, 
 /* @teleloc 0xC59C002D [141.350200 118.261000 8.000001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C59C007, 0x7C59C008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C59C007, 0x7C59C008, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C59C008, 22572, 0xC59C002D, 141.3502, 118.261, 8.000001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

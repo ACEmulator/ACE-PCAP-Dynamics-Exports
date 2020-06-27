@@ -5,15 +5,15 @@ VALUES (0x7710F001,  1154, 0x710F0018, 70.01394, 172.9324, 0.8286663, 0.7494521,
 /* @teleloc 0x710F0018 [70.013940 172.932400 0.828666] 0.749452 0.000000 0.000000 -0.662059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7710F001, 0x7710F002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7710F001, 0x7710F003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7710F001, 0x7710F009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7710F001, 0x7710F00A, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7710F001, 0x7710F002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7710F001, 0x7710F003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7710F001, 0x7710F009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7710F001, 0x7710F00A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7710F002,  7102, 0x710F0018, 70.01394, 172.9324, 0.8286663, 0.7494521, 0, 0, -0.6620586,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

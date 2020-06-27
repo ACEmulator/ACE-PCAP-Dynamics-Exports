@@ -5,17 +5,17 @@ VALUES (0x72A19001,  1154, 0x2A190009, 25.5474, 21.14457, 40.87101, -0.4475941, 
 /* @teleloc 0x2A190009 [25.547400 21.144570 40.871010] -0.447594 0.000000 0.000000 -0.894237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A19001, 0x72A19002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72A19001, 0x72A19003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72A19001, 0x72A19004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72A19001, 0x72A19005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72A19001, 0x72A19006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72A19001, 0x72A19007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72A19001, 0x72A19008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72A19001, 0x72A19009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A19001, 0x72A1900A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72A19001, 0x72A1900B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A19001, 0x72A1900C, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x72A19001, 0x72A19002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72A19001, 0x72A19003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72A19001, 0x72A19004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72A19001, 0x72A19005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72A19001, 0x72A19006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72A19001, 0x72A19007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72A19001, 0x72A19008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72A19001, 0x72A19009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A19001, 0x72A1900A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72A19001, 0x72A1900B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A19001, 0x72A1900C, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A19002, 24319, 0x2A190009, 25.5474, 21.14457, 40.87101, -0.4475941, 0, 0, -0.8942368,  True, '2019-02-10 00:00:00'); /* Dark Master */

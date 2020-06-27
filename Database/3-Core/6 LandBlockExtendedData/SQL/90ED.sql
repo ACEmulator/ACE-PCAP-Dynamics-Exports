@@ -5,13 +5,13 @@ VALUES (0x790ED001,  1154, 0x90ED0038, 149.15, 177.9379, 9.163845, -0.7368067, 0
 /* @teleloc 0x90ED0038 [149.150000 177.937900 9.163845] -0.736807 0.000000 0.000000 -0.676104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790ED001, 0x790ED002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x790ED001, 0x790ED003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x790ED001, 0x790ED004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x790ED001, 0x790ED005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x790ED001, 0x790ED006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x790ED001, 0x790ED007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x790ED001, 0x790ED008, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x790ED001, 0x790ED002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x790ED001, 0x790ED003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x790ED001, 0x790ED004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x790ED001, 0x790ED005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x790ED001, 0x790ED006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x790ED001, 0x790ED007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x790ED001, 0x790ED008, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790ED002, 24289, 0x90ED0038, 149.15, 177.9379, 9.163845, -0.7368067, 0, 0, -0.6761035,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

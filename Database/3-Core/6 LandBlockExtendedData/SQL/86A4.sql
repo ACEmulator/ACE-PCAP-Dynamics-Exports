@@ -5,17 +5,17 @@ VALUES (0x786A4001,  1154, 0x86A4001C, 77.74747, 72.03329, 42.48235, 0.7071068, 
 /* @teleloc 0x86A4001C [77.747470 72.033290 42.482350] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786A4001, 0x786A4002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x786A4001, 0x786A4003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x786A4001, 0x786A4004, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x786A4001, 0x786A4005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x786A4001, 0x786A4006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x786A4001, 0x786A4007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x786A4001, 0x786A4008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x786A4001, 0x786A4009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x786A4001, 0x786A400A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x786A4001, 0x786A400B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x786A4001, 0x786A400C, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x786A4001, 0x786A4002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x786A4001, 0x786A4003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x786A4001, 0x786A4004, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x786A4001, 0x786A4005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x786A4001, 0x786A4006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x786A4001, 0x786A4007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x786A4001, 0x786A4008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x786A4001, 0x786A4009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x786A4001, 0x786A400A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x786A4001, 0x786A400B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x786A4001, 0x786A400C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786A4002,  1758, 0x86A4001C, 77.74747, 72.03329, 42.48235, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -66,7 +66,7 @@ VALUES (0x786A400D,  1542, 0x86A4000A, 27.61194, 37.89739, 56.44932, -0.8984678,
 /* @teleloc 0x86A4000A [27.611940 37.897390 56.449320] -0.898468 0.000000 0.000000 -0.439039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786A400D, 0x786A400E, '2019-02-10 00:00:00') /* Pumpkin Follower */;
+VALUES (0x786A400D, 0x786A400E, '2019-02-10 00:00:00') /* Pumpkin Follower (32199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786A400E, 32199, 0x86A4000A, 27.61194, 37.89739, 56.44932, -0.8984678, 0, 0, -0.4390393,  True, '2019-02-10 00:00:00'); /* Pumpkin Follower */

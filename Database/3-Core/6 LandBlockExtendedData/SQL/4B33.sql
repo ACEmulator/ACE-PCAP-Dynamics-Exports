@@ -5,10 +5,10 @@ VALUES (0x74B33001,  1154, 0x4B33002A, 124.2715, 43.34216, -0.09349993, -0.87698
 /* @teleloc 0x4B33002A [124.271500 43.342160 -0.093500] -0.876987 0.000000 0.000000 -0.480514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B33001, 0x74B33002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x74B33001, 0x74B33003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B33001, 0x74B33004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74B33001, 0x74B33005, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x74B33001, 0x74B33002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74B33001, 0x74B33003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B33001, 0x74B33004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74B33001, 0x74B33005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B33002, 21549, 0x4B33002A, 124.2715, 43.34216, -0.09349993, -0.8769871, 0, 0, -0.4805139,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

@@ -5,24 +5,24 @@ VALUES (0x7271B001,  1154, 0x271B0022, 103.9137, 44.69559, 54.37258, 0.7071068, 
 /* @teleloc 0x271B0022 [103.913700 44.695590 54.372580] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7271B001, 0x7271B002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7271B001, 0x7271B003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7271B001, 0x7271B004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7271B001, 0x7271B005, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271B001, 0x7271B006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7271B001, 0x7271B007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271B001, 0x7271B008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271B001, 0x7271B009, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7271B001, 0x7271B00A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7271B001, 0x7271B00B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7271B001, 0x7271B00C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7271B001, 0x7271B00D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7271B001, 0x7271B00E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7271B001, 0x7271B00F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7271B001, 0x7271B010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7271B001, 0x7271B011, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271B001, 0x7271B012, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271B001, 0x7271B013, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7271B001, 0x7271B002, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7271B001, 0x7271B003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7271B001, 0x7271B004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7271B001, 0x7271B005, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271B001, 0x7271B006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7271B001, 0x7271B007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271B001, 0x7271B008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271B001, 0x7271B009, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7271B001, 0x7271B00A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7271B001, 0x7271B00B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7271B001, 0x7271B00C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7271B001, 0x7271B00D, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7271B001, 0x7271B00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7271B001, 0x7271B00F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7271B001, 0x7271B010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7271B001, 0x7271B011, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271B001, 0x7271B012, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271B001, 0x7271B013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7271B002, 36853, 0x271B0022, 103.9137, 44.69559, 54.37258, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -101,7 +101,7 @@ VALUES (0x7271B014,  1542, 0x271B001A, 76.71877, 24.83382, 55.79155, -0.1736482,
 /* @teleloc 0x271B001A [76.718770 24.833820 55.791550] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7271B014, 0x7271B015, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7271B014, 0x7271B015, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7271B015,  4381, 0x271B001A, 76.71877, 24.83382, 55.79155, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

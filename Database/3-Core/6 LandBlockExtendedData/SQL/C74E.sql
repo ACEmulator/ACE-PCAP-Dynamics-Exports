@@ -5,14 +5,14 @@ VALUES (0x7C74E001,  1154, 0xC74E000F, 30.51229, 162.0071, 19.9919, 0.6982226, 0
 /* @teleloc 0xC74E000F [30.512290 162.007100 19.991900] 0.698223 0.000000 0.000000 -0.715881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C74E001, 0x7C74E002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C74E001, 0x7C74E003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C74E001, 0x7C74E004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C74E001, 0x7C74E005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C74E001, 0x7C74E006, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C74E001, 0x7C74E007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C74E001, 0x7C74E008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C74E001, 0x7C74E009, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7C74E001, 0x7C74E002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C74E001, 0x7C74E003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C74E001, 0x7C74E004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C74E001, 0x7C74E005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C74E001, 0x7C74E006, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C74E001, 0x7C74E007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C74E001, 0x7C74E008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C74E001, 0x7C74E009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C74E002,  2575, 0xC74E000F, 30.51229, 162.0071, 19.9919, 0.6982226, 0, 0, -0.7158806,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

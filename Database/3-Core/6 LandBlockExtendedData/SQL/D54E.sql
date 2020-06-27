@@ -5,13 +5,13 @@ VALUES (0x7D54E001,  1154, 0xD54E0009, 42.70098, 5.982084, 39.06541, 0.4425567, 
 /* @teleloc 0xD54E0009 [42.700980 5.982084 39.065410] 0.442557 0.000000 0.000000 -0.896741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D54E001, 0x7D54E002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D54E001, 0x7D54E003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D54E001, 0x7D54E004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D54E001, 0x7D54E005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D54E001, 0x7D54E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D54E001, 0x7D54E007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D54E001, 0x7D54E008, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7D54E001, 0x7D54E002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D54E001, 0x7D54E003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D54E001, 0x7D54E004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D54E001, 0x7D54E005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D54E001, 0x7D54E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D54E001, 0x7D54E007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D54E001, 0x7D54E008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D54E002,   211, 0xD54E0009, 42.70098, 5.982084, 39.06541, 0.4425567, 0, 0, -0.8967406,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -46,7 +46,7 @@ VALUES (0x7D54E009,  1542, 0xD54E0037, 162.0217, 161.9013, 44.5795, 0.8191521, 0
 /* @teleloc 0xD54E0037 [162.021700 161.901300 44.579500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D54E009, 0x7D54E00A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D54E009, 0x7D54E00A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D54E00A,  4380, 0xD54E0037, 162.0217, 161.9013, 44.5795, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

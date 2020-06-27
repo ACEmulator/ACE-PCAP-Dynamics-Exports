@@ -5,11 +5,11 @@ VALUES (0x7164B001,  1154, 0x164B000E, 26.09676, 136.2209, 6.478082, -0.9804474,
 /* @teleloc 0x164B000E [26.096760 136.220900 6.478082] -0.980447 0.000000 0.000000 -0.196782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164B001, 0x7164B002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164B001, 0x7164B003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7164B001, 0x7164B004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7164B001, 0x7164B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7164B001, 0x7164B006, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x7164B001, 0x7164B002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164B001, 0x7164B003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7164B001, 0x7164B004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7164B001, 0x7164B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7164B001, 0x7164B006, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164B002, 36825, 0x164B000E, 26.09676, 136.2209, 6.478082, -0.9804474, 0, 0, -0.1967816,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

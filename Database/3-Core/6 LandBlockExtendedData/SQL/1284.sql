@@ -5,13 +5,13 @@ VALUES (0x71284001,  1154, 0x12840028, 100.4634, 172.1949, 103.9935, 0.7071068, 
 /* @teleloc 0x12840028 [100.463400 172.194900 103.993500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71284001, 0x71284002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71284001, 0x71284003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71284001, 0x71284004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71284001, 0x71284005, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71284001, 0x71284006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71284001, 0x71284007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71284001, 0x71284008, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x71284001, 0x71284002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71284001, 0x71284003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71284001, 0x71284004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71284001, 0x71284005, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71284001, 0x71284006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71284001, 0x71284007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71284001, 0x71284008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71284002, 36840, 0x12840028, 100.4634, 172.1949, 103.9935, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

@@ -5,16 +5,16 @@ VALUES (0x7BA10001,  1154, 0xBA100025, 106.8498, 118.5186, 13.15521, 0.9912696, 
 /* @teleloc 0xBA100025 [106.849800 118.518600 13.155210] 0.991270 0.000000 0.000000 -0.131850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA10001, 0x7BA10002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BA10001, 0x7BA10003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA10001, 0x7BA10004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA10001, 0x7BA10005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA10001, 0x7BA10006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA10001, 0x7BA10007, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BA10001, 0x7BA10008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BA10001, 0x7BA10009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BA10001, 0x7BA1000A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BA10001, 0x7BA1000B, '2019-02-10 00:00:00') /* Dread Ursuin */;
+VALUES (0x7BA10001, 0x7BA10002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BA10001, 0x7BA10003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA10001, 0x7BA10004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA10001, 0x7BA10005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA10001, 0x7BA10006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA10001, 0x7BA10007, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BA10001, 0x7BA10008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BA10001, 0x7BA10009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BA10001, 0x7BA1000A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BA10001, 0x7BA1000B, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA10002,  1757, 0xBA100025, 106.8498, 118.5186, 13.15521, 0.9912696, 0, 0, -0.1318504,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

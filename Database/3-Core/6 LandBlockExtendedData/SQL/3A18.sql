@@ -5,13 +5,13 @@ VALUES (0x73A18001,  1154, 0x3A180007, 2.849915, 154.7065, 41.2423, 0.2986765, 0
 /* @teleloc 0x3A180007 [2.849915 154.706500 41.242300] 0.298677 0.000000 0.000000 -0.954354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A18001, 0x73A18002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A18001, 0x73A18003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73A18001, 0x73A18004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73A18001, 0x73A18005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A18001, 0x73A18006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73A18001, 0x73A18007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A18001, 0x73A18008, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x73A18001, 0x73A18002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A18001, 0x73A18003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73A18001, 0x73A18004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73A18001, 0x73A18005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A18001, 0x73A18006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73A18001, 0x73A18007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A18001, 0x73A18008, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A18002,  8431, 0x3A180007, 2.849915, 154.7065, 41.2423, 0.2986765, 0, 0, -0.9543544,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

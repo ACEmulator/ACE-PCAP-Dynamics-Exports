@@ -5,16 +5,16 @@ VALUES (0x72078001,  1154, 0x2078003A, 170.5382, 29.36581, 58.01, -0.3281831, 0,
 /* @teleloc 0x2078003A [170.538200 29.365810 58.010000] -0.328183 0.000000 0.000000 -0.944614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72078001, 0x72078002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72078001, 0x72078003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72078001, 0x72078004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72078001, 0x72078005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72078001, 0x72078006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72078001, 0x72078007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72078001, 0x72078008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72078001, 0x72078009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72078001, 0x7207800A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72078001, 0x7207800B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x72078001, 0x72078002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72078001, 0x72078003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72078001, 0x72078004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72078001, 0x72078005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72078001, 0x72078006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72078001, 0x72078007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72078001, 0x72078008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72078001, 0x72078009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72078001, 0x7207800A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72078001, 0x7207800B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72078002, 36833, 0x2078003A, 170.5382, 29.36581, 58.01, -0.3281831, 0, 0, -0.9446141,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -61,8 +61,8 @@ VALUES (0x7207800C,  1542, 0x2078000F, 37.90726, 153.2247, 54.70473, 0.9436567, 
 /* @teleloc 0x2078000F [37.907260 153.224700 54.704730] 0.943657 0.000000 0.000000 -0.330926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7207800C, 0x7207800D, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7207800C, 0x7207800E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7207800C, 0x7207800D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7207800C, 0x7207800E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7207800D,  8648, 0x2078000F, 37.90726, 153.2247, 54.70473, 0.9436567, 0, 0, -0.330926,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

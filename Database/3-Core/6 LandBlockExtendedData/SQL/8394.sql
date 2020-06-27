@@ -5,13 +5,13 @@ VALUES (0x78394001,  1154, 0x8394001A, 79.3986, 43.4593, 157.5116, -0.8447004, 0
 /* @teleloc 0x8394001A [79.398600 43.459300 157.511600] -0.844700 0.000000 0.000000 -0.535239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78394001, 0x78394002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78394001, 0x78394003, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x78394001, 0x78394004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78394001, 0x78394005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x78394001, 0x78394006, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x78394001, 0x78394007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78394001, 0x78394008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x78394001, 0x78394002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78394001, 0x78394003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78394001, 0x78394004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78394001, 0x78394005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78394001, 0x78394006, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78394001, 0x78394007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78394001, 0x78394008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78394002, 11528, 0x8394001A, 79.3986, 43.4593, 157.5116, -0.8447004, 0, 0, -0.5352394,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

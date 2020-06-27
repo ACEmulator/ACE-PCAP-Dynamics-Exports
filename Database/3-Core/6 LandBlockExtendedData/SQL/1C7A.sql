@@ -5,22 +5,22 @@ VALUES (0x71C7A001,  1154, 0x1C7A0035, 164.5423, 112.6276, 268.5693, -0.8335503,
 /* @teleloc 0x1C7A0035 [164.542300 112.627600 268.569300] -0.833550 0.000000 0.000000 -0.552444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7A001, 0x71C7A002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71C7A001, 0x71C7A003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7A001, 0x71C7A004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7A001, 0x71C7A005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7A001, 0x71C7A006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7A001, 0x71C7A007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C7A001, 0x71C7A008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C7A001, 0x71C7A009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C7A001, 0x71C7A00A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71C7A001, 0x71C7A00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71C7A001, 0x71C7A00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C7A001, 0x71C7A00D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C7A001, 0x71C7A00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7A001, 0x71C7A00F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7A001, 0x71C7A010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7A001, 0x71C7A011, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71C7A001, 0x71C7A002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71C7A001, 0x71C7A003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7A001, 0x71C7A004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7A001, 0x71C7A005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7A001, 0x71C7A006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7A001, 0x71C7A007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C7A001, 0x71C7A008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C7A001, 0x71C7A009, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C7A001, 0x71C7A00A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71C7A001, 0x71C7A00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71C7A001, 0x71C7A00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C7A001, 0x71C7A00D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C7A001, 0x71C7A00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7A001, 0x71C7A00F, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7A001, 0x71C7A010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7A001, 0x71C7A011, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7A002, 36833, 0x1C7A0035, 164.5423, 112.6276, 268.5693, -0.8335503, 0, 0, -0.5524436,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -91,8 +91,8 @@ VALUES (0x71C7A012,  1542, 0x1C7A0028, 106.3126, 180.1093, 236.069, 1, 0, 0, 0, 
 /* @teleloc 0x1C7A0028 [106.312600 180.109300 236.069000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7A012, 0x71C7A013, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x71C7A012, 0x71C7A014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C7A012, 0x71C7A013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x71C7A012, 0x71C7A014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7A013, 31445, 0x1C7A0028, 106.3126, 180.1093, 236.069, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

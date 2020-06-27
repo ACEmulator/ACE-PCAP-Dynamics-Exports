@@ -5,9 +5,9 @@ VALUES (0x77984001,  1154, 0x79840028, 101.3636, 172.3173, 6.666784, 0.4092681, 
 /* @teleloc 0x79840028 [101.363600 172.317300 6.666784] 0.409268 0.000000 0.000000 -0.912414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77984001, 0x77984002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x77984001, 0x77984003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x77984001, 0x77984004, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x77984001, 0x77984002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x77984001, 0x77984003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x77984001, 0x77984004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77984002,  8014, 0x79840028, 101.3636, 172.3173, 6.666784, 0.4092681, 0, 0, -0.9124141,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -26,7 +26,7 @@ VALUES (0x77984005,  1542, 0x79840002, 0.1864014, 44.89422, 0, 0.9990482, 0, 0, 
 /* @teleloc 0x79840002 [0.186401 44.894220 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77984005, 0x77984006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77984005, 0x77984006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77984006,  4179, 0x79840002, 0.1864014, 44.89422, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

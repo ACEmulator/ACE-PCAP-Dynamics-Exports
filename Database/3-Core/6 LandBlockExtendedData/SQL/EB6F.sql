@@ -5,97 +5,97 @@ VALUES (0x7EB6F001,  1154, 0xEB6F003E, 189.3842, 141.02, 24.45247, 0.9499256, 0,
 /* @teleloc 0xEB6F003E [189.384200 141.020000 24.452470] 0.949926 0.000000 0.000000 -0.312476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB6F001, 0x7EB6F002, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F003, '2019-02-10 00:00:00') /* Obsidian Chittick */
-     , (0x7EB6F001, 0x7EB6F004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F005, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F006, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F007, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F00A, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F00B, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F00C, '2019-02-10 00:00:00') /* Obsidian Chittick */
-     , (0x7EB6F001, 0x7EB6F00D, '2019-02-10 00:00:00') /* Annihilator */
-     , (0x7EB6F001, 0x7EB6F00E, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F00F, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F010, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F011, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F012, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F013, '2019-02-10 00:00:00') /* Obsidian Chittick */
-     , (0x7EB6F001, 0x7EB6F014, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F015, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F016, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F017, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F018, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F019, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F01A, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F01B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F01C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F01D, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F01E, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F01F, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F020, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F021, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F022, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F023, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F024, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F025, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F026, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F027, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F028, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F029, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F02A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F02B, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EB6F001, 0x7EB6F02C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F02D, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F02E, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EB6F001, 0x7EB6F02F, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EB6F001, 0x7EB6F030, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EB6F001, 0x7EB6F031, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EB6F001, 0x7EB6F032, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F033, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F034, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F035, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F036, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F037, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F038, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F039, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F03A, '2019-02-10 00:00:00') /* Obsidian Chittick */
-     , (0x7EB6F001, 0x7EB6F03B, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F03C, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F03D, '2019-02-10 00:00:00') /* Obsidian Chittick */
-     , (0x7EB6F001, 0x7EB6F03E, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F03F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F040, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F041, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F042, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F043, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F044, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F045, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F046, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F047, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F048, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F049, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EB6F001, 0x7EB6F04A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F04B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F04C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F04D, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F04E, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F04F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F050, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F051, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F052, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F053, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6F001, 0x7EB6F054, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F055, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F056, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EB6F001, 0x7EB6F057, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F058, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F059, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F05A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6F001, 0x7EB6F05B, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EB6F001, 0x7EB6F05C, '2019-02-10 00:00:00') /* Tusker Sycophant */;
+VALUES (0x7EB6F001, 0x7EB6F002, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F003, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */
+     , (0x7EB6F001, 0x7EB6F004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F005, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F006, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F007, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F00A, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F00B, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F00C, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */
+     , (0x7EB6F001, 0x7EB6F00D, '2019-02-10 00:00:00') /* Annihilator (22517) */
+     , (0x7EB6F001, 0x7EB6F00E, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F00F, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F010, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F011, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F012, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F013, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */
+     , (0x7EB6F001, 0x7EB6F014, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F015, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F016, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7EB6F001, 0x7EB6F017, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F018, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7EB6F001, 0x7EB6F019, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F01A, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F01B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F01C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F01D, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F01E, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F01F, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F020, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F021, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F022, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F023, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F024, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F025, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F026, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F027, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F028, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F029, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F02A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F02B, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EB6F001, 0x7EB6F02C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F02D, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F02E, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EB6F001, 0x7EB6F02F, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EB6F001, 0x7EB6F030, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EB6F001, 0x7EB6F031, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EB6F001, 0x7EB6F032, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F033, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F034, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F035, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F036, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F037, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F038, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F039, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F03A, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */
+     , (0x7EB6F001, 0x7EB6F03B, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F03C, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F03D, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */
+     , (0x7EB6F001, 0x7EB6F03E, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F03F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F040, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F041, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F042, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F043, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F044, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F045, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F046, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F047, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F048, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F049, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EB6F001, 0x7EB6F04A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F04B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F04C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F04D, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F04E, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F04F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F050, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F051, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F052, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F053, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6F001, 0x7EB6F054, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F055, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F056, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EB6F001, 0x7EB6F057, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F058, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F059, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F05A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6F001, 0x7EB6F05B, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EB6F001, 0x7EB6F05C, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB6F002, 22518, 0xEB6F003E, 189.3842, 141.02, 24.45247, 0.9499256, 0, 0, -0.3124762,  True, '2019-02-10 00:00:00'); /* Devastator */

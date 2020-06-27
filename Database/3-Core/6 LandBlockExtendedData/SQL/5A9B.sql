@@ -5,48 +5,48 @@ VALUES (0x75A9B001,  1154, 0x5A9B003E, 170.5599, 131.697, -0.8925, -0.9976306, 0
 /* @teleloc 0x5A9B003E [170.559900 131.697000 -0.892500] -0.997631 0.000000 0.000000 -0.068798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9B001, 0x75A9B002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75A9B001, 0x75A9B003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75A9B001, 0x75A9B004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75A9B001, 0x75A9B005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75A9B001, 0x75A9B006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75A9B001, 0x75A9B007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75A9B001, 0x75A9B008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75A9B001, 0x75A9B009, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x75A9B001, 0x75A9B00A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A9B001, 0x75A9B00B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A9B001, 0x75A9B00C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A9B001, 0x75A9B00D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75A9B001, 0x75A9B00E, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75A9B001, 0x75A9B00F, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75A9B001, 0x75A9B010, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75A9B001, 0x75A9B011, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75A9B001, 0x75A9B012, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75A9B001, 0x75A9B013, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75A9B001, 0x75A9B014, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75A9B001, 0x75A9B015, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75A9B001, 0x75A9B016, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75A9B001, 0x75A9B017, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75A9B001, 0x75A9B018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75A9B001, 0x75A9B019, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A9B001, 0x75A9B01A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75A9B001, 0x75A9B01B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75A9B001, 0x75A9B01C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75A9B001, 0x75A9B01D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A9B001, 0x75A9B01E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75A9B001, 0x75A9B01F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75A9B001, 0x75A9B020, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75A9B001, 0x75A9B021, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x75A9B001, 0x75A9B022, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9B001, 0x75A9B023, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9B001, 0x75A9B024, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9B001, 0x75A9B025, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75A9B001, 0x75A9B026, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75A9B001, 0x75A9B027, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75A9B001, 0x75A9B028, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75A9B001, 0x75A9B029, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75A9B001, 0x75A9B02A, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75A9B001, 0x75A9B02B, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x75A9B001, 0x75A9B002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75A9B001, 0x75A9B003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75A9B001, 0x75A9B004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75A9B001, 0x75A9B005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75A9B001, 0x75A9B006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75A9B001, 0x75A9B007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75A9B001, 0x75A9B008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75A9B001, 0x75A9B009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x75A9B001, 0x75A9B00A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A9B001, 0x75A9B00B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A9B001, 0x75A9B00C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A9B001, 0x75A9B00D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75A9B001, 0x75A9B00E, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75A9B001, 0x75A9B00F, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75A9B001, 0x75A9B010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75A9B001, 0x75A9B011, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75A9B001, 0x75A9B012, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75A9B001, 0x75A9B013, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75A9B001, 0x75A9B014, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75A9B001, 0x75A9B015, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75A9B001, 0x75A9B016, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75A9B001, 0x75A9B017, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75A9B001, 0x75A9B018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75A9B001, 0x75A9B019, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A9B001, 0x75A9B01A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75A9B001, 0x75A9B01B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75A9B001, 0x75A9B01C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75A9B001, 0x75A9B01D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A9B001, 0x75A9B01E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75A9B001, 0x75A9B01F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75A9B001, 0x75A9B020, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x75A9B001, 0x75A9B021, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x75A9B001, 0x75A9B022, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9B001, 0x75A9B023, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9B001, 0x75A9B024, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9B001, 0x75A9B025, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75A9B001, 0x75A9B026, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75A9B001, 0x75A9B027, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75A9B001, 0x75A9B028, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75A9B001, 0x75A9B029, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75A9B001, 0x75A9B02A, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75A9B001, 0x75A9B02B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9B002,  7124, 0x5A9B003E, 170.5599, 131.697, -0.8925, -0.9976306, 0, 0, -0.06879842,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -221,8 +221,8 @@ VALUES (0x75A9B02C,  1542, 0x5A9B0038, 145.2204, 191.0847, -0.9, 1, 0, 0, 0, Fal
 /* @teleloc 0x5A9B0038 [145.220400 191.084700 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9B02C, 0x75A9B02D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75A9B02C, 0x75A9B02E, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x75A9B02C, 0x75A9B02D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x75A9B02C, 0x75A9B02E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9B02D, 22571, 0x5A9B0038, 145.2204, 191.0847, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x78FCE001,  1154, 0x8FCE0027, 114.8485, 145.3609, 507.1519, -0.7637385,
 /* @teleloc 0x8FCE0027 [114.848500 145.360900 507.151900] -0.763739 0.000000 0.000000 -0.645526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FCE001, 0x78FCE002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78FCE001, 0x78FCE003, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x78FCE001, 0x78FCE004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78FCE001, 0x78FCE005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FCE001, 0x78FCE006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FCE001, 0x78FCE007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FCE001, 0x78FCE008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FCE001, 0x78FCE009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78FCE001, 0x78FCE00A, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x78FCE001, 0x78FCE002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78FCE001, 0x78FCE003, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x78FCE001, 0x78FCE004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78FCE001, 0x78FCE005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FCE001, 0x78FCE006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FCE001, 0x78FCE007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FCE001, 0x78FCE008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FCE001, 0x78FCE009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78FCE001, 0x78FCE00A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FCE002,  7084, 0x8FCE0027, 114.8485, 145.3609, 507.1519, -0.7637385, 0, 0, -0.6455258,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

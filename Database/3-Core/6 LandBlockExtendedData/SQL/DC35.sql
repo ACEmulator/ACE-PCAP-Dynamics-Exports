@@ -5,19 +5,19 @@ VALUES (0x7DC35001,  1154, 0xDC350019, 83.57354, 22.4772, 93.41884, -4.371139E-0
 /* @teleloc 0xDC350019 [83.573540 22.477200 93.418840] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC35001, 0x7DC35002, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7DC35001, 0x7DC35003, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7DC35001, 0x7DC35004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7DC35001, 0x7DC35005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DC35001, 0x7DC35006, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7DC35001, 0x7DC35007, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7DC35001, 0x7DC35008, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7DC35001, 0x7DC35009, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7DC35001, 0x7DC3500A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7DC35001, 0x7DC3500B, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7DC35001, 0x7DC3500C, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7DC35001, 0x7DC3500D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7DC35001, 0x7DC3500E, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7DC35001, 0x7DC35002, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7DC35001, 0x7DC35003, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7DC35001, 0x7DC35004, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7DC35001, 0x7DC35005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DC35001, 0x7DC35006, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7DC35001, 0x7DC35007, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7DC35001, 0x7DC35008, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7DC35001, 0x7DC35009, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7DC35001, 0x7DC3500A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7DC35001, 0x7DC3500B, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7DC35001, 0x7DC3500C, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7DC35001, 0x7DC3500D, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7DC35001, 0x7DC3500E, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC35002,  7992, 0xDC350019, 83.57354, 22.4772, 93.41884, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */
@@ -76,7 +76,7 @@ VALUES (0x7DC3500F,  1542, 0xDC35000E, 31.28692, 138.3187, 73.7087, 0.6626717, 0
 /* @teleloc 0xDC35000E [31.286920 138.318700 73.708700] 0.662672 0.000000 0.000000 -0.748910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3500F, 0x7DC35010, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7DC3500F, 0x7DC35010, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC35010, 42528, 0xDC35000E, 31.28692, 138.3187, 73.7087, 0.6626717, 0, 0, -0.74891,  True, '2019-02-10 00:00:00'); /* Rock */

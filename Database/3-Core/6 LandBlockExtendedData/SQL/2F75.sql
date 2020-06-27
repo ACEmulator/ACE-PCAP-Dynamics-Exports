@@ -5,23 +5,23 @@ VALUES (0x72F75001,  1154, 0x2F750008, 8.143064, 171.1422, 111.3901, 0.8660254, 
 /* @teleloc 0x2F750008 [8.143064 171.142200 111.390100] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F75001, 0x72F75002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F75001, 0x72F75003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F75001, 0x72F75004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F75001, 0x72F75005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72F75001, 0x72F75006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72F75001, 0x72F75007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72F75001, 0x72F75008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F75001, 0x72F75009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F75001, 0x72F7500A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72F75001, 0x72F7500B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F75001, 0x72F7500C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72F75001, 0x72F7500D, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72F75001, 0x72F7500E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72F75001, 0x72F7500F, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x72F75001, 0x72F75010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F75001, 0x72F75011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F75001, 0x72F75012, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72F75001, 0x72F75002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F75001, 0x72F75003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F75001, 0x72F75004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72F75001, 0x72F75005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72F75001, 0x72F75006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72F75001, 0x72F75007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72F75001, 0x72F75008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F75001, 0x72F75009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F75001, 0x72F7500A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72F75001, 0x72F7500B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F75001, 0x72F7500C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72F75001, 0x72F7500D, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72F75001, 0x72F7500E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72F75001, 0x72F7500F, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x72F75001, 0x72F75010, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72F75001, 0x72F75011, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72F75001, 0x72F75012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F75002,  7982, 0x2F750008, 8.143064, 171.1422, 111.3901, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -96,8 +96,8 @@ VALUES (0x72F75013,  1542, 0x2F75001D, 88.88177, 102.93, 69.20206, 0.9487675, 0,
 /* @teleloc 0x2F75001D [88.881770 102.930000 69.202060] 0.948768 0.000000 0.000000 -0.315975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F75013, 0x72F75014, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x72F75013, 0x72F75015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72F75013, 0x72F75014, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x72F75013, 0x72F75015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F75014,  8646, 0x2F75001D, 88.88177, 102.93, 69.20206, 0.9487675, 0, 0, -0.3159751,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

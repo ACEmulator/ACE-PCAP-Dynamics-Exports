@@ -5,30 +5,30 @@ VALUES (0x7AA88001,  1154, 0xAA880026, 102.6198, 126.4878, 33.4594, 0.9606133, 0
 /* @teleloc 0xAA880026 [102.619800 126.487800 33.459400] 0.960613 0.000000 0.000000 -0.277889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA88001, 0x7AA88002, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7AA88001, 0x7AA88003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AA88001, 0x7AA88004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AA88001, 0x7AA88005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AA88001, 0x7AA88006, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7AA88001, 0x7AA88007, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AA88001, 0x7AA88008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AA88001, 0x7AA88009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AA88001, 0x7AA8800A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA88001, 0x7AA8800B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA88001, 0x7AA8800C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA88001, 0x7AA8800D, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AA88001, 0x7AA8800E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AA88001, 0x7AA8800F, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AA88001, 0x7AA88010, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AA88001, 0x7AA88011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA88001, 0x7AA88012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA88001, 0x7AA88013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AA88001, 0x7AA88014, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AA88001, 0x7AA88015, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA88001, 0x7AA88016, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA88001, 0x7AA88017, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AA88001, 0x7AA88018, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA88001, 0x7AA88019, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7AA88001, 0x7AA88002, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7AA88001, 0x7AA88003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AA88001, 0x7AA88004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AA88001, 0x7AA88005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AA88001, 0x7AA88006, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AA88001, 0x7AA88007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AA88001, 0x7AA88008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AA88001, 0x7AA88009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AA88001, 0x7AA8800A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA88001, 0x7AA8800B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA88001, 0x7AA8800C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA88001, 0x7AA8800D, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AA88001, 0x7AA8800E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AA88001, 0x7AA8800F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AA88001, 0x7AA88010, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AA88001, 0x7AA88011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA88001, 0x7AA88012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA88001, 0x7AA88013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AA88001, 0x7AA88014, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AA88001, 0x7AA88015, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA88001, 0x7AA88016, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA88001, 0x7AA88017, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AA88001, 0x7AA88018, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA88001, 0x7AA88019, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA88002, 11981, 0xAA880026, 102.6198, 126.4878, 33.4594, 0.9606133, 0, 0, -0.2778886,  True, '2019-02-10 00:00:00'); /* Master of the Herd */

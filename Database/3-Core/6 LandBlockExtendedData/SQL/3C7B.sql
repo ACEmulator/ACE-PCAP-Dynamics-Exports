@@ -5,21 +5,21 @@ VALUES (0x73C7B001,  1154, 0x3C7B000A, 28.43966, 27.68645, 11.32282, 0.8311622, 
 /* @teleloc 0x3C7B000A [28.439660 27.686450 11.322820] 0.831162 0.000000 0.000000 -0.556030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C7B001, 0x73C7B002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73C7B001, 0x73C7B003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x73C7B001, 0x73C7B004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C7B001, 0x73C7B005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C7B001, 0x73C7B006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C7B001, 0x73C7B007, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C7B001, 0x73C7B008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C7B001, 0x73C7B009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C7B001, 0x73C7B00A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C7B001, 0x73C7B00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C7B001, 0x73C7B00C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C7B001, 0x73C7B00D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C7B001, 0x73C7B00E, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C7B001, 0x73C7B00F, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C7B001, 0x73C7B010, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73C7B001, 0x73C7B002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73C7B001, 0x73C7B003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x73C7B001, 0x73C7B004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C7B001, 0x73C7B005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C7B001, 0x73C7B006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C7B001, 0x73C7B007, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C7B001, 0x73C7B008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C7B001, 0x73C7B009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C7B001, 0x73C7B00A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C7B001, 0x73C7B00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C7B001, 0x73C7B00C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C7B001, 0x73C7B00D, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C7B001, 0x73C7B00E, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C7B001, 0x73C7B00F, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C7B001, 0x73C7B010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C7B002,  7126, 0x3C7B000A, 28.43966, 27.68645, 11.32282, 0.8311622, 0, 0, -0.55603,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -86,7 +86,7 @@ VALUES (0x73C7B011,  1542, 0x3C7B002B, 134.6307, 69.29882, 1.23, -4.371139E-08, 
 /* @teleloc 0x3C7B002B [134.630700 69.298820 1.230000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C7B011, 0x73C7B012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73C7B011, 0x73C7B012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C7B012,  4380, 0x3C7B002B, 134.6307, 69.29882, 1.23, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

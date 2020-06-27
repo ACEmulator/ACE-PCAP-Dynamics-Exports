@@ -5,12 +5,12 @@ VALUES (0x7D971001,  1154, 0xD9710003, 22.25783, 53.04175, 32.15118, -0.08237879
 /* @teleloc 0xD9710003 [22.257830 53.041750 32.151180] -0.082379 0.000000 0.000000 -0.996601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D971001, 0x7D971002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D971001, 0x7D971003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D971001, 0x7D971004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D971001, 0x7D971005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D971001, 0x7D971006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D971001, 0x7D971007, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7D971001, 0x7D971002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D971001, 0x7D971003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D971001, 0x7D971004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D971001, 0x7D971005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D971001, 0x7D971006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D971001, 0x7D971007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D971002,   227, 0xD9710003, 22.25783, 53.04175, 32.15118, -0.08237879, 0, 0, -0.9966011,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

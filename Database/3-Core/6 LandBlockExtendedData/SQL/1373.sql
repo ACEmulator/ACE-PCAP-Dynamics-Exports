@@ -5,17 +5,17 @@ VALUES (0x71373001,  1154, 0x1373003E, 179.6728, 127.3567, 86.94123, -0.9692977,
 /* @teleloc 0x1373003E [179.672800 127.356700 86.941230] -0.969298 0.000000 0.000000 -0.245890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71373001, 0x71373002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71373001, 0x71373003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71373001, 0x71373004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71373001, 0x71373005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x71373001, 0x71373006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71373001, 0x71373007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71373001, 0x71373008, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71373001, 0x71373009, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71373001, 0x7137300A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71373001, 0x7137300B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71373001, 0x7137300C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x71373001, 0x71373002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71373001, 0x71373003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71373001, 0x71373004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71373001, 0x71373005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x71373001, 0x71373006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71373001, 0x71373007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71373001, 0x71373008, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71373001, 0x71373009, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71373001, 0x7137300A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71373001, 0x7137300B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71373001, 0x7137300C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71373002, 10807, 0x1373003E, 179.6728, 127.3567, 86.94123, -0.9692977, 0, 0, -0.24589,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -66,7 +66,7 @@ VALUES (0x7137300D,  1542, 0x1373001D, 87.1286, 104.7867, 75.60664, 1, 0, 0, 0, 
 /* @teleloc 0x1373001D [87.128600 104.786700 75.606640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137300D, 0x7137300E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7137300D, 0x7137300E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137300E, 22571, 0x1373001D, 87.1286, 104.7867, 75.60664, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

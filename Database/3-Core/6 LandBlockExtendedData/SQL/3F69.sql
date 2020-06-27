@@ -5,19 +5,19 @@ VALUES (0x73F69001,  1154, 0x3F69000D, 24.71018, 117.0385, 40.0065, 0.8253208, 0
 /* @teleloc 0x3F69000D [24.710180 117.038500 40.006500] 0.825321 0.000000 0.000000 -0.564664 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F69001, 0x73F69002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F69001, 0x73F69003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73F69001, 0x73F69004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73F69001, 0x73F69005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F69001, 0x73F69006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F69001, 0x73F69007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F69001, 0x73F69008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73F69001, 0x73F69009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F69001, 0x73F6900A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F69001, 0x73F6900B, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F69001, 0x73F6900C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73F69001, 0x73F6900D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73F69001, 0x73F6900E, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x73F69001, 0x73F69002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F69001, 0x73F69003, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73F69001, 0x73F69004, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73F69001, 0x73F69005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F69001, 0x73F69006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F69001, 0x73F69007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F69001, 0x73F69008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73F69001, 0x73F69009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F69001, 0x73F6900A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F69001, 0x73F6900B, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F69001, 0x73F6900C, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73F69001, 0x73F6900D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73F69001, 0x73F6900E, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F69002,  7119, 0x3F69000D, 24.71018, 117.0385, 40.0065, 0.8253208, 0, 0, -0.5646642,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

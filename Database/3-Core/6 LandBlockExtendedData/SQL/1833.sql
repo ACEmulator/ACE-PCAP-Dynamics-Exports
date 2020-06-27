@@ -5,10 +5,10 @@ VALUES (0x71833001,  1154, 0x1833003E, 169.4293, 138.9722, 6.01, -0.8231618, 0, 
 /* @teleloc 0x1833003E [169.429300 138.972200 6.010000] -0.823162 0.000000 0.000000 -0.567807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71833001, 0x71833002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71833001, 0x71833003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71833001, 0x71833004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71833001, 0x71833005, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x71833001, 0x71833002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71833001, 0x71833003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71833001, 0x71833004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71833001, 0x71833005, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71833002, 15267, 0x1833003E, 169.4293, 138.9722, 6.01, -0.8231618, 0, 0, -0.5678068,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

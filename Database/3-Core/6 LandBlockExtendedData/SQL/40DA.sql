@@ -5,33 +5,33 @@ VALUES (0x740DA001,  1154, 0x40DA003F, 180.5562, 154.4274, 12.88655, 0.6293204, 
 /* @teleloc 0x40DA003F [180.556200 154.427400 12.886550] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740DA001, 0x740DA002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x740DA001, 0x740DA003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x740DA001, 0x740DA004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x740DA001, 0x740DA007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x740DA001, 0x740DA008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x740DA001, 0x740DA009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740DA001, 0x740DA00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740DA001, 0x740DA00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740DA001, 0x740DA00C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x740DA001, 0x740DA00F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x740DA001, 0x740DA010, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x740DA001, 0x740DA011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA013, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x740DA001, 0x740DA014, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x740DA001, 0x740DA015, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x740DA001, 0x740DA016, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA017, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x740DA001, 0x740DA018, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x740DA001, 0x740DA019, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA01A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA01B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740DA001, 0x740DA01C, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x740DA001, 0x740DA002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x740DA001, 0x740DA003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x740DA001, 0x740DA004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x740DA001, 0x740DA007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x740DA001, 0x740DA008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x740DA001, 0x740DA009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740DA001, 0x740DA00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740DA001, 0x740DA00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740DA001, 0x740DA00C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA00E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x740DA001, 0x740DA00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x740DA001, 0x740DA010, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x740DA001, 0x740DA011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA013, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x740DA001, 0x740DA014, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x740DA001, 0x740DA015, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x740DA001, 0x740DA016, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA017, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x740DA001, 0x740DA018, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x740DA001, 0x740DA019, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA01A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA01B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740DA001, 0x740DA01C, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740DA002,  7113, 0x40DA003F, 180.5562, 154.4274, 12.88655, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -146,10 +146,10 @@ VALUES (0x740DA01D,  1542, 0x40DA001B, 92.61574, 70.07957, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x40DA001B [92.615740 70.079570 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740DA01D, 0x740DA01E, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x740DA01D, 0x740DA01F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x740DA01D, 0x740DA020, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x740DA01D, 0x740DA021, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x740DA01D, 0x740DA01E, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x740DA01D, 0x740DA01F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x740DA01D, 0x740DA020, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x740DA01D, 0x740DA021, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740DA01E,  8999, 0x40DA001B, 92.61574, 70.07957, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

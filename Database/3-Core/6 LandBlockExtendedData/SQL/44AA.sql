@@ -5,9 +5,9 @@ VALUES (0x744AA001,  1154, 0x44AA0014, 69.80971, 88.14819, 82.43556, -0.985476, 
 /* @teleloc 0x44AA0014 [69.809710 88.148190 82.435560] -0.985476 0.000000 0.000000 -0.169815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744AA001, 0x744AA002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x744AA001, 0x744AA003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x744AA001, 0x744AA004, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x744AA001, 0x744AA002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x744AA001, 0x744AA003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x744AA001, 0x744AA004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744AA002,  7121, 0x44AA0014, 69.80971, 88.14819, 82.43556, -0.985476, 0, 0, -0.1698151,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

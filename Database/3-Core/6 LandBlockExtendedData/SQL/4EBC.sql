@@ -5,8 +5,8 @@ VALUES (0x74EBC001,  1154, 0x4EBC0008, 13.55296, 183.0053, 69.56798, -0.9844288,
 /* @teleloc 0x4EBC0008 [13.552960 183.005300 69.567980] -0.984429 0.000000 0.000000 -0.175784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EBC001, 0x74EBC002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74EBC001, 0x74EBC003, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x74EBC001, 0x74EBC002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74EBC001, 0x74EBC003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EBC002, 24293, 0x4EBC0008, 13.55296, 183.0053, 69.56798, -0.9844288, 0, 0, -0.1757836,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

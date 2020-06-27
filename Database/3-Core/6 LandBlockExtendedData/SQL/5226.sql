@@ -5,9 +5,9 @@ VALUES (0x75226001,  1154, 0x52260030, 126.3875, 191.0074, -0.4435, 0.7907208, 0
 /* @teleloc 0x52260030 [126.387500 191.007400 -0.443500] 0.790721 0.000000 0.000000 -0.612177 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75226001, 0x75226002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x75226001, 0x75226003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75226001, 0x75226004, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x75226001, 0x75226002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x75226001, 0x75226003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75226001, 0x75226004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75226002,  8431, 0x52260030, 126.3875, 191.0074, -0.4435, 0.7907208, 0, 0, -0.612177,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

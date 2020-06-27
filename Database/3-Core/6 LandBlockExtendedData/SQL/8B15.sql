@@ -5,15 +5,15 @@ VALUES (0x78B15001,  1154, 0x8B15003C, 188.1189, 73.19718, 314.4332, 0.7565425, 
 /* @teleloc 0x8B15003C [188.118900 73.197180 314.433200] 0.756543 0.000000 0.000000 -0.653945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B15001, 0x78B15002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78B15001, 0x78B15003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x78B15001, 0x78B15004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78B15001, 0x78B15005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78B15001, 0x78B15006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78B15001, 0x78B15007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78B15001, 0x78B15008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78B15001, 0x78B15009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78B15001, 0x78B1500A, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x78B15001, 0x78B15002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78B15001, 0x78B15003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x78B15001, 0x78B15004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78B15001, 0x78B15005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78B15001, 0x78B15006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78B15001, 0x78B15007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78B15001, 0x78B15008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78B15001, 0x78B15009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78B15001, 0x78B1500A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B15002, 14559, 0x8B15003C, 188.1189, 73.19718, 314.4332, 0.7565425, 0, 0, -0.6539446,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -56,7 +56,7 @@ VALUES (0x78B1500B,  1542, 0x8B150035, 153.9463, 113.2215, 318, 0.7565425, 0, 0,
 /* @teleloc 0x8B150035 [153.946300 113.221500 318.000000] 0.756543 0.000000 0.000000 -0.653945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B1500B, 0x78B1500C, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x78B1500B, 0x78B1500C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B1500C,  8644, 0x8B150035, 153.9463, 113.2215, 318, 0.7565425, 0, 0, -0.6539446,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

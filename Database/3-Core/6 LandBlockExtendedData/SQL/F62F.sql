@@ -5,22 +5,22 @@ VALUES (0x7F62F001,  1154, 0xF62F0028, 112.6571, 180.8123, -0.8994999, 0.1148959
 /* @teleloc 0xF62F0028 [112.657100 180.812300 -0.899500] 0.114896 0.000000 0.000000 -0.993378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F62F001, 0x7F62F002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F62F001, 0x7F62F003, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F62F001, 0x7F62F004, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F62F001, 0x7F62F005, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F62F001, 0x7F62F006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F62F001, 0x7F62F007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F62F001, 0x7F62F008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F62F001, 0x7F62F009, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F62F001, 0x7F62F00A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F62F001, 0x7F62F00B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F62F001, 0x7F62F00C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F62F001, 0x7F62F00D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F62F001, 0x7F62F00E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F62F001, 0x7F62F00F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F62F001, 0x7F62F010, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F62F001, 0x7F62F011, '2019-02-10 00:00:00') /* Bandit Mana Hunter */;
+VALUES (0x7F62F001, 0x7F62F002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F62F001, 0x7F62F003, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F62F001, 0x7F62F004, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F62F001, 0x7F62F005, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F62F001, 0x7F62F006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F62F001, 0x7F62F007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F62F001, 0x7F62F008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F62F001, 0x7F62F009, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F62F001, 0x7F62F00A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F62F001, 0x7F62F00B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F62F001, 0x7F62F00C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F62F001, 0x7F62F00D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F62F001, 0x7F62F00E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F62F001, 0x7F62F00F, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F62F001, 0x7F62F010, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F62F001, 0x7F62F011, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F62F002, 40307, 0xF62F0028, 112.6571, 180.8123, -0.8994999, 0.1148959, 0, 0, -0.9933776,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

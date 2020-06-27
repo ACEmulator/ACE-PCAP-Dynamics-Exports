@@ -5,87 +5,87 @@ VALUES (0x729EE001,  1154, 0x29EE003E, 191.3867, 130.7182, 45.94889, 0.6227022, 
 /* @teleloc 0x29EE003E [191.386700 130.718200 45.948890] 0.622702 0.000000 0.000000 -0.782459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729EE001, 0x729EE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x729EE001, 0x729EE003, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE004, '2019-02-10 00:00:00') /* Eater */
-     , (0x729EE001, 0x729EE005, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x729EE001, 0x729EE006, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EE001, 0x729EE007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x729EE001, 0x729EE008, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EE001, 0x729EE009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x729EE001, 0x729EE00A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x729EE001, 0x729EE00B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x729EE001, 0x729EE00C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE00D, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EE001, 0x729EE00E, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE00F, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x729EE001, 0x729EE010, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x729EE001, 0x729EE012, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x729EE001, 0x729EE013, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x729EE001, 0x729EE014, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x729EE001, 0x729EE015, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x729EE001, 0x729EE016, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x729EE001, 0x729EE017, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE018, '2019-02-10 00:00:00') /* Eater */
-     , (0x729EE001, 0x729EE019, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x729EE001, 0x729EE01A, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x729EE001, 0x729EE01B, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE01C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE01D, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EE001, 0x729EE01E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x729EE001, 0x729EE01F, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x729EE001, 0x729EE020, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x729EE001, 0x729EE021, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EE001, 0x729EE022, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x729EE001, 0x729EE023, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EE001, 0x729EE024, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EE001, 0x729EE025, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x729EE001, 0x729EE026, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x729EE001, 0x729EE027, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x729EE001, 0x729EE028, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729EE001, 0x729EE029, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x729EE001, 0x729EE02A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x729EE001, 0x729EE02B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x729EE001, 0x729EE02C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x729EE001, 0x729EE02D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729EE001, 0x729EE02E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x729EE001, 0x729EE02F, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x729EE001, 0x729EE030, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x729EE001, 0x729EE031, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x729EE001, 0x729EE032, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x729EE001, 0x729EE033, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x729EE001, 0x729EE034, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x729EE001, 0x729EE035, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EE001, 0x729EE036, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x729EE001, 0x729EE037, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x729EE001, 0x729EE038, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x729EE001, 0x729EE039, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x729EE001, 0x729EE03A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729EE001, 0x729EE03B, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x729EE001, 0x729EE03C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x729EE001, 0x729EE03D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x729EE001, 0x729EE03E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x729EE001, 0x729EE03F, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x729EE001, 0x729EE040, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x729EE001, 0x729EE041, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EE001, 0x729EE042, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x729EE001, 0x729EE043, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x729EE001, 0x729EE044, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x729EE001, 0x729EE045, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x729EE001, 0x729EE046, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x729EE001, 0x729EE047, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x729EE001, 0x729EE048, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x729EE001, 0x729EE049, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x729EE001, 0x729EE04A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x729EE001, 0x729EE04B, '2019-02-10 00:00:00') /* Eater */
-     , (0x729EE001, 0x729EE04C, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x729EE001, 0x729EE04D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x729EE001, 0x729EE04E, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x729EE001, 0x729EE04F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x729EE001, 0x729EE050, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EE001, 0x729EE051, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x729EE001, 0x729EE052, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x729EE001, 0x729EE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x729EE001, 0x729EE003, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE004, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x729EE001, 0x729EE005, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x729EE001, 0x729EE006, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EE001, 0x729EE007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x729EE001, 0x729EE008, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EE001, 0x729EE009, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x729EE001, 0x729EE00A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x729EE001, 0x729EE00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x729EE001, 0x729EE00C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE00D, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EE001, 0x729EE00E, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE00F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x729EE001, 0x729EE010, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x729EE001, 0x729EE012, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x729EE001, 0x729EE013, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x729EE001, 0x729EE014, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x729EE001, 0x729EE015, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x729EE001, 0x729EE016, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x729EE001, 0x729EE017, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE018, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x729EE001, 0x729EE019, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x729EE001, 0x729EE01A, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x729EE001, 0x729EE01B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE01C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE01D, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EE001, 0x729EE01E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x729EE001, 0x729EE01F, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x729EE001, 0x729EE020, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x729EE001, 0x729EE021, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EE001, 0x729EE022, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x729EE001, 0x729EE023, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EE001, 0x729EE024, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EE001, 0x729EE025, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x729EE001, 0x729EE026, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x729EE001, 0x729EE027, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x729EE001, 0x729EE028, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729EE001, 0x729EE029, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x729EE001, 0x729EE02A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x729EE001, 0x729EE02B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x729EE001, 0x729EE02C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x729EE001, 0x729EE02D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729EE001, 0x729EE02E, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x729EE001, 0x729EE02F, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x729EE001, 0x729EE030, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x729EE001, 0x729EE031, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x729EE001, 0x729EE032, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x729EE001, 0x729EE033, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x729EE001, 0x729EE034, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729EE001, 0x729EE035, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EE001, 0x729EE036, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x729EE001, 0x729EE037, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x729EE001, 0x729EE038, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x729EE001, 0x729EE039, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x729EE001, 0x729EE03A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729EE001, 0x729EE03B, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x729EE001, 0x729EE03C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x729EE001, 0x729EE03D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x729EE001, 0x729EE03E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x729EE001, 0x729EE03F, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x729EE001, 0x729EE040, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x729EE001, 0x729EE041, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EE001, 0x729EE042, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x729EE001, 0x729EE043, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x729EE001, 0x729EE044, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x729EE001, 0x729EE045, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x729EE001, 0x729EE046, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x729EE001, 0x729EE047, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x729EE001, 0x729EE048, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729EE001, 0x729EE049, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x729EE001, 0x729EE04A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x729EE001, 0x729EE04B, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x729EE001, 0x729EE04C, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x729EE001, 0x729EE04D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x729EE001, 0x729EE04E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x729EE001, 0x729EE04F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x729EE001, 0x729EE050, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EE001, 0x729EE051, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x729EE001, 0x729EE052, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729EE002, 28551, 0x29EE003E, 191.3867, 130.7182, 45.94889, 0.6227022, 0, 0, -0.7824589,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

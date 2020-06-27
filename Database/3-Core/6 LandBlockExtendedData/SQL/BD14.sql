@@ -5,17 +5,17 @@ VALUES (0x7BD14001,  1154, 0xBD140013, 58.19666, 66.1089, 8.727594, -0.5052496, 
 /* @teleloc 0xBD140013 [58.196660 66.108900 8.727594] -0.505250 0.000000 0.000000 -0.862973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD14001, 0x7BD14002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BD14001, 0x7BD14003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BD14001, 0x7BD14004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BD14001, 0x7BD14005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BD14001, 0x7BD14006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BD14001, 0x7BD14007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BD14001, 0x7BD14008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BD14001, 0x7BD14009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BD14001, 0x7BD1400A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BD14001, 0x7BD1400B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BD14001, 0x7BD1400C, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BD14001, 0x7BD14002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BD14001, 0x7BD14003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BD14001, 0x7BD14004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BD14001, 0x7BD14005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BD14001, 0x7BD14006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BD14001, 0x7BD14007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BD14001, 0x7BD14008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BD14001, 0x7BD14009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BD14001, 0x7BD1400A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BD14001, 0x7BD1400B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BD14001, 0x7BD1400C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD14002, 14800, 0xBD140013, 58.19666, 66.1089, 8.727594, -0.5052496, 0, 0, -0.8629733,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -66,13 +66,13 @@ VALUES (0x7BD1400D,  1542, 0xBD14000B, 39.30729, 67.86936, 10.25663, 0.4226182, 
 /* @teleloc 0xBD14000B [39.307290 67.869360 10.256630] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD1400D, 0x7BD1400E, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7BD1400D, 0x7BD1400F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BD1400D, 0x7BD14010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BD1400D, 0x7BD14011, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BD1400D, 0x7BD14012, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7BD1400D, 0x7BD14013, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7BD1400D, 0x7BD14014, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7BD1400D, 0x7BD1400E, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7BD1400D, 0x7BD1400F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BD1400D, 0x7BD14010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BD1400D, 0x7BD14011, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BD1400D, 0x7BD14012, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7BD1400D, 0x7BD14013, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7BD1400D, 0x7BD14014, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD1400E,  9041, 0xBD14000B, 39.30729, 67.86936, 10.25663, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Zairente's Frying Pan */

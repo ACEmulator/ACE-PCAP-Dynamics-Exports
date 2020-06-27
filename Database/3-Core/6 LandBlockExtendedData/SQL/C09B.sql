@@ -9,19 +9,19 @@ VALUES (0x7C09B001,  1154, 0xC09B001C, 92.49322, 73.03742, 2.00935, 0.3820075, 0
 /* @teleloc 0xC09B001C [92.493220 73.037420 2.009350] 0.382008 0.000000 0.000000 -0.924159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C09B001, 0x7C09B002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C09B001, 0x7C09B003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C09B001, 0x7C09B004, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C09B001, 0x7C09B005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C09B001, 0x7C09B006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C09B001, 0x7C09B007, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C09B001, 0x7C09B008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C09B001, 0x7C09B009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C09B001, 0x7C09B00A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C09B001, 0x7C09B00B, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C09B001, 0x7C09B00C, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C09B001, 0x7C09B00D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C09B001, 0x7C09B00E, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7C09B001, 0x7C09B002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C09B001, 0x7C09B003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C09B001, 0x7C09B004, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C09B001, 0x7C09B005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C09B001, 0x7C09B006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C09B001, 0x7C09B007, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C09B001, 0x7C09B008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C09B001, 0x7C09B009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C09B001, 0x7C09B00A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C09B001, 0x7C09B00B, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C09B001, 0x7C09B00C, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C09B001, 0x7C09B00D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C09B001, 0x7C09B00E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C09B002,    20, 0xC09B001C, 92.49322, 73.03742, 2.00935, 0.3820075, 0, 0, -0.9241592,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
@@ -80,7 +80,7 @@ VALUES (0x7C09B00F,  1542, 0xC09B0022, 116.5834, 44.95594, 3.715287, 0.3820075, 
 /* @teleloc 0xC09B0022 [116.583400 44.955940 3.715287] 0.382008 0.000000 0.000000 -0.924159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C09B00F, 0x7C09B010, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C09B00F, 0x7C09B010, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C09B010,  8644, 0xC09B0022, 116.5834, 44.95594, 3.715287, 0.3820075, 0, 0, -0.9241592,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

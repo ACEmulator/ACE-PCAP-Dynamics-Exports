@@ -5,11 +5,11 @@ VALUES (0x78DB6001,  1154, 0x8DB60005, 21.26375, 116.951, 47.27581, 0.9924362, 0
 /* @teleloc 0x8DB60005 [21.263750 116.951000 47.275810] 0.992436 0.000000 0.000000 -0.122762 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB6001, 0x78DB6002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB6001, 0x78DB6003, '2019-02-10 00:00:00') /* Frost */
-     , (0x78DB6001, 0x78DB6004, '2019-02-10 00:00:00') /* Frost */
-     , (0x78DB6001, 0x78DB6005, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78DB6001, 0x78DB6006, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x78DB6001, 0x78DB6002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB6001, 0x78DB6003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78DB6001, 0x78DB6004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78DB6001, 0x78DB6005, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78DB6001, 0x78DB6006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB6002,  7105, 0x8DB60005, 21.26375, 116.951, 47.27581, 0.9924362, 0, 0, -0.1227619,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

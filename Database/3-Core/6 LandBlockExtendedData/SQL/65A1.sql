@@ -5,15 +5,15 @@ VALUES (0x765A1001,  1154, 0x65A10030, 125.0009, 174.58, 50.62818, -0.5915307, 0
 /* @teleloc 0x65A10030 [125.000900 174.580000 50.628180] -0.591531 0.000000 0.000000 -0.806283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765A1001, 0x765A1002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x765A1001, 0x765A1003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x765A1001, 0x765A1004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x765A1001, 0x765A1005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x765A1001, 0x765A1006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x765A1001, 0x765A1007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x765A1001, 0x765A1008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x765A1001, 0x765A1009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x765A1001, 0x765A100A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x765A1001, 0x765A1002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x765A1001, 0x765A1003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x765A1001, 0x765A1004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x765A1001, 0x765A1005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x765A1001, 0x765A1006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x765A1001, 0x765A1007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x765A1001, 0x765A1008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x765A1001, 0x765A1009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x765A1001, 0x765A100A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765A1002, 14800, 0x65A10030, 125.0009, 174.58, 50.62818, -0.5915307, 0, 0, -0.8062825,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -56,7 +56,7 @@ VALUES (0x765A100B,  1542, 0x65A1000D, 43.57433, 117.7757, 70.18536, 0.9238795, 
 /* @teleloc 0x65A1000D [43.574330 117.775700 70.185360] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765A100B, 0x765A100C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x765A100B, 0x765A100C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765A100C,  4180, 0x65A1000D, 43.57433, 117.7757, 70.18536, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

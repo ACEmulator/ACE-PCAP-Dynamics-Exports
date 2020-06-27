@@ -5,24 +5,24 @@ VALUES (0x73A11001,  1154, 0x3A11012B, 87.0939, 116.422, -40, 0.9999985, 0, 0, 0
 /* @teleloc 0x3A11012B [87.093900 116.422000 -40.000000] 0.999999 0.000000 0.000000 0.001760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A11001, 0x73A11002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x73A11001, 0x73A11003, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A11004, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x73A11001, 0x73A11005, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A11006, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A11007, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A11008, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A11009, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A1100A, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A1100B, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x73A11001, 0x73A1100C, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x73A11001, 0x73A1100D, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73A11001, 0x73A1100E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73A11001, 0x73A1100F, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A11001, 0x73A11010, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A11001, 0x73A11011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73A11001, 0x73A11012, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A11001, 0x73A11013, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73A11001, 0x73A11002, '2019-02-10 00:00:00') /* Exploration Marker (39841) */
+     , (0x73A11001, 0x73A11003, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A11004, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x73A11001, 0x73A11005, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A11006, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A11007, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A11008, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A11009, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A1100A, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A1100B, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x73A11001, 0x73A1100C, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x73A11001, 0x73A1100D, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73A11001, 0x73A1100E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73A11001, 0x73A1100F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A11001, 0x73A11010, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A11001, 0x73A11011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73A11001, 0x73A11012, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A11001, 0x73A11013, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A11002, 39841, 0x3A11012B, 87.0939, 116.422, -40, 0.9999985, 0, 0, 0.001759641,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -101,9 +101,9 @@ VALUES (0x73A11014,  1542, 0x3A110025, 97, 108, 32, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x3A110025 [97.000000 108.000000 32.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A11014, 0x73A11015, '2019-02-10 00:00:00') /* Temple Door */
-     , (0x73A11014, 0x73A11016, '2019-02-10 00:00:00') /* Temple Door */
-     , (0x73A11014, 0x73A11017, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x73A11014, 0x73A11015, '2019-02-10 00:00:00') /* Temple Door (38369) */
+     , (0x73A11014, 0x73A11016, '2019-02-10 00:00:00') /* Temple Door (38369) */
+     , (0x73A11014, 0x73A11017, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A11015, 38369, 0x3A110025, 97, 108, 32, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Temple Door */

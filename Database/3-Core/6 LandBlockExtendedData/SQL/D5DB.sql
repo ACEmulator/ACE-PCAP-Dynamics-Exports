@@ -5,26 +5,26 @@ VALUES (0x7D5DB001,  1154, 0xD5DB000D, 24.65071, 115.1917, 0, 0.4062766, 0, 0, -
 /* @teleloc 0xD5DB000D [24.650710 115.191700 0.000000] 0.406277 0.000000 0.000000 -0.913750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5DB001, 0x7D5DB002, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D5DB001, 0x7D5DB003, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D5DB001, 0x7D5DB004, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D5DB001, 0x7D5DB005, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7D5DB001, 0x7D5DB006, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D5DB001, 0x7D5DB007, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D5DB001, 0x7D5DB008, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DB001, 0x7D5DB009, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DB001, 0x7D5DB00A, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D5DB001, 0x7D5DB00B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DB001, 0x7D5DB00C, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DB001, 0x7D5DB00D, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DB001, 0x7D5DB00E, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DB001, 0x7D5DB00F, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DB001, 0x7D5DB010, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DB001, 0x7D5DB011, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DB001, 0x7D5DB012, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DB001, 0x7D5DB013, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DB001, 0x7D5DB014, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DB001, 0x7D5DB015, '2019-02-10 00:00:00') /* Mucky Moarsman */;
+VALUES (0x7D5DB001, 0x7D5DB002, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D5DB001, 0x7D5DB003, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D5DB001, 0x7D5DB004, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D5DB001, 0x7D5DB005, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7D5DB001, 0x7D5DB006, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D5DB001, 0x7D5DB007, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D5DB001, 0x7D5DB008, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DB001, 0x7D5DB009, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DB001, 0x7D5DB00A, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D5DB001, 0x7D5DB00B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DB001, 0x7D5DB00C, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DB001, 0x7D5DB00D, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DB001, 0x7D5DB00E, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DB001, 0x7D5DB00F, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DB001, 0x7D5DB010, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DB001, 0x7D5DB011, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DB001, 0x7D5DB012, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DB001, 0x7D5DB013, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DB001, 0x7D5DB014, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DB001, 0x7D5DB015, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5DB002, 31908, 0xD5DB000D, 24.65071, 115.1917, 0, 0.4062766, 0, 0, -0.9137502,  True, '2019-02-10 00:00:00'); /* Remoran Raker */

@@ -5,16 +5,16 @@ VALUES (0x78CC9001,  1154, 0x8CC90031, 146.9756, 8.196649, 122.3858, -0.2198226,
 /* @teleloc 0x8CC90031 [146.975600 8.196649 122.385800] -0.219823 0.000000 0.000000 -0.975540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CC9001, 0x78CC9002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CC9001, 0x78CC9003, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CC9001, 0x78CC9004, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CC9001, 0x78CC9005, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CC9001, 0x78CC9006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CC9001, 0x78CC9007, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CC9001, 0x78CC9008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CC9001, 0x78CC9009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CC9001, 0x78CC900A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CC9001, 0x78CC900B, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x78CC9001, 0x78CC9002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CC9001, 0x78CC9003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CC9001, 0x78CC9004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CC9001, 0x78CC9005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CC9001, 0x78CC9006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CC9001, 0x78CC9007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CC9001, 0x78CC9008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CC9001, 0x78CC9009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CC9001, 0x78CC900A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CC9001, 0x78CC900B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CC9002, 38177, 0x8CC90031, 146.9756, 8.196649, 122.3858, -0.2198226, 0, 0, -0.9755399,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

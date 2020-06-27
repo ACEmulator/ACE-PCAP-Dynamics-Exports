@@ -13,27 +13,27 @@ VALUES (0x75AD8002,  1154, 0x5AD80101, 62.3547, 183.134, 82.005, 0.311627, 0, 0,
 /* @teleloc 0x5AD80101 [62.354700 183.134000 82.005000] 0.311627 0.000000 0.000000 0.950205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AD8002, 0x75AD8003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x75AD8002, 0x75AD8004, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x75AD8002, 0x75AD8005, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x75AD8002, 0x75AD8006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75AD8002, 0x75AD8007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75AD8002, 0x75AD8008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75AD8002, 0x75AD8009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75AD8002, 0x75AD800A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75AD8002, 0x75AD800B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75AD8002, 0x75AD800C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75AD8002, 0x75AD800D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75AD8002, 0x75AD800E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75AD8002, 0x75AD800F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75AD8002, 0x75AD8010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75AD8002, 0x75AD8011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75AD8002, 0x75AD8012, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75AD8002, 0x75AD8013, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75AD8002, 0x75AD8014, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75AD8002, 0x75AD8015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75AD8002, 0x75AD8016, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75AD8002, 0x75AD8017, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x75AD8002, 0x75AD8003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x75AD8002, 0x75AD8004, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x75AD8002, 0x75AD8005, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x75AD8002, 0x75AD8006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75AD8002, 0x75AD8007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75AD8002, 0x75AD8008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75AD8002, 0x75AD8009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75AD8002, 0x75AD800A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75AD8002, 0x75AD800B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75AD8002, 0x75AD800C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75AD8002, 0x75AD800D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75AD8002, 0x75AD800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75AD8002, 0x75AD800F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75AD8002, 0x75AD8010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75AD8002, 0x75AD8011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75AD8002, 0x75AD8012, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75AD8002, 0x75AD8013, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75AD8002, 0x75AD8014, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x75AD8002, 0x75AD8015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75AD8002, 0x75AD8016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75AD8002, 0x75AD8017, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AD8003, 29300, 0x5AD80101, 62.3547, 183.134, 82.005, 0.311627, 0, 0, 0.950205,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */
@@ -124,9 +124,9 @@ VALUES (0x75AD8018,  1542, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-
 /* @teleloc 0x5AD80034 [153.441900 87.114870 152.435500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AD8018, 0x75AD8019, '2019-02-10 00:00:00') /* Bones */
-     , (0x75AD8018, 0x75AD801A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75AD8018, 0x75AD801B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x75AD8018, 0x75AD8019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75AD8018, 0x75AD801A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x75AD8018, 0x75AD801B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AD8019,  4380, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

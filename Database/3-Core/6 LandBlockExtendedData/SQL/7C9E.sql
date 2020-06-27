@@ -5,16 +5,16 @@ VALUES (0x77C9E001,  1154, 0x7C9E0028, 107.4032, 185.3874, 76.25916, -0.6688727,
 /* @teleloc 0x7C9E0028 [107.403200 185.387400 76.259160] -0.668873 0.000000 0.000000 -0.743377 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C9E001, 0x77C9E002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x77C9E001, 0x77C9E003, '2019-02-10 00:00:00') /* Static */
-     , (0x77C9E001, 0x77C9E004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x77C9E001, 0x77C9E005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x77C9E001, 0x77C9E006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x77C9E001, 0x77C9E007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77C9E001, 0x77C9E008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77C9E001, 0x77C9E009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77C9E001, 0x77C9E00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77C9E001, 0x77C9E00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77C9E001, 0x77C9E002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x77C9E001, 0x77C9E003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x77C9E001, 0x77C9E004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x77C9E001, 0x77C9E005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x77C9E001, 0x77C9E006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x77C9E001, 0x77C9E007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77C9E001, 0x77C9E008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77C9E001, 0x77C9E009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77C9E001, 0x77C9E00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77C9E001, 0x77C9E00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C9E002,  6380, 0x7C9E0028, 107.4032, 185.3874, 76.25916, -0.6688727, 0, 0, -0.743377,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -61,8 +61,8 @@ VALUES (0x77C9E00C,  1542, 0x7C9E001E, 91.71553, 138.0995, 78.02483, 1, 0, 0, 0,
 /* @teleloc 0x7C9E001E [91.715530 138.099500 78.024830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C9E00C, 0x77C9E00D, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x77C9E00C, 0x77C9E00E, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x77C9E00C, 0x77C9E00D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x77C9E00C, 0x77C9E00E, '2019-02-10 00:00:00') /* Old Gravestone (34104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C9E00D, 31443, 0x7C9E001E, 91.71553, 138.0995, 78.02483, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

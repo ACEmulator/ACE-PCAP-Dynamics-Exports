@@ -5,10 +5,10 @@ VALUES (0x7C15C001,  1154, 0xC15C0012, 64.4026, 26.95076, 6.0025, 0.9932669, 0, 
 /* @teleloc 0xC15C0012 [64.402600 26.950760 6.002500] 0.993267 0.000000 0.000000 -0.115848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15C001, 0x7C15C002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C15C001, 0x7C15C003, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7C15C001, 0x7C15C004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C15C001, 0x7C15C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7C15C001, 0x7C15C002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C15C001, 0x7C15C003, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7C15C001, 0x7C15C004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C15C001, 0x7C15C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15C002,  1762, 0xC15C0012, 64.4026, 26.95076, 6.0025, 0.9932669, 0, 0, -0.1158479,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -31,8 +31,8 @@ VALUES (0x7C15C006,  1542, 0xC15C0005, 20.69563, 109.6147, 6, 0.8870109, 0, 0, -
 /* @teleloc 0xC15C0005 [20.695630 109.614700 6.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15C006, 0x7C15C007, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C15C006, 0x7C15C008, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7C15C006, 0x7C15C007, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7C15C006, 0x7C15C008, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15C007,  4379, 0xC15C0005, 20.69563, 109.6147, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Bones */

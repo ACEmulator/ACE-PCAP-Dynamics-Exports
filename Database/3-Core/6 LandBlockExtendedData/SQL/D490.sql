@@ -5,11 +5,11 @@ VALUES (0x7D490001,  1154, 0xD490002F, 132.9591, 165.9739, 0.01300001, 0.9786929
 /* @teleloc 0xD490002F [132.959100 165.973900 0.013000] 0.978693 0.000000 0.000000 -0.205330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D490001, 0x7D490002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D490001, 0x7D490003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D490001, 0x7D490004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D490001, 0x7D490005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D490001, 0x7D490006, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7D490001, 0x7D490002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D490001, 0x7D490003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D490001, 0x7D490004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D490001, 0x7D490005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D490001, 0x7D490006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D490002,   217, 0xD490002F, 132.9591, 165.9739, 0.01300001, 0.9786929, 0, 0, -0.2053296,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -36,7 +36,7 @@ VALUES (0x7D490007,  1542, 0xD4900027, 114.2071, 154.0784, 0.011, 0.9786929, 0, 
 /* @teleloc 0xD4900027 [114.207100 154.078400 0.011000] 0.978693 0.000000 0.000000 -0.205330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D490007, 0x7D490008, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7D490007, 0x7D490008, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D490008, 31686, 0xD4900027, 114.2071, 154.0784, 0.011, 0.9786929, 0, 0, -0.2053296,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

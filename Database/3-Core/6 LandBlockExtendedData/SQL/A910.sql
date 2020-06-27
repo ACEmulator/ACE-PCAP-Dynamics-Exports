@@ -5,15 +5,15 @@ VALUES (0x7A910001,  1154, 0xA910000B, 36.54262, 54.14028, 111.7551, 0.8433914, 
 /* @teleloc 0xA910000B [36.542620 54.140280 111.755100] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A910001, 0x7A910002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A910001, 0x7A910003, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7A910001, 0x7A910004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A910001, 0x7A910005, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A910001, 0x7A910006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7A910001, 0x7A910007, '2019-02-10 00:00:00') /* Master of Breath */
-     , (0x7A910001, 0x7A910008, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7A910001, 0x7A910009, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7A910001, 0x7A91000A, '2019-02-10 00:00:00') /* Ebon Mattekar */;
+VALUES (0x7A910001, 0x7A910002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A910001, 0x7A910003, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7A910001, 0x7A910004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A910001, 0x7A910005, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A910001, 0x7A910006, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x7A910001, 0x7A910007, '2019-02-10 00:00:00') /* Master of Breath (34562) */
+     , (0x7A910001, 0x7A910008, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7A910001, 0x7A910009, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7A910001, 0x7A91000A, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A910002,  1610, 0xA910000B, 36.54262, 54.14028, 111.7551, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -56,8 +56,8 @@ VALUES (0x7A91000B,  1542, 0xA9100021, 104.2063, 10.51719, 110.278, 0.9885157, 0
 /* @teleloc 0xA9100021 [104.206300 10.517190 110.278000] 0.988516 0.000000 0.000000 -0.151118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A91000B, 0x7A91000C, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A91000B, 0x7A91000D, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A91000B, 0x7A91000C, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A91000B, 0x7A91000D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A91000C, 42528, 0xA9100021, 104.2063, 10.51719, 110.278, 0.9885157, 0, 0, -0.1511181,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,10 +5,10 @@ VALUES (0x7939F001,  1154, 0x939F001B, 82.85156, 69.2608, 96.675, 0.9999422, 0, 
 /* @teleloc 0x939F001B [82.851560 69.260800 96.675000] 0.999942 0.000000 0.000000 -0.010755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7939F001, 0x7939F002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7939F001, 0x7939F003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7939F001, 0x7939F004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7939F001, 0x7939F005, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7939F001, 0x7939F002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7939F001, 0x7939F003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7939F001, 0x7939F004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7939F001, 0x7939F005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7939F002, 11528, 0x939F001B, 82.85156, 69.2608, 96.675, 0.9999422, 0, 0, -0.0107547,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

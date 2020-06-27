@@ -5,16 +5,16 @@ VALUES (0x70C65001,  1154, 0x0C650008, 22.8996, 174.5648, 24.00715, -0.9326971, 
 /* @teleloc 0x0C650008 [22.899600 174.564800 24.007150] -0.932697 0.000000 0.000000 -0.360661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C65001, 0x70C65002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C65001, 0x70C65003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70C65001, 0x70C65004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70C65001, 0x70C65005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70C65001, 0x70C65006, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C65001, 0x70C65007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C65001, 0x70C65008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C65001, 0x70C65009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C65001, 0x70C6500A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70C65001, 0x70C6500B, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x70C65001, 0x70C65002, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C65001, 0x70C65003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70C65001, 0x70C65004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70C65001, 0x70C65005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70C65001, 0x70C65006, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C65001, 0x70C65007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C65001, 0x70C65008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C65001, 0x70C65009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C65001, 0x70C6500A, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70C65001, 0x70C6500B, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C65002, 36816, 0x0C650008, 22.8996, 174.5648, 24.00715, -0.9326971, 0, 0, -0.3606608,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
@@ -61,7 +61,7 @@ VALUES (0x70C6500C,  1542, 0x0C65000D, 26.90955, 100.2006, 20.60408, 1, 0, 0, 0,
 /* @teleloc 0x0C65000D [26.909550 100.200600 20.604080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6500C, 0x70C6500D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70C6500C, 0x70C6500D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6500D,  4179, 0x0C65000D, 26.90955, 100.2006, 20.60408, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

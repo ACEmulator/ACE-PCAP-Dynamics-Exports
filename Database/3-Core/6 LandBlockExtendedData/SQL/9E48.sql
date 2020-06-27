@@ -5,23 +5,23 @@ VALUES (0x79E48001,  1154, 0x9E48003A, 185.3925, 46.12762, 108.029, -0.8733173, 
 /* @teleloc 0x9E48003A [185.392500 46.127620 108.029000] -0.873317 0.000000 0.000000 -0.487152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E48001, 0x79E48002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79E48001, 0x79E48003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79E48001, 0x79E48004, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79E48001, 0x79E48005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79E48001, 0x79E48006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79E48001, 0x79E48007, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79E48001, 0x79E48008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79E48001, 0x79E48009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79E48001, 0x79E4800A, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79E48001, 0x79E4800B, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79E48001, 0x79E4800C, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79E48001, 0x79E4800D, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79E48001, 0x79E4800E, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79E48001, 0x79E4800F, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79E48001, 0x79E48010, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79E48001, 0x79E48011, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79E48001, 0x79E48012, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79E48001, 0x79E48002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79E48001, 0x79E48003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79E48001, 0x79E48004, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79E48001, 0x79E48005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79E48001, 0x79E48006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79E48001, 0x79E48007, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79E48001, 0x79E48008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79E48001, 0x79E48009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79E48001, 0x79E4800A, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79E48001, 0x79E4800B, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79E48001, 0x79E4800C, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79E48001, 0x79E4800D, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79E48001, 0x79E4800E, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79E48001, 0x79E4800F, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79E48001, 0x79E48010, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79E48001, 0x79E48011, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79E48001, 0x79E48012, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E48002,    23, 0x9E48003A, 185.3925, 46.12762, 108.029, -0.8733173, 0, 0, -0.4871518,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -96,8 +96,8 @@ VALUES (0x79E48013,  1542, 0x9E480017, 66.71764, 159.889, 100.9394, 1, 0, 0, 0, 
 /* @teleloc 0x9E480017 [66.717640 159.889000 100.939400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E48013, 0x79E48014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79E48013, 0x79E48015, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x79E48013, 0x79E48014, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x79E48013, 0x79E48015, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E48014, 22570, 0x9E480017, 66.71764, 159.889, 100.9394, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

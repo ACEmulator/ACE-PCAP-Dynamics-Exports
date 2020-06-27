@@ -5,9 +5,9 @@ VALUES (0x789AC001,  1154, 0x89AC0011, 62.08722, 0.4962921, 72.19244, -0.1530312
 /* @teleloc 0x89AC0011 [62.087220 0.496292 72.192440] -0.153031 0.000000 0.000000 -0.988221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789AC001, 0x789AC002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x789AC001, 0x789AC003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x789AC001, 0x789AC004, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x789AC001, 0x789AC002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x789AC001, 0x789AC003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x789AC001, 0x789AC004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789AC002,  7096, 0x89AC0011, 62.08722, 0.4962921, 72.19244, -0.1530312, 0, 0, -0.9882213,  True, '2019-02-10 00:00:00'); /* Gold Golem */

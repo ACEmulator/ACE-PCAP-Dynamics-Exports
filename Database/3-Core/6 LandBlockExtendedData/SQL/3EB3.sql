@@ -5,14 +5,14 @@ VALUES (0x73EB3001,  1154, 0x3EB3002A, 132.9319, 30.5553, -0.09460002, -0.707106
 /* @teleloc 0x3EB3002A [132.931900 30.555300 -0.094600] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EB3001, 0x73EB3002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EB3001, 0x73EB3003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EB3001, 0x73EB3004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EB3001, 0x73EB3005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73EB3001, 0x73EB3006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73EB3001, 0x73EB3007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73EB3001, 0x73EB3008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73EB3001, 0x73EB3009, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x73EB3001, 0x73EB3002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EB3001, 0x73EB3003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EB3001, 0x73EB3004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EB3001, 0x73EB3005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73EB3001, 0x73EB3006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73EB3001, 0x73EB3007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73EB3001, 0x73EB3008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73EB3001, 0x73EB3009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EB3002,  4247, 0x3EB3002A, 132.9319, 30.5553, -0.09460002, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -51,7 +51,7 @@ VALUES (0x73EB300A,  1542, 0x3EB3002A, 134.5595, 34.34358, -0.09999999, 0.999048
 /* @teleloc 0x3EB3002A [134.559500 34.343580 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EB300A, 0x73EB300B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73EB300A, 0x73EB300B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EB300B,  4179, 0x3EB3002A, 134.5595, 34.34358, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

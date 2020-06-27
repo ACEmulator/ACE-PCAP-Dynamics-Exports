@@ -69,13 +69,13 @@ VALUES (0x7BC11020,  1154, 0xBC110142, 51.5672, 116.188, 240.01, 0.003382751, 0,
 /* @teleloc 0xBC110142 [51.567200 116.188000 240.010000] 0.003383 0.000000 0.000000 -0.999994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC11020, 0x7BC11021, '2019-02-10 00:00:00') /* Guardian Golem */
-     , (0x7BC11020, 0x7BC11022, '2019-02-10 00:00:00') /* Guardian Golem */
-     , (0x7BC11020, 0x7BC11023, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BC11020, 0x7BC11024, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BC11020, 0x7BC11025, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BC11020, 0x7BC11026, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BC11020, 0x7BC11027, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7BC11020, 0x7BC11021, '2019-02-10 00:00:00') /* Guardian Golem (42438) */
+     , (0x7BC11020, 0x7BC11022, '2019-02-10 00:00:00') /* Guardian Golem (42438) */
+     , (0x7BC11020, 0x7BC11023, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BC11020, 0x7BC11024, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BC11020, 0x7BC11025, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BC11020, 0x7BC11026, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BC11020, 0x7BC11027, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC11021, 42438, 0xBC110142, 51.5672, 116.188, 240.01, 0.003382751, 0, 0, -0.9999943,  True, '2019-02-10 00:00:00'); /* Guardian Golem */
@@ -110,7 +110,7 @@ VALUES (0x7BC11028,  1154, 0xBC110014, 68.9851, 80.1956, 240.008, -0.842357, 0, 
 /* @teleloc 0xBC110014 [68.985100 80.195600 240.008000] -0.842357 0.000000 0.000000 -0.538919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC11028, 0x7BC11029, '2019-02-10 00:00:00') /* Eaushi the Trainer */;
+VALUES (0x7BC11028, 0x7BC11029, '2019-02-10 00:00:00') /* Eaushi the Trainer (9056) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC11029,  9056, 0xBC110014, 68.9851, 80.1956, 240.008, -0.842357, 0, 0, -0.538919,  True, '2019-02-10 00:00:00'); /* Eaushi the Trainer */
@@ -121,11 +121,11 @@ VALUES (0x7BC1102A,  1542, 0xBC110156, 77.1274, 91.6981, 251.004, 0.2168019, 0, 
 /* @teleloc 0xBC110156 [77.127400 91.698100 251.004000] 0.216802 0.000000 0.000000 -0.976216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1102A, 0x7BC1102B, '2019-02-10 00:00:00') /* Slip of Paper */
-     , (0x7BC1102A, 0x7BC1102C, '2019-02-10 00:00:00') /* Lightweight Tome */
-     , (0x7BC1102A, 0x7BC1102D, '2019-02-10 00:00:00') /* Slip of Paper */
-     , (0x7BC1102A, 0x7BC1102E, '2019-02-10 00:00:00') /* Sasalia's Dress */
-     , (0x7BC1102A, 0x7BC1102F, '2019-02-10 00:00:00') /* Boots of the Vault */;
+VALUES (0x7BC1102A, 0x7BC1102B, '2019-02-10 00:00:00') /* Slip of Paper (9063) */
+     , (0x7BC1102A, 0x7BC1102C, '2019-02-10 00:00:00') /* Lightweight Tome (9092) */
+     , (0x7BC1102A, 0x7BC1102D, '2019-02-10 00:00:00') /* Slip of Paper (9063) */
+     , (0x7BC1102A, 0x7BC1102E, '2019-02-10 00:00:00') /* Sasalia's Dress (9031) */
+     , (0x7BC1102A, 0x7BC1102F, '2019-02-10 00:00:00') /* Boots of the Vault (9021) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1102B,  9063, 0xBC110156, 77.1274, 91.6981, 251.004, 0.2168019, 0, 0, -0.9762156,  True, '2019-02-10 00:00:00'); /* Slip of Paper */

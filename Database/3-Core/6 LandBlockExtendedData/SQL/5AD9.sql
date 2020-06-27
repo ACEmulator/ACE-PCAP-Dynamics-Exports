@@ -5,19 +5,19 @@ VALUES (0x75AD9001,  1154, 0x5AD90011, 64.3444, 16.2062, 80.00679, -0.249468, 0,
 /* @teleloc 0x5AD90011 [64.344400 16.206200 80.006790] -0.249468 0.000000 0.000000 -0.968383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AD9001, 0x75AD9002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x75AD9001, 0x75AD9003, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x75AD9001, 0x75AD9004, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x75AD9001, 0x75AD9005, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x75AD9001, 0x75AD9006, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x75AD9001, 0x75AD9007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75AD9001, 0x75AD9008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75AD9001, 0x75AD9009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75AD9001, 0x75AD900A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75AD9001, 0x75AD900B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75AD9001, 0x75AD900C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75AD9001, 0x75AD900D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75AD9001, 0x75AD900E, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x75AD9001, 0x75AD9002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x75AD9001, 0x75AD9003, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x75AD9001, 0x75AD9004, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x75AD9001, 0x75AD9005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x75AD9001, 0x75AD9006, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x75AD9001, 0x75AD9007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75AD9001, 0x75AD9008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75AD9001, 0x75AD9009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75AD9001, 0x75AD900A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75AD9001, 0x75AD900B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75AD9001, 0x75AD900C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75AD9001, 0x75AD900D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75AD9001, 0x75AD900E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AD9002, 28653, 0x5AD90011, 64.3444, 16.2062, 80.00679, -0.249468, 0, 0, -0.968383,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

@@ -5,9 +5,9 @@ VALUES (0x73180001,  1154, 0x31800005, 13.45048, 97.93929, 81.13138, 0.9063078, 
 /* @teleloc 0x31800005 [13.450480 97.939290 81.131380] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73180001, 0x73180002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73180001, 0x73180003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73180001, 0x73180004, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x73180001, 0x73180002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73180001, 0x73180003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73180001, 0x73180004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73180002,  7081, 0x31800005, 13.45048, 97.93929, 81.13138, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

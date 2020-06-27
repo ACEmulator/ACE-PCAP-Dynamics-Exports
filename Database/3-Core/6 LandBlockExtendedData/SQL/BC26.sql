@@ -5,10 +5,10 @@ VALUES (0x7BC26001,  1154, 0xBC260006, 20.22559, 123.0695, 248.1509, 1, 0, 0, 0,
 /* @teleloc 0xBC260006 [20.225590 123.069500 248.150900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC26001, 0x7BC26002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC26001, 0x7BC26003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC26001, 0x7BC26004, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BC26001, 0x7BC26005, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7BC26001, 0x7BC26002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC26001, 0x7BC26003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC26001, 0x7BC26004, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BC26001, 0x7BC26005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC26002,  7107, 0xBC260006, 20.22559, 123.0695, 248.1509, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -31,8 +31,8 @@ VALUES (0x7BC26006,  1542, 0xBC260030, 135.9401, 191.1782, 246.9157, 1, 0, 0, 0,
 /* @teleloc 0xBC260030 [135.940100 191.178200 246.915700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC26006, 0x7BC26007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BC26006, 0x7BC26008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BC26006, 0x7BC26007, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BC26006, 0x7BC26008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC26007, 22571, 0xBC260030, 135.9401, 191.1782, 246.9157, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

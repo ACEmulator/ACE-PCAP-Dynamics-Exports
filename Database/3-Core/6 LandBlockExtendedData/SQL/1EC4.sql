@@ -5,12 +5,12 @@ VALUES (0x71EC4001,  1154, 0x1EC40037, 166.2725, 166.7973, 29.94978, 0.798986, 0
 /* @teleloc 0x1EC40037 [166.272500 166.797300 29.949780] 0.798986 0.000000 0.000000 -0.601350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC4001, 0x71EC4002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x71EC4001, 0x71EC4003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC4001, 0x71EC4004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC4001, 0x71EC4005, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71EC4001, 0x71EC4006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC4001, 0x71EC4007, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x71EC4001, 0x71EC4002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x71EC4001, 0x71EC4003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC4001, 0x71EC4004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC4001, 0x71EC4005, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71EC4001, 0x71EC4006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC4001, 0x71EC4007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC4002, 28657, 0x1EC40037, 166.2725, 166.7973, 29.94978, 0.798986, 0, 0, -0.6013496,  True, '2019-02-10 00:00:00'); /* Viamontian Man-at-Arms */

@@ -17,21 +17,21 @@ VALUES (0x702BE010,  1154, 0x02BE0110, 30, -30, -0.01800001, 1, 0, 0, 0, False, 
 /* @teleloc 0x02BE0110 [30.000000 -30.000000 -0.018000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BE010, 0x702BE011, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x702BE010, 0x702BE012, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE013, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE014, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE015, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE016, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE017, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x702BE010, 0x702BE018, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x702BE010, 0x702BE019, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x702BE010, 0x702BE01A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x702BE010, 0x702BE01B, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x702BE010, 0x702BE01C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x702BE010, 0x702BE01D, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x702BE010, 0x702BE01E, '2019-02-10 00:00:00') /* Lich */
-     , (0x702BE010, 0x702BE01F, '2019-02-10 00:00:00') /* Slithis Tendril */;
+VALUES (0x702BE010, 0x702BE011, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702BE010, 0x702BE012, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE013, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE014, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE015, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE016, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE017, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x702BE010, 0x702BE018, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x702BE010, 0x702BE019, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x702BE010, 0x702BE01A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE010, 0x702BE01B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE010, 0x702BE01C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE010, 0x702BE01D, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE010, 0x702BE01E, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x702BE010, 0x702BE01F, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BE011,  4258, 0x02BE0110, 30, -30, -0.01800001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Slithis Eye Stalk */

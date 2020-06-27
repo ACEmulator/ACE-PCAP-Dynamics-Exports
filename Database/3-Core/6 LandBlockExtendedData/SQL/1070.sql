@@ -5,23 +5,23 @@ VALUES (0x71070001,  1154, 0x10700027, 104.9604, 149.8145, 97.57519, 0.4369942, 
 /* @teleloc 0x10700027 [104.960400 149.814500 97.575190] 0.436994 0.000000 0.000000 -0.899464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71070001, 0x71070002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71070001, 0x71070003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71070001, 0x71070004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71070001, 0x71070005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71070001, 0x71070006, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71070001, 0x71070007, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71070001, 0x71070008, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71070001, 0x71070009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71070001, 0x7107000A, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71070001, 0x7107000B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71070001, 0x7107000C, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71070001, 0x7107000D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71070001, 0x7107000E, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71070001, 0x7107000F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71070001, 0x71070010, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71070001, 0x71070011, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71070001, 0x71070012, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71070001, 0x71070002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71070001, 0x71070003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71070001, 0x71070004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71070001, 0x71070005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71070001, 0x71070006, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71070001, 0x71070007, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71070001, 0x71070008, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71070001, 0x71070009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71070001, 0x7107000A, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71070001, 0x7107000B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71070001, 0x7107000C, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71070001, 0x7107000D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71070001, 0x7107000E, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71070001, 0x7107000F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71070001, 0x71070010, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71070001, 0x71070011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71070001, 0x71070012, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71070002,  7982, 0x10700027, 104.9604, 149.8145, 97.57519, 0.4369942, 0, 0, -0.8994644,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -96,7 +96,7 @@ VALUES (0x71070013,  1542, 0x1070001E, 88.45314, 136.735, 100, -4.371139E-08, 0,
 /* @teleloc 0x1070001E [88.453140 136.735000 100.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71070013, 0x71070014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71070013, 0x71070014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71070014,  4380, 0x1070001E, 88.45314, 136.735, 100, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

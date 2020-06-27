@@ -5,11 +5,11 @@ VALUES (0x79566001,  1154, 0x9566003D, 189.122, 117.5742, 11.83803, 0.2769867, 0
 /* @teleloc 0x9566003D [189.122000 117.574200 11.838030] 0.276987 0.000000 0.000000 -0.960874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79566001, 0x79566002, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x79566001, 0x79566003, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79566001, 0x79566004, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79566001, 0x79566005, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x79566001, 0x79566006, '2019-02-10 00:00:00') /* Charred Skeleton */;
+VALUES (0x79566001, 0x79566002, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x79566001, 0x79566003, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79566001, 0x79566004, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79566001, 0x79566005, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x79566001, 0x79566006, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79566002,  5682, 0x9566003D, 189.122, 117.5742, 11.83803, 0.2769867, 0, 0, -0.9608738,  True, '2019-02-10 00:00:00'); /* Charred Skeleton */

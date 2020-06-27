@@ -5,11 +5,11 @@ VALUES (0x72B63001,  1154, 0x2B630014, 61.33934, 75.65709, 120.029, 0.7372774, 0
 /* @teleloc 0x2B630014 [61.339340 75.657090 120.029000] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B63001, 0x72B63002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B63001, 0x72B63003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72B63001, 0x72B63004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72B63001, 0x72B63005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72B63001, 0x72B63006, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x72B63001, 0x72B63002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B63001, 0x72B63003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72B63001, 0x72B63004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72B63001, 0x72B63005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72B63001, 0x72B63006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B63002,  9264, 0x2B630014, 61.33934, 75.65709, 120.029, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -36,7 +36,7 @@ VALUES (0x72B63007,  1542, 0x2B630012, 54.95144, 30.50632, 120, 0.9990482, 0, 0,
 /* @teleloc 0x2B630012 [54.951440 30.506320 120.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B63007, 0x72B63008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72B63007, 0x72B63008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B63008,  4179, 0x2B630012, 54.95144, 30.50632, 120, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

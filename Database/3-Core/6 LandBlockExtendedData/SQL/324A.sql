@@ -5,21 +5,21 @@ VALUES (0x7324A001,  1154, 0x324A000A, 29.54846, 33.39796, 17.69639, 0.7071068, 
 /* @teleloc 0x324A000A [29.548460 33.397960 17.696390] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7324A001, 0x7324A002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7324A001, 0x7324A003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7324A001, 0x7324A004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7324A001, 0x7324A005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7324A001, 0x7324A006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7324A001, 0x7324A007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7324A001, 0x7324A008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7324A001, 0x7324A009, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x7324A001, 0x7324A00A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7324A001, 0x7324A00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7324A001, 0x7324A00C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7324A001, 0x7324A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7324A001, 0x7324A00E, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7324A001, 0x7324A00F, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7324A001, 0x7324A010, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x7324A001, 0x7324A002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7324A001, 0x7324A003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7324A001, 0x7324A004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7324A001, 0x7324A005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7324A001, 0x7324A006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7324A001, 0x7324A007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7324A001, 0x7324A008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7324A001, 0x7324A009, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x7324A001, 0x7324A00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7324A001, 0x7324A00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7324A001, 0x7324A00C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7324A001, 0x7324A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7324A001, 0x7324A00E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7324A001, 0x7324A00F, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7324A001, 0x7324A010, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324A002, 24325, 0x324A000A, 29.54846, 33.39796, 17.69639, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -86,8 +86,8 @@ VALUES (0x7324A011,  1542, 0x324A000A, 27.00498, 36.18557, 18.74792, 0.9990482, 
 /* @teleloc 0x324A000A [27.004980 36.185570 18.747920] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7324A011, 0x7324A012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7324A011, 0x7324A013, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7324A011, 0x7324A012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7324A011, 0x7324A013, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324A012,  4179, 0x324A000A, 27.00498, 36.18557, 18.74792, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

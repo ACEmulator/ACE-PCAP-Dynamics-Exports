@@ -5,15 +5,15 @@ VALUES (0x7DF7C001,  1154, 0xDF7C001B, 85.85259, 70.4914, 0.0004999638, 0.819152
 /* @teleloc 0xDF7C001B [85.852590 70.491400 0.000500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF7C001, 0x7DF7C002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DF7C001, 0x7DF7C003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DF7C001, 0x7DF7C004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DF7C001, 0x7DF7C005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7DF7C001, 0x7DF7C006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DF7C001, 0x7DF7C007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DF7C001, 0x7DF7C008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DF7C001, 0x7DF7C009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DF7C001, 0x7DF7C00A, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7DF7C001, 0x7DF7C002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DF7C001, 0x7DF7C003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DF7C001, 0x7DF7C004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DF7C001, 0x7DF7C005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7DF7C001, 0x7DF7C006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DF7C001, 0x7DF7C007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DF7C001, 0x7DF7C008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DF7C001, 0x7DF7C009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DF7C001, 0x7DF7C00A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF7C002,  7987, 0xDF7C001B, 85.85259, 70.4914, 0.0004999638, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

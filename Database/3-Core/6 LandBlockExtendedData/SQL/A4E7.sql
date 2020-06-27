@@ -5,11 +5,11 @@ VALUES (0x7A4E7001,  1154, 0xA4E7000F, 46.54483, 162.7965, 59.645, 0.1579784, 0,
 /* @teleloc 0xA4E7000F [46.544830 162.796500 59.645000] 0.157978 0.000000 0.000000 -0.987443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4E7001, 0x7A4E7002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A4E7001, 0x7A4E7003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A4E7001, 0x7A4E7004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4E7001, 0x7A4E7005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4E7001, 0x7A4E7006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7A4E7001, 0x7A4E7002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A4E7001, 0x7A4E7003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A4E7001, 0x7A4E7004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4E7001, 0x7A4E7005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4E7001, 0x7A4E7006, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4E7002, 22519, 0xA4E7000F, 46.54483, 162.7965, 59.645, 0.1579784, 0, 0, -0.9874426,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

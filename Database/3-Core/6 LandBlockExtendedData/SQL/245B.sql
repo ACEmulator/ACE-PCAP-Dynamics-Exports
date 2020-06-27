@@ -5,19 +5,19 @@ VALUES (0x7245B001,  1154, 0x245B003C, 169.5454, 90.87798, 0.4333348, 0.8544158,
 /* @teleloc 0x245B003C [169.545400 90.877980 0.433335] 0.854416 0.000000 0.000000 -0.519590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7245B001, 0x7245B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7245B001, 0x7245B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7245B001, 0x7245B004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7245B001, 0x7245B005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7245B001, 0x7245B006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7245B001, 0x7245B007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7245B001, 0x7245B008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7245B001, 0x7245B009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7245B001, 0x7245B00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7245B001, 0x7245B00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7245B001, 0x7245B00C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7245B001, 0x7245B00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7245B001, 0x7245B00E, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x7245B001, 0x7245B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7245B001, 0x7245B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7245B001, 0x7245B004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7245B001, 0x7245B005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7245B001, 0x7245B006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7245B001, 0x7245B007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7245B001, 0x7245B008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7245B001, 0x7245B009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7245B001, 0x7245B00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7245B001, 0x7245B00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7245B001, 0x7245B00C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7245B001, 0x7245B00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7245B001, 0x7245B00E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7245B002,  8431, 0x245B003C, 169.5454, 90.87798, 0.4333348, 0.8544158, 0, 0, -0.5195898,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -76,8 +76,8 @@ VALUES (0x7245B00F,  1542, 0x245B0026, 112.8141, 129.6247, 12.82261, 0.9990482, 
 /* @teleloc 0x245B0026 [112.814100 129.624700 12.822610] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7245B00F, 0x7245B010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7245B00F, 0x7245B011, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7245B00F, 0x7245B010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7245B00F, 0x7245B011, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7245B010,  4179, 0x245B0026, 112.8141, 129.6247, 12.82261, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

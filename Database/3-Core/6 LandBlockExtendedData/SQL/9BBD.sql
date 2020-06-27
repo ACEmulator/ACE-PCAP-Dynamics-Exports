@@ -5,10 +5,10 @@ VALUES (0x79BBD001,  1154, 0x9BBD003A, 169.9414, 40.45365, 73.69971, 0.5351039, 
 /* @teleloc 0x9BBD003A [169.941400 40.453650 73.699710] 0.535104 0.000000 0.000000 -0.844786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BBD001, 0x79BBD002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79BBD001, 0x79BBD003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79BBD001, 0x79BBD004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79BBD001, 0x79BBD005, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x79BBD001, 0x79BBD002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79BBD001, 0x79BBD003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79BBD001, 0x79BBD004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79BBD001, 0x79BBD005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BBD002,  1758, 0x9BBD003A, 169.9414, 40.45365, 73.69971, 0.5351039, 0, 0, -0.8447863,  True, '2019-02-10 00:00:00'); /* Shadow */

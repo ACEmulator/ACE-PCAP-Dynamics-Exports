@@ -5,19 +5,19 @@ VALUES (0x71384001,  1154, 0x13840033, 161.6824, 60.81896, 83.05573, 0.9939455, 
 /* @teleloc 0x13840033 [161.682400 60.818960 83.055730] 0.993946 0.000000 0.000000 -0.109874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71384001, 0x71384002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71384001, 0x71384003, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71384001, 0x71384004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71384001, 0x71384005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71384001, 0x71384006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x71384001, 0x71384007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71384001, 0x71384008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71384001, 0x71384009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71384001, 0x7138400A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71384001, 0x7138400B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71384001, 0x7138400C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71384001, 0x7138400D, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71384001, 0x7138400E, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x71384001, 0x71384002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71384001, 0x71384003, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71384001, 0x71384004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71384001, 0x71384005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71384001, 0x71384006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x71384001, 0x71384007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71384001, 0x71384008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71384001, 0x71384009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71384001, 0x7138400A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71384001, 0x7138400B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71384001, 0x7138400C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71384001, 0x7138400D, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71384001, 0x7138400E, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71384002, 41534, 0x13840033, 161.6824, 60.81896, 83.05573, 0.9939455, 0, 0, -0.1098736,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
@@ -76,7 +76,7 @@ VALUES (0x7138400F,  1542, 0x1384001B, 89.29157, 59.44896, 82.43442, 1, 0, 0, 0,
 /* @teleloc 0x1384001B [89.291570 59.448960 82.434420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7138400F, 0x71384010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7138400F, 0x71384010, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71384010, 22567, 0x1384001B, 89.29157, 59.44896, 82.43442, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

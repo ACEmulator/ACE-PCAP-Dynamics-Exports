@@ -5,25 +5,25 @@ VALUES (0x7C92E001,  1154, 0xC92E003A, 186.9232, 43.89378, 193.5683, -0.1884714,
 /* @teleloc 0xC92E003A [186.923200 43.893780 193.568300] -0.188471 0.000000 0.000000 -0.982079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C92E001, 0x7C92E002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7C92E001, 0x7C92E003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C92E001, 0x7C92E004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7C92E001, 0x7C92E005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7C92E001, 0x7C92E006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C92E001, 0x7C92E007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C92E001, 0x7C92E008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C92E001, 0x7C92E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C92E001, 0x7C92E00A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C92E001, 0x7C92E00B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C92E001, 0x7C92E00C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C92E001, 0x7C92E00D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C92E001, 0x7C92E00E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C92E001, 0x7C92E00F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C92E001, 0x7C92E010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C92E001, 0x7C92E011, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7C92E001, 0x7C92E012, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C92E001, 0x7C92E013, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C92E001, 0x7C92E014, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7C92E001, 0x7C92E002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7C92E001, 0x7C92E003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C92E001, 0x7C92E004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7C92E001, 0x7C92E005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7C92E001, 0x7C92E006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C92E001, 0x7C92E007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C92E001, 0x7C92E008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C92E001, 0x7C92E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C92E001, 0x7C92E00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C92E001, 0x7C92E00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C92E001, 0x7C92E00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C92E001, 0x7C92E00D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C92E001, 0x7C92E00E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C92E001, 0x7C92E00F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C92E001, 0x7C92E010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C92E001, 0x7C92E011, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7C92E001, 0x7C92E012, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C92E001, 0x7C92E013, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C92E001, 0x7C92E014, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C92E002,  8141, 0xC92E003A, 186.9232, 43.89378, 193.5683, -0.1884714, 0, 0, -0.9820787,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -106,8 +106,8 @@ VALUES (0x7C92E015,  1154, 0xC92E0100, 108, 84, 212.9467, 1, 0, 0, 0, False, '20
 /* @teleloc 0xC92E0100 [108.000000 84.000000 212.946700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C92E015, 0x7C92E016, '2019-02-10 00:00:00') /* Linvak Gatestone */
-     , (0x7C92E015, 0x7C92E017, '2019-02-10 00:00:00') /* Linvak Node Golem */;
+VALUES (0x7C92E015, 0x7C92E016, '2019-02-10 00:00:00') /* Linvak Gatestone (39312) */
+     , (0x7C92E015, 0x7C92E017, '2019-02-10 00:00:00') /* Linvak Node Golem (38206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C92E016, 39312, 0xC92E0100, 108, 84, 212.9467, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Linvak Gatestone */
@@ -122,9 +122,9 @@ VALUES (0x7C92E018,  1542, 0xC92E0003, 12.82713, 70.77837, 218, 1, 0, 0, 0, Fals
 /* @teleloc 0xC92E0003 [12.827130 70.778370 218.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C92E018, 0x7C92E019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C92E018, 0x7C92E01A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C92E018, 0x7C92E01B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C92E018, 0x7C92E019, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7C92E018, 0x7C92E01A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C92E018, 0x7C92E01B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C92E019, 22567, 0xC92E0003, 12.82713, 70.77837, 218, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

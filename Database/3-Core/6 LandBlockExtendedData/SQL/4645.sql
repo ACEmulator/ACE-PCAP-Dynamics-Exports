@@ -5,25 +5,25 @@ VALUES (0x74645001,  1154, 0x46450009, 30.55784, 18.22553, 8.848146, 0.9961947, 
 /* @teleloc 0x46450009 [30.557840 18.225530 8.848146] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74645001, 0x74645002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74645001, 0x74645003, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74645001, 0x74645004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74645001, 0x74645005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74645001, 0x74645006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74645001, 0x74645007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74645001, 0x74645008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74645001, 0x74645009, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74645001, 0x7464500A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74645001, 0x7464500B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74645001, 0x7464500C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74645001, 0x7464500D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74645001, 0x7464500E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74645001, 0x7464500F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74645001, 0x74645010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74645001, 0x74645011, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x74645001, 0x74645012, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74645001, 0x74645013, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x74645001, 0x74645014, '2019-02-10 00:00:00') /* Burun Ruuk Seer */;
+VALUES (0x74645001, 0x74645002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74645001, 0x74645003, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74645001, 0x74645004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74645001, 0x74645005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74645001, 0x74645006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74645001, 0x74645007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74645001, 0x74645008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74645001, 0x74645009, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74645001, 0x7464500A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74645001, 0x7464500B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74645001, 0x7464500C, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74645001, 0x7464500D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74645001, 0x7464500E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74645001, 0x7464500F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74645001, 0x74645010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74645001, 0x74645011, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x74645001, 0x74645012, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74645001, 0x74645013, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x74645001, 0x74645014, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74645002,  7181, 0x46450009, 30.55784, 18.22553, 8.848146, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -106,7 +106,7 @@ VALUES (0x74645015,  1542, 0x46450009, 31.69096, 15.6886, 8.769876, 0.9990482, 0
 /* @teleloc 0x46450009 [31.690960 15.688600 8.769876] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74645015, 0x74645016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74645015, 0x74645016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74645016,  4179, 0x46450009, 31.69096, 15.6886, 8.769876, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

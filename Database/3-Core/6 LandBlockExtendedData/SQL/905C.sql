@@ -41,19 +41,19 @@ VALUES (0x7905C018,  1154, 0x905C000C, 39.4311, 75.73811, 29.02558, -0.1238591, 
 /* @teleloc 0x905C000C [39.431100 75.738110 29.025580] -0.123859 0.000000 0.000000 -0.992300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7905C018, 0x7905C019, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905C018, 0x7905C01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7905C018, 0x7905C01B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7905C018, 0x7905C01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7905C018, 0x7905C01D, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905C018, 0x7905C01E, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905C018, 0x7905C01F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7905C018, 0x7905C020, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7905C018, 0x7905C021, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905C018, 0x7905C022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7905C018, 0x7905C023, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7905C018, 0x7905C024, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905C018, 0x7905C025, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7905C018, 0x7905C019, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905C018, 0x7905C01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7905C018, 0x7905C01B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7905C018, 0x7905C01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7905C018, 0x7905C01D, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905C018, 0x7905C01E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905C018, 0x7905C01F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7905C018, 0x7905C020, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7905C018, 0x7905C021, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905C018, 0x7905C022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7905C018, 0x7905C023, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7905C018, 0x7905C024, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905C018, 0x7905C025, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7905C019,  5429, 0x905C000C, 39.4311, 75.73811, 29.02558, -0.1238591, 0, 0, -0.9922998,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -112,7 +112,7 @@ VALUES (0x7905C026,  1154, 0x905C0100, 84.8786, 61.4641, 27.705, 0.439435, 0, 0,
 /* @teleloc 0x905C0100 [84.878600 61.464100 27.705000] 0.439435 0.000000 0.000000 -0.898274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7905C026, 0x7905C027, '2019-02-10 00:00:00') /* Sarqah bint Ak */;
+VALUES (0x7905C026, 0x7905C027, '2019-02-10 00:00:00') /* Sarqah bint Ak (5154) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7905C027,  5154, 0x905C0100, 84.8786, 61.4641, 27.705, 0.439435, 0, 0, -0.898274,  True, '2019-02-10 00:00:00'); /* Sarqah bint Ak */

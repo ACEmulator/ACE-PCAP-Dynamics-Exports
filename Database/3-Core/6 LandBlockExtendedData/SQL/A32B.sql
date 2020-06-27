@@ -5,13 +5,13 @@ VALUES (0x7A32B001,  1154, 0xA32B0009, 39.07243, 22.92053, 141.4539, -0.08715577
 /* @teleloc 0xA32B0009 [39.072430 22.920530 141.453900] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A32B001, 0x7A32B002, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7A32B001, 0x7A32B003, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7A32B001, 0x7A32B004, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7A32B001, 0x7A32B005, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7A32B001, 0x7A32B006, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7A32B001, 0x7A32B007, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7A32B001, 0x7A32B008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7A32B001, 0x7A32B002, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7A32B001, 0x7A32B003, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7A32B001, 0x7A32B004, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7A32B001, 0x7A32B005, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7A32B001, 0x7A32B006, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7A32B001, 0x7A32B007, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7A32B001, 0x7A32B008, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A32B002,  2571, 0xA32B0009, 39.07243, 22.92053, 141.4539, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* K'nath N'osaj */

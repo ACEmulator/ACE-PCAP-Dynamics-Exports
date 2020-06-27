@@ -21,75 +21,75 @@ VALUES (0x702C803E,  1154, 0x02C8024C, 317.029, -40.6404, 0.007149994, 0.94411, 
 /* @teleloc 0x02C8024C [317.029000 -40.640400 0.007150] 0.944110 0.000000 0.000000 -0.329630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C803E, 0x702C803F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8040, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C8041, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8042, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8043, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8044, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8045, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8046, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8047, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8048, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8049, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C804A, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C804B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C804C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C804D, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C804E, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C804F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8050, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8051, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8052, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8053, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8054, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8055, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8056, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8057, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8058, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C8059, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C805A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C805B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C805C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C805D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C805E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C805F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8060, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8061, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8062, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8063, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8064, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8065, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8066, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8067, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8068, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x702C803E, 0x702C8069, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C806A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C806B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C806C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C806D, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C806E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C806F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8070, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8071, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8072, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8073, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8074, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8075, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8076, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x702C803E, 0x702C8077, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8078, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8079, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C807A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C807B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C807C, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C807D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C807E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C807F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8080, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8081, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8082, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8083, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x702C803E, 0x702C803F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8040, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C8041, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8042, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8043, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8044, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8045, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8046, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8047, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8048, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8049, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C804A, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C804B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C804C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C804D, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C804E, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C804F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8050, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8051, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8052, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8053, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8054, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8055, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8056, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8057, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8058, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C8059, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C805A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C805B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C805C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C805D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C805E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C805F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8060, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8061, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8062, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8063, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8064, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8065, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8066, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8067, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8068, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x702C803E, 0x702C8069, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C806A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C806B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C806C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C806D, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C806E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C806F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8070, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8071, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8072, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8073, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8074, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8075, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8076, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x702C803E, 0x702C8077, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8078, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8079, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C807A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C807B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C807C, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C807D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C807E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C807F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8080, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8081, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8082, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8083, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C803F,     6, 0x02C8024C, 317.029, -40.6404, 0.007149994, 0.94411, 0, 0, -0.32963,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -372,8 +372,8 @@ VALUES (0x702C8084,  1542, 0x02C80225, 290.378, -117.673, 0.06954, 0.8320498, 0,
 /* @teleloc 0x02C80225 [290.378000 -117.673000 0.069540] 0.832050 0.000000 0.000000 0.554701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C8084, 0x702C8085, '2019-02-10 00:00:00') /* A Battered Leather Journal */
-     , (0x702C8084, 0x702C8086, '2019-02-10 00:00:00') /* Banderling Mace Shaft */;
+VALUES (0x702C8084, 0x702C8085, '2019-02-10 00:00:00') /* A Battered Leather Journal (8360) */
+     , (0x702C8084, 0x702C8086, '2019-02-10 00:00:00') /* Banderling Mace Shaft (8365) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C8085,  8360, 0x02C80225, 290.378, -117.673, 0.06954, 0.8320498, 0, 0, 0.5547009,  True, '2019-02-10 00:00:00'); /* A Battered Leather Journal */

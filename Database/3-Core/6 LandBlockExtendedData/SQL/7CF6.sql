@@ -5,18 +5,18 @@ VALUES (0x77CF6001,  1154, 0x7CF60009, 24.84717, 9.474424, 13.5668, 1, 0, 0, 0, 
 /* @teleloc 0x7CF60009 [24.847170 9.474424 13.566800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF6001, 0x77CF6002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77CF6001, 0x77CF6003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77CF6001, 0x77CF6004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77CF6001, 0x77CF6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x77CF6001, 0x77CF6006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77CF6001, 0x77CF6007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77CF6001, 0x77CF6008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77CF6001, 0x77CF6009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77CF6001, 0x77CF600A, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77CF6001, 0x77CF600B, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x77CF6001, 0x77CF600C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x77CF6001, 0x77CF600D, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x77CF6001, 0x77CF6002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77CF6001, 0x77CF6003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77CF6001, 0x77CF6004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77CF6001, 0x77CF6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x77CF6001, 0x77CF6006, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77CF6001, 0x77CF6007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77CF6001, 0x77CF6008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77CF6001, 0x77CF6009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77CF6001, 0x77CF600A, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77CF6001, 0x77CF600B, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x77CF6001, 0x77CF600C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x77CF6001, 0x77CF600D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF6002,   228, 0x7CF60009, 24.84717, 9.474424, 13.5668, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

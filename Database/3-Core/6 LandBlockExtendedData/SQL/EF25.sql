@@ -5,15 +5,15 @@ VALUES (0x7EF25001,  1154, 0xEF25001E, 78.02045, 124.9283, -0.09460002, 0.186897
 /* @teleloc 0xEF25001E [78.020450 124.928300 -0.094600] 0.186898 0.000000 0.000000 -0.982379 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF25001, 0x7EF25002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EF25001, 0x7EF25003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7EF25001, 0x7EF25004, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EF25001, 0x7EF25005, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EF25001, 0x7EF25006, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EF25001, 0x7EF25007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EF25001, 0x7EF25008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EF25001, 0x7EF25009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EF25001, 0x7EF2500A, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7EF25001, 0x7EF25002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF25001, 0x7EF25003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7EF25001, 0x7EF25004, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EF25001, 0x7EF25005, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EF25001, 0x7EF25006, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EF25001, 0x7EF25007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EF25001, 0x7EF25008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EF25001, 0x7EF25009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EF25001, 0x7EF2500A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF25002,  4247, 0xEF25001E, 78.02045, 124.9283, -0.09460002, 0.1868979, 0, 0, -0.9823793,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

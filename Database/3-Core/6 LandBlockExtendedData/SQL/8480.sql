@@ -5,9 +5,9 @@ VALUES (0x78480001,  1154, 0x84800012, 56.30367, 24.34342, 16.64632, -0.9253542,
 /* @teleloc 0x84800012 [56.303670 24.343420 16.646320] -0.925354 0.000000 0.000000 -0.379104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78480001, 0x78480002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78480001, 0x78480003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78480001, 0x78480004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x78480001, 0x78480002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78480001, 0x78480003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78480001, 0x78480004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78480002,  7345, 0x84800012, 56.30367, 24.34342, 16.64632, -0.9253542, 0, 0, -0.3791037,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,14 +5,14 @@ VALUES (0x7C050001,  1154, 0xC050002D, 135.7386, 113.6191, 37.31155, -0.9714565,
 /* @teleloc 0xC050002D [135.738600 113.619100 37.311550] -0.971457 0.000000 0.000000 -0.237218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C050001, 0x7C050002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C050001, 0x7C050003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C050001, 0x7C050004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C050001, 0x7C050005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C050001, 0x7C050006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C050001, 0x7C050007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C050001, 0x7C050008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C050001, 0x7C050009, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C050001, 0x7C050002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C050001, 0x7C050003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C050001, 0x7C050004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C050001, 0x7C050005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C050001, 0x7C050006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C050001, 0x7C050007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C050001, 0x7C050008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C050001, 0x7C050009, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C050002,     3, 0xC050002D, 135.7386, 113.6191, 37.31155, -0.9714565, 0, 0, -0.2372178,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -51,7 +51,7 @@ VALUES (0x7C05000A,  1542, 0xC050002A, 141.2717, 43.7577, 36.39, 0.7071068, 0, 0
 /* @teleloc 0xC050002A [141.271700 43.757700 36.390000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05000A, 0x7C05000B, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7C05000A, 0x7C05000B, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05000B,  5779, 0xC050002A, 141.2717, 43.7577, 36.39, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

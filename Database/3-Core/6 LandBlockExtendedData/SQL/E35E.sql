@@ -5,18 +5,18 @@ VALUES (0x7E35E001,  1154, 0xE35E0003, 18.10164, 64.8353, -0.8934, -0.1811526, 0
 /* @teleloc 0xE35E0003 [18.101640 64.835300 -0.893400] -0.181153 0.000000 0.000000 -0.983455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E35E001, 0x7E35E002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E35E001, 0x7E35E003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E35E001, 0x7E35E004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E35E001, 0x7E35E005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E35E001, 0x7E35E006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E35E001, 0x7E35E007, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E35E001, 0x7E35E008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E35E001, 0x7E35E009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E35E001, 0x7E35E00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E35E001, 0x7E35E00B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E35E001, 0x7E35E00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7E35E001, 0x7E35E00D, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7E35E001, 0x7E35E002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E35E001, 0x7E35E003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E35E001, 0x7E35E004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E35E001, 0x7E35E005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E35E001, 0x7E35E006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E35E001, 0x7E35E007, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E35E001, 0x7E35E008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E35E001, 0x7E35E009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E35E001, 0x7E35E00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E35E001, 0x7E35E00B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E35E001, 0x7E35E00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7E35E001, 0x7E35E00D, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E35E002,  8429, 0xE35E0003, 18.10164, 64.8353, -0.8934, -0.1811526, 0, 0, -0.983455,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

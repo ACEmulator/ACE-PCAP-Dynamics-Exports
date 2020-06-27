@@ -5,15 +5,15 @@ VALUES (0x75D15001,  1154, 0x5D150008, 4.306168, 187.8031, 124.928, 0.827536, 0,
 /* @teleloc 0x5D150008 [4.306168 187.803100 124.928000] 0.827536 0.000000 0.000000 -0.561413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D15001, 0x75D15002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D15001, 0x75D15003, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x75D15001, 0x75D15004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75D15001, 0x75D15005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75D15001, 0x75D15006, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75D15001, 0x75D15007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75D15001, 0x75D15008, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D15001, 0x75D15009, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D15001, 0x75D1500A, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x75D15001, 0x75D15002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D15001, 0x75D15003, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x75D15001, 0x75D15004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75D15001, 0x75D15005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75D15001, 0x75D15006, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75D15001, 0x75D15007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75D15001, 0x75D15008, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75D15001, 0x75D15009, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D15001, 0x75D1500A, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D15002,  7090, 0x5D150008, 4.306168, 187.8031, 124.928, 0.827536, 0, 0, -0.5614126,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

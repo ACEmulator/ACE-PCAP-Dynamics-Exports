@@ -5,16 +5,16 @@ VALUES (0x72CEF001,  1154, 0x2CEF0040, 181.4998, 181.4096, 20.63258, -0.3340771,
 /* @teleloc 0x2CEF0040 [181.499800 181.409600 20.632580] -0.334077 0.000000 0.000000 -0.942546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CEF001, 0x72CEF002, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEF001, 0x72CEF003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEF001, 0x72CEF004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CEF001, 0x72CEF005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CEF001, 0x72CEF006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEF001, 0x72CEF007, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEF001, 0x72CEF008, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72CEF001, 0x72CEF009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CEF001, 0x72CEF00A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CEF001, 0x72CEF00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x72CEF001, 0x72CEF002, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEF001, 0x72CEF003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEF001, 0x72CEF004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CEF001, 0x72CEF005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CEF001, 0x72CEF006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEF001, 0x72CEF007, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEF001, 0x72CEF008, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72CEF001, 0x72CEF009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CEF001, 0x72CEF00A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CEF001, 0x72CEF00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CEF002, 29353, 0x2CEF0040, 181.4998, 181.4096, 20.63258, -0.3340771, 0, 0, -0.9425458,  True, '2019-02-10 00:00:00'); /* Arctic Mattekar */

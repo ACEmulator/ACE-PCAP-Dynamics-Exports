@@ -5,10 +5,10 @@ VALUES (0x7C055001,  1154, 0xC0550023, 97.14024, 68.60133, 31.9919, 0.9988881, 0
 /* @teleloc 0xC0550023 [97.140240 68.601330 31.991900] 0.998888 0.000000 0.000000 -0.047144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C055001, 0x7C055002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C055001, 0x7C055003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C055001, 0x7C055004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C055001, 0x7C055005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C055001, 0x7C055002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C055001, 0x7C055003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C055001, 0x7C055004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C055001, 0x7C055005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C055002,  2575, 0xC0550023, 97.14024, 68.60133, 31.9919, 0.9988881, 0, 0, -0.04714403,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

@@ -5,18 +5,18 @@ VALUES (0x7B032001,  1154, 0xB0320039, 179.5752, 5.747206, 48.9796, 0.3297893, 0
 /* @teleloc 0xB0320039 [179.575200 5.747206 48.979600] 0.329789 0.000000 0.000000 -0.944055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B032001, 0x7B032002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7B032001, 0x7B032003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B032001, 0x7B032004, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7B032001, 0x7B032005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B032001, 0x7B032006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B032001, 0x7B032007, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B032001, 0x7B032008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B032001, 0x7B032009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B032001, 0x7B03200A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B032001, 0x7B03200B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B032001, 0x7B03200C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B032001, 0x7B03200D, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7B032001, 0x7B032002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7B032001, 0x7B032003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B032001, 0x7B032004, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7B032001, 0x7B032005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B032001, 0x7B032006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B032001, 0x7B032007, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B032001, 0x7B032008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B032001, 0x7B032009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B032001, 0x7B03200A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B032001, 0x7B03200B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B032001, 0x7B03200C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B032001, 0x7B03200D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B032002,  7128, 0xB0320039, 179.5752, 5.747206, 48.9796, 0.3297893, 0, 0, -0.9440545,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -71,7 +71,7 @@ VALUES (0x7B03200E,  1542, 0xB032003E, 182.9052, 140.534, 46.95327, 0.9905525, 0
 /* @teleloc 0xB032003E [182.905200 140.534000 46.953270] 0.990553 0.000000 0.000000 -0.137134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B03200E, 0x7B03200F, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B03200E, 0x7B03200F, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B03200F,  8037, 0xB032003E, 182.9052, 140.534, 46.95327, 0.9905525, 0, 0, -0.1371342,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,12 +5,12 @@ VALUES (0x71D4F001,  1154, 0x1D4F0016, 50.90848, 128.9096, 145.2065, -0.9946367,
 /* @teleloc 0x1D4F0016 [50.908480 128.909600 145.206500] -0.994637 0.000000 0.000000 -0.103431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D4F001, 0x71D4F002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71D4F001, 0x71D4F003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71D4F001, 0x71D4F004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71D4F001, 0x71D4F005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71D4F001, 0x71D4F006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71D4F001, 0x71D4F007, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x71D4F001, 0x71D4F002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71D4F001, 0x71D4F003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71D4F001, 0x71D4F004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71D4F001, 0x71D4F005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71D4F001, 0x71D4F006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71D4F001, 0x71D4F007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D4F002,  7097, 0x1D4F0016, 50.90848, 128.9096, 145.2065, -0.9946367, 0, 0, -0.1034308,  True, '2019-02-10 00:00:00'); /* Platinum Golem */

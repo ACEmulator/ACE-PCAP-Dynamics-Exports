@@ -5,15 +5,15 @@ VALUES (0x7CE43001,  1154, 0xCE43000C, 40.99132, 87.73781, 53.29257, -0.3463884,
 /* @teleloc 0xCE43000C [40.991320 87.737810 53.292570] -0.346388 0.000000 0.000000 -0.938091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE43001, 0x7CE43002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CE43001, 0x7CE43003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CE43001, 0x7CE43004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CE43001, 0x7CE43005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CE43001, 0x7CE43006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CE43001, 0x7CE43007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CE43001, 0x7CE43008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CE43001, 0x7CE43009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CE43001, 0x7CE4300A, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7CE43001, 0x7CE43002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CE43001, 0x7CE43003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CE43001, 0x7CE43004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CE43001, 0x7CE43005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CE43001, 0x7CE43006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CE43001, 0x7CE43007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CE43001, 0x7CE43008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CE43001, 0x7CE43009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CE43001, 0x7CE4300A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE43002, 27254, 0xCE43000C, 40.99132, 87.73781, 53.29257, -0.3463884, 0, 0, -0.9380912,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

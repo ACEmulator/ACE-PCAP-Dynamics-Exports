@@ -5,11 +5,11 @@ VALUES (0x7B653001,  1154, 0xB6530027, 103.6866, 161.2012, 28.7264, 0.589139, 0,
 /* @teleloc 0xB6530027 [103.686600 161.201200 28.726400] 0.589139 0.000000 0.000000 -0.808032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B653001, 0x7B653002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B653001, 0x7B653003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B653001, 0x7B653004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B653001, 0x7B653005, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7B653001, 0x7B653006, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B653001, 0x7B653002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B653001, 0x7B653003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B653001, 0x7B653004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B653001, 0x7B653005, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7B653001, 0x7B653006, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B653002,  1630, 0xB6530027, 103.6866, 161.2012, 28.7264, 0.589139, 0, 0, -0.8080317,  True, '2019-02-10 00:00:00'); /* Lich Lord */

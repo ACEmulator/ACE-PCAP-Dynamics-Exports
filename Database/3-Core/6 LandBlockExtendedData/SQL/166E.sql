@@ -5,12 +5,12 @@ VALUES (0x7166E001,  1154, 0x166E0009, 40.08249, 3.870657, 63.31216, 0.9517535, 
 /* @teleloc 0x166E0009 [40.082490 3.870657 63.312160] 0.951754 0.000000 0.000000 -0.306864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166E001, 0x7166E002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7166E001, 0x7166E003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7166E001, 0x7166E004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7166E001, 0x7166E005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7166E001, 0x7166E006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7166E001, 0x7166E007, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7166E001, 0x7166E002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7166E001, 0x7166E003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7166E001, 0x7166E004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7166E001, 0x7166E005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7166E001, 0x7166E006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7166E001, 0x7166E007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166E002, 11540, 0x166E0009, 40.08249, 3.870657, 63.31216, 0.9517535, 0, 0, -0.3068637,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -41,8 +41,8 @@ VALUES (0x7166E008,  1542, 0x166E001A, 87.35548, 38.27871, 89.29063, 0.7720338, 
 /* @teleloc 0x166E001A [87.355480 38.278710 89.290630] 0.772034 0.000000 0.000000 -0.635582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166E008, 0x7166E009, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x7166E008, 0x7166E00A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7166E008, 0x7166E009, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x7166E008, 0x7166E00A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166E009, 31688, 0x166E001A, 87.35548, 38.27871, 89.29063, 0.7720338, 0, 0, -0.6355815,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

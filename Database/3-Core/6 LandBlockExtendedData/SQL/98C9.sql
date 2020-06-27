@@ -5,10 +5,10 @@ VALUES (0x798C9001,  1154, 0x98C90023, 105.1678, 51.29778, 95.81279, -0.7835562,
 /* @teleloc 0x98C90023 [105.167800 51.297780 95.812790] -0.783556 0.000000 0.000000 -0.621321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798C9001, 0x798C9002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x798C9001, 0x798C9003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x798C9001, 0x798C9004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x798C9001, 0x798C9005, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x798C9001, 0x798C9002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x798C9001, 0x798C9003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x798C9001, 0x798C9004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x798C9001, 0x798C9005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798C9002, 26468, 0x98C90023, 105.1678, 51.29778, 95.81279, -0.7835562, 0, 0, -0.621321,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */

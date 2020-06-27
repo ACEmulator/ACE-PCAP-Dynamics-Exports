@@ -5,26 +5,26 @@ VALUES (0x720BA001,  1154, 0x20BA0030, 134.6143, 190.1406, 91.05091, 1, 0, 0, 0,
 /* @teleloc 0x20BA0030 [134.614300 190.140600 91.050910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BA001, 0x720BA002, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x720BA001, 0x720BA003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x720BA001, 0x720BA004, '2019-02-10 00:00:00') /* Static */
-     , (0x720BA001, 0x720BA005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x720BA001, 0x720BA006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x720BA001, 0x720BA007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x720BA001, 0x720BA008, '2019-02-10 00:00:00') /* Poacher */
-     , (0x720BA001, 0x720BA009, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x720BA001, 0x720BA00A, '2019-02-10 00:00:00') /* Hea Temenua */
-     , (0x720BA001, 0x720BA00B, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x720BA001, 0x720BA00C, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x720BA001, 0x720BA00D, '2019-02-10 00:00:00') /* Static */
-     , (0x720BA001, 0x720BA00E, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x720BA001, 0x720BA00F, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x720BA001, 0x720BA010, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x720BA001, 0x720BA011, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x720BA001, 0x720BA012, '2019-02-10 00:00:00') /* Poacher */
-     , (0x720BA001, 0x720BA013, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x720BA001, 0x720BA014, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x720BA001, 0x720BA015, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x720BA001, 0x720BA002, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x720BA001, 0x720BA003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x720BA001, 0x720BA004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x720BA001, 0x720BA005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x720BA001, 0x720BA006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x720BA001, 0x720BA007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x720BA001, 0x720BA008, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x720BA001, 0x720BA009, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x720BA001, 0x720BA00A, '2019-02-10 00:00:00') /* Hea Temenua (10951) */
+     , (0x720BA001, 0x720BA00B, '2019-02-10 00:00:00') /* Hea Nualuan (10937) */
+     , (0x720BA001, 0x720BA00C, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x720BA001, 0x720BA00D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x720BA001, 0x720BA00E, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x720BA001, 0x720BA00F, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x720BA001, 0x720BA010, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x720BA001, 0x720BA011, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x720BA001, 0x720BA012, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x720BA001, 0x720BA013, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x720BA001, 0x720BA014, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x720BA001, 0x720BA015, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BA002, 11486, 0x20BA0030, 134.6143, 190.1406, 91.05091, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
@@ -111,16 +111,16 @@ VALUES (0x720BA016,  1542, 0x20BA003E, 186.7124, 132.2749, 90, 1, 0, 0, 0, False
 /* @teleloc 0x20BA003E [186.712400 132.274900 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BA016, 0x720BA017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720BA016, 0x720BA018, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BA016, 0x720BA019, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BA016, 0x720BA01A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720BA016, 0x720BA01B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BA016, 0x720BA01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720BA016, 0x720BA01D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BA016, 0x720BA01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720BA016, 0x720BA01F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BA016, 0x720BA020, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x720BA016, 0x720BA017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720BA016, 0x720BA018, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BA016, 0x720BA019, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BA016, 0x720BA01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720BA016, 0x720BA01B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BA016, 0x720BA01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720BA016, 0x720BA01D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BA016, 0x720BA01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720BA016, 0x720BA01F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BA016, 0x720BA020, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BA017,  4179, 0x20BA003E, 186.7124, 132.2749, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

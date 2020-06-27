@@ -5,15 +5,15 @@ VALUES (0x7C06E001,  1154, 0xC06E001C, 88.3874, 76.16086, 54.012, -0.9836735, 0,
 /* @teleloc 0xC06E001C [88.387400 76.160860 54.012000] -0.983674 0.000000 0.000000 -0.179963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06E001, 0x7C06E002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C06E001, 0x7C06E003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C06E001, 0x7C06E004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C06E001, 0x7C06E005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C06E001, 0x7C06E006, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C06E001, 0x7C06E007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C06E001, 0x7C06E008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C06E001, 0x7C06E009, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C06E001, 0x7C06E00A, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7C06E001, 0x7C06E002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C06E001, 0x7C06E003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C06E001, 0x7C06E004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C06E001, 0x7C06E005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C06E001, 0x7C06E006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C06E001, 0x7C06E007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C06E001, 0x7C06E008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C06E001, 0x7C06E009, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C06E001, 0x7C06E00A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06E002,    12, 0xC06E001C, 88.3874, 76.16086, 54.012, -0.9836735, 0, 0, -0.1799626,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */

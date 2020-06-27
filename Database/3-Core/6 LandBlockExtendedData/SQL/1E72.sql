@@ -5,27 +5,27 @@ VALUES (0x71E72001,  1154, 0x1E720040, 175.3833, 182.3555, 45.20229, 1, 0, 0, 0,
 /* @teleloc 0x1E720040 [175.383300 182.355500 45.202290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E72001, 0x71E72002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71E72001, 0x71E72003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71E72001, 0x71E72004, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x71E72001, 0x71E72005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E72001, 0x71E72006, '2019-02-10 00:00:00') /* Brumal */
-     , (0x71E72001, 0x71E72007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71E72001, 0x71E72008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71E72001, 0x71E72009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71E72001, 0x71E7200A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71E72001, 0x71E7200B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71E72001, 0x71E7200C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E72001, 0x71E7200D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E72001, 0x71E7200E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E72001, 0x71E7200F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E72001, 0x71E72010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E72001, 0x71E72011, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71E72001, 0x71E72012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71E72001, 0x71E72013, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71E72001, 0x71E72014, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x71E72001, 0x71E72015, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E72001, 0x71E72016, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x71E72001, 0x71E72002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71E72001, 0x71E72003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71E72001, 0x71E72004, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x71E72001, 0x71E72005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E72001, 0x71E72006, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x71E72001, 0x71E72007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71E72001, 0x71E72008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71E72001, 0x71E72009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71E72001, 0x71E7200A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71E72001, 0x71E7200B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71E72001, 0x71E7200C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E72001, 0x71E7200D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E72001, 0x71E7200E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E72001, 0x71E7200F, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E72001, 0x71E72010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E72001, 0x71E72011, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71E72001, 0x71E72012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71E72001, 0x71E72013, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71E72001, 0x71E72014, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x71E72001, 0x71E72015, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x71E72001, 0x71E72016, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E72002, 23566, 0x1E720040, 175.3833, 182.3555, 45.20229, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -116,7 +116,7 @@ VALUES (0x71E72017,  1542, 0x1E720040, 174.2484, 181.5117, 45.12381, 1, 0, 0, 0,
 /* @teleloc 0x1E720040 [174.248400 181.511700 45.123810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E72017, 0x71E72018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71E72017, 0x71E72018, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E72018, 31445, 0x1E720040, 174.2484, 181.5117, 45.12381, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

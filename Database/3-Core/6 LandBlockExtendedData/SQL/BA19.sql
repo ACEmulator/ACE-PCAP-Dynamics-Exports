@@ -5,14 +5,14 @@ VALUES (0x7BA19001,  1154, 0xBA190026, 98.69871, 131.3416, 243.9864, -0.4128742,
 /* @teleloc 0xBA190026 [98.698710 131.341600 243.986400] -0.412874 0.000000 0.000000 -0.910788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA19001, 0x7BA19002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA19001, 0x7BA19003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA19001, 0x7BA19004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BA19001, 0x7BA19005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BA19001, 0x7BA19006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA19001, 0x7BA19007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA19001, 0x7BA19008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA19001, 0x7BA19009, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7BA19001, 0x7BA19002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA19001, 0x7BA19003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA19001, 0x7BA19004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BA19001, 0x7BA19005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BA19001, 0x7BA19006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA19001, 0x7BA19007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA19001, 0x7BA19008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA19001, 0x7BA19009, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA19002, 14559, 0xBA190026, 98.69871, 131.3416, 243.9864, -0.4128742, 0, 0, -0.9107881,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -51,7 +51,7 @@ VALUES (0x7BA1900A,  1542, 0xBA190031, 148.649, 16.07425, 222.4832, 0.9110225, 0
 /* @teleloc 0xBA190031 [148.649000 16.074250 222.483200] 0.911023 0.000000 0.000000 -0.412357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA1900A, 0x7BA1900B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BA1900A, 0x7BA1900B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA1900B,  8644, 0xBA190031, 148.649, 16.07425, 222.4832, 0.9110225, 0, 0, -0.4123567,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

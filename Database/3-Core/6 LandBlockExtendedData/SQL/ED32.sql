@@ -5,25 +5,25 @@ VALUES (0x7ED32001,  1154, 0xED320004, 14.43193, 78.4302, 2.263989, 0.7933533, 0
 /* @teleloc 0xED320004 [14.431930 78.430200 2.263989] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED32001, 0x7ED32002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7ED32001, 0x7ED32003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7ED32001, 0x7ED32004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED32001, 0x7ED32005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED32001, 0x7ED32006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED32001, 0x7ED32007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7ED32001, 0x7ED32008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED32001, 0x7ED32009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED32001, 0x7ED3200A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7ED32001, 0x7ED3200B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED32001, 0x7ED3200C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7ED32001, 0x7ED3200D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED32001, 0x7ED3200E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7ED32001, 0x7ED3200F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED32001, 0x7ED32010, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7ED32001, 0x7ED32011, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED32001, 0x7ED32012, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7ED32001, 0x7ED32013, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7ED32001, 0x7ED32014, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7ED32001, 0x7ED32002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7ED32001, 0x7ED32003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7ED32001, 0x7ED32004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED32001, 0x7ED32005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED32001, 0x7ED32006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED32001, 0x7ED32007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7ED32001, 0x7ED32008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED32001, 0x7ED32009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED32001, 0x7ED3200A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7ED32001, 0x7ED3200B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED32001, 0x7ED3200C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7ED32001, 0x7ED3200D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED32001, 0x7ED3200E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7ED32001, 0x7ED3200F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED32001, 0x7ED32010, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7ED32001, 0x7ED32011, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED32001, 0x7ED32012, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7ED32001, 0x7ED32013, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7ED32001, 0x7ED32014, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED32002,  1762, 0xED320004, 14.43193, 78.4302, 2.263989, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

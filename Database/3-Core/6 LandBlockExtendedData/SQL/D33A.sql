@@ -5,14 +5,14 @@ VALUES (0x7D33A001,  1154, 0xD33A0011, 63.93544, 20.82672, 204.4644, 0.8388241, 
 /* @teleloc 0xD33A0011 [63.935440 20.826720 204.464400] 0.838824 0.000000 0.000000 -0.544403 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33A001, 0x7D33A002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7D33A001, 0x7D33A003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D33A001, 0x7D33A004, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7D33A001, 0x7D33A005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D33A001, 0x7D33A006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D33A001, 0x7D33A007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D33A001, 0x7D33A008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D33A001, 0x7D33A009, '2019-02-10 00:00:00') /* Laigus Raider */;
+VALUES (0x7D33A001, 0x7D33A002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7D33A001, 0x7D33A003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D33A001, 0x7D33A004, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D33A001, 0x7D33A005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D33A001, 0x7D33A006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D33A001, 0x7D33A007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D33A001, 0x7D33A008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D33A001, 0x7D33A009, '2019-02-10 00:00:00') /* Laigus Raider (8140) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33A002,   206, 0xD33A0011, 63.93544, 20.82672, 204.4644, 0.8388241, 0, 0, -0.5444026,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
@@ -51,7 +51,7 @@ VALUES (0x7D33A00A,  1542, 0xD33A002F, 135.6838, 160.0358, 165.9707, -0.3977669,
 /* @teleloc 0xD33A002F [135.683800 160.035800 165.970700] -0.397767 0.000000 0.000000 -0.917487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33A00A, 0x7D33A00B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7D33A00A, 0x7D33A00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33A00B,  8644, 0xD33A002F, 135.6838, 160.0358, 165.9707, -0.3977669, 0, 0, -0.9174865,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

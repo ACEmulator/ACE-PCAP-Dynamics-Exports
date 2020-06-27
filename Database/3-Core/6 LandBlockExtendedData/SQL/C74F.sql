@@ -5,21 +5,21 @@ VALUES (0x7C74F001,  1154, 0xC74F0005, 6.832974, 117.6674, 25.29733, 0.8191521, 
 /* @teleloc 0xC74F0005 [6.832974 117.667400 25.297330] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C74F001, 0x7C74F002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C74F001, 0x7C74F003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C74F001, 0x7C74F004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C74F001, 0x7C74F005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C74F001, 0x7C74F006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C74F001, 0x7C74F007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C74F001, 0x7C74F008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C74F001, 0x7C74F009, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C74F001, 0x7C74F00A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C74F001, 0x7C74F00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C74F001, 0x7C74F00C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C74F001, 0x7C74F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C74F001, 0x7C74F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C74F001, 0x7C74F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C74F001, 0x7C74F010, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7C74F001, 0x7C74F002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C74F001, 0x7C74F003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C74F001, 0x7C74F004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C74F001, 0x7C74F005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C74F001, 0x7C74F006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C74F001, 0x7C74F007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C74F001, 0x7C74F008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C74F001, 0x7C74F009, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C74F001, 0x7C74F00A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C74F001, 0x7C74F00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C74F001, 0x7C74F00C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C74F001, 0x7C74F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C74F001, 0x7C74F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C74F001, 0x7C74F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C74F001, 0x7C74F010, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C74F002,  7978, 0xC74F0005, 6.832974, 117.6674, 25.29733, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

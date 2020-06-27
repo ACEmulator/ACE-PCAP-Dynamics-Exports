@@ -9,40 +9,40 @@ VALUES (0x702B5039,  1154, 0x02B502CD, 134.348, -190.584, 0.006600022, 0.727061,
 /* @teleloc 0x02B502CD [134.348000 -190.584000 0.006600] 0.727061 0.000000 0.000000 0.686572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B5039, 0x702B503A, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B503B, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B503C, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B503D, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B503E, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B503F, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5040, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5041, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5042, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5043, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5044, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5045, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5046, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5047, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5048, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5049, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B504A, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B504B, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B504C, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B504D, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B504E, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B504F, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5050, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5051, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5052, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5053, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5054, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5055, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5056, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5057, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B5058, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B5059, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x702B5039, 0x702B505A, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x702B5039, 0x702B505B, '2019-02-10 00:00:00') /* Mosswart Scavenger */;
+VALUES (0x702B5039, 0x702B503A, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B503B, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B503C, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B503D, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B503E, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B503F, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5040, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5041, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5042, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5043, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5044, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5045, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5046, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5047, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5048, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5049, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B504A, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B504B, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B504C, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B504D, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B504E, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B504F, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5050, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5051, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5052, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5053, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5054, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5055, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5056, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5057, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B5058, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B5059, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5039, 0x702B505A, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5039, 0x702B505B, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B503A, 28000, 0x02B502CD, 134.348, -190.584, 0.006600022, 0.727061, 0, 0, 0.686572,  True, '2019-02-10 00:00:00'); /* Mosswart Scavenger */

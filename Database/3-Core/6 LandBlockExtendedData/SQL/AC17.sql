@@ -5,15 +5,15 @@ VALUES (0x7AC17001,  1154, 0xAC17000B, 24.16139, 71.3011, 189.228, 0.9771368, 0,
 /* @teleloc 0xAC17000B [24.161390 71.301100 189.228000] 0.977137 0.000000 0.000000 -0.212612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC17001, 0x7AC17002, '2019-02-10 00:00:00') /* Banished Drudge */
-     , (0x7AC17001, 0x7AC17003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AC17001, 0x7AC17004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AC17001, 0x7AC17005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AC17001, 0x7AC17006, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AC17001, 0x7AC17007, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7AC17001, 0x7AC17008, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7AC17001, 0x7AC17009, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7AC17001, 0x7AC1700A, '2019-02-10 00:00:00') /* K'nath N'gell */;
+VALUES (0x7AC17001, 0x7AC17002, '2019-02-10 00:00:00') /* Banished Drudge (30899) */
+     , (0x7AC17001, 0x7AC17003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AC17001, 0x7AC17004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AC17001, 0x7AC17005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AC17001, 0x7AC17006, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AC17001, 0x7AC17007, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7AC17001, 0x7AC17008, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7AC17001, 0x7AC17009, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7AC17001, 0x7AC1700A, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC17002, 30899, 0xAC17000B, 24.16139, 71.3011, 189.228, 0.9771368, 0, 0, -0.2126116,  True, '2019-02-10 00:00:00'); /* Banished Drudge */
@@ -56,7 +56,7 @@ VALUES (0x7AC1700B,  1542, 0xAC170036, 166.8148, 134.5234, 232.4304, 0.9537169, 
 /* @teleloc 0xAC170036 [166.814800 134.523400 232.430400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC1700B, 0x7AC1700C, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal */;
+VALUES (0x7AC1700B, 0x7AC1700C, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC1700C,  8390, 0xAC170036, 166.8148, 134.5234, 232.4304, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands South Landbridge Portal */

@@ -5,9 +5,9 @@ VALUES (0x79E82001,  1154, 0x9E82001C, 78.26758, 82.70248, 72.4361, -0.08216339,
 /* @teleloc 0x9E82001C [78.267580 82.702480 72.436100] -0.082163 0.000000 0.000000 -0.996619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E82001, 0x79E82002, '2019-02-10 00:00:00') /* Charge */
-     , (0x79E82001, 0x79E82003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79E82001, 0x79E82004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x79E82001, 0x79E82002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79E82001, 0x79E82003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79E82001, 0x79E82004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E82002, 21168, 0x9E82001C, 78.26758, 82.70248, 72.4361, -0.08216339, 0, 0, -0.9966189,  True, '2019-02-10 00:00:00'); /* Charge */

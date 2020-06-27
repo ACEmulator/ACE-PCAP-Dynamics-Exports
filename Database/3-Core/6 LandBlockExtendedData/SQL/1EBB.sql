@@ -5,17 +5,17 @@ VALUES (0x71EBB001,  1154, 0x1EBB002C, 122.9186, 94.29591, 70.0458, 1, 0, 0, 0, 
 /* @teleloc 0x1EBB002C [122.918600 94.295910 70.045800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBB001, 0x71EBB002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBB001, 0x71EBB003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBB001, 0x71EBB004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71EBB001, 0x71EBB005, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71EBB001, 0x71EBB006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71EBB001, 0x71EBB007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71EBB001, 0x71EBB008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71EBB001, 0x71EBB009, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71EBB001, 0x71EBB00A, '2019-02-10 00:00:00') /* Static */
-     , (0x71EBB001, 0x71EBB00B, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71EBB001, 0x71EBB00C, '2019-02-10 00:00:00') /* Kithless Siraluun */;
+VALUES (0x71EBB001, 0x71EBB002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBB001, 0x71EBB003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBB001, 0x71EBB004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71EBB001, 0x71EBB005, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71EBB001, 0x71EBB006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71EBB001, 0x71EBB007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71EBB001, 0x71EBB008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71EBB001, 0x71EBB009, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71EBB001, 0x71EBB00A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x71EBB001, 0x71EBB00B, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71EBB001, 0x71EBB00C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBB002, 11526, 0x1EBB002C, 122.9186, 94.29591, 70.0458, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -66,7 +66,7 @@ VALUES (0x71EBB00D,  1542, 0x1EBB0031, 149.9486, 13.82086, 92.65643, 1, 0, 0, 0,
 /* @teleloc 0x1EBB0031 [149.948600 13.820860 92.656430] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBB00D, 0x71EBB00E, '2019-02-10 00:00:00') /* Simple Hive Portal */;
+VALUES (0x71EBB00D, 0x71EBB00E, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBB00E, 11223, 0x1EBB0031, 149.9486, 13.82086, 92.65643, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Simple Hive Portal */

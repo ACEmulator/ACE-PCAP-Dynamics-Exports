@@ -5,12 +5,12 @@ VALUES (0x7B7DC001,  1154, 0xB7DC003C, 190.0444, 74.11806, 1.815495, 0.2588191, 
 /* @teleloc 0xB7DC003C [190.044400 74.118060 1.815495] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7DC001, 0x7B7DC002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B7DC001, 0x7B7DC003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B7DC001, 0x7B7DC004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B7DC001, 0x7B7DC005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7B7DC001, 0x7B7DC006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B7DC001, 0x7B7DC007, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7B7DC001, 0x7B7DC002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B7DC001, 0x7B7DC003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B7DC001, 0x7B7DC004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B7DC001, 0x7B7DC005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7B7DC001, 0x7B7DC006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B7DC001, 0x7B7DC007, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7DC002, 24289, 0xB7DC003C, 190.0444, 74.11806, 1.815495, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

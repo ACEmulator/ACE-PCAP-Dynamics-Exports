@@ -5,19 +5,19 @@ VALUES (0x794E9001,  1154, 0x94E90028, 100.5343, 190.7003, 28.97921, -4.371139E-
 /* @teleloc 0x94E90028 [100.534300 190.700300 28.979210] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E9001, 0x794E9002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794E9001, 0x794E9003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794E9001, 0x794E9004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794E9001, 0x794E9005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x794E9001, 0x794E9006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x794E9001, 0x794E9007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794E9001, 0x794E9008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794E9001, 0x794E9009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x794E9001, 0x794E900A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x794E9001, 0x794E900B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x794E9001, 0x794E900C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794E9001, 0x794E900D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794E9001, 0x794E900E, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x794E9001, 0x794E9002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794E9001, 0x794E9003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x794E9001, 0x794E9004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x794E9001, 0x794E9005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x794E9001, 0x794E9006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x794E9001, 0x794E9007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794E9001, 0x794E9008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x794E9001, 0x794E9009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x794E9001, 0x794E900A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x794E9001, 0x794E900B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x794E9001, 0x794E900C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794E9001, 0x794E900D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794E9001, 0x794E900E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E9002,  7345, 0x94E90028, 100.5343, 190.7003, 28.97921, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -76,8 +76,8 @@ VALUES (0x794E900F,  1542, 0x94E9000E, 46.04465, 132.5039, 31.75307, -0.7939636,
 /* @teleloc 0x94E9000E [46.044650 132.503900 31.753070] -0.793964 0.000000 0.000000 -0.607965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E900F, 0x794E9010, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x794E900F, 0x794E9011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x794E900F, 0x794E9010, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x794E900F, 0x794E9011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E9010, 11554, 0x94E9000E, 46.04465, 132.5039, 31.75307, -0.7939636, 0, 0, -0.6079654,  True, '2019-02-10 00:00:00'); /* Colban Plant */

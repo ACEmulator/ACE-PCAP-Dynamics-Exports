@@ -5,10 +5,10 @@ VALUES (0x7B65F001,  1154, 0xB65F0040, 185.7885, 184.4675, 17.985, 0.9774683, 0,
 /* @teleloc 0xB65F0040 [185.788500 184.467500 17.985000] 0.977468 0.000000 0.000000 -0.211082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B65F001, 0x7B65F002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B65F001, 0x7B65F003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B65F001, 0x7B65F004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B65F001, 0x7B65F005, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7B65F001, 0x7B65F002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B65F001, 0x7B65F003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B65F001, 0x7B65F004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B65F001, 0x7B65F005, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B65F002,  8010, 0xB65F0040, 185.7885, 184.4675, 17.985, 0.9774683, 0, 0, -0.2110824,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

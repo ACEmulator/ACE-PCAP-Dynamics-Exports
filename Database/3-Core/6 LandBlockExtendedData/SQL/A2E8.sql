@@ -5,22 +5,22 @@ VALUES (0x7A2E8001,  1154, 0xA2E80022, 109.0255, 26.21567, 92.54527, 0.8093973, 
 /* @teleloc 0xA2E80022 [109.025500 26.215670 92.545270] 0.809397 0.000000 0.000000 -0.587261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E8001, 0x7A2E8002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A2E8001, 0x7A2E8003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A2E8001, 0x7A2E8004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A2E8001, 0x7A2E8005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A2E8001, 0x7A2E8006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A2E8001, 0x7A2E8007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E8001, 0x7A2E8008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E8001, 0x7A2E8009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7A2E8001, 0x7A2E800A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A2E8001, 0x7A2E800B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A2E8001, 0x7A2E800C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A2E8001, 0x7A2E800D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A2E8001, 0x7A2E800E, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A2E8001, 0x7A2E800F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A2E8001, 0x7A2E8010, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E8001, 0x7A2E8011, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x7A2E8001, 0x7A2E8002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A2E8001, 0x7A2E8003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A2E8001, 0x7A2E8004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A2E8001, 0x7A2E8005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A2E8001, 0x7A2E8006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A2E8001, 0x7A2E8007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E8001, 0x7A2E8008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E8001, 0x7A2E8009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7A2E8001, 0x7A2E800A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A2E8001, 0x7A2E800B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A2E8001, 0x7A2E800C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A2E8001, 0x7A2E800D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A2E8001, 0x7A2E800E, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A2E8001, 0x7A2E800F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A2E8001, 0x7A2E8010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E8001, 0x7A2E8011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E8002,   214, 0xA2E80022, 109.0255, 26.21567, 92.54527, 0.8093973, 0, 0, -0.5872614,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -91,8 +91,8 @@ VALUES (0x7A2E8012,  1542, 0xA2E8001F, 94.49043, 156.4783, 58.85671, 0.2923732, 
 /* @teleloc 0xA2E8001F [94.490430 156.478300 58.856710] 0.292373 0.000000 0.000000 -0.956304 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E8012, 0x7A2E8013, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A2E8012, 0x7A2E8014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A2E8012, 0x7A2E8013, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A2E8012, 0x7A2E8014, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E8013, 42528, 0xA2E8001F, 94.49043, 156.4783, 58.85671, 0.2923732, 0, 0, -0.9563043,  True, '2019-02-10 00:00:00'); /* Rock */

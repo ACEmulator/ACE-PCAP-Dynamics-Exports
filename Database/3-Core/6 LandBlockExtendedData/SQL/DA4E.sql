@@ -5,21 +5,21 @@ VALUES (0x7DA4E001,  1154, 0xDA4E0028, 102.5143, 186.1143, 32.0025, -0.9608617, 
 /* @teleloc 0xDA4E0028 [102.514300 186.114300 32.002500] -0.960862 0.000000 0.000000 -0.277028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA4E001, 0x7DA4E002, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7DA4E001, 0x7DA4E003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DA4E001, 0x7DA4E004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DA4E001, 0x7DA4E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DA4E001, 0x7DA4E00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7DA4E001, 0x7DA4E00C, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7DA4E001, 0x7DA4E00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DA4E001, 0x7DA4E00E, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7DA4E001, 0x7DA4E00F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA4E001, 0x7DA4E010, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7DA4E001, 0x7DA4E002, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7DA4E001, 0x7DA4E003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DA4E001, 0x7DA4E004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DA4E001, 0x7DA4E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DA4E001, 0x7DA4E00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7DA4E001, 0x7DA4E00C, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7DA4E001, 0x7DA4E00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DA4E001, 0x7DA4E00E, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7DA4E001, 0x7DA4E00F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA4E001, 0x7DA4E010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA4E002,  6535, 0xDA4E0028, 102.5143, 186.1143, 32.0025, -0.9608617, 0, 0, -0.2770284,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */

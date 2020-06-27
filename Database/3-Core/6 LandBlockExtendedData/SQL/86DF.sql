@@ -5,13 +5,13 @@ VALUES (0x786DF001,  1154, 0x86DF0033, 164.1913, 71.28223, 63.49485, 0.2337224, 
 /* @teleloc 0x86DF0033 [164.191300 71.282230 63.494850] 0.233722 0.000000 0.000000 -0.972303 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786DF001, 0x786DF002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x786DF001, 0x786DF003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x786DF001, 0x786DF004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786DF001, 0x786DF005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786DF001, 0x786DF006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786DF001, 0x786DF007, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x786DF001, 0x786DF008, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x786DF001, 0x786DF002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x786DF001, 0x786DF003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x786DF001, 0x786DF004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786DF001, 0x786DF005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786DF001, 0x786DF006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786DF001, 0x786DF007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x786DF001, 0x786DF008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786DF002, 38177, 0x86DF0033, 164.1913, 71.28223, 63.49485, 0.2337224, 0, 0, -0.9723033,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

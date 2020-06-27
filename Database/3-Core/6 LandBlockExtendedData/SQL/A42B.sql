@@ -5,8 +5,8 @@ VALUES (0x7A42B001,  1154, 0xA42B0020, 87.14433, 168.3833, 153.7218, -0.9669067,
 /* @teleloc 0xA42B0020 [87.144330 168.383300 153.721800] -0.966907 0.000000 0.000000 -0.255130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A42B001, 0x7A42B002, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7A42B001, 0x7A42B003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7A42B001, 0x7A42B002, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7A42B001, 0x7A42B003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A42B002, 26469, 0xA42B0020, 87.14433, 168.3833, 153.7218, -0.9669067, 0, 0, -0.25513,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */

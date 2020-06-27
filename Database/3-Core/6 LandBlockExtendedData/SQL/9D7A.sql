@@ -5,18 +5,18 @@ VALUES (0x79D7A001,  1154, 0x9D7A0101, 35.84634, 177.9181, 23.71, 0.7588673, 0, 
 /* @teleloc 0x9D7A0101 [35.846340 177.918100 23.710000] 0.758867 0.000000 0.000000 -0.651245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D7A001, 0x79D7A002, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7A001, 0x79D7A003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7A001, 0x79D7A004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7A001, 0x79D7A005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7A001, 0x79D7A006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79D7A001, 0x79D7A007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79D7A001, 0x79D7A008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79D7A001, 0x79D7A009, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79D7A001, 0x79D7A00A, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79D7A001, 0x79D7A00B, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7A001, 0x79D7A00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79D7A001, 0x79D7A00D, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x79D7A001, 0x79D7A002, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7A001, 0x79D7A003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7A001, 0x79D7A004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7A001, 0x79D7A005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7A001, 0x79D7A006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79D7A001, 0x79D7A007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79D7A001, 0x79D7A008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79D7A001, 0x79D7A009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79D7A001, 0x79D7A00A, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79D7A001, 0x79D7A00B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7A001, 0x79D7A00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79D7A001, 0x79D7A00D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D7A002,   219, 0x9D7A0101, 35.84634, 177.9181, 23.71, 0.7588673, 0, 0, -0.6512452,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -71,7 +71,7 @@ VALUES (0x79D7A00E,  1542, 0x9D7A0032, 163.4341, 32.47551, 24, 0.9990482, 0, 0, 
 /* @teleloc 0x9D7A0032 [163.434100 32.475510 24.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D7A00E, 0x79D7A00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79D7A00E, 0x79D7A00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D7A00F,  4179, 0x9D7A0032, 163.4341, 32.47551, 24, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

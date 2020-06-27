@@ -5,18 +5,18 @@ VALUES (0x7CBA9001,  1154, 0xCBA9001C, 91.06071, 92.58363, 67.9925, 0.9238795, 0
 /* @teleloc 0xCBA9001C [91.060710 92.583630 67.992500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBA9001, 0x7CBA9002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CBA9001, 0x7CBA9003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CBA9001, 0x7CBA9004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CBA9001, 0x7CBA9005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CBA9001, 0x7CBA9006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CBA9001, 0x7CBA9007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CBA9001, 0x7CBA9008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CBA9001, 0x7CBA9009, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CBA9001, 0x7CBA900A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CBA9001, 0x7CBA900B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CBA9001, 0x7CBA900C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CBA9001, 0x7CBA900D, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7CBA9001, 0x7CBA9002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CBA9001, 0x7CBA9003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CBA9001, 0x7CBA9004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CBA9001, 0x7CBA9005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CBA9001, 0x7CBA9006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CBA9001, 0x7CBA9007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CBA9001, 0x7CBA9008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CBA9001, 0x7CBA9009, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CBA9001, 0x7CBA900A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CBA9001, 0x7CBA900B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CBA9001, 0x7CBA900C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CBA9001, 0x7CBA900D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBA9002,  2612, 0xCBA9001C, 91.06071, 92.58363, 67.9925, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7CBA900E,  1542, 0xCBA9001C, 80.94735, 85.88599, 68.0093, 0.7071068, 0
 /* @teleloc 0xCBA9001C [80.947350 85.885990 68.009300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBA900E, 0x7CBA900F, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7CBA900E, 0x7CBA900F, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBA900F,  5779, 0xCBA9001C, 80.94735, 85.88599, 68.0093, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

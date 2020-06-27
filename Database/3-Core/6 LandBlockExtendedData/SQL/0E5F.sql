@@ -5,10 +5,10 @@ VALUES (0x70E5F001,  1154, 0x0E5F001E, 89.16782, 127.2298, -0.8999987, 0.9866377
 /* @teleloc 0x0E5F001E [89.167820 127.229800 -0.899999] 0.986638 0.000000 0.000000 -0.162930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5F001, 0x70E5F002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x70E5F001, 0x70E5F003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5F001, 0x70E5F004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E5F001, 0x70E5F005, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x70E5F001, 0x70E5F002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x70E5F001, 0x70E5F003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5F001, 0x70E5F004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E5F001, 0x70E5F005, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5F002, 11535, 0x0E5F001E, 89.16782, 127.2298, -0.8999987, 0.9866377, 0, 0, -0.1629297,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */

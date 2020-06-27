@@ -5,32 +5,32 @@ VALUES (0x74B0D001,  1154, 0x4B0D001F, 93.68861, 153.4424, 7.876915, 0.6859029, 
 /* @teleloc 0x4B0D001F [93.688610 153.442400 7.876915] 0.685903 0.000000 0.000000 -0.727693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B0D001, 0x74B0D002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74B0D001, 0x74B0D003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74B0D001, 0x74B0D004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B0D001, 0x74B0D005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74B0D001, 0x74B0D006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74B0D001, 0x74B0D007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0D001, 0x74B0D008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0D001, 0x74B0D009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74B0D001, 0x74B0D00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0D001, 0x74B0D00B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74B0D001, 0x74B0D00C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74B0D001, 0x74B0D00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74B0D001, 0x74B0D00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B0D001, 0x74B0D00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B0D001, 0x74B0D010, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74B0D001, 0x74B0D011, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74B0D001, 0x74B0D012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B0D001, 0x74B0D013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74B0D001, 0x74B0D014, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74B0D001, 0x74B0D015, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74B0D001, 0x74B0D016, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x74B0D001, 0x74B0D017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74B0D001, 0x74B0D018, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74B0D001, 0x74B0D019, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74B0D001, 0x74B0D01A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B0D001, 0x74B0D01B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x74B0D001, 0x74B0D002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74B0D001, 0x74B0D003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74B0D001, 0x74B0D004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B0D001, 0x74B0D005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74B0D001, 0x74B0D006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74B0D001, 0x74B0D007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74B0D001, 0x74B0D008, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74B0D001, 0x74B0D009, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74B0D001, 0x74B0D00A, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74B0D001, 0x74B0D00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74B0D001, 0x74B0D00C, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74B0D001, 0x74B0D00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74B0D001, 0x74B0D00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B0D001, 0x74B0D00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B0D001, 0x74B0D010, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74B0D001, 0x74B0D011, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74B0D001, 0x74B0D012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B0D001, 0x74B0D013, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74B0D001, 0x74B0D014, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74B0D001, 0x74B0D015, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74B0D001, 0x74B0D016, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x74B0D001, 0x74B0D017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74B0D001, 0x74B0D018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74B0D001, 0x74B0D019, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74B0D001, 0x74B0D01A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B0D001, 0x74B0D01B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B0D002, 24320, 0x4B0D001F, 93.68861, 153.4424, 7.876915, 0.6859029, 0, 0, -0.7276931,  True, '2019-02-10 00:00:00'); /* Great Revenant */

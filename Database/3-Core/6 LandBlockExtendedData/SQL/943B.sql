@@ -5,8 +5,8 @@ VALUES (0x7943B001,  1154, 0x943B0020, 84.67739, 190.5713, 108.1207, -0.367639, 
 /* @teleloc 0x943B0020 [84.677390 190.571300 108.120700] -0.367639 0.000000 0.000000 -0.929969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7943B001, 0x7943B002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7943B001, 0x7943B003, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7943B001, 0x7943B002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7943B001, 0x7943B003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7943B002,  9257, 0x943B0020, 84.67739, 190.5713, 108.1207, -0.367639, 0, 0, -0.9299686,  True, '2019-02-10 00:00:00'); /* Silt Lurker */

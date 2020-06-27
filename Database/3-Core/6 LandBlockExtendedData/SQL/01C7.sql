@@ -9,12 +9,12 @@ VALUES (0x701C7007,  1154, 0x01C70125, 49.48978, -21.51812, 0.00999999, -0.65077
 /* @teleloc 0x01C70125 [49.489780 -21.518120 0.010000] -0.650774 0.000000 0.000000 -0.759271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C7007, 0x701C7008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C7007, 0x701C7009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701C7007, 0x701C700A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C7007, 0x701C700B, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C7007, 0x701C700C, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701C7007, 0x701C700D, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x701C7007, 0x701C7008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C7007, 0x701C7009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701C7007, 0x701C700A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C7007, 0x701C700B, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C7007, 0x701C700C, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701C7007, 0x701C700D, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C7008, 24941, 0x01C70125, 49.48978, -21.51812, 0.00999999, -0.650774, 0, 0, -0.759271,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -45,21 +45,21 @@ VALUES (0x701C700E,  1542, 0x01C70108, 19.04711, -1.896531, 0.006999999, 1, 0, 0
 /* @teleloc 0x01C70108 [19.047110 -1.896531 0.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C700E, 0x701C700F, '2019-02-10 00:00:00') /* Buckler */
-     , (0x701C700E, 0x701C7010, '2019-02-10 00:00:00') /* Shamshir */
-     , (0x701C700E, 0x701C7011, '2019-02-10 00:00:00') /* Gem */
-     , (0x701C700E, 0x701C7012, '2019-02-10 00:00:00') /* Scroll of Wi's Folly */
-     , (0x701C700E, 0x701C7013, '2019-02-10 00:00:00') /* Scalemail Leggings */
-     , (0x701C700E, 0x701C7014, '2019-02-10 00:00:00') /* Scalemail Gauntlets */
-     , (0x701C700E, 0x701C7015, '2019-02-10 00:00:00') /* Scroll of Dirty Fighting Ineptitude Other VI */
-     , (0x701C700E, 0x701C7016, '2019-02-10 00:00:00') /* Acid Simi */
-     , (0x701C700E, 0x701C7017, '2019-02-10 00:00:00') /* Scroll of Lightning Streak V */
-     , (0x701C700E, 0x701C7018, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x701C700E, 0x701C7019, '2019-02-10 00:00:00') /* Scalemail Leggings */
-     , (0x701C700E, 0x701C701A, '2019-02-10 00:00:00') /* Scalemail Shirt */
-     , (0x701C700E, 0x701C701B, '2019-02-10 00:00:00') /* Scroll of Two Handed Weapon Mastery Other VI */
-     , (0x701C700E, 0x701C701C, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x701C700E, 0x701C701D, '2019-02-10 00:00:00') /* Reliable Lockpick */;
+VALUES (0x701C700E, 0x701C700F, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x701C700E, 0x701C7010, '2019-02-10 00:00:00') /* Shamshir (340) */
+     , (0x701C700E, 0x701C7011, '2019-02-10 00:00:00') /* Gem (2429) */
+     , (0x701C700E, 0x701C7012, '2019-02-10 00:00:00') /* Scroll of Wi's Folly (20422) */
+     , (0x701C700E, 0x701C7013, '2019-02-10 00:00:00') /* Scalemail Leggings (83) */
+     , (0x701C700E, 0x701C7014, '2019-02-10 00:00:00') /* Scalemail Gauntlets (58) */
+     , (0x701C700E, 0x701C7015, '2019-02-10 00:00:00') /* Scroll of Dirty Fighting Ineptitude Other VI (45241) */
+     , (0x701C700E, 0x701C7016, '2019-02-10 00:00:00') /* Acid Simi (45402) */
+     , (0x701C700E, 0x701C7017, '2019-02-10 00:00:00') /* Scroll of Lightning Streak V (8945) */
+     , (0x701C700E, 0x701C7018, '2019-02-10 00:00:00') /* Diamond Shield (94) */
+     , (0x701C700E, 0x701C7019, '2019-02-10 00:00:00') /* Scalemail Leggings (83) */
+     , (0x701C700E, 0x701C701A, '2019-02-10 00:00:00') /* Scalemail Shirt (98) */
+     , (0x701C700E, 0x701C701B, '2019-02-10 00:00:00') /* Scroll of Two Handed Weapon Mastery Other VI (41301) */
+     , (0x701C700E, 0x701C701C, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x701C700E, 0x701C701D, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C700F,    44, 0x01C70108, 19.04711, -1.896531, 0.006999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Buckler */

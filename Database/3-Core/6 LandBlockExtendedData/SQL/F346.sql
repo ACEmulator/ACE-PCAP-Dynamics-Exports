@@ -5,14 +5,14 @@ VALUES (0x7F346001,  1154, 0xF3460018, 64.20111, 177.6887, 0.01300001, 0.7473969
 /* @teleloc 0xF3460018 [64.201110 177.688700 0.013000] 0.747397 0.000000 0.000000 -0.664378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F346001, 0x7F346002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F346001, 0x7F346003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F346001, 0x7F346004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F346001, 0x7F346005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F346001, 0x7F346006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F346001, 0x7F346007, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7F346001, 0x7F346008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7F346001, 0x7F346009, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7F346001, 0x7F346002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F346001, 0x7F346003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F346001, 0x7F346004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F346001, 0x7F346005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F346001, 0x7F346006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F346001, 0x7F346007, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7F346001, 0x7F346008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7F346001, 0x7F346009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F346002,   217, 0xF3460018, 64.20111, 177.6887, 0.01300001, 0.7473969, 0, 0, -0.6643778,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -51,7 +51,7 @@ VALUES (0x7F34600A,  1542, 0xF3460018, 60.96062, 186.037, 0.011, 0.7473969, 0, 0
 /* @teleloc 0xF3460018 [60.960620 186.037000 0.011000] 0.747397 0.000000 0.000000 -0.664378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F34600A, 0x7F34600B, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7F34600A, 0x7F34600B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F34600B, 31686, 0xF3460018, 60.96062, 186.037, 0.011, 0.7473969, 0, 0, -0.6643778,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

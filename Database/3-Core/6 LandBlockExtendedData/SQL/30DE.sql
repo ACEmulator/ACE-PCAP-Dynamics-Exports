@@ -5,9 +5,9 @@ VALUES (0x730DE001,  1154, 0x30DE000C, 32.09821, 94.8232, 8.00495, -0.2000968, 0
 /* @teleloc 0x30DE000C [32.098210 94.823200 8.004950] -0.200097 0.000000 0.000000 -0.979776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x730DE001, 0x730DE002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x730DE001, 0x730DE003, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x730DE001, 0x730DE004, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x730DE001, 0x730DE002, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x730DE001, 0x730DE003, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x730DE001, 0x730DE004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x730DE002, 19261, 0x30DE000C, 32.09821, 94.8232, 8.00495, -0.2000968, 0, 0, -0.9797761,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

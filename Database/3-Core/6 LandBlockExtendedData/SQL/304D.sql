@@ -5,10 +5,10 @@ VALUES (0x7304D001,  1154, 0x304D0010, 44.77421, 173.6423, 0.007499993, -0.95822
 /* @teleloc 0x304D0010 [44.774210 173.642300 0.007500] -0.958228 0.000000 0.000000 -0.286005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304D001, 0x7304D002, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x7304D001, 0x7304D003, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7304D001, 0x7304D004, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7304D001, 0x7304D005, '2019-02-10 00:00:00') /* Olthoi Primordial */;
+VALUES (0x7304D001, 0x7304D002, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x7304D001, 0x7304D003, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7304D001, 0x7304D004, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7304D001, 0x7304D005, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304D002, 22905, 0x304D0010, 44.77421, 173.6423, 0.007499993, -0.9582281, 0, 0, -0.2860053,  True, '2019-02-10 00:00:00'); /* Lich Oppressor */
@@ -31,7 +31,7 @@ VALUES (0x7304D006,  1542, 0x304D0010, 43.16257, 170.4408, 0, -0.9582281, 0, 0, 
 /* @teleloc 0x304D0010 [43.162570 170.440800 0.000000] -0.958228 0.000000 0.000000 -0.286005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304D006, 0x7304D007, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x7304D006, 0x7304D007, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304D007, 46284, 0x304D0010, 43.16257, 170.4408, 0, -0.9582281, 0, 0, -0.2860053,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

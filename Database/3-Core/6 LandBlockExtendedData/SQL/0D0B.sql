@@ -5,35 +5,35 @@ VALUES (0x70D0B001,  1154, 0x0D0B000D, 29.1851, 99.75025, 28.62214, 0.7822624, 0
 /* @teleloc 0x0D0B000D [29.185100 99.750250 28.622140] 0.782262 0.000000 0.000000 -0.622949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D0B001, 0x70D0B002, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70D0B001, 0x70D0B003, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70D0B001, 0x70D0B004, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70D0B001, 0x70D0B005, '2019-02-10 00:00:00') /* Tainted Carenzi */
-     , (0x70D0B001, 0x70D0B006, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D0B001, 0x70D0B007, '2019-02-10 00:00:00') /* Befouled Doll */
-     , (0x70D0B001, 0x70D0B008, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B009, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B00A, '2019-02-10 00:00:00') /* Tainted Carenzi */
-     , (0x70D0B001, 0x70D0B00B, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70D0B001, 0x70D0B00C, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70D0B001, 0x70D0B00D, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B00E, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D0B001, 0x70D0B00F, '2019-02-10 00:00:00') /* Tenebrous Rift */
-     , (0x70D0B001, 0x70D0B010, '2019-02-10 00:00:00') /* Tainted Carenzi */
-     , (0x70D0B001, 0x70D0B011, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x70D0B001, 0x70D0B012, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D0B001, 0x70D0B013, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70D0B001, 0x70D0B014, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D0B001, 0x70D0B015, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B016, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x70D0B001, 0x70D0B017, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B018, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B019, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0B001, 0x70D0B01A, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70D0B001, 0x70D0B01B, '2019-02-10 00:00:00') /* Ebon Rift */
-     , (0x70D0B001, 0x70D0B01C, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D0B001, 0x70D0B01D, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D0B001, 0x70D0B01E, '2019-02-10 00:00:00') /* Sephal Nefane */;
+VALUES (0x70D0B001, 0x70D0B002, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70D0B001, 0x70D0B003, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70D0B001, 0x70D0B004, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70D0B001, 0x70D0B005, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x70D0B001, 0x70D0B006, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D0B001, 0x70D0B007, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x70D0B001, 0x70D0B008, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B009, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B00A, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x70D0B001, 0x70D0B00B, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70D0B001, 0x70D0B00C, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70D0B001, 0x70D0B00D, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B00E, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D0B001, 0x70D0B00F, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x70D0B001, 0x70D0B010, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x70D0B001, 0x70D0B011, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x70D0B001, 0x70D0B012, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D0B001, 0x70D0B013, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70D0B001, 0x70D0B014, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D0B001, 0x70D0B015, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B016, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x70D0B001, 0x70D0B017, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B018, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B019, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0B001, 0x70D0B01A, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70D0B001, 0x70D0B01B, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
+     , (0x70D0B001, 0x70D0B01C, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D0B001, 0x70D0B01D, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D0B001, 0x70D0B01E, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D0B002, 25864, 0x0D0B000D, 29.1851, 99.75025, 28.62214, 0.7822624, 0, 0, -0.6229491,  True, '2019-02-10 00:00:00'); /* Stalking Margul */
@@ -156,8 +156,8 @@ VALUES (0x70D0B01F,  1542, 0x0D0B0029, 134.4487, 23.30216, 100.6183, 1, 0, 0, 0,
 /* @teleloc 0x0D0B0029 [134.448700 23.302160 100.618300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D0B01F, 0x70D0B020, '2019-02-10 00:00:00') /* The Orphanage */
-     , (0x70D0B01F, 0x70D0B021, '2019-02-10 00:00:00') /* The Orphanage */;
+VALUES (0x70D0B01F, 0x70D0B020, '2019-02-10 00:00:00') /* The Orphanage (27298) */
+     , (0x70D0B01F, 0x70D0B021, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D0B020, 27298, 0x0D0B0029, 134.4487, 23.30216, 100.6183, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */

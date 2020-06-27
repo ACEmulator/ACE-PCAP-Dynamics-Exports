@@ -5,10 +5,10 @@ VALUES (0x772D3001,  1154, 0x72D30032, 148.9232, 33.91957, 365.9862, -0.7071068,
 /* @teleloc 0x72D30032 [148.923200 33.919570 365.986200] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D3001, 0x772D3002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x772D3001, 0x772D3003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x772D3001, 0x772D3004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x772D3001, 0x772D3005, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x772D3001, 0x772D3002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x772D3001, 0x772D3003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x772D3001, 0x772D3004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x772D3001, 0x772D3005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D3002,  7982, 0x72D30032, 148.9232, 33.91957, 365.9862, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -31,7 +31,7 @@ VALUES (0x772D3006,  1542, 0x72D30025, 106.2205, 103.548, 339.8936, 0.6123098, 0
 /* @teleloc 0x72D30025 [106.220500 103.548000 339.893600] 0.612310 0.000000 0.000000 -0.790618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D3006, 0x772D3007, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x772D3006, 0x772D3007, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D3007,  8646, 0x72D30025, 106.2205, 103.548, 339.8936, 0.6123098, 0, 0, -0.7906179,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

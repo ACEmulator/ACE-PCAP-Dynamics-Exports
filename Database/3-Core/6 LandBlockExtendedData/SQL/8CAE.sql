@@ -5,30 +5,30 @@ VALUES (0x78CAE001,  1154, 0x8CAE0031, 167.3556, 2.320829, 55.87029, 0.4218352, 
 /* @teleloc 0x8CAE0031 [167.355600 2.320829 55.870290] 0.421835 0.000000 0.000000 -0.906673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CAE001, 0x78CAE002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78CAE001, 0x78CAE003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x78CAE001, 0x78CAE004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x78CAE001, 0x78CAE005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CAE001, 0x78CAE006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CAE001, 0x78CAE007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CAE001, 0x78CAE008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78CAE001, 0x78CAE009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CAE001, 0x78CAE00A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CAE001, 0x78CAE00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78CAE001, 0x78CAE00C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CAE001, 0x78CAE00D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CAE001, 0x78CAE00E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CAE001, 0x78CAE00F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CAE001, 0x78CAE010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CAE001, 0x78CAE011, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CAE001, 0x78CAE012, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CAE001, 0x78CAE013, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CAE001, 0x78CAE014, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CAE001, 0x78CAE015, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CAE001, 0x78CAE016, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CAE001, 0x78CAE017, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CAE001, 0x78CAE018, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CAE001, 0x78CAE019, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x78CAE001, 0x78CAE002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78CAE001, 0x78CAE003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x78CAE001, 0x78CAE004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x78CAE001, 0x78CAE005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CAE001, 0x78CAE006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CAE001, 0x78CAE007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CAE001, 0x78CAE008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78CAE001, 0x78CAE009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CAE001, 0x78CAE00A, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CAE001, 0x78CAE00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78CAE001, 0x78CAE00C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CAE001, 0x78CAE00D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CAE001, 0x78CAE00E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CAE001, 0x78CAE00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CAE001, 0x78CAE010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CAE001, 0x78CAE011, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CAE001, 0x78CAE012, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CAE001, 0x78CAE013, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE014, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE015, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CAE001, 0x78CAE016, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE017, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE018, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE019, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CAE002, 26468, 0x8CAE0031, 167.3556, 2.320829, 55.87029, 0.4218352, 0, 0, -0.9066725,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -131,8 +131,8 @@ VALUES (0x78CAE01A,  1542, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0,
 /* @teleloc 0x8CAE003C [168.142200 73.769620 51.976310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CAE01A, 0x78CAE01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78CAE01A, 0x78CAE01C, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x78CAE01A, 0x78CAE01B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78CAE01A, 0x78CAE01C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CAE01B, 22567, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

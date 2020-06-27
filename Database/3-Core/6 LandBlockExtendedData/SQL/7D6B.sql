@@ -5,13 +5,13 @@ VALUES (0x77D6B001,  1154, 0x7D6B000C, 27.84398, 77.37474, 9.664669, 0.9537169, 
 /* @teleloc 0x7D6B000C [27.843980 77.374740 9.664669] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6B001, 0x77D6B002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77D6B001, 0x77D6B003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77D6B001, 0x77D6B004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77D6B001, 0x77D6B005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77D6B001, 0x77D6B006, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x77D6B001, 0x77D6B007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x77D6B001, 0x77D6B008, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x77D6B001, 0x77D6B002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77D6B001, 0x77D6B003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77D6B001, 0x77D6B004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77D6B001, 0x77D6B005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77D6B001, 0x77D6B006, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x77D6B001, 0x77D6B007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x77D6B001, 0x77D6B008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6B002,  4111, 0x7D6B000C, 27.84398, 77.37474, 9.664669, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

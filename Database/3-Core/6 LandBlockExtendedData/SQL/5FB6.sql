@@ -5,24 +5,24 @@ VALUES (0x75FB6001,  1154, 0x5FB6000C, 31.49068, 84.0426, 27.83783, -0.005603447
 /* @teleloc 0x5FB6000C [31.490680 84.042600 27.837830] -0.005603 0.000000 0.000000 -0.999984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FB6001, 0x75FB6002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x75FB6001, 0x75FB6003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x75FB6001, 0x75FB6004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75FB6001, 0x75FB6005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75FB6001, 0x75FB6006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x75FB6001, 0x75FB6007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75FB6001, 0x75FB6008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75FB6001, 0x75FB6009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75FB6001, 0x75FB600A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75FB6001, 0x75FB600B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75FB6001, 0x75FB600C, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75FB6001, 0x75FB600D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x75FB6001, 0x75FB600E, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x75FB6001, 0x75FB600F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x75FB6001, 0x75FB6010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75FB6001, 0x75FB6011, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FB6001, 0x75FB6012, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FB6001, 0x75FB6013, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x75FB6001, 0x75FB6002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x75FB6001, 0x75FB6003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x75FB6001, 0x75FB6004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75FB6001, 0x75FB6005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75FB6001, 0x75FB6006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x75FB6001, 0x75FB6007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75FB6001, 0x75FB6008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75FB6001, 0x75FB6009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75FB6001, 0x75FB600A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75FB6001, 0x75FB600B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75FB6001, 0x75FB600C, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75FB6001, 0x75FB600D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x75FB6001, 0x75FB600E, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x75FB6001, 0x75FB600F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x75FB6001, 0x75FB6010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75FB6001, 0x75FB6011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FB6001, 0x75FB6012, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FB6001, 0x75FB6013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FB6002, 38177, 0x5FB6000C, 31.49068, 84.0426, 27.83783, -0.005603447, 0, 0, -0.9999843,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

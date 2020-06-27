@@ -5,15 +5,15 @@ VALUES (0x72BDB001,  1154, 0x2BDB001C, 93.83369, 79.34789, 20.00715, 0.5685866, 
 /* @teleloc 0x2BDB001C [93.833690 79.347890 20.007150] 0.568587 0.000000 0.000000 -0.822623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BDB001, 0x72BDB002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x72BDB001, 0x72BDB003, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x72BDB001, 0x72BDB004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x72BDB001, 0x72BDB005, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x72BDB001, 0x72BDB006, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x72BDB001, 0x72BDB007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x72BDB001, 0x72BDB008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x72BDB001, 0x72BDB009, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x72BDB001, 0x72BDB00A, '2019-02-10 00:00:00') /* Gnawer Shreth */;
+VALUES (0x72BDB001, 0x72BDB002, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x72BDB001, 0x72BDB003, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x72BDB001, 0x72BDB004, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x72BDB001, 0x72BDB005, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x72BDB001, 0x72BDB006, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x72BDB001, 0x72BDB007, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x72BDB001, 0x72BDB008, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x72BDB001, 0x72BDB009, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x72BDB001, 0x72BDB00A, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BDB002, 19256, 0x2BDB001C, 93.83369, 79.34789, 20.00715, 0.5685866, 0, 0, -0.8226234,  True, '2019-02-10 00:00:00'); /* Young Banderling */

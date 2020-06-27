@@ -5,20 +5,20 @@ VALUES (0x7A064001,  1154, 0xA0640013, 68.19944, 58.82696, 52.63943, 0.6985235, 
 /* @teleloc 0xA0640013 [68.199440 58.826960 52.639430] 0.698524 0.000000 0.000000 -0.715587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A064001, 0x7A064002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A064001, 0x7A064003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A064001, 0x7A064004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A064001, 0x7A064005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A064001, 0x7A064006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A064001, 0x7A064007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A064001, 0x7A064008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A064001, 0x7A064009, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A064001, 0x7A06400A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A064001, 0x7A06400B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A064001, 0x7A06400C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7A064001, 0x7A06400D, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A064001, 0x7A06400E, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A064001, 0x7A06400F, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A064001, 0x7A064002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A064001, 0x7A064003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A064001, 0x7A064004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A064001, 0x7A064005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A064001, 0x7A064006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A064001, 0x7A064007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A064001, 0x7A064008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A064001, 0x7A064009, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A064001, 0x7A06400A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A064001, 0x7A06400B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A064001, 0x7A06400C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7A064001, 0x7A06400D, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A064001, 0x7A06400E, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A064001, 0x7A06400F, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A064002,  9254, 0xA0640013, 68.19944, 58.82696, 52.63943, 0.6985235, 0, 0, -0.7155871,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */
@@ -81,7 +81,7 @@ VALUES (0x7A064010,  1542, 0xA0640015, 58.92177, 102.434, 50.59696, 1, 0, 0, 0, 
 /* @teleloc 0xA0640015 [58.921770 102.434000 50.596960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A064010, 0x7A064011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7A064010, 0x7A064011, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A064011, 31443, 0xA0640015, 58.92177, 102.434, 50.59696, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

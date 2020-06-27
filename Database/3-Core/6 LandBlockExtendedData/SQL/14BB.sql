@@ -5,15 +5,15 @@ VALUES (0x714BB001,  1154, 0x14BB0030, 125.9454, 185.794, 27.01262, -0.2279675, 
 /* @teleloc 0x14BB0030 [125.945400 185.794000 27.012620] -0.227968 0.000000 0.000000 -0.973669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714BB001, 0x714BB002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x714BB001, 0x714BB003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714BB001, 0x714BB00A, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x714BB001, 0x714BB002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x714BB001, 0x714BB003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714BB001, 0x714BB00A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714BB002, 11495, 0x14BB0030, 125.9454, 185.794, 27.01262, -0.2279675, 0, 0, -0.9736688,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */

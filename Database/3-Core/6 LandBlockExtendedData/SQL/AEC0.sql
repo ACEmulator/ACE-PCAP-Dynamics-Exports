@@ -5,15 +5,15 @@ VALUES (0x7AEC0001,  1154, 0xAEC00022, 115.1156, 27.60995, 165.0158, 0.9238795, 
 /* @teleloc 0xAEC00022 [115.115600 27.609950 165.015800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC0001, 0x7AEC0002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEC0001, 0x7AEC0003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEC0001, 0x7AEC0004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AEC0001, 0x7AEC0005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AEC0001, 0x7AEC0006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AEC0001, 0x7AEC0007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AEC0001, 0x7AEC0008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AEC0001, 0x7AEC0009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AEC0001, 0x7AEC000A, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7AEC0001, 0x7AEC0002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEC0001, 0x7AEC0003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEC0001, 0x7AEC0004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AEC0001, 0x7AEC0005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AEC0001, 0x7AEC0006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AEC0001, 0x7AEC0007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AEC0001, 0x7AEC0008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AEC0001, 0x7AEC0009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AEC0001, 0x7AEC000A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC0002,   937, 0xAEC00022, 115.1156, 27.60995, 165.0158, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -56,7 +56,7 @@ VALUES (0x7AEC000B,  1542, 0xAEC0003C, 177.6096, 72.082, 158.3633, 1, 0, 0, 0, F
 /* @teleloc 0xAEC0003C [177.609600 72.082000 158.363300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC000B, 0x7AEC000C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AEC000B, 0x7AEC000C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC000C, 31443, 0xAEC0003C, 177.6096, 72.082, 158.3633, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

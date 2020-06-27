@@ -5,12 +5,12 @@ VALUES (0x7AC2A001,  1154, 0xAC2A0010, 40.76936, 185.8736, 279.2254, 0.3420202, 
 /* @teleloc 0xAC2A0010 [40.769360 185.873600 279.225400] 0.342020 0.000000 0.000000 -0.939693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC2A001, 0x7AC2A002, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7AC2A001, 0x7AC2A003, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7AC2A001, 0x7AC2A004, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7AC2A001, 0x7AC2A005, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AC2A001, 0x7AC2A006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AC2A001, 0x7AC2A007, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7AC2A001, 0x7AC2A002, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7AC2A001, 0x7AC2A003, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7AC2A001, 0x7AC2A004, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7AC2A001, 0x7AC2A005, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AC2A001, 0x7AC2A006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AC2A001, 0x7AC2A007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC2A002,  2573, 0xAC2A0010, 40.76936, 185.8736, 279.2254, 0.3420202, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* K'nath T'aed */

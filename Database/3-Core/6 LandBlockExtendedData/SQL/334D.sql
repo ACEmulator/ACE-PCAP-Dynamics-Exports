@@ -5,10 +5,10 @@ VALUES (0x7334D001,  1154, 0x334D000D, 43.77123, 102.5561, 133.6798, 0.5669642, 
 /* @teleloc 0x334D000D [43.771230 102.556100 133.679800] 0.566964 0.000000 0.000000 -0.823742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334D001, 0x7334D002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7334D001, 0x7334D003, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x7334D001, 0x7334D004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7334D001, 0x7334D005, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x7334D001, 0x7334D002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7334D001, 0x7334D003, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x7334D001, 0x7334D004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7334D001, 0x7334D005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334D002, 10806, 0x334D000D, 43.77123, 102.5561, 133.6798, 0.5669642, 0, 0, -0.8237424,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

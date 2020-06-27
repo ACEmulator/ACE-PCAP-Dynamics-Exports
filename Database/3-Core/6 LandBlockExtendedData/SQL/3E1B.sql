@@ -5,10 +5,10 @@ VALUES (0x73E1B001,  1154, 0x3E1B0014, 67.00556, 94.44941, 39.48563, -0.7018698,
 /* @teleloc 0x3E1B0014 [67.005560 94.449410 39.485630] -0.701870 0.000000 0.000000 -0.712305 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E1B001, 0x73E1B002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73E1B001, 0x73E1B003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73E1B001, 0x73E1B004, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x73E1B001, 0x73E1B005, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x73E1B001, 0x73E1B002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73E1B001, 0x73E1B003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73E1B001, 0x73E1B004, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x73E1B001, 0x73E1B005, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E1B002,  7179, 0x3E1B0014, 67.00556, 94.44941, 39.48563, -0.7018698, 0, 0, -0.7123052,  True, '2019-02-10 00:00:00'); /* Relic Bones */

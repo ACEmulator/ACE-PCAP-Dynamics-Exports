@@ -5,14 +5,14 @@ VALUES (0x73C85001,  1154, 0x3C850022, 98.2711, 36.30195, 5.818992, 0.2220757, 0
 /* @teleloc 0x3C850022 [98.271100 36.301950 5.818992] 0.222076 0.000000 0.000000 -0.975029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C85001, 0x73C85002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C85001, 0x73C85003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C85001, 0x73C85004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73C85001, 0x73C85005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73C85001, 0x73C85006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73C85001, 0x73C85007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C85001, 0x73C85008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73C85001, 0x73C85009, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x73C85001, 0x73C85002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C85001, 0x73C85003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C85001, 0x73C85004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73C85001, 0x73C85005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73C85001, 0x73C85006, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73C85001, 0x73C85007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C85001, 0x73C85008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73C85001, 0x73C85009, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C85002, 24325, 0x3C850022, 98.2711, 36.30195, 5.818992, 0.2220757, 0, 0, -0.9750294,  True, '2019-02-10 00:00:00'); /* Phantasm */

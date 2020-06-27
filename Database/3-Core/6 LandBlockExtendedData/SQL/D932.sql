@@ -5,11 +5,11 @@ VALUES (0x7D932001,  1154, 0xD932003E, 179.4415, 124.8902, 108.9685, 0.6615071, 
 /* @teleloc 0xD932003E [179.441500 124.890200 108.968500] 0.661507 0.000000 0.000000 -0.749939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D932001, 0x7D932002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D932001, 0x7D932003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D932001, 0x7D932004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D932001, 0x7D932005, '2019-02-10 00:00:00') /* Flare */
-     , (0x7D932001, 0x7D932006, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7D932001, 0x7D932002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D932001, 0x7D932003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D932001, 0x7D932004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D932001, 0x7D932005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7D932001, 0x7D932006, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D932002, 11533, 0xD932003E, 179.4415, 124.8902, 108.9685, 0.6615071, 0, 0, -0.7499388,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

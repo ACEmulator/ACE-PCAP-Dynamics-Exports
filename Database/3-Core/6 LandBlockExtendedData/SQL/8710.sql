@@ -5,22 +5,22 @@ VALUES (0x78710001,  1154, 0x8710001D, 92.75883, 107.7407, 9.215321, 1, 0, 0, 0,
 /* @teleloc 0x8710001D [92.758830 107.740700 9.215321] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78710001, 0x78710002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78710001, 0x78710003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x78710001, 0x78710004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x78710001, 0x78710005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x78710001, 0x78710006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78710001, 0x78710007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x78710001, 0x78710008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x78710001, 0x78710009, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x78710001, 0x7871000A, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x78710001, 0x7871000B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78710001, 0x7871000C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78710001, 0x7871000D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78710001, 0x7871000E, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78710001, 0x7871000F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78710001, 0x78710010, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78710001, 0x78710011, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x78710001, 0x78710002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78710001, 0x78710003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x78710001, 0x78710004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x78710001, 0x78710005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x78710001, 0x78710006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78710001, 0x78710007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x78710001, 0x78710008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x78710001, 0x78710009, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x78710001, 0x7871000A, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x78710001, 0x7871000B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78710001, 0x7871000C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78710001, 0x7871000D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78710001, 0x7871000E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78710001, 0x7871000F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78710001, 0x78710010, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78710001, 0x78710011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78710002,  7124, 0x8710001D, 92.75883, 107.7407, 9.215321, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -91,7 +91,7 @@ VALUES (0x78710012,  1542, 0x8710003F, 177.0041, 160.958, 58.55435, -0.3032757, 
 /* @teleloc 0x8710003F [177.004100 160.958000 58.554350] -0.303276 0.000000 0.000000 -0.952903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78710012, 0x78710013, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x78710012, 0x78710013, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78710013, 42528, 0x8710003F, 177.0041, 160.958, 58.55435, -0.3032757, 0, 0, -0.9529029,  True, '2019-02-10 00:00:00'); /* Rock */

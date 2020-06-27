@@ -5,12 +5,12 @@ VALUES (0x7C773001,  1154, 0xC7730030, 130.6391, 189.9891, 34.51036, -0.2845824,
 /* @teleloc 0xC7730030 [130.639100 189.989100 34.510360] -0.284582 0.000000 0.000000 -0.958652 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C773001, 0x7C773002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C773001, 0x7C773003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7C773001, 0x7C773004, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7C773001, 0x7C773005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C773001, 0x7C773006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C773001, 0x7C773007, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7C773001, 0x7C773002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C773001, 0x7C773003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7C773001, 0x7C773004, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7C773001, 0x7C773005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C773001, 0x7C773006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C773001, 0x7C773007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C773002,   182, 0xC7730030, 130.6391, 189.9891, 34.51036, -0.2845824, 0, 0, -0.9586516,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

@@ -5,12 +5,12 @@ VALUES (0x789B9001,  1154, 0x89B90031, 155.6044, 0.4295751, 99.76891, -0.2607397
 /* @teleloc 0x89B90031 [155.604400 0.429575 99.768910] -0.260740 0.000000 0.000000 -0.965409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789B9001, 0x789B9002, '2019-02-10 00:00:00') /* Ember */
-     , (0x789B9001, 0x789B9003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x789B9001, 0x789B9004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x789B9001, 0x789B9005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x789B9001, 0x789B9006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x789B9001, 0x789B9007, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x789B9001, 0x789B9002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x789B9001, 0x789B9003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x789B9001, 0x789B9004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x789B9001, 0x789B9005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x789B9001, 0x789B9006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x789B9001, 0x789B9007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789B9002,  7607, 0x89B90031, 155.6044, 0.4295751, 99.76891, -0.2607397, 0, 0, -0.9654092,  True, '2019-02-10 00:00:00'); /* Ember */

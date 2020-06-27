@@ -5,22 +5,22 @@ VALUES (0x7B99D001,  1154, 0xB99D000E, 36.22, 142.5494, 52.24941, 0.3718048, 0, 
 /* @teleloc 0xB99D000E [36.220000 142.549400 52.249410] 0.371805 0.000000 0.000000 -0.928311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B99D001, 0x7B99D002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B99D001, 0x7B99D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B99D001, 0x7B99D004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B99D001, 0x7B99D005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B99D001, 0x7B99D006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B99D001, 0x7B99D007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B99D001, 0x7B99D008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B99D001, 0x7B99D009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B99D001, 0x7B99D00A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B99D001, 0x7B99D00B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B99D001, 0x7B99D00C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B99D001, 0x7B99D00D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B99D001, 0x7B99D00E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B99D001, 0x7B99D00F, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B99D001, 0x7B99D010, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B99D001, 0x7B99D011, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7B99D001, 0x7B99D002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B99D001, 0x7B99D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B99D001, 0x7B99D004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B99D001, 0x7B99D005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B99D001, 0x7B99D006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B99D001, 0x7B99D007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B99D001, 0x7B99D008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B99D001, 0x7B99D009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B99D001, 0x7B99D00A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B99D001, 0x7B99D00B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B99D001, 0x7B99D00C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B99D001, 0x7B99D00D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B99D001, 0x7B99D00E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B99D001, 0x7B99D00F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B99D001, 0x7B99D010, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B99D001, 0x7B99D011, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99D002,   182, 0xB99D000E, 36.22, 142.5494, 52.24941, 0.3718048, 0, 0, -0.9283109,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

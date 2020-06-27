@@ -9,32 +9,32 @@ VALUES (0x7AAB5008,  1154, 0xAAB5002D, 126.311, 112.1082, 27.10495, 0.9401997, 0
 /* @teleloc 0xAAB5002D [126.311000 112.108200 27.104950] 0.940200 0.000000 0.000000 -0.340624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB5008, 0x7AAB5009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7AAB5008, 0x7AAB500A, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB500B, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB500C, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB500D, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB500E, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB500F, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5010, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5011, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5012, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5013, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5014, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5015, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5016, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5017, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7AAB5008, 0x7AAB5018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AAB5008, 0x7AAB5019, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7AAB5008, 0x7AAB501A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AAB5008, 0x7AAB501B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAB5008, 0x7AAB501C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AAB5008, 0x7AAB501D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAB5008, 0x7AAB501E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAB5008, 0x7AAB501F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAB5008, 0x7AAB5020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAB5008, 0x7AAB5021, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAB5008, 0x7AAB5022, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7AAB5008, 0x7AAB5009, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7AAB5008, 0x7AAB500A, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB500B, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB500C, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB500D, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB500E, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB500F, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5010, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5011, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5012, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5013, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5014, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5015, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5016, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5017, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7AAB5008, 0x7AAB5018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AAB5008, 0x7AAB5019, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7AAB5008, 0x7AAB501A, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7AAB5008, 0x7AAB501B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAB5008, 0x7AAB501C, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7AAB5008, 0x7AAB501D, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AAB5008, 0x7AAB501E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7AAB5008, 0x7AAB501F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAB5008, 0x7AAB5020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAB5008, 0x7AAB5021, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAB5008, 0x7AAB5022, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB5009, 19261, 0xAAB5002D, 126.311, 112.1082, 27.10495, 0.9401997, 0, 0, -0.3406238,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -145,7 +145,7 @@ VALUES (0x7AAB5023,  1154, 0xAAB50100, 2.4279, 33.2866, 29.49777, 0.9803368, 0, 
 /* @teleloc 0xAAB50100 [2.427900 33.286600 29.497770] 0.980337 0.000000 0.000000 -0.197332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB5023, 0x7AAB5024, '2019-02-10 00:00:00') /* Tackle Master */;
+VALUES (0x7AAB5023, 0x7AAB5024, '2019-02-10 00:00:00') /* Tackle Master (23336) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB5024, 23336, 0xAAB50100, 2.4279, 33.2866, 29.49777, 0.9803368, 0, 0, -0.1973315,  True, '2019-02-10 00:00:00'); /* Tackle Master */
@@ -156,7 +156,7 @@ VALUES (0x7AAB5025,  1542, 0xAAB50003, 6.360619, 56.94279, 27.9, 1, 0, 0, 0, Fal
 /* @teleloc 0xAAB50003 [6.360619 56.942790 27.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB5025, 0x7AAB5026, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7AAB5025, 0x7AAB5026, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB5026,   546, 0xAAB50003, 6.360619, 56.94279, 27.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

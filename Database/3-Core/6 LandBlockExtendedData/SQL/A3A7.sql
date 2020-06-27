@@ -5,28 +5,28 @@ VALUES (0x7A3A7001,  1154, 0xA3A70002, 1.766787, 45.41201, 79.21461, 0.8191521, 
 /* @teleloc 0xA3A70002 [1.766787 45.412010 79.214610] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A7001, 0x7A3A7002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3A7001, 0x7A3A7003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3A7001, 0x7A3A7004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A3A7001, 0x7A3A7005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A3A7001, 0x7A3A7006, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7A3A7001, 0x7A3A7007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A7008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A7009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A700A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A700B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A700C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3A7001, 0x7A3A700D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A3A7001, 0x7A3A700E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3A7001, 0x7A3A700F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A7001, 0x7A3A7010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A7001, 0x7A3A7011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A7001, 0x7A3A7012, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7A3A7001, 0x7A3A7013, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7A3A7001, 0x7A3A7014, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7A3A7001, 0x7A3A7015, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A3A7001, 0x7A3A7016, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7A3A7001, 0x7A3A7017, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A3A7001, 0x7A3A7002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3A7001, 0x7A3A7003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3A7001, 0x7A3A7004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A3A7001, 0x7A3A7005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A3A7001, 0x7A3A7006, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7A3A7001, 0x7A3A7007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A7008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A7009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A700A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A700B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A700C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3A7001, 0x7A3A700D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A3A7001, 0x7A3A700E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3A7001, 0x7A3A700F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A7001, 0x7A3A7010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A7001, 0x7A3A7011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A7001, 0x7A3A7012, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7A3A7001, 0x7A3A7013, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7A3A7001, 0x7A3A7014, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7A3A7001, 0x7A3A7015, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A3A7001, 0x7A3A7016, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7A3A7001, 0x7A3A7017, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A7002,  7978, 0xA3A70002, 1.766787, 45.41201, 79.21461, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -121,11 +121,11 @@ VALUES (0x7A3A7018,  1542, 0xA3A7003F, 176.4034, 167.0794, 82, 0.3991771, 0, 0, 
 /* @teleloc 0xA3A7003F [176.403400 167.079400 82.000000] 0.399177 0.000000 0.000000 -0.916874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A7018, 0x7A3A7019, '2019-02-10 00:00:00') /* Seeds of Anger */
-     , (0x7A3A7018, 0x7A3A701A, '2019-02-10 00:00:00') /* Seed of Hope */
-     , (0x7A3A7018, 0x7A3A701B, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7A3A7018, 0x7A3A701C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7A3A7018, 0x7A3A701D, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A3A7018, 0x7A3A7019, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */
+     , (0x7A3A7018, 0x7A3A701A, '2019-02-10 00:00:00') /* Seed of Hope (34082) */
+     , (0x7A3A7018, 0x7A3A701B, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x7A3A7018, 0x7A3A701C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7A3A7018, 0x7A3A701D, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A7019, 32204, 0xA3A7003F, 176.4034, 167.0794, 82, 0.3991771, 0, 0, -0.9168738,  True, '2019-02-10 00:00:00'); /* Seeds of Anger */

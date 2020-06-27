@@ -5,9 +5,9 @@ VALUES (0x7EE47001,  1154, 0xEE47002B, 143.0558, 71.68645, 35.95489, -0.1736482,
 /* @teleloc 0xEE47002B [143.055800 71.686450 35.954890] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE47001, 0x7EE47002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EE47001, 0x7EE47003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EE47001, 0x7EE47004, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7EE47001, 0x7EE47002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EE47001, 0x7EE47003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EE47001, 0x7EE47004, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE47002,   939, 0xEE47002B, 143.0558, 71.68645, 35.95489, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Young Banderling */

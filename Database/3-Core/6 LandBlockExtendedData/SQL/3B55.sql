@@ -5,16 +5,16 @@ VALUES (0x73B55001,  1154, 0x3B55000A, 27.14094, 31.0081, 39.48651, -0.97129, 0,
 /* @teleloc 0x3B55000A [27.140940 31.008100 39.486510] -0.971290 0.000000 0.000000 -0.237899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B55001, 0x73B55002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73B55001, 0x73B55003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73B55001, 0x73B55004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B55001, 0x73B55005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73B55001, 0x73B55006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73B55001, 0x73B55007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B55001, 0x73B55008, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73B55001, 0x73B55009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73B55001, 0x73B5500A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73B55001, 0x73B5500B, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x73B55001, 0x73B55002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73B55001, 0x73B55003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73B55001, 0x73B55004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B55001, 0x73B55005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73B55001, 0x73B55006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73B55001, 0x73B55007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B55001, 0x73B55008, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73B55001, 0x73B55009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73B55001, 0x73B5500A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73B55001, 0x73B5500B, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B55002, 36830, 0x3B55000A, 27.14094, 31.0081, 39.48651, -0.97129, 0, 0, -0.2378987,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

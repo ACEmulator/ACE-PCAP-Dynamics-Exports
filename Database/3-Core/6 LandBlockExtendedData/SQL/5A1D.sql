@@ -5,12 +5,12 @@ VALUES (0x75A1D001,  1154, 0x5A1D0037, 155.36, 153.2827, -0.8925, 0.9238795, 0, 
 /* @teleloc 0x5A1D0037 [155.360000 153.282700 -0.892500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A1D001, 0x75A1D002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75A1D001, 0x75A1D003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75A1D001, 0x75A1D004, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x75A1D001, 0x75A1D005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A1D001, 0x75A1D006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75A1D001, 0x75A1D007, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x75A1D001, 0x75A1D002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75A1D001, 0x75A1D003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75A1D001, 0x75A1D004, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x75A1D001, 0x75A1D005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A1D001, 0x75A1D006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75A1D001, 0x75A1D007, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A1D002,  7124, 0x5A1D0037, 155.36, 153.2827, -0.8925, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */

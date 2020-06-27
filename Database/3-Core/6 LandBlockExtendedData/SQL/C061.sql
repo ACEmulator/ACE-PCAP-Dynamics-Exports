@@ -5,13 +5,13 @@ VALUES (0x7C061001,  1154, 0xC061002F, 140.6591, 147.0713, 6, 0.8445728, 0, 0, -
 /* @teleloc 0xC061002F [140.659100 147.071300 6.000000] 0.844573 0.000000 0.000000 -0.535441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C061001, 0x7C061002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C061001, 0x7C061003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C061001, 0x7C061004, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7C061001, 0x7C061005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C061001, 0x7C061006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C061001, 0x7C061007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C061001, 0x7C061008, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7C061001, 0x7C061002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C061001, 0x7C061003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C061001, 0x7C061004, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7C061001, 0x7C061005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C061001, 0x7C061006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C061001, 0x7C061007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C061001, 0x7C061008, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C061002,  2584, 0xC061002F, 140.6591, 147.0713, 6, 0.8445728, 0, 0, -0.5354407,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */

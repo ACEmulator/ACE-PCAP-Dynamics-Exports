@@ -5,12 +5,12 @@ VALUES (0x7C2A1001,  1154, 0xC2A1003E, 182.1258, 141.8767, 13.00736, 0.9921076, 
 /* @teleloc 0xC2A1003E [182.125800 141.876700 13.007360] 0.992108 0.000000 0.000000 -0.125389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A1001, 0x7C2A1002, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C2A1001, 0x7C2A1003, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7C2A1001, 0x7C2A1004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C2A1001, 0x7C2A1005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7C2A1001, 0x7C2A1006, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7C2A1001, 0x7C2A1007, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x7C2A1001, 0x7C2A1002, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C2A1001, 0x7C2A1003, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7C2A1001, 0x7C2A1004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C2A1001, 0x7C2A1005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7C2A1001, 0x7C2A1006, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7C2A1001, 0x7C2A1007, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A1002,  1668, 0xC2A1003E, 182.1258, 141.8767, 13.00736, 0.9921076, 0, 0, -0.1253893,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */

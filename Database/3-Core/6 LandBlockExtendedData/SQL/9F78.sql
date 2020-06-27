@@ -5,20 +5,20 @@ VALUES (0x79F78001,  1154, 0x9F78002F, 141.7683, 167.738, 24.01, 0.9238795, 0, 0
 /* @teleloc 0x9F78002F [141.768300 167.738000 24.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F78001, 0x79F78002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79F78001, 0x79F78003, '2019-02-10 00:00:00') /* Charge */
-     , (0x79F78001, 0x79F78004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79F78001, 0x79F78005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79F78001, 0x79F78006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79F78001, 0x79F78007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79F78001, 0x79F78008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79F78001, 0x79F78009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79F78001, 0x79F7800A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79F78001, 0x79F7800B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79F78001, 0x79F7800C, '2019-02-10 00:00:00') /* Charge */
-     , (0x79F78001, 0x79F7800D, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79F78001, 0x79F7800E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79F78001, 0x79F7800F, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79F78001, 0x79F78002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79F78001, 0x79F78003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79F78001, 0x79F78004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79F78001, 0x79F78005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79F78001, 0x79F78006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79F78001, 0x79F78007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79F78001, 0x79F78008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79F78001, 0x79F78009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79F78001, 0x79F7800A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79F78001, 0x79F7800B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79F78001, 0x79F7800C, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79F78001, 0x79F7800D, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79F78001, 0x79F7800E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79F78001, 0x79F7800F, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F78002,   194, 0x9F78002F, 141.7683, 167.738, 24.01, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -81,7 +81,7 @@ VALUES (0x79F78010,  1542, 0x9F780030, 136.5329, 191.8068, 25.9839, 1, 0, 0, 0, 
 /* @teleloc 0x9F780030 [136.532900 191.806800 25.983900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F78010, 0x79F78011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79F78010, 0x79F78011, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F78011, 22570, 0x9F780030, 136.5329, 191.8068, 25.9839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

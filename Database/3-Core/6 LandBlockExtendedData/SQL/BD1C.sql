@@ -5,18 +5,18 @@ VALUES (0x7BD1C001,  1154, 0xBD1C0027, 117.8537, 147.6107, 105.511, -0.9960982, 
 /* @teleloc 0xBD1C0027 [117.853700 147.610700 105.511000] -0.996098 0.000000 0.000000 -0.088252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD1C001, 0x7BD1C002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7BD1C001, 0x7BD1C003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BD1C001, 0x7BD1C004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BD1C001, 0x7BD1C005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BD1C001, 0x7BD1C006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BD1C001, 0x7BD1C007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BD1C001, 0x7BD1C008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BD1C001, 0x7BD1C009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BD1C001, 0x7BD1C00A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BD1C001, 0x7BD1C00B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7BD1C001, 0x7BD1C00C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7BD1C001, 0x7BD1C00D, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7BD1C001, 0x7BD1C002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7BD1C001, 0x7BD1C003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BD1C001, 0x7BD1C004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BD1C001, 0x7BD1C005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BD1C001, 0x7BD1C006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BD1C001, 0x7BD1C007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BD1C001, 0x7BD1C008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BD1C001, 0x7BD1C009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BD1C001, 0x7BD1C00A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BD1C001, 0x7BD1C00B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7BD1C001, 0x7BD1C00C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7BD1C001, 0x7BD1C00D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD1C002,  7980, 0xBD1C0027, 117.8537, 147.6107, 105.511, -0.9960982, 0, 0, -0.08825194,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */

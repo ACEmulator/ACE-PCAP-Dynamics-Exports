@@ -9,35 +9,35 @@ VALUES (0x7380A002,  1154, 0x380A002F, 131.786, 160.2979, 1.969932, 0.966637, 0,
 /* @teleloc 0x380A002F [131.786000 160.297900 1.969932] 0.966637 0.000000 0.000000 -0.256151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7380A002, 0x7380A003, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7380A002, 0x7380A004, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7380A002, 0x7380A005, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7380A002, 0x7380A006, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7380A002, 0x7380A007, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7380A002, 0x7380A008, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7380A002, 0x7380A009, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A00A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A00B, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7380A002, 0x7380A00C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7380A002, 0x7380A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A00E, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7380A002, 0x7380A00F, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7380A002, 0x7380A010, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A011, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A012, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7380A002, 0x7380A013, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A014, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7380A002, 0x7380A015, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7380A002, 0x7380A016, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7380A002, 0x7380A017, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7380A002, 0x7380A018, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7380A002, 0x7380A019, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7380A002, 0x7380A01A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A01B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A01C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380A002, 0x7380A01D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7380A002, 0x7380A01E, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7380A002, 0x7380A01F, '2019-02-10 00:00:00') /* Tendril of T'thuun */;
+VALUES (0x7380A002, 0x7380A003, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7380A002, 0x7380A004, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7380A002, 0x7380A005, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7380A002, 0x7380A006, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7380A002, 0x7380A007, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7380A002, 0x7380A008, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7380A002, 0x7380A009, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A00A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A00B, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7380A002, 0x7380A00C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7380A002, 0x7380A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A00E, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7380A002, 0x7380A00F, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7380A002, 0x7380A010, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A011, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A012, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7380A002, 0x7380A013, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A014, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7380A002, 0x7380A015, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7380A002, 0x7380A016, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7380A002, 0x7380A017, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7380A002, 0x7380A018, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7380A002, 0x7380A019, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7380A002, 0x7380A01A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A01B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A01C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380A002, 0x7380A01D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7380A002, 0x7380A01E, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7380A002, 0x7380A01F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7380A003, 40483, 0x380A002F, 131.786, 160.2979, 1.969932, 0.966637, 0, 0, -0.2561505,  True, '2019-02-10 00:00:00'); /* Shoguth Moarsman */

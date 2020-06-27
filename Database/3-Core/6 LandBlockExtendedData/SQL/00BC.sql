@@ -5,30 +5,30 @@ VALUES (0x700BC001,  1154, 0x00BC0104, 20, -20, -35.985, 1, 0, 0, 0, False, '201
 /* @teleloc 0x00BC0104 [20.000000 -20.000000 -35.985000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700BC001, 0x700BC002, '2019-02-10 00:00:00') /* Harbinger */
-     , (0x700BC001, 0x700BC003, '2019-02-10 00:00:00') /* Child of Enchantment */
-     , (0x700BC001, 0x700BC004, '2019-02-10 00:00:00') /* Child of Verdancy */
-     , (0x700BC001, 0x700BC005, '2019-02-10 00:00:00') /* Pillar of Acid */
-     , (0x700BC001, 0x700BC006, '2019-02-10 00:00:00') /* Child of Enchantment */
-     , (0x700BC001, 0x700BC007, '2019-02-10 00:00:00') /* Child of Artifice */
-     , (0x700BC001, 0x700BC008, '2019-02-10 00:00:00') /* Pillar of Frost */
-     , (0x700BC001, 0x700BC009, '2019-02-10 00:00:00') /* Pillar of Frost */
-     , (0x700BC001, 0x700BC00A, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x700BC001, 0x700BC00B, '2019-02-10 00:00:00') /* Child of Strife */
-     , (0x700BC001, 0x700BC00C, '2019-02-10 00:00:00') /* Child of Artifice */
-     , (0x700BC001, 0x700BC00D, '2019-02-10 00:00:00') /* Child of Artifice */
-     , (0x700BC001, 0x700BC00E, '2019-02-10 00:00:00') /* Pillar of Fire */
-     , (0x700BC001, 0x700BC00F, '2019-02-10 00:00:00') /* Child of Verdancy */
-     , (0x700BC001, 0x700BC010, '2019-02-10 00:00:00') /* Pillar of Frost */
-     , (0x700BC001, 0x700BC011, '2019-02-10 00:00:00') /* Child of Enchantment */
-     , (0x700BC001, 0x700BC012, '2019-02-10 00:00:00') /* Pillar of Frost */
-     , (0x700BC001, 0x700BC013, '2019-02-10 00:00:00') /* Child of Verdancy */
-     , (0x700BC001, 0x700BC014, '2019-02-10 00:00:00') /* Pillar of Acid */
-     , (0x700BC001, 0x700BC015, '2019-02-10 00:00:00') /* Child of Strife */
-     , (0x700BC001, 0x700BC016, '2019-02-10 00:00:00') /* Child of Enchantment */
-     , (0x700BC001, 0x700BC017, '2019-02-10 00:00:00') /* Pillar of Acid */
-     , (0x700BC001, 0x700BC018, '2019-02-10 00:00:00') /* Child of Artifice */
-     , (0x700BC001, 0x700BC019, '2019-02-10 00:00:00') /* Pillar of Fire */;
+VALUES (0x700BC001, 0x700BC002, '2019-02-10 00:00:00') /* Harbinger (36178) */
+     , (0x700BC001, 0x700BC003, '2019-02-10 00:00:00') /* Child of Enchantment (33224) */
+     , (0x700BC001, 0x700BC004, '2019-02-10 00:00:00') /* Child of Verdancy (33218) */
+     , (0x700BC001, 0x700BC005, '2019-02-10 00:00:00') /* Pillar of Acid (36175) */
+     , (0x700BC001, 0x700BC006, '2019-02-10 00:00:00') /* Child of Enchantment (33224) */
+     , (0x700BC001, 0x700BC007, '2019-02-10 00:00:00') /* Child of Artifice (33225) */
+     , (0x700BC001, 0x700BC008, '2019-02-10 00:00:00') /* Pillar of Frost (36176) */
+     , (0x700BC001, 0x700BC009, '2019-02-10 00:00:00') /* Pillar of Frost (36176) */
+     , (0x700BC001, 0x700BC00A, '2019-02-10 00:00:00') /* Pillar of Lightning (36177) */
+     , (0x700BC001, 0x700BC00B, '2019-02-10 00:00:00') /* Child of Strife (33223) */
+     , (0x700BC001, 0x700BC00C, '2019-02-10 00:00:00') /* Child of Artifice (33225) */
+     , (0x700BC001, 0x700BC00D, '2019-02-10 00:00:00') /* Child of Artifice (33225) */
+     , (0x700BC001, 0x700BC00E, '2019-02-10 00:00:00') /* Pillar of Fire (33698) */
+     , (0x700BC001, 0x700BC00F, '2019-02-10 00:00:00') /* Child of Verdancy (33218) */
+     , (0x700BC001, 0x700BC010, '2019-02-10 00:00:00') /* Pillar of Frost (36176) */
+     , (0x700BC001, 0x700BC011, '2019-02-10 00:00:00') /* Child of Enchantment (33224) */
+     , (0x700BC001, 0x700BC012, '2019-02-10 00:00:00') /* Pillar of Frost (36176) */
+     , (0x700BC001, 0x700BC013, '2019-02-10 00:00:00') /* Child of Verdancy (33218) */
+     , (0x700BC001, 0x700BC014, '2019-02-10 00:00:00') /* Pillar of Acid (36175) */
+     , (0x700BC001, 0x700BC015, '2019-02-10 00:00:00') /* Child of Strife (33223) */
+     , (0x700BC001, 0x700BC016, '2019-02-10 00:00:00') /* Child of Enchantment (33224) */
+     , (0x700BC001, 0x700BC017, '2019-02-10 00:00:00') /* Pillar of Acid (36175) */
+     , (0x700BC001, 0x700BC018, '2019-02-10 00:00:00') /* Child of Artifice (33225) */
+     , (0x700BC001, 0x700BC019, '2019-02-10 00:00:00') /* Pillar of Fire (33698) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700BC002, 36178, 0x00BC0104, 20, -20, -35.985, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Harbinger */
@@ -131,34 +131,34 @@ VALUES (0x700BC01A,  1542, 0x00BC0107, 30.51114, -15.73267, -36, -0.8010792, 0, 
 /* @teleloc 0x00BC0107 [30.511140 -15.732670 -36.000000] -0.801079 0.000000 0.000000 0.598558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700BC01A, 0x700BC01B, '2019-02-10 00:00:00') /* Galvanic Pool */
-     , (0x700BC01A, 0x700BC01C, '2019-02-10 00:00:00') /* Magma Pool */
-     , (0x700BC01A, 0x700BC01D, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700BC01A, 0x700BC01E, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700BC01A, 0x700BC01F, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700BC01A, 0x700BC020, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700BC01A, 0x700BC021, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700BC01A, 0x700BC022, '2019-02-10 00:00:00') /* Freezing Pool */
-     , (0x700BC01A, 0x700BC023, '2019-02-10 00:00:00') /* Acid Bastone */
-     , (0x700BC01A, 0x700BC024, '2019-02-10 00:00:00') /* Acid Pool */
-     , (0x700BC01A, 0x700BC025, '2019-02-10 00:00:00') /* Galvanic Pool */
-     , (0x700BC01A, 0x700BC026, '2019-02-10 00:00:00') /* Freezing Pool */
-     , (0x700BC01A, 0x700BC027, '2019-02-10 00:00:00') /* Gem */
-     , (0x700BC01A, 0x700BC028, '2019-02-10 00:00:00') /* Board with Nail */
-     , (0x700BC01A, 0x700BC029, '2019-02-10 00:00:00') /* Magma Pool */
-     , (0x700BC01A, 0x700BC02A, '2019-02-10 00:00:00') /* Studded Leather Pauldrons */
-     , (0x700BC01A, 0x700BC02B, '2019-02-10 00:00:00') /* Galvanic Pool */
-     , (0x700BC01A, 0x700BC02C, '2019-02-10 00:00:00') /* Freezing Pool */
-     , (0x700BC01A, 0x700BC02D, '2019-02-10 00:00:00') /* Ultimate Singularity Crossbow */
-     , (0x700BC01A, 0x700BC02E, '2019-02-10 00:00:00') /* Acid Pool */
-     , (0x700BC01A, 0x700BC02F, '2019-02-10 00:00:00') /* Gem */
-     , (0x700BC01A, 0x700BC030, '2019-02-10 00:00:00') /* Galvanic Pool */
-     , (0x700BC01A, 0x700BC031, '2019-02-10 00:00:00') /* Freezing Pool */
-     , (0x700BC01A, 0x700BC032, '2019-02-10 00:00:00') /* Teardrop Crown */
-     , (0x700BC01A, 0x700BC033, '2019-02-10 00:00:00') /* Diforsa Sollerets */
-     , (0x700BC01A, 0x700BC034, '2019-02-10 00:00:00') /* Galvanic Pool */
-     , (0x700BC01A, 0x700BC035, '2019-02-10 00:00:00') /* Gateway */
-     , (0x700BC01A, 0x700BC036, '2019-02-10 00:00:00') /* Corrupted Harbinger Blood */;
+VALUES (0x700BC01A, 0x700BC01B, '2019-02-10 00:00:00') /* Galvanic Pool (36183) */
+     , (0x700BC01A, 0x700BC01C, '2019-02-10 00:00:00') /* Magma Pool (36180) */
+     , (0x700BC01A, 0x700BC01D, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700BC01A, 0x700BC01E, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700BC01A, 0x700BC01F, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700BC01A, 0x700BC020, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700BC01A, 0x700BC021, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700BC01A, 0x700BC022, '2019-02-10 00:00:00') /* Freezing Pool (36181) */
+     , (0x700BC01A, 0x700BC023, '2019-02-10 00:00:00') /* Acid Bastone (30610) */
+     , (0x700BC01A, 0x700BC024, '2019-02-10 00:00:00') /* Acid Pool (36182) */
+     , (0x700BC01A, 0x700BC025, '2019-02-10 00:00:00') /* Galvanic Pool (36183) */
+     , (0x700BC01A, 0x700BC026, '2019-02-10 00:00:00') /* Freezing Pool (36181) */
+     , (0x700BC01A, 0x700BC027, '2019-02-10 00:00:00') /* Gem (2423) */
+     , (0x700BC01A, 0x700BC028, '2019-02-10 00:00:00') /* Board with Nail (31774) */
+     , (0x700BC01A, 0x700BC029, '2019-02-10 00:00:00') /* Magma Pool (36180) */
+     , (0x700BC01A, 0x700BC02A, '2019-02-10 00:00:00') /* Studded Leather Pauldrons (89) */
+     , (0x700BC01A, 0x700BC02B, '2019-02-10 00:00:00') /* Galvanic Pool (36183) */
+     , (0x700BC01A, 0x700BC02C, '2019-02-10 00:00:00') /* Freezing Pool (36181) */
+     , (0x700BC01A, 0x700BC02D, '2019-02-10 00:00:00') /* Ultimate Singularity Crossbow (29246) */
+     , (0x700BC01A, 0x700BC02E, '2019-02-10 00:00:00') /* Acid Pool (36182) */
+     , (0x700BC01A, 0x700BC02F, '2019-02-10 00:00:00') /* Gem (2410) */
+     , (0x700BC01A, 0x700BC030, '2019-02-10 00:00:00') /* Galvanic Pool (36183) */
+     , (0x700BC01A, 0x700BC031, '2019-02-10 00:00:00') /* Freezing Pool (36181) */
+     , (0x700BC01A, 0x700BC032, '2019-02-10 00:00:00') /* Teardrop Crown (31864) */
+     , (0x700BC01A, 0x700BC033, '2019-02-10 00:00:00') /* Diforsa Sollerets (28625) */
+     , (0x700BC01A, 0x700BC034, '2019-02-10 00:00:00') /* Galvanic Pool (36183) */
+     , (0x700BC01A, 0x700BC035, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700BC01A, 0x700BC036, '2019-02-10 00:00:00') /* Corrupted Harbinger Blood (36184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700BC01B, 36183, 0x00BC0107, 30.51114, -15.73267, -36, -0.8010792, 0, 0, 0.5985583,  True, '2019-02-10 00:00:00'); /* Galvanic Pool */

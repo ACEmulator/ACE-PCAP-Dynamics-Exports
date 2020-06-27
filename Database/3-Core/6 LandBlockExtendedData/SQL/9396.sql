@@ -5,9 +5,9 @@ VALUES (0x79396001,  1154, 0x93960030, 140.6452, 185.9299, 43.8919, -0.9940919, 
 /* @teleloc 0x93960030 [140.645200 185.929900 43.891900] -0.994092 0.000000 0.000000 -0.108541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79396001, 0x79396002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79396001, 0x79396003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79396001, 0x79396004, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x79396001, 0x79396002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79396001, 0x79396003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79396001, 0x79396004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79396002,  7978, 0x93960030, 140.6452, 185.9299, 43.8919, -0.9940919, 0, 0, -0.1085412,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

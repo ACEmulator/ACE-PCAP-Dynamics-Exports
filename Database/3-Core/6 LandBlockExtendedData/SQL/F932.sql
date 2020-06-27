@@ -5,27 +5,27 @@ VALUES (0x7F932001,  1154, 0xF932001E, 87.93647, 127.0219, 82.0064, 0.6733777, 0
 /* @teleloc 0xF932001E [87.936470 127.021900 82.006400] 0.673378 0.000000 0.000000 -0.739299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F932001, 0x7F932002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F932001, 0x7F932003, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F932001, 0x7F932004, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F932001, 0x7F932005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F932006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F932007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F932008, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F932009, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F932001, 0x7F93200A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F93200B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F932001, 0x7F93200C, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F932001, 0x7F93200D, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F932001, 0x7F93200E, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F932001, 0x7F93200F, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F932001, 0x7F932010, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F932001, 0x7F932011, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F932001, 0x7F932012, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F932001, 0x7F932013, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F932001, 0x7F932014, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F932001, 0x7F932015, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F932001, 0x7F932016, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */;
+VALUES (0x7F932001, 0x7F932002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F932001, 0x7F932003, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F932001, 0x7F932004, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F932001, 0x7F932005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F932001, 0x7F932006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F932001, 0x7F932007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F932001, 0x7F932008, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F932001, 0x7F932009, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F932001, 0x7F93200A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F932001, 0x7F93200B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F932001, 0x7F93200C, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F932001, 0x7F93200D, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F932001, 0x7F93200E, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F932001, 0x7F93200F, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F932001, 0x7F932010, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F932001, 0x7F932011, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F932001, 0x7F932012, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F932001, 0x7F932013, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F932001, 0x7F932014, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F932001, 0x7F932015, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F932001, 0x7F932016, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F932002, 40304, 0xF932001E, 87.93647, 127.0219, 82.0064, 0.6733777, 0, 0, -0.7392986,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

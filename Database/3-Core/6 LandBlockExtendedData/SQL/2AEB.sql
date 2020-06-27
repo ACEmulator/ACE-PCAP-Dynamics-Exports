@@ -5,22 +5,22 @@ VALUES (0x72AEB001,  1154, 0x2AEB0038, 158.3317, 190.0717, 30.00715, 0.5397369, 
 /* @teleloc 0x2AEB0038 [158.331700 190.071700 30.007150] 0.539737 0.000000 0.000000 -0.841834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEB001, 0x72AEB002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEB001, 0x72AEB003, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEB001, 0x72AEB004, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x72AEB001, 0x72AEB005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72AEB001, 0x72AEB006, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEB001, 0x72AEB007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEB001, 0x72AEB008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEB001, 0x72AEB009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72AEB001, 0x72AEB00A, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72AEB001, 0x72AEB00B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72AEB001, 0x72AEB00C, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72AEB001, 0x72AEB00D, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AEB001, 0x72AEB00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72AEB001, 0x72AEB00F, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x72AEB001, 0x72AEB010, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x72AEB001, 0x72AEB011, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x72AEB001, 0x72AEB002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEB001, 0x72AEB003, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEB001, 0x72AEB004, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x72AEB001, 0x72AEB005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72AEB001, 0x72AEB006, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEB001, 0x72AEB007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEB001, 0x72AEB008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEB001, 0x72AEB009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72AEB001, 0x72AEB00A, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72AEB001, 0x72AEB00B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72AEB001, 0x72AEB00C, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72AEB001, 0x72AEB00D, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AEB001, 0x72AEB00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AEB001, 0x72AEB00F, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x72AEB001, 0x72AEB010, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x72AEB001, 0x72AEB011, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEB002,  7085, 0x2AEB0038, 158.3317, 190.0717, 30.00715, 0.5397369, 0, 0, -0.8418337,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

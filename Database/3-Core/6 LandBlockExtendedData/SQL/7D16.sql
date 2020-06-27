@@ -5,12 +5,12 @@ VALUES (0x77D16001,  1154, 0x7D16001A, 74.87573, 43.49452, 18.50567, 0.9653942, 
 /* @teleloc 0x7D16001A [74.875730 43.494520 18.505670] 0.965394 0.000000 0.000000 -0.260795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D16001, 0x77D16002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77D16001, 0x77D16003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77D16001, 0x77D16004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77D16001, 0x77D16005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77D16001, 0x77D16006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77D16001, 0x77D16007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x77D16001, 0x77D16002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77D16001, 0x77D16003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77D16001, 0x77D16004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77D16001, 0x77D16005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77D16001, 0x77D16006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77D16001, 0x77D16007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D16002,  7123, 0x7D16001A, 74.87573, 43.49452, 18.50567, 0.9653942, 0, 0, -0.2607951,  True, '2019-02-10 00:00:00'); /* Dark Leech */

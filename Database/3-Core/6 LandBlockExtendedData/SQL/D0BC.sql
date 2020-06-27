@@ -5,12 +5,12 @@ VALUES (0x7D0BC001,  1154, 0xD0BC0037, 161.7357, 162.8525, 73.33226, -0.9962395,
 /* @teleloc 0xD0BC0037 [161.735700 162.852500 73.332260] -0.996240 0.000000 0.000000 -0.086642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0BC001, 0x7D0BC002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D0BC001, 0x7D0BC003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D0BC001, 0x7D0BC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D0BC001, 0x7D0BC005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D0BC001, 0x7D0BC006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D0BC001, 0x7D0BC007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7D0BC001, 0x7D0BC002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D0BC001, 0x7D0BC003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D0BC001, 0x7D0BC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D0BC001, 0x7D0BC005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D0BC001, 0x7D0BC006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D0BC001, 0x7D0BC007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0BC002, 11478, 0xD0BC0037, 161.7357, 162.8525, 73.33226, -0.9962395, 0, 0, -0.08664189,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

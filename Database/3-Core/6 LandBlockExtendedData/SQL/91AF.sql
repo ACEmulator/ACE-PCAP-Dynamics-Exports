@@ -5,17 +5,17 @@ VALUES (0x791AF001,  1154, 0x91AF0040, 172.0088, 175.9468, 35.33053, 0.9162202, 
 /* @teleloc 0x91AF0040 [172.008800 175.946800 35.330530] 0.916220 0.000000 0.000000 -0.400675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791AF001, 0x791AF002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x791AF001, 0x791AF003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x791AF001, 0x791AF004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x791AF001, 0x791AF005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x791AF001, 0x791AF006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x791AF001, 0x791AF007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x791AF001, 0x791AF008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x791AF001, 0x791AF009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x791AF001, 0x791AF00A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x791AF001, 0x791AF00B, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x791AF001, 0x791AF00C, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x791AF001, 0x791AF002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x791AF001, 0x791AF003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x791AF001, 0x791AF004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x791AF001, 0x791AF005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x791AF001, 0x791AF006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x791AF001, 0x791AF007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x791AF001, 0x791AF008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x791AF001, 0x791AF009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x791AF001, 0x791AF00A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x791AF001, 0x791AF00B, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x791AF001, 0x791AF00C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791AF002,  1610, 0x91AF0040, 172.0088, 175.9468, 35.33053, 0.9162202, 0, 0, -0.4006751,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -66,7 +66,7 @@ VALUES (0x791AF00D,  1542, 0x91AF003A, 169.4095, 29.94068, 35.63823, -4.371139E-
 /* @teleloc 0x91AF003A [169.409500 29.940680 35.638230] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791AF00D, 0x791AF00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x791AF00D, 0x791AF00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791AF00E,  4380, 0x91AF003A, 169.4095, 29.94068, 35.63823, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

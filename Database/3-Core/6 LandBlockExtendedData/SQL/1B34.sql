@@ -5,16 +5,16 @@ VALUES (0x71B34001,  1154, 0x1B340100, 49.3098, 27.0582, 64.737, 0.451763, 0, 0,
 /* @teleloc 0x1B340100 [49.309800 27.058200 64.737000] 0.451763 0.000000 0.000000 -0.892138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B34001, 0x71B34002, '2019-02-10 00:00:00') /* Harraag's Hideout */
-     , (0x71B34001, 0x71B34003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B34001, 0x71B34004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71B34001, 0x71B34005, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71B34001, 0x71B34006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71B34001, 0x71B34007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71B34001, 0x71B34008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71B34001, 0x71B34009, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71B34001, 0x71B3400A, '2019-02-10 00:00:00') /* Dire Champion Shadow */
-     , (0x71B34001, 0x71B3400B, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x71B34001, 0x71B34002, '2019-02-10 00:00:00') /* Harraag's Hideout (35486) */
+     , (0x71B34001, 0x71B34003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B34001, 0x71B34004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71B34001, 0x71B34005, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71B34001, 0x71B34006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71B34001, 0x71B34007, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71B34001, 0x71B34008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71B34001, 0x71B34009, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71B34001, 0x71B3400A, '2019-02-10 00:00:00') /* Dire Champion Shadow (36846) */
+     , (0x71B34001, 0x71B3400B, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B34002, 35486, 0x1B340100, 49.3098, 27.0582, 64.737, 0.451763, 0, 0, -0.892138,  True, '2019-02-10 00:00:00'); /* Harraag's Hideout */
@@ -61,8 +61,8 @@ VALUES (0x71B3400C,  1154, 0x1B340100, 44.588, 34.0181, 64.80825, 0.305126, 0, 0
 /* @teleloc 0x1B340100 [44.588000 34.018100 64.808250] 0.305126 0.000000 0.000000 -0.952312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B3400C, 0x71B3400D, '2019-02-10 00:00:00') /* Banderling Guard Champion */
-     , (0x71B3400C, 0x71B3400E, '2019-02-10 00:00:00') /* Banderling Guard Champion */;
+VALUES (0x71B3400C, 0x71B3400D, '2019-02-10 00:00:00') /* Banderling Guard Champion (35341) */
+     , (0x71B3400C, 0x71B3400E, '2019-02-10 00:00:00') /* Banderling Guard Champion (35342) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B3400D, 35341, 0x1B340100, 44.588, 34.0181, 64.80825, 0.305126, 0, 0, -0.952312,  True, '2019-02-10 00:00:00'); /* Banderling Guard Champion */

@@ -5,11 +5,11 @@ VALUES (0x7885C001,  1154, 0x885C0033, 148.9372, 65.31098, 14.00953, -0.9508636,
 /* @teleloc 0x885C0033 [148.937200 65.310980 14.009530] -0.950864 0.000000 0.000000 -0.309610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7885C001, 0x7885C002, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7885C001, 0x7885C003, '2019-02-10 00:00:00') /* Flicker */
-     , (0x7885C001, 0x7885C004, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7885C001, 0x7885C005, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7885C001, 0x7885C006, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x7885C001, 0x7885C002, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7885C001, 0x7885C003, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x7885C001, 0x7885C004, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7885C001, 0x7885C005, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7885C001, 0x7885C006, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7885C002,  1611, 0x885C0033, 148.9372, 65.31098, 14.00953, -0.9508636, 0, 0, -0.3096102,  True, '2019-02-10 00:00:00'); /* Rust Gromnie */

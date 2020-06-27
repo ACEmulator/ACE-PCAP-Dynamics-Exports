@@ -5,21 +5,21 @@ VALUES (0x72C85001,  1154, 0x2C85003A, 179.6418, 34.44932, 140.428, -0.9151162, 
 /* @teleloc 0x2C85003A [179.641800 34.449320 140.428000] -0.915116 0.000000 0.000000 -0.403190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C85001, 0x72C85002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72C85001, 0x72C85003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72C85001, 0x72C85004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72C85001, 0x72C85005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72C85001, 0x72C85006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C85001, 0x72C85007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72C85001, 0x72C85008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72C85001, 0x72C85009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72C85001, 0x72C8500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72C85001, 0x72C8500B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72C85001, 0x72C8500C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72C85001, 0x72C8500D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72C85001, 0x72C8500E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72C85001, 0x72C8500F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72C85001, 0x72C85010, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72C85001, 0x72C85002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72C85001, 0x72C85003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72C85001, 0x72C85004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72C85001, 0x72C85005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72C85001, 0x72C85006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C85001, 0x72C85007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72C85001, 0x72C85008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72C85001, 0x72C85009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72C85001, 0x72C8500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72C85001, 0x72C8500B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72C85001, 0x72C8500C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72C85001, 0x72C8500D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72C85001, 0x72C8500E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72C85001, 0x72C8500F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72C85001, 0x72C85010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C85002, 20189, 0x2C85003A, 179.6418, 34.44932, 140.428, -0.9151162, 0, 0, -0.4031903,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -86,7 +86,7 @@ VALUES (0x72C85011,  1542, 0x2C85001A, 92.77168, 33.10623, 187.1832, 0.9990482, 
 /* @teleloc 0x2C85001A [92.771680 33.106230 187.183200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C85011, 0x72C85012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72C85011, 0x72C85012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C85012,  4179, 0x2C85001A, 92.77168, 33.10623, 187.1832, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,9 +5,9 @@ VALUES (0x7AFDE001,  1154, 0xAFDE0035, 164.9539, 105.0233, 2.005, 0.1372606, 0, 
 /* @teleloc 0xAFDE0035 [164.953900 105.023300 2.005000] 0.137261 0.000000 0.000000 -0.990535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFDE001, 0x7AFDE002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7AFDE001, 0x7AFDE003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7AFDE001, 0x7AFDE004, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7AFDE001, 0x7AFDE002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7AFDE001, 0x7AFDE003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7AFDE001, 0x7AFDE004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFDE002, 11526, 0xAFDE0035, 164.9539, 105.0233, 2.005, 0.1372606, 0, 0, -0.990535,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

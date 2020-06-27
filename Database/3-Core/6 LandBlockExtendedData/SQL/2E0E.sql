@@ -9,44 +9,44 @@ VALUES (0x72E0E001,  1154, 0x2E0E0030, 130.1913, 178.1002, 46.55782, 0.1949437, 
 /* @teleloc 0x2E0E0030 [130.191300 178.100200 46.557820] 0.194944 0.000000 0.000000 -0.980814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0E001, 0x72E0E002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E0E001, 0x72E0E003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72E0E001, 0x72E0E004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72E0E001, 0x72E0E005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E0E001, 0x72E0E006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E0E001, 0x72E0E007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72E0E001, 0x72E0E008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E0E001, 0x72E0E009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E0E001, 0x72E0E00A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E0E001, 0x72E0E00E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E0E001, 0x72E0E00F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72E0E001, 0x72E0E010, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E0E001, 0x72E0E011, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72E0E001, 0x72E0E012, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72E0E001, 0x72E0E013, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72E0E001, 0x72E0E014, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E015, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E016, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72E0E001, 0x72E0E017, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E0E001, 0x72E0E018, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72E0E001, 0x72E0E019, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E0E001, 0x72E0E01A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72E0E001, 0x72E0E01B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72E0E001, 0x72E0E01C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72E0E001, 0x72E0E01D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72E0E001, 0x72E0E01E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72E0E001, 0x72E0E01F, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E0E001, 0x72E0E020, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E0E001, 0x72E0E021, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72E0E001, 0x72E0E022, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E0E001, 0x72E0E023, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72E0E001, 0x72E0E024, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E0E001, 0x72E0E025, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72E0E001, 0x72E0E026, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72E0E001, 0x72E0E027, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x72E0E001, 0x72E0E002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E0E001, 0x72E0E003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72E0E001, 0x72E0E004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72E0E001, 0x72E0E005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E0E001, 0x72E0E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E0E001, 0x72E0E007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72E0E001, 0x72E0E008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E0E001, 0x72E0E009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E0E001, 0x72E0E00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E0E001, 0x72E0E00E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E0E001, 0x72E0E00F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72E0E001, 0x72E0E010, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E0E001, 0x72E0E011, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72E0E001, 0x72E0E012, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72E0E001, 0x72E0E013, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72E0E001, 0x72E0E014, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E015, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E016, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72E0E001, 0x72E0E017, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E0E001, 0x72E0E018, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72E0E001, 0x72E0E019, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E0E001, 0x72E0E01A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72E0E001, 0x72E0E01B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72E0E001, 0x72E0E01C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72E0E001, 0x72E0E01D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72E0E001, 0x72E0E01E, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72E0E001, 0x72E0E01F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E0E001, 0x72E0E020, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E0E001, 0x72E0E021, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72E0E001, 0x72E0E022, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E0E001, 0x72E0E023, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72E0E001, 0x72E0E024, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E0E001, 0x72E0E025, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72E0E001, 0x72E0E026, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72E0E001, 0x72E0E027, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0E002, 36830, 0x2E0E0030, 130.1913, 178.1002, 46.55782, 0.1949437, 0, 0, -0.9808144,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -205,7 +205,7 @@ VALUES (0x72E0E028,  1542, 0x2E0E002E, 131.0189, 131.5753, 52.75472, 1, 0, 0, 0,
 /* @teleloc 0x2E0E002E [131.018900 131.575300 52.754720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0E028, 0x72E0E029, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72E0E028, 0x72E0E029, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0E029, 22566, 0x2E0E002E, 131.0189, 131.5753, 52.75472, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

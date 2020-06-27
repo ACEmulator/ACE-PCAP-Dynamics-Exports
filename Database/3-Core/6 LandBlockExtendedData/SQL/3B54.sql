@@ -5,17 +5,17 @@ VALUES (0x73B54001,  1154, 0x3B540018, 59.48902, 183.4365, 45.95118, 0.7820705, 
 /* @teleloc 0x3B540018 [59.489020 183.436500 45.951180] 0.782071 0.000000 0.000000 -0.623190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B54001, 0x73B54002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73B54001, 0x73B54003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73B54001, 0x73B54004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73B54001, 0x73B54005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73B54001, 0x73B54006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73B54001, 0x73B54007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73B54001, 0x73B54008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73B54001, 0x73B54009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73B54001, 0x73B5400A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73B54001, 0x73B5400B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73B54001, 0x73B5400C, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x73B54001, 0x73B54002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73B54001, 0x73B54003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73B54001, 0x73B54004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73B54001, 0x73B54005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73B54001, 0x73B54006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73B54001, 0x73B54007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73B54001, 0x73B54008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73B54001, 0x73B54009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73B54001, 0x73B5400A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73B54001, 0x73B5400B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73B54001, 0x73B5400C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B54002, 24325, 0x3B540018, 59.48902, 183.4365, 45.95118, 0.7820705, 0, 0, -0.6231899,  True, '2019-02-10 00:00:00'); /* Phantasm */

@@ -5,25 +5,25 @@ VALUES (0x7C2B4001,  1154, 0xC2B4002E, 140.6153, 124.8235, 319.1216, 0.8752791, 
 /* @teleloc 0xC2B4002E [140.615300 124.823500 319.121600] 0.875279 0.000000 0.000000 -0.483618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2B4001, 0x7C2B4002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C2B4001, 0x7C2B4003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C2B4001, 0x7C2B4004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B4001, 0x7C2B4005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C2B4001, 0x7C2B4006, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C2B4001, 0x7C2B4007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C2B4001, 0x7C2B4008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C2B4001, 0x7C2B4009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C2B4001, 0x7C2B400A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C2B4001, 0x7C2B400B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C2B4001, 0x7C2B400C, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C2B4001, 0x7C2B400D, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C2B4001, 0x7C2B400E, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C2B4001, 0x7C2B400F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B4001, 0x7C2B4010, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B4001, 0x7C2B4011, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7C2B4001, 0x7C2B4012, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C2B4001, 0x7C2B4013, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B4001, 0x7C2B4014, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7C2B4001, 0x7C2B4002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7C2B4001, 0x7C2B4003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C2B4001, 0x7C2B4004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B4001, 0x7C2B4005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C2B4001, 0x7C2B4006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C2B4001, 0x7C2B4007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C2B4001, 0x7C2B4008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C2B4001, 0x7C2B4009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C2B4001, 0x7C2B400A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C2B4001, 0x7C2B400B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C2B4001, 0x7C2B400C, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C2B4001, 0x7C2B400D, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C2B4001, 0x7C2B400E, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C2B4001, 0x7C2B400F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B4001, 0x7C2B4010, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B4001, 0x7C2B4011, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7C2B4001, 0x7C2B4012, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C2B4001, 0x7C2B4013, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B4001, 0x7C2B4014, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2B4002,  6645, 0xC2B4002E, 140.6153, 124.8235, 319.1216, 0.8752791, 0, 0, -0.4836181,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -106,8 +106,8 @@ VALUES (0x7C2B4015,  1542, 0xC2B4000C, 36.94882, 80.77161, 258.3814, -0.1509332,
 /* @teleloc 0xC2B4000C [36.948820 80.771610 258.381400] -0.150933 0.000000 0.000000 -0.988544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2B4015, 0x7C2B4016, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7C2B4015, 0x7C2B4017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C2B4015, 0x7C2B4016, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7C2B4015, 0x7C2B4017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2B4016, 22837, 0xC2B4000C, 36.94882, 80.77161, 258.3814, -0.1509332, 0, 0, -0.988544,  True, '2019-02-10 00:00:00'); /* Snowflower */

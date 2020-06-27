@@ -5,45 +5,45 @@ VALUES (0x701EE001,  1154, 0x01EE02D0, 40.0394, -218.643, -42.0065, -0.999984, 0
 /* @teleloc 0x01EE02D0 [40.039400 -218.643000 -42.006500] -0.999984 0.000000 0.000000 0.005634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EE001, 0x701EE002, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE005, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE007, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE008, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE009, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE00A, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE00B, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE00C, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE00D, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE00E, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE00F, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE010, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE011, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE012, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE013, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE014, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE015, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE016, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE017, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x701EE001, 0x701EE018, '2019-02-10 00:00:00') /* Elysa Strathelar */
-     , (0x701EE001, 0x701EE019, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE01A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE01B, '2019-02-10 00:00:00') /* Olthoi Queen */
-     , (0x701EE001, 0x701EE01C, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE01D, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE01E, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE01F, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE020, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE021, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE022, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE023, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x701EE001, 0x701EE024, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE025, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE026, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE027, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x701EE001, 0x701EE028, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x701EE001, 0x701EE002, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE005, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE006, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE007, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE008, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE009, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE00A, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE00B, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE00C, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE00D, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE00E, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE00F, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE010, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE011, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE012, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE013, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE014, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE015, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE016, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE017, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x701EE001, 0x701EE018, '2019-02-10 00:00:00') /* Elysa Strathelar (36774) */
+     , (0x701EE001, 0x701EE019, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE01A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE01B, '2019-02-10 00:00:00') /* Olthoi Queen (36794) */
+     , (0x701EE001, 0x701EE01C, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE01D, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE01E, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE01F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE020, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE021, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE022, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE023, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x701EE001, 0x701EE024, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE025, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE026, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE027, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x701EE001, 0x701EE028, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EE002, 36773, 0x01EE02D0, 40.0394, -218.643, -42.0065, -0.999984, 0, 0, 0.00563404,  True, '2019-02-10 00:00:00'); /* Olthoi Sentinel Tracker */
@@ -206,7 +206,7 @@ VALUES (0x701EE029,  1154, 0x01EE04DA, 99.63215, -201.1169, -5.995, -4.371139E-0
 /* @teleloc 0x01EE04DA [99.632150 -201.116900 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EE029, 0x701EE02A, '2019-02-10 00:00:00') /* Thorsten Cragstone */;
+VALUES (0x701EE029, 0x701EE02A, '2019-02-10 00:00:00') /* Thorsten Cragstone (36800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EE02A, 36800, 0x01EE04DA, 99.63215, -201.1169, -5.995, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Thorsten Cragstone */
@@ -217,8 +217,8 @@ VALUES (0x701EE02B,  1542, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 
 /* @teleloc 0x01EE0628 [100.908000 -199.999000 42.000000] -0.885416 0.000000 0.000000 0.464799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EE02B, 0x701EE02C, '2019-02-10 00:00:00') /* Execution Log of Strathelar Modification */
-     , (0x701EE02B, 0x701EE02D, '2019-02-10 00:00:00') /* Head of the Apparition Olthoi Queen  */;
+VALUES (0x701EE02B, 0x701EE02C, '2019-02-10 00:00:00') /* Execution Log of Strathelar Modification (36775) */
+     , (0x701EE02B, 0x701EE02D, '2019-02-10 00:00:00') /* Head of the Apparition Olthoi Queen  (36785) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EE02C, 36775, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991,  True, '2019-02-10 00:00:00'); /* Execution Log of Strathelar Modification */

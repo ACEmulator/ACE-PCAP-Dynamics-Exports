@@ -5,18 +5,18 @@ VALUES (0x75CA5001,  1154, 0x5CA5003E, 168.7102, 133.4966, 65.82264, 0.8675913, 
 /* @teleloc 0x5CA5003E [168.710200 133.496600 65.822640] 0.867591 0.000000 0.000000 -0.497278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CA5001, 0x75CA5002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75CA5001, 0x75CA5003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75CA5001, 0x75CA5004, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA5005, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA5006, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA5007, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA5008, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA5009, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CA5001, 0x75CA500A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75CA5001, 0x75CA500B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75CA5001, 0x75CA500C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75CA5001, 0x75CA500D, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x75CA5001, 0x75CA5002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75CA5001, 0x75CA5003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75CA5001, 0x75CA5004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA5005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA5006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA5007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA5008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA5009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75CA5001, 0x75CA500A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75CA5001, 0x75CA500B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75CA5001, 0x75CA500C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75CA5001, 0x75CA500D, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CA5002,  4217, 0x5CA5003E, 168.7102, 133.4966, 65.82264, 0.8675913, 0, 0, -0.4972779,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -71,7 +71,7 @@ VALUES (0x75CA500E,  1542, 0x5CA5001D, 93.95393, 111.669, 52.81399, 0.04591229, 
 /* @teleloc 0x5CA5001D [93.953930 111.669000 52.813990] 0.045912 0.000000 0.000000 -0.998946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CA500E, 0x75CA500F, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x75CA500E, 0x75CA500F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CA500F,  9071, 0x5CA5001D, 93.95393, 111.669, 52.81399, 0.04591229, 0, 0, -0.9989455,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

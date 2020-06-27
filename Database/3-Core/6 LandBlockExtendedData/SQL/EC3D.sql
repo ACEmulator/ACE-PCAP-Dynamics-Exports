@@ -5,16 +5,16 @@ VALUES (0x7EC3D001,  1154, 0xEC3D001A, 73.81686, 27.79399, 12.55071, -0.5615873,
 /* @teleloc 0xEC3D001A [73.816860 27.793990 12.550710] -0.561587 0.000000 0.000000 -0.827418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC3D001, 0x7EC3D002, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7EC3D001, 0x7EC3D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7EC3D001, 0x7EC3D004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EC3D001, 0x7EC3D005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7EC3D001, 0x7EC3D006, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7EC3D001, 0x7EC3D007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7EC3D001, 0x7EC3D008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7EC3D001, 0x7EC3D009, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7EC3D001, 0x7EC3D00A, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7EC3D001, 0x7EC3D00B, '2019-02-10 00:00:00') /* Parfal Niffis */;
+VALUES (0x7EC3D001, 0x7EC3D002, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7EC3D001, 0x7EC3D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7EC3D001, 0x7EC3D004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EC3D001, 0x7EC3D005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7EC3D001, 0x7EC3D006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7EC3D001, 0x7EC3D007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7EC3D001, 0x7EC3D008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7EC3D001, 0x7EC3D009, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7EC3D001, 0x7EC3D00A, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7EC3D001, 0x7EC3D00B, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC3D002,  1619, 0xEC3D001A, 73.81686, 27.79399, 12.55071, -0.5615873, 0, 0, -0.8274175,  True, '2019-02-10 00:00:00'); /* Mosswart Shaman */

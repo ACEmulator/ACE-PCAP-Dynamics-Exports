@@ -5,31 +5,31 @@ VALUES (0x77DF1001,  1154, 0x7DF10038, 146.6053, 173.9807, 172.1629, 0.5, 0, 0, 
 /* @teleloc 0x7DF10038 [146.605300 173.980700 172.162900] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF1001, 0x77DF1002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77DF1001, 0x77DF1007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DF1001, 0x77DF1008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77DF1001, 0x77DF1009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77DF1001, 0x77DF100A, '2019-02-10 00:00:00') /* Hyem */
-     , (0x77DF1001, 0x77DF100B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DF1001, 0x77DF100C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DF1001, 0x77DF100D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x77DF1001, 0x77DF100E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77DF1001, 0x77DF100F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77DF1001, 0x77DF1010, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77DF1001, 0x77DF1011, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77DF1001, 0x77DF1012, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x77DF1001, 0x77DF1013, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77DF1001, 0x77DF1014, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x77DF1001, 0x77DF1015, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77DF1001, 0x77DF1016, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1017, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1018, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF1001, 0x77DF1019, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77DF1001, 0x77DF101A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x77DF1001, 0x77DF1002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF1001, 0x77DF1003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF1001, 0x77DF1004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77DF1001, 0x77DF1005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77DF1001, 0x77DF1006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77DF1001, 0x77DF1007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DF1001, 0x77DF1008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77DF1001, 0x77DF1009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77DF1001, 0x77DF100A, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x77DF1001, 0x77DF100B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DF1001, 0x77DF100C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DF1001, 0x77DF100D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x77DF1001, 0x77DF100E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77DF1001, 0x77DF100F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77DF1001, 0x77DF1010, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77DF1001, 0x77DF1011, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77DF1001, 0x77DF1012, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x77DF1001, 0x77DF1013, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77DF1001, 0x77DF1014, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x77DF1001, 0x77DF1015, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x77DF1001, 0x77DF1016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77DF1001, 0x77DF1017, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF1001, 0x77DF1018, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF1001, 0x77DF1019, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77DF1001, 0x77DF101A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF1002,  4216, 0x7DF10038, 146.6053, 173.9807, 172.1629, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -136,10 +136,10 @@ VALUES (0x77DF101B,  1542, 0x7DF10030, 138.3043, 172.0435, 170.2391, -0.6659824,
 /* @teleloc 0x7DF10030 [138.304300 172.043500 170.239100] -0.665982 0.000000 0.000000 -0.745967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF101B, 0x77DF101C, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x77DF101B, 0x77DF101D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77DF101B, 0x77DF101E, '2019-02-10 00:00:00') /* Bones */
-     , (0x77DF101B, 0x77DF101F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77DF101B, 0x77DF101C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x77DF101B, 0x77DF101D, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x77DF101B, 0x77DF101E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77DF101B, 0x77DF101F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF101C,  8644, 0x7DF10030, 138.3043, 172.0435, 170.2391, -0.6659824, 0, 0, -0.7459674,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

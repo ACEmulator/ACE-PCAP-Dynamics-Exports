@@ -5,12 +5,12 @@ VALUES (0x7D750001,  1154, 0xD750002B, 125.2323, 65.77194, 40.42102, 0.6030538, 
 /* @teleloc 0xD750002B [125.232300 65.771940 40.421020] 0.603054 0.000000 0.000000 -0.797701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D750001, 0x7D750002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D750001, 0x7D750003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D750001, 0x7D750004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D750001, 0x7D750005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D750001, 0x7D750006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D750001, 0x7D750007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7D750001, 0x7D750002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D750001, 0x7D750003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D750001, 0x7D750004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D750001, 0x7D750005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D750001, 0x7D750006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D750001, 0x7D750007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D750002,  4110, 0xD750002B, 125.2323, 65.77194, 40.42102, 0.6030538, 0, 0, -0.7977005,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

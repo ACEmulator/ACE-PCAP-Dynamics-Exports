@@ -17,23 +17,23 @@ VALUES (0x772CA004,  1154, 0x72CA0025, 113.3695, 117.7801, 95.26004, -4.37114E-0
 /* @teleloc 0x72CA0025 [113.369500 117.780100 95.260040] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772CA004, 0x772CA005, '2019-02-10 00:00:00') /* Sclavus Guard */
-     , (0x772CA004, 0x772CA006, '2019-02-10 00:00:00') /* Sclavus Guard */
-     , (0x772CA004, 0x772CA007, '2019-02-10 00:00:00') /* Sclavus Guard */
-     , (0x772CA004, 0x772CA008, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA009, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA00A, '2019-02-10 00:00:00') /* Falatacot Guard */
-     , (0x772CA004, 0x772CA00B, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA00C, '2019-02-10 00:00:00') /* Sclavus Guard */
-     , (0x772CA004, 0x772CA00D, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA00E, '2019-02-10 00:00:00') /* Falatacot Guard */
-     , (0x772CA004, 0x772CA00F, '2019-02-10 00:00:00') /* Falatacot Guard */
-     , (0x772CA004, 0x772CA010, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA011, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA012, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA013, '2019-02-10 00:00:00') /* Moarsman Guard */
-     , (0x772CA004, 0x772CA014, '2019-02-10 00:00:00') /* Falatacot Guard */
-     , (0x772CA004, 0x772CA015, '2019-02-10 00:00:00') /* Sclavus Guard */;
+VALUES (0x772CA004, 0x772CA005, '2019-02-10 00:00:00') /* Sclavus Guard (39480) */
+     , (0x772CA004, 0x772CA006, '2019-02-10 00:00:00') /* Sclavus Guard (39480) */
+     , (0x772CA004, 0x772CA007, '2019-02-10 00:00:00') /* Sclavus Guard (39480) */
+     , (0x772CA004, 0x772CA008, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA009, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA00A, '2019-02-10 00:00:00') /* Falatacot Guard (39481) */
+     , (0x772CA004, 0x772CA00B, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA00C, '2019-02-10 00:00:00') /* Sclavus Guard (39480) */
+     , (0x772CA004, 0x772CA00D, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA00E, '2019-02-10 00:00:00') /* Falatacot Guard (39481) */
+     , (0x772CA004, 0x772CA00F, '2019-02-10 00:00:00') /* Falatacot Guard (39481) */
+     , (0x772CA004, 0x772CA010, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA011, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA012, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA013, '2019-02-10 00:00:00') /* Moarsman Guard (39479) */
+     , (0x772CA004, 0x772CA014, '2019-02-10 00:00:00') /* Falatacot Guard (39481) */
+     , (0x772CA004, 0x772CA015, '2019-02-10 00:00:00') /* Sclavus Guard (39480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772CA005, 39480, 0x72CA0025, 113.3695, 117.7801, 95.26004, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Sclavus Guard */

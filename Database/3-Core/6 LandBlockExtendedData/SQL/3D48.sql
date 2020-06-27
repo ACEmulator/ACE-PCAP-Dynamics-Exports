@@ -5,11 +5,11 @@ VALUES (0x73D48001,  1154, 0x3D480014, 57.47989, 87.53228, 91.0739, 0.9238795, 0
 /* @teleloc 0x3D480014 [57.479890 87.532280 91.073900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D48001, 0x73D48002, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73D48001, 0x73D48003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73D48001, 0x73D48004, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73D48001, 0x73D48005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73D48001, 0x73D48006, '2019-02-10 00:00:00') /* Essa Sclavus Lord */;
+VALUES (0x73D48001, 0x73D48002, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73D48001, 0x73D48003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73D48001, 0x73D48004, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73D48001, 0x73D48005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73D48001, 0x73D48006, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D48002, 23487, 0x3D480014, 57.47989, 87.53228, 91.0739, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Sata Sclavus Lord */

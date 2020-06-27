@@ -5,12 +5,12 @@ VALUES (0x7CC22001,  1154, 0xCC22000E, 35.6684, 125.0246, 154.8474, 0.9495149, 0
 /* @teleloc 0xCC22000E [35.668400 125.024600 154.847400] 0.949515 0.000000 0.000000 -0.313722 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC22001, 0x7CC22002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CC22001, 0x7CC22003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CC22001, 0x7CC22004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CC22001, 0x7CC22005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC22001, 0x7CC22006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CC22001, 0x7CC22007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7CC22001, 0x7CC22002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CC22001, 0x7CC22003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CC22001, 0x7CC22004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CC22001, 0x7CC22005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC22001, 0x7CC22006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CC22001, 0x7CC22007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC22002,   201, 0xCC22000E, 35.6684, 125.0246, 154.8474, 0.9495149, 0, 0, -0.3137221,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

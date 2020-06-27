@@ -5,12 +5,12 @@ VALUES (0x72928001,  1154, 0x2928001C, 93.04694, 81.03893, 49.95961, 0.07341433,
 /* @teleloc 0x2928001C [93.046940 81.038930 49.959610] 0.073414 0.000000 0.000000 -0.997302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72928001, 0x72928002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72928001, 0x72928003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72928001, 0x72928004, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72928001, 0x72928005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72928001, 0x72928006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72928001, 0x72928007, '2019-02-10 00:00:00') /* Shadow Phantom */;
+VALUES (0x72928001, 0x72928002, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72928001, 0x72928003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72928001, 0x72928004, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72928001, 0x72928005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72928001, 0x72928006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72928001, 0x72928007, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72928002, 24282, 0x2928001C, 93.04694, 81.03893, 49.95961, 0.07341433, 0, 0, -0.9973015,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

@@ -5,13 +5,13 @@ VALUES (0x71CC3001,  1154, 0x1CC30040, 190.6766, 185.4518, 29.5672, 0.9961947, 0
 /* @teleloc 0x1CC30040 [190.676600 185.451800 29.567200] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC3001, 0x71CC3002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71CC3001, 0x71CC3003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71CC3001, 0x71CC3004, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC3001, 0x71CC3005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC3001, 0x71CC3006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC3001, 0x71CC3007, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71CC3001, 0x71CC3008, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x71CC3001, 0x71CC3002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71CC3001, 0x71CC3003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71CC3001, 0x71CC3004, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC3001, 0x71CC3005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC3001, 0x71CC3006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC3001, 0x71CC3007, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71CC3001, 0x71CC3008, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC3002, 27717, 0x1CC30040, 190.6766, 185.4518, 29.5672, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */
@@ -46,7 +46,7 @@ VALUES (0x71CC3009,  1542, 0x1CC30034, 147.5513, 93.03513, 24.15, 0.8750136, 0, 
 /* @teleloc 0x1CC30034 [147.551300 93.035130 24.150000] 0.875014 0.000000 0.000000 -0.484098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC3009, 0x71CC300A, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x71CC3009, 0x71CC300A, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC300A, 27719, 0x1CC30034, 147.5513, 93.03513, 24.15, 0.8750136, 0, 0, -0.4840983,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

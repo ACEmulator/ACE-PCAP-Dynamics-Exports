@@ -5,19 +5,19 @@ VALUES (0x749A7001,  1154, 0x49A70039, 179.8352, 20.65124, 79.40541, -0.06099255
 /* @teleloc 0x49A70039 [179.835200 20.651240 79.405410] -0.060993 0.000000 0.000000 -0.998138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749A7001, 0x749A7002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x749A7001, 0x749A7003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x749A7001, 0x749A7004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x749A7001, 0x749A7005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x749A7001, 0x749A7006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x749A7001, 0x749A7007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x749A7001, 0x749A7008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x749A7001, 0x749A7009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x749A7001, 0x749A700A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x749A7001, 0x749A700B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x749A7001, 0x749A700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x749A7001, 0x749A700D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x749A7001, 0x749A700E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x749A7001, 0x749A7002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x749A7001, 0x749A7003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x749A7001, 0x749A7004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x749A7001, 0x749A7005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x749A7001, 0x749A7006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x749A7001, 0x749A7007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x749A7001, 0x749A7008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x749A7001, 0x749A7009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x749A7001, 0x749A700A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x749A7001, 0x749A700B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x749A7001, 0x749A700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x749A7001, 0x749A700D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x749A7001, 0x749A700E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749A7002,  9252, 0x49A70039, 179.8352, 20.65124, 79.40541, -0.06099255, 0, 0, -0.9981382,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -76,18 +76,18 @@ VALUES (0x749A700F,  1154, 0x49A7001C, 91.8081, 78.3212, 74.37833, 0.892327, 0, 
 /* @teleloc 0x49A7001C [91.808100 78.321200 74.378330] 0.892327 0.000000 0.000000 0.451389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749A700F, 0x749A7010, '2019-02-10 00:00:00') /* Crafter of Greatblades */
-     , (0x749A700F, 0x749A7011, '2019-02-10 00:00:00') /* Crafter of Atlatls */
-     , (0x749A700F, 0x749A7012, '2019-02-10 00:00:00') /* Crafter of Blades */
-     , (0x749A700F, 0x749A7013, '2019-02-10 00:00:00') /* Crafter of Staves */
-     , (0x749A700F, 0x749A7014, '2019-02-10 00:00:00') /* Crafter of Spears */
-     , (0x749A700F, 0x749A7015, '2019-02-10 00:00:00') /* Crafter of Orbs */
-     , (0x749A700F, 0x749A7016, '2019-02-10 00:00:00') /* Crafter of Knives */
-     , (0x749A700F, 0x749A7017, '2019-02-10 00:00:00') /* Crafter of Maces */
-     , (0x749A700F, 0x749A7018, '2019-02-10 00:00:00') /* Crafter of Arbelests */
-     , (0x749A700F, 0x749A7019, '2019-02-10 00:00:00') /* Crafter of Bows */
-     , (0x749A700F, 0x749A701A, '2019-02-10 00:00:00') /* Crafter of Fists */
-     , (0x749A700F, 0x749A701B, '2019-02-10 00:00:00') /* Crafter of Axes */;
+VALUES (0x749A700F, 0x749A7010, '2019-02-10 00:00:00') /* Crafter of Greatblades (42037) */
+     , (0x749A700F, 0x749A7011, '2019-02-10 00:00:00') /* Crafter of Atlatls (23523) */
+     , (0x749A700F, 0x749A7012, '2019-02-10 00:00:00') /* Crafter of Blades (11627) */
+     , (0x749A700F, 0x749A7013, '2019-02-10 00:00:00') /* Crafter of Staves (11628) */
+     , (0x749A700F, 0x749A7014, '2019-02-10 00:00:00') /* Crafter of Spears (11629) */
+     , (0x749A700F, 0x749A7015, '2019-02-10 00:00:00') /* Crafter of Orbs (11630) */
+     , (0x749A700F, 0x749A7016, '2019-02-10 00:00:00') /* Crafter of Knives (11632) */
+     , (0x749A700F, 0x749A7017, '2019-02-10 00:00:00') /* Crafter of Maces (11631) */
+     , (0x749A700F, 0x749A7018, '2019-02-10 00:00:00') /* Crafter of Arbelests (11633) */
+     , (0x749A700F, 0x749A7019, '2019-02-10 00:00:00') /* Crafter of Bows (11635) */
+     , (0x749A700F, 0x749A701A, '2019-02-10 00:00:00') /* Crafter of Fists (11634) */
+     , (0x749A700F, 0x749A701B, '2019-02-10 00:00:00') /* Crafter of Axes (11636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749A7010, 42037, 0x49A7001C, 91.8081, 78.3212, 74.37833, 0.892327, 0, 0, 0.451389,  True, '2019-02-10 00:00:00'); /* Crafter of Greatblades */
@@ -142,9 +142,9 @@ VALUES (0x749A701C,  1542, 0x49A70032, 158.2291, 26.80705, 77.18576, -4.371139E-
 /* @teleloc 0x49A70032 [158.229100 26.807050 77.185760] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749A701C, 0x749A701D, '2019-02-10 00:00:00') /* Bones */
-     , (0x749A701C, 0x749A701E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x749A701C, 0x749A701F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x749A701C, 0x749A701D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x749A701C, 0x749A701E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x749A701C, 0x749A701F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749A701D,  4380, 0x49A70032, 158.2291, 26.80705, 77.18576, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

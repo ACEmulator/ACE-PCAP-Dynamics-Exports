@@ -5,18 +5,18 @@ VALUES (0x77F6D001,  1154, 0x7F6D0003, 19.24922, 61.64711, 16.52228, 0.2588191, 
 /* @teleloc 0x7F6D0003 [19.249220 61.647110 16.522280] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F6D001, 0x77F6D002, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77F6D001, 0x77F6D003, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77F6D001, 0x77F6D004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77F6D001, 0x77F6D005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77F6D001, 0x77F6D006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77F6D001, 0x77F6D007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x77F6D001, 0x77F6D008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x77F6D001, 0x77F6D009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x77F6D001, 0x77F6D00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77F6D001, 0x77F6D00B, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77F6D001, 0x77F6D00C, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77F6D001, 0x77F6D00D, '2019-02-10 00:00:00') /* Tumerok Worker */;
+VALUES (0x77F6D001, 0x77F6D002, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77F6D001, 0x77F6D003, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77F6D001, 0x77F6D004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77F6D001, 0x77F6D005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77F6D001, 0x77F6D006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77F6D001, 0x77F6D007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x77F6D001, 0x77F6D008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x77F6D001, 0x77F6D009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x77F6D001, 0x77F6D00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77F6D001, 0x77F6D00B, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77F6D001, 0x77F6D00C, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77F6D001, 0x77F6D00D, '2019-02-10 00:00:00') /* Tumerok Worker (234) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F6D002,   234, 0x7F6D0003, 19.24922, 61.64711, 16.52228, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Tumerok Worker */
@@ -71,8 +71,8 @@ VALUES (0x77F6D00E,  1542, 0x7F6D0003, 17.21293, 58.31492, 17.77102, 0.9990482, 
 /* @teleloc 0x7F6D0003 [17.212930 58.314920 17.771020] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F6D00E, 0x77F6D00F, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x77F6D00E, 0x77F6D010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77F6D00E, 0x77F6D00F, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x77F6D00E, 0x77F6D010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F6D00F,  6118, 0x7F6D0003, 17.21293, 58.31492, 17.77102, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

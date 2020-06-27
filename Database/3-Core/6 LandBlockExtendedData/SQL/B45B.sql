@@ -5,11 +5,11 @@ VALUES (0x7B45B001,  1154, 0xB45B0007, 9.259887, 161.4771, 20.77416, -0.04409866
 /* @teleloc 0xB45B0007 [9.259887 161.477100 20.774160] -0.044099 0.000000 0.000000 -0.999027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B45B001, 0x7B45B002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B45B001, 0x7B45B003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B45B001, 0x7B45B004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B45B001, 0x7B45B005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B45B001, 0x7B45B006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7B45B001, 0x7B45B002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B45B001, 0x7B45B003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B45B001, 0x7B45B004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B45B001, 0x7B45B005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B45B001, 0x7B45B006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B45B002,  1756, 0xB45B0007, 9.259887, 161.4771, 20.77416, -0.04409866, 0, 0, -0.9990272,  True, '2019-02-10 00:00:00'); /* Shadow Child */

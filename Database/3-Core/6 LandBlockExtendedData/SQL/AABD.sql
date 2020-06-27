@@ -5,23 +5,23 @@ VALUES (0x7AABD001,  1154, 0xAABD0023, 104.2614, 64.02391, 105.3381, -0.0682459,
 /* @teleloc 0xAABD0023 [104.261400 64.023910 105.338100] -0.068246 0.000000 0.000000 -0.997669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABD001, 0x7AABD002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AABD001, 0x7AABD003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABD001, 0x7AABD004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABD001, 0x7AABD005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AABD001, 0x7AABD007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7AABD001, 0x7AABD009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABD001, 0x7AABD00A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABD001, 0x7AABD00B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AABD001, 0x7AABD00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD00F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AABD001, 0x7AABD010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABD001, 0x7AABD011, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABD001, 0x7AABD012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7AABD001, 0x7AABD002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AABD001, 0x7AABD003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABD001, 0x7AABD004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABD001, 0x7AABD005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AABD001, 0x7AABD007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7AABD001, 0x7AABD009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABD001, 0x7AABD00A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABD001, 0x7AABD00B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AABD001, 0x7AABD00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD00F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AABD001, 0x7AABD010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABD001, 0x7AABD011, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABD001, 0x7AABD012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABD002,  4111, 0xAABD0023, 104.2614, 64.02391, 105.3381, -0.0682459, 0, 0, -0.9976685,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -96,8 +96,8 @@ VALUES (0x7AABD013,  1542, 0xAABD0024, 107.3146, 78.1855, 104.9429, 0.5, 0, 0, -
 /* @teleloc 0xAABD0024 [107.314600 78.185500 104.942900] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABD013, 0x7AABD014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AABD013, 0x7AABD015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AABD013, 0x7AABD014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AABD013, 0x7AABD015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABD014,  4179, 0xAABD0024, 107.3146, 78.1855, 104.9429, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

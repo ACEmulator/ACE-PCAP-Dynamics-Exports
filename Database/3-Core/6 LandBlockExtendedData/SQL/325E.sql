@@ -5,12 +5,12 @@ VALUES (0x7325E001,  1154, 0x325E0002, 16.70373, 33.37014, 31.47721, 0.7071068, 
 /* @teleloc 0x325E0002 [16.703730 33.370140 31.477210] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7325E001, 0x7325E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7325E001, 0x7325E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7325E001, 0x7325E004, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7325E001, 0x7325E005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7325E001, 0x7325E006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7325E001, 0x7325E007, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x7325E001, 0x7325E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7325E001, 0x7325E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7325E001, 0x7325E004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7325E001, 0x7325E005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7325E001, 0x7325E006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7325E001, 0x7325E007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7325E002,  1758, 0x325E0002, 16.70373, 33.37014, 31.47721, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -41,7 +41,7 @@ VALUES (0x7325E008,  1542, 0x325E0002, 19.79354, 34.36574, 29.15485, 1, 0, 0, 0,
 /* @teleloc 0x325E0002 [19.793540 34.365740 29.154850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7325E008, 0x7325E009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7325E008, 0x7325E009, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7325E009, 22571, 0x325E0002, 19.79354, 34.36574, 29.15485, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

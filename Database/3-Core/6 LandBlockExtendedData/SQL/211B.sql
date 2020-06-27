@@ -5,8 +5,8 @@ VALUES (0x7211B001,  1154, 0x211B0023, 113.9722, 56.75695, 56.0025, 0.6005856, 0
 /* @teleloc 0x211B0023 [113.972200 56.756950 56.002500] 0.600586 0.000000 0.000000 -0.799561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7211B001, 0x7211B002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7211B001, 0x7211B003, '2019-02-10 00:00:00') /* Theral */;
+VALUES (0x7211B001, 0x7211B002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7211B001, 0x7211B003, '2019-02-10 00:00:00') /* Theral (14880) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7211B002, 23555, 0x211B0023, 113.9722, 56.75695, 56.0025, 0.6005856, 0, 0, -0.7995605,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */

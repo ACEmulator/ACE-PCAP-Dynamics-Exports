@@ -5,14 +5,14 @@ VALUES (0x7EC0D001,  1154, 0xEC0D001E, 88.9351, 132.416, 0, 0.139504, 0, 0, 0.99
 /* @teleloc 0xEC0D001E [88.935100 132.416000 0.000000] 0.139504 0.000000 0.000000 0.990222 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0D001, 0x7EC0D002, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D003, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D004, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D005, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D006, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D007, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D008, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0D001, 0x7EC0D009, '2019-02-10 00:00:00') /* Aste Sclavus Lord */;
+VALUES (0x7EC0D001, 0x7EC0D002, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0D001, 0x7EC0D003, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7EC0D001, 0x7EC0D004, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D001, 0x7EC0D005, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D001, 0x7EC0D006, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D001, 0x7EC0D007, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D001, 0x7EC0D008, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0D001, 0x7EC0D009, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC0D002, 23485, 0xEC0D001E, 88.9351, 132.416, 0, 0.139504, 0, 0, 0.990222,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */

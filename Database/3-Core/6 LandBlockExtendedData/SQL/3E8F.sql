@@ -5,8 +5,8 @@ VALUES (0x73E8F001,  1154, 0x3E8F0011, 62.62435, 23.20029, 8.986232, 0.8912334, 
 /* @teleloc 0x3E8F0011 [62.624350 23.200290 8.986232] 0.891233 0.000000 0.000000 -0.453545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E8F001, 0x73E8F002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73E8F001, 0x73E8F003, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x73E8F001, 0x73E8F002, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73E8F001, 0x73E8F003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E8F002, 23562, 0x3E8F0011, 62.62435, 23.20029, 8.986232, 0.8912334, 0, 0, -0.4535448,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

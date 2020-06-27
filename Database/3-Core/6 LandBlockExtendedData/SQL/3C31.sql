@@ -5,23 +5,23 @@ VALUES (0x73C31001,  1154, 0x3C31002F, 128.5, 155.5739, 174.8405, 0.2321303, 0, 
 /* @teleloc 0x3C31002F [128.500000 155.573900 174.840500] 0.232130 0.000000 0.000000 -0.972685 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C31001, 0x73C31002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C31001, 0x73C31003, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C31001, 0x73C31004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73C31001, 0x73C31005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73C31001, 0x73C31006, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73C31001, 0x73C31007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73C31001, 0x73C31008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C31001, 0x73C31009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73C31001, 0x73C3100A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C31001, 0x73C3100B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C31001, 0x73C3100C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73C31001, 0x73C3100D, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73C31001, 0x73C3100E, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73C31001, 0x73C3100F, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73C31001, 0x73C31010, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x73C31001, 0x73C31011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C31001, 0x73C31012, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x73C31001, 0x73C31002, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73C31001, 0x73C31003, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C31001, 0x73C31004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x73C31001, 0x73C31005, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x73C31001, 0x73C31006, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73C31001, 0x73C31007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73C31001, 0x73C31008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C31001, 0x73C31009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73C31001, 0x73C3100A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C31001, 0x73C3100B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C31001, 0x73C3100C, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x73C31001, 0x73C3100D, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x73C31001, 0x73C3100E, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x73C31001, 0x73C3100F, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x73C31001, 0x73C31010, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x73C31001, 0x73C31011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C31001, 0x73C31012, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C31002, 24276, 0x3C31002F, 128.5, 155.5739, 174.8405, 0.2321303, 0, 0, -0.9726847,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -96,8 +96,8 @@ VALUES (0x73C31013,  1542, 0x3C31002F, 129.4056, 155.0587, 175.1352, 1, 0, 0, 0,
 /* @teleloc 0x3C31002F [129.405600 155.058700 175.135200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C31013, 0x73C31014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C31013, 0x73C31015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73C31013, 0x73C31014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C31013, 0x73C31015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C31014,  4179, 0x3C31002F, 129.4056, 155.0587, 175.1352, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,19 +5,19 @@ VALUES (0x71FB6001,  1154, 0x1FB6001B, 94.34699, 54.52832, 90.007, 1, 0, 0, 0, F
 /* @teleloc 0x1FB6001B [94.346990 54.528320 90.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB6001, 0x71FB6002, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB6001, 0x71FB6003, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB6001, 0x71FB6004, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB6001, 0x71FB6005, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB6001, 0x71FB6006, '2019-02-10 00:00:00') /* Poacher */
-     , (0x71FB6001, 0x71FB6007, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB6001, 0x71FB6008, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB6001, 0x71FB6009, '2019-02-10 00:00:00') /* Poacher */
-     , (0x71FB6001, 0x71FB600A, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71FB6001, 0x71FB600B, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71FB6001, 0x71FB600C, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71FB6001, 0x71FB600D, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71FB6001, 0x71FB600E, '2019-02-10 00:00:00') /* Aun Elder Shaman */;
+VALUES (0x71FB6001, 0x71FB6002, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB6001, 0x71FB6003, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB6001, 0x71FB6004, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB6001, 0x71FB6005, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB6001, 0x71FB6006, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x71FB6001, 0x71FB6007, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB6001, 0x71FB6008, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB6001, 0x71FB6009, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x71FB6001, 0x71FB600A, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71FB6001, 0x71FB600B, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71FB6001, 0x71FB600C, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71FB6001, 0x71FB600D, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71FB6001, 0x71FB600E, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB6002, 11510, 0x1FB6001B, 94.34699, 54.52832, 90.007, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Itealuan */
@@ -76,13 +76,13 @@ VALUES (0x71FB600F,  1542, 0x1FB60024, 98.45158, 76.91764, 90.6684, 1, 0, 0, 0, 
 /* @teleloc 0x1FB60024 [98.451580 76.917640 90.668400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB600F, 0x71FB6010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB600F, 0x71FB6011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FB600F, 0x71FB6012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB600F, 0x71FB6013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FB600F, 0x71FB6014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB600F, 0x71FB6015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FB600F, 0x71FB6016, '2019-02-10 00:00:00') /* Cultist Altar */;
+VALUES (0x71FB600F, 0x71FB6010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB600F, 0x71FB6011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FB600F, 0x71FB6012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB600F, 0x71FB6013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FB600F, 0x71FB6014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB600F, 0x71FB6015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FB600F, 0x71FB6016, '2019-02-10 00:00:00') /* Cultist Altar (11556) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB6010,  9024, 0x1FB60024, 98.45158, 76.91764, 90.6684, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

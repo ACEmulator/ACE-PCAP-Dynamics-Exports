@@ -5,24 +5,24 @@ VALUES (0x71FC6001,  1154, 0x1FC60006, 1.144363, 130.1324, 35.04159, 0.7161533, 
 /* @teleloc 0x1FC60006 [1.144363 130.132400 35.041590] 0.716153 0.000000 0.000000 -0.697943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC6001, 0x71FC6002, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC6001, 0x71FC6003, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x71FC6001, 0x71FC6004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC6001, 0x71FC6005, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC6006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC6007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC6008, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC6009, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC600A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC600B, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC6001, 0x71FC600C, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC6001, 0x71FC600D, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC6001, 0x71FC600E, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC600F, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC6001, 0x71FC6010, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71FC6001, 0x71FC6011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71FC6001, 0x71FC6012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC6001, 0x71FC6013, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x71FC6001, 0x71FC6002, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC6001, 0x71FC6003, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x71FC6001, 0x71FC6004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC6001, 0x71FC6005, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC6006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC6007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC6008, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC6009, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC600A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC600B, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC6001, 0x71FC600C, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC6001, 0x71FC600D, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC6001, 0x71FC600E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC600F, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC6001, 0x71FC6010, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71FC6001, 0x71FC6011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC6001, 0x71FC6012, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71FC6001, 0x71FC6013, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC6002, 27714, 0x1FC60006, 1.144363, 130.1324, 35.04159, 0.7161533, 0, 0, -0.697943,  True, '2019-02-10 00:00:00'); /* Hea Champion */

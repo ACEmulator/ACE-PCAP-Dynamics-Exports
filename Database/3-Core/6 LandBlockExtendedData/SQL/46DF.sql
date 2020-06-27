@@ -5,12 +5,12 @@ VALUES (0x746DF001,  1154, 0x46DF0004, 19.79832, 91.66245, 41.31637, 0.7071068, 
 /* @teleloc 0x46DF0004 [19.798320 91.662450 41.316370] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746DF001, 0x746DF002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x746DF001, 0x746DF003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x746DF001, 0x746DF004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x746DF001, 0x746DF005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x746DF001, 0x746DF006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x746DF001, 0x746DF007, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x746DF001, 0x746DF002, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x746DF001, 0x746DF003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x746DF001, 0x746DF004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x746DF001, 0x746DF005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x746DF001, 0x746DF006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x746DF001, 0x746DF007, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746DF002, 24291, 0x46DF0004, 19.79832, 91.66245, 41.31637, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -41,7 +41,7 @@ VALUES (0x746DF008,  1542, 0x46DF0022, 118.4121, 37.30904, 74.45846, -0.1751928,
 /* @teleloc 0x46DF0022 [118.412100 37.309040 74.458460] -0.175193 0.000000 0.000000 -0.984534 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746DF008, 0x746DF009, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x746DF008, 0x746DF009, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746DF009, 31687, 0x46DF0022, 118.4121, 37.30904, 74.45846, -0.1751928, 0, 0, -0.9845341,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

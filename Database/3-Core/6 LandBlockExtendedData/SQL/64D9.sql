@@ -5,22 +5,22 @@ VALUES (0x764D9001,  1154, 0x64D90019, 93.2259, 22.79621, 223.227, -0.08715577, 
 /* @teleloc 0x64D90019 [93.225900 22.796210 223.227000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D9001, 0x764D9002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x764D9001, 0x764D9003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x764D9001, 0x764D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x764D9001, 0x764D9005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x764D9001, 0x764D9006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764D9001, 0x764D9007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x764D9001, 0x764D9008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x764D9001, 0x764D9009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x764D9001, 0x764D900A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x764D9001, 0x764D900B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764D9001, 0x764D900C, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x764D9001, 0x764D900D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x764D9001, 0x764D900E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764D9001, 0x764D900F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764D9001, 0x764D9010, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764D9001, 0x764D9011, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x764D9001, 0x764D9002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x764D9001, 0x764D9003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x764D9001, 0x764D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x764D9001, 0x764D9005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x764D9001, 0x764D9006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x764D9001, 0x764D9007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x764D9001, 0x764D9008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x764D9001, 0x764D9009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x764D9001, 0x764D900A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x764D9001, 0x764D900B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764D9001, 0x764D900C, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x764D9001, 0x764D900D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x764D9001, 0x764D900E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764D9001, 0x764D900F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764D9001, 0x764D9010, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764D9001, 0x764D9011, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D9002, 24497, 0x64D90019, 93.2259, 22.79621, 223.227, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -91,8 +91,8 @@ VALUES (0x764D9012,  1542, 0x64D9001A, 86.27799, 29.9093, 228.6561, 1, 0, 0, 0, 
 /* @teleloc 0x64D9001A [86.277990 29.909300 228.656100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D9012, 0x764D9013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x764D9012, 0x764D9014, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x764D9012, 0x764D9013, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x764D9012, 0x764D9014, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D9013, 22567, 0x64D9001A, 86.27799, 29.9093, 228.6561, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

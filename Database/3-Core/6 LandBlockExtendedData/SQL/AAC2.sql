@@ -5,15 +5,15 @@ VALUES (0x7AAC2001,  1154, 0xAAC20035, 150.8087, 97.31721, 109.5243, 0.9238795, 
 /* @teleloc 0xAAC20035 [150.808700 97.317210 109.524300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAC2001, 0x7AAC2002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAC2001, 0x7AAC2003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AAC2001, 0x7AAC2004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAC2001, 0x7AAC2005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AAC2001, 0x7AAC2006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7AAC2001, 0x7AAC2007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AAC2001, 0x7AAC2008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AAC2001, 0x7AAC2009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AAC2001, 0x7AAC200A, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7AAC2001, 0x7AAC2002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAC2001, 0x7AAC2003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AAC2001, 0x7AAC2004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAC2001, 0x7AAC2005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AAC2001, 0x7AAC2006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7AAC2001, 0x7AAC2007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AAC2001, 0x7AAC2008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AAC2001, 0x7AAC2009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AAC2001, 0x7AAC200A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAC2002,  2612, 0xAAC20035, 150.8087, 97.31721, 109.5243, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -56,8 +56,8 @@ VALUES (0x7AAC200B,  1542, 0xAAC20026, 96.2468, 122.0247, 110.4603, 1, 0, 0, 0, 
 /* @teleloc 0xAAC20026 [96.246800 122.024700 110.460300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAC200B, 0x7AAC200C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AAC200B, 0x7AAC200D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AAC200B, 0x7AAC200C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AAC200B, 0x7AAC200D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAC200C,  4380, 0xAAC20026, 96.2468, 122.0247, 110.4603, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

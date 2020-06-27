@@ -5,9 +5,9 @@ VALUES (0x7B830001,  1154, 0xB830002C, 121.8668, 76.07755, 149.8258, -0.891061, 
 /* @teleloc 0xB830002C [121.866800 76.077550 149.825800] -0.891061 0.000000 0.000000 -0.453884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B830001, 0x7B830002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B830001, 0x7B830003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B830001, 0x7B830004, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7B830001, 0x7B830002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B830001, 0x7B830003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B830001, 0x7B830004, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B830002,  8141, 0xB830002C, 121.8668, 76.07755, 149.8258, -0.891061, 0, 0, -0.4538835,  True, '2019-02-10 00:00:00'); /* Lithos Raider */

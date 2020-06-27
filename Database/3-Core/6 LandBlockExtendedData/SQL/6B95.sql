@@ -5,21 +5,21 @@ VALUES (0x76B95001,  1154, 0x6B95002F, 129.2751, 148.5167, 49.61046, 0.7249455, 
 /* @teleloc 0x6B95002F [129.275100 148.516700 49.610460] 0.724946 0.000000 0.000000 -0.688806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B95001, 0x76B95002, '2019-02-10 00:00:00') /* Frost */
-     , (0x76B95001, 0x76B95003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76B95001, 0x76B95004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x76B95001, 0x76B95005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76B95001, 0x76B95006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76B95001, 0x76B95007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76B95001, 0x76B95008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76B95001, 0x76B95009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76B95001, 0x76B9500A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76B95001, 0x76B9500B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76B95001, 0x76B9500C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76B95001, 0x76B9500D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76B95001, 0x76B9500E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76B95001, 0x76B9500F, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x76B95001, 0x76B95010, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x76B95001, 0x76B95002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76B95001, 0x76B95003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76B95001, 0x76B95004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x76B95001, 0x76B95005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76B95001, 0x76B95006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76B95001, 0x76B95007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76B95001, 0x76B95008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76B95001, 0x76B95009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76B95001, 0x76B9500A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76B95001, 0x76B9500B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76B95001, 0x76B9500C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76B95001, 0x76B9500D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76B95001, 0x76B9500E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76B95001, 0x76B9500F, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x76B95001, 0x76B95010, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B95002, 14512, 0x6B95002F, 129.2751, 148.5167, 49.61046, 0.7249455, 0, 0, -0.6888062,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -86,7 +86,7 @@ VALUES (0x76B95011,  1542, 0x6B950030, 124.4548, 179.2691, 54.19661, -0.9956219,
 /* @teleloc 0x6B950030 [124.454800 179.269100 54.196610] -0.995622 0.000000 0.000000 -0.093472 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B95011, 0x76B95012, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x76B95011, 0x76B95012, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B95012,  8039, 0x6B950030, 124.4548, 179.2691, 54.19661, -0.9956219, 0, 0, -0.09347235,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

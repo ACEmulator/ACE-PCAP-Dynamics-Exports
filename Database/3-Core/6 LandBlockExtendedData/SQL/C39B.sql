@@ -5,11 +5,11 @@ VALUES (0x7C39B001,  1154, 0xC39B0031, 158.0155, 11.79699, 4.498634, 0.9862661, 
 /* @teleloc 0xC39B0031 [158.015500 11.796990 4.498634] 0.986266 0.000000 0.000000 -0.165164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39B001, 0x7C39B002, '2019-02-10 00:00:00') /* Static */
-     , (0x7C39B001, 0x7C39B003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C39B001, 0x7C39B004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C39B001, 0x7C39B005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C39B001, 0x7C39B006, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7C39B001, 0x7C39B002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C39B001, 0x7C39B003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C39B001, 0x7C39B004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C39B001, 0x7C39B005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C39B001, 0x7C39B006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39B002,  6382, 0xC39B0031, 158.0155, 11.79699, 4.498634, 0.9862661, 0, 0, -0.1651643,  True, '2019-02-10 00:00:00'); /* Static */
@@ -36,11 +36,11 @@ VALUES (0x7C39B007,  1542, 0xC39B0004, 11.89145, 85.15476, 25.13, 0.3003842, 0, 
 /* @teleloc 0xC39B0004 [11.891450 85.154760 25.130000] 0.300384 0.000000 0.000000 -0.953818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39B007, 0x7C39B008, '2019-02-10 00:00:00') /* Smock */
-     , (0x7C39B007, 0x7C39B009, '2019-02-10 00:00:00') /* Mana Stone */
-     , (0x7C39B007, 0x7C39B00A, '2019-02-10 00:00:00') /* Frost Partizan */
-     , (0x7C39B007, 0x7C39B00B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C39B007, 0x7C39B00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C39B007, 0x7C39B008, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x7C39B007, 0x7C39B009, '2019-02-10 00:00:00') /* Mana Stone (2435) */
+     , (0x7C39B007, 0x7C39B00A, '2019-02-10 00:00:00') /* Frost Partizan (30595) */
+     , (0x7C39B007, 0x7C39B00B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C39B007, 0x7C39B00C, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39B008,  2589, 0xC39B0004, 11.89145, 85.15476, 25.13, 0.3003842, 0, 0, -0.9538183,  True, '2019-02-10 00:00:00'); /* Smock */

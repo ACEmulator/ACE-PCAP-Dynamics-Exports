@@ -25,38 +25,38 @@ VALUES (0x7ACB7005,  1154, 0xACB70018, 64.98797, 175.6737, 91.42767, -0.972129, 
 /* @teleloc 0xACB70018 [64.987970 175.673700 91.427670] -0.972129 0.000000 0.000000 -0.234447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACB7005, 0x7ACB7006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7ACB7005, 0x7ACB7007, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7ACB7005, 0x7ACB7008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB7009, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ACB7005, 0x7ACB700A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB700B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ACB7005, 0x7ACB700C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ACB7005, 0x7ACB700D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB700E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ACB7005, 0x7ACB700F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ACB7005, 0x7ACB7010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ACB7005, 0x7ACB7011, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB7012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACB7005, 0x7ACB7013, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ACB7005, 0x7ACB7014, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ACB7005, 0x7ACB7015, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB7016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB7017, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB7018, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ACB7005, 0x7ACB7019, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACB7005, 0x7ACB701A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB701B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB701C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB701D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB701E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACB7005, 0x7ACB701F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACB7005, 0x7ACB7020, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB7021, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ACB7005, 0x7ACB7022, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACB7005, 0x7ACB7023, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7ACB7005, 0x7ACB7024, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB7005, 0x7ACB7025, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7ACB7005, 0x7ACB7006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7ACB7005, 0x7ACB7007, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7ACB7005, 0x7ACB7008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB7009, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ACB7005, 0x7ACB700A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB700B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ACB7005, 0x7ACB700C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ACB7005, 0x7ACB700D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB700E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ACB7005, 0x7ACB700F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ACB7005, 0x7ACB7010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ACB7005, 0x7ACB7011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB7012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACB7005, 0x7ACB7013, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ACB7005, 0x7ACB7014, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ACB7005, 0x7ACB7015, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB7016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB7017, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB7018, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ACB7005, 0x7ACB7019, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACB7005, 0x7ACB701A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB701B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB701C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB701D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB701E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACB7005, 0x7ACB701F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACB7005, 0x7ACB7020, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB7021, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ACB7005, 0x7ACB7022, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACB7005, 0x7ACB7023, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7ACB7005, 0x7ACB7024, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB7005, 0x7ACB7025, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACB7006,   216, 0xACB70018, 64.98797, 175.6737, 91.42767, -0.972129, 0, 0, -0.2344465,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

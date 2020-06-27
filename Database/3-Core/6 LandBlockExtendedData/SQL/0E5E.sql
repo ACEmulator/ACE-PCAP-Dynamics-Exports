@@ -5,16 +5,16 @@ VALUES (0x70E5E001,  1154, 0x0E5E000A, 41.21712, 39.88927, 3.047506, 1, 0, 0, 0,
 /* @teleloc 0x0E5E000A [41.217120 39.889270 3.047506] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5E001, 0x70E5E002, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x70E5E001, 0x70E5E003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70E5E001, 0x70E5E004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70E5E001, 0x70E5E005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5E001, 0x70E5E006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5E001, 0x70E5E007, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70E5E001, 0x70E5E008, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70E5E001, 0x70E5E009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70E5E001, 0x70E5E00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x70E5E001, 0x70E5E00B, '2019-02-10 00:00:00') /* Primeval Skeleton */;
+VALUES (0x70E5E001, 0x70E5E002, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x70E5E001, 0x70E5E003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70E5E001, 0x70E5E004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70E5E001, 0x70E5E005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5E001, 0x70E5E006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5E001, 0x70E5E007, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70E5E001, 0x70E5E008, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70E5E001, 0x70E5E009, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70E5E001, 0x70E5E00A, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x70E5E001, 0x70E5E00B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5E002, 24453, 0x0E5E000A, 41.21712, 39.88927, 3.047506, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
@@ -61,7 +61,7 @@ VALUES (0x70E5E00C,  1542, 0x0E5E000A, 41.83133, 41.27219, 2.663469, 1, 0, 0, 0,
 /* @teleloc 0x0E5E000A [41.831330 41.272190 2.663469] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5E00C, 0x70E5E00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x70E5E00C, 0x70E5E00D, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5E00D, 22566, 0x0E5E000A, 41.83133, 41.27219, 2.663469, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

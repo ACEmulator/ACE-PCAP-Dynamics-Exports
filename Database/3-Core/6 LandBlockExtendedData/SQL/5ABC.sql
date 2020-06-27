@@ -5,11 +5,11 @@ VALUES (0x75ABC001,  1154, 0x5ABC003B, 175.4054, 54.88293, 0.00999999, 0.5, 0, 0
 /* @teleloc 0x5ABC003B [175.405400 54.882930 0.010000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ABC001, 0x75ABC002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75ABC001, 0x75ABC003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x75ABC001, 0x75ABC004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x75ABC001, 0x75ABC005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75ABC001, 0x75ABC006, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x75ABC001, 0x75ABC002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75ABC001, 0x75ABC003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x75ABC001, 0x75ABC004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x75ABC001, 0x75ABC005, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x75ABC001, 0x75ABC006, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ABC002,  4216, 0x5ABC003B, 175.4054, 54.88293, 0.00999999, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

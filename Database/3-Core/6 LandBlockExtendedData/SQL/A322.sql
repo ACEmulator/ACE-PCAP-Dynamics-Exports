@@ -5,22 +5,22 @@ VALUES (0x7A322001,  1154, 0xA3220017, 71.514, 149.3067, 280.2417, 0.6600515, 0,
 /* @teleloc 0xA3220017 [71.514000 149.306700 280.241700] 0.660052 0.000000 0.000000 -0.751220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A322001, 0x7A322002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A322001, 0x7A322003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A322001, 0x7A322004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A322001, 0x7A322005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A322001, 0x7A322006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A322007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A322008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A322009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A32200A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A32200B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A322001, 0x7A32200C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A322001, 0x7A32200D, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A322001, 0x7A32200E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A322001, 0x7A32200F, '2019-02-10 00:00:00') /* Banished Monouga */
-     , (0x7A322001, 0x7A322010, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7A322001, 0x7A322011, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7A322001, 0x7A322002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A322001, 0x7A322003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A322001, 0x7A322004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A322001, 0x7A322005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A322001, 0x7A322006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A322007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A322008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A322009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A32200A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A32200B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A322001, 0x7A32200C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A322001, 0x7A32200D, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A322001, 0x7A32200E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A322001, 0x7A32200F, '2019-02-10 00:00:00') /* Banished Monouga (30884) */
+     , (0x7A322001, 0x7A322010, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7A322001, 0x7A322011, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A322002, 14559, 0xA3220017, 71.514, 149.3067, 280.2417, 0.6600515, 0, 0, -0.7512204,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -91,7 +91,7 @@ VALUES (0x7A322012,  1542, 0xA3220019, 87.80603, 19.82382, 270.5865, 1, 0, 0, 0,
 /* @teleloc 0xA3220019 [87.806030 19.823820 270.586500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A322012, 0x7A322013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A322012, 0x7A322013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A322013,  4380, 0xA3220019, 87.80603, 19.82382, 270.5865, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,18 +5,18 @@ VALUES (0x7B4D9001,  1154, 0xB4D90008, 12.62372, 173.0414, 16.53407, 0.2588191, 
 /* @teleloc 0xB4D90008 [12.623720 173.041400 16.534070] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4D9001, 0x7B4D9002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B4D9001, 0x7B4D9003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B4D9001, 0x7B4D9004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B4D9001, 0x7B4D9005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B4D9001, 0x7B4D9006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7B4D9001, 0x7B4D9007, '2019-02-10 00:00:00') /* Static */
-     , (0x7B4D9001, 0x7B4D9008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B4D9001, 0x7B4D9009, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B4D9001, 0x7B4D900A, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7B4D9001, 0x7B4D900B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7B4D9001, 0x7B4D900C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B4D9001, 0x7B4D900D, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7B4D9001, 0x7B4D9002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B4D9001, 0x7B4D9003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B4D9001, 0x7B4D9004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B4D9001, 0x7B4D9005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B4D9001, 0x7B4D9006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7B4D9001, 0x7B4D9007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B4D9001, 0x7B4D9008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B4D9001, 0x7B4D9009, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B4D9001, 0x7B4D900A, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7B4D9001, 0x7B4D900B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7B4D9001, 0x7B4D900C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B4D9001, 0x7B4D900D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4D9002, 14559, 0xB4D90008, 12.62372, 173.0414, 16.53407, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -71,7 +71,7 @@ VALUES (0x7B4D900E,  1542, 0xB4D90039, 171.5686, 10.72972, 14.89414, -0.1736482,
 /* @teleloc 0xB4D90039 [171.568600 10.729720 14.894140] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4D900E, 0x7B4D900F, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x7B4D900E, 0x7B4D900F, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4D900F, 25957, 0xB4D90039, 171.5686, 10.72972, 14.89414, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

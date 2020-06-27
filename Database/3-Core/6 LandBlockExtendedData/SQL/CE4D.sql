@@ -5,14 +5,14 @@ VALUES (0x7CE4D001,  1154, 0xCE4D0008, 0.7798655, 168.0916, 236.5516, 0.1646048,
 /* @teleloc 0xCE4D0008 [0.779866 168.091600 236.551600] 0.164605 0.000000 0.000000 -0.986360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE4D001, 0x7CE4D002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CE4D001, 0x7CE4D003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CE4D001, 0x7CE4D004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CE4D001, 0x7CE4D005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CE4D001, 0x7CE4D006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CE4D001, 0x7CE4D007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CE4D001, 0x7CE4D008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CE4D001, 0x7CE4D009, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CE4D001, 0x7CE4D002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CE4D001, 0x7CE4D003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CE4D001, 0x7CE4D004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CE4D001, 0x7CE4D005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CE4D001, 0x7CE4D006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CE4D001, 0x7CE4D007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CE4D001, 0x7CE4D008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CE4D001, 0x7CE4D009, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE4D002,  8014, 0xCE4D0008, 0.7798655, 168.0916, 236.5516, 0.1646048, 0, 0, -0.9863596,  True, '2019-02-10 00:00:00'); /* Fragment */

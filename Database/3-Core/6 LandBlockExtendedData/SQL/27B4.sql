@@ -5,8 +5,8 @@ VALUES (0x727B4001,  1154, 0x27B40012, 51.37524, 37.32777, 30.22629, -0.8970808,
 /* @teleloc 0x27B40012 [51.375240 37.327770 30.226290] -0.897081 0.000000 0.000000 -0.441867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727B4001, 0x727B4002, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x727B4001, 0x727B4003, '2019-02-10 00:00:00') /* Littoral Siraluun */;
+VALUES (0x727B4001, 0x727B4002, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x727B4001, 0x727B4003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727B4002, 11502, 0x27B40012, 51.37524, 37.32777, 30.22629, -0.8970808, 0, 0, -0.4418665,  True, '2019-02-10 00:00:00'); /* Cutthroat */
@@ -21,8 +21,8 @@ VALUES (0x727B4004,  1542, 0x27B40012, 51.50436, 35.79888, 31.30647, 1, 0, 0, 0,
 /* @teleloc 0x27B40012 [51.504360 35.798880 31.306470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727B4004, 0x727B4005, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x727B4004, 0x727B4006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x727B4004, 0x727B4005, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x727B4004, 0x727B4006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727B4005,  9024, 0x27B40012, 51.50436, 35.79888, 31.30647, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

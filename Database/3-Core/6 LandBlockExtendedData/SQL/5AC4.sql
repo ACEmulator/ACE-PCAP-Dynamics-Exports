@@ -5,18 +5,18 @@ VALUES (0x75AC4001,  1154, 0x5AC4003D, 181.7299, 105.6115, 135.6224, -0.9590104,
 /* @teleloc 0x5AC4003D [181.729900 105.611500 135.622400] -0.959010 0.000000 0.000000 -0.283371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AC4001, 0x75AC4002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x75AC4001, 0x75AC4003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75AC4001, 0x75AC4004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75AC4001, 0x75AC4005, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x75AC4001, 0x75AC4006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75AC4001, 0x75AC4007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75AC4001, 0x75AC4008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x75AC4001, 0x75AC4009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75AC4001, 0x75AC400A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75AC4001, 0x75AC400B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75AC4001, 0x75AC400C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75AC4001, 0x75AC400D, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x75AC4001, 0x75AC4002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x75AC4001, 0x75AC4003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75AC4001, 0x75AC4004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75AC4001, 0x75AC4005, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x75AC4001, 0x75AC4006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75AC4001, 0x75AC4007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75AC4001, 0x75AC4008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x75AC4001, 0x75AC4009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75AC4001, 0x75AC400A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75AC4001, 0x75AC400B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75AC4001, 0x75AC400C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75AC4001, 0x75AC400D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AC4002, 21550, 0x5AC4003D, 181.7299, 105.6115, 135.6224, -0.9590104, 0, 0, -0.283371,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -71,8 +71,8 @@ VALUES (0x75AC400E,  1542, 0x5AC40022, 106.4143, 41.60818, 74.9347, -4.371139E-0
 /* @teleloc 0x5AC40022 [106.414300 41.608180 74.934700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AC400E, 0x75AC400F, '2019-02-10 00:00:00') /* Bones */
-     , (0x75AC400E, 0x75AC4010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x75AC400E, 0x75AC400F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75AC400E, 0x75AC4010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AC400F,  4380, 0x5AC40022, 106.4143, 41.60818, 74.9347, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

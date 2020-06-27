@@ -5,12 +5,12 @@ VALUES (0x7659D001,  1154, 0x659D0004, 23.39862, 95.42403, 52.05199, 0.8870109, 
 /* @teleloc 0x659D0004 [23.398620 95.424030 52.051990] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7659D001, 0x7659D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7659D001, 0x7659D003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7659D001, 0x7659D004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7659D001, 0x7659D005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7659D001, 0x7659D006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7659D001, 0x7659D007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7659D001, 0x7659D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7659D001, 0x7659D003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7659D001, 0x7659D004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7659D001, 0x7659D005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7659D001, 0x7659D006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7659D001, 0x7659D007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7659D002,  4254, 0x659D0004, 23.39862, 95.42403, 52.05199, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -41,7 +41,7 @@ VALUES (0x7659D008,  1542, 0x659D0004, 20.81283, 95.41888, 52.04843, 1, 0, 0, 0,
 /* @teleloc 0x659D0004 [20.812830 95.418880 52.048430] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7659D008, 0x7659D009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7659D008, 0x7659D009, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7659D009, 22567, 0x659D0004, 20.81283, 95.41888, 52.04843, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

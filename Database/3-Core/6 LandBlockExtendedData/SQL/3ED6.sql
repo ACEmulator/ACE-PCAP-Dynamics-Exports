@@ -5,23 +5,23 @@ VALUES (0x73ED6001,  1154, 0x3ED60036, 145.4547, 129.4467, -0.1, -0.6969915, 0, 
 /* @teleloc 0x3ED60036 [145.454700 129.446700 -0.100000] -0.696992 0.000000 0.000000 -0.717079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED6001, 0x73ED6002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73ED6001, 0x73ED6003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED6001, 0x73ED6004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x73ED6001, 0x73ED6005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73ED6001, 0x73ED6006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED6001, 0x73ED6007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED6001, 0x73ED6008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x73ED6001, 0x73ED6009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED6001, 0x73ED600A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73ED6001, 0x73ED600B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED6001, 0x73ED600C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73ED6001, 0x73ED600D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED6001, 0x73ED600E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73ED6001, 0x73ED600F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73ED6001, 0x73ED6010, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED6001, 0x73ED6011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED6001, 0x73ED6012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x73ED6001, 0x73ED6002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73ED6001, 0x73ED6003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED6001, 0x73ED6004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x73ED6001, 0x73ED6005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73ED6001, 0x73ED6006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED6001, 0x73ED6007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED6001, 0x73ED6008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x73ED6001, 0x73ED6009, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED6001, 0x73ED600A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73ED6001, 0x73ED600B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED6001, 0x73ED600C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73ED6001, 0x73ED600D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED6001, 0x73ED600E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73ED6001, 0x73ED600F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73ED6001, 0x73ED6010, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED6001, 0x73ED6011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED6001, 0x73ED6012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED6002,  7112, 0x3ED60036, 145.4547, 129.4467, -0.1, -0.6969915, 0, 0, -0.7170793,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -96,8 +96,8 @@ VALUES (0x73ED6013,  1542, 0x3ED6003D, 188.6672, 114.3202, 4.195584, 1, 0, 0, 0,
 /* @teleloc 0x3ED6003D [188.667200 114.320200 4.195584] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED6013, 0x73ED6014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73ED6013, 0x73ED6015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73ED6013, 0x73ED6014, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x73ED6013, 0x73ED6015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED6014, 22571, 0x3ED6003D, 188.6672, 114.3202, 4.195584, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x79147001,  1154, 0x9147002D, 128.3188, 99.30851, 12.70149, 0.8110642, 
 /* @teleloc 0x9147002D [128.318800 99.308510 12.701490] 0.811064 0.000000 0.000000 -0.584957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79147001, 0x79147002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79147001, 0x79147003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79147001, 0x79147004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79147001, 0x79147005, '2019-02-10 00:00:00') /* Gout */;
+VALUES (0x79147001, 0x79147002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79147001, 0x79147003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79147001, 0x79147004, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79147001, 0x79147005, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79147002,  8673, 0x9147002D, 128.3188, 99.30851, 12.70149, 0.8110642, 0, 0, -0.5849571,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -31,7 +31,7 @@ VALUES (0x79147006,  1542, 0x91470004, 18.4041, 81.9464, 21.25057, 0.9537169, 0,
 /* @teleloc 0x91470004 [18.404100 81.946400 21.250570] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79147006, 0x79147007, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x79147006, 0x79147007, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79147007,  7934, 0x91470004, 18.4041, 81.9464, 21.25057, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

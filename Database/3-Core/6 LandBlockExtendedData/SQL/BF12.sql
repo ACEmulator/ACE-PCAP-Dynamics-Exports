@@ -5,16 +5,16 @@ VALUES (0x7BF12001,  1154, 0xBF120003, 6.975046, 57.79322, -0.89175, -0.9670069,
 /* @teleloc 0xBF120003 [6.975046 57.793220 -0.891750] -0.967007 0.000000 0.000000 -0.254750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF12001, 0x7BF12002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BF12001, 0x7BF12003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7BF12001, 0x7BF12004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BF12001, 0x7BF12005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BF12001, 0x7BF12006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BF12001, 0x7BF12007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BF12001, 0x7BF12008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BF12001, 0x7BF12009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BF12001, 0x7BF1200A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BF12001, 0x7BF1200B, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7BF12001, 0x7BF12002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BF12001, 0x7BF12003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7BF12001, 0x7BF12004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BF12001, 0x7BF12005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BF12001, 0x7BF12006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BF12001, 0x7BF12007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BF12001, 0x7BF12008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BF12001, 0x7BF12009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BF12001, 0x7BF1200A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BF12001, 0x7BF1200B, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF12002,  4217, 0xBF120003, 6.975046, 57.79322, -0.89175, -0.9670069, 0, 0, -0.2547503,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

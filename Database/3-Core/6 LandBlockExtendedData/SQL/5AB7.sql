@@ -5,18 +5,18 @@ VALUES (0x75AB7001,  1154, 0x5AB70010, 37.84756, 174.4154, 0.005400002, 0.845570
 /* @teleloc 0x5AB70010 [37.847560 174.415400 0.005400] 0.845571 0.000000 0.000000 -0.533864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AB7001, 0x75AB7002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75AB7001, 0x75AB7003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75AB7001, 0x75AB7004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75AB7001, 0x75AB7005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75AB7001, 0x75AB7006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75AB7001, 0x75AB7007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75AB7001, 0x75AB7008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75AB7001, 0x75AB7009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75AB7001, 0x75AB700A, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75AB7001, 0x75AB700B, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75AB7001, 0x75AB700C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75AB7001, 0x75AB700D, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x75AB7001, 0x75AB7002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75AB7001, 0x75AB7003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75AB7001, 0x75AB7004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75AB7001, 0x75AB7005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75AB7001, 0x75AB7006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75AB7001, 0x75AB7007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75AB7001, 0x75AB7008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75AB7001, 0x75AB7009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75AB7001, 0x75AB700A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75AB7001, 0x75AB700B, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75AB7001, 0x75AB700C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75AB7001, 0x75AB700D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AB7002,  4247, 0x5AB70010, 37.84756, 174.4154, 0.005400002, 0.8455706, 0, 0, -0.5338636,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x75AB700E,  1542, 0x5AB7002E, 142.4742, 143.0357, 0.08036169, -0.97788,
 /* @teleloc 0x5AB7002E [142.474200 143.035700 0.080362] -0.977880 0.000000 0.000000 -0.209167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AB700E, 0x75AB700F, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x75AB700E, 0x75AB700F, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AB700F, 11554, 0x5AB7002E, 142.4742, 143.0357, 0.08036169, -0.97788, 0, 0, -0.2091668,  True, '2019-02-10 00:00:00'); /* Colban Plant */

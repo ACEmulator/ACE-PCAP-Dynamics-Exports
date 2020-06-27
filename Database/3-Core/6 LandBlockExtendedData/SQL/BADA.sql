@@ -5,14 +5,14 @@ VALUES (0x7BADA001,  1154, 0xBADA002F, 129.7606, 144.8835, 31.93638, -0.08715577
 /* @teleloc 0xBADA002F [129.760600 144.883500 31.936380] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BADA001, 0x7BADA002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BADA001, 0x7BADA003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BADA001, 0x7BADA004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BADA001, 0x7BADA005, '2019-02-10 00:00:00') /* Static */
-     , (0x7BADA001, 0x7BADA006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BADA001, 0x7BADA007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BADA001, 0x7BADA008, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7BADA001, 0x7BADA009, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x7BADA001, 0x7BADA002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BADA001, 0x7BADA003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BADA001, 0x7BADA004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BADA001, 0x7BADA005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BADA001, 0x7BADA006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BADA001, 0x7BADA007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BADA001, 0x7BADA008, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7BADA001, 0x7BADA009, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADA002, 14559, 0xBADA002F, 129.7606, 144.8835, 31.93638, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -51,7 +51,7 @@ VALUES (0x7BADA00A,  1542, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0
 /* @teleloc 0xBADA0022 [104.216000 28.005950 42.350840] 0.781288 0.000000 0.000000 -0.624171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BADA00A, 0x7BADA00B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7BADA00A, 0x7BADA00B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADA00B,  8041, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0, 0, -0.6241705,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

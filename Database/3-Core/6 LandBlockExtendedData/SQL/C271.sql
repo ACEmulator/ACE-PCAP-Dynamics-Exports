@@ -5,12 +5,12 @@ VALUES (0x7C271001,  1154, 0xC271000C, 35.328, 80.73682, 31.78082, -0.04549475, 
 /* @teleloc 0xC271000C [35.328000 80.736820 31.780820] -0.045495 0.000000 0.000000 -0.998965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C271001, 0x7C271002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C271001, 0x7C271003, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C271001, 0x7C271004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C271001, 0x7C271005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C271001, 0x7C271006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C271001, 0x7C271007, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7C271001, 0x7C271002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C271001, 0x7C271003, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C271001, 0x7C271004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C271001, 0x7C271005, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C271001, 0x7C271006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C271001, 0x7C271007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C271002, 24938, 0xC271000C, 35.328, 80.73682, 31.78082, -0.04549475, 0, 0, -0.9989646,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

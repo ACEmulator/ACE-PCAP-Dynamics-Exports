@@ -5,23 +5,23 @@ VALUES (0x7D292001,  1154, 0xD2920002, 8.8929, 31.69, 10.60909, -0.3153738, 0, 0
 /* @teleloc 0xD2920002 [8.892900 31.690000 10.609090] -0.315374 0.000000 0.000000 -0.948968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D292001, 0x7D292002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D292001, 0x7D292003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7D292001, 0x7D292004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D292001, 0x7D292005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D292001, 0x7D292006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D292001, 0x7D292007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D292001, 0x7D292008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D292001, 0x7D292009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D292001, 0x7D29200A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D292001, 0x7D29200B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D292001, 0x7D29200C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D292001, 0x7D29200D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D292001, 0x7D29200E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D292001, 0x7D29200F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D292001, 0x7D292010, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D292001, 0x7D292011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D292001, 0x7D292012, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7D292001, 0x7D292002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D292001, 0x7D292003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7D292001, 0x7D292004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D292001, 0x7D292005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D292001, 0x7D292006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D292001, 0x7D292007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D292001, 0x7D292008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D292001, 0x7D292009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D292001, 0x7D29200A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D292001, 0x7D29200B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D292001, 0x7D29200C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D292001, 0x7D29200D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D292001, 0x7D29200E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D292001, 0x7D29200F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D292001, 0x7D292010, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D292001, 0x7D292011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D292001, 0x7D292012, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D292002,  9253, 0xD2920002, 8.8929, 31.69, 10.60909, -0.3153738, 0, 0, -0.9489675,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -96,8 +96,8 @@ VALUES (0x7D292013,  1542, 0xD292003A, 169.9291, 46.96978, 8.246606, -0.1854231,
 /* @teleloc 0xD292003A [169.929100 46.969780 8.246606] -0.185423 0.000000 0.000000 -0.982659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D292013, 0x7D292014, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7D292013, 0x7D292015, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7D292013, 0x7D292014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7D292013, 0x7D292015, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D292014,  8037, 0xD292003A, 169.9291, 46.96978, 8.246606, -0.1854231, 0, 0, -0.9826588,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

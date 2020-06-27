@@ -5,9 +5,9 @@ VALUES (0x73245001,  1154, 0x32450030, 124.6713, 190.3329, 69.15331, -0.9979147,
 /* @teleloc 0x32450030 [124.671300 190.332900 69.153310] -0.997915 0.000000 0.000000 -0.064546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73245001, 0x73245002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73245001, 0x73245003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73245001, 0x73245004, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73245001, 0x73245002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73245001, 0x73245003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73245001, 0x73245004, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73245002,  7112, 0x32450030, 124.6713, 190.3329, 69.15331, -0.9979147, 0, 0, -0.06454571,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

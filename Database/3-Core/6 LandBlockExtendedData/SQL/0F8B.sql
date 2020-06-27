@@ -5,33 +5,33 @@ VALUES (0x70F8B001,  1154, 0x0F8B0038, 158.278, 190.7026, 0.00999999, 0.8725295,
 /* @teleloc 0x0F8B0038 [158.278000 190.702600 0.010000] 0.872530 0.000000 0.000000 -0.488561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F8B001, 0x70F8B002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70F8B001, 0x70F8B003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70F8B001, 0x70F8B004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70F8B001, 0x70F8B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F8B001, 0x70F8B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F8B001, 0x70F8B007, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70F8B001, 0x70F8B008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F8B001, 0x70F8B009, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70F8B001, 0x70F8B00A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F8B001, 0x70F8B00B, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70F8B001, 0x70F8B00C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F8B001, 0x70F8B00D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F8B001, 0x70F8B00E, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F8B001, 0x70F8B00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F8B001, 0x70F8B010, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70F8B001, 0x70F8B011, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70F8B001, 0x70F8B012, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x70F8B001, 0x70F8B013, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F8B001, 0x70F8B014, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70F8B001, 0x70F8B015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F8B001, 0x70F8B016, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F8B001, 0x70F8B017, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70F8B001, 0x70F8B018, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F8B001, 0x70F8B019, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70F8B001, 0x70F8B01A, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70F8B001, 0x70F8B01B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F8B001, 0x70F8B01C, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x70F8B001, 0x70F8B002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70F8B001, 0x70F8B003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70F8B001, 0x70F8B004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70F8B001, 0x70F8B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F8B001, 0x70F8B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F8B001, 0x70F8B007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70F8B001, 0x70F8B008, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70F8B001, 0x70F8B009, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70F8B001, 0x70F8B00A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F8B001, 0x70F8B00B, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70F8B001, 0x70F8B00C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F8B001, 0x70F8B00D, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F8B001, 0x70F8B00E, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70F8B001, 0x70F8B00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F8B001, 0x70F8B010, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70F8B001, 0x70F8B011, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70F8B001, 0x70F8B012, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x70F8B001, 0x70F8B013, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F8B001, 0x70F8B014, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70F8B001, 0x70F8B015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F8B001, 0x70F8B016, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F8B001, 0x70F8B017, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70F8B001, 0x70F8B018, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F8B001, 0x70F8B019, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70F8B001, 0x70F8B01A, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70F8B001, 0x70F8B01B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F8B001, 0x70F8B01C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F8B002, 14520, 0x0F8B0038, 158.278, 190.7026, 0.00999999, 0.8725295, 0, 0, -0.4885614,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

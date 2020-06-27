@@ -5,13 +5,13 @@ VALUES (0x73118001,  1154, 0x3118002D, 134.8046, 106.041, 42.47392, 0.9238795, 0
 /* @teleloc 0x3118002D [134.804600 106.041000 42.473920] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73118001, 0x73118002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73118001, 0x73118003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73118001, 0x73118004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73118001, 0x73118005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73118001, 0x73118006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73118001, 0x73118007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73118001, 0x73118008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73118001, 0x73118002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73118001, 0x73118003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73118001, 0x73118004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73118001, 0x73118005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73118001, 0x73118006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73118001, 0x73118007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73118001, 0x73118008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73118002,  7119, 0x3118002D, 134.8046, 106.041, 42.47392, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -46,7 +46,7 @@ VALUES (0x73118009,  1542, 0x31180014, 56.1008, 92.17628, 15.24302, 0.9914449, 0
 /* @teleloc 0x31180014 [56.100800 92.176280 15.243020] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73118009, 0x7311800A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73118009, 0x7311800A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7311800A,  4380, 0x31180014, 56.1008, 92.17628, 15.24302, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

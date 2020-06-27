@@ -5,13 +5,13 @@ VALUES (0x7BF7B001,  1154, 0xBF7B0007, 9.23867, 145.7832, 62.62504, 0.5797212, 0
 /* @teleloc 0xBF7B0007 [9.238670 145.783200 62.625040] 0.579721 0.000000 0.000000 -0.814815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7B001, 0x7BF7B002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BF7B001, 0x7BF7B003, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BF7B001, 0x7BF7B004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BF7B001, 0x7BF7B005, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BF7B001, 0x7BF7B006, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BF7B001, 0x7BF7B007, '2019-02-10 00:00:00') /* Static */
-     , (0x7BF7B001, 0x7BF7B008, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7BF7B001, 0x7BF7B002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BF7B001, 0x7BF7B003, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BF7B001, 0x7BF7B004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BF7B001, 0x7BF7B005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BF7B001, 0x7BF7B006, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BF7B001, 0x7BF7B007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BF7B001, 0x7BF7B008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7B002,  7989, 0xBF7B0007, 9.23867, 145.7832, 62.62504, 0.5797212, 0, 0, -0.8148149,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

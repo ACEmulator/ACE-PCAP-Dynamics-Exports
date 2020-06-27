@@ -5,18 +5,18 @@ VALUES (0x744DB001,  1154, 0x44DB0007, 3.514053, 164.1409, 23.71431, -0.9929397,
 /* @teleloc 0x44DB0007 [3.514053 164.140900 23.714310] -0.992940 0.000000 0.000000 -0.118620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744DB001, 0x744DB002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x744DB001, 0x744DB003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x744DB001, 0x744DB004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x744DB001, 0x744DB005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x744DB001, 0x744DB006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x744DB001, 0x744DB007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x744DB001, 0x744DB008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x744DB001, 0x744DB009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x744DB001, 0x744DB00A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x744DB001, 0x744DB00B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x744DB001, 0x744DB00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x744DB001, 0x744DB00D, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x744DB001, 0x744DB002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x744DB001, 0x744DB003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x744DB001, 0x744DB004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x744DB001, 0x744DB005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x744DB001, 0x744DB006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x744DB001, 0x744DB007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x744DB001, 0x744DB008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x744DB001, 0x744DB009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x744DB001, 0x744DB00A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x744DB001, 0x744DB00B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x744DB001, 0x744DB00C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x744DB001, 0x744DB00D, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744DB002, 24275, 0x44DB0007, 3.514053, 164.1409, 23.71431, -0.9929397, 0, 0, -0.11862,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

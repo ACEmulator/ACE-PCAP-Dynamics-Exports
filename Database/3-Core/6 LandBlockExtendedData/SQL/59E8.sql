@@ -5,17 +5,17 @@ VALUES (0x759E8001,  1154, 0x59E80014, 59.73446, 84.5178, 18.02602, 0.9396926, 0
 /* @teleloc 0x59E80014 [59.734460 84.517800 18.026020] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759E8001, 0x759E8002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x759E8001, 0x759E8003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x759E8001, 0x759E8004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x759E8001, 0x759E8005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x759E8001, 0x759E8006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x759E8001, 0x759E8007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x759E8001, 0x759E8008, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x759E8001, 0x759E8009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x759E8001, 0x759E800A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x759E8001, 0x759E800B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759E8001, 0x759E800C, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x759E8001, 0x759E8002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x759E8001, 0x759E8003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x759E8001, 0x759E8004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x759E8001, 0x759E8005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759E8001, 0x759E8006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759E8001, 0x759E8007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x759E8001, 0x759E8008, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x759E8001, 0x759E8009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x759E8001, 0x759E800A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x759E8001, 0x759E800B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759E8001, 0x759E800C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759E8002, 37098, 0x59E80014, 59.73446, 84.5178, 18.02602, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */
@@ -66,8 +66,8 @@ VALUES (0x759E800D,  1542, 0x59E80024, 109.0463, 76.70729, 21.53946, 1, 0, 0, 0,
 /* @teleloc 0x59E80024 [109.046300 76.707290 21.539460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759E800D, 0x759E800E, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x759E800D, 0x759E800F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x759E800D, 0x759E800E, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x759E800D, 0x759E800F, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759E800E,  8999, 0x59E80024, 109.0463, 76.70729, 21.53946, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

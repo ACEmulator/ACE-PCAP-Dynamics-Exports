@@ -5,16 +5,16 @@ VALUES (0x7E171001,  1154, 0xE1710015, 63.32042, 102.8079, -0.89175, -0.1304245,
 /* @teleloc 0xE1710015 [63.320420 102.807900 -0.891750] -0.130425 0.000000 0.000000 -0.991458 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E171001, 0x7E171002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E171001, 0x7E171003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7E171001, 0x7E171004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E171001, 0x7E171005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E171001, 0x7E171006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E171001, 0x7E171007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E171001, 0x7E171008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E171001, 0x7E171009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E171001, 0x7E17100A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E171001, 0x7E17100B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7E171001, 0x7E171002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E171001, 0x7E171003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7E171001, 0x7E171004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E171001, 0x7E171005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E171001, 0x7E171006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7E171001, 0x7E171007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E171001, 0x7E171008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E171001, 0x7E171009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E171001, 0x7E17100A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E171001, 0x7E17100B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E171002,  4217, 0xE1710015, 63.32042, 102.8079, -0.89175, -0.1304245, 0, 0, -0.9914582,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -61,7 +61,7 @@ VALUES (0x7E17100C,  1542, 0xE1710016, 69.96015, 128.2212, 0, 0.9914449, 0, 0, -
 /* @teleloc 0xE1710016 [69.960150 128.221200 0.000000] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E17100C, 0x7E17100D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E17100C, 0x7E17100D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E17100D,  4380, 0xE1710016, 69.96015, 128.2212, 0, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

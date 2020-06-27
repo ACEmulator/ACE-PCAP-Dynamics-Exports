@@ -25,33 +25,33 @@ VALUES (0x7CFA0009,  1154, 0xCFA0002B, 139.194, 59.4173, 0.405, 0.9800104, 0, 0,
 /* @teleloc 0xCFA0002B [139.194000 59.417300 0.405000] 0.980010 0.000000 0.000000 -0.198946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA0009, 0x7CFA000A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CFA0009, 0x7CFA000B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CFA0009, 0x7CFA000C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CFA0009, 0x7CFA000D, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7CFA0009, 0x7CFA000E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CFA0009, 0x7CFA000F, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7CFA0009, 0x7CFA0010, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CFA0009, 0x7CFA0011, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CFA0009, 0x7CFA0012, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7CFA0009, 0x7CFA0013, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CFA0009, 0x7CFA0014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CFA0009, 0x7CFA0015, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA0016, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA0017, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CFA0009, 0x7CFA0018, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA0019, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA001A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7CFA0009, 0x7CFA001B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CFA0009, 0x7CFA001C, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CFA0009, 0x7CFA001D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA001E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA001F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA0009, 0x7CFA0020, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CFA0009, 0x7CFA0021, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CFA0009, 0x7CFA0022, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CFA0009, 0x7CFA0023, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CFA0009, 0x7CFA0024, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7CFA0009, 0x7CFA000A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CFA0009, 0x7CFA000B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CFA0009, 0x7CFA000C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CFA0009, 0x7CFA000D, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7CFA0009, 0x7CFA000E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CFA0009, 0x7CFA000F, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7CFA0009, 0x7CFA0010, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CFA0009, 0x7CFA0011, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CFA0009, 0x7CFA0012, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7CFA0009, 0x7CFA0013, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CFA0009, 0x7CFA0014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CFA0009, 0x7CFA0015, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA0016, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA0017, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CFA0009, 0x7CFA0018, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA0019, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA001A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7CFA0009, 0x7CFA001B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CFA0009, 0x7CFA001C, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CFA0009, 0x7CFA001D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA001E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA001F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA0009, 0x7CFA0020, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CFA0009, 0x7CFA0021, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CFA0009, 0x7CFA0022, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CFA0009, 0x7CFA0023, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CFA0009, 0x7CFA0024, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA000A,  1612, 0xCFA0002B, 139.194, 59.4173, 0.405, 0.9800104, 0, 0, -0.1989461,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -166,12 +166,12 @@ VALUES (0x7CFA0025,  1542, 0xCFA00017, 58.64954, 165.649, 7.112538, 1, 0, 0, 0, 
 /* @teleloc 0xCFA00017 [58.649540 165.649000 7.112538] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA0025, 0x7CFA0026, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CFA0025, 0x7CFA0027, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CFA0025, 0x7CFA0028, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CFA0025, 0x7CFA0029, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7CFA0025, 0x7CFA002A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CFA0025, 0x7CFA002B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CFA0025, 0x7CFA0026, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CFA0025, 0x7CFA0027, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CFA0025, 0x7CFA0028, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CFA0025, 0x7CFA0029, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7CFA0025, 0x7CFA002A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CFA0025, 0x7CFA002B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA0026,  8232, 0xCFA00017, 58.64954, 165.649, 7.112538, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

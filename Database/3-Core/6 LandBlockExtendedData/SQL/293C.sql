@@ -5,22 +5,22 @@ VALUES (0x7293C001,  1154, 0x293C000F, 43.59957, 149.1214, -0.4499986, -0.518460
 /* @teleloc 0x293C000F [43.599570 149.121400 -0.449999] -0.518461 0.000000 0.000000 -0.855102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7293C001, 0x7293C002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7293C001, 0x7293C003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7293C001, 0x7293C004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7293C001, 0x7293C005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7293C001, 0x7293C006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7293C001, 0x7293C007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7293C001, 0x7293C008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7293C001, 0x7293C009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7293C001, 0x7293C00A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7293C001, 0x7293C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7293C001, 0x7293C00C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7293C001, 0x7293C00D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7293C001, 0x7293C00E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7293C001, 0x7293C00F, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7293C001, 0x7293C010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7293C001, 0x7293C011, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x7293C001, 0x7293C002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7293C001, 0x7293C003, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7293C001, 0x7293C004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7293C001, 0x7293C005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7293C001, 0x7293C006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7293C001, 0x7293C007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7293C001, 0x7293C008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7293C001, 0x7293C009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7293C001, 0x7293C00A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7293C001, 0x7293C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7293C001, 0x7293C00C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7293C001, 0x7293C00D, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7293C001, 0x7293C00E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7293C001, 0x7293C00F, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7293C001, 0x7293C010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7293C001, 0x7293C011, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7293C002, 11536, 0x293C000F, 43.59957, 149.1214, -0.4499986, -0.5184605, 0, 0, -0.8551016,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */
@@ -91,7 +91,7 @@ VALUES (0x7293C012,  1542, 0x293C000F, 44.41759, 147.3248, 0, -4.371139E-08, 0, 
 /* @teleloc 0x293C000F [44.417590 147.324800 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7293C012, 0x7293C013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7293C012, 0x7293C013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7293C013,  4380, 0x293C000F, 44.41759, 147.3248, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

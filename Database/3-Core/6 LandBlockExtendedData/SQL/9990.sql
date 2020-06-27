@@ -5,13 +5,13 @@ VALUES (0x79990001,  1154, 0x9990001F, 77.10462, 166.9104, 62.0055, 0.9238795, 0
 /* @teleloc 0x9990001F [77.104620 166.910400 62.005500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79990001, 0x79990002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79990001, 0x79990003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79990001, 0x79990004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79990001, 0x79990005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79990001, 0x79990006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79990001, 0x79990007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79990001, 0x79990008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x79990001, 0x79990002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79990001, 0x79990003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79990001, 0x79990004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79990001, 0x79990005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79990001, 0x79990006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79990001, 0x79990007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79990001, 0x79990008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79990002,   233, 0x9990001F, 77.10462, 166.9104, 62.0055, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */

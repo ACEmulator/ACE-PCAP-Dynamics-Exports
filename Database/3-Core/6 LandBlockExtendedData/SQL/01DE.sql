@@ -29,37 +29,37 @@ VALUES (0x701DE027,  1154, 0x01DE01AF, 40.9076, -38.6577, 0.005500019, -0.707106
 /* @teleloc 0x01DE01AF [40.907600 -38.657700 0.005500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DE027, 0x701DE028, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701DE027, 0x701DE029, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE02A, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE02B, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE02C, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE02D, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE02E, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE02F, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE030, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701DE027, 0x701DE031, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE032, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x701DE027, 0x701DE033, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE034, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701DE027, 0x701DE035, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701DE027, 0x701DE036, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701DE027, 0x701DE037, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701DE027, 0x701DE038, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701DE027, 0x701DE039, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701DE027, 0x701DE03A, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE03B, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE03C, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE03D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701DE027, 0x701DE03E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701DE027, 0x701DE03F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701DE027, 0x701DE040, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE041, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE042, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE043, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE044, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701DE027, 0x701DE045, '2019-02-10 00:00:00') /* White Rat */
-     , (0x701DE027, 0x701DE046, '2019-02-10 00:00:00') /* White Rat */;
+VALUES (0x701DE027, 0x701DE028, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701DE027, 0x701DE029, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE02A, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE02B, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE02C, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE02D, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE02E, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE02F, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE030, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE027, 0x701DE031, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE032, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x701DE027, 0x701DE033, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE034, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701DE027, 0x701DE035, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE027, 0x701DE036, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE027, 0x701DE037, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701DE027, 0x701DE038, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701DE027, 0x701DE039, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701DE027, 0x701DE03A, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE03B, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE03C, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE03D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE027, 0x701DE03E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701DE027, 0x701DE03F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701DE027, 0x701DE040, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE041, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE042, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE043, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE044, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701DE027, 0x701DE045, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x701DE027, 0x701DE046, '2019-02-10 00:00:00') /* White Rat (13) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DE028,   947, 0x01DE01AF, 40.9076, -38.6577, 0.005500019, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -190,9 +190,9 @@ VALUES (0x701DE047,  1542, 0x01DE0175, 1.811298, -28.15677, 0, -4.37114E-08, 0, 
 /* @teleloc 0x01DE0175 [1.811298 -28.156770 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DE047, 0x701DE048, '2019-02-10 00:00:00') /* Mana Stone */
-     , (0x701DE047, 0x701DE049, '2019-02-10 00:00:00') /* Leather Pants */
-     , (0x701DE047, 0x701DE04A, '2019-02-10 00:00:00') /* Round Shield */;
+VALUES (0x701DE047, 0x701DE048, '2019-02-10 00:00:00') /* Mana Stone (2435) */
+     , (0x701DE047, 0x701DE049, '2019-02-10 00:00:00') /* Leather Pants (25647) */
+     , (0x701DE047, 0x701DE04A, '2019-02-10 00:00:00') /* Round Shield (93) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DE048,  2435, 0x01DE0175, 1.811298, -28.15677, 0, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Mana Stone */

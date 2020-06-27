@@ -5,23 +5,23 @@ VALUES (0x7CD93001,  1154, 0xCD930005, 19.79904, 97.63643, 29.65707, -0.9975585,
 /* @teleloc 0xCD930005 [19.799040 97.636430 29.657070] -0.997559 0.000000 0.000000 0.069836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD93001, 0x7CD93002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD93001, 0x7CD93003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD93001, 0x7CD93004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD93001, 0x7CD93005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD93001, 0x7CD93006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD93001, 0x7CD93007, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CD93001, 0x7CD93008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CD93001, 0x7CD93009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CD93001, 0x7CD9300A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CD93001, 0x7CD9300B, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CD93001, 0x7CD9300C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD93001, 0x7CD9300D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CD93001, 0x7CD9300E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD93001, 0x7CD9300F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD93001, 0x7CD93010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD93001, 0x7CD93011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD93001, 0x7CD93012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CD93001, 0x7CD93002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD93001, 0x7CD93003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD93001, 0x7CD93004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD93001, 0x7CD93005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD93001, 0x7CD93006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD93001, 0x7CD93007, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CD93001, 0x7CD93008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CD93001, 0x7CD93009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CD93001, 0x7CD9300A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CD93001, 0x7CD9300B, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CD93001, 0x7CD9300C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD93001, 0x7CD9300D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CD93001, 0x7CD9300E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD93001, 0x7CD9300F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD93001, 0x7CD93010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD93001, 0x7CD93011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD93001, 0x7CD93012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD93002, 22809, 0xCD930005, 19.79904, 97.63643, 29.65707, -0.9975585, 0, 0, 0.06983578,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

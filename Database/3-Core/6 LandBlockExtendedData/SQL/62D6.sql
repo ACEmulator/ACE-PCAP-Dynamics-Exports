@@ -5,13 +5,13 @@ VALUES (0x762D6001,  1154, 0x62D60012, 69.59355, 28.22931, 89.9979, 0.8660254, 0
 /* @teleloc 0x62D60012 [69.593550 28.229310 89.997900] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D6001, 0x762D6002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x762D6001, 0x762D6003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x762D6001, 0x762D6004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x762D6001, 0x762D6005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D6001, 0x762D6006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D6001, 0x762D6007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D6001, 0x762D6008, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x762D6001, 0x762D6002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x762D6001, 0x762D6003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x762D6001, 0x762D6004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x762D6001, 0x762D6005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D6001, 0x762D6006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D6001, 0x762D6007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D6001, 0x762D6008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D6002,  7982, 0x62D60012, 69.59355, 28.22931, 89.9979, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

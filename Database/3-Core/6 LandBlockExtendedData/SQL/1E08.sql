@@ -5,12 +5,12 @@ VALUES (0x71E08001,  1154, 0x1E080040, 171.179, 184.111, 5.382333, -0.9757195, 0
 /* @teleloc 0x1E080040 [171.179000 184.111000 5.382333] -0.975720 0.000000 0.000000 -0.219024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E08001, 0x71E08002, '2019-02-10 00:00:00') /* Fire Golem */
-     , (0x71E08001, 0x71E08003, '2019-02-10 00:00:00') /* Fire Golem */
-     , (0x71E08001, 0x71E08004, '2019-02-10 00:00:00') /* Fire Golem */
-     , (0x71E08001, 0x71E08005, '2019-02-10 00:00:00') /* Fire Golem */
-     , (0x71E08001, 0x71E08006, '2019-02-10 00:00:00') /* Fire Golem */
-     , (0x71E08001, 0x71E08007, '2019-02-10 00:00:00') /* Fire Golem */;
+VALUES (0x71E08001, 0x71E08002, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E08001, 0x71E08003, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E08001, 0x71E08004, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E08001, 0x71E08005, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E08001, 0x71E08006, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E08001, 0x71E08007, '2019-02-10 00:00:00') /* Fire Golem (31874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E08002, 31874, 0x1E080040, 171.179, 184.111, 5.382333, -0.9757195, 0, 0, -0.2190241,  True, '2019-02-10 00:00:00'); /* Fire Golem */

@@ -5,28 +5,28 @@ VALUES (0x7F45C001,  1154, 0xF45C0015, 63.8034, 119.2619, 0.314147, -0.721053, 0
 /* @teleloc 0xF45C0015 [63.803400 119.261900 0.314147] -0.721053 0.000000 0.000000 -0.692880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F45C001, 0x7F45C002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F45C001, 0x7F45C003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F45C001, 0x7F45C004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F45C001, 0x7F45C005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F45C001, 0x7F45C006, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F45C001, 0x7F45C007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F45C001, 0x7F45C008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F45C001, 0x7F45C009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F45C001, 0x7F45C00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7F45C001, 0x7F45C00B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F45C001, 0x7F45C00C, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F45C001, 0x7F45C00D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F45C001, 0x7F45C00E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7F45C001, 0x7F45C00F, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F45C001, 0x7F45C010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F45C001, 0x7F45C011, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F45C001, 0x7F45C012, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F45C001, 0x7F45C013, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F45C001, 0x7F45C014, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7F45C001, 0x7F45C015, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7F45C001, 0x7F45C016, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F45C001, 0x7F45C017, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7F45C001, 0x7F45C002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F45C001, 0x7F45C003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F45C001, 0x7F45C004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F45C001, 0x7F45C005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F45C001, 0x7F45C006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F45C001, 0x7F45C007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F45C001, 0x7F45C008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F45C001, 0x7F45C009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F45C001, 0x7F45C00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7F45C001, 0x7F45C00B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F45C001, 0x7F45C00C, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F45C001, 0x7F45C00D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F45C001, 0x7F45C00E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7F45C001, 0x7F45C00F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F45C001, 0x7F45C010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F45C001, 0x7F45C011, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F45C001, 0x7F45C012, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F45C001, 0x7F45C013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F45C001, 0x7F45C014, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7F45C001, 0x7F45C015, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7F45C001, 0x7F45C016, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F45C001, 0x7F45C017, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F45C002,  8428, 0xF45C0015, 63.8034, 119.2619, 0.314147, -0.721053, 0, 0, -0.6928799,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */
@@ -121,7 +121,7 @@ VALUES (0x7F45C018,  1542, 0xF45C0025, 103.0908, 101.4596, 12.72684, 1, 0, 0, 0,
 /* @teleloc 0xF45C0025 [103.090800 101.459600 12.726840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F45C018, 0x7F45C019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7F45C018, 0x7F45C019, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F45C019, 22576, 0xF45C0025, 103.0908, 101.4596, 12.72684, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

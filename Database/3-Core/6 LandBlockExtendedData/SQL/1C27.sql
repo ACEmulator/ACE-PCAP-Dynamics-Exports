@@ -5,9 +5,9 @@ VALUES (0x71C27001,  1154, 0x1C270039, 186.8043, 21.37313, 9.577023, 0.2588191, 
 /* @teleloc 0x1C270039 [186.804300 21.373130 9.577023] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C27001, 0x71C27002, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71C27001, 0x71C27003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71C27001, 0x71C27004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71C27001, 0x71C27002, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71C27001, 0x71C27003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71C27001, 0x71C27004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C27002, 36836, 0x1C270039, 186.8043, 21.37313, 9.577023, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */

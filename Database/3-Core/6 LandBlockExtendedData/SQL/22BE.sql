@@ -5,38 +5,38 @@ VALUES (0x722BE001,  1154, 0x22BE002B, 136.0616, 66.93853, 113.3589, 1, 0, 0, 0,
 /* @teleloc 0x22BE002B [136.061600 66.938530 113.358900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BE001, 0x722BE002, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x722BE001, 0x722BE003, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x722BE001, 0x722BE004, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE005, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE006, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE008, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE009, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BE001, 0x722BE00A, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE00B, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE00C, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722BE001, 0x722BE00D, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722BE001, 0x722BE00E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722BE001, 0x722BE00F, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722BE001, 0x722BE010, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x722BE001, 0x722BE011, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE012, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722BE001, 0x722BE013, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BE001, 0x722BE014, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722BE001, 0x722BE015, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE016, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722BE001, 0x722BE017, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE018, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BE001, 0x722BE019, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE01A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE01B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE01C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE01D, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BE001, 0x722BE01E, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x722BE001, 0x722BE01F, '2019-02-10 00:00:00') /* Static */
-     , (0x722BE001, 0x722BE020, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722BE001, 0x722BE021, '2019-02-10 00:00:00') /* Carnivorous Carenzi */;
+VALUES (0x722BE001, 0x722BE002, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x722BE001, 0x722BE003, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x722BE001, 0x722BE004, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE005, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE006, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE008, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE009, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BE001, 0x722BE00A, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE00B, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE00C, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722BE001, 0x722BE00D, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722BE001, 0x722BE00E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722BE001, 0x722BE00F, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722BE001, 0x722BE010, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x722BE001, 0x722BE011, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE012, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722BE001, 0x722BE013, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BE001, 0x722BE014, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722BE001, 0x722BE015, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE016, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722BE001, 0x722BE017, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE018, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BE001, 0x722BE019, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE01A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE01B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE01C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE01D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BE001, 0x722BE01E, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x722BE001, 0x722BE01F, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x722BE001, 0x722BE020, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722BE001, 0x722BE021, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BE002, 11504, 0x22BE002B, 136.0616, 66.93853, 113.3589, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mercenary */
@@ -171,11 +171,11 @@ VALUES (0x722BE022,  1542, 0x22BE002C, 127.2458, 77.62079, 110.1944, 1, 0, 0, 0,
 /* @teleloc 0x22BE002C [127.245800 77.620790 110.194400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BE022, 0x722BE023, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722BE022, 0x722BE024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x722BE022, 0x722BE025, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x722BE022, 0x722BE026, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x722BE022, 0x722BE027, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x722BE022, 0x722BE023, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722BE022, 0x722BE024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x722BE022, 0x722BE025, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x722BE022, 0x722BE026, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x722BE022, 0x722BE027, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BE023,  9024, 0x22BE002C, 127.2458, 77.62079, 110.1944, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

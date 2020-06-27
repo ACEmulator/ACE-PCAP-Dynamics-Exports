@@ -5,11 +5,11 @@ VALUES (0x7D852001,  1154, 0xD852003E, 183.0375, 138.0644, 38.00333, 0.9515796, 
 /* @teleloc 0xD852003E [183.037500 138.064400 38.003330] 0.951580 0.000000 0.000000 -0.307403 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D852001, 0x7D852002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D852001, 0x7D852003, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7D852001, 0x7D852004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D852001, 0x7D852005, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7D852001, 0x7D852006, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7D852001, 0x7D852002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7D852001, 0x7D852003, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7D852001, 0x7D852004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D852001, 0x7D852005, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7D852001, 0x7D852006, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D852002, 19257, 0xD852003E, 183.0375, 138.0644, 38.00333, 0.9515796, 0, 0, -0.3074026,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

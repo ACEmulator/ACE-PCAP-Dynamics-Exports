@@ -5,14 +5,14 @@ VALUES (0x71231001,  1154, 0x12310001, 4.596128, 1.233467, 18.38301, 0.2457162, 
 /* @teleloc 0x12310001 [4.596128 1.233467 18.383010] 0.245716 0.000000 0.000000 -0.969342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71231001, 0x71231002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71231001, 0x71231003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71231001, 0x71231004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71231001, 0x71231005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71231001, 0x71231006, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71231001, 0x71231007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71231001, 0x71231008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71231001, 0x71231009, '2019-02-10 00:00:00') /* Tsuric */;
+VALUES (0x71231001, 0x71231002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71231001, 0x71231003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71231001, 0x71231004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71231001, 0x71231005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71231001, 0x71231006, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71231001, 0x71231007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71231001, 0x71231008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71231001, 0x71231009, '2019-02-10 00:00:00') /* Tsuric (14877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71231002, 23481, 0x12310001, 4.596128, 1.233467, 18.38301, 0.2457162, 0, 0, -0.9693418,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -51,8 +51,8 @@ VALUES (0x7123100A,  1542, 0x12310001, 0.1291026, 13.55225, 18.01076, 1, 0, 0, 0
 /* @teleloc 0x12310001 [0.129103 13.552250 18.010760] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123100A, 0x7123100B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7123100A, 0x7123100C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7123100A, 0x7123100B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7123100A, 0x7123100C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123100B, 22566, 0x12310001, 0.1291026, 13.55225, 18.01076, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

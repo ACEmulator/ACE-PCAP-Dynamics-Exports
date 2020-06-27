@@ -5,13 +5,13 @@ VALUES (0x7D7BC001,  1154, 0xD7BC0038, 166.8784, 177.3791, 43.71321, 0.6968327, 
 /* @teleloc 0xD7BC0038 [166.878400 177.379100 43.713210] 0.696833 0.000000 0.000000 -0.717234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7BC001, 0x7D7BC002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D7BC001, 0x7D7BC003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7BC001, 0x7D7BC004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7D7BC001, 0x7D7BC005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7D7BC001, 0x7D7BC006, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7D7BC001, 0x7D7BC007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7D7BC001, 0x7D7BC008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7D7BC001, 0x7D7BC002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D7BC001, 0x7D7BC003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7BC001, 0x7D7BC004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7D7BC001, 0x7D7BC005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7D7BC001, 0x7D7BC006, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7D7BC001, 0x7D7BC007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7D7BC001, 0x7D7BC008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7BC002, 23482, 0xD7BC0038, 166.8784, 177.3791, 43.71321, 0.6968327, 0, 0, -0.7172338,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

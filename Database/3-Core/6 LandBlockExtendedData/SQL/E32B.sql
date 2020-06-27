@@ -5,12 +5,12 @@ VALUES (0x7E32B001,  1154, 0xE32B003D, 174.1017, 98.85626, 72.57687, 0.5812334, 
 /* @teleloc 0xE32B003D [174.101700 98.856260 72.576870] 0.581233 0.000000 0.000000 -0.813737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E32B001, 0x7E32B002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7E32B001, 0x7E32B003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7E32B001, 0x7E32B004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7E32B001, 0x7E32B005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7E32B001, 0x7E32B006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7E32B001, 0x7E32B007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7E32B001, 0x7E32B002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7E32B001, 0x7E32B003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7E32B001, 0x7E32B004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7E32B001, 0x7E32B005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7E32B001, 0x7E32B006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7E32B001, 0x7E32B007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E32B002,  4253, 0xE32B003D, 174.1017, 98.85626, 72.57687, 0.5812334, 0, 0, -0.8137369,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

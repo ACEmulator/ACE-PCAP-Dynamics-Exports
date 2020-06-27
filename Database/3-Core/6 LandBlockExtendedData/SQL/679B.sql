@@ -5,11 +5,11 @@ VALUES (0x7679B001,  1154, 0x679B002A, 127.9074, 24.32243, 28.05924, 0.9063078, 
 /* @teleloc 0x679B002A [127.907400 24.322430 28.059240] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7679B001, 0x7679B002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7679B001, 0x7679B003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7679B001, 0x7679B004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7679B001, 0x7679B005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7679B001, 0x7679B006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7679B001, 0x7679B002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7679B001, 0x7679B003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7679B001, 0x7679B004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7679B001, 0x7679B005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7679B001, 0x7679B006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7679B002,   233, 0x679B002A, 127.9074, 24.32243, 28.05924, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */

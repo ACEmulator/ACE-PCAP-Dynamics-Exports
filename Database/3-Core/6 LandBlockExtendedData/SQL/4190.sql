@@ -5,15 +5,15 @@ VALUES (0x74190001,  1154, 0x41900002, 23.28285, 24.51815, 179.5084, 0.2966337, 
 /* @teleloc 0x41900002 [23.282850 24.518150 179.508400] 0.296634 0.000000 0.000000 -0.954991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74190001, 0x74190002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74190001, 0x74190003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x74190001, 0x74190004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74190001, 0x74190005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x74190001, 0x74190006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74190001, 0x74190007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74190001, 0x74190008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74190001, 0x74190009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74190001, 0x7419000A, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74190001, 0x74190002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74190001, 0x74190003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x74190001, 0x74190004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74190001, 0x74190005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x74190001, 0x74190006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74190001, 0x74190007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74190001, 0x74190008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74190001, 0x74190009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74190001, 0x7419000A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74190002, 10807, 0x41900002, 23.28285, 24.51815, 179.5084, 0.2966337, 0, 0, -0.9549913,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

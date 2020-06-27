@@ -5,14 +5,14 @@ VALUES (0x71EC5001,  1154, 0x1EC50037, 151.9653, 144.6751, 49.94634, 0.4254861, 
 /* @teleloc 0x1EC50037 [151.965300 144.675100 49.946340] 0.425486 0.000000 0.000000 -0.904965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC5001, 0x71EC5002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC5001, 0x71EC5003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x71EC5001, 0x71EC5004, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71EC5001, 0x71EC5005, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71EC5001, 0x71EC5006, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC5001, 0x71EC5007, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC5001, 0x71EC5008, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71EC5001, 0x71EC5009, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x71EC5001, 0x71EC5002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC5001, 0x71EC5003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x71EC5001, 0x71EC5004, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71EC5001, 0x71EC5005, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71EC5001, 0x71EC5006, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC5001, 0x71EC5007, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC5001, 0x71EC5008, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71EC5001, 0x71EC5009, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC5002, 27717, 0x1EC50037, 151.9653, 144.6751, 49.94634, 0.4254861, 0, 0, -0.904965,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

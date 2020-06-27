@@ -5,22 +5,22 @@ VALUES (0x7F65E001,  1154, 0xF65E003F, 179.6632, 150.2862, 0.01050007, 0.9238795
 /* @teleloc 0xF65E003F [179.663200 150.286200 0.010500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F65E001, 0x7F65E002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F65E001, 0x7F65E003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F65E001, 0x7F65E004, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F65E001, 0x7F65E005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7F65E001, 0x7F65E006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F65E001, 0x7F65E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F65E001, 0x7F65E008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F65E001, 0x7F65E009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F65E001, 0x7F65E00A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F65E001, 0x7F65E00B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F65E001, 0x7F65E00C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F65E001, 0x7F65E00D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F65E001, 0x7F65E00E, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F65E001, 0x7F65E00F, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F65E001, 0x7F65E010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F65E001, 0x7F65E011, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7F65E001, 0x7F65E002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F65E001, 0x7F65E003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F65E001, 0x7F65E004, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F65E001, 0x7F65E005, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7F65E001, 0x7F65E006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F65E001, 0x7F65E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F65E001, 0x7F65E008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F65E001, 0x7F65E009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F65E001, 0x7F65E00A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F65E001, 0x7F65E00B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F65E001, 0x7F65E00C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F65E001, 0x7F65E00D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F65E001, 0x7F65E00E, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F65E001, 0x7F65E00F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F65E001, 0x7F65E010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F65E001, 0x7F65E011, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F65E002,  2564, 0xF65E003F, 179.6632, 150.2862, 0.01050007, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -91,7 +91,7 @@ VALUES (0x7F65E012,  1542, 0xF65E0037, 161.6268, 161.7187, 0.011, 0.7441966, 0, 
 /* @teleloc 0xF65E0037 [161.626800 161.718700 0.011000] 0.744197 0.000000 0.000000 -0.667961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F65E012, 0x7F65E013, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7F65E012, 0x7F65E013, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F65E013, 31686, 0xF65E0037, 161.6268, 161.7187, 0.011, 0.7441966, 0, 0, -0.6679607,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

@@ -25,44 +25,44 @@ VALUES (0x7CF18005,  1154, 0xCF180018, 55.65471, 180.1292, 28.02105, -0.8612371,
 /* @teleloc 0xCF180018 [55.654710 180.129200 28.021050] -0.861237 0.000000 0.000000 -0.508203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF18005, 0x7CF18006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CF18005, 0x7CF18007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CF18005, 0x7CF18008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CF18005, 0x7CF18009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CF18005, 0x7CF1800A, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CF18005, 0x7CF1800B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CF18005, 0x7CF1800C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CF18005, 0x7CF1800D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CF18005, 0x7CF1800E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CF18005, 0x7CF1800F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF18005, 0x7CF18010, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CF18005, 0x7CF18011, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CF18005, 0x7CF18012, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CF18005, 0x7CF18013, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7CF18005, 0x7CF18014, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF18005, 0x7CF18015, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7CF18005, 0x7CF18016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CF18005, 0x7CF18017, '2019-02-10 00:00:00') /* Flare */
-     , (0x7CF18005, 0x7CF18018, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7CF18005, 0x7CF18019, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CF18005, 0x7CF1801A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CF18005, 0x7CF1801B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CF18005, 0x7CF1801C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF18005, 0x7CF1801D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF18005, 0x7CF1801E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CF18005, 0x7CF1801F, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7CF18005, 0x7CF18020, '2019-02-10 00:00:00') /* Frost */
-     , (0x7CF18005, 0x7CF18021, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CF18005, 0x7CF18022, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF18005, 0x7CF18023, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF18005, 0x7CF18024, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CF18005, 0x7CF18025, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF18005, 0x7CF18026, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF18005, 0x7CF18027, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF18005, 0x7CF18028, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF18005, 0x7CF18029, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7CF18005, 0x7CF1802A, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CF18005, 0x7CF1802B, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x7CF18005, 0x7CF18006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CF18005, 0x7CF18007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CF18005, 0x7CF18008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CF18005, 0x7CF18009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CF18005, 0x7CF1800A, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CF18005, 0x7CF1800B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CF18005, 0x7CF1800C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7CF18005, 0x7CF1800D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CF18005, 0x7CF1800E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CF18005, 0x7CF1800F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF18005, 0x7CF18010, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CF18005, 0x7CF18011, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CF18005, 0x7CF18012, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CF18005, 0x7CF18013, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7CF18005, 0x7CF18014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF18005, 0x7CF18015, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7CF18005, 0x7CF18016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CF18005, 0x7CF18017, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7CF18005, 0x7CF18018, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7CF18005, 0x7CF18019, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CF18005, 0x7CF1801A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CF18005, 0x7CF1801B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CF18005, 0x7CF1801C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF18005, 0x7CF1801D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF18005, 0x7CF1801E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CF18005, 0x7CF1801F, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7CF18005, 0x7CF18020, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7CF18005, 0x7CF18021, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CF18005, 0x7CF18022, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF18005, 0x7CF18023, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF18005, 0x7CF18024, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CF18005, 0x7CF18025, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF18005, 0x7CF18026, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF18005, 0x7CF18027, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF18005, 0x7CF18028, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF18005, 0x7CF18029, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7CF18005, 0x7CF1802A, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CF18005, 0x7CF1802B, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF18006,  7129, 0xCF180018, 55.65471, 180.1292, 28.02105, -0.8612371, 0, 0, -0.5082034,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -221,10 +221,10 @@ VALUES (0x7CF1802C,  1542, 0xCF180013, 68.62614, 55.0553, 35.64373, 1, 0, 0, 0, 
 /* @teleloc 0xCF180013 [68.626140 55.055300 35.643730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF1802C, 0x7CF1802D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CF1802C, 0x7CF1802E, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7CF1802C, 0x7CF1802F, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7CF1802C, 0x7CF18030, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7CF1802C, 0x7CF1802D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7CF1802C, 0x7CF1802E, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7CF1802C, 0x7CF1802F, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7CF1802C, 0x7CF18030, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF1802D, 22567, 0xCF180013, 68.62614, 55.0553, 35.64373, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

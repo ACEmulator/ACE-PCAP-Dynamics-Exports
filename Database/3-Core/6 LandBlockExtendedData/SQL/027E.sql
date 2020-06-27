@@ -13,104 +13,104 @@ VALUES (0x7027E044,  1154, 0x027E0119, 158.353, -10.6879, -11.9868, -0.9998148, 
 /* @teleloc 0x027E0119 [158.353000 -10.687900 -11.986800] -0.999815 0.000000 0.000000 0.019245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027E044, 0x7027E045, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E046, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E047, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E048, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E049, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E04A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E04B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E04C, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E04D, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E04E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E04F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E050, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E051, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E052, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E053, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E054, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E055, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E056, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E057, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E058, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7027E044, 0x7027E059, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7027E044, 0x7027E05A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E05B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E05C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E05D, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E05E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7027E044, 0x7027E05F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E060, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E061, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E062, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E063, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E064, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E065, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E066, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E067, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E068, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E069, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E06A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E06B, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E06C, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E06D, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E06E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E06F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E070, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E071, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E072, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E073, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E074, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E075, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E076, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E077, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E078, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E079, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E07A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E07B, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E07C, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E07D, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E07E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E07F, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E080, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E081, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E082, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E083, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E084, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E085, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E086, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E087, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E088, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E089, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E08A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E08B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E08C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E08D, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E08E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E08F, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E090, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E091, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E092, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E093, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E094, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E095, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E096, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E097, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E098, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E099, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E09A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E09B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E09C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E09D, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E09E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E09F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A0, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A1, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor */
-     , (0x7027E044, 0x7027E0A2, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A3, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A4, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A5, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7027E044, 0x7027E0A6, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x7027E044, 0x7027E045, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E046, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E047, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E048, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E049, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E04A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E04B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E04C, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E04D, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E04E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E04F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E050, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E051, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E052, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E053, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E054, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E055, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E056, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E057, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E058, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7027E044, 0x7027E059, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7027E044, 0x7027E05A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E05B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E05C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E05D, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E05E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7027E044, 0x7027E05F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E060, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E061, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E062, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E063, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E064, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E065, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E066, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E067, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E068, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E069, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E06A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E06B, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E06C, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E06D, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E06E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E06F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E070, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E071, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E072, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E073, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E074, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E075, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E076, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E077, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E078, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E079, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E07A, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E07B, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E07C, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E07D, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E07E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E07F, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E080, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E081, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E082, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E083, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E084, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E085, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E086, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E087, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E088, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E089, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E08A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E08B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E08C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E08D, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E08E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E08F, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E090, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E091, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E092, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E093, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E094, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E095, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E096, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E097, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E098, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E099, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E09A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E09B, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E09C, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E09D, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E09E, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E09F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A0, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A1, '2019-02-10 00:00:00') /* Martinate Virindi Inquisitor (28039) */
+     , (0x7027E044, 0x7027E0A2, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A3, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A4, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A5, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7027E044, 0x7027E0A6, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027E045, 11541, 0x027E0119, 158.353, -10.6879, -11.9868, -0.9998148, 0, 0, 0.019245,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -509,7 +509,7 @@ VALUES (0x7027E0A7,  1154, 0x027E0263, 39.7082, -611.412, 18.029, 0.8200738, 0, 
 /* @teleloc 0x027E0263 [39.708200 -611.412000 18.029000] 0.820074 0.000000 0.000000 -0.572258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027E0A7, 0x7027E0A8, '2019-02-10 00:00:00') /* Executor Assistant */;
+VALUES (0x7027E0A7, 0x7027E0A8, '2019-02-10 00:00:00') /* Executor Assistant (10879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027E0A8, 10879, 0x027E0263, 39.7082, -611.412, 18.029, 0.8200738, 0, 0, -0.5722578,  True, '2019-02-10 00:00:00'); /* Executor Assistant */

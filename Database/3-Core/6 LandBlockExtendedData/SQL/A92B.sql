@@ -5,28 +5,28 @@ VALUES (0x7A92B001,  1154, 0xA92B001F, 93.43642, 148.8672, 157.342, -0.7090879, 
 /* @teleloc 0xA92B001F [93.436420 148.867200 157.342000] -0.709088 0.000000 0.000000 -0.705120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A92B001, 0x7A92B002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A92B001, 0x7A92B003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92B001, 0x7A92B004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A92B001, 0x7A92B005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92B001, 0x7A92B006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A92B001, 0x7A92B007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A92B001, 0x7A92B008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A92B001, 0x7A92B009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92B001, 0x7A92B00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92B001, 0x7A92B00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92B001, 0x7A92B00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A92B001, 0x7A92B00D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A92B001, 0x7A92B00E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A92B001, 0x7A92B00F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A92B001, 0x7A92B010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A92B001, 0x7A92B011, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7A92B001, 0x7A92B012, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7A92B001, 0x7A92B013, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A92B001, 0x7A92B014, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A92B001, 0x7A92B015, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A92B001, 0x7A92B016, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7A92B001, 0x7A92B017, '2019-02-10 00:00:00') /* K'nath D'Nob */;
+VALUES (0x7A92B001, 0x7A92B002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A92B001, 0x7A92B003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92B001, 0x7A92B004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A92B001, 0x7A92B005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92B001, 0x7A92B006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A92B001, 0x7A92B007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A92B001, 0x7A92B008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A92B001, 0x7A92B009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92B001, 0x7A92B00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92B001, 0x7A92B00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92B001, 0x7A92B00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A92B001, 0x7A92B00D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A92B001, 0x7A92B00E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A92B001, 0x7A92B00F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A92B001, 0x7A92B010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A92B001, 0x7A92B011, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7A92B001, 0x7A92B012, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7A92B001, 0x7A92B013, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A92B001, 0x7A92B014, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A92B001, 0x7A92B015, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A92B001, 0x7A92B016, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7A92B001, 0x7A92B017, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A92B002,  7089, 0xA92B001F, 93.43642, 148.8672, 157.342, -0.7090879, 0, 0, -0.7051201,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -121,8 +121,8 @@ VALUES (0x7A92B018,  1542, 0xA92B0002, 9.866008, 27.98212, 109.9762, 0.8967164, 
 /* @teleloc 0xA92B0002 [9.866008 27.982120 109.976200] 0.896716 0.000000 0.000000 -0.442606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A92B018, 0x7A92B019, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7A92B018, 0x7A92B01A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A92B018, 0x7A92B019, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7A92B018, 0x7A92B01A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A92B019,  8644, 0xA92B0002, 9.866008, 27.98212, 109.9762, 0.8967164, 0, 0, -0.4426056,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,19 +5,19 @@ VALUES (0x7AB85001,  1154, 0xAB85001A, 74.32272, 43.84407, 39.08978, 0.7071068, 
 /* @teleloc 0xAB85001A [74.322720 43.844070 39.089780] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB85001, 0x7AB85002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB85001, 0x7AB85003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AB85001, 0x7AB85004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB85001, 0x7AB85005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB85001, 0x7AB85006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AB85001, 0x7AB85007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB85001, 0x7AB85008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AB85001, 0x7AB85009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AB85001, 0x7AB8500A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AB85001, 0x7AB8500B, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AB85001, 0x7AB8500C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB85001, 0x7AB8500D, '2019-02-10 00:00:00') /* Static */
-     , (0x7AB85001, 0x7AB8500E, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7AB85001, 0x7AB85002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB85001, 0x7AB85003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AB85001, 0x7AB85004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AB85001, 0x7AB85005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB85001, 0x7AB85006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AB85001, 0x7AB85007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AB85001, 0x7AB85008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AB85001, 0x7AB85009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AB85001, 0x7AB8500A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AB85001, 0x7AB8500B, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AB85001, 0x7AB8500C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB85001, 0x7AB8500D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AB85001, 0x7AB8500E, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB85002,   194, 0xAB85001A, 74.32272, 43.84407, 39.08978, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Golem */

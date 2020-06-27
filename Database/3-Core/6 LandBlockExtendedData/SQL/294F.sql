@@ -5,13 +5,13 @@ VALUES (0x7294F001,  1154, 0x294F0027, 116.057, 148.1106, 9.620105, 0.2906239, 0
 /* @teleloc 0x294F0027 [116.057000 148.110600 9.620105] 0.290624 0.000000 0.000000 -0.956837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7294F001, 0x7294F002, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294F001, 0x7294F003, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7294F001, 0x7294F004, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7294F001, 0x7294F005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7294F001, 0x7294F006, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7294F001, 0x7294F007, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7294F001, 0x7294F008, '2019-02-10 00:00:00') /* Titanium Armoredillo */;
+VALUES (0x7294F001, 0x7294F002, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294F001, 0x7294F003, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7294F001, 0x7294F004, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7294F001, 0x7294F005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7294F001, 0x7294F006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7294F001, 0x7294F007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7294F001, 0x7294F008, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294F002, 22899, 0x294F0027, 116.057, 148.1106, 9.620105, 0.2906239, 0, 0, -0.9568374,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */

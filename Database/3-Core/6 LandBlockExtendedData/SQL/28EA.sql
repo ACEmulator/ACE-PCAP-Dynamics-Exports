@@ -5,31 +5,31 @@ VALUES (0x728EA001,  1154, 0x28EA001A, 83.42796, 31.71502, 29.99549, -0.8583151,
 /* @teleloc 0x28EA001A [83.427960 31.715020 29.995490] -0.858315 0.000000 0.000000 -0.513123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728EA001, 0x728EA002, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x728EA001, 0x728EA003, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x728EA001, 0x728EA004, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EA001, 0x728EA005, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EA001, 0x728EA006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x728EA001, 0x728EA007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x728EA001, 0x728EA008, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x728EA001, 0x728EA009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x728EA001, 0x728EA00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x728EA001, 0x728EA00B, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EA001, 0x728EA00C, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x728EA001, 0x728EA00D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x728EA001, 0x728EA00E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x728EA001, 0x728EA00F, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x728EA001, 0x728EA010, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EA001, 0x728EA011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x728EA001, 0x728EA012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x728EA001, 0x728EA013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x728EA001, 0x728EA014, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x728EA001, 0x728EA015, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x728EA001, 0x728EA016, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EA001, 0x728EA017, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x728EA001, 0x728EA018, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x728EA001, 0x728EA019, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x728EA001, 0x728EA01A, '2019-02-10 00:00:00') /* Cursed Bones */;
+VALUES (0x728EA001, 0x728EA002, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x728EA001, 0x728EA003, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x728EA001, 0x728EA004, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EA001, 0x728EA005, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EA001, 0x728EA006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x728EA001, 0x728EA007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x728EA001, 0x728EA008, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x728EA001, 0x728EA009, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x728EA001, 0x728EA00A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x728EA001, 0x728EA00B, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EA001, 0x728EA00C, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x728EA001, 0x728EA00D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x728EA001, 0x728EA00E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x728EA001, 0x728EA00F, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x728EA001, 0x728EA010, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EA001, 0x728EA011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x728EA001, 0x728EA012, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x728EA001, 0x728EA013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x728EA001, 0x728EA014, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x728EA001, 0x728EA015, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x728EA001, 0x728EA016, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EA001, 0x728EA017, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x728EA001, 0x728EA018, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x728EA001, 0x728EA019, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x728EA001, 0x728EA01A, '2019-02-10 00:00:00') /* Cursed Bones (8595) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728EA002, 28647, 0x28EA001A, 83.42796, 31.71502, 29.99549, -0.8583151, 0, 0, -0.5131231,  True, '2019-02-10 00:00:00'); /* Raving Fiun */

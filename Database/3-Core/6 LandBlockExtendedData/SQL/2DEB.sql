@@ -5,22 +5,22 @@ VALUES (0x72DEB001,  1154, 0x2DEB0007, 23.95056, 149.2591, 7.99459, 0.9729819, 0
 /* @teleloc 0x2DEB0007 [23.950560 149.259100 7.994590] 0.972982 0.000000 0.000000 -0.230881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DEB001, 0x72DEB002, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEB001, 0x72DEB003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72DEB001, 0x72DEB004, '2019-02-10 00:00:00') /* Eater */
-     , (0x72DEB001, 0x72DEB005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72DEB001, 0x72DEB006, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72DEB001, 0x72DEB007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72DEB001, 0x72DEB008, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72DEB001, 0x72DEB009, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEB001, 0x72DEB00A, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEB001, 0x72DEB00B, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEB001, 0x72DEB00C, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72DEB001, 0x72DEB00D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72DEB001, 0x72DEB00E, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72DEB001, 0x72DEB00F, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x72DEB001, 0x72DEB010, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72DEB001, 0x72DEB011, '2019-02-10 00:00:00') /* Engorged Eater */;
+VALUES (0x72DEB001, 0x72DEB002, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEB001, 0x72DEB003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72DEB001, 0x72DEB004, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72DEB001, 0x72DEB005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72DEB001, 0x72DEB006, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72DEB001, 0x72DEB007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72DEB001, 0x72DEB008, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72DEB001, 0x72DEB009, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEB001, 0x72DEB00A, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEB001, 0x72DEB00B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEB001, 0x72DEB00C, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72DEB001, 0x72DEB00D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72DEB001, 0x72DEB00E, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72DEB001, 0x72DEB00F, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x72DEB001, 0x72DEB010, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72DEB001, 0x72DEB011, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DEB002, 28650, 0x2DEB0007, 23.95056, 149.2591, 7.99459, 0.9729819, 0, 0, -0.2308814,  True, '2019-02-10 00:00:00'); /* Demented Fiun */

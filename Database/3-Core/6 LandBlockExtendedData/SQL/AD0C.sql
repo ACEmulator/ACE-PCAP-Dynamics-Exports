@@ -5,17 +5,17 @@ VALUES (0x7AD0C001,  1154, 0xAD0C000D, 43.68549, 104.0255, -0.4434, -0.6150956, 
 /* @teleloc 0xAD0C000D [43.685490 104.025500 -0.443400] -0.615096 0.000000 0.000000 -0.788453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD0C001, 0x7AD0C002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7AD0C001, 0x7AD0C003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7AD0C001, 0x7AD0C004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AD0C001, 0x7AD0C005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AD0C001, 0x7AD0C006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AD0C001, 0x7AD0C007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AD0C001, 0x7AD0C008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7AD0C001, 0x7AD0C009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AD0C001, 0x7AD0C00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AD0C001, 0x7AD0C00B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AD0C001, 0x7AD0C00C, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7AD0C001, 0x7AD0C002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7AD0C001, 0x7AD0C003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7AD0C001, 0x7AD0C004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AD0C001, 0x7AD0C005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AD0C001, 0x7AD0C006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AD0C001, 0x7AD0C007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AD0C001, 0x7AD0C008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7AD0C001, 0x7AD0C009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AD0C001, 0x7AD0C00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AD0C001, 0x7AD0C00B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AD0C001, 0x7AD0C00C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD0C002,  7102, 0xAD0C000D, 43.68549, 104.0255, -0.4434, -0.6150956, 0, 0, -0.7884525,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

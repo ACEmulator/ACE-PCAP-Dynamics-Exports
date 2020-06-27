@@ -9,24 +9,24 @@ VALUES (0x7AA87001,  1154, 0xAA870100, 81.746, 45.1692, 21.20455, -0.794791, 0, 
 /* @teleloc 0xAA870100 [81.746000 45.169200 21.204550] -0.794791 0.000000 0.000000 -0.606883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA87001, 0x7AA87002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA87003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA87004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA87005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AA87001, 0x7AA87006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AA87001, 0x7AA87007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AA87001, 0x7AA87008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA87009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA8700A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA8700B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA8700C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA87001, 0x7AA8700D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AA87001, 0x7AA8700E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA87001, 0x7AA8700F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA87001, 0x7AA87010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA87001, 0x7AA87011, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AA87001, 0x7AA87012, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AA87001, 0x7AA87013, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7AA87001, 0x7AA87002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA87003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA87004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA87005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AA87001, 0x7AA87006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AA87001, 0x7AA87007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AA87001, 0x7AA87008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA87009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA8700A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA8700B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA8700C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA87001, 0x7AA8700D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AA87001, 0x7AA8700E, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AA87001, 0x7AA8700F, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA87001, 0x7AA87010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA87001, 0x7AA87011, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AA87001, 0x7AA87012, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AA87001, 0x7AA87013, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA87002,  1610, 0xAA870100, 81.746, 45.1692, 21.20455, -0.794791, 0, 0, -0.606883,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -105,8 +105,8 @@ VALUES (0x7AA87014,  1542, 0xAA870014, 56.4016, 87.59023, 30.59689, 1, 0, 0, 0, 
 /* @teleloc 0xAA870014 [56.401600 87.590230 30.596890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA87014, 0x7AA87015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7AA87014, 0x7AA87016, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7AA87014, 0x7AA87015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7AA87014, 0x7AA87016, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA87015, 31443, 0xAA870014, 56.4016, 87.59023, 30.59689, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

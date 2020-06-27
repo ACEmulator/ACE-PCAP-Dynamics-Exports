@@ -5,16 +5,16 @@ VALUES (0x72DEC001,  1154, 0x2DEC0001, 17.47962, 4.905536, 7.99459, -0.5598072, 
 /* @teleloc 0x2DEC0001 [17.479620 4.905536 7.994590] -0.559807 0.000000 0.000000 -0.828623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DEC001, 0x72DEC002, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEC001, 0x72DEC003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72DEC001, 0x72DEC004, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72DEC001, 0x72DEC005, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72DEC001, 0x72DEC006, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEC001, 0x72DEC007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72DEC001, 0x72DEC008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72DEC001, 0x72DEC009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x72DEC001, 0x72DEC00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72DEC001, 0x72DEC00B, '2019-02-10 00:00:00') /* High Mu-miyah */;
+VALUES (0x72DEC001, 0x72DEC002, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEC001, 0x72DEC003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72DEC001, 0x72DEC004, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72DEC001, 0x72DEC005, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72DEC001, 0x72DEC006, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEC001, 0x72DEC007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72DEC001, 0x72DEC008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72DEC001, 0x72DEC009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x72DEC001, 0x72DEC00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72DEC001, 0x72DEC00B, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DEC002, 28650, 0x2DEC0001, 17.47962, 4.905536, 7.99459, -0.5598072, 0, 0, -0.8286229,  True, '2019-02-10 00:00:00'); /* Demented Fiun */

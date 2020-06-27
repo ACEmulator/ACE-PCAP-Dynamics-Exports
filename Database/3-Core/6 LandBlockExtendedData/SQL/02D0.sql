@@ -17,8 +17,8 @@ VALUES (0x702D0004,  1542, 0x02D0010F, 41.4308, -40.6088, -6.063, 1, 0, 0, 0, Fa
 /* @teleloc 0x02D0010F [41.430800 -40.608800 -6.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D0004, 0x702D0005, '2019-02-10 00:00:00') /* Sho Roadside */
-     , (0x702D0004, 0x702D0006, '2019-02-10 00:00:00') /* Eastham Portal */;
+VALUES (0x702D0004, 0x702D0005, '2019-02-10 00:00:00') /* Sho Roadside (1907) */
+     , (0x702D0004, 0x702D0006, '2019-02-10 00:00:00') /* Eastham Portal (42815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D0005,  1907, 0x02D0010F, 41.4308, -40.6088, -6.063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sho Roadside */

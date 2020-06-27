@@ -49,240 +49,240 @@ VALUES (0x700D116C,  1154, 0x00D10E5A, 152.624, -153.415, -5.9915, -0.966925, 0,
 /* @teleloc 0x00D10E5A [152.624000 -153.415000 -5.991500] -0.966925 0.000000 0.000000 -0.255061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D116C, 0x700D116D, '2019-02-10 00:00:00') /* Cocooned Auroch */
-     , (0x700D116C, 0x700D116E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x700D116C, 0x700D116F, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1170, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1171, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x700D116C, 0x700D1172, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1173, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1174, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D1175, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D1176, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1177, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D1178, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1179, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x700D116C, 0x700D117A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D117B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D117C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D117D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D117E, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D117F, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1180, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1181, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1182, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x700D116C, 0x700D1183, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1184, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1185, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1186, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x700D116C, 0x700D1187, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1188, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1189, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D118A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D118B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D118C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D118D, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D118E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D118F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1190, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x700D116C, 0x700D1191, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1192, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1193, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1194, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D1195, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1196, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1197, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1198, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1199, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D119A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D119B, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D119C, '2019-02-10 00:00:00') /* Cocooned Auroch */
-     , (0x700D116C, 0x700D119D, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D119E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D119F, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11A0, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11A1, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11A2, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11A3, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11A4, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D11A5, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11A6, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11A7, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11A8, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11A9, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11AA, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11AB, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11AC, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11AD, '2019-02-10 00:00:00') /* K'nath Di'vda */
-     , (0x700D116C, 0x700D11AE, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11AF, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11B0, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11B1, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11B2, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11B3, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11B4, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11B5, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D11B6, '2019-02-10 00:00:00') /* K'nath Di'vda */
-     , (0x700D116C, 0x700D11B7, '2019-02-10 00:00:00') /* K'nath Di'vda */
-     , (0x700D116C, 0x700D11B8, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11B9, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11BA, '2019-02-10 00:00:00') /* K'nath Di'vda */
-     , (0x700D116C, 0x700D11BB, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D11BC, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x700D116C, 0x700D11BD, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11BE, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11BF, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C0, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11C1, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11C2, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11C3, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C4, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11C5, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C6, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C7, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C8, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11C9, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11CA, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11CB, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11CC, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11CD, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11CE, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11CF, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11D0, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11D1, '2019-02-10 00:00:00') /* Traphole Grievver */
-     , (0x700D116C, 0x700D11D2, '2019-02-10 00:00:00') /* Traphole Grievver */
-     , (0x700D116C, 0x700D11D3, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11D4, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11D5, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11D6, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11D7, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11D8, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11D9, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11DA, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11DB, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11DC, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11DD, '2019-02-10 00:00:00') /* Cocooned Auroch */
-     , (0x700D116C, 0x700D11DE, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11DF, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11E0, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11E1, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11E2, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11E3, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11E4, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11E5, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11E6, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11E7, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11E8, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11E9, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11EA, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11EB, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11EC, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11ED, '2019-02-10 00:00:00') /* Traphole Grievver */
-     , (0x700D116C, 0x700D11EE, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11EF, '2019-02-10 00:00:00') /* Traphole Grievver */
-     , (0x700D116C, 0x700D11F0, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F1, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F2, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F3, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F4, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F5, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11F6, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11F7, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F8, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11F9, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11FA, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D11FB, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11FC, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11FD, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D11FE, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D11FF, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1200, '2019-02-10 00:00:00') /* Cocooned Auroch */
-     , (0x700D116C, 0x700D1201, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1202, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1203, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D1204, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D1205, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1206, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D1207, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1208, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D1209, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D120A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D120B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x700D116C, 0x700D120C, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D120D, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D120E, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D120F, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1210, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1211, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D1212, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D1213, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D1214, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x700D116C, 0x700D1215, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D1216, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D1217, '2019-02-10 00:00:00') /* Ripper Grievver */
-     , (0x700D116C, 0x700D1218, '2019-02-10 00:00:00') /* Traphole Grievver */
-     , (0x700D116C, 0x700D1219, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D121A, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D121B, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D121C, '2019-02-10 00:00:00') /* K'nath Ra'dnas */
-     , (0x700D116C, 0x700D121D, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D121E, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D121F, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1220, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1221, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1222, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1223, '2019-02-10 00:00:00') /* Cocooned Auroch */
-     , (0x700D116C, 0x700D1224, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1225, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D1226, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1227, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1228, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1229, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D122A, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D122B, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D122C, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D122D, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D122E, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D122F, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1230, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1231, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1232, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1233, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1234, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1235, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x700D116C, 0x700D1236, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1237, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1238, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1239, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D123A, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D123B, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D123C, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D123D, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D123E, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D123F, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x700D116C, 0x700D1240, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x700D116C, 0x700D1241, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1242, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1243, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1244, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1245, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D1246, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1247, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x700D116C, 0x700D1248, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D1249, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D124A, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x700D116C, 0x700D124B, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D124C, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D124D, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D124E, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D124F, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1250, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1251, '2019-02-10 00:00:00') /* Parasitic Grievver */
-     , (0x700D116C, 0x700D1252, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D1253, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x700D116C, 0x700D1254, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x700D116C, 0x700D1255, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x700D116C, 0x700D1256, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x700D116C, 0x700D116D, '2019-02-10 00:00:00') /* Cocooned Auroch (20017) */
+     , (0x700D116C, 0x700D116E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x700D116C, 0x700D116F, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1170, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1171, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x700D116C, 0x700D1172, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1173, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1174, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D1175, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D1176, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1177, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D1178, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1179, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x700D116C, 0x700D117A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D117B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D117C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D117D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D117E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D117F, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1180, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1181, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1182, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x700D116C, 0x700D1183, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1184, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1185, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1186, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x700D116C, 0x700D1187, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1188, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1189, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D118A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D118B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D118C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D118D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D118E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D118F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1190, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x700D116C, 0x700D1191, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1192, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1193, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1194, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D1195, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1196, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1197, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1198, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1199, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D119A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D119B, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D119C, '2019-02-10 00:00:00') /* Cocooned Auroch (20017) */
+     , (0x700D116C, 0x700D119D, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D119E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D119F, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11A0, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11A1, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11A2, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11A3, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11A4, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D11A5, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11A6, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11A7, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11A8, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11A9, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11AA, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11AB, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11AC, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11AD, '2019-02-10 00:00:00') /* K'nath Di'vda (29315) */
+     , (0x700D116C, 0x700D11AE, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11AF, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11B0, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11B1, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11B2, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11B3, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11B4, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11B5, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D11B6, '2019-02-10 00:00:00') /* K'nath Di'vda (29315) */
+     , (0x700D116C, 0x700D11B7, '2019-02-10 00:00:00') /* K'nath Di'vda (29315) */
+     , (0x700D116C, 0x700D11B8, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11B9, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11BA, '2019-02-10 00:00:00') /* K'nath Di'vda (29315) */
+     , (0x700D116C, 0x700D11BB, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D11BC, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x700D116C, 0x700D11BD, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11BE, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11BF, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C0, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11C1, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11C2, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11C3, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C4, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11C5, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C6, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C7, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C8, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11C9, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11CA, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11CB, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11CC, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11CD, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11CE, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11CF, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11D0, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11D1, '2019-02-10 00:00:00') /* Traphole Grievver (33972) */
+     , (0x700D116C, 0x700D11D2, '2019-02-10 00:00:00') /* Traphole Grievver (33972) */
+     , (0x700D116C, 0x700D11D3, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11D4, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11D5, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11D6, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11D7, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11D8, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11D9, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11DA, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11DB, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11DC, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11DD, '2019-02-10 00:00:00') /* Cocooned Auroch (20017) */
+     , (0x700D116C, 0x700D11DE, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11DF, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11E0, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11E1, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11E2, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11E3, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11E4, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11E5, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11E6, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11E7, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11E8, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11E9, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11EA, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11EB, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11EC, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11ED, '2019-02-10 00:00:00') /* Traphole Grievver (33972) */
+     , (0x700D116C, 0x700D11EE, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11EF, '2019-02-10 00:00:00') /* Traphole Grievver (33972) */
+     , (0x700D116C, 0x700D11F0, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F1, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F2, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F3, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F4, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F5, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11F6, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11F7, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F8, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11F9, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11FA, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D11FB, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11FC, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11FD, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D11FE, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D11FF, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1200, '2019-02-10 00:00:00') /* Cocooned Auroch (20017) */
+     , (0x700D116C, 0x700D1201, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1202, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1203, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D1204, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D1205, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1206, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D1207, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1208, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D1209, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D120A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D120B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x700D116C, 0x700D120C, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D120D, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D120E, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D120F, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1210, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1211, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D1212, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D1213, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D1214, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x700D116C, 0x700D1215, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D1216, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D1217, '2019-02-10 00:00:00') /* Ripper Grievver (30756) */
+     , (0x700D116C, 0x700D1218, '2019-02-10 00:00:00') /* Traphole Grievver (33972) */
+     , (0x700D116C, 0x700D1219, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D121A, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D121B, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D121C, '2019-02-10 00:00:00') /* K'nath Ra'dnas (29311) */
+     , (0x700D116C, 0x700D121D, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D121E, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D121F, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1220, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1221, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1222, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1223, '2019-02-10 00:00:00') /* Cocooned Auroch (20017) */
+     , (0x700D116C, 0x700D1224, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1225, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D1226, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1227, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1228, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1229, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D122A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D122B, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D122C, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D122D, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D122E, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D122F, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1230, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1231, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1232, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1233, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1234, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1235, '2019-02-10 00:00:00') /* Burrowing Grievver (31235) */
+     , (0x700D116C, 0x700D1236, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1237, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1238, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1239, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D123A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D123B, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D123C, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D123D, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D123E, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D123F, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x700D116C, 0x700D1240, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x700D116C, 0x700D1241, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1242, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1243, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1244, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1245, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D1246, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1247, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x700D116C, 0x700D1248, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D1249, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D124A, '2019-02-10 00:00:00') /* Burrowing Grievver (31235) */
+     , (0x700D116C, 0x700D124B, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D124C, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D124D, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D124E, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D124F, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1250, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1251, '2019-02-10 00:00:00') /* Parasitic Grievver (33971) */
+     , (0x700D116C, 0x700D1252, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D1253, '2019-02-10 00:00:00') /* Grievver Violator (31018) */
+     , (0x700D116C, 0x700D1254, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x700D116C, 0x700D1255, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x700D116C, 0x700D1256, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D116D, 20017, 0x00D10E5A, 152.624, -153.415, -5.9915, -0.966925, 0, 0, -0.255061,  True, '2019-02-10 00:00:00'); /* Cocooned Auroch */
@@ -1225,22 +1225,22 @@ VALUES (0x700D1257,  1542, 0x00D11056, 247.568, -197.265, -6, 0.7455607, 0, 0, -
 /* @teleloc 0x00D11056 [247.568000 -197.265000 -6.000000] 0.745561 0.000000 0.000000 -0.666438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D1257, 0x700D1258, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D1259, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125A, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125B, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125C, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125D, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125E, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D125F, '2019-02-10 00:00:00') /* Ancient Bone */
-     , (0x700D1257, 0x700D1260, '2019-02-10 00:00:00') /* Hardened Bone */
-     , (0x700D1257, 0x700D1261, '2019-02-10 00:00:00') /* Hardened Bone */
-     , (0x700D1257, 0x700D1262, '2019-02-10 00:00:00') /* Hardened Bone */
-     , (0x700D1257, 0x700D1263, '2019-02-10 00:00:00') /* Hardened Bone */
-     , (0x700D1257, 0x700D1264, '2019-02-10 00:00:00') /* Fossilized Bone */
-     , (0x700D1257, 0x700D1265, '2019-02-10 00:00:00') /* Fossilized Bone */
-     , (0x700D1257, 0x700D1266, '2019-02-10 00:00:00') /* Fossilized Bone */
-     , (0x700D1257, 0x700D1267, '2019-02-10 00:00:00') /* Fossilized Bone */;
+VALUES (0x700D1257, 0x700D1258, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D1259, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125A, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125B, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125C, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125D, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125E, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D125F, '2019-02-10 00:00:00') /* Ancient Bone (33987) */
+     , (0x700D1257, 0x700D1260, '2019-02-10 00:00:00') /* Hardened Bone (33989) */
+     , (0x700D1257, 0x700D1261, '2019-02-10 00:00:00') /* Hardened Bone (33989) */
+     , (0x700D1257, 0x700D1262, '2019-02-10 00:00:00') /* Hardened Bone (33989) */
+     , (0x700D1257, 0x700D1263, '2019-02-10 00:00:00') /* Hardened Bone (33989) */
+     , (0x700D1257, 0x700D1264, '2019-02-10 00:00:00') /* Fossilized Bone (33988) */
+     , (0x700D1257, 0x700D1265, '2019-02-10 00:00:00') /* Fossilized Bone (33988) */
+     , (0x700D1257, 0x700D1266, '2019-02-10 00:00:00') /* Fossilized Bone (33988) */
+     , (0x700D1257, 0x700D1267, '2019-02-10 00:00:00') /* Fossilized Bone (33988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D1258, 33987, 0x00D11056, 247.568, -197.265, -6, 0.7455607, 0, 0, -0.6664377,  True, '2019-02-10 00:00:00'); /* Ancient Bone */

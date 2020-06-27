@@ -5,8 +5,8 @@ VALUES (0x7B362001,  1154, 0xB362002E, 129.6309, 124.8331, 22.0025, -0.95346, 0,
 /* @teleloc 0xB362002E [129.630900 124.833100 22.002500] -0.953460 0.000000 0.000000 -0.301519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B362001, 0x7B362002, '2019-02-10 00:00:00') /* Static */
-     , (0x7B362001, 0x7B362003, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7B362001, 0x7B362002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B362001, 0x7B362003, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B362002,  6382, 0xB362002E, 129.6309, 124.8331, 22.0025, -0.95346, 0, 0, -0.3015194,  True, '2019-02-10 00:00:00'); /* Static */

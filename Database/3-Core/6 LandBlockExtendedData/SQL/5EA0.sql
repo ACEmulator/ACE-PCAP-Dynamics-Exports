@@ -5,19 +5,19 @@ VALUES (0x75EA0001,  1154, 0x5EA0002A, 126.7682, 40.71301, 96.9838, -0.1038723, 
 /* @teleloc 0x5EA0002A [126.768200 40.713010 96.983800] -0.103872 0.000000 0.000000 -0.994591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EA0001, 0x75EA0002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75EA0001, 0x75EA0003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75EA0001, 0x75EA0004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75EA0001, 0x75EA0005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75EA0001, 0x75EA0006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75EA0001, 0x75EA0007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75EA0001, 0x75EA0008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75EA0001, 0x75EA0009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75EA0001, 0x75EA000A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75EA0001, 0x75EA000B, '2019-02-10 00:00:00') /* Static */
-     , (0x75EA0001, 0x75EA000C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75EA0001, 0x75EA000D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75EA0001, 0x75EA000E, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x75EA0001, 0x75EA0002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75EA0001, 0x75EA0003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75EA0001, 0x75EA0004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75EA0001, 0x75EA0005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75EA0001, 0x75EA0006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75EA0001, 0x75EA0007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75EA0001, 0x75EA0008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75EA0001, 0x75EA0009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75EA0001, 0x75EA000A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75EA0001, 0x75EA000B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75EA0001, 0x75EA000C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75EA0001, 0x75EA000D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75EA0001, 0x75EA000E, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EA0002,  4253, 0x5EA0002A, 126.7682, 40.71301, 96.9838, -0.1038723, 0, 0, -0.9945906,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -76,7 +76,7 @@ VALUES (0x75EA000F,  1542, 0x5EA00034, 165.068, 81.2719, 97.63015, 0.9238795, 0,
 /* @teleloc 0x5EA00034 [165.068000 81.271900 97.630150] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EA000F, 0x75EA0010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x75EA000F, 0x75EA0010, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EA0010,  4180, 0x5EA00034, 165.068, 81.2719, 97.63015, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -9,13 +9,13 @@ VALUES (0x738F0001,  1154, 0x38F00018, 62.78862, 190.6707, 56.0025, -0.363341, 0
 /* @teleloc 0x38F00018 [62.788620 190.670700 56.002500] -0.363341 0.000000 0.000000 -0.931656 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738F0001, 0x738F0002, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x738F0001, 0x738F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x738F0001, 0x738F0004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x738F0001, 0x738F0005, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738F0001, 0x738F0006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738F0001, 0x738F0007, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x738F0001, 0x738F0008, '2019-02-10 00:00:00') /* Ruschk Warlord */;
+VALUES (0x738F0001, 0x738F0002, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x738F0001, 0x738F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x738F0001, 0x738F0004, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x738F0001, 0x738F0005, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738F0001, 0x738F0006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738F0001, 0x738F0007, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x738F0001, 0x738F0008, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F0002, 24478, 0x38F00018, 62.78862, 190.6707, 56.0025, -0.363341, 0, 0, -0.9316562,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */

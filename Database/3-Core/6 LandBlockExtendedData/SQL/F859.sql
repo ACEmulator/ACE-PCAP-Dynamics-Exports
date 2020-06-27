@@ -5,15 +5,15 @@ VALUES (0x7F859001,  1154, 0xF8590033, 160.2988, 56.16889, -0.09359992, 0.072223
 /* @teleloc 0xF8590033 [160.298800 56.168890 -0.093600] 0.072223 0.000000 0.000000 -0.997389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F859001, 0x7F859002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F859001, 0x7F859003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F859001, 0x7F859004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F859001, 0x7F859005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F859001, 0x7F859006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F859001, 0x7F859007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F859001, 0x7F859008, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F859001, 0x7F859009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F859001, 0x7F85900A, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7F859001, 0x7F859002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F859001, 0x7F859003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F859001, 0x7F859004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F859001, 0x7F859005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F859001, 0x7F859006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F859001, 0x7F859007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F859001, 0x7F859008, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F859001, 0x7F859009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F859001, 0x7F85900A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F859002,  7180, 0xF8590033, 160.2988, 56.16889, -0.09359992, 0.07222315, 0, 0, -0.9973885,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -56,7 +56,7 @@ VALUES (0x7F85900B,  1542, 0xF859003A, 181.0234, 33.89523, 0, 1, 0, 0, 0, False,
 /* @teleloc 0xF859003A [181.023400 33.895230 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85900B, 0x7F85900C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7F85900B, 0x7F85900C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85900C, 31443, 0xF859003A, 181.0234, 33.89523, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

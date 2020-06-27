@@ -5,22 +5,22 @@ VALUES (0x792DB001,  1154, 0x92DB0031, 151.5768, 12.1089, 184.5717, 0.6881983, 0
 /* @teleloc 0x92DB0031 [151.576800 12.108900 184.571700] 0.688198 0.000000 0.000000 -0.725523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792DB001, 0x792DB002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x792DB001, 0x792DB003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x792DB001, 0x792DB004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x792DB001, 0x792DB005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x792DB001, 0x792DB006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792DB001, 0x792DB007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792DB001, 0x792DB008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792DB001, 0x792DB009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792DB001, 0x792DB00A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792DB001, 0x792DB00B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x792DB001, 0x792DB00C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792DB001, 0x792DB00D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x792DB001, 0x792DB00E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792DB001, 0x792DB00F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792DB001, 0x792DB010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792DB001, 0x792DB011, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x792DB001, 0x792DB002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x792DB001, 0x792DB003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x792DB001, 0x792DB004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x792DB001, 0x792DB005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x792DB001, 0x792DB006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792DB001, 0x792DB007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792DB001, 0x792DB008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792DB001, 0x792DB009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792DB001, 0x792DB00A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792DB001, 0x792DB00B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x792DB001, 0x792DB00C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792DB001, 0x792DB00D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x792DB001, 0x792DB00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792DB001, 0x792DB00F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792DB001, 0x792DB010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792DB001, 0x792DB011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792DB002,     3, 0x92DB0031, 151.5768, 12.1089, 184.5717, 0.6881983, 0, 0, -0.7255226,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

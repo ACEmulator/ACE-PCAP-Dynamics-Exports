@@ -5,21 +5,21 @@ VALUES (0x7B6F1001,  1154, 0xB6F1003E, 177.5373, 132.4124, 48.53903, 0.7660445, 
 /* @teleloc 0xB6F1003E [177.537300 132.412400 48.539030] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6F1001, 0x7B6F1002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B6F1001, 0x7B6F1003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B6F1001, 0x7B6F1004, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7B6F1001, 0x7B6F1005, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B6F1001, 0x7B6F1006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F1001, 0x7B6F1007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B6F1001, 0x7B6F1008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F1001, 0x7B6F1009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F1001, 0x7B6F100A, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7B6F1001, 0x7B6F100B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B6F1001, 0x7B6F100C, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7B6F1001, 0x7B6F100D, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7B6F1001, 0x7B6F100E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F1001, 0x7B6F100F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F1001, 0x7B6F1010, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x7B6F1001, 0x7B6F1002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B6F1001, 0x7B6F1003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B6F1001, 0x7B6F1004, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7B6F1001, 0x7B6F1005, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B6F1001, 0x7B6F1006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F1001, 0x7B6F1007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B6F1001, 0x7B6F1008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F1001, 0x7B6F1009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F1001, 0x7B6F100A, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7B6F1001, 0x7B6F100B, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B6F1001, 0x7B6F100C, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7B6F1001, 0x7B6F100D, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7B6F1001, 0x7B6F100E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F1001, 0x7B6F100F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F1001, 0x7B6F1010, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6F1002,  7099, 0xB6F1003E, 177.5373, 132.4124, 48.53903, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

@@ -5,13 +5,13 @@ VALUES (0x7BA0F001,  1154, 0xBA0F0035, 165.7256, 99.80332, 0.00999999, 0.8018735
 /* @teleloc 0xBA0F0035 [165.725600 99.803320 0.010000] 0.801874 0.000000 0.000000 -0.597494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA0F001, 0x7BA0F002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA0F001, 0x7BA0F003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BA0F001, 0x7BA0F004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BA0F001, 0x7BA0F005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA0F001, 0x7BA0F006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BA0F001, 0x7BA0F007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BA0F001, 0x7BA0F008, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BA0F001, 0x7BA0F002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA0F001, 0x7BA0F003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BA0F001, 0x7BA0F004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BA0F001, 0x7BA0F005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA0F001, 0x7BA0F006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BA0F001, 0x7BA0F007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BA0F001, 0x7BA0F008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA0F002, 14559, 0xBA0F0035, 165.7256, 99.80332, 0.00999999, 0.8018735, 0, 0, -0.5974939,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -46,7 +46,7 @@ VALUES (0x7BA0F009,  1542, 0xBA0F0035, 167.2984, 101.1978, -2.980232E-08, 0.8018
 /* @teleloc 0xBA0F0035 [167.298400 101.197800 0.000000] 0.801874 0.000000 0.000000 -0.597494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA0F009, 0x7BA0F00A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BA0F009, 0x7BA0F00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA0F00A,  8646, 0xBA0F0035, 167.2984, 101.1978, -2.980232E-08, 0.8018735, 0, 0, -0.5974939,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

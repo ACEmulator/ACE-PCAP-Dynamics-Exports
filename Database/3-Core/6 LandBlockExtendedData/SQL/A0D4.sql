@@ -5,21 +5,21 @@ VALUES (0x7A0D4001,  1154, 0xA0D40004, 0.3737044, 79.42775, 191.6149, 0.9962414,
 /* @teleloc 0xA0D40004 [0.373704 79.427750 191.614900] 0.996241 0.000000 0.000000 -0.086620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D4001, 0x7A0D4002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7A0D4001, 0x7A0D4003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0D4001, 0x7A0D4004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0D4001, 0x7A0D4005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0D4001, 0x7A0D4006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0D4001, 0x7A0D4007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0D4001, 0x7A0D4008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0D4001, 0x7A0D4009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0D4001, 0x7A0D400A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0D4001, 0x7A0D400B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D4001, 0x7A0D400C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A0D4001, 0x7A0D400D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D4001, 0x7A0D400E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D4001, 0x7A0D400F, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7A0D4001, 0x7A0D4010, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7A0D4001, 0x7A0D4002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7A0D4001, 0x7A0D4003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0D4001, 0x7A0D4004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0D4001, 0x7A0D4005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0D4001, 0x7A0D4006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0D4001, 0x7A0D4007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0D4001, 0x7A0D4008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0D4001, 0x7A0D4009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0D4001, 0x7A0D400A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0D4001, 0x7A0D400B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D4001, 0x7A0D400C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A0D4001, 0x7A0D400D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D4001, 0x7A0D400E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D4001, 0x7A0D400F, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7A0D4001, 0x7A0D4010, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D4002, 23082, 0xA0D40004, 0.3737044, 79.42775, 191.6149, 0.9962414, 0, 0, -0.08662026,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

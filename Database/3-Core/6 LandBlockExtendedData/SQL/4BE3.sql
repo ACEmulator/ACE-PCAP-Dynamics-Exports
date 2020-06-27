@@ -5,148 +5,148 @@ VALUES (0x74BE3001,  1154, 0x4BE30018, 64.99482, 173.8683, 56.63482, -0.1221856,
 /* @teleloc 0x4BE30018 [64.994820 173.868300 56.634820] -0.122186 0.000000 0.000000 -0.992507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BE3001, 0x74BE3002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74BE3001, 0x74BE3003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74BE3001, 0x74BE3004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x74BE3001, 0x74BE3005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BE3001, 0x74BE3006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74BE3001, 0x74BE3007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74BE3001, 0x74BE3008, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3009, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE300A, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE300B, '2019-02-10 00:00:00') /* Iron Golem Samurai */
-     , (0x74BE3001, 0x74BE300C, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74BE3001, 0x74BE300D, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE300E, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE300F, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3010, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74BE3001, 0x74BE3011, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x74BE3001, 0x74BE3012, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3013, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3014, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74BE3001, 0x74BE3015, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3016, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3017, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3018, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74BE3001, 0x74BE3019, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x74BE3001, 0x74BE301A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE301B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x74BE3001, 0x74BE301C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE301D, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE301E, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74BE3001, 0x74BE301F, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74BE3001, 0x74BE3020, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE3021, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE3022, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x74BE3001, 0x74BE3023, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3024, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3025, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE3026, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3027, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE3028, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BE3001, 0x74BE3029, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BE3001, 0x74BE302A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE3001, 0x74BE302B, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74BE3001, 0x74BE302C, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74BE3001, 0x74BE302D, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x74BE3001, 0x74BE302E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BE3001, 0x74BE302F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BE3001, 0x74BE3030, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x74BE3001, 0x74BE3031, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE3032, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3033, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3034, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE3035, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3036, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BE3001, 0x74BE3037, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74BE3001, 0x74BE3038, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74BE3001, 0x74BE3039, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74BE3001, 0x74BE303A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BE3001, 0x74BE303B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74BE3001, 0x74BE303C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE303D, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE303E, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE303F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BE3001, 0x74BE3040, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BE3001, 0x74BE3041, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BE3001, 0x74BE3042, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x74BE3001, 0x74BE3043, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x74BE3001, 0x74BE3044, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3045, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3046, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3047, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BE3001, 0x74BE3048, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74BE3001, 0x74BE3049, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE304A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74BE3001, 0x74BE304B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BE3001, 0x74BE304C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE304D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE304E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74BE3001, 0x74BE304F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74BE3001, 0x74BE3050, '2019-02-10 00:00:00') /* Bronze Golem Samurai */
-     , (0x74BE3001, 0x74BE3051, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74BE3001, 0x74BE3052, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3053, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74BE3001, 0x74BE3054, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3055, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3056, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3057, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74BE3001, 0x74BE3058, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BE3001, 0x74BE3059, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE3001, 0x74BE305A, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE305B, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE305C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE305D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE3001, 0x74BE305E, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74BE3001, 0x74BE305F, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3060, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE3061, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE3001, 0x74BE3062, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x74BE3001, 0x74BE3063, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BE3001, 0x74BE3064, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3065, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE3066, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE3067, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3068, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74BE3001, 0x74BE3069, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE306A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE306B, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE306C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BE3001, 0x74BE306D, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE306E, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74BE3001, 0x74BE306F, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE3070, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x74BE3001, 0x74BE3071, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BE3001, 0x74BE3072, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BE3001, 0x74BE3073, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BE3001, 0x74BE3074, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74BE3001, 0x74BE3075, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE3001, 0x74BE3076, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BE3001, 0x74BE3077, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74BE3001, 0x74BE3078, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3079, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE307A, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74BE3001, 0x74BE307B, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74BE3001, 0x74BE307C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE307D, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE307E, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE307F, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3080, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3081, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74BE3001, 0x74BE3082, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74BE3001, 0x74BE3083, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3084, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74BE3001, 0x74BE3085, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74BE3001, 0x74BE3086, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74BE3001, 0x74BE3087, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74BE3001, 0x74BE3088, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE3089, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE308A, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74BE3001, 0x74BE308B, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74BE3001, 0x74BE308C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74BE3001, 0x74BE308D, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74BE3001, 0x74BE308E, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74BE3001, 0x74BE308F, '2019-02-10 00:00:00') /* Bronze Golem Samurai */;
+VALUES (0x74BE3001, 0x74BE3002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74BE3001, 0x74BE3003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74BE3001, 0x74BE3004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x74BE3001, 0x74BE3005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BE3001, 0x74BE3006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74BE3001, 0x74BE3007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74BE3001, 0x74BE3008, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74BE3001, 0x74BE3009, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74BE3001, 0x74BE300A, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE300B, '2019-02-10 00:00:00') /* Iron Golem Samurai (46614) */
+     , (0x74BE3001, 0x74BE300C, '2019-02-10 00:00:00') /* Spectral Blade Adept (46506) */
+     , (0x74BE3001, 0x74BE300D, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE300E, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74BE3001, 0x74BE300F, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE3010, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46532) */
+     , (0x74BE3001, 0x74BE3011, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x74BE3001, 0x74BE3012, '2019-02-10 00:00:00') /* Spectral Bushi (46512) */
+     , (0x74BE3001, 0x74BE3013, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74BE3001, 0x74BE3014, '2019-02-10 00:00:00') /* Spectral Blade Master (46508) */
+     , (0x74BE3001, 0x74BE3015, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3016, '2019-02-10 00:00:00') /* Spectral Bushi (46516) */
+     , (0x74BE3001, 0x74BE3017, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74BE3001, 0x74BE3018, '2019-02-10 00:00:00') /* Clay Golem Samurai (46603) */
+     , (0x74BE3001, 0x74BE3019, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x74BE3001, 0x74BE301A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE301B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x74BE3001, 0x74BE301C, '2019-02-10 00:00:00') /* Spectral Bushi (46512) */
+     , (0x74BE3001, 0x74BE301D, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74BE3001, 0x74BE301E, '2019-02-10 00:00:00') /* Clay Golem Samurai (46603) */
+     , (0x74BE3001, 0x74BE301F, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74BE3001, 0x74BE3020, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE3021, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE3022, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x74BE3001, 0x74BE3023, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3024, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3025, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE3026, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3027, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE3028, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BE3001, 0x74BE3029, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BE3001, 0x74BE302A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE3001, 0x74BE302B, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74BE3001, 0x74BE302C, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74BE3001, 0x74BE302D, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x74BE3001, 0x74BE302E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BE3001, 0x74BE302F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BE3001, 0x74BE3030, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x74BE3001, 0x74BE3031, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74BE3001, 0x74BE3032, '2019-02-10 00:00:00') /* Spectral Bushi (46514) */
+     , (0x74BE3001, 0x74BE3033, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE3034, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74BE3001, 0x74BE3035, '2019-02-10 00:00:00') /* Spectral Bushi (46514) */
+     , (0x74BE3001, 0x74BE3036, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BE3001, 0x74BE3037, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74BE3001, 0x74BE3038, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74BE3001, 0x74BE3039, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74BE3001, 0x74BE303A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BE3001, 0x74BE303B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74BE3001, 0x74BE303C, '2019-02-10 00:00:00') /* Spectral Bushi (46516) */
+     , (0x74BE3001, 0x74BE303D, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74BE3001, 0x74BE303E, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74BE3001, 0x74BE303F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BE3001, 0x74BE3040, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BE3001, 0x74BE3041, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BE3001, 0x74BE3042, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x74BE3001, 0x74BE3043, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x74BE3001, 0x74BE3044, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74BE3001, 0x74BE3045, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE3046, '2019-02-10 00:00:00') /* Spectral Bushi (46516) */
+     , (0x74BE3001, 0x74BE3047, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BE3001, 0x74BE3048, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74BE3001, 0x74BE3049, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE304A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74BE3001, 0x74BE304B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BE3001, 0x74BE304C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE304D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE304E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74BE3001, 0x74BE304F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74BE3001, 0x74BE3050, '2019-02-10 00:00:00') /* Bronze Golem Samurai (46613) */
+     , (0x74BE3001, 0x74BE3051, '2019-02-10 00:00:00') /* Spectral Blade Master (46508) */
+     , (0x74BE3001, 0x74BE3052, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE3053, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74BE3001, 0x74BE3054, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE3055, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE3056, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE3057, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74BE3001, 0x74BE3058, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BE3001, 0x74BE3059, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE3001, 0x74BE305A, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74BE3001, 0x74BE305B, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74BE3001, 0x74BE305C, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74BE3001, 0x74BE305D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE3001, 0x74BE305E, '2019-02-10 00:00:00') /* Spectral Claw Adept (46520) */
+     , (0x74BE3001, 0x74BE305F, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE3060, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74BE3001, 0x74BE3061, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE3001, 0x74BE3062, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x74BE3001, 0x74BE3063, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BE3001, 0x74BE3064, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74BE3001, 0x74BE3065, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE3066, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74BE3001, 0x74BE3067, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74BE3001, 0x74BE3068, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74BE3001, 0x74BE3069, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE306A, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE306B, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74BE3001, 0x74BE306C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BE3001, 0x74BE306D, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74BE3001, 0x74BE306E, '2019-02-10 00:00:00') /* Spectral Blade Master (46508) */
+     , (0x74BE3001, 0x74BE306F, '2019-02-10 00:00:00') /* Spectral Bushi (46512) */
+     , (0x74BE3001, 0x74BE3070, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x74BE3001, 0x74BE3071, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BE3001, 0x74BE3072, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BE3001, 0x74BE3073, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BE3001, 0x74BE3074, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74BE3001, 0x74BE3075, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE3001, 0x74BE3076, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BE3001, 0x74BE3077, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74BE3001, 0x74BE3078, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74BE3001, 0x74BE3079, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74BE3001, 0x74BE307A, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74BE3001, 0x74BE307B, '2019-02-10 00:00:00') /* Spectral Claw Master (46522) */
+     , (0x74BE3001, 0x74BE307C, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE307D, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74BE3001, 0x74BE307E, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE307F, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74BE3001, 0x74BE3080, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74BE3001, 0x74BE3081, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74BE3001, 0x74BE3082, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74BE3001, 0x74BE3083, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3084, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74BE3001, 0x74BE3085, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74BE3001, 0x74BE3086, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74BE3001, 0x74BE3087, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74BE3001, 0x74BE3088, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74BE3001, 0x74BE3089, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE308A, '2019-02-10 00:00:00') /* Spectral Blade Adept (46506) */
+     , (0x74BE3001, 0x74BE308B, '2019-02-10 00:00:00') /* Spectral Claw Adept (46520) */
+     , (0x74BE3001, 0x74BE308C, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74BE3001, 0x74BE308D, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74BE3001, 0x74BE308E, '2019-02-10 00:00:00') /* Spectral Bloodmage (46510) */
+     , (0x74BE3001, 0x74BE308F, '2019-02-10 00:00:00') /* Bronze Golem Samurai (46613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE3002, 24277, 0x4BE30018, 64.99482, 173.8683, 56.63482, -0.1221856, 0, 0, -0.9925073,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -721,17 +721,17 @@ VALUES (0x74BE3090,  1542, 0x4BE3002A, 138.0891, 46.45464, 65.12943, -4.371139E-
 /* @teleloc 0x4BE3002A [138.089100 46.454640 65.129430] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BE3090, 0x74BE3091, '2019-02-10 00:00:00') /* Bones */
-     , (0x74BE3090, 0x74BE3092, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74BE3090, 0x74BE3093, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x74BE3090, 0x74BE3094, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BE3090, 0x74BE3095, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BE3090, 0x74BE3096, '2019-02-10 00:00:00') /* Bones */
-     , (0x74BE3090, 0x74BE3097, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74BE3090, 0x74BE3098, '2019-02-10 00:00:00') /* Bones */
-     , (0x74BE3090, 0x74BE3099, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BE3090, 0x74BE309A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74BE3090, 0x74BE309B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74BE3090, 0x74BE3091, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74BE3090, 0x74BE3092, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74BE3090, 0x74BE3093, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x74BE3090, 0x74BE3094, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74BE3090, 0x74BE3095, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74BE3090, 0x74BE3096, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74BE3090, 0x74BE3097, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74BE3090, 0x74BE3098, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74BE3090, 0x74BE3099, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74BE3090, 0x74BE309A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74BE3090, 0x74BE309B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE3091,  4380, 0x4BE3002A, 138.0891, 46.45464, 65.12943, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

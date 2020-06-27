@@ -5,14 +5,14 @@ VALUES (0x72024001,  1154, 0x20240005, 5.253068, 107.8721, 32.2126, -4.371139E-0
 /* @teleloc 0x20240005 [5.253068 107.872100 32.212600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72024001, 0x72024002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x72024001, 0x72024003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x72024001, 0x72024004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72024001, 0x72024005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72024001, 0x72024006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x72024001, 0x72024007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72024001, 0x72024008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x72024001, 0x72024009, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x72024001, 0x72024002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x72024001, 0x72024003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x72024001, 0x72024004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x72024001, 0x72024005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x72024001, 0x72024006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x72024001, 0x72024007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72024001, 0x72024008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x72024001, 0x72024009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72024002, 24317, 0x20240005, 5.253068, 107.8721, 32.2126, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */
@@ -51,7 +51,7 @@ VALUES (0x7202400A,  1542, 0x20240005, 4.858845, 104.1647, 38.31879, -4.371139E-
 /* @teleloc 0x20240005 [4.858845 104.164700 38.318790] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7202400A, 0x7202400B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7202400A, 0x7202400B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7202400B,  4380, 0x20240005, 4.858845, 104.1647, 38.31879, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

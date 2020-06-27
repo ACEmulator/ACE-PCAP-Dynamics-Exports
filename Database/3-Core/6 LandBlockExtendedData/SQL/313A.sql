@@ -5,31 +5,31 @@ VALUES (0x7313A001,  1154, 0x313A001C, 87.87244, 82.98569, 122.5147, 0.3587488, 
 /* @teleloc 0x313A001C [87.872440 82.985690 122.514700] 0.358749 0.000000 0.000000 -0.933434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7313A001, 0x7313A002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7313A001, 0x7313A003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7313A001, 0x7313A004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7313A001, 0x7313A005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7313A001, 0x7313A006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7313A001, 0x7313A007, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7313A001, 0x7313A008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7313A001, 0x7313A009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7313A001, 0x7313A00A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7313A001, 0x7313A00B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7313A001, 0x7313A00C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7313A001, 0x7313A00D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7313A001, 0x7313A00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7313A001, 0x7313A00F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7313A001, 0x7313A010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7313A001, 0x7313A011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7313A001, 0x7313A012, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7313A001, 0x7313A013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7313A001, 0x7313A014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7313A001, 0x7313A015, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7313A001, 0x7313A016, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7313A001, 0x7313A017, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7313A001, 0x7313A018, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7313A001, 0x7313A019, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7313A001, 0x7313A01A, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7313A001, 0x7313A002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7313A001, 0x7313A003, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7313A001, 0x7313A004, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x7313A001, 0x7313A005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7313A001, 0x7313A006, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7313A001, 0x7313A007, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7313A001, 0x7313A008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7313A001, 0x7313A009, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7313A001, 0x7313A00A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7313A001, 0x7313A00B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7313A001, 0x7313A00C, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7313A001, 0x7313A00D, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7313A001, 0x7313A00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7313A001, 0x7313A00F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7313A001, 0x7313A010, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7313A001, 0x7313A011, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7313A001, 0x7313A012, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7313A001, 0x7313A013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7313A001, 0x7313A014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7313A001, 0x7313A015, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7313A001, 0x7313A016, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7313A001, 0x7313A017, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7313A001, 0x7313A018, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7313A001, 0x7313A019, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7313A001, 0x7313A01A, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7313A002, 23567, 0x313A001C, 87.87244, 82.98569, 122.5147, 0.3587488, 0, 0, -0.9334341,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
@@ -136,7 +136,7 @@ VALUES (0x7313A01B,  1542, 0x313A001D, 83.86671, 101.6957, 125.9604, 1, 0, 0, 0,
 /* @teleloc 0x313A001D [83.866710 101.695700 125.960400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7313A01B, 0x7313A01C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7313A01B, 0x7313A01C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7313A01C, 22566, 0x313A001D, 83.86671, 101.6957, 125.9604, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

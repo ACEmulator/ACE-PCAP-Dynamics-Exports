@@ -5,12 +5,12 @@ VALUES (0x7BBD3001,  1154, 0xBBD30040, 171.9287, 188.9992, 47.75993, 0.9212804, 
 /* @teleloc 0xBBD30040 [171.928700 188.999200 47.759930] 0.921280 0.000000 0.000000 -0.388899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD3001, 0x7BBD3002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BBD3001, 0x7BBD3003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BBD3001, 0x7BBD3004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BBD3001, 0x7BBD3005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBD3001, 0x7BBD3006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7BBD3001, 0x7BBD3007, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7BBD3001, 0x7BBD3002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BBD3001, 0x7BBD3003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BBD3001, 0x7BBD3004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BBD3001, 0x7BBD3005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBD3001, 0x7BBD3006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7BBD3001, 0x7BBD3007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD3002, 14800, 0xBBD30040, 171.9287, 188.9992, 47.75993, 0.9212804, 0, 0, -0.388899,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -41,8 +41,8 @@ VALUES (0x7BBD3008,  1542, 0xBBD30037, 160.2416, 162.4149, 45.53457, 0.9990482, 
 /* @teleloc 0xBBD30037 [160.241600 162.414900 45.534570] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD3008, 0x7BBD3009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BBD3008, 0x7BBD300A, '2019-02-10 00:00:00') /* Hyssop */;
+VALUES (0x7BBD3008, 0x7BBD3009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BBD3008, 0x7BBD300A, '2019-02-10 00:00:00') /* Hyssop (774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD3009,  4179, 0xBBD30037, 160.2416, 162.4149, 45.53457, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

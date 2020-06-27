@@ -5,17 +5,17 @@ VALUES (0x73797001,  1154, 0x37970028, 97.35294, 183.1254, 2, 0.9238795, 0, 0, -
 /* @teleloc 0x37970028 [97.352940 183.125400 2.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73797001, 0x73797002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73797001, 0x73797003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x73797001, 0x73797004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73797001, 0x73797005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73797001, 0x73797006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73797001, 0x73797007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73797001, 0x73797008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73797001, 0x73797009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73797001, 0x7379700A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73797001, 0x7379700B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73797001, 0x7379700C, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x73797001, 0x73797002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73797001, 0x73797003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x73797001, 0x73797004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73797001, 0x73797005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73797001, 0x73797006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73797001, 0x73797007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73797001, 0x73797008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73797001, 0x73797009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73797001, 0x7379700A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73797001, 0x7379700B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73797001, 0x7379700C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73797002,  7112, 0x37970028, 97.35294, 183.1254, 2, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

@@ -5,25 +5,25 @@ VALUES (0x7B0A9001,  1154, 0xB0A9003D, 171.873, 105.422, 45.77332, 0.6427876, 0,
 /* @teleloc 0xB0A9003D [171.873000 105.422000 45.773320] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A9001, 0x7B0A9002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B0A9001, 0x7B0A9003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B0A9001, 0x7B0A9004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B0A9001, 0x7B0A9005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A9006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A9007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A9008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A9009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A900A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A900B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A900C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A9001, 0x7B0A900D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0A9001, 0x7B0A900E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B0A9001, 0x7B0A900F, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0A9001, 0x7B0A9010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B0A9001, 0x7B0A9011, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B0A9001, 0x7B0A9012, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7B0A9001, 0x7B0A9013, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B0A9001, 0x7B0A9014, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7B0A9001, 0x7B0A9002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B0A9001, 0x7B0A9003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B0A9001, 0x7B0A9004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B0A9001, 0x7B0A9005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A9006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A9007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A9008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A9009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A900A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A900B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A900C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A9001, 0x7B0A900D, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0A9001, 0x7B0A900E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B0A9001, 0x7B0A900F, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0A9001, 0x7B0A9010, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B0A9001, 0x7B0A9011, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B0A9001, 0x7B0A9012, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B0A9001, 0x7B0A9013, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B0A9001, 0x7B0A9014, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A9002,   940, 0xB0A9003D, 171.873, 105.422, 45.77332, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -106,10 +106,10 @@ VALUES (0x7B0A9015,  1542, 0xB0A90010, 29.80283, 177.6879, 85.35522, 0.0466763, 
 /* @teleloc 0xB0A90010 [29.802830 177.687900 85.355220] 0.046676 0.000000 0.000000 0.998910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A9015, 0x7B0A9016, '2019-02-10 00:00:00') /* Heart of Innocence */
-     , (0x7B0A9015, 0x7B0A9017, '2019-02-10 00:00:00') /* Heart of Innocence */
-     , (0x7B0A9015, 0x7B0A9018, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B0A9015, 0x7B0A9019, '2019-02-10 00:00:00') /* Heart of Innocence */;
+VALUES (0x7B0A9015, 0x7B0A9016, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7B0A9015, 0x7B0A9017, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7B0A9015, 0x7B0A9018, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7B0A9015, 0x7B0A9019, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A9016, 24185, 0xB0A90010, 29.80283, 177.6879, 85.35522, 0.0466763, 0, 0, 0.9989101,  True, '2019-02-10 00:00:00'); /* Heart of Innocence */

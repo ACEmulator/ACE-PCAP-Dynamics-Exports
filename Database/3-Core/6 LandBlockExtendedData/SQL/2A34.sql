@@ -5,16 +5,16 @@ VALUES (0x72A34001,  1154, 0x2A340006, 17.58053, 120.464, 86.04867, 0.3037955, 0
 /* @teleloc 0x2A340006 [17.580530 120.464000 86.048670] 0.303796 0.000000 0.000000 -0.952737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A34001, 0x72A34002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72A34001, 0x72A34003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72A34001, 0x72A34004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A34001, 0x72A34005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A34001, 0x72A34006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A34001, 0x72A34007, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72A34001, 0x72A34008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72A34001, 0x72A34009, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72A34001, 0x72A3400A, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72A34001, 0x72A3400B, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72A34001, 0x72A34002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72A34001, 0x72A34003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72A34001, 0x72A34004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72A34001, 0x72A34005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72A34001, 0x72A34006, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72A34001, 0x72A34007, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72A34001, 0x72A34008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72A34001, 0x72A34009, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72A34001, 0x72A3400A, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72A34001, 0x72A3400B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A34002,  7098, 0x2A340006, 17.58053, 120.464, 86.04867, 0.3037955, 0, 0, -0.9527373,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

@@ -5,18 +5,18 @@ VALUES (0x77E7B001,  1154, 0x7E7B000E, 29.33514, 122.229, 61.81684, -0.2276778, 
 /* @teleloc 0x7E7B000E [29.335140 122.229000 61.816840] -0.227678 0.000000 0.000000 -0.973737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E7B001, 0x77E7B002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x77E7B001, 0x77E7B003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77E7B001, 0x77E7B004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77E7B001, 0x77E7B005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77E7B001, 0x77E7B006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77E7B001, 0x77E7B007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77E7B001, 0x77E7B008, '2019-02-10 00:00:00') /* Charge */
-     , (0x77E7B001, 0x77E7B009, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x77E7B001, 0x77E7B00A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77E7B001, 0x77E7B00B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x77E7B001, 0x77E7B00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77E7B001, 0x77E7B00D, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x77E7B001, 0x77E7B002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x77E7B001, 0x77E7B003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77E7B001, 0x77E7B004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77E7B001, 0x77E7B005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77E7B001, 0x77E7B006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77E7B001, 0x77E7B007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77E7B001, 0x77E7B008, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x77E7B001, 0x77E7B009, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x77E7B001, 0x77E7B00A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77E7B001, 0x77E7B00B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x77E7B001, 0x77E7B00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77E7B001, 0x77E7B00D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E7B002, 19439, 0x7E7B000E, 29.33514, 122.229, 61.81684, -0.2276778, 0, 0, -0.9737365,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

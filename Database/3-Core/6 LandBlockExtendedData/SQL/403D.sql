@@ -5,19 +5,19 @@ VALUES (0x7403D001,  1154, 0x403D001E, 92.04238, 128.699, 41.30478, -0.9227756, 
 /* @teleloc 0x403D001E [92.042380 128.699000 41.304780] -0.922776 0.000000 0.000000 -0.385338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7403D001, 0x7403D002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7403D001, 0x7403D003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7403D001, 0x7403D004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7403D001, 0x7403D005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7403D001, 0x7403D006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7403D001, 0x7403D007, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7403D001, 0x7403D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7403D001, 0x7403D009, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7403D001, 0x7403D00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7403D001, 0x7403D00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7403D001, 0x7403D00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7403D001, 0x7403D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7403D001, 0x7403D00E, '2019-02-10 00:00:00') /* Essa Sclavus Lord */;
+VALUES (0x7403D001, 0x7403D002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7403D001, 0x7403D003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7403D001, 0x7403D004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7403D001, 0x7403D005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7403D001, 0x7403D006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7403D001, 0x7403D007, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7403D001, 0x7403D008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7403D001, 0x7403D009, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7403D001, 0x7403D00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7403D001, 0x7403D00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7403D001, 0x7403D00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7403D001, 0x7403D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7403D001, 0x7403D00E, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7403D002, 36829, 0x403D001E, 92.04238, 128.699, 41.30478, -0.9227756, 0, 0, -0.3853377,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -76,7 +76,7 @@ VALUES (0x7403D00F,  1542, 0x403D0019, 82.38757, 16.1944, 11.0808, 1, 0, 0, 0, F
 /* @teleloc 0x403D0019 [82.387570 16.194400 11.080800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7403D00F, 0x7403D010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7403D00F, 0x7403D010, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7403D010, 22571, 0x403D0019, 82.38757, 16.1944, 11.0808, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

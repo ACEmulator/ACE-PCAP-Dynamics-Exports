@@ -5,12 +5,12 @@ VALUES (0x7DF54001,  1154, 0xDF540008, 4.854611, 183.0605, 15.25754, 0.5287786, 
 /* @teleloc 0xDF540008 [4.854611 183.060500 15.257540] 0.528779 0.000000 0.000000 -0.848760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF54001, 0x7DF54002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF54001, 0x7DF54003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF54001, 0x7DF54004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DF54001, 0x7DF54005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DF54001, 0x7DF54006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DF54001, 0x7DF54007, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7DF54001, 0x7DF54002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF54001, 0x7DF54003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF54001, 0x7DF54004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DF54001, 0x7DF54005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DF54001, 0x7DF54006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DF54001, 0x7DF54007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF54002,  1759, 0xDF540008, 4.854611, 183.0605, 15.25754, 0.5287786, 0, 0, -0.8487598,  True, '2019-02-10 00:00:00'); /* Skeleton */

@@ -5,31 +5,31 @@ VALUES (0x7E329001,  1154, 0xE3290016, 50.16665, 135.7758, 10.21466, 0.9899936, 
 /* @teleloc 0xE3290016 [50.166650 135.775800 10.214660] 0.989994 0.000000 0.000000 -0.141112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E329001, 0x7E329002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E329001, 0x7E329003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E329004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E329005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E329006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7E329001, 0x7E329007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E329001, 0x7E329008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329009, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7E329001, 0x7E32900A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E329001, 0x7E32900B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E32900C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E32900D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E32900E, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E32900F, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E329010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329014, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E329001, 0x7E329015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E329001, 0x7E329016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E329001, 0x7E329017, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E329001, 0x7E329018, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E329001, 0x7E329019, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E329001, 0x7E32901A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7E329001, 0x7E329002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E329001, 0x7E329003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E329004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E329005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E329006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7E329001, 0x7E329007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E329001, 0x7E329008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E329009, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7E329001, 0x7E32900A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E329001, 0x7E32900B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E32900C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E32900D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7E329001, 0x7E32900E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E32900F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E329010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E329011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E329012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7E329001, 0x7E329013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E329014, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E329001, 0x7E329015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E329001, 0x7E329016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E329001, 0x7E329017, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E329001, 0x7E329018, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E329001, 0x7E329019, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E329001, 0x7E32901A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E329002,  7179, 0xE3290016, 50.16665, 135.7758, 10.21466, 0.9899936, 0, 0, -0.1411119,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -136,8 +136,8 @@ VALUES (0x7E32901B,  1542, 0xE3290015, 55.95781, 96.56766, 3.014704, 0.9899936, 
 /* @teleloc 0xE3290015 [55.957810 96.567660 3.014704] 0.989994 0.000000 0.000000 -0.141112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E32901B, 0x7E32901C, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7E32901B, 0x7E32901D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E32901B, 0x7E32901C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7E32901B, 0x7E32901D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E32901C,  8644, 0xE3290015, 55.95781, 96.56766, 3.014704, 0.9899936, 0, 0, -0.1411119,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

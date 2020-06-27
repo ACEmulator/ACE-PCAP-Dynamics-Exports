@@ -5,24 +5,24 @@ VALUES (0x77EF4001,  1154, 0x7EF40034, 151.7441, 84.56637, 97.90351, -0.01444759
 /* @teleloc 0x7EF40034 [151.744100 84.566370 97.903510] -0.014448 0.000000 0.000000 -0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF4001, 0x77EF4002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77EF4001, 0x77EF4003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x77EF4001, 0x77EF4004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x77EF4001, 0x77EF4005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x77EF4001, 0x77EF4006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x77EF4001, 0x77EF4007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77EF4001, 0x77EF4008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EF4001, 0x77EF4009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EF4001, 0x77EF400A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EF4001, 0x77EF400B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77EF4001, 0x77EF400C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77EF4001, 0x77EF400D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77EF4001, 0x77EF400E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77EF4001, 0x77EF400F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77EF4001, 0x77EF4010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77EF4001, 0x77EF4011, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77EF4001, 0x77EF4012, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77EF4001, 0x77EF4013, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x77EF4001, 0x77EF4002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77EF4001, 0x77EF4003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x77EF4001, 0x77EF4004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x77EF4001, 0x77EF4005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x77EF4001, 0x77EF4006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x77EF4001, 0x77EF4007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77EF4001, 0x77EF4008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EF4001, 0x77EF4009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EF4001, 0x77EF400A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EF4001, 0x77EF400B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77EF4001, 0x77EF400C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77EF4001, 0x77EF400D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77EF4001, 0x77EF400E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77EF4001, 0x77EF400F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77EF4001, 0x77EF4010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77EF4001, 0x77EF4011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77EF4001, 0x77EF4012, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77EF4001, 0x77EF4013, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF4002,  7982, 0x7EF40034, 151.7441, 84.56637, 97.90351, -0.01444759, 0, 0, -0.9998956,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

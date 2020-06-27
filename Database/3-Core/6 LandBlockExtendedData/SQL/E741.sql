@@ -5,17 +5,17 @@ VALUES (0x7E741001,  1154, 0xE741000B, 43.20702, 59.75253, 88.07306, 0.5451818, 
 /* @teleloc 0xE741000B [43.207020 59.752530 88.073060] 0.545182 0.000000 0.000000 -0.838318 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E741001, 0x7E741002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E741001, 0x7E741003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E741001, 0x7E741004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E741001, 0x7E741005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E741001, 0x7E741006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E741001, 0x7E741007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E741001, 0x7E741008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E741001, 0x7E741009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E741001, 0x7E74100A, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E741001, 0x7E74100B, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E741001, 0x7E74100C, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7E741001, 0x7E741002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E741001, 0x7E741003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E741001, 0x7E741004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E741001, 0x7E741005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E741001, 0x7E741006, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7E741001, 0x7E741007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E741001, 0x7E741008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E741001, 0x7E741009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E741001, 0x7E74100A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E741001, 0x7E74100B, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E741001, 0x7E74100C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E741002,  4111, 0xE741000B, 43.20702, 59.75253, 88.07306, 0.5451818, 0, 0, -0.8383179,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -66,7 +66,7 @@ VALUES (0x7E74100D,  1542, 0xE741003E, 184.1297, 138.0963, 118.8846, -0.9995546,
 /* @teleloc 0xE741003E [184.129700 138.096300 118.884600] -0.999555 0.000000 0.000000 -0.029842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74100D, 0x7E74100E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E74100D, 0x7E74100E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74100E,  8037, 0xE741003E, 184.1297, 138.0963, 118.8846, -0.9995546, 0, 0, -0.02984239,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

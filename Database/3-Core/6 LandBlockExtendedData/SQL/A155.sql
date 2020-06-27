@@ -5,8 +5,8 @@ VALUES (0x7A155001,  1154, 0xA155002D, 124.5885, 105.3769, 121.37, 0.7660445, 0,
 /* @teleloc 0xA155002D [124.588500 105.376900 121.370000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A155001, 0x7A155002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A155001, 0x7A155003, '2019-02-10 00:00:00') /* Gout */;
+VALUES (0x7A155001, 0x7A155002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A155001, 0x7A155003, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A155002,  1608, 0xA155002D, 124.5885, 105.3769, 121.37, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -21,8 +21,8 @@ VALUES (0x7A155004,  1542, 0xA155002D, 123.626, 103.8598, 118.2671, 1, 0, 0, 0, 
 /* @teleloc 0xA155002D [123.626000 103.859800 118.267100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A155004, 0x7A155005, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A155004, 0x7A155006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A155004, 0x7A155005, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7A155004, 0x7A155006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A155005, 22576, 0xA155002D, 123.626, 103.8598, 118.2671, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

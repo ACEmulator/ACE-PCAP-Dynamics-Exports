@@ -5,13 +5,13 @@ VALUES (0x7EB4C001,  1154, 0xEB4C0001, 6.434179, 21.74099, 11.44882, 0.6482904, 
 /* @teleloc 0xEB4C0001 [6.434179 21.740990 11.448820] 0.648290 0.000000 0.000000 -0.761393 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB4C001, 0x7EB4C002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7EB4C001, 0x7EB4C003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EB4C001, 0x7EB4C004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EB4C001, 0x7EB4C005, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7EB4C001, 0x7EB4C006, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7EB4C001, 0x7EB4C007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7EB4C001, 0x7EB4C008, '2019-02-10 00:00:00') /* Laigus Lugian */;
+VALUES (0x7EB4C001, 0x7EB4C002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7EB4C001, 0x7EB4C003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EB4C001, 0x7EB4C004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EB4C001, 0x7EB4C005, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7EB4C001, 0x7EB4C006, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7EB4C001, 0x7EB4C007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7EB4C001, 0x7EB4C008, '2019-02-10 00:00:00') /* Laigus Lugian (5) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB4C002,  4111, 0xEB4C0001, 6.434179, 21.74099, 11.44882, 0.6482904, 0, 0, -0.7613932,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

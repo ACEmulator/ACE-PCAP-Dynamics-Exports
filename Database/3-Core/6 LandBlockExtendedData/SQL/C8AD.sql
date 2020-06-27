@@ -5,22 +5,22 @@ VALUES (0x7C8AD001,  1154, 0xC8AD0028, 110.4868, 183.9782, 112.2897, -0.8996934,
 /* @teleloc 0xC8AD0028 [110.486800 183.978200 112.289700] -0.899693 0.000000 0.000000 -0.436522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8AD001, 0x7C8AD002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8AD001, 0x7C8AD003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C8AD001, 0x7C8AD004, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7C8AD001, 0x7C8AD005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C8AD001, 0x7C8AD006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8AD001, 0x7C8AD007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8AD001, 0x7C8AD008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C8AD001, 0x7C8AD009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C8AD001, 0x7C8AD00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8AD001, 0x7C8AD00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8AD001, 0x7C8AD00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C8AD001, 0x7C8AD00D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C8AD001, 0x7C8AD00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C8AD001, 0x7C8AD00F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8AD001, 0x7C8AD010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C8AD001, 0x7C8AD011, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C8AD001, 0x7C8AD002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8AD001, 0x7C8AD003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C8AD001, 0x7C8AD004, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7C8AD001, 0x7C8AD005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C8AD001, 0x7C8AD006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8AD001, 0x7C8AD007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8AD001, 0x7C8AD008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C8AD001, 0x7C8AD009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C8AD001, 0x7C8AD00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8AD001, 0x7C8AD00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8AD001, 0x7C8AD00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C8AD001, 0x7C8AD00D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C8AD001, 0x7C8AD00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C8AD001, 0x7C8AD00F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8AD001, 0x7C8AD010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C8AD001, 0x7C8AD011, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8AD002,  1758, 0xC8AD0028, 110.4868, 183.9782, 112.2897, -0.8996934, 0, 0, -0.4365224,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -91,11 +91,11 @@ VALUES (0x7C8AD012,  1542, 0xC8AD0037, 158.5343, 161.7049, 118.8596, 0.1933898, 
 /* @teleloc 0xC8AD0037 [158.534300 161.704900 118.859600] 0.193390 0.000000 0.000000 -0.981122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8AD012, 0x7C8AD013, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7C8AD012, 0x7C8AD014, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C8AD012, 0x7C8AD015, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C8AD012, 0x7C8AD016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C8AD012, 0x7C8AD017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C8AD012, 0x7C8AD013, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7C8AD012, 0x7C8AD014, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C8AD012, 0x7C8AD015, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C8AD012, 0x7C8AD016, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C8AD012, 0x7C8AD017, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8AD013, 31686, 0xC8AD0037, 158.5343, 161.7049, 118.8596, 0.1933898, 0, 0, -0.981122,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

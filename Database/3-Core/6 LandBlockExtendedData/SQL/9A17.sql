@@ -5,13 +5,13 @@ VALUES (0x79A17001,  1154, 0x9A170020, 95.97711, 188.084, 310.6726, 0.9238795, 0
 /* @teleloc 0x9A170020 [95.977110 188.084000 310.672600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A17001, 0x79A17002, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x79A17001, 0x79A17003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79A17001, 0x79A17004, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x79A17001, 0x79A17005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x79A17001, 0x79A17006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79A17001, 0x79A17007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79A17001, 0x79A17008, '2019-02-10 00:00:00') /* Extas Lugian */;
+VALUES (0x79A17001, 0x79A17002, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x79A17001, 0x79A17003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79A17001, 0x79A17004, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x79A17001, 0x79A17005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x79A17001, 0x79A17006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79A17001, 0x79A17007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79A17001, 0x79A17008, '2019-02-10 00:00:00') /* Extas Lugian (7100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A17002,  1536, 0x9A170020, 95.97711, 188.084, 310.6726, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* K'nath Z'bog */

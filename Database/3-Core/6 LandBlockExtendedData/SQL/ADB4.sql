@@ -9,13 +9,13 @@ VALUES (0x7ADB4002,  1154, 0xADB40008, 17.19514, 169.4617, 37.44223, 0.809017, 0
 /* @teleloc 0xADB40008 [17.195140 169.461700 37.442230] 0.809017 0.000000 0.000000 -0.587785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB4002, 0x7ADB4003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7ADB4002, 0x7ADB4004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ADB4002, 0x7ADB4005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ADB4002, 0x7ADB4006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB4002, 0x7ADB4007, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ADB4002, 0x7ADB4008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB4002, 0x7ADB4009, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7ADB4002, 0x7ADB4003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7ADB4002, 0x7ADB4004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ADB4002, 0x7ADB4005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ADB4002, 0x7ADB4006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB4002, 0x7ADB4007, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ADB4002, 0x7ADB4008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB4002, 0x7ADB4009, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB4003, 24937, 0xADB40008, 17.19514, 169.4617, 37.44223, 0.809017, 0, 0, -0.5877852,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -50,7 +50,7 @@ VALUES (0x7ADB400A,  1542, 0xADB40009, 35.2324, 16.6678, 27.1, 0.01424379, 0, 0,
 /* @teleloc 0xADB40009 [35.232400 16.667800 27.100000] 0.014244 0.000000 0.000000 -0.999899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB400A, 0x7ADB400B, '2019-02-10 00:00:00') /* Birch Talisman */;
+VALUES (0x7ADB400A, 0x7ADB400B, '2019-02-10 00:00:00') /* Birch Talisman (741) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB400B,   741, 0xADB40009, 35.2324, 16.6678, 27.1, 0.01424379, 0, 0, -0.9998986,  True, '2019-02-10 00:00:00'); /* Birch Talisman */

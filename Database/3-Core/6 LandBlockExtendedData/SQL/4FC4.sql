@@ -5,10 +5,10 @@ VALUES (0x74FC4001,  1154, 0x4FC40012, 51.81524, 44.94618, 0.01320004, -4.371139
 /* @teleloc 0x4FC40012 [51.815240 44.946180 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FC4001, 0x74FC4002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74FC4001, 0x74FC4003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74FC4001, 0x74FC4004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74FC4001, 0x74FC4005, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x74FC4001, 0x74FC4002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74FC4001, 0x74FC4003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x74FC4001, 0x74FC4004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74FC4001, 0x74FC4005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FC4002,  7184, 0x4FC40012, 51.81524, 44.94618, 0.01320004, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

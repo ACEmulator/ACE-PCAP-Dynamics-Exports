@@ -5,11 +5,11 @@ VALUES (0x76197001,  1154, 0x61970017, 66.78612, 148.5617, 3.54376, 0.7923846, 0
 /* @teleloc 0x61970017 [66.786120 148.561700 3.543760] 0.792385 0.000000 0.000000 -0.610022 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76197001, 0x76197002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x76197001, 0x76197003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x76197001, 0x76197004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76197001, 0x76197005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76197001, 0x76197006, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x76197001, 0x76197002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x76197001, 0x76197003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x76197001, 0x76197004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76197001, 0x76197005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76197001, 0x76197006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76197002,  4255, 0x61970017, 66.78612, 148.5617, 3.54376, 0.7923846, 0, 0, -0.6100218,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -36,7 +36,7 @@ VALUES (0x76197007,  1542, 0x61970010, 42.84441, 179.8962, 1.581367, -0.5406592,
 /* @teleloc 0x61970010 [42.844410 179.896200 1.581367] -0.540659 0.000000 0.000000 -0.841242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76197007, 0x76197008, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x76197007, 0x76197008, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76197008, 31687, 0x61970010, 42.84441, 179.8962, 1.581367, -0.5406592, 0, 0, -0.8412417,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

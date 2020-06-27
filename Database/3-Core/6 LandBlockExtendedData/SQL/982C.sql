@@ -5,26 +5,26 @@ VALUES (0x7982C001,  1154, 0x982C0013, 62.95533, 64.84966, 50.867, 0.8104216, 0,
 /* @teleloc 0x982C0013 [62.955330 64.849660 50.867000] 0.810422 0.000000 0.000000 -0.585847 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982C001, 0x7982C002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7982C001, 0x7982C003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7982C001, 0x7982C004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7982C001, 0x7982C005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7982C001, 0x7982C006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7982C001, 0x7982C007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7982C001, 0x7982C008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7982C001, 0x7982C009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7982C001, 0x7982C00A, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7982C001, 0x7982C00B, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7982C001, 0x7982C00C, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7982C001, 0x7982C00D, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7982C001, 0x7982C00E, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7982C001, 0x7982C00F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7982C001, 0x7982C010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7982C001, 0x7982C011, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7982C001, 0x7982C012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7982C001, 0x7982C013, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7982C001, 0x7982C014, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7982C001, 0x7982C015, '2019-02-10 00:00:00') /* Rough Monouga */;
+VALUES (0x7982C001, 0x7982C002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7982C001, 0x7982C003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7982C001, 0x7982C004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7982C001, 0x7982C005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7982C001, 0x7982C006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7982C001, 0x7982C007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7982C001, 0x7982C008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7982C001, 0x7982C009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7982C001, 0x7982C00A, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7982C001, 0x7982C00B, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7982C001, 0x7982C00C, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7982C001, 0x7982C00D, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7982C001, 0x7982C00E, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7982C001, 0x7982C00F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7982C001, 0x7982C010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7982C001, 0x7982C011, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7982C001, 0x7982C012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7982C001, 0x7982C013, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7982C001, 0x7982C014, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7982C001, 0x7982C015, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982C002,  9251, 0x982C0013, 62.95533, 64.84966, 50.867, 0.8104216, 0, 0, -0.5858471,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -111,7 +111,7 @@ VALUES (0x7982C016,  1542, 0x982C0016, 70.12726, 137.5071, 38.38501, 0.9990482, 
 /* @teleloc 0x982C0016 [70.127260 137.507100 38.385010] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982C016, 0x7982C017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7982C016, 0x7982C017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982C017,  4179, 0x982C0016, 70.12726, 137.5071, 38.38501, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

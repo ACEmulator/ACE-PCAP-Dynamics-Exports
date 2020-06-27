@@ -5,16 +5,16 @@ VALUES (0x7A869001,  1154, 0xA8690005, 12.53846, 107.6344, 20.0025, 0.9794781, 0
 /* @teleloc 0xA8690005 [12.538460 107.634400 20.002500] 0.979478 0.000000 0.000000 -0.201550 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A869001, 0x7A869002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A869001, 0x7A869003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A869004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A869005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A869006, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A869001, 0x7A869007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A869008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A869009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A86900A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A869001, 0x7A86900B, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7A869001, 0x7A869002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A869001, 0x7A869003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A869004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A869005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A869006, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A869001, 0x7A869007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A869008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A869009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A86900A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A869001, 0x7A86900B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A869002,  1762, 0xA8690005, 12.53846, 107.6344, 20.0025, 0.9794781, 0, 0, -0.2015504,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

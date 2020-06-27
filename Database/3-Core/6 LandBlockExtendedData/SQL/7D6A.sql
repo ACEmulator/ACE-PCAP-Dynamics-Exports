@@ -5,15 +5,15 @@ VALUES (0x77D6A001,  1154, 0x7D6A0039, 175.3548, 16.76871, 8.615396, -0.9092968,
 /* @teleloc 0x7D6A0039 [175.354800 16.768710 8.615396] -0.909297 0.000000 0.000000 -0.416148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6A001, 0x77D6A002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77D6A001, 0x77D6A003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x77D6A001, 0x77D6A004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77D6A001, 0x77D6A005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77D6A001, 0x77D6A006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77D6A001, 0x77D6A007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77D6A001, 0x77D6A008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77D6A001, 0x77D6A009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77D6A001, 0x77D6A00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x77D6A001, 0x77D6A002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77D6A001, 0x77D6A003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x77D6A001, 0x77D6A004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77D6A001, 0x77D6A005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77D6A001, 0x77D6A006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77D6A001, 0x77D6A007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77D6A001, 0x77D6A008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77D6A001, 0x77D6A009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77D6A001, 0x77D6A00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6A002,  1759, 0x7D6A0039, 175.3548, 16.76871, 8.615396, -0.9092968, 0, 0, -0.4161483,  True, '2019-02-10 00:00:00'); /* Skeleton */

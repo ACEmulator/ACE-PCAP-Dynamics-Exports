@@ -33,24 +33,24 @@ VALUES (0x7015A01F,  1154, 0x015A018D, 9.964, -16.801, -17.99668, 0, 0, 0, -1, F
 /* @teleloc 0x015A018D [9.964000 -16.801000 -17.996680] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015A01F, 0x7015A020, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A021, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A022, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A023, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7015A01F, 0x7015A024, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A025, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A026, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7015A01F, 0x7015A027, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A028, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7015A01F, 0x7015A029, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7015A01F, 0x7015A02A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A02B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A02C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A02D, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7015A01F, 0x7015A02E, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7015A01F, 0x7015A02F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A030, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7015A01F, 0x7015A031, '2019-02-10 00:00:00') /* Gnawer Shreth */;
+VALUES (0x7015A01F, 0x7015A020, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A021, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A022, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A023, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7015A01F, 0x7015A024, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A025, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A026, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7015A01F, 0x7015A027, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A028, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7015A01F, 0x7015A029, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7015A01F, 0x7015A02A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A02B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A02C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A02D, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7015A01F, 0x7015A02E, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015A01F, 0x7015A02F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A030, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7015A01F, 0x7015A031, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015A020,     7, 0x015A018D, 9.964, -16.801, -17.99668, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -129,9 +129,9 @@ VALUES (0x7015A032,  1542, 0x015A0160, 26.54929, -41.3364, -30, -4.37114E-08, 0,
 /* @teleloc 0x015A0160 [26.549290 -41.336400 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015A032, 0x7015A033, '2019-02-10 00:00:00') /* Fish */
-     , (0x7015A032, 0x7015A034, '2019-02-10 00:00:00') /* Water */
-     , (0x7015A032, 0x7015A035, '2019-02-10 00:00:00') /* Flask of Well Water */;
+VALUES (0x7015A032, 0x7015A033, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7015A032, 0x7015A034, '2019-02-10 00:00:00') /* Water (4746) */
+     , (0x7015A032, 0x7015A035, '2019-02-10 00:00:00') /* Flask of Well Water (5139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015A033,   263, 0x015A0160, 26.54929, -41.3364, -30, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Fish */

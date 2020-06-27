@@ -5,9 +5,9 @@ VALUES (0x754E8001,  1154, 0x54E8000D, 45.67817, 105.2795, 74.04103, 0.8191521, 
 /* @teleloc 0x54E8000D [45.678170 105.279500 74.041030] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754E8001, 0x754E8002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x754E8001, 0x754E8003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x754E8001, 0x754E8004, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x754E8001, 0x754E8002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x754E8001, 0x754E8003, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x754E8001, 0x754E8004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754E8002,  7121, 0x54E8000D, 45.67817, 105.2795, 74.04103, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

@@ -5,18 +5,18 @@ VALUES (0x722B2001,  1154, 0x22B2000B, 33.74072, 48.03556, 26.81469, 0.7274635, 
 /* @teleloc 0x22B2000B [33.740720 48.035560 26.814690] 0.727464 0.000000 0.000000 -0.686146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B2001, 0x722B2002, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x722B2001, 0x722B2003, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x722B2001, 0x722B2004, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x722B2001, 0x722B2005, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x722B2001, 0x722B2006, '2019-02-10 00:00:00') /* Brigand */
-     , (0x722B2001, 0x722B2007, '2019-02-10 00:00:00') /* Bandit */
-     , (0x722B2001, 0x722B2008, '2019-02-10 00:00:00') /* Brigand */
-     , (0x722B2001, 0x722B2009, '2019-02-10 00:00:00') /* Bandit */
-     , (0x722B2001, 0x722B200A, '2019-02-10 00:00:00') /* Bandit */
-     , (0x722B2001, 0x722B200B, '2019-02-10 00:00:00') /* Bandit */
-     , (0x722B2001, 0x722B200C, '2019-02-10 00:00:00') /* Brigand */
-     , (0x722B2001, 0x722B200D, '2019-02-10 00:00:00') /* Bandit */;
+VALUES (0x722B2001, 0x722B2002, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x722B2001, 0x722B2003, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x722B2001, 0x722B2004, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x722B2001, 0x722B2005, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x722B2001, 0x722B2006, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x722B2001, 0x722B2007, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x722B2001, 0x722B2008, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x722B2001, 0x722B2009, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x722B2001, 0x722B200A, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x722B2001, 0x722B200B, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x722B2001, 0x722B200C, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x722B2001, 0x722B200D, '2019-02-10 00:00:00') /* Bandit (11499) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B2002, 11494, 0x22B2000B, 33.74072, 48.03556, 26.81469, 0.7274635, 0, 0, -0.6861464,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling */
@@ -71,7 +71,7 @@ VALUES (0x722B200E,  1154, 0x22B2001F, 75.7657, 163.306, 31.61483, 1, 0, 0, 0, F
 /* @teleloc 0x22B2001F [75.765700 163.306000 31.614830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B200E, 0x722B200F, '2019-02-10 00:00:00') /* Aun Bernawa */;
+VALUES (0x722B200E, 0x722B200F, '2019-02-10 00:00:00') /* Aun Bernawa (11372) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B200F, 11372, 0x22B2001F, 75.7657, 163.306, 31.61483, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Bernawa */
@@ -82,9 +82,9 @@ VALUES (0x722B2010,  1542, 0x22B2000B, 27.72956, 48.14968, 26.47327, 0.7274635, 
 /* @teleloc 0x22B2000B [27.729560 48.149680 26.473270] 0.727464 0.000000 0.000000 -0.686146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B2010, 0x722B2011, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator */
-     , (0x722B2010, 0x722B2012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722B2010, 0x722B2013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x722B2010, 0x722B2011, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator (11565) */
+     , (0x722B2010, 0x722B2012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722B2010, 0x722B2013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B2011, 11565, 0x22B2000B, 27.72956, 48.14968, 26.47327, 0.7274635, 0, 0, -0.6861464,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling Camp Generator */

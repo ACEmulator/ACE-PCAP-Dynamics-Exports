@@ -5,20 +5,20 @@ VALUES (0x78D42001,  1154, 0x8D420034, 156.9128, 92.37756, 14.0055, -0.8668727, 
 /* @teleloc 0x8D420034 [156.912800 92.377560 14.005500] -0.866873 0.000000 0.000000 -0.498530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D42001, 0x78D42002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78D42001, 0x78D42003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78D42001, 0x78D42004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78D42001, 0x78D42005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x78D42001, 0x78D42006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x78D42001, 0x78D42007, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x78D42001, 0x78D42008, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78D42001, 0x78D42009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78D42001, 0x78D4200A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x78D42001, 0x78D4200B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78D42001, 0x78D4200C, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x78D42001, 0x78D4200D, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78D42001, 0x78D4200E, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x78D42001, 0x78D4200F, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x78D42001, 0x78D42002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78D42001, 0x78D42003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78D42001, 0x78D42004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78D42001, 0x78D42005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x78D42001, 0x78D42006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x78D42001, 0x78D42007, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x78D42001, 0x78D42008, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78D42001, 0x78D42009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78D42001, 0x78D4200A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x78D42001, 0x78D4200B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78D42001, 0x78D4200C, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x78D42001, 0x78D4200D, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78D42001, 0x78D4200E, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x78D42001, 0x78D4200F, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D42002,   229, 0x8D420034, 156.9128, 92.37756, 14.0055, -0.8668727, 0, 0, -0.4985296,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -81,8 +81,8 @@ VALUES (0x78D42010,  1542, 0x8D420035, 147.9066, 103.8307, 13.99, -0.8668727, 0,
 /* @teleloc 0x8D420035 [147.906600 103.830700 13.990000] -0.866873 0.000000 0.000000 -0.498530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D42010, 0x78D42011, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x78D42010, 0x78D42012, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x78D42010, 0x78D42011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x78D42010, 0x78D42012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D42011,  9286, 0x8D420035, 147.9066, 103.8307, 13.99, -0.8668727, 0, 0, -0.4985296,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

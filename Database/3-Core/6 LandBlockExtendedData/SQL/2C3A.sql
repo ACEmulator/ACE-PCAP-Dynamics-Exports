@@ -5,9 +5,9 @@ VALUES (0x72C3A001,  1154, 0x2C3A001F, 88.14314, 146.8824, 163.1416, -0.9746602,
 /* @teleloc 0x2C3A001F [88.143140 146.882400 163.141600] -0.974660 0.000000 0.000000 -0.223690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C3A001, 0x72C3A002, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72C3A001, 0x72C3A003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72C3A001, 0x72C3A004, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x72C3A001, 0x72C3A002, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72C3A001, 0x72C3A003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72C3A001, 0x72C3A004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C3A002, 21552, 0x2C3A001F, 88.14314, 146.8824, 163.1416, -0.9746602, 0, 0, -0.2236904,  True, '2019-02-10 00:00:00'); /* Tempest Wisp */

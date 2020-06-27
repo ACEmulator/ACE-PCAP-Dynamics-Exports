@@ -5,9 +5,9 @@ VALUES (0x71852001,  1154, 0x1852003A, 181.4187, 43.42926, 66.33652, 0.7717189, 
 /* @teleloc 0x1852003A [181.418700 43.429260 66.336520] 0.771719 0.000000 0.000000 -0.635964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71852001, 0x71852002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71852001, 0x71852003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71852001, 0x71852004, '2019-02-10 00:00:00') /* Tsuric */;
+VALUES (0x71852001, 0x71852002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71852001, 0x71852003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71852001, 0x71852004, '2019-02-10 00:00:00') /* Tsuric (14877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71852002, 36825, 0x1852003A, 181.4187, 43.42926, 66.33652, 0.7717189, 0, 0, -0.6359637,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

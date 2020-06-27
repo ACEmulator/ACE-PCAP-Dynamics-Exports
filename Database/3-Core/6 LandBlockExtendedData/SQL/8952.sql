@@ -5,11 +5,11 @@ VALUES (0x78952001,  1154, 0x89520002, 20.15964, 43.4894, 0.006000042, 0.8541333
 /* @teleloc 0x89520002 [20.159640 43.489400 0.006000] 0.854133 0.000000 0.000000 -0.520054 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78952001, 0x78952002, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78952001, 0x78952003, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78952001, 0x78952004, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78952001, 0x78952005, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78952001, 0x78952006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */;
+VALUES (0x78952001, 0x78952002, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78952001, 0x78952003, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78952001, 0x78952004, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78952001, 0x78952005, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78952001, 0x78952006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78952002, 41572, 0x89520002, 20.15964, 43.4894, 0.006000042, 0.8541333, 0, 0, -0.5200542,  True, '2019-02-10 00:00:00'); /* Bronze Gauntlet Trooper */

@@ -5,14 +5,14 @@ VALUES (0x783C1001,  1154, 0x83C1003C, 191.4946, 86.3923, 108.4508, 0.4213267, 0
 /* @teleloc 0x83C1003C [191.494600 86.392300 108.450800] 0.421327 0.000000 0.000000 -0.906909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C1001, 0x783C1002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x783C1001, 0x783C1003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x783C1001, 0x783C1004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x783C1001, 0x783C1005, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x783C1001, 0x783C1006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x783C1001, 0x783C1007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x783C1001, 0x783C1008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x783C1001, 0x783C1009, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x783C1001, 0x783C1002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x783C1001, 0x783C1003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x783C1001, 0x783C1004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x783C1001, 0x783C1005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x783C1001, 0x783C1006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x783C1001, 0x783C1007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x783C1001, 0x783C1008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x783C1001, 0x783C1009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C1002, 14800, 0x83C1003C, 191.4946, 86.3923, 108.4508, 0.4213267, 0, 0, -0.9069089,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

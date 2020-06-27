@@ -5,24 +5,24 @@ VALUES (0x7E555001,  1154, 0xE5550013, 58.95553, 57.40379, 0.007499993, -0.99999
 /* @teleloc 0xE5550013 [58.955530 57.403790 0.007500] -0.999999 0.000000 0.000000 -0.001347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E555001, 0x7E555002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E555001, 0x7E555003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E555001, 0x7E555004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E555001, 0x7E555005, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E555001, 0x7E555006, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E555001, 0x7E555007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E555001, 0x7E555008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E555001, 0x7E555009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E555001, 0x7E55500A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E555001, 0x7E55500B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E555001, 0x7E55500C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E555001, 0x7E55500D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E555001, 0x7E55500E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E555001, 0x7E55500F, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E555001, 0x7E555010, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E555001, 0x7E555011, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E555001, 0x7E555012, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E555001, 0x7E555013, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E555001, 0x7E555002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E555001, 0x7E555003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E555001, 0x7E555004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E555001, 0x7E555005, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E555001, 0x7E555006, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E555001, 0x7E555007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E555001, 0x7E555008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E555001, 0x7E555009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E555001, 0x7E55500A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E555001, 0x7E55500B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E555001, 0x7E55500C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E555001, 0x7E55500D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E555001, 0x7E55500E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E555001, 0x7E55500F, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E555001, 0x7E555010, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E555001, 0x7E555011, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E555001, 0x7E555012, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E555001, 0x7E555013, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E555002,  1630, 0xE5550013, 58.95553, 57.40379, 0.007499993, -0.9999991, 0, 0, -0.0013465,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -101,9 +101,9 @@ VALUES (0x7E555014,  1542, 0xE5550027, 116.6879, 166.5142, -0.1, 1, 0, 0, 0, Fal
 /* @teleloc 0xE5550027 [116.687900 166.514200 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E555014, 0x7E555015, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E555014, 0x7E555016, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E555014, 0x7E555017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E555014, 0x7E555015, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E555014, 0x7E555016, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E555014, 0x7E555017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E555015,  8588, 0xE5550027, 116.6879, 166.5142, -0.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,14 +5,14 @@ VALUES (0x7BF47001,  1154, 0xBF470019, 73.72518, 15.09947, 40.13626, 0.9238795, 
 /* @teleloc 0xBF470019 [73.725180 15.099470 40.136260] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF47001, 0x7BF47002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7BF47001, 0x7BF47003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7BF47001, 0x7BF47004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BF47001, 0x7BF47005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BF47001, 0x7BF47006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BF47001, 0x7BF47007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BF47001, 0x7BF47008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7BF47001, 0x7BF47009, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7BF47001, 0x7BF47002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7BF47001, 0x7BF47003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7BF47001, 0x7BF47004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BF47001, 0x7BF47005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BF47001, 0x7BF47006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BF47001, 0x7BF47007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BF47001, 0x7BF47008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7BF47001, 0x7BF47009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF47002,  2612, 0xBF470019, 73.72518, 15.09947, 40.13626, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7BF4700A,  1542, 0xBF470019, 75.53442, 12.99076, 40.29454, 0.9990482, 
 /* @teleloc 0xBF470019 [75.534420 12.990760 40.294540] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF4700A, 0x7BF4700B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BF4700A, 0x7BF4700B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF4700B,  4179, 0xBF470019, 75.53442, 12.99076, 40.29454, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

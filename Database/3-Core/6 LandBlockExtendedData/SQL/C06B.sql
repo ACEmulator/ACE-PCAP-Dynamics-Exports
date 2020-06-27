@@ -5,14 +5,14 @@ VALUES (0x7C06B001,  1154, 0xC06B001F, 86.72081, 164.3387, 63.22924, 0.8870109, 
 /* @teleloc 0xC06B001F [86.720810 164.338700 63.229240] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06B001, 0x7C06B002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C06B001, 0x7C06B003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C06B001, 0x7C06B004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C06B001, 0x7C06B005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C06B001, 0x7C06B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C06B001, 0x7C06B007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C06B001, 0x7C06B008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C06B001, 0x7C06B009, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C06B001, 0x7C06B002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C06B001, 0x7C06B003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C06B001, 0x7C06B004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C06B001, 0x7C06B005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C06B001, 0x7C06B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C06B001, 0x7C06B007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C06B001, 0x7C06B008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C06B001, 0x7C06B009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06B002,  1756, 0xC06B001F, 86.72081, 164.3387, 63.22924, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

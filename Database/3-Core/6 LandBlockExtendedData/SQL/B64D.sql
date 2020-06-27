@@ -5,10 +5,10 @@ VALUES (0x7B64D001,  1154, 0xB64D0019, 77.92037, 20.34822, 15.43531, 0.7005145, 
 /* @teleloc 0xB64D0019 [77.920370 20.348220 15.435310] 0.700515 0.000000 0.000000 -0.713638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64D001, 0x7B64D002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B64D001, 0x7B64D003, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B64D001, 0x7B64D004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B64D001, 0x7B64D005, '2019-02-10 00:00:00') /* Auroch Fire Cow */;
+VALUES (0x7B64D001, 0x7B64D002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B64D001, 0x7B64D003, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B64D001, 0x7B64D004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B64D001, 0x7B64D005, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64D002,  5497, 0xB64D0019, 77.92037, 20.34822, 15.43531, 0.7005145, 0, 0, -0.7136382,  True, '2019-02-10 00:00:00'); /* Virindi Director */

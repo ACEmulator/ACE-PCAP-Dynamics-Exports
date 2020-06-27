@@ -5,8 +5,8 @@ VALUES (0x76E9C001,  1154, 0x6E9C0022, 98.49189, 47.97749, 100.4111, -0.8099161,
 /* @teleloc 0x6E9C0022 [98.491890 47.977490 100.411100] -0.809916 0.000000 0.000000 -0.586546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E9C001, 0x76E9C002, '2019-02-10 00:00:00') /* Frost */
-     , (0x76E9C001, 0x76E9C003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */;
+VALUES (0x76E9C001, 0x76E9C002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76E9C001, 0x76E9C003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E9C002, 14512, 0x6E9C0022, 98.49189, 47.97749, 100.4111, -0.8099161, 0, 0, -0.5865458,  True, '2019-02-10 00:00:00'); /* Frost */

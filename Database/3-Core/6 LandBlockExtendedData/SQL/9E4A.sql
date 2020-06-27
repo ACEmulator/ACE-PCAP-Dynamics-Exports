@@ -5,10 +5,10 @@ VALUES (0x79E4A001,  1154, 0x9E4A000C, 44.27304, 94.44794, 101.2001, 0.1765614, 
 /* @teleloc 0x9E4A000C [44.273040 94.447940 101.200100] 0.176561 0.000000 0.000000 -0.984290 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E4A001, 0x79E4A002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79E4A001, 0x79E4A003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79E4A001, 0x79E4A004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79E4A001, 0x79E4A005, '2019-02-10 00:00:00') /* Innocent Doll */;
+VALUES (0x79E4A001, 0x79E4A002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79E4A001, 0x79E4A003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79E4A001, 0x79E4A004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79E4A001, 0x79E4A005, '2019-02-10 00:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E4A002,  1756, 0x9E4A000C, 44.27304, 94.44794, 101.2001, 0.1765614, 0, 0, -0.9842896,  True, '2019-02-10 00:00:00'); /* Shadow Child */

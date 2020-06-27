@@ -5,15 +5,15 @@ VALUES (0x7BAF1001,  1154, 0xBAF10006, 1.507385, 134.9367, 395.1746, -0.3223584,
 /* @teleloc 0xBAF10006 [1.507385 134.936700 395.174600] -0.322358 0.000000 0.000000 -0.946618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAF1001, 0x7BAF1002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAF1001, 0x7BAF1003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAF1001, 0x7BAF1004, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAF1001, 0x7BAF1005, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAF1001, 0x7BAF1006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAF1001, 0x7BAF1007, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAF1001, 0x7BAF1008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF1001, 0x7BAF1009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF1001, 0x7BAF100A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */;
+VALUES (0x7BAF1001, 0x7BAF1002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAF1001, 0x7BAF1003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAF1001, 0x7BAF1004, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAF1001, 0x7BAF1005, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAF1001, 0x7BAF1006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAF1001, 0x7BAF1007, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAF1001, 0x7BAF1008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF1001, 0x7BAF1009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF1001, 0x7BAF100A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF1002,  5748, 0xBAF10006, 1.507385, 134.9367, 395.1746, -0.3223584, 0, 0, -0.9466177,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

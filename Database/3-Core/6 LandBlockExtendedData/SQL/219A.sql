@@ -9,10 +9,10 @@ VALUES (0x7219A001,  1154, 0x219A0002, 9.640335, 24.76059, 4.016807, -0.1736482,
 /* @teleloc 0x219A0002 [9.640335 24.760590 4.016807] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7219A001, 0x7219A002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7219A001, 0x7219A003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7219A001, 0x7219A004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7219A001, 0x7219A005, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x7219A001, 0x7219A002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7219A001, 0x7219A003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7219A001, 0x7219A004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7219A001, 0x7219A005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7219A002,  7112, 0x219A0002, 9.640335, 24.76059, 4.016807, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -35,7 +35,7 @@ VALUES (0x7219A006,  1542, 0x219A0032, 164.1018, 40.79174, 56.92648, 1, 0, 0, 0,
 /* @teleloc 0x219A0032 [164.101800 40.791740 56.926480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7219A006, 0x7219A007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7219A006, 0x7219A007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7219A007,  4380, 0x219A0032, 164.1018, 40.79174, 56.92648, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

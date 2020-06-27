@@ -5,10 +5,10 @@ VALUES (0x7D138001,  1154, 0xD138003C, 172.8417, 93.80865, 159.4622, 0.9616972, 
 /* @teleloc 0xD138003C [172.841700 93.808650 159.462200] 0.961697 0.000000 0.000000 -0.274114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D138001, 0x7D138002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D138001, 0x7D138003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D138001, 0x7D138004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D138001, 0x7D138005, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7D138001, 0x7D138002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D138001, 0x7D138003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D138001, 0x7D138004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D138001, 0x7D138005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D138002, 14521, 0xD138003C, 172.8417, 93.80865, 159.4622, 0.9616972, 0, 0, -0.2741143,  True, '2019-02-10 00:00:00'); /* Glacial Golem */

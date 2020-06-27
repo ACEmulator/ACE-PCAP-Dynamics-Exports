@@ -41,76 +41,76 @@ VALUES (0x75D47052,  1154, 0x5D47011F, 43.3589, -71.0054, 6.01, 0.4319188, 0, 0,
 /* @teleloc 0x5D47011F [43.358900 -71.005400 6.010000] 0.431919 0.000000 0.000000 -0.901913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D47052, 0x75D47053, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47054, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47055, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47056, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47057, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47058, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47059, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D4705A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D4705B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D4705C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D4705D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D4705E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D4705F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47060, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47061, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47062, '2019-02-10 00:00:00') /* Warden of Raising Self */
-     , (0x75D47052, 0x75D47063, '2019-02-10 00:00:00') /* Servant of Alteration */
-     , (0x75D47052, 0x75D47064, '2019-02-10 00:00:00') /* Warden of Raising Strength */
-     , (0x75D47052, 0x75D47065, '2019-02-10 00:00:00') /* Warden of Raising Coordination */
-     , (0x75D47052, 0x75D47066, '2019-02-10 00:00:00') /* Warden of Raising Endurance */
-     , (0x75D47052, 0x75D47067, '2019-02-10 00:00:00') /* Servant of Enlightenment */
-     , (0x75D47052, 0x75D47068, '2019-02-10 00:00:00') /* Warden of Raising Focus */
-     , (0x75D47052, 0x75D47069, '2019-02-10 00:00:00') /* Warden of Raising Quickness */
-     , (0x75D47052, 0x75D4706A, '2019-02-10 00:00:00') /* Dirty Fighting Warden of Enlightenment */
-     , (0x75D47052, 0x75D4706B, '2019-02-10 00:00:00') /* Deception Warden of Enlightenment */
-     , (0x75D47052, 0x75D4706C, '2019-02-10 00:00:00') /* Alchemy Warden of Enlightenment */
-     , (0x75D47052, 0x75D4706D, '2019-02-10 00:00:00') /* Assess Person Warden of Enlightenment */
-     , (0x75D47052, 0x75D4706E, '2019-02-10 00:00:00') /* Creature Enchantment Warden of Enlightenment */
-     , (0x75D47052, 0x75D4706F, '2019-02-10 00:00:00') /* Assess Creature Warden of Enlightenment */
-     , (0x75D47052, 0x75D47070, '2019-02-10 00:00:00') /* Cooking Warden of Enlightenment */
-     , (0x75D47052, 0x75D47071, '2019-02-10 00:00:00') /* Arcane Lore Warden of Enlightenment */
-     , (0x75D47052, 0x75D47072, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment */
-     , (0x75D47052, 0x75D47073, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment */
-     , (0x75D47052, 0x75D47074, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment */
-     , (0x75D47052, 0x75D47075, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment */
-     , (0x75D47052, 0x75D47076, '2019-02-10 00:00:00') /* Recklessness Warden of Enlightenment */
-     , (0x75D47052, 0x75D47077, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment */
-     , (0x75D47052, 0x75D47078, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment */
-     , (0x75D47052, 0x75D47079, '2019-02-10 00:00:00') /* Missile Weapons Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707A, '2019-02-10 00:00:00') /* Run Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707B, '2019-02-10 00:00:00') /* Jump Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707C, '2019-02-10 00:00:00') /* Dual Wield Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707D, '2019-02-10 00:00:00') /* Finesse Weapons Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707E, '2019-02-10 00:00:00') /* Heavy Weapons Warden of Enlightenment */
-     , (0x75D47052, 0x75D4707F, '2019-02-10 00:00:00') /* Life Magic Warden of Enlightenment */
-     , (0x75D47052, 0x75D47080, '2019-02-10 00:00:00') /* Item Enchantment Warden of Enlightenment */
-     , (0x75D47052, 0x75D47081, '2019-02-10 00:00:00') /* Fletching Warden of Enlightenment */
-     , (0x75D47052, 0x75D47082, '2019-02-10 00:00:00') /* Healing Warden of Enlightenment */
-     , (0x75D47052, 0x75D47083, '2019-02-10 00:00:00') /* Leadership Warden of Enlightenment */
-     , (0x75D47052, 0x75D47084, '2019-02-10 00:00:00') /* Melee Defense Warden of Enlightenment */
-     , (0x75D47052, 0x75D47085, '2019-02-10 00:00:00') /* Light Weapons Warden of Enlightenment */
-     , (0x75D47052, 0x75D47086, '2019-02-10 00:00:00') /* Lockpick Warden of Enlightenment */
-     , (0x75D47052, 0x75D47087, '2019-02-10 00:00:00') /* Loyalty Warden of Enlightenment */
-     , (0x75D47052, 0x75D47088, '2019-02-10 00:00:00') /* Magic Defense Warden of Enlightenment */
-     , (0x75D47052, 0x75D47089, '2019-02-10 00:00:00') /* Missile Defense Warden of Enlightenment */
-     , (0x75D47052, 0x75D4708A, '2019-02-10 00:00:00') /* Mana Conversion Warden of Enlightenment */
-     , (0x75D47052, 0x75D4708B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D4708C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D4708D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D4708E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D4708F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D47052, 0x75D47090, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47091, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47092, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47093, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47094, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47095, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47096, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47097, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D47052, 0x75D47098, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x75D47052, 0x75D47053, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47054, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47055, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47056, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47057, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47058, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47059, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D4705A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D4705B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D4705C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D4705D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D4705E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D4705F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47060, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47061, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47062, '2019-02-10 00:00:00') /* Warden of Raising Self (32476) */
+     , (0x75D47052, 0x75D47063, '2019-02-10 00:00:00') /* Servant of Alteration (32551) */
+     , (0x75D47052, 0x75D47064, '2019-02-10 00:00:00') /* Warden of Raising Strength (32473) */
+     , (0x75D47052, 0x75D47065, '2019-02-10 00:00:00') /* Warden of Raising Coordination (32472) */
+     , (0x75D47052, 0x75D47066, '2019-02-10 00:00:00') /* Warden of Raising Endurance (32477) */
+     , (0x75D47052, 0x75D47067, '2019-02-10 00:00:00') /* Servant of Enlightenment (32553) */
+     , (0x75D47052, 0x75D47068, '2019-02-10 00:00:00') /* Warden of Raising Focus (32475) */
+     , (0x75D47052, 0x75D47069, '2019-02-10 00:00:00') /* Warden of Raising Quickness (32474) */
+     , (0x75D47052, 0x75D4706A, '2019-02-10 00:00:00') /* Dirty Fighting Warden of Enlightenment (45390) */
+     , (0x75D47052, 0x75D4706B, '2019-02-10 00:00:00') /* Deception Warden of Enlightenment (32461) */
+     , (0x75D47052, 0x75D4706C, '2019-02-10 00:00:00') /* Alchemy Warden of Enlightenment (32451) */
+     , (0x75D47052, 0x75D4706D, '2019-02-10 00:00:00') /* Assess Person Warden of Enlightenment (32442) */
+     , (0x75D47052, 0x75D4706E, '2019-02-10 00:00:00') /* Creature Enchantment Warden of Enlightenment (32458) */
+     , (0x75D47052, 0x75D4706F, '2019-02-10 00:00:00') /* Assess Creature Warden of Enlightenment (32457) */
+     , (0x75D47052, 0x75D47070, '2019-02-10 00:00:00') /* Cooking Warden of Enlightenment (32456) */
+     , (0x75D47052, 0x75D47071, '2019-02-10 00:00:00') /* Arcane Lore Warden of Enlightenment (32452) */
+     , (0x75D47052, 0x75D47072, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment (49483) */
+     , (0x75D47052, 0x75D47073, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment (45394) */
+     , (0x75D47052, 0x75D47074, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment (45393) */
+     , (0x75D47052, 0x75D47075, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment (43399) */
+     , (0x75D47052, 0x75D47076, '2019-02-10 00:00:00') /* Recklessness Warden of Enlightenment (45392) */
+     , (0x75D47052, 0x75D47077, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment (41741) */
+     , (0x75D47052, 0x75D47078, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment (32449) */
+     , (0x75D47052, 0x75D47079, '2019-02-10 00:00:00') /* Missile Weapons Warden of Enlightenment (32455) */
+     , (0x75D47052, 0x75D4707A, '2019-02-10 00:00:00') /* Run Warden of Enlightenment (32443) */
+     , (0x75D47052, 0x75D4707B, '2019-02-10 00:00:00') /* Jump Warden of Enlightenment (32466) */
+     , (0x75D47052, 0x75D4707C, '2019-02-10 00:00:00') /* Dual Wield Warden of Enlightenment (45391) */
+     , (0x75D47052, 0x75D4707D, '2019-02-10 00:00:00') /* Finesse Weapons Warden of Enlightenment (32460) */
+     , (0x75D47052, 0x75D4707E, '2019-02-10 00:00:00') /* Heavy Weapons Warden of Enlightenment (32446) */
+     , (0x75D47052, 0x75D4707F, '2019-02-10 00:00:00') /* Life Magic Warden of Enlightenment (32468) */
+     , (0x75D47052, 0x75D47080, '2019-02-10 00:00:00') /* Item Enchantment Warden of Enlightenment (32465) */
+     , (0x75D47052, 0x75D47081, '2019-02-10 00:00:00') /* Fletching Warden of Enlightenment (32462) */
+     , (0x75D47052, 0x75D47082, '2019-02-10 00:00:00') /* Healing Warden of Enlightenment (32463) */
+     , (0x75D47052, 0x75D47083, '2019-02-10 00:00:00') /* Leadership Warden of Enlightenment (32467) */
+     , (0x75D47052, 0x75D47084, '2019-02-10 00:00:00') /* Melee Defense Warden of Enlightenment (32440) */
+     , (0x75D47052, 0x75D47085, '2019-02-10 00:00:00') /* Light Weapons Warden of Enlightenment (32454) */
+     , (0x75D47052, 0x75D47086, '2019-02-10 00:00:00') /* Lockpick Warden of Enlightenment (32469) */
+     , (0x75D47052, 0x75D47087, '2019-02-10 00:00:00') /* Loyalty Warden of Enlightenment (32470) */
+     , (0x75D47052, 0x75D47088, '2019-02-10 00:00:00') /* Magic Defense Warden of Enlightenment (32437) */
+     , (0x75D47052, 0x75D47089, '2019-02-10 00:00:00') /* Missile Defense Warden of Enlightenment (32441) */
+     , (0x75D47052, 0x75D4708A, '2019-02-10 00:00:00') /* Mana Conversion Warden of Enlightenment (32439) */
+     , (0x75D47052, 0x75D4708B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D4708C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D4708D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D4708E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D4708F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D47052, 0x75D47090, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47091, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47092, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47093, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47094, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47095, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47096, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47097, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D47052, 0x75D47098, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D47053,   194, 0x5D47011F, 43.3589, -71.0054, 6.01, 0.4319188, 0, 0, -0.9019125,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -397,8 +397,8 @@ VALUES (0x75D47099,  1542, 0x5D47017F, 50.46846, -119.5315, 18.06954, 0.9238795,
 /* @teleloc 0x5D47017F [50.468460 -119.531500 18.069540] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D47099, 0x75D4709A, '2019-02-10 00:00:00') /* The Temple of Enlightenment */
-     , (0x75D47099, 0x75D4709B, '2019-02-10 00:00:00') /* A Note From Ciandra */;
+VALUES (0x75D47099, 0x75D4709A, '2019-02-10 00:00:00') /* The Temple of Enlightenment (22763) */
+     , (0x75D47099, 0x75D4709B, '2019-02-10 00:00:00') /* A Note From Ciandra (22949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4709A, 22763, 0x5D47017F, 50.46846, -119.5315, 18.06954, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* The Temple of Enlightenment */

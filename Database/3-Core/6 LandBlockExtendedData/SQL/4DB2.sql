@@ -5,10 +5,10 @@ VALUES (0x74DB2001,  1154, 0x4DB20024, 111.4853, 82.53085, 94.99825, 0.7071068, 
 /* @teleloc 0x4DB20024 [111.485300 82.530850 94.998250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DB2001, 0x74DB2002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74DB2001, 0x74DB2003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74DB2001, 0x74DB2004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74DB2001, 0x74DB2005, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x74DB2001, 0x74DB2002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74DB2001, 0x74DB2003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74DB2001, 0x74DB2004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74DB2001, 0x74DB2005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DB2002, 24289, 0x4DB20024, 111.4853, 82.53085, 94.99825, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -31,7 +31,7 @@ VALUES (0x74DB2006,  1542, 0x4DB20024, 112.5846, 87.30139, 95.41984, -4.371139E-
 /* @teleloc 0x4DB20024 [112.584600 87.301390 95.419840] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DB2006, 0x74DB2007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74DB2006, 0x74DB2007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DB2007,  4380, 0x4DB20024, 112.5846, 87.30139, 95.41984, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

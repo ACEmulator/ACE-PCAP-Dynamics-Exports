@@ -9,18 +9,18 @@ VALUES (0x71BBC00E,  1154, 0x1BBC0015, 55.5893, 108.752, 96, 0.202298, 0, 0, -0.
 /* @teleloc 0x1BBC0015 [55.589300 108.752000 96.000000] 0.202298 0.000000 0.000000 -0.979324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBC00E, 0x71BBC00F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x71BBC00E, 0x71BBC010, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x71BBC00E, 0x71BBC011, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x71BBC00E, 0x71BBC012, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBC00E, 0x71BBC013, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71BBC00E, 0x71BBC014, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71BBC00E, 0x71BBC015, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71BBC00E, 0x71BBC016, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBC00E, 0x71BBC017, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBC00E, 0x71BBC018, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71BBC00E, 0x71BBC019, '2019-02-10 00:00:00') /* Static */
-     , (0x71BBC00E, 0x71BBC01A, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x71BBC00E, 0x71BBC00F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC00E, 0x71BBC010, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC00E, 0x71BBC011, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC00E, 0x71BBC012, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBC00E, 0x71BBC013, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC00E, 0x71BBC014, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC00E, 0x71BBC015, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBC00E, 0x71BBC016, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBC00E, 0x71BBC017, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBC00E, 0x71BBC018, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71BBC00E, 0x71BBC019, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x71BBC00E, 0x71BBC01A, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBC00F,   214, 0x1BBC0015, 55.5893, 108.752, 96, 0.202298, 0, 0, -0.979324,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -75,7 +75,7 @@ VALUES (0x71BBC01B,  1542, 0x1BBC0037, 156.2598, 146.0677, 94.28162, 1, 0, 0, 0,
 /* @teleloc 0x1BBC0037 [156.259800 146.067700 94.281620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBC01B, 0x71BBC01C, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x71BBC01B, 0x71BBC01C, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBC01C, 11227, 0x1BBC0037, 156.2598, 146.0677, 94.28162, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */

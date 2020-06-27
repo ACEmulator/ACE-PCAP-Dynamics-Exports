@@ -5,10 +5,10 @@ VALUES (0x7BF1B001,  1154, 0xBF1B0019, 92.67905, 17.54172, 221.0843, 0.7600572, 
 /* @teleloc 0xBF1B0019 [92.679050 17.541720 221.084300] 0.760057 0.000000 0.000000 -0.649856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF1B001, 0x7BF1B002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BF1B001, 0x7BF1B003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BF1B001, 0x7BF1B004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BF1B001, 0x7BF1B005, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7BF1B001, 0x7BF1B002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BF1B001, 0x7BF1B003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BF1B001, 0x7BF1B004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BF1B001, 0x7BF1B005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF1B002,  7089, 0xBF1B0019, 92.67905, 17.54172, 221.0843, 0.7600572, 0, 0, -0.6498562,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

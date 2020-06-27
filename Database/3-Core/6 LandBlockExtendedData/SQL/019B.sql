@@ -157,87 +157,87 @@ VALUES (0x7019B080,  1154, 0x019B01C3, 120.075, -47.516, 6.005, 0, 0, 0, -1, Fal
 /* @teleloc 0x019B01C3 [120.075000 -47.516000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019B080, 0x7019B081, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B082, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B083, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B084, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B085, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B086, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B087, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B088, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B089, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B08F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B090, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B091, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B092, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B093, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B094, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B095, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B096, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B097, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B098, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B099, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B09A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B09B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B09C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B09D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B09E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B09F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A2, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0A3, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0A4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A7, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0A8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0A9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0AA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0AB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0AC, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7019B080, 0x7019B0AD, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0AE, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7019B080, 0x7019B0AF, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0B0, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0B1, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0B2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0B9, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0BA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0BB, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0BC, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0BD, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0BE, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0BF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0C0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0C1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0C2, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0C3, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0C4, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7019B080, 0x7019B0C5, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0C6, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7019B080, 0x7019B0C7, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7019B080, 0x7019B0C8, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0C9, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7019B080, 0x7019B0CA, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0CB, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0CC, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7019B080, 0x7019B0CD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7019B080, 0x7019B0CE, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7019B080, 0x7019B0CF, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7019B080, 0x7019B0D0, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7019B080, 0x7019B0D1, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x7019B080, 0x7019B081, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B082, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B083, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B084, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B085, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B086, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B087, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B088, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B089, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B08F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B090, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B091, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B092, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B093, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B094, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B095, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B096, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B097, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B098, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B099, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B09A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B09B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B09C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B09D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B09E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B09F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A0, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A1, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A2, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0A3, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0A4, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A5, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A6, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A7, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0A8, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0A9, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0AA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0AB, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0AC, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7019B080, 0x7019B0AD, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0AE, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7019B080, 0x7019B0AF, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0B0, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0B1, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0B2, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B3, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B4, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B5, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B6, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B7, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B8, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0B9, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0BA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0BB, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0BC, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0BD, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0BE, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0BF, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0C0, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0C1, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0C2, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0C3, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0C4, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7019B080, 0x7019B0C5, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0C6, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7019B080, 0x7019B0C7, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7019B080, 0x7019B0C8, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0C9, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7019B080, 0x7019B0CA, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0CB, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0CC, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7019B080, 0x7019B0CD, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7019B080, 0x7019B0CE, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7019B080, 0x7019B0CF, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7019B080, 0x7019B0D0, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7019B080, 0x7019B0D1, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019B081,  4253, 0x019B01C3, 120.075, -47.516, 6.005, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -568,7 +568,7 @@ VALUES (0x7019B0D2,  1542, 0x019B0101, 1.11055, -70.9121, -11.921, 0.9672123, 0,
 /* @teleloc 0x019B0101 [1.110550 -70.912100 -11.921000] 0.967212 0.000000 0.000000 -0.253969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019B0D2, 0x7019B0D3, '2019-02-10 00:00:00') /* Dark Note */;
+VALUES (0x7019B0D2, 0x7019B0D3, '2019-02-10 00:00:00') /* Dark Note (5829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019B0D3,  5829, 0x019B0101, 1.11055, -70.9121, -11.921, 0.9672123, 0, 0, -0.2539691,  True, '2019-02-10 00:00:00'); /* Dark Note */

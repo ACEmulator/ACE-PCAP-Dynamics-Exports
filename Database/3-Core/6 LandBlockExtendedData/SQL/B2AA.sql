@@ -5,107 +5,107 @@ VALUES (0x7B2AA001,  1154, 0xB2AA003E, 178.6318, 121.8335, 52.01, 0.9610013, 0, 
 /* @teleloc 0xB2AA003E [178.631800 121.833500 52.010000] 0.961001 0.000000 0.000000 -0.276544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2AA001, 0x7B2AA002, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA003, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B2AA001, 0x7B2AA004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA005, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B2AA001, 0x7B2AA006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA00B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA00C, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA00D, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B2AA001, 0x7B2AA00E, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA00F, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA012, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B2AA001, 0x7B2AA013, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA014, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B2AA001, 0x7B2AA015, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA016, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA017, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B2AA001, 0x7B2AA018, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA019, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2AA001, 0x7B2AA01A, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B2AA001, 0x7B2AA01B, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA01C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B2AA001, 0x7B2AA01D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2AA001, 0x7B2AA01E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA01F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA020, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B2AA001, 0x7B2AA021, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA022, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA023, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA024, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B2AA001, 0x7B2AA025, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B2AA001, 0x7B2AA026, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA027, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA028, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA029, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA02A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA02B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA02C, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B2AA001, 0x7B2AA02D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B2AA001, 0x7B2AA02E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA02F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA030, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B2AA001, 0x7B2AA031, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA032, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA033, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA034, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2AA001, 0x7B2AA035, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA036, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA037, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2AA001, 0x7B2AA038, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA039, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B2AA001, 0x7B2AA03A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA03B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2AA001, 0x7B2AA03C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA03D, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B2AA001, 0x7B2AA03E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA03F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2AA001, 0x7B2AA040, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2AA001, 0x7B2AA041, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA042, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B2AA001, 0x7B2AA043, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B2AA001, 0x7B2AA044, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B2AA001, 0x7B2AA045, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2AA001, 0x7B2AA046, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2AA001, 0x7B2AA047, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA048, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B2AA001, 0x7B2AA049, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B2AA001, 0x7B2AA04A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA04B, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA04C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA04D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA04E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA04F, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B2AA001, 0x7B2AA050, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA051, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B2AA001, 0x7B2AA052, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2AA001, 0x7B2AA053, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA054, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B2AA001, 0x7B2AA055, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B2AA001, 0x7B2AA056, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B2AA001, 0x7B2AA057, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA058, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA059, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA05A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA05B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B2AA001, 0x7B2AA05C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B2AA001, 0x7B2AA05D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AA001, 0x7B2AA05E, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B2AA001, 0x7B2AA05F, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B2AA001, 0x7B2AA060, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B2AA001, 0x7B2AA061, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA062, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B2AA001, 0x7B2AA063, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B2AA001, 0x7B2AA064, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B2AA001, 0x7B2AA065, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B2AA001, 0x7B2AA066, '2019-02-10 00:00:00') /* Glissnal Niffis */;
+VALUES (0x7B2AA001, 0x7B2AA002, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA003, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B2AA001, 0x7B2AA004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B2AA001, 0x7B2AA006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA00B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA00C, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA00D, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B2AA001, 0x7B2AA00E, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA00F, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA012, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B2AA001, 0x7B2AA013, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B2AA001, 0x7B2AA014, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B2AA001, 0x7B2AA015, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA016, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA017, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B2AA001, 0x7B2AA018, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA019, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2AA001, 0x7B2AA01A, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B2AA001, 0x7B2AA01B, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA01C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B2AA001, 0x7B2AA01D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2AA001, 0x7B2AA01E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA01F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA020, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B2AA001, 0x7B2AA021, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA022, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA023, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA024, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B2AA001, 0x7B2AA025, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B2AA001, 0x7B2AA026, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA027, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA028, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA029, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA02A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B2AA001, 0x7B2AA02B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2AA001, 0x7B2AA02C, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B2AA001, 0x7B2AA02D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B2AA001, 0x7B2AA02E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA02F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA030, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B2AA001, 0x7B2AA031, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA032, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA033, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA034, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2AA001, 0x7B2AA035, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA036, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA037, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2AA001, 0x7B2AA038, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA039, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B2AA001, 0x7B2AA03A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA03B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2AA001, 0x7B2AA03C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA03D, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B2AA001, 0x7B2AA03E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA03F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2AA001, 0x7B2AA040, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2AA001, 0x7B2AA041, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2AA001, 0x7B2AA042, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B2AA001, 0x7B2AA043, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B2AA001, 0x7B2AA044, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B2AA001, 0x7B2AA045, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2AA001, 0x7B2AA046, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2AA001, 0x7B2AA047, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA048, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B2AA001, 0x7B2AA049, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B2AA001, 0x7B2AA04A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA04B, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA04C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2AA001, 0x7B2AA04D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA04E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA04F, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B2AA001, 0x7B2AA050, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA051, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B2AA001, 0x7B2AA052, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2AA001, 0x7B2AA053, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2AA001, 0x7B2AA054, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B2AA001, 0x7B2AA055, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B2AA001, 0x7B2AA056, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B2AA001, 0x7B2AA057, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B2AA001, 0x7B2AA058, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA059, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA05A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA05B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2AA001, 0x7B2AA05C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B2AA001, 0x7B2AA05D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AA001, 0x7B2AA05E, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B2AA001, 0x7B2AA05F, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B2AA001, 0x7B2AA060, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B2AA001, 0x7B2AA061, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA062, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B2AA001, 0x7B2AA063, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B2AA001, 0x7B2AA064, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B2AA001, 0x7B2AA065, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B2AA001, 0x7B2AA066, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2AA002,   941, 0xB2AA003E, 178.6318, 121.8335, 52.01, 0.9610013, 0, 0, -0.2765439,  True, '2019-02-10 00:00:00'); /* Water Golem */
@@ -516,9 +516,9 @@ VALUES (0x7B2AA067,  1542, 0xB2AA0014, 54.14576, 84.93884, 27.1, 1, 0, 0, 0, Fal
 /* @teleloc 0xB2AA0014 [54.145760 84.938840 27.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2AA067, 0x7B2AA068, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B2AA067, 0x7B2AA069, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7B2AA067, 0x7B2AA06A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7B2AA067, 0x7B2AA068, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B2AA067, 0x7B2AA069, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7B2AA067, 0x7B2AA06A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2AA068,  4179, 0xB2AA0014, 54.14576, 84.93884, 27.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

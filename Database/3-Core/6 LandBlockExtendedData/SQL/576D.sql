@@ -21,10 +21,10 @@ VALUES (0x7576D012,  1154, 0x576D0104, 30.8403, -15.9533, -47.99675, -0.03379399
 /* @teleloc 0x576D0104 [30.840300 -15.953300 -47.996750] -0.033794 0.000000 0.000000 -0.999429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576D012, 0x7576D013, '2019-02-10 00:00:00') /* Aqueous Guard */
-     , (0x7576D012, 0x7576D014, '2019-02-10 00:00:00') /* Aqueous Guard */
-     , (0x7576D012, 0x7576D015, '2019-02-10 00:00:00') /* Aqueous Guard */
-     , (0x7576D012, 0x7576D016, '2019-02-10 00:00:00') /* Geraine */;
+VALUES (0x7576D012, 0x7576D013, '2019-02-10 00:00:00') /* Aqueous Guard (45702) */
+     , (0x7576D012, 0x7576D014, '2019-02-10 00:00:00') /* Aqueous Guard (45702) */
+     , (0x7576D012, 0x7576D015, '2019-02-10 00:00:00') /* Aqueous Guard (45702) */
+     , (0x7576D012, 0x7576D016, '2019-02-10 00:00:00') /* Geraine (45703) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576D013, 45702, 0x576D0104, 30.8403, -15.9533, -47.99675, -0.03379399, 0, 0, -0.9994288,  True, '2019-02-10 00:00:00'); /* Aqueous Guard */
@@ -47,10 +47,10 @@ VALUES (0x7576D017,  1154, 0x576D0104, 26.0237, -22.2806, -47.9975, 1, 0, 0, 0, 
 /* @teleloc 0x576D0104 [26.023700 -22.280600 -47.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576D017, 0x7576D018, '2019-02-10 00:00:00') /* Ember */
-     , (0x7576D017, 0x7576D019, '2019-02-10 00:00:00') /* Ember */
-     , (0x7576D017, 0x7576D01A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7576D017, 0x7576D01B, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x7576D017, 0x7576D018, '2019-02-10 00:00:00') /* Ember (45711) */
+     , (0x7576D017, 0x7576D019, '2019-02-10 00:00:00') /* Ember (45711) */
+     , (0x7576D017, 0x7576D01A, '2019-02-10 00:00:00') /* Ember (45711) */
+     , (0x7576D017, 0x7576D01B, '2019-02-10 00:00:00') /* Ember (45711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576D018, 45711, 0x576D0104, 26.0237, -22.2806, -47.9975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ember */

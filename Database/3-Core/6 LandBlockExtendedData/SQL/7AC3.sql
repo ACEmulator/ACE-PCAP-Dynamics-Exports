@@ -17,11 +17,11 @@ VALUES (0x77AC3007,  1154, 0x7AC30013, 64.6946, 62.2439, 225.0233, -0.970543, 0,
 /* @teleloc 0x7AC30013 [64.694600 62.243900 225.023300] -0.970543 0.000000 0.000000 -0.240928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC3007, 0x77AC3008, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x77AC3007, 0x77AC3009, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x77AC3007, 0x77AC300A, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x77AC3007, 0x77AC300B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77AC3007, 0x77AC300C, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x77AC3007, 0x77AC3008, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x77AC3007, 0x77AC3009, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x77AC3007, 0x77AC300A, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x77AC3007, 0x77AC300B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77AC3007, 0x77AC300C, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC3008,   196, 0x7AC30013, 64.6946, 62.2439, 225.0233, -0.970543, 0, 0, -0.240928,  True, '2019-02-10 00:00:00'); /* Ice Golem */
@@ -48,7 +48,7 @@ VALUES (0x77AC300D,  1542, 0x7AC3001B, 93.4587, 70.6899, 209.5799, -0.7402461, 0
 /* @teleloc 0x7AC3001B [93.458700 70.689900 209.579900] -0.740246 0.000000 0.000000 0.672336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC300D, 0x77AC300E, '2019-02-10 00:00:00') /* Powdered Agate */;
+VALUES (0x77AC300D, 0x77AC300E, '2019-02-10 00:00:00') /* Powdered Agate (782) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC300E,   782, 0x7AC3001B, 93.4587, 70.6899, 209.5799, -0.7402461, 0, 0, 0.672336,  True, '2019-02-10 00:00:00'); /* Powdered Agate */

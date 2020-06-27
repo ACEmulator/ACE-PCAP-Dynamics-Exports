@@ -5,11 +5,11 @@ VALUES (0x741EF001,  1154, 0x41EF0001, 16.03495, 5.719686, 43.05872, 0.950707, 0
 /* @teleloc 0x41EF0001 [16.034950 5.719686 43.058720] 0.950707 0.000000 0.000000 -0.310091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741EF001, 0x741EF002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x741EF001, 0x741EF003, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741EF001, 0x741EF004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x741EF001, 0x741EF005, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741EF001, 0x741EF006, '2019-02-10 00:00:00') /* Viamontian Counselor */;
+VALUES (0x741EF001, 0x741EF002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x741EF001, 0x741EF003, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741EF001, 0x741EF004, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x741EF001, 0x741EF005, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741EF001, 0x741EF006, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741EF002, 28051, 0x41EF0001, 16.03495, 5.719686, 43.05872, 0.950707, 0, 0, -0.3100908,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

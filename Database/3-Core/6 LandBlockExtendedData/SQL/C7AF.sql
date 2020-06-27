@@ -5,21 +5,21 @@ VALUES (0x7C7AF001,  1154, 0xC7AF0012, 67.42597, 45.29445, 119.9412, 0.8382498, 
 /* @teleloc 0xC7AF0012 [67.425970 45.294450 119.941200] 0.838250 0.000000 0.000000 -0.545286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AF001, 0x7C7AF002, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C7AF001, 0x7C7AF003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7AF001, 0x7C7AF004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7AF001, 0x7C7AF005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C7AF001, 0x7C7AF006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C7AF001, 0x7C7AF007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C7AF001, 0x7C7AF008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C7AF001, 0x7C7AF009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C7AF001, 0x7C7AF00A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C7AF001, 0x7C7AF00B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7AF001, 0x7C7AF00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C7AF001, 0x7C7AF00D, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C7AF001, 0x7C7AF00E, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7AF001, 0x7C7AF00F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7AF001, 0x7C7AF010, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x7C7AF001, 0x7C7AF002, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C7AF001, 0x7C7AF003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7AF001, 0x7C7AF004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7AF001, 0x7C7AF005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C7AF001, 0x7C7AF006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C7AF001, 0x7C7AF007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C7AF001, 0x7C7AF008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C7AF001, 0x7C7AF009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C7AF001, 0x7C7AF00A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C7AF001, 0x7C7AF00B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7AF001, 0x7C7AF00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C7AF001, 0x7C7AF00D, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C7AF001, 0x7C7AF00E, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7AF001, 0x7C7AF00F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7AF001, 0x7C7AF010, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AF002, 32186, 0xC7AF0012, 67.42597, 45.29445, 119.9412, 0.8382498, 0, 0, -0.5452864,  True, '2019-02-10 00:00:00'); /* Pumpkin Lord */
@@ -86,7 +86,7 @@ VALUES (0x7C7AF011,  1542, 0xC7AF001D, 73.54408, 109.0161, 128.0517, 0.9939575, 
 /* @teleloc 0xC7AF001D [73.544080 109.016100 128.051700] 0.993958 0.000000 0.000000 -0.109765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AF011, 0x7C7AF012, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7C7AF011, 0x7C7AF012, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AF012, 31686, 0xC7AF001D, 73.54408, 109.0161, 128.0517, 0.9939575, 0, 0, -0.1097653,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

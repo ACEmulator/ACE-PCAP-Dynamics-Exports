@@ -5,16 +5,16 @@ VALUES (0x7C47F001,  1154, 0xC47F000A, 25.66502, 36.37101, 37.86132, 0.9932085, 
 /* @teleloc 0xC47F000A [25.665020 36.371010 37.861320] 0.993209 0.000000 0.000000 -0.116348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C47F001, 0x7C47F002, '2019-02-10 00:00:00') /* Static */
-     , (0x7C47F001, 0x7C47F003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C47F001, 0x7C47F004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C47F001, 0x7C47F005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C47F001, 0x7C47F006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C47F001, 0x7C47F007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C47F001, 0x7C47F008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C47F001, 0x7C47F009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C47F001, 0x7C47F00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C47F001, 0x7C47F00B, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C47F001, 0x7C47F002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C47F001, 0x7C47F003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C47F001, 0x7C47F004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C47F001, 0x7C47F005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C47F001, 0x7C47F006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C47F001, 0x7C47F007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C47F001, 0x7C47F008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C47F001, 0x7C47F009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C47F001, 0x7C47F00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C47F001, 0x7C47F00B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C47F002,  6382, 0xC47F000A, 25.66502, 36.37101, 37.86132, 0.9932085, 0, 0, -0.1163484,  True, '2019-02-10 00:00:00'); /* Static */

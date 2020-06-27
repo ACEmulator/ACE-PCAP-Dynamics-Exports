@@ -21,35 +21,35 @@ VALUES (0x796D600F,  1154, 0x96D60100, 153.086, 63.0263, 88.0092, 0.492463, 0, 0
 /* @teleloc 0x96D60100 [153.086000 63.026300 88.009200] 0.492463 0.000000 0.000000 -0.870333 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D600F, 0x796D6010, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x796D600F, 0x796D6011, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x796D600F, 0x796D6012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x796D600F, 0x796D6013, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x796D600F, 0x796D6014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x796D600F, 0x796D6015, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x796D600F, 0x796D6016, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x796D600F, 0x796D6017, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x796D600F, 0x796D6018, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x796D600F, 0x796D6019, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x796D600F, 0x796D601A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x796D600F, 0x796D601B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x796D600F, 0x796D601C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x796D600F, 0x796D601D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796D600F, 0x796D601E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x796D600F, 0x796D601F, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x796D600F, 0x796D6020, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x796D600F, 0x796D6021, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x796D600F, 0x796D6022, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x796D600F, 0x796D6023, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x796D600F, 0x796D6024, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x796D600F, 0x796D6025, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x796D600F, 0x796D6026, '2019-02-10 00:00:00') /* Shadow */
-     , (0x796D600F, 0x796D6027, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x796D600F, 0x796D6028, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x796D600F, 0x796D6029, '2019-02-10 00:00:00') /* Ember */
-     , (0x796D600F, 0x796D602A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x796D600F, 0x796D602B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x796D600F, 0x796D602C, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x796D600F, 0x796D6010, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x796D600F, 0x796D6011, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x796D600F, 0x796D6012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x796D600F, 0x796D6013, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x796D600F, 0x796D6014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x796D600F, 0x796D6015, '2019-02-10 00:00:00') /* Tumerok Worker (4107) */
+     , (0x796D600F, 0x796D6016, '2019-02-10 00:00:00') /* Tumerok Worker (4107) */
+     , (0x796D600F, 0x796D6017, '2019-02-10 00:00:00') /* Tumerok Worker (4107) */
+     , (0x796D600F, 0x796D6018, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x796D600F, 0x796D6019, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x796D600F, 0x796D601A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x796D600F, 0x796D601B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x796D600F, 0x796D601C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x796D600F, 0x796D601D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796D600F, 0x796D601E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796D600F, 0x796D601F, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x796D600F, 0x796D6020, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x796D600F, 0x796D6021, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x796D600F, 0x796D6022, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x796D600F, 0x796D6023, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x796D600F, 0x796D6024, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x796D600F, 0x796D6025, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x796D600F, 0x796D6026, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x796D600F, 0x796D6027, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x796D600F, 0x796D6028, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x796D600F, 0x796D6029, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x796D600F, 0x796D602A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x796D600F, 0x796D602B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x796D600F, 0x796D602C, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D6010,   949, 0x96D60100, 153.086, 63.0263, 88.0092, 0.492463, 0, 0, -0.870333,  True, '2019-02-10 00:00:00'); /* Red Rat */
@@ -172,9 +172,9 @@ VALUES (0x796D602D,  1542, 0x96D6010A, 179.985, 140.708, 78.33701, 1, 0, 0, 0, F
 /* @teleloc 0x96D6010A [179.985000 140.708000 78.337010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D602D, 0x796D602E, '2019-02-10 00:00:00') /* Olthoi Tunnel */
-     , (0x796D602D, 0x796D602F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x796D602D, 0x796D6030, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x796D602D, 0x796D602E, '2019-02-10 00:00:00') /* Olthoi Tunnel (43571) */
+     , (0x796D602D, 0x796D602F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x796D602D, 0x796D6030, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D602E, 43571, 0x96D6010A, 179.985, 140.708, 78.33701, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

@@ -5,17 +5,17 @@ VALUES (0x7B0A8001,  1154, 0xB0A8001A, 81.57514, 41.1248, 77.27121, -0.8552745, 
 /* @teleloc 0xB0A8001A [81.575140 41.124800 77.271210] -0.855275 0.000000 0.000000 -0.518175 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A8001, 0x7B0A8002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0A8001, 0x7B0A8003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B0A8001, 0x7B0A8004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B0A8001, 0x7B0A8005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B0A8001, 0x7B0A8006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A8001, 0x7B0A8007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A8001, 0x7B0A8008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A8001, 0x7B0A8009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0A8001, 0x7B0A800A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0A8001, 0x7B0A800B, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B0A8001, 0x7B0A800C, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7B0A8001, 0x7B0A8002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0A8001, 0x7B0A8003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B0A8001, 0x7B0A8004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B0A8001, 0x7B0A8005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B0A8001, 0x7B0A8006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A8001, 0x7B0A8007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A8001, 0x7B0A8008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A8001, 0x7B0A8009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0A8001, 0x7B0A800A, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0A8001, 0x7B0A800B, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B0A8001, 0x7B0A800C, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A8002,   943, 0xB0A8001A, 81.57514, 41.1248, 77.27121, -0.8552745, 0, 0, -0.5181752,  True, '2019-02-10 00:00:00'); /* Mite Scion */

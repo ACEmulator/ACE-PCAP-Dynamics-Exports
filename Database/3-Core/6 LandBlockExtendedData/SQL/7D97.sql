@@ -5,9 +5,9 @@ VALUES (0x77D97001,  1154, 0x7D970011, 58.60784, 18.53489, 162.5959, -0.9656523,
 /* @teleloc 0x7D970011 [58.607840 18.534890 162.595900] -0.965652 0.000000 0.000000 -0.259838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D97001, 0x77D97002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x77D97001, 0x77D97003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77D97001, 0x77D97004, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x77D97001, 0x77D97002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x77D97001, 0x77D97003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77D97001, 0x77D97004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D97002,   235, 0x7D970011, 58.60784, 18.53489, 162.5959, -0.9656523, 0, 0, -0.2598378,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

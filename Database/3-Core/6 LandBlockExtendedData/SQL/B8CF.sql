@@ -5,21 +5,21 @@ VALUES (0x7B8CF001,  1154, 0xB8CF0002, 0.2164001, 30.06008, 156.4747, 0.7071068,
 /* @teleloc 0xB8CF0002 [0.216400 30.060080 156.474700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8CF001, 0x7B8CF002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B8CF001, 0x7B8CF003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B8CF001, 0x7B8CF004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B8CF001, 0x7B8CF005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B8CF001, 0x7B8CF006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B8CF001, 0x7B8CF007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B8CF001, 0x7B8CF008, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7B8CF001, 0x7B8CF009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B8CF001, 0x7B8CF00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B8CF001, 0x7B8CF00B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B8CF001, 0x7B8CF00C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B8CF001, 0x7B8CF00D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B8CF001, 0x7B8CF00E, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B8CF001, 0x7B8CF00F, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B8CF001, 0x7B8CF010, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7B8CF001, 0x7B8CF002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B8CF001, 0x7B8CF003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B8CF001, 0x7B8CF004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B8CF001, 0x7B8CF005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B8CF001, 0x7B8CF006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B8CF001, 0x7B8CF007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B8CF001, 0x7B8CF008, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7B8CF001, 0x7B8CF009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B8CF001, 0x7B8CF00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B8CF001, 0x7B8CF00B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B8CF001, 0x7B8CF00C, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7B8CF001, 0x7B8CF00D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B8CF001, 0x7B8CF00E, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B8CF001, 0x7B8CF00F, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B8CF001, 0x7B8CF010, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8CF002,  1758, 0xB8CF0002, 0.2164001, 30.06008, 156.4747, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -86,8 +86,8 @@ VALUES (0x7B8CF011,  1542, 0xB8CF0002, 23.75509, 33.29876, 156.4298, 1, 0, 0, 0,
 /* @teleloc 0xB8CF0002 [23.755090 33.298760 156.429800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8CF011, 0x7B8CF012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B8CF011, 0x7B8CF013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7B8CF011, 0x7B8CF012, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7B8CF011, 0x7B8CF013, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8CF012, 22570, 0xB8CF0002, 23.75509, 33.29876, 156.4298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

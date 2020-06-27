@@ -5,9 +5,9 @@ VALUES (0x7B4DB001,  1154, 0xB4DB0020, 74.82591, 176.0958, 2, -0.560348, 0, 0, -
 /* @teleloc 0xB4DB0020 [74.825910 176.095800 2.000000] -0.560348 0.000000 0.000000 -0.828257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4DB001, 0x7B4DB002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B4DB001, 0x7B4DB003, '2019-02-10 00:00:00') /* Ember */
-     , (0x7B4DB001, 0x7B4DB004, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x7B4DB001, 0x7B4DB002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B4DB001, 0x7B4DB003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7B4DB001, 0x7B4DB004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4DB002,  6041, 0xB4DB0020, 74.82591, 176.0958, 2, -0.560348, 0, 0, -0.8282573,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

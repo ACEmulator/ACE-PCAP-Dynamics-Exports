@@ -5,11 +5,11 @@ VALUES (0x7B9D6001,  1154, 0xB9D6002C, 125.2092, 90.80827, 42.43664, 0.1517778, 
 /* @teleloc 0xB9D6002C [125.209200 90.808270 42.436640] 0.151778 0.000000 0.000000 -0.988415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9D6001, 0x7B9D6002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B9D6001, 0x7B9D6003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B9D6001, 0x7B9D6004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B9D6001, 0x7B9D6005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B9D6001, 0x7B9D6006, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7B9D6001, 0x7B9D6002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B9D6001, 0x7B9D6003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B9D6001, 0x7B9D6004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B9D6001, 0x7B9D6005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B9D6001, 0x7B9D6006, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9D6002,  4254, 0xB9D6002C, 125.2092, 90.80827, 42.43664, 0.1517778, 0, 0, -0.9884146,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

@@ -5,10 +5,10 @@ VALUES (0x7599F001,  1154, 0x599F0029, 141.6158, 15.31377, 69.66451, -0.6518392,
 /* @teleloc 0x599F0029 [141.615800 15.313770 69.664510] -0.651839 0.000000 0.000000 -0.758357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7599F001, 0x7599F002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7599F001, 0x7599F003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7599F001, 0x7599F004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7599F001, 0x7599F005, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x7599F001, 0x7599F002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7599F001, 0x7599F003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7599F001, 0x7599F004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7599F001, 0x7599F005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7599F002,  9253, 0x599F0029, 141.6158, 15.31377, 69.66451, -0.6518392, 0, 0, -0.7583572,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

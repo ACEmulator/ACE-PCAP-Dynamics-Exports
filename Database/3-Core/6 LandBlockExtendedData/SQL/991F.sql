@@ -5,15 +5,15 @@ VALUES (0x7991F001,  1154, 0x991F0032, 152.0594, 31.23777, 140.1757, 0.467899, 0
 /* @teleloc 0x991F0032 [152.059400 31.237770 140.175700] 0.467899 0.000000 0.000000 -0.883782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7991F001, 0x7991F002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7991F001, 0x7991F003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7991F001, 0x7991F004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7991F001, 0x7991F005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7991F001, 0x7991F006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7991F001, 0x7991F007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7991F001, 0x7991F008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7991F001, 0x7991F009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7991F001, 0x7991F00A, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7991F001, 0x7991F002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7991F001, 0x7991F003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7991F001, 0x7991F004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7991F001, 0x7991F005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7991F001, 0x7991F006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7991F001, 0x7991F007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7991F001, 0x7991F008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7991F001, 0x7991F009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7991F001, 0x7991F00A, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7991F002,  6041, 0x991F0032, 152.0594, 31.23777, 140.1757, 0.467899, 0, 0, -0.883782,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -56,9 +56,9 @@ VALUES (0x7991F00B,  1542, 0x991F000E, 31.1813, 140.4861, 121.4769, 0.9999623, 0
 /* @teleloc 0x991F000E [31.181300 140.486100 121.476900] 0.999962 0.000000 0.000000 -0.008687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7991F00B, 0x7991F00C, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7991F00B, 0x7991F00D, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7991F00B, 0x7991F00E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7991F00B, 0x7991F00C, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7991F00B, 0x7991F00D, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7991F00B, 0x7991F00E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7991F00C,  8041, 0x991F000E, 31.1813, 140.4861, 121.4769, 0.9999623, 0, 0, -0.00868651,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

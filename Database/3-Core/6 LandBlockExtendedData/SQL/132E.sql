@@ -5,19 +5,19 @@ VALUES (0x7132E001,  1154, 0x132E0004, 1.867655, 92.46129, 16.05354, 0.7071068, 
 /* @teleloc 0x132E0004 [1.867655 92.461290 16.053540] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132E001, 0x7132E002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7132E001, 0x7132E003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7132E001, 0x7132E004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7132E001, 0x7132E005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7132E001, 0x7132E006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7132E001, 0x7132E007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7132E001, 0x7132E008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7132E001, 0x7132E009, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7132E001, 0x7132E00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7132E001, 0x7132E00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7132E001, 0x7132E00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7132E001, 0x7132E00D, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7132E001, 0x7132E00E, '2019-02-10 00:00:00') /* Entropy Wisp */;
+VALUES (0x7132E001, 0x7132E002, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7132E001, 0x7132E003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7132E001, 0x7132E004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7132E001, 0x7132E005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7132E001, 0x7132E006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7132E001, 0x7132E007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7132E001, 0x7132E008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7132E001, 0x7132E009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7132E001, 0x7132E00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7132E001, 0x7132E00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7132E001, 0x7132E00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7132E001, 0x7132E00D, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7132E001, 0x7132E00E, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132E002, 36816, 0x132E0004, 1.867655, 92.46129, 16.05354, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
@@ -76,7 +76,7 @@ VALUES (0x7132E00F,  1542, 0x132E0004, 2.601572, 88.38681, 16.05354, -4.371139E-
 /* @teleloc 0x132E0004 [2.601572 88.386810 16.053540] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132E00F, 0x7132E010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7132E00F, 0x7132E010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132E010,  4380, 0x132E0004, 2.601572, 88.38681, 16.05354, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

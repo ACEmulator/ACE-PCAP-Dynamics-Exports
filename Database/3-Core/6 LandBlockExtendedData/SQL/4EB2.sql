@@ -5,11 +5,11 @@ VALUES (0x74EB2001,  1154, 0x4EB2001A, 79.33006, 43.73375, 57.75458, 0.6911068, 
 /* @teleloc 0x4EB2001A [79.330060 43.733750 57.754580] 0.691107 0.000000 0.000000 -0.722753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EB2001, 0x74EB2002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74EB2001, 0x74EB2003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74EB2001, 0x74EB2004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74EB2001, 0x74EB2005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74EB2001, 0x74EB2006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74EB2001, 0x74EB2002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74EB2001, 0x74EB2003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74EB2001, 0x74EB2004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74EB2001, 0x74EB2005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74EB2001, 0x74EB2006, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EB2002, 22519, 0x4EB2001A, 79.33006, 43.73375, 57.75458, 0.6911068, 0, 0, -0.7227527,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

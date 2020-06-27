@@ -9,17 +9,17 @@ VALUES (0x7A45F001,  1154, 0xA45F001F, 94.09809, 151.9267, 27.83351, -0.07295563
 /* @teleloc 0xA45F001F [94.098090 151.926700 27.833510] -0.072956 0.000000 0.000000 -0.997335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A45F001, 0x7A45F002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A45F001, 0x7A45F003, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A45F001, 0x7A45F004, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7A45F001, 0x7A45F005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A45F001, 0x7A45F006, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A45F001, 0x7A45F007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A45F001, 0x7A45F008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A45F001, 0x7A45F009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A45F001, 0x7A45F00A, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A45F001, 0x7A45F00B, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A45F001, 0x7A45F00C, '2019-02-10 00:00:00') /* Ancient Mu-miyah */;
+VALUES (0x7A45F001, 0x7A45F002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A45F001, 0x7A45F003, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A45F001, 0x7A45F004, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7A45F001, 0x7A45F005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A45F001, 0x7A45F006, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A45F001, 0x7A45F007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A45F001, 0x7A45F008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A45F001, 0x7A45F009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A45F001, 0x7A45F00A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A45F001, 0x7A45F00B, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A45F001, 0x7A45F00C, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A45F002, 24937, 0xA45F001F, 94.09809, 151.9267, 27.83351, -0.07295563, 0, 0, -0.9973352,  True, '2019-02-10 00:00:00'); /* Chicken */

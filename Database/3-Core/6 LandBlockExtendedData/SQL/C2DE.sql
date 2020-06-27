@@ -5,19 +5,19 @@ VALUES (0x7C2DE001,  1154, 0xC2DE003B, 179.9156, 65.34672, -0.8994999, 0.8191521
 /* @teleloc 0xC2DE003B [179.915600 65.346720 -0.899500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2DE001, 0x7C2DE002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C2DE001, 0x7C2DE003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C2DE001, 0x7C2DE004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C2DE001, 0x7C2DE005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C2DE001, 0x7C2DE006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C2DE001, 0x7C2DE007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C2DE001, 0x7C2DE008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C2DE001, 0x7C2DE009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C2DE001, 0x7C2DE00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C2DE001, 0x7C2DE00B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C2DE001, 0x7C2DE00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C2DE001, 0x7C2DE00D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C2DE001, 0x7C2DE00E, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7C2DE001, 0x7C2DE002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C2DE001, 0x7C2DE003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C2DE001, 0x7C2DE004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C2DE001, 0x7C2DE005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C2DE001, 0x7C2DE006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C2DE001, 0x7C2DE007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C2DE001, 0x7C2DE008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C2DE001, 0x7C2DE009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C2DE001, 0x7C2DE00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C2DE001, 0x7C2DE00B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C2DE001, 0x7C2DE00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C2DE001, 0x7C2DE00D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C2DE001, 0x7C2DE00E, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2DE002,  7987, 0xC2DE003B, 179.9156, 65.34672, -0.8994999, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -76,7 +76,7 @@ VALUES (0x7C2DE00F,  1542, 0xC2DE000C, 24.74757, 92.31787, 0, 1, 0, 0, 0, False,
 /* @teleloc 0xC2DE000C [24.747570 92.317870 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2DE00F, 0x7C2DE010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C2DE00F, 0x7C2DE010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2DE010,  4179, 0xC2DE000C, 24.74757, 92.31787, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

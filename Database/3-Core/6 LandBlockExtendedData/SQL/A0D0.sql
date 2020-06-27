@@ -5,10 +5,10 @@ VALUES (0x7A0D0001,  1154, 0xA0D00019, 87.36834, 12.33591, 134.4594, 0.4184748, 
 /* @teleloc 0xA0D00019 [87.368340 12.335910 134.459400] 0.418475 0.000000 0.000000 -0.908228 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D0001, 0x7A0D0002, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x7A0D0001, 0x7A0D0003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D0001, 0x7A0D0004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0D0001, 0x7A0D0005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7A0D0001, 0x7A0D0002, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x7A0D0001, 0x7A0D0003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D0001, 0x7A0D0004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0D0001, 0x7A0D0005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D0002, 11994, 0xA0D00019, 87.36834, 12.33591, 134.4594, 0.4184748, 0, 0, -0.9082284,  True, '2019-02-10 00:00:00'); /* Basalt Golem */

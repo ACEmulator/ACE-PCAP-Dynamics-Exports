@@ -5,9 +5,9 @@ VALUES (0x742B1001,  1154, 0x42B10017, 65.88514, 167.077, 62.08192, 0.4481242, 0
 /* @teleloc 0x42B10017 [65.885140 167.077000 62.081920] 0.448124 0.000000 0.000000 -0.893971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742B1001, 0x742B1002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x742B1001, 0x742B1003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x742B1001, 0x742B1004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x742B1001, 0x742B1002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x742B1001, 0x742B1003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x742B1001, 0x742B1004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742B1002,  1757, 0x42B10017, 65.88514, 167.077, 62.08192, 0.4481242, 0, 0, -0.8939713,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

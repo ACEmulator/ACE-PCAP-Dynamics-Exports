@@ -57,45 +57,45 @@ VALUES (0x7015D0CD,  1154, 0x015D019C, 90, -30, 0.007499993, -0.2811909, 0, 0, -
 /* @teleloc 0x015D019C [90.000000 -30.000000 0.007500] -0.281191 0.000000 0.000000 -0.959652 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0CD, 0x7015D0CE, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0CF, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D0, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D1, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D2, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D3, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D4, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D5, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D6, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D7, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D8, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0D9, '2019-02-10 00:00:00') /* Gelidite Acolyte */
-     , (0x7015D0CD, 0x7015D0DA, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0DB, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0DC, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0DD, '2019-02-10 00:00:00') /* Gelidite Acolyte */
-     , (0x7015D0CD, 0x7015D0DE, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0DF, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0E0, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0E1, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0E2, '2019-02-10 00:00:00') /* Enchanted Mnemosyne */
-     , (0x7015D0CD, 0x7015D0E3, '2019-02-10 00:00:00') /* Gelidite Acolyte */
-     , (0x7015D0CD, 0x7015D0E4, '2019-02-10 00:00:00') /* Gelidite Lord */
-     , (0x7015D0CD, 0x7015D0E5, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0E6, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0E7, '2019-02-10 00:00:00') /* Gelidite Acolyte */
-     , (0x7015D0CD, 0x7015D0E8, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0E9, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0EA, '2019-02-10 00:00:00') /* Gelidite Acolyte */
-     , (0x7015D0CD, 0x7015D0EB, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0EC, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0ED, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0EE, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0EF, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0F0, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0F1, '2019-02-10 00:00:00') /* Gelidite Initiate */
-     , (0x7015D0CD, 0x7015D0F2, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0F3, '2019-02-10 00:00:00') /* Gelidite Golem */
-     , (0x7015D0CD, 0x7015D0F4, '2019-02-10 00:00:00') /* Gelidite Golem */;
+VALUES (0x7015D0CD, 0x7015D0CE, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0CF, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D0, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D1, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D2, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D3, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D4, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D5, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D6, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D7, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D8, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0D9, '2019-02-10 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0CD, 0x7015D0DA, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0DB, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0DC, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0DD, '2019-02-10 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0CD, 0x7015D0DE, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0DF, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0E0, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0E1, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0E2, '2019-02-10 00:00:00') /* Enchanted Mnemosyne (43839) */
+     , (0x7015D0CD, 0x7015D0E3, '2019-02-10 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0CD, 0x7015D0E4, '2019-02-10 00:00:00') /* Gelidite Lord (5868) */
+     , (0x7015D0CD, 0x7015D0E5, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0E6, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0E7, '2019-02-10 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0CD, 0x7015D0E8, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0E9, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0EA, '2019-02-10 00:00:00') /* Gelidite Acolyte (4984) */
+     , (0x7015D0CD, 0x7015D0EB, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0EC, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0ED, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0EE, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0EF, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0F0, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0F1, '2019-02-10 00:00:00') /* Gelidite Initiate (4986) */
+     , (0x7015D0CD, 0x7015D0F2, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0F3, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */
+     , (0x7015D0CD, 0x7015D0F4, '2019-02-10 00:00:00') /* Gelidite Golem (26008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0CE,  4986, 0x015D019C, 90, -30, 0.007499993, -0.2811909, 0, 0, -0.9596518,  True, '2019-02-10 00:00:00'); /* Gelidite Initiate */
@@ -258,7 +258,7 @@ VALUES (0x7015D0F5,  1154, 0x015D0252, 28.8727, -43.1115, 36.0065, 0.368384, 0, 
 /* @teleloc 0x015D0252 [28.872700 -43.111500 36.006500] 0.368384 0.000000 0.000000 0.929674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0F5, 0x7015D0F6, '2019-02-10 00:00:00') /* Liam of Gelid */;
+VALUES (0x7015D0F5, 0x7015D0F6, '2019-02-10 00:00:00') /* Liam of Gelid (43403) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0F6, 43403, 0x015D0252, 28.8727, -43.1115, 36.0065, 0.368384, 0, 0, 0.929674,  True, '2019-02-10 00:00:00'); /* Liam of Gelid */
@@ -269,9 +269,9 @@ VALUES (0x7015D0F7,  1542, 0x015D0252, 27.4164, -42.2772, 37.6398, 0.345029, 0, 
 /* @teleloc 0x015D0252 [27.416400 -42.277200 37.639800] 0.345029 0.000000 0.000000 0.938592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015D0F7, 0x7015D0F8, '2019-02-10 00:00:00') /* Dericost Token of the Aura of Retribution */
-     , (0x7015D0F7, 0x7015D0F9, '2019-02-10 00:00:00') /* Dericost Token of the Aura of Destruction */
-     , (0x7015D0F7, 0x7015D0FA, '2019-02-10 00:00:00') /* Studded Leather Pauldrons */;
+VALUES (0x7015D0F7, 0x7015D0F8, '2019-02-10 00:00:00') /* Dericost Token of the Aura of Retribution (43424) */
+     , (0x7015D0F7, 0x7015D0F9, '2019-02-10 00:00:00') /* Dericost Token of the Aura of Destruction (43426) */
+     , (0x7015D0F7, 0x7015D0FA, '2019-02-10 00:00:00') /* Studded Leather Pauldrons (89) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015D0F8, 43424, 0x015D0252, 27.4164, -42.2772, 37.6398, 0.345029, 0, 0, 0.938592,  True, '2019-02-10 00:00:00'); /* Dericost Token of the Aura of Retribution */

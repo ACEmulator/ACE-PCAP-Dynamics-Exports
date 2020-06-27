@@ -5,9 +5,9 @@ VALUES (0x7DB49001,  1154, 0xDB49002A, 126.1605, 35.39646, 30.53457, 0.5997677, 
 /* @teleloc 0xDB49002A [126.160500 35.396460 30.534570] 0.599768 0.000000 0.000000 -0.800174 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB49001, 0x7DB49002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB49001, 0x7DB49003, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7DB49001, 0x7DB49004, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7DB49001, 0x7DB49002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7DB49001, 0x7DB49003, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7DB49001, 0x7DB49004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB49002,   939, 0xDB49002A, 126.1605, 35.39646, 30.53457, 0.5997677, 0, 0, -0.8001742,  True, '2019-02-10 00:00:00'); /* Young Banderling */

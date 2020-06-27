@@ -45,27 +45,27 @@ VALUES (0x702CE01B,  1154, 0x02CE0144, 6.52938, -29.0872, 1.430511E-06, 1, 0, 0,
 /* @teleloc 0x02CE0144 [6.529380 -29.087200 0.000001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CE01B, 0x702CE01C, '2019-02-10 00:00:00') /* Spirit Wisp */
-     , (0x702CE01B, 0x702CE01D, '2019-02-10 00:00:00') /* Spirit Wisp */
-     , (0x702CE01B, 0x702CE01E, '2019-02-10 00:00:00') /* Spirit Wisp */
-     , (0x702CE01B, 0x702CE01F, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE020, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE021, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE022, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE023, '2019-02-10 00:00:00') /* Disgust Wisp */
-     , (0x702CE01B, 0x702CE024, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE025, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE026, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE027, '2019-02-10 00:00:00') /* Spirit Wisp */
-     , (0x702CE01B, 0x702CE028, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE029, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE02A, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE02B, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x702CE01B, 0x702CE02C, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x702CE01B, 0x702CE02D, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE02E, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CE01B, 0x702CE02F, '2019-02-10 00:00:00') /* Spirit Wisp */
-     , (0x702CE01B, 0x702CE030, '2019-02-10 00:00:00') /* Zombie Mage */;
+VALUES (0x702CE01B, 0x702CE01C, '2019-02-10 00:00:00') /* Spirit Wisp (43161) */
+     , (0x702CE01B, 0x702CE01D, '2019-02-10 00:00:00') /* Spirit Wisp (43161) */
+     , (0x702CE01B, 0x702CE01E, '2019-02-10 00:00:00') /* Spirit Wisp (43161) */
+     , (0x702CE01B, 0x702CE01F, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE020, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE021, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE022, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE023, '2019-02-10 00:00:00') /* Disgust Wisp (43160) */
+     , (0x702CE01B, 0x702CE024, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE025, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE026, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE027, '2019-02-10 00:00:00') /* Spirit Wisp (43161) */
+     , (0x702CE01B, 0x702CE028, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE029, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE02A, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE02B, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x702CE01B, 0x702CE02C, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x702CE01B, 0x702CE02D, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE02E, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CE01B, 0x702CE02F, '2019-02-10 00:00:00') /* Spirit Wisp (43161) */
+     , (0x702CE01B, 0x702CE030, '2019-02-10 00:00:00') /* Zombie Mage (43162) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CE01C, 43161, 0x02CE0144, 6.52938, -29.0872, 1.430511E-06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Spirit Wisp */

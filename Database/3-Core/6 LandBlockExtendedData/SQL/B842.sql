@@ -5,20 +5,20 @@ VALUES (0x7B842001,  1154, 0xB8420009, 35.0425, 4.649459, 29.30766, -0.186731, 0
 /* @teleloc 0xB8420009 [35.042500 4.649459 29.307660] -0.186731 0.000000 0.000000 -0.982411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B842001, 0x7B842002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B842001, 0x7B842003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B842001, 0x7B842004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B842001, 0x7B842005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B842001, 0x7B842006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B842001, 0x7B842007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B842001, 0x7B842008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B842001, 0x7B842009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B842001, 0x7B84200A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B842001, 0x7B84200B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B842001, 0x7B84200C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B842001, 0x7B84200D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B842001, 0x7B84200E, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B842001, 0x7B84200F, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7B842001, 0x7B842002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B842001, 0x7B842003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B842001, 0x7B842004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B842001, 0x7B842005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B842001, 0x7B842006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B842001, 0x7B842007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B842001, 0x7B842008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B842001, 0x7B842009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B842001, 0x7B84200A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B842001, 0x7B84200B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B842001, 0x7B84200C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B842001, 0x7B84200D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B842001, 0x7B84200E, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B842001, 0x7B84200F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B842002,     3, 0xB8420009, 35.0425, 4.649459, 29.30766, -0.186731, 0, 0, -0.9824111,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

@@ -105,196 +105,196 @@ VALUES (0x702EE109,  1154, 0x02EE03D8, 89.9397, -109.71, -17.94292, 0.907542, 0,
 /* @teleloc 0x02EE03D8 [89.939700 -109.710000 -17.942920] 0.907542 0.000000 0.000000 0.419961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EE109, 0x702EE10A, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x702EE109, 0x702EE10B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x702EE109, 0x702EE10C, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x702EE109, 0x702EE10D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x702EE109, 0x702EE10E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE10F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x702EE109, 0x702EE110, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE111, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE112, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x702EE109, 0x702EE113, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x702EE109, 0x702EE114, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE115, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE116, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE117, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE118, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE119, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE11A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE11B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE11C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE11D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE11E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE11F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x702EE109, 0x702EE120, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x702EE109, 0x702EE121, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x702EE109, 0x702EE122, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x702EE109, 0x702EE123, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x702EE109, 0x702EE124, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE125, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE126, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE127, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE128, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE129, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE12A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE12B, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE12C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE12D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE12E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE12F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE130, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE131, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE132, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE133, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE134, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE135, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE136, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE137, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE138, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE139, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE13F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE140, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE141, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE142, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE143, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE144, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE145, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE146, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE147, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE148, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE149, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE14A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE14B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE14C, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE14D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE14E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE14F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE150, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE151, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE152, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE153, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE154, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE155, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE156, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE157, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE158, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE159, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE15A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE15B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE15C, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE15D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE15E, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE15F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE160, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE161, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE162, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x702EE109, 0x702EE163, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE164, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE165, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE166, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE167, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE168, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE169, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE16A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE16B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE16C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE16D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE16E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE16F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE170, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE171, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE172, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE173, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE174, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE175, '2019-02-10 00:00:00') /* Specter */
-     , (0x702EE109, 0x702EE176, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE177, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE178, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE179, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE17A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x702EE109, 0x702EE17B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE17C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE17D, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x702EE109, 0x702EE17E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x702EE109, 0x702EE17F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x702EE109, 0x702EE180, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x702EE109, 0x702EE181, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x702EE109, 0x702EE182, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x702EE109, 0x702EE183, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE184, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE185, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE186, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE187, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE188, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE189, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE18A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE18B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE18C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE18D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x702EE109, 0x702EE18E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE18F, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x702EE109, 0x702EE190, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x702EE109, 0x702EE191, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x702EE109, 0x702EE192, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE193, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE194, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE195, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE196, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x702EE109, 0x702EE197, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE198, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE199, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x702EE109, 0x702EE19A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE19B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE19C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE19D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE19E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE19F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1A0, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1A1, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1A2, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1A3, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE1A4, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1A5, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE1A6, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x702EE109, 0x702EE1A7, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE1A8, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x702EE109, 0x702EE1A9, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE1AA, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1AB, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1AC, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1AD, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1AE, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1AF, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE1B0, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B1, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1B2, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B3, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B4, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B5, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B6, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1B7, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1B8, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1B9, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x702EE109, 0x702EE1BA, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x702EE109, 0x702EE1BB, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1BC, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1BD, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1BE, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1BF, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1C0, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1C1, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x702EE109, 0x702EE1C2, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE1C3, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x702EE109, 0x702EE1C4, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1C5, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x702EE109, 0x702EE1C6, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x702EE109, 0x702EE1C7, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x702EE109, 0x702EE10A, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x702EE109, 0x702EE10B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x702EE109, 0x702EE10C, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x702EE109, 0x702EE10D, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x702EE109, 0x702EE10E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE10F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x702EE109, 0x702EE110, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE111, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE112, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x702EE109, 0x702EE113, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x702EE109, 0x702EE114, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE115, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x702EE109, 0x702EE116, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE117, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE118, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE119, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE11A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE11B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE11C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE11D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE11E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE11F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x702EE109, 0x702EE120, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x702EE109, 0x702EE121, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x702EE109, 0x702EE122, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x702EE109, 0x702EE123, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x702EE109, 0x702EE124, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE125, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE126, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE127, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE128, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE129, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE12A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE12B, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE12C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE12D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE12E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE12F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE130, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE131, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE132, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE133, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE134, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE135, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE136, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE137, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE138, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE139, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE13F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE140, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE141, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE142, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE143, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE144, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE145, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE146, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE147, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE148, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE149, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE14A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE14B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE14C, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE14D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE14E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE14F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE150, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE151, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE152, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE153, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE154, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE155, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE156, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE157, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE158, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE159, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x702EE109, 0x702EE15A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE15B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE15C, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE15D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE15E, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE15F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE160, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE161, '2019-02-10 00:00:00') /* Olthoi Noble (6637) */
+     , (0x702EE109, 0x702EE162, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x702EE109, 0x702EE163, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE164, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE165, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE166, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE167, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE168, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE169, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x702EE109, 0x702EE16A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE16B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE16C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE16D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE16E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE16F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE170, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE171, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE172, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE173, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE174, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE175, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x702EE109, 0x702EE176, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE177, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE178, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE179, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE17A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x702EE109, 0x702EE17B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE17C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE17D, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x702EE109, 0x702EE17E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x702EE109, 0x702EE17F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x702EE109, 0x702EE180, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x702EE109, 0x702EE181, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x702EE109, 0x702EE182, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x702EE109, 0x702EE183, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE184, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE185, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE186, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE187, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE188, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE189, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE18A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE18B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE18C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE18D, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x702EE109, 0x702EE18E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE18F, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x702EE109, 0x702EE190, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x702EE109, 0x702EE191, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x702EE109, 0x702EE192, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE193, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE194, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE195, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE196, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x702EE109, 0x702EE197, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE198, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE199, '2019-02-10 00:00:00') /* Diamond Golem (7421) */
+     , (0x702EE109, 0x702EE19A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE19B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE19C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE19D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE19E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE19F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1A0, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1A1, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1A2, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1A3, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE1A4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1A5, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE1A6, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x702EE109, 0x702EE1A7, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE1A8, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x702EE109, 0x702EE1A9, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE1AA, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1AB, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1AC, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1AD, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1AE, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1AF, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x702EE109, 0x702EE1B0, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B1, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1B2, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B3, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B5, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B6, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1B7, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1B8, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1B9, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x702EE109, 0x702EE1BA, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE1BB, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1BC, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1BD, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1BE, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1BF, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1C0, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1C1, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1C2, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE1C3, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x702EE109, 0x702EE1C4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1C5, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE1C6, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1C7, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EE10A, 24320, 0x02EE03D8, 89.9397, -109.71, -17.94292, 0.907542, 0, 0, 0.419961,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -1061,20 +1061,20 @@ VALUES (0x702EE1C8,  1542, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 
 /* @teleloc 0x02EE03D2 [82.664600 -108.107000 -18.001000] 0.948153 0.000000 0.000000 -0.317814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EE1C8, 0x702EE1C9, '2019-02-10 00:00:00') /* Meat */
-     , (0x702EE1C8, 0x702EE1CA, '2019-02-10 00:00:00') /* Meat */
-     , (0x702EE1C8, 0x702EE1CB, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1CC, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1CD, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1CE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1CF, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D1, '2019-02-10 00:00:00') /* Sacrificial Dagger */
-     , (0x702EE1C8, 0x702EE1D2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D3, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x702EE1C8, 0x702EE1D6, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */;
+VALUES (0x702EE1C8, 0x702EE1C9, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x702EE1C8, 0x702EE1CA, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x702EE1C8, 0x702EE1CB, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1CC, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1CD, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1CE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1CF, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D1, '2019-02-10 00:00:00') /* Sacrificial Dagger (28065) */
+     , (0x702EE1C8, 0x702EE1D2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D3, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1C8, 0x702EE1D6, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EE1C9,   265, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 0, -0.317814,  True, '2019-02-10 00:00:00'); /* Meat */

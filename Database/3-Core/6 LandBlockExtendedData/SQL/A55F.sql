@@ -5,8 +5,8 @@ VALUES (0x7A55F001,  1154, 0xA55F0007, 11.42052, 147.3509, 35.33353, 0.3799489, 
 /* @teleloc 0xA55F0007 [11.420520 147.350900 35.333530] 0.379949 0.000000 0.000000 -0.925008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A55F001, 0x7A55F002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A55F001, 0x7A55F003, '2019-02-10 00:00:00') /* Battered Doll */;
+VALUES (0x7A55F001, 0x7A55F002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A55F001, 0x7A55F003, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A55F002,  9254, 0xA55F0007, 11.42052, 147.3509, 35.33353, 0.3799489, 0, 0, -0.9250075,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */

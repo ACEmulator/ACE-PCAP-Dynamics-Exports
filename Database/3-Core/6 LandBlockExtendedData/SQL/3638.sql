@@ -5,11 +5,11 @@ VALUES (0x73638001,  1154, 0x36380038, 156.9444, 190.879, 47.69127, 0.8191521, 0
 /* @teleloc 0x36380038 [156.944400 190.879000 47.691270] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73638001, 0x73638002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73638001, 0x73638003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73638001, 0x73638004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73638001, 0x73638005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73638001, 0x73638006, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x73638001, 0x73638002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73638001, 0x73638003, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73638001, 0x73638004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73638001, 0x73638005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73638001, 0x73638006, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73638002, 23482, 0x36380038, 156.9444, 190.879, 47.69127, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

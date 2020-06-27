@@ -5,10 +5,10 @@ VALUES (0x768DC001,  1154, 0x68DC0001, 21.54982, 16.15967, 207.3537, 0.80134, 0,
 /* @teleloc 0x68DC0001 [21.549820 16.159670 207.353700] 0.801340 0.000000 0.000000 -0.598209 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768DC001, 0x768DC002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x768DC001, 0x768DC003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x768DC001, 0x768DC004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x768DC001, 0x768DC005, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x768DC001, 0x768DC002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x768DC001, 0x768DC003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x768DC001, 0x768DC004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x768DC001, 0x768DC005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768DC002, 14875, 0x68DC0001, 21.54982, 16.15967, 207.3537, 0.80134, 0, 0, -0.5982091,  True, '2019-02-10 00:00:00'); /* Hyem */

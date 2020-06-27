@@ -5,15 +5,15 @@ VALUES (0x77313001,  1154, 0x73130005, 17.14625, 101.2965, 15.71594, 0.9417717, 
 /* @teleloc 0x73130005 [17.146250 101.296500 15.715940] 0.941772 0.000000 0.000000 -0.336253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77313001, 0x77313002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x77313001, 0x77313003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x77313001, 0x77313004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x77313001, 0x77313005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x77313001, 0x77313006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77313001, 0x77313007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77313001, 0x77313008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x77313001, 0x77313009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77313001, 0x7731300A, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x77313001, 0x77313002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x77313001, 0x77313003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x77313001, 0x77313004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x77313001, 0x77313005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x77313001, 0x77313006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77313001, 0x77313007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77313001, 0x77313008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x77313001, 0x77313009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77313001, 0x7731300A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77313002,  8968, 0x73130005, 17.14625, 101.2965, 15.71594, 0.9417717, 0, 0, -0.3362529,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -56,7 +56,7 @@ VALUES (0x7731300B,  1542, 0x73130006, 23.26028, 121.3238, 15.50692, 0.9417717, 
 /* @teleloc 0x73130006 [23.260280 121.323800 15.506920] 0.941772 0.000000 0.000000 -0.336253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7731300B, 0x7731300C, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7731300B, 0x7731300C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7731300C,  8037, 0x73130006, 23.26028, 121.3238, 15.50692, 0.9417717, 0, 0, -0.3362529,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,14 +5,14 @@ VALUES (0x7A1D6001,  1154, 0xA1D60033, 158.2605, 60.8881, 125.4944, 0.2588191, 0
 /* @teleloc 0xA1D60033 [158.260500 60.888100 125.494400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D6001, 0x7A1D6002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A1D6001, 0x7A1D6003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A1D6001, 0x7A1D6004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A1D6001, 0x7A1D6005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A1D6001, 0x7A1D6006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1D6001, 0x7A1D6007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1D6001, 0x7A1D6008, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A1D6001, 0x7A1D6009, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7A1D6001, 0x7A1D6002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A1D6001, 0x7A1D6003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A1D6001, 0x7A1D6004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A1D6001, 0x7A1D6005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A1D6001, 0x7A1D6006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1D6001, 0x7A1D6007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1D6001, 0x7A1D6008, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A1D6001, 0x7A1D6009, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D6002, 24289, 0xA1D60033, 158.2605, 60.8881, 125.4944, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7A1D600A,  1542, 0xA1D6001B, 76.7711, 59.1799, 131.4152, 0.9537169, 0,
 /* @teleloc 0xA1D6001B [76.771100 59.179900 131.415200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D600A, 0x7A1D600B, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal */;
+VALUES (0x7A1D600A, 0x7A1D600B, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D600B,  8390, 0xA1D6001B, 76.7711, 59.1799, 131.4152, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands South Landbridge Portal */

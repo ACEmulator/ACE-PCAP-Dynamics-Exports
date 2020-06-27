@@ -5,10 +5,10 @@ VALUES (0x7E347001,  1154, 0xE347001E, 94.51467, 128.6759, 25.15323, 0.7071068, 
 /* @teleloc 0xE347001E [94.514670 128.675900 25.153230] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E347001, 0x7E347002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E347001, 0x7E347003, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E347001, 0x7E347004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E347001, 0x7E347005, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x7E347001, 0x7E347002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7E347001, 0x7E347003, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E347001, 0x7E347004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E347001, 0x7E347005, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E347002,  5766, 0xE347001E, 94.51467, 128.6759, 25.15323, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

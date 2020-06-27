@@ -5,22 +5,22 @@ VALUES (0x70C68001,  1154, 0x0C680006, 22.87515, 143.3479, 39.77222, 0.609557, 0
 /* @teleloc 0x0C680006 [22.875150 143.347900 39.772220] 0.609557 0.000000 0.000000 -0.792742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C68001, 0x70C68002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70C68001, 0x70C68003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C68001, 0x70C68004, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70C68001, 0x70C68005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70C68001, 0x70C68006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70C68001, 0x70C68007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C68001, 0x70C68008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C68001, 0x70C68009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C68001, 0x70C6800A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C68001, 0x70C6800B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C68001, 0x70C6800C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C68001, 0x70C6800D, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C68001, 0x70C6800E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C68001, 0x70C6800F, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C68001, 0x70C68010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70C68001, 0x70C68011, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x70C68001, 0x70C68002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70C68001, 0x70C68003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C68001, 0x70C68004, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70C68001, 0x70C68005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70C68001, 0x70C68006, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70C68001, 0x70C68007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C68001, 0x70C68008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C68001, 0x70C68009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C68001, 0x70C6800A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C68001, 0x70C6800B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C68001, 0x70C6800C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C68001, 0x70C6800D, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C68001, 0x70C6800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C68001, 0x70C6800F, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C68001, 0x70C68010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70C68001, 0x70C68011, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C68002, 22914, 0x0C680006, 22.87515, 143.3479, 39.77222, 0.609557, 0, 0, -0.7927423,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

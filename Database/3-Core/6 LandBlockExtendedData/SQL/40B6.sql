@@ -5,18 +5,18 @@ VALUES (0x740B6001,  1154, 0x40B60005, 19.60505, 97.01813, -0.4495, 0.7071068, 0
 /* @teleloc 0x40B60005 [19.605050 97.018130 -0.449500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B6001, 0x740B6002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x740B6001, 0x740B6003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x740B6001, 0x740B6004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740B6001, 0x740B6005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x740B6001, 0x740B6006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x740B6001, 0x740B6007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740B6001, 0x740B6008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x740B6001, 0x740B6009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x740B6001, 0x740B600A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B6001, 0x740B600B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B6001, 0x740B600C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B6001, 0x740B600D, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x740B6001, 0x740B6002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x740B6001, 0x740B6003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x740B6001, 0x740B6004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740B6001, 0x740B6005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x740B6001, 0x740B6006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x740B6001, 0x740B6007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740B6001, 0x740B6008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x740B6001, 0x740B6009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x740B6001, 0x740B600A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B6001, 0x740B600B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B6001, 0x740B600C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B6001, 0x740B600D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B6002,  7987, 0x40B60005, 19.60505, 97.01813, -0.4495, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -71,7 +71,7 @@ VALUES (0x740B600E,  1542, 0x40B6002A, 120.0681, 34.79806, 2.90551, 0.9990482, 0
 /* @teleloc 0x40B6002A [120.068100 34.798060 2.905510] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B600E, 0x740B600F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x740B600E, 0x740B600F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B600F,  4179, 0x40B6002A, 120.0681, 34.79806, 2.90551, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

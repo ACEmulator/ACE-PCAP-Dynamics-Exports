@@ -5,17 +5,17 @@ VALUES (0x77F66001,  1154, 0x7F6601E2, 19.2178, 34.9136, 28.4, 0.731366, 0, 0, -
 /* @teleloc 0x7F6601E2 [19.217800 34.913600 28.400000] 0.731366 0.000000 0.000000 -0.681985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F66001, 0x77F66002, '2019-02-10 00:00:00') /* Small Fledgling Mukkir */
-     , (0x77F66001, 0x77F66003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x77F66001, 0x77F66004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77F66001, 0x77F66005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x77F66001, 0x77F66006, '2019-02-10 00:00:00') /* Small Fledgling Mukkir */
-     , (0x77F66001, 0x77F66007, '2019-02-10 00:00:00') /* Small Fledgling Mukkir */
-     , (0x77F66001, 0x77F66008, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77F66001, 0x77F66009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x77F66001, 0x77F6600A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77F66001, 0x77F6600B, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77F66001, 0x77F6600C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x77F66001, 0x77F66002, '2019-02-10 00:00:00') /* Small Fledgling Mukkir (33804) */
+     , (0x77F66001, 0x77F66003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x77F66001, 0x77F66004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77F66001, 0x77F66005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x77F66001, 0x77F66006, '2019-02-10 00:00:00') /* Small Fledgling Mukkir (33804) */
+     , (0x77F66001, 0x77F66007, '2019-02-10 00:00:00') /* Small Fledgling Mukkir (33804) */
+     , (0x77F66001, 0x77F66008, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77F66001, 0x77F66009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x77F66001, 0x77F6600A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77F66001, 0x77F6600B, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77F66001, 0x77F6600C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F66002, 33804, 0x7F6601E2, 19.2178, 34.9136, 28.4, 0.731366, 0, 0, -0.6819851,  True, '2019-02-10 00:00:00'); /* Small Fledgling Mukkir */
@@ -66,7 +66,7 @@ VALUES (0x77F6600D,  1542, 0x7F66002E, 133.8751, 123.5249, 48.79951, 0.2120414, 
 /* @teleloc 0x7F66002E [133.875100 123.524900 48.799510] 0.212041 0.000000 0.000000 -0.977261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F6600D, 0x77F6600E, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x77F6600D, 0x77F6600E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F6600E,  1955, 0x7F66002E, 133.8751, 123.5249, 48.79951, 0.2120414, 0, 0, -0.9772606,  True, '2019-02-10 00:00:00'); /* Gateway */

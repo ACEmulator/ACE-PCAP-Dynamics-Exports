@@ -5,12 +5,12 @@ VALUES (0x7E029001,  1154, 0xE0290033, 162.3993, 56.74514, 78.05775, 0.9238795, 
 /* @teleloc 0xE0290033 [162.399300 56.745140 78.057750] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E029001, 0x7E029002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7E029001, 0x7E029003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7E029001, 0x7E029004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7E029001, 0x7E029005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E029001, 0x7E029006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E029001, 0x7E029007, '2019-02-10 00:00:00') /* Ebon Mattekar */;
+VALUES (0x7E029001, 0x7E029002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7E029001, 0x7E029003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7E029001, 0x7E029004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7E029001, 0x7E029005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E029001, 0x7E029006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E029001, 0x7E029007, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E029002,  7089, 0xE0290033, 162.3993, 56.74514, 78.05775, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

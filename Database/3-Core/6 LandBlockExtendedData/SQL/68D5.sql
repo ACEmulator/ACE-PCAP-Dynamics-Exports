@@ -5,22 +5,22 @@ VALUES (0x768D5001,  1154, 0x68D50010, 31.30691, 180.8271, 170.7416, -0.2643976,
 /* @teleloc 0x68D50010 [31.306910 180.827100 170.741600] -0.264398 0.000000 0.000000 -0.964414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768D5001, 0x768D5002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x768D5001, 0x768D5003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x768D5001, 0x768D5004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x768D5001, 0x768D5005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x768D5001, 0x768D5006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x768D5001, 0x768D5007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x768D5001, 0x768D5008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x768D5001, 0x768D5009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x768D5001, 0x768D500A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x768D5001, 0x768D500B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x768D5001, 0x768D500C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x768D5001, 0x768D500D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x768D5001, 0x768D500E, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x768D5001, 0x768D500F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x768D5001, 0x768D5010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x768D5001, 0x768D5011, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x768D5001, 0x768D5002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x768D5001, 0x768D5003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x768D5001, 0x768D5004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x768D5001, 0x768D5005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x768D5001, 0x768D5006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x768D5001, 0x768D5007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x768D5001, 0x768D5008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x768D5001, 0x768D5009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x768D5001, 0x768D500A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x768D5001, 0x768D500B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x768D5001, 0x768D500C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x768D5001, 0x768D500D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x768D5001, 0x768D500E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x768D5001, 0x768D500F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x768D5001, 0x768D5010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x768D5001, 0x768D5011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768D5002, 24958, 0x68D50010, 31.30691, 180.8271, 170.7416, -0.2643976, 0, 0, -0.9644138,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -91,8 +91,8 @@ VALUES (0x768D5012,  1542, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 
 /* @teleloc 0x68D50018 [62.958650 172.446900 171.617100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768D5012, 0x768D5013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x768D5012, 0x768D5014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x768D5012, 0x768D5013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x768D5012, 0x768D5014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768D5013,  4179, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

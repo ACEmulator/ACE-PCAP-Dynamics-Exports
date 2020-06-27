@@ -5,29 +5,29 @@ VALUES (0x77D14001,  1154, 0x7D14003E, 185.3127, 129.9252, 116.6276, -0.9939207,
 /* @teleloc 0x7D14003E [185.312700 129.925200 116.627600] -0.993921 0.000000 0.000000 -0.110098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D14001, 0x77D14002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77D14001, 0x77D14003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77D14001, 0x77D14004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x77D14001, 0x77D14005, '2019-02-10 00:00:00') /* Static */
-     , (0x77D14001, 0x77D14006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77D14001, 0x77D14007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77D14001, 0x77D14008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77D14001, 0x77D14009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77D14001, 0x77D1400A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77D14001, 0x77D1400B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77D14001, 0x77D1400C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77D14001, 0x77D1400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77D14001, 0x77D1400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77D14001, 0x77D1400F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77D14001, 0x77D14010, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77D14001, 0x77D14011, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77D14001, 0x77D14012, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x77D14001, 0x77D14013, '2019-02-10 00:00:00') /* Revenant */
-     , (0x77D14001, 0x77D14014, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x77D14001, 0x77D14015, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77D14001, 0x77D14016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77D14001, 0x77D14017, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77D14001, 0x77D14018, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x77D14001, 0x77D14002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77D14001, 0x77D14003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77D14001, 0x77D14004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x77D14001, 0x77D14005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x77D14001, 0x77D14006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77D14001, 0x77D14007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77D14001, 0x77D14008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77D14001, 0x77D14009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77D14001, 0x77D1400A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77D14001, 0x77D1400B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77D14001, 0x77D1400C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77D14001, 0x77D1400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77D14001, 0x77D1400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77D14001, 0x77D1400F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77D14001, 0x77D14010, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77D14001, 0x77D14011, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77D14001, 0x77D14012, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x77D14001, 0x77D14013, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x77D14001, 0x77D14014, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x77D14001, 0x77D14015, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77D14001, 0x77D14016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77D14001, 0x77D14017, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77D14001, 0x77D14018, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D14002,  7107, 0x7D14003E, 185.3127, 129.9252, 116.6276, -0.9939207, 0, 0, -0.1100978,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -126,8 +126,8 @@ VALUES (0x77D14019,  1542, 0x7D14003D, 180.0396, 104.4048, 117.2996, 1, 0, 0, 0,
 /* @teleloc 0x7D14003D [180.039600 104.404800 117.299600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D14019, 0x77D1401A, '2019-02-10 00:00:00') /* Bones */
-     , (0x77D14019, 0x77D1401B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x77D14019, 0x77D1401A, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x77D14019, 0x77D1401B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D1401A,  4379, 0x7D14003D, 180.0396, 104.4048, 117.2996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

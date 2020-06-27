@@ -5,16 +5,16 @@ VALUES (0x7B1A8001,  1154, 0xB1A8003E, 181.6534, 140.9649, 27.56, -0.9212582, 0,
 /* @teleloc 0xB1A8003E [181.653400 140.964900 27.560000] -0.921258 0.000000 0.000000 -0.388952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A8001, 0x7B1A8002, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B1A8001, 0x7B1A8003, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B1A8001, 0x7B1A8004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B1A8001, 0x7B1A8005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B1A8001, 0x7B1A8006, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B1A8001, 0x7B1A8007, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1A8001, 0x7B1A8008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1A8001, 0x7B1A8009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B1A8001, 0x7B1A800A, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B1A8001, 0x7B1A800B, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7B1A8001, 0x7B1A8002, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B1A8001, 0x7B1A8003, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B1A8001, 0x7B1A8004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B1A8001, 0x7B1A8005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B1A8001, 0x7B1A8006, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B1A8001, 0x7B1A8007, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1A8001, 0x7B1A8008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1A8001, 0x7B1A8009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B1A8001, 0x7B1A800A, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B1A8001, 0x7B1A800B, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A8002,  6534, 0xB1A8003E, 181.6534, 140.9649, 27.56, -0.9212582, 0, 0, -0.3889517,  True, '2019-02-10 00:00:00'); /* Shadow Sprite */

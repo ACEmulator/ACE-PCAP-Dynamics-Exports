@@ -5,21 +5,21 @@ VALUES (0x7BF92001,  1154, 0xBF92003F, 190.6723, 162.8909, 1.9045, 0.4251417, 0,
 /* @teleloc 0xBF92003F [190.672300 162.890900 1.904500] 0.425142 0.000000 0.000000 -0.905127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF92001, 0x7BF92002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF92001, 0x7BF92003, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BF92001, 0x7BF92004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF92001, 0x7BF92005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BF92001, 0x7BF92006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF92001, 0x7BF92007, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BF92001, 0x7BF92008, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BF92001, 0x7BF92009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF92001, 0x7BF9200A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF92001, 0x7BF9200B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BF92001, 0x7BF9200C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF92001, 0x7BF9200D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF92001, 0x7BF9200E, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF92001, 0x7BF9200F, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BF92001, 0x7BF92010, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x7BF92001, 0x7BF92002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF92001, 0x7BF92003, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BF92001, 0x7BF92004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF92001, 0x7BF92005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BF92001, 0x7BF92006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF92001, 0x7BF92007, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BF92001, 0x7BF92008, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BF92001, 0x7BF92009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF92001, 0x7BF9200A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF92001, 0x7BF9200B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BF92001, 0x7BF9200C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF92001, 0x7BF9200D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF92001, 0x7BF9200E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF92001, 0x7BF9200F, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BF92001, 0x7BF92010, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF92002,  1612, 0xBF92003F, 190.6723, 162.8909, 1.9045, 0.4251417, 0, 0, -0.9051268,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

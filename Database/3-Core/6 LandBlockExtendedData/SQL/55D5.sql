@@ -5,28 +5,28 @@ VALUES (0x755D5001,  1154, 0x55D50006, 22.59054, 120.6579, 51.96298, 0.5, 0, 0, 
 /* @teleloc 0x55D50006 [22.590540 120.657900 51.962980] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D5001, 0x755D5002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x755D5001, 0x755D5003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x755D5001, 0x755D5004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x755D5001, 0x755D5005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x755D5001, 0x755D5006, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x755D5001, 0x755D5007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x755D5001, 0x755D5008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x755D5001, 0x755D5009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x755D5001, 0x755D500A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x755D5001, 0x755D500B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x755D5001, 0x755D500C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x755D5001, 0x755D500D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x755D5001, 0x755D500E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x755D5001, 0x755D500F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x755D5001, 0x755D5010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x755D5001, 0x755D5011, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x755D5001, 0x755D5012, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x755D5001, 0x755D5013, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x755D5001, 0x755D5014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755D5001, 0x755D5015, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755D5001, 0x755D5016, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x755D5001, 0x755D5017, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x755D5001, 0x755D5002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x755D5001, 0x755D5003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x755D5001, 0x755D5004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x755D5001, 0x755D5005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x755D5001, 0x755D5006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x755D5001, 0x755D5007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x755D5001, 0x755D5008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x755D5001, 0x755D5009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x755D5001, 0x755D500A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x755D5001, 0x755D500B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x755D5001, 0x755D500C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x755D5001, 0x755D500D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x755D5001, 0x755D500E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x755D5001, 0x755D500F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x755D5001, 0x755D5010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x755D5001, 0x755D5011, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x755D5001, 0x755D5012, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x755D5001, 0x755D5013, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x755D5001, 0x755D5014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755D5001, 0x755D5015, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755D5001, 0x755D5016, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x755D5001, 0x755D5017, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D5002,  4216, 0x55D50006, 22.59054, 120.6579, 51.96298, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

@@ -5,17 +5,17 @@ VALUES (0x73C49001,  1154, 0x3C490040, 191.6676, 174.5783, 20.17258, 0.6281912, 
 /* @teleloc 0x3C490040 [191.667600 174.578300 20.172580] 0.628191 0.000000 0.000000 -0.778059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C49001, 0x73C49002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C49001, 0x73C49003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C49001, 0x73C49004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C49001, 0x73C49005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C49001, 0x73C49006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C49001, 0x73C49007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C49001, 0x73C49008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C49001, 0x73C49009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C49001, 0x73C4900A, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C49001, 0x73C4900B, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C49001, 0x73C4900C, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x73C49001, 0x73C49002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C49001, 0x73C49003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C49001, 0x73C49004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73C49001, 0x73C49005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73C49001, 0x73C49006, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73C49001, 0x73C49007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C49001, 0x73C49008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C49001, 0x73C49009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C49001, 0x73C4900A, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C49001, 0x73C4900B, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C49001, 0x73C4900C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C49002,  7181, 0x3C490040, 191.6676, 174.5783, 20.17258, 0.6281912, 0, 0, -0.778059,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -66,7 +66,7 @@ VALUES (0x73C4900D,  1542, 0x3C49003F, 182.0048, 156.9852, 28.0062, 0.9990482, 0
 /* @teleloc 0x3C49003F [182.004800 156.985200 28.006200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4900D, 0x73C4900E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73C4900D, 0x73C4900E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4900E,  4179, 0x3C49003F, 182.0048, 156.9852, 28.0062, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

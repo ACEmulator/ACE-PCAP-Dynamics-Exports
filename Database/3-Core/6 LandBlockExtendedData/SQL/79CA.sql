@@ -5,21 +5,21 @@ VALUES (0x779CA001,  1154, 0x79CA003B, 188.6727, 63.49215, 203.8438, 0.9063078, 
 /* @teleloc 0x79CA003B [188.672700 63.492150 203.843800] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779CA001, 0x779CA002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x779CA001, 0x779CA003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x779CA001, 0x779CA004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x779CA001, 0x779CA005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x779CA001, 0x779CA006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779CA001, 0x779CA007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x779CA001, 0x779CA008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x779CA001, 0x779CA009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x779CA001, 0x779CA00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x779CA001, 0x779CA00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779CA001, 0x779CA00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779CA001, 0x779CA00D, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x779CA001, 0x779CA00E, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x779CA001, 0x779CA00F, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x779CA001, 0x779CA010, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x779CA001, 0x779CA002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x779CA001, 0x779CA003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x779CA001, 0x779CA004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x779CA001, 0x779CA005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x779CA001, 0x779CA006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779CA001, 0x779CA007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x779CA001, 0x779CA008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x779CA001, 0x779CA009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x779CA001, 0x779CA00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x779CA001, 0x779CA00B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x779CA001, 0x779CA00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779CA001, 0x779CA00D, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x779CA001, 0x779CA00E, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x779CA001, 0x779CA00F, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x779CA001, 0x779CA010, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779CA002,  7980, 0x79CA003B, 188.6727, 63.49215, 203.8438, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -86,7 +86,7 @@ VALUES (0x779CA011,  1542, 0x79CA000F, 29.00197, 165.9709, 245.8919, 1, 0, 0, 0,
 /* @teleloc 0x79CA000F [29.001970 165.970900 245.891900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779CA011, 0x779CA012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x779CA011, 0x779CA012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779CA012,  4179, 0x79CA000F, 29.00197, 165.9709, 245.8919, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

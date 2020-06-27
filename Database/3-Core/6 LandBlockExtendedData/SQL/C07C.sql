@@ -5,12 +5,12 @@ VALUES (0x7C07C001,  1154, 0xC07C0014, 51.74476, 77.40853, 41.77003, 0.2613413, 
 /* @teleloc 0xC07C0014 [51.744760 77.408530 41.770030] 0.261341 0.000000 0.000000 -0.965246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C07C001, 0x7C07C002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C07C001, 0x7C07C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C07C001, 0x7C07C004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C07C001, 0x7C07C005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C07C001, 0x7C07C006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C07C001, 0x7C07C007, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7C07C001, 0x7C07C002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C07C001, 0x7C07C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C07C001, 0x7C07C004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C07C001, 0x7C07C005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C07C001, 0x7C07C006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C07C001, 0x7C07C007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C07C002,   215, 0xC07C0014, 51.74476, 77.40853, 41.77003, 0.2613413, 0, 0, -0.9652464,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

@@ -13,24 +13,24 @@ VALUES (0x7261A00C,  1154, 0x261A0100, 180.666, 154.539, 56.0075, 0.859314, 0, 0
 /* @teleloc 0x261A0100 [180.666000 154.539000 56.007500] 0.859314 0.000000 0.000000 -0.511448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261A00C, 0x7261A00D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7261A00C, 0x7261A00E, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7261A00C, 0x7261A00F, '2019-02-10 00:00:00') /* Sirrocco */
-     , (0x7261A00C, 0x7261A010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7261A00C, 0x7261A011, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7261A00C, 0x7261A012, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7261A00C, 0x7261A013, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7261A00C, 0x7261A014, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7261A00C, 0x7261A015, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7261A00C, 0x7261A016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7261A00C, 0x7261A017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7261A00C, 0x7261A018, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7261A00C, 0x7261A019, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7261A00C, 0x7261A01A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7261A00C, 0x7261A01B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7261A00C, 0x7261A01C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7261A00C, 0x7261A01D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7261A00C, 0x7261A01E, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7261A00C, 0x7261A00D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7261A00C, 0x7261A00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7261A00C, 0x7261A00F, '2019-02-10 00:00:00') /* Sirrocco (14878) */
+     , (0x7261A00C, 0x7261A010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7261A00C, 0x7261A011, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7261A00C, 0x7261A012, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7261A00C, 0x7261A013, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7261A00C, 0x7261A014, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7261A00C, 0x7261A015, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7261A00C, 0x7261A016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7261A00C, 0x7261A017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7261A00C, 0x7261A018, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7261A00C, 0x7261A019, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7261A00C, 0x7261A01A, '2019-02-10 00:00:00') /* Raider Juggernaut (24285) */
+     , (0x7261A00C, 0x7261A01B, '2019-02-10 00:00:00') /* Raider Juggernaut (24285) */
+     , (0x7261A00C, 0x7261A01C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7261A00C, 0x7261A01D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7261A00C, 0x7261A01E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261A00D, 24326, 0x261A0100, 180.666, 154.539, 56.0075, 0.859314, 0, 0, -0.511448,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -109,7 +109,7 @@ VALUES (0x7261A01F,  1542, 0x261A0037, 154.1902, 151.4805, 56, -4.371139E-08, 0,
 /* @teleloc 0x261A0037 [154.190200 151.480500 56.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261A01F, 0x7261A020, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7261A01F, 0x7261A020, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261A020,  4380, 0x261A0037, 154.1902, 151.4805, 56, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

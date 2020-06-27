@@ -5,20 +5,20 @@ VALUES (0x78EC4001,  1154, 0x8EC40011, 70.47903, 14.26529, 49.30383, 0.01965344,
 /* @teleloc 0x8EC40011 [70.479030 14.265290 49.303830] 0.019653 0.000000 0.000000 -0.999807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC4001, 0x78EC4002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78EC4001, 0x78EC4003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC4001, 0x78EC4004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC4001, 0x78EC4005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC4001, 0x78EC4006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC4001, 0x78EC4007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EC4001, 0x78EC4008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78EC4001, 0x78EC4009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78EC4001, 0x78EC400A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78EC4001, 0x78EC400B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78EC4001, 0x78EC400C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78EC4001, 0x78EC400D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78EC4001, 0x78EC400E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78EC4001, 0x78EC400F, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x78EC4001, 0x78EC4002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78EC4001, 0x78EC4003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC4001, 0x78EC4004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC4001, 0x78EC4005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC4001, 0x78EC4006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC4001, 0x78EC4007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EC4001, 0x78EC4008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78EC4001, 0x78EC4009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78EC4001, 0x78EC400A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78EC4001, 0x78EC400B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78EC4001, 0x78EC400C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78EC4001, 0x78EC400D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78EC4001, 0x78EC400E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78EC4001, 0x78EC400F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC4002,  9253, 0x8EC40011, 70.47903, 14.26529, 49.30383, 0.01965344, 0, 0, -0.9998069,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -81,8 +81,8 @@ VALUES (0x78EC4010,  1542, 0x8EC4002C, 127.231, 80.10171, 72.41035, 0.9990482, 0
 /* @teleloc 0x8EC4002C [127.231000 80.101710 72.410350] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC4010, 0x78EC4011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78EC4010, 0x78EC4012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78EC4010, 0x78EC4011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78EC4010, 0x78EC4012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC4011,  4179, 0x8EC4002C, 127.231, 80.10171, 72.41035, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,18 +5,18 @@ VALUES (0x7ED81001,  1154, 0xED81001B, 80.4026, 60.1336, 1.982734, 0.931476, 0, 
 /* @teleloc 0xED81001B [80.402600 60.133600 1.982734] 0.931476 0.000000 0.000000 -0.363803 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED81001, 0x7ED81002, '2019-02-10 00:00:00') /* A Sycophant's Corpse */
-     , (0x7ED81001, 0x7ED81003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7ED81001, 0x7ED81004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7ED81001, 0x7ED81005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7ED81001, 0x7ED81006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7ED81001, 0x7ED81007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7ED81001, 0x7ED81008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7ED81001, 0x7ED81009, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED81001, 0x7ED8100A, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED81001, 0x7ED8100B, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED81001, 0x7ED8100C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7ED81001, 0x7ED8100D, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7ED81001, 0x7ED81002, '2019-02-10 00:00:00') /* A Sycophant's Corpse (27513) */
+     , (0x7ED81001, 0x7ED81003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED81001, 0x7ED81004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7ED81001, 0x7ED81005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED81001, 0x7ED81006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7ED81001, 0x7ED81007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7ED81001, 0x7ED81008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED81001, 0x7ED81009, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED81001, 0x7ED8100A, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED81001, 0x7ED8100B, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED81001, 0x7ED8100C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7ED81001, 0x7ED8100D, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED81002, 27513, 0xED81001B, 80.4026, 60.1336, 1.982734, 0.931476, 0, 0, -0.363803,  True, '2019-02-10 00:00:00'); /* A Sycophant's Corpse */
@@ -71,7 +71,7 @@ VALUES (0x7ED8100E,  1542, 0xED810013, 69.22334, 51.86958, 3.358441, -0.3642721,
 /* @teleloc 0xED810013 [69.223340 51.869580 3.358441] -0.364272 0.000000 0.000000 -0.931293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED8100E, 0x7ED8100F, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */;
+VALUES (0x7ED8100E, 0x7ED8100F, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED8100F, 27803, 0xED810013, 69.22334, 51.86958, 3.358441, -0.3642721, 0, 0, -0.9312926,  True, '2019-02-10 00:00:00'); /* Infected Assailer Camp Generator */

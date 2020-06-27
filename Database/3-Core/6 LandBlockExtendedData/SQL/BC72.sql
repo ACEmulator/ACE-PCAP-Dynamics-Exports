@@ -5,19 +5,19 @@ VALUES (0x7BC72001,  1154, 0xBC720009, 27.20661, 3.268866, 8.283405, 0.9906483, 
 /* @teleloc 0xBC720009 [27.206610 3.268866 8.283405] 0.990648 0.000000 0.000000 -0.136441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC72001, 0x7BC72002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC72001, 0x7BC72003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BC72001, 0x7BC72004, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BC72001, 0x7BC72005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BC72001, 0x7BC72006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC72001, 0x7BC72007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC72001, 0x7BC72008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC72001, 0x7BC72009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC72001, 0x7BC7200A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BC72001, 0x7BC7200B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC72001, 0x7BC7200C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC72001, 0x7BC7200D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC72001, 0x7BC7200E, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7BC72001, 0x7BC72002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC72001, 0x7BC72003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BC72001, 0x7BC72004, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BC72001, 0x7BC72005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BC72001, 0x7BC72006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC72001, 0x7BC72007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC72001, 0x7BC72008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC72001, 0x7BC72009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC72001, 0x7BC7200A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BC72001, 0x7BC7200B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC72001, 0x7BC7200C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC72001, 0x7BC7200D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC72001, 0x7BC7200E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC72002,   200, 0xBC720009, 27.20661, 3.268866, 8.283405, 0.9906483, 0, 0, -0.1364405,  True, '2019-02-10 00:00:00'); /* Mud Golem */

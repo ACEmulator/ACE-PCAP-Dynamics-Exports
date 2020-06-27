@@ -5,12 +5,12 @@ VALUES (0x78DD3001,  1154, 0x8DD30001, 10.97176, 0.9332916, 409.4958, 0.7294701,
 /* @teleloc 0x8DD30001 [10.971760 0.933292 409.495800] 0.729470 0.000000 0.000000 -0.684013 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DD3001, 0x78DD3002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DD3001, 0x78DD3003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DD3001, 0x78DD3004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78DD3001, 0x78DD3005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78DD3001, 0x78DD3006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78DD3001, 0x78DD3007, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x78DD3001, 0x78DD3002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DD3001, 0x78DD3003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DD3001, 0x78DD3004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78DD3001, 0x78DD3005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78DD3001, 0x78DD3006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78DD3001, 0x78DD3007, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DD3002, 22520, 0x8DD30001, 10.97176, 0.9332916, 409.4958, 0.7294701, 0, 0, -0.6840128,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

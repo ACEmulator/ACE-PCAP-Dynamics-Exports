@@ -5,11 +5,11 @@ VALUES (0x7B8CC001,  1154, 0xB8CC0001, 2.845095, 16.7723, 261.2869, 0.9063078, 0
 /* @teleloc 0xB8CC0001 [2.845095 16.772300 261.286900] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8CC001, 0x7B8CC002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B8CC001, 0x7B8CC003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B8CC001, 0x7B8CC004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B8CC001, 0x7B8CC005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B8CC001, 0x7B8CC006, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7B8CC001, 0x7B8CC002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B8CC001, 0x7B8CC003, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B8CC001, 0x7B8CC004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B8CC001, 0x7B8CC005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B8CC001, 0x7B8CC006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8CC002,  2576, 0xB8CC0001, 2.845095, 16.7723, 261.2869, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -36,9 +36,9 @@ VALUES (0x7B8CC007,  1542, 0xB8CC0001, 0.04202268, 18.61425, 259.5792, 0.9238795
 /* @teleloc 0xB8CC0001 [0.042023 18.614250 259.579200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8CC007, 0x7B8CC008, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B8CC007, 0x7B8CC009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B8CC007, 0x7B8CC00A, '2019-02-10 00:00:00') /* Giant Snowman */;
+VALUES (0x7B8CC007, 0x7B8CC008, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B8CC007, 0x7B8CC009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B8CC007, 0x7B8CC00A, '2019-02-10 00:00:00') /* Giant Snowman (5767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8CC008,  4380, 0xB8CC0001, 0.04202268, 18.61425, 259.5792, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

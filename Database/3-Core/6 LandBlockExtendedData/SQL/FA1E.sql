@@ -5,15 +5,15 @@ VALUES (0x7FA1E001,  1154, 0xFA1E000C, 29.22699, 80.46168, 0, 0.7071068, 0, 0, -
 /* @teleloc 0xFA1E000C [29.226990 80.461680 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA1E001, 0x7FA1E002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7FA1E001, 0x7FA1E003, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7FA1E001, 0x7FA1E004, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7FA1E001, 0x7FA1E005, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7FA1E001, 0x7FA1E006, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7FA1E001, 0x7FA1E007, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7FA1E001, 0x7FA1E008, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7FA1E001, 0x7FA1E009, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7FA1E001, 0x7FA1E00A, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7FA1E001, 0x7FA1E002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7FA1E001, 0x7FA1E003, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7FA1E001, 0x7FA1E004, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7FA1E001, 0x7FA1E005, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7FA1E001, 0x7FA1E006, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7FA1E001, 0x7FA1E007, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7FA1E001, 0x7FA1E008, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7FA1E001, 0x7FA1E009, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7FA1E001, 0x7FA1E00A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA1E002,  7111, 0xFA1E000C, 29.22699, 80.46168, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

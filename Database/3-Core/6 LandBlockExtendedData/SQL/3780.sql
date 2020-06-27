@@ -5,13 +5,13 @@ VALUES (0x73780001,  1154, 0x37800001, 11.24442, 15.0255, 92.95559, -0.7071068, 
 /* @teleloc 0x37800001 [11.244420 15.025500 92.955590] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73780001, 0x73780002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73780001, 0x73780003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73780001, 0x73780004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x73780001, 0x73780005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x73780001, 0x73780006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73780001, 0x73780007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73780001, 0x73780008, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x73780001, 0x73780002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73780001, 0x73780003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73780001, 0x73780004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x73780001, 0x73780005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x73780001, 0x73780006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73780001, 0x73780007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73780001, 0x73780008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73780002,  7982, 0x37800001, 11.24442, 15.0255, 92.95559, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -46,8 +46,8 @@ VALUES (0x73780009,  1542, 0x37800020, 75.98644, 182.3968, 180, -0.0822544, 0, 0
 /* @teleloc 0x37800020 [75.986440 182.396800 180.000000] -0.082254 0.000000 0.000000 -0.996611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73780009, 0x7378000A, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x73780009, 0x7378000B, '2019-02-10 00:00:00') /* Sawato Portal */;
+VALUES (0x73780009, 0x7378000A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x73780009, 0x7378000B, '2019-02-10 00:00:00') /* Sawato Portal (42849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7378000A,  8644, 0x37800020, 75.98644, 182.3968, 180, -0.0822544, 0, 0, -0.9966114,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

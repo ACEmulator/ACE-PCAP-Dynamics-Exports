@@ -5,36 +5,36 @@ VALUES (0x746F3001,  1154, 0x46F3003D, 168.2453, 101.4252, 28.67094, 0.9720114, 
 /* @teleloc 0x46F3003D [168.245300 101.425200 28.670940] 0.972011 0.000000 0.000000 -0.234934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746F3001, 0x746F3002, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F3001, 0x746F3003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F3001, 0x746F3004, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F3001, 0x746F3005, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F3001, 0x746F3006, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F3001, 0x746F3007, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F3001, 0x746F3008, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F3001, 0x746F3009, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F3001, 0x746F300A, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F3001, 0x746F300B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F3001, 0x746F300C, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F3001, 0x746F300D, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F3001, 0x746F300E, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F3001, 0x746F300F, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x746F3001, 0x746F3010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F3001, 0x746F3011, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F3001, 0x746F3012, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F3001, 0x746F3013, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F3001, 0x746F3014, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F3001, 0x746F3015, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F3001, 0x746F3016, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F3001, 0x746F3017, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F3001, 0x746F3018, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F3001, 0x746F3019, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F3001, 0x746F301A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F3001, 0x746F301B, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F3001, 0x746F301C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F3001, 0x746F301D, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F3001, 0x746F301E, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F3001, 0x746F301F, '2019-02-10 00:00:00') /* Viamontian Lord */;
+VALUES (0x746F3001, 0x746F3002, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F3001, 0x746F3003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F3001, 0x746F3004, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F3001, 0x746F3005, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F3001, 0x746F3006, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F3001, 0x746F3007, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F3001, 0x746F3008, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F3001, 0x746F3009, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F3001, 0x746F300A, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F3001, 0x746F300B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F3001, 0x746F300C, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F3001, 0x746F300D, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F3001, 0x746F300E, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F3001, 0x746F300F, '2019-02-10 00:00:00') /* Uber Penguin (28659) */
+     , (0x746F3001, 0x746F3010, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F3001, 0x746F3011, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F3001, 0x746F3012, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F3001, 0x746F3013, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F3001, 0x746F3014, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F3001, 0x746F3015, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F3001, 0x746F3016, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F3001, 0x746F3017, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F3001, 0x746F3018, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F3001, 0x746F3019, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F3001, 0x746F301A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F3001, 0x746F301B, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F3001, 0x746F301C, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F3001, 0x746F301D, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F3001, 0x746F301E, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F3001, 0x746F301F, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746F3002, 28652, 0x46F3003D, 168.2453, 101.4252, 28.67094, 0.9720114, 0, 0, -0.2349336,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */

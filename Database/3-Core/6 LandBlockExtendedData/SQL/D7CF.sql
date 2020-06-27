@@ -5,10 +5,10 @@ VALUES (0x7D7CF001,  1154, 0xD7CF0012, 67.33334, 42.30218, 60.13588, 0.4843013, 
 /* @teleloc 0xD7CF0012 [67.333340 42.302180 60.135880] 0.484301 0.000000 0.000000 -0.874901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7CF001, 0x7D7CF002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D7CF001, 0x7D7CF003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D7CF001, 0x7D7CF004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D7CF001, 0x7D7CF005, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7D7CF001, 0x7D7CF002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D7CF001, 0x7D7CF003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D7CF001, 0x7D7CF004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D7CF001, 0x7D7CF005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7CF002,  7987, 0xD7CF0012, 67.33334, 42.30218, 60.13588, 0.4843013, 0, 0, -0.8749013,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

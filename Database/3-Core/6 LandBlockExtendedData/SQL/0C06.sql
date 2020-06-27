@@ -5,51 +5,51 @@ VALUES (0x70C06001,  1154, 0x0C060010, 40.63326, 171.5037, 47.72456, -0.8104331,
 /* @teleloc 0x0C060010 [40.633260 171.503700 47.724560] -0.810433 0.000000 0.000000 -0.585831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C06001, 0x70C06002, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06003, '2019-02-10 00:00:00') /* Ebon Rift */
-     , (0x70C06001, 0x70C06004, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70C06001, 0x70C06005, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70C06001, 0x70C06006, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70C06001, 0x70C06007, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70C06001, 0x70C06008, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70C06001, 0x70C06009, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70C06001, 0x70C0600A, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70C06001, 0x70C0600B, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70C06001, 0x70C0600C, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70C06001, 0x70C0600D, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70C06001, 0x70C0600E, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C0600F, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70C06001, 0x70C06010, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70C06001, 0x70C06011, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70C06001, 0x70C06012, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x70C06001, 0x70C06013, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06014, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06015, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06016, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06017, '2019-02-10 00:00:00') /* Ebon Rift */
-     , (0x70C06001, 0x70C06018, '2019-02-10 00:00:00') /* Contagion Rat */
-     , (0x70C06001, 0x70C06019, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70C06001, 0x70C0601A, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C0601B, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C0601C, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70C06001, 0x70C0601D, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C0601E, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C0601F, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C06020, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06021, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06022, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06023, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70C06001, 0x70C06024, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C06025, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70C06001, 0x70C06026, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x70C06001, 0x70C06027, '2019-02-10 00:00:00') /* Fallen Shadow */
-     , (0x70C06001, 0x70C06028, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70C06001, 0x70C06029, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x70C06001, 0x70C0602A, '2019-02-10 00:00:00') /* Tainted Carenzi */
-     , (0x70C06001, 0x70C0602B, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70C06001, 0x70C0602C, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70C06001, 0x70C0602D, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70C06001, 0x70C0602E, '2019-02-10 00:00:00') /* Stalking Margul */;
+VALUES (0x70C06001, 0x70C06002, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06003, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
+     , (0x70C06001, 0x70C06004, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70C06001, 0x70C06005, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70C06001, 0x70C06006, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70C06001, 0x70C06007, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70C06001, 0x70C06008, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70C06001, 0x70C06009, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70C06001, 0x70C0600A, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70C06001, 0x70C0600B, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70C06001, 0x70C0600C, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70C06001, 0x70C0600D, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70C06001, 0x70C0600E, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C0600F, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70C06001, 0x70C06010, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70C06001, 0x70C06011, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70C06001, 0x70C06012, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70C06001, 0x70C06013, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06014, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06015, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06016, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06017, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
+     , (0x70C06001, 0x70C06018, '2019-02-10 00:00:00') /* Contagion Rat (25877) */
+     , (0x70C06001, 0x70C06019, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70C06001, 0x70C0601A, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C0601B, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C0601C, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70C06001, 0x70C0601D, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C0601E, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C0601F, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C06020, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06021, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06022, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06023, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06024, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C06025, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70C06001, 0x70C06026, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70C06001, 0x70C06027, '2019-02-10 00:00:00') /* Fallen Shadow (30887) */
+     , (0x70C06001, 0x70C06028, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70C06001, 0x70C06029, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x70C06001, 0x70C0602A, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x70C06001, 0x70C0602B, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70C06001, 0x70C0602C, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70C06001, 0x70C0602D, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70C06001, 0x70C0602E, '2019-02-10 00:00:00') /* Stalking Margul (25864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C06002, 25867, 0x0C060010, 40.63326, 171.5037, 47.72456, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
@@ -236,7 +236,7 @@ VALUES (0x70C0602F,  1542, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331,
 /* @teleloc 0x0C060010 [44.681040 171.161600 47.410790] -0.810433 0.000000 0.000000 -0.585831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C0602F, 0x70C06030, '2019-02-10 00:00:00') /* Black Marrow Reliquary */;
+VALUES (0x70C0602F, 0x70C06030, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C06030, 30796, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */

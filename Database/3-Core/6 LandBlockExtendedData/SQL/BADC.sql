@@ -5,19 +5,19 @@ VALUES (0x7BADC001,  1154, 0xBADC001E, 73.9836, 134.8726, -0.4425001, -0.6676193
 /* @teleloc 0xBADC001E [73.983600 134.872600 -0.442500] -0.667619 0.000000 0.000000 -0.744503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BADC001, 0x7BADC002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BADC001, 0x7BADC003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BADC001, 0x7BADC004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BADC001, 0x7BADC005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BADC001, 0x7BADC006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BADC001, 0x7BADC007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BADC001, 0x7BADC008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BADC001, 0x7BADC009, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7BADC001, 0x7BADC00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BADC001, 0x7BADC00B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BADC001, 0x7BADC00C, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7BADC001, 0x7BADC00D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BADC001, 0x7BADC00E, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7BADC001, 0x7BADC002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BADC001, 0x7BADC003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BADC001, 0x7BADC004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BADC001, 0x7BADC005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BADC001, 0x7BADC006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BADC001, 0x7BADC007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BADC001, 0x7BADC008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BADC001, 0x7BADC009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7BADC001, 0x7BADC00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BADC001, 0x7BADC00B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BADC001, 0x7BADC00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7BADC001, 0x7BADC00D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BADC001, 0x7BADC00E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADC002,  7123, 0xBADC001E, 73.9836, 134.8726, -0.4425001, -0.6676193, 0, 0, -0.7445028,  True, '2019-02-10 00:00:00'); /* Dark Leech */

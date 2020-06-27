@@ -9,20 +9,20 @@ VALUES (0x7B69D001,  1154, 0xB69D0028, 110.1391, 177.7121, 57.63459, -0.7693401,
 /* @teleloc 0xB69D0028 [110.139100 177.712100 57.634590] -0.769340 0.000000 0.000000 -0.638839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69D001, 0x7B69D002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7B69D001, 0x7B69D003, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B69D001, 0x7B69D004, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B69D001, 0x7B69D005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B69D001, 0x7B69D006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B69D001, 0x7B69D007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B69D001, 0x7B69D008, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B69D001, 0x7B69D009, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B69D001, 0x7B69D00A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7B69D001, 0x7B69D00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B69D001, 0x7B69D00C, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B69D001, 0x7B69D00D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B69D001, 0x7B69D00E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B69D001, 0x7B69D00F, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7B69D001, 0x7B69D002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7B69D001, 0x7B69D003, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B69D001, 0x7B69D004, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B69D001, 0x7B69D005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B69D001, 0x7B69D006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B69D001, 0x7B69D007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B69D001, 0x7B69D008, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B69D001, 0x7B69D009, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B69D001, 0x7B69D00A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B69D001, 0x7B69D00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B69D001, 0x7B69D00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B69D001, 0x7B69D00D, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B69D001, 0x7B69D00E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B69D001, 0x7B69D00F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69D002,  1464, 0xB69D0028, 110.1391, 177.7121, 57.63459, -0.7693401, 0, 0, -0.6388394,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -85,7 +85,7 @@ VALUES (0x7B69D010,  1542, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 
 /* @teleloc 0xB69D0030 [123.649400 186.064500 57.201260] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69D010, 0x7B69D011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B69D010, 0x7B69D011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69D011,  4179, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

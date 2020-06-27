@@ -133,78 +133,78 @@ VALUES (0x7013707D,  1154, 0x013702FD, 181.86, -89.9433, -35.9935, 1, 0, 0, 0, F
 /* @teleloc 0x013702FD [181.860000 -89.943300 -35.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013707D, 0x7013707E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x7013707F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137080, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137081, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137082, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137083, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137084, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137085, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137086, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137087, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137088, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137089, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013708F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137090, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137091, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137092, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137093, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137094, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137095, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137096, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137097, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x70137098, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x70137099, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013709A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013709B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013709C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013709D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x7013709E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x7013709F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x701370A0, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A1, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A2, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A3, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A4, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A5, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A6, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A7, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A8, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370A9, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370AA, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370AB, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370AC, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370AD, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x701370AE, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370AF, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370B0, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370B1, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370B2, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7013707D, 0x701370B3, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7013707D, 0x701370B4, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x701370B5, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7013707D, 0x701370B6, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7013707D, 0x701370B7, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x701370B8, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370B9, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370BA, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370BB, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370BC, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370BD, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370BE, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7013707D, 0x701370BF, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7013707D, 0x701370C0, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370C1, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370C2, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370C3, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370C4, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7013707D, 0x701370C5, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7013707D, 0x7013707E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x7013707F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137080, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137081, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137082, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137083, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137084, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137085, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137086, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137087, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137088, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137089, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x7013707D, 0x7013708A, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013708B, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013708C, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013708D, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013708E, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013708F, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137090, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137091, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137092, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137093, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137094, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137095, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137096, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137097, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x70137098, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x70137099, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013709A, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013709B, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013709C, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013709D, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x7013709E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x7013709F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x701370A0, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A1, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A2, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A3, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A4, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A5, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A6, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A7, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A8, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370A9, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370AA, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370AB, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370AC, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370AD, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x701370AE, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370AF, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370B0, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370B1, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370B2, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7013707D, 0x701370B3, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7013707D, 0x701370B4, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x701370B5, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7013707D, 0x701370B6, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7013707D, 0x701370B7, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x701370B8, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370B9, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370BA, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370BB, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370BC, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370BD, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370BE, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7013707D, 0x701370BF, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7013707D, 0x701370C0, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370C1, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370C2, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370C3, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370C4, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x7013707D, 0x701370C5, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013707E, 23617, 0x013702FD, 181.86, -89.9433, -35.9935, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -499,13 +499,13 @@ VALUES (0x701370C6,  1542, 0x01370133, 221.8646, -70.00801, -108, 0.0383882, 0, 
 /* @teleloc 0x01370133 [221.864600 -70.008010 -108.000000] 0.038388 0.000000 0.000000 -0.999263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701370C6, 0x701370C7, '2019-02-10 00:00:00') /* Mazule */
-     , (0x701370C6, 0x701370C8, '2019-02-10 00:00:00') /* Scroll of Jumping Mastery Other VI */
-     , (0x701370C6, 0x701370C9, '2019-02-10 00:00:00') /* Textbook */
-     , (0x701370C6, 0x701370CA, '2019-02-10 00:00:00') /* Textbook */
-     , (0x701370C6, 0x701370CB, '2019-02-10 00:00:00') /* Stone Tool */
-     , (0x701370C6, 0x701370CC, '2019-02-10 00:00:00') /* Flaming Assagai */
-     , (0x701370C6, 0x701370CD, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x701370C6, 0x701370C7, '2019-02-10 00:00:00') /* Mazule (30581) */
+     , (0x701370C6, 0x701370C8, '2019-02-10 00:00:00') /* Scroll of Jumping Mastery Other VI (3337) */
+     , (0x701370C6, 0x701370C9, '2019-02-10 00:00:00') /* Textbook (6407) */
+     , (0x701370C6, 0x701370CA, '2019-02-10 00:00:00') /* Textbook (6413) */
+     , (0x701370C6, 0x701370CB, '2019-02-10 00:00:00') /* Stone Tool (6127) */
+     , (0x701370C6, 0x701370CC, '2019-02-10 00:00:00') /* Flaming Assagai (41039) */
+     , (0x701370C6, 0x701370CD, '2019-02-10 00:00:00') /* Gem (2418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701370C7, 30581, 0x01370133, 221.8646, -70.00801, -108, 0.0383882, 0, 0, -0.9992629,  True, '2019-02-10 00:00:00'); /* Mazule */

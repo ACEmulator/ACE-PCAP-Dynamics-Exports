@@ -5,29 +5,29 @@ VALUES (0x7285B001,  1154, 0x285B002A, 126.685, 24.28624, 0.02899998, 0.8191521,
 /* @teleloc 0x285B002A [126.685000 24.286240 0.029000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7285B001, 0x7285B002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7285B001, 0x7285B003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7285B001, 0x7285B004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7285B001, 0x7285B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7285B001, 0x7285B006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7285B001, 0x7285B007, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7285B001, 0x7285B008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7285B001, 0x7285B009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7285B001, 0x7285B00A, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7285B001, 0x7285B00B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7285B001, 0x7285B00C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7285B001, 0x7285B00D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7285B001, 0x7285B00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7285B001, 0x7285B00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7285B001, 0x7285B010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7285B001, 0x7285B011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7285B001, 0x7285B012, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7285B001, 0x7285B013, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7285B001, 0x7285B014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7285B001, 0x7285B015, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7285B001, 0x7285B016, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7285B001, 0x7285B017, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7285B001, 0x7285B018, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x7285B001, 0x7285B002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7285B001, 0x7285B003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7285B001, 0x7285B004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7285B001, 0x7285B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7285B001, 0x7285B006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7285B001, 0x7285B007, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7285B001, 0x7285B008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7285B001, 0x7285B009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7285B001, 0x7285B00A, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7285B001, 0x7285B00B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7285B001, 0x7285B00C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7285B001, 0x7285B00D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7285B001, 0x7285B00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7285B001, 0x7285B00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7285B001, 0x7285B010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7285B001, 0x7285B011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7285B001, 0x7285B012, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7285B001, 0x7285B013, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7285B001, 0x7285B014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7285B001, 0x7285B015, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7285B001, 0x7285B016, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7285B001, 0x7285B017, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7285B001, 0x7285B018, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7285B002,  7340, 0x285B002A, 126.685, 24.28624, 0.02899998, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -126,7 +126,7 @@ VALUES (0x7285B019,  1542, 0x285B002A, 126.5614, 26.51889, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x285B002A [126.561400 26.518890 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7285B019, 0x7285B01A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7285B019, 0x7285B01A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7285B01A,  8999, 0x285B002A, 126.5614, 26.51889, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

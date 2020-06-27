@@ -5,16 +5,16 @@ VALUES (0x7C8D9001,  1154, 0xC8D90020, 85.23692, 173.0597, 97.16014, 0.8870109, 
 /* @teleloc 0xC8D90020 [85.236920 173.059700 97.160140] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8D9001, 0x7C8D9002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C8D9001, 0x7C8D9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8D9001, 0x7C8D9004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7C8D9001, 0x7C8D9005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7C8D9001, 0x7C8D9006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7C8D9001, 0x7C8D9007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C8D9001, 0x7C8D9008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C8D9001, 0x7C8D9009, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C8D9001, 0x7C8D900A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C8D9001, 0x7C8D900B, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7C8D9001, 0x7C8D9002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C8D9001, 0x7C8D9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8D9001, 0x7C8D9004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7C8D9001, 0x7C8D9005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7C8D9001, 0x7C8D9006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7C8D9001, 0x7C8D9007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C8D9001, 0x7C8D9008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C8D9001, 0x7C8D9009, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C8D9001, 0x7C8D900A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C8D9001, 0x7C8D900B, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8D9002,  1756, 0xC8D90020, 85.23692, 173.0597, 97.16014, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -61,8 +61,8 @@ VALUES (0x7C8D900C,  1542, 0xC8D90024, 107.4764, 95.88071, 79.87298, -0.7316995,
 /* @teleloc 0xC8D90024 [107.476400 95.880710 79.872980] -0.731700 0.000000 0.000000 -0.681627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8D900C, 0x7C8D900D, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7C8D900C, 0x7C8D900E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C8D900C, 0x7C8D900D, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7C8D900C, 0x7C8D900E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8D900D,  8039, 0xC8D90024, 107.4764, 95.88071, 79.87298, -0.7316995, 0, 0, -0.6816273,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

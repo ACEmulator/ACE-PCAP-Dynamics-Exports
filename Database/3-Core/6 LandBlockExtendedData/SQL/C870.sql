@@ -9,21 +9,21 @@ VALUES (0x7C87000D,  1154, 0xC8700100, 40.20456, 157.3154, 46.0055, -0.0814003, 
 /* @teleloc 0xC8700100 [40.204560 157.315400 46.005500] -0.081400 0.000000 0.000000 0.996681 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C87000D, 0x7C87000E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C87000F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C87000D, 0x7C870010, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C87000D, 0x7C870011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C870012, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C87000D, 0x7C870013, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7C87000D, 0x7C870014, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C87000D, 0x7C870015, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C87000D, 0x7C870016, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C870017, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C870018, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C870019, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C87001A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C87001B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C87000D, 0x7C87001C, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7C87000D, 0x7C87000E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C87000F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C87000D, 0x7C870010, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C87000D, 0x7C870011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C870012, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C87000D, 0x7C870013, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7C87000D, 0x7C870014, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C87000D, 0x7C870015, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C87000D, 0x7C870016, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C870017, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C870018, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C870019, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C87001A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C87001B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C87000D, 0x7C87001C, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C87000E,   211, 0xC8700100, 40.20456, 157.3154, 46.0055, -0.0814003, 0, 0, 0.996681,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

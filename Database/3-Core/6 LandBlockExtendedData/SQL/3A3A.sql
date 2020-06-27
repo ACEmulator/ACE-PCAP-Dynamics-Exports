@@ -5,26 +5,26 @@ VALUES (0x73A3A001,  1154, 0x3A3A0023, 114.6396, 65.97117, -0.09350002, 0.999871
 /* @teleloc 0x3A3A0023 [114.639600 65.971170 -0.093500] 0.999871 0.000000 0.000000 -0.016035 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A3A001, 0x73A3A002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73A3A001, 0x73A3A003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73A3A001, 0x73A3A004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73A3A001, 0x73A3A005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73A3A001, 0x73A3A006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73A3A001, 0x73A3A007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73A3A001, 0x73A3A008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73A3A001, 0x73A3A009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73A3A001, 0x73A3A00A, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73A3A001, 0x73A3A00B, '2019-02-10 00:00:00') /* Flare */
-     , (0x73A3A001, 0x73A3A00C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A3A001, 0x73A3A00D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73A3A001, 0x73A3A00E, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A3A001, 0x73A3A00F, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73A3A001, 0x73A3A010, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73A3A001, 0x73A3A011, '2019-02-10 00:00:00') /* Flare */
-     , (0x73A3A001, 0x73A3A012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A3A001, 0x73A3A013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A3A001, 0x73A3A014, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73A3A001, 0x73A3A015, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73A3A001, 0x73A3A002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73A3A001, 0x73A3A003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73A3A001, 0x73A3A004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73A3A001, 0x73A3A005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73A3A001, 0x73A3A006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73A3A001, 0x73A3A007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73A3A001, 0x73A3A008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73A3A001, 0x73A3A009, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73A3A001, 0x73A3A00A, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73A3A001, 0x73A3A00B, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73A3A001, 0x73A3A00C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A3A001, 0x73A3A00D, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73A3A001, 0x73A3A00E, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A3A001, 0x73A3A00F, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73A3A001, 0x73A3A010, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73A3A001, 0x73A3A011, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73A3A001, 0x73A3A012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A3A001, 0x73A3A013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A3A001, 0x73A3A014, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73A3A001, 0x73A3A015, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A3A002, 23617, 0x3A3A0023, 114.6396, 65.97117, -0.09350002, 0.9998714, 0, 0, -0.01603545,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -111,7 +111,7 @@ VALUES (0x73A3A016,  1542, 0x3A3A001A, 87.84034, 38.55112, -0.45, 1, 0, 0, 0, Fa
 /* @teleloc 0x3A3A001A [87.840340 38.551120 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A3A016, 0x73A3A017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73A3A016, 0x73A3A017, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A3A017, 22567, 0x3A3A001A, 87.84034, 38.55112, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x72943001,  1154, 0x2943003E, 178.5524, 122.2708, 6.130931, -0.6506566,
 /* @teleloc 0x2943003E [178.552400 122.270800 6.130931] -0.650657 0.000000 0.000000 -0.759372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72943001, 0x72943002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72943001, 0x72943003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72943001, 0x72943004, '2019-02-10 00:00:00') /* Flare */
-     , (0x72943001, 0x72943005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72943001, 0x72943006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72943001, 0x72943007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72943001, 0x72943008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72943001, 0x72943009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72943001, 0x7294300A, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x72943001, 0x72943002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72943001, 0x72943003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72943001, 0x72943004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72943001, 0x72943005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72943001, 0x72943006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72943001, 0x72943007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72943001, 0x72943008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72943001, 0x72943009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72943001, 0x7294300A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72943002,  5712, 0x2943003E, 178.5524, 122.2708, 6.130931, -0.6506566, 0, 0, -0.7593721,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -56,8 +56,8 @@ VALUES (0x7294300B,  1542, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 
 /* @teleloc 0x2943002A [128.446300 47.858370 20.001800] -0.598093 0.000000 0.000000 -0.801427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7294300B, 0x7294300C, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7294300B, 0x7294300D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7294300B, 0x7294300C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7294300B, 0x7294300D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294300C,  9288, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 0, 0, -0.8014266,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,14 +5,14 @@ VALUES (0x7D94E001,  1154, 0xD94E0033, 162.3385, 53.23425, 31.08352, -0.9603875,
 /* @teleloc 0xD94E0033 [162.338500 53.234250 31.083520] -0.960388 0.000000 0.000000 -0.278668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D94E001, 0x7D94E002, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7D94E001, 0x7D94E003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D94E001, 0x7D94E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D94E001, 0x7D94E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D94E001, 0x7D94E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D94E001, 0x7D94E007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D94E001, 0x7D94E008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D94E001, 0x7D94E009, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7D94E001, 0x7D94E002, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7D94E001, 0x7D94E003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D94E001, 0x7D94E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D94E001, 0x7D94E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D94E001, 0x7D94E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D94E001, 0x7D94E007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D94E001, 0x7D94E008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D94E001, 0x7D94E009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D94E002, 12004, 0xD94E0033, 162.3385, 53.23425, 31.08352, -0.9603875, 0, 0, -0.2786678,  True, '2019-02-10 00:00:00'); /* Outcast Lord */

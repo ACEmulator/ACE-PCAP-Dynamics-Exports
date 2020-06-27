@@ -5,12 +5,12 @@ VALUES (0x77682001,  1154, 0x7682002C, 132.4593, 89.07494, -0.09749997, 0.802374
 /* @teleloc 0x7682002C [132.459300 89.074940 -0.097500] 0.802375 0.000000 0.000000 -0.596821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77682001, 0x77682002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x77682001, 0x77682003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x77682001, 0x77682004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x77682001, 0x77682005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x77682001, 0x77682006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x77682001, 0x77682007, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x77682001, 0x77682002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x77682001, 0x77682003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x77682001, 0x77682004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x77682001, 0x77682005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x77682001, 0x77682006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x77682001, 0x77682007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77682002,  1761, 0x7682002C, 132.4593, 89.07494, -0.09749997, 0.8023748, 0, 0, -0.5968205,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -41,8 +41,8 @@ VALUES (0x77682008,  1542, 0x7682001A, 86.379, 38.4635, 0, 0.9990482, 0, 0, -0.0
 /* @teleloc 0x7682001A [86.379000 38.463500 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77682008, 0x77682009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77682008, 0x7768200A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77682008, 0x77682009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77682008, 0x7768200A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77682009,  4179, 0x7682001A, 86.379, 38.4635, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

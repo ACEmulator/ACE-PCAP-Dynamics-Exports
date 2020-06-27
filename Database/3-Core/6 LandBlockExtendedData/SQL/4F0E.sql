@@ -5,11 +5,11 @@ VALUES (0x74F0E001,  1154, 0x4F0E0017, 54.25742, 161.381, 68.005, -0.02016198, 0
 /* @teleloc 0x4F0E0017 [54.257420 161.381000 68.005000] -0.020162 0.000000 0.000000 -0.999797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F0E001, 0x74F0E002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74F0E001, 0x74F0E003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74F0E001, 0x74F0E004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74F0E001, 0x74F0E005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74F0E001, 0x74F0E006, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x74F0E001, 0x74F0E002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74F0E001, 0x74F0E003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74F0E001, 0x74F0E004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74F0E001, 0x74F0E005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74F0E001, 0x74F0E006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F0E002, 23564, 0x4F0E0017, 54.25742, 161.381, 68.005, -0.02016198, 0, 0, -0.9997967,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

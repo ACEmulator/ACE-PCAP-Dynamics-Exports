@@ -5,12 +5,12 @@ VALUES (0x79C3C001,  1154, 0x9C3C003B, 170.6299, 53.962, 100.2837, -0.5229491, 0
 /* @teleloc 0x9C3C003B [170.629900 53.962000 100.283700] -0.522949 0.000000 0.000000 -0.852364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C3C001, 0x79C3C002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79C3C001, 0x79C3C003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79C3C001, 0x79C3C004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79C3C001, 0x79C3C005, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79C3C001, 0x79C3C006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79C3C001, 0x79C3C007, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x79C3C001, 0x79C3C002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79C3C001, 0x79C3C003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79C3C001, 0x79C3C004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79C3C001, 0x79C3C005, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79C3C001, 0x79C3C006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79C3C001, 0x79C3C007, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C3C002,   226, 0x9C3C003B, 170.6299, 53.962, 100.2837, -0.5229491, 0, 0, -0.8523639,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -41,7 +41,7 @@ VALUES (0x79C3C008,  1542, 0x9C3C003B, 175.3787, 67.8914, 101.0427, 1, 0, 0, 0, 
 /* @teleloc 0x9C3C003B [175.378700 67.891400 101.042700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C3C008, 0x79C3C009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79C3C008, 0x79C3C009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C3C009,  4180, 0x9C3C003B, 175.3787, 67.8914, 101.0427, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

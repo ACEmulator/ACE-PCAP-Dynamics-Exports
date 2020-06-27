@@ -5,16 +5,16 @@ VALUES (0x7AE0F001,  1154, 0xAE0F002A, 131.8075, 47.31973, 30.86321, 0.4226182, 
 /* @teleloc 0xAE0F002A [131.807500 47.319730 30.863210] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE0F001, 0x7AE0F002, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AE0F001, 0x7AE0F003, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7AE0F001, 0x7AE0F004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7AE0F001, 0x7AE0F005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AE0F001, 0x7AE0F006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AE0F001, 0x7AE0F007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AE0F001, 0x7AE0F008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AE0F001, 0x7AE0F009, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7AE0F001, 0x7AE0F00A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AE0F001, 0x7AE0F00B, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7AE0F001, 0x7AE0F002, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AE0F001, 0x7AE0F003, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7AE0F001, 0x7AE0F004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7AE0F001, 0x7AE0F005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AE0F001, 0x7AE0F006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AE0F001, 0x7AE0F007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AE0F001, 0x7AE0F008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AE0F001, 0x7AE0F009, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7AE0F001, 0x7AE0F00A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AE0F001, 0x7AE0F00B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE0F002,  2572, 0xAE0F002A, 131.8075, 47.31973, 30.86321, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* K'nath D'Nob */
@@ -61,7 +61,7 @@ VALUES (0x7AE0F00C,  1542, 0xAE0F001A, 90.12434, 45.6433, 81.9763, 0.7575443, 0,
 /* @teleloc 0xAE0F001A [90.124340 45.643300 81.976300] 0.757544 0.000000 0.000000 -0.652784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE0F00C, 0x7AE0F00D, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7AE0F00C, 0x7AE0F00D, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE0F00D, 42528, 0xAE0F001A, 90.12434, 45.6433, 81.9763, 0.7575443, 0, 0, -0.6527838,  True, '2019-02-10 00:00:00'); /* Rock */

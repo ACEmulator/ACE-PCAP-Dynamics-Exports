@@ -5,10 +5,10 @@ VALUES (0x79F47001,  1154, 0x9F47001E, 74.02588, 141.6825, 92.69437, -0.2778785,
 /* @teleloc 0x9F47001E [74.025880 141.682500 92.694370] -0.277879 0.000000 0.000000 -0.960616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F47001, 0x79F47002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x79F47001, 0x79F47003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79F47001, 0x79F47004, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79F47001, 0x79F47005, '2019-02-10 00:00:00') /* Dark Marionette */;
+VALUES (0x79F47001, 0x79F47002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x79F47001, 0x79F47003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79F47001, 0x79F47004, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79F47001, 0x79F47005, '2019-02-10 00:00:00') /* Dark Marionette (9250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F47002, 10799, 0x9F47001E, 74.02588, 141.6825, 92.69437, -0.2778785, 0, 0, -0.9606162,  True, '2019-02-10 00:00:00'); /* Narrow Rift */

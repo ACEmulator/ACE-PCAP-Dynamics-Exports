@@ -5,21 +5,21 @@ VALUES (0x7972F001,  1154, 0x972F000C, 33.72036, 80.1468, 78.29006, 0.4226182, 0
 /* @teleloc 0x972F000C [33.720360 80.146800 78.290060] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972F001, 0x7972F002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7972F001, 0x7972F003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7972F001, 0x7972F004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7972F001, 0x7972F005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7972F001, 0x7972F006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7972F001, 0x7972F007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7972F001, 0x7972F008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7972F001, 0x7972F009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7972F001, 0x7972F00A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7972F001, 0x7972F00B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7972F001, 0x7972F00C, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7972F001, 0x7972F00D, '2019-02-10 00:00:00') /* Lich */
-     , (0x7972F001, 0x7972F00E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7972F001, 0x7972F00F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7972F001, 0x7972F010, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7972F001, 0x7972F002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7972F001, 0x7972F003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7972F001, 0x7972F004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7972F001, 0x7972F005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7972F001, 0x7972F006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7972F001, 0x7972F007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7972F001, 0x7972F008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7972F001, 0x7972F009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7972F001, 0x7972F00A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7972F001, 0x7972F00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7972F001, 0x7972F00C, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7972F001, 0x7972F00D, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7972F001, 0x7972F00E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7972F001, 0x7972F00F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7972F001, 0x7972F010, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972F002,  1609, 0x972F000C, 33.72036, 80.1468, 78.29006, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -86,8 +86,8 @@ VALUES (0x7972F011,  1542, 0x972F002C, 126.8248, 77.03176, 61.25794, -0.2537765,
 /* @teleloc 0x972F002C [126.824800 77.031760 61.257940] -0.253777 0.000000 0.000000 -0.967263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972F011, 0x7972F012, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7972F011, 0x7972F013, '2019-02-10 00:00:00') /* Amaranth */;
+VALUES (0x7972F011, 0x7972F012, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7972F011, 0x7972F013, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972F012,  8037, 0x972F002C, 126.8248, 77.03176, 61.25794, -0.2537765, 0, 0, -0.9672629,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

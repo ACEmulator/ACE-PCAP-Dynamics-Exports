@@ -5,8 +5,8 @@ VALUES (0x7404E001,  1154, 0x404E0039, 176.8685, 8.090027, 20.0075, -0.5985197, 
 /* @teleloc 0x404E0039 [176.868500 8.090027 20.007500] -0.598520 0.000000 0.000000 -0.801108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7404E001, 0x7404E002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7404E001, 0x7404E003, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7404E001, 0x7404E002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7404E001, 0x7404E003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7404E002, 14516, 0x404E0039, 176.8685, 8.090027, 20.0075, -0.5985197, 0, 0, -0.8011081,  True, '2019-02-10 00:00:00'); /* Caustic */

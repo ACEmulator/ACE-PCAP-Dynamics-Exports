@@ -5,12 +5,12 @@ VALUES (0x742AB001,  1154, 0x42AB0003, 12.62389, 63.07761, 73.37045, -0.376088, 
 /* @teleloc 0x42AB0003 [12.623890 63.077610 73.370450] -0.376088 0.000000 0.000000 -0.926584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742AB001, 0x742AB002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x742AB001, 0x742AB003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x742AB001, 0x742AB004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x742AB001, 0x742AB005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x742AB001, 0x742AB006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x742AB001, 0x742AB007, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x742AB001, 0x742AB002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x742AB001, 0x742AB003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x742AB001, 0x742AB004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x742AB001, 0x742AB005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x742AB001, 0x742AB006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x742AB001, 0x742AB007, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742AB002,   201, 0x42AB0003, 12.62389, 63.07761, 73.37045, -0.376088, 0, 0, -0.9265839,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

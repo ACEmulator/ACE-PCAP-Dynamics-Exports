@@ -5,18 +5,18 @@ VALUES (0x789F5001,  1154, 0x89F50025, 111.1023, 119.7847, -0.89175, -0.613605, 
 /* @teleloc 0x89F50025 [111.102300 119.784700 -0.891750] -0.613605 0.000000 0.000000 -0.789613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789F5001, 0x789F5002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x789F5001, 0x789F5003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x789F5001, 0x789F5004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x789F5001, 0x789F5005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x789F5001, 0x789F5006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x789F5001, 0x789F5007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x789F5001, 0x789F5008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x789F5001, 0x789F5009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x789F5001, 0x789F500A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x789F5001, 0x789F500B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x789F5001, 0x789F500C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x789F5001, 0x789F500D, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x789F5001, 0x789F5002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x789F5001, 0x789F5003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x789F5001, 0x789F5004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x789F5001, 0x789F5005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x789F5001, 0x789F5006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x789F5001, 0x789F5007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x789F5001, 0x789F5008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x789F5001, 0x789F5009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x789F5001, 0x789F500A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x789F5001, 0x789F500B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x789F5001, 0x789F500C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x789F5001, 0x789F500D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789F5002,  4217, 0x89F50025, 111.1023, 119.7847, -0.89175, -0.613605, 0, 0, -0.7896132,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

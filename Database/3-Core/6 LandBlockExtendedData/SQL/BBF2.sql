@@ -5,28 +5,28 @@ VALUES (0x7BBF2001,  1154, 0xBBF2003A, 187.3478, 37.40879, 26.94226, 1, 0, 0, 0,
 /* @teleloc 0xBBF2003A [187.347800 37.408790 26.942260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBF2001, 0x7BBF2002, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7BBF2001, 0x7BBF2003, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7BBF2001, 0x7BBF2004, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2005, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2006, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7BBF2001, 0x7BBF2007, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2008, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BBF2001, 0x7BBF200A, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF200B, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF200C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7BBF2001, 0x7BBF200D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7BBF2001, 0x7BBF200E, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BBF2001, 0x7BBF200F, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF2010, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF2011, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF2012, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF2013, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF2001, 0x7BBF2014, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7BBF2001, 0x7BBF2015, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2016, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BBF2001, 0x7BBF2017, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7BBF2001, 0x7BBF2002, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7BBF2001, 0x7BBF2003, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7BBF2001, 0x7BBF2004, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2005, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2006, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7BBF2001, 0x7BBF2007, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2008, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BBF2001, 0x7BBF200A, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF200B, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF200C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7BBF2001, 0x7BBF200D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7BBF2001, 0x7BBF200E, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BBF2001, 0x7BBF200F, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF2010, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF2011, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF2012, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF2013, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF2001, 0x7BBF2014, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7BBF2001, 0x7BBF2015, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2016, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BBF2001, 0x7BBF2017, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBF2002, 28253, 0xBBF2003A, 187.3478, 37.40879, 26.94226, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Giant Phyntos Wasp */

@@ -5,24 +5,24 @@ VALUES (0x72EE3001,  1154, 0x2EE30008, 17.29748, 180.9891, 20.0075, 0.9874375, 0
 /* @teleloc 0x2EE30008 [17.297480 180.989100 20.007500] 0.987438 0.000000 0.000000 -0.158010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE3001, 0x72EE3002, '2019-02-10 00:00:00') /* Lich */
-     , (0x72EE3001, 0x72EE3003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x72EE3001, 0x72EE3004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x72EE3001, 0x72EE3005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x72EE3001, 0x72EE3006, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x72EE3001, 0x72EE3007, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72EE3001, 0x72EE3008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x72EE3001, 0x72EE3009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72EE3001, 0x72EE300A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x72EE3001, 0x72EE300B, '2019-02-10 00:00:00') /* Lich */
-     , (0x72EE3001, 0x72EE300C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72EE3001, 0x72EE300D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x72EE3001, 0x72EE300E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x72EE3001, 0x72EE300F, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x72EE3001, 0x72EE3010, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x72EE3001, 0x72EE3011, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x72EE3001, 0x72EE3012, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72EE3001, 0x72EE3013, '2019-02-10 00:00:00') /* Banderling Ogre */;
+VALUES (0x72EE3001, 0x72EE3002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x72EE3001, 0x72EE3003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x72EE3001, 0x72EE3004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x72EE3001, 0x72EE3005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x72EE3001, 0x72EE3006, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x72EE3001, 0x72EE3007, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72EE3001, 0x72EE3008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x72EE3001, 0x72EE3009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x72EE3001, 0x72EE300A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x72EE3001, 0x72EE300B, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x72EE3001, 0x72EE300C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72EE3001, 0x72EE300D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x72EE3001, 0x72EE300E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x72EE3001, 0x72EE300F, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x72EE3001, 0x72EE3010, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x72EE3001, 0x72EE3011, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x72EE3001, 0x72EE3012, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x72EE3001, 0x72EE3013, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE3002,   204, 0x2EE30008, 17.29748, 180.9891, 20.0075, 0.9874375, 0, 0, -0.1580097,  True, '2019-02-10 00:00:00'); /* Lich */

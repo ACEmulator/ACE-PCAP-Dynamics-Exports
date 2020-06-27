@@ -5,15 +5,15 @@ VALUES (0x7F029001,  1154, 0xF029003A, 170.6306, 24.95962, -0.09880006, 0.953716
 /* @teleloc 0xF029003A [170.630600 24.959620 -0.098800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F029001, 0x7F029002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F029001, 0x7F029003, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7F029001, 0x7F029004, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7F029001, 0x7F029005, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F029001, 0x7F029006, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F029001, 0x7F029007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F029001, 0x7F029008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F029001, 0x7F029009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F029001, 0x7F02900A, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F029001, 0x7F029002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F029001, 0x7F029003, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F029001, 0x7F029004, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7F029001, 0x7F029005, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F029001, 0x7F029006, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F029001, 0x7F029007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F029001, 0x7F029008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F029001, 0x7F029009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F029001, 0x7F02900A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F029002,  7108, 0xF029003A, 170.6306, 24.95962, -0.09880006, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

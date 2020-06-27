@@ -5,15 +5,15 @@ VALUES (0x79E76001,  1154, 0x9E760018, 57.99244, 170.695, 20.003, 0.2791229, 0, 
 /* @teleloc 0x9E760018 [57.992440 170.695000 20.003000] 0.279123 0.000000 0.000000 -0.960255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E76001, 0x79E76002, '2019-02-10 00:00:00') /* Gout */
-     , (0x79E76001, 0x79E76003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79E76001, 0x79E76004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79E76001, 0x79E76005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79E76001, 0x79E76006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79E76001, 0x79E76007, '2019-02-10 00:00:00') /* Gout */
-     , (0x79E76001, 0x79E76008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E76001, 0x79E76009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E76001, 0x79E7600A, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x79E76001, 0x79E76002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79E76001, 0x79E76003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79E76001, 0x79E76004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79E76001, 0x79E76005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79E76001, 0x79E76006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79E76001, 0x79E76007, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79E76001, 0x79E76008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E76001, 0x79E76009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E76001, 0x79E7600A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E76002, 21164, 0x9E760018, 57.99244, 170.695, 20.003, 0.2791229, 0, 0, -0.9602554,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -56,7 +56,7 @@ VALUES (0x79E7600B,  1542, 0x9E760033, 162.7388, 48.8326, 22, 1, 0, 0, 0, False,
 /* @teleloc 0x9E760033 [162.738800 48.832600 22.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7600B, 0x79E7600C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79E7600B, 0x79E7600C, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7600C, 22576, 0x9E760033, 162.7388, 48.8326, 22, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

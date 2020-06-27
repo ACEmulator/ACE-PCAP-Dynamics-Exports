@@ -5,10 +5,10 @@ VALUES (0x7DA3F001,  1154, 0xDA3F0004, 0.04119873, 92.15921, 123.9703, -0.487216
 /* @teleloc 0xDA3F0004 [0.041199 92.159210 123.970300] -0.487216 0.000000 0.000000 -0.873281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3F001, 0x7DA3F002, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7DA3F001, 0x7DA3F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7DA3F001, 0x7DA3F004, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7DA3F001, 0x7DA3F005, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7DA3F001, 0x7DA3F002, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7DA3F001, 0x7DA3F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7DA3F001, 0x7DA3F004, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7DA3F001, 0x7DA3F005, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3F002,  1618, 0xDA3F0004, 0.04119873, 92.15921, 123.9703, -0.4872162, 0, 0, -0.8732814,  True, '2019-02-10 00:00:00'); /* Gigas Lugian */
@@ -31,8 +31,8 @@ VALUES (0x7DA3F006,  1542, 0xDA3F0012, 65.97223, 28.48518, 105.3622, -0.9999471,
 /* @teleloc 0xDA3F0012 [65.972230 28.485180 105.362200] -0.999947 0.000000 0.000000 -0.010280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3F006, 0x7DA3F007, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7DA3F006, 0x7DA3F008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7DA3F006, 0x7DA3F007, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7DA3F006, 0x7DA3F008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3F007,  8646, 0xDA3F0012, 65.97223, 28.48518, 105.3622, -0.9999471, 0, 0, -0.0102801,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

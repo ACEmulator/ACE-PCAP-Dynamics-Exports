@@ -5,9 +5,9 @@ VALUES (0x7B95B001,  1154, 0xB95B001E, 74.43796, 130.2501, 13.80684, 0.5852522, 
 /* @teleloc 0xB95B001E [74.437960 130.250100 13.806840] 0.585252 0.000000 0.000000 -0.810851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95B001, 0x7B95B002, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B95B001, 0x7B95B003, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B95B001, 0x7B95B004, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B95B001, 0x7B95B002, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B95B001, 0x7B95B003, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B95B001, 0x7B95B004, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95B002,  4131, 0xB95B001E, 74.43796, 130.2501, 13.80684, 0.5852522, 0, 0, -0.8108513,  True, '2019-02-10 00:00:00'); /* Tan Rat */

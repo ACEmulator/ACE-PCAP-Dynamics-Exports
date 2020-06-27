@@ -5,15 +5,15 @@ VALUES (0x7F72E001,  1154, 0xF72E0040, 188.8113, 188.1055, -0.1, -0.8758811, 0, 
 /* @teleloc 0xF72E0040 [188.811300 188.105500 -0.100000] -0.875881 0.000000 0.000000 -0.482527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F72E001, 0x7F72E002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F72E001, 0x7F72E003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F72E001, 0x7F72E004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F72E001, 0x7F72E005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F72E001, 0x7F72E006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F72E001, 0x7F72E007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F72E001, 0x7F72E008, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F72E001, 0x7F72E009, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F72E001, 0x7F72E00A, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7F72E001, 0x7F72E002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F72E001, 0x7F72E003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F72E001, 0x7F72E004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F72E001, 0x7F72E005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F72E001, 0x7F72E006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F72E001, 0x7F72E007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F72E001, 0x7F72E008, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F72E001, 0x7F72E009, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F72E001, 0x7F72E00A, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F72E002, 40314, 0xF72E0040, 188.8113, 188.1055, -0.1, -0.8758811, 0, 0, -0.482527,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */

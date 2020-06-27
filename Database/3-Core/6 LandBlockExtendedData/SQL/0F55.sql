@@ -5,21 +5,21 @@ VALUES (0x70F55001,  1154, 0x0F55003F, 191.5031, 164.0119, 1.677658, -0.5419596,
 /* @teleloc 0x0F55003F [191.503100 164.011900 1.677658] -0.541960 0.000000 0.000000 -0.840405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F55001, 0x70F55002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F55001, 0x70F55003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F55001, 0x70F55004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F55001, 0x70F55005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70F55001, 0x70F55006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F55001, 0x70F55007, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F55001, 0x70F55008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F55001, 0x70F55009, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x70F55001, 0x70F5500A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F55001, 0x70F5500B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F55001, 0x70F5500C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70F55001, 0x70F5500D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70F55001, 0x70F5500E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70F55001, 0x70F5500F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70F55001, 0x70F55010, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x70F55001, 0x70F55002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F55001, 0x70F55003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F55001, 0x70F55004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F55001, 0x70F55005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70F55001, 0x70F55006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F55001, 0x70F55007, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F55001, 0x70F55008, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F55001, 0x70F55009, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x70F55001, 0x70F5500A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F55001, 0x70F5500B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F55001, 0x70F5500C, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70F55001, 0x70F5500D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70F55001, 0x70F5500E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70F55001, 0x70F5500F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70F55001, 0x70F55010, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F55002,  7097, 0x0F55003F, 191.5031, 164.0119, 1.677658, -0.5419596, 0, 0, -0.8404045,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -86,7 +86,7 @@ VALUES (0x70F55011,  1542, 0x0F55003F, 188.666, 145.8492, 1.5638, -4.371139E-08,
 /* @teleloc 0x0F55003F [188.666000 145.849200 1.563800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F55011, 0x70F55012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F55011, 0x70F55012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F55012,  4380, 0x0F55003F, 188.666, 145.8492, 1.5638, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

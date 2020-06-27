@@ -5,15 +5,15 @@ VALUES (0x7217B001,  1154, 0x217B003D, 174.1577, 103.476, 33.83547, -0.8100685, 
 /* @teleloc 0x217B003D [174.157700 103.476000 33.835470] -0.810069 0.000000 0.000000 -0.586335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217B001, 0x7217B002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7217B001, 0x7217B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7217B001, 0x7217B004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7217B001, 0x7217B005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7217B001, 0x7217B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7217B001, 0x7217B007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7217B001, 0x7217B008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7217B001, 0x7217B009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7217B001, 0x7217B00A, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x7217B001, 0x7217B002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7217B001, 0x7217B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7217B001, 0x7217B004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7217B001, 0x7217B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7217B001, 0x7217B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7217B001, 0x7217B007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7217B001, 0x7217B008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7217B001, 0x7217B009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7217B001, 0x7217B00A, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217B002,  7982, 0x217B003D, 174.1577, 103.476, 33.83547, -0.8100685, 0, 0, -0.5863353,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -56,7 +56,7 @@ VALUES (0x7217B00B,  1542, 0x217B0018, 71.86963, 168.6763, 80.03259, 1, 0, 0, 0,
 /* @teleloc 0x217B0018 [71.869630 168.676300 80.032590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217B00B, 0x7217B00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7217B00B, 0x7217B00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217B00C,  4380, 0x217B0018, 71.86963, 168.6763, 80.03259, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

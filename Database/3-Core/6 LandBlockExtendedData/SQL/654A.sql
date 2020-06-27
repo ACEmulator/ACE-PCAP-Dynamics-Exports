@@ -17,151 +17,151 @@ VALUES (0x7654A09A,  1154, 0x654A0126, 60.3706, -50.7009, 0.006000042, -0.689704
 /* @teleloc 0x654A0126 [60.370600 -50.700900 0.006000] -0.689704 0.000000 0.000000 0.724092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654A09A, 0x7654A09B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A09C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A09D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7654A09A, 0x7654A09E, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7654A09A, 0x7654A09F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7654A09A, 0x7654A0A0, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0A1, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0A2, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0A3, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0A4, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0A5, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0A6, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0A7, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0A8, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0A9, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0AA, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0AB, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0AC, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0AD, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0AE, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0AF, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0B0, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0B1, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0B2, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0B3, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0B4, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0B5, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0B6, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0B7, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0B8, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0B9, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0BA, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0BB, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0BC, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0BD, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0BE, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0BF, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0C0, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0C1, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0C2, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0C3, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0C4, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0C5, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0C6, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0C7, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0C8, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0C9, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0CA, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0CB, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0CC, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0CD, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0CE, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0CF, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0D0, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0D1, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0D2, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0D3, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0D4, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0D5, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0D6, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0D7, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0D8, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0D9, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0DA, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0DB, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0DC, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0DD, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0DE, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0DF, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0E0, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0E1, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0E2, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0E3, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0E4, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0E5, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A0E6, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0E7, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0E8, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0E9, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0EA, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0EB, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0EC, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0ED, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0EE, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7654A09A, 0x7654A0EF, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F0, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0F1, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0F2, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0F3, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F4, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F5, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F6, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F7, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0F8, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0F9, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A0FA, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0FB, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0FC, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0FD, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A0FE, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A0FF, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A100, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A101, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A102, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A103, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A104, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A105, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A106, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A107, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A108, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A109, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A10A, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A10B, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A10C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A10D, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A10E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A10F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A110, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A111, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A112, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A113, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A114, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A115, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A116, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A117, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A118, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A119, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A11A, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A11B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A11C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A11D, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A11E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A11F, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7654A09A, 0x7654A120, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A121, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A122, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A123, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A124, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7654A09A, 0x7654A125, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A126, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A127, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A128, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7654A09A, 0x7654A129, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A12A, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x7654A09A, 0x7654A12B, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7654A09A, 0x7654A09B, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A09C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A09D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7654A09A, 0x7654A09E, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7654A09A, 0x7654A09F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7654A09A, 0x7654A0A0, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0A1, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0A2, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0A3, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0A4, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0A5, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0A6, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0A7, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0A8, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0A9, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0AA, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0AB, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0AC, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0AD, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0AE, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0AF, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0B0, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0B1, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0B2, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0B3, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0B4, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0B5, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0B6, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0B7, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0B8, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0B9, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0BA, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0BB, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0BC, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0BD, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0BE, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0BF, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0C0, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0C1, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0C2, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0C3, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0C4, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0C5, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0C6, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0C7, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0C8, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0C9, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0CA, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0CB, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0CC, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0CD, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0CE, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0CF, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0D0, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0D1, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0D2, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0D3, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0D4, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0D5, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0D6, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0D7, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0D8, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0D9, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0DA, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0DB, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0DC, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0DD, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0DE, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0DF, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0E0, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0E1, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0E2, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0E3, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0E4, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0E5, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A0E6, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0E7, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0E8, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0E9, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0EA, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0EB, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0EC, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0ED, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0EE, '2019-02-10 00:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654A09A, 0x7654A0EF, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F0, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0F1, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0F2, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0F3, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F4, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F5, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F6, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F7, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0F8, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0F9, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A0FA, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0FB, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0FC, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0FD, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A0FE, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A0FF, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A100, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A101, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A102, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A103, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A104, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A105, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A106, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A107, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A108, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A109, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A10A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A10B, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A10C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A10D, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A10E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A10F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A110, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A111, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A112, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A113, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A114, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A115, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A116, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A117, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A118, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A119, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A11A, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A11B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A11C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A11D, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A11E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A11F, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654A09A, 0x7654A120, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A121, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A122, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A123, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A124, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654A09A, 0x7654A125, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A126, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A127, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A128, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7654A09A, 0x7654A129, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A12A, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654A09A, 0x7654A12B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654A09B,  6013, 0x654A0126, 60.3706, -50.7009, 0.006000042, -0.689704, 0, 0, 0.724092,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -748,7 +748,7 @@ VALUES (0x7654A12C,  1542, 0x654A01B7, 190.002, -91.7267, 7.029, 0.9999999, 0, 0
 /* @teleloc 0x654A01B7 [190.002000 -91.726700 7.029000] 1.000000 0.000000 0.000000 -0.000262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654A12C, 0x7654A12D, '2019-02-10 00:00:00') /* Strong Iron Key */;
+VALUES (0x7654A12C, 0x7654A12D, '2019-02-10 00:00:00') /* Strong Iron Key (27685) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654A12D, 27685, 0x654A01B7, 190.002, -91.7267, 7.029, 0.9999999, 0, 0, -0.000262044,  True, '2019-02-10 00:00:00'); /* Strong Iron Key */

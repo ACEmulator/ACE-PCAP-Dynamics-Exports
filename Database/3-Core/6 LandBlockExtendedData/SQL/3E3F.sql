@@ -5,22 +5,22 @@ VALUES (0x73E3F001,  1154, 0x3E3F002D, 123.2108, 116.3229, 81.10913, 0.4320385, 
 /* @teleloc 0x3E3F002D [123.210800 116.322900 81.109130] 0.432039 0.000000 0.000000 -0.901855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E3F001, 0x73E3F002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73E3F001, 0x73E3F003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E3F001, 0x73E3F004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73E3F001, 0x73E3F005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E3F001, 0x73E3F006, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73E3F001, 0x73E3F007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E3F001, 0x73E3F008, '2019-02-10 00:00:00') /* Cold One */
-     , (0x73E3F001, 0x73E3F009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73E3F001, 0x73E3F00A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73E3F001, 0x73E3F00B, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73E3F001, 0x73E3F00C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73E3F001, 0x73E3F00D, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73E3F001, 0x73E3F00E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73E3F001, 0x73E3F00F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73E3F001, 0x73E3F010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E3F001, 0x73E3F011, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x73E3F001, 0x73E3F002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73E3F001, 0x73E3F003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E3F001, 0x73E3F004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73E3F001, 0x73E3F005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E3F001, 0x73E3F006, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73E3F001, 0x73E3F007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E3F001, 0x73E3F008, '2019-02-10 00:00:00') /* Cold One (12020) */
+     , (0x73E3F001, 0x73E3F009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73E3F001, 0x73E3F00A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73E3F001, 0x73E3F00B, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73E3F001, 0x73E3F00C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73E3F001, 0x73E3F00D, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73E3F001, 0x73E3F00E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73E3F001, 0x73E3F00F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73E3F001, 0x73E3F010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E3F001, 0x73E3F011, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3F002, 23484, 0x3E3F002D, 123.2108, 116.3229, 81.10913, 0.4320385, 0, 0, -0.9018552,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus Lord */

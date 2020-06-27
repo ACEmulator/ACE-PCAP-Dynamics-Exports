@@ -9,94 +9,94 @@ VALUES (0x7BF7E001,  1154, 0xBF7E002B, 126.557, 67.92617, 26.13706, 0.99814, 0, 
 /* @teleloc 0xBF7E002B [126.557000 67.926170 26.137060] 0.998140 0.000000 0.000000 -0.060964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7E001, 0x7BF7E002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF7E001, 0x7BF7E003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7E001, 0x7BF7E005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BF7E001, 0x7BF7E007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BF7E001, 0x7BF7E008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF7E001, 0x7BF7E00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E00C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7E001, 0x7BF7E00D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7E001, 0x7BF7E00E, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E00F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7E001, 0x7BF7E010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E011, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7E001, 0x7BF7E012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BF7E001, 0x7BF7E013, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BF7E001, 0x7BF7E014, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF7E001, 0x7BF7E015, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BF7E001, 0x7BF7E016, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7E001, 0x7BF7E017, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7E001, 0x7BF7E018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E019, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7E001, 0x7BF7E01A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7E001, 0x7BF7E01B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF7E001, 0x7BF7E01C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7E001, 0x7BF7E01D, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF7E001, 0x7BF7E01E, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF7E001, 0x7BF7E01F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E020, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BF7E001, 0x7BF7E021, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BF7E001, 0x7BF7E022, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF7E001, 0x7BF7E023, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF7E001, 0x7BF7E024, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BF7E001, 0x7BF7E025, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF7E001, 0x7BF7E026, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E027, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E028, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E029, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E02A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BF7E001, 0x7BF7E02B, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BF7E001, 0x7BF7E02C, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BF7E001, 0x7BF7E02D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF7E001, 0x7BF7E02E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7E001, 0x7BF7E02F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7E001, 0x7BF7E030, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF7E001, 0x7BF7E031, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BF7E001, 0x7BF7E032, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E033, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF7E001, 0x7BF7E034, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF7E001, 0x7BF7E035, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF7E001, 0x7BF7E036, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E037, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7E001, 0x7BF7E038, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7E001, 0x7BF7E039, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF7E001, 0x7BF7E03A, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF7E001, 0x7BF7E03B, '2019-02-10 00:00:00') /* Static */
-     , (0x7BF7E001, 0x7BF7E03C, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BF7E001, 0x7BF7E03D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E03E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E03F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E040, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BF7E001, 0x7BF7E041, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E042, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E043, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E044, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E045, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF7E001, 0x7BF7E046, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BF7E001, 0x7BF7E047, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7BF7E001, 0x7BF7E048, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7BF7E001, 0x7BF7E049, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7E001, 0x7BF7E04A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7E001, 0x7BF7E04B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E04C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E04D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF7E001, 0x7BF7E04E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF7E001, 0x7BF7E04F, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF7E001, 0x7BF7E050, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7E001, 0x7BF7E051, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BF7E001, 0x7BF7E052, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BF7E001, 0x7BF7E053, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF7E001, 0x7BF7E054, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF7E001, 0x7BF7E055, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF7E001, 0x7BF7E056, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7E001, 0x7BF7E057, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7E001, 0x7BF7E058, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BF7E001, 0x7BF7E059, '2019-02-10 00:00:00') /* Vorous Shreth */;
+VALUES (0x7BF7E001, 0x7BF7E002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF7E001, 0x7BF7E003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF7E001, 0x7BF7E004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7E001, 0x7BF7E005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BF7E001, 0x7BF7E007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BF7E001, 0x7BF7E008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF7E001, 0x7BF7E00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E00C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7E001, 0x7BF7E00D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7E001, 0x7BF7E00E, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BF7E001, 0x7BF7E00F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7E001, 0x7BF7E010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E011, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7E001, 0x7BF7E012, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BF7E001, 0x7BF7E013, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BF7E001, 0x7BF7E014, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF7E001, 0x7BF7E015, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BF7E001, 0x7BF7E016, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7E001, 0x7BF7E017, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7E001, 0x7BF7E018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E019, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7E001, 0x7BF7E01A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7E001, 0x7BF7E01B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF7E001, 0x7BF7E01C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7E001, 0x7BF7E01D, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF7E001, 0x7BF7E01E, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF7E001, 0x7BF7E01F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E020, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BF7E001, 0x7BF7E021, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BF7E001, 0x7BF7E022, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF7E001, 0x7BF7E023, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF7E001, 0x7BF7E024, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BF7E001, 0x7BF7E025, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF7E001, 0x7BF7E026, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E027, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF7E001, 0x7BF7E028, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF7E001, 0x7BF7E029, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF7E001, 0x7BF7E02A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BF7E001, 0x7BF7E02B, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BF7E001, 0x7BF7E02C, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BF7E001, 0x7BF7E02D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF7E001, 0x7BF7E02E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7E001, 0x7BF7E02F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7E001, 0x7BF7E030, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF7E001, 0x7BF7E031, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BF7E001, 0x7BF7E032, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E033, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF7E001, 0x7BF7E034, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF7E001, 0x7BF7E035, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF7E001, 0x7BF7E036, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E037, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7E001, 0x7BF7E038, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7E001, 0x7BF7E039, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF7E001, 0x7BF7E03A, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF7E001, 0x7BF7E03B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BF7E001, 0x7BF7E03C, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BF7E001, 0x7BF7E03D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E03E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E03F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E040, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BF7E001, 0x7BF7E041, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E042, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E043, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E044, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E045, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF7E001, 0x7BF7E046, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BF7E001, 0x7BF7E047, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7BF7E001, 0x7BF7E048, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7BF7E001, 0x7BF7E049, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7E001, 0x7BF7E04A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7E001, 0x7BF7E04B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E04C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E04D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF7E001, 0x7BF7E04E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF7E001, 0x7BF7E04F, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF7E001, 0x7BF7E050, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7E001, 0x7BF7E051, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BF7E001, 0x7BF7E052, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BF7E001, 0x7BF7E053, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF7E001, 0x7BF7E054, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF7E001, 0x7BF7E055, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF7E001, 0x7BF7E056, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7E001, 0x7BF7E057, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7E001, 0x7BF7E058, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BF7E001, 0x7BF7E059, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7E002,  1612, 0xBF7E002B, 126.557, 67.92617, 26.13706, 0.99814, 0, 0, -0.06096384,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -455,11 +455,11 @@ VALUES (0x7BF7E05A,  1542, 0xBF7E000C, 36.30205, 82.69742, 28.13372, 1, 0, 0, 0,
 /* @teleloc 0xBF7E000C [36.302050 82.697420 28.133720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7E05A, 0x7BF7E05B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BF7E05A, 0x7BF7E05C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BF7E05A, 0x7BF7E05D, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BF7E05A, 0x7BF7E05E, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BF7E05A, 0x7BF7E05F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BF7E05A, 0x7BF7E05B, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7BF7E05A, 0x7BF7E05C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BF7E05A, 0x7BF7E05D, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BF7E05A, 0x7BF7E05E, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BF7E05A, 0x7BF7E05F, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7E05B, 22572, 0xBF7E000C, 36.30205, 82.69742, 28.13372, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

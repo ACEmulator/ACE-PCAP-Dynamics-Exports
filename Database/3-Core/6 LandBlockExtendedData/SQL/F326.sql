@@ -5,11 +5,11 @@ VALUES (0x7F326001,  1154, 0xF326003F, 171.0534, 152.115, 0.001199961, 0.9537169
 /* @teleloc 0xF326003F [171.053400 152.115000 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F326001, 0x7F326002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F326001, 0x7F326003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F326001, 0x7F326004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F326001, 0x7F326005, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F326001, 0x7F326006, '2019-02-10 00:00:00') /* Slithayr Tentacle */;
+VALUES (0x7F326001, 0x7F326002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F326001, 0x7F326003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F326001, 0x7F326004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F326001, 0x7F326005, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F326001, 0x7F326006, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F326002,  7109, 0xF326003F, 171.0534, 152.115, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -36,7 +36,7 @@ VALUES (0x7F326007,  1542, 0xF3260037, 161.5827, 147.3075, -0.09999999, 0.999048
 /* @teleloc 0xF3260037 [161.582700 147.307500 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F326007, 0x7F326008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F326007, 0x7F326008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F326008,  4179, 0xF3260037, 161.5827, 147.3075, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

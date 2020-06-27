@@ -5,15 +5,15 @@ VALUES (0x76817001,  1154, 0x68170038, 149.9425, 169.646, 20.97262, 0.5557609, 0
 /* @teleloc 0x68170038 [149.942500 169.646000 20.972620] 0.555761 0.000000 0.000000 -0.831342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76817001, 0x76817002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x76817001, 0x76817003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x76817001, 0x76817004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x76817001, 0x76817005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x76817001, 0x76817006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76817001, 0x76817007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76817001, 0x76817008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x76817001, 0x76817009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76817001, 0x7681700A, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x76817001, 0x76817002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x76817001, 0x76817003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x76817001, 0x76817004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x76817001, 0x76817005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x76817001, 0x76817006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76817001, 0x76817007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76817001, 0x76817008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x76817001, 0x76817009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76817001, 0x7681700A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76817002, 11526, 0x68170038, 149.9425, 169.646, 20.97262, 0.5557609, 0, 0, -0.8313422,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -56,7 +56,7 @@ VALUES (0x7681700B,  1542, 0x6817000B, 41.4253, 66.55682, 4.718611, 1, 0, 0, 0, 
 /* @teleloc 0x6817000B [41.425300 66.556820 4.718611] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7681700B, 0x7681700C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7681700B, 0x7681700C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7681700C,  4179, 0x6817000B, 41.4253, 66.55682, 4.718611, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

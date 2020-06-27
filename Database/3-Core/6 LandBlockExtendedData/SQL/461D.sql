@@ -5,9 +5,9 @@ VALUES (0x7461D001,  1154, 0x461D0030, 141.8597, 191.7974, 49.02601, 0.6427876, 
 /* @teleloc 0x461D0030 [141.859700 191.797400 49.026010] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7461D001, 0x7461D002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7461D001, 0x7461D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7461D001, 0x7461D004, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7461D001, 0x7461D002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7461D001, 0x7461D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7461D001, 0x7461D004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7461D002,  8431, 0x461D0030, 141.8597, 191.7974, 49.02601, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

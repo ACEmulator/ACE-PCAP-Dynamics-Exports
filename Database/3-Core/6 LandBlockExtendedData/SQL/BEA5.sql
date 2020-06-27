@@ -5,10 +5,10 @@ VALUES (0x7BEA5001,  1154, 0xBEA5003A, 187.6487, 24.10587, 28.37643, -0.5306754,
 /* @teleloc 0xBEA5003A [187.648700 24.105870 28.376430] -0.530675 0.000000 0.000000 -0.847575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEA5001, 0x7BEA5002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BEA5001, 0x7BEA5003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BEA5001, 0x7BEA5004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BEA5001, 0x7BEA5005, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7BEA5001, 0x7BEA5002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BEA5001, 0x7BEA5003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BEA5001, 0x7BEA5004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BEA5001, 0x7BEA5005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEA5002,   232, 0xBEA5003A, 187.6487, 24.10587, 28.37643, -0.5306754, 0, 0, -0.8475752,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

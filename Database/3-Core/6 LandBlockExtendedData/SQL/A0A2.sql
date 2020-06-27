@@ -5,17 +5,17 @@ VALUES (0x7A0A2001,  1154, 0xA0A2001D, 91.36304, 106.1784, 134.3865, 0.976296, 0
 /* @teleloc 0xA0A2001D [91.363040 106.178400 134.386500] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A2001, 0x7A0A2002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A0A2001, 0x7A0A2003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A0A2001, 0x7A0A2004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A0A2001, 0x7A0A2005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0A2001, 0x7A0A2006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0A2001, 0x7A0A2007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A0A2001, 0x7A0A2008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A0A2001, 0x7A0A2009, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A0A2001, 0x7A0A200A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A0A2001, 0x7A0A200B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A0A2001, 0x7A0A200C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7A0A2001, 0x7A0A2002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A0A2001, 0x7A0A2003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A0A2001, 0x7A0A2004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A0A2001, 0x7A0A2005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0A2001, 0x7A0A2006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0A2001, 0x7A0A2007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A0A2001, 0x7A0A2008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A0A2001, 0x7A0A2009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A0A2001, 0x7A0A200A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A0A2001, 0x7A0A200B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A0A2001, 0x7A0A200C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A2002,  1630, 0xA0A2001D, 91.36304, 106.1784, 134.3865, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -66,9 +66,9 @@ VALUES (0x7A0A200D,  1542, 0xA0A20040, 186.934, 190.5391, 135.8908, -0.9313653, 
 /* @teleloc 0xA0A20040 [186.934000 190.539100 135.890800] -0.931365 0.000000 0.000000 -0.364086 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A200D, 0x7A0A200E, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7A0A200D, 0x7A0A200F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A0A200D, 0x7A0A2010, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7A0A200D, 0x7A0A200E, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7A0A200D, 0x7A0A200F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A0A200D, 0x7A0A2010, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A200E, 31686, 0xA0A20040, 186.934, 190.5391, 135.8908, -0.9313653, 0, 0, -0.364086,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

@@ -5,10 +5,10 @@ VALUES (0x79B50001,  1154, 0x9B500001, 3.873288, 13.44555, 14.35177, -0.9910738,
 /* @teleloc 0x9B500001 [3.873288 13.445550 14.351770] -0.991074 0.000000 0.000000 -0.133314 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B50001, 0x79B50002, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79B50001, 0x79B50003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79B50001, 0x79B50004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79B50001, 0x79B50005, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79B50001, 0x79B50002, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79B50001, 0x79B50003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79B50001, 0x79B50004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79B50001, 0x79B50005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B50002,   238, 0x9B500001, 3.873288, 13.44555, 14.35177, -0.9910738, 0, 0, -0.1333141,  True, '2019-02-10 00:00:00'); /* Virindi Puppet */

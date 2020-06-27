@@ -5,26 +5,26 @@ VALUES (0x7D71F001,  1154, 0xD71F0011, 70.78285, 13.29438, -0.4425, 1, 0, 0, 0, 
 /* @teleloc 0xD71F0011 [70.782850 13.294380 -0.442500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D71F001, 0x7D71F002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D71F001, 0x7D71F003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D71F001, 0x7D71F004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D71F001, 0x7D71F005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D71F001, 0x7D71F006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7D71F001, 0x7D71F007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D71F001, 0x7D71F008, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D71F001, 0x7D71F009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F00C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D71F001, 0x7D71F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F011, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D71F001, 0x7D71F012, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D71F001, 0x7D71F015, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7D71F001, 0x7D71F002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D71F001, 0x7D71F003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D71F001, 0x7D71F004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D71F001, 0x7D71F005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D71F001, 0x7D71F006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7D71F001, 0x7D71F007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D71F001, 0x7D71F008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D71F001, 0x7D71F009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F00C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D71F001, 0x7D71F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D71F001, 0x7D71F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D71F001, 0x7D71F00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D71F001, 0x7D71F010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D71F001, 0x7D71F011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D71F001, 0x7D71F012, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D71F001, 0x7D71F015, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D71F002,  7124, 0xD71F0011, 70.78285, 13.29438, -0.4425, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -111,7 +111,7 @@ VALUES (0x7D71F016,  1542, 0xD71F0032, 167.2083, 31.57515, 0, 0.8410541, 0, 0, -
 /* @teleloc 0xD71F0032 [167.208300 31.575150 0.000000] 0.841054 0.000000 0.000000 -0.540951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D71F016, 0x7D71F017, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D71F016, 0x7D71F017, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D71F017, 31687, 0xD71F0032, 167.2083, 31.57515, 0, 0.8410541, 0, 0, -0.5409511,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

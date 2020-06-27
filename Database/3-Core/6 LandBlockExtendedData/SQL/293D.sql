@@ -5,10 +5,10 @@ VALUES (0x7293D001,  1154, 0x293D0013, 54.40313, 67.3003, 196.82, 0.7071068, 0, 
 /* @teleloc 0x293D0013 [54.403130 67.300300 196.820000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7293D001, 0x7293D002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7293D001, 0x7293D003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7293D001, 0x7293D004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7293D001, 0x7293D005, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x7293D001, 0x7293D002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7293D001, 0x7293D003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7293D001, 0x7293D004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7293D001, 0x7293D005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7293D002, 36855, 0x293D0013, 54.40313, 67.3003, 196.82, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -31,7 +31,7 @@ VALUES (0x7293D006,  1542, 0x293D0013, 49.24743, 67.88234, 197.5842, 0.9990482, 
 /* @teleloc 0x293D0013 [49.247430 67.882340 197.584200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7293D006, 0x7293D007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7293D006, 0x7293D007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7293D007,  4179, 0x293D0013, 49.24743, 67.88234, 197.5842, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

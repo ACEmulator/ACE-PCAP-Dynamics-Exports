@@ -5,10 +5,10 @@ VALUES (0x737E4001,  1154, 0x37E401F2, 133.788, 111.369, -15.2, 0.442599, 0, 0, 
 /* @teleloc 0x37E401F2 [133.788000 111.369000 -15.200000] 0.442599 0.000000 0.000000 -0.896720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737E4001, 0x737E4002, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x737E4001, 0x737E4003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737E4001, 0x737E4004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x737E4001, 0x737E4005, '2019-02-10 00:00:00') /* Small Coral Golem */;
+VALUES (0x737E4001, 0x737E4002, '2019-02-10 00:00:00') /* Famished Eater (31225) */
+     , (0x737E4001, 0x737E4003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737E4001, 0x737E4004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x737E4001, 0x737E4005, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737E4002, 31225, 0x37E401F2, 133.788, 111.369, -15.2, 0.442599, 0, 0, -0.89672,  True, '2019-02-10 00:00:00'); /* Famished Eater */

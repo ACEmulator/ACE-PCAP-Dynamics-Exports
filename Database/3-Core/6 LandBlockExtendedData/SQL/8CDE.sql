@@ -5,10 +5,10 @@ VALUES (0x78CDE001,  1154, 0x8CDE0031, 154.2382, 6.627323, 79.41234, 0.7071068, 
 /* @teleloc 0x8CDE0031 [154.238200 6.627323 79.412340] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDE001, 0x78CDE002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CDE001, 0x78CDE003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CDE001, 0x78CDE004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CDE001, 0x78CDE005, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78CDE001, 0x78CDE002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CDE001, 0x78CDE003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CDE001, 0x78CDE004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CDE001, 0x78CDE005, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDE002,  7345, 0x8CDE0031, 154.2382, 6.627323, 79.41234, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -31,7 +31,7 @@ VALUES (0x78CDE006,  1542, 0x8CDE0031, 153.1173, 10.35741, 79.62289, 0.9990482, 
 /* @teleloc 0x8CDE0031 [153.117300 10.357410 79.622890] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDE006, 0x78CDE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78CDE006, 0x78CDE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDE007,  4179, 0x8CDE0031, 153.1173, 10.35741, 79.62289, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

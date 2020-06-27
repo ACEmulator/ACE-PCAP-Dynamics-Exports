@@ -5,14 +5,14 @@ VALUES (0x7306B001,  1154, 0x306B003F, 185.293, 159.5399, 178.5965, 0.1154914, 0
 /* @teleloc 0x306B003F [185.293000 159.539900 178.596500] 0.115491 0.000000 0.000000 -0.993309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7306B001, 0x7306B002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7306B001, 0x7306B003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7306B001, 0x7306B004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7306B001, 0x7306B005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7306B001, 0x7306B006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7306B001, 0x7306B007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7306B001, 0x7306B008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7306B001, 0x7306B009, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x7306B001, 0x7306B002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7306B001, 0x7306B003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7306B001, 0x7306B004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7306B001, 0x7306B005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7306B001, 0x7306B006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7306B001, 0x7306B007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7306B001, 0x7306B008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7306B001, 0x7306B009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7306B002, 21550, 0x306B003F, 185.293, 159.5399, 178.5965, 0.1154914, 0, 0, -0.9933085,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -51,7 +51,7 @@ VALUES (0x7306B00A,  1542, 0x306B0006, 19.98173, 138.2848, 151.448, 0.033077, 0,
 /* @teleloc 0x306B0006 [19.981730 138.284800 151.448000] 0.033077 0.000000 0.000000 -0.999453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7306B00A, 0x7306B00B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7306B00A, 0x7306B00B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7306B00B, 42528, 0x306B0006, 19.98173, 138.2848, 151.448, 0.033077, 0, 0, -0.9994528,  True, '2019-02-10 00:00:00'); /* Rock */

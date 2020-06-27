@@ -5,21 +5,21 @@ VALUES (0x7C6AE001,  1154, 0xC6AE0100, 36.36934, 190.6046, 150.805, 0.890599, 0,
 /* @teleloc 0xC6AE0100 [36.369340 190.604600 150.805000] 0.890599 0.000000 0.000000 0.454790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6AE001, 0x7C6AE002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7C6AE001, 0x7C6AE003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7C6AE001, 0x7C6AE004, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7C6AE001, 0x7C6AE005, '2019-02-10 00:00:00') /* Mite Matron */
-     , (0x7C6AE001, 0x7C6AE006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7C6AE001, 0x7C6AE007, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7C6AE001, 0x7C6AE008, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7C6AE001, 0x7C6AE009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C6AE001, 0x7C6AE00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C6AE001, 0x7C6AE00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C6AE001, 0x7C6AE00C, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7C6AE001, 0x7C6AE00D, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7C6AE001, 0x7C6AE00E, '2019-02-10 00:00:00') /* Mite Matron */
-     , (0x7C6AE001, 0x7C6AE00F, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7C6AE001, 0x7C6AE010, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C6AE001, 0x7C6AE002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7C6AE001, 0x7C6AE003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7C6AE001, 0x7C6AE004, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7C6AE001, 0x7C6AE005, '2019-02-10 00:00:00') /* Mite Matron (208) */
+     , (0x7C6AE001, 0x7C6AE006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7C6AE001, 0x7C6AE007, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7C6AE001, 0x7C6AE008, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7C6AE001, 0x7C6AE009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C6AE001, 0x7C6AE00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C6AE001, 0x7C6AE00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C6AE001, 0x7C6AE00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7C6AE001, 0x7C6AE00D, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7C6AE001, 0x7C6AE00E, '2019-02-10 00:00:00') /* Mite Matron (208) */
+     , (0x7C6AE001, 0x7C6AE00F, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7C6AE001, 0x7C6AE010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6AE002,   946, 0xC6AE0100, 36.36934, 190.6046, 150.805, 0.890599, 0, 0, 0.45479,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -86,40 +86,40 @@ VALUES (0x7C6AE011,  1542, 0xC6AE0100, 34.87159, 190.1823, 150.8124, 0.999731, 0
 /* @teleloc 0xC6AE0100 [34.871590 190.182300 150.812400] 0.999731 0.000000 0.000000 -0.023197 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6AE011, 0x7C6AE012, '2019-02-10 00:00:00') /* Gorget */
-     , (0x7C6AE011, 0x7C6AE013, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6AE011, 0x7C6AE014, '2019-02-10 00:00:00') /* Grapes */
-     , (0x7C6AE011, 0x7C6AE015, '2019-02-10 00:00:00') /* Bread */
-     , (0x7C6AE011, 0x7C6AE016, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C6AE011, 0x7C6AE017, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C6AE011, 0x7C6AE018, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C6AE011, 0x7C6AE019, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7C6AE011, 0x7C6AE01A, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7C6AE011, 0x7C6AE01B, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6AE011, 0x7C6AE01C, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7C6AE011, 0x7C6AE01D, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C6AE011, 0x7C6AE01E, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7C6AE011, 0x7C6AE01F, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6AE011, 0x7C6AE020, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C6AE011, 0x7C6AE021, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x7C6AE011, 0x7C6AE022, '2019-02-10 00:00:00') /* Apple */
-     , (0x7C6AE011, 0x7C6AE023, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C6AE011, 0x7C6AE024, '2019-02-10 00:00:00') /* Bread */
-     , (0x7C6AE011, 0x7C6AE025, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7C6AE011, 0x7C6AE026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C6AE011, 0x7C6AE027, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C6AE011, 0x7C6AE028, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x7C6AE011, 0x7C6AE029, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x7C6AE011, 0x7C6AE02A, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C6AE011, 0x7C6AE02B, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6AE011, 0x7C6AE02C, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C6AE011, 0x7C6AE02D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C6AE011, 0x7C6AE02E, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7C6AE011, 0x7C6AE02F, '2019-02-10 00:00:00') /* Grapes */
-     , (0x7C6AE011, 0x7C6AE030, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6AE011, 0x7C6AE031, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C6AE011, 0x7C6AE032, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C6AE011, 0x7C6AE033, '2019-02-10 00:00:00') /* Grapes */;
+VALUES (0x7C6AE011, 0x7C6AE012, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x7C6AE011, 0x7C6AE013, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6AE011, 0x7C6AE014, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x7C6AE011, 0x7C6AE015, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7C6AE011, 0x7C6AE016, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C6AE011, 0x7C6AE017, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C6AE011, 0x7C6AE018, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C6AE011, 0x7C6AE019, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7C6AE011, 0x7C6AE01A, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7C6AE011, 0x7C6AE01B, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6AE011, 0x7C6AE01C, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7C6AE011, 0x7C6AE01D, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C6AE011, 0x7C6AE01E, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7C6AE011, 0x7C6AE01F, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6AE011, 0x7C6AE020, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C6AE011, 0x7C6AE021, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x7C6AE011, 0x7C6AE022, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7C6AE011, 0x7C6AE023, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C6AE011, 0x7C6AE024, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7C6AE011, 0x7C6AE025, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7C6AE011, 0x7C6AE026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C6AE011, 0x7C6AE027, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C6AE011, 0x7C6AE028, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x7C6AE011, 0x7C6AE029, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x7C6AE011, 0x7C6AE02A, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C6AE011, 0x7C6AE02B, '2019-02-10 00:00:00') /* Gem (2431) */
+     , (0x7C6AE011, 0x7C6AE02C, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C6AE011, 0x7C6AE02D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C6AE011, 0x7C6AE02E, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7C6AE011, 0x7C6AE02F, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x7C6AE011, 0x7C6AE030, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6AE011, 0x7C6AE031, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C6AE011, 0x7C6AE032, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C6AE011, 0x7C6AE033, '2019-02-10 00:00:00') /* Grapes (264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6AE012,  2367, 0xC6AE0100, 34.87159, 190.1823, 150.8124, 0.999731, 0, 0, -0.0231966,  True, '2019-02-10 00:00:00'); /* Gorget */

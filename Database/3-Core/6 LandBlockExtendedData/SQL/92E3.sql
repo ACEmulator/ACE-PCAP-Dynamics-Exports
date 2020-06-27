@@ -5,11 +5,11 @@ VALUES (0x792E3001,  1154, 0x92E3003B, 170.7202, 52.66597, 97.78201, -0.8851084,
 /* @teleloc 0x92E3003B [170.720200 52.665970 97.782010] -0.885108 0.000000 0.000000 -0.465385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E3001, 0x792E3002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792E3001, 0x792E3003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792E3001, 0x792E3004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792E3001, 0x792E3005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792E3001, 0x792E3006, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x792E3001, 0x792E3002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792E3001, 0x792E3003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792E3001, 0x792E3004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792E3001, 0x792E3005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792E3001, 0x792E3006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E3002,   214, 0x92E3003B, 170.7202, 52.66597, 97.78201, -0.8851084, 0, 0, -0.465385,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

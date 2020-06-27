@@ -5,9 +5,9 @@ VALUES (0x7E72B001,  1154, 0xE72B002C, 126.2622, 74.35157, -0.9000001, 0.3566787
 /* @teleloc 0xE72B002C [126.262200 74.351570 -0.900000] 0.356679 0.000000 0.000000 -0.934227 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E72B001, 0x7E72B002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7E72B001, 0x7E72B003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E72B001, 0x7E72B004, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7E72B001, 0x7E72B002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7E72B001, 0x7E72B003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E72B001, 0x7E72B004, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E72B002,  7111, 0xE72B002C, 126.2622, 74.35157, -0.9000001, 0.3566787, 0, 0, -0.9342271,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

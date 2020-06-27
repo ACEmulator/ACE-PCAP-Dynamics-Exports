@@ -5,35 +5,35 @@ VALUES (0x71AC1001,  1154, 0x1AC10006, 6.594101, 140.9641, 19.991, -0.4586915, 0
 /* @teleloc 0x1AC10006 [6.594101 140.964100 19.991000] -0.458692 0.000000 0.000000 -0.888596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AC1001, 0x71AC1002, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71AC1001, 0x71AC1003, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71AC1001, 0x71AC1004, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71AC1001, 0x71AC1005, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71AC1001, 0x71AC1006, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AC1001, 0x71AC1007, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71AC1001, 0x71AC1008, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71AC1001, 0x71AC1009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71AC1001, 0x71AC100A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71AC1001, 0x71AC100B, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC100C, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC100D, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC100E, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC100F, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71AC1001, 0x71AC1010, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71AC1001, 0x71AC1011, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC1012, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC1013, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC1014, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71AC1001, 0x71AC1015, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AC1001, 0x71AC1016, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71AC1001, 0x71AC1017, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71AC1001, 0x71AC1018, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71AC1001, 0x71AC1019, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71AC1001, 0x71AC101A, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71AC1001, 0x71AC101B, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71AC1001, 0x71AC101C, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71AC1001, 0x71AC101D, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71AC1001, 0x71AC101E, '2019-02-10 00:00:00') /* Woodland Ursuin */;
+VALUES (0x71AC1001, 0x71AC1002, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71AC1001, 0x71AC1003, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71AC1001, 0x71AC1004, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71AC1001, 0x71AC1005, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71AC1001, 0x71AC1006, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AC1001, 0x71AC1007, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71AC1001, 0x71AC1008, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71AC1001, 0x71AC1009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x71AC1001, 0x71AC100A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71AC1001, 0x71AC100B, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC100C, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC100D, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC100E, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC100F, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71AC1001, 0x71AC1010, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71AC1001, 0x71AC1011, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC1012, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC1013, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC1014, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71AC1001, 0x71AC1015, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AC1001, 0x71AC1016, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x71AC1001, 0x71AC1017, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x71AC1001, 0x71AC1018, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71AC1001, 0x71AC1019, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71AC1001, 0x71AC101A, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71AC1001, 0x71AC101B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71AC1001, 0x71AC101C, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71AC1001, 0x71AC101D, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71AC1001, 0x71AC101E, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AC1002, 11491, 0x1AC10006, 6.594101, 140.9641, 19.991, -0.4586915, 0, 0, -0.8885956,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
@@ -156,10 +156,10 @@ VALUES (0x71AC101F,  1542, 0x1AC1001D, 76.07344, 102.0056, 23.41639, 1, 0, 0, 0,
 /* @teleloc 0x1AC1001D [76.073440 102.005600 23.416390] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AC101F, 0x71AC1020, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AC101F, 0x71AC1021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71AC101F, 0x71AC1022, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AC101F, 0x71AC1023, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71AC101F, 0x71AC1020, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AC101F, 0x71AC1021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71AC101F, 0x71AC1022, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AC101F, 0x71AC1023, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AC1020,  9024, 0x1AC1001D, 76.07344, 102.0056, 23.41639, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

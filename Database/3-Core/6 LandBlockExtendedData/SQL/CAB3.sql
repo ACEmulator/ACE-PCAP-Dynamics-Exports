@@ -5,18 +5,18 @@ VALUES (0x7CAB3001,  1154, 0xCAB30032, 150.5236, 40.29729, 203.6962, 0.1729088, 
 /* @teleloc 0xCAB30032 [150.523600 40.297290 203.696200] 0.172909 0.000000 0.000000 -0.984938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAB3001, 0x7CAB3002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CAB3001, 0x7CAB3003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CAB3001, 0x7CAB3004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CAB3001, 0x7CAB3005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CAB3001, 0x7CAB3006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CAB3001, 0x7CAB3007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CAB3001, 0x7CAB3008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CAB3001, 0x7CAB3009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CAB3001, 0x7CAB300A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CAB3001, 0x7CAB300B, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CAB3001, 0x7CAB300C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CAB3001, 0x7CAB300D, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CAB3001, 0x7CAB3002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CAB3001, 0x7CAB3003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CAB3001, 0x7CAB3004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CAB3001, 0x7CAB3005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CAB3001, 0x7CAB3006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CAB3001, 0x7CAB3007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CAB3001, 0x7CAB3008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CAB3001, 0x7CAB3009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CAB3001, 0x7CAB300A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CAB3001, 0x7CAB300B, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CAB3001, 0x7CAB300C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CAB3001, 0x7CAB300D, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAB3002,  9251, 0xCAB30032, 150.5236, 40.29729, 203.6962, 0.1729088, 0, 0, -0.9849378,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

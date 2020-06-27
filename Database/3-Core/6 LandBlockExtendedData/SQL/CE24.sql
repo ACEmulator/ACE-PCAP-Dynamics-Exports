@@ -5,10 +5,10 @@ VALUES (0x7CE24001,  1154, 0xCE240026, 119.5623, 131.4608, 132.0296, 0.5553659, 
 /* @teleloc 0xCE240026 [119.562300 131.460800 132.029600] 0.555366 0.000000 0.000000 -0.831606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE24001, 0x7CE24002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CE24001, 0x7CE24003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CE24001, 0x7CE24004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CE24001, 0x7CE24005, '2019-02-10 00:00:00') /* Banished Monouga */;
+VALUES (0x7CE24001, 0x7CE24002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CE24001, 0x7CE24003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CE24001, 0x7CE24004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CE24001, 0x7CE24005, '2019-02-10 00:00:00') /* Banished Monouga (30884) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE24002,  7121, 0xCE240026, 119.5623, 131.4608, 132.0296, 0.5553659, 0, 0, -0.8316061,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

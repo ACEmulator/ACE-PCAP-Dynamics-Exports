@@ -5,13 +5,13 @@ VALUES (0x72C6C001,  1154, 0x2C6C0026, 108.4289, 121.7188, 34.47257, -0.2913315,
 /* @teleloc 0x2C6C0026 [108.428900 121.718800 34.472570] -0.291332 0.000000 0.000000 -0.956622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C6C001, 0x72C6C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C6C001, 0x72C6C003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72C6C001, 0x72C6C004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72C6C001, 0x72C6C005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C6C001, 0x72C6C006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C6C001, 0x72C6C007, '2019-02-10 00:00:00') /* Frost */
-     , (0x72C6C001, 0x72C6C008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x72C6C001, 0x72C6C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C6C001, 0x72C6C003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72C6C001, 0x72C6C004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72C6C001, 0x72C6C005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C6C001, 0x72C6C006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C6C001, 0x72C6C007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72C6C001, 0x72C6C008, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C6C002, 36829, 0x2C6C0026, 108.4289, 121.7188, 34.47257, -0.2913315, 0, 0, -0.9566221,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

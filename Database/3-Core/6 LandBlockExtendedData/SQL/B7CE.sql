@@ -5,11 +5,11 @@ VALUES (0x7B7CE001,  1154, 0xB7CE0031, 154.7049, 12.00123, 177.5781, -0.9507781,
 /* @teleloc 0xB7CE0031 [154.704900 12.001230 177.578100] -0.950778 0.000000 0.000000 -0.309873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7CE001, 0x7B7CE002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7B7CE001, 0x7B7CE003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B7CE001, 0x7B7CE004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B7CE001, 0x7B7CE005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B7CE001, 0x7B7CE006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7B7CE001, 0x7B7CE002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7B7CE001, 0x7B7CE003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B7CE001, 0x7B7CE004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B7CE001, 0x7B7CE005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B7CE001, 0x7B7CE006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7CE002, 14521, 0xB7CE0031, 154.7049, 12.00123, 177.5781, -0.9507781, 0, 0, -0.3098727,  True, '2019-02-10 00:00:00'); /* Glacial Golem */

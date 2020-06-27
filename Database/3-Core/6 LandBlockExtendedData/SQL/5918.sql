@@ -5,12 +5,12 @@ VALUES (0x75918001,  1154, 0x5918002F, 131.5354, 146.1758, 45.24343, 0.9238795, 
 /* @teleloc 0x5918002F [131.535400 146.175800 45.243430] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75918001, 0x75918002, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75918001, 0x75918003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75918001, 0x75918004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75918001, 0x75918005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75918001, 0x75918006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75918001, 0x75918007, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x75918001, 0x75918002, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75918001, 0x75918003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75918001, 0x75918004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75918001, 0x75918005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75918001, 0x75918006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75918001, 0x75918007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75918002,  8269, 0x5918002F, 131.5354, 146.1758, 45.24343, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumideon Hollow Minion */

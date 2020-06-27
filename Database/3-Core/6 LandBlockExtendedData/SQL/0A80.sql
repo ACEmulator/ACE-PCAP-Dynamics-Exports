@@ -5,13 +5,13 @@ VALUES (0x70A80001,  1154, 0x0A800035, 156.424, 102.3067, -0.09750003, -4.371139
 /* @teleloc 0x0A800035 [156.424000 102.306700 -0.097500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A80001, 0x70A80002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70A80001, 0x70A80003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70A80001, 0x70A80004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70A80001, 0x70A80005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70A80001, 0x70A80006, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70A80001, 0x70A80007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70A80001, 0x70A80008, '2019-02-10 00:00:00') /* Paroxysm Shadow */;
+VALUES (0x70A80001, 0x70A80002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70A80001, 0x70A80003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70A80001, 0x70A80004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70A80001, 0x70A80005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x70A80001, 0x70A80006, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70A80001, 0x70A80007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70A80001, 0x70A80008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A80002, 24317, 0x0A800035, 156.424, 102.3067, -0.09750003, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */

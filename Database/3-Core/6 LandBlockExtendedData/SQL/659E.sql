@@ -5,14 +5,14 @@ VALUES (0x7659E001,  1154, 0x659E0023, 97.89537, 53.07625, 21.15896, 0.4010451, 
 /* @teleloc 0x659E0023 [97.895370 53.076250 21.158960] 0.401045 0.000000 0.000000 -0.916058 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7659E001, 0x7659E002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7659E001, 0x7659E003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7659E001, 0x7659E004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7659E001, 0x7659E005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7659E001, 0x7659E006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7659E001, 0x7659E007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7659E001, 0x7659E008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7659E001, 0x7659E009, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7659E001, 0x7659E002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7659E001, 0x7659E003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7659E001, 0x7659E004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7659E001, 0x7659E005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7659E001, 0x7659E006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7659E001, 0x7659E007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7659E001, 0x7659E008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7659E001, 0x7659E009, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7659E002,  1757, 0x659E0023, 97.89537, 53.07625, 21.15896, 0.4010451, 0, 0, -0.9160583,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

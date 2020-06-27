@@ -5,20 +5,20 @@ VALUES (0x74F11001,  1154, 0x4F11002B, 125.8211, 67.84073, 68.01, 0.600064, 0, 0
 /* @teleloc 0x4F11002B [125.821100 67.840730 68.010000] 0.600064 0.000000 0.000000 -0.799952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F11001, 0x74F11002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74F11001, 0x74F11003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74F11001, 0x74F11004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74F11001, 0x74F11005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x74F11001, 0x74F11006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74F11001, 0x74F11007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74F11001, 0x74F11008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74F11001, 0x74F11009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74F11001, 0x74F1100A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74F11001, 0x74F1100B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74F11001, 0x74F1100C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74F11001, 0x74F1100D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74F11001, 0x74F1100E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74F11001, 0x74F1100F, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74F11001, 0x74F11002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74F11001, 0x74F11003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74F11001, 0x74F11004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74F11001, 0x74F11005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x74F11001, 0x74F11006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74F11001, 0x74F11007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74F11001, 0x74F11008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74F11001, 0x74F11009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74F11001, 0x74F1100A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74F11001, 0x74F1100B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74F11001, 0x74F1100C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74F11001, 0x74F1100D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74F11001, 0x74F1100E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74F11001, 0x74F1100F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F11002,  8138, 0x4F11002B, 125.8211, 67.84073, 68.01, 0.600064, 0, 0, -0.799952,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -81,8 +81,8 @@ VALUES (0x74F11010,  1542, 0x4F110033, 163.1736, 64.90176, 68, 0.6697029, 0, 0, 
 /* @teleloc 0x4F110033 [163.173600 64.901760 68.000000] 0.669703 0.000000 0.000000 -0.742629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F11010, 0x74F11011, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x74F11010, 0x74F11012, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x74F11010, 0x74F11011, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x74F11010, 0x74F11012, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F11011,  8648, 0x4F110033, 163.1736, 64.90176, 68, 0.6697029, 0, 0, -0.7426291,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

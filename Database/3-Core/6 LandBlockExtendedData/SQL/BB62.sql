@@ -13,21 +13,21 @@ VALUES (0x7BB62027,  1154, 0xBB620100, 65.8366, 33.9701, -4.389999, 0.0434876, 0
 /* @teleloc 0xBB620100 [65.836600 33.970100 -4.389999] 0.043488 0.000000 0.000000 0.999054 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB62027, 0x7BB62028, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7BB62027, 0x7BB62029, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BB62027, 0x7BB6202A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BB62027, 0x7BB6202B, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BB62027, 0x7BB6202C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB6202D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB6202E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB6202F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB62030, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB62031, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62027, 0x7BB62032, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62027, 0x7BB62033, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB62034, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB62027, 0x7BB62035, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62027, 0x7BB62036, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7BB62027, 0x7BB62028, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7BB62027, 0x7BB62029, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BB62027, 0x7BB6202A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BB62027, 0x7BB6202B, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB62027, 0x7BB6202C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB6202D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB6202E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB6202F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB62030, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB62031, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62027, 0x7BB62032, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62027, 0x7BB62033, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB62034, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62027, 0x7BB62035, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62027, 0x7BB62036, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB62028,   198, 0xBB620100, 65.8366, 33.9701, -4.389999, 0.0434876, 0, 0, 0.999054,  True, '2019-02-10 00:00:00'); /* Limestone Golem */
@@ -94,12 +94,12 @@ VALUES (0x7BB62037,  1542, 0xBB620104, 62.86645, 31.48856, -14.786, 0.796494, 0,
 /* @teleloc 0xBB620104 [62.866450 31.488560 -14.786000] 0.796494 0.000000 0.000000 -0.604647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB62037, 0x7BB62038, '2019-02-10 00:00:00') /* Round Shield */
-     , (0x7BB62037, 0x7BB62039, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7BB62037, 0x7BB6203A, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7BB62037, 0x7BB6203B, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7BB62037, 0x7BB6203C, '2019-02-10 00:00:00') /* Turban */
-     , (0x7BB62037, 0x7BB6203D, '2019-02-10 00:00:00') /* Buckler */;
+VALUES (0x7BB62037, 0x7BB62038, '2019-02-10 00:00:00') /* Round Shield (93) */
+     , (0x7BB62037, 0x7BB62039, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7BB62037, 0x7BB6203A, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7BB62037, 0x7BB6203B, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7BB62037, 0x7BB6203C, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7BB62037, 0x7BB6203D, '2019-02-10 00:00:00') /* Buckler (44) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB62038,    93, 0xBB620104, 62.86645, 31.48856, -14.786, 0.796494, 0, 0, -0.604647,  True, '2019-02-10 00:00:00'); /* Round Shield */

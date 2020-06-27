@@ -5,10 +5,10 @@ VALUES (0x7A3AD001,  1154, 0xA3AD0040, 186.1798, 177.7867, 44.00765, 0.9480598, 
 /* @teleloc 0xA3AD0040 [186.179800 177.786700 44.007650] 0.948060 0.000000 0.000000 -0.318092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AD001, 0x7A3AD002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3AD001, 0x7A3AD003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A3AD001, 0x7A3AD004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A3AD001, 0x7A3AD005, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7A3AD001, 0x7A3AD002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3AD001, 0x7A3AD003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A3AD001, 0x7A3AD004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A3AD001, 0x7A3AD005, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AD002,   182, 0xA3AD0040, 186.1798, 177.7867, 44.00765, 0.9480598, 0, 0, -0.3180922,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

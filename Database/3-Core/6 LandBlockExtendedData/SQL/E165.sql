@@ -5,32 +5,32 @@ VALUES (0x7E165001,  1154, 0xE165002B, 132.0022, 57.96696, 0.01050007, -0.855572
 /* @teleloc 0xE165002B [132.002200 57.966960 0.010500] -0.855573 0.000000 0.000000 -0.517683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E165001, 0x7E165002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E165001, 0x7E165003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E165001, 0x7E165004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E165001, 0x7E165005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E165001, 0x7E165006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E165001, 0x7E165007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E165001, 0x7E165008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E165001, 0x7E165009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E165001, 0x7E16500A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E165001, 0x7E16500B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E165001, 0x7E16500C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E165001, 0x7E16500D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E165001, 0x7E16500E, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E165001, 0x7E16500F, '2019-02-10 00:00:00') /* Charge */
-     , (0x7E165001, 0x7E165010, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E165001, 0x7E165011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7E165001, 0x7E165012, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7E165001, 0x7E165013, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E165001, 0x7E165014, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E165001, 0x7E165015, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E165001, 0x7E165016, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7E165001, 0x7E165017, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E165001, 0x7E165018, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E165001, 0x7E165019, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E165001, 0x7E16501A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E165001, 0x7E16501B, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7E165001, 0x7E165002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E165001, 0x7E165003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E165001, 0x7E165004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E165001, 0x7E165005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E165001, 0x7E165006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E165001, 0x7E165007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E165001, 0x7E165008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E165001, 0x7E165009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E165001, 0x7E16500A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E165001, 0x7E16500B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E165001, 0x7E16500C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E165001, 0x7E16500D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E165001, 0x7E16500E, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E165001, 0x7E16500F, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7E165001, 0x7E165010, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E165001, 0x7E165011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E165001, 0x7E165012, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E165001, 0x7E165013, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E165001, 0x7E165014, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E165001, 0x7E165015, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E165001, 0x7E165016, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7E165001, 0x7E165017, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E165001, 0x7E165018, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E165001, 0x7E165019, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E165001, 0x7E16501A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E165001, 0x7E16501B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E165002,  2564, 0xE165002B, 132.0022, 57.96696, 0.01050007, -0.8555725, 0, 0, -0.5176831,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

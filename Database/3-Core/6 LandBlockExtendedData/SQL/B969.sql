@@ -5,32 +5,32 @@ VALUES (0x7B969001,  1154, 0xB9690038, 144.9414, 186.2681, 6.000001, -0.931682, 
 /* @teleloc 0xB9690038 [144.941400 186.268100 6.000001] -0.931682 0.000000 0.000000 -0.363275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B969001, 0x7B969002, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B969001, 0x7B969003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B969001, 0x7B969004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B969001, 0x7B969005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B969001, 0x7B969006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B969001, 0x7B969007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B969001, 0x7B969008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B969001, 0x7B969009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B969001, 0x7B96900A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B969001, 0x7B96900B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B969001, 0x7B96900C, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B969001, 0x7B96900D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B969001, 0x7B96900E, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B969001, 0x7B96900F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B969001, 0x7B969010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B969001, 0x7B969011, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B969001, 0x7B969012, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B969001, 0x7B969013, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B969001, 0x7B969014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7B969001, 0x7B969015, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B969001, 0x7B969016, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B969001, 0x7B969017, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B969001, 0x7B969018, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B969001, 0x7B969019, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B969001, 0x7B96901A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B969001, 0x7B96901B, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7B969001, 0x7B969002, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B969001, 0x7B969003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B969001, 0x7B969004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B969001, 0x7B969005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B969001, 0x7B969006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B969001, 0x7B969007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B969001, 0x7B969008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B969001, 0x7B969009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B969001, 0x7B96900A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B969001, 0x7B96900B, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B969001, 0x7B96900C, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B969001, 0x7B96900D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B969001, 0x7B96900E, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B969001, 0x7B96900F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B969001, 0x7B969010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B969001, 0x7B969011, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B969001, 0x7B969012, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B969001, 0x7B969013, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B969001, 0x7B969014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7B969001, 0x7B969015, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B969001, 0x7B969016, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B969001, 0x7B969017, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B969001, 0x7B969018, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B969001, 0x7B969019, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B969001, 0x7B96901A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B969001, 0x7B96901B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B969002,  1535, 0xB9690038, 144.9414, 186.2681, 6.000001, -0.931682, 0, 0, -0.3632749,  True, '2019-02-10 00:00:00'); /* Ethereal Wisp */
@@ -141,9 +141,9 @@ VALUES (0x7B96901C,  1542, 0xB969003D, 174.5746, 101.2661, 6, 0.0002669851, 0, 0
 /* @teleloc 0xB969003D [174.574600 101.266100 6.000000] 0.000267 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96901C, 0x7B96901D, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7B96901C, 0x7B96901E, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B96901C, 0x7B96901F, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7B96901C, 0x7B96901D, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7B96901C, 0x7B96901E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B96901C, 0x7B96901F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96901D,  8041, 0xB969003D, 174.5746, 101.2661, 6, 0.0002669851, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

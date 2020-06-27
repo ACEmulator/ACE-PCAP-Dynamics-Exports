@@ -5,19 +5,19 @@ VALUES (0x7BEC9001,  1154, 0xBEC90021, 114.4165, 18.724, 144.7356, -0.9126324, 0
 /* @teleloc 0xBEC90021 [114.416500 18.724000 144.735600] -0.912632 0.000000 0.000000 -0.408781 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEC9001, 0x7BEC9002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BEC9001, 0x7BEC9003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BEC9001, 0x7BEC9004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BEC9001, 0x7BEC9005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEC9001, 0x7BEC9006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7BEC9001, 0x7BEC9007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEC9001, 0x7BEC9008, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BEC9001, 0x7BEC9009, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BEC9001, 0x7BEC900A, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEC9001, 0x7BEC900B, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC9001, 0x7BEC900C, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC9001, 0x7BEC900D, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC9001, 0x7BEC900E, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7BEC9001, 0x7BEC9002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BEC9001, 0x7BEC9003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BEC9001, 0x7BEC9004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BEC9001, 0x7BEC9005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEC9001, 0x7BEC9006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7BEC9001, 0x7BEC9007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEC9001, 0x7BEC9008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BEC9001, 0x7BEC9009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BEC9001, 0x7BEC900A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEC9001, 0x7BEC900B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC9001, 0x7BEC900C, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC9001, 0x7BEC900D, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC9001, 0x7BEC900E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEC9002,  1608, 0xBEC90021, 114.4165, 18.724, 144.7356, -0.9126324, 0, 0, -0.4087812,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

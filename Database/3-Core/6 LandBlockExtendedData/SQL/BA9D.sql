@@ -5,31 +5,31 @@ VALUES (0x7BA9D001,  1154, 0xBA9D0026, 106.2947, 134.5623, 45.56115, -0.1102094,
 /* @teleloc 0xBA9D0026 [106.294700 134.562300 45.561150] -0.110209 0.000000 0.000000 -0.993908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9D001, 0x7BA9D002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BA9D001, 0x7BA9D005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7BA9D001, 0x7BA9D006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BA9D001, 0x7BA9D008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA9D001, 0x7BA9D00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BA9D001, 0x7BA9D00C, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7BA9D001, 0x7BA9D00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D00E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D012, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BA9D001, 0x7BA9D015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BA9D001, 0x7BA9D016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BA9D001, 0x7BA9D017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BA9D001, 0x7BA9D018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA9D001, 0x7BA9D019, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA9D001, 0x7BA9D01A, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7BA9D001, 0x7BA9D002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BA9D001, 0x7BA9D005, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7BA9D001, 0x7BA9D006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BA9D001, 0x7BA9D008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA9D001, 0x7BA9D00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BA9D001, 0x7BA9D00C, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7BA9D001, 0x7BA9D00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D00E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D012, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BA9D001, 0x7BA9D015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BA9D001, 0x7BA9D016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BA9D001, 0x7BA9D017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BA9D001, 0x7BA9D018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA9D001, 0x7BA9D019, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA9D001, 0x7BA9D01A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9D002, 24937, 0xBA9D0026, 106.2947, 134.5623, 45.56115, -0.1102094, 0, 0, -0.9939084,  True, '2019-02-10 00:00:00'); /* Chicken */

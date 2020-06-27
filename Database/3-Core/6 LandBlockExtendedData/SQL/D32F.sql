@@ -5,11 +5,11 @@ VALUES (0x7D32F001,  1154, 0xD32F001C, 86.11175, 74.21466, 133.2986, -0.9467191,
 /* @teleloc 0xD32F001C [86.111750 74.214660 133.298600] -0.946719 0.000000 0.000000 -0.322060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D32F001, 0x7D32F002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7D32F001, 0x7D32F003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D32F001, 0x7D32F004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D32F001, 0x7D32F005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D32F001, 0x7D32F006, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7D32F001, 0x7D32F002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7D32F001, 0x7D32F003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D32F001, 0x7D32F004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D32F001, 0x7D32F005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D32F001, 0x7D32F006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D32F002,  7780, 0xD32F001C, 86.11175, 74.21466, 133.2986, -0.9467191, 0, 0, -0.3220604,  True, '2019-02-10 00:00:00'); /* Ashen Bones */

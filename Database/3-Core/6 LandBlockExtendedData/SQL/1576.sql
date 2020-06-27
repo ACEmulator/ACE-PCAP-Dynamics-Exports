@@ -5,17 +5,17 @@ VALUES (0x71576001,  1154, 0x15760009, 24.10939, 23.51955, 99.80437, -4.371139E-
 /* @teleloc 0x15760009 [24.109390 23.519550 99.804370] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71576001, 0x71576002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71576001, 0x71576003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71576001, 0x71576004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71576001, 0x71576005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71576001, 0x71576006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71576001, 0x71576007, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71576001, 0x71576008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71576001, 0x71576009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71576001, 0x7157600A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71576001, 0x7157600B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71576001, 0x7157600C, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x71576001, 0x71576002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71576001, 0x71576003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71576001, 0x71576004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71576001, 0x71576005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71576001, 0x71576006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71576001, 0x71576007, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71576001, 0x71576008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71576001, 0x71576009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71576001, 0x7157600A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71576001, 0x7157600B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71576001, 0x7157600C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71576002, 24283, 0x15760009, 24.10939, 23.51955, 99.80437, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
@@ -66,8 +66,8 @@ VALUES (0x7157600D,  1542, 0x1576001E, 93.89426, 124.2945, 142.0179, -0.6164842,
 /* @teleloc 0x1576001E [93.894260 124.294500 142.017900] -0.616484 0.000000 0.000000 -0.787367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7157600D, 0x7157600E, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x7157600D, 0x7157600F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7157600D, 0x7157600E, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x7157600D, 0x7157600F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7157600E, 31688, 0x1576001E, 93.89426, 124.2945, 142.0179, -0.6164842, 0, 0, -0.7873673,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

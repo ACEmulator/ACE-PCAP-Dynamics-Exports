@@ -5,10 +5,10 @@ VALUES (0x7A062001,  1154, 0xA0620001, 16.92296, 15.67809, 39.44101, -0.06927295
 /* @teleloc 0xA0620001 [16.922960 15.678090 39.441010] -0.069273 0.000000 0.000000 -0.997598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A062001, 0x7A062002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A062001, 0x7A062003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A062001, 0x7A062004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A062001, 0x7A062005, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x7A062001, 0x7A062002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A062001, 0x7A062003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A062001, 0x7A062004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A062001, 0x7A062005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A062002,  1630, 0xA0620001, 16.92296, 15.67809, 39.44101, -0.06927295, 0, 0, -0.9975978,  True, '2019-02-10 00:00:00'); /* Lich Lord */

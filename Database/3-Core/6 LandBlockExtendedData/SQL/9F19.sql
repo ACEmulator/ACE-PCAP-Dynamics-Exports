@@ -5,12 +5,12 @@ VALUES (0x79F19001,  1154, 0x9F190004, 14.78175, 91.11785, 284.994, 0.5866451, 0
 /* @teleloc 0x9F190004 [14.781750 91.117850 284.994000] 0.586645 0.000000 0.000000 -0.809844 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F19001, 0x79F19002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79F19001, 0x79F19003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x79F19001, 0x79F19004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79F19001, 0x79F19005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79F19001, 0x79F19006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79F19001, 0x79F19007, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x79F19001, 0x79F19002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79F19001, 0x79F19003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x79F19001, 0x79F19004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79F19001, 0x79F19005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79F19001, 0x79F19006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79F19001, 0x79F19007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F19002,   201, 0x9F190004, 14.78175, 91.11785, 284.994, 0.5866451, 0, 0, -0.8098441,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -41,8 +41,8 @@ VALUES (0x79F19008,  1542, 0x9F19000F, 40.67746, 156.2115, 289.6824, 0.991671, 0
 /* @teleloc 0x9F19000F [40.677460 156.211500 289.682400] 0.991671 0.000000 0.000000 -0.128797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F19008, 0x79F19009, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x79F19008, 0x79F1900A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79F19008, 0x79F19009, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x79F19008, 0x79F1900A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F19009,  8644, 0x9F19000F, 40.67746, 156.2115, 289.6824, 0.991671, 0, 0, -0.128797,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,21 +5,21 @@ VALUES (0x7124F001,  1154, 0x124F0004, 10.40271, 85.03712, 0.8481422, -0.7480616
 /* @teleloc 0x124F0004 [10.402710 85.037120 0.848142] -0.748062 0.000000 0.000000 -0.663629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7124F001, 0x7124F002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7124F001, 0x7124F003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7124F001, 0x7124F004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7124F001, 0x7124F005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7124F001, 0x7124F006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7124F001, 0x7124F007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7124F001, 0x7124F008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7124F001, 0x7124F009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7124F001, 0x7124F00A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7124F001, 0x7124F00B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7124F001, 0x7124F00C, '2019-02-10 00:00:00') /* Dire Champion Golem */
-     , (0x7124F001, 0x7124F00D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7124F001, 0x7124F00E, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7124F001, 0x7124F00F, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7124F001, 0x7124F010, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x7124F001, 0x7124F002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7124F001, 0x7124F003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7124F001, 0x7124F004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7124F001, 0x7124F005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7124F001, 0x7124F006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7124F001, 0x7124F007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7124F001, 0x7124F008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7124F001, 0x7124F009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7124F001, 0x7124F00A, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7124F001, 0x7124F00B, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7124F001, 0x7124F00C, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */
+     , (0x7124F001, 0x7124F00D, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7124F001, 0x7124F00E, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7124F001, 0x7124F00F, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7124F001, 0x7124F010, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7124F002,  7114, 0x124F0004, 10.40271, 85.03712, 0.8481422, -0.7480616, 0, 0, -0.6636293,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

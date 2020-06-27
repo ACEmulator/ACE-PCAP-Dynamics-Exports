@@ -5,17 +5,17 @@ VALUES (0x79EBB001,  1154, 0x9EBB002D, 125.2295, 113.8205, 37.65881, -0.9460975,
 /* @teleloc 0x9EBB002D [125.229500 113.820500 37.658810] -0.946098 0.000000 0.000000 -0.323882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EBB001, 0x79EBB002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EBB001, 0x79EBB003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EBB001, 0x79EBB004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EBB001, 0x79EBB005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EBB001, 0x79EBB006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EBB001, 0x79EBB007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EBB001, 0x79EBB008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EBB001, 0x79EBB009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79EBB001, 0x79EBB00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EBB001, 0x79EBB00B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79EBB001, 0x79EBB00C, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x79EBB001, 0x79EBB002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EBB001, 0x79EBB003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EBB001, 0x79EBB004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EBB001, 0x79EBB005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EBB001, 0x79EBB006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EBB001, 0x79EBB007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EBB001, 0x79EBB008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EBB001, 0x79EBB009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79EBB001, 0x79EBB00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EBB001, 0x79EBB00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79EBB001, 0x79EBB00C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EBB002, 24959, 0x9EBB002D, 125.2295, 113.8205, 37.65881, -0.9460975, 0, 0, -0.323882,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -66,8 +66,8 @@ VALUES (0x79EBB00D,  1542, 0x9EBB0004, 0.9247713, 82.29144, 46.42803, 0.7071068,
 /* @teleloc 0x9EBB0004 [0.924771 82.291440 46.428030] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EBB00D, 0x79EBB00E, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x79EBB00D, 0x79EBB00F, '2019-02-10 00:00:00') /* Amaranth */;
+VALUES (0x79EBB00D, 0x79EBB00E, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x79EBB00D, 0x79EBB00F, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EBB00E,  5779, 0x9EBB0004, 0.9247713, 82.29144, 46.42803, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

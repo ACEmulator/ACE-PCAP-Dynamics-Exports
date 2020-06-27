@@ -5,21 +5,21 @@ VALUES (0x74AE5001,  1154, 0x4AE50001, 2.747223, 21.31052, 8.253123, -0.5187037,
 /* @teleloc 0x4AE50001 [2.747223 21.310520 8.253123] -0.518704 0.000000 0.000000 -0.854954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE5001, 0x74AE5002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74AE5001, 0x74AE5003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74AE5001, 0x74AE5004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE5001, 0x74AE5005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE5001, 0x74AE5006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74AE5001, 0x74AE5007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74AE5001, 0x74AE5008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE5001, 0x74AE5009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE5001, 0x74AE500A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74AE5001, 0x74AE500B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74AE5001, 0x74AE500C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AE5001, 0x74AE500D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74AE5001, 0x74AE500E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74AE5001, 0x74AE500F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE5001, 0x74AE5010, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74AE5001, 0x74AE5002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74AE5001, 0x74AE5003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x74AE5001, 0x74AE5004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE5001, 0x74AE5005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE5001, 0x74AE5006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74AE5001, 0x74AE5007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74AE5001, 0x74AE5008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE5001, 0x74AE5009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE5001, 0x74AE500A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74AE5001, 0x74AE500B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74AE5001, 0x74AE500C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AE5001, 0x74AE500D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74AE5001, 0x74AE500E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74AE5001, 0x74AE500F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE5001, 0x74AE5010, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE5002,  7340, 0x4AE50001, 2.747223, 21.31052, 8.253123, -0.5187037, 0, 0, -0.8549541,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -86,8 +86,8 @@ VALUES (0x74AE5011,  1542, 0x4AE50013, 49.62026, 62.76913, 6.769239, 1, 0, 0, 0,
 /* @teleloc 0x4AE50013 [49.620260 62.769130 6.769239] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE5011, 0x74AE5012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74AE5011, 0x74AE5013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x74AE5011, 0x74AE5012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74AE5011, 0x74AE5013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE5012,  4179, 0x4AE50013, 49.62026, 62.76913, 6.769239, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

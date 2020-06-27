@@ -5,8 +5,8 @@ VALUES (0x7A879001,  1154, 0xA8790002, 15.3674, 35.91793, 53.94777, 0.8316823, 0
 /* @teleloc 0xA8790002 [15.367400 35.917930 53.947770] 0.831682 0.000000 0.000000 -0.555252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A879001, 0x7A879002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7A879001, 0x7A879003, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7A879001, 0x7A879002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7A879001, 0x7A879003, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A879002, 19439, 0xA8790002, 15.3674, 35.91793, 53.94777, 0.8316823, 0, 0, -0.5552518,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

@@ -5,17 +5,17 @@ VALUES (0x75BBC001,  1154, 0x5BBC0029, 137.4578, 23.93379, 0.006000042, 1, 0, 0,
 /* @teleloc 0x5BBC0029 [137.457800 23.933790 0.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BBC001, 0x75BBC002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75BBC001, 0x75BBC003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75BBC001, 0x75BBC004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75BBC001, 0x75BBC005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75BBC001, 0x75BBC006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75BBC001, 0x75BBC007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75BBC001, 0x75BBC008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75BBC001, 0x75BBC009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75BBC001, 0x75BBC00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75BBC001, 0x75BBC00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75BBC001, 0x75BBC00C, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x75BBC001, 0x75BBC002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75BBC001, 0x75BBC003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75BBC001, 0x75BBC004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75BBC001, 0x75BBC005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75BBC001, 0x75BBC006, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75BBC001, 0x75BBC007, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75BBC001, 0x75BBC008, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75BBC001, 0x75BBC009, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75BBC001, 0x75BBC00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75BBC001, 0x75BBC00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75BBC001, 0x75BBC00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BBC002, 23566, 0x5BBC0029, 137.4578, 23.93379, 0.006000042, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -66,7 +66,7 @@ VALUES (0x75BBC00D,  1542, 0x5BBC0029, 134.9966, 23.17003, -0.002161026, 1, 0, 0
 /* @teleloc 0x5BBC0029 [134.996600 23.170030 -0.002161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BBC00D, 0x75BBC00E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x75BBC00D, 0x75BBC00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BBC00E, 31445, 0x5BBC0029, 134.9966, 23.17003, -0.002161026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

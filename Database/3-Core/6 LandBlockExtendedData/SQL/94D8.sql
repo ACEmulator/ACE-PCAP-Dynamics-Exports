@@ -5,27 +5,27 @@ VALUES (0x794D8001,  1154, 0x94D8003E, 169.0057, 135.3771, 125.284, -0.6203321, 
 /* @teleloc 0x94D8003E [169.005700 135.377100 125.284000] -0.620332 0.000000 0.000000 -0.784339 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D8001, 0x794D8002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x794D8001, 0x794D8003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x794D8001, 0x794D8004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x794D8001, 0x794D8005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x794D8001, 0x794D8006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x794D8001, 0x794D8007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x794D8001, 0x794D8008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D8001, 0x794D8009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794D8001, 0x794D800A, '2019-02-10 00:00:00') /* Frost */
-     , (0x794D8001, 0x794D800B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x794D8001, 0x794D800C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x794D8001, 0x794D800D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x794D8001, 0x794D800E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x794D8001, 0x794D800F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x794D8001, 0x794D8010, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x794D8001, 0x794D8011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x794D8001, 0x794D8012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x794D8001, 0x794D8013, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x794D8001, 0x794D8014, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D8001, 0x794D8015, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D8001, 0x794D8016, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x794D8001, 0x794D8002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x794D8001, 0x794D8003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x794D8001, 0x794D8004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x794D8001, 0x794D8005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x794D8001, 0x794D8006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x794D8001, 0x794D8007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x794D8001, 0x794D8008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D8001, 0x794D8009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794D8001, 0x794D800A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x794D8001, 0x794D800B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x794D8001, 0x794D800C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x794D8001, 0x794D800D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x794D8001, 0x794D800E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x794D8001, 0x794D800F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x794D8001, 0x794D8010, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x794D8001, 0x794D8011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x794D8001, 0x794D8012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x794D8001, 0x794D8013, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x794D8001, 0x794D8014, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D8001, 0x794D8015, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D8001, 0x794D8016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D8002,  7994, 0x94D8003E, 169.0057, 135.3771, 125.284, -0.6203321, 0, 0, -0.7843393,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -116,9 +116,9 @@ VALUES (0x794D8017,  1542, 0x94D8003B, 172.2906, 54.64579, 122.1963, 1, 0, 0, 0,
 /* @teleloc 0x94D8003B [172.290600 54.645790 122.196300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D8017, 0x794D8018, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x794D8017, 0x794D8019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x794D8017, 0x794D801A, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x794D8017, 0x794D8018, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x794D8017, 0x794D8019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x794D8017, 0x794D801A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D8018, 22571, 0x94D8003B, 172.2906, 54.64579, 122.1963, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

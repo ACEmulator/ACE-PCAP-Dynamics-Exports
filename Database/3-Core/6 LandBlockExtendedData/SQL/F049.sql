@@ -5,10 +5,10 @@ VALUES (0x7F049001,  1154, 0xF0490003, 19.005, 53.44286, 29.40553, -0.3191696, 0
 /* @teleloc 0xF0490003 [19.005000 53.442860 29.405530] -0.319170 0.000000 0.000000 -0.947698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F049001, 0x7F049002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F049001, 0x7F049003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F049001, 0x7F049004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7F049001, 0x7F049005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7F049001, 0x7F049002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F049001, 0x7F049003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F049001, 0x7F049004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7F049001, 0x7F049005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F049002,  7128, 0xF0490003, 19.005, 53.44286, 29.40553, -0.3191696, 0, 0, -0.9476976,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -31,7 +31,7 @@ VALUES (0x7F049006,  1542, 0xF0490033, 156.1577, 68.37712, 51.22, 0.7071068, 0, 
 /* @teleloc 0xF0490033 [156.157700 68.377120 51.220000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F049006, 0x7F049007, '2019-02-10 00:00:00') /* Amaranth */;
+VALUES (0x7F049006, 0x7F049007, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F049007,   765, 0xF0490033, 156.1577, 68.37712, 51.22, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Amaranth */

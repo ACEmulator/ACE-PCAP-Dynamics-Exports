@@ -5,15 +5,15 @@ VALUES (0x74AC6001,  1154, 0x4AC60001, 21.5793, 3.931288, 3.685593, 0.9238795, 0
 /* @teleloc 0x4AC60001 [21.579300 3.931288 3.685593] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC6001, 0x74AC6002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC6001, 0x74AC6003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC6001, 0x74AC6004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x74AC6001, 0x74AC6005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC6001, 0x74AC6006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC6001, 0x74AC6007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AC6001, 0x74AC6008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AC6001, 0x74AC6009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AC6001, 0x74AC600A, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x74AC6001, 0x74AC6002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC6001, 0x74AC6003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC6001, 0x74AC6004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x74AC6001, 0x74AC6005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC6001, 0x74AC6006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC6001, 0x74AC6007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AC6001, 0x74AC6008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AC6001, 0x74AC6009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AC6001, 0x74AC600A, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC6002, 10810, 0x4AC60001, 21.5793, 3.931288, 3.685593, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Rampager */

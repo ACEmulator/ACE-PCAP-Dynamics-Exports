@@ -5,12 +5,12 @@ VALUES (0x79DA5001,  1154, 0x9DA5002A, 123.2387, 33.58651, 52.94333, -0.9777499,
 /* @teleloc 0x9DA5002A [123.238700 33.586510 52.943330] -0.977750 0.000000 0.000000 -0.209774 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DA5001, 0x79DA5002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79DA5001, 0x79DA5003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79DA5001, 0x79DA5004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79DA5001, 0x79DA5005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79DA5001, 0x79DA5006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79DA5001, 0x79DA5007, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x79DA5001, 0x79DA5002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79DA5001, 0x79DA5003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79DA5001, 0x79DA5004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79DA5001, 0x79DA5005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79DA5001, 0x79DA5006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79DA5001, 0x79DA5007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DA5002,   235, 0x9DA5002A, 123.2387, 33.58651, 52.94333, -0.9777499, 0, 0, -0.2097741,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -41,7 +41,7 @@ VALUES (0x79DA5008,  1542, 0x9DA50022, 102.1165, 47.88443, 52.00963, 0.9990482, 
 /* @teleloc 0x9DA50022 [102.116500 47.884430 52.009630] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DA5008, 0x79DA5009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79DA5008, 0x79DA5009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DA5009,  4179, 0x9DA50022, 102.1165, 47.88443, 52.00963, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

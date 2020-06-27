@@ -5,14 +5,14 @@ VALUES (0x7273B001,  1154, 0x273B0002, 4.055988, 42.78912, -0.09500003, 0.614506
 /* @teleloc 0x273B0002 [4.055988 42.789120 -0.095000] 0.614507 0.000000 0.000000 -0.788912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7273B001, 0x7273B002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7273B001, 0x7273B003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7273B001, 0x7273B004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7273B001, 0x7273B005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7273B001, 0x7273B006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7273B001, 0x7273B007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7273B001, 0x7273B008, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7273B001, 0x7273B009, '2019-02-10 00:00:00') /* Paroxysm Shadow */;
+VALUES (0x7273B001, 0x7273B002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7273B001, 0x7273B003, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7273B001, 0x7273B004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7273B001, 0x7273B005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7273B001, 0x7273B006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7273B001, 0x7273B007, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7273B001, 0x7273B008, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x7273B001, 0x7273B009, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7273B002, 36845, 0x273B0002, 4.055988, 42.78912, -0.09500003, 0.6145067, 0, 0, -0.7889116,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

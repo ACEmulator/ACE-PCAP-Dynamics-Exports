@@ -5,9 +5,9 @@ VALUES (0x740B0001,  1154, 0x40B00023, 119.0877, 53.1252, 42.56665, 0.5803793, 0
 /* @teleloc 0x40B00023 [119.087700 53.125200 42.566650] 0.580379 0.000000 0.000000 -0.814346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B0001, 0x740B0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x740B0001, 0x740B0003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x740B0001, 0x740B0004, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x740B0001, 0x740B0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x740B0001, 0x740B0003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x740B0001, 0x740B0004, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B0002, 28551, 0x40B00023, 119.0877, 53.1252, 42.56665, 0.5803793, 0, 0, -0.8143463,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

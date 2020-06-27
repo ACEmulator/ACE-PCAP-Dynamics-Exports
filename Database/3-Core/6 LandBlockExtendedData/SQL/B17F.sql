@@ -5,18 +5,18 @@ VALUES (0x7B17F001,  1154, 0xB17F0032, 155.8044, 37.33982, 50.006, 0.5765405, 0,
 /* @teleloc 0xB17F0032 [155.804400 37.339820 50.006000] 0.576541 0.000000 0.000000 -0.817069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B17F001, 0x7B17F002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B17F001, 0x7B17F003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B17F001, 0x7B17F004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B17F001, 0x7B17F005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B17F001, 0x7B17F006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B17F001, 0x7B17F007, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B17F001, 0x7B17F008, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B17F001, 0x7B17F009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B17F001, 0x7B17F00A, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B17F001, 0x7B17F00B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B17F001, 0x7B17F00C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B17F001, 0x7B17F00D, '2019-02-10 00:00:00') /* Battered Doll */;
+VALUES (0x7B17F001, 0x7B17F002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B17F001, 0x7B17F003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B17F001, 0x7B17F004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B17F001, 0x7B17F005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7B17F001, 0x7B17F006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B17F001, 0x7B17F007, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B17F001, 0x7B17F008, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B17F001, 0x7B17F009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B17F001, 0x7B17F00A, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B17F001, 0x7B17F00B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B17F001, 0x7B17F00C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B17F001, 0x7B17F00D, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B17F002,   226, 0xB17F0032, 155.8044, 37.33982, 50.006, 0.5765405, 0, 0, -0.8170686,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -71,8 +71,8 @@ VALUES (0x7B17F00E,  1542, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0,
 /* @teleloc 0xB17F0037 [158.966700 148.146300 31.306790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B17F00E, 0x7B17F00F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7B17F00E, 0x7B17F010, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7B17F00E, 0x7B17F00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7B17F00E, 0x7B17F010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B17F00F, 31443, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

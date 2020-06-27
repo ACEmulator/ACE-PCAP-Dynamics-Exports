@@ -5,12 +5,12 @@ VALUES (0x72152001,  1154, 0x21520001, 23.66774, 13.79664, 25.4851, 0.7071068, 0
 /* @teleloc 0x21520001 [23.667740 13.796640 25.485100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72152001, 0x72152002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72152001, 0x72152003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72152001, 0x72152004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72152001, 0x72152005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72152001, 0x72152006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72152001, 0x72152007, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x72152001, 0x72152002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72152001, 0x72152003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72152001, 0x72152004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72152001, 0x72152005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72152001, 0x72152006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72152001, 0x72152007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72152002, 24319, 0x21520001, 23.66774, 13.79664, 25.4851, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -41,8 +41,8 @@ VALUES (0x72152008,  1542, 0x2152000C, 35.05298, 86.54487, 24.34506, -0.283814, 
 /* @teleloc 0x2152000C [35.052980 86.544870 24.345060] -0.283814 0.000000 0.000000 -0.958879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72152008, 0x72152009, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x72152008, 0x7215200A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x72152008, 0x72152009, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x72152008, 0x7215200A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72152009,  9288, 0x2152000C, 35.05298, 86.54487, 24.34506, -0.283814, 0, 0, -0.9588794,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

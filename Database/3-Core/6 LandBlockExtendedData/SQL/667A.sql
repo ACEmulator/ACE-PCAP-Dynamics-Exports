@@ -13,43 +13,43 @@ VALUES (0x7667A02B,  1154, 0x667A0220, 70.0706, -186.489, 0, 0.994717, 0, 0, 0.1
 /* @teleloc 0x667A0220 [70.070600 -186.489000 0.000000] 0.994717 0.000000 0.000000 0.102659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7667A02B, 0x7667A02C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A02D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A02E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A02F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A030, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A031, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A032, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A033, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A034, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A035, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A036, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A037, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A038, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A039, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A03F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A040, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A041, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A042, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A043, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A044, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A045, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A046, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A047, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A048, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A049, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A04F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7667A02B, 0x7667A050, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7667A02B, 0x7667A02C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A02D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A02E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A02F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A030, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A031, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A032, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A033, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A034, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A035, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A036, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A037, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A038, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A039, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A03F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A040, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A041, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A042, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A043, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A044, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A045, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A046, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A047, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A048, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A049, '2019-02-10 00:00:00') /* Olthoi Mutilator (27571) */
+     , (0x7667A02B, 0x7667A04A, '2019-02-10 00:00:00') /* Olthoi Mutilator (27571) */
+     , (0x7667A02B, 0x7667A04B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A04C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A04D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A04E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A04F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7667A02B, 0x7667A050, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7667A02C, 23481, 0x667A0220, 70.0706, -186.489, 0, 0.994717, 0, 0, 0.102659,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

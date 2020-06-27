@@ -5,18 +5,18 @@ VALUES (0x724BE001,  1154, 0x24BE0014, 49.86836, 81.4958, 189.5286, 1, 0, 0, 0, 
 /* @teleloc 0x24BE0014 [49.868360 81.495800 189.528600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BE001, 0x724BE002, '2019-02-10 00:00:00') /* Synnast */
-     , (0x724BE001, 0x724BE003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x724BE001, 0x724BE004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x724BE001, 0x724BE005, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x724BE001, 0x724BE006, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x724BE001, 0x724BE007, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x724BE001, 0x724BE008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BE001, 0x724BE009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BE001, 0x724BE00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BE001, 0x724BE00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BE001, 0x724BE00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BE001, 0x724BE00D, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x724BE001, 0x724BE002, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x724BE001, 0x724BE003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x724BE001, 0x724BE004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x724BE001, 0x724BE005, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x724BE001, 0x724BE006, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x724BE001, 0x724BE007, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x724BE001, 0x724BE008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BE001, 0x724BE009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BE001, 0x724BE00A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x724BE001, 0x724BE00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x724BE001, 0x724BE00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x724BE001, 0x724BE00D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BE002,  7094, 0x24BE0014, 49.86836, 81.4958, 189.5286, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
@@ -71,10 +71,10 @@ VALUES (0x724BE00E,  1542, 0x24BE0014, 58.86207, 82.27455, 190.8422, 1, 0, 0, 0,
 /* @teleloc 0x24BE0014 [58.862070 82.274550 190.842200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BE00E, 0x724BE00F, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x724BE00E, 0x724BE010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x724BE00E, 0x724BE011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x724BE00E, 0x724BE012, '2019-02-10 00:00:00') /* Tiny Hive Portal */;
+VALUES (0x724BE00E, 0x724BE00F, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x724BE00E, 0x724BE010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x724BE00E, 0x724BE011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x724BE00E, 0x724BE012, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BE00F, 11219, 0x24BE0014, 58.86207, 82.27455, 190.8422, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tiny Hive Portal */

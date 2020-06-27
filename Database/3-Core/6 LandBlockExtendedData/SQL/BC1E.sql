@@ -5,24 +5,24 @@ VALUES (0x7BC1E001,  1154, 0xBC1E0022, 106.3458, 31.20676, 148.01, -0.9995595, 0
 /* @teleloc 0xBC1E0022 [106.345800 31.206760 148.010000] -0.999560 0.000000 0.000000 -0.029680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1E001, 0x7BC1E002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BC1E001, 0x7BC1E003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BC1E001, 0x7BC1E004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC1E001, 0x7BC1E005, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BC1E001, 0x7BC1E006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BC1E001, 0x7BC1E007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1E001, 0x7BC1E008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1E001, 0x7BC1E009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1E001, 0x7BC1E00A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC1E001, 0x7BC1E00B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BC1E001, 0x7BC1E00C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1E001, 0x7BC1E00D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC1E001, 0x7BC1E00E, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC1E001, 0x7BC1E00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BC1E001, 0x7BC1E010, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BC1E001, 0x7BC1E011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BC1E001, 0x7BC1E012, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BC1E001, 0x7BC1E013, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BC1E001, 0x7BC1E002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BC1E001, 0x7BC1E003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BC1E001, 0x7BC1E004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC1E001, 0x7BC1E005, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BC1E001, 0x7BC1E006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BC1E001, 0x7BC1E007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1E001, 0x7BC1E008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1E001, 0x7BC1E009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1E001, 0x7BC1E00A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC1E001, 0x7BC1E00B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BC1E001, 0x7BC1E00C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1E001, 0x7BC1E00D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC1E001, 0x7BC1E00E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC1E001, 0x7BC1E00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BC1E001, 0x7BC1E010, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BC1E001, 0x7BC1E011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BC1E001, 0x7BC1E012, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BC1E001, 0x7BC1E013, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1E002,  8139, 0xBC1E0022, 106.3458, 31.20676, 148.01, -0.9995595, 0, 0, -0.0296801,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -101,7 +101,7 @@ VALUES (0x7BC1E014,  1542, 0xBC1E0009, 42.72104, 0.2172241, 108.271, -0.8845387,
 /* @teleloc 0xBC1E0009 [42.721040 0.217224 108.271000] -0.884539 0.000000 0.000000 -0.466467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1E014, 0x7BC1E015, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BC1E014, 0x7BC1E015, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1E015, 42528, 0xBC1E0009, 42.72104, 0.2172241, 108.271, -0.8845387, 0, 0, -0.4664668,  True, '2019-02-10 00:00:00'); /* Rock */

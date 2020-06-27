@@ -5,13 +5,13 @@ VALUES (0x7A6D3001,  1154, 0xA6D30024, 108.8011, 92.02238, 281.2751, 0.0937455, 
 /* @teleloc 0xA6D30024 [108.801100 92.022380 281.275100] 0.093746 0.000000 0.000000 -0.995596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6D3001, 0x7A6D3002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A6D3001, 0x7A6D3003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A6D3001, 0x7A6D3004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A6D3001, 0x7A6D3005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A6D3001, 0x7A6D3006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A6D3001, 0x7A6D3007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A6D3001, 0x7A6D3008, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x7A6D3001, 0x7A6D3002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A6D3001, 0x7A6D3003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A6D3001, 0x7A6D3004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A6D3001, 0x7A6D3005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A6D3001, 0x7A6D3006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A6D3001, 0x7A6D3007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A6D3001, 0x7A6D3008, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6D3002,  7088, 0xA6D30024, 108.8011, 92.02238, 281.2751, 0.0937455, 0, 0, -0.9955962,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

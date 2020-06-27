@@ -5,18 +5,18 @@ VALUES (0x7BBBE001,  1154, 0xBBBE0039, 189.3086, 13.58597, 360.541, -0.8131714, 
 /* @teleloc 0xBBBE0039 [189.308600 13.585970 360.541000] -0.813171 0.000000 0.000000 -0.582024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBBE001, 0x7BBBE002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BBBE001, 0x7BBBE003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BBBE001, 0x7BBBE004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BBBE001, 0x7BBBE005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BBBE001, 0x7BBBE006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BBBE001, 0x7BBBE007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BBBE001, 0x7BBBE008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BBBE001, 0x7BBBE009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BBBE001, 0x7BBBE00A, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7BBBE001, 0x7BBBE00B, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7BBBE001, 0x7BBBE00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7BBBE001, 0x7BBBE00D, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7BBBE001, 0x7BBBE002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BBBE001, 0x7BBBE003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BBBE001, 0x7BBBE004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BBBE001, 0x7BBBE005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BBBE001, 0x7BBBE006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BBBE001, 0x7BBBE007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BBBE001, 0x7BBBE008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BBBE001, 0x7BBBE009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BBBE001, 0x7BBBE00A, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7BBBE001, 0x7BBBE00B, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7BBBE001, 0x7BBBE00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7BBBE001, 0x7BBBE00D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBBE002,  7345, 0xBBBE0039, 189.3086, 13.58597, 360.541, -0.8131714, 0, 0, -0.5820242,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -71,9 +71,9 @@ VALUES (0x7BBBE00E,  1542, 0xBBBE001E, 92.71644, 132.8401, 177.8664, 1, 0, 0, 0,
 /* @teleloc 0xBBBE001E [92.716440 132.840100 177.866400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBBE00E, 0x7BBBE00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BBBE00E, 0x7BBBE010, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BBBE00E, 0x7BBBE011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BBBE00E, 0x7BBBE00F, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7BBBE00E, 0x7BBBE010, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BBBE00E, 0x7BBBE011, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBBE00F, 22576, 0xBBBE001E, 92.71644, 132.8401, 177.8664, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

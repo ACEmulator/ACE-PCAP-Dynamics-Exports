@@ -5,26 +5,26 @@ VALUES (0x71FB4001,  1154, 0x1FB40027, 99.34014, 144.7706, 90.0065, 1, 0, 0, 0, 
 /* @teleloc 0x1FB40027 [99.340140 144.770600 90.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB4001, 0x71FB4002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71FB4001, 0x71FB4003, '2019-02-10 00:00:00') /* Static */
-     , (0x71FB4001, 0x71FB4004, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB4005, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB4006, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB4007, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB4001, 0x71FB4008, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71FB4001, 0x71FB4009, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB4001, 0x71FB400A, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB4001, 0x71FB400B, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB400C, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71FB4001, 0x71FB400D, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB400E, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FB4001, 0x71FB400F, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FB4001, 0x71FB4010, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FB4001, 0x71FB4011, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB4001, 0x71FB4012, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FB4001, 0x71FB4013, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FB4001, 0x71FB4014, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71FB4001, 0x71FB4015, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x71FB4001, 0x71FB4002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71FB4001, 0x71FB4003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x71FB4001, 0x71FB4004, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB4005, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB4006, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB4007, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB4001, 0x71FB4008, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71FB4001, 0x71FB4009, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB4001, 0x71FB400A, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB4001, 0x71FB400B, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB400C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71FB4001, 0x71FB400D, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB400E, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FB4001, 0x71FB400F, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FB4001, 0x71FB4010, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FB4001, 0x71FB4011, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB4001, 0x71FB4012, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FB4001, 0x71FB4013, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FB4001, 0x71FB4014, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71FB4001, 0x71FB4015, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB4002, 21170, 0x1FB40027, 99.34014, 144.7706, 90.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Voltarc */

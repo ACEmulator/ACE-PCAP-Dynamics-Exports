@@ -5,11 +5,11 @@ VALUES (0x7DA44001,  1154, 0xDA44001E, 95.58455, 124.4129, 54.59828, -0.1878466,
 /* @teleloc 0xDA44001E [95.584550 124.412900 54.598280] -0.187847 0.000000 0.000000 -0.982198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA44001, 0x7DA44002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7DA44001, 0x7DA44003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7DA44001, 0x7DA44004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7DA44001, 0x7DA44005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7DA44001, 0x7DA44006, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7DA44001, 0x7DA44002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7DA44001, 0x7DA44003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7DA44001, 0x7DA44004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7DA44001, 0x7DA44005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7DA44001, 0x7DA44006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA44002, 22010, 0xDA44001E, 95.58455, 124.4129, 54.59828, -0.1878466, 0, 0, -0.9821984,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

@@ -5,17 +5,17 @@ VALUES (0x734EE001,  1154, 0x34EE0034, 155.974, 80.82716, 10.0066, -0.8508624, 0
 /* @teleloc 0x34EE0034 [155.974000 80.827160 10.006600] -0.850862 0.000000 0.000000 -0.525389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x734EE001, 0x734EE002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x734EE001, 0x734EE003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x734EE001, 0x734EE004, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x734EE001, 0x734EE005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x734EE001, 0x734EE006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x734EE001, 0x734EE007, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x734EE001, 0x734EE008, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x734EE001, 0x734EE009, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x734EE001, 0x734EE00A, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x734EE001, 0x734EE00B, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x734EE001, 0x734EE00C, '2019-02-10 00:00:00') /* Polar Ursuin */;
+VALUES (0x734EE001, 0x734EE002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x734EE001, 0x734EE003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x734EE001, 0x734EE004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x734EE001, 0x734EE005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x734EE001, 0x734EE006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x734EE001, 0x734EE007, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x734EE001, 0x734EE008, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x734EE001, 0x734EE009, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x734EE001, 0x734EE00A, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x734EE001, 0x734EE00B, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x734EE001, 0x734EE00C, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x734EE002, 28668, 0x34EE0034, 155.974, 80.82716, 10.0066, -0.8508624, 0, 0, -0.5253886,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

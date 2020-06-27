@@ -5,9 +5,9 @@ VALUES (0x74493001,  1154, 0x4493003A, 171.5132, 25.21767, 9.29168, 0.9238795, 0
 /* @teleloc 0x4493003A [171.513200 25.217670 9.291680] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74493001, 0x74493002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74493001, 0x74493003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74493001, 0x74493004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x74493001, 0x74493002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74493001, 0x74493003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74493001, 0x74493004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74493002,  7123, 0x4493003A, 171.5132, 25.21767, 9.29168, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */

@@ -5,19 +5,19 @@ VALUES (0x76EEF001,  1154, 0x6EEF0035, 153.5257, 101.8785, 4.892901, -0.5582372,
 /* @teleloc 0x6EEF0035 [153.525700 101.878500 4.892901] -0.558237 0.000000 0.000000 -0.829681 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EEF001, 0x76EEF002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x76EEF001, 0x76EEF003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x76EEF001, 0x76EEF004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76EEF001, 0x76EEF005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76EEF001, 0x76EEF006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76EEF001, 0x76EEF007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76EEF001, 0x76EEF008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x76EEF001, 0x76EEF009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76EEF001, 0x76EEF00A, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x76EEF001, 0x76EEF00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x76EEF001, 0x76EEF00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x76EEF001, 0x76EEF00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x76EEF001, 0x76EEF00E, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x76EEF001, 0x76EEF002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x76EEF001, 0x76EEF003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x76EEF001, 0x76EEF004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76EEF001, 0x76EEF005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76EEF001, 0x76EEF006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x76EEF001, 0x76EEF007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x76EEF001, 0x76EEF008, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x76EEF001, 0x76EEF009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76EEF001, 0x76EEF00A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x76EEF001, 0x76EEF00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x76EEF001, 0x76EEF00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x76EEF001, 0x76EEF00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x76EEF001, 0x76EEF00E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EEF002,  7126, 0x6EEF0035, 153.5257, 101.8785, 4.892901, -0.5582372, 0, 0, -0.8296814,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

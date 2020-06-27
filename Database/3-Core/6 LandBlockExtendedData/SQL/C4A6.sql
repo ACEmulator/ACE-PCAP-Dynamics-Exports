@@ -5,12 +5,12 @@ VALUES (0x7C4A6001,  1154, 0xC4A60020, 80.77345, 175.2423, 65.54675, -0.929419, 
 /* @teleloc 0xC4A60020 [80.773450 175.242300 65.546750] -0.929419 0.000000 0.000000 -0.369026 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4A6001, 0x7C4A6002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C4A6001, 0x7C4A6003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C4A6001, 0x7C4A6004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C4A6001, 0x7C4A6005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C4A6001, 0x7C4A6006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C4A6001, 0x7C4A6007, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C4A6001, 0x7C4A6002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C4A6001, 0x7C4A6003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C4A6001, 0x7C4A6004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C4A6001, 0x7C4A6005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C4A6001, 0x7C4A6006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C4A6001, 0x7C4A6007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4A6002,  7345, 0xC4A60020, 80.77345, 175.2423, 65.54675, -0.929419, 0, 0, -0.3690262,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -41,7 +41,7 @@ VALUES (0x7C4A6008,  1542, 0xC4A6001D, 73.45766, 119.9749, 70.66559, 1, 0, 0, 0,
 /* @teleloc 0xC4A6001D [73.457660 119.974900 70.665590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4A6008, 0x7C4A6009, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7C4A6008, 0x7C4A6009, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4A6009,  8232, 0xC4A6001D, 73.45766, 119.9749, 70.66559, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

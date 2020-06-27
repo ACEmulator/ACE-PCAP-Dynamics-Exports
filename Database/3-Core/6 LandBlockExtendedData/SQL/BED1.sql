@@ -5,18 +5,18 @@ VALUES (0x7BED1001,  1154, 0xBED10011, 51.47451, 12.24285, 145.7619, -4.371139E-
 /* @teleloc 0xBED10011 [51.474510 12.242850 145.761900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED1001, 0x7BED1002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BED1001, 0x7BED1003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BED1001, 0x7BED1004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BED1001, 0x7BED1005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED1001, 0x7BED1006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED1001, 0x7BED1007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7BED1001, 0x7BED1008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BED1001, 0x7BED1009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BED1001, 0x7BED100A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BED1001, 0x7BED100B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7BED1001, 0x7BED100C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BED1001, 0x7BED100D, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x7BED1001, 0x7BED1002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BED1001, 0x7BED1003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BED1001, 0x7BED1004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BED1001, 0x7BED1005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED1001, 0x7BED1006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED1001, 0x7BED1007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7BED1001, 0x7BED1008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BED1001, 0x7BED1009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BED1001, 0x7BED100A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BED1001, 0x7BED100B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7BED1001, 0x7BED100C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BED1001, 0x7BED100D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED1002,  1628, 0xBED10011, 51.47451, 12.24285, 145.7619, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -71,7 +71,7 @@ VALUES (0x7BED100E,  1542, 0xBED1000A, 46.44114, 24.79498, 148.0662, -0.1724291,
 /* @teleloc 0xBED1000A [46.441140 24.794980 148.066200] -0.172429 0.000000 0.000000 -0.985022 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED100E, 0x7BED100F, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BED100E, 0x7BED100F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED100F,  8646, 0xBED1000A, 46.44114, 24.79498, 148.0662, -0.1724291, 0, 0, -0.9850219,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

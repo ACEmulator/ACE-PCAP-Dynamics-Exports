@@ -5,28 +5,28 @@ VALUES (0x754BD001,  1154, 0x54BD000C, 41.21901, 75.66428, 17.13617, -0.9973555,
 /* @teleloc 0x54BD000C [41.219010 75.664280 17.136170] -0.997356 0.000000 0.000000 -0.072677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754BD001, 0x754BD002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x754BD001, 0x754BD003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x754BD001, 0x754BD004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x754BD001, 0x754BD005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x754BD001, 0x754BD006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x754BD001, 0x754BD007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x754BD001, 0x754BD008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x754BD001, 0x754BD009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x754BD001, 0x754BD00A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x754BD001, 0x754BD00B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x754BD001, 0x754BD00C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x754BD001, 0x754BD00D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x754BD001, 0x754BD00E, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x754BD001, 0x754BD00F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x754BD001, 0x754BD010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x754BD001, 0x754BD011, '2019-02-10 00:00:00') /* Revenant */
-     , (0x754BD001, 0x754BD012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x754BD001, 0x754BD013, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x754BD001, 0x754BD014, '2019-02-10 00:00:00') /* Revenant */
-     , (0x754BD001, 0x754BD015, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x754BD001, 0x754BD016, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x754BD001, 0x754BD017, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x754BD001, 0x754BD002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x754BD001, 0x754BD003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x754BD001, 0x754BD004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x754BD001, 0x754BD005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x754BD001, 0x754BD006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x754BD001, 0x754BD007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x754BD001, 0x754BD008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x754BD001, 0x754BD009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x754BD001, 0x754BD00A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x754BD001, 0x754BD00B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x754BD001, 0x754BD00C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x754BD001, 0x754BD00D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x754BD001, 0x754BD00E, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x754BD001, 0x754BD00F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x754BD001, 0x754BD010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x754BD001, 0x754BD011, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x754BD001, 0x754BD012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x754BD001, 0x754BD013, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x754BD001, 0x754BD014, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x754BD001, 0x754BD015, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x754BD001, 0x754BD016, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x754BD001, 0x754BD017, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754BD002,   228, 0x54BD000C, 41.21901, 75.66428, 17.13617, -0.9973555, 0, 0, -0.07267682,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -121,8 +121,8 @@ VALUES (0x754BD018,  1542, 0x54BD0003, 20.26413, 60.69129, 21.11156, -0.8670136,
 /* @teleloc 0x54BD0003 [20.264130 60.691290 21.111560] -0.867014 0.000000 0.000000 -0.498285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754BD018, 0x754BD019, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x754BD018, 0x754BD01A, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x754BD018, 0x754BD019, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x754BD018, 0x754BD01A, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754BD019,  8041, 0x54BD0003, 20.26413, 60.69129, 21.11156, -0.8670136, 0, 0, -0.4982845,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

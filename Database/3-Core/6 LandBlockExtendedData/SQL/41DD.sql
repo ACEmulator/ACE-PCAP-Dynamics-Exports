@@ -13,28 +13,28 @@ VALUES (0x741DD003,  1154, 0x41DD0101, 35, 64, 12.6066, 0.7071068, 0, 0, -0.7071
 /* @teleloc 0x41DD0101 [35.000000 64.000000 12.606600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DD003, 0x741DD004, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD005, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD006, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD007, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD008, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD009, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD00A, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD00B, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD00C, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DD003, 0x741DD00E, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD00F, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD010, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD011, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD012, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD013, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD014, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DD003, 0x741DD015, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DD003, 0x741DD016, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman */
-     , (0x741DD003, 0x741DD017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741DD003, 0x741DD018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741DD003, 0x741DD019, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x741DD003, 0x741DD004, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD005, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD006, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD007, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD008, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (39015) */
+     , (0x741DD003, 0x741DD009, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD00A, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD00B, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD00C, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DD003, 0x741DD00E, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD00F, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD010, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD011, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD012, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD013, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD014, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DD003, 0x741DD015, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DD003, 0x741DD016, '2019-02-10 00:00:00') /* Blighted Putrid Moarsman (37420) */
+     , (0x741DD003, 0x741DD017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741DD003, 0x741DD018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741DD003, 0x741DD019, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DD004, 37420, 0x41DD0101, 35, 64, 12.6066, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blighted Putrid Moarsman */
@@ -129,7 +129,7 @@ VALUES (0x741DD01A,  1542, 0x41DD003A, 170.8242, 33.49038, 40.73001, -4.371139E-
 /* @teleloc 0x41DD003A [170.824200 33.490380 40.730010] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DD01A, 0x741DD01B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x741DD01A, 0x741DD01B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DD01B,  4380, 0x41DD003A, 170.8242, 33.49038, 40.73001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

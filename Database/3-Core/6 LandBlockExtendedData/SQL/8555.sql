@@ -5,10 +5,10 @@ VALUES (0x78555001,  1154, 0x85550024, 110.9055, 76.66505, 9.166451, 0.8865248, 
 /* @teleloc 0x85550024 [110.905500 76.665050 9.166451] 0.886525 0.000000 0.000000 -0.462681 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78555001, 0x78555002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x78555001, 0x78555003, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x78555001, 0x78555004, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x78555001, 0x78555005, '2019-02-10 00:00:00') /* Glissnal Niffis */;
+VALUES (0x78555001, 0x78555002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x78555001, 0x78555003, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x78555001, 0x78555004, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x78555001, 0x78555005, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78555002,  7986, 0x85550024, 110.9055, 76.66505, 9.166451, 0.8865248, 0, 0, -0.4626811,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */

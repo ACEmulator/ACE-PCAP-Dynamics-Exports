@@ -5,30 +5,30 @@ VALUES (0x70D63001,  1154, 0x0D630002, 16.46379, 47.69569, 40.62592, 0.8660254, 
 /* @teleloc 0x0D630002 [16.463790 47.695690 40.625920] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D63001, 0x70D63002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70D63001, 0x70D63003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70D63001, 0x70D63004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70D63001, 0x70D63005, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D63001, 0x70D63006, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D63001, 0x70D63007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D63001, 0x70D63008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D63001, 0x70D63009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70D63001, 0x70D6300A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70D63001, 0x70D6300B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70D63001, 0x70D6300C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D63001, 0x70D6300D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70D63001, 0x70D6300E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70D63001, 0x70D6300F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70D63001, 0x70D63010, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70D63001, 0x70D63011, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70D63001, 0x70D63012, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70D63001, 0x70D63013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D63001, 0x70D63014, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70D63001, 0x70D63015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D63001, 0x70D63016, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70D63001, 0x70D63017, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D63001, 0x70D63018, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D63001, 0x70D63019, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70D63001, 0x70D63002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70D63001, 0x70D63003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70D63001, 0x70D63004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70D63001, 0x70D63005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D63001, 0x70D63006, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D63001, 0x70D63007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D63001, 0x70D63008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D63001, 0x70D63009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70D63001, 0x70D6300A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70D63001, 0x70D6300B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70D63001, 0x70D6300C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D63001, 0x70D6300D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70D63001, 0x70D6300E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70D63001, 0x70D6300F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70D63001, 0x70D63010, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70D63001, 0x70D63011, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70D63001, 0x70D63012, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70D63001, 0x70D63013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D63001, 0x70D63014, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70D63001, 0x70D63015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D63001, 0x70D63016, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70D63001, 0x70D63017, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D63001, 0x70D63018, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D63001, 0x70D63019, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D63002,  7982, 0x0D630002, 16.46379, 47.69569, 40.62592, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -131,8 +131,8 @@ VALUES (0x70D6301A,  1542, 0x0D630017, 69.83556, 155.1361, 19.25236, 0.9990482, 
 /* @teleloc 0x0D630017 [69.835560 155.136100 19.252360] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D6301A, 0x70D6301B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x70D6301A, 0x70D6301C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70D6301A, 0x70D6301B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x70D6301A, 0x70D6301C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D6301B,  4179, 0x0D630017, 69.83556, 155.1361, 19.25236, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

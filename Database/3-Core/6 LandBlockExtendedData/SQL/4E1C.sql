@@ -9,19 +9,19 @@ VALUES (0x74E1C001,  1154, 0x4E1C002F, 137.0931, 165.5748, 68, -0.6010116, 0, 0,
 /* @teleloc 0x4E1C002F [137.093100 165.574800 68.000000] -0.601012 0.000000 0.000000 -0.799240 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E1C001, 0x74E1C002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74E1C001, 0x74E1C003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74E1C001, 0x74E1C004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74E1C001, 0x74E1C005, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74E1C001, 0x74E1C006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74E1C001, 0x74E1C007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74E1C001, 0x74E1C008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74E1C001, 0x74E1C009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74E1C001, 0x74E1C00A, '2019-02-10 00:00:00') /* Flare */
-     , (0x74E1C001, 0x74E1C00B, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74E1C001, 0x74E1C00C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74E1C001, 0x74E1C00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74E1C001, 0x74E1C00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x74E1C001, 0x74E1C002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74E1C001, 0x74E1C003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74E1C001, 0x74E1C004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74E1C001, 0x74E1C005, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74E1C001, 0x74E1C006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74E1C001, 0x74E1C007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74E1C001, 0x74E1C008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74E1C001, 0x74E1C009, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74E1C001, 0x74E1C00A, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x74E1C001, 0x74E1C00B, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74E1C001, 0x74E1C00C, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74E1C001, 0x74E1C00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74E1C001, 0x74E1C00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E1C002, 33309, 0x4E1C002F, 137.0931, 165.5748, 68, -0.6010116, 0, 0, -0.7992403,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

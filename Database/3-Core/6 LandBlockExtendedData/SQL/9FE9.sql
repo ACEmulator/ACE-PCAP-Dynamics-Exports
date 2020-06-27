@@ -5,11 +5,11 @@ VALUES (0x79FE9001,  1154, 0x9FE9003D, 173.1311, 118.2767, 137.2283, 1, 0, 0, 0,
 /* @teleloc 0x9FE9003D [173.131100 118.276700 137.228300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE9001, 0x79FE9002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79FE9001, 0x79FE9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79FE9001, 0x79FE9004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79FE9001, 0x79FE9005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79FE9001, 0x79FE9006, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x79FE9001, 0x79FE9002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79FE9001, 0x79FE9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79FE9001, 0x79FE9004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79FE9001, 0x79FE9005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79FE9001, 0x79FE9006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE9002,  7994, 0x9FE9003D, 173.1311, 118.2767, 137.2283, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -36,7 +36,7 @@ VALUES (0x79FE9007,  1542, 0x9FE90035, 152.2633, 110.6881, 127.783, 1, 0, 0, 0, 
 /* @teleloc 0x9FE90035 [152.263300 110.688100 127.783000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE9007, 0x79FE9008, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x79FE9007, 0x79FE9008, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE9008, 22837, 0x9FE90035, 152.2633, 110.6881, 127.783, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Snowflower */

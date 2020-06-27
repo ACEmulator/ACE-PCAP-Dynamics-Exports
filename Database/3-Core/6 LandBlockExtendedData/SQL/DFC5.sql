@@ -5,11 +5,11 @@ VALUES (0x7DFC5001,  1154, 0xDFC50016, 63.19507, 131.2788, -0.01760006, 0.732519
 /* @teleloc 0xDFC50016 [63.195070 131.278800 -0.017600] 0.732520 0.000000 0.000000 -0.680746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DFC5001, 0x7DFC5002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DFC5001, 0x7DFC5003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DFC5001, 0x7DFC5004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DFC5001, 0x7DFC5005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DFC5001, 0x7DFC5006, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7DFC5001, 0x7DFC5002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DFC5001, 0x7DFC5003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DFC5001, 0x7DFC5004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DFC5001, 0x7DFC5005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DFC5001, 0x7DFC5006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DFC5002, 11478, 0xDFC50016, 63.19507, 131.2788, -0.01760006, 0.7325197, 0, 0, -0.6807458,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

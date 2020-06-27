@@ -5,15 +5,15 @@ VALUES (0x72D76001,  1154, 0x2D76001F, 90.22115, 166.7519, 178, 0.3885767, 0, 0,
 /* @teleloc 0x2D76001F [90.221150 166.751900 178.000000] 0.388577 0.000000 0.000000 -0.921416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D76001, 0x72D76002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72D76001, 0x72D76003, '2019-02-10 00:00:00') /* Frost */
-     , (0x72D76001, 0x72D76004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72D76001, 0x72D76005, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72D76001, 0x72D76006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72D76001, 0x72D76007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72D76001, 0x72D76008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72D76001, 0x72D76009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D76001, 0x72D7600A, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72D76001, 0x72D76002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D76001, 0x72D76003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72D76001, 0x72D76004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72D76001, 0x72D76005, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72D76001, 0x72D76006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72D76001, 0x72D76007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D76001, 0x72D76008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72D76001, 0x72D76009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D76001, 0x72D7600A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D76002, 23616, 0x2D76001F, 90.22115, 166.7519, 178, 0.3885767, 0, 0, -0.9214163,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -56,7 +56,7 @@ VALUES (0x72D7600B,  1542, 0x2D76002D, 139.7163, 102.6083, 166.1396, 0.5108534, 
 /* @teleloc 0x2D76002D [139.716300 102.608300 166.139600] 0.510853 0.000000 0.000000 -0.859668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D7600B, 0x72D7600C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x72D7600B, 0x72D7600C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D7600C, 42528, 0x2D76002D, 139.7163, 102.6083, 166.1396, 0.5108534, 0, 0, -0.8596678,  True, '2019-02-10 00:00:00'); /* Rock */

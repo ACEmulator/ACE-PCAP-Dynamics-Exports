@@ -5,13 +5,13 @@ VALUES (0x7DB7A001,  1154, 0xDB7A0011, 53.7379, 21.95577, 13.83565, 0.0176264, 0
 /* @teleloc 0xDB7A0011 [53.737900 21.955770 13.835650] 0.017626 0.000000 0.000000 -0.999845 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB7A001, 0x7DB7A002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DB7A001, 0x7DB7A003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DB7A001, 0x7DB7A004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DB7A001, 0x7DB7A005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DB7A001, 0x7DB7A006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DB7A001, 0x7DB7A007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DB7A001, 0x7DB7A008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7DB7A001, 0x7DB7A002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DB7A001, 0x7DB7A003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DB7A001, 0x7DB7A004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DB7A001, 0x7DB7A005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DB7A001, 0x7DB7A006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DB7A001, 0x7DB7A007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DB7A001, 0x7DB7A008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB7A002, 23565, 0xDB7A0011, 53.7379, 21.95577, 13.83565, 0.0176264, 0, 0, -0.9998447,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -46,7 +46,7 @@ VALUES (0x7DB7A009,  1542, 0xDB7A002A, 142.5933, 28.43214, 14, 0.9238795, 0, 0, 
 /* @teleloc 0xDB7A002A [142.593300 28.432140 14.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB7A009, 0x7DB7A00A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7DB7A009, 0x7DB7A00A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB7A00A,  4180, 0xDB7A002A, 142.5933, 28.43214, 14, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

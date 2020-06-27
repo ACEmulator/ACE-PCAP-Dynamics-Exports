@@ -5,11 +5,11 @@ VALUES (0x77883001,  1154, 0x7883002A, 127.7238, 32.42897, 1.348568, 0.7660445, 
 /* @teleloc 0x7883002A [127.723800 32.428970 1.348568] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77883001, 0x77883002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x77883001, 0x77883003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77883001, 0x77883004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x77883001, 0x77883005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x77883001, 0x77883006, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x77883001, 0x77883002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x77883001, 0x77883003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77883001, 0x77883004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x77883001, 0x77883005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x77883001, 0x77883006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77883002,  1761, 0x7883002A, 127.7238, 32.42897, 1.348568, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

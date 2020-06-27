@@ -5,17 +5,17 @@ VALUES (0x741F0001,  1154, 0x41F00005, 17.14183, 102.2353, 14.0065, 0.7497512, 0
 /* @teleloc 0x41F00005 [17.141830 102.235300 14.006500] 0.749751 0.000000 0.000000 -0.661720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741F0001, 0x741F0002, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x741F0001, 0x741F0003, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x741F0001, 0x741F0004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x741F0001, 0x741F0005, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x741F0001, 0x741F0006, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x741F0001, 0x741F0007, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x741F0001, 0x741F0008, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x741F0001, 0x741F0009, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x741F0001, 0x741F000A, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F0001, 0x741F000B, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x741F0001, 0x741F000C, '2019-02-10 00:00:00') /* Ruschk Sadist */;
+VALUES (0x741F0001, 0x741F0002, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x741F0001, 0x741F0003, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x741F0001, 0x741F0004, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x741F0001, 0x741F0005, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x741F0001, 0x741F0006, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x741F0001, 0x741F0007, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x741F0001, 0x741F0008, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x741F0001, 0x741F0009, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x741F0001, 0x741F000A, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F0001, 0x741F000B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x741F0001, 0x741F000C, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741F0002, 28055, 0x41F00005, 17.14183, 102.2353, 14.0065, 0.7497512, 0, 0, -0.6617199,  True, '2019-02-10 00:00:00'); /* Spectral Wisp */

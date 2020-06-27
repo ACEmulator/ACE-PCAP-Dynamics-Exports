@@ -5,20 +5,20 @@ VALUES (0x70D84001,  1154, 0x0D840018, 64.04182, 172.7768, 4.282719, -0.1662318,
 /* @teleloc 0x0D840018 [64.041820 172.776800 4.282719] -0.166232 0.000000 0.000000 -0.986087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D84001, 0x70D84002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70D84001, 0x70D84003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D84001, 0x70D84004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70D84001, 0x70D84005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70D84001, 0x70D84006, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D84001, 0x70D84007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70D84001, 0x70D84008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D84001, 0x70D84009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70D84001, 0x70D8400A, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70D84001, 0x70D8400B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70D84001, 0x70D8400C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70D84001, 0x70D8400D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x70D84001, 0x70D8400E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D84001, 0x70D8400F, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x70D84001, 0x70D84002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70D84001, 0x70D84003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D84001, 0x70D84004, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70D84001, 0x70D84005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70D84001, 0x70D84006, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D84001, 0x70D84007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70D84001, 0x70D84008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D84001, 0x70D84009, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70D84001, 0x70D8400A, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70D84001, 0x70D8400B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70D84001, 0x70D8400C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70D84001, 0x70D8400D, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x70D84001, 0x70D8400E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D84001, 0x70D8400F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D84002, 36819, 0x0D840018, 64.04182, 172.7768, 4.282719, -0.1662318, 0, 0, -0.9860867,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -81,7 +81,7 @@ VALUES (0x70D84010,  1542, 0x0D840006, 21.26421, 130.1158, 2.881174, 0.9361035, 
 /* @teleloc 0x0D840006 [21.264210 130.115800 2.881174] 0.936104 0.000000 0.000000 -0.351725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D84010, 0x70D84011, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x70D84010, 0x70D84011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D84011,  9286, 0x0D840006, 21.26421, 130.1158, 2.881174, 0.9361035, 0, 0, -0.3517248,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

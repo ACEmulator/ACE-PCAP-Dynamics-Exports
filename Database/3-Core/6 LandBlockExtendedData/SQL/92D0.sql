@@ -5,11 +5,11 @@ VALUES (0x792D0001,  1154, 0x92D00010, 34.48465, 184.0895, 648.8867, -0.8826708,
 /* @teleloc 0x92D00010 [34.484650 184.089500 648.886700] -0.882671 0.000000 0.000000 -0.469992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D0001, 0x792D0002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D0001, 0x792D0003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792D0001, 0x792D0004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792D0001, 0x792D0005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D0001, 0x792D0006, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x792D0001, 0x792D0002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D0001, 0x792D0003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792D0001, 0x792D0004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792D0001, 0x792D0005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D0001, 0x792D0006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D0002,  7994, 0x92D00010, 34.48465, 184.0895, 648.8867, -0.8826708, 0, 0, -0.4699919,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

@@ -5,16 +5,16 @@ VALUES (0x7288B001,  1154, 0x288B0012, 51.02869, 43.41563, 137.3459, -0.3463922,
 /* @teleloc 0x288B0012 [51.028690 43.415630 137.345900] -0.346392 0.000000 0.000000 -0.938090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288B001, 0x7288B002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7288B001, 0x7288B003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7288B001, 0x7288B004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7288B001, 0x7288B005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288B001, 0x7288B006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288B001, 0x7288B007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7288B001, 0x7288B008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7288B001, 0x7288B009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7288B001, 0x7288B00A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7288B001, 0x7288B00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7288B001, 0x7288B002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7288B001, 0x7288B003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7288B001, 0x7288B004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7288B001, 0x7288B005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288B001, 0x7288B006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288B001, 0x7288B007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7288B001, 0x7288B008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7288B001, 0x7288B009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7288B001, 0x7288B00A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7288B001, 0x7288B00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288B002,  7081, 0x288B0012, 51.02869, 43.41563, 137.3459, -0.3463922, 0, 0, -0.9380898,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -61,8 +61,8 @@ VALUES (0x7288B00C,  1542, 0x288B0030, 120.7849, 180.5497, 114, 1, 0, 0, 0, Fals
 /* @teleloc 0x288B0030 [120.784900 180.549700 114.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288B00C, 0x7288B00D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7288B00C, 0x7288B00E, '2019-02-10 00:00:00') /* Mayoi Portal */;
+VALUES (0x7288B00C, 0x7288B00D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7288B00C, 0x7288B00E, '2019-02-10 00:00:00') /* Mayoi Portal (42842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288B00D, 22567, 0x288B0030, 120.7849, 180.5497, 114, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

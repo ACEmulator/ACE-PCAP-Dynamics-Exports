@@ -5,11 +5,11 @@ VALUES (0x73731001,  1154, 0x3731001B, 86.29173, 48.14032, 52.8163, -0.6152902, 
 /* @teleloc 0x3731001B [86.291730 48.140320 52.816300] -0.615290 0.000000 0.000000 -0.788301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73731001, 0x73731002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x73731001, 0x73731003, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73731001, 0x73731004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73731001, 0x73731005, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x73731001, 0x73731006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x73731001, 0x73731002, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x73731001, 0x73731003, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73731001, 0x73731004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73731001, 0x73731005, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x73731001, 0x73731006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73731002, 36862, 0x3731001B, 86.29173, 48.14032, 52.8163, -0.6152902, 0, 0, -0.7883008,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */

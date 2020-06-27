@@ -5,28 +5,28 @@ VALUES (0x7DD53001,  1154, 0xDD53001B, 89.31668, 64.89615, 12.00715, 0.9792715, 
 /* @teleloc 0xDD53001B [89.316680 64.896150 12.007150] 0.979272 0.000000 0.000000 -0.202552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD53001, 0x7DD53002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DD53001, 0x7DD53003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DD53001, 0x7DD53004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DD53001, 0x7DD53005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DD53001, 0x7DD53006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DD53001, 0x7DD53007, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DD53001, 0x7DD53008, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DD53001, 0x7DD53009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DD53001, 0x7DD5300A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DD53001, 0x7DD5300B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DD53001, 0x7DD5300C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DD53001, 0x7DD5300D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DD53001, 0x7DD5300E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DD53001, 0x7DD5300F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DD53001, 0x7DD53010, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DD53001, 0x7DD53011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DD53001, 0x7DD53012, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DD53001, 0x7DD53013, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DD53001, 0x7DD53014, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DD53001, 0x7DD53015, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DD53001, 0x7DD53016, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DD53001, 0x7DD53017, '2019-02-10 00:00:00') /* Gnawer Shreth */;
+VALUES (0x7DD53001, 0x7DD53002, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DD53001, 0x7DD53003, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DD53001, 0x7DD53004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DD53001, 0x7DD53005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DD53001, 0x7DD53006, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DD53001, 0x7DD53007, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DD53001, 0x7DD53008, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DD53001, 0x7DD53009, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DD53001, 0x7DD5300A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DD53001, 0x7DD5300B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DD53001, 0x7DD5300C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DD53001, 0x7DD5300D, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DD53001, 0x7DD5300E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DD53001, 0x7DD5300F, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DD53001, 0x7DD53010, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DD53001, 0x7DD53011, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DD53001, 0x7DD53012, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DD53001, 0x7DD53013, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DD53001, 0x7DD53014, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DD53001, 0x7DD53015, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DD53001, 0x7DD53016, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DD53001, 0x7DD53017, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD53002, 19256, 0xDD53001B, 89.31668, 64.89615, 12.00715, 0.9792715, 0, 0, -0.2025521,  True, '2019-02-10 00:00:00'); /* Young Banderling */

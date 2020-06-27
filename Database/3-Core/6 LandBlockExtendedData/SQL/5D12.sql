@@ -5,33 +5,33 @@ VALUES (0x75D12001,  1154, 0x5D120014, 67.28021, 82.99162, 68.93232, -0.08715577
 /* @teleloc 0x5D120014 [67.280210 82.991620 68.932320] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D12001, 0x75D12002, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D12001, 0x75D12003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D12001, 0x75D12004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D12001, 0x75D12005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75D12001, 0x75D12006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75D12001, 0x75D12007, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x75D12001, 0x75D12008, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D12001, 0x75D12009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75D12001, 0x75D1200A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75D12001, 0x75D1200B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D12001, 0x75D1200C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75D12001, 0x75D1200D, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75D12001, 0x75D1200E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D12001, 0x75D1200F, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D12001, 0x75D12010, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D12001, 0x75D12011, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75D12001, 0x75D12012, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75D12001, 0x75D12013, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D12001, 0x75D12014, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D12001, 0x75D12015, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75D12001, 0x75D12016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D12001, 0x75D12017, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75D12001, 0x75D12018, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D12001, 0x75D12019, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75D12001, 0x75D1201A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75D12001, 0x75D1201B, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75D12001, 0x75D1201C, '2019-02-10 00:00:00') /* Virindi Councillor */;
+VALUES (0x75D12001, 0x75D12002, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D12001, 0x75D12003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D12001, 0x75D12004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D12001, 0x75D12005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75D12001, 0x75D12006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75D12001, 0x75D12007, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x75D12001, 0x75D12008, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D12001, 0x75D12009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75D12001, 0x75D1200A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75D12001, 0x75D1200B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D12001, 0x75D1200C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75D12001, 0x75D1200D, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75D12001, 0x75D1200E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D12001, 0x75D1200F, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D12001, 0x75D12010, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D12001, 0x75D12011, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75D12001, 0x75D12012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75D12001, 0x75D12013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D12001, 0x75D12014, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x75D12001, 0x75D12015, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75D12001, 0x75D12016, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D12001, 0x75D12017, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75D12001, 0x75D12018, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D12001, 0x75D12019, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75D12001, 0x75D1201A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75D12001, 0x75D1201B, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75D12001, 0x75D1201C, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D12002,  8269, 0x5D120014, 67.28021, 82.99162, 68.93232, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Tumideon Hollow Minion */
@@ -146,11 +146,11 @@ VALUES (0x75D1201D,  1542, 0x5D120031, 151.5904, 17.04513, 8.579573, 0.9914449, 
 /* @teleloc 0x5D120031 [151.590400 17.045130 8.579573] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D1201D, 0x75D1201E, '2019-02-10 00:00:00') /* Bones */
-     , (0x75D1201D, 0x75D1201F, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x75D1201D, 0x75D12020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75D1201D, 0x75D12021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75D1201D, 0x75D12022, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75D1201D, 0x75D1201E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75D1201D, 0x75D1201F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x75D1201D, 0x75D12020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75D1201D, 0x75D12021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75D1201D, 0x75D12022, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D1201E,  4380, 0x5D120031, 151.5904, 17.04513, 8.579573, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

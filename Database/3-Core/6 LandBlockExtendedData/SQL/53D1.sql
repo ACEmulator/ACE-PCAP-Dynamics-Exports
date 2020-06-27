@@ -5,14 +5,14 @@ VALUES (0x753D1001,  1154, 0x53D10005, 2.580765, 101.7668, 209.2604, -0.6807541,
 /* @teleloc 0x53D10005 [2.580765 101.766800 209.260400] -0.680754 0.000000 0.000000 -0.732512 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753D1001, 0x753D1002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x753D1001, 0x753D1003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x753D1001, 0x753D1004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x753D1001, 0x753D1005, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x753D1001, 0x753D1006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x753D1001, 0x753D1007, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x753D1001, 0x753D1008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x753D1001, 0x753D1009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x753D1001, 0x753D1002, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x753D1001, 0x753D1003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x753D1001, 0x753D1004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x753D1001, 0x753D1005, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x753D1001, 0x753D1006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x753D1001, 0x753D1007, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x753D1001, 0x753D1008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x753D1001, 0x753D1009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753D1002,  8405, 0x53D10005, 2.580765, 101.7668, 209.2604, -0.6807541, 0, 0, -0.732512,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -51,9 +51,9 @@ VALUES (0x753D100A,  1542, 0x53D10023, 106.7567, 66.87231, 216.4691, 0.9990482, 
 /* @teleloc 0x53D10023 [106.756700 66.872310 216.469100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753D100A, 0x753D100B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x753D100A, 0x753D100C, '2019-02-10 00:00:00') /* Bones */
-     , (0x753D100A, 0x753D100D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x753D100A, 0x753D100B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x753D100A, 0x753D100C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x753D100A, 0x753D100D, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753D100B,  4179, 0x53D10023, 106.7567, 66.87231, 216.4691, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

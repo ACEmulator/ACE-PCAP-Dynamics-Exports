@@ -5,16 +5,16 @@ VALUES (0x7D3C8001,  1154, 0xD3C80007, 12.35941, 164.1546, 32.31655, 0.6520397, 
 /* @teleloc 0xD3C80007 [12.359410 164.154600 32.316550] 0.652040 0.000000 0.000000 -0.758185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3C8001, 0x7D3C8002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7D3C8001, 0x7D3C8003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D3C8001, 0x7D3C8004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D3C8001, 0x7D3C8005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D3C8001, 0x7D3C8006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D3C8001, 0x7D3C8007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D3C8001, 0x7D3C8008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D3C8001, 0x7D3C8009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D3C8001, 0x7D3C800A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D3C8001, 0x7D3C800B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7D3C8001, 0x7D3C8002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7D3C8001, 0x7D3C8003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D3C8001, 0x7D3C8004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D3C8001, 0x7D3C8005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D3C8001, 0x7D3C8006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D3C8001, 0x7D3C8007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D3C8001, 0x7D3C8008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D3C8001, 0x7D3C8009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D3C8001, 0x7D3C800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D3C8001, 0x7D3C800B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3C8002, 35734, 0xD3C80007, 12.35941, 164.1546, 32.31655, 0.6520397, 0, 0, -0.7581848,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Flyer Nymph */

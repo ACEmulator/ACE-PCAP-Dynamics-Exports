@@ -5,11 +5,11 @@ VALUES (0x7AC23001,  1154, 0xAC23000C, 47.23526, 72.95066, 290.4288, -0.9999078,
 /* @teleloc 0xAC23000C [47.235260 72.950660 290.428800] -0.999908 0.000000 0.000000 -0.013581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC23001, 0x7AC23002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7AC23001, 0x7AC23003, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x7AC23001, 0x7AC23004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7AC23001, 0x7AC23005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7AC23001, 0x7AC23006, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7AC23001, 0x7AC23002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7AC23001, 0x7AC23003, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x7AC23001, 0x7AC23004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7AC23001, 0x7AC23005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7AC23001, 0x7AC23006, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC23002,  5766, 0xAC23000C, 47.23526, 72.95066, 290.4288, -0.9999078, 0, 0, -0.0135805,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -36,7 +36,7 @@ VALUES (0x7AC23007,  1542, 0xAC23000B, 47.9703, 70.3896, 290.1342, -0.9999078, 0
 /* @teleloc 0xAC23000B [47.970300 70.389600 290.134200] -0.999908 0.000000 0.000000 -0.013581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC23007, 0x7AC23008, '2019-02-10 00:00:00') /* Giant Snowman */;
+VALUES (0x7AC23007, 0x7AC23008, '2019-02-10 00:00:00') /* Giant Snowman (5767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC23008,  5767, 0xAC23000B, 47.9703, 70.3896, 290.1342, -0.9999078, 0, 0, -0.0135805,  True, '2019-02-10 00:00:00'); /* Giant Snowman */

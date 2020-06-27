@@ -5,18 +5,18 @@ VALUES (0x7CA21001,  1154, 0xCA210031, 164.2298, 12.38084, 136.8685, 0.8191521, 
 /* @teleloc 0xCA210031 [164.229800 12.380840 136.868500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA21001, 0x7CA21002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CA21001, 0x7CA21003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CA21001, 0x7CA21004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CA21001, 0x7CA21005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CA21001, 0x7CA21006, '2019-02-10 00:00:00') /* Ember */
-     , (0x7CA21001, 0x7CA21007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CA21001, 0x7CA21008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CA21001, 0x7CA21009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CA21001, 0x7CA2100A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CA21001, 0x7CA2100B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CA21001, 0x7CA2100C, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7CA21001, 0x7CA2100D, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7CA21001, 0x7CA21002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CA21001, 0x7CA21003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CA21001, 0x7CA21004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CA21001, 0x7CA21005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CA21001, 0x7CA21006, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7CA21001, 0x7CA21007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CA21001, 0x7CA21008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CA21001, 0x7CA21009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CA21001, 0x7CA2100A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CA21001, 0x7CA2100B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CA21001, 0x7CA2100C, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7CA21001, 0x7CA2100D, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA21002,  7980, 0xCA210031, 164.2298, 12.38084, 136.8685, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -71,7 +71,7 @@ VALUES (0x7CA2100E,  1542, 0xCA210007, 18.16875, 150.0998, 166.3217, 0.9914449, 
 /* @teleloc 0xCA210007 [18.168750 150.099800 166.321700] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA2100E, 0x7CA2100F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CA2100E, 0x7CA2100F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2100F,  4380, 0xCA210007, 18.16875, 150.0998, 166.3217, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

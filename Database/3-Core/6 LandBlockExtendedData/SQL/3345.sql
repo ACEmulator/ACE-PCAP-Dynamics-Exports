@@ -5,15 +5,15 @@ VALUES (0x73345001,  1154, 0x33450003, 1.746417, 70.59103, 32.37543, 0.7071068, 
 /* @teleloc 0x33450003 [1.746417 70.591030 32.375430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73345001, 0x73345002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73345001, 0x73345003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73345001, 0x73345004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73345001, 0x73345005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73345001, 0x73345006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73345001, 0x73345007, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73345001, 0x73345008, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x73345001, 0x73345009, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73345001, 0x7334500A, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73345001, 0x73345002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73345001, 0x73345003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73345001, 0x73345004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73345001, 0x73345005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73345001, 0x73345006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73345001, 0x73345007, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73345001, 0x73345008, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x73345001, 0x73345009, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73345001, 0x7334500A, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73345002,  7112, 0x33450003, 1.746417, 70.59103, 32.37543, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -56,8 +56,8 @@ VALUES (0x7334500B,  1542, 0x33450009, 46.4329, 18.10313, 40.72504, 0.8868784, 0
 /* @teleloc 0x33450009 [46.432900 18.103130 40.725040] 0.886878 0.000000 0.000000 -0.462003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334500B, 0x7334500C, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x7334500B, 0x7334500D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7334500B, 0x7334500C, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x7334500B, 0x7334500D, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334500C, 11555, 0x33450009, 46.4329, 18.10313, 40.72504, 0.8868784, 0, 0, -0.4620029,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

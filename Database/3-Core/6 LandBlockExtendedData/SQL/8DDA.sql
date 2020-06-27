@@ -5,14 +5,14 @@ VALUES (0x78DDA001,  1154, 0x8DDA0003, 15.89287, 48.29258, 149.6291, 0.1546142, 
 /* @teleloc 0x8DDA0003 [15.892870 48.292580 149.629100] 0.154614 0.000000 0.000000 -0.987975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DDA001, 0x78DDA002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x78DDA001, 0x78DDA003, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x78DDA001, 0x78DDA004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78DDA001, 0x78DDA005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78DDA001, 0x78DDA006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78DDA001, 0x78DDA007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DDA001, 0x78DDA008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DDA001, 0x78DDA009, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x78DDA001, 0x78DDA002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78DDA001, 0x78DDA003, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x78DDA001, 0x78DDA004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78DDA001, 0x78DDA005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78DDA001, 0x78DDA006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78DDA001, 0x78DDA007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DDA001, 0x78DDA008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DDA001, 0x78DDA009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DDA002, 22933, 0x8DDA0003, 15.89287, 48.29258, 149.6291, 0.1546142, 0, 0, -0.9879749,  True, '2019-02-10 00:00:00'); /* Mist Golem */

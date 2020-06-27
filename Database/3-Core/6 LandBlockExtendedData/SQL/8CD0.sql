@@ -5,31 +5,31 @@ VALUES (0x78CD0001,  1154, 0x8CD00036, 158.2807, 124.0766, 404.9, 0.3987491, 0, 
 /* @teleloc 0x8CD00036 [158.280700 124.076600 404.900000] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD0001, 0x78CD0002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CD0001, 0x78CD0003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CD0001, 0x78CD0004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CD0001, 0x78CD0005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78CD0001, 0x78CD0006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CD0001, 0x78CD0007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD0008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD0009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD000A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD0001, 0x78CD000B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78CD0001, 0x78CD000C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78CD0001, 0x78CD000D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CD0001, 0x78CD000E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD000F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD0010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD0001, 0x78CD0011, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x78CD0001, 0x78CD0012, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CD0001, 0x78CD0013, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CD0001, 0x78CD0014, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CD0001, 0x78CD0015, '2019-02-10 00:00:00') /* Banished Olthoi */
-     , (0x78CD0001, 0x78CD0016, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CD0001, 0x78CD0017, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CD0001, 0x78CD0018, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CD0001, 0x78CD0019, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78CD0001, 0x78CD001A, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78CD0001, 0x78CD0002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CD0001, 0x78CD0003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CD0001, 0x78CD0004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CD0001, 0x78CD0005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78CD0001, 0x78CD0006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CD0001, 0x78CD0007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD0008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD0009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD000A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CD0001, 0x78CD000B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78CD0001, 0x78CD000C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78CD0001, 0x78CD000D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CD0001, 0x78CD000E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD000F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD0010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD0001, 0x78CD0011, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x78CD0001, 0x78CD0012, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CD0001, 0x78CD0013, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CD0001, 0x78CD0014, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CD0001, 0x78CD0015, '2019-02-10 00:00:00') /* Banished Olthoi (30903) */
+     , (0x78CD0001, 0x78CD0016, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x78CD0001, 0x78CD0017, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CD0001, 0x78CD0018, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CD0001, 0x78CD0019, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78CD0001, 0x78CD001A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD0002,  7088, 0x8CD00036, 158.2807, 124.0766, 404.9, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -136,9 +136,9 @@ VALUES (0x78CD001B,  1542, 0x8CD00036, 160.6, 127.0766, 401.5333, 1, 0, 0, 0, Fa
 /* @teleloc 0x8CD00036 [160.600000 127.076600 401.533300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD001B, 0x78CD001C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78CD001B, 0x78CD001D, '2019-02-10 00:00:00') /* Bones */
-     , (0x78CD001B, 0x78CD001E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x78CD001B, 0x78CD001C, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78CD001B, 0x78CD001D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78CD001B, 0x78CD001E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD001C, 22567, 0x8CD00036, 160.6, 127.0766, 401.5333, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,16 +5,16 @@ VALUES (0x719B3001,  1154, 0x19B30012, 70.12983, 44.77193, 22, -0.04831094, 0, 0
 /* @teleloc 0x19B30012 [70.129830 44.771930 22.000000] -0.048311 0.000000 0.000000 -0.998832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B3001, 0x719B3002, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x719B3001, 0x719B3003, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x719B3001, 0x719B3004, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x719B3001, 0x719B3005, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x719B3001, 0x719B3006, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x719B3001, 0x719B3007, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x719B3001, 0x719B3008, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x719B3001, 0x719B3009, '2019-02-10 00:00:00') /* Brigand */
-     , (0x719B3001, 0x719B300A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x719B3001, 0x719B300B, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x719B3001, 0x719B3002, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x719B3001, 0x719B3003, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x719B3001, 0x719B3004, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x719B3001, 0x719B3005, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x719B3001, 0x719B3006, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x719B3001, 0x719B3007, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x719B3001, 0x719B3008, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x719B3001, 0x719B3009, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x719B3001, 0x719B300A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x719B3001, 0x719B300B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B3002, 11496, 0x19B30012, 70.12983, 44.77193, 22, -0.04831094, 0, 0, -0.9988323,  True, '2019-02-10 00:00:00'); /* Carenzi Sentry */
@@ -61,7 +61,7 @@ VALUES (0x719B300C,  1542, 0x19B30012, 68.16013, 36.82576, 22.15, -0.04831094, 0
 /* @teleloc 0x19B30012 [68.160130 36.825760 22.150000] -0.048311 0.000000 0.000000 -0.998832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B300C, 0x719B300D, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator */;
+VALUES (0x719B300C, 0x719B300D, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator (11567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B300D, 11567, 0x19B30012, 68.16013, 36.82576, 22.15, -0.04831094, 0, 0, -0.9988323,  True, '2019-02-10 00:00:00'); /* Carenzi Sentry Camp Generator */

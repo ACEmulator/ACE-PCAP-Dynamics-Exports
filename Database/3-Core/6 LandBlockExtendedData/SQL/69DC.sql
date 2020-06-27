@@ -5,14 +5,14 @@ VALUES (0x769DC001,  1154, 0x69DC001E, 82.76952, 135.3953, 244.4005, 0.3987491, 
 /* @teleloc 0x69DC001E [82.769520 135.395300 244.400500] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769DC001, 0x769DC002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x769DC001, 0x769DC003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x769DC001, 0x769DC004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x769DC001, 0x769DC005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x769DC001, 0x769DC006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x769DC001, 0x769DC007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x769DC001, 0x769DC008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x769DC001, 0x769DC009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x769DC001, 0x769DC002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x769DC001, 0x769DC003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x769DC001, 0x769DC004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x769DC001, 0x769DC005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x769DC001, 0x769DC006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x769DC001, 0x769DC007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x769DC001, 0x769DC008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x769DC001, 0x769DC009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769DC002, 36844, 0x69DC001E, 82.76952, 135.3953, 244.4005, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

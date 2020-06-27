@@ -9,61 +9,61 @@ VALUES (0x7B6EE005,  1154, 0xB6EE0004, 1.839111, 82.66731, 176.6729, -0.9990904,
 /* @teleloc 0xB6EE0004 [1.839111 82.667310 176.672900] -0.999090 0.000000 0.000000 -0.042642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6EE005, 0x7B6EE006, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7B6EE005, 0x7B6EE007, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B6EE005, 0x7B6EE008, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE00A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE00B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B6EE005, 0x7B6EE00C, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B6EE005, 0x7B6EE00D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B6EE005, 0x7B6EE00E, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE00F, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE010, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE011, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE012, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7B6EE005, 0x7B6EE013, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE014, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE015, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE016, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE017, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7B6EE005, 0x7B6EE018, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE019, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE01A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7B6EE005, 0x7B6EE01B, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE01C, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE01D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7B6EE005, 0x7B6EE01E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7B6EE005, 0x7B6EE01F, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE020, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE021, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE022, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE023, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7B6EE005, 0x7B6EE024, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7B6EE005, 0x7B6EE025, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B6EE005, 0x7B6EE026, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE027, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE028, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE029, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE02A, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7B6EE005, 0x7B6EE02B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B6EE005, 0x7B6EE02C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B6EE005, 0x7B6EE02D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B6EE005, 0x7B6EE02E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B6EE005, 0x7B6EE02F, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7B6EE005, 0x7B6EE030, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B6EE005, 0x7B6EE031, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B6EE005, 0x7B6EE032, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE033, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE034, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE035, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE036, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6EE005, 0x7B6EE037, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE038, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7B6EE005, 0x7B6EE039, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B6EE005, 0x7B6EE03A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B6EE005, 0x7B6EE03B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B6EE005, 0x7B6EE03C, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x7B6EE005, 0x7B6EE006, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7B6EE005, 0x7B6EE007, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B6EE005, 0x7B6EE008, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE00A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE00B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B6EE005, 0x7B6EE00C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B6EE005, 0x7B6EE00D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B6EE005, 0x7B6EE00E, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE00F, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE010, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE011, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE012, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7B6EE005, 0x7B6EE013, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE014, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE015, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE016, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE017, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7B6EE005, 0x7B6EE018, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE019, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE01A, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7B6EE005, 0x7B6EE01B, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE01C, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE01D, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7B6EE005, 0x7B6EE01E, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7B6EE005, 0x7B6EE01F, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE020, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE021, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE022, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE023, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7B6EE005, 0x7B6EE024, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE005, 0x7B6EE025, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B6EE005, 0x7B6EE026, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE027, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE028, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE029, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE02A, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7B6EE005, 0x7B6EE02B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B6EE005, 0x7B6EE02C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B6EE005, 0x7B6EE02D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B6EE005, 0x7B6EE02E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B6EE005, 0x7B6EE02F, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7B6EE005, 0x7B6EE030, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B6EE005, 0x7B6EE031, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B6EE005, 0x7B6EE032, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE033, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE034, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE035, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE036, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6EE005, 0x7B6EE037, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE038, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7B6EE005, 0x7B6EE039, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B6EE005, 0x7B6EE03A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B6EE005, 0x7B6EE03B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B6EE005, 0x7B6EE03C, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6EE006, 28055, 0xB6EE0004, 1.839111, 82.66731, 176.6729, -0.9990904, 0, 0, -0.04264162,  True, '2019-02-10 00:00:00'); /* Spectral Wisp */

@@ -5,25 +5,25 @@ VALUES (0x7006F001,  1154, 0x006F010D, 0, 0, 78.0065, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x006F010D [0.000000 0.000000 78.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7006F001, 0x7006F002, '2019-02-10 00:00:00') /* Captain Faalx */
-     , (0x7006F001, 0x7006F003, '2019-02-10 00:00:00') /* Umbral Soldier */
-     , (0x7006F001, 0x7006F004, '2019-02-10 00:00:00') /* Panumbral Soldier */
-     , (0x7006F001, 0x7006F005, '2019-02-10 00:00:00') /* Umbral Soldier */
-     , (0x7006F001, 0x7006F006, '2019-02-10 00:00:00') /* Panumbral Soldier */
-     , (0x7006F001, 0x7006F007, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7006F001, 0x7006F008, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7006F001, 0x7006F009, '2019-02-10 00:00:00') /* Umbral Soldier */
-     , (0x7006F001, 0x7006F00A, '2019-02-10 00:00:00') /* Twisted Shadow */
-     , (0x7006F001, 0x7006F00B, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7006F001, 0x7006F00C, '2019-02-10 00:00:00') /* Panumbral Soldier */
-     , (0x7006F001, 0x7006F00D, '2019-02-10 00:00:00') /* Umbral Soldier */
-     , (0x7006F001, 0x7006F00E, '2019-02-10 00:00:00') /* Twisted Shadow */
-     , (0x7006F001, 0x7006F00F, '2019-02-10 00:00:00') /* Twisted Shadow */
-     , (0x7006F001, 0x7006F010, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7006F001, 0x7006F011, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7006F001, 0x7006F012, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7006F001, 0x7006F013, '2019-02-10 00:00:00') /* Twisted Shadow */
-     , (0x7006F001, 0x7006F014, '2019-02-10 00:00:00') /* Void Knight */;
+VALUES (0x7006F001, 0x7006F002, '2019-02-10 00:00:00') /* Captain Faalx (33163) */
+     , (0x7006F001, 0x7006F003, '2019-02-10 00:00:00') /* Umbral Soldier (33167) */
+     , (0x7006F001, 0x7006F004, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x7006F001, 0x7006F005, '2019-02-10 00:00:00') /* Umbral Soldier (33175) */
+     , (0x7006F001, 0x7006F006, '2019-02-10 00:00:00') /* Panumbral Soldier (33168) */
+     , (0x7006F001, 0x7006F007, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7006F001, 0x7006F008, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7006F001, 0x7006F009, '2019-02-10 00:00:00') /* Umbral Soldier (33175) */
+     , (0x7006F001, 0x7006F00A, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
+     , (0x7006F001, 0x7006F00B, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7006F001, 0x7006F00C, '2019-02-10 00:00:00') /* Panumbral Soldier (33174) */
+     , (0x7006F001, 0x7006F00D, '2019-02-10 00:00:00') /* Umbral Soldier (33175) */
+     , (0x7006F001, 0x7006F00E, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
+     , (0x7006F001, 0x7006F00F, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
+     , (0x7006F001, 0x7006F010, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7006F001, 0x7006F011, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7006F001, 0x7006F012, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7006F001, 0x7006F013, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
+     , (0x7006F001, 0x7006F014, '2019-02-10 00:00:00') /* Void Knight (25663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7006F002, 33163, 0x006F010D, 0, 0, 78.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Captain Faalx */
@@ -106,7 +106,7 @@ VALUES (0x7006F015,  1542, 0x006F010D, 0, 0, 78.16489, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0x006F010D [0.000000 0.000000 78.164890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7006F015, 0x7006F016, '2019-02-10 00:00:00') /* Spire's Head */;
+VALUES (0x7006F015, 0x7006F016, '2019-02-10 00:00:00') /* Spire's Head (33185) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7006F016, 33185, 0x006F010D, 0, 0, 78.16489, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Spire's Head */

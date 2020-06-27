@@ -5,14 +5,14 @@ VALUES (0x7EC3B001,  1154, 0xEC3B0004, 20.48321, 73.86033, 5.768396, 0.03362792,
 /* @teleloc 0xEC3B0004 [20.483210 73.860330 5.768396] 0.033628 0.000000 0.000000 -0.999434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC3B001, 0x7EC3B002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EC3B001, 0x7EC3B003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC3B001, 0x7EC3B004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EC3B001, 0x7EC3B005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC3B001, 0x7EC3B006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EC3B001, 0x7EC3B007, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EC3B001, 0x7EC3B008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7EC3B001, 0x7EC3B009, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7EC3B001, 0x7EC3B002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EC3B001, 0x7EC3B003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC3B001, 0x7EC3B004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EC3B001, 0x7EC3B005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC3B001, 0x7EC3B006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EC3B001, 0x7EC3B007, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EC3B001, 0x7EC3B008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7EC3B001, 0x7EC3B009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC3B002, 11531, 0xEC3B0004, 20.48321, 73.86033, 5.768396, 0.03362792, 0, 0, -0.9994344,  True, '2019-02-10 00:00:00'); /* Sand Golem */

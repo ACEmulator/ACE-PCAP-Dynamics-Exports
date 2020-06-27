@@ -5,11 +5,11 @@ VALUES (0x7BC74001,  1154, 0xBC740021, 114.454, 23.38752, 16.005, -0.4648423, 0,
 /* @teleloc 0xBC740021 [114.454000 23.387520 16.005000] -0.464842 0.000000 0.000000 -0.885394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC74001, 0x7BC74002, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BC74001, 0x7BC74003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BC74001, 0x7BC74004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC74001, 0x7BC74005, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BC74001, 0x7BC74006, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7BC74001, 0x7BC74002, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BC74001, 0x7BC74003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BC74001, 0x7BC74004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC74001, 0x7BC74005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BC74001, 0x7BC74006, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC74002,  6381, 0xBC740021, 114.454, 23.38752, 16.005, -0.4648423, 0, 0, -0.8853935,  True, '2019-02-10 00:00:00'); /* Spark */
@@ -36,7 +36,7 @@ VALUES (0x7BC74007,  1542, 0xBC740012, 51.97289, 46.5256, 16, 1, 0, 0, 0, False,
 /* @teleloc 0xBC740012 [51.972890 46.525600 16.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC74007, 0x7BC74008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BC74007, 0x7BC74008, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC74008, 22568, 0xBC740012, 51.97289, 46.5256, 16, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

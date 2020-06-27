@@ -5,9 +5,9 @@ VALUES (0x7C14C001,  1154, 0xC14C000A, 24.04399, 37.67237, 17.99617, 0.8870109, 
 /* @teleloc 0xC14C000A [24.043990 37.672370 17.996170] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14C001, 0x7C14C002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C14C001, 0x7C14C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C14C001, 0x7C14C004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7C14C001, 0x7C14C002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C14C001, 0x7C14C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C14C001, 0x7C14C004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14C002,  2576, 0xC14C000A, 24.04399, 37.67237, 17.99617, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -26,9 +26,9 @@ VALUES (0x7C14C005,  1542, 0xC14C000A, 24.68249, 41.89638, 19.07576, 0.9238795, 
 /* @teleloc 0xC14C000A [24.682490 41.896380 19.075760] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14C005, 0x7C14C006, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C14C005, 0x7C14C007, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C14C005, 0x7C14C008, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C14C005, 0x7C14C006, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C14C005, 0x7C14C007, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C14C005, 0x7C14C008, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14C006,  4380, 0xC14C000A, 24.68249, 41.89638, 19.07576, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

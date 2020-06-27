@@ -17,22 +17,22 @@ VALUES (0x7A22B003,  1154, 0xA22B001D, 74.59473, 110.7708, 143.4521, 0.05620063,
 /* @teleloc 0xA22B001D [74.594730 110.770800 143.452100] 0.056201 0.000000 0.000000 -0.998420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A22B003, 0x7A22B004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A22B003, 0x7A22B005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22B003, 0x7A22B006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22B003, 0x7A22B007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A22B003, 0x7A22B008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A22B003, 0x7A22B009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A22B003, 0x7A22B00A, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A22B003, 0x7A22B00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A22B003, 0x7A22B00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A22B003, 0x7A22B00D, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A22B003, 0x7A22B00E, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A22B003, 0x7A22B00F, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7A22B003, 0x7A22B010, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A22B003, 0x7A22B011, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A22B003, 0x7A22B012, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A22B003, 0x7A22B013, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x7A22B003, 0x7A22B004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A22B003, 0x7A22B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22B003, 0x7A22B006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22B003, 0x7A22B007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A22B003, 0x7A22B008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A22B003, 0x7A22B009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A22B003, 0x7A22B00A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A22B003, 0x7A22B00B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A22B003, 0x7A22B00C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A22B003, 0x7A22B00D, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A22B003, 0x7A22B00E, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A22B003, 0x7A22B00F, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7A22B003, 0x7A22B010, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A22B003, 0x7A22B011, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A22B003, 0x7A22B012, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A22B003, 0x7A22B013, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A22B004,  1757, 0xA22B001D, 74.59473, 110.7708, 143.4521, 0.05620063, 0, 0, -0.9984195,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

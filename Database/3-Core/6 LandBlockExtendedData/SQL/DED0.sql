@@ -5,12 +5,12 @@ VALUES (0x7DED0001,  1154, 0xDED00003, 8.94937, 70.20354, -0.9038993, -0.9370812
 /* @teleloc 0xDED00003 [8.949370 70.203540 -0.903899] -0.937081 0.000000 0.000000 -0.349112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DED0001, 0x7DED0002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DED0001, 0x7DED0003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DED0001, 0x7DED0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DED0001, 0x7DED0005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DED0001, 0x7DED0006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DED0001, 0x7DED0007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7DED0001, 0x7DED0002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DED0001, 0x7DED0003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DED0001, 0x7DED0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DED0001, 0x7DED0005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DED0001, 0x7DED0006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DED0001, 0x7DED0007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DED0002, 24959, 0xDED00003, 8.94937, 70.20354, -0.9038993, -0.9370812, 0, 0, -0.3491116,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

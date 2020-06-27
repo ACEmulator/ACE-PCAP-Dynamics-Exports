@@ -5,16 +5,16 @@ VALUES (0x7C7AB001,  1154, 0xC7AB002F, 127.9985, 155.0027, 87.08122, 0.9678487, 
 /* @teleloc 0xC7AB002F [127.998500 155.002700 87.081220] 0.967849 0.000000 0.000000 -0.251533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AB001, 0x7C7AB002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C7AB001, 0x7C7AB003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C7AB001, 0x7C7AB004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C7AB001, 0x7C7AB005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C7AB001, 0x7C7AB006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C7AB001, 0x7C7AB007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C7AB001, 0x7C7AB008, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C7AB001, 0x7C7AB009, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C7AB001, 0x7C7AB00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C7AB001, 0x7C7AB00B, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7C7AB001, 0x7C7AB002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C7AB001, 0x7C7AB003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C7AB001, 0x7C7AB004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C7AB001, 0x7C7AB005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C7AB001, 0x7C7AB006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C7AB001, 0x7C7AB007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C7AB001, 0x7C7AB008, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C7AB001, 0x7C7AB009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C7AB001, 0x7C7AB00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C7AB001, 0x7C7AB00B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AB002,  7978, 0xC7AB002F, 127.9985, 155.0027, 87.08122, 0.9678487, 0, 0, -0.2515329,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7C7AB00C,  1542, 0xC7AB0027, 112.1963, 145.6554, 83.91111, 1, 0, 0, 0,
 /* @teleloc 0xC7AB0027 [112.196300 145.655400 83.911110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AB00C, 0x7C7AB00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C7AB00C, 0x7C7AB00D, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AB00D, 22570, 0xC7AB0027, 112.1963, 145.6554, 83.91111, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

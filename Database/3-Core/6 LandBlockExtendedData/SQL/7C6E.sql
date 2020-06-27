@@ -5,16 +5,16 @@ VALUES (0x77C6E001,  1154, 0x7C6E0032, 149.6174, 27.87725, 19.20128, -0.2430912,
 /* @teleloc 0x7C6E0032 [149.617400 27.877250 19.201280] -0.243091 0.000000 0.000000 -0.970003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C6E001, 0x77C6E002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C6E001, 0x77C6E003, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x77C6E001, 0x77C6E004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6E001, 0x77C6E005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6E001, 0x77C6E006, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77C6E001, 0x77C6E007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77C6E001, 0x77C6E008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77C6E001, 0x77C6E009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6E001, 0x77C6E00A, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6E001, 0x77C6E00B, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x77C6E001, 0x77C6E002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C6E001, 0x77C6E003, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x77C6E001, 0x77C6E004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6E001, 0x77C6E005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6E001, 0x77C6E006, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77C6E001, 0x77C6E007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77C6E001, 0x77C6E008, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77C6E001, 0x77C6E009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6E001, 0x77C6E00A, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6E001, 0x77C6E00B, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6E002,  2612, 0x7C6E0032, 149.6174, 27.87725, 19.20128, -0.2430912, 0, 0, -0.9700034,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -61,9 +61,9 @@ VALUES (0x77C6E00C,  1542, 0x7C6E0018, 64.15673, 174.1628, 11.34639, 0.9914449, 
 /* @teleloc 0x7C6E0018 [64.156730 174.162800 11.346390] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C6E00C, 0x77C6E00D, '2019-02-10 00:00:00') /* Bones */
-     , (0x77C6E00C, 0x77C6E00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77C6E00C, 0x77C6E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77C6E00C, 0x77C6E00D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77C6E00C, 0x77C6E00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77C6E00C, 0x77C6E00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6E00D,  4380, 0x7C6E0018, 64.15673, 174.1628, 11.34639, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

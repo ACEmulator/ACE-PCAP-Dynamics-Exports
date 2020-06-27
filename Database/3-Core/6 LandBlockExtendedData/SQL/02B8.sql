@@ -21,42 +21,42 @@ VALUES (0x702B8030,  1154, 0x02B8027B, 159.908, -209.313, 0.006600022, 0.0239122
 /* @teleloc 0x02B8027B [159.908000 -209.313000 0.006600] 0.023912 0.000000 0.000000 -0.999714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B8030, 0x702B8031, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8032, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8033, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8034, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8035, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8036, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8037, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8038, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8039, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B803A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B803B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B803C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B803D, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B803E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B803F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8040, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8041, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8042, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8043, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8044, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8045, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8046, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8047, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8048, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8049, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B804A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B804B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B804C, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x702B8030, 0x702B804D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x702B8030, 0x702B804E, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x702B8030, 0x702B804F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8050, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702B8030, 0x702B8051, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x702B8030, 0x702B8052, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x702B8030, 0x702B8053, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702B8030, 0x702B8054, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x702B8030, 0x702B8031, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8032, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8033, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8034, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8035, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8036, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8037, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8038, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8039, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B803A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B803B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B803C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B803D, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B803E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B803F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8040, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8041, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8042, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8043, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8044, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8045, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8046, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8047, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8048, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8049, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B804A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B804B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B804C, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x702B8030, 0x702B804D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x702B8030, 0x702B804E, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x702B8030, 0x702B804F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8050, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702B8030, 0x702B8051, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x702B8030, 0x702B8052, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x702B8030, 0x702B8053, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702B8030, 0x702B8054, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B8031,  8427, 0x02B8027B, 159.908, -209.313, 0.006600022, 0.0239122, 0, 0, -0.9997141,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -207,7 +207,7 @@ VALUES (0x702B8055,  1154, 0x02B80101, 3.85726, -87.3459, -35.9945, 0.7719921, 0
 /* @teleloc 0x02B80101 [3.857260 -87.345900 -35.994500] 0.771992 0.000000 0.000000 -0.635632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B8055, 0x702B8056, '2019-02-10 00:00:00') /* Rumuba the Mosswart */;
+VALUES (0x702B8055, 0x702B8056, '2019-02-10 00:00:00') /* Rumuba the Mosswart (8614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B8056,  8614, 0x02B80101, 3.85726, -87.3459, -35.9945, 0.7719921, 0, 0, -0.6356321,  True, '2019-02-10 00:00:00'); /* Rumuba the Mosswart */

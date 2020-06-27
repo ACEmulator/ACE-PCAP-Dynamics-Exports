@@ -5,19 +5,19 @@ VALUES (0x71AB9001,  1154, 0x1AB9000C, 33.40723, 79.98181, 108.6712, 1, 0, 0, 0,
 /* @teleloc 0x1AB9000C [33.407230 79.981810 108.671200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB9001, 0x71AB9002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AB9001, 0x71AB9003, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71AB9001, 0x71AB9004, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71AB9001, 0x71AB9005, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71AB9001, 0x71AB9006, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71AB9001, 0x71AB9007, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71AB9001, 0x71AB9008, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71AB9001, 0x71AB9009, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AB9001, 0x71AB900A, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71AB9001, 0x71AB900B, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71AB9001, 0x71AB900C, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AB9001, 0x71AB900D, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71AB9001, 0x71AB900E, '2019-02-10 00:00:00') /* Hea Elder Shaman */;
+VALUES (0x71AB9001, 0x71AB9002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AB9001, 0x71AB9003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71AB9001, 0x71AB9004, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71AB9001, 0x71AB9005, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71AB9001, 0x71AB9006, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71AB9001, 0x71AB9007, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71AB9001, 0x71AB9008, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71AB9001, 0x71AB9009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AB9001, 0x71AB900A, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71AB9001, 0x71AB900B, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71AB9001, 0x71AB900C, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AB9001, 0x71AB900D, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71AB9001, 0x71AB900E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB9002, 11519, 0x1AB9000C, 33.40723, 79.98181, 108.6712, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
@@ -76,10 +76,10 @@ VALUES (0x71AB900F,  1542, 0x1AB9000D, 41.28149, 105.2198, 110.7318, 1, 0, 0, 0,
 /* @teleloc 0x1AB9000D [41.281490 105.219800 110.731800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB900F, 0x71AB9010, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x71AB900F, 0x71AB9011, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x71AB900F, 0x71AB9012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AB900F, 0x71AB9013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71AB900F, 0x71AB9010, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x71AB900F, 0x71AB9011, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x71AB900F, 0x71AB9012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AB900F, 0x71AB9013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB9010, 11556, 0x1AB9000D, 41.28149, 105.2198, 110.7318, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

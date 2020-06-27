@@ -5,18 +5,18 @@ VALUES (0x7165E001,  1154, 0x165E0035, 159.633, 104.0205, 47.48637, 0.8191521, 0
 /* @teleloc 0x165E0035 [159.633000 104.020500 47.486370] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165E001, 0x7165E002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7165E001, 0x7165E003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7165E001, 0x7165E004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7165E001, 0x7165E005, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7165E001, 0x7165E006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7165E001, 0x7165E007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7165E001, 0x7165E008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7165E001, 0x7165E009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7165E001, 0x7165E00A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7165E001, 0x7165E00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7165E001, 0x7165E00C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7165E001, 0x7165E00D, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x7165E001, 0x7165E002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7165E001, 0x7165E003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7165E001, 0x7165E004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7165E001, 0x7165E005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7165E001, 0x7165E006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7165E001, 0x7165E007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7165E001, 0x7165E008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7165E001, 0x7165E009, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7165E001, 0x7165E00A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7165E001, 0x7165E00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7165E001, 0x7165E00C, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7165E001, 0x7165E00D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165E002, 36860, 0x165E0035, 159.633, 104.0205, 47.48637, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */
@@ -71,8 +71,8 @@ VALUES (0x7165E00E,  1542, 0x165E0034, 165.0891, 81.39593, 46.01447, 0.9990482, 
 /* @teleloc 0x165E0034 [165.089100 81.395930 46.014470] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165E00E, 0x7165E00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7165E00E, 0x7165E010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7165E00E, 0x7165E00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7165E00E, 0x7165E010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165E00F,  4179, 0x165E0034, 165.0891, 81.39593, 46.01447, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -9,12 +9,12 @@ VALUES (0x7967C001,  1154, 0x967C002A, 127.5622, 31.05724, 19.992, -0.1813963, 0
 /* @teleloc 0x967C002A [127.562200 31.057240 19.992000] -0.181396 0.000000 0.000000 -0.983410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7967C001, 0x7967C002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7967C001, 0x7967C003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7967C001, 0x7967C004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7967C001, 0x7967C005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7967C001, 0x7967C006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7967C001, 0x7967C007, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7967C001, 0x7967C002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7967C001, 0x7967C003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7967C001, 0x7967C004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7967C001, 0x7967C005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7967C001, 0x7967C006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7967C001, 0x7967C007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7967C002, 24937, 0x967C002A, 127.5622, 31.05724, 19.992, -0.1813963, 0, 0, -0.9834101,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -45,11 +45,11 @@ VALUES (0x7967C008,  1542, 0x967C0039, 182.4544, 17.66572, 20.079, -0.147679, 0,
 /* @teleloc 0x967C0039 [182.454400 17.665720 20.079000] -0.147679 0.000000 0.000000 0.989035 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7967C008, 0x7967C009, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7967C008, 0x7967C00A, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7967C008, 0x7967C00B, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7967C008, 0x7967C00C, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7967C008, 0x7967C00D, '2019-02-10 00:00:00') /* Rumor */;
+VALUES (0x7967C008, 0x7967C009, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7967C008, 0x7967C00A, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7967C008, 0x7967C00B, '2019-02-10 00:00:00') /* Rumor (1514) */
+     , (0x7967C008, 0x7967C00C, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7967C008, 0x7967C00D, '2019-02-10 00:00:00') /* Rumor (1515) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7967C009,  1419, 0x967C0039, 182.4544, 17.66572, 20.079, -0.147679, 0, 0, 0.9890353,  True, '2019-02-10 00:00:00'); /* An odd note  */

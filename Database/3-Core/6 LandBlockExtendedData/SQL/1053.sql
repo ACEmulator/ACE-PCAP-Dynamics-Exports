@@ -5,13 +5,13 @@ VALUES (0x71053001,  1154, 0x10530024, 109.4436, 94.33293, 10.09267, -0.9852223,
 /* @teleloc 0x10530024 [109.443600 94.332930 10.092670] -0.985222 0.000000 0.000000 -0.171280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71053001, 0x71053002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71053001, 0x71053003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71053001, 0x71053004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71053001, 0x71053005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71053001, 0x71053006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71053001, 0x71053007, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71053001, 0x71053008, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x71053001, 0x71053002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x71053001, 0x71053003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71053001, 0x71053004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71053001, 0x71053005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71053001, 0x71053006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71053001, 0x71053007, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71053001, 0x71053008, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71053002,  7099, 0x10530024, 109.4436, 94.33293, 10.09267, -0.9852223, 0, 0, -0.1712803,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

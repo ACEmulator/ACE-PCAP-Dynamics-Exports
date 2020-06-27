@@ -5,23 +5,23 @@ VALUES (0x75E16001,  1154, 0x5E160033, 161.9726, 49.11948, 120.007, 0.1831191, 0
 /* @teleloc 0x5E160033 [161.972600 49.119480 120.007000] 0.183119 0.000000 0.000000 -0.983091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E16001, 0x75E16002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x75E16001, 0x75E16003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E16001, 0x75E16004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75E16001, 0x75E16005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75E16001, 0x75E16006, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75E16001, 0x75E16007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75E16001, 0x75E16008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75E16001, 0x75E16009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E16001, 0x75E1600A, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x75E16001, 0x75E1600B, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75E16001, 0x75E1600C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75E16001, 0x75E1600D, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75E16001, 0x75E1600E, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75E16001, 0x75E1600F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E16001, 0x75E16010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E16001, 0x75E16011, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75E16001, 0x75E16012, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x75E16001, 0x75E16002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x75E16001, 0x75E16003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E16001, 0x75E16004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75E16001, 0x75E16005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75E16001, 0x75E16006, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75E16001, 0x75E16007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75E16001, 0x75E16008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75E16001, 0x75E16009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E16001, 0x75E1600A, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x75E16001, 0x75E1600B, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75E16001, 0x75E1600C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75E16001, 0x75E1600D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75E16001, 0x75E1600E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75E16001, 0x75E1600F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E16001, 0x75E16010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E16001, 0x75E16011, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75E16001, 0x75E16012, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E16002, 14518, 0x5E160033, 161.9726, 49.11948, 120.007, 0.1831191, 0, 0, -0.9830908,  True, '2019-02-10 00:00:00'); /* Shivver */

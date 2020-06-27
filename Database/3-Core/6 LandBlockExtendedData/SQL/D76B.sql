@@ -5,24 +5,24 @@ VALUES (0x7D76B001,  1154, 0xD76B0033, 160.1091, 55.19955, 32.66858, 0.1736482, 
 /* @teleloc 0xD76B0033 [160.109100 55.199550 32.668580] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D76B001, 0x7D76B002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D76B001, 0x7D76B003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7D76B001, 0x7D76B004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7D76B001, 0x7D76B005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D76B001, 0x7D76B006, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7D76B001, 0x7D76B007, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7D76B001, 0x7D76B008, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7D76B001, 0x7D76B009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D76B001, 0x7D76B00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D76B001, 0x7D76B00B, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7D76B001, 0x7D76B00C, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7D76B001, 0x7D76B00D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D76B001, 0x7D76B00E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D76B001, 0x7D76B00F, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7D76B001, 0x7D76B010, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D76B001, 0x7D76B011, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7D76B001, 0x7D76B012, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7D76B001, 0x7D76B013, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7D76B001, 0x7D76B002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D76B001, 0x7D76B003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7D76B001, 0x7D76B004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7D76B001, 0x7D76B005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D76B001, 0x7D76B006, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7D76B001, 0x7D76B007, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7D76B001, 0x7D76B008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7D76B001, 0x7D76B009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D76B001, 0x7D76B00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D76B001, 0x7D76B00B, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7D76B001, 0x7D76B00C, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7D76B001, 0x7D76B00D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D76B001, 0x7D76B00E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D76B001, 0x7D76B00F, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7D76B001, 0x7D76B010, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D76B001, 0x7D76B011, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7D76B001, 0x7D76B012, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7D76B001, 0x7D76B013, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D76B002,   195, 0xD76B0033, 160.1091, 55.19955, 32.66858, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -101,7 +101,7 @@ VALUES (0x7D76B014,  1542, 0xD76B0005, 3.175781, 113.5028, 36.26465, 1, 0, 0, 0,
 /* @teleloc 0xD76B0005 [3.175781 113.502800 36.264650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D76B014, 0x7D76B015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D76B014, 0x7D76B015, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D76B015, 22570, 0xD76B0005, 3.175781, 113.5028, 36.26465, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

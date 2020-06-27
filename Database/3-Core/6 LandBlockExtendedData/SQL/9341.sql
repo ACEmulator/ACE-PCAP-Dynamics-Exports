@@ -5,16 +5,16 @@ VALUES (0x79341001,  1154, 0x93410038, 155.4124, 187.764, 22.50829, 0.9238795, 0
 /* @teleloc 0x93410038 [155.412400 187.764000 22.508290] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79341001, 0x79341002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79341001, 0x79341003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79341001, 0x79341004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79341001, 0x79341005, '2019-02-10 00:00:00') /* Pure One */
-     , (0x79341001, 0x79341006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79341001, 0x79341007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79341001, 0x79341008, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79341001, 0x79341009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79341001, 0x7934100A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79341001, 0x7934100B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */;
+VALUES (0x79341001, 0x79341002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79341001, 0x79341003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79341001, 0x79341004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79341001, 0x79341005, '2019-02-10 00:00:00') /* Pure One (11988) */
+     , (0x79341001, 0x79341006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79341001, 0x79341007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79341001, 0x79341008, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79341001, 0x79341009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79341001, 0x7934100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79341001, 0x7934100B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79341002, 24940, 0x93410038, 155.4124, 187.764, 22.50829, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -61,7 +61,7 @@ VALUES (0x7934100C,  1542, 0x93410038, 148.8755, 187.67, 21.18742, 1, 0, 0, 0, F
 /* @teleloc 0x93410038 [148.875500 187.670000 21.187420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7934100C, 0x7934100D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7934100C, 0x7934100D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7934100D, 22576, 0x93410038, 148.8755, 187.67, 21.18742, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

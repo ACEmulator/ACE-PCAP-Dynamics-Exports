@@ -5,16 +5,16 @@ VALUES (0x7DEC8001,  1154, 0xDEC8003B, 178.3059, 49.16602, 32.95932, -0.8148988,
 /* @teleloc 0xDEC8003B [178.305900 49.166020 32.959320] -0.814899 0.000000 0.000000 -0.579603 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DEC8001, 0x7DEC8002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7DEC8001, 0x7DEC8003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DEC8001, 0x7DEC8004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DEC8001, 0x7DEC8005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DEC8001, 0x7DEC8006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC8001, 0x7DEC8007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DEC8001, 0x7DEC8008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7DEC8001, 0x7DEC8009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DEC8001, 0x7DEC800A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DEC8001, 0x7DEC800B, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7DEC8001, 0x7DEC8002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7DEC8001, 0x7DEC8003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DEC8001, 0x7DEC8004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DEC8001, 0x7DEC8005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DEC8001, 0x7DEC8006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC8001, 0x7DEC8007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DEC8001, 0x7DEC8008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7DEC8001, 0x7DEC8009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DEC8001, 0x7DEC800A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DEC8001, 0x7DEC800B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DEC8002, 35733, 0xDEC8003B, 178.3059, 49.16602, 32.95932, -0.8148988, 0, 0, -0.5796032,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */

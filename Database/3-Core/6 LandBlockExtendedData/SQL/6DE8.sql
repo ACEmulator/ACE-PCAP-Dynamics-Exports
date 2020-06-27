@@ -5,11 +5,11 @@ VALUES (0x76DE8001,  1154, 0x6DE80033, 158.3607, 50.76739, 248.3322, 1, 0, 0, 0,
 /* @teleloc 0x6DE80033 [158.360700 50.767390 248.332200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76DE8001, 0x76DE8002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x76DE8001, 0x76DE8003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x76DE8001, 0x76DE8004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76DE8001, 0x76DE8005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76DE8001, 0x76DE8006, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x76DE8001, 0x76DE8002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x76DE8001, 0x76DE8003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x76DE8001, 0x76DE8004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x76DE8001, 0x76DE8005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x76DE8001, 0x76DE8006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76DE8002, 21550, 0x6DE80033, 158.3607, 50.76739, 248.3322, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */

@@ -9,41 +9,41 @@ VALUES (0x7BC17001,  1154, 0xBC17001B, 81.94375, 53.20436, 245.8488, 0.862619, 0
 /* @teleloc 0xBC17001B [81.943750 53.204360 245.848800] 0.862619 0.000000 0.000000 -0.505854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC17001, 0x7BC17002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC17001, 0x7BC17003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BC17001, 0x7BC17004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BC17001, 0x7BC17005, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7BC17001, 0x7BC17006, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BC17001, 0x7BC17007, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BC17001, 0x7BC17008, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BC17001, 0x7BC17009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC17001, 0x7BC1700A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC17001, 0x7BC1700B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC17001, 0x7BC1700C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BC17001, 0x7BC1700D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC17001, 0x7BC1700E, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BC17001, 0x7BC1700F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC17001, 0x7BC17010, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BC17001, 0x7BC17011, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BC17001, 0x7BC17012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC17001, 0x7BC17013, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC17001, 0x7BC17014, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC17001, 0x7BC17015, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC17001, 0x7BC17016, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC17001, 0x7BC17017, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7BC17001, 0x7BC17018, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC17001, 0x7BC17019, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BC17001, 0x7BC1701A, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BC17001, 0x7BC1701B, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BC17001, 0x7BC1701C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BC17001, 0x7BC1701D, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BC17001, 0x7BC1701E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BC17001, 0x7BC1701F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC17001, 0x7BC17020, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BC17001, 0x7BC17021, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BC17001, 0x7BC17022, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BC17001, 0x7BC17023, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC17001, 0x7BC17024, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7BC17001, 0x7BC17002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC17001, 0x7BC17003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BC17001, 0x7BC17004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BC17001, 0x7BC17005, '2019-02-10 00:00:00') /* Exploration Marker (39766) */
+     , (0x7BC17001, 0x7BC17006, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BC17001, 0x7BC17007, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BC17001, 0x7BC17008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BC17001, 0x7BC17009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC17001, 0x7BC1700A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC17001, 0x7BC1700B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC17001, 0x7BC1700C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BC17001, 0x7BC1700D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC17001, 0x7BC1700E, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BC17001, 0x7BC1700F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC17001, 0x7BC17010, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BC17001, 0x7BC17011, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BC17001, 0x7BC17012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC17001, 0x7BC17013, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC17001, 0x7BC17014, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC17001, 0x7BC17015, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC17001, 0x7BC17016, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC17001, 0x7BC17017, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7BC17001, 0x7BC17018, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC17001, 0x7BC17019, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BC17001, 0x7BC1701A, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BC17001, 0x7BC1701B, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BC17001, 0x7BC1701C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BC17001, 0x7BC1701D, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BC17001, 0x7BC1701E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BC17001, 0x7BC1701F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC17001, 0x7BC17020, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BC17001, 0x7BC17021, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BC17001, 0x7BC17022, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BC17001, 0x7BC17023, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC17001, 0x7BC17024, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC17002,  7107, 0xBC17001B, 81.94375, 53.20436, 245.8488, 0.862619, 0, 0, -0.5058541,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

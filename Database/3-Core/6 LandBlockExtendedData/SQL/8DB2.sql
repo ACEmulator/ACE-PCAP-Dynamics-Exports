@@ -5,11 +5,11 @@ VALUES (0x78DB2001,  1154, 0x8DB20004, 20.8817, 82.8949, 48.27086, 0.4794658, 0,
 /* @teleloc 0x8DB20004 [20.881700 82.894900 48.270860] 0.479466 0.000000 0.000000 -0.877561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB2001, 0x78DB2002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB2001, 0x78DB2003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DB2001, 0x78DB2004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78DB2001, 0x78DB2005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78DB2001, 0x78DB2006, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x78DB2001, 0x78DB2002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB2001, 0x78DB2003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DB2001, 0x78DB2004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78DB2001, 0x78DB2005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78DB2001, 0x78DB2006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB2002,  1629, 0x8DB20004, 20.8817, 82.8949, 48.27086, 0.4794658, 0, 0, -0.8775606,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -36,7 +36,7 @@ VALUES (0x78DB2007,  1542, 0x8DB2001D, 87.6663, 102.2666, 48, -4.371139E-08, 0, 
 /* @teleloc 0x8DB2001D [87.666300 102.266600 48.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB2007, 0x78DB2008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78DB2007, 0x78DB2008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB2008,  4380, 0x8DB2001D, 87.6663, 102.2666, 48, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

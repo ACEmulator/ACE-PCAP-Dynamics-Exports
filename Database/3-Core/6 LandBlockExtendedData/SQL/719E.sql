@@ -5,11 +5,11 @@ VALUES (0x7719E001,  1154, 0x719E003A, 189.6773, 46.24069, 128.1569, 0.1185395, 
 /* @teleloc 0x719E003A [189.677300 46.240690 128.156900] 0.118540 0.000000 0.000000 -0.992949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719E001, 0x7719E002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7719E001, 0x7719E003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7719E001, 0x7719E004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7719E001, 0x7719E005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7719E001, 0x7719E006, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7719E001, 0x7719E002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7719E001, 0x7719E003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7719E001, 0x7719E004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7719E001, 0x7719E005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7719E001, 0x7719E006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719E002,  7089, 0x719E003A, 189.6773, 46.24069, 128.1569, 0.1185395, 0, 0, -0.9929494,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -36,7 +36,7 @@ VALUES (0x7719E007,  1542, 0x719E0002, 19.19346, 44.41558, 85.89816, -0.2964425,
 /* @teleloc 0x719E0002 [19.193460 44.415580 85.898160] -0.296443 0.000000 0.000000 -0.955051 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719E007, 0x7719E008, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7719E007, 0x7719E008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719E008,  8041, 0x719E0002, 19.19346, 44.41558, 85.89816, -0.2964425, 0, 0, -0.9550507,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

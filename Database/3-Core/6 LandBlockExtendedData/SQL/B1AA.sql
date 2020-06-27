@@ -5,40 +5,40 @@ VALUES (0x7B1AA001,  1154, 0xB1AA001C, 83.71587, 93.08493, 37.81443, 0.7004994, 
 /* @teleloc 0xB1AA001C [83.715870 93.084930 37.814430] 0.700499 0.000000 0.000000 -0.713653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1AA001, 0x7B1AA002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B1AA001, 0x7B1AA003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B1AA001, 0x7B1AA004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B1AA001, 0x7B1AA005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B1AA001, 0x7B1AA006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1AA001, 0x7B1AA007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1AA001, 0x7B1AA008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA00A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA00B, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA00C, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA00D, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1AA001, 0x7B1AA00E, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1AA001, 0x7B1AA00F, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B1AA001, 0x7B1AA010, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1AA001, 0x7B1AA011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1AA001, 0x7B1AA012, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1AA001, 0x7B1AA013, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B1AA001, 0x7B1AA014, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B1AA001, 0x7B1AA015, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1AA001, 0x7B1AA016, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA017, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1AA001, 0x7B1AA018, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA019, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1AA001, 0x7B1AA01A, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1AA001, 0x7B1AA01B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1AA001, 0x7B1AA01C, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B1AA001, 0x7B1AA01D, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B1AA001, 0x7B1AA01E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1AA001, 0x7B1AA01F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1AA001, 0x7B1AA020, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B1AA001, 0x7B1AA021, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B1AA001, 0x7B1AA022, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1AA001, 0x7B1AA023, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7B1AA001, 0x7B1AA002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B1AA001, 0x7B1AA003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B1AA001, 0x7B1AA004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B1AA001, 0x7B1AA005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B1AA001, 0x7B1AA006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1AA001, 0x7B1AA007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1AA001, 0x7B1AA008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA00A, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA00B, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA00D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1AA001, 0x7B1AA00E, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1AA001, 0x7B1AA00F, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B1AA001, 0x7B1AA010, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1AA001, 0x7B1AA011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1AA001, 0x7B1AA012, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1AA001, 0x7B1AA013, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B1AA001, 0x7B1AA014, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B1AA001, 0x7B1AA015, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1AA001, 0x7B1AA016, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA017, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1AA001, 0x7B1AA018, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA019, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1AA001, 0x7B1AA01A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1AA001, 0x7B1AA01B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1AA001, 0x7B1AA01C, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B1AA001, 0x7B1AA01D, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B1AA001, 0x7B1AA01E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1AA001, 0x7B1AA01F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1AA001, 0x7B1AA020, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B1AA001, 0x7B1AA021, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B1AA001, 0x7B1AA022, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1AA001, 0x7B1AA023, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1AA002,   942, 0xB1AA001C, 83.71587, 93.08493, 37.81443, 0.7004994, 0, 0, -0.713653,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -181,9 +181,9 @@ VALUES (0x7B1AA024,  1542, 0xB1AA0028, 109.146, 182.7508, 38.97181, -4.371139E-0
 /* @teleloc 0xB1AA0028 [109.146000 182.750800 38.971810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1AA024, 0x7B1AA025, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B1AA024, 0x7B1AA026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B1AA024, 0x7B1AA027, '2019-02-10 00:00:00') /* Studded Leather Gauntlets */;
+VALUES (0x7B1AA024, 0x7B1AA025, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B1AA024, 0x7B1AA026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B1AA024, 0x7B1AA027, '2019-02-10 00:00:00') /* Studded Leather Gauntlets (59) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1AA025,  4380, 0xB1AA0028, 109.146, 182.7508, 38.97181, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

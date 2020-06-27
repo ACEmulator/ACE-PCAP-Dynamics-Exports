@@ -5,10 +5,10 @@ VALUES (0x7B69F001,  1154, 0xB69F0008, 5.497739, 174.0158, 54.04737, 0.9961947, 
 /* @teleloc 0xB69F0008 [5.497739 174.015800 54.047370] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69F001, 0x7B69F002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B69F001, 0x7B69F003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B69F001, 0x7B69F004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B69F001, 0x7B69F005, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7B69F001, 0x7B69F002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B69F001, 0x7B69F003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B69F001, 0x7B69F004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B69F001, 0x7B69F005, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69F002,   940, 0xB69F0008, 5.497739, 174.0158, 54.04737, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -31,7 +31,7 @@ VALUES (0x7B69F006,  1542, 0xB69F0008, 7.660097, 173.4464, 53.81553, 1, 0, 0, 0,
 /* @teleloc 0xB69F0008 [7.660097 173.446400 53.815530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69F006, 0x7B69F007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B69F006, 0x7B69F007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69F007,  4179, 0xB69F0008, 7.660097, 173.4464, 53.81553, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

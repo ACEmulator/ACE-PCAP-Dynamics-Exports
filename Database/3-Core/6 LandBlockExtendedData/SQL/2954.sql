@@ -5,12 +5,12 @@ VALUES (0x72954001,  1154, 0x2954002A, 122.9127, 38.50121, 8.309711, -0.9477189,
 /* @teleloc 0x2954002A [122.912700 38.501210 8.309711] -0.947719 0.000000 0.000000 -0.319106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72954001, 0x72954002, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72954001, 0x72954003, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72954001, 0x72954004, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72954001, 0x72954005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72954001, 0x72954006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72954001, 0x72954007, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x72954001, 0x72954002, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72954001, 0x72954003, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72954001, 0x72954004, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72954001, 0x72954005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72954001, 0x72954006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72954001, 0x72954007, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72954002, 23568, 0x2954002A, 122.9127, 38.50121, 8.309711, -0.9477189, 0, 0, -0.3191063,  True, '2019-02-10 00:00:00'); /* Dreadful Ursuin */
@@ -41,7 +41,7 @@ VALUES (0x72954008,  1542, 0x2954000C, 27.35466, 82.14439, 22.56581, 0.06633945,
 /* @teleloc 0x2954000C [27.354660 82.144390 22.565810] 0.066339 0.000000 0.000000 -0.997797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72954008, 0x72954009, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72954008, 0x72954009, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72954009, 46284, 0x2954000C, 27.35466, 82.14439, 22.56581, 0.06633945, 0, 0, -0.9977971,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

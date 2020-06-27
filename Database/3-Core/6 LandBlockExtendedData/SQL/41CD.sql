@@ -5,7 +5,7 @@ VALUES (0x741CD001,  1154, 0x41CD0016, 70.56989, 124.5953, 9.646055, -0.9408867,
 /* @teleloc 0x41CD0016 [70.569890 124.595300 9.646055] -0.940887 0.000000 0.000000 -0.338721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741CD001, 0x741CD002, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x741CD001, 0x741CD002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741CD002,  7340, 0x41CD0016, 70.56989, 124.5953, 9.646055, -0.9408867, 0, 0, -0.3387214,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

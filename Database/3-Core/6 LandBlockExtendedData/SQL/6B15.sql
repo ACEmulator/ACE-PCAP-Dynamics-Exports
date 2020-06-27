@@ -5,8 +5,8 @@ VALUES (0x76B15001,  1154, 0x6B15002F, 132.2703, 151.466, 68.00625, -0.9216546, 
 /* @teleloc 0x6B15002F [132.270300 151.466000 68.006250] -0.921655 0.000000 0.000000 -0.388011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B15001, 0x76B15002, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x76B15001, 0x76B15003, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x76B15001, 0x76B15002, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x76B15001, 0x76B15003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B15002,  9255, 0x6B15002F, 132.2703, 151.466, 68.00625, -0.9216546, 0, 0, -0.3880114,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */

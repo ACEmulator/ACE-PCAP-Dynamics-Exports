@@ -5,17 +5,17 @@ VALUES (0x7B6AA001,  1154, 0xB6AA0015, 62.24333, 100.16, 96.85328, 0.4255301, 0,
 /* @teleloc 0xB6AA0015 [62.243330 100.160000 96.853280] 0.425530 0.000000 0.000000 -0.904944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6AA001, 0x7B6AA002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B6AA001, 0x7B6AA003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B6AA001, 0x7B6AA004, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B6AA001, 0x7B6AA005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B6AA001, 0x7B6AA006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B6AA001, 0x7B6AA007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B6AA001, 0x7B6AA008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B6AA001, 0x7B6AA009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B6AA001, 0x7B6AA00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B6AA001, 0x7B6AA00B, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B6AA001, 0x7B6AA00C, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7B6AA001, 0x7B6AA002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B6AA001, 0x7B6AA003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B6AA001, 0x7B6AA004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B6AA001, 0x7B6AA005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B6AA001, 0x7B6AA006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B6AA001, 0x7B6AA007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B6AA001, 0x7B6AA008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B6AA001, 0x7B6AA009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B6AA001, 0x7B6AA00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B6AA001, 0x7B6AA00B, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B6AA001, 0x7B6AA00C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6AA002,   217, 0xB6AA0015, 62.24333, 100.16, 96.85328, 0.4255301, 0, 0, -0.9049442,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

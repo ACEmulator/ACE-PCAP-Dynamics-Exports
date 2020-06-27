@@ -21,189 +21,189 @@ VALUES (0x700D304E,  1154, 0x00D305E7, 182.606, -172.963, -12, -0.3303179, 0, 0,
 /* @teleloc 0x00D305E7 [182.606000 -172.963000 -12.000000] -0.330318 0.000000 0.000000 0.943870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D304E, 0x700D304F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3050, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3051, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3052, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3053, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3054, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3055, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3056, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3057, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3058, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3059, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D305A, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D305B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D305C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D305D, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D305E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D305F, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3060, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3061, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3062, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3063, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3064, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3065, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3066, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3067, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3068, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3069, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D306A, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D306B, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D306C, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D306D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D306E, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D306F, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3070, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3071, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3072, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3073, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3074, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3075, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3076, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3077, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3078, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3079, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D307A, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D307B, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D307C, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D307D, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D307E, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D307F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3080, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3081, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3082, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3083, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3084, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3085, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3086, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3087, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3088, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3089, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D308A, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D308B, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D308C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D308D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D308E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D308F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3090, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3091, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3092, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3093, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3094, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3095, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3096, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3097, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3098, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3099, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D309A, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D309B, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D309C, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D309D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D309E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D309F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30A0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30A1, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30A2, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30A3, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30A4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30A5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30A6, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30A7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30A8, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30A9, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30AA, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30AB, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30AC, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30AD, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30AE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30AF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30B1, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30B2, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B3, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B6, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30B7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B8, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30B9, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30BA, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30BB, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30BC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30BD, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30BE, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30BF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30C1, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30C2, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C3, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30C4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C6, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30C7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C8, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30C9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30CA, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30CB, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30CC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30CD, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30CE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30CF, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D1, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D2, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D3, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30D4, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30D6, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30D7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30D8, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30D9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30DA, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30DB, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30DC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30DD, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30DE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30DF, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E1, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E2, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30E3, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E4, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E5, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E6, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30E7, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E8, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30E9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30EA, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30EB, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30EC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30ED, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30EE, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30EF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30F0, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30F1, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30F2, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30F3, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30F4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30F5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30F6, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30F7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30F8, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30F9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30FA, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30FB, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30FC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30FD, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D30FE, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D30FF, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3100, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3101, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D304E, 0x700D3102, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3103, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3104, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D304E, 0x700D3105, '2019-02-10 00:00:00') /* Enoki Thrungus */;
+VALUES (0x700D304E, 0x700D304F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3050, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3051, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3052, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3053, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3054, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3055, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3056, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3057, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3058, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3059, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D305A, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D305B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D305C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D305D, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D305E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D305F, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3060, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3061, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3062, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3063, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3064, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3065, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3066, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3067, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3068, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3069, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D306A, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D306B, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D306C, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D306D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D306E, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D306F, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3070, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3071, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3072, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3073, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3074, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3075, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3076, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3077, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3078, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3079, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D307A, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D307B, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D307C, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D307D, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D307E, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D307F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3080, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3081, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3082, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3083, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3084, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3085, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3086, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3087, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3088, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3089, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D308A, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D308B, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D308C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D308D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D308E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D308F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3090, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3091, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3092, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3093, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3094, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3095, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3096, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3097, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3098, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3099, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D309A, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D309B, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D309C, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D309D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D309E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D309F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30A0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30A1, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30A2, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30A3, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30A4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30A5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30A6, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30A7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30A8, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30A9, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30AA, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30AB, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30AC, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30AD, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30AE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30AF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30B1, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30B2, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B3, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B6, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30B7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B8, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30B9, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30BA, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30BB, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30BC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30BD, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30BE, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30BF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30C1, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30C2, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C3, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30C4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C6, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30C7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C8, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30C9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30CA, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30CB, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30CC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30CD, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30CE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30CF, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D1, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D2, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D3, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30D4, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30D6, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30D7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30D8, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30D9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30DA, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30DB, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30DC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30DD, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30DE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30DF, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E1, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E2, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30E3, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E4, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E5, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E6, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30E7, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E8, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30E9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30EA, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30EB, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30EC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30ED, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30EE, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30EF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30F0, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30F1, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30F2, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30F3, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30F4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30F5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30F6, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30F7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30F8, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30F9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30FA, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30FB, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30FC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30FD, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D30FE, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D30FF, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3100, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3101, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D304E, 0x700D3102, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3103, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3104, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D304E, 0x700D3105, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D304F, 29297, 0x00D305E7, 182.606, -172.963, -12, -0.3303179, 0, 0, 0.9438697,  True, '2019-02-10 00:00:00'); /* Truffle Thrungus */
@@ -942,24 +942,24 @@ VALUES (0x700D3106,  1542, 0x00D305CA, 165.7175, -121.4807, -12.00175, 0.4084879
 /* @teleloc 0x00D305CA [165.717500 -121.480700 -12.001750] 0.408488 0.000000 0.000000 0.912764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D3106, 0x700D3107, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3108, '2019-02-10 00:00:00') /* Red Glow Mushroom */
-     , (0x700D3106, 0x700D3109, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D310A, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D310B, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D310C, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D310D, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D310E, '2019-02-10 00:00:00') /* Red Glow Mushroom */
-     , (0x700D3106, 0x700D310F, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3110, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3111, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3112, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3113, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3114, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D3106, 0x700D3115, '2019-02-10 00:00:00') /* Red Glow Mushroom */
-     , (0x700D3106, 0x700D3116, '2019-02-10 00:00:00') /* Red Glow Mushroom */
-     , (0x700D3106, 0x700D3117, '2019-02-10 00:00:00') /* Red Glow Mushroom */
-     , (0x700D3106, 0x700D3118, '2019-02-10 00:00:00') /* Green Glow Mushroom */;
+VALUES (0x700D3106, 0x700D3107, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3108, '2019-02-10 00:00:00') /* Red Glow Mushroom (34836) */
+     , (0x700D3106, 0x700D3109, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D310A, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D310B, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D310C, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D310D, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D310E, '2019-02-10 00:00:00') /* Red Glow Mushroom (34836) */
+     , (0x700D3106, 0x700D310F, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3110, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3111, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3112, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3113, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3114, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D3106, 0x700D3115, '2019-02-10 00:00:00') /* Red Glow Mushroom (34836) */
+     , (0x700D3106, 0x700D3116, '2019-02-10 00:00:00') /* Red Glow Mushroom (34836) */
+     , (0x700D3106, 0x700D3117, '2019-02-10 00:00:00') /* Red Glow Mushroom (34836) */
+     , (0x700D3106, 0x700D3118, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D3107, 34835, 0x00D305CA, 165.7175, -121.4807, -12.00175, 0.4084879, 0, 0, 0.9127637,  True, '2019-02-10 00:00:00'); /* Green Glow Mushroom */

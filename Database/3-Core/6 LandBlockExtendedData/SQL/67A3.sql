@@ -5,14 +5,14 @@ VALUES (0x767A3001,  1154, 0x67A3003B, 183.2305, 55.61428, 72.8269, 0.4186782, 0
 /* @teleloc 0x67A3003B [183.230500 55.614280 72.826900] 0.418678 0.000000 0.000000 -0.908135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767A3001, 0x767A3002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x767A3001, 0x767A3003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x767A3001, 0x767A3004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x767A3001, 0x767A3005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x767A3001, 0x767A3006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x767A3001, 0x767A3007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x767A3001, 0x767A3008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x767A3001, 0x767A3009, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x767A3001, 0x767A3002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x767A3001, 0x767A3003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x767A3001, 0x767A3004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x767A3001, 0x767A3005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x767A3001, 0x767A3006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x767A3001, 0x767A3007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x767A3001, 0x767A3008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x767A3001, 0x767A3009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767A3002,  5748, 0x67A3003B, 183.2305, 55.61428, 72.8269, 0.4186782, 0, 0, -0.9081347,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

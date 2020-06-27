@@ -5,20 +5,20 @@ VALUES (0x7E264001,  1154, 0xE2640001, 16.63249, 20.09824, 0.01050007, 0.9238795
 /* @teleloc 0xE2640001 [16.632490 20.098240 0.010500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E264001, 0x7E264002, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E264001, 0x7E264003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E264001, 0x7E264004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E264001, 0x7E264005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E264001, 0x7E264006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E264001, 0x7E264007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E264001, 0x7E264008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E264001, 0x7E264009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E264001, 0x7E26400A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E264001, 0x7E26400B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E264001, 0x7E26400C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E264001, 0x7E26400D, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E264001, 0x7E26400E, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E264001, 0x7E26400F, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7E264001, 0x7E264002, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E264001, 0x7E264003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E264001, 0x7E264004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E264001, 0x7E264005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E264001, 0x7E264006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E264001, 0x7E264007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E264001, 0x7E264008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E264001, 0x7E264009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E264001, 0x7E26400A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E264001, 0x7E26400B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E264001, 0x7E26400C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E264001, 0x7E26400D, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E264001, 0x7E26400E, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E264001, 0x7E26400F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E264002,  2565, 0xE2640001, 16.63249, 20.09824, 0.01050007, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
@@ -81,7 +81,7 @@ VALUES (0x7E264010,  1542, 0xE264001B, 95.07908, 53.56573, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xE264001B [95.079080 53.565730 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E264010, 0x7E264011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E264010, 0x7E264011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E264011,  4179, 0xE264001B, 95.07908, 53.56573, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

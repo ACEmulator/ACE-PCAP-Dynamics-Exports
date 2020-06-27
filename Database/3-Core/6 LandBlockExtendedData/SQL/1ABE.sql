@@ -5,7 +5,7 @@ VALUES (0x71ABE001,  1154, 0x1ABE003E, 190.3126, 131.4608, 115.2307, 1, 0, 0, 0,
 /* @teleloc 0x1ABE003E [190.312600 131.460800 115.230700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABE001, 0x71ABE002, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x71ABE001, 0x71ABE002, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABE002, 11520, 0x1ABE003E, 190.3126, 131.4608, 115.2307, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Nualuan */
@@ -16,14 +16,14 @@ VALUES (0x71ABE003,  1542, 0x1ABE0039, 183.4689, 15.28493, 148, 0.92388, 0, 0, -
 /* @teleloc 0x1ABE0039 [183.468900 15.284930 148.000000] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABE003, 0x71ABE004, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE005, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE006, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE007, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE008, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE009, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE00A, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x71ABE003, 0x71ABE00B, '2019-02-10 00:00:00') /* Menhir Stone */;
+VALUES (0x71ABE003, 0x71ABE004, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x71ABE003, 0x71ABE005, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x71ABE003, 0x71ABE006, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x71ABE003, 0x71ABE007, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x71ABE003, 0x71ABE008, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x71ABE003, 0x71ABE009, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x71ABE003, 0x71ABE00A, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x71ABE003, 0x71ABE00B, '2019-02-10 00:00:00') /* Menhir Stone (12097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABE004, 12108, 0x1ABE0039, 183.4689, 15.28493, 148, 0.92388, 0, 0, -0.382683,  True, '2019-02-10 00:00:00'); /* Menhir Stone */

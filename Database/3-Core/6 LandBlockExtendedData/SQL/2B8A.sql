@@ -5,15 +5,15 @@ VALUES (0x72B8A001,  1154, 0x2B8A0002, 11.68719, 39.20956, 148, 0.9112839, 0, 0,
 /* @teleloc 0x2B8A0002 [11.687190 39.209560 148.000000] 0.911284 0.000000 0.000000 -0.411779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B8A001, 0x72B8A002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B8A001, 0x72B8A003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72B8A001, 0x72B8A004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72B8A001, 0x72B8A005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72B8A001, 0x72B8A006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72B8A001, 0x72B8A007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72B8A001, 0x72B8A008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72B8A001, 0x72B8A009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B8A001, 0x72B8A00A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x72B8A001, 0x72B8A002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B8A001, 0x72B8A003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72B8A001, 0x72B8A004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72B8A001, 0x72B8A005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72B8A001, 0x72B8A006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72B8A001, 0x72B8A007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72B8A001, 0x72B8A008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72B8A001, 0x72B8A009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B8A001, 0x72B8A00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B8A002, 23482, 0x2B8A0002, 11.68719, 39.20956, 148, 0.9112839, 0, 0, -0.4117787,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -56,8 +56,8 @@ VALUES (0x72B8A00B,  1542, 0x2B8A000B, 39.76167, 54.85862, 148, -4.371139E-08, 0
 /* @teleloc 0x2B8A000B [39.761670 54.858620 148.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B8A00B, 0x72B8A00C, '2019-02-10 00:00:00') /* Bones */
-     , (0x72B8A00B, 0x72B8A00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72B8A00B, 0x72B8A00C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72B8A00B, 0x72B8A00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B8A00C,  4380, 0x2B8A000B, 39.76167, 54.85862, 148, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,9 +5,9 @@ VALUES (0x7D8CE001,  1154, 0xD8CE0029, 130.9837, 20.69532, 75.91086, 0.7698216, 
 /* @teleloc 0xD8CE0029 [130.983700 20.695320 75.910860] 0.769822 0.000000 0.000000 -0.638259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8CE001, 0x7D8CE002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8CE001, 0x7D8CE003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D8CE001, 0x7D8CE004, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x7D8CE001, 0x7D8CE002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8CE001, 0x7D8CE003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D8CE001, 0x7D8CE004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8CE002,     3, 0xD8CE0029, 130.9837, 20.69532, 75.91086, 0.7698216, 0, 0, -0.6382591,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

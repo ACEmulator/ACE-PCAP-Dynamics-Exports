@@ -5,29 +5,29 @@ VALUES (0x7315D001,  1154, 0x315D0030, 129.5183, 169.7213, 32.0075, -4.371139E-0
 /* @teleloc 0x315D0030 [129.518300 169.721300 32.007500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315D001, 0x7315D002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7315D001, 0x7315D003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7315D001, 0x7315D004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7315D001, 0x7315D005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7315D001, 0x7315D006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7315D001, 0x7315D007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7315D001, 0x7315D008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7315D001, 0x7315D009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7315D001, 0x7315D00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7315D001, 0x7315D00B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7315D001, 0x7315D00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7315D001, 0x7315D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7315D001, 0x7315D00E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7315D001, 0x7315D00F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7315D001, 0x7315D010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7315D001, 0x7315D011, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7315D001, 0x7315D012, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7315D001, 0x7315D013, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7315D001, 0x7315D014, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7315D001, 0x7315D015, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7315D001, 0x7315D016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7315D001, 0x7315D017, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7315D001, 0x7315D018, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x7315D001, 0x7315D002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7315D001, 0x7315D003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7315D001, 0x7315D004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7315D001, 0x7315D005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7315D001, 0x7315D006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7315D001, 0x7315D007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7315D001, 0x7315D008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7315D001, 0x7315D009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7315D001, 0x7315D00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7315D001, 0x7315D00B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7315D001, 0x7315D00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7315D001, 0x7315D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7315D001, 0x7315D00E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7315D001, 0x7315D00F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7315D001, 0x7315D010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7315D001, 0x7315D011, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7315D001, 0x7315D012, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7315D001, 0x7315D013, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7315D001, 0x7315D014, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7315D001, 0x7315D015, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7315D001, 0x7315D016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7315D001, 0x7315D017, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7315D001, 0x7315D018, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315D002, 24326, 0x315D0030, 129.5183, 169.7213, 32.0075, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -126,7 +126,7 @@ VALUES (0x7315D019,  1542, 0x315D001A, 90.02621, 26.71906, 0.950992, 1, 0, 0, 0,
 /* @teleloc 0x315D001A [90.026210 26.719060 0.950992] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315D019, 0x7315D01A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7315D019, 0x7315D01A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315D01A, 22567, 0x315D001A, 90.02621, 26.71906, 0.950992, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

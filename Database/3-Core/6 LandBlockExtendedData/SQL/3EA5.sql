@@ -5,38 +5,38 @@ VALUES (0x73EA5001,  1154, 0x3EA50030, 125.7653, 183.2966, 6.85289, 1, 0, 0, 0, 
 /* @teleloc 0x3EA50030 [125.765300 183.296600 6.852890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA5001, 0x73EA5002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA5001, 0x73EA5003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EA5001, 0x73EA5004, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA5005, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA5006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x73EA5001, 0x73EA5007, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA5008, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA5009, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA500A, '2019-02-10 00:00:00') /* Frost */
-     , (0x73EA5001, 0x73EA500B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EA5001, 0x73EA500C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73EA5001, 0x73EA500D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73EA5001, 0x73EA500E, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73EA5001, 0x73EA500F, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73EA5001, 0x73EA5010, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73EA5001, 0x73EA5011, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x73EA5001, 0x73EA5012, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73EA5001, 0x73EA5013, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73EA5001, 0x73EA5014, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x73EA5001, 0x73EA5015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EA5001, 0x73EA5016, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73EA5001, 0x73EA5017, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73EA5001, 0x73EA5018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73EA5001, 0x73EA5019, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73EA5001, 0x73EA501A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73EA5001, 0x73EA501B, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x73EA5001, 0x73EA501C, '2019-02-10 00:00:00') /* Static */
-     , (0x73EA5001, 0x73EA501D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73EA5001, 0x73EA501E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73EA5001, 0x73EA501F, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x73EA5001, 0x73EA5020, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x73EA5001, 0x73EA5021, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x73EA5001, 0x73EA5002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA5001, 0x73EA5003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EA5001, 0x73EA5004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA5005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA5006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x73EA5001, 0x73EA5007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA5008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA5009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA500A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73EA5001, 0x73EA500B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EA5001, 0x73EA500C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73EA5001, 0x73EA500D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73EA5001, 0x73EA500E, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73EA5001, 0x73EA500F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73EA5001, 0x73EA5010, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73EA5001, 0x73EA5011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x73EA5001, 0x73EA5012, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73EA5001, 0x73EA5013, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73EA5001, 0x73EA5014, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x73EA5001, 0x73EA5015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EA5001, 0x73EA5016, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73EA5001, 0x73EA5017, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73EA5001, 0x73EA5018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73EA5001, 0x73EA5019, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73EA5001, 0x73EA501A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73EA5001, 0x73EA501B, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x73EA5001, 0x73EA501C, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x73EA5001, 0x73EA501D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73EA5001, 0x73EA501E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73EA5001, 0x73EA501F, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x73EA5001, 0x73EA5020, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x73EA5001, 0x73EA5021, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA5002,  7123, 0x3EA50030, 125.7653, 183.2966, 6.85289, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -171,8 +171,8 @@ VALUES (0x73EA5022,  1542, 0x3EA5002D, 137.1976, 98.31678, 4.635523, -4.371139E-
 /* @teleloc 0x3EA5002D [137.197600 98.316780 4.635523] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA5022, 0x73EA5023, '2019-02-10 00:00:00') /* Bones */
-     , (0x73EA5022, 0x73EA5024, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73EA5022, 0x73EA5023, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73EA5022, 0x73EA5024, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA5023,  4380, 0x3EA5002D, 137.1976, 98.31678, 4.635523, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

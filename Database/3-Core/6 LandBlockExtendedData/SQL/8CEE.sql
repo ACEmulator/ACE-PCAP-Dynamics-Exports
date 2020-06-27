@@ -5,10 +5,10 @@ VALUES (0x78CEE001,  1154, 0x8CEE0035, 145.5986, 109.8532, 18.72736, 0.8870109, 
 /* @teleloc 0x8CEE0035 [145.598600 109.853200 18.727360] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CEE001, 0x78CEE002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CEE001, 0x78CEE003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CEE001, 0x78CEE004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78CEE001, 0x78CEE005, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78CEE001, 0x78CEE002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CEE001, 0x78CEE003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CEE001, 0x78CEE004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78CEE001, 0x78CEE005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CEE002,  7129, 0x8CEE0035, 145.5986, 109.8532, 18.72736, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */

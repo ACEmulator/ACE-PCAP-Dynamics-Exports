@@ -5,13 +5,13 @@ VALUES (0x7AED6001,  1154, 0xAED6002B, 128.0464, 64.19672, 27.33697, 0.2104688, 
 /* @teleloc 0xAED6002B [128.046400 64.196720 27.336970] 0.210469 0.000000 0.000000 -0.977601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED6001, 0x7AED6002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AED6001, 0x7AED6003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AED6001, 0x7AED6004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AED6001, 0x7AED6005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AED6001, 0x7AED6006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7AED6001, 0x7AED6007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AED6001, 0x7AED6008, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7AED6001, 0x7AED6002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AED6001, 0x7AED6003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AED6001, 0x7AED6004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AED6001, 0x7AED6005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AED6001, 0x7AED6006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7AED6001, 0x7AED6007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AED6001, 0x7AED6008, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED6002,  7124, 0xAED6002B, 128.0464, 64.19672, 27.33697, 0.2104688, 0, 0, -0.9776006,  True, '2019-02-10 00:00:00'); /* Dark Magus */

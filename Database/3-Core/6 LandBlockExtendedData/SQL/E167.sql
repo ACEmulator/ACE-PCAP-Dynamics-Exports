@@ -5,15 +5,15 @@ VALUES (0x7E167001,  1154, 0xE1670023, 113.8029, 51.91824, 0.006400108, 0.145912
 /* @teleloc 0xE1670023 [113.802900 51.918240 0.006400] 0.145912 0.000000 0.000000 -0.989298 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E167001, 0x7E167002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E167001, 0x7E167003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E167001, 0x7E167004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7E167001, 0x7E167005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E167001, 0x7E167006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E167001, 0x7E167007, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E167001, 0x7E167008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E167001, 0x7E167009, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E167001, 0x7E16700A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7E167001, 0x7E167002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E167001, 0x7E167003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E167001, 0x7E167004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7E167001, 0x7E167005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E167001, 0x7E167006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E167001, 0x7E167007, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E167001, 0x7E167008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E167001, 0x7E167009, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E167001, 0x7E16700A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E167002,  7180, 0xE1670023, 113.8029, 51.91824, 0.006400108, 0.1459124, 0, 0, -0.9892975,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

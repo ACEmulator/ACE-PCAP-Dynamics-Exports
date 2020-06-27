@@ -5,24 +5,24 @@ VALUES (0x7680F001,  1154, 0x680F0006, 15.22195, 139.675, -0.8993001, 0.9961947,
 /* @teleloc 0x680F0006 [15.221950 139.675000 -0.899300] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7680F001, 0x7680F002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7680F001, 0x7680F003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7680F001, 0x7680F004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7680F001, 0x7680F005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7680F001, 0x7680F006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7680F001, 0x7680F007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7680F001, 0x7680F008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7680F001, 0x7680F009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7680F001, 0x7680F00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7680F001, 0x7680F00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7680F001, 0x7680F00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7680F001, 0x7680F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7680F001, 0x7680F00E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7680F001, 0x7680F00F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7680F001, 0x7680F010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7680F001, 0x7680F011, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7680F001, 0x7680F012, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7680F001, 0x7680F013, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7680F001, 0x7680F002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7680F001, 0x7680F003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7680F001, 0x7680F004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7680F001, 0x7680F005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7680F001, 0x7680F006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7680F001, 0x7680F007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7680F001, 0x7680F008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7680F001, 0x7680F009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7680F001, 0x7680F00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7680F001, 0x7680F00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7680F001, 0x7680F00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7680F001, 0x7680F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7680F001, 0x7680F00E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7680F001, 0x7680F00F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7680F001, 0x7680F010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7680F001, 0x7680F011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7680F001, 0x7680F012, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7680F001, 0x7680F013, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7680F002,  7988, 0x680F0006, 15.22195, 139.675, -0.8993001, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -101,8 +101,8 @@ VALUES (0x7680F014,  1542, 0x680F000F, 29.22037, 146.3902, -0.9, 0.9990482, 0, 0
 /* @teleloc 0x680F000F [29.220370 146.390200 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7680F014, 0x7680F015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7680F014, 0x7680F016, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7680F014, 0x7680F015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7680F014, 0x7680F016, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7680F015,  4179, 0x680F000F, 29.22037, 146.3902, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

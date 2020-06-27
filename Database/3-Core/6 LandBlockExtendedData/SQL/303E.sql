@@ -5,23 +5,23 @@ VALUES (0x7303E001,  1154, 0x303E0022, 109.6312, 45.36239, -0.09000003, -0.72154
 /* @teleloc 0x303E0022 [109.631200 45.362390 -0.090000] -0.721544 0.000000 0.000000 -0.692368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7303E001, 0x7303E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7303E001, 0x7303E003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7303E001, 0x7303E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7303E001, 0x7303E005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7303E001, 0x7303E006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7303E001, 0x7303E007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7303E001, 0x7303E008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7303E001, 0x7303E009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7303E001, 0x7303E00A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7303E001, 0x7303E00B, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7303E001, 0x7303E00C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7303E001, 0x7303E00D, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7303E001, 0x7303E00E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7303E001, 0x7303E00F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7303E001, 0x7303E010, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7303E001, 0x7303E011, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7303E001, 0x7303E012, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7303E001, 0x7303E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7303E001, 0x7303E003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7303E001, 0x7303E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7303E001, 0x7303E005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7303E001, 0x7303E006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7303E001, 0x7303E007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7303E001, 0x7303E008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7303E001, 0x7303E009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7303E001, 0x7303E00A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7303E001, 0x7303E00B, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7303E001, 0x7303E00C, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E00D, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E00E, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E00F, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E010, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E011, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7303E001, 0x7303E012, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7303E002, 36829, 0x303E0022, 109.6312, 45.36239, -0.09000003, -0.7215444, 0, 0, -0.6923681,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -96,8 +96,8 @@ VALUES (0x7303E013,  1542, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0,
 /* @teleloc 0x303E0039 [169.883200 16.498210 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7303E013, 0x7303E014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7303E013, 0x7303E015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7303E013, 0x7303E014, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7303E013, 0x7303E015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7303E014, 22566, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

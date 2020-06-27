@@ -5,10 +5,10 @@ VALUES (0x79AC6001,  1154, 0x9AC6003B, 176.2967, 61.46303, 97.48631, -0.1168682,
 /* @teleloc 0x9AC6003B [176.296700 61.463030 97.486310] -0.116868 0.000000 0.000000 -0.993147 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AC6001, 0x79AC6002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AC6001, 0x79AC6003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79AC6001, 0x79AC6004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79AC6001, 0x79AC6005, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x79AC6001, 0x79AC6002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AC6001, 0x79AC6003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79AC6001, 0x79AC6004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79AC6001, 0x79AC6005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AC6002,  9253, 0x9AC6003B, 176.2967, 61.46303, 97.48631, -0.1168682, 0, 0, -0.9931474,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

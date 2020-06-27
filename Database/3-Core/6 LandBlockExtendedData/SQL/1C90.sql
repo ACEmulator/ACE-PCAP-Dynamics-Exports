@@ -5,17 +5,17 @@ VALUES (0x71C90001,  1154, 0x1C900014, 66.91188, 88.02888, 30.01, 0.7071068, 0, 
 /* @teleloc 0x1C900014 [66.911880 88.028880 30.010000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C90001, 0x71C90002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C90001, 0x71C90003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C90001, 0x71C90004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71C90001, 0x71C90005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71C90001, 0x71C90006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71C90001, 0x71C90007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71C90001, 0x71C90008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C90001, 0x71C90009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71C90001, 0x71C9000A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C90001, 0x71C9000B, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71C90001, 0x71C9000C, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71C90001, 0x71C90002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C90001, 0x71C90003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C90001, 0x71C90004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71C90001, 0x71C90005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71C90001, 0x71C90006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71C90001, 0x71C90007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71C90001, 0x71C90008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C90001, 0x71C90009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71C90001, 0x71C9000A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C90001, 0x71C9000B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71C90001, 0x71C9000C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C90002, 36830, 0x1C900014, 66.91188, 88.02888, 30.01, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -66,9 +66,9 @@ VALUES (0x71C9000D,  1542, 0x1C900025, 102.0703, 112.879, 30, -4.371139E-08, 0, 
 /* @teleloc 0x1C900025 [102.070300 112.879000 30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C9000D, 0x71C9000E, '2019-02-10 00:00:00') /* Bones */
-     , (0x71C9000D, 0x71C9000F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71C9000D, 0x71C90010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71C9000D, 0x71C9000E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71C9000D, 0x71C9000F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71C9000D, 0x71C90010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C9000E,  4380, 0x1C900025, 102.0703, 112.879, 30, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,10 +5,10 @@ VALUES (0x71D6B001,  1154, 0x1D6B0030, 133.2528, 175.4147, 48.85382, -0.9336451,
 /* @teleloc 0x1D6B0030 [133.252800 175.414700 48.853820] -0.933645 0.000000 0.000000 -0.358199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6B001, 0x71D6B002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71D6B001, 0x71D6B003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71D6B001, 0x71D6B004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6B001, 0x71D6B005, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x71D6B001, 0x71D6B002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71D6B001, 0x71D6B003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71D6B001, 0x71D6B004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6B001, 0x71D6B005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D6B002, 36832, 0x1D6B0030, 133.2528, 175.4147, 48.85382, -0.9336451, 0, 0, -0.3581994,  True, '2019-02-10 00:00:00'); /* Gold Golem */

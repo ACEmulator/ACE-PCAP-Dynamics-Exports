@@ -5,12 +5,12 @@ VALUES (0x781BB001,  1154, 0x81BB0016, 50.20135, 120.0166, 81.81972, -0.7945248,
 /* @teleloc 0x81BB0016 [50.201350 120.016600 81.819720] -0.794525 0.000000 0.000000 -0.607232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781BB001, 0x781BB002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x781BB001, 0x781BB003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x781BB001, 0x781BB004, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x781BB001, 0x781BB005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x781BB001, 0x781BB006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x781BB001, 0x781BB007, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x781BB001, 0x781BB002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x781BB001, 0x781BB003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x781BB001, 0x781BB004, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x781BB001, 0x781BB005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x781BB001, 0x781BB006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x781BB001, 0x781BB007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781BB002,  7090, 0x81BB0016, 50.20135, 120.0166, 81.81972, -0.7945248, 0, 0, -0.6072316,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -41,13 +41,13 @@ VALUES (0x781BB008,  1542, 0x81BB0005, 8.252109, 117.2183, 94.66261, 1, 0, 0, 0,
 /* @teleloc 0x81BB0005 [8.252109 117.218300 94.662610] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781BB008, 0x781BB009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x781BB008, 0x781BB00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x781BB008, 0x781BB00B, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x781BB008, 0x781BB00C, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x781BB008, 0x781BB00D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x781BB008, 0x781BB00E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x781BB008, 0x781BB00F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x781BB008, 0x781BB009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x781BB008, 0x781BB00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x781BB008, 0x781BB00B, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x781BB008, 0x781BB00C, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x781BB008, 0x781BB00D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x781BB008, 0x781BB00E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x781BB008, 0x781BB00F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781BB009,  9024, 0x81BB0005, 8.252109, 117.2183, 94.66261, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

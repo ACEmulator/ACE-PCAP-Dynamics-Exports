@@ -5,11 +5,11 @@ VALUES (0x71D6C001,  1154, 0x1D6C0033, 155.5511, 62.30884, 60.16549, -0.6221402,
 /* @teleloc 0x1D6C0033 [155.551100 62.308840 60.165490] -0.622140 0.000000 0.000000 -0.782906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6C001, 0x71D6C002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6C001, 0x71D6C003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71D6C001, 0x71D6C004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6C001, 0x71D6C005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6C001, 0x71D6C006, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x71D6C001, 0x71D6C002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6C001, 0x71D6C003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71D6C001, 0x71D6C004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6C001, 0x71D6C005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6C001, 0x71D6C006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D6C002,  7081, 0x1D6C0033, 155.5511, 62.30884, 60.16549, -0.6221402, 0, 0, -0.7829058,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

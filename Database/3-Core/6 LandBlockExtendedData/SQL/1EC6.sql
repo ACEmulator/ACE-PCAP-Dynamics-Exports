@@ -5,14 +5,14 @@ VALUES (0x71EC6001,  1154, 0x1EC60019, 78.05209, 11.66951, 28.04942, -0.9279197,
 /* @teleloc 0x1EC60019 [78.052090 11.669510 28.049420] -0.927920 0.000000 0.000000 -0.372780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC6001, 0x71EC6002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71EC6001, 0x71EC6003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71EC6001, 0x71EC6004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71EC6001, 0x71EC6005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71EC6001, 0x71EC6006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71EC6001, 0x71EC6007, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71EC6001, 0x71EC6008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71EC6001, 0x71EC6009, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x71EC6001, 0x71EC6002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71EC6001, 0x71EC6003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71EC6001, 0x71EC6004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71EC6001, 0x71EC6005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71EC6001, 0x71EC6006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71EC6001, 0x71EC6007, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71EC6001, 0x71EC6008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71EC6001, 0x71EC6009, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC6002, 11540, 0x1EC60019, 78.05209, 11.66951, 28.04942, -0.9279197, 0, 0, -0.3727801,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

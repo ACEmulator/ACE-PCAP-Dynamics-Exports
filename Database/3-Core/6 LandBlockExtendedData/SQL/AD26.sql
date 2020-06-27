@@ -5,17 +5,17 @@ VALUES (0x7AD26001,  1154, 0xAD260009, 34.9994, 23.39137, 218.2129, 0.9238795, 0
 /* @teleloc 0xAD260009 [34.999400 23.391370 218.212900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD26001, 0x7AD26002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AD26001, 0x7AD26003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7AD26001, 0x7AD26004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AD26001, 0x7AD26005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD26001, 0x7AD26006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD26001, 0x7AD26007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AD26001, 0x7AD26008, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7AD26001, 0x7AD26009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7AD26001, 0x7AD2600A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD26001, 0x7AD2600B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD26001, 0x7AD2600C, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7AD26001, 0x7AD26002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AD26001, 0x7AD26003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7AD26001, 0x7AD26004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AD26001, 0x7AD26005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD26001, 0x7AD26006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD26001, 0x7AD26007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7AD26001, 0x7AD26008, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7AD26001, 0x7AD26009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7AD26001, 0x7AD2600A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD26001, 0x7AD2600B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD26001, 0x7AD2600C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD26002, 24494, 0xAD260009, 34.9994, 23.39137, 218.2129, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -66,16 +66,16 @@ VALUES (0x7AD2600D,  1542, 0xAD260002, 6.938521, 29.63615, 219.9042, 1, 0, 0, 0,
 /* @teleloc 0xAD260002 [6.938521 29.636150 219.904200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD2600D, 0x7AD2600E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AD2600D, 0x7AD2600F, '2019-02-10 00:00:00') /* Rock */
-     , (0x7AD2600D, 0x7AD26010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7AD2600D, 0x7AD26011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AD2600D, 0x7AD26012, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7AD2600D, 0x7AD26013, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7AD2600D, 0x7AD26014, '2019-02-10 00:00:00') /* Hasina bint Rira */
-     , (0x7AD2600D, 0x7AD26015, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7AD2600D, 0x7AD26016, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7AD2600D, 0x7AD26017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AD2600D, 0x7AD2600E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7AD2600D, 0x7AD2600F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7AD2600D, 0x7AD26010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7AD2600D, 0x7AD26011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AD2600D, 0x7AD26012, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7AD2600D, 0x7AD26013, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7AD2600D, 0x7AD26014, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */
+     , (0x7AD2600D, 0x7AD26015, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7AD2600D, 0x7AD26016, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7AD2600D, 0x7AD26017, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD2600E, 22571, 0xAD260002, 6.938521, 29.63615, 219.9042, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

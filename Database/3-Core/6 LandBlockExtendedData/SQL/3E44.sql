@@ -5,12 +5,12 @@ VALUES (0x73E44001,  1154, 0x3E440027, 106.7071, 160.7288, 86.75484, -0.9020922,
 /* @teleloc 0x3E440027 [106.707100 160.728800 86.754840] -0.902092 0.000000 0.000000 -0.431543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E44001, 0x73E44002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73E44001, 0x73E44003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E44001, 0x73E44004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73E44001, 0x73E44005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73E44001, 0x73E44006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73E44001, 0x73E44007, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x73E44001, 0x73E44002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73E44001, 0x73E44003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E44001, 0x73E44004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73E44001, 0x73E44005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73E44001, 0x73E44006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73E44001, 0x73E44007, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E44002, 23484, 0x3E440027, 106.7071, 160.7288, 86.75484, -0.9020922, 0, 0, -0.4315433,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus Lord */
@@ -41,7 +41,7 @@ VALUES (0x73E44008,  1542, 0x3E440027, 110.9621, 166.6515, 89.93182, -4.371139E-
 /* @teleloc 0x3E440027 [110.962100 166.651500 89.931820] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E44008, 0x73E44009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73E44008, 0x73E44009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E44009,  4380, 0x3E440027, 110.9621, 166.6515, 89.93182, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

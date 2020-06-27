@@ -5,22 +5,22 @@ VALUES (0x7E076001,  1154, 0xE0760009, 33.07597, 12.12014, 0.002499998, 0.707106
 /* @teleloc 0xE0760009 [33.075970 12.120140 0.002500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E076001, 0x7E076002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E076001, 0x7E076003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E076001, 0x7E076004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E076001, 0x7E076005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7E076001, 0x7E076006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E076001, 0x7E076007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E076001, 0x7E076008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E076001, 0x7E076009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E076001, 0x7E07600A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7E076001, 0x7E07600B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E076001, 0x7E07600C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7E076001, 0x7E07600D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E076001, 0x7E07600E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E076001, 0x7E07600F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E076001, 0x7E076010, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E076001, 0x7E076011, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7E076001, 0x7E076002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E076001, 0x7E076003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E076001, 0x7E076004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E076001, 0x7E076005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7E076001, 0x7E076006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E076001, 0x7E076007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E076001, 0x7E076008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E076001, 0x7E076009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E076001, 0x7E07600A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7E076001, 0x7E07600B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E076001, 0x7E07600C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7E076001, 0x7E07600D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E076001, 0x7E07600E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E076001, 0x7E07600F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E076001, 0x7E076010, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E076001, 0x7E076011, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E076002,  7179, 0xE0760009, 33.07597, 12.12014, 0.002499998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -91,8 +91,8 @@ VALUES (0x7E076012,  1542, 0xE0760012, 71.29416, 29.48208, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xE0760012 [71.294160 29.482080 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E076012, 0x7E076013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E076012, 0x7E076014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E076012, 0x7E076013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E076012, 0x7E076014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E076013,  4179, 0xE0760012, 71.29416, 29.48208, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

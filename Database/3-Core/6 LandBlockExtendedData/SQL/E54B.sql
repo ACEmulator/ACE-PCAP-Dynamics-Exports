@@ -5,23 +5,23 @@ VALUES (0x7E54B001,  1154, 0xE54B0018, 65.3281, 180.3566, 26.86519, -0.258819, 0
 /* @teleloc 0xE54B0018 [65.328100 180.356600 26.865190] -0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E54B001, 0x7E54B002, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E54B001, 0x7E54B003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E54B001, 0x7E54B004, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E54B001, 0x7E54B005, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E54B001, 0x7E54B006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E54B001, 0x7E54B007, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E54B001, 0x7E54B008, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E54B001, 0x7E54B009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E54B001, 0x7E54B00A, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E54B001, 0x7E54B00B, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x7E54B001, 0x7E54B00C, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E54B001, 0x7E54B00D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54B001, 0x7E54B00E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54B001, 0x7E54B00F, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E54B001, 0x7E54B010, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E54B001, 0x7E54B011, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E54B001, 0x7E54B012, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7E54B001, 0x7E54B002, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E54B001, 0x7E54B003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E54B001, 0x7E54B004, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E54B001, 0x7E54B005, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E54B001, 0x7E54B006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E54B001, 0x7E54B007, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E54B001, 0x7E54B008, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E54B001, 0x7E54B009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E54B001, 0x7E54B00A, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E54B001, 0x7E54B00B, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x7E54B001, 0x7E54B00C, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E54B001, 0x7E54B00D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54B001, 0x7E54B00E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54B001, 0x7E54B00F, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E54B001, 0x7E54B010, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E54B001, 0x7E54B011, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E54B001, 0x7E54B012, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E54B002,  2580, 0xE54B0018, 65.3281, 180.3566, 26.86519, -0.258819, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* White Mattekar */

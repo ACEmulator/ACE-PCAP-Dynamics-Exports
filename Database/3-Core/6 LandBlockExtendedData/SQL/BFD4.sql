@@ -5,11 +5,11 @@ VALUES (0x7BFD4001,  1154, 0xBFD40003, 17.41329, 55.39903, 233.7816, 0.2588191, 
 /* @teleloc 0xBFD40003 [17.413290 55.399030 233.781600] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD4001, 0x7BFD4002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BFD4001, 0x7BFD4003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BFD4001, 0x7BFD4004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BFD4001, 0x7BFD4005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BFD4001, 0x7BFD4006, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7BFD4001, 0x7BFD4002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BFD4001, 0x7BFD4003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BFD4001, 0x7BFD4004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BFD4001, 0x7BFD4005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BFD4001, 0x7BFD4006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD4002, 24289, 0xBFD40003, 17.41329, 55.39903, 233.7816, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

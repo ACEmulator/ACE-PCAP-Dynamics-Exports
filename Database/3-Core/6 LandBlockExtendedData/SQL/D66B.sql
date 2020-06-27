@@ -9,24 +9,24 @@ VALUES (0x7D66B001,  1154, 0xD66B003C, 188.184, 94.46779, 35.87947, -0.6841754, 
 /* @teleloc 0xD66B003C [188.184000 94.467790 35.879470] -0.684175 0.000000 0.000000 -0.729318 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D66B001, 0x7D66B002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D66B001, 0x7D66B003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D66B001, 0x7D66B004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7D66B001, 0x7D66B005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7D66B001, 0x7D66B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D66B001, 0x7D66B007, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D66B001, 0x7D66B008, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7D66B001, 0x7D66B009, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7D66B001, 0x7D66B00A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D66B001, 0x7D66B00B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7D66B001, 0x7D66B00C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D66B001, 0x7D66B00D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D66B001, 0x7D66B00E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D66B001, 0x7D66B00F, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D66B001, 0x7D66B010, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D66B001, 0x7D66B011, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D66B001, 0x7D66B012, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D66B001, 0x7D66B013, '2019-02-10 00:00:00') /* Scourge */;
+VALUES (0x7D66B001, 0x7D66B002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D66B001, 0x7D66B003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D66B001, 0x7D66B004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7D66B001, 0x7D66B005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7D66B001, 0x7D66B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D66B001, 0x7D66B007, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D66B001, 0x7D66B008, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7D66B001, 0x7D66B009, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7D66B001, 0x7D66B00A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D66B001, 0x7D66B00B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7D66B001, 0x7D66B00C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D66B001, 0x7D66B00D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D66B001, 0x7D66B00E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D66B001, 0x7D66B00F, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D66B001, 0x7D66B010, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D66B001, 0x7D66B011, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D66B001, 0x7D66B012, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D66B001, 0x7D66B013, '2019-02-10 00:00:00') /* Scourge (21160) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D66B002, 22809, 0xD66B003C, 188.184, 94.46779, 35.87947, -0.6841754, 0, 0, -0.7293175,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -105,8 +105,8 @@ VALUES (0x7D66B014,  1542, 0xD66B0022, 99.69555, 44.40096, 37.999, 1, 0, 0, 0, F
 /* @teleloc 0xD66B0022 [99.695550 44.400960 37.999000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D66B014, 0x7D66B015, '2019-02-10 00:00:00') /* Meat */
-     , (0x7D66B014, 0x7D66B016, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7D66B014, 0x7D66B015, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7D66B014, 0x7D66B016, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D66B015,   265, 0xD66B0022, 99.69555, 44.40096, 37.999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

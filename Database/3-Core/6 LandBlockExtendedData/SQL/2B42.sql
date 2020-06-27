@@ -5,26 +5,26 @@ VALUES (0x72B42001,  1154, 0x2B42001D, 89.42791, 104.3909, 65.38803, -4.371139E-
 /* @teleloc 0x2B42001D [89.427910 104.390900 65.388030] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B42001, 0x72B42002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72B42001, 0x72B42003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72B42001, 0x72B42004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B42001, 0x72B42005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B42001, 0x72B42006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72B42001, 0x72B42007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72B42001, 0x72B42008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72B42001, 0x72B42009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72B42001, 0x72B4200A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B42001, 0x72B4200B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72B42001, 0x72B4200C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72B42001, 0x72B4200D, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72B42001, 0x72B4200E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72B42001, 0x72B4200F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B42001, 0x72B42010, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B42001, 0x72B42011, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B42001, 0x72B42012, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72B42001, 0x72B42013, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72B42001, 0x72B42014, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72B42001, 0x72B42015, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */;
+VALUES (0x72B42001, 0x72B42002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72B42001, 0x72B42003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72B42001, 0x72B42004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B42001, 0x72B42005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72B42001, 0x72B42006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72B42001, 0x72B42007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72B42001, 0x72B42008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72B42001, 0x72B42009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72B42001, 0x72B4200A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B42001, 0x72B4200B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72B42001, 0x72B4200C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72B42001, 0x72B4200D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72B42001, 0x72B4200E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72B42001, 0x72B4200F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B42001, 0x72B42010, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B42001, 0x72B42011, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B42001, 0x72B42012, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72B42001, 0x72B42013, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72B42001, 0x72B42014, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72B42001, 0x72B42015, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B42002,  7184, 0x2B42001D, 89.42791, 104.3909, 65.38803, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -111,8 +111,8 @@ VALUES (0x72B42016,  1542, 0x2B420038, 152.7839, 189.9714, 45.15476, 0.9990482, 
 /* @teleloc 0x2B420038 [152.783900 189.971400 45.154760] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B42016, 0x72B42017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72B42016, 0x72B42018, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x72B42016, 0x72B42017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72B42016, 0x72B42018, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B42017,  4179, 0x2B420038, 152.7839, 189.9714, 45.15476, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

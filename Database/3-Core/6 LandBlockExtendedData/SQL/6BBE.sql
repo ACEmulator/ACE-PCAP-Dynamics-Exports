@@ -5,9 +5,9 @@ VALUES (0x76BBE001,  1154, 0x6BBE0038, 151.0248, 186.0406, 147.5992, -0.837943, 
 /* @teleloc 0x6BBE0038 [151.024800 186.040600 147.599200] -0.837943 0.000000 0.000000 -0.545758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BBE001, 0x76BBE002, '2019-02-10 00:00:00') /* Frost */
-     , (0x76BBE001, 0x76BBE003, '2019-02-10 00:00:00') /* Gelid */
-     , (0x76BBE001, 0x76BBE004, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x76BBE001, 0x76BBE002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x76BBE001, 0x76BBE003, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x76BBE001, 0x76BBE004, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BBE002, 14517, 0x6BBE0038, 151.0248, 186.0406, 147.5992, -0.837943, 0, 0, -0.5457577,  True, '2019-02-10 00:00:00'); /* Frost */

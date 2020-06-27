@@ -5,22 +5,22 @@ VALUES (0x71D35001,  1154, 0x1D350004, 8.489676, 94.8545, 60.63659, -0.9817384, 
 /* @teleloc 0x1D350004 [8.489676 94.854500 60.636590] -0.981738 0.000000 0.000000 -0.190236 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D35001, 0x71D35002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71D35001, 0x71D35003, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x71D35001, 0x71D35004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71D35001, 0x71D35005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71D35001, 0x71D35006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71D35001, 0x71D35007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71D35001, 0x71D35008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71D35001, 0x71D35009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71D35001, 0x71D3500A, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71D35001, 0x71D3500B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71D35001, 0x71D3500C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71D35001, 0x71D3500D, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71D35001, 0x71D3500E, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71D35001, 0x71D3500F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71D35001, 0x71D35010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71D35001, 0x71D35011, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71D35001, 0x71D35002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71D35001, 0x71D35003, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x71D35001, 0x71D35004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71D35001, 0x71D35005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71D35001, 0x71D35006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71D35001, 0x71D35007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71D35001, 0x71D35008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71D35001, 0x71D35009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71D35001, 0x71D3500A, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71D35001, 0x71D3500B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71D35001, 0x71D3500C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71D35001, 0x71D3500D, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71D35001, 0x71D3500E, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71D35001, 0x71D3500F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71D35001, 0x71D35010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71D35001, 0x71D35011, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D35002,  7097, 0x1D350004, 8.489676, 94.8545, 60.63659, -0.9817384, 0, 0, -0.1902358,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -91,7 +91,7 @@ VALUES (0x71D35012,  1542, 0x1D350033, 152.438, 55.93753, 37.75508, -4.371139E-0
 /* @teleloc 0x1D350033 [152.438000 55.937530 37.755080] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D35012, 0x71D35013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71D35012, 0x71D35013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D35013,  4380, 0x1D350033, 152.438, 55.93753, 37.75508, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,11 +5,11 @@ VALUES (0x78DED001,  1154, 0x8DED0038, 158.8522, 175.3878, 12.15167, -0.4804531,
 /* @teleloc 0x8DED0038 [158.852200 175.387800 12.151670] -0.480453 0.000000 0.000000 -0.877020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DED001, 0x78DED002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78DED001, 0x78DED003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x78DED001, 0x78DED004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DED001, 0x78DED005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78DED001, 0x78DED006, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x78DED001, 0x78DED002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78DED001, 0x78DED003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x78DED001, 0x78DED004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DED001, 0x78DED005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78DED001, 0x78DED006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DED002,  4253, 0x8DED0038, 158.8522, 175.3878, 12.15167, -0.4804531, 0, 0, -0.8770204,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -36,7 +36,7 @@ VALUES (0x78DED007,  1542, 0x8DED000E, 33.81343, 120.5149, 29.0763, 0.9537169, 0
 /* @teleloc 0x8DED000E [33.813430 120.514900 29.076300] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DED007, 0x78DED008, '2019-02-10 00:00:00') /* Direlands Southeast Shore */;
+VALUES (0x78DED007, 0x78DED008, '2019-02-10 00:00:00') /* Direlands Southeast Shore (8385) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DED008,  8385, 0x8DED000E, 33.81343, 120.5149, 29.0763, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southeast Shore */

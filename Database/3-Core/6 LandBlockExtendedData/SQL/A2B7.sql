@@ -5,23 +5,23 @@ VALUES (0x7A2B7001,  1154, 0xA2B70036, 163.4378, 139.3462, 74.00013, -0.4817626,
 /* @teleloc 0xA2B70036 [163.437800 139.346200 74.000130] -0.481763 0.000000 0.000000 -0.876302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B7001, 0x7A2B7002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B7001, 0x7A2B7003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B7001, 0x7A2B7004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B7001, 0x7A2B7005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A2B7001, 0x7A2B7006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A2B7001, 0x7A2B7007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B7001, 0x7A2B7008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B7001, 0x7A2B7009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A2B7001, 0x7A2B700A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A2B7001, 0x7A2B700B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A2B7001, 0x7A2B700C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A2B7001, 0x7A2B700D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B7001, 0x7A2B700E, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A2B7001, 0x7A2B700F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A2B7001, 0x7A2B7010, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A2B7001, 0x7A2B7011, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A2B7001, 0x7A2B7012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7A2B7001, 0x7A2B7002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B7001, 0x7A2B7003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B7001, 0x7A2B7004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B7001, 0x7A2B7005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A2B7001, 0x7A2B7006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A2B7001, 0x7A2B7007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B7001, 0x7A2B7008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B7001, 0x7A2B7009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A2B7001, 0x7A2B700A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A2B7001, 0x7A2B700B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A2B7001, 0x7A2B700C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A2B7001, 0x7A2B700D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B7001, 0x7A2B700E, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A2B7001, 0x7A2B700F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A2B7001, 0x7A2B7010, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A2B7001, 0x7A2B7011, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A2B7001, 0x7A2B7012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B7002,  2612, 0xA2B70036, 163.4378, 139.3462, 74.00013, -0.4817626, 0, 0, -0.8763018,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -96,8 +96,8 @@ VALUES (0x7A2B7013,  1542, 0xA2B70025, 109.3173, 107.1531, 74.18034, 0.9990482, 
 /* @teleloc 0xA2B70025 [109.317300 107.153100 74.180340] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B7013, 0x7A2B7014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A2B7013, 0x7A2B7015, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7A2B7013, 0x7A2B7014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A2B7013, 0x7A2B7015, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B7014,  4179, 0xA2B70025, 109.3173, 107.1531, 74.18034, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

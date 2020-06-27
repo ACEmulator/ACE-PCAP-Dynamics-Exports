@@ -5,8 +5,8 @@ VALUES (0x783D3001,  1154, 0x83D3000F, 38.53294, 157.2696, 198.8356, 0.8191521, 
 /* @teleloc 0x83D3000F [38.532940 157.269600 198.835600] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783D3001, 0x783D3002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x783D3001, 0x783D3003, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x783D3001, 0x783D3002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x783D3001, 0x783D3003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783D3002,  7981, 0x83D3000F, 38.53294, 157.2696, 198.8356, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */

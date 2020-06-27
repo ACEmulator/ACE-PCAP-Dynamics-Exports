@@ -5,14 +5,14 @@ VALUES (0x7914C001,  1154, 0x914C000E, 41.74779, 138.9996, 15.96528, 0.8979004, 
 /* @teleloc 0x914C000E [41.747790 138.999600 15.965280] 0.897900 0.000000 0.000000 -0.440199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7914C001, 0x7914C002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7914C001, 0x7914C003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7914C001, 0x7914C004, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7914C001, 0x7914C005, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7914C001, 0x7914C006, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7914C001, 0x7914C007, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7914C001, 0x7914C008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7914C001, 0x7914C009, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7914C001, 0x7914C002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7914C001, 0x7914C003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7914C001, 0x7914C004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7914C001, 0x7914C005, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7914C001, 0x7914C006, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7914C001, 0x7914C007, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7914C001, 0x7914C008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7914C001, 0x7914C009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7914C002,  9257, 0x914C000E, 41.74779, 138.9996, 15.96528, 0.8979004, 0, 0, -0.4401987,  True, '2019-02-10 00:00:00'); /* Silt Lurker */

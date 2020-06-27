@@ -5,11 +5,11 @@ VALUES (0x7B3A1001,  1154, 0xB3A10039, 175.3983, 0.4295807, 67.39062, 0.3987491,
 /* @teleloc 0xB3A10039 [175.398300 0.429581 67.390620] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A1001, 0x7B3A1002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B3A1001, 0x7B3A1003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3A1001, 0x7B3A1004, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B3A1001, 0x7B3A1005, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B3A1001, 0x7B3A1006, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B3A1001, 0x7B3A1002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B3A1001, 0x7B3A1003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3A1001, 0x7B3A1004, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B3A1001, 0x7B3A1005, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B3A1001, 0x7B3A1006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A1002,   938, 0xB3A10039, 175.3983, 0.4295807, 67.39062, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Raider */

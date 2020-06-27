@@ -5,15 +5,15 @@ VALUES (0x71558001,  1154, 0x1558000B, 46.14681, 48.23286, 10.19953, 0.7071068, 
 /* @teleloc 0x1558000B [46.146810 48.232860 10.199530] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71558001, 0x71558002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71558001, 0x71558003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71558001, 0x71558004, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71558001, 0x71558005, '2019-02-10 00:00:00') /* Miasma */
-     , (0x71558001, 0x71558006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71558001, 0x71558007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71558001, 0x71558008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71558001, 0x71558009, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71558001, 0x7155800A, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x71558001, 0x71558002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71558001, 0x71558003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71558001, 0x71558004, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71558001, 0x71558005, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x71558001, 0x71558006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71558001, 0x71558007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71558001, 0x71558008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71558001, 0x71558009, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71558001, 0x7155800A, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71558002, 36821, 0x1558000B, 46.14681, 48.23286, 10.19953, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

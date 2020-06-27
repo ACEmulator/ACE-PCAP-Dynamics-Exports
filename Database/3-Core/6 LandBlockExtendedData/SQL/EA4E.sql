@@ -9,22 +9,22 @@ VALUES (0x7EA4E001,  1154, 0xEA4E0021, 102.3694, 19.4455, 2.00765, 0.9238795, 0,
 /* @teleloc 0xEA4E0021 [102.369400 19.445500 2.007650] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA4E001, 0x7EA4E002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7EA4E001, 0x7EA4E003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7EA4E001, 0x7EA4E004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7EA4E001, 0x7EA4E005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7EA4E001, 0x7EA4E006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EA4E001, 0x7EA4E007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EA4E001, 0x7EA4E008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7EA4E001, 0x7EA4E009, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7EA4E001, 0x7EA4E00A, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7EA4E001, 0x7EA4E00B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7EA4E001, 0x7EA4E00C, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7EA4E001, 0x7EA4E00D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7EA4E001, 0x7EA4E00E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7EA4E001, 0x7EA4E00F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7EA4E001, 0x7EA4E010, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7EA4E001, 0x7EA4E011, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7EA4E001, 0x7EA4E002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7EA4E001, 0x7EA4E003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7EA4E001, 0x7EA4E004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7EA4E001, 0x7EA4E005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7EA4E001, 0x7EA4E006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EA4E001, 0x7EA4E007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EA4E001, 0x7EA4E008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7EA4E001, 0x7EA4E009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7EA4E001, 0x7EA4E00A, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7EA4E001, 0x7EA4E00B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7EA4E001, 0x7EA4E00C, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7EA4E001, 0x7EA4E00D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7EA4E001, 0x7EA4E00E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7EA4E001, 0x7EA4E00F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7EA4E001, 0x7EA4E010, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7EA4E001, 0x7EA4E011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA4E002,   182, 0xEA4E0021, 102.3694, 19.4455, 2.00765, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -95,7 +95,7 @@ VALUES (0x7EA4E012,  1542, 0xEA4E0021, 107.8144, 21.13225, 2, 1, 0, 0, 0, False,
 /* @teleloc 0xEA4E0021 [107.814400 21.132250 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA4E012, 0x7EA4E013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7EA4E012, 0x7EA4E013, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA4E013, 22572, 0xEA4E0021, 107.8144, 21.13225, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

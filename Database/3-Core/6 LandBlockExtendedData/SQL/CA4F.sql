@@ -9,18 +9,18 @@ VALUES (0x7CA4F001,  1154, 0xCA4F0028, 112.5465, 191.1072, 65.13995, -0.03248077
 /* @teleloc 0xCA4F0028 [112.546500 191.107200 65.139950] -0.032481 0.000000 0.000000 -0.999472 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA4F001, 0x7CA4F002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CA4F001, 0x7CA4F003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CA4F001, 0x7CA4F004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CA4F001, 0x7CA4F005, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CA4F001, 0x7CA4F006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CA4F001, 0x7CA4F007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CA4F001, 0x7CA4F008, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CA4F001, 0x7CA4F009, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7CA4F001, 0x7CA4F00A, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7CA4F001, 0x7CA4F00B, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7CA4F001, 0x7CA4F00C, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CA4F001, 0x7CA4F00D, '2019-02-10 00:00:00') /* Gotrok Obeloth */;
+VALUES (0x7CA4F001, 0x7CA4F002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CA4F001, 0x7CA4F003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CA4F001, 0x7CA4F004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CA4F001, 0x7CA4F005, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CA4F001, 0x7CA4F006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CA4F001, 0x7CA4F007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CA4F001, 0x7CA4F008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CA4F001, 0x7CA4F009, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7CA4F001, 0x7CA4F00A, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7CA4F001, 0x7CA4F00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7CA4F001, 0x7CA4F00C, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CA4F001, 0x7CA4F00D, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA4F002,  8142, 0xCA4F0028, 112.5465, 191.1072, 65.13995, -0.03248077, 0, 0, -0.9994724,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */
@@ -75,7 +75,7 @@ VALUES (0x7CA4F00E,  1542, 0xCA4F001C, 87.86595, 94.79678, 164.7354, 1, 0, 0, 0,
 /* @teleloc 0xCA4F001C [87.865950 94.796780 164.735400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA4F00E, 0x7CA4F00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CA4F00E, 0x7CA4F00F, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA4F00F, 22576, 0xCA4F001C, 87.86595, 94.79678, 164.7354, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

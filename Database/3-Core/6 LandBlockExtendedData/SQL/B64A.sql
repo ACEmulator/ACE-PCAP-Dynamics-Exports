@@ -5,137 +5,137 @@ VALUES (0x7B64A001,  1154, 0xB64A0004, 7.10046, 89.7877, 19.982, 0.9808493, 0, 0
 /* @teleloc 0xB64A0004 [7.100460 89.787700 19.982000] 0.980849 0.000000 0.000000 0.194768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64A001, 0x7B64A002, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A003, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A004, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A005, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A006, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A007, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A008, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A009, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A00A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A00B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A00C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A00D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A00E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A00F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A010, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A011, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A012, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A013, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A014, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A015, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A016, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A017, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A018, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A019, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A01A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A01B, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A01C, '2019-02-10 00:00:00') /* Zefir Thorn Stalker */
-     , (0x7B64A001, 0x7B64A01D, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A01E, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B64A001, 0x7B64A01F, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B64A001, 0x7B64A020, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A021, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A022, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A023, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A024, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A025, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A026, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B64A001, 0x7B64A027, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A028, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A029, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A02A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A02B, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A02C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A02D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A02E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A02F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A030, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A031, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A032, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A033, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A034, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A035, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A036, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A037, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A038, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A039, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A03A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A03B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A03C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A03D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A03E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A03F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A040, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A041, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A042, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A043, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A044, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A045, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A046, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A047, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A048, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A049, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A04A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A04B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A04C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A04D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A04E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A04F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A050, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A051, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A052, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A053, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A054, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A055, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A056, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A057, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A058, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A059, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A05A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A05B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A05C, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A05D, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A05E, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x7B64A001, 0x7B64A05F, '2019-02-10 00:00:00') /* Zefir Thorn Stalker */
-     , (0x7B64A001, 0x7B64A060, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x7B64A001, 0x7B64A061, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x7B64A001, 0x7B64A062, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B64A001, 0x7B64A063, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A064, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A065, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64A001, 0x7B64A066, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x7B64A001, 0x7B64A067, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A068, '2019-02-10 00:00:00') /* Venomous Brier Wasp */
-     , (0x7B64A001, 0x7B64A069, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B64A001, 0x7B64A06A, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A06B, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A06C, '2019-02-10 00:00:00') /* Viridian Portal */
-     , (0x7B64A001, 0x7B64A06D, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x7B64A001, 0x7B64A06E, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B64A001, 0x7B64A06F, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x7B64A001, 0x7B64A070, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B64A001, 0x7B64A071, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64A001, 0x7B64A072, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A073, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A074, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A075, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A076, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A077, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A078, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A079, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A07A, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A07B, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A07C, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B64A001, 0x7B64A07D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A07E, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A07F, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A080, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A081, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A082, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B64A001, 0x7B64A083, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B64A001, 0x7B64A084, '2019-02-10 00:00:00') /* Sath'tik Tentacle */;
+VALUES (0x7B64A001, 0x7B64A002, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A003, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A004, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A005, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A006, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A007, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A008, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A009, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A00A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A00B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A00C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A00D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A00E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A00F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A010, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A011, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A012, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A013, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A014, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A015, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A016, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A017, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A018, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A019, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A01A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A01B, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A01C, '2019-02-10 00:00:00') /* Zefir Thorn Stalker (52519) */
+     , (0x7B64A001, 0x7B64A01D, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B64A001, 0x7B64A01E, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52587) */
+     , (0x7B64A001, 0x7B64A01F, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B64A001, 0x7B64A020, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A021, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A022, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A023, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A024, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A025, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A026, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B64A001, 0x7B64A027, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B64A001, 0x7B64A028, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A029, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A02A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A02B, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A02C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A02D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A02E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A02F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A030, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A031, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A032, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A033, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A034, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A035, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A036, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A037, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A038, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A039, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A03A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A03B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A03C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A03D, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A03E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A03F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A040, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A041, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A042, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A043, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A044, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A045, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A046, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A047, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A048, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A049, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A04A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A04B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A04C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A04D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A04E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A04F, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A050, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A051, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A052, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A053, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A054, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A055, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A056, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A057, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A058, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A059, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A05A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A05B, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A05C, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A05D, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A05E, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x7B64A001, 0x7B64A05F, '2019-02-10 00:00:00') /* Zefir Thorn Stalker (52519) */
+     , (0x7B64A001, 0x7B64A060, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52585) */
+     , (0x7B64A001, 0x7B64A061, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x7B64A001, 0x7B64A062, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52588) */
+     , (0x7B64A001, 0x7B64A063, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B64A001, 0x7B64A064, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B64A001, 0x7B64A065, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x7B64A001, 0x7B64A066, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x7B64A001, 0x7B64A067, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B64A001, 0x7B64A068, '2019-02-10 00:00:00') /* Venomous Brier Wasp (52619) */
+     , (0x7B64A001, 0x7B64A069, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B64A001, 0x7B64A06A, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B64A001, 0x7B64A06B, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B64A001, 0x7B64A06C, '2019-02-10 00:00:00') /* Viridian Portal (53064) */
+     , (0x7B64A001, 0x7B64A06D, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52634) */
+     , (0x7B64A001, 0x7B64A06E, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B64A001, 0x7B64A06F, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x7B64A001, 0x7B64A070, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B64A001, 0x7B64A071, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52590) */
+     , (0x7B64A001, 0x7B64A072, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A073, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A074, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A075, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A076, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A077, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A078, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A079, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A07A, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A07B, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A07C, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B64A001, 0x7B64A07D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A07E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A07F, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A080, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A081, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A082, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B64A001, 0x7B64A083, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B64A001, 0x7B64A084, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64A002, 53375, 0xB64A0004, 7.10046, 89.7877, 19.982, 0.9808493, 0, 0, 0.1947681,  True, '2019-02-10 00:00:00'); /* Sath'tik Eyestalk */
@@ -666,11 +666,11 @@ VALUES (0x7B64A085,  1154, 0xB64A0011, 54.5, 3, 116.1, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0xB64A0011 [54.500000 3.000000 116.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64A085, 0x7B64A086, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B64A085, 0x7B64A087, '2019-02-10 00:00:00') /* Fiery Remains */
-     , (0x7B64A085, 0x7B64A088, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B64A085, 0x7B64A089, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B64A085, 0x7B64A08A, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */;
+VALUES (0x7B64A085, 0x7B64A086, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53105) */
+     , (0x7B64A085, 0x7B64A087, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B64A085, 0x7B64A088, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53078) */
+     , (0x7B64A085, 0x7B64A089, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53106) */
+     , (0x7B64A085, 0x7B64A08A, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64A086, 53105, 0xB64A0011, 54.5, 3, 116.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */

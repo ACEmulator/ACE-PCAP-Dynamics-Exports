@@ -5,18 +5,18 @@ VALUES (0x7336A001,  1154, 0x336A0010, 34.63349, 187.8508, 299.993, -0.7355894, 
 /* @teleloc 0x336A0010 [34.633490 187.850800 299.993000] -0.735589 0.000000 0.000000 -0.677428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336A001, 0x7336A002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7336A001, 0x7336A003, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7336A001, 0x7336A004, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336A001, 0x7336A005, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336A001, 0x7336A006, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336A001, 0x7336A007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7336A001, 0x7336A008, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336A001, 0x7336A009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7336A001, 0x7336A00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7336A001, 0x7336A00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7336A001, 0x7336A00C, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7336A001, 0x7336A00D, '2019-02-10 00:00:00') /* Hyem */;
+VALUES (0x7336A001, 0x7336A002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7336A001, 0x7336A003, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7336A001, 0x7336A004, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336A001, 0x7336A005, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336A001, 0x7336A006, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336A001, 0x7336A007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7336A001, 0x7336A008, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336A001, 0x7336A009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7336A001, 0x7336A00A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7336A001, 0x7336A00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7336A001, 0x7336A00C, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7336A001, 0x7336A00D, '2019-02-10 00:00:00') /* Hyem (14875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336A002, 36844, 0x336A0010, 34.63349, 187.8508, 299.993, -0.7355894, 0, 0, -0.6774276,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -71,8 +71,8 @@ VALUES (0x7336A00E,  1542, 0x336A000B, 39.01841, 71.91352, 293.7972, 1, 0, 0, 0,
 /* @teleloc 0x336A000B [39.018410 71.913520 293.797200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336A00E, 0x7336A00F, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7336A00E, 0x7336A010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7336A00E, 0x7336A00F, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7336A00E, 0x7336A010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336A00F, 40124, 0x336A000B, 39.01841, 71.91352, 293.7972, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */

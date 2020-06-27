@@ -5,11 +5,11 @@ VALUES (0x7A897001,  1154, 0xA8970008, 17.31504, 175.9711, 49.11556, 1, 0, 0, 0,
 /* @teleloc 0xA8970008 [17.315040 175.971100 49.115560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A897001, 0x7A897002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A897001, 0x7A897003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A897001, 0x7A897004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A897001, 0x7A897005, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A897001, 0x7A897006, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7A897001, 0x7A897002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A897001, 0x7A897003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A897001, 0x7A897004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A897001, 0x7A897005, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A897001, 0x7A897006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A897002,   221, 0xA8970008, 17.31504, 175.9711, 49.11556, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */

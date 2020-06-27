@@ -5,12 +5,12 @@ VALUES (0x79E87001,  1154, 0x9E870034, 160.7486, 77.33189, 35.22464, 0.7071068, 
 /* @teleloc 0x9E870034 [160.748600 77.331890 35.224640] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E87001, 0x79E87002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E87001, 0x79E87003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79E87001, 0x79E87004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79E87001, 0x79E87005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79E87001, 0x79E87006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E87001, 0x79E87007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79E87001, 0x79E87002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E87001, 0x79E87003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79E87001, 0x79E87004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79E87001, 0x79E87005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79E87001, 0x79E87006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E87001, 0x79E87007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E87002,  1762, 0x9E870034, 160.7486, 77.33189, 35.22464, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -41,7 +41,7 @@ VALUES (0x79E87008,  1542, 0x9E87000C, 27.03575, 79.64039, 39.45321, -0.505343, 
 /* @teleloc 0x9E87000C [27.035750 79.640390 39.453210] -0.505343 0.000000 0.000000 -0.862919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E87008, 0x79E87009, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79E87008, 0x79E87009, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E87009,  8041, 0x9E87000C, 27.03575, 79.64039, 39.45321, -0.505343, 0, 0, -0.8629186,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

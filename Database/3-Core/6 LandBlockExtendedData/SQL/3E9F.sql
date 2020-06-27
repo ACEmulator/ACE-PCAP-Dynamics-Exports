@@ -5,29 +5,29 @@ VALUES (0x73E9F001,  1154, 0x3E9F0007, 22.95403, 160.8021, 3.465657, -0.04066947
 /* @teleloc 0x3E9F0007 [22.954030 160.802100 3.465657] -0.040669 0.000000 0.000000 -0.999173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E9F001, 0x73E9F002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73E9F001, 0x73E9F003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73E9F001, 0x73E9F004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73E9F001, 0x73E9F005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73E9F001, 0x73E9F006, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x73E9F001, 0x73E9F007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73E9F001, 0x73E9F008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73E9F001, 0x73E9F009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73E9F001, 0x73E9F00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73E9F001, 0x73E9F00B, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x73E9F001, 0x73E9F00C, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x73E9F001, 0x73E9F00D, '2019-02-10 00:00:00') /* Ember */
-     , (0x73E9F001, 0x73E9F00E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x73E9F001, 0x73E9F00F, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73E9F001, 0x73E9F010, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73E9F001, 0x73E9F011, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x73E9F001, 0x73E9F012, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73E9F001, 0x73E9F013, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x73E9F001, 0x73E9F014, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x73E9F001, 0x73E9F015, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x73E9F001, 0x73E9F016, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x73E9F001, 0x73E9F017, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x73E9F001, 0x73E9F018, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x73E9F001, 0x73E9F002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73E9F001, 0x73E9F003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73E9F001, 0x73E9F004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73E9F001, 0x73E9F005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73E9F001, 0x73E9F006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x73E9F001, 0x73E9F007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73E9F001, 0x73E9F008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73E9F001, 0x73E9F009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73E9F001, 0x73E9F00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73E9F001, 0x73E9F00B, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x73E9F001, 0x73E9F00C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x73E9F001, 0x73E9F00D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x73E9F001, 0x73E9F00E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x73E9F001, 0x73E9F00F, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73E9F001, 0x73E9F010, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73E9F001, 0x73E9F011, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x73E9F001, 0x73E9F012, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73E9F001, 0x73E9F013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x73E9F001, 0x73E9F014, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x73E9F001, 0x73E9F015, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x73E9F001, 0x73E9F016, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x73E9F001, 0x73E9F017, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x73E9F001, 0x73E9F018, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E9F002,  7111, 0x3E9F0007, 22.95403, 160.8021, 3.465657, -0.04066947, 0, 0, -0.9991726,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -126,7 +126,7 @@ VALUES (0x73E9F019,  1542, 0x3E9F000A, 46.15233, 33.13301, 51.27953, 0.3701515, 
 /* @teleloc 0x3E9F000A [46.152330 33.133010 51.279530] 0.370152 0.000000 0.000000 -0.928971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E9F019, 0x73E9F01A, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x73E9F019, 0x73E9F01A, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E9F01A,  8041, 0x3E9F000A, 46.15233, 33.13301, 51.27953, 0.3701515, 0, 0, -0.9289714,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

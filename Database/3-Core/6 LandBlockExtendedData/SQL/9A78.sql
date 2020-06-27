@@ -5,11 +5,11 @@ VALUES (0x79A78001,  1154, 0x9A78002B, 122.7395, 51.38741, 25.985, 0.8191521, 0,
 /* @teleloc 0x9A78002B [122.739500 51.387410 25.985000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A78001, 0x79A78002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79A78001, 0x79A78003, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79A78001, 0x79A78004, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79A78001, 0x79A78005, '2019-02-10 00:00:00') /* Spark */
-     , (0x79A78001, 0x79A78006, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79A78001, 0x79A78002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79A78001, 0x79A78003, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79A78001, 0x79A78004, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79A78001, 0x79A78005, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x79A78001, 0x79A78006, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A78002,  4110, 0x9A78002B, 122.7395, 51.38741, 25.985, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

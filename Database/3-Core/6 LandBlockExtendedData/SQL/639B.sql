@@ -5,19 +5,19 @@ VALUES (0x7639B001,  1154, 0x639B0010, 46.79845, 183.963, 47.43288, 0.7660445, 0
 /* @teleloc 0x639B0010 [46.798450 183.963000 47.432880] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7639B001, 0x7639B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7639B001, 0x7639B003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7639B001, 0x7639B004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7639B001, 0x7639B005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7639B001, 0x7639B006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7639B001, 0x7639B007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7639B001, 0x7639B008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7639B001, 0x7639B009, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7639B001, 0x7639B00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7639B001, 0x7639B00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7639B001, 0x7639B00C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7639B001, 0x7639B00D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7639B001, 0x7639B00E, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x7639B001, 0x7639B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7639B001, 0x7639B003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7639B001, 0x7639B004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7639B001, 0x7639B005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7639B001, 0x7639B006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7639B001, 0x7639B007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7639B001, 0x7639B008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7639B001, 0x7639B009, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7639B001, 0x7639B00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7639B001, 0x7639B00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7639B001, 0x7639B00C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7639B001, 0x7639B00D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7639B001, 0x7639B00E, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7639B002,  7334, 0x639B0010, 46.79845, 183.963, 47.43288, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -76,7 +76,7 @@ VALUES (0x7639B00F,  1542, 0x639B002B, 125.9441, 54.52586, 32.58191, -4.371139E-
 /* @teleloc 0x639B002B [125.944100 54.525860 32.581910] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7639B00F, 0x7639B010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7639B00F, 0x7639B010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7639B010,  4380, 0x639B002B, 125.9441, 54.52586, 32.58191, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

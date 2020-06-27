@@ -5,40 +5,40 @@ VALUES (0x7C3EC001,  1154, 0xC3EC003A, 177.2362, 29.17511, -0.439, 0.4214972, 0,
 /* @teleloc 0xC3EC003A [177.236200 29.175110 -0.439000] 0.421497 0.000000 0.000000 -0.906830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3EC001, 0x7C3EC002, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC003, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC004, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC005, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC006, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EC001, 0x7C3EC007, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EC001, 0x7C3EC008, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EC001, 0x7C3EC009, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EC001, 0x7C3EC00A, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC00B, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC00C, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC00D, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC00E, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC00F, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC010, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC011, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC012, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC013, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC014, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC015, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC016, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EC001, 0x7C3EC017, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EC001, 0x7C3EC018, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EC001, 0x7C3EC019, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EC001, 0x7C3EC01A, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy */
-     , (0x7C3EC001, 0x7C3EC01B, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC01C, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy */
-     , (0x7C3EC001, 0x7C3EC01D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC01E, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EC001, 0x7C3EC01F, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC020, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC021, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC022, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3EC001, 0x7C3EC023, '2019-02-10 00:00:00') /* Degenerate Shadow */;
+VALUES (0x7C3EC001, 0x7C3EC002, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3EC001, 0x7C3EC003, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC004, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC005, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC006, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C3EC001, 0x7C3EC007, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C3EC001, 0x7C3EC008, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C3EC001, 0x7C3EC009, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C3EC001, 0x7C3EC00A, '2019-02-10 00:00:00') /* Degenerate Shadow (33730) */
+     , (0x7C3EC001, 0x7C3EC00B, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3EC001, 0x7C3EC00C, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3EC001, 0x7C3EC00D, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3EC001, 0x7C3EC00E, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3EC001, 0x7C3EC00F, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC010, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC011, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC012, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3EC001, 0x7C3EC013, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC014, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC015, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC016, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C3EC001, 0x7C3EC017, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3EC001, 0x7C3EC018, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3EC001, 0x7C3EC019, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3EC001, 0x7C3EC01A, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy (40147) */
+     , (0x7C3EC001, 0x7C3EC01B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC01C, '2019-02-10 00:00:00') /* Black Coral Golem Viceroy (40147) */
+     , (0x7C3EC001, 0x7C3EC01D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC01E, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EC001, 0x7C3EC01F, '2019-02-10 00:00:00') /* Degenerate Shadow (33730) */
+     , (0x7C3EC001, 0x7C3EC020, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3EC001, 0x7C3EC021, '2019-02-10 00:00:00') /* Degenerate Shadow (33730) */
+     , (0x7C3EC001, 0x7C3EC022, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3EC001, 0x7C3EC023, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3EC002, 40149, 0xC3EC003A, 177.2362, 29.17511, -0.439, 0.4214972, 0, 0, -0.9068297,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
@@ -181,7 +181,7 @@ VALUES (0x7C3EC024,  1542, 0xC3EC003B, 187.6412, 65.73326, -6.984919E-09, -0.472
 /* @teleloc 0xC3EC003B [187.641200 65.733260 0.000000] -0.472142 0.000000 0.000000 -0.881523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3EC024, 0x7C3EC025, '2019-02-10 00:00:00') /* Black Coral */;
+VALUES (0x7C3EC024, 0x7C3EC025, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3EC025, 38613, 0xC3EC003B, 187.6412, 65.73326, -6.984919E-09, -0.4721417, 0, 0, -0.8815227,  True, '2019-02-10 00:00:00'); /* Black Coral */

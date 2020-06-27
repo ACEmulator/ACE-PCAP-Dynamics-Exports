@@ -5,18 +5,18 @@ VALUES (0x7CFD6001,  1154, 0xCFD60018, 70.21103, 170.6904, 6, -0.7400839, 0, 0, 
 /* @teleloc 0xCFD60018 [70.211030 170.690400 6.000000] -0.740084 0.000000 0.000000 -0.672515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFD6001, 0x7CFD6002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD6001, 0x7CFD6003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD6001, 0x7CFD6004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CFD6001, 0x7CFD6005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CFD6001, 0x7CFD6006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD6001, 0x7CFD6007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CFD6001, 0x7CFD6008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CFD6001, 0x7CFD6009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CFD6001, 0x7CFD600A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD6001, 0x7CFD600B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CFD6001, 0x7CFD600C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD6001, 0x7CFD600D, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7CFD6001, 0x7CFD6002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD6001, 0x7CFD6003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD6001, 0x7CFD6004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CFD6001, 0x7CFD6005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CFD6001, 0x7CFD6006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD6001, 0x7CFD6007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CFD6001, 0x7CFD6008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CFD6001, 0x7CFD6009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CFD6001, 0x7CFD600A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD6001, 0x7CFD600B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CFD6001, 0x7CFD600C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD6001, 0x7CFD600D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFD6002,   214, 0xCFD60018, 70.21103, 170.6904, 6, -0.7400839, 0, 0, -0.6725146,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

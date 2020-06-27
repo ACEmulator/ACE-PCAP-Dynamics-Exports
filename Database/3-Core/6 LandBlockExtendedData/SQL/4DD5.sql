@@ -5,13 +5,13 @@ VALUES (0x74DD5001,  1154, 0x4DD50007, 10.37035, 153.237, 47.33185, -0.7649156, 
 /* @teleloc 0x4DD50007 [10.370350 153.237000 47.331850] -0.764916 0.000000 0.000000 -0.644131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DD5001, 0x74DD5002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74DD5001, 0x74DD5003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74DD5001, 0x74DD5004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74DD5001, 0x74DD5005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74DD5001, 0x74DD5006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74DD5001, 0x74DD5007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74DD5001, 0x74DD5008, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x74DD5001, 0x74DD5002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74DD5001, 0x74DD5003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74DD5001, 0x74DD5004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74DD5001, 0x74DD5005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74DD5001, 0x74DD5006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74DD5001, 0x74DD5007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74DD5001, 0x74DD5008, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DD5002,  7346, 0x4DD50007, 10.37035, 153.237, 47.33185, -0.7649156, 0, 0, -0.6441305,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

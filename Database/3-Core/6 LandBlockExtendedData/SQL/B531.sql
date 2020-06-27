@@ -5,11 +5,11 @@ VALUES (0x7B531001,  1154, 0xB5310010, 25.7168, 176.9486, 86.56754, 0.1857254, 0
 /* @teleloc 0xB5310010 [25.716800 176.948600 86.567540] 0.185725 0.000000 0.000000 -0.982602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B531001, 0x7B531002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B531001, 0x7B531003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B531001, 0x7B531004, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7B531001, 0x7B531005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7B531001, 0x7B531006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7B531001, 0x7B531002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B531001, 0x7B531003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B531001, 0x7B531004, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7B531001, 0x7B531005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7B531001, 0x7B531006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B531002,  8141, 0xB5310010, 25.7168, 176.9486, 86.56754, 0.1857254, 0, 0, -0.9826017,  True, '2019-02-10 00:00:00'); /* Lithos Raider */

@@ -5,12 +5,12 @@ VALUES (0x7EA80001,  1154, 0xEA800039, 186.3502, 22.70564, -0.4739999, 0.6615566
 /* @teleloc 0xEA800039 [186.350200 22.705640 -0.474000] 0.661557 0.000000 0.000000 -0.749895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA80001, 0x7EA80002, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EA80001, 0x7EA80003, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EA80001, 0x7EA80004, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EA80001, 0x7EA80005, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7EA80001, 0x7EA80006, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EA80001, 0x7EA80007, '2019-02-10 00:00:00') /* Iron Spined Chittick */;
+VALUES (0x7EA80001, 0x7EA80002, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EA80001, 0x7EA80003, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EA80001, 0x7EA80004, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EA80001, 0x7EA80005, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7EA80001, 0x7EA80006, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EA80001, 0x7EA80007, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA80002, 22506, 0xEA800039, 186.3502, 22.70564, -0.4739999, 0.6615566, 0, 0, -0.7498952,  True, '2019-02-10 00:00:00'); /* Iron Spined Chittick */

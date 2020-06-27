@@ -5,9 +5,9 @@ VALUES (0x7D13F001,  1154, 0xD13F0040, 183.8117, 186.1571, 169.1465, 0.9238795, 
 /* @teleloc 0xD13F0040 [183.811700 186.157100 169.146500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D13F001, 0x7D13F002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D13F001, 0x7D13F003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D13F001, 0x7D13F004, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7D13F001, 0x7D13F002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D13F001, 0x7D13F003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D13F001, 0x7D13F004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D13F002,   194, 0xD13F0040, 183.8117, 186.1571, 169.1465, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */

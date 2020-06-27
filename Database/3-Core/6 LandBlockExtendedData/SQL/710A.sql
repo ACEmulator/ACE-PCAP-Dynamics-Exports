@@ -17,324 +17,324 @@ VALUES (0x7710A01D,  1154, 0x710A0029, 133.7266, 19.36132, 3.43414, -0.649468, 0
 /* @teleloc 0x710A0029 [133.726600 19.361320 3.434140] -0.649468 0.000000 0.000000 -0.760389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7710A01D, 0x7710A01E, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A01F, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A020, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A021, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A022, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A023, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A024, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A025, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A026, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A027, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A028, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A029, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A02A, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A02B, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A02C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A02D, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A02E, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A02F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A030, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A031, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A032, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A033, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A034, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A035, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A036, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A037, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A038, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A039, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A03A, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A03B, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A03C, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A03D, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A03E, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A03F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A040, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A041, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A042, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A043, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A044, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A045, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A046, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A047, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A048, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A049, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A04A, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A04B, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A04C, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A04D, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A04E, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A04F, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A050, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A051, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A052, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A053, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A054, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A055, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A056, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A057, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A058, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A059, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A05A, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A05B, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A05C, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A05D, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A05E, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A05F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A060, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A061, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A062, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A063, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A064, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A065, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A066, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A067, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A068, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A069, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A06A, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A06B, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A06C, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A06D, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A06E, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A06F, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A070, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A071, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A072, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A073, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A074, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A075, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A076, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A077, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A078, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A079, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A07A, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A07B, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A07C, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A07D, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A07E, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A07F, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A080, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A081, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A082, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A083, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A084, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A085, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A086, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A087, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A088, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A089, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A08A, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A08B, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A08C, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A08D, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A08E, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A08F, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A090, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A091, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A092, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A093, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A094, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A095, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A096, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A097, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A098, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A099, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A09A, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A09B, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A09C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A09D, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A09E, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A09F, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0A0, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0A1, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0A2, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0A3, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0A4, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0A5, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0A6, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0A7, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A0A8, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0A9, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A0AA, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A0AB, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0AC, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A0AD, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0AE, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0AF, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0B0, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A0B1, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0B2, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0B3, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A0B4, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0B5, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0B6, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0B7, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0B8, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0B9, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A0BA, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0BB, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0BC, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A0BD, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0BE, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A0BF, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A0C0, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A0C1, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A0C2, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A0C3, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A0C4, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A0C5, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A0C6, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A0C7, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0C8, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0C9, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0CA, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0CB, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0CC, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0CD, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0CE, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0CF, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0D0, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0D1, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0D2, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A0D3, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A0D4, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A0D5, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0D6, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0D7, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0D8, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0D9, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0DA, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0DB, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0DC, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0DD, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0DE, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0DF, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A0E0, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0E1, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0E2, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0E3, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0E4, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0E5, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0E6, '2019-02-10 00:00:00') /* Small Iron Golem */
-     , (0x7710A01D, 0x7710A0E7, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0E8, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0E9, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0EA, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0EB, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0EC, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0ED, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0EE, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0EF, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0F0, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0F1, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A0F2, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0F3, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A0F4, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0F5, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0F6, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0F7, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A0F8, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0F9, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0FA, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0FB, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0FC, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A0FD, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0FE, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A0FF, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A100, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A101, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A102, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A103, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A104, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A105, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A106, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A107, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A108, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A109, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A10A, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A10B, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A10C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A10D, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A10E, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A10F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A110, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A111, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A112, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A113, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A114, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A115, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A116, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A117, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A118, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A119, '2019-02-10 00:00:00') /* Small Granite Golem */
-     , (0x7710A01D, 0x7710A11A, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A11B, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A11C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A11D, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A11E, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A11F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A120, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A121, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A122, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A123, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A124, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A125, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A126, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A127, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A128, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A129, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A12A, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A12B, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A12C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A12D, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A12E, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A12F, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A130, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A131, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A132, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A133, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A134, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A135, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A136, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A137, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A138, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A139, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A13A, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A13B, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A13C, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A13D, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A13E, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A13F, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A140, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A141, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A142, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A143, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A144, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A145, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A146, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A147, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A148, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A149, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A14A, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A14B, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A14C, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A14D, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A14E, '2019-02-10 00:00:00') /* Small Sand Golem */
-     , (0x7710A01D, 0x7710A14F, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A150, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7710A01D, 0x7710A151, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A152, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A153, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x7710A01D, 0x7710A154, '2019-02-10 00:00:00') /* Small Wood Golem */
-     , (0x7710A01D, 0x7710A155, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7710A01D, 0x7710A156, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A157, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A158, '2019-02-10 00:00:00') /* Small Sandstone Golem */
-     , (0x7710A01D, 0x7710A159, '2019-02-10 00:00:00') /* Small Magma Golem */
-     , (0x7710A01D, 0x7710A15A, '2019-02-10 00:00:00') /* Small Obsidian Golem */
-     , (0x7710A01D, 0x7710A15B, '2019-02-10 00:00:00') /* Small Magma Golem */;
+VALUES (0x7710A01D, 0x7710A01E, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A01F, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A020, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A021, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A022, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A023, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A024, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A025, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A026, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A027, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A028, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A029, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A02A, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A02B, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A02C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A02D, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A02E, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A02F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A030, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A031, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A032, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A033, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A034, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A035, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A036, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A037, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A038, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A039, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A03A, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A03B, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A03C, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A03D, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A03E, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A03F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A040, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A041, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A042, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A043, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A044, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A045, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A046, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A047, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A048, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A049, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A04A, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A04B, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A04C, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A04D, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A04E, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A04F, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A050, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A051, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A052, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A053, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A054, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A055, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A056, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A057, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A058, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A059, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A05A, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A05B, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A05C, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A05D, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A05E, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A05F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A060, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A061, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A062, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A063, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A064, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A065, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A066, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A067, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A068, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A069, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A06A, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A06B, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A06C, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A06D, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A06E, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A06F, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A070, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A071, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A072, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A073, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A074, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A075, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A076, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A077, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A078, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A079, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A07A, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A07B, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A07C, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A07D, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A07E, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A07F, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A080, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A081, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A082, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A083, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A084, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A085, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A086, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A087, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A088, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A089, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A08A, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A08B, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A08C, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A08D, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A08E, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A08F, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A090, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A091, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A092, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A093, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A094, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A095, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A096, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A097, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A098, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A099, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A09A, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A09B, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A09C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A09D, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A09E, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A09F, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0A0, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0A1, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0A2, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0A3, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0A4, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0A5, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0A6, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0A7, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A0A8, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0A9, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A0AA, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A0AB, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0AC, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A0AD, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0AE, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0AF, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0B0, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A0B1, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0B2, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0B3, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A0B4, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0B5, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0B6, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0B7, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0B8, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0B9, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A0BA, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A0BB, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0BC, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A0BD, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0BE, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A0BF, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A0C0, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A0C1, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A0C2, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A0C3, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A0C4, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A0C5, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A0C6, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A0C7, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0C8, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0C9, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0CA, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0CB, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0CC, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0CD, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0CE, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0CF, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0D0, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0D1, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0D2, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A0D3, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A0D4, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A0D5, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0D6, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0D7, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0D8, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0D9, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0DA, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0DB, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0DC, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0DD, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0DE, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0DF, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A0E0, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0E1, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0E2, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0E3, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0E4, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0E5, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0E6, '2019-02-10 00:00:00') /* Small Iron Golem (24480) */
+     , (0x7710A01D, 0x7710A0E7, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0E8, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0E9, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0EA, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0EB, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0EC, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0ED, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0EE, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0EF, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0F0, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0F1, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A0F2, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0F3, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A0F4, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0F5, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0F6, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0F7, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A0F8, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0F9, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0FA, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0FB, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0FC, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A0FD, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0FE, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A0FF, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A100, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A101, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A102, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A103, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A104, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A105, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A106, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A107, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A108, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A109, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A10A, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A10B, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A10C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A10D, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A10E, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A10F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A110, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A111, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A112, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A113, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A114, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A115, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A116, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A117, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A118, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A119, '2019-02-10 00:00:00') /* Small Granite Golem (24479) */
+     , (0x7710A01D, 0x7710A11A, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A11B, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A11C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A11D, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A11E, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A11F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A120, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A121, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A122, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A123, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A124, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A125, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A126, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A127, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A128, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A129, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A12A, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A12B, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A12C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A12D, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A12E, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A12F, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A130, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A131, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A132, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A133, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A134, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A135, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A136, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A137, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A138, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A139, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A13A, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A13B, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A13C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A13D, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A13E, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A13F, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A140, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A141, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A142, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A143, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A144, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A145, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A146, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A147, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A148, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A149, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A14A, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A14B, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x7710A01D, 0x7710A14C, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A14D, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A14E, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x7710A01D, 0x7710A14F, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A150, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7710A01D, 0x7710A151, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A152, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A153, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x7710A01D, 0x7710A154, '2019-02-10 00:00:00') /* Small Wood Golem (24486) */
+     , (0x7710A01D, 0x7710A155, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7710A01D, 0x7710A156, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A157, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A158, '2019-02-10 00:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7710A01D, 0x7710A159, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */
+     , (0x7710A01D, 0x7710A15A, '2019-02-10 00:00:00') /* Small Obsidian Golem (24483) */
+     , (0x7710A01D, 0x7710A15B, '2019-02-10 00:00:00') /* Small Magma Golem (24481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7710A01E, 24486, 0x710A0029, 133.7266, 19.36132, 3.43414, -0.649468, 0, 0, -0.760389,  True, '2019-02-10 00:00:00'); /* Small Wood Golem */
@@ -1613,8 +1613,8 @@ VALUES (0x7710A15C,  1542, 0x710A0031, 164.0659, 3.686952, 5.999, 0.95217, 0, 0,
 /* @teleloc 0x710A0031 [164.065900 3.686952 5.999000] 0.952170 0.000000 0.000000 -0.305569 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7710A15C, 0x7710A15D, '2019-02-10 00:00:00') /* Adherent's Crystal */
-     , (0x7710A15C, 0x7710A15E, '2019-02-10 00:00:00') /* Thief's Crystal */;
+VALUES (0x7710A15C, 0x7710A15D, '2019-02-10 00:00:00') /* Adherent's Crystal (30222) */
+     , (0x7710A15C, 0x7710A15E, '2019-02-10 00:00:00') /* Thief's Crystal (30221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7710A15D, 30222, 0x710A0031, 164.0659, 3.686952, 5.999, 0.95217, 0, 0, -0.305569,  True, '2019-02-10 00:00:00'); /* Adherent's Crystal */

@@ -5,9 +5,9 @@ VALUES (0x7B84F001,  1154, 0xB84F0019, 78.12361, 2.467896, 28.005, 0.9970321, 0,
 /* @teleloc 0xB84F0019 [78.123610 2.467896 28.005000] 0.997032 0.000000 0.000000 -0.076987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B84F001, 0x7B84F002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B84F001, 0x7B84F003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7B84F001, 0x7B84F004, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7B84F001, 0x7B84F002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B84F001, 0x7B84F003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7B84F001, 0x7B84F004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B84F002,  1758, 0xB84F0019, 78.12361, 2.467896, 28.005, 0.9970321, 0, 0, -0.07698721,  True, '2019-02-10 00:00:00'); /* Shadow */

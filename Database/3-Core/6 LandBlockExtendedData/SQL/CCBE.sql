@@ -5,14 +5,14 @@ VALUES (0x7CCBE001,  1154, 0xCCBE0002, 20.1494, 30.19154, 25.15925, -0.8807956, 
 /* @teleloc 0xCCBE0002 [20.149400 30.191540 25.159250] -0.880796 0.000000 0.000000 -0.473497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCBE001, 0x7CCBE002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7CCBE001, 0x7CCBE003, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7CCBE001, 0x7CCBE004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7CCBE001, 0x7CCBE005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7CCBE001, 0x7CCBE006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CCBE001, 0x7CCBE007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7CCBE001, 0x7CCBE008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CCBE001, 0x7CCBE009, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CCBE001, 0x7CCBE002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7CCBE001, 0x7CCBE003, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7CCBE001, 0x7CCBE004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7CCBE001, 0x7CCBE005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7CCBE001, 0x7CCBE006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CCBE001, 0x7CCBE007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7CCBE001, 0x7CCBE008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CCBE001, 0x7CCBE009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCBE002, 35734, 0xCCBE0002, 20.1494, 30.19154, 25.15925, -0.8807956, 0, 0, -0.4734967,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Flyer Nymph */

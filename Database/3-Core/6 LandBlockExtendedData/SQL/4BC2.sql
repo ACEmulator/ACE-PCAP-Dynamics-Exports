@@ -5,21 +5,21 @@ VALUES (0x74BC2001,  1154, 0x4BC20034, 158.7241, 75.84544, 5.804131, -0.8248303,
 /* @teleloc 0x4BC20034 [158.724100 75.845440 5.804131] -0.824830 0.000000 0.000000 -0.565380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BC2001, 0x74BC2002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74BC2001, 0x74BC2003, '2019-02-10 00:00:00') /* Frost */
-     , (0x74BC2001, 0x74BC2004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74BC2001, 0x74BC2005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74BC2001, 0x74BC2006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74BC2001, 0x74BC2007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x74BC2001, 0x74BC2008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74BC2001, 0x74BC2009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74BC2001, 0x74BC200A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x74BC2001, 0x74BC200B, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x74BC2001, 0x74BC200C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BC2001, 0x74BC200D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BC2001, 0x74BC200E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x74BC2001, 0x74BC200F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74BC2001, 0x74BC2010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x74BC2001, 0x74BC2002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74BC2001, 0x74BC2003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74BC2001, 0x74BC2004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74BC2001, 0x74BC2005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74BC2001, 0x74BC2006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74BC2001, 0x74BC2007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x74BC2001, 0x74BC2008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74BC2001, 0x74BC2009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74BC2001, 0x74BC200A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x74BC2001, 0x74BC200B, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x74BC2001, 0x74BC200C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BC2001, 0x74BC200D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BC2001, 0x74BC200E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x74BC2001, 0x74BC200F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74BC2001, 0x74BC2010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BC2002, 24293, 0x4BC20034, 158.7241, 75.84544, 5.804131, -0.8248303, 0, 0, -0.5653804,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -86,8 +86,8 @@ VALUES (0x74BC2011,  1542, 0x4BC2002B, 143.5385, 65.44865, 9.676297, 1, 0, 0, 0,
 /* @teleloc 0x4BC2002B [143.538500 65.448650 9.676297] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BC2011, 0x74BC2012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BC2011, 0x74BC2013, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x74BC2011, 0x74BC2012, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x74BC2011, 0x74BC2013, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BC2012, 22571, 0x4BC2002B, 143.5385, 65.44865, 9.676297, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

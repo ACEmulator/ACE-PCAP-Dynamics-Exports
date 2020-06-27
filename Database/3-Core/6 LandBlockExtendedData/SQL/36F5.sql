@@ -5,18 +5,18 @@ VALUES (0x736F5001,  1154, 0x36F50030, 136.6335, 183.4291, 2.0075, -0.6361831, 0
 /* @teleloc 0x36F50030 [136.633500 183.429100 2.007500] -0.636183 0.000000 0.000000 -0.771538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736F5001, 0x736F5002, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x736F5001, 0x736F5003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x736F5001, 0x736F5004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x736F5001, 0x736F5005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736F5001, 0x736F5006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736F5001, 0x736F5007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736F5001, 0x736F5008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736F5001, 0x736F5009, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736F5001, 0x736F500A, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736F5001, 0x736F500B, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736F5001, 0x736F500C, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x736F5001, 0x736F500D, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x736F5001, 0x736F5002, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x736F5001, 0x736F5003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x736F5001, 0x736F5004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x736F5001, 0x736F5005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736F5001, 0x736F5006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736F5001, 0x736F5007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x736F5001, 0x736F5008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736F5001, 0x736F5009, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x736F5001, 0x736F500A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x736F5001, 0x736F500B, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736F5001, 0x736F500C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736F5001, 0x736F500D, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736F5002, 24322, 0x36F50030, 136.6335, 183.4291, 2.0075, -0.6361831, 0, 0, -0.7715381,  True, '2019-02-10 00:00:00'); /* Undead Lieutenant */

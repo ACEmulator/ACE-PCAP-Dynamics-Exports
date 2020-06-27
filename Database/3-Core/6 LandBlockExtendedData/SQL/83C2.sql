@@ -5,23 +5,23 @@ VALUES (0x783C2001,  1154, 0x83C2000B, 26.94355, 48.02244, 89.77779, 0.4427631, 
 /* @teleloc 0x83C2000B [26.943550 48.022440 89.777790] 0.442763 0.000000 0.000000 -0.896639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C2001, 0x783C2002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x783C2001, 0x783C2003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x783C2001, 0x783C2004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x783C2001, 0x783C2005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x783C2001, 0x783C2006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x783C2001, 0x783C2007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x783C2001, 0x783C2008, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x783C2001, 0x783C2009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x783C2001, 0x783C200A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x783C2001, 0x783C200B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x783C2001, 0x783C200C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x783C2001, 0x783C200D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x783C2001, 0x783C200E, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x783C2001, 0x783C200F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x783C2001, 0x783C2010, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x783C2001, 0x783C2011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x783C2001, 0x783C2012, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x783C2001, 0x783C2002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x783C2001, 0x783C2003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x783C2001, 0x783C2004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x783C2001, 0x783C2005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x783C2001, 0x783C2006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x783C2001, 0x783C2007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x783C2001, 0x783C2008, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x783C2001, 0x783C2009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x783C2001, 0x783C200A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x783C2001, 0x783C200B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x783C2001, 0x783C200C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x783C2001, 0x783C200D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x783C2001, 0x783C200E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x783C2001, 0x783C200F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x783C2001, 0x783C2010, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x783C2001, 0x783C2011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x783C2001, 0x783C2012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C2002, 23082, 0x83C2000B, 26.94355, 48.02244, 89.77779, 0.4427631, 0, 0, -0.8966386,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

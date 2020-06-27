@@ -5,30 +5,30 @@ VALUES (0x7ADDF001,  1154, 0xADDF0012, 65.21459, 28.92961, 8.403301, 0.7071068, 
 /* @teleloc 0xADDF0012 [65.214590 28.929610 8.403301] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDF001, 0x7ADDF002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ADDF001, 0x7ADDF003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ADDF001, 0x7ADDF004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ADDF001, 0x7ADDF005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ADDF001, 0x7ADDF006, '2019-02-10 00:00:00') /* Ember */
-     , (0x7ADDF001, 0x7ADDF007, '2019-02-10 00:00:00') /* Static */
-     , (0x7ADDF001, 0x7ADDF008, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7ADDF001, 0x7ADDF009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ADDF001, 0x7ADDF00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ADDF001, 0x7ADDF00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF00C, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF00D, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF00E, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7ADDF001, 0x7ADDF00F, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF010, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF011, '2019-02-10 00:00:00') /* Frost */
-     , (0x7ADDF001, 0x7ADDF012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ADDF001, 0x7ADDF013, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7ADDF001, 0x7ADDF014, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7ADDF001, 0x7ADDF015, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7ADDF001, 0x7ADDF016, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7ADDF001, 0x7ADDF017, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7ADDF001, 0x7ADDF018, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ADDF001, 0x7ADDF019, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7ADDF001, 0x7ADDF002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ADDF001, 0x7ADDF003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ADDF001, 0x7ADDF004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ADDF001, 0x7ADDF005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ADDF001, 0x7ADDF006, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7ADDF001, 0x7ADDF007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7ADDF001, 0x7ADDF008, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7ADDF001, 0x7ADDF009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ADDF001, 0x7ADDF00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ADDF001, 0x7ADDF00B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF00C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF00D, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF00E, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7ADDF001, 0x7ADDF00F, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF010, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF011, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7ADDF001, 0x7ADDF012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ADDF001, 0x7ADDF013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7ADDF001, 0x7ADDF014, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7ADDF001, 0x7ADDF015, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7ADDF001, 0x7ADDF016, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7ADDF001, 0x7ADDF017, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7ADDF001, 0x7ADDF018, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ADDF001, 0x7ADDF019, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDF002, 24294, 0xADDF0012, 65.21459, 28.92961, 8.403301, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -131,7 +131,7 @@ VALUES (0x7ADDF01A,  1542, 0xADDF001D, 80.23724, 115.4289, 11.97363, -0.1736482,
 /* @teleloc 0xADDF001D [80.237240 115.428900 11.973630] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDF01A, 0x7ADDF01B, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x7ADDF01A, 0x7ADDF01B, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDF01B, 25957, 0xADDF001D, 80.23724, 115.4289, 11.97363, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

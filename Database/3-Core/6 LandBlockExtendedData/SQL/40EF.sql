@@ -5,34 +5,34 @@ VALUES (0x740EF001,  1154, 0x40EF0008, 17.99535, 170.6821, -0.0934, -0.9873573, 
 /* @teleloc 0x40EF0008 [17.995350 170.682100 -0.093400] -0.987357 0.000000 0.000000 -0.158511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740EF001, 0x740EF002, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x740EF001, 0x740EF003, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x740EF001, 0x740EF004, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x740EF001, 0x740EF005, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x740EF001, 0x740EF006, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740EF001, 0x740EF007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x740EF001, 0x740EF008, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x740EF001, 0x740EF009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x740EF001, 0x740EF00A, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740EF001, 0x740EF00B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x740EF001, 0x740EF00C, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x740EF001, 0x740EF00D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x740EF001, 0x740EF00E, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740EF001, 0x740EF00F, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x740EF001, 0x740EF010, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740EF001, 0x740EF011, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x740EF001, 0x740EF012, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x740EF001, 0x740EF013, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740EF001, 0x740EF014, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x740EF001, 0x740EF015, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740EF001, 0x740EF016, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740EF001, 0x740EF017, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x740EF001, 0x740EF018, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x740EF001, 0x740EF019, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x740EF001, 0x740EF01A, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740EF001, 0x740EF01B, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740EF001, 0x740EF01C, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x740EF001, 0x740EF01D, '2019-02-10 00:00:00') /* Viamontian Commander */;
+VALUES (0x740EF001, 0x740EF002, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x740EF001, 0x740EF003, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x740EF001, 0x740EF004, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x740EF001, 0x740EF005, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x740EF001, 0x740EF006, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740EF001, 0x740EF007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x740EF001, 0x740EF008, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x740EF001, 0x740EF009, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x740EF001, 0x740EF00A, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740EF001, 0x740EF00B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x740EF001, 0x740EF00C, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x740EF001, 0x740EF00D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x740EF001, 0x740EF00E, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740EF001, 0x740EF00F, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x740EF001, 0x740EF010, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740EF001, 0x740EF011, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x740EF001, 0x740EF012, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x740EF001, 0x740EF013, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740EF001, 0x740EF014, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x740EF001, 0x740EF015, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740EF001, 0x740EF016, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740EF001, 0x740EF017, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x740EF001, 0x740EF018, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x740EF001, 0x740EF019, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x740EF001, 0x740EF01A, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740EF001, 0x740EF01B, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740EF001, 0x740EF01C, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x740EF001, 0x740EF01D, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740EF002, 29343, 0x40EF0008, 17.99535, 170.6821, -0.0934, -0.9873573, 0, 0, -0.1585106,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */
@@ -151,7 +151,7 @@ VALUES (0x740EF01E,  1542, 0x40EF0007, 5.709703, 161.8363, -0.45, 0.78395, 0, 0,
 /* @teleloc 0x40EF0007 [5.709703 161.836300 -0.450000] 0.783950 0.000000 0.000000 -0.620824 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740EF01E, 0x740EF01F, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x740EF01E, 0x740EF01F, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740EF01F, 31032, 0x40EF0007, 5.709703, 161.8363, -0.45, 0.78395, 0, 0, -0.620824,  True, '2019-02-10 00:00:00'); /* Snow Lily */

@@ -5,16 +5,16 @@ VALUES (0x72DE6001,  1154, 0x2DE60020, 87.1394, 182.7915, 27.18465, -0.1415818, 
 /* @teleloc 0x2DE60020 [87.139400 182.791500 27.184650] -0.141582 0.000000 0.000000 -0.989927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DE6001, 0x72DE6002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72DE6001, 0x72DE6003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72DE6001, 0x72DE6004, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72DE6001, 0x72DE6005, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72DE6001, 0x72DE6006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72DE6001, 0x72DE6007, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72DE6001, 0x72DE6008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72DE6001, 0x72DE6009, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72DE6001, 0x72DE600A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DE6001, 0x72DE600B, '2019-02-10 00:00:00') /* Demented Fiun */;
+VALUES (0x72DE6001, 0x72DE6002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72DE6001, 0x72DE6003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72DE6001, 0x72DE6004, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72DE6001, 0x72DE6005, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72DE6001, 0x72DE6006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72DE6001, 0x72DE6007, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72DE6001, 0x72DE6008, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72DE6001, 0x72DE6009, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72DE6001, 0x72DE600A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DE6001, 0x72DE600B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DE6002,  7507, 0x2DE60020, 87.1394, 182.7915, 27.18465, -0.1415818, 0, 0, -0.9899266,  True, '2019-02-10 00:00:00'); /* Coral Golem */

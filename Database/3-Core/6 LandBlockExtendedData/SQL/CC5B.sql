@@ -5,17 +5,17 @@ VALUES (0x7CC5B001,  1154, 0xCC5B0024, 103.6755, 78.01298, 6.003, -0.1852669, 0,
 /* @teleloc 0xCC5B0024 [103.675500 78.012980 6.003000] -0.185267 0.000000 0.000000 -0.982688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC5B001, 0x7CC5B002, '2019-02-10 00:00:00') /* Mox */
-     , (0x7CC5B001, 0x7CC5B003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5B001, 0x7CC5B006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5B001, 0x7CC5B00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7CC5B001, 0x7CC5B002, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7CC5B001, 0x7CC5B003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5B001, 0x7CC5B006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5B001, 0x7CC5B00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC5B002, 20188, 0xCC5B0024, 103.6755, 78.01298, 6.003, -0.1852669, 0, 0, -0.9826882,  True, '2019-02-10 00:00:00'); /* Mox */

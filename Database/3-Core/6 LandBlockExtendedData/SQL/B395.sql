@@ -5,12 +5,12 @@ VALUES (0x7B395001,  1154, 0xB3950031, 144.5775, 21.58941, 57.56011, 0.7229494, 
 /* @teleloc 0xB3950031 [144.577500 21.589410 57.560110] 0.722949 0.000000 0.000000 -0.690901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B395001, 0x7B395002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B395001, 0x7B395003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B395001, 0x7B395004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B395001, 0x7B395005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B395001, 0x7B395006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B395001, 0x7B395007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7B395001, 0x7B395002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B395001, 0x7B395003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B395001, 0x7B395004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B395001, 0x7B395005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B395001, 0x7B395006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B395001, 0x7B395007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B395002, 11528, 0xB3950031, 144.5775, 21.58941, 57.56011, 0.7229494, 0, 0, -0.690901,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

@@ -5,16 +5,16 @@ VALUES (0x7CB51001,  1154, 0xCB51002D, 136.7412, 103.5306, 34.66019, -0.2671538,
 /* @teleloc 0xCB51002D [136.741200 103.530600 34.660190] -0.267154 0.000000 0.000000 -0.963654 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB51001, 0x7CB51002, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7CB51001, 0x7CB51003, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7CB51001, 0x7CB51004, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB51001, 0x7CB51005, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB51001, 0x7CB51006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB51001, 0x7CB51007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB51001, 0x7CB51008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB51001, 0x7CB51009, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CB51001, 0x7CB5100A, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CB51001, 0x7CB5100B, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7CB51001, 0x7CB51002, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7CB51001, 0x7CB51003, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7CB51001, 0x7CB51004, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB51001, 0x7CB51005, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB51001, 0x7CB51006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB51001, 0x7CB51007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB51001, 0x7CB51008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB51001, 0x7CB51009, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CB51001, 0x7CB5100A, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CB51001, 0x7CB5100B, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB51002,  8140, 0xCB51002D, 136.7412, 103.5306, 34.66019, -0.2671538, 0, 0, -0.9636539,  True, '2019-02-10 00:00:00'); /* Laigus Raider */

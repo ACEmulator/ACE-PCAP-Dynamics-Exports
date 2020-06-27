@@ -5,9 +5,9 @@ VALUES (0x71822001,  1154, 0x1822003C, 178.138, 73.45316, 6.917529, 0.5805942, 0
 /* @teleloc 0x1822003C [178.138000 73.453160 6.917529] 0.580594 0.000000 0.000000 -0.814193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71822001, 0x71822002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71822001, 0x71822003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71822001, 0x71822004, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71822001, 0x71822002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71822001, 0x71822003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71822001, 0x71822004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71822002, 36826, 0x1822003C, 178.138, 73.45316, 6.917529, 0.5805942, 0, 0, -0.8141931,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

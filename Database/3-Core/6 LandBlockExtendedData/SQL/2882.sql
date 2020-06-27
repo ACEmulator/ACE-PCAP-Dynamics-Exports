@@ -5,24 +5,24 @@ VALUES (0x72882001,  1154, 0x28820023, 110.5048, 49.31462, 194.4981, 0.3598716, 
 /* @teleloc 0x28820023 [110.504800 49.314620 194.498100] 0.359872 0.000000 0.000000 -0.933002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72882001, 0x72882002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72882001, 0x72882003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72882001, 0x72882004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72882001, 0x72882005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72882001, 0x72882006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72882001, 0x72882007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72882001, 0x72882008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72882001, 0x72882009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72882001, 0x7288200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72882001, 0x7288200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72882001, 0x7288200C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72882001, 0x7288200D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72882001, 0x7288200E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72882001, 0x7288200F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72882001, 0x72882010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72882001, 0x72882011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72882001, 0x72882012, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72882001, 0x72882013, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72882001, 0x72882002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72882001, 0x72882003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72882001, 0x72882004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72882001, 0x72882005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72882001, 0x72882006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72882001, 0x72882007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72882001, 0x72882008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72882001, 0x72882009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72882001, 0x7288200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72882001, 0x7288200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72882001, 0x7288200C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72882001, 0x7288200D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72882001, 0x7288200E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72882001, 0x7288200F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72882001, 0x72882010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72882001, 0x72882011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72882001, 0x72882012, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72882001, 0x72882013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72882002, 36843, 0x28820023, 110.5048, 49.31462, 194.4981, 0.3598716, 0, 0, -0.9330018,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -101,7 +101,7 @@ VALUES (0x72882014,  1542, 0x28820021, 105.9306, 21.11859, 186.797, 1, 0, 0, 0, 
 /* @teleloc 0x28820021 [105.930600 21.118590 186.797000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72882014, 0x72882015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72882014, 0x72882015, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72882015, 22566, 0x28820021, 105.9306, 21.11859, 186.797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

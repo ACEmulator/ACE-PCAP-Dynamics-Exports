@@ -5,30 +5,30 @@ VALUES (0x7B5EF001,  1154, 0xB5EF000E, 39.6175, 140.5237, 70.37888, 1, 0, 0, 0, 
 /* @teleloc 0xB5EF000E [39.617500 140.523700 70.378880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5EF001, 0x7B5EF002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B5EF001, 0x7B5EF003, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7B5EF001, 0x7B5EF004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B5EF001, 0x7B5EF005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B5EF001, 0x7B5EF006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B5EF001, 0x7B5EF007, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7B5EF001, 0x7B5EF008, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B5EF001, 0x7B5EF009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B5EF001, 0x7B5EF00A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B5EF001, 0x7B5EF00B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B5EF001, 0x7B5EF00C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B5EF001, 0x7B5EF00D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B5EF001, 0x7B5EF00E, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B5EF001, 0x7B5EF00F, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B5EF001, 0x7B5EF010, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B5EF001, 0x7B5EF011, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B5EF001, 0x7B5EF012, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B5EF001, 0x7B5EF013, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B5EF001, 0x7B5EF014, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B5EF001, 0x7B5EF015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B5EF001, 0x7B5EF016, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7B5EF001, 0x7B5EF017, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B5EF001, 0x7B5EF018, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B5EF001, 0x7B5EF019, '2019-02-10 00:00:00') /* Spectral Wisp */;
+VALUES (0x7B5EF001, 0x7B5EF002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B5EF001, 0x7B5EF003, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7B5EF001, 0x7B5EF004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B5EF001, 0x7B5EF005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B5EF001, 0x7B5EF006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B5EF001, 0x7B5EF007, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7B5EF001, 0x7B5EF008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B5EF001, 0x7B5EF009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B5EF001, 0x7B5EF00A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B5EF001, 0x7B5EF00B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B5EF001, 0x7B5EF00C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B5EF001, 0x7B5EF00D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B5EF001, 0x7B5EF00E, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B5EF001, 0x7B5EF00F, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B5EF001, 0x7B5EF010, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B5EF001, 0x7B5EF011, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B5EF001, 0x7B5EF012, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B5EF001, 0x7B5EF013, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B5EF001, 0x7B5EF014, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B5EF001, 0x7B5EF015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B5EF001, 0x7B5EF016, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7B5EF001, 0x7B5EF017, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B5EF001, 0x7B5EF018, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B5EF001, 0x7B5EF019, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5EF002, 38178, 0xB5EF000E, 39.6175, 140.5237, 70.37888, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Blighted Pyreal Golem */
@@ -131,9 +131,9 @@ VALUES (0x7B5EF01A,  1542, 0xB5EF0018, 56.33863, 172.2375, 42.57616, 1, 0, 0, 0,
 /* @teleloc 0xB5EF0018 [56.338630 172.237500 42.576160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5EF01A, 0x7B5EF01B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B5EF01A, 0x7B5EF01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B5EF01A, 0x7B5EF01D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B5EF01A, 0x7B5EF01B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B5EF01A, 0x7B5EF01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B5EF01A, 0x7B5EF01D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5EF01B,  4179, 0xB5EF0018, 56.33863, 172.2375, 42.57616, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

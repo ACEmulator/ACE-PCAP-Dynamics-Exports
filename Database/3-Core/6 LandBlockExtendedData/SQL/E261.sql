@@ -5,23 +5,23 @@ VALUES (0x7E261001,  1154, 0xE2610022, 106.3088, 30.17264, -0.09749997, -0.96735
 /* @teleloc 0xE2610022 [106.308800 30.172640 -0.097500] -0.967351 0.000000 0.000000 -0.253439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E261001, 0x7E261002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E261001, 0x7E261003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E261001, 0x7E261006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E261001, 0x7E261007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7E261001, 0x7E261008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E261001, 0x7E26100A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E261001, 0x7E26100B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E261001, 0x7E26100C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E261001, 0x7E26100D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E26100E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E261001, 0x7E26100F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E261001, 0x7E261012, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7E261001, 0x7E261002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E261001, 0x7E261003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E261001, 0x7E261006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E261001, 0x7E261007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7E261001, 0x7E261008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E261001, 0x7E26100A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E261001, 0x7E26100B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E261001, 0x7E26100C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E261001, 0x7E26100D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E26100E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E261001, 0x7E26100F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E261001, 0x7E261012, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E261002, 22208, 0xE2610022, 106.3088, 30.17264, -0.09749997, -0.9673514, 0, 0, -0.2534389,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
@@ -96,7 +96,7 @@ VALUES (0x7E261013,  1542, 0xE261001B, 76.36423, 49.94405, -0.089, 0.7711568, 0,
 /* @teleloc 0xE261001B [76.364230 49.944050 -0.089000] 0.771157 0.000000 0.000000 -0.636645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E261013, 0x7E261014, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7E261013, 0x7E261014, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E261014, 31686, 0xE261001B, 76.36423, 49.94405, -0.089, 0.7711568, 0, 0, -0.6366453,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

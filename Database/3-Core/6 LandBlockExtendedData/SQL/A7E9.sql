@@ -5,19 +5,19 @@ VALUES (0x7A7E9001,  1154, 0xA7E9003F, 182.9887, 160.2421, 11.38994, 0.7071068, 
 /* @teleloc 0xA7E9003F [182.988700 160.242100 11.389940] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7E9001, 0x7A7E9002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A7E9001, 0x7A7E9003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A7E9001, 0x7A7E9004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A7E9001, 0x7A7E9005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A7E9001, 0x7A7E9006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A7E9001, 0x7A7E9007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A7E9001, 0x7A7E9008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A7E9001, 0x7A7E9009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A7E9001, 0x7A7E900A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A7E9001, 0x7A7E900B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A7E9001, 0x7A7E900C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A7E9001, 0x7A7E900D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A7E9001, 0x7A7E900E, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7A7E9001, 0x7A7E9002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A7E9001, 0x7A7E9003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A7E9001, 0x7A7E9004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A7E9001, 0x7A7E9005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A7E9001, 0x7A7E9006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A7E9001, 0x7A7E9007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A7E9001, 0x7A7E9008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A7E9001, 0x7A7E9009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A7E9001, 0x7A7E900A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A7E9001, 0x7A7E900B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A7E9001, 0x7A7E900C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A7E9001, 0x7A7E900D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A7E9001, 0x7A7E900E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7E9002, 24293, 0xA7E9003F, 182.9887, 160.2421, 11.38994, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -76,8 +76,8 @@ VALUES (0x7A7E900F,  1542, 0xA7E9003F, 180.8709, 158.9712, 11.67982, -4.371139E-
 /* @teleloc 0xA7E9003F [180.870900 158.971200 11.679820] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7E900F, 0x7A7E9010, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A7E900F, 0x7A7E9011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A7E900F, 0x7A7E9010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A7E900F, 0x7A7E9011, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7E9010,  4380, 0xA7E9003F, 180.8709, 158.9712, 11.67982, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

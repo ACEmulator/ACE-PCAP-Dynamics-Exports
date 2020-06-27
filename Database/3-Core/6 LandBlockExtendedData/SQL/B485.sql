@@ -5,12 +5,12 @@ VALUES (0x7B485001,  1154, 0xB485000A, 38.9237, 40.38276, 44.15574, 0.8933306, 0
 /* @teleloc 0xB485000A [38.923700 40.382760 44.155740] 0.893331 0.000000 0.000000 -0.449400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B485001, 0x7B485002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B485001, 0x7B485003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B485001, 0x7B485004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B485001, 0x7B485005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B485001, 0x7B485006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B485001, 0x7B485007, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7B485001, 0x7B485002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B485001, 0x7B485003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B485001, 0x7B485004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B485001, 0x7B485005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B485001, 0x7B485006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B485001, 0x7B485007, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B485002,  8673, 0xB485000A, 38.9237, 40.38276, 44.15574, 0.8933306, 0, 0, -0.4494001,  True, '2019-02-10 00:00:00'); /* Risen Knight */

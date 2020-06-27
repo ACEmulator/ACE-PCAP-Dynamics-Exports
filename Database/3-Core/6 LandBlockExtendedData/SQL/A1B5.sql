@@ -13,19 +13,19 @@ VALUES (0x7A1B5002,  1154, 0xA1B50102, 35.5827, 132.798, 74.017, -0.156975, 0, 0
 /* @teleloc 0xA1B50102 [35.582700 132.798000 74.017000] -0.156975 0.000000 0.000000 -0.987603 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B5002, 0x7A1B5003, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7A1B5002, 0x7A1B5004, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7A1B5002, 0x7A1B5005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A1B5002, 0x7A1B5006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A1B5002, 0x7A1B5007, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7A1B5002, 0x7A1B5008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A1B5002, 0x7A1B5009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A1B5002, 0x7A1B500A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A1B5002, 0x7A1B500B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A1B5002, 0x7A1B500C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A1B5002, 0x7A1B500D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A1B5002, 0x7A1B500E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A1B5002, 0x7A1B500F, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7A1B5002, 0x7A1B5003, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7A1B5002, 0x7A1B5004, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7A1B5002, 0x7A1B5005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A1B5002, 0x7A1B5006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A1B5002, 0x7A1B5007, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7A1B5002, 0x7A1B5008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A1B5002, 0x7A1B5009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A1B5002, 0x7A1B500A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A1B5002, 0x7A1B500B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7A1B5002, 0x7A1B500C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A1B5002, 0x7A1B500D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A1B5002, 0x7A1B500E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A1B5002, 0x7A1B500F, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B5003,  1625, 0xA1B50102, 35.5827, 132.798, 74.017, -0.156975, 0, 0, -0.987603,  True, '2019-02-10 00:00:00'); /* Mountain Rat */
@@ -84,10 +84,10 @@ VALUES (0x7A1B5010,  1542, 0xA1B50104, 29.94065, 129.871, 77.029, -0.6768786, 0,
 /* @teleloc 0xA1B50104 [29.940650 129.871000 77.029000] -0.676879 0.000000 0.000000 0.736095 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B5010, 0x7A1B5011, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7A1B5010, 0x7A1B5012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A1B5010, 0x7A1B5013, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7A1B5010, 0x7A1B5014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A1B5010, 0x7A1B5011, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7A1B5010, 0x7A1B5012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A1B5010, 0x7A1B5013, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7A1B5010, 0x7A1B5014, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B5011,   261, 0xA1B50104, 29.94065, 129.871, 77.029, -0.6768786, 0, 0, 0.7360947,  True, '2019-02-10 00:00:00'); /* Cheese */

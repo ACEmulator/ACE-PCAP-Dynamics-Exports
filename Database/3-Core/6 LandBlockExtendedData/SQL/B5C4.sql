@@ -5,9 +5,9 @@ VALUES (0x7B5C4001,  1154, 0xB5C40008, 21.66858, 176.6595, 231.402, -0.756705, 0
 /* @teleloc 0xB5C40008 [21.668580 176.659500 231.402000] -0.756705 0.000000 0.000000 -0.653757 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5C4001, 0x7B5C4002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B5C4001, 0x7B5C4003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B5C4001, 0x7B5C4004, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7B5C4001, 0x7B5C4002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B5C4001, 0x7B5C4003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B5C4001, 0x7B5C4004, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5C4002,   195, 0xB5C40008, 21.66858, 176.6595, 231.402, -0.756705, 0, 0, -0.6537565,  True, '2019-02-10 00:00:00'); /* Granite Golem */

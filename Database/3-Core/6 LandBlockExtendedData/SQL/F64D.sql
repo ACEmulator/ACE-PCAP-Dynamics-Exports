@@ -5,14 +5,14 @@ VALUES (0x7F64D001,  1154, 0xF64D001C, 76.29103, 75.11354, 0.01050007, 0.9063078
 /* @teleloc 0xF64D001C [76.291030 75.113540 0.010500] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F64D001, 0x7F64D002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64D001, 0x7F64D003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64D001, 0x7F64D004, '2019-02-10 00:00:00') /* Lord of Decay */
-     , (0x7F64D001, 0x7F64D005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F64D001, 0x7F64D006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F64D001, 0x7F64D007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F64D001, 0x7F64D008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F64D001, 0x7F64D009, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7F64D001, 0x7F64D002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64D001, 0x7F64D003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64D001, 0x7F64D004, '2019-02-10 00:00:00') /* Lord of Decay (12027) */
+     , (0x7F64D001, 0x7F64D005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F64D001, 0x7F64D006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F64D001, 0x7F64D007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F64D001, 0x7F64D008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F64D001, 0x7F64D009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F64D002,  7082, 0xF64D001C, 76.29103, 75.11354, 0.01050007, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

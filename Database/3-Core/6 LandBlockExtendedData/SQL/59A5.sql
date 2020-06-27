@@ -5,24 +5,24 @@ VALUES (0x759A5001,  1154, 0x59A50039, 174.7565, 13.33977, 78.31731, -0.4774034,
 /* @teleloc 0x59A50039 [174.756500 13.339770 78.317310] -0.477403 0.000000 0.000000 -0.878684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759A5001, 0x759A5002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x759A5001, 0x759A5003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x759A5001, 0x759A5004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x759A5001, 0x759A5005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x759A5001, 0x759A5006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x759A5001, 0x759A5007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x759A5001, 0x759A5008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x759A5001, 0x759A5009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x759A5001, 0x759A500A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x759A5001, 0x759A500B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x759A5001, 0x759A500C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x759A5001, 0x759A500D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x759A5001, 0x759A500E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x759A5001, 0x759A500F, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x759A5001, 0x759A5010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x759A5001, 0x759A5011, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x759A5001, 0x759A5012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x759A5001, 0x759A5013, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x759A5001, 0x759A5002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x759A5001, 0x759A5003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x759A5001, 0x759A5004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x759A5001, 0x759A5005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x759A5001, 0x759A5006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x759A5001, 0x759A5007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x759A5001, 0x759A5008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x759A5001, 0x759A5009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x759A5001, 0x759A500A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x759A5001, 0x759A500B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x759A5001, 0x759A500C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x759A5001, 0x759A500D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x759A5001, 0x759A500E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x759A5001, 0x759A500F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x759A5001, 0x759A5010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x759A5001, 0x759A5011, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x759A5001, 0x759A5012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x759A5001, 0x759A5013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759A5002, 24289, 0x59A50039, 174.7565, 13.33977, 78.31731, -0.4774034, 0, 0, -0.8786842,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -101,7 +101,7 @@ VALUES (0x759A5014,  1542, 0x59A50017, 61.02559, 154.5189, 69.00954, 0.9990482, 
 /* @teleloc 0x59A50017 [61.025590 154.518900 69.009540] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759A5014, 0x759A5015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x759A5014, 0x759A5015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759A5015,  4179, 0x59A50017, 61.02559, 154.5189, 69.00954, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

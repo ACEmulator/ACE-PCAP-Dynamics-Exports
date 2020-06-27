@@ -5,15 +5,15 @@ VALUES (0x71D87001,  1154, 0x1D870030, 142.7361, 172.2008, 58.13733, -0.6661117,
 /* @teleloc 0x1D870030 [142.736100 172.200800 58.137330] -0.666112 0.000000 0.000000 -0.745852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D87001, 0x71D87002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71D87001, 0x71D87003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71D87001, 0x71D87004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D87001, 0x71D87005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D87001, 0x71D87006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71D87001, 0x71D87007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71D87001, 0x71D87008, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71D87001, 0x71D87009, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71D87001, 0x71D8700A, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x71D87001, 0x71D87002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71D87001, 0x71D87003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71D87001, 0x71D87004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D87001, 0x71D87005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D87001, 0x71D87006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71D87001, 0x71D87007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71D87001, 0x71D87008, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71D87001, 0x71D87009, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71D87001, 0x71D8700A, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D87002, 36844, 0x1D870030, 142.7361, 172.2008, 58.13733, -0.6661117, 0, 0, -0.745852,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

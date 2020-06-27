@@ -5,30 +5,30 @@ VALUES (0x7445F001,  1154, 0x445F002E, 122.6922, 130.1556, 21.35932, -4.371139E-
 /* @teleloc 0x445F002E [122.692200 130.155600 21.359320] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445F001, 0x7445F002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7445F001, 0x7445F003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7445F001, 0x7445F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7445F001, 0x7445F005, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7445F001, 0x7445F006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7445F001, 0x7445F007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7445F001, 0x7445F008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7445F001, 0x7445F009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7445F001, 0x7445F00A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7445F001, 0x7445F00B, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7445F001, 0x7445F00C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7445F001, 0x7445F00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7445F001, 0x7445F00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7445F001, 0x7445F00F, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7445F001, 0x7445F010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7445F001, 0x7445F011, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7445F001, 0x7445F012, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7445F001, 0x7445F013, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7445F001, 0x7445F014, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7445F001, 0x7445F015, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7445F001, 0x7445F016, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7445F001, 0x7445F017, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7445F001, 0x7445F018, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7445F001, 0x7445F019, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7445F001, 0x7445F002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7445F001, 0x7445F003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7445F001, 0x7445F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7445F001, 0x7445F005, '2019-02-10 00:00:00') /* Exploration Marker (39832) */
+     , (0x7445F001, 0x7445F006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7445F001, 0x7445F007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7445F001, 0x7445F008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7445F001, 0x7445F009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7445F001, 0x7445F00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7445F001, 0x7445F00B, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7445F001, 0x7445F00C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7445F001, 0x7445F00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7445F001, 0x7445F00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7445F001, 0x7445F00F, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7445F001, 0x7445F010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7445F001, 0x7445F011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7445F001, 0x7445F012, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7445F001, 0x7445F013, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7445F001, 0x7445F014, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7445F001, 0x7445F015, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7445F001, 0x7445F016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7445F001, 0x7445F017, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7445F001, 0x7445F018, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7445F001, 0x7445F019, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445F002,  7184, 0x445F002E, 122.6922, 130.1556, 21.35932, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -131,7 +131,7 @@ VALUES (0x7445F01A,  1154, 0x445F0100, 153.7, 33.7846, 126.005, 0.932298, 0, 0, 
 /* @teleloc 0x445F0100 [153.700000 33.784600 126.005000] 0.932298 0.000000 0.000000 -0.361690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445F01A, 0x7445F01B, '2019-02-10 00:00:00') /* Lighthouse Hermit */;
+VALUES (0x7445F01A, 0x7445F01B, '2019-02-10 00:00:00') /* Lighthouse Hermit (27806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445F01B, 27806, 0x445F0100, 153.7, 33.7846, 126.005, 0.932298, 0, 0, -0.36169,  True, '2019-02-10 00:00:00'); /* Lighthouse Hermit */
@@ -142,8 +142,8 @@ VALUES (0x7445F01C,  1542, 0x445F002E, 131.6078, 134.7762, 24.60191, 0.9889906, 
 /* @teleloc 0x445F002E [131.607800 134.776200 24.601910] 0.988991 0.000000 0.000000 -0.147978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445F01C, 0x7445F01D, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7445F01C, 0x7445F01E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7445F01C, 0x7445F01D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7445F01C, 0x7445F01E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445F01D,  9288, 0x445F002E, 131.6078, 134.7762, 24.60191, 0.9889906, 0, 0, -0.1479784,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

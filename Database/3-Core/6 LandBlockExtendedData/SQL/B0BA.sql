@@ -5,18 +5,18 @@ VALUES (0x7B0BA001,  1154, 0xB0BA000A, 42.29086, 44.22942, 125.5179, 0.5775409, 
 /* @teleloc 0xB0BA000A [42.290860 44.229420 125.517900] 0.577541 0.000000 0.000000 -0.816362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0BA001, 0x7B0BA002, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B0BA001, 0x7B0BA003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B0BA001, 0x7B0BA004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B0BA001, 0x7B0BA005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0BA001, 0x7B0BA006, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B0BA001, 0x7B0BA007, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B0BA001, 0x7B0BA008, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B0BA001, 0x7B0BA009, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B0BA001, 0x7B0BA00A, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B0BA001, 0x7B0BA00B, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B0BA001, 0x7B0BA00C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B0BA001, 0x7B0BA00D, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7B0BA001, 0x7B0BA002, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B0BA001, 0x7B0BA003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B0BA001, 0x7B0BA004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B0BA001, 0x7B0BA005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0BA001, 0x7B0BA006, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B0BA001, 0x7B0BA007, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B0BA001, 0x7B0BA008, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B0BA001, 0x7B0BA009, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B0BA001, 0x7B0BA00A, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B0BA001, 0x7B0BA00B, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B0BA001, 0x7B0BA00C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B0BA001, 0x7B0BA00D, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0BA002,  6535, 0xB0BA000A, 42.29086, 44.22942, 125.5179, 0.5775409, 0, 0, -0.8163617,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */

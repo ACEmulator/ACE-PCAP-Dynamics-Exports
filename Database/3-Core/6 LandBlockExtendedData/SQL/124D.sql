@@ -5,18 +5,18 @@ VALUES (0x7124D001,  1154, 0x124D0024, 100.932, 73.6497, -0.8899999, 0.8621926, 
 /* @teleloc 0x124D0024 [100.932000 73.649700 -0.890000] 0.862193 0.000000 0.000000 -0.506581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7124D001, 0x7124D002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7124D001, 0x7124D003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7124D001, 0x7124D004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7124D001, 0x7124D005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7124D001, 0x7124D006, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7124D001, 0x7124D007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7124D001, 0x7124D008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7124D001, 0x7124D009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7124D001, 0x7124D00A, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7124D001, 0x7124D00B, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7124D001, 0x7124D00C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7124D001, 0x7124D00D, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x7124D001, 0x7124D002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7124D001, 0x7124D003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7124D001, 0x7124D004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7124D001, 0x7124D005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7124D001, 0x7124D006, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7124D001, 0x7124D007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7124D001, 0x7124D008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7124D001, 0x7124D009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7124D001, 0x7124D00A, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7124D001, 0x7124D00B, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7124D001, 0x7124D00C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7124D001, 0x7124D00D, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7124D002, 14520, 0x124D0024, 100.932, 73.6497, -0.8899999, 0.8621926, 0, 0, -0.5065806,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

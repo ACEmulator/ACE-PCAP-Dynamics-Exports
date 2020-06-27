@@ -5,9 +5,9 @@ VALUES (0x790E8001,  1154, 0x90E80030, 126.3476, 168.0992, 46.0099, -0.2510076, 
 /* @teleloc 0x90E80030 [126.347600 168.099200 46.009900] -0.251008 0.000000 0.000000 -0.967985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790E8001, 0x790E8002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790E8001, 0x790E8003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x790E8001, 0x790E8004, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x790E8001, 0x790E8002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790E8001, 0x790E8003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x790E8001, 0x790E8004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790E8002, 22519, 0x90E80030, 126.3476, 168.0992, 46.0099, -0.2510076, 0, 0, -0.9679851,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

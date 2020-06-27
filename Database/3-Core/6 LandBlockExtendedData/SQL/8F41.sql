@@ -5,10 +5,10 @@ VALUES (0x78F41001,  1154, 0x8F41003A, 190.5649, 25.45271, 40.029, 0.8370403, 0,
 /* @teleloc 0x8F41003A [190.564900 25.452710 40.029000] 0.837040 0.000000 0.000000 -0.547141 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F41001, 0x78F41002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78F41001, 0x78F41003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F41001, 0x78F41004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78F41001, 0x78F41005, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x78F41001, 0x78F41002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78F41001, 0x78F41003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78F41001, 0x78F41004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78F41001, 0x78F41005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F41002,    23, 0x8F41003A, 190.5649, 25.45271, 40.029, 0.8370403, 0, 0, -0.5471413,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -31,7 +31,7 @@ VALUES (0x78F41006,  1542, 0x8F410029, 133.5351, 3.369712, 40, 1, 0, 0, 0, False
 /* @teleloc 0x8F410029 [133.535100 3.369712 40.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F41006, 0x78F41007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78F41006, 0x78F41007, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F41007, 22570, 0x8F410029, 133.5351, 3.369712, 40, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x72E5C001,  1154, 0x2E5C002E, 124.4628, 143.2849, 0.3793974, 0.8026659,
 /* @teleloc 0x2E5C002E [124.462800 143.284900 0.379397] 0.802666 0.000000 0.000000 -0.596429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E5C001, 0x72E5C002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72E5C001, 0x72E5C003, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x72E5C001, 0x72E5C004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72E5C001, 0x72E5C005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72E5C001, 0x72E5C006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72E5C001, 0x72E5C007, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x72E5C001, 0x72E5C002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72E5C001, 0x72E5C003, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x72E5C001, 0x72E5C004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72E5C001, 0x72E5C005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72E5C001, 0x72E5C006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72E5C001, 0x72E5C007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E5C002,  7124, 0x2E5C002E, 124.4628, 143.2849, 0.3793974, 0.8026659, 0, 0, -0.5964288,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -41,7 +41,7 @@ VALUES (0x72E5C008,  1542, 0x2E5C000E, 37.63211, 123.0309, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x2E5C000E [37.632110 123.030900 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E5C008, 0x72E5C009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72E5C008, 0x72E5C009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E5C009,  4179, 0x2E5C000E, 37.63211, 123.0309, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

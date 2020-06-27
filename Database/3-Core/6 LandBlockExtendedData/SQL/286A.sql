@@ -5,9 +5,9 @@ VALUES (0x7286A001,  1154, 0x286A0008, 15.93671, 171.385, 30.00825, 0.7071068, 0
 /* @teleloc 0x286A0008 [15.936710 171.385000 30.008250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7286A001, 0x7286A002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7286A001, 0x7286A003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7286A001, 0x7286A004, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x7286A001, 0x7286A002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7286A001, 0x7286A003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7286A001, 0x7286A004, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7286A002, 24319, 0x286A0008, 15.93671, 171.385, 30.00825, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */

@@ -5,18 +5,18 @@ VALUES (0x7B26F001,  1154, 0xB26F001F, 88.85851, 153.7097, 56.63745, -0.5468453,
 /* @teleloc 0xB26F001F [88.858510 153.709700 56.637450] -0.546845 0.000000 0.000000 -0.837234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B26F001, 0x7B26F002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B26F001, 0x7B26F003, '2019-02-10 00:00:00') /* Static */
-     , (0x7B26F001, 0x7B26F004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B26F001, 0x7B26F005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B26F001, 0x7B26F006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B26F001, 0x7B26F007, '2019-02-10 00:00:00') /* Static */
-     , (0x7B26F001, 0x7B26F008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B26F001, 0x7B26F009, '2019-02-10 00:00:00') /* Static */
-     , (0x7B26F001, 0x7B26F00A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B26F001, 0x7B26F00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B26F001, 0x7B26F00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B26F001, 0x7B26F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7B26F001, 0x7B26F002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B26F001, 0x7B26F003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B26F001, 0x7B26F004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B26F001, 0x7B26F005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B26F001, 0x7B26F006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B26F001, 0x7B26F007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B26F001, 0x7B26F008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B26F001, 0x7B26F009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B26F001, 0x7B26F00A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B26F001, 0x7B26F00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B26F001, 0x7B26F00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B26F001, 0x7B26F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B26F002,  4109, 0xB26F001F, 88.85851, 153.7097, 56.63745, -0.5468453, 0, 0, -0.8372337,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -71,7 +71,7 @@ VALUES (0x7B26F00E,  1542, 0xB26F001F, 77.36594, 147.3121, 53.5512, -0.5468453, 
 /* @teleloc 0xB26F001F [77.365940 147.312100 53.551200] -0.546845 0.000000 0.000000 -0.837234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B26F00E, 0x7B26F00F, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B26F00E, 0x7B26F00F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B26F00F,  8646, 0xB26F001F, 77.36594, 147.3121, 53.5512, -0.5468453, 0, 0, -0.8372337,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

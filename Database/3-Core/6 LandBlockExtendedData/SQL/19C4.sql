@@ -5,14 +5,14 @@ VALUES (0x719C4001,  1154, 0x19C4000B, 26.27394, 62.06224, 23.02414, 0.9659258, 
 /* @teleloc 0x19C4000B [26.273940 62.062240 23.024140] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C4001, 0x719C4002, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x719C4001, 0x719C4003, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x719C4001, 0x719C4004, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x719C4001, 0x719C4005, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x719C4001, 0x719C4006, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x719C4001, 0x719C4007, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x719C4001, 0x719C4008, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x719C4001, 0x719C4009, '2019-02-10 00:00:00') /* Badlands Siraluun */;
+VALUES (0x719C4001, 0x719C4002, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x719C4001, 0x719C4003, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x719C4001, 0x719C4004, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x719C4001, 0x719C4005, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x719C4001, 0x719C4006, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x719C4001, 0x719C4007, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x719C4001, 0x719C4008, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x719C4001, 0x719C4009, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C4002, 27714, 0x19C4000B, 26.27394, 62.06224, 23.02414, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Hea Champion */
@@ -51,8 +51,8 @@ VALUES (0x719C400A,  1542, 0x19C4003A, 180.8765, 34.98392, 25.63137, 1, 0, 0, 0,
 /* @teleloc 0x19C4003A [180.876500 34.983920 25.631370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C400A, 0x719C400B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x719C400A, 0x719C400C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x719C400A, 0x719C400B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x719C400A, 0x719C400C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C400B,  9024, 0x19C4003A, 180.8765, 34.98392, 25.63137, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,36 +5,36 @@ VALUES (0x7386A001,  1154, 0x386A000B, 27.52527, 60.73035, 38.59805, 0.7257531, 
 /* @teleloc 0x386A000B [27.525270 60.730350 38.598050] 0.725753 0.000000 0.000000 -0.687955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7386A001, 0x7386A002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7386A001, 0x7386A004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7386A001, 0x7386A007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7386A001, 0x7386A008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7386A001, 0x7386A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7386A001, 0x7386A00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7386A001, 0x7386A00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7386A001, 0x7386A00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7386A001, 0x7386A00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7386A001, 0x7386A00E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7386A001, 0x7386A00F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7386A001, 0x7386A010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7386A001, 0x7386A011, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A012, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A013, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A014, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7386A001, 0x7386A015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7386A001, 0x7386A016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7386A001, 0x7386A017, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7386A001, 0x7386A018, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7386A001, 0x7386A019, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7386A001, 0x7386A01A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7386A001, 0x7386A01B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7386A001, 0x7386A01C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7386A001, 0x7386A01D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7386A001, 0x7386A01E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7386A001, 0x7386A01F, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7386A001, 0x7386A002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7386A001, 0x7386A004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7386A001, 0x7386A007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7386A001, 0x7386A008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7386A001, 0x7386A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7386A001, 0x7386A00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7386A001, 0x7386A00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7386A001, 0x7386A00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7386A001, 0x7386A00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7386A001, 0x7386A00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7386A001, 0x7386A00F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7386A001, 0x7386A010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7386A001, 0x7386A011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A012, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A013, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A014, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7386A001, 0x7386A015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7386A001, 0x7386A016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7386A001, 0x7386A017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7386A001, 0x7386A018, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7386A001, 0x7386A019, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7386A001, 0x7386A01A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7386A001, 0x7386A01B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7386A001, 0x7386A01C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7386A001, 0x7386A01D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7386A001, 0x7386A01E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7386A001, 0x7386A01F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7386A002,  7081, 0x386A000B, 27.52527, 60.73035, 38.59805, 0.7257531, 0, 0, -0.6879552,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -161,8 +161,8 @@ VALUES (0x7386A020,  1542, 0x386A0022, 105.7092, 38.74438, 54.04552, 1, 0, 0, 0,
 /* @teleloc 0x386A0022 [105.709200 38.744380 54.045520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7386A020, 0x7386A021, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7386A020, 0x7386A022, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7386A020, 0x7386A021, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7386A020, 0x7386A022, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7386A021, 22571, 0x386A0022, 105.7092, 38.74438, 54.04552, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

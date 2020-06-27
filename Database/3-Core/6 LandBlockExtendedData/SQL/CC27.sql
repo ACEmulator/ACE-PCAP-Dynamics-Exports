@@ -5,13 +5,13 @@ VALUES (0x7CC27001,  1154, 0xCC270025, 103.5241, 97.14132, 89.44923, 0.9396926, 
 /* @teleloc 0xCC270025 [103.524100 97.141320 89.449230] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC27001, 0x7CC27002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC27001, 0x7CC27003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC27001, 0x7CC27004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7CC27001, 0x7CC27005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC27001, 0x7CC27006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CC27001, 0x7CC27007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CC27001, 0x7CC27008, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7CC27001, 0x7CC27002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC27001, 0x7CC27003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC27001, 0x7CC27004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7CC27001, 0x7CC27005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC27001, 0x7CC27006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CC27001, 0x7CC27007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CC27001, 0x7CC27008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC27002, 37100, 0xCC270025, 103.5241, 97.14132, 89.44923, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */

@@ -5,22 +5,22 @@ VALUES (0x71665001,  1154, 0x16650032, 162.0538, 42.41252, 41.46806, 0.9238795, 
 /* @teleloc 0x16650032 [162.053800 42.412520 41.468060] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71665001, 0x71665002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71665001, 0x71665003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71665001, 0x71665004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71665001, 0x71665005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71665001, 0x71665006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71665001, 0x71665007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71665001, 0x71665008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71665001, 0x71665009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71665001, 0x7166500A, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71665001, 0x7166500B, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71665001, 0x7166500C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71665001, 0x7166500D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71665001, 0x7166500E, '2019-02-10 00:00:00') /* Miasma */
-     , (0x71665001, 0x7166500F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71665001, 0x71665010, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71665001, 0x71665011, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71665001, 0x71665002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71665001, 0x71665003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71665001, 0x71665004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71665001, 0x71665005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71665001, 0x71665006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71665001, 0x71665007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71665001, 0x71665008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71665001, 0x71665009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71665001, 0x7166500A, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71665001, 0x7166500B, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71665001, 0x7166500C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71665001, 0x7166500D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71665001, 0x7166500E, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x71665001, 0x7166500F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71665001, 0x71665010, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71665001, 0x71665011, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71665002, 36822, 0x16650032, 162.0538, 42.41252, 41.46806, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -91,8 +91,8 @@ VALUES (0x71665012,  1542, 0x16650032, 161.8119, 41.01914, 41.46806, 1, 0, 0, 0,
 /* @teleloc 0x16650032 [161.811900 41.019140 41.468060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71665012, 0x71665013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71665012, 0x71665014, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x71665012, 0x71665013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71665012, 0x71665014, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71665013,  4179, 0x16650032, 161.8119, 41.01914, 41.46806, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

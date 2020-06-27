@@ -5,29 +5,29 @@ VALUES (0x7CE9E001,  1154, 0xCE9E0028, 102.1795, 188.5293, 13.20232, -0.8461138,
 /* @teleloc 0xCE9E0028 [102.179500 188.529300 13.202320] -0.846114 0.000000 0.000000 -0.533002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9E001, 0x7CE9E002, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7CE9E001, 0x7CE9E003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CE9E001, 0x7CE9E004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CE9E001, 0x7CE9E005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE9E001, 0x7CE9E006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE9E001, 0x7CE9E007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CE9E001, 0x7CE9E008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CE9E001, 0x7CE9E009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CE9E001, 0x7CE9E00A, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CE9E001, 0x7CE9E00B, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CE9E001, 0x7CE9E00C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E00D, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E00E, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E00F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E010, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E011, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CE9E001, 0x7CE9E012, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E013, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E014, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E015, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E016, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E017, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE9E001, 0x7CE9E018, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7CE9E001, 0x7CE9E002, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7CE9E001, 0x7CE9E003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CE9E001, 0x7CE9E004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CE9E001, 0x7CE9E005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE9E001, 0x7CE9E006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE9E001, 0x7CE9E007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CE9E001, 0x7CE9E008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CE9E001, 0x7CE9E009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CE9E001, 0x7CE9E00A, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CE9E001, 0x7CE9E00B, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CE9E001, 0x7CE9E00C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E00D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E00E, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E00F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E010, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E011, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CE9E001, 0x7CE9E012, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E013, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E014, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E015, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E016, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E017, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE9E001, 0x7CE9E018, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9E002, 36443, 0xCE9E0028, 102.1795, 188.5293, 13.20232, -0.8461138, 0, 0, -0.5330023,  True, '2019-02-10 00:00:00'); /* Harvest Reaper */
@@ -126,8 +126,8 @@ VALUES (0x7CE9E019,  1542, 0xCE9E0020, 95.12628, 190.516, 13.94914, 0.9953452, 0
 /* @teleloc 0xCE9E0020 [95.126280 190.516000 13.949140] 0.995345 0.000000 0.000000 -0.096374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9E019, 0x7CE9E01A, '2019-02-10 00:00:00') /* Seeds of Anger */
-     , (0x7CE9E019, 0x7CE9E01B, '2019-02-10 00:00:00') /* Candy Corn */;
+VALUES (0x7CE9E019, 0x7CE9E01A, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */
+     , (0x7CE9E019, 0x7CE9E01B, '2019-02-10 00:00:00') /* Candy Corn (32207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9E01A, 32204, 0xCE9E0020, 95.12628, 190.516, 13.94914, 0.9953452, 0, 0, -0.09637351,  True, '2019-02-10 00:00:00'); /* Seeds of Anger */

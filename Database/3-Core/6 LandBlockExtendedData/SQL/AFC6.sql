@@ -65,34 +65,34 @@ VALUES (0x7AFC6024,  1154, 0xAFC6014F, 102.091, 13.8641, 123.0071, 0.842657, 0, 
 /* @teleloc 0xAFC6014F [102.091000 13.864100 123.007100] 0.842657 0.000000 0.000000 -0.538450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC6024, 0x7AFC6025, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6026, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6027, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6028, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6029, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC602F, '2019-02-10 00:00:00') /* Banderling Raider Guardian */
-     , (0x7AFC6024, 0x7AFC6030, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6031, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7AFC6024, 0x7AFC6032, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6033, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6034, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6035, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC6036, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AFC6024, 0x7AFC6037, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AFC6024, 0x7AFC6038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AFC6024, 0x7AFC6039, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AFC6024, 0x7AFC603A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AFC6024, 0x7AFC603B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AFC6024, 0x7AFC603C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AFC6024, 0x7AFC603D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFC6024, 0x7AFC603E, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7AFC6024, 0x7AFC603F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AFC6024, 0x7AFC6040, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7AFC6024, 0x7AFC6025, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6026, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6027, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6028, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6029, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC602F, '2019-02-10 00:00:00') /* Banderling Raider Guardian (1520) */
+     , (0x7AFC6024, 0x7AFC6030, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6031, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7AFC6024, 0x7AFC6032, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6033, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6034, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6035, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC6036, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AFC6024, 0x7AFC6037, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AFC6024, 0x7AFC6038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AFC6024, 0x7AFC6039, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AFC6024, 0x7AFC603A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AFC6024, 0x7AFC603B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AFC6024, 0x7AFC603C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AFC6024, 0x7AFC603D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFC6024, 0x7AFC603E, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7AFC6024, 0x7AFC603F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AFC6024, 0x7AFC6040, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC6025,   937, 0xAFC6014F, 102.091, 13.8641, 123.0071, 0.842657, 0, 0, -0.53845,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -211,8 +211,8 @@ VALUES (0x7AFC6041,  1542, 0xAFC60038, 164.151, 182.4824, 152.5997, 0.9990482, 0
 /* @teleloc 0xAFC60038 [164.151000 182.482400 152.599700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC6041, 0x7AFC6042, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AFC6041, 0x7AFC6043, '2019-02-10 00:00:00') /* Myrrh */;
+VALUES (0x7AFC6041, 0x7AFC6042, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AFC6041, 0x7AFC6043, '2019-02-10 00:00:00') /* Myrrh (777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC6042,  4179, 0xAFC60038, 164.151, 182.4824, 152.5997, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

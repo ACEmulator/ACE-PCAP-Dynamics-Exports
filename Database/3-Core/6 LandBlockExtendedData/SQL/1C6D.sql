@@ -5,16 +5,16 @@ VALUES (0x71C6D001,  1154, 0x1C6D0037, 150.6898, 152.4049, 36.88958, 0.6865675, 
 /* @teleloc 0x1C6D0037 [150.689800 152.404900 36.889580] 0.686568 0.000000 0.000000 -0.727066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C6D001, 0x71C6D002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71C6D001, 0x71C6D003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71C6D001, 0x71C6D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C6D001, 0x71C6D005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71C6D001, 0x71C6D006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71C6D001, 0x71C6D007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71C6D001, 0x71C6D008, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71C6D001, 0x71C6D009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71C6D001, 0x71C6D00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71C6D001, 0x71C6D00B, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x71C6D001, 0x71C6D002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71C6D001, 0x71C6D003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71C6D001, 0x71C6D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C6D001, 0x71C6D005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71C6D001, 0x71C6D006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71C6D001, 0x71C6D007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71C6D001, 0x71C6D008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71C6D001, 0x71C6D009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71C6D001, 0x71C6D00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71C6D001, 0x71C6D00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C6D002, 24283, 0x1C6D0037, 150.6898, 152.4049, 36.88958, 0.6865675, 0, 0, -0.7270661,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

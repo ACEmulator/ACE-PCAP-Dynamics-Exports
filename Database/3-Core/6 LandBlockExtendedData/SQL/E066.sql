@@ -5,11 +5,11 @@ VALUES (0x7E066001,  1154, 0xE0660026, 106.3182, 140.7318, 2.006, 0.9238795, 0, 
 /* @teleloc 0xE0660026 [106.318200 140.731800 2.006000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E066001, 0x7E066002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E066001, 0x7E066003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7E066001, 0x7E066004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7E066001, 0x7E066005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7E066001, 0x7E066006, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7E066001, 0x7E066002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E066001, 0x7E066003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7E066001, 0x7E066004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7E066001, 0x7E066005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7E066001, 0x7E066006, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E066002,   226, 0xE0660026, 106.3182, 140.7318, 2.006, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* High Tumerok */

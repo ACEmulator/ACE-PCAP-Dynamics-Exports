@@ -5,10 +5,10 @@ VALUES (0x71732001,  1154, 0x17320009, 37.47609, 9.606888, -0.002250075, 0.14710
 /* @teleloc 0x17320009 [37.476090 9.606888 -0.002250] 0.147109 0.000000 0.000000 -0.989120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71732001, 0x71732002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71732001, 0x71732003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71732001, 0x71732004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71732001, 0x71732005, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71732001, 0x71732002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71732001, 0x71732003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71732001, 0x71732004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71732001, 0x71732005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71732002,  7983, 0x17320009, 37.47609, 9.606888, -0.002250075, 0.1471091, 0, 0, -0.9891202,  True, '2019-02-10 00:00:00'); /* Bane Grievver */

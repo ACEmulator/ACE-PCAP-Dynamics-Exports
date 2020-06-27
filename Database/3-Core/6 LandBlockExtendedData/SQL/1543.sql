@@ -5,25 +5,25 @@ VALUES (0x71543001,  1154, 0x15430007, 17.87906, 164.5928, 53.72322, 0.9431592, 
 /* @teleloc 0x15430007 [17.879060 164.592800 53.723220] 0.943159 0.000000 0.000000 -0.332341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71543001, 0x71543002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71543001, 0x71543003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71543001, 0x71543004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71543001, 0x71543005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71543001, 0x71543006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71543001, 0x71543007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71543001, 0x71543008, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71543001, 0x71543009, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71543001, 0x7154300A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71543001, 0x7154300B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71543001, 0x7154300C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71543001, 0x7154300D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71543001, 0x7154300E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71543001, 0x7154300F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71543001, 0x71543010, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71543001, 0x71543011, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71543001, 0x71543012, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71543001, 0x71543013, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71543001, 0x71543014, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x71543001, 0x71543002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71543001, 0x71543003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71543001, 0x71543004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71543001, 0x71543005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71543001, 0x71543006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71543001, 0x71543007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71543001, 0x71543008, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71543001, 0x71543009, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71543001, 0x7154300A, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71543001, 0x7154300B, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71543001, 0x7154300C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71543001, 0x7154300D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71543001, 0x7154300E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71543001, 0x7154300F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71543001, 0x71543010, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71543001, 0x71543011, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71543001, 0x71543012, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71543001, 0x71543013, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71543001, 0x71543014, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71543002, 36819, 0x15430007, 17.87906, 164.5928, 53.72322, 0.9431592, 0, 0, -0.3323414,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -106,8 +106,8 @@ VALUES (0x71543015,  1542, 0x15430008, 14.57338, 175.2597, 54, 1, 0, 0, 0, False
 /* @teleloc 0x15430008 [14.573380 175.259700 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71543015, 0x71543016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71543015, 0x71543017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71543015, 0x71543016, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x71543015, 0x71543017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71543016, 22566, 0x15430008, 14.57338, 175.2597, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

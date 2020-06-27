@@ -5,29 +5,29 @@ VALUES (0x79ECE001,  1154, 0x9ECE003F, 188.4603, 145.9508, 130.1652, -0.158103, 
 /* @teleloc 0x9ECE003F [188.460300 145.950800 130.165200] -0.158103 0.000000 0.000000 -0.987423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ECE001, 0x79ECE002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79ECE001, 0x79ECE003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79ECE001, 0x79ECE004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79ECE001, 0x79ECE005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79ECE001, 0x79ECE006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79ECE001, 0x79ECE007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79ECE001, 0x79ECE008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79ECE001, 0x79ECE009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79ECE001, 0x79ECE00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79ECE001, 0x79ECE00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79ECE001, 0x79ECE00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79ECE001, 0x79ECE00D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79ECE001, 0x79ECE00E, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x79ECE001, 0x79ECE00F, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x79ECE001, 0x79ECE010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79ECE001, 0x79ECE011, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79ECE001, 0x79ECE012, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79ECE001, 0x79ECE013, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79ECE001, 0x79ECE014, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x79ECE001, 0x79ECE015, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x79ECE001, 0x79ECE016, '2019-02-10 00:00:00') /* Frost */
-     , (0x79ECE001, 0x79ECE017, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79ECE001, 0x79ECE018, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x79ECE001, 0x79ECE002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79ECE001, 0x79ECE003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79ECE001, 0x79ECE004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79ECE001, 0x79ECE005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79ECE001, 0x79ECE006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79ECE001, 0x79ECE007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79ECE001, 0x79ECE008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79ECE001, 0x79ECE009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79ECE001, 0x79ECE00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79ECE001, 0x79ECE00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79ECE001, 0x79ECE00C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79ECE001, 0x79ECE00D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79ECE001, 0x79ECE00E, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x79ECE001, 0x79ECE00F, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x79ECE001, 0x79ECE010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79ECE001, 0x79ECE011, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79ECE001, 0x79ECE012, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79ECE001, 0x79ECE013, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79ECE001, 0x79ECE014, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x79ECE001, 0x79ECE015, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x79ECE001, 0x79ECE016, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x79ECE001, 0x79ECE017, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79ECE001, 0x79ECE018, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ECE002,  7994, 0x9ECE003F, 188.4603, 145.9508, 130.1652, -0.158103, 0, 0, -0.9874226,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -126,7 +126,7 @@ VALUES (0x79ECE019,  1542, 0x9ECE002D, 130.2267, 96.75318, 127.4088, -4.371139E-
 /* @teleloc 0x9ECE002D [130.226700 96.753180 127.408800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ECE019, 0x79ECE01A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79ECE019, 0x79ECE01A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ECE01A,  4380, 0x9ECE002D, 130.2267, 96.75318, 127.4088, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

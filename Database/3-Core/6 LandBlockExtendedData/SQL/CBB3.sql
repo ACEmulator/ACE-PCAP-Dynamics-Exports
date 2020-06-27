@@ -5,45 +5,45 @@ VALUES (0x7CBB3001,  1154, 0xCBB3000D, 46.598, 116.1167, 247.3528, -0.8675929, 0
 /* @teleloc 0xCBB3000D [46.598000 116.116700 247.352800] -0.867593 0.000000 0.000000 -0.497275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB3001, 0x7CBB3002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB3003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB3004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB3005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB3006, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB3007, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB3008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CBB3001, 0x7CBB3009, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB300A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CBB3001, 0x7CBB300B, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB300C, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB300D, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB300E, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB300F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB3010, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB3011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CBB3001, 0x7CBB3012, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB3013, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CBB3001, 0x7CBB3014, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CBB3001, 0x7CBB3015, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7CBB3001, 0x7CBB3016, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB3017, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB3018, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CBB3001, 0x7CBB3019, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CBB3001, 0x7CBB301A, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB301B, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7CBB3001, 0x7CBB301C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB301D, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB301E, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CBB3001, 0x7CBB301F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CBB3001, 0x7CBB3020, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7CBB3001, 0x7CBB3021, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB3022, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB3023, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CBB3001, 0x7CBB3024, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CBB3001, 0x7CBB3025, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CBB3001, 0x7CBB3026, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CBB3001, 0x7CBB3027, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CBB3001, 0x7CBB3028, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7CBB3001, 0x7CBB3002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB3003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB3004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB3005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB3006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB3007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB3008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CBB3001, 0x7CBB3009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB300A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CBB3001, 0x7CBB300B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB300C, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB300D, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB300E, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB300F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB3010, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB3011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CBB3001, 0x7CBB3012, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB3013, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CBB3001, 0x7CBB3014, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CBB3001, 0x7CBB3015, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7CBB3001, 0x7CBB3016, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB3017, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB3018, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CBB3001, 0x7CBB3019, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CBB3001, 0x7CBB301A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB301B, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7CBB3001, 0x7CBB301C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB301D, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB301E, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CBB3001, 0x7CBB301F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CBB3001, 0x7CBB3020, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7CBB3001, 0x7CBB3021, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB3022, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB3023, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CBB3001, 0x7CBB3024, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CBB3001, 0x7CBB3025, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CBB3001, 0x7CBB3026, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CBB3001, 0x7CBB3027, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CBB3001, 0x7CBB3028, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB3002,  9400, 0xCBB3000D, 46.598, 116.1167, 247.3528, -0.8675929, 0, 0, -0.4972752,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -206,10 +206,10 @@ VALUES (0x7CBB3029,  1542, 0xCBB3000D, 30.74498, 103.5417, 243.6381, 1, 0, 0, 0,
 /* @teleloc 0xCBB3000D [30.744980 103.541700 243.638100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB3029, 0x7CBB302A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CBB3029, 0x7CBB302B, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7CBB3029, 0x7CBB302C, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x7CBB3029, 0x7CBB302D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7CBB3029, 0x7CBB302A, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CBB3029, 0x7CBB302B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7CBB3029, 0x7CBB302C, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x7CBB3029, 0x7CBB302D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB302A, 22570, 0xCBB3000D, 30.74498, 103.5417, 243.6381, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

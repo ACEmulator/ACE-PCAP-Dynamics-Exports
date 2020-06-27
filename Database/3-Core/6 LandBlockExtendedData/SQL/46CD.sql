@@ -5,10 +5,10 @@ VALUES (0x746CD001,  1154, 0x46CD003F, 185.6101, 160.9781, 39.42134, -0.744331, 
 /* @teleloc 0x46CD003F [185.610100 160.978100 39.421340] -0.744331 0.000000 0.000000 -0.667811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746CD001, 0x746CD002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x746CD001, 0x746CD003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x746CD001, 0x746CD004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x746CD001, 0x746CD005, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x746CD001, 0x746CD002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x746CD001, 0x746CD003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x746CD001, 0x746CD004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x746CD001, 0x746CD005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746CD002, 23617, 0x46CD003F, 185.6101, 160.9781, 39.42134, -0.744331, 0, 0, -0.6678109,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

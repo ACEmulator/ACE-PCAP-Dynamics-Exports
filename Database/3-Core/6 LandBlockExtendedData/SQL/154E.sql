@@ -5,20 +5,20 @@ VALUES (0x7154E001,  1154, 0x154E001D, 91.43814, 101.6458, 11.9996, -0.09413984,
 /* @teleloc 0x154E001D [91.438140 101.645800 11.999600] -0.094140 0.000000 0.000000 -0.995559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154E001, 0x7154E002, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7154E001, 0x7154E003, '2019-02-10 00:00:00') /* Diamond Golem Suzerain */
-     , (0x7154E001, 0x7154E004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7154E001, 0x7154E005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7154E001, 0x7154E006, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154E001, 0x7154E007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154E001, 0x7154E008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7154E001, 0x7154E009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7154E001, 0x7154E00A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7154E001, 0x7154E00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154E001, 0x7154E00C, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154E001, 0x7154E00D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7154E001, 0x7154E00E, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7154E001, 0x7154E00F, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x7154E001, 0x7154E002, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7154E001, 0x7154E003, '2019-02-10 00:00:00') /* Diamond Golem Suzerain (19543) */
+     , (0x7154E001, 0x7154E004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7154E001, 0x7154E005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7154E001, 0x7154E006, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154E001, 0x7154E007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154E001, 0x7154E008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7154E001, 0x7154E009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7154E001, 0x7154E00A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7154E001, 0x7154E00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154E001, 0x7154E00C, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154E001, 0x7154E00D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7154E001, 0x7154E00E, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7154E001, 0x7154E00F, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154E002,  7094, 0x154E001D, 91.43814, 101.6458, 11.9996, -0.09413984, 0, 0, -0.995559,  True, '2019-02-10 00:00:00'); /* Synnast */
@@ -81,7 +81,7 @@ VALUES (0x7154E010,  1542, 0x154E0002, 4.826951, 33.28823, 27.50757, -0.8408813,
 /* @teleloc 0x154E0002 [4.826951 33.288230 27.507570] -0.840881 0.000000 0.000000 -0.541220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154E010, 0x7154E011, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7154E010, 0x7154E011, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154E011,  9288, 0x154E0002, 4.826951, 33.28823, 27.50757, -0.8408813, 0, 0, -0.5412195,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -9,11 +9,11 @@ VALUES (0x7975F001,  1154, 0x975F0024, 102.9928, 86.40811, 10.0075, 0.9238795, 0
 /* @teleloc 0x975F0024 [102.992800 86.408110 10.007500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7975F001, 0x7975F002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7975F001, 0x7975F003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7975F001, 0x7975F004, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x7975F001, 0x7975F005, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7975F001, 0x7975F006, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x7975F001, 0x7975F002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7975F001, 0x7975F003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7975F001, 0x7975F004, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x7975F001, 0x7975F005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7975F001, 0x7975F006, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7975F002,   950, 0x975F0024, 102.9928, 86.40811, 10.0075, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -40,8 +40,8 @@ VALUES (0x7975F007,  1542, 0x975F001C, 85.06837, 89.2373, 11.85356, 1, 0, 0, 0, 
 /* @teleloc 0x975F001C [85.068370 89.237300 11.853560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7975F007, 0x7975F008, '2019-02-10 00:00:00') /* Bones */
-     , (0x7975F007, 0x7975F009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7975F007, 0x7975F008, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7975F007, 0x7975F009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7975F008,  4380, 0x975F001C, 85.06837, 89.2373, 11.85356, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

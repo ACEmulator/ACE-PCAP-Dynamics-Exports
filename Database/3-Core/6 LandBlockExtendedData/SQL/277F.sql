@@ -5,13 +5,13 @@ VALUES (0x7277F001,  1154, 0x277F0019, 82.76096, 3.246765, 42.37031, 0.9238795, 
 /* @teleloc 0x277F0019 [82.760960 3.246765 42.370310] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277F001, 0x7277F002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277F001, 0x7277F003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277F001, 0x7277F004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7277F001, 0x7277F005, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7277F001, 0x7277F006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7277F001, 0x7277F007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7277F001, 0x7277F008, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7277F001, 0x7277F002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277F001, 0x7277F003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277F001, 0x7277F004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7277F001, 0x7277F005, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7277F001, 0x7277F006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7277F001, 0x7277F007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7277F001, 0x7277F008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277F002, 24497, 0x277F0019, 82.76096, 3.246765, 42.37031, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -46,8 +46,8 @@ VALUES (0x7277F009,  1542, 0x277F0015, 67.95225, 100.4139, 33.59004, -0.9900151,
 /* @teleloc 0x277F0015 [67.952250 100.413900 33.590040] -0.990015 0.000000 0.000000 -0.140961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277F009, 0x7277F00A, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7277F009, 0x7277F00B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7277F009, 0x7277F00A, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7277F009, 0x7277F00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277F00A,  8648, 0x277F0015, 67.95225, 100.4139, 33.59004, -0.9900151, 0, 0, -0.1409609,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

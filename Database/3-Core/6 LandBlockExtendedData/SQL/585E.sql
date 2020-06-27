@@ -169,40 +169,40 @@ VALUES (0x7585E035,  1154, 0x585E0119, 74.4151, -70, 0.01257598, 0.714421, 0, 0,
 /* @teleloc 0x585E0119 [74.415100 -70.000000 0.012576] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7585E035, 0x7585E036, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E037, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E038, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E039, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E03A, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E03B, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E03C, '2019-02-10 00:00:00') /* Forge Guardian */
-     , (0x7585E035, 0x7585E03D, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E03E, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E03F, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E040, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E041, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E042, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E043, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E044, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E045, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E046, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E047, '2019-02-10 00:00:00') /* Tiatus Overseer */
-     , (0x7585E035, 0x7585E048, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E049, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E04A, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E04B, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E04C, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E04D, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E04E, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E04F, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E050, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E051, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E052, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E053, '2019-02-10 00:00:00') /* Ensorcelled Weapon */
-     , (0x7585E035, 0x7585E054, '2019-02-10 00:00:00') /* Zrikux */
-     , (0x7585E035, 0x7585E055, '2019-02-10 00:00:00') /* Tortured Servant */
-     , (0x7585E035, 0x7585E056, '2019-02-10 00:00:00') /* Tiatus Smithy */
-     , (0x7585E035, 0x7585E057, '2019-02-10 00:00:00') /* Ensorcelled Weapon */;
+VALUES (0x7585E035, 0x7585E036, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E037, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47218) */
+     , (0x7585E035, 0x7585E038, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E039, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */
+     , (0x7585E035, 0x7585E03A, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */
+     , (0x7585E035, 0x7585E03B, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E03C, '2019-02-10 00:00:00') /* Forge Guardian (47205) */
+     , (0x7585E035, 0x7585E03D, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47218) */
+     , (0x7585E035, 0x7585E03E, '2019-02-10 00:00:00') /* Tortured Servant (47204) */
+     , (0x7585E035, 0x7585E03F, '2019-02-10 00:00:00') /* Tortured Servant (47204) */
+     , (0x7585E035, 0x7585E040, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E041, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */
+     , (0x7585E035, 0x7585E042, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47218) */
+     , (0x7585E035, 0x7585E043, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47218) */
+     , (0x7585E035, 0x7585E044, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E045, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E046, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47218) */
+     , (0x7585E035, 0x7585E047, '2019-02-10 00:00:00') /* Tiatus Overseer (47210) */
+     , (0x7585E035, 0x7585E048, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E049, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */
+     , (0x7585E035, 0x7585E04A, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E04B, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E04C, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E04D, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E04E, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */
+     , (0x7585E035, 0x7585E04F, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E050, '2019-02-10 00:00:00') /* Tortured Servant (47186) */
+     , (0x7585E035, 0x7585E051, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E052, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E053, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47225) */
+     , (0x7585E035, 0x7585E054, '2019-02-10 00:00:00') /* Zrikux (47188) */
+     , (0x7585E035, 0x7585E055, '2019-02-10 00:00:00') /* Tortured Servant (47204) */
+     , (0x7585E035, 0x7585E056, '2019-02-10 00:00:00') /* Tiatus Smithy (47179) */
+     , (0x7585E035, 0x7585E057, '2019-02-10 00:00:00') /* Ensorcelled Weapon (47216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7585E036, 47186, 0x585E0119, 74.4151, -70, 0.01257598, 0.714421, 0, 0, 0.699716,  True, '2019-02-10 00:00:00'); /* Tortured Servant */
@@ -345,8 +345,8 @@ VALUES (0x7585E058,  1542, 0x585E0193, 419.7275, -102.3801, -0.06299996, 0.02315
 /* @teleloc 0x585E0193 [419.727500 -102.380100 -0.063000] 0.023154 0.000000 0.000000 -0.999732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7585E058, 0x7585E059, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7585E058, 0x7585E05A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7585E058, 0x7585E059, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7585E058, 0x7585E05A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7585E059,  1955, 0x585E0193, 419.7275, -102.3801, -0.06299996, 0.02315389, 0, 0, -0.9997319,  True, '2019-02-10 00:00:00'); /* Gateway */

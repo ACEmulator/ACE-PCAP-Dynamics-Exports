@@ -5,30 +5,30 @@ VALUES (0x73C2E001,  1154, 0x3C2E0001, 0.8888702, 7.494446, 153.5336, 0.6738713,
 /* @teleloc 0x3C2E0001 [0.888870 7.494446 153.533600] 0.673871 0.000000 0.000000 -0.738849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C2E001, 0x73C2E002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73C2E001, 0x73C2E003, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C2E001, 0x73C2E004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C2E001, 0x73C2E005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73C2E001, 0x73C2E006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73C2E001, 0x73C2E007, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73C2E001, 0x73C2E008, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73C2E001, 0x73C2E009, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x73C2E001, 0x73C2E00A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73C2E001, 0x73C2E00B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C2E001, 0x73C2E00C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73C2E001, 0x73C2E00D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C2E001, 0x73C2E00E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73C2E001, 0x73C2E00F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73C2E001, 0x73C2E010, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x73C2E001, 0x73C2E011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C2E001, 0x73C2E012, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73C2E001, 0x73C2E013, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73C2E001, 0x73C2E014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C2E001, 0x73C2E015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C2E001, 0x73C2E016, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73C2E001, 0x73C2E017, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73C2E001, 0x73C2E018, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73C2E001, 0x73C2E019, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73C2E001, 0x73C2E002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73C2E001, 0x73C2E003, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C2E001, 0x73C2E004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C2E001, 0x73C2E005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73C2E001, 0x73C2E006, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x73C2E001, 0x73C2E007, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x73C2E001, 0x73C2E008, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x73C2E001, 0x73C2E009, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x73C2E001, 0x73C2E00A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73C2E001, 0x73C2E00B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x73C2E001, 0x73C2E00C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73C2E001, 0x73C2E00D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x73C2E001, 0x73C2E00E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73C2E001, 0x73C2E00F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73C2E001, 0x73C2E010, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x73C2E001, 0x73C2E011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C2E001, 0x73C2E012, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73C2E001, 0x73C2E013, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73C2E001, 0x73C2E014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C2E001, 0x73C2E015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C2E001, 0x73C2E016, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73C2E001, 0x73C2E017, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x73C2E001, 0x73C2E018, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x73C2E001, 0x73C2E019, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C2E002, 14520, 0x3C2E0001, 0.8888702, 7.494446, 153.5336, 0.6738713, 0, 0, -0.7388488,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -131,7 +131,7 @@ VALUES (0x73C2E01A,  1542, 0x3C2E0040, 176.9455, 182.3651, 180.9182, -4.371139E-
 /* @teleloc 0x3C2E0040 [176.945500 182.365100 180.918200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C2E01A, 0x73C2E01B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73C2E01A, 0x73C2E01B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C2E01B,  4380, 0x3C2E0040, 176.9455, 182.3651, 180.9182, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

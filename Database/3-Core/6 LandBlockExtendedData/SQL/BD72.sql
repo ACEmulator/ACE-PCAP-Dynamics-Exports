@@ -5,25 +5,25 @@ VALUES (0x7BD72001,  1154, 0xBD720005, 19.16768, 105.8044, 5.112, -0.9997404, 0,
 /* @teleloc 0xBD720005 [19.167680 105.804400 5.112000] -0.999740 0.000000 0.000000 -0.022786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD72001, 0x7BD72002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD72001, 0x7BD72003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD72001, 0x7BD72004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD72001, 0x7BD72005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD72001, 0x7BD72006, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BD72001, 0x7BD72007, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD72001, 0x7BD72008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BD72001, 0x7BD72009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD72001, 0x7BD7200A, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD72001, 0x7BD7200B, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD72001, 0x7BD7200C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BD72001, 0x7BD7200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BD72001, 0x7BD7200E, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD72001, 0x7BD7200F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD72001, 0x7BD72010, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD72001, 0x7BD72011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD72001, 0x7BD72012, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BD72001, 0x7BD72013, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD72001, 0x7BD72014, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x7BD72001, 0x7BD72002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD72001, 0x7BD72003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD72001, 0x7BD72004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD72001, 0x7BD72005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD72001, 0x7BD72006, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BD72001, 0x7BD72007, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD72001, 0x7BD72008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BD72001, 0x7BD72009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD72001, 0x7BD7200A, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD72001, 0x7BD7200B, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD72001, 0x7BD7200C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BD72001, 0x7BD7200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD72001, 0x7BD7200E, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD72001, 0x7BD7200F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD72001, 0x7BD72010, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD72001, 0x7BD72011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD72001, 0x7BD72012, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BD72001, 0x7BD72013, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD72001, 0x7BD72014, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD72002,   216, 0xBD720005, 19.16768, 105.8044, 5.112, -0.9997404, 0, 0, -0.02278575,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

@@ -5,9 +5,9 @@ VALUES (0x7A822001,  1154, 0xA8220026, 107.8215, 138.9628, 289.6, 0.9396926, 0, 
 /* @teleloc 0xA8220026 [107.821500 138.962800 289.600000] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A822001, 0x7A822002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A822001, 0x7A822003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A822001, 0x7A822004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7A822001, 0x7A822002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A822001, 0x7A822003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A822001, 0x7A822004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A822002, 37100, 0xA8220026, 107.8215, 138.9628, 289.6, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */

@@ -5,11 +5,11 @@ VALUES (0x77DF6001,  1154, 0x7DF6000B, 33.00712, 66.06499, 14.51935, 0.9659258, 
 /* @teleloc 0x7DF6000B [33.007120 66.064990 14.519350] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF6001, 0x77DF6002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x77DF6001, 0x77DF6003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77DF6001, 0x77DF6004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DF6001, 0x77DF6005, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x77DF6001, 0x77DF6006, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x77DF6001, 0x77DF6002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x77DF6001, 0x77DF6003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77DF6001, 0x77DF6004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DF6001, 0x77DF6005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x77DF6001, 0x77DF6006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF6002,  7340, 0x7DF6000B, 33.00712, 66.06499, 14.51935, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -36,7 +36,7 @@ VALUES (0x77DF6007,  1542, 0x7DF6000B, 37.14635, 65.63285, 15.25225, 1, 0, 0, 0,
 /* @teleloc 0x7DF6000B [37.146350 65.632850 15.252250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF6007, 0x77DF6008, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x77DF6007, 0x77DF6008, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF6008,  8999, 0x7DF6000B, 37.14635, 65.63285, 15.25225, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

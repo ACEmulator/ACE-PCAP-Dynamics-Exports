@@ -5,15 +5,15 @@ VALUES (0x75FD1001,  1154, 0x5FD10020, 91.60551, 180.1998, 15.32403, 0.9238795, 
 /* @teleloc 0x5FD10020 [91.605510 180.199800 15.324030] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD1001, 0x75FD1002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FD1001, 0x75FD1003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FD1001, 0x75FD1004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FD1001, 0x75FD1005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75FD1001, 0x75FD1006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75FD1001, 0x75FD1007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75FD1001, 0x75FD1008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75FD1001, 0x75FD1009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x75FD1001, 0x75FD100A, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x75FD1001, 0x75FD1002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FD1001, 0x75FD1003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FD1001, 0x75FD1004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FD1001, 0x75FD1005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x75FD1001, 0x75FD1006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75FD1001, 0x75FD1007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75FD1001, 0x75FD1008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75FD1001, 0x75FD1009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75FD1001, 0x75FD100A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD1002,  7184, 0x5FD10020, 91.60551, 180.1998, 15.32403, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -56,7 +56,7 @@ VALUES (0x75FD100B,  1542, 0x5FD10034, 152.1772, 76.20786, 42.15637, 0.9990482, 
 /* @teleloc 0x5FD10034 [152.177200 76.207860 42.156370] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD100B, 0x75FD100C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75FD100B, 0x75FD100C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD100C,  4179, 0x5FD10034, 152.1772, 76.20786, 42.15637, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,26 +5,26 @@ VALUES (0x7A8B0001,  1154, 0xA8B0002D, 124.6457, 112.7691, 77.66158, -0.9024144,
 /* @teleloc 0xA8B0002D [124.645700 112.769100 77.661580] -0.902414 0.000000 0.000000 -0.430869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B0001, 0x7A8B0002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A8B0001, 0x7A8B0003, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B0001, 0x7A8B0004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B0001, 0x7A8B0005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8B0001, 0x7A8B0006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8B0001, 0x7A8B0007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8B0001, 0x7A8B0008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8B0001, 0x7A8B0009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8B0001, 0x7A8B000A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B0001, 0x7A8B000B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A8B0001, 0x7A8B000C, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B0001, 0x7A8B000D, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B0001, 0x7A8B000E, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B0001, 0x7A8B000F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8B0001, 0x7A8B0010, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8B0001, 0x7A8B0011, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8B0001, 0x7A8B0012, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B0001, 0x7A8B0013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B0001, 0x7A8B0014, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8B0001, 0x7A8B0015, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7A8B0001, 0x7A8B0002, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A8B0001, 0x7A8B0003, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B0001, 0x7A8B0004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B0001, 0x7A8B0005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B0001, 0x7A8B0006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B0001, 0x7A8B0007, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8B0001, 0x7A8B0008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B0001, 0x7A8B0009, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8B0001, 0x7A8B000A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B0001, 0x7A8B000B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8B0001, 0x7A8B000C, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B0001, 0x7A8B000D, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B0001, 0x7A8B000E, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B0001, 0x7A8B000F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B0001, 0x7A8B0010, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8B0001, 0x7A8B0011, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8B0001, 0x7A8B0012, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B0001, 0x7A8B0013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B0001, 0x7A8B0014, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8B0001, 0x7A8B0015, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B0002, 19259, 0xA8B0002D, 124.6457, 112.7691, 77.66158, -0.9024144, 0, 0, -0.4308692,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -111,7 +111,7 @@ VALUES (0x7A8B0016,  1154, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0,
 /* @teleloc 0xA8B00035 [153.154000 105.486000 89.205000] 0.994798 0.000000 0.000000 -0.101868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B0016, 0x7A8B0017, '2019-02-10 00:00:00') /* Sentry */;
+VALUES (0x7A8B0016, 0x7A8B0017, '2019-02-10 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B0017, 12725, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0, -0.101868,  True, '2019-02-10 00:00:00'); /* Sentry */

@@ -5,19 +5,19 @@ VALUES (0x7173D001,  1154, 0x173D003F, 186.6468, 151.3427, 40.97101, -0.6745194,
 /* @teleloc 0x173D003F [186.646800 151.342700 40.971010] -0.674519 0.000000 0.000000 -0.738257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7173D001, 0x7173D002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7173D001, 0x7173D003, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7173D001, 0x7173D004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7173D001, 0x7173D005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7173D001, 0x7173D006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7173D001, 0x7173D007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7173D001, 0x7173D008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7173D001, 0x7173D009, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7173D001, 0x7173D00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7173D001, 0x7173D00B, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7173D001, 0x7173D00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7173D001, 0x7173D00D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7173D001, 0x7173D00E, '2019-02-10 00:00:00') /* Resonant Portal */;
+VALUES (0x7173D001, 0x7173D002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7173D001, 0x7173D003, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7173D001, 0x7173D004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7173D001, 0x7173D005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7173D001, 0x7173D006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7173D001, 0x7173D007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7173D001, 0x7173D008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7173D001, 0x7173D009, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7173D001, 0x7173D00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7173D001, 0x7173D00B, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7173D001, 0x7173D00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7173D001, 0x7173D00D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7173D001, 0x7173D00E, '2019-02-10 00:00:00') /* Resonant Portal (41004) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173D002, 22054, 0x173D003F, 186.6468, 151.3427, 40.97101, -0.6745194, 0, 0, -0.7382572,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -76,7 +76,7 @@ VALUES (0x7173D00F,  1542, 0x173D002C, 125.2444, 94.28567, 40, 1, 0, 0, 0, False
 /* @teleloc 0x173D002C [125.244400 94.285670 40.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7173D00F, 0x7173D010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7173D00F, 0x7173D010, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173D010, 22566, 0x173D002C, 125.2444, 94.28567, 40, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

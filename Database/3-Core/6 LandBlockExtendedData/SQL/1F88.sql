@@ -5,15 +5,15 @@ VALUES (0x71F88001,  1154, 0x1F880007, 4.343502, 155.1073, 56.12569, -0.9046551,
 /* @teleloc 0x1F880007 [4.343502 155.107300 56.125690] -0.904655 0.000000 0.000000 -0.426145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F88001, 0x71F88002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71F88001, 0x71F88003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F88001, 0x71F88004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F88001, 0x71F88005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71F88001, 0x71F88006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71F88001, 0x71F88007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F88001, 0x71F88008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71F88001, 0x71F88009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F88001, 0x71F8800A, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x71F88001, 0x71F88002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71F88001, 0x71F88003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F88001, 0x71F88004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F88001, 0x71F88005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71F88001, 0x71F88006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71F88001, 0x71F88007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F88001, 0x71F88008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71F88001, 0x71F88009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F88001, 0x71F8800A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F88002, 36840, 0x1F880007, 4.343502, 155.1073, 56.12569, -0.9046551, 0, 0, -0.4261446,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

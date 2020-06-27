@@ -5,12 +5,12 @@ VALUES (0x79054001,  1154, 0x90540037, 165.692, 147.0559, 14.0025, 0.9659258, 0,
 /* @teleloc 0x90540037 [165.692000 147.055900 14.002500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79054001, 0x79054002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79054001, 0x79054003, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79054001, 0x79054004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x79054001, 0x79054005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x79054001, 0x79054006, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79054001, 0x79054007, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x79054001, 0x79054002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79054001, 0x79054003, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79054001, 0x79054004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x79054001, 0x79054005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x79054001, 0x79054006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79054001, 0x79054007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79054002,  4266, 0x90540037, 165.692, 147.0559, 14.0025, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -41,9 +41,9 @@ VALUES (0x79054008,  1542, 0x90540037, 166.485, 148.892, 14.57, 0.9914449, 0, 0,
 /* @teleloc 0x90540037 [166.485000 148.892000 14.570000] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79054008, 0x79054009, '2019-02-10 00:00:00') /* Bones */
-     , (0x79054008, 0x7905400A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79054008, 0x7905400B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79054008, 0x79054009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79054008, 0x7905400A, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x79054008, 0x7905400B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79054009,  4380, 0x90540037, 166.485, 148.892, 14.57, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

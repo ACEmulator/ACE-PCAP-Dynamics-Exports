@@ -9,19 +9,19 @@ VALUES (0x7937B001,  1154, 0x937B0032, 159.8821, 28.56091, 50.33303, 0.9727426, 
 /* @teleloc 0x937B0032 [159.882100 28.560910 50.333030] 0.972743 0.000000 0.000000 -0.231888 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937B001, 0x7937B002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7937B001, 0x7937B003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7937B001, 0x7937B004, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7937B001, 0x7937B005, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7937B001, 0x7937B006, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7937B001, 0x7937B007, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7937B001, 0x7937B008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7937B001, 0x7937B009, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7937B001, 0x7937B00A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7937B001, 0x7937B00B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7937B001, 0x7937B00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7937B001, 0x7937B00D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7937B001, 0x7937B00E, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7937B001, 0x7937B002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7937B001, 0x7937B003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7937B001, 0x7937B004, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7937B001, 0x7937B005, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7937B001, 0x7937B006, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7937B001, 0x7937B007, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7937B001, 0x7937B008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7937B001, 0x7937B009, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7937B001, 0x7937B00A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7937B001, 0x7937B00B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7937B001, 0x7937B00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7937B001, 0x7937B00D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7937B001, 0x7937B00E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937B002,   939, 0x937B0032, 159.8821, 28.56091, 50.33303, 0.9727426, 0, 0, -0.2318877,  True, '2019-02-10 00:00:00'); /* Young Banderling */

@@ -85,26 +85,26 @@ VALUES (0x7014D034,  1154, 0x014D0169, 32.2567, -66.9673, 0.007149994, 0.979799,
 /* @teleloc 0x014D0169 [32.256700 -66.967300 0.007150] 0.979799 0.000000 0.000000 -0.199986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014D034, 0x7014D035, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D036, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D037, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D038, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D039, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D03A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D03B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D03C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D03D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7014D034, 0x7014D03E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D03F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7014D034, 0x7014D040, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7014D034, 0x7014D041, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D042, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7014D034, 0x7014D043, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7014D034, 0x7014D044, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7014D034, 0x7014D045, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D046, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D047, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7014D034, 0x7014D048, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7014D034, 0x7014D035, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D036, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D037, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D038, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D039, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D03A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D03B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D03C, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D03D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7014D034, 0x7014D03E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D03F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7014D034, 0x7014D040, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7014D034, 0x7014D041, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D042, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7014D034, 0x7014D043, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7014D034, 0x7014D044, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7014D034, 0x7014D045, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D046, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D047, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7014D034, 0x7014D048, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014D035,   939, 0x014D0169, 32.2567, -66.9673, 0.007149994, 0.979799, 0, 0, -0.199986,  True, '2019-02-10 00:00:00'); /* Young Banderling */

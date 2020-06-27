@@ -9,48 +9,48 @@ VALUES (0x7326A004,  1154, 0x326A001A, 89.12437, 27.35135, 259.9979, 0.8660254, 
 /* @teleloc 0x326A001A [89.124370 27.351350 259.997900] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326A004, 0x7326A005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7326A004, 0x7326A006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7326A004, 0x7326A007, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7326A004, 0x7326A008, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7326A004, 0x7326A009, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7326A004, 0x7326A00A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7326A004, 0x7326A00B, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7326A004, 0x7326A00C, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7326A004, 0x7326A00D, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7326A004, 0x7326A00E, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7326A004, 0x7326A00F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7326A004, 0x7326A010, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7326A004, 0x7326A011, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7326A004, 0x7326A012, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326A004, 0x7326A013, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326A004, 0x7326A014, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7326A004, 0x7326A015, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7326A004, 0x7326A016, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7326A004, 0x7326A017, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7326A004, 0x7326A018, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7326A004, 0x7326A019, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7326A004, 0x7326A01A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326A004, 0x7326A01B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326A004, 0x7326A01C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326A004, 0x7326A01D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7326A004, 0x7326A01E, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7326A004, 0x7326A01F, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7326A004, 0x7326A020, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7326A004, 0x7326A021, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7326A004, 0x7326A022, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7326A004, 0x7326A023, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7326A004, 0x7326A024, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326A004, 0x7326A025, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7326A004, 0x7326A026, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7326A004, 0x7326A027, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7326A004, 0x7326A028, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7326A004, 0x7326A029, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326A004, 0x7326A02A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326A004, 0x7326A02B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326A004, 0x7326A02C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326A004, 0x7326A02D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326A004, 0x7326A02E, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */;
+VALUES (0x7326A004, 0x7326A005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7326A004, 0x7326A006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7326A004, 0x7326A007, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326A004, 0x7326A008, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326A004, 0x7326A009, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7326A004, 0x7326A00A, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326A004, 0x7326A00B, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326A004, 0x7326A00C, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7326A004, 0x7326A00D, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326A004, 0x7326A00E, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326A004, 0x7326A00F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7326A004, 0x7326A010, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7326A004, 0x7326A011, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326A004, 0x7326A012, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326A004, 0x7326A013, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326A004, 0x7326A014, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326A004, 0x7326A015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7326A004, 0x7326A016, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326A004, 0x7326A017, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7326A004, 0x7326A018, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7326A004, 0x7326A019, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7326A004, 0x7326A01A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326A004, 0x7326A01B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326A004, 0x7326A01C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326A004, 0x7326A01D, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7326A004, 0x7326A01E, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326A004, 0x7326A01F, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326A004, 0x7326A020, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7326A004, 0x7326A021, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7326A004, 0x7326A022, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7326A004, 0x7326A023, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7326A004, 0x7326A024, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326A004, 0x7326A025, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7326A004, 0x7326A026, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7326A004, 0x7326A027, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7326A004, 0x7326A028, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7326A004, 0x7326A029, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326A004, 0x7326A02A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326A004, 0x7326A02B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326A004, 0x7326A02C, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326A004, 0x7326A02D, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326A004, 0x7326A02E, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A005,  7982, 0x326A001A, 89.12437, 27.35135, 259.9979, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -225,14 +225,14 @@ VALUES (0x7326A02F,  1542, 0x326A002A, 133.1599, 47.47628, 295.5621, 1, 0, 0, 0,
 /* @teleloc 0x326A002A [133.159900 47.476280 295.562100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326A02F, 0x7326A030, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7326A02F, 0x7326A031, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7326A02F, 0x7326A032, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7326A02F, 0x7326A033, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7326A02F, 0x7326A034, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7326A02F, 0x7326A035, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7326A02F, 0x7326A036, '2019-02-10 00:00:00') /* Rock */
-     , (0x7326A02F, 0x7326A037, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7326A02F, 0x7326A030, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7326A02F, 0x7326A031, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7326A02F, 0x7326A032, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7326A02F, 0x7326A033, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7326A02F, 0x7326A034, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7326A02F, 0x7326A035, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7326A02F, 0x7326A036, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7326A02F, 0x7326A037, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A030, 40124, 0x326A002A, 133.1599, 47.47628, 295.5621, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */

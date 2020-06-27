@@ -5,10 +5,10 @@ VALUES (0x72A79001,  1154, 0x2A790006, 16.93978, 142.5789, 339.4154, -0.6123279,
 /* @teleloc 0x2A790006 [16.939780 142.578900 339.415400] -0.612328 0.000000 0.000000 -0.790604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A79001, 0x72A79002, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72A79001, 0x72A79003, '2019-02-10 00:00:00') /* Frost */
-     , (0x72A79001, 0x72A79004, '2019-02-10 00:00:00') /* Frost */
-     , (0x72A79001, 0x72A79005, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x72A79001, 0x72A79002, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72A79001, 0x72A79003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72A79001, 0x72A79004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72A79001, 0x72A79005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A79002, 20190, 0x2A790006, 16.93978, 142.5789, 339.4154, -0.6123279, 0, 0, -0.7906039,  True, '2019-02-10 00:00:00'); /* Gelid */

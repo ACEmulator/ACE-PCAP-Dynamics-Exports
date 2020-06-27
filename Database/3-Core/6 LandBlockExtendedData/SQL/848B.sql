@@ -5,20 +5,20 @@ VALUES (0x7848B001,  1154, 0x848B0039, 181.0088, 16.61302, 294.5822, -0.995411, 
 /* @teleloc 0x848B0039 [181.008800 16.613020 294.582200] -0.995411 0.000000 0.000000 -0.095692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7848B001, 0x7848B002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7848B001, 0x7848B003, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7848B001, 0x7848B004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7848B001, 0x7848B005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7848B001, 0x7848B006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7848B001, 0x7848B007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7848B001, 0x7848B008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7848B001, 0x7848B009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7848B001, 0x7848B00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7848B001, 0x7848B00B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7848B001, 0x7848B00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7848B001, 0x7848B00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7848B001, 0x7848B00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7848B001, 0x7848B00F, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7848B001, 0x7848B002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7848B001, 0x7848B003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7848B001, 0x7848B004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7848B001, 0x7848B005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7848B001, 0x7848B006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7848B001, 0x7848B007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7848B001, 0x7848B008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7848B001, 0x7848B009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7848B001, 0x7848B00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7848B001, 0x7848B00B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7848B001, 0x7848B00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7848B001, 0x7848B00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7848B001, 0x7848B00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7848B001, 0x7848B00F, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848B002,  1762, 0x848B0039, 181.0088, 16.61302, 294.5822, -0.995411, 0, 0, -0.09569182,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -81,7 +81,7 @@ VALUES (0x7848B010,  1542, 0x848B0040, 169.401, 191.5973, 286.2174, 0.9990482, 0
 /* @teleloc 0x848B0040 [169.401000 191.597300 286.217400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7848B010, 0x7848B011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7848B010, 0x7848B011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848B011,  4179, 0x848B0040, 169.401, 191.5973, 286.2174, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x76CB4001,  1154, 0x6CB40013, 66.49507, 60.63272, 91.4268, 0.1680983, 0
 /* @teleloc 0x6CB40013 [66.495070 60.632720 91.426800] 0.168098 0.000000 0.000000 -0.985770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CB4001, 0x76CB4002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x76CB4001, 0x76CB4003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76CB4001, 0x76CB4004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76CB4001, 0x76CB4005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76CB4001, 0x76CB4006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76CB4001, 0x76CB4007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76CB4001, 0x76CB4008, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x76CB4001, 0x76CB4009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x76CB4001, 0x76CB400A, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x76CB4001, 0x76CB4002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x76CB4001, 0x76CB4003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76CB4001, 0x76CB4004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76CB4001, 0x76CB4005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76CB4001, 0x76CB4006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76CB4001, 0x76CB4007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76CB4001, 0x76CB4008, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x76CB4001, 0x76CB4009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x76CB4001, 0x76CB400A, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CB4002,  9253, 0x6CB40013, 66.49507, 60.63272, 91.4268, 0.1680983, 0, 0, -0.9857702,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

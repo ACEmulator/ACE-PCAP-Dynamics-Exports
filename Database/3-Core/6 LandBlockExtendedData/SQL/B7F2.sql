@@ -5,51 +5,51 @@ VALUES (0x7B7F2001,  1154, 0xB7F20028, 98.62746, 168.6526, 45.64641, 0.3987491, 
 /* @teleloc 0xB7F20028 [98.627460 168.652600 45.646410] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7F2001, 0x7B7F2002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B7F2001, 0x7B7F2003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B7F2001, 0x7B7F2004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B7F2001, 0x7B7F2005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B7F2001, 0x7B7F2006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B7F2001, 0x7B7F2007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B7F2001, 0x7B7F2008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B7F2001, 0x7B7F2009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B7F2001, 0x7B7F200A, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B7F2001, 0x7B7F200B, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B7F2001, 0x7B7F200C, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B7F2001, 0x7B7F200D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B7F2001, 0x7B7F200E, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B7F2001, 0x7B7F200F, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B7F2001, 0x7B7F2010, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B7F2001, 0x7B7F2011, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B7F2001, 0x7B7F2012, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7B7F2001, 0x7B7F2013, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B7F2001, 0x7B7F2014, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B7F2001, 0x7B7F2015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F2016, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B7F2001, 0x7B7F2017, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B7F2001, 0x7B7F2018, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B7F2001, 0x7B7F2019, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B7F2001, 0x7B7F201A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B7F2001, 0x7B7F201B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B7F2001, 0x7B7F201C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F201D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F201E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B7F2001, 0x7B7F201F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B7F2001, 0x7B7F2020, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7B7F2001, 0x7B7F2021, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F2022, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B7F2001, 0x7B7F2023, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F2024, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B7F2001, 0x7B7F2025, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B7F2001, 0x7B7F2026, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B7F2001, 0x7B7F2027, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B7F2001, 0x7B7F2028, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B7F2001, 0x7B7F2029, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B7F2001, 0x7B7F202A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B7F2001, 0x7B7F202B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B7F2001, 0x7B7F202C, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B7F2001, 0x7B7F202D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B7F2001, 0x7B7F202E, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7B7F2001, 0x7B7F2002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B7F2001, 0x7B7F2003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B7F2001, 0x7B7F2004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B7F2001, 0x7B7F2005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B7F2001, 0x7B7F2006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B7F2001, 0x7B7F2007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B7F2001, 0x7B7F2008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B7F2001, 0x7B7F2009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B7F2001, 0x7B7F200A, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B7F2001, 0x7B7F200B, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B7F2001, 0x7B7F200C, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B7F2001, 0x7B7F200D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B7F2001, 0x7B7F200E, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B7F2001, 0x7B7F200F, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B7F2001, 0x7B7F2010, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B7F2001, 0x7B7F2011, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B7F2001, 0x7B7F2012, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7B7F2001, 0x7B7F2013, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B7F2001, 0x7B7F2014, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B7F2001, 0x7B7F2015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F2016, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B7F2001, 0x7B7F2017, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B7F2001, 0x7B7F2018, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B7F2001, 0x7B7F2019, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B7F2001, 0x7B7F201A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B7F2001, 0x7B7F201B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B7F2001, 0x7B7F201C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F201D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F201E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B7F2001, 0x7B7F201F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B7F2001, 0x7B7F2020, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7B7F2001, 0x7B7F2021, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F2022, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B7F2001, 0x7B7F2023, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F2024, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B7F2001, 0x7B7F2025, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B7F2001, 0x7B7F2026, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B7F2001, 0x7B7F2027, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B7F2001, 0x7B7F2028, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B7F2001, 0x7B7F2029, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B7F2001, 0x7B7F202A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B7F2001, 0x7B7F202B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B7F2001, 0x7B7F202C, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B7F2001, 0x7B7F202D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B7F2001, 0x7B7F202E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7F2002,  7086, 0xB7F20028, 98.62746, 168.6526, 45.64641, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -236,10 +236,10 @@ VALUES (0x7B7F202F,  1542, 0xB7F20010, 40.4611, 176.6851, 18.66776, 0.9990482, 0
 /* @teleloc 0xB7F20010 [40.461100 176.685100 18.667760] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7F202F, 0x7B7F2030, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B7F202F, 0x7B7F2031, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B7F202F, 0x7B7F2032, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B7F202F, 0x7B7F2033, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B7F202F, 0x7B7F2030, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B7F202F, 0x7B7F2031, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B7F202F, 0x7B7F2032, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B7F202F, 0x7B7F2033, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7F2030,  4179, 0xB7F20010, 40.4611, 176.6851, 18.66776, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

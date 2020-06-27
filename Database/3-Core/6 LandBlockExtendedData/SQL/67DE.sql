@@ -41,15 +41,15 @@ VALUES (0x767DE010,  1154, 0x67DE0103, 117.846, 64.569, 64.3985, -0.596707, 0, 0
 /* @teleloc 0x67DE0103 [117.846000 64.569000 64.398500] -0.596707 0.000000 0.000000 -0.802459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767DE010, 0x767DE011, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE012, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE013, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE014, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE015, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE016, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE017, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x767DE010, 0x767DE018, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x767DE010, 0x767DE019, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x767DE010, 0x767DE011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE012, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE013, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE014, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE016, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE017, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x767DE010, 0x767DE018, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x767DE010, 0x767DE019, '2019-02-10 00:00:00') /* Red Phyntos Wasp (19435) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767DE011,  7978, 0x67DE0103, 117.846, 64.569, 64.3985, -0.596707, 0, 0, -0.802459,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -92,14 +92,14 @@ VALUES (0x767DE01A,  1154, 0x67DE0011, 56.0961, 13.4183, 62.02372, -0.115192, 0,
 /* @teleloc 0x67DE0011 [56.096100 13.418300 62.023720] -0.115192 0.000000 0.000000 -0.993343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767DE01A, 0x767DE01B, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE01C, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE01D, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE01E, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE01F, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE020, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE021, '2019-02-10 00:00:00') /* Scuttling Grievver */
-     , (0x767DE01A, 0x767DE022, '2019-02-10 00:00:00') /* Scuttling Grievver */;
+VALUES (0x767DE01A, 0x767DE01B, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE01C, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE01D, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE01E, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE01F, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE020, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE021, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */
+     , (0x767DE01A, 0x767DE022, '2019-02-10 00:00:00') /* Scuttling Grievver (19429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767DE01B, 19429, 0x67DE0011, 56.0961, 13.4183, 62.02372, -0.115192, 0, 0, -0.9933432,  True, '2019-02-10 00:00:00'); /* Scuttling Grievver */

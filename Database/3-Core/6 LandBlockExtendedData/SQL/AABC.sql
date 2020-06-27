@@ -5,27 +5,27 @@ VALUES (0x7AABC001,  1154, 0xAABC0020, 88.37337, 178.544, 102.7214, 0.9537169, 0
 /* @teleloc 0xAABC0020 [88.373370 178.544000 102.721400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABC001, 0x7AABC002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AABC001, 0x7AABC005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC006, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7AABC001, 0x7AABC007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AABC001, 0x7AABC00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AABC001, 0x7AABC00B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7AABC001, 0x7AABC00C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AABC001, 0x7AABC00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AABC001, 0x7AABC00E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AABC001, 0x7AABC00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AABC001, 0x7AABC010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABC001, 0x7AABC011, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABC001, 0x7AABC012, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AABC001, 0x7AABC013, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7AABC001, 0x7AABC014, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AABC001, 0x7AABC015, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AABC001, 0x7AABC016, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7AABC001, 0x7AABC002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AABC001, 0x7AABC005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC006, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7AABC001, 0x7AABC007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AABC001, 0x7AABC00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AABC001, 0x7AABC00B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7AABC001, 0x7AABC00C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AABC001, 0x7AABC00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AABC001, 0x7AABC00E, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AABC001, 0x7AABC00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AABC001, 0x7AABC010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABC001, 0x7AABC011, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABC001, 0x7AABC012, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AABC001, 0x7AABC013, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7AABC001, 0x7AABC014, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AABC001, 0x7AABC015, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AABC001, 0x7AABC016, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABC002,  2612, 0xAABC0020, 88.37337, 178.544, 102.7214, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -116,7 +116,7 @@ VALUES (0x7AABC017,  1542, 0xAABC0011, 68.72507, 23.93448, 97.44872, 1, 0, 0, 0,
 /* @teleloc 0xAABC0011 [68.725070 23.934480 97.448720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABC017, 0x7AABC018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AABC017, 0x7AABC018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABC018,  4179, 0xAABC0011, 68.72507, 23.93448, 97.44872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

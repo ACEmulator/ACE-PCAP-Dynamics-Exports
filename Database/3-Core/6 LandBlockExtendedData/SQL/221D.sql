@@ -5,25 +5,25 @@ VALUES (0x7221D001,  1154, 0x221D0029, 121.6276, 16.89403, 50.43589, 0.8191521, 
 /* @teleloc 0x221D0029 [121.627600 16.894030 50.435890] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7221D001, 0x7221D002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7221D001, 0x7221D003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7221D001, 0x7221D004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221D001, 0x7221D005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221D001, 0x7221D006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7221D001, 0x7221D007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7221D001, 0x7221D008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7221D001, 0x7221D009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7221D001, 0x7221D00A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7221D001, 0x7221D00B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7221D001, 0x7221D00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221D001, 0x7221D00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221D001, 0x7221D00E, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7221D001, 0x7221D00F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7221D001, 0x7221D010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7221D001, 0x7221D011, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7221D001, 0x7221D012, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7221D001, 0x7221D013, '2019-02-10 00:00:00') /* Scoriscant */
-     , (0x7221D001, 0x7221D014, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7221D001, 0x7221D002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7221D001, 0x7221D003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7221D001, 0x7221D004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221D001, 0x7221D005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221D001, 0x7221D006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7221D001, 0x7221D007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7221D001, 0x7221D008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7221D001, 0x7221D009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7221D001, 0x7221D00A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7221D001, 0x7221D00B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7221D001, 0x7221D00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221D001, 0x7221D00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221D001, 0x7221D00E, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7221D001, 0x7221D00F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7221D001, 0x7221D010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7221D001, 0x7221D011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7221D001, 0x7221D012, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7221D001, 0x7221D013, '2019-02-10 00:00:00') /* Scoriscant (19540) */
+     , (0x7221D001, 0x7221D014, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221D002, 36860, 0x221D0029, 121.6276, 16.89403, 50.43589, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */
@@ -106,8 +106,8 @@ VALUES (0x7221D015,  1542, 0x221D001C, 82.01808, 84.0051, 25.17239, -0.8579968, 
 /* @teleloc 0x221D001C [82.018080 84.005100 25.172390] -0.857997 0.000000 0.000000 -0.513655 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7221D015, 0x7221D016, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7221D015, 0x7221D017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7221D015, 0x7221D016, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7221D015, 0x7221D017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221D016,  9288, 0x221D001C, 82.01808, 84.0051, 25.17239, -0.8579968, 0, 0, -0.5136551,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

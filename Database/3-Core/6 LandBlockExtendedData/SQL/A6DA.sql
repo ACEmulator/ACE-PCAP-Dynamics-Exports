@@ -5,22 +5,22 @@ VALUES (0x7A6DA001,  1154, 0xA6DA0013, 71.85287, 50.86129, 60.23118, 0.8954818, 
 /* @teleloc 0xA6DA0013 [71.852870 50.861290 60.231180] 0.895482 0.000000 0.000000 -0.445098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6DA001, 0x7A6DA002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A6DA001, 0x7A6DA003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A6DA001, 0x7A6DA004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A6DA001, 0x7A6DA005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A6DA001, 0x7A6DA006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A6DA001, 0x7A6DA007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA00B, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A6DA001, 0x7A6DA00C, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA00D, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A6DA001, 0x7A6DA00E, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7A6DA001, 0x7A6DA00F, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7A6DA001, 0x7A6DA010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6DA001, 0x7A6DA011, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7A6DA001, 0x7A6DA002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A6DA001, 0x7A6DA003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A6DA001, 0x7A6DA004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A6DA001, 0x7A6DA005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A6DA001, 0x7A6DA006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A6DA001, 0x7A6DA007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA00B, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A6DA001, 0x7A6DA00C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA00D, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A6DA001, 0x7A6DA00E, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7A6DA001, 0x7A6DA00F, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7A6DA001, 0x7A6DA010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6DA001, 0x7A6DA011, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6DA002,  4253, 0xA6DA0013, 71.85287, 50.86129, 60.23118, 0.8954818, 0, 0, -0.4450981,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -91,7 +91,7 @@ VALUES (0x7A6DA012,  1542, 0xA6DA000E, 35.29133, 123.6898, 49.38504, 0.09224036,
 /* @teleloc 0xA6DA000E [35.291330 123.689800 49.385040] 0.092240 0.000000 0.000000 -0.995737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6DA012, 0x7A6DA013, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7A6DA012, 0x7A6DA013, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6DA013,  8041, 0xA6DA000E, 35.29133, 123.6898, 49.38504, 0.09224036, 0, 0, -0.9957368,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

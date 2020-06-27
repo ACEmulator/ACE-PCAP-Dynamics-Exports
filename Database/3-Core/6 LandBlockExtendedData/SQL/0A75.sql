@@ -5,19 +5,19 @@ VALUES (0x70A75001,  1154, 0x0A750017, 53.14344, 159.4305, 0.45762, 0.9891506, 0
 /* @teleloc 0x0A750017 [53.143440 159.430500 0.457620] 0.989151 0.000000 0.000000 -0.146905 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A75001, 0x70A75002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70A75001, 0x70A75003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70A75001, 0x70A75004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70A75001, 0x70A75005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70A75001, 0x70A75006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x70A75001, 0x70A75007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70A75001, 0x70A75008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70A75001, 0x70A75009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70A75001, 0x70A7500A, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70A75001, 0x70A7500B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70A75001, 0x70A7500C, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70A75001, 0x70A7500D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70A75001, 0x70A7500E, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x70A75001, 0x70A75002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70A75001, 0x70A75003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70A75001, 0x70A75004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70A75001, 0x70A75005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70A75001, 0x70A75006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x70A75001, 0x70A75007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70A75001, 0x70A75008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70A75001, 0x70A75009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70A75001, 0x70A7500A, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70A75001, 0x70A7500B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70A75001, 0x70A7500C, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70A75001, 0x70A7500D, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70A75001, 0x70A7500E, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A75002, 22914, 0x0A750017, 53.14344, 159.4305, 0.45762, 0.9891506, 0, 0, -0.1469048,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

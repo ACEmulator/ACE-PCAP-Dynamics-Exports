@@ -5,19 +5,19 @@ VALUES (0x7264C001,  1154, 0x264C003C, 174.7293, 88.28549, 10.80432, 0.4048333, 
 /* @teleloc 0x264C003C [174.729300 88.285490 10.804320] 0.404833 0.000000 0.000000 -0.914391 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7264C001, 0x7264C002, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x7264C001, 0x7264C003, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264C001, 0x7264C004, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264C001, 0x7264C006, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C007, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C008, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264C001, 0x7264C009, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C00A, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C00B, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264C001, 0x7264C00C, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264C001, 0x7264C00D, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x7264C001, 0x7264C00E, '2019-02-10 00:00:00') /* Wretched */;
+VALUES (0x7264C001, 0x7264C002, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x7264C001, 0x7264C003, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264C001, 0x7264C004, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264C001, 0x7264C006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C008, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264C001, 0x7264C009, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C00A, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C00B, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264C001, 0x7264C00C, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264C001, 0x7264C00D, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x7264C001, 0x7264C00E, '2019-02-10 00:00:00') /* Wretched (25665) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264C002, 22903, 0x264C003C, 174.7293, 88.28549, 10.80432, 0.4048333, 0, 0, -0.9143905,  True, '2019-02-10 00:00:00'); /* Obliterator */

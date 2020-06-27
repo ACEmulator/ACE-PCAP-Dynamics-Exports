@@ -5,19 +5,19 @@ VALUES (0x7C887001,  1154, 0xC887000C, 35.28789, 93.09396, 26.0035, 0.878512, 0,
 /* @teleloc 0xC887000C [35.287890 93.093960 26.003500] 0.878512 0.000000 0.000000 -0.477720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C887001, 0x7C887002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C887001, 0x7C887003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C887001, 0x7C887004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C887001, 0x7C887005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C887001, 0x7C887006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C887001, 0x7C887007, '2019-02-10 00:00:00') /* Static */
-     , (0x7C887001, 0x7C887008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C887001, 0x7C887009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C887001, 0x7C88700A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C887001, 0x7C88700B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C887001, 0x7C88700C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C887001, 0x7C88700D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C887001, 0x7C88700E, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7C887001, 0x7C887002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C887001, 0x7C887003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C887001, 0x7C887004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C887001, 0x7C887005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C887001, 0x7C887006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C887001, 0x7C887007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C887001, 0x7C887008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C887001, 0x7C887009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C887001, 0x7C88700A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C887001, 0x7C88700B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C887001, 0x7C88700C, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C887001, 0x7C88700D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C887001, 0x7C88700E, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C887002,  1464, 0xC887000C, 35.28789, 93.09396, 26.0035, 0.878512, 0, 0, -0.4777203,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -76,8 +76,8 @@ VALUES (0x7C88700F,  1542, 0xC887000B, 34.94673, 54.62533, 26, 1, 0, 0, 0, False
 /* @teleloc 0xC887000B [34.946730 54.625330 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88700F, 0x7C887010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C88700F, 0x7C887011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C88700F, 0x7C887010, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7C88700F, 0x7C887011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C887010, 22568, 0xC887000B, 34.94673, 54.62533, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

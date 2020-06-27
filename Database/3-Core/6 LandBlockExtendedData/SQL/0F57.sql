@@ -5,28 +5,28 @@ VALUES (0x70F57001,  1154, 0x0F57000F, 42.45468, 166.2028, 14.46391, 0.9722469, 
 /* @teleloc 0x0F57000F [42.454680 166.202800 14.463910] 0.972247 0.000000 0.000000 -0.233957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F57001, 0x70F57002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70F57001, 0x70F57003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70F57001, 0x70F57004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70F57001, 0x70F57005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F57001, 0x70F57006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F57001, 0x70F57007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F57001, 0x70F57008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F57001, 0x70F57009, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70F57001, 0x70F5700A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F57001, 0x70F5700B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F57001, 0x70F5700C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F57001, 0x70F5700D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F57001, 0x70F5700E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F57001, 0x70F5700F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F57001, 0x70F57010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70F57001, 0x70F57011, '2019-02-10 00:00:00') /* Scoriscant */
-     , (0x70F57001, 0x70F57012, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F57001, 0x70F57013, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F57001, 0x70F57014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F57001, 0x70F57015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F57001, 0x70F57016, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F57001, 0x70F57017, '2019-02-10 00:00:00') /* Primeval Skeleton */;
+VALUES (0x70F57001, 0x70F57002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70F57001, 0x70F57003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70F57001, 0x70F57004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70F57001, 0x70F57005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F57001, 0x70F57006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F57001, 0x70F57007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F57001, 0x70F57008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F57001, 0x70F57009, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70F57001, 0x70F5700A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F57001, 0x70F5700B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F57001, 0x70F5700C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F57001, 0x70F5700D, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70F57001, 0x70F5700E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F57001, 0x70F5700F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F57001, 0x70F57010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70F57001, 0x70F57011, '2019-02-10 00:00:00') /* Scoriscant (19540) */
+     , (0x70F57001, 0x70F57012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F57001, 0x70F57013, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F57001, 0x70F57014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F57001, 0x70F57015, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F57001, 0x70F57016, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F57001, 0x70F57017, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F57002,  7127, 0x0F57000F, 42.45468, 166.2028, 14.46391, 0.9722469, 0, 0, -0.2339571,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
@@ -121,7 +121,7 @@ VALUES (0x70F57018,  1542, 0x0F57001F, 77.75023, 159.4355, 18, -4.371139E-08, 0,
 /* @teleloc 0x0F57001F [77.750230 159.435500 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F57018, 0x70F57019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F57018, 0x70F57019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F57019,  4380, 0x0F57001F, 77.75023, 159.4355, 18, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

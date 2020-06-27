@@ -5,23 +5,23 @@ VALUES (0x78EB2001,  1154, 0x8EB2003B, 174.5061, 54.65337, 63.56288, 0.6437916, 
 /* @teleloc 0x8EB2003B [174.506100 54.653370 63.562880] 0.643792 0.000000 0.000000 -0.765201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EB2001, 0x78EB2002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78EB2001, 0x78EB2003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EB2001, 0x78EB2004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EB2001, 0x78EB2005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EB2001, 0x78EB2006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78EB2001, 0x78EB2007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78EB2001, 0x78EB2008, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78EB2001, 0x78EB2009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78EB2001, 0x78EB200A, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78EB2001, 0x78EB200B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78EB2001, 0x78EB200C, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78EB2001, 0x78EB200D, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x78EB2001, 0x78EB200E, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x78EB2001, 0x78EB200F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EB2001, 0x78EB2010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EB2001, 0x78EB2011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78EB2001, 0x78EB2012, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x78EB2001, 0x78EB2002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78EB2001, 0x78EB2003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EB2001, 0x78EB2004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EB2001, 0x78EB2005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EB2001, 0x78EB2006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78EB2001, 0x78EB2007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78EB2001, 0x78EB2008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78EB2001, 0x78EB2009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78EB2001, 0x78EB200A, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78EB2001, 0x78EB200B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78EB2001, 0x78EB200C, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78EB2001, 0x78EB200D, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x78EB2001, 0x78EB200E, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x78EB2001, 0x78EB200F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EB2001, 0x78EB2010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EB2001, 0x78EB2011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78EB2001, 0x78EB2012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EB2002, 14800, 0x8EB2003B, 174.5061, 54.65337, 63.56288, 0.6437916, 0, 0, -0.7652009,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

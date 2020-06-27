@@ -21,49 +21,49 @@ VALUES (0x70C62029,  1154, 0x0C62001C, 80.30946, 93.26214, 15.38982, 0.8660254, 
 /* @teleloc 0x0C62001C [80.309460 93.262140 15.389820] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C62029, 0x70C6202A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70C62029, 0x70C6202B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C62029, 0x70C6202C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C62029, 0x70C6202D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C62029, 0x70C6202E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C62029, 0x70C6202F, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C62029, 0x70C62030, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C62029, 0x70C62031, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C62029, 0x70C62032, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C62029, 0x70C62033, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C62029, 0x70C62034, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70C62029, 0x70C62035, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62036, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */
-     , (0x70C62029, 0x70C62037, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */
-     , (0x70C62029, 0x70C62038, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x70C62029, 0x70C62039, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x70C62029, 0x70C6203A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C62029, 0x70C6203B, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C62029, 0x70C6203C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C62029, 0x70C6203D, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C6203E, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */
-     , (0x70C62029, 0x70C6203F, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */
-     , (0x70C62029, 0x70C62040, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */
-     , (0x70C62029, 0x70C62041, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x70C62029, 0x70C62042, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62043, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62044, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62045, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62046, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62047, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x70C62029, 0x70C62048, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x70C62029, 0x70C62049, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x70C62029, 0x70C6204A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C62029, 0x70C6204B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C62029, 0x70C6204C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C62029, 0x70C6204D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C62029, 0x70C6204E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C62029, 0x70C6204F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C62029, 0x70C62050, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C62029, 0x70C62051, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C62029, 0x70C62052, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62053, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x70C62029, 0x70C62054, '2019-02-10 00:00:00') /* Skeletal Swashbuckler */;
+VALUES (0x70C62029, 0x70C6202A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70C62029, 0x70C6202B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C62029, 0x70C6202C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C62029, 0x70C6202D, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C62029, 0x70C6202E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C62029, 0x70C6202F, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C62029, 0x70C62030, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C62029, 0x70C62031, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C62029, 0x70C62032, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C62029, 0x70C62033, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C62029, 0x70C62034, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70C62029, 0x70C62035, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62036, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C62037, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C62038, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x70C62029, 0x70C62039, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x70C62029, 0x70C6203A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C62029, 0x70C6203B, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C62029, 0x70C6203C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C62029, 0x70C6203D, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C6203E, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C6203F, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C62040, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C62041, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x70C62029, 0x70C62042, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62043, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62044, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62045, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62046, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62047, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x70C62029, 0x70C62048, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x70C62029, 0x70C62049, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x70C62029, 0x70C6204A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C62029, 0x70C6204B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C62029, 0x70C6204C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C62029, 0x70C6204D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C62029, 0x70C6204E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C62029, 0x70C6204F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C62029, 0x70C62050, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C62029, 0x70C62051, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C62029, 0x70C62052, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62053, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x70C62029, 0x70C62054, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6202A,  7982, 0x0C62001C, 80.30946, 93.26214, 15.38982, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -242,7 +242,7 @@ VALUES (0x70C62055,  1542, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666,
 /* @teleloc 0x0C620024 [105.389800 95.258510 18.526310] -0.678367 0.000000 0.000000 -0.734724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C62055, 0x70C62056, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70C62055, 0x70C62056, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C62056,  9288, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666, 0, 0, -0.7347236,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

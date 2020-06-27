@@ -5,14 +5,14 @@ VALUES (0x7B49B001,  1154, 0xB49B001C, 75.60692, 89.68097, 55.47591, 0.9712868, 
 /* @teleloc 0xB49B001C [75.606920 89.680970 55.475910] 0.971287 0.000000 0.000000 -0.237912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B49B001, 0x7B49B002, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B49B001, 0x7B49B003, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B49B001, 0x7B49B004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B49B001, 0x7B49B005, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B49B001, 0x7B49B006, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B49B001, 0x7B49B007, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B49B001, 0x7B49B008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B49B001, 0x7B49B009, '2019-02-10 00:00:00') /* Mite Squib */;
+VALUES (0x7B49B001, 0x7B49B002, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B49B001, 0x7B49B003, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B49B001, 0x7B49B004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B49B001, 0x7B49B005, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B49B001, 0x7B49B006, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B49B001, 0x7B49B007, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B49B001, 0x7B49B008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B49B001, 0x7B49B009, '2019-02-10 00:00:00') /* Mite Squib (209) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B49B002,  6535, 0xB49B001C, 75.60692, 89.68097, 55.47591, 0.9712868, 0, 0, -0.2379116,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */

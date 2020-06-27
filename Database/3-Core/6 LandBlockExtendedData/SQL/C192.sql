@@ -5,12 +5,12 @@ VALUES (0x7C192001,  1154, 0xC192001D, 75.79874, 118.8797, 4.420418, -0.4311833,
 /* @teleloc 0xC192001D [75.798740 118.879700 4.420418] -0.431183 0.000000 0.000000 -0.902264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C192001, 0x7C192002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C192001, 0x7C192003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C192001, 0x7C192004, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C192001, 0x7C192005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C192001, 0x7C192006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C192001, 0x7C192007, '2019-02-10 00:00:00') /* Spiny Armoredillo */;
+VALUES (0x7C192001, 0x7C192002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C192001, 0x7C192003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C192001, 0x7C192004, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C192001, 0x7C192005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C192001, 0x7C192006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C192001, 0x7C192007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C192002,   180, 0xC192001D, 75.79874, 118.8797, 4.420418, -0.4311833, 0, 0, -0.9022644,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */

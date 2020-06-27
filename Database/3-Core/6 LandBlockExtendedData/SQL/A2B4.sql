@@ -5,24 +5,24 @@ VALUES (0x7A2B4001,  1154, 0xA2B4003C, 172.6212, 95.57822, 102.813, 0.9238795, 0
 /* @teleloc 0xA2B4003C [172.621200 95.578220 102.813000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B4001, 0x7A2B4002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B4001, 0x7A2B4003, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A2B4001, 0x7A2B4004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A2B4001, 0x7A2B4005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A2B4001, 0x7A2B4006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B4001, 0x7A2B4007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B4001, 0x7A2B4008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B4001, 0x7A2B4009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A2B4001, 0x7A2B400A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A2B4001, 0x7A2B400B, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A2B4001, 0x7A2B400C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B4001, 0x7A2B400D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B4001, 0x7A2B400E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7A2B4001, 0x7A2B400F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A2B4001, 0x7A2B4010, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A2B4001, 0x7A2B4011, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A2B4001, 0x7A2B4012, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A2B4001, 0x7A2B4013, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7A2B4001, 0x7A2B4002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B4001, 0x7A2B4003, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A2B4001, 0x7A2B4004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A2B4001, 0x7A2B4005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A2B4001, 0x7A2B4006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B4001, 0x7A2B4007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B4001, 0x7A2B4008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B4001, 0x7A2B4009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A2B4001, 0x7A2B400A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A2B4001, 0x7A2B400B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A2B4001, 0x7A2B400C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B4001, 0x7A2B400D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B4001, 0x7A2B400E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7A2B4001, 0x7A2B400F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A2B4001, 0x7A2B4010, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A2B4001, 0x7A2B4011, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A2B4001, 0x7A2B4012, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A2B4001, 0x7A2B4013, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B4002,   182, 0xA2B4003C, 172.6212, 95.57822, 102.813, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -101,8 +101,8 @@ VALUES (0x7A2B4014,  1542, 0xA2B40021, 117.5459, 5.939146, 102.2904, 0.9990482, 
 /* @teleloc 0xA2B40021 [117.545900 5.939146 102.290400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B4014, 0x7A2B4015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A2B4014, 0x7A2B4016, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7A2B4014, 0x7A2B4015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A2B4014, 0x7A2B4016, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B4015,  4179, 0xA2B40021, 117.5459, 5.939146, 102.2904, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

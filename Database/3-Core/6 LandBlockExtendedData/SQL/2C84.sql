@@ -5,27 +5,27 @@ VALUES (0x72C84001,  1154, 0x2C840004, 14.51892, 80.19849, 203.4261, -0.8480541,
 /* @teleloc 0x2C840004 [14.518920 80.198490 203.426100] -0.848054 0.000000 0.000000 -0.529910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C84001, 0x72C84002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C84001, 0x72C84003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C84001, 0x72C84004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72C84001, 0x72C84005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72C84001, 0x72C84006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72C84001, 0x72C84007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72C84001, 0x72C84008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72C84001, 0x72C84009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72C84001, 0x72C8400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72C84001, 0x72C8400B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72C84001, 0x72C8400C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72C84001, 0x72C8400D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72C84001, 0x72C8400E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72C84001, 0x72C8400F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C84001, 0x72C84010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C84001, 0x72C84011, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C84001, 0x72C84012, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72C84001, 0x72C84013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C84001, 0x72C84014, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72C84001, 0x72C84015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72C84001, 0x72C84016, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72C84001, 0x72C84002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C84001, 0x72C84003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C84001, 0x72C84004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72C84001, 0x72C84005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72C84001, 0x72C84006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72C84001, 0x72C84007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72C84001, 0x72C84008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72C84001, 0x72C84009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72C84001, 0x72C8400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72C84001, 0x72C8400B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72C84001, 0x72C8400C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72C84001, 0x72C8400D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72C84001, 0x72C8400E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72C84001, 0x72C8400F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C84001, 0x72C84010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C84001, 0x72C84011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C84001, 0x72C84012, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72C84001, 0x72C84013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C84001, 0x72C84014, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72C84001, 0x72C84015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72C84001, 0x72C84016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C84002, 36829, 0x2C840004, 14.51892, 80.19849, 203.4261, -0.8480541, 0, 0, -0.5299096,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -116,7 +116,7 @@ VALUES (0x72C84017,  1542, 0x2C84000C, 32.74444, 93.10036, 208.2033, 1, 0, 0, 0,
 /* @teleloc 0x2C84000C [32.744440 93.100360 208.203300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C84017, 0x72C84018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72C84017, 0x72C84018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C84018,  4380, 0x2C84000C, 32.74444, 93.10036, 208.2033, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

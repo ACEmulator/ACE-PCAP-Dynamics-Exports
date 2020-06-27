@@ -5,28 +5,28 @@ VALUES (0x7163F001,  1154, 0x163F0011, 61.47869, 11.97772, 4.15408, 0.893687, 0,
 /* @teleloc 0x163F0011 [61.478690 11.977720 4.154080] 0.893687 0.000000 0.000000 -0.448691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163F001, 0x7163F002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7163F001, 0x7163F003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7163F001, 0x7163F004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7163F001, 0x7163F005, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7163F001, 0x7163F006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7163F001, 0x7163F007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163F001, 0x7163F008, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7163F001, 0x7163F009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163F001, 0x7163F00A, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7163F001, 0x7163F00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7163F001, 0x7163F00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7163F001, 0x7163F00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7163F001, 0x7163F00E, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7163F001, 0x7163F00F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7163F001, 0x7163F010, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7163F001, 0x7163F011, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7163F001, 0x7163F012, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7163F001, 0x7163F013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7163F001, 0x7163F014, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7163F001, 0x7163F015, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7163F001, 0x7163F016, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7163F001, 0x7163F017, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x7163F001, 0x7163F002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7163F001, 0x7163F003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7163F001, 0x7163F004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7163F001, 0x7163F005, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7163F001, 0x7163F006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7163F001, 0x7163F007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163F001, 0x7163F008, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7163F001, 0x7163F009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163F001, 0x7163F00A, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7163F001, 0x7163F00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7163F001, 0x7163F00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7163F001, 0x7163F00D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7163F001, 0x7163F00E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7163F001, 0x7163F00F, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7163F001, 0x7163F010, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7163F001, 0x7163F011, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7163F001, 0x7163F012, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7163F001, 0x7163F013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7163F001, 0x7163F014, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7163F001, 0x7163F015, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7163F001, 0x7163F016, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7163F001, 0x7163F017, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163F002, 23489, 0x163F0011, 61.47869, 11.97772, 4.15408, 0.893687, 0, 0, -0.4486909,  True, '2019-02-10 00:00:00'); /* Virindi Consul */
@@ -121,7 +121,7 @@ VALUES (0x7163F018,  1542, 0x163F0004, 14.90588, 73.27074, -3.72529E-09, -4.3711
 /* @teleloc 0x163F0004 [14.905880 73.270740 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163F018, 0x7163F019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7163F018, 0x7163F019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163F019,  4380, 0x163F0004, 14.90588, 73.27074, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

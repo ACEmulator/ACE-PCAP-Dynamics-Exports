@@ -5,17 +5,17 @@ VALUES (0x73A38001,  1154, 0x3A380010, 31.72281, 189.077, 29.29169, 0.7071068, 0
 /* @teleloc 0x3A380010 [31.722810 189.077000 29.291690] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A38001, 0x73A38002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A38001, 0x73A38003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73A38001, 0x73A38004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73A38001, 0x73A38005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A38001, 0x73A38006, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x73A38001, 0x73A38007, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73A38001, 0x73A38008, '2019-02-10 00:00:00') /* Dire Champion Banderling */
-     , (0x73A38001, 0x73A38009, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73A38001, 0x73A3800A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73A38001, 0x73A3800B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x73A38001, 0x73A3800C, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x73A38001, 0x73A38002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A38001, 0x73A38003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73A38001, 0x73A38004, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73A38001, 0x73A38005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A38001, 0x73A38006, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x73A38001, 0x73A38007, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73A38001, 0x73A38008, '2019-02-10 00:00:00') /* Dire Champion Banderling (36817) */
+     , (0x73A38001, 0x73A38009, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x73A38001, 0x73A3800A, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73A38001, 0x73A3800B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x73A38001, 0x73A3800C, '2019-02-10 00:00:00') /* Virindi Consul (36861) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A38002, 36822, 0x3A380010, 31.72281, 189.077, 29.29169, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -66,8 +66,8 @@ VALUES (0x73A3800D,  1542, 0x3A380010, 31.60451, 191.544, 29.29008, -4.371139E-0
 /* @teleloc 0x3A380010 [31.604510 191.544000 29.290080] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A3800D, 0x73A3800E, '2019-02-10 00:00:00') /* Bones */
-     , (0x73A3800D, 0x73A3800F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73A3800D, 0x73A3800E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73A3800D, 0x73A3800F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A3800E,  4380, 0x3A380010, 31.60451, 191.544, 29.29008, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,15 +5,15 @@ VALUES (0x7BEDB001,  1154, 0xBEDB0001, 4.918207, 0.4698851, 75.92668, 0.7071068,
 /* @teleloc 0xBEDB0001 [4.918207 0.469885 75.926680] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEDB001, 0x7BEDB002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BEDB001, 0x7BEDB003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BEDB001, 0x7BEDB004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BEDB001, 0x7BEDB005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BEDB001, 0x7BEDB006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BEDB001, 0x7BEDB007, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BEDB001, 0x7BEDB008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BEDB001, 0x7BEDB009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BEDB001, 0x7BEDB00A, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7BEDB001, 0x7BEDB002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BEDB001, 0x7BEDB003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BEDB001, 0x7BEDB004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BEDB001, 0x7BEDB005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BEDB001, 0x7BEDB006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BEDB001, 0x7BEDB007, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BEDB001, 0x7BEDB008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BEDB001, 0x7BEDB009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BEDB001, 0x7BEDB00A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEDB002,  1758, 0xBEDB0001, 4.918207, 0.4698851, 75.92668, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

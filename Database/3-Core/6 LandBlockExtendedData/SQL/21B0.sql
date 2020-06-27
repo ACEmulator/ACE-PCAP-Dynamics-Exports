@@ -105,14 +105,14 @@ VALUES (0x721B0026,  1154, 0x21B00102, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 
 /* @teleloc 0x21B00102 [133.580000 83.620300 6.805000] -0.999438 0.000000 0.000000 0.033507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721B0026, 0x721B0027, '2019-02-10 00:00:00') /* Aun Arenura the Crafter */
-     , (0x721B0026, 0x721B0028, '2019-02-10 00:00:00') /* Turino Ribini */
-     , (0x721B0026, 0x721B0029, '2019-02-10 00:00:00') /* Aurten Rhell */
-     , (0x721B0026, 0x721B002A, '2019-02-10 00:00:00') /* Merlonna Farel the Collector */
-     , (0x721B0026, 0x721B002B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x721B0026, 0x721B002C, '2019-02-10 00:00:00') /* Otto Selino */
-     , (0x721B0026, 0x721B002D, '2019-02-10 00:00:00') /* Vettorio Bilcone */
-     , (0x721B0026, 0x721B002E, '2019-02-10 00:00:00') /* Salvito di Marden */;
+VALUES (0x721B0026, 0x721B0027, '2019-02-10 00:00:00') /* Aun Arenura the Crafter (29858) */
+     , (0x721B0026, 0x721B0028, '2019-02-10 00:00:00') /* Turino Ribini (32065) */
+     , (0x721B0026, 0x721B0029, '2019-02-10 00:00:00') /* Aurten Rhell (25672) */
+     , (0x721B0026, 0x721B002A, '2019-02-10 00:00:00') /* Merlonna Farel the Collector (11345) */
+     , (0x721B0026, 0x721B002B, '2019-02-10 00:00:00') /* Town Crier (30063) */
+     , (0x721B0026, 0x721B002C, '2019-02-10 00:00:00') /* Otto Selino (32066) */
+     , (0x721B0026, 0x721B002D, '2019-02-10 00:00:00') /* Vettorio Bilcone (32064) */
+     , (0x721B0026, 0x721B002E, '2019-02-10 00:00:00') /* Salvito di Marden (32075) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721B0027, 29858, 0x21B00102, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0.0335068,  True, '2019-02-10 00:00:00'); /* Aun Arenura the Crafter */

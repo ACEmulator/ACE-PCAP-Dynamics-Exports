@@ -5,19 +5,19 @@ VALUES (0x71BC6001,  1154, 0x1BC60002, 13.01923, 28.28736, 0.00999999, 0.7660445
 /* @teleloc 0x1BC60002 [13.019230 28.287360 0.010000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BC6001, 0x71BC6002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71BC6001, 0x71BC6003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71BC6001, 0x71BC6004, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BC6001, 0x71BC6005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x71BC6001, 0x71BC6006, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BC6001, 0x71BC6007, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71BC6001, 0x71BC6008, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71BC6001, 0x71BC6009, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71BC6001, 0x71BC600A, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71BC6001, 0x71BC600B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71BC6001, 0x71BC600C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71BC6001, 0x71BC600D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71BC6001, 0x71BC600E, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x71BC6001, 0x71BC6002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x71BC6001, 0x71BC6003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x71BC6001, 0x71BC6004, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BC6001, 0x71BC6005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x71BC6001, 0x71BC6006, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BC6001, 0x71BC6007, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71BC6001, 0x71BC6008, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71BC6001, 0x71BC6009, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71BC6001, 0x71BC600A, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71BC6001, 0x71BC600B, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71BC6001, 0x71BC600C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71BC6001, 0x71BC600D, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71BC6001, 0x71BC600E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC6002,  7507, 0x1BC60002, 13.01923, 28.28736, 0.00999999, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Coral Golem */

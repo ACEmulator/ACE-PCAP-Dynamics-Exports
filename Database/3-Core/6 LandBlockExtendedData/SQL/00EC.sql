@@ -13,41 +13,41 @@ VALUES (0x700EC044,  1154, 0x00EC0154, 290.254, -119.443, 0.004999995, 0.764842,
 /* @teleloc 0x00EC0154 [290.254000 -119.443000 0.005000] 0.764842 0.000000 0.000000 0.644218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EC044, 0x700EC045, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC046, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC047, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC048, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC049, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC04A, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC04B, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC04C, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC04D, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC04E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC04F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC050, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC051, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC052, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC053, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC054, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC055, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC056, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC057, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC058, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC059, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC05A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC05B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC05C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC05D, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC05E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC05F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC060, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC061, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC062, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC064, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700EC044, 0x700EC065, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC066, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x700EC044, 0x700EC067, '2019-02-10 00:00:00') /* Shroud Cabal Node-Leech */;
+VALUES (0x700EC044, 0x700EC045, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC046, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC047, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC048, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC049, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC04A, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC04B, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC04C, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC04D, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC04E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC04F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC050, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC051, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC052, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC053, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC054, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC055, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC056, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC057, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC058, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC059, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC05A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC05B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC05C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC05D, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC05E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC05F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC060, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC061, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC062, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC064, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700EC044, 0x700EC065, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC066, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x700EC044, 0x700EC067, '2019-02-10 00:00:00') /* Shroud Cabal Node-Leech (37097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EC045, 37098, 0x00EC0154, 290.254, -119.443, 0.004999995, 0.764842, 0, 0, 0.644218,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

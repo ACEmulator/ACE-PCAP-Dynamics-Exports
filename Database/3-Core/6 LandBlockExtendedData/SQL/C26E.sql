@@ -5,11 +5,11 @@ VALUES (0x7C26E001,  1154, 0xC26E0007, 10.37272, 156.7133, 59.1646, 0.9866487, 0
 /* @teleloc 0xC26E0007 [10.372720 156.713300 59.164600] 0.986649 0.000000 0.000000 -0.162863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26E001, 0x7C26E002, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7C26E001, 0x7C26E003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C26E001, 0x7C26E004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C26E001, 0x7C26E005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C26E001, 0x7C26E006, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x7C26E001, 0x7C26E002, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7C26E001, 0x7C26E003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C26E001, 0x7C26E004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C26E001, 0x7C26E005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C26E001, 0x7C26E006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C26E002,   237, 0xC26E0007, 10.37272, 156.7133, 59.1646, 0.9866487, 0, 0, -0.1628627,  True, '2019-02-10 00:00:00'); /* Virindi Master */
@@ -36,7 +36,7 @@ VALUES (0x7C26E007,  1542, 0xC26E001C, 89.2935, 78.83098, 60, 1, 0, 0, 0, False,
 /* @teleloc 0xC26E001C [89.293500 78.830980 60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26E007, 0x7C26E008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C26E007, 0x7C26E008, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C26E008, 22576, 0xC26E001C, 89.2935, 78.83098, 60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

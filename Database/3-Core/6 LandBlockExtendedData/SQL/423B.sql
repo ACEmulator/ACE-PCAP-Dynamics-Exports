@@ -5,14 +5,14 @@ VALUES (0x7423B001,  1154, 0x423B0013, 60.72663, 64.11116, 100.0891, 0.7071068, 
 /* @teleloc 0x423B0013 [60.726630 64.111160 100.089100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7423B001, 0x7423B002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7423B001, 0x7423B003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7423B001, 0x7423B004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7423B001, 0x7423B005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7423B001, 0x7423B006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7423B001, 0x7423B007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7423B001, 0x7423B008, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7423B001, 0x7423B009, '2019-02-10 00:00:00') /* Guruk Miscreant */;
+VALUES (0x7423B001, 0x7423B002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7423B001, 0x7423B003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7423B001, 0x7423B004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7423B001, 0x7423B005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7423B001, 0x7423B006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7423B001, 0x7423B007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7423B001, 0x7423B008, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7423B001, 0x7423B009, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7423B002, 36855, 0x423B0013, 60.72663, 64.11116, 100.0891, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -51,7 +51,7 @@ VALUES (0x7423B00A,  1542, 0x423B0024, 107.5127, 82.89716, 89.99784, 1, 0, 0, 0,
 /* @teleloc 0x423B0024 [107.512700 82.897160 89.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7423B00A, 0x7423B00B, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7423B00A, 0x7423B00B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7423B00B, 31445, 0x423B0024, 107.5127, 82.89716, 89.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

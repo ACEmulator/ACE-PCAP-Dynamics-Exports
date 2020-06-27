@@ -5,14 +5,14 @@ VALUES (0x799E1001,  1154, 0x99E1003E, 174.6284, 125.916, 161.9193, 0.8165869, 0
 /* @teleloc 0x99E1003E [174.628400 125.916000 161.919300] 0.816587 0.000000 0.000000 -0.577223 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799E1001, 0x799E1002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x799E1001, 0x799E1003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x799E1001, 0x799E1004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x799E1001, 0x799E1005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x799E1001, 0x799E1006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x799E1001, 0x799E1007, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x799E1001, 0x799E1008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x799E1001, 0x799E1009, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x799E1001, 0x799E1002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x799E1001, 0x799E1003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x799E1001, 0x799E1004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x799E1001, 0x799E1005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x799E1001, 0x799E1006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x799E1001, 0x799E1007, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x799E1001, 0x799E1008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x799E1001, 0x799E1009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799E1002, 23082, 0x99E1003E, 174.6284, 125.916, 161.9193, 0.8165869, 0, 0, -0.5772225,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

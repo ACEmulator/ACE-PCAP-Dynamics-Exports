@@ -5,11 +5,11 @@ VALUES (0x76417001,  1154, 0x64170009, 47.73465, 12.78077, 54.32798, 0.9238795, 
 /* @teleloc 0x64170009 [47.734650 12.780770 54.327980] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76417001, 0x76417002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76417001, 0x76417003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76417001, 0x76417004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x76417001, 0x76417005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x76417001, 0x76417006, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */;
+VALUES (0x76417001, 0x76417002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76417001, 0x76417003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76417001, 0x76417004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x76417001, 0x76417005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x76417001, 0x76417006, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76417002,  7090, 0x64170009, 47.73465, 12.78077, 54.32798, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

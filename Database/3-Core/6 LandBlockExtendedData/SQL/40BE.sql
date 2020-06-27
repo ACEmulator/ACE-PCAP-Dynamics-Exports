@@ -5,17 +5,17 @@ VALUES (0x740BE001,  1154, 0x40BE0015, 59.43865, 106.9318, 18.85066, -0.04376829
 /* @teleloc 0x40BE0015 [59.438650 106.931800 18.850660] -0.043768 0.000000 0.000000 -0.999042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BE001, 0x740BE002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x740BE001, 0x740BE003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x740BE001, 0x740BE004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x740BE001, 0x740BE005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x740BE001, 0x740BE006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x740BE001, 0x740BE007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x740BE001, 0x740BE008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x740BE001, 0x740BE009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x740BE001, 0x740BE00A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x740BE001, 0x740BE00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BE001, 0x740BE00C, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x740BE001, 0x740BE002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x740BE001, 0x740BE003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x740BE001, 0x740BE004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x740BE001, 0x740BE005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x740BE001, 0x740BE006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x740BE001, 0x740BE007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x740BE001, 0x740BE008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x740BE001, 0x740BE009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x740BE001, 0x740BE00A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x740BE001, 0x740BE00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BE001, 0x740BE00C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BE002,  9253, 0x40BE0015, 59.43865, 106.9318, 18.85066, -0.04376829, 0, 0, -0.9990417,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

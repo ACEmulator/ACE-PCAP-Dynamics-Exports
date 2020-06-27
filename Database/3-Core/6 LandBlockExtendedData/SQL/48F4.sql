@@ -5,16 +5,16 @@ VALUES (0x748F4001,  1154, 0x48F4000B, 24.84389, 68.35416, -0.895, 0.5875418, 0,
 /* @teleloc 0x48F4000B [24.843890 68.354160 -0.895000] 0.587542 0.000000 0.000000 -0.809194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748F4001, 0x748F4002, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x748F4001, 0x748F4003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x748F4001, 0x748F4004, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x748F4001, 0x748F4005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x748F4001, 0x748F4006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x748F4001, 0x748F4007, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x748F4001, 0x748F4008, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x748F4001, 0x748F4009, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x748F4001, 0x748F400A, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x748F4001, 0x748F400B, '2019-02-10 00:00:00') /* Royal Thaumaturge */;
+VALUES (0x748F4001, 0x748F4002, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x748F4001, 0x748F4003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x748F4001, 0x748F4004, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x748F4001, 0x748F4005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x748F4001, 0x748F4006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x748F4001, 0x748F4007, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x748F4001, 0x748F4008, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x748F4001, 0x748F4009, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x748F4001, 0x748F400A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x748F4001, 0x748F400B, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748F4002, 29302, 0x48F4000B, 24.84389, 68.35416, -0.895, 0.5875418, 0, 0, -0.8091938,  True, '2019-02-10 00:00:00'); /* Viamontian Counselor */

@@ -5,17 +5,17 @@ VALUES (0x76310001,  1154, 0x6310000B, 41.57539, 67.27845, 12.52788, 0.3991686, 
 /* @teleloc 0x6310000B [41.575390 67.278450 12.527880] 0.399169 0.000000 0.000000 -0.916878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76310001, 0x76310002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x76310001, 0x76310003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x76310001, 0x76310004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x76310001, 0x76310005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76310001, 0x76310006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x76310001, 0x76310007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x76310001, 0x76310008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x76310001, 0x76310009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x76310001, 0x7631000A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x76310001, 0x7631000B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x76310001, 0x7631000C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x76310001, 0x76310002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x76310001, 0x76310003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x76310001, 0x76310004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x76310001, 0x76310005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76310001, 0x76310006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x76310001, 0x76310007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x76310001, 0x76310008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x76310001, 0x76310009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x76310001, 0x7631000A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x76310001, 0x7631000B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x76310001, 0x7631000C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76310002,  4255, 0x6310000B, 41.57539, 67.27845, 12.52788, 0.3991686, 0, 0, -0.9168775,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -66,7 +66,7 @@ VALUES (0x7631000D,  1542, 0x6310003A, 190.7869, 43.16311, 3.596926, 0.7218136, 
 /* @teleloc 0x6310003A [190.786900 43.163110 3.596926] 0.721814 0.000000 0.000000 -0.692088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7631000D, 0x7631000E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7631000D, 0x7631000E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7631000E,  8644, 0x6310003A, 190.7869, 43.16311, 3.596926, 0.7218136, 0, 0, -0.6920875,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

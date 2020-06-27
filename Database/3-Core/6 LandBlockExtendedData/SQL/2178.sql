@@ -5,23 +5,23 @@ VALUES (0x72178001,  1154, 0x2178003F, 180.6935, 147.6223, 48.76594, 0.8030232, 
 /* @teleloc 0x2178003F [180.693500 147.622300 48.765940] 0.803023 0.000000 0.000000 -0.595948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72178001, 0x72178002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72178001, 0x72178003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72178001, 0x72178004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72178001, 0x72178005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72178001, 0x72178006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72178001, 0x72178007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72178001, 0x72178008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72178001, 0x72178009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72178001, 0x7217800A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72178001, 0x7217800B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72178001, 0x7217800C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72178001, 0x7217800D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72178001, 0x7217800E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72178001, 0x7217800F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72178001, 0x72178010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72178001, 0x72178011, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72178001, 0x72178012, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x72178001, 0x72178002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72178001, 0x72178003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72178001, 0x72178004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72178001, 0x72178005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72178001, 0x72178006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72178001, 0x72178007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72178001, 0x72178008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72178001, 0x72178009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72178001, 0x7217800A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72178001, 0x7217800B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72178001, 0x7217800C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72178001, 0x7217800D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72178001, 0x7217800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72178001, 0x7217800F, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72178001, 0x72178010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72178001, 0x72178011, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72178001, 0x72178012, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72178002, 24497, 0x2178003F, 180.6935, 147.6223, 48.76594, 0.8030232, 0, 0, -0.5959477,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -96,7 +96,7 @@ VALUES (0x72178013,  1542, 0x2178001E, 86.02075, 129.4823, 57.6218, 1, 0, 0, 0, 
 /* @teleloc 0x2178001E [86.020750 129.482300 57.621800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72178013, 0x72178014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72178013, 0x72178014, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72178014, 22571, 0x2178001E, 86.02075, 129.4823, 57.6218, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

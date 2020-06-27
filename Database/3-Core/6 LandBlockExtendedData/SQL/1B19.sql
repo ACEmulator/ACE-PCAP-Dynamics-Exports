@@ -5,13 +5,13 @@ VALUES (0x71B19001,  1154, 0x1B190005, 20.15603, 103.9137, 75.28782, -0.5826307,
 /* @teleloc 0x1B190005 [20.156030 103.913700 75.287820] -0.582631 0.000000 0.000000 -0.812737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B19001, 0x71B19002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71B19001, 0x71B19003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71B19001, 0x71B19004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B19001, 0x71B19005, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71B19001, 0x71B19006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B19001, 0x71B19007, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B19001, 0x71B19008, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x71B19001, 0x71B19002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71B19001, 0x71B19003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71B19001, 0x71B19004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71B19001, 0x71B19005, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71B19001, 0x71B19006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71B19001, 0x71B19007, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71B19001, 0x71B19008, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B19002, 30687, 0x1B190005, 20.15603, 103.9137, 75.28782, -0.5826307, 0, 0, -0.812737,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */

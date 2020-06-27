@@ -5,9 +5,9 @@ VALUES (0x7B815001,  1154, 0xB8150018, 70.14062, 188.0676, 70.8942, 0.5921077, 0
 /* @teleloc 0xB8150018 [70.140620 188.067600 70.894200] 0.592108 0.000000 0.000000 -0.805859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B815001, 0x7B815002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B815001, 0x7B815003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7B815001, 0x7B815004, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7B815001, 0x7B815002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B815001, 0x7B815003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7B815001, 0x7B815004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B815002, 23082, 0xB8150018, 70.14062, 188.0676, 70.8942, 0.5921077, 0, 0, -0.8058589,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

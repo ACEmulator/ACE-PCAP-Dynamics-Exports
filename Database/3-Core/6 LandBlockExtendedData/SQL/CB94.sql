@@ -5,12 +5,12 @@ VALUES (0x7CB94001,  1154, 0xCB940019, 85.21002, 19.70665, 34.37028, 0.5870669, 
 /* @teleloc 0xCB940019 [85.210020 19.706650 34.370280] 0.587067 0.000000 0.000000 -0.809538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB94001, 0x7CB94002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CB94001, 0x7CB94003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CB94001, 0x7CB94004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CB94001, 0x7CB94005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CB94001, 0x7CB94006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB94001, 0x7CB94007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7CB94001, 0x7CB94002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CB94001, 0x7CB94003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CB94001, 0x7CB94004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CB94001, 0x7CB94005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CB94001, 0x7CB94006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB94001, 0x7CB94007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB94002,  8014, 0xCB940019, 85.21002, 19.70665, 34.37028, 0.5870669, 0, 0, -0.8095384,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -41,7 +41,7 @@ VALUES (0x7CB94008,  1542, 0xCB940022, 119.9038, 28.07619, 30.35355, 1, 0, 0, 0,
 /* @teleloc 0xCB940022 [119.903800 28.076190 30.353550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB94008, 0x7CB94009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CB94008, 0x7CB94009, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB94009, 31443, 0xCB940022, 119.9038, 28.07619, 30.35355, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

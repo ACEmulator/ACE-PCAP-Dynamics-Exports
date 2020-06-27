@@ -5,17 +5,17 @@ VALUES (0x71BC1001,  1154, 0x1BC1002E, 139.6486, 142.6267, 38.63008, 0.2772359, 
 /* @teleloc 0x1BC1002E [139.648600 142.626700 38.630080] 0.277236 0.000000 0.000000 -0.960802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BC1001, 0x71BC1002, '2019-02-10 00:00:00') /* Eater */
-     , (0x71BC1001, 0x71BC1003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71BC1001, 0x71BC1004, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71BC1001, 0x71BC1005, '2019-02-10 00:00:00') /* Canescent Mattekar */
-     , (0x71BC1001, 0x71BC1006, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71BC1001, 0x71BC1007, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x71BC1001, 0x71BC1008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71BC1001, 0x71BC1009, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71BC1001, 0x71BC100A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71BC1001, 0x71BC100B, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71BC1001, 0x71BC100C, '2019-02-10 00:00:00') /* Kithless Siraluun */;
+VALUES (0x71BC1001, 0x71BC1002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x71BC1001, 0x71BC1003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71BC1001, 0x71BC1004, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71BC1001, 0x71BC1005, '2019-02-10 00:00:00') /* Canescent Mattekar (11539) */
+     , (0x71BC1001, 0x71BC1006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BC1001, 0x71BC1007, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x71BC1001, 0x71BC1008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x71BC1001, 0x71BC1009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71BC1001, 0x71BC100A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71BC1001, 0x71BC100B, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71BC1001, 0x71BC100C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC1002, 28640, 0x1BC1002E, 139.6486, 142.6267, 38.63008, 0.2772359, 0, 0, -0.9608019,  True, '2019-02-10 00:00:00'); /* Eater */

@@ -5,17 +5,17 @@ VALUES (0x721C0001,  1154, 0x21C00014, 49.7323, 84.91335, 100.1474, 0.7071068, 0
 /* @teleloc 0x21C00014 [49.732300 84.913350 100.147400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C0001, 0x721C0002, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x721C0001, 0x721C0003, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x721C0001, 0x721C0004, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x721C0001, 0x721C0005, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C0001, 0x721C0006, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C0001, 0x721C0007, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C0001, 0x721C0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C0001, 0x721C0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C0001, 0x721C000A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x721C0001, 0x721C000B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x721C0001, 0x721C000C, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x721C0001, 0x721C0002, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x721C0001, 0x721C0003, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x721C0001, 0x721C0004, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x721C0001, 0x721C0005, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C0001, 0x721C0006, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C0001, 0x721C0007, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C0001, 0x721C0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C0001, 0x721C0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C0001, 0x721C000A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x721C0001, 0x721C000B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x721C0001, 0x721C000C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C0002, 27710, 0x21C00014, 49.7323, 84.91335, 100.1474, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
@@ -66,8 +66,8 @@ VALUES (0x721C000D,  1542, 0x21C0000D, 32.21125, 102.6471, 100.7039, 1, 0, 0, 0,
 /* @teleloc 0x21C0000D [32.211250 102.647100 100.703900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C000D, 0x721C000E, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x721C000D, 0x721C000F, '2019-02-10 00:00:00') /* Shallow Hive Portal */;
+VALUES (0x721C000D, 0x721C000E, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x721C000D, 0x721C000F, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C000E, 27719, 0x21C0000D, 32.21125, 102.6471, 100.7039, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

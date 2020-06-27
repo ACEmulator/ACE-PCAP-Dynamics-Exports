@@ -5,14 +5,14 @@ VALUES (0x7A50F001,  1154, 0xA50F0004, 20.42986, 78.78831, 0.5663923, 0.7071068,
 /* @teleloc 0xA50F0004 [20.429860 78.788310 0.566392] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A50F001, 0x7A50F002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A50F001, 0x7A50F003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A50F001, 0x7A50F004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A50F001, 0x7A50F005, '2019-02-10 00:00:00') /* Banished Tumerok */
-     , (0x7A50F001, 0x7A50F006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A50F001, 0x7A50F007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A50F001, 0x7A50F008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A50F001, 0x7A50F009, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7A50F001, 0x7A50F002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A50F001, 0x7A50F003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A50F001, 0x7A50F004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A50F001, 0x7A50F005, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x7A50F001, 0x7A50F006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A50F001, 0x7A50F007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A50F001, 0x7A50F008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A50F001, 0x7A50F009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A50F002,  7988, 0xA50F0004, 20.42986, 78.78831, 0.5663923, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

@@ -5,18 +5,18 @@ VALUES (0x73B96001,  1154, 0x3B960039, 183.774, 16.03331, 9.381498, 0.7787489, 0
 /* @teleloc 0x3B960039 [183.774000 16.033310 9.381498] 0.778749 0.000000 0.000000 -0.627336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B96001, 0x73B96002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73B96001, 0x73B96003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73B96001, 0x73B96004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73B96001, 0x73B96005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B96001, 0x73B96006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B96001, 0x73B96007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B96001, 0x73B96008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B96001, 0x73B96009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73B96001, 0x73B9600A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73B96001, 0x73B9600B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B96001, 0x73B9600C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B96001, 0x73B9600D, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x73B96001, 0x73B96002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73B96001, 0x73B96003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73B96001, 0x73B96004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73B96001, 0x73B96005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B96001, 0x73B96006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B96001, 0x73B96007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B96001, 0x73B96008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B96001, 0x73B96009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73B96001, 0x73B9600A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73B96001, 0x73B9600B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B96001, 0x73B9600C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B96001, 0x73B9600D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B96002, 36829, 0x3B960039, 183.774, 16.03331, 9.381498, 0.7787489, 0, 0, -0.6273358,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

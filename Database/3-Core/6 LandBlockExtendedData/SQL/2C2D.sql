@@ -5,20 +5,20 @@ VALUES (0x72C2D001,  1154, 0x2C2D0010, 28.07329, 179.6955, 95.65851, 0.9097947, 
 /* @teleloc 0x2C2D0010 [28.073290 179.695500 95.658510] 0.909795 0.000000 0.000000 -0.415058 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C2D001, 0x72C2D002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72C2D001, 0x72C2D003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72C2D001, 0x72C2D004, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72C2D001, 0x72C2D005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C2D001, 0x72C2D006, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72C2D001, 0x72C2D007, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72C2D001, 0x72C2D008, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72C2D001, 0x72C2D009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72C2D001, 0x72C2D00A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72C2D001, 0x72C2D00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72C2D001, 0x72C2D00C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C2D001, 0x72C2D00D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72C2D001, 0x72C2D00E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C2D001, 0x72C2D00F, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x72C2D001, 0x72C2D002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72C2D001, 0x72C2D003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72C2D001, 0x72C2D004, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72C2D001, 0x72C2D005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C2D001, 0x72C2D006, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72C2D001, 0x72C2D007, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72C2D001, 0x72C2D008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72C2D001, 0x72C2D009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72C2D001, 0x72C2D00A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72C2D001, 0x72C2D00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72C2D001, 0x72C2D00C, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C2D001, 0x72C2D00D, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72C2D001, 0x72C2D00E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72C2D001, 0x72C2D00F, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C2D002, 36845, 0x2C2D0010, 28.07329, 179.6955, 95.65851, 0.9097947, 0, 0, -0.4150584,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -81,7 +81,7 @@ VALUES (0x72C2D010,  1542, 0x2C2D002F, 141.7794, 151.424, 108.0635, 1, 0, 0, 0, 
 /* @teleloc 0x2C2D002F [141.779400 151.424000 108.063500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C2D010, 0x72C2D011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72C2D010, 0x72C2D011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C2D011,  4179, 0x2C2D002F, 141.7794, 151.424, 108.0635, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

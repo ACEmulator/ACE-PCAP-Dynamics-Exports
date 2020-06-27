@@ -5,30 +5,30 @@ VALUES (0x743DC001,  1154, 0x43DC0030, 138.3261, 188.2177, 42.00941, -0.1138854,
 /* @teleloc 0x43DC0030 [138.326100 188.217700 42.009410] -0.113885 0.000000 0.000000 -0.993494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DC001, 0x743DC002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x743DC001, 0x743DC003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x743DC001, 0x743DC004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743DC001, 0x743DC005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x743DC001, 0x743DC006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743DC001, 0x743DC007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x743DC001, 0x743DC008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x743DC001, 0x743DC009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743DC001, 0x743DC00A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743DC001, 0x743DC00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743DC001, 0x743DC00C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x743DC001, 0x743DC00D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x743DC001, 0x743DC00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x743DC001, 0x743DC00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x743DC001, 0x743DC010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x743DC001, 0x743DC011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x743DC001, 0x743DC012, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743DC001, 0x743DC013, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x743DC001, 0x743DC014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743DC001, 0x743DC015, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743DC001, 0x743DC016, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x743DC001, 0x743DC017, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DC001, 0x743DC018, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743DC001, 0x743DC019, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x743DC001, 0x743DC002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x743DC001, 0x743DC003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x743DC001, 0x743DC004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743DC001, 0x743DC005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x743DC001, 0x743DC006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743DC001, 0x743DC007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x743DC001, 0x743DC008, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x743DC001, 0x743DC009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743DC001, 0x743DC00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743DC001, 0x743DC00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743DC001, 0x743DC00C, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x743DC001, 0x743DC00D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x743DC001, 0x743DC00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x743DC001, 0x743DC00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x743DC001, 0x743DC010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x743DC001, 0x743DC011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x743DC001, 0x743DC012, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743DC001, 0x743DC013, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x743DC001, 0x743DC014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743DC001, 0x743DC015, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743DC001, 0x743DC016, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x743DC001, 0x743DC017, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DC001, 0x743DC018, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743DC001, 0x743DC019, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DC002,  9264, 0x43DC0030, 138.3261, 188.2177, 42.00941, -0.1138854, 0, 0, -0.9934939,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -131,9 +131,9 @@ VALUES (0x743DC01A,  1542, 0x43DC001A, 78.12947, 25.29854, 31.89179, 1, 0, 0, 0,
 /* @teleloc 0x43DC001A [78.129470 25.298540 31.891790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DC01A, 0x743DC01B, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x743DC01A, 0x743DC01C, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x743DC01A, 0x743DC01D, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x743DC01A, 0x743DC01B, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x743DC01A, 0x743DC01C, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x743DC01A, 0x743DC01D, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DC01B,  8999, 0x43DC001A, 78.12947, 25.29854, 31.89179, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

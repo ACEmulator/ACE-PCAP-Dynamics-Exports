@@ -5,28 +5,28 @@ VALUES (0x7DD4F001,  1154, 0xDD4F0018, 53.72141, 183.3044, 25.20642, -0.999801, 
 /* @teleloc 0xDD4F0018 [53.721410 183.304400 25.206420] -0.999801 0.000000 0.000000 -0.019947 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD4F001, 0x7DD4F002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DD4F001, 0x7DD4F003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DD4F001, 0x7DD4F004, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DD4F001, 0x7DD4F005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DD4F001, 0x7DD4F006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DD4F001, 0x7DD4F007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DD4F001, 0x7DD4F008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7DD4F001, 0x7DD4F009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD4F001, 0x7DD4F00A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD4F001, 0x7DD4F00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DD4F001, 0x7DD4F00C, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7DD4F001, 0x7DD4F00D, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD4F001, 0x7DD4F00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DD4F001, 0x7DD4F00F, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD4F001, 0x7DD4F010, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD4F001, 0x7DD4F011, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD4F001, 0x7DD4F012, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD4F001, 0x7DD4F013, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DD4F001, 0x7DD4F014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD4F001, 0x7DD4F015, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7DD4F001, 0x7DD4F016, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DD4F001, 0x7DD4F017, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7DD4F001, 0x7DD4F002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DD4F001, 0x7DD4F003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DD4F001, 0x7DD4F004, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DD4F001, 0x7DD4F005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DD4F001, 0x7DD4F006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DD4F001, 0x7DD4F007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DD4F001, 0x7DD4F008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7DD4F001, 0x7DD4F009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD4F001, 0x7DD4F00A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD4F001, 0x7DD4F00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DD4F001, 0x7DD4F00C, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7DD4F001, 0x7DD4F00D, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD4F001, 0x7DD4F00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DD4F001, 0x7DD4F00F, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD4F001, 0x7DD4F010, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD4F001, 0x7DD4F011, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD4F001, 0x7DD4F012, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD4F001, 0x7DD4F013, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DD4F001, 0x7DD4F014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD4F001, 0x7DD4F015, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7DD4F001, 0x7DD4F016, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DD4F001, 0x7DD4F017, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD4F002,   232, 0xDD4F0018, 53.72141, 183.3044, 25.20642, -0.999801, 0, 0, -0.01994683,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -121,7 +121,7 @@ VALUES (0x7DD4F018,  1542, 0xDD4F002B, 137.0454, 51.589, 22.39908, 0.9990482, 0,
 /* @teleloc 0xDD4F002B [137.045400 51.589000 22.399080] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD4F018, 0x7DD4F019, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7DD4F018, 0x7DD4F019, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD4F019,  6117, 0xDD4F002B, 137.0454, 51.589, 22.39908, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

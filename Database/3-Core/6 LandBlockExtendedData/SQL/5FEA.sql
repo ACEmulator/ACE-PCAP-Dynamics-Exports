@@ -5,38 +5,38 @@ VALUES (0x75FEA001,  1154, 0x5FEA0035, 158.8891, 106.0558, 0.7674943, 0.9366294,
 /* @teleloc 0x5FEA0035 [158.889100 106.055800 0.767494] 0.936629 0.000000 0.000000 -0.350322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FEA001, 0x75FEA002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75FEA001, 0x75FEA003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x75FEA001, 0x75FEA004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75FEA001, 0x75FEA005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75FEA001, 0x75FEA006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x75FEA001, 0x75FEA007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75FEA001, 0x75FEA008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75FEA001, 0x75FEA009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75FEA001, 0x75FEA00A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75FEA001, 0x75FEA00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75FEA001, 0x75FEA00C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75FEA001, 0x75FEA00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75FEA001, 0x75FEA00E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75FEA001, 0x75FEA00F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75FEA001, 0x75FEA010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75FEA001, 0x75FEA011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75FEA001, 0x75FEA012, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x75FEA001, 0x75FEA013, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75FEA001, 0x75FEA014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75FEA001, 0x75FEA015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75FEA001, 0x75FEA016, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x75FEA001, 0x75FEA017, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75FEA001, 0x75FEA018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75FEA001, 0x75FEA019, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75FEA001, 0x75FEA01A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75FEA001, 0x75FEA01B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FEA001, 0x75FEA01C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FEA001, 0x75FEA01D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x75FEA001, 0x75FEA01E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75FEA001, 0x75FEA01F, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x75FEA001, 0x75FEA020, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75FEA001, 0x75FEA021, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x75FEA001, 0x75FEA002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75FEA001, 0x75FEA003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x75FEA001, 0x75FEA004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75FEA001, 0x75FEA005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75FEA001, 0x75FEA006, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x75FEA001, 0x75FEA007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75FEA001, 0x75FEA008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75FEA001, 0x75FEA009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75FEA001, 0x75FEA00A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75FEA001, 0x75FEA00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75FEA001, 0x75FEA00C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75FEA001, 0x75FEA00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75FEA001, 0x75FEA00E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75FEA001, 0x75FEA00F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75FEA001, 0x75FEA010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75FEA001, 0x75FEA011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75FEA001, 0x75FEA012, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x75FEA001, 0x75FEA013, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75FEA001, 0x75FEA014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75FEA001, 0x75FEA015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75FEA001, 0x75FEA016, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x75FEA001, 0x75FEA017, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75FEA001, 0x75FEA018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75FEA001, 0x75FEA019, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75FEA001, 0x75FEA01A, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x75FEA001, 0x75FEA01B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FEA001, 0x75FEA01C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FEA001, 0x75FEA01D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x75FEA001, 0x75FEA01E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75FEA001, 0x75FEA01F, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x75FEA001, 0x75FEA020, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75FEA001, 0x75FEA021, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FEA002, 24320, 0x5FEA0035, 158.8891, 106.0558, 0.7674943, 0.9366294, 0, 0, -0.350322,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -171,11 +171,11 @@ VALUES (0x75FEA022,  1542, 0x5FEA0035, 159.7471, 108.6549, 0.859993, 0.9914449, 
 /* @teleloc 0x5FEA0035 [159.747100 108.654900 0.859993] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FEA022, 0x75FEA023, '2019-02-10 00:00:00') /* Bones */
-     , (0x75FEA022, 0x75FEA024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75FEA022, 0x75FEA025, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x75FEA022, 0x75FEA026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75FEA022, 0x75FEA027, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x75FEA022, 0x75FEA023, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75FEA022, 0x75FEA024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75FEA022, 0x75FEA025, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x75FEA022, 0x75FEA026, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x75FEA022, 0x75FEA027, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FEA023,  4380, 0x5FEA0035, 159.7471, 108.6549, 0.859993, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

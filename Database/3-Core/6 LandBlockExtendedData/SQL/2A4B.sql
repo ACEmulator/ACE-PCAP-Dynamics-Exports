@@ -5,11 +5,11 @@ VALUES (0x72A4B001,  1154, 0x2A4B0040, 178.5936, 190.8923, 52.71604, 0.5215787, 
 /* @teleloc 0x2A4B0040 [178.593600 190.892300 52.716040] 0.521579 0.000000 0.000000 -0.853203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4B001, 0x72A4B002, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4B001, 0x72A4B003, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72A4B001, 0x72A4B004, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72A4B001, 0x72A4B005, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72A4B001, 0x72A4B006, '2019-02-10 00:00:00') /* Fallen Drudge */;
+VALUES (0x72A4B001, 0x72A4B002, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4B001, 0x72A4B003, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72A4B001, 0x72A4B004, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72A4B001, 0x72A4B005, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72A4B001, 0x72A4B006, '2019-02-10 00:00:00') /* Fallen Drudge (30891) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4B002, 23549, 0x2A4B0040, 178.5936, 190.8923, 52.71604, 0.5215787, 0, 0, -0.8532032,  True, '2019-02-10 00:00:00'); /* Crystal Shard Sentinel */
@@ -36,7 +36,7 @@ VALUES (0x72A4B007,  1542, 0x2A4B0005, 19.197, 107.2446, 9.0617, 0.9322219, 0, 0
 /* @teleloc 0x2A4B0005 [19.197000 107.244600 9.061700] 0.932222 0.000000 0.000000 -0.361887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4B007, 0x72A4B008, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest */;
+VALUES (0x72A4B007, 0x72A4B008, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest (23085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4B008, 23085, 0x2A4B0005, 19.197, 107.2446, 9.0617, 0.9322219, 0, 0, -0.3618872,  True, '2019-02-10 00:00:00'); /* Reinforced Mahogany Chest */

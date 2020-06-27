@@ -5,28 +5,28 @@ VALUES (0x7BB97001,  1154, 0xBB970028, 102.7802, 180.0286, 3.862828, -0.3206354,
 /* @teleloc 0xBB970028 [102.780200 180.028600 3.862828] -0.320635 0.000000 0.000000 -0.947203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB97001, 0x7BB97002, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BB97001, 0x7BB97003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB97001, 0x7BB97004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BB97001, 0x7BB97005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB97001, 0x7BB97006, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BB97001, 0x7BB97007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BB97001, 0x7BB97008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BB97001, 0x7BB97009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BB97001, 0x7BB9700A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB97001, 0x7BB9700B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BB97001, 0x7BB9700C, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BB97001, 0x7BB9700D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BB97001, 0x7BB9700E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BB97001, 0x7BB9700F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB97001, 0x7BB97010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB97001, 0x7BB97011, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BB97001, 0x7BB97012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB97001, 0x7BB97013, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BB97001, 0x7BB97014, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB97001, 0x7BB97015, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BB97001, 0x7BB97016, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BB97001, 0x7BB97017, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7BB97001, 0x7BB97002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BB97001, 0x7BB97003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB97001, 0x7BB97004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BB97001, 0x7BB97005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB97001, 0x7BB97006, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BB97001, 0x7BB97007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BB97001, 0x7BB97008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BB97001, 0x7BB97009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BB97001, 0x7BB9700A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB97001, 0x7BB9700B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BB97001, 0x7BB9700C, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB97001, 0x7BB9700D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BB97001, 0x7BB9700E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BB97001, 0x7BB9700F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB97001, 0x7BB97010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB97001, 0x7BB97011, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BB97001, 0x7BB97012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB97001, 0x7BB97013, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BB97001, 0x7BB97014, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB97001, 0x7BB97015, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BB97001, 0x7BB97016, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BB97001, 0x7BB97017, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB97002,  1986, 0xBB970028, 102.7802, 180.0286, 3.862828, -0.3206354, 0, 0, -0.9472027,  True, '2019-02-10 00:00:00'); /* Water Wisp */
@@ -121,8 +121,8 @@ VALUES (0x7BB97018,  1542, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0,
 /* @teleloc 0xBB970027 [100.734900 161.933700 9.011045] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB97018, 0x7BB97019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BB97018, 0x7BB9701A, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7BB97018, 0x7BB97019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BB97018, 0x7BB9701A, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB97019,  4179, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

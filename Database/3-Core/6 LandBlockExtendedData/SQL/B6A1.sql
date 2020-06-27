@@ -5,32 +5,32 @@ VALUES (0x7B6A1001,  1154, 0xB6A1001C, 88.32211, 90.45496, 38.30204, -0.5356882,
 /* @teleloc 0xB6A1001C [88.322110 90.454960 38.302040] -0.535688 0.000000 0.000000 -0.844416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A1001, 0x7B6A1002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B6A1001, 0x7B6A1003, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B6A1001, 0x7B6A1004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B6A1001, 0x7B6A1005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B6A1001, 0x7B6A1006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A1001, 0x7B6A1007, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7B6A1001, 0x7B6A1008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B6A1001, 0x7B6A1009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B6A1001, 0x7B6A100A, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B6A1001, 0x7B6A100B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B6A1001, 0x7B6A100C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B6A1001, 0x7B6A100D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B6A1001, 0x7B6A100E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B6A1001, 0x7B6A100F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B6A1001, 0x7B6A1010, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B6A1001, 0x7B6A1011, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B6A1001, 0x7B6A1012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A1001, 0x7B6A1013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B6A1001, 0x7B6A1014, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B6A1001, 0x7B6A1015, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B6A1001, 0x7B6A1016, '2019-02-10 00:00:00') /* Static */
-     , (0x7B6A1001, 0x7B6A1017, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7B6A1001, 0x7B6A1018, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B6A1001, 0x7B6A1019, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B6A1001, 0x7B6A101A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B6A1001, 0x7B6A101B, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7B6A1001, 0x7B6A1002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B6A1001, 0x7B6A1003, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B6A1001, 0x7B6A1004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B6A1001, 0x7B6A1005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B6A1001, 0x7B6A1006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A1001, 0x7B6A1007, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7B6A1001, 0x7B6A1008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B6A1001, 0x7B6A1009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B6A1001, 0x7B6A100A, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B6A1001, 0x7B6A100B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B6A1001, 0x7B6A100C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B6A1001, 0x7B6A100D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B6A1001, 0x7B6A100E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B6A1001, 0x7B6A100F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B6A1001, 0x7B6A1010, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B6A1001, 0x7B6A1011, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B6A1001, 0x7B6A1012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A1001, 0x7B6A1013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B6A1001, 0x7B6A1014, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B6A1001, 0x7B6A1015, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B6A1001, 0x7B6A1016, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B6A1001, 0x7B6A1017, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B6A1001, 0x7B6A1018, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B6A1001, 0x7B6A1019, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B6A1001, 0x7B6A101A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B6A1001, 0x7B6A101B, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A1002,   223, 0xB6A1001C, 88.32211, 90.45496, 38.30204, -0.5356882, 0, 0, -0.8444158,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -141,7 +141,7 @@ VALUES (0x7B6A101C,  1542, 0xB6A1001D, 76.57801, 108.4925, 41.73092, 0.9990482, 
 /* @teleloc 0xB6A1001D [76.578010 108.492500 41.730920] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A101C, 0x7B6A101D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B6A101C, 0x7B6A101D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A101D,  4179, 0xB6A1001D, 76.57801, 108.4925, 41.73092, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

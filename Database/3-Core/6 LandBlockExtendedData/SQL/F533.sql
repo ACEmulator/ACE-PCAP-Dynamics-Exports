@@ -5,16 +5,16 @@ VALUES (0x7F533001,  1154, 0xF533002E, 139.4482, 137.0027, -0.08200002, 0.990092
 /* @teleloc 0xF533002E [139.448200 137.002700 -0.082000] 0.990093 0.000000 0.000000 -0.140417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F533001, 0x7F533002, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F533001, 0x7F533003, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F533001, 0x7F533004, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F533001, 0x7F533005, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F533001, 0x7F533006, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F533001, 0x7F533007, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F533001, 0x7F533008, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F533001, 0x7F533009, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F533001, 0x7F53300A, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F533001, 0x7F53300B, '2019-02-10 00:00:00') /* Blessed Moarsman */;
+VALUES (0x7F533001, 0x7F533002, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F533001, 0x7F533003, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F533001, 0x7F533004, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F533001, 0x7F533005, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F533001, 0x7F533006, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F533001, 0x7F533007, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F533001, 0x7F533008, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F533001, 0x7F533009, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F533001, 0x7F53300A, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F533001, 0x7F53300B, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F533002, 40300, 0xF533002E, 139.4482, 137.0027, -0.08200002, 0.9900925, 0, 0, -0.1404172,  True, '2019-02-10 00:00:00'); /* Blessed Moar */

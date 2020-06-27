@@ -5,9 +5,9 @@ VALUES (0x7B4AB001,  1154, 0xB4AB0011, 71.81447, 21.42247, 87.48911, 0.7071068, 
 /* @teleloc 0xB4AB0011 [71.814470 21.422470 87.489110] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4AB001, 0x7B4AB002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B4AB001, 0x7B4AB003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B4AB001, 0x7B4AB004, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7B4AB001, 0x7B4AB002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B4AB001, 0x7B4AB003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B4AB001, 0x7B4AB004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4AB002,  4109, 0xB4AB0011, 71.81447, 21.42247, 87.48911, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

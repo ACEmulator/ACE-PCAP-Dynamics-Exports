@@ -5,9 +5,9 @@ VALUES (0x7434B001,  1154, 0x434B000B, 27.45168, 58.18887, 18.85344, 0.8870109, 
 /* @teleloc 0x434B000B [27.451680 58.188870 18.853440] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7434B001, 0x7434B002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7434B001, 0x7434B003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7434B001, 0x7434B004, '2019-02-10 00:00:00') /* Desolation Moarsman */;
+VALUES (0x7434B001, 0x7434B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7434B001, 0x7434B003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7434B001, 0x7434B004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434B002,  4254, 0x434B000B, 27.45168, 58.18887, 18.85344, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -26,7 +26,7 @@ VALUES (0x7434B005,  1542, 0x434B0003, 22.64044, 59.34727, 19.77341, 1, 0, 0, 0,
 /* @teleloc 0x434B0003 [22.640440 59.347270 19.773410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7434B005, 0x7434B006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7434B005, 0x7434B006, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434B006, 22567, 0x434B0003, 22.64044, 59.34727, 19.77341, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

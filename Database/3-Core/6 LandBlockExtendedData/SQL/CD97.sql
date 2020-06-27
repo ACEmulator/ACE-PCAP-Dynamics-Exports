@@ -5,20 +5,20 @@ VALUES (0x7CD97001,  1154, 0xCD970014, 65.31206, 78.93493, 18.0055, 0.9724523, 0
 /* @teleloc 0xCD970014 [65.312060 78.934930 18.005500] 0.972452 0.000000 0.000000 -0.233102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD97001, 0x7CD97002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CD97001, 0x7CD97003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7CD97001, 0x7CD97004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CD97001, 0x7CD97005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CD97001, 0x7CD97006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD97001, 0x7CD97007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD97001, 0x7CD97008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD97001, 0x7CD97009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD97001, 0x7CD9700A, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD97001, 0x7CD9700B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD97001, 0x7CD9700C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD97001, 0x7CD9700D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD97001, 0x7CD9700E, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD97001, 0x7CD9700F, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7CD97001, 0x7CD97002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CD97001, 0x7CD97003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7CD97001, 0x7CD97004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CD97001, 0x7CD97005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CD97001, 0x7CD97006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD97001, 0x7CD97007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD97001, 0x7CD97008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD97001, 0x7CD97009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD97001, 0x7CD9700A, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD97001, 0x7CD9700B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD97001, 0x7CD9700C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD97001, 0x7CD9700D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD97001, 0x7CD9700E, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD97001, 0x7CD9700F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD97002,   229, 0xCD970014, 65.31206, 78.93493, 18.0055, 0.9724523, 0, 0, -0.2331018,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -81,7 +81,7 @@ VALUES (0x7CD97010,  1542, 0xCD97000C, 46.40593, 93.62221, 18.13222, 0.7660445, 
 /* @teleloc 0xCD97000C [46.405930 93.622210 18.132220] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD97010, 0x7CD97011, '2019-02-10 00:00:00') /* Gloves */;
+VALUES (0x7CD97010, 0x7CD97011, '2019-02-10 00:00:00') /* Gloves (121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD97011,   121, 0xCD97000C, 46.40593, 93.62221, 18.13222, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gloves */

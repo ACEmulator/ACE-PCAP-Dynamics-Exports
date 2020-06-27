@@ -5,8 +5,8 @@ VALUES (0x7AC3C001,  1154, 0xAC3C002D, 131.2992, 118.1864, 48.00687, 0.8659713, 
 /* @teleloc 0xAC3C002D [131.299200 118.186400 48.006870] 0.865971 0.000000 0.000000 -0.500094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC3C001, 0x7AC3C002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AC3C001, 0x7AC3C003, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7AC3C001, 0x7AC3C002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AC3C001, 0x7AC3C003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC3C002,  7345, 0xAC3C002D, 131.2992, 118.1864, 48.00687, 0.8659713, 0, 0, -0.5000938,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,13 +5,13 @@ VALUES (0x7162C001,  1154, 0x162C0001, 21.77728, 15.19832, 8.877323, 0.6439154, 
 /* @teleloc 0x162C0001 [21.777280 15.198320 8.877323] 0.643915 0.000000 0.000000 -0.765097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7162C001, 0x7162C002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7162C001, 0x7162C003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7162C001, 0x7162C004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7162C001, 0x7162C005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7162C001, 0x7162C006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7162C001, 0x7162C007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7162C001, 0x7162C008, '2019-02-10 00:00:00') /* Lacerator */;
+VALUES (0x7162C001, 0x7162C002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7162C001, 0x7162C003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7162C001, 0x7162C004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7162C001, 0x7162C005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7162C001, 0x7162C006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7162C001, 0x7162C007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7162C001, 0x7162C008, '2019-02-10 00:00:00') /* Lacerator (24957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7162C002,  7114, 0x162C0001, 21.77728, 15.19832, 8.877323, 0.6439154, 0, 0, -0.7650967,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -46,7 +46,7 @@ VALUES (0x7162C009,  1542, 0x162C0009, 24.30564, 20.65452, 9.73668, 0.635969, 0,
 /* @teleloc 0x162C0009 [24.305640 20.654520 9.736680] 0.635969 0.000000 0.000000 -0.771715 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7162C009, 0x7162C00A, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7162C009, 0x7162C00A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7162C00A,  9288, 0x162C0009, 24.30564, 20.65452, 9.73668, 0.635969, 0, 0, -0.7717146,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

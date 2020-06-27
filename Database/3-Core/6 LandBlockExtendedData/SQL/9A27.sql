@@ -5,12 +5,12 @@ VALUES (0x79A27001,  1154, 0x9A270036, 148.5868, 134.1926, 157.575, -0.1805799, 
 /* @teleloc 0x9A270036 [148.586800 134.192600 157.575000] -0.180580 0.000000 0.000000 -0.983560 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A27001, 0x79A27002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x79A27001, 0x79A27003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A27001, 0x79A27004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A27001, 0x79A27005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79A27001, 0x79A27006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79A27001, 0x79A27007, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x79A27001, 0x79A27002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x79A27001, 0x79A27003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A27001, 0x79A27004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A27001, 0x79A27005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79A27001, 0x79A27006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79A27001, 0x79A27007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A27002,  8141, 0x9A270036, 148.5868, 134.1926, 157.575, -0.1805799, 0, 0, -0.9835603,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -41,8 +41,8 @@ VALUES (0x79A27008,  1542, 0x9A270021, 101.3714, 11.37617, 140.2662, 0.9238795, 
 /* @teleloc 0x9A270021 [101.371400 11.376170 140.266200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A27008, 0x79A27009, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79A27008, 0x79A2700A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x79A27008, 0x79A27009, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79A27008, 0x79A2700A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A27009,  4180, 0x9A270021, 101.3714, 11.37617, 140.2662, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

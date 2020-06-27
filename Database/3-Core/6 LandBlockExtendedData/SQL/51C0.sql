@@ -5,9 +5,9 @@ VALUES (0x751C0001,  1154, 0x51C0001C, 73.00896, 72.90799, 0.008249998, -0.75944
 /* @teleloc 0x51C0001C [73.008960 72.907990 0.008250] -0.759442 0.000000 0.000000 -0.650576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x751C0001, 0x751C0002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x751C0001, 0x751C0003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x751C0001, 0x751C0004, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x751C0001, 0x751C0002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x751C0001, 0x751C0003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x751C0001, 0x751C0004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x751C0002,  4217, 0x51C0001C, 73.00896, 72.90799, 0.008249998, -0.7594416, 0, 0, -0.6505755,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

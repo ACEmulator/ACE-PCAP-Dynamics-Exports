@@ -5,19 +5,19 @@ VALUES (0x742C1001,  1154, 0x42C1003A, 176.5747, 31.34278, -0.8960001, 0.8870109
 /* @teleloc 0x42C1003A [176.574700 31.342780 -0.896000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742C1001, 0x742C1002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742C1001, 0x742C1003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742C1001, 0x742C1004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x742C1001, 0x742C1005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x742C1001, 0x742C1006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x742C1001, 0x742C1007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x742C1001, 0x742C1008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x742C1001, 0x742C1009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x742C1001, 0x742C100A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x742C1001, 0x742C100B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x742C1001, 0x742C100C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x742C1001, 0x742C100D, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x742C1001, 0x742C100E, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x742C1001, 0x742C1002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742C1001, 0x742C1003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742C1001, 0x742C1004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x742C1001, 0x742C1005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x742C1001, 0x742C1006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x742C1001, 0x742C1007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x742C1001, 0x742C1008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x742C1001, 0x742C1009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x742C1001, 0x742C100A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x742C1001, 0x742C100B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x742C1001, 0x742C100C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x742C1001, 0x742C100D, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x742C1001, 0x742C100E, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742C1002,  4254, 0x42C1003A, 176.5747, 31.34278, -0.8960001, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -76,8 +76,8 @@ VALUES (0x742C100F,  1542, 0x42C1003A, 175.5375, 43.19997, 0, -4.371139E-08, 0, 
 /* @teleloc 0x42C1003A [175.537500 43.199970 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742C100F, 0x742C1010, '2019-02-10 00:00:00') /* Bones */
-     , (0x742C100F, 0x742C1011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x742C100F, 0x742C1010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x742C100F, 0x742C1011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742C1010,  4380, 0x42C1003A, 175.5375, 43.19997, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

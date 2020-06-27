@@ -5,30 +5,30 @@ VALUES (0x71C14001,  1154, 0x1C14002F, 143.398, 161.942, 4.964049, 0.925652, 0, 
 /* @teleloc 0x1C14002F [143.398000 161.942000 4.964049] 0.925652 0.000000 0.000000 -0.378376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C14001, 0x71C14002, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C14001, 0x71C14003, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C14001, 0x71C14004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14005, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71C14001, 0x71C14006, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C14001, 0x71C14007, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C14001, 0x71C14008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71C14001, 0x71C14009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C1400A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C14001, 0x71C1400B, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71C14001, 0x71C1400C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C1400D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C1400E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C1400F, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x71C14001, 0x71C14010, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14014, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C14001, 0x71C14015, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C14001, 0x71C14016, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C14001, 0x71C14017, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C14001, 0x71C14018, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C14001, 0x71C14019, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x71C14001, 0x71C14002, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C14001, 0x71C14003, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C14001, 0x71C14004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14005, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71C14001, 0x71C14006, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14001, 0x71C14007, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14001, 0x71C14008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71C14001, 0x71C14009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C1400A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C14001, 0x71C1400B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71C14001, 0x71C1400C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C1400D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C1400E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C1400F, '2019-02-10 00:00:00') /* Exploration Marker (39749) */
+     , (0x71C14001, 0x71C14010, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14014, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C14001, 0x71C14015, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C14001, 0x71C14016, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C14001, 0x71C14017, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C14001, 0x71C14018, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C14001, 0x71C14019, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C14002, 35831, 0x1C14002F, 143.398, 161.942, 4.964049, 0.925652, 0, 0, -0.378376,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */

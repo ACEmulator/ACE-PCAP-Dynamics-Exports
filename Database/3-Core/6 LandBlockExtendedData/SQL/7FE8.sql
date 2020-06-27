@@ -5,12 +5,12 @@ VALUES (0x77FE8001,  1154, 0x7FE80008, 23.65754, 176.793, 49.42342, 0.8870109, 0
 /* @teleloc 0x7FE80008 [23.657540 176.793000 49.423420] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE8001, 0x77FE8002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x77FE8001, 0x77FE8003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x77FE8001, 0x77FE8004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77FE8001, 0x77FE8005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77FE8001, 0x77FE8006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77FE8001, 0x77FE8007, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x77FE8001, 0x77FE8002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x77FE8001, 0x77FE8003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x77FE8001, 0x77FE8004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77FE8001, 0x77FE8005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77FE8001, 0x77FE8006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77FE8001, 0x77FE8007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE8002,  7129, 0x7FE80008, 23.65754, 176.793, 49.42342, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -41,7 +41,7 @@ VALUES (0x77FE8008,  1542, 0x7FE80010, 27.24943, 176.0067, 51.37829, 0.9537169, 
 /* @teleloc 0x7FE80010 [27.249430 176.006700 51.378290] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE8008, 0x77FE8009, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x77FE8008, 0x77FE8009, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE8009,  5779, 0x7FE80010, 27.24943, 176.0067, 51.37829, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

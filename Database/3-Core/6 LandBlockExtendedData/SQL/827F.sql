@@ -5,9 +5,9 @@ VALUES (0x7827F001,  1154, 0x827F0005, 3.083283, 114.3269, 30.0055, 0.9728749, 0
 /* @teleloc 0x827F0005 [3.083283 114.326900 30.005500] 0.972875 0.000000 0.000000 -0.231332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7827F001, 0x7827F002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7827F001, 0x7827F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7827F001, 0x7827F004, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7827F001, 0x7827F002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7827F001, 0x7827F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7827F001, 0x7827F004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7827F002,   229, 0x827F0005, 3.083283, 114.3269, 30.0055, 0.9728749, 0, 0, -0.2313316,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

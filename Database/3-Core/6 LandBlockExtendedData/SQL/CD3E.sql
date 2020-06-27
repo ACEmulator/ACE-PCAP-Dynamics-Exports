@@ -5,20 +5,20 @@ VALUES (0x7CD3E001,  1154, 0xCD3E0006, 7.994295, 137.6155, 73.33498, 0.9238795, 
 /* @teleloc 0xCD3E0006 [7.994295 137.615500 73.334980] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3E001, 0x7CD3E002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3E001, 0x7CD3E003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3E001, 0x7CD3E004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CD3E001, 0x7CD3E005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CD3E001, 0x7CD3E006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD3E001, 0x7CD3E007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD3E001, 0x7CD3E008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CD3E001, 0x7CD3E009, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CD3E001, 0x7CD3E00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD3E001, 0x7CD3E00B, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CD3E001, 0x7CD3E00C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CD3E001, 0x7CD3E00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3E001, 0x7CD3E00E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CD3E001, 0x7CD3E00F, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7CD3E001, 0x7CD3E002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3E001, 0x7CD3E003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3E001, 0x7CD3E004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CD3E001, 0x7CD3E005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CD3E001, 0x7CD3E006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD3E001, 0x7CD3E007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD3E001, 0x7CD3E008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CD3E001, 0x7CD3E009, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CD3E001, 0x7CD3E00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD3E001, 0x7CD3E00B, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CD3E001, 0x7CD3E00C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CD3E001, 0x7CD3E00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3E001, 0x7CD3E00E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CD3E001, 0x7CD3E00F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3E002,   194, 0xCD3E0006, 7.994295, 137.6155, 73.33498, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -81,7 +81,7 @@ VALUES (0x7CD3E010,  1542, 0xCD3E0006, 10.64778, 130.2152, 77.29443, -0.3907325,
 /* @teleloc 0xCD3E0006 [10.647780 130.215200 77.294430] -0.390733 0.000000 0.000000 -0.920504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3E010, 0x7CD3E011, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7CD3E010, 0x7CD3E011, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3E011, 22837, 0xCD3E0006, 10.64778, 130.2152, 77.29443, -0.3907325, 0, 0, -0.9205043,  True, '2019-02-10 00:00:00'); /* Snowflower */

@@ -37,9 +37,9 @@ VALUES (0x70EBA014,  1154, 0x0EBA0040, 182.8909, 173.627, -0.45, -0.9488992, 0, 
 /* @teleloc 0x0EBA0040 [182.890900 173.627000 -0.450000] -0.948899 0.000000 0.000000 -0.315579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70EBA014, 0x70EBA015, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x70EBA014, 0x70EBA016, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x70EBA014, 0x70EBA017, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x70EBA014, 0x70EBA015, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x70EBA014, 0x70EBA016, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x70EBA014, 0x70EBA017, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EBA015, 11493, 0x0EBA0040, 182.8909, 173.627, -0.45, -0.9488992, 0, 0, -0.3155792,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
@@ -58,11 +58,11 @@ VALUES (0x70EBA018,  1154, 0x0EBA0022, 113.737, 46.9006, 1.913383, 0.999509, 0, 
 /* @teleloc 0x0EBA0022 [113.737000 46.900600 1.913383] 0.999509 0.000000 0.000000 -0.031333 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70EBA018, 0x70EBA019, '2019-02-10 00:00:00') /* Hea Riketura the Collector */
-     , (0x70EBA018, 0x70EBA01A, '2019-02-10 00:00:00') /* Hea Arantah */
-     , (0x70EBA018, 0x70EBA01B, '2019-02-10 00:00:00') /* Hea Mutuona */
-     , (0x70EBA018, 0x70EBA01C, '2019-02-10 00:00:00') /* Hea Kassoka */
-     , (0x70EBA018, 0x70EBA01D, '2019-02-10 00:00:00') /* Hea Ihipura the Crafter */;
+VALUES (0x70EBA018, 0x70EBA019, '2019-02-10 00:00:00') /* Hea Riketura the Collector (11343) */
+     , (0x70EBA018, 0x70EBA01A, '2019-02-10 00:00:00') /* Hea Arantah (10978) */
+     , (0x70EBA018, 0x70EBA01B, '2019-02-10 00:00:00') /* Hea Mutuona (10922) */
+     , (0x70EBA018, 0x70EBA01C, '2019-02-10 00:00:00') /* Hea Kassoka (31709) */
+     , (0x70EBA018, 0x70EBA01D, '2019-02-10 00:00:00') /* Hea Ihipura the Crafter (11344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EBA019, 11343, 0x0EBA0022, 113.737, 46.9006, 1.913383, 0.999509, 0, 0, -0.0313328,  True, '2019-02-10 00:00:00'); /* Hea Riketura the Collector */
@@ -89,7 +89,7 @@ VALUES (0x70EBA01E,  1542, 0x0EBA001D, 86.276, 102.357, 1.47525, -0.2714499, 0, 
 /* @teleloc 0x0EBA001D [86.276000 102.357000 1.475250] -0.271450 0.000000 0.000000 -0.962453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70EBA01E, 0x70EBA01F, '2019-02-10 00:00:00') /* Hea Kiriona the Shopkeep */;
+VALUES (0x70EBA01E, 0x70EBA01F, '2019-02-10 00:00:00') /* Hea Kiriona the Shopkeep (11381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EBA01F, 11381, 0x0EBA001D, 86.276, 102.357, 1.47525, -0.2714499, 0, 0, -0.9624526,  True, '2019-02-10 00:00:00'); /* Hea Kiriona the Shopkeep */

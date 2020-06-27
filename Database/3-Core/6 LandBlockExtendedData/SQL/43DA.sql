@@ -5,20 +5,20 @@ VALUES (0x743DA001,  1154, 0x43DA0006, 9.240261, 126.7787, 21.44161, 0.9238795, 
 /* @teleloc 0x43DA0006 [9.240261 126.778700 21.441610] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DA001, 0x743DA002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DA001, 0x743DA003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DA001, 0x743DA004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x743DA001, 0x743DA005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x743DA001, 0x743DA006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743DA001, 0x743DA007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743DA001, 0x743DA008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x743DA001, 0x743DA009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x743DA001, 0x743DA00A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x743DA001, 0x743DA00B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x743DA001, 0x743DA00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x743DA001, 0x743DA00D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x743DA001, 0x743DA00E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DA001, 0x743DA00F, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x743DA001, 0x743DA002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DA001, 0x743DA003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DA001, 0x743DA004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x743DA001, 0x743DA005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x743DA001, 0x743DA006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743DA001, 0x743DA007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743DA001, 0x743DA008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x743DA001, 0x743DA009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x743DA001, 0x743DA00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x743DA001, 0x743DA00B, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x743DA001, 0x743DA00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x743DA001, 0x743DA00D, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x743DA001, 0x743DA00E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DA001, 0x743DA00F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DA002, 10807, 0x43DA0006, 9.240261, 126.7787, 21.44161, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -81,8 +81,8 @@ VALUES (0x743DA010,  1542, 0x43DA0011, 51.00355, 12.42448, 44.3591, 1, 0, 0, 0, 
 /* @teleloc 0x43DA0011 [51.003550 12.424480 44.359100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DA010, 0x743DA011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x743DA010, 0x743DA012, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x743DA010, 0x743DA011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x743DA010, 0x743DA012, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DA011,  4179, 0x43DA0011, 51.00355, 12.42448, 44.3591, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

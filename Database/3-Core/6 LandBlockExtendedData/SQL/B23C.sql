@@ -5,14 +5,14 @@ VALUES (0x7B23C001,  1154, 0xB23C002C, 141.5812, 75.59874, 49.89357, 0.9063078, 
 /* @teleloc 0xB23C002C [141.581200 75.598740 49.893570] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B23C001, 0x7B23C002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B23C001, 0x7B23C003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B23C001, 0x7B23C004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B23C001, 0x7B23C005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B23C001, 0x7B23C006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B23C001, 0x7B23C007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B23C001, 0x7B23C008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B23C001, 0x7B23C009, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7B23C001, 0x7B23C002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B23C001, 0x7B23C003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B23C001, 0x7B23C004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B23C001, 0x7B23C005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B23C001, 0x7B23C006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B23C001, 0x7B23C007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7B23C001, 0x7B23C008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B23C001, 0x7B23C009, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B23C002,  2575, 0xB23C002C, 141.5812, 75.59874, 49.89357, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -51,8 +51,8 @@ VALUES (0x7B23C00A,  1542, 0xB23C002C, 138.233, 75.45562, 50.52839, 0.2217437, 0
 /* @teleloc 0xB23C002C [138.233000 75.455620 50.528390] 0.221744 0.000000 0.000000 -0.975105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B23C00A, 0x7B23C00B, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7B23C00A, 0x7B23C00C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7B23C00A, 0x7B23C00B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7B23C00A, 0x7B23C00C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B23C00B, 31686, 0xB23C002C, 138.233, 75.45562, 50.52839, 0.2217437, 0, 0, -0.975105,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

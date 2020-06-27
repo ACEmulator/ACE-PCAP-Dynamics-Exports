@@ -5,14 +5,14 @@ VALUES (0x7A52C001,  1154, 0xA52C0016, 52.3805, 130.5007, 108.515, -0.745706, 0,
 /* @teleloc 0xA52C0016 [52.380500 130.500700 108.515000] -0.745706 0.000000 0.000000 -0.666275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A52C001, 0x7A52C002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A52C001, 0x7A52C003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A52C001, 0x7A52C004, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A52C001, 0x7A52C005, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A52C001, 0x7A52C006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A52C001, 0x7A52C007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A52C001, 0x7A52C008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A52C001, 0x7A52C009, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7A52C001, 0x7A52C002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A52C001, 0x7A52C003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A52C001, 0x7A52C004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A52C001, 0x7A52C005, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A52C001, 0x7A52C006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A52C001, 0x7A52C007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A52C001, 0x7A52C008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A52C001, 0x7A52C009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A52C002,  1757, 0xA52C0016, 52.3805, 130.5007, 108.515, -0.745706, 0, 0, -0.6662751,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

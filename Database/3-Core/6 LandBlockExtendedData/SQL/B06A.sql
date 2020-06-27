@@ -5,11 +5,11 @@ VALUES (0x7B06A001,  1154, 0xB06A0016, 63.50293, 141.4859, 26.73709, -0.9324859,
 /* @teleloc 0xB06A0016 [63.502930 141.485900 26.737090] -0.932486 0.000000 0.000000 -0.361206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B06A001, 0x7B06A002, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B06A001, 0x7B06A003, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7B06A001, 0x7B06A004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B06A001, 0x7B06A005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B06A001, 0x7B06A006, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x7B06A001, 0x7B06A002, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B06A001, 0x7B06A003, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7B06A001, 0x7B06A004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B06A001, 0x7B06A005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B06A001, 0x7B06A006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B06A002,   237, 0xB06A0016, 63.50293, 141.4859, 26.73709, -0.9324859, 0, 0, -0.3612064,  True, '2019-02-10 00:00:00'); /* Virindi Master */

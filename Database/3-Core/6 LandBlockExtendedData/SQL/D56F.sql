@@ -5,12 +5,12 @@ VALUES (0x7D56F001,  1154, 0xD56F0027, 112.1107, 164.5686, 63.71655, -0.8419331,
 /* @teleloc 0xD56F0027 [112.110700 164.568600 63.716550] -0.841933 0.000000 0.000000 -0.539582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D56F001, 0x7D56F002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D56F001, 0x7D56F003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7D56F001, 0x7D56F004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7D56F001, 0x7D56F005, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7D56F001, 0x7D56F006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7D56F001, 0x7D56F007, '2019-02-10 00:00:00') /* Laigus Lugian */;
+VALUES (0x7D56F001, 0x7D56F002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D56F001, 0x7D56F003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7D56F001, 0x7D56F004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7D56F001, 0x7D56F005, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7D56F001, 0x7D56F006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7D56F001, 0x7D56F007, '2019-02-10 00:00:00') /* Laigus Lugian (5) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D56F002, 22208, 0xD56F0027, 112.1107, 164.5686, 63.71655, -0.8419331, 0, 0, -0.539582,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

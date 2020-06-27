@@ -133,86 +133,86 @@ VALUES (0x7586C0A2,  1154, 0x586C03ED, 190, -310, -11.971, 0, 0, 0, -1, False, '
 /* @teleloc 0x586C03ED [190.000000 -310.000000 -11.971000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586C0A2, 0x7586C0A3, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0A4, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0A5, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0A6, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0A7, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0A8, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0A9, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AA, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AB, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AC, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AD, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AE, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0AF, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0B0, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B1, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0B2, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B3, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B4, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B5, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0B6, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B7, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0B8, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0B9, '2019-02-10 00:00:00') /* Simulacrum Shifter */
-     , (0x7586C0A2, 0x7586C0BA, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0BB, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0BC, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0BD, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0BE, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0BF, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0C0, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C1, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C2, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0C3, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C4, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0C5, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C6, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C7, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0C8, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0C9, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0CA, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0CB, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0CC, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0CD, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0CE, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0CF, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0D0, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0D1, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0D2, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0D3, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0D4, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0D5, '2019-02-10 00:00:00') /* Virindi Keeper */
-     , (0x7586C0A2, 0x7586C0D6, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0D7, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0D8, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0D9, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0DA, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0DB, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0DC, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0DD, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0DE, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0DF, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0E0, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0E1, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0E2, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0E3, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0E4, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0E5, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0E6, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0E7, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0E8, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0E9, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0EA, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0EB, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0EC, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x7586C0A2, 0x7586C0ED, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0EE, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x7586C0A2, 0x7586C0EF, '2019-02-10 00:00:00') /* Virindi Clandestine */
-     , (0x7586C0A2, 0x7586C0F0, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x7586C0A2, 0x7586C0F1, '2019-02-10 00:00:00') /* Virindi Sentinel */
-     , (0x7586C0A2, 0x7586C0F2, '2019-02-10 00:00:00') /* Hollow Reaver */;
+VALUES (0x7586C0A2, 0x7586C0A3, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0A4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0A5, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0A6, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0A7, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0A8, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0A9, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AA, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AB, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AC, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AD, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AE, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0AF, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0B0, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B1, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0B2, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B3, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B5, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0B6, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B7, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0B8, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0B9, '2019-02-10 00:00:00') /* Simulacrum Shifter (51285) */
+     , (0x7586C0A2, 0x7586C0BA, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0BB, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0BC, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0BD, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0BE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0BF, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0C0, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C1, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C2, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0C3, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0C5, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C6, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C7, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0C8, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0C9, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0CA, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0CB, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0CC, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0CD, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0CE, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0CF, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0D0, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0D1, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0D2, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0D3, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0D4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0D5, '2019-02-10 00:00:00') /* Virindi Keeper (51300) */
+     , (0x7586C0A2, 0x7586C0D6, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0D7, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0D8, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0D9, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0DA, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0DB, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0DC, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0DD, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0DE, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0DF, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0E0, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0E1, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0E2, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0E3, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0E4, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0E5, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0E6, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0E7, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0E8, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0E9, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0EA, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0EB, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0EC, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x7586C0A2, 0x7586C0ED, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0EE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0EF, '2019-02-10 00:00:00') /* Virindi Clandestine (51287) */
+     , (0x7586C0A2, 0x7586C0F0, '2019-02-10 00:00:00') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0F1, '2019-02-10 00:00:00') /* Virindi Sentinel (51286) */
+     , (0x7586C0A2, 0x7586C0F2, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586C0A3, 51287, 0x586C03ED, 190, -310, -11.971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Virindi Clandestine */
@@ -539,7 +539,7 @@ VALUES (0x7586C0F3,  1154, 0x586C01D2, 124.912, -22.01, -35.971, 0, 0, 0, -1, Fa
 /* @teleloc 0x586C01D2 [124.912000 -22.010000 -35.971000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586C0F3, 0x7586C0F4, '2019-02-10 00:00:00') /* Virindi Delegate */;
+VALUES (0x7586C0F3, 0x7586C0F4, '2019-02-10 00:00:00') /* Virindi Delegate (51298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586C0F4, 51298, 0x586C01D2, 124.912, -22.01, -35.971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Virindi Delegate */
@@ -550,7 +550,7 @@ VALUES (0x7586C0F5,  1542, 0x586C026D, 240.1121, -202.9103, -36, -4.371139E-08, 
 /* @teleloc 0x586C026D [240.112100 -202.910300 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586C0F5, 0x7586C0F6, '2019-02-10 00:00:00') /* Chorizite Chest */;
+VALUES (0x7586C0F5, 0x7586C0F6, '2019-02-10 00:00:00') /* Chorizite Chest (51280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586C0F6, 51280, 0x586C026D, 240.1121, -202.9103, -36, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chorizite Chest */

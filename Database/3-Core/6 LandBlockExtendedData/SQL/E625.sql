@@ -5,11 +5,11 @@ VALUES (0x7E625001,  1154, 0xE625001B, 79.35412, 54.79001, -0.8934, 0.9483237, 0
 /* @teleloc 0xE625001B [79.354120 54.790010 -0.893400] 0.948324 0.000000 0.000000 -0.317305 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E625001, 0x7E625002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E625001, 0x7E625003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E625001, 0x7E625004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E625001, 0x7E625005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E625001, 0x7E625006, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E625001, 0x7E625002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E625001, 0x7E625003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E625001, 0x7E625004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E625001, 0x7E625005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E625001, 0x7E625006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E625002,  8427, 0xE625001B, 79.35412, 54.79001, -0.8934, 0.9483237, 0, 0, -0.3173046,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */

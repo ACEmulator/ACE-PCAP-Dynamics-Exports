@@ -5,22 +5,22 @@ VALUES (0x763D6001,  1154, 0x63D6000D, 36.93353, 99.08579, 148.1066, -0.9905459,
 /* @teleloc 0x63D6000D [36.933530 99.085790 148.106600] -0.990546 0.000000 0.000000 -0.137181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D6001, 0x763D6002, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x763D6001, 0x763D6003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D6001, 0x763D6004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x763D6001, 0x763D6005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x763D6001, 0x763D6006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x763D6001, 0x763D6007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x763D6001, 0x763D6008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x763D6001, 0x763D6009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763D6001, 0x763D600A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D6001, 0x763D600B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D6001, 0x763D600C, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x763D6001, 0x763D600D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x763D6001, 0x763D600E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D6001, 0x763D600F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D6001, 0x763D6010, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x763D6001, 0x763D6011, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x763D6001, 0x763D6002, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x763D6001, 0x763D6003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D6001, 0x763D6004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x763D6001, 0x763D6005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x763D6001, 0x763D6006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x763D6001, 0x763D6007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x763D6001, 0x763D6008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x763D6001, 0x763D6009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763D6001, 0x763D600A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D6001, 0x763D600B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D6001, 0x763D600C, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x763D6001, 0x763D600D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x763D6001, 0x763D600E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D6001, 0x763D600F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D6001, 0x763D6010, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x763D6001, 0x763D6011, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D6002, 29300, 0x63D6000D, 36.93353, 99.08579, 148.1066, -0.9905459, 0, 0, -0.1371814,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */

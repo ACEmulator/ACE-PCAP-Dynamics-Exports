@@ -85,9 +85,9 @@ VALUES (0x75269024,  1154, 0x5269015B, 50.0131, -120.003, 0.02700001, 1, 0, 0, 0
 /* @teleloc 0x5269015B [50.013100 -120.003000 0.027000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75269024, 0x75269025, '2019-02-10 00:00:00') /* Jealousy */
-     , (0x75269024, 0x75269026, '2019-02-10 00:00:00') /* Anger */
-     , (0x75269024, 0x75269027, '2019-02-10 00:00:00') /* Greed */;
+VALUES (0x75269024, 0x75269025, '2019-02-10 00:00:00') /* Jealousy (14909) */
+     , (0x75269024, 0x75269026, '2019-02-10 00:00:00') /* Anger (14907) */
+     , (0x75269024, 0x75269027, '2019-02-10 00:00:00') /* Greed (14908) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75269025, 14909, 0x5269015B, 50.0131, -120.003, 0.02700001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Jealousy */

@@ -141,13 +141,13 @@ VALUES (0x7A25F033,  1154, 0xA25F0017, 49.70002, 166.0176, 11.892, 0.6293719, 0,
 /* @teleloc 0xA25F0017 [49.700020 166.017600 11.892000] 0.629372 0.000000 0.000000 -0.777104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A25F033, 0x7A25F034, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A25F033, 0x7A25F035, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A25F033, 0x7A25F036, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A25F033, 0x7A25F037, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A25F033, 0x7A25F038, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A25F033, 0x7A25F039, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A25F033, 0x7A25F03A, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7A25F033, 0x7A25F034, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A25F033, 0x7A25F035, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A25F033, 0x7A25F036, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A25F033, 0x7A25F037, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A25F033, 0x7A25F038, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A25F033, 0x7A25F039, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A25F033, 0x7A25F03A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F034, 24937, 0xA25F0017, 49.70002, 166.0176, 11.892, 0.6293719, 0, 0, -0.7771043,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -182,18 +182,18 @@ VALUES (0x7A25F03B,  1154, 0xA25F0111, 156.211, 61.9473, 19.705, -0.570769, 0, 0
 /* @teleloc 0xA25F0111 [156.211000 61.947300 19.705000] -0.570769 0.000000 0.000000 -0.821111 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A25F03B, 0x7A25F03C, '2019-02-10 00:00:00') /* Apprentice Cook */
-     , (0x7A25F03B, 0x7A25F03D, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x7A25F03B, 0x7A25F03E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F03F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F040, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F041, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F042, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F043, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F044, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F045, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F046, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A25F03B, 0x7A25F047, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7A25F03B, 0x7A25F03C, '2019-02-10 00:00:00') /* Apprentice Cook (49603) */
+     , (0x7A25F03B, 0x7A25F03D, '2019-02-10 00:00:00') /* Leather Crafter (49601) */
+     , (0x7A25F03B, 0x7A25F03E, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F03F, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F040, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F041, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F042, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F043, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F044, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F045, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F046, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A25F03B, 0x7A25F047, '2019-02-10 00:00:00') /* Town Crier (49605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F03C, 49603, 0xA25F0111, 156.211, 61.9473, 19.705, -0.570769, 0, 0, -0.821111,  True, '2019-02-10 00:00:00'); /* Apprentice Cook */
@@ -248,19 +248,19 @@ VALUES (0x7A25F048,  1542, 0xA25F0034, 146.1261, 78.43457, 19.9975, -0.005281135
 /* @teleloc 0xA25F0034 [146.126100 78.434570 19.997500] -0.005281 0.000000 0.000000 0.999986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A25F048, 0x7A25F049, '2019-02-10 00:00:00') /* Foolproof Sunstone */
-     , (0x7A25F048, 0x7A25F04A, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7A25F048, 0x7A25F04B, '2019-02-10 00:00:00') /* Vestiri Over-robe */
-     , (0x7A25F048, 0x7A25F04C, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7A25F048, 0x7A25F04D, '2019-02-10 00:00:00') /* Chocolate Gromnie */
-     , (0x7A25F048, 0x7A25F04E, '2019-02-10 00:00:00') /* Fire Staff */
-     , (0x7A25F048, 0x7A25F04F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A25F048, 0x7A25F050, '2019-02-10 00:00:00') /* Asheron's Supreme Raiment */
-     , (0x7A25F048, 0x7A25F051, '2019-02-10 00:00:00') /* Letter to General Garsh */
-     , (0x7A25F048, 0x7A25F052, '2019-02-10 00:00:00') /* Travel Log */
-     , (0x7A25F048, 0x7A25F053, '2019-02-10 00:00:00') /* Royal Olthoi Jelly */
-     , (0x7A25F048, 0x7A25F054, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A25F048, 0x7A25F055, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A25F048, 0x7A25F049, '2019-02-10 00:00:00') /* Foolproof Sunstone (36627) */
+     , (0x7A25F048, 0x7A25F04A, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7A25F048, 0x7A25F04B, '2019-02-10 00:00:00') /* Vestiri Over-robe (44802) */
+     , (0x7A25F048, 0x7A25F04C, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7A25F048, 0x7A25F04D, '2019-02-10 00:00:00') /* Chocolate Gromnie (36445) */
+     , (0x7A25F048, 0x7A25F04E, '2019-02-10 00:00:00') /* Fire Staff (37220) */
+     , (0x7A25F048, 0x7A25F04F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A25F048, 0x7A25F050, '2019-02-10 00:00:00') /* Asheron's Supreme Raiment (24363) */
+     , (0x7A25F048, 0x7A25F051, '2019-02-10 00:00:00') /* Letter to General Garsh (25504) */
+     , (0x7A25F048, 0x7A25F052, '2019-02-10 00:00:00') /* Travel Log (25520) */
+     , (0x7A25F048, 0x7A25F053, '2019-02-10 00:00:00') /* Royal Olthoi Jelly (25468) */
+     , (0x7A25F048, 0x7A25F054, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A25F048, 0x7A25F055, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F049, 36627, 0xA25F0034, 146.1261, 78.43457, 19.9975, -0.005281135, 0, 0, 0.9999861,  True, '2019-02-10 00:00:00'); /* Foolproof Sunstone */

@@ -5,10 +5,10 @@ VALUES (0x7C686001,  1154, 0xC6860005, 20.47903, 103.1509, 40.60499, 0.7071068, 
 /* @teleloc 0xC6860005 [20.479030 103.150900 40.604990] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C686001, 0x7C686002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C686001, 0x7C686003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C686001, 0x7C686004, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C686001, 0x7C686005, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7C686001, 0x7C686002, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C686001, 0x7C686003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C686001, 0x7C686004, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C686001, 0x7C686005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C686002,  5761, 0xC6860005, 20.47903, 103.1509, 40.60499, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -31,7 +31,7 @@ VALUES (0x7C686006,  1542, 0xC6860018, 64.6443, 191.6605, 48.61298, 0.8660254, 0
 /* @teleloc 0xC6860018 [64.644300 191.660500 48.612980] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C686006, 0x7C686007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C686006, 0x7C686007, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C686007,  4382, 0xC6860018, 64.6443, 191.6605, 48.61298, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,11 +5,11 @@ VALUES (0x74331001,  1154, 0x43310039, 176.7776, 17.61224, 2.209153, 0.9373504, 
 /* @teleloc 0x43310039 [176.777600 17.612240 2.209153] 0.937350 0.000000 0.000000 -0.348388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74331001, 0x74331002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74331001, 0x74331003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74331001, 0x74331004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74331001, 0x74331005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74331001, 0x74331006, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x74331001, 0x74331002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74331001, 0x74331003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74331001, 0x74331004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x74331001, 0x74331005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x74331001, 0x74331006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74331002, 36829, 0x43310039, 176.7776, 17.61224, 2.209153, 0.9373504, 0, 0, -0.3483881,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

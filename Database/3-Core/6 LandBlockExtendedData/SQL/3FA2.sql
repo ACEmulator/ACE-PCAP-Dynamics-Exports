@@ -5,14 +5,14 @@ VALUES (0x73FA2001,  1154, 0x3FA2003C, 172.705, 79.18517, 71.01463, -0.9897515, 
 /* @teleloc 0x3FA2003C [172.705000 79.185170 71.014630] -0.989752 0.000000 0.000000 -0.142800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FA2001, 0x73FA2002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x73FA2001, 0x73FA2003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73FA2001, 0x73FA2004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73FA2001, 0x73FA2005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73FA2001, 0x73FA2006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73FA2001, 0x73FA2007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73FA2001, 0x73FA2008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73FA2001, 0x73FA2009, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x73FA2001, 0x73FA2002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x73FA2001, 0x73FA2003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73FA2001, 0x73FA2004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73FA2001, 0x73FA2005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73FA2001, 0x73FA2006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73FA2001, 0x73FA2007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73FA2001, 0x73FA2008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73FA2001, 0x73FA2009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FA2002,  8968, 0x3FA2003C, 172.705, 79.18517, 71.01463, -0.9897515, 0, 0, -0.1428001,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

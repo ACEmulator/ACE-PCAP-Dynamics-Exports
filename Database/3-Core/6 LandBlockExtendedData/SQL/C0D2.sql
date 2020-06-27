@@ -5,22 +5,22 @@ VALUES (0x7C0D2001,  1154, 0xC0D20016, 52.47702, 139.2436, 252.7562, -0.9431379,
 /* @teleloc 0xC0D20016 [52.477020 139.243600 252.756200] -0.943138 0.000000 0.000000 -0.332402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0D2001, 0x7C0D2002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C0D2001, 0x7C0D2003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C0D2001, 0x7C0D2004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7C0D2001, 0x7C0D2005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C0D2001, 0x7C0D2006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C0D2001, 0x7C0D2007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7C0D2001, 0x7C0D2008, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7C0D2001, 0x7C0D2009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7C0D2001, 0x7C0D200A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C0D2001, 0x7C0D200B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C0D2001, 0x7C0D200C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C0D2001, 0x7C0D200D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C0D2001, 0x7C0D200E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C0D2001, 0x7C0D200F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7C0D2001, 0x7C0D2010, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C0D2001, 0x7C0D2011, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7C0D2001, 0x7C0D2002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C0D2001, 0x7C0D2003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C0D2001, 0x7C0D2004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7C0D2001, 0x7C0D2005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C0D2001, 0x7C0D2006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C0D2001, 0x7C0D2007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7C0D2001, 0x7C0D2008, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7C0D2001, 0x7C0D2009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7C0D2001, 0x7C0D200A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C0D2001, 0x7C0D200B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C0D2001, 0x7C0D200C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C0D2001, 0x7C0D200D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C0D2001, 0x7C0D200E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C0D2001, 0x7C0D200F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7C0D2001, 0x7C0D2010, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C0D2001, 0x7C0D2011, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0D2002, 38177, 0xC0D20016, 52.47702, 139.2436, 252.7562, -0.9431379, 0, 0, -0.3324018,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -91,7 +91,7 @@ VALUES (0x7C0D2012,  1542, 0xC0D20017, 55.29771, 166.8074, 256.4094, -0.9431379,
 /* @teleloc 0xC0D20017 [55.297710 166.807400 256.409400] -0.943138 0.000000 0.000000 -0.332402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0D2012, 0x7C0D2013, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7C0D2012, 0x7C0D2013, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0D2013,  8648, 0xC0D20017, 55.29771, 166.8074, 256.4094, -0.9431379, 0, 0, -0.3324018,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

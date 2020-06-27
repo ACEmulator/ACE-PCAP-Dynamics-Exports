@@ -5,14 +5,14 @@ VALUES (0x78DD4001,  1154, 0x8DD40022, 100.1941, 25.8364, 415.7808, 0.7400985, 0
 /* @teleloc 0x8DD40022 [100.194100 25.836400 415.780800] 0.740099 0.000000 0.000000 -0.672499 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DD4001, 0x78DD4002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78DD4001, 0x78DD4003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x78DD4001, 0x78DD4004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DD4001, 0x78DD4005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78DD4001, 0x78DD4006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78DD4001, 0x78DD4007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DD4001, 0x78DD4008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DD4001, 0x78DD4009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x78DD4001, 0x78DD4002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78DD4001, 0x78DD4003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x78DD4001, 0x78DD4004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DD4001, 0x78DD4005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78DD4001, 0x78DD4006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78DD4001, 0x78DD4007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DD4001, 0x78DD4008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DD4001, 0x78DD4009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DD4002,     3, 0x8DD40022, 100.1941, 25.8364, 415.7808, 0.7400985, 0, 0, -0.6724985,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -51,8 +51,8 @@ VALUES (0x78DD400A,  1542, 0x8DD40036, 147.5551, 140.1042, 373.3963, -4.371139E-
 /* @teleloc 0x8DD40036 [147.555100 140.104200 373.396300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DD400A, 0x78DD400B, '2019-02-10 00:00:00') /* Bones */
-     , (0x78DD400A, 0x78DD400C, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x78DD400A, 0x78DD400B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78DD400A, 0x78DD400C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DD400B,  4380, 0x8DD40036, 147.5551, 140.1042, 373.3963, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

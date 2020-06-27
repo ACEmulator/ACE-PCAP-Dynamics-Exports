@@ -5,11 +5,11 @@ VALUES (0x7C287001,  1154, 0xC2870029, 126.1376, 12.7458, 60.08958, -0.9512851, 
 /* @teleloc 0xC2870029 [126.137600 12.745800 60.089580] -0.951285 0.000000 0.000000 -0.308312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C287001, 0x7C287002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C287001, 0x7C287003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C287001, 0x7C287004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C287001, 0x7C287005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C287001, 0x7C287006, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7C287001, 0x7C287002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C287001, 0x7C287003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C287001, 0x7C287004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C287001, 0x7C287005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C287001, 0x7C287006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C287002,  1612, 0xC2870029, 126.1376, 12.7458, 60.08958, -0.9512851, 0, 0, -0.3083124,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -36,7 +36,7 @@ VALUES (0x7C287007,  1542, 0xC2870016, 49.1684, 138.8452, 43.39123, 1, 0, 0, 0, 
 /* @teleloc 0xC2870016 [49.168400 138.845200 43.391230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C287007, 0x7C287008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C287007, 0x7C287008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C287008,  4380, 0xC2870016, 49.1684, 138.8452, 43.39123, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

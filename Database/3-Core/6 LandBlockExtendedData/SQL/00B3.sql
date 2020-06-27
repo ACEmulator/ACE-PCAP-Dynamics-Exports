@@ -9,11 +9,11 @@ VALUES (0x700B3027,  1154, 0x00B30126, 18.71842, -1120.348, 0.006600022, -4.3711
 /* @teleloc 0x00B30126 [18.718420 -1120.348000 0.006600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B3027, 0x700B3028, '2019-02-10 00:00:00') /* Mosswart Swamp Lord */
-     , (0x700B3027, 0x700B3029, '2019-02-10 00:00:00') /* Mosswart Swamp Lord */
-     , (0x700B3027, 0x700B302A, '2019-02-10 00:00:00') /* Mosswart Swamp Lord */
-     , (0x700B3027, 0x700B302B, '2019-02-10 00:00:00') /* Mosswart Swamp Lord */
-     , (0x700B3027, 0x700B302C, '2019-02-10 00:00:00') /* Mosswart Swamp Lord */;
+VALUES (0x700B3027, 0x700B3028, '2019-02-10 00:00:00') /* Mosswart Swamp Lord (35141) */
+     , (0x700B3027, 0x700B3029, '2019-02-10 00:00:00') /* Mosswart Swamp Lord (35141) */
+     , (0x700B3027, 0x700B302A, '2019-02-10 00:00:00') /* Mosswart Swamp Lord (35141) */
+     , (0x700B3027, 0x700B302B, '2019-02-10 00:00:00') /* Mosswart Swamp Lord (35141) */
+     , (0x700B3027, 0x700B302C, '2019-02-10 00:00:00') /* Mosswart Swamp Lord (35141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B3028, 35141, 0x00B30126, 18.71842, -1120.348, 0.006600022, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Mosswart Swamp Lord */
@@ -40,7 +40,7 @@ VALUES (0x700B302D,  1154, 0x00B3015B, 30, -1110, 0.105, 1, 0, 0, 0, False, '201
 /* @teleloc 0x00B3015B [30.000000 -1110.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B302D, 0x700B302E, '2019-02-10 00:00:00') /* Arena Bell */;
+VALUES (0x700B302D, 0x700B302E, '2019-02-10 00:00:00') /* Arena Bell (34722) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B302E, 34722, 0x00B3015B, 30, -1110, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */

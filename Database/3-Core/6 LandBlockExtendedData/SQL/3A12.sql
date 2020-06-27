@@ -5,17 +5,17 @@ VALUES (0x73A12001,  1154, 0x3A120004, 10.15478, 87.46779, 12.31254, -0.7046538,
 /* @teleloc 0x3A120004 [10.154780 87.467790 12.312540] -0.704654 0.000000 0.000000 -0.709551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A12001, 0x73A12002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A12001, 0x73A12003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73A12001, 0x73A12004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A12001, 0x73A12005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A12001, 0x73A12006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A12001, 0x73A12007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A12001, 0x73A12008, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73A12001, 0x73A12009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73A12001, 0x73A1200A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73A12001, 0x73A1200B, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73A12001, 0x73A1200C, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x73A12001, 0x73A12002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A12001, 0x73A12003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x73A12001, 0x73A12004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A12001, 0x73A12005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A12001, 0x73A12006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A12001, 0x73A12007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A12001, 0x73A12008, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73A12001, 0x73A12009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73A12001, 0x73A1200A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73A12001, 0x73A1200B, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73A12001, 0x73A1200C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A12002, 23563, 0x3A120004, 10.15478, 87.46779, 12.31254, -0.7046538, 0, 0, -0.7095513,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -66,7 +66,7 @@ VALUES (0x73A1200D,  1542, 0x3A120030, 134.1503, 189.6776, 15.63162, -0.9581262,
 /* @teleloc 0x3A120030 [134.150300 189.677600 15.631620] -0.958126 0.000000 0.000000 -0.286346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A1200D, 0x73A1200E, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73A1200D, 0x73A1200E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A1200E,  9288, 0x3A120030, 134.1503, 189.6776, 15.63162, -0.9581262, 0, 0, -0.2863462,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

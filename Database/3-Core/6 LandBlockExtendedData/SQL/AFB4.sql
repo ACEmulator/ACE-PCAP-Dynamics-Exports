@@ -5,15 +5,15 @@ VALUES (0x7AFB4001,  1154, 0xAFB40039, 183.3963, 7.98177, 65.33339, -0.6129225, 
 /* @teleloc 0xAFB40039 [183.396300 7.981770 65.333390] -0.612923 0.000000 0.000000 -0.790143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB4001, 0x7AFB4002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFB4001, 0x7AFB4003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB4001, 0x7AFB4004, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AFB4001, 0x7AFB4005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AFB4001, 0x7AFB4006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AFB4001, 0x7AFB4007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7AFB4001, 0x7AFB4008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7AFB4001, 0x7AFB4009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFB4001, 0x7AFB400A, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7AFB4001, 0x7AFB4002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFB4001, 0x7AFB4003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB4001, 0x7AFB4004, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AFB4001, 0x7AFB4005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AFB4001, 0x7AFB4006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AFB4001, 0x7AFB4007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7AFB4001, 0x7AFB4008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7AFB4001, 0x7AFB4009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFB4001, 0x7AFB400A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB4002,   182, 0xAFB40039, 183.3963, 7.98177, 65.33339, -0.6129225, 0, 0, -0.7901431,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

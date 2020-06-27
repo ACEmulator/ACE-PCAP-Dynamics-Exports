@@ -5,22 +5,22 @@ VALUES (0x72AE8001,  1154, 0x2AE80039, 191.0569, 22.76442, 8.00625, 0.5351492, 0
 /* @teleloc 0x2AE80039 [191.056900 22.764420 8.006250] 0.535149 0.000000 0.000000 -0.844758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE8001, 0x72AE8002, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72AE8001, 0x72AE8003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AE8001, 0x72AE8004, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AE8001, 0x72AE8005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72AE8001, 0x72AE8006, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72AE8001, 0x72AE8007, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AE8001, 0x72AE8008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72AE8001, 0x72AE8009, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72AE8001, 0x72AE800A, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AE8001, 0x72AE800B, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x72AE8001, 0x72AE800C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72AE8001, 0x72AE800D, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72AE8001, 0x72AE800E, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AE8001, 0x72AE800F, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72AE8001, 0x72AE8010, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72AE8001, 0x72AE8011, '2019-02-10 00:00:00') /* Demented Fiun */;
+VALUES (0x72AE8001, 0x72AE8002, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72AE8001, 0x72AE8003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AE8001, 0x72AE8004, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AE8001, 0x72AE8005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72AE8001, 0x72AE8006, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72AE8001, 0x72AE8007, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AE8001, 0x72AE8008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72AE8001, 0x72AE8009, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72AE8001, 0x72AE800A, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AE8001, 0x72AE800B, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x72AE8001, 0x72AE800C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72AE8001, 0x72AE800D, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72AE8001, 0x72AE800E, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AE8001, 0x72AE800F, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72AE8001, 0x72AE8010, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72AE8001, 0x72AE8011, '2019-02-10 00:00:00') /* Demented Fiun (28650) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE8002,  9255, 0x2AE80039, 191.0569, 22.76442, 8.00625, 0.5351492, 0, 0, -0.8447576,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */

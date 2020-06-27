@@ -5,19 +5,19 @@ VALUES (0x78FE7001,  1154, 0x8FE70038, 162.733, 190.7463, 59.0778, 0.9002116, 0,
 /* @teleloc 0x8FE70038 [162.733000 190.746300 59.077800] 0.900212 0.000000 0.000000 -0.435453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FE7001, 0x78FE7002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78FE7001, 0x78FE7003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FE7001, 0x78FE7004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FE7001, 0x78FE7005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FE7001, 0x78FE7006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78FE7001, 0x78FE7007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78FE7001, 0x78FE7008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FE7001, 0x78FE7009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FE7001, 0x78FE700A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78FE7001, 0x78FE700B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FE7001, 0x78FE700C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78FE7001, 0x78FE700D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78FE7001, 0x78FE700E, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x78FE7001, 0x78FE7002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78FE7001, 0x78FE7003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FE7001, 0x78FE7004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FE7001, 0x78FE7005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FE7001, 0x78FE7006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78FE7001, 0x78FE7007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78FE7001, 0x78FE7008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FE7001, 0x78FE7009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FE7001, 0x78FE700A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78FE7001, 0x78FE700B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FE7001, 0x78FE700C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78FE7001, 0x78FE700D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78FE7001, 0x78FE700E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FE7002,  9252, 0x8FE70038, 162.733, 190.7463, 59.0778, 0.9002116, 0, 0, -0.4354528,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -76,7 +76,7 @@ VALUES (0x78FE700F,  1542, 0x8FE7002E, 123.4818, 122.5226, 85.68225, -4.371139E-
 /* @teleloc 0x8FE7002E [123.481800 122.522600 85.682250] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FE700F, 0x78FE7010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78FE700F, 0x78FE7010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FE7010,  4380, 0x8FE7002E, 123.4818, 122.5226, 85.68225, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,14 +5,14 @@ VALUES (0x70F5B001,  1154, 0x0F5B0019, 74.30061, 19.964, -0.4428501, 0.7071068, 
 /* @teleloc 0x0F5B0019 [74.300610 19.964000 -0.442850] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F5B001, 0x70F5B002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70F5B001, 0x70F5B003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70F5B001, 0x70F5B004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70F5B001, 0x70F5B005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70F5B001, 0x70F5B006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F5B001, 0x70F5B007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70F5B001, 0x70F5B008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70F5B001, 0x70F5B009, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x70F5B001, 0x70F5B002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70F5B001, 0x70F5B003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70F5B001, 0x70F5B004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70F5B001, 0x70F5B005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70F5B001, 0x70F5B006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F5B001, 0x70F5B007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70F5B001, 0x70F5B008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70F5B001, 0x70F5B009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F5B002, 36820, 0x0F5B0019, 74.30061, 19.964, -0.4428501, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -51,7 +51,7 @@ VALUES (0x70F5B00A,  1542, 0x0F5B0008, 2.825377, 169.5791, 11.96615, -4.371139E-
 /* @teleloc 0x0F5B0008 [2.825377 169.579100 11.966150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F5B00A, 0x70F5B00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F5B00A, 0x70F5B00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F5B00B,  4380, 0x0F5B0008, 2.825377, 169.5791, 11.96615, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

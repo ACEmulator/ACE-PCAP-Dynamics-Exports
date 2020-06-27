@@ -9,79 +9,79 @@ VALUES (0x72AB9001,  1154, 0x2AB90035, 163.099, 97.91386, 20, -0.9982939, 0, 0, 
 /* @teleloc 0x2AB90035 [163.099000 97.913860 20.000000] -0.998294 0.000000 0.000000 -0.058388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB9001, 0x72AB9002, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9003, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9004, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9005, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x72AB9001, 0x72AB9007, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9008, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9009, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB900A, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB900B, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB900C, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB900D, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x72AB9001, 0x72AB900E, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB900F, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB9010, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9011, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9012, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x72AB9001, 0x72AB9013, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9014, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9015, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9016, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9017, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9018, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9019, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB901A, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB901B, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x72AB9001, 0x72AB901C, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB901D, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x72AB9001, 0x72AB901E, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB901F, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x72AB9001, 0x72AB9020, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9021, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9022, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9023, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9024, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9025, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x72AB9001, 0x72AB9026, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x72AB9001, 0x72AB9027, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB9028, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB9029, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB902A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x72AB9001, 0x72AB902B, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB902C, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB902D, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB902E, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB902F, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9030, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x72AB9001, 0x72AB9031, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x72AB9001, 0x72AB9032, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x72AB9001, 0x72AB9033, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB9034, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB9035, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9036, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB9037, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9038, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB9039, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB903A, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x72AB9001, 0x72AB903B, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB903C, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x72AB9001, 0x72AB903D, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x72AB9001, 0x72AB903E, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB903F, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x72AB9001, 0x72AB9040, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x72AB9001, 0x72AB9041, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB9042, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x72AB9001, 0x72AB9043, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9044, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9045, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9046, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x72AB9001, 0x72AB9047, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9048, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB9049, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x72AB9001, 0x72AB904A, '2019-02-10 00:00:00') /* Hea Windreave */;
+VALUES (0x72AB9001, 0x72AB9002, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9003, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9004, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9005, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x72AB9001, 0x72AB9007, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9008, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9009, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB900A, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB900B, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB900C, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB900D, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x72AB9001, 0x72AB900E, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB900F, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB9010, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9011, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9012, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x72AB9001, 0x72AB9013, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9014, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9015, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9016, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9017, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9018, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9019, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB901A, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB901B, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x72AB9001, 0x72AB901C, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB901D, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x72AB9001, 0x72AB901E, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB901F, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x72AB9001, 0x72AB9020, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9021, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9022, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9023, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9024, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9025, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x72AB9001, 0x72AB9026, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x72AB9001, 0x72AB9027, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB9028, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB9029, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB902A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x72AB9001, 0x72AB902B, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB902C, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB902D, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB902E, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB902F, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9030, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x72AB9001, 0x72AB9031, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x72AB9001, 0x72AB9032, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x72AB9001, 0x72AB9033, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB9034, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB9035, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9036, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB9037, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9038, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB9039, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB903A, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x72AB9001, 0x72AB903B, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB903C, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x72AB9001, 0x72AB903D, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x72AB9001, 0x72AB903E, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB903F, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x72AB9001, 0x72AB9040, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x72AB9001, 0x72AB9041, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB9042, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x72AB9001, 0x72AB9043, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9044, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9045, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9046, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x72AB9001, 0x72AB9047, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9048, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB9049, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x72AB9001, 0x72AB904A, '2019-02-10 00:00:00') /* Hea Windreave (11524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB9002, 11497, 0x2AB90035, 163.099, 97.91386, 20, -0.9982939, 0, 0, -0.05838806,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker */
@@ -380,29 +380,29 @@ VALUES (0x72AB904B,  1542, 0x2AB90017, 60.92434, 160.8722, 20.15, -0.8156634, 0,
 /* @teleloc 0x2AB90017 [60.924340 160.872200 20.150000] -0.815663 0.000000 0.000000 -0.578527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB904B, 0x72AB904C, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */
-     , (0x72AB904B, 0x72AB904D, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x72AB904B, 0x72AB904E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB904F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB9050, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB9051, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB9052, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB9053, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB9054, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */
-     , (0x72AB904B, 0x72AB9055, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB9056, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB9057, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x72AB904B, 0x72AB9058, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB9059, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB905A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB905B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB905C, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x72AB904B, 0x72AB905D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB905E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB905F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x72AB904B, 0x72AB9060, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72AB904B, 0x72AB9061, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x72AB904B, 0x72AB9062, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x72AB904B, 0x72AB904C, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */
+     , (0x72AB904B, 0x72AB904D, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x72AB904B, 0x72AB904E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB904F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB9050, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB9051, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB9052, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB9053, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB9054, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */
+     , (0x72AB904B, 0x72AB9055, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB9056, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB9057, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x72AB904B, 0x72AB9058, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB9059, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB905A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB905B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB905C, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x72AB904B, 0x72AB905D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB905E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB905F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x72AB904B, 0x72AB9060, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72AB904B, 0x72AB9061, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x72AB904B, 0x72AB9062, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB904C, 11568, 0x2AB90017, 60.92434, 160.8722, 20.15, -0.8156634, 0, 0, -0.5785267,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker Camp Generator */

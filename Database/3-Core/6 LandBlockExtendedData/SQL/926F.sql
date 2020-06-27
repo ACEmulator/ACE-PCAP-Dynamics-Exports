@@ -5,12 +5,12 @@ VALUES (0x7926F001,  1154, 0x926F0033, 154.3327, 54.89974, 15.15328, -4.371139E-
 /* @teleloc 0x926F0033 [154.332700 54.899740 15.153280] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7926F001, 0x7926F002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7926F001, 0x7926F003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7926F001, 0x7926F004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7926F001, 0x7926F005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7926F001, 0x7926F006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7926F001, 0x7926F007, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x7926F001, 0x7926F002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7926F001, 0x7926F003, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7926F001, 0x7926F004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7926F001, 0x7926F005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7926F001, 0x7926F006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7926F001, 0x7926F007, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7926F002,     7, 0x926F0033, 154.3327, 54.89974, 15.15328, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -41,7 +41,7 @@ VALUES (0x7926F008,  1542, 0x926F0033, 154.9182, 58.18707, 15.69785, 1, 0, 0, 0,
 /* @teleloc 0x926F0033 [154.918200 58.187070 15.697850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7926F008, 0x7926F009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7926F008, 0x7926F009, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7926F009, 22572, 0x926F0033, 154.9182, 58.18707, 15.69785, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

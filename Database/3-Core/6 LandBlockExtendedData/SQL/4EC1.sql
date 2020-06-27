@@ -5,19 +5,19 @@ VALUES (0x74EC1001,  1154, 0x4EC1002D, 121.5205, 111.4952, 2.962646, 0.7212577, 
 /* @teleloc 0x4EC1002D [121.520500 111.495200 2.962646] 0.721258 0.000000 0.000000 -0.692667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC1001, 0x74EC1002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x74EC1001, 0x74EC1003, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x74EC1001, 0x74EC1004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74EC1001, 0x74EC1005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x74EC1001, 0x74EC1006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74EC1001, 0x74EC1007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74EC1001, 0x74EC1008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74EC1001, 0x74EC1009, '2019-02-10 00:00:00') /* Ember */
-     , (0x74EC1001, 0x74EC100A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74EC1001, 0x74EC100B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74EC1001, 0x74EC100C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x74EC1001, 0x74EC100D, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x74EC1001, 0x74EC100E, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x74EC1001, 0x74EC1002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x74EC1001, 0x74EC1003, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x74EC1001, 0x74EC1004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74EC1001, 0x74EC1005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x74EC1001, 0x74EC1006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74EC1001, 0x74EC1007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74EC1001, 0x74EC1008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74EC1001, 0x74EC1009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x74EC1001, 0x74EC100A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74EC1001, 0x74EC100B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74EC1001, 0x74EC100C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x74EC1001, 0x74EC100D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x74EC1001, 0x74EC100E, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC1002,  7987, 0x4EC1002D, 121.5205, 111.4952, 2.962646, 0.7212577, 0, 0, -0.6926668,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -76,8 +76,8 @@ VALUES (0x74EC100F,  1542, 0x4EC10034, 160.9532, 87.68769, 10.82554, 0.9447473, 
 /* @teleloc 0x4EC10034 [160.953200 87.687690 10.825540] 0.944747 0.000000 0.000000 -0.327799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC100F, 0x74EC1010, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x74EC100F, 0x74EC1011, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x74EC100F, 0x74EC1010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x74EC100F, 0x74EC1011, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC1010,  8041, 0x4EC10034, 160.9532, 87.68769, 10.82554, 0.9447473, 0, 0, -0.3277994,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

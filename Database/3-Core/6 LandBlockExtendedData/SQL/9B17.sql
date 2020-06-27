@@ -5,9 +5,9 @@ VALUES (0x79B17001,  1154, 0x9B17000B, 44.9447, 48.37596, 315.0274, 0.8951812, 0
 /* @teleloc 0x9B17000B [44.944700 48.375960 315.027400] 0.895181 0.000000 0.000000 -0.445702 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B17001, 0x79B17002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79B17001, 0x79B17003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79B17001, 0x79B17004, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x79B17001, 0x79B17002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79B17001, 0x79B17003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79B17001, 0x79B17004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B17002,  7084, 0x9B17000B, 44.9447, 48.37596, 315.0274, 0.8951812, 0, 0, -0.4457023,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -26,9 +26,9 @@ VALUES (0x79B17005,  1542, 0x9B170025, 118.5728, 104.7407, 294.6621, 1, 0, 0, 0,
 /* @teleloc 0x9B170025 [118.572800 104.740700 294.662100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B17005, 0x79B17006, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79B17005, 0x79B17007, '2019-02-10 00:00:00') /* Bones */
-     , (0x79B17005, 0x79B17008, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x79B17005, 0x79B17006, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x79B17005, 0x79B17007, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79B17005, 0x79B17008, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B17006, 22567, 0x9B170025, 118.5728, 104.7407, 294.6621, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

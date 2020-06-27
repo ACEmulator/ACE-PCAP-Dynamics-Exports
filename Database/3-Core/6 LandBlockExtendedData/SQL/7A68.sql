@@ -5,18 +5,18 @@ VALUES (0x77A68001,  1154, 0x7A680036, 151.9434, 135.9703, -0.01499999, -0.02964
 /* @teleloc 0x7A680036 [151.943400 135.970300 -0.015000] -0.029640 0.000000 0.000000 -0.999561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A68001, 0x77A68002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77A68001, 0x77A68003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A68001, 0x77A68004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x77A68001, 0x77A68005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77A68001, 0x77A68006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77A68001, 0x77A68007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77A68001, 0x77A68008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A68001, 0x77A68009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A68001, 0x77A6800A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A68001, 0x77A6800B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77A68001, 0x77A6800C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77A68001, 0x77A6800D, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x77A68001, 0x77A68002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77A68001, 0x77A68003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77A68001, 0x77A68004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x77A68001, 0x77A68005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77A68001, 0x77A68006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77A68001, 0x77A68007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77A68001, 0x77A68008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A68001, 0x77A68009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A68001, 0x77A6800A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A68001, 0x77A6800B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77A68001, 0x77A6800C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77A68001, 0x77A6800D, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A68002,  4111, 0x7A680036, 151.9434, 135.9703, -0.01499999, -0.02964007, 0, 0, -0.9995607,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -71,8 +71,8 @@ VALUES (0x77A6800E,  1542, 0x7A680030, 128.3695, 175.9773, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x7A680030 [128.369500 175.977300 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A6800E, 0x77A6800F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77A6800E, 0x77A68010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77A6800E, 0x77A6800F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77A6800E, 0x77A68010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A6800F,  4179, 0x7A680030, 128.3695, 175.9773, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

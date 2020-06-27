@@ -5,9 +5,9 @@ VALUES (0x79975001,  1154, 0x99750010, 39.14452, 185.35, 31.11548, -0.9190071, 0
 /* @teleloc 0x99750010 [39.144520 185.350000 31.115480] -0.919007 0.000000 0.000000 -0.394241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79975001, 0x79975002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79975001, 0x79975003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79975001, 0x79975004, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79975001, 0x79975002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79975001, 0x79975003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79975001, 0x79975004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79975002,   939, 0x99750010, 39.14452, 185.35, 31.11548, -0.9190071, 0, 0, -0.3942411,  True, '2019-02-10 00:00:00'); /* Young Banderling */

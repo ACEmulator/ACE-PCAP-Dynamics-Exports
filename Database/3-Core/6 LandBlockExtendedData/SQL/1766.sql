@@ -5,15 +5,15 @@ VALUES (0x71766001,  1154, 0x1766003C, 181.4931, 85.30921, 65.57451, -0.09478959
 /* @teleloc 0x1766003C [181.493100 85.309210 65.574510] -0.094790 0.000000 0.000000 -0.995497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71766001, 0x71766002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71766001, 0x71766003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71766001, 0x71766004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71766001, 0x71766005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71766001, 0x71766006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x71766001, 0x71766007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71766001, 0x71766008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71766001, 0x71766009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71766001, 0x7176600A, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71766001, 0x71766002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71766001, 0x71766003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71766001, 0x71766004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71766001, 0x71766005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71766001, 0x71766006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x71766001, 0x71766007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71766001, 0x71766008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71766001, 0x71766009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71766001, 0x7176600A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71766002, 23489, 0x1766003C, 181.4931, 85.30921, 65.57451, -0.09478959, 0, 0, -0.9954973,  True, '2019-02-10 00:00:00'); /* Virindi Consul */
@@ -56,7 +56,7 @@ VALUES (0x7176600B,  1542, 0x17660007, 10.09036, 153.354, 57.03426, 1, 0, 0, 0, 
 /* @teleloc 0x17660007 [10.090360 153.354000 57.034260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7176600B, 0x7176600C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7176600B, 0x7176600C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7176600C,  4179, 0x17660007, 10.09036, 153.354, 57.03426, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,14 +5,14 @@ VALUES (0x71835001,  1154, 0x1835001A, 80.40811, 34.02703, 65.78733, -0.7918339,
 /* @teleloc 0x1835001A [80.408110 34.027030 65.787330] -0.791834 0.000000 0.000000 -0.610737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71835001, 0x71835002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71835001, 0x71835003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71835001, 0x71835004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71835001, 0x71835005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71835001, 0x71835006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71835001, 0x71835007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71835001, 0x71835008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71835001, 0x71835009, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x71835001, 0x71835002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71835001, 0x71835003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71835001, 0x71835004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71835001, 0x71835005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71835001, 0x71835006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71835001, 0x71835007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71835001, 0x71835008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71835001, 0x71835009, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71835002,  7114, 0x1835001A, 80.40811, 34.02703, 65.78733, -0.7918339, 0, 0, -0.6107365,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -51,8 +51,8 @@ VALUES (0x7183500A,  1542, 0x1835000C, 28.16352, 74.76946, 70.011, 0.4178655, 0,
 /* @teleloc 0x1835000C [28.163520 74.769460 70.011000] 0.417866 0.000000 0.000000 -0.908509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183500A, 0x7183500B, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x7183500A, 0x7183500C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7183500A, 0x7183500B, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x7183500A, 0x7183500C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183500B, 31688, 0x1835000C, 28.16352, 74.76946, 70.011, 0.4178655, 0, 0, -0.9085089,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

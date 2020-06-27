@@ -5,10 +5,10 @@ VALUES (0x72974001,  1154, 0x29740028, 112.1569, 170.9304, 178, 0.5252798, 0, 0,
 /* @teleloc 0x29740028 [112.156900 170.930400 178.000000] 0.525280 0.000000 0.000000 -0.850930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72974001, 0x72974002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72974001, 0x72974003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72974001, 0x72974004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72974001, 0x72974005, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x72974001, 0x72974002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72974001, 0x72974003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72974001, 0x72974004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72974001, 0x72974005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72974002, 23616, 0x29740028, 112.1569, 170.9304, 178, 0.5252798, 0, 0, -0.8509296,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

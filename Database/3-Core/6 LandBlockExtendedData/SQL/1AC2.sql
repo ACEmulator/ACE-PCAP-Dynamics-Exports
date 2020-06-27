@@ -5,14 +5,14 @@ VALUES (0x71AC2001,  1154, 0x1AC2003C, 179.2847, 90.80224, 64.58434, 0.8191521, 
 /* @teleloc 0x1AC2003C [179.284700 90.802240 64.584340] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AC2001, 0x71AC2002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC2001, 0x71AC2003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC2001, 0x71AC2004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC2001, 0x71AC2005, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71AC2001, 0x71AC2006, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71AC2001, 0x71AC2007, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71AC2001, 0x71AC2008, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71AC2001, 0x71AC2009, '2019-02-10 00:00:00') /* Great Elariwood Golem */;
+VALUES (0x71AC2001, 0x71AC2002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC2001, 0x71AC2003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC2001, 0x71AC2004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC2001, 0x71AC2005, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71AC2001, 0x71AC2006, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71AC2001, 0x71AC2007, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71AC2001, 0x71AC2008, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71AC2001, 0x71AC2009, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AC2002, 27711, 0x1AC2003C, 179.2847, 90.80224, 64.58434, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */

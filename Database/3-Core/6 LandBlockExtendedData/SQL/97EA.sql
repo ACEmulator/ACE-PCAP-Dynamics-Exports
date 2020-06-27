@@ -5,13 +5,13 @@ VALUES (0x797EA001,  1154, 0x97EA001C, 91.07829, 78.41037, 66.00191, -0.7396318,
 /* @teleloc 0x97EA001C [91.078290 78.410370 66.001910] -0.739632 0.000000 0.000000 -0.673012 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797EA001, 0x797EA002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x797EA001, 0x797EA003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797EA001, 0x797EA004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797EA001, 0x797EA005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x797EA001, 0x797EA006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x797EA001, 0x797EA007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797EA001, 0x797EA008, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x797EA001, 0x797EA002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x797EA001, 0x797EA003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797EA001, 0x797EA004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797EA001, 0x797EA005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x797EA001, 0x797EA006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x797EA001, 0x797EA007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797EA001, 0x797EA008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797EA002, 28551, 0x97EA001C, 91.07829, 78.41037, 66.00191, -0.7396318, 0, 0, -0.6730118,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

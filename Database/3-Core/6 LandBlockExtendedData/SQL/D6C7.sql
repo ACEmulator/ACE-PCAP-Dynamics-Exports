@@ -5,11 +5,11 @@ VALUES (0x7D6C7001,  1154, 0xD6C70018, 62.33997, 191.4347, 73.95289, 0.6139359, 
 /* @teleloc 0xD6C70018 [62.339970 191.434700 73.952890] 0.613936 0.000000 0.000000 -0.789356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6C7001, 0x7D6C7002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D6C7001, 0x7D6C7003, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D6C7001, 0x7D6C7004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D6C7001, 0x7D6C7005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D6C7001, 0x7D6C7006, '2019-02-10 00:00:00') /* Augmented Olthoi */;
+VALUES (0x7D6C7001, 0x7D6C7002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D6C7001, 0x7D6C7003, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D6C7001, 0x7D6C7004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D6C7001, 0x7D6C7005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D6C7001, 0x7D6C7006, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6C7002, 23482, 0xD6C70018, 62.33997, 191.4347, 73.95289, 0.6139359, 0, 0, -0.7893558,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

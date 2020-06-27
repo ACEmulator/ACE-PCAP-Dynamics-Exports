@@ -5,22 +5,22 @@ VALUES (0x7BD80001,  1154, 0xBD80000D, 44.97337, 96.11603, 36.0045, 0.4114957, 0
 /* @teleloc 0xBD80000D [44.973370 96.116030 36.004500] 0.411496 0.000000 0.000000 -0.911412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD80001, 0x7BD80002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD80001, 0x7BD80003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD80001, 0x7BD80004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD80001, 0x7BD80005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD80001, 0x7BD80006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD80001, 0x7BD80007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BD80001, 0x7BD80008, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BD80001, 0x7BD80009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BD80001, 0x7BD8000A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD80001, 0x7BD8000B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BD80001, 0x7BD8000C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BD80001, 0x7BD8000D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BD80001, 0x7BD8000E, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BD80001, 0x7BD8000F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BD80001, 0x7BD80010, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD80001, 0x7BD80011, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7BD80001, 0x7BD80002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD80001, 0x7BD80003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD80001, 0x7BD80004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD80001, 0x7BD80005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD80001, 0x7BD80006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD80001, 0x7BD80007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BD80001, 0x7BD80008, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BD80001, 0x7BD80009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BD80001, 0x7BD8000A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD80001, 0x7BD8000B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BD80001, 0x7BD8000C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BD80001, 0x7BD8000D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BD80001, 0x7BD8000E, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BD80001, 0x7BD8000F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BD80001, 0x7BD80010, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD80001, 0x7BD80011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD80002,  1612, 0xBD80000D, 44.97337, 96.11603, 36.0045, 0.4114957, 0, 0, -0.9114117,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -91,8 +91,8 @@ VALUES (0x7BD80012,  1542, 0xBD80000D, 45.39302, 112.8822, 36, 1, 0, 0, 0, False
 /* @teleloc 0xBD80000D [45.393020 112.882200 36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD80012, 0x7BD80013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BD80012, 0x7BD80014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD80012, 0x7BD80013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BD80012, 0x7BD80014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD80013,  4179, 0xBD80000D, 45.39302, 112.8822, 36, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

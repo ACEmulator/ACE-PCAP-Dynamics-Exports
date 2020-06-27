@@ -301,67 +301,67 @@ VALUES (0x701890BF,  1154, 0x018902C8, 82.4945, -102.611, 0.002499998, -0.707106
 /* @teleloc 0x018902C8 [82.494500 -102.611000 0.002500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701890BF, 0x701890C0, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C1, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C2, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C3, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C4, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C5, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C6, '2019-02-10 00:00:00') /* Lich */
-     , (0x701890BF, 0x701890C7, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890C8, '2019-02-10 00:00:00') /* Lich */
-     , (0x701890BF, 0x701890C9, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890CA, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890CB, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890CC, '2019-02-10 00:00:00') /* Lich */
-     , (0x701890BF, 0x701890CD, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890CE, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890CF, '2019-02-10 00:00:00') /* Lich */
-     , (0x701890BF, 0x701890D0, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D1, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890D2, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D3, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D4, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D5, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D6, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D7, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D8, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890D9, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890DA, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890DB, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890DC, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890DD, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890DE, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890DF, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x701890BF, 0x701890E0, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890E1, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890E2, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890E3, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890E4, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890E5, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x701890BF, 0x701890E6, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x701890BF, 0x701890E7, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x701890BF, 0x701890E8, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x701890BF, 0x701890E9, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890EA, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890EB, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890EC, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701890BF, 0x701890ED, '2019-02-10 00:00:00') /* Tortured Soul */
-     , (0x701890BF, 0x701890EE, '2019-02-10 00:00:00') /* Lich */
-     , (0x701890BF, 0x701890EF, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F0, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F1, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F2, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F3, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F4, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F5, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F6, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F7, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701890BF, 0x701890F8, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890F9, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890FA, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890FB, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x701890BF, 0x701890FC, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x701890BF, 0x701890C0, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C1, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C2, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C3, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C4, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C5, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C6, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701890BF, 0x701890C7, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890C8, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701890BF, 0x701890C9, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890CA, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890CB, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890CC, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701890BF, 0x701890CD, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890CE, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890CF, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701890BF, 0x701890D0, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D1, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890D2, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D3, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D4, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D5, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D6, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D7, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D8, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890D9, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890DA, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890DB, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890DC, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890DD, '2019-02-10 00:00:00') /* Greater Mu-miyah (6772) */
+     , (0x701890BF, 0x701890DE, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890DF, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x701890BF, 0x701890E0, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890E1, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890E2, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890E3, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890E4, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890E5, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x701890BF, 0x701890E6, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x701890BF, 0x701890E7, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x701890BF, 0x701890E8, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x701890BF, 0x701890E9, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890EA, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890EB, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890EC, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701890BF, 0x701890ED, '2019-02-10 00:00:00') /* Tortured Soul (4123) */
+     , (0x701890BF, 0x701890EE, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701890BF, 0x701890EF, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F0, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F1, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F2, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F3, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F4, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F5, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F6, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F7, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701890BF, 0x701890F8, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890F9, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890FA, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x701890BF, 0x701890FB, '2019-02-10 00:00:00') /* Greater Mu-miyah (6772) */
+     , (0x701890BF, 0x701890FC, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701890C0,  1761, 0x018902C8, 82.4945, -102.611, 0.002499998, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -612,7 +612,7 @@ VALUES (0x701890FD,  1542, 0x01890114, 100, -40, -47.9145, 1, 0, 0, 0, False, '2
 /* @teleloc 0x01890114 [100.000000 -40.000000 -47.914500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701890FD, 0x701890FE, '2019-02-10 00:00:00') /* Scroll of Piercing Protection Self IV */;
+VALUES (0x701890FD, 0x701890FE, '2019-02-10 00:00:00') /* Scroll of Piercing Protection Self IV (3070) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701890FE,  3070, 0x01890114, 100, -40, -47.9145, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Piercing Protection Self IV */

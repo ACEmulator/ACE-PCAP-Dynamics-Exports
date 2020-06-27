@@ -5,10 +5,10 @@ VALUES (0x72A5F001,  1154, 0x2A5F0013, 64.51615, 50.143, 39.53827, -0.3117822, 0
 /* @teleloc 0x2A5F0013 [64.516150 50.143000 39.538270] -0.311782 0.000000 0.000000 -0.950154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5F001, 0x72A5F002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72A5F001, 0x72A5F003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72A5F001, 0x72A5F004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72A5F001, 0x72A5F005, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72A5F001, 0x72A5F002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72A5F001, 0x72A5F003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72A5F001, 0x72A5F004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72A5F001, 0x72A5F005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5F002, 24320, 0x2A5F0013, 64.51615, 50.143, 39.53827, -0.3117822, 0, 0, -0.9501536,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -31,7 +31,7 @@ VALUES (0x72A5F006,  1542, 0x2A5F0028, 100.9363, 170.5314, 43.41879, -0.1736482,
 /* @teleloc 0x2A5F0028 [100.936300 170.531400 43.418790] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5F006, 0x72A5F007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x72A5F006, 0x72A5F007, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5F007,  4180, 0x2A5F0028, 100.9363, 170.5314, 43.41879, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

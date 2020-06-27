@@ -5,10 +5,10 @@ VALUES (0x7D670001,  1154, 0xD6700026, 102.2882, 129.7832, 62.82127, -0.9317633,
 /* @teleloc 0xD6700026 [102.288200 129.783200 62.821270] -0.931763 0.000000 0.000000 -0.363066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D670001, 0x7D670002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D670001, 0x7D670003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D670001, 0x7D670004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D670001, 0x7D670005, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7D670001, 0x7D670002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D670001, 0x7D670003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D670001, 0x7D670004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D670001, 0x7D670005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D670002, 23565, 0xD6700026, 102.2882, 129.7832, 62.82127, -0.9317633, 0, 0, -0.3630663,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -31,7 +31,7 @@ VALUES (0x7D670006,  1542, 0xD670000D, 32.99366, 101.0567, 61.25053, 1, 0, 0, 0,
 /* @teleloc 0xD670000D [32.993660 101.056700 61.250530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D670006, 0x7D670007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D670006, 0x7D670007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D670007, 22567, 0xD670000D, 32.99366, 101.0567, 61.25053, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

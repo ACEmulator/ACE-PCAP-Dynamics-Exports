@@ -5,13 +5,13 @@ VALUES (0x79B39001,  1154, 0x9B39003E, 176.3942, 126.6448, 108.0082, -0.9969561,
 /* @teleloc 0x9B39003E [176.394200 126.644800 108.008200] -0.996956 0.000000 0.000000 -0.077965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B39001, 0x79B39002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79B39001, 0x79B39003, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79B39001, 0x79B39004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79B39001, 0x79B39005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79B39001, 0x79B39006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79B39001, 0x79B39007, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79B39001, 0x79B39008, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x79B39001, 0x79B39002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79B39001, 0x79B39003, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79B39001, 0x79B39004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79B39001, 0x79B39005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79B39001, 0x79B39006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79B39001, 0x79B39007, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79B39001, 0x79B39008, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B39002,  8673, 0x9B39003E, 176.3942, 126.6448, 108.0082, -0.9969561, 0, 0, -0.07796536,  True, '2019-02-10 00:00:00'); /* Risen Knight */

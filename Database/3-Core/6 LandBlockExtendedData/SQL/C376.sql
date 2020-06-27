@@ -5,10 +5,10 @@ VALUES (0x7C376001,  1154, 0xC376001E, 86.55536, 138.2077, 5.112, 0.9951264, 0, 
 /* @teleloc 0xC376001E [86.555360 138.207700 5.112000] 0.995126 0.000000 0.000000 -0.098608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C376001, 0x7C376002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C376001, 0x7C376003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C376001, 0x7C376004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C376001, 0x7C376005, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7C376001, 0x7C376002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C376001, 0x7C376003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C376001, 0x7C376004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C376001, 0x7C376005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C376002,   215, 0xC376001E, 86.55536, 138.2077, 5.112, 0.9951264, 0, 0, -0.09860761,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -31,7 +31,7 @@ VALUES (0x7C376006,  1542, 0xC3760017, 64.8479, 163.2683, 5.1, 0.9951264, 0, 0, 
 /* @teleloc 0xC3760017 [64.847900 163.268300 5.100000] 0.995126 0.000000 0.000000 -0.098608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C376006, 0x7C376007, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C376006, 0x7C376007, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C376007,  8644, 0xC3760017, 64.8479, 163.2683, 5.1, 0.9951264, 0, 0, -0.09860761,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

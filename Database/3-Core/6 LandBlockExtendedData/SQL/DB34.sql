@@ -5,14 +5,14 @@ VALUES (0x7DB34001,  1154, 0xDB340040, 187.9022, 183.8231, 117.7305, 0.3650329, 
 /* @teleloc 0xDB340040 [187.902200 183.823100 117.730500] 0.365033 0.000000 0.000000 -0.930995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB34001, 0x7DB34002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7DB34001, 0x7DB34003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7DB34001, 0x7DB34004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DB34001, 0x7DB34005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DB34001, 0x7DB34006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7DB34001, 0x7DB34007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7DB34001, 0x7DB34008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7DB34001, 0x7DB34009, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7DB34001, 0x7DB34002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7DB34001, 0x7DB34003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7DB34001, 0x7DB34004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DB34001, 0x7DB34005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DB34001, 0x7DB34006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7DB34001, 0x7DB34007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7DB34001, 0x7DB34008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7DB34001, 0x7DB34009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB34002, 19439, 0xDB340040, 187.9022, 183.8231, 117.7305, 0.3650329, 0, 0, -0.9309946,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

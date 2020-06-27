@@ -5,10 +5,10 @@ VALUES (0x786F2001,  1154, 0x86F20021, 110.6801, 22.40801, 85.60201, -0.4717112,
 /* @teleloc 0x86F20021 [110.680100 22.408010 85.602010] -0.471711 0.000000 0.000000 -0.881753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786F2001, 0x786F2002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x786F2001, 0x786F2003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x786F2001, 0x786F2004, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x786F2001, 0x786F2005, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x786F2001, 0x786F2002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x786F2001, 0x786F2003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x786F2001, 0x786F2004, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x786F2001, 0x786F2005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786F2002, 28551, 0x86F20021, 110.6801, 22.40801, 85.60201, -0.4717112, 0, 0, -0.8817531,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

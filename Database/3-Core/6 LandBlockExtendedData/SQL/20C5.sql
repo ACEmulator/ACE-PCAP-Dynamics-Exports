@@ -5,13 +5,13 @@ VALUES (0x720C5001,  1154, 0x20C50019, 77.27573, 1.408743, 36.68764, -0.8864225,
 /* @teleloc 0x20C50019 [77.275730 1.408743 36.687640] -0.886423 0.000000 0.000000 -0.462877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C5001, 0x720C5002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x720C5001, 0x720C5003, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720C5001, 0x720C5004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720C5001, 0x720C5005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C5001, 0x720C5006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C5001, 0x720C5007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C5001, 0x720C5008, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x720C5001, 0x720C5002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x720C5001, 0x720C5003, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720C5001, 0x720C5004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720C5001, 0x720C5005, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C5001, 0x720C5006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C5001, 0x720C5007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x720C5001, 0x720C5008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C5002, 11540, 0x20C50019, 77.27573, 1.408743, 36.68764, -0.8864225, 0, 0, -0.4628769,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

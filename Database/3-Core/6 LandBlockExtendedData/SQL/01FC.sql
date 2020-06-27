@@ -29,24 +29,24 @@ VALUES (0x701FC021,  1154, 0x01FC0116, 22.1541, -90.1638, 0.00892508, 0.906768, 
 /* @teleloc 0x01FC0116 [22.154100 -90.163800 0.008925] 0.906768 0.000000 0.000000 -0.421629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FC021, 0x701FC022, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x701FC021, 0x701FC023, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x701FC021, 0x701FC024, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701FC021, 0x701FC025, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC026, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC027, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC028, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC029, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701FC021, 0x701FC02A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC02B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC02C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC02D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC02E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC02F, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701FC021, 0x701FC030, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC031, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC032, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701FC021, 0x701FC033, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x701FC021, 0x701FC022, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x701FC021, 0x701FC023, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x701FC021, 0x701FC024, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701FC021, 0x701FC025, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC026, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC027, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC028, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC029, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701FC021, 0x701FC02A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC02B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC02C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC02D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC02E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC02F, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701FC021, 0x701FC030, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC031, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC032, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC021, 0x701FC033, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FC022,   177, 0x01FC0116, 22.1541, -90.1638, 0.00892508, 0.906768, 0, 0, -0.421629,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
@@ -125,7 +125,7 @@ VALUES (0x701FC034,  1542, 0x01FC012D, 57.04088, -52.85445, 0.0855, 0.7071068, 0
 /* @teleloc 0x01FC012D [57.040880 -52.854450 0.085500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FC034, 0x701FC035, '2019-02-10 00:00:00') /* Scroll of War Magic Ineptitude IV */;
+VALUES (0x701FC034, 0x701FC035, '2019-02-10 00:00:00') /* Scroll of War Magic Ineptitude IV (3565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FC035,  3565, 0x01FC012D, 57.04088, -52.85445, 0.0855, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scroll of War Magic Ineptitude IV */

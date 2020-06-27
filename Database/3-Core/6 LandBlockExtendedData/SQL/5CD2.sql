@@ -5,10 +5,10 @@ VALUES (0x75CD2001,  1154, 0x5CD20030, 136.2485, 183.5038, 40.59054, 0.9238795, 
 /* @teleloc 0x5CD20030 [136.248500 183.503800 40.590540] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CD2001, 0x75CD2002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75CD2001, 0x75CD2003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75CD2001, 0x75CD2004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75CD2001, 0x75CD2005, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x75CD2001, 0x75CD2002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75CD2001, 0x75CD2003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75CD2001, 0x75CD2004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75CD2001, 0x75CD2005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CD2002, 10807, 0x5CD20030, 136.2485, 183.5038, 40.59054, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

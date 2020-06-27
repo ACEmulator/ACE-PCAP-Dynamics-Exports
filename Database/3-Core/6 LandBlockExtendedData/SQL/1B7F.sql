@@ -17,69 +17,69 @@ VALUES (0x71B7F042,  1154, 0x1B7F0006, 9.53777, 134.996, 95.2, 0.727062, 0, 0, 0
 /* @teleloc 0x1B7F0006 [9.537770 134.996000 95.200000] 0.727062 0.000000 0.000000 0.686571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7F042, 0x71B7F043, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x71B7F042, 0x71B7F044, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x71B7F042, 0x71B7F045, '2019-02-10 00:00:00') /* Brumal */
-     , (0x71B7F042, 0x71B7F046, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B7F042, 0x71B7F047, '2019-02-10 00:00:00') /* Horripal */
-     , (0x71B7F042, 0x71B7F048, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7F042, 0x71B7F049, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7F042, 0x71B7F04A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71B7F042, 0x71B7F04B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71B7F042, 0x71B7F04C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F04D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F04E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F04F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F050, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F051, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F052, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F053, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F054, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F055, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F056, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71B7F042, 0x71B7F057, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F058, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F059, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F05A, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F05B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F05C, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F05D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F05E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F05F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F060, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x71B7F042, 0x71B7F061, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x71B7F042, 0x71B7F062, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B7F042, 0x71B7F063, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F064, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F065, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B7F042, 0x71B7F066, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x71B7F042, 0x71B7F067, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7F042, 0x71B7F068, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71B7F042, 0x71B7F069, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7F042, 0x71B7F06A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B7F042, 0x71B7F06B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7F042, 0x71B7F06C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7F042, 0x71B7F06D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71B7F042, 0x71B7F06E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x71B7F042, 0x71B7F06F, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B7F042, 0x71B7F070, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71B7F042, 0x71B7F071, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71B7F042, 0x71B7F072, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71B7F042, 0x71B7F073, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71B7F042, 0x71B7F074, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71B7F042, 0x71B7F075, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71B7F042, 0x71B7F076, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71B7F042, 0x71B7F077, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71B7F042, 0x71B7F078, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71B7F042, 0x71B7F079, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71B7F042, 0x71B7F07A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71B7F042, 0x71B7F07B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71B7F042, 0x71B7F07C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71B7F042, 0x71B7F07D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71B7F042, 0x71B7F07E, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71B7F042, 0x71B7F07F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B7F042, 0x71B7F080, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7F042, 0x71B7F081, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x71B7F042, 0x71B7F043, '2019-02-10 00:00:00') /* Exploration Marker (39753) */
+     , (0x71B7F042, 0x71B7F044, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x71B7F042, 0x71B7F045, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x71B7F042, 0x71B7F046, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71B7F042, 0x71B7F047, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x71B7F042, 0x71B7F048, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7F042, 0x71B7F049, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7F042, 0x71B7F04A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71B7F042, 0x71B7F04B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71B7F042, 0x71B7F04C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F04D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F04E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F04F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F050, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F051, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F052, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F053, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F054, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F055, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F056, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71B7F042, 0x71B7F057, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F058, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F059, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F05A, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F05B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F05C, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F05D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F05E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F05F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F060, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x71B7F042, 0x71B7F061, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x71B7F042, 0x71B7F062, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B7F042, 0x71B7F063, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F064, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F065, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B7F042, 0x71B7F066, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x71B7F042, 0x71B7F067, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7F042, 0x71B7F068, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71B7F042, 0x71B7F069, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7F042, 0x71B7F06A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B7F042, 0x71B7F06B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7F042, 0x71B7F06C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7F042, 0x71B7F06D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71B7F042, 0x71B7F06E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x71B7F042, 0x71B7F06F, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B7F042, 0x71B7F070, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71B7F042, 0x71B7F071, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71B7F042, 0x71B7F072, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71B7F042, 0x71B7F073, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71B7F042, 0x71B7F074, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71B7F042, 0x71B7F075, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71B7F042, 0x71B7F076, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71B7F042, 0x71B7F077, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71B7F042, 0x71B7F078, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71B7F042, 0x71B7F079, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71B7F042, 0x71B7F07A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71B7F042, 0x71B7F07B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71B7F042, 0x71B7F07C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71B7F042, 0x71B7F07D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71B7F042, 0x71B7F07E, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71B7F042, 0x71B7F07F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B7F042, 0x71B7F080, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7F042, 0x71B7F081, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7F043, 39753, 0x1B7F0006, 9.53777, 134.996, 95.2, 0.727062, 0, 0, 0.686571,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -338,19 +338,19 @@ VALUES (0x71B7F082,  1542, 0x1B7F000D, 37.91861, 112.7609, 80.0057, -0.0234681, 
 /* @teleloc 0x1B7F000D [37.918610 112.760900 80.005700] -0.023468 0.000000 0.000000 -0.999725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7F082, 0x71B7F083, '2019-02-10 00:00:00') /* Cow */
-     , (0x71B7F082, 0x71B7F084, '2019-02-10 00:00:00') /* Cow */
-     , (0x71B7F082, 0x71B7F085, '2019-02-10 00:00:00') /* Cow */
-     , (0x71B7F082, 0x71B7F086, '2019-02-10 00:00:00') /* Meat */
-     , (0x71B7F082, 0x71B7F087, '2019-02-10 00:00:00') /* Meat */
-     , (0x71B7F082, 0x71B7F088, '2019-02-10 00:00:00') /* Meat */
-     , (0x71B7F082, 0x71B7F089, '2019-02-10 00:00:00') /* Meat */
-     , (0x71B7F082, 0x71B7F08A, '2019-02-10 00:00:00') /* Meat */
-     , (0x71B7F082, 0x71B7F08B, '2019-02-10 00:00:00') /* Bones */
-     , (0x71B7F082, 0x71B7F08C, '2019-02-10 00:00:00') /* Cow */
-     , (0x71B7F082, 0x71B7F08D, '2019-02-10 00:00:00') /* Bones */
-     , (0x71B7F082, 0x71B7F08E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71B7F082, 0x71B7F08F, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x71B7F082, 0x71B7F083, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x71B7F082, 0x71B7F084, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x71B7F082, 0x71B7F085, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x71B7F082, 0x71B7F086, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x71B7F082, 0x71B7F087, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x71B7F082, 0x71B7F088, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x71B7F082, 0x71B7F089, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x71B7F082, 0x71B7F08A, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x71B7F082, 0x71B7F08B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71B7F082, 0x71B7F08C, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x71B7F082, 0x71B7F08D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71B7F082, 0x71B7F08E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x71B7F082, 0x71B7F08F, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7F083,   618, 0x1B7F000D, 37.91861, 112.7609, 80.0057, -0.0234681, 0, 0, -0.999725,  True, '2019-02-10 00:00:00'); /* Cow */

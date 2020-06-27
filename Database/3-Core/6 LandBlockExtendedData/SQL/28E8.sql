@@ -5,16 +5,16 @@ VALUES (0x728E8001,  1154, 0x28E8000D, 43.94121, 111.5353, 8.01, 0.1103594, 0, 0
 /* @teleloc 0x28E8000D [43.941210 111.535300 8.010000] 0.110359 0.000000 0.000000 -0.993892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728E8001, 0x728E8002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x728E8001, 0x728E8003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x728E8001, 0x728E8004, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x728E8001, 0x728E8005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x728E8001, 0x728E8006, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728E8001, 0x728E8007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x728E8001, 0x728E8008, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x728E8001, 0x728E8009, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x728E8001, 0x728E800A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x728E8001, 0x728E800B, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x728E8001, 0x728E8002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x728E8001, 0x728E8003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x728E8001, 0x728E8004, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x728E8001, 0x728E8005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x728E8001, 0x728E8006, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728E8001, 0x728E8007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x728E8001, 0x728E8008, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x728E8001, 0x728E8009, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x728E8001, 0x728E800A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x728E8001, 0x728E800B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728E8002,  7507, 0x28E8000D, 43.94121, 111.5353, 8.01, 0.1103594, 0, 0, -0.9938917,  True, '2019-02-10 00:00:00'); /* Coral Golem */

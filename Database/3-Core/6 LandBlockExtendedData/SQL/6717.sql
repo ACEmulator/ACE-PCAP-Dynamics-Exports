@@ -5,10 +5,10 @@ VALUES (0x76717001,  1154, 0x67170038, 144.3531, 179.3875, 9.6622, -0.8788171, 0
 /* @teleloc 0x67170038 [144.353100 179.387500 9.662200] -0.878817 0.000000 0.000000 -0.477159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76717001, 0x76717002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x76717001, 0x76717003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x76717001, 0x76717004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76717001, 0x76717005, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x76717001, 0x76717002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x76717001, 0x76717003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x76717001, 0x76717004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76717001, 0x76717005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76717002,  8429, 0x67170038, 144.3531, 179.3875, 9.6622, -0.8788171, 0, 0, -0.4771587,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

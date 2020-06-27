@@ -5,11 +5,11 @@ VALUES (0x7C252001,  1154, 0xC252002E, 120.588, 142.3844, 20.19573, 0.9238795, 0
 /* @teleloc 0xC252002E [120.588000 142.384400 20.195730] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C252001, 0x7C252002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C252001, 0x7C252003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C252001, 0x7C252004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C252001, 0x7C252005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C252001, 0x7C252006, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7C252001, 0x7C252002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C252001, 0x7C252003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C252001, 0x7C252004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C252001, 0x7C252005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C252001, 0x7C252006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C252002,   235, 0xC252002E, 120.588, 142.3844, 20.19573, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

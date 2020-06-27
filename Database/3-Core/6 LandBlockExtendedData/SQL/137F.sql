@@ -5,9 +5,9 @@ VALUES (0x7137F001,  1154, 0x137F0032, 153.5442, 32.61753, 148.7163, -0.3013392,
 /* @teleloc 0x137F0032 [153.544200 32.617530 148.716300] -0.301339 0.000000 0.000000 -0.953517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137F001, 0x7137F002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7137F001, 0x7137F003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7137F001, 0x7137F004, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7137F001, 0x7137F002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7137F001, 0x7137F003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7137F001, 0x7137F004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137F002, 28553, 0x137F0032, 153.5442, 32.61753, 148.7163, -0.3013392, 0, 0, -0.953517,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
@@ -26,8 +26,8 @@ VALUES (0x7137F005,  1542, 0x137F0032, 157.0031, 41.65437, 148.8513, -0.3013392,
 /* @teleloc 0x137F0032 [157.003100 41.654370 148.851300] -0.301339 0.000000 0.000000 -0.953517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137F005, 0x7137F006, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x7137F005, 0x7137F007, '2019-02-10 00:00:00') /* Bistort */;
+VALUES (0x7137F005, 0x7137F006, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x7137F005, 0x7137F007, '2019-02-10 00:00:00') /* Bistort (766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137F006, 11555, 0x137F0032, 157.0031, 41.65437, 148.8513, -0.3013392, 0, 0, -0.953517,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

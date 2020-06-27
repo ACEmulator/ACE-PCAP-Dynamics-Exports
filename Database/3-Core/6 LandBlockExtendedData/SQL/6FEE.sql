@@ -5,13 +5,13 @@ VALUES (0x76FEE001,  1154, 0x6FEE0025, 97.16715, 100.8472, 21.20038, 0.6618484, 
 /* @teleloc 0x6FEE0025 [97.167150 100.847200 21.200380] 0.661848 0.000000 0.000000 -0.749638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76FEE001, 0x76FEE002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x76FEE001, 0x76FEE003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x76FEE001, 0x76FEE004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76FEE001, 0x76FEE005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x76FEE001, 0x76FEE006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76FEE001, 0x76FEE007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x76FEE001, 0x76FEE008, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x76FEE001, 0x76FEE002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x76FEE001, 0x76FEE003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x76FEE001, 0x76FEE004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76FEE001, 0x76FEE005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x76FEE001, 0x76FEE006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76FEE001, 0x76FEE007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x76FEE001, 0x76FEE008, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FEE002, 24325, 0x6FEE0025, 97.16715, 100.8472, 21.20038, 0.6618484, 0, 0, -0.7496377,  True, '2019-02-10 00:00:00'); /* Phantasm */

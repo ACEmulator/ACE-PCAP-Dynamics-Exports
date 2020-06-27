@@ -5,19 +5,19 @@ VALUES (0x7D76D001,  1154, 0xD76D0011, 62.24186, 14.32542, 41.61943, 0.6444079, 
 /* @teleloc 0xD76D0011 [62.241860 14.325420 41.619430] 0.644408 0.000000 0.000000 -0.764682 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D76D001, 0x7D76D002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7D76D001, 0x7D76D004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7D76D001, 0x7D76D009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D76D001, 0x7D76D00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D76D001, 0x7D76D00B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D76D001, 0x7D76D00C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D76D001, 0x7D76D00D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D76D001, 0x7D76D00E, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7D76D001, 0x7D76D002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7D76D001, 0x7D76D004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D76D001, 0x7D76D009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D76D001, 0x7D76D00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D76D001, 0x7D76D00B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D76D001, 0x7D76D00C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D76D001, 0x7D76D00D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D76D001, 0x7D76D00E, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D76D002, 14512, 0xD76D0011, 62.24186, 14.32542, 41.61943, 0.6444079, 0, 0, -0.7646819,  True, '2019-02-10 00:00:00'); /* Frost */

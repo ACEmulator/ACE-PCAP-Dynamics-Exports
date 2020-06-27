@@ -5,12 +5,12 @@ VALUES (0x7364A001,  1154, 0x364A0031, 160.2497, 14.09281, 0.007499993, 0.961042
 /* @teleloc 0x364A0031 [160.249700 14.092810 0.007500] 0.961042 0.000000 0.000000 -0.276402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7364A001, 0x7364A002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7364A001, 0x7364A003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7364A001, 0x7364A004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7364A001, 0x7364A005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7364A001, 0x7364A006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7364A001, 0x7364A007, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7364A001, 0x7364A002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7364A001, 0x7364A003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7364A001, 0x7364A004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7364A001, 0x7364A005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7364A001, 0x7364A006, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7364A001, 0x7364A007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7364A002, 24326, 0x364A0031, 160.2497, 14.09281, 0.007499993, 0.9610422, 0, 0, -0.2764016,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -41,7 +41,7 @@ VALUES (0x7364A008,  1542, 0x364A0021, 97.65393, 5.763233, 2.571768, 0.7071068, 
 /* @teleloc 0x364A0021 [97.653930 5.763233 2.571768] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7364A008, 0x7364A009, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x7364A008, 0x7364A009, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7364A009,   689, 0x364A0021, 97.65393, 5.763233, 2.571768, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Iron Scarab */

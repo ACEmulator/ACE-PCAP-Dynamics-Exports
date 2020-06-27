@@ -5,19 +5,19 @@ VALUES (0x7A8BB001,  1154, 0xA8BB003A, 190.3613, 39.19985, 58.19427, 0.2588191, 
 /* @teleloc 0xA8BB003A [190.361300 39.199850 58.194270] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8BB001, 0x7A8BB002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A8BB001, 0x7A8BB003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A8BB001, 0x7A8BB004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A8BB001, 0x7A8BB005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7A8BB001, 0x7A8BB006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A8BB001, 0x7A8BB007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8BB001, 0x7A8BB008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8BB001, 0x7A8BB009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8BB001, 0x7A8BB00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A8BB001, 0x7A8BB00B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8BB001, 0x7A8BB00C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A8BB001, 0x7A8BB00D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A8BB001, 0x7A8BB00E, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7A8BB001, 0x7A8BB002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A8BB001, 0x7A8BB003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A8BB001, 0x7A8BB004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A8BB001, 0x7A8BB005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7A8BB001, 0x7A8BB006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A8BB001, 0x7A8BB007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8BB001, 0x7A8BB008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8BB001, 0x7A8BB009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8BB001, 0x7A8BB00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A8BB001, 0x7A8BB00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8BB001, 0x7A8BB00C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A8BB001, 0x7A8BB00D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A8BB001, 0x7A8BB00E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8BB002,   937, 0xA8BB003A, 190.3613, 39.19985, 58.19427, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Guard */

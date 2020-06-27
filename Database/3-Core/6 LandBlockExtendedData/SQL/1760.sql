@@ -5,13 +5,13 @@ VALUES (0x71760001,  1154, 0x17600036, 160.6656, 143.5034, 46.99363, 0.2588191, 
 /* @teleloc 0x17600036 [160.665600 143.503400 46.993630] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71760001, 0x71760002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71760001, 0x71760003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x71760001, 0x71760004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71760001, 0x71760005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71760001, 0x71760006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71760001, 0x71760007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71760001, 0x71760008, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x71760001, 0x71760002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71760001, 0x71760003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x71760001, 0x71760004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71760001, 0x71760005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71760001, 0x71760006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71760001, 0x71760007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71760001, 0x71760008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71760002, 24320, 0x17600036, 160.6656, 143.5034, 46.99363, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -46,7 +46,7 @@ VALUES (0x71760009,  1542, 0x1760000A, 30.43137, 28.73801, 49.87739, 0.703944, 0
 /* @teleloc 0x1760000A [30.431370 28.738010 49.877390] 0.703944 0.000000 0.000000 -0.710256 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71760009, 0x7176000A, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x71760009, 0x7176000A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7176000A,  9286, 0x1760000A, 30.43137, 28.73801, 49.87739, 0.703944, 0, 0, -0.7102555,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

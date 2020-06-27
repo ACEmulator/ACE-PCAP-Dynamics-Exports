@@ -5,10 +5,10 @@ VALUES (0x76CE9001,  1154, 0x6CE90025, 104.5081, 105.0901, 65.31568, 0.1736482, 
 /* @teleloc 0x6CE90025 [104.508100 105.090100 65.315680] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CE9001, 0x76CE9002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76CE9001, 0x76CE9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76CE9001, 0x76CE9004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76CE9001, 0x76CE9005, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x76CE9001, 0x76CE9002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x76CE9001, 0x76CE9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76CE9001, 0x76CE9004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76CE9001, 0x76CE9005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CE9002, 36832, 0x6CE90025, 104.5081, 105.0901, 65.31568, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -31,8 +31,8 @@ VALUES (0x76CE9006,  1542, 0x6CE9001B, 72.26447, 62.78409, 54.04242, -0.05331519
 /* @teleloc 0x6CE9001B [72.264470 62.784090 54.042420] -0.053315 0.000000 0.000000 -0.998578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CE9006, 0x76CE9007, '2019-02-10 00:00:00') /* Rock */
-     , (0x76CE9006, 0x76CE9008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x76CE9006, 0x76CE9007, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x76CE9006, 0x76CE9008, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CE9007, 42528, 0x6CE9001B, 72.26447, 62.78409, 54.04242, -0.05331519, 0, 0, -0.9985777,  True, '2019-02-10 00:00:00'); /* Rock */

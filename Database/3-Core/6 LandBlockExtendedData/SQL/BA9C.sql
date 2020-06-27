@@ -5,22 +5,22 @@ VALUES (0x7BA9C001,  1154, 0xBA9C0037, 162.5822, 154.3136, 24.17242, -0.9953378,
 /* @teleloc 0xBA9C0037 [162.582200 154.313600 24.172420] -0.995338 0.000000 0.000000 -0.096450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9C001, 0x7BA9C002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BA9C001, 0x7BA9C003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BA9C001, 0x7BA9C004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BA9C001, 0x7BA9C005, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BA9C001, 0x7BA9C006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BA9C001, 0x7BA9C007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BA9C001, 0x7BA9C008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BA9C001, 0x7BA9C009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BA9C001, 0x7BA9C00A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BA9C001, 0x7BA9C00B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BA9C001, 0x7BA9C00C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA9C001, 0x7BA9C00D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BA9C001, 0x7BA9C00E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BA9C001, 0x7BA9C00F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BA9C001, 0x7BA9C010, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BA9C001, 0x7BA9C011, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7BA9C001, 0x7BA9C002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BA9C001, 0x7BA9C003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA9C001, 0x7BA9C004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BA9C001, 0x7BA9C005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BA9C001, 0x7BA9C006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BA9C001, 0x7BA9C007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BA9C001, 0x7BA9C008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BA9C001, 0x7BA9C009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BA9C001, 0x7BA9C00A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BA9C001, 0x7BA9C00B, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BA9C001, 0x7BA9C00C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA9C001, 0x7BA9C00D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BA9C001, 0x7BA9C00E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BA9C001, 0x7BA9C00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BA9C001, 0x7BA9C010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BA9C001, 0x7BA9C011, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9C002,  7990, 0xBA9C0037, 162.5822, 154.3136, 24.17242, -0.9953378, 0, 0, -0.09645004,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -91,7 +91,7 @@ VALUES (0x7BA9C012,  1542, 0xBA9C0032, 147.8497, 44.32959, 15.67919, 1, 0, 0, 0,
 /* @teleloc 0xBA9C0032 [147.849700 44.329590 15.679190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9C012, 0x7BA9C013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BA9C012, 0x7BA9C013, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9C013, 22572, 0xBA9C0032, 147.8497, 44.32959, 15.67919, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x71457001,  1154, 0x14570036, 166.2467, 130.2004, 3.858438, 0.7372774, 
 /* @teleloc 0x14570036 [166.246700 130.200400 3.858438] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71457001, 0x71457002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71457001, 0x71457003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71457001, 0x71457004, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x71457001, 0x71457002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71457001, 0x71457003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71457001, 0x71457004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71457002, 36826, 0x14570036, 166.2467, 130.2004, 3.858438, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

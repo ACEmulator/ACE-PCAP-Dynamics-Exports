@@ -5,16 +5,16 @@ VALUES (0x7C11A001,  1154, 0xC11A0003, 11.88235, 50.04872, 244.591, 0.7044957, 0
 /* @teleloc 0xC11A0003 [11.882350 50.048720 244.591000] 0.704496 0.000000 0.000000 -0.709708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C11A001, 0x7C11A002, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7C11A001, 0x7C11A003, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7C11A001, 0x7C11A004, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7C11A001, 0x7C11A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C11A001, 0x7C11A006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C11A001, 0x7C11A007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C11A001, 0x7C11A008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C11A001, 0x7C11A009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C11A001, 0x7C11A00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C11A001, 0x7C11A00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7C11A001, 0x7C11A002, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7C11A001, 0x7C11A003, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7C11A001, 0x7C11A004, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7C11A001, 0x7C11A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C11A001, 0x7C11A006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C11A001, 0x7C11A007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C11A001, 0x7C11A008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C11A001, 0x7C11A009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C11A001, 0x7C11A00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C11A001, 0x7C11A00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C11A002, 34297, 0xC11A0003, 11.88235, 50.04872, 244.591, 0.7044957, 0, 0, -0.7097083,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */

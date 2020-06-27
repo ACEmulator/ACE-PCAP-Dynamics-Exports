@@ -5,12 +5,12 @@ VALUES (0x72662001,  1154, 0x2662001A, 87.79858, 26.52967, 38.07376, 0.3987491, 
 /* @teleloc 0x2662001A [87.798580 26.529670 38.073760] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72662001, 0x72662002, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72662001, 0x72662003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72662001, 0x72662004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72662001, 0x72662005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72662001, 0x72662006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72662001, 0x72662007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72662001, 0x72662002, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72662001, 0x72662003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72662001, 0x72662004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72662001, 0x72662005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72662001, 0x72662006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72662001, 0x72662007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72662002, 24310, 0x2662001A, 87.79858, 26.52967, 38.07376, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Direland Rat */

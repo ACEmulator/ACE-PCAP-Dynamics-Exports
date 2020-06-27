@@ -5,8 +5,8 @@ VALUES (0x761C9001,  1154, 0x61C90002, 4.688771, 43.71122, 169.4063, -0.7660444,
 /* @teleloc 0x61C90002 [4.688771 43.711220 169.406300] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761C9001, 0x761C9002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x761C9001, 0x761C9003, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x761C9001, 0x761C9002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x761C9001, 0x761C9003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761C9002, 24494, 0x61C90002, 4.688771, 43.71122, 169.4063, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -21,8 +21,8 @@ VALUES (0x761C9004,  1542, 0x61C9000A, 47.93814, 36.00914, 167.0065, 0.9412214, 
 /* @teleloc 0x61C9000A [47.938140 36.009140 167.006500] 0.941221 0.000000 0.000000 -0.337790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761C9004, 0x761C9005, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x761C9004, 0x761C9006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x761C9004, 0x761C9005, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x761C9004, 0x761C9006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761C9005,  8648, 0x61C9000A, 47.93814, 36.00914, 167.0065, 0.9412214, 0, 0, -0.3377903,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

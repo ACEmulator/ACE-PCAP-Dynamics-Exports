@@ -5,23 +5,23 @@ VALUES (0x7BA63001,  1154, 0xBA63003F, 176.7914, 156.2327, 5.582046, 0.2211081, 
 /* @teleloc 0xBA63003F [176.791400 156.232700 5.582046] 0.221108 0.000000 0.000000 0.975249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA63001, 0x7BA63002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BA63001, 0x7BA63005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA63009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BA63001, 0x7BA6300A, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BA63001, 0x7BA6300B, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BA63001, 0x7BA6300C, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BA63001, 0x7BA6300D, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BA63001, 0x7BA6300E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BA63001, 0x7BA6300F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA63001, 0x7BA63010, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BA63001, 0x7BA63011, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BA63001, 0x7BA63012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7BA63001, 0x7BA63002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BA63001, 0x7BA63005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA63009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BA63001, 0x7BA6300A, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BA63001, 0x7BA6300B, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BA63001, 0x7BA6300C, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BA63001, 0x7BA6300D, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BA63001, 0x7BA6300E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BA63001, 0x7BA6300F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA63001, 0x7BA63010, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BA63001, 0x7BA63011, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BA63001, 0x7BA63012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA63002, 27100, 0xBA63003F, 176.7914, 156.2327, 5.582046, 0.2211081, 0, 0, 0.9752493,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
@@ -96,7 +96,7 @@ VALUES (0x7BA63013,  1542, 0xBA630001, 7.056971, 15.22093, 6, 0.9990482, 0, 0, -
 /* @teleloc 0xBA630001 [7.056971 15.220930 6.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA63013, 0x7BA63014, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7BA63013, 0x7BA63014, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA63014,  6117, 0xBA630001, 7.056971, 15.22093, 6, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

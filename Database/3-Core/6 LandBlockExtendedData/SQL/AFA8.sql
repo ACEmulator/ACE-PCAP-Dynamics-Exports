@@ -5,27 +5,27 @@ VALUES (0x7AFA8001,  1154, 0xAFA80035, 151.5159, 117.7168, 93.38467, -0.8916488,
 /* @teleloc 0xAFA80035 [151.515900 117.716800 93.384670] -0.891649 0.000000 0.000000 -0.452728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA8001, 0x7AFA8002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7AFA8001, 0x7AFA8003, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7AFA8001, 0x7AFA8004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFA8001, 0x7AFA8005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AFA8001, 0x7AFA8006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFA8001, 0x7AFA8007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AFA8001, 0x7AFA8008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFA8001, 0x7AFA8009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFA8001, 0x7AFA800A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFA8001, 0x7AFA800B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFA8001, 0x7AFA800C, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7AFA8001, 0x7AFA800D, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AFA8001, 0x7AFA800E, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AFA8001, 0x7AFA800F, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AFA8001, 0x7AFA8010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFA8001, 0x7AFA8011, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AFA8001, 0x7AFA8012, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AFA8001, 0x7AFA8013, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7AFA8001, 0x7AFA8014, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7AFA8001, 0x7AFA8015, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AFA8001, 0x7AFA8016, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7AFA8001, 0x7AFA8002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7AFA8001, 0x7AFA8003, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7AFA8001, 0x7AFA8004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFA8001, 0x7AFA8005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AFA8001, 0x7AFA8006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFA8001, 0x7AFA8007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AFA8001, 0x7AFA8008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFA8001, 0x7AFA8009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFA8001, 0x7AFA800A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFA8001, 0x7AFA800B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFA8001, 0x7AFA800C, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7AFA8001, 0x7AFA800D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AFA8001, 0x7AFA800E, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AFA8001, 0x7AFA800F, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AFA8001, 0x7AFA8010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFA8001, 0x7AFA8011, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AFA8001, 0x7AFA8012, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AFA8001, 0x7AFA8013, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7AFA8001, 0x7AFA8014, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7AFA8001, 0x7AFA8015, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AFA8001, 0x7AFA8016, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA8002,   236, 0xAFA80035, 151.5159, 117.7168, 93.38467, -0.8916488, 0, 0, -0.4527279,  True, '2019-02-10 00:00:00'); /* Female Tusker */

@@ -5,13 +5,13 @@ VALUES (0x7BDC5001,  1154, 0xBDC5000E, 45.36381, 134.3375, 250.8843, -0.01488242
 /* @teleloc 0xBDC5000E [45.363810 134.337500 250.884300] -0.014882 0.000000 0.000000 -0.999889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDC5001, 0x7BDC5002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7BDC5001, 0x7BDC5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BDC5001, 0x7BDC5004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BDC5001, 0x7BDC5005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDC5001, 0x7BDC5006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BDC5001, 0x7BDC5007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BDC5001, 0x7BDC5008, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7BDC5001, 0x7BDC5002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7BDC5001, 0x7BDC5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BDC5001, 0x7BDC5004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BDC5001, 0x7BDC5005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDC5001, 0x7BDC5006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BDC5001, 0x7BDC5007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BDC5001, 0x7BDC5008, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDC5002,  8014, 0xBDC5000E, 45.36381, 134.3375, 250.8843, -0.01488242, 0, 0, -0.9998893,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -46,8 +46,8 @@ VALUES (0x7BDC5009,  1542, 0xBDC50022, 107.1141, 26.83675, 277.1626, -0.4918496,
 /* @teleloc 0xBDC50022 [107.114100 26.836750 277.162600] -0.491850 0.000000 0.000000 -0.870680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDC5009, 0x7BDC500A, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BDC5009, 0x7BDC500B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BDC5009, 0x7BDC500A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BDC5009, 0x7BDC500B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDC500A,  8644, 0xBDC50022, 107.1141, 26.83675, 277.1626, -0.4918496, 0, 0, -0.8706802,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

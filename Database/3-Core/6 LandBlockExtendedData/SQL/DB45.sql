@@ -5,11 +5,11 @@ VALUES (0x7DB45001,  1154, 0xDB45001C, 82.83472, 74.2028, 34.71033, -0.4155641, 
 /* @teleloc 0xDB45001C [82.834720 74.202800 34.710330] -0.415564 0.000000 0.000000 -0.909564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB45001, 0x7DB45002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7DB45001, 0x7DB45003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DB45001, 0x7DB45004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DB45001, 0x7DB45005, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7DB45001, 0x7DB45006, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7DB45001, 0x7DB45002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7DB45001, 0x7DB45003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DB45001, 0x7DB45004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DB45001, 0x7DB45005, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7DB45001, 0x7DB45006, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB45002,  9253, 0xDB45001C, 82.83472, 74.2028, 34.71033, -0.4155641, 0, 0, -0.9095639,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

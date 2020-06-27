@@ -5,18 +5,18 @@ VALUES (0x7AC5E001,  1154, 0xAC5E0013, 70.33149, 67.90491, 34.71151, 0.8191521, 
 /* @teleloc 0xAC5E0013 [70.331490 67.904910 34.711510] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5E001, 0x7AC5E002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC5E001, 0x7AC5E003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC5E001, 0x7AC5E004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AC5E001, 0x7AC5E005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AC5E001, 0x7AC5E006, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AC5E001, 0x7AC5E007, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7AC5E001, 0x7AC5E008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AC5E001, 0x7AC5E009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AC5E001, 0x7AC5E00A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AC5E001, 0x7AC5E00B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AC5E001, 0x7AC5E00C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AC5E001, 0x7AC5E00D, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7AC5E001, 0x7AC5E002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC5E001, 0x7AC5E003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC5E001, 0x7AC5E004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AC5E001, 0x7AC5E005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AC5E001, 0x7AC5E006, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AC5E001, 0x7AC5E007, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7AC5E001, 0x7AC5E008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AC5E001, 0x7AC5E009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AC5E001, 0x7AC5E00A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AC5E001, 0x7AC5E00B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AC5E001, 0x7AC5E00C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AC5E001, 0x7AC5E00D, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5E002,  5497, 0xAC5E0013, 70.33149, 67.90491, 34.71151, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Director */

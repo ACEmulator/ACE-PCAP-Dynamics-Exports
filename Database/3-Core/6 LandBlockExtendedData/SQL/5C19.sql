@@ -5,9 +5,9 @@ VALUES (0x75C19001,  1154, 0x5C190012, 60.19569, 33.03617, 0.02899998, 0.9445462
 /* @teleloc 0x5C190012 [60.195690 33.036170 0.029000] 0.944546 0.000000 0.000000 -0.328379 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C19001, 0x75C19002, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75C19001, 0x75C19003, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75C19001, 0x75C19004, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x75C19001, 0x75C19002, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75C19001, 0x75C19003, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75C19001, 0x75C19004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C19002, 23490, 0x5C190012, 60.19569, 33.03617, 0.02899998, 0.9445462, 0, 0, -0.3283787,  True, '2019-02-10 00:00:00'); /* Virindi Councillor */

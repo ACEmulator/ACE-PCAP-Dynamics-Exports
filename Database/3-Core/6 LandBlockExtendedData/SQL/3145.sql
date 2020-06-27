@@ -5,11 +5,11 @@ VALUES (0x73145001,  1154, 0x31450010, 31.94279, 175.4803, 13.27346, 0.9419946, 
 /* @teleloc 0x31450010 [31.942790 175.480300 13.273460] 0.941995 0.000000 0.000000 -0.335628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73145001, 0x73145002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73145001, 0x73145003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73145001, 0x73145004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73145001, 0x73145005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73145001, 0x73145006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x73145001, 0x73145002, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73145001, 0x73145003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73145001, 0x73145004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73145001, 0x73145005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73145001, 0x73145006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73145002, 36856, 0x31450010, 31.94279, 175.4803, 13.27346, 0.9419946, 0, 0, -0.335628,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */

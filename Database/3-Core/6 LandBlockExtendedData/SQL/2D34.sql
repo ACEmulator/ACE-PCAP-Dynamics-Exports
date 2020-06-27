@@ -5,32 +5,32 @@ VALUES (0x72D34001,  1154, 0x2D340036, 157.6147, 129.2714, 69.13457, 0.9659258, 
 /* @teleloc 0x2D340036 [157.614700 129.271400 69.134570] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D34001, 0x72D34002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D34001, 0x72D34003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D34001, 0x72D34004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72D34001, 0x72D34005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72D34001, 0x72D34006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D34001, 0x72D34007, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72D34001, 0x72D34008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D34001, 0x72D34009, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72D34001, 0x72D3400A, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72D34001, 0x72D3400B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72D34001, 0x72D3400C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72D34001, 0x72D3400D, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72D34001, 0x72D3400E, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72D34001, 0x72D3400F, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72D34001, 0x72D34010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72D34001, 0x72D34011, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72D34001, 0x72D34012, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D34001, 0x72D34013, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D34001, 0x72D34014, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72D34001, 0x72D34015, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72D34001, 0x72D34016, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72D34001, 0x72D34017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72D34001, 0x72D34018, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72D34001, 0x72D34019, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72D34001, 0x72D3401A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72D34001, 0x72D3401B, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x72D34001, 0x72D34002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D34001, 0x72D34003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D34001, 0x72D34004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72D34001, 0x72D34005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72D34001, 0x72D34006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D34001, 0x72D34007, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72D34001, 0x72D34008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72D34001, 0x72D34009, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D34001, 0x72D3400A, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72D34001, 0x72D3400B, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D34001, 0x72D3400C, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72D34001, 0x72D3400D, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72D34001, 0x72D3400E, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72D34001, 0x72D3400F, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72D34001, 0x72D34010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72D34001, 0x72D34011, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72D34001, 0x72D34012, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D34001, 0x72D34013, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D34001, 0x72D34014, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72D34001, 0x72D34015, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72D34001, 0x72D34016, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72D34001, 0x72D34017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D34001, 0x72D34018, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72D34001, 0x72D34019, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72D34001, 0x72D3401A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72D34001, 0x72D3401B, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D34002, 23481, 0x2D340036, 157.6147, 129.2714, 69.13457, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -141,7 +141,7 @@ VALUES (0x72D3401C,  1542, 0x2D34002D, 128.7016, 104.1355, 68, 1, 0, 0, 0, False
 /* @teleloc 0x2D34002D [128.701600 104.135500 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3401C, 0x72D3401D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72D3401C, 0x72D3401D, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3401D, 22566, 0x2D34002D, 128.7016, 104.1355, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

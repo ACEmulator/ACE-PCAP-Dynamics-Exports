@@ -5,36 +5,36 @@ VALUES (0x7BC9C001,  1154, 0xBC9C003E, 180.4016, 128.3956, 6.198075, 0.8660254, 
 /* @teleloc 0xBC9C003E [180.401600 128.395600 6.198075] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9C001, 0x7BC9C002, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BC9C001, 0x7BC9C003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BC9C001, 0x7BC9C004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BC9C001, 0x7BC9C006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC9C001, 0x7BC9C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC9C001, 0x7BC9C008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC9C001, 0x7BC9C00A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C00B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BC9C001, 0x7BC9C00C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C00D, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BC9C001, 0x7BC9C00E, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BC9C001, 0x7BC9C00F, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9C001, 0x7BC9C010, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BC9C001, 0x7BC9C011, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9C001, 0x7BC9C012, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9C001, 0x7BC9C013, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C014, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C015, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9C001, 0x7BC9C016, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BC9C001, 0x7BC9C017, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BC9C001, 0x7BC9C018, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC9C001, 0x7BC9C019, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9C001, 0x7BC9C01A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9C001, 0x7BC9C01B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9C001, 0x7BC9C01C, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BC9C001, 0x7BC9C01D, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BC9C001, 0x7BC9C01E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC9C001, 0x7BC9C01F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7BC9C001, 0x7BC9C002, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BC9C001, 0x7BC9C003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BC9C001, 0x7BC9C004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BC9C001, 0x7BC9C006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC9C001, 0x7BC9C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC9C001, 0x7BC9C008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC9C001, 0x7BC9C00A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C00B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BC9C001, 0x7BC9C00C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C00D, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BC9C001, 0x7BC9C00E, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BC9C001, 0x7BC9C00F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9C001, 0x7BC9C010, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BC9C001, 0x7BC9C011, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9C001, 0x7BC9C012, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9C001, 0x7BC9C013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C014, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C015, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9C001, 0x7BC9C016, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BC9C001, 0x7BC9C017, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BC9C001, 0x7BC9C018, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC9C001, 0x7BC9C019, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9C001, 0x7BC9C01A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9C001, 0x7BC9C01B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9C001, 0x7BC9C01C, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BC9C001, 0x7BC9C01D, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BC9C001, 0x7BC9C01E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC9C001, 0x7BC9C01F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9C002,  7985, 0xBC9C003E, 180.4016, 128.3956, 6.198075, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Listris Niffis */
@@ -161,7 +161,7 @@ VALUES (0x7BC9C020,  1154, 0xBC9C0038, 152.766, 170.479, 1.905, 0.996677, 0, 0, 
 /* @teleloc 0xBC9C0038 [152.766000 170.479000 1.905000] 0.996677 0.000000 0.000000 -0.081454 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9C020, 0x7BC9C021, '2019-02-10 00:00:00') /* Chosen of Asheron */;
+VALUES (0x7BC9C020, 0x7BC9C021, '2019-02-10 00:00:00') /* Chosen of Asheron (8765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9C021,  8765, 0xBC9C0038, 152.766, 170.479, 1.905, 0.996677, 0, 0, -0.0814541,  True, '2019-02-10 00:00:00'); /* Chosen of Asheron */

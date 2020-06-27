@@ -5,10 +5,10 @@ VALUES (0x78CDA001,  1154, 0x8CDA001F, 91.63584, 159.8497, 79.95184, -0.3748073,
 /* @teleloc 0x8CDA001F [91.635840 159.849700 79.951840] -0.374807 0.000000 0.000000 -0.927103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDA001, 0x78CDA002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x78CDA001, 0x78CDA003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CDA001, 0x78CDA004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CDA001, 0x78CDA005, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x78CDA001, 0x78CDA002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x78CDA001, 0x78CDA003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CDA001, 0x78CDA004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CDA001, 0x78CDA005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDA002,  5890, 0x8CDA001F, 91.63584, 159.8497, 79.95184, -0.3748073, 0, 0, -0.9271027,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */

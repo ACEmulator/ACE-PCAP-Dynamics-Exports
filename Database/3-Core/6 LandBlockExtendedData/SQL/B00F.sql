@@ -5,28 +5,28 @@ VALUES (0x7B00F001,  1154, 0xB00F0004, 6.946914, 94.23019, -0.09250009, 0.378029
 /* @teleloc 0xB00F0004 [6.946914 94.230190 -0.092500] 0.378030 0.000000 0.000000 -0.925794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B00F001, 0x7B00F002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B00F001, 0x7B00F003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B00F001, 0x7B00F004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B00F001, 0x7B00F005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B00F001, 0x7B00F006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B00F001, 0x7B00F009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B00F001, 0x7B00F00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B00F001, 0x7B00F00C, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7B00F001, 0x7B00F00D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7B00F001, 0x7B00F00E, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7B00F001, 0x7B00F00F, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7B00F001, 0x7B00F010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B00F001, 0x7B00F011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B00F001, 0x7B00F014, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7B00F001, 0x7B00F015, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7B00F001, 0x7B00F016, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B00F001, 0x7B00F017, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7B00F001, 0x7B00F002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B00F001, 0x7B00F003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B00F001, 0x7B00F004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B00F001, 0x7B00F005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B00F001, 0x7B00F006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B00F001, 0x7B00F007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B00F001, 0x7B00F008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B00F001, 0x7B00F009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B00F001, 0x7B00F00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B00F001, 0x7B00F00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B00F001, 0x7B00F00C, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7B00F001, 0x7B00F00D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7B00F001, 0x7B00F00E, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7B00F001, 0x7B00F00F, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7B00F001, 0x7B00F010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B00F001, 0x7B00F011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B00F001, 0x7B00F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B00F001, 0x7B00F013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B00F001, 0x7B00F014, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7B00F001, 0x7B00F015, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7B00F001, 0x7B00F016, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B00F001, 0x7B00F017, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B00F002,  7123, 0xB00F0004, 6.946914, 94.23019, -0.09250009, 0.3780295, 0, 0, -0.9257936,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -121,13 +121,13 @@ VALUES (0x7B00F018,  1542, 0xB00F0017, 68.27177, 149.6116, 4.467633, 0.5244985, 
 /* @teleloc 0xB00F0017 [68.271770 149.611600 4.467633] 0.524499 0.000000 0.000000 -0.851411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B00F018, 0x7B00F019, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7B00F018, 0x7B00F01A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7B00F018, 0x7B00F01B, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7B00F018, 0x7B00F01C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7B00F018, 0x7B00F01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B00F018, 0x7B00F01E, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7B00F018, 0x7B00F01F, '2019-02-10 00:00:00') /* Wandering Vendor Backback */;
+VALUES (0x7B00F018, 0x7B00F019, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7B00F018, 0x7B00F01A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7B00F018, 0x7B00F01B, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7B00F018, 0x7B00F01C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7B00F018, 0x7B00F01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B00F018, 0x7B00F01E, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7B00F018, 0x7B00F01F, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B00F019,  8644, 0xB00F0017, 68.27177, 149.6116, 4.467633, 0.5244985, 0, 0, -0.8514113,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

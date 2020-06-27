@@ -5,19 +5,19 @@ VALUES (0x7C261001,  1154, 0xC2610003, 18.65859, 63.53637, 5.9, 0.9238795, 0, 0,
 /* @teleloc 0xC2610003 [18.658590 63.536370 5.900000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C261001, 0x7C261002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C261001, 0x7C261003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C261001, 0x7C261004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C261001, 0x7C261005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C261001, 0x7C261006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C261001, 0x7C261007, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7C261001, 0x7C261008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C261001, 0x7C261009, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C261001, 0x7C26100A, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C261001, 0x7C26100B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C261001, 0x7C26100C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C261001, 0x7C26100D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C261001, 0x7C26100E, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C261001, 0x7C261002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C261003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C261004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C261001, 0x7C261005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C261001, 0x7C261006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C261001, 0x7C261007, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7C261001, 0x7C261008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C261009, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C26100A, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C26100B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C261001, 0x7C26100C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C261001, 0x7C26100D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C261001, 0x7C26100E, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C261002,  2584, 0xC2610003, 18.65859, 63.53637, 5.9, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -76,7 +76,7 @@ VALUES (0x7C26100F,  1542, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 
 /* @teleloc 0xC2610029 [126.473300 3.440137 5.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26100F, 0x7C261010, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7C26100F, 0x7C261010, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C261010,  8190, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

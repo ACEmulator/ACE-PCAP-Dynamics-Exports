@@ -5,23 +5,23 @@ VALUES (0x765E7001,  1154, 0x65E70009, 39.69235, 21.97021, 44.28424, -4.371139E-
 /* @teleloc 0x65E70009 [39.692350 21.970210 44.284240] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765E7001, 0x765E7002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x765E7001, 0x765E7003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x765E7001, 0x765E7004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x765E7001, 0x765E7005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x765E7001, 0x765E7006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765E7001, 0x765E7007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765E7001, 0x765E7008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765E7001, 0x765E7009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x765E7001, 0x765E700A, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765E7001, 0x765E700B, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x765E7001, 0x765E700C, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x765E7001, 0x765E700D, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x765E7001, 0x765E700E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765E7001, 0x765E700F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x765E7001, 0x765E7010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765E7001, 0x765E7011, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x765E7001, 0x765E7012, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x765E7001, 0x765E7002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x765E7001, 0x765E7003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x765E7001, 0x765E7004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x765E7001, 0x765E7005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x765E7001, 0x765E7006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765E7001, 0x765E7007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765E7001, 0x765E7008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765E7001, 0x765E7009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x765E7001, 0x765E700A, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765E7001, 0x765E700B, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x765E7001, 0x765E700C, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x765E7001, 0x765E700D, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x765E7001, 0x765E700E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765E7001, 0x765E700F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x765E7001, 0x765E7010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x765E7001, 0x765E7011, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x765E7001, 0x765E7012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765E7002,  7346, 0x65E70009, 39.69235, 21.97021, 44.28424, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -96,7 +96,7 @@ VALUES (0x765E7013,  1542, 0x65E70030, 126.7957, 177.4967, 20.6533, 0.5839044, 0
 /* @teleloc 0x65E70030 [126.795700 177.496700 20.653300] 0.583904 0.000000 0.000000 -0.811823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765E7013, 0x765E7014, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x765E7013, 0x765E7014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765E7014, 31687, 0x65E70030, 126.7957, 177.4967, 20.6533, 0.5839044, 0, 0, -0.8118225,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

@@ -5,14 +5,14 @@ VALUES (0x72C4F001,  1154, 0x2C4F0030, 138.6224, 177.656, 4.636327, 0.9966949, 0
 /* @teleloc 0x2C4F0030 [138.622400 177.656000 4.636327] 0.996695 0.000000 0.000000 -0.081237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C4F001, 0x72C4F002, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72C4F001, 0x72C4F003, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72C4F001, 0x72C4F004, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72C4F001, 0x72C4F005, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72C4F001, 0x72C4F006, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72C4F001, 0x72C4F007, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72C4F001, 0x72C4F008, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72C4F001, 0x72C4F009, '2019-02-10 00:00:00') /* K'nath X'ela */;
+VALUES (0x72C4F001, 0x72C4F002, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72C4F001, 0x72C4F003, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72C4F001, 0x72C4F004, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72C4F001, 0x72C4F005, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72C4F001, 0x72C4F006, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72C4F001, 0x72C4F007, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72C4F001, 0x72C4F008, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72C4F001, 0x72C4F009, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C4F002, 25663, 0x2C4F0030, 138.6224, 177.656, 4.636327, 0.9966949, 0, 0, -0.08123674,  True, '2019-02-10 00:00:00'); /* Void Knight */

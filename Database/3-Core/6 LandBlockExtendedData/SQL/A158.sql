@@ -5,11 +5,11 @@ VALUES (0x7A158001,  1154, 0xA158002E, 127.0153, 131.8149, 129.8512, -0.0407189,
 /* @teleloc 0xA158002E [127.015300 131.814900 129.851200] -0.040719 0.000000 0.000000 -0.999171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A158001, 0x7A158002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A158001, 0x7A158003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A158001, 0x7A158004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A158001, 0x7A158005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A158001, 0x7A158006, '2019-02-10 00:00:00') /* Ancient Mu-miyah */;
+VALUES (0x7A158001, 0x7A158002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A158001, 0x7A158003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A158001, 0x7A158004, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A158001, 0x7A158005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A158001, 0x7A158006, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A158002,  1615, 0xA158002E, 127.0153, 131.8149, 129.8512, -0.0407189, 0, 0, -0.9991707,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */
@@ -36,7 +36,7 @@ VALUES (0x7A158007,  1542, 0xA158002E, 143.7415, 136.2525, 128.0116, 0.873881, 0
 /* @teleloc 0xA158002E [143.741500 136.252500 128.011600] 0.873881 0.000000 0.000000 -0.486140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A158007, 0x7A158008, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7A158007, 0x7A158008, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A158008,  9286, 0xA158002E, 143.7415, 136.2525, 128.0116, 0.873881, 0, 0, -0.4861399,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

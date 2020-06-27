@@ -5,19 +5,19 @@ VALUES (0x74FB3001,  1154, 0x4FB30001, 21.16571, 20.19743, 90.90073, 0.7071068, 
 /* @teleloc 0x4FB30001 [21.165710 20.197430 90.900730] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FB3001, 0x74FB3002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74FB3001, 0x74FB3003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74FB3001, 0x74FB3004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74FB3001, 0x74FB3005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74FB3001, 0x74FB3006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74FB3001, 0x74FB3007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74FB3001, 0x74FB3008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74FB3001, 0x74FB3009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74FB3001, 0x74FB300A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74FB3001, 0x74FB300B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74FB3001, 0x74FB300C, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x74FB3001, 0x74FB300D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x74FB3001, 0x74FB300E, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x74FB3001, 0x74FB3002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74FB3001, 0x74FB3003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74FB3001, 0x74FB3004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74FB3001, 0x74FB3005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74FB3001, 0x74FB3006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74FB3001, 0x74FB3007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74FB3001, 0x74FB3008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74FB3001, 0x74FB3009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74FB3001, 0x74FB300A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74FB3001, 0x74FB300B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74FB3001, 0x74FB300C, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x74FB3001, 0x74FB300D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x74FB3001, 0x74FB300E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FB3002,  7345, 0x4FB30001, 21.16571, 20.19743, 90.90073, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

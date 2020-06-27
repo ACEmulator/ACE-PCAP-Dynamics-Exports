@@ -5,10 +5,10 @@ VALUES (0x75421001,  1154, 0x54210021, 104.8296, 7.029056, 70.34902, 1, 0, 0, 0,
 /* @teleloc 0x54210021 [104.829600 7.029056 70.349020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75421001, 0x75421002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75421001, 0x75421003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x75421001, 0x75421004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75421001, 0x75421005, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x75421001, 0x75421002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75421001, 0x75421003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x75421001, 0x75421004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75421001, 0x75421005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75421002, 23566, 0x54210021, 104.8296, 7.029056, 70.34902, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -31,7 +31,7 @@ VALUES (0x75421006,  1542, 0x54210021, 105.7839, 9.072763, 71.02209, 1, 0, 0, 0,
 /* @teleloc 0x54210021 [105.783900 9.072763 71.022090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75421006, 0x75421007, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x75421006, 0x75421007, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75421007, 31445, 0x54210021, 105.7839, 9.072763, 71.02209, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

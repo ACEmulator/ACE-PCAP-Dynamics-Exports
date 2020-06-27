@@ -5,13 +5,13 @@ VALUES (0x7270E001,  1154, 0x270E000D, 40.90839, 111.7657, 14.005, -0.9390334, 0
 /* @teleloc 0x270E000D [40.908390 111.765700 14.005000] -0.939033 0.000000 0.000000 -0.343826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7270E001, 0x7270E002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7270E001, 0x7270E003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7270E001, 0x7270E004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7270E001, 0x7270E005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7270E001, 0x7270E006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7270E001, 0x7270E007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7270E001, 0x7270E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7270E001, 0x7270E002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7270E001, 0x7270E003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7270E001, 0x7270E004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7270E001, 0x7270E005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7270E001, 0x7270E006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7270E001, 0x7270E007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7270E001, 0x7270E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7270E002, 23564, 0x270E000D, 40.90839, 111.7657, 14.005, -0.9390334, 0, 0, -0.343826,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -46,7 +46,7 @@ VALUES (0x7270E009,  1542, 0x270E001C, 76.32663, 73.99081, 14.1659, 1, 0, 0, 0, 
 /* @teleloc 0x270E001C [76.326630 73.990810 14.165900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7270E009, 0x7270E00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7270E009, 0x7270E00A, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7270E00A, 22571, 0x270E001C, 76.32663, 73.99081, 14.1659, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

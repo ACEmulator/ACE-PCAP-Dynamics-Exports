@@ -5,8 +5,8 @@ VALUES (0x72356001,  1154, 0x23560006, 2.568482, 129.1919, 19.05758, -0.7850688,
 /* @teleloc 0x23560006 [2.568482 129.191900 19.057580] -0.785069 0.000000 0.000000 -0.619409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72356001, 0x72356002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72356001, 0x72356003, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x72356001, 0x72356002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72356001, 0x72356003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72356002, 23616, 0x23560006, 2.568482, 129.1919, 19.05758, -0.7850688, 0, 0, -0.6194086,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

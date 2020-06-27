@@ -5,15 +5,15 @@ VALUES (0x7F079001,  1154, 0xF0790040, 173.1183, 183.0053, 12.0099, -0.4820032, 
 /* @teleloc 0xF0790040 [173.118300 183.005300 12.009900] -0.482003 0.000000 0.000000 -0.876169 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F079001, 0x7F079002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F079009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F079001, 0x7F07900A, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7F079001, 0x7F079002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F079009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F079001, 0x7F07900A, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F079002, 22519, 0xF0790040, 173.1183, 183.0053, 12.0099, -0.4820032, 0, 0, -0.8761694,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

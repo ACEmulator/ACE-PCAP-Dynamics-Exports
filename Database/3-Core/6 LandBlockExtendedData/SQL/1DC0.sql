@@ -5,21 +5,21 @@ VALUES (0x71DC0001,  1154, 0x1DC00027, 103.5311, 167.4767, 76.70021, 1, 0, 0, 0,
 /* @teleloc 0x1DC00027 [103.531100 167.476700 76.700210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC0001, 0x71DC0002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC0001, 0x71DC0003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71DC0001, 0x71DC0004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC0001, 0x71DC0005, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71DC0001, 0x71DC0006, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71DC0001, 0x71DC0007, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71DC0001, 0x71DC0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC0001, 0x71DC0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC0001, 0x71DC000A, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC0001, 0x71DC000B, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC0001, 0x71DC000C, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71DC0001, 0x71DC000D, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71DC0001, 0x71DC000E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC0001, 0x71DC000F, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC0001, 0x71DC0010, '2019-02-10 00:00:00') /* Hea Elder Shaman */;
+VALUES (0x71DC0001, 0x71DC0002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC0001, 0x71DC0003, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71DC0001, 0x71DC0004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC0001, 0x71DC0005, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DC0001, 0x71DC0006, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DC0001, 0x71DC0007, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DC0001, 0x71DC0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC0001, 0x71DC0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC0001, 0x71DC000A, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC0001, 0x71DC000B, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC0001, 0x71DC000C, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71DC0001, 0x71DC000D, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71DC0001, 0x71DC000E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC0001, 0x71DC000F, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC0001, 0x71DC0010, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC0002,  7340, 0x1DC00027, 103.5311, 167.4767, 76.70021, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -86,11 +86,11 @@ VALUES (0x71DC0011,  1542, 0x1DC00030, 124.3287, 186.607, 78.65845, 1, 0, 0, 0, 
 /* @teleloc 0x1DC00030 [124.328700 186.607000 78.658450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC0011, 0x71DC0012, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x71DC0011, 0x71DC0013, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71DC0011, 0x71DC0014, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x71DC0011, 0x71DC0015, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x71DC0011, 0x71DC0016, '2019-02-10 00:00:00') /* Cultist Altar */;
+VALUES (0x71DC0011, 0x71DC0012, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x71DC0011, 0x71DC0013, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71DC0011, 0x71DC0014, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x71DC0011, 0x71DC0015, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x71DC0011, 0x71DC0016, '2019-02-10 00:00:00') /* Cultist Altar (11556) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC0012, 11221, 0x1DC00030, 124.3287, 186.607, 78.65845, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

@@ -5,20 +5,20 @@ VALUES (0x7D0A4001,  1154, 0xD0A40033, 149.1757, 53.52459, 4.003, -0.6173881, 0,
 /* @teleloc 0xD0A40033 [149.175700 53.524590 4.003000] -0.617388 0.000000 0.000000 -0.786659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A4001, 0x7D0A4002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7D0A4001, 0x7D0A4003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D0A4001, 0x7D0A4004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D0A4001, 0x7D0A4005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D0A4001, 0x7D0A4009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D0A4001, 0x7D0A400A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A400B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A400C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A4001, 0x7D0A400D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D0A4001, 0x7D0A400E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D0A4001, 0x7D0A400F, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7D0A4001, 0x7D0A4002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7D0A4001, 0x7D0A4003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D0A4001, 0x7D0A4004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D0A4001, 0x7D0A4005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D0A4001, 0x7D0A4009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D0A4001, 0x7D0A400A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A400B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A400C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A4001, 0x7D0A400D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D0A4001, 0x7D0A400E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D0A4001, 0x7D0A400F, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A4002, 21168, 0xD0A40033, 149.1757, 53.52459, 4.003, -0.6173881, 0, 0, -0.7866588,  True, '2019-02-10 00:00:00'); /* Charge */

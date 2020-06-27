@@ -5,8 +5,8 @@ VALUES (0x73092001,  1154, 0x30920004, 20.15115, 87.6034, 0.006600022, 0.7738075
 /* @teleloc 0x30920004 [20.151150 87.603400 0.006600] 0.773808 0.000000 0.000000 -0.633421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73092001, 0x73092002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73092001, 0x73092003, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x73092001, 0x73092002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73092001, 0x73092003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73092002,  4248, 0x30920004, 20.15115, 87.6034, 0.006600022, 0.7738075, 0, 0, -0.6334209,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

@@ -5,9 +5,9 @@ VALUES (0x74137001,  1154, 0x41370029, 130.6119, 16.50101, 23.91692, 0.7253692, 
 /* @teleloc 0x41370029 [130.611900 16.501010 23.916920] 0.725369 0.000000 0.000000 -0.688360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74137001, 0x74137002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74137001, 0x74137003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74137001, 0x74137004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x74137001, 0x74137002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74137001, 0x74137003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74137001, 0x74137004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74137002, 36829, 0x41370029, 130.6119, 16.50101, 23.91692, 0.7253692, 0, 0, -0.68836,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

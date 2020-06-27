@@ -5,17 +5,17 @@ VALUES (0x764CC001,  1154, 0x64CC0003, 2.664534, 60.78931, 164.5328, 0.6163058, 
 /* @teleloc 0x64CC0003 [2.664534 60.789310 164.532800] 0.616306 0.000000 0.000000 -0.787507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764CC001, 0x764CC002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x764CC001, 0x764CC003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x764CC001, 0x764CC004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x764CC001, 0x764CC005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x764CC001, 0x764CC006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x764CC001, 0x764CC007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x764CC001, 0x764CC008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x764CC001, 0x764CC009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x764CC001, 0x764CC00A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764CC001, 0x764CC00B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764CC001, 0x764CC00C, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x764CC001, 0x764CC002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x764CC001, 0x764CC003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x764CC001, 0x764CC004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x764CC001, 0x764CC005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x764CC001, 0x764CC006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x764CC001, 0x764CC007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x764CC001, 0x764CC008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x764CC001, 0x764CC009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x764CC001, 0x764CC00A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764CC001, 0x764CC00B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764CC001, 0x764CC00C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764CC002, 28553, 0x64CC0003, 2.664534, 60.78931, 164.5328, 0.6163058, 0, 0, -0.7875069,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
@@ -66,9 +66,9 @@ VALUES (0x764CC00D,  1542, 0x64CC001A, 83.65776, 33.89186, 181.4207, -0.9205434,
 /* @teleloc 0x64CC001A [83.657760 33.891860 181.420700] -0.920543 0.000000 0.000000 -0.390640 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764CC00D, 0x764CC00E, '2019-02-10 00:00:00') /* Rock */
-     , (0x764CC00D, 0x764CC00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x764CC00D, 0x764CC010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x764CC00D, 0x764CC00E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x764CC00D, 0x764CC00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x764CC00D, 0x764CC010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764CC00E, 42528, 0x64CC001A, 83.65776, 33.89186, 181.4207, -0.9205434, 0, 0, -0.3906403,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,13 +5,13 @@ VALUES (0x7ADE3001,  1154, 0xADE3000E, 26.26307, 134.9753, -0.4488, 0.9537169, 0
 /* @teleloc 0xADE3000E [26.263070 134.975300 -0.448800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADE3001, 0x7ADE3002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ADE3001, 0x7ADE3003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ADE3001, 0x7ADE3004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ADE3001, 0x7ADE3005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE3001, 0x7ADE3006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE3001, 0x7ADE3007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE3001, 0x7ADE3008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7ADE3001, 0x7ADE3002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ADE3001, 0x7ADE3003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ADE3001, 0x7ADE3004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ADE3001, 0x7ADE3005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE3001, 0x7ADE3006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE3001, 0x7ADE3007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE3001, 0x7ADE3008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADE3002,  7109, 0xADE3000E, 26.26307, 134.9753, -0.4488, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

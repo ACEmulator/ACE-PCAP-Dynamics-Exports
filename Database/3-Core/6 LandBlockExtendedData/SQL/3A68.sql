@@ -5,11 +5,11 @@ VALUES (0x73A68001,  1154, 0x3A680008, 19.9213, 170.4319, 38.92089, 0.7071068, 0
 /* @teleloc 0x3A680008 [19.921300 170.431900 38.920890] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A68001, 0x73A68002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73A68001, 0x73A68003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73A68001, 0x73A68004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73A68001, 0x73A68005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73A68001, 0x73A68006, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x73A68001, 0x73A68002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73A68001, 0x73A68003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73A68001, 0x73A68004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73A68001, 0x73A68005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73A68001, 0x73A68006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A68002,   228, 0x3A680008, 19.9213, 170.4319, 38.92089, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -36,7 +36,7 @@ VALUES (0x73A68007,  1542, 0x3A680008, 11.91516, 168.4567, 40, 0.9990482, 0, 0, 
 /* @teleloc 0x3A680008 [11.915160 168.456700 40.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A68007, 0x73A68008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73A68007, 0x73A68008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A68008,  4179, 0x3A680008, 11.91516, 168.4567, 40, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

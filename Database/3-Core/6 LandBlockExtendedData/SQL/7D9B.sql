@@ -5,9 +5,9 @@ VALUES (0x77D9B001,  1154, 0x7D9B0005, 11.58628, 119.328, 125.097, 0.9391861, 0,
 /* @teleloc 0x7D9B0005 [11.586280 119.328000 125.097000] 0.939186 0.000000 0.000000 -0.343409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D9B001, 0x77D9B002, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x77D9B001, 0x77D9B003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77D9B001, 0x77D9B004, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x77D9B001, 0x77D9B002, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x77D9B001, 0x77D9B003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77D9B001, 0x77D9B004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D9B002, 36443, 0x7D9B0005, 11.58628, 119.328, 125.097, 0.9391861, 0, 0, -0.3434086,  True, '2019-02-10 00:00:00'); /* Harvest Reaper */

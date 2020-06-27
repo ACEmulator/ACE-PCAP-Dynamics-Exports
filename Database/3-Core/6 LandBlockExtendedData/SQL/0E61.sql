@@ -5,12 +5,12 @@ VALUES (0x70E61001,  1154, 0x0E610022, 99.06301, 32.2324, -0.09299994, -0.779861
 /* @teleloc 0x0E610022 [99.063010 32.232400 -0.093000] -0.779861 0.000000 0.000000 -0.625952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E61001, 0x70E61002, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70E61001, 0x70E61003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70E61001, 0x70E61004, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70E61001, 0x70E61005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x70E61001, 0x70E61006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x70E61001, 0x70E61007, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x70E61001, 0x70E61002, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70E61001, 0x70E61003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70E61001, 0x70E61004, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70E61001, 0x70E61005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x70E61001, 0x70E61006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x70E61001, 0x70E61007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E61002, 14876, 0x0E610022, 99.06301, 32.2324, -0.09299994, -0.7798613, 0, 0, -0.6259524,  True, '2019-02-10 00:00:00'); /* Maelstrom */

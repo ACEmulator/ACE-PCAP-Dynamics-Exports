@@ -5,17 +5,17 @@ VALUES (0x79BDE001,  1154, 0x9BDE001E, 81.50917, 122.0751, 124.1801, 0.9199476, 
 /* @teleloc 0x9BDE001E [81.509170 122.075100 124.180100] 0.919948 0.000000 0.000000 -0.392042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BDE001, 0x79BDE002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BDE001, 0x79BDE003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79BDE001, 0x79BDE004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79BDE001, 0x79BDE005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79BDE001, 0x79BDE006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79BDE001, 0x79BDE007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79BDE001, 0x79BDE008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79BDE001, 0x79BDE009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79BDE001, 0x79BDE00A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79BDE001, 0x79BDE00B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79BDE001, 0x79BDE00C, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79BDE001, 0x79BDE002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BDE001, 0x79BDE003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79BDE001, 0x79BDE004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79BDE001, 0x79BDE005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79BDE001, 0x79BDE006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79BDE001, 0x79BDE007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79BDE001, 0x79BDE008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79BDE001, 0x79BDE009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79BDE001, 0x79BDE00A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79BDE001, 0x79BDE00B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79BDE001, 0x79BDE00C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BDE002,  7088, 0x9BDE001E, 81.50917, 122.0751, 124.1801, 0.9199476, 0, 0, -0.3920415,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -66,8 +66,8 @@ VALUES (0x79BDE00D,  1542, 0x9BDE002B, 129.6284, 67.9155, 126.6807, -4.371139E-0
 /* @teleloc 0x9BDE002B [129.628400 67.915500 126.680700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BDE00D, 0x79BDE00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x79BDE00D, 0x79BDE00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79BDE00D, 0x79BDE00E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79BDE00D, 0x79BDE00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BDE00E,  4380, 0x9BDE002B, 129.6284, 67.9155, 126.6807, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -17,351 +17,351 @@ VALUES (0x700D203D,  1154, 0x00D205E7, 182.606, -172.963, -12, -0.330318, 0, 0, 
 /* @teleloc 0x00D205E7 [182.606000 -172.963000 -12.000000] -0.330318 0.000000 0.000000 0.943870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D203D, 0x700D203E, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D203F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2040, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2041, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2042, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2043, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2044, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2045, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2046, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2047, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2048, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2049, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D204A, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D204B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D204C, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D204D, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D204E, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D204F, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2050, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2051, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2052, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2053, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2054, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2055, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2056, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2057, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2058, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2059, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D205A, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D205B, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D205C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D205D, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D205E, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D205F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2060, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2061, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2062, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2063, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D2064, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2065, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D2066, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D2067, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2068, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2069, '2019-02-10 00:00:00') /* Guruk Plunderer */
-     , (0x700D203D, 0x700D206A, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D206B, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D206C, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D206D, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D206E, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D206F, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D2070, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2071, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2072, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2073, '2019-02-10 00:00:00') /* Guruk Plunderer */
-     , (0x700D203D, 0x700D2074, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2075, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2076, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2077, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2078, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2079, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D207A, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D207B, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D207C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D207D, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D207E, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D207F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2080, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2081, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2082, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2083, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2084, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2085, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2086, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D2087, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D2088, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2089, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D208A, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D208B, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D208C, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D208D, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D208E, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D208F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2090, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2091, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2092, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2093, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D2094, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2095, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2096, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2097, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2098, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2099, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D209A, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D209B, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D209C, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D209D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D209E, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D209F, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20A0, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20A1, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20A2, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20A3, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D20A4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20A5, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20A6, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20A7, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20A8, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20A9, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20AA, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20AB, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20AC, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20AD, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20AE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20AF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20B0, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20B1, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20B2, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20B3, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20B4, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20B5, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20B6, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20B7, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20B8, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20B9, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20BA, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20BB, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20BC, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20BD, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20BE, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20BF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20C0, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20C1, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20C2, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20C3, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20C4, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20C5, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20C6, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20C7, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20C8, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20C9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20CA, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20CB, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20CC, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20CD, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20CE, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20CF, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20D0, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20D1, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20D2, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20D3, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20D4, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20D5, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20D6, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20D7, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20D8, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20D9, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20DA, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D20DB, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20DC, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20DD, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20DE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20DF, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20E0, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20E1, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20E2, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20E3, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20E4, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20E5, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20E6, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20E7, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20E8, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20E9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20EA, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20EB, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20EC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20ED, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20EE, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20EF, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20F0, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20F1, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20F2, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20F3, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20F4, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20F5, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20F6, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20F7, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D20F8, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20F9, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20FA, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D20FB, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D20FC, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20FD, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D20FE, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D20FF, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2100, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2101, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2102, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2103, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2104, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2105, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2106, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2107, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2108, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2109, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D210A, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D210B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D210C, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D210D, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D210E, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D210F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2110, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2111, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2112, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D2113, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D2114, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D2115, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D2116, '2019-02-10 00:00:00') /* Guruk Pug */
-     , (0x700D203D, 0x700D2117, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D2118, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D2119, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D211A, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D211B, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D211C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D211D, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D211E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D211F, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2120, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2121, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2122, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2123, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2124, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2125, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2126, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2127, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2128, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2129, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D212A, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D212B, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D212C, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D212D, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D212E, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D212F, '2019-02-10 00:00:00') /* Guruk Marauder */
-     , (0x700D203D, 0x700D2130, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2131, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2132, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2133, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2134, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2135, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2136, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2137, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2138, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2139, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D213A, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D213B, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D213C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D213D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D213E, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D213F, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2140, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2141, '2019-02-10 00:00:00') /* Guruk Hatchling */
-     , (0x700D203D, 0x700D2142, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2143, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2144, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2145, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2146, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2147, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2148, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2149, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D214A, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D214B, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D214C, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D214D, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D214E, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D214F, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2150, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2151, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2152, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2153, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2154, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2155, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2156, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2157, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2158, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2159, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D215A, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D215B, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D215C, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D215D, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D215E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D215F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2160, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2161, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2162, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2163, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2164, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2165, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2166, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2167, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2168, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2169, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D216A, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D216B, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D216C, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D216D, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D216E, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D216F, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2170, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2171, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2172, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2173, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2174, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2175, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2176, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2177, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D2178, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2179, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D217A, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D217B, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D217C, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D217D, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x700D203D, 0x700D217E, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D217F, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2180, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2181, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2182, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2183, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2184, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2185, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2186, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D2187, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2188, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2189, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D218A, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x700D203D, 0x700D218B, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x700D203D, 0x700D218C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D218D, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D218E, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D218F, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x700D203D, 0x700D2190, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2191, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2192, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2193, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2194, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x700D203D, 0x700D2195, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x700D203D, 0x700D2196, '2019-02-10 00:00:00') /* Porcini Thrungus */;
+VALUES (0x700D203D, 0x700D203E, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D203F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2040, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2041, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2042, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2043, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2044, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2045, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2046, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2047, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2048, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2049, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D204A, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D204B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D204C, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D204D, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D204E, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D204F, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2050, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2051, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2052, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2053, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2054, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2055, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2056, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2057, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2058, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2059, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D205A, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D205B, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D205C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D205D, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D205E, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D205F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2060, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2061, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2062, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2063, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D2064, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2065, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D2066, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D2067, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2068, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2069, '2019-02-10 00:00:00') /* Guruk Plunderer (34794) */
+     , (0x700D203D, 0x700D206A, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D206B, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D206C, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D206D, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D206E, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D206F, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D2070, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2071, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2072, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2073, '2019-02-10 00:00:00') /* Guruk Plunderer (34794) */
+     , (0x700D203D, 0x700D2074, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2075, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2076, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2077, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2078, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2079, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D207A, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D207B, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D207C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D207D, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D207E, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D207F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2080, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2081, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2082, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2083, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2084, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2085, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2086, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D2087, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D2088, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2089, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D208A, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D208B, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D208C, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D208D, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D208E, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D208F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2090, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2091, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2092, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2093, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D2094, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2095, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2096, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2097, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2098, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2099, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D209A, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D209B, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D209C, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D209D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D209E, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D209F, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20A0, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20A1, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20A2, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20A3, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D20A4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20A5, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20A6, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20A7, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20A8, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20A9, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20AA, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20AB, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20AC, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20AD, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20AE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20AF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20B0, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20B1, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20B2, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20B3, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20B4, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20B5, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20B6, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20B7, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20B8, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20B9, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20BA, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20BB, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20BC, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20BD, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20BE, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20BF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20C0, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20C1, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20C2, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20C3, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20C4, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20C5, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20C6, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20C7, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20C8, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20C9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20CA, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20CB, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20CC, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20CD, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20CE, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20CF, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20D0, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20D1, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20D2, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20D3, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20D4, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20D5, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20D6, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20D7, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20D8, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20D9, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20DA, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D20DB, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20DC, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20DD, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20DE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20DF, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20E0, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20E1, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20E2, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20E3, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20E4, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20E5, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20E6, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20E7, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20E8, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20E9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20EA, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20EB, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20EC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20ED, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20EE, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20EF, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20F0, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20F1, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20F2, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20F3, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20F4, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20F5, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20F6, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20F7, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D20F8, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20F9, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20FA, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D20FB, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D20FC, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20FD, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D20FE, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D20FF, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2100, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2101, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2102, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2103, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2104, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2105, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2106, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2107, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2108, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2109, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D210A, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D210B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D210C, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D210D, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D210E, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D210F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2110, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2111, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2112, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D2113, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D2114, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D2115, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D2116, '2019-02-10 00:00:00') /* Guruk Pug (34795) */
+     , (0x700D203D, 0x700D2117, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D2118, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D2119, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D211A, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D211B, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D211C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D211D, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D211E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D211F, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2120, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2121, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2122, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2123, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2124, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2125, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2126, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2127, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2128, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2129, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D212A, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D212B, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D212C, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D212D, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D212E, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D212F, '2019-02-10 00:00:00') /* Guruk Marauder (34791) */
+     , (0x700D203D, 0x700D2130, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2131, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2132, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2133, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2134, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2135, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2136, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2137, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2138, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2139, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D213A, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D213B, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D213C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D213D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D213E, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D213F, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2140, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2141, '2019-02-10 00:00:00') /* Guruk Hatchling (34788) */
+     , (0x700D203D, 0x700D2142, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2143, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2144, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2145, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2146, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2147, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2148, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2149, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D214A, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D214B, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D214C, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D214D, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D214E, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D214F, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2150, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2151, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2152, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2153, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2154, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2155, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2156, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2157, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2158, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2159, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D215A, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D215B, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D215C, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D215D, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D215E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D215F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2160, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2161, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2162, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2163, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2164, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2165, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2166, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2167, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2168, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2169, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D216A, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D216B, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D216C, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D216D, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D216E, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D216F, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2170, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2171, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2172, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2173, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2174, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2175, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2176, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2177, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D2178, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2179, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D217A, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D217B, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D217C, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D217D, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x700D203D, 0x700D217E, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D217F, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2180, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2181, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2182, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2183, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2184, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2185, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2186, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D2187, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2188, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2189, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D218A, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x700D203D, 0x700D218B, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x700D203D, 0x700D218C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D218D, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D218E, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D218F, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x700D203D, 0x700D2190, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2191, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2192, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2193, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2194, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x700D203D, 0x700D2195, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x700D203D, 0x700D2196, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D203E, 34791, 0x00D205E7, 182.606, -172.963, -12, -0.330318, 0, 0, 0.94387,  True, '2019-02-10 00:00:00'); /* Guruk Marauder */
@@ -1748,16 +1748,16 @@ VALUES (0x700D2197,  1542, 0x00D20518, 124.6795, -80.5985, -12.00175, -0.0042037
 /* @teleloc 0x00D20518 [124.679500 -80.598500 -12.001750] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D2197, 0x700D2198, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D2199, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D2197, 0x700D219A, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D219B, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D219C, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D219D, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D219E, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D219F, '2019-02-10 00:00:00') /* Green Glow Mushroom */
-     , (0x700D2197, 0x700D21A0, '2019-02-10 00:00:00') /* Blue Glow Mushroom */
-     , (0x700D2197, 0x700D21A1, '2019-02-10 00:00:00') /* Green Glow Mushroom */;
+VALUES (0x700D2197, 0x700D2198, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D2199, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D2197, 0x700D219A, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D219B, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D219C, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D219D, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D219E, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D219F, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */
+     , (0x700D2197, 0x700D21A0, '2019-02-10 00:00:00') /* Blue Glow Mushroom (34833) */
+     , (0x700D2197, 0x700D21A1, '2019-02-10 00:00:00') /* Green Glow Mushroom (34835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D2198, 34833, 0x00D20518, 124.6795, -80.5985, -12.00175, -0.00420373, 0, 0, -0.9999912,  True, '2019-02-10 00:00:00'); /* Blue Glow Mushroom */

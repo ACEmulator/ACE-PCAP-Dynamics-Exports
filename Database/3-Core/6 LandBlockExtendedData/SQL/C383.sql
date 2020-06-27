@@ -5,14 +5,14 @@ VALUES (0x7C383001,  1154, 0xC3830011, 55.11622, 22.40178, 40.59752, -0.9825956,
 /* @teleloc 0xC3830011 [55.116220 22.401780 40.597520] -0.982596 0.000000 0.000000 -0.185758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C383001, 0x7C383002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C383001, 0x7C383003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C383001, 0x7C383004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C383001, 0x7C383005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C383001, 0x7C383006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C383001, 0x7C383007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C383001, 0x7C383008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C383001, 0x7C383009, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7C383001, 0x7C383002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C383001, 0x7C383003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C383001, 0x7C383004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C383001, 0x7C383005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C383001, 0x7C383006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C383001, 0x7C383007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C383001, 0x7C383008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C383001, 0x7C383009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C383002,  1612, 0xC3830011, 55.11622, 22.40178, 40.59752, -0.9825956, 0, 0, -0.1857576,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

@@ -5,20 +5,20 @@ VALUES (0x75F9E001,  1154, 0x5F9E0006, 3.701367, 121.9508, 18.18424, 0.7071068, 
 /* @teleloc 0x5F9E0006 [3.701367 121.950800 18.184240] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F9E001, 0x75F9E002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75F9E001, 0x75F9E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75F9E001, 0x75F9E004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75F9E001, 0x75F9E005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75F9E001, 0x75F9E006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75F9E001, 0x75F9E007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75F9E001, 0x75F9E008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75F9E001, 0x75F9E009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75F9E001, 0x75F9E00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75F9E001, 0x75F9E00B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75F9E001, 0x75F9E00C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75F9E001, 0x75F9E00D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75F9E001, 0x75F9E00E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75F9E001, 0x75F9E00F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x75F9E001, 0x75F9E002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75F9E001, 0x75F9E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75F9E001, 0x75F9E004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75F9E001, 0x75F9E005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75F9E001, 0x75F9E006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75F9E001, 0x75F9E007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75F9E001, 0x75F9E008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75F9E001, 0x75F9E009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75F9E001, 0x75F9E00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75F9E001, 0x75F9E00B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75F9E001, 0x75F9E00C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75F9E001, 0x75F9E00D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75F9E001, 0x75F9E00E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75F9E001, 0x75F9E00F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F9E002,  4253, 0x5F9E0006, 3.701367, 121.9508, 18.18424, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

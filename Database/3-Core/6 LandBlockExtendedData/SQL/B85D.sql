@@ -5,27 +5,27 @@ VALUES (0x7B85D001,  1154, 0xB85D0017, 68.97777, 152.9526, 21.51345, -0.5312976,
 /* @teleloc 0xB85D0017 [68.977770 152.952600 21.513450] -0.531298 0.000000 0.000000 -0.847185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85D001, 0x7B85D002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B85D001, 0x7B85D003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B85D001, 0x7B85D004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B85D001, 0x7B85D005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B85D001, 0x7B85D006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B85D001, 0x7B85D007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B85D001, 0x7B85D008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B85D001, 0x7B85D009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B85D001, 0x7B85D00A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B85D001, 0x7B85D00B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B85D001, 0x7B85D00C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B85D001, 0x7B85D00D, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B85D001, 0x7B85D00E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B85D001, 0x7B85D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B85D001, 0x7B85D010, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B85D001, 0x7B85D011, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B85D001, 0x7B85D012, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B85D001, 0x7B85D013, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B85D001, 0x7B85D014, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B85D001, 0x7B85D015, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B85D001, 0x7B85D016, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7B85D001, 0x7B85D002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B85D001, 0x7B85D003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B85D001, 0x7B85D004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B85D001, 0x7B85D005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B85D001, 0x7B85D006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B85D001, 0x7B85D007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B85D001, 0x7B85D008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B85D001, 0x7B85D009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B85D001, 0x7B85D00A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B85D001, 0x7B85D00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B85D001, 0x7B85D00C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B85D001, 0x7B85D00D, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B85D001, 0x7B85D00E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B85D001, 0x7B85D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B85D001, 0x7B85D010, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B85D001, 0x7B85D011, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B85D001, 0x7B85D012, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B85D001, 0x7B85D013, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B85D001, 0x7B85D014, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B85D001, 0x7B85D015, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B85D001, 0x7B85D016, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85D002,   182, 0xB85D0017, 68.97777, 152.9526, 21.51345, -0.5312976, 0, 0, -0.8471853,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

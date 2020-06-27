@@ -5,22 +5,22 @@ VALUES (0x74318001,  1154, 0x43180011, 60.10066, 17.84174, 120.0105, 0.9063078, 
 /* @teleloc 0x43180011 [60.100660 17.841740 120.010500] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74318001, 0x74318002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74318001, 0x74318003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74318001, 0x74318004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74318001, 0x74318005, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x74318001, 0x74318006, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x74318001, 0x74318007, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x74318001, 0x74318008, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x74318001, 0x74318009, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x74318001, 0x7431800A, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x74318001, 0x7431800B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74318001, 0x7431800C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74318001, 0x7431800D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74318001, 0x7431800E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74318001, 0x7431800F, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74318001, 0x74318010, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74318001, 0x74318011, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x74318001, 0x74318002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74318001, 0x74318003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74318001, 0x74318004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74318001, 0x74318005, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x74318001, 0x74318006, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x74318001, 0x74318007, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x74318001, 0x74318008, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x74318001, 0x74318009, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x74318001, 0x7431800A, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x74318001, 0x7431800B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74318001, 0x7431800C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74318001, 0x7431800D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74318001, 0x7431800E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74318001, 0x7431800F, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74318001, 0x74318010, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74318001, 0x74318011, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74318002,  7081, 0x43180011, 60.10066, 17.84174, 120.0105, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -91,8 +91,8 @@ VALUES (0x74318012,  1542, 0x43180021, 107.7096, 0.6058996, 120, -4.371139E-08, 
 /* @teleloc 0x43180021 [107.709600 0.605900 120.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74318012, 0x74318013, '2019-02-10 00:00:00') /* Bones */
-     , (0x74318012, 0x74318014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74318012, 0x74318013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74318012, 0x74318014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74318013,  4380, 0x43180021, 107.7096, 0.6058996, 120, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

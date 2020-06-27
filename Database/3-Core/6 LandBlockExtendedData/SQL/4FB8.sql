@@ -5,10 +5,10 @@ VALUES (0x74FB8001,  1154, 0x4FB80005, 16.442, 106.995, 60.29632, -0.8722057, 0,
 /* @teleloc 0x4FB80005 [16.442000 106.995000 60.296320] -0.872206 0.000000 0.000000 -0.489139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FB8001, 0x74FB8002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74FB8001, 0x74FB8003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74FB8001, 0x74FB8004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74FB8001, 0x74FB8005, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x74FB8001, 0x74FB8002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74FB8001, 0x74FB8003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74FB8001, 0x74FB8004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74FB8001, 0x74FB8005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FB8002, 22519, 0x4FB80005, 16.442, 106.995, 60.29632, -0.8722057, 0, 0, -0.4891392,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

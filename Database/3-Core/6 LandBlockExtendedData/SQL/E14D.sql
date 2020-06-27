@@ -5,22 +5,22 @@ VALUES (0x7E14D001,  1154, 0xE14D000C, 39.00102, 92.50883, 23.23508, 0.9744465, 
 /* @teleloc 0xE14D000C [39.001020 92.508830 23.235080] 0.974447 0.000000 0.000000 -0.224620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14D001, 0x7E14D002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E14D001, 0x7E14D003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E14D001, 0x7E14D004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E14D001, 0x7E14D005, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E14D001, 0x7E14D006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14D001, 0x7E14D007, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E14D001, 0x7E14D008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14D001, 0x7E14D009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14D001, 0x7E14D00A, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7E14D001, 0x7E14D00B, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E14D001, 0x7E14D00C, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E14D001, 0x7E14D00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E14D001, 0x7E14D00E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E14D001, 0x7E14D00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E14D001, 0x7E14D010, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E14D001, 0x7E14D011, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7E14D001, 0x7E14D002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E14D001, 0x7E14D003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E14D001, 0x7E14D004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E14D001, 0x7E14D005, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E14D001, 0x7E14D006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14D001, 0x7E14D007, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E14D001, 0x7E14D008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14D001, 0x7E14D009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14D001, 0x7E14D00A, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7E14D001, 0x7E14D00B, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E14D001, 0x7E14D00C, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E14D001, 0x7E14D00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E14D001, 0x7E14D00E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E14D001, 0x7E14D00F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E14D001, 0x7E14D010, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E14D001, 0x7E14D011, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14D002,  8010, 0xE14D000C, 39.00102, 92.50883, 23.23508, 0.9744465, 0, 0, -0.2246196,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -91,10 +91,10 @@ VALUES (0x7E14D012,  1542, 0xE14D0018, 67.35898, 171.391, 21.71742, 0.7071068, 0
 /* @teleloc 0xE14D0018 [67.358980 171.391000 21.717420] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14D012, 0x7E14D013, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E14D012, 0x7E14D014, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7E14D012, 0x7E14D015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E14D012, 0x7E14D016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E14D012, 0x7E14D013, '2019-02-10 00:00:00') /* Snowman (9009) */
+     , (0x7E14D012, 0x7E14D014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E14D012, 0x7E14D015, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7E14D012, 0x7E14D016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14D013,  9009, 0xE14D0018, 67.35898, 171.391, 21.71742, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

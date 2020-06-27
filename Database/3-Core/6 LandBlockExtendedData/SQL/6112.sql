@@ -5,14 +5,14 @@ VALUES (0x76112001,  1154, 0x6112002E, 136.8233, 136.5721, 1.92, -0.04008237, 0,
 /* @teleloc 0x6112002E [136.823300 136.572100 1.920000] -0.040082 0.000000 0.000000 -0.999196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76112001, 0x76112002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76112001, 0x76112003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76112001, 0x76112004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76112001, 0x76112005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x76112001, 0x76112006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x76112001, 0x76112007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x76112001, 0x76112008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x76112001, 0x76112009, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x76112001, 0x76112002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76112001, 0x76112003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76112001, 0x76112004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76112001, 0x76112005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x76112001, 0x76112006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x76112001, 0x76112007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x76112001, 0x76112008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x76112001, 0x76112009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76112002,  7105, 0x6112002E, 136.8233, 136.5721, 1.92, -0.04008237, 0, 0, -0.9991964,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

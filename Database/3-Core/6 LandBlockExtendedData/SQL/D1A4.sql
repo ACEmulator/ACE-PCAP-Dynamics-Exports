@@ -5,24 +5,24 @@ VALUES (0x7D1A4001,  1154, 0xD1A40039, 178.9399, 8.741, 0.008249998, 0.231003, 0
 /* @teleloc 0xD1A40039 [178.939900 8.741000 0.008250] 0.231003 0.000000 0.000000 -0.972953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A4001, 0x7D1A4002, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D1A4001, 0x7D1A4003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D1A4001, 0x7D1A4004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D1A4001, 0x7D1A4005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D1A4001, 0x7D1A4006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D1A4001, 0x7D1A4007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D1A4001, 0x7D1A4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D1A4001, 0x7D1A4009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D1A4001, 0x7D1A400A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A4001, 0x7D1A400B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A4001, 0x7D1A400C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A4001, 0x7D1A400D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D1A4001, 0x7D1A400E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D1A4001, 0x7D1A400F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D1A4001, 0x7D1A4010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D1A4001, 0x7D1A4011, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D1A4001, 0x7D1A4012, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D1A4001, 0x7D1A4013, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7D1A4001, 0x7D1A4002, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D1A4001, 0x7D1A4003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D1A4001, 0x7D1A4004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D1A4001, 0x7D1A4005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D1A4001, 0x7D1A4006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D1A4001, 0x7D1A4007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D1A4001, 0x7D1A4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D1A4001, 0x7D1A4009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D1A4001, 0x7D1A400A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A4001, 0x7D1A400B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A4001, 0x7D1A400C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A4001, 0x7D1A400D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D1A4001, 0x7D1A400E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D1A4001, 0x7D1A400F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D1A4001, 0x7D1A4010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D1A4001, 0x7D1A4011, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D1A4001, 0x7D1A4012, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D1A4001, 0x7D1A4013, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A4002,  8672, 0xD1A40039, 178.9399, 8.741, 0.008249998, 0.231003, 0, 0, -0.972953,  True, '2019-02-10 00:00:00'); /* Risen Soldier */
@@ -101,7 +101,7 @@ VALUES (0x7D1A4014,  1542, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xD1A40039 [183.558700 6.921542 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A4014, 0x7D1A4015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D1A4014, 0x7D1A4015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A4015,  4179, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,9 +5,9 @@ VALUES (0x73F5A001,  1154, 0x3F5A003D, 179.5936, 113.0191, 64.09972, 0.9238795, 
 /* @teleloc 0x3F5A003D [179.593600 113.019100 64.099720] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F5A001, 0x73F5A002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F5A001, 0x73F5A003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F5A001, 0x73F5A004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73F5A001, 0x73F5A002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F5A001, 0x73F5A003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F5A001, 0x73F5A004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F5A002,  7184, 0x3F5A003D, 179.5936, 113.0191, 64.09972, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

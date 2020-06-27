@@ -5,10 +5,10 @@ VALUES (0x7C332001,  1154, 0xC332002D, 143.8276, 112.5624, 223.3412, -0.9995344,
 /* @teleloc 0xC332002D [143.827600 112.562400 223.341200] -0.999534 0.000000 0.000000 -0.030513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C332001, 0x7C332002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C332001, 0x7C332003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C332001, 0x7C332004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7C332001, 0x7C332005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7C332001, 0x7C332002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C332001, 0x7C332003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C332001, 0x7C332004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7C332001, 0x7C332005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C332002,  1989, 0xC332002D, 143.8276, 112.5624, 223.3412, -0.9995344, 0, 0, -0.03051323,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

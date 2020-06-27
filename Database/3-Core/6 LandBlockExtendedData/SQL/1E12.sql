@@ -5,7 +5,7 @@ VALUES (0x71E12001,  1154, 0x1E12003F, 188.1346, 150.0776, -0.8899999, -0.726694
 /* @teleloc 0x1E12003F [188.134600 150.077600 -0.890000] -0.726694 0.000000 0.000000 -0.686961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E12001, 0x71E12002, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x71E12001, 0x71E12002, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E12002, 35832, 0x1E12003F, 188.1346, 150.0776, -0.8899999, -0.7266944, 0, 0, -0.6869609,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
@@ -16,15 +16,15 @@ VALUES (0x71E12003,  1542, 0x1E120016, 59.46024, 131.5285, -0.8, 0.9967561, 0, 0
 /* @teleloc 0x1E120016 [59.460240 131.528500 -0.800000] 0.996756 0.000000 0.000000 -0.080481 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E12003, 0x71E12004, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x71E12003, 0x71E12005, '2019-02-10 00:00:00') /* Compass */
-     , (0x71E12003, 0x71E12006, '2019-02-10 00:00:00') /* Aerbax's Defeat */
-     , (0x71E12003, 0x71E12007, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x71E12003, 0x71E12008, '2019-02-10 00:00:00') /* Frost Sceptre */
-     , (0x71E12003, 0x71E12009, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x71E12003, 0x71E1200A, '2019-02-10 00:00:00') /* Electric Sceptre */
-     , (0x71E12003, 0x71E1200B, '2019-02-10 00:00:00') /* Slashing Compound Bow */
-     , (0x71E12003, 0x71E1200C, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71E12003, 0x71E12004, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x71E12003, 0x71E12005, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x71E12003, 0x71E12006, '2019-02-10 00:00:00') /* Aerbax's Defeat (31822) */
+     , (0x71E12003, 0x71E12007, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x71E12003, 0x71E12008, '2019-02-10 00:00:00') /* Frost Sceptre (29263) */
+     , (0x71E12003, 0x71E12009, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x71E12003, 0x71E1200A, '2019-02-10 00:00:00') /* Electric Sceptre (29261) */
+     , (0x71E12003, 0x71E1200B, '2019-02-10 00:00:00') /* Slashing Compound Bow (31798) */
+     , (0x71E12003, 0x71E1200C, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E12004,  2548, 0x1E120016, 59.46024, 131.5285, -0.8, 0.9967561, 0, 0, -0.08048104,  True, '2019-02-10 00:00:00'); /* Sceptre */

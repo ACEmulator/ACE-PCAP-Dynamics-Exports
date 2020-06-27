@@ -5,14 +5,14 @@ VALUES (0x7366D001,  1154, 0x366D0024, 102.025, 94.29476, 80.72052, -0.8153474, 
 /* @teleloc 0x366D0024 [102.025000 94.294760 80.720520] -0.815347 0.000000 0.000000 -0.578972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7366D001, 0x7366D002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7366D001, 0x7366D003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7366D001, 0x7366D004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7366D001, 0x7366D005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7366D001, 0x7366D006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7366D001, 0x7366D007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7366D001, 0x7366D008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7366D001, 0x7366D009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7366D001, 0x7366D002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7366D001, 0x7366D003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7366D001, 0x7366D004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7366D001, 0x7366D005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7366D001, 0x7366D006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7366D001, 0x7366D007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7366D001, 0x7366D008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7366D001, 0x7366D009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7366D002, 36832, 0x366D0024, 102.025, 94.29476, 80.72052, -0.8153474, 0, 0, -0.578972,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -51,7 +51,7 @@ VALUES (0x7366D00A,  1542, 0x366D0024, 114.2599, 95.52258, 80.19893, 1, 0, 0, 0,
 /* @teleloc 0x366D0024 [114.259900 95.522580 80.198930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7366D00A, 0x7366D00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7366D00A, 0x7366D00B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7366D00B, 22566, 0x366D0024, 114.2599, 95.52258, 80.19893, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

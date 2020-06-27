@@ -5,10 +5,10 @@ VALUES (0x7CA2A001,  1154, 0xCA2A0010, 29.91455, 191.3476, 177.5919, 0.8870109, 
 /* @teleloc 0xCA2A0010 [29.914550 191.347600 177.591900] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA2A001, 0x7CA2A002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CA2A001, 0x7CA2A003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7CA2A001, 0x7CA2A004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7CA2A001, 0x7CA2A005, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7CA2A001, 0x7CA2A002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CA2A001, 0x7CA2A003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7CA2A001, 0x7CA2A004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7CA2A001, 0x7CA2A005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2A002,  1610, 0xCA2A0010, 29.91455, 191.3476, 177.5919, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

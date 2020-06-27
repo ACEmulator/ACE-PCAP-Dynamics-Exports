@@ -5,20 +5,20 @@ VALUES (0x7BDB4001,  1154, 0xBDB4002F, 128.418, 164.617, 310.007, -0.9917156, 0,
 /* @teleloc 0xBDB4002F [128.418000 164.617000 310.007000] -0.991716 0.000000 0.000000 -0.128453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB4001, 0x7BDB4002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB4009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDB4001, 0x7BDB400A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BDB4001, 0x7BDB400B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB4001, 0x7BDB400C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB4001, 0x7BDB400D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB4001, 0x7BDB400E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDB4001, 0x7BDB400F, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7BDB4001, 0x7BDB4002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB4009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BDB4001, 0x7BDB400A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BDB4001, 0x7BDB400B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BDB4001, 0x7BDB400C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BDB4001, 0x7BDB400D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7BDB4001, 0x7BDB400E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDB4001, 0x7BDB400F, '2019-02-10 00:00:00') /* High Tumerok (4104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB4002, 14517, 0xBDB4002F, 128.418, 164.617, 310.007, -0.9917156, 0, 0, -0.1284529,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -81,9 +81,9 @@ VALUES (0x7BDB4010,  1542, 0xBDB40102, 131.663, 154.687, 310.0165, -0.662981, 0,
 /* @teleloc 0xBDB40102 [131.663000 154.687000 310.016500] -0.662981 0.000000 0.000000 0.748636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB4010, 0x7BDB4011, '2019-02-10 00:00:00') /* Minor Shivering Stone */
-     , (0x7BDB4010, 0x7BDB4012, '2019-02-10 00:00:00') /* Textbook */
-     , (0x7BDB4010, 0x7BDB4013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7BDB4010, 0x7BDB4011, '2019-02-10 00:00:00') /* Minor Shivering Stone (6321) */
+     , (0x7BDB4010, 0x7BDB4012, '2019-02-10 00:00:00') /* Textbook (6407) */
+     , (0x7BDB4010, 0x7BDB4013, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB4011,  6321, 0xBDB40102, 131.663, 154.687, 310.0165, -0.662981, 0, 0, 0.748636,  True, '2019-02-10 00:00:00'); /* Minor Shivering Stone */

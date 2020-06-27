@@ -9,10 +9,10 @@ VALUES (0x7796300A,  1154, 0x79630025, 107.063, 112.963, -0.8988999, 0.951353, 0
 /* @teleloc 0x79630025 [107.063000 112.963000 -0.898900] 0.951353 0.000000 0.000000 0.308104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7796300A, 0x7796300B, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7796300A, 0x7796300C, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7796300A, 0x7796300D, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7796300A, 0x7796300E, '2019-02-10 00:00:00') /* Shallows Shark */;
+VALUES (0x7796300A, 0x7796300B, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7796300A, 0x7796300C, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7796300A, 0x7796300D, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7796300A, 0x7796300E, '2019-02-10 00:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7796300B,  2577, 0x79630025, 107.063, 112.963, -0.8988999, 0.951353, 0, 0, 0.308104,  True, '2019-02-10 00:00:00'); /* Shallows Shark */

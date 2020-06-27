@@ -5,10 +5,10 @@ VALUES (0x7AB46001,  1154, 0xAB460038, 147.3243, 177.1096, 8.306024, -0.9738455,
 /* @teleloc 0xAB460038 [147.324300 177.109600 8.306024] -0.973846 0.000000 0.000000 -0.227211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB46001, 0x7AB46002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AB46001, 0x7AB46003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7AB46001, 0x7AB46004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7AB46001, 0x7AB46005, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7AB46001, 0x7AB46002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AB46001, 0x7AB46003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7AB46001, 0x7AB46004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7AB46001, 0x7AB46005, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB46002,    23, 0xAB460038, 147.3243, 177.1096, 8.306024, -0.9738455, 0, 0, -0.2272111,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

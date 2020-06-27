@@ -5,9 +5,9 @@ VALUES (0x7CA57001,  1154, 0xCA57003F, 177.4771, 152.4821, 33.4966, 0.9076376, 0
 /* @teleloc 0xCA57003F [177.477100 152.482100 33.496600] 0.907638 0.000000 0.000000 -0.419755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA57001, 0x7CA57002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CA57001, 0x7CA57003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CA57001, 0x7CA57004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7CA57001, 0x7CA57002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CA57001, 0x7CA57003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CA57001, 0x7CA57004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA57002,  1989, 0xCA57003F, 177.4771, 152.4821, 33.4966, 0.9076376, 0, 0, -0.4197547,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -26,8 +26,8 @@ VALUES (0x7CA57005,  1542, 0xCA57000F, 25.42142, 163.6508, 36.24398, -0.1495148,
 /* @teleloc 0xCA57000F [25.421420 163.650800 36.243980] -0.149515 0.000000 0.000000 -0.988760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA57005, 0x7CA57006, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CA57005, 0x7CA57007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CA57005, 0x7CA57006, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CA57005, 0x7CA57007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA57006,  8037, 0xCA57000F, 25.42142, 163.6508, 36.24398, -0.1495148, 0, 0, -0.9887595,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

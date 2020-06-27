@@ -5,12 +5,12 @@ VALUES (0x725C5001,  1154, 0x25C50027, 112.1764, 167.6489, 14.71333, -0.1869774,
 /* @teleloc 0x25C50027 [112.176400 167.648900 14.713330] -0.186977 0.000000 0.000000 -0.982364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725C5001, 0x725C5002, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x725C5001, 0x725C5003, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x725C5001, 0x725C5004, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x725C5001, 0x725C5005, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x725C5001, 0x725C5006, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x725C5001, 0x725C5007, '2019-02-10 00:00:00') /* Untamed Siraluun */;
+VALUES (0x725C5001, 0x725C5002, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x725C5001, 0x725C5003, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x725C5001, 0x725C5004, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x725C5001, 0x725C5005, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x725C5001, 0x725C5006, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x725C5001, 0x725C5007, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725C5002, 27712, 0x25C50027, 112.1764, 167.6489, 14.71333, -0.1869774, 0, 0, -0.9823642,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */

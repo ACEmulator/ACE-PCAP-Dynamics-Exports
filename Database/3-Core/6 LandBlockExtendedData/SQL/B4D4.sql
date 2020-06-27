@@ -5,17 +5,17 @@ VALUES (0x7B4D4001,  1154, 0xB4D4002A, 137.9245, 28.44796, 55.1913, 0.3575191, 0
 /* @teleloc 0xB4D4002A [137.924500 28.447960 55.191300] 0.357519 0.000000 0.000000 -0.933906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4D4001, 0x7B4D4002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B4D4001, 0x7B4D4003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B4D4001, 0x7B4D4004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B4D4001, 0x7B4D4005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7B4D4001, 0x7B4D4006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B4D4001, 0x7B4D4007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B4D4001, 0x7B4D4008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B4D4001, 0x7B4D4009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B4D4001, 0x7B4D400A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B4D4001, 0x7B4D400B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B4D4001, 0x7B4D400C, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7B4D4001, 0x7B4D4002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B4D4001, 0x7B4D4003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B4D4001, 0x7B4D4004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B4D4001, 0x7B4D4005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7B4D4001, 0x7B4D4006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B4D4001, 0x7B4D4007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B4D4001, 0x7B4D4008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B4D4001, 0x7B4D4009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B4D4001, 0x7B4D400A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B4D4001, 0x7B4D400B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B4D4001, 0x7B4D400C, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4D4002, 24294, 0xB4D4002A, 137.9245, 28.44796, 55.1913, 0.3575191, 0, 0, -0.9339058,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

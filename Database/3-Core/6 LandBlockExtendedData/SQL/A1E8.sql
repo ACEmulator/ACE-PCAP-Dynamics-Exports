@@ -5,16 +5,16 @@ VALUES (0x7A1E8001,  1154, 0xA1E8000F, 25.92105, 162.9498, 74.69152, 0.1178605, 
 /* @teleloc 0xA1E8000F [25.921050 162.949800 74.691520] 0.117861 0.000000 0.000000 -0.993030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1E8001, 0x7A1E8002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A1E8001, 0x7A1E8003, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7A1E8001, 0x7A1E8004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1E8001, 0x7A1E8005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1E8001, 0x7A1E8006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1E8001, 0x7A1E8007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A1E8001, 0x7A1E8008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A1E8001, 0x7A1E8009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A1E8001, 0x7A1E800A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A1E8001, 0x7A1E800B, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x7A1E8001, 0x7A1E8002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A1E8001, 0x7A1E8003, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7A1E8001, 0x7A1E8004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1E8001, 0x7A1E8005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1E8001, 0x7A1E8006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1E8001, 0x7A1E8007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A1E8001, 0x7A1E8008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A1E8001, 0x7A1E8009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A1E8001, 0x7A1E800A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A1E8001, 0x7A1E800B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E8002, 22519, 0xA1E8000F, 25.92105, 162.9498, 74.69152, 0.1178605, 0, 0, -0.9930302,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -61,7 +61,7 @@ VALUES (0x7A1E800C,  1542, 0xA1E8002E, 138.1713, 141.8186, 72.33022, 0.9537169, 
 /* @teleloc 0xA1E8002E [138.171300 141.818600 72.330220] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1E800C, 0x7A1E800D, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x7A1E800C, 0x7A1E800D, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E800D,  8389, 0xA1E8002E, 138.1713, 141.8186, 72.33022, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */

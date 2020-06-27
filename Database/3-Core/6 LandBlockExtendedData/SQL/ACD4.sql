@@ -5,14 +5,14 @@ VALUES (0x7ACD4001,  1154, 0xACD4002D, 141.7267, 100.8316, 89.57961, 0.5015122, 
 /* @teleloc 0xACD4002D [141.726700 100.831600 89.579610] 0.501512 0.000000 0.000000 -0.865151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACD4001, 0x7ACD4002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7ACD4001, 0x7ACD4003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7ACD4001, 0x7ACD4004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7ACD4001, 0x7ACD4005, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7ACD4001, 0x7ACD4006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ACD4001, 0x7ACD4007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7ACD4001, 0x7ACD4008, '2019-02-10 00:00:00') /* Static */
-     , (0x7ACD4001, 0x7ACD4009, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7ACD4001, 0x7ACD4002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7ACD4001, 0x7ACD4003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7ACD4001, 0x7ACD4004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7ACD4001, 0x7ACD4005, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7ACD4001, 0x7ACD4006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ACD4001, 0x7ACD4007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7ACD4001, 0x7ACD4008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7ACD4001, 0x7ACD4009, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACD4002, 23565, 0xACD4002D, 141.7267, 100.8316, 89.57961, 0.5015122, 0, 0, -0.8651506,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

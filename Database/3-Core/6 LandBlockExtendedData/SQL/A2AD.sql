@@ -5,8 +5,8 @@ VALUES (0x7A2AD001,  1154, 0xA2AD0040, 168.4996, 169.2076, 48.01, -0.9842071, 0,
 /* @teleloc 0xA2AD0040 [168.499600 169.207600 48.010000] -0.984207 0.000000 0.000000 -0.177021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2AD001, 0x7A2AD002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A2AD001, 0x7A2AD003, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7A2AD001, 0x7A2AD002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A2AD001, 0x7A2AD003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2AD002, 11528, 0xA2AD0040, 168.4996, 169.2076, 48.01, -0.9842071, 0, 0, -0.1770211,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

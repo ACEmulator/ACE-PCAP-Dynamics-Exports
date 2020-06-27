@@ -5,10 +5,10 @@ VALUES (0x78EC8001,  1154, 0x8EC8001F, 92.13705, 166.392, 81.9925, 0.7503697, 0,
 /* @teleloc 0x8EC8001F [92.137050 166.392000 81.992500] 0.750370 0.000000 0.000000 -0.661018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC8001, 0x78EC8002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78EC8001, 0x78EC8003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78EC8001, 0x78EC8004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EC8001, 0x78EC8005, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78EC8001, 0x78EC8002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78EC8001, 0x78EC8003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78EC8001, 0x78EC8004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EC8001, 0x78EC8005, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC8002, 24294, 0x8EC8001F, 92.13705, 166.392, 81.9925, 0.7503697, 0, 0, -0.6610184,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

@@ -5,10 +5,10 @@ VALUES (0x78BE9001,  1154, 0x8BE9001D, 94.42996, 109.7767, 77.15056, 0.7071068, 
 /* @teleloc 0x8BE9001D [94.429960 109.776700 77.150560] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE9001, 0x78BE9002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78BE9001, 0x78BE9003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78BE9001, 0x78BE9004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78BE9001, 0x78BE9005, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x78BE9001, 0x78BE9002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78BE9001, 0x78BE9003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78BE9001, 0x78BE9004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78BE9001, 0x78BE9005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE9002,  1756, 0x8BE9001D, 94.42996, 109.7767, 77.15056, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Child */

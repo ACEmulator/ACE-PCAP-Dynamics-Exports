@@ -5,17 +5,17 @@ VALUES (0x7AEDD001,  1154, 0xAEDD0019, 72.11317, 19.56746, 8, 0.5046822, 0, 0, -
 /* @teleloc 0xAEDD0019 [72.113170 19.567460 8.000000] 0.504682 0.000000 0.000000 -0.863305 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEDD001, 0x7AEDD002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AEDD001, 0x7AEDD003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AEDD001, 0x7AEDD004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AEDD001, 0x7AEDD005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AEDD001, 0x7AEDD006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AEDD001, 0x7AEDD007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AEDD001, 0x7AEDD008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AEDD001, 0x7AEDD009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AEDD001, 0x7AEDD00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AEDD001, 0x7AEDD00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7AEDD001, 0x7AEDD00C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7AEDD001, 0x7AEDD002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AEDD001, 0x7AEDD003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AEDD001, 0x7AEDD004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AEDD001, 0x7AEDD005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AEDD001, 0x7AEDD006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AEDD001, 0x7AEDD007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AEDD001, 0x7AEDD008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AEDD001, 0x7AEDD009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AEDD001, 0x7AEDD00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AEDD001, 0x7AEDD00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7AEDD001, 0x7AEDD00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEDD002,  6041, 0xAEDD0019, 72.11317, 19.56746, 8, 0.5046822, 0, 0, -0.8633052,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

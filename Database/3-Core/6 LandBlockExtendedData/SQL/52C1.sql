@@ -873,9 +873,9 @@ VALUES (0x752C10DA,  1542, 0x52C10112, 88.48995, 156.8522, 0.0302934, 0.9394316,
 /* @teleloc 0x52C10112 [88.489950 156.852200 0.030293] 0.939432 0.000000 0.000000 -0.342736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752C10DA, 0x752C10DB, '2019-02-10 00:00:00') /* Olthoi Helm */
-     , (0x752C10DA, 0x752C10DC, '2019-02-10 00:00:00') /* Gateway */
-     , (0x752C10DA, 0x752C10DD, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x752C10DA, 0x752C10DB, '2019-02-10 00:00:00') /* Olthoi Helm (40688) */
+     , (0x752C10DA, 0x752C10DC, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x752C10DA, 0x752C10DD, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752C10DB, 40688, 0x52C10112, 88.48995, 156.8522, 0.0302934, 0.9394316, 0, 0, -0.3427363,  True, '2019-02-10 00:00:00'); /* Olthoi Helm */

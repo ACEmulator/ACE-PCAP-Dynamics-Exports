@@ -5,15 +5,15 @@ VALUES (0x7B573001,  1154, 0xB5730013, 49.91261, 54.71302, 27.767, 0.9238795, 0,
 /* @teleloc 0xB5730013 [49.912610 54.713020 27.767000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B573001, 0x7B573002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B573001, 0x7B573003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B573001, 0x7B573004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B573001, 0x7B573005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B573001, 0x7B573006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B573001, 0x7B573007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B573001, 0x7B573008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B573001, 0x7B573009, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B573001, 0x7B57300A, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7B573001, 0x7B573002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B573001, 0x7B573003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B573001, 0x7B573004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B573001, 0x7B573005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B573001, 0x7B573006, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B573001, 0x7B573007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B573001, 0x7B573008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B573001, 0x7B573009, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B573001, 0x7B57300A, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B573002,   182, 0xB5730013, 49.91261, 54.71302, 27.767, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

@@ -5,12 +5,12 @@ VALUES (0x7CD1D001,  1154, 0xCD1D002E, 142.335, 121.2394, 79.72704, -0.7132664, 
 /* @teleloc 0xCD1D002E [142.335000 121.239400 79.727040] -0.713266 0.000000 0.000000 -0.700893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD1D001, 0x7CD1D002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CD1D001, 0x7CD1D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CD1D001, 0x7CD1D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CD1D001, 0x7CD1D005, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7CD1D001, 0x7CD1D006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD1D001, 0x7CD1D007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7CD1D001, 0x7CD1D002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CD1D001, 0x7CD1D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CD1D001, 0x7CD1D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CD1D001, 0x7CD1D005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7CD1D001, 0x7CD1D006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD1D001, 0x7CD1D007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD1D002,  7090, 0xCD1D002E, 142.335, 121.2394, 79.72704, -0.7132664, 0, 0, -0.700893,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

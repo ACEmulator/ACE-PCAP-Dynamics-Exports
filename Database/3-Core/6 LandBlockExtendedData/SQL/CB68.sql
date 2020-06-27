@@ -5,17 +5,17 @@ VALUES (0x7CB68001,  1154, 0xCB68001F, 81.45139, 158.9885, 57.26009, -0.1930618,
 /* @teleloc 0xCB68001F [81.451390 158.988500 57.260090] -0.193062 0.000000 0.000000 -0.981187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB68001, 0x7CB68002, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7CB68001, 0x7CB68003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7CB68001, 0x7CB68004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7CB68001, 0x7CB68005, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7CB68001, 0x7CB68006, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7CB68001, 0x7CB68007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB68001, 0x7CB68008, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB68001, 0x7CB68009, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB68001, 0x7CB6800A, '2019-02-10 00:00:00') /* Idol */
-     , (0x7CB68001, 0x7CB6800B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7CB68001, 0x7CB6800C, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x7CB68001, 0x7CB68002, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7CB68001, 0x7CB68003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7CB68001, 0x7CB68004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7CB68001, 0x7CB68005, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7CB68001, 0x7CB68006, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7CB68001, 0x7CB68007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB68001, 0x7CB68008, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB68001, 0x7CB68009, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB68001, 0x7CB6800A, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7CB68001, 0x7CB6800B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7CB68001, 0x7CB6800C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB68002, 11981, 0xCB68001F, 81.45139, 158.9885, 57.26009, -0.1930618, 0, 0, -0.9811866,  True, '2019-02-10 00:00:00'); /* Master of the Herd */

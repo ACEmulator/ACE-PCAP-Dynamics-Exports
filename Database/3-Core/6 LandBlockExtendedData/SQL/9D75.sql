@@ -5,11 +5,11 @@ VALUES (0x79D75001,  1154, 0x9D75003E, 172.5887, 132.8341, 20.0055, 0.9063078, 0
 /* @teleloc 0x9D75003E [172.588700 132.834100 20.005500] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D75001, 0x79D75002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x79D75001, 0x79D75003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x79D75001, 0x79D75004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x79D75001, 0x79D75005, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x79D75001, 0x79D75006, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x79D75001, 0x79D75002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x79D75001, 0x79D75003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x79D75001, 0x79D75004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x79D75001, 0x79D75005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x79D75001, 0x79D75006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D75002,   211, 0x9D75003E, 172.5887, 132.8341, 20.0055, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -36,7 +36,7 @@ VALUES (0x79D75007,  1542, 0x9D75003E, 175.4982, 136.7187, 20, 1, 0, 0, 0, False
 /* @teleloc 0x9D75003E [175.498200 136.718700 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D75007, 0x79D75008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79D75007, 0x79D75008, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D75008, 22568, 0x9D75003E, 175.4982, 136.7187, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

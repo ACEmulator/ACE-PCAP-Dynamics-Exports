@@ -5,9 +5,9 @@ VALUES (0x71957001,  1154, 0x19570004, 16.90033, 72.33551, 64.00455, 0.2588191, 
 /* @teleloc 0x19570004 [16.900330 72.335510 64.004550] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71957001, 0x71957002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71957001, 0x71957003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71957001, 0x71957004, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x71957001, 0x71957002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71957001, 0x71957003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71957001, 0x71957004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71957002, 36822, 0x19570004, 16.90033, 72.33551, 64.00455, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */

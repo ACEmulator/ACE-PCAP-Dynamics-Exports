@@ -5,9 +5,9 @@ VALUES (0x73B6A001,  1154, 0x3B6A0001, 12.90754, 14.24462, 66.86816, 0.9063078, 
 /* @teleloc 0x3B6A0001 [12.907540 14.244620 66.868160] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B6A001, 0x73B6A002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73B6A001, 0x73B6A003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73B6A001, 0x73B6A004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73B6A001, 0x73B6A002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73B6A001, 0x73B6A003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73B6A001, 0x73B6A004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B6A002,  7081, 0x3B6A0001, 12.90754, 14.24462, 66.86816, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -26,7 +26,7 @@ VALUES (0x73B6A005,  1542, 0x3B6A0001, 12.89787, 12.09057, 66.86816, 1, 0, 0, 0,
 /* @teleloc 0x3B6A0001 [12.897870 12.090570 66.868160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B6A005, 0x73B6A006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73B6A005, 0x73B6A006, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B6A006,  4379, 0x3B6A0001, 12.89787, 12.09057, 66.86816, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

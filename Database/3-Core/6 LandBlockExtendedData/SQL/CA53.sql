@@ -5,9 +5,9 @@ VALUES (0x7CA53001,  1154, 0xCA530038, 146.4554, 182.0313, 39.30536, -0.08715577
 /* @teleloc 0xCA530038 [146.455400 182.031300 39.305360] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA53001, 0x7CA53002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CA53001, 0x7CA53003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CA53001, 0x7CA53004, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7CA53001, 0x7CA53002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CA53001, 0x7CA53003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CA53001, 0x7CA53004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA53002, 24940, 0xCA530038, 146.4554, 182.0313, 39.30536, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

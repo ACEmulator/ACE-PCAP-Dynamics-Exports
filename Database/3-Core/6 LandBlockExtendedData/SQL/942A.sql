@@ -5,15 +5,15 @@ VALUES (0x7942A001,  1154, 0x942A0014, 62.35414, 85.24141, 66.90655, 0.2588191, 
 /* @teleloc 0x942A0014 [62.354140 85.241410 66.906550] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7942A001, 0x7942A002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7942A001, 0x7942A003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7942A001, 0x7942A004, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7942A001, 0x7942A005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7942A001, 0x7942A006, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7942A001, 0x7942A007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7942A001, 0x7942A008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7942A001, 0x7942A009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7942A001, 0x7942A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7942A001, 0x7942A002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7942A001, 0x7942A003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7942A001, 0x7942A004, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7942A001, 0x7942A005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7942A001, 0x7942A006, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7942A001, 0x7942A007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7942A001, 0x7942A008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7942A001, 0x7942A009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7942A001, 0x7942A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942A002, 14559, 0x942A0014, 62.35414, 85.24141, 66.90655, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -56,10 +56,10 @@ VALUES (0x7942A00B,  1542, 0x942A001C, 95.92341, 80.48587, 71.17137, 1, 0, 0, 0,
 /* @teleloc 0x942A001C [95.923410 80.485870 71.171370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7942A00B, 0x7942A00C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7942A00B, 0x7942A00D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7942A00B, 0x7942A00E, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7942A00B, 0x7942A00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7942A00B, 0x7942A00C, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7942A00B, 0x7942A00D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7942A00B, 0x7942A00E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7942A00B, 0x7942A00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942A00C, 22567, 0x942A001C, 95.92341, 80.48587, 71.17137, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

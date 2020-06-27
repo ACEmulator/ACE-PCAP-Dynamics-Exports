@@ -5,14 +5,14 @@ VALUES (0x793A8001,  1154, 0x93A8003F, 188.4803, 147.399, 48.27935, 0.9208454, 0
 /* @teleloc 0x93A8003F [188.480300 147.399000 48.279350] 0.920845 0.000000 0.000000 -0.389928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793A8001, 0x793A8002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793A8001, 0x793A8003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x793A8001, 0x793A8004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793A8001, 0x793A8005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x793A8001, 0x793A8006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x793A8001, 0x793A8007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793A8001, 0x793A8008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x793A8001, 0x793A8009, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x793A8001, 0x793A8002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793A8001, 0x793A8003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x793A8001, 0x793A8004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793A8001, 0x793A8005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x793A8001, 0x793A8006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x793A8001, 0x793A8007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793A8001, 0x793A8008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x793A8001, 0x793A8009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793A8002, 24959, 0x93A8003F, 188.4803, 147.399, 48.27935, 0.9208454, 0, 0, -0.3899277,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

@@ -5,20 +5,20 @@ VALUES (0x70F70001,  1154, 0x0F700040, 173.002, 173.8934, 79.37942, -0.6174234, 
 /* @teleloc 0x0F700040 [173.002000 173.893400 79.379420] -0.617423 0.000000 0.000000 -0.786631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F70001, 0x70F70002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70F70001, 0x70F70003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70F70001, 0x70F70004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70F70001, 0x70F70005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F70001, 0x70F70006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F70001, 0x70F70007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x70F70001, 0x70F70008, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x70F70001, 0x70F70009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x70F70001, 0x70F7000A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F70001, 0x70F7000B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F70001, 0x70F7000C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70F70001, 0x70F7000D, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F70001, 0x70F7000E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70F70001, 0x70F7000F, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70F70001, 0x70F70002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70F70001, 0x70F70003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70F70001, 0x70F70004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70F70001, 0x70F70005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F70001, 0x70F70006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F70001, 0x70F70007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x70F70001, 0x70F70008, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x70F70001, 0x70F70009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x70F70001, 0x70F7000A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F70001, 0x70F7000B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F70001, 0x70F7000C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70F70001, 0x70F7000D, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F70001, 0x70F7000E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70F70001, 0x70F7000F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F70002, 22054, 0x0F700040, 173.002, 173.8934, 79.37942, -0.6174234, 0, 0, -0.786631,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -81,7 +81,7 @@ VALUES (0x70F70010,  1542, 0x0F700006, 1.994149, 132.1188, 74.29063, -4.371139E-
 /* @teleloc 0x0F700006 [1.994149 132.118800 74.290630] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F70010, 0x70F70011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F70010, 0x70F70011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F70011,  4380, 0x0F700006, 1.994149, 132.1188, 74.29063, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

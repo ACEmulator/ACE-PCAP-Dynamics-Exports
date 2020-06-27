@@ -5,14 +5,14 @@ VALUES (0x73230001,  1154, 0x3230003F, 180.1939, 145.4008, 132.0071, 1, 0, 0, 0,
 /* @teleloc 0x3230003F [180.193900 145.400800 132.007100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73230001, 0x73230002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73230001, 0x73230003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73230001, 0x73230004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73230001, 0x73230005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73230001, 0x73230006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73230001, 0x73230007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73230001, 0x73230008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73230001, 0x73230009, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x73230001, 0x73230002, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73230001, 0x73230003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73230001, 0x73230004, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73230001, 0x73230005, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73230001, 0x73230006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73230001, 0x73230007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73230001, 0x73230008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73230001, 0x73230009, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73230002, 24276, 0x3230003F, 180.1939, 145.4008, 132.0071, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Banderling Savage */

@@ -5,14 +5,14 @@ VALUES (0x72F46001,  1154, 0x2F460006, 4.712123, 131.2121, 48.71941, 0.8191521, 
 /* @teleloc 0x2F460006 [4.712123 131.212100 48.719410] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F46001, 0x72F46002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F46001, 0x72F46003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F46001, 0x72F46004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F46001, 0x72F46005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72F46001, 0x72F46006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F46001, 0x72F46007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F46001, 0x72F46008, '2019-02-10 00:00:00') /* Flare */
-     , (0x72F46001, 0x72F46009, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x72F46001, 0x72F46002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F46001, 0x72F46003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F46001, 0x72F46004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F46001, 0x72F46005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72F46001, 0x72F46006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F46001, 0x72F46007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F46001, 0x72F46008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72F46001, 0x72F46009, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F46002, 23566, 0x2F460006, 4.712123, 131.2121, 48.71941, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

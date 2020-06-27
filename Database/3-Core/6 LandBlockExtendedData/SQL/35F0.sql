@@ -5,10 +5,10 @@ VALUES (0x735F0001,  1154, 0x35F00040, 170.4314, 183.682, 40, -0.1617903, 0, 0, 
 /* @teleloc 0x35F00040 [170.431400 183.682000 40.000000] -0.161790 0.000000 0.000000 -0.986825 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735F0001, 0x735F0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x735F0001, 0x735F0003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735F0001, 0x735F0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x735F0001, 0x735F0005, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x735F0001, 0x735F0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x735F0001, 0x735F0003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735F0001, 0x735F0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x735F0001, 0x735F0005, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735F0002, 28551, 0x35F00040, 170.4314, 183.682, 40, -0.1617903, 0, 0, -0.9868252,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

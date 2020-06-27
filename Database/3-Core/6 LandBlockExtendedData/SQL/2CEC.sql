@@ -5,40 +5,40 @@ VALUES (0x72CEC001,  1154, 0x2CEC0006, 16.13898, 120.1381, 8.00825, -0.4026363, 
 /* @teleloc 0x2CEC0006 [16.138980 120.138100 8.008250] -0.402636 0.000000 0.000000 -0.915360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CEC001, 0x72CEC002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72CEC001, 0x72CEC003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72CEC001, 0x72CEC004, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CEC001, 0x72CEC005, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CEC001, 0x72CEC006, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CEC001, 0x72CEC007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72CEC001, 0x72CEC008, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72CEC001, 0x72CEC009, '2019-02-10 00:00:00') /* Eater */
-     , (0x72CEC001, 0x72CEC00A, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CEC001, 0x72CEC00B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CEC001, 0x72CEC00C, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CEC001, 0x72CEC00D, '2019-02-10 00:00:00') /* Eater */
-     , (0x72CEC001, 0x72CEC00E, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CEC001, 0x72CEC00F, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72CEC001, 0x72CEC010, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72CEC001, 0x72CEC011, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72CEC001, 0x72CEC012, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72CEC001, 0x72CEC013, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72CEC001, 0x72CEC014, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72CEC001, 0x72CEC015, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72CEC001, 0x72CEC016, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72CEC001, 0x72CEC017, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72CEC001, 0x72CEC018, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CEC001, 0x72CEC019, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CEC001, 0x72CEC01A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CEC001, 0x72CEC01B, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CEC001, 0x72CEC01C, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CEC001, 0x72CEC01D, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72CEC001, 0x72CEC01E, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72CEC001, 0x72CEC01F, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x72CEC001, 0x72CEC020, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72CEC001, 0x72CEC021, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72CEC001, 0x72CEC022, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEC001, 0x72CEC023, '2019-02-10 00:00:00') /* Truffle Thrungus */;
+VALUES (0x72CEC001, 0x72CEC002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72CEC001, 0x72CEC003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72CEC001, 0x72CEC004, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CEC001, 0x72CEC005, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CEC001, 0x72CEC006, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CEC001, 0x72CEC007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72CEC001, 0x72CEC008, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72CEC001, 0x72CEC009, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72CEC001, 0x72CEC00A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CEC001, 0x72CEC00B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CEC001, 0x72CEC00C, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CEC001, 0x72CEC00D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72CEC001, 0x72CEC00E, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CEC001, 0x72CEC00F, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72CEC001, 0x72CEC010, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72CEC001, 0x72CEC011, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72CEC001, 0x72CEC012, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72CEC001, 0x72CEC013, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x72CEC001, 0x72CEC014, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72CEC001, 0x72CEC015, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72CEC001, 0x72CEC016, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72CEC001, 0x72CEC017, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72CEC001, 0x72CEC018, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CEC001, 0x72CEC019, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CEC001, 0x72CEC01A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CEC001, 0x72CEC01B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CEC001, 0x72CEC01C, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CEC001, 0x72CEC01D, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72CEC001, 0x72CEC01E, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72CEC001, 0x72CEC01F, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x72CEC001, 0x72CEC020, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72CEC001, 0x72CEC021, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72CEC001, 0x72CEC022, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEC001, 0x72CEC023, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CEC002,  4217, 0x2CEC0006, 16.13898, 120.1381, 8.00825, -0.4026363, 0, 0, -0.91536,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

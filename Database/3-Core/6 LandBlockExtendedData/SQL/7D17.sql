@@ -5,9 +5,9 @@ VALUES (0x77D17001,  1154, 0x7D17002A, 129.1528, 26.67205, 59.58697, 0.9930624, 
 /* @teleloc 0x7D17002A [129.152800 26.672050 59.586970] 0.993062 0.000000 0.000000 -0.117589 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D17001, 0x77D17002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x77D17001, 0x77D17003, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x77D17001, 0x77D17004, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x77D17001, 0x77D17002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x77D17001, 0x77D17003, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x77D17001, 0x77D17004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D17002, 28551, 0x7D17002A, 129.1528, 26.67205, 59.58697, 0.9930624, 0, 0, -0.1175887,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

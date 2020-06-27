@@ -113,36 +113,36 @@ VALUES (0x7014E08D,  1154, 0x014E025D, 187.262, -21.5266, 0.006875038, 0.994326,
 /* @teleloc 0x014E025D [187.262000 -21.526600 0.006875] 0.994326 0.000000 0.000000 -0.106371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E08D, 0x7014E08E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E08F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E090, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E091, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E092, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E093, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E094, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E095, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E096, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7014E08D, 0x7014E097, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E098, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E099, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E09F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A0, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7014E08D, 0x7014E0A1, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7014E08D, 0x7014E0A2, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7014E08D, 0x7014E0A3, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A4, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A5, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A6, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A7, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7014E08D, 0x7014E0A8, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0A9, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0AA, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7014E08D, 0x7014E0AB, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7014E08D, 0x7014E08E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E08F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E090, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E091, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E092, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E093, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E094, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E095, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E096, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E08D, 0x7014E097, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E098, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E099, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E09F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A0, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E08D, 0x7014E0A1, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E08D, 0x7014E0A2, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E08D, 0x7014E0A3, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A4, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A5, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A6, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A7, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E08D, 0x7014E0A8, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0A9, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0AA, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7014E08D, 0x7014E0AB, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E08E,  7345, 0x014E025D, 187.262, -21.5266, 0.006875038, 0.994326, 0, 0, -0.106371,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -269,9 +269,9 @@ VALUES (0x7014E0AC,  1542, 0x014E0245, 178.6259, -40.28709, 1.135361, -0.0161001
 /* @teleloc 0x014E0245 [178.625900 -40.287090 1.135361] -0.016100 0.000000 0.000000 -0.999870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E0AC, 0x7014E0AD, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7014E0AC, 0x7014E0AE, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7014E0AC, 0x7014E0AF, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7014E0AC, 0x7014E0AD, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7014E0AC, 0x7014E0AE, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7014E0AC, 0x7014E0AF, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E0AD, 36454, 0x014E0245, 178.6259, -40.28709, 1.135361, -0.01610011, 0, 0, -0.9998704,  True, '2019-02-10 00:00:00'); /* Spectral Flame */

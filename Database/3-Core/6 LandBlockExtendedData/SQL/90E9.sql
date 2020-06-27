@@ -5,13 +5,13 @@ VALUES (0x790E9001,  1154, 0x90E90031, 148.5658, 1.188936, 45.72409, 0.9682196, 
 /* @teleloc 0x90E90031 [148.565800 1.188936 45.724090] 0.968220 0.000000 0.000000 -0.250102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790E9001, 0x790E9002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x790E9001, 0x790E9003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x790E9001, 0x790E9004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x790E9001, 0x790E9005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x790E9001, 0x790E9006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x790E9001, 0x790E9007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x790E9001, 0x790E9008, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x790E9001, 0x790E9002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x790E9001, 0x790E9003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x790E9001, 0x790E9004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x790E9001, 0x790E9005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x790E9001, 0x790E9006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x790E9001, 0x790E9007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x790E9001, 0x790E9008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790E9002,   231, 0x90E90031, 148.5658, 1.188936, 45.72409, 0.9682196, 0, 0, -0.2501016,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

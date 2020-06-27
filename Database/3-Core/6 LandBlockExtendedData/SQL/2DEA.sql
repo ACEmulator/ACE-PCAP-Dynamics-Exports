@@ -5,24 +5,24 @@ VALUES (0x72DEA001,  1154, 0x2DEA0008, 23.14479, 169.1921, 8.01, 0.5623348, 0, 0
 /* @teleloc 0x2DEA0008 [23.144790 169.192100 8.010000] 0.562335 0.000000 0.000000 -0.826910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DEA001, 0x72DEA002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72DEA001, 0x72DEA003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72DEA001, 0x72DEA004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x72DEA001, 0x72DEA005, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72DEA001, 0x72DEA006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72DEA001, 0x72DEA007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72DEA001, 0x72DEA008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72DEA001, 0x72DEA009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72DEA001, 0x72DEA00A, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72DEA001, 0x72DEA00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DEA001, 0x72DEA00C, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72DEA001, 0x72DEA00D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72DEA001, 0x72DEA00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72DEA001, 0x72DEA00F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72DEA001, 0x72DEA010, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DEA001, 0x72DEA011, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72DEA001, 0x72DEA012, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72DEA001, 0x72DEA013, '2019-02-10 00:00:00') /* Black Phyntos Wasp */;
+VALUES (0x72DEA001, 0x72DEA002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72DEA001, 0x72DEA003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72DEA001, 0x72DEA004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x72DEA001, 0x72DEA005, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72DEA001, 0x72DEA006, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72DEA001, 0x72DEA007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72DEA001, 0x72DEA008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72DEA001, 0x72DEA009, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72DEA001, 0x72DEA00A, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72DEA001, 0x72DEA00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DEA001, 0x72DEA00C, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72DEA001, 0x72DEA00D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72DEA001, 0x72DEA00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72DEA001, 0x72DEA00F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72DEA001, 0x72DEA010, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DEA001, 0x72DEA011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72DEA001, 0x72DEA012, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72DEA001, 0x72DEA013, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DEA002, 22933, 0x2DEA0008, 23.14479, 169.1921, 8.01, 0.5623348, 0, 0, -0.8269097,  True, '2019-02-10 00:00:00'); /* Mist Golem */

@@ -5,20 +5,20 @@ VALUES (0x773B4001,  1154, 0x73B4000E, 44.91483, 128.1207, 96.38195, 0.7071068, 
 /* @teleloc 0x73B4000E [44.914830 128.120700 96.381950] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B4001, 0x773B4002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x773B4001, 0x773B4003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x773B4001, 0x773B4004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x773B4001, 0x773B4005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x773B4001, 0x773B4006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x773B4001, 0x773B4007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x773B4001, 0x773B4008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x773B4001, 0x773B4009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x773B4001, 0x773B400A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x773B4001, 0x773B400B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x773B4001, 0x773B400C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773B4001, 0x773B400D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773B4001, 0x773B400E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773B4001, 0x773B400F, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x773B4001, 0x773B4002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x773B4001, 0x773B4003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x773B4001, 0x773B4004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x773B4001, 0x773B4005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x773B4001, 0x773B4006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x773B4001, 0x773B4007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x773B4001, 0x773B4008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x773B4001, 0x773B4009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x773B4001, 0x773B400A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x773B4001, 0x773B400B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x773B4001, 0x773B400C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773B4001, 0x773B400D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773B4001, 0x773B400E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773B4001, 0x773B400F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B4002, 24294, 0x73B4000E, 44.91483, 128.1207, 96.38195, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

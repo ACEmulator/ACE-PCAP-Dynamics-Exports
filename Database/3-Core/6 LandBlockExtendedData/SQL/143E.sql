@@ -5,11 +5,11 @@ VALUES (0x7143E001,  1154, 0x143E002B, 122.6239, 69.5299, 0.00454998, 0.7071068,
 /* @teleloc 0x143E002B [122.623900 69.529900 0.004550] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7143E001, 0x7143E002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7143E001, 0x7143E003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7143E001, 0x7143E004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7143E001, 0x7143E005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7143E001, 0x7143E006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7143E001, 0x7143E002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7143E001, 0x7143E003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7143E001, 0x7143E004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7143E001, 0x7143E005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7143E001, 0x7143E006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7143E002, 36826, 0x143E002B, 122.6239, 69.5299, 0.00454998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

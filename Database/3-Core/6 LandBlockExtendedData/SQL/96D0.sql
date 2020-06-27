@@ -5,16 +5,16 @@ VALUES (0x796D0001,  1154, 0x96D00009, 46.75574, 12.11062, 196.5439, 0.9238795, 
 /* @teleloc 0x96D00009 [46.755740 12.110620 196.543900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D0001, 0x796D0002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796D0001, 0x796D0003, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796D0001, 0x796D0004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x796D0001, 0x796D0005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796D0001, 0x796D0006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796D0001, 0x796D0007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796D0001, 0x796D0008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796D0001, 0x796D0009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796D0001, 0x796D000A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796D0001, 0x796D000B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x796D0001, 0x796D0002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796D0001, 0x796D0003, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796D0001, 0x796D0004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x796D0001, 0x796D0005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796D0001, 0x796D0006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796D0001, 0x796D0007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796D0001, 0x796D0008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796D0001, 0x796D0009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796D0001, 0x796D000A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796D0001, 0x796D000B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D0002,  1628, 0x96D00009, 46.75574, 12.11062, 196.5439, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -61,7 +61,7 @@ VALUES (0x796D000C,  1542, 0x96D0000F, 29.05913, 163.2993, 217.0672, -0.5826462,
 /* @teleloc 0x96D0000F [29.059130 163.299300 217.067200] -0.582646 0.000000 0.000000 -0.812726 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796D000C, 0x796D000D, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x796D000C, 0x796D000D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796D000D,  8646, 0x96D0000F, 29.05913, 163.2993, 217.0672, -0.5826462, 0, 0, -0.8127259,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

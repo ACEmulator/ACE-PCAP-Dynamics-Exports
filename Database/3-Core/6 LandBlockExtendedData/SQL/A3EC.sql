@@ -5,13 +5,13 @@ VALUES (0x7A3EC001,  1154, 0xA3EC002B, 141.5399, 51.80291, -0.8974999, 0.7071068
 /* @teleloc 0xA3EC002B [141.539900 51.802910 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3EC001, 0x7A3EC002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A3EC001, 0x7A3EC003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A3EC001, 0x7A3EC004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A3EC001, 0x7A3EC005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A3EC001, 0x7A3EC006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7A3EC001, 0x7A3EC007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A3EC001, 0x7A3EC008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7A3EC001, 0x7A3EC002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A3EC001, 0x7A3EC003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A3EC001, 0x7A3EC004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A3EC001, 0x7A3EC005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A3EC001, 0x7A3EC006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7A3EC001, 0x7A3EC007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A3EC001, 0x7A3EC008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3EC002,  7179, 0xA3EC002B, 141.5399, 51.80291, -0.8974999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -46,7 +46,7 @@ VALUES (0x7A3EC009,  1542, 0xA3EC0011, 52.17466, 1.148531, 0.4737269, -0.1736482
 /* @teleloc 0xA3EC0011 [52.174660 1.148531 0.473727] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3EC009, 0x7A3EC00A, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x7A3EC009, 0x7A3EC00A, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3EC00A, 25957, 0xA3EC0011, 52.17466, 1.148531, 0.4737269, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

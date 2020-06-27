@@ -5,13 +5,13 @@ VALUES (0x7BF45001,  1154, 0xBF450017, 59.53124, 159.1645, 43.9985, 0.8191521, 0
 /* @teleloc 0xBF450017 [59.531240 159.164500 43.998500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF45001, 0x7BF45002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7BF45001, 0x7BF45003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7BF45001, 0x7BF45004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7BF45001, 0x7BF45005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BF45001, 0x7BF45006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BF45001, 0x7BF45007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BF45001, 0x7BF45008, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7BF45001, 0x7BF45002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7BF45001, 0x7BF45003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7BF45001, 0x7BF45004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7BF45001, 0x7BF45005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BF45001, 0x7BF45006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BF45001, 0x7BF45007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BF45001, 0x7BF45008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF45002,  7979, 0xBF450017, 59.53124, 159.1645, 43.9985, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -46,7 +46,7 @@ VALUES (0x7BF45009,  1542, 0xBF450008, 3.498299, 181.46, 42.29152, 1, 0, 0, 0, F
 /* @teleloc 0xBF450008 [3.498299 181.460000 42.291520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF45009, 0x7BF4500A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BF45009, 0x7BF4500A, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF4500A, 22576, 0xBF450008, 3.498299, 181.46, 42.29152, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

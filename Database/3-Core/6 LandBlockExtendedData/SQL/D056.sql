@@ -5,14 +5,14 @@ VALUES (0x7D056001,  1154, 0xD056000B, 41.79406, 59.95543, 174.9912, -0.9279631,
 /* @teleloc 0xD056000B [41.794060 59.955430 174.991200] -0.927963 0.000000 0.000000 -0.372672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D056001, 0x7D056002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7D056001, 0x7D056003, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7D056001, 0x7D056004, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7D056001, 0x7D056005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7D056001, 0x7D056006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7D056001, 0x7D056007, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7D056001, 0x7D056008, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7D056001, 0x7D056009, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x7D056001, 0x7D056002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7D056001, 0x7D056003, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7D056001, 0x7D056004, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7D056001, 0x7D056005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7D056001, 0x7D056006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7D056001, 0x7D056007, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7D056001, 0x7D056008, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7D056001, 0x7D056009, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D056002,  1756, 0xD056000B, 41.79406, 59.95543, 174.9912, -0.9279631, 0, 0, -0.3726721,  True, '2019-02-10 00:00:00'); /* Shadow Child */

@@ -5,1346 +5,1346 @@ VALUES (0x7F85C001,  1154, 0xF85C0100, 104.732, 11.7796, 4.634352, -0.608074, 0,
 /* @teleloc 0xF85C0100 [104.732000 11.779600 4.634352] -0.608074 0.000000 0.000000 -0.793881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85C001, 0x7F85C002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C004, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C005, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C006, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C008, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C00A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C00B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C00C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C00D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C00E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C00F, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C010, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C011, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C012, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C014, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C015, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C016, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C017, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C018, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C019, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C01F, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C020, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C021, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C022, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C023, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C024, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C025, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C026, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C027, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C028, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C029, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C02A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C02B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C02C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C02D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C02E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C02F, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C030, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C031, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C032, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C033, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C034, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C035, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C036, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C037, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C038, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C039, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C03A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C03B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C03C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C03D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C03E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C03F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C040, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C041, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C042, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C043, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C044, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C045, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C046, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C047, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C048, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C049, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C04A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C04B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C04C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C04D, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C04E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C04F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C050, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C051, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C052, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C053, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C054, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C055, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C056, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C057, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C058, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C059, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C05A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C05B, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C05C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C05D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C05E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C05F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C060, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C061, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C062, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C063, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C064, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C065, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C066, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C067, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C068, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C069, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C06A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C06B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C06C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C06D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C06E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C06F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C070, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C071, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C072, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C073, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C074, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C075, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C076, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C077, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C078, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C079, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C07A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C07B, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C07C, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C07D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C07E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C07F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C080, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C081, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C082, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C083, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C084, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C085, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C086, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C087, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C088, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C089, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C08A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C08B, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C08C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C08D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C08E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C08F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C090, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C091, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C092, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C093, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C094, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C095, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C096, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C097, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C098, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C099, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C09A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C09B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C09C, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C09D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7F85C001, 0x7F85C09E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C09F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0A0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0A1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0A2, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0A3, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0A4, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0A5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0A6, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0A7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0A8, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0A9, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0AA, '2019-02-10 00:00:00') /* Shadow Engineer */
-     , (0x7F85C001, 0x7F85C0AB, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0AC, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0AD, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0AE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0AF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0B5, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0B6, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0B7, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0B8, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0B9, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0BA, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0BB, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0BC, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0BD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0BE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0BF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0C0, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0C1, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0C2, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0C3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0C4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0C5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0C6, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0C7, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0C8, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0C9, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0CA, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0CB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0CC, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0CD, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0CE, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0CF, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D1, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D2, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0D4, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0D6, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0D8, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0D9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0DA, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0DB, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0DC, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0DD, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0DE, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0DF, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0E0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0E1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0E2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0E3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0E4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0E5, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0E6, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0E7, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0E8, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C0E9, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0EA, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0EB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0EC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0ED, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0EE, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0EF, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0F0, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0F1, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0F2, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0F3, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0F4, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C0F5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C0F6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0F7, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0F8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0F9, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C0FA, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0FB, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C0FC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0FD, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C0FE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C0FF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C100, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C101, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C102, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C103, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C104, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C105, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C106, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C107, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C108, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C109, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C10A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C10B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C10C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C10D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C10E, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C10F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C110, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C111, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C112, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C113, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C114, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C115, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C116, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C117, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C118, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C119, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C11A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C11B, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C11C, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C11D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C11E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C11F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C120, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C121, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C122, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C123, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C124, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C125, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C126, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C127, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C128, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C129, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C12A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C12B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C12C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C12D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C12E, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C12F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C130, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C131, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C132, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C133, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C134, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C135, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C136, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C137, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C138, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C139, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C13A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C13B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C13C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C13D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C13E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C13F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C140, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C141, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C142, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C143, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C144, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C145, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C146, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C147, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C148, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C149, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C14A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C14B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C14C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C14D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C14E, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C14F, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C150, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C151, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C152, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C153, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C154, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C155, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C156, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C157, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C158, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C159, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C15A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C15B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C15C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C15D, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C15E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C15F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C160, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C161, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C162, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C163, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C164, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C165, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C166, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C167, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C168, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C169, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C16A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C16B, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C16C, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C16D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C16E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C16F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C170, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C171, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C172, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C173, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C174, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C175, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C176, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C177, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C178, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C179, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C17A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C17B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C17C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C17D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C17E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C17F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C180, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C181, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C182, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C183, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C184, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C185, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C186, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C187, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C188, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C189, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C18A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C18B, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C18C, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C18D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C18E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C18F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C190, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C191, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C192, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C193, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C194, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C195, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C196, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C197, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C198, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C199, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C19A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C19B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C19C, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C19D, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C19E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C19F, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1A0, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1A1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1A6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1A8, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1A9, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C1AA, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1AB, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1AC, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1AD, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1AE, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C1AF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1B0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1B1, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1B2, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1B3, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1B4, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1B5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1B6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1B7, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1B8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1B9, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1BA, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1BB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1BC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1BD, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1BE, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1BF, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1C0, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1C1, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1C2, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1C3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1C4, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1C5, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1C6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1C7, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1C8, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1C9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1CA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1CB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1CC, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1CD, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C1CE, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1CF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1D0, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1D1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1D2, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1D3, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1D4, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1D5, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1D6, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1D7, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1D8, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1D9, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1DA, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1DB, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1DC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1DD, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1DE, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1DF, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1E0, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1E1, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1E2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1E3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1E4, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1E5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1E6, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1E7, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1E8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1E9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1EA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1EB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1EC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1ED, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C1EE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1EF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1F0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1F1, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1F2, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C1F3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1F4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1F5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C1F6, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1F7, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1F8, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1F9, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C1FA, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C1FB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1FC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1FD, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C1FE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C1FF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C200, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C201, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C202, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C203, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C204, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C205, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C206, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C207, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C208, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C209, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C20A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C20B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C20C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C20D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C20E, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C20F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C210, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C211, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C212, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C213, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C214, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C215, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C216, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C217, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C218, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C219, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C21A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C21B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C21C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C21D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C21E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C21F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C220, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C221, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C222, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C223, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C224, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C225, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C226, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C227, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C228, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C229, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C22A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C22B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C22C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C22D, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C22E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C22F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C230, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C231, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C232, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C233, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C234, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C235, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C236, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C237, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C238, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C239, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C23A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C23B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C23C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C23D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C23E, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C23F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C240, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C241, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C242, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C243, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C244, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C245, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C246, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C247, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C248, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C249, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C24A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C24B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C24C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C24D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C24E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C24F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C250, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C251, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C252, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C253, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C254, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C255, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C256, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C257, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C258, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C259, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C25A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C25B, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C25C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C25D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C25E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C25F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C260, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C261, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C262, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C263, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C264, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C265, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C266, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C267, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C268, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C269, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C26A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C26B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C26C, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C26D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C26E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C26F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C270, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C271, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C272, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C273, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C274, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C275, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C276, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C277, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C278, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C279, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C27A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C27B, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C27C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C27D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C27E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C27F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C280, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C281, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C282, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C283, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C284, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C285, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C286, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C287, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C288, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C289, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C28A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C28B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C28C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C28D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C28E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C28F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C290, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C291, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C292, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C293, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C294, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C295, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C296, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C297, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C298, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C299, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C29A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C29B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C29C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C29D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C29E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C29F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2A0, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2A1, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2A2, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2A3, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2A4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2A5, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2A6, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2A7, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2A8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2A9, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2AA, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2AB, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2AC, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2AD, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2AE, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2AF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2B0, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2B1, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2B2, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2B3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2B4, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2B5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2B6, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2B7, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2B8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2B9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2BA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2BB, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2BC, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2BD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2BE, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2BF, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2C0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2C1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2C2, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2C3, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2C4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2C5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2C6, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2C7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2C8, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2C9, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2CA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2CB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2CC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2CD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2CE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2CF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2D0, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2D1, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2D2, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2D3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2D4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2D5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2D6, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2D7, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2D8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C2D9, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2DA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2DB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2DC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2DD, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2DE, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2DF, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2E0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2E1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2E2, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2E3, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C2E4, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2E5, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2E6, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C2E7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2E8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2E9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2EA, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2EB, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C2EC, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2ED, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2EE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2EF, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C2F0, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2F1, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2F2, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2F3, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2F4, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2F5, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2F6, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2F7, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2F8, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C2F9, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C2FA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C2FB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2FC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C2FD, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2FE, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C2FF, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C300, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C301, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C302, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C303, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C304, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C305, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C306, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C307, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C308, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C309, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C30A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C30B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C30C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C30D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C30E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C30F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C310, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C311, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C312, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C313, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C314, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C315, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C316, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C317, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C318, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C319, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C31A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C31B, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C31C, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C31D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C31E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C31F, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C320, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C321, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C322, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C323, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C324, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C325, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C326, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C327, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C328, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C329, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C32A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C32B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C32C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C32D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C32E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C32F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C330, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C331, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C332, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C333, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C334, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C335, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C336, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C337, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C338, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C339, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C33A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C33B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C33C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C33D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C33E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C33F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C340, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C341, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C342, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C343, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C344, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C345, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C346, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C347, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C348, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C349, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C34A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C34B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C34C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C34D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C34E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C34F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C350, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C351, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C352, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C353, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C354, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C355, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C356, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C357, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C358, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C359, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C35A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C35B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C35C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C35D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C35E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C35F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C360, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C361, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C362, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C363, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C364, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C365, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C366, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C367, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C368, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C369, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C36A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C36B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C36C, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C36D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C36E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C36F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C370, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C371, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C372, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C373, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C374, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C375, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C376, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C377, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C378, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C379, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C37A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C37B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C37C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C37D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C37E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C37F, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C380, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C381, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C382, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C383, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C384, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C385, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C386, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C387, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C388, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C389, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C38A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C38B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C38C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C38D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C38E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C38F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C390, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C391, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C392, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C393, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C394, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C395, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C396, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C397, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C398, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C399, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C39A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C39B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C39C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C39D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C39E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C39F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3A0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3A1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3A2, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C3A3, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3A4, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3A5, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3A6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3A7, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3A8, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3A9, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3AA, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3AB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3AC, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3AD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3AE, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C3AF, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3B0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B3, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3B4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B6, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3B7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3B9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3BA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3BB, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3BC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3BD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3BE, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C3BF, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3C0, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C3C1, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3C2, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3C3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3C4, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3C5, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3C6, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3C7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3C8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3C9, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3CA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3CB, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3CC, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C3CD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3CE, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3CF, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3D0, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3D1, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3D2, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3D3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3D4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3D5, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3D6, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C3D7, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3D8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3D9, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3DA, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3DB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3DC, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3DD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3DE, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3DF, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3E0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3E1, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3E2, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3E3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3E4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3E5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3E6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3E7, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3E8, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C3E9, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3EA, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3EB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3EC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3ED, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3EE, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3EF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3F0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C3F1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3F2, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3F3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3F4, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C3F5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3F6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3F7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3F8, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3F9, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C3FA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3FB, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C3FC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3FD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3FE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C3FF, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C400, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C401, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C402, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C403, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C404, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C405, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C406, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C407, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C408, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C409, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C40A, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C40B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C40C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C40D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C40E, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C40F, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C410, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C411, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C412, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C413, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C414, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C415, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C416, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C417, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C418, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C419, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C41A, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C41B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C41C, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C41D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C41E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C41F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C420, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C421, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C422, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C423, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C424, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C425, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C426, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C427, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C428, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C429, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C42A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C42B, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C42C, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C42D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C42E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C42F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C430, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C431, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C432, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C433, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C434, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C435, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C436, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C437, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C438, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C439, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C43A, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C43B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C43C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C43D, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C43E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C43F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C440, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C441, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C442, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C443, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C444, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C445, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C446, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C447, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C448, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C449, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C44A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C44B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C44C, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C44D, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C44E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C44F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C450, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C451, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C452, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C453, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C454, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C455, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C456, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C457, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C458, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C459, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C45A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C45B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C45C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C45D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C45E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C45F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C460, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C461, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C462, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C463, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C464, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C465, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C466, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C467, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C468, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C469, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C46A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C46B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C46C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C46D, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C46E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C46F, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C470, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C471, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C472, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C473, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C474, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C475, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C476, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C477, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C478, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C479, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C47A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C47B, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C47C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C47D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C47E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C47F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C480, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C481, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C482, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C483, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C484, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C485, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C486, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C487, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C488, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C489, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C48A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C48B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C48C, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C48D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C48E, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C48F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C490, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C491, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C492, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C493, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C494, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C495, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C496, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C497, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C498, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C499, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C49A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C49B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C49C, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C49D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C49E, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C49F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4A0, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4A1, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4A2, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4A3, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4A4, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4A5, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4A6, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4A7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4A8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4A9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4AA, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4AB, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4AC, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4AD, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4AE, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4AF, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4B0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B5, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4B6, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4B7, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4B8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4B9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4BA, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4BB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4BC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4BD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4BE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4BF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C2, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4C3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C7, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4C8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4C9, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4CA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4CB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4CC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4CD, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4CE, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4CF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D0, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4D1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D3, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4D4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D6, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4D7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4D8, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4D9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4DA, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4DB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4DC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4DD, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4DE, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4DF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E0, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4E1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E2, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E4, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4E5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E6, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4E7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4E8, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4E9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4EA, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4EB, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4EC, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4ED, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4EE, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4EF, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4F0, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C4F1, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4F2, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4F3, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C4F4, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4F5, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4F6, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C4F7, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7F85C001, 0x7F85C4F8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4F9, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4FA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4FB, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C4FC, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C4FD, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7F85C001, 0x7F85C4FE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C4FF, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C500, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C501, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C502, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C503, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C504, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C505, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C506, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C507, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C508, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C509, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C50A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C50B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C50C, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C50D, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C50E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C50F, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C510, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C511, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C512, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C513, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C514, '2019-02-10 00:00:00') /* Grievver Shredder */
-     , (0x7F85C001, 0x7F85C515, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C516, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C517, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C518, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C519, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C51A, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C51B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C51C, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C51D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C51E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C51F, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C520, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C521, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C522, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C523, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C524, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7F85C001, 0x7F85C525, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C526, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C527, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C528, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C529, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x7F85C001, 0x7F85C52A, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7F85C001, 0x7F85C52B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7F85C001, 0x7F85C52C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C52D, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C52E, '2019-02-10 00:00:00') /* Shadow Flyer */
-     , (0x7F85C001, 0x7F85C52F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C530, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C531, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C532, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C533, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C534, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C535, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C536, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C537, '2019-02-10 00:00:00') /* Devourer Margul */
-     , (0x7F85C001, 0x7F85C538, '2019-02-10 00:00:00') /* Shadow's Breath */
-     , (0x7F85C001, 0x7F85C539, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7F85C001, 0x7F85C53A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C53B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C53C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F85C001, 0x7F85C53D, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7F85C001, 0x7F85C002, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C003, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C004, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C005, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C006, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C007, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C008, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C009, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C00A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C00B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C00C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C00D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C00E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C00F, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C010, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C011, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C012, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C014, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C015, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C016, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C017, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C018, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C019, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C01A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C01B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C01C, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C01D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C01E, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C01F, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C020, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C021, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C022, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C023, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C024, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C025, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C026, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C027, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C028, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C029, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x7F85C001, 0x7F85C02A, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x7F85C001, 0x7F85C02B, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x7F85C001, 0x7F85C02C, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C02D, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C02E, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C02F, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C030, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C031, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C032, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C033, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C034, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C035, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C036, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C037, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C038, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C039, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C03A, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C03B, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C03C, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C03D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C03E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C03F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C040, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C041, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C042, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C043, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C044, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C045, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C046, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C047, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C048, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C049, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C04A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C04B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C04C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C04D, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C04E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C04F, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C050, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C051, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C052, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C053, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C054, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C055, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C056, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C057, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C058, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C059, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C05A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C05B, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C05C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C05D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C05E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C05F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C060, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C061, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C062, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C063, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C064, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C065, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C066, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C067, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C068, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C069, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C06A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C06B, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C06C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C06D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C06E, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C06F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C070, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C071, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C072, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C073, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C074, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C075, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C076, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C077, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C078, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C079, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C07A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C07B, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C07C, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C07D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C07E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C07F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C080, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C081, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C082, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C083, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C084, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C085, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C086, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C087, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C088, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C089, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C08A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C08B, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C08C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C08D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C08E, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C08F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C090, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C091, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C092, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C093, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C094, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C095, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C096, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C097, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C098, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C099, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C09A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C09B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C09C, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C09D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7F85C001, 0x7F85C09E, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C09F, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0A0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0A1, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0A2, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0A3, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0A4, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0A5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0A6, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0A7, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x7F85C001, 0x7F85C0A8, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C0A9, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x7F85C001, 0x7F85C0AA, '2019-02-10 00:00:00') /* Shadow Engineer (44829) */
+     , (0x7F85C001, 0x7F85C0AB, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C0AC, '2019-02-10 00:00:00') /* Devourer Margul (44474) */
+     , (0x7F85C001, 0x7F85C0AD, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0AE, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0AF, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0B0, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0B1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0B2, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0B3, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0B4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0B5, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0B6, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0B7, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0B8, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0B9, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0BA, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0BB, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0BC, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0BD, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0BE, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0BF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0C0, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0C1, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0C2, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0C3, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0C4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0C5, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0C6, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0C7, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0C8, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0C9, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0CA, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0CB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0CC, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0CD, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0CE, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0CF, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D1, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D2, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D3, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0D4, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0D6, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0D8, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0D9, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0DA, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0DB, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0DC, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0DD, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0DE, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0DF, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0E0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0E1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0E2, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0E3, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0E4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0E5, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0E6, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0E7, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0E8, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C0E9, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0EA, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0EB, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0EC, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C0ED, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0EE, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0EF, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0F0, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0F1, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0F2, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0F3, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0F4, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C0F5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C0F6, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0F7, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0F8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0F9, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C0FA, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0FB, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C0FC, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C0FD, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C0FE, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C0FF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C100, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C101, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C102, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C103, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C104, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C105, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C106, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C107, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C108, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C109, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C10A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C10B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C10C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C10D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C10E, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C10F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C110, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C111, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C112, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C113, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C114, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C115, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C116, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C117, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C118, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C119, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C11A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C11B, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C11C, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C11D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C11E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C11F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C120, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C121, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C122, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C123, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C124, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C125, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C126, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C127, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C128, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C129, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C12A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C12B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C12C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C12D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C12E, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C12F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C130, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C131, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C132, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C133, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C134, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C135, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C136, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C137, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C138, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C139, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C13A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C13B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C13C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C13D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C13E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C13F, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C140, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C141, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C142, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C143, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C144, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C145, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C146, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C147, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C148, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C149, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C14A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C14B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C14C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C14D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C14E, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C14F, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C150, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C151, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C152, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C153, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C154, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C155, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C156, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C157, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C158, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C159, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C15A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C15B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C15C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C15D, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C15E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C15F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C160, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C161, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C162, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C163, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C164, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C165, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C166, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C167, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C168, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C169, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C16A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C16B, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C16C, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C16D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C16E, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C16F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C170, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C171, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C172, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C173, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C174, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C175, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C176, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C177, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C178, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C179, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C17A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C17B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C17C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C17D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C17E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C17F, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C180, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C181, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C182, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C183, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C184, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C185, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C186, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C187, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C188, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C189, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C18A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C18B, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C18C, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C18D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C18E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C18F, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C190, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C191, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C192, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C193, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C194, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C195, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C196, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C197, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C198, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C199, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C19A, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C19B, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C19C, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C19D, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C19E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C19F, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1A0, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1A1, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1A2, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1A3, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C1A4, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1A5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1A6, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1A7, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1A8, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1A9, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C1AA, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1AB, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1AC, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1AD, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1AE, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C1AF, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1B0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1B1, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1B2, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1B3, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1B4, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1B5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1B6, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1B7, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1B8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1B9, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1BA, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1BB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1BC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1BD, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1BE, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1BF, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1C0, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1C1, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1C2, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1C3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1C4, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1C5, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1C6, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1C7, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1C8, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1C9, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1CA, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1CB, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C1CC, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1CD, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C1CE, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1CF, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1D0, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1D1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1D2, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1D3, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1D4, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1D5, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1D6, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1D7, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1D8, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1D9, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1DA, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1DB, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1DC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1DD, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1DE, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1DF, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1E0, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1E1, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1E2, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1E3, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1E4, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1E5, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C1E6, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1E7, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1E8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1E9, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1EA, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C1EB, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1EC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1ED, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C1EE, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1EF, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1F0, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1F1, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1F2, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C1F3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1F4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C1F5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C1F6, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1F7, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1F8, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1F9, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C1FA, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C1FB, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1FC, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1FD, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C1FE, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C1FF, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C200, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C201, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C202, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C203, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C204, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C205, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C206, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C207, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C208, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C209, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C20A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C20B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C20C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C20D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C20E, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C20F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C210, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C211, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C212, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C213, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C214, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C215, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C216, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C217, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C218, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C219, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C21A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C21B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C21C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C21D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C21E, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C21F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C220, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C221, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C222, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C223, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C224, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C225, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C226, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C227, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C228, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C229, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C22A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C22B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C22C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C22D, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C22E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C22F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C230, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C231, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C232, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C233, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C234, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C235, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C236, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C237, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C238, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C239, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C23A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C23B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C23C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C23D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C23E, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C23F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C240, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C241, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C242, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C243, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C244, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C245, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C246, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C247, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C248, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C249, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C24A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C24B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C24C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C24D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C24E, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C24F, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C250, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C251, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C252, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C253, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C254, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C255, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C256, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C257, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C258, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C259, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C25A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C25B, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C25C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C25D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C25E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C25F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C260, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C261, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C262, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C263, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C264, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C265, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C266, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C267, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C268, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C269, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C26A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C26B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C26C, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C26D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C26E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C26F, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C270, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C271, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C272, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C273, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C274, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C275, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C276, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C277, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C278, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C279, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C27A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C27B, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C27C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C27D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C27E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C27F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C280, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C281, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C282, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C283, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C284, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C285, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C286, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C287, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C288, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C289, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C28A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C28B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C28C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C28D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C28E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C28F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C290, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C291, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C292, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C293, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C294, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C295, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C296, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C297, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C298, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C299, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C29A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C29B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C29C, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C29D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C29E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C29F, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2A0, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2A1, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2A2, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2A3, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2A4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2A5, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2A6, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2A7, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2A8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2A9, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2AA, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2AB, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2AC, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2AD, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2AE, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2AF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2B0, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2B1, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2B2, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2B3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2B4, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2B5, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2B6, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2B7, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2B8, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2B9, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2BA, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2BB, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2BC, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2BD, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2BE, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2BF, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2C0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2C1, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2C2, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2C3, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2C4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2C5, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2C6, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2C7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2C8, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2C9, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2CA, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2CB, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2CC, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2CD, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2CE, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2CF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2D0, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2D1, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2D2, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2D3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2D4, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2D5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2D6, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2D7, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2D8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C2D9, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2DA, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2DB, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2DC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2DD, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2DE, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2DF, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2E0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2E1, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2E2, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2E3, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C2E4, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2E5, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2E6, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C2E7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2E8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C2E9, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2EA, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2EB, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C2EC, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2ED, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C2EE, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2EF, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C2F0, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2F1, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2F2, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2F3, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2F4, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2F5, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2F6, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2F7, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2F8, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C2F9, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C2FA, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C2FB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2FC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C2FD, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2FE, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C2FF, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C300, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C301, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C302, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C303, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C304, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C305, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C306, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C307, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C308, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C309, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C30A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C30B, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C30C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C30D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C30E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C30F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C310, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C311, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C312, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C313, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C314, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C315, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C316, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C317, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C318, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C319, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C31A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C31B, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C31C, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C31D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C31E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C31F, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C320, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C321, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C322, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C323, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C324, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C325, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C326, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C327, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C328, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C329, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C32A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C32B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C32C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C32D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C32E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C32F, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C330, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C331, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C332, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C333, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C334, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C335, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C336, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C337, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C338, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C339, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C33A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C33B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C33C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C33D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C33E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C33F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C340, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C341, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C342, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C343, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C344, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C345, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C346, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C347, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C348, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C349, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C34A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C34B, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C34C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C34D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C34E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C34F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C350, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C351, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C352, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C353, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C354, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C355, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C356, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C357, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C358, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C359, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C35A, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C35B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C35C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C35D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C35E, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C35F, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C360, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C361, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C362, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C363, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C364, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C365, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C366, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C367, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C368, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C369, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C36A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C36B, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C36C, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C36D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C36E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C36F, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C370, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C371, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C372, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C373, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C374, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C375, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C376, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C377, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C378, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C379, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C37A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C37B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C37C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C37D, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C37E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C37F, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C380, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C381, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C382, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C383, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C384, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C385, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C386, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C387, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C388, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C389, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C38A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C38B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C38C, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C38D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C38E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C38F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C390, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C391, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C392, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C393, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C394, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C395, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C396, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C397, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C398, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C399, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C39A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C39B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C39C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C39D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C39E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C39F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3A0, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3A1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3A2, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C3A3, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3A4, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3A5, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3A6, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3A7, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3A8, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3A9, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3AA, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3AB, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3AC, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3AD, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3AE, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C3AF, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3B0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3B1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3B2, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3B3, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3B4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3B5, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3B6, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3B7, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3B8, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3B9, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3BA, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3BB, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3BC, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3BD, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3BE, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C3BF, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3C0, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C3C1, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3C2, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3C3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3C4, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3C5, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3C6, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3C7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3C8, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3C9, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3CA, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3CB, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3CC, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C3CD, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3CE, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3CF, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3D0, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3D1, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3D2, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3D3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3D4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3D5, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3D6, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C3D7, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3D8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3D9, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3DA, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3DB, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3DC, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3DD, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3DE, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3DF, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3E0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3E1, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3E2, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3E3, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3E4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3E5, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3E6, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3E7, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3E8, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C3E9, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3EA, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3EB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3EC, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C3ED, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3EE, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3EF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3F0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C3F1, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3F2, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3F3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3F4, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C3F5, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3F6, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3F7, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3F8, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3F9, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C3FA, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3FB, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C3FC, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C3FD, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3FE, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C3FF, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C400, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C401, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C402, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C403, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C404, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C405, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C406, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C407, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C408, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C409, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C40A, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C40B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C40C, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C40D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C40E, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C40F, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C410, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C411, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C412, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C413, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C414, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C415, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C416, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C417, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C418, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C419, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C41A, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C41B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C41C, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C41D, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C41E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C41F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C420, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C421, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C422, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C423, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C424, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C425, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C426, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C427, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C428, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C429, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C42A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C42B, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C42C, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C42D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C42E, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C42F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C430, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C431, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C432, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C433, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C434, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C435, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C436, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C437, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C438, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C439, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C43A, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C43B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C43C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C43D, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C43E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C43F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C440, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C441, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C442, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C443, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C444, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C445, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C446, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C447, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C448, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C449, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C44A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C44B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C44C, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C44D, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C44E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C44F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C450, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C451, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C452, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C453, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C454, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C455, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C456, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C457, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C458, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C459, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C45A, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C45B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C45C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C45D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C45E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C45F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C460, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C461, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C462, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C463, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C464, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C465, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C466, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C467, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C468, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C469, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C46A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C46B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C46C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C46D, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C46E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C46F, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C470, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C471, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C472, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C473, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C474, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C475, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C476, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C477, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C478, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C479, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C47A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C47B, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C47C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C47D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C47E, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C47F, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C480, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C481, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C482, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C483, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C484, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C485, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C486, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C487, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C488, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C489, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C48A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C48B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C48C, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C48D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C48E, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C48F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C490, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C491, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C492, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C493, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C494, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C495, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C496, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C497, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C498, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C499, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C49A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C49B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C49C, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C49D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C49E, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C49F, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4A0, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4A1, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4A2, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4A3, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4A4, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4A5, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4A6, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4A7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4A8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4A9, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4AA, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4AB, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4AC, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4AD, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4AE, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4AF, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4B0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4B1, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4B2, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4B3, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4B4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4B5, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4B6, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4B7, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4B8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4B9, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4BA, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4BB, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4BC, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4BD, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4BE, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4BF, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4C0, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4C1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4C2, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4C3, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4C4, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4C5, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4C6, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4C7, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4C8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4C9, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4CA, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4CB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4CC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4CD, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4CE, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4CF, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4D0, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4D1, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4D2, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4D3, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4D4, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4D5, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4D6, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4D7, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4D8, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4D9, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4DA, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4DB, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4DC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4DD, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4DE, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4DF, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4E0, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4E1, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C4E2, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4E3, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4E4, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4E5, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4E6, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4E7, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4E8, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4E9, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4EA, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4EB, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4EC, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4ED, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4EE, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4EF, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4F0, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C4F1, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4F2, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4F3, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C4F4, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4F5, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4F6, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C4F7, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7F85C001, 0x7F85C4F8, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4F9, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C4FA, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4FB, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C4FC, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C4FD, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7F85C001, 0x7F85C4FE, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C4FF, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C500, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C501, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C502, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C503, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C504, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C505, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C506, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C507, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C508, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C509, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C50A, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C50B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C50C, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C50D, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C50E, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C50F, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C510, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C511, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C512, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C513, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C514, '2019-02-10 00:00:00') /* Grievver Shredder (44809) */
+     , (0x7F85C001, 0x7F85C515, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C516, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C517, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C518, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C519, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C51A, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C51B, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C51C, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C51D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C51E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C51F, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C520, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C521, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C522, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C523, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C524, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7F85C001, 0x7F85C525, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C526, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C527, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C528, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C529, '2019-02-10 00:00:00') /* Void Lord (44805) */
+     , (0x7F85C001, 0x7F85C52A, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7F85C001, 0x7F85C52B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7F85C001, 0x7F85C52C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C52D, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C52E, '2019-02-10 00:00:00') /* Shadow Flyer (44815) */
+     , (0x7F85C001, 0x7F85C52F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C530, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C531, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C532, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C533, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C534, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C535, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C536, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C537, '2019-02-10 00:00:00') /* Devourer Margul (44804) */
+     , (0x7F85C001, 0x7F85C538, '2019-02-10 00:00:00') /* Shadow's Breath (44480) */
+     , (0x7F85C001, 0x7F85C539, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7F85C001, 0x7F85C53A, '2019-02-10 00:00:00') /* Panumbris Shadow (44807) */
+     , (0x7F85C001, 0x7F85C53B, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F85C001, 0x7F85C53C, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */
+     , (0x7F85C001, 0x7F85C53D, '2019-02-10 00:00:00') /* Panumbris Shadow (44806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85C002, 43854, 0xF85C0100, 104.732, 11.7796, 4.634352, -0.608074, 0, 0, -0.793881,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -6711,7 +6711,7 @@ VALUES (0x7F85C53E,  1154, 0xF85C0004, 5.14646, 83.4433, 29.04639, -0.933314, 0,
 /* @teleloc 0xF85C0004 [5.146460 83.443300 29.046390] -0.933314 0.000000 0.000000 -0.359061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85C53E, 0x7F85C53F, '2019-02-10 00:00:00') /* Dark Rock */;
+VALUES (0x7F85C53E, 0x7F85C53F, '2019-02-10 00:00:00') /* Dark Rock (44580) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85C53F, 44580, 0xF85C0004, 5.14646, 83.4433, 29.04639, -0.933314, 0, 0, -0.359061,  True, '2019-02-10 00:00:00'); /* Dark Rock */
@@ -6722,23 +6722,23 @@ VALUES (0x7F85C540,  1542, 0xF85C0163, 68.41512, -1.492968, -3.164, 1, 0, 0, 0, 
 /* @teleloc 0xF85C0163 [68.415120 -1.492968 -3.164000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85C540, 0x7F85C541, '2019-02-10 00:00:00') /* Attunement Device Spring */
-     , (0x7F85C540, 0x7F85C542, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C543, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C544, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C545, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C546, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C547, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C548, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C549, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54A, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54B, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54C, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54D, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54E, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C54F, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C550, '2019-02-10 00:00:00') /* Egg */
-     , (0x7F85C540, 0x7F85C551, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7F85C540, 0x7F85C541, '2019-02-10 00:00:00') /* Attunement Device Spring (44825) */
+     , (0x7F85C540, 0x7F85C542, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C543, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C544, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C545, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C546, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C547, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C548, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C549, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54A, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54B, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54C, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54D, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54E, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C54F, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C550, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F85C540, 0x7F85C551, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85C541, 44825, 0xF85C0163, 68.41512, -1.492968, -3.164, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Attunement Device Spring */

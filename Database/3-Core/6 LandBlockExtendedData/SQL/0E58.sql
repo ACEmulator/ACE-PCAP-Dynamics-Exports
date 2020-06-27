@@ -5,15 +5,15 @@ VALUES (0x70E58001,  1154, 0x0E58001D, 86.3335, 113.6206, -0.871, 0.8191521, 0, 
 /* @teleloc 0x0E58001D [86.333500 113.620600 -0.871000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E58001, 0x70E58002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70E58001, 0x70E58003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E58001, 0x70E58004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E58001, 0x70E58005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E58001, 0x70E58006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70E58001, 0x70E58007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70E58001, 0x70E58008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70E58001, 0x70E58009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70E58001, 0x70E5800A, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x70E58001, 0x70E58002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70E58001, 0x70E58003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E58001, 0x70E58004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E58001, 0x70E58005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E58001, 0x70E58006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70E58001, 0x70E58007, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70E58001, 0x70E58008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70E58001, 0x70E58009, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70E58001, 0x70E5800A, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E58002, 36860, 0x0E58001D, 86.3335, 113.6206, -0.871, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

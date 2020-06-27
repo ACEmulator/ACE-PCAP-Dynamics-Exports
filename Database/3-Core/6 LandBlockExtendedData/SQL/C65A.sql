@@ -5,10 +5,10 @@ VALUES (0x7C65A001,  1154, 0xC65A003B, 179.0783, 60.64882, 6.00715, 0.1877296, 0
 /* @teleloc 0xC65A003B [179.078300 60.648820 6.007150] 0.187730 0.000000 0.000000 -0.982221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C65A001, 0x7C65A002, '2019-02-10 00:00:00') /* Master of the Swamp */
-     , (0x7C65A001, 0x7C65A003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C65A001, 0x7C65A004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C65A001, 0x7C65A005, '2019-02-10 00:00:00') /* Mosswart Shaman */;
+VALUES (0x7C65A001, 0x7C65A002, '2019-02-10 00:00:00') /* Master of the Swamp (12007) */
+     , (0x7C65A001, 0x7C65A003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C65A001, 0x7C65A004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C65A001, 0x7C65A005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C65A002, 12007, 0xC65A003B, 179.0783, 60.64882, 6.00715, 0.1877296, 0, 0, -0.9822208,  True, '2019-02-10 00:00:00'); /* Master of the Swamp */

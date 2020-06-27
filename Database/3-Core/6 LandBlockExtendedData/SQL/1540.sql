@@ -5,9 +5,9 @@ VALUES (0x71540001,  1154, 0x1540002F, 121.4005, 148.8547, 13.89044, 0.965347, 0
 /* @teleloc 0x1540002F [121.400500 148.854700 13.890440] 0.965347 0.000000 0.000000 -0.260970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71540001, 0x71540002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71540001, 0x71540003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71540001, 0x71540004, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71540001, 0x71540002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71540001, 0x71540003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71540001, 0x71540004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71540002, 36818, 0x1540002F, 121.4005, 148.8547, 13.89044, 0.965347, 0, 0, -0.2609698,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

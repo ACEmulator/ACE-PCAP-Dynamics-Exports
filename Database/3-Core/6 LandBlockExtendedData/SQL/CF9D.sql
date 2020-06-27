@@ -5,16 +5,16 @@ VALUES (0x7CF9D001,  1154, 0xCF9D0037, 148.4803, 160.7266, -0.09339994, -0.96779
 /* @teleloc 0xCF9D0037 [148.480300 160.726600 -0.093400] -0.967796 0.000000 0.000000 -0.251737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF9D001, 0x7CF9D002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CF9D001, 0x7CF9D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CF9D001, 0x7CF9D004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CF9D001, 0x7CF9D005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CF9D001, 0x7CF9D006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CF9D001, 0x7CF9D007, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7CF9D001, 0x7CF9D008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CF9D001, 0x7CF9D009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CF9D001, 0x7CF9D00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CF9D001, 0x7CF9D00B, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7CF9D001, 0x7CF9D002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CF9D001, 0x7CF9D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CF9D001, 0x7CF9D004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CF9D001, 0x7CF9D005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CF9D001, 0x7CF9D006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CF9D001, 0x7CF9D007, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7CF9D001, 0x7CF9D008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CF9D001, 0x7CF9D009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CF9D001, 0x7CF9D00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CF9D001, 0x7CF9D00B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF9D002,  8428, 0xCF9D0037, 148.4803, 160.7266, -0.09339994, -0.9677957, 0, 0, -0.2517371,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */

@@ -5,11 +5,11 @@ VALUES (0x7D650001,  1154, 0xD650003F, 190.7332, 152.2623, 40.20713, -0.7238191,
 /* @teleloc 0xD650003F [190.733200 152.262300 40.207130] -0.723819 0.000000 0.000000 -0.689990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D650001, 0x7D650002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D650001, 0x7D650003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7D650001, 0x7D650004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D650001, 0x7D650005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D650001, 0x7D650006, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D650001, 0x7D650002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D650001, 0x7D650003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7D650001, 0x7D650004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D650001, 0x7D650005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D650001, 0x7D650006, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D650002,  4109, 0xD650003F, 190.7332, 152.2623, 40.20713, -0.7238191, 0, 0, -0.6899898,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

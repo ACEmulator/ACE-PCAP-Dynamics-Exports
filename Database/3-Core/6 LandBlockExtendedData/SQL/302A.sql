@@ -5,30 +5,30 @@ VALUES (0x7302A001,  1154, 0x302A000E, 39.63007, 123.7779, 69.02232, -0.8389047,
 /* @teleloc 0x302A000E [39.630070 123.777900 69.022320] -0.838905 0.000000 0.000000 -0.544278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7302A001, 0x7302A002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7302A001, 0x7302A003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7302A001, 0x7302A004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7302A001, 0x7302A005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7302A001, 0x7302A006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7302A001, 0x7302A007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7302A001, 0x7302A008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7302A001, 0x7302A009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7302A001, 0x7302A00A, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7302A001, 0x7302A00B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7302A001, 0x7302A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7302A001, 0x7302A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7302A001, 0x7302A00E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7302A001, 0x7302A00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7302A001, 0x7302A010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7302A001, 0x7302A011, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7302A001, 0x7302A012, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7302A001, 0x7302A013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7302A001, 0x7302A014, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7302A001, 0x7302A015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7302A001, 0x7302A016, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7302A001, 0x7302A017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7302A001, 0x7302A018, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7302A001, 0x7302A019, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x7302A001, 0x7302A002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7302A001, 0x7302A003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7302A001, 0x7302A004, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7302A001, 0x7302A005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7302A001, 0x7302A006, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7302A001, 0x7302A007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7302A001, 0x7302A008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7302A001, 0x7302A009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7302A001, 0x7302A00A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7302A001, 0x7302A00B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7302A001, 0x7302A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7302A001, 0x7302A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7302A001, 0x7302A00E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7302A001, 0x7302A00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7302A001, 0x7302A010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7302A001, 0x7302A011, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7302A001, 0x7302A012, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7302A001, 0x7302A013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7302A001, 0x7302A014, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7302A001, 0x7302A015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7302A001, 0x7302A016, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7302A001, 0x7302A017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7302A001, 0x7302A018, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7302A001, 0x7302A019, '2019-02-10 00:00:00') /* Virindi Profane (36864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7302A002,  7097, 0x302A000E, 39.63007, 123.7779, 69.02232, -0.8389047, 0, 0, -0.5442783,  True, '2019-02-10 00:00:00'); /* Platinum Golem */

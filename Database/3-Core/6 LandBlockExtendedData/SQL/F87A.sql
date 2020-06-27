@@ -5,13 +5,13 @@ VALUES (0x7F87A001,  1154, 0xF87A003B, 179.7691, 50.72671, 22.57429, 0.8314389, 
 /* @teleloc 0xF87A003B [179.769100 50.726710 22.574290] 0.831439 0.000000 0.000000 -0.555616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F87A001, 0x7F87A002, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F87A001, 0x7F87A003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F87A001, 0x7F87A004, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F87A001, 0x7F87A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F87A001, 0x7F87A006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F87A001, 0x7F87A007, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F87A001, 0x7F87A008, '2019-02-10 00:00:00') /* Tusker Kin */;
+VALUES (0x7F87A001, 0x7F87A002, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F87A001, 0x7F87A003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F87A001, 0x7F87A004, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F87A001, 0x7F87A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F87A001, 0x7F87A006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F87A001, 0x7F87A007, '2019-02-10 00:00:00') /* Tusker Kin (22510) */
+     , (0x7F87A001, 0x7F87A008, '2019-02-10 00:00:00') /* Tusker Kin (22510) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F87A002, 22524, 0xF87A003B, 179.7691, 50.72671, 22.57429, 0.8314389, 0, 0, -0.5556162,  True, '2019-02-10 00:00:00'); /* Tuskie Tosser */

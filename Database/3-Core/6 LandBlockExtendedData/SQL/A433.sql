@@ -5,9 +5,9 @@ VALUES (0x7A433001,  1154, 0xA433002B, 127.8328, 58.85508, 123.5214, 0.3493976, 
 /* @teleloc 0xA433002B [127.832800 58.855080 123.521400] 0.349398 0.000000 0.000000 -0.936975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A433001, 0x7A433002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7A433001, 0x7A433003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A433001, 0x7A433004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7A433001, 0x7A433002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7A433001, 0x7A433003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A433001, 0x7A433004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A433002,  8968, 0xA433002B, 127.8328, 58.85508, 123.5214, 0.3493976, 0, 0, -0.9369746,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

@@ -5,21 +5,21 @@ VALUES (0x77A66001,  1154, 0x7A660002, 15.6097, 25.4061, 48.70339, -0.153781, 0,
 /* @teleloc 0x7A660002 [15.609700 25.406100 48.703390] -0.153781 0.000000 0.000000 0.988105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A66001, 0x77A66002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x77A66001, 0x77A66003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A66004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A66001, 0x77A66005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A66006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A66007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A66001, 0x77A66008, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77A66001, 0x77A66009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A6600A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A66001, 0x77A6600B, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x77A66001, 0x77A6600C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A6600D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77A66001, 0x77A6600E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A66001, 0x77A6600F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A66001, 0x77A66010, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x77A66001, 0x77A66002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x77A66001, 0x77A66003, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77A66001, 0x77A66004, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x77A66001, 0x77A66005, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77A66001, 0x77A66006, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77A66001, 0x77A66007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77A66001, 0x77A66008, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77A66001, 0x77A66009, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77A66001, 0x77A6600A, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x77A66001, 0x77A6600B, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x77A66001, 0x77A6600C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77A66001, 0x77A6600D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x77A66001, 0x77A6600E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x77A66001, 0x77A6600F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77A66001, 0x77A66010, '2019-02-10 00:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A66002,   940, 0x7A660002, 15.6097, 25.4061, 48.70339, -0.153781, 0, 0, 0.9881049,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

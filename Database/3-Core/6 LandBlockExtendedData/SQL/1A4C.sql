@@ -5,25 +5,25 @@ VALUES (0x71A4C001,  1154, 0x1A4C0012, 71.09209, 24.74717, 18.00455, -0.6591625,
 /* @teleloc 0x1A4C0012 [71.092090 24.747170 18.004550] -0.659163 0.000000 0.000000 -0.752001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A4C001, 0x71A4C002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71A4C001, 0x71A4C003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A4C001, 0x71A4C004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71A4C001, 0x71A4C005, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C006, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C007, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C008, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C009, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C00A, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71A4C001, 0x71A4C00B, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C00C, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C00D, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C00E, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x71A4C001, 0x71A4C00F, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C010, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C011, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C012, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C013, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71A4C001, 0x71A4C014, '2019-02-10 00:00:00') /* Crystal Minion */;
+VALUES (0x71A4C001, 0x71A4C002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71A4C001, 0x71A4C003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A4C001, 0x71A4C004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71A4C001, 0x71A4C005, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C006, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C007, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C008, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C009, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C00A, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71A4C001, 0x71A4C00B, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C00C, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C00D, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C00E, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x71A4C001, 0x71A4C00F, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C010, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C011, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C012, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C013, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71A4C001, 0x71A4C014, '2019-02-10 00:00:00') /* Crystal Minion (14802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A4C002, 36822, 0x1A4C0012, 71.09209, 24.74717, 18.00455, -0.6591625, 0, 0, -0.7520005,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */

@@ -5,11 +5,11 @@ VALUES (0x7C176001,  1154, 0xC1760037, 158.8374, 157.188, 5.112, 0.9582952, 0, 0
 /* @teleloc 0xC1760037 [158.837400 157.188000 5.112000] 0.958295 0.000000 0.000000 -0.285780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C176001, 0x7C176002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C176001, 0x7C176003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C176001, 0x7C176004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C176001, 0x7C176005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C176001, 0x7C176006, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C176001, 0x7C176002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C176001, 0x7C176003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C176001, 0x7C176004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C176001, 0x7C176005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C176001, 0x7C176006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C176002,   216, 0xC1760037, 158.8374, 157.188, 5.112, 0.9582952, 0, 0, -0.2857802,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

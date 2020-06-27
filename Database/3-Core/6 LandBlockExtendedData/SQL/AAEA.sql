@@ -5,13 +5,13 @@ VALUES (0x7AAEA001,  1154, 0xAAEA001A, 90.55032, 30.51447, -0.9000001, -4.371139
 /* @teleloc 0xAAEA001A [90.550320 30.514470 -0.900000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAEA001, 0x7AAEA002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AAEA001, 0x7AAEA003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7AAEA001, 0x7AAEA004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AAEA001, 0x7AAEA005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AAEA001, 0x7AAEA006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AAEA001, 0x7AAEA007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AAEA001, 0x7AAEA008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7AAEA001, 0x7AAEA002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AAEA001, 0x7AAEA003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7AAEA001, 0x7AAEA004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AAEA001, 0x7AAEA005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AAEA001, 0x7AAEA006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AAEA001, 0x7AAEA007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AAEA001, 0x7AAEA008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAEA002,  7111, 0xAAEA001A, 90.55032, 30.51447, -0.9000001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

@@ -5,12 +5,12 @@ VALUES (0x7CD3D001,  1154, 0xCD3D0005, 13.43871, 118.1738, 97.35622, 0.9998224, 
 /* @teleloc 0xCD3D0005 [13.438710 118.173800 97.356220] 0.999822 0.000000 0.000000 -0.018848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3D001, 0x7CD3D002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD3D001, 0x7CD3D003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD3D001, 0x7CD3D004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CD3D001, 0x7CD3D005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3D001, 0x7CD3D006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3D001, 0x7CD3D007, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7CD3D001, 0x7CD3D002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD3D001, 0x7CD3D003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD3D001, 0x7CD3D004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CD3D001, 0x7CD3D005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3D001, 0x7CD3D006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3D001, 0x7CD3D007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3D002,   195, 0xCD3D0005, 13.43871, 118.1738, 97.35622, 0.9998224, 0, 0, -0.01884792,  True, '2019-02-10 00:00:00'); /* Granite Golem */

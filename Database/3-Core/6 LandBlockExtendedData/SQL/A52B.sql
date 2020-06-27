@@ -5,18 +5,18 @@ VALUES (0x7A52B001,  1154, 0xA52B0029, 122.0188, 23.40663, 110.052, -0.986325, 0
 /* @teleloc 0xA52B0029 [122.018800 23.406630 110.052000] -0.986325 0.000000 0.000000 -0.164812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A52B001, 0x7A52B002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A52B001, 0x7A52B003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7A52B001, 0x7A52B004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A52B001, 0x7A52B005, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x7A52B001, 0x7A52B006, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A52B001, 0x7A52B007, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A52B001, 0x7A52B008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A52B001, 0x7A52B009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A52B001, 0x7A52B00A, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7A52B001, 0x7A52B00B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7A52B001, 0x7A52B00C, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A52B001, 0x7A52B00D, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7A52B001, 0x7A52B002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A52B001, 0x7A52B003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7A52B001, 0x7A52B004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A52B001, 0x7A52B005, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x7A52B001, 0x7A52B006, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A52B001, 0x7A52B007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A52B001, 0x7A52B008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A52B001, 0x7A52B009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A52B001, 0x7A52B00A, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7A52B001, 0x7A52B00B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7A52B001, 0x7A52B00C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A52B001, 0x7A52B00D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A52B002, 38181, 0xA52B0029, 122.0188, 23.40663, 110.052, -0.986325, 0, 0, -0.1648119,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

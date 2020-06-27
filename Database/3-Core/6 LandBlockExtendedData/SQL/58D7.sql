@@ -5,11 +5,11 @@ VALUES (0x758D7001,  1154, 0x58D70032, 161.3883, 35.82185, 71.80109, 0.1361007, 
 /* @teleloc 0x58D70032 [161.388300 35.821850 71.801090] 0.136101 0.000000 0.000000 -0.990695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758D7001, 0x758D7002, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x758D7001, 0x758D7003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x758D7001, 0x758D7004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758D7001, 0x758D7005, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x758D7001, 0x758D7006, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x758D7001, 0x758D7002, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x758D7001, 0x758D7003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x758D7001, 0x758D7004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758D7001, 0x758D7005, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x758D7001, 0x758D7006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758D7002, 29304, 0x58D70032, 161.3883, 35.82185, 71.80109, 0.1361007, 0, 0, -0.990695,  True, '2019-02-10 00:00:00'); /* Viamontian Mage */
@@ -36,10 +36,10 @@ VALUES (0x758D7007,  1542, 0x58D7001E, 90.40591, 141.7954, 51.26237, 0.8726819, 
 /* @teleloc 0x58D7001E [90.405910 141.795400 51.262370] 0.872682 0.000000 0.000000 -0.488289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758D7007, 0x758D7008, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x758D7007, 0x758D7009, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x758D7007, 0x758D700A, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x758D7007, 0x758D700B, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */;
+VALUES (0x758D7007, 0x758D7008, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x758D7007, 0x758D7009, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x758D7007, 0x758D700A, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x758D7007, 0x758D700B, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758D7008, 31687, 0x58D7001E, 90.40591, 141.7954, 51.26237, 0.8726819, 0, 0, -0.4882892,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

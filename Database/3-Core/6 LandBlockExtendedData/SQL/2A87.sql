@@ -5,21 +5,21 @@ VALUES (0x72A87001,  1154, 0x2A87000B, 44.62428, 67.01968, 232.7023, 0.7071068, 
 /* @teleloc 0x2A87000B [44.624280 67.019680 232.702300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A87001, 0x72A87002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A87001, 0x72A87003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A87001, 0x72A87004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A87001, 0x72A87005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A87001, 0x72A87006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A87001, 0x72A87007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A87001, 0x72A87008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A87001, 0x72A87009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A87001, 0x72A8700A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A87001, 0x72A8700B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A87001, 0x72A8700C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A87001, 0x72A8700D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A87001, 0x72A8700E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A87001, 0x72A8700F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A87001, 0x72A87010, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x72A87001, 0x72A87002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A87001, 0x72A87003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A87001, 0x72A87004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A87001, 0x72A87005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A87001, 0x72A87006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A87001, 0x72A87007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A87001, 0x72A87008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A87001, 0x72A87009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A87001, 0x72A8700A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A87001, 0x72A8700B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A87001, 0x72A8700C, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A87001, 0x72A8700D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A87001, 0x72A8700E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A87001, 0x72A8700F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A87001, 0x72A87010, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A87002, 36842, 0x2A87000B, 44.62428, 67.01968, 232.7023, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -86,9 +86,9 @@ VALUES (0x72A87011,  1542, 0x2A87000B, 39.41225, 71.76546, 226.3981, -0.7051622,
 /* @teleloc 0x2A87000B [39.412250 71.765460 226.398100] -0.705162 0.000000 0.000000 -0.709046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A87011, 0x72A87012, '2019-02-10 00:00:00') /* Rock */
-     , (0x72A87011, 0x72A87013, '2019-02-10 00:00:00') /* Bones */
-     , (0x72A87011, 0x72A87014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72A87011, 0x72A87012, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x72A87011, 0x72A87013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72A87011, 0x72A87014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A87012, 42528, 0x2A87000B, 39.41225, 71.76546, 226.3981, -0.7051622, 0, 0, -0.7090461,  True, '2019-02-10 00:00:00'); /* Rock */

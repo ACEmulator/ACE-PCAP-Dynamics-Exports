@@ -5,14 +5,14 @@ VALUES (0x735ED001,  1154, 0x35ED0040, 173.7355, 177.0087, 89.24235, -0.9399515,
 /* @teleloc 0x35ED0040 [173.735500 177.008700 89.242350] -0.939952 0.000000 0.000000 -0.341308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735ED001, 0x735ED002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735ED001, 0x735ED003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x735ED001, 0x735ED004, '2019-02-10 00:00:00') /* Kroktok Lugian */
-     , (0x735ED001, 0x735ED005, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735ED001, 0x735ED006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735ED001, 0x735ED007, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735ED001, 0x735ED008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735ED001, 0x735ED009, '2019-02-10 00:00:00') /* Viamontian Warcaster */;
+VALUES (0x735ED001, 0x735ED002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735ED001, 0x735ED003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x735ED001, 0x735ED004, '2019-02-10 00:00:00') /* Kroktok Lugian (29349) */
+     , (0x735ED001, 0x735ED005, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x735ED001, 0x735ED006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735ED001, 0x735ED007, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735ED001, 0x735ED008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735ED001, 0x735ED009, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735ED002, 28657, 0x35ED0040, 173.7355, 177.0087, 89.24235, -0.9399515, 0, 0, -0.3413081,  True, '2019-02-10 00:00:00'); /* Viamontian Man-at-Arms */

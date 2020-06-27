@@ -5,17 +5,17 @@ VALUES (0x74999001,  1154, 0x49990033, 146.6294, 70.69682, 84.43823, 0.4588504, 
 /* @teleloc 0x49990033 [146.629400 70.696820 84.438230] 0.458850 0.000000 0.000000 -0.888514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74999001, 0x74999002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x74999001, 0x74999003, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x74999001, 0x74999004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74999001, 0x74999005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74999001, 0x74999006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74999001, 0x74999007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74999001, 0x74999008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74999001, 0x74999009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74999001, 0x7499900A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74999001, 0x7499900B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74999001, 0x7499900C, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x74999001, 0x74999002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x74999001, 0x74999003, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x74999001, 0x74999004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74999001, 0x74999005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74999001, 0x74999006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74999001, 0x74999007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74999001, 0x74999008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74999001, 0x74999009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74999001, 0x7499900A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74999001, 0x7499900B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74999001, 0x7499900C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74999002,  6041, 0x49990033, 146.6294, 70.69682, 84.43823, 0.4588504, 0, 0, -0.8885135,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -66,8 +66,8 @@ VALUES (0x7499900D,  1542, 0x49990026, 115.1891, 138.4361, 74.70663, 0.9990482, 
 /* @teleloc 0x49990026 [115.189100 138.436100 74.706630] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7499900D, 0x7499900E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7499900D, 0x7499900F, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7499900D, 0x7499900E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7499900D, 0x7499900F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7499900E,  4179, 0x49990026, 115.1891, 138.4361, 74.70663, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

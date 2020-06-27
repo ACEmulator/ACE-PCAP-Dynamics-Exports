@@ -5,11 +5,11 @@ VALUES (0x798C1001,  1154, 0x98C10006, 6.044984, 134.5014, 42.70181, 0.7798519, 
 /* @teleloc 0x98C10006 [6.044984 134.501400 42.701810] 0.779852 0.000000 0.000000 -0.625964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798C1001, 0x798C1002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x798C1001, 0x798C1003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x798C1001, 0x798C1004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x798C1001, 0x798C1005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x798C1001, 0x798C1006, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x798C1001, 0x798C1002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x798C1001, 0x798C1003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x798C1001, 0x798C1004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x798C1001, 0x798C1005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x798C1001, 0x798C1006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798C1002,  1627, 0x98C10006, 6.044984, 134.5014, 42.70181, 0.7798519, 0, 0, -0.6259641,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

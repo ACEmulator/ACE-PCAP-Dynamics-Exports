@@ -5,16 +5,16 @@ VALUES (0x75FA5001,  1154, 0x5FA5001A, 92.77415, 45.95753, 65.63806, 0.7071068, 
 /* @teleloc 0x5FA5001A [92.774150 45.957530 65.638060] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA5001, 0x75FA5002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75FA5001, 0x75FA5003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75FA5001, 0x75FA5004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75FA5001, 0x75FA5005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75FA5001, 0x75FA5006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75FA5001, 0x75FA5007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75FA5001, 0x75FA5008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75FA5001, 0x75FA5009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75FA5001, 0x75FA500A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75FA5001, 0x75FA500B, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75FA5001, 0x75FA5002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75FA5001, 0x75FA5003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75FA5001, 0x75FA5004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75FA5001, 0x75FA5005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75FA5001, 0x75FA5006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75FA5001, 0x75FA5007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75FA5001, 0x75FA5008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75FA5001, 0x75FA5009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75FA5001, 0x75FA500A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75FA5001, 0x75FA500B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA5002,   231, 0x5FA5001A, 92.77415, 45.95753, 65.63806, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -61,7 +61,7 @@ VALUES (0x75FA500C,  1542, 0x5FA5001A, 85.35371, 42.36074, 66.97926, 0.9990482, 
 /* @teleloc 0x5FA5001A [85.353710 42.360740 66.979260] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA500C, 0x75FA500D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75FA500C, 0x75FA500D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA500D,  4179, 0x5FA5001A, 85.35371, 42.36074, 66.97926, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

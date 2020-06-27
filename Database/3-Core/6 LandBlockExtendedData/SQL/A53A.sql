@@ -5,12 +5,12 @@ VALUES (0x7A53A001,  1154, 0xA53A000B, 25.94, 61.73781, 36.00455, 0.5750867, 0, 
 /* @teleloc 0xA53A000B [25.940000 61.737810 36.004550] 0.575087 0.000000 0.000000 -0.818093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A53A001, 0x7A53A002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A53A001, 0x7A53A003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A53A001, 0x7A53A004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A53A001, 0x7A53A005, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7A53A001, 0x7A53A006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A53A001, 0x7A53A007, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7A53A001, 0x7A53A002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A53A001, 0x7A53A003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A53A001, 0x7A53A004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A53A001, 0x7A53A005, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7A53A001, 0x7A53A006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A53A001, 0x7A53A007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A53A002,  1609, 0xA53A000B, 25.94, 61.73781, 36.00455, 0.5750867, 0, 0, -0.8180925,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -41,7 +41,7 @@ VALUES (0x7A53A008,  1542, 0xA53A0024, 110.3677, 83.50919, 35.67584, 0.7071068, 
 /* @teleloc 0xA53A0024 [110.367700 83.509190 35.675840] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A53A008, 0x7A53A009, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7A53A008, 0x7A53A009, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A53A009,  5779, 0xA53A0024, 110.3677, 83.50919, 35.67584, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

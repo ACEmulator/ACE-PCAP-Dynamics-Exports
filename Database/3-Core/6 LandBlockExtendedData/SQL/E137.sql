@@ -5,20 +5,20 @@ VALUES (0x7E137001,  1154, 0xE1370007, 23.43569, 145.9777, 69.56261, 0.2813373, 
 /* @teleloc 0xE1370007 [23.435690 145.977700 69.562610] 0.281337 0.000000 0.000000 -0.959609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E137001, 0x7E137002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7E137001, 0x7E137003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E137001, 0x7E137004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E137001, 0x7E137005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E137001, 0x7E137006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7E137001, 0x7E137007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E137001, 0x7E137008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E137001, 0x7E137009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E137001, 0x7E13700A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7E137001, 0x7E13700B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E137001, 0x7E13700C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E137001, 0x7E13700D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E137001, 0x7E13700E, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E137001, 0x7E13700F, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7E137001, 0x7E137002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7E137001, 0x7E137003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E137001, 0x7E137004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E137001, 0x7E137005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E137001, 0x7E137006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7E137001, 0x7E137007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E137001, 0x7E137008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E137001, 0x7E137009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E137001, 0x7E13700A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7E137001, 0x7E13700B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E137001, 0x7E13700C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E137001, 0x7E13700D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E137001, 0x7E13700E, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E137001, 0x7E13700F, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E137002, 14521, 0xE1370007, 23.43569, 145.9777, 69.56261, 0.2813373, 0, 0, -0.9596089,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -81,7 +81,7 @@ VALUES (0x7E137010,  1542, 0xE137000E, 25.79564, 136.1306, 73.35414, 1, 0, 0, 0,
 /* @teleloc 0xE137000E [25.795640 136.130600 73.354140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E137010, 0x7E137011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7E137010, 0x7E137011, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E137011, 31443, 0xE137000E, 25.79564, 136.1306, 73.35414, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

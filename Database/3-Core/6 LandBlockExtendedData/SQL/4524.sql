@@ -5,12 +5,12 @@ VALUES (0x74524001,  1154, 0x4524001E, 85.87655, 121.4853, 129.1664, 0.7660445, 
 /* @teleloc 0x4524001E [85.876550 121.485300 129.166400] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74524001, 0x74524002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74524001, 0x74524003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74524001, 0x74524004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74524001, 0x74524005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74524001, 0x74524006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74524001, 0x74524007, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x74524001, 0x74524002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x74524001, 0x74524003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x74524001, 0x74524004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74524001, 0x74524005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74524001, 0x74524006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74524001, 0x74524007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74524002, 36832, 0x4524001E, 85.87655, 121.4853, 129.1664, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -41,7 +41,7 @@ VALUES (0x74524008,  1542, 0x4524001B, 74.05258, 66.50652, 130, 1, 0, 0, 0, Fals
 /* @teleloc 0x4524001B [74.052580 66.506520 130.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74524008, 0x74524009, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x74524008, 0x74524009, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74524009,  8999, 0x4524001B, 74.05258, 66.50652, 130, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

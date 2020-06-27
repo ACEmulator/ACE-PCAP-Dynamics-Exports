@@ -5,23 +5,23 @@ VALUES (0x7B6D5001,  1154, 0xB6D50009, 46.38556, 19.01518, 76.13833, 0.3987491, 
 /* @teleloc 0xB6D50009 [46.385560 19.015180 76.138330] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6D5001, 0x7B6D5002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B6D5001, 0x7B6D5003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B6D5001, 0x7B6D5004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B6D5001, 0x7B6D5005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B6D5001, 0x7B6D5006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B6D5001, 0x7B6D5007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B6D5001, 0x7B6D5008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B6D5001, 0x7B6D5009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B6D5001, 0x7B6D500A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B6D5001, 0x7B6D500B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7B6D5001, 0x7B6D500C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7B6D5001, 0x7B6D500D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B6D5001, 0x7B6D500E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B6D5001, 0x7B6D500F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B6D5001, 0x7B6D5010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B6D5001, 0x7B6D5011, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B6D5001, 0x7B6D5012, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7B6D5001, 0x7B6D5002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B6D5001, 0x7B6D5003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B6D5001, 0x7B6D5004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B6D5001, 0x7B6D5005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B6D5001, 0x7B6D5006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B6D5001, 0x7B6D5007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B6D5001, 0x7B6D5008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B6D5001, 0x7B6D5009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B6D5001, 0x7B6D500A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B6D5001, 0x7B6D500B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7B6D5001, 0x7B6D500C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7B6D5001, 0x7B6D500D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B6D5001, 0x7B6D500E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B6D5001, 0x7B6D500F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B6D5001, 0x7B6D5010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B6D5001, 0x7B6D5011, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B6D5001, 0x7B6D5012, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6D5002, 24288, 0xB6D50009, 46.38556, 19.01518, 76.13833, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

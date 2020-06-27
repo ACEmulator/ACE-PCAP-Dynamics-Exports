@@ -5,9 +5,9 @@ VALUES (0x71B8C001,  1154, 0x1B8C002A, 132.9109, 35.91915, 165.8417, 0.7980146, 
 /* @teleloc 0x1B8C002A [132.910900 35.919150 165.841700] 0.798015 0.000000 0.000000 -0.602638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B8C001, 0x71B8C002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x71B8C001, 0x71B8C003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B8C001, 0x71B8C004, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71B8C001, 0x71B8C002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x71B8C001, 0x71B8C003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B8C001, 0x71B8C004, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B8C002, 14875, 0x1B8C002A, 132.9109, 35.91915, 165.8417, 0.7980146, 0, 0, -0.6026381,  True, '2019-02-10 00:00:00'); /* Hyem */
@@ -26,7 +26,7 @@ VALUES (0x71B8C005,  1542, 0x1B8C001A, 87.96492, 33.65435, 162.4362, -0.4548437,
 /* @teleloc 0x1B8C001A [87.964920 33.654350 162.436200] -0.454844 0.000000 0.000000 -0.890571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B8C005, 0x71B8C006, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x71B8C005, 0x71B8C006, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B8C006,  8648, 0x1B8C001A, 87.96492, 33.65435, 162.4362, -0.4548437, 0, 0, -0.8905712,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

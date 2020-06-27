@@ -5,16 +5,16 @@ VALUES (0x75DBB001,  1154, 0x5DBB0021, 104.2604, 19.65088, -0.004999995, 0.70710
 /* @teleloc 0x5DBB0021 [104.260400 19.650880 -0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DBB001, 0x75DBB002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75DBB001, 0x75DBB003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75DBB001, 0x75DBB004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75DBB001, 0x75DBB005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75DBB001, 0x75DBB006, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75DBB001, 0x75DBB007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75DBB001, 0x75DBB008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75DBB001, 0x75DBB009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75DBB001, 0x75DBB00A, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x75DBB001, 0x75DBB00B, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x75DBB001, 0x75DBB002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75DBB001, 0x75DBB003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75DBB001, 0x75DBB004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75DBB001, 0x75DBB005, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75DBB001, 0x75DBB006, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75DBB001, 0x75DBB007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75DBB001, 0x75DBB008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75DBB001, 0x75DBB009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75DBB001, 0x75DBB00A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x75DBB001, 0x75DBB00B, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DBB002, 24290, 0x5DBB0021, 104.2604, 19.65088, -0.004999995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

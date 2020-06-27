@@ -5,13 +5,13 @@ VALUES (0x76F97001,  1154, 0x6F970019, 76.79172, 21.45203, 76.79407, 0.2588191, 
 /* @teleloc 0x6F970019 [76.791720 21.452030 76.794070] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F97001, 0x76F97002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76F97001, 0x76F97003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76F97001, 0x76F97004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76F97001, 0x76F97005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76F97001, 0x76F97006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76F97001, 0x76F97007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76F97001, 0x76F97008, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x76F97001, 0x76F97002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76F97001, 0x76F97003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76F97001, 0x76F97004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76F97001, 0x76F97005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76F97001, 0x76F97006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76F97001, 0x76F97007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76F97001, 0x76F97008, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F97002, 24289, 0x6F970019, 76.79172, 21.45203, 76.79407, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

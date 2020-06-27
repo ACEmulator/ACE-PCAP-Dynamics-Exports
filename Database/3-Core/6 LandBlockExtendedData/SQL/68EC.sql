@@ -5,35 +5,35 @@ VALUES (0x768EC001,  1154, 0x68EC0016, 50.95898, 129.2893, 0.004999995, 0.750672
 /* @teleloc 0x68EC0016 [50.958980 129.289300 0.005000] 0.750672 0.000000 0.000000 -0.660675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768EC001, 0x768EC002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x768EC001, 0x768EC003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x768EC001, 0x768EC005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x768EC001, 0x768EC007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x768EC001, 0x768EC008, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x768EC001, 0x768EC009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x768EC001, 0x768EC00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC00C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x768EC001, 0x768EC00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x768EC001, 0x768EC00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x768EC001, 0x768EC011, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x768EC001, 0x768EC012, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x768EC001, 0x768EC013, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x768EC001, 0x768EC014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x768EC001, 0x768EC015, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x768EC001, 0x768EC016, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x768EC001, 0x768EC017, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x768EC001, 0x768EC018, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x768EC001, 0x768EC019, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x768EC001, 0x768EC01A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x768EC001, 0x768EC01B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x768EC001, 0x768EC01C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x768EC001, 0x768EC01D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x768EC001, 0x768EC01E, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x768EC001, 0x768EC002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x768EC001, 0x768EC003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x768EC001, 0x768EC005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x768EC001, 0x768EC007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x768EC001, 0x768EC008, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x768EC001, 0x768EC009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x768EC001, 0x768EC00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC00C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x768EC001, 0x768EC00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x768EC001, 0x768EC00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x768EC001, 0x768EC011, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x768EC001, 0x768EC012, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x768EC001, 0x768EC013, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x768EC001, 0x768EC014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x768EC001, 0x768EC015, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x768EC001, 0x768EC016, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x768EC001, 0x768EC017, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x768EC001, 0x768EC018, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x768EC001, 0x768EC019, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x768EC001, 0x768EC01A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x768EC001, 0x768EC01B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x768EC001, 0x768EC01C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x768EC001, 0x768EC01D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x768EC001, 0x768EC01E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768EC002, 23563, 0x68EC0016, 50.95898, 129.2893, 0.004999995, 0.750672, 0, 0, -0.6606751,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

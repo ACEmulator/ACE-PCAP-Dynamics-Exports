@@ -5,38 +5,38 @@ VALUES (0x72B50001,  1154, 0x2B500013, 51.42305, 57.52732, 16.82673, 0.9893589, 
 /* @teleloc 0x2B500013 [51.423050 57.527320 16.826730] 0.989359 0.000000 0.000000 -0.145496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B50001, 0x72B50002, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72B50001, 0x72B50003, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72B50001, 0x72B50004, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72B50001, 0x72B50005, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72B50001, 0x72B50006, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72B50001, 0x72B50007, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72B50001, 0x72B50008, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B50001, 0x72B50009, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B50001, 0x72B5000A, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B5000B, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B5000C, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B5000D, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B5000E, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B5000F, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50010, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50011, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50012, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B50013, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x72B50001, 0x72B50014, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50015, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72B50001, 0x72B50016, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50017, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B50001, 0x72B50018, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72B50001, 0x72B50019, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72B50001, 0x72B5001A, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72B50001, 0x72B5001B, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72B50001, 0x72B5001C, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72B50001, 0x72B5001D, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72B50001, 0x72B5001E, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72B50001, 0x72B5001F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72B50001, 0x72B50020, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72B50001, 0x72B50021, '2019-02-10 00:00:00') /* Transcendent Tumerok */;
+VALUES (0x72B50001, 0x72B50002, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72B50001, 0x72B50003, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72B50001, 0x72B50004, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72B50001, 0x72B50005, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72B50001, 0x72B50006, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72B50001, 0x72B50007, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72B50001, 0x72B50008, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B50001, 0x72B50009, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B50001, 0x72B5000A, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B5000B, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B5000C, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B5000D, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B5000E, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B5000F, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50010, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50011, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50012, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B50013, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x72B50001, 0x72B50014, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50015, '2019-02-10 00:00:00') /* Exploration Marker (39774) */
+     , (0x72B50001, 0x72B50016, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50017, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B50001, 0x72B50018, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72B50001, 0x72B50019, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72B50001, 0x72B5001A, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B50001, 0x72B5001B, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72B50001, 0x72B5001C, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72B50001, 0x72B5001D, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72B50001, 0x72B5001E, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72B50001, 0x72B5001F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72B50001, 0x72B50020, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72B50001, 0x72B50021, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B50002, 25806, 0x2B500013, 51.42305, 57.52732, 16.82673, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Tormenter */
@@ -171,9 +171,9 @@ VALUES (0x72B50022,  1542, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0, F
 /* @teleloc 0x2B500030 [141.351000 170.467000 3.731417] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B50022, 0x72B50023, '2019-02-10 00:00:00') /* Mukkir-Infested Black Spear Temple */
-     , (0x72B50022, 0x72B50024, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72B50022, 0x72B50025, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72B50022, 0x72B50023, '2019-02-10 00:00:00') /* Mukkir-Infested Black Spear Temple (33774) */
+     , (0x72B50022, 0x72B50024, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72B50022, 0x72B50025, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B50023, 33774, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mukkir-Infested Black Spear Temple */

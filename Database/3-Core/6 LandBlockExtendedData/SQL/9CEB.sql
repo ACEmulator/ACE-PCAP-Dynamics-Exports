@@ -5,14 +5,14 @@ VALUES (0x79CEB001,  1154, 0x9CEB001D, 83.45071, 96.40344, 81.83645, 0.7771459, 
 /* @teleloc 0x9CEB001D [83.450710 96.403440 81.836450] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CEB001, 0x79CEB002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79CEB001, 0x79CEB003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79CEB001, 0x79CEB004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79CEB001, 0x79CEB005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79CEB001, 0x79CEB006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79CEB001, 0x79CEB007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79CEB001, 0x79CEB008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79CEB001, 0x79CEB009, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x79CEB001, 0x79CEB002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79CEB001, 0x79CEB003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79CEB001, 0x79CEB004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79CEB001, 0x79CEB005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79CEB001, 0x79CEB006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79CEB001, 0x79CEB007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79CEB001, 0x79CEB008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79CEB001, 0x79CEB009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CEB002,  1610, 0x9CEB001D, 83.45071, 96.40344, 81.83645, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

@@ -5,37 +5,37 @@ VALUES (0x7FA32001,  1154, 0xFA320031, 146.5831, 15.29832, -0.09359992, -0.99609
 /* @teleloc 0xFA320031 [146.583100 15.298320 -0.093600] -0.996098 0.000000 0.000000 -0.088255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA32001, 0x7FA32002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA32001, 0x7FA32003, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA32001, 0x7FA32004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA32001, 0x7FA32005, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA32001, 0x7FA32006, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA32007, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA32001, 0x7FA32008, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7FA32001, 0x7FA32009, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA32001, 0x7FA3200A, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA32001, 0x7FA3200B, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA32001, 0x7FA3200C, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA32001, 0x7FA3200D, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA3200E, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA3200F, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA32010, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA32011, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA32012, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA32013, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA32014, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA32001, 0x7FA32015, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA32001, 0x7FA32016, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA32001, 0x7FA32017, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA32001, 0x7FA32018, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA32001, 0x7FA32019, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA3201A, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA3201B, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA3201C, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA32001, 0x7FA3201D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA32001, 0x7FA3201E, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA3201F, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA32001, 0x7FA32020, '2019-02-10 00:00:00') /* Bandit Mana Hunter */;
+VALUES (0x7FA32001, 0x7FA32002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA32001, 0x7FA32003, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA32001, 0x7FA32004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA32001, 0x7FA32005, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA32001, 0x7FA32006, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA32007, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA32001, 0x7FA32008, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7FA32001, 0x7FA32009, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA32001, 0x7FA3200A, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA32001, 0x7FA3200B, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA32001, 0x7FA3200C, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA32001, 0x7FA3200D, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA3200E, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA3200F, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA32010, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA32011, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA32012, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA32013, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA32014, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA32001, 0x7FA32015, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA32001, 0x7FA32016, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA32001, 0x7FA32017, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA32001, 0x7FA32018, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA32001, 0x7FA32019, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA3201A, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA3201B, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA3201C, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA32001, 0x7FA3201D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA32001, 0x7FA3201E, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA3201F, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA32020, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA32002, 40302, 0xFA320031, 146.5831, 15.29832, -0.09359992, -0.9960979, 0, 0, -0.08825479,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */

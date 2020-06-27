@@ -5,18 +5,18 @@ VALUES (0x7E4D5001,  1154, 0xE4D50009, 25.28321, 12.14545, 1.407206, -0.9045712,
 /* @teleloc 0xE4D50009 [25.283210 12.145450 1.407206] -0.904571 0.000000 0.000000 -0.426323 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D5001, 0x7E4D5002, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D5001, 0x7E4D5003, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D5001, 0x7E4D5004, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D5001, 0x7E4D5005, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E4D5001, 0x7E4D5006, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D5001, 0x7E4D5007, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D5001, 0x7E4D5008, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D5001, 0x7E4D5009, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D5001, 0x7E4D500A, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D5001, 0x7E4D500B, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D5001, 0x7E4D500C, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D5001, 0x7E4D500D, '2019-02-10 00:00:00') /* Black Coral Golem */;
+VALUES (0x7E4D5001, 0x7E4D5002, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D5001, 0x7E4D5003, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D5001, 0x7E4D5004, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D5001, 0x7E4D5005, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D5001, 0x7E4D5006, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D5001, 0x7E4D5007, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D5001, 0x7E4D5008, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D5001, 0x7E4D5009, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D5001, 0x7E4D500A, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D5001, 0x7E4D500B, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D5001, 0x7E4D500C, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D5001, 0x7E4D500D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D5002, 31849, 0xE4D50009, 25.28321, 12.14545, 1.407206, -0.9045712, 0, 0, -0.4263225,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */

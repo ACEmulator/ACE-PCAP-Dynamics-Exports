@@ -5,16 +5,16 @@ VALUES (0x774CA001,  1154, 0x74CA0001, 18.49216, 20.26227, 237.2341, 0.9238795, 
 /* @teleloc 0x74CA0001 [18.492160 20.262270 237.234100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CA001, 0x774CA002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774CA001, 0x774CA003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774CA001, 0x774CA004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774CA001, 0x774CA005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774CA001, 0x774CA006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x774CA001, 0x774CA007, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774CA001, 0x774CA008, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x774CA001, 0x774CA009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x774CA001, 0x774CA00A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x774CA001, 0x774CA00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x774CA001, 0x774CA002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774CA001, 0x774CA003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774CA001, 0x774CA004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774CA001, 0x774CA005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774CA001, 0x774CA006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x774CA001, 0x774CA007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774CA001, 0x774CA008, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x774CA001, 0x774CA009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x774CA001, 0x774CA00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x774CA001, 0x774CA00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CA002,  7090, 0x74CA0001, 18.49216, 20.26227, 237.2341, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -61,8 +61,8 @@ VALUES (0x774CA00C,  1542, 0x74CA0001, 20.89216, 17.86227, 237.7345, 1, 0, 0, 0,
 /* @teleloc 0x74CA0001 [20.892160 17.862270 237.734500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CA00C, 0x774CA00D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x774CA00C, 0x774CA00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x774CA00C, 0x774CA00D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x774CA00C, 0x774CA00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CA00D,  4179, 0x74CA0001, 20.89216, 17.86227, 237.7345, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

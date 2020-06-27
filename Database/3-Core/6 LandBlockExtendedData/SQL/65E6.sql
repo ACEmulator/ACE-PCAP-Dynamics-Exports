@@ -5,24 +5,24 @@ VALUES (0x765E6001,  1154, 0x65E60006, 6.881021, 126.1731, 20.10968, 0.903505, 0
 /* @teleloc 0x65E60006 [6.881021 126.173100 20.109680] 0.903505 0.000000 0.000000 -0.428578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765E6001, 0x765E6002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x765E6001, 0x765E6003, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x765E6001, 0x765E6004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x765E6001, 0x765E6005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x765E6001, 0x765E6006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765E6001, 0x765E6007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x765E6001, 0x765E6008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x765E6001, 0x765E6009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x765E6001, 0x765E600A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x765E6001, 0x765E600B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x765E6001, 0x765E600C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x765E6001, 0x765E600D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x765E6001, 0x765E600E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x765E6001, 0x765E600F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x765E6001, 0x765E6010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x765E6001, 0x765E6011, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x765E6001, 0x765E6012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x765E6001, 0x765E6013, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x765E6001, 0x765E6002, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x765E6001, 0x765E6003, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x765E6001, 0x765E6004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x765E6001, 0x765E6005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x765E6001, 0x765E6006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765E6001, 0x765E6007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x765E6001, 0x765E6008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x765E6001, 0x765E6009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x765E6001, 0x765E600A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x765E6001, 0x765E600B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x765E6001, 0x765E600C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x765E6001, 0x765E600D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x765E6001, 0x765E600E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x765E6001, 0x765E600F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x765E6001, 0x765E6010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x765E6001, 0x765E6011, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x765E6001, 0x765E6012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x765E6001, 0x765E6013, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765E6002, 24292, 0x65E60006, 6.881021, 126.1731, 20.10968, 0.903505, 0, 0, -0.4285775,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -101,12 +101,12 @@ VALUES (0x765E6014,  1542, 0x65E60027, 100.2041, 152.7325, 42.8423, 1, 0, 0, 0, 
 /* @teleloc 0x65E60027 [100.204100 152.732500 42.842300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765E6014, 0x765E6015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x765E6014, 0x765E6016, '2019-02-10 00:00:00') /* Bones */
-     , (0x765E6014, 0x765E6017, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x765E6014, 0x765E6018, '2019-02-10 00:00:00') /* Bones */
-     , (0x765E6014, 0x765E6019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x765E6014, 0x765E601A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x765E6014, 0x765E6015, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x765E6014, 0x765E6016, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x765E6014, 0x765E6017, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x765E6014, 0x765E6018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x765E6014, 0x765E6019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x765E6014, 0x765E601A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765E6015, 31445, 0x65E60027, 100.2041, 152.7325, 42.8423, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

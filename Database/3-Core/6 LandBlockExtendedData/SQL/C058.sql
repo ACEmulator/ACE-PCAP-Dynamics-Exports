@@ -5,9 +5,9 @@ VALUES (0x7C058001,  1154, 0xC058001C, 91.53745, 88.80761, 16.00825, -0.2001141,
 /* @teleloc 0xC058001C [91.537450 88.807610 16.008250] -0.200114 0.000000 0.000000 -0.979773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C058001, 0x7C058002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C058001, 0x7C058003, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C058001, 0x7C058004, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C058001, 0x7C058002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C058001, 0x7C058003, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C058001, 0x7C058004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C058002,  8673, 0xC058001C, 91.53745, 88.80761, 16.00825, -0.2001141, 0, 0, -0.9797726,  True, '2019-02-10 00:00:00'); /* Risen Knight */

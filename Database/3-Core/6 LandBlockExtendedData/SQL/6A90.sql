@@ -5,9 +5,9 @@ VALUES (0x76A90001,  1154, 0x6A900012, 56.05135, 38.19136, 22.07485, 0.7933533, 
 /* @teleloc 0x6A900012 [56.051350 38.191360 22.074850] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A90001, 0x76A90002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76A90001, 0x76A90003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76A90001, 0x76A90004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x76A90001, 0x76A90002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76A90001, 0x76A90003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76A90001, 0x76A90004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A90002,  7179, 0x6A900012, 56.05135, 38.19136, 22.07485, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */

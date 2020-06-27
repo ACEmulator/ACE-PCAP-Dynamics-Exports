@@ -5,21 +5,21 @@ VALUES (0x73348001,  1154, 0x33480027, 112.5863, 166.3885, 77.9341, 0.169564, 0,
 /* @teleloc 0x33480027 [112.586300 166.388500 77.934100] 0.169564 0.000000 0.000000 -0.985519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73348001, 0x73348002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73348001, 0x73348003, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73348001, 0x73348004, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73348001, 0x73348005, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73348001, 0x73348006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73348001, 0x73348007, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73348001, 0x73348008, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73348001, 0x73348009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73348001, 0x7334800A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73348001, 0x7334800B, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73348001, 0x7334800C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73348001, 0x7334800D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73348001, 0x7334800E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73348001, 0x7334800F, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73348001, 0x73348010, '2019-02-10 00:00:00') /* Essa Sclavus Lord */;
+VALUES (0x73348001, 0x73348002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73348001, 0x73348003, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73348001, 0x73348004, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73348001, 0x73348005, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73348001, 0x73348006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73348001, 0x73348007, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73348001, 0x73348008, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73348001, 0x73348009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73348001, 0x7334800A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73348001, 0x7334800B, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73348001, 0x7334800C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73348001, 0x7334800D, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73348001, 0x7334800E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73348001, 0x7334800F, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73348001, 0x73348010, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73348002,  7112, 0x33480027, 112.5863, 166.3885, 77.9341, 0.169564, 0, 0, -0.9855192,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -86,7 +86,7 @@ VALUES (0x73348011,  1542, 0x33480001, 10.30559, 20.99553, 100.9993, 1, 0, 0, 0,
 /* @teleloc 0x33480001 [10.305590 20.995530 100.999300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73348011, 0x73348012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73348011, 0x73348012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73348012, 31445, 0x33480001, 10.30559, 20.99553, 100.9993, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

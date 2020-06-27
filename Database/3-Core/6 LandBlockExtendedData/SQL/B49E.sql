@@ -5,16 +5,16 @@ VALUES (0x7B49E001,  1154, 0xB49E0018, 48.33649, 170.5797, 70.27605, 0.7933533, 
 /* @teleloc 0xB49E0018 [48.336490 170.579700 70.276050] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B49E001, 0x7B49E002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B49E001, 0x7B49E003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B49E001, 0x7B49E004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B49E001, 0x7B49E005, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B49E001, 0x7B49E006, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B49E001, 0x7B49E007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B49E001, 0x7B49E008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B49E001, 0x7B49E009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B49E001, 0x7B49E00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B49E001, 0x7B49E00B, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7B49E001, 0x7B49E002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B49E001, 0x7B49E003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B49E001, 0x7B49E004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B49E001, 0x7B49E005, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B49E001, 0x7B49E006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B49E001, 0x7B49E007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B49E001, 0x7B49E008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B49E001, 0x7B49E009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B49E001, 0x7B49E00A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B49E001, 0x7B49E00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B49E002,   943, 0xB49E0018, 48.33649, 170.5797, 70.27605, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -61,9 +61,9 @@ VALUES (0x7B49E00C,  1542, 0xB49E0013, 53.361, 59.58719, 58.51885, 1, 0, 0, 0, F
 /* @teleloc 0xB49E0013 [53.361000 59.587190 58.518850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B49E00C, 0x7B49E00D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B49E00C, 0x7B49E00E, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B49E00C, 0x7B49E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B49E00C, 0x7B49E00D, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B49E00C, 0x7B49E00E, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B49E00C, 0x7B49E00F, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B49E00D, 22568, 0xB49E0013, 53.361, 59.58719, 58.51885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

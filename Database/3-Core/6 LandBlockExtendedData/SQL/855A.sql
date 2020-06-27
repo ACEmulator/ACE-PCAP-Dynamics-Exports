@@ -5,9 +5,9 @@ VALUES (0x7855A001,  1154, 0x855A002E, 127.4431, 131.57, 14.0084, 0.5356727, 0, 
 /* @teleloc 0x855A002E [127.443100 131.570000 14.008400] 0.535673 0.000000 0.000000 -0.844426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7855A001, 0x7855A002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7855A001, 0x7855A003, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7855A001, 0x7855A004, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7855A001, 0x7855A002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7855A001, 0x7855A003, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7855A001, 0x7855A004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7855A002,   218, 0x855A002E, 127.4431, 131.57, 14.0084, 0.5356727, 0, 0, -0.8444257,  True, '2019-02-10 00:00:00'); /* Black Rat */

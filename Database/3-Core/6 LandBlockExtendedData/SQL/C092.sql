@@ -5,11 +5,11 @@ VALUES (0x7C092001,  1154, 0xC0920008, 9.667481, 188.6655, 3.611647, -0.6138514,
 /* @teleloc 0xC0920008 [9.667481 188.665500 3.611647] -0.613851 0.000000 0.000000 -0.789422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C092001, 0x7C092002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7C092001, 0x7C092003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C092001, 0x7C092004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C092001, 0x7C092005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C092001, 0x7C092006, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7C092001, 0x7C092002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7C092001, 0x7C092003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C092001, 0x7C092004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C092001, 0x7C092005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C092001, 0x7C092006, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C092002,  7986, 0xC0920008, 9.667481, 188.6655, 3.611647, -0.6138514, 0, 0, -0.7894216,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */

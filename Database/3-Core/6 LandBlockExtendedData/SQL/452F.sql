@@ -5,24 +5,24 @@ VALUES (0x7452F001,  1154, 0x452F0029, 142.063, 9.595999, 5.768416, 1, 0, 0, 0, 
 /* @teleloc 0x452F0029 [142.063000 9.595999 5.768416] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7452F001, 0x7452F002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7452F001, 0x7452F003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7452F001, 0x7452F004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7452F001, 0x7452F005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7452F001, 0x7452F006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7452F001, 0x7452F007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7452F001, 0x7452F008, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7452F001, 0x7452F009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7452F001, 0x7452F00A, '2019-02-10 00:00:00') /* Flare */
-     , (0x7452F001, 0x7452F00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7452F001, 0x7452F00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7452F001, 0x7452F00D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7452F001, 0x7452F00E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7452F001, 0x7452F00F, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7452F001, 0x7452F010, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7452F001, 0x7452F011, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7452F001, 0x7452F012, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7452F001, 0x7452F013, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x7452F001, 0x7452F002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7452F001, 0x7452F003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7452F001, 0x7452F004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7452F001, 0x7452F005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7452F001, 0x7452F006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7452F001, 0x7452F007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7452F001, 0x7452F008, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7452F001, 0x7452F009, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7452F001, 0x7452F00A, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7452F001, 0x7452F00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7452F001, 0x7452F00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7452F001, 0x7452F00D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7452F001, 0x7452F00E, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7452F001, 0x7452F00F, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7452F001, 0x7452F010, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7452F001, 0x7452F011, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7452F001, 0x7452F012, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7452F001, 0x7452F013, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7452F002, 23566, 0x452F0029, 142.063, 9.595999, 5.768416, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -101,7 +101,7 @@ VALUES (0x7452F014,  1542, 0x452F0029, 141.1262, 10.53077, 6.938862, 1, 0, 0, 0,
 /* @teleloc 0x452F0029 [141.126200 10.530770 6.938862] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7452F014, 0x7452F015, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7452F014, 0x7452F015, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7452F015, 31445, 0x452F0029, 141.1262, 10.53077, 6.938862, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

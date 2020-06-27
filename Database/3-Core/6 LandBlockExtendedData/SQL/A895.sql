@@ -9,17 +9,17 @@ VALUES (0x7A895001,  1154, 0xA8950015, 68.106, 103.5055, 60.05, 0.1535441, 0, 0,
 /* @teleloc 0xA8950015 [68.106000 103.505500 60.050000] 0.153544 0.000000 0.000000 -0.988142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A895001, 0x7A895002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A895001, 0x7A895003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A895001, 0x7A895004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A895001, 0x7A895005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A895001, 0x7A895006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A895001, 0x7A895007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A895001, 0x7A895008, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A895001, 0x7A895009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A895001, 0x7A89500A, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A895001, 0x7A89500B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A895001, 0x7A89500C, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7A895001, 0x7A895002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A895001, 0x7A895003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A895001, 0x7A895004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A895001, 0x7A895005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A895001, 0x7A895006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A895001, 0x7A895007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A895001, 0x7A895008, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A895001, 0x7A895009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A895001, 0x7A89500A, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7A895001, 0x7A89500B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A895001, 0x7A89500C, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A895002, 28552, 0xA8950015, 68.106, 103.5055, 60.05, 0.1535441, 0, 0, -0.9881418,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -70,7 +70,7 @@ VALUES (0x7A89500D,  1542, 0xA895001C, 72.05891, 86.98394, 65.75179, 1, 0, 0, 0,
 /* @teleloc 0xA895001C [72.058910 86.983940 65.751790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A89500D, 0x7A89500E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A89500D, 0x7A89500E, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A89500E, 22576, 0xA895001C, 72.05891, 86.98394, 65.75179, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,14 +5,14 @@ VALUES (0x7248C001,  1154, 0x248C0021, 116.5693, 19.92039, 67.33006, -0.08715577
 /* @teleloc 0x248C0021 [116.569300 19.920390 67.330060] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7248C001, 0x7248C002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248C001, 0x7248C003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248C001, 0x7248C004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248C001, 0x7248C005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7248C001, 0x7248C006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7248C001, 0x7248C007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7248C001, 0x7248C008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248C001, 0x7248C009, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x7248C001, 0x7248C002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248C001, 0x7248C003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248C001, 0x7248C004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248C001, 0x7248C005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7248C001, 0x7248C006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7248C001, 0x7248C007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7248C001, 0x7248C008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248C001, 0x7248C009, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7248C002, 24497, 0x248C0021, 116.5693, 19.92039, 67.33006, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

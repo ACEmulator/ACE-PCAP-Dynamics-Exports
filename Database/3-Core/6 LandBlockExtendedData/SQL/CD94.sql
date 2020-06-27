@@ -5,27 +5,27 @@ VALUES (0x7CD94001,  1154, 0xCD940040, 189.8291, 168.7734, 20.17291, 1, 0, 0, 0,
 /* @teleloc 0xCD940040 [189.829100 168.773400 20.172910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD94001, 0x7CD94002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD94001, 0x7CD94003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD94001, 0x7CD94004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD94001, 0x7CD94005, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CD94001, 0x7CD94006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD94001, 0x7CD94007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD94001, 0x7CD94008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD94001, 0x7CD94009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD94001, 0x7CD9400A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD94001, 0x7CD9400B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD94001, 0x7CD9400C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CD94001, 0x7CD9400D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD94001, 0x7CD9400E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD94001, 0x7CD9400F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD94001, 0x7CD94010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CD94001, 0x7CD94011, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD94001, 0x7CD94012, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD94001, 0x7CD94013, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD94001, 0x7CD94014, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD94001, 0x7CD94015, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD94001, 0x7CD94016, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7CD94001, 0x7CD94002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD94001, 0x7CD94003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD94001, 0x7CD94004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD94001, 0x7CD94005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CD94001, 0x7CD94006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD94001, 0x7CD94007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD94001, 0x7CD94008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD94001, 0x7CD94009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD94001, 0x7CD9400A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD94001, 0x7CD9400B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD94001, 0x7CD9400C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CD94001, 0x7CD9400D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD94001, 0x7CD9400E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD94001, 0x7CD9400F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD94001, 0x7CD94010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CD94001, 0x7CD94011, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD94001, 0x7CD94012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD94001, 0x7CD94013, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD94001, 0x7CD94014, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD94001, 0x7CD94015, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD94001, 0x7CD94016, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD94002, 24937, 0xCD940040, 189.8291, 168.7734, 20.17291, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -116,13 +116,13 @@ VALUES (0x7CD94017,  1542, 0xCD94003F, 176.5558, 157.3354, 22.17427, 1, 0, 0, 0,
 /* @teleloc 0xCD94003F [176.555800 157.335400 22.174270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD94017, 0x7CD94018, '2019-02-10 00:00:00') /* Egg */
-     , (0x7CD94017, 0x7CD94019, '2019-02-10 00:00:00') /* Egg */
-     , (0x7CD94017, 0x7CD9401A, '2019-02-10 00:00:00') /* Gem */
-     , (0x7CD94017, 0x7CD9401B, '2019-02-10 00:00:00') /* Pants */
-     , (0x7CD94017, 0x7CD9401C, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7CD94017, 0x7CD9401D, '2019-02-10 00:00:00') /* Egg */
-     , (0x7CD94017, 0x7CD9401E, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7CD94017, 0x7CD94018, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7CD94017, 0x7CD94019, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7CD94017, 0x7CD9401A, '2019-02-10 00:00:00') /* Gem (2401) */
+     , (0x7CD94017, 0x7CD9401B, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7CD94017, 0x7CD9401C, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7CD94017, 0x7CD9401D, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7CD94017, 0x7CD9401E, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD94018,   546, 0xCD94003F, 176.5558, 157.3354, 22.17427, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

@@ -5,30 +5,30 @@ VALUES (0x774BF001,  1154, 0x74BF002C, 130.7723, 78.35345, 112.4984, -0.06307208
 /* @teleloc 0x74BF002C [130.772300 78.353450 112.498400] -0.063072 0.000000 0.000000 -0.998009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774BF001, 0x774BF002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BF001, 0x774BF003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF007, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774BF001, 0x774BF008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BF001, 0x774BF009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BF001, 0x774BF00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF00C, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774BF001, 0x774BF00D, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774BF001, 0x774BF00E, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774BF001, 0x774BF00F, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774BF001, 0x774BF010, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x774BF001, 0x774BF011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BF001, 0x774BF012, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x774BF001, 0x774BF013, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774BF001, 0x774BF014, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774BF001, 0x774BF015, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774BF001, 0x774BF016, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774BF001, 0x774BF017, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774BF001, 0x774BF018, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BF001, 0x774BF019, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x774BF001, 0x774BF002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BF001, 0x774BF003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774BF001, 0x774BF008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BF001, 0x774BF009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BF001, 0x774BF00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF00C, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774BF001, 0x774BF00D, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774BF001, 0x774BF00E, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774BF001, 0x774BF00F, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774BF001, 0x774BF010, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x774BF001, 0x774BF011, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BF001, 0x774BF012, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x774BF001, 0x774BF013, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774BF001, 0x774BF014, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774BF001, 0x774BF015, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774BF001, 0x774BF016, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774BF001, 0x774BF017, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774BF001, 0x774BF018, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BF001, 0x774BF019, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774BF002,  7096, 0x74BF002C, 130.7723, 78.35345, 112.4984, -0.06307208, 0, 0, -0.998009,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -131,9 +131,9 @@ VALUES (0x774BF01A,  1542, 0x74BF002F, 125.9149, 146.1651, 112.8054, 1, 0, 0, 0,
 /* @teleloc 0x74BF002F [125.914900 146.165100 112.805400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774BF01A, 0x774BF01B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x774BF01A, 0x774BF01C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x774BF01A, 0x774BF01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x774BF01A, 0x774BF01B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x774BF01A, 0x774BF01C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x774BF01A, 0x774BF01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774BF01B,  4179, 0x74BF002F, 125.9149, 146.1651, 112.8054, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,26 +5,26 @@ VALUES (0x7CB52001,  1154, 0xCB520100, 180.204, 24.9221, 34.8055, -0.0384775, 0,
 /* @teleloc 0xCB520100 [180.204000 24.922100 34.805500] -0.038478 0.000000 0.000000 0.999259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB52001, 0x7CB52002, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7CB52001, 0x7CB52003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB52004, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7CB52001, 0x7CB52005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB52001, 0x7CB52006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB52001, 0x7CB52007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB52001, 0x7CB52008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB52001, 0x7CB52009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB52001, 0x7CB5200A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB52001, 0x7CB5200B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB5200C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB52001, 0x7CB5200D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB52001, 0x7CB5200E, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB5200F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB52010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB52011, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB52012, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CB52001, 0x7CB52013, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CB52001, 0x7CB52014, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CB52001, 0x7CB52015, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7CB52001, 0x7CB52002, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7CB52001, 0x7CB52003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB52004, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7CB52001, 0x7CB52005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB52001, 0x7CB52006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB52001, 0x7CB52007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB52001, 0x7CB52008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB52001, 0x7CB52009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB52001, 0x7CB5200A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB52001, 0x7CB5200B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB5200C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB52001, 0x7CB5200D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB52001, 0x7CB5200E, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB5200F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB52010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB52011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB52012, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CB52001, 0x7CB52013, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CB52001, 0x7CB52014, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CB52001, 0x7CB52015, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB52002,  1619, 0xCB520100, 180.204, 24.9221, 34.8055, -0.0384775, 0, 0, 0.999259,  True, '2019-02-10 00:00:00'); /* Mosswart Shaman */
@@ -111,18 +111,18 @@ VALUES (0x7CB52016,  1542, 0xCB520100, 179.486, 28.11637, 34.8, 0.8152614, 0, 0,
 /* @teleloc 0xCB520100 [179.486000 28.116370 34.800000] 0.815261 0.000000 0.000000 0.579093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB52016, 0x7CB52017, '2019-02-10 00:00:00') /* Frost Naginata */
-     , (0x7CB52016, 0x7CB52018, '2019-02-10 00:00:00') /* Leather Girth */
-     , (0x7CB52016, 0x7CB52019, '2019-02-10 00:00:00') /* Covenant Tassets */
-     , (0x7CB52016, 0x7CB5201A, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x7CB52016, 0x7CB5201B, '2019-02-10 00:00:00') /* Fish */
-     , (0x7CB52016, 0x7CB5201C, '2019-02-10 00:00:00') /* Grapes */
-     , (0x7CB52016, 0x7CB5201D, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7CB52016, 0x7CB5201E, '2019-02-10 00:00:00') /* Ring */
-     , (0x7CB52016, 0x7CB5201F, '2019-02-10 00:00:00') /* Leather Vest */
-     , (0x7CB52016, 0x7CB52020, '2019-02-10 00:00:00') /* Platemail Gauntlets */
-     , (0x7CB52016, 0x7CB52021, '2019-02-10 00:00:00') /* Lightning Morning Star */
-     , (0x7CB52016, 0x7CB52022, '2019-02-10 00:00:00') /* Chainmail Gauntlets */;
+VALUES (0x7CB52016, 0x7CB52017, '2019-02-10 00:00:00') /* Frost Naginata (7795) */
+     , (0x7CB52016, 0x7CB52018, '2019-02-10 00:00:00') /* Leather Girth (25643) */
+     , (0x7CB52016, 0x7CB52019, '2019-02-10 00:00:00') /* Covenant Tassets (21159) */
+     , (0x7CB52016, 0x7CB5201A, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x7CB52016, 0x7CB5201B, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7CB52016, 0x7CB5201C, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x7CB52016, 0x7CB5201D, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7CB52016, 0x7CB5201E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7CB52016, 0x7CB5201F, '2019-02-10 00:00:00') /* Leather Vest (25638) */
+     , (0x7CB52016, 0x7CB52020, '2019-02-10 00:00:00') /* Platemail Gauntlets (57) */
+     , (0x7CB52016, 0x7CB52021, '2019-02-10 00:00:00') /* Lightning Morning Star (3940) */
+     , (0x7CB52016, 0x7CB52022, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB52017,  7795, 0xCB520100, 179.486, 28.11637, 34.8, 0.8152614, 0, 0, 0.5790932,  True, '2019-02-10 00:00:00'); /* Frost Naginata */

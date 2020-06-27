@@ -5,13 +5,13 @@ VALUES (0x7B686001,  1154, 0xB6860012, 65.99706, 39.44663, 39.71529, 0.8758911, 
 /* @teleloc 0xB6860012 [65.997060 39.446630 39.715290] 0.875891 0.000000 0.000000 -0.482509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B686001, 0x7B686002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B686001, 0x7B686003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B686001, 0x7B686004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B686001, 0x7B686005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B686001, 0x7B686006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B686001, 0x7B686007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B686001, 0x7B686008, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7B686001, 0x7B686002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B686001, 0x7B686003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B686001, 0x7B686004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B686001, 0x7B686005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B686001, 0x7B686006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B686001, 0x7B686007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B686001, 0x7B686008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B686002, 21168, 0xB6860012, 65.99706, 39.44663, 39.71529, 0.8758911, 0, 0, -0.4825087,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -46,7 +46,7 @@ VALUES (0x7B686009,  1154, 0xB6860008, 19.0384, 188.356, 40.9842, -0.390727, 0, 
 /* @teleloc 0xB6860008 [19.038400 188.356000 40.984200] -0.390727 0.000000 0.000000 0.920507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B686009, 0x7B68600A, '2019-02-10 00:00:00') /* Frest Greelving */;
+VALUES (0x7B686009, 0x7B68600A, '2019-02-10 00:00:00') /* Frest Greelving (22088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68600A, 22088, 0xB6860008, 19.0384, 188.356, 40.9842, -0.390727, 0, 0, 0.920507,  True, '2019-02-10 00:00:00'); /* Frest Greelving */
@@ -57,18 +57,18 @@ VALUES (0x7B68600B,  1542, 0xB6860008, 20.24236, 188.9694, 42.56937, -0.189564, 
 /* @teleloc 0xB6860008 [20.242360 188.969400 42.569370] -0.189564 0.000000 0.000000 -0.981868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B68600B, 0x7B68600C, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7B68600B, 0x7B68600D, '2019-02-10 00:00:00') /* Flaming Nabut */
-     , (0x7B68600B, 0x7B68600E, '2019-02-10 00:00:00') /* Pack Harbinger */
-     , (0x7B68600B, 0x7B68600F, '2019-02-10 00:00:00') /* Ornate Nekode */
-     , (0x7B68600B, 0x7B686010, '2019-02-10 00:00:00') /* Tetsubo Slugger */
-     , (0x7B68600B, 0x7B686011, '2019-02-10 00:00:00') /* Chronicle of Archeological Site Celadon */
-     , (0x7B68600B, 0x7B686012, '2019-02-10 00:00:00') /* Journal of Frest Greelving */
-     , (0x7B68600B, 0x7B686013, '2019-02-10 00:00:00') /* Chronicle of Archeological Site Celadon */
-     , (0x7B68600B, 0x7B686014, '2019-02-10 00:00:00') /* Silver Atlatl */
-     , (0x7B68600B, 0x7B686015, '2019-02-10 00:00:00') /* Tetsubo Slugger */
-     , (0x7B68600B, 0x7B686016, '2019-02-10 00:00:00') /* Evil Couch */
-     , (0x7B68600B, 0x7B686017, '2019-02-10 00:00:00') /* Staff of Nullification */;
+VALUES (0x7B68600B, 0x7B68600C, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7B68600B, 0x7B68600D, '2019-02-10 00:00:00') /* Flaming Nabut (22161) */
+     , (0x7B68600B, 0x7B68600E, '2019-02-10 00:00:00') /* Pack Harbinger (33186) */
+     , (0x7B68600B, 0x7B68600F, '2019-02-10 00:00:00') /* Ornate Nekode (42207) */
+     , (0x7B68600B, 0x7B686010, '2019-02-10 00:00:00') /* Tetsubo Slugger (42209) */
+     , (0x7B68600B, 0x7B686011, '2019-02-10 00:00:00') /* Chronicle of Archeological Site Celadon (22092) */
+     , (0x7B68600B, 0x7B686012, '2019-02-10 00:00:00') /* Journal of Frest Greelving (22091) */
+     , (0x7B68600B, 0x7B686013, '2019-02-10 00:00:00') /* Chronicle of Archeological Site Celadon (22092) */
+     , (0x7B68600B, 0x7B686014, '2019-02-10 00:00:00') /* Silver Atlatl (42208) */
+     , (0x7B68600B, 0x7B686015, '2019-02-10 00:00:00') /* Tetsubo Slugger (42209) */
+     , (0x7B68600B, 0x7B686016, '2019-02-10 00:00:00') /* Evil Couch (22117) */
+     , (0x7B68600B, 0x7B686017, '2019-02-10 00:00:00') /* Staff of Nullification (22216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68600C, 33040, 0xB6860008, 20.24236, 188.9694, 42.56937, -0.189564, 0, 0, -0.9818684,  True, '2019-02-10 00:00:00'); /* Rabbit */

@@ -5,15 +5,15 @@ VALUES (0x71F23001,  1154, 0x1F230028, 113.0949, 184.2485, 28.56803, 0.986585, 0
 /* @teleloc 0x1F230028 [113.094900 184.248500 28.568030] 0.986585 0.000000 0.000000 -0.163248 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F23001, 0x71F23002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71F23001, 0x71F23003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71F23001, 0x71F23004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71F23001, 0x71F23005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71F23001, 0x71F23006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71F23001, 0x71F23007, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71F23001, 0x71F23008, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71F23001, 0x71F23009, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71F23001, 0x71F2300A, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x71F23001, 0x71F23002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71F23001, 0x71F23003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71F23001, 0x71F23004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71F23001, 0x71F23005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71F23001, 0x71F23006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71F23001, 0x71F23007, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71F23001, 0x71F23008, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71F23001, 0x71F23009, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71F23001, 0x71F2300A, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F23002, 22914, 0x1F230028, 113.0949, 184.2485, 28.56803, 0.986585, 0, 0, -0.1632483,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -56,7 +56,7 @@ VALUES (0x71F2300B,  1542, 0x1F230027, 97.19527, 166.0377, 15.84392, 0.9990482, 
 /* @teleloc 0x1F230027 [97.195270 166.037700 15.843920] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F2300B, 0x71F2300C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71F2300B, 0x71F2300C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F2300C,  4179, 0x1F230027, 97.19527, 166.0377, 15.84392, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

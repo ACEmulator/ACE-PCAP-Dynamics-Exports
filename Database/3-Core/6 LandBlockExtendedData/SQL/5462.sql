@@ -13,12 +13,12 @@ VALUES (0x75462006,  1542, 0x54620104, 11.8914, 2.27639, 0.079, -0.897979, 0, 0,
 /* @teleloc 0x54620104 [11.891400 2.276390 0.079000] -0.897979 0.000000 0.000000 -0.440039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75462006, 0x75462007, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x75462006, 0x75462008, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x75462006, 0x75462009, '2019-02-10 00:00:00') /* A Painfully Scrawled Note */
-     , (0x75462006, 0x7546200A, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x75462006, 0x7546200B, '2019-02-10 00:00:00') /* Bloody Scrawled Note */
-     , (0x75462006, 0x7546200C, '2019-02-10 00:00:00') /* Scrawled Bloody Note */;
+VALUES (0x75462006, 0x75462007, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15792) */
+     , (0x75462006, 0x75462008, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15793) */
+     , (0x75462006, 0x75462009, '2019-02-10 00:00:00') /* A Painfully Scrawled Note (15791) */
+     , (0x75462006, 0x7546200A, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15790) */
+     , (0x75462006, 0x7546200B, '2019-02-10 00:00:00') /* Bloody Scrawled Note (15794) */
+     , (0x75462006, 0x7546200C, '2019-02-10 00:00:00') /* Scrawled Bloody Note (15789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75462007, 15792, 0x54620104, 11.8914, 2.27639, 0.079, -0.897979, 0, 0, -0.440039,  True, '2019-02-10 00:00:00'); /* A Hastily Scrawled Note */

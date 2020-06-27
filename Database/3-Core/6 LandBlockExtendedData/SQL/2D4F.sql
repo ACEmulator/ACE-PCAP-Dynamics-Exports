@@ -5,33 +5,33 @@ VALUES (0x72D4F001,  1154, 0x2D4F001E, 74.20448, 120.872, 7.535634, 0.9898694, 0
 /* @teleloc 0x2D4F001E [74.204480 120.872000 7.535634] 0.989869 0.000000 0.000000 -0.141981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D4F001, 0x72D4F002, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72D4F001, 0x72D4F003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72D4F001, 0x72D4F004, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72D4F001, 0x72D4F005, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72D4F001, 0x72D4F006, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72D4F001, 0x72D4F007, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72D4F001, 0x72D4F008, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72D4F001, 0x72D4F009, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72D4F001, 0x72D4F00A, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72D4F001, 0x72D4F00B, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72D4F001, 0x72D4F00C, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72D4F001, 0x72D4F00D, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72D4F001, 0x72D4F00E, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72D4F001, 0x72D4F00F, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout */
-     , (0x72D4F001, 0x72D4F010, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72D4F001, 0x72D4F011, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72D4F001, 0x72D4F012, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72D4F001, 0x72D4F013, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72D4F001, 0x72D4F014, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72D4F001, 0x72D4F015, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72D4F001, 0x72D4F016, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72D4F001, 0x72D4F017, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72D4F001, 0x72D4F018, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72D4F001, 0x72D4F019, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72D4F001, 0x72D4F01A, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72D4F001, 0x72D4F01B, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72D4F001, 0x72D4F01C, '2019-02-10 00:00:00') /* Dreadful Ursuin */;
+VALUES (0x72D4F001, 0x72D4F002, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72D4F001, 0x72D4F003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72D4F001, 0x72D4F004, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72D4F001, 0x72D4F005, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72D4F001, 0x72D4F006, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72D4F001, 0x72D4F007, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72D4F001, 0x72D4F008, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72D4F001, 0x72D4F009, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72D4F001, 0x72D4F00A, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72D4F001, 0x72D4F00B, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72D4F001, 0x72D4F00C, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72D4F001, 0x72D4F00D, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72D4F001, 0x72D4F00E, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72D4F001, 0x72D4F00F, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout (41735) */
+     , (0x72D4F001, 0x72D4F010, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72D4F001, 0x72D4F011, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72D4F001, 0x72D4F012, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72D4F001, 0x72D4F013, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72D4F001, 0x72D4F014, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72D4F001, 0x72D4F015, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72D4F001, 0x72D4F016, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72D4F001, 0x72D4F017, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72D4F001, 0x72D4F018, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72D4F001, 0x72D4F019, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72D4F001, 0x72D4F01A, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72D4F001, 0x72D4F01B, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72D4F001, 0x72D4F01C, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D4F002, 23088, 0x2D4F001E, 74.20448, 120.872, 7.535634, 0.9898694, 0, 0, -0.1419813,  True, '2019-02-10 00:00:00'); /* Raider Prefect */
@@ -146,7 +146,7 @@ VALUES (0x72D4F01D,  1542, 0x2D4F0003, 8.412112, 61.82805, 87.87423, 0.9982033, 
 /* @teleloc 0x2D4F0003 [8.412112 61.828050 87.874230] 0.998203 0.000000 0.000000 -0.059918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D4F01D, 0x72D4F01E, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72D4F01D, 0x72D4F01E, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D4F01E, 46284, 0x2D4F0003, 8.412112, 61.82805, 87.87423, 0.9982033, 0, 0, -0.05991811,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

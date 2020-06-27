@@ -5,41 +5,41 @@ VALUES (0x7271A001,  1154, 0x271A003F, 171.5991, 167.3917, 48.92941, 0.7372774, 
 /* @teleloc 0x271A003F [171.599100 167.391700 48.929410] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7271A001, 0x7271A002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271A001, 0x7271A003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7271A001, 0x7271A004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7271A001, 0x7271A005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7271A001, 0x7271A006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7271A001, 0x7271A007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7271A001, 0x7271A008, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7271A001, 0x7271A009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7271A001, 0x7271A00A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7271A001, 0x7271A00B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7271A001, 0x7271A00C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7271A001, 0x7271A00D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7271A001, 0x7271A00E, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7271A001, 0x7271A00F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7271A001, 0x7271A010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7271A001, 0x7271A011, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7271A001, 0x7271A012, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7271A001, 0x7271A013, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7271A001, 0x7271A014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7271A001, 0x7271A015, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A016, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A017, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A018, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7271A001, 0x7271A019, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A01A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7271A001, 0x7271A01B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7271A001, 0x7271A01C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7271A001, 0x7271A01D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7271A001, 0x7271A01E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7271A001, 0x7271A01F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7271A001, 0x7271A020, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A021, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7271A001, 0x7271A022, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7271A001, 0x7271A023, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7271A001, 0x7271A024, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x7271A001, 0x7271A002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271A001, 0x7271A003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7271A001, 0x7271A004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7271A001, 0x7271A005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7271A001, 0x7271A006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7271A001, 0x7271A007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7271A001, 0x7271A008, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7271A001, 0x7271A009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7271A001, 0x7271A00A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7271A001, 0x7271A00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7271A001, 0x7271A00C, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7271A001, 0x7271A00D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7271A001, 0x7271A00E, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7271A001, 0x7271A00F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7271A001, 0x7271A010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7271A001, 0x7271A011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7271A001, 0x7271A012, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7271A001, 0x7271A013, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7271A001, 0x7271A014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7271A001, 0x7271A015, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A016, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A017, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A018, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7271A001, 0x7271A019, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A01A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7271A001, 0x7271A01B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7271A001, 0x7271A01C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7271A001, 0x7271A01D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7271A001, 0x7271A01E, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7271A001, 0x7271A01F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7271A001, 0x7271A020, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A021, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7271A001, 0x7271A022, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7271A001, 0x7271A023, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7271A001, 0x7271A024, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7271A002,  7114, 0x271A003F, 171.5991, 167.3917, 48.92941, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -186,8 +186,8 @@ VALUES (0x7271A025,  1542, 0x271A000A, 36.52238, 39.79457, 56, -4.371139E-08, 0,
 /* @teleloc 0x271A000A [36.522380 39.794570 56.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7271A025, 0x7271A026, '2019-02-10 00:00:00') /* Bones */
-     , (0x7271A025, 0x7271A027, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7271A025, 0x7271A026, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7271A025, 0x7271A027, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7271A026,  4380, 0x271A000A, 36.52238, 39.79457, 56, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

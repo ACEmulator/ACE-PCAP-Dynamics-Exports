@@ -5,14 +5,14 @@ VALUES (0x763D3001,  1154, 0x63D3001F, 89.26472, 162.1116, 24.9285, -0.5087618, 
 /* @teleloc 0x63D3001F [89.264720 162.111600 24.928500] -0.508762 0.000000 0.000000 -0.860907 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D3001, 0x763D3002, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x763D3001, 0x763D3003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x763D3001, 0x763D3004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x763D3001, 0x763D3005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D3001, 0x763D3006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x763D3001, 0x763D3007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x763D3001, 0x763D3008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x763D3001, 0x763D3009, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x763D3001, 0x763D3002, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x763D3001, 0x763D3003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x763D3001, 0x763D3004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x763D3001, 0x763D3005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D3001, 0x763D3006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x763D3001, 0x763D3007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x763D3001, 0x763D3008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x763D3001, 0x763D3009, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D3002, 36918, 0x63D3001F, 89.26472, 162.1116, 24.9285, -0.5087618, 0, 0, -0.8609073,  True, '2019-02-10 00:00:00'); /* Three Eyed Snowman */

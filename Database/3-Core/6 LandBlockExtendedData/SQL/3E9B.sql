@@ -5,10 +5,10 @@ VALUES (0x73E9B001,  1154, 0x3E9B0036, 149.5817, 134.5513, 17.77579, 0.9688419, 
 /* @teleloc 0x3E9B0036 [149.581700 134.551300 17.775790] 0.968842 0.000000 0.000000 -0.247680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E9B001, 0x73E9B002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73E9B001, 0x73E9B003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x73E9B001, 0x73E9B004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x73E9B001, 0x73E9B005, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x73E9B001, 0x73E9B002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73E9B001, 0x73E9B003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x73E9B001, 0x73E9B004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x73E9B001, 0x73E9B005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E9B002,  4255, 0x3E9B0036, 149.5817, 134.5513, 17.77579, 0.9688419, 0, 0, -0.2476801,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

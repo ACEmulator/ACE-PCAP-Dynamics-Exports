@@ -5,16 +5,16 @@ VALUES (0x719C1001,  1154, 0x19C10018, 68.70563, 184.9025, 22, -0.9576711, 0, 0,
 /* @teleloc 0x19C10018 [68.705630 184.902500 22.000000] -0.957671 0.000000 0.000000 -0.287865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C1001, 0x719C1002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x719C1001, 0x719C1003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x719C1001, 0x719C1004, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x719C1001, 0x719C1005, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x719C1001, 0x719C1006, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x719C1001, 0x719C1007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x719C1001, 0x719C1008, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x719C1001, 0x719C1009, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x719C1001, 0x719C100A, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x719C1001, 0x719C100B, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x719C1001, 0x719C1002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x719C1001, 0x719C1003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x719C1001, 0x719C1004, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x719C1001, 0x719C1005, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x719C1001, 0x719C1006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x719C1001, 0x719C1007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x719C1001, 0x719C1008, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x719C1001, 0x719C1009, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x719C1001, 0x719C100A, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x719C1001, 0x719C100B, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C1002, 11495, 0x19C10018, 68.70563, 184.9025, 22, -0.9576711, 0, 0, -0.2878647,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */

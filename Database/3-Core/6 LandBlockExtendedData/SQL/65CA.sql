@@ -5,10 +5,10 @@ VALUES (0x765CA001,  1154, 0x65CA0019, 76.43416, 15.56077, 163.1915, 0.7575695, 
 /* @teleloc 0x65CA0019 [76.434160 15.560770 163.191500] 0.757570 0.000000 0.000000 -0.652755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765CA001, 0x765CA002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x765CA001, 0x765CA003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x765CA001, 0x765CA004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x765CA001, 0x765CA005, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x765CA001, 0x765CA002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x765CA001, 0x765CA003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x765CA001, 0x765CA004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x765CA001, 0x765CA005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765CA002, 24280, 0x65CA0019, 76.43416, 15.56077, 163.1915, 0.7575695, 0, 0, -0.6527545,  True, '2019-02-10 00:00:00'); /* Murk Drudge */

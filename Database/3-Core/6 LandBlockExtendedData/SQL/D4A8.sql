@@ -5,12 +5,12 @@ VALUES (0x7D4A8001,  1154, 0xD4A80037, 146.4565, 159.3399, 34.91138, 0.8012014, 
 /* @teleloc 0xD4A80037 [146.456500 159.339900 34.911380] 0.801201 0.000000 0.000000 -0.598395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4A8001, 0x7D4A8002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D4A8001, 0x7D4A8003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4A8001, 0x7D4A8004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4A8001, 0x7D4A8005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D4A8001, 0x7D4A8006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7D4A8001, 0x7D4A8007, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7D4A8001, 0x7D4A8002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D4A8001, 0x7D4A8003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4A8001, 0x7D4A8004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4A8001, 0x7D4A8005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D4A8001, 0x7D4A8006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7D4A8001, 0x7D4A8007, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4A8002, 28552, 0xD4A80037, 146.4565, 159.3399, 34.91138, 0.8012014, 0, 0, -0.5983948,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

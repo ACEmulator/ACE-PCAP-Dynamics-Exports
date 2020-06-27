@@ -5,11 +5,11 @@ VALUES (0x7413B001,  1154, 0x413B0035, 162.2875, 110.4983, 82.53326, 0.9537169, 
 /* @teleloc 0x413B0035 [162.287500 110.498300 82.533260] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7413B001, 0x7413B002, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7413B001, 0x7413B003, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7413B001, 0x7413B004, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7413B001, 0x7413B005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7413B001, 0x7413B006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */;
+VALUES (0x7413B001, 0x7413B002, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7413B001, 0x7413B003, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7413B001, 0x7413B004, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7413B001, 0x7413B005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7413B001, 0x7413B006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7413B002, 26019, 0x413B0035, 162.2875, 110.4983, 82.53326, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Seer */

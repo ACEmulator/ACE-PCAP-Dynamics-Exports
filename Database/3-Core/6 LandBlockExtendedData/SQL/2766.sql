@@ -5,10 +5,10 @@ VALUES (0x72766001,  1154, 0x27660012, 70.09024, 32.26118, 92.64643, -0.2089416,
 /* @teleloc 0x27660012 [70.090240 32.261180 92.646430] -0.208942 0.000000 0.000000 -0.977928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72766001, 0x72766002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72766001, 0x72766003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72766001, 0x72766004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72766001, 0x72766005, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x72766001, 0x72766002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72766001, 0x72766003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72766001, 0x72766004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72766001, 0x72766005, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72766002, 23616, 0x27660012, 70.09024, 32.26118, 92.64643, -0.2089416, 0, 0, -0.9779281,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

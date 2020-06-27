@@ -5,8 +5,8 @@ VALUES (0x73B49001,  1154, 0x3B490038, 159.9619, 175.7512, 35.02359, 0.8627099, 
 /* @teleloc 0x3B490038 [159.961900 175.751200 35.023590] 0.862710 0.000000 0.000000 -0.505699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B49001, 0x73B49002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B49001, 0x73B49003, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73B49001, 0x73B49002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B49001, 0x73B49003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B49002,  4248, 0x3B490038, 159.9619, 175.7512, 35.02359, 0.8627099, 0, 0, -0.505699,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -21,7 +21,7 @@ VALUES (0x73B49004,  1542, 0x3B490020, 77.74152, 176.9231, 36.99034, 0.9990482, 
 /* @teleloc 0x3B490020 [77.741520 176.923100 36.990340] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B49004, 0x73B49005, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B49004, 0x73B49005, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B49005,  4179, 0x3B490020, 77.74152, 176.9231, 36.99034, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

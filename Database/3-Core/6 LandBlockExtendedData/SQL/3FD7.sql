@@ -5,16 +5,16 @@ VALUES (0x73FD7001,  1154, 0x3FD7003F, 168.1102, 153.042, 0.002499998, 0.8413016
 /* @teleloc 0x3FD7003F [168.110200 153.042000 0.002500] 0.841302 0.000000 0.000000 -0.540566 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FD7001, 0x73FD7002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73FD7001, 0x73FD7003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73FD7001, 0x73FD7004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73FD7001, 0x73FD7005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73FD7001, 0x73FD7006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73FD7001, 0x73FD7007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x73FD7001, 0x73FD7008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73FD7001, 0x73FD7009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73FD7001, 0x73FD700A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73FD7001, 0x73FD700B, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x73FD7001, 0x73FD7002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73FD7001, 0x73FD7003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73FD7001, 0x73FD7004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73FD7001, 0x73FD7005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73FD7001, 0x73FD7006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73FD7001, 0x73FD7007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x73FD7001, 0x73FD7008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73FD7001, 0x73FD7009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73FD7001, 0x73FD700A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73FD7001, 0x73FD700B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FD7002, 24313, 0x3FD7003F, 168.1102, 153.042, 0.002499998, 0.8413016, 0, 0, -0.540566,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

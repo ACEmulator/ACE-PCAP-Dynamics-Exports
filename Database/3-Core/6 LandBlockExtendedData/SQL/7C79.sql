@@ -5,9 +5,9 @@ VALUES (0x77C79001,  1154, 0x7C790008, 22.59796, 176.0292, 10.78843, 0.8870109, 
 /* @teleloc 0x7C790008 [22.597960 176.029200 10.788430] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C79001, 0x77C79002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77C79001, 0x77C79003, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x77C79001, 0x77C79004, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x77C79001, 0x77C79002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x77C79001, 0x77C79003, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x77C79001, 0x77C79004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C79002,  4266, 0x7C790008, 22.59796, 176.0292, 10.78843, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Old Bones */

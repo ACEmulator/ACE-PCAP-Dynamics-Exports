@@ -5,20 +5,20 @@ VALUES (0x7A227001,  1154, 0xA227000C, 34.19525, 91.51883, 221.9518, -0.4557771,
 /* @teleloc 0xA227000C [34.195250 91.518830 221.951800] -0.455777 0.000000 0.000000 -0.890094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A227001, 0x7A227002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A227001, 0x7A227003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A227001, 0x7A227004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A227001, 0x7A227005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A227001, 0x7A227006, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A227001, 0x7A227007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A227001, 0x7A227008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A227001, 0x7A227009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A227001, 0x7A22700A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A227001, 0x7A22700B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A227001, 0x7A22700C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A227001, 0x7A22700D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A227001, 0x7A22700E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A227001, 0x7A22700F, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7A227001, 0x7A227002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A227001, 0x7A227003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A227001, 0x7A227004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A227001, 0x7A227005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A227001, 0x7A227006, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A227001, 0x7A227007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A227001, 0x7A227008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A227001, 0x7A227009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A227001, 0x7A22700A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A227001, 0x7A22700B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A227001, 0x7A22700C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A227001, 0x7A22700D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A227001, 0x7A22700E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A227001, 0x7A22700F, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A227002,  7107, 0xA227000C, 34.19525, 91.51883, 221.9518, -0.4557771, 0, 0, -0.8900939,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -81,7 +81,7 @@ VALUES (0x7A227010,  1542, 0xA227001B, 92.24379, 56.30316, 227.9341, 0.4573525, 
 /* @teleloc 0xA227001B [92.243790 56.303160 227.934100] 0.457353 0.000000 0.000000 -0.889286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A227010, 0x7A227011, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7A227010, 0x7A227011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A227011,  8644, 0xA227001B, 92.24379, 56.30316, 227.9341, 0.4573525, 0, 0, -0.8892855,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,8 +5,8 @@ VALUES (0x71B85001,  1154, 0x1B850027, 103.8232, 147.1535, 70.17504, 0.408875, 0
 /* @teleloc 0x1B850027 [103.823200 147.153500 70.175040] 0.408875 0.000000 0.000000 -0.912590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B85001, 0x71B85002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71B85001, 0x71B85003, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x71B85001, 0x71B85002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71B85001, 0x71B85003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B85002, 28553, 0x1B850027, 103.8232, 147.1535, 70.17504, 0.408875, 0, 0, -0.9125904,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

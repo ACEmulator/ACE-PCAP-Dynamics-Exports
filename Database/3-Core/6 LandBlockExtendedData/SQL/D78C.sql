@@ -5,18 +5,18 @@ VALUES (0x7D78C001,  1154, 0xD78C0036, 162.2649, 120.7393, -0.09540004, -0.56406
 /* @teleloc 0xD78C0036 [162.264900 120.739300 -0.095400] -0.564060 0.000000 0.000000 -0.825734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D78C001, 0x7D78C002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D78C001, 0x7D78C003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D78C001, 0x7D78C004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D78C001, 0x7D78C005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D78C001, 0x7D78C006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D78C001, 0x7D78C007, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D78C001, 0x7D78C008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D78C001, 0x7D78C009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D78C001, 0x7D78C00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D78C001, 0x7D78C00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D78C001, 0x7D78C00C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D78C001, 0x7D78C00D, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x7D78C001, 0x7D78C002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D78C001, 0x7D78C003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D78C001, 0x7D78C004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D78C001, 0x7D78C005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D78C001, 0x7D78C006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D78C001, 0x7D78C007, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D78C001, 0x7D78C008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D78C001, 0x7D78C009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D78C001, 0x7D78C00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D78C001, 0x7D78C00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D78C001, 0x7D78C00C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D78C001, 0x7D78C00D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D78C002,  4246, 0xD78C0036, 162.2649, 120.7393, -0.09540004, -0.5640603, 0, 0, -0.8257336,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x7D78C00E,  1542, 0xD78C002B, 141.2932, 63.09334, 2.379907, 1, 0, 0, 0,
 /* @teleloc 0xD78C002B [141.293200 63.093340 2.379907] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D78C00E, 0x7D78C00F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D78C00E, 0x7D78C00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D78C00F, 31443, 0xD78C002B, 141.2932, 63.09334, 2.379907, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

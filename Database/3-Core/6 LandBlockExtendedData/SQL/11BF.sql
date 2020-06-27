@@ -5,20 +5,20 @@ VALUES (0x711BF001,  1154, 0x11BF0011, 62.54763, 22.90042, 17.31393, -0.419926, 
 /* @teleloc 0x11BF0011 [62.547630 22.900420 17.313930] -0.419926 0.000000 0.000000 -0.907558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BF001, 0x711BF002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x711BF001, 0x711BF003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x711BF001, 0x711BF004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x711BF001, 0x711BF005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x711BF001, 0x711BF006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x711BF001, 0x711BF007, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF008, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF009, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF00A, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF00B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x711BF001, 0x711BF00C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x711BF001, 0x711BF00D, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF00E, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x711BF001, 0x711BF00F, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x711BF001, 0x711BF002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x711BF001, 0x711BF003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x711BF001, 0x711BF004, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x711BF001, 0x711BF005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x711BF001, 0x711BF006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x711BF001, 0x711BF007, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF008, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF009, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF00A, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF00B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x711BF001, 0x711BF00C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x711BF001, 0x711BF00D, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF00E, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x711BF001, 0x711BF00F, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BF002, 23082, 0x11BF0011, 62.54763, 22.90042, 17.31393, -0.419926, 0, 0, -0.9075583,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

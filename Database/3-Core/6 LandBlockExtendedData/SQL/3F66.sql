@@ -5,13 +5,13 @@ VALUES (0x73F66001,  1154, 0x3F660008, 20.09648, 174.5685, 38.22858, -0.7660444,
 /* @teleloc 0x3F660008 [20.096480 174.568500 38.228580] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F66001, 0x73F66002, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73F66001, 0x73F66003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F66001, 0x73F66004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F66001, 0x73F66005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73F66001, 0x73F66006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F66001, 0x73F66007, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73F66001, 0x73F66008, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73F66001, 0x73F66002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73F66001, 0x73F66003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F66001, 0x73F66004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F66001, 0x73F66005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73F66001, 0x73F66006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F66001, 0x73F66007, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73F66001, 0x73F66008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F66002,  7117, 0x3F660008, 20.09648, 174.5685, 38.22858, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */

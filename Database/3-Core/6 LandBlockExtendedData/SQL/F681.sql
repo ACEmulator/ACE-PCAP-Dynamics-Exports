@@ -17,9 +17,9 @@ VALUES (0x7F681005,  1154, 0xF6810040, 184.684, 174.402, 63.8756, 0.986369, 0, 0
 /* @teleloc 0xF6810040 [184.684000 174.402000 63.875600] 0.986369 0.000000 0.000000 0.164546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F681005, 0x7F681006, '2019-02-10 00:00:00') /* Jilna Fullgood */
-     , (0x7F681005, 0x7F681007, '2019-02-10 00:00:00') /* Aidene */
-     , (0x7F681005, 0x7F681008, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7F681005, 0x7F681006, '2019-02-10 00:00:00') /* Jilna Fullgood (35772) */
+     , (0x7F681005, 0x7F681007, '2019-02-10 00:00:00') /* Aidene (31645) */
+     , (0x7F681005, 0x7F681008, '2019-02-10 00:00:00') /* Town Crier (22643) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F681006, 35772, 0xF6810040, 184.684, 174.402, 63.8756, 0.986369, 0, 0, 0.164546,  True, '2019-02-10 00:00:00'); /* Jilna Fullgood */

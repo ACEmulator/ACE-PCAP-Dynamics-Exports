@@ -5,12 +5,12 @@ VALUES (0x79535001,  1154, 0x95350027, 103.4652, 158.6238, 38.029, 0.804714, 0, 
 /* @teleloc 0x95350027 [103.465200 158.623800 38.029000] 0.804714 0.000000 0.000000 -0.593663 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79535001, 0x79535002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79535001, 0x79535003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79535001, 0x79535004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79535001, 0x79535005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79535001, 0x79535006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79535001, 0x79535007, '2019-02-10 00:00:00') /* Innocent Doll */;
+VALUES (0x79535001, 0x79535002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79535001, 0x79535003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79535001, 0x79535004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79535001, 0x79535005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79535001, 0x79535006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79535001, 0x79535007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79535002,    23, 0x95350027, 103.4652, 158.6238, 38.029, 0.804714, 0, 0, -0.5936627,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

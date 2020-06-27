@@ -5,9 +5,9 @@ VALUES (0x75328001,  1154, 0x5328002F, 135.7197, 165.9913, 19.5248, -0.8983118, 
 /* @teleloc 0x5328002F [135.719700 165.991300 19.524800] -0.898312 0.000000 0.000000 -0.439359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75328001, 0x75328002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75328001, 0x75328003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x75328001, 0x75328004, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x75328001, 0x75328002, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x75328001, 0x75328003, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x75328001, 0x75328004, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75328002, 36856, 0x5328002F, 135.7197, 165.9913, 19.5248, -0.8983118, 0, 0, -0.4393585,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */

@@ -5,17 +5,17 @@ VALUES (0x7D720001,  1154, 0xD7200033, 150.2011, 69.14877, -0.09175003, 0.092152
 /* @teleloc 0xD7200033 [150.201100 69.148770 -0.091750] 0.092152 0.000000 0.000000 -0.995745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D720001, 0x7D720002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D720001, 0x7D720003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D720001, 0x7D720004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D720001, 0x7D720005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D720001, 0x7D720006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D720001, 0x7D720007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D720001, 0x7D720008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7D720001, 0x7D720009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D720001, 0x7D72000A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D720001, 0x7D72000B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D720001, 0x7D72000C, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7D720001, 0x7D720002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D720001, 0x7D720003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D720001, 0x7D720004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D720001, 0x7D720005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D720001, 0x7D720006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D720001, 0x7D720007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D720001, 0x7D720008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7D720001, 0x7D720009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D720001, 0x7D72000A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D720001, 0x7D72000B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D720001, 0x7D72000C, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D720002,   619, 0xD7200033, 150.2011, 69.14877, -0.09175003, 0.09215228, 0, 0, -0.9957449,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -66,7 +66,7 @@ VALUES (0x7D72000D,  1542, 0xD7200019, 76.71858, 23.08359, 29.14667, -0.727024, 
 /* @teleloc 0xD7200019 [76.718580 23.083590 29.146670] -0.727024 0.000000 0.000000 -0.686612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D72000D, 0x7D72000E, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D72000D, 0x7D72000E, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D72000E, 31687, 0xD7200019, 76.71858, 23.08359, 29.14667, -0.727024, 0, 0, -0.686612,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

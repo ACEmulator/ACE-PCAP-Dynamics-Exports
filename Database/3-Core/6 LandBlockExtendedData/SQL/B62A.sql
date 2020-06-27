@@ -5,10 +5,10 @@ VALUES (0x7B62A001,  1154, 0xB62A0011, 56.55559, 5.296306, 336.5482, -0.02375264
 /* @teleloc 0xB62A0011 [56.555590 5.296306 336.548200] -0.023753 0.000000 0.000000 -0.999718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B62A001, 0x7B62A002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B62A001, 0x7B62A003, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7B62A001, 0x7B62A004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B62A001, 0x7B62A005, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B62A001, 0x7B62A002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B62A001, 0x7B62A003, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7B62A001, 0x7B62A004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B62A001, 0x7B62A005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B62A002,  4253, 0xB62A0011, 56.55559, 5.296306, 336.5482, -0.02375264, 0, 0, -0.9997179,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -31,7 +31,7 @@ VALUES (0x7B62A006,  1542, 0xB62A0010, 30.05676, 168.9645, 293.8239, -0.9957311,
 /* @teleloc 0xB62A0010 [30.056760 168.964500 293.823900] -0.995731 0.000000 0.000000 -0.092301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B62A006, 0x7B62A007, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B62A006, 0x7B62A007, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B62A007,  8644, 0xB62A0010, 30.05676, 168.9645, 293.8239, -0.9957311, 0, 0, -0.09230109,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

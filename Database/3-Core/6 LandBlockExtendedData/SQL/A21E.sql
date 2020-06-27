@@ -37,7 +37,7 @@ VALUES (0x7A21E012,  1154, 0xA21E001C, 76.0134, 84, 610, 1, 0, 0, 0, False, '201
 /* @teleloc 0xA21E001C [76.013400 84.000000 610.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21E012, 0x7A21E013, '2019-02-10 00:00:00') /* Kresovus' Lockbox */;
+VALUES (0x7A21E012, 0x7A21E013, '2019-02-10 00:00:00') /* Kresovus' Lockbox (35478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E013, 35478, 0xA21E001C, 76.0134, 84, 610, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kresovus' Lockbox */
@@ -48,11 +48,11 @@ VALUES (0x7A21E014,  1154, 0xA21E001B, 77.4115, 50.96967, 560.3223, -0.192543, 0
 /* @teleloc 0xA21E001B [77.411500 50.969670 560.322300] -0.192543 0.000000 0.000000 0.981288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21E014, 0x7A21E015, '2019-02-10 00:00:00') /* Captain K'rank */
-     , (0x7A21E014, 0x7A21E016, '2019-02-10 00:00:00') /* Master Ulkas */
-     , (0x7A21E014, 0x7A21E017, '2019-02-10 00:00:00') /* Lord Kresovus */
-     , (0x7A21E014, 0x7A21E018, '2019-02-10 00:00:00') /* Aurutis */
-     , (0x7A21E014, 0x7A21E019, '2019-02-10 00:00:00') /* Neelic */;
+VALUES (0x7A21E014, 0x7A21E015, '2019-02-10 00:00:00') /* Captain K'rank (28515) */
+     , (0x7A21E014, 0x7A21E016, '2019-02-10 00:00:00') /* Master Ulkas (9407) */
+     , (0x7A21E014, 0x7A21E017, '2019-02-10 00:00:00') /* Lord Kresovus (9406) */
+     , (0x7A21E014, 0x7A21E018, '2019-02-10 00:00:00') /* Aurutis (9467) */
+     , (0x7A21E014, 0x7A21E019, '2019-02-10 00:00:00') /* Neelic (47191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E015, 28515, 0xA21E001B, 77.4115, 50.96967, 560.3223, -0.192543, 0, 0, 0.981288,  True, '2019-02-10 00:00:00'); /* Captain K'rank */
@@ -79,11 +79,11 @@ VALUES (0x7A21E01A,  1542, 0xA21E001B, 91.4526, 50.558, 560.267, -0.454417, 0, 0
 /* @teleloc 0xA21E001B [91.452600 50.558000 560.267000] -0.454417 0.000000 0.000000 -0.890789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21E01A, 0x7A21E01B, '2019-02-10 00:00:00') /* Morgluuk's Head */
-     , (0x7A21E01A, 0x7A21E01C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A21E01A, 0x7A21E01D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A21E01A, 0x7A21E01E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A21E01A, 0x7A21E01F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7A21E01A, 0x7A21E01B, '2019-02-10 00:00:00') /* Morgluuk's Head (28450) */
+     , (0x7A21E01A, 0x7A21E01C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A21E01A, 0x7A21E01D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A21E01A, 0x7A21E01E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A21E01A, 0x7A21E01F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E01B, 28450, 0xA21E001B, 91.4526, 50.558, 560.267, -0.454417, 0, 0, -0.890789,  True, '2019-02-10 00:00:00'); /* Morgluuk's Head */

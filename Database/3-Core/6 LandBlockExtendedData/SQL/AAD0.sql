@@ -5,12 +5,12 @@ VALUES (0x7AAD0001,  1154, 0xAAD00009, 27.32929, 18.4239, 120.0138, 0.7372774, 0
 /* @teleloc 0xAAD00009 [27.329290 18.423900 120.013800] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAD0001, 0x7AAD0002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AAD0001, 0x7AAD0003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AAD0001, 0x7AAD0004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AAD0001, 0x7AAD0005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7AAD0001, 0x7AAD0006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AAD0001, 0x7AAD0007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7AAD0001, 0x7AAD0002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AAD0001, 0x7AAD0003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AAD0001, 0x7AAD0004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AAD0001, 0x7AAD0005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7AAD0001, 0x7AAD0006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AAD0001, 0x7AAD0007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAD0002,  4255, 0xAAD00009, 27.32929, 18.4239, 120.0138, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

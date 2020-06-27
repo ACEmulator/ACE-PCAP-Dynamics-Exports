@@ -5,10 +5,10 @@ VALUES (0x70A6D001,  1154, 0x0A6D0003, 16.51088, 58.9994, -0.8929999, 0.3051824,
 /* @teleloc 0x0A6D0003 [16.510880 58.999400 -0.893000] 0.305182 0.000000 0.000000 -0.952294 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A6D001, 0x70A6D002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70A6D001, 0x70A6D003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70A6D001, 0x70A6D004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70A6D001, 0x70A6D005, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x70A6D001, 0x70A6D002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70A6D001, 0x70A6D003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70A6D001, 0x70A6D004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70A6D001, 0x70A6D005, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A6D002, 14877, 0x0A6D0003, 16.51088, 58.9994, -0.8929999, 0.3051824, 0, 0, -0.9522939,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -31,7 +31,7 @@ VALUES (0x70A6D006,  1542, 0x0A6D0010, 24.73343, 181.2417, -0.46, 0.8930593, 0, 
 /* @teleloc 0x0A6D0010 [24.733430 181.241700 -0.460000] 0.893059 0.000000 0.000000 -0.449939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A6D006, 0x70A6D007, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x70A6D006, 0x70A6D007, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A6D007,  9286, 0x0A6D0010, 24.73343, 181.2417, -0.46, 0.8930593, 0, 0, -0.4499391,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

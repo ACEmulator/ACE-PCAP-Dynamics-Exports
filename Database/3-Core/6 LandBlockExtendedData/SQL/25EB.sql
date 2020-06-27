@@ -5,20 +5,20 @@ VALUES (0x725EB001,  1154, 0x25EB000B, 46.30659, 57.06146, 7.438132, -0.09841986
 /* @teleloc 0x25EB000B [46.306590 57.061460 7.438132] -0.098420 0.000000 0.000000 -0.995145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725EB001, 0x725EB002, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x725EB001, 0x725EB003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x725EB001, 0x725EB004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x725EB001, 0x725EB005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x725EB001, 0x725EB006, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x725EB001, 0x725EB007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x725EB001, 0x725EB008, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x725EB001, 0x725EB009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x725EB001, 0x725EB00A, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EB001, 0x725EB00B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x725EB001, 0x725EB00C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x725EB001, 0x725EB00D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x725EB001, 0x725EB00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x725EB001, 0x725EB00F, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x725EB001, 0x725EB002, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x725EB001, 0x725EB003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x725EB001, 0x725EB004, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x725EB001, 0x725EB005, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x725EB001, 0x725EB006, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x725EB001, 0x725EB007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x725EB001, 0x725EB008, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x725EB001, 0x725EB009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x725EB001, 0x725EB00A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EB001, 0x725EB00B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x725EB001, 0x725EB00C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x725EB001, 0x725EB00D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x725EB001, 0x725EB00E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x725EB001, 0x725EB00F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725EB002, 27715, 0x25EB000B, 46.30659, 57.06146, 7.438132, -0.09841986, 0, 0, -0.995145,  True, '2019-02-10 00:00:00'); /* Ferocious Ursuin */

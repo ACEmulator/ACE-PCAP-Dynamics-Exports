@@ -65,67 +65,67 @@ VALUES (0x702C4047,  1154, 0x02C40364, 117.39, -63.292, 12.0052, -0.999913, 0, 0
 /* @teleloc 0x02C40364 [117.390000 -63.292000 12.005200] -0.999913 0.000000 0.000000 -0.013209 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C4047, 0x702C4048, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4049, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C404A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C404B, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C404C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C404D, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C404E, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C404F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4050, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4051, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4052, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4053, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4054, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4055, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4056, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4057, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4058, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4059, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C405A, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C405B, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C405C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C405D, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C405E, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C405F, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4060, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4061, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4062, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4063, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4064, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4065, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4066, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4067, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4068, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4069, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C406A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C406B, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C406C, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C406D, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C406E, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x702C4047, 0x702C406F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4070, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4071, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4072, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x702C4047, 0x702C4073, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4074, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4075, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4076, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4077, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4078, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4079, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C407A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C407B, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x702C4047, 0x702C407C, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C407D, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C407E, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C407F, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4080, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4081, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x702C4047, 0x702C4082, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x702C4047, 0x702C4083, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x702C4047, 0x702C4084, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x702C4047, 0x702C4048, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4049, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C404A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C404B, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C404C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C404D, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C404E, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C404F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4050, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4051, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4052, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4053, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4054, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4055, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4056, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4057, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4058, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4059, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C405A, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C405B, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C405C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C405D, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C405E, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C405F, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4060, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4061, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4062, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4063, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4064, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4065, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4066, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4067, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4068, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4069, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C406A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C406B, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C406C, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C406D, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C406E, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C4047, 0x702C406F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4070, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4071, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4072, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C4047, 0x702C4073, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4074, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4075, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4076, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4077, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4078, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4079, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C407A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C407B, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C4047, 0x702C407C, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C407D, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C407E, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C407F, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4080, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4081, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x702C4047, 0x702C4082, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x702C4047, 0x702C4083, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x702C4047, 0x702C4084, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4048, 27862, 0x02C40364, 117.39, -63.292, 12.0052, -0.999913, 0, 0, -0.013209,  True, '2019-02-10 00:00:00'); /* Viscous Moarsman */
@@ -376,8 +376,8 @@ VALUES (0x702C4085,  1542, 0x02C4018F, 117.0181, -28.9124, -0.06299996, -0.41491
 /* @teleloc 0x02C4018F [117.018100 -28.912400 -0.063000] -0.414918 0.000000 0.000000 -0.909859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C4085, 0x702C4086, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702C4085, 0x702C4087, '2019-02-10 00:00:00') /* Amethyst Cradle */;
+VALUES (0x702C4085, 0x702C4086, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702C4085, 0x702C4087, '2019-02-10 00:00:00') /* Amethyst Cradle (27765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4086,  1955, 0x02C4018F, 117.0181, -28.9124, -0.06299996, -0.4149176, 0, 0, -0.909859,  True, '2019-02-10 00:00:00'); /* Gateway */

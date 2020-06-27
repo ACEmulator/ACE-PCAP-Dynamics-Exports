@@ -5,27 +5,27 @@ VALUES (0x79A1E001,  1154, 0x9A1E0008, 2.946718, 173.6894, 136.5462, 0.7071068, 
 /* @teleloc 0x9A1E0008 [2.946718 173.689400 136.546200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A1E001, 0x79A1E002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A1E001, 0x79A1E003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79A1E001, 0x79A1E004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79A1E001, 0x79A1E005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79A1E001, 0x79A1E006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79A1E001, 0x79A1E007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79A1E001, 0x79A1E008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A1E001, 0x79A1E009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79A1E001, 0x79A1E00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79A1E001, 0x79A1E00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A1E001, 0x79A1E00C, '2019-02-10 00:00:00') /* Banished Tumerok */
-     , (0x79A1E001, 0x79A1E00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79A1E001, 0x79A1E00E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79A1E001, 0x79A1E00F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1E001, 0x79A1E010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1E001, 0x79A1E011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1E001, 0x79A1E012, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A1E001, 0x79A1E013, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79A1E001, 0x79A1E014, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79A1E001, 0x79A1E015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1E001, 0x79A1E016, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x79A1E001, 0x79A1E002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A1E001, 0x79A1E003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79A1E001, 0x79A1E004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79A1E001, 0x79A1E005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79A1E001, 0x79A1E006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79A1E001, 0x79A1E007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79A1E001, 0x79A1E008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A1E001, 0x79A1E009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79A1E001, 0x79A1E00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79A1E001, 0x79A1E00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A1E001, 0x79A1E00C, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x79A1E001, 0x79A1E00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79A1E001, 0x79A1E00E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79A1E001, 0x79A1E00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1E001, 0x79A1E010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1E001, 0x79A1E011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1E001, 0x79A1E012, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A1E001, 0x79A1E013, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79A1E001, 0x79A1E014, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79A1E001, 0x79A1E015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1E001, 0x79A1E016, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A1E002,  7179, 0x9A1E0008, 2.946718, 173.6894, 136.5462, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -116,7 +116,7 @@ VALUES (0x79A1E017,  1542, 0x9A1E0004, 15.92293, 73.92899, 131.5069, 0.9238795, 
 /* @teleloc 0x9A1E0004 [15.922930 73.928990 131.506900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A1E017, 0x79A1E018, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79A1E017, 0x79A1E018, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A1E018,  4180, 0x9A1E0004, 15.92293, 73.92899, 131.5069, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

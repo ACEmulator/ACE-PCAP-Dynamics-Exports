@@ -5,55 +5,55 @@ VALUES (0x7CB61001,  1154, 0xCB610007, 18.62674, 150.489, 5.563, -0.9771461, 0, 
 /* @teleloc 0xCB610007 [18.626740 150.489000 5.563000] -0.977146 0.000000 0.000000 -0.212569 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB61001, 0x7CB61002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CB61001, 0x7CB61004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61007, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61008, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61009, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB6100A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CB61001, 0x7CB6100B, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB61001, 0x7CB6100C, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB61001, 0x7CB6100D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CB61001, 0x7CB6100E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB61001, 0x7CB6100F, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB61001, 0x7CB61010, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB61001, 0x7CB61011, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB61001, 0x7CB61012, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB61001, 0x7CB61013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB61001, 0x7CB61014, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61015, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB61001, 0x7CB61016, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CB61001, 0x7CB61017, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB61001, 0x7CB61018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6101B, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CB61001, 0x7CB6101C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CB61001, 0x7CB6101D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CB61001, 0x7CB6101E, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB6101F, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB61001, 0x7CB61020, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61021, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CB61001, 0x7CB61022, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CB61001, 0x7CB61023, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61024, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CB61001, 0x7CB61025, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CB61001, 0x7CB61026, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61027, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB61001, 0x7CB61028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6102A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6102B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB61001, 0x7CB6102C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB61001, 0x7CB6102D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6102E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB6102F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61030, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61031, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB61001, 0x7CB61032, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CB61001, 0x7CB61002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CB61001, 0x7CB61004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61007, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61008, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61009, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB6100A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CB61001, 0x7CB6100B, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB61001, 0x7CB6100C, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB61001, 0x7CB6100D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CB61001, 0x7CB6100E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB61001, 0x7CB6100F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB61001, 0x7CB61010, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB61001, 0x7CB61011, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB61001, 0x7CB61012, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB61001, 0x7CB61013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB61001, 0x7CB61014, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61015, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB61001, 0x7CB61016, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CB61001, 0x7CB61017, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB61001, 0x7CB61018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6101B, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CB61001, 0x7CB6101C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CB61001, 0x7CB6101D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CB61001, 0x7CB6101E, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB6101F, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB61001, 0x7CB61020, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61021, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CB61001, 0x7CB61022, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CB61001, 0x7CB61023, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61024, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CB61001, 0x7CB61025, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CB61001, 0x7CB61026, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61027, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB61001, 0x7CB61028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6102A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6102B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB61001, 0x7CB6102C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB61001, 0x7CB6102D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6102E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB6102F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61030, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61031, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB61001, 0x7CB61032, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB61002,   217, 0xCB610007, 18.62674, 150.489, 5.563, -0.9771461, 0, 0, -0.2125687,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -256,7 +256,7 @@ VALUES (0x7CB61033,  1542, 0xCB61002E, 143.761, 127.0153, 5.937, 0.1794924, 0, 0
 /* @teleloc 0xCB61002E [143.761000 127.015300 5.937000] 0.179492 0.000000 0.000000 -0.983759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB61033, 0x7CB61034, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7CB61033, 0x7CB61034, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB61034,  1955, 0xCB61002E, 143.761, 127.0153, 5.937, 0.1794924, 0, 0, -0.9837593,  True, '2019-02-10 00:00:00'); /* Gateway */

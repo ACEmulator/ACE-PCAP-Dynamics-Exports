@@ -5,13 +5,13 @@ VALUES (0x7A1EC001,  1154, 0xA1EC0002, 14.76038, 29.83953, 0.008249998, 0.942731
 /* @teleloc 0xA1EC0002 [14.760380 29.839530 0.008250] 0.942732 0.000000 0.000000 -0.333551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1EC001, 0x7A1EC002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A1EC001, 0x7A1EC003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A1EC001, 0x7A1EC004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A1EC001, 0x7A1EC005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7A1EC001, 0x7A1EC006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A1EC001, 0x7A1EC007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A1EC001, 0x7A1EC008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7A1EC001, 0x7A1EC002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A1EC001, 0x7A1EC003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A1EC001, 0x7A1EC004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A1EC001, 0x7A1EC005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7A1EC001, 0x7A1EC006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A1EC001, 0x7A1EC007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A1EC001, 0x7A1EC008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1EC002,  4217, 0xA1EC0002, 14.76038, 29.83953, 0.008249998, 0.9427319, 0, 0, -0.3335513,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

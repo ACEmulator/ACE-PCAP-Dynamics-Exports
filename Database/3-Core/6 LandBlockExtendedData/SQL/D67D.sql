@@ -5,10 +5,10 @@ VALUES (0x7D67D001,  1154, 0xD67D0025, 113.9863, 109.6091, 18.029, -0.9657139, 0
 /* @teleloc 0xD67D0025 [113.986300 109.609100 18.029000] -0.965714 0.000000 0.000000 -0.259609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D67D001, 0x7D67D002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7D67D001, 0x7D67D003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D67D001, 0x7D67D004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D67D001, 0x7D67D005, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7D67D001, 0x7D67D002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7D67D001, 0x7D67D003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D67D001, 0x7D67D004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D67D001, 0x7D67D005, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D67D002,    23, 0xD67D0025, 113.9863, 109.6091, 18.029, -0.9657139, 0, 0, -0.2596087,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

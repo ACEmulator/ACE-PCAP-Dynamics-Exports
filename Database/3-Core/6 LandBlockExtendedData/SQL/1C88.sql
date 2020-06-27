@@ -5,9 +5,9 @@ VALUES (0x71C88001,  1154, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.7145129, 
 /* @teleloc 0x1C880036 [149.026800 123.932600 141.261700] 0.714513 0.000000 0.000000 -0.699622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C88001, 0x71C88002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71C88001, 0x71C88003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71C88001, 0x71C88004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x71C88001, 0x71C88002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71C88001, 0x71C88003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71C88001, 0x71C88004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C88002, 23564, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.7145129, 0, 0, -0.6996222,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -26,7 +26,7 @@ VALUES (0x71C88005,  1542, 0x1C880036, 163.0366, 128.3768, 144.6961, 1, 0, 0, 0,
 /* @teleloc 0x1C880036 [163.036600 128.376800 144.696100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C88005, 0x71C88006, '2019-02-10 00:00:00') /* Qalaba'r Portal */;
+VALUES (0x71C88005, 0x71C88006, '2019-02-10 00:00:00') /* Qalaba'r Portal (42833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C88006, 42833, 0x1C880036, 163.0366, 128.3768, 144.6961, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Qalaba'r Portal */

@@ -5,17 +5,17 @@ VALUES (0x7C6DD001,  1154, 0xC6DD003D, 175.8281, 109.5153, 0.005000114, -0.14490
 /* @teleloc 0xC6DD003D [175.828100 109.515300 0.005000] -0.144906 0.000000 0.000000 -0.989445 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6DD001, 0x7C6DD002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C6DD001, 0x7C6DD003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C6DD001, 0x7C6DD004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C6DD001, 0x7C6DD005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C6DD001, 0x7C6DD006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C6DD001, 0x7C6DD007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C6DD001, 0x7C6DD008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C6DD001, 0x7C6DD009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C6DD001, 0x7C6DD00A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C6DD001, 0x7C6DD00B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C6DD001, 0x7C6DD00C, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7C6DD001, 0x7C6DD002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C6DD001, 0x7C6DD003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C6DD001, 0x7C6DD004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C6DD001, 0x7C6DD005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C6DD001, 0x7C6DD006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C6DD001, 0x7C6DD007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C6DD001, 0x7C6DD008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C6DD001, 0x7C6DD009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C6DD001, 0x7C6DD00A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C6DD001, 0x7C6DD00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C6DD001, 0x7C6DD00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6DD002, 11526, 0xC6DD003D, 175.8281, 109.5153, 0.005000114, -0.1449062, 0, 0, -0.9894454,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

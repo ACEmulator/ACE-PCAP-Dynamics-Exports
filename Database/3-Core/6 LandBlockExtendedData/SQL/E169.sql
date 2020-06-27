@@ -5,11 +5,11 @@ VALUES (0x7E169001,  1154, 0xE1690015, 70.76486, 101.0388, 0.007499993, 0.972077
 /* @teleloc 0xE1690015 [70.764860 101.038800 0.007500] 0.972077 0.000000 0.000000 -0.234661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E169001, 0x7E169002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E169001, 0x7E169003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7E169001, 0x7E169004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E169001, 0x7E169005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E169001, 0x7E169006, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7E169001, 0x7E169002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E169001, 0x7E169003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7E169001, 0x7E169004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E169001, 0x7E169005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E169001, 0x7E169006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E169002,  1630, 0xE1690015, 70.76486, 101.0388, 0.007499993, 0.9720774, 0, 0, -0.2346605,  True, '2019-02-10 00:00:00'); /* Lich Lord */

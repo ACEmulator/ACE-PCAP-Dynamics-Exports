@@ -5,42 +5,42 @@ VALUES (0x71F85001,  1154, 0x1F850035, 160.3696, 101.3048, 120.01, 0.9629859, 0,
 /* @teleloc 0x1F850035 [160.369600 101.304800 120.010000] 0.962986 0.000000 0.000000 -0.269552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F85001, 0x71F85002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F85001, 0x71F85003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71F85001, 0x71F85004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71F85001, 0x71F85005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71F85001, 0x71F85006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71F85001, 0x71F85007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71F85001, 0x71F85008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71F85001, 0x71F85009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F85001, 0x71F8500A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F85001, 0x71F8500B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F85001, 0x71F8500C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F85001, 0x71F8500D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F85001, 0x71F8500E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F85001, 0x71F8500F, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F85001, 0x71F85010, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F85001, 0x71F85011, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F85001, 0x71F85012, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F85001, 0x71F85013, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71F85001, 0x71F85014, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x71F85001, 0x71F85015, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71F85001, 0x71F85016, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71F85001, 0x71F85017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F85001, 0x71F85018, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71F85001, 0x71F85019, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F85001, 0x71F8501A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71F85001, 0x71F8501B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71F85001, 0x71F8501C, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71F85001, 0x71F8501D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F85001, 0x71F8501E, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71F85001, 0x71F8501F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71F85001, 0x71F85020, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F85001, 0x71F85021, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F85001, 0x71F85022, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F85001, 0x71F85023, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F85001, 0x71F85024, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F85001, 0x71F85025, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x71F85001, 0x71F85002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F85001, 0x71F85003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71F85001, 0x71F85004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71F85001, 0x71F85005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71F85001, 0x71F85006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71F85001, 0x71F85007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71F85001, 0x71F85008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71F85001, 0x71F85009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F85001, 0x71F8500A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F85001, 0x71F8500B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F85001, 0x71F8500C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F85001, 0x71F8500D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F85001, 0x71F8500E, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F85001, 0x71F8500F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F85001, 0x71F85010, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F85001, 0x71F85011, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F85001, 0x71F85012, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F85001, 0x71F85013, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71F85001, 0x71F85014, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x71F85001, 0x71F85015, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71F85001, 0x71F85016, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71F85001, 0x71F85017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F85001, 0x71F85018, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71F85001, 0x71F85019, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F85001, 0x71F8501A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71F85001, 0x71F8501B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F85001, 0x71F8501C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71F85001, 0x71F8501D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F85001, 0x71F8501E, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71F85001, 0x71F8501F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71F85001, 0x71F85020, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F85001, 0x71F85021, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F85001, 0x71F85022, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F85001, 0x71F85023, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F85001, 0x71F85024, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F85001, 0x71F85025, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F85002, 24497, 0x1F850035, 160.3696, 101.3048, 120.01, 0.9629859, 0, 0, -0.2695519,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -191,8 +191,8 @@ VALUES (0x71F85026,  1542, 0x1F850023, 117.1597, 56.84083, 119.0266, 1, 0, 0, 0,
 /* @teleloc 0x1F850023 [117.159700 56.840830 119.026600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F85026, 0x71F85027, '2019-02-10 00:00:00') /* Bones */
-     , (0x71F85026, 0x71F85028, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71F85026, 0x71F85027, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71F85026, 0x71F85028, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F85027,  4380, 0x1F850023, 117.1597, 56.84083, 119.0266, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

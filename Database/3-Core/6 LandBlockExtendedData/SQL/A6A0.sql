@@ -5,13 +5,13 @@ VALUES (0x7A6A0001,  1154, 0xA6A00031, 148.8367, 13.02425, 110.5201, -0.9396693,
 /* @teleloc 0xA6A00031 [148.836700 13.024250 110.520100] -0.939669 0.000000 0.000000 0.342084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6A0001, 0x7A6A0002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A6A0001, 0x7A6A0003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A6A0001, 0x7A6A0004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A6A0001, 0x7A6A0005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7A6A0001, 0x7A6A0006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7A6A0001, 0x7A6A0007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A6A0001, 0x7A6A0008, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7A6A0001, 0x7A6A0002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A6A0001, 0x7A6A0003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A6A0001, 0x7A6A0004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A6A0001, 0x7A6A0005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7A6A0001, 0x7A6A0006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7A6A0001, 0x7A6A0007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A6A0001, 0x7A6A0008, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6A0002,   181, 0xA6A00031, 148.8367, 13.02425, 110.5201, -0.9396693, 0, 0, 0.3420841,  True, '2019-02-10 00:00:00'); /* Auroch Cow */
@@ -46,12 +46,12 @@ VALUES (0x7A6A0009,  1542, 0xA6A0003C, 171.8424, 87.71734, 108.9959, 0.6527212, 
 /* @teleloc 0xA6A0003C [171.842400 87.717340 108.995900] 0.652721 0.000000 0.000000 -0.757598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6A0009, 0x7A6A000A, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A6A0009, 0x7A6A000B, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A6A0009, 0x7A6A000C, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A6A0009, 0x7A6A000D, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A6A0009, 0x7A6A000E, '2019-02-10 00:00:00') /* Cow */
-     , (0x7A6A0009, 0x7A6A000F, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7A6A0009, 0x7A6A000A, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A6A0009, 0x7A6A000B, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A6A0009, 0x7A6A000C, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A6A0009, 0x7A6A000D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A6A0009, 0x7A6A000E, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7A6A0009, 0x7A6A000F, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6A000A,    14, 0xA6A0003C, 171.8424, 87.71734, 108.9959, 0.6527212, 0, 0, -0.7575982,  True, '2019-02-10 00:00:00'); /* Cow */

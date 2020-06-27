@@ -5,15 +5,15 @@ VALUES (0x7D559001,  1154, 0xD559002E, 138.5368, 124.4034, 24.37195, 0.8094973, 
 /* @teleloc 0xD559002E [138.536800 124.403400 24.371950] 0.809497 0.000000 0.000000 -0.587124 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D559001, 0x7D559002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D559001, 0x7D559003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D559001, 0x7D559004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D559001, 0x7D559005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D559001, 0x7D559006, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D559001, 0x7D559007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D559001, 0x7D559008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D559001, 0x7D559009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D559001, 0x7D55900A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7D559001, 0x7D559002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D559001, 0x7D559003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D559001, 0x7D559004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D559001, 0x7D559005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D559001, 0x7D559006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D559001, 0x7D559007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D559001, 0x7D559008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D559001, 0x7D559009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D559001, 0x7D55900A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D559002,   232, 0xD559002E, 138.5368, 124.4034, 24.37195, 0.8094973, 0, 0, -0.5871236,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

@@ -5,10 +5,10 @@ VALUES (0x7D785001,  1154, 0xD7850011, 70.90082, 21.51668, 18.30619, 0.8222616, 
 /* @teleloc 0xD7850011 [70.900820 21.516680 18.306190] 0.822262 0.000000 0.000000 -0.569110 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D785001, 0x7D785002, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7D785001, 0x7D785003, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7D785001, 0x7D785004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7D785001, 0x7D785005, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7D785001, 0x7D785002, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7D785001, 0x7D785003, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7D785001, 0x7D785004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7D785001, 0x7D785005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D785002,  1605, 0xD7850011, 70.90082, 21.51668, 18.30619, 0.8222616, 0, 0, -0.5691098,  True, '2019-02-10 00:00:00'); /* Auroch Fire Yearling */

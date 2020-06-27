@@ -5,13 +5,13 @@ VALUES (0x719C6001,  1154, 0x19C60004, 11.75587, 88.74991, -0.4474001, -0.925384
 /* @teleloc 0x19C60004 [11.755870 88.749910 -0.447400] -0.925384 0.000000 0.000000 -0.379031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C6001, 0x719C6002, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x719C6001, 0x719C6003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x719C6001, 0x719C6004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x719C6001, 0x719C6005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x719C6001, 0x719C6006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x719C6001, 0x719C6007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x719C6001, 0x719C6008, '2019-02-10 00:00:00') /* Brass Gromnie */;
+VALUES (0x719C6001, 0x719C6002, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x719C6001, 0x719C6003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x719C6001, 0x719C6004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x719C6001, 0x719C6005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x719C6001, 0x719C6006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x719C6001, 0x719C6007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x719C6001, 0x719C6008, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C6002, 27716, 0x19C60004, 11.75587, 88.74991, -0.4474001, -0.925384, 0, 0, -0.3790309,  True, '2019-02-10 00:00:00'); /* Raging Ursuin */

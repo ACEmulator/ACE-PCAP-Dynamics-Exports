@@ -5,13 +5,13 @@ VALUES (0x71E64001,  1154, 0x1E640024, 117.4274, 78.2711, 62.74693, 0.9857818, 0
 /* @teleloc 0x1E640024 [117.427400 78.271100 62.746930] 0.985782 0.000000 0.000000 -0.168031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E64001, 0x71E64002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71E64001, 0x71E64003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x71E64001, 0x71E64004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71E64001, 0x71E64005, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x71E64001, 0x71E64006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x71E64001, 0x71E64007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x71E64001, 0x71E64008, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x71E64001, 0x71E64002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71E64001, 0x71E64003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x71E64001, 0x71E64004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71E64001, 0x71E64005, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x71E64001, 0x71E64006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x71E64001, 0x71E64007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x71E64001, 0x71E64008, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E64002, 23617, 0x1E640024, 117.4274, 78.2711, 62.74693, 0.9857818, 0, 0, -0.1680305,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

@@ -5,14 +5,14 @@ VALUES (0x7BED9001,  1154, 0xBED90033, 152.9532, 61.88589, 80.7511, -0.9941301, 
 /* @teleloc 0xBED90033 [152.953200 61.885890 80.751100] -0.994130 0.000000 0.000000 -0.108191 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED9001, 0x7BED9002, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BED9001, 0x7BED9003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BED9001, 0x7BED9004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BED9001, 0x7BED9005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BED9001, 0x7BED9006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED9001, 0x7BED9007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BED9001, 0x7BED9008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BED9001, 0x7BED9009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7BED9001, 0x7BED9002, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BED9001, 0x7BED9003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BED9001, 0x7BED9004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BED9001, 0x7BED9005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BED9001, 0x7BED9006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED9001, 0x7BED9007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BED9001, 0x7BED9008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BED9001, 0x7BED9009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED9002, 11527, 0xBED90033, 152.9532, 61.88589, 80.7511, -0.9941301, 0, 0, -0.1081907,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */
@@ -51,10 +51,10 @@ VALUES (0x7BED900A,  1542, 0xBED90038, 146.0451, 190.8224, 77.48872, 1, 0, 0, 0,
 /* @teleloc 0xBED90038 [146.045100 190.822400 77.488720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED900A, 0x7BED900B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BED900A, 0x7BED900C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BED900A, 0x7BED900D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BED900A, 0x7BED900E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BED900A, 0x7BED900B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BED900A, 0x7BED900C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BED900A, 0x7BED900D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BED900A, 0x7BED900E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED900B, 22567, 0xBED90038, 146.0451, 190.8224, 77.48872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

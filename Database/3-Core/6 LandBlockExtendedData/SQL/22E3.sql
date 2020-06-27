@@ -9,21 +9,21 @@ VALUES (0x722E3001,  1154, 0x22E30040, 191.243, 191.221, 79.93508, 0.921268, 0, 
 /* @teleloc 0x22E30040 [191.243000 191.221000 79.935080] 0.921268 0.000000 0.000000 -0.388929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E3001, 0x722E3002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x722E3001, 0x722E3003, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x722E3001, 0x722E3004, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x722E3001, 0x722E3005, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x722E3001, 0x722E3006, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x722E3001, 0x722E3007, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x722E3001, 0x722E3008, '2019-02-10 00:00:00') /* Grizzled Monouga */
-     , (0x722E3001, 0x722E3009, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x722E3001, 0x722E300A, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x722E3001, 0x722E300B, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x722E3001, 0x722E300C, '2019-02-10 00:00:00') /* Thrungus */
-     , (0x722E3001, 0x722E300D, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x722E3001, 0x722E300E, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x722E3001, 0x722E300F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x722E3001, 0x722E3010, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x722E3001, 0x722E3002, '2019-02-10 00:00:00') /* Exploration Marker (39825) */
+     , (0x722E3001, 0x722E3003, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x722E3001, 0x722E3004, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x722E3001, 0x722E3005, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x722E3001, 0x722E3006, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x722E3001, 0x722E3007, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x722E3001, 0x722E3008, '2019-02-10 00:00:00') /* Grizzled Monouga (28555) */
+     , (0x722E3001, 0x722E3009, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x722E3001, 0x722E300A, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x722E3001, 0x722E300B, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x722E3001, 0x722E300C, '2019-02-10 00:00:00') /* Thrungus (28677) */
+     , (0x722E3001, 0x722E300D, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x722E3001, 0x722E300E, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x722E3001, 0x722E300F, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x722E3001, 0x722E3010, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E3002, 39825, 0x22E30040, 191.243, 191.221, 79.93508, 0.921268, 0, 0, -0.388929,  True, '2019-02-10 00:00:00'); /* Exploration Marker */

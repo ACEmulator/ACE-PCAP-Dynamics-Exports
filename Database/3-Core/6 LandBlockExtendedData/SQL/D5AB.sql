@@ -5,20 +5,20 @@ VALUES (0x7D5AB001,  1154, 0xD5AB001C, 77.54666, 74.03405, 12.11482, -0.2092869,
 /* @teleloc 0xD5AB001C [77.546660 74.034050 12.114820] -0.209287 0.000000 0.000000 -0.977854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5AB001, 0x7D5AB002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D5AB001, 0x7D5AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D5AB001, 0x7D5AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D5AB001, 0x7D5AB005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D5AB001, 0x7D5AB006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D5AB001, 0x7D5AB007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D5AB001, 0x7D5AB008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D5AB001, 0x7D5AB009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D5AB001, 0x7D5AB00A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D5AB001, 0x7D5AB00B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D5AB001, 0x7D5AB00C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D5AB001, 0x7D5AB00D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D5AB001, 0x7D5AB00E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D5AB001, 0x7D5AB00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7D5AB001, 0x7D5AB002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D5AB001, 0x7D5AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D5AB001, 0x7D5AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D5AB001, 0x7D5AB005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D5AB001, 0x7D5AB006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D5AB001, 0x7D5AB007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D5AB001, 0x7D5AB008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D5AB001, 0x7D5AB009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D5AB001, 0x7D5AB00A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D5AB001, 0x7D5AB00B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D5AB001, 0x7D5AB00C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D5AB001, 0x7D5AB00D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D5AB001, 0x7D5AB00E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D5AB001, 0x7D5AB00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5AB002, 11531, 0xD5AB001C, 77.54666, 74.03405, 12.11482, -0.2092869, 0, 0, -0.9778543,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -81,8 +81,8 @@ VALUES (0x7D5AB010,  1542, 0xD5AB0023, 102.0729, 64.37033, 10.74697, 1, 0, 0, 0,
 /* @teleloc 0xD5AB0023 [102.072900 64.370330 10.746970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5AB010, 0x7D5AB011, '2019-02-10 00:00:00') /* Idol */
-     , (0x7D5AB010, 0x7D5AB012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D5AB010, 0x7D5AB011, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7D5AB010, 0x7D5AB012, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5AB011,  8588, 0xD5AB0023, 102.0729, 64.37033, 10.74697, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,22 +5,22 @@ VALUES (0x7C71F001,  1154, 0xC71F0030, 121.567, 170.6078, 144.1419, 0.4782568, 0
 /* @teleloc 0xC71F0030 [121.567000 170.607800 144.141900] 0.478257 0.000000 0.000000 -0.878220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C71F001, 0x7C71F002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C71F001, 0x7C71F003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C71F001, 0x7C71F004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C71F001, 0x7C71F005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C71F001, 0x7C71F006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C71F001, 0x7C71F007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C71F001, 0x7C71F008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C71F001, 0x7C71F009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7C71F001, 0x7C71F00A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C71F001, 0x7C71F00B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C71F001, 0x7C71F00C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C71F001, 0x7C71F00D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C71F001, 0x7C71F00E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C71F001, 0x7C71F00F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C71F001, 0x7C71F010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C71F001, 0x7C71F011, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7C71F001, 0x7C71F002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C71F001, 0x7C71F003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C71F001, 0x7C71F004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C71F001, 0x7C71F005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C71F001, 0x7C71F006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C71F001, 0x7C71F007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C71F001, 0x7C71F008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C71F001, 0x7C71F009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7C71F001, 0x7C71F00A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C71F001, 0x7C71F00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C71F001, 0x7C71F00C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C71F001, 0x7C71F00D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C71F001, 0x7C71F00E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C71F001, 0x7C71F00F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C71F001, 0x7C71F010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C71F001, 0x7C71F011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C71F002,  7105, 0xC71F0030, 121.567, 170.6078, 144.1419, 0.4782568, 0, 0, -0.87822,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

@@ -21,28 +21,28 @@ VALUES (0x7BE80007,  1154, 0xBE80002F, 136.4388, 167.364, 46.58079, -0.7787989, 
 /* @teleloc 0xBE80002F [136.438800 167.364000 46.580790] -0.778799 0.000000 0.000000 -0.627274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE80007, 0x7BE80008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8000A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE80007, 0x7BE8000B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BE80007, 0x7BE8000C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8000D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BE80007, 0x7BE8000E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8000F, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BE80007, 0x7BE80010, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80011, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80012, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BE80007, 0x7BE80013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80014, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BE80007, 0x7BE80016, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BE80007, 0x7BE80017, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80018, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE80019, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BE80007, 0x7BE8001A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8001B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8001C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BE80007, 0x7BE8001D, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7BE80007, 0x7BE80008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8000A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE80007, 0x7BE8000B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BE80007, 0x7BE8000C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8000D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BE80007, 0x7BE8000E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8000F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BE80007, 0x7BE80010, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80012, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BE80007, 0x7BE80013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80014, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BE80007, 0x7BE80016, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BE80007, 0x7BE80017, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80018, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE80019, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BE80007, 0x7BE8001A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8001B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8001C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BE80007, 0x7BE8001D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE80008,  2566, 0xBE80002F, 136.4388, 167.364, 46.58079, -0.7787989, 0, 0, -0.6272737,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -137,17 +137,17 @@ VALUES (0x7BE8001E,  1154, 0xBE80010A, 137.325, 35.1687, 30.005, -0.708803, 0, 0
 /* @teleloc 0xBE80010A [137.325000 35.168700 30.005000] -0.708803 0.000000 0.000000 -0.705406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE8001E, 0x7BE8001F, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x7BE8001E, 0x7BE80020, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80021, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80022, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80023, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80024, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80025, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80026, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80027, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80028, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BE8001E, 0x7BE80029, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7BE8001E, 0x7BE8001F, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7BE8001E, 0x7BE80020, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80021, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80022, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80023, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80024, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80025, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80026, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80027, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80028, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7BE8001E, 0x7BE80029, '2019-02-10 00:00:00') /* Town Crier (5773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE8001F, 12050, 0xBE80010A, 137.325, 35.1687, 30.005, -0.708803, 0, 0, -0.705406,  True, '2019-02-10 00:00:00'); /* Agent of the Arcanum */
@@ -198,7 +198,7 @@ VALUES (0x7BE8002A,  1542, 0xBE800030, 120.599, 181.1283, 45.24854, 0.8233526, 0
 /* @teleloc 0xBE800030 [120.599000 181.128300 45.248540] 0.823353 0.000000 0.000000 0.567530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE8002A, 0x7BE8002B, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7BE8002A, 0x7BE8002B, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE8002B,   546, 0xBE800030, 120.599, 181.1283, 45.24854, 0.8233526, 0, 0, 0.5675302,  True, '2019-02-10 00:00:00'); /* Egg */

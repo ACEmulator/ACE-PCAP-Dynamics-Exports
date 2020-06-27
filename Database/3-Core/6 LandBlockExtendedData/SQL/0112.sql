@@ -37,18 +37,18 @@ VALUES (0x70112027,  1154, 0x011201A2, 57.3237, -157.375, -11.99, -0.4590812, 0,
 /* @teleloc 0x011201A2 [57.323700 -157.375000 -11.990000] -0.459081 0.000000 0.000000 0.888394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70112027, 0x70112028, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x70112027, 0x70112029, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x70112027, 0x7011202A, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x70112027, 0x7011202B, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x70112027, 0x7011202C, '2019-02-10 00:00:00') /* Turbid Nephol Golem */
-     , (0x70112027, 0x7011202D, '2019-02-10 00:00:00') /* Turbid Nephol Golem */
-     , (0x70112027, 0x7011202E, '2019-02-10 00:00:00') /* Turbid Nephol Golem */
-     , (0x70112027, 0x7011202F, '2019-02-10 00:00:00') /* Turbid Nephol Golem */
-     , (0x70112027, 0x70112030, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x70112027, 0x70112031, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x70112027, 0x70112032, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x70112027, 0x70112033, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */;
+VALUES (0x70112027, 0x70112028, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x70112027, 0x70112029, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x70112027, 0x7011202A, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9052) */
+     , (0x70112027, 0x7011202B, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x70112027, 0x7011202C, '2019-02-10 00:00:00') /* Turbid Nephol Golem (9051) */
+     , (0x70112027, 0x7011202D, '2019-02-10 00:00:00') /* Turbid Nephol Golem (9050) */
+     , (0x70112027, 0x7011202E, '2019-02-10 00:00:00') /* Turbid Nephol Golem (9051) */
+     , (0x70112027, 0x7011202F, '2019-02-10 00:00:00') /* Turbid Nephol Golem (9051) */
+     , (0x70112027, 0x70112030, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x70112027, 0x70112031, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9054) */
+     , (0x70112027, 0x70112032, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x70112027, 0x70112033, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70112028,  9053, 0x011201A2, 57.3237, -157.375, -11.99, -0.4590812, 0, 0, 0.8883944,  True, '2019-02-10 00:00:00'); /* Tenuous Nephol Golem */

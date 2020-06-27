@@ -5,14 +5,14 @@ VALUES (0x73F6C001,  1154, 0x3F6C0031, 166.2204, 22.42072, 5.760979, 0.9449245, 
 /* @teleloc 0x3F6C0031 [166.220400 22.420720 5.760979] 0.944925 0.000000 0.000000 -0.327288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F6C001, 0x73F6C002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73F6C001, 0x73F6C003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F6C001, 0x73F6C004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73F6C001, 0x73F6C005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73F6C001, 0x73F6C006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73F6C001, 0x73F6C007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F6C001, 0x73F6C008, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73F6C001, 0x73F6C009, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x73F6C001, 0x73F6C002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73F6C001, 0x73F6C003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F6C001, 0x73F6C004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73F6C001, 0x73F6C005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73F6C001, 0x73F6C006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73F6C001, 0x73F6C007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F6C001, 0x73F6C008, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73F6C001, 0x73F6C009, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F6C002, 41534, 0x3F6C0031, 166.2204, 22.42072, 5.760979, 0.9449245, 0, 0, -0.3272883,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */

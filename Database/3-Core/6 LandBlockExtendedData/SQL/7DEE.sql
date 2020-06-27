@@ -9,38 +9,38 @@ VALUES (0x77DEE024,  1154, 0x7DEE0102, 82.0484, 132.207, 156.0065, 0.369452, 0, 
 /* @teleloc 0x7DEE0102 [82.048400 132.207000 156.006500] 0.369452 0.000000 0.000000 0.929250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DEE024, 0x77DEE025, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE026, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE027, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE028, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE029, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE02A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77DEE024, 0x77DEE02B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE02C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77DEE024, 0x77DEE02D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77DEE024, 0x77DEE02E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77DEE024, 0x77DEE02F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77DEE024, 0x77DEE030, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77DEE024, 0x77DEE031, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE032, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE033, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE034, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE035, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE036, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE037, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE038, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x77DEE024, 0x77DEE039, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x77DEE024, 0x77DEE03A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77DEE024, 0x77DEE03B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77DEE024, 0x77DEE03C, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE03D, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DEE024, 0x77DEE03E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DEE024, 0x77DEE03F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DEE024, 0x77DEE040, '2019-02-10 00:00:00') /* Gelid */
-     , (0x77DEE024, 0x77DEE041, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DEE024, 0x77DEE042, '2019-02-10 00:00:00') /* Frost */
-     , (0x77DEE024, 0x77DEE043, '2019-02-10 00:00:00') /* Frost */
-     , (0x77DEE024, 0x77DEE044, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x77DEE024, 0x77DEE025, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE026, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE027, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE028, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE029, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE02A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77DEE024, 0x77DEE02B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE02C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x77DEE024, 0x77DEE02D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77DEE024, 0x77DEE02E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE024, 0x77DEE02F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE024, 0x77DEE030, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE024, 0x77DEE031, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE032, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE033, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE034, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE035, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE036, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE037, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE038, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x77DEE024, 0x77DEE039, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x77DEE024, 0x77DEE03A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE024, 0x77DEE03B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE024, 0x77DEE03C, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE03D, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE024, 0x77DEE03E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DEE024, 0x77DEE03F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DEE024, 0x77DEE040, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x77DEE024, 0x77DEE041, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DEE024, 0x77DEE042, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x77DEE024, 0x77DEE043, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x77DEE024, 0x77DEE044, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DEE025, 21550, 0x7DEE0102, 82.0484, 132.207, 156.0065, 0.369452, 0, 0, 0.92925,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */

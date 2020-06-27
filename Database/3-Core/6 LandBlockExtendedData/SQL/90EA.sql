@@ -5,23 +5,23 @@ VALUES (0x790EA001,  1154, 0x90EA002A, 120.5421, 37.84525, 38.79355, -4.371139E-
 /* @teleloc 0x90EA002A [120.542100 37.845250 38.793550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790EA001, 0x790EA002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x790EA001, 0x790EA003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x790EA001, 0x790EA004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x790EA001, 0x790EA005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x790EA001, 0x790EA006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x790EA001, 0x790EA007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x790EA001, 0x790EA008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x790EA001, 0x790EA009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x790EA001, 0x790EA00A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x790EA001, 0x790EA00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x790EA001, 0x790EA00C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x790EA001, 0x790EA00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x790EA001, 0x790EA00E, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x790EA001, 0x790EA00F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790EA001, 0x790EA010, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790EA001, 0x790EA011, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790EA001, 0x790EA012, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x790EA001, 0x790EA002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x790EA001, 0x790EA003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x790EA001, 0x790EA004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x790EA001, 0x790EA005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x790EA001, 0x790EA006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x790EA001, 0x790EA007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x790EA001, 0x790EA008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x790EA001, 0x790EA009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x790EA001, 0x790EA00A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x790EA001, 0x790EA00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x790EA001, 0x790EA00C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x790EA001, 0x790EA00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x790EA001, 0x790EA00E, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x790EA001, 0x790EA00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790EA001, 0x790EA010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790EA001, 0x790EA011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790EA001, 0x790EA012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790EA002, 24293, 0x90EA002A, 120.5421, 37.84525, 38.79355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -96,7 +96,7 @@ VALUES (0x790EA013,  1542, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0
 /* @teleloc 0x90EA0022 [117.447200 34.950200 39.300220] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790EA013, 0x790EA014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x790EA013, 0x790EA014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790EA014,  4179, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

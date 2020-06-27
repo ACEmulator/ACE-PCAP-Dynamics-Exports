@@ -5,16 +5,16 @@ VALUES (0x7323C001,  1154, 0x323C000A, 33.80061, 41.81427, 185.7238, 0.4506178, 
 /* @teleloc 0x323C000A [33.800610 41.814270 185.723800] 0.450618 0.000000 0.000000 -0.892717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7323C001, 0x7323C002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7323C001, 0x7323C003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7323C001, 0x7323C004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7323C001, 0x7323C005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323C001, 0x7323C006, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7323C001, 0x7323C007, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7323C001, 0x7323C008, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7323C001, 0x7323C009, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7323C001, 0x7323C00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7323C001, 0x7323C00B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7323C001, 0x7323C002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7323C001, 0x7323C003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7323C001, 0x7323C004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7323C001, 0x7323C005, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7323C001, 0x7323C006, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7323C001, 0x7323C007, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7323C001, 0x7323C008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7323C001, 0x7323C009, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7323C001, 0x7323C00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7323C001, 0x7323C00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323C002, 24133, 0x323C000A, 33.80061, 41.81427, 185.7238, 0.4506178, 0, 0, -0.892717,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

@@ -5,10 +5,10 @@ VALUES (0x7C25B001,  1154, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 
 /* @teleloc 0xC25B0100 [29.963630 29.617920 6.406600] 0.998686 0.000000 0.000000 0.051247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C25B001, 0x7C25B002, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7C25B001, 0x7C25B003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C25B001, 0x7C25B004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C25B001, 0x7C25B005, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C25B001, 0x7C25B002, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7C25B001, 0x7C25B003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C25B001, 0x7C25B004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C25B001, 0x7C25B005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C25B002,   210, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 0, 0.0512473,  True, '2019-02-10 00:00:00'); /* Mosswart Chief */
@@ -31,11 +31,11 @@ VALUES (0x7C25B006,  1542, 0xC25B0100, 30.20804, 28.94357, 6.3975, 0.828915, 0, 
 /* @teleloc 0xC25B0100 [30.208040 28.943570 6.397500] 0.828915 0.000000 0.000000 0.559374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C25B006, 0x7C25B007, '2019-02-10 00:00:00') /* Tower Shield */
-     , (0x7C25B006, 0x7C25B008, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x7C25B006, 0x7C25B009, '2019-02-10 00:00:00') /* Buckler */
-     , (0x7C25B006, 0x7C25B00A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7C25B006, 0x7C25B00B, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7C25B006, 0x7C25B007, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x7C25B006, 0x7C25B008, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x7C25B006, 0x7C25B009, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x7C25B006, 0x7C25B00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7C25B006, 0x7C25B00B, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C25B007,    95, 0xC25B0100, 30.20804, 28.94357, 6.3975, 0.828915, 0, 0, 0.559374,  True, '2019-02-10 00:00:00'); /* Tower Shield */

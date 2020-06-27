@@ -5,12 +5,12 @@ VALUES (0x79A64001,  1154, 0x9A64000C, 39.03207, 73.97621, 19.34376, -0.916575, 
 /* @teleloc 0x9A64000C [39.032070 73.976210 19.343760] -0.916575 0.000000 0.000000 -0.399863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A64001, 0x79A64002, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x79A64001, 0x79A64003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79A64001, 0x79A64004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79A64001, 0x79A64005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79A64001, 0x79A64006, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x79A64001, 0x79A64007, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x79A64001, 0x79A64002, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x79A64001, 0x79A64003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79A64001, 0x79A64004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79A64001, 0x79A64005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79A64001, 0x79A64006, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x79A64001, 0x79A64007, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A64002,  5682, 0x9A64000C, 39.03207, 73.97621, 19.34376, -0.916575, 0, 0, -0.399863,  True, '2019-02-10 00:00:00'); /* Charred Skeleton */
@@ -41,9 +41,9 @@ VALUES (0x79A64008,  1542, 0x9A64000B, 43.16996, 55.32749, 22.77875, 1, 0, 0, 0,
 /* @teleloc 0x9A64000B [43.169960 55.327490 22.778750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A64008, 0x79A64009, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79A64008, 0x79A6400A, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x79A64008, 0x79A6400B, '2019-02-10 00:00:00') /* Amulet */;
+VALUES (0x79A64008, 0x79A64009, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x79A64008, 0x79A6400A, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x79A64008, 0x79A6400B, '2019-02-10 00:00:00') /* Amulet (294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A64009,  4381, 0x9A64000B, 43.16996, 55.32749, 22.77875, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

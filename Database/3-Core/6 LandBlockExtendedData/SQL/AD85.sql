@@ -5,23 +5,23 @@ VALUES (0x7AD85001,  1154, 0xAD85002D, 132.5874, 116.0665, 30.8236, 0.1736482, 0
 /* @teleloc 0xAD85002D [132.587400 116.066500 30.823600] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD85001, 0x7AD85002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AD85001, 0x7AD85003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AD85001, 0x7AD85004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AD85001, 0x7AD85005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AD85001, 0x7AD85006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AD85001, 0x7AD85007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AD85001, 0x7AD85008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD85001, 0x7AD85009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD85001, 0x7AD8500A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD85001, 0x7AD8500B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD85001, 0x7AD8500C, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD85001, 0x7AD8500D, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD85001, 0x7AD8500E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD85001, 0x7AD8500F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD85001, 0x7AD85010, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AD85001, 0x7AD85011, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AD85001, 0x7AD85012, '2019-02-10 00:00:00') /* Auroch Fire Cow */;
+VALUES (0x7AD85001, 0x7AD85002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AD85001, 0x7AD85003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AD85001, 0x7AD85004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AD85001, 0x7AD85005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AD85001, 0x7AD85006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AD85001, 0x7AD85007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AD85001, 0x7AD85008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AD85001, 0x7AD85009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD85001, 0x7AD8500A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AD85001, 0x7AD8500B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD85001, 0x7AD8500C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD85001, 0x7AD8500D, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD85001, 0x7AD8500E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD85001, 0x7AD8500F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD85001, 0x7AD85010, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AD85001, 0x7AD85011, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AD85001, 0x7AD85012, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD85002,  1609, 0xAD85002D, 132.5874, 116.0665, 30.8236, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -96,9 +96,9 @@ VALUES (0x7AD85013,  1542, 0xAD85002D, 131.2368, 113.8103, 30.29338, 1, 0, 0, 0,
 /* @teleloc 0xAD85002D [131.236800 113.810300 30.293380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD85013, 0x7AD85014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AD85013, 0x7AD85015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7AD85013, 0x7AD85016, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7AD85013, 0x7AD85014, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7AD85013, 0x7AD85015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7AD85013, 0x7AD85016, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD85014, 22570, 0xAD85002D, 131.2368, 113.8103, 30.29338, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

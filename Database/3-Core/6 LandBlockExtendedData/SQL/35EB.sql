@@ -5,17 +5,17 @@ VALUES (0x735EB001,  1154, 0x35EB0039, 183.6504, 19.16468, 19.695, -0.5400445, 0
 /* @teleloc 0x35EB0039 [183.650400 19.164680 19.695000] -0.540045 0.000000 0.000000 -0.841636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735EB001, 0x735EB002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735EB001, 0x735EB003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735EB001, 0x735EB004, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x735EB001, 0x735EB005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x735EB001, 0x735EB006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735EB001, 0x735EB007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735EB001, 0x735EB008, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735EB001, 0x735EB009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x735EB001, 0x735EB00A, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x735EB001, 0x735EB00B, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x735EB001, 0x735EB00C, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x735EB001, 0x735EB002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735EB001, 0x735EB003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x735EB001, 0x735EB004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x735EB001, 0x735EB005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x735EB001, 0x735EB006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735EB001, 0x735EB007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735EB001, 0x735EB008, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x735EB001, 0x735EB009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x735EB001, 0x735EB00A, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x735EB001, 0x735EB00B, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x735EB001, 0x735EB00C, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EB002, 23616, 0x35EB0039, 183.6504, 19.16468, 19.695, -0.5400445, 0, 0, -0.8416364,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

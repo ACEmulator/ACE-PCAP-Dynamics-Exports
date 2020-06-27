@@ -5,13 +5,13 @@ VALUES (0x79EC1001,  1154, 0x9EC1003E, 169.8567, 131.9353, 27.1064, -0.7071068, 
 /* @teleloc 0x9EC1003E [169.856700 131.935300 27.106400] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EC1001, 0x79EC1002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x79EC1001, 0x79EC1003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x79EC1001, 0x79EC1004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x79EC1001, 0x79EC1005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x79EC1001, 0x79EC1006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79EC1001, 0x79EC1007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79EC1001, 0x79EC1008, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x79EC1001, 0x79EC1002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x79EC1001, 0x79EC1003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x79EC1001, 0x79EC1004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x79EC1001, 0x79EC1005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x79EC1001, 0x79EC1006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79EC1001, 0x79EC1007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79EC1001, 0x79EC1008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EC1002,  7180, 0x9EC1003E, 169.8567, 131.9353, 27.1064, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -46,7 +46,7 @@ VALUES (0x79EC1009,  1542, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, 
 /* @teleloc 0x9EC10036 [165.780300 131.316600 28.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EC1009, 0x79EC100A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79EC1009, 0x79EC100A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EC100A,  4179, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

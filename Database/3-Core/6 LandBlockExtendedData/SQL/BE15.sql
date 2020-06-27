@@ -5,48 +5,48 @@ VALUES (0x7BE15001,  1154, 0xBE150002, 14.60773, 39.53359, 13.90769, 0.7771459, 
 /* @teleloc 0xBE150002 [14.607730 39.533590 13.907690] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE15001, 0x7BE15002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BE15001, 0x7BE15003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BE15001, 0x7BE15004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BE15001, 0x7BE15005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE15001, 0x7BE15006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE15001, 0x7BE15007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE15001, 0x7BE15008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BE15001, 0x7BE15009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE15001, 0x7BE1500A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE15001, 0x7BE1500B, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE1500C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE1500D, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE1500E, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BE15001, 0x7BE1500F, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BE15001, 0x7BE15010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BE15001, 0x7BE15011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE15001, 0x7BE15012, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BE15001, 0x7BE15013, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BE15001, 0x7BE15014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE15001, 0x7BE15015, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BE15001, 0x7BE15016, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BE15001, 0x7BE15017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BE15001, 0x7BE15018, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BE15001, 0x7BE15019, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BE15001, 0x7BE1501A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BE15001, 0x7BE1501B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BE15001, 0x7BE1501C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BE15001, 0x7BE1501D, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BE15001, 0x7BE1501E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE15001, 0x7BE1501F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE15001, 0x7BE15020, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE15001, 0x7BE15021, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE15001, 0x7BE15022, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE15001, 0x7BE15023, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE15001, 0x7BE15024, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BE15001, 0x7BE15025, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE15001, 0x7BE15026, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BE15001, 0x7BE15027, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE15028, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE15029, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE15001, 0x7BE1502A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE15001, 0x7BE1502B, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7BE15001, 0x7BE15002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BE15001, 0x7BE15003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BE15001, 0x7BE15004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BE15001, 0x7BE15005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE15001, 0x7BE15006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE15001, 0x7BE15007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE15001, 0x7BE15008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BE15001, 0x7BE15009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE15001, 0x7BE1500A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE15001, 0x7BE1500B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE1500C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE1500D, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE1500E, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BE15001, 0x7BE1500F, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BE15001, 0x7BE15010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BE15001, 0x7BE15011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE15001, 0x7BE15012, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BE15001, 0x7BE15013, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BE15001, 0x7BE15014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE15001, 0x7BE15015, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BE15001, 0x7BE15016, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BE15001, 0x7BE15017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BE15001, 0x7BE15018, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BE15001, 0x7BE15019, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BE15001, 0x7BE1501A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BE15001, 0x7BE1501B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BE15001, 0x7BE1501C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BE15001, 0x7BE1501D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BE15001, 0x7BE1501E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE15001, 0x7BE1501F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE15001, 0x7BE15020, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE15001, 0x7BE15021, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE15001, 0x7BE15022, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE15001, 0x7BE15023, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE15001, 0x7BE15024, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BE15001, 0x7BE15025, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE15001, 0x7BE15026, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BE15001, 0x7BE15027, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE15028, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE15029, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE15001, 0x7BE1502A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE15001, 0x7BE1502B, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE15002, 37100, 0xBE150002, 14.60773, 39.53359, 13.90769, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
@@ -221,11 +221,11 @@ VALUES (0x7BE1502C,  1542, 0xBE150006, 14.50478, 131.1225, 0, 0.2066222, 0, 0, -
 /* @teleloc 0xBE150006 [14.504780 131.122500 0.000000] 0.206622 0.000000 0.000000 -0.978421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE1502C, 0x7BE1502D, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7BE1502C, 0x7BE1502E, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7BE1502C, 0x7BE1502F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BE1502C, 0x7BE15030, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BE1502C, 0x7BE15031, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7BE1502C, 0x7BE1502D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7BE1502C, 0x7BE1502E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7BE1502C, 0x7BE1502F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BE1502C, 0x7BE15030, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BE1502C, 0x7BE15031, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE1502D,  8646, 0xBE150006, 14.50478, 131.1225, 0, 0.2066222, 0, 0, -0.9784208,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -29,87 +29,87 @@ VALUES (0x700BB054,  1154, 0x00BB0338, 110, -100, -6, 0.0207946, 0, 0, 0.999784,
 /* @teleloc 0x00BB0338 [110.000000 -100.000000 -6.000000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700BB054, 0x700BB055, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB05A, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x700BB054, 0x700BB05B, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x700BB054, 0x700BB05C, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x700BB054, 0x700BB05D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB05E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB05F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB060, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB061, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB062, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB063, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB064, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB065, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB066, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB067, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB068, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB069, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB06A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB06B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB06C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB06D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB06E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB06F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB070, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB071, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB072, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB073, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB074, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB075, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB076, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB077, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB078, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB079, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB07A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB07B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB07C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB07D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB07E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB07F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB080, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB081, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB082, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB083, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB084, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB085, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB086, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB087, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB088, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB089, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB08A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB08B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB08C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB08D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB08E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB08F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x700BB054, 0x700BB090, '2019-02-10 00:00:00') /* Tikchti */
-     , (0x700BB054, 0x700BB091, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x700BB054, 0x700BB092, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB093, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB094, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB095, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB096, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB097, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB098, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB099, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB09A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB09B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB09C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB09D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB09E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x700BB054, 0x700BB09F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x700BB054, 0x700BB0A0, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB0A1, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB0A2, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x700BB054, 0x700BB0A3, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x700BB054, 0x700BB0A4, '2019-02-10 00:00:00') /* Skith'Kirit */
-     , (0x700BB054, 0x700BB0A5, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */;
+VALUES (0x700BB054, 0x700BB055, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB05A, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700BB054, 0x700BB05B, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700BB054, 0x700BB05C, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700BB054, 0x700BB05D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB05E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB05F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB060, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB061, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB062, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB063, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB064, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB065, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB066, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB067, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB068, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB069, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB06A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB06B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB06C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB06D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB06E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB06F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB070, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB071, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB072, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB073, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB074, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB075, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB076, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB077, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB078, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB079, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB07A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB07B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB07C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB07D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB07E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB07F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB080, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB081, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB082, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB083, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB084, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB085, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB086, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB087, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB088, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB089, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB08A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB08B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB08C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB08D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB08E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB08F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */
+     , (0x700BB054, 0x700BB090, '2019-02-10 00:00:00') /* Tikchti (38385) */
+     , (0x700BB054, 0x700BB091, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */
+     , (0x700BB054, 0x700BB092, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB093, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB094, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB095, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB096, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB097, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB098, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB099, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB09A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB09B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB09C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB09D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB09E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38150) */
+     , (0x700BB054, 0x700BB09F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x700BB054, 0x700BB0A0, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB0A1, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB0A2, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
+     , (0x700BB054, 0x700BB0A3, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */
+     , (0x700BB054, 0x700BB0A4, '2019-02-10 00:00:00') /* Skith'Kirit (38386) */
+     , (0x700BB054, 0x700BB0A5, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700BB055, 38440, 0x00BB0338, 110, -100, -6, 0.0207946, 0, 0, 0.999784,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
@@ -440,11 +440,11 @@ VALUES (0x700BB0A6,  1542, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0, Fa
 /* @teleloc 0x00BB0271 [16.666000 -123.301000 -11.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700BB0A6, 0x700BB0A7, '2019-02-10 00:00:00') /* Armory Key */
-     , (0x700BB0A6, 0x700BB0A8, '2019-02-10 00:00:00') /* Vault Key */
-     , (0x700BB0A6, 0x700BB0A9, '2019-02-10 00:00:00') /* Skith'Kirit's Key */
-     , (0x700BB0A6, 0x700BB0AA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x700BB0A6, 0x700BB0AB, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700BB0A6, 0x700BB0A7, '2019-02-10 00:00:00') /* Armory Key (38382) */
+     , (0x700BB0A6, 0x700BB0A8, '2019-02-10 00:00:00') /* Vault Key (38383) */
+     , (0x700BB0A6, 0x700BB0A9, '2019-02-10 00:00:00') /* Skith'Kirit's Key (38381) */
+     , (0x700BB0A6, 0x700BB0AA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700BB0A6, 0x700BB0AB, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700BB0A7, 38382, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Armory Key */

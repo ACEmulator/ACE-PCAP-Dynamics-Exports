@@ -5,15 +5,15 @@ VALUES (0x757D6001,  1154, 0x57D60013, 55.01711, 60.22242, 82.04386, 0.781408, 0
 /* @teleloc 0x57D60013 [55.017110 60.222420 82.043860] 0.781408 0.000000 0.000000 -0.624021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757D6001, 0x757D6002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x757D6001, 0x757D6003, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x757D6001, 0x757D6004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x757D6001, 0x757D6005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x757D6001, 0x757D6006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x757D6001, 0x757D6007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x757D6001, 0x757D6008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x757D6001, 0x757D6009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x757D6001, 0x757D600A, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x757D6001, 0x757D6002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x757D6001, 0x757D6003, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x757D6001, 0x757D6004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x757D6001, 0x757D6005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x757D6001, 0x757D6006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x757D6001, 0x757D6007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x757D6001, 0x757D6008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x757D6001, 0x757D6009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x757D6001, 0x757D600A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757D6002, 28653, 0x57D60013, 55.01711, 60.22242, 82.04386, 0.781408, 0, 0, -0.6240205,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

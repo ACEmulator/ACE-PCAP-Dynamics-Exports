@@ -5,12 +5,12 @@ VALUES (0x7C87C001,  1154, 0xC87C0020, 88.96917, 180.976, 33.17531, 0.6170869, 0
 /* @teleloc 0xC87C0020 [88.969170 180.976000 33.175310] 0.617087 0.000000 0.000000 -0.786895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C87C001, 0x7C87C002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C87C001, 0x7C87C003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C87C001, 0x7C87C004, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C87C001, 0x7C87C005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C87C001, 0x7C87C006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C87C001, 0x7C87C007, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x7C87C001, 0x7C87C002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C87C001, 0x7C87C003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C87C001, 0x7C87C004, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C87C001, 0x7C87C005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C87C001, 0x7C87C006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C87C001, 0x7C87C007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C87C002,  1464, 0xC87C0020, 88.96917, 180.976, 33.17531, 0.6170869, 0, 0, -0.786895,  True, '2019-02-10 00:00:00'); /* Drudge Robber */

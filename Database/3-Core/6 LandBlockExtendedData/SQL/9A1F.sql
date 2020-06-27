@@ -5,16 +5,16 @@ VALUES (0x79A1F001,  1154, 0x9A1F000F, 43.25103, 150.3392, 114.951, -0.5517916, 
 /* @teleloc 0x9A1F000F [43.251030 150.339200 114.951000] -0.551792 0.000000 0.000000 -0.833982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A1F001, 0x79A1F002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1F001, 0x79A1F003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79A1F001, 0x79A1F004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79A1F001, 0x79A1F005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1F001, 0x79A1F006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A1F001, 0x79A1F007, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79A1F001, 0x79A1F008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79A1F001, 0x79A1F009, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79A1F001, 0x79A1F00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79A1F001, 0x79A1F00B, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x79A1F001, 0x79A1F002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1F001, 0x79A1F003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79A1F001, 0x79A1F004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79A1F001, 0x79A1F005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1F001, 0x79A1F006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A1F001, 0x79A1F007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79A1F001, 0x79A1F008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79A1F001, 0x79A1F009, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79A1F001, 0x79A1F00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79A1F001, 0x79A1F00B, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A1F002,  7123, 0x9A1F000F, 43.25103, 150.3392, 114.951, -0.5517916, 0, 0, -0.8339821,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -61,7 +61,7 @@ VALUES (0x79A1F00C,  1542, 0x9A1F0010, 35.65634, 189.1767, 110.178, 0.3188955, 0
 /* @teleloc 0x9A1F0010 [35.656340 189.176700 110.178000] 0.318896 0.000000 0.000000 -0.947790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A1F00C, 0x79A1F00D, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x79A1F00C, 0x79A1F00D, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A1F00D,  8039, 0x9A1F0010, 35.65634, 189.1767, 110.178, 0.3188955, 0, 0, -0.9477898,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

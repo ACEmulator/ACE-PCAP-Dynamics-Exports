@@ -5,11 +5,11 @@ VALUES (0x7B719001,  1154, 0xB7190032, 157.0446, 32.19943, 88.86238, -0.9899573,
 /* @teleloc 0xB7190032 [157.044600 32.199430 88.862380] -0.989957 0.000000 0.000000 -0.141367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B719001, 0x7B719002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B719001, 0x7B719003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B719001, 0x7B719004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B719001, 0x7B719005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B719001, 0x7B719006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B719001, 0x7B719002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B719001, 0x7B719003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B719001, 0x7B719004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B719001, 0x7B719005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B719001, 0x7B719006, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B719002,  4253, 0xB7190032, 157.0446, 32.19943, 88.86238, -0.9899573, 0, 0, -0.1413667,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

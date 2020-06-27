@@ -5,11 +5,11 @@ VALUES (0x7C99E001,  1154, 0xC99E0008, 23.10388, 172.2011, 10.0055, 0.8660254, 0
 /* @teleloc 0xC99E0008 [23.103880 172.201100 10.005500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C99E001, 0x7C99E002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C99E001, 0x7C99E003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C99E001, 0x7C99E004, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7C99E001, 0x7C99E005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C99E001, 0x7C99E006, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C99E001, 0x7C99E002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C99E001, 0x7C99E003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C99E001, 0x7C99E004, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7C99E001, 0x7C99E005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C99E001, 0x7C99E006, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C99E002,   231, 0xC99E0008, 23.10388, 172.2011, 10.0055, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

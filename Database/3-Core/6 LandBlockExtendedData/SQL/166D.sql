@@ -5,13 +5,13 @@ VALUES (0x7166D001,  1154, 0x166D0007, 20.15662, 162.8478, 77.97253, 0.9238795, 
 /* @teleloc 0x166D0007 [20.156620 162.847800 77.972530] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166D001, 0x7166D002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7166D001, 0x7166D003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7166D001, 0x7166D004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7166D001, 0x7166D005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7166D001, 0x7166D006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7166D001, 0x7166D007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7166D001, 0x7166D008, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x7166D001, 0x7166D002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7166D001, 0x7166D003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7166D001, 0x7166D004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7166D001, 0x7166D005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7166D001, 0x7166D006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7166D001, 0x7166D007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7166D001, 0x7166D008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166D002, 24497, 0x166D0007, 20.15662, 162.8478, 77.97253, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -46,8 +46,8 @@ VALUES (0x7166D009,  1542, 0x166D0007, 15.16133, 161.4436, 73.68278, 1, 0, 0, 0,
 /* @teleloc 0x166D0007 [15.161330 161.443600 73.682780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166D009, 0x7166D00A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7166D009, 0x7166D00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7166D009, 0x7166D00A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7166D009, 0x7166D00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166D00A, 22567, 0x166D0007, 15.16133, 161.4436, 73.68278, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

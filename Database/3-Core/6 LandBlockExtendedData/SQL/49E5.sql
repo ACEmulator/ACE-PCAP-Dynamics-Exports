@@ -5,28 +5,28 @@ VALUES (0x749E5001,  1154, 0x49E5003D, 172.6248, 114.3387, 2.478276, 0.9238795, 
 /* @teleloc 0x49E5003D [172.624800 114.338700 2.478276] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E5001, 0x749E5002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749E5001, 0x749E5003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749E5001, 0x749E5004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E5001, 0x749E5005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E5001, 0x749E5006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E5001, 0x749E5007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x749E5001, 0x749E5008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E5001, 0x749E5009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x749E5001, 0x749E500A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x749E5001, 0x749E500B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x749E5001, 0x749E500C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x749E5001, 0x749E500D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x749E5001, 0x749E500E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E5001, 0x749E500F, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x749E5001, 0x749E5010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749E5001, 0x749E5011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749E5001, 0x749E5012, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749E5001, 0x749E5013, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x749E5001, 0x749E5014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x749E5001, 0x749E5015, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749E5001, 0x749E5016, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749E5001, 0x749E5017, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x749E5001, 0x749E5002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749E5001, 0x749E5003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749E5001, 0x749E5004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E5001, 0x749E5005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E5001, 0x749E5006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E5001, 0x749E5007, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x749E5001, 0x749E5008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E5001, 0x749E5009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x749E5001, 0x749E500A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x749E5001, 0x749E500B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x749E5001, 0x749E500C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x749E5001, 0x749E500D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x749E5001, 0x749E500E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E5001, 0x749E500F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x749E5001, 0x749E5010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749E5001, 0x749E5011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749E5001, 0x749E5012, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749E5001, 0x749E5013, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x749E5001, 0x749E5014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x749E5001, 0x749E5015, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749E5001, 0x749E5016, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749E5001, 0x749E5017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E5002, 10807, 0x49E5003D, 172.6248, 114.3387, 2.478276, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -121,7 +121,7 @@ VALUES (0x749E5018,  1542, 0x49E5003A, 177.8542, 28.02638, 7.664469, 1, 0, 0, 0,
 /* @teleloc 0x49E5003A [177.854200 28.026380 7.664469] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E5018, 0x749E5019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x749E5018, 0x749E5019, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E5019, 22571, 0x49E5003A, 177.8542, 28.02638, 7.664469, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

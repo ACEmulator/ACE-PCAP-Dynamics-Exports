@@ -5,9 +5,9 @@ VALUES (0x7669E001,  1154, 0x669E000A, 30.77188, 29.96126, 38.20265, -0.7819021,
 /* @teleloc 0x669E000A [30.771880 29.961260 38.202650] -0.781902 0.000000 0.000000 -0.623401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7669E001, 0x7669E002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7669E001, 0x7669E003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7669E001, 0x7669E004, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7669E001, 0x7669E002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7669E001, 0x7669E003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7669E001, 0x7669E004, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7669E002,  5748, 0x669E000A, 30.77188, 29.96126, 38.20265, -0.7819021, 0, 0, -0.6234012,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

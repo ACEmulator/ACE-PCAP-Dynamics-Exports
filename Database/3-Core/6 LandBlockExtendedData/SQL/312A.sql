@@ -5,35 +5,35 @@ VALUES (0x7312A001,  1154, 0x312A002F, 132.6176, 157.1234, 74.33233, -0.3647833,
 /* @teleloc 0x312A002F [132.617600 157.123400 74.332330] -0.364783 0.000000 0.000000 -0.931092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312A001, 0x7312A002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7312A001, 0x7312A003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7312A001, 0x7312A004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7312A001, 0x7312A005, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7312A001, 0x7312A006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7312A001, 0x7312A007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7312A001, 0x7312A008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7312A001, 0x7312A009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7312A001, 0x7312A00A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x7312A001, 0x7312A00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7312A001, 0x7312A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7312A001, 0x7312A00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7312A001, 0x7312A00E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7312A001, 0x7312A00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7312A001, 0x7312A010, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7312A001, 0x7312A011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7312A001, 0x7312A012, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7312A001, 0x7312A013, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7312A001, 0x7312A014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7312A001, 0x7312A015, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7312A001, 0x7312A016, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7312A001, 0x7312A017, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7312A001, 0x7312A018, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7312A001, 0x7312A019, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7312A001, 0x7312A01A, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7312A001, 0x7312A01B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7312A001, 0x7312A01C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7312A001, 0x7312A01D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7312A001, 0x7312A01E, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x7312A001, 0x7312A002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7312A001, 0x7312A003, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7312A001, 0x7312A004, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7312A001, 0x7312A005, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x7312A001, 0x7312A006, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x7312A001, 0x7312A007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7312A001, 0x7312A008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7312A001, 0x7312A009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7312A001, 0x7312A00A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x7312A001, 0x7312A00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7312A001, 0x7312A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7312A001, 0x7312A00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7312A001, 0x7312A00E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7312A001, 0x7312A00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7312A001, 0x7312A010, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7312A001, 0x7312A011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7312A001, 0x7312A012, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7312A001, 0x7312A013, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7312A001, 0x7312A014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7312A001, 0x7312A015, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7312A001, 0x7312A016, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7312A001, 0x7312A017, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7312A001, 0x7312A018, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7312A001, 0x7312A019, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7312A001, 0x7312A01A, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7312A001, 0x7312A01B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7312A001, 0x7312A01C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7312A001, 0x7312A01D, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7312A001, 0x7312A01E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312A002, 11535, 0x312A002F, 132.6176, 157.1234, 74.33233, -0.3647833, 0, 0, -0.9310924,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -156,8 +156,8 @@ VALUES (0x7312A01F,  1154, 0x312A0100, 132, 84, 68.94674, 1, 0, 0, 0, False, '20
 /* @teleloc 0x312A0100 [132.000000 84.000000 68.946740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312A01F, 0x7312A020, '2019-02-10 00:00:00') /* Obsidian Gatestone */
-     , (0x7312A01F, 0x7312A021, '2019-02-10 00:00:00') /* Obsidian Node Golem */;
+VALUES (0x7312A01F, 0x7312A020, '2019-02-10 00:00:00') /* Obsidian Gatestone (39313) */
+     , (0x7312A01F, 0x7312A021, '2019-02-10 00:00:00') /* Obsidian Node Golem (38207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312A020, 39313, 0x312A0100, 132, 84, 68.94674, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Obsidian Gatestone */

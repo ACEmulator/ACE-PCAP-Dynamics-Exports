@@ -5,33 +5,33 @@ VALUES (0x70C69001,  1154, 0x0C69002F, 131.6588, 145.3068, 8.706915, 0.863857, 0
 /* @teleloc 0x0C69002F [131.658800 145.306800 8.706915] 0.863857 0.000000 0.000000 -0.503737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C69001, 0x70C69002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C69001, 0x70C69003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C69001, 0x70C69004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C69001, 0x70C69005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C69001, 0x70C69006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x70C69001, 0x70C69007, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70C69001, 0x70C69008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C69001, 0x70C69009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C69001, 0x70C6900A, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70C69001, 0x70C6900B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C69001, 0x70C6900C, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C69001, 0x70C6900D, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C69001, 0x70C6900E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C69001, 0x70C6900F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C69001, 0x70C69010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C69001, 0x70C69011, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C69001, 0x70C69012, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C69001, 0x70C69013, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C69001, 0x70C69014, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C69001, 0x70C69015, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C69001, 0x70C69016, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C69001, 0x70C69017, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C69001, 0x70C69018, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70C69001, 0x70C69019, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C69001, 0x70C6901A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x70C69001, 0x70C6901B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C69001, 0x70C6901C, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x70C69001, 0x70C69002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C69001, 0x70C69003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C69001, 0x70C69004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C69001, 0x70C69005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C69001, 0x70C69006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x70C69001, 0x70C69007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70C69001, 0x70C69008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C69001, 0x70C69009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C69001, 0x70C6900A, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70C69001, 0x70C6900B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C69001, 0x70C6900C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C69001, 0x70C6900D, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C69001, 0x70C6900E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C69001, 0x70C6900F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C69001, 0x70C69010, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C69001, 0x70C69011, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C69001, 0x70C69012, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C69001, 0x70C69013, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C69001, 0x70C69014, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C69001, 0x70C69015, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C69001, 0x70C69016, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C69001, 0x70C69017, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C69001, 0x70C69018, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70C69001, 0x70C69019, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C69001, 0x70C6901A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x70C69001, 0x70C6901B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C69001, 0x70C6901C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C69002,  7097, 0x0C69002F, 131.6588, 145.3068, 8.706915, 0.863857, 0, 0, -0.503737,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -146,9 +146,9 @@ VALUES (0x70C6901D,  1542, 0x0C69002E, 131.1683, 121.9448, 13.38618, 0.863857, 0
 /* @teleloc 0x0C69002E [131.168300 121.944800 13.386180] 0.863857 0.000000 0.000000 -0.503737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6901D, 0x70C6901E, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x70C6901D, 0x70C6901F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x70C6901D, 0x70C69020, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70C6901D, 0x70C6901E, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x70C6901D, 0x70C6901F, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x70C6901D, 0x70C69020, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6901E, 31688, 0x0C69002E, 131.1683, 121.9448, 13.38618, 0.863857, 0, 0, -0.503737,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

@@ -9,15 +9,15 @@ VALUES (0x70F39001,  1154, 0x0F390019, 72.67462, 0.1609613, 0.6846235, 0.7311707
 /* @teleloc 0x0F390019 [72.674620 0.160961 0.684624] 0.731171 0.000000 0.000000 -0.682195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F39001, 0x70F39002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70F39001, 0x70F39003, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x70F39001, 0x70F39004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F39001, 0x70F39005, '2019-02-10 00:00:00') /* Diamond Golem Suzerain */
-     , (0x70F39001, 0x70F39006, '2019-02-10 00:00:00') /* Synnast */
-     , (0x70F39001, 0x70F39007, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F39001, 0x70F39008, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F39001, 0x70F39009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F39001, 0x70F3900A, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x70F39001, 0x70F39002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70F39001, 0x70F39003, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x70F39001, 0x70F39004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F39001, 0x70F39005, '2019-02-10 00:00:00') /* Diamond Golem Suzerain (19543) */
+     , (0x70F39001, 0x70F39006, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x70F39001, 0x70F39007, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F39001, 0x70F39008, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F39001, 0x70F39009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F39001, 0x70F3900A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F39002, 14520, 0x0F390019, 72.67462, 0.1609613, 0.6846235, 0.7311707, 0, 0, -0.6821946,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -60,9 +60,9 @@ VALUES (0x70F3900B,  1542, 0x0F390006, 23.3736, 128.2795, 0, 0.9990482, 0, 0, -0
 /* @teleloc 0x0F390006 [23.373600 128.279500 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F3900B, 0x70F3900C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x70F3900B, 0x70F3900D, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x70F3900B, 0x70F3900E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x70F3900B, 0x70F3900C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x70F3900B, 0x70F3900D, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x70F3900B, 0x70F3900E, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F3900C,  4179, 0x0F390006, 23.3736, 128.2795, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

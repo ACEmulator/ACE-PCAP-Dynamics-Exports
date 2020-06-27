@@ -5,8 +5,8 @@ VALUES (0x7D0B4001,  1154, 0xD0B40011, 65.23548, 3.785385, 238.9226, 0.9800058, 
 /* @teleloc 0xD0B40011 [65.235480 3.785385 238.922600] 0.980006 0.000000 0.000000 -0.198969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0B4001, 0x7D0B4002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D0B4001, 0x7D0B4003, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7D0B4001, 0x7D0B4002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D0B4001, 0x7D0B4003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0B4002,  1608, 0xD0B40011, 65.23548, 3.785385, 238.9226, 0.9800058, 0, 0, -0.1989688,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

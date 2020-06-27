@@ -5,13 +5,13 @@ VALUES (0x7CB3F001,  1154, 0xCB3F003B, 186.6035, 61.23196, 112.7022, 0.2802271, 
 /* @teleloc 0xCB3F003B [186.603500 61.231960 112.702200] 0.280227 0.000000 0.000000 -0.959934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB3F001, 0x7CB3F002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CB3F001, 0x7CB3F003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CB3F001, 0x7CB3F004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CB3F001, 0x7CB3F005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CB3F001, 0x7CB3F006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CB3F001, 0x7CB3F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3F001, 0x7CB3F008, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7CB3F001, 0x7CB3F002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CB3F001, 0x7CB3F003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CB3F001, 0x7CB3F004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CB3F001, 0x7CB3F005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CB3F001, 0x7CB3F006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CB3F001, 0x7CB3F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3F001, 0x7CB3F008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB3F002,  7345, 0xCB3F003B, 186.6035, 61.23196, 112.7022, 0.2802271, 0, 0, -0.9599338,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

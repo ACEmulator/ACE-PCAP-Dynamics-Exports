@@ -5,22 +5,22 @@ VALUES (0x7718F001,  1154, 0x718F001E, 88.59781, 127.6876, 195.8856, 0.9730867, 
 /* @teleloc 0x718F001E [88.597810 127.687600 195.885600] 0.973087 0.000000 0.000000 -0.230440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7718F001, 0x7718F002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7718F001, 0x7718F003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7718F001, 0x7718F004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7718F001, 0x7718F005, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7718F001, 0x7718F006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7718F001, 0x7718F007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7718F001, 0x7718F008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7718F001, 0x7718F009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7718F001, 0x7718F00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7718F001, 0x7718F00B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7718F001, 0x7718F00C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7718F001, 0x7718F00D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7718F001, 0x7718F00E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7718F001, 0x7718F00F, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7718F001, 0x7718F010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7718F001, 0x7718F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7718F001, 0x7718F002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7718F001, 0x7718F003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7718F001, 0x7718F004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7718F001, 0x7718F005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7718F001, 0x7718F006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7718F001, 0x7718F007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7718F001, 0x7718F008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7718F001, 0x7718F009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7718F001, 0x7718F00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7718F001, 0x7718F00B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7718F001, 0x7718F00C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7718F001, 0x7718F00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7718F001, 0x7718F00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7718F001, 0x7718F00F, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7718F001, 0x7718F010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7718F001, 0x7718F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7718F002,  1609, 0x718F001E, 88.59781, 127.6876, 195.8856, 0.9730867, 0, 0, -0.2304396,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -91,7 +91,7 @@ VALUES (0x7718F012,  1542, 0x718F0001, 8.999984, 6.871734, 213.4274, 0.9051345, 
 /* @teleloc 0x718F0001 [8.999984 6.871734 213.427400] 0.905135 0.000000 0.000000 -0.425125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7718F012, 0x7718F013, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7718F012, 0x7718F013, '2019-02-10 00:00:00') /* Old Gravestone (34131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7718F013, 34131, 0x718F0001, 8.999984, 6.871734, 213.4274, 0.9051345, 0, 0, -0.4251253,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

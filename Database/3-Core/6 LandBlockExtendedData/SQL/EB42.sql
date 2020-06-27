@@ -5,14 +5,14 @@ VALUES (0x7EB42001,  1154, 0xEB420003, 20.03141, 51.08134, 40.0045, 0.8191521, 0
 /* @teleloc 0xEB420003 [20.031410 51.081340 40.004500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB42001, 0x7EB42002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7EB42001, 0x7EB42003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7EB42001, 0x7EB42004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7EB42001, 0x7EB42005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7EB42001, 0x7EB42006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7EB42001, 0x7EB42007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EB42001, 0x7EB42008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EB42001, 0x7EB42009, '2019-02-10 00:00:00') /* Jibrit Zefir */;
+VALUES (0x7EB42001, 0x7EB42002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7EB42001, 0x7EB42003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7EB42001, 0x7EB42004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7EB42001, 0x7EB42005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7EB42001, 0x7EB42006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7EB42001, 0x7EB42007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EB42001, 0x7EB42008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EB42001, 0x7EB42009, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB42002,  1612, 0xEB420003, 20.03141, 51.08134, 40.0045, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -51,7 +51,7 @@ VALUES (0x7EB4200A,  1542, 0xEB420028, 112.1823, 183.0218, 41.90329, -0.9937634,
 /* @teleloc 0xEB420028 [112.182300 183.021800 41.903290] -0.993763 0.000000 0.000000 -0.111509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB4200A, 0x7EB4200B, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7EB4200A, 0x7EB4200B, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB4200B, 14789, 0xEB420028, 112.1823, 183.0218, 41.90329, -0.9937634, 0, 0, -0.1115088,  True, '2019-02-10 00:00:00'); /* Ginger */

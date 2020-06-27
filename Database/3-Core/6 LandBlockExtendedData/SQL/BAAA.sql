@@ -5,27 +5,27 @@ VALUES (0x7BAAA001,  1154, 0xBAAA002A, 127.1615, 45.92153, 78.0075, 0.9659258, 0
 /* @teleloc 0xBAAA002A [127.161500 45.921530 78.007500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAAA001, 0x7BAAA002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BAAA001, 0x7BAAA003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BAAA001, 0x7BAAA004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BAAA001, 0x7BAAA005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BAAA001, 0x7BAAA006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BAAA001, 0x7BAAA007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BAAA001, 0x7BAAA008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BAAA001, 0x7BAAA009, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7BAAA001, 0x7BAAA00A, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7BAAA001, 0x7BAAA00B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7BAAA001, 0x7BAAA00C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7BAAA001, 0x7BAAA00D, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7BAAA001, 0x7BAAA00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BAAA001, 0x7BAAA00F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BAAA001, 0x7BAAA010, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7BAAA001, 0x7BAAA011, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BAAA001, 0x7BAAA012, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BAAA001, 0x7BAAA013, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BAAA001, 0x7BAAA014, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BAAA001, 0x7BAAA015, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BAAA001, 0x7BAAA016, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7BAAA001, 0x7BAAA002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BAAA001, 0x7BAAA003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BAAA001, 0x7BAAA004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BAAA001, 0x7BAAA005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BAAA001, 0x7BAAA006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BAAA001, 0x7BAAA007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BAAA001, 0x7BAAA008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BAAA001, 0x7BAAA009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7BAAA001, 0x7BAAA00A, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7BAAA001, 0x7BAAA00B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7BAAA001, 0x7BAAA00C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7BAAA001, 0x7BAAA00D, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7BAAA001, 0x7BAAA00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BAAA001, 0x7BAAA00F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BAAA001, 0x7BAAA010, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7BAAA001, 0x7BAAA011, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BAAA001, 0x7BAAA012, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BAAA001, 0x7BAAA013, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BAAA001, 0x7BAAA014, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BAAA001, 0x7BAAA015, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BAAA001, 0x7BAAA016, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAAA002,  1630, 0xBAAA002A, 127.1615, 45.92153, 78.0075, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -116,7 +116,7 @@ VALUES (0x7BAAA017,  1542, 0xBAAA0009, 26.01139, 20.01501, 81.45, 0.9990482, 0, 
 /* @teleloc 0xBAAA0009 [26.011390 20.015010 81.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAAA017, 0x7BAAA018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BAAA017, 0x7BAAA018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAAA018,  4179, 0xBAAA0009, 26.01139, 20.01501, 81.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

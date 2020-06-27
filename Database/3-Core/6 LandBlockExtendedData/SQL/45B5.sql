@@ -5,14 +5,14 @@ VALUES (0x745B5001,  1154, 0x45B50039, 189.8837, 20.47174, 89.42296, 0.7071068, 
 /* @teleloc 0x45B50039 [189.883700 20.471740 89.422960] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B5001, 0x745B5002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x745B5001, 0x745B5003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x745B5001, 0x745B5004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x745B5001, 0x745B5005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x745B5001, 0x745B5006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x745B5001, 0x745B5007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x745B5001, 0x745B5008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x745B5001, 0x745B5009, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x745B5001, 0x745B5002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x745B5001, 0x745B5003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x745B5001, 0x745B5004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x745B5001, 0x745B5005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x745B5001, 0x745B5006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x745B5001, 0x745B5007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x745B5001, 0x745B5008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x745B5001, 0x745B5009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B5002,  1629, 0x45B50039, 189.8837, 20.47174, 89.42296, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -51,7 +51,7 @@ VALUES (0x745B500A,  1542, 0x45B50013, 52.24793, 71.97742, 81.35429, 0.7071068, 
 /* @teleloc 0x45B50013 [52.247930 71.977420 81.354290] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B500A, 0x745B500B, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x745B500A, 0x745B500B, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B500B,   689, 0x45B50013, 52.24793, 71.97742, 81.35429, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Iron Scarab */

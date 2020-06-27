@@ -5,14 +5,14 @@ VALUES (0x71E29001,  1154, 0x1E29001E, 87.2996, 135.11, 94.005, -0.366387, 0, 0,
 /* @teleloc 0x1E29001E [87.299600 135.110000 94.005000] -0.366387 0.000000 0.000000 -0.930462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E29001, 0x71E29002, '2019-02-10 00:00:00') /* Shadow Phantom Leader */
-     , (0x71E29001, 0x71E29003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E29001, 0x71E29004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E29001, 0x71E29005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E29001, 0x71E29006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71E29001, 0x71E29007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E29001, 0x71E29008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71E29001, 0x71E29009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71E29001, 0x71E29002, '2019-02-10 00:00:00') /* Shadow Phantom Leader (27428) */
+     , (0x71E29001, 0x71E29003, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29001, 0x71E29004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29001, 0x71E29005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29001, 0x71E29006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71E29001, 0x71E29007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29001, 0x71E29008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71E29001, 0x71E29009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E29002, 27428, 0x1E29001E, 87.2996, 135.11, 94.005, -0.366387, 0, 0, -0.930462,  True, '2019-02-10 00:00:00'); /* Shadow Phantom Leader */
@@ -51,9 +51,9 @@ VALUES (0x71E2900A,  1542, 0x1E29001E, 83.88219, 125.5491, 93.937, -0.0600473, 0
 /* @teleloc 0x1E29001E [83.882190 125.549100 93.937000] -0.060047 0.000000 0.000000 -0.998196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E2900A, 0x71E2900B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71E2900A, 0x71E2900C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71E2900A, 0x71E2900D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71E2900A, 0x71E2900B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71E2900A, 0x71E2900C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71E2900A, 0x71E2900D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E2900B,  1955, 0x1E29001E, 83.88219, 125.5491, 93.937, -0.0600473, 0, 0, -0.9981955,  True, '2019-02-10 00:00:00'); /* Gateway */

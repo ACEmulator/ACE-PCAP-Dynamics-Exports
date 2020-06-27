@@ -5,15 +5,15 @@ VALUES (0x70E6C001,  1154, 0x0E6C0001, 0.1736736, 22.35443, 0.00999999, 0.929548
 /* @teleloc 0x0E6C0001 [0.173674 22.354430 0.010000] 0.929548 0.000000 0.000000 -0.368701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E6C001, 0x70E6C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70E6C001, 0x70E6C003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E6C001, 0x70E6C004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E6C001, 0x70E6C005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70E6C001, 0x70E6C006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E6C001, 0x70E6C007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E6C001, 0x70E6C008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E6C001, 0x70E6C009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70E6C001, 0x70E6C00A, '2019-02-10 00:00:00') /* Miasma */;
+VALUES (0x70E6C001, 0x70E6C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70E6C001, 0x70E6C003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E6C001, 0x70E6C004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E6C001, 0x70E6C005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70E6C001, 0x70E6C006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E6C001, 0x70E6C007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E6C001, 0x70E6C008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E6C001, 0x70E6C009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70E6C001, 0x70E6C00A, '2019-02-10 00:00:00') /* Miasma (14514) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E6C002, 15267, 0x0E6C0001, 0.1736736, 22.35443, 0.00999999, 0.929548, 0, 0, -0.3687012,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -56,7 +56,7 @@ VALUES (0x70E6C00B,  1542, 0x0E6C0019, 81.79635, 10.28681, 18.70887, -4.371139E-
 /* @teleloc 0x0E6C0019 [81.796350 10.286810 18.708870] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E6C00B, 0x70E6C00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70E6C00B, 0x70E6C00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E6C00C,  4380, 0x0E6C0019, 81.79635, 10.28681, 18.70887, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

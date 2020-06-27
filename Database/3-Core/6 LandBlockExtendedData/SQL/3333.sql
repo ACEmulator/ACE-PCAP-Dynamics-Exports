@@ -5,15 +5,15 @@ VALUES (0x73333001,  1154, 0x3333003D, 186.5736, 115.7972, 68.00455, -4.371139E-
 /* @teleloc 0x3333003D [186.573600 115.797200 68.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73333001, 0x73333002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73333001, 0x73333003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73333001, 0x73333004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73333001, 0x73333005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73333001, 0x73333006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73333001, 0x73333007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73333001, 0x73333008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73333001, 0x73333009, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x73333001, 0x7333300A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73333001, 0x73333002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73333001, 0x73333003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x73333001, 0x73333004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73333001, 0x73333005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73333001, 0x73333006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73333001, 0x73333007, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73333001, 0x73333008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73333001, 0x73333009, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x73333001, 0x7333300A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73333002, 36825, 0x3333003D, 186.5736, 115.7972, 68.00455, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

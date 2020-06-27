@@ -29,29 +29,29 @@ VALUES (0x7017A01C,  1154, 0x017A0154, 71.0387, -13.525, 0.007149994, -0.869551,
 /* @teleloc 0x017A0154 [71.038700 -13.525000 0.007150] -0.869551 0.000000 0.000000 -0.493844 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017A01C, 0x7017A01D, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7017A01C, 0x7017A01E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A01F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A020, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7017A01C, 0x7017A021, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7017A01C, 0x7017A022, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A023, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A024, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7017A01C, 0x7017A025, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7017A01C, 0x7017A026, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7017A01C, 0x7017A027, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7017A01C, 0x7017A028, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x7017A01C, 0x7017A029, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7017A01C, 0x7017A02A, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7017A01C, 0x7017A02B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A02C, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x7017A01C, 0x7017A02D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A02E, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x7017A01C, 0x7017A02F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7017A01C, 0x7017A030, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7017A01C, 0x7017A031, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7017A01C, 0x7017A032, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7017A01C, 0x7017A033, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7017A01C, 0x7017A01D, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A01C, 0x7017A01E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A01F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A020, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A01C, 0x7017A021, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7017A01C, 0x7017A022, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A023, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A024, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7017A01C, 0x7017A025, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7017A01C, 0x7017A026, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A01C, 0x7017A027, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A01C, 0x7017A028, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x7017A01C, 0x7017A029, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7017A01C, 0x7017A02A, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7017A01C, 0x7017A02B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A02C, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x7017A01C, 0x7017A02D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A02E, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x7017A01C, 0x7017A02F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7017A01C, 0x7017A030, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7017A01C, 0x7017A031, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7017A01C, 0x7017A032, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7017A01C, 0x7017A033, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017A01D,  1668, 0x017A0154, 71.0387, -13.525, 0.007149994, -0.869551, 0, 0, -0.493844,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */
@@ -150,7 +150,7 @@ VALUES (0x7017A034,  1542, 0x017A0103, 0.447397, -6.66148, -4.9505, 0.7071068, 0
 /* @teleloc 0x017A0103 [0.447397 -6.661480 -4.950500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017A034, 0x7017A035, '2019-02-10 00:00:00') /* Hand of Vagurat */;
+VALUES (0x7017A034, 0x7017A035, '2019-02-10 00:00:00') /* Hand of Vagurat (27901) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017A035, 27901, 0x017A0103, 0.447397, -6.66148, -4.9505, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hand of Vagurat */

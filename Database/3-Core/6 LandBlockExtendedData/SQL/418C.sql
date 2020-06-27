@@ -5,11 +5,11 @@ VALUES (0x7418C001,  1154, 0x418C0008, 18.01042, 179.8414, 16.19466, 0.9659258, 
 /* @teleloc 0x418C0008 [18.010420 179.841400 16.194660] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7418C001, 0x7418C002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7418C001, 0x7418C003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7418C001, 0x7418C004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7418C001, 0x7418C005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7418C001, 0x7418C006, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x7418C001, 0x7418C002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7418C001, 0x7418C003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7418C001, 0x7418C004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7418C001, 0x7418C005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7418C001, 0x7418C006, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7418C002, 36834, 0x418C0008, 18.01042, 179.8414, 16.19466, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

@@ -5,15 +5,15 @@ VALUES (0x7C488001,  1154, 0xC4880029, 141.8767, 19.1202, 44.58559, 0.9961947, 0
 /* @teleloc 0xC4880029 [141.876700 19.120200 44.585590] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C488001, 0x7C488002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C488001, 0x7C488003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C488001, 0x7C488004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C488001, 0x7C488005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C488001, 0x7C488006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C488001, 0x7C488007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C488001, 0x7C488008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C488001, 0x7C488009, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C488001, 0x7C48800A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7C488001, 0x7C488002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C488001, 0x7C488003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C488001, 0x7C488004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C488001, 0x7C488005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C488001, 0x7C488006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C488001, 0x7C488007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C488001, 0x7C488008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C488001, 0x7C488009, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C488001, 0x7C48800A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C488002,  7990, 0xC4880029, 141.8767, 19.1202, 44.58559, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Field Ursuin */

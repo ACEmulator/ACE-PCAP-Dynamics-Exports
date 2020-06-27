@@ -5,10 +5,10 @@ VALUES (0x7942B001,  1154, 0x942B0031, 148.1328, 3.915659, 40.04829, 0.9822781, 
 /* @teleloc 0x942B0031 [148.132800 3.915659 40.048290] 0.982278 0.000000 0.000000 -0.187429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7942B001, 0x7942B002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7942B001, 0x7942B003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7942B001, 0x7942B004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7942B001, 0x7942B005, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7942B001, 0x7942B002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7942B001, 0x7942B003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7942B001, 0x7942B004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7942B001, 0x7942B005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942B002,   235, 0x942B0031, 148.1328, 3.915659, 40.04829, 0.9822781, 0, 0, -0.1874292,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

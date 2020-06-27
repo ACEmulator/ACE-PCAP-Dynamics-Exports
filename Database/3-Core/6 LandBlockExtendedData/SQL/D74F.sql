@@ -9,20 +9,20 @@ VALUES (0x7D74F015,  1154, 0xD74F0100, 41.6566, 48.9442, 28.8084, 0.954266, 0, 0
 /* @teleloc 0xD74F0100 [41.656600 48.944200 28.808400] 0.954266 0.000000 0.000000 -0.298959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D74F015, 0x7D74F016, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D74F015, 0x7D74F017, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D74F015, 0x7D74F018, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D74F015, 0x7D74F019, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D74F015, 0x7D74F01A, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D74F015, 0x7D74F01B, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D74F015, 0x7D74F01C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D74F015, 0x7D74F01D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D74F015, 0x7D74F01E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D74F015, 0x7D74F01F, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D74F015, 0x7D74F020, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D74F015, 0x7D74F021, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7D74F015, 0x7D74F022, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D74F015, 0x7D74F023, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7D74F015, 0x7D74F016, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D74F015, 0x7D74F017, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D74F015, 0x7D74F018, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D74F015, 0x7D74F019, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D74F015, 0x7D74F01A, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D74F015, 0x7D74F01B, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D74F015, 0x7D74F01C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D74F015, 0x7D74F01D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D74F015, 0x7D74F01E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D74F015, 0x7D74F01F, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D74F015, 0x7D74F020, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D74F015, 0x7D74F021, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D74F015, 0x7D74F022, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D74F015, 0x7D74F023, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D74F016,   218, 0xD74F0100, 41.6566, 48.9442, 28.8084, 0.954266, 0, 0, -0.298959,  True, '2019-02-10 00:00:00'); /* Black Rat */

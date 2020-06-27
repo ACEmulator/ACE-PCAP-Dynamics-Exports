@@ -5,11 +5,11 @@ VALUES (0x79734001,  1154, 0x9734000B, 28.02511, 57.65395, 40.0075, -0.441964, 0
 /* @teleloc 0x9734000B [28.025110 57.653950 40.007500] -0.441964 0.000000 0.000000 -0.897033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79734001, 0x79734002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x79734001, 0x79734003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79734001, 0x79734004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79734001, 0x79734005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79734001, 0x79734006, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x79734001, 0x79734002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x79734001, 0x79734003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79734001, 0x79734004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79734001, 0x79734005, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79734001, 0x79734006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79734002, 10799, 0x9734000B, 28.02511, 57.65395, 40.0075, -0.441964, 0, 0, -0.8970328,  True, '2019-02-10 00:00:00'); /* Narrow Rift */
@@ -36,8 +36,8 @@ VALUES (0x79734007,  1542, 0x97340023, 115.4562, 58.15555, 39.99, -0.9939325, 0,
 /* @teleloc 0x97340023 [115.456200 58.155550 39.990000] -0.993933 0.000000 0.000000 -0.109991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79734007, 0x79734008, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x79734007, 0x79734009, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x79734007, 0x79734008, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x79734007, 0x79734009, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79734008,  9286, 0x97340023, 115.4562, 58.15555, 39.99, -0.9939325, 0, 0, -0.1099911,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

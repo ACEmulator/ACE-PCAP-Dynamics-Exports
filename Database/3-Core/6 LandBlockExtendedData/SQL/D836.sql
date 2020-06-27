@@ -9,26 +9,26 @@ VALUES (0x7D83600E,  1154, 0xD8360100, 63.4557, 34.7135, 46.0075, -0.985624, 0, 
 /* @teleloc 0xD8360100 [63.455700 34.713500 46.007500] -0.985624 0.000000 0.000000 -0.168953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D83600E, 0x7D83600F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D83600E, 0x7D836010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D83600E, 0x7D836011, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D83600E, 0x7D836012, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7D83600E, 0x7D836013, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D83600E, 0x7D836014, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D83600E, 0x7D836015, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D83600E, 0x7D836016, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D83600E, 0x7D836017, '2019-02-10 00:00:00') /* Iron Golem */
-     , (0x7D83600E, 0x7D836018, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7D83600E, 0x7D836019, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D83600E, 0x7D83601A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D83600E, 0x7D83601B, '2019-02-10 00:00:00') /* Iron Golem */
-     , (0x7D83600E, 0x7D83601C, '2019-02-10 00:00:00') /* Iron Golem */
-     , (0x7D83600E, 0x7D83601D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D83600E, 0x7D83601E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7D83600E, 0x7D83601F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D83600E, 0x7D836020, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D83600E, 0x7D836021, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D83600E, 0x7D836022, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7D83600E, 0x7D83600F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D83600E, 0x7D836010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D83600E, 0x7D836011, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D83600E, 0x7D836012, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7D83600E, 0x7D836013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D83600E, 0x7D836014, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D83600E, 0x7D836015, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D83600E, 0x7D836016, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D83600E, 0x7D836017, '2019-02-10 00:00:00') /* Iron Golem (197) */
+     , (0x7D83600E, 0x7D836018, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7D83600E, 0x7D836019, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D83600E, 0x7D83601A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D83600E, 0x7D83601B, '2019-02-10 00:00:00') /* Iron Golem (197) */
+     , (0x7D83600E, 0x7D83601C, '2019-02-10 00:00:00') /* Iron Golem (197) */
+     , (0x7D83600E, 0x7D83601D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D83600E, 0x7D83601E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7D83600E, 0x7D83601F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D83600E, 0x7D836020, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D83600E, 0x7D836021, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D83600E, 0x7D836022, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D83600F,  1630, 0xD8360100, 63.4557, 34.7135, 46.0075, -0.985624, 0, 0, -0.168953,  True, '2019-02-10 00:00:00'); /* Lich Lord */

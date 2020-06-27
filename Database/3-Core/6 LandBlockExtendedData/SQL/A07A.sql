@@ -5,16 +5,16 @@ VALUES (0x7A07A001,  1154, 0xA07A000D, 46.08905, 102.1044, 27.4963, 0.7980652, 0
 /* @teleloc 0xA07A000D [46.089050 102.104400 27.496300] 0.798065 0.000000 0.000000 -0.602571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A07A001, 0x7A07A002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A07A001, 0x7A07A003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A07A001, 0x7A07A004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7A07A001, 0x7A07A005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A07A001, 0x7A07A006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A07A001, 0x7A07A007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A07A001, 0x7A07A008, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7A07A001, 0x7A07A009, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7A07A001, 0x7A07A00A, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A07A001, 0x7A07A00B, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7A07A001, 0x7A07A002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A07A001, 0x7A07A003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A07A001, 0x7A07A004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7A07A001, 0x7A07A005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A07A001, 0x7A07A006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A07A001, 0x7A07A007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A07A001, 0x7A07A008, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7A07A001, 0x7A07A009, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7A07A001, 0x7A07A00A, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A07A001, 0x7A07A00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A07A002,  1758, 0xA07A000D, 46.08905, 102.1044, 27.4963, 0.7980652, 0, 0, -0.6025711,  True, '2019-02-10 00:00:00'); /* Shadow */

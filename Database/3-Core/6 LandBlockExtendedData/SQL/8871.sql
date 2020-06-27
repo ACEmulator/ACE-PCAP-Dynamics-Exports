@@ -5,9 +5,9 @@ VALUES (0x78871001,  1154, 0x88710012, 60.2822, 37.57009, 14.40222, 0.6807472, 0
 /* @teleloc 0x88710012 [60.282200 37.570090 14.402220] 0.680747 0.000000 0.000000 -0.732518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78871001, 0x78871002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78871001, 0x78871003, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78871001, 0x78871004, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x78871001, 0x78871002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78871001, 0x78871003, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78871001, 0x78871004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78871002,  1623, 0x88710012, 60.2822, 37.57009, 14.40222, 0.6807472, 0, 0, -0.7325184,  True, '2019-02-10 00:00:00'); /* Desert Rat */

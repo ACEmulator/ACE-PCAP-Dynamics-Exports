@@ -5,14 +5,14 @@ VALUES (0x7609B001,  1154, 0x609B000D, 29.80905, 102.3805, 24.94209, -4.371139E-
 /* @teleloc 0x609B000D [29.809050 102.380500 24.942090] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7609B001, 0x7609B002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7609B001, 0x7609B003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7609B001, 0x7609B004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7609B001, 0x7609B005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7609B001, 0x7609B006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7609B001, 0x7609B007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7609B001, 0x7609B008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7609B001, 0x7609B009, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7609B001, 0x7609B002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7609B001, 0x7609B003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7609B001, 0x7609B004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7609B001, 0x7609B005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7609B001, 0x7609B006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7609B001, 0x7609B007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7609B001, 0x7609B008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7609B001, 0x7609B009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7609B002,   231, 0x609B000D, 29.80905, 102.3805, 24.94209, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

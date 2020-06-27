@@ -5,12 +5,12 @@ VALUES (0x7C865001,  1154, 0xC8650037, 151.6853, 156.7859, 26.78, 0.6427876, 0, 
 /* @teleloc 0xC8650037 [151.685300 156.785900 26.780000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C865001, 0x7C865002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C865001, 0x7C865003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C865001, 0x7C865004, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C865001, 0x7C865005, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C865001, 0x7C865006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C865001, 0x7C865007, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C865001, 0x7C865002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C865001, 0x7C865003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C865001, 0x7C865004, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C865001, 0x7C865005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C865001, 0x7C865006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C865001, 0x7C865007, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C865002,   211, 0xC8650037, 151.6853, 156.7859, 26.78, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

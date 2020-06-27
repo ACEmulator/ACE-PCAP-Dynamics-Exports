@@ -5,12 +5,12 @@ VALUES (0x71431001,  1154, 0x14310007, 15.22822, 161.0208, 28.73798, 0.7473752, 
 /* @teleloc 0x14310007 [15.228220 161.020800 28.737980] 0.747375 0.000000 0.000000 -0.664402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71431001, 0x71431002, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71431001, 0x71431003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71431001, 0x71431004, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71431001, 0x71431005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71431001, 0x71431006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71431001, 0x71431007, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x71431001, 0x71431002, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71431001, 0x71431003, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71431001, 0x71431004, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71431001, 0x71431005, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71431001, 0x71431006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71431001, 0x71431007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71431002, 14876, 0x14310007, 15.22822, 161.0208, 28.73798, 0.7473752, 0, 0, -0.6644022,  True, '2019-02-10 00:00:00'); /* Maelstrom */

@@ -9,29 +9,29 @@ VALUES (0x7E13D001,  1154, 0xE13D0018, 67.47585, 182.9067, 88.77654, 0.4003814, 
 /* @teleloc 0xE13D0018 [67.475850 182.906700 88.776540] 0.400381 0.000000 0.000000 -0.916349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13D001, 0x7E13D002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7E13D001, 0x7E13D003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E13D001, 0x7E13D004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7E13D001, 0x7E13D005, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7E13D001, 0x7E13D006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E13D001, 0x7E13D007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7E13D001, 0x7E13D008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E13D001, 0x7E13D009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E13D001, 0x7E13D00A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E13D001, 0x7E13D00B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E13D001, 0x7E13D00C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E13D001, 0x7E13D00D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E13D001, 0x7E13D00E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7E13D001, 0x7E13D00F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7E13D001, 0x7E13D010, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E13D001, 0x7E13D011, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7E13D001, 0x7E13D012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E13D001, 0x7E13D013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E13D001, 0x7E13D014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E13D001, 0x7E13D015, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7E13D001, 0x7E13D016, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7E13D001, 0x7E13D017, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E13D001, 0x7E13D018, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7E13D001, 0x7E13D002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7E13D001, 0x7E13D003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E13D001, 0x7E13D004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7E13D001, 0x7E13D005, '2019-02-10 00:00:00') /* Exploration Marker (39765) */
+     , (0x7E13D001, 0x7E13D006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E13D001, 0x7E13D007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7E13D001, 0x7E13D008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E13D001, 0x7E13D009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E13D001, 0x7E13D00A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E13D001, 0x7E13D00B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E13D001, 0x7E13D00C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E13D001, 0x7E13D00D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E13D001, 0x7E13D00E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7E13D001, 0x7E13D00F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7E13D001, 0x7E13D010, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E13D001, 0x7E13D011, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7E13D001, 0x7E13D012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E13D001, 0x7E13D013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E13D001, 0x7E13D014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E13D001, 0x7E13D015, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7E13D001, 0x7E13D016, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7E13D001, 0x7E13D017, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E13D001, 0x7E13D018, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13D002,  7128, 0xE13D0018, 67.47585, 182.9067, 88.77654, 0.4003814, 0, 0, -0.9163486,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -130,8 +130,8 @@ VALUES (0x7E13D019,  1542, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 
 /* @teleloc 0xE13D0019 [72.740610 16.245590 144.893100] 0.537920 0.000000 0.000000 -0.842996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13D019, 0x7E13D01A, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7E13D019, 0x7E13D01B, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7E13D019, 0x7E13D01A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E13D019, 0x7E13D01B, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13D01A,  8037, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 0, 0, -0.842996,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

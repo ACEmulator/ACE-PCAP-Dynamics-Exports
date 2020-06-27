@@ -5,17 +5,17 @@ VALUES (0x7368D001,  1154, 0x368D0007, 2.185791, 150.6931, 19.62439, -0.1029785,
 /* @teleloc 0x368D0007 [2.185791 150.693100 19.624390] -0.102979 0.000000 0.000000 -0.994684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7368D001, 0x7368D002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7368D001, 0x7368D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7368D001, 0x7368D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7368D001, 0x7368D005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7368D001, 0x7368D006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7368D001, 0x7368D007, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7368D001, 0x7368D008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7368D001, 0x7368D009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7368D001, 0x7368D00A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7368D001, 0x7368D00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7368D001, 0x7368D00C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7368D001, 0x7368D002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7368D001, 0x7368D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7368D001, 0x7368D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7368D001, 0x7368D005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7368D001, 0x7368D006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7368D001, 0x7368D007, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7368D001, 0x7368D008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7368D001, 0x7368D009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7368D001, 0x7368D00A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7368D001, 0x7368D00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7368D001, 0x7368D00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7368D002, 23482, 0x368D0007, 2.185791, 150.6931, 19.62439, -0.1029785, 0, 0, -0.9946836,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -66,7 +66,7 @@ VALUES (0x7368D00D,  1542, 0x368D0010, 27.42455, 170.728, 19.54533, 1, 0, 0, 0, 
 /* @teleloc 0x368D0010 [27.424550 170.728000 19.545330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7368D00D, 0x7368D00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7368D00D, 0x7368D00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7368D00E, 22571, 0x368D0010, 27.42455, 170.728, 19.54533, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

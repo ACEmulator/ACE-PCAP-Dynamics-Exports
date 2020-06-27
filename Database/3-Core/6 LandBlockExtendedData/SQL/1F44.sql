@@ -5,17 +5,17 @@ VALUES (0x71F44001,  1154, 0x1F440029, 140.0604, 20.57151, 3.038944, 0.6293204, 
 /* @teleloc 0x1F440029 [140.060400 20.571510 3.038944] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F44001, 0x71F44002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71F44001, 0x71F44003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71F44001, 0x71F44004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71F44001, 0x71F44005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71F44001, 0x71F44006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71F44001, 0x71F44007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71F44001, 0x71F44008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71F44001, 0x71F44009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71F44001, 0x71F4400A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71F44001, 0x71F4400B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71F44001, 0x71F4400C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x71F44001, 0x71F44002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71F44001, 0x71F44003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71F44001, 0x71F44004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71F44001, 0x71F44005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71F44001, 0x71F44006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71F44001, 0x71F44007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71F44001, 0x71F44008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71F44001, 0x71F44009, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71F44001, 0x71F4400A, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71F44001, 0x71F4400B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71F44001, 0x71F4400C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F44002,  7113, 0x1F440029, 140.0604, 20.57151, 3.038944, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -66,7 +66,7 @@ VALUES (0x71F4400D,  1542, 0x1F440005, 8.56452, 97.91868, 10.47967, 1, 0, 0, 0, 
 /* @teleloc 0x1F440005 [8.564520 97.918680 10.479670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F4400D, 0x71F4400E, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x71F4400D, 0x71F4400E, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F4400E,  8999, 0x1F440005, 8.56452, 97.91868, 10.47967, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

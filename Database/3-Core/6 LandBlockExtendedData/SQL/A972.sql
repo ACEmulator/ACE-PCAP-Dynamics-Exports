@@ -5,10 +5,10 @@ VALUES (0x7A972001,  1154, 0xA9720004, 2.080573, 74.92347, 46.18338, 0.5, 0, 0, 
 /* @teleloc 0xA9720004 [2.080573 74.923470 46.183380] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A972001, 0x7A972002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A972001, 0x7A972003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A972001, 0x7A972004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A972001, 0x7A972005, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A972001, 0x7A972002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A972001, 0x7A972003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A972001, 0x7A972004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A972001, 0x7A972005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A972002,   194, 0xA9720004, 2.080573, 74.92347, 46.18338, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -31,7 +31,7 @@ VALUES (0x7A972006,  1542, 0xA9720003, 15.95824, 65.10859, 47.32985, 0.3171644, 
 /* @teleloc 0xA9720003 [15.958240 65.108590 47.329850] 0.317164 0.000000 0.000000 -0.948371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A972006, 0x7A972007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7A972006, 0x7A972007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A972007,  8037, 0xA9720003, 15.95824, 65.10859, 47.32985, 0.3171644, 0, 0, -0.9483706,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,14 +5,14 @@ VALUES (0x790DB001,  1154, 0x90DB0001, 13.74992, 23.97628, 80.00793, 0.9271904, 
 /* @teleloc 0x90DB0001 [13.749920 23.976280 80.007930] 0.927190 0.000000 0.000000 -0.374590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790DB001, 0x790DB002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790DB001, 0x790DB003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790DB001, 0x790DB004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790DB001, 0x790DB005, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x790DB001, 0x790DB006, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x790DB001, 0x790DB007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x790DB001, 0x790DB008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x790DB001, 0x790DB009, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x790DB001, 0x790DB002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790DB001, 0x790DB003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790DB001, 0x790DB004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790DB001, 0x790DB005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x790DB001, 0x790DB006, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x790DB001, 0x790DB007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x790DB001, 0x790DB008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x790DB001, 0x790DB009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790DB002, 22519, 0x90DB0001, 13.74992, 23.97628, 80.00793, 0.9271904, 0, 0, -0.3745903,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -51,7 +51,7 @@ VALUES (0x790DB00A,  1542, 0x90DB0001, 11.71168, 23.47738, 79.95645, 0.9271904, 
 /* @teleloc 0x90DB0001 [11.711680 23.477380 79.956450] 0.927190 0.000000 0.000000 -0.374590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790DB00A, 0x790DB00B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x790DB00A, 0x790DB00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790DB00B,  8644, 0x90DB0001, 11.71168, 23.47738, 79.95645, 0.9271904, 0, 0, -0.3745903,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

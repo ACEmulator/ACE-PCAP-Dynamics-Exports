@@ -5,26 +5,26 @@ VALUES (0x75DEA001,  1154, 0x5DEA003C, 174.6501, 77.62688, 14.0341, 0.7071068, 0
 /* @teleloc 0x5DEA003C [174.650100 77.626880 14.034100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DEA001, 0x75DEA002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75DEA001, 0x75DEA003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75DEA001, 0x75DEA004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75DEA001, 0x75DEA005, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75DEA001, 0x75DEA006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x75DEA001, 0x75DEA007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75DEA001, 0x75DEA008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75DEA001, 0x75DEA009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x75DEA001, 0x75DEA00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75DEA001, 0x75DEA00B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75DEA001, 0x75DEA00C, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x75DEA001, 0x75DEA00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75DEA001, 0x75DEA00E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75DEA001, 0x75DEA00F, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x75DEA001, 0x75DEA010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75DEA001, 0x75DEA011, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75DEA001, 0x75DEA012, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75DEA001, 0x75DEA013, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x75DEA001, 0x75DEA014, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75DEA001, 0x75DEA015, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x75DEA001, 0x75DEA002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75DEA001, 0x75DEA003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75DEA001, 0x75DEA004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75DEA001, 0x75DEA005, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75DEA001, 0x75DEA006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x75DEA001, 0x75DEA007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75DEA001, 0x75DEA008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75DEA001, 0x75DEA009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x75DEA001, 0x75DEA00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75DEA001, 0x75DEA00B, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x75DEA001, 0x75DEA00C, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x75DEA001, 0x75DEA00D, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x75DEA001, 0x75DEA00E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75DEA001, 0x75DEA00F, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x75DEA001, 0x75DEA010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75DEA001, 0x75DEA011, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75DEA001, 0x75DEA012, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75DEA001, 0x75DEA013, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x75DEA001, 0x75DEA014, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75DEA001, 0x75DEA015, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DEA002, 24290, 0x5DEA003C, 174.6501, 77.62688, 14.0341, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -111,8 +111,8 @@ VALUES (0x75DEA016,  1542, 0x5DEA003D, 185.6384, 97.44708, 10.72018, 0.9990482, 
 /* @teleloc 0x5DEA003D [185.638400 97.447080 10.720180] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DEA016, 0x75DEA017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75DEA016, 0x75DEA018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75DEA016, 0x75DEA017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75DEA016, 0x75DEA018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DEA017,  4179, 0x5DEA003D, 185.6384, 97.44708, 10.72018, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

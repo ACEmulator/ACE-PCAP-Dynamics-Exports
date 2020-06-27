@@ -5,11 +5,11 @@ VALUES (0x79DAB001,  1154, 0x9DAB0021, 97.53635, 20.32034, 80.16961, -0.2854841,
 /* @teleloc 0x9DAB0021 [97.536350 20.320340 80.169610] -0.285484 0.000000 0.000000 -0.958383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DAB001, 0x79DAB002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79DAB001, 0x79DAB003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79DAB001, 0x79DAB004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79DAB001, 0x79DAB005, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79DAB001, 0x79DAB006, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x79DAB001, 0x79DAB002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79DAB001, 0x79DAB003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79DAB001, 0x79DAB004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79DAB001, 0x79DAB005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79DAB001, 0x79DAB006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DAB002,  9251, 0x9DAB0021, 97.53635, 20.32034, 80.16961, -0.2854841, 0, 0, -0.9583834,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

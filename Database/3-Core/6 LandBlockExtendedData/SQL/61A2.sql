@@ -5,18 +5,18 @@ VALUES (0x761A2001,  1154, 0x61A20011, 49.80818, 5.110838, 85.12456, 0.4955415, 
 /* @teleloc 0x61A20011 [49.808180 5.110838 85.124560] 0.495542 0.000000 0.000000 -0.868584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761A2001, 0x761A2002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x761A2001, 0x761A2003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x761A2001, 0x761A2004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x761A2001, 0x761A2005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x761A2001, 0x761A2006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x761A2001, 0x761A2007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x761A2001, 0x761A2008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x761A2001, 0x761A2009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x761A2001, 0x761A200A, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x761A2001, 0x761A200B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x761A2001, 0x761A200C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x761A2001, 0x761A200D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x761A2001, 0x761A2002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x761A2001, 0x761A2003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x761A2001, 0x761A2004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x761A2001, 0x761A2005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x761A2001, 0x761A2006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x761A2001, 0x761A2007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x761A2001, 0x761A2008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x761A2001, 0x761A2009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x761A2001, 0x761A200A, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x761A2001, 0x761A200B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x761A2001, 0x761A200C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x761A2001, 0x761A200D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761A2002,  7780, 0x61A20011, 49.80818, 5.110838, 85.12456, 0.4955415, 0, 0, -0.8685843,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -71,8 +71,8 @@ VALUES (0x761A200E,  1542, 0x61A20004, 19.84385, 74.98102, 82.92617, 0.07844316,
 /* @teleloc 0x61A20004 [19.843850 74.981020 82.926170] 0.078443 0.000000 0.000000 -0.996919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761A200E, 0x761A200F, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x761A200E, 0x761A2010, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x761A200E, 0x761A200F, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x761A200E, 0x761A2010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761A200F,  8039, 0x61A20004, 19.84385, 74.98102, 82.92617, 0.07844316, 0, 0, -0.9969186,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

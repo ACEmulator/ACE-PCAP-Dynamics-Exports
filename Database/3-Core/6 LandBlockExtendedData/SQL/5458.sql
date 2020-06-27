@@ -9,92 +9,92 @@ VALUES (0x7545804A,  1154, 0x5458020D, 156.016, -69.8363, 0.01499999, 0.7216, 0,
 /* @teleloc 0x5458020D [156.016000 -69.836300 0.015000] 0.721600 0.000000 0.000000 0.692310 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545804A, 0x7545804B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545804C, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x7545804D, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545804E, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545804F, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458050, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458051, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458052, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458053, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458054, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458055, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458056, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458057, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458058, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458059, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x7545805A, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545805B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545805C, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545805D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545805E, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x7545805F, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458060, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458061, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458062, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458063, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458064, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458065, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458066, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458067, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458068, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458069, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x7545806A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545806B, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545806C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545806D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545806E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545806F, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458070, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458071, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458072, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458073, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458074, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458075, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458076, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458077, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458078, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458079, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545807A, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545807B, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545807C, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545807D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545807E, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545807F, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x75458080, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458081, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458082, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458083, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458084, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458085, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458086, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458087, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458088, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458089, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545808A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545808B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545808C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545808D, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x7545808E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545808F, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458090, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458091, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458092, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458093, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458094, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton */
-     , (0x7545804A, 0x75458095, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458096, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x75458097, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458098, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x75458099, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */
-     , (0x7545804A, 0x7545809A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545809B, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545809C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus */
-     , (0x7545804A, 0x7545809D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545809E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x7545809F, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok */
-     , (0x7545804A, 0x754580A0, '2019-02-10 00:00:00') /* Bronze Statue of a Golem */;
+VALUES (0x7545804A, 0x7545804B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545804C, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x7545804D, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545804E, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545804F, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458050, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458051, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458052, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458053, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458054, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458055, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458056, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458057, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458058, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458059, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x7545805A, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545805B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545805C, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545805D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545805E, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x7545805F, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458060, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458061, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458062, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458063, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458064, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458065, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458066, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458067, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458068, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458069, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x7545806A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545806B, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545806C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545806D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545806E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545806F, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458070, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458071, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458072, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458073, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458074, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458075, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458076, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458077, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458078, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458079, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545807A, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545807B, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545807C, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545807D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545807E, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545807F, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x75458080, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458081, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458082, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458083, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458084, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458085, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458086, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458087, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458088, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458089, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545808A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545808B, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545808C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545808D, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x7545808E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545808F, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458090, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458091, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458092, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458093, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458094, '2019-02-10 00:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x7545804A, 0x75458095, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458096, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x75458097, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458098, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x75458099, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x7545804A, 0x7545809A, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545809B, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545809C, '2019-02-10 00:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x7545804A, 0x7545809D, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545809E, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x7545809F, '2019-02-10 00:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x7545804A, 0x754580A0, '2019-02-10 00:00:00') /* Bronze Statue of a Golem (19276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545804B, 19276, 0x5458020D, 156.016, -69.8363, 0.01499999, 0.7216, 0, 0, 0.69231,  True, '2019-02-10 00:00:00'); /* Bronze Statue of a Golem */

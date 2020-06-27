@@ -5,11 +5,11 @@ VALUES (0x73A8F001,  1154, 0x3A8F0001, 10.9673, 22.42499, 44.56756, 0.7372774, 0
 /* @teleloc 0x3A8F0001 [10.967300 22.424990 44.567560] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A8F001, 0x73A8F002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A8F001, 0x73A8F003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73A8F001, 0x73A8F004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A8F001, 0x73A8F005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A8F001, 0x73A8F006, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x73A8F001, 0x73A8F002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A8F001, 0x73A8F003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73A8F001, 0x73A8F004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A8F001, 0x73A8F005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A8F001, 0x73A8F006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A8F002, 10807, 0x3A8F0001, 10.9673, 22.42499, 44.56756, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -36,7 +36,7 @@ VALUES (0x73A8F007,  1542, 0x3A8F0005, 14.19608, 112.3329, 105.4088, 1, 0, 0, 0,
 /* @teleloc 0x3A8F0005 [14.196080 112.332900 105.408800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A8F007, 0x73A8F008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73A8F007, 0x73A8F008, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A8F008,  4379, 0x3A8F0005, 14.19608, 112.3329, 105.4088, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

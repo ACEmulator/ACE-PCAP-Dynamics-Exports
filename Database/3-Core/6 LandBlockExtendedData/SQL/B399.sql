@@ -5,25 +5,25 @@ VALUES (0x7B399001,  1154, 0xB3990019, 87.84796, 9.245152, 72.19787, -0.9406463,
 /* @teleloc 0xB3990019 [87.847960 9.245152 72.197870] -0.940646 0.000000 0.000000 -0.339388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B399001, 0x7B399002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7B399001, 0x7B399003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B399001, 0x7B399004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7B399001, 0x7B399005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7B399001, 0x7B399006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B399001, 0x7B399007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B399001, 0x7B399008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B399001, 0x7B399009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B399001, 0x7B39900A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B399001, 0x7B39900B, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7B399001, 0x7B39900C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7B399001, 0x7B39900D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B399001, 0x7B39900E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B399001, 0x7B39900F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B399001, 0x7B399010, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B399001, 0x7B399011, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B399001, 0x7B399012, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B399001, 0x7B399013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B399001, 0x7B399014, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7B399001, 0x7B399002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B399001, 0x7B399003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B399001, 0x7B399004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7B399001, 0x7B399005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7B399001, 0x7B399006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B399001, 0x7B399007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B399001, 0x7B399008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B399001, 0x7B399009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B399001, 0x7B39900A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B399001, 0x7B39900B, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B399001, 0x7B39900C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7B399001, 0x7B39900D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B399001, 0x7B39900E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B399001, 0x7B39900F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B399001, 0x7B399010, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B399001, 0x7B399011, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B399001, 0x7B399012, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B399001, 0x7B399013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B399001, 0x7B399014, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B399002, 19439, 0xB3990019, 87.84796, 9.245152, 72.19787, -0.9406463, 0, 0, -0.3393884,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */
@@ -106,7 +106,7 @@ VALUES (0x7B399015,  1542, 0xB3990005, 11.97454, 109.8704, 58.84414, 1, 0, 0, 0,
 /* @teleloc 0xB3990005 [11.974540 109.870400 58.844140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B399015, 0x7B399016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B399015, 0x7B399016, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B399016, 22570, 0xB3990005, 11.97454, 109.8704, 58.84414, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

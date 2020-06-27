@@ -5,9 +5,9 @@ VALUES (0x7ABA7001,  1154, 0xABA70008, 2.059637, 186.4977, 169.1982, 0.8370922, 
 /* @teleloc 0xABA70008 [2.059637 186.497700 169.198200] 0.837092 0.000000 0.000000 -0.547062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA7001, 0x7ABA7002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7ABA7001, 0x7ABA7003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7ABA7001, 0x7ABA7004, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7ABA7001, 0x7ABA7002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7ABA7001, 0x7ABA7003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7ABA7001, 0x7ABA7004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA7002,     3, 0xABA70008, 2.059637, 186.4977, 169.1982, 0.8370922, 0, 0, -0.5470617,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

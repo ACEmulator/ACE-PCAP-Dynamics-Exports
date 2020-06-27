@@ -5,16 +5,16 @@ VALUES (0x7DA20001,  1154, 0xDA200013, 65.70871, 68.3428, -0.0934, 0.6427876, 0,
 /* @teleloc 0xDA200013 [65.708710 68.342800 -0.093400] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA20001, 0x7DA20002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7DA20001, 0x7DA20003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DA20001, 0x7DA20004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DA20001, 0x7DA20005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DA20001, 0x7DA20006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DA20001, 0x7DA20007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DA20001, 0x7DA20008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DA20001, 0x7DA20009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DA20001, 0x7DA2000A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DA20001, 0x7DA2000B, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7DA20001, 0x7DA20002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7DA20001, 0x7DA20003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DA20001, 0x7DA20004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DA20001, 0x7DA20005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DA20001, 0x7DA20006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DA20001, 0x7DA20007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DA20001, 0x7DA20008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DA20001, 0x7DA20009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DA20001, 0x7DA2000A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DA20001, 0x7DA2000B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA20002,  7103, 0xDA200013, 65.70871, 68.3428, -0.0934, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */

@@ -21,46 +21,46 @@ VALUES (0x7F15A011,  1154, 0xF15A0102, 108.565, 86.2221, 0.007149994, 0.842, 0, 
 /* @teleloc 0xF15A0102 [108.565000 86.222100 0.007150] 0.842000 0.000000 0.000000 0.539477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F15A011, 0x7F15A012, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A013, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A014, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A015, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F15A011, 0x7F15A016, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F15A011, 0x7F15A017, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F15A011, 0x7F15A019, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A01A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A01B, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A01C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A01D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A01E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F15A011, 0x7F15A01F, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A020, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F15A011, 0x7F15A021, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F15A011, 0x7F15A022, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F15A011, 0x7F15A023, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F15A011, 0x7F15A024, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F15A011, 0x7F15A025, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F15A011, 0x7F15A026, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F15A011, 0x7F15A027, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F15A011, 0x7F15A028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F15A011, 0x7F15A029, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A02A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F15A011, 0x7F15A02B, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F15A011, 0x7F15A02C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F15A011, 0x7F15A02D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F15A011, 0x7F15A02E, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A02F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F15A011, 0x7F15A030, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A031, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F15A011, 0x7F15A032, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F15A011, 0x7F15A033, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F15A011, 0x7F15A034, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F15A011, 0x7F15A035, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F15A011, 0x7F15A036, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F15A011, 0x7F15A037, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F15A011, 0x7F15A038, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F15A011, 0x7F15A039, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7F15A011, 0x7F15A012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A013, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A014, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A015, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F15A011, 0x7F15A016, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F15A011, 0x7F15A017, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F15A011, 0x7F15A019, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A01A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A01B, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A01C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A01D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A01E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F15A011, 0x7F15A01F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A020, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F15A011, 0x7F15A021, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F15A011, 0x7F15A022, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F15A011, 0x7F15A023, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F15A011, 0x7F15A024, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F15A011, 0x7F15A025, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F15A011, 0x7F15A026, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F15A011, 0x7F15A027, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F15A011, 0x7F15A028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F15A011, 0x7F15A029, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A02A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F15A011, 0x7F15A02B, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F15A011, 0x7F15A02C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F15A011, 0x7F15A02D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F15A011, 0x7F15A02E, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A02F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F15A011, 0x7F15A030, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A031, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A011, 0x7F15A032, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F15A011, 0x7F15A033, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F15A011, 0x7F15A034, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F15A011, 0x7F15A035, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F15A011, 0x7F15A036, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F15A011, 0x7F15A037, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F15A011, 0x7F15A038, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F15A011, 0x7F15A039, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F15A012, 22809, 0xF15A0102, 108.565, 86.2221, 0.007149994, 0.842, 0, 0, 0.539477,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -227,8 +227,8 @@ VALUES (0x7F15A03A,  1542, 0xF15A0024, 112.3857, 92.10381, 1.228333, 0.5020489, 
 /* @teleloc 0xF15A0024 [112.385700 92.103810 1.228333] 0.502049 0.000000 0.000000 -0.864839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F15A03A, 0x7F15A03B, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7F15A03A, 0x7F15A03C, '2019-02-10 00:00:00') /* Rabbit */;
+VALUES (0x7F15A03A, 0x7F15A03B, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7F15A03A, 0x7F15A03C, '2019-02-10 00:00:00') /* Rabbit (33040) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F15A03B, 33040, 0xF15A0024, 112.3857, 92.10381, 1.228333, 0.5020489, 0, 0, -0.8648393,  True, '2019-02-10 00:00:00'); /* Rabbit */

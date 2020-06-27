@@ -5,17 +5,17 @@ VALUES (0x7A8C7001,  1154, 0xA8C70030, 122.9125, 175.6487, 99.51459, 0.8089697, 
 /* @teleloc 0xA8C70030 [122.912500 175.648700 99.514590] 0.808970 0.000000 0.000000 -0.587850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8C7001, 0x7A8C7002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7A8C7001, 0x7A8C7003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A8C7001, 0x7A8C7004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A8C7001, 0x7A8C7005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A8C7001, 0x7A8C7006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A8C7001, 0x7A8C7007, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A8C7001, 0x7A8C7008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A8C7001, 0x7A8C7009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A8C7001, 0x7A8C700A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A8C7001, 0x7A8C700B, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7A8C7001, 0x7A8C700C, '2019-02-10 00:00:00') /* Old Zombie */;
+VALUES (0x7A8C7001, 0x7A8C7002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7A8C7001, 0x7A8C7003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A8C7001, 0x7A8C7004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A8C7001, 0x7A8C7005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A8C7001, 0x7A8C7006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A8C7001, 0x7A8C7007, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A8C7001, 0x7A8C7008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A8C7001, 0x7A8C7009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A8C7001, 0x7A8C700A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A8C7001, 0x7A8C700B, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7A8C7001, 0x7A8C700C, '2019-02-10 00:00:00') /* Old Zombie (34102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8C7002, 22009, 0xA8C70030, 122.9125, 175.6487, 99.51459, 0.8089697, 0, 0, -0.5878504,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -66,7 +66,7 @@ VALUES (0x7A8C700D,  1542, 0xA8C70036, 160.2864, 132.6105, 95.59193, -0.8644227,
 /* @teleloc 0xA8C70036 [160.286400 132.610500 95.591930] -0.864423 0.000000 0.000000 -0.502766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8C700D, 0x7A8C700E, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7A8C700D, 0x7A8C700E, '2019-02-10 00:00:00') /* Old Gravestone (34131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8C700E, 34131, 0xA8C70036, 160.2864, 132.6105, 95.59193, -0.8644227, 0, 0, -0.5027657,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

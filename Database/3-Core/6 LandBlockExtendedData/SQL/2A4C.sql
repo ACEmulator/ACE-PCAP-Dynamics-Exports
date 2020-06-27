@@ -5,22 +5,22 @@ VALUES (0x72A4C001,  1154, 0x2A4C0039, 172.7465, 17.73489, 50.75051, 0.5215787, 
 /* @teleloc 0x2A4C0039 [172.746500 17.734890 50.750510] 0.521579 0.000000 0.000000 -0.853203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4C001, 0x72A4C002, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72A4C001, 0x72A4C003, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A4C001, 0x72A4C004, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C005, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C006, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C007, '2019-02-10 00:00:00') /* Fallen Crystal Shard */
-     , (0x72A4C001, 0x72A4C008, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C00A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C00B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C00C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72A4C001, 0x72A4C00D, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x72A4C001, 0x72A4C00E, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72A4C001, 0x72A4C00F, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4C001, 0x72A4C010, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4C001, 0x72A4C011, '2019-02-10 00:00:00') /* Dreadful Ursuin */;
+VALUES (0x72A4C001, 0x72A4C002, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72A4C001, 0x72A4C003, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A4C001, 0x72A4C004, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C005, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C006, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C007, '2019-02-10 00:00:00') /* Fallen Crystal Shard (30889) */
+     , (0x72A4C001, 0x72A4C008, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C00A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C00B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C00C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72A4C001, 0x72A4C00D, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x72A4C001, 0x72A4C00E, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72A4C001, 0x72A4C00F, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4C001, 0x72A4C010, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4C001, 0x72A4C011, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4C002, 22900, 0x2A4C0039, 172.7465, 17.73489, 50.75051, 0.5215787, 0, 0, -0.8532032,  True, '2019-02-10 00:00:00'); /* Bile Grievver */

@@ -21,15 +21,15 @@ VALUES (0x7CF98004,  1154, 0xCF980006, 5.378891, 137.0804, 3.108518, 0.9635239, 
 /* @teleloc 0xCF980006 [5.378891 137.080400 3.108518] 0.963524 0.000000 0.000000 -0.267622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF98004, 0x7CF98005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CF98004, 0x7CF98006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7CF98004, 0x7CF98007, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7CF98004, 0x7CF98008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF98004, 0x7CF98009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF98004, 0x7CF9800A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF98004, 0x7CF9800B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF98004, 0x7CF9800C, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CF98004, 0x7CF9800D, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x7CF98004, 0x7CF98005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CF98004, 0x7CF98006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7CF98004, 0x7CF98007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7CF98004, 0x7CF98008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF98004, 0x7CF98009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF98004, 0x7CF9800A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF98004, 0x7CF9800B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF98004, 0x7CF9800C, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CF98004, 0x7CF9800D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF98005,  1758, 0xCF980006, 5.378891, 137.0804, 3.108518, 0.9635239, 0, 0, -0.2676221,  True, '2019-02-10 00:00:00'); /* Shadow */

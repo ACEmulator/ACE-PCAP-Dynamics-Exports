@@ -5,17 +5,17 @@ VALUES (0x7DA3C001,  1154, 0xDA3C0039, 169.2885, 10.38039, 43.35275, 0.9375569, 
 /* @teleloc 0xDA3C0039 [169.288500 10.380390 43.352750] 0.937557 0.000000 0.000000 -0.347832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3C001, 0x7DA3C002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3C001, 0x7DA3C004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3C001, 0x7DA3C008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C009, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C00A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3C001, 0x7DA3C00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3C001, 0x7DA3C00C, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7DA3C001, 0x7DA3C002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3C001, 0x7DA3C004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3C001, 0x7DA3C008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C009, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C00A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3C001, 0x7DA3C00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3C001, 0x7DA3C00C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3C002,  2567, 0xDA3C0039, 169.2885, 10.38039, 43.35275, 0.9375569, 0, 0, -0.3478321,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */

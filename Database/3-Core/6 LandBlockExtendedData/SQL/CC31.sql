@@ -5,10 +5,10 @@ VALUES (0x7CC31001,  1154, 0xCC31003C, 172.8892, 83.15564, 265.6073, 0.6095662, 
 /* @teleloc 0xCC31003C [172.889200 83.155640 265.607300] 0.609566 0.000000 0.000000 -0.792735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC31001, 0x7CC31002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7CC31001, 0x7CC31003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7CC31001, 0x7CC31004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CC31001, 0x7CC31005, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7CC31001, 0x7CC31002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7CC31001, 0x7CC31003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7CC31001, 0x7CC31004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CC31001, 0x7CC31005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC31002,  5890, 0xCC31003C, 172.8892, 83.15564, 265.6073, 0.6095662, 0, 0, -0.7927352,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */
@@ -31,7 +31,7 @@ VALUES (0x7CC31006,  1542, 0xCC310012, 69.62275, 24.9677, 301.0273, 0.9899403, 0
 /* @teleloc 0xCC310012 [69.622750 24.967700 301.027300] 0.989940 0.000000 0.000000 -0.141485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC31006, 0x7CC31007, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7CC31006, 0x7CC31007, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC31007,  8646, 0xCC310012, 69.62275, 24.9677, 301.0273, 0.9899403, 0, 0, -0.1414852,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

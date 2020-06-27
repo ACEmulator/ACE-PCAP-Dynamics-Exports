@@ -5,25 +5,25 @@ VALUES (0x7D491001,  1154, 0xD491003D, 170.3447, 113.7958, -0.8925, 0.976296, 0,
 /* @teleloc 0xD491003D [170.344700 113.795800 -0.892500] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D491001, 0x7D491002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D491001, 0x7D491003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D491001, 0x7D491004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D491001, 0x7D491005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D491001, 0x7D491006, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D491001, 0x7D491007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D491001, 0x7D491008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D491001, 0x7D491009, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D491001, 0x7D49100A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D491001, 0x7D49100B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D491001, 0x7D49100C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D491001, 0x7D49100D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D491001, 0x7D49100E, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D491001, 0x7D49100F, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D491001, 0x7D491010, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D491001, 0x7D491011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D491001, 0x7D491012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D491001, 0x7D491013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D491001, 0x7D491014, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7D491001, 0x7D491002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D491001, 0x7D491003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D491001, 0x7D491004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D491001, 0x7D491005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D491001, 0x7D491006, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D491001, 0x7D491007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D491001, 0x7D491008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D491001, 0x7D491009, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D491001, 0x7D49100A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D491001, 0x7D49100B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D491001, 0x7D49100C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D491001, 0x7D49100D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D491001, 0x7D49100E, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D491001, 0x7D49100F, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D491001, 0x7D491010, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D491001, 0x7D491011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D491001, 0x7D491012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D491001, 0x7D491013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D491001, 0x7D491014, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D491002,  1630, 0xD491003D, 170.3447, 113.7958, -0.8925, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */

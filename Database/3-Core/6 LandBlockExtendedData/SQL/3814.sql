@@ -5,13 +5,13 @@ VALUES (0x73814001,  1154, 0x38140004, 0.1749268, 84.30648, 15.77835, 0.9961947,
 /* @teleloc 0x38140004 [0.174927 84.306480 15.778350] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73814001, 0x73814002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73814001, 0x73814003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73814001, 0x73814004, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73814001, 0x73814005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73814001, 0x73814006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73814001, 0x73814007, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73814001, 0x73814008, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73814001, 0x73814002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73814001, 0x73814003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73814001, 0x73814004, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73814001, 0x73814005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73814001, 0x73814006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73814001, 0x73814007, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73814001, 0x73814008, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73814002,  1629, 0x38140004, 0.1749268, 84.30648, 15.77835, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -46,7 +46,7 @@ VALUES (0x73814009,  1542, 0x38140015, 51.34761, 96.54763, 23.39643, 0.9914449, 
 /* @teleloc 0x38140015 [51.347610 96.547630 23.396430] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73814009, 0x7381400A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73814009, 0x7381400A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7381400A,  4380, 0x38140015, 51.34761, 96.54763, 23.39643, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

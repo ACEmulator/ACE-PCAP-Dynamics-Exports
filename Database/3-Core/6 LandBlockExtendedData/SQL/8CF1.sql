@@ -5,30 +5,30 @@ VALUES (0x78CF1001,  1154, 0x8CF1003C, 170.1947, 87.1153, 22.96907, 0.6601233, 0
 /* @teleloc 0x8CF1003C [170.194700 87.115300 22.969070] 0.660123 0.000000 0.000000 -0.751157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CF1001, 0x78CF1002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78CF1001, 0x78CF1003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CF1001, 0x78CF1004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CF1001, 0x78CF1005, '2019-02-10 00:00:00') /* Banished Tusker */
-     , (0x78CF1001, 0x78CF1006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78CF1001, 0x78CF1007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CF1001, 0x78CF1008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78CF1001, 0x78CF1009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CF1001, 0x78CF100A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CF1001, 0x78CF100B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CF1001, 0x78CF100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78CF1001, 0x78CF100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78CF1001, 0x78CF100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78CF1001, 0x78CF100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78CF1001, 0x78CF1010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CF1001, 0x78CF1011, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CF1001, 0x78CF1012, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CF1001, 0x78CF1013, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CF1001, 0x78CF1014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CF1001, 0x78CF1015, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CF1001, 0x78CF1016, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CF1001, 0x78CF1017, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CF1001, 0x78CF1018, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CF1001, 0x78CF1019, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x78CF1001, 0x78CF1002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78CF1001, 0x78CF1003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CF1001, 0x78CF1004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CF1001, 0x78CF1005, '2019-02-10 00:00:00') /* Banished Tusker (30883) */
+     , (0x78CF1001, 0x78CF1006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78CF1001, 0x78CF1007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CF1001, 0x78CF1008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78CF1001, 0x78CF1009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CF1001, 0x78CF100A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CF1001, 0x78CF100B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CF1001, 0x78CF100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78CF1001, 0x78CF100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78CF1001, 0x78CF100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78CF1001, 0x78CF100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78CF1001, 0x78CF1010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CF1001, 0x78CF1011, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CF1001, 0x78CF1012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CF1001, 0x78CF1013, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CF1001, 0x78CF1014, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CF1001, 0x78CF1015, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CF1001, 0x78CF1016, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CF1001, 0x78CF1017, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CF1001, 0x78CF1018, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CF1001, 0x78CF1019, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CF1002,  7124, 0x8CF1003C, 170.1947, 87.1153, 22.96907, 0.6601233, 0, 0, -0.7511573,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -131,7 +131,7 @@ VALUES (0x78CF101A,  1542, 0x8CF10024, 113.4699, 72.02176, 26.42874, -4.371139E-
 /* @teleloc 0x8CF10024 [113.469900 72.021760 26.428740] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CF101A, 0x78CF101B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78CF101A, 0x78CF101B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CF101B,  4380, 0x8CF10024, 113.4699, 72.02176, 26.42874, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

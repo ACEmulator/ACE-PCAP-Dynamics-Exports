@@ -5,12 +5,12 @@ VALUES (0x73E45001,  1154, 0x3E450009, 26.16834, 11.27851, 74.36824, -0.1301187,
 /* @teleloc 0x3E450009 [26.168340 11.278510 74.368240] -0.130119 0.000000 0.000000 -0.991498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E45001, 0x73E45002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E45001, 0x73E45003, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73E45001, 0x73E45004, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73E45001, 0x73E45005, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73E45001, 0x73E45006, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73E45001, 0x73E45007, '2019-02-10 00:00:00') /* Guruk Miscreant */;
+VALUES (0x73E45001, 0x73E45002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E45001, 0x73E45003, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73E45001, 0x73E45004, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73E45001, 0x73E45005, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73E45001, 0x73E45006, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73E45001, 0x73E45007, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E45002, 14516, 0x3E450009, 26.16834, 11.27851, 74.36824, -0.1301187, 0, 0, -0.9914984,  True, '2019-02-10 00:00:00'); /* Caustic */

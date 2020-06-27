@@ -5,9 +5,9 @@ VALUES (0x7281B001,  1154, 0x281B0001, 17.22081, 11.38658, 48.54144, 0.4386514, 
 /* @teleloc 0x281B0001 [17.220810 11.386580 48.541440] 0.438651 0.000000 0.000000 -0.898657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7281B001, 0x7281B002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7281B001, 0x7281B003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7281B001, 0x7281B004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7281B001, 0x7281B002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7281B001, 0x7281B003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7281B001, 0x7281B004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7281B002, 11536, 0x281B0001, 17.22081, 11.38658, 48.54144, 0.4386514, 0, 0, -0.8986573,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

@@ -5,13 +5,13 @@ VALUES (0x765AB001,  1154, 0x65AB000C, 42.7645, 90.16333, 99.87914, 0.9575953, 0
 /* @teleloc 0x65AB000C [42.764500 90.163330 99.879140] 0.957595 0.000000 0.000000 -0.288117 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765AB001, 0x765AB002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x765AB001, 0x765AB003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765AB001, 0x765AB004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765AB001, 0x765AB005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765AB001, 0x765AB006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x765AB001, 0x765AB007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x765AB001, 0x765AB008, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x765AB001, 0x765AB002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x765AB001, 0x765AB003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765AB001, 0x765AB004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765AB001, 0x765AB005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765AB001, 0x765AB006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x765AB001, 0x765AB007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x765AB001, 0x765AB008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765AB002,  7084, 0x65AB000C, 42.7645, 90.16333, 99.87914, 0.9575953, 0, 0, -0.2881165,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -46,7 +46,7 @@ VALUES (0x765AB009,  1542, 0x65AB000F, 40.49894, 167.2294, 89.66386, 0.9990482, 
 /* @teleloc 0x65AB000F [40.498940 167.229400 89.663860] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765AB009, 0x765AB00A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x765AB009, 0x765AB00A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765AB00A,  6117, 0x65AB000F, 40.49894, 167.2294, 89.66386, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

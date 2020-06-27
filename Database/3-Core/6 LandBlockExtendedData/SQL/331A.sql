@@ -5,10 +5,10 @@ VALUES (0x7331A001,  1154, 0x331A003A, 168.0994, 46.62806, 10.12261, -0.7720093,
 /* @teleloc 0x331A003A [168.099400 46.628060 10.122610] -0.772009 0.000000 0.000000 -0.635611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7331A001, 0x7331A002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7331A001, 0x7331A003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7331A001, 0x7331A004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7331A001, 0x7331A005, '2019-02-10 00:00:00') /* Unstable Rift */;
+VALUES (0x7331A001, 0x7331A002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7331A001, 0x7331A003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7331A001, 0x7331A004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7331A001, 0x7331A005, '2019-02-10 00:00:00') /* Unstable Rift (10802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7331A002, 23616, 0x331A003A, 168.0994, 46.62806, 10.12261, -0.7720093, 0, 0, -0.6356112,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

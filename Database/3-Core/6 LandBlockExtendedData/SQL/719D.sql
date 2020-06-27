@@ -5,21 +5,21 @@ VALUES (0x7719D001,  1154, 0x719D0006, 7.255291, 143.0839, 92.68919, 0.7347257, 
 /* @teleloc 0x719D0006 [7.255291 143.083900 92.689190] 0.734726 0.000000 0.000000 -0.678364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719D001, 0x7719D002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7719D001, 0x7719D003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719D001, 0x7719D004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7719D001, 0x7719D005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7719D001, 0x7719D006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7719D001, 0x7719D007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719D001, 0x7719D008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7719D001, 0x7719D009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7719D001, 0x7719D00A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7719D001, 0x7719D00B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7719D001, 0x7719D00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7719D001, 0x7719D00D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7719D001, 0x7719D00E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7719D001, 0x7719D00F, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7719D001, 0x7719D010, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x7719D001, 0x7719D002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7719D001, 0x7719D003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719D001, 0x7719D004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7719D001, 0x7719D005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7719D001, 0x7719D006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7719D001, 0x7719D007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719D001, 0x7719D008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7719D001, 0x7719D009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7719D001, 0x7719D00A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7719D001, 0x7719D00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7719D001, 0x7719D00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7719D001, 0x7719D00D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7719D001, 0x7719D00E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7719D001, 0x7719D00F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7719D001, 0x7719D010, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719D002,  4217, 0x719D0006, 7.255291, 143.0839, 92.68919, 0.7347257, 0, 0, -0.6783644,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -86,7 +86,7 @@ VALUES (0x7719D011,  1542, 0x719D001D, 90.71815, 106.4572, 117.6421, 0.9990482, 
 /* @teleloc 0x719D001D [90.718150 106.457200 117.642100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719D011, 0x7719D012, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7719D011, 0x7719D012, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719D012,  6117, 0x719D001D, 90.71815, 106.4572, 117.6421, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

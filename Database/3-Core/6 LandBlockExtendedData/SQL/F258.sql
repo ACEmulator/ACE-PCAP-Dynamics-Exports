@@ -5,20 +5,20 @@ VALUES (0x7F258001,  1154, 0xF2580017, 55.96408, 145.8299, 11.09165, 0.2416631, 
 /* @teleloc 0xF2580017 [55.964080 145.829900 11.091650] 0.241663 0.000000 0.000000 -0.970360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F258001, 0x7F258002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F258001, 0x7F258003, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7F258001, 0x7F258004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F258001, 0x7F258005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F258001, 0x7F258006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F258001, 0x7F258007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F258001, 0x7F258008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F258001, 0x7F258009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F258001, 0x7F25800A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F258001, 0x7F25800B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F258001, 0x7F25800C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F258001, 0x7F25800D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F258001, 0x7F25800E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F258001, 0x7F25800F, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7F258001, 0x7F258002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F258001, 0x7F258003, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7F258001, 0x7F258004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F258001, 0x7F258005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F258001, 0x7F258006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F258001, 0x7F258007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F258001, 0x7F258008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F258001, 0x7F258009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F258001, 0x7F25800A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F258001, 0x7F25800B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F258001, 0x7F25800C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F258001, 0x7F25800D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F258001, 0x7F25800E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F258001, 0x7F25800F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F258002,  8428, 0xF2580017, 55.96408, 145.8299, 11.09165, 0.2416631, 0, 0, -0.9703602,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */

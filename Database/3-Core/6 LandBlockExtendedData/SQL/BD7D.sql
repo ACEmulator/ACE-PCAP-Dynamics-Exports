@@ -5,26 +5,26 @@ VALUES (0x7BD7D001,  1154, 0xBD7D0011, 69.42524, 5.598507, 60.15896, -4.371139E-
 /* @teleloc 0xBD7D0011 [69.425240 5.598507 60.158960] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD7D001, 0x7BD7D002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BD7D001, 0x7BD7D003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BD7D001, 0x7BD7D004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7BD7D001, 0x7BD7D005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BD7D001, 0x7BD7D006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BD7D001, 0x7BD7D007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BD7D001, 0x7BD7D008, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BD7D001, 0x7BD7D009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD7D001, 0x7BD7D00A, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BD7D001, 0x7BD7D00B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD7D001, 0x7BD7D00C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD7D001, 0x7BD7D00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD7D001, 0x7BD7D00E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD7D001, 0x7BD7D00F, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BD7D001, 0x7BD7D010, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BD7D001, 0x7BD7D011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BD7D001, 0x7BD7D012, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BD7D001, 0x7BD7D013, '2019-02-10 00:00:00') /* Static */
-     , (0x7BD7D001, 0x7BD7D014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD7D001, 0x7BD7D015, '2019-02-10 00:00:00') /* Drudge Robber */;
+VALUES (0x7BD7D001, 0x7BD7D002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BD7D001, 0x7BD7D003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BD7D001, 0x7BD7D004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7BD7D001, 0x7BD7D005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BD7D001, 0x7BD7D006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BD7D001, 0x7BD7D007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BD7D001, 0x7BD7D008, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BD7D001, 0x7BD7D009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD7D001, 0x7BD7D00A, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BD7D001, 0x7BD7D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD7D001, 0x7BD7D00C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD7D001, 0x7BD7D00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD7D001, 0x7BD7D00E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD7D001, 0x7BD7D00F, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BD7D001, 0x7BD7D010, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BD7D001, 0x7BD7D011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BD7D001, 0x7BD7D012, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BD7D001, 0x7BD7D013, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BD7D001, 0x7BD7D014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD7D001, 0x7BD7D015, '2019-02-10 00:00:00') /* Drudge Robber (1464) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD7D002,  2439, 0xBD7D0011, 69.42524, 5.598507, 60.15896, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -111,8 +111,8 @@ VALUES (0x7BD7D016,  1542, 0xBD7D0011, 70.9237, 12.50898, 60.15896, 0.9990482, 0
 /* @teleloc 0xBD7D0011 [70.923700 12.508980 60.158960] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD7D016, 0x7BD7D017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BD7D016, 0x7BD7D018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD7D016, 0x7BD7D017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BD7D016, 0x7BD7D018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD7D017,  4179, 0xBD7D0011, 70.9237, 12.50898, 60.15896, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

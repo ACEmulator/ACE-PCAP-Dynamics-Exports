@@ -5,12 +5,12 @@ VALUES (0x735E6001,  1154, 0x35E60038, 166.8688, 190.8773, 10.22731, -0.2157951,
 /* @teleloc 0x35E60038 [166.868800 190.877300 10.227310] -0.215795 0.000000 0.000000 -0.976439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735E6001, 0x735E6002, '2019-02-10 00:00:00') /* Bokrok Lugian */
-     , (0x735E6001, 0x735E6003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735E6001, 0x735E6004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x735E6001, 0x735E6005, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735E6001, 0x735E6006, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x735E6001, 0x735E6007, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x735E6001, 0x735E6002, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */
+     , (0x735E6001, 0x735E6003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735E6001, 0x735E6004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x735E6001, 0x735E6005, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735E6001, 0x735E6006, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x735E6001, 0x735E6007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735E6002, 29348, 0x35E60038, 166.8688, 190.8773, 10.22731, -0.2157951, 0, 0, -0.9764386,  True, '2019-02-10 00:00:00'); /* Bokrok Lugian */

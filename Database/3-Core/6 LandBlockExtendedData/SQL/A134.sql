@@ -5,17 +5,17 @@ VALUES (0x7A134001,  1154, 0xA134002F, 141.8473, 165.9042, 59.82516, 0.9659258, 
 /* @teleloc 0xA134002F [141.847300 165.904200 59.825160] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A134001, 0x7A134002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A134001, 0x7A134003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A134001, 0x7A134004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A134001, 0x7A134005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A134001, 0x7A134006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A134001, 0x7A134007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A134001, 0x7A134008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A134001, 0x7A134009, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A134001, 0x7A13400A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A134001, 0x7A13400B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A134001, 0x7A13400C, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7A134001, 0x7A134002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A134001, 0x7A134003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A134001, 0x7A134004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A134001, 0x7A134005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A134001, 0x7A134006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A134001, 0x7A134007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A134001, 0x7A134008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A134001, 0x7A134009, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A134001, 0x7A13400A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A134001, 0x7A13400B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A134001, 0x7A13400C, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A134002,  1609, 0xA134002F, 141.8473, 165.9042, 59.82516, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

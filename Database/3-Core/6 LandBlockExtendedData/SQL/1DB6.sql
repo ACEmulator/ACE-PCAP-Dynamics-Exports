@@ -33,59 +33,59 @@ VALUES (0x71DB6035,  1154, 0x1DB60106, 174.9984, 131.433, 120.007, -0.707107, 0,
 /* @teleloc 0x1DB60106 [174.998400 131.433000 120.007000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB6035, 0x71DB6036, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6037, '2019-02-10 00:00:00') /* Aun Kimintari */
-     , (0x71DB6035, 0x71DB6038, '2019-02-10 00:00:00') /* Aun Kiriona */
-     , (0x71DB6035, 0x71DB6039, '2019-02-10 00:00:00') /* Aun Rukuona */
-     , (0x71DB6035, 0x71DB603A, '2019-02-10 00:00:00') /* Aun Turiona */
-     , (0x71DB6035, 0x71DB603B, '2019-02-10 00:00:00') /* Aun Faranua */
-     , (0x71DB6035, 0x71DB603C, '2019-02-10 00:00:00') /* Aun Ngationa */
-     , (0x71DB6035, 0x71DB603D, '2019-02-10 00:00:00') /* Aun Firanauri the Gate Keeper */
-     , (0x71DB6035, 0x71DB603E, '2019-02-10 00:00:00') /* Aun Whethura the Crafter */
-     , (0x71DB6035, 0x71DB603F, '2019-02-10 00:00:00') /* Aun Mareura the Collector */
-     , (0x71DB6035, 0x71DB6040, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6041, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6042, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6043, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6044, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6045, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6046, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6047, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6048, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6049, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604A, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604B, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604C, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604D, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604E, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB604F, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6050, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6051, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6052, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6053, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6054, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6055, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6056, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6057, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6058, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6059, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605A, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605B, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605C, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605D, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605E, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB605F, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6060, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6061, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6062, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6063, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6064, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6065, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6066, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6067, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6068, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB6069, '2019-02-10 00:00:00') /* Aun Hareltah */
-     , (0x71DB6035, 0x71DB606A, '2019-02-10 00:00:00') /* Aun Hareltah */;
+VALUES (0x71DB6035, 0x71DB6036, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6037, '2019-02-10 00:00:00') /* Aun Kimintari (39054) */
+     , (0x71DB6035, 0x71DB6038, '2019-02-10 00:00:00') /* Aun Kiriona (24055) */
+     , (0x71DB6035, 0x71DB6039, '2019-02-10 00:00:00') /* Aun Rukuona (24054) */
+     , (0x71DB6035, 0x71DB603A, '2019-02-10 00:00:00') /* Aun Turiona (24052) */
+     , (0x71DB6035, 0x71DB603B, '2019-02-10 00:00:00') /* Aun Faranua (28472) */
+     , (0x71DB6035, 0x71DB603C, '2019-02-10 00:00:00') /* Aun Ngationa (24053) */
+     , (0x71DB6035, 0x71DB603D, '2019-02-10 00:00:00') /* Aun Firanauri the Gate Keeper (11406) */
+     , (0x71DB6035, 0x71DB603E, '2019-02-10 00:00:00') /* Aun Whethura the Crafter (11349) */
+     , (0x71DB6035, 0x71DB603F, '2019-02-10 00:00:00') /* Aun Mareura the Collector (11348) */
+     , (0x71DB6035, 0x71DB6040, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6041, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6042, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6043, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6044, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6045, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6046, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6047, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6048, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6049, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604A, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604B, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604C, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604D, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604E, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB604F, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6050, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6051, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6052, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6053, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6054, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6055, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6056, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6057, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6058, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6059, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605A, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605B, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605C, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605D, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605E, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB605F, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6060, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6061, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6062, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6063, '2019-02-10 00:00:00') /* Aun Hareltah (10979) */
+     , (0x71DB6035, 0x71DB6064, '2019-02-10 00:00:00') /* Aun Hareltah (10981) */
+     , (0x71DB6035, 0x71DB6065, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6066, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6067, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6068, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB6069, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */
+     , (0x71DB6035, 0x71DB606A, '2019-02-10 00:00:00') /* Aun Hareltah (10980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB6036, 10980, 0x1DB60106, 174.9984, 131.433, 120.007, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Aun Hareltah */
@@ -304,10 +304,10 @@ VALUES (0x71DB606B,  1542, 0x1DB60026, 118.851, 120.572, 120, -0.642076, 0, 0, -
 /* @teleloc 0x1DB60026 [118.851000 120.572000 120.000000] -0.642076 0.000000 0.000000 -0.766641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB606B, 0x71DB606C, '2019-02-10 00:00:00') /* Morgluuk's Head */
-     , (0x71DB606B, 0x71DB606D, '2019-02-10 00:00:00') /* Aun Mireona the Shopkeep */
-     , (0x71DB606B, 0x71DB606E, '2019-02-10 00:00:00') /* Rare Pink Pack Idol */
-     , (0x71DB606B, 0x71DB606F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71DB606B, 0x71DB606C, '2019-02-10 00:00:00') /* Morgluuk's Head (28450) */
+     , (0x71DB606B, 0x71DB606D, '2019-02-10 00:00:00') /* Aun Mireona the Shopkeep (11407) */
+     , (0x71DB606B, 0x71DB606E, '2019-02-10 00:00:00') /* Rare Pink Pack Idol (32794) */
+     , (0x71DB606B, 0x71DB606F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB606C, 28450, 0x1DB60026, 118.851, 120.572, 120, -0.642076, 0, 0, -0.766641,  True, '2019-02-10 00:00:00'); /* Morgluuk's Head */

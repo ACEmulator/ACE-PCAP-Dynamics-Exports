@@ -5,9 +5,9 @@ VALUES (0x737F2001,  1154, 0x37F20007, 16.9595, 162.7095, 10.0066, -0.7992861, 0
 /* @teleloc 0x37F20007 [16.959500 162.709500 10.006600] -0.799286 0.000000 0.000000 -0.600951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737F2001, 0x737F2002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x737F2001, 0x737F2003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737F2001, 0x737F2004, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x737F2001, 0x737F2002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x737F2001, 0x737F2003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737F2001, 0x737F2004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737F2002, 28668, 0x37F20007, 16.9595, 162.7095, 10.0066, -0.7992861, 0, 0, -0.6009507,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

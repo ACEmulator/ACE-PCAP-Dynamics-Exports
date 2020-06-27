@@ -5,21 +5,21 @@ VALUES (0x7D2D5001,  1154, 0xD2D5002E, 127.9938, 120.7073, 1.280312, -0.9110313,
 /* @teleloc 0xD2D5002E [127.993800 120.707300 1.280312] -0.911031 0.000000 0.000000 -0.412337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2D5001, 0x7D2D5002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D2D5001, 0x7D2D5003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D5001, 0x7D2D5004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D5001, 0x7D2D5005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D5001, 0x7D2D5006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D5001, 0x7D2D5007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D5001, 0x7D2D5008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D5001, 0x7D2D5009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D5001, 0x7D2D500A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D5001, 0x7D2D500B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D5001, 0x7D2D500C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D2D5001, 0x7D2D500D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D2D5001, 0x7D2D500E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D5001, 0x7D2D500F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D2D5001, 0x7D2D5010, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7D2D5001, 0x7D2D5002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D2D5001, 0x7D2D5003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D5001, 0x7D2D5004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D5001, 0x7D2D5005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D5001, 0x7D2D5006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D5001, 0x7D2D5007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D5001, 0x7D2D5008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D5001, 0x7D2D5009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D5001, 0x7D2D500A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D5001, 0x7D2D500B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D5001, 0x7D2D500C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D2D5001, 0x7D2D500D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D2D5001, 0x7D2D500E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D5001, 0x7D2D500F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D2D5001, 0x7D2D5010, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D5002,  4247, 0xD2D5002E, 127.9938, 120.7073, 1.280312, -0.9110313, 0, 0, -0.4123372,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

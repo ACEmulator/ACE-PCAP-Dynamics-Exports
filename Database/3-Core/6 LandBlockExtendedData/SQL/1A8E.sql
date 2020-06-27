@@ -5,25 +5,25 @@ VALUES (0x71A8E001,  1154, 0x1A8E000D, 47.9711, 99.0877, 210.022, 0.825826, 0, 0
 /* @teleloc 0x1A8E000D [47.971100 99.087700 210.022000] 0.825826 0.000000 0.000000 -0.563925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E001, 0x71A8E002, '2019-02-10 00:00:00') /* Shadow Seeker */
-     , (0x71A8E001, 0x71A8E003, '2019-02-10 00:00:00') /* Shadow Seeker */
-     , (0x71A8E001, 0x71A8E004, '2019-02-10 00:00:00') /* Shadow Infiltrator */
-     , (0x71A8E001, 0x71A8E005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71A8E001, 0x71A8E006, '2019-02-10 00:00:00') /* Shadow Infiltrator */
-     , (0x71A8E001, 0x71A8E007, '2019-02-10 00:00:00') /* Shadow Infiltrator */
-     , (0x71A8E001, 0x71A8E008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A8E001, 0x71A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A8E001, 0x71A8E00A, '2019-02-10 00:00:00') /* Shadow Seeker */
-     , (0x71A8E001, 0x71A8E00B, '2019-02-10 00:00:00') /* Shadow Seeker */
-     , (0x71A8E001, 0x71A8E00C, '2019-02-10 00:00:00') /* Shadow Seeker */
-     , (0x71A8E001, 0x71A8E00D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A8E001, 0x71A8E00E, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71A8E001, 0x71A8E00F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A8E001, 0x71A8E010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A8E001, 0x71A8E011, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71A8E001, 0x71A8E012, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71A8E001, 0x71A8E013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71A8E001, 0x71A8E014, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x71A8E001, 0x71A8E002, '2019-02-10 00:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E001, 0x71A8E003, '2019-02-10 00:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E001, 0x71A8E004, '2019-02-10 00:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E001, 0x71A8E005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71A8E001, 0x71A8E006, '2019-02-10 00:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E001, 0x71A8E007, '2019-02-10 00:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E001, 0x71A8E008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A8E001, 0x71A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A8E001, 0x71A8E00A, '2019-02-10 00:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E001, 0x71A8E00B, '2019-02-10 00:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E001, 0x71A8E00C, '2019-02-10 00:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E001, 0x71A8E00D, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A8E001, 0x71A8E00E, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71A8E001, 0x71A8E00F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A8E001, 0x71A8E010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A8E001, 0x71A8E011, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71A8E001, 0x71A8E012, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71A8E001, 0x71A8E013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71A8E001, 0x71A8E014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E002, 30836, 0x1A8E000D, 47.9711, 99.0877, 210.022, 0.825826, 0, 0, -0.563925,  True, '2019-02-10 00:00:00'); /* Shadow Seeker */
@@ -106,9 +106,9 @@ VALUES (0x71A8E015,  1542, 0x1A8E0010, 30.57236, 174.3936, 204.5975, 1, 0, 0, 0,
 /* @teleloc 0x1A8E0010 [30.572360 174.393600 204.597500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E015, 0x71A8E016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71A8E015, 0x71A8E017, '2019-02-10 00:00:00') /* Bones */
-     , (0x71A8E015, 0x71A8E018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71A8E015, 0x71A8E016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71A8E015, 0x71A8E017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71A8E015, 0x71A8E018, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E016,  4179, 0x1A8E0010, 30.57236, 174.3936, 204.5975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

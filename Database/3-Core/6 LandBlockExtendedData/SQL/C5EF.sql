@@ -5,171 +5,171 @@ VALUES (0x7C5EF001,  1154, 0xC5EF0039, 189.3332, 10.32248, 25.28144, -0.8150164,
 /* @teleloc 0xC5EF0039 [189.333200 10.322480 25.281440] -0.815016 0.000000 0.000000 -0.579438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5EF001, 0x7C5EF002, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF003, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF004, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF005, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF006, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF007, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF008, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF009, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF00A, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF00B, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF00C, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF00D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF00E, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF00F, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF010, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF011, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF012, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF013, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF014, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF015, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF016, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF017, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF018, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF019, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF01A, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF01B, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF01C, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF01D, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF01E, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF01F, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF020, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF021, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF022, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF023, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF024, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF025, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF026, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF027, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF028, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF029, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF02A, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF02B, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF02C, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF02D, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF02E, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF02F, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF030, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF031, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF032, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF033, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF034, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF035, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF036, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF037, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF038, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF039, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF03A, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF03B, '2019-02-10 00:00:00') /* Depraved Mukkir */
-     , (0x7C5EF001, 0x7C5EF03C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF03D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF03E, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF03F, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF040, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF041, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF042, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF043, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF044, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF045, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF046, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF047, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF048, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF049, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF04A, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF04B, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF04C, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF04D, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF04E, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF04F, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF050, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF051, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF052, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF053, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF054, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF055, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF056, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF057, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF058, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF059, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05A, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05B, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05C, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05D, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05E, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF05F, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF060, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF061, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF062, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF063, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF064, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF065, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF066, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF067, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF068, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF069, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF06A, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF06B, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF06C, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF06D, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF06E, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF06F, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF070, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF071, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF072, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF073, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF074, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF075, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF076, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF077, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF078, '2019-02-10 00:00:00') /* Depraved Shadow */
-     , (0x7C5EF001, 0x7C5EF079, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF07A, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF07B, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF07C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF07D, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF07E, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF07F, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF080, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF081, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF082, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF083, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF084, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF085, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF086, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF087, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF088, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF089, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF08A, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF08B, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C5EF001, 0x7C5EF08C, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF08D, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF08E, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF08F, '2019-02-10 00:00:00') /* Blighted Coral Golem */
-     , (0x7C5EF001, 0x7C5EF090, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF091, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF092, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF093, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF094, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF095, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF096, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF097, '2019-02-10 00:00:00') /* Horrid Remoran */
-     , (0x7C5EF001, 0x7C5EF098, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF099, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF09A, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF09B, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C5EF001, 0x7C5EF09C, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF09D, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x7C5EF001, 0x7C5EF09E, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF09F, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF0A0, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C5EF001, 0x7C5EF0A1, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF0A2, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF0A3, '2019-02-10 00:00:00') /* Sodden Undead Ruschk */
-     , (0x7C5EF001, 0x7C5EF0A4, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF0A5, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C5EF001, 0x7C5EF0A6, '2019-02-10 00:00:00') /* Remoran Corsair */;
+VALUES (0x7C5EF001, 0x7C5EF002, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C5EF001, 0x7C5EF003, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF004, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF005, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF006, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF007, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF008, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF009, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (33734) */
+     , (0x7C5EF001, 0x7C5EF00A, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF00B, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF00C, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF00D, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C5EF001, 0x7C5EF00E, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF00F, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF010, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C5EF001, 0x7C5EF011, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF012, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C5EF001, 0x7C5EF013, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF014, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF015, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF016, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF017, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF018, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF019, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF01A, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF01B, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF01C, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF01D, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF01E, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF01F, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF020, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF021, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF022, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF023, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C5EF001, 0x7C5EF024, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF025, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF026, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C5EF001, 0x7C5EF027, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF028, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF029, '2019-02-10 00:00:00') /* Horrid Remoran (33737) */
+     , (0x7C5EF001, 0x7C5EF02A, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF02B, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF02C, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF02D, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
+     , (0x7C5EF001, 0x7C5EF02E, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C5EF001, 0x7C5EF02F, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C5EF001, 0x7C5EF030, '2019-02-10 00:00:00') /* Blighted Coral Golem (40153) */
+     , (0x7C5EF001, 0x7C5EF031, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF032, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF033, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF034, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF035, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF036, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF037, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF038, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF039, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
+     , (0x7C5EF001, 0x7C5EF03A, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C5EF001, 0x7C5EF03B, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
+     , (0x7C5EF001, 0x7C5EF03C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF03D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C5EF001, 0x7C5EF03E, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF03F, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF040, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C5EF001, 0x7C5EF041, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF042, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF043, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF044, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF045, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF046, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (33734) */
+     , (0x7C5EF001, 0x7C5EF047, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF048, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF049, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF04A, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF04B, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF04C, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF04D, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF04E, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF04F, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF050, '2019-02-10 00:00:00') /* Horrid Remoran (33737) */
+     , (0x7C5EF001, 0x7C5EF051, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF052, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF053, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF054, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF055, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF056, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF057, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF058, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF059, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF05A, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF05B, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF05C, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF05D, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF05E, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF05F, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF060, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF061, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF062, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF063, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF064, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF065, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF066, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF067, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF068, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF069, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF06A, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF06B, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF06C, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF06D, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF06E, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C5EF001, 0x7C5EF06F, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C5EF001, 0x7C5EF070, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF071, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF072, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (33734) */
+     , (0x7C5EF001, 0x7C5EF073, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF074, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF075, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF076, '2019-02-10 00:00:00') /* Depraved Shadow (33731) */
+     , (0x7C5EF001, 0x7C5EF077, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF078, '2019-02-10 00:00:00') /* Depraved Shadow (40295) */
+     , (0x7C5EF001, 0x7C5EF079, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C5EF001, 0x7C5EF07A, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF07B, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF07C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C5EF001, 0x7C5EF07D, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF07E, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF07F, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF080, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF081, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF082, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF083, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF084, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF085, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF086, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF087, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF088, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C5EF001, 0x7C5EF089, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF08A, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF08B, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C5EF001, 0x7C5EF08C, '2019-02-10 00:00:00') /* Blighted Coral Golem (40153) */
+     , (0x7C5EF001, 0x7C5EF08D, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF08E, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF08F, '2019-02-10 00:00:00') /* Blighted Coral Golem (40290) */
+     , (0x7C5EF001, 0x7C5EF090, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF091, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF092, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF093, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF094, '2019-02-10 00:00:00') /* Horrid Remoran (33737) */
+     , (0x7C5EF001, 0x7C5EF095, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF096, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF097, '2019-02-10 00:00:00') /* Horrid Remoran (40284) */
+     , (0x7C5EF001, 0x7C5EF098, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF099, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF09A, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF09B, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C5EF001, 0x7C5EF09C, '2019-02-10 00:00:00') /* Falatacot Consort (38593) */
+     , (0x7C5EF001, 0x7C5EF09D, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x7C5EF001, 0x7C5EF09E, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C5EF001, 0x7C5EF09F, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF0A0, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C5EF001, 0x7C5EF0A1, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (33734) */
+     , (0x7C5EF001, 0x7C5EF0A2, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF0A3, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EF001, 0x7C5EF0A4, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C5EF001, 0x7C5EF0A5, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C5EF001, 0x7C5EF0A6, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5EF002, 33735, 0xC5EF0039, 189.3332, 10.32248, 25.28144, -0.8150164, 0, 0, -0.5794379,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */
@@ -836,7 +836,7 @@ VALUES (0x7C5EF0A7,  1542, 0xC5EF0002, 5.993705, 40.38623, 33.03876, -0.3172165,
 /* @teleloc 0xC5EF0002 [5.993705 40.386230 33.038760] -0.317217 0.000000 0.000000 -0.948353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5EF0A7, 0x7C5EF0A8, '2019-02-10 00:00:00') /* Black Coral */;
+VALUES (0x7C5EF0A7, 0x7C5EF0A8, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5EF0A8, 38613, 0xC5EF0002, 5.993705, 40.38623, 33.03876, -0.3172165, 0, 0, -0.9483532,  True, '2019-02-10 00:00:00'); /* Black Coral */

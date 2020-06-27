@@ -5,23 +5,23 @@ VALUES (0x71DC7001,  1154, 0x1DC7003E, 189.0932, 121.6334, 13.1098, 0.9961947, 0
 /* @teleloc 0x1DC7003E [189.093200 121.633400 13.109800] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC7001, 0x71DC7002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71DC7001, 0x71DC7003, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71DC7001, 0x71DC7004, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x71DC7001, 0x71DC7005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC7001, 0x71DC7006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC7001, 0x71DC7007, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71DC7001, 0x71DC7008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC7001, 0x71DC7009, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71DC7001, 0x71DC700A, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC7001, 0x71DC700B, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC7001, 0x71DC700C, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71DC7001, 0x71DC700D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC7001, 0x71DC700E, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC7001, 0x71DC700F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC7001, 0x71DC7010, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71DC7001, 0x71DC7011, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x71DC7001, 0x71DC7012, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x71DC7001, 0x71DC7002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71DC7001, 0x71DC7003, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71DC7001, 0x71DC7004, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x71DC7001, 0x71DC7005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC7001, 0x71DC7006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC7001, 0x71DC7007, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71DC7001, 0x71DC7008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC7001, 0x71DC7009, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71DC7001, 0x71DC700A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC7001, 0x71DC700B, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC7001, 0x71DC700C, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71DC7001, 0x71DC700D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC7001, 0x71DC700E, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC7001, 0x71DC700F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC7001, 0x71DC7010, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71DC7001, 0x71DC7011, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x71DC7001, 0x71DC7012, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC7002, 27717, 0x1DC7003E, 189.0932, 121.6334, 13.1098, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */
@@ -96,7 +96,7 @@ VALUES (0x71DC7013,  1542, 0x1DC7001A, 78.4095, 37.91018, 12.15, 0.9393146, 0, 0
 /* @teleloc 0x1DC7001A [78.409500 37.910180 12.150000] 0.939315 0.000000 0.000000 -0.343057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC7013, 0x71DC7014, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x71DC7013, 0x71DC7014, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC7014, 27719, 0x1DC7001A, 78.4095, 37.91018, 12.15, 0.9393146, 0, 0, -0.343057,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

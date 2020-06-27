@@ -5,10 +5,10 @@ VALUES (0x785BB001,  1154, 0x85BB0027, 106.1737, 164.243, 116.3147, 0.9555298, 0
 /* @teleloc 0x85BB0027 [106.173700 164.243000 116.314700] 0.955530 0.000000 0.000000 -0.294895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785BB001, 0x785BB002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x785BB001, 0x785BB003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x785BB001, 0x785BB004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x785BB001, 0x785BB005, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x785BB001, 0x785BB002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x785BB001, 0x785BB003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x785BB001, 0x785BB004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x785BB001, 0x785BB005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785BB002, 22810, 0x85BB0027, 106.1737, 164.243, 116.3147, 0.9555298, 0, 0, -0.2948945,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
@@ -31,7 +31,7 @@ VALUES (0x785BB006,  1542, 0x85BB002A, 125.9393, 47.43113, 137.2471, 1, 0, 0, 0,
 /* @teleloc 0x85BB002A [125.939300 47.431130 137.247100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785BB006, 0x785BB007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x785BB006, 0x785BB007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785BB007, 22571, 0x85BB002A, 125.9393, 47.43113, 137.2471, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

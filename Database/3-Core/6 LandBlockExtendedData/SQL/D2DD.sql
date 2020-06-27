@@ -5,11 +5,11 @@ VALUES (0x7D2DD001,  1154, 0xD2DD0040, 181.9253, 177.9214, 3.97444, -0.6640904, 
 /* @teleloc 0xD2DD0040 [181.925300 177.921400 3.974440] -0.664090 0.000000 0.000000 -0.747652 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2DD001, 0x7D2DD002, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DD001, 0x7D2DD003, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DD001, 0x7D2DD004, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DD001, 0x7D2DD005, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DD001, 0x7D2DD006, '2019-02-10 00:00:00') /* Astis Niffis */;
+VALUES (0x7D2DD001, 0x7D2DD002, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DD001, 0x7D2DD003, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DD001, 0x7D2DD004, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DD001, 0x7D2DD005, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DD001, 0x7D2DD006, '2019-02-10 00:00:00') /* Astis Niffis (32035) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2DD002, 31906, 0xD2DD0040, 181.9253, 177.9214, 3.97444, -0.6640904, 0, 0, -0.7476523,  True, '2019-02-10 00:00:00'); /* Remoran Sea Raptor */

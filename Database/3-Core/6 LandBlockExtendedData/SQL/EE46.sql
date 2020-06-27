@@ -5,9 +5,9 @@ VALUES (0x7EE46001,  1154, 0xEE460010, 25.13553, 169.5901, 42.012, 0.9575843, 0,
 /* @teleloc 0xEE460010 [25.135530 169.590100 42.012000] 0.957584 0.000000 0.000000 -0.288153 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE46001, 0x7EE46002, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7EE46001, 0x7EE46003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EE46001, 0x7EE46004, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7EE46001, 0x7EE46002, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7EE46001, 0x7EE46003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EE46001, 0x7EE46004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE46002,  2610, 0xEE460010, 25.13553, 169.5901, 42.012, 0.9575843, 0, 0, -0.2881531,  True, '2019-02-10 00:00:00'); /* Kilif Zefir */

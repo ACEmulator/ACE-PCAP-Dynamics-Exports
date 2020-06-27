@@ -5,13 +5,13 @@ VALUES (0x7AAB8001,  1154, 0xAAB80038, 158.4658, 184.3019, 95.05669, -0.7594642,
 /* @teleloc 0xAAB80038 [158.465800 184.301900 95.056690] -0.759464 0.000000 0.000000 -0.650549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB8001, 0x7AAB8002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAB8001, 0x7AAB8003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAB8001, 0x7AAB8004, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AAB8001, 0x7AAB8005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAB8001, 0x7AAB8006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AAB8001, 0x7AAB8007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAB8001, 0x7AAB8008, '2019-02-10 00:00:00') /* Mite Scamp */;
+VALUES (0x7AAB8001, 0x7AAB8002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAB8001, 0x7AAB8003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAB8001, 0x7AAB8004, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AAB8001, 0x7AAB8005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAB8001, 0x7AAB8006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AAB8001, 0x7AAB8007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAB8001, 0x7AAB8008, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB8002,   940, 0xAAB80038, 158.4658, 184.3019, 95.05669, -0.7594642, 0, 0, -0.6505491,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

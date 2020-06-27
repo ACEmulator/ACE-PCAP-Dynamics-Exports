@@ -5,81 +5,81 @@ VALUES (0x7BAEF001,  1154, 0xBAEF000A, 46.16259, 42.23956, 220.1103, 1, 0, 0, 0,
 /* @teleloc 0xBAEF000A [46.162590 42.239560 220.110300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAEF001, 0x7BAEF002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAEF001, 0x7BAEF003, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEF001, 0x7BAEF004, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEF001, 0x7BAEF005, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF006, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF007, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAEF001, 0x7BAEF009, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEF001, 0x7BAEF00A, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF00B, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF00C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF00D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF00F, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAEF001, 0x7BAEF010, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEF001, 0x7BAEF011, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BAEF001, 0x7BAEF012, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BAEF001, 0x7BAEF013, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BAEF001, 0x7BAEF014, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BAEF001, 0x7BAEF015, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BAEF001, 0x7BAEF016, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BAEF001, 0x7BAEF017, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF018, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEF001, 0x7BAEF019, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF01A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF01B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF01C, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEF001, 0x7BAEF01D, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAEF001, 0x7BAEF01E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAEF001, 0x7BAEF01F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF020, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF021, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF022, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF023, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF024, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF025, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF026, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BAEF001, 0x7BAEF027, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAEF001, 0x7BAEF028, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEF001, 0x7BAEF029, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF02A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF02B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF02C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BAEF001, 0x7BAEF02D, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BAEF001, 0x7BAEF02E, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF02F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BAEF001, 0x7BAEF030, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BAEF001, 0x7BAEF031, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF032, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEF001, 0x7BAEF033, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BAEF001, 0x7BAEF034, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF035, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEF001, 0x7BAEF036, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF037, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEF001, 0x7BAEF038, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEF001, 0x7BAEF039, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BAEF001, 0x7BAEF03A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAEF001, 0x7BAEF03B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF03C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF03D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAEF001, 0x7BAEF03E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BAEF001, 0x7BAEF03F, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEF001, 0x7BAEF040, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF041, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BAEF001, 0x7BAEF042, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF043, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF044, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAEF001, 0x7BAEF045, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEF001, 0x7BAEF046, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BAEF001, 0x7BAEF047, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BAEF001, 0x7BAEF048, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BAEF001, 0x7BAEF049, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BAEF001, 0x7BAEF04A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEF001, 0x7BAEF04B, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BAEF001, 0x7BAEF04C, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7BAEF001, 0x7BAEF002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAEF001, 0x7BAEF003, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEF001, 0x7BAEF004, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEF001, 0x7BAEF005, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF006, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF007, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF008, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAEF001, 0x7BAEF009, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEF001, 0x7BAEF00A, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF00B, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF00C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF00D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BAEF001, 0x7BAEF00F, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAEF001, 0x7BAEF010, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEF001, 0x7BAEF011, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BAEF001, 0x7BAEF012, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BAEF001, 0x7BAEF013, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BAEF001, 0x7BAEF014, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAEF001, 0x7BAEF015, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BAEF001, 0x7BAEF016, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BAEF001, 0x7BAEF017, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BAEF001, 0x7BAEF018, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEF001, 0x7BAEF019, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF01A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF01B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF01C, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEF001, 0x7BAEF01D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAEF001, 0x7BAEF01E, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAEF001, 0x7BAEF01F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF020, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF021, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF022, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF023, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF024, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF025, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF026, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAEF001, 0x7BAEF027, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAEF001, 0x7BAEF028, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEF001, 0x7BAEF029, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF02A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF02B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF02C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BAEF001, 0x7BAEF02D, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BAEF001, 0x7BAEF02E, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF02F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BAEF001, 0x7BAEF030, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BAEF001, 0x7BAEF031, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BAEF001, 0x7BAEF032, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEF001, 0x7BAEF033, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BAEF001, 0x7BAEF034, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF035, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEF001, 0x7BAEF036, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF037, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEF001, 0x7BAEF038, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEF001, 0x7BAEF039, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAEF001, 0x7BAEF03A, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAEF001, 0x7BAEF03B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF03C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF03D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAEF001, 0x7BAEF03E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BAEF001, 0x7BAEF03F, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEF001, 0x7BAEF040, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF041, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BAEF001, 0x7BAEF042, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF043, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF044, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEF001, 0x7BAEF045, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEF001, 0x7BAEF046, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BAEF001, 0x7BAEF047, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BAEF001, 0x7BAEF048, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BAEF001, 0x7BAEF049, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BAEF001, 0x7BAEF04A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEF001, 0x7BAEF04B, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BAEF001, 0x7BAEF04C, '2019-02-10 00:00:00') /* Flamma (21163) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAEF002,  5748, 0xBAEF000A, 46.16259, 42.23956, 220.1103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

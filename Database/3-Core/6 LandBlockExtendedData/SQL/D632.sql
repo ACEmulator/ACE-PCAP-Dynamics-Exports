@@ -5,16 +5,16 @@ VALUES (0x7D632001,  1154, 0xD6320032, 162.2456, 33.8415, 124.106, -0.9868107, 0
 /* @teleloc 0xD6320032 [162.245600 33.841500 124.106000] -0.986811 0.000000 0.000000 -0.161878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D632001, 0x7D632002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D632001, 0x7D632003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D632001, 0x7D632004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D632001, 0x7D632005, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x7D632001, 0x7D632006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D632001, 0x7D632007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D632001, 0x7D632008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D632001, 0x7D632009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D632001, 0x7D63200A, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7D632001, 0x7D63200B, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7D632001, 0x7D632002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D632001, 0x7D632003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D632001, 0x7D632004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D632001, 0x7D632005, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x7D632001, 0x7D632006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D632001, 0x7D632007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D632001, 0x7D632008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D632001, 0x7D632009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D632001, 0x7D63200A, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7D632001, 0x7D63200B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D632002,  4253, 0xD6320032, 162.2456, 33.8415, 124.106, -0.9868107, 0, 0, -0.1618781,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

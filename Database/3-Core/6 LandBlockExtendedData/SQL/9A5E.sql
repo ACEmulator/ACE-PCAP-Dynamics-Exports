@@ -5,15 +5,15 @@ VALUES (0x79A5E001,  1154, 0x9A5E0017, 70.84345, 162.6492, 10.54978, 0.9238795, 
 /* @teleloc 0x9A5E0017 [70.843450 162.649200 10.549780] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A5E001, 0x79A5E002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A5E001, 0x79A5E003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A5E001, 0x79A5E004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A5E001, 0x79A5E005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A5E001, 0x79A5E006, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x79A5E001, 0x79A5E007, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79A5E001, 0x79A5E008, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79A5E001, 0x79A5E009, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79A5E001, 0x79A5E00A, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79A5E001, 0x79A5E002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A5E001, 0x79A5E003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A5E001, 0x79A5E004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A5E001, 0x79A5E005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A5E001, 0x79A5E006, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x79A5E001, 0x79A5E007, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79A5E001, 0x79A5E008, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79A5E001, 0x79A5E009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79A5E001, 0x79A5E00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A5E002,   950, 0x9A5E0017, 70.84345, 162.6492, 10.54978, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */

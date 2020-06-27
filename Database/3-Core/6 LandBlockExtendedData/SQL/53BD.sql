@@ -5,17 +5,17 @@ VALUES (0x753BD001,  1154, 0x53BD0031, 161.459, 5.480361, 29.5458, 0.9009567, 0,
 /* @teleloc 0x53BD0031 [161.459000 5.480361 29.545800] 0.900957 0.000000 0.000000 -0.433909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753BD001, 0x753BD002, '2019-02-10 00:00:00') /* Static */
-     , (0x753BD001, 0x753BD003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x753BD001, 0x753BD004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x753BD001, 0x753BD005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x753BD001, 0x753BD006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x753BD001, 0x753BD007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x753BD001, 0x753BD008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x753BD001, 0x753BD009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x753BD001, 0x753BD00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x753BD001, 0x753BD00B, '2019-02-10 00:00:00') /* Ember */
-     , (0x753BD001, 0x753BD00C, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x753BD001, 0x753BD002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x753BD001, 0x753BD003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x753BD001, 0x753BD004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x753BD001, 0x753BD005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x753BD001, 0x753BD006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x753BD001, 0x753BD007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x753BD001, 0x753BD008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x753BD001, 0x753BD009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x753BD001, 0x753BD00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x753BD001, 0x753BD00B, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x753BD001, 0x753BD00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753BD002,  6382, 0x53BD0031, 161.459, 5.480361, 29.5458, 0.9009567, 0, 0, -0.433909,  True, '2019-02-10 00:00:00'); /* Static */
@@ -66,7 +66,7 @@ VALUES (0x753BD00D,  1542, 0x53BD003D, 187.9949, 96.28907, 22.60451, -0.8670136,
 /* @teleloc 0x53BD003D [187.994900 96.289070 22.604510] -0.867014 0.000000 0.000000 -0.498285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753BD00D, 0x753BD00E, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x753BD00D, 0x753BD00E, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753BD00E,  9071, 0x53BD003D, 187.9949, 96.28907, 22.60451, -0.8670136, 0, 0, -0.4982845,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

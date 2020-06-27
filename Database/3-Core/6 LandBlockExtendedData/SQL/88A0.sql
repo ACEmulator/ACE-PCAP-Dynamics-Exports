@@ -5,21 +5,21 @@ VALUES (0x788A0001,  1154, 0x88A0001C, 79.75151, 91.71183, 103.0705, 0.1665536, 
 /* @teleloc 0x88A0001C [79.751510 91.711830 103.070500] 0.166554 0.000000 0.000000 -0.986032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788A0001, 0x788A0002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x788A0001, 0x788A0003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x788A0001, 0x788A0004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x788A0001, 0x788A0005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x788A0001, 0x788A0006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x788A0001, 0x788A0007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x788A0001, 0x788A0008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x788A0001, 0x788A0009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x788A0001, 0x788A000A, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x788A0001, 0x788A000B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x788A0001, 0x788A000C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x788A0001, 0x788A000D, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x788A0001, 0x788A000E, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x788A0001, 0x788A000F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x788A0001, 0x788A0010, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x788A0001, 0x788A0002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x788A0001, 0x788A0003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x788A0001, 0x788A0004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x788A0001, 0x788A0005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x788A0001, 0x788A0006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x788A0001, 0x788A0007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x788A0001, 0x788A0008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x788A0001, 0x788A0009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x788A0001, 0x788A000A, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x788A0001, 0x788A000B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x788A0001, 0x788A000C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x788A0001, 0x788A000D, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x788A0001, 0x788A000E, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x788A0001, 0x788A000F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x788A0001, 0x788A0010, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788A0002,  7978, 0x88A0001C, 79.75151, 91.71183, 103.0705, 0.1665536, 0, 0, -0.9860324,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -86,8 +86,8 @@ VALUES (0x788A0011,  1542, 0x88A00015, 65.35078, 102.7848, 100.8579, 1, 0, 0, 0,
 /* @teleloc 0x88A00015 [65.350780 102.784800 100.857900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788A0011, 0x788A0012, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x788A0011, 0x788A0013, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x788A0011, 0x788A0012, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x788A0011, 0x788A0013, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788A0012,  8232, 0x88A00015, 65.35078, 102.7848, 100.8579, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

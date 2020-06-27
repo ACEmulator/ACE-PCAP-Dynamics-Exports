@@ -5,17 +5,17 @@ VALUES (0x7B9DC001,  1154, 0xB9DC0026, 100.5887, 122.4781, 1.624212, -0.8788171,
 /* @teleloc 0xB9DC0026 [100.588700 122.478100 1.624212] -0.878817 0.000000 0.000000 -0.477159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9DC001, 0x7B9DC002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7B9DC001, 0x7B9DC003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7B9DC001, 0x7B9DC004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7B9DC001, 0x7B9DC005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B9DC001, 0x7B9DC006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B9DC001, 0x7B9DC007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B9DC001, 0x7B9DC008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B9DC001, 0x7B9DC009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B9DC001, 0x7B9DC00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B9DC001, 0x7B9DC00B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7B9DC001, 0x7B9DC00C, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7B9DC001, 0x7B9DC002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7B9DC001, 0x7B9DC003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7B9DC001, 0x7B9DC004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7B9DC001, 0x7B9DC005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B9DC001, 0x7B9DC006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B9DC001, 0x7B9DC007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B9DC001, 0x7B9DC008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B9DC001, 0x7B9DC009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B9DC001, 0x7B9DC00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B9DC001, 0x7B9DC00B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7B9DC001, 0x7B9DC00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9DC002,  8429, 0xB9DC0026, 100.5887, 122.4781, 1.624212, -0.8788171, 0, 0, -0.4771587,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

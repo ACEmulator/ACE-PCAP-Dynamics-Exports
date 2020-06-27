@@ -5,23 +5,23 @@ VALUES (0x793DB001,  1154, 0x93DB0001, 4.017426, 18.46117, 184.0504, 0.6881983, 
 /* @teleloc 0x93DB0001 [4.017426 18.461170 184.050400] 0.688198 0.000000 0.000000 -0.725523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793DB001, 0x793DB002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793DB001, 0x793DB003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793DB001, 0x793DB004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793DB001, 0x793DB005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x793DB001, 0x793DB006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x793DB001, 0x793DB007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793DB001, 0x793DB008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793DB001, 0x793DB009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x793DB001, 0x793DB00A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x793DB001, 0x793DB00B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x793DB001, 0x793DB00C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x793DB001, 0x793DB00D, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x793DB001, 0x793DB00E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x793DB001, 0x793DB00F, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x793DB001, 0x793DB010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x793DB001, 0x793DB011, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x793DB001, 0x793DB012, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x793DB001, 0x793DB002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793DB001, 0x793DB003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793DB001, 0x793DB004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793DB001, 0x793DB005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x793DB001, 0x793DB006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x793DB001, 0x793DB007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793DB001, 0x793DB008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793DB001, 0x793DB009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x793DB001, 0x793DB00A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x793DB001, 0x793DB00B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x793DB001, 0x793DB00C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x793DB001, 0x793DB00D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x793DB001, 0x793DB00E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x793DB001, 0x793DB00F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x793DB001, 0x793DB010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x793DB001, 0x793DB011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x793DB001, 0x793DB012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793DB002, 24959, 0x93DB0001, 4.017426, 18.46117, 184.0504, 0.6881983, 0, 0, -0.7255226,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -96,8 +96,8 @@ VALUES (0x793DB013,  1542, 0x93DB000B, 44.22265, 64.24688, 163.6322, -4.371139E-
 /* @teleloc 0x93DB000B [44.222650 64.246880 163.632200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793DB013, 0x793DB014, '2019-02-10 00:00:00') /* Bones */
-     , (0x793DB013, 0x793DB015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x793DB013, 0x793DB014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x793DB013, 0x793DB015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793DB014,  4380, 0x93DB000B, 44.22265, 64.24688, 163.6322, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

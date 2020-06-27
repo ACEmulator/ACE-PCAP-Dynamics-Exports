@@ -5,13 +5,13 @@ VALUES (0x70E70001,  1154, 0x0E700039, 172.1596, 10.84202, 54.0545, -0.7071068, 
 /* @teleloc 0x0E700039 [172.159600 10.842020 54.054500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E70001, 0x70E70002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70E70001, 0x70E70003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70E70001, 0x70E70004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70E70001, 0x70E70005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70E70001, 0x70E70006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E70001, 0x70E70007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E70001, 0x70E70008, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x70E70001, 0x70E70002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70E70001, 0x70E70003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70E70001, 0x70E70004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70E70001, 0x70E70005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70E70001, 0x70E70006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E70001, 0x70E70007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E70001, 0x70E70008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E70002,  7982, 0x0E700039, 172.1596, 10.84202, 54.0545, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

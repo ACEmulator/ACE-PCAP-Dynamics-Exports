@@ -25,27 +25,27 @@ VALUES (0x701BD02A,  1154, 0x01BD010F, 32.8805, -47.4745, 0.006500006, 0.203748,
 /* @teleloc 0x01BD010F [32.880500 -47.474500 0.006500] 0.203748 0.000000 0.000000 -0.979023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BD02A, 0x701BD02B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD02C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701BD02A, 0x701BD02D, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701BD02A, 0x701BD02E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701BD02A, 0x701BD02F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701BD02A, 0x701BD030, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD031, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD032, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD033, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701BD02A, 0x701BD034, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701BD02A, 0x701BD035, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD036, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD037, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD038, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD039, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD03A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD03B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701BD02A, 0x701BD03C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701BD02A, 0x701BD03D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701BD02A, 0x701BD03E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701BD02A, 0x701BD03F, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x701BD02A, 0x701BD02B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD02C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD02A, 0x701BD02D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD02A, 0x701BD02E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD02A, 0x701BD02F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD02A, 0x701BD030, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD031, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD032, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD033, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD02A, 0x701BD034, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD02A, 0x701BD035, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD036, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD037, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD038, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD039, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD03A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD03B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD02A, 0x701BD03C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD02A, 0x701BD03D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD02A, 0x701BD03E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD02A, 0x701BD03F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BD02B, 10807, 0x01BD010F, 32.8805, -47.4745, 0.006500006, 0.203748, 0, 0, -0.979023,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

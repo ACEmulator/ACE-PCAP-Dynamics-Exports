@@ -5,12 +5,12 @@ VALUES (0x765AC001,  1154, 0x65AC0026, 103.3092, 121.6985, 100.3761, 0.1484197, 
 /* @teleloc 0x65AC0026 [103.309200 121.698500 100.376100] 0.148420 0.000000 0.000000 -0.988924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765AC001, 0x765AC002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x765AC001, 0x765AC003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x765AC001, 0x765AC004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x765AC001, 0x765AC005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x765AC001, 0x765AC006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x765AC001, 0x765AC007, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x765AC001, 0x765AC002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x765AC001, 0x765AC003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x765AC001, 0x765AC004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x765AC001, 0x765AC005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x765AC001, 0x765AC006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x765AC001, 0x765AC007, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765AC002, 14800, 0x65AC0026, 103.3092, 121.6985, 100.3761, 0.1484197, 0, 0, -0.9889244,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -41,7 +41,7 @@ VALUES (0x765AC008,  1542, 0x65AC001D, 85.94274, 114.3392, 100.3761, 0.1484197, 
 /* @teleloc 0x65AC001D [85.942740 114.339200 100.376100] 0.148420 0.000000 0.000000 -0.988924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765AC008, 0x765AC009, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x765AC008, 0x765AC009, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765AC009, 11554, 0x65AC001D, 85.94274, 114.3392, 100.3761, 0.1484197, 0, 0, -0.9889244,  True, '2019-02-10 00:00:00'); /* Colban Plant */

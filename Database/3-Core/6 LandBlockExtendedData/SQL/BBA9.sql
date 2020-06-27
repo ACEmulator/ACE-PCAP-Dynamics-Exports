@@ -5,13 +5,13 @@ VALUES (0x7BBA9001,  1154, 0xBBA90017, 50.34598, 153.435, 79.78951, 0.9349235, 0
 /* @teleloc 0xBBA90017 [50.345980 153.435000 79.789510] 0.934924 0.000000 0.000000 -0.354849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA9001, 0x7BBA9002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7BBA9001, 0x7BBA9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BBA9001, 0x7BBA9004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BBA9001, 0x7BBA9005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BBA9001, 0x7BBA9006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BBA9001, 0x7BBA9007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BBA9001, 0x7BBA9008, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7BBA9001, 0x7BBA9002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7BBA9001, 0x7BBA9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BBA9001, 0x7BBA9004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BBA9001, 0x7BBA9005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BBA9001, 0x7BBA9006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BBA9001, 0x7BBA9007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BBA9001, 0x7BBA9008, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA9002,  8014, 0xBBA90017, 50.34598, 153.435, 79.78951, 0.9349235, 0, 0, -0.3548492,  True, '2019-02-10 00:00:00'); /* Fragment */

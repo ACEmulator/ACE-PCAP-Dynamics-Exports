@@ -5,17 +5,17 @@ VALUES (0x7CD9F001,  1154, 0xCD9F000B, 41.85368, 59.57652, 25.08747, 0.9063078, 
 /* @teleloc 0xCD9F000B [41.853680 59.576520 25.087470] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9F001, 0x7CD9F002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD9F001, 0x7CD9F003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7CD9F001, 0x7CD9F004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CD9F001, 0x7CD9F005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CD9F001, 0x7CD9F006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CD9F001, 0x7CD9F007, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CD9F001, 0x7CD9F008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD9F001, 0x7CD9F009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CD9F001, 0x7CD9F00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CD9F001, 0x7CD9F00B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD9F001, 0x7CD9F00C, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7CD9F001, 0x7CD9F002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD9F001, 0x7CD9F003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7CD9F001, 0x7CD9F004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CD9F001, 0x7CD9F005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CD9F001, 0x7CD9F006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CD9F001, 0x7CD9F007, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CD9F001, 0x7CD9F008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD9F001, 0x7CD9F009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CD9F001, 0x7CD9F00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CD9F001, 0x7CD9F00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD9F001, 0x7CD9F00C, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9F002,  2576, 0xCD9F000B, 41.85368, 59.57652, 25.08747, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -66,8 +66,8 @@ VALUES (0x7CD9F00D,  1542, 0xCD9F000B, 44.14734, 61.23156, 25.84227, 0.9990482, 
 /* @teleloc 0xCD9F000B [44.147340 61.231560 25.842270] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9F00D, 0x7CD9F00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CD9F00D, 0x7CD9F00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CD9F00D, 0x7CD9F00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CD9F00D, 0x7CD9F00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9F00E,  4179, 0xCD9F000B, 44.14734, 61.23156, 25.84227, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

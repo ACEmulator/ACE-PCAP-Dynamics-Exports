@@ -9,38 +9,38 @@ VALUES (0x7D4B3001,  1154, 0xD4B30021, 102.1429, 12.1234, -0.09880006, -0.286909
 /* @teleloc 0xD4B30021 [102.142900 12.123400 -0.098800] -0.286910 0.000000 0.000000 -0.957958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B3001, 0x7D4B3002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D4B3001, 0x7D4B3003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4B3001, 0x7D4B3004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4B3001, 0x7D4B3005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D4B3001, 0x7D4B3006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B3007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B3008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B3009, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B300A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B300B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B300C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B300D, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B300E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D4B3001, 0x7D4B300F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D4B3001, 0x7D4B3010, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B3001, 0x7D4B3011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4B3001, 0x7D4B3012, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4B3001, 0x7D4B3013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4B3001, 0x7D4B3014, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D4B3001, 0x7D4B3015, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D4B3001, 0x7D4B3016, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D4B3001, 0x7D4B3017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4B3001, 0x7D4B3018, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D4B3001, 0x7D4B3019, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D4B3001, 0x7D4B301A, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D4B3001, 0x7D4B301B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D4B3001, 0x7D4B301C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4B3001, 0x7D4B301D, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D4B3001, 0x7D4B301E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4B3001, 0x7D4B301F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4B3001, 0x7D4B3020, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4B3001, 0x7D4B3021, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7D4B3001, 0x7D4B3002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D4B3001, 0x7D4B3003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4B3001, 0x7D4B3004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4B3001, 0x7D4B3005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D4B3001, 0x7D4B3006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B3007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B3008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B3009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B300A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B300B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B300C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B300D, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B300E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D4B3001, 0x7D4B300F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D4B3001, 0x7D4B3010, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3001, 0x7D4B3011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4B3001, 0x7D4B3012, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4B3001, 0x7D4B3013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4B3001, 0x7D4B3014, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D4B3001, 0x7D4B3015, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D4B3001, 0x7D4B3016, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D4B3001, 0x7D4B3017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4B3001, 0x7D4B3018, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D4B3001, 0x7D4B3019, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D4B3001, 0x7D4B301A, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D4B3001, 0x7D4B301B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D4B3001, 0x7D4B301C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4B3001, 0x7D4B301D, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D4B3001, 0x7D4B301E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4B3001, 0x7D4B301F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4B3001, 0x7D4B3020, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4B3001, 0x7D4B3021, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4B3002,  7108, 0xD4B30021, 102.1429, 12.1234, -0.09880006, -0.2869095, 0, 0, -0.9579577,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

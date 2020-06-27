@@ -5,47 +5,47 @@ VALUES (0x71CC2001,  1154, 0x1CC2002A, 133.786, 38.8562, 20, 0.8179212, 0, 0, -0
 /* @teleloc 0x1CC2002A [133.786000 38.856200 20.000000] 0.817921 0.000000 0.000000 -0.575330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC2001, 0x71CC2002, '2019-02-10 00:00:00') /* Keh Fire */
-     , (0x71CC2001, 0x71CC2003, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC2004, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC2005, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC2006, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC2007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71CC2001, 0x71CC2008, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC2009, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC200A, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC200B, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC2001, 0x71CC200C, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC2001, 0x71CC200D, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC2001, 0x71CC200E, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC2001, 0x71CC200F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2010, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC2001, 0x71CC2011, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC2001, 0x71CC2012, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC2001, 0x71CC2013, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2014, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2015, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2016, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2017, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC2018, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC2019, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71CC2001, 0x71CC201A, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71CC2001, 0x71CC201B, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC201C, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC201D, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC201E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC201F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2020, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2021, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2022, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2023, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2024, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC2001, 0x71CC2025, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2026, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC2001, 0x71CC2027, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71CC2001, 0x71CC2028, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71CC2001, 0x71CC2029, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC2001, 0x71CC202A, '2019-02-10 00:00:00') /* Brass Gromnie */;
+VALUES (0x71CC2001, 0x71CC2002, '2019-02-10 00:00:00') /* Keh Fire (36114) */
+     , (0x71CC2001, 0x71CC2003, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC2004, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC2005, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC2006, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC2007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71CC2001, 0x71CC2008, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC2001, 0x71CC2009, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71CC2001, 0x71CC200A, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71CC2001, 0x71CC200B, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC2001, 0x71CC200C, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC2001, 0x71CC200D, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC2001, 0x71CC200E, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC2001, 0x71CC200F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2010, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC2001, 0x71CC2011, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC2001, 0x71CC2012, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC2001, 0x71CC2013, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2014, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2015, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2016, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2017, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC2018, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71CC2001, 0x71CC2019, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71CC2001, 0x71CC201A, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71CC2001, 0x71CC201B, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC2001, 0x71CC201C, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC201D, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC201E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC201F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2020, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2021, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2022, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2023, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2024, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71CC2001, 0x71CC2025, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2026, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC2001, 0x71CC2027, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71CC2001, 0x71CC2028, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71CC2001, 0x71CC2029, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC2001, 0x71CC202A, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC2002, 36114, 0x1CC2002A, 133.786, 38.8562, 20, 0.8179212, 0, 0, -0.5753302,  True, '2019-02-10 00:00:00'); /* Keh Fire */
@@ -216,7 +216,7 @@ VALUES (0x71CC202B,  1154, 0x1CC2002A, 131.29, 39.5737, 20.0075, 0.7071068, 0, 0
 /* @teleloc 0x1CC2002A [131.290000 39.573700 20.007500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC202B, 0x71CC202C, '2019-02-10 00:00:00') /* Aun Kelauri */;
+VALUES (0x71CC202B, 0x71CC202C, '2019-02-10 00:00:00') /* Aun Kelauri (36113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC202C, 36113, 0x1CC2002A, 131.29, 39.5737, 20.0075, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Aun Kelauri */
@@ -227,13 +227,13 @@ VALUES (0x71CC202D,  1542, 0x1CC20012, 71.82199, 35.18471, 34.79982, 1, 0, 0, 0,
 /* @teleloc 0x1CC20012 [71.821990 35.184710 34.799820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC202D, 0x71CC202E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71CC202D, 0x71CC202F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71CC202D, 0x71CC2030, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71CC202D, 0x71CC2031, '2019-02-10 00:00:00') /* Atuakeh Dust */
-     , (0x71CC202D, 0x71CC2032, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71CC202D, 0x71CC2033, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71CC202D, 0x71CC2034, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71CC202D, 0x71CC202E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71CC202D, 0x71CC202F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71CC202D, 0x71CC2030, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71CC202D, 0x71CC2031, '2019-02-10 00:00:00') /* Atuakeh Dust (36067) */
+     , (0x71CC202D, 0x71CC2032, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71CC202D, 0x71CC2033, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71CC202D, 0x71CC2034, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC202E,  4179, 0x1CC20012, 71.82199, 35.18471, 34.79982, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

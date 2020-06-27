@@ -5,15 +5,15 @@ VALUES (0x7B3EE001,  1154, 0xB3EE0039, 189.3873, 23.51569, 6.979669, -0.8317258,
 /* @teleloc 0xB3EE0039 [189.387300 23.515690 6.979669] -0.831726 0.000000 0.000000 -0.555187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EE001, 0x7B3EE002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EE001, 0x7B3EE003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EE001, 0x7B3EE004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EE001, 0x7B3EE005, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EE001, 0x7B3EE006, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EE001, 0x7B3EE007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B3EE001, 0x7B3EE008, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B3EE001, 0x7B3EE009, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B3EE001, 0x7B3EE00A, '2019-02-10 00:00:00') /* Black Phyntos Swarm */;
+VALUES (0x7B3EE001, 0x7B3EE002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EE001, 0x7B3EE003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EE001, 0x7B3EE004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EE001, 0x7B3EE005, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EE001, 0x7B3EE006, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EE001, 0x7B3EE007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B3EE001, 0x7B3EE008, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B3EE001, 0x7B3EE009, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B3EE001, 0x7B3EE00A, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EE002,  7105, 0xB3EE0039, 189.3873, 23.51569, 6.979669, -0.8317258, 0, 0, -0.5551867,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

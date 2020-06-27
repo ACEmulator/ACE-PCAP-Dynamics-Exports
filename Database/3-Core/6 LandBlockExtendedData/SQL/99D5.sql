@@ -5,11 +5,11 @@ VALUES (0x799D5001,  1154, 0x99D50032, 150.9243, 25.6745, 167.286, -0.9577176, 0
 /* @teleloc 0x99D50032 [150.924300 25.674500 167.286000] -0.957718 0.000000 0.000000 -0.287710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799D5001, 0x799D5002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x799D5001, 0x799D5003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799D5001, 0x799D5004, '2019-02-10 00:00:00') /* Ember */
-     , (0x799D5001, 0x799D5005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x799D5001, 0x799D5006, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x799D5001, 0x799D5002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x799D5001, 0x799D5003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799D5001, 0x799D5004, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x799D5001, 0x799D5005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x799D5001, 0x799D5006, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799D5002,  7994, 0x99D50032, 150.9243, 25.6745, 167.286, -0.9577176, 0, 0, -0.2877099,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

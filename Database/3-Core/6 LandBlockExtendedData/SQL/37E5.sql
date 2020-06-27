@@ -5,9 +5,9 @@ VALUES (0x737E5001,  1154, 0x37E50026, 104.2638, 142.9757, 8.95672, -0.3677561, 
 /* @teleloc 0x37E50026 [104.263800 142.975700 8.956720] -0.367756 0.000000 0.000000 -0.929922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737E5001, 0x737E5002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x737E5001, 0x737E5003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737E5001, 0x737E5004, '2019-02-10 00:00:00') /* Small Coral Golem */;
+VALUES (0x737E5001, 0x737E5002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x737E5001, 0x737E5003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737E5001, 0x737E5004, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737E5002, 28050, 0x37E50026, 104.2638, 142.9757, 8.95672, -0.3677561, 0, 0, -0.9299223,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

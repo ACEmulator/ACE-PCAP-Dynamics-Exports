@@ -5,12 +5,12 @@ VALUES (0x7A5EA001,  1154, 0xA5EA003C, 183.5852, 95.27844, 10.06013, -0.08338965
 /* @teleloc 0xA5EA003C [183.585200 95.278440 10.060130] -0.083390 0.000000 0.000000 -0.996517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5EA001, 0x7A5EA002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A5EA001, 0x7A5EA003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A5EA001, 0x7A5EA004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A5EA001, 0x7A5EA005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A5EA001, 0x7A5EA006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A5EA001, 0x7A5EA007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7A5EA001, 0x7A5EA002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A5EA001, 0x7A5EA003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A5EA001, 0x7A5EA004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A5EA001, 0x7A5EA005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A5EA001, 0x7A5EA006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A5EA001, 0x7A5EA007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5EA002,  6041, 0xA5EA003C, 183.5852, 95.27844, 10.06013, -0.08338965, 0, 0, -0.996517,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

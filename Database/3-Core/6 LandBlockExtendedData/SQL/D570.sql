@@ -5,27 +5,27 @@ VALUES (0x7D570001,  1154, 0xD5700035, 157.376, 116.1946, 62.31561, 0.5202773, 0
 /* @teleloc 0xD5700035 [157.376000 116.194600 62.315610] 0.520277 0.000000 0.000000 -0.853997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D570001, 0x7D570002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D570001, 0x7D570003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7D570001, 0x7D570004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7D570001, 0x7D570005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7D570001, 0x7D570008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D570001, 0x7D57000A, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7D570001, 0x7D57000B, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7D570001, 0x7D57000C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7D570001, 0x7D57000D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7D570001, 0x7D57000E, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7D570001, 0x7D57000F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7D570001, 0x7D570010, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7D570001, 0x7D570011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570012, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D570001, 0x7D570013, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D570001, 0x7D570015, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D570001, 0x7D570016, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7D570001, 0x7D570002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D570001, 0x7D570003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7D570001, 0x7D570004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7D570001, 0x7D570005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7D570001, 0x7D570008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D570001, 0x7D57000A, '2019-02-10 00:00:00') /* Banderling Captain (8258) */
+     , (0x7D570001, 0x7D57000B, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7D570001, 0x7D57000C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7D570001, 0x7D57000D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7D570001, 0x7D57000E, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7D570001, 0x7D57000F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7D570001, 0x7D570010, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7D570001, 0x7D570011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570012, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D570001, 0x7D570013, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D570001, 0x7D570015, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D570001, 0x7D570016, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D570002,  7978, 0xD5700035, 157.376, 116.1946, 62.31561, 0.5202773, 0, 0, -0.8539974,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

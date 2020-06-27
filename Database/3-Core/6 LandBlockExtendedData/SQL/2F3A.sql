@@ -5,24 +5,24 @@ VALUES (0x72F3A001,  1154, 0x2F3A0018, 71.47036, 168.5533, 58.26849, 0.8839254, 
 /* @teleloc 0x2F3A0018 [71.470360 168.553300 58.268490] 0.883925 0.000000 0.000000 -0.467628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F3A001, 0x72F3A002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F3A001, 0x72F3A003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F3A001, 0x72F3A004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F3A001, 0x72F3A005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F3A001, 0x72F3A006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F3A001, 0x72F3A007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F3A001, 0x72F3A008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F3A001, 0x72F3A009, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72F3A001, 0x72F3A00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F3A001, 0x72F3A00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F3A001, 0x72F3A00C, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72F3A001, 0x72F3A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F3A001, 0x72F3A00E, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72F3A001, 0x72F3A00F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F3A001, 0x72F3A010, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72F3A001, 0x72F3A011, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F3A001, 0x72F3A012, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F3A001, 0x72F3A013, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x72F3A001, 0x72F3A002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F3A001, 0x72F3A003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F3A001, 0x72F3A004, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F3A001, 0x72F3A005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F3A001, 0x72F3A006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F3A001, 0x72F3A007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F3A001, 0x72F3A008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F3A001, 0x72F3A009, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72F3A001, 0x72F3A00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F3A001, 0x72F3A00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F3A001, 0x72F3A00C, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72F3A001, 0x72F3A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F3A001, 0x72F3A00E, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72F3A001, 0x72F3A00F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F3A001, 0x72F3A010, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72F3A001, 0x72F3A011, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72F3A001, 0x72F3A012, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F3A001, 0x72F3A013, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F3A002, 38180, 0x2F3A0018, 71.47036, 168.5533, 58.26849, 0.8839254, 0, 0, -0.467628,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -101,7 +101,7 @@ VALUES (0x72F3A014,  1542, 0x2F3A0020, 82.83041, 173.2197, 64.31774, 1, 0, 0, 0,
 /* @teleloc 0x2F3A0020 [82.830410 173.219700 64.317740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F3A014, 0x72F3A015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F3A014, 0x72F3A015, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F3A015, 22566, 0x2F3A0020, 82.83041, 173.2197, 64.31774, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

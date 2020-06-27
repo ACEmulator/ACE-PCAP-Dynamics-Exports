@@ -5,12 +5,12 @@ VALUES (0x72888001,  1154, 0x28880016, 58.0317, 137.2021, 102.0132, -0.9961115, 
 /* @teleloc 0x28880016 [58.031700 137.202100 102.013200] -0.996112 0.000000 0.000000 -0.088102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72888001, 0x72888002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72888001, 0x72888003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72888001, 0x72888004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72888001, 0x72888005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72888001, 0x72888006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72888001, 0x72888007, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x72888001, 0x72888002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72888001, 0x72888003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72888001, 0x72888004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72888001, 0x72888005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72888001, 0x72888006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72888001, 0x72888007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72888002,  7184, 0x28880016, 58.0317, 137.2021, 102.0132, -0.9961115, 0, 0, -0.08810208,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

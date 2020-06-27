@@ -5,12 +5,12 @@ VALUES (0x72AF2001,  1154, 0x2AF20012, 64.91782, 45.49565, 8.01, 0.8810639, 0, 0
 /* @teleloc 0x2AF20012 [64.917820 45.495650 8.010000] 0.881064 0.000000 0.000000 -0.472997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AF2001, 0x72AF2002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AF2001, 0x72AF2003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AF2001, 0x72AF2004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AF2001, 0x72AF2005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AF2001, 0x72AF2006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AF2001, 0x72AF2007, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x72AF2001, 0x72AF2002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AF2001, 0x72AF2003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AF2001, 0x72AF2004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AF2001, 0x72AF2005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AF2001, 0x72AF2006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AF2001, 0x72AF2007, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AF2002, 22933, 0x2AF20012, 64.91782, 45.49565, 8.01, 0.8810639, 0, 0, -0.4729973,  True, '2019-02-10 00:00:00'); /* Mist Golem */

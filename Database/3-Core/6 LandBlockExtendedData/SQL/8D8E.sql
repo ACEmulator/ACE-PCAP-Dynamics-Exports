@@ -9,19 +9,19 @@ VALUES (0x78D8E001,  1154, 0x8D8E0037, 148.9719, 167.2513, 223.9919, 0.9063078, 
 /* @teleloc 0x8D8E0037 [148.971900 167.251300 223.991900] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D8E001, 0x78D8E002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78D8E001, 0x78D8E003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78D8E001, 0x78D8E004, '2019-02-10 00:00:00') /* Charge */
-     , (0x78D8E001, 0x78D8E005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78D8E001, 0x78D8E006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78D8E001, 0x78D8E007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78D8E001, 0x78D8E008, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x78D8E001, 0x78D8E009, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x78D8E001, 0x78D8E00A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x78D8E001, 0x78D8E00B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78D8E001, 0x78D8E00C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x78D8E001, 0x78D8E00D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78D8E001, 0x78D8E00E, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x78D8E001, 0x78D8E002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78D8E001, 0x78D8E003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78D8E001, 0x78D8E004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x78D8E001, 0x78D8E005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78D8E001, 0x78D8E006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78D8E001, 0x78D8E007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x78D8E001, 0x78D8E008, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x78D8E001, 0x78D8E009, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x78D8E001, 0x78D8E00A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x78D8E001, 0x78D8E00B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78D8E001, 0x78D8E00C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x78D8E001, 0x78D8E00D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78D8E001, 0x78D8E00E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8E002,  2575, 0x8D8E0037, 148.9719, 167.2513, 223.9919, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -80,7 +80,7 @@ VALUES (0x78D8E00F,  1542, 0x8D8E0037, 149.188, 164.5396, 224, 0.9990482, 0, 0, 
 /* @teleloc 0x8D8E0037 [149.188000 164.539600 224.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D8E00F, 0x78D8E010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78D8E00F, 0x78D8E010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8E010,  4179, 0x8D8E0037, 149.188, 164.5396, 224, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,24 +5,24 @@ VALUES (0x7133E001,  1154, 0x133E0008, 18.85718, 173.5447, 7.346183, -0.1148359,
 /* @teleloc 0x133E0008 [18.857180 173.544700 7.346183] -0.114836 0.000000 0.000000 -0.993385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7133E001, 0x7133E002, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7133E001, 0x7133E003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7133E001, 0x7133E004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7133E001, 0x7133E005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7133E001, 0x7133E006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7133E001, 0x7133E007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133E001, 0x7133E008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133E001, 0x7133E009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7133E001, 0x7133E00A, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7133E001, 0x7133E00B, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7133E001, 0x7133E00C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7133E001, 0x7133E00D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7133E001, 0x7133E00E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133E001, 0x7133E00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7133E001, 0x7133E010, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7133E001, 0x7133E011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7133E001, 0x7133E012, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7133E001, 0x7133E013, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x7133E001, 0x7133E002, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7133E001, 0x7133E003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7133E001, 0x7133E004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7133E001, 0x7133E005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7133E001, 0x7133E006, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7133E001, 0x7133E007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133E001, 0x7133E008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133E001, 0x7133E009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7133E001, 0x7133E00A, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7133E001, 0x7133E00B, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7133E001, 0x7133E00C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7133E001, 0x7133E00D, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7133E001, 0x7133E00E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133E001, 0x7133E00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7133E001, 0x7133E010, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7133E001, 0x7133E011, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7133E001, 0x7133E012, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7133E001, 0x7133E013, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7133E002, 24957, 0x133E0008, 18.85718, 173.5447, 7.346183, -0.1148359, 0, 0, -0.9933845,  True, '2019-02-10 00:00:00'); /* Lacerator */
@@ -101,7 +101,7 @@ VALUES (0x7133E014,  1542, 0x133E0010, 29.74981, 191.9084, 9.977096, -4.371139E-
 /* @teleloc 0x133E0010 [29.749810 191.908400 9.977096] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7133E014, 0x7133E015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7133E014, 0x7133E015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7133E015,  4380, 0x133E0010, 29.74981, 191.9084, 9.977096, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

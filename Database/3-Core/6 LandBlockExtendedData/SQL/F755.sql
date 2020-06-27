@@ -5,18 +5,18 @@ VALUES (0x7F755001,  1154, 0xF7550034, 160.4873, 90.2884, -0.4394999, 0.9238795,
 /* @teleloc 0xF7550034 [160.487300 90.288400 -0.439500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F755001, 0x7F755002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F755001, 0x7F755003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F755001, 0x7F755004, '2019-02-10 00:00:00') /* Lord of Decay */
-     , (0x7F755001, 0x7F755005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F755001, 0x7F755006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F755001, 0x7F755007, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F755001, 0x7F755008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7F755001, 0x7F755009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F755001, 0x7F75500A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7F755001, 0x7F75500B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F755001, 0x7F75500C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F755001, 0x7F75500D, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7F755001, 0x7F755002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F755001, 0x7F755003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F755001, 0x7F755004, '2019-02-10 00:00:00') /* Lord of Decay (12027) */
+     , (0x7F755001, 0x7F755005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F755001, 0x7F755006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F755001, 0x7F755007, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F755001, 0x7F755008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7F755001, 0x7F755009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F755001, 0x7F75500A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7F755001, 0x7F75500B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F755001, 0x7F75500C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F755001, 0x7F75500D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F755002,  2564, 0xF7550034, 160.4873, 90.2884, -0.4394999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -71,7 +71,7 @@ VALUES (0x7F75500E,  1542, 0xF755002D, 141.141, 106.0007, 0, 0.9990482, 0, 0, -0
 /* @teleloc 0xF755002D [141.141000 106.000700 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75500E, 0x7F75500F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F75500E, 0x7F75500F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75500F,  4179, 0xF755002D, 141.141, 106.0007, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

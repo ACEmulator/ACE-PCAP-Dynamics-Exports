@@ -5,15 +5,15 @@ VALUES (0x74D0F001,  1154, 0x4D0F0006, 19.98589, 143.6506, -0.8935001, 0.9932209
 /* @teleloc 0x4D0F0006 [19.985890 143.650600 -0.893500] 0.993221 0.000000 0.000000 -0.116242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D0F001, 0x74D0F002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74D0F001, 0x74D0F003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74D0F001, 0x74D0F004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74D0F001, 0x74D0F005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x74D0F001, 0x74D0F006, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74D0F001, 0x74D0F007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74D0F001, 0x74D0F008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D0F001, 0x74D0F009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74D0F001, 0x74D0F00A, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74D0F001, 0x74D0F002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74D0F001, 0x74D0F003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74D0F001, 0x74D0F004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74D0F001, 0x74D0F005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x74D0F001, 0x74D0F006, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74D0F001, 0x74D0F007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74D0F001, 0x74D0F008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D0F001, 0x74D0F009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74D0F001, 0x74D0F00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D0F002,  7119, 0x4D0F0006, 19.98589, 143.6506, -0.8935001, 0.9932209, 0, 0, -0.1162421,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

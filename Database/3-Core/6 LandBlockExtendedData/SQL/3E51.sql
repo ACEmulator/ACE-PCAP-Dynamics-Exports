@@ -5,14 +5,14 @@ VALUES (0x73E51001,  1154, 0x3E510036, 153.9676, 138.8561, 45.75945, 0.5052339, 
 /* @teleloc 0x3E510036 [153.967600 138.856100 45.759450] 0.505234 0.000000 0.000000 -0.862983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E51001, 0x73E51002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E51001, 0x73E51003, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73E51001, 0x73E51004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73E51001, 0x73E51005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73E51001, 0x73E51006, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73E51001, 0x73E51007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E51001, 0x73E51008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E51001, 0x73E51009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */;
+VALUES (0x73E51001, 0x73E51002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E51001, 0x73E51003, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73E51001, 0x73E51004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73E51001, 0x73E51005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73E51001, 0x73E51006, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73E51001, 0x73E51007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E51001, 0x73E51008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E51001, 0x73E51009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E51002, 24319, 0x3E510036, 153.9676, 138.8561, 45.75945, 0.5052339, 0, 0, -0.8629825,  True, '2019-02-10 00:00:00'); /* Dark Master */

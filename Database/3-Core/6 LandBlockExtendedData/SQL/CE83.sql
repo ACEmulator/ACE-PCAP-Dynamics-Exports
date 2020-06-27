@@ -13,11 +13,11 @@ VALUES (0x7CE83002,  1154, 0xCE830100, 154.8202, 59.31642, 20.0092, 0.999967, 0,
 /* @teleloc 0xCE830100 [154.820200 59.316420 20.009200] 0.999967 0.000000 0.000000 0.008165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE83002, 0x7CE83003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7CE83002, 0x7CE83004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7CE83002, 0x7CE83005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7CE83002, 0x7CE83006, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CE83002, 0x7CE83007, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7CE83002, 0x7CE83003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7CE83002, 0x7CE83004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7CE83002, 0x7CE83005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7CE83002, 0x7CE83006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CE83002, 0x7CE83007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE83003,   940, 0xCE830100, 154.8202, 59.31642, 20.0092, 0.999967, 0, 0, 0.00816489,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

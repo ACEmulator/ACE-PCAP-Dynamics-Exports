@@ -5,17 +5,17 @@ VALUES (0x7A610001,  1154, 0xA6100035, 167.6984, 110.2558, 85.0659, 0.8870109, 0
 /* @teleloc 0xA6100035 [167.698400 110.255800 85.065900] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A610001, 0x7A610002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A610001, 0x7A610003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A610001, 0x7A610004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A610001, 0x7A610005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A610001, 0x7A610006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A610001, 0x7A610007, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7A610001, 0x7A610008, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7A610001, 0x7A610009, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A610001, 0x7A61000A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A610001, 0x7A61000B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A610001, 0x7A61000C, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7A610001, 0x7A610002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A610001, 0x7A610003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A610001, 0x7A610004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A610001, 0x7A610005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A610001, 0x7A610006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A610001, 0x7A610007, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7A610001, 0x7A610008, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7A610001, 0x7A610009, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A610001, 0x7A61000A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A610001, 0x7A61000B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A610001, 0x7A61000C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A610002,  4254, 0xA6100035, 167.6984, 110.2558, 85.0659, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -66,14 +66,14 @@ VALUES (0x7A61000D,  1542, 0xA610000C, 43.00221, 80.96597, 97.53995, -0.602433, 
 /* @teleloc 0xA610000C [43.002210 80.965970 97.539950] -0.602433 0.000000 0.000000 -0.798170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A61000D, 0x7A61000E, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7A61000D, 0x7A61000F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7A61000D, 0x7A610010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A61000D, 0x7A610011, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7A61000D, 0x7A610012, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7A61000D, 0x7A610013, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7A61000D, 0x7A610014, '2019-02-10 00:00:00') /* Hasina bint Rira */
-     , (0x7A61000D, 0x7A610015, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A61000D, 0x7A61000E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7A61000D, 0x7A61000F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7A61000D, 0x7A610010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A61000D, 0x7A610011, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7A61000D, 0x7A610012, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7A61000D, 0x7A610013, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7A61000D, 0x7A610014, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */
+     , (0x7A61000D, 0x7A610015, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A61000E,  8644, 0xA610000C, 43.00221, 80.96597, 97.53995, -0.602433, 0, 0, -0.7981695,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

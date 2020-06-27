@@ -5,38 +5,38 @@ VALUES (0x7D7D4001,  1154, 0xD7D40036, 159.1342, 142.4449, 0, -0.8575343, 0, 0, 
 /* @teleloc 0xD7D40036 [159.134200 142.444900 0.000000] -0.857534 0.000000 0.000000 -0.514427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7D4001, 0x7D7D4002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D4001, 0x7D7D4003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D7D4001, 0x7D7D4004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D4001, 0x7D7D4005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D4001, 0x7D7D4006, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D4001, 0x7D7D4007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D4001, 0x7D7D4008, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D4001, 0x7D7D4009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D4001, 0x7D7D400A, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D7D4001, 0x7D7D400B, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D7D4001, 0x7D7D400C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D7D4001, 0x7D7D400D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D7D4001, 0x7D7D400E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D7D4001, 0x7D7D400F, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D4001, 0x7D7D4010, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D7D4001, 0x7D7D4011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D4001, 0x7D7D4012, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7D4001, 0x7D7D4013, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D7D4001, 0x7D7D4014, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D7D4001, 0x7D7D4015, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D7D4001, 0x7D7D4016, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D4001, 0x7D7D4017, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D7D4001, 0x7D7D4018, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D7D4001, 0x7D7D4019, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D7D4001, 0x7D7D401A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7D7D4001, 0x7D7D401B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D4001, 0x7D7D401C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D4001, 0x7D7D401D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D7D4001, 0x7D7D401E, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D4001, 0x7D7D401F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D4001, 0x7D7D4020, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D4001, 0x7D7D4021, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7D7D4001, 0x7D7D4002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D4001, 0x7D7D4003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D7D4001, 0x7D7D4004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D4001, 0x7D7D4005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D4001, 0x7D7D4006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D4001, 0x7D7D4007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D4001, 0x7D7D4008, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D4001, 0x7D7D4009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D4001, 0x7D7D400A, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D7D4001, 0x7D7D400B, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D7D4001, 0x7D7D400C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D7D4001, 0x7D7D400D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D7D4001, 0x7D7D400E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D7D4001, 0x7D7D400F, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D4001, 0x7D7D4010, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D7D4001, 0x7D7D4011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D4001, 0x7D7D4012, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7D4001, 0x7D7D4013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D7D4001, 0x7D7D4014, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D7D4001, 0x7D7D4015, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D7D4001, 0x7D7D4016, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D4001, 0x7D7D4017, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D7D4001, 0x7D7D4018, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D7D4001, 0x7D7D4019, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D7D4001, 0x7D7D401A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7D7D4001, 0x7D7D401B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D4001, 0x7D7D401C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D4001, 0x7D7D401D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D7D4001, 0x7D7D401E, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D4001, 0x7D7D401F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D4001, 0x7D7D4020, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D4001, 0x7D7D4021, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7D4002,   212, 0xD7D40036, 159.1342, 142.4449, 0, -0.8575343, 0, 0, -0.5144268,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -171,7 +171,7 @@ VALUES (0x7D7D4022,  1542, 0xD7D40005, 18.37334, 103.2231, 1.398078, 0.9990482, 
 /* @teleloc 0xD7D40005 [18.373340 103.223100 1.398078] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7D4022, 0x7D7D4023, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D7D4022, 0x7D7D4023, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7D4023,  4179, 0xD7D40005, 18.37334, 103.2231, 1.398078, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

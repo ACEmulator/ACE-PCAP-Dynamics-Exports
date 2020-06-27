@@ -25,7 +25,7 @@ VALUES (0x7029D009,  1154, 0x029D010F, 113.811, 3.80357, 0, 0.925057, 0, 0, -0.3
 /* @teleloc 0x029D010F [113.811000 3.803570 0.000000] 0.925057 0.000000 0.000000 -0.379829 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7029D009, 0x7029D00A, '2019-02-10 00:00:00') /* Enchanted Mnemosyne */;
+VALUES (0x7029D009, 0x7029D00A, '2019-02-10 00:00:00') /* Enchanted Mnemosyne (43843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029D00A, 43843, 0x029D010F, 113.811, 3.80357, 0, 0.925057, 0, 0, -0.379829,  True, '2019-02-10 00:00:00'); /* Enchanted Mnemosyne */
@@ -36,9 +36,9 @@ VALUES (0x7029D00B,  1154, 0x029D0104, 9.33585, -8.65844, 0.007499993, -0.663095
 /* @teleloc 0x029D0104 [9.335850 -8.658440 0.007500] -0.663095 0.000000 0.000000 -0.748535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7029D00B, 0x7029D00C, '2019-02-10 00:00:00') /* Saelar's Apprentice */
-     , (0x7029D00B, 0x7029D00D, '2019-02-10 00:00:00') /* Hahnain's Apprentice */
-     , (0x7029D00B, 0x7029D00E, '2019-02-10 00:00:00') /* Renselm's Apprentice */;
+VALUES (0x7029D00B, 0x7029D00C, '2019-02-10 00:00:00') /* Saelar's Apprentice (9309) */
+     , (0x7029D00B, 0x7029D00D, '2019-02-10 00:00:00') /* Hahnain's Apprentice (9308) */
+     , (0x7029D00B, 0x7029D00E, '2019-02-10 00:00:00') /* Renselm's Apprentice (9307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029D00C,  9309, 0x029D0104, 9.33585, -8.65844, 0.007499993, -0.663095, 0, 0, -0.748535,  True, '2019-02-10 00:00:00'); /* Saelar's Apprentice */

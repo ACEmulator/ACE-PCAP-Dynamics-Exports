@@ -5,20 +5,20 @@ VALUES (0x72455001,  1154, 0x2455003F, 181.7252, 145.5685, 1.993, 0.3987491, 0, 
 /* @teleloc 0x2455003F [181.725200 145.568500 1.993000] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72455001, 0x72455002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72455001, 0x72455003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72455001, 0x72455004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72455001, 0x72455005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72455001, 0x72455006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72455001, 0x72455007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72455001, 0x72455008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72455001, 0x72455009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72455001, 0x7245500A, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x72455001, 0x7245500B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72455001, 0x7245500C, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72455001, 0x7245500D, '2019-02-10 00:00:00') /* Flare */
-     , (0x72455001, 0x7245500E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72455001, 0x7245500F, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x72455001, 0x72455002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72455001, 0x72455003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72455001, 0x72455004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72455001, 0x72455005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72455001, 0x72455006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72455001, 0x72455007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72455001, 0x72455008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72455001, 0x72455009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72455001, 0x7245500A, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x72455001, 0x7245500B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72455001, 0x7245500C, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72455001, 0x7245500D, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72455001, 0x7245500E, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72455001, 0x7245500F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72455002, 36844, 0x2455003F, 181.7252, 145.5685, 1.993, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -81,7 +81,7 @@ VALUES (0x72455010,  1542, 0x24550033, 161.0993, 64.02206, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x24550033 [161.099300 64.022060 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72455010, 0x72455011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72455010, 0x72455011, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72455011, 22567, 0x24550033, 161.0993, 64.02206, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

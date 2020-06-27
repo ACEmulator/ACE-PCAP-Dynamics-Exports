@@ -5,20 +5,20 @@ VALUES (0x7F727001,  1154, 0xF7270011, 66.83174, 4.643699, 19.21124, 0.8660254, 
 /* @teleloc 0xF7270011 [66.831740 4.643699 19.211240] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F727001, 0x7F727002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F727003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F727001, 0x7F727004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F727001, 0x7F727005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F727001, 0x7F727006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F727001, 0x7F727007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F727008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F727009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F72700A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F72700B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F727001, 0x7F72700C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F727001, 0x7F72700D, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F727001, 0x7F72700E, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F727001, 0x7F72700F, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F727001, 0x7F727002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F727003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F727001, 0x7F727004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F727001, 0x7F727005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F727001, 0x7F727006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F727001, 0x7F727007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F727008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F727009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F72700A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F72700B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F727001, 0x7F72700C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F727001, 0x7F72700D, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F727001, 0x7F72700E, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F727001, 0x7F72700F, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F727002,  4248, 0xF7270011, 66.83174, 4.643699, 19.21124, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -81,9 +81,9 @@ VALUES (0x7F727010,  1542, 0xF7270019, 73.03004, 4.094975, 19.99937, 0.9990482, 
 /* @teleloc 0xF7270019 [73.030040 4.094975 19.999370] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F727010, 0x7F727011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F727010, 0x7F727012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F727010, 0x7F727013, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7F727010, 0x7F727011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F727010, 0x7F727012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F727010, 0x7F727013, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F727011,  4179, 0xF7270019, 73.03004, 4.094975, 19.99937, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

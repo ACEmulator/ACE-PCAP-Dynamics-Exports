@@ -5,9 +5,9 @@ VALUES (0x743AA001,  1154, 0x43AA0029, 127.1739, 14.0074, 64.27076, 0.9238795, 0
 /* @teleloc 0x43AA0029 [127.173900 14.007400 64.270760] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743AA001, 0x743AA002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x743AA001, 0x743AA003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x743AA001, 0x743AA004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x743AA001, 0x743AA002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x743AA001, 0x743AA003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x743AA001, 0x743AA004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743AA002,  7123, 0x43AA0029, 127.1739, 14.0074, 64.27076, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */

@@ -5,14 +5,14 @@ VALUES (0x7220F001,  1154, 0x220F0027, 101.4125, 162.1467, 19.87352, -0.7872803,
 /* @teleloc 0x220F0027 [101.412500 162.146700 19.873520] -0.787280 0.000000 0.000000 -0.616595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7220F001, 0x7220F002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7220F001, 0x7220F003, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7220F001, 0x7220F004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x7220F001, 0x7220F005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x7220F001, 0x7220F006, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x7220F001, 0x7220F007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x7220F001, 0x7220F008, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7220F001, 0x7220F009, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x7220F001, 0x7220F002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7220F001, 0x7220F003, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7220F001, 0x7220F004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x7220F001, 0x7220F005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x7220F001, 0x7220F006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x7220F001, 0x7220F007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x7220F001, 0x7220F008, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7220F001, 0x7220F009, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7220F002, 35833, 0x220F0027, 101.4125, 162.1467, 19.87352, -0.7872803, 0, 0, -0.6165953,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
@@ -51,7 +51,7 @@ VALUES (0x7220F00A,  1542, 0x220F0003, 11.7017, 66.03071, 23.5123, -0.9960915, 0
 /* @teleloc 0x220F0003 [11.701700 66.030710 23.512300] -0.996092 0.000000 0.000000 -0.088328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7220F00A, 0x7220F00B, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7220F00A, 0x7220F00B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7220F00B,  9288, 0x220F0003, 11.7017, 66.03071, 23.5123, -0.9960915, 0, 0, -0.0883277,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,28 +5,28 @@ VALUES (0x762D4001,  1154, 0x62D40027, 102.1965, 162.2448, 43.47863, 0.2588191, 
 /* @teleloc 0x62D40027 [102.196500 162.244800 43.478630] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D4001, 0x762D4002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x762D4001, 0x762D4003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x762D4001, 0x762D4004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x762D4001, 0x762D4005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x762D4001, 0x762D4006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x762D4001, 0x762D4007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x762D4001, 0x762D4008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x762D4001, 0x762D4009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x762D4001, 0x762D400A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x762D4001, 0x762D400B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x762D4001, 0x762D400C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x762D4001, 0x762D400D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x762D4001, 0x762D400E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x762D4001, 0x762D400F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x762D4001, 0x762D4010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x762D4001, 0x762D4011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x762D4001, 0x762D4012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x762D4001, 0x762D4013, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x762D4001, 0x762D4014, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x762D4001, 0x762D4015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x762D4001, 0x762D4016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x762D4001, 0x762D4017, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x762D4001, 0x762D4002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x762D4001, 0x762D4003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x762D4001, 0x762D4004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x762D4001, 0x762D4005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x762D4001, 0x762D4006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x762D4001, 0x762D4007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x762D4001, 0x762D4008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x762D4001, 0x762D4009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x762D4001, 0x762D400A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x762D4001, 0x762D400B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x762D4001, 0x762D400C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x762D4001, 0x762D400D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x762D4001, 0x762D400E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x762D4001, 0x762D400F, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x762D4001, 0x762D4010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x762D4001, 0x762D4011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x762D4001, 0x762D4012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x762D4001, 0x762D4013, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x762D4001, 0x762D4014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x762D4001, 0x762D4015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x762D4001, 0x762D4016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x762D4001, 0x762D4017, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D4002, 36842, 0x62D40027, 102.1965, 162.2448, 43.47863, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -121,10 +121,10 @@ VALUES (0x762D4018,  1542, 0x62D40035, 151.0467, 103.6814, 42.61642, -0.995376, 
 /* @teleloc 0x62D40035 [151.046700 103.681400 42.616420] -0.995376 0.000000 0.000000 -0.096055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D4018, 0x762D4019, '2019-02-10 00:00:00') /* Rock */
-     , (0x762D4018, 0x762D401A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x762D4018, 0x762D401B, '2019-02-10 00:00:00') /* Bones */
-     , (0x762D4018, 0x762D401C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x762D4018, 0x762D4019, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x762D4018, 0x762D401A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x762D4018, 0x762D401B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x762D4018, 0x762D401C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D4019, 42528, 0x62D40035, 151.0467, 103.6814, 42.61642, -0.995376, 0, 0, -0.09605539,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,11 +5,11 @@ VALUES (0x7412F001,  1154, 0x412F0009, 42.31735, 9.862846, 126.0085, -0.944873, 
 /* @teleloc 0x412F0009 [42.317350 9.862846 126.008500] -0.944873 0.000000 0.000000 -0.327437 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7412F001, 0x7412F002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7412F001, 0x7412F003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7412F001, 0x7412F004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7412F001, 0x7412F005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7412F001, 0x7412F006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7412F001, 0x7412F002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7412F001, 0x7412F003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7412F001, 0x7412F004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7412F001, 0x7412F005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7412F001, 0x7412F006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7412F002,  7092, 0x412F0009, 42.31735, 9.862846, 126.0085, -0.944873, 0, 0, -0.327437,  True, '2019-02-10 00:00:00'); /* Firestorm */

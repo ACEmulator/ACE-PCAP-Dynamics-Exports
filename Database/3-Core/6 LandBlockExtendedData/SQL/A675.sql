@@ -5,11 +5,11 @@ VALUES (0x7A675001,  1154, 0xA675001A, 95.07617, 25.75803, 28, 0.7071068, 0, 0, 
 /* @teleloc 0xA675001A [95.076170 25.758030 28.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A675001, 0x7A675002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A675001, 0x7A675003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A675001, 0x7A675004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A675001, 0x7A675005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A675001, 0x7A675006, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7A675001, 0x7A675002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7A675001, 0x7A675003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A675001, 0x7A675004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A675001, 0x7A675005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A675001, 0x7A675006, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A675002,  5766, 0xA675001A, 95.07617, 25.75803, 28, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -36,8 +36,8 @@ VALUES (0x7A675007,  1542, 0xA675002E, 122.1933, 127.7874, 28.0015, -0.8246526, 
 /* @teleloc 0xA675002E [122.193300 127.787400 28.001500] -0.824653 0.000000 0.000000 -0.565640 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A675007, 0x7A675008, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7A675007, 0x7A675009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A675007, 0x7A675008, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7A675007, 0x7A675009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A675008, 15715, 0xA675002E, 122.1933, 127.7874, 28.0015, -0.8246526, 0, 0, -0.5656396,  True, '2019-02-10 00:00:00'); /* Sunflower */

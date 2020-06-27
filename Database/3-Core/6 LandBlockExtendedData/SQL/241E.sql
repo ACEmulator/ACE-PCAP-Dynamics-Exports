@@ -5,22 +5,22 @@ VALUES (0x7241E001,  1154, 0x241E002D, 136.2182, 118.2559, 17.09201, 0.1412309, 
 /* @teleloc 0x241E002D [136.218200 118.255900 17.092010] 0.141231 0.000000 0.000000 -0.989977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241E001, 0x7241E002, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x7241E001, 0x7241E003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7241E001, 0x7241E004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7241E001, 0x7241E005, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7241E001, 0x7241E006, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7241E001, 0x7241E007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7241E001, 0x7241E008, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7241E001, 0x7241E009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7241E001, 0x7241E00A, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7241E001, 0x7241E00B, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7241E001, 0x7241E00C, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7241E001, 0x7241E00D, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7241E001, 0x7241E00E, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7241E001, 0x7241E00F, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7241E001, 0x7241E010, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7241E001, 0x7241E011, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x7241E001, 0x7241E002, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x7241E001, 0x7241E003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7241E001, 0x7241E004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7241E001, 0x7241E005, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7241E001, 0x7241E006, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7241E001, 0x7241E007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7241E001, 0x7241E008, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7241E001, 0x7241E009, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7241E001, 0x7241E00A, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7241E001, 0x7241E00B, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7241E001, 0x7241E00C, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7241E001, 0x7241E00D, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x7241E001, 0x7241E00E, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7241E001, 0x7241E00F, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7241E001, 0x7241E010, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7241E001, 0x7241E011, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241E002, 10800, 0x241E002D, 136.2182, 118.2559, 17.09201, 0.1412309, 0, 0, -0.9899767,  True, '2019-02-10 00:00:00'); /* Quiddity Rift */
@@ -91,9 +91,9 @@ VALUES (0x7241E012,  1542, 0x241E000F, 25.41955, 148.6029, 8.720982, 0.1586752, 
 /* @teleloc 0x241E000F [25.419550 148.602900 8.720982] 0.158675 0.000000 0.000000 -0.987331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241E012, 0x7241E013, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7241E012, 0x7241E014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7241E012, 0x7241E015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7241E012, 0x7241E013, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7241E012, 0x7241E014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7241E012, 0x7241E015, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241E013,  9286, 0x241E000F, 25.41955, 148.6029, 8.720982, 0.1586752, 0, 0, -0.9873309,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

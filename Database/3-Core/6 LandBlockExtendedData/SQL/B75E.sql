@@ -5,10 +5,10 @@ VALUES (0x7B75E001,  1154, 0xB75E0029, 135.9581, 18.48031, 22.46218, -0.9915775,
 /* @teleloc 0xB75E0029 [135.958100 18.480310 22.462180] -0.991578 0.000000 0.000000 -0.129515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B75E001, 0x7B75E002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B75E001, 0x7B75E003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B75E001, 0x7B75E004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B75E001, 0x7B75E005, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7B75E001, 0x7B75E002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B75E001, 0x7B75E003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B75E001, 0x7B75E004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B75E001, 0x7B75E005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B75E002,  7991, 0xB75E0029, 135.9581, 18.48031, 22.46218, -0.9915775, 0, 0, -0.1295148,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

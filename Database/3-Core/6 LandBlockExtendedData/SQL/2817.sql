@@ -5,19 +5,19 @@ VALUES (0x72817001,  1154, 0x28170022, 96.39146, 36.8555, 49.91039, 0.2588191, 0
 /* @teleloc 0x28170022 [96.391460 36.855500 49.910390] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72817001, 0x72817002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72817001, 0x72817003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72817001, 0x72817004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72817001, 0x72817005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72817001, 0x72817006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72817001, 0x72817007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72817001, 0x72817008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72817001, 0x72817009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72817001, 0x7281700A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72817001, 0x7281700B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72817001, 0x7281700C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72817001, 0x7281700D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72817001, 0x7281700E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x72817001, 0x72817002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72817001, 0x72817003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72817001, 0x72817004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72817001, 0x72817005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72817001, 0x72817006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72817001, 0x72817007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72817001, 0x72817008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72817001, 0x72817009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72817001, 0x7281700A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72817001, 0x7281700B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72817001, 0x7281700C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72817001, 0x7281700D, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72817001, 0x7281700E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72817002, 24320, 0x28170022, 96.39146, 36.8555, 49.91039, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -76,7 +76,7 @@ VALUES (0x7281700F,  1542, 0x2817001A, 91.55547, 37.33843, 51.14543, -4.371139E-
 /* @teleloc 0x2817001A [91.555470 37.338430 51.145430] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7281700F, 0x72817010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7281700F, 0x72817010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72817010,  4380, 0x2817001A, 91.55547, 37.33843, 51.14543, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

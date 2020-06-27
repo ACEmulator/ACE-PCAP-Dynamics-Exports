@@ -5,27 +5,27 @@ VALUES (0x742F5001,  1154, 0x42F50021, 99.08076, 2.02948, 100.005, -0.8353929, 0
 /* @teleloc 0x42F50021 [99.080760 2.029480 100.005000] -0.835393 0.000000 0.000000 -0.549653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742F5001, 0x742F5002, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x742F5001, 0x742F5003, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x742F5001, 0x742F5004, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x742F5001, 0x742F5005, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x742F5001, 0x742F5006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x742F5001, 0x742F5007, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x742F5001, 0x742F5008, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x742F5001, 0x742F5009, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x742F5001, 0x742F500A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x742F5001, 0x742F500B, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x742F5001, 0x742F500C, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x742F5001, 0x742F500D, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x742F5001, 0x742F500E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x742F5001, 0x742F500F, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x742F5001, 0x742F5010, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x742F5001, 0x742F5011, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x742F5001, 0x742F5012, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x742F5001, 0x742F5013, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x742F5001, 0x742F5014, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x742F5001, 0x742F5015, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x742F5001, 0x742F5016, '2019-02-10 00:00:00') /* Insatiable Eater */;
+VALUES (0x742F5001, 0x742F5002, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x742F5001, 0x742F5003, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x742F5001, 0x742F5004, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x742F5001, 0x742F5005, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x742F5001, 0x742F5006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x742F5001, 0x742F5007, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x742F5001, 0x742F5008, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x742F5001, 0x742F5009, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x742F5001, 0x742F500A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x742F5001, 0x742F500B, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x742F5001, 0x742F500C, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x742F5001, 0x742F500D, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x742F5001, 0x742F500E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x742F5001, 0x742F500F, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x742F5001, 0x742F5010, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x742F5001, 0x742F5011, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x742F5001, 0x742F5012, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x742F5001, 0x742F5013, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x742F5001, 0x742F5014, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x742F5001, 0x742F5015, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x742F5001, 0x742F5016, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742F5002, 29303, 0x42F50021, 99.08076, 2.02948, 100.005, -0.8353929, 0, 0, -0.5496533,  True, '2019-02-10 00:00:00'); /* Royal Thaumaturge */

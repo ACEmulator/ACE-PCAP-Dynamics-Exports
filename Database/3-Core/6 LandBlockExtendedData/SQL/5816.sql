@@ -5,13 +5,13 @@ VALUES (0x75816001,  1154, 0x58160021, 107.1064, 17.21627, 54.03197, 0.1180541, 
 /* @teleloc 0x58160021 [107.106400 17.216270 54.031970] 0.118054 0.000000 0.000000 -0.993007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75816001, 0x75816002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75816001, 0x75816003, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75816001, 0x75816004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75816001, 0x75816005, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75816001, 0x75816006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75816001, 0x75816007, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75816001, 0x75816008, '2019-02-10 00:00:00') /* High Mu-miyah */;
+VALUES (0x75816001, 0x75816002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75816001, 0x75816003, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75816001, 0x75816004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75816001, 0x75816005, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75816001, 0x75816006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75816001, 0x75816007, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75816001, 0x75816008, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75816002,  6041, 0x58160021, 107.1064, 17.21627, 54.03197, 0.1180541, 0, 0, -0.9930072,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

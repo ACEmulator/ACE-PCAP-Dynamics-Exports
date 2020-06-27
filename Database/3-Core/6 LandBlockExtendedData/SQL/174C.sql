@@ -5,18 +5,18 @@ VALUES (0x7174C001,  1154, 0x174C0025, 108.8315, 114.6609, 29.55962, 0.9238795, 
 /* @teleloc 0x174C0025 [108.831500 114.660900 29.559620] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174C001, 0x7174C002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7174C001, 0x7174C003, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C004, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C005, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C006, '2019-02-10 00:00:00') /* Diamond Golem Suzerain */
-     , (0x7174C001, 0x7174C007, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C008, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C009, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7174C001, 0x7174C00A, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7174C001, 0x7174C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174C001, 0x7174C00C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7174C001, 0x7174C00D, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7174C001, 0x7174C002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7174C001, 0x7174C003, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C004, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C005, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C006, '2019-02-10 00:00:00') /* Diamond Golem Suzerain (19543) */
+     , (0x7174C001, 0x7174C007, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C008, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C009, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7174C001, 0x7174C00A, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7174C001, 0x7174C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174C001, 0x7174C00C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7174C001, 0x7174C00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174C002,  7090, 0x174C0025, 108.8315, 114.6609, 29.55962, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -71,7 +71,7 @@ VALUES (0x7174C00E,  1542, 0x174C001D, 85.58791, 100.9653, 28.87922, -4.371139E-
 /* @teleloc 0x174C001D [85.587910 100.965300 28.879220] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174C00E, 0x7174C00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7174C00E, 0x7174C00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174C00F,  4380, 0x174C001D, 85.58791, 100.9653, 28.87922, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

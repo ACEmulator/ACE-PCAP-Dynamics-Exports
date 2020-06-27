@@ -5,12 +5,12 @@ VALUES (0x7926B001,  1154, 0x926B0022, 119.7066, 44.25657, 13.07373, -0.998796, 
 /* @teleloc 0x926B0022 [119.706600 44.256570 13.073730] -0.998796 0.000000 0.000000 -0.049057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7926B001, 0x7926B002, '2019-02-10 00:00:00') /* Undead */
-     , (0x7926B001, 0x7926B003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7926B001, 0x7926B004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7926B001, 0x7926B005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7926B001, 0x7926B006, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7926B001, 0x7926B007, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x7926B001, 0x7926B002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7926B001, 0x7926B003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7926B001, 0x7926B004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7926B001, 0x7926B005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7926B001, 0x7926B006, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7926B001, 0x7926B007, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7926B002,    16, 0x926B0022, 119.7066, 44.25657, 13.07373, -0.998796, 0, 0, -0.04905725,  True, '2019-02-10 00:00:00'); /* Undead */

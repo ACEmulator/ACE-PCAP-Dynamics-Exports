@@ -5,10 +5,10 @@ VALUES (0x7D681001,  1154, 0xD6810032, 148.9773, 45.15286, 26.01, -0.08715577, 0
 /* @teleloc 0xD6810032 [148.977300 45.152860 26.010000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D681001, 0x7D681002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D681001, 0x7D681003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D681001, 0x7D681004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D681001, 0x7D681005, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7D681001, 0x7D681002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D681001, 0x7D681003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D681001, 0x7D681004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D681001, 0x7D681005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D681002, 24940, 0xD6810032, 148.9773, 45.15286, 26.01, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

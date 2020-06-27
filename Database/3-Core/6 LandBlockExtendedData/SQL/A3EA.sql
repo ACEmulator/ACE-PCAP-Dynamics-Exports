@@ -5,14 +5,14 @@ VALUES (0x7A3EA001,  1154, 0xA3EA0008, 13.81539, 184.3401, 14.61657, 0.7372774, 
 /* @teleloc 0xA3EA0008 [13.815390 184.340100 14.616570] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3EA001, 0x7A3EA002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A3EA001, 0x7A3EA003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A3EA001, 0x7A3EA004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A3EA001, 0x7A3EA005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A3EA001, 0x7A3EA006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A3EA001, 0x7A3EA007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A3EA001, 0x7A3EA008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A3EA001, 0x7A3EA009, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7A3EA001, 0x7A3EA002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A3EA001, 0x7A3EA003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A3EA001, 0x7A3EA004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A3EA001, 0x7A3EA005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A3EA001, 0x7A3EA006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A3EA001, 0x7A3EA007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A3EA001, 0x7A3EA008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A3EA001, 0x7A3EA009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3EA002,  4255, 0xA3EA0008, 13.81539, 184.3401, 14.61657, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

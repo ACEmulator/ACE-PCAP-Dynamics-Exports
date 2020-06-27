@@ -5,14 +5,14 @@ VALUES (0x7144D001,  1154, 0x144D003F, 190.7645, 145.4341, 6.124061, 0.7071068, 
 /* @teleloc 0x144D003F [190.764500 145.434100 6.124061] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7144D001, 0x7144D002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7144D001, 0x7144D003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7144D001, 0x7144D004, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7144D001, 0x7144D005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7144D001, 0x7144D006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7144D001, 0x7144D007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7144D001, 0x7144D008, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7144D001, 0x7144D009, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x7144D001, 0x7144D002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7144D001, 0x7144D003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7144D001, 0x7144D004, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7144D001, 0x7144D005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7144D001, 0x7144D006, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7144D001, 0x7144D007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7144D001, 0x7144D008, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7144D001, 0x7144D009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7144D002, 36822, 0x144D003F, 190.7645, 145.4341, 6.124061, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -51,7 +51,7 @@ VALUES (0x7144D00A,  1542, 0x144D0040, 191.3073, 181.7347, 12.53152, 0.4002285, 
 /* @teleloc 0x144D0040 [191.307300 181.734700 12.531520] 0.400229 0.000000 0.000000 -0.916415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7144D00A, 0x7144D00B, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7144D00A, 0x7144D00B, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7144D00B, 31688, 0x144D0040, 191.3073, 181.7347, 12.53152, 0.4002285, 0, 0, -0.9164154,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

@@ -5,11 +5,11 @@ VALUES (0x7F047001,  1154, 0xF047003A, 184.6709, 32.03676, 10.85347, -0.4563523,
 /* @teleloc 0xF047003A [184.670900 32.036760 10.853470] -0.456352 0.000000 0.000000 -0.889799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F047001, 0x7F047002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F047001, 0x7F047003, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7F047001, 0x7F047004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7F047001, 0x7F047005, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7F047001, 0x7F047006, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7F047001, 0x7F047002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F047001, 0x7F047003, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7F047001, 0x7F047004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7F047001, 0x7F047005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7F047001, 0x7F047006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F047002,   215, 0xF047003A, 184.6709, 32.03676, 10.85347, -0.4563523, 0, 0, -0.8897992,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

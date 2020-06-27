@@ -5,19 +5,19 @@ VALUES (0x7123B001,  1154, 0x123B000F, 47.97955, 147.0895, 18.51321, 0.1847121, 
 /* @teleloc 0x123B000F [47.979550 147.089500 18.513210] 0.184712 0.000000 0.000000 -0.982793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123B001, 0x7123B002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7123B001, 0x7123B003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7123B001, 0x7123B004, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7123B001, 0x7123B005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7123B001, 0x7123B006, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7123B001, 0x7123B007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7123B001, 0x7123B008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7123B001, 0x7123B009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7123B001, 0x7123B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7123B001, 0x7123B00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7123B001, 0x7123B00C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7123B001, 0x7123B00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7123B001, 0x7123B00E, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7123B001, 0x7123B002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7123B001, 0x7123B003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7123B001, 0x7123B004, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7123B001, 0x7123B005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7123B001, 0x7123B006, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7123B001, 0x7123B007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7123B001, 0x7123B008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7123B001, 0x7123B009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123B001, 0x7123B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7123B001, 0x7123B00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7123B001, 0x7123B00C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7123B001, 0x7123B00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7123B001, 0x7123B00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123B002,  7125, 0x123B000F, 47.97955, 147.0895, 18.51321, 0.1847121, 0, 0, -0.9827927,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -76,8 +76,8 @@ VALUES (0x7123B00F,  1542, 0x123B002B, 138.408, 67.80177, 16, -4.371139E-08, 0, 
 /* @teleloc 0x123B002B [138.408000 67.801770 16.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123B00F, 0x7123B010, '2019-02-10 00:00:00') /* Bones */
-     , (0x7123B00F, 0x7123B011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7123B00F, 0x7123B010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7123B00F, 0x7123B011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123B010,  4380, 0x123B002B, 138.408, 67.80177, 16, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

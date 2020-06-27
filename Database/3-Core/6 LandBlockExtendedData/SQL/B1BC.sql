@@ -5,13 +5,13 @@ VALUES (0x7B1BC001,  1154, 0xB1BC000A, 47.86917, 29.70647, 121.5136, 0.1529547, 
 /* @teleloc 0xB1BC000A [47.869170 29.706470 121.513600] 0.152955 0.000000 0.000000 -0.988233 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1BC001, 0x7B1BC002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B1BC001, 0x7B1BC003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B1BC001, 0x7B1BC004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B1BC001, 0x7B1BC005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B1BC001, 0x7B1BC006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B1BC001, 0x7B1BC007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B1BC001, 0x7B1BC008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7B1BC001, 0x7B1BC002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B1BC001, 0x7B1BC003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B1BC001, 0x7B1BC004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B1BC001, 0x7B1BC005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B1BC001, 0x7B1BC006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B1BC001, 0x7B1BC007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B1BC001, 0x7B1BC008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1BC002,  1989, 0xB1BC000A, 47.86917, 29.70647, 121.5136, 0.1529547, 0, 0, -0.9882332,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

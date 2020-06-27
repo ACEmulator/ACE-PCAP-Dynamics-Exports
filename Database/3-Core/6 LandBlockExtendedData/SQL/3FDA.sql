@@ -5,15 +5,15 @@ VALUES (0x73FDA001,  1154, 0x3FDA0033, 165.0947, 48.57665, -0.89175, 0.5090091, 
 /* @teleloc 0x3FDA0033 [165.094700 48.576650 -0.891750] 0.509009 0.000000 0.000000 -0.860761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FDA001, 0x73FDA002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73FDA001, 0x73FDA003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73FDA001, 0x73FDA004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73FDA001, 0x73FDA005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73FDA001, 0x73FDA006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73FDA001, 0x73FDA007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73FDA001, 0x73FDA008, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x73FDA001, 0x73FDA009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73FDA001, 0x73FDA00A, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x73FDA001, 0x73FDA002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73FDA001, 0x73FDA003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73FDA001, 0x73FDA004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73FDA001, 0x73FDA005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73FDA001, 0x73FDA006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73FDA001, 0x73FDA007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73FDA001, 0x73FDA008, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x73FDA001, 0x73FDA009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73FDA001, 0x73FDA00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FDA002, 24319, 0x3FDA0033, 165.0947, 48.57665, -0.89175, 0.5090091, 0, 0, -0.8607612,  True, '2019-02-10 00:00:00'); /* Dark Master */

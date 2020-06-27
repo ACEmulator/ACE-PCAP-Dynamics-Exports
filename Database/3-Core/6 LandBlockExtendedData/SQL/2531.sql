@@ -5,13 +5,13 @@ VALUES (0x72531001,  1154, 0x2531000F, 31.74248, 158.0923, 59.93941, 0.9632218, 
 /* @teleloc 0x2531000F [31.742480 158.092300 59.939410] 0.963222 0.000000 0.000000 -0.268708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72531001, 0x72531002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72531001, 0x72531003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72531001, 0x72531004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72531001, 0x72531005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72531001, 0x72531006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72531001, 0x72531007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72531001, 0x72531008, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x72531001, 0x72531002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72531001, 0x72531003, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72531001, 0x72531004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72531001, 0x72531005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72531001, 0x72531006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72531001, 0x72531007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72531001, 0x72531008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72531002, 22053, 0x2531000F, 31.74248, 158.0923, 59.93941, 0.9632218, 0, 0, -0.2687075,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -46,7 +46,7 @@ VALUES (0x72531009,  1542, 0x2531003F, 186.5171, 147.5327, 106.9993, -4.371139E-
 /* @teleloc 0x2531003F [186.517100 147.532700 106.999300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72531009, 0x7253100A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72531009, 0x7253100A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7253100A,  4380, 0x2531003F, 186.5171, 147.5327, 106.9993, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

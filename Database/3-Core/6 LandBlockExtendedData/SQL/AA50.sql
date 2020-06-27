@@ -5,10 +5,10 @@ VALUES (0x7AA50001,  1154, 0xAA500032, 166.3876, 30.79005, 37.86813, 0.7660445, 
 /* @teleloc 0xAA500032 [166.387600 30.790050 37.868130] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA50001, 0x7AA50002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AA50001, 0x7AA50003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AA50001, 0x7AA50004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AA50001, 0x7AA50005, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7AA50001, 0x7AA50002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AA50001, 0x7AA50003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AA50001, 0x7AA50004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AA50001, 0x7AA50005, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA50002,  1761, 0xAA500032, 166.3876, 30.79005, 37.86813, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -31,7 +31,7 @@ VALUES (0x7AA50006,  1542, 0xAA50003A, 180.7484, 40.28422, 37.937, 0.8433914, 0,
 /* @teleloc 0xAA50003A [180.748400 40.284220 37.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA50006, 0x7AA50007, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7AA50006, 0x7AA50007, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA50007,  8190, 0xAA50003A, 180.7484, 40.28422, 37.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

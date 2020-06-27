@@ -5,13 +5,13 @@ VALUES (0x772D2001,  1154, 0x72D20025, 118.774, 114.4892, 372.2652, 0.1224804, 0
 /* @teleloc 0x72D20025 [118.774000 114.489200 372.265200] 0.122480 0.000000 0.000000 -0.992471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D2001, 0x772D2002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x772D2001, 0x772D2003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x772D2001, 0x772D2004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x772D2001, 0x772D2005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x772D2001, 0x772D2006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x772D2001, 0x772D2007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x772D2001, 0x772D2008, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x772D2001, 0x772D2002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x772D2001, 0x772D2003, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x772D2001, 0x772D2004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x772D2001, 0x772D2005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x772D2001, 0x772D2006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x772D2001, 0x772D2007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x772D2001, 0x772D2008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D2002, 23482, 0x72D20025, 118.774, 114.4892, 372.2652, 0.1224804, 0, 0, -0.9924709,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -46,8 +46,8 @@ VALUES (0x772D2009,  1542, 0x72D20028, 105.171, 179.718, 381.2357, -0.3494441, 0
 /* @teleloc 0x72D20028 [105.171000 179.718000 381.235700] -0.349444 0.000000 0.000000 -0.936957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D2009, 0x772D200A, '2019-02-10 00:00:00') /* Giant Snowman */
-     , (0x772D2009, 0x772D200B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x772D2009, 0x772D200A, '2019-02-10 00:00:00') /* Giant Snowman (5767) */
+     , (0x772D2009, 0x772D200B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D200A,  5767, 0x72D20028, 105.171, 179.718, 381.2357, -0.3494441, 0, 0, -0.9369572,  True, '2019-02-10 00:00:00'); /* Giant Snowman */

@@ -5,10 +5,10 @@ VALUES (0x7719F001,  1154, 0x719F0023, 99.41553, 69.92486, 113.2612, -4.371139E-
 /* @teleloc 0x719F0023 [99.415530 69.924860 113.261200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719F001, 0x7719F002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719F001, 0x7719F003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719F001, 0x7719F004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719F001, 0x7719F005, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7719F001, 0x7719F002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719F001, 0x7719F003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719F001, 0x7719F004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719F001, 0x7719F005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719F002,  1629, 0x719F0023, 99.41553, 69.92486, 113.2612, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -31,8 +31,8 @@ VALUES (0x7719F006,  1542, 0x719F0022, 103.9978, 32.40485, 112.6993, -0.3144239,
 /* @teleloc 0x719F0022 [103.997800 32.404850 112.699300] -0.314424 0.000000 0.000000 -0.949283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719F006, 0x7719F007, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7719F006, 0x7719F008, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7719F006, 0x7719F007, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7719F006, 0x7719F008, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719F007,  8648, 0x719F0022, 103.9978, 32.40485, 112.6993, -0.3144239, 0, 0, -0.9492826,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

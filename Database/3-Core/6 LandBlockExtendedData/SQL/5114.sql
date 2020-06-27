@@ -5,14 +5,14 @@ VALUES (0x75114001,  1154, 0x51140038, 161.426, 174.4497, 120, 0.5982158, 0, 0, 
 /* @teleloc 0x51140038 [161.426000 174.449700 120.000000] 0.598216 0.000000 0.000000 -0.801335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75114001, 0x75114002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75114001, 0x75114003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75114001, 0x75114004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x75114001, 0x75114005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75114001, 0x75114006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75114001, 0x75114007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75114001, 0x75114008, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x75114001, 0x75114009, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x75114001, 0x75114002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75114001, 0x75114003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75114001, 0x75114004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x75114001, 0x75114005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75114001, 0x75114006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75114001, 0x75114007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75114001, 0x75114008, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x75114001, 0x75114009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75114002, 24277, 0x51140038, 161.426, 174.4497, 120, 0.5982158, 0, 0, -0.8013351,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -51,7 +51,7 @@ VALUES (0x7511400A,  1542, 0x51140038, 160.3663, 182.7748, 98.83998, 0.5982158, 
 /* @teleloc 0x51140038 [160.366300 182.774800 98.839980] 0.598216 0.000000 0.000000 -0.801335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7511400A, 0x7511400B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7511400A, 0x7511400B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7511400B, 42528, 0x51140038, 160.3663, 182.7748, 98.83998, 0.5982158, 0, 0, -0.8013351,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,11 +5,11 @@ VALUES (0x7CD56001,  1154, 0xCD56003C, 178.9863, 90.85704, 27.45319, -0.4669444,
 /* @teleloc 0xCD56003C [178.986300 90.857040 27.453190] -0.466944 0.000000 0.000000 -0.884287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD56001, 0x7CD56002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CD56001, 0x7CD56003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CD56001, 0x7CD56004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CD56001, 0x7CD56005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD56001, 0x7CD56006, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7CD56001, 0x7CD56002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CD56001, 0x7CD56003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CD56001, 0x7CD56004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CD56001, 0x7CD56005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD56001, 0x7CD56006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD56002,  7978, 0xCD56003C, 178.9863, 90.85704, 27.45319, -0.4669444, 0, 0, -0.8842867,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

@@ -117,144 +117,144 @@ VALUES (0x701A309D,  1154, 0x01A302A4, 31.8608, -57.4318, -12.0065, -4.37114E-08
 /* @teleloc 0x01A302A4 [31.860800 -57.431800 -12.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A309D, 0x701A309E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A309F, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30A0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30A1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30A2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30A3, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30A4, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30A5, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30A6, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30A7, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30A8, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30A9, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30AA, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30AB, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30AC, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30AD, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30AE, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30AF, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x701A309D, 0x701A30B0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30B1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30B2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30B3, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30B4, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30B5, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30B6, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30B7, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30B8, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30B9, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30BA, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30BB, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30BC, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30BD, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30BE, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30BF, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30C0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30C1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30C2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30C3, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30C4, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x701A309D, 0x701A30C5, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30C6, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30C7, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30C8, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30C9, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CA, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CB, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CC, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CD, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CE, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30CF, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30D0, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30D1, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30D2, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30D3, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30D4, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30D5, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30D6, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30D7, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30D8, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30D9, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30DA, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30DB, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30DC, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30DD, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30DE, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30DF, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30E0, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30E1, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30E2, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30E3, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30E4, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A30E5, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30E6, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30E7, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30E8, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30E9, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30EA, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30EB, '2019-02-10 00:00:00') /* Lich */
-     , (0x701A309D, 0x701A30EC, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30ED, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x701A309D, 0x701A30EE, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x701A309D, 0x701A30EF, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701A309D, 0x701A30F0, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x701A309D, 0x701A30F1, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x701A309D, 0x701A30F2, '2019-02-10 00:00:00') /* Lich */
-     , (0x701A309D, 0x701A30F3, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A30F4, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30F5, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30F6, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30F7, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A30F8, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30F9, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30FA, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30FB, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30FC, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30FD, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A30FE, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A30FF, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3100, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3101, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3102, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A3103, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A3104, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3105, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3106, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3107, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3108, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3109, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A310A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A310B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A310C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A310D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A310E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A310F, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3110, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A3111, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x701A309D, 0x701A3112, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A3113, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A3114, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x701A309D, 0x701A3115, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3116, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3117, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A3118, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3119, '2019-02-10 00:00:00') /* Lich */
-     , (0x701A309D, 0x701A311A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A311B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A311C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A311D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A311E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A311F, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3120, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A3121, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x701A309D, 0x701A3122, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3123, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3124, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x701A309D, 0x701A3125, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x701A309D, 0x701A3126, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x701A309D, 0x701A3127, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x701A309D, 0x701A309E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A309F, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30A0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30A1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30A2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30A3, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30A4, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30A5, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30A6, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30A7, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30A8, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30A9, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30AA, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30AB, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30AC, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30AD, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30AE, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30AF, '2019-02-10 00:00:00') /* Exploration Marker (39806) */
+     , (0x701A309D, 0x701A30B0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30B1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30B2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30B3, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30B4, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30B5, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30B6, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30B7, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30B8, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30B9, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30BA, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30BB, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30BC, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30BD, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30BE, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30BF, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30C0, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30C1, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30C2, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30C3, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30C4, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A309D, 0x701A30C5, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30C6, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30C7, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30C8, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30C9, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CA, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CB, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CC, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CD, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CE, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30CF, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30D0, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30D1, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30D2, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30D3, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30D4, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30D5, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30D6, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30D7, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30D8, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30D9, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30DA, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30DB, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30DC, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30DD, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30DE, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30DF, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30E0, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30E1, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30E2, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30E3, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30E4, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A30E5, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30E6, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30E7, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30E8, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30E9, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30EA, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30EB, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701A309D, 0x701A30EC, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30ED, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A309D, 0x701A30EE, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A309D, 0x701A30EF, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701A309D, 0x701A30F0, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x701A309D, 0x701A30F1, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x701A309D, 0x701A30F2, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701A309D, 0x701A30F3, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A30F4, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30F5, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30F6, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30F7, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A30F8, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30F9, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30FA, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30FB, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30FC, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30FD, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A30FE, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A30FF, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3100, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3101, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3102, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A3103, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A3104, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3105, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3106, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3107, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3108, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3109, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A310A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A310B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A310C, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A310D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A310E, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A310F, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3110, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A3111, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x701A309D, 0x701A3112, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A3113, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A3114, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x701A309D, 0x701A3115, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3116, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3117, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A3118, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3119, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701A309D, 0x701A311A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A311B, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A311C, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A311D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A311E, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A311F, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3120, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A3121, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x701A309D, 0x701A3122, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3123, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3124, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x701A309D, 0x701A3125, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x701A309D, 0x701A3126, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x701A309D, 0x701A3127, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A309E, 24287, 0x01A302A4, 31.8608, -57.4318, -12.0065, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -813,20 +813,20 @@ VALUES (0x701A3128,  1542, 0x01A301F5, 77.64266, -41.39704, -60, 1, 0, 0, 0, Fal
 /* @teleloc 0x01A301F5 [77.642660 -41.397040 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A3128, 0x701A3129, '2019-02-10 00:00:00') /* Salmon */
-     , (0x701A3128, 0x701A312A, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x701A3128, 0x701A312B, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x701A3128, 0x701A312C, '2019-02-10 00:00:00') /* Suzuhara Baijin's Care Package */
-     , (0x701A3128, 0x701A312D, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x701A3128, 0x701A312E, '2019-02-10 00:00:00') /* Bread */
-     , (0x701A3128, 0x701A312F, '2019-02-10 00:00:00') /* Steak */
-     , (0x701A3128, 0x701A3130, '2019-02-10 00:00:00') /* Egg */
-     , (0x701A3128, 0x701A3131, '2019-02-10 00:00:00') /* Special Cheese */
-     , (0x701A3128, 0x701A3132, '2019-02-10 00:00:00') /* Salmon */
-     , (0x701A3128, 0x701A3133, '2019-02-10 00:00:00') /* Royal Cabbage */
-     , (0x701A3128, 0x701A3134, '2019-02-10 00:00:00') /* Apple */
-     , (0x701A3128, 0x701A3135, '2019-02-10 00:00:00') /* Egg */
-     , (0x701A3128, 0x701A3136, '2019-02-10 00:00:00') /* Grapes */;
+VALUES (0x701A3128, 0x701A3129, '2019-02-10 00:00:00') /* Salmon (1450) */
+     , (0x701A3128, 0x701A312A, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x701A3128, 0x701A312B, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x701A3128, 0x701A312C, '2019-02-10 00:00:00') /* Suzuhara Baijin's Care Package (30399) */
+     , (0x701A3128, 0x701A312D, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x701A3128, 0x701A312E, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701A3128, 0x701A312F, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x701A3128, 0x701A3130, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701A3128, 0x701A3131, '2019-02-10 00:00:00') /* Special Cheese (1451) */
+     , (0x701A3128, 0x701A3132, '2019-02-10 00:00:00') /* Salmon (1450) */
+     , (0x701A3128, 0x701A3133, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */
+     , (0x701A3128, 0x701A3134, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701A3128, 0x701A3135, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701A3128, 0x701A3136, '2019-02-10 00:00:00') /* Grapes (264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3129,  1450, 0x01A301F5, 77.64266, -41.39704, -60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Salmon */

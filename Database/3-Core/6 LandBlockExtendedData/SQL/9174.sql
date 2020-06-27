@@ -5,9 +5,9 @@ VALUES (0x79174001,  1154, 0x91740035, 159.65, 108.9761, 154.0018, -0.9494465, 0
 /* @teleloc 0x91740035 [159.650000 108.976100 154.001800] -0.949447 0.000000 0.000000 -0.313929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79174001, 0x79174002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79174001, 0x79174003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79174001, 0x79174004, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x79174001, 0x79174002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79174001, 0x79174003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79174001, 0x79174004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79174002,  7989, 0x91740035, 159.65, 108.9761, 154.0018, -0.9494465, 0, 0, -0.3139288,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

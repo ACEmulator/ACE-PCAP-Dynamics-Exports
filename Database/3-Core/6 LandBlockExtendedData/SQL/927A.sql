@@ -5,16 +5,16 @@ VALUES (0x7927A001,  1154, 0x927A0011, 65.90582, 9.563995, 20.0085, 0.6646599, 0
 /* @teleloc 0x927A0011 [65.905820 9.563995 20.008500] 0.664660 0.000000 0.000000 -0.747146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7927A001, 0x7927A002, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7927A001, 0x7927A003, '2019-02-10 00:00:00') /* Flare */
-     , (0x7927A001, 0x7927A004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7927A001, 0x7927A005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7927A001, 0x7927A006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7927A001, 0x7927A007, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7927A001, 0x7927A008, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7927A001, 0x7927A009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7927A001, 0x7927A00A, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7927A001, 0x7927A00B, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7927A001, 0x7927A002, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7927A001, 0x7927A003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7927A001, 0x7927A004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7927A001, 0x7927A005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7927A001, 0x7927A006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7927A001, 0x7927A007, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7927A001, 0x7927A008, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7927A001, 0x7927A009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7927A001, 0x7927A00A, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7927A001, 0x7927A00B, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7927A002,  1606, 0x927A0011, 65.90582, 9.563995, 20.0085, 0.6646599, 0, 0, -0.7471461,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
@@ -61,8 +61,8 @@ VALUES (0x7927A00C,  1542, 0x927A002F, 143.5515, 162.4001, 21.53334, 0.9990482, 
 /* @teleloc 0x927A002F [143.551500 162.400100 21.533340] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7927A00C, 0x7927A00D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7927A00C, 0x7927A00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7927A00C, 0x7927A00D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7927A00C, 0x7927A00E, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7927A00D,  4179, 0x927A002F, 143.5515, 162.4001, 21.53334, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

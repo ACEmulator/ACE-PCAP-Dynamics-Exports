@@ -5,25 +5,25 @@ VALUES (0x7A0B2001,  1154, 0xA0B20036, 152.307, 142.1669, 72.005, 0.1602934, 0, 
 /* @teleloc 0xA0B20036 [152.307000 142.166900 72.005000] 0.160293 0.000000 0.000000 -0.987069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B2001, 0x7A0B2002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A0B2001, 0x7A0B2003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B2001, 0x7A0B2004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7A0B2001, 0x7A0B2005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A0B2001, 0x7A0B2006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A0B2001, 0x7A0B2007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7A0B2001, 0x7A0B2008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A0B2001, 0x7A0B2009, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7A0B2001, 0x7A0B200A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B2001, 0x7A0B200B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B2001, 0x7A0B200C, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B2001, 0x7A0B200D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A0B2001, 0x7A0B200E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A0B2001, 0x7A0B200F, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B2001, 0x7A0B2010, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B2001, 0x7A0B2011, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A0B2001, 0x7A0B2012, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A0B2001, 0x7A0B2013, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A0B2001, 0x7A0B2014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7A0B2001, 0x7A0B2002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A0B2001, 0x7A0B2003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B2001, 0x7A0B2004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7A0B2001, 0x7A0B2005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A0B2001, 0x7A0B2006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A0B2001, 0x7A0B2007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7A0B2001, 0x7A0B2008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A0B2001, 0x7A0B2009, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7A0B2001, 0x7A0B200A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B2001, 0x7A0B200B, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B2001, 0x7A0B200C, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B2001, 0x7A0B200D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7A0B2001, 0x7A0B200E, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7A0B2001, 0x7A0B200F, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B2001, 0x7A0B2010, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B2001, 0x7A0B2011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A0B2001, 0x7A0B2012, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A0B2001, 0x7A0B2013, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A0B2001, 0x7A0B2014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B2002,   946, 0xA0B20036, 152.307, 142.1669, 72.005, 0.1602934, 0, 0, -0.9870694,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -106,8 +106,8 @@ VALUES (0x7A0B2015,  1542, 0xA0B2003F, 169.959, 157.2159, 72, 0.9659258, 0, 0, -
 /* @teleloc 0xA0B2003F [169.959000 157.215900 72.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B2015, 0x7A0B2016, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7A0B2015, 0x7A0B2017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A0B2015, 0x7A0B2016, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7A0B2015, 0x7A0B2017, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B2016,  4180, 0xA0B2003F, 169.959, 157.2159, 72, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

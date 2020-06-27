@@ -5,10 +5,10 @@ VALUES (0x721B1001,  1154, 0x21B10011, 62.0048, 15.288, 2.0055, -0.326463, 0, 0,
 /* @teleloc 0x21B10011 [62.004800 15.288000 2.005500] -0.326463 0.000000 0.000000 -0.945210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721B1001, 0x721B1002, '2019-02-10 00:00:00') /* Aun Nireeura */
-     , (0x721B1001, 0x721B1003, '2019-02-10 00:00:00') /* Aun Pitamaura */
-     , (0x721B1001, 0x721B1004, '2019-02-10 00:00:00') /* Aun Kahuiura */
-     , (0x721B1001, 0x721B1005, '2019-02-10 00:00:00') /* Aun Ihmenaura */;
+VALUES (0x721B1001, 0x721B1002, '2019-02-10 00:00:00') /* Aun Nireeura (29859) */
+     , (0x721B1001, 0x721B1003, '2019-02-10 00:00:00') /* Aun Pitamaura (29862) */
+     , (0x721B1001, 0x721B1004, '2019-02-10 00:00:00') /* Aun Kahuiura (29861) */
+     , (0x721B1001, 0x721B1005, '2019-02-10 00:00:00') /* Aun Ihmenaura (29860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721B1002, 29859, 0x21B10011, 62.0048, 15.288, 2.0055, -0.326463, 0, 0, -0.94521,  True, '2019-02-10 00:00:00'); /* Aun Nireeura */

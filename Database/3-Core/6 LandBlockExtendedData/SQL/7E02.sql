@@ -193,41 +193,41 @@ VALUES (0x77E0203E,  1154, 0x7E0201C0, 80.3607, -169.123, 6.02558, 0.0268601, 0,
 /* @teleloc 0x7E0201C0 [80.360700 -169.123000 6.025580] 0.026860 0.000000 0.000000 0.999639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E0203E, 0x77E0203F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77E0203E, 0x77E02040, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02041, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02042, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02043, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02044, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02045, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02046, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E02047, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02048, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E02049, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E0204A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E0204B, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E0204C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77E0203E, 0x77E0204D, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E0204E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E0204F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02050, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02051, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02052, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77E0203E, 0x77E02053, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E02054, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02055, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02056, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E02057, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02058, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E02059, '2019-02-10 00:00:00') /* Shadow Engineer */
-     , (0x77E0203E, 0x77E0205A, '2019-02-10 00:00:00') /* Strange Crystal */
-     , (0x77E0203E, 0x77E0205B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E0205C, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E0205D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77E0203E, 0x77E0205E, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E0205F, '2019-02-10 00:00:00') /* Void Lord */
-     , (0x77E0203E, 0x77E02060, '2019-02-10 00:00:00') /* Void */
-     , (0x77E0203E, 0x77E02061, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x77E0203E, 0x77E0203F, '2019-02-10 00:00:00') /* Shadow Child (43857) */
+     , (0x77E0203E, 0x77E02040, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x77E0203E, 0x77E02041, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E02042, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E02043, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02044, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02045, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E02046, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E02047, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02048, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E02049, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x77E0203E, 0x77E0204A, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E0204B, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E0204C, '2019-02-10 00:00:00') /* Shadow Child (43857) */
+     , (0x77E0203E, 0x77E0204D, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E0204E, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x77E0203E, 0x77E0204F, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E02050, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */
+     , (0x77E0203E, 0x77E02051, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02052, '2019-02-10 00:00:00') /* Shadow Child (43857) */
+     , (0x77E0203E, 0x77E02053, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E02054, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x77E0203E, 0x77E02055, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E02056, '2019-02-10 00:00:00') /* Panumbris Shadow (43856) */
+     , (0x77E0203E, 0x77E02057, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02058, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E02059, '2019-02-10 00:00:00') /* Shadow Engineer (44831) */
+     , (0x77E0203E, 0x77E0205A, '2019-02-10 00:00:00') /* Strange Crystal (43896) */
+     , (0x77E0203E, 0x77E0205B, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E0205C, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E0205D, '2019-02-10 00:00:00') /* Panumbris Shadow (43855) */
+     , (0x77E0203E, 0x77E0205E, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E0205F, '2019-02-10 00:00:00') /* Void Lord (43899) */
+     , (0x77E0203E, 0x77E02060, '2019-02-10 00:00:00') /* Void (43898) */
+     , (0x77E0203E, 0x77E02061, '2019-02-10 00:00:00') /* Panumbris Shadow (43854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E0203F, 43857, 0x7E0201C0, 80.3607, -169.123, 6.02558, 0.0268601, 0, 0, 0.999639,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -374,7 +374,7 @@ VALUES (0x77E02062,  1154, 0x7E0202D7, 79.9965, -31.012, 27.01523, -0.004105998,
 /* @teleloc 0x7E0202D7 [79.996500 -31.012000 27.015230] -0.004106 0.000000 0.000000 0.999992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E02062, 0x77E02063, '2019-02-10 00:00:00') /* Ler Rhan */;
+VALUES (0x77E02062, 0x77E02063, '2019-02-10 00:00:00') /* Ler Rhan (43858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E02063, 43858, 0x7E0202D7, 79.9965, -31.012, 27.01523, -0.004105998, 0, 0, 0.9999916,  True, '2019-02-10 00:00:00'); /* Ler Rhan */
@@ -385,7 +385,7 @@ VALUES (0x77E02064,  1542, 0x7E02015E, 8.612563, -107.469, 6.17316, 1, 0, 0, 0, 
 /* @teleloc 0x7E02015E [8.612563 -107.469000 6.173160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E02064, 0x77E02065, '2019-02-10 00:00:00') /* Attunement Crystal */;
+VALUES (0x77E02064, 0x77E02065, '2019-02-10 00:00:00') /* Attunement Crystal (44827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E02065, 44827, 0x7E02015E, 8.612563, -107.469, 6.17316, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Attunement Crystal */

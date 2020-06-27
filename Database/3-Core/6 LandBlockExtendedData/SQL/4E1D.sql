@@ -5,25 +5,25 @@ VALUES (0x74E1D001,  1154, 0x4E1D001B, 85.35118, 71.4296, 67.7198, 0.06010491, 0
 /* @teleloc 0x4E1D001B [85.351180 71.429600 67.719800] 0.060105 0.000000 0.000000 -0.998192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E1D001, 0x74E1D002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74E1D001, 0x74E1D003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74E1D001, 0x74E1D004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74E1D001, 0x74E1D005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74E1D001, 0x74E1D006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74E1D001, 0x74E1D007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74E1D001, 0x74E1D008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74E1D001, 0x74E1D009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74E1D001, 0x74E1D00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74E1D001, 0x74E1D00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74E1D001, 0x74E1D00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74E1D001, 0x74E1D00D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x74E1D001, 0x74E1D00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74E1D001, 0x74E1D00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74E1D001, 0x74E1D010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74E1D001, 0x74E1D011, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x74E1D001, 0x74E1D012, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x74E1D001, 0x74E1D013, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74E1D001, 0x74E1D014, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x74E1D001, 0x74E1D002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74E1D001, 0x74E1D003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74E1D001, 0x74E1D004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74E1D001, 0x74E1D005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74E1D001, 0x74E1D006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74E1D001, 0x74E1D007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74E1D001, 0x74E1D008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74E1D001, 0x74E1D009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74E1D001, 0x74E1D00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74E1D001, 0x74E1D00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74E1D001, 0x74E1D00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74E1D001, 0x74E1D00D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x74E1D001, 0x74E1D00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74E1D001, 0x74E1D00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74E1D001, 0x74E1D010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74E1D001, 0x74E1D011, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x74E1D001, 0x74E1D012, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x74E1D001, 0x74E1D013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74E1D001, 0x74E1D014, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E1D002, 23564, 0x4E1D001B, 85.35118, 71.4296, 67.7198, 0.06010491, 0, 0, -0.9981921,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -106,8 +106,8 @@ VALUES (0x74E1D015,  1542, 0x4E1D0007, 12.88611, 159.2588, 67.99, -0.5996237, 0,
 /* @teleloc 0x4E1D0007 [12.886110 159.258800 67.990000] -0.599624 0.000000 0.000000 -0.800282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E1D015, 0x74E1D016, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x74E1D015, 0x74E1D017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74E1D015, 0x74E1D016, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x74E1D015, 0x74E1D017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E1D016,  9286, 0x4E1D0007, 12.88611, 159.2588, 67.99, -0.5996237, 0, 0, -0.8002821,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

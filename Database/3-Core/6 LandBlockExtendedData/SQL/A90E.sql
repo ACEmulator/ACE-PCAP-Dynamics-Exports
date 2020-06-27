@@ -5,16 +5,16 @@ VALUES (0x7A90E001,  1154, 0xA90E0028, 112.6186, 173.0829, 141.6665, 0.2588191, 
 /* @teleloc 0xA90E0028 [112.618600 173.082900 141.666500] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90E001, 0x7A90E002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A90E001, 0x7A90E003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A90E001, 0x7A90E004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A90E001, 0x7A90E005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A90E001, 0x7A90E006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A90E001, 0x7A90E007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A90E001, 0x7A90E008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A90E001, 0x7A90E009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A90E001, 0x7A90E00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A90E001, 0x7A90E00B, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7A90E001, 0x7A90E002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A90E001, 0x7A90E003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A90E001, 0x7A90E004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A90E001, 0x7A90E005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A90E001, 0x7A90E006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A90E001, 0x7A90E007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A90E001, 0x7A90E008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A90E001, 0x7A90E009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A90E001, 0x7A90E00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A90E001, 0x7A90E00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90E002, 14559, 0xA90E0028, 112.6186, 173.0829, 141.6665, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -61,7 +61,7 @@ VALUES (0x7A90E00C,  1542, 0xA90E0024, 98.11805, 81.41244, 96.25096, -0.0368555,
 /* @teleloc 0xA90E0024 [98.118050 81.412440 96.250960] -0.036856 0.000000 0.000000 -0.999321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90E00C, 0x7A90E00D, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7A90E00C, 0x7A90E00D, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90E00D, 42528, 0xA90E0024, 98.11805, 81.41244, 96.25096, -0.0368555, 0, 0, -0.9993206,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,19 +5,19 @@ VALUES (0x79447001,  1154, 0x9447002B, 129.7018, 65.90395, 10.57039, 0.3449055, 
 /* @teleloc 0x9447002B [129.701800 65.903950 10.570390] 0.344906 0.000000 0.000000 -0.938637 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79447001, 0x79447002, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79447001, 0x79447003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x79447001, 0x79447004, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79447001, 0x79447005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79447001, 0x79447006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79447001, 0x79447007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79447001, 0x79447008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79447001, 0x79447009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79447001, 0x7944700A, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79447001, 0x7944700B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x79447001, 0x7944700C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79447001, 0x7944700D, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79447001, 0x7944700E, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x79447001, 0x79447002, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79447001, 0x79447003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x79447001, 0x79447004, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79447001, 0x79447005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79447001, 0x79447006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79447001, 0x79447007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79447001, 0x79447008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79447001, 0x79447009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79447001, 0x7944700A, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79447001, 0x7944700B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x79447001, 0x7944700C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79447001, 0x7944700D, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79447001, 0x7944700E, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79447002,  9244, 0x9447002B, 129.7018, 65.90395, 10.57039, 0.3449055, 0, 0, -0.9386374,  True, '2019-02-10 00:00:00'); /* Pristine Doll */
@@ -76,7 +76,7 @@ VALUES (0x7944700F,  1542, 0x94470026, 104.8021, 130.3849, 6.401083, 1, 0, 0, 0,
 /* @teleloc 0x94470026 [104.802100 130.384900 6.401083] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7944700F, 0x79447010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7944700F, 0x79447010, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79447010, 22576, 0x94470026, 104.8021, 130.3849, 6.401083, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

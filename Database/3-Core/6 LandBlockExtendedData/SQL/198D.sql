@@ -9,26 +9,26 @@ VALUES (0x7198D001,  1154, 0x198D0021, 115.3371, 18.48164, 228.0506, 0.5492693, 
 /* @teleloc 0x198D0021 [115.337100 18.481640 228.050600] 0.549269 0.000000 0.000000 -0.835645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198D001, 0x7198D002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198D001, 0x7198D003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7198D001, 0x7198D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198D001, 0x7198D005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7198D001, 0x7198D006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198D001, 0x7198D007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198D001, 0x7198D008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198D001, 0x7198D009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198D001, 0x7198D00A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7198D001, 0x7198D00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7198D001, 0x7198D00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198D001, 0x7198D00D, '2019-02-10 00:00:00') /* Dire Champion Golem */
-     , (0x7198D001, 0x7198D00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198D001, 0x7198D00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198D001, 0x7198D010, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7198D001, 0x7198D011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198D001, 0x7198D012, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7198D001, 0x7198D013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198D001, 0x7198D014, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198D001, 0x7198D015, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7198D001, 0x7198D002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198D001, 0x7198D003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7198D001, 0x7198D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198D001, 0x7198D005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7198D001, 0x7198D006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198D001, 0x7198D007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198D001, 0x7198D008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198D001, 0x7198D009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198D001, 0x7198D00A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7198D001, 0x7198D00B, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7198D001, 0x7198D00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198D001, 0x7198D00D, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */
+     , (0x7198D001, 0x7198D00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198D001, 0x7198D00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198D001, 0x7198D010, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7198D001, 0x7198D011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198D001, 0x7198D012, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7198D001, 0x7198D013, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198D001, 0x7198D014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198D001, 0x7198D015, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198D002, 36840, 0x198D0021, 115.3371, 18.48164, 228.0506, 0.5492693, 0, 0, -0.8356454,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -115,9 +115,9 @@ VALUES (0x7198D016,  1542, 0x198D002C, 139.7081, 76.16958, 216.1269, -4.371139E-
 /* @teleloc 0x198D002C [139.708100 76.169580 216.126900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198D016, 0x7198D017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7198D016, 0x7198D018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7198D016, 0x7198D019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7198D016, 0x7198D017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7198D016, 0x7198D018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7198D016, 0x7198D019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198D017,  4380, 0x198D002C, 139.7081, 76.16958, 216.1269, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

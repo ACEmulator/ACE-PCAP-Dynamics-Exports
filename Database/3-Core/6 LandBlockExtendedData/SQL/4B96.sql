@@ -5,22 +5,22 @@ VALUES (0x74B96001,  1154, 0x4B960028, 110.8936, 171.2285, 1.261693, 0.171695, 0
 /* @teleloc 0x4B960028 [110.893600 171.228500 1.261693] 0.171695 0.000000 0.000000 -0.985150 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B96001, 0x74B96002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74B96001, 0x74B96003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74B96001, 0x74B96004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74B96001, 0x74B96005, '2019-02-10 00:00:00') /* Frost */
-     , (0x74B96001, 0x74B96006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74B96001, 0x74B96007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B96001, 0x74B96008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x74B96001, 0x74B96009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B96001, 0x74B9600A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74B96001, 0x74B9600B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B96001, 0x74B9600C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B96001, 0x74B9600D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74B96001, 0x74B9600E, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x74B96001, 0x74B9600F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74B96001, 0x74B96010, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74B96001, 0x74B96011, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x74B96001, 0x74B96002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74B96001, 0x74B96003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74B96001, 0x74B96004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74B96001, 0x74B96005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74B96001, 0x74B96006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74B96001, 0x74B96007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B96001, 0x74B96008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x74B96001, 0x74B96009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B96001, 0x74B9600A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74B96001, 0x74B9600B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B96001, 0x74B9600C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B96001, 0x74B9600D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74B96001, 0x74B9600E, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x74B96001, 0x74B9600F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74B96001, 0x74B96010, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74B96001, 0x74B96011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B96002,  7183, 0x4B960028, 110.8936, 171.2285, 1.261693, 0.171695, 0, 0, -0.9851502,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -91,7 +91,7 @@ VALUES (0x74B96012,  1542, 0x4B96000A, 35.54782, 35.36547, 4.009442, 0.9990482, 
 /* @teleloc 0x4B96000A [35.547820 35.365470 4.009442] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B96012, 0x74B96013, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x74B96012, 0x74B96013, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B96013,  6117, 0x4B96000A, 35.54782, 35.36547, 4.009442, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -5,15 +5,15 @@ VALUES (0x7ACBD001,  1154, 0xACBD0031, 159.7577, 14.51553, 120.5338, 0.5178032, 
 /* @teleloc 0xACBD0031 [159.757700 14.515530 120.533800] 0.517803 0.000000 0.000000 -0.855500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACBD001, 0x7ACBD002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7ACBD001, 0x7ACBD003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7ACBD001, 0x7ACBD004, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ACBD001, 0x7ACBD005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACBD001, 0x7ACBD006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ACBD001, 0x7ACBD007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ACBD001, 0x7ACBD008, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7ACBD001, 0x7ACBD009, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7ACBD001, 0x7ACBD00A, '2019-02-10 00:00:00') /* Mite Squib */;
+VALUES (0x7ACBD001, 0x7ACBD002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7ACBD001, 0x7ACBD003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7ACBD001, 0x7ACBD004, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ACBD001, 0x7ACBD005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACBD001, 0x7ACBD006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ACBD001, 0x7ACBD007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ACBD001, 0x7ACBD008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7ACBD001, 0x7ACBD009, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7ACBD001, 0x7ACBD00A, '2019-02-10 00:00:00') /* Mite Squib (209) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACBD002,   236, 0xACBD0031, 159.7577, 14.51553, 120.5338, 0.5178032, 0, 0, -0.8554997,  True, '2019-02-10 00:00:00'); /* Female Tusker */

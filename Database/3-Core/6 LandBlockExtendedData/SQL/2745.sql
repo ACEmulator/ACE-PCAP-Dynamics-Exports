@@ -5,9 +5,9 @@ VALUES (0x72745001,  1154, 0x27450004, 15.82225, 88.35466, 1.371459, -0.2659668,
 /* @teleloc 0x27450004 [15.822250 88.354660 1.371459] -0.265967 0.000000 0.000000 -0.963982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72745001, 0x72745002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72745001, 0x72745003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72745001, 0x72745004, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72745001, 0x72745002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72745001, 0x72745003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72745001, 0x72745004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72745002,  7092, 0x27450004, 15.82225, 88.35466, 1.371459, -0.2659668, 0, 0, -0.9639822,  True, '2019-02-10 00:00:00'); /* Firestorm */

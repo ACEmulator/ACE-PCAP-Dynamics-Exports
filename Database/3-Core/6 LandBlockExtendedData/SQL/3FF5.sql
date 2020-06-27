@@ -5,11 +5,11 @@ VALUES (0x73FF5001,  1154, 0x3FF5003B, 174.3836, 62.27871, 105.74, 0.940468, 0, 
 /* @teleloc 0x3FF5003B [174.383600 62.278710 105.740000] 0.940468 0.000000 0.000000 -0.339882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FF5001, 0x73FF5002, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x73FF5001, 0x73FF5003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x73FF5001, 0x73FF5004, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73FF5001, 0x73FF5005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FF5001, 0x73FF5006, '2019-02-10 00:00:00') /* Viamontian Hand */;
+VALUES (0x73FF5001, 0x73FF5002, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73FF5001, 0x73FF5003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x73FF5001, 0x73FF5004, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73FF5001, 0x73FF5005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FF5001, 0x73FF5006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FF5002, 28656, 0x3FF5003B, 174.3836, 62.27871, 105.74, 0.940468, 0, 0, -0.3398823,  True, '2019-02-10 00:00:00'); /* Viamontian Lord */

@@ -5,21 +5,21 @@ VALUES (0x774B8001,  1154, 0x74B8002B, 126.754, 50.45664, 135.7547, 0.1882342, 0
 /* @teleloc 0x74B8002B [126.754000 50.456640 135.754700] 0.188234 0.000000 0.000000 -0.982124 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774B8001, 0x774B8002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x774B8001, 0x774B8003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x774B8001, 0x774B8004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x774B8001, 0x774B8005, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x774B8001, 0x774B8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x774B8001, 0x774B8007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x774B8001, 0x774B8008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x774B8001, 0x774B8009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x774B8001, 0x774B800A, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x774B8001, 0x774B800B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x774B8001, 0x774B800C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x774B8001, 0x774B800D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x774B8001, 0x774B800E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x774B8001, 0x774B800F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x774B8001, 0x774B8010, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x774B8001, 0x774B8002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x774B8001, 0x774B8003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x774B8001, 0x774B8004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x774B8001, 0x774B8005, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x774B8001, 0x774B8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x774B8001, 0x774B8007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x774B8001, 0x774B8008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x774B8001, 0x774B8009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x774B8001, 0x774B800A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x774B8001, 0x774B800B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x774B8001, 0x774B800C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x774B8001, 0x774B800D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x774B8001, 0x774B800E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x774B8001, 0x774B800F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x774B8001, 0x774B8010, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774B8002, 23565, 0x74B8002B, 126.754, 50.45664, 135.7547, 0.1882342, 0, 0, -0.9821241,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -86,7 +86,7 @@ VALUES (0x774B8011,  1542, 0x74B80024, 109.2591, 80.19799, 141.7922, -0.3796538,
 /* @teleloc 0x74B80024 [109.259100 80.197990 141.792200] -0.379654 0.000000 0.000000 -0.925129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774B8011, 0x774B8012, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x774B8011, 0x774B8012, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774B8012,  8039, 0x74B80024, 109.2591, 80.19799, 141.7922, -0.3796538, 0, 0, -0.9251286,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

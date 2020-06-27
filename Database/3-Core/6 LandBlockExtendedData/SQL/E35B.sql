@@ -5,12 +5,12 @@ VALUES (0x7E35B001,  1154, 0xE35B0027, 112.106, 162.766, -0.8935999, 0.9999995, 
 /* @teleloc 0xE35B0027 [112.106000 162.766000 -0.893600] 1.000000 0.000000 0.000000 -0.000982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E35B001, 0x7E35B002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E35B001, 0x7E35B003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E35B001, 0x7E35B004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E35B001, 0x7E35B005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E35B001, 0x7E35B006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E35B001, 0x7E35B007, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7E35B001, 0x7E35B002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E35B001, 0x7E35B003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E35B001, 0x7E35B004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E35B001, 0x7E35B005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E35B001, 0x7E35B006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E35B001, 0x7E35B007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E35B002,  7180, 0xE35B0027, 112.106, 162.766, -0.8935999, 0.9999995, 0, 0, -0.0009823464,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

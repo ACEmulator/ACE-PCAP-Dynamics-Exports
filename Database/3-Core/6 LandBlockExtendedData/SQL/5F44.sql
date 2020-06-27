@@ -25,39 +25,39 @@ VALUES (0x75F44028,  1154, 0x5F440128, 20, -40, -0.004999995, 0.7071068, 0, 0, -
 /* @teleloc 0x5F440128 [20.000000 -40.000000 -0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F44028, 0x75F44029, '2019-02-10 00:00:00') /* Statue of Greedy Wishes */
-     , (0x75F44028, 0x75F4402A, '2019-02-10 00:00:00') /* Statue of Greedy Wishes */
-     , (0x75F44028, 0x75F4402B, '2019-02-10 00:00:00') /* Statue of Healer's Wish */
-     , (0x75F44028, 0x75F4402C, '2019-02-10 00:00:00') /* Statue of Item Tinker's Wish */
-     , (0x75F44028, 0x75F4402D, '2019-02-10 00:00:00') /* Statue of Swashbuckler's Wish */
-     , (0x75F44028, 0x75F4402E, '2019-02-10 00:00:00') /* Statue of Magic Tinker's Wish */
-     , (0x75F44028, 0x75F4402F, '2019-02-10 00:00:00') /* Statue of Resistance Wishes */
-     , (0x75F44028, 0x75F44030, '2019-02-10 00:00:00') /* Statue of Artificer's Wish */
-     , (0x75F44028, 0x75F44031, '2019-02-10 00:00:00') /* Statue of Cook's Wish */
-     , (0x75F44028, 0x75F44032, '2019-02-10 00:00:00') /* Statue of Sprinter's Wish */
-     , (0x75F44028, 0x75F44033, '2019-02-10 00:00:00') /* Statue of Lockpicker's Wish */
-     , (0x75F44028, 0x75F44034, '2019-02-10 00:00:00') /* Statue of Enchanter's Wish */
-     , (0x75F44028, 0x75F44035, '2019-02-10 00:00:00') /* Statue of Missile Specialist's Wish */
-     , (0x75F44028, 0x75F44036, '2019-02-10 00:00:00') /* Statue of Leaper's Wish */
-     , (0x75F44028, 0x75F44037, '2019-02-10 00:00:00') /* Statue of Dodge Wishes */
-     , (0x75F44028, 0x75F44038, '2019-02-10 00:00:00') /* Statue of Shieldbearer's Wish */
-     , (0x75F44028, 0x75F44039, '2019-02-10 00:00:00') /* Statue of Fletcher's Dreams */
-     , (0x75F44028, 0x75F4403A, '2019-02-10 00:00:00') /* Statue of Archmage's Wish */
-     , (0x75F44028, 0x75F4403B, '2019-02-10 00:00:00') /* Statue of Light Duelist's Wish */
-     , (0x75F44028, 0x75F4403C, '2019-02-10 00:00:00') /* Statue of Cleaving Warrior's Wish */
-     , (0x75F44028, 0x75F4403D, '2019-02-10 00:00:00') /* Statue of Evasive Wishes */
-     , (0x75F44028, 0x75F4403E, '2019-02-10 00:00:00') /* Statue of Stealther's Wish */
-     , (0x75F44028, 0x75F4403F, '2019-02-10 00:00:00') /* Statue of Armor Tinker's Wish */
-     , (0x75F44028, 0x75F44040, '2019-02-10 00:00:00') /* Statue of Dirty Fighter's Wish */
-     , (0x75F44028, 0x75F44041, '2019-02-10 00:00:00') /* Statue of Swift Duelist's Wish */
-     , (0x75F44028, 0x75F44042, '2019-02-10 00:00:00') /* Statue of Void Caster's Wish */
-     , (0x75F44028, 0x75F44043, '2019-02-10 00:00:00') /* Statue of Berzerker's Wish */
-     , (0x75F44028, 0x75F44044, '2019-02-10 00:00:00') /* Statue of Sorcerer's Wish */
-     , (0x75F44028, 0x75F44045, '2019-02-10 00:00:00') /* Statue of Scholarly Wishes */
-     , (0x75F44028, 0x75F44046, '2019-02-10 00:00:00') /* Statue of Life Giver's Wish */
-     , (0x75F44028, 0x75F44047, '2019-02-10 00:00:00') /* Statue of Heavy Soldier's Wish */
-     , (0x75F44028, 0x75F44048, '2019-02-10 00:00:00') /* Statue of Alchemical Wishes */
-     , (0x75F44028, 0x75F44049, '2019-02-10 00:00:00') /* Statue of Weapon Tinker's Wish */;
+VALUES (0x75F44028, 0x75F44029, '2019-02-10 00:00:00') /* Statue of Greedy Wishes (22491) */
+     , (0x75F44028, 0x75F4402A, '2019-02-10 00:00:00') /* Statue of Greedy Wishes (22491) */
+     , (0x75F44028, 0x75F4402B, '2019-02-10 00:00:00') /* Statue of Healer's Wish (22479) */
+     , (0x75F44028, 0x75F4402C, '2019-02-10 00:00:00') /* Statue of Item Tinker's Wish (22481) */
+     , (0x75F44028, 0x75F4402D, '2019-02-10 00:00:00') /* Statue of Swashbuckler's Wish (22485) */
+     , (0x75F44028, 0x75F4402E, '2019-02-10 00:00:00') /* Statue of Magic Tinker's Wish (22487) */
+     , (0x75F44028, 0x75F4402F, '2019-02-10 00:00:00') /* Statue of Resistance Wishes (22486) */
+     , (0x75F44028, 0x75F44030, '2019-02-10 00:00:00') /* Statue of Artificer's Wish (22480) */
+     , (0x75F44028, 0x75F44031, '2019-02-10 00:00:00') /* Statue of Cook's Wish (22474) */
+     , (0x75F44028, 0x75F44032, '2019-02-10 00:00:00') /* Statue of Sprinter's Wish (22492) */
+     , (0x75F44028, 0x75F44033, '2019-02-10 00:00:00') /* Statue of Lockpicker's Wish (22484) */
+     , (0x75F44028, 0x75F44034, '2019-02-10 00:00:00') /* Statue of Enchanter's Wish (22475) */
+     , (0x75F44028, 0x75F44035, '2019-02-10 00:00:00') /* Statue of Missile Specialist's Wish (22473) */
+     , (0x75F44028, 0x75F44036, '2019-02-10 00:00:00') /* Statue of Leaper's Wish (22482) */
+     , (0x75F44028, 0x75F44037, '2019-02-10 00:00:00') /* Statue of Dodge Wishes (22490) */
+     , (0x75F44028, 0x75F44038, '2019-02-10 00:00:00') /* Statue of Shieldbearer's Wish (22493) */
+     , (0x75F44028, 0x75F44039, '2019-02-10 00:00:00') /* Statue of Fletcher's Dreams (22478) */
+     , (0x75F44028, 0x75F4403A, '2019-02-10 00:00:00') /* Statue of Archmage's Wish (22488) */
+     , (0x75F44028, 0x75F4403B, '2019-02-10 00:00:00') /* Statue of Light Duelist's Wish (22472) */
+     , (0x75F44028, 0x75F4403C, '2019-02-10 00:00:00') /* Statue of Cleaving Warrior's Wish (22494) */
+     , (0x75F44028, 0x75F4403D, '2019-02-10 00:00:00') /* Statue of Evasive Wishes (22489) */
+     , (0x75F44028, 0x75F4403E, '2019-02-10 00:00:00') /* Statue of Stealther's Wish (22476) */
+     , (0x75F44028, 0x75F4403F, '2019-02-10 00:00:00') /* Statue of Armor Tinker's Wish (22470) */
+     , (0x75F44028, 0x75F44040, '2019-02-10 00:00:00') /* Statue of Dirty Fighter's Wish (22496) */
+     , (0x75F44028, 0x75F44041, '2019-02-10 00:00:00') /* Statue of Swift Duelist's Wish (22477) */
+     , (0x75F44028, 0x75F44042, '2019-02-10 00:00:00') /* Statue of Void Caster's Wish (45522) */
+     , (0x75F44028, 0x75F44043, '2019-02-10 00:00:00') /* Statue of Berzerker's Wish (22471) */
+     , (0x75F44028, 0x75F44044, '2019-02-10 00:00:00') /* Statue of Sorcerer's Wish (22497) */
+     , (0x75F44028, 0x75F44045, '2019-02-10 00:00:00') /* Statue of Scholarly Wishes (22469) */
+     , (0x75F44028, 0x75F44046, '2019-02-10 00:00:00') /* Statue of Life Giver's Wish (22483) */
+     , (0x75F44028, 0x75F44047, '2019-02-10 00:00:00') /* Statue of Heavy Soldier's Wish (22495) */
+     , (0x75F44028, 0x75F44048, '2019-02-10 00:00:00') /* Statue of Alchemical Wishes (22468) */
+     , (0x75F44028, 0x75F44049, '2019-02-10 00:00:00') /* Statue of Weapon Tinker's Wish (22498) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44029, 22491, 0x5F440128, 20, -40, -0.004999995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Statue of Greedy Wishes */
@@ -196,8 +196,8 @@ VALUES (0x75F4404A,  1154, 0x5F4401A3, 231.071, -95.7679, 0.004400015, 0.375221,
 /* @teleloc 0x5F4401A3 [231.071000 -95.767900 0.004400] 0.375221 0.000000 0.000000 -0.926935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4404A, 0x75F4404B, '2019-02-10 00:00:00') /* Grunter */
-     , (0x75F4404A, 0x75F4404C, '2019-02-10 00:00:00') /* Oolutanga, the Tusker King */;
+VALUES (0x75F4404A, 0x75F4404B, '2019-02-10 00:00:00') /* Grunter (35777) */
+     , (0x75F4404A, 0x75F4404C, '2019-02-10 00:00:00') /* Oolutanga, the Tusker King (22500) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4404B, 35777, 0x5F4401A3, 231.071, -95.7679, 0.004400015, 0.375221, 0, 0, -0.926935,  True, '2019-02-10 00:00:00'); /* Grunter */

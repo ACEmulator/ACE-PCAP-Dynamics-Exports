@@ -5,68 +5,68 @@ VALUES (0x72312001,  1154, 0x23120036, 155.3413, 135.7285, 40.51813, 0.9302002, 
 /* @teleloc 0x23120036 [155.341300 135.728500 40.518130] 0.930200 0.000000 0.000000 -0.367053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72312001, 0x72312002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312007, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312009, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231200A, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231200B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231200C, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231200D, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231200E, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231200F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312010, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312013, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312014, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x72312015, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312016, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312017, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312018, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72312001, 0x72312019, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72312001, 0x7231201A, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231201B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231201C, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231201D, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231201E, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72312001, 0x7231201F, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312020, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312021, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312022, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72312001, 0x72312023, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312024, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312025, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312026, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x72312027, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x72312028, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x72312029, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231202A, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231202B, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231202C, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x7231202D, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231202E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x7231202F, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312030, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312031, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312032, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312033, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72312001, 0x72312034, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72312001, 0x72312035, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312036, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312037, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72312001, 0x72312038, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x72312039, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231203A, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231203B, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231203C, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72312001, 0x7231203D, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231203E, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72312001, 0x7231203F, '2019-02-10 00:00:00') /* Withered Banderling Paragon */;
+VALUES (0x72312001, 0x72312002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312006, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312007, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312009, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231200A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231200B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231200C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231200D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231200E, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231200F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312010, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312013, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312014, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x72312015, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312016, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312017, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312018, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72312001, 0x72312019, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72312001, 0x7231201A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231201B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231201C, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231201D, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231201E, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72312001, 0x7231201F, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312020, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312021, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312022, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72312001, 0x72312023, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312024, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312025, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312026, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x72312027, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x72312028, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x72312029, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231202A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231202B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231202C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x7231202D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231202E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x7231202F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312030, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312031, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312032, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312033, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72312001, 0x72312034, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72312001, 0x72312035, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312036, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312037, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72312001, 0x72312038, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x72312039, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231203A, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231203B, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231203C, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72312001, 0x7231203D, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231203E, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72312001, 0x7231203F, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72312002, 30687, 0x23120036, 155.3413, 135.7285, 40.51813, 0.9302002, 0, 0, -0.3670526,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */

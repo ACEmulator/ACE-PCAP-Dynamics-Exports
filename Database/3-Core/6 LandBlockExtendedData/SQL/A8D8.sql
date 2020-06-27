@@ -5,13 +5,13 @@ VALUES (0x7A8D8001,  1154, 0xA8D80019, 94.84204, 19.89428, 72.77178, 0.7361674, 
 /* @teleloc 0xA8D80019 [94.842040 19.894280 72.771780] 0.736167 0.000000 0.000000 -0.676799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8D8001, 0x7A8D8002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A8D8001, 0x7A8D8003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A8D8001, 0x7A8D8004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A8D8001, 0x7A8D8005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A8D8001, 0x7A8D8006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A8D8001, 0x7A8D8007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A8D8001, 0x7A8D8008, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7A8D8001, 0x7A8D8002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A8D8001, 0x7A8D8003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A8D8001, 0x7A8D8004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A8D8001, 0x7A8D8005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A8D8001, 0x7A8D8006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A8D8001, 0x7A8D8007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A8D8001, 0x7A8D8008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8D8002,  9253, 0xA8D80019, 94.84204, 19.89428, 72.77178, 0.7361674, 0, 0, -0.6767994,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -46,7 +46,7 @@ VALUES (0x7A8D8009,  1542, 0xA8D8001A, 78.46194, 46.34976, 73.4615, 1, 0, 0, 0, 
 /* @teleloc 0xA8D8001A [78.461940 46.349760 73.461500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8D8009, 0x7A8D800A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A8D8009, 0x7A8D800A, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8D800A, 22571, 0xA8D8001A, 78.46194, 46.34976, 73.4615, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

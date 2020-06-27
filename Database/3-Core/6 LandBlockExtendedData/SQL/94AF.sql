@@ -5,16 +5,16 @@ VALUES (0x794AF001,  1154, 0x94AF0027, 99.04227, 152.302, 40.51704, -0.7038244, 
 /* @teleloc 0x94AF0027 [99.042270 152.302000 40.517040] -0.703824 0.000000 0.000000 -0.710374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794AF001, 0x794AF002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF005, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x794AF001, 0x794AF006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF00A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794AF001, 0x794AF00B, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x794AF001, 0x794AF002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF005, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x794AF001, 0x794AF006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794AF001, 0x794AF00B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794AF002,   194, 0x94AF0027, 99.04227, 152.302, 40.51704, -0.7038244, 0, 0, -0.710374,  True, '2019-02-10 00:00:00'); /* Copper Golem */

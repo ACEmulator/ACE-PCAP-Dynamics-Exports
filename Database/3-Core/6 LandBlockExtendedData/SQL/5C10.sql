@@ -5,25 +5,25 @@ VALUES (0x75C10001,  1154, 0x5C100020, 81.51905, 185.7893, 38.37716, 0.8660254, 
 /* @teleloc 0x5C100020 [81.519050 185.789300 38.377160] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C10001, 0x75C10002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C10001, 0x75C10003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C10001, 0x75C10004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x75C10001, 0x75C10005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x75C10001, 0x75C10006, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x75C10001, 0x75C10007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x75C10001, 0x75C10008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C10001, 0x75C10009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75C10001, 0x75C1000A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x75C10001, 0x75C1000B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C10001, 0x75C1000C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75C10001, 0x75C1000D, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75C10001, 0x75C1000E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75C10001, 0x75C1000F, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75C10001, 0x75C10010, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75C10001, 0x75C10011, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75C10001, 0x75C10012, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75C10001, 0x75C10013, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75C10001, 0x75C10014, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x75C10001, 0x75C10002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C10001, 0x75C10003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C10001, 0x75C10004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x75C10001, 0x75C10005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x75C10001, 0x75C10006, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x75C10001, 0x75C10007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x75C10001, 0x75C10008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C10001, 0x75C10009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75C10001, 0x75C1000A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x75C10001, 0x75C1000B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C10001, 0x75C1000C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75C10001, 0x75C1000D, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75C10001, 0x75C1000E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75C10001, 0x75C1000F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75C10001, 0x75C10010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75C10001, 0x75C10011, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75C10001, 0x75C10012, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75C10001, 0x75C10013, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75C10001, 0x75C10014, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C10002,  4247, 0x5C100020, 81.51905, 185.7893, 38.37716, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -106,8 +106,8 @@ VALUES (0x75C10015,  1542, 0x5C100020, 75.39867, 183.5236, 37.46689, 0.9990482, 
 /* @teleloc 0x5C100020 [75.398670 183.523600 37.466890] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C10015, 0x75C10016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75C10015, 0x75C10017, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x75C10015, 0x75C10016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75C10015, 0x75C10017, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C10016,  4179, 0x5C100020, 75.39867, 183.5236, 37.46689, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

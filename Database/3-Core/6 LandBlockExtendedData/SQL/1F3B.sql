@@ -5,14 +5,14 @@ VALUES (0x71F3B001,  1154, 0x1F3B001E, 86.99313, 126.436, 28.29162, 0.4418354, 0
 /* @teleloc 0x1F3B001E [86.993130 126.436000 28.291620] 0.441835 0.000000 0.000000 -0.897096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F3B001, 0x71F3B002, '2019-02-10 00:00:00') /* Sirrocco */
-     , (0x71F3B001, 0x71F3B003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71F3B001, 0x71F3B004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71F3B001, 0x71F3B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71F3B001, 0x71F3B006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71F3B001, 0x71F3B007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71F3B001, 0x71F3B008, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71F3B001, 0x71F3B009, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x71F3B001, 0x71F3B002, '2019-02-10 00:00:00') /* Sirrocco (14878) */
+     , (0x71F3B001, 0x71F3B003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71F3B001, 0x71F3B004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71F3B001, 0x71F3B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71F3B001, 0x71F3B006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71F3B001, 0x71F3B007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71F3B001, 0x71F3B008, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71F3B001, 0x71F3B009, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F3B002, 14878, 0x1F3B001E, 86.99313, 126.436, 28.29162, 0.4418354, 0, 0, -0.8970962,  True, '2019-02-10 00:00:00'); /* Sirrocco */

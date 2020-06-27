@@ -5,16 +5,16 @@ VALUES (0x7BC66001,  1154, 0xBC660006, 11.08285, 134.9954, 6.012, -0.2596604, 0,
 /* @teleloc 0xBC660006 [11.082850 134.995400 6.012000] -0.259660 0.000000 0.000000 -0.965700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC66001, 0x7BC66002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC66001, 0x7BC66003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC66001, 0x7BC66004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC66001, 0x7BC66005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC66001, 0x7BC66006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC66001, 0x7BC66007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC66001, 0x7BC66008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC66001, 0x7BC66009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC66001, 0x7BC6600A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC66001, 0x7BC6600B, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7BC66001, 0x7BC66002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC66001, 0x7BC66003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC66001, 0x7BC66004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC66001, 0x7BC66005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC66001, 0x7BC66006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC66001, 0x7BC66007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC66001, 0x7BC66008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC66001, 0x7BC66009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC66001, 0x7BC6600A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC66001, 0x7BC6600B, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC66002,   215, 0xBC660006, 11.08285, 134.9954, 6.012, -0.2596604, 0, 0, -0.9657,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

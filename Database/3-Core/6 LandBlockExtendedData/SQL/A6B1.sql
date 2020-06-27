@@ -5,36 +5,36 @@ VALUES (0x7A6B1001,  1154, 0xA6B10038, 150.8288, 172.429, 67.63424, 0.3071206, 0
 /* @teleloc 0xA6B10038 [150.828800 172.429000 67.634240] 0.307121 0.000000 0.000000 -0.951671 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6B1001, 0x7A6B1002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A6B1001, 0x7A6B1003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A6B1001, 0x7A6B1004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A6B1001, 0x7A6B1005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A6B1001, 0x7A6B1006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A6B1001, 0x7A6B1007, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B1008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A6B1001, 0x7A6B1009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A6B1001, 0x7A6B100A, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B100B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A6B1001, 0x7A6B100C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A6B1001, 0x7A6B100D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B100E, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A6B1001, 0x7A6B100F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A6B1001, 0x7A6B1010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A6B1001, 0x7A6B1011, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B1012, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B1013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A6B1001, 0x7A6B1014, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B1001, 0x7A6B1015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A6B1001, 0x7A6B1016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A6B1001, 0x7A6B1017, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A6B1001, 0x7A6B1018, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A6B1001, 0x7A6B1019, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A6B1001, 0x7A6B101A, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A6B1001, 0x7A6B101B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6B1001, 0x7A6B101C, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A6B1001, 0x7A6B101D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A6B1001, 0x7A6B101E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A6B1001, 0x7A6B101F, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x7A6B1001, 0x7A6B1002, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A6B1001, 0x7A6B1003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A6B1001, 0x7A6B1004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A6B1001, 0x7A6B1005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A6B1001, 0x7A6B1006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A6B1001, 0x7A6B1007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B1008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A6B1001, 0x7A6B1009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A6B1001, 0x7A6B100A, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B100B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A6B1001, 0x7A6B100C, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A6B1001, 0x7A6B100D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B100E, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A6B1001, 0x7A6B100F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A6B1001, 0x7A6B1010, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A6B1001, 0x7A6B1011, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B1012, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B1013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A6B1001, 0x7A6B1014, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B1001, 0x7A6B1015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A6B1001, 0x7A6B1016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A6B1001, 0x7A6B1017, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A6B1001, 0x7A6B1018, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A6B1001, 0x7A6B1019, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A6B1001, 0x7A6B101A, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A6B1001, 0x7A6B101B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6B1001, 0x7A6B101C, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A6B1001, 0x7A6B101D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A6B1001, 0x7A6B101E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A6B1001, 0x7A6B101F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6B1002, 19258, 0xA6B10038, 150.8288, 172.429, 67.63424, 0.3071206, 0, 0, -0.9516706,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -161,7 +161,7 @@ VALUES (0x7A6B1020,  1542, 0xA6B10039, 168.0627, 4.601067, 80.02213, -0.136172, 
 /* @teleloc 0xA6B10039 [168.062700 4.601067 80.022130] -0.136172 0.000000 0.000000 0.990685 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6B1020, 0x7A6B1021, '2019-02-10 00:00:00') /* Aetheria Desiccant */;
+VALUES (0x7A6B1020, 0x7A6B1021, '2019-02-10 00:00:00') /* Aetheria Desiccant (42646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6B1021, 42646, 0xA6B10039, 168.0627, 4.601067, 80.02213, -0.136172, 0, 0, 0.9906852,  True, '2019-02-10 00:00:00'); /* Aetheria Desiccant */

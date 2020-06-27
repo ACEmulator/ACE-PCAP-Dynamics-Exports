@@ -5,28 +5,28 @@ VALUES (0x7D75B001,  1154, 0xD75B003A, 174.7592, 32.07845, 13.3228, 0.1326363, 0
 /* @teleloc 0xD75B003A [174.759200 32.078450 13.322800] 0.132636 0.000000 0.000000 -0.991165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D75B001, 0x7D75B002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75B001, 0x7D75B003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75B001, 0x7D75B006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75B001, 0x7D75B008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75B001, 0x7D75B00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75B001, 0x7D75B00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75B001, 0x7D75B00C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75B001, 0x7D75B00D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75B001, 0x7D75B00E, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D75B001, 0x7D75B00F, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75B001, 0x7D75B010, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B011, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75B001, 0x7D75B012, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75B001, 0x7D75B013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75B001, 0x7D75B014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D75B001, 0x7D75B015, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75B001, 0x7D75B016, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75B001, 0x7D75B017, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7D75B001, 0x7D75B002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75B001, 0x7D75B003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75B001, 0x7D75B006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75B001, 0x7D75B008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75B001, 0x7D75B00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75B001, 0x7D75B00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75B001, 0x7D75B00C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75B001, 0x7D75B00D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75B001, 0x7D75B00E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D75B001, 0x7D75B00F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75B001, 0x7D75B010, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B011, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75B001, 0x7D75B012, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75B001, 0x7D75B013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75B001, 0x7D75B014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D75B001, 0x7D75B015, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75B001, 0x7D75B016, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75B001, 0x7D75B017, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75B002,  4109, 0xD75B003A, 174.7592, 32.07845, 13.3228, 0.1326363, 0, 0, -0.9911647,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

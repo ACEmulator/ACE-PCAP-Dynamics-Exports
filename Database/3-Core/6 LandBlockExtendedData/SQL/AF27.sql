@@ -5,9 +5,9 @@ VALUES (0x7AF27001,  1154, 0xAF27001E, 83.22064, 140.8006, 237.4783, 0.9238795, 
 /* @teleloc 0xAF27001E [83.220640 140.800600 237.478300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF27001, 0x7AF27002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7AF27001, 0x7AF27003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7AF27001, 0x7AF27004, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7AF27001, 0x7AF27002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7AF27001, 0x7AF27003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7AF27001, 0x7AF27004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF27002, 24497, 0xAF27001E, 83.22064, 140.8006, 237.4783, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -26,8 +26,8 @@ VALUES (0x7AF27005,  1542, 0xAF270009, 27.13399, 0.6269226, 244.9111, 1, 0, 0, 0
 /* @teleloc 0xAF270009 [27.133990 0.626923 244.911100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF27005, 0x7AF27006, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AF27005, 0x7AF27007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AF27005, 0x7AF27006, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AF27005, 0x7AF27007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF27006,  4380, 0xAF270009, 27.13399, 0.6269226, 244.9111, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

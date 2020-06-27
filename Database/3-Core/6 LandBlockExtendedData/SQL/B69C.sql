@@ -9,12 +9,12 @@ VALUES (0x7B69C001,  1154, 0xB69C0011, 54.34368, 17.10305, 53.985, 0.8857037, 0,
 /* @teleloc 0xB69C0011 [54.343680 17.103050 53.985000] 0.885704 0.000000 0.000000 -0.464251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69C001, 0x7B69C002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B69C001, 0x7B69C003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B69C001, 0x7B69C004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B69C001, 0x7B69C005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B69C001, 0x7B69C006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B69C001, 0x7B69C007, '2019-02-10 00:00:00') /* Small Shadow Child */;
+VALUES (0x7B69C001, 0x7B69C002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B69C001, 0x7B69C003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B69C001, 0x7B69C004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B69C001, 0x7B69C005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B69C001, 0x7B69C006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B69C001, 0x7B69C007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69C002,  4111, 0xB69C0011, 54.34368, 17.10305, 53.985, 0.8857037, 0, 0, -0.464251,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

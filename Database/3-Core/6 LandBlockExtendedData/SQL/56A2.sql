@@ -5,17 +5,17 @@ VALUES (0x756A2001,  1154, 0x56A20040, 191.034, 172.148, 57.65434, 0.9932529, 0,
 /* @teleloc 0x56A20040 [191.034000 172.148000 57.654340] 0.993253 0.000000 0.000000 -0.115968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756A2001, 0x756A2002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x756A2001, 0x756A2003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x756A2001, 0x756A2004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x756A2001, 0x756A2005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x756A2001, 0x756A2006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x756A2001, 0x756A2007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x756A2001, 0x756A2008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x756A2001, 0x756A2009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x756A2001, 0x756A200A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x756A2001, 0x756A200B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x756A2001, 0x756A200C, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x756A2001, 0x756A2002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x756A2001, 0x756A2003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x756A2001, 0x756A2004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x756A2001, 0x756A2005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x756A2001, 0x756A2006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x756A2001, 0x756A2007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x756A2001, 0x756A2008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x756A2001, 0x756A2009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x756A2001, 0x756A200A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x756A2001, 0x756A200B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x756A2001, 0x756A200C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756A2002, 28551, 0x56A20040, 191.034, 172.148, 57.65434, 0.9932529, 0, 0, -0.1159682,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

@@ -25,9 +25,9 @@ VALUES (0x79ABF005,  1154, 0x9ABF0037, 160.6759, 153.2462, 76.30729, -0.9757232,
 /* @teleloc 0x9ABF0037 [160.675900 153.246200 76.307290] -0.975723 0.000000 0.000000 -0.219007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ABF005, 0x79ABF006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79ABF005, 0x79ABF007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79ABF005, 0x79ABF008, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x79ABF005, 0x79ABF006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79ABF005, 0x79ABF007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79ABF005, 0x79ABF008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ABF006,  1609, 0x9ABF0037, 160.6759, 153.2462, 76.30729, -0.9757232, 0, 0, -0.2190073,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

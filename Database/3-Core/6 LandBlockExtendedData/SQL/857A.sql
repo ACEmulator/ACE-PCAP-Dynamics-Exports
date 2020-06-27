@@ -5,11 +5,11 @@ VALUES (0x7857A001,  1154, 0x857A0029, 121.0107, 4.121442, 16.00095, 0.3012726, 
 /* @teleloc 0x857A0029 [121.010700 4.121442 16.000950] 0.301273 0.000000 0.000000 -0.953538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7857A001, 0x7857A002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7857A001, 0x7857A003, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7857A001, 0x7857A004, '2019-02-10 00:00:00') /* Undead */
-     , (0x7857A001, 0x7857A005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7857A001, 0x7857A006, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7857A001, 0x7857A002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7857A001, 0x7857A003, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7857A001, 0x7857A004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7857A001, 0x7857A005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7857A001, 0x7857A006, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7857A002,   950, 0x857A0029, 121.0107, 4.121442, 16.00095, 0.3012726, 0, 0, -0.9535381,  True, '2019-02-10 00:00:00'); /* Zombie */

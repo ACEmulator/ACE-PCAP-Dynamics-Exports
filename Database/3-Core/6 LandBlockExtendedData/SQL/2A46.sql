@@ -5,8 +5,8 @@ VALUES (0x72A46001,  1154, 0x2A460023, 102.0163, 64.84377, 5.510567, 0.9552306, 
 /* @teleloc 0x2A460023 [102.016300 64.843770 5.510567] 0.955231 0.000000 0.000000 -0.295862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A46001, 0x72A46002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A46001, 0x72A46003, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x72A46001, 0x72A46002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A46001, 0x72A46003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A46002,  7119, 0x2A460023, 102.0163, 64.84377, 5.510567, 0.9552306, 0, 0, -0.2958623,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

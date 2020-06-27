@@ -5,23 +5,23 @@ VALUES (0x7D979001,  1154, 0xD9790037, 156.0351, 166.3505, 21.86854, 0.8191521, 
 /* @teleloc 0xD9790037 [156.035100 166.350500 21.868540] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D979001, 0x7D979002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D979001, 0x7D979003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D979001, 0x7D979004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D979001, 0x7D979005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7D979001, 0x7D979006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7D979001, 0x7D979007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D979001, 0x7D979008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D979001, 0x7D979009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D979001, 0x7D97900A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D979001, 0x7D97900B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7D979001, 0x7D97900C, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7D979001, 0x7D97900D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D979001, 0x7D97900E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D979001, 0x7D97900F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D979001, 0x7D979010, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D979001, 0x7D979011, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D979001, 0x7D979012, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7D979001, 0x7D979002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D979001, 0x7D979003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D979001, 0x7D979004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D979001, 0x7D979005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7D979001, 0x7D979006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7D979001, 0x7D979007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D979001, 0x7D979008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D979001, 0x7D979009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D979001, 0x7D97900A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D979001, 0x7D97900B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7D979001, 0x7D97900C, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7D979001, 0x7D97900D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D979001, 0x7D97900E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D979001, 0x7D97900F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D979001, 0x7D979010, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D979001, 0x7D979011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D979001, 0x7D979012, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D979002, 23565, 0xD9790037, 156.0351, 166.3505, 21.86854, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -96,8 +96,8 @@ VALUES (0x7D979013,  1542, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512,
 /* @teleloc 0xD979000F [28.173990 158.248300 27.188860] -0.706851 0.000000 0.000000 -0.707362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D979013, 0x7D979014, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7D979013, 0x7D979015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D979013, 0x7D979014, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7D979013, 0x7D979015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D979014, 15715, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512, 0, 0, -0.7073623,  True, '2019-02-10 00:00:00'); /* Sunflower */

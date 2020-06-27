@@ -5,13 +5,13 @@ VALUES (0x7CB4C001,  1154, 0xCB4C0032, 166.1055, 42.25651, 244, -0.6597472, 0, 0
 /* @teleloc 0xCB4C0032 [166.105500 42.256510 244.000000] -0.659747 0.000000 0.000000 -0.751488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB4C001, 0x7CB4C002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7CB4C001, 0x7CB4C003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB4C001, 0x7CB4C004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CB4C001, 0x7CB4C005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7CB4C001, 0x7CB4C006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB4C001, 0x7CB4C007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CB4C001, 0x7CB4C008, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7CB4C001, 0x7CB4C002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7CB4C001, 0x7CB4C003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB4C001, 0x7CB4C004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CB4C001, 0x7CB4C005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7CB4C001, 0x7CB4C006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB4C001, 0x7CB4C007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CB4C001, 0x7CB4C008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB4C002,   206, 0xCB4C0032, 166.1055, 42.25651, 244, -0.6597472, 0, 0, -0.7514876,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

@@ -5,15 +5,15 @@ VALUES (0x7153A001,  1154, 0x153A0006, 14.31293, 135.0979, 22.3405, 0.8739094, 0
 /* @teleloc 0x153A0006 [14.312930 135.097900 22.340500] 0.873909 0.000000 0.000000 -0.486089 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7153A001, 0x7153A002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7153A001, 0x7153A003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153A001, 0x7153A004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153A001, 0x7153A005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7153A001, 0x7153A006, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7153A001, 0x7153A007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7153A001, 0x7153A008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7153A001, 0x7153A009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7153A001, 0x7153A00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7153A001, 0x7153A002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7153A001, 0x7153A003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153A001, 0x7153A004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153A001, 0x7153A005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7153A001, 0x7153A006, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7153A001, 0x7153A007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7153A001, 0x7153A008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7153A001, 0x7153A009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7153A001, 0x7153A00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7153A002, 15267, 0x153A0006, 14.31293, 135.0979, 22.3405, 0.8739094, 0, 0, -0.486089,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

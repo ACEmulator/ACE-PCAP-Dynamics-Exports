@@ -9,21 +9,21 @@ VALUES (0x7C38C001,  1154, 0xC38C0035, 155.0311, 102.0594, 31.14834, -0.9997131,
 /* @teleloc 0xC38C0035 [155.031100 102.059400 31.148340] -0.999713 0.000000 0.000000 -0.023952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C38C001, 0x7C38C002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C38C001, 0x7C38C003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C38C001, 0x7C38C004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C38C001, 0x7C38C005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C38C001, 0x7C38C006, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C38C001, 0x7C38C007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C38C001, 0x7C38C008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C38C001, 0x7C38C009, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C38C001, 0x7C38C00A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C38C001, 0x7C38C00B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C38C001, 0x7C38C00C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C38C001, 0x7C38C00D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C38C001, 0x7C38C00E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C38C001, 0x7C38C00F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C38C001, 0x7C38C010, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7C38C001, 0x7C38C002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C38C001, 0x7C38C003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C38C001, 0x7C38C004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C38C001, 0x7C38C005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C38C001, 0x7C38C006, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C38C001, 0x7C38C007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C38C001, 0x7C38C008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C38C001, 0x7C38C009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C38C001, 0x7C38C00A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C38C001, 0x7C38C00B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C38C001, 0x7C38C00C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C38C001, 0x7C38C00D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C38C001, 0x7C38C00E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C38C001, 0x7C38C00F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C38C001, 0x7C38C010, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C38C002, 24938, 0xC38C0035, 155.0311, 102.0594, 31.14834, -0.9997131, 0, 0, -0.02395249,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
@@ -90,8 +90,8 @@ VALUES (0x7C38C011,  1542, 0xC38C003D, 168.3831, 102.5873, 29.96808, 0.9659258, 
 /* @teleloc 0xC38C003D [168.383100 102.587300 29.968080] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C38C011, 0x7C38C012, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C38C011, 0x7C38C013, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C38C011, 0x7C38C012, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C38C011, 0x7C38C013, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C38C012,  4180, 0xC38C003D, 168.3831, 102.5873, 29.96808, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,9 +5,9 @@ VALUES (0x7096F001,  1154, 0x096F0010, 47.29792, 185.3734, 0.00999999, 0.9238795
 /* @teleloc 0x096F0010 [47.297920 185.373400 0.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7096F001, 0x7096F002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7096F001, 0x7096F003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7096F001, 0x7096F004, '2019-02-10 00:00:00') /* Chaos Wisp */;
+VALUES (0x7096F001, 0x7096F002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7096F001, 0x7096F003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7096F001, 0x7096F004, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7096F002, 36834, 0x096F0010, 47.29792, 185.3734, 0.00999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -26,7 +26,7 @@ VALUES (0x7096F005,  1542, 0x096F0035, 163.1871, 110.1979, 7.504712, -0.9825777,
 /* @teleloc 0x096F0035 [163.187100 110.197900 7.504712] -0.982578 0.000000 0.000000 -0.185852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7096F005, 0x7096F006, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7096F005, 0x7096F006, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7096F006,  9288, 0x096F0035, 163.1871, 110.1979, 7.504712, -0.9825777, 0, 0, -0.1858522,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

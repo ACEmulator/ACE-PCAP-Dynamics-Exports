@@ -5,28 +5,28 @@ VALUES (0x7F27E001,  1154, 0xF27E0030, 122.6083, 188.7945, -0.09560001, -0.14686
 /* @teleloc 0xF27E0030 [122.608300 188.794500 -0.095600] -0.146866 0.000000 0.000000 -0.989156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F27E001, 0x7F27E002, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F27E001, 0x7F27E003, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F27E001, 0x7F27E004, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F27E001, 0x7F27E005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F27E001, 0x7F27E006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F27E001, 0x7F27E007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F27E001, 0x7F27E008, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F27E001, 0x7F27E009, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F27E001, 0x7F27E00A, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F27E001, 0x7F27E00B, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F27E001, 0x7F27E00C, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F27E001, 0x7F27E00D, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F27E001, 0x7F27E00E, '2019-02-10 00:00:00') /* Tuskie Launcher */
-     , (0x7F27E001, 0x7F27E00F, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F27E001, 0x7F27E010, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F27E001, 0x7F27E011, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F27E001, 0x7F27E012, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F27E001, 0x7F27E013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F27E001, 0x7F27E014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F27E001, 0x7F27E015, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F27E001, 0x7F27E016, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F27E001, 0x7F27E017, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x7F27E001, 0x7F27E002, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F27E001, 0x7F27E003, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F27E001, 0x7F27E004, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F27E001, 0x7F27E005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F27E001, 0x7F27E006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F27E001, 0x7F27E007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F27E001, 0x7F27E008, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F27E001, 0x7F27E009, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F27E001, 0x7F27E00A, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F27E001, 0x7F27E00B, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F27E001, 0x7F27E00C, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F27E001, 0x7F27E00D, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F27E001, 0x7F27E00E, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F27E001, 0x7F27E00F, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F27E001, 0x7F27E010, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F27E001, 0x7F27E011, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F27E001, 0x7F27E012, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F27E001, 0x7F27E013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F27E001, 0x7F27E014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F27E001, 0x7F27E015, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F27E001, 0x7F27E016, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F27E001, 0x7F27E017, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F27E002, 22522, 0xF27E0030, 122.6083, 188.7945, -0.09560001, -0.1468662, 0, 0, -0.9891564,  True, '2019-02-10 00:00:00'); /* Tuskie Launcher */

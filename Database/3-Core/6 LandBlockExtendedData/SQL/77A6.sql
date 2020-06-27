@@ -5,16 +5,16 @@ VALUES (0x777A6001,  1154, 0x77A60031, 159.1988, 4.160976, 39.80611, -0.7201215,
 /* @teleloc 0x77A60031 [159.198800 4.160976 39.806110] -0.720122 0.000000 0.000000 -0.693848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777A6001, 0x777A6002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x777A6001, 0x777A6003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x777A6001, 0x777A6004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x777A6001, 0x777A6005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x777A6001, 0x777A6006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x777A6001, 0x777A6007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x777A6001, 0x777A6008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x777A6001, 0x777A6009, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x777A6001, 0x777A600A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x777A6001, 0x777A600B, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x777A6001, 0x777A6002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x777A6001, 0x777A6003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x777A6001, 0x777A6004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x777A6001, 0x777A6005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x777A6001, 0x777A6006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x777A6001, 0x777A6007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x777A6001, 0x777A6008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x777A6001, 0x777A6009, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x777A6001, 0x777A600A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x777A6001, 0x777A600B, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777A6002, 24294, 0x77A60031, 159.1988, 4.160976, 39.80611, -0.7201215, 0, 0, -0.693848,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

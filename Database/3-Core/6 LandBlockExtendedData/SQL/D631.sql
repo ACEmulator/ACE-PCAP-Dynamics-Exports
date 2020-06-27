@@ -5,10 +5,10 @@ VALUES (0x7D631001,  1154, 0xD6310040, 189.0126, 169.7456, 139.2157, -0.9958619,
 /* @teleloc 0xD6310040 [189.012600 169.745600 139.215700] -0.995862 0.000000 0.000000 -0.090880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D631001, 0x7D631002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D631001, 0x7D631003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D631001, 0x7D631004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D631001, 0x7D631005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7D631001, 0x7D631002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D631001, 0x7D631003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D631001, 0x7D631004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D631001, 0x7D631005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D631002,  7089, 0xD6310040, 189.0126, 169.7456, 139.2157, -0.9958619, 0, 0, -0.09087991,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -31,7 +31,7 @@ VALUES (0x7D631006,  1542, 0xD6310027, 98.03658, 167.1645, 122.4091, 0.8664916, 
 /* @teleloc 0xD6310027 [98.036580 167.164500 122.409100] 0.866492 0.000000 0.000000 -0.499192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D631006, 0x7D631007, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7D631006, 0x7D631007, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D631007,  8039, 0xD6310027, 98.03658, 167.1645, 122.4091, 0.8664916, 0, 0, -0.4991918,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

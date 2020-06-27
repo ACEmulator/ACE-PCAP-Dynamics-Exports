@@ -5,28 +5,28 @@ VALUES (0x7B7A0001,  1154, 0xB7A0003C, 186.8616, 74.809, 53.57626, 0.5810553, 0,
 /* @teleloc 0xB7A0003C [186.861600 74.809000 53.576260] 0.581055 0.000000 0.000000 -0.813864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7A0001, 0x7B7A0002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B7A0001, 0x7B7A0003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7B7A0001, 0x7B7A0004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7B7A0001, 0x7B7A0005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B7A0001, 0x7B7A0006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7B7A0001, 0x7B7A0007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B7A0001, 0x7B7A0008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B7A0001, 0x7B7A0009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B7A0001, 0x7B7A000A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B7A0001, 0x7B7A000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A000C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A000D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A000E, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B7A0001, 0x7B7A000F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B7A0001, 0x7B7A0010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A0011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A0012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B7A0001, 0x7B7A0013, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7B7A0001, 0x7B7A0014, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B7A0001, 0x7B7A0015, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B7A0001, 0x7B7A0016, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B7A0001, 0x7B7A0017, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7B7A0001, 0x7B7A0002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B7A0001, 0x7B7A0003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B7A0001, 0x7B7A0004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7B7A0001, 0x7B7A0005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B7A0001, 0x7B7A0006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7B7A0001, 0x7B7A0007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B7A0001, 0x7B7A0008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B7A0001, 0x7B7A0009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B7A0001, 0x7B7A000A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B7A0001, 0x7B7A000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A0001, 0x7B7A000C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A0001, 0x7B7A000D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A0001, 0x7B7A000E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B7A0001, 0x7B7A000F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B7A0001, 0x7B7A0010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B7A0001, 0x7B7A0011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B7A0001, 0x7B7A0012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B7A0001, 0x7B7A0013, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7B7A0001, 0x7B7A0014, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B7A0001, 0x7B7A0015, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B7A0001, 0x7B7A0016, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B7A0001, 0x7B7A0017, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7A0002,  7990, 0xB7A0003C, 186.8616, 74.809, 53.57626, 0.5810553, 0, 0, -0.8138641,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -121,9 +121,9 @@ VALUES (0x7B7A0018,  1542, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 
 /* @teleloc 0xB7A0003C [186.908900 77.090690 53.470040] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7A0018, 0x7B7A0019, '2019-02-10 00:00:00') /* Chest */
-     , (0x7B7A0018, 0x7B7A001A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B7A0018, 0x7B7A001B, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B7A0018, 0x7B7A0019, '2019-02-10 00:00:00') /* Chest (1918) */
+     , (0x7B7A0018, 0x7B7A001A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B7A0018, 0x7B7A001B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7A0019,  1918, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */

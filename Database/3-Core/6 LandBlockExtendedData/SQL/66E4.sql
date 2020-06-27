@@ -5,11 +5,11 @@ VALUES (0x766E4001,  1154, 0x66E40001, 0.0998621, 8.885925, 56.76202, -0.9446689
 /* @teleloc 0x66E40001 [0.099862 8.885925 56.762020] -0.944669 0.000000 0.000000 -0.328026 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766E4001, 0x766E4002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x766E4001, 0x766E4003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x766E4001, 0x766E4004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x766E4001, 0x766E4005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x766E4001, 0x766E4006, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x766E4001, 0x766E4002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x766E4001, 0x766E4003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x766E4001, 0x766E4004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x766E4001, 0x766E4005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x766E4001, 0x766E4006, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766E4002, 10810, 0x66E40001, 0.0998621, 8.885925, 56.76202, -0.9446689, 0, 0, -0.3280255,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -36,7 +36,7 @@ VALUES (0x766E4007,  1542, 0x66E40024, 97.7626, 81.57804, 80.17472, 1, 0, 0, 0, 
 /* @teleloc 0x66E40024 [97.762600 81.578040 80.174720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766E4007, 0x766E4008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x766E4007, 0x766E4008, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766E4008, 22566, 0x66E40024, 97.7626, 81.57804, 80.17472, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

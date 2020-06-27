@@ -5,30 +5,30 @@ VALUES (0x71A65001,  1154, 0x1A650023, 113.4491, 63.2214, 46.56384, 0.8660254, 0
 /* @teleloc 0x1A650023 [113.449100 63.221400 46.563840] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A65001, 0x71A65002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A65001, 0x71A65003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A65001, 0x71A65004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71A65001, 0x71A65005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71A65001, 0x71A65006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71A65001, 0x71A65007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A65001, 0x71A65008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A65001, 0x71A65009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71A65001, 0x71A6500A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71A65001, 0x71A6500B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71A65001, 0x71A6500C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A65001, 0x71A6500D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A65001, 0x71A6500E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71A65001, 0x71A6500F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71A65001, 0x71A65010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71A65001, 0x71A65011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71A65001, 0x71A65012, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A65001, 0x71A65013, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A65001, 0x71A65014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71A65001, 0x71A65015, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A65001, 0x71A65016, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A65001, 0x71A65017, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x71A65001, 0x71A65018, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71A65001, 0x71A65019, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x71A65001, 0x71A65002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A65001, 0x71A65003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A65001, 0x71A65004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71A65001, 0x71A65005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71A65001, 0x71A65006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71A65001, 0x71A65007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A65001, 0x71A65008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A65001, 0x71A65009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71A65001, 0x71A6500A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71A65001, 0x71A6500B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71A65001, 0x71A6500C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A65001, 0x71A6500D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A65001, 0x71A6500E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71A65001, 0x71A6500F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71A65001, 0x71A65010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71A65001, 0x71A65011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71A65001, 0x71A65012, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A65001, 0x71A65013, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A65001, 0x71A65014, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71A65001, 0x71A65015, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A65001, 0x71A65016, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A65001, 0x71A65017, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x71A65001, 0x71A65018, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71A65001, 0x71A65019, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A65002,  7982, 0x1A650023, 113.4491, 63.2214, 46.56384, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -131,10 +131,10 @@ VALUES (0x71A6501A,  1542, 0x1A65000C, 36.25835, 91.49934, 28.37289, 1, 0, 0, 0,
 /* @teleloc 0x1A65000C [36.258350 91.499340 28.372890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A6501A, 0x71A6501B, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x71A6501A, 0x71A6501C, '2019-02-10 00:00:00') /* Bones */
-     , (0x71A6501A, 0x71A6501D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71A6501A, 0x71A6501E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71A6501A, 0x71A6501B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x71A6501A, 0x71A6501C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71A6501A, 0x71A6501D, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x71A6501A, 0x71A6501E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A6501B, 31445, 0x1A65000C, 36.25835, 91.49934, 28.37289, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

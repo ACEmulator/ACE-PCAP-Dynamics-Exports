@@ -5,12 +5,12 @@ VALUES (0x7DF7B001,  1154, 0xDF7B0016, 60.49817, 141.783, 2.936736, 0.6293204, 0
 /* @teleloc 0xDF7B0016 [60.498170 141.783000 2.936736] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF7B001, 0x7DF7B002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DF7B001, 0x7DF7B003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DF7B001, 0x7DF7B004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF7B001, 0x7DF7B005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7DF7B001, 0x7DF7B006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DF7B001, 0x7DF7B007, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7DF7B001, 0x7DF7B002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DF7B001, 0x7DF7B003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DF7B001, 0x7DF7B004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF7B001, 0x7DF7B005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7DF7B001, 0x7DF7B006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DF7B001, 0x7DF7B007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF7B002,  4255, 0xDF7B0016, 60.49817, 141.783, 2.936736, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

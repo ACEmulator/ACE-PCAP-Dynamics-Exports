@@ -5,19 +5,19 @@ VALUES (0x71C72001,  1154, 0x1C72003C, 184.7582, 93.27065, 143.9025, -0.9717996,
 /* @teleloc 0x1C72003C [184.758200 93.270650 143.902500] -0.971800 0.000000 0.000000 -0.235808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C72001, 0x71C72002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C72001, 0x71C72003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71C72001, 0x71C72004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C72001, 0x71C72005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C72001, 0x71C72006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C72001, 0x71C72007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C72001, 0x71C72008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71C72001, 0x71C72009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71C72001, 0x71C7200A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C72001, 0x71C7200B, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71C72001, 0x71C7200C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71C72001, 0x71C7200D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C72001, 0x71C7200E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x71C72001, 0x71C72002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C72001, 0x71C72003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71C72001, 0x71C72004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C72001, 0x71C72005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C72001, 0x71C72006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C72001, 0x71C72007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C72001, 0x71C72008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71C72001, 0x71C72009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71C72001, 0x71C7200A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C72001, 0x71C7200B, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71C72001, 0x71C7200C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71C72001, 0x71C7200D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C72001, 0x71C7200E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C72002, 11540, 0x1C72003C, 184.7582, 93.27065, 143.9025, -0.9717996, 0, 0, -0.2358082,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

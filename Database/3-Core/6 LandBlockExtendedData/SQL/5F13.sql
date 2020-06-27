@@ -5,14 +5,14 @@ VALUES (0x75F13001,  1154, 0x5F130037, 152.202, 154.5189, 120.005, 0.7071068, 0,
 /* @teleloc 0x5F130037 [152.202000 154.518900 120.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F13001, 0x75F13002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75F13001, 0x75F13003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75F13001, 0x75F13004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75F13001, 0x75F13005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75F13001, 0x75F13006, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75F13001, 0x75F13007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75F13001, 0x75F13008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75F13001, 0x75F13009, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x75F13001, 0x75F13002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75F13001, 0x75F13003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75F13001, 0x75F13004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75F13001, 0x75F13005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75F13001, 0x75F13006, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75F13001, 0x75F13007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75F13001, 0x75F13008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75F13001, 0x75F13009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F13002,  4253, 0x5F130037, 152.202, 154.5189, 120.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

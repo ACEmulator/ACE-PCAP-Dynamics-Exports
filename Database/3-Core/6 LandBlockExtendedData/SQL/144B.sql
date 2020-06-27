@@ -5,25 +5,25 @@ VALUES (0x7144B001,  1154, 0x144B003D, 172.4565, 103.9104, 35.96235, -4.371139E-
 /* @teleloc 0x144B003D [172.456500 103.910400 35.962350] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7144B001, 0x7144B002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7144B001, 0x7144B003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7144B001, 0x7144B004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7144B001, 0x7144B005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7144B001, 0x7144B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7144B001, 0x7144B007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7144B001, 0x7144B008, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7144B001, 0x7144B009, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7144B001, 0x7144B00A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7144B001, 0x7144B00B, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7144B001, 0x7144B00C, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7144B001, 0x7144B00D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7144B001, 0x7144B00E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7144B001, 0x7144B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7144B001, 0x7144B010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7144B001, 0x7144B011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7144B001, 0x7144B012, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7144B001, 0x7144B013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7144B001, 0x7144B014, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x7144B001, 0x7144B002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7144B001, 0x7144B003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7144B001, 0x7144B004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7144B001, 0x7144B005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7144B001, 0x7144B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7144B001, 0x7144B007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7144B001, 0x7144B008, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7144B001, 0x7144B009, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7144B001, 0x7144B00A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7144B001, 0x7144B00B, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7144B001, 0x7144B00C, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7144B001, 0x7144B00D, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7144B001, 0x7144B00E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7144B001, 0x7144B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7144B001, 0x7144B010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7144B001, 0x7144B011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7144B001, 0x7144B012, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7144B001, 0x7144B013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7144B001, 0x7144B014, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7144B002, 36820, 0x144B003D, 172.4565, 103.9104, 35.96235, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -106,8 +106,8 @@ VALUES (0x7144B015,  1542, 0x144B003D, 175.1489, 99.90521, 33.95261, 0.9990482, 
 /* @teleloc 0x144B003D [175.148900 99.905210 33.952610] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7144B015, 0x7144B016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7144B015, 0x7144B017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7144B015, 0x7144B016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7144B015, 0x7144B017, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7144B016,  4179, 0x144B003D, 175.1489, 99.90521, 33.95261, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

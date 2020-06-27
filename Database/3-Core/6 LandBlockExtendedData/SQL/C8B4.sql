@@ -5,28 +5,28 @@ VALUES (0x7C8B4001,  1154, 0xC8B40023, 98.056, 61.20628, 246.6131, -0.9930367, 0
 /* @teleloc 0xC8B40023 [98.056000 61.206280 246.613100] -0.993037 0.000000 0.000000 -0.117806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B4001, 0x7C8B4002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C8B4001, 0x7C8B4003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B4001, 0x7C8B4004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C8B4001, 0x7C8B4005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B4006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B4001, 0x7C8B4007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B4008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B4001, 0x7C8B4009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B4001, 0x7C8B400A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B4001, 0x7C8B400B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C8B4001, 0x7C8B400C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B400D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B400E, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C8B4001, 0x7C8B400F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B4010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B4001, 0x7C8B4011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C8B4001, 0x7C8B4012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B4001, 0x7C8B4013, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B4001, 0x7C8B4014, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C8B4001, 0x7C8B4015, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C8B4001, 0x7C8B4016, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C8B4001, 0x7C8B4017, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7C8B4001, 0x7C8B4002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C8B4001, 0x7C8B4003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B4001, 0x7C8B4004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C8B4001, 0x7C8B4005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B4006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B4001, 0x7C8B4007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B4008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B4001, 0x7C8B4009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B4001, 0x7C8B400A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B4001, 0x7C8B400B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C8B4001, 0x7C8B400C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B400D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B400E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C8B4001, 0x7C8B400F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B4010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B4001, 0x7C8B4011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C8B4001, 0x7C8B4012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B4001, 0x7C8B4013, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B4001, 0x7C8B4014, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C8B4001, 0x7C8B4015, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C8B4001, 0x7C8B4016, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C8B4001, 0x7C8B4017, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B4002, 14521, 0xC8B40023, 98.056, 61.20628, 246.6131, -0.9930367, 0, 0, -0.1178056,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -121,8 +121,8 @@ VALUES (0x7C8B4018,  1542, 0xC8B40019, 91.54195, 16.44924, 238.507, 1, 0, 0, 0, 
 /* @teleloc 0xC8B40019 [91.541950 16.449240 238.507000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B4018, 0x7C8B4019, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C8B4018, 0x7C8B401A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C8B4018, 0x7C8B4019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C8B4018, 0x7C8B401A, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B4019,  4380, 0xC8B40019, 91.54195, 16.44924, 238.507, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

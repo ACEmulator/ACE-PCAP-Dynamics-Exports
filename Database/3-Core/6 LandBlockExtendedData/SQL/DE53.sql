@@ -5,12 +5,12 @@ VALUES (0x7DE53001,  1154, 0xDE530002, 16.10657, 41.79956, 8.664936, -0.9595625,
 /* @teleloc 0xDE530002 [16.106570 41.799560 8.664936] -0.959563 0.000000 0.000000 -0.281496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE53001, 0x7DE53002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DE53001, 0x7DE53003, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DE53001, 0x7DE53004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DE53001, 0x7DE53005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DE53001, 0x7DE53006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DE53001, 0x7DE53007, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7DE53001, 0x7DE53002, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DE53001, 0x7DE53003, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DE53001, 0x7DE53004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DE53001, 0x7DE53005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DE53001, 0x7DE53006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DE53001, 0x7DE53007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE53002, 19256, 0xDE530002, 16.10657, 41.79956, 8.664936, -0.9595625, 0, 0, -0.2814956,  True, '2019-02-10 00:00:00'); /* Young Banderling */

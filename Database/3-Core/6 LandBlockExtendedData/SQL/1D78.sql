@@ -5,13 +5,13 @@ VALUES (0x71D78001,  1154, 0x1D78003F, 186.8641, 161.2018, 194.2682, 0.9659258, 
 /* @teleloc 0x1D78003F [186.864100 161.201800 194.268200] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D78001, 0x71D78002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71D78001, 0x71D78003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71D78001, 0x71D78004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71D78001, 0x71D78005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71D78001, 0x71D78006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71D78001, 0x71D78007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71D78001, 0x71D78008, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x71D78001, 0x71D78002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71D78001, 0x71D78003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71D78001, 0x71D78004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71D78001, 0x71D78005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71D78001, 0x71D78006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71D78001, 0x71D78007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71D78001, 0x71D78008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D78002, 36832, 0x1D78003F, 186.8641, 161.2018, 194.2682, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */

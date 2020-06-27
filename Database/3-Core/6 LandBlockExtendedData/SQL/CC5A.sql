@@ -5,20 +5,20 @@ VALUES (0x7CC5A001,  1154, 0xCC5A003F, 186.9285, 153.6613, 18.78226, -0.341958, 
 /* @teleloc 0xCC5A003F [186.928500 153.661300 18.782260] -0.341958 0.000000 0.000000 -0.939715 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC5A001, 0x7CC5A002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC5A001, 0x7CC5A003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CC5A001, 0x7CC5A004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC5A001, 0x7CC5A005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CC5A001, 0x7CC5A006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CC5A001, 0x7CC5A007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC5A001, 0x7CC5A008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC5A001, 0x7CC5A009, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CC5A001, 0x7CC5A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC5A001, 0x7CC5A00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC5A001, 0x7CC5A00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC5A001, 0x7CC5A00D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CC5A001, 0x7CC5A00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC5A001, 0x7CC5A00F, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7CC5A001, 0x7CC5A002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC5A001, 0x7CC5A003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CC5A001, 0x7CC5A004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC5A001, 0x7CC5A005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CC5A001, 0x7CC5A006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CC5A001, 0x7CC5A007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC5A001, 0x7CC5A008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC5A001, 0x7CC5A009, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CC5A001, 0x7CC5A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC5A001, 0x7CC5A00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC5A001, 0x7CC5A00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC5A001, 0x7CC5A00D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CC5A001, 0x7CC5A00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC5A001, 0x7CC5A00F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC5A002, 11528, 0xCC5A003F, 186.9285, 153.6613, 18.78226, -0.341958, 0, 0, -0.9397152,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -81,7 +81,7 @@ VALUES (0x7CC5A010,  1542, 0xCC5A003D, 174.5383, 115.4383, 18, 1, 0, 0, 0, False
 /* @teleloc 0xCC5A003D [174.538300 115.438300 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC5A010, 0x7CC5A011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CC5A010, 0x7CC5A011, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC5A011, 22570, 0xCC5A003D, 174.5383, 115.4383, 18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

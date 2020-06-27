@@ -5,11 +5,11 @@ VALUES (0x7BFDD001,  1154, 0xBFDD0030, 128.9121, 182.725, 0.7804188, 1, 0, 0, 0,
 /* @teleloc 0xBFDD0030 [128.912100 182.725000 0.780419] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFDD001, 0x7BFDD002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BFDD001, 0x7BFDD003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BFDD001, 0x7BFDD004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BFDD001, 0x7BFDD005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BFDD001, 0x7BFDD006, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7BFDD001, 0x7BFDD002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BFDD001, 0x7BFDD003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BFDD001, 0x7BFDD004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BFDD001, 0x7BFDD005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BFDD001, 0x7BFDD006, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFDD002,  7123, 0xBFDD0030, 128.9121, 182.725, 0.7804188, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -36,7 +36,7 @@ VALUES (0x7BFDD007,  1542, 0xBFDD0030, 128.4406, 181.1288, 0.9059296, 0.9238795,
 /* @teleloc 0xBFDD0030 [128.440600 181.128800 0.905930] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFDD007, 0x7BFDD008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BFDD007, 0x7BFDD008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFDD008,  4180, 0xBFDD0030, 128.4406, 181.1288, 0.9059296, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

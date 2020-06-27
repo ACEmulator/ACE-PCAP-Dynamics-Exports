@@ -5,19 +5,19 @@ VALUES (0x74DF6001,  1154, 0x4DF60019, 72.58381, 19.62583, 36.27277, -0.9561614,
 /* @teleloc 0x4DF60019 [72.583810 19.625830 36.272770] -0.956161 0.000000 0.000000 -0.292840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DF6001, 0x74DF6002, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74DF6001, 0x74DF6003, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74DF6001, 0x74DF6004, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74DF6001, 0x74DF6005, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74DF6001, 0x74DF6006, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74DF6001, 0x74DF6007, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74DF6001, 0x74DF6008, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74DF6001, 0x74DF6009, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74DF6001, 0x74DF600A, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74DF6001, 0x74DF600B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74DF6001, 0x74DF600C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x74DF6001, 0x74DF600D, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74DF6001, 0x74DF600E, '2019-02-10 00:00:00') /* Ravenous Eater */;
+VALUES (0x74DF6001, 0x74DF6002, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74DF6001, 0x74DF6003, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74DF6001, 0x74DF6004, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74DF6001, 0x74DF6005, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74DF6001, 0x74DF6006, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74DF6001, 0x74DF6007, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74DF6001, 0x74DF6008, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74DF6001, 0x74DF6009, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74DF6001, 0x74DF600A, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74DF6001, 0x74DF600B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74DF6001, 0x74DF600C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x74DF6001, 0x74DF600D, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74DF6001, 0x74DF600E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DF6002, 28654, 0x4DF60019, 72.58381, 19.62583, 36.27277, -0.9561614, 0, 0, -0.2928403,  True, '2019-02-10 00:00:00'); /* Viamontian Commander */

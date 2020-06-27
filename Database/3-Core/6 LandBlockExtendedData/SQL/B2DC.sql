@@ -5,21 +5,21 @@ VALUES (0x7B2DC001,  1154, 0xB2DC0040, 182.1236, 179.047, 1.081913, 0.3835429, 0
 /* @teleloc 0xB2DC0040 [182.123600 179.047000 1.081913] 0.383543 0.000000 0.000000 -0.923523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2DC001, 0x7B2DC002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7B2DC001, 0x7B2DC003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B2DC001, 0x7B2DC004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B2DC001, 0x7B2DC005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B2DC001, 0x7B2DC006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7B2DC001, 0x7B2DC007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B2DC001, 0x7B2DC008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B2DC001, 0x7B2DC009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B2DC001, 0x7B2DC00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B2DC001, 0x7B2DC00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B2DC001, 0x7B2DC00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B2DC001, 0x7B2DC00D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B2DC001, 0x7B2DC00E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B2DC001, 0x7B2DC00F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B2DC001, 0x7B2DC010, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B2DC001, 0x7B2DC002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7B2DC001, 0x7B2DC003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B2DC001, 0x7B2DC004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B2DC001, 0x7B2DC005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B2DC001, 0x7B2DC006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7B2DC001, 0x7B2DC007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B2DC001, 0x7B2DC008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B2DC001, 0x7B2DC009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B2DC001, 0x7B2DC00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B2DC001, 0x7B2DC00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B2DC001, 0x7B2DC00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B2DC001, 0x7B2DC00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B2DC001, 0x7B2DC00E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B2DC001, 0x7B2DC00F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B2DC001, 0x7B2DC010, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2DC002,  7607, 0xB2DC0040, 182.1236, 179.047, 1.081913, 0.3835429, 0, 0, -0.9235231,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -86,7 +86,7 @@ VALUES (0x7B2DC011,  1542, 0xB2DC0005, 14.80068, 104.2902, 6, -0.3746271, 0, 0, 
 /* @teleloc 0xB2DC0005 [14.800680 104.290200 6.000000] -0.374627 0.000000 0.000000 -0.927176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2DC011, 0x7B2DC012, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7B2DC011, 0x7B2DC012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2DC012,  8041, 0xB2DC0005, 14.80068, 104.2902, 6, -0.3746271, 0, 0, -0.9271756,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

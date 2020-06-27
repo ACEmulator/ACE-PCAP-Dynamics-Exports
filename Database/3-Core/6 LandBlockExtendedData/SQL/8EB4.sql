@@ -5,12 +5,12 @@ VALUES (0x78EB4001,  1154, 0x8EB40007, 2.5688, 160.8139, 34.00455, 0.9238795, 0,
 /* @teleloc 0x8EB40007 [2.568800 160.813900 34.004550] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EB4001, 0x78EB4002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78EB4001, 0x78EB4003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EB4001, 0x78EB4004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EB4001, 0x78EB4005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78EB4001, 0x78EB4006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78EB4001, 0x78EB4007, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x78EB4001, 0x78EB4002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78EB4001, 0x78EB4003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EB4001, 0x78EB4004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EB4001, 0x78EB4005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78EB4001, 0x78EB4006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78EB4001, 0x78EB4007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EB4002,  7090, 0x8EB40007, 2.5688, 160.8139, 34.00455, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

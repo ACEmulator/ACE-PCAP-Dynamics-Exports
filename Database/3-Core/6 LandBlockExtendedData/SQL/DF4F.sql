@@ -5,138 +5,138 @@ VALUES (0x7DF4F001,  1154, 0xDF4F002A, 143.4398, 24.88948, 22, 0.9973111, 0, 0, 
 /* @teleloc 0xDF4F002A [143.439800 24.889480 22.000000] 0.997311 0.000000 0.000000 -0.073284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF4F001, 0x7DF4F002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F006, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7DF4F001, 0x7DF4F007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DF4F001, 0x7DF4F008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DF4F001, 0x7DF4F009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DF4F001, 0x7DF4F00C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F00D, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF4F001, 0x7DF4F00E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DF4F001, 0x7DF4F00F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DF4F001, 0x7DF4F010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DF4F001, 0x7DF4F011, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DF4F001, 0x7DF4F012, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DF4F001, 0x7DF4F013, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7DF4F001, 0x7DF4F014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F016, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7DF4F001, 0x7DF4F017, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DF4F001, 0x7DF4F018, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F019, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DF4F001, 0x7DF4F01A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F01B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F01C, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF4F001, 0x7DF4F01D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F01E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F01F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F020, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F021, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F022, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F023, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F024, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DF4F001, 0x7DF4F025, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DF4F001, 0x7DF4F026, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DF4F001, 0x7DF4F027, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F028, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DF4F001, 0x7DF4F029, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F02A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F02B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F02C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7DF4F001, 0x7DF4F02D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F02E, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F02F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F030, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F031, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F032, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DF4F001, 0x7DF4F033, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F034, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DF4F001, 0x7DF4F035, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F036, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F037, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F038, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F039, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F03A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F03B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F03C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F03D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F03E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DF4F001, 0x7DF4F03F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F040, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DF4F001, 0x7DF4F041, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F042, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DF4F001, 0x7DF4F043, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F044, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F045, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F046, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F047, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F048, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F049, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F04A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F04B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F04C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DF4F001, 0x7DF4F04D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F04E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DF4F001, 0x7DF4F04F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F050, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F051, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F052, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F053, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F054, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F055, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DF4F001, 0x7DF4F056, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DF4F001, 0x7DF4F057, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DF4F001, 0x7DF4F058, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F059, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F05A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DF4F001, 0x7DF4F05B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F05C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F05D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7DF4F001, 0x7DF4F05E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F05F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F060, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F061, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DF4F001, 0x7DF4F062, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F063, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DF4F001, 0x7DF4F064, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF4F001, 0x7DF4F065, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F066, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F067, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F068, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F069, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF4F001, 0x7DF4F06A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DF4F001, 0x7DF4F06B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F06C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F06D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DF4F001, 0x7DF4F06E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F06F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F070, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F071, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DF4F001, 0x7DF4F072, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F073, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F074, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DF4F001, 0x7DF4F075, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F076, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DF4F001, 0x7DF4F077, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DF4F001, 0x7DF4F078, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DF4F001, 0x7DF4F079, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DF4F001, 0x7DF4F07A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F07B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F07C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F07D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F07E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F07F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F080, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F081, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DF4F001, 0x7DF4F082, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F083, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DF4F001, 0x7DF4F084, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DF4F001, 0x7DF4F085, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7DF4F001, 0x7DF4F002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7DF4F001, 0x7DF4F007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DF4F001, 0x7DF4F008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DF4F001, 0x7DF4F009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DF4F001, 0x7DF4F00C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F00D, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF4F001, 0x7DF4F00E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DF4F001, 0x7DF4F00F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DF4F001, 0x7DF4F010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DF4F001, 0x7DF4F011, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DF4F001, 0x7DF4F012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DF4F001, 0x7DF4F013, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7DF4F001, 0x7DF4F014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F016, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7DF4F001, 0x7DF4F017, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DF4F001, 0x7DF4F018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F019, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DF4F001, 0x7DF4F01A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F01B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F01C, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF4F001, 0x7DF4F01D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F01E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F01F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F020, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F021, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F022, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F023, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F024, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DF4F001, 0x7DF4F025, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DF4F001, 0x7DF4F026, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DF4F001, 0x7DF4F027, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F028, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DF4F001, 0x7DF4F029, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F02A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F02B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F02C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7DF4F001, 0x7DF4F02D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F02E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F02F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F030, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F031, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F032, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DF4F001, 0x7DF4F033, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F034, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DF4F001, 0x7DF4F035, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F036, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F037, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F038, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F039, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F03A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F03B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F03C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F03D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F03E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DF4F001, 0x7DF4F03F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F040, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DF4F001, 0x7DF4F041, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F042, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DF4F001, 0x7DF4F043, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F044, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F045, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F046, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F047, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F048, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F049, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F04A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F04B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F04C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DF4F001, 0x7DF4F04D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F04E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DF4F001, 0x7DF4F04F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F050, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F051, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F052, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F053, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F054, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F055, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DF4F001, 0x7DF4F056, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DF4F001, 0x7DF4F057, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DF4F001, 0x7DF4F058, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F059, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F05A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DF4F001, 0x7DF4F05B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F05C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F05D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7DF4F001, 0x7DF4F05E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F05F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F060, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F061, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DF4F001, 0x7DF4F062, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F063, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DF4F001, 0x7DF4F064, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF4F001, 0x7DF4F065, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F066, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F067, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F068, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F069, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF4F001, 0x7DF4F06A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DF4F001, 0x7DF4F06B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F06C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F06D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DF4F001, 0x7DF4F06E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F06F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F070, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F071, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DF4F001, 0x7DF4F072, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F073, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F074, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DF4F001, 0x7DF4F075, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F076, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DF4F001, 0x7DF4F077, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7DF4F001, 0x7DF4F078, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DF4F001, 0x7DF4F079, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7DF4F001, 0x7DF4F07A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F07B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F07C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F07D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F07E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F07F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F080, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F081, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DF4F001, 0x7DF4F082, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F083, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DF4F001, 0x7DF4F084, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DF4F001, 0x7DF4F085, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF4F002,  2567, 0xDF4F002A, 143.4398, 24.88948, 22, 0.9973111, 0, 0, -0.07328435,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -671,12 +671,12 @@ VALUES (0x7DF4F086,  1542, 0xDF4F003F, 184.601, 145.3078, 16.61658, 0.5, 0, 0, -
 /* @teleloc 0xDF4F003F [184.601000 145.307800 16.616580] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF4F086, 0x7DF4F087, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7DF4F086, 0x7DF4F088, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7DF4F086, 0x7DF4F089, '2019-02-10 00:00:00') /* Bones */
-     , (0x7DF4F086, 0x7DF4F08A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7DF4F086, 0x7DF4F08B, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7DF4F086, 0x7DF4F08C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DF4F086, 0x7DF4F087, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7DF4F086, 0x7DF4F088, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7DF4F086, 0x7DF4F089, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7DF4F086, 0x7DF4F08A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7DF4F086, 0x7DF4F08B, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7DF4F086, 0x7DF4F08C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF4F087,  4179, 0xDF4F003F, 184.601, 145.3078, 16.61658, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

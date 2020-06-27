@@ -5,17 +5,17 @@ VALUES (0x71293001,  1154, 0x12930028, 105.8665, 174.3367, 0.006999969, 0.904594
 /* @teleloc 0x12930028 [105.866500 174.336700 0.007000] 0.904594 0.000000 0.000000 -0.426274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71293001, 0x71293002, '2019-02-10 00:00:00') /* Blizzard */
-     , (0x71293001, 0x71293003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71293001, 0x71293004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71293001, 0x71293005, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71293001, 0x71293006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x71293001, 0x71293007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71293001, 0x71293008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71293001, 0x71293009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71293001, 0x7129300A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71293001, 0x7129300B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71293001, 0x7129300C, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71293001, 0x71293002, '2019-02-10 00:00:00') /* Blizzard (19538) */
+     , (0x71293001, 0x71293003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71293001, 0x71293004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71293001, 0x71293005, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71293001, 0x71293006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x71293001, 0x71293007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71293001, 0x71293008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71293001, 0x71293009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71293001, 0x7129300A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71293001, 0x7129300B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71293001, 0x7129300C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71293002, 19538, 0x12930028, 105.8665, 174.3367, 0.006999969, 0.9045941, 0, 0, -0.4262741,  True, '2019-02-10 00:00:00'); /* Blizzard */
@@ -66,7 +66,7 @@ VALUES (0x7129300D,  1542, 0x12930021, 98.77283, 4.802306, -3.72529E-09, -4.3711
 /* @teleloc 0x12930021 [98.772830 4.802306 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7129300D, 0x7129300E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7129300D, 0x7129300E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7129300E,  4380, 0x12930021, 98.77283, 4.802306, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

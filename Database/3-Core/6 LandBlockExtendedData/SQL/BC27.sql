@@ -5,9 +5,9 @@ VALUES (0x7BC27001,  1154, 0xBC27000B, 26.77142, 58.93294, 220.6955, -0.4742859,
 /* @teleloc 0xBC27000B [26.771420 58.932940 220.695500] -0.474286 0.000000 0.000000 -0.880371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC27001, 0x7BC27002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BC27001, 0x7BC27003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC27001, 0x7BC27004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7BC27001, 0x7BC27002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BC27001, 0x7BC27003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC27001, 0x7BC27004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC27002, 38181, 0xBC27000B, 26.77142, 58.93294, 220.6955, -0.4742859, 0, 0, -0.8803709,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -26,7 +26,7 @@ VALUES (0x7BC27005,  1542, 0xBC270010, 41.39347, 179.705, 223.2759, 1, 0, 0, 0, 
 /* @teleloc 0xBC270010 [41.393470 179.705000 223.275900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC27005, 0x7BC27006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BC27005, 0x7BC27006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC27006, 22571, 0xBC270010, 41.39347, 179.705, 223.2759, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

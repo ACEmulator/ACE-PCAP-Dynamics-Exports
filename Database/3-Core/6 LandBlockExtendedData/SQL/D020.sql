@@ -5,14 +5,14 @@ VALUES (0x7D020001,  1154, 0xD0200029, 126.5202, 8.523829, 119.0363, -0.1414651,
 /* @teleloc 0xD0200029 [126.520200 8.523829 119.036300] -0.141465 0.000000 0.000000 -0.989943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D020001, 0x7D020002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D020001, 0x7D020003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D020001, 0x7D020004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D020001, 0x7D020005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D020001, 0x7D020006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D020001, 0x7D020007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D020001, 0x7D020008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D020001, 0x7D020009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7D020001, 0x7D020002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D020001, 0x7D020003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D020001, 0x7D020004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D020001, 0x7D020005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D020001, 0x7D020006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D020001, 0x7D020007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D020001, 0x7D020008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D020001, 0x7D020009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D020002, 11533, 0xD0200029, 126.5202, 8.523829, 119.0363, -0.1414651, 0, 0, -0.9899433,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -51,7 +51,7 @@ VALUES (0x7D02000A,  1542, 0xD020001E, 81.24961, 132.1748, 125.201, -0.4825371, 
 /* @teleloc 0xD020001E [81.249610 132.174800 125.201000] -0.482537 0.000000 0.000000 -0.875876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D02000A, 0x7D02000B, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D02000A, 0x7D02000B, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D02000B, 31687, 0xD020001E, 81.24961, 132.1748, 125.201, -0.4825371, 0, 0, -0.8758755,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

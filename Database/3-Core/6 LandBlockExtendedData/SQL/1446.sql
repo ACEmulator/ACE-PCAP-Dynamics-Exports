@@ -5,22 +5,22 @@ VALUES (0x71446001,  1154, 0x14460031, 144.5334, 21.27543, 10.74457, -0.9039288,
 /* @teleloc 0x14460031 [144.533400 21.275430 10.744570] -0.903929 0.000000 0.000000 -0.427683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71446001, 0x71446002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71446001, 0x71446003, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71446001, 0x71446004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71446001, 0x71446005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71446001, 0x71446006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71446001, 0x71446007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71446001, 0x71446008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71446001, 0x71446009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71446001, 0x7144600A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71446001, 0x7144600B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71446001, 0x7144600C, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71446001, 0x7144600D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71446001, 0x7144600E, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71446001, 0x7144600F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71446001, 0x71446010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71446001, 0x71446011, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71446001, 0x71446002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71446001, 0x71446003, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71446001, 0x71446004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71446001, 0x71446005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71446001, 0x71446006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71446001, 0x71446007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71446001, 0x71446008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71446001, 0x71446009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71446001, 0x7144600A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71446001, 0x7144600B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71446001, 0x7144600C, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71446001, 0x7144600D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71446001, 0x7144600E, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71446001, 0x7144600F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71446001, 0x71446010, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71446001, 0x71446011, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71446002,  7125, 0x14460031, 144.5334, 21.27543, 10.74457, -0.9039288, 0, 0, -0.4276831,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -91,7 +91,7 @@ VALUES (0x71446012,  1542, 0x1446002A, 128.3448, 40.69407, 4.127885, -4.371139E-
 /* @teleloc 0x1446002A [128.344800 40.694070 4.127885] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71446012, 0x71446013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71446012, 0x71446013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71446013,  4380, 0x1446002A, 128.3448, 40.69407, 4.127885, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

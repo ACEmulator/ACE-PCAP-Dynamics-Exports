@@ -5,18 +5,18 @@ VALUES (0x7A7C3001,  1154, 0xA7C30039, 191.0358, 13.71151, 149.3983, 0.9238795, 
 /* @teleloc 0xA7C30039 [191.035800 13.711510 149.398300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7C3001, 0x7A7C3002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A7C3001, 0x7A7C3003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A7C3001, 0x7A7C3004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7C3001, 0x7A7C3005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A7C3001, 0x7A7C3006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A7C3001, 0x7A7C3007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A7C3001, 0x7A7C3008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A7C3001, 0x7A7C3009, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7A7C3001, 0x7A7C300A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A7C3001, 0x7A7C300B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A7C3001, 0x7A7C300C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A7C3001, 0x7A7C300D, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x7A7C3001, 0x7A7C3002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A7C3001, 0x7A7C3003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A7C3001, 0x7A7C3004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7C3001, 0x7A7C3005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A7C3001, 0x7A7C3006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A7C3001, 0x7A7C3007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A7C3001, 0x7A7C3008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A7C3001, 0x7A7C3009, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7A7C3001, 0x7A7C300A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A7C3001, 0x7A7C300B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A7C3001, 0x7A7C300C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A7C3001, 0x7A7C300D, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7C3002,  1758, 0xA7C30039, 191.0358, 13.71151, 149.3983, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7A7C300E,  1542, 0xA7C30037, 165.9057, 153.7165, 168.7782, 1, 0, 0, 0,
 /* @teleloc 0xA7C30037 [165.905700 153.716500 168.778200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7C300E, 0x7A7C300F, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A7C300E, 0x7A7C300F, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7C300F,  8232, 0xA7C30037, 165.9057, 153.7165, 168.7782, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

@@ -5,15 +5,15 @@ VALUES (0x73C17001,  1154, 0x3C170039, 184.4109, 2.793106, -0.89175, -0.6339971,
 /* @teleloc 0x3C170039 [184.410900 2.793106 -0.891750] -0.633997 0.000000 0.000000 -0.773335 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C17001, 0x73C17002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C17001, 0x73C17003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C17001, 0x73C17004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C17001, 0x73C17005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C17001, 0x73C17006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C17001, 0x73C17007, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C17001, 0x73C17008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C17001, 0x73C17009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C17001, 0x73C1700A, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x73C17001, 0x73C17002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C17001, 0x73C17003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C17001, 0x73C17004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C17001, 0x73C17005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C17001, 0x73C17006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C17001, 0x73C17007, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C17001, 0x73C17008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C17001, 0x73C17009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C17001, 0x73C1700A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C17002, 24320, 0x3C170039, 184.4109, 2.793106, -0.89175, -0.6339971, 0, 0, -0.7733354,  True, '2019-02-10 00:00:00'); /* Great Revenant */

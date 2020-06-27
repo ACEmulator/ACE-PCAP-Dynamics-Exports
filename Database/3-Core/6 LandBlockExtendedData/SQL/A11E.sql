@@ -5,15 +5,15 @@ VALUES (0x7A11E001,  1154, 0xA11E0032, 164.284, 25.5244, 530.4061, -0.8414293, 0
 /* @teleloc 0xA11E0032 [164.284000 25.524400 530.406100] -0.841429 0.000000 0.000000 -0.540367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A11E001, 0x7A11E002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A11E001, 0x7A11E003, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A11E001, 0x7A11E004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A11E001, 0x7A11E005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A11E001, 0x7A11E006, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A11E001, 0x7A11E007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A11E001, 0x7A11E008, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A11E001, 0x7A11E009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A11E001, 0x7A11E00A, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7A11E001, 0x7A11E002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A11E001, 0x7A11E003, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A11E001, 0x7A11E004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A11E001, 0x7A11E005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A11E001, 0x7A11E006, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A11E001, 0x7A11E007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A11E001, 0x7A11E008, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A11E001, 0x7A11E009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A11E001, 0x7A11E00A, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A11E002,  8142, 0xA11E0032, 164.284, 25.5244, 530.4061, -0.8414293, 0, 0, -0.5403672,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */

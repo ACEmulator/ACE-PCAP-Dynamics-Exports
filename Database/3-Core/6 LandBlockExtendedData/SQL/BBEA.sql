@@ -5,28 +5,28 @@ VALUES (0x7BBEA001,  1154, 0xBBEA0030, 139.8801, 175.7184, 62.15979, 1, 0, 0, 0,
 /* @teleloc 0xBBEA0030 [139.880100 175.718400 62.159790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBEA001, 0x7BBEA002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBEA001, 0x7BBEA003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA005, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BBEA001, 0x7BBEA006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BBEA001, 0x7BBEA007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BBEA001, 0x7BBEA008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BBEA001, 0x7BBEA009, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBEA001, 0x7BBEA00A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA00B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA00C, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BBEA001, 0x7BBEA00D, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBEA001, 0x7BBEA00E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA00F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA010, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BBEA001, 0x7BBEA011, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BBEA001, 0x7BBEA012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BBEA001, 0x7BBEA013, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BBEA001, 0x7BBEA014, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBEA001, 0x7BBEA015, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BBEA001, 0x7BBEA016, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BBEA001, 0x7BBEA017, '2019-02-10 00:00:00') /* Phantom */;
+VALUES (0x7BBEA001, 0x7BBEA002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBEA001, 0x7BBEA003, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA004, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA005, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BBEA001, 0x7BBEA006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BBEA001, 0x7BBEA007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BBEA001, 0x7BBEA008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BBEA001, 0x7BBEA009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBEA001, 0x7BBEA00A, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA00B, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA00C, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BBEA001, 0x7BBEA00D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBEA001, 0x7BBEA00E, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA00F, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA010, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BBEA001, 0x7BBEA011, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BBEA001, 0x7BBEA012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BBEA001, 0x7BBEA013, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BBEA001, 0x7BBEA014, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBEA001, 0x7BBEA015, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BBEA001, 0x7BBEA016, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BBEA001, 0x7BBEA017, '2019-02-10 00:00:00') /* Phantom (28244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBEA002,  7607, 0xBBEA0030, 139.8801, 175.7184, 62.15979, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ember */

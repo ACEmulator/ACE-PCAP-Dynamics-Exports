@@ -5,13 +5,13 @@ VALUES (0x73291001,  1154, 0x32910038, 151.4023, 188.2737, 0.310524, -4.371139E-
 /* @teleloc 0x32910038 [151.402300 188.273700 0.310524] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73291001, 0x73291002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73291001, 0x73291003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73291001, 0x73291004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73291001, 0x73291005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73291001, 0x73291006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73291001, 0x73291007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73291001, 0x73291008, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73291001, 0x73291002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73291001, 0x73291003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73291001, 0x73291004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73291001, 0x73291005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73291001, 0x73291006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73291001, 0x73291007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73291001, 0x73291008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73291002,  7112, 0x32910038, 151.4023, 188.2737, 0.310524, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

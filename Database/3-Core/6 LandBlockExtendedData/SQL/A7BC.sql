@@ -5,16 +5,16 @@ VALUES (0x7A7BC001,  1154, 0xA7BC001A, 89.11706, 47.69282, 27.902, -0.6550756, 0
 /* @teleloc 0xA7BC001A [89.117060 47.692820 27.902000] -0.655076 0.000000 0.000000 -0.755563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7BC001, 0x7A7BC002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A7BC001, 0x7A7BC003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A7BC001, 0x7A7BC004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7BC001, 0x7A7BC005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7BC001, 0x7A7BC006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7BC001, 0x7A7BC007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7BC001, 0x7A7BC008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A7BC001, 0x7A7BC009, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A7BC001, 0x7A7BC00A, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A7BC001, 0x7A7BC00B, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7A7BC001, 0x7A7BC002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A7BC001, 0x7A7BC003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A7BC001, 0x7A7BC004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7BC001, 0x7A7BC005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7BC001, 0x7A7BC006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7BC001, 0x7A7BC007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7BC001, 0x7A7BC008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A7BC001, 0x7A7BC009, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A7BC001, 0x7A7BC00A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A7BC001, 0x7A7BC00B, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7BC002,  7990, 0xA7BC001A, 89.11706, 47.69282, 27.902, -0.6550756, 0, 0, -0.7555633,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -61,7 +61,7 @@ VALUES (0x7A7BC00C,  1542, 0xA7BC0013, 69.04191, 67.73297, 34.57766, 1, 0, 0, 0,
 /* @teleloc 0xA7BC0013 [69.041910 67.732970 34.577660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7BC00C, 0x7A7BC00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A7BC00C, 0x7A7BC00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7BC00D,  4179, 0xA7BC0013, 69.04191, 67.73297, 34.57766, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

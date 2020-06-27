@@ -5,23 +5,23 @@ VALUES (0x7B1A0001,  1154, 0xB1A0003F, 184.124, 158.1998, 88.66083, 0.7071068, 0
 /* @teleloc 0xB1A0003F [184.124000 158.199800 88.660830] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A0001, 0x7B1A0002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A0001, 0x7B1A0003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A0001, 0x7B1A0004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1A0001, 0x7B1A0005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A0001, 0x7B1A0006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A0001, 0x7B1A0007, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B1A0001, 0x7B1A0008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1A0001, 0x7B1A0009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B1A0001, 0x7B1A000A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A0001, 0x7B1A000B, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1A0001, 0x7B1A000C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1A0001, 0x7B1A000D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A0001, 0x7B1A000E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A0001, 0x7B1A000F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A0001, 0x7B1A0010, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1A0001, 0x7B1A0011, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A0001, 0x7B1A0012, '2019-02-10 00:00:00') /* Mite Squire */;
+VALUES (0x7B1A0001, 0x7B1A0002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A0001, 0x7B1A0003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A0001, 0x7B1A0004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1A0001, 0x7B1A0005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A0001, 0x7B1A0006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A0001, 0x7B1A0007, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B1A0001, 0x7B1A0008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1A0001, 0x7B1A0009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B1A0001, 0x7B1A000A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A0001, 0x7B1A000B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1A0001, 0x7B1A000C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1A0001, 0x7B1A000D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A0001, 0x7B1A000E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A0001, 0x7B1A000F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A0001, 0x7B1A0010, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1A0001, 0x7B1A0011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A0001, 0x7B1A0012, '2019-02-10 00:00:00') /* Mite Squire (946) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A0002,  1612, 0xB1A0003F, 184.124, 158.1998, 88.66083, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

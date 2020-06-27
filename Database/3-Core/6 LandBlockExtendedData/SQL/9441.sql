@@ -5,12 +5,12 @@ VALUES (0x79441001,  1154, 0x9441002F, 143.1391, 144.4623, 17.97347, 0.9238795, 
 /* @teleloc 0x9441002F [143.139100 144.462300 17.973470] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79441001, 0x79441002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79441001, 0x79441003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79441001, 0x79441004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79441001, 0x79441005, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79441001, 0x79441006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79441001, 0x79441007, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x79441001, 0x79441002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79441001, 0x79441003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79441001, 0x79441004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79441001, 0x79441005, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79441001, 0x79441006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79441001, 0x79441007, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79441002,  1626, 0x9441002F, 143.1391, 144.4623, 17.97347, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -41,7 +41,7 @@ VALUES (0x79441008,  1542, 0x9441001B, 92.79708, 51.2492, 16, 0.9659258, 0, 0, -
 /* @teleloc 0x9441001B [92.797080 51.249200 16.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79441008, 0x79441009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79441008, 0x79441009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79441009,  4180, 0x9441001B, 92.79708, 51.2492, 16, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -13,71 +13,71 @@ VALUES (0x7599B002,  1154, 0x599B0100, 35, 112, 12.6052, 0.7071068, 0, 0, -0.707
 /* @teleloc 0x599B0100 [35.000000 112.000000 12.605200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7599B002, 0x7599B003, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B004, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B005, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B006, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B007, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B008, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B009, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B00A, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B00B, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B00C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B00D, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B00E, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B00F, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B010, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B011, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7599B002, 0x7599B012, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B013, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B014, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B015, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7599B002, 0x7599B016, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7599B002, 0x7599B017, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7599B002, 0x7599B018, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7599B002, 0x7599B019, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7599B002, 0x7599B01A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7599B002, 0x7599B01B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7599B002, 0x7599B01C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7599B002, 0x7599B01D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7599B002, 0x7599B01E, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7599B002, 0x7599B01F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7599B002, 0x7599B020, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7599B002, 0x7599B021, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7599B002, 0x7599B022, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7599B002, 0x7599B023, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7599B002, 0x7599B024, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7599B002, 0x7599B025, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7599B002, 0x7599B026, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7599B002, 0x7599B027, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7599B002, 0x7599B028, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7599B002, 0x7599B029, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7599B002, 0x7599B02A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7599B002, 0x7599B02B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7599B002, 0x7599B02C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7599B002, 0x7599B02D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7599B002, 0x7599B02E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7599B002, 0x7599B02F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7599B002, 0x7599B030, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7599B002, 0x7599B031, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7599B002, 0x7599B032, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7599B002, 0x7599B033, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7599B002, 0x7599B034, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7599B002, 0x7599B035, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7599B002, 0x7599B036, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7599B002, 0x7599B037, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B038, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7599B002, 0x7599B039, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7599B002, 0x7599B03A, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman */
-     , (0x7599B002, 0x7599B03B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7599B002, 0x7599B03C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7599B002, 0x7599B03D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B03E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B03F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7599B002, 0x7599B040, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7599B002, 0x7599B041, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7599B002, 0x7599B042, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7599B002, 0x7599B043, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7599B002, 0x7599B003, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B004, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B005, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B006, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B007, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B008, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (39009) */
+     , (0x7599B002, 0x7599B009, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B00A, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B00B, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B00C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B00D, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B00E, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B00F, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B010, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7599B002, 0x7599B012, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B013, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B014, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B015, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7599B002, 0x7599B016, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7599B002, 0x7599B017, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7599B002, 0x7599B018, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7599B002, 0x7599B019, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7599B002, 0x7599B01A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7599B002, 0x7599B01B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7599B002, 0x7599B01C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7599B002, 0x7599B01D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7599B002, 0x7599B01E, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7599B002, 0x7599B01F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7599B002, 0x7599B020, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7599B002, 0x7599B021, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7599B002, 0x7599B022, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7599B002, 0x7599B023, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7599B002, 0x7599B024, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7599B002, 0x7599B025, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7599B002, 0x7599B026, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7599B002, 0x7599B027, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7599B002, 0x7599B028, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7599B002, 0x7599B029, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7599B002, 0x7599B02A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7599B002, 0x7599B02B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7599B002, 0x7599B02C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7599B002, 0x7599B02D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7599B002, 0x7599B02E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7599B002, 0x7599B02F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7599B002, 0x7599B030, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7599B002, 0x7599B031, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7599B002, 0x7599B032, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7599B002, 0x7599B033, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7599B002, 0x7599B034, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7599B002, 0x7599B035, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7599B002, 0x7599B036, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7599B002, 0x7599B037, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B038, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7599B002, 0x7599B039, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7599B002, 0x7599B03A, '2019-02-10 00:00:00') /* Blighted Disgusting Moarsman (37417) */
+     , (0x7599B002, 0x7599B03B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7599B002, 0x7599B03C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7599B002, 0x7599B03D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B03E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B03F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7599B002, 0x7599B040, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7599B002, 0x7599B041, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7599B002, 0x7599B042, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7599B002, 0x7599B043, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7599B003, 37417, 0x599B0100, 35, 112, 12.6052, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blighted Disgusting Moarsman */
@@ -344,7 +344,7 @@ VALUES (0x7599B044,  1542, 0x599B001E, 88.036, 141.8709, 1.336333, 0.9990482, 0,
 /* @teleloc 0x599B001E [88.036000 141.870900 1.336333] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7599B044, 0x7599B045, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7599B044, 0x7599B045, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7599B045,  4179, 0x599B001E, 88.036, 141.8709, 1.336333, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

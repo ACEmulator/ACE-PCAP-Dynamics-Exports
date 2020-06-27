@@ -5,46 +5,46 @@ VALUES (0x7284E001,  1154, 0x284E0027, 97.95401, 164.2693, 1.695608, 0.0217034, 
 /* @teleloc 0x284E0027 [97.954010 164.269300 1.695608] 0.021703 0.000000 0.000000 -0.999764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7284E001, 0x7284E002, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7284E001, 0x7284E003, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7284E001, 0x7284E004, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7284E001, 0x7284E005, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x7284E001, 0x7284E006, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7284E001, 0x7284E007, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x7284E001, 0x7284E008, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7284E001, 0x7284E009, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7284E001, 0x7284E00A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7284E001, 0x7284E00B, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7284E001, 0x7284E00C, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7284E001, 0x7284E00D, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x7284E001, 0x7284E00E, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x7284E001, 0x7284E00F, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x7284E001, 0x7284E010, '2019-02-10 00:00:00') /* Chimera */
-     , (0x7284E001, 0x7284E011, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x7284E001, 0x7284E012, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x7284E001, 0x7284E013, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7284E001, 0x7284E014, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7284E001, 0x7284E015, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7284E001, 0x7284E016, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7284E001, 0x7284E017, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7284E001, 0x7284E018, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7284E001, 0x7284E019, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7284E001, 0x7284E01A, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7284E001, 0x7284E01B, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7284E001, 0x7284E01C, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7284E001, 0x7284E01D, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7284E001, 0x7284E01E, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7284E001, 0x7284E01F, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7284E001, 0x7284E020, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7284E001, 0x7284E021, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7284E001, 0x7284E022, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7284E001, 0x7284E023, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7284E001, 0x7284E024, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7284E001, 0x7284E025, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7284E001, 0x7284E026, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7284E001, 0x7284E027, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7284E001, 0x7284E028, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7284E001, 0x7284E029, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */;
+VALUES (0x7284E001, 0x7284E002, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7284E001, 0x7284E003, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7284E001, 0x7284E004, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7284E001, 0x7284E005, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x7284E001, 0x7284E006, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7284E001, 0x7284E007, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x7284E001, 0x7284E008, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7284E001, 0x7284E009, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7284E001, 0x7284E00A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7284E001, 0x7284E00B, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7284E001, 0x7284E00C, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7284E001, 0x7284E00D, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x7284E001, 0x7284E00E, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x7284E001, 0x7284E00F, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x7284E001, 0x7284E010, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x7284E001, 0x7284E011, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x7284E001, 0x7284E012, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x7284E001, 0x7284E013, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7284E001, 0x7284E014, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7284E001, 0x7284E015, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7284E001, 0x7284E016, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7284E001, 0x7284E017, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7284E001, 0x7284E018, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7284E001, 0x7284E019, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7284E001, 0x7284E01A, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7284E001, 0x7284E01B, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7284E001, 0x7284E01C, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7284E001, 0x7284E01D, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7284E001, 0x7284E01E, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7284E001, 0x7284E01F, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7284E001, 0x7284E020, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7284E001, 0x7284E021, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7284E001, 0x7284E022, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7284E001, 0x7284E023, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7284E001, 0x7284E024, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7284E001, 0x7284E025, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7284E001, 0x7284E026, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7284E001, 0x7284E027, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7284E001, 0x7284E028, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7284E001, 0x7284E029, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7284E002, 25665, 0x284E0027, 97.95401, 164.2693, 1.695608, 0.0217034, 0, 0, -0.9997644,  True, '2019-02-10 00:00:00'); /* Wretched */
@@ -211,11 +211,11 @@ VALUES (0x7284E02A,  1542, 0x284E0037, 149.8378, 163.5123, 3.963546, -0.9916137,
 /* @teleloc 0x284E0037 [149.837800 163.512300 3.963546] -0.991614 0.000000 0.000000 -0.129237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7284E02A, 0x7284E02B, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */
-     , (0x7284E02A, 0x7284E02C, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest */
-     , (0x7284E02A, 0x7284E02D, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x7284E02A, 0x7284E02E, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */
-     , (0x7284E02A, 0x7284E02F, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x7284E02A, 0x7284E02B, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */
+     , (0x7284E02A, 0x7284E02C, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest (23085) */
+     , (0x7284E02A, 0x7284E02D, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x7284E02A, 0x7284E02E, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */
+     , (0x7284E02A, 0x7284E02F, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7284E02B, 34572, 0x284E0037, 149.8378, 163.5123, 3.963546, -0.9916137, 0, 0, -0.129237,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */

@@ -5,13 +5,13 @@ VALUES (0x749CE001,  1154, 0x49CE0012, 61.95236, 30.49274, 28.87966, -0.09086781
 /* @teleloc 0x49CE0012 [61.952360 30.492740 28.879660] -0.090868 0.000000 0.000000 -0.995863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749CE001, 0x749CE002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749CE001, 0x749CE003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x749CE001, 0x749CE004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749CE001, 0x749CE005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749CE001, 0x749CE006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749CE001, 0x749CE007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749CE001, 0x749CE008, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x749CE001, 0x749CE002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749CE001, 0x749CE003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x749CE001, 0x749CE004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749CE001, 0x749CE005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749CE001, 0x749CE006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749CE001, 0x749CE007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749CE001, 0x749CE008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749CE002, 10810, 0x49CE0012, 61.95236, 30.49274, 28.87966, -0.09086781, 0, 0, -0.995863,  True, '2019-02-10 00:00:00'); /* Rampager */

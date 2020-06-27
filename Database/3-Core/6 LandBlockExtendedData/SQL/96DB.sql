@@ -5,31 +5,31 @@ VALUES (0x796DB001,  1154, 0x96DB0012, 53.98467, 24.355, 151.1257, 0.9822296, 0,
 /* @teleloc 0x96DB0012 [53.984670 24.355000 151.125700] 0.982230 0.000000 0.000000 -0.187683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DB001, 0x796DB002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DB001, 0x796DB003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796DB001, 0x796DB004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796DB001, 0x796DB005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796DB001, 0x796DB006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796DB001, 0x796DB007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796DB001, 0x796DB008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DB001, 0x796DB009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796DB001, 0x796DB00A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DB001, 0x796DB00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x796DB001, 0x796DB00C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DB001, 0x796DB00D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DB001, 0x796DB00E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x796DB001, 0x796DB00F, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DB001, 0x796DB010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796DB001, 0x796DB011, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796DB001, 0x796DB012, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796DB001, 0x796DB013, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DB001, 0x796DB014, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796DB001, 0x796DB015, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x796DB001, 0x796DB016, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796DB001, 0x796DB017, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796DB001, 0x796DB018, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DB001, 0x796DB019, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DB001, 0x796DB01A, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x796DB001, 0x796DB002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DB001, 0x796DB003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DB001, 0x796DB004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796DB001, 0x796DB005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DB001, 0x796DB006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796DB001, 0x796DB007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796DB001, 0x796DB008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DB001, 0x796DB009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796DB001, 0x796DB00A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DB001, 0x796DB00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796DB001, 0x796DB00C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DB001, 0x796DB00D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DB001, 0x796DB00E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796DB001, 0x796DB00F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DB001, 0x796DB010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DB001, 0x796DB011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DB001, 0x796DB012, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796DB001, 0x796DB013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DB001, 0x796DB014, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796DB001, 0x796DB015, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x796DB001, 0x796DB016, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796DB001, 0x796DB017, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796DB001, 0x796DB018, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DB001, 0x796DB019, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DB001, 0x796DB01A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DB002, 22520, 0x96DB0012, 53.98467, 24.355, 151.1257, 0.9822296, 0, 0, -0.1876833,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -136,13 +136,13 @@ VALUES (0x796DB01B,  1542, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0, F
 /* @teleloc 0x96DB0003 [5.580269 58.170680 158.090000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DB01B, 0x796DB01C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x796DB01B, 0x796DB01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796DB01B, 0x796DB01E, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x796DB01B, 0x796DB01F, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x796DB01B, 0x796DB020, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x796DB01B, 0x796DB021, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x796DB01B, 0x796DB022, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x796DB01B, 0x796DB01C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x796DB01B, 0x796DB01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DB01B, 0x796DB01E, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x796DB01B, 0x796DB01F, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x796DB01B, 0x796DB020, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x796DB01B, 0x796DB021, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x796DB01B, 0x796DB022, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DB01C,  9024, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

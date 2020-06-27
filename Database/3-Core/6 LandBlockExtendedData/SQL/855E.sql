@@ -5,14 +5,14 @@ VALUES (0x7855E001,  1154, 0x855E003B, 185.0188, 56.97001, 13.51159, -0.9614582,
 /* @teleloc 0x855E003B [185.018800 56.970010 13.511590] -0.961458 0.000000 0.000000 -0.274951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7855E001, 0x7855E002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7855E001, 0x7855E003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7855E001, 0x7855E004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7855E001, 0x7855E005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7855E001, 0x7855E006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7855E001, 0x7855E007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7855E001, 0x7855E008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7855E001, 0x7855E009, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7855E001, 0x7855E002, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7855E001, 0x7855E003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7855E001, 0x7855E004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7855E001, 0x7855E005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7855E001, 0x7855E006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7855E001, 0x7855E007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7855E001, 0x7855E008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7855E001, 0x7855E009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7855E002, 19262, 0x855E003B, 185.0188, 56.97001, 13.51159, -0.9614582, 0, 0, -0.2749511,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

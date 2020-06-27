@@ -5,17 +5,17 @@ VALUES (0x7DA97001,  1154, 0xDA970010, 30.92513, 187.2182, 12.33002, 0.9928739, 
 /* @teleloc 0xDA970010 [30.925130 187.218200 12.330020] 0.992874 0.000000 0.000000 -0.119170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA97001, 0x7DA97002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA97003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA97004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA97005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA97006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA97001, 0x7DA97007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA97001, 0x7DA97008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA97001, 0x7DA97009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA97001, 0x7DA9700A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA9700B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA97001, 0x7DA9700C, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7DA97001, 0x7DA97002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA97003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA97004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA97005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA97006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA97001, 0x7DA97007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA97001, 0x7DA97008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA97001, 0x7DA97009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA97001, 0x7DA9700A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA9700B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA97001, 0x7DA9700C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA97002,  2566, 0xDA970010, 30.92513, 187.2182, 12.33002, 0.9928739, 0, 0, -0.1191699,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

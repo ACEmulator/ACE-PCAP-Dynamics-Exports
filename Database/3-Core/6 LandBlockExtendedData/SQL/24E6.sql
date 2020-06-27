@@ -5,15 +5,15 @@ VALUES (0x724E6001,  1154, 0x24E60020, 75.36104, 175.2696, 81.72891, -0.3883325,
 /* @teleloc 0x24E60020 [75.361040 175.269600 81.728910] -0.388333 0.000000 0.000000 -0.921519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724E6001, 0x724E6002, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x724E6001, 0x724E6003, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x724E6001, 0x724E6004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x724E6001, 0x724E6005, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x724E6001, 0x724E6006, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x724E6001, 0x724E6007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x724E6001, 0x724E6008, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x724E6001, 0x724E6009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x724E6001, 0x724E600A, '2019-02-10 00:00:00') /* Damaged Glacial Golem */;
+VALUES (0x724E6001, 0x724E6002, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x724E6001, 0x724E6003, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x724E6001, 0x724E6004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x724E6001, 0x724E6005, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x724E6001, 0x724E6006, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x724E6001, 0x724E6007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x724E6001, 0x724E6008, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x724E6001, 0x724E6009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x724E6001, 0x724E600A, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724E6002, 29356, 0x24E60020, 75.36104, 175.2696, 81.72891, -0.3883325, 0, 0, -0.9215193,  True, '2019-02-10 00:00:00'); /* Damaged Glacial Golem */

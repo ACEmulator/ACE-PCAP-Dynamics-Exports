@@ -5,12 +5,12 @@ VALUES (0x79931001,  1154, 0x99310025, 105.5794, 103.7468, 69.30112, -0.9638024,
 /* @teleloc 0x99310025 [105.579400 103.746800 69.301120] -0.963802 0.000000 0.000000 -0.266618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79931001, 0x79931002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79931001, 0x79931003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79931001, 0x79931004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79931001, 0x79931005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79931001, 0x79931006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79931001, 0x79931007, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x79931001, 0x79931002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79931001, 0x79931003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79931001, 0x79931004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79931001, 0x79931005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79931001, 0x79931006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79931001, 0x79931007, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79931002, 11528, 0x99310025, 105.5794, 103.7468, 69.30112, -0.9638024, 0, 0, -0.2666176,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -41,7 +41,7 @@ VALUES (0x79931008,  1542, 0x99310033, 150.9253, 69.22157, 58.95982, 0.5836312, 
 /* @teleloc 0x99310033 [150.925300 69.221570 58.959820] 0.583631 0.000000 0.000000 -0.812019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79931008, 0x79931009, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79931008, 0x79931009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79931009,  8037, 0x99310033, 150.9253, 69.22157, 58.95982, 0.5836312, 0, 0, -0.8120189,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

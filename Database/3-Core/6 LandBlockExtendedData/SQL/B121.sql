@@ -5,13 +5,13 @@ VALUES (0x7B121001,  1154, 0xB121003F, 176.1581, 147.3437, 138.6403, 0.3703224, 
 /* @teleloc 0xB121003F [176.158100 147.343700 138.640300] 0.370322 0.000000 0.000000 -0.928903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B121001, 0x7B121002, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7B121001, 0x7B121003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B121001, 0x7B121004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B121001, 0x7B121005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B121001, 0x7B121006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B121001, 0x7B121007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B121001, 0x7B121008, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B121001, 0x7B121002, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7B121001, 0x7B121003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B121001, 0x7B121004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B121001, 0x7B121005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B121001, 0x7B121006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B121001, 0x7B121007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B121001, 0x7B121008, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B121002, 11987, 0xB121003F, 176.1581, 147.3437, 138.6403, 0.3703224, 0, 0, -0.9289033,  True, '2019-02-10 00:00:00'); /* Sentient Fragment */

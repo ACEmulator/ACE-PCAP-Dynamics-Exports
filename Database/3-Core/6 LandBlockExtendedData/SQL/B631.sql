@@ -5,11 +5,11 @@ VALUES (0x7B631001,  1154, 0xB6310026, 103.281, 120.0301, 130.2594, -0.9921272, 
 /* @teleloc 0xB6310026 [103.281000 120.030100 130.259400] -0.992127 0.000000 0.000000 -0.125234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B631001, 0x7B631002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B631001, 0x7B631003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B631001, 0x7B631004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B631001, 0x7B631005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B631001, 0x7B631006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B631001, 0x7B631002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B631001, 0x7B631003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B631001, 0x7B631004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B631001, 0x7B631005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B631001, 0x7B631006, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B631002,  1627, 0xB6310026, 103.281, 120.0301, 130.2594, -0.9921272, 0, 0, -0.1252343,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -36,7 +36,7 @@ VALUES (0x7B631007,  1542, 0xB6310016, 55.85505, 136.9829, 102.5584, -0.3172393,
 /* @teleloc 0xB6310016 [55.855050 136.982900 102.558400] -0.317239 0.000000 0.000000 -0.948346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B631007, 0x7B631008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B631007, 0x7B631008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B631008, 42528, 0xB6310016, 55.85505, 136.9829, 102.5584, -0.3172393, 0, 0, -0.9483455,  True, '2019-02-10 00:00:00'); /* Rock */

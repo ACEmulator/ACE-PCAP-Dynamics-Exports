@@ -5,10 +5,10 @@ VALUES (0x7AFA0001,  1154, 0xAFA00018, 51.36447, 173.9159, 123.7618, 0.8764997, 
 /* @teleloc 0xAFA00018 [51.364470 173.915900 123.761800] 0.876500 0.000000 0.000000 -0.481402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA0001, 0x7AFA0002, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7AFA0001, 0x7AFA0003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AFA0001, 0x7AFA0004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA0001, 0x7AFA0005, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AFA0001, 0x7AFA0002, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7AFA0001, 0x7AFA0003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AFA0001, 0x7AFA0004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA0001, 0x7AFA0005, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA0002, 28879, 0xAFA00018, 51.36447, 173.9159, 123.7618, 0.8764997, 0, 0, -0.4814024,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
@@ -31,8 +31,8 @@ VALUES (0x7AFA0006,  1542, 0xAFA00018, 50.93412, 171.9834, 123.7618, 1, 0, 0, 0,
 /* @teleloc 0xAFA00018 [50.934120 171.983400 123.761800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA0006, 0x7AFA0007, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AFA0006, 0x7AFA0008, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7AFA0006, 0x7AFA0007, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AFA0006, 0x7AFA0008, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA0007,  8232, 0xAFA00018, 50.93412, 171.9834, 123.7618, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

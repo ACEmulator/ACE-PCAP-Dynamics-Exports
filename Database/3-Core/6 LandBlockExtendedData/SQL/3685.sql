@@ -5,14 +5,14 @@ VALUES (0x73685001,  1154, 0x3685003B, 168.2019, 53.07724, 44.07731, 0.9238795, 
 /* @teleloc 0x3685003B [168.201900 53.077240 44.077310] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73685001, 0x73685002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73685001, 0x73685003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73685001, 0x73685004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73685001, 0x73685005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73685001, 0x73685006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73685001, 0x73685007, '2019-02-10 00:00:00') /* Gelid */
-     , (0x73685001, 0x73685008, '2019-02-10 00:00:00') /* Frost */
-     , (0x73685001, 0x73685009, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x73685001, 0x73685002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73685001, 0x73685003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73685001, 0x73685004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73685001, 0x73685005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73685001, 0x73685006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73685001, 0x73685007, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x73685001, 0x73685008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73685001, 0x73685009, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73685002, 24494, 0x3685003B, 168.2019, 53.07724, 44.07731, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -51,8 +51,8 @@ VALUES (0x7368500A,  1542, 0x36850033, 160.2019, 52.07724, 42.83028, 1, 0, 0, 0,
 /* @teleloc 0x36850033 [160.201900 52.077240 42.830280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7368500A, 0x7368500B, '2019-02-10 00:00:00') /* Bones */
-     , (0x7368500A, 0x7368500C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7368500A, 0x7368500B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7368500A, 0x7368500C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7368500B,  4380, 0x36850033, 160.2019, 52.07724, 42.83028, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

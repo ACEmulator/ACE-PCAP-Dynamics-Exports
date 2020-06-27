@@ -5,17 +5,17 @@ VALUES (0x787BC001,  1154, 0x87BC002E, 143.7734, 131.2699, 79.80438, 0.04149814,
 /* @teleloc 0x87BC002E [143.773400 131.269900 79.804380] 0.041498 0.000000 0.000000 -0.999139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787BC001, 0x787BC002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x787BC001, 0x787BC003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x787BC001, 0x787BC004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x787BC001, 0x787BC005, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x787BC001, 0x787BC006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x787BC001, 0x787BC007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x787BC001, 0x787BC008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x787BC001, 0x787BC009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x787BC001, 0x787BC00A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x787BC001, 0x787BC00B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x787BC001, 0x787BC00C, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x787BC001, 0x787BC002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x787BC001, 0x787BC003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x787BC001, 0x787BC004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x787BC001, 0x787BC005, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x787BC001, 0x787BC006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x787BC001, 0x787BC007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x787BC001, 0x787BC008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x787BC001, 0x787BC009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x787BC001, 0x787BC00A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x787BC001, 0x787BC00B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x787BC001, 0x787BC00C, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787BC002, 23082, 0x87BC002E, 143.7734, 131.2699, 79.80438, 0.04149814, 0, 0, -0.9991386,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

@@ -5,11 +5,11 @@ VALUES (0x741B0001,  1154, 0x41B00019, 80.12395, 5.807512, 55.17019, -0.9076674,
 /* @teleloc 0x41B00019 [80.123950 5.807512 55.170190] -0.907667 0.000000 0.000000 -0.419690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741B0001, 0x741B0002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x741B0001, 0x741B0003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x741B0001, 0x741B0004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x741B0001, 0x741B0005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x741B0001, 0x741B0006, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x741B0001, 0x741B0002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x741B0001, 0x741B0003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x741B0001, 0x741B0004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x741B0001, 0x741B0005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x741B0001, 0x741B0006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741B0002, 26470, 0x41B00019, 80.12395, 5.807512, 55.17019, -0.9076674, 0, 0, -0.4196902,  True, '2019-02-10 00:00:00'); /* Fire Shreth */

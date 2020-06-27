@@ -5,14 +5,14 @@ VALUES (0x74FE9001,  1154, 0x4FE90036, 147.1513, 141.1352, 4.508839, -0.3280601,
 /* @teleloc 0x4FE90036 [147.151300 141.135200 4.508839] -0.328060 0.000000 0.000000 -0.944657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FE9001, 0x74FE9002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74FE9001, 0x74FE9003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74FE9001, 0x74FE9004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74FE9001, 0x74FE9005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74FE9001, 0x74FE9006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74FE9001, 0x74FE9007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74FE9001, 0x74FE9008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74FE9001, 0x74FE9009, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x74FE9001, 0x74FE9002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74FE9001, 0x74FE9003, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74FE9001, 0x74FE9004, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74FE9001, 0x74FE9005, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74FE9001, 0x74FE9006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74FE9001, 0x74FE9007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74FE9001, 0x74FE9008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74FE9001, 0x74FE9009, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FE9002, 24326, 0x4FE90036, 147.1513, 141.1352, 4.508839, -0.3280601, 0, 0, -0.9446568,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -51,8 +51,8 @@ VALUES (0x74FE900A,  1542, 0x4FE90002, 6.729572, 31.20678, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x4FE90002 [6.729572 31.206780 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FE900A, 0x74FE900B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74FE900A, 0x74FE900C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74FE900A, 0x74FE900B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74FE900A, 0x74FE900C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FE900B,  4179, 0x4FE90002, 6.729572, 31.20678, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

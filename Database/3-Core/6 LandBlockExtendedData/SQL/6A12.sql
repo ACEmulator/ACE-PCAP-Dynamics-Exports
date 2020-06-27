@@ -5,17 +5,17 @@ VALUES (0x76A12001,  1154, 0x6A120027, 115.9513, 161.3285, 34.44814, 1, 0, 0, 0,
 /* @teleloc 0x6A120027 [115.951300 161.328500 34.448140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A12001, 0x76A12002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x76A12001, 0x76A12003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x76A12001, 0x76A12004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x76A12001, 0x76A12005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x76A12001, 0x76A12006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76A12001, 0x76A12007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76A12001, 0x76A12008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76A12001, 0x76A12009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76A12001, 0x76A1200A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x76A12001, 0x76A1200B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76A12001, 0x76A1200C, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x76A12001, 0x76A12002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x76A12001, 0x76A12003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x76A12001, 0x76A12004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x76A12001, 0x76A12005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x76A12001, 0x76A12006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76A12001, 0x76A12007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76A12001, 0x76A12008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76A12001, 0x76A12009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76A12001, 0x76A1200A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x76A12001, 0x76A1200B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76A12001, 0x76A1200C, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A12002,  7107, 0x6A120027, 115.9513, 161.3285, 34.44814, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

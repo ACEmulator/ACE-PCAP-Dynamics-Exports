@@ -5,18 +5,18 @@ VALUES (0x7CB50001,  1154, 0xCB500018, 53.1455, 178.9223, 42.86758, 0.5900754, 0
 /* @teleloc 0xCB500018 [53.145500 178.922300 42.867580] 0.590075 0.000000 0.000000 -0.807348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB50001, 0x7CB50002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB50001, 0x7CB50003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB50001, 0x7CB50004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB50001, 0x7CB50005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB50001, 0x7CB50006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB50001, 0x7CB50007, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CB50001, 0x7CB50008, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CB50001, 0x7CB50009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB50001, 0x7CB5000A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB50001, 0x7CB5000B, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CB50001, 0x7CB5000C, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7CB50001, 0x7CB5000D, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x7CB50001, 0x7CB50002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB50001, 0x7CB50003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB50001, 0x7CB50004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB50001, 0x7CB50005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB50001, 0x7CB50006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB50001, 0x7CB50007, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CB50001, 0x7CB50008, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CB50001, 0x7CB50009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB50001, 0x7CB5000A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB50001, 0x7CB5000B, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CB50001, 0x7CB5000C, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7CB50001, 0x7CB5000D, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB50002,   194, 0xCB500018, 53.1455, 178.9223, 42.86758, 0.5900754, 0, 0, -0.8073482,  True, '2019-02-10 00:00:00'); /* Copper Golem */

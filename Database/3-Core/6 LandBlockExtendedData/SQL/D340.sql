@@ -5,17 +5,17 @@ VALUES (0x7D340001,  1154, 0xD3400009, 32.13111, 4.286377, 212.1185, 0.9238795, 
 /* @teleloc 0xD3400009 [32.131110 4.286377 212.118500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D340001, 0x7D340002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D340001, 0x7D340003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D340001, 0x7D340004, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7D340001, 0x7D340005, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7D340001, 0x7D340006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D340001, 0x7D340007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D340001, 0x7D340008, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D340001, 0x7D340009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D340001, 0x7D34000A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D340001, 0x7D34000B, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D340001, 0x7D34000C, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7D340001, 0x7D340002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D340001, 0x7D340003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D340001, 0x7D340004, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D340001, 0x7D340005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D340001, 0x7D340006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D340001, 0x7D340007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D340001, 0x7D340008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D340001, 0x7D340009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D340001, 0x7D34000A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D340001, 0x7D34000B, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D340001, 0x7D34000C, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D340002,   235, 0xD3400009, 32.13111, 4.286377, 212.1185, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

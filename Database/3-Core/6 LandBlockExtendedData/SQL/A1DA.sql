@@ -5,13 +5,13 @@ VALUES (0x7A1DA001,  1154, 0xA1DA000A, 31.43577, 45.60982, 51.991, 0.551438, 0, 
 /* @teleloc 0xA1DA000A [31.435770 45.609820 51.991000] 0.551438 0.000000 0.000000 -0.834216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1DA001, 0x7A1DA002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A1DA001, 0x7A1DA003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A1DA001, 0x7A1DA004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A1DA001, 0x7A1DA005, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A1DA001, 0x7A1DA006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A1DA001, 0x7A1DA007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A1DA001, 0x7A1DA008, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x7A1DA001, 0x7A1DA002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A1DA001, 0x7A1DA003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A1DA001, 0x7A1DA004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A1DA001, 0x7A1DA005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A1DA001, 0x7A1DA006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A1DA001, 0x7A1DA007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A1DA001, 0x7A1DA008, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1DA002,  9252, 0xA1DA000A, 31.43577, 45.60982, 51.991, 0.551438, 0, 0, -0.8342158,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

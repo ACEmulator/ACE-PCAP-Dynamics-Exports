@@ -5,18 +5,18 @@ VALUES (0x7A5A0001,  1154, 0xA5A00004, 23.58642, 91.61945, 120.4095, 0.7071068, 
 /* @teleloc 0xA5A00004 [23.586420 91.619450 120.409500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A0001, 0x7A5A0002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A5A0001, 0x7A5A0003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A5A0001, 0x7A5A0004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A5A0001, 0x7A5A0005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A5A0001, 0x7A5A0006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A5A0001, 0x7A5A0007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A5A0001, 0x7A5A0008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A5A0001, 0x7A5A0009, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A5A0001, 0x7A5A000A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A5A0001, 0x7A5A000B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A5A0001, 0x7A5A000C, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7A5A0001, 0x7A5A000D, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A5A0001, 0x7A5A0002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A5A0001, 0x7A5A0003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A5A0001, 0x7A5A0004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A5A0001, 0x7A5A0005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A5A0001, 0x7A5A0006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A5A0001, 0x7A5A0007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A5A0001, 0x7A5A0008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A5A0001, 0x7A5A0009, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A5A0001, 0x7A5A000A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A5A0001, 0x7A5A000B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A5A0001, 0x7A5A000C, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7A5A0001, 0x7A5A000D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A0002,   194, 0xA5A00004, 23.58642, 91.61945, 120.4095, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -71,8 +71,8 @@ VALUES (0x7A5A000E,  1542, 0xA5A0000E, 24.63284, 127.4015, 119.9473, 1, 0, 0, 0,
 /* @teleloc 0xA5A0000E [24.632840 127.401500 119.947300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A000E, 0x7A5A000F, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7A5A000E, 0x7A5A0010, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A5A000E, 0x7A5A000F, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7A5A000E, 0x7A5A0010, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A000F, 22247, 0xA5A0000E, 24.63284, 127.4015, 119.9473, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Great Pumpkin */

@@ -5,16 +5,16 @@ VALUES (0x7E7D4001,  1154, 0xE7D4000B, 28.16524, 68.19792, 0.01100004, 0.5378438
 /* @teleloc 0xE7D4000B [28.165240 68.197920 0.011000] 0.537844 0.000000 0.000000 -0.843045 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E7D4001, 0x7E7D4002, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E7D4001, 0x7E7D4003, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7D4001, 0x7E7D4004, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7D4001, 0x7E7D4005, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E7D4001, 0x7E7D4006, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E7D4001, 0x7E7D4007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E7D4001, 0x7E7D4008, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E7D4001, 0x7E7D4009, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7D4001, 0x7E7D400A, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7D4001, 0x7E7D400B, '2019-02-10 00:00:00') /* Aggressive Swarm */;
+VALUES (0x7E7D4001, 0x7E7D4002, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E7D4001, 0x7E7D4003, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7D4001, 0x7E7D4004, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7D4001, 0x7E7D4005, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E7D4001, 0x7E7D4006, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E7D4001, 0x7E7D4007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E7D4001, 0x7E7D4008, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E7D4001, 0x7E7D4009, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7D4001, 0x7E7D400A, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7D4001, 0x7E7D400B, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E7D4002, 40289, 0xE7D4000B, 28.16524, 68.19792, 0.01100004, 0.5378438, 0, 0, -0.8430445,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */

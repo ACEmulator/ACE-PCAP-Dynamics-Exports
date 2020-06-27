@@ -5,9 +5,9 @@ VALUES (0x7C1A2001,  1154, 0xC1A2003D, 168.224, 104.0549, 8.65624, 0.8846737, 0,
 /* @teleloc 0xC1A2003D [168.224000 104.054900 8.656240] 0.884674 0.000000 0.000000 -0.466211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A2001, 0x7C1A2002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C1A2001, 0x7C1A2003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C1A2001, 0x7C1A2004, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x7C1A2001, 0x7C1A2002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C1A2001, 0x7C1A2003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C1A2001, 0x7C1A2004, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A2002,  4111, 0xC1A2003D, 168.224, 104.0549, 8.65624, 0.8846737, 0, 0, -0.4662108,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

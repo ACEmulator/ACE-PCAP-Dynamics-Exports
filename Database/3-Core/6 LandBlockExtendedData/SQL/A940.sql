@@ -5,9 +5,9 @@ VALUES (0x7A940001,  1154, 0xA9400026, 104.009, 142.9239, 17.49155, -0.9800338, 
 /* @teleloc 0xA9400026 [104.009000 142.923900 17.491550] -0.980034 0.000000 0.000000 -0.198831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A940001, 0x7A940002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A940001, 0x7A940003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A940001, 0x7A940004, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7A940001, 0x7A940002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A940001, 0x7A940003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A940001, 0x7A940004, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A940002,  8014, 0xA9400026, 104.009, 142.9239, 17.49155, -0.9800338, 0, 0, -0.1988308,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -26,7 +26,7 @@ VALUES (0x7A940005,  1542, 0xA9400013, 55.21188, 53.36751, 22.35073, 0.7071068, 
 /* @teleloc 0xA9400013 [55.211880 53.367510 22.350730] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A940005, 0x7A940006, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7A940005, 0x7A940006, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A940006,  9008, 0xA9400013, 55.21188, 53.36751, 22.35073, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

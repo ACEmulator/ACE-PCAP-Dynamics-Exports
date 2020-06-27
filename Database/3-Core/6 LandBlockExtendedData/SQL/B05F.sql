@@ -5,21 +5,21 @@ VALUES (0x7B05F001,  1154, 0xB05F001D, 91.96622, 102.9544, 33.6721, -0.9532714, 
 /* @teleloc 0xB05F001D [91.966220 102.954400 33.672100] -0.953271 0.000000 0.000000 -0.302115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B05F001, 0x7B05F002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B05F001, 0x7B05F003, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7B05F001, 0x7B05F004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B05F001, 0x7B05F005, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7B05F001, 0x7B05F006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B05F001, 0x7B05F007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B05F001, 0x7B05F008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B05F001, 0x7B05F009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B05F001, 0x7B05F00A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B05F001, 0x7B05F00B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B05F001, 0x7B05F00C, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B05F001, 0x7B05F00D, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7B05F001, 0x7B05F00E, '2019-02-10 00:00:00') /* Static */
-     , (0x7B05F001, 0x7B05F00F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B05F001, 0x7B05F010, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7B05F001, 0x7B05F002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B05F001, 0x7B05F003, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7B05F001, 0x7B05F004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B05F001, 0x7B05F005, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7B05F001, 0x7B05F006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B05F001, 0x7B05F007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B05F001, 0x7B05F008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B05F001, 0x7B05F009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B05F001, 0x7B05F00A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B05F001, 0x7B05F00B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B05F001, 0x7B05F00C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B05F001, 0x7B05F00D, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7B05F001, 0x7B05F00E, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B05F001, 0x7B05F00F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B05F001, 0x7B05F010, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B05F002,  8673, 0xB05F001D, 91.96622, 102.9544, 33.6721, -0.9532714, 0, 0, -0.3021153,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -86,8 +86,8 @@ VALUES (0x7B05F011,  1542, 0xB05F0023, 118.7875, 60.89329, 33.07594, 0.611817, 0
 /* @teleloc 0xB05F0023 [118.787500 60.893290 33.075940] 0.611817 0.000000 0.000000 -0.790999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B05F011, 0x7B05F012, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7B05F011, 0x7B05F013, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B05F011, 0x7B05F012, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7B05F011, 0x7B05F013, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B05F012, 15715, 0xB05F0023, 118.7875, 60.89329, 33.07594, 0.611817, 0, 0, -0.7909994,  True, '2019-02-10 00:00:00'); /* Sunflower */

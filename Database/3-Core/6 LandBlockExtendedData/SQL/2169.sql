@@ -5,9 +5,9 @@ VALUES (0x72169001,  1154, 0x2169001E, 89.12003, 136.5437, 40.0085, 0.5852315, 0
 /* @teleloc 0x2169001E [89.120030 136.543700 40.008500] 0.585232 0.000000 0.000000 -0.810866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72169001, 0x72169002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72169001, 0x72169003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72169001, 0x72169004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72169001, 0x72169002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72169001, 0x72169003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72169001, 0x72169004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72169002,  7092, 0x2169001E, 89.12003, 136.5437, 40.0085, 0.5852315, 0, 0, -0.8108662,  True, '2019-02-10 00:00:00'); /* Firestorm */

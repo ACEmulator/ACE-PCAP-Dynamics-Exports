@@ -5,11 +5,11 @@ VALUES (0x7CB26001,  1154, 0xCB260038, 163.9912, 173.3526, 80.34158, 1, 0, 0, 0,
 /* @teleloc 0xCB260038 [163.991200 173.352600 80.341580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB26001, 0x7CB26002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7CB26001, 0x7CB26003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CB26001, 0x7CB26004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7CB26001, 0x7CB26005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7CB26001, 0x7CB26006, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x7CB26001, 0x7CB26002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7CB26001, 0x7CB26003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CB26001, 0x7CB26004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7CB26001, 0x7CB26005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7CB26001, 0x7CB26006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB26002,  7123, 0xCB260038, 163.9912, 173.3526, 80.34158, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -36,9 +36,9 @@ VALUES (0x7CB26007,  1542, 0xCB260038, 165.1922, 174.5048, 80.54519, 0.9238795, 
 /* @teleloc 0xCB260038 [165.192200 174.504800 80.545190] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB26007, 0x7CB26008, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7CB26007, 0x7CB26009, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7CB26007, 0x7CB2600A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CB26007, 0x7CB26008, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7CB26007, 0x7CB26009, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7CB26007, 0x7CB2600A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB26008,  4180, 0xCB260038, 165.1922, 174.5048, 80.54519, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

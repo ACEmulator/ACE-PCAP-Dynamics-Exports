@@ -5,21 +5,21 @@ VALUES (0x7AE33001,  1154, 0xAE330028, 112.3292, 175.2956, 55.25175, -0.8864615,
 /* @teleloc 0xAE330028 [112.329200 175.295600 55.251750] -0.886462 0.000000 0.000000 -0.462802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE33001, 0x7AE33002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AE33001, 0x7AE33003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AE33001, 0x7AE33004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AE33001, 0x7AE33005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE33001, 0x7AE33006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE33001, 0x7AE33007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE33008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE33009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE3300A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE3300B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE3300C, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AE33001, 0x7AE3300D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7AE33001, 0x7AE3300E, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AE33001, 0x7AE3300F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE33001, 0x7AE33010, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AE33001, 0x7AE33002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AE33001, 0x7AE33003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AE33001, 0x7AE33004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AE33001, 0x7AE33005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE33001, 0x7AE33006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE33001, 0x7AE33007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE33008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE33009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE3300A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE3300B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE3300C, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE33001, 0x7AE3300D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7AE33001, 0x7AE3300E, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AE33001, 0x7AE3300F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE33001, 0x7AE33010, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE33002,  1609, 0xAE330028, 112.3292, 175.2956, 55.25175, -0.8864615, 0, 0, -0.4628024,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

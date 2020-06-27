@@ -5,9 +5,9 @@ VALUES (0x7E43C001,  1154, 0xE43C0030, 125.835, 186.339, 69.55, 0.488176, 0, 0, 
 /* @teleloc 0xE43C0030 [125.835000 186.339000 69.550000] 0.488176 0.000000 0.000000 -0.872745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E43C001, 0x7E43C002, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7E43C001, 0x7E43C003, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7E43C001, 0x7E43C004, '2019-02-10 00:00:00') /* Snowy Mattekar */;
+VALUES (0x7E43C001, 0x7E43C002, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7E43C001, 0x7E43C003, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7E43C001, 0x7E43C004, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E43C002, 22257, 0xE43C0030, 125.835, 186.339, 69.55, 0.488176, 0, 0, -0.872745,  True, '2019-02-10 00:00:00'); /* Fishing Hole */

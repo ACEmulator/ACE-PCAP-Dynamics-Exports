@@ -5,17 +5,17 @@ VALUES (0x7B170001,  1154, 0xB1700035, 146.6039, 97.08926, 28.3542, -0.7167383, 
 /* @teleloc 0xB1700035 [146.603900 97.089260 28.354200] -0.716738 0.000000 0.000000 -0.697342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B170001, 0x7B170002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B170001, 0x7B170003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B170001, 0x7B170004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B170001, 0x7B170005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B170001, 0x7B170006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B170001, 0x7B170007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B170001, 0x7B170008, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7B170001, 0x7B170009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B170001, 0x7B17000A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B170001, 0x7B17000B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B170001, 0x7B17000C, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7B170001, 0x7B170002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B170001, 0x7B170003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B170001, 0x7B170004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B170001, 0x7B170005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B170001, 0x7B170006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B170001, 0x7B170007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B170001, 0x7B170008, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7B170001, 0x7B170009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B170001, 0x7B17000A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B170001, 0x7B17000B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B170001, 0x7B17000C, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B170002,   195, 0xB1700035, 146.6039, 97.08926, 28.3542, -0.7167383, 0, 0, -0.6973422,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -66,9 +66,9 @@ VALUES (0x7B17000D,  1542, 0xB170002B, 122.0274, 69.47388, 36.73423, -0.3414383,
 /* @teleloc 0xB170002B [122.027400 69.473880 36.734230] -0.341438 0.000000 0.000000 -0.939904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B17000D, 0x7B17000E, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7B17000D, 0x7B17000F, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7B17000D, 0x7B170010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B17000D, 0x7B17000E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7B17000D, 0x7B17000F, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7B17000D, 0x7B170010, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B17000E,  8041, 0xB170002B, 122.0274, 69.47388, 36.73423, -0.3414383, 0, 0, -0.9399042,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

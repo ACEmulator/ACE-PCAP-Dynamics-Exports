@@ -5,20 +5,20 @@ VALUES (0x7AE81001,  1154, 0xAE810005, 20.8067, 109.8221, 26.8131, 0.6812927, 0,
 /* @teleloc 0xAE810005 [20.806700 109.822100 26.813100] 0.681293 0.000000 0.000000 -0.732011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE81001, 0x7AE81002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE81001, 0x7AE81003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AE81001, 0x7AE81004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AE81001, 0x7AE81005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AE81001, 0x7AE81006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AE81001, 0x7AE81007, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AE81001, 0x7AE81008, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AE81001, 0x7AE81009, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AE81001, 0x7AE8100A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE81001, 0x7AE8100B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE81001, 0x7AE8100C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE81001, 0x7AE8100D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE81001, 0x7AE8100E, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AE81001, 0x7AE8100F, '2019-02-10 00:00:00') /* Two Headed Snowman */;
+VALUES (0x7AE81001, 0x7AE81002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE81001, 0x7AE81003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AE81001, 0x7AE81004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AE81001, 0x7AE81005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AE81001, 0x7AE81006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AE81001, 0x7AE81007, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AE81001, 0x7AE81008, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AE81001, 0x7AE81009, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AE81001, 0x7AE8100A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE81001, 0x7AE8100B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE81001, 0x7AE8100C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE81001, 0x7AE8100D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE81001, 0x7AE8100E, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AE81001, 0x7AE8100F, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE81002,  8270, 0xAE810005, 20.8067, 109.8221, 26.8131, 0.6812927, 0, 0, -0.7320111,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
@@ -81,7 +81,7 @@ VALUES (0x7AE81010,  1542, 0xAE810007, 21.27876, 157.788, 25.77473, -0.2923967, 
 /* @teleloc 0xAE810007 [21.278760 157.788000 25.774730] -0.292397 0.000000 0.000000 -0.956297 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE81010, 0x7AE81011, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7AE81010, 0x7AE81011, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE81011, 15715, 0xAE810007, 21.27876, 157.788, 25.77473, -0.2923967, 0, 0, -0.9562971,  True, '2019-02-10 00:00:00'); /* Sunflower */

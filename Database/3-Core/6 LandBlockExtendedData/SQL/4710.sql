@@ -5,8 +5,8 @@ VALUES (0x74710001,  1154, 0x47100040, 178.4048, 187.2945, -0.44175, 0.9988047, 
 /* @teleloc 0x47100040 [178.404800 187.294500 -0.441750] 0.998805 0.000000 0.000000 -0.048879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74710001, 0x74710002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74710001, 0x74710003, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x74710001, 0x74710002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74710001, 0x74710003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74710002, 24325, 0x47100040, 178.4048, 187.2945, -0.44175, 0.9988047, 0, 0, -0.0488792,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -21,7 +21,7 @@ VALUES (0x74710004,  1542, 0x47100038, 166.3502, 171.1323, 0, -0.1736482, 0, 0, 
 /* @teleloc 0x47100038 [166.350200 171.132300 0.000000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74710004, 0x74710005, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x74710004, 0x74710005, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74710005,  4180, 0x47100038, 166.3502, 171.1323, 0, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,12 +5,12 @@ VALUES (0x7C21A001,  1154, 0xC21A0026, 105.5148, 134.0647, 102.8379, 0.5, 0, 0, 
 /* @teleloc 0xC21A0026 [105.514800 134.064700 102.837900] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C21A001, 0x7C21A002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C21A001, 0x7C21A003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C21A001, 0x7C21A004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21A001, 0x7C21A005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7C21A001, 0x7C21A006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21A001, 0x7C21A007, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7C21A001, 0x7C21A002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C21A001, 0x7C21A003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C21A001, 0x7C21A004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C21A001, 0x7C21A005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7C21A001, 0x7C21A006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C21A001, 0x7C21A007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C21A002,   201, 0xC21A0026, 105.5148, 134.0647, 102.8379, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

@@ -5,9 +5,9 @@ VALUES (0x737E6001,  1154, 0x37E60005, 23.92847, 98.44482, -0.8975, 0.1307861, 0
 /* @teleloc 0x37E60005 [23.928470 98.444820 -0.897500] 0.130786 0.000000 0.000000 -0.991411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737E6001, 0x737E6002, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x737E6001, 0x737E6003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737E6001, 0x737E6004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x737E6001, 0x737E6002, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x737E6001, 0x737E6003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737E6001, 0x737E6004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737E6002, 24478, 0x37E60005, 23.92847, 98.44482, -0.8975, 0.1307861, 0, 0, -0.9914106,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */

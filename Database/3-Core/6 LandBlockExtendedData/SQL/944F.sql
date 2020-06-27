@@ -5,11 +5,11 @@ VALUES (0x7944F001,  1154, 0x944F0009, 45.07188, 17.1552, 13.38681, 0.9238795, 0
 /* @teleloc 0x944F0009 [45.071880 17.155200 13.386810] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7944F001, 0x7944F002, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7944F001, 0x7944F003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7944F001, 0x7944F004, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7944F001, 0x7944F005, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7944F001, 0x7944F006, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x7944F001, 0x7944F002, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7944F001, 0x7944F003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7944F001, 0x7944F004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7944F001, 0x7944F005, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7944F001, 0x7944F006, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7944F002,  9256, 0x944F0009, 45.07188, 17.1552, 13.38681, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dune Reaver */

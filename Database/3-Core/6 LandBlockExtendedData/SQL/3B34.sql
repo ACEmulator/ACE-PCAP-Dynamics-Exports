@@ -5,24 +5,24 @@ VALUES (0x73B34001,  1154, 0x3B34001B, 75.69044, 71.09991, 57.2947, 0.9238795, 0
 /* @teleloc 0x3B34001B [75.690440 71.099910 57.294700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B34001, 0x73B34002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73B34001, 0x73B34003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73B34001, 0x73B34004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73B34001, 0x73B34005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73B34001, 0x73B34006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73B34001, 0x73B34007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x73B34001, 0x73B34008, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73B34001, 0x73B34009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73B34001, 0x73B3400A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73B34001, 0x73B3400B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73B34001, 0x73B3400C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73B34001, 0x73B3400D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73B34001, 0x73B3400E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73B34001, 0x73B3400F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73B34001, 0x73B34010, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73B34001, 0x73B34011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73B34001, 0x73B34012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73B34001, 0x73B34013, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x73B34001, 0x73B34002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73B34001, 0x73B34003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73B34001, 0x73B34004, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73B34001, 0x73B34005, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73B34001, 0x73B34006, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73B34001, 0x73B34007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x73B34001, 0x73B34008, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x73B34001, 0x73B34009, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73B34001, 0x73B3400A, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73B34001, 0x73B3400B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73B34001, 0x73B3400C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73B34001, 0x73B3400D, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x73B34001, 0x73B3400E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73B34001, 0x73B3400F, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x73B34001, 0x73B34010, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x73B34001, 0x73B34011, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73B34001, 0x73B34012, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73B34001, 0x73B34013, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B34002, 36822, 0x3B34001B, 75.69044, 71.09991, 57.2947, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -101,8 +101,8 @@ VALUES (0x73B34014,  1542, 0x3B34001C, 73.03987, 72.57963, 56.0284, 1, 0, 0, 0, 
 /* @teleloc 0x3B34001C [73.039870 72.579630 56.028400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B34014, 0x73B34015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B34014, 0x73B34016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73B34014, 0x73B34015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B34014, 0x73B34016, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B34015,  4179, 0x3B34001C, 73.03987, 72.57963, 56.0284, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

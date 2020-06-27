@@ -5,16 +5,16 @@ VALUES (0x7C533001,  1154, 0xC5330031, 145.6558, 1.335541, 209.172, -0.9405774, 
 /* @teleloc 0xC5330031 [145.655800 1.335541 209.172000] -0.940577 0.000000 0.000000 -0.339579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C533001, 0x7C533002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C533001, 0x7C533003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C533001, 0x7C533004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C533001, 0x7C533005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C533001, 0x7C533006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C533001, 0x7C533007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C533001, 0x7C533008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C533001, 0x7C533009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C533001, 0x7C53300A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C533001, 0x7C53300B, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x7C533001, 0x7C533002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C533001, 0x7C533003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C533001, 0x7C533004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C533001, 0x7C533005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C533001, 0x7C533006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C533001, 0x7C533007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C533001, 0x7C533008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C533001, 0x7C533009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7C533001, 0x7C53300A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C533001, 0x7C53300B, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C533002,   201, 0xC5330031, 145.6558, 1.335541, 209.172, -0.9405774, 0, 0, -0.3395793,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -61,7 +61,7 @@ VALUES (0x7C53300C,  1542, 0xC5330021, 108.1148, 1.512189, 212.7193, -0.9542336,
 /* @teleloc 0xC5330021 [108.114800 1.512189 212.719300] -0.954234 0.000000 0.000000 -0.299062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C53300C, 0x7C53300D, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C53300C, 0x7C53300D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C53300D,  8646, 0xC5330021, 108.1148, 1.512189, 212.7193, -0.9542336, 0, 0, -0.2990621,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

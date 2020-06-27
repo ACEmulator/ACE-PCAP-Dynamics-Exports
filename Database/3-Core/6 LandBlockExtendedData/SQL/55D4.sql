@@ -5,18 +5,18 @@ VALUES (0x755D4001,  1154, 0x55D40010, 27.33886, 191.4836, 58.24171, 0.5960271, 
 /* @teleloc 0x55D40010 [27.338860 191.483600 58.241710] 0.596027 0.000000 0.000000 -0.802964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D4001, 0x755D4002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x755D4001, 0x755D4003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x755D4001, 0x755D4004, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x755D4001, 0x755D4005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x755D4001, 0x755D4006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x755D4001, 0x755D4007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x755D4001, 0x755D4008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x755D4001, 0x755D4009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x755D4001, 0x755D400A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x755D4001, 0x755D400B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x755D4001, 0x755D400C, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x755D4001, 0x755D400D, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x755D4001, 0x755D4002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x755D4001, 0x755D4003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x755D4001, 0x755D4004, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x755D4001, 0x755D4005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x755D4001, 0x755D4006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x755D4001, 0x755D4007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x755D4001, 0x755D4008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x755D4001, 0x755D4009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x755D4001, 0x755D400A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x755D4001, 0x755D400B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x755D4001, 0x755D400C, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x755D4001, 0x755D400D, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D4002, 10806, 0x55D40010, 27.33886, 191.4836, 58.24171, 0.5960271, 0, 0, -0.8029643,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -71,8 +71,8 @@ VALUES (0x755D400E,  1542, 0x55D4002B, 134.7506, 67.68164, 54.41092, 1, 0, 0, 0,
 /* @teleloc 0x55D4002B [134.750600 67.681640 54.410920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D400E, 0x755D400F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x755D400E, 0x755D4010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x755D400E, 0x755D400F, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x755D400E, 0x755D4010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D400F, 22566, 0x55D4002B, 134.7506, 67.68164, 54.41092, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

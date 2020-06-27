@@ -5,15 +5,15 @@ VALUES (0x792C7001,  1154, 0x92C70019, 89.53789, 23.24316, 83.58209, 0.7071068, 
 /* @teleloc 0x92C70019 [89.537890 23.243160 83.582090] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792C7001, 0x792C7002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x792C7001, 0x792C7003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792C7001, 0x792C7004, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x792C7001, 0x792C7005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792C7001, 0x792C7006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x792C7001, 0x792C7007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x792C7001, 0x792C7008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x792C7001, 0x792C7009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x792C7001, 0x792C700A, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x792C7001, 0x792C7002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x792C7001, 0x792C7003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792C7001, 0x792C7004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x792C7001, 0x792C7005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792C7001, 0x792C7006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x792C7001, 0x792C7007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x792C7001, 0x792C7008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x792C7001, 0x792C7009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x792C7001, 0x792C700A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792C7002, 24289, 0x92C70019, 89.53789, 23.24316, 83.58209, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -56,7 +56,7 @@ VALUES (0x792C700B,  1542, 0x92C70005, 14.83037, 105.965, 87.16959, 1, 0, 0, 0, 
 /* @teleloc 0x92C70005 [14.830370 105.965000 87.169590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792C700B, 0x792C700C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x792C700B, 0x792C700C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792C700C, 22571, 0x92C70005, 14.83037, 105.965, 87.16959, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

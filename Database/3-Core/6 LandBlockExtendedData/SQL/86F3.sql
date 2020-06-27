@@ -5,16 +5,16 @@ VALUES (0x786F3001,  1154, 0x86F3000A, 40.6493, 27.35989, 114.4522, 0.03358622, 
 /* @teleloc 0x86F3000A [40.649300 27.359890 114.452200] 0.033586 0.000000 0.000000 -0.999436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786F3001, 0x786F3002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x786F3001, 0x786F3003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x786F3001, 0x786F3004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x786F3001, 0x786F3005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786F3001, 0x786F3006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786F3001, 0x786F3007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786F3001, 0x786F3008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786F3001, 0x786F3009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x786F3001, 0x786F300A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x786F3001, 0x786F300B, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x786F3001, 0x786F3002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x786F3001, 0x786F3003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x786F3001, 0x786F3004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x786F3001, 0x786F3005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x786F3001, 0x786F3006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x786F3001, 0x786F3007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x786F3001, 0x786F3008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x786F3001, 0x786F3009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x786F3001, 0x786F300A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x786F3001, 0x786F300B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786F3002, 22520, 0x86F3000A, 40.6493, 27.35989, 114.4522, 0.03358622, 0, 0, -0.9994358,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

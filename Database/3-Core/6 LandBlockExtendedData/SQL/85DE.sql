@@ -5,12 +5,12 @@ VALUES (0x785DE001,  1154, 0x85DE0024, 113.1725, 73.53681, 119.9729, 0.9465787, 
 /* @teleloc 0x85DE0024 [113.172500 73.536810 119.972900] 0.946579 0.000000 0.000000 -0.322473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785DE001, 0x785DE002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x785DE001, 0x785DE003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x785DE001, 0x785DE004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x785DE001, 0x785DE005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x785DE001, 0x785DE006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x785DE001, 0x785DE007, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x785DE001, 0x785DE002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x785DE001, 0x785DE003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x785DE001, 0x785DE004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x785DE001, 0x785DE005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x785DE001, 0x785DE006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x785DE001, 0x785DE007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785DE002, 24959, 0x85DE0024, 113.1725, 73.53681, 119.9729, 0.9465787, 0, 0, -0.3224729,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

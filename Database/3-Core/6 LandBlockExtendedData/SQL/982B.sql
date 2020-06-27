@@ -5,12 +5,12 @@ VALUES (0x7982B001,  1154, 0x982B0026, 115.8828, 141.5926, 100.9929, 0.7071068, 
 /* @teleloc 0x982B0026 [115.882800 141.592600 100.992900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7982B001, 0x7982B002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7982B001, 0x7982B003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7982B001, 0x7982B004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7982B001, 0x7982B005, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7982B001, 0x7982B006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7982B001, 0x7982B007, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x7982B001, 0x7982B002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7982B001, 0x7982B003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7982B001, 0x7982B004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7982B001, 0x7982B005, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7982B001, 0x7982B006, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7982B001, 0x7982B007, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7982B002,  4253, 0x982B0026, 115.8828, 141.5926, 100.9929, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

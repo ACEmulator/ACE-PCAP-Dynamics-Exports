@@ -5,15 +5,15 @@ VALUES (0x72A30001,  1154, 0x2A300001, 6.02583, 13.00675, 59.66035, -4.371139E-0
 /* @teleloc 0x2A300001 [6.025830 13.006750 59.660350] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A30001, 0x72A30002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72A30001, 0x72A30003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72A30001, 0x72A30004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72A30001, 0x72A30005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72A30001, 0x72A30006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72A30001, 0x72A30007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72A30001, 0x72A30008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A30001, 0x72A30009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72A30001, 0x72A3000A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x72A30001, 0x72A30002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72A30001, 0x72A30003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72A30001, 0x72A30004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72A30001, 0x72A30005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72A30001, 0x72A30006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72A30001, 0x72A30007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72A30001, 0x72A30008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A30001, 0x72A30009, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72A30001, 0x72A3000A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A30002, 36825, 0x2A300001, 6.02583, 13.00675, 59.66035, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

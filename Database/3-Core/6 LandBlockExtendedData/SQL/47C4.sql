@@ -5,16 +5,16 @@ VALUES (0x747C4001,  1154, 0x47C40028, 115.5119, 176.8005, 0.02899998, -0.651948
 /* @teleloc 0x47C40028 [115.511900 176.800500 0.029000] -0.651948 0.000000 0.000000 -0.758264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747C4001, 0x747C4002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x747C4001, 0x747C4003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x747C4001, 0x747C4004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x747C4001, 0x747C4005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x747C4001, 0x747C4006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x747C4001, 0x747C4007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x747C4001, 0x747C4008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x747C4001, 0x747C4009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x747C4001, 0x747C400A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x747C4001, 0x747C400B, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x747C4001, 0x747C4002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x747C4001, 0x747C4003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x747C4001, 0x747C4004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x747C4001, 0x747C4005, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x747C4001, 0x747C4006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x747C4001, 0x747C4007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x747C4001, 0x747C4008, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x747C4001, 0x747C4009, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x747C4001, 0x747C400A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x747C4001, 0x747C400B, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747C4002,  7340, 0x47C40028, 115.5119, 176.8005, 0.02899998, -0.6519482, 0, 0, -0.7582635,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -61,7 +61,7 @@ VALUES (0x747C400C,  1542, 0x47C4003F, 169.403, 150.5842, 0, -0.998998, 0, 0, -0
 /* @teleloc 0x47C4003F [169.403000 150.584200 0.000000] -0.998998 0.000000 0.000000 -0.044754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747C400C, 0x747C400D, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x747C400C, 0x747C400D, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747C400D, 11555, 0x47C4003F, 169.403, 150.5842, 0, -0.998998, 0, 0, -0.04475377,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

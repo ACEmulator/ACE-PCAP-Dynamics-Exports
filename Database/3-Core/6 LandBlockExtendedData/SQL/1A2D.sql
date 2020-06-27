@@ -5,17 +5,17 @@ VALUES (0x71A2D001,  1154, 0x1A2D003E, 187.422, 125.7597, 24.75564, 0.8870109, 0
 /* @teleloc 0x1A2D003E [187.422000 125.759700 24.755640] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A2D001, 0x71A2D002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71A2D001, 0x71A2D003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71A2D001, 0x71A2D004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71A2D001, 0x71A2D005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71A2D001, 0x71A2D006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71A2D001, 0x71A2D007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71A2D001, 0x71A2D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71A2D001, 0x71A2D009, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71A2D001, 0x71A2D00A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A2D001, 0x71A2D00B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A2D001, 0x71A2D00C, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x71A2D001, 0x71A2D002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71A2D001, 0x71A2D003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71A2D001, 0x71A2D004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71A2D001, 0x71A2D005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71A2D001, 0x71A2D006, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71A2D001, 0x71A2D007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71A2D001, 0x71A2D008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71A2D001, 0x71A2D009, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71A2D001, 0x71A2D00A, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A2D001, 0x71A2D00B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A2D001, 0x71A2D00C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A2D002, 36845, 0x1A2D003E, 187.422, 125.7597, 24.75564, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

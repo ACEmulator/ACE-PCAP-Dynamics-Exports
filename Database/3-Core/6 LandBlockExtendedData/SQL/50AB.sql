@@ -5,14 +5,14 @@ VALUES (0x750AB001,  1154, 0x50AB002C, 120.4411, 89.39123, 79.97424, -0.9907289,
 /* @teleloc 0x50AB002C [120.441100 89.391230 79.974240] -0.990729 0.000000 0.000000 -0.135854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750AB001, 0x750AB002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x750AB001, 0x750AB003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x750AB001, 0x750AB004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x750AB001, 0x750AB005, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x750AB001, 0x750AB006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x750AB001, 0x750AB007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750AB001, 0x750AB008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750AB001, 0x750AB009, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x750AB001, 0x750AB002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x750AB001, 0x750AB003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x750AB001, 0x750AB004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x750AB001, 0x750AB005, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x750AB001, 0x750AB006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x750AB001, 0x750AB007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x750AB001, 0x750AB008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x750AB001, 0x750AB009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750AB002,  1629, 0x50AB002C, 120.4411, 89.39123, 79.97424, -0.9907289, 0, 0, -0.135854,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

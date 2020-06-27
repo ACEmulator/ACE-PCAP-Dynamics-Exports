@@ -5,9 +5,9 @@ VALUES (0x7B173001,  1154, 0xB1730017, 61.4164, 150.7332, 22.0014, 1, 0, 0, 0, F
 /* @teleloc 0xB1730017 [61.416400 150.733200 22.001400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B173001, 0x7B173002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B173001, 0x7B173003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B173001, 0x7B173004, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7B173001, 0x7B173002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B173001, 0x7B173003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B173001, 0x7B173004, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B173002,   221, 0xB1730017, 61.4164, 150.7332, 22.0014, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */

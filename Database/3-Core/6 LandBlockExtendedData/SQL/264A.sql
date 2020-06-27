@@ -5,33 +5,33 @@ VALUES (0x7264A001,  1154, 0x264A001A, 92.08588, 34.97231, 0.02899998, 0.1836114
 /* @teleloc 0x264A001A [92.085880 34.972310 0.029000] 0.183611 0.000000 0.000000 -0.982999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7264A001, 0x7264A002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7264A001, 0x7264A003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7264A001, 0x7264A004, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7264A001, 0x7264A005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264A001, 0x7264A006, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264A001, 0x7264A007, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264A001, 0x7264A008, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x7264A001, 0x7264A009, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264A001, 0x7264A00A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A00B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A00C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A00D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A00E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A00F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A010, '2019-02-10 00:00:00') /* Fallen Crystal Shard */
-     , (0x7264A001, 0x7264A011, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A012, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A013, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A014, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7264A001, 0x7264A015, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7264A001, 0x7264A016, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7264A001, 0x7264A017, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7264A001, 0x7264A018, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7264A001, 0x7264A019, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7264A001, 0x7264A01A, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7264A001, 0x7264A01B, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7264A001, 0x7264A01C, '2019-02-10 00:00:00') /* Drudge Seraph */;
+VALUES (0x7264A001, 0x7264A002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7264A001, 0x7264A003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7264A001, 0x7264A004, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7264A001, 0x7264A005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264A001, 0x7264A006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264A001, 0x7264A007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264A001, 0x7264A008, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x7264A001, 0x7264A009, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264A001, 0x7264A00A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A00B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A00C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A00D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A00E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A00F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A010, '2019-02-10 00:00:00') /* Fallen Crystal Shard (30889) */
+     , (0x7264A001, 0x7264A011, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A012, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A013, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A014, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A015, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7264A001, 0x7264A016, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7264A001, 0x7264A017, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7264A001, 0x7264A018, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7264A001, 0x7264A019, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7264A001, 0x7264A01A, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7264A001, 0x7264A01B, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7264A001, 0x7264A01C, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264A002, 36554, 0x264A001A, 92.08588, 34.97231, 0.02899998, 0.1836114, 0, 0, -0.9829989,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */

@@ -5,20 +5,20 @@ VALUES (0x7C9A9001,  1154, 0xC9A90019, 81.76, 5.297104, 59.99392, -0.1621059, 0,
 /* @teleloc 0xC9A90019 [81.760000 5.297104 59.993920] -0.162106 0.000000 0.000000 -0.986773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9A9001, 0x7C9A9002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C9A9001, 0x7C9A9003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C9A9001, 0x7C9A9004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C9A9001, 0x7C9A9005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C9A9001, 0x7C9A9006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C9A9001, 0x7C9A9007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C9A9001, 0x7C9A9008, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C9A9001, 0x7C9A9009, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C9A9001, 0x7C9A900A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C9A9001, 0x7C9A900B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C9A9001, 0x7C9A900C, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C9A9001, 0x7C9A900D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C9A9001, 0x7C9A900E, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C9A9001, 0x7C9A900F, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7C9A9001, 0x7C9A9002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C9A9001, 0x7C9A9003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C9A9001, 0x7C9A9004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C9A9001, 0x7C9A9005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C9A9001, 0x7C9A9006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C9A9001, 0x7C9A9007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C9A9001, 0x7C9A9008, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C9A9001, 0x7C9A9009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C9A9001, 0x7C9A900A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C9A9001, 0x7C9A900B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C9A9001, 0x7C9A900C, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C9A9001, 0x7C9A900D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C9A9001, 0x7C9A900E, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C9A9001, 0x7C9A900F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9A9002,  2576, 0xC9A90019, 81.76, 5.297104, 59.99392, -0.1621059, 0, 0, -0.9867734,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -81,7 +81,7 @@ VALUES (0x7C9A9010,  1542, 0xC9A9002F, 138.1786, 146.3376, 71.74567, 1, 0, 0, 0,
 /* @teleloc 0xC9A9002F [138.178600 146.337600 71.745670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9A9010, 0x7C9A9011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C9A9010, 0x7C9A9011, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9A9011, 22576, 0xC9A9002F, 138.1786, 146.3376, 71.74567, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

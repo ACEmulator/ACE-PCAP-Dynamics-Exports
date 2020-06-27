@@ -5,14 +5,14 @@ VALUES (0x78697001,  1154, 0x86970006, 17.32207, 125.7326, 119.8418, -0.559592, 
 /* @teleloc 0x86970006 [17.322070 125.732600 119.841800] -0.559592 0.000000 0.000000 -0.828768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78697001, 0x78697002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78697001, 0x78697003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x78697001, 0x78697004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78697001, 0x78697005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78697001, 0x78697006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78697001, 0x78697007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x78697001, 0x78697008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x78697001, 0x78697009, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x78697001, 0x78697002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78697001, 0x78697003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78697001, 0x78697004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78697001, 0x78697005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78697001, 0x78697006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78697001, 0x78697007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x78697001, 0x78697008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x78697001, 0x78697009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78697002,  1758, 0x86970006, 17.32207, 125.7326, 119.8418, -0.559592, 0, 0, -0.8287682,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -51,8 +51,8 @@ VALUES (0x7869700A,  1542, 0x86970006, 5.867456, 120.8391, 121.0663, 0.9990482, 
 /* @teleloc 0x86970006 [5.867456 120.839100 121.066300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7869700A, 0x7869700B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7869700A, 0x7869700C, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7869700A, 0x7869700B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7869700A, 0x7869700C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7869700B,  4179, 0x86970006, 5.867456, 120.8391, 121.0663, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

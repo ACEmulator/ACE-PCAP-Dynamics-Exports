@@ -5,15 +5,15 @@ VALUES (0x7470E001,  1154, 0x470E0040, 191.2708, 168.6438, 3.670954, 0.7071068, 
 /* @teleloc 0x470E0040 [191.270800 168.643800 3.670954] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7470E001, 0x7470E002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7470E001, 0x7470E003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7470E001, 0x7470E004, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7470E001, 0x7470E005, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7470E001, 0x7470E006, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7470E001, 0x7470E007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7470E001, 0x7470E008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7470E001, 0x7470E009, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7470E001, 0x7470E00A, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7470E001, 0x7470E002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7470E001, 0x7470E003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7470E001, 0x7470E004, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7470E001, 0x7470E005, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7470E001, 0x7470E006, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7470E001, 0x7470E007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7470E001, 0x7470E008, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7470E001, 0x7470E009, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7470E001, 0x7470E00A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7470E002, 24319, 0x470E0040, 191.2708, 168.6438, 3.670954, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -56,10 +56,10 @@ VALUES (0x7470E00B,  1542, 0x470E003F, 188.1784, 165.1031, 3.670954, -4.371139E-
 /* @teleloc 0x470E003F [188.178400 165.103100 3.670954] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7470E00B, 0x7470E00C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7470E00B, 0x7470E00D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7470E00B, 0x7470E00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7470E00B, 0x7470E00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7470E00B, 0x7470E00C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7470E00B, 0x7470E00D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7470E00B, 0x7470E00E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7470E00B, 0x7470E00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7470E00C,  4380, 0x470E003F, 188.1784, 165.1031, 3.670954, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,16 +5,16 @@ VALUES (0x7AFCE001,  1154, 0xAFCE0028, 117.9874, 188.5103, 114.2567, 0.9238795, 
 /* @teleloc 0xAFCE0028 [117.987400 188.510300 114.256700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFCE001, 0x7AFCE002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7AFCE001, 0x7AFCE003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7AFCE001, 0x7AFCE004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AFCE001, 0x7AFCE005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7AFCE001, 0x7AFCE006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AFCE001, 0x7AFCE007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7AFCE001, 0x7AFCE008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AFCE001, 0x7AFCE009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AFCE001, 0x7AFCE00A, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7AFCE001, 0x7AFCE00B, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7AFCE001, 0x7AFCE002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7AFCE001, 0x7AFCE003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7AFCE001, 0x7AFCE004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AFCE001, 0x7AFCE005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7AFCE001, 0x7AFCE006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AFCE001, 0x7AFCE007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7AFCE001, 0x7AFCE008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AFCE001, 0x7AFCE009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AFCE001, 0x7AFCE00A, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7AFCE001, 0x7AFCE00B, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFCE002,  2564, 0xAFCE0028, 117.9874, 188.5103, 114.2567, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -61,8 +61,8 @@ VALUES (0x7AFCE00C,  1542, 0xAFCE002E, 138.123, 120.7201, 129.322, 0.9877344, 0,
 /* @teleloc 0xAFCE002E [138.123000 120.720100 129.322000] 0.987734 0.000000 0.000000 -0.156144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFCE00C, 0x7AFCE00D, '2019-02-10 00:00:00') /* Rock */
-     , (0x7AFCE00C, 0x7AFCE00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AFCE00C, 0x7AFCE00D, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7AFCE00C, 0x7AFCE00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFCE00D, 42528, 0xAFCE002E, 138.123, 120.7201, 129.322, 0.9877344, 0, 0, -0.1561435,  True, '2019-02-10 00:00:00'); /* Rock */

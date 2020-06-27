@@ -209,64 +209,64 @@ VALUES (0x758670B9,  1154, 0x58670290, 200, -110, 0.004999995, 0.6967069, 0, 0, 
 /* @teleloc 0x58670290 [200.000000 -110.000000 0.005000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670B9, 0x758670BA, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670BB, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670BC, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670BD, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670BE, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670BF, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670C0, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670C1, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670C2, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670C3, '2019-02-10 00:00:00') /* Simulacrum Shifter */
-     , (0x758670B9, 0x758670C4, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x758670B9, 0x758670C5, '2019-02-10 00:00:00') /* Maryata bint Daris the Barkeep */
-     , (0x758670B9, 0x758670C6, '2019-02-10 00:00:00') /* Ruza bint Tinun the Armorer */
-     , (0x758670B9, 0x758670C7, '2019-02-10 00:00:00') /* Archmage Sammam al-Ashiz */
-     , (0x758670B9, 0x758670C8, '2019-02-10 00:00:00') /* Ulib ibn Ghunir the Weaponsmith */
-     , (0x758670B9, 0x758670C9, '2019-02-10 00:00:00') /* Tailor Istima al-Mahat */
-     , (0x758670B9, 0x758670CA, '2019-02-10 00:00:00') /* Waham ibn Fadyat the Shopkeeper */
-     , (0x758670B9, 0x758670CB, '2019-02-10 00:00:00') /* Barshid al-Juhir the Scribe */
-     , (0x758670B9, 0x758670CC, '2019-02-10 00:00:00') /* Adraha bint Safsan the Appraiser */
-     , (0x758670B9, 0x758670CD, '2019-02-10 00:00:00') /* Yahr ibn Ajaj the Bowyer */
-     , (0x758670B9, 0x758670CE, '2019-02-10 00:00:00') /* Ziya bint Balun the Grocer */
-     , (0x758670B9, 0x758670CF, '2019-02-10 00:00:00') /* Nashima al-Haruq the Healer */
-     , (0x758670B9, 0x758670D0, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670D1, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670D2, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670D3, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670D4, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670D5, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670D6, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670D7, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670D8, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670D9, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670DA, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670DB, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670DC, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670DD, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x758670B9, 0x758670DE, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670DF, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x758670B9, 0x758670E0, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x758670B9, 0x758670E1, '2019-02-10 00:00:00') /* Simulacrum Shifter */
-     , (0x758670B9, 0x758670E2, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x758670B9, 0x758670E3, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670E4, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670E5, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x758670B9, 0x758670E6, '2019-02-10 00:00:00') /* Simulacrum Emulat */
-     , (0x758670B9, 0x758670E7, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670E8, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x758670B9, 0x758670E9, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670EA, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670EB, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670EC, '2019-02-10 00:00:00') /* Simulacrum Mimic */
-     , (0x758670B9, 0x758670ED, '2019-02-10 00:00:00') /* Virindi Signat */
-     , (0x758670B9, 0x758670EE, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670EF, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670F0, '2019-02-10 00:00:00') /* Virindi Fulguris */
-     , (0x758670B9, 0x758670F1, '2019-02-10 00:00:00') /* Hollow Reaver */
-     , (0x758670B9, 0x758670F2, '2019-02-10 00:00:00') /* Simulacrum Shifter */
-     , (0x758670B9, 0x758670F3, '2019-02-10 00:00:00') /* Elemental Protector */;
+VALUES (0x758670B9, 0x758670BA, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670BB, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670BC, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BD, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670BF, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670C0, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670C1, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670C2, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670C3, '2019-02-10 00:00:00') /* Simulacrum Shifter (49641) */
+     , (0x758670B9, 0x758670C4, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x758670B9, 0x758670C5, '2019-02-10 00:00:00') /* Maryata bint Daris the Barkeep (49648) */
+     , (0x758670B9, 0x758670C6, '2019-02-10 00:00:00') /* Ruza bint Tinun the Armorer (49646) */
+     , (0x758670B9, 0x758670C7, '2019-02-10 00:00:00') /* Archmage Sammam al-Ashiz (49647) */
+     , (0x758670B9, 0x758670C8, '2019-02-10 00:00:00') /* Ulib ibn Ghunir the Weaponsmith (49656) */
+     , (0x758670B9, 0x758670C9, '2019-02-10 00:00:00') /* Tailor Istima al-Mahat (49655) */
+     , (0x758670B9, 0x758670CA, '2019-02-10 00:00:00') /* Waham ibn Fadyat the Shopkeeper (49654) */
+     , (0x758670B9, 0x758670CB, '2019-02-10 00:00:00') /* Barshid al-Juhir the Scribe (49653) */
+     , (0x758670B9, 0x758670CC, '2019-02-10 00:00:00') /* Adraha bint Safsan the Appraiser (49652) */
+     , (0x758670B9, 0x758670CD, '2019-02-10 00:00:00') /* Yahr ibn Ajaj the Bowyer (49649) */
+     , (0x758670B9, 0x758670CE, '2019-02-10 00:00:00') /* Ziya bint Balun the Grocer (49651) */
+     , (0x758670B9, 0x758670CF, '2019-02-10 00:00:00') /* Nashima al-Haruq the Healer (49650) */
+     , (0x758670B9, 0x758670D0, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D1, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D2, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670D3, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670D4, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D5, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D6, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670D7, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670D8, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670D9, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670DA, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670DB, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670DC, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670DD, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670DE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670DF, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x758670B9, 0x758670E0, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x758670B9, 0x758670E1, '2019-02-10 00:00:00') /* Simulacrum Shifter (49641) */
+     , (0x758670B9, 0x758670E2, '2019-02-10 00:00:00') /* Elemental Protector (49637) */
+     , (0x758670B9, 0x758670E3, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E4, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E5, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670E6, '2019-02-10 00:00:00') /* Simulacrum Emulat (49611) */
+     , (0x758670B9, 0x758670E7, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670E8, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670E9, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670EA, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670EB, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670EC, '2019-02-10 00:00:00') /* Simulacrum Mimic (49614) */
+     , (0x758670B9, 0x758670ED, '2019-02-10 00:00:00') /* Virindi Signat (49616) */
+     , (0x758670B9, 0x758670EE, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670EF, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670F0, '2019-02-10 00:00:00') /* Virindi Fulguris (49615) */
+     , (0x758670B9, 0x758670F1, '2019-02-10 00:00:00') /* Hollow Reaver (49613) */
+     , (0x758670B9, 0x758670F2, '2019-02-10 00:00:00') /* Simulacrum Shifter (49641) */
+     , (0x758670B9, 0x758670F3, '2019-02-10 00:00:00') /* Elemental Protector (49637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670BA, 49611, 0x58670290, 200, -110, 0.004999995, 0.6967069, 0, 0, 0.7173559,  True, '2019-02-10 00:00:00'); /* Simulacrum Emulat */
@@ -505,9 +505,9 @@ VALUES (0x758670F4,  1154, 0x58670140, 171.511, -120, -59.971, 0.7071068, 0, 0, 
 /* @teleloc 0x58670140 [171.511000 -120.000000 -59.971000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670F4, 0x758670F5, '2019-02-10 00:00:00') /* Curator of Torment */
-     , (0x758670F4, 0x758670F6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x758670F4, 0x758670F7, '2019-02-10 00:00:00') /* Virindi Delegate */;
+VALUES (0x758670F4, 0x758670F5, '2019-02-10 00:00:00') /* Curator of Torment (49639) */
+     , (0x758670F4, 0x758670F6, '2019-02-10 00:00:00') /* Town Crier (49642) */
+     , (0x758670F4, 0x758670F7, '2019-02-10 00:00:00') /* Virindi Delegate (49638) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670F5, 49639, 0x58670140, 171.511, -120, -59.971, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Curator of Torment */
@@ -526,10 +526,10 @@ VALUES (0x758670F8,  1542, 0x5867026B, 177.296, -156.521, 0.079, 0.995004, 0, 0,
 /* @teleloc 0x5867026B [177.296000 -156.521000 0.079000] 0.995004 0.000000 0.000000 -0.099833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670F8, 0x758670F9, '2019-02-10 00:00:00') /* Dream Beacon */
-     , (0x758670F8, 0x758670FA, '2019-02-10 00:00:00') /* Portal Energy */
-     , (0x758670F8, 0x758670FB, '2019-02-10 00:00:00') /* Writ of Refuge */
-     , (0x758670F8, 0x758670FC, '2019-02-10 00:00:00') /* Major Mana Stone */;
+VALUES (0x758670F8, 0x758670F9, '2019-02-10 00:00:00') /* Dream Beacon (49643) */
+     , (0x758670F8, 0x758670FA, '2019-02-10 00:00:00') /* Portal Energy (46451) */
+     , (0x758670F8, 0x758670FB, '2019-02-10 00:00:00') /* Writ of Refuge (11710) */
+     , (0x758670F8, 0x758670FC, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670F9, 49643, 0x5867026B, 177.296, -156.521, 0.079, 0.995004, 0, 0, -0.0998331,  True, '2019-02-10 00:00:00'); /* Dream Beacon */

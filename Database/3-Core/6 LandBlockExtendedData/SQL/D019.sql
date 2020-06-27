@@ -5,9 +5,9 @@ VALUES (0x7D019001,  1154, 0xD0190021, 105.6958, 23.9958, 75.99725, 0.2092187, 0
 /* @teleloc 0xD0190021 [105.695800 23.995800 75.997250] 0.209219 0.000000 0.000000 -0.977869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D019001, 0x7D019002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7D019001, 0x7D019003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D019001, 0x7D019004, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x7D019001, 0x7D019002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7D019001, 0x7D019003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D019001, 0x7D019004, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D019002,  8968, 0xD0190021, 105.6958, 23.9958, 75.99725, 0.2092187, 0, 0, -0.9778689,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

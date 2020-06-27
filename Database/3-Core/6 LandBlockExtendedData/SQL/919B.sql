@@ -5,10 +5,10 @@ VALUES (0x7919B001,  1154, 0x919B0030, 121.0876, 189.6185, 166.8077, 0.7071068, 
 /* @teleloc 0x919B0030 [121.087600 189.618500 166.807700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7919B001, 0x7919B002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7919B001, 0x7919B003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7919B001, 0x7919B004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7919B001, 0x7919B005, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x7919B001, 0x7919B002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7919B001, 0x7919B003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7919B001, 0x7919B004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7919B001, 0x7919B005, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7919B002,  1627, 0x919B0030, 121.0876, 189.6185, 166.8077, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -31,8 +31,8 @@ VALUES (0x7919B006,  1542, 0x919B0007, 11.34046, 163.9694, 151.171, 1, 0, 0, 0, 
 /* @teleloc 0x919B0007 [11.340460 163.969400 151.171000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7919B006, 0x7919B007, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7919B006, 0x7919B008, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7919B006, 0x7919B007, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7919B006, 0x7919B008, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7919B007,  8232, 0x919B0007, 11.34046, 163.9694, 151.171, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

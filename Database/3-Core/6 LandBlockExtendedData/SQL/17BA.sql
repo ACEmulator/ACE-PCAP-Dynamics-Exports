@@ -5,9 +5,9 @@ VALUES (0x717BA001,  1154, 0x17BA0019, 82.12367, 14.77763, 22.37883, 0.6059879, 
 /* @teleloc 0x17BA0019 [82.123670 14.777630 22.378830] 0.605988 0.000000 0.000000 -0.795474 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717BA001, 0x717BA002, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x717BA001, 0x717BA003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x717BA001, 0x717BA004, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x717BA001, 0x717BA002, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x717BA001, 0x717BA003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x717BA001, 0x717BA004, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717BA002, 11491, 0x17BA0019, 82.12367, 14.77763, 22.37883, 0.6059879, 0, 0, -0.7954739,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
@@ -26,8 +26,8 @@ VALUES (0x717BA005,  1542, 0x17BA0020, 87.54433, 171.566, 22.46747, 1, 0, 0, 0, 
 /* @teleloc 0x17BA0020 [87.544330 171.566000 22.467470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717BA005, 0x717BA006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x717BA005, 0x717BA007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x717BA005, 0x717BA006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x717BA005, 0x717BA007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717BA006,  9024, 0x17BA0020, 87.54433, 171.566, 22.46747, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,11 +5,11 @@ VALUES (0x7816A001,  1154, 0x816A0040, 184.5065, 175.8297, 15.11616, -0.3414222,
 /* @teleloc 0x816A0040 [184.506500 175.829700 15.116160] -0.341422 0.000000 0.000000 -0.939910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7816A001, 0x7816A002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7816A001, 0x7816A003, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7816A001, 0x7816A004, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7816A001, 0x7816A005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7816A001, 0x7816A006, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7816A001, 0x7816A002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7816A001, 0x7816A003, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7816A001, 0x7816A004, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7816A001, 0x7816A005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7816A001, 0x7816A006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7816A002,  1766, 0x816A0040, 184.5065, 175.8297, 15.11616, -0.3414222, 0, 0, -0.9399101,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

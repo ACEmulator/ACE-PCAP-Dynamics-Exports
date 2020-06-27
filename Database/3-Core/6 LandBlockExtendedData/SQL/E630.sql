@@ -9,16 +9,16 @@ VALUES (0x7E630001,  1154, 0xE630000B, 43.48766, 48.28771, 115.0348, -0.7223149,
 /* @teleloc 0xE630000B [43.487660 48.287710 115.034800] -0.722315 0.000000 0.000000 -0.691564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E630001, 0x7E630002, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E630001, 0x7E630003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7E630001, 0x7E630004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7E630001, 0x7E630005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7E630001, 0x7E630006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E630001, 0x7E630007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E630001, 0x7E630008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E630001, 0x7E630009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E630001, 0x7E63000A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E630001, 0x7E63000B, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x7E630001, 0x7E630002, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E630001, 0x7E630003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7E630001, 0x7E630004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7E630001, 0x7E630005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7E630001, 0x7E630006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E630001, 0x7E630007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E630001, 0x7E630008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E630001, 0x7E630009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E630001, 0x7E63000A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E630001, 0x7E63000B, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E630002,  7992, 0xE630000B, 43.48766, 48.28771, 115.0348, -0.7223149, 0, 0, -0.6915643,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */

@@ -9,8 +9,8 @@ VALUES (0x7B652001,  1154, 0xB6520037, 158.3251, 152.5635, 6.716125, 0.9322473, 
 /* @teleloc 0xB6520037 [158.325100 152.563500 6.716125] 0.932247 0.000000 0.000000 -0.361822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B652001, 0x7B652002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B652001, 0x7B652003, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7B652001, 0x7B652002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B652001, 0x7B652003, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B652002, 22208, 0xB6520037, 158.3251, 152.5635, 6.716125, 0.9322473, 0, 0, -0.3618216,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

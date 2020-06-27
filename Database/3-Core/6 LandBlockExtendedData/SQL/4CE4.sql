@@ -5,17 +5,17 @@ VALUES (0x74CE4001,  1154, 0x4CE4000C, 47.93042, 79.46617, 40.75119, 0.7071068, 
 /* @teleloc 0x4CE4000C [47.930420 79.466170 40.751190] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CE4001, 0x74CE4002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CE4001, 0x74CE4003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74CE4001, 0x74CE4004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CE4001, 0x74CE4005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CE4001, 0x74CE4006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74CE4001, 0x74CE4007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CE4001, 0x74CE4008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CE4001, 0x74CE4009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CE4001, 0x74CE400A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74CE4001, 0x74CE400B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74CE4001, 0x74CE400C, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x74CE4001, 0x74CE4002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CE4001, 0x74CE4003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74CE4001, 0x74CE4004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CE4001, 0x74CE4005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CE4001, 0x74CE4006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74CE4001, 0x74CE4007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CE4001, 0x74CE4008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CE4001, 0x74CE4009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CE4001, 0x74CE400A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74CE4001, 0x74CE400B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74CE4001, 0x74CE400C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE4002,  7086, 0x4CE4000C, 47.93042, 79.46617, 40.75119, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -66,8 +66,8 @@ VALUES (0x74CE400D,  1542, 0x4CE4000C, 43.85302, 78.85278, 40.16671, 0.9990482, 
 /* @teleloc 0x4CE4000C [43.853020 78.852780 40.166710] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CE400D, 0x74CE400E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74CE400D, 0x74CE400F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74CE400D, 0x74CE400E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74CE400D, 0x74CE400F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE400E,  4179, 0x4CE4000C, 43.85302, 78.85278, 40.16671, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

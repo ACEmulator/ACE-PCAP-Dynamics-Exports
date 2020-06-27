@@ -5,24 +5,24 @@ VALUES (0x743EE001,  1154, 0x43EE000D, 42.00059, 96.22651, 40.0066, 0.14003, 0, 
 /* @teleloc 0x43EE000D [42.000590 96.226510 40.006600] 0.140030 0.000000 0.000000 -0.990147 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743EE001, 0x743EE002, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x743EE001, 0x743EE003, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x743EE001, 0x743EE004, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x743EE001, 0x743EE005, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x743EE001, 0x743EE006, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x743EE001, 0x743EE007, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x743EE001, 0x743EE008, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x743EE001, 0x743EE009, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x743EE001, 0x743EE00A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x743EE001, 0x743EE00B, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x743EE001, 0x743EE00C, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x743EE001, 0x743EE00D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x743EE001, 0x743EE00E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x743EE001, 0x743EE00F, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x743EE001, 0x743EE010, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x743EE001, 0x743EE011, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x743EE001, 0x743EE012, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x743EE001, 0x743EE013, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x743EE001, 0x743EE002, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x743EE001, 0x743EE003, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x743EE001, 0x743EE004, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x743EE001, 0x743EE005, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x743EE001, 0x743EE006, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x743EE001, 0x743EE007, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x743EE001, 0x743EE008, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x743EE001, 0x743EE009, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x743EE001, 0x743EE00A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x743EE001, 0x743EE00B, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x743EE001, 0x743EE00C, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x743EE001, 0x743EE00D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x743EE001, 0x743EE00E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x743EE001, 0x743EE00F, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x743EE001, 0x743EE010, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x743EE001, 0x743EE011, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x743EE001, 0x743EE012, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x743EE001, 0x743EE013, '2019-02-10 00:00:00') /* Banderling Savage (24276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743EE002, 29343, 0x43EE000D, 42.00059, 96.22651, 40.0066, 0.14003, 0, 0, -0.9901473,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */
@@ -101,7 +101,7 @@ VALUES (0x743EE014,  1542, 0x43EE0002, 7.681297, 25.53743, 40, 0.6464482, 0, 0, 
 /* @teleloc 0x43EE0002 [7.681297 25.537430 40.000000] 0.646448 0.000000 0.000000 -0.762958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743EE014, 0x743EE015, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x743EE014, 0x743EE015, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743EE015, 31032, 0x43EE0002, 7.681297, 25.53743, 40, 0.6464482, 0, 0, -0.7629579,  True, '2019-02-10 00:00:00'); /* Snow Lily */

@@ -5,17 +5,17 @@ VALUES (0x7599E001,  1154, 0x599E0033, 152.7071, 54.19904, 34.12281, 0.2588191, 
 /* @teleloc 0x599E0033 [152.707100 54.199040 34.122810] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7599E001, 0x7599E002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7599E001, 0x7599E003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7599E001, 0x7599E004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7599E001, 0x7599E005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7599E001, 0x7599E006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7599E001, 0x7599E007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7599E001, 0x7599E008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7599E001, 0x7599E009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7599E001, 0x7599E00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7599E001, 0x7599E00B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7599E001, 0x7599E00C, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7599E001, 0x7599E002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7599E001, 0x7599E003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7599E001, 0x7599E004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7599E001, 0x7599E005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7599E001, 0x7599E006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7599E001, 0x7599E007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7599E001, 0x7599E008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7599E001, 0x7599E009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7599E001, 0x7599E00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7599E001, 0x7599E00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7599E001, 0x7599E00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7599E002, 24289, 0x599E0033, 152.7071, 54.19904, 34.12281, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -66,7 +66,7 @@ VALUES (0x7599E00D,  1542, 0x599E0033, 154.1053, 51.15541, 39.73822, -4.371139E-
 /* @teleloc 0x599E0033 [154.105300 51.155410 39.738220] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7599E00D, 0x7599E00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7599E00D, 0x7599E00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7599E00E,  4380, 0x599E0033, 154.1053, 51.15541, 39.73822, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

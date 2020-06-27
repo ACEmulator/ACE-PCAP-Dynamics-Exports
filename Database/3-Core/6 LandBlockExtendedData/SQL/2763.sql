@@ -5,16 +5,16 @@ VALUES (0x72763001,  1154, 0x2763001E, 74.815, 126.0856, 102.1402, -0.9930055, 0
 /* @teleloc 0x2763001E [74.815000 126.085600 102.140200] -0.993006 0.000000 0.000000 -0.118068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72763001, 0x72763002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72763001, 0x72763003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72763001, 0x72763004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72763001, 0x72763005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72763001, 0x72763006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72763001, 0x72763007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72763001, 0x72763008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72763001, 0x72763009, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72763001, 0x7276300A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72763001, 0x7276300B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72763001, 0x72763002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72763001, 0x72763003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72763001, 0x72763004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72763001, 0x72763005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72763001, 0x72763006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72763001, 0x72763007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72763001, 0x72763008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72763001, 0x72763009, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72763001, 0x7276300A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72763001, 0x7276300B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72763002, 33309, 0x2763001E, 74.815, 126.0856, 102.1402, -0.9930055, 0, 0, -0.1180682,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
@@ -61,7 +61,7 @@ VALUES (0x7276300C,  1542, 0x27630004, 16.97297, 80.12785, 73.68962, 1, 0, 0, 0,
 /* @teleloc 0x27630004 [16.972970 80.127850 73.689620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7276300C, 0x7276300D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7276300C, 0x7276300D, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7276300D, 22571, 0x27630004, 16.97297, 80.12785, 73.68962, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

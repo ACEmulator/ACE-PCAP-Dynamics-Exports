@@ -5,29 +5,29 @@ VALUES (0x7BB66001,  1154, 0xBB660101, 34.6343, 39.0178, 8.0055, 0.62299, 0, 0, 
 /* @teleloc 0xBB660101 [34.634300 39.017800 8.005500] 0.622990 0.000000 0.000000 -0.782230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB66001, 0x7BB66002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB66001, 0x7BB66003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB66001, 0x7BB66004, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BB66001, 0x7BB66005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB66001, 0x7BB66006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB66001, 0x7BB66007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB66001, 0x7BB6600A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB66001, 0x7BB6600B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB6600C, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BB66001, 0x7BB6600D, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB66001, 0x7BB6600E, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BB66001, 0x7BB6600F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66010, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66011, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB66001, 0x7BB66013, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BB66001, 0x7BB66014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB66001, 0x7BB66015, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BB66001, 0x7BB66016, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB66001, 0x7BB66017, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB66001, 0x7BB66018, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7BB66001, 0x7BB66002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB66001, 0x7BB66003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB66001, 0x7BB66004, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB66001, 0x7BB66005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB66001, 0x7BB66006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB66001, 0x7BB66007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB66001, 0x7BB6600A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB66001, 0x7BB6600B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB6600C, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BB66001, 0x7BB6600D, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB66001, 0x7BB6600E, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BB66001, 0x7BB6600F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66010, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66011, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB66001, 0x7BB66013, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BB66001, 0x7BB66014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB66001, 0x7BB66015, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB66001, 0x7BB66016, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB66001, 0x7BB66017, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB66001, 0x7BB66018, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB66002,   211, 0xBB660101, 34.6343, 39.0178, 8.0055, 0.62299, 0, 0, -0.78223,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -126,7 +126,7 @@ VALUES (0x7BB66019,  1542, 0xBB660026, 111.5388, 134.866, 6, 0.8870109, 0, 0, -0
 /* @teleloc 0xBB660026 [111.538800 134.866000 6.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB66019, 0x7BB6601A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BB66019, 0x7BB6601A, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB6601A,  4379, 0xBB660026, 111.5388, 134.866, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Bones */

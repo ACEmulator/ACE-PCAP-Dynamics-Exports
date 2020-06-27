@@ -5,14 +5,14 @@ VALUES (0x788AC001,  1154, 0x88AC0021, 98.99184, 7.785512, 69.36111, 0.03332506,
 /* @teleloc 0x88AC0021 [98.991840 7.785512 69.361110] 0.033325 0.000000 0.000000 -0.999445 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788AC001, 0x788AC002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x788AC001, 0x788AC003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x788AC001, 0x788AC004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x788AC001, 0x788AC005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x788AC001, 0x788AC006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x788AC001, 0x788AC007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x788AC001, 0x788AC008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x788AC001, 0x788AC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x788AC001, 0x788AC002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x788AC001, 0x788AC003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x788AC001, 0x788AC004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x788AC001, 0x788AC005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x788AC001, 0x788AC006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x788AC001, 0x788AC007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x788AC001, 0x788AC008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x788AC001, 0x788AC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788AC002, 22519, 0x88AC0021, 98.99184, 7.785512, 69.36111, 0.03332506, 0, 0, -0.9994445,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -51,8 +51,8 @@ VALUES (0x788AC00A,  1542, 0x88AC0032, 147.6438, 31.83311, 62.39083, -0.905568, 
 /* @teleloc 0x88AC0032 [147.643800 31.833110 62.390830] -0.905568 0.000000 0.000000 -0.424201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788AC00A, 0x788AC00B, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x788AC00A, 0x788AC00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x788AC00A, 0x788AC00B, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x788AC00A, 0x788AC00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788AC00B, 11554, 0x88AC0032, 147.6438, 31.83311, 62.39083, -0.905568, 0, 0, -0.4242011,  True, '2019-02-10 00:00:00'); /* Colban Plant */

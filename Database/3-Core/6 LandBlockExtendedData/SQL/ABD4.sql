@@ -5,10 +5,10 @@ VALUES (0x7ABD4001,  1154, 0xABD40035, 156.7278, 105.1528, 97.42213, 0.4128968, 
 /* @teleloc 0xABD40035 [156.727800 105.152800 97.422130] 0.412897 0.000000 0.000000 -0.910778 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABD4001, 0x7ABD4002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ABD4001, 0x7ABD4003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7ABD4001, 0x7ABD4004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7ABD4001, 0x7ABD4005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7ABD4001, 0x7ABD4002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ABD4001, 0x7ABD4003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7ABD4001, 0x7ABD4004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7ABD4001, 0x7ABD4005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABD4002,  4217, 0xABD40035, 156.7278, 105.1528, 97.42213, 0.4128968, 0, 0, -0.9107778,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

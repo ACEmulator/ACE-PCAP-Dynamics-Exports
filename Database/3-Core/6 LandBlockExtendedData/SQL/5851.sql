@@ -37,94 +37,94 @@ VALUES (0x7585108A,  1154, 0x58510114, 16.6353, -40.4183, 6.0065, -0.7048633, 0,
 /* @teleloc 0x58510114 [16.635300 -40.418300 6.006500] -0.704863 0.000000 0.000000 0.709343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7585108A, 0x7585108B, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585108C, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585108D, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585108E, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585108F, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x75851090, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x75851091, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x75851092, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x75851093, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x7585108A, 0x75851094, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x7585108A, 0x75851095, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x75851096, '2019-02-10 00:00:00') /* Ancient Water Golem */
-     , (0x7585108A, 0x75851097, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x75851098, '2019-02-10 00:00:00') /* Ancient Water Golem */
-     , (0x7585108A, 0x75851099, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x7585109A, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585109B, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585109C, '2019-02-10 00:00:00') /* Ancient Mud Golem */
-     , (0x7585108A, 0x7585109D, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x7585109E, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x7585109F, '2019-02-10 00:00:00') /* Ancient Mud Golem */
-     , (0x7585108A, 0x758510A0, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510A1, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510A2, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510A3, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510A4, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510A5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510A6, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510A7, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510A8, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510A9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510AA, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510AB, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510AC, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510AD, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510AE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510AF, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510B0, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510B1, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510B2, '2019-02-10 00:00:00') /* Ancient Mud Golem */
-     , (0x7585108A, 0x758510B3, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510B4, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510B5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510B6, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510B7, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510B8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510B9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510BA, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510BB, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510BC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510BD, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510BE, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510BF, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510C0, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x7585108A, 0x758510C1, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510C2, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x7585108A, 0x758510C3, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x7585108A, 0x758510C4, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510C5, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510C6, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510C7, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510C8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510C9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510CA, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510CB, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510CC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510CD, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510CE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510CF, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510D0, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510D1, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510D2, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510D3, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510D4, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510D5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510D6, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510D7, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510D8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510D9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510DA, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x7585108A, 0x758510DB, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510DC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510DD, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510DE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510DF, '2019-02-10 00:00:00') /* Rage Wisp */
-     , (0x7585108A, 0x758510E0, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x7585108A, 0x758510E1, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight */
-     , (0x7585108A, 0x758510E2, '2019-02-10 00:00:00') /* Ancient Luminary Knight */;
+VALUES (0x7585108A, 0x7585108B, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585108C, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585108D, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585108E, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585108F, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x75851090, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x75851091, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x75851092, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x75851093, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x7585108A, 0x75851094, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x7585108A, 0x75851095, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x75851096, '2019-02-10 00:00:00') /* Ancient Water Golem (46936) */
+     , (0x7585108A, 0x75851097, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x75851098, '2019-02-10 00:00:00') /* Ancient Water Golem (46936) */
+     , (0x7585108A, 0x75851099, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x7585109A, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585109B, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585109C, '2019-02-10 00:00:00') /* Ancient Mud Golem (46934) */
+     , (0x7585108A, 0x7585109D, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x7585109E, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x7585109F, '2019-02-10 00:00:00') /* Ancient Mud Golem (46934) */
+     , (0x7585108A, 0x758510A0, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510A1, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510A2, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510A3, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510A4, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510A5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510A6, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510A7, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510A8, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510A9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510AA, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510AB, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510AC, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510AD, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510AE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510AF, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510B0, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510B1, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510B2, '2019-02-10 00:00:00') /* Ancient Mud Golem (46934) */
+     , (0x7585108A, 0x758510B3, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510B4, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510B5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510B6, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510B7, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510B8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510B9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510BA, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510BB, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510BC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510BD, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510BE, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510BF, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510C0, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x7585108A, 0x758510C1, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510C2, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x7585108A, 0x758510C3, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x7585108A, 0x758510C4, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510C5, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510C6, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510C7, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510C8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510C9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510CA, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510CB, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510CC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510CD, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510CE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510CF, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510D0, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510D1, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510D2, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510D3, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510D4, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510D5, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510D6, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510D7, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510D8, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510D9, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510DA, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x7585108A, 0x758510DB, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510DC, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510DD, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510DE, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510DF, '2019-02-10 00:00:00') /* Rage Wisp (46951) */
+     , (0x7585108A, 0x758510E0, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x7585108A, 0x758510E1, '2019-02-10 00:00:00') /* Ancient Tenebrous Knight (46933) */
+     , (0x7585108A, 0x758510E2, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7585108B, 46951, 0x58510114, 16.6353, -40.4183, 6.0065, -0.7048633, 0, 0, 0.7093433,  True, '2019-02-10 00:00:00'); /* Rage Wisp */
@@ -483,7 +483,7 @@ VALUES (0x758510E3,  1154, 0x585103BA, 22.458, -16.2086, 84.012, 0.04339101, 0, 
 /* @teleloc 0x585103BA [22.458000 -16.208600 84.012000] 0.043391 0.000000 0.000000 0.999058 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758510E3, 0x758510E4, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x758510E3, 0x758510E4, '2019-02-10 00:00:00') /* Platinum Golem (46952) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758510E4, 46952, 0x585103BA, 22.458, -16.2086, 84.012, 0.04339101, 0, 0, 0.9990582,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -494,8 +494,8 @@ VALUES (0x758510E5,  1542, 0x585103A2, 53.14489, -60.13889, 77.9975, 0.7189358, 
 /* @teleloc 0x585103A2 [53.144890 -60.138890 77.997500] 0.718936 0.000000 0.000000 -0.695077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758510E5, 0x758510E6, '2019-02-10 00:00:00') /* Scalemail Cuirass */
-     , (0x758510E5, 0x758510E7, '2019-02-10 00:00:00') /* Pack T'thuun */;
+VALUES (0x758510E5, 0x758510E6, '2019-02-10 00:00:00') /* Scalemail Cuirass (52) */
+     , (0x758510E5, 0x758510E7, '2019-02-10 00:00:00') /* Pack T'thuun (39369) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758510E6,    52, 0x585103A2, 53.14489, -60.13889, 77.9975, 0.7189358, 0, 0, -0.6950765,  True, '2019-02-10 00:00:00'); /* Scalemail Cuirass */

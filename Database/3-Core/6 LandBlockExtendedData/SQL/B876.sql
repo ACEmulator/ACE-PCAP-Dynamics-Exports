@@ -5,14 +5,14 @@ VALUES (0x7B876001,  1154, 0xB8760022, 114.5793, 29.95239, 41.44798, -0.6386624,
 /* @teleloc 0xB8760022 [114.579300 29.952390 41.447980] -0.638662 0.000000 0.000000 -0.769487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B876001, 0x7B876002, '2019-02-10 00:00:00') /* Static */
-     , (0x7B876001, 0x7B876003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B876001, 0x7B876004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B876001, 0x7B876005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B876001, 0x7B876006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B876001, 0x7B876007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B876001, 0x7B876008, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B876001, 0x7B876009, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B876001, 0x7B876002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B876001, 0x7B876003, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B876001, 0x7B876004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B876001, 0x7B876005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B876001, 0x7B876006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B876001, 0x7B876007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B876001, 0x7B876008, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B876001, 0x7B876009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B876002,  6382, 0xB8760022, 114.5793, 29.95239, 41.44798, -0.6386624, 0, 0, -0.769487,  True, '2019-02-10 00:00:00'); /* Static */
@@ -51,7 +51,7 @@ VALUES (0x7B87600A,  1542, 0xB876001E, 80.52165, 140.4683, 37.75697, 1, 0, 0, 0,
 /* @teleloc 0xB876001E [80.521650 140.468300 37.756970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B87600A, 0x7B87600B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B87600A, 0x7B87600B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B87600B,  4179, 0xB876001E, 80.52165, 140.4683, 37.75697, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

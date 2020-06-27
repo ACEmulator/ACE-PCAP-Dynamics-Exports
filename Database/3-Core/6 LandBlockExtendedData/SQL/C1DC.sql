@@ -5,14 +5,14 @@ VALUES (0x7C1DC001,  1154, 0xC1DC000D, 42.86877, 101.1718, 56.8174, 0.9847927, 0
 /* @teleloc 0xC1DC000D [42.868770 101.171800 56.817400] 0.984793 0.000000 0.000000 -0.173733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1DC001, 0x7C1DC002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7C1DC001, 0x7C1DC003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C1DC001, 0x7C1DC004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C1DC001, 0x7C1DC005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7C1DC001, 0x7C1DC006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C1DC001, 0x7C1DC007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C1DC001, 0x7C1DC008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C1DC001, 0x7C1DC009, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7C1DC001, 0x7C1DC002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7C1DC001, 0x7C1DC003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C1DC001, 0x7C1DC004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C1DC001, 0x7C1DC005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7C1DC001, 0x7C1DC006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C1DC001, 0x7C1DC007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C1DC001, 0x7C1DC008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C1DC001, 0x7C1DC009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1DC002, 24294, 0xC1DC000D, 42.86877, 101.1718, 56.8174, 0.9847927, 0, 0, -0.1737334,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7C1DC00A,  1542, 0xC1DC0026, 100.0452, 132.475, 44.88126, 0.05714397, 
 /* @teleloc 0xC1DC0026 [100.045200 132.475000 44.881260] 0.057144 0.000000 0.000000 -0.998366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1DC00A, 0x7C1DC00B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7C1DC00A, 0x7C1DC00B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1DC00B,  8041, 0xC1DC0026, 100.0452, 132.475, 44.88126, 0.05714397, 0, 0, -0.9983659,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

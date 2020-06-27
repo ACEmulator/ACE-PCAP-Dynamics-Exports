@@ -5,9 +5,9 @@ VALUES (0x766D3001,  1154, 0x66D3002E, 123.8738, 121.6284, 156.5199, -0.5458118,
 /* @teleloc 0x66D3002E [123.873800 121.628400 156.519900] -0.545812 0.000000 0.000000 -0.837908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766D3001, 0x766D3002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x766D3001, 0x766D3003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x766D3001, 0x766D3004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x766D3001, 0x766D3002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x766D3001, 0x766D3003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x766D3001, 0x766D3004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766D3002, 36833, 0x66D3002E, 123.8738, 121.6284, 156.5199, -0.5458118, 0, 0, -0.8379078,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

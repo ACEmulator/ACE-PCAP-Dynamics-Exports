@@ -5,12 +5,12 @@ VALUES (0x7406A001,  1154, 0x406A0019, 95.82334, 19.20091, 15.23571, -0.9539553,
 /* @teleloc 0x406A0019 [95.823340 19.200910 15.235710] -0.953955 0.000000 0.000000 -0.299949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7406A001, 0x7406A002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7406A001, 0x7406A003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7406A001, 0x7406A004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7406A001, 0x7406A005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7406A001, 0x7406A006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7406A001, 0x7406A007, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x7406A001, 0x7406A002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7406A001, 0x7406A003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7406A001, 0x7406A004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7406A001, 0x7406A005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7406A001, 0x7406A006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7406A001, 0x7406A007, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7406A002, 21551, 0x406A0019, 95.82334, 19.20091, 15.23571, -0.9539553, 0, 0, -0.2999488,  True, '2019-02-10 00:00:00'); /* Strife Wisp */

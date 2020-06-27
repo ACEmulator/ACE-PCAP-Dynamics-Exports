@@ -5,16 +5,16 @@ VALUES (0x7F879001,  1154, 0xF879003E, 177.5938, 121.7119, 9.373702, -0.1532878,
 /* @teleloc 0xF879003E [177.593800 121.711900 9.373702] -0.153288 0.000000 0.000000 -0.988182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F879001, 0x7F879002, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F879001, 0x7F879003, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F879001, 0x7F879004, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F879001, 0x7F879005, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F879001, 0x7F879006, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F879001, 0x7F879007, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F879001, 0x7F879008, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F879001, 0x7F879009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F879001, 0x7F87900A, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F879001, 0x7F87900B, '2019-02-10 00:00:00') /* Tuskie Tosser */;
+VALUES (0x7F879001, 0x7F879002, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F879001, 0x7F879003, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F879001, 0x7F879004, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F879001, 0x7F879005, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F879001, 0x7F879006, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F879001, 0x7F879007, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F879001, 0x7F879008, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F879001, 0x7F879009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F879001, 0x7F87900A, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F879001, 0x7F87900B, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F879002, 22748, 0xF879003E, 177.5938, 121.7119, 9.373702, -0.1532878, 0, 0, -0.9881816,  True, '2019-02-10 00:00:00'); /* Reedshark Stripling */

@@ -5,12 +5,12 @@ VALUES (0x7F92E001,  1154, 0xF92E0002, 8.870772, 40.07974, -0.09359992, -0.98650
 /* @teleloc 0xF92E0002 [8.870772 40.079740 -0.093600] -0.986506 0.000000 0.000000 -0.163725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92E001, 0x7F92E002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92E001, 0x7F92E003, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92E001, 0x7F92E004, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F92E001, 0x7F92E005, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F92E001, 0x7F92E006, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F92E001, 0x7F92E007, '2019-02-10 00:00:00') /* Bandit Mana Hunter */;
+VALUES (0x7F92E001, 0x7F92E002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92E001, 0x7F92E003, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92E001, 0x7F92E004, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F92E001, 0x7F92E005, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F92E001, 0x7F92E006, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F92E001, 0x7F92E007, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92E002, 40304, 0xF92E0002, 8.870772, 40.07974, -0.09359992, -0.986506, 0, 0, -0.1637249,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

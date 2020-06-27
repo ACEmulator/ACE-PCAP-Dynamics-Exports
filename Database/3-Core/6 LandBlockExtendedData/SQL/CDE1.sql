@@ -5,27 +5,27 @@ VALUES (0x7CDE1001,  1154, 0xCDE10005, 22.03701, 115.1589, -0.4488, 0.7182074, 0
 /* @teleloc 0xCDE10005 [22.037010 115.158900 -0.448800] 0.718207 0.000000 0.000000 -0.695829 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDE1001, 0x7CDE1002, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE1003, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CDE1001, 0x7CDE1004, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7CDE1001, 0x7CDE1005, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CDE1001, 0x7CDE1006, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CDE1001, 0x7CDE1007, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CDE1001, 0x7CDE1008, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7CDE1001, 0x7CDE1009, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7CDE1001, 0x7CDE100A, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE100B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CDE1001, 0x7CDE100C, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDE1001, 0x7CDE100D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CDE1001, 0x7CDE100E, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDE1001, 0x7CDE100F, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CDE1001, 0x7CDE1010, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE1011, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDE1001, 0x7CDE1012, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDE1001, 0x7CDE1013, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE1014, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE1015, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CDE1001, 0x7CDE1016, '2019-02-10 00:00:00') /* Shallows Gorger */;
+VALUES (0x7CDE1001, 0x7CDE1002, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDE1001, 0x7CDE1003, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CDE1001, 0x7CDE1004, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7CDE1001, 0x7CDE1005, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CDE1001, 0x7CDE1006, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CDE1001, 0x7CDE1007, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CDE1001, 0x7CDE1008, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7CDE1001, 0x7CDE1009, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7CDE1001, 0x7CDE100A, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDE1001, 0x7CDE100B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CDE1001, 0x7CDE100C, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDE1001, 0x7CDE100D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CDE1001, 0x7CDE100E, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDE1001, 0x7CDE100F, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CDE1001, 0x7CDE1010, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDE1001, 0x7CDE1011, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDE1001, 0x7CDE1012, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDE1001, 0x7CDE1013, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDE1001, 0x7CDE1014, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CDE1001, 0x7CDE1015, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CDE1001, 0x7CDE1016, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDE1002, 31910, 0xCDE10005, 22.03701, 115.1589, -0.4488, 0.7182074, 0, 0, -0.6958291,  True, '2019-02-10 00:00:00'); /* Shallows Shredder */

@@ -5,18 +5,18 @@ VALUES (0x7215C001,  1154, 0x215C0040, 185.8063, 171.8106, 35.32933, 0.7548018, 
 /* @teleloc 0x215C0040 [185.806300 171.810600 35.329330] 0.754802 0.000000 0.000000 -0.655953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215C001, 0x7215C002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7215C001, 0x7215C003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7215C001, 0x7215C004, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7215C001, 0x7215C005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7215C001, 0x7215C006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7215C001, 0x7215C007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7215C001, 0x7215C008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7215C001, 0x7215C009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7215C001, 0x7215C00A, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7215C001, 0x7215C00B, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7215C001, 0x7215C00C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7215C001, 0x7215C00D, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7215C001, 0x7215C002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7215C001, 0x7215C003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7215C001, 0x7215C004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7215C001, 0x7215C005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7215C001, 0x7215C006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7215C001, 0x7215C007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7215C001, 0x7215C008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7215C001, 0x7215C009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7215C001, 0x7215C00A, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7215C001, 0x7215C00B, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7215C001, 0x7215C00C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7215C001, 0x7215C00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215C002,  9264, 0x215C0040, 185.8063, 171.8106, 35.32933, 0.7548018, 0, 0, -0.6559529,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -71,9 +71,9 @@ VALUES (0x7215C00E,  1542, 0x215C0025, 115.186, 104.2007, 8.068761, -0.295759, 0
 /* @teleloc 0x215C0025 [115.186000 104.200700 8.068761] -0.295759 0.000000 0.000000 -0.955263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215C00E, 0x7215C00F, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x7215C00E, 0x7215C010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7215C00E, 0x7215C011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7215C00E, 0x7215C00F, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x7215C00E, 0x7215C010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7215C00E, 0x7215C011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215C00F, 11554, 0x215C0025, 115.186, 104.2007, 8.068761, -0.295759, 0, 0, -0.9552626,  True, '2019-02-10 00:00:00'); /* Colban Plant */

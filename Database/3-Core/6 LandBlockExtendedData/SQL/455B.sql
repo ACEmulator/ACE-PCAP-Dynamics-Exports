@@ -5,21 +5,21 @@ VALUES (0x7455B001,  1154, 0x455B002E, 127.943, 127.5446, -0.09399998, 1, 0, 0, 
 /* @teleloc 0x455B002E [127.943000 127.544600 -0.094000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455B001, 0x7455B002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7455B001, 0x7455B003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7455B001, 0x7455B004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7455B001, 0x7455B005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7455B001, 0x7455B006, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7455B001, 0x7455B007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7455B001, 0x7455B008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7455B001, 0x7455B009, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7455B001, 0x7455B00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7455B001, 0x7455B00B, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7455B001, 0x7455B00C, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7455B001, 0x7455B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7455B001, 0x7455B00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7455B001, 0x7455B00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7455B001, 0x7455B010, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x7455B001, 0x7455B002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7455B001, 0x7455B003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7455B001, 0x7455B004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7455B001, 0x7455B005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7455B001, 0x7455B006, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7455B001, 0x7455B007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7455B001, 0x7455B008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7455B001, 0x7455B009, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7455B001, 0x7455B00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7455B001, 0x7455B00B, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7455B001, 0x7455B00C, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7455B001, 0x7455B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7455B001, 0x7455B00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7455B001, 0x7455B00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7455B001, 0x7455B010, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455B002, 23566, 0x455B002E, 127.943, 127.5446, -0.09399998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -86,7 +86,7 @@ VALUES (0x7455B011,  1542, 0x455B002E, 128.7094, 129.8202, -0.102161, 1, 0, 0, 0
 /* @teleloc 0x455B002E [128.709400 129.820200 -0.102161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455B011, 0x7455B012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7455B011, 0x7455B012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455B012, 31445, 0x455B002E, 128.7094, 129.8202, -0.102161, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

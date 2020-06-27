@@ -5,10 +5,10 @@ VALUES (0x721E5001,  1154, 0x21E50040, 172.5821, 178.998, 128.8208, -0.2849965, 
 /* @teleloc 0x21E50040 [172.582100 178.998000 128.820800] -0.284997 0.000000 0.000000 -0.958529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721E5001, 0x721E5002, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x721E5001, 0x721E5003, '2019-02-10 00:00:00') /* Morel Thrungus */
-     , (0x721E5001, 0x721E5004, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x721E5001, 0x721E5005, '2019-02-10 00:00:00') /* Ruschk Shatterer */;
+VALUES (0x721E5001, 0x721E5002, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x721E5001, 0x721E5003, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */
+     , (0x721E5001, 0x721E5004, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x721E5001, 0x721E5005, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721E5002, 28672, 0x21E50040, 172.5821, 178.998, 128.8208, -0.2849965, 0, 0, -0.9585285,  True, '2019-02-10 00:00:00'); /* Button Thrungus */

@@ -5,18 +5,18 @@ VALUES (0x798A7001,  1154, 0x98A70037, 152.326, 146.2799, 54.08655, -0.9992034, 
 /* @teleloc 0x98A70037 [152.326000 146.279900 54.086550] -0.999203 0.000000 0.000000 -0.039908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798A7001, 0x798A7002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x798A7001, 0x798A7003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x798A7001, 0x798A7004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x798A7001, 0x798A7005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x798A7001, 0x798A7006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x798A7001, 0x798A7007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x798A7001, 0x798A7008, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x798A7001, 0x798A7009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x798A7001, 0x798A700A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x798A7001, 0x798A700B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x798A7001, 0x798A700C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x798A7001, 0x798A700D, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x798A7001, 0x798A7002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x798A7001, 0x798A7003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x798A7001, 0x798A7004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x798A7001, 0x798A7005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x798A7001, 0x798A7006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x798A7001, 0x798A7007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x798A7001, 0x798A7008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x798A7001, 0x798A7009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x798A7001, 0x798A700A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x798A7001, 0x798A700B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x798A7001, 0x798A700C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x798A7001, 0x798A700D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798A7002,  7978, 0x98A70037, 152.326, 146.2799, 54.08655, -0.9992034, 0, 0, -0.0399075,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

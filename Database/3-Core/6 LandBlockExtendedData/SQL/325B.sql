@@ -5,12 +5,12 @@ VALUES (0x7325B001,  1154, 0x325B0008, 20.68997, 172.4081, 15.08948, -0.9996521,
 /* @teleloc 0x325B0008 [20.689970 172.408100 15.089480] -0.999652 0.000000 0.000000 -0.026374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7325B001, 0x7325B002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7325B001, 0x7325B003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7325B001, 0x7325B004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7325B001, 0x7325B005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7325B001, 0x7325B006, '2019-02-10 00:00:00') /* Flare */
-     , (0x7325B001, 0x7325B007, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7325B001, 0x7325B002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7325B001, 0x7325B003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7325B001, 0x7325B004, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7325B001, 0x7325B005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7325B001, 0x7325B006, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7325B001, 0x7325B007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7325B002,  7092, 0x325B0008, 20.68997, 172.4081, 15.08948, -0.9996521, 0, 0, -0.02637429,  True, '2019-02-10 00:00:00'); /* Firestorm */

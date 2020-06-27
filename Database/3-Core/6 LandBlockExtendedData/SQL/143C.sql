@@ -5,24 +5,24 @@ VALUES (0x7143C001,  1154, 0x143C0009, 34.54459, 19.6452, 3.39345, 0.6993285, 0,
 /* @teleloc 0x143C0009 [34.544590 19.645200 3.393450] 0.699329 0.000000 0.000000 -0.714801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7143C001, 0x7143C002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7143C001, 0x7143C003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7143C001, 0x7143C004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7143C001, 0x7143C005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7143C001, 0x7143C006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7143C001, 0x7143C007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7143C001, 0x7143C008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7143C001, 0x7143C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7143C001, 0x7143C00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7143C001, 0x7143C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7143C001, 0x7143C00C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7143C001, 0x7143C00D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7143C001, 0x7143C00E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7143C001, 0x7143C00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7143C001, 0x7143C010, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7143C001, 0x7143C011, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7143C001, 0x7143C012, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7143C001, 0x7143C013, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x7143C001, 0x7143C002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7143C001, 0x7143C003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7143C001, 0x7143C004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7143C001, 0x7143C005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7143C001, 0x7143C006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7143C001, 0x7143C007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7143C001, 0x7143C008, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7143C001, 0x7143C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7143C001, 0x7143C00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7143C001, 0x7143C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7143C001, 0x7143C00C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7143C001, 0x7143C00D, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7143C001, 0x7143C00E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7143C001, 0x7143C00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7143C001, 0x7143C010, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7143C001, 0x7143C011, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7143C001, 0x7143C012, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7143C001, 0x7143C013, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7143C002,  7983, 0x143C0009, 34.54459, 19.6452, 3.39345, 0.6993285, 0, 0, -0.7148005,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
@@ -101,7 +101,7 @@ VALUES (0x7143C014,  1542, 0x143C0023, 105.0185, 71.85786, 1.22661, 0.6877168, 0
 /* @teleloc 0x143C0023 [105.018500 71.857860 1.226610] 0.687717 0.000000 0.000000 -0.725979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7143C014, 0x7143C015, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7143C014, 0x7143C015, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7143C015,  9288, 0x143C0023, 105.0185, 71.85786, 1.22661, 0.6877168, 0, 0, -0.7259791,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

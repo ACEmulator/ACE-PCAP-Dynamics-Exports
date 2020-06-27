@@ -5,13 +5,13 @@ VALUES (0x7B99B001,  1154, 0xB99B0010, 42.10344, 172.7986, 42.49588, -0.06752634
 /* @teleloc 0xB99B0010 [42.103440 172.798600 42.495880] -0.067526 0.000000 0.000000 -0.997718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B99B001, 0x7B99B002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B99B001, 0x7B99B003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B99B001, 0x7B99B004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B99B001, 0x7B99B005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B99B001, 0x7B99B006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B99B001, 0x7B99B007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B99B001, 0x7B99B008, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7B99B001, 0x7B99B002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B99B001, 0x7B99B003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B99B001, 0x7B99B004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B99B001, 0x7B99B005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B99B001, 0x7B99B006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B99B001, 0x7B99B007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B99B001, 0x7B99B008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99B002,  1614, 0xB99B0010, 42.10344, 172.7986, 42.49588, -0.06752634, 0, 0, -0.9977175,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

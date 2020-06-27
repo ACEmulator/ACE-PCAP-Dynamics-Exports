@@ -5,17 +5,17 @@ VALUES (0x72A35001,  1154, 0x2A350016, 63.59991, 126.6304, 92.55968, 0.7071068, 
 /* @teleloc 0x2A350016 [63.599910 126.630400 92.559680] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A35001, 0x72A35002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72A35001, 0x72A35003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72A35001, 0x72A35004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A35001, 0x72A35005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A35001, 0x72A35006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72A35001, 0x72A35007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72A35001, 0x72A35008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72A35001, 0x72A35009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A35001, 0x72A3500A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72A35001, 0x72A3500B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72A35001, 0x72A3500C, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72A35001, 0x72A35002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72A35001, 0x72A35003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72A35001, 0x72A35004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72A35001, 0x72A35005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A35001, 0x72A35006, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72A35001, 0x72A35007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72A35001, 0x72A35008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72A35001, 0x72A35009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A35001, 0x72A3500A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72A35001, 0x72A3500B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72A35001, 0x72A3500C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A35002, 36820, 0x2A350016, 63.59991, 126.6304, 92.55968, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -66,7 +66,7 @@ VALUES (0x72A3500D,  1542, 0x2A350015, 70.89478, 102.4881, 92, -4.371139E-08, 0,
 /* @teleloc 0x2A350015 [70.894780 102.488100 92.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A3500D, 0x72A3500E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72A3500D, 0x72A3500E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A3500E,  4380, 0x2A350015, 70.89478, 102.4881, 92, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

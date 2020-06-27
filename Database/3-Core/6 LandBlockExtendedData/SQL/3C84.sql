@@ -5,20 +5,20 @@ VALUES (0x73C84001,  1154, 0x3C840009, 45.96318, 1.055602, -0.4435, -0.6617261, 
 /* @teleloc 0x3C840009 [45.963180 1.055602 -0.443500] -0.661726 0.000000 0.000000 -0.749746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C84001, 0x73C84002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73C84001, 0x73C84003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73C84001, 0x73C84004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73C84001, 0x73C84005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C84001, 0x73C84006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C84001, 0x73C84007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C84001, 0x73C84008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73C84001, 0x73C84009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73C84001, 0x73C8400A, '2019-02-10 00:00:00') /* Brumal */
-     , (0x73C84001, 0x73C8400B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73C84001, 0x73C8400C, '2019-02-10 00:00:00') /* Horripal */
-     , (0x73C84001, 0x73C8400D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C84001, 0x73C8400E, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C84001, 0x73C8400F, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73C84001, 0x73C84002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73C84001, 0x73C84003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73C84001, 0x73C84004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73C84001, 0x73C84005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C84001, 0x73C84006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C84001, 0x73C84007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C84001, 0x73C84008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73C84001, 0x73C84009, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73C84001, 0x73C8400A, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x73C84001, 0x73C8400B, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73C84001, 0x73C8400C, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x73C84001, 0x73C8400D, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73C84001, 0x73C8400E, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73C84001, 0x73C8400F, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C84002, 21549, 0x3C840009, 45.96318, 1.055602, -0.4435, -0.6617261, 0, 0, -0.7497457,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -81,7 +81,7 @@ VALUES (0x73C84010,  1542, 0x3C840005, 9.732611, 114.4384, 13.9931, -4.371139E-0
 /* @teleloc 0x3C840005 [9.732611 114.438400 13.993100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C84010, 0x73C84011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73C84010, 0x73C84011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C84011,  4380, 0x3C840005, 9.732611, 114.4384, 13.9931, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

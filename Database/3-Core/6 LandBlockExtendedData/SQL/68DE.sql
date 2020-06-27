@@ -5,10 +5,10 @@ VALUES (0x768DE001,  1154, 0x68DE0037, 161.8522, 155.391, 96.90295, 0.3883584, 0
 /* @teleloc 0x68DE0037 [161.852200 155.391000 96.902950] 0.388358 0.000000 0.000000 -0.921508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768DE001, 0x768DE002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x768DE001, 0x768DE003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x768DE001, 0x768DE004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x768DE001, 0x768DE005, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x768DE001, 0x768DE002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x768DE001, 0x768DE003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x768DE001, 0x768DE004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x768DE001, 0x768DE005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768DE002, 23482, 0x68DE0037, 161.8522, 155.391, 96.90295, 0.3883584, 0, 0, -0.9215084,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

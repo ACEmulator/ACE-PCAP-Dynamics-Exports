@@ -5,76 +5,76 @@ VALUES (0x7F736001,  1154, 0xF7360033, 161.3496, 54.35587, 0.0004999638, -0.1282
 /* @teleloc 0xF7360033 [161.349600 54.355870 0.000500] -0.128235 0.000000 0.000000 -0.991744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F736001, 0x7F736002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736003, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F736001, 0x7F736004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736005, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F736001, 0x7F736007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736008, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F736001, 0x7F736009, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F736001, 0x7F73600A, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F736001, 0x7F73600B, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F736001, 0x7F73600C, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F73600D, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F736001, 0x7F73600E, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F736001, 0x7F73600F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736010, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736012, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F736001, 0x7F736013, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F736001, 0x7F736014, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736015, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736016, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736017, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F736001, 0x7F736018, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F736019, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F73601A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F73601B, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F736001, 0x7F73601C, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F73601D, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F73601E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F73601F, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F736001, 0x7F736020, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F736021, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F736022, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736023, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736024, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F736025, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736026, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736027, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F736001, 0x7F736028, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F736001, 0x7F736029, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F736001, 0x7F73602A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F736001, 0x7F73602B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F736001, 0x7F73602C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F73602D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F736001, 0x7F73602E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F73602F, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F736001, 0x7F736030, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F736001, 0x7F736031, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F736001, 0x7F736032, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736033, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F736001, 0x7F736034, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F736035, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F736036, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F736037, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F736001, 0x7F736038, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736039, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F73603A, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F73603B, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F736001, 0x7F73603C, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F73603D, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F73603E, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F73603F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736040, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736041, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F736001, 0x7F736042, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736043, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736044, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F736001, 0x7F736045, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F736001, 0x7F736046, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F736001, 0x7F736047, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7F736001, 0x7F736002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736003, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F736001, 0x7F736004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736005, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F736001, 0x7F736007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736008, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F736001, 0x7F736009, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F736001, 0x7F73600A, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F736001, 0x7F73600B, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F736001, 0x7F73600C, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F73600D, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F736001, 0x7F73600E, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F736001, 0x7F73600F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736010, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736012, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F736001, 0x7F736013, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F736001, 0x7F736014, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736015, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736016, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736017, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F736001, 0x7F736018, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F736019, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F73601A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F73601B, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F736001, 0x7F73601C, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F73601D, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F73601E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F73601F, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F736001, 0x7F736020, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F736021, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F736022, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736023, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736024, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F736025, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736026, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736027, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F736001, 0x7F736028, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F736001, 0x7F736029, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F736001, 0x7F73602A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F736001, 0x7F73602B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F736001, 0x7F73602C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F73602D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F736001, 0x7F73602E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F73602F, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F736001, 0x7F736030, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F736001, 0x7F736031, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F736001, 0x7F736032, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736033, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F736001, 0x7F736034, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F736035, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F736036, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F736037, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F736001, 0x7F736038, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736039, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F73603A, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F73603B, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F736001, 0x7F73603C, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F73603D, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F73603E, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F73603F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736040, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736041, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F736001, 0x7F736042, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736043, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736044, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F736001, 0x7F736045, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F736001, 0x7F736046, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F736001, 0x7F736047, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F736002, 40307, 0xF7360033, 161.3496, 54.35587, 0.0004999638, -0.128235, 0, 0, -0.9917438,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

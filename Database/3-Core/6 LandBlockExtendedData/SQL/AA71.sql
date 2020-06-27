@@ -5,12 +5,12 @@ VALUES (0x7AA71001,  1154, 0xAA71003B, 190.8088, 51.18713, 37.89264, -0.1736482,
 /* @teleloc 0xAA71003B [190.808800 51.187130 37.892640] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA71001, 0x7AA71002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AA71001, 0x7AA71003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AA71001, 0x7AA71004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AA71001, 0x7AA71005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7AA71001, 0x7AA71006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AA71001, 0x7AA71007, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AA71001, 0x7AA71002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AA71001, 0x7AA71003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AA71001, 0x7AA71004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AA71001, 0x7AA71005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7AA71001, 0x7AA71006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AA71001, 0x7AA71007, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA71002,  2575, 0xAA71003B, 190.8088, 51.18713, 37.89264, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

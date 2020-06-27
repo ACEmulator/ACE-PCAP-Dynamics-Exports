@@ -5,14 +5,14 @@ VALUES (0x73EAA001,  1154, 0x3EAA0013, 60.73074, 58.64995, -0.09460002, 0.356542
 /* @teleloc 0x3EAA0013 [60.730740 58.649950 -0.094600] 0.356542 0.000000 0.000000 -0.934279 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EAA001, 0x73EAA002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EAA001, 0x73EAA003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73EAA001, 0x73EAA004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73EAA001, 0x73EAA005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73EAA001, 0x73EAA006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x73EAA001, 0x73EAA007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x73EAA001, 0x73EAA008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EAA001, 0x73EAA009, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x73EAA001, 0x73EAA002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EAA001, 0x73EAA003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73EAA001, 0x73EAA004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73EAA001, 0x73EAA005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73EAA001, 0x73EAA006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x73EAA001, 0x73EAA007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x73EAA001, 0x73EAA008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EAA001, 0x73EAA009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EAA002,  4247, 0x3EAA0013, 60.73074, 58.64995, -0.09460002, 0.3565423, 0, 0, -0.9342791,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

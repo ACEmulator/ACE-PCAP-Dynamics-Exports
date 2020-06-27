@@ -5,9 +5,9 @@ VALUES (0x7F282001,  1154, 0xF2820039, 176.1046, 1.416955, 12.0132, 0.9690237, 0
 /* @teleloc 0xF2820039 [176.104600 1.416955 12.013200] 0.969024 0.000000 0.000000 -0.246968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F282001, 0x7F282002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F282001, 0x7F282003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F282001, 0x7F282004, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x7F282001, 0x7F282002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F282001, 0x7F282003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F282001, 0x7F282004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F282002, 11540, 0xF2820039, 176.1046, 1.416955, 12.0132, 0.9690237, 0, 0, -0.2469677,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

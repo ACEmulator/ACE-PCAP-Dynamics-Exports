@@ -5,13 +5,13 @@ VALUES (0x792B0001,  1154, 0x92B00012, 53.20699, 27.95518, 21.46632, 0.8918759, 
 /* @teleloc 0x92B00012 [53.206990 27.955180 21.466320] 0.891876 0.000000 0.000000 -0.452280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792B0001, 0x792B0002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792B0001, 0x792B0003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792B0001, 0x792B0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x792B0001, 0x792B0005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x792B0001, 0x792B0006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792B0001, 0x792B0007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792B0001, 0x792B0008, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x792B0001, 0x792B0002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792B0001, 0x792B0003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792B0001, 0x792B0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x792B0001, 0x792B0005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x792B0001, 0x792B0006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792B0001, 0x792B0007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792B0001, 0x792B0008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792B0002,  7090, 0x92B00012, 53.20699, 27.95518, 21.46632, 0.8918759, 0, 0, -0.4522803,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

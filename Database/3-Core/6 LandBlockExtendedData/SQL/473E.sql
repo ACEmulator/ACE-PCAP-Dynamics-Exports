@@ -5,11 +5,11 @@ VALUES (0x7473E001,  1154, 0x473E003F, 186.3282, 162.3497, 12.0025, 0.7887617, 0
 /* @teleloc 0x473E003F [186.328200 162.349700 12.002500] 0.788762 0.000000 0.000000 -0.614699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7473E001, 0x7473E002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7473E001, 0x7473E003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7473E001, 0x7473E004, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7473E001, 0x7473E005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7473E001, 0x7473E006, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7473E001, 0x7473E002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7473E001, 0x7473E003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7473E001, 0x7473E004, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7473E001, 0x7473E005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7473E001, 0x7473E006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7473E002, 36859, 0x473E003F, 186.3282, 162.3497, 12.0025, 0.7887617, 0, 0, -0.6146991,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

@@ -5,17 +5,17 @@ VALUES (0x794D5001,  1154, 0x94D50028, 96.55432, 187.7254, 110.4396, 0.09990931,
 /* @teleloc 0x94D50028 [96.554320 187.725400 110.439600] 0.099909 0.000000 0.000000 -0.994997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D5001, 0x794D5002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x794D5001, 0x794D5003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x794D5001, 0x794D5004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x794D5001, 0x794D5005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794D5001, 0x794D5006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x794D5001, 0x794D5007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x794D5001, 0x794D5008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x794D5001, 0x794D5009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x794D5001, 0x794D500A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x794D5001, 0x794D500B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x794D5001, 0x794D500C, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x794D5001, 0x794D5002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x794D5001, 0x794D5003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x794D5001, 0x794D5004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x794D5001, 0x794D5005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794D5001, 0x794D5006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x794D5001, 0x794D5007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x794D5001, 0x794D5008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x794D5001, 0x794D5009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x794D5001, 0x794D500A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x794D5001, 0x794D500B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x794D5001, 0x794D500C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D5002,  9253, 0x94D50028, 96.55432, 187.7254, 110.4396, 0.09990931, 0, 0, -0.9949965,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -66,8 +66,8 @@ VALUES (0x794D500D,  1542, 0x94D50020, 92.08596, 188.6644, 109.6256, 1, 0, 0, 0,
 /* @teleloc 0x94D50020 [92.085960 188.664400 109.625600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D500D, 0x794D500E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x794D500D, 0x794D500F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x794D500D, 0x794D500E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x794D500D, 0x794D500F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D500E, 22567, 0x94D50020, 92.08596, 188.6644, 109.6256, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

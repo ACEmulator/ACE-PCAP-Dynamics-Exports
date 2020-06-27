@@ -5,11 +5,11 @@ VALUES (0x7902E001,  1154, 0x902E0028, 106.9682, 185.0642, 18.62177, 0.9928331, 
 /* @teleloc 0x902E0028 [106.968200 185.064200 18.621770] 0.992833 0.000000 0.000000 -0.119509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7902E001, 0x7902E002, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7902E001, 0x7902E003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7902E001, 0x7902E004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7902E001, 0x7902E005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7902E001, 0x7902E006, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7902E001, 0x7902E002, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7902E001, 0x7902E003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7902E001, 0x7902E004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7902E001, 0x7902E005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7902E001, 0x7902E006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7902E002,  9249, 0x902E0028, 106.9682, 185.0642, 18.62177, 0.9928331, 0, 0, -0.1195089,  True, '2019-02-10 00:00:00'); /* Marionette */

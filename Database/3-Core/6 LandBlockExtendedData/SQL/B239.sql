@@ -5,10 +5,10 @@ VALUES (0x7B239001,  1154, 0xB2390030, 142.8223, 178.256, 39.70932, -0.7660444, 
 /* @teleloc 0xB2390030 [142.822300 178.256000 39.709320] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B239001, 0x7B239002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B239001, 0x7B239003, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7B239001, 0x7B239004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B239001, 0x7B239005, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7B239001, 0x7B239002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B239001, 0x7B239003, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7B239001, 0x7B239004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B239001, 0x7B239005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B239002,  9401, 0xB2390030, 142.8223, 178.256, 39.70932, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

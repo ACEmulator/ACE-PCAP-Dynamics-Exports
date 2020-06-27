@@ -5,14 +5,14 @@ VALUES (0x7A4AB001,  1154, 0xA4AB0040, 175.3916, 181.2589, 69.24193, -0.448494, 
 /* @teleloc 0xA4AB0040 [175.391600 181.258900 69.241930] -0.448494 0.000000 0.000000 -0.893786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4AB001, 0x7A4AB002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7A4AB001, 0x7A4AB003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A4AB001, 0x7A4AB004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4AB001, 0x7A4AB005, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7A4AB001, 0x7A4AB006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7A4AB001, 0x7A4AB007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A4AB001, 0x7A4AB008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A4AB001, 0x7A4AB009, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A4AB001, 0x7A4AB002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7A4AB001, 0x7A4AB003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A4AB001, 0x7A4AB004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4AB001, 0x7A4AB005, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7A4AB001, 0x7A4AB006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7A4AB001, 0x7A4AB007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A4AB001, 0x7A4AB008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A4AB001, 0x7A4AB009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4AB002,   942, 0xA4AB0040, 175.3916, 181.2589, 69.24193, -0.448494, 0, 0, -0.8937858,  True, '2019-02-10 00:00:00'); /* Wood Golem */

@@ -5,26 +5,26 @@ VALUES (0x7C3A8001,  1154, 0xC3A8001A, 72.56441, 38.60646, 80.98454, 0.9638539, 
 /* @teleloc 0xC3A8001A [72.564410 38.606460 80.984540] 0.963854 0.000000 0.000000 -0.266431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A8001, 0x7C3A8002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C3A8001, 0x7C3A8003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C3A8001, 0x7C3A8004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C3A8001, 0x7C3A8005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C3A8001, 0x7C3A8006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3A8001, 0x7C3A8007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3A8001, 0x7C3A8008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C3A8001, 0x7C3A8009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C3A8001, 0x7C3A800A, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C3A8001, 0x7C3A800B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7C3A8001, 0x7C3A800C, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C3A8001, 0x7C3A800D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C3A8001, 0x7C3A800E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C3A8001, 0x7C3A800F, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C3A8001, 0x7C3A8010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C3A8001, 0x7C3A8011, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C3A8001, 0x7C3A8012, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C3A8001, 0x7C3A8013, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C3A8001, 0x7C3A8014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A8001, 0x7C3A8015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C3A8001, 0x7C3A8002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C3A8001, 0x7C3A8003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C3A8001, 0x7C3A8004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C3A8001, 0x7C3A8005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C3A8001, 0x7C3A8006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3A8001, 0x7C3A8007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3A8001, 0x7C3A8008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C3A8001, 0x7C3A8009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C3A8001, 0x7C3A800A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C3A8001, 0x7C3A800B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7C3A8001, 0x7C3A800C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C3A8001, 0x7C3A800D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C3A8001, 0x7C3A800E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C3A8001, 0x7C3A800F, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C3A8001, 0x7C3A8010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C3A8001, 0x7C3A8011, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C3A8001, 0x7C3A8012, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C3A8001, 0x7C3A8013, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C3A8001, 0x7C3A8014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A8001, 0x7C3A8015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A8002,  1762, 0xC3A8001A, 72.56441, 38.60646, 80.98454, 0.9638539, 0, 0, -0.2664314,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -111,8 +111,8 @@ VALUES (0x7C3A8016,  1542, 0xC3A80009, 29.40622, 1.911362, 82.31857, 1, 0, 0, 0,
 /* @teleloc 0xC3A80009 [29.406220 1.911362 82.318570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A8016, 0x7C3A8017, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C3A8016, 0x7C3A8018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C3A8016, 0x7C3A8017, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C3A8016, 0x7C3A8018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A8017,  8232, 0xC3A80009, 29.40622, 1.911362, 82.31857, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

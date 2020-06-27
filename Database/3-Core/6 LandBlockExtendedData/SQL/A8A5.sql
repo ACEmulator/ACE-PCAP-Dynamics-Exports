@@ -5,22 +5,22 @@ VALUES (0x7A8A5001,  1154, 0xA8A50030, 122.3256, 177.1515, 126.3922, 0.1736482, 
 /* @teleloc 0xA8A50030 [122.325600 177.151500 126.392200] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8A5001, 0x7A8A5002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A8A5001, 0x7A8A5003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A8A5001, 0x7A8A5004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A8A5001, 0x7A8A5005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A8A5001, 0x7A8A5006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A8A5001, 0x7A8A5007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A8A5001, 0x7A8A5008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A8A5001, 0x7A8A5009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A8A5001, 0x7A8A500A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A8A5001, 0x7A8A500B, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A8A5001, 0x7A8A500C, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A8A5001, 0x7A8A500D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A8A5001, 0x7A8A500E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A8A5001, 0x7A8A500F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A8A5001, 0x7A8A5010, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A8A5001, 0x7A8A5011, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7A8A5001, 0x7A8A5002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A8A5001, 0x7A8A5003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A8A5001, 0x7A8A5004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A8A5001, 0x7A8A5005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A8A5001, 0x7A8A5006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A8A5001, 0x7A8A5007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A8A5001, 0x7A8A5008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A8A5001, 0x7A8A5009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A8A5001, 0x7A8A500A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A8A5001, 0x7A8A500B, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A8A5001, 0x7A8A500C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A8A5001, 0x7A8A500D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A8A5001, 0x7A8A500E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A8A5001, 0x7A8A500F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A8A5001, 0x7A8A5010, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A8A5001, 0x7A8A5011, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8A5002,  1609, 0xA8A50030, 122.3256, 177.1515, 126.3922, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -91,7 +91,7 @@ VALUES (0x7A8A5012,  1542, 0xA8A5001D, 73.31767, 106.2439, 124, 1, 0, 0, 0, Fals
 /* @teleloc 0xA8A5001D [73.317670 106.243900 124.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8A5012, 0x7A8A5013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A8A5012, 0x7A8A5013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8A5013, 22576, 0xA8A5001D, 73.31767, 106.2439, 124, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

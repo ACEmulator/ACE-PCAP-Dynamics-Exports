@@ -5,21 +5,21 @@ VALUES (0x7A2A1001,  1154, 0xA2A10014, 53.1005, 83.2468, 194.0068, -0.726317, 0,
 /* @teleloc 0xA2A10014 [53.100500 83.246800 194.006800] -0.726317 0.000000 0.000000 -0.687360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A1001, 0x7A2A1002, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x7A2A1001, 0x7A2A1003, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7A2A1001, 0x7A2A1004, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7A2A1001, 0x7A2A1005, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x7A2A1001, 0x7A2A1006, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x7A2A1001, 0x7A2A1007, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A2A1001, 0x7A2A1008, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A2A1001, 0x7A2A1009, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A2A1001, 0x7A2A100A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A2A1001, 0x7A2A100B, '2019-02-10 00:00:00') /* Portal Keeper */
-     , (0x7A2A1001, 0x7A2A100C, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x7A2A1001, 0x7A2A100D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x7A2A1001, 0x7A2A100E, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x7A2A1001, 0x7A2A100F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7A2A1001, 0x7A2A1010, '2019-02-10 00:00:00') /* Harvest Reaper */;
+VALUES (0x7A2A1001, 0x7A2A1002, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7A2A1001, 0x7A2A1003, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7A2A1001, 0x7A2A1004, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7A2A1001, 0x7A2A1005, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7A2A1001, 0x7A2A1006, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7A2A1001, 0x7A2A1007, '2019-02-10 00:00:00') /* Portal Pillar (32528) */
+     , (0x7A2A1001, 0x7A2A1008, '2019-02-10 00:00:00') /* Portal Pillar (32528) */
+     , (0x7A2A1001, 0x7A2A1009, '2019-02-10 00:00:00') /* Portal Pillar (32528) */
+     , (0x7A2A1001, 0x7A2A100A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A2A1001, 0x7A2A100B, '2019-02-10 00:00:00') /* Portal Keeper (32322) */
+     , (0x7A2A1001, 0x7A2A100C, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7A2A1001, 0x7A2A100D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x7A2A1001, 0x7A2A100E, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7A2A1001, 0x7A2A100F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7A2A1001, 0x7A2A1010, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A1002, 28652, 0xA2A10014, 53.1005, 83.2468, 194.0068, -0.726317, 0, 0, -0.68736,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */
@@ -86,8 +86,8 @@ VALUES (0x7A2A1011,  1542, 0xA2A10014, 59.9461, 83.3932, 194.45, 0.9999252, 0, 0
 /* @teleloc 0xA2A10014 [59.946100 83.393200 194.450000] 0.999925 0.000000 0.000000 -0.012229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A1011, 0x7A2A1012, '2019-02-10 00:00:00') /* Viamont Staging Area Portal */
-     , (0x7A2A1011, 0x7A2A1013, '2019-02-10 00:00:00') /* Viamont Staging Area Portal */;
+VALUES (0x7A2A1011, 0x7A2A1012, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32546) */
+     , (0x7A2A1011, 0x7A2A1013, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A1012, 32546, 0xA2A10014, 59.9461, 83.3932, 194.45, 0.9999252, 0, 0, -0.0122292,  True, '2019-02-10 00:00:00'); /* Viamont Staging Area Portal */

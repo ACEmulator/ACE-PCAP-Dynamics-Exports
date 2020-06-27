@@ -5,22 +5,22 @@ VALUES (0x75E14001,  1154, 0x5E140040, 188.9581, 191.1087, 119.998, -0.5211999, 
 /* @teleloc 0x5E140040 [188.958100 191.108700 119.998000] -0.521200 0.000000 0.000000 -0.853435 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E14001, 0x75E14002, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x75E14001, 0x75E14003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75E14001, 0x75E14004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75E14001, 0x75E14005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E14001, 0x75E14006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75E14001, 0x75E14007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75E14001, 0x75E14008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E14001, 0x75E14009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75E14001, 0x75E1400A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75E14001, 0x75E1400B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75E14001, 0x75E1400C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75E14001, 0x75E1400D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E14001, 0x75E1400E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E14001, 0x75E1400F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E14001, 0x75E14010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E14001, 0x75E14011, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x75E14001, 0x75E14002, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x75E14001, 0x75E14003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75E14001, 0x75E14004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75E14001, 0x75E14005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E14001, 0x75E14006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75E14001, 0x75E14007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75E14001, 0x75E14008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E14001, 0x75E14009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75E14001, 0x75E1400A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75E14001, 0x75E1400B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75E14001, 0x75E1400C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75E14001, 0x75E1400D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E14001, 0x75E1400E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75E14001, 0x75E1400F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75E14001, 0x75E14010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E14001, 0x75E14011, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E14002, 30900, 0x5E140040, 188.9581, 191.1087, 119.998, -0.5211999, 0, 0, -0.8534346,  True, '2019-02-10 00:00:00'); /* Banished Grievver */
@@ -91,7 +91,7 @@ VALUES (0x75E14012,  1542, 0x5E140002, 19.2672, 41.78345, -0.09999999, 1, 0, 0, 
 /* @teleloc 0x5E140002 [19.267200 41.783450 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E14012, 0x75E14013, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x75E14012, 0x75E14013, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E14013,  8999, 0x5E140002, 19.2672, 41.78345, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

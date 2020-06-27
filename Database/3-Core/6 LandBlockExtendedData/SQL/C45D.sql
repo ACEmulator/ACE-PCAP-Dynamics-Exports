@@ -5,18 +5,18 @@ VALUES (0x7C45D001,  1154, 0xC45D003D, 170.4972, 115.3751, 6.032046, 0.9063078, 
 /* @teleloc 0xC45D003D [170.497200 115.375100 6.032046] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C45D001, 0x7C45D002, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45D001, 0x7C45D003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45D001, 0x7C45D004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45D001, 0x7C45D005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45D001, 0x7C45D006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C45D001, 0x7C45D007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45D001, 0x7C45D008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C45D001, 0x7C45D009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C45D001, 0x7C45D00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C45D001, 0x7C45D00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C45D001, 0x7C45D00C, '2019-02-10 00:00:00') /* Idol */
-     , (0x7C45D001, 0x7C45D00D, '2019-02-10 00:00:00') /* Se Sclavus */;
+VALUES (0x7C45D001, 0x7C45D002, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45D001, 0x7C45D003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45D001, 0x7C45D004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45D001, 0x7C45D005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45D001, 0x7C45D006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C45D001, 0x7C45D007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45D001, 0x7C45D008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C45D001, 0x7C45D009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C45D001, 0x7C45D00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C45D001, 0x7C45D00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C45D001, 0x7C45D00C, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7C45D001, 0x7C45D00D, '2019-02-10 00:00:00') /* Se Sclavus (2583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C45D002, 26012, 0xC45D003D, 170.4972, 115.3751, 6.032046, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Adept */

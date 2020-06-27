@@ -5,10 +5,10 @@ VALUES (0x7C9E2001,  1154, 0xC9E2003A, 185.6861, 26.4785, 2.948879, -0.803749, 0
 /* @teleloc 0xC9E2003A [185.686100 26.478500 2.948879] -0.803749 0.000000 0.000000 -0.594969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9E2001, 0x7C9E2002, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E2001, 0x7C9E2003, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7C9E2001, 0x7C9E2004, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E2001, 0x7C9E2005, '2019-02-10 00:00:00') /* Shallows Gorger */;
+VALUES (0x7C9E2001, 0x7C9E2002, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E2001, 0x7C9E2003, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7C9E2001, 0x7C9E2004, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E2001, 0x7C9E2005, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9E2002, 31910, 0xC9E2003A, 185.6861, 26.4785, 2.948879, -0.803749, 0, 0, -0.5949686,  True, '2019-02-10 00:00:00'); /* Shallows Shredder */
@@ -31,7 +31,7 @@ VALUES (0x7C9E2006,  1154, 0xC9E20007, 14.7864, 163.016, 4.0055, 0.716103, 0, 0,
 /* @teleloc 0xC9E20007 [14.786400 163.016000 4.005500] 0.716103 0.000000 0.000000 -0.697995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9E2006, 0x7C9E2007, '2019-02-10 00:00:00') /* Merwart Pelagurg */;
+VALUES (0x7C9E2006, 0x7C9E2007, '2019-02-10 00:00:00') /* Merwart Pelagurg (32122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9E2007, 32122, 0xC9E20007, 14.7864, 163.016, 4.0055, 0.716103, 0, 0, -0.697995,  True, '2019-02-10 00:00:00'); /* Merwart Pelagurg */

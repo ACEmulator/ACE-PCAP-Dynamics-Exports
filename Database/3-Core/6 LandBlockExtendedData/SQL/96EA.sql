@@ -5,14 +5,14 @@ VALUES (0x796EA001,  1154, 0x96EA0024, 108.7996, 75.34387, 44.51387, 0.9396926, 
 /* @teleloc 0x96EA0024 [108.799600 75.343870 44.513870] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796EA001, 0x796EA002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x796EA001, 0x796EA003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x796EA001, 0x796EA004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x796EA001, 0x796EA005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796EA001, 0x796EA006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796EA001, 0x796EA007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796EA001, 0x796EA008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x796EA001, 0x796EA009, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x796EA001, 0x796EA002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x796EA001, 0x796EA003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EA001, 0x796EA004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EA001, 0x796EA005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796EA001, 0x796EA006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796EA001, 0x796EA007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796EA001, 0x796EA008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x796EA001, 0x796EA009, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EA002,  1609, 0x96EA0024, 108.7996, 75.34387, 44.51387, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

@@ -5,12 +5,12 @@ VALUES (0x7D1E3001,  1154, 0xD1E30022, 117.2289, 35.76554, -0.1, 0.9882787, 0, 0
 /* @teleloc 0xD1E30022 [117.228900 35.765540 -0.100000] 0.988279 0.000000 0.000000 -0.152660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1E3001, 0x7D1E3002, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D1E3001, 0x7D1E3003, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D1E3001, 0x7D1E3004, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D1E3001, 0x7D1E3005, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D1E3001, 0x7D1E3006, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D1E3001, 0x7D1E3007, '2019-02-10 00:00:00') /* Benek Niffis */;
+VALUES (0x7D1E3001, 0x7D1E3002, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D1E3001, 0x7D1E3003, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D1E3001, 0x7D1E3004, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D1E3001, 0x7D1E3005, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D1E3001, 0x7D1E3006, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D1E3001, 0x7D1E3007, '2019-02-10 00:00:00') /* Benek Niffis (32033) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1E3002, 31908, 0xD1E30022, 117.2289, 35.76554, -0.1, 0.9882787, 0, 0, -0.15266,  True, '2019-02-10 00:00:00'); /* Remoran Raker */

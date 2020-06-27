@@ -9,19 +9,19 @@ VALUES (0x7B46D001,  1154, 0xB46D0004, 4.97694, 74.18404, 31.29778, 0.6840458, 0
 /* @teleloc 0xB46D0004 [4.976940 74.184040 31.297780] 0.684046 0.000000 0.000000 -0.729439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46D001, 0x7B46D002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B46D001, 0x7B46D003, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B46D001, 0x7B46D004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B46D001, 0x7B46D005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B46D001, 0x7B46D006, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B46D001, 0x7B46D007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B46D001, 0x7B46D008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B46D001, 0x7B46D009, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B46D001, 0x7B46D00A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B46D001, 0x7B46D00B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B46D001, 0x7B46D00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B46D001, 0x7B46D00D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B46D001, 0x7B46D00E, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7B46D001, 0x7B46D002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B46D001, 0x7B46D003, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B46D001, 0x7B46D004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B46D001, 0x7B46D005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B46D001, 0x7B46D006, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B46D001, 0x7B46D007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B46D001, 0x7B46D008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B46D001, 0x7B46D009, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B46D001, 0x7B46D00A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B46D001, 0x7B46D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B46D001, 0x7B46D00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B46D001, 0x7B46D00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B46D001, 0x7B46D00E, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46D002,  4109, 0xB46D0004, 4.97694, 74.18404, 31.29778, 0.6840458, 0, 0, -0.7294391,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

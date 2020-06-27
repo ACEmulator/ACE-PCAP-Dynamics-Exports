@@ -509,7 +509,7 @@ VALUES (0x784F807F,  1154, 0x84F80008, 0.419015, 191.495, 6.042084, -0.999994, 0
 /* @teleloc 0x84F80008 [0.419015 191.495000 6.042084] -0.999994 0.000000 0.000000 -0.003437 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784F807F, 0x784F8080, '2019-02-10 00:00:00') /* Exploration Marker */;
+VALUES (0x784F807F, 0x784F8080, '2019-02-10 00:00:00') /* Exploration Marker (39817) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784F8080, 39817, 0x84F80008, 0.419015, 191.495, 6.042084, -0.999994, 0, 0, -0.00343733,  True, '2019-02-10 00:00:00'); /* Exploration Marker */

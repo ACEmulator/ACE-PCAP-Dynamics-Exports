@@ -5,11 +5,11 @@ VALUES (0x7F47E001,  1154, 0xF47E0007, 19.26383, 160.8157, -0.888, 0.2978318, 0,
 /* @teleloc 0xF47E0007 [19.263830 160.815700 -0.888000] 0.297832 0.000000 0.000000 -0.954618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F47E001, 0x7F47E002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F47E001, 0x7F47E003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7F47E001, 0x7F47E004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F47E001, 0x7F47E005, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F47E001, 0x7F47E006, '2019-02-10 00:00:00') /* Reedshark Ravager */;
+VALUES (0x7F47E001, 0x7F47E002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F47E001, 0x7F47E003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F47E001, 0x7F47E004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F47E001, 0x7F47E005, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F47E001, 0x7F47E006, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F47E002,  7105, 0xF47E0007, 19.26383, 160.8157, -0.888, 0.2978318, 0, 0, -0.9546183,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

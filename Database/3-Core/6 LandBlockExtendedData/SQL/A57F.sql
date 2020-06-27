@@ -1517,8 +1517,8 @@ VALUES (0x7A57F1AC,  1542, 0xA57F010A, 60.5636, 32.7385, 64.6, 0.417168, -0.0025
 /* @teleloc 0xA57F010A [60.563600 32.738500 64.600000] 0.417168 -0.002548 0.005552 -0.908809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A57F1AC, 0x7A57F1AD, '2019-02-10 00:00:00') /* Ceiling Hook */
-     , (0x7A57F1AC, 0x7A57F1AE, '2019-02-10 00:00:00') /* Ceiling Hook */;
+VALUES (0x7A57F1AC, 0x7A57F1AD, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */
+     , (0x7A57F1AC, 0x7A57F1AE, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A57F1AD, 11698, 0xA57F010A, 60.5636, 32.7385, 64.6, 0.417168, -0.00254836, 0.00555166, -0.908809,  True, '2019-02-10 00:00:00'); /* Ceiling Hook */

@@ -5,18 +5,18 @@ VALUES (0x7BC76001,  1154, 0xBC76000C, 39.9377, 89.3446, 36.94765, 0.7054358, 0,
 /* @teleloc 0xBC76000C [39.937700 89.344600 36.947650] 0.705436 0.000000 0.000000 -0.708774 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC76001, 0x7BC76002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BC76001, 0x7BC76003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BC76001, 0x7BC76004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BC76001, 0x7BC76005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC76001, 0x7BC76006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BC76001, 0x7BC76007, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BC76001, 0x7BC76008, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BC76001, 0x7BC76009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BC76001, 0x7BC7600A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC76001, 0x7BC7600B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC76001, 0x7BC7600C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC76001, 0x7BC7600D, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7BC76001, 0x7BC76002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BC76001, 0x7BC76003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BC76001, 0x7BC76004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BC76001, 0x7BC76005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC76001, 0x7BC76006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BC76001, 0x7BC76007, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BC76001, 0x7BC76008, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BC76001, 0x7BC76009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BC76001, 0x7BC7600A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC76001, 0x7BC7600B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC76001, 0x7BC7600C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC76001, 0x7BC7600D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC76002,    20, 0xBC76000C, 39.9377, 89.3446, 36.94765, 0.7054358, 0, 0, -0.7087739,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
@@ -71,7 +71,7 @@ VALUES (0x7BC7600E,  1542, 0xBC760006, 10.14248, 142.2435, 44.30959, 0.8660254, 
 /* @teleloc 0xBC760006 [10.142480 142.243500 44.309590] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC7600E, 0x7BC7600F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BC7600E, 0x7BC7600F, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC7600F,  4382, 0xBC760006, 10.14248, 142.2435, 44.30959, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

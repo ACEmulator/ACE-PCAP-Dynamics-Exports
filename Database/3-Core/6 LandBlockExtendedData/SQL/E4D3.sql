@@ -5,23 +5,23 @@ VALUES (0x7E4D3001,  1154, 0xE4D30007, 4.254114, 144.083, -0.09880006, -0.167062
 /* @teleloc 0xE4D30007 [4.254114 144.083000 -0.098800] -0.167063 0.000000 0.000000 -0.985946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D3001, 0x7E4D3002, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E4D3001, 0x7E4D3003, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D3004, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D3001, 0x7E4D3005, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D3001, 0x7E4D3006, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D3001, 0x7E4D3007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D3001, 0x7E4D3008, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E4D3001, 0x7E4D3009, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D3001, 0x7E4D300A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D300B, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D300C, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D3001, 0x7E4D300D, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D300E, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D300F, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D3001, 0x7E4D3010, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E4D3001, 0x7E4D3011, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D3001, 0x7E4D3012, '2019-02-10 00:00:00') /* Aggressive Swarm */;
+VALUES (0x7E4D3001, 0x7E4D3002, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D3001, 0x7E4D3003, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D3004, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D3001, 0x7E4D3005, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D3001, 0x7E4D3006, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D3001, 0x7E4D3007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D3001, 0x7E4D3008, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D3001, 0x7E4D3009, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D3001, 0x7E4D300A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D300B, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D300C, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D3001, 0x7E4D300D, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D300E, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D300F, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D3001, 0x7E4D3010, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E4D3001, 0x7E4D3011, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D3001, 0x7E4D3012, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D3002, 40471, 0xE4D30007, 4.254114, 144.083, -0.09880006, -0.1670629, 0, 0, -0.9859462,  True, '2019-02-10 00:00:00'); /* Sand Lurker */

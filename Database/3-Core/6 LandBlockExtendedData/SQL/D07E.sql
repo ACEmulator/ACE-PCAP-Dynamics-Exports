@@ -5,10 +5,10 @@ VALUES (0x7D07E001,  1154, 0xD07E0017, 62.26396, 156.3565, 3.112, 0.2361639, 0, 
 /* @teleloc 0xD07E0017 [62.263960 156.356500 3.112000] 0.236164 0.000000 0.000000 -0.971713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D07E001, 0x7D07E002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D07E001, 0x7D07E003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7D07E001, 0x7D07E004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7D07E001, 0x7D07E005, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7D07E001, 0x7D07E002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D07E001, 0x7D07E003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7D07E001, 0x7D07E004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7D07E001, 0x7D07E005, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D07E002,   215, 0xD07E0017, 62.26396, 156.3565, 3.112, 0.2361639, 0, 0, -0.9717132,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

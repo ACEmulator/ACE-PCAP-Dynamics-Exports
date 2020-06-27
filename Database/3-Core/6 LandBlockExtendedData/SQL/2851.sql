@@ -5,14 +5,14 @@ VALUES (0x72851001,  1154, 0x28510018, 64.97015, 172.7309, 4.145171, 0.4686467, 
 /* @teleloc 0x28510018 [64.970150 172.730900 4.145171] 0.468647 0.000000 0.000000 -0.883386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72851001, 0x72851002, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72851001, 0x72851003, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72851001, 0x72851004, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72851001, 0x72851005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72851001, 0x72851006, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72851001, 0x72851007, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72851001, 0x72851008, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72851001, 0x72851009, '2019-02-10 00:00:00') /* Wretched */;
+VALUES (0x72851001, 0x72851002, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72851001, 0x72851003, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72851001, 0x72851004, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72851001, 0x72851005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72851001, 0x72851006, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72851001, 0x72851007, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72851001, 0x72851008, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72851001, 0x72851009, '2019-02-10 00:00:00') /* Wretched (25665) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72851002, 22899, 0x28510018, 64.97015, 172.7309, 4.145171, 0.4686467, 0, 0, -0.8833857,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
@@ -51,9 +51,9 @@ VALUES (0x7285100A,  1542, 0x28510032, 166.6811, 29.79964, 0, 0.3009784, 0, 0, -
 /* @teleloc 0x28510032 [166.681100 29.799640 0.000000] 0.300978 0.000000 0.000000 -0.953631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7285100A, 0x7285100B, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x7285100A, 0x7285100C, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x7285100A, 0x7285100D, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7285100A, 0x7285100B, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x7285100A, 0x7285100C, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x7285100A, 0x7285100D, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7285100B, 23086, 0x28510032, 166.6811, 29.79964, 0, 0.3009784, 0, 0, -0.9536309,  True, '2019-02-10 00:00:00'); /* Reinforced Oaken Chest */

@@ -5,39 +5,39 @@ VALUES (0x7184D001,  1154, 0x184D0007, 3.901016, 151.274, 0.00454998, 0.2693985,
 /* @teleloc 0x184D0007 [3.901016 151.274000 0.004550] 0.269399 0.000000 0.000000 -0.963029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7184D001, 0x7184D002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7184D001, 0x7184D003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7184D001, 0x7184D004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7184D001, 0x7184D005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7184D001, 0x7184D006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7184D001, 0x7184D008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7184D001, 0x7184D009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7184D001, 0x7184D00B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7184D001, 0x7184D00C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7184D001, 0x7184D00D, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D00E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7184D001, 0x7184D00F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7184D001, 0x7184D010, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7184D001, 0x7184D011, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D012, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7184D001, 0x7184D013, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7184D001, 0x7184D014, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D015, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7184D001, 0x7184D016, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D017, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7184D001, 0x7184D018, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7184D001, 0x7184D019, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7184D001, 0x7184D01A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7184D001, 0x7184D01B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7184D001, 0x7184D01C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7184D001, 0x7184D01D, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7184D001, 0x7184D01E, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7184D001, 0x7184D01F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7184D001, 0x7184D020, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7184D001, 0x7184D021, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7184D001, 0x7184D022, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7184D001, 0x7184D002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7184D001, 0x7184D003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7184D001, 0x7184D004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7184D001, 0x7184D005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7184D001, 0x7184D006, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7184D001, 0x7184D008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7184D001, 0x7184D009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7184D001, 0x7184D00B, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7184D001, 0x7184D00C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7184D001, 0x7184D00D, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D00E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7184D001, 0x7184D00F, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7184D001, 0x7184D010, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7184D001, 0x7184D011, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D012, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7184D001, 0x7184D013, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7184D001, 0x7184D014, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D015, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7184D001, 0x7184D016, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D017, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7184D001, 0x7184D018, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7184D001, 0x7184D019, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7184D001, 0x7184D01A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7184D001, 0x7184D01B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7184D001, 0x7184D01C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7184D001, 0x7184D01D, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7184D001, 0x7184D01E, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7184D001, 0x7184D01F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7184D001, 0x7184D020, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7184D001, 0x7184D021, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7184D001, 0x7184D022, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7184D002, 36822, 0x184D0007, 3.901016, 151.274, 0.00454998, 0.2693985, 0, 0, -0.9630288,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -176,10 +176,10 @@ VALUES (0x7184D023,  1542, 0x184D0021, 105.0288, 7.307998, 2.782, 1, 0, 0, 0, Fa
 /* @teleloc 0x184D0021 [105.028800 7.307998 2.782000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7184D023, 0x7184D024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7184D023, 0x7184D025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7184D023, 0x7184D026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7184D023, 0x7184D027, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7184D023, 0x7184D024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7184D023, 0x7184D025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7184D023, 0x7184D026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7184D023, 0x7184D027, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7184D024,  4179, 0x184D0021, 105.0288, 7.307998, 2.782, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,14 +5,14 @@ VALUES (0x738E5001,  1154, 0x38E5001F, 90.18717, 167.1341, 22.0075, 0.903206, 0,
 /* @teleloc 0x38E5001F [90.187170 167.134100 22.007500] 0.903206 0.000000 0.000000 -0.429207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738E5001, 0x738E5002, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x738E5001, 0x738E5003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x738E5001, 0x738E5004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x738E5001, 0x738E5005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x738E5001, 0x738E5006, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E5001, 0x738E5007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E5001, 0x738E5008, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x738E5001, 0x738E5009, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x738E5001, 0x738E5002, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x738E5001, 0x738E5003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x738E5001, 0x738E5004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x738E5001, 0x738E5005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x738E5001, 0x738E5006, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x738E5001, 0x738E5007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x738E5001, 0x738E5008, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x738E5001, 0x738E5009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738E5002, 24322, 0x38E5001F, 90.18717, 167.1341, 22.0075, 0.903206, 0, 0, -0.4292074,  True, '2019-02-10 00:00:00'); /* Undead Lieutenant */

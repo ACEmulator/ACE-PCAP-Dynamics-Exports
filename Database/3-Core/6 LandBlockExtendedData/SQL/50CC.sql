@@ -5,13 +5,13 @@ VALUES (0x750CC001,  1154, 0x50CC0021, 99.93761, 5.206634, 59.60977, 0.9396926, 
 /* @teleloc 0x50CC0021 [99.937610 5.206634 59.609770] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750CC001, 0x750CC002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x750CC001, 0x750CC003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x750CC001, 0x750CC004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x750CC001, 0x750CC005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x750CC001, 0x750CC006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x750CC001, 0x750CC007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x750CC001, 0x750CC008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x750CC001, 0x750CC002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x750CC001, 0x750CC003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x750CC001, 0x750CC004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x750CC001, 0x750CC005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x750CC001, 0x750CC006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x750CC001, 0x750CC007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x750CC001, 0x750CC008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750CC002, 37098, 0x50CC0021, 99.93761, 5.206634, 59.60977, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

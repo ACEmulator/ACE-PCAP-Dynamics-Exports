@@ -5,11 +5,11 @@ VALUES (0x7C775001,  1154, 0xC7750012, 64.29169, 40.28976, 23.36748, -0.8431514,
 /* @teleloc 0xC7750012 [64.291690 40.289760 23.367480] -0.843151 0.000000 0.000000 -0.537676 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C775001, 0x7C775002, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C775001, 0x7C775003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C775001, 0x7C775004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C775001, 0x7C775005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C775001, 0x7C775006, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7C775001, 0x7C775002, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C775001, 0x7C775003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C775001, 0x7C775004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C775001, 0x7C775005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C775001, 0x7C775006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C775002,   219, 0xC7750012, 64.29169, 40.28976, 23.36748, -0.8431514, 0, 0, -0.5376762,  True, '2019-02-10 00:00:00'); /* Grey Rat */

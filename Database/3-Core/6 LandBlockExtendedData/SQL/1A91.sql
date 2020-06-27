@@ -5,8 +5,8 @@ VALUES (0x71A91001,  1154, 0x1A91002B, 131.662, 64.89226, 61.90411, -0.7419922, 
 /* @teleloc 0x1A91002B [131.662000 64.892260 61.904110] -0.741992 0.000000 0.000000 -0.670409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A91001, 0x71A91002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71A91001, 0x71A91003, '2019-02-10 00:00:00') /* Enku Zefir */;
+VALUES (0x71A91001, 0x71A91002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71A91001, 0x71A91003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A91002, 23617, 0x1A91002B, 131.662, 64.89226, 61.90411, -0.7419922, 0, 0, -0.6704085,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

@@ -5,14 +5,14 @@ VALUES (0x73BA3001,  1154, 0x3BA30031, 153.8709, 19.9288, 0.3446663, -0.7071068,
 /* @teleloc 0x3BA30031 [153.870900 19.928800 0.344666] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BA3001, 0x73BA3002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73BA3001, 0x73BA3003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73BA3001, 0x73BA3004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73BA3001, 0x73BA3005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73BA3001, 0x73BA3006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73BA3001, 0x73BA3007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73BA3001, 0x73BA3008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73BA3001, 0x73BA3009, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x73BA3001, 0x73BA3002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73BA3001, 0x73BA3003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73BA3001, 0x73BA3004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73BA3001, 0x73BA3005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73BA3001, 0x73BA3006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73BA3001, 0x73BA3007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73BA3001, 0x73BA3008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73BA3001, 0x73BA3009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BA3002,  4247, 0x3BA30031, 153.8709, 19.9288, 0.3446663, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

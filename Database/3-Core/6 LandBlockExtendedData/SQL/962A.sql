@@ -5,20 +5,20 @@ VALUES (0x7962A001,  1154, 0x962A0015, 65.78316, 104.9532, 99.76963, 0.9238795, 
 /* @teleloc 0x962A0015 [65.783160 104.953200 99.769630] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962A001, 0x7962A002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7962A001, 0x7962A003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7962A001, 0x7962A004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7962A001, 0x7962A005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7962A001, 0x7962A006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7962A001, 0x7962A007, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7962A001, 0x7962A008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7962A001, 0x7962A009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7962A001, 0x7962A00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7962A001, 0x7962A00B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7962A001, 0x7962A00C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7962A001, 0x7962A00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7962A001, 0x7962A00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7962A001, 0x7962A00F, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7962A001, 0x7962A002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7962A001, 0x7962A003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7962A001, 0x7962A004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7962A001, 0x7962A005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7962A001, 0x7962A006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7962A001, 0x7962A007, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7962A001, 0x7962A008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7962A001, 0x7962A009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7962A001, 0x7962A00A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7962A001, 0x7962A00B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7962A001, 0x7962A00C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7962A001, 0x7962A00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7962A001, 0x7962A00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7962A001, 0x7962A00F, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962A002, 24497, 0x962A0015, 65.78316, 104.9532, 99.76963, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -81,13 +81,13 @@ VALUES (0x7962A010,  1542, 0x962A0015, 58.6212, 106.973, 92.62602, 1, 0, 0, 0, F
 /* @teleloc 0x962A0015 [58.621200 106.973000 92.626020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962A010, 0x7962A011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7962A010, 0x7962A012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7962A010, 0x7962A013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7962A010, 0x7962A014, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7962A010, 0x7962A015, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7962A010, 0x7962A016, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7962A010, 0x7962A017, '2019-02-10 00:00:00') /* Hasina bint Rira */;
+VALUES (0x7962A010, 0x7962A011, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7962A010, 0x7962A012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7962A010, 0x7962A013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7962A010, 0x7962A014, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7962A010, 0x7962A015, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7962A010, 0x7962A016, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7962A010, 0x7962A017, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962A011, 22571, 0x962A0015, 58.6212, 106.973, 92.62602, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

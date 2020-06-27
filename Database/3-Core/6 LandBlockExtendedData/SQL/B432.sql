@@ -5,22 +5,22 @@ VALUES (0x7B432001,  1154, 0xB4320007, 19.01173, 145.0426, 50.09688, -0.9721009,
 /* @teleloc 0xB4320007 [19.011730 145.042600 50.096880] -0.972101 0.000000 0.000000 -0.234563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B432001, 0x7B432002, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7B432001, 0x7B432003, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7B432001, 0x7B432004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B432001, 0x7B432005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B432001, 0x7B432006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B432001, 0x7B432007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B432001, 0x7B432008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B432001, 0x7B432009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B432001, 0x7B43200A, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7B432001, 0x7B43200B, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7B432001, 0x7B43200C, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7B432001, 0x7B43200D, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7B432001, 0x7B43200E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B432001, 0x7B43200F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B432001, 0x7B432010, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B432001, 0x7B432011, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7B432001, 0x7B432002, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7B432001, 0x7B432003, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7B432001, 0x7B432004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B432001, 0x7B432005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B432001, 0x7B432006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B432001, 0x7B432007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B432001, 0x7B432008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B432001, 0x7B432009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B432001, 0x7B43200A, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7B432001, 0x7B43200B, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B432001, 0x7B43200C, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7B432001, 0x7B43200D, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7B432001, 0x7B43200E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B432001, 0x7B43200F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B432001, 0x7B432010, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B432001, 0x7B432011, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B432002,  1618, 0xB4320007, 19.01173, 145.0426, 50.09688, -0.9721009, 0, 0, -0.2345631,  True, '2019-02-10 00:00:00'); /* Gigas Lugian */
@@ -91,7 +91,7 @@ VALUES (0x7B432012,  1542, 0xB432000F, 37.39941, 155.383, 50.82038, 0.9537169, 0
 /* @teleloc 0xB432000F [37.399410 155.383000 50.820380] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B432012, 0x7B432013, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7B432012, 0x7B432013, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B432013,  7934, 0xB432000F, 37.39941, 155.383, 50.82038, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

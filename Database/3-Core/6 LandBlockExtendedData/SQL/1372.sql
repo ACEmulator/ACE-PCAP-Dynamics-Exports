@@ -5,10 +5,10 @@ VALUES (0x71372001,  1154, 0x13720016, 54.27439, 133.4419, 97.39887, 0.9861664, 
 /* @teleloc 0x13720016 [54.274390 133.441900 97.398870] 0.986166 0.000000 0.000000 -0.165759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71372001, 0x71372002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71372001, 0x71372003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71372001, 0x71372004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71372001, 0x71372005, '2019-02-10 00:00:00') /* Enku Zefir */;
+VALUES (0x71372001, 0x71372002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71372001, 0x71372003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71372001, 0x71372004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71372001, 0x71372005, '2019-02-10 00:00:00') /* Enku Zefir (11534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71372002, 11541, 0x13720016, 54.27439, 133.4419, 97.39887, 0.9861664, 0, 0, -0.1657587,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -31,7 +31,7 @@ VALUES (0x71372006,  1542, 0x1372001B, 90.66412, 68.08603, 71.29421, -4.371139E-
 /* @teleloc 0x1372001B [90.664120 68.086030 71.294210] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71372006, 0x71372007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71372006, 0x71372007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71372007,  4380, 0x1372001B, 90.66412, 68.08603, 71.29421, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

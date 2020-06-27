@@ -5,13 +5,13 @@ VALUES (0x72B38001,  1154, 0x2B38000F, 39.28469, 165.004, 59.76033, 0.623742, 0,
 /* @teleloc 0x2B38000F [39.284690 165.004000 59.760330] 0.623742 0.000000 0.000000 -0.781630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B38001, 0x72B38002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72B38001, 0x72B38003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72B38001, 0x72B38004, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72B38001, 0x72B38005, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72B38001, 0x72B38006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72B38001, 0x72B38007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72B38001, 0x72B38008, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x72B38001, 0x72B38002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72B38001, 0x72B38003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72B38001, 0x72B38004, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72B38001, 0x72B38005, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72B38001, 0x72B38006, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72B38001, 0x72B38007, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72B38001, 0x72B38008, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B38002, 14520, 0x2B38000F, 39.28469, 165.004, 59.76033, 0.623742, 0, 0, -0.7816302,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

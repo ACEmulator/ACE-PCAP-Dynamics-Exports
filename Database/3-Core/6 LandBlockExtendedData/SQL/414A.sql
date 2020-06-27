@@ -5,28 +5,28 @@ VALUES (0x7414A001,  1154, 0x414A0011, 68.2332, 8.200851, 22.06385, 0.1850522, 0
 /* @teleloc 0x414A0011 [68.233200 8.200851 22.063850] 0.185052 0.000000 0.000000 -0.982729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414A001, 0x7414A002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7414A001, 0x7414A003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7414A001, 0x7414A004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7414A001, 0x7414A005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7414A001, 0x7414A008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A00A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7414A001, 0x7414A00B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7414A001, 0x7414A00C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x7414A001, 0x7414A00D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A00E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A00F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7414A001, 0x7414A010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7414A001, 0x7414A011, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7414A001, 0x7414A012, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7414A001, 0x7414A013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7414A001, 0x7414A014, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7414A001, 0x7414A015, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7414A001, 0x7414A016, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7414A001, 0x7414A017, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */;
+VALUES (0x7414A001, 0x7414A002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7414A001, 0x7414A003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7414A001, 0x7414A004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7414A001, 0x7414A005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7414A001, 0x7414A008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A00A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7414A001, 0x7414A00B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7414A001, 0x7414A00C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x7414A001, 0x7414A00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A00E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A00F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7414A001, 0x7414A010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7414A001, 0x7414A011, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7414A001, 0x7414A012, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7414A001, 0x7414A013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7414A001, 0x7414A014, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7414A001, 0x7414A015, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7414A001, 0x7414A016, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7414A001, 0x7414A017, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414A002, 24325, 0x414A0011, 68.2332, 8.200851, 22.06385, 0.1850522, 0, 0, -0.9827287,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -121,10 +121,10 @@ VALUES (0x7414A018,  1542, 0x414A0011, 62.41348, 0.6208974, 21.9461, 1, 0, 0, 0,
 /* @teleloc 0x414A0011 [62.413480 0.620897 21.946100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414A018, 0x7414A019, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7414A018, 0x7414A01A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7414A018, 0x7414A01B, '2019-02-10 00:00:00') /* Bones */
-     , (0x7414A018, 0x7414A01C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7414A018, 0x7414A019, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7414A018, 0x7414A01A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7414A018, 0x7414A01B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7414A018, 0x7414A01C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414A019, 31445, 0x414A0011, 62.41348, 0.6208974, 21.9461, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

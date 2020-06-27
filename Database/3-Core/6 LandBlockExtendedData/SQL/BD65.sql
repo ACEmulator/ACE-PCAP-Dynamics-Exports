@@ -5,15 +5,15 @@ VALUES (0x7BD65001,  1154, 0xBD650005, 7.825495, 99.12814, 6, 0.9996821, 0, 0, -
 /* @teleloc 0xBD650005 [7.825495 99.128140 6.000000] 0.999682 0.000000 0.000000 -0.025214 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD65001, 0x7BD65002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BD65001, 0x7BD65003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BD65001, 0x7BD65004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD65001, 0x7BD65005, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BD65001, 0x7BD65006, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BD65001, 0x7BD65007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BD65001, 0x7BD65008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BD65001, 0x7BD65009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BD65001, 0x7BD6500A, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7BD65001, 0x7BD65002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BD65001, 0x7BD65003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD65001, 0x7BD65004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD65001, 0x7BD65005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BD65001, 0x7BD65006, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BD65001, 0x7BD65007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BD65001, 0x7BD65008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BD65001, 0x7BD65009, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BD65001, 0x7BD6500A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD65002,  2584, 0xBD650005, 7.825495, 99.12814, 6, 0.9996821, 0, 0, -0.02521418,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -56,7 +56,7 @@ VALUES (0x7BD6500B,  1542, 0xBD65001D, 86.40068, 101.347, 6, 0.8870109, 0, 0, -0
 /* @teleloc 0xBD65001D [86.400680 101.347000 6.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD6500B, 0x7BD6500C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BD6500B, 0x7BD6500C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD6500C,  4180, 0xBD65001D, 86.40068, 101.347, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Corpse */

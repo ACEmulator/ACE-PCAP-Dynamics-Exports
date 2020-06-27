@@ -5,12 +5,12 @@ VALUES (0x71B28001,  1154, 0x1B28003E, 191.4803, 127.3724, 80.92606, -0.9398385,
 /* @teleloc 0x1B28003E [191.480300 127.372400 80.926060] -0.939839 0.000000 0.000000 -0.341619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B28001, 0x71B28002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71B28001, 0x71B28003, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x71B28001, 0x71B28004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71B28001, 0x71B28005, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71B28001, 0x71B28006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71B28001, 0x71B28007, '2019-02-10 00:00:00') /* Entropy Wisp */;
+VALUES (0x71B28001, 0x71B28002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71B28001, 0x71B28003, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x71B28001, 0x71B28004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71B28001, 0x71B28005, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71B28001, 0x71B28006, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71B28001, 0x71B28007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B28002,  7982, 0x1B28003E, 191.4803, 127.3724, 80.92606, -0.9398385, 0, 0, -0.3416192,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

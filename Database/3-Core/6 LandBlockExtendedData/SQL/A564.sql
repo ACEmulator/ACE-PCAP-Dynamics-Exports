@@ -5,9 +5,9 @@ VALUES (0x7A564001,  1154, 0xA5640019, 83.58541, 1.829469, 24.0025, 0.9999992, 0
 /* @teleloc 0xA5640019 [83.585410 1.829469 24.002500] 0.999999 0.000000 0.000000 -0.001281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A564001, 0x7A564002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A564001, 0x7A564003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A564001, 0x7A564004, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7A564001, 0x7A564002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A564001, 0x7A564003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A564001, 0x7A564004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A564002, 38179, 0xA5640019, 83.58541, 1.829469, 24.0025, 0.9999992, 0, 0, -0.001280724,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -26,7 +26,7 @@ VALUES (0x7A564005,  1542, 0xA5640019, 92.77305, 0.2171173, 25.0244, 0.9659258, 
 /* @teleloc 0xA5640019 [92.773050 0.217117 25.024400] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A564005, 0x7A564006, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A564005, 0x7A564006, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A564006,  4180, 0xA5640019, 92.77305, 0.2171173, 25.0244, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,12 +5,12 @@ VALUES (0x72C94001,  1154, 0x2C94002E, 121.272, 129.1284, 25.674, -0.07388794, 0
 /* @teleloc 0x2C94002E [121.272000 129.128400 25.674000] -0.073888 0.000000 0.000000 -0.997267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C94001, 0x72C94002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x72C94001, 0x72C94003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72C94001, 0x72C94004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72C94001, 0x72C94005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72C94001, 0x72C94006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72C94001, 0x72C94007, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72C94001, 0x72C94002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x72C94001, 0x72C94003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72C94001, 0x72C94004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72C94001, 0x72C94005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72C94001, 0x72C94006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72C94001, 0x72C94007, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C94002, 14516, 0x2C94002E, 121.272, 129.1284, 25.674, -0.07388794, 0, 0, -0.9972665,  True, '2019-02-10 00:00:00'); /* Caustic */

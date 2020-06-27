@@ -5,24 +5,24 @@ VALUES (0x75FA4001,  1154, 0x5FA4003C, 181.9545, 83.11408, 65.25692, -0.4368345,
 /* @teleloc 0x5FA4003C [181.954500 83.114080 65.256920] -0.436835 0.000000 0.000000 -0.899542 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA4001, 0x75FA4002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75FA4001, 0x75FA4003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x75FA4001, 0x75FA4004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x75FA4001, 0x75FA4005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75FA4001, 0x75FA4006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FA4001, 0x75FA4007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75FA4001, 0x75FA4008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x75FA4001, 0x75FA4009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75FA4001, 0x75FA400A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75FA4001, 0x75FA400B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75FA4001, 0x75FA400C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75FA4001, 0x75FA400D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75FA4001, 0x75FA400E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75FA4001, 0x75FA400F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75FA4001, 0x75FA4010, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75FA4001, 0x75FA4011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75FA4001, 0x75FA4012, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x75FA4001, 0x75FA4013, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x75FA4001, 0x75FA4002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75FA4001, 0x75FA4003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x75FA4001, 0x75FA4004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x75FA4001, 0x75FA4005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75FA4001, 0x75FA4006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FA4001, 0x75FA4007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75FA4001, 0x75FA4008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x75FA4001, 0x75FA4009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75FA4001, 0x75FA400A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75FA4001, 0x75FA400B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75FA4001, 0x75FA400C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75FA4001, 0x75FA400D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75FA4001, 0x75FA400E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75FA4001, 0x75FA400F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75FA4001, 0x75FA4010, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75FA4001, 0x75FA4011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75FA4001, 0x75FA4012, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x75FA4001, 0x75FA4013, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA4002,  4253, 0x5FA4003C, 181.9545, 83.11408, 65.25692, -0.4368345, 0, 0, -0.8995419,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -101,9 +101,9 @@ VALUES (0x75FA4014,  1542, 0x5FA40017, 57.62618, 148.3106, 60.35921, -0.2028035,
 /* @teleloc 0x5FA40017 [57.626180 148.310600 60.359210] -0.202804 0.000000 0.000000 -0.979219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA4014, 0x75FA4015, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x75FA4014, 0x75FA4016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75FA4014, 0x75FA4017, '2019-02-10 00:00:00') /* Hyssop */;
+VALUES (0x75FA4014, 0x75FA4015, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x75FA4014, 0x75FA4016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75FA4014, 0x75FA4017, '2019-02-10 00:00:00') /* Hyssop (774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA4015,  8041, 0x5FA40017, 57.62618, 148.3106, 60.35921, -0.2028035, 0, 0, -0.9792194,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

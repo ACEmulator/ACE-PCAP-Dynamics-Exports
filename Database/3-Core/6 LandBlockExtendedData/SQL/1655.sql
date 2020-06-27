@@ -5,10 +5,10 @@ VALUES (0x71655001,  1154, 0x1655000C, 28.79786, 93.19988, 35.77666, 0.7071068, 
 /* @teleloc 0x1655000C [28.797860 93.199880 35.776660] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71655001, 0x71655002, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71655001, 0x71655003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71655001, 0x71655004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71655001, 0x71655005, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71655001, 0x71655002, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71655001, 0x71655003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71655001, 0x71655004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71655001, 0x71655005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71655002, 36837, 0x1655000C, 28.79786, 93.19988, 35.77666, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
@@ -31,7 +31,7 @@ VALUES (0x71655006,  1542, 0x1655000C, 25.57492, 90.6013, 35.55011, -4.371139E-0
 /* @teleloc 0x1655000C [25.574920 90.601300 35.550110] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71655006, 0x71655007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71655006, 0x71655007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71655007,  4380, 0x1655000C, 25.57492, 90.6013, 35.55011, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

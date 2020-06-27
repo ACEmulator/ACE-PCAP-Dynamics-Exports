@@ -5,33 +5,33 @@ VALUES (0x71AB2001,  1154, 0x1AB20011, 69.24345, 14.06284, 20.23571, -0.1621104,
 /* @teleloc 0x1AB20011 [69.243450 14.062840 20.235710] -0.162110 0.000000 0.000000 -0.986773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB2001, 0x71AB2002, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x71AB2001, 0x71AB2003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x71AB2001, 0x71AB2004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB2001, 0x71AB2005, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71AB2001, 0x71AB2006, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB2001, 0x71AB2007, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71AB2001, 0x71AB2008, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x71AB2001, 0x71AB2009, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71AB2001, 0x71AB200A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x71AB2001, 0x71AB200B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x71AB2001, 0x71AB200C, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71AB2001, 0x71AB200D, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71AB2001, 0x71AB200E, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB2001, 0x71AB200F, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x71AB2001, 0x71AB2010, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB2001, 0x71AB2011, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x71AB2001, 0x71AB2012, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71AB2001, 0x71AB2013, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB2001, 0x71AB2014, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x71AB2001, 0x71AB2015, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x71AB2001, 0x71AB2016, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x71AB2001, 0x71AB2017, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71AB2001, 0x71AB2018, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x71AB2001, 0x71AB2019, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x71AB2001, 0x71AB201A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x71AB2001, 0x71AB201B, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71AB2001, 0x71AB201C, '2019-02-10 00:00:00') /* Highwayman */;
+VALUES (0x71AB2001, 0x71AB2002, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x71AB2001, 0x71AB2003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x71AB2001, 0x71AB2004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB2001, 0x71AB2005, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71AB2001, 0x71AB2006, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB2001, 0x71AB2007, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71AB2001, 0x71AB2008, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x71AB2001, 0x71AB2009, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71AB2001, 0x71AB200A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x71AB2001, 0x71AB200B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x71AB2001, 0x71AB200C, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71AB2001, 0x71AB200D, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71AB2001, 0x71AB200E, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB2001, 0x71AB200F, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x71AB2001, 0x71AB2010, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB2001, 0x71AB2011, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x71AB2001, 0x71AB2012, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71AB2001, 0x71AB2013, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB2001, 0x71AB2014, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x71AB2001, 0x71AB2015, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x71AB2001, 0x71AB2016, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x71AB2001, 0x71AB2017, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71AB2001, 0x71AB2018, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x71AB2001, 0x71AB2019, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x71AB2001, 0x71AB201A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x71AB2001, 0x71AB201B, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71AB2001, 0x71AB201C, '2019-02-10 00:00:00') /* Highwayman (11503) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB2002, 11523, 0x1AB20011, 69.24345, 14.06284, 20.23571, -0.1621104, 0, 0, -0.9867727,  True, '2019-02-10 00:00:00'); /* Hea Warrior */
@@ -146,14 +146,14 @@ VALUES (0x71AB201D,  1542, 0x1AB20024, 108.0672, 79.83771, 23, 1, 0, 0, 0, False
 /* @teleloc 0x1AB20024 [108.067200 79.837710 23.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB201D, 0x71AB201E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AB201D, 0x71AB201F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71AB201D, 0x71AB2020, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AB201D, 0x71AB2021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71AB201D, 0x71AB2022, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AB201D, 0x71AB2023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71AB201D, 0x71AB2024, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71AB201D, 0x71AB2025, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71AB201D, 0x71AB201E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AB201D, 0x71AB201F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71AB201D, 0x71AB2020, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AB201D, 0x71AB2021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71AB201D, 0x71AB2022, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AB201D, 0x71AB2023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71AB201D, 0x71AB2024, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71AB201D, 0x71AB2025, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB201E,  9024, 0x1AB20024, 108.0672, 79.83771, 23, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

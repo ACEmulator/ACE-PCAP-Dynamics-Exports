@@ -5,14 +5,14 @@ VALUES (0x7CB77001,  1154, 0xCB77001C, 77.42036, 81.1732, 15.69826, 0.8383726, 0
 /* @teleloc 0xCB77001C [77.420360 81.173200 15.698260] 0.838373 0.000000 0.000000 -0.545098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB77001, 0x7CB77002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CB77001, 0x7CB77003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CB77001, 0x7CB77004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7CB77001, 0x7CB77005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CB77001, 0x7CB77006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7CB77001, 0x7CB77007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CB77001, 0x7CB77008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CB77001, 0x7CB77009, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7CB77001, 0x7CB77002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CB77001, 0x7CB77003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CB77001, 0x7CB77004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7CB77001, 0x7CB77005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CB77001, 0x7CB77006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7CB77001, 0x7CB77007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CB77001, 0x7CB77008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CB77001, 0x7CB77009, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB77002,   200, 0xCB77001C, 77.42036, 81.1732, 15.69826, 0.8383726, 0, 0, -0.5450976,  True, '2019-02-10 00:00:00'); /* Mud Golem */

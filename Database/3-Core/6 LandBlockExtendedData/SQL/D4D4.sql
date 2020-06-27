@@ -5,12 +5,12 @@ VALUES (0x7D4D4001,  1154, 0xD4D40034, 166.0113, 82.9979, 3.251224, 0.7071068, 0
 /* @teleloc 0xD4D40034 [166.011300 82.997900 3.251224] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4D4001, 0x7D4D4002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D4D4001, 0x7D4D4003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D4D4001, 0x7D4D4004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D4D4001, 0x7D4D4005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D4D4001, 0x7D4D4006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D4D4001, 0x7D4D4007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7D4D4001, 0x7D4D4002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D4D4001, 0x7D4D4003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D4D4001, 0x7D4D4004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D4D4001, 0x7D4D4005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D4D4001, 0x7D4D4006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D4D4001, 0x7D4D4007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4D4002,  7988, 0xD4D40034, 166.0113, 82.9979, 3.251224, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

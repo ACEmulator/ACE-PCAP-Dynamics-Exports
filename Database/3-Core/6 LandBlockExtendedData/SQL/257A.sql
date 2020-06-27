@@ -5,17 +5,17 @@ VALUES (0x7257A001,  1154, 0x257A0013, 51.41016, 71.56323, 103.0809, -0.9270536,
 /* @teleloc 0x257A0013 [51.410160 71.563230 103.080900] -0.927054 0.000000 0.000000 -0.374929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257A001, 0x7257A002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7257A001, 0x7257A003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7257A001, 0x7257A004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7257A001, 0x7257A005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7257A001, 0x7257A006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7257A001, 0x7257A007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7257A001, 0x7257A008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7257A001, 0x7257A009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7257A001, 0x7257A00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7257A001, 0x7257A00B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7257A001, 0x7257A00C, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x7257A001, 0x7257A002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7257A001, 0x7257A003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7257A001, 0x7257A004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7257A001, 0x7257A005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7257A001, 0x7257A006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7257A001, 0x7257A007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7257A001, 0x7257A008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7257A001, 0x7257A009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7257A001, 0x7257A00A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7257A001, 0x7257A00B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7257A001, 0x7257A00C, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257A002, 36833, 0x257A0013, 51.41016, 71.56323, 103.0809, -0.9270536, 0, 0, -0.3749288,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -66,9 +66,9 @@ VALUES (0x7257A00D,  1542, 0x257A0029, 123.6411, 8.127785, 101.9615, -0.04959983
 /* @teleloc 0x257A0029 [123.641100 8.127785 101.961500] -0.049600 0.000000 0.000000 -0.998769 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257A00D, 0x7257A00E, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7257A00D, 0x7257A00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7257A00D, 0x7257A010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7257A00D, 0x7257A00E, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7257A00D, 0x7257A00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7257A00D, 0x7257A010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257A00E,  8646, 0x257A0029, 123.6411, 8.127785, 101.9615, -0.04959983, 0, 0, -0.9987692,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

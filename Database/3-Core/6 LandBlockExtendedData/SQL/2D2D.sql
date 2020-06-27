@@ -5,17 +5,17 @@ VALUES (0x72D2D001,  1154, 0x2D2D0038, 161.5116, 175.2689, 67.49656, 0.9079686, 
 /* @teleloc 0x2D2D0038 [161.511600 175.268900 67.496560] 0.907969 0.000000 0.000000 -0.419038 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D2D001, 0x72D2D002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72D2D001, 0x72D2D003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72D2D001, 0x72D2D004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72D2D001, 0x72D2D005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72D2D001, 0x72D2D006, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72D2D001, 0x72D2D007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72D2D001, 0x72D2D008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72D2D001, 0x72D2D009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D2D001, 0x72D2D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D2D001, 0x72D2D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D2D001, 0x72D2D00C, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x72D2D001, 0x72D2D002, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72D2D001, 0x72D2D003, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72D2D001, 0x72D2D004, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72D2D001, 0x72D2D005, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72D2D001, 0x72D2D006, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72D2D001, 0x72D2D007, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72D2D001, 0x72D2D008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72D2D001, 0x72D2D009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D2D001, 0x72D2D00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D2D001, 0x72D2D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D2D001, 0x72D2D00C, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D2D002, 23480, 0x2D2D0038, 161.5116, 175.2689, 67.49656, 0.9079686, 0, 0, -0.4190381,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -66,7 +66,7 @@ VALUES (0x72D2D00D,  1542, 0x2D2D0040, 180.0707, 184.6568, 60.88107, 1, 0, 0, 0,
 /* @teleloc 0x2D2D0040 [180.070700 184.656800 60.881070] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D2D00D, 0x72D2D00E, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72D2D00D, 0x72D2D00E, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D2D00E,  8999, 0x2D2D0040, 180.0707, 184.6568, 60.88107, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

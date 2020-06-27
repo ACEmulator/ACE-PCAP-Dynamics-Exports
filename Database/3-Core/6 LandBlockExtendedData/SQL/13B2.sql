@@ -13,22 +13,22 @@ VALUES (0x713B2003,  1154, 0x13B20101, 35, 64, 12.604, 0.7071068, 0, 0, -0.70710
 /* @teleloc 0x13B20101 [35.000000 64.000000 12.604000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713B2003, 0x713B2004, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2005, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2006, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2007, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2008, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2009, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200A, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200B, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200C, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200D, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200E, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B200F, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2010, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2011, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2012, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman */
-     , (0x713B2003, 0x713B2013, '2019-02-10 00:00:00') /* Hea Windreave */;
+VALUES (0x713B2003, 0x713B2004, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2005, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2006, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2007, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2008, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2009, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (39013) */
+     , (0x713B2003, 0x713B200A, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B200B, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B200C, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B200D, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B200E, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B200F, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2010, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2011, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2012, '2019-02-10 00:00:00') /* Blighted Pallid Moarsman (37419) */
+     , (0x713B2003, 0x713B2013, '2019-02-10 00:00:00') /* Hea Windreave (11524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713B2004, 37419, 0x13B20101, 35, 64, 12.604, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blighted Pallid Moarsman */

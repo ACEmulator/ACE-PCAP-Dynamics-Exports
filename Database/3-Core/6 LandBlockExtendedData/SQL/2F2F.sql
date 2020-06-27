@@ -9,361 +9,361 @@ VALUES (0x72F2F03B,  1154, 0x2F2F0034, 144.193, 73.4109, 2.011, 0.9653275, 0, 0,
 /* @teleloc 0x2F2F0034 [144.193000 73.410900 2.011000] 0.965328 0.000000 0.000000 -0.261042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F03B, 0x72F2F03C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F03D, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F03E, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72F2F03B, 0x72F2F03F, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F040, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F041, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F042, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F043, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F044, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72F2F03B, 0x72F2F045, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F046, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F047, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F048, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F049, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F04A, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F04B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F04C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F04D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2F03B, 0x72F2F04E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2F03B, 0x72F2F04F, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F050, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F051, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F052, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F053, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F054, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F055, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F056, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F057, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F058, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F059, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F05A, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F05B, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F05C, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F05D, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F05E, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F05F, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F060, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F061, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F062, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F063, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F064, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F065, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F066, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F067, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F068, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2F03B, 0x72F2F069, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2F03B, 0x72F2F06A, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2F03B, 0x72F2F06B, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2F03B, 0x72F2F06C, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2F03B, 0x72F2F06D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2F03B, 0x72F2F06E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2F03B, 0x72F2F06F, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2F03B, 0x72F2F070, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2F03B, 0x72F2F071, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2F03B, 0x72F2F072, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F073, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F074, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F075, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F076, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F077, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F078, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F079, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F07A, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F07B, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F07C, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F07D, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F07E, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F07F, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F080, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F081, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F082, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F083, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F084, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F085, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F086, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F087, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F088, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F089, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F08A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F08B, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F08C, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F08D, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F08E, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F08F, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F090, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F091, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F092, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F093, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2F03B, 0x72F2F094, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F095, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F096, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2F03B, 0x72F2F097, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F098, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F099, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F09A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F09B, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F09C, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F09D, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F09E, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F09F, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F0A0, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F0A1, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F0A2, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0A3, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0A4, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F0A5, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F0A6, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F0A7, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0A8, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0A9, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F0AA, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0AB, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F0AC, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0AD, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0AE, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F0AF, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0B0, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0B1, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0B2, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0B3, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2F03B, 0x72F2F0B4, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F0B5, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2F03B, 0x72F2F0B6, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0B7, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0B8, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0B9, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0BA, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0BB, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0BC, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F0BD, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2F03B, 0x72F2F0BE, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2F03B, 0x72F2F0BF, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F0C0, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F0C1, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2F03B, 0x72F2F0C2, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2F03B, 0x72F2F0C3, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0C4, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2F03B, 0x72F2F0C5, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0C6, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2F03B, 0x72F2F0C7, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0C8, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F0C9, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2F03B, 0x72F2F0CA, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72F2F03B, 0x72F2F0CB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72F2F03B, 0x72F2F0CC, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72F2F03B, 0x72F2F0CD, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F0CE, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F0CF, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F0D0, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F0D1, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F0D2, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0D3, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0D4, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2F03B, 0x72F2F0D5, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2F03B, 0x72F2F0D6, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2F03B, 0x72F2F0D7, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F0D8, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0D9, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F0DA, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0DB, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0DC, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0DD, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0DE, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0DF, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0E0, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0E1, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E2, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E3, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E4, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E5, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E6, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E7, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0E8, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F0E9, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x72F2F03B, 0x72F2F0EA, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F0EB, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F0EC, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F0ED, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0EE, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F0EF, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0F0, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F0F1, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2F03B, 0x72F2F0F2, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F3, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F4, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F5, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F6, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F7, '2019-02-10 00:00:00') /* Tusker Protector */
-     , (0x72F2F03B, 0x72F2F0F8, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0F9, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F0FA, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F0FB, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0FC, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0FD, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0FE, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F0FF, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F100, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F101, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F102, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F103, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F104, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F105, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F106, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F107, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2F03B, 0x72F2F108, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F2F03B, 0x72F2F109, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F10A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F10B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F10C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F10D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F10E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F10F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F110, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F111, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F112, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F113, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F114, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F115, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F116, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F117, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F118, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F119, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F11A, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F11B, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F11C, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F11D, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F11E, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F11F, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F120, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F121, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F122, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F123, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F124, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F125, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F126, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F127, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F128, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F129, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F12A, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F12B, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F12C, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F12D, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F12E, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2F03B, 0x72F2F12F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F130, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F131, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F132, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F133, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F134, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F135, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F136, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F137, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2F03B, 0x72F2F138, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F2F03B, 0x72F2F139, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2F03B, 0x72F2F13A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2F03B, 0x72F2F13B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2F03B, 0x72F2F13C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2F03B, 0x72F2F13D, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F13E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2F03B, 0x72F2F13F, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F140, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F141, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F142, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F143, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F144, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F145, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F146, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F147, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F148, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F149, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F14A, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F14B, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F14C, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F14D, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F14E, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2F03B, 0x72F2F14F, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2F03B, 0x72F2F150, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2F03B, 0x72F2F151, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2F03B, 0x72F2F152, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2F03B, 0x72F2F153, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F154, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F155, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F156, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F157, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2F03B, 0x72F2F158, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F159, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F15A, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F15B, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F15C, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F15D, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F15E, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F15F, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F160, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F161, '2019-02-10 00:00:00') /* Virindi Protector */
-     , (0x72F2F03B, 0x72F2F162, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2F03B, 0x72F2F163, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F164, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F165, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F166, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F167, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2F03B, 0x72F2F168, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F169, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F16A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F16B, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F16C, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F16D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F16E, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F16F, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F170, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F171, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2F03B, 0x72F2F172, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2F03B, 0x72F2F173, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F174, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F175, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F176, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F177, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F178, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F179, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F17A, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F17B, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F17C, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2F03B, 0x72F2F17D, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x72F2F03B, 0x72F2F17E, '2019-02-10 00:00:00') /* Mosswart Protector */
-     , (0x72F2F03B, 0x72F2F17F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2F03B, 0x72F2F180, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2F03B, 0x72F2F181, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2F03B, 0x72F2F182, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2F03B, 0x72F2F183, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2F03B, 0x72F2F184, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2F03B, 0x72F2F185, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2F03B, 0x72F2F186, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2F03B, 0x72F2F187, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2F03B, 0x72F2F188, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2F03B, 0x72F2F189, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2F03B, 0x72F2F18A, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2F03B, 0x72F2F18B, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2F03B, 0x72F2F18C, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F18D, '2019-02-10 00:00:00') /* Olthoi Protector */
-     , (0x72F2F03B, 0x72F2F18E, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F18F, '2019-02-10 00:00:00') /* Shadow Protector */
-     , (0x72F2F03B, 0x72F2F190, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2F03B, 0x72F2F191, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2F03B, 0x72F2F192, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F193, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2F03B, 0x72F2F194, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F195, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x72F2F03B, 0x72F2F196, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2F03B, 0x72F2F197, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72F2F03B, 0x72F2F198, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2F03B, 0x72F2F199, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2F03B, 0x72F2F19A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2F03B, 0x72F2F19B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2F03B, 0x72F2F19C, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2F03B, 0x72F2F19D, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2F03B, 0x72F2F19E, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x72F2F03B, 0x72F2F03C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F03D, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F03E, '2019-02-10 00:00:00') /* Exploration Marker (39787) */
+     , (0x72F2F03B, 0x72F2F03F, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F040, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F041, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F042, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F043, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F044, '2019-02-10 00:00:00') /* Exploration Marker (39840) */
+     , (0x72F2F03B, 0x72F2F045, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F046, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F047, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F048, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F049, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F04A, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F04B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F04C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F04D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2F03B, 0x72F2F04E, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2F03B, 0x72F2F04F, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F050, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F051, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F052, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F053, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F054, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F055, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F056, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F057, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F058, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F059, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F05A, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F05B, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F05C, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F05D, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F05E, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F05F, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F060, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F061, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F062, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F063, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F064, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F065, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F066, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F067, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F068, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2F03B, 0x72F2F069, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2F03B, 0x72F2F06A, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2F03B, 0x72F2F06B, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2F03B, 0x72F2F06C, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2F03B, 0x72F2F06D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2F03B, 0x72F2F06E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2F03B, 0x72F2F06F, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72F2F03B, 0x72F2F070, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72F2F03B, 0x72F2F071, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x72F2F03B, 0x72F2F072, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F073, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F074, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F075, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F076, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F077, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F078, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F079, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F07A, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F07B, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F07C, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F07D, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F07E, '2019-02-10 00:00:00') /* Aerbax's Shadow (37378) */
+     , (0x72F2F03B, 0x72F2F07F, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F080, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F081, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F082, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F083, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F084, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F085, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F086, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F087, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F088, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F089, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F08A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F08B, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F08C, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F08D, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F08E, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F08F, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F090, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F091, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F092, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F093, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2F03B, 0x72F2F094, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F095, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F096, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2F03B, 0x72F2F097, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F098, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F099, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F09A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F09B, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F09C, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F09D, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F09E, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F09F, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F0A0, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F0A1, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F0A2, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0A3, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0A4, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F0A5, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F0A6, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F0A7, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0A8, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0A9, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F0AA, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0AB, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F0AC, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0AD, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0AE, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F0AF, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0B0, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0B1, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0B2, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0B3, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2F03B, 0x72F2F0B4, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F0B5, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2F03B, 0x72F2F0B6, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0B7, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0B8, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0B9, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0BA, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0BB, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0BC, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F0BD, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2F03B, 0x72F2F0BE, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2F03B, 0x72F2F0BF, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F0C0, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F0C1, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2F03B, 0x72F2F0C2, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2F03B, 0x72F2F0C3, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0C4, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2F03B, 0x72F2F0C5, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0C6, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2F03B, 0x72F2F0C7, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0C8, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F0C9, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2F03B, 0x72F2F0CA, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72F2F03B, 0x72F2F0CB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72F2F03B, 0x72F2F0CC, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72F2F03B, 0x72F2F0CD, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F0CE, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F0CF, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F0D0, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F0D1, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F0D2, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0D3, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0D4, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72F2F03B, 0x72F2F0D5, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2F03B, 0x72F2F0D6, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2F03B, 0x72F2F0D7, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F0D8, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0D9, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F0DA, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0DB, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0DC, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0DD, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0DE, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0DF, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0E0, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0E1, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E2, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E3, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E4, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E5, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E6, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E7, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0E8, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F0E9, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x72F2F03B, 0x72F2F0EA, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F0EB, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F0EC, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F0ED, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0EE, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F0EF, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0F0, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F0F1, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2F03B, 0x72F2F0F2, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F3, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F4, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F5, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F6, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F7, '2019-02-10 00:00:00') /* Tusker Protector (36967) */
+     , (0x72F2F03B, 0x72F2F0F8, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0F9, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F0FA, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F0FB, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0FC, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0FD, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0FE, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F0FF, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F100, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F101, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F102, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F103, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F104, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F105, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F106, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F107, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2F03B, 0x72F2F108, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72F2F03B, 0x72F2F109, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F10A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F10B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F10C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F10D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F10E, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F10F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F110, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F111, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F112, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F113, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F114, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F115, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F116, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F117, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F118, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F119, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F11A, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F11B, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F11C, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F11D, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F11E, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F11F, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F120, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F121, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F122, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F123, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F124, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F125, '2019-02-10 00:00:00') /* Elemental Protector (36957) */
+     , (0x72F2F03B, 0x72F2F126, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F127, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F128, '2019-02-10 00:00:00') /* Elemental Protector (36956) */
+     , (0x72F2F03B, 0x72F2F129, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F12A, '2019-02-10 00:00:00') /* Elemental Protector (36955) */
+     , (0x72F2F03B, 0x72F2F12B, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F12C, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F12D, '2019-02-10 00:00:00') /* Elemental Protector (36955) */
+     , (0x72F2F03B, 0x72F2F12E, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2F03B, 0x72F2F12F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F130, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F131, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F132, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F133, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F134, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F135, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F136, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F137, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2F03B, 0x72F2F138, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F2F03B, 0x72F2F139, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2F03B, 0x72F2F13A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2F03B, 0x72F2F13B, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2F03B, 0x72F2F13C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2F03B, 0x72F2F13D, '2019-02-10 00:00:00') /* Aerbax's Shadow (37378) */
+     , (0x72F2F03B, 0x72F2F13E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2F03B, 0x72F2F13F, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F140, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F141, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F142, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F143, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F144, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F145, '2019-02-10 00:00:00') /* Elemental Protector (36955) */
+     , (0x72F2F03B, 0x72F2F146, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F147, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F148, '2019-02-10 00:00:00') /* Elemental Protector (36957) */
+     , (0x72F2F03B, 0x72F2F149, '2019-02-10 00:00:00') /* Elemental Protector (36956) */
+     , (0x72F2F03B, 0x72F2F14A, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F14B, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F14C, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F14D, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F14E, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2F03B, 0x72F2F14F, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2F03B, 0x72F2F150, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2F03B, 0x72F2F151, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2F03B, 0x72F2F152, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2F03B, 0x72F2F153, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F154, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F155, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F156, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F157, '2019-02-10 00:00:00') /* Aerbax's Shadow (36951) */
+     , (0x72F2F03B, 0x72F2F158, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F159, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F15A, '2019-02-10 00:00:00') /* Elemental Protector (36957) */
+     , (0x72F2F03B, 0x72F2F15B, '2019-02-10 00:00:00') /* Elemental Protector (36957) */
+     , (0x72F2F03B, 0x72F2F15C, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F15D, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F15E, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F15F, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F160, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F161, '2019-02-10 00:00:00') /* Virindi Protector (36972) */
+     , (0x72F2F03B, 0x72F2F162, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2F03B, 0x72F2F163, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F164, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F165, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F166, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F167, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2F03B, 0x72F2F168, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F169, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F16A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F16B, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F16C, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F16D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F16E, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F16F, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F170, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F171, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2F03B, 0x72F2F172, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2F03B, 0x72F2F173, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F174, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F175, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F176, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F177, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F178, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F179, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F17A, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F17B, '2019-02-10 00:00:00') /* Elemental Protector (36957) */
+     , (0x72F2F03B, 0x72F2F17C, '2019-02-10 00:00:00') /* Elemental Protector (36954) */
+     , (0x72F2F03B, 0x72F2F17D, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x72F2F03B, 0x72F2F17E, '2019-02-10 00:00:00') /* Mosswart Protector (36960) */
+     , (0x72F2F03B, 0x72F2F17F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F03B, 0x72F2F180, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2F03B, 0x72F2F181, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2F03B, 0x72F2F182, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2F03B, 0x72F2F183, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72F2F03B, 0x72F2F184, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2F03B, 0x72F2F185, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2F03B, 0x72F2F186, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2F03B, 0x72F2F187, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2F03B, 0x72F2F188, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2F03B, 0x72F2F189, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2F03B, 0x72F2F18A, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2F03B, 0x72F2F18B, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2F03B, 0x72F2F18C, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F18D, '2019-02-10 00:00:00') /* Olthoi Protector (36961) */
+     , (0x72F2F03B, 0x72F2F18E, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F18F, '2019-02-10 00:00:00') /* Shadow Protector (36964) */
+     , (0x72F2F03B, 0x72F2F190, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2F03B, 0x72F2F191, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2F03B, 0x72F2F192, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F193, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72F2F03B, 0x72F2F194, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F195, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F03B, 0x72F2F196, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2F03B, 0x72F2F197, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72F2F03B, 0x72F2F198, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2F03B, 0x72F2F199, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2F03B, 0x72F2F19A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2F03B, 0x72F2F19B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2F03B, 0x72F2F19C, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2F03B, 0x72F2F19D, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2F03B, 0x72F2F19E, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F03C,  1629, 0x2F2F0034, 144.193, 73.4109, 2.011, 0.9653275, 0, 0, -0.2610418,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -1790,49 +1790,49 @@ VALUES (0x72F2F19F,  1542, 0x2F2F002A, 132, 44.51909, 148.6, -4.371139E-08, 0, 0
 /* @teleloc 0x2F2F002A [132.000000 44.519090 148.600000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F19F, 0x72F2F1A0, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1A1, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1A2, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1A3, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F2F19F, 0x72F2F1A4, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1A5, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1A6, '2019-02-10 00:00:00') /* Emissary's Return Portal */
-     , (0x72F2F19F, 0x72F2F1A7, '2019-02-10 00:00:00') /* Emissary's Return Portal */
-     , (0x72F2F19F, 0x72F2F1A8, '2019-02-10 00:00:00') /* Emissary's Return Portal */
-     , (0x72F2F19F, 0x72F2F1A9, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x72F2F19F, 0x72F2F1AA, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F2F19F, 0x72F2F1AB, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F2F19F, 0x72F2F1AC, '2019-02-10 00:00:00') /* Emissary's Return Portal */
-     , (0x72F2F19F, 0x72F2F1AD, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1AE, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1AF, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F2F19F, 0x72F2F1B0, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1B1, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1B2, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1B3, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1B4, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1B5, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1B6, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1B7, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1B8, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1B9, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1BA, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1BB, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1BC, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2F19F, 0x72F2F1BD, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1BE, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2F19F, 0x72F2F1BF, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1C0, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1C1, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1C2, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1C3, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2F19F, 0x72F2F1C4, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1C5, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1C6, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1C7, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1C8, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F2F19F, 0x72F2F1C9, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2F19F, 0x72F2F1CA, '2019-02-10 00:00:00') /* Spear */;
+VALUES (0x72F2F19F, 0x72F2F1A0, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1A1, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1A2, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1A3, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F2F19F, 0x72F2F1A4, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1A5, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1A6, '2019-02-10 00:00:00') /* Emissary's Return Portal (37047) */
+     , (0x72F2F19F, 0x72F2F1A7, '2019-02-10 00:00:00') /* Emissary's Return Portal (37047) */
+     , (0x72F2F19F, 0x72F2F1A8, '2019-02-10 00:00:00') /* Emissary's Return Portal (37047) */
+     , (0x72F2F19F, 0x72F2F1A9, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x72F2F19F, 0x72F2F1AA, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F2F19F, 0x72F2F1AB, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72F2F19F, 0x72F2F1AC, '2019-02-10 00:00:00') /* Emissary's Return Portal (37047) */
+     , (0x72F2F19F, 0x72F2F1AD, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1AE, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1AF, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F2F19F, 0x72F2F1B0, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1B1, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1B2, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1B3, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1B4, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1B5, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1B6, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1B7, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1B8, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1B9, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1BA, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1BB, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1BC, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2F19F, 0x72F2F1BD, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1BE, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2F19F, 0x72F2F1BF, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1C0, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1C1, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1C2, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1C3, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2F19F, 0x72F2F1C4, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1C5, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1C6, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1C7, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1C8, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F2F19F, 0x72F2F1C9, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2F19F, 0x72F2F1CA, '2019-02-10 00:00:00') /* Spear (35569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F1A0, 33498, 0x2F2F002A, 132, 44.51909, 148.6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Dark Vortex */

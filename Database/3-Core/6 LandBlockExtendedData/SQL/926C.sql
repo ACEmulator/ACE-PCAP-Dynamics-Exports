@@ -5,9 +5,9 @@ VALUES (0x7926C001,  1154, 0x926C0023, 117.7814, 62.18005, 14.83578, 0.7069722, 
 /* @teleloc 0x926C0023 [117.781400 62.180050 14.835780] 0.706972 0.000000 0.000000 -0.707241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7926C001, 0x7926C002, '2019-02-10 00:00:00') /* Flicker */
-     , (0x7926C001, 0x7926C003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7926C001, 0x7926C004, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x7926C001, 0x7926C002, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x7926C001, 0x7926C003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7926C001, 0x7926C004, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7926C002,  5705, 0x926C0023, 117.7814, 62.18005, 14.83578, 0.7069722, 0, 0, -0.7072414,  True, '2019-02-10 00:00:00'); /* Flicker */

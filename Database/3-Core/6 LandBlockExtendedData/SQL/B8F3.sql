@@ -5,33 +5,33 @@ VALUES (0x7B8F3001,  1154, 0xB8F3003E, 176.898, 121.1198, 39.09583, 1, 0, 0, 0, 
 /* @teleloc 0xB8F3003E [176.898000 121.119800 39.095830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8F3001, 0x7B8F3002, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B8F3001, 0x7B8F3003, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B8F3001, 0x7B8F3004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B8F3001, 0x7B8F3005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7B8F3001, 0x7B8F3006, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B8F3001, 0x7B8F3007, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B8F3001, 0x7B8F3008, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B8F3001, 0x7B8F3009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B8F3001, 0x7B8F300A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B8F3001, 0x7B8F300B, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B8F3001, 0x7B8F300C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B8F3001, 0x7B8F300D, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7B8F3001, 0x7B8F300E, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B8F3001, 0x7B8F300F, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7B8F3001, 0x7B8F3010, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7B8F3001, 0x7B8F3011, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B8F3001, 0x7B8F3012, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B8F3001, 0x7B8F3013, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7B8F3001, 0x7B8F3014, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B8F3001, 0x7B8F3015, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B8F3001, 0x7B8F3016, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B8F3001, 0x7B8F3017, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B8F3001, 0x7B8F3018, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B8F3001, 0x7B8F3019, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B8F3001, 0x7B8F301A, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B8F3001, 0x7B8F301B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7B8F3001, 0x7B8F301C, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7B8F3001, 0x7B8F3002, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B8F3001, 0x7B8F3003, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B8F3001, 0x7B8F3004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B8F3001, 0x7B8F3005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7B8F3001, 0x7B8F3006, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B8F3001, 0x7B8F3007, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B8F3001, 0x7B8F3008, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B8F3001, 0x7B8F3009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B8F3001, 0x7B8F300A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B8F3001, 0x7B8F300B, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B8F3001, 0x7B8F300C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B8F3001, 0x7B8F300D, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7B8F3001, 0x7B8F300E, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B8F3001, 0x7B8F300F, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7B8F3001, 0x7B8F3010, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7B8F3001, 0x7B8F3011, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B8F3001, 0x7B8F3012, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B8F3001, 0x7B8F3013, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7B8F3001, 0x7B8F3014, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B8F3001, 0x7B8F3015, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B8F3001, 0x7B8F3016, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B8F3001, 0x7B8F3017, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B8F3001, 0x7B8F3018, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B8F3001, 0x7B8F3019, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B8F3001, 0x7B8F301A, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B8F3001, 0x7B8F301B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7B8F3001, 0x7B8F301C, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8F3002, 28243, 0xB8F3003E, 176.898, 121.1198, 39.09583, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Haunt */
@@ -146,8 +146,8 @@ VALUES (0x7B8F301D,  1542, 0xB8F3001D, 81.6951, 116.6836, 46.7115, 1, 0, 0, 0, F
 /* @teleloc 0xB8F3001D [81.695100 116.683600 46.711500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8F301D, 0x7B8F301E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B8F301D, 0x7B8F301F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B8F301D, 0x7B8F301E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B8F301D, 0x7B8F301F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8F301E,  4179, 0xB8F3001D, 81.6951, 116.6836, 46.7115, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

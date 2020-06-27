@@ -5,11 +5,11 @@ VALUES (0x72E17001,  1154, 0x2E170018, 50.48878, 178.5238, 10.8381, -0.9769485, 
 /* @teleloc 0x2E170018 [50.488780 178.523800 10.838100] -0.976949 0.000000 0.000000 -0.213475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E17001, 0x72E17002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72E17001, 0x72E17003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E17001, 0x72E17004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E17001, 0x72E17005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E17001, 0x72E17006, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x72E17001, 0x72E17002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72E17001, 0x72E17003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E17001, 0x72E17004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E17001, 0x72E17005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E17001, 0x72E17006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E17002,  7092, 0x2E170018, 50.48878, 178.5238, 10.8381, -0.9769485, 0, 0, -0.2134751,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -36,8 +36,8 @@ VALUES (0x72E17007,  1542, 0x2E17000F, 43.57322, 159.3036, 10.7378, -0.9769485, 
 /* @teleloc 0x2E17000F [43.573220 159.303600 10.737800] -0.976949 0.000000 0.000000 -0.213475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E17007, 0x72E17008, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x72E17007, 0x72E17009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72E17007, 0x72E17008, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x72E17007, 0x72E17009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E17008, 11554, 0x2E17000F, 43.57322, 159.3036, 10.7378, -0.9769485, 0, 0, -0.2134751,  True, '2019-02-10 00:00:00'); /* Colban Plant */

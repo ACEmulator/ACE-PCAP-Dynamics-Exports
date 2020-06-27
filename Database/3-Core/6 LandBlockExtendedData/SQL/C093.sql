@@ -5,14 +5,14 @@ VALUES (0x7C093001,  1154, 0xC0930002, 5.324312, 25.96164, 6, 0.4226182, 0, 0, -
 /* @teleloc 0xC0930002 [5.324312 25.961640 6.000000] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C093001, 0x7C093002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C093001, 0x7C093003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C093001, 0x7C093004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C093001, 0x7C093005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C093001, 0x7C093006, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C093001, 0x7C093007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C093001, 0x7C093008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C093001, 0x7C093009, '2019-02-10 00:00:00') /* Spiny Armoredillo */;
+VALUES (0x7C093001, 0x7C093002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C093001, 0x7C093003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C093001, 0x7C093004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C093001, 0x7C093005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C093001, 0x7C093006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C093001, 0x7C093007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C093001, 0x7C093008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C093001, 0x7C093009, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C093002,   192, 0xC0930002, 5.324312, 25.96164, 6, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

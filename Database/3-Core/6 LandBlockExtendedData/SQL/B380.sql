@@ -5,10 +5,10 @@ VALUES (0x7B380001,  1154, 0xB3800027, 115.0884, 147.6771, 28.10538, 0.7071068, 
 /* @teleloc 0xB3800027 [115.088400 147.677100 28.105380] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B380001, 0x7B380002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B380001, 0x7B380003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B380001, 0x7B380004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B380001, 0x7B380005, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B380001, 0x7B380002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B380001, 0x7B380003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B380001, 0x7B380004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B380001, 0x7B380005, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B380002,  1762, 0xB3800027, 115.0884, 147.6771, 28.10538, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -31,7 +31,7 @@ VALUES (0x7B380006,  1542, 0xB3800027, 112.4482, 149.0448, 28.20892, 1, 0, 0, 0,
 /* @teleloc 0xB3800027 [112.448200 149.044800 28.208920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B380006, 0x7B380007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B380006, 0x7B380007, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B380007, 22570, 0xB3800027, 112.4482, 149.0448, 28.20892, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

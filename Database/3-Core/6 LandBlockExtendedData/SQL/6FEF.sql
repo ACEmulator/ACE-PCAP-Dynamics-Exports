@@ -5,45 +5,45 @@ VALUES (0x76FEF001,  1154, 0x6FEF0034, 147.4387, 88.50001, -0.8899999, -0.243539
 /* @teleloc 0x6FEF0034 [147.438700 88.500010 -0.890000] -0.243539 0.000000 0.000000 -0.969891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76FEF001, 0x76FEF002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x76FEF001, 0x76FEF003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76FEF001, 0x76FEF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76FEF001, 0x76FEF005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x76FEF001, 0x76FEF006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76FEF001, 0x76FEF007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x76FEF001, 0x76FEF008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x76FEF001, 0x76FEF009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76FEF001, 0x76FEF00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76FEF001, 0x76FEF00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76FEF001, 0x76FEF00C, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x76FEF001, 0x76FEF00D, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x76FEF001, 0x76FEF00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76FEF001, 0x76FEF00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x76FEF001, 0x76FEF010, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x76FEF001, 0x76FEF011, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76FEF001, 0x76FEF012, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76FEF001, 0x76FEF013, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76FEF001, 0x76FEF014, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x76FEF001, 0x76FEF015, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76FEF001, 0x76FEF016, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76FEF001, 0x76FEF017, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76FEF001, 0x76FEF018, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x76FEF001, 0x76FEF019, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x76FEF001, 0x76FEF01A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x76FEF001, 0x76FEF01B, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x76FEF001, 0x76FEF01C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x76FEF001, 0x76FEF01D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76FEF001, 0x76FEF01E, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76FEF001, 0x76FEF01F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76FEF001, 0x76FEF020, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76FEF001, 0x76FEF021, '2019-02-10 00:00:00') /* Caustic */
-     , (0x76FEF001, 0x76FEF022, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76FEF001, 0x76FEF023, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x76FEF001, 0x76FEF024, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x76FEF001, 0x76FEF025, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x76FEF001, 0x76FEF026, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76FEF001, 0x76FEF027, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76FEF001, 0x76FEF028, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x76FEF001, 0x76FEF002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x76FEF001, 0x76FEF003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76FEF001, 0x76FEF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76FEF001, 0x76FEF005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x76FEF001, 0x76FEF006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76FEF001, 0x76FEF007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x76FEF001, 0x76FEF008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x76FEF001, 0x76FEF009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76FEF001, 0x76FEF00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76FEF001, 0x76FEF00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76FEF001, 0x76FEF00C, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x76FEF001, 0x76FEF00D, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x76FEF001, 0x76FEF00E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x76FEF001, 0x76FEF00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x76FEF001, 0x76FEF010, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x76FEF001, 0x76FEF011, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76FEF001, 0x76FEF012, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76FEF001, 0x76FEF013, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76FEF001, 0x76FEF014, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x76FEF001, 0x76FEF015, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76FEF001, 0x76FEF016, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76FEF001, 0x76FEF017, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76FEF001, 0x76FEF018, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x76FEF001, 0x76FEF019, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x76FEF001, 0x76FEF01A, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x76FEF001, 0x76FEF01B, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x76FEF001, 0x76FEF01C, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x76FEF001, 0x76FEF01D, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76FEF001, 0x76FEF01E, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76FEF001, 0x76FEF01F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76FEF001, 0x76FEF020, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76FEF001, 0x76FEF021, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x76FEF001, 0x76FEF022, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76FEF001, 0x76FEF023, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x76FEF001, 0x76FEF024, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x76FEF001, 0x76FEF025, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x76FEF001, 0x76FEF026, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76FEF001, 0x76FEF027, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76FEF001, 0x76FEF028, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FEF002,  7099, 0x6FEF0034, 147.4387, 88.50001, -0.8899999, -0.2435393, 0, 0, -0.969891,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -206,8 +206,8 @@ VALUES (0x76FEF029,  1542, 0x6FEF002B, 141.5088, 54.94444, 0, -4.371139E-08, 0, 
 /* @teleloc 0x6FEF002B [141.508800 54.944440 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76FEF029, 0x76FEF02A, '2019-02-10 00:00:00') /* Bones */
-     , (0x76FEF029, 0x76FEF02B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76FEF029, 0x76FEF02A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x76FEF029, 0x76FEF02B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FEF02A,  4380, 0x6FEF002B, 141.5088, 54.94444, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

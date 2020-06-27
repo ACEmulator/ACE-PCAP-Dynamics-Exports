@@ -5,18 +5,18 @@ VALUES (0x7F93C001,  1154, 0xF93C001A, 89.88338, 30.21183, -0.8935999, 0.3323482
 /* @teleloc 0xF93C001A [89.883380 30.211830 -0.893600] 0.332348 0.000000 0.000000 -0.943157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93C001, 0x7F93C002, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F93C001, 0x7F93C003, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F93C001, 0x7F93C004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F93C001, 0x7F93C005, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F93C001, 0x7F93C006, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F93C001, 0x7F93C007, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F93C001, 0x7F93C008, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F93C001, 0x7F93C009, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F93C001, 0x7F93C00A, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F93C001, 0x7F93C00B, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F93C001, 0x7F93C00C, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F93C001, 0x7F93C00D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */;
+VALUES (0x7F93C001, 0x7F93C002, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F93C001, 0x7F93C003, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F93C001, 0x7F93C004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F93C001, 0x7F93C005, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F93C001, 0x7F93C006, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F93C001, 0x7F93C007, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F93C001, 0x7F93C008, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F93C001, 0x7F93C009, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F93C001, 0x7F93C00A, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F93C001, 0x7F93C00B, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F93C001, 0x7F93C00C, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F93C001, 0x7F93C00D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93C002, 40303, 0xF93C001A, 89.88338, 30.21183, -0.8935999, 0.3323482, 0, 0, -0.9431568,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x7F93C00E,  1542, 0xF93C0012, 53.36065, 25.91454, -0.9629999, 0.8273773
 /* @teleloc 0xF93C0012 [53.360650 25.914540 -0.963000] 0.827377 0.000000 0.000000 0.561647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93C00E, 0x7F93C00F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7F93C00E, 0x7F93C00F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93C00F,  1955, 0xF93C0012, 53.36065, 25.91454, -0.9629999, 0.8273773, 0, 0, 0.5616466,  True, '2019-02-10 00:00:00'); /* Gateway */

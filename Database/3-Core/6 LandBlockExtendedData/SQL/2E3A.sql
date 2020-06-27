@@ -5,12 +5,12 @@ VALUES (0x72E3A001,  1154, 0x2E3A0021, 119.1779, 7.878361, 126.662, 0.7071068, 0
 /* @teleloc 0x2E3A0021 [119.177900 7.878361 126.662000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E3A001, 0x72E3A002, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E3A001, 0x72E3A003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72E3A001, 0x72E3A004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72E3A001, 0x72E3A005, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72E3A001, 0x72E3A006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72E3A001, 0x72E3A007, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x72E3A001, 0x72E3A002, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72E3A001, 0x72E3A003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72E3A001, 0x72E3A004, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72E3A001, 0x72E3A005, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72E3A001, 0x72E3A006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72E3A001, 0x72E3A007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E3A002, 36854, 0x2E3A0021, 119.1779, 7.878361, 126.662, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */

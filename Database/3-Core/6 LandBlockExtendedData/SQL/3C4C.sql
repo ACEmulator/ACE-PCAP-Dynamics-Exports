@@ -5,27 +5,27 @@ VALUES (0x73C4C001,  1154, 0x3C4C0005, 15.08808, 105.3624, 20, 0.1252671, 0, 0, 
 /* @teleloc 0x3C4C0005 [15.088080 105.362400 20.000000] 0.125267 0.000000 0.000000 -0.992123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4C001, 0x73C4C002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C4C001, 0x73C4C003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C4C001, 0x73C4C004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4C001, 0x73C4C005, '2019-02-10 00:00:00') /* True Believer */
-     , (0x73C4C001, 0x73C4C006, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73C4C001, 0x73C4C007, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x73C4C001, 0x73C4C008, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73C4C001, 0x73C4C009, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4C001, 0x73C4C00A, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4C001, 0x73C4C00B, '2019-02-10 00:00:00') /* True Believer */
-     , (0x73C4C001, 0x73C4C00C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73C4C001, 0x73C4C00D, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73C4C001, 0x73C4C00E, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4C001, 0x73C4C00F, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4C001, 0x73C4C010, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4C001, 0x73C4C011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4C001, 0x73C4C012, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4C001, 0x73C4C013, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4C001, 0x73C4C014, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4C001, 0x73C4C015, '2019-02-10 00:00:00') /* True Believer */
-     , (0x73C4C001, 0x73C4C016, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73C4C001, 0x73C4C002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C4C001, 0x73C4C003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C4C001, 0x73C4C004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4C001, 0x73C4C005, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x73C4C001, 0x73C4C006, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73C4C001, 0x73C4C007, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x73C4C001, 0x73C4C008, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73C4C001, 0x73C4C009, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4C001, 0x73C4C00A, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4C001, 0x73C4C00B, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x73C4C001, 0x73C4C00C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73C4C001, 0x73C4C00D, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73C4C001, 0x73C4C00E, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4C001, 0x73C4C00F, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4C001, 0x73C4C010, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4C001, 0x73C4C011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4C001, 0x73C4C012, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4C001, 0x73C4C013, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4C001, 0x73C4C014, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4C001, 0x73C4C015, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x73C4C001, 0x73C4C016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4C002,  7112, 0x3C4C0005, 15.08808, 105.3624, 20, 0.1252671, 0, 0, -0.9921231,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -116,7 +116,7 @@ VALUES (0x73C4C017,  1542, 0x3C4C0005, 0.9201899, 96.3421, 20, 0.9990482, 0, 0, 
 /* @teleloc 0x3C4C0005 [0.920190 96.342100 20.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4C017, 0x73C4C018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73C4C017, 0x73C4C018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4C018,  4179, 0x3C4C0005, 0.9201899, 96.3421, 20, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

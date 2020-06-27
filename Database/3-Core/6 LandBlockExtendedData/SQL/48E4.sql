@@ -5,9 +5,9 @@ VALUES (0x748E4001,  1154, 0x48E40032, 152.4073, 24.89041, 9.9208, 0.7071068, 0,
 /* @teleloc 0x48E40032 [152.407300 24.890410 9.920800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748E4001, 0x748E4002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x748E4001, 0x748E4003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x748E4001, 0x748E4004, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x748E4001, 0x748E4002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x748E4001, 0x748E4003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x748E4001, 0x748E4004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748E4002, 24290, 0x48E40032, 152.4073, 24.89041, 9.9208, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -26,7 +26,7 @@ VALUES (0x748E4005,  1542, 0x48E40032, 147.9892, 26.49668, 10.0701, -4.371139E-0
 /* @teleloc 0x48E40032 [147.989200 26.496680 10.070100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748E4005, 0x748E4006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x748E4005, 0x748E4006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748E4006,  4380, 0x48E40032, 147.9892, 26.49668, 10.0701, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

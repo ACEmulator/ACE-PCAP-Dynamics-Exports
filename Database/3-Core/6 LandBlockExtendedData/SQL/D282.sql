@@ -5,9 +5,9 @@ VALUES (0x7D282001,  1154, 0xD2820024, 111.0209, 88.17826, 25.34494, -0.00496115
 /* @teleloc 0xD2820024 [111.020900 88.178260 25.344940] -0.004961 0.000000 0.000000 -0.999988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D282001, 0x7D282002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7D282001, 0x7D282003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7D282001, 0x7D282004, '2019-02-10 00:00:00') /* Mite Scamp */;
+VALUES (0x7D282001, 0x7D282002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7D282001, 0x7D282003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7D282001, 0x7D282004, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D282002, 24938, 0xD2820024, 111.0209, 88.17826, 25.34494, -0.004961156, 0, 0, -0.9999877,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

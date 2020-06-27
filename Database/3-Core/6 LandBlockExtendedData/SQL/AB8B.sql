@@ -5,14 +5,14 @@ VALUES (0x7AB8B001,  1154, 0xAB8B0006, 21.24751, 128.491, 47.6339, 0.0779616, 0,
 /* @teleloc 0xAB8B0006 [21.247510 128.491000 47.633900] 0.077962 0.000000 0.000000 -0.996956 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB8B001, 0x7AB8B002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB8B001, 0x7AB8B003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AB8B001, 0x7AB8B004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AB8B001, 0x7AB8B005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AB8B001, 0x7AB8B006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AB8B001, 0x7AB8B007, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AB8B001, 0x7AB8B008, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7AB8B001, 0x7AB8B009, '2019-02-10 00:00:00') /* Auroch Fire Cow */;
+VALUES (0x7AB8B001, 0x7AB8B002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB8B001, 0x7AB8B003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AB8B001, 0x7AB8B004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AB8B001, 0x7AB8B005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AB8B001, 0x7AB8B006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AB8B001, 0x7AB8B007, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AB8B001, 0x7AB8B008, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7AB8B001, 0x7AB8B009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB8B002,   229, 0xAB8B0006, 21.24751, 128.491, 47.6339, 0.0779616, 0, 0, -0.9969563,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

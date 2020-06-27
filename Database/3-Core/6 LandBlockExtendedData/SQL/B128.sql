@@ -9,23 +9,23 @@ VALUES (0x7B12800D,  1154, 0xB1280022, 115.817, 47.3147, 170.0571, 0.804086, 0, 
 /* @teleloc 0xB1280022 [115.817000 47.314700 170.057100] 0.804086 0.000000 0.000000 -0.594513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B12800D, 0x7B12800E, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B12800F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128010, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128011, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128012, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128013, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128014, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B12800D, 0x7B128015, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B12800D, 0x7B128016, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B12800D, 0x7B128017, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B12800D, 0x7B128018, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B12800D, 0x7B128019, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7B12800D, 0x7B12801A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B12800D, 0x7B12801B, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x7B12800D, 0x7B12801C, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B12800D, 0x7B12801D, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B12800D, 0x7B12801E, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B12800D, 0x7B12800E, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B12800F, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128010, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128011, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128012, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128013, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128014, '2019-02-10 00:00:00') /* Dual Fragment (42434) */
+     , (0x7B12800D, 0x7B128015, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B12800D, 0x7B128016, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B12800D, 0x7B128017, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B12800D, 0x7B128018, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B12800D, 0x7B128019, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7B12800D, 0x7B12801A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B12800D, 0x7B12801B, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x7B12800D, 0x7B12801C, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B12800D, 0x7B12801D, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B12800D, 0x7B12801E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B12800E, 42434, 0xB1280022, 115.817, 47.3147, 170.0571, 0.804086, 0, 0, -0.594513,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -100,7 +100,7 @@ VALUES (0x7B12801F,  1542, 0xB1280015, 59.53934, 100.0727, 186.4484, 0.3299952, 
 /* @teleloc 0xB1280015 [59.539340 100.072700 186.448400] 0.329995 0.000000 0.000000 -0.943983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B12801F, 0x7B128020, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B12801F, 0x7B128020, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B128020,  8644, 0xB1280015, 59.53934, 100.0727, 186.4484, 0.3299952, 0, 0, -0.9439826,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

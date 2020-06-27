@@ -5,13 +5,13 @@ VALUES (0x7AB95001,  1154, 0xAB950012, 56.89, 26.4817, 47.61538, -0.7629534, 0, 
 /* @teleloc 0xAB950012 [56.890000 26.481700 47.615380] -0.762953 0.000000 0.000000 -0.646453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB95001, 0x7AB95002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AB95001, 0x7AB95003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB95001, 0x7AB95004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AB95001, 0x7AB95005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AB95001, 0x7AB95006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AB95001, 0x7AB95007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AB95001, 0x7AB95008, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7AB95001, 0x7AB95002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AB95001, 0x7AB95003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB95001, 0x7AB95004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AB95001, 0x7AB95005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AB95001, 0x7AB95006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AB95001, 0x7AB95007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AB95001, 0x7AB95008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB95002,  5497, 0xAB950012, 56.89, 26.4817, 47.61538, -0.7629534, 0, 0, -0.6464534,  True, '2019-02-10 00:00:00'); /* Virindi Director */
@@ -46,8 +46,8 @@ VALUES (0x7AB95009,  1542, 0xAB95001D, 93.95062, 97.35157, 44.06181, 1, 0, 0, 0,
 /* @teleloc 0xAB95001D [93.950620 97.351570 44.061810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB95009, 0x7AB9500A, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AB95009, 0x7AB9500B, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7AB95009, 0x7AB9500A, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AB95009, 0x7AB9500B, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB9500A,   265, 0xAB95001D, 93.95062, 97.35157, 44.06181, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

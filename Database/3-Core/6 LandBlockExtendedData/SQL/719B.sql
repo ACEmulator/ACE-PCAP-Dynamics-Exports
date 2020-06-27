@@ -5,14 +5,14 @@ VALUES (0x7719B001,  1154, 0x719B0013, 51.5672, 65.99509, 134.7857, 0.9238795, 0
 /* @teleloc 0x719B0013 [51.567200 65.995090 134.785700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719B001, 0x7719B002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7719B001, 0x7719B003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7719B001, 0x7719B004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7719B001, 0x7719B005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7719B001, 0x7719B006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719B001, 0x7719B007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7719B001, 0x7719B008, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7719B001, 0x7719B009, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7719B001, 0x7719B002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7719B001, 0x7719B003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7719B001, 0x7719B004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7719B001, 0x7719B005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7719B001, 0x7719B006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719B001, 0x7719B007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7719B001, 0x7719B008, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7719B001, 0x7719B009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719B002,  7089, 0x719B0013, 51.5672, 65.99509, 134.7857, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

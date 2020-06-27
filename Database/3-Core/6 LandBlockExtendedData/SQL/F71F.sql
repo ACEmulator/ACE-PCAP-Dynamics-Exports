@@ -5,13 +5,13 @@ VALUES (0x7F71F001,  1154, 0xF71F0022, 111.4213, 40.15895, 52.65992, 0.4226182, 
 /* @teleloc 0xF71F0022 [111.421300 40.158950 52.659920] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F71F001, 0x7F71F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71F001, 0x7F71F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71F001, 0x7F71F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71F001, 0x7F71F005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F71F001, 0x7F71F006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F71F001, 0x7F71F007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F71F001, 0x7F71F008, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7F71F001, 0x7F71F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71F001, 0x7F71F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71F001, 0x7F71F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71F001, 0x7F71F005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F71F001, 0x7F71F006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F71F001, 0x7F71F007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F71F001, 0x7F71F008, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F71F002,  8431, 0xF71F0022, 111.4213, 40.15895, 52.65992, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

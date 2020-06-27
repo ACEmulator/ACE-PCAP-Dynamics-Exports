@@ -5,13 +5,13 @@ VALUES (0x77E66001,  1154, 0x7E660014, 52.37532, 90.88943, 13.57112, 0.5555715, 
 /* @teleloc 0x7E660014 [52.375320 90.889430 13.571120] 0.555572 0.000000 0.000000 -0.831469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E66001, 0x77E66002, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77E66001, 0x77E66003, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77E66001, 0x77E66004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77E66001, 0x77E66005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77E66001, 0x77E66006, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77E66001, 0x77E66007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77E66001, 0x77E66008, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77E66001, 0x77E66002, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77E66001, 0x77E66003, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77E66001, 0x77E66004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77E66001, 0x77E66005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77E66001, 0x77E66006, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77E66001, 0x77E66007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x77E66001, 0x77E66008, '2019-02-10 00:00:00') /* Old Bones (19436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E66002, 19263, 0x7E660014, 52.37532, 90.88943, 13.57112, 0.5555715, 0, 0, -0.8314688,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
@@ -46,7 +46,7 @@ VALUES (0x77E66009,  1542, 0x7E660017, 54.15459, 149.078, 15.46342, 0.78826, 0, 
 /* @teleloc 0x7E660017 [54.154590 149.078000 15.463420] 0.788260 0.000000 0.000000 -0.615342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E66009, 0x77E6600A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x77E66009, 0x77E6600A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6600A, 42528, 0x7E660017, 54.15459, 149.078, 15.46342, 0.78826, 0, 0, -0.6153423,  True, '2019-02-10 00:00:00'); /* Rock */

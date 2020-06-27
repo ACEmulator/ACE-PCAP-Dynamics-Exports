@@ -5,27 +5,27 @@ VALUES (0x7A94E001,  1154, 0xA94E0012, 67.79422, 33.59679, 28.70646, 0.9063078, 
 /* @teleloc 0xA94E0012 [67.794220 33.596790 28.706460] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A94E001, 0x7A94E002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A94E001, 0x7A94E003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A94E001, 0x7A94E004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A94E001, 0x7A94E005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A94E001, 0x7A94E006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A94E001, 0x7A94E007, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A94E001, 0x7A94E008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A94E001, 0x7A94E009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A94E001, 0x7A94E00A, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7A94E001, 0x7A94E00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A94E001, 0x7A94E00C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A94E001, 0x7A94E00D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A94E001, 0x7A94E00E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A94E001, 0x7A94E00F, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A94E001, 0x7A94E010, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A94E001, 0x7A94E011, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A94E001, 0x7A94E012, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A94E001, 0x7A94E013, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A94E001, 0x7A94E014, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A94E001, 0x7A94E015, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A94E001, 0x7A94E016, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7A94E001, 0x7A94E002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A94E001, 0x7A94E003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A94E001, 0x7A94E004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A94E001, 0x7A94E005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A94E001, 0x7A94E006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A94E001, 0x7A94E007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A94E001, 0x7A94E008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A94E001, 0x7A94E009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A94E001, 0x7A94E00A, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7A94E001, 0x7A94E00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A94E001, 0x7A94E00C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A94E001, 0x7A94E00D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A94E001, 0x7A94E00E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A94E001, 0x7A94E00F, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A94E001, 0x7A94E010, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A94E001, 0x7A94E011, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A94E001, 0x7A94E012, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A94E001, 0x7A94E013, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A94E001, 0x7A94E014, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A94E001, 0x7A94E015, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A94E001, 0x7A94E016, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A94E002,   233, 0xA94E0012, 67.79422, 33.59679, 28.70646, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -116,12 +116,12 @@ VALUES (0x7A94E017,  1542, 0xA94E001A, 78.98215, 33.42334, 28.54389, 0.9990482, 
 /* @teleloc 0xA94E001A [78.982150 33.423340 28.543890] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A94E017, 0x7A94E018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A94E017, 0x7A94E019, '2019-02-10 00:00:00') /* Meat */
-     , (0x7A94E017, 0x7A94E01A, '2019-02-10 00:00:00') /* Empty Flask */
-     , (0x7A94E017, 0x7A94E01B, '2019-02-10 00:00:00') /* Jerkin */
-     , (0x7A94E017, 0x7A94E01C, '2019-02-10 00:00:00') /* Ring */
-     , (0x7A94E017, 0x7A94E01D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A94E017, 0x7A94E018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A94E017, 0x7A94E019, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7A94E017, 0x7A94E01A, '2019-02-10 00:00:00') /* Empty Flask (7940) */
+     , (0x7A94E017, 0x7A94E01B, '2019-02-10 00:00:00') /* Jerkin (124) */
+     , (0x7A94E017, 0x7A94E01C, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7A94E017, 0x7A94E01D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A94E018,  4179, 0xA94E001A, 78.98215, 33.42334, 28.54389, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

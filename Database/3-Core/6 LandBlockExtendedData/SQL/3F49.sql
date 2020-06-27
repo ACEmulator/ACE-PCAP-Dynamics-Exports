@@ -5,13 +5,13 @@ VALUES (0x73F49001,  1154, 0x3F49000A, 24.97402, 36.81572, -0.09000003, 0.923879
 /* @teleloc 0x3F49000A [24.974020 36.815720 -0.090000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F49001, 0x73F49002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73F49001, 0x73F49003, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73F49001, 0x73F49004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73F49001, 0x73F49005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F49001, 0x73F49006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73F49001, 0x73F49007, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73F49001, 0x73F49008, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x73F49001, 0x73F49002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73F49001, 0x73F49003, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73F49001, 0x73F49004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73F49001, 0x73F49005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F49001, 0x73F49006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73F49001, 0x73F49007, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73F49001, 0x73F49008, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F49002, 24497, 0x3F49000A, 24.97402, 36.81572, -0.09000003, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

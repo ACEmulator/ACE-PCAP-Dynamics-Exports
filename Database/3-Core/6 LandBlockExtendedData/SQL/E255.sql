@@ -5,14 +5,14 @@ VALUES (0x7E255001,  1154, 0xE255003D, 177.9181, 104.8258, 8.0045, 0.9818904, 0,
 /* @teleloc 0xE255003D [177.918100 104.825800 8.004500] 0.981890 0.000000 0.000000 -0.189450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E255001, 0x7E255002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E255001, 0x7E255003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E255001, 0x7E255004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E255001, 0x7E255005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E255001, 0x7E255006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E255001, 0x7E255007, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7E255001, 0x7E255008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E255001, 0x7E255009, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x7E255001, 0x7E255002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E255001, 0x7E255003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E255001, 0x7E255004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E255001, 0x7E255005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E255001, 0x7E255006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E255001, 0x7E255007, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7E255001, 0x7E255008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E255001, 0x7E255009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E255002,  1612, 0xE255003D, 177.9181, 104.8258, 8.0045, 0.9818904, 0, 0, -0.1894496,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

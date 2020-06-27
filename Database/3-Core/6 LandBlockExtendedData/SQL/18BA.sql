@@ -5,9 +5,9 @@ VALUES (0x718BA001,  1154, 0x18BA003B, 189.0183, 48.71029, 82.0065, 1, 0, 0, 0, 
 /* @teleloc 0x18BA003B [189.018300 48.710290 82.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718BA001, 0x718BA002, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x718BA001, 0x718BA003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x718BA001, 0x718BA004, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x718BA001, 0x718BA002, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x718BA001, 0x718BA003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x718BA001, 0x718BA004, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718BA002, 11517, 0x18BA003B, 189.0183, 48.71029, 82.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
@@ -26,8 +26,8 @@ VALUES (0x718BA005,  1542, 0x18BA000E, 45.07941, 125.6848, 21.81662, 1, 0, 0, 0,
 /* @teleloc 0x18BA000E [45.079410 125.684800 21.816620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718BA005, 0x718BA006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x718BA005, 0x718BA007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x718BA005, 0x718BA006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x718BA005, 0x718BA007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718BA006,  9024, 0x18BA000E, 45.07941, 125.6848, 21.81662, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

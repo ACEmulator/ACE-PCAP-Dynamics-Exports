@@ -5,36 +5,36 @@ VALUES (0x7F31C001,  1154, 0xF31C002B, 130.6082, 67.33249, 0, 0.9238795, 0, 0, -
 /* @teleloc 0xF31C002B [130.608200 67.332490 0.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F31C001, 0x7F31C002, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F31C001, 0x7F31C003, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F31C001, 0x7F31C004, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F31C001, 0x7F31C005, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F31C001, 0x7F31C006, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F31C001, 0x7F31C007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F31C001, 0x7F31C008, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F31C001, 0x7F31C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F31C001, 0x7F31C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F31C001, 0x7F31C00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C00E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F31C001, 0x7F31C00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C010, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F31C001, 0x7F31C011, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F31C001, 0x7F31C012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F31C001, 0x7F31C013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F31C001, 0x7F31C014, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F31C001, 0x7F31C015, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F31C001, 0x7F31C016, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C017, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C018, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C019, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F31C001, 0x7F31C01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F31C001, 0x7F31C01B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F31C001, 0x7F31C01C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F31C001, 0x7F31C01D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F31C001, 0x7F31C01E, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F31C001, 0x7F31C01F, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F31C001, 0x7F31C002, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F31C001, 0x7F31C003, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F31C001, 0x7F31C004, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F31C001, 0x7F31C005, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F31C001, 0x7F31C006, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F31C001, 0x7F31C007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F31C001, 0x7F31C008, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F31C001, 0x7F31C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F31C001, 0x7F31C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F31C001, 0x7F31C00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C00E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F31C001, 0x7F31C00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C010, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F31C001, 0x7F31C011, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F31C001, 0x7F31C012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F31C001, 0x7F31C013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F31C001, 0x7F31C014, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F31C001, 0x7F31C015, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F31C001, 0x7F31C016, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C017, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C018, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C019, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F31C001, 0x7F31C01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F31C001, 0x7F31C01B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F31C001, 0x7F31C01C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F31C001, 0x7F31C01D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F31C001, 0x7F31C01E, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F31C001, 0x7F31C01F, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F31C002,  7110, 0xF31C002B, 130.6082, 67.33249, 0, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */

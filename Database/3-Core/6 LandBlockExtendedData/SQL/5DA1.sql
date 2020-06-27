@@ -5,26 +5,26 @@ VALUES (0x75DA1001,  1154, 0x5DA10026, 98.47192, 143.402, 71.84634, 0.3063965, 0
 /* @teleloc 0x5DA10026 [98.471920 143.402000 71.846340] 0.306397 0.000000 0.000000 -0.951904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA1001, 0x75DA1002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75DA1001, 0x75DA1003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75DA1001, 0x75DA1004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75DA1001, 0x75DA1005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA1001, 0x75DA1006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA1001, 0x75DA1007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75DA1001, 0x75DA1008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA1001, 0x75DA1009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA1001, 0x75DA100A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75DA1001, 0x75DA100B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75DA1001, 0x75DA100C, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75DA1001, 0x75DA100D, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75DA1001, 0x75DA100E, '2019-02-10 00:00:00') /* Static */
-     , (0x75DA1001, 0x75DA100F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75DA1001, 0x75DA1010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75DA1001, 0x75DA1011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA1001, 0x75DA1012, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75DA1001, 0x75DA1013, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75DA1001, 0x75DA1014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75DA1001, 0x75DA1015, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x75DA1001, 0x75DA1002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75DA1001, 0x75DA1003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75DA1001, 0x75DA1004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75DA1001, 0x75DA1005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA1001, 0x75DA1006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA1001, 0x75DA1007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75DA1001, 0x75DA1008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA1001, 0x75DA1009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA1001, 0x75DA100A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75DA1001, 0x75DA100B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75DA1001, 0x75DA100C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75DA1001, 0x75DA100D, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75DA1001, 0x75DA100E, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75DA1001, 0x75DA100F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75DA1001, 0x75DA1010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75DA1001, 0x75DA1011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA1001, 0x75DA1012, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75DA1001, 0x75DA1013, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75DA1001, 0x75DA1014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75DA1001, 0x75DA1015, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA1002,  7780, 0x5DA10026, 98.47192, 143.402, 71.84634, 0.3063965, 0, 0, -0.951904,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -111,8 +111,8 @@ VALUES (0x75DA1016,  1542, 0x5DA1001D, 84.39288, 109.9443, 71.04733, 0.9238795, 
 /* @teleloc 0x5DA1001D [84.392880 109.944300 71.047330] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA1016, 0x75DA1017, '2019-02-10 00:00:00') /* Corpse */
-     , (0x75DA1016, 0x75DA1018, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75DA1016, 0x75DA1017, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x75DA1016, 0x75DA1018, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA1017,  4180, 0x5DA1001D, 84.39288, 109.9443, 71.04733, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

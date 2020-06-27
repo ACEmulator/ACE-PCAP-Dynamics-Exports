@@ -5,13 +5,13 @@ VALUES (0x71377001,  1154, 0x13770017, 64.75105, 144.1762, 149.6496, -0.9812735,
 /* @teleloc 0x13770017 [64.751050 144.176200 149.649600] -0.981274 0.000000 0.000000 -0.192620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71377001, 0x71377002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71377001, 0x71377003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71377001, 0x71377004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71377001, 0x71377005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71377001, 0x71377006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x71377001, 0x71377007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71377001, 0x71377008, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x71377001, 0x71377002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71377001, 0x71377003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71377001, 0x71377004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71377001, 0x71377005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71377001, 0x71377006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x71377001, 0x71377007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71377001, 0x71377008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71377002, 24283, 0x13770017, 64.75105, 144.1762, 149.6496, -0.9812735, 0, 0, -0.1926199,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
@@ -46,8 +46,8 @@ VALUES (0x71377009,  1542, 0x13770035, 146.9159, 103.1105, 150, 0.9990482, 0, 0,
 /* @teleloc 0x13770035 [146.915900 103.110500 150.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71377009, 0x7137700A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71377009, 0x7137700B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71377009, 0x7137700A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71377009, 0x7137700B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137700A,  4179, 0x13770035, 146.9159, 103.1105, 150, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

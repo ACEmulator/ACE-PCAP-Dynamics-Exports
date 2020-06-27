@@ -5,32 +5,32 @@ VALUES (0x763D8001,  1154, 0x63D8000B, 28.81755, 48.36852, 205.6466, 0.8035033, 
 /* @teleloc 0x63D8000B [28.817550 48.368520 205.646600] 0.803503 0.000000 0.000000 -0.595300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D8001, 0x763D8002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D8001, 0x763D8003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x763D8001, 0x763D8004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763D8001, 0x763D8005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D8006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D8007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x763D8001, 0x763D8008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D8009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D800A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D800B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D800C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x763D8001, 0x763D800D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D800E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D800F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D8010, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D8011, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x763D8001, 0x763D8012, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x763D8001, 0x763D8013, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D8014, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D8001, 0x763D8015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D8001, 0x763D8016, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D8001, 0x763D8017, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x763D8001, 0x763D8018, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x763D8001, 0x763D8019, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x763D8001, 0x763D801A, '2019-02-10 00:00:00') /* Frost */
-     , (0x763D8001, 0x763D801B, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x763D8001, 0x763D8002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D8001, 0x763D8003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x763D8001, 0x763D8004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x763D8001, 0x763D8005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D8006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D8007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x763D8001, 0x763D8008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D8009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D800A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D800B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D800C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x763D8001, 0x763D800D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D800E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D800F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D8010, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D8011, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x763D8001, 0x763D8012, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x763D8001, 0x763D8013, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D8014, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D8001, 0x763D8015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D8001, 0x763D8016, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D8001, 0x763D8017, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x763D8001, 0x763D8018, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x763D8001, 0x763D8019, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x763D8001, 0x763D801A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x763D8001, 0x763D801B, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D8002, 36830, 0x63D8000B, 28.81755, 48.36852, 205.6466, 0.8035033, 0, 0, -0.5953004,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -141,13 +141,13 @@ VALUES (0x763D801C,  1542, 0x63D8002E, 141.786, 133.61, 241.4025, 1, 0, 0, 0, Fa
 /* @teleloc 0x63D8002E [141.786000 133.610000 241.402500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D801C, 0x763D801D, '2019-02-10 00:00:00') /* Snowman */
-     , (0x763D801C, 0x763D801E, '2019-02-10 00:00:00') /* Bones */
-     , (0x763D801C, 0x763D801F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x763D801C, 0x763D8020, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x763D801C, 0x763D8021, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x763D801C, 0x763D8022, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x763D801C, 0x763D8023, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x763D801C, 0x763D801D, '2019-02-10 00:00:00') /* Snowman (5765) */
+     , (0x763D801C, 0x763D801E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x763D801C, 0x763D801F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x763D801C, 0x763D8020, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x763D801C, 0x763D8021, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x763D801C, 0x763D8022, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x763D801C, 0x763D8023, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D801D,  5765, 0x63D8002E, 141.786, 133.61, 241.4025, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Snowman */

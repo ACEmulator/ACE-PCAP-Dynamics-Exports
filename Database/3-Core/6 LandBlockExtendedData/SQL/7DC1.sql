@@ -5,11 +5,11 @@ VALUES (0x77DC1001,  1154, 0x7DC10026, 103.993, 133.324, 295.7859, 0.9369205, 0,
 /* @teleloc 0x7DC10026 [103.993000 133.324000 295.785900] 0.936921 0.000000 0.000000 -0.349543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC1001, 0x77DC1002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x77DC1001, 0x77DC1003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x77DC1001, 0x77DC1004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DC1001, 0x77DC1005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DC1001, 0x77DC1006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x77DC1001, 0x77DC1002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x77DC1001, 0x77DC1003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x77DC1001, 0x77DC1004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DC1001, 0x77DC1005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DC1001, 0x77DC1006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC1002, 20189, 0x7DC10026, 103.993, 133.324, 295.7859, 0.9369205, 0, 0, -0.3495427,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -36,7 +36,7 @@ VALUES (0x77DC1007,  1542, 0x7DC10027, 108.7598, 144.8035, 294.84, 0.9369205, 0,
 /* @teleloc 0x7DC10027 [108.759800 144.803500 294.840000] 0.936921 0.000000 0.000000 -0.349543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC1007, 0x77DC1008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x77DC1007, 0x77DC1008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC1008, 42528, 0x7DC10027, 108.7598, 144.8035, 294.84, 0.9369205, 0, 0, -0.3495427,  True, '2019-02-10 00:00:00'); /* Rock */

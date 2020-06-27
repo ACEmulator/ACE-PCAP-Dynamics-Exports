@@ -5,16 +5,16 @@ VALUES (0x73C61001,  1154, 0x3C610029, 126.898, 6.618134, 23.10952, -0.08715577,
 /* @teleloc 0x3C610029 [126.898000 6.618134 23.109520] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C61001, 0x73C61002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C61001, 0x73C61003, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73C61001, 0x73C61004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C61001, 0x73C61005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C61001, 0x73C61006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C61001, 0x73C61007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C61001, 0x73C61008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73C61001, 0x73C61009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73C61001, 0x73C6100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73C61001, 0x73C6100B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73C61001, 0x73C61002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C61001, 0x73C61003, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73C61001, 0x73C61004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C61001, 0x73C61005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C61001, 0x73C61006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C61001, 0x73C61007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C61001, 0x73C61008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73C61001, 0x73C61009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73C61001, 0x73C6100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73C61001, 0x73C6100B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C61002,  7119, 0x3C610029, 126.898, 6.618134, 23.10952, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -61,7 +61,7 @@ VALUES (0x73C6100C,  1542, 0x3C610033, 151.2967, 48.37952, 26.96364, -0.04968246
 /* @teleloc 0x3C610033 [151.296700 48.379520 26.963640] -0.049682 0.000000 0.000000 -0.998765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C6100C, 0x73C6100D, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73C6100C, 0x73C6100D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C6100D,  9288, 0x3C610033, 151.2967, 48.37952, 26.96364, -0.04968246, 0, 0, -0.9987651,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

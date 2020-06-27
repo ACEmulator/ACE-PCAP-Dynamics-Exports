@@ -5,34 +5,34 @@ VALUES (0x70C64001,  1154, 0x0C640027, 97.6664, 160.9993, 1.587933, 0.9894438, 0
 /* @teleloc 0x0C640027 [97.666400 160.999300 1.587933] 0.989444 0.000000 0.000000 -0.144917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C64001, 0x70C64002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C64001, 0x70C64003, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70C64001, 0x70C64004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C64001, 0x70C64005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C64001, 0x70C64006, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70C64001, 0x70C64007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C64001, 0x70C64008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C64001, 0x70C64009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C64001, 0x70C6400A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C64001, 0x70C6400B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C64001, 0x70C6400C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C64001, 0x70C6400D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C64001, 0x70C6400E, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70C64001, 0x70C6400F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C64001, 0x70C64010, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C64001, 0x70C64011, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C64001, 0x70C64012, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C64001, 0x70C64013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C64001, 0x70C64014, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70C64001, 0x70C64015, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70C64001, 0x70C64016, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C64001, 0x70C64017, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C64001, 0x70C64018, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C64001, 0x70C64019, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C64001, 0x70C6401A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C64001, 0x70C6401B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C64001, 0x70C6401C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C64001, 0x70C6401D, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x70C64001, 0x70C64002, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C64001, 0x70C64003, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70C64001, 0x70C64004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C64001, 0x70C64005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C64001, 0x70C64006, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70C64001, 0x70C64007, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C64001, 0x70C64008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C64001, 0x70C64009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C64001, 0x70C6400A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C64001, 0x70C6400B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C64001, 0x70C6400C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C64001, 0x70C6400D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C64001, 0x70C6400E, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70C64001, 0x70C6400F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C64001, 0x70C64010, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C64001, 0x70C64011, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C64001, 0x70C64012, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C64001, 0x70C64013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C64001, 0x70C64014, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70C64001, 0x70C64015, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70C64001, 0x70C64016, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C64001, 0x70C64017, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C64001, 0x70C64018, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C64001, 0x70C64019, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C64001, 0x70C6401A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C64001, 0x70C6401B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C64001, 0x70C6401C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C64001, 0x70C6401D, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C64002, 36823, 0x0C640027, 97.6664, 160.9993, 1.587933, 0.9894438, 0, 0, -0.1449172,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
@@ -151,9 +151,9 @@ VALUES (0x70C6401E,  1542, 0x0C64003A, 168.9566, 32.3713, 23.15607, -4.371139E-0
 /* @teleloc 0x0C64003A [168.956600 32.371300 23.156070] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6401E, 0x70C6401F, '2019-02-10 00:00:00') /* Bones */
-     , (0x70C6401E, 0x70C64020, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x70C6401E, 0x70C64021, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x70C6401E, 0x70C6401F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70C6401E, 0x70C64020, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x70C6401E, 0x70C64021, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6401F,  4380, 0x0C64003A, 168.9566, 32.3713, 23.15607, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

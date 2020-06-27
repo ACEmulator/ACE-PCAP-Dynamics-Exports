@@ -5,14 +5,14 @@ VALUES (0x78F3F001,  1154, 0x8F3F000A, 30.40131, 42.36257, 40.005, -0.5074498, 0
 /* @teleloc 0x8F3F000A [30.401310 42.362570 40.005000] -0.507450 0.000000 0.000000 -0.861681 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F3F001, 0x78F3F002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78F3F001, 0x78F3F003, '2019-02-10 00:00:00') /* Marionette */
-     , (0x78F3F001, 0x78F3F004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F3F001, 0x78F3F005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78F3F001, 0x78F3F006, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x78F3F001, 0x78F3F007, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78F3F001, 0x78F3F008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F3F001, 0x78F3F009, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x78F3F001, 0x78F3F002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78F3F001, 0x78F3F003, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x78F3F001, 0x78F3F004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78F3F001, 0x78F3F005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78F3F001, 0x78F3F006, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x78F3F001, 0x78F3F007, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78F3F001, 0x78F3F008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78F3F001, 0x78F3F009, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F3F002,  1758, 0x8F3F000A, 30.40131, 42.36257, 40.005, -0.5074498, 0, 0, -0.8616813,  True, '2019-02-10 00:00:00'); /* Shadow */

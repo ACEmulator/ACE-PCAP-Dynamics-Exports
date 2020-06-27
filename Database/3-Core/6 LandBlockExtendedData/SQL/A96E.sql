@@ -5,12 +5,12 @@ VALUES (0x7A96E001,  1154, 0xA96E0026, 112.5474, 125.1649, 47.56209, -0.8900254,
 /* @teleloc 0xA96E0026 [112.547400 125.164900 47.562090] -0.890025 0.000000 0.000000 -0.455911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A96E001, 0x7A96E002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A96E001, 0x7A96E003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A96E001, 0x7A96E004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7A96E001, 0x7A96E005, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A96E001, 0x7A96E006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A96E001, 0x7A96E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A96E001, 0x7A96E002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A96E001, 0x7A96E003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A96E001, 0x7A96E004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7A96E001, 0x7A96E005, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A96E001, 0x7A96E006, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7A96E001, 0x7A96E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A96E002,  2576, 0xA96E0026, 112.5474, 125.1649, 47.56209, -0.8900254, 0, 0, -0.455911,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

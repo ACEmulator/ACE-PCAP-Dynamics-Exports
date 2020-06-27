@@ -5,11 +5,11 @@ VALUES (0x7D263001,  1154, 0xD2630028, 103.7975, 187.1541, 9.651399, -0.5794874,
 /* @teleloc 0xD2630028 [103.797500 187.154100 9.651399] -0.579487 0.000000 0.000000 -0.814981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D263001, 0x7D263002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D263001, 0x7D263003, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7D263001, 0x7D263004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D263001, 0x7D263005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D263001, 0x7D263006, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7D263001, 0x7D263002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D263001, 0x7D263003, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7D263001, 0x7D263004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D263001, 0x7D263005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D263001, 0x7D263006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D263002,  4246, 0xD2630028, 103.7975, 187.1541, 9.651399, -0.5794874, 0, 0, -0.8149812,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

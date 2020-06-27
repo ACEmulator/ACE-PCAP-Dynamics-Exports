@@ -5,12 +5,12 @@ VALUES (0x7DB58001,  1154, 0xDB58000B, 43.6439, 55.3012, 5.103325, 0.513932, 0, 
 /* @teleloc 0xDB58000B [43.643900 55.301200 5.103325] 0.513932 0.000000 0.000000 -0.857831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB58001, 0x7DB58002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DB58001, 0x7DB58003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7DB58001, 0x7DB58004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7DB58001, 0x7DB58005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7DB58001, 0x7DB58006, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB58001, 0x7DB58007, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7DB58001, 0x7DB58002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DB58001, 0x7DB58003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7DB58001, 0x7DB58004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7DB58001, 0x7DB58005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7DB58001, 0x7DB58006, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB58001, 0x7DB58007, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB58002, 19257, 0xDB58000B, 43.6439, 55.3012, 5.103325, 0.513932, 0, 0, -0.8578309,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

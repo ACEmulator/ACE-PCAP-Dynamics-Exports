@@ -5,12 +5,12 @@ VALUES (0x7CCE4001,  1154, 0xCCE40001, 10.02786, 1.445389, 1.070398, -0.7253848,
 /* @teleloc 0xCCE40001 [10.027860 1.445389 1.070398] -0.725385 0.000000 0.000000 -0.688344 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCE4001, 0x7CCE4002, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CCE4001, 0x7CCE4003, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CCE4001, 0x7CCE4004, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CCE4001, 0x7CCE4005, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CCE4001, 0x7CCE4006, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CCE4001, 0x7CCE4007, '2019-02-10 00:00:00') /* Scummy Moarsman */;
+VALUES (0x7CCE4001, 0x7CCE4002, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CCE4001, 0x7CCE4003, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CCE4001, 0x7CCE4004, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CCE4001, 0x7CCE4005, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CCE4001, 0x7CCE4006, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CCE4001, 0x7CCE4007, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCE4002, 31915, 0xCCE40001, 10.02786, 1.445389, 1.070398, -0.7253848, 0, 0, -0.6883436,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */

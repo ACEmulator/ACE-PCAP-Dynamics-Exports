@@ -5,16 +5,16 @@ VALUES (0x77689001,  1154, 0x7689001A, 92.13888, 24.25982, 0.002499998, 0.766044
 /* @teleloc 0x7689001A [92.138880 24.259820 0.002500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77689001, 0x77689002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77689001, 0x77689003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x77689001, 0x77689004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77689001, 0x77689005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77689001, 0x77689006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x77689001, 0x77689007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x77689001, 0x77689008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x77689001, 0x77689009, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x77689001, 0x7768900A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x77689001, 0x7768900B, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x77689001, 0x77689002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77689001, 0x77689003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x77689001, 0x77689004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77689001, 0x77689005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77689001, 0x77689006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x77689001, 0x77689007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x77689001, 0x77689008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x77689001, 0x77689009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x77689001, 0x7768900A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x77689001, 0x7768900B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77689002,  1760, 0x7689001A, 92.13888, 24.25982, 0.002499998, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -61,9 +61,9 @@ VALUES (0x7768900C,  1542, 0x76890003, 9.043446, 55.44458, 3.919808, -0.4288814,
 /* @teleloc 0x76890003 [9.043446 55.444580 3.919808] -0.428881 0.000000 0.000000 -0.903361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7768900C, 0x7768900D, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7768900C, 0x7768900E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7768900C, 0x7768900F, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7768900C, 0x7768900D, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7768900C, 0x7768900E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7768900C, 0x7768900F, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7768900D, 31686, 0x76890003, 9.043446, 55.44458, 3.919808, -0.4288814, 0, 0, -0.9033608,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

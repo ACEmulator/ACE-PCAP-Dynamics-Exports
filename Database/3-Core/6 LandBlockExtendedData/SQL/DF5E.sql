@@ -5,11 +5,11 @@ VALUES (0x7DF5E001,  1154, 0xDF5E0033, 164.1724, 70.17072, 14.32536, -0.9852201,
 /* @teleloc 0xDF5E0033 [164.172400 70.170720 14.325360] -0.985220 0.000000 0.000000 -0.171293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF5E001, 0x7DF5E002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DF5E001, 0x7DF5E003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF5E001, 0x7DF5E004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF5E001, 0x7DF5E005, '2019-02-10 00:00:00') /* Lich */
-     , (0x7DF5E001, 0x7DF5E006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7DF5E001, 0x7DF5E002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DF5E001, 0x7DF5E003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF5E001, 0x7DF5E004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF5E001, 0x7DF5E005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7DF5E001, 0x7DF5E006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF5E002,  7180, 0xDF5E0033, 164.1724, 70.17072, 14.32536, -0.9852201, 0, 0, -0.1712933,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

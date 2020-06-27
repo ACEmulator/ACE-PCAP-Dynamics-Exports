@@ -5,18 +5,18 @@ VALUES (0x71A2E001,  1154, 0x1A2E0031, 145.9453, 23.31087, 17.73097, 0.8567281, 
 /* @teleloc 0x1A2E0031 [145.945300 23.310870 17.730970] 0.856728 0.000000 0.000000 -0.515768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A2E001, 0x71A2E002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71A2E001, 0x71A2E003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A2E001, 0x71A2E004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A2E001, 0x71A2E005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A2E001, 0x71A2E006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A2E001, 0x71A2E007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71A2E001, 0x71A2E008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71A2E001, 0x71A2E009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71A2E001, 0x71A2E00A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71A2E001, 0x71A2E00B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71A2E001, 0x71A2E00C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71A2E001, 0x71A2E00D, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x71A2E001, 0x71A2E002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71A2E001, 0x71A2E003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A2E001, 0x71A2E004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A2E001, 0x71A2E005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A2E001, 0x71A2E006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A2E001, 0x71A2E007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71A2E001, 0x71A2E008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71A2E001, 0x71A2E009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71A2E001, 0x71A2E00A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71A2E001, 0x71A2E00B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71A2E001, 0x71A2E00C, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71A2E001, 0x71A2E00D, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A2E002,  7983, 0x1A2E0031, 145.9453, 23.31087, 17.73097, 0.8567281, 0, 0, -0.5157683,  True, '2019-02-10 00:00:00'); /* Bane Grievver */

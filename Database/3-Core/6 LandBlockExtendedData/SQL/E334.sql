@@ -5,24 +5,24 @@ VALUES (0x7E334001,  1154, 0xE3340019, 83.31086, 20.69976, 155.5703, -0.1736482,
 /* @teleloc 0xE3340019 [83.310860 20.699760 155.570300] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E334001, 0x7E334002, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7E334001, 0x7E334003, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7E334001, 0x7E334004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E334001, 0x7E334005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E334001, 0x7E334006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E334001, 0x7E334007, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7E334001, 0x7E334008, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7E334001, 0x7E334009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7E334001, 0x7E33400A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E334001, 0x7E33400B, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E334001, 0x7E33400C, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7E334001, 0x7E33400D, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7E334001, 0x7E33400E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7E334001, 0x7E33400F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E334001, 0x7E334010, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E334001, 0x7E334011, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7E334001, 0x7E334012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7E334001, 0x7E334013, '2019-02-10 00:00:00') /* Laigus Raider */;
+VALUES (0x7E334001, 0x7E334002, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7E334001, 0x7E334003, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7E334001, 0x7E334004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E334001, 0x7E334005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E334001, 0x7E334006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E334001, 0x7E334007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7E334001, 0x7E334008, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7E334001, 0x7E334009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7E334001, 0x7E33400A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E334001, 0x7E33400B, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E334001, 0x7E33400C, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7E334001, 0x7E33400D, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7E334001, 0x7E33400E, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7E334001, 0x7E33400F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E334001, 0x7E334010, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E334001, 0x7E334011, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7E334001, 0x7E334012, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7E334001, 0x7E334013, '2019-02-10 00:00:00') /* Laigus Raider (8140) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E334002,  7993, 0xE3340019, 83.31086, 20.69976, 155.5703, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Linvak Ursuin */
@@ -101,7 +101,7 @@ VALUES (0x7E334014,  1542, 0xE3340019, 87.35157, 17.51835, 154.5786, 1, 0, 0, 0,
 /* @teleloc 0xE3340019 [87.351570 17.518350 154.578600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E334014, 0x7E334015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7E334014, 0x7E334015, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E334015, 22570, 0xE3340019, 87.35157, 17.51835, 154.5786, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

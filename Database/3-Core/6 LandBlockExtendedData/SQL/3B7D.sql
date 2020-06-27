@@ -5,11 +5,11 @@ VALUES (0x73B7D001,  1154, 0x3B7D0031, 166.0099, 10.42057, 1.034219, -0.9648301,
 /* @teleloc 0x3B7D0031 [166.009900 10.420570 1.034219] -0.964830 0.000000 0.000000 -0.262874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B7D001, 0x73B7D002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B7D001, 0x73B7D003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73B7D001, 0x73B7D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73B7D001, 0x73B7D005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73B7D001, 0x73B7D006, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x73B7D001, 0x73B7D002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B7D001, 0x73B7D003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73B7D001, 0x73B7D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73B7D001, 0x73B7D005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73B7D001, 0x73B7D006, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B7D002, 23616, 0x3B7D0031, 166.0099, 10.42057, 1.034219, -0.9648301, 0, 0, -0.2628742,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

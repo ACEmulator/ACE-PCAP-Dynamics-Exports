@@ -5,9 +5,9 @@ VALUES (0x78771001,  1154, 0x87710024, 105.2341, 93.78648, 24.10406, 1, 0, 0, 0,
 /* @teleloc 0x87710024 [105.234100 93.786480 24.104060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78771001, 0x78771002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78771001, 0x78771003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78771001, 0x78771004, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x78771001, 0x78771002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78771001, 0x78771003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78771001, 0x78771004, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78771002,  1623, 0x87710024, 105.2341, 93.78648, 24.10406, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Desert Rat */

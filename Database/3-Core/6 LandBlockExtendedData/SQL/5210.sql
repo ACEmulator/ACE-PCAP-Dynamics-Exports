@@ -5,15 +5,15 @@ VALUES (0x75210001,  1154, 0x52100038, 148.4605, 187.5731, 68.01, 0.2687154, 0, 
 /* @teleloc 0x52100038 [148.460500 187.573100 68.010000] 0.268715 0.000000 0.000000 -0.963220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75210001, 0x75210002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75210001, 0x75210003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x75210001, 0x75210004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75210001, 0x75210005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75210001, 0x75210006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x75210001, 0x75210007, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75210001, 0x75210008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x75210001, 0x75210009, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x75210001, 0x7521000A, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x75210001, 0x75210002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75210001, 0x75210003, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x75210001, 0x75210004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75210001, 0x75210005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75210001, 0x75210006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x75210001, 0x75210007, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75210001, 0x75210008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x75210001, 0x75210009, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x75210001, 0x7521000A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75210002, 24497, 0x52100038, 148.4605, 187.5731, 68.01, 0.2687154, 0, 0, -0.9632196,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

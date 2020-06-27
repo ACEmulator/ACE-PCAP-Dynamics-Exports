@@ -5,10 +5,10 @@ VALUES (0x7208B001,  1154, 0x208B0006, 10.84797, 131.9362, 62.18551, 0.2588191, 
 /* @teleloc 0x208B0006 [10.847970 131.936200 62.185510] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7208B001, 0x7208B002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7208B001, 0x7208B003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7208B001, 0x7208B004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7208B001, 0x7208B005, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7208B001, 0x7208B002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7208B001, 0x7208B003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7208B001, 0x7208B004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7208B001, 0x7208B005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7208B002, 36840, 0x208B0006, 10.84797, 131.9362, 62.18551, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -31,7 +31,7 @@ VALUES (0x7208B006,  1542, 0x208B0006, 13.05714, 127.6073, 62.16676, -4.371139E-
 /* @teleloc 0x208B0006 [13.057140 127.607300 62.166760] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7208B006, 0x7208B007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7208B006, 0x7208B007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7208B007,  4380, 0x208B0006, 13.05714, 127.6073, 62.16676, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

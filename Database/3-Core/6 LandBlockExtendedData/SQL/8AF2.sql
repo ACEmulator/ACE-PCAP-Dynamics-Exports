@@ -5,25 +5,25 @@ VALUES (0x78AF2001,  1154, 0x8AF20028, 98.86456, 176.2665, 13.32102, -0.9690807,
 /* @teleloc 0x8AF20028 [98.864560 176.266500 13.321020] -0.969081 0.000000 0.000000 -0.246744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AF2001, 0x78AF2002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78AF2001, 0x78AF2003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78AF2001, 0x78AF2004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78AF2001, 0x78AF2005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78AF2001, 0x78AF2006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78AF2001, 0x78AF2007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78AF2001, 0x78AF2008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78AF2001, 0x78AF2009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78AF2001, 0x78AF200A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78AF2001, 0x78AF200B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78AF2001, 0x78AF200C, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78AF2001, 0x78AF200D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78AF2001, 0x78AF200E, '2019-02-10 00:00:00') /* Frost */
-     , (0x78AF2001, 0x78AF200F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78AF2001, 0x78AF2010, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78AF2001, 0x78AF2011, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78AF2001, 0x78AF2012, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78AF2001, 0x78AF2013, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78AF2001, 0x78AF2014, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78AF2001, 0x78AF2002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78AF2001, 0x78AF2003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78AF2001, 0x78AF2004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78AF2001, 0x78AF2005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78AF2001, 0x78AF2006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78AF2001, 0x78AF2007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78AF2001, 0x78AF2008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78AF2001, 0x78AF2009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78AF2001, 0x78AF200A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78AF2001, 0x78AF200B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78AF2001, 0x78AF200C, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78AF2001, 0x78AF200D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78AF2001, 0x78AF200E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78AF2001, 0x78AF200F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78AF2001, 0x78AF2010, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78AF2001, 0x78AF2011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78AF2001, 0x78AF2012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78AF2001, 0x78AF2013, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78AF2001, 0x78AF2014, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AF2002, 22520, 0x8AF20028, 98.86456, 176.2665, 13.32102, -0.9690807, 0, 0, -0.2467441,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -106,8 +106,8 @@ VALUES (0x78AF2015,  1542, 0x8AF2002F, 127.1665, 158.4394, 13.40279, -0.9690807,
 /* @teleloc 0x8AF2002F [127.166500 158.439400 13.402790] -0.969081 0.000000 0.000000 -0.246744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AF2015, 0x78AF2016, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x78AF2015, 0x78AF2017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78AF2015, 0x78AF2016, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x78AF2015, 0x78AF2017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AF2016, 11554, 0x8AF2002F, 127.1665, 158.4394, 13.40279, -0.9690807, 0, 0, -0.2467441,  True, '2019-02-10 00:00:00'); /* Colban Plant */

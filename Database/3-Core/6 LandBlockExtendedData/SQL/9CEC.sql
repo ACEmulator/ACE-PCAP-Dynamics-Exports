@@ -5,11 +5,11 @@ VALUES (0x79CEC001,  1154, 0x9CEC0019, 94.20898, 23.40631, 48.15842, 0.8427032, 
 /* @teleloc 0x9CEC0019 [94.208980 23.406310 48.158420] 0.842703 0.000000 0.000000 -0.538378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CEC001, 0x79CEC002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79CEC001, 0x79CEC003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79CEC001, 0x79CEC004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79CEC001, 0x79CEC005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79CEC001, 0x79CEC006, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x79CEC001, 0x79CEC002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79CEC001, 0x79CEC003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79CEC001, 0x79CEC004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79CEC001, 0x79CEC005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79CEC001, 0x79CEC006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CEC002, 38177, 0x9CEC0019, 94.20898, 23.40631, 48.15842, 0.8427032, 0, 0, -0.5383784,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

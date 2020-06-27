@@ -5,11 +5,11 @@ VALUES (0x78D3D001,  1154, 0x8D3D0020, 88.54705, 185.5274, 1.407921, -0.6157075,
 /* @teleloc 0x8D3D0020 [88.547050 185.527400 1.407921] -0.615708 0.000000 0.000000 -0.787975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D3D001, 0x78D3D002, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78D3D001, 0x78D3D003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78D3D001, 0x78D3D004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x78D3D001, 0x78D3D005, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x78D3D001, 0x78D3D006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x78D3D001, 0x78D3D002, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78D3D001, 0x78D3D003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78D3D001, 0x78D3D004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x78D3D001, 0x78D3D005, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x78D3D001, 0x78D3D006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D3D002,  9244, 0x8D3D0020, 88.54705, 185.5274, 1.407921, -0.6157075, 0, 0, -0.7879748,  True, '2019-02-10 00:00:00'); /* Pristine Doll */

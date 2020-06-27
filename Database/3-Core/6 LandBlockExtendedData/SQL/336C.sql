@@ -5,22 +5,22 @@ VALUES (0x7336C001,  1154, 0x336C0036, 163.7103, 134.9206, 173.1241, 0.9238795, 
 /* @teleloc 0x336C0036 [163.710300 134.920600 173.124100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336C001, 0x7336C002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7336C001, 0x7336C003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7336C001, 0x7336C004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7336C001, 0x7336C005, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336C001, 0x7336C006, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336C001, 0x7336C007, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336C001, 0x7336C008, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7336C001, 0x7336C009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7336C001, 0x7336C00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7336C001, 0x7336C00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7336C001, 0x7336C00C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7336C001, 0x7336C00D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7336C001, 0x7336C00E, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336C001, 0x7336C00F, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7336C001, 0x7336C010, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336C001, 0x7336C011, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */;
+VALUES (0x7336C001, 0x7336C002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7336C001, 0x7336C003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7336C001, 0x7336C004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7336C001, 0x7336C005, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7336C001, 0x7336C006, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336C001, 0x7336C007, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336C001, 0x7336C008, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7336C001, 0x7336C009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7336C001, 0x7336C00A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7336C001, 0x7336C00B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7336C001, 0x7336C00C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7336C001, 0x7336C00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7336C001, 0x7336C00E, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336C001, 0x7336C00F, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7336C001, 0x7336C010, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336C001, 0x7336C011, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336C002, 24497, 0x336C0036, 163.7103, 134.9206, 173.1241, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -91,7 +91,7 @@ VALUES (0x7336C012,  1542, 0x336C0036, 166.1259, 127.2287, 173.5538, 1, 0, 0, 0,
 /* @teleloc 0x336C0036 [166.125900 127.228700 173.553800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336C012, 0x7336C013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7336C012, 0x7336C013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336C013,  4380, 0x336C0036, 166.1259, 127.2287, 173.5538, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

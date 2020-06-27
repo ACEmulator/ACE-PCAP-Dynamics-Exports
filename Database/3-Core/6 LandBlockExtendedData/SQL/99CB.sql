@@ -5,17 +5,17 @@ VALUES (0x799CB001,  1154, 0x99CB0029, 134.742, 12.49963, 56.61995, -0.2370721, 
 /* @teleloc 0x99CB0029 [134.742000 12.499630 56.619950] -0.237072 0.000000 0.000000 -0.971492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799CB001, 0x799CB002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x799CB001, 0x799CB003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x799CB001, 0x799CB004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799CB001, 0x799CB005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799CB001, 0x799CB006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x799CB001, 0x799CB007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x799CB001, 0x799CB008, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x799CB001, 0x799CB009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x799CB001, 0x799CB00A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x799CB001, 0x799CB00B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x799CB001, 0x799CB00C, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x799CB001, 0x799CB002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x799CB001, 0x799CB003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x799CB001, 0x799CB004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799CB001, 0x799CB005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799CB001, 0x799CB006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x799CB001, 0x799CB007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x799CB001, 0x799CB008, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x799CB001, 0x799CB009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x799CB001, 0x799CB00A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799CB001, 0x799CB00B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799CB001, 0x799CB00C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799CB002, 11533, 0x99CB0029, 134.742, 12.49963, 56.61995, -0.2370721, 0, 0, -0.9714921,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

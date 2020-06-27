@@ -5,14 +5,14 @@ VALUES (0x7C3DD001,  1154, 0xC3DD0018, 63.88173, 172.7473, 5.208788, 0.2542385, 
 /* @teleloc 0xC3DD0018 [63.881730 172.747300 5.208788] 0.254239 0.000000 0.000000 -0.967142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3DD001, 0x7C3DD002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C3DD001, 0x7C3DD003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C3DD001, 0x7C3DD004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C3DD001, 0x7C3DD005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C3DD001, 0x7C3DD006, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7C3DD001, 0x7C3DD007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7C3DD001, 0x7C3DD008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C3DD001, 0x7C3DD009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7C3DD001, 0x7C3DD002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C3DD001, 0x7C3DD003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C3DD001, 0x7C3DD004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C3DD001, 0x7C3DD005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C3DD001, 0x7C3DD006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7C3DD001, 0x7C3DD007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7C3DD001, 0x7C3DD008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C3DD001, 0x7C3DD009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3DD002,  7111, 0xC3DD0018, 63.88173, 172.7473, 5.208788, 0.2542385, 0, 0, -0.9671416,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

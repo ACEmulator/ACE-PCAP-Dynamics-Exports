@@ -5,24 +5,24 @@ VALUES (0x7346B001,  1154, 0x346B0028, 113.3788, 188.6155, 165.3375, -0.8607447,
 /* @teleloc 0x346B0028 [113.378800 188.615500 165.337500] -0.860745 0.000000 0.000000 -0.509037 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346B001, 0x7346B002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7346B001, 0x7346B003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7346B001, 0x7346B004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7346B001, 0x7346B005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7346B001, 0x7346B006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7346B001, 0x7346B007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7346B001, 0x7346B008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7346B001, 0x7346B009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7346B001, 0x7346B00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7346B001, 0x7346B00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7346B001, 0x7346B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7346B001, 0x7346B00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7346B001, 0x7346B00E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7346B001, 0x7346B00F, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7346B001, 0x7346B010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7346B001, 0x7346B011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7346B001, 0x7346B012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7346B001, 0x7346B013, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7346B001, 0x7346B002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7346B001, 0x7346B003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7346B001, 0x7346B004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7346B001, 0x7346B005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7346B001, 0x7346B006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7346B001, 0x7346B007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7346B001, 0x7346B008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7346B001, 0x7346B009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7346B001, 0x7346B00A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7346B001, 0x7346B00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7346B001, 0x7346B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7346B001, 0x7346B00D, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7346B001, 0x7346B00E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7346B001, 0x7346B00F, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7346B001, 0x7346B010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7346B001, 0x7346B011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7346B001, 0x7346B012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7346B001, 0x7346B013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346B002, 24134, 0x346B0028, 113.3788, 188.6155, 165.3375, -0.8607447, 0, 0, -0.509037,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -101,7 +101,7 @@ VALUES (0x7346B014,  1542, 0x346B0012, 51.51381, 35.47485, 224.7386, -4.371139E-
 /* @teleloc 0x346B0012 [51.513810 35.474850 224.738600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346B014, 0x7346B015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7346B014, 0x7346B015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346B015,  4380, 0x346B0012, 51.51381, 35.47485, 224.7386, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

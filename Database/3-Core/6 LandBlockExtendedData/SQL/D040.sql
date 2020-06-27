@@ -5,21 +5,21 @@ VALUES (0x7D040001,  1154, 0xD0400031, 147.9125, 14.37638, 154.8602, 0.2588191, 
 /* @teleloc 0xD0400031 [147.912500 14.376380 154.860200] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D040001, 0x7D040002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7D040001, 0x7D040003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7D040001, 0x7D040004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D040001, 0x7D040005, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7D040001, 0x7D040006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D040001, 0x7D040007, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D040001, 0x7D040008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7D040001, 0x7D040009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D040001, 0x7D04000A, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7D040001, 0x7D04000B, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7D040001, 0x7D04000C, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7D040001, 0x7D04000D, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7D040001, 0x7D04000E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D040001, 0x7D04000F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D040001, 0x7D040010, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7D040001, 0x7D040002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7D040001, 0x7D040003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7D040001, 0x7D040004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D040001, 0x7D040005, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7D040001, 0x7D040006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D040001, 0x7D040007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D040001, 0x7D040008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7D040001, 0x7D040009, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7D040001, 0x7D04000A, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7D040001, 0x7D04000B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7D040001, 0x7D04000C, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7D040001, 0x7D04000D, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7D040001, 0x7D04000E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D040001, 0x7D04000F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D040001, 0x7D040010, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D040002,  9401, 0xD0400031, 147.9125, 14.37638, 154.8602, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -86,9 +86,9 @@ VALUES (0x7D040011,  1542, 0xD0400013, 59.5701, 51.15375, 152.4047, -0.9680215, 
 /* @teleloc 0xD0400013 [59.570100 51.153750 152.404700] -0.968022 0.000000 0.000000 -0.250867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D040011, 0x7D040012, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7D040011, 0x7D040013, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7D040011, 0x7D040014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D040011, 0x7D040012, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7D040011, 0x7D040013, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7D040011, 0x7D040014, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D040012, 22837, 0xD0400013, 59.5701, 51.15375, 152.4047, -0.9680215, 0, 0, -0.2508674,  True, '2019-02-10 00:00:00'); /* Snowflower */

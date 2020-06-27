@@ -5,20 +5,20 @@ VALUES (0x7A9C8001,  1154, 0xA9C8000A, 43.69012, 46.20796, 108.6357, 0.93892, 0,
 /* @teleloc 0xA9C8000A [43.690120 46.207960 108.635700] 0.938920 0.000000 0.000000 -0.344135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9C8001, 0x7A9C8002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A9C8001, 0x7A9C8003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A9C8001, 0x7A9C8004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A9C8001, 0x7A9C8005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A9C8001, 0x7A9C8006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A9C8001, 0x7A9C8007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A9C8001, 0x7A9C8008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A9C8001, 0x7A9C8009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A9C8001, 0x7A9C800A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A9C8001, 0x7A9C800B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A9C8001, 0x7A9C800C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A9C8001, 0x7A9C800D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9C8001, 0x7A9C800E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9C8001, 0x7A9C800F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A9C8001, 0x7A9C8002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A9C8001, 0x7A9C8003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A9C8001, 0x7A9C8004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A9C8001, 0x7A9C8005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A9C8001, 0x7A9C8006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A9C8001, 0x7A9C8007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A9C8001, 0x7A9C8008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A9C8001, 0x7A9C8009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A9C8001, 0x7A9C800A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A9C8001, 0x7A9C800B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A9C8001, 0x7A9C800C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A9C8001, 0x7A9C800D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9C8001, 0x7A9C800E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9C8001, 0x7A9C800F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9C8002,  7979, 0xA9C8000A, 43.69012, 46.20796, 108.6357, 0.93892, 0, 0, -0.3441354,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -81,7 +81,7 @@ VALUES (0x7A9C8010,  1542, 0xA9C8001A, 84.31174, 31.15, 114.6976, 1, 0, 0, 0, Fa
 /* @teleloc 0xA9C8001A [84.311740 31.150000 114.697600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9C8010, 0x7A9C8011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7A9C8010, 0x7A9C8011, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9C8011, 31443, 0xA9C8001A, 84.31174, 31.15, 114.6976, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

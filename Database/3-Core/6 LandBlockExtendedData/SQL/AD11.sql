@@ -5,18 +5,18 @@ VALUES (0x7AD11001,  1154, 0xAD110039, 176.5822, 8.702826, 194.7624, 0.7771459, 
 /* @teleloc 0xAD110039 [176.582200 8.702826 194.762400] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD11001, 0x7AD11002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AD11001, 0x7AD11003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AD11001, 0x7AD11004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AD11001, 0x7AD11005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AD11001, 0x7AD11006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD11001, 0x7AD11007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD11001, 0x7AD11008, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7AD11001, 0x7AD11009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AD11001, 0x7AD1100A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AD11001, 0x7AD1100B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD11001, 0x7AD1100C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AD11001, 0x7AD1100D, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7AD11001, 0x7AD11002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AD11001, 0x7AD11003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AD11001, 0x7AD11004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AD11001, 0x7AD11005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AD11001, 0x7AD11006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD11001, 0x7AD11007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD11001, 0x7AD11008, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7AD11001, 0x7AD11009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AD11001, 0x7AD1100A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AD11001, 0x7AD1100B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD11001, 0x7AD1100C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AD11001, 0x7AD1100D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD11002,  1610, 0xAD110039, 176.5822, 8.702826, 194.7624, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

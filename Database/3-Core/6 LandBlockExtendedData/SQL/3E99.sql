@@ -5,12 +5,12 @@ VALUES (0x73E99001,  1154, 0x3E990031, 162.7544, 9.203411, 31.29731, -0.3345854,
 /* @teleloc 0x3E990031 [162.754400 9.203411 31.297310] -0.334585 0.000000 0.000000 -0.942365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E99001, 0x73E99002, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E99001, 0x73E99003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73E99001, 0x73E99004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x73E99001, 0x73E99005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x73E99001, 0x73E99006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73E99001, 0x73E99007, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x73E99001, 0x73E99002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E99001, 0x73E99003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73E99001, 0x73E99004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x73E99001, 0x73E99005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x73E99001, 0x73E99006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73E99001, 0x73E99007, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E99002, 14512, 0x3E990031, 162.7544, 9.203411, 31.29731, -0.3345854, 0, 0, -0.9423654,  True, '2019-02-10 00:00:00'); /* Frost */

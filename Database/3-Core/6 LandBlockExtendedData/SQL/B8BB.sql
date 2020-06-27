@@ -5,13 +5,13 @@ VALUES (0x7B8BB001,  1154, 0xB8BB0025, 112.1333, 101.2176, 212.2851, 0.9707052, 
 /* @teleloc 0xB8BB0025 [112.133300 101.217600 212.285100] 0.970705 0.000000 0.000000 -0.240274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8BB001, 0x7B8BB002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B8BB001, 0x7B8BB003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B8BB001, 0x7B8BB004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B8BB001, 0x7B8BB005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B8BB001, 0x7B8BB006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B8BB001, 0x7B8BB007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B8BB001, 0x7B8BB008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B8BB001, 0x7B8BB002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B8BB001, 0x7B8BB003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B8BB001, 0x7B8BB004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B8BB001, 0x7B8BB005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B8BB001, 0x7B8BB006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B8BB001, 0x7B8BB007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B8BB001, 0x7B8BB008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8BB002,  9251, 0xB8BB0025, 112.1333, 101.2176, 212.2851, 0.9707052, 0, 0, -0.2402738,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

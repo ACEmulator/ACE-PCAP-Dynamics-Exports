@@ -5,15 +5,15 @@ VALUES (0x7ED18001,  1154, 0xED180035, 167.2026, 99.31959, -0.09750003, 0.887010
 /* @teleloc 0xED180035 [167.202600 99.319590 -0.097500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED18001, 0x7ED18002, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7ED18001, 0x7ED18003, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7ED18001, 0x7ED18004, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7ED18001, 0x7ED18005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7ED18001, 0x7ED18006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7ED18001, 0x7ED18007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ED18001, 0x7ED18008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ED18001, 0x7ED18009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7ED18001, 0x7ED1800A, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7ED18001, 0x7ED18002, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7ED18001, 0x7ED18003, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7ED18001, 0x7ED18004, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7ED18001, 0x7ED18005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7ED18001, 0x7ED18006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7ED18001, 0x7ED18007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ED18001, 0x7ED18008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ED18001, 0x7ED18009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7ED18001, 0x7ED1800A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED18002, 27799, 0xED180035, 167.2026, 99.31959, -0.09750003, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Blood Fiend */

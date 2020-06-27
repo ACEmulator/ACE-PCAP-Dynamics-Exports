@@ -5,10 +5,10 @@ VALUES (0x74193001,  1154, 0x41930009, 35.59335, 1.633671, 0.2822785, 0.9238795,
 /* @teleloc 0x41930009 [35.593350 1.633671 0.282279] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74193001, 0x74193002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74193001, 0x74193003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74193001, 0x74193004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74193001, 0x74193005, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x74193001, 0x74193002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74193001, 0x74193003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74193001, 0x74193004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74193001, 0x74193005, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74193002, 36834, 0x41930009, 35.59335, 1.633671, 0.2822785, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

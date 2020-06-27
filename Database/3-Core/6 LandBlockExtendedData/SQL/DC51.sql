@@ -5,27 +5,27 @@ VALUES (0x7DC51001,  1154, 0xDC510030, 136.894, 185.5882, 18.59656, 0.04553146, 
 /* @teleloc 0xDC510030 [136.894000 185.588200 18.596560] 0.045531 0.000000 0.000000 -0.998963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC51001, 0x7DC51002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DC51001, 0x7DC51003, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DC51001, 0x7DC51004, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DC51001, 0x7DC51005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DC51001, 0x7DC51006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DC51001, 0x7DC51007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DC51001, 0x7DC51008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DC51001, 0x7DC51009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DC51001, 0x7DC5100A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DC51001, 0x7DC5100B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DC51001, 0x7DC5100C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DC51001, 0x7DC5100D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DC51001, 0x7DC5100E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DC51001, 0x7DC5100F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DC51001, 0x7DC51010, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DC51001, 0x7DC51011, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7DC51001, 0x7DC51012, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DC51001, 0x7DC51013, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DC51001, 0x7DC51014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DC51001, 0x7DC51015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DC51001, 0x7DC51016, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7DC51001, 0x7DC51002, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DC51001, 0x7DC51003, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DC51001, 0x7DC51004, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DC51001, 0x7DC51005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DC51001, 0x7DC51006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DC51001, 0x7DC51007, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DC51001, 0x7DC51008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DC51001, 0x7DC51009, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DC51001, 0x7DC5100A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DC51001, 0x7DC5100B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC51001, 0x7DC5100C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DC51001, 0x7DC5100D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DC51001, 0x7DC5100E, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DC51001, 0x7DC5100F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC51001, 0x7DC51010, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DC51001, 0x7DC51011, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7DC51001, 0x7DC51012, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DC51001, 0x7DC51013, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DC51001, 0x7DC51014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC51001, 0x7DC51015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DC51001, 0x7DC51016, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC51002, 19262, 0xDC510030, 136.894, 185.5882, 18.59656, 0.04553146, 0, 0, -0.9989629,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

@@ -5,19 +5,19 @@ VALUES (0x717B5001,  1154, 0x17B5000E, 38.25655, 132.9579, 20, 0.3563286, 0, 0, 
 /* @teleloc 0x17B5000E [38.256550 132.957900 20.000000] 0.356329 0.000000 0.000000 -0.934361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B5001, 0x717B5002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x717B5001, 0x717B5003, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x717B5001, 0x717B5004, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x717B5001, 0x717B5005, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x717B5001, 0x717B5006, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x717B5001, 0x717B5007, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x717B5001, 0x717B5008, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x717B5001, 0x717B5009, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x717B5001, 0x717B500A, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x717B5001, 0x717B500B, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x717B5001, 0x717B500C, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x717B5001, 0x717B500D, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x717B5001, 0x717B500E, '2019-02-10 00:00:00') /* Carenzi Burrower */;
+VALUES (0x717B5001, 0x717B5002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x717B5001, 0x717B5003, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x717B5001, 0x717B5004, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x717B5001, 0x717B5005, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x717B5001, 0x717B5006, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x717B5001, 0x717B5007, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x717B5001, 0x717B5008, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x717B5001, 0x717B5009, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x717B5001, 0x717B500A, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x717B5001, 0x717B500B, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x717B5001, 0x717B500C, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x717B5001, 0x717B500D, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x717B5001, 0x717B500E, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B5002, 22010, 0x17B5000E, 38.25655, 132.9579, 20, 0.3563286, 0, 0, -0.9343607,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -76,10 +76,10 @@ VALUES (0x717B500F,  1542, 0x17B5001B, 80.6333, 56.01021, 18.86944, -0.0480366, 
 /* @teleloc 0x17B5001B [80.633300 56.010210 18.869440] -0.048037 0.000000 0.000000 -0.998846 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B500F, 0x717B5010, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */
-     , (0x717B500F, 0x717B5011, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x717B500F, 0x717B5012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x717B500F, 0x717B5013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x717B500F, 0x717B5010, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */
+     , (0x717B500F, 0x717B5011, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x717B500F, 0x717B5012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x717B500F, 0x717B5013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B5010, 11568, 0x17B5001B, 80.6333, 56.01021, 18.86944, -0.0480366, 0, 0, -0.9988456,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker Camp Generator */

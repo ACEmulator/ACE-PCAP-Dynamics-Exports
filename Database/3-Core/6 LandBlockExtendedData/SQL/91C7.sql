@@ -5,17 +5,17 @@ VALUES (0x791C7001,  1154, 0x91C70022, 96.81075, 45.33585, 82.05279, 0.8870109, 
 /* @teleloc 0x91C70022 [96.810750 45.335850 82.052790] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791C7001, 0x791C7002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x791C7001, 0x791C7003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x791C7001, 0x791C7004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x791C7001, 0x791C7005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x791C7001, 0x791C7006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x791C7001, 0x791C7007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x791C7001, 0x791C7008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x791C7001, 0x791C7009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x791C7001, 0x791C700A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x791C7001, 0x791C700B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x791C7001, 0x791C700C, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x791C7001, 0x791C7002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x791C7001, 0x791C7003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x791C7001, 0x791C7004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x791C7001, 0x791C7005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791C7001, 0x791C7006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x791C7001, 0x791C7007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x791C7001, 0x791C7008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x791C7001, 0x791C7009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x791C7001, 0x791C700A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x791C7001, 0x791C700B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x791C7001, 0x791C700C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791C7002,  1610, 0x91C70022, 96.81075, 45.33585, 82.05279, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

@@ -5,13 +5,13 @@ VALUES (0x72211001,  1154, 0x2211001B, 74.39184, 59.91449, 10.20582, -0.6639324,
 /* @teleloc 0x2211001B [74.391840 59.914490 10.205820] -0.663932 0.000000 0.000000 -0.747793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72211001, 0x72211002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72211001, 0x72211003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72211001, 0x72211004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72211001, 0x72211005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72211001, 0x72211006, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72211001, 0x72211007, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72211001, 0x72211008, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x72211001, 0x72211002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72211001, 0x72211003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72211001, 0x72211004, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72211001, 0x72211005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72211001, 0x72211006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72211001, 0x72211007, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72211001, 0x72211008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72211002, 30687, 0x2211001B, 74.39184, 59.91449, 10.20582, -0.6639324, 0, 0, -0.7477925,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
@@ -46,7 +46,7 @@ VALUES (0x72211009,  1542, 0x22110040, 183.6062, 168.0268, 12.58657, 0.9066497, 
 /* @teleloc 0x22110040 [183.606200 168.026800 12.586570] 0.906650 0.000000 0.000000 -0.421884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72211009, 0x7221100A, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x72211009, 0x7221100A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221100A,  9286, 0x22110040, 183.6062, 168.0268, 12.58657, 0.9066497, 0, 0, -0.4218843,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

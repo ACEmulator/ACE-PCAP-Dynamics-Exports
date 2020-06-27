@@ -9,41 +9,41 @@ VALUES (0x7C9E4001,  1154, 0xC9E40026, 108.3282, 121.1047, -0.09880006, 0.528681
 /* @teleloc 0xC9E40026 [108.328200 121.104700 -0.098800] 0.528682 0.000000 0.000000 -0.848820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9E4001, 0x7C9E4002, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E4003, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7C9E4001, 0x7C9E4004, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7C9E4001, 0x7C9E4005, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7C9E4001, 0x7C9E4006, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7C9E4001, 0x7C9E4007, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E4008, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E4009, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E400A, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E400B, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E400C, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E400D, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E400E, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E400F, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E4010, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E4011, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E4012, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E4013, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E4014, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E4015, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E4016, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7C9E4001, 0x7C9E4017, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7C9E4001, 0x7C9E4018, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7C9E4001, 0x7C9E4019, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7C9E4001, 0x7C9E401A, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7C9E4001, 0x7C9E401B, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E401C, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7C9E4001, 0x7C9E401D, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7C9E4001, 0x7C9E401E, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7C9E4001, 0x7C9E401F, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7C9E4001, 0x7C9E4020, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7C9E4001, 0x7C9E4021, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7C9E4001, 0x7C9E4022, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7C9E4001, 0x7C9E4023, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7C9E4001, 0x7C9E4024, '2019-02-10 00:00:00') /* Shallows Shredder */;
+VALUES (0x7C9E4001, 0x7C9E4002, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E4001, 0x7C9E4003, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7C9E4001, 0x7C9E4004, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7C9E4001, 0x7C9E4005, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7C9E4001, 0x7C9E4006, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7C9E4001, 0x7C9E4007, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E4008, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E4009, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E400A, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7C9E4001, 0x7C9E400B, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E4001, 0x7C9E400C, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E400D, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E400E, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E400F, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7C9E4001, 0x7C9E4010, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E4011, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E4012, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E4013, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E4001, 0x7C9E4014, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E4015, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E4016, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7C9E4001, 0x7C9E4017, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7C9E4001, 0x7C9E4018, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7C9E4001, 0x7C9E4019, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7C9E4001, 0x7C9E401A, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7C9E4001, 0x7C9E401B, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E401C, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7C9E4001, 0x7C9E401D, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7C9E4001, 0x7C9E401E, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7C9E4001, 0x7C9E401F, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7C9E4001, 0x7C9E4020, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7C9E4001, 0x7C9E4021, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7C9E4001, 0x7C9E4022, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7C9E4001, 0x7C9E4023, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7C9E4001, 0x7C9E4024, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9E4002, 31910, 0xC9E40026, 108.3282, 121.1047, -0.09880006, 0.5286818, 0, 0, -0.8488201,  True, '2019-02-10 00:00:00'); /* Shallows Shredder */

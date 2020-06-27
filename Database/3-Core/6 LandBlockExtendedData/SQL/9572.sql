@@ -9,12 +9,12 @@ VALUES (0x79572001,  1154, 0x95720026, 113.8582, 138.2167, 160.4371, 0.2970101, 
 /* @teleloc 0x95720026 [113.858200 138.216700 160.437100] 0.297010 0.000000 0.000000 -0.954874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79572001, 0x79572002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x79572001, 0x79572003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79572001, 0x79572004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x79572001, 0x79572005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79572001, 0x79572006, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79572001, 0x79572007, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x79572001, 0x79572002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x79572001, 0x79572003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79572001, 0x79572004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x79572001, 0x79572005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79572001, 0x79572006, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79572001, 0x79572007, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79572002,  8010, 0x95720026, 113.8582, 138.2167, 160.4371, 0.2970101, 0, 0, -0.9548743,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

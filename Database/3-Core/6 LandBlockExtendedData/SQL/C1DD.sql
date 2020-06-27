@@ -5,12 +5,12 @@ VALUES (0x7C1DD001,  1154, 0xC1DD0028, 102.3842, 168.7072, 3.414051, -0.2415597,
 /* @teleloc 0xC1DD0028 [102.384200 168.707200 3.414051] -0.241560 0.000000 0.000000 -0.970386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1DD001, 0x7C1DD002, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7C1DD001, 0x7C1DD003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C1DD001, 0x7C1DD004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7C1DD001, 0x7C1DD005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C1DD001, 0x7C1DD006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C1DD001, 0x7C1DD007, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7C1DD001, 0x7C1DD002, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7C1DD001, 0x7C1DD003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C1DD001, 0x7C1DD004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7C1DD001, 0x7C1DD005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C1DD001, 0x7C1DD006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C1DD001, 0x7C1DD007, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1DD002, 11527, 0xC1DD0028, 102.3842, 168.7072, 3.414051, -0.2415597, 0, 0, -0.970386,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */

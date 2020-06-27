@@ -5,22 +5,22 @@ VALUES (0x78BF1001,  1154, 0x8BF10037, 155.5277, 150.2466, 10.01, -0.9558793, 0,
 /* @teleloc 0x8BF10037 [155.527700 150.246600 10.010000] -0.955879 0.000000 0.000000 -0.293760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BF1001, 0x78BF1002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78BF1001, 0x78BF1003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BF1001, 0x78BF1004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78BF1001, 0x78BF1005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BF1001, 0x78BF1006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78BF1001, 0x78BF1007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78BF1001, 0x78BF1008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78BF1001, 0x78BF1009, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78BF1001, 0x78BF100A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78BF1001, 0x78BF100B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78BF1001, 0x78BF100C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78BF1001, 0x78BF100D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78BF1001, 0x78BF100E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78BF1001, 0x78BF100F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78BF1001, 0x78BF1010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BF1001, 0x78BF1011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x78BF1001, 0x78BF1002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78BF1001, 0x78BF1003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BF1001, 0x78BF1004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78BF1001, 0x78BF1005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BF1001, 0x78BF1006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78BF1001, 0x78BF1007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78BF1001, 0x78BF1008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78BF1001, 0x78BF1009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78BF1001, 0x78BF100A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78BF1001, 0x78BF100B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78BF1001, 0x78BF100C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78BF1001, 0x78BF100D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78BF1001, 0x78BF100E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78BF1001, 0x78BF100F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78BF1001, 0x78BF1010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BF1001, 0x78BF1011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BF1002,  7096, 0x8BF10037, 155.5277, 150.2466, 10.01, -0.9558793, 0, 0, -0.2937596,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -91,7 +91,7 @@ VALUES (0x78BF1012,  1542, 0x8BF10025, 103.8786, 119.9247, 10, 0.9990482, 0, 0, 
 /* @teleloc 0x8BF10025 [103.878600 119.924700 10.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BF1012, 0x78BF1013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78BF1012, 0x78BF1013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BF1013,  4179, 0x8BF10025, 103.8786, 119.9247, 10, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x7F145001,  1154, 0xF145002F, 136.1982, 158.7257, 0.004949987, 0.001672
 /* @teleloc 0xF145002F [136.198200 158.725700 0.004950] 0.001672 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F145001, 0x7F145002, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7F145001, 0x7F145003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7F145001, 0x7F145004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F145001, 0x7F145005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7F145001, 0x7F145006, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7F145001, 0x7F145007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7F145001, 0x7F145008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7F145001, 0x7F145009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F145001, 0x7F14500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7F145001, 0x7F145002, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7F145001, 0x7F145003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7F145001, 0x7F145004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F145001, 0x7F145005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7F145001, 0x7F145006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7F145001, 0x7F145007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7F145001, 0x7F145008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7F145001, 0x7F145009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F145001, 0x7F14500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F145002,   948, 0xF145002F, 136.1982, 158.7257, 0.004949987, 0.001672104, 0, 0, -0.9999986,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */

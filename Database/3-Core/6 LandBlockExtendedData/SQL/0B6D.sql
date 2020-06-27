@@ -5,19 +5,19 @@ VALUES (0x70B6D001,  1154, 0x0B6D0012, 55.37286, 24.33872, 0.28227, -0.209714, 0
 /* @teleloc 0x0B6D0012 [55.372860 24.338720 0.282270] -0.209714 0.000000 0.000000 -0.977763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B6D001, 0x70B6D002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70B6D001, 0x70B6D003, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70B6D001, 0x70B6D004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70B6D001, 0x70B6D005, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B6D001, 0x70B6D006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B6D001, 0x70B6D007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6D001, 0x70B6D008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6D001, 0x70B6D009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6D001, 0x70B6D00A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6D001, 0x70B6D00B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70B6D001, 0x70B6D00C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70B6D001, 0x70B6D00D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70B6D001, 0x70B6D00E, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x70B6D001, 0x70B6D002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70B6D001, 0x70B6D003, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70B6D001, 0x70B6D004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70B6D001, 0x70B6D005, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B6D001, 0x70B6D006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B6D001, 0x70B6D007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6D001, 0x70B6D008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6D001, 0x70B6D009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6D001, 0x70B6D00A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6D001, 0x70B6D00B, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70B6D001, 0x70B6D00C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70B6D001, 0x70B6D00D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70B6D001, 0x70B6D00E, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B6D002,  7127, 0x0B6D0012, 55.37286, 24.33872, 0.28227, -0.209714, 0, 0, -0.9777628,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */

@@ -5,17 +5,17 @@ VALUES (0x7D225001,  1154, 0xD2250019, 78.60328, 0.2486341, 92.93276, 0.8191521,
 /* @teleloc 0xD2250019 [78.603280 0.248634 92.932760] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D225001, 0x7D225002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D225001, 0x7D225003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D225001, 0x7D225004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D225001, 0x7D225005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D225001, 0x7D225006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D225001, 0x7D225007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D225001, 0x7D225008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D225001, 0x7D225009, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7D225001, 0x7D22500A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D225001, 0x7D22500B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D225001, 0x7D22500C, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x7D225001, 0x7D225002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D225001, 0x7D225003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D225001, 0x7D225004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D225001, 0x7D225005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D225001, 0x7D225006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D225001, 0x7D225007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D225001, 0x7D225008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D225001, 0x7D225009, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7D225001, 0x7D22500A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D225001, 0x7D22500B, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D225001, 0x7D22500C, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D225002,  7334, 0xD2250019, 78.60328, 0.2486341, 92.93276, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -66,7 +66,7 @@ VALUES (0x7D22500D,  1542, 0xD2250019, 77.81789, 0.6842999, 85.08738, 1, 0, 0, 0
 /* @teleloc 0xD2250019 [77.817890 0.684300 85.087380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D22500D, 0x7D22500E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D22500D, 0x7D22500E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D22500E, 22567, 0xD2250019, 77.81789, 0.6842999, 85.08738, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

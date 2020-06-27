@@ -5,24 +5,24 @@ VALUES (0x70E84001,  1154, 0x0E840019, 81.69143, 20.45507, 42.53804, 0.3987491, 
 /* @teleloc 0x0E840019 [81.691430 20.455070 42.538040] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E84001, 0x70E84002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70E84001, 0x70E84003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E84001, 0x70E84004, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70E84001, 0x70E84005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E84001, 0x70E84006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70E84001, 0x70E84007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70E84001, 0x70E84008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E84001, 0x70E84009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E84001, 0x70E8400A, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70E84001, 0x70E8400B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70E84001, 0x70E8400C, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E84001, 0x70E8400D, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x70E84001, 0x70E8400E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70E84001, 0x70E8400F, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70E84001, 0x70E84010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E84001, 0x70E84011, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70E84001, 0x70E84012, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E84001, 0x70E84013, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x70E84001, 0x70E84002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70E84001, 0x70E84003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E84001, 0x70E84004, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70E84001, 0x70E84005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E84001, 0x70E84006, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70E84001, 0x70E84007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70E84001, 0x70E84008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E84001, 0x70E84009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E84001, 0x70E8400A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70E84001, 0x70E8400B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70E84001, 0x70E8400C, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E84001, 0x70E8400D, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x70E84001, 0x70E8400E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70E84001, 0x70E8400F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70E84001, 0x70E84010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E84001, 0x70E84011, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70E84001, 0x70E84012, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E84001, 0x70E84013, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E84002, 36818, 0x0E840019, 81.69143, 20.45507, 42.53804, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -101,8 +101,8 @@ VALUES (0x70E84014,  1542, 0x0E84001A, 79.29409, 24.81658, 42.53804, -4.371139E-
 /* @teleloc 0x0E84001A [79.294090 24.816580 42.538040] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E84014, 0x70E84015, '2019-02-10 00:00:00') /* Bones */
-     , (0x70E84014, 0x70E84016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70E84014, 0x70E84015, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70E84014, 0x70E84016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E84015,  4380, 0x0E84001A, 79.29409, 24.81658, 42.53804, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

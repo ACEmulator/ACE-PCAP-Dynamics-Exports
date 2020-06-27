@@ -5,15 +5,15 @@ VALUES (0x7E938001,  1154, 0xE938002C, 140.5463, 81.55724, 68.79644, -0.08715577
 /* @teleloc 0xE938002C [140.546300 81.557240 68.796440] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E938001, 0x7E938002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E938001, 0x7E938003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E938001, 0x7E938004, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7E938001, 0x7E938005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E938001, 0x7E938006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E938001, 0x7E938007, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7E938001, 0x7E938008, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E938001, 0x7E938009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7E938001, 0x7E93800A, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7E938001, 0x7E938002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E938001, 0x7E938003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E938001, 0x7E938004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7E938001, 0x7E938005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E938001, 0x7E938006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E938001, 0x7E938007, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7E938001, 0x7E938008, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E938001, 0x7E938009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7E938001, 0x7E93800A, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E938002,  2582, 0xE938002C, 140.5463, 81.55724, 68.79644, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

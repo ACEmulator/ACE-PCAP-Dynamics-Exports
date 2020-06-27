@@ -5,9 +5,9 @@ VALUES (0x7421F001,  1154, 0x421F002B, 139.6205, 69.29397, 101.3306, 0.2588191, 
 /* @teleloc 0x421F002B [139.620500 69.293970 101.330600] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7421F001, 0x7421F002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7421F001, 0x7421F003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7421F001, 0x7421F004, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x7421F001, 0x7421F002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7421F001, 0x7421F003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7421F001, 0x7421F004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7421F002,  7086, 0x421F002B, 139.6205, 69.29397, 101.3306, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */

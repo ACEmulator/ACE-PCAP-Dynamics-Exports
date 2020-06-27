@@ -1737,7 +1737,7 @@ VALUES (0x7C7981B2,  1154, 0xC798003A, 191.7285, 41.36449, 15.98288, 0.7710553, 
 /* @teleloc 0xC798003A [191.728500 41.364490 15.982880] 0.771055 0.000000 0.000000 0.636768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7981B2, 0x7C7981B3, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7C7981B2, 0x7C7981B3, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7981B3,   231, 0xC798003A, 191.7285, 41.36449, 15.98288, 0.7710553, 0, 0, 0.6367682,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

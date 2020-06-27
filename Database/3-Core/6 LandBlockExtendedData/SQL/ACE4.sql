@@ -5,34 +5,34 @@ VALUES (0x7ACE4001,  1154, 0xACE4001B, 75.93829, 56.11484, 5.683809, -0.9273767,
 /* @teleloc 0xACE4001B [75.938290 56.114840 5.683809] -0.927377 0.000000 0.000000 -0.374129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACE4001, 0x7ACE4002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE4003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE4004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ACE4001, 0x7ACE4005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE4006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ACE4001, 0x7ACE4007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ACE4001, 0x7ACE4008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ACE4001, 0x7ACE4009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ACE4001, 0x7ACE400A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7ACE4001, 0x7ACE400B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ACE4001, 0x7ACE400C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE400D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE400E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE400F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE4010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ACE4001, 0x7ACE4011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ACE4001, 0x7ACE4012, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ACE4001, 0x7ACE4013, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ACE4001, 0x7ACE4014, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ACE4001, 0x7ACE4015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ACE4001, 0x7ACE4016, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7ACE4001, 0x7ACE4017, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ACE4001, 0x7ACE4018, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7ACE4001, 0x7ACE4019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE401A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE401B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE401C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ACE4001, 0x7ACE401D, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7ACE4001, 0x7ACE4002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE4001, 0x7ACE4003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE4001, 0x7ACE4004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ACE4001, 0x7ACE4005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE4001, 0x7ACE4006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ACE4001, 0x7ACE4007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ACE4001, 0x7ACE4008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ACE4001, 0x7ACE4009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ACE4001, 0x7ACE400A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7ACE4001, 0x7ACE400B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ACE4001, 0x7ACE400C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE400D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE400E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE400F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE4010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ACE4001, 0x7ACE4011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ACE4001, 0x7ACE4012, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ACE4001, 0x7ACE4013, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ACE4001, 0x7ACE4014, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ACE4001, 0x7ACE4015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ACE4001, 0x7ACE4016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7ACE4001, 0x7ACE4017, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ACE4001, 0x7ACE4018, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7ACE4001, 0x7ACE4019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE401A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE401B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE401C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ACE4001, 0x7ACE401D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACE4002,  7105, 0xACE4001B, 75.93829, 56.11484, 5.683809, -0.9273767, 0, 0, -0.3741289,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -151,9 +151,9 @@ VALUES (0x7ACE401E,  1542, 0xACE40020, 79.89216, 187.2654, -0.009999953, -0.9998
 /* @teleloc 0xACE40020 [79.892160 187.265400 -0.010000] -0.999803 0.000000 0.000000 -0.019828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACE401E, 0x7ACE401F, '2019-02-10 00:00:00') /* Master's Holding */
-     , (0x7ACE401E, 0x7ACE4020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ACE401E, 0x7ACE4021, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7ACE401E, 0x7ACE401F, '2019-02-10 00:00:00') /* Master's Holding (9287) */
+     , (0x7ACE401E, 0x7ACE4020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ACE401E, 0x7ACE4021, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACE401F,  9287, 0xACE40020, 79.89216, 187.2654, -0.009999953, -0.9998034, 0, 0, -0.01982812,  True, '2019-02-10 00:00:00'); /* Master's Holding */

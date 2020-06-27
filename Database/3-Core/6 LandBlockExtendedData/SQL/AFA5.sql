@@ -5,10 +5,10 @@ VALUES (0x7AFA5001,  1154, 0xAFA50040, 185.0726, 182.5647, 103.801, 0.2941873, 0
 /* @teleloc 0xAFA50040 [185.072600 182.564700 103.801000] 0.294187 0.000000 0.000000 -0.955748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA5001, 0x7AFA5002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AFA5001, 0x7AFA5003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AFA5001, 0x7AFA5004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AFA5001, 0x7AFA5005, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7AFA5001, 0x7AFA5002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AFA5001, 0x7AFA5003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AFA5001, 0x7AFA5004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AFA5001, 0x7AFA5005, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA5002, 11528, 0xAFA50040, 185.0726, 182.5647, 103.801, 0.2941873, 0, 0, -0.9557478,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

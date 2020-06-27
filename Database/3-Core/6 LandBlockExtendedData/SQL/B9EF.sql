@@ -9,172 +9,172 @@ VALUES (0x7B9EF003,  1154, 0xB9EF0023, 99.78845, 52.8892, 157.6185, 0.3414069, 0
 /* @teleloc 0xB9EF0023 [99.788450 52.889200 157.618500] 0.341407 0.000000 0.000000 0.939916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9EF003, 0x7B9EF004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF007, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF00A, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF00B, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7B9EF003, 0x7B9EF00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF00D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF00E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF00F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF010, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF011, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF012, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF013, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF014, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF015, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF016, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF017, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF018, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7B9EF003, 0x7B9EF019, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF01A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF01B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF01C, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF01D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF01E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF01F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF020, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF021, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF022, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF023, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF024, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF025, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF026, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF027, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF028, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF029, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF02A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF02B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF02C, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF02D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF02E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF02F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF030, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF031, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF032, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF033, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF034, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF035, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF036, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF037, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF038, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF039, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF03A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF03B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF03C, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF03D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF03E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF03F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF040, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF041, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF042, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF043, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF044, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF045, '2019-02-10 00:00:00') /* Ember */
-     , (0x7B9EF003, 0x7B9EF046, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF047, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF048, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF049, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF04A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF04B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF04C, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF04D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF04E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF04F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF050, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF051, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF052, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF053, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF054, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF055, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF056, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF057, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF058, '2019-02-10 00:00:00') /* Ember */
-     , (0x7B9EF003, 0x7B9EF059, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF05A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF05B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF05C, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF05D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF05E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF05F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF060, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF061, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF062, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF063, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF064, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF065, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF066, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF067, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF068, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF069, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF06A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF06B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF06C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF06D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF06E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF06F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF070, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF071, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF072, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF073, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF074, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF075, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF076, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF077, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF078, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF079, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF07A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF07B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF07C, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF07D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF07E, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF07F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF080, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF081, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF082, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF083, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF084, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF085, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF086, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF087, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF088, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF089, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF08A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF08B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF08C, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF08D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF08E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF08F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF090, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF091, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF092, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF093, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF094, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF095, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF096, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF097, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF098, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF099, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF09A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF09B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF09C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF09D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF09E, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF09F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF0A0, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF0A1, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B9EF003, 0x7B9EF0A2, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF0A3, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF0A4, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF0A5, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9EF003, 0x7B9EF0A6, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun */
-     , (0x7B9EF003, 0x7B9EF0A7, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF0A8, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B9EF003, 0x7B9EF0A9, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B9EF003, 0x7B9EF004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF007, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF00A, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF00B, '2019-02-10 00:00:00') /* Exploration Marker (39790) */
+     , (0x7B9EF003, 0x7B9EF00C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF00D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF00E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF00F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF010, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF011, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF012, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF013, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF014, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF015, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF016, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF017, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF018, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7B9EF003, 0x7B9EF019, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF01A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF01B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF01C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF01D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF01E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF01F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF020, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF021, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF022, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF023, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF024, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF025, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF026, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF027, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF028, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF029, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF02A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF02B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF02C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF02D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF02E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF02F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF030, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF031, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF032, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF033, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF034, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF035, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF036, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF037, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF038, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF039, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF03A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF03B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF03C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF03D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF03E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF03F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF040, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF041, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF042, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF043, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF044, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF045, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7B9EF003, 0x7B9EF046, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF047, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF048, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF049, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF04A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF04B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF04C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF04D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF04E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF04F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF050, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF051, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF052, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF053, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF054, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF055, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF056, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF057, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF058, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7B9EF003, 0x7B9EF059, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF05A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF05B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF05C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF05D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF05E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF05F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF060, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF061, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF062, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF063, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF064, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF065, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF066, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF067, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF068, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF069, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF06A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF06B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF06C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF06D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF06E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF06F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF070, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF071, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF072, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF073, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF074, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF075, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF076, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF077, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF078, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF079, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF07A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF07B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF07C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF07D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF07E, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF07F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF080, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF081, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF082, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF083, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF084, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF085, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF086, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF087, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF088, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF089, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF08A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF08B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF08C, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF08D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF08E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF08F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF090, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF091, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF092, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF093, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF094, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF095, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF096, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF097, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF098, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF099, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF09A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF09B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF09C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF09D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF09E, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF09F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF0A0, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF0A1, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF0A2, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0A3, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0A4, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0A5, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF0A6, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF0A7, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0A8, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0A9, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9EF004,  7092, 0xB9EF0023, 99.78845, 52.8892, 157.6185, 0.3414069, 0, 0, 0.9399156,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -845,8 +845,8 @@ VALUES (0x7B9EF0AA,  1542, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 
 /* @teleloc 0xB9EF000A [26.288670 45.892440 161.791300] -0.995357 0.000000 0.000000 0.096251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9EF0AA, 0x7B9EF0AB, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7B9EF0AA, 0x7B9EF0AC, '2019-02-10 00:00:00') /* Prismatic Taper */;
+VALUES (0x7B9EF0AA, 0x7B9EF0AB, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7B9EF0AA, 0x7B9EF0AC, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9EF0AB, 20631, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 0, 0, 0.09625141,  True, '2019-02-10 00:00:00'); /* Prismatic Taper */

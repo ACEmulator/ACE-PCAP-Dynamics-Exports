@@ -5,17 +5,17 @@ VALUES (0x74AB4001,  1154, 0x4AB40032, 149.057, 25.29961, 137.8074, 0.9999848, 0
 /* @teleloc 0x4AB40032 [149.057000 25.299610 137.807400] 0.999985 0.000000 0.000000 -0.005513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB4001, 0x74AB4002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x74AB4001, 0x74AB4003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74AB4001, 0x74AB4004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x74AB4001, 0x74AB4005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x74AB4001, 0x74AB4006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74AB4001, 0x74AB4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74AB4001, 0x74AB4008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74AB4001, 0x74AB4009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB4001, 0x74AB400A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x74AB4001, 0x74AB400B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB4001, 0x74AB400C, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74AB4001, 0x74AB4002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x74AB4001, 0x74AB4003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74AB4001, 0x74AB4004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x74AB4001, 0x74AB4005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x74AB4001, 0x74AB4006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74AB4001, 0x74AB4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74AB4001, 0x74AB4008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74AB4001, 0x74AB4009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB4001, 0x74AB400A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x74AB4001, 0x74AB400B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB4001, 0x74AB400C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB4002,  1628, 0x4AB40032, 149.057, 25.29961, 137.8074, 0.9999848, 0, 0, -0.005512642,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

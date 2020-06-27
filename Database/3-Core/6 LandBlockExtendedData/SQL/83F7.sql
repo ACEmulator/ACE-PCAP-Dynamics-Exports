@@ -5,18 +5,18 @@ VALUES (0x783F7001,  1154, 0x83F70024, 108.2936, 89.49919, 49.66764, 0.9908757, 
 /* @teleloc 0x83F70024 [108.293600 89.499190 49.667640] 0.990876 0.000000 0.000000 -0.134779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783F7001, 0x783F7002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x783F7001, 0x783F7003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x783F7001, 0x783F7004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x783F7001, 0x783F7005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x783F7001, 0x783F7006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x783F7001, 0x783F7007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x783F7001, 0x783F7008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x783F7001, 0x783F7009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x783F7001, 0x783F700A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x783F7001, 0x783F700B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x783F7001, 0x783F700C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x783F7001, 0x783F700D, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x783F7001, 0x783F7002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x783F7001, 0x783F7003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x783F7001, 0x783F7004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x783F7001, 0x783F7005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x783F7001, 0x783F7006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x783F7001, 0x783F7007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x783F7001, 0x783F7008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x783F7001, 0x783F7009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x783F7001, 0x783F700A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x783F7001, 0x783F700B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x783F7001, 0x783F700C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x783F7001, 0x783F700D, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783F7002, 24287, 0x83F70024, 108.2936, 89.49919, 49.66764, 0.9908757, 0, 0, -0.1347786,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

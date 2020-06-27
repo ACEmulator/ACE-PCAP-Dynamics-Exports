@@ -5,16 +5,16 @@ VALUES (0x7A8B7001,  1154, 0xA8B70007, 2.811798, 162.4191, 27.892, -0.6964013, 0
 /* @teleloc 0xA8B70007 [2.811798 162.419100 27.892000] -0.696401 0.000000 0.000000 -0.717653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B7001, 0x7A8B7002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B7001, 0x7A8B7003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B7001, 0x7A8B7004, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A8B7001, 0x7A8B7005, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A8B7001, 0x7A8B7006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A8B7001, 0x7A8B7007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A8B7001, 0x7A8B7008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A8B7001, 0x7A8B7009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B7001, 0x7A8B700A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B7001, 0x7A8B700B, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7A8B7001, 0x7A8B7002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B7001, 0x7A8B7003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B7001, 0x7A8B7004, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B7001, 0x7A8B7005, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A8B7001, 0x7A8B7006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B7001, 0x7A8B7007, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A8B7001, 0x7A8B7008, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A8B7001, 0x7A8B7009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B7001, 0x7A8B700A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B7001, 0x7A8B700B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B7002, 24937, 0xA8B70007, 2.811798, 162.4191, 27.892, -0.6964013, 0, 0, -0.7176526,  True, '2019-02-10 00:00:00'); /* Chicken */

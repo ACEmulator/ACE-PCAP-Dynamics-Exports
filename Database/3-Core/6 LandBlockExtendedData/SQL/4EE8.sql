@@ -5,9 +5,9 @@ VALUES (0x74EE8001,  1154, 0x4EE8002C, 141.6752, 77.36721, 5.365499, -0.7647307,
 /* @teleloc 0x4EE8002C [141.675200 77.367210 5.365499] -0.764731 0.000000 0.000000 -0.644350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EE8001, 0x74EE8002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74EE8001, 0x74EE8003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74EE8001, 0x74EE8004, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x74EE8001, 0x74EE8002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74EE8001, 0x74EE8003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x74EE8001, 0x74EE8004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EE8002, 10807, 0x4EE8002C, 141.6752, 77.36721, 5.365499, -0.7647307, 0, 0, -0.6443501,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

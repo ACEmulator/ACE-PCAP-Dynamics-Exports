@@ -85,40 +85,40 @@ VALUES (0x702AB043,  1154, 0x02AB0179, 164.559, -8.03801, 0.008249998, -0.924267
 /* @teleloc 0x02AB0179 [164.559000 -8.038010 0.008250] -0.924267 0.000000 0.000000 -0.381747 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AB043, 0x702AB044, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB045, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x702AB043, 0x702AB046, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x702AB043, 0x702AB047, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB048, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB049, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB04A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB04B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB04C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB04D, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB04E, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB04F, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x702AB043, 0x702AB050, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702AB043, 0x702AB051, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB052, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB053, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB054, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB055, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB056, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB057, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB058, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB059, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB05A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB05B, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB05C, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB05D, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB05E, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB05F, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB060, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB061, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x702AB043, 0x702AB062, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB063, '2019-02-10 00:00:00') /* Decaying Warrior */
-     , (0x702AB043, 0x702AB064, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x702AB043, 0x702AB065, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x702AB043, 0x702AB044, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB045, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x702AB043, 0x702AB046, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x702AB043, 0x702AB047, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB048, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB049, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB04A, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB04B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB04C, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB04D, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB04E, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB04F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x702AB043, 0x702AB050, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x702AB043, 0x702AB051, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB052, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB053, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB054, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB055, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB056, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB057, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB058, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB059, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB05A, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB05B, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB05C, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB05D, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB05E, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB05F, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB060, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB061, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x702AB043, 0x702AB062, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB063, '2019-02-10 00:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB043, 0x702AB064, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB043, 0x702AB065, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB044,  8967, 0x02AB0179, 164.559, -8.03801, 0.008249998, -0.924267, 0, 0, -0.381747,  True, '2019-02-10 00:00:00'); /* Decaying Warrior */

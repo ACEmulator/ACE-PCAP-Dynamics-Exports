@@ -5,19 +5,19 @@ VALUES (0x78AA4001,  1154, 0x8AA40035, 160.6668, 114.8593, 37.21829, 0.6253588, 
 /* @teleloc 0x8AA40035 [160.666800 114.859300 37.218290] 0.625359 0.000000 0.000000 -0.780337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AA4001, 0x78AA4002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78AA4001, 0x78AA4003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78AA4001, 0x78AA4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78AA4001, 0x78AA4005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA4006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA4007, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x78AA4001, 0x78AA4008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA4009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA400A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA400B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78AA4001, 0x78AA400C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78AA4001, 0x78AA400D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78AA4001, 0x78AA400E, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x78AA4001, 0x78AA4002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78AA4001, 0x78AA4003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78AA4001, 0x78AA4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78AA4001, 0x78AA4005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA4006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA4007, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x78AA4001, 0x78AA4008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA4009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA400A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA400B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78AA4001, 0x78AA400C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78AA4001, 0x78AA400D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78AA4001, 0x78AA400E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AA4002,  1627, 0x8AA40035, 160.6668, 114.8593, 37.21829, 0.6253588, 0, 0, -0.7803373,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -76,7 +76,7 @@ VALUES (0x78AA400F,  1542, 0x8AA4002A, 121.5637, 30.04988, 45.55322, 1, 0, 0, 0,
 /* @teleloc 0x8AA4002A [121.563700 30.049880 45.553220] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AA400F, 0x78AA4010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78AA400F, 0x78AA4010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AA4010,  4380, 0x8AA4002A, 121.5637, 30.04988, 45.55322, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

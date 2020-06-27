@@ -5,16 +5,16 @@ VALUES (0x7DA98001,  1154, 0xDA980004, 11.94152, 78.77222, -0.4580001, -0.789500
 /* @teleloc 0xDA980004 [11.941520 78.772220 -0.458000] -0.789501 0.000000 0.000000 -0.613750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA98001, 0x7DA98002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA98001, 0x7DA98003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA98001, 0x7DA98004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA98005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA98006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA98007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA98008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA98009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA9800A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7DA98001, 0x7DA9800B, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7DA98001, 0x7DA98002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA98001, 0x7DA98003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA98001, 0x7DA98004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA98005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA98006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA98007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA98008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA98009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA9800A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7DA98001, 0x7DA9800B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA98002, 24937, 0xDA980004, 11.94152, 78.77222, -0.4580001, -0.7895007, 0, 0, -0.6137497,  True, '2019-02-10 00:00:00'); /* Chicken */

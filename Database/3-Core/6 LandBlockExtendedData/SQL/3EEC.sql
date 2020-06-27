@@ -9,18 +9,18 @@ VALUES (0x73EEC001,  1154, 0x3EEC0037, 162.7979, 164.6852, 11.83924, 0.1025066, 
 /* @teleloc 0x3EEC0037 [162.797900 164.685200 11.839240] 0.102507 0.000000 0.000000 -0.994732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEC001, 0x73EEC002, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x73EEC001, 0x73EEC003, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x73EEC001, 0x73EEC004, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EEC001, 0x73EEC005, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73EEC001, 0x73EEC006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73EEC001, 0x73EEC007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73EEC001, 0x73EEC008, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EEC001, 0x73EEC009, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73EEC001, 0x73EEC00A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73EEC001, 0x73EEC00B, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EEC001, 0x73EEC00C, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EEC001, 0x73EEC00D, '2019-02-10 00:00:00') /* Repugnant Eater */;
+VALUES (0x73EEC001, 0x73EEC002, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73EEC001, 0x73EEC003, '2019-02-10 00:00:00') /* Uber Penguin (28661) */
+     , (0x73EEC001, 0x73EEC004, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EEC001, 0x73EEC005, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x73EEC001, 0x73EEC006, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73EEC001, 0x73EEC007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73EEC001, 0x73EEC008, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EEC001, 0x73EEC009, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73EEC001, 0x73EEC00A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x73EEC001, 0x73EEC00B, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EEC001, 0x73EEC00C, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EEC001, 0x73EEC00D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEC002, 28655, 0x3EEC0037, 162.7979, 164.6852, 11.83924, 0.1025066, 0, 0, -0.9947323,  True, '2019-02-10 00:00:00'); /* Viamontian Hand */
@@ -75,7 +75,7 @@ VALUES (0x73EEC00E,  1542, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133,
 /* @teleloc 0x3EEC0035 [165.158800 112.709100 13.557760] -0.565713 0.000000 0.000000 -0.824602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEC00E, 0x73EEC00F, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x73EEC00E, 0x73EEC00F, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEC00F, 31032, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133, 0, 0, -0.824602,  True, '2019-02-10 00:00:00'); /* Snow Lily */

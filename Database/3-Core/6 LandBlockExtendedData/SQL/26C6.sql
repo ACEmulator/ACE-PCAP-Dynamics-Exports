@@ -5,21 +5,21 @@ VALUES (0x726C6001,  1154, 0x26C60020, 72.38696, 180.1433, 0.9760588, 0.9852811,
 /* @teleloc 0x26C60020 [72.386960 180.143300 0.976059] 0.985281 0.000000 0.000000 -0.170942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726C6001, 0x726C6002, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x726C6001, 0x726C6003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x726C6001, 0x726C6004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x726C6001, 0x726C6005, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x726C6001, 0x726C6006, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x726C6001, 0x726C6007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x726C6001, 0x726C6008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x726C6001, 0x726C6009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x726C6001, 0x726C600A, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x726C6001, 0x726C600B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x726C6001, 0x726C600C, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x726C6001, 0x726C600D, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x726C6001, 0x726C600E, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x726C6001, 0x726C600F, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x726C6001, 0x726C6010, '2019-02-10 00:00:00') /* Carnivorous Carenzi */;
+VALUES (0x726C6001, 0x726C6002, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x726C6001, 0x726C6003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x726C6001, 0x726C6004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x726C6001, 0x726C6005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x726C6001, 0x726C6006, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x726C6001, 0x726C6007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x726C6001, 0x726C6008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x726C6001, 0x726C6009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x726C6001, 0x726C600A, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x726C6001, 0x726C600B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x726C6001, 0x726C600C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x726C6001, 0x726C600D, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x726C6001, 0x726C600E, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x726C6001, 0x726C600F, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x726C6001, 0x726C6010, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726C6002, 27713, 0x26C60020, 72.38696, 180.1433, 0.9760588, 0.9852811, 0, 0, -0.1709423,  True, '2019-02-10 00:00:00'); /* Untamed Siraluun */
@@ -86,7 +86,7 @@ VALUES (0x726C6011,  1542, 0x26C6001F, 80.21104, 155.1533, 4.589069, 0.9852811, 
 /* @teleloc 0x26C6001F [80.211040 155.153300 4.589069] 0.985281 0.000000 0.000000 -0.170942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726C6011, 0x726C6012, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x726C6011, 0x726C6012, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726C6012, 27719, 0x26C6001F, 80.21104, 155.1533, 4.589069, 0.9852811, 0, 0, -0.1709423,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

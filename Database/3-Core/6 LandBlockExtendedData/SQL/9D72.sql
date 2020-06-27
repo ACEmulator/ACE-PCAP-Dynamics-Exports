@@ -5,10 +5,10 @@ VALUES (0x79D72001,  1154, 0x9D720009, 30.65398, 1.130797, 24.565, 0.8660254, 0,
 /* @teleloc 0x9D720009 [30.653980 1.130797 24.565000] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D72001, 0x79D72002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79D72001, 0x79D72003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79D72001, 0x79D72004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79D72001, 0x79D72005, '2019-02-10 00:00:00') /* Seared Skeleton */;
+VALUES (0x79D72001, 0x79D72002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79D72001, 0x79D72003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79D72001, 0x79D72004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79D72001, 0x79D72005, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D72002,    19, 0x9D720009, 30.65398, 1.130797, 24.565, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */
@@ -31,8 +31,8 @@ VALUES (0x79D72006,  1542, 0x9D720009, 34.43018, 4.421748, 25.50504, 1, 0, 0, 0,
 /* @teleloc 0x9D720009 [34.430180 4.421748 25.505040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D72006, 0x79D72007, '2019-02-10 00:00:00') /* Bones */
-     , (0x79D72006, 0x79D72008, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79D72006, 0x79D72007, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79D72006, 0x79D72008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D72007,  4380, 0x9D720009, 34.43018, 4.421748, 25.50504, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,11 +5,11 @@ VALUES (0x7420C001,  1154, 0x420C0002, 22.31247, 28.46305, -0.8943999, 0.873612,
 /* @teleloc 0x420C0002 [22.312470 28.463050 -0.894400] 0.873612 0.000000 0.000000 -0.486623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7420C001, 0x7420C002, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x7420C001, 0x7420C003, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7420C001, 0x7420C004, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7420C001, 0x7420C005, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7420C001, 0x7420C006, '2019-02-10 00:00:00') /* Shoguth Moarsman */;
+VALUES (0x7420C001, 0x7420C002, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x7420C001, 0x7420C003, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7420C001, 0x7420C004, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7420C001, 0x7420C005, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7420C001, 0x7420C006, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7420C002, 40481, 0x420C0002, 22.31247, 28.46305, -0.8943999, 0.873612, 0, 0, -0.486623,  True, '2019-02-10 00:00:00'); /* Moguth Moarsman */

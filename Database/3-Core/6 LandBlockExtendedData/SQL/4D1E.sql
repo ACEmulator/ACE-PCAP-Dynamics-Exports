@@ -5,21 +5,21 @@ VALUES (0x74D1E001,  1154, 0x4D1E0005, 4.604051, 106.3616, 44.10263, 0.9537169, 
 /* @teleloc 0x4D1E0005 [4.604051 106.361600 44.102630] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D1E001, 0x74D1E002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74D1E001, 0x74D1E003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74D1E001, 0x74D1E004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74D1E001, 0x74D1E005, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x74D1E001, 0x74D1E006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74D1E001, 0x74D1E007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74D1E001, 0x74D1E008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74D1E001, 0x74D1E009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74D1E001, 0x74D1E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74D1E001, 0x74D1E00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74D1E001, 0x74D1E00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74D1E001, 0x74D1E00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74D1E001, 0x74D1E00E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74D1E001, 0x74D1E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74D1E001, 0x74D1E010, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74D1E001, 0x74D1E002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74D1E001, 0x74D1E003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74D1E001, 0x74D1E004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74D1E001, 0x74D1E005, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x74D1E001, 0x74D1E006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74D1E001, 0x74D1E007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74D1E001, 0x74D1E008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74D1E001, 0x74D1E009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74D1E001, 0x74D1E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74D1E001, 0x74D1E00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74D1E001, 0x74D1E00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74D1E001, 0x74D1E00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74D1E001, 0x74D1E00E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74D1E001, 0x74D1E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74D1E001, 0x74D1E010, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D1E002,  8431, 0x4D1E0005, 4.604051, 106.3616, 44.10263, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

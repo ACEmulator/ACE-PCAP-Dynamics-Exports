@@ -5,11 +5,11 @@ VALUES (0x7DC4F001,  1154, 0xDC4F0034, 165.3945, 81.64075, 22.0055, 0.2588191, 0
 /* @teleloc 0xDC4F0034 [165.394500 81.640750 22.005500] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC4F001, 0x7DC4F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DC4F001, 0x7DC4F003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DC4F001, 0x7DC4F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DC4F001, 0x7DC4F005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DC4F001, 0x7DC4F006, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7DC4F001, 0x7DC4F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DC4F001, 0x7DC4F003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DC4F001, 0x7DC4F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DC4F001, 0x7DC4F005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DC4F001, 0x7DC4F006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC4F002,   211, 0xDC4F0034, 165.3945, 81.64075, 22.0055, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

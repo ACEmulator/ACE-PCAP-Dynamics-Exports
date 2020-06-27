@@ -5,17 +5,17 @@ VALUES (0x7163A001,  1154, 0x163A0039, 176.4689, 7.390234, 34.99163, -0.8461368,
 /* @teleloc 0x163A0039 [176.468900 7.390234 34.991630] -0.846137 0.000000 0.000000 -0.532966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163A001, 0x7163A002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x7163A001, 0x7163A003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7163A001, 0x7163A004, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7163A001, 0x7163A005, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7163A001, 0x7163A006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7163A001, 0x7163A007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163A001, 0x7163A008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163A001, 0x7163A009, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7163A001, 0x7163A00A, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7163A001, 0x7163A00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7163A001, 0x7163A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7163A001, 0x7163A002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x7163A001, 0x7163A003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7163A001, 0x7163A004, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7163A001, 0x7163A005, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7163A001, 0x7163A006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7163A001, 0x7163A007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163A001, 0x7163A008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163A001, 0x7163A009, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7163A001, 0x7163A00A, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7163A001, 0x7163A00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7163A001, 0x7163A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163A002, 41004, 0x163A0039, 176.4689, 7.390234, 34.99163, -0.8461368, 0, 0, -0.5329657,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

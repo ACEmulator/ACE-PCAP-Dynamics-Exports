@@ -5,57 +5,57 @@ VALUES (0x7CB5E001,  1154, 0xCB5E0006, 23.15793, 127.9499, 5.932046, 0.6427876, 
 /* @teleloc 0xCB5E0006 [23.157930 127.949900 5.932046] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5E001, 0x7CB5E002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7CB5E001, 0x7CB5E008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E00C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CB5E001, 0x7CB5E00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB5E001, 0x7CB5E00E, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7CB5E001, 0x7CB5E00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB5E001, 0x7CB5E010, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB5E001, 0x7CB5E011, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7CB5E001, 0x7CB5E012, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CB5E001, 0x7CB5E013, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E014, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E015, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E016, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CB5E001, 0x7CB5E017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB5E001, 0x7CB5E018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E019, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E01A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E01B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E01C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E01D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E01E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E01F, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E020, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E021, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7CB5E001, 0x7CB5E022, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CB5E001, 0x7CB5E023, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB5E001, 0x7CB5E024, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB5E001, 0x7CB5E025, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E026, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E027, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E028, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E029, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E02A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E02B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E02C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB5E001, 0x7CB5E02D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E02E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E02F, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E030, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5E001, 0x7CB5E031, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5E001, 0x7CB5E032, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB5E001, 0x7CB5E033, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB5E001, 0x7CB5E034, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7CB5E001, 0x7CB5E002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7CB5E001, 0x7CB5E008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E00C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CB5E001, 0x7CB5E00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB5E001, 0x7CB5E00E, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7CB5E001, 0x7CB5E00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB5E001, 0x7CB5E010, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB5E001, 0x7CB5E011, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7CB5E001, 0x7CB5E012, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CB5E001, 0x7CB5E013, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E014, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E015, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E016, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CB5E001, 0x7CB5E017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB5E001, 0x7CB5E018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E019, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E01A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E01B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E01C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E01D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E01E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E01F, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E020, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E021, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7CB5E001, 0x7CB5E022, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CB5E001, 0x7CB5E023, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB5E001, 0x7CB5E024, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB5E001, 0x7CB5E025, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E026, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E027, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E028, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E029, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E02A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E02B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E02C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB5E001, 0x7CB5E02D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E02E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E02F, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E030, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5E001, 0x7CB5E031, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5E001, 0x7CB5E032, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB5E001, 0x7CB5E033, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB5E001, 0x7CB5E034, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5E002, 26018, 0xCB5E0006, 23.15793, 127.9499, 5.932046, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
@@ -266,8 +266,8 @@ VALUES (0x7CB5E035,  1542, 0xCB5E0015, 50.31631, 103.7795, 6, -4.371139E-08, 0, 
 /* @teleloc 0xCB5E0015 [50.316310 103.779500 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5E035, 0x7CB5E036, '2019-02-10 00:00:00') /* Idol */
-     , (0x7CB5E035, 0x7CB5E037, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7CB5E035, 0x7CB5E036, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7CB5E035, 0x7CB5E037, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5E036,  8588, 0xCB5E0015, 50.31631, 103.7795, 6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Idol */

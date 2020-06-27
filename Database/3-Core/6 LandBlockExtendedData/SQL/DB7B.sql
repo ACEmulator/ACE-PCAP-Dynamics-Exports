@@ -5,10 +5,10 @@ VALUES (0x7DB7B001,  1154, 0xDB7B001B, 94.0254, 68.81937, 18.0065, -0.6472086, 0
 /* @teleloc 0xDB7B001B [94.025400 68.819370 18.006500] -0.647209 0.000000 0.000000 -0.762313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB7B001, 0x7DB7B002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DB7B001, 0x7DB7B003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7DB7B001, 0x7DB7B004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DB7B001, 0x7DB7B005, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7DB7B001, 0x7DB7B002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DB7B001, 0x7DB7B003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7DB7B001, 0x7DB7B004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DB7B001, 0x7DB7B005, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB7B002, 21170, 0xDB7B001B, 94.0254, 68.81937, 18.0065, -0.6472086, 0, 0, -0.7623129,  True, '2019-02-10 00:00:00'); /* Voltarc */

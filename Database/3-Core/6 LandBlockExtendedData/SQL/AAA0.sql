@@ -5,9 +5,9 @@ VALUES (0x7AAA0001,  1154, 0xAAA00035, 164.7213, 111.1017, 146.5194, -0.9350045,
 /* @teleloc 0xAAA00035 [164.721300 111.101700 146.519400] -0.935005 0.000000 0.000000 -0.354636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA0001, 0x7AAA0002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7AAA0001, 0x7AAA0003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AAA0001, 0x7AAA0004, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7AAA0001, 0x7AAA0002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7AAA0001, 0x7AAA0003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AAA0001, 0x7AAA0004, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAA0002, 28878, 0xAAA00035, 164.7213, 111.1017, 146.5194, -0.9350045, 0, 0, -0.3546359,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -26,8 +26,8 @@ VALUES (0x7AAA0005,  1542, 0xAAA00035, 166.0476, 109.6048, 146.5194, 1, 0, 0, 0,
 /* @teleloc 0xAAA00035 [166.047600 109.604800 146.519400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA0005, 0x7AAA0006, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AAA0005, 0x7AAA0007, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7AAA0005, 0x7AAA0006, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AAA0005, 0x7AAA0007, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAA0006,  8232, 0xAAA00035, 166.0476, 109.6048, 146.5194, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

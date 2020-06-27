@@ -5,14 +5,14 @@ VALUES (0x7A956001,  1154, 0xA9560031, 154.3196, 12.77616, 36.15211, 0.9238795, 
 /* @teleloc 0xA9560031 [154.319600 12.776160 36.152110] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A956001, 0x7A956002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A956001, 0x7A956003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A956001, 0x7A956004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A956001, 0x7A956005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A956001, 0x7A956006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A956001, 0x7A956007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A956001, 0x7A956008, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A956001, 0x7A956009, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7A956001, 0x7A956002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A956001, 0x7A956003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A956001, 0x7A956004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A956001, 0x7A956005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A956001, 0x7A956006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A956001, 0x7A956007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A956001, 0x7A956008, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A956001, 0x7A956009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A956002,   221, 0xA9560031, 154.3196, 12.77616, 36.15211, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */
@@ -51,7 +51,7 @@ VALUES (0x7A95600A,  1542, 0xA9560020, 91.70384, 177.7985, 34.35801, 0.5422775, 
 /* @teleloc 0xA9560020 [91.703840 177.798500 34.358010] 0.542278 0.000000 0.000000 -0.840200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A95600A, 0x7A95600B, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7A95600A, 0x7A95600B, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A95600B,  8588, 0xA9560020, 91.70384, 177.7985, 34.35801, 0.5422775, 0, 0, -0.8401995,  True, '2019-02-10 00:00:00'); /* Idol */

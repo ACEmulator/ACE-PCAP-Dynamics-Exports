@@ -5,8 +5,8 @@ VALUES (0x723BA001,  1154, 0x23BA0031, 155.4088, 17.66249, 122.4276, 1, 0, 0, 0,
 /* @teleloc 0x23BA0031 [155.408800 17.662490 122.427600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723BA001, 0x723BA002, '2019-02-10 00:00:00') /* Poacher */
-     , (0x723BA001, 0x723BA003, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x723BA001, 0x723BA002, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x723BA001, 0x723BA003, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723BA002, 11505, 0x23BA0031, 155.4088, 17.66249, 122.4276, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Poacher */
@@ -21,10 +21,10 @@ VALUES (0x723BA004,  1542, 0x23BA0031, 152.1351, 6.601924, 121.8204, 1, 0, 0, 0,
 /* @teleloc 0x23BA0031 [152.135100 6.601924 121.820400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723BA004, 0x723BA005, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x723BA004, 0x723BA006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x723BA004, 0x723BA007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x723BA004, 0x723BA008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x723BA004, 0x723BA005, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x723BA004, 0x723BA006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x723BA004, 0x723BA007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x723BA004, 0x723BA008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723BA005,  9024, 0x23BA0031, 152.1351, 6.601924, 121.8204, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

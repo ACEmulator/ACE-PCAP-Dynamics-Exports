@@ -5,20 +5,20 @@ VALUES (0x7CD91001,  1154, 0xCD91000A, 39.59059, 25.12195, 14.00825, 0.9684834, 
 /* @teleloc 0xCD91000A [39.590590 25.121950 14.008250] 0.968483 0.000000 0.000000 -0.249078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD91001, 0x7CD91002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CD91001, 0x7CD91003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD91001, 0x7CD91004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD91001, 0x7CD91005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CD91001, 0x7CD91006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CD91001, 0x7CD91007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CD91001, 0x7CD91008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CD91001, 0x7CD91009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD91001, 0x7CD9100A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD91001, 0x7CD9100B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD91001, 0x7CD9100C, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD91001, 0x7CD9100D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CD91001, 0x7CD9100E, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CD91001, 0x7CD9100F, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7CD91001, 0x7CD91002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CD91001, 0x7CD91003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD91001, 0x7CD91004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD91001, 0x7CD91005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CD91001, 0x7CD91006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CD91001, 0x7CD91007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CD91001, 0x7CD91008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CD91001, 0x7CD91009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD91001, 0x7CD9100A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD91001, 0x7CD9100B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD91001, 0x7CD9100C, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD91001, 0x7CD9100D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CD91001, 0x7CD9100E, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CD91001, 0x7CD9100F, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD91002,  8673, 0xCD91000A, 39.59059, 25.12195, 14.00825, 0.9684834, 0, 0, -0.2490778,  True, '2019-02-10 00:00:00'); /* Risen Knight */

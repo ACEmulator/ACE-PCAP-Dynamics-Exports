@@ -5,10 +5,10 @@ VALUES (0x72597001,  1154, 0x25970035, 146.2449, 100.0342, 74.4363, 0.9396926, 0
 /* @teleloc 0x25970035 [146.244900 100.034200 74.436300] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72597001, 0x72597002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72597001, 0x72597003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72597001, 0x72597004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72597001, 0x72597005, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x72597001, 0x72597002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72597001, 0x72597003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72597001, 0x72597004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72597001, 0x72597005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72597002, 24497, 0x25970035, 146.2449, 100.0342, 74.4363, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -31,7 +31,7 @@ VALUES (0x72597006,  1542, 0x25970034, 154.6471, 92.21761, 74.4363, 1, 0, 0, 0, 
 /* @teleloc 0x25970034 [154.647100 92.217610 74.436300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72597006, 0x72597007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72597006, 0x72597007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72597007, 22571, 0x25970034, 154.6471, 92.21761, 74.4363, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

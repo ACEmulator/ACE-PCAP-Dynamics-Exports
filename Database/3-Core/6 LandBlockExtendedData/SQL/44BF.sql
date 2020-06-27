@@ -5,9 +5,9 @@ VALUES (0x744BF001,  1154, 0x44BF0018, 65.42742, 188.9882, 27.35391, 0.1063825, 
 /* @teleloc 0x44BF0018 [65.427420 188.988200 27.353910] 0.106383 0.000000 0.000000 -0.994325 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744BF001, 0x744BF002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x744BF001, 0x744BF003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x744BF001, 0x744BF004, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x744BF001, 0x744BF002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x744BF001, 0x744BF003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x744BF001, 0x744BF004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744BF002,  7123, 0x44BF0018, 65.42742, 188.9882, 27.35391, 0.1063825, 0, 0, -0.9943253,  True, '2019-02-10 00:00:00'); /* Dark Leech */

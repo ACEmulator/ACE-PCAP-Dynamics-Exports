@@ -5,22 +5,22 @@ VALUES (0x70D5B001,  1154, 0x0D5B0027, 106.2859, 154.3883, -0.8899999, 0.9913691
 /* @teleloc 0x0D5B0027 [106.285900 154.388300 -0.890000] 0.991369 0.000000 0.000000 -0.131100 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D5B001, 0x70D5B002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D5B001, 0x70D5B003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D5B001, 0x70D5B004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D5B001, 0x70D5B005, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70D5B001, 0x70D5B006, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70D5B001, 0x70D5B007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70D5B001, 0x70D5B008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70D5B001, 0x70D5B009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70D5B001, 0x70D5B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D5B001, 0x70D5B00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70D5B001, 0x70D5B00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70D5B001, 0x70D5B00D, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70D5B001, 0x70D5B00E, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70D5B001, 0x70D5B00F, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70D5B001, 0x70D5B010, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70D5B001, 0x70D5B011, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70D5B001, 0x70D5B002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D5B001, 0x70D5B003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D5B001, 0x70D5B004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D5B001, 0x70D5B005, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70D5B001, 0x70D5B006, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70D5B001, 0x70D5B007, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70D5B001, 0x70D5B008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70D5B001, 0x70D5B009, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70D5B001, 0x70D5B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D5B001, 0x70D5B00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70D5B001, 0x70D5B00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70D5B001, 0x70D5B00D, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70D5B001, 0x70D5B00E, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70D5B001, 0x70D5B00F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70D5B001, 0x70D5B010, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70D5B001, 0x70D5B011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D5B002, 14520, 0x0D5B0027, 106.2859, 154.3883, -0.8899999, 0.9913691, 0, 0, -0.1311001,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -91,8 +91,8 @@ VALUES (0x70D5B012,  1542, 0x0D5B003F, 190.7806, 160.6361, 1.88838, -0.1663918, 
 /* @teleloc 0x0D5B003F [190.780600 160.636100 1.888380] -0.166392 0.000000 0.000000 -0.986060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D5B012, 0x70D5B013, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x70D5B012, 0x70D5B014, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x70D5B012, 0x70D5B013, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x70D5B012, 0x70D5B014, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D5B013,  9288, 0x0D5B003F, 190.7806, 160.6361, 1.88838, -0.1663918, 0, 0, -0.9860597,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

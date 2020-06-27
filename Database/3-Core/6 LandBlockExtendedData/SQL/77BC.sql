@@ -5,11 +5,11 @@ VALUES (0x777BC001,  1154, 0x77BC0010, 40.51771, 174.8718, 294.84, -0.1594241, 0
 /* @teleloc 0x77BC0010 [40.517710 174.871800 294.840000] -0.159424 0.000000 0.000000 -0.987210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777BC001, 0x777BC002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x777BC001, 0x777BC003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x777BC001, 0x777BC004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x777BC001, 0x777BC005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x777BC001, 0x777BC006, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x777BC001, 0x777BC002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x777BC001, 0x777BC003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x777BC001, 0x777BC004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x777BC001, 0x777BC005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x777BC001, 0x777BC006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777BC002,  7333, 0x77BC0010, 40.51771, 174.8718, 294.84, -0.1594241, 0, 0, -0.9872102,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

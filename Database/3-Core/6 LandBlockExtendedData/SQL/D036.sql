@@ -5,11 +5,11 @@ VALUES (0x7D036001,  1154, 0xD036002C, 138.1526, 92.66801, 135.7495, -0.3128449,
 /* @teleloc 0xD036002C [138.152600 92.668010 135.749500] -0.312845 0.000000 0.000000 -0.949804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D036001, 0x7D036002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D036001, 0x7D036003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D036001, 0x7D036004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D036001, 0x7D036005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D036001, 0x7D036006, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7D036001, 0x7D036002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7D036001, 0x7D036003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D036001, 0x7D036004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D036001, 0x7D036005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D036001, 0x7D036006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D036002,   199, 0xD036002C, 138.1526, 92.66801, 135.7495, -0.3128449, 0, 0, -0.9498042,  True, '2019-02-10 00:00:00'); /* Magma Golem */

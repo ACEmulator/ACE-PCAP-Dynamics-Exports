@@ -5,22 +5,22 @@ VALUES (0x7E03D001,  1154, 0xE03D0040, 182.5338, 169.6722, 76.27544, 0.8870109, 
 /* @teleloc 0xE03D0040 [182.533800 169.672200 76.275440] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E03D001, 0x7E03D002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E03D001, 0x7E03D003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E03D001, 0x7E03D004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7E03D001, 0x7E03D005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7E03D001, 0x7E03D006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7E03D001, 0x7E03D007, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7E03D001, 0x7E03D008, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E03D001, 0x7E03D009, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E03D001, 0x7E03D00A, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7E03D001, 0x7E03D00B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E03D001, 0x7E03D00C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E03D001, 0x7E03D00D, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7E03D001, 0x7E03D00E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E03D001, 0x7E03D00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E03D001, 0x7E03D010, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E03D001, 0x7E03D011, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7E03D001, 0x7E03D002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E03D001, 0x7E03D003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E03D001, 0x7E03D004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7E03D001, 0x7E03D005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7E03D001, 0x7E03D006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7E03D001, 0x7E03D007, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7E03D001, 0x7E03D008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E03D001, 0x7E03D009, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E03D001, 0x7E03D00A, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7E03D001, 0x7E03D00B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E03D001, 0x7E03D00C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E03D001, 0x7E03D00D, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7E03D001, 0x7E03D00E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E03D001, 0x7E03D00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E03D001, 0x7E03D010, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E03D001, 0x7E03D011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E03D002,  2576, 0xE03D0040, 182.5338, 169.6722, 76.27544, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -91,8 +91,8 @@ VALUES (0x7E03D012,  1542, 0xE03D0040, 182.6491, 173.9426, 77.72181, 0.9238795, 
 /* @teleloc 0xE03D0040 [182.649100 173.942600 77.721810] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E03D012, 0x7E03D013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E03D012, 0x7E03D014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E03D012, 0x7E03D013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E03D012, 0x7E03D014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E03D013,  4380, 0xE03D0040, 182.6491, 173.9426, 77.72181, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

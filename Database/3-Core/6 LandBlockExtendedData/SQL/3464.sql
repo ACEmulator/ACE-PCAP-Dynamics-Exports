@@ -5,14 +5,14 @@ VALUES (0x73464001,  1154, 0x34640034, 145.2401, 84.33678, 64.36375, 0.5444328, 
 /* @teleloc 0x34640034 [145.240100 84.336780 64.363750] 0.544433 0.000000 0.000000 -0.838805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73464001, 0x73464002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73464001, 0x73464003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73464001, 0x73464004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73464001, 0x73464005, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73464001, 0x73464006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73464001, 0x73464007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73464001, 0x73464008, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73464001, 0x73464009, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x73464001, 0x73464002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73464001, 0x73464003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73464001, 0x73464004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73464001, 0x73464005, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73464001, 0x73464006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73464001, 0x73464007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73464001, 0x73464008, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73464001, 0x73464009, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73464002, 10806, 0x34640034, 145.2401, 84.33678, 64.36375, 0.5444328, 0, 0, -0.8388045,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

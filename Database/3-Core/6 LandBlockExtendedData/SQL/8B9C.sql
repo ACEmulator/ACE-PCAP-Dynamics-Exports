@@ -5,12 +5,12 @@ VALUES (0x78B9C001,  1154, 0x8B9C0038, 145.1451, 178.5906, 85.62379, 0.8660254, 
 /* @teleloc 0x8B9C0038 [145.145100 178.590600 85.623790] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B9C001, 0x78B9C002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78B9C001, 0x78B9C003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78B9C001, 0x78B9C004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x78B9C001, 0x78B9C005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x78B9C001, 0x78B9C006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78B9C001, 0x78B9C007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x78B9C001, 0x78B9C002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x78B9C001, 0x78B9C003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78B9C001, 0x78B9C004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x78B9C001, 0x78B9C005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x78B9C001, 0x78B9C006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78B9C001, 0x78B9C007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B9C002,   231, 0x8B9C0038, 145.1451, 178.5906, 85.62379, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

@@ -9,13 +9,13 @@ VALUES (0x72AB5001,  1154, 0x2AB50018, 56.79355, 191.8085, 12.52395, -0.9465786,
 /* @teleloc 0x2AB50018 [56.793550 191.808500 12.523950] -0.946579 0.000000 0.000000 -0.322473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB5001, 0x72AB5002, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x72AB5001, 0x72AB5003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AB5001, 0x72AB5004, '2019-02-10 00:00:00') /* Hea Hunter */
-     , (0x72AB5001, 0x72AB5005, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x72AB5001, 0x72AB5006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x72AB5001, 0x72AB5007, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x72AB5001, 0x72AB5008, '2019-02-10 00:00:00') /* Carenzi Sentry */;
+VALUES (0x72AB5001, 0x72AB5002, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x72AB5001, 0x72AB5003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x72AB5001, 0x72AB5004, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x72AB5001, 0x72AB5005, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x72AB5001, 0x72AB5006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x72AB5001, 0x72AB5007, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x72AB5001, 0x72AB5008, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB5002, 11516, 0x2AB50018, 56.79355, 191.8085, 12.52395, -0.9465786, 0, 0, -0.3224733,  True, '2019-02-10 00:00:00'); /* Hea Drumspeaker */
@@ -50,7 +50,7 @@ VALUES (0x72AB5009,  1542, 0x2AB5000E, 31.35451, 141.1013, 12.20635, 0.2215078, 
 /* @teleloc 0x2AB5000E [31.354510 141.101300 12.206350] 0.221508 0.000000 0.000000 -0.975159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AB5009, 0x72AB500A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x72AB5009, 0x72AB500A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AB500A,  1955, 0x2AB5000E, 31.35451, 141.1013, 12.20635, 0.2215078, 0, 0, -0.9751586,  True, '2019-02-10 00:00:00'); /* Gateway */

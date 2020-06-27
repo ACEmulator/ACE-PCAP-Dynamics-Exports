@@ -5,12 +5,12 @@ VALUES (0x753CD001,  1154, 0x53CD0021, 105.0372, 5.136398, 163.1699, 0.9992198, 
 /* @teleloc 0x53CD0021 [105.037200 5.136398 163.169900] 0.999220 0.000000 0.000000 -0.039495 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753CD001, 0x753CD002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x753CD001, 0x753CD003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x753CD001, 0x753CD004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x753CD001, 0x753CD005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x753CD001, 0x753CD006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x753CD001, 0x753CD007, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x753CD001, 0x753CD002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x753CD001, 0x753CD003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x753CD001, 0x753CD004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x753CD001, 0x753CD005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x753CD001, 0x753CD006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x753CD001, 0x753CD007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753CD002, 23482, 0x53CD0021, 105.0372, 5.136398, 163.1699, 0.9992198, 0, 0, -0.03949456,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

@@ -5,10 +5,10 @@ VALUES (0x716C2001,  1154, 0x16C2001A, 82.4364, 28.95472, 56.04892, 0.09881765, 
 /* @teleloc 0x16C2001A [82.436400 28.954720 56.048920] 0.098818 0.000000 0.000000 -0.995106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716C2001, 0x716C2002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x716C2001, 0x716C2003, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x716C2001, 0x716C2004, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x716C2001, 0x716C2005, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x716C2001, 0x716C2002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x716C2001, 0x716C2003, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x716C2001, 0x716C2004, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x716C2001, 0x716C2005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716C2002, 11526, 0x16C2001A, 82.4364, 28.95472, 56.04892, 0.09881765, 0, 0, -0.9951056,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

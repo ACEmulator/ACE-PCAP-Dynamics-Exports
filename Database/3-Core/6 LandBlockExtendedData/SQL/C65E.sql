@@ -5,15 +5,15 @@ VALUES (0x7C65E001,  1154, 0xC65E0022, 112.5037, 29.4025, 5.5575, -0.6970664, 0,
 /* @teleloc 0xC65E0022 [112.503700 29.402500 5.557500] -0.697066 0.000000 0.000000 -0.717007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C65E001, 0x7C65E002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C65E001, 0x7C65E003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C65E001, 0x7C65E004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C65E001, 0x7C65E005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C65E001, 0x7C65E006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C65E001, 0x7C65E007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C65E001, 0x7C65E008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C65E001, 0x7C65E009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C65E001, 0x7C65E00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7C65E001, 0x7C65E002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C65E001, 0x7C65E003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C65E001, 0x7C65E004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C65E001, 0x7C65E005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C65E001, 0x7C65E006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C65E001, 0x7C65E007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C65E001, 0x7C65E008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C65E001, 0x7C65E009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C65E001, 0x7C65E00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C65E002,  1630, 0xC65E0022, 112.5037, 29.4025, 5.5575, -0.6970664, 0, 0, -0.7170066,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -56,7 +56,7 @@ VALUES (0x7C65E00B,  1542, 0xC65E0036, 166.8122, 138.4162, 6, 0.9990482, 0, 0, -
 /* @teleloc 0xC65E0036 [166.812200 138.416200 6.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C65E00B, 0x7C65E00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C65E00B, 0x7C65E00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C65E00C,  4179, 0xC65E0036, 166.8122, 138.4162, 6, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

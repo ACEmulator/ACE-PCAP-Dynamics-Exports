@@ -5,354 +5,354 @@ VALUES (0x7F732001,  1154, 0xF7320021, 98.87156, 22.83426, 59.64043, 0.08578686,
 /* @teleloc 0xF7320021 [98.871560 22.834260 59.640430] 0.085787 0.000000 0.000000 0.996314 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F732001, 0x7F732002, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732003, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732004, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732005, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732006, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732007, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732008, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F732009, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73200A, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F73200B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73200C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73200D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73200E, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73200F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732010, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732011, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F732012, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732013, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732014, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732015, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732016, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732017, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732018, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732019, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73201A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73201B, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F73201C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73201D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73201E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73201F, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732020, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732021, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732022, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732023, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732024, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732025, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732026, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732027, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732028, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732029, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73202A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73202B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73202C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73202D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73202E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73202F, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732030, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732031, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732032, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732033, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732034, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732035, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732036, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732037, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732038, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732039, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73203A, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F73203B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73203C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73203D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73203E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73203F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732040, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732041, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732042, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732043, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732044, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F732045, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732046, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732047, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732048, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F732049, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73204A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73204B, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F73204C, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F73204D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73204E, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73204F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732050, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732051, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732052, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732053, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732054, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732055, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732056, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732057, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732058, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732059, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73205A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73205B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73205C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73205D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73205E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73205F, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732060, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732061, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732062, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732063, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732064, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732065, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732066, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732067, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F732068, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F732069, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F73206A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73206B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73206C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73206D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73206E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73206F, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F732070, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F732001, 0x7F732071, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F732072, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F732073, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732074, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F732075, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732076, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F732077, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F732001, 0x7F732078, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F732079, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73207A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F73207B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73207C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73207D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73207E, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73207F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732080, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F732081, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F732082, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F732083, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732084, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732085, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F732086, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732087, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732088, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732089, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73208A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73208B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73208C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73208D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73208E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F73208F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732090, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732091, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732092, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732093, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732094, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732095, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732096, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F732097, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F732098, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F732099, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F73209A, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F73209B, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F73209C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73209D, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F73209E, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F73209F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A0, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A1, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F7320A2, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A3, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320A4, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320A5, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A6, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A7, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320A8, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F7320A9, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320AA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320AB, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320AC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320AD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320AE, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F7320AF, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F7320B0, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320B1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320B2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320B3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320B4, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F732001, 0x7F7320B5, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320B6, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F7320B7, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320B8, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320B9, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320BA, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320BB, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320BC, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320BD, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320BE, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320BF, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320C0, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F732001, 0x7F7320C1, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320C2, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320C3, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F7320C4, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F7320C5, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320C6, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320C7, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320C8, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320C9, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320CA, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F7320CB, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320CC, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320CD, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320CE, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320CF, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320D0, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320D1, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F7320D2, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320D3, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320D4, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320D5, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320D6, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320D7, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320D8, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F7320D9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320DA, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F7320DB, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F7320DC, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F7320DD, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320DE, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320DF, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320E0, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320E1, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320E2, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320E3, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320E4, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F7320E5, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F7320E6, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F7320E7, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320E8, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320E9, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320EA, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320EB, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F7320EC, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F7320ED, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320EE, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320EF, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320F0, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F7320F1, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320F2, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320F3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320F4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320F5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320F6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F7320F7, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320F8, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320F9, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F732001, 0x7F7320FA, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F7320FB, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F732001, 0x7F7320FC, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320FD, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F7320FE, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F7320FF, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732100, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732101, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732102, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F732103, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F732001, 0x7F732104, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F732105, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732106, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732107, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732108, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F732109, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73210A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73210B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73210C, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F732001, 0x7F73210D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73210E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F732001, 0x7F73210F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732110, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732111, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732112, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F732001, 0x7F732113, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F732114, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732115, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732116, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732117, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732118, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732119, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73211A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73211B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F73211C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F73211D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F73211E, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73211F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732120, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F732001, 0x7F732121, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732122, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732123, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732124, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F732001, 0x7F732125, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F732001, 0x7F732126, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F732127, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F732128, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732129, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73212A, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F732001, 0x7F73212B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73212C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F73212D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73212E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73212F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732130, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732131, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732132, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732133, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732134, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732135, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F732001, 0x7F732136, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F732001, 0x7F732137, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732138, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732139, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73213A, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73213B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73213C, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F732001, 0x7F73213D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73213E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73213F, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732140, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F732001, 0x7F732141, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732142, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732143, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732144, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732145, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732146, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732147, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732148, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F732001, 0x7F732149, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73214A, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F732001, 0x7F73214B, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F732001, 0x7F73214C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73214D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73214E, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73214F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732150, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F732001, 0x7F732151, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732152, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732153, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732154, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732155, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732156, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732157, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F732158, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F732159, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73215A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73215B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F732001, 0x7F73215C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F732001, 0x7F73215D, '2019-02-10 00:00:00') /* Tendril of T'thuun */;
+VALUES (0x7F732001, 0x7F732002, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732003, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732004, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732005, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732006, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732007, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732008, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F732009, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73200A, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F73200B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73200C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73200D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73200E, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73200F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732010, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732011, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F732012, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732013, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732014, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732015, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732016, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732017, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732018, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732019, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73201A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73201B, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F73201C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73201D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73201E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73201F, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732020, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732021, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732022, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732023, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732024, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732025, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732026, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732027, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732028, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732029, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73202A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73202B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73202C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73202D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73202E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73202F, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732030, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732031, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732032, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732033, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732034, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732035, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732036, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732037, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732038, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732039, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73203A, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F73203B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73203C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73203D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73203E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73203F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732040, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732041, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732042, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732043, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732044, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F732045, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732046, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732047, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732048, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F732049, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73204A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73204B, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F73204C, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F73204D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73204E, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73204F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732050, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732051, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732052, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732053, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732054, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732055, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732056, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732057, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732058, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732059, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73205A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73205B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73205C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73205D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73205E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73205F, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732060, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732061, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732062, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732063, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732064, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732065, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732066, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732067, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F732068, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F732069, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F73206A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73206B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73206C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73206D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73206E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73206F, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F732070, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F732001, 0x7F732071, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F732072, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F732073, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732074, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F732075, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732076, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F732077, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F732001, 0x7F732078, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F732079, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73207A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F73207B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73207C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73207D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73207E, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73207F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732080, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F732081, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F732082, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F732083, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732084, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732085, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F732086, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732087, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732088, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732089, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73208A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73208B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73208C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73208D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73208E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F732001, 0x7F73208F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732090, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F732091, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F732092, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732093, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F732094, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732095, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732096, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F732097, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F732098, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F732099, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F73209A, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F73209B, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F73209C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73209D, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F73209E, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F73209F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A0, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A1, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F7320A2, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A3, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320A4, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320A5, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A6, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A7, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320A8, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F7320A9, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320AA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F7320AB, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320AC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F7320AD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F7320AE, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F7320AF, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F7320B0, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320B1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F732001, 0x7F7320B2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F7320B3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F7320B4, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F732001, 0x7F7320B5, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320B6, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F7320B7, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320B8, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320B9, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320BA, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320BB, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320BC, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320BD, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320BE, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320BF, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320C0, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F732001, 0x7F7320C1, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320C2, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320C3, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F7320C4, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F7320C5, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320C6, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320C7, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320C8, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320C9, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320CA, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F7320CB, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320CC, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320CD, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320CE, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320CF, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320D0, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320D1, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F7320D2, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320D3, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320D4, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320D5, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320D6, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320D7, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320D8, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F7320D9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F7320DA, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F7320DB, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F7320DC, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F7320DD, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320DE, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320DF, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320E0, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320E1, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320E2, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320E3, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320E4, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F7320E5, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F7320E6, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F7320E7, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320E8, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320E9, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320EA, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320EB, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F7320EC, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F7320ED, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320EE, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320EF, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320F0, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F7320F1, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320F2, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320F3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F7320F4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F732001, 0x7F7320F5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F7320F6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F7320F7, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320F8, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320F9, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F732001, 0x7F7320FA, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F7320FB, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F732001, 0x7F7320FC, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320FD, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F7320FE, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F7320FF, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732100, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732101, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732102, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F732103, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F732001, 0x7F732104, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F732105, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732106, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732107, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732108, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F732109, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73210A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73210B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73210C, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F732001, 0x7F73210D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73210E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F732001, 0x7F73210F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732110, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732111, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732112, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F732001, 0x7F732113, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F732114, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732115, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732116, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732117, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732118, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732119, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73211A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73211B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F73211C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F73211D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F73211E, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73211F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732120, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F732001, 0x7F732121, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732122, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732123, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732124, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F732001, 0x7F732125, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F732001, 0x7F732126, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F732127, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F732128, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732129, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73212A, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F732001, 0x7F73212B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73212C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F73212D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73212E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73212F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732130, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732131, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732132, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732133, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732134, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732135, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F732001, 0x7F732136, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F732001, 0x7F732137, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732138, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732139, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73213A, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73213B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73213C, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F732001, 0x7F73213D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73213E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73213F, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732140, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F732001, 0x7F732141, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732142, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732143, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732144, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732145, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732146, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F732001, 0x7F732147, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732148, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F732001, 0x7F732149, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73214A, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F732001, 0x7F73214B, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F732001, 0x7F73214C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73214D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73214E, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73214F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732150, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F732001, 0x7F732151, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732152, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732153, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732154, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732155, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732156, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732157, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F732158, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F732159, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73215A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73215B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F732001, 0x7F73215C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F732001, 0x7F73215D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F732002, 38824, 0xF7320021, 98.87156, 22.83426, 59.64043, 0.08578686, 0, 0, 0.9963135,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */

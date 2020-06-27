@@ -5,17 +5,17 @@ VALUES (0x7CE35001,  1154, 0xCE35002C, 135.0864, 82.62368, 272.7838, -0.9860957,
 /* @teleloc 0xCE35002C [135.086400 82.623680 272.783800] -0.986096 0.000000 0.000000 -0.166179 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE35001, 0x7CE35002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7CE35001, 0x7CE35003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CE35001, 0x7CE35004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CE35001, 0x7CE35005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7CE35001, 0x7CE35006, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7CE35001, 0x7CE35007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7CE35001, 0x7CE35008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7CE35001, 0x7CE35009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CE35001, 0x7CE3500A, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7CE35001, 0x7CE3500B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7CE35001, 0x7CE3500C, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7CE35001, 0x7CE35002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7CE35001, 0x7CE35003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CE35001, 0x7CE35004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CE35001, 0x7CE35005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7CE35001, 0x7CE35006, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7CE35001, 0x7CE35007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7CE35001, 0x7CE35008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7CE35001, 0x7CE35009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7CE35001, 0x7CE3500A, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7CE35001, 0x7CE3500B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7CE35001, 0x7CE3500C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE35002, 14517, 0xCE35002C, 135.0864, 82.62368, 272.7838, -0.9860957, 0, 0, -0.1661787,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -66,12 +66,12 @@ VALUES (0x7CE3500D,  1542, 0xCE350001, 9.633819, 10.78204, 295.5583, 1, 0, 0, 0,
 /* @teleloc 0xCE350001 [9.633819 10.782040 295.558300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE3500D, 0x7CE3500E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7CE3500D, 0x7CE3500F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CE3500D, 0x7CE35010, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7CE3500D, 0x7CE35011, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7CE3500D, 0x7CE35012, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7CE3500D, 0x7CE35013, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7CE3500D, 0x7CE3500E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7CE3500D, 0x7CE3500F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CE3500D, 0x7CE35010, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7CE3500D, 0x7CE35011, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7CE3500D, 0x7CE35012, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7CE3500D, 0x7CE35013, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE3500E,  9024, 0xCE350001, 9.633819, 10.78204, 295.5583, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

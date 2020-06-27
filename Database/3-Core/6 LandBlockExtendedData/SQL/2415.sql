@@ -9,32 +9,32 @@ VALUES (0x72415010,  1154, 0x24150100, 118.54, 174.977, 50.80715, 0.733275, 0, 0
 /* @teleloc 0x24150100 [118.540000 174.977000 50.807150] 0.733275 0.000000 0.000000 -0.679932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72415010, 0x72415011, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72415010, 0x72415012, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72415010, 0x72415013, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72415010, 0x72415014, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72415010, 0x72415015, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72415010, 0x72415016, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72415010, 0x72415017, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x72415018, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x72415019, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72415010, 0x7241501A, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72415010, 0x7241501B, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x7241501C, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72415010, 0x7241501D, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72415010, 0x7241501E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72415010, 0x7241501F, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x72415020, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72415010, 0x72415021, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72415010, 0x72415022, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x72415023, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72415010, 0x72415024, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72415010, 0x72415025, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72415010, 0x72415026, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72415010, 0x72415027, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72415010, 0x72415028, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72415010, 0x72415029, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72415010, 0x7241502A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */;
+VALUES (0x72415010, 0x72415011, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72415010, 0x72415012, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72415010, 0x72415013, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72415010, 0x72415014, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72415010, 0x72415015, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72415010, 0x72415016, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72415010, 0x72415017, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x72415018, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x72415019, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72415010, 0x7241501A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72415010, 0x7241501B, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x7241501C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72415010, 0x7241501D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72415010, 0x7241501E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72415010, 0x7241501F, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x72415020, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72415010, 0x72415021, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72415010, 0x72415022, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x72415023, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72415010, 0x72415024, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72415010, 0x72415025, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72415010, 0x72415026, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72415010, 0x72415027, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72415010, 0x72415028, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72415010, 0x72415029, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72415010, 0x7241502A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72415011, 24276, 0x24150100, 118.54, 174.977, 50.80715, 0.733275, 0, 0, -0.679932,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -145,11 +145,11 @@ VALUES (0x7241502B,  1542, 0x24150100, 115.2752, 177.8202, 50.799, 0.796331, 0, 
 /* @teleloc 0x24150100 [115.275200 177.820200 50.799000] 0.796331 0.000000 0.000000 -0.604862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241502B, 0x7241502C, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x7241502B, 0x7241502D, '2019-02-10 00:00:00') /* Tart Apple */
-     , (0x7241502B, 0x7241502E, '2019-02-10 00:00:00') /* Wheat Bread */
-     , (0x7241502B, 0x7241502F, '2019-02-10 00:00:00') /* Royal Cabbage */
-     , (0x7241502B, 0x72415030, '2019-02-10 00:00:00') /* Special Cheese */;
+VALUES (0x7241502B, 0x7241502C, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x7241502B, 0x7241502D, '2019-02-10 00:00:00') /* Tart Apple (1447) */
+     , (0x7241502B, 0x7241502E, '2019-02-10 00:00:00') /* Wheat Bread (1448) */
+     , (0x7241502B, 0x7241502F, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */
+     , (0x7241502B, 0x72415030, '2019-02-10 00:00:00') /* Special Cheese (1451) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241502C,  1446, 0x24150100, 115.2752, 177.8202, 50.799, 0.796331, 0, 0, -0.604862,  True, '2019-02-10 00:00:00'); /* Fire Auroch Meat */

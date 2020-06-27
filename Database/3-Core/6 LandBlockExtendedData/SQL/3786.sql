@@ -5,14 +5,14 @@ VALUES (0x73786001,  1154, 0x37860028, 106.6773, 177.0587, 62.34575, 0.9238795, 
 /* @teleloc 0x37860028 [106.677300 177.058700 62.345750] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73786001, 0x73786002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73786001, 0x73786003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73786001, 0x73786004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73786001, 0x73786005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73786001, 0x73786006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73786001, 0x73786007, '2019-02-10 00:00:00') /* Hyem */
-     , (0x73786001, 0x73786008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73786001, 0x73786009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73786001, 0x73786002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73786001, 0x73786003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73786001, 0x73786004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73786001, 0x73786005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73786001, 0x73786006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73786001, 0x73786007, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x73786001, 0x73786008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73786001, 0x73786009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73786002, 24497, 0x37860028, 106.6773, 177.0587, 62.34575, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -51,7 +51,7 @@ VALUES (0x7378600A,  1542, 0x37860028, 112.6338, 171.6254, 62.34575, 1, 0, 0, 0,
 /* @teleloc 0x37860028 [112.633800 171.625400 62.345750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7378600A, 0x7378600B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7378600A, 0x7378600B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7378600B,  4380, 0x37860028, 112.6338, 171.6254, 62.34575, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

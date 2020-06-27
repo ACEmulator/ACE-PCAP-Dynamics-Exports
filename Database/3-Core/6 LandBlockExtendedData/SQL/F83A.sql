@@ -5,27 +5,27 @@ VALUES (0x7F83A001,  1154, 0xF83A0005, 14.44555, 115.826, 0.01600003, 0.9940889,
 /* @teleloc 0xF83A0005 [14.445550 115.826000 0.016000] 0.994089 0.000000 0.000000 -0.108569 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F83A001, 0x7F83A002, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F83A001, 0x7F83A003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F83A001, 0x7F83A004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F83A001, 0x7F83A005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F83A001, 0x7F83A006, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F83A001, 0x7F83A007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F83A001, 0x7F83A008, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F83A001, 0x7F83A009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F83A001, 0x7F83A00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F83A001, 0x7F83A00B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F83A001, 0x7F83A00C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F83A001, 0x7F83A00D, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F83A001, 0x7F83A00E, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F83A001, 0x7F83A00F, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F83A001, 0x7F83A010, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F83A001, 0x7F83A011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F83A001, 0x7F83A012, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F83A001, 0x7F83A013, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F83A001, 0x7F83A014, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F83A001, 0x7F83A015, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F83A001, 0x7F83A016, '2019-02-10 00:00:00') /* Ardent Moar */;
+VALUES (0x7F83A001, 0x7F83A002, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F83A001, 0x7F83A003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F83A001, 0x7F83A004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F83A001, 0x7F83A005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F83A001, 0x7F83A006, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F83A001, 0x7F83A007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F83A001, 0x7F83A008, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F83A001, 0x7F83A009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F83A001, 0x7F83A00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F83A001, 0x7F83A00B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F83A001, 0x7F83A00C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F83A001, 0x7F83A00D, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F83A001, 0x7F83A00E, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F83A001, 0x7F83A00F, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F83A001, 0x7F83A010, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F83A001, 0x7F83A011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F83A001, 0x7F83A012, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F83A001, 0x7F83A013, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F83A001, 0x7F83A014, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F83A001, 0x7F83A015, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F83A001, 0x7F83A016, '2019-02-10 00:00:00') /* Ardent Moar (40298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F83A002, 40308, 0xF83A0005, 14.44555, 115.826, 0.01600003, 0.9940889, 0, 0, -0.1085686,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */

@@ -5,22 +5,22 @@ VALUES (0x72D3E001,  1154, 0x2D3E002A, 141.753, 37.84103, -0.09399998, 0.7071068
 /* @teleloc 0x2D3E002A [141.753000 37.841030 -0.094000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3E001, 0x72D3E002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D3E001, 0x72D3E003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D3E001, 0x72D3E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D3E001, 0x72D3E005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72D3E001, 0x72D3E006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D3E001, 0x72D3E007, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72D3E001, 0x72D3E008, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72D3E001, 0x72D3E009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D3E001, 0x72D3E00A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D3E001, 0x72D3E00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D3E001, 0x72D3E00C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D3E001, 0x72D3E00D, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D3E001, 0x72D3E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D3E001, 0x72D3E00F, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D3E001, 0x72D3E010, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D3E001, 0x72D3E011, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72D3E001, 0x72D3E002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D3E001, 0x72D3E003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D3E001, 0x72D3E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D3E001, 0x72D3E005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72D3E001, 0x72D3E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D3E001, 0x72D3E007, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72D3E001, 0x72D3E008, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72D3E001, 0x72D3E009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D3E001, 0x72D3E00A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D3E001, 0x72D3E00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D3E001, 0x72D3E00C, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D3E001, 0x72D3E00D, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D3E001, 0x72D3E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D3E001, 0x72D3E00F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D3E001, 0x72D3E010, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D3E001, 0x72D3E011, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3E002,   228, 0x2D3E002A, 141.753, 37.84103, -0.09399998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -91,7 +91,7 @@ VALUES (0x72D3E012,  1542, 0x2D3E0022, 114.9697, 24.21341, -0.45, 1, 0, 0, 0, Fa
 /* @teleloc 0x2D3E0022 [114.969700 24.213410 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3E012, 0x72D3E013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72D3E012, 0x72D3E013, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3E013, 22567, 0x2D3E0022, 114.9697, 24.21341, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

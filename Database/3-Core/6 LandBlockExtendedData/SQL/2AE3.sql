@@ -17,20 +17,20 @@ VALUES (0x72AE300A,  1154, 0x2AE3003B, 191.5609, 53.07674, 1.971812, -0.9415527,
 /* @teleloc 0x2AE3003B [191.560900 53.076740 1.971812] -0.941553 0.000000 0.000000 -0.336866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE300A, 0x72AE300B, '2019-02-10 00:00:00') /* White Rat */
-     , (0x72AE300A, 0x72AE300C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE300A, 0x72AE300D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AE300A, 0x72AE300E, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x72AE300A, 0x72AE300F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE300A, 0x72AE3010, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AE300A, 0x72AE3011, '2019-02-10 00:00:00') /* Beacon */
-     , (0x72AE300A, 0x72AE3012, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AE300A, 0x72AE3013, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x72AE300A, 0x72AE3014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE300A, 0x72AE3015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE300A, 0x72AE3016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72AE300A, 0x72AE3017, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x72AE300A, 0x72AE3018, '2019-02-10 00:00:00') /* Morel Thrungus */;
+VALUES (0x72AE300A, 0x72AE300B, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x72AE300A, 0x72AE300C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE300A, 0x72AE300D, '2019-02-10 00:00:00') /* Water Golem (30440) */
+     , (0x72AE300A, 0x72AE300E, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x72AE300A, 0x72AE300F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE300A, 0x72AE3010, '2019-02-10 00:00:00') /* Water Golem (30440) */
+     , (0x72AE300A, 0x72AE3011, '2019-02-10 00:00:00') /* Beacon (28702) */
+     , (0x72AE300A, 0x72AE3012, '2019-02-10 00:00:00') /* Water Golem (30440) */
+     , (0x72AE300A, 0x72AE3013, '2019-02-10 00:00:00') /* Water Golem (30440) */
+     , (0x72AE300A, 0x72AE3014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE300A, 0x72AE3015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE300A, 0x72AE3016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72AE300A, 0x72AE3017, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x72AE300A, 0x72AE3018, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE300B,    13, 0x2AE3003B, 191.5609, 53.07674, 1.971812, -0.9415527, 0, 0, -0.3368658,  True, '2019-02-10 00:00:00'); /* White Rat */

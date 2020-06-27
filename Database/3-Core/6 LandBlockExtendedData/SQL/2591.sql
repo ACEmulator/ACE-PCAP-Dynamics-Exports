@@ -5,10 +5,10 @@ VALUES (0x72591001,  1154, 0x25910036, 157.0377, 132.6301, 204.5808, 0.7368128, 
 /* @teleloc 0x25910036 [157.037700 132.630100 204.580800] 0.736813 0.000000 0.000000 -0.676097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72591001, 0x72591002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72591001, 0x72591003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72591001, 0x72591004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72591001, 0x72591005, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x72591001, 0x72591002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72591001, 0x72591003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72591001, 0x72591004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72591001, 0x72591005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72591002, 11540, 0x25910036, 157.0377, 132.6301, 204.5808, 0.7368128, 0, 0, -0.6760968,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -31,7 +31,7 @@ VALUES (0x72591006,  1542, 0x25910020, 90.62624, 176.2544, 227.7609, 1, 0, 0, 0,
 /* @teleloc 0x25910020 [90.626240 176.254400 227.760900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72591006, 0x72591007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72591006, 0x72591007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72591007,  4179, 0x25910020, 90.62624, 176.2544, 227.7609, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

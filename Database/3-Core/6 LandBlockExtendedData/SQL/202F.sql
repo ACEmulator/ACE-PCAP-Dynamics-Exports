@@ -5,19 +5,19 @@ VALUES (0x7202F001,  1154, 0x202F0040, 169.9693, 176.3846, -0.1, -0.7832888, 0, 
 /* @teleloc 0x202F0040 [169.969300 176.384600 -0.100000] -0.783289 0.000000 0.000000 -0.621658 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7202F001, 0x7202F002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7202F001, 0x7202F003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7202F001, 0x7202F004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7202F001, 0x7202F005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7202F001, 0x7202F006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7202F001, 0x7202F007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7202F001, 0x7202F008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7202F001, 0x7202F009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7202F001, 0x7202F00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7202F001, 0x7202F00B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7202F001, 0x7202F00C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7202F001, 0x7202F00D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7202F001, 0x7202F00E, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7202F001, 0x7202F002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7202F001, 0x7202F003, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7202F001, 0x7202F004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7202F001, 0x7202F005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7202F001, 0x7202F006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7202F001, 0x7202F007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7202F001, 0x7202F008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7202F001, 0x7202F009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7202F001, 0x7202F00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7202F001, 0x7202F00B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7202F001, 0x7202F00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7202F001, 0x7202F00D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7202F001, 0x7202F00E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7202F002, 24133, 0x202F0040, 169.9693, 176.3846, -0.1, -0.7832888, 0, 0, -0.621658,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

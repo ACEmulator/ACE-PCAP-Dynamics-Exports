@@ -65,153 +65,153 @@ VALUES (0x7594F059,  1154, 0x594F0240, 270, -120, -5.99175, 1, 0, 0, 0, False, '
 /* @teleloc 0x594F0240 [270.000000 -120.000000 -5.991750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594F059, 0x7594F05A, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F05B, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F05C, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F05D, '2019-02-10 00:00:00') /* Prototype Bloodstone */
-     , (0x7594F059, 0x7594F05E, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F05F, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F060, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F061, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F062, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F063, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F064, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F065, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F066, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F067, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F068, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F069, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F06A, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F06B, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F06C, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F06D, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F06E, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F06F, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F070, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F071, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F072, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F073, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F074, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F075, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F076, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F077, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F078, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F079, '2019-02-10 00:00:00') /* Prototype Bloodstone Fragment */
-     , (0x7594F059, 0x7594F07A, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F07B, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F07C, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F07D, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F07E, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F07F, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F080, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F081, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F082, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F083, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F084, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F085, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F086, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F087, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F088, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F089, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F08A, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F08B, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F08C, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F08D, '2019-02-10 00:00:00') /* Frozen Wight Guardian Captain */
-     , (0x7594F059, 0x7594F08E, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F08F, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F090, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F091, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F092, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F093, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F094, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F095, '2019-02-10 00:00:00') /* Gurog Guardian Minion */
-     , (0x7594F059, 0x7594F096, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F097, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F098, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F099, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F09A, '2019-02-10 00:00:00') /* Gurog Guardian Henchman */
-     , (0x7594F059, 0x7594F09B, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F09C, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F09D, '2019-02-10 00:00:00') /* Bloodstone Fragment */
-     , (0x7594F059, 0x7594F09E, '2019-02-10 00:00:00') /* Frozen Wight Guardian Captain */
-     , (0x7594F059, 0x7594F09F, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F0A0, '2019-02-10 00:00:00') /* Gurog Guardian Soldier */
-     , (0x7594F059, 0x7594F0A1, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0A2, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0A3, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0A4, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0A5, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0A6, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0A7, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0A8, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0A9, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0AA, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0AB, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0AC, '2019-02-10 00:00:00') /* Frozen Wight Captain */
-     , (0x7594F059, 0x7594F0AD, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0AE, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0AF, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0B0, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0B1, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0B2, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0B3, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0B4, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0B5, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0B6, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0B7, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0B8, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0B9, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0BA, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0BB, '2019-02-10 00:00:00') /* Frozen Wight Captain */
-     , (0x7594F059, 0x7594F0BC, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0BD, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0BE, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0BF, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0C0, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0C1, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0C2, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0C3, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0C4, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0C5, '2019-02-10 00:00:00') /* Frozen Wight Captain */
-     , (0x7594F059, 0x7594F0C6, '2019-02-10 00:00:00') /* Experimental Bloodstone */
-     , (0x7594F059, 0x7594F0C7, '2019-02-10 00:00:00') /* Frozen Wight Captain */
-     , (0x7594F059, 0x7594F0C8, '2019-02-10 00:00:00') /* Frozen Wight Guardian */
-     , (0x7594F059, 0x7594F0C9, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer */
-     , (0x7594F059, 0x7594F0CA, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0CB, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0CC, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0CD, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0CE, '2019-02-10 00:00:00') /* Bloodstone Shard */
-     , (0x7594F059, 0x7594F0CF, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0D0, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0D1, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0D2, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0D3, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0D4, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0D5, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0D6, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0D7, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0D8, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0D9, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0DA, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0DB, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0DC, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0DD, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0DE, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0DF, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0E0, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0E1, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0E2, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0E3, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0E4, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0E5, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x7594F059, 0x7594F0E6, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */
-     , (0x7594F059, 0x7594F0E7, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x7594F059, 0x7594F0E8, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x7594F059, 0x7594F0E9, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer */
-     , (0x7594F059, 0x7594F0EA, '2019-02-10 00:00:00') /* Frozen Wight Captain */
-     , (0x7594F059, 0x7594F0EB, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x7594F059, 0x7594F0EC, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment */;
+VALUES (0x7594F059, 0x7594F05A, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F05B, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F05C, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F05D, '2019-02-10 00:00:00') /* Prototype Bloodstone (51365) */
+     , (0x7594F059, 0x7594F05E, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F05F, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F060, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F061, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F062, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F063, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F059, 0x7594F064, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F065, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F066, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F067, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F068, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F069, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F06A, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F06B, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F06C, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F06D, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F06E, '2019-02-10 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F059, 0x7594F06F, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F070, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F071, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F072, '2019-02-10 00:00:00') /* Bloodstone Shard (51354) */
+     , (0x7594F059, 0x7594F073, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F074, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F075, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F076, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F077, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F059, 0x7594F078, '2019-02-10 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F059, 0x7594F079, '2019-02-10 00:00:00') /* Prototype Bloodstone Fragment (51371) */
+     , (0x7594F059, 0x7594F07A, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F07B, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F07C, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F07D, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F07E, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F07F, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F080, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51356) */
+     , (0x7594F059, 0x7594F081, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F082, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F083, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F084, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F085, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F086, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F087, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F088, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F089, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F08A, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F08B, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F08C, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F08D, '2019-02-10 00:00:00') /* Frozen Wight Guardian Captain (51360) */
+     , (0x7594F059, 0x7594F08E, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F08F, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F090, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F091, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F092, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F093, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F094, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F095, '2019-02-10 00:00:00') /* Gurog Guardian Minion (51358) */
+     , (0x7594F059, 0x7594F096, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F097, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F098, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F099, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F09A, '2019-02-10 00:00:00') /* Gurog Guardian Henchman (51357) */
+     , (0x7594F059, 0x7594F09B, '2019-02-10 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F059, 0x7594F09C, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F09D, '2019-02-10 00:00:00') /* Bloodstone Fragment (51353) */
+     , (0x7594F059, 0x7594F09E, '2019-02-10 00:00:00') /* Frozen Wight Guardian Captain (51360) */
+     , (0x7594F059, 0x7594F09F, '2019-02-10 00:00:00') /* Bloodstone Shard (51355) */
+     , (0x7594F059, 0x7594F0A0, '2019-02-10 00:00:00') /* Gurog Guardian Soldier (51359) */
+     , (0x7594F059, 0x7594F0A1, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0A2, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0A3, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0A4, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0A5, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0A6, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0A7, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0A8, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0A9, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0AA, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0AB, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0AC, '2019-02-10 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F059, 0x7594F0AD, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0AE, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0AF, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0B0, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0B1, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0B2, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0B3, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0B4, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0B5, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0B6, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0B7, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0B8, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0B9, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0BA, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0BB, '2019-02-10 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F059, 0x7594F0BC, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0BD, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0BE, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0BF, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0C0, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0C1, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0C2, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0C3, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0C4, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0C5, '2019-02-10 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F059, 0x7594F0C6, '2019-02-10 00:00:00') /* Experimental Bloodstone (51342) */
+     , (0x7594F059, 0x7594F0C7, '2019-02-10 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F059, 0x7594F0C8, '2019-02-10 00:00:00') /* Frozen Wight Guardian (51361) */
+     , (0x7594F059, 0x7594F0C9, '2019-02-10 00:00:00') /* Frozen Wight Guardian Sorcerer (51363) */
+     , (0x7594F059, 0x7594F0CA, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0CB, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0CC, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0CD, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0CE, '2019-02-10 00:00:00') /* Bloodstone Shard (43800) */
+     , (0x7594F059, 0x7594F0CF, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0D0, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0D1, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0D2, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0D3, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0D4, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0D5, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0D6, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0D7, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0D8, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0D9, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0DA, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0DB, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0DC, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0DD, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0DE, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0DF, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0E0, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0E1, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0E2, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0E3, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0E4, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0E5, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x7594F059, 0x7594F0E6, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */
+     , (0x7594F059, 0x7594F0E7, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x7594F059, 0x7594F0E8, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x7594F059, 0x7594F0E9, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43823) */
+     , (0x7594F059, 0x7594F0EA, '2019-02-10 00:00:00') /* Frozen Wight Captain (43821) */
+     , (0x7594F059, 0x7594F0EB, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x7594F059, 0x7594F0EC, '2019-02-10 00:00:00') /* Experimental Bloodstone Fragment (51344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594F05A, 51361, 0x594F0240, 270, -120, -5.99175, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Guardian */

@@ -5,9 +5,9 @@ VALUES (0x7F020001,  1154, 0xF020000C, 40.10141, 88.83592, -0.09460002, 0.788400
 /* @teleloc 0xF020000C [40.101410 88.835920 -0.094600] 0.788400 0.000000 0.000000 -0.615163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F020001, 0x7F020002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F020001, 0x7F020003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F020001, 0x7F020004, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7F020001, 0x7F020002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F020001, 0x7F020003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F020001, 0x7F020004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F020002,  4247, 0xF020000C, 40.10141, 88.83592, -0.09460002, 0.7884002, 0, 0, -0.6151627,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

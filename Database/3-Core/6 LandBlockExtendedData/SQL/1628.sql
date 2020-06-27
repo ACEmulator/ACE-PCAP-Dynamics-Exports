@@ -5,14 +5,14 @@ VALUES (0x71628001,  1154, 0x1628000B, 35.67149, 57.50921, 11.38776, 0.3032062, 
 /* @teleloc 0x1628000B [35.671490 57.509210 11.387760] 0.303206 0.000000 0.000000 -0.952925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71628001, 0x71628002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71628001, 0x71628003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71628001, 0x71628004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71628001, 0x71628005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71628001, 0x71628006, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71628001, 0x71628007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71628001, 0x71628008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71628001, 0x71628009, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71628001, 0x71628002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71628001, 0x71628003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71628001, 0x71628004, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71628001, 0x71628005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71628001, 0x71628006, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71628001, 0x71628007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71628001, 0x71628008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71628001, 0x71628009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71628002,  7125, 0x1628000B, 35.67149, 57.50921, 11.38776, 0.3032062, 0, 0, -0.952925,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */

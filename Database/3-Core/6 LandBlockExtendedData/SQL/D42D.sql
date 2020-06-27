@@ -5,14 +5,14 @@ VALUES (0x7D42D001,  1154, 0xD42D003D, 173.6837, 111.2441, 113.8321, 0.8870109, 
 /* @teleloc 0xD42D003D [173.683700 111.244100 113.832100] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D42D001, 0x7D42D002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D42D001, 0x7D42D003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D42D001, 0x7D42D004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7D42D001, 0x7D42D005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7D42D001, 0x7D42D006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D42D001, 0x7D42D007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D42D001, 0x7D42D008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D42D001, 0x7D42D009, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x7D42D001, 0x7D42D002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D42D001, 0x7D42D003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D42D001, 0x7D42D004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7D42D001, 0x7D42D005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7D42D001, 0x7D42D006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D42D001, 0x7D42D007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D42D001, 0x7D42D008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D42D001, 0x7D42D009, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D42D002,  1610, 0xD42D003D, 173.6837, 111.2441, 113.8321, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -51,7 +51,7 @@ VALUES (0x7D42D00A,  1542, 0xD42D0038, 160.2702, 173.6687, 115.0123, 1, 0, 0, 0,
 /* @teleloc 0xD42D0038 [160.270200 173.668700 115.012300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D42D00A, 0x7D42D00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D42D00A, 0x7D42D00B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D42D00B, 22567, 0xD42D0038, 160.2702, 173.6687, 115.0123, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

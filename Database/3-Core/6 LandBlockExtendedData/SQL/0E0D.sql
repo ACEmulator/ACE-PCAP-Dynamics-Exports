@@ -5,68 +5,68 @@ VALUES (0x70E0D001,  1154, 0x0E0D0021, 114.9584, 6.433709, 105.4339, 1, 0, 0, 0,
 /* @teleloc 0x0E0D0021 [114.958400 6.433709 105.433900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E0D001, 0x70E0D002, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D003, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D004, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D005, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D006, '2019-02-10 00:00:00') /* Tenebrous Rift */
-     , (0x70E0D001, 0x70E0D007, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D008, '2019-02-10 00:00:00') /* Giant Mite */
-     , (0x70E0D001, 0x70E0D009, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70E0D001, 0x70E0D00A, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x70E0D001, 0x70E0D00B, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x70E0D001, 0x70E0D00C, '2019-02-10 00:00:00') /* Tainted Carenzi */
-     , (0x70E0D001, 0x70E0D00D, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x70E0D001, 0x70E0D00E, '2019-02-10 00:00:00') /* Tenebrous Rift */
-     , (0x70E0D001, 0x70E0D00F, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D010, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D011, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D012, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x70E0D001, 0x70E0D013, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D014, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D015, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D016, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D017, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D018, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D019, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D01A, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D01B, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D01C, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D01D, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D01E, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D01F, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D020, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D021, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D022, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D023, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D024, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D025, '2019-02-10 00:00:00') /* Befouled Doll */
-     , (0x70E0D001, 0x70E0D026, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D027, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D028, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D029, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D02A, '2019-02-10 00:00:00') /* Befouled Doll */
-     , (0x70E0D001, 0x70E0D02B, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D02C, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D02D, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D02E, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D02F, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D030, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70E0D001, 0x70E0D031, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70E0D001, 0x70E0D032, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D033, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70E0D001, 0x70E0D034, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D035, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D036, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D037, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D038, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70E0D001, 0x70E0D039, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70E0D001, 0x70E0D03A, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D03B, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D03C, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D03D, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D03E, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70E0D001, 0x70E0D03F, '2019-02-10 00:00:00') /* Sephal Nefane */;
+VALUES (0x70E0D001, 0x70E0D002, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D003, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D004, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D005, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D006, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x70E0D001, 0x70E0D007, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D008, '2019-02-10 00:00:00') /* Giant Mite (25869) */
+     , (0x70E0D001, 0x70E0D009, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70E0D001, 0x70E0D00A, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70E0D001, 0x70E0D00B, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x70E0D001, 0x70E0D00C, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x70E0D001, 0x70E0D00D, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70E0D001, 0x70E0D00E, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x70E0D001, 0x70E0D00F, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D010, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D011, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D012, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x70E0D001, 0x70E0D013, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D014, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D015, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D016, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D017, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D018, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D019, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D01A, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D01B, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D01C, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D01D, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D01E, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D01F, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D020, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D021, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D022, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D023, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D024, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D025, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x70E0D001, 0x70E0D026, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D027, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D028, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D029, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D02A, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x70E0D001, 0x70E0D02B, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D02C, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D02D, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D02E, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D02F, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D030, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70E0D001, 0x70E0D031, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70E0D001, 0x70E0D032, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D033, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70E0D001, 0x70E0D034, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D035, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D036, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D037, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D038, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70E0D001, 0x70E0D039, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70E0D001, 0x70E0D03A, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D03B, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D03C, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D03D, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D03E, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70E0D001, 0x70E0D03F, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E0D002, 25876, 0x0E0D0021, 114.9584, 6.433709, 105.4339, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */

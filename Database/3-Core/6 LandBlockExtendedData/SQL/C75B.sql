@@ -5,15 +5,15 @@ VALUES (0x7C75B001,  1154, 0xC75B0036, 154.3888, 137.877, 6, 0.7869093, 0, 0, -0
 /* @teleloc 0xC75B0036 [154.388800 137.877000 6.000000] 0.786909 0.000000 0.000000 -0.617069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75B001, 0x7C75B002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7C75B001, 0x7C75B003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7C75B001, 0x7C75B004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C75B001, 0x7C75B005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C75B001, 0x7C75B006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7C75B001, 0x7C75B007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C75B001, 0x7C75B008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C75B001, 0x7C75B009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C75B001, 0x7C75B00A, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C75B001, 0x7C75B002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7C75B001, 0x7C75B003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7C75B001, 0x7C75B004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C75B001, 0x7C75B005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C75B001, 0x7C75B006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7C75B001, 0x7C75B007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C75B001, 0x7C75B008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C75B001, 0x7C75B009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C75B001, 0x7C75B00A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75B002,  2567, 0xC75B0036, 154.3888, 137.877, 6, 0.7869093, 0, 0, -0.6170687,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */

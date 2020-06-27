@@ -121,82 +121,82 @@ VALUES (0x701FA086,  1154, 0x01FA0288, 50.30305, -70.07009, 0.007499993, -0.5633
 /* @teleloc 0x01FA0288 [50.303050 -70.070090 0.007500] -0.563320 0.000000 0.000000 -0.826239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA086, 0x701FA087, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA088, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA089, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA086, 0x701FA08A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA08B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA08C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA08D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA08E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA08F, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701FA086, 0x701FA090, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA091, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA086, 0x701FA092, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA093, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA094, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA095, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA096, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA097, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA098, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701FA086, 0x701FA099, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA09A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA09B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA09C, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701FA086, 0x701FA09D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA09E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA09F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A0, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A1, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA086, 0x701FA0A2, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A3, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A4, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0A5, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0A6, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A7, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701FA086, 0x701FA0A8, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0A9, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0AA, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0AB, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0AC, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0AD, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0AE, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA086, 0x701FA0AF, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B0, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA086, 0x701FA0B1, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B2, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B3, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0B4, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0B5, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B6, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B7, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B8, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x701FA086, 0x701FA0B9, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BA, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BB, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BC, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BD, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BE, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0BF, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C0, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C1, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C2, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x701FA086, 0x701FA0C3, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C4, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C5, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C6, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C7, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C8, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0C9, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0CA, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0CB, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0CC, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0CD, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0CE, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701FA086, 0x701FA0CF, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0D0, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701FA086, 0x701FA0D1, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701FA086, 0x701FA0D2, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x701FA086, 0x701FA087, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA088, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA089, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA086, 0x701FA08A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA08B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA08C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA08D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA08E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA08F, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701FA086, 0x701FA090, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA091, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA086, 0x701FA092, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA093, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA094, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA095, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA096, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA097, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA098, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701FA086, 0x701FA099, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA09A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA09B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA09C, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701FA086, 0x701FA09D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA09E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA09F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A0, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A1, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA086, 0x701FA0A2, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A3, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A4, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0A5, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0A6, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A7, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701FA086, 0x701FA0A8, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0A9, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0AA, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0AB, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0AC, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0AD, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0AE, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA086, 0x701FA0AF, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B0, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA086, 0x701FA0B1, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B2, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B3, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0B4, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0B5, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B6, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B7, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B8, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x701FA086, 0x701FA0B9, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BA, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BB, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BC, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BD, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BE, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0BF, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C0, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C1, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C2, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x701FA086, 0x701FA0C3, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C4, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C5, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C6, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C7, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C8, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0C9, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0CA, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0CB, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0CC, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0CD, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0CE, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701FA086, 0x701FA0CF, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0D0, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701FA086, 0x701FA0D1, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701FA086, 0x701FA0D2, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA087,  1630, 0x01FA0288, 50.30305, -70.07009, 0.007499993, -0.5633197, 0, 0, -0.826239,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -507,50 +507,50 @@ VALUES (0x701FA0D3,  1542, 0x01FA035A, 107.1958, -1.748179, 5.9975, 0.7071068, 0
 /* @teleloc 0x01FA035A [107.195800 -1.748179 5.997500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA0D3, 0x701FA0D4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FA0D3, 0x701FA0D5, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701FA0D3, 0x701FA0D6, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FA0D3, 0x701FA0D7, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FA0D3, 0x701FA0D8, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FA0D3, 0x701FA0D9, '2019-02-10 00:00:00') /* Egg */
-     , (0x701FA0D3, 0x701FA0DA, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FA0D3, 0x701FA0DB, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FA0D3, 0x701FA0DC, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FA0D3, 0x701FA0DD, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FA0D3, 0x701FA0DE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FA0D3, 0x701FA0DF, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FA0D3, 0x701FA0E0, '2019-02-10 00:00:00') /* Buckler */
-     , (0x701FA0D3, 0x701FA0E1, '2019-02-10 00:00:00') /* Empty Flask */
-     , (0x701FA0D3, 0x701FA0E2, '2019-02-10 00:00:00') /* Iron Pea */
-     , (0x701FA0D3, 0x701FA0E3, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FA0D3, 0x701FA0E4, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FA0D3, 0x701FA0E5, '2019-02-10 00:00:00') /* Grapes */
-     , (0x701FA0D3, 0x701FA0E6, '2019-02-10 00:00:00') /* Aura of Heartseeker Self V */
-     , (0x701FA0D3, 0x701FA0E7, '2019-02-10 00:00:00') /* Alloy Mechanism */
-     , (0x701FA0D3, 0x701FA0E8, '2019-02-10 00:00:00') /* Egg */
-     , (0x701FA0D3, 0x701FA0E9, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FA0D3, 0x701FA0EA, '2019-02-10 00:00:00') /* Grapes */
-     , (0x701FA0D3, 0x701FA0EB, '2019-02-10 00:00:00') /* Scroll of Armor Other V */
-     , (0x701FA0D3, 0x701FA0EC, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FA0D3, 0x701FA0ED, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FA0D3, 0x701FA0EE, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FA0D3, 0x701FA0EF, '2019-02-10 00:00:00') /* Steak */
-     , (0x701FA0D3, 0x701FA0F0, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FA0D3, 0x701FA0F1, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FA0D3, 0x701FA0F2, '2019-02-10 00:00:00') /* Steak */
-     , (0x701FA0D3, 0x701FA0F3, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FA0D3, 0x701FA0F4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FA0D3, 0x701FA0F5, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701FA0D3, 0x701FA0F6, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FA0D3, 0x701FA0F7, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FA0D3, 0x701FA0F8, '2019-02-10 00:00:00') /* Cowl */
-     , (0x701FA0D3, 0x701FA0F9, '2019-02-10 00:00:00') /* Crown */
-     , (0x701FA0D3, 0x701FA0FA, '2019-02-10 00:00:00') /* Gifted Healing Kit */
-     , (0x701FA0D3, 0x701FA0FB, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FA0D3, 0x701FA0FC, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FA0D3, 0x701FA0FD, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FA0D3, 0x701FA0FE, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701FA0D3, 0x701FA0FF, '2019-02-10 00:00:00') /* Grapes */;
+VALUES (0x701FA0D3, 0x701FA0D4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FA0D3, 0x701FA0D5, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701FA0D3, 0x701FA0D6, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FA0D3, 0x701FA0D7, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FA0D3, 0x701FA0D8, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FA0D3, 0x701FA0D9, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701FA0D3, 0x701FA0DA, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FA0D3, 0x701FA0DB, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FA0D3, 0x701FA0DC, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FA0D3, 0x701FA0DD, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FA0D3, 0x701FA0DE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FA0D3, 0x701FA0DF, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FA0D3, 0x701FA0E0, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x701FA0D3, 0x701FA0E1, '2019-02-10 00:00:00') /* Empty Flask (7940) */
+     , (0x701FA0D3, 0x701FA0E2, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x701FA0D3, 0x701FA0E3, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FA0D3, 0x701FA0E4, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FA0D3, 0x701FA0E5, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701FA0D3, 0x701FA0E6, '2019-02-10 00:00:00') /* Aura of Heartseeker Self V (2835) */
+     , (0x701FA0D3, 0x701FA0E7, '2019-02-10 00:00:00') /* Alloy Mechanism (25322) */
+     , (0x701FA0D3, 0x701FA0E8, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701FA0D3, 0x701FA0E9, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FA0D3, 0x701FA0EA, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701FA0D3, 0x701FA0EB, '2019-02-10 00:00:00') /* Scroll of Armor Other V (4388) */
+     , (0x701FA0D3, 0x701FA0EC, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FA0D3, 0x701FA0ED, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FA0D3, 0x701FA0EE, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FA0D3, 0x701FA0EF, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x701FA0D3, 0x701FA0F0, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FA0D3, 0x701FA0F1, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FA0D3, 0x701FA0F2, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x701FA0D3, 0x701FA0F3, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FA0D3, 0x701FA0F4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FA0D3, 0x701FA0F5, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701FA0D3, 0x701FA0F6, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FA0D3, 0x701FA0F7, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FA0D3, 0x701FA0F8, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x701FA0D3, 0x701FA0F9, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x701FA0D3, 0x701FA0FA, '2019-02-10 00:00:00') /* Gifted Healing Kit (630) */
+     , (0x701FA0D3, 0x701FA0FB, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FA0D3, 0x701FA0FC, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FA0D3, 0x701FA0FD, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FA0D3, 0x701FA0FE, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701FA0D3, 0x701FA0FF, '2019-02-10 00:00:00') /* Grapes (264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA0D4,   547, 0x01FA035A, 107.1958, -1.748179, 5.9975, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */

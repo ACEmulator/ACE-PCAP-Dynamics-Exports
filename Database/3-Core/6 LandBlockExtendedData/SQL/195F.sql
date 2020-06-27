@@ -5,9 +5,9 @@ VALUES (0x7195F001,  1154, 0x195F0027, 111.392, 164.1387, 52.65355, 0.99996, 0, 
 /* @teleloc 0x195F0027 [111.392000 164.138700 52.653550] 0.999960 0.000000 0.000000 -0.008946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7195F001, 0x7195F002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7195F001, 0x7195F003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7195F001, 0x7195F004, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7195F001, 0x7195F002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7195F001, 0x7195F003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7195F001, 0x7195F004, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7195F002, 36830, 0x195F0027, 111.392, 164.1387, 52.65355, 0.99996, 0, 0, -0.00894565,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

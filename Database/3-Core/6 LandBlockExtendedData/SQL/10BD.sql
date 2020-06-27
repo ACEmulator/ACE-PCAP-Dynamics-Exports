@@ -5,16 +5,16 @@ VALUES (0x710BD001,  1154, 0x10BD0011, 64.49914, 5.808945, 13.50571, 0.3925699, 
 /* @teleloc 0x10BD0011 [64.499140 5.808945 13.505710] 0.392570 0.000000 0.000000 -0.919722 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x710BD001, 0x710BD002, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x710BD001, 0x710BD003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x710BD001, 0x710BD004, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x710BD001, 0x710BD005, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x710BD001, 0x710BD006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x710BD001, 0x710BD007, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x710BD001, 0x710BD008, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x710BD001, 0x710BD009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x710BD001, 0x710BD00A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x710BD001, 0x710BD00B, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x710BD001, 0x710BD002, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x710BD001, 0x710BD003, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x710BD001, 0x710BD004, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x710BD001, 0x710BD005, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x710BD001, 0x710BD006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x710BD001, 0x710BD007, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x710BD001, 0x710BD008, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x710BD001, 0x710BD009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x710BD001, 0x710BD00A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x710BD001, 0x710BD00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x710BD002, 11520, 0x10BD0011, 64.49914, 5.808945, 13.50571, 0.3925699, 0, 0, -0.9197222,  True, '2019-02-10 00:00:00'); /* Hea Nualuan */

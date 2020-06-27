@@ -5,18 +5,18 @@ VALUES (0x72D94001,  1154, 0x2D940026, 100.7066, 137.8037, -0.45, -0.04893367, 0
 /* @teleloc 0x2D940026 [100.706600 137.803700 -0.450000] -0.048934 0.000000 0.000000 -0.998802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D94001, 0x72D94002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72D94001, 0x72D94003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72D94001, 0x72D94004, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x72D94001, 0x72D94005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D94001, 0x72D94006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D94001, 0x72D94007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D94001, 0x72D94008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72D94001, 0x72D94009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72D94001, 0x72D9400A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D94001, 0x72D9400B, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72D94001, 0x72D9400C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72D94001, 0x72D9400D, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x72D94001, 0x72D94002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72D94001, 0x72D94003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72D94001, 0x72D94004, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x72D94001, 0x72D94005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72D94001, 0x72D94006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72D94001, 0x72D94007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D94001, 0x72D94008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72D94001, 0x72D94009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72D94001, 0x72D9400A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D94001, 0x72D9400B, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72D94001, 0x72D9400C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72D94001, 0x72D9400D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D94002,  7112, 0x2D940026, 100.7066, 137.8037, -0.45, -0.04893367, 0, 0, -0.998802,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

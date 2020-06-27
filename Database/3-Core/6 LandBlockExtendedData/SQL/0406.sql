@@ -5,12 +5,12 @@ VALUES (0x70406001,  1154, 0x04060027, 101.4414, 144.2512, 23.53461, -0.6300269,
 /* @teleloc 0x04060027 [101.441400 144.251200 23.534610] -0.630027 0.000000 0.000000 -0.776573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70406001, 0x70406002, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70406001, 0x70406003, '2019-02-10 00:00:00') /* Parfal Nefane */
-     , (0x70406001, 0x70406004, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70406001, 0x70406005, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70406001, 0x70406006, '2019-02-10 00:00:00') /* Tenebrous Rift */
-     , (0x70406001, 0x70406007, '2019-02-10 00:00:00') /* Tenebrous Rift */;
+VALUES (0x70406001, 0x70406002, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70406001, 0x70406003, '2019-02-10 00:00:00') /* Parfal Nefane (25875) */
+     , (0x70406001, 0x70406004, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70406001, 0x70406005, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70406001, 0x70406006, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x70406001, 0x70406007, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70406002, 25888, 0x04060027, 101.4414, 144.2512, 23.53461, -0.6300269, 0, 0, -0.7765733,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */

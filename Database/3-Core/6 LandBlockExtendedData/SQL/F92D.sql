@@ -5,16 +5,16 @@ VALUES (0x7F92D001,  1154, 0xF92D0008, 13.89523, 182.9842, -0.8935999, -0.043096
 /* @teleloc 0xF92D0008 [13.895230 182.984200 -0.893600] -0.043097 0.000000 0.000000 -0.999071 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92D001, 0x7F92D002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92D001, 0x7F92D003, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92D001, 0x7F92D004, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F92D001, 0x7F92D005, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F92D001, 0x7F92D006, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F92D001, 0x7F92D007, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92D001, 0x7F92D008, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F92D001, 0x7F92D009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92D001, 0x7F92D00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92D001, 0x7F92D00B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */;
+VALUES (0x7F92D001, 0x7F92D002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92D001, 0x7F92D003, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92D001, 0x7F92D004, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F92D001, 0x7F92D005, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F92D001, 0x7F92D006, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F92D001, 0x7F92D007, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92D001, 0x7F92D008, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F92D001, 0x7F92D009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F92D001, 0x7F92D00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F92D001, 0x7F92D00B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92D002, 40304, 0xF92D0008, 13.89523, 182.9842, -0.8935999, -0.04309683, 0, 0, -0.9990709,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

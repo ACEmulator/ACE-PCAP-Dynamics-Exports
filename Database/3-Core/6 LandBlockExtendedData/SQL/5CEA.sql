@@ -17,20 +17,20 @@ VALUES (0x75CEA003,  1154, 0x5CEA0014, 54.62981, 81.63786, 10.94867, 0.7660445, 
 /* @teleloc 0x5CEA0014 [54.629810 81.637860 10.948670] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CEA003, 0x75CEA004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75CEA003, 0x75CEA005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x75CEA003, 0x75CEA006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75CEA003, 0x75CEA007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x75CEA003, 0x75CEA008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x75CEA003, 0x75CEA009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75CEA003, 0x75CEA00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x75CEA003, 0x75CEA00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x75CEA003, 0x75CEA00C, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75CEA003, 0x75CEA00D, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75CEA003, 0x75CEA00E, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75CEA003, 0x75CEA00F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75CEA003, 0x75CEA010, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75CEA003, 0x75CEA011, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x75CEA003, 0x75CEA004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75CEA003, 0x75CEA005, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x75CEA003, 0x75CEA006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x75CEA003, 0x75CEA007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x75CEA003, 0x75CEA008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x75CEA003, 0x75CEA009, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75CEA003, 0x75CEA00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x75CEA003, 0x75CEA00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x75CEA003, 0x75CEA00C, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75CEA003, 0x75CEA00D, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75CEA003, 0x75CEA00E, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75CEA003, 0x75CEA00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75CEA003, 0x75CEA010, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75CEA003, 0x75CEA011, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CEA004,  7121, 0x5CEA0014, 54.62981, 81.63786, 10.94867, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

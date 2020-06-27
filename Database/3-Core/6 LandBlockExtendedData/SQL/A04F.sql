@@ -5,13 +5,13 @@ VALUES (0x7A04F001,  1154, 0xA04F0009, 26.38319, 1.102107, 69.64462, -0.9684812,
 /* @teleloc 0xA04F0009 [26.383190 1.102107 69.644620] -0.968481 0.000000 0.000000 -0.249086 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A04F001, 0x7A04F002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A04F001, 0x7A04F003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A04F001, 0x7A04F004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A04F001, 0x7A04F005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A04F001, 0x7A04F006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A04F001, 0x7A04F007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A04F001, 0x7A04F008, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7A04F001, 0x7A04F002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A04F001, 0x7A04F003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A04F001, 0x7A04F004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A04F001, 0x7A04F005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A04F001, 0x7A04F006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A04F001, 0x7A04F007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A04F001, 0x7A04F008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A04F002,  1626, 0xA04F0009, 26.38319, 1.102107, 69.64462, -0.9684812, 0, 0, -0.2490864,  True, '2019-02-10 00:00:00'); /* Silver Rat */

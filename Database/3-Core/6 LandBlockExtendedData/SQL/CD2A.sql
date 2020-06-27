@@ -9,29 +9,29 @@ VALUES (0x7CD2A001,  1154, 0xCD2A0025, 109.323, 115.915, 155.217, -0.586582, 0, 
 /* @teleloc 0xCD2A0025 [109.323000 115.915000 155.217000] -0.586582 0.000000 0.000000 0.809890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD2A001, 0x7CD2A002, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CD2A001, 0x7CD2A003, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CD2A001, 0x7CD2A004, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CD2A001, 0x7CD2A005, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CD2A001, 0x7CD2A006, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CD2A001, 0x7CD2A007, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CD2A001, 0x7CD2A008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD2A001, 0x7CD2A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CD2A001, 0x7CD2A00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7CD2A001, 0x7CD2A00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CD2A001, 0x7CD2A00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CD2A001, 0x7CD2A00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CD2A001, 0x7CD2A00E, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CD2A001, 0x7CD2A00F, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7CD2A001, 0x7CD2A010, '2019-02-10 00:00:00') /* Banished Tusker */
-     , (0x7CD2A001, 0x7CD2A011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CD2A001, 0x7CD2A012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CD2A001, 0x7CD2A013, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CD2A001, 0x7CD2A014, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CD2A001, 0x7CD2A015, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CD2A001, 0x7CD2A016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7CD2A001, 0x7CD2A017, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7CD2A001, 0x7CD2A018, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7CD2A001, 0x7CD2A002, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A001, 0x7CD2A003, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A001, 0x7CD2A004, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A001, 0x7CD2A005, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A001, 0x7CD2A006, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A001, 0x7CD2A007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CD2A001, 0x7CD2A008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD2A001, 0x7CD2A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CD2A001, 0x7CD2A00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7CD2A001, 0x7CD2A00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CD2A001, 0x7CD2A00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CD2A001, 0x7CD2A00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CD2A001, 0x7CD2A00E, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CD2A001, 0x7CD2A00F, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7CD2A001, 0x7CD2A010, '2019-02-10 00:00:00') /* Banished Tusker (30883) */
+     , (0x7CD2A001, 0x7CD2A011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CD2A001, 0x7CD2A012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CD2A001, 0x7CD2A013, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CD2A001, 0x7CD2A014, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CD2A001, 0x7CD2A015, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CD2A001, 0x7CD2A016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7CD2A001, 0x7CD2A017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7CD2A001, 0x7CD2A018, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD2A002, 24955, 0xCD2A0025, 109.323, 115.915, 155.217, -0.586582, 0, 0, 0.80989,  True, '2019-02-10 00:00:00'); /* Gotrok Montok */
@@ -130,10 +130,10 @@ VALUES (0x7CD2A019,  1542, 0xCD2A0016, 59.43578, 125.5562, 173.7404, 0.9537169, 
 /* @teleloc 0xCD2A0016 [59.435780 125.556200 173.740400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD2A019, 0x7CD2A01A, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7CD2A019, 0x7CD2A01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CD2A019, 0x7CD2A01C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CD2A019, 0x7CD2A01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CD2A019, 0x7CD2A01A, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7CD2A019, 0x7CD2A01B, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7CD2A019, 0x7CD2A01C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CD2A019, 0x7CD2A01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD2A01A,  5779, 0xCD2A0016, 59.43578, 125.5562, 173.7404, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

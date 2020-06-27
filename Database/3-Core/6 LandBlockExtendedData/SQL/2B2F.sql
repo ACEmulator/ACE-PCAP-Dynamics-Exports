@@ -5,19 +5,19 @@ VALUES (0x72B2F001,  1154, 0x2B2F000B, 44.65377, 53.24009, 75.04016, -0.6186773,
 /* @teleloc 0x2B2F000B [44.653770 53.240090 75.040160] -0.618677 0.000000 0.000000 -0.785645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B2F001, 0x72B2F002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72B2F001, 0x72B2F003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72B2F001, 0x72B2F004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B2F001, 0x72B2F005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B2F001, 0x72B2F006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B2F001, 0x72B2F007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72B2F001, 0x72B2F008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72B2F001, 0x72B2F009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72B2F001, 0x72B2F00A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72B2F001, 0x72B2F00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72B2F001, 0x72B2F00C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72B2F001, 0x72B2F00D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72B2F001, 0x72B2F00E, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72B2F001, 0x72B2F002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72B2F001, 0x72B2F003, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72B2F001, 0x72B2F004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72B2F001, 0x72B2F005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72B2F001, 0x72B2F006, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72B2F001, 0x72B2F007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72B2F001, 0x72B2F008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72B2F001, 0x72B2F009, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72B2F001, 0x72B2F00A, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72B2F001, 0x72B2F00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72B2F001, 0x72B2F00C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72B2F001, 0x72B2F00D, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72B2F001, 0x72B2F00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B2F002, 38180, 0x2B2F000B, 44.65377, 53.24009, 75.04016, -0.6186773, 0, 0, -0.7856452,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */

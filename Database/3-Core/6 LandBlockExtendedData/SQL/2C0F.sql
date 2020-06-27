@@ -5,13 +5,13 @@ VALUES (0x72C0F001,  1154, 0x2C0F0002, 6.010631, 45.97759, 54.50559, 0.6894031, 
 /* @teleloc 0x2C0F0002 [6.010631 45.977590 54.505590] 0.689403 0.000000 0.000000 -0.724378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C0F001, 0x72C0F002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72C0F001, 0x72C0F003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72C0F001, 0x72C0F004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C0F001, 0x72C0F005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C0F001, 0x72C0F006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72C0F001, 0x72C0F007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72C0F001, 0x72C0F008, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x72C0F001, 0x72C0F002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72C0F001, 0x72C0F003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72C0F001, 0x72C0F004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C0F001, 0x72C0F005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C0F001, 0x72C0F006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72C0F001, 0x72C0F007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C0F001, 0x72C0F008, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C0F002, 24325, 0x2C0F0002, 6.010631, 45.97759, 54.50559, 0.6894031, 0, 0, -0.7243779,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -46,7 +46,7 @@ VALUES (0x72C0F009,  1542, 0x2C0F0033, 149.9745, 59.17968, 11.80028, 1, 0, 0, 0,
 /* @teleloc 0x2C0F0033 [149.974500 59.179680 11.800280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C0F009, 0x72C0F00A, '2019-02-10 00:00:00') /* Mayoi Portal */;
+VALUES (0x72C0F009, 0x72C0F00A, '2019-02-10 00:00:00') /* Mayoi Portal (42842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C0F00A, 42842, 0x2C0F0033, 149.9745, 59.17968, 11.80028, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mayoi Portal */

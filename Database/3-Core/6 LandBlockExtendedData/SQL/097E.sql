@@ -5,19 +5,19 @@ VALUES (0x7097E001,  1154, 0x097E003F, 179.2057, 167.4468, 0.9438099, -0.4368782
 /* @teleloc 0x097E003F [179.205700 167.446800 0.943810] -0.436878 0.000000 0.000000 -0.899521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097E001, 0x7097E002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7097E001, 0x7097E003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7097E001, 0x7097E004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7097E001, 0x7097E005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097E001, 0x7097E006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097E001, 0x7097E007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7097E001, 0x7097E008, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097E001, 0x7097E009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097E001, 0x7097E00A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7097E001, 0x7097E00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7097E001, 0x7097E00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7097E001, 0x7097E00D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7097E001, 0x7097E00E, '2019-02-10 00:00:00') /* Entropy Wisp */;
+VALUES (0x7097E001, 0x7097E002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7097E001, 0x7097E003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7097E001, 0x7097E004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7097E001, 0x7097E005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097E001, 0x7097E006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097E001, 0x7097E007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7097E001, 0x7097E008, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097E001, 0x7097E009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097E001, 0x7097E00A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7097E001, 0x7097E00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7097E001, 0x7097E00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7097E001, 0x7097E00D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7097E001, 0x7097E00E, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097E002,  7097, 0x097E003F, 179.2057, 167.4468, 0.9438099, -0.4368782, 0, 0, -0.8995207,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -76,8 +76,8 @@ VALUES (0x7097E00F,  1542, 0x097E0039, 184.4216, 7.674679, 4.113433, 1, 0, 0, 0,
 /* @teleloc 0x097E0039 [184.421600 7.674679 4.113433] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097E00F, 0x7097E010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7097E00F, 0x7097E011, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7097E00F, 0x7097E010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7097E00F, 0x7097E011, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097E010,  4179, 0x097E0039, 184.4216, 7.674679, 4.113433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,10 +5,10 @@ VALUES (0x7B682001,  1154, 0xB6820034, 146.8466, 87.9021, 24.029, -0.3377536, 0,
 /* @teleloc 0xB6820034 [146.846600 87.902100 24.029000] -0.337754 0.000000 0.000000 -0.941235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B682001, 0x7B682002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7B682001, 0x7B682003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B682001, 0x7B682004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B682001, 0x7B682005, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x7B682001, 0x7B682002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7B682001, 0x7B682003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B682001, 0x7B682004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B682001, 0x7B682005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B682002,    23, 0xB6820034, 146.8466, 87.9021, 24.029, -0.3377536, 0, 0, -0.9412346,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

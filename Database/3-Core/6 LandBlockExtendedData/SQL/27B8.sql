@@ -5,11 +5,11 @@ VALUES (0x727B8001,  1154, 0x27B8002D, 129.2049, 111.7701, 22.84832, -0.9547362,
 /* @teleloc 0x27B8002D [129.204900 111.770100 22.848320] -0.954736 0.000000 0.000000 -0.297454 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727B8001, 0x727B8002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x727B8001, 0x727B8003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x727B8001, 0x727B8004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x727B8001, 0x727B8005, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x727B8001, 0x727B8006, '2019-02-10 00:00:00') /* Littoral Siraluun */;
+VALUES (0x727B8001, 0x727B8002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x727B8001, 0x727B8003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x727B8001, 0x727B8004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x727B8001, 0x727B8005, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x727B8001, 0x727B8006, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727B8002, 22009, 0x27B8002D, 129.2049, 111.7701, 22.84832, -0.9547362, 0, 0, -0.2974539,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

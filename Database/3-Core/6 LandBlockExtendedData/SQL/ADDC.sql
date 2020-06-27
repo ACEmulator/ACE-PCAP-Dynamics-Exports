@@ -5,11 +5,11 @@ VALUES (0x7ADDC001,  1154, 0xADDC0024, 107.5265, 80.57192, 18.46811, 0.8897403, 
 /* @teleloc 0xADDC0024 [107.526500 80.571920 18.468110] 0.889740 0.000000 0.000000 -0.456467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDC001, 0x7ADDC002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7ADDC001, 0x7ADDC003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7ADDC001, 0x7ADDC004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7ADDC001, 0x7ADDC005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7ADDC001, 0x7ADDC006, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7ADDC001, 0x7ADDC002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7ADDC001, 0x7ADDC003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7ADDC001, 0x7ADDC004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7ADDC001, 0x7ADDC005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7ADDC001, 0x7ADDC006, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDC002, 28551, 0xADDC0024, 107.5265, 80.57192, 18.46811, 0.8897403, 0, 0, -0.456467,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

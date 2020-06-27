@@ -5,17 +5,17 @@ VALUES (0x7DE28001,  1154, 0xDE280033, 148.7702, 66.94072, 73.60704, 0.5421478, 
 /* @teleloc 0xDE280033 [148.770200 66.940720 73.607040] 0.542148 0.000000 0.000000 -0.840283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE28001, 0x7DE28002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DE28001, 0x7DE28003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7DE28001, 0x7DE28004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DE28001, 0x7DE28005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE28001, 0x7DE28006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE28001, 0x7DE28007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE28001, 0x7DE28008, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DE28001, 0x7DE28009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DE28001, 0x7DE2800A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7DE28001, 0x7DE2800B, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7DE28001, 0x7DE2800C, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7DE28001, 0x7DE28002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DE28001, 0x7DE28003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7DE28001, 0x7DE28004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DE28001, 0x7DE28005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE28001, 0x7DE28006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE28001, 0x7DE28007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE28001, 0x7DE28008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DE28001, 0x7DE28009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7DE28001, 0x7DE2800A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7DE28001, 0x7DE2800B, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7DE28001, 0x7DE2800C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE28002,  7090, 0xDE280033, 148.7702, 66.94072, 73.60704, 0.5421478, 0, 0, -0.8402832,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -66,7 +66,7 @@ VALUES (0x7DE2800D,  1542, 0xDE28003C, 185.9717, 72.08347, 55.49116, -0.5781451,
 /* @teleloc 0xDE28003C [185.971700 72.083470 55.491160] -0.578145 0.000000 0.000000 -0.815934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE2800D, 0x7DE2800E, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7DE2800D, 0x7DE2800E, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE2800E,  8039, 0xDE28003C, 185.9717, 72.08347, 55.49116, -0.5781451, 0, 0, -0.8159339,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

@@ -57,11 +57,11 @@ VALUES (0x7EA3D012,  1154, 0xEA3D0028, 116.9471, 171.3291, 91.80206, 0.2345, 0, 
 /* @teleloc 0xEA3D0028 [116.947100 171.329100 91.802060] 0.234500 0.000000 0.000000 -0.972116 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA3D012, 0x7EA3D013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7EA3D012, 0x7EA3D014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7EA3D012, 0x7EA3D015, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7EA3D012, 0x7EA3D016, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7EA3D012, 0x7EA3D017, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7EA3D012, 0x7EA3D013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7EA3D012, 0x7EA3D014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7EA3D012, 0x7EA3D015, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7EA3D012, 0x7EA3D016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7EA3D012, 0x7EA3D017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA3D013, 24937, 0xEA3D0028, 116.9471, 171.3291, 91.80206, 0.2345, 0, 0, -0.9721161,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -88,7 +88,7 @@ VALUES (0x7EA3D018,  1154, 0xEA3D0100, 9.26962, 182.274, 78.005, -0.9627287, 0, 
 /* @teleloc 0xEA3D0100 [9.269620 182.274000 78.005000] -0.962729 0.000000 0.000000 -0.270469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA3D018, 0x7EA3D019, '2019-02-10 00:00:00') /* Inuo KonKou */;
+VALUES (0x7EA3D018, 0x7EA3D019, '2019-02-10 00:00:00') /* Inuo KonKou (5119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA3D019,  5119, 0xEA3D0100, 9.26962, 182.274, 78.005, -0.9627287, 0, 0, -0.2704689,  True, '2019-02-10 00:00:00'); /* Inuo KonKou */

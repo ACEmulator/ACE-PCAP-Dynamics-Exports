@@ -5,10 +5,10 @@ VALUES (0x7A1E7001,  1154, 0xA1E70029, 124.4271, 11.30178, 112.4634, -4.371139E-
 /* @teleloc 0xA1E70029 [124.427100 11.301780 112.463400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1E7001, 0x7A1E7002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A1E7001, 0x7A1E7003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A1E7001, 0x7A1E7004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A1E7001, 0x7A1E7005, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7A1E7001, 0x7A1E7002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A1E7001, 0x7A1E7003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A1E7001, 0x7A1E7004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A1E7001, 0x7A1E7005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E7002,  7345, 0xA1E70029, 124.4271, 11.30178, 112.4634, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -31,7 +31,7 @@ VALUES (0x7A1E7006,  1542, 0xA1E70029, 128.6417, 10.85835, 111.9944, 0.9990482, 
 /* @teleloc 0xA1E70029 [128.641700 10.858350 111.994400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1E7006, 0x7A1E7007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A1E7006, 0x7A1E7007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E7007,  4179, 0xA1E70029, 128.6417, 10.85835, 111.9944, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

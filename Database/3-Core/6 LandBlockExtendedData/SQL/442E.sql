@@ -5,11 +5,11 @@ VALUES (0x7442E001,  1154, 0x442E0018, 51.18163, 185.903, 14.77306, 0.9960767, 0
 /* @teleloc 0x442E0018 [51.181630 185.903000 14.773060] 0.996077 0.000000 0.000000 -0.088494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7442E001, 0x7442E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7442E001, 0x7442E003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7442E001, 0x7442E004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7442E001, 0x7442E005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7442E001, 0x7442E006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7442E001, 0x7442E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7442E001, 0x7442E003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7442E001, 0x7442E004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7442E001, 0x7442E005, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7442E001, 0x7442E006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7442E002, 36829, 0x442E0018, 51.18163, 185.903, 14.77306, 0.9960767, 0, 0, -0.08849439,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

@@ -5,15 +5,15 @@ VALUES (0x7E657001,  1154, 0xE6570001, 22.50792, 4.65308, -0.8934, -0.9956177, 0
 /* @teleloc 0xE6570001 [22.507920 4.653080 -0.893400] -0.995618 0.000000 0.000000 -0.093517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E657001, 0x7E657002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E657001, 0x7E657003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E657001, 0x7E657004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E657001, 0x7E657005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E657001, 0x7E657006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E657001, 0x7E657007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E657001, 0x7E657008, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E657001, 0x7E657009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E657001, 0x7E65700A, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7E657001, 0x7E657002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E657001, 0x7E657003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E657001, 0x7E657004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E657001, 0x7E657005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E657001, 0x7E657006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E657001, 0x7E657007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E657001, 0x7E657008, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E657001, 0x7E657009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E657001, 0x7E65700A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E657002,  8429, 0xE6570001, 22.50792, 4.65308, -0.8934, -0.9956177, 0, 0, -0.09351674,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

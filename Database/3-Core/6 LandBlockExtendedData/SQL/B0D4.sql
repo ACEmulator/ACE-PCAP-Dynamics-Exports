@@ -5,12 +5,12 @@ VALUES (0x7B0D4001,  1154, 0xB0D40032, 161.8496, 32.01201, 42.8258, 0.996065, 0,
 /* @teleloc 0xB0D40032 [161.849600 32.012010 42.825800] 0.996065 0.000000 0.000000 -0.088625 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D4001, 0x7B0D4002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7B0D4001, 0x7B0D4003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7B0D4001, 0x7B0D4004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B0D4001, 0x7B0D4005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B0D4001, 0x7B0D4006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7B0D4001, 0x7B0D4007, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7B0D4001, 0x7B0D4002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7B0D4001, 0x7B0D4003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7B0D4001, 0x7B0D4004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B0D4001, 0x7B0D4005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B0D4001, 0x7B0D4006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7B0D4001, 0x7B0D4007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D4002, 23565, 0xB0D40032, 161.8496, 32.01201, 42.8258, 0.996065, 0, 0, -0.08862527,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -41,7 +41,7 @@ VALUES (0x7B0D4008,  1542, 0xB0D40010, 24.56502, 187.0405, 36.66962, 0.9238795, 
 /* @teleloc 0xB0D40010 [24.565020 187.040500 36.669620] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D4008, 0x7B0D4009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B0D4008, 0x7B0D4009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D4009,  4180, 0xB0D40010, 24.56502, 187.0405, 36.66962, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

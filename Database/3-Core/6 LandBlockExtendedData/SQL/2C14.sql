@@ -5,30 +5,30 @@ VALUES (0x72C14001,  1154, 0x2C140001, 8.133097, 8.186405, 49.99667, -0.08715577
 /* @teleloc 0x2C140001 [8.133097 8.186405 49.996670] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C14001, 0x72C14002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72C14001, 0x72C14003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C14001, 0x72C14004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C14001, 0x72C14005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C14001, 0x72C14006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72C14001, 0x72C14007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72C14001, 0x72C14008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72C14001, 0x72C14009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72C14001, 0x72C1400A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72C14001, 0x72C1400B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C14001, 0x72C1400C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72C14001, 0x72C1400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72C14001, 0x72C1400E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72C14001, 0x72C1400F, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72C14001, 0x72C14010, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72C14001, 0x72C14011, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C14001, 0x72C14012, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72C14001, 0x72C14013, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72C14001, 0x72C14014, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C14001, 0x72C14015, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C14001, 0x72C14016, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C14001, 0x72C14017, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72C14001, 0x72C14018, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72C14001, 0x72C14019, '2019-02-10 00:00:00') /* Dire Champion Golem */;
+VALUES (0x72C14001, 0x72C14002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72C14001, 0x72C14003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C14001, 0x72C14004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C14001, 0x72C14005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C14001, 0x72C14006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72C14001, 0x72C14007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72C14001, 0x72C14008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72C14001, 0x72C14009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72C14001, 0x72C1400A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72C14001, 0x72C1400B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C14001, 0x72C1400C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72C14001, 0x72C1400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72C14001, 0x72C1400E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72C14001, 0x72C1400F, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72C14001, 0x72C14010, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72C14001, 0x72C14011, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C14001, 0x72C14012, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72C14001, 0x72C14013, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72C14001, 0x72C14014, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C14001, 0x72C14015, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C14001, 0x72C14016, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C14001, 0x72C14017, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72C14001, 0x72C14018, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72C14001, 0x72C14019, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C14002, 24497, 0x2C140001, 8.133097, 8.186405, 49.99667, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -131,7 +131,7 @@ VALUES (0x72C1401A,  1542, 0x2C140001, 3.896036, 15.29188, 47.15104, 1, 0, 0, 0,
 /* @teleloc 0x2C140001 [3.896036 15.291880 47.151040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C1401A, 0x72C1401B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72C1401A, 0x72C1401B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C1401B, 22567, 0x2C140001, 3.896036, 15.29188, 47.15104, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

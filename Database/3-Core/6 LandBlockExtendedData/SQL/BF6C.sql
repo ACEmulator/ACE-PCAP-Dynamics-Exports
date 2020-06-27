@@ -5,13 +5,13 @@ VALUES (0x7BF6C001,  1154, 0xBF6C001F, 79.25294, 152.3931, 48.0045, -0.9724091, 
 /* @teleloc 0xBF6C001F [79.252940 152.393100 48.004500] -0.972409 0.000000 0.000000 -0.233282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF6C001, 0x7BF6C002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BF6C001, 0x7BF6C003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BF6C001, 0x7BF6C004, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BF6C001, 0x7BF6C005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BF6C001, 0x7BF6C006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BF6C001, 0x7BF6C007, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BF6C001, 0x7BF6C008, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7BF6C001, 0x7BF6C002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BF6C001, 0x7BF6C003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BF6C001, 0x7BF6C004, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BF6C001, 0x7BF6C005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BF6C001, 0x7BF6C006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BF6C001, 0x7BF6C007, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BF6C001, 0x7BF6C008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF6C002,  1616, 0xBF6C001F, 79.25294, 152.3931, 48.0045, -0.9724091, 0, 0, -0.2332819,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */

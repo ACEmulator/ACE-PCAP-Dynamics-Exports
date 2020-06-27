@@ -5,20 +5,20 @@ VALUES (0x7AEA9001,  1154, 0xAEA9003B, 184.7805, 55.24563, 122.5888, -0.8922008,
 /* @teleloc 0xAEA9003B [184.780500 55.245630 122.588800] -0.892201 0.000000 0.000000 -0.451639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA9001, 0x7AEA9002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AEA9001, 0x7AEA9003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AEA9001, 0x7AEA9004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AEA9001, 0x7AEA9005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AEA9001, 0x7AEA9006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AEA9001, 0x7AEA9007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7AEA9001, 0x7AEA9008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AEA9001, 0x7AEA9009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AEA9001, 0x7AEA900A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AEA9001, 0x7AEA900B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AEA9001, 0x7AEA900C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AEA9001, 0x7AEA900D, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7AEA9001, 0x7AEA900E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AEA9001, 0x7AEA900F, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7AEA9001, 0x7AEA9002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AEA9001, 0x7AEA9003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AEA9001, 0x7AEA9004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AEA9001, 0x7AEA9005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AEA9001, 0x7AEA9006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AEA9001, 0x7AEA9007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7AEA9001, 0x7AEA9008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AEA9001, 0x7AEA9009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA900A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA900B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA900C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA900D, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7AEA9001, 0x7AEA900E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA900F, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA9002,  4111, 0xAEA9003B, 184.7805, 55.24563, 122.5888, -0.8922008, 0, 0, -0.4516389,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

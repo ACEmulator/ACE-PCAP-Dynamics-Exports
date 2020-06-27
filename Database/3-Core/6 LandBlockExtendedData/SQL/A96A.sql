@@ -5,12 +5,12 @@ VALUES (0x7A96A001,  1154, 0xA96A0021, 110.3438, 12.0938, 35.69086, -0.3590261, 
 /* @teleloc 0xA96A0021 [110.343800 12.093800 35.690860] -0.359026 0.000000 0.000000 -0.933328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A96A001, 0x7A96A002, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7A96A001, 0x7A96A003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A96A001, 0x7A96A004, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7A96A001, 0x7A96A005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A96A001, 0x7A96A006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A96A001, 0x7A96A007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A96A001, 0x7A96A002, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7A96A001, 0x7A96A003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A96A001, 0x7A96A004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7A96A001, 0x7A96A005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A96A001, 0x7A96A006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A96A001, 0x7A96A007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A96A002,  9256, 0xA96A0021, 110.3438, 12.0938, 35.69086, -0.3590261, 0, 0, -0.9333275,  True, '2019-02-10 00:00:00'); /* Dune Reaver */

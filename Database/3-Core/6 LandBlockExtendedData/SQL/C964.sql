@@ -5,12 +5,12 @@ VALUES (0x7C964001,  1154, 0xC964003E, 180.8737, 138.3196, 24.0025, -0.9993244, 
 /* @teleloc 0xC964003E [180.873700 138.319600 24.002500] -0.999324 0.000000 0.000000 -0.036752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C964001, 0x7C964002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C964001, 0x7C964003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C964001, 0x7C964004, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C964001, 0x7C964005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C964001, 0x7C964006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C964001, 0x7C964007, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C964001, 0x7C964002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C964001, 0x7C964003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C964001, 0x7C964004, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C964001, 0x7C964005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C964001, 0x7C964006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C964001, 0x7C964007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C964002, 22208, 0xC964003E, 180.8737, 138.3196, 24.0025, -0.9993244, 0, 0, -0.0367522,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

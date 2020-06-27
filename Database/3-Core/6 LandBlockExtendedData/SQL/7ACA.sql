@@ -37,12 +37,12 @@ VALUES (0x77ACA00D,  1154, 0x7ACA0026, 118.5822, 128.6541, 196.9554, 0.1345836, 
 /* @teleloc 0x7ACA0026 [118.582200 128.654100 196.955400] 0.134584 0.000000 0.000000 -0.990902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ACA00D, 0x77ACA00E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77ACA00D, 0x77ACA00F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77ACA00D, 0x77ACA010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77ACA00D, 0x77ACA011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77ACA00D, 0x77ACA012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77ACA00D, 0x77ACA013, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x77ACA00D, 0x77ACA00E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77ACA00D, 0x77ACA00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77ACA00D, 0x77ACA010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77ACA00D, 0x77ACA011, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77ACA00D, 0x77ACA012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77ACA00D, 0x77ACA013, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ACA00E,  7982, 0x7ACA0026, 118.5822, 128.6541, 196.9554, 0.1345836, 0, 0, -0.9909022,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -73,7 +73,7 @@ VALUES (0x77ACA014,  1154, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0
 /* @teleloc 0x7ACA0135 [67.082400 15.544000 200.005000] -0.151709 0.000000 0.000000 0.988425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ACA014, 0x77ACA015, '2019-02-10 00:00:00') /* Collector */;
+VALUES (0x77ACA014, 0x77ACA015, '2019-02-10 00:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ACA015,  3917, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0, 0.988425,  True, '2019-02-10 00:00:00'); /* Collector */

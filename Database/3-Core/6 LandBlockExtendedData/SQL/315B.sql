@@ -5,29 +5,29 @@ VALUES (0x7315B001,  1154, 0x315B0008, 8.542429, 186.3298, 18.0065, 0.9998434, 0
 /* @teleloc 0x315B0008 [8.542429 186.329800 18.006500] 0.999843 0.000000 0.000000 -0.017696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315B001, 0x7315B002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7315B001, 0x7315B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7315B001, 0x7315B004, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7315B001, 0x7315B005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7315B001, 0x7315B006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7315B001, 0x7315B007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7315B001, 0x7315B008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7315B001, 0x7315B009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7315B001, 0x7315B00A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7315B001, 0x7315B00B, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7315B001, 0x7315B00C, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7315B001, 0x7315B00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7315B001, 0x7315B00E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7315B001, 0x7315B00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7315B001, 0x7315B010, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7315B001, 0x7315B011, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7315B001, 0x7315B012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7315B001, 0x7315B013, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7315B001, 0x7315B014, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7315B001, 0x7315B015, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7315B001, 0x7315B016, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7315B001, 0x7315B017, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7315B001, 0x7315B018, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7315B001, 0x7315B002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7315B001, 0x7315B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7315B001, 0x7315B004, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7315B001, 0x7315B005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7315B001, 0x7315B006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7315B001, 0x7315B007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7315B001, 0x7315B008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7315B001, 0x7315B009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7315B001, 0x7315B00A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7315B001, 0x7315B00B, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7315B001, 0x7315B00C, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7315B001, 0x7315B00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7315B001, 0x7315B00E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7315B001, 0x7315B00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7315B001, 0x7315B010, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7315B001, 0x7315B011, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7315B001, 0x7315B012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7315B001, 0x7315B013, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7315B001, 0x7315B014, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7315B001, 0x7315B015, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7315B001, 0x7315B016, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7315B001, 0x7315B017, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7315B001, 0x7315B018, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315B002, 22909, 0x315B0008, 8.542429, 186.3298, 18.0065, 0.9998434, 0, 0, -0.01769613,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -126,8 +126,8 @@ VALUES (0x7315B019,  1542, 0x315B0010, 41.38142, 173.0358, 18, 1, 0, 0, 0, False
 /* @teleloc 0x315B0010 [41.381420 173.035800 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315B019, 0x7315B01A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7315B019, 0x7315B01B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7315B019, 0x7315B01A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7315B019, 0x7315B01B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315B01A, 22566, 0x315B0010, 41.38142, 173.0358, 18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

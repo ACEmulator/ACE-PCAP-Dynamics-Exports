@@ -5,9 +5,9 @@ VALUES (0x72BC0001,  1154, 0x2BC0001B, 87.14066, 63.36556, 24.52844, -0.2865566,
 /* @teleloc 0x2BC0001B [87.140660 63.365560 24.528440] -0.286557 0.000000 0.000000 -0.958063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BC0001, 0x72BC0002, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x72BC0001, 0x72BC0003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x72BC0001, 0x72BC0004, '2019-02-10 00:00:00') /* Ferocious Ursuin */;
+VALUES (0x72BC0001, 0x72BC0002, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x72BC0001, 0x72BC0003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x72BC0001, 0x72BC0004, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BC0002, 11527, 0x2BC0001B, 87.14066, 63.36556, 24.52844, -0.2865566, 0, 0, -0.9580633,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */

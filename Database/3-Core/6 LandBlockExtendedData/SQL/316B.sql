@@ -5,11 +5,11 @@ VALUES (0x7316B001,  1154, 0x316B0002, 12.83078, 37.8721, 195.8886, 0.7660445, 0
 /* @teleloc 0x316B0002 [12.830780 37.872100 195.888600] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7316B001, 0x7316B002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7316B001, 0x7316B003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7316B001, 0x7316B004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7316B001, 0x7316B005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7316B001, 0x7316B006, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7316B001, 0x7316B002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7316B001, 0x7316B003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7316B001, 0x7316B004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7316B001, 0x7316B005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7316B001, 0x7316B006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316B002,  7081, 0x316B0002, 12.83078, 37.8721, 195.8886, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

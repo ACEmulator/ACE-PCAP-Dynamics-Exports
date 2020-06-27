@@ -5,9 +5,9 @@ VALUES (0x7B1B2001,  1154, 0xB1B2001B, 87.86087, 61.93404, 96.20871, -0.1799071,
 /* @teleloc 0xB1B2001B [87.860870 61.934040 96.208710] -0.179907 0.000000 0.000000 -0.983684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1B2001, 0x7B1B2002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B1B2001, 0x7B1B2003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B1B2001, 0x7B1B2004, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B1B2001, 0x7B1B2002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B1B2001, 0x7B1B2003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B1B2001, 0x7B1B2004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1B2002,  7989, 0xB1B2001B, 87.86087, 61.93404, 96.20871, -0.1799071, 0, 0, -0.9836836,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

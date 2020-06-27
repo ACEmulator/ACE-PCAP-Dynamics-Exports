@@ -5,38 +5,38 @@ VALUES (0x71E25001,  1154, 0x1E25003C, 173.2335, 73.50031, 23.26324, 0.8870109, 
 /* @teleloc 0x1E25003C [173.233500 73.500310 23.263240] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E25001, 0x71E25002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E25001, 0x71E25003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E25001, 0x71E25004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71E25001, 0x71E25005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E25001, 0x71E25006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71E25001, 0x71E25007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71E25001, 0x71E25008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71E25001, 0x71E25009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71E25001, 0x71E2500A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E25001, 0x71E2500B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E25001, 0x71E2500C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E25001, 0x71E2500D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71E25001, 0x71E2500E, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71E25001, 0x71E2500F, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71E25001, 0x71E25010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71E25001, 0x71E25011, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x71E25001, 0x71E25012, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71E25001, 0x71E25013, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71E25001, 0x71E25014, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71E25001, 0x71E25015, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71E25001, 0x71E25016, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71E25001, 0x71E25017, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71E25001, 0x71E25018, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E25001, 0x71E25019, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E25001, 0x71E2501A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E25001, 0x71E2501B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E25001, 0x71E2501C, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71E25001, 0x71E2501D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E25001, 0x71E2501E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71E25001, 0x71E2501F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71E25001, 0x71E25020, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71E25001, 0x71E25021, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x71E25001, 0x71E25002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71E25001, 0x71E25003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71E25001, 0x71E25004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71E25001, 0x71E25005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71E25001, 0x71E25006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71E25001, 0x71E25007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71E25001, 0x71E25008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71E25001, 0x71E25009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71E25001, 0x71E2500A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71E25001, 0x71E2500B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71E25001, 0x71E2500C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71E25001, 0x71E2500D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71E25001, 0x71E2500E, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71E25001, 0x71E2500F, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71E25001, 0x71E25010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71E25001, 0x71E25011, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x71E25001, 0x71E25012, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x71E25001, 0x71E25013, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71E25001, 0x71E25014, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71E25001, 0x71E25015, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71E25001, 0x71E25016, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71E25001, 0x71E25017, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71E25001, 0x71E25018, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E25001, 0x71E25019, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E25001, 0x71E2501A, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E25001, 0x71E2501B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E25001, 0x71E2501C, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71E25001, 0x71E2501D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E25001, 0x71E2501E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71E25001, 0x71E2501F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71E25001, 0x71E25020, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71E25001, 0x71E25021, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E25002, 36845, 0x1E25003C, 173.2335, 73.50031, 23.26324, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -171,8 +171,8 @@ VALUES (0x71E25022,  1542, 0x1E25002D, 138.9013, 106.3197, 22.63328, -4.371139E-
 /* @teleloc 0x1E25002D [138.901300 106.319700 22.633280] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E25022, 0x71E25023, '2019-02-10 00:00:00') /* Bones */
-     , (0x71E25022, 0x71E25024, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71E25022, 0x71E25023, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71E25022, 0x71E25024, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E25023,  4380, 0x1E25002D, 138.9013, 106.3197, 22.63328, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

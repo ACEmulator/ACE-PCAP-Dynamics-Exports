@@ -5,16 +5,16 @@ VALUES (0x71645001,  1154, 0x1645000D, 42.56041, 116.1802, 3.937, 0.8900731, 0, 
 /* @teleloc 0x1645000D [42.560410 116.180200 3.937000] 0.890073 0.000000 0.000000 -0.455818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71645001, 0x71645002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71645001, 0x71645003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71645001, 0x71645004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71645001, 0x71645005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71645001, 0x71645006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71645001, 0x71645007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71645001, 0x71645008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71645001, 0x71645009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71645001, 0x7164500A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71645001, 0x7164500B, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x71645001, 0x71645002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71645001, 0x71645003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71645001, 0x71645004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71645001, 0x71645005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71645001, 0x71645006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71645001, 0x71645007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71645001, 0x71645008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71645001, 0x71645009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71645001, 0x7164500A, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71645001, 0x7164500B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71645002, 41004, 0x1645000D, 42.56041, 116.1802, 3.937, 0.8900731, 0, 0, -0.4558177,  True, '2019-02-10 00:00:00'); /* Resonant Portal */
@@ -61,7 +61,7 @@ VALUES (0x7164500C,  1542, 0x1645000F, 46.23136, 146.8125, 8.148579, -4.371139E-
 /* @teleloc 0x1645000F [46.231360 146.812500 8.148579] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164500C, 0x7164500D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7164500C, 0x7164500D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164500D,  4380, 0x1645000F, 46.23136, 146.8125, 8.148579, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

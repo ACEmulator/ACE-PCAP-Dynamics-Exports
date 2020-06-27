@@ -5,18 +5,18 @@ VALUES (0x7B0A1001,  1154, 0xB0A10030, 138.2205, 171.905, 90.32217, -0.9872381, 
 /* @teleloc 0xB0A10030 [138.220500 171.905000 90.322170] -0.987238 0.000000 0.000000 -0.159251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A1001, 0x7B0A1002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B0A1001, 0x7B0A1003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A1001, 0x7B0A1004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A1001, 0x7B0A1005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A1001, 0x7B0A1006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A1001, 0x7B0A1007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A1001, 0x7B0A1008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0A1001, 0x7B0A1009, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B0A1001, 0x7B0A100A, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0A1001, 0x7B0A100B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B0A1001, 0x7B0A100C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B0A1001, 0x7B0A100D, '2019-02-10 00:00:00') /* Mite Scamp */;
+VALUES (0x7B0A1001, 0x7B0A1002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B0A1001, 0x7B0A1003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A1001, 0x7B0A1004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A1001, 0x7B0A1005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A1001, 0x7B0A1006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A1001, 0x7B0A1007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A1001, 0x7B0A1008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0A1001, 0x7B0A1009, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B0A1001, 0x7B0A100A, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0A1001, 0x7B0A100B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B0A1001, 0x7B0A100C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B0A1001, 0x7B0A100D, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A1002, 24938, 0xB0A10030, 138.2205, 171.905, 90.32217, -0.9872381, 0, 0, -0.1592511,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

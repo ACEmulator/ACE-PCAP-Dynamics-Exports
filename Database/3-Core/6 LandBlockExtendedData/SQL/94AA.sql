@@ -5,13 +5,13 @@ VALUES (0x794AA001,  1154, 0x94AA0003, 6.599514, 51.37189, 53.73103, 0.380823, 0
 /* @teleloc 0x94AA0003 [6.599514 51.371890 53.731030] 0.380823 0.000000 0.000000 -0.924648 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794AA001, 0x794AA002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x794AA001, 0x794AA003, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x794AA001, 0x794AA004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x794AA001, 0x794AA005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x794AA001, 0x794AA006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x794AA001, 0x794AA007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x794AA001, 0x794AA008, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x794AA001, 0x794AA002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x794AA001, 0x794AA003, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x794AA001, 0x794AA004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x794AA001, 0x794AA005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x794AA001, 0x794AA006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x794AA001, 0x794AA007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x794AA001, 0x794AA008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794AA002, 22010, 0x94AA0003, 6.599514, 51.37189, 53.73103, 0.380823, 0, 0, -0.9246479,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

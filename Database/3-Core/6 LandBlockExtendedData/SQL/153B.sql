@@ -5,14 +5,14 @@ VALUES (0x7153B001,  1154, 0x153B000A, 40.64725, 39.64109, 30.77229, 0.8443488, 
 /* @teleloc 0x153B000A [40.647250 39.641090 30.772290] 0.844349 0.000000 0.000000 -0.535794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7153B001, 0x7153B002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7153B001, 0x7153B003, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7153B001, 0x7153B004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7153B001, 0x7153B005, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7153B001, 0x7153B006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7153B001, 0x7153B007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7153B001, 0x7153B008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7153B001, 0x7153B009, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7153B001, 0x7153B002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7153B001, 0x7153B003, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7153B001, 0x7153B004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7153B001, 0x7153B005, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7153B001, 0x7153B006, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7153B001, 0x7153B007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7153B001, 0x7153B008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7153B001, 0x7153B009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7153B002,  7983, 0x153B000A, 40.64725, 39.64109, 30.77229, 0.8443488, 0, 0, -0.5357939,  True, '2019-02-10 00:00:00'); /* Bane Grievver */

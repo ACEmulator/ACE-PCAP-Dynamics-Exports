@@ -5,21 +5,21 @@ VALUES (0x73D9C001,  1154, 0x3D9C0012, 64.6781, 36.28783, 9.57482, -0.1840674, 0
 /* @teleloc 0x3D9C0012 [64.678100 36.287830 9.574820] -0.184067 0.000000 0.000000 -0.982914 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D9C001, 0x73D9C002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73D9C001, 0x73D9C003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73D9C001, 0x73D9C004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73D9C001, 0x73D9C005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73D9C001, 0x73D9C006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73D9C001, 0x73D9C007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73D9C001, 0x73D9C008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73D9C001, 0x73D9C009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73D9C001, 0x73D9C00A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73D9C001, 0x73D9C00B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73D9C001, 0x73D9C00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73D9C001, 0x73D9C00D, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73D9C001, 0x73D9C00E, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x73D9C001, 0x73D9C00F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x73D9C001, 0x73D9C010, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x73D9C001, 0x73D9C002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73D9C001, 0x73D9C003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73D9C001, 0x73D9C004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73D9C001, 0x73D9C005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73D9C001, 0x73D9C006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73D9C001, 0x73D9C007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73D9C001, 0x73D9C008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73D9C001, 0x73D9C009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73D9C001, 0x73D9C00A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73D9C001, 0x73D9C00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73D9C001, 0x73D9C00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73D9C001, 0x73D9C00D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73D9C001, 0x73D9C00E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x73D9C001, 0x73D9C00F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x73D9C001, 0x73D9C010, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D9C002,  7124, 0x3D9C0012, 64.6781, 36.28783, 9.57482, -0.1840674, 0, 0, -0.9829136,  True, '2019-02-10 00:00:00'); /* Dark Magus */

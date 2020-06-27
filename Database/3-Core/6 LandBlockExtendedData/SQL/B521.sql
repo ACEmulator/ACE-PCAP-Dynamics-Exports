@@ -5,15 +5,15 @@ VALUES (0x7B521001,  1154, 0xB521002B, 142.5842, 61.57236, 232.0361, 0.9238795, 
 /* @teleloc 0xB521002B [142.584200 61.572360 232.036100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B521001, 0x7B521002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B521001, 0x7B521003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B521001, 0x7B521004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B521001, 0x7B521005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B521001, 0x7B521006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B521001, 0x7B521007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B521001, 0x7B521008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B521001, 0x7B521009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B521001, 0x7B52100A, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7B521001, 0x7B521002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B521001, 0x7B521003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B521001, 0x7B521004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B521001, 0x7B521005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B521001, 0x7B521006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B521001, 0x7B521007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B521001, 0x7B521008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B521001, 0x7B521009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B521001, 0x7B52100A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B521002,   199, 0xB521002B, 142.5842, 61.57236, 232.0361, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */

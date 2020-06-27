@@ -5,13 +5,13 @@ VALUES (0x733DF001,  1154, 0x33DF0011, 70.92424, 18.37311, 13.50634, -0.571951, 
 /* @teleloc 0x33DF0011 [70.924240 18.373110 13.506340] -0.571951 0.000000 0.000000 -0.820288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733DF001, 0x733DF002, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x733DF001, 0x733DF003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x733DF001, 0x733DF004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x733DF001, 0x733DF005, '2019-02-10 00:00:00') /* Undead */
-     , (0x733DF001, 0x733DF006, '2019-02-10 00:00:00') /* Thrungus */
-     , (0x733DF001, 0x733DF007, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x733DF001, 0x733DF008, '2019-02-10 00:00:00') /* Tan Rat */;
+VALUES (0x733DF001, 0x733DF002, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x733DF001, 0x733DF003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x733DF001, 0x733DF004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x733DF001, 0x733DF005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x733DF001, 0x733DF006, '2019-02-10 00:00:00') /* Thrungus (28677) */
+     , (0x733DF001, 0x733DF007, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x733DF001, 0x733DF008, '2019-02-10 00:00:00') /* Tan Rat (4131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DF002,   178, 0x33DF0011, 70.92424, 18.37311, 13.50634, -0.571951, 0, 0, -0.8202878,  True, '2019-02-10 00:00:00'); /* Brown Armoredillo */

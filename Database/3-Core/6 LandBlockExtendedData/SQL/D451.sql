@@ -5,9 +5,9 @@ VALUES (0x7D451001,  1154, 0xD4510025, 102.8159, 101.5005, 43.78577, 0.02881517,
 /* @teleloc 0xD4510025 [102.815900 101.500500 43.785770] 0.028815 0.000000 0.000000 -0.999585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D451001, 0x7D451002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D451001, 0x7D451003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D451001, 0x7D451004, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7D451001, 0x7D451002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D451001, 0x7D451003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D451001, 0x7D451004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D451002,   232, 0xD4510025, 102.8159, 101.5005, 43.78577, 0.02881517, 0, 0, -0.9995847,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

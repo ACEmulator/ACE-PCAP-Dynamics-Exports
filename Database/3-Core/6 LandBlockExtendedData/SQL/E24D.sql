@@ -5,12 +5,12 @@ VALUES (0x7E24D001,  1154, 0xE24D002B, 122.4126, 71.39547, 23.985, -0.9278917, 0
 /* @teleloc 0xE24D002B [122.412600 71.395470 23.985000] -0.927892 0.000000 0.000000 -0.372850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E24D001, 0x7E24D002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E24D001, 0x7E24D003, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E24D001, 0x7E24D004, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E24D001, 0x7E24D005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E24D001, 0x7E24D006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E24D001, 0x7E24D007, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7E24D001, 0x7E24D002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E24D001, 0x7E24D003, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E24D001, 0x7E24D004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E24D001, 0x7E24D005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E24D001, 0x7E24D006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E24D001, 0x7E24D007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24D002,  4110, 0xE24D002B, 122.4126, 71.39547, 23.985, -0.9278917, 0, 0, -0.3728497,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

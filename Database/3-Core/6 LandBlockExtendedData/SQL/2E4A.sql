@@ -5,23 +5,23 @@ VALUES (0x72E4A001,  1154, 0x2E4A0017, 68.54494, 152.7518, 21.15669, -0.6409845,
 /* @teleloc 0x2E4A0017 [68.544940 152.751800 21.156690] -0.640985 0.000000 0.000000 -0.767554 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E4A001, 0x72E4A002, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72E4A001, 0x72E4A003, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72E4A001, 0x72E4A004, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72E4A001, 0x72E4A005, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72E4A001, 0x72E4A006, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72E4A001, 0x72E4A007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E4A001, 0x72E4A008, '2019-02-10 00:00:00') /* Platinum Golem Mountain King */
-     , (0x72E4A001, 0x72E4A009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E4A001, 0x72E4A00A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E4A001, 0x72E4A00B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E4A001, 0x72E4A00C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E4A001, 0x72E4A00D, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72E4A001, 0x72E4A00E, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72E4A001, 0x72E4A00F, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72E4A001, 0x72E4A010, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72E4A001, 0x72E4A011, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72E4A001, 0x72E4A012, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x72E4A001, 0x72E4A002, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72E4A001, 0x72E4A003, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72E4A001, 0x72E4A004, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72E4A001, 0x72E4A005, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72E4A001, 0x72E4A006, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72E4A001, 0x72E4A007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E4A001, 0x72E4A008, '2019-02-10 00:00:00') /* Platinum Golem Mountain King (23550) */
+     , (0x72E4A001, 0x72E4A009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E4A001, 0x72E4A00A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E4A001, 0x72E4A00B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E4A001, 0x72E4A00C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E4A001, 0x72E4A00D, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72E4A001, 0x72E4A00E, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E4A001, 0x72E4A00F, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72E4A001, 0x72E4A010, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E4A001, 0x72E4A011, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72E4A001, 0x72E4A012, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E4A002, 25663, 0x2E4A0017, 68.54494, 152.7518, 21.15669, -0.6409845, 0, 0, -0.7675539,  True, '2019-02-10 00:00:00'); /* Void Knight */

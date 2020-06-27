@@ -5,16 +5,16 @@ VALUES (0x70E60001,  1154, 0x0E600016, 71.19962, 136.8353, 30.47081, 0.7071068, 
 /* @teleloc 0x0E600016 [71.199620 136.835300 30.470810] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E60001, 0x70E60002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70E60001, 0x70E60003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70E60001, 0x70E60004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E60001, 0x70E60005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70E60001, 0x70E60006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E60001, 0x70E60007, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70E60001, 0x70E60008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E60001, 0x70E60009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E60001, 0x70E6000A, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70E60001, 0x70E6000B, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x70E60001, 0x70E60002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70E60001, 0x70E60003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70E60001, 0x70E60004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E60001, 0x70E60005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70E60001, 0x70E60006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E60001, 0x70E60007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70E60001, 0x70E60008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E60001, 0x70E60009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E60001, 0x70E6000A, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70E60001, 0x70E6000B, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E60002, 36819, 0x0E600016, 71.19962, 136.8353, 30.47081, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Savage */

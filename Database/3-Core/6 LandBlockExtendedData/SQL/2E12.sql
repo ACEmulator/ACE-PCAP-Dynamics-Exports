@@ -5,15 +5,15 @@ VALUES (0x72E12001,  1154, 0x2E120026, 115.9649, 126.3931, 12.53525, 0.9308398, 
 /* @teleloc 0x2E120026 [115.964900 126.393100 12.535250] 0.930840 0.000000 0.000000 -0.365428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E12001, 0x72E12002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E12001, 0x72E12003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72E12001, 0x72E12004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E12001, 0x72E12005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72E12001, 0x72E12006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E12001, 0x72E12007, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E12001, 0x72E12008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72E12001, 0x72E12009, '2019-02-10 00:00:00') /* Flare */
-     , (0x72E12001, 0x72E1200A, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x72E12001, 0x72E12002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E12001, 0x72E12003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72E12001, 0x72E12004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E12001, 0x72E12005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72E12001, 0x72E12006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E12001, 0x72E12007, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E12001, 0x72E12008, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72E12001, 0x72E12009, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72E12001, 0x72E1200A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E12002, 36859, 0x2E120026, 115.9649, 126.3931, 12.53525, 0.9308398, 0, 0, -0.3654275,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -56,7 +56,7 @@ VALUES (0x72E1200B,  1542, 0x2E12003C, 174.9429, 94.88905, 54.52755, 0.9990482, 
 /* @teleloc 0x2E12003C [174.942900 94.889050 54.527550] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E1200B, 0x72E1200C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72E1200B, 0x72E1200C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E1200C,  4179, 0x2E12003C, 174.9429, 94.88905, 54.52755, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

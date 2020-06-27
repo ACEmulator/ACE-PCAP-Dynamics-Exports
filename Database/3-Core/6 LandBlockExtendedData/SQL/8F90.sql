@@ -5,9 +5,9 @@ VALUES (0x78F90001,  1154, 0x8F90003A, 182.1967, 32.82063, 68.33093, 0.9670334, 
 /* @teleloc 0x8F90003A [182.196700 32.820630 68.330930] 0.967033 0.000000 0.000000 -0.254650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F90001, 0x78F90002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F90001, 0x78F90003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F90001, 0x78F90004, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x78F90001, 0x78F90002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78F90001, 0x78F90003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78F90001, 0x78F90004, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F90002,  1762, 0x8F90003A, 182.1967, 32.82063, 68.33093, 0.9670334, 0, 0, -0.2546495,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -26,7 +26,7 @@ VALUES (0x78F90005,  1542, 0x8F900006, 10.08384, 140.6537, 149.9242, 0.991547, 0
 /* @teleloc 0x8F900006 [10.083840 140.653700 149.924200] 0.991547 0.000000 0.000000 -0.129748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F90005, 0x78F90006, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x78F90005, 0x78F90006, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F90006, 15715, 0x8F900006, 10.08384, 140.6537, 149.9242, 0.991547, 0, 0, -0.1297483,  True, '2019-02-10 00:00:00'); /* Sunflower */

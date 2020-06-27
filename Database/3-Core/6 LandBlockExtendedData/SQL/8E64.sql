@@ -5,14 +5,14 @@ VALUES (0x78E64001,  1154, 0x8E64001C, 81.79729, 88.23326, 14.0025, -0.9981173, 
 /* @teleloc 0x8E64001C [81.797290 88.233260 14.002500] -0.998117 0.000000 0.000000 -0.061334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E64001, 0x78E64002, '2019-02-10 00:00:00') /* Flicker */
-     , (0x78E64001, 0x78E64003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78E64001, 0x78E64004, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78E64001, 0x78E64005, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78E64001, 0x78E64006, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x78E64001, 0x78E64007, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78E64001, 0x78E64008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78E64001, 0x78E64009, '2019-02-10 00:00:00') /* Banderling Captain */;
+VALUES (0x78E64001, 0x78E64002, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x78E64001, 0x78E64003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78E64001, 0x78E64004, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78E64001, 0x78E64005, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78E64001, 0x78E64006, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x78E64001, 0x78E64007, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78E64001, 0x78E64008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78E64001, 0x78E64009, '2019-02-10 00:00:00') /* Banderling Captain (184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E64002,  5705, 0x8E64001C, 81.79729, 88.23326, 14.0025, -0.9981173, 0, 0, -0.06133391,  True, '2019-02-10 00:00:00'); /* Flicker */

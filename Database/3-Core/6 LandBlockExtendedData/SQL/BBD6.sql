@@ -5,10 +5,10 @@ VALUES (0x7BBD6001,  1154, 0xBBD6002C, 137.0512, 92.38593, 64.5472, -0.419064, 0
 /* @teleloc 0xBBD6002C [137.051200 92.385930 64.547200] -0.419064 0.000000 0.000000 -0.907957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD6001, 0x7BBD6002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BBD6001, 0x7BBD6003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BBD6001, 0x7BBD6004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BBD6001, 0x7BBD6005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7BBD6001, 0x7BBD6002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BBD6001, 0x7BBD6003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BBD6001, 0x7BBD6004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BBD6001, 0x7BBD6005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD6002,  6380, 0xBBD6002C, 137.0512, 92.38593, 64.5472, -0.419064, 0, 0, -0.9079567,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -31,7 +31,7 @@ VALUES (0x7BBD6006,  1542, 0xBBD6001D, 80.68315, 104.3165, 59.35364, -0.6901926,
 /* @teleloc 0xBBD6001D [80.683150 104.316500 59.353640] -0.690193 0.000000 0.000000 -0.723626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD6006, 0x7BBD6007, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7BBD6006, 0x7BBD6007, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD6007,  9071, 0xBBD6001D, 80.68315, 104.3165, 59.35364, -0.6901926, 0, 0, -0.7236257,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

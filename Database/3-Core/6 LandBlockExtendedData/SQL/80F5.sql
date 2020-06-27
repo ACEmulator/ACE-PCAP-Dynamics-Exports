@@ -5,12 +5,12 @@ VALUES (0x780F5001,  1154, 0x80F5002F, 121.1558, 151.663, 80.00484, 0.9659258, 0
 /* @teleloc 0x80F5002F [121.155800 151.663000 80.004840] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780F5001, 0x780F5002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x780F5001, 0x780F5003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x780F5001, 0x780F5004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x780F5001, 0x780F5005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x780F5001, 0x780F5006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x780F5001, 0x780F5007, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x780F5001, 0x780F5002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x780F5001, 0x780F5003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x780F5001, 0x780F5004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x780F5001, 0x780F5005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x780F5001, 0x780F5006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x780F5001, 0x780F5007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780F5002,  7340, 0x80F5002F, 121.1558, 151.663, 80.00484, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -41,7 +41,7 @@ VALUES (0x780F5008,  1542, 0x80F5002F, 122.1868, 147.631, 81.82, 1, 0, 0, 0, Fal
 /* @teleloc 0x80F5002F [122.186800 147.631000 81.820000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780F5008, 0x780F5009, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x780F5008, 0x780F5009, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780F5009,  8999, 0x80F5002F, 122.1868, 147.631, 81.82, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

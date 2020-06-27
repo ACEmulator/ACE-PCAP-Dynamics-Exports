@@ -41,299 +41,299 @@ VALUES (0x74AE100B,  1154, 0x4AE10100, 105.863, 58.367, 62.405, 0.4181581, 0, 0,
 /* @teleloc 0x4AE10100 [105.863000 58.367000 62.405000] 0.418158 0.000000 0.000000 -0.908374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE100B, 0x74AE100C, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE100D, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74AE100B, 0x74AE100E, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE100F, '2019-02-10 00:00:00') /* Mysterious Hatch */
-     , (0x74AE100B, 0x74AE1010, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE1011, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1012, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1013, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1014, '2019-02-10 00:00:00') /* Bushi Gatekeeper */
-     , (0x74AE100B, 0x74AE1015, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1016, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1017, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE1018, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1019, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE101A, '2019-02-10 00:00:00') /* Sarcophagus */
-     , (0x74AE100B, 0x74AE101B, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE101C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE101D, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE101E, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE101F, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1020, '2019-02-10 00:00:00') /* Iron Golem Samurai */
-     , (0x74AE100B, 0x74AE1021, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1022, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1023, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1024, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1025, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1026, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1027, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1028, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE1029, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE102A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE102B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE102C, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE102D, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74AE100B, 0x74AE102E, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE102F, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1030, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1031, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1032, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE1033, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1034, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1035, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1036, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1037, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1038, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1039, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE103A, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE103B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE103C, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE103D, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE103E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE103F, '2019-02-10 00:00:00') /* Iron Golem Samurai */
-     , (0x74AE100B, 0x74AE1040, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1041, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74AE100B, 0x74AE1042, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1043, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74AE100B, 0x74AE1044, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1045, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1046, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1047, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1048, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1049, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE104A, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE104B, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE104C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE104D, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE104E, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE104F, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1050, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1051, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1052, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1053, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1054, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1055, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1056, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1057, '2019-02-10 00:00:00') /* Bushi Gatekeeper */
-     , (0x74AE100B, 0x74AE1058, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1059, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE105A, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE105B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE105C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE105D, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE105E, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74AE100B, 0x74AE105F, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1060, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1061, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1062, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1063, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1064, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1065, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1066, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1067, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1068, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1069, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE106A, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE106B, '2019-02-10 00:00:00') /* Bushi Gatekeeper */
-     , (0x74AE100B, 0x74AE106C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE106D, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE106E, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE106F, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE1070, '2019-02-10 00:00:00') /* Bushi Gatekeeper */
-     , (0x74AE100B, 0x74AE1071, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1072, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1073, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1074, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1075, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1076, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74AE100B, 0x74AE1077, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1078, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1079, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE107A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE107B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE107C, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE107D, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE107E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE107F, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74AE100B, 0x74AE1080, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1081, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1082, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1083, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1084, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1085, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1086, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1087, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1088, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1089, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE108A, '2019-02-10 00:00:00') /* Iron Golem Samurai */
-     , (0x74AE100B, 0x74AE108B, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE108C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE108D, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE108E, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE108F, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1090, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1091, '2019-02-10 00:00:00') /* Clay Golem Samurai */
-     , (0x74AE100B, 0x74AE1092, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1093, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1094, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1095, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1096, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1097, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1098, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE1099, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE109A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE109B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE109C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE109D, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE109E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE109F, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10A0, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10A1, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE10A2, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10A3, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE10A4, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10A5, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10A6, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10A7, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10A8, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10A9, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10AA, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10AB, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10AC, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10AD, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE10AE, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10AF, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10B0, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10B1, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE10B2, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE10B3, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10B4, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10B5, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE10B6, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE10B7, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10B8, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10B9, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10BA, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10BB, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10BC, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10BD, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE10BE, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10BF, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10C0, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10C1, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10C2, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE10C3, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10C4, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10C5, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE10C6, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10C7, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10C8, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10C9, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10CA, '2019-02-10 00:00:00') /* Bronze Golem Samurai */
-     , (0x74AE100B, 0x74AE10CB, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10CC, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10CD, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10CE, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10CF, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE10D0, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10D1, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10D2, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10D3, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10D4, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen */
-     , (0x74AE100B, 0x74AE10D5, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10D6, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10D7, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE10D8, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10D9, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10DA, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10DB, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10DC, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10DD, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10DE, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10DF, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10E0, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10E1, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE10E2, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10E3, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE10E4, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10E5, '2019-02-10 00:00:00') /* Bronze Golem Samurai */
-     , (0x74AE100B, 0x74AE10E6, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10E7, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10E8, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE10E9, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE10EA, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10EB, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE10EC, '2019-02-10 00:00:00') /* Iron Golem Samurai */
-     , (0x74AE100B, 0x74AE10ED, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10EE, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10EF, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10F0, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10F1, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE10F2, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10F3, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10F4, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE10F5, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10F6, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10F7, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10F8, '2019-02-10 00:00:00') /* Spectral Bloodmage */
-     , (0x74AE100B, 0x74AE10F9, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10FA, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10FB, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE10FC, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE10FD, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10FE, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE10FF, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1100, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1101, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1102, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1103, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1104, '2019-02-10 00:00:00') /* Spectral Claw Adept */
-     , (0x74AE100B, 0x74AE1105, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1106, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1107, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1108, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1109, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE110A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE110B, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE110C, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE110D, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE110E, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE110F, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1110, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1111, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1112, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1113, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE1114, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1115, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1116, '2019-02-10 00:00:00') /* Spectral Voidmage */
-     , (0x74AE100B, 0x74AE1117, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1118, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1119, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE111A, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE111B, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE111C, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE111D, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE111E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE111F, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1120, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1121, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE1122, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1123, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1124, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE100B, 0x74AE1125, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1126, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE1127, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE1128, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE1129, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE112A, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE100B, 0x74AE112B, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE100B, 0x74AE112C, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE100B, 0x74AE112D, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE100B, 0x74AE112E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE100B, 0x74AE112F, '2019-02-10 00:00:00') /* Spectral Blade Master */
-     , (0x74AE100B, 0x74AE1130, '2019-02-10 00:00:00') /* Spectral Bushi */;
+VALUES (0x74AE100B, 0x74AE100C, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74AE100B, 0x74AE100D, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
+     , (0x74AE100B, 0x74AE100E, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE100F, '2019-02-10 00:00:00') /* Mysterious Hatch (48859) */
+     , (0x74AE100B, 0x74AE1010, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE1011, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1012, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE1013, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE1014, '2019-02-10 00:00:00') /* Bushi Gatekeeper (46662) */
+     , (0x74AE100B, 0x74AE1015, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE1016, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE1017, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE1018, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1019, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE101A, '2019-02-10 00:00:00') /* Sarcophagus (52295) */
+     , (0x74AE100B, 0x74AE101B, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE101C, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE101D, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE101E, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE101F, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE1020, '2019-02-10 00:00:00') /* Iron Golem Samurai (46653) */
+     , (0x74AE100B, 0x74AE1021, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1022, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1023, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE1024, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE1025, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1026, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE1027, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1028, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE1029, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74AE100B, 0x74AE102A, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE102B, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE102C, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74AE100B, 0x74AE102D, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46532) */
+     , (0x74AE100B, 0x74AE102E, '2019-02-10 00:00:00') /* Spectral Bloodmage (52293) */
+     , (0x74AE100B, 0x74AE102F, '2019-02-10 00:00:00') /* Spectral Voidmage (52292) */
+     , (0x74AE100B, 0x74AE1030, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE1031, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1032, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE1033, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE1034, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE1035, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1036, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1037, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1038, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74AE100B, 0x74AE1039, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE103A, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74AE100B, 0x74AE103B, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74AE100B, 0x74AE103C, '2019-02-10 00:00:00') /* Spectral Blade Master (46508) */
+     , (0x74AE100B, 0x74AE103D, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE103E, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE103F, '2019-02-10 00:00:00') /* Iron Golem Samurai (46614) */
+     , (0x74AE100B, 0x74AE1040, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE100B, 0x74AE1041, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46532) */
+     , (0x74AE100B, 0x74AE1042, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE1043, '2019-02-10 00:00:00') /* Clay Golem Samurai (46652) */
+     , (0x74AE100B, 0x74AE1044, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE1045, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE1046, '2019-02-10 00:00:00') /* Spectral Samurai (46534) */
+     , (0x74AE100B, 0x74AE1047, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74AE100B, 0x74AE1048, '2019-02-10 00:00:00') /* Spectral Claw Adept (46520) */
+     , (0x74AE100B, 0x74AE1049, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74AE100B, 0x74AE104A, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74AE100B, 0x74AE104B, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE104C, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE104D, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE104E, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74AE100B, 0x74AE104F, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE1050, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1051, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE1052, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1053, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE1054, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE1055, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE1056, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1057, '2019-02-10 00:00:00') /* Bushi Gatekeeper (46662) */
+     , (0x74AE100B, 0x74AE1058, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1059, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74AE100B, 0x74AE105A, '2019-02-10 00:00:00') /* Spectral Claw Adept (46520) */
+     , (0x74AE100B, 0x74AE105B, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE100B, 0x74AE105C, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE105D, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE105E, '2019-02-10 00:00:00') /* Clay Golem Samurai (46652) */
+     , (0x74AE100B, 0x74AE105F, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74AE100B, 0x74AE1060, '2019-02-10 00:00:00') /* Spectral Bushi (46516) */
+     , (0x74AE100B, 0x74AE1061, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE1062, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE1063, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE1064, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1065, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE1066, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1067, '2019-02-10 00:00:00') /* Spectral Voidmage (52292) */
+     , (0x74AE100B, 0x74AE1068, '2019-02-10 00:00:00') /* Spectral Bushi (46512) */
+     , (0x74AE100B, 0x74AE1069, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74AE100B, 0x74AE106A, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74AE100B, 0x74AE106B, '2019-02-10 00:00:00') /* Bushi Gatekeeper (46662) */
+     , (0x74AE100B, 0x74AE106C, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE106D, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE106E, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE106F, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE1070, '2019-02-10 00:00:00') /* Bushi Gatekeeper (46662) */
+     , (0x74AE100B, 0x74AE1071, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE1072, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1073, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE1074, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE1075, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE1076, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
+     , (0x74AE100B, 0x74AE1077, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1078, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE1079, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE107A, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE107B, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE107C, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE107D, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE107E, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE107F, '2019-02-10 00:00:00') /* Clay Golem Samurai (46652) */
+     , (0x74AE100B, 0x74AE1080, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1081, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1082, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1083, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1084, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1085, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1086, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1087, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE1088, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE1089, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74AE100B, 0x74AE108A, '2019-02-10 00:00:00') /* Iron Golem Samurai (46653) */
+     , (0x74AE100B, 0x74AE108B, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74AE100B, 0x74AE108C, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE108D, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE108E, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE108F, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1090, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74AE100B, 0x74AE1091, '2019-02-10 00:00:00') /* Clay Golem Samurai (46603) */
+     , (0x74AE100B, 0x74AE1092, '2019-02-10 00:00:00') /* Spectral Minion (46528) */
+     , (0x74AE100B, 0x74AE1093, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74AE100B, 0x74AE1094, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74AE100B, 0x74AE1095, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74AE100B, 0x74AE1096, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1097, '2019-02-10 00:00:00') /* Spectral Blade Adept (46506) */
+     , (0x74AE100B, 0x74AE1098, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE1099, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE109A, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE109B, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE109C, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74AE100B, 0x74AE109D, '2019-02-10 00:00:00') /* Spectral Claw Master (46522) */
+     , (0x74AE100B, 0x74AE109E, '2019-02-10 00:00:00') /* Spectral Samurai (46540) */
+     , (0x74AE100B, 0x74AE109F, '2019-02-10 00:00:00') /* Spectral Samurai (46534) */
+     , (0x74AE100B, 0x74AE10A0, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE10A1, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE10A2, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE10A3, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE10A4, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74AE100B, 0x74AE10A5, '2019-02-10 00:00:00') /* Spectral Minion (46530) */
+     , (0x74AE100B, 0x74AE10A6, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74AE100B, 0x74AE10A7, '2019-02-10 00:00:00') /* Spectral Samurai (46534) */
+     , (0x74AE100B, 0x74AE10A8, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE10A9, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE10AA, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10AB, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE10AC, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74AE100B, 0x74AE10AD, '2019-02-10 00:00:00') /* Spectral Claw Master (46522) */
+     , (0x74AE100B, 0x74AE10AE, '2019-02-10 00:00:00') /* Spectral Samurai (46538) */
+     , (0x74AE100B, 0x74AE10AF, '2019-02-10 00:00:00') /* Spectral Bushi (46518) */
+     , (0x74AE100B, 0x74AE10B0, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE10B1, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE10B2, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE10B3, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE10B4, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE10B5, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE10B6, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE10B7, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE10B8, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE10B9, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE10BA, '2019-02-10 00:00:00') /* Spectral Minion (46526) */
+     , (0x74AE100B, 0x74AE10BB, '2019-02-10 00:00:00') /* Spectral Minion (46524) */
+     , (0x74AE100B, 0x74AE10BC, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE10BD, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE10BE, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE10BF, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE10C0, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE10C1, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE10C2, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE10C3, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10C4, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10C5, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE10C6, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE10C7, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE10C8, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10C9, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10CA, '2019-02-10 00:00:00') /* Bronze Golem Samurai (46651) */
+     , (0x74AE100B, 0x74AE10CB, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE10CC, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE10CD, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE10CE, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10CF, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE10D0, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE10D1, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE10D2, '2019-02-10 00:00:00') /* Spectral Bushi (46512) */
+     , (0x74AE100B, 0x74AE10D3, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10D4, '2019-02-10 00:00:00') /* Spectral Nanjou Shou-jen (46533) */
+     , (0x74AE100B, 0x74AE10D5, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10D6, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE10D7, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE10D8, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE10D9, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10DA, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10DB, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74AE100B, 0x74AE10DC, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74AE100B, 0x74AE10DD, '2019-02-10 00:00:00') /* Spectral Bushi (46516) */
+     , (0x74AE100B, 0x74AE10DE, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74AE100B, 0x74AE10DF, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74AE100B, 0x74AE10E0, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74AE100B, 0x74AE10E1, '2019-02-10 00:00:00') /* Spectral Blade Adept (46506) */
+     , (0x74AE100B, 0x74AE10E2, '2019-02-10 00:00:00') /* Spectral Bushi (46514) */
+     , (0x74AE100B, 0x74AE10E3, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE10E4, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE10E5, '2019-02-10 00:00:00') /* Bronze Golem Samurai (46613) */
+     , (0x74AE100B, 0x74AE10E6, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE100B, 0x74AE10E7, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE10E8, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE10E9, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE10EA, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10EB, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE10EC, '2019-02-10 00:00:00') /* Iron Golem Samurai (46653) */
+     , (0x74AE100B, 0x74AE10ED, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10EE, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE10EF, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE10F0, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE10F1, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE10F2, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE10F3, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10F4, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE10F5, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10F6, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10F7, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE10F8, '2019-02-10 00:00:00') /* Spectral Bloodmage (46511) */
+     , (0x74AE100B, 0x74AE10F9, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE10FA, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE10FB, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE10FC, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE10FD, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE10FE, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE10FF, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74AE100B, 0x74AE1100, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1101, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1102, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE1103, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1104, '2019-02-10 00:00:00') /* Spectral Claw Adept (46521) */
+     , (0x74AE100B, 0x74AE1105, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE1106, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE1107, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1108, '2019-02-10 00:00:00') /* Spectral Archer (46501) */
+     , (0x74AE100B, 0x74AE1109, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE110A, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE110B, '2019-02-10 00:00:00') /* Spectral Samurai (46536) */
+     , (0x74AE100B, 0x74AE110C, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE100B, 0x74AE110D, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE110E, '2019-02-10 00:00:00') /* Spectral Claw Master (46522) */
+     , (0x74AE100B, 0x74AE110F, '2019-02-10 00:00:00') /* Spectral Archer (46499) */
+     , (0x74AE100B, 0x74AE1110, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE1111, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1112, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1113, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74AE100B, 0x74AE1114, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE1115, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE1116, '2019-02-10 00:00:00') /* Spectral Voidmage (46687) */
+     , (0x74AE100B, 0x74AE1117, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1118, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */
+     , (0x74AE100B, 0x74AE1119, '2019-02-10 00:00:00') /* Spectral Bushi (46519) */
+     , (0x74AE100B, 0x74AE111A, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE111B, '2019-02-10 00:00:00') /* Spectral Minion (46531) */
+     , (0x74AE100B, 0x74AE111C, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE111D, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE111E, '2019-02-10 00:00:00') /* Spectral Samurai (46539) */
+     , (0x74AE100B, 0x74AE111F, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1120, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE100B, 0x74AE1121, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE100B, 0x74AE1122, '2019-02-10 00:00:00') /* Spectral Minion (46527) */
+     , (0x74AE100B, 0x74AE1123, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE1124, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE100B, 0x74AE1125, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE100B, 0x74AE1126, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE100B, 0x74AE1127, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE1128, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE1129, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE100B, 0x74AE112A, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE100B, 0x74AE112B, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE100B, 0x74AE112C, '2019-02-10 00:00:00') /* Spectral Archer (46505) */
+     , (0x74AE100B, 0x74AE112D, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE100B, 0x74AE112E, '2019-02-10 00:00:00') /* Spectral Samurai (46535) */
+     , (0x74AE100B, 0x74AE112F, '2019-02-10 00:00:00') /* Spectral Blade Master (46509) */
+     , (0x74AE100B, 0x74AE1130, '2019-02-10 00:00:00') /* Spectral Bushi (46513) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE100C, 46509, 0x4AE10100, 105.863, 58.367, 62.405, 0.4181581, 0, 0, -0.9083742,  True, '2019-02-10 00:00:00'); /* Spectral Blade Master */
@@ -1512,7 +1512,7 @@ VALUES (0x74AE1131,  1154, 0x4AE1011A, 131.904, 13.5535, 57.505, 1, 0, 0, 0, Fal
 /* @teleloc 0x4AE1011A [131.904000 13.553500 57.505000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE1131, 0x74AE1132, '2019-02-10 00:00:00') /* Darviss */;
+VALUES (0x74AE1131, 0x74AE1132, '2019-02-10 00:00:00') /* Darviss (46559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE1132, 46559, 0x4AE1011A, 131.904, 13.5535, 57.505, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Darviss */
@@ -1523,7 +1523,7 @@ VALUES (0x74AE1133,  1542, 0x4AE10031, 159.3404, 6.157645, 62.25871, 1, 0, 0, 0,
 /* @teleloc 0x4AE10031 [159.340400 6.157645 62.258710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE1133, 0x74AE1134, '2019-02-10 00:00:00') /* Unknown */;
+VALUES (0x74AE1133, 0x74AE1134, '2019-02-10 00:00:00') /* Unknown (52297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE1134, 52297, 0x4AE10031, 159.3404, 6.157645, 62.25871, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Unknown */

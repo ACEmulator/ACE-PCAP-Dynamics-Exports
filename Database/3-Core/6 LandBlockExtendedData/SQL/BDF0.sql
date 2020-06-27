@@ -5,24 +5,24 @@ VALUES (0x7BDF0001,  1154, 0xBDF0003A, 175.6369, 47.63943, 15.46373, 1, 0, 0, 0,
 /* @teleloc 0xBDF0003A [175.636900 47.639430 15.463730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF0001, 0x7BDF0002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BDF0001, 0x7BDF0003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BDF0001, 0x7BDF0004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF0005, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BDF0001, 0x7BDF0006, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BDF0001, 0x7BDF0007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF0008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF0009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BDF0001, 0x7BDF000A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF000B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7BDF0001, 0x7BDF000C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7BDF0001, 0x7BDF000D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF000E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BDF0001, 0x7BDF000F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF0010, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BDF0001, 0x7BDF0011, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BDF0001, 0x7BDF0012, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BDF0001, 0x7BDF0013, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7BDF0001, 0x7BDF0002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BDF0001, 0x7BDF0003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BDF0001, 0x7BDF0004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF0005, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BDF0001, 0x7BDF0006, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BDF0001, 0x7BDF0007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF0008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF0009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BDF0001, 0x7BDF000A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF000B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7BDF0001, 0x7BDF000C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7BDF0001, 0x7BDF000D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF000E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BDF0001, 0x7BDF000F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF0010, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BDF0001, 0x7BDF0011, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BDF0001, 0x7BDF0012, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BDF0001, 0x7BDF0013, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF0002, 38178, 0xBDF0003A, 175.6369, 47.63943, 15.46373, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Blighted Pyreal Golem */
@@ -101,7 +101,7 @@ VALUES (0x7BDF0014,  1542, 0xBDF00016, 66.30677, 128.4718, -0.45, 0.9990482, 0, 
 /* @teleloc 0xBDF00016 [66.306770 128.471800 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF0014, 0x7BDF0015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BDF0014, 0x7BDF0015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF0015,  4179, 0xBDF00016, 66.30677, 128.4718, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

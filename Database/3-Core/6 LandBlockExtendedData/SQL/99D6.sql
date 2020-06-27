@@ -5,13 +5,13 @@ VALUES (0x799D6001,  1154, 0x99D60024, 108.4949, 79.33648, 98.78476, -0.4862646,
 /* @teleloc 0x99D60024 [108.494900 79.336480 98.784760] -0.486265 0.000000 0.000000 -0.873812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799D6001, 0x799D6002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x799D6001, 0x799D6003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x799D6001, 0x799D6004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x799D6001, 0x799D6005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x799D6001, 0x799D6006, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x799D6001, 0x799D6007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x799D6001, 0x799D6008, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x799D6001, 0x799D6002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x799D6001, 0x799D6003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x799D6001, 0x799D6004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x799D6001, 0x799D6005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x799D6001, 0x799D6006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x799D6001, 0x799D6007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x799D6001, 0x799D6008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799D6002,  7123, 0x99D60024, 108.4949, 79.33648, 98.78476, -0.4862646, 0, 0, -0.8738116,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -46,8 +46,8 @@ VALUES (0x799D6009,  1542, 0x99D60038, 158.4823, 184.492, 89.37433, 1, 0, 0, 0, 
 /* @teleloc 0x99D60038 [158.482300 184.492000 89.374330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799D6009, 0x799D600A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x799D6009, 0x799D600B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x799D6009, 0x799D600A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x799D6009, 0x799D600B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799D600A, 22567, 0x99D60038, 158.4823, 184.492, 89.37433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

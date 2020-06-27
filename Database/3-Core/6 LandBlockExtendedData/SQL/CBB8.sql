@@ -5,18 +5,18 @@ VALUES (0x7CBB8001,  1154, 0xCBB8003F, 187.1995, 144.2302, 113.5679, 0.3413902, 
 /* @teleloc 0xCBB8003F [187.199500 144.230200 113.567900] 0.341390 0.000000 0.000000 -0.939922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB8001, 0x7CBB8002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CBB8001, 0x7CBB8003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CBB8001, 0x7CBB8004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CBB8001, 0x7CBB8005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CBB8001, 0x7CBB8006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB8001, 0x7CBB8007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CBB8001, 0x7CBB8008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CBB8001, 0x7CBB8009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CBB8001, 0x7CBB800A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CBB8001, 0x7CBB800B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7CBB8001, 0x7CBB800C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7CBB8001, 0x7CBB800D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */;
+VALUES (0x7CBB8001, 0x7CBB8002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CBB8001, 0x7CBB8003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CBB8001, 0x7CBB8004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CBB8001, 0x7CBB8005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CBB8001, 0x7CBB8006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB8001, 0x7CBB8007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7CBB8001, 0x7CBB8008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CBB8001, 0x7CBB8009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CBB8001, 0x7CBB800A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CBB8001, 0x7CBB800B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7CBB8001, 0x7CBB800C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7CBB8001, 0x7CBB800D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB8002, 11478, 0xCBB8003F, 187.1995, 144.2302, 113.5679, 0.3413902, 0, 0, -0.9399217,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

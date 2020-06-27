@@ -5,11 +5,11 @@ VALUES (0x7CD57001,  1154, 0xCD57002F, 124.4283, 154.3182, 27.52217, 0.8103788, 
 /* @teleloc 0xCD57002F [124.428300 154.318200 27.522170] 0.810379 0.000000 0.000000 -0.585906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD57001, 0x7CD57002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD57001, 0x7CD57003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD57001, 0x7CD57004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CD57001, 0x7CD57005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD57001, 0x7CD57006, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7CD57001, 0x7CD57002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD57001, 0x7CD57003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD57001, 0x7CD57004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CD57001, 0x7CD57005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD57001, 0x7CD57006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD57002,   217, 0xCD57002F, 124.4283, 154.3182, 27.52217, 0.8103788, 0, 0, -0.5859063,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

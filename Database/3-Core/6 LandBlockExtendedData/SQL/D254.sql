@@ -5,22 +5,22 @@ VALUES (0x7D254001,  1154, 0xD2540011, 64.06063, 15.87758, 159.6686, 1, 0, 0, 0,
 /* @teleloc 0xD2540011 [64.060630 15.877580 159.668600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D254001, 0x7D254002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D254001, 0x7D254003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D254001, 0x7D254004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D254001, 0x7D254005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7D254001, 0x7D254006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D254001, 0x7D254007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D254001, 0x7D254008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D254001, 0x7D254009, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D254001, 0x7D25400A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7D254001, 0x7D25400B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D254001, 0x7D25400C, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D254001, 0x7D25400D, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7D254001, 0x7D25400E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D254001, 0x7D25400F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D254001, 0x7D254010, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D254001, 0x7D254011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7D254001, 0x7D254002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7D254001, 0x7D254003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D254001, 0x7D254004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D254001, 0x7D254005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7D254001, 0x7D254006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D254001, 0x7D254007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D254001, 0x7D254008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D254001, 0x7D254009, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D254001, 0x7D25400A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7D254001, 0x7D25400B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D254001, 0x7D25400C, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D254001, 0x7D25400D, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7D254001, 0x7D25400E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D254001, 0x7D25400F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D254001, 0x7D254010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D254001, 0x7D254011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D254002,     7, 0xD2540011, 64.06063, 15.87758, 159.6686, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -91,7 +91,7 @@ VALUES (0x7D254012,  1542, 0xD2540003, 17.10172, 58.84904, 213.6961, 1, 0, 0, 0,
 /* @teleloc 0xD2540003 [17.101720 58.849040 213.696100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D254012, 0x7D254013, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7D254012, 0x7D254013, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D254013,   265, 0xD2540003, 17.10172, 58.84904, 213.6961, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

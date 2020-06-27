@@ -5,23 +5,23 @@ VALUES (0x7E92F001,  1154, 0xE92F003A, 168.544, 46.04358, 65.68493, 0.1736482, 0
 /* @teleloc 0xE92F003A [168.544000 46.043580 65.684930] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E92F001, 0x7E92F002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E92F001, 0x7E92F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E92F001, 0x7E92F004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7E92F001, 0x7E92F005, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E92F001, 0x7E92F006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7E92F001, 0x7E92F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E92F001, 0x7E92F008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7E92F001, 0x7E92F009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E92F001, 0x7E92F00A, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7E92F001, 0x7E92F00B, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E92F001, 0x7E92F00C, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E92F001, 0x7E92F00D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7E92F001, 0x7E92F00E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E92F001, 0x7E92F00F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E92F001, 0x7E92F010, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7E92F001, 0x7E92F011, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7E92F001, 0x7E92F012, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7E92F001, 0x7E92F002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E92F001, 0x7E92F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E92F001, 0x7E92F004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7E92F001, 0x7E92F005, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E92F001, 0x7E92F006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7E92F001, 0x7E92F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E92F001, 0x7E92F008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7E92F001, 0x7E92F009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E92F001, 0x7E92F00A, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7E92F001, 0x7E92F00B, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E92F001, 0x7E92F00C, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E92F001, 0x7E92F00D, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7E92F001, 0x7E92F00E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E92F001, 0x7E92F00F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E92F001, 0x7E92F010, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7E92F001, 0x7E92F011, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7E92F001, 0x7E92F012, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92F002,   195, 0xE92F003A, 168.544, 46.04358, 65.68493, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */

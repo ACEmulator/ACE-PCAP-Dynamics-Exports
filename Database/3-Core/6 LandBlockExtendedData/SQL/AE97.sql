@@ -5,9 +5,9 @@ VALUES (0x7AE97001,  1154, 0xAE97000B, 38.44572, 53.08473, 43.20631, 0.9816375, 
 /* @teleloc 0xAE97000B [38.445720 53.084730 43.206310] 0.981638 0.000000 0.000000 -0.190756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE97001, 0x7AE97002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE97001, 0x7AE97003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AE97001, 0x7AE97004, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7AE97001, 0x7AE97002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE97001, 0x7AE97003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AE97001, 0x7AE97004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE97002, 22208, 0xAE97000B, 38.44572, 53.08473, 43.20631, 0.9816375, 0, 0, -0.1907561,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

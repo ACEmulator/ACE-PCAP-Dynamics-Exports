@@ -5,12 +5,12 @@ VALUES (0x7A05C001,  1154, 0xA05C0008, 21.48834, 182.7412, 61.39958, 0.9993272, 
 /* @teleloc 0xA05C0008 [21.488340 182.741200 61.399580] 0.999327 0.000000 0.000000 -0.036677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A05C001, 0x7A05C002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A05C001, 0x7A05C003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A05C001, 0x7A05C004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A05C001, 0x7A05C005, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A05C001, 0x7A05C006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A05C001, 0x7A05C007, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7A05C001, 0x7A05C002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A05C001, 0x7A05C003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A05C001, 0x7A05C004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A05C001, 0x7A05C005, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A05C001, 0x7A05C006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A05C001, 0x7A05C007, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05C002,  5497, 0xA05C0008, 21.48834, 182.7412, 61.39958, 0.9993272, 0, 0, -0.03667717,  True, '2019-02-10 00:00:00'); /* Virindi Director */

@@ -5,10 +5,10 @@ VALUES (0x764D2001,  1154, 0x64D2003D, 186.3419, 112.4224, 59.00454, 0.7071068, 
 /* @teleloc 0x64D2003D [186.341900 112.422400 59.004540] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D2001, 0x764D2002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764D2001, 0x764D2003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764D2001, 0x764D2004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x764D2001, 0x764D2005, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x764D2001, 0x764D2002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764D2001, 0x764D2003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764D2001, 0x764D2004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x764D2001, 0x764D2005, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D2002, 24277, 0x64D2003D, 186.3419, 112.4224, 59.00454, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

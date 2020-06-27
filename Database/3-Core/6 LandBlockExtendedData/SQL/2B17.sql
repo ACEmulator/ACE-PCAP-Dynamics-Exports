@@ -5,14 +5,14 @@ VALUES (0x72B17001,  1154, 0x2B170002, 22.40199, 24.22312, 12.36882, 0.9238795, 
 /* @teleloc 0x2B170002 [22.401990 24.223120 12.368820] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B17001, 0x72B17002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B17001, 0x72B17003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72B17001, 0x72B17004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B17001, 0x72B17005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B17001, 0x72B17006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B17001, 0x72B17007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B17001, 0x72B17008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72B17001, 0x72B17009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72B17001, 0x72B17002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B17001, 0x72B17003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72B17001, 0x72B17004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B17001, 0x72B17005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B17001, 0x72B17006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B17001, 0x72B17007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B17001, 0x72B17008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72B17001, 0x72B17009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B17002,  7119, 0x2B170002, 22.40199, 24.22312, 12.36882, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

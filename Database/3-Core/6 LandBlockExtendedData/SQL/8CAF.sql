@@ -5,19 +5,19 @@ VALUES (0x78CAF001,  1154, 0x8CAF0037, 161.6699, 161.0784, 49.11118, 0.7071068, 
 /* @teleloc 0x8CAF0037 [161.669900 161.078400 49.111180] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CAF001, 0x78CAF002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CAF001, 0x78CAF003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CAF001, 0x78CAF004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CAF001, 0x78CAF005, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78CAF001, 0x78CAF006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CAF001, 0x78CAF007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78CAF001, 0x78CAF008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CAF001, 0x78CAF009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78CAF001, 0x78CAF00A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CAF001, 0x78CAF00B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CAF001, 0x78CAF00C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CAF001, 0x78CAF00D, '2019-02-10 00:00:00') /* Banished Banderling */
-     , (0x78CAF001, 0x78CAF00E, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78CAF001, 0x78CAF002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CAF001, 0x78CAF003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CAF001, 0x78CAF004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CAF001, 0x78CAF005, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78CAF001, 0x78CAF006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CAF001, 0x78CAF007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78CAF001, 0x78CAF008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CAF001, 0x78CAF009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78CAF001, 0x78CAF00A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CAF001, 0x78CAF00B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CAF001, 0x78CAF00C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CAF001, 0x78CAF00D, '2019-02-10 00:00:00') /* Banished Banderling (30898) */
+     , (0x78CAF001, 0x78CAF00E, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CAF002,  7345, 0x8CAF0037, 161.6699, 161.0784, 49.11118, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -76,7 +76,7 @@ VALUES (0x78CAF00F,  1542, 0x8CAF0037, 160.5468, 157.6741, 50.08049, -4.371139E-
 /* @teleloc 0x8CAF0037 [160.546800 157.674100 50.080490] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CAF00F, 0x78CAF010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78CAF00F, 0x78CAF010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CAF010,  4380, 0x8CAF0037, 160.5468, 157.6741, 50.08049, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

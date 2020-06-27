@@ -5,12 +5,12 @@ VALUES (0x7B77F001,  1154, 0xB77F0018, 67.95226, 168.0215, 26.002, -0.4328063, 0
 /* @teleloc 0xB77F0018 [67.952260 168.021500 26.002000] -0.432806 0.000000 0.000000 -0.901487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B77F001, 0x7B77F002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B77F001, 0x7B77F003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7B77F001, 0x7B77F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B77F001, 0x7B77F005, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B77F001, 0x7B77F006, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B77F001, 0x7B77F007, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7B77F001, 0x7B77F002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B77F001, 0x7B77F003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B77F001, 0x7B77F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B77F001, 0x7B77F005, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B77F001, 0x7B77F006, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B77F001, 0x7B77F007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B77F002,  7990, 0xB77F0018, 67.95226, 168.0215, 26.002, -0.4328063, 0, 0, -0.9014869,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -41,8 +41,8 @@ VALUES (0x7B77F008,  1542, 0xB77F0018, 64.73494, 178.3789, 26, 1, 0, 0, 0, False
 /* @teleloc 0xB77F0018 [64.734940 178.378900 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B77F008, 0x7B77F009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B77F008, 0x7B77F00A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B77F008, 0x7B77F009, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7B77F008, 0x7B77F00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B77F009, 22572, 0xB77F0018, 64.73494, 178.3789, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

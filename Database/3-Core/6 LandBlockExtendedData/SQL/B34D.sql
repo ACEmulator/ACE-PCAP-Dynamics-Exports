@@ -5,9 +5,9 @@ VALUES (0x7B34D001,  1154, 0xB34D002F, 137.204, 152.1242, 18.0025, -0.1630709, 0
 /* @teleloc 0xB34D002F [137.204000 152.124200 18.002500] -0.163071 0.000000 0.000000 -0.986614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B34D001, 0x7B34D002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B34D001, 0x7B34D003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B34D001, 0x7B34D004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7B34D001, 0x7B34D002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B34D001, 0x7B34D003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B34D001, 0x7B34D004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B34D002,  1756, 0xB34D002F, 137.204, 152.1242, 18.0025, -0.1630709, 0, 0, -0.9866143,  True, '2019-02-10 00:00:00'); /* Shadow Child */

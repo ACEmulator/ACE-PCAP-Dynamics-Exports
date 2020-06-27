@@ -5,9 +5,9 @@ VALUES (0x790B6001,  1154, 0x90B60007, 10.8401, 167.575, 45.29654, 0.01720685, 0
 /* @teleloc 0x90B60007 [10.840100 167.575000 45.296540] 0.017207 0.000000 0.000000 -0.999852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790B6001, 0x790B6002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x790B6001, 0x790B6003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x790B6001, 0x790B6004, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x790B6001, 0x790B6002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x790B6001, 0x790B6003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x790B6001, 0x790B6004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790B6002, 38177, 0x90B60007, 10.8401, 167.575, 45.29654, 0.01720685, 0, 0, -0.9998519,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

@@ -5,14 +5,14 @@ VALUES (0x722BB001,  1154, 0x22BB001E, 91.72794, 136.5674, 121.8231, 1, 0, 0, 0,
 /* @teleloc 0x22BB001E [91.727940 136.567400 121.823100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BB001, 0x722BB002, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722BB001, 0x722BB003, '2019-02-10 00:00:00') /* Static */
-     , (0x722BB001, 0x722BB004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x722BB001, 0x722BB005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BB001, 0x722BB006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BB001, 0x722BB007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BB001, 0x722BB008, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x722BB001, 0x722BB009, '2019-02-10 00:00:00') /* Aun Itealuan */;
+VALUES (0x722BB001, 0x722BB002, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722BB001, 0x722BB003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x722BB001, 0x722BB004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x722BB001, 0x722BB005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BB001, 0x722BB006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BB001, 0x722BB007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BB001, 0x722BB008, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x722BB001, 0x722BB009, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BB002, 11486, 0x22BB001E, 91.72794, 136.5674, 121.8231, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
@@ -51,7 +51,7 @@ VALUES (0x722BB00A,  1542, 0x22BB0021, 116.2155, 4.370072, 104.3012, 1, 0, 0, 0,
 /* @teleloc 0x22BB0021 [116.215500 4.370072 104.301200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BB00A, 0x722BB00B, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x722BB00A, 0x722BB00B, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BB00B, 11227, 0x22BB0021, 116.2155, 4.370072, 104.3012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */

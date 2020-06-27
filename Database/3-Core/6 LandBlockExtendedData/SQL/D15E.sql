@@ -5,27 +5,27 @@ VALUES (0x7D15E001,  1154, 0xD15E0011, 66.70516, 18.22945, 15.57076, -0.94393, 0
 /* @teleloc 0xD15E0011 [66.705160 18.229450 15.570760] -0.943930 0.000000 0.000000 -0.330146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D15E001, 0x7D15E002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D15E001, 0x7D15E003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D15E001, 0x7D15E004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D15E001, 0x7D15E005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D15E001, 0x7D15E006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D15E001, 0x7D15E00A, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D15E001, 0x7D15E00B, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7D15E001, 0x7D15E00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E00D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E00E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D15E001, 0x7D15E00F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D15E001, 0x7D15E010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7D15E001, 0x7D15E011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D15E001, 0x7D15E012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D15E001, 0x7D15E013, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D15E001, 0x7D15E014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D15E001, 0x7D15E015, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D15E001, 0x7D15E016, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7D15E001, 0x7D15E002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D15E001, 0x7D15E003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D15E001, 0x7D15E004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D15E001, 0x7D15E005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D15E001, 0x7D15E006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D15E001, 0x7D15E00A, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D15E001, 0x7D15E00B, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7D15E001, 0x7D15E00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E00D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E00E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D15E001, 0x7D15E00F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7D15E001, 0x7D15E010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7D15E001, 0x7D15E011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D15E001, 0x7D15E012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D15E001, 0x7D15E013, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7D15E001, 0x7D15E014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D15E001, 0x7D15E015, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7D15E001, 0x7D15E016, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D15E002,  1622, 0xD15E0011, 66.70516, 18.22945, 15.57076, -0.94393, 0, 0, -0.3301457,  True, '2019-02-10 00:00:00'); /* Mire Phyntos Wasp */
@@ -116,7 +116,7 @@ VALUES (0x7D15E017,  1542, 0xD15E0013, 66.23002, 66.00116, 18.4999, 0.9990482, 0
 /* @teleloc 0xD15E0013 [66.230020 66.001160 18.499900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D15E017, 0x7D15E018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D15E017, 0x7D15E018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D15E018,  4179, 0xD15E0013, 66.23002, 66.00116, 18.4999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,18 +5,18 @@ VALUES (0x72F74001,  1154, 0x2F74001F, 85.13992, 159.4646, 65.43257, -0.6597013,
 /* @teleloc 0x2F74001F [85.139920 159.464600 65.432570] -0.659701 0.000000 0.000000 -0.751528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F74001, 0x72F74002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F74001, 0x72F74003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F74001, 0x72F74004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72F74001, 0x72F74005, '2019-02-10 00:00:00') /* Frost */
-     , (0x72F74001, 0x72F74006, '2019-02-10 00:00:00') /* Frost */
-     , (0x72F74001, 0x72F74007, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72F74001, 0x72F74008, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72F74001, 0x72F74009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F74001, 0x72F7400A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F74001, 0x72F7400B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72F74001, 0x72F7400C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F74001, 0x72F7400D, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72F74001, 0x72F74002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F74001, 0x72F74003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F74001, 0x72F74004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72F74001, 0x72F74005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72F74001, 0x72F74006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72F74001, 0x72F74007, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72F74001, 0x72F74008, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72F74001, 0x72F74009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F74001, 0x72F7400A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F74001, 0x72F7400B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72F74001, 0x72F7400C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F74001, 0x72F7400D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F74002,  8138, 0x2F74001F, 85.13992, 159.4646, 65.43257, -0.6597013, 0, 0, -0.7515279,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -71,7 +71,7 @@ VALUES (0x72F7400E,  1542, 0x2F74001F, 73.60389, 148.8564, 62.80568, 1, 0, 0, 0,
 /* @teleloc 0x2F74001F [73.603890 148.856400 62.805680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F7400E, 0x72F7400F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F7400E, 0x72F7400F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F7400F, 22567, 0x2F74001F, 73.60389, 148.8564, 62.80568, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

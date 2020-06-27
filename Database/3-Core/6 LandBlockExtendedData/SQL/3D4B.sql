@@ -5,18 +5,18 @@ VALUES (0x73D4B001,  1154, 0x3D4B000B, 42.57992, 52.48203, 20.006, 1, 0, 0, 0, F
 /* @teleloc 0x3D4B000B [42.579920 52.482030 20.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D4B001, 0x73D4B002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73D4B001, 0x73D4B003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D4B001, 0x73D4B004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D4B001, 0x73D4B005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D4B001, 0x73D4B006, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73D4B001, 0x73D4B007, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73D4B001, 0x73D4B008, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73D4B001, 0x73D4B009, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73D4B001, 0x73D4B00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D4B001, 0x73D4B00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D4B001, 0x73D4B00C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D4B001, 0x73D4B00D, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x73D4B001, 0x73D4B002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73D4B001, 0x73D4B003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D4B001, 0x73D4B004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D4B001, 0x73D4B005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D4B001, 0x73D4B006, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73D4B001, 0x73D4B007, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73D4B001, 0x73D4B008, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73D4B001, 0x73D4B009, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73D4B001, 0x73D4B00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D4B001, 0x73D4B00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D4B001, 0x73D4B00C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D4B001, 0x73D4B00D, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D4B002, 23566, 0x3D4B000B, 42.57992, 52.48203, 20.006, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -71,11 +71,11 @@ VALUES (0x73D4B00E,  1542, 0x3D4B000B, 44.89299, 52.7171, 19.99784, 1, 0, 0, 0, 
 /* @teleloc 0x3D4B000B [44.892990 52.717100 19.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D4B00E, 0x73D4B00F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73D4B00E, 0x73D4B010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73D4B00E, 0x73D4B011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73D4B00E, 0x73D4B012, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x73D4B00E, 0x73D4B013, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x73D4B00E, 0x73D4B00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73D4B00E, 0x73D4B010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73D4B00E, 0x73D4B011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73D4B00E, 0x73D4B012, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x73D4B00E, 0x73D4B013, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D4B00F, 31445, 0x3D4B000B, 44.89299, 52.7171, 19.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

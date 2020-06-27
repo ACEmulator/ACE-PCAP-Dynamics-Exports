@@ -5,11 +5,11 @@ VALUES (0x774D9001,  1154, 0x74D9000B, 45.95569, 71.25215, 254.118, 0.9238795, 0
 /* @teleloc 0x74D9000B [45.955690 71.252150 254.118000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774D9001, 0x774D9002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x774D9001, 0x774D9003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774D9001, 0x774D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x774D9001, 0x774D9005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x774D9001, 0x774D9006, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x774D9001, 0x774D9002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x774D9001, 0x774D9003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774D9001, 0x774D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x774D9001, 0x774D9005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x774D9001, 0x774D9006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774D9002, 36830, 0x74D9000B, 45.95569, 71.25215, 254.118, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -36,7 +36,7 @@ VALUES (0x774D9007,  1542, 0x74D90029, 131.9274, 1.655441, 251.0568, 1, 0, 0, 0,
 /* @teleloc 0x74D90029 [131.927400 1.655441 251.056800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774D9007, 0x774D9008, '2019-02-10 00:00:00') /* Qalaba'r Portal */;
+VALUES (0x774D9007, 0x774D9008, '2019-02-10 00:00:00') /* Qalaba'r Portal (42833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774D9008, 42833, 0x74D90029, 131.9274, 1.655441, 251.0568, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Qalaba'r Portal */

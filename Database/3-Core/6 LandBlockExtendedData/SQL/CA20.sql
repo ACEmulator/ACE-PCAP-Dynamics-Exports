@@ -5,9 +5,9 @@ VALUES (0x7CA20001,  1154, 0xCA200012, 67.3515, 43.90565, 109.4175, 0.8393992, 0
 /* @teleloc 0xCA200012 [67.351500 43.905650 109.417500] 0.839399 0.000000 0.000000 -0.543515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA20001, 0x7CA20002, '2019-02-10 00:00:00') /* Banished Mu-miyah */
-     , (0x7CA20001, 0x7CA20003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CA20001, 0x7CA20004, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7CA20001, 0x7CA20002, '2019-02-10 00:00:00') /* Banished Mu-miyah (30902) */
+     , (0x7CA20001, 0x7CA20003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CA20001, 0x7CA20004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA20002, 30902, 0xCA200012, 67.3515, 43.90565, 109.4175, 0.8393992, 0, 0, -0.5435154,  True, '2019-02-10 00:00:00'); /* Banished Mu-miyah */

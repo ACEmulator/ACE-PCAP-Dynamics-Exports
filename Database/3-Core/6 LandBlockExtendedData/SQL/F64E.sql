@@ -5,10 +5,10 @@ VALUES (0x7F64E001,  1154, 0xF64E0040, 183.9469, 173.7196, -0.4425, 0.9659258, 0
 /* @teleloc 0xF64E0040 [183.946900 173.719600 -0.442500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F64E001, 0x7F64E002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F64E001, 0x7F64E003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F64E001, 0x7F64E004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64E001, 0x7F64E005, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7F64E001, 0x7F64E002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F64E001, 0x7F64E003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F64E001, 0x7F64E004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64E001, 0x7F64E005, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F64E002,  1630, 0xF64E0040, 183.9469, 173.7196, -0.4425, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */

@@ -5,8 +5,8 @@ VALUES (0x7CA90001,  1154, 0xCA90003A, 189.1318, 44.73621, 18.51815, 0.2402423, 
 /* @teleloc 0xCA90003A [189.131800 44.736210 18.518150] 0.240242 0.000000 0.000000 -0.970713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA90001, 0x7CA90002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CA90001, 0x7CA90003, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7CA90001, 0x7CA90002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CA90001, 0x7CA90003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA90002,   938, 0xCA90003A, 189.1318, 44.73621, 18.51815, 0.2402423, 0, 0, -0.970713,  True, '2019-02-10 00:00:00'); /* Banderling Raider */

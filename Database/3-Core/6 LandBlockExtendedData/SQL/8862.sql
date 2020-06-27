@@ -5,10 +5,10 @@ VALUES (0x78862001,  1154, 0x88620017, 69.30274, 145.6373, 14.3176, 0.289809, 0,
 /* @teleloc 0x88620017 [69.302740 145.637300 14.317600] 0.289809 0.000000 0.000000 -0.957085 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78862001, 0x78862002, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78862001, 0x78862003, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x78862001, 0x78862004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78862001, 0x78862005, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x78862001, 0x78862002, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78862001, 0x78862003, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x78862001, 0x78862004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78862001, 0x78862005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78862002,  1611, 0x88620017, 69.30274, 145.6373, 14.3176, 0.289809, 0, 0, -0.9570845,  True, '2019-02-10 00:00:00'); /* Rust Gromnie */

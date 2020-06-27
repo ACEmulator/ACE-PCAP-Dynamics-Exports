@@ -5,10 +5,10 @@ VALUES (0x722C2001,  1154, 0x22C2001E, 87.35989, 127.7588, 20.65976, -0.6668765,
 /* @teleloc 0x22C2001E [87.359890 127.758800 20.659760] -0.666877 0.000000 0.000000 -0.745168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C2001, 0x722C2002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x722C2001, 0x722C2003, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x722C2001, 0x722C2004, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x722C2001, 0x722C2005, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x722C2001, 0x722C2002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x722C2001, 0x722C2003, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x722C2001, 0x722C2004, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x722C2001, 0x722C2005, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C2002, 11540, 0x22C2001E, 87.35989, 127.7588, 20.65976, -0.6668765, 0, 0, -0.7451683,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

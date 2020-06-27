@@ -5,38 +5,38 @@ VALUES (0x764E6001,  1154, 0x64E6002E, 126.4386, 138.7149, 22.5891, -0.6877488, 
 /* @teleloc 0x64E6002E [126.438600 138.714900 22.589100] -0.687749 0.000000 0.000000 -0.725949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E6001, 0x764E6002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x764E6001, 0x764E6003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764E6001, 0x764E6004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764E6001, 0x764E6005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x764E6001, 0x764E6006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E6001, 0x764E6007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E6001, 0x764E6008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764E6001, 0x764E6009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764E6001, 0x764E600A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x764E6001, 0x764E600B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E6001, 0x764E600C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x764E6001, 0x764E600D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764E6001, 0x764E600E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x764E6001, 0x764E600F, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x764E6001, 0x764E6010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E6001, 0x764E6011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E6001, 0x764E6012, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x764E6001, 0x764E6013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x764E6001, 0x764E6014, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x764E6001, 0x764E6015, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x764E6001, 0x764E6016, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764E6001, 0x764E6017, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x764E6001, 0x764E6018, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x764E6001, 0x764E6019, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x764E6001, 0x764E601A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E6001, 0x764E601B, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x764E6001, 0x764E601C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x764E6001, 0x764E601D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x764E6001, 0x764E601E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E6001, 0x764E601F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x764E6001, 0x764E6020, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764E6001, 0x764E6021, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x764E6001, 0x764E6002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x764E6001, 0x764E6003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764E6001, 0x764E6004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764E6001, 0x764E6005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x764E6001, 0x764E6006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E6001, 0x764E6007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E6001, 0x764E6008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764E6001, 0x764E6009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764E6001, 0x764E600A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x764E6001, 0x764E600B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E6001, 0x764E600C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x764E6001, 0x764E600D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764E6001, 0x764E600E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x764E6001, 0x764E600F, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x764E6001, 0x764E6010, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E6001, 0x764E6011, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E6001, 0x764E6012, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x764E6001, 0x764E6013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x764E6001, 0x764E6014, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x764E6001, 0x764E6015, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x764E6001, 0x764E6016, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764E6001, 0x764E6017, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x764E6001, 0x764E6018, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x764E6001, 0x764E6019, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x764E6001, 0x764E601A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E6001, 0x764E601B, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x764E6001, 0x764E601C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x764E6001, 0x764E601D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x764E6001, 0x764E601E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E6001, 0x764E601F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x764E6001, 0x764E6020, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764E6001, 0x764E6021, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E6002, 23617, 0x64E6002E, 126.4386, 138.7149, 22.5891, -0.6877488, 0, 0, -0.7259488,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -171,10 +171,10 @@ VALUES (0x764E6022,  1542, 0x64E60035, 147.3996, 105.0447, 17.70755, -4.371139E-
 /* @teleloc 0x64E60035 [147.399600 105.044700 17.707550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E6022, 0x764E6023, '2019-02-10 00:00:00') /* Bones */
-     , (0x764E6022, 0x764E6024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x764E6022, 0x764E6025, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x764E6022, 0x764E6026, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x764E6022, 0x764E6023, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x764E6022, 0x764E6024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x764E6022, 0x764E6025, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x764E6022, 0x764E6026, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E6023,  4380, 0x64E60035, 147.3996, 105.0447, 17.70755, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

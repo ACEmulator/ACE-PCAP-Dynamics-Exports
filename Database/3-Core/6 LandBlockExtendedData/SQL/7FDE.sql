@@ -5,11 +5,11 @@ VALUES (0x77FDE001,  1154, 0x7FDE0033, 152.3773, 62.68371, 132.6071, -0.7235811,
 /* @teleloc 0x7FDE0033 [152.377300 62.683710 132.607100] -0.723581 0.000000 0.000000 -0.690239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDE001, 0x77FDE002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77FDE001, 0x77FDE003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77FDE001, 0x77FDE004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77FDE001, 0x77FDE005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77FDE001, 0x77FDE006, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x77FDE001, 0x77FDE002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77FDE001, 0x77FDE003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77FDE001, 0x77FDE004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77FDE001, 0x77FDE005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77FDE001, 0x77FDE006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDE002, 24279, 0x7FDE0033, 152.3773, 62.68371, 132.6071, -0.7235811, 0, 0, -0.6902393,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */

@@ -9,16 +9,16 @@ VALUES (0x78E5C005,  1154, 0x8E5C0100, 95.6234, 130.756, 9.658325, -0.864555, 0,
 /* @teleloc 0x8E5C0100 [95.623400 130.756000 9.658325] -0.864555 0.000000 0.000000 -0.502538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E5C005, 0x78E5C006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78E5C005, 0x78E5C007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x78E5C005, 0x78E5C008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78E5C005, 0x78E5C009, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x78E5C005, 0x78E5C00A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78E5C005, 0x78E5C00B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78E5C005, 0x78E5C00C, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78E5C005, 0x78E5C00D, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78E5C005, 0x78E5C00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x78E5C005, 0x78E5C00F, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x78E5C005, 0x78E5C006, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78E5C005, 0x78E5C007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x78E5C005, 0x78E5C008, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78E5C005, 0x78E5C009, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x78E5C005, 0x78E5C00A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78E5C005, 0x78E5C00B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78E5C005, 0x78E5C00C, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78E5C005, 0x78E5C00D, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78E5C005, 0x78E5C00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x78E5C005, 0x78E5C00F, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E5C006,     7, 0x8E5C0100, 95.6234, 130.756, 9.658325, -0.864555, 0, 0, -0.502538,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -65,7 +65,7 @@ VALUES (0x78E5C010,  1542, 0x8E5C0100, 88.106, 132.748, 9.713, -0.654858, 0, 0, 
 /* @teleloc 0x8E5C0100 [88.106000 132.748000 9.713000] -0.654858 0.000000 0.000000 0.755752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E5C010, 0x78E5C011, '2019-02-10 00:00:00') /* Drudge Charm */;
+VALUES (0x78E5C010, 0x78E5C011, '2019-02-10 00:00:00') /* Drudge Charm (3669) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E5C011,  3669, 0x8E5C0100, 88.106, 132.748, 9.713, -0.654858, 0, 0, 0.755752,  True, '2019-02-10 00:00:00'); /* Drudge Charm */

@@ -5,20 +5,20 @@ VALUES (0x77591001,  1154, 0x7591000E, 43.01929, 128.9975, 67.91465, -0.3835137,
 /* @teleloc 0x7591000E [43.019290 128.997500 67.914650] -0.383514 0.000000 0.000000 -0.923535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77591001, 0x77591002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77591001, 0x77591003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77591001, 0x77591004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77591001, 0x77591005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77591001, 0x77591006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x77591001, 0x77591007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77591001, 0x77591008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77591001, 0x77591009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77591001, 0x7759100A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77591001, 0x7759100B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77591001, 0x7759100C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77591001, 0x7759100D, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77591001, 0x7759100E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x77591001, 0x7759100F, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x77591001, 0x77591002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77591001, 0x77591003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77591001, 0x77591004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77591001, 0x77591005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77591001, 0x77591006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x77591001, 0x77591007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77591001, 0x77591008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77591001, 0x77591009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77591001, 0x7759100A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77591001, 0x7759100B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77591001, 0x7759100C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77591001, 0x7759100D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77591001, 0x7759100E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x77591001, 0x7759100F, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77591002,     3, 0x7591000E, 43.01929, 128.9975, 67.91465, -0.3835137, 0, 0, -0.9235352,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -81,8 +81,8 @@ VALUES (0x77591010,  1542, 0x7591002C, 128.9354, 86.38981, 55.25538, 0.5833593, 
 /* @teleloc 0x7591002C [128.935400 86.389810 55.255380] 0.583359 0.000000 0.000000 -0.812214 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77591010, 0x77591011, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x77591010, 0x77591012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77591010, 0x77591011, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x77591010, 0x77591012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77591011, 34104, 0x7591002C, 128.9354, 86.38981, 55.25538, 0.5833593, 0, 0, -0.8122142,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

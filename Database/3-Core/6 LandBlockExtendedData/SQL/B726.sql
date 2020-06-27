@@ -5,9 +5,9 @@ VALUES (0x7B726001,  1154, 0xB7260038, 147.5854, 180.7813, 239.2746, -0.3899416,
 /* @teleloc 0xB7260038 [147.585400 180.781300 239.274600] -0.389942 0.000000 0.000000 -0.920840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B726001, 0x7B726002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B726001, 0x7B726003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7B726001, 0x7B726004, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7B726001, 0x7B726002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B726001, 0x7B726003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7B726001, 0x7B726004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B726002, 38181, 0xB7260038, 147.5854, 180.7813, 239.2746, -0.3899416, 0, 0, -0.9208396,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -26,7 +26,7 @@ VALUES (0x7B726005,  1542, 0xB726003D, 188.8566, 118.4538, 238.625, 1, 0, 0, 0, 
 /* @teleloc 0xB726003D [188.856600 118.453800 238.625000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B726005, 0x7B726006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B726005, 0x7B726006, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B726006,  4379, 0xB726003D, 188.8566, 118.4538, 238.625, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,27 +5,27 @@ VALUES (0x7CD99001,  1154, 0xCD99001A, 82.83916, 26.60997, 10.88424, 0.985123, 0
 /* @teleloc 0xCD99001A [82.839160 26.609970 10.884240] 0.985123 0.000000 0.000000 -0.171851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD99001, 0x7CD99002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD99001, 0x7CD99003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD99001, 0x7CD99004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD99001, 0x7CD99005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CD99001, 0x7CD99006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD99001, 0x7CD99007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD99001, 0x7CD99008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD99001, 0x7CD99009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD99001, 0x7CD9900A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD99001, 0x7CD9900B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD99001, 0x7CD9900C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CD99001, 0x7CD9900D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CD99001, 0x7CD9900E, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD99001, 0x7CD9900F, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CD99001, 0x7CD99010, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD99001, 0x7CD99011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD99001, 0x7CD99012, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD99001, 0x7CD99013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD99001, 0x7CD99014, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD99001, 0x7CD99015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD99001, 0x7CD99016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CD99001, 0x7CD99002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD99001, 0x7CD99003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD99001, 0x7CD99004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD99001, 0x7CD99005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CD99001, 0x7CD99006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD99001, 0x7CD99007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD99001, 0x7CD99008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD99001, 0x7CD99009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD99001, 0x7CD9900A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD99001, 0x7CD9900B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD99001, 0x7CD9900C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CD99001, 0x7CD9900D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CD99001, 0x7CD9900E, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD99001, 0x7CD9900F, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CD99001, 0x7CD99010, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD99001, 0x7CD99011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD99001, 0x7CD99012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD99001, 0x7CD99013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD99001, 0x7CD99014, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD99001, 0x7CD99015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD99001, 0x7CD99016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD99002,  1758, 0xCD99001A, 82.83916, 26.60997, 10.88424, 0.985123, 0, 0, -0.1718507,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -116,7 +116,7 @@ VALUES (0x7CD99017,  1542, 0xCD99002D, 130.2504, 113.8494, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xCD99002D [130.250400 113.849400 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD99017, 0x7CD99018, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CD99017, 0x7CD99018, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD99018,  8232, 0xCD99002D, 130.2504, 113.8494, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

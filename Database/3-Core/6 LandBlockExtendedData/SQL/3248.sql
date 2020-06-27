@@ -5,11 +5,11 @@ VALUES (0x73248001,  1154, 0x32480031, 164.4092, 13.59452, 103.7918, 0.7071068, 
 /* @teleloc 0x32480031 [164.409200 13.594520 103.791800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73248001, 0x73248002, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73248001, 0x73248003, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73248001, 0x73248004, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73248001, 0x73248005, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73248001, 0x73248006, '2019-02-10 00:00:00') /* Sata Sclavus Lord */;
+VALUES (0x73248001, 0x73248002, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73248001, 0x73248003, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73248001, 0x73248004, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73248001, 0x73248005, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73248001, 0x73248006, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73248002, 27987, 0x32480031, 164.4092, 13.59452, 103.7918, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Guruk Heavy */

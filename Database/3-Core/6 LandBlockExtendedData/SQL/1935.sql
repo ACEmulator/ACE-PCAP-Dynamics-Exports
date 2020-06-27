@@ -5,11 +5,11 @@ VALUES (0x71935001,  1154, 0x19350040, 177.6865, 174.5956, 54.33514, 0.5612145, 
 /* @teleloc 0x19350040 [177.686500 174.595600 54.335140] 0.561215 0.000000 0.000000 -0.827670 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71935001, 0x71935002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71935001, 0x71935003, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71935001, 0x71935004, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71935001, 0x71935005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71935001, 0x71935006, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x71935001, 0x71935002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71935001, 0x71935003, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71935001, 0x71935004, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71935001, 0x71935005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71935001, 0x71935006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71935002, 36839, 0x19350040, 177.6865, 174.5956, 54.33514, 0.5612145, 0, 0, -0.8276704,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

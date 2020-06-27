@@ -5,18 +5,18 @@ VALUES (0x72B67001,  1154, 0x2B670026, 119.4657, 122.4081, 33.99848, 0.3924403, 
 /* @teleloc 0x2B670026 [119.465700 122.408100 33.998480] 0.392440 0.000000 0.000000 -0.919778 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B67001, 0x72B67002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B67001, 0x72B67003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B67001, 0x72B67004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B67001, 0x72B67005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72B67001, 0x72B67006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72B67001, 0x72B67007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72B67001, 0x72B67008, '2019-02-10 00:00:00') /* Flare */
-     , (0x72B67001, 0x72B67009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72B67001, 0x72B6700A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72B67001, 0x72B6700B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B67001, 0x72B6700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72B67001, 0x72B6700D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x72B67001, 0x72B67002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B67001, 0x72B67003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B67001, 0x72B67004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B67001, 0x72B67005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72B67001, 0x72B67006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72B67001, 0x72B67007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72B67001, 0x72B67008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72B67001, 0x72B67009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72B67001, 0x72B6700A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72B67001, 0x72B6700B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B67001, 0x72B6700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72B67001, 0x72B6700D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B67002,  7119, 0x2B670026, 119.4657, 122.4081, 33.99848, 0.3924403, 0, 0, -0.9197775,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -71,8 +71,8 @@ VALUES (0x72B6700E,  1542, 0x2B670016, 70.54471, 136.6328, 40.54338, 1, 0, 0, 0,
 /* @teleloc 0x2B670016 [70.544710 136.632800 40.543380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B6700E, 0x72B6700F, '2019-02-10 00:00:00') /* Plateau Portal */
-     , (0x72B6700E, 0x72B67010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72B6700E, 0x72B6700F, '2019-02-10 00:00:00') /* Plateau Portal (42812) */
+     , (0x72B6700E, 0x72B67010, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B6700F, 42812, 0x2B670016, 70.54471, 136.6328, 40.54338, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plateau Portal */

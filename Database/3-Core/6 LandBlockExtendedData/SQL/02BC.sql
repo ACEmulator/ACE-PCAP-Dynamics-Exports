@@ -9,33 +9,33 @@ VALUES (0x702BC01C,  1154, 0x02BC011E, 51.5576, -56.5883, 0.006600022, -0.416146
 /* @teleloc 0x02BC011E [51.557600 -56.588300 0.006600] -0.416146 0.000000 0.000000 0.909298 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BC01C, 0x702BC01D, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC01E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC01F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC020, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC021, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC022, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC023, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC024, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC025, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC026, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC027, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC028, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x702BC01C, 0x702BC029, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x702BC01C, 0x702BC02A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC02B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC02C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC02D, '2019-02-10 00:00:00') /* Idol */
-     , (0x702BC01C, 0x702BC02E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC02F, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC030, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC031, '2019-02-10 00:00:00') /* Idol */
-     , (0x702BC01C, 0x702BC032, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x702BC01C, 0x702BC033, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x702BC01C, 0x702BC034, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC035, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x702BC01C, 0x702BC036, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x702BC01C, 0x702BC037, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x702BC01C, 0x702BC01D, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC01E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC01F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC020, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC021, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC022, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC023, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC024, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC025, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC026, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC027, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC028, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x702BC01C, 0x702BC029, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x702BC01C, 0x702BC02A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC02B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC02C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC02D, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x702BC01C, 0x702BC02E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC02F, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC030, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC031, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x702BC01C, 0x702BC032, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01C, 0x702BC033, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x702BC01C, 0x702BC034, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC035, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x702BC01C, 0x702BC036, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01C, 0x702BC037, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BC01D,  8427, 0x02BC011E, 51.5576, -56.5883, 0.006600022, -0.416146, 0, 0, 0.909298,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -150,16 +150,16 @@ VALUES (0x702BC038,  1542, 0x02BC0134, 79.04992, 1.361076, 0, 0.0224082, 0, 0, -
 /* @teleloc 0x02BC0134 [79.049920 1.361076 0.000000] 0.022408 0.000000 0.000000 -0.999749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BC038, 0x702BC039, '2019-02-10 00:00:00') /* Studded Leather Gauntlets */
-     , (0x702BC038, 0x702BC03A, '2019-02-10 00:00:00') /* Leather Sleeves */
-     , (0x702BC038, 0x702BC03B, '2019-02-10 00:00:00') /* Lead Pea */
-     , (0x702BC038, 0x702BC03C, '2019-02-10 00:00:00') /* Platemail Leggings */
-     , (0x702BC038, 0x702BC03D, '2019-02-10 00:00:00') /* Gloves */
-     , (0x702BC038, 0x702BC03E, '2019-02-10 00:00:00') /* Shoes */
-     , (0x702BC038, 0x702BC03F, '2019-02-10 00:00:00') /* Excellent Healing Kit */
-     , (0x702BC038, 0x702BC040, '2019-02-10 00:00:00') /* Studded Leather Bracers */
-     , (0x702BC038, 0x702BC041, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x702BC038, 0x702BC042, '2019-02-10 00:00:00') /* Iron Pea */;
+VALUES (0x702BC038, 0x702BC039, '2019-02-10 00:00:00') /* Studded Leather Gauntlets (59) */
+     , (0x702BC038, 0x702BC03A, '2019-02-10 00:00:00') /* Leather Sleeves (25651) */
+     , (0x702BC038, 0x702BC03B, '2019-02-10 00:00:00') /* Lead Pea (8329) */
+     , (0x702BC038, 0x702BC03C, '2019-02-10 00:00:00') /* Platemail Leggings (82) */
+     , (0x702BC038, 0x702BC03D, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x702BC038, 0x702BC03E, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x702BC038, 0x702BC03F, '2019-02-10 00:00:00') /* Excellent Healing Kit (631) */
+     , (0x702BC038, 0x702BC040, '2019-02-10 00:00:00') /* Studded Leather Bracers (38) */
+     , (0x702BC038, 0x702BC041, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x702BC038, 0x702BC042, '2019-02-10 00:00:00') /* Iron Pea (8328) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BC039,    59, 0x02BC0134, 79.04992, 1.361076, 0, 0.0224082, 0, 0, -0.9997489,  True, '2019-02-10 00:00:00'); /* Studded Leather Gauntlets */

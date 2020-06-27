@@ -5,28 +5,28 @@ VALUES (0x7CDD8001,  1154, 0xCDD80001, 19.70359, 1.588162, 9.867653, -0.9282117,
 /* @teleloc 0xCDD80001 [19.703590 1.588162 9.867653] -0.928212 0.000000 0.000000 -0.372052 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDD8001, 0x7CDD8002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7CDD8001, 0x7CDD8003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7CDD8001, 0x7CDD8004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CDD8001, 0x7CDD8005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CDD8001, 0x7CDD8006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CDD8001, 0x7CDD8007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDD8001, 0x7CDD8008, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CDD8001, 0x7CDD8009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CDD8001, 0x7CDD800A, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7CDD8001, 0x7CDD800B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CDD8001, 0x7CDD800C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7CDD8001, 0x7CDD800D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CDD8001, 0x7CDD800E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7CDD8001, 0x7CDD800F, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7CDD8001, 0x7CDD8010, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CDD8001, 0x7CDD8011, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CDD8001, 0x7CDD8012, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CDD8001, 0x7CDD8013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CDD8001, 0x7CDD8014, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CDD8001, 0x7CDD8015, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7CDD8001, 0x7CDD8016, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CDD8001, 0x7CDD8017, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7CDD8001, 0x7CDD8002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7CDD8001, 0x7CDD8003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7CDD8001, 0x7CDD8004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CDD8001, 0x7CDD8005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CDD8001, 0x7CDD8006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CDD8001, 0x7CDD8007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDD8001, 0x7CDD8008, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CDD8001, 0x7CDD8009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CDD8001, 0x7CDD800A, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7CDD8001, 0x7CDD800B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CDD8001, 0x7CDD800C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7CDD8001, 0x7CDD800D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CDD8001, 0x7CDD800E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7CDD8001, 0x7CDD800F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7CDD8001, 0x7CDD8010, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CDD8001, 0x7CDD8011, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CDD8001, 0x7CDD8012, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CDD8001, 0x7CDD8013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CDD8001, 0x7CDD8014, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CDD8001, 0x7CDD8015, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7CDD8001, 0x7CDD8016, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CDD8001, 0x7CDD8017, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDD8002,   212, 0xCDD80001, 19.70359, 1.588162, 9.867653, -0.9282117, 0, 0, -0.3720523,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -121,8 +121,8 @@ VALUES (0x7CDD8018,  1542, 0xCDD8002E, 129.6031, 125.018, 18.38079, 1, 0, 0, 0, 
 /* @teleloc 0xCDD8002E [129.603100 125.018000 18.380790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDD8018, 0x7CDD8019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CDD8018, 0x7CDD801A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CDD8018, 0x7CDD8019, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7CDD8018, 0x7CDD801A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDD8019, 22576, 0xCDD8002E, 129.6031, 125.018, 18.38079, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

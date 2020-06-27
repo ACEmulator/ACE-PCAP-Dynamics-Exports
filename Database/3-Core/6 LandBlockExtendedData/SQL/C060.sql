@@ -9,16 +9,16 @@ VALUES (0x7C060001,  1154, 0xC0600003, 22.25111, 58.02774, 6.0044, -0.9645521, 0
 /* @teleloc 0xC0600003 [22.251110 58.027740 6.004400] -0.964552 0.000000 0.000000 -0.263892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C060001, 0x7C060002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C060001, 0x7C060003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C060001, 0x7C060004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C060001, 0x7C060005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C060001, 0x7C060006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C060001, 0x7C060007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C060001, 0x7C060008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C060001, 0x7C060009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C060001, 0x7C06000A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C060001, 0x7C06000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7C060001, 0x7C060002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C060001, 0x7C060003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C060001, 0x7C060004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C060001, 0x7C060005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C060001, 0x7C060006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C060001, 0x7C060007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C060001, 0x7C060008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C060001, 0x7C060009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C060001, 0x7C06000A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C060001, 0x7C06000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C060002,  4249, 0xC0600003, 22.25111, 58.02774, 6.0044, -0.9645521, 0, 0, -0.2638924,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -65,7 +65,7 @@ VALUES (0x7C06000C,  1542, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -
 /* @teleloc 0xC0600025 [109.416400 112.103300 6.000000] 0.991548 0.000000 0.000000 -0.129744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06000C, 0x7C06000D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C06000C, 0x7C06000D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06000D,  8037, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -0.1297443,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

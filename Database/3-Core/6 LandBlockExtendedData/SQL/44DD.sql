@@ -5,16 +5,16 @@ VALUES (0x744DD001,  1154, 0x44DD0027, 117.8672, 149.3844, 27.53255, 0.7372774, 
 /* @teleloc 0x44DD0027 [117.867200 149.384400 27.532550] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744DD001, 0x744DD002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744DD001, 0x744DD003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x744DD001, 0x744DD004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x744DD001, 0x744DD005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x744DD001, 0x744DD006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x744DD001, 0x744DD007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x744DD001, 0x744DD008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x744DD001, 0x744DD009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x744DD001, 0x744DD00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x744DD001, 0x744DD00B, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x744DD001, 0x744DD002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744DD001, 0x744DD003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x744DD001, 0x744DD004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x744DD001, 0x744DD005, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x744DD001, 0x744DD006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x744DD001, 0x744DD007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x744DD001, 0x744DD008, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x744DD001, 0x744DD009, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x744DD001, 0x744DD00A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x744DD001, 0x744DD00B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744DD002,  7113, 0x44DD0027, 117.8672, 149.3844, 27.53255, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */

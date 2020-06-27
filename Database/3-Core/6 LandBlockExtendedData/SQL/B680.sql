@@ -5,19 +5,19 @@ VALUES (0x7B680001,  1154, 0xB680001D, 82.39419, 102.9383, 28.27146, -0.9789332,
 /* @teleloc 0xB680001D [82.394190 102.938300 28.271460] -0.978933 0.000000 0.000000 -0.204181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B680001, 0x7B680002, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B680001, 0x7B680003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B680001, 0x7B680004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B680001, 0x7B680005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B680001, 0x7B680006, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B680001, 0x7B680007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B680001, 0x7B680008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B680001, 0x7B680009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B680001, 0x7B68000A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B680001, 0x7B68000B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B680001, 0x7B68000C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B680001, 0x7B68000D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B680001, 0x7B68000E, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B680001, 0x7B680002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B680001, 0x7B680003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B680001, 0x7B680004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B680001, 0x7B680005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B680001, 0x7B680006, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B680001, 0x7B680007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B680001, 0x7B680008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B680001, 0x7B680009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B680001, 0x7B68000A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B680001, 0x7B68000B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B680001, 0x7B68000C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B680001, 0x7B68000D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B680001, 0x7B68000E, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B680002,  4112, 0xB680001D, 82.39419, 102.9383, 28.27146, -0.9789332, 0, 0, -0.2041809,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */

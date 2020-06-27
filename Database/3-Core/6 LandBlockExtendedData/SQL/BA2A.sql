@@ -5,11 +5,11 @@ VALUES (0x7BA2A001,  1154, 0xBA2A0004, 6.089476, 84.29385, 200.0026, 0.7842652, 
 /* @teleloc 0xBA2A0004 [6.089476 84.293850 200.002600] 0.784265 0.000000 0.000000 -0.620426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA2A001, 0x7BA2A002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA2A001, 0x7BA2A003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA2A001, 0x7BA2A004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BA2A001, 0x7BA2A005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA2A001, 0x7BA2A006, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BA2A001, 0x7BA2A002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA2A001, 0x7BA2A003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA2A001, 0x7BA2A004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BA2A001, 0x7BA2A005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA2A001, 0x7BA2A006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA2A002, 38181, 0xBA2A0004, 6.089476, 84.29385, 200.0026, 0.7842652, 0, 0, -0.6204258,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

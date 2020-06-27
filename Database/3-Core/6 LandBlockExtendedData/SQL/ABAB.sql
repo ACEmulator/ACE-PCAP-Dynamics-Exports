@@ -5,40 +5,40 @@ VALUES (0x7ABAB001,  1154, 0xABAB0007, 11.156, 161.4757, 81.60652, -0.8381832, 0
 /* @teleloc 0xABAB0007 [11.156000 161.475700 81.606520] -0.838183 0.000000 0.000000 -0.545389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAB001, 0x7ABAB002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ABAB001, 0x7ABAB003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ABAB001, 0x7ABAB004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ABAB001, 0x7ABAB005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAB001, 0x7ABAB006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ABAB001, 0x7ABAB007, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAB001, 0x7ABAB008, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ABAB001, 0x7ABAB009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAB001, 0x7ABAB00A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABAB001, 0x7ABAB00B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABAB001, 0x7ABAB00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ABAB001, 0x7ABAB00D, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAB001, 0x7ABAB00E, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7ABAB001, 0x7ABAB00F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ABAB001, 0x7ABAB010, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAB001, 0x7ABAB011, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ABAB001, 0x7ABAB012, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAB001, 0x7ABAB013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABAB001, 0x7ABAB014, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7ABAB001, 0x7ABAB015, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAB001, 0x7ABAB016, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAB001, 0x7ABAB017, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAB001, 0x7ABAB018, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAB001, 0x7ABAB019, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAB001, 0x7ABAB01A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABAB001, 0x7ABAB01B, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7ABAB001, 0x7ABAB01C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAB001, 0x7ABAB01D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAB001, 0x7ABAB01E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ABAB001, 0x7ABAB01F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAB001, 0x7ABAB020, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ABAB001, 0x7ABAB021, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ABAB001, 0x7ABAB022, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAB001, 0x7ABAB023, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x7ABAB001, 0x7ABAB002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ABAB001, 0x7ABAB003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ABAB001, 0x7ABAB004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ABAB001, 0x7ABAB005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAB001, 0x7ABAB006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ABAB001, 0x7ABAB007, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAB001, 0x7ABAB008, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ABAB001, 0x7ABAB009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAB001, 0x7ABAB00A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ABAB001, 0x7ABAB00B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ABAB001, 0x7ABAB00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ABAB001, 0x7ABAB00D, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAB001, 0x7ABAB00E, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7ABAB001, 0x7ABAB00F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ABAB001, 0x7ABAB010, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAB001, 0x7ABAB011, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ABAB001, 0x7ABAB012, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAB001, 0x7ABAB013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABAB001, 0x7ABAB014, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7ABAB001, 0x7ABAB015, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAB001, 0x7ABAB016, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAB001, 0x7ABAB017, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAB001, 0x7ABAB018, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAB001, 0x7ABAB019, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAB001, 0x7ABAB01A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABAB001, 0x7ABAB01B, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7ABAB001, 0x7ABAB01C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAB001, 0x7ABAB01D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAB001, 0x7ABAB01E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ABAB001, 0x7ABAB01F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAB001, 0x7ABAB020, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ABAB001, 0x7ABAB021, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ABAB001, 0x7ABAB022, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAB001, 0x7ABAB023, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAB002,  2612, 0xABAB0007, 11.156, 161.4757, 81.60652, -0.8381832, 0, 0, -0.5453888,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -181,8 +181,8 @@ VALUES (0x7ABAB024,  1542, 0xABAB0007, 5.415015, 152.2708, 83.71903, 0.9990482, 
 /* @teleloc 0xABAB0007 [5.415015 152.270800 83.719030] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAB024, 0x7ABAB025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ABAB024, 0x7ABAB026, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ABAB024, 0x7ABAB025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ABAB024, 0x7ABAB026, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAB025,  4179, 0xABAB0007, 5.415015, 152.2708, 83.71903, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

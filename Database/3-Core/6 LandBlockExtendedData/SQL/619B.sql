@@ -5,13 +5,13 @@ VALUES (0x7619B001,  1154, 0x619B003C, 188.4832, 79.81067, 30.41516, -0.630053, 
 /* @teleloc 0x619B003C [188.483200 79.810670 30.415160] -0.630053 0.000000 0.000000 -0.776552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7619B001, 0x7619B002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7619B001, 0x7619B003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7619B001, 0x7619B004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7619B001, 0x7619B005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7619B001, 0x7619B006, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7619B001, 0x7619B007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7619B001, 0x7619B008, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7619B001, 0x7619B002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7619B001, 0x7619B003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7619B001, 0x7619B004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7619B001, 0x7619B005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7619B001, 0x7619B006, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7619B001, 0x7619B007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7619B001, 0x7619B008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7619B002, 14800, 0x619B003C, 188.4832, 79.81067, 30.41516, -0.630053, 0, 0, -0.7765521,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

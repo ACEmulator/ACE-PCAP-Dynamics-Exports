@@ -5,9 +5,9 @@ VALUES (0x71A55001,  1154, 0x1A55003F, 177.6598, 162.8275, 0.008249998, -0.78145
 /* @teleloc 0x1A55003F [177.659800 162.827500 0.008250] -0.781453 0.000000 0.000000 -0.623964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A55001, 0x71A55002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71A55001, 0x71A55003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71A55001, 0x71A55004, '2019-02-10 00:00:00') /* Lacerator */;
+VALUES (0x71A55001, 0x71A55002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71A55001, 0x71A55003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71A55001, 0x71A55004, '2019-02-10 00:00:00') /* Lacerator (24957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A55002, 24325, 0x1A55003F, 177.6598, 162.8275, 0.008249998, -0.7814531, 0, 0, -0.6239641,  True, '2019-02-10 00:00:00'); /* Phantasm */

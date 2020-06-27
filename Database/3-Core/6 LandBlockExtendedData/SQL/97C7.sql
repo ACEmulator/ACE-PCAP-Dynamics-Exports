@@ -5,13 +5,13 @@ VALUES (0x797C7001,  1154, 0x97C70027, 110.6473, 154.4604, 111.0673, -0.03603898
 /* @teleloc 0x97C70027 [110.647300 154.460400 111.067300] -0.036039 0.000000 0.000000 -0.999350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797C7001, 0x797C7002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x797C7001, 0x797C7003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x797C7001, 0x797C7004, '2019-02-10 00:00:00') /* Frost */
-     , (0x797C7001, 0x797C7005, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x797C7001, 0x797C7006, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x797C7001, 0x797C7007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x797C7001, 0x797C7008, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x797C7001, 0x797C7002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x797C7001, 0x797C7003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x797C7001, 0x797C7004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x797C7001, 0x797C7005, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x797C7001, 0x797C7006, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x797C7001, 0x797C7007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x797C7001, 0x797C7008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797C7002,  1629, 0x97C70027, 110.6473, 154.4604, 111.0673, -0.03603898, 0, 0, -0.9993504,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

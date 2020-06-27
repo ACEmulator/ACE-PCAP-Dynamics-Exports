@@ -5,9 +5,9 @@ VALUES (0x739E9001,  1154, 0x39E90028, 109.4501, 176.1556, 18.65073, -0.6575195,
 /* @teleloc 0x39E90028 [109.450100 176.155600 18.650730] -0.657520 0.000000 0.000000 -0.753438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739E9001, 0x739E9002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x739E9001, 0x739E9003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x739E9001, 0x739E9004, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x739E9001, 0x739E9002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x739E9001, 0x739E9003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x739E9001, 0x739E9004, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739E9002,  7099, 0x39E90028, 109.4501, 176.1556, 18.65073, -0.6575195, 0, 0, -0.7534375,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

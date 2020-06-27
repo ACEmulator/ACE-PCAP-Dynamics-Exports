@@ -5,29 +5,29 @@ VALUES (0x7BB67001,  1154, 0xBB670007, 6.09944, 164.837, 6.0045, 0.2998211, 0, 0
 /* @teleloc 0xBB670007 [6.099440 164.837000 6.004500] 0.299821 0.000000 0.000000 -0.953995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB67001, 0x7BB67002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB67001, 0x7BB67003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB67001, 0x7BB67004, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB67001, 0x7BB67005, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB67001, 0x7BB67006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB67001, 0x7BB67007, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BB67001, 0x7BB67008, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BB67001, 0x7BB67009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB67001, 0x7BB6700A, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BB67001, 0x7BB6700B, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BB67001, 0x7BB6700C, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BB67001, 0x7BB6700D, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BB67001, 0x7BB6700E, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BB67001, 0x7BB6700F, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BB67001, 0x7BB67010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB67001, 0x7BB67011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB67001, 0x7BB67012, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB67001, 0x7BB67013, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB67001, 0x7BB67014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB67001, 0x7BB67015, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7BB67001, 0x7BB67016, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7BB67001, 0x7BB67017, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB67001, 0x7BB67018, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */;
+VALUES (0x7BB67001, 0x7BB67002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB67001, 0x7BB67003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB67001, 0x7BB67004, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB67001, 0x7BB67005, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB67001, 0x7BB67006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB67001, 0x7BB67007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BB67001, 0x7BB67008, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BB67001, 0x7BB67009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB67001, 0x7BB6700A, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BB67001, 0x7BB6700B, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BB67001, 0x7BB6700C, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BB67001, 0x7BB6700D, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BB67001, 0x7BB6700E, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BB67001, 0x7BB6700F, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BB67001, 0x7BB67010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB67001, 0x7BB67011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB67001, 0x7BB67012, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB67001, 0x7BB67013, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB67001, 0x7BB67014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB67001, 0x7BB67015, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7BB67001, 0x7BB67016, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7BB67001, 0x7BB67017, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB67001, 0x7BB67018, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB67002,  1616, 0xBB670007, 6.09944, 164.837, 6.0045, 0.2998211, 0, 0, -0.9539954,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */
@@ -126,7 +126,7 @@ VALUES (0x7BB67019,  1542, 0xBB670020, 90.63342, 184.5125, 5.9, 1, 0, 0, 0, Fals
 /* @teleloc 0xBB670020 [90.633420 184.512500 5.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB67019, 0x7BB6701A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BB67019, 0x7BB6701A, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB6701A, 22572, 0xBB670020, 90.63342, 184.5125, 5.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

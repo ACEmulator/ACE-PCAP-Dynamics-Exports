@@ -9,15 +9,15 @@ VALUES (0x7E624001,  1154, 0xE6240001, 6.49939, 7.253988, 32.55362, 0.1438063, 0
 /* @teleloc 0xE6240001 [6.499390 7.253988 32.553620] 0.143806 0.000000 0.000000 -0.989606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E624001, 0x7E624002, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E624001, 0x7E624003, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E624001, 0x7E624004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E624001, 0x7E624005, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E624001, 0x7E624006, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E624001, 0x7E624007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E624001, 0x7E624008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E624001, 0x7E624009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E624001, 0x7E62400A, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7E624001, 0x7E624002, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E624001, 0x7E624003, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E624001, 0x7E624004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E624001, 0x7E624005, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E624001, 0x7E624006, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E624001, 0x7E624007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E624001, 0x7E624008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E624001, 0x7E624009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E624001, 0x7E62400A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E624002,  1624, 0xE6240001, 6.49939, 7.253988, 32.55362, 0.1438063, 0, 0, -0.9896058,  True, '2019-02-10 00:00:00'); /* Swamp Rat */
@@ -60,9 +60,9 @@ VALUES (0x7E62400B,  1542, 0xE6240018, 64.89626, 187.6749, 0, -0.6455196, 0, 0, 
 /* @teleloc 0xE6240018 [64.896260 187.674900 0.000000] -0.645520 0.000000 0.000000 -0.763744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62400B, 0x7E62400C, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E62400B, 0x7E62400D, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E62400B, 0x7E62400E, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7E62400B, 0x7E62400C, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E62400B, 0x7E62400D, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E62400B, 0x7E62400E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62400C,  8588, 0xE6240018, 64.89626, 187.6749, 0, -0.6455196, 0, 0, -0.7637437,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,14 +5,14 @@ VALUES (0x79FEC001,  1154, 0x9FEC001A, 89.17979, 26.28164, 10.19458, -0.712157, 
 /* @teleloc 0x9FEC001A [89.179790 26.281640 10.194580] -0.712157 0.000000 0.000000 -0.702020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FEC001, 0x79FEC002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x79FEC001, 0x79FEC003, '2019-02-10 00:00:00') /* Static */
-     , (0x79FEC001, 0x79FEC004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79FEC001, 0x79FEC005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79FEC001, 0x79FEC006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79FEC001, 0x79FEC007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79FEC001, 0x79FEC008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79FEC001, 0x79FEC009, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x79FEC001, 0x79FEC002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x79FEC001, 0x79FEC003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x79FEC001, 0x79FEC004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79FEC001, 0x79FEC005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79FEC001, 0x79FEC006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79FEC001, 0x79FEC007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79FEC001, 0x79FEC008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79FEC001, 0x79FEC009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FEC002,  6380, 0x9FEC001A, 89.17979, 26.28164, 10.19458, -0.712157, 0, 0, -0.7020202,  True, '2019-02-10 00:00:00'); /* Scintilla */

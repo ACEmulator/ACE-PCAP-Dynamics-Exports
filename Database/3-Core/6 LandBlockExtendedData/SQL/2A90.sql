@@ -5,13 +5,13 @@ VALUES (0x72A90001,  1154, 0x2A90000A, 30.81767, 27.87994, 30.005, -0.09835687, 
 /* @teleloc 0x2A90000A [30.817670 27.879940 30.005000] -0.098357 0.000000 0.000000 -0.995151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A90001, 0x72A90002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A90001, 0x72A90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72A90001, 0x72A90004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72A90001, 0x72A90005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72A90001, 0x72A90006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72A90001, 0x72A90007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72A90001, 0x72A90008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x72A90001, 0x72A90002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A90001, 0x72A90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72A90001, 0x72A90004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72A90001, 0x72A90005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72A90001, 0x72A90006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72A90001, 0x72A90007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72A90001, 0x72A90008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A90002, 23564, 0x2A90000A, 30.81767, 27.87994, 30.005, -0.09835687, 0, 0, -0.9951512,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

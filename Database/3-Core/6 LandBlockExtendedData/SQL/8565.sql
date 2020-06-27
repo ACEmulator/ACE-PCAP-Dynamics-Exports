@@ -5,10 +5,10 @@ VALUES (0x78565001,  1154, 0x8565000D, 44.7312, 103.9594, 13.45852, 0.9238795, 0
 /* @teleloc 0x8565000D [44.731200 103.959400 13.458520] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78565001, 0x78565002, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x78565001, 0x78565003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x78565001, 0x78565004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x78565001, 0x78565005, '2019-02-10 00:00:00') /* Small Shadow Child */;
+VALUES (0x78565001, 0x78565002, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x78565001, 0x78565003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x78565001, 0x78565004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x78565001, 0x78565005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78565002,  1631, 0x8565000D, 44.7312, 103.9594, 13.45852, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Servant */

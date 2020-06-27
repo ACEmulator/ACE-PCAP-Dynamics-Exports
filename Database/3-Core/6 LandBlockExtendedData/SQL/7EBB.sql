@@ -5,10 +5,10 @@ VALUES (0x77EBB001,  1154, 0x7EBB0021, 117.4735, 6.399135, 93.28162, -0.02812246
 /* @teleloc 0x7EBB0021 [117.473500 6.399135 93.281620] -0.028122 0.000000 0.000000 -0.999605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EBB001, 0x77EBB002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77EBB001, 0x77EBB003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77EBB001, 0x77EBB004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77EBB001, 0x77EBB005, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x77EBB001, 0x77EBB002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77EBB001, 0x77EBB003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77EBB001, 0x77EBB004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77EBB001, 0x77EBB005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EBB002,  7090, 0x7EBB0021, 117.4735, 6.399135, 93.28162, -0.02812246, 0, 0, -0.9996045,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -31,7 +31,7 @@ VALUES (0x77EBB006,  1542, 0x7EBB0032, 146.8922, 30.36585, 94, 1, 0, 0, 0, False
 /* @teleloc 0x7EBB0032 [146.892200 30.365850 94.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EBB006, 0x77EBB007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77EBB006, 0x77EBB007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EBB007, 22571, 0x7EBB0032, 146.8922, 30.36585, 94, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

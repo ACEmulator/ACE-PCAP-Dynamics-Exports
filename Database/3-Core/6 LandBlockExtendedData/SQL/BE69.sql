@@ -9,26 +9,26 @@ VALUES (0x7BE69005,  1154, 0xBE690008, 17.44582, 172.4165, 24, -0.8223088, 0, 0,
 /* @teleloc 0xBE690008 [17.445820 172.416500 24.000000] -0.822309 0.000000 0.000000 -0.569041 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE69005, 0x7BE69006, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BE69005, 0x7BE69007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BE69005, 0x7BE69008, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE69009, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE6900A, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE6900B, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE6900C, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE6900D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7BE69005, 0x7BE6900E, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x7BE69005, 0x7BE6900F, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x7BE69005, 0x7BE69010, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE69011, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE69012, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE69013, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE69014, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69005, 0x7BE69015, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE69016, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69005, 0x7BE69017, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BE69005, 0x7BE69018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE69005, 0x7BE69019, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7BE69005, 0x7BE69006, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BE69005, 0x7BE69007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BE69005, 0x7BE69008, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE69009, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE6900A, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE6900B, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE6900C, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE6900D, '2019-02-10 00:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7BE69005, 0x7BE6900E, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7BE69005, 0x7BE6900F, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7BE69005, 0x7BE69010, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE69011, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE69012, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE69013, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE69014, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69005, 0x7BE69015, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE69016, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69005, 0x7BE69017, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BE69005, 0x7BE69018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE69005, 0x7BE69019, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE69006,  1535, 0xBE690008, 17.44582, 172.4165, 24, -0.8223088, 0, 0, -0.5690414,  True, '2019-02-10 00:00:00'); /* Ethereal Wisp */

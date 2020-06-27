@@ -5,12 +5,12 @@ VALUES (0x7B06E001,  1154, 0xB06E0023, 108.7882, 67.11861, 37.38808, 0.7660445, 
 /* @teleloc 0xB06E0023 [108.788200 67.118610 37.388080] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B06E001, 0x7B06E002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B06E001, 0x7B06E003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B06E001, 0x7B06E004, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7B06E001, 0x7B06E005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7B06E001, 0x7B06E006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7B06E001, 0x7B06E007, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7B06E001, 0x7B06E002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B06E001, 0x7B06E003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B06E001, 0x7B06E004, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7B06E001, 0x7B06E005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7B06E001, 0x7B06E006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7B06E001, 0x7B06E007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B06E002,  1608, 0xB06E0023, 108.7882, 67.11861, 37.38808, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

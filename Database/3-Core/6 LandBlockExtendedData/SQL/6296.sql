@@ -9,9 +9,9 @@ VALUES (0x76296001,  1154, 0x62960038, 165.1746, 174.3204, 24.40057, 0.8870109, 
 /* @teleloc 0x62960038 [165.174600 174.320400 24.400570] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76296001, 0x76296002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x76296001, 0x76296003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76296001, 0x76296004, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x76296001, 0x76296002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x76296001, 0x76296003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76296001, 0x76296004, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76296002,  1756, 0x62960038, 165.1746, 174.3204, 24.40057, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

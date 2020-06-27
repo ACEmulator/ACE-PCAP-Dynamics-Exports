@@ -5,27 +5,27 @@ VALUES (0x7FA31001,  1154, 0xFA31003A, 176.1804, 41.68856, 0.006400108, -0.66963
 /* @teleloc 0xFA31003A [176.180400 41.688560 0.006400] -0.669631 0.000000 0.000000 -0.742694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA31001, 0x7FA31002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA31001, 0x7FA31003, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA31001, 0x7FA31004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA31001, 0x7FA31005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA31001, 0x7FA31006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA31001, 0x7FA31007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA31001, 0x7FA31008, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA31001, 0x7FA31009, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA31001, 0x7FA3100A, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA31001, 0x7FA3100B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA31001, 0x7FA3100C, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA31001, 0x7FA3100D, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA31001, 0x7FA3100E, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA31001, 0x7FA3100F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA31001, 0x7FA31010, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA31001, 0x7FA31011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA31001, 0x7FA31012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA31001, 0x7FA31013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA31001, 0x7FA31014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA31001, 0x7FA31015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA31001, 0x7FA31016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */;
+VALUES (0x7FA31001, 0x7FA31002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA31001, 0x7FA31003, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA31001, 0x7FA31004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA31001, 0x7FA31005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA31001, 0x7FA31006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA31001, 0x7FA31007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA31001, 0x7FA31008, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA31001, 0x7FA31009, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA31001, 0x7FA3100A, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA31001, 0x7FA3100B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA31001, 0x7FA3100C, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA31001, 0x7FA3100D, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA31001, 0x7FA3100E, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA31001, 0x7FA3100F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA31001, 0x7FA31010, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA31001, 0x7FA31011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA31001, 0x7FA31012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7FA31001, 0x7FA31013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA31001, 0x7FA31014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA31001, 0x7FA31015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA31001, 0x7FA31016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA31002, 40304, 0xFA31003A, 176.1804, 41.68856, 0.006400108, -0.6696312, 0, 0, -0.7426938,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

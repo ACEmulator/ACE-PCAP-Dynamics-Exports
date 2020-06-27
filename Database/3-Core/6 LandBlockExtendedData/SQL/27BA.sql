@@ -5,13 +5,13 @@ VALUES (0x727BA001,  1154, 0x27BA0002, 12.86602, 45.17609, 21.9925, -0.1950176, 
 /* @teleloc 0x27BA0002 [12.866020 45.176090 21.992500] -0.195018 0.000000 0.000000 -0.980800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727BA001, 0x727BA002, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x727BA001, 0x727BA003, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x727BA001, 0x727BA004, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x727BA001, 0x727BA005, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x727BA001, 0x727BA006, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x727BA001, 0x727BA007, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x727BA001, 0x727BA008, '2019-02-10 00:00:00') /* Cutthroat */;
+VALUES (0x727BA001, 0x727BA002, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x727BA001, 0x727BA003, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x727BA001, 0x727BA004, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x727BA001, 0x727BA005, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x727BA001, 0x727BA006, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x727BA001, 0x727BA007, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x727BA001, 0x727BA008, '2019-02-10 00:00:00') /* Cutthroat (11502) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727BA002, 11487, 0x27BA0002, 12.86602, 45.17609, 21.9925, -0.1950176, 0, 0, -0.9807997,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */
@@ -46,9 +46,9 @@ VALUES (0x727BA009,  1542, 0x27BA0013, 68.46795, 70.45446, 23.98446, -0.04532862
 /* @teleloc 0x27BA0013 [68.467950 70.454460 23.984460] -0.045329 0.000000 0.000000 -0.998972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727BA009, 0x727BA00A, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */
-     , (0x727BA009, 0x727BA00B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x727BA009, 0x727BA00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x727BA009, 0x727BA00A, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */
+     , (0x727BA009, 0x727BA00B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x727BA009, 0x727BA00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727BA00A, 11568, 0x27BA0013, 68.46795, 70.45446, 23.98446, -0.04532862, 0, 0, -0.9989721,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker Camp Generator */

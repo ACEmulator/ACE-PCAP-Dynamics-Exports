@@ -5,11 +5,11 @@ VALUES (0x79567001,  1154, 0x95670039, 173.9361, 21.69369, 14.77877, -0.6427876,
 /* @teleloc 0x95670039 [173.936100 21.693690 14.778770] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79567001, 0x79567002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79567001, 0x79567003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79567001, 0x79567004, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x79567001, 0x79567005, '2019-02-10 00:00:00') /* Undead */
-     , (0x79567001, 0x79567006, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79567001, 0x79567002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79567001, 0x79567003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79567001, 0x79567004, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x79567001, 0x79567005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79567001, 0x79567006, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79567002,   202, 0x95670039, 173.9361, 21.69369, 14.77877, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

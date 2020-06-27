@@ -5,12 +5,12 @@ VALUES (0x7A8DC001,  1154, 0xA8DC0012, 57.43174, 37.50275, 36.01, 0.9068106, 0, 
 /* @teleloc 0xA8DC0012 [57.431740 37.502750 36.010000] 0.906811 0.000000 0.000000 -0.421538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8DC001, 0x7A8DC002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A8DC001, 0x7A8DC003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A8DC001, 0x7A8DC004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A8DC001, 0x7A8DC005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A8DC001, 0x7A8DC006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A8DC001, 0x7A8DC007, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x7A8DC001, 0x7A8DC002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A8DC001, 0x7A8DC003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A8DC001, 0x7A8DC004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A8DC001, 0x7A8DC005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A8DC001, 0x7A8DC006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A8DC001, 0x7A8DC007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8DC002,   201, 0xA8DC0012, 57.43174, 37.50275, 36.01, 0.9068106, 0, 0, -0.4215384,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -41,7 +41,7 @@ VALUES (0x7A8DC008,  1542, 0xA8DC000F, 25.8571, 167.0197, 44.08491, -4.371139E-0
 /* @teleloc 0xA8DC000F [25.857100 167.019700 44.084910] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8DC008, 0x7A8DC009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A8DC008, 0x7A8DC009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8DC009,  4380, 0xA8DC000F, 25.8571, 167.0197, 44.08491, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

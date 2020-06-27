@@ -5,17 +5,17 @@ VALUES (0x7432B001,  1154, 0x432B0004, 20.90759, 88.32291, 2.544401, 0.7071068, 
 /* @teleloc 0x432B0004 [20.907590 88.322910 2.544401] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432B001, 0x7432B002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7432B001, 0x7432B003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7432B001, 0x7432B004, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7432B001, 0x7432B005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7432B001, 0x7432B006, '2019-02-10 00:00:00') /* Flare */
-     , (0x7432B001, 0x7432B007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7432B001, 0x7432B008, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7432B001, 0x7432B009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7432B001, 0x7432B00A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7432B001, 0x7432B00B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7432B001, 0x7432B00C, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x7432B001, 0x7432B002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7432B001, 0x7432B003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7432B001, 0x7432B004, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7432B001, 0x7432B005, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7432B001, 0x7432B006, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7432B001, 0x7432B007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7432B001, 0x7432B008, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7432B001, 0x7432B009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7432B001, 0x7432B00A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7432B001, 0x7432B00B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7432B001, 0x7432B00C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432B002,  7340, 0x432B0004, 20.90759, 88.32291, 2.544401, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -66,7 +66,7 @@ VALUES (0x7432B00D,  1542, 0x432B0021, 112.656, 13.16433, 5.54504, -4.371139E-08
 /* @teleloc 0x432B0021 [112.656000 13.164330 5.545040] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432B00D, 0x7432B00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7432B00D, 0x7432B00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432B00E,  4380, 0x432B0021, 112.656, 13.16433, 5.54504, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

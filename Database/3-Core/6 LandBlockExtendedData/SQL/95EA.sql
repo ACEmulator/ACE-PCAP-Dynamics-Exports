@@ -5,25 +5,25 @@ VALUES (0x795EA001,  1154, 0x95EA0040, 191.8913, 181.3985, 31.991, -0.6132901, 0
 /* @teleloc 0x95EA0040 [191.891300 181.398500 31.991000] -0.613290 0.000000 0.000000 -0.789858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795EA001, 0x795EA002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x795EA001, 0x795EA003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x795EA001, 0x795EA004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795EA001, 0x795EA005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x795EA001, 0x795EA006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795EA001, 0x795EA007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795EA001, 0x795EA008, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x795EA001, 0x795EA009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795EA001, 0x795EA00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795EA001, 0x795EA00B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795EA001, 0x795EA00C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795EA001, 0x795EA00D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795EA001, 0x795EA00E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795EA001, 0x795EA00F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795EA001, 0x795EA010, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795EA001, 0x795EA011, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795EA001, 0x795EA012, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795EA001, 0x795EA013, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795EA001, 0x795EA014, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x795EA001, 0x795EA002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x795EA001, 0x795EA003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x795EA001, 0x795EA004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795EA001, 0x795EA005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x795EA001, 0x795EA006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795EA001, 0x795EA007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795EA001, 0x795EA008, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x795EA001, 0x795EA009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795EA001, 0x795EA00A, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795EA001, 0x795EA00B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795EA001, 0x795EA00C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795EA001, 0x795EA00D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795EA001, 0x795EA00E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x795EA001, 0x795EA00F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795EA001, 0x795EA010, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795EA001, 0x795EA011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795EA001, 0x795EA012, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795EA001, 0x795EA013, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795EA001, 0x795EA014, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795EA002,  9253, 0x95EA0040, 191.8913, 181.3985, 31.991, -0.6132901, 0, 0, -0.7898577,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -106,7 +106,7 @@ VALUES (0x795EA015,  1542, 0x95EA0030, 143.5943, 182.8134, 32, -4.371139E-08, 0,
 /* @teleloc 0x95EA0030 [143.594300 182.813400 32.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795EA015, 0x795EA016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x795EA015, 0x795EA016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795EA016,  4380, 0x95EA0030, 143.5943, 182.8134, 32, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

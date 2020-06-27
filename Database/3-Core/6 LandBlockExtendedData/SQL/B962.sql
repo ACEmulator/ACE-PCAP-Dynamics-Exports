@@ -5,17 +5,17 @@ VALUES (0x7B962001,  1154, 0xB9620014, 51.06392, 87.48852, 5.9044, 0.9996517, 0,
 /* @teleloc 0xB9620014 [51.063920 87.488520 5.904400] 0.999652 0.000000 0.000000 -0.026389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B962001, 0x7B962002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B962001, 0x7B962003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B962001, 0x7B962004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B962001, 0x7B962005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7B962001, 0x7B962006, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B962001, 0x7B962007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B962001, 0x7B962008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B962001, 0x7B962009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B962001, 0x7B96200A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B962001, 0x7B96200B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B962001, 0x7B96200C, '2019-02-10 00:00:00') /* Swamp Gromnie */;
+VALUES (0x7B962001, 0x7B962002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B962001, 0x7B962003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B962001, 0x7B962004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B962001, 0x7B962005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7B962001, 0x7B962006, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B962001, 0x7B962007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B962001, 0x7B962008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B962001, 0x7B962009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B962001, 0x7B96200A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B962001, 0x7B96200B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B962001, 0x7B96200C, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B962002,  4249, 0xB9620014, 51.06392, 87.48852, 5.9044, 0.9996517, 0, 0, -0.0263894,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

@@ -5,12 +5,12 @@ VALUES (0x7BD32001,  1154, 0xBD320013, 68.06361, 63.91874, 128.3867, 0.2588191, 
 /* @teleloc 0xBD320013 [68.063610 63.918740 128.386700] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD32001, 0x7BD32002, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BD32001, 0x7BD32003, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BD32001, 0x7BD32004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BD32001, 0x7BD32005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BD32001, 0x7BD32006, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BD32001, 0x7BD32007, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7BD32001, 0x7BD32002, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BD32001, 0x7BD32003, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BD32001, 0x7BD32004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BD32001, 0x7BD32005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BD32001, 0x7BD32006, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BD32001, 0x7BD32007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD32002,  2569, 0xBD320013, 68.06361, 63.91874, 128.3867, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* K'nath N'gell */

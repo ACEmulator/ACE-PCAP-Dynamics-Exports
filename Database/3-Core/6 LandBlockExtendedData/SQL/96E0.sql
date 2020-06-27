@@ -5,30 +5,30 @@ VALUES (0x796E0001,  1154, 0x96E00003, 17.13649, 66.9942, 159.6732, 0.9238795, 0
 /* @teleloc 0x96E00003 [17.136490 66.994200 159.673200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796E0001, 0x796E0002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796E0001, 0x796E0003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x796E0001, 0x796E0004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x796E0001, 0x796E0005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796E0001, 0x796E0006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796E0001, 0x796E0007, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x796E0001, 0x796E0008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E0001, 0x796E0009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x796E0001, 0x796E000A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E0001, 0x796E000B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796E0001, 0x796E000C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796E0001, 0x796E000D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796E0001, 0x796E000E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796E0001, 0x796E000F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796E0001, 0x796E0010, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796E0001, 0x796E0011, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796E0001, 0x796E0012, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E0001, 0x796E0013, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E0001, 0x796E0014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796E0001, 0x796E0015, '2019-02-10 00:00:00') /* Shivver */
-     , (0x796E0001, 0x796E0016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796E0001, 0x796E0017, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796E0001, 0x796E0018, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796E0001, 0x796E0019, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x796E0001, 0x796E0002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796E0001, 0x796E0003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x796E0001, 0x796E0004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x796E0001, 0x796E0005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796E0001, 0x796E0006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796E0001, 0x796E0007, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x796E0001, 0x796E0008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E0001, 0x796E0009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x796E0001, 0x796E000A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E0001, 0x796E000B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796E0001, 0x796E000C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796E0001, 0x796E000D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796E0001, 0x796E000E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796E0001, 0x796E000F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796E0001, 0x796E0010, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796E0001, 0x796E0011, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796E0001, 0x796E0012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E0001, 0x796E0013, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E0001, 0x796E0014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796E0001, 0x796E0015, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x796E0001, 0x796E0016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796E0001, 0x796E0017, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796E0001, 0x796E0018, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796E0001, 0x796E0019, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796E0002,  7090, 0x96E00003, 17.13649, 66.9942, 159.6732, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -131,9 +131,9 @@ VALUES (0x796E001A,  1542, 0x96E00003, 14.17011, 65.34479, 160.2184, 1, 0, 0, 0,
 /* @teleloc 0x96E00003 [14.170110 65.344790 160.218400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796E001A, 0x796E001B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796E001A, 0x796E001C, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x796E001A, 0x796E001D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x796E001A, 0x796E001B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796E001A, 0x796E001C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x796E001A, 0x796E001D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796E001B,  4179, 0x96E00003, 14.17011, 65.34479, 160.2184, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

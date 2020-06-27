@@ -5,13 +5,13 @@ VALUES (0x74616001,  1154, 0x4616003C, 178.855, 93.59636, 188.9232, -0.733812, 0
 /* @teleloc 0x4616003C [178.855000 93.596360 188.923200] -0.733812 0.000000 0.000000 -0.679353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74616001, 0x74616002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x74616001, 0x74616003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74616001, 0x74616004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74616001, 0x74616005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74616001, 0x74616006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74616001, 0x74616007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74616001, 0x74616008, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x74616001, 0x74616002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x74616001, 0x74616003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74616001, 0x74616004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74616001, 0x74616005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74616001, 0x74616006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74616001, 0x74616007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74616001, 0x74616008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74616002, 28553, 0x4616003C, 178.855, 93.59636, 188.9232, -0.733812, 0, 0, -0.6793526,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

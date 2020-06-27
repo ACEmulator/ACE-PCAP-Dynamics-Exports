@@ -5,10 +5,10 @@ VALUES (0x75F16001,  1154, 0x5F160009, 32.67367, 20.3539, 68.0075, -0.6578464, 0
 /* @teleloc 0x5F160009 [32.673670 20.353900 68.007500] -0.657846 0.000000 0.000000 -0.753152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F16001, 0x75F16002, '2019-02-10 00:00:00') /* Ethereal Rift */
-     , (0x75F16001, 0x75F16003, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75F16001, 0x75F16004, '2019-02-10 00:00:00') /* Frost */
-     , (0x75F16001, 0x75F16005, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x75F16001, 0x75F16002, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */
+     , (0x75F16001, 0x75F16003, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75F16001, 0x75F16004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x75F16001, 0x75F16005, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F16002, 10798, 0x5F160009, 32.67367, 20.3539, 68.0075, -0.6578464, 0, 0, -0.7531521,  True, '2019-02-10 00:00:00'); /* Ethereal Rift */

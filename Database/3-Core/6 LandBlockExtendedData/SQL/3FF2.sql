@@ -5,13 +5,13 @@ VALUES (0x73FF2001,  1154, 0x3FF20032, 147.3941, 40.47186, 20.85388, -0.8447438,
 /* @teleloc 0x3FF20032 [147.394100 40.471860 20.853880] -0.844744 0.000000 0.000000 -0.535171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FF2001, 0x73FF2002, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FF2001, 0x73FF2003, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FF2001, 0x73FF2004, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FF2001, 0x73FF2005, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73FF2001, 0x73FF2006, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FF2001, 0x73FF2007, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FF2001, 0x73FF2008, '2019-02-10 00:00:00') /* Undead Captain */;
+VALUES (0x73FF2001, 0x73FF2002, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FF2001, 0x73FF2003, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FF2001, 0x73FF2004, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FF2001, 0x73FF2005, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73FF2001, 0x73FF2006, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FF2001, 0x73FF2007, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FF2001, 0x73FF2008, '2019-02-10 00:00:00') /* Undead Captain (24321) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FF2002, 28638, 0x3FF20032, 147.3941, 40.47186, 20.85388, -0.8447438, 0, 0, -0.5351709,  True, '2019-02-10 00:00:00'); /* Repugnant Eater */

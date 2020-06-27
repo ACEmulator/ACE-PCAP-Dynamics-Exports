@@ -5,10 +5,10 @@ VALUES (0x78374001,  1154, 0x83740009, 46.13966, 12.83036, 13.85247, 0.6426141, 
 /* @teleloc 0x83740009 [46.139660 12.830360 13.852470] 0.642614 0.000000 0.000000 -0.766190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78374001, 0x78374002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78374001, 0x78374003, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78374001, 0x78374004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x78374001, 0x78374005, '2019-02-10 00:00:00') /* Brown Armoredillo */;
+VALUES (0x78374001, 0x78374002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78374001, 0x78374003, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78374001, 0x78374004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x78374001, 0x78374005, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78374002,   950, 0x83740009, 46.13966, 12.83036, 13.85247, 0.6426141, 0, 0, -0.76619,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -31,8 +31,8 @@ VALUES (0x78374006,  1542, 0x83740013, 68.38639, 60.94649, 19.55865, 0.7071068, 
 /* @teleloc 0x83740013 [68.386390 60.946490 19.558650] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78374006, 0x78374007, '2019-02-10 00:00:00') /* Gem */
-     , (0x78374006, 0x78374008, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x78374006, 0x78374007, '2019-02-10 00:00:00') /* Gem (2420) */
+     , (0x78374006, 0x78374008, '2019-02-10 00:00:00') /* Gem (2429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78374007,  2420, 0x83740013, 68.38639, 60.94649, 19.55865, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gem */

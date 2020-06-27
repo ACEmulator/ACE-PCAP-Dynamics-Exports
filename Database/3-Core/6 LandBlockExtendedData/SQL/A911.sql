@@ -9,15 +9,15 @@ VALUES (0x7A911004,  1154, 0xA9110004, 10.26484, 82.56696, 177.3884, -0.0158653,
 /* @teleloc 0xA9110004 [10.264840 82.566960 177.388400] -0.015865 0.000000 0.000000 -0.999874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A911004, 0x7A911005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7A911004, 0x7A911006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A911004, 0x7A911007, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A911004, 0x7A911008, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A911004, 0x7A911009, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7A911004, 0x7A91100A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A911004, 0x7A91100B, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A911004, 0x7A91100C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A911004, 0x7A91100D, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7A911004, 0x7A911005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7A911004, 0x7A911006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A911004, 0x7A911007, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A911004, 0x7A911008, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A911004, 0x7A911009, '2019-02-10 00:00:00') /* Exploration Marker (39818) */
+     , (0x7A911004, 0x7A91100A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A911004, 0x7A91100B, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A911004, 0x7A91100C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A911004, 0x7A91100D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A911005,  7780, 0xA9110004, 10.26484, 82.56696, 177.3884, -0.0158653, 0, 0, -0.9998741,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -60,7 +60,7 @@ VALUES (0x7A91100E,  1542, 0xA9110011, 52.64979, 17.65475, 152.4526, 0.9772518, 
 /* @teleloc 0xA9110011 [52.649790 17.654750 152.452600] 0.977252 0.000000 0.000000 -0.212083 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A91100E, 0x7A91100F, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7A91100E, 0x7A91100F, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A91100F, 42528, 0xA9110011, 52.64979, 17.65475, 152.4526, 0.9772518, 0, 0, -0.2120826,  True, '2019-02-10 00:00:00'); /* Rock */

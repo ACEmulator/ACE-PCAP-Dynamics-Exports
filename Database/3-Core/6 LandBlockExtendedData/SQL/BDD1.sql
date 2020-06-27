@@ -5,36 +5,36 @@ VALUES (0x7BDD1001,  1154, 0xBDD10026, 106.8501, 128.2119, 153.3212, -0.5796887,
 /* @teleloc 0xBDD10026 [106.850100 128.211900 153.321200] -0.579689 0.000000 0.000000 -0.814838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD1001, 0x7BDD1002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD1001, 0x7BDD1003, '2019-02-10 00:00:00') /* Tree */
-     , (0x7BDD1001, 0x7BDD1004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BDD1001, 0x7BDD1005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7BDD1001, 0x7BDD1006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BDD1001, 0x7BDD1007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BDD1001, 0x7BDD1008, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BDD1001, 0x7BDD1009, '2019-02-10 00:00:00') /* Static */
-     , (0x7BDD1001, 0x7BDD100A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD1001, 0x7BDD100B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BDD1001, 0x7BDD100C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD1001, 0x7BDD100D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BDD1001, 0x7BDD100E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD1001, 0x7BDD100F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BDD1001, 0x7BDD1010, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD1001, 0x7BDD1011, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BDD1001, 0x7BDD1012, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BDD1001, 0x7BDD1013, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BDD1001, 0x7BDD1014, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD1001, 0x7BDD1015, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD1001, 0x7BDD1016, '2019-02-10 00:00:00') /* Static */
-     , (0x7BDD1001, 0x7BDD1017, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7BDD1001, 0x7BDD1018, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD1001, 0x7BDD1019, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD1001, 0x7BDD101A, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BDD1001, 0x7BDD101B, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BDD1001, 0x7BDD101C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BDD1001, 0x7BDD101D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BDD1001, 0x7BDD101E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BDD1001, 0x7BDD101F, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7BDD1001, 0x7BDD1002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD1001, 0x7BDD1003, '2019-02-10 00:00:00') /* Tree (40530) */
+     , (0x7BDD1001, 0x7BDD1004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BDD1001, 0x7BDD1005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7BDD1001, 0x7BDD1006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BDD1001, 0x7BDD1007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BDD1001, 0x7BDD1008, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BDD1001, 0x7BDD1009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BDD1001, 0x7BDD100A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD1001, 0x7BDD100B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BDD1001, 0x7BDD100C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD1001, 0x7BDD100D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BDD1001, 0x7BDD100E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD1001, 0x7BDD100F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BDD1001, 0x7BDD1010, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD1001, 0x7BDD1011, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BDD1001, 0x7BDD1012, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BDD1001, 0x7BDD1013, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BDD1001, 0x7BDD1014, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD1001, 0x7BDD1015, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD1001, 0x7BDD1016, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BDD1001, 0x7BDD1017, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7BDD1001, 0x7BDD1018, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD1001, 0x7BDD1019, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD1001, 0x7BDD101A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BDD1001, 0x7BDD101B, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BDD1001, 0x7BDD101C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BDD1001, 0x7BDD101D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BDD1001, 0x7BDD101E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BDD1001, 0x7BDD101F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD1002,   231, 0xBDD10026, 106.8501, 128.2119, 153.3212, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -161,8 +161,8 @@ VALUES (0x7BDD1020,  1542, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0,
 /* @teleloc 0xBDD10026 [110.195100 143.160700 153.182900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD1020, 0x7BDD1021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BDD1020, 0x7BDD1022, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BDD1020, 0x7BDD1021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD1020, 0x7BDD1022, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD1021,  4179, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

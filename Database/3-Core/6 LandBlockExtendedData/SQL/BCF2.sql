@@ -5,20 +5,20 @@ VALUES (0x7BCF2001,  1154, 0xBCF20011, 50.23763, 1.741811, 19.67553, 0.3987491, 
 /* @teleloc 0xBCF20011 [50.237630 1.741811 19.675530] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCF2001, 0x7BCF2002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BCF2001, 0x7BCF2003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BCF2001, 0x7BCF2004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7BCF2001, 0x7BCF2005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BCF2001, 0x7BCF2006, '2019-02-10 00:00:00') /* Giant Phyntos Wasp */
-     , (0x7BCF2001, 0x7BCF2007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF2001, 0x7BCF2008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF2001, 0x7BCF2009, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCF2001, 0x7BCF200A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF2001, 0x7BCF200B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF2001, 0x7BCF200C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF2001, 0x7BCF200D, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCF2001, 0x7BCF200E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BCF2001, 0x7BCF200F, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x7BCF2001, 0x7BCF2002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BCF2001, 0x7BCF2003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BCF2001, 0x7BCF2004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7BCF2001, 0x7BCF2005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BCF2001, 0x7BCF2006, '2019-02-10 00:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7BCF2001, 0x7BCF2007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF2001, 0x7BCF2008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF2001, 0x7BCF2009, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCF2001, 0x7BCF200A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF2001, 0x7BCF200B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF2001, 0x7BCF200C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF2001, 0x7BCF200D, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCF2001, 0x7BCF200E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BCF2001, 0x7BCF200F, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCF2002,  7086, 0xBCF20011, 50.23763, 1.741811, 19.67553, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -81,7 +81,7 @@ VALUES (0x7BCF2010,  1542, 0xBCF20007, 1.93924, 163.5683, 8.975507, 1, 0, 0, 0, 
 /* @teleloc 0xBCF20007 [1.939240 163.568300 8.975507] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCF2010, 0x7BCF2011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BCF2010, 0x7BCF2011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCF2011,  4179, 0xBCF20007, 1.93924, 163.5683, 8.975507, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

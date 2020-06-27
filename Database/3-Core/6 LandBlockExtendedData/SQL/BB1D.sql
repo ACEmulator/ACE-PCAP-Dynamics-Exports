@@ -5,33 +5,33 @@ VALUES (0x7BB1D001,  1154, 0xBB1D0039, 169.1371, 13.24409, 35.64025, 0.3420202, 
 /* @teleloc 0xBB1D0039 [169.137100 13.244090 35.640250] 0.342020 0.000000 0.000000 -0.939693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB1D001, 0x7BB1D002, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BB1D001, 0x7BB1D003, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BB1D001, 0x7BB1D004, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BB1D001, 0x7BB1D005, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BB1D001, 0x7BB1D006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BB1D001, 0x7BB1D007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BB1D001, 0x7BB1D00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BB1D001, 0x7BB1D00C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BB1D001, 0x7BB1D00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BB1D001, 0x7BB1D00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BB1D001, 0x7BB1D00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BB1D001, 0x7BB1D010, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BB1D001, 0x7BB1D011, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BB1D001, 0x7BB1D012, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BB1D001, 0x7BB1D013, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BB1D001, 0x7BB1D014, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BB1D001, 0x7BB1D015, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BB1D001, 0x7BB1D016, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BB1D001, 0x7BB1D017, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7BB1D001, 0x7BB1D018, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D019, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D01A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB1D001, 0x7BB1D01B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BB1D001, 0x7BB1D01C, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7BB1D001, 0x7BB1D002, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BB1D001, 0x7BB1D003, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BB1D001, 0x7BB1D004, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BB1D001, 0x7BB1D005, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BB1D001, 0x7BB1D006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BB1D001, 0x7BB1D007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB1D001, 0x7BB1D008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB1D001, 0x7BB1D009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB1D001, 0x7BB1D00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BB1D001, 0x7BB1D00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BB1D001, 0x7BB1D00C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BB1D001, 0x7BB1D00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BB1D001, 0x7BB1D00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BB1D001, 0x7BB1D00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BB1D001, 0x7BB1D010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BB1D001, 0x7BB1D011, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BB1D001, 0x7BB1D012, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BB1D001, 0x7BB1D013, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BB1D001, 0x7BB1D014, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BB1D001, 0x7BB1D015, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BB1D001, 0x7BB1D016, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BB1D001, 0x7BB1D017, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7BB1D001, 0x7BB1D018, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB1D001, 0x7BB1D019, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB1D001, 0x7BB1D01A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB1D001, 0x7BB1D01B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BB1D001, 0x7BB1D01C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB1D002,  2573, 0xBB1D0039, 169.1371, 13.24409, 35.64025, 0.3420202, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* K'nath T'aed */
@@ -146,7 +146,7 @@ VALUES (0x7BB1D01D,  1542, 0xBB1D0035, 144.4151, 96.15561, 57.16367, 1, 0, 0, 0,
 /* @teleloc 0xBB1D0035 [144.415100 96.155610 57.163670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB1D01D, 0x7BB1D01E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BB1D01D, 0x7BB1D01E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB1D01E,  4380, 0xBB1D0035, 144.4151, 96.15561, 57.16367, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

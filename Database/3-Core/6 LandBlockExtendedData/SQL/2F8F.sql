@@ -5,15 +5,15 @@ VALUES (0x72F8F001,  1154, 0x2F8F0004, 13.45382, 91.29858, 30, 0.9919535, 0, 0, 
 /* @teleloc 0x2F8F0004 [13.453820 91.298580 30.000000] 0.991954 0.000000 0.000000 -0.126603 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F8F001, 0x72F8F002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F8F001, 0x72F8F003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72F8F001, 0x72F8F004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F8F001, 0x72F8F005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F8F001, 0x72F8F006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F8F001, 0x72F8F007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F8F001, 0x72F8F008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F8F001, 0x72F8F009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F8F001, 0x72F8F00A, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72F8F001, 0x72F8F002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F8F001, 0x72F8F003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72F8F001, 0x72F8F004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F8F001, 0x72F8F005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F8F001, 0x72F8F006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F8F001, 0x72F8F007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F8F001, 0x72F8F008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F8F001, 0x72F8F009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F8F001, 0x72F8F00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F8F002, 23482, 0x2F8F0004, 13.45382, 91.29858, 30, 0.9919535, 0, 0, -0.1266029,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

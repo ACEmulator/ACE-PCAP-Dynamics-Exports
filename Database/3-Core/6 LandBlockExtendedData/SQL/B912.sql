@@ -5,25 +5,25 @@ VALUES (0x7B912001,  1154, 0xB9120005, 21.85418, 111.4999, 52.22568, 0.7071068, 
 /* @teleloc 0xB9120005 [21.854180 111.499900 52.225680] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B912001, 0x7B912002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B912001, 0x7B912003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B912001, 0x7B912004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B912001, 0x7B912005, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7B912001, 0x7B912006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7B912001, 0x7B912007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B912001, 0x7B912008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B912001, 0x7B912009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B912001, 0x7B91200A, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7B912001, 0x7B91200B, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B912001, 0x7B91200C, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7B912001, 0x7B91200D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B912001, 0x7B91200E, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B912001, 0x7B91200F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B912001, 0x7B912010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B912001, 0x7B912011, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B912001, 0x7B912012, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B912001, 0x7B912013, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B912001, 0x7B912014, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7B912001, 0x7B912002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B912001, 0x7B912003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B912001, 0x7B912004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B912001, 0x7B912005, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7B912001, 0x7B912006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7B912001, 0x7B912007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B912001, 0x7B912008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B912001, 0x7B912009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B912001, 0x7B91200A, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7B912001, 0x7B91200B, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B912001, 0x7B91200C, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7B912001, 0x7B91200D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B912001, 0x7B91200E, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B912001, 0x7B91200F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B912001, 0x7B912010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B912001, 0x7B912011, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B912001, 0x7B912012, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B912001, 0x7B912013, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B912001, 0x7B912014, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B912002,  7111, 0xB9120005, 21.85418, 111.4999, 52.22568, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -106,13 +106,13 @@ VALUES (0x7B912015,  1542, 0xB9120038, 148.628, 173.8232, 124.2034, -0.4053438, 
 /* @teleloc 0xB9120038 [148.628000 173.823200 124.203400] -0.405344 0.000000 0.000000 -0.914164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B912015, 0x7B912016, '2019-02-10 00:00:00') /* Rock */
-     , (0x7B912015, 0x7B912017, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7B912015, 0x7B912018, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7B912015, 0x7B912019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B912015, 0x7B91201A, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7B912015, 0x7B91201B, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7B912015, 0x7B91201C, '2019-02-10 00:00:00') /* Hasina bint Rira */;
+VALUES (0x7B912015, 0x7B912016, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B912015, 0x7B912017, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7B912015, 0x7B912018, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7B912015, 0x7B912019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B912015, 0x7B91201A, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7B912015, 0x7B91201B, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7B912015, 0x7B91201C, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B912016, 42528, 0xB9120038, 148.628, 173.8232, 124.2034, -0.4053438, 0, 0, -0.9141643,  True, '2019-02-10 00:00:00'); /* Rock */

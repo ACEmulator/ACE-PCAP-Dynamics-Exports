@@ -5,29 +5,29 @@ VALUES (0x71F79001,  1154, 0x1F790030, 126.9619, 186.0394, 148.5131, 0.2588191, 
 /* @teleloc 0x1F790030 [126.961900 186.039400 148.513100] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F79001, 0x71F79002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71F79001, 0x71F79003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71F79001, 0x71F79004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71F79001, 0x71F79005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F79001, 0x71F79006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F79001, 0x71F79007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F79001, 0x71F79008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F79001, 0x71F79009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71F79001, 0x71F7900A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71F79001, 0x71F7900B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71F79001, 0x71F7900C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71F79001, 0x71F7900D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F79001, 0x71F7900E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F79001, 0x71F7900F, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71F79001, 0x71F79010, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71F79001, 0x71F79011, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71F79001, 0x71F79012, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F79001, 0x71F79013, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F79001, 0x71F79014, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F79001, 0x71F79015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F79001, 0x71F79016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F79001, 0x71F79017, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71F79001, 0x71F79018, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x71F79001, 0x71F79002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71F79001, 0x71F79003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71F79001, 0x71F79004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F79001, 0x71F79005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F79001, 0x71F79006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F79001, 0x71F79007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F79001, 0x71F79008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F79001, 0x71F79009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71F79001, 0x71F7900A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71F79001, 0x71F7900B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71F79001, 0x71F7900C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71F79001, 0x71F7900D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F79001, 0x71F7900E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F79001, 0x71F7900F, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71F79001, 0x71F79010, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71F79001, 0x71F79011, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71F79001, 0x71F79012, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F79001, 0x71F79013, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F79001, 0x71F79014, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F79001, 0x71F79015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F79001, 0x71F79016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F79001, 0x71F79017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71F79001, 0x71F79018, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F79002,  7088, 0x1F790030, 126.9619, 186.0394, 148.5131, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -126,7 +126,7 @@ VALUES (0x71F79019,  1542, 0x1F790030, 128.3505, 185.205, 129.2071, 1, 0, 0, 0, 
 /* @teleloc 0x1F790030 [128.350500 185.205000 129.207100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F79019, 0x71F7901A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71F79019, 0x71F7901A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F7901A, 22567, 0x1F790030, 128.3505, 185.205, 129.2071, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

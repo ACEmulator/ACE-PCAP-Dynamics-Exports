@@ -5,14 +5,14 @@ VALUES (0x78E19001,  1154, 0x8E190031, 166.0501, 20.98588, 287.8177, -0.9465692,
 /* @teleloc 0x8E190031 [166.050100 20.985880 287.817700] -0.946569 0.000000 0.000000 -0.322501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E19001, 0x78E19002, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x78E19001, 0x78E19003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x78E19001, 0x78E19004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x78E19001, 0x78E19005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x78E19001, 0x78E19006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78E19001, 0x78E19007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78E19001, 0x78E19008, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x78E19001, 0x78E19009, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x78E19001, 0x78E19002, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x78E19001, 0x78E19003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x78E19001, 0x78E19004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x78E19001, 0x78E19005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x78E19001, 0x78E19006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78E19001, 0x78E19007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78E19001, 0x78E19008, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x78E19001, 0x78E19009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E19002, 11996, 0x8E190031, 166.0501, 20.98588, 287.8177, -0.9465692, 0, 0, -0.3225008,  True, '2019-02-10 00:00:00'); /* Lugian Warlord */

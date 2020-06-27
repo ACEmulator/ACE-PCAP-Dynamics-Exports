@@ -5,14 +5,14 @@ VALUES (0x74718001,  1154, 0x47180009, 36.80885, 12.24643, 43.45049, 0.8191521, 
 /* @teleloc 0x47180009 [36.808850 12.246430 43.450490] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74718001, 0x74718002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74718001, 0x74718003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74718001, 0x74718004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74718001, 0x74718005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74718001, 0x74718006, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x74718001, 0x74718007, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74718001, 0x74718008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74718001, 0x74718009, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x74718001, 0x74718002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74718001, 0x74718003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74718001, 0x74718004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74718001, 0x74718005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74718001, 0x74718006, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x74718001, 0x74718007, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74718001, 0x74718008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74718001, 0x74718009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74718002,  7340, 0x47180009, 36.80885, 12.24643, 43.45049, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

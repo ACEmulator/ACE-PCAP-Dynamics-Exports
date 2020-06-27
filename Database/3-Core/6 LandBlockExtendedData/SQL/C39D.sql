@@ -5,14 +5,14 @@ VALUES (0x7C39D001,  1154, 0xC39D000B, 33.11365, 62.55712, 1.551, 0.8445185, 0, 
 /* @teleloc 0xC39D000B [33.113650 62.557120 1.551000] 0.844519 0.000000 0.000000 -0.535526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39D001, 0x7C39D002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C39D001, 0x7C39D003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C39D001, 0x7C39D004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C39D001, 0x7C39D005, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C39D001, 0x7C39D006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C39D001, 0x7C39D007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C39D001, 0x7C39D008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C39D001, 0x7C39D009, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7C39D001, 0x7C39D002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C39D001, 0x7C39D003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C39D001, 0x7C39D004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C39D001, 0x7C39D005, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C39D001, 0x7C39D006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C39D001, 0x7C39D007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C39D001, 0x7C39D008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C39D001, 0x7C39D009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39D002,   223, 0xC39D000B, 33.11365, 62.55712, 1.551, 0.8445185, 0, 0, -0.5355264,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

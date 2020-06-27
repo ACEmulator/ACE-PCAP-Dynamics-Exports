@@ -5,9 +5,9 @@ VALUES (0x786BC001,  1154, 0x86BC002E, 138.9231, 133.5257, 111.3579, 0.9238795, 
 /* @teleloc 0x86BC002E [138.923100 133.525700 111.357900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786BC001, 0x786BC002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786BC001, 0x786BC003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x786BC001, 0x786BC004, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x786BC001, 0x786BC002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x786BC001, 0x786BC003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x786BC001, 0x786BC004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786BC002,  7089, 0x86BC002E, 138.9231, 133.5257, 111.3579, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

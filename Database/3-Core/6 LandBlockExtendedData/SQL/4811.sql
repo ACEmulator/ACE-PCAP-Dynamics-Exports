@@ -5,9 +5,9 @@ VALUES (0x74811001,  1154, 0x48110020, 74.94353, 176.5517, 68.00825, -0.7392014,
 /* @teleloc 0x48110020 [74.943530 176.551700 68.008250] -0.739201 0.000000 0.000000 -0.673484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74811001, 0x74811002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74811001, 0x74811003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74811001, 0x74811004, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x74811001, 0x74811002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74811001, 0x74811003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74811001, 0x74811004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74811002, 24325, 0x48110020, 74.94353, 176.5517, 68.00825, -0.7392014, 0, 0, -0.6734844,  True, '2019-02-10 00:00:00'); /* Phantasm */

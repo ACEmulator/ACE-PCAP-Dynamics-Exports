@@ -5,17 +5,17 @@ VALUES (0x791DA001,  1154, 0x91DA0019, 78.00871, 15.55686, 188.21, 0.3987491, 0,
 /* @teleloc 0x91DA0019 [78.008710 15.556860 188.210000] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791DA001, 0x791DA002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x791DA001, 0x791DA003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x791DA001, 0x791DA004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x791DA001, 0x791DA005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x791DA001, 0x791DA006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x791DA001, 0x791DA007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x791DA001, 0x791DA008, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x791DA001, 0x791DA009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x791DA001, 0x791DA00A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x791DA001, 0x791DA00B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x791DA001, 0x791DA00C, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x791DA001, 0x791DA002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x791DA001, 0x791DA003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x791DA001, 0x791DA004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x791DA001, 0x791DA005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x791DA001, 0x791DA006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x791DA001, 0x791DA007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x791DA001, 0x791DA008, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x791DA001, 0x791DA009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x791DA001, 0x791DA00A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x791DA001, 0x791DA00B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x791DA001, 0x791DA00C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791DA002,  7085, 0x91DA0019, 78.00871, 15.55686, 188.21, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -66,7 +66,7 @@ VALUES (0x791DA00D,  1542, 0x91DA0019, 77.11824, 20.7585, 188.7687, 0.9990482, 0
 /* @teleloc 0x91DA0019 [77.118240 20.758500 188.768700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791DA00D, 0x791DA00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x791DA00D, 0x791DA00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791DA00E,  4179, 0x91DA0019, 77.11824, 20.7585, 188.7687, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

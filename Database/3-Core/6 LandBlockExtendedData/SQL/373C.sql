@@ -5,15 +5,15 @@ VALUES (0x7373C001,  1154, 0x373C0012, 71.0677, 28.17567, -0.09175003, 0.5147941
 /* @teleloc 0x373C0012 [71.067700 28.175670 -0.091750] 0.514794 0.000000 0.000000 -0.857314 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7373C001, 0x7373C002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7373C001, 0x7373C003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7373C001, 0x7373C004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7373C001, 0x7373C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7373C001, 0x7373C006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7373C001, 0x7373C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7373C001, 0x7373C008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7373C001, 0x7373C009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7373C001, 0x7373C00A, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x7373C001, 0x7373C002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7373C001, 0x7373C003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7373C001, 0x7373C004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7373C001, 0x7373C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7373C001, 0x7373C006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7373C001, 0x7373C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7373C001, 0x7373C008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7373C001, 0x7373C009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7373C001, 0x7373C00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7373C002, 24320, 0x373C0012, 71.0677, 28.17567, -0.09175003, 0.5147941, 0, 0, -0.8573138,  True, '2019-02-10 00:00:00'); /* Great Revenant */

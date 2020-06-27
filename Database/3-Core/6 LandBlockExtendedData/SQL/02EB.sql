@@ -121,35 +121,35 @@ VALUES (0x702EB064,  1154, 0x02EB0245, 20.8548, -41.4831, 0.004999995, 1, 0, 0, 
 /* @teleloc 0x02EB0245 [20.854800 -41.483100 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EB064, 0x702EB065, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB066, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB067, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB068, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB069, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06A, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06B, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06C, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06D, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06E, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB06F, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB070, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB071, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB072, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB073, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB074, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB075, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB076, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB077, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB078, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB079, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB07A, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB07B, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB07C, '2019-02-10 00:00:00') /* Viamontian Torturer */
-     , (0x702EB064, 0x702EB07D, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB07E, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB07F, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB080, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x702EB064, 0x702EB081, '2019-02-10 00:00:00') /* Viamontian Executioner */;
+VALUES (0x702EB064, 0x702EB065, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB066, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB067, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB068, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB069, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06A, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06B, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06C, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06D, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06E, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB06F, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB070, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB071, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB072, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB073, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB074, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB075, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB076, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB077, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB078, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB079, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB07A, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB07B, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB07C, '2019-02-10 00:00:00') /* Viamontian Torturer (29363) */
+     , (0x702EB064, 0x702EB07D, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB07E, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB07F, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB080, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x702EB064, 0x702EB081, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EB065, 29363, 0x02EB0245, 20.8548, -41.4831, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Viamontian Torturer */
@@ -272,9 +272,9 @@ VALUES (0x702EB082,  1154, 0x02EB01E3, 96.108, -79.9628, -23.995, -0.7184311, 0,
 /* @teleloc 0x02EB01E3 [96.108000 -79.962800 -23.995000] -0.718431 0.000000 0.000000 -0.695598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EB082, 0x702EB083, '2019-02-10 00:00:00') /* Klars */
-     , (0x702EB082, 0x702EB084, '2019-02-10 00:00:00') /* Britana */
-     , (0x702EB082, 0x702EB085, '2019-02-10 00:00:00') /* Baggs */;
+VALUES (0x702EB082, 0x702EB083, '2019-02-10 00:00:00') /* Klars (31960) */
+     , (0x702EB082, 0x702EB084, '2019-02-10 00:00:00') /* Britana (31958) */
+     , (0x702EB082, 0x702EB085, '2019-02-10 00:00:00') /* Baggs (31959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EB083, 31960, 0x02EB01E3, 96.108, -79.9628, -23.995, -0.7184311, 0, 0, -0.6955981,  True, '2019-02-10 00:00:00'); /* Klars */
@@ -293,7 +293,7 @@ VALUES (0x702EB086,  1542, 0x02EB0112, 80.0859, -227.431, -35.0126, -0.999938, 0
 /* @teleloc 0x02EB0112 [80.085900 -227.431000 -35.012600] -0.999938 0.000000 0.000000 -0.011165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EB086, 0x702EB087, '2019-02-10 00:00:00') /* Eleonora's Heart */;
+VALUES (0x702EB086, 0x702EB087, '2019-02-10 00:00:00') /* Eleonora's Heart (28760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EB087, 28760, 0x02EB0112, 80.0859, -227.431, -35.0126, -0.999938, 0, 0, -0.0111645,  True, '2019-02-10 00:00:00'); /* Eleonora's Heart */

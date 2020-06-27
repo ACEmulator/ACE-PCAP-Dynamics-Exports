@@ -5,45 +5,45 @@ VALUES (0x745C4001,  1154, 0x45C40003, 14.79276, 52.39137, -0.006500006, -0.8586
 /* @teleloc 0x45C40003 [14.792760 52.391370 -0.006500] -0.858675 0.000000 0.000000 -0.512521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745C4001, 0x745C4002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x745C4001, 0x745C4003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x745C4001, 0x745C4004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x745C4001, 0x745C4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x745C4001, 0x745C4006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x745C4001, 0x745C4007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x745C4001, 0x745C4008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x745C4001, 0x745C4009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x745C4001, 0x745C400A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x745C4001, 0x745C400B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x745C4001, 0x745C400C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x745C4001, 0x745C400D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x745C4001, 0x745C400E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x745C4001, 0x745C400F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x745C4001, 0x745C4010, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x745C4001, 0x745C4011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x745C4001, 0x745C4012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x745C4001, 0x745C4013, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x745C4001, 0x745C4014, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x745C4001, 0x745C4015, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x745C4001, 0x745C4016, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x745C4001, 0x745C4017, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x745C4001, 0x745C4018, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x745C4001, 0x745C4019, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x745C4001, 0x745C401A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x745C4001, 0x745C401B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x745C4001, 0x745C401C, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x745C4001, 0x745C401D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x745C4001, 0x745C401E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x745C4001, 0x745C401F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x745C4001, 0x745C4020, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x745C4001, 0x745C4021, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x745C4001, 0x745C4022, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x745C4001, 0x745C4023, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x745C4001, 0x745C4024, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x745C4001, 0x745C4025, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x745C4001, 0x745C4026, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x745C4001, 0x745C4027, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745C4001, 0x745C4028, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x745C4001, 0x745C4002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x745C4001, 0x745C4003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x745C4001, 0x745C4004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x745C4001, 0x745C4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x745C4001, 0x745C4006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x745C4001, 0x745C4007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x745C4001, 0x745C4008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x745C4001, 0x745C4009, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x745C4001, 0x745C400A, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x745C4001, 0x745C400B, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x745C4001, 0x745C400C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x745C4001, 0x745C400D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x745C4001, 0x745C400E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x745C4001, 0x745C400F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x745C4001, 0x745C4010, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x745C4001, 0x745C4011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x745C4001, 0x745C4012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x745C4001, 0x745C4013, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x745C4001, 0x745C4014, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x745C4001, 0x745C4015, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x745C4001, 0x745C4016, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x745C4001, 0x745C4017, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x745C4001, 0x745C4018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x745C4001, 0x745C4019, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x745C4001, 0x745C401A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x745C4001, 0x745C401B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x745C4001, 0x745C401C, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x745C4001, 0x745C401D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x745C4001, 0x745C401E, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x745C4001, 0x745C401F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x745C4001, 0x745C4020, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x745C4001, 0x745C4021, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x745C4001, 0x745C4022, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x745C4001, 0x745C4023, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x745C4001, 0x745C4024, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x745C4001, 0x745C4025, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x745C4001, 0x745C4026, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x745C4001, 0x745C4027, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745C4001, 0x745C4028, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745C4002, 24287, 0x45C40003, 14.79276, 52.39137, -0.006500006, -0.8586745, 0, 0, -0.5125213,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -206,11 +206,11 @@ VALUES (0x745C4029,  1542, 0x45C4003C, 169.5403, 73.71729, 0, -4.371139E-08, 0, 
 /* @teleloc 0x45C4003C [169.540300 73.717290 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745C4029, 0x745C402A, '2019-02-10 00:00:00') /* Bones */
-     , (0x745C4029, 0x745C402B, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x745C4029, 0x745C402C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x745C4029, 0x745C402D, '2019-02-10 00:00:00') /* Bones */
-     , (0x745C4029, 0x745C402E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x745C4029, 0x745C402A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x745C4029, 0x745C402B, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x745C4029, 0x745C402C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x745C4029, 0x745C402D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x745C4029, 0x745C402E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745C402A,  4380, 0x45C4003C, 169.5403, 73.71729, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

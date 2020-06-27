@@ -5,9 +5,9 @@ VALUES (0x7A56F001,  1154, 0xA56F002C, 127.5968, 82.44746, 27.13404, 0.4506068, 
 /* @teleloc 0xA56F002C [127.596800 82.447460 27.134040] 0.450607 0.000000 0.000000 -0.892723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A56F001, 0x7A56F002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A56F001, 0x7A56F003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A56F001, 0x7A56F004, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7A56F001, 0x7A56F002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A56F001, 0x7A56F003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A56F001, 0x7A56F004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A56F002,   229, 0xA56F002C, 127.5968, 82.44746, 27.13404, 0.4506068, 0, 0, -0.8927225,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -26,7 +26,7 @@ VALUES (0x7A56F005,  1542, 0xA56F001D, 83.25035, 107.6026, 20.09559, 1, 0, 0, 0,
 /* @teleloc 0xA56F001D [83.250350 107.602600 20.095590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A56F005, 0x7A56F006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A56F005, 0x7A56F006, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A56F006, 22570, 0xA56F001D, 83.25035, 107.6026, 20.09559, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

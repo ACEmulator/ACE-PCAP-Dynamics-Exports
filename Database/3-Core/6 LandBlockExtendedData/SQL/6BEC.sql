@@ -5,35 +5,35 @@ VALUES (0x76BEC001,  1154, 0x6BEC000D, 46.25335, 117.4187, 4.453516, -0.9958963,
 /* @teleloc 0x6BEC000D [46.253350 117.418700 4.453516] -0.995896 0.000000 0.000000 -0.090501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BEC001, 0x76BEC002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x76BEC001, 0x76BEC003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76BEC001, 0x76BEC004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76BEC001, 0x76BEC005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76BEC001, 0x76BEC006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x76BEC001, 0x76BEC00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76BEC001, 0x76BEC00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x76BEC001, 0x76BEC00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x76BEC001, 0x76BEC00D, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x76BEC001, 0x76BEC00E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x76BEC001, 0x76BEC00F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76BEC001, 0x76BEC010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76BEC001, 0x76BEC011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76BEC001, 0x76BEC012, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76BEC001, 0x76BEC013, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x76BEC001, 0x76BEC014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x76BEC001, 0x76BEC015, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC016, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76BEC001, 0x76BEC017, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76BEC001, 0x76BEC018, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76BEC001, 0x76BEC019, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x76BEC001, 0x76BEC01A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x76BEC001, 0x76BEC01B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC01C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76BEC001, 0x76BEC01D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x76BEC001, 0x76BEC01E, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x76BEC001, 0x76BEC002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x76BEC001, 0x76BEC003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76BEC001, 0x76BEC004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76BEC001, 0x76BEC005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x76BEC001, 0x76BEC006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x76BEC001, 0x76BEC00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76BEC001, 0x76BEC00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x76BEC001, 0x76BEC00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x76BEC001, 0x76BEC00D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x76BEC001, 0x76BEC00E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x76BEC001, 0x76BEC00F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76BEC001, 0x76BEC010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76BEC001, 0x76BEC011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76BEC001, 0x76BEC012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76BEC001, 0x76BEC013, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x76BEC001, 0x76BEC014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x76BEC001, 0x76BEC015, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC016, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76BEC001, 0x76BEC017, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76BEC001, 0x76BEC018, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76BEC001, 0x76BEC019, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x76BEC001, 0x76BEC01A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x76BEC001, 0x76BEC01B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC01C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76BEC001, 0x76BEC01D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x76BEC001, 0x76BEC01E, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BEC002, 23564, 0x6BEC000D, 46.25335, 117.4187, 4.453516, -0.9958963, 0, 0, -0.09050097,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -156,8 +156,8 @@ VALUES (0x76BEC01F,  1542, 0x6BEC000B, 34.64623, 61.0219, 13.25603, 1, 0, 0, 0, 
 /* @teleloc 0x6BEC000B [34.646230 61.021900 13.256030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BEC01F, 0x76BEC020, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x76BEC01F, 0x76BEC021, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76BEC01F, 0x76BEC020, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x76BEC01F, 0x76BEC021, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BEC020, 31445, 0x6BEC000B, 34.64623, 61.0219, 13.25603, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

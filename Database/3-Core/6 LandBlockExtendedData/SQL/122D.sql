@@ -5,13 +5,13 @@ VALUES (0x7122D001,  1154, 0x122D003F, 188.892, 155.7036, 18.25131, 0.5799594, 0
 /* @teleloc 0x122D003F [188.892000 155.703600 18.251310] 0.579959 0.000000 0.000000 -0.814645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7122D001, 0x7122D002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7122D001, 0x7122D003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7122D001, 0x7122D004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7122D001, 0x7122D005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7122D001, 0x7122D006, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7122D001, 0x7122D007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7122D001, 0x7122D008, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x7122D001, 0x7122D002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7122D001, 0x7122D003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7122D001, 0x7122D004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7122D001, 0x7122D005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7122D001, 0x7122D006, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7122D001, 0x7122D007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7122D001, 0x7122D008, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7122D002, 36820, 0x122D003F, 188.892, 155.7036, 18.25131, 0.5799594, 0, 0, -0.8146454,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

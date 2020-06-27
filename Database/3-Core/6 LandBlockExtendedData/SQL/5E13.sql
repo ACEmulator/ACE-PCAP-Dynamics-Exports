@@ -5,10 +5,10 @@ VALUES (0x75E13001,  1154, 0x5E130009, 37.91561, 19.07983, -0.09250003, 0.282620
 /* @teleloc 0x5E130009 [37.915610 19.079830 -0.092500] 0.282621 0.000000 0.000000 -0.959232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E13001, 0x75E13002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E13001, 0x75E13003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E13001, 0x75E13004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75E13001, 0x75E13005, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75E13001, 0x75E13002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E13001, 0x75E13003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75E13001, 0x75E13004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75E13001, 0x75E13005, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E13002,  7124, 0x5E130009, 37.91561, 19.07983, -0.09250003, 0.2826207, 0, 0, -0.9592317,  True, '2019-02-10 00:00:00'); /* Dark Magus */

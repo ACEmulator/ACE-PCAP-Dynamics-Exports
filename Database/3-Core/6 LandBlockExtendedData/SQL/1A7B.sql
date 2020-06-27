@@ -5,20 +5,20 @@ VALUES (0x71A7B001,  1154, 0x1A7B000E, 25.93725, 139.9828, 139.1973, -0.4725704,
 /* @teleloc 0x1A7B000E [25.937250 139.982800 139.197300] -0.472570 0.000000 0.000000 -0.881293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A7B001, 0x71A7B002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A7B001, 0x71A7B003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A7B001, 0x71A7B004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A7B001, 0x71A7B005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71A7B001, 0x71A7B009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B00A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71A7B001, 0x71A7B00B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71A7B001, 0x71A7B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A7B001, 0x71A7B00E, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71A7B001, 0x71A7B00F, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x71A7B001, 0x71A7B002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A7B001, 0x71A7B003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A7B001, 0x71A7B004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A7B001, 0x71A7B005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71A7B001, 0x71A7B009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B00A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71A7B001, 0x71A7B00B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71A7B001, 0x71A7B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A7B001, 0x71A7B00E, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71A7B001, 0x71A7B00F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A7B002, 24280, 0x1A7B000E, 25.93725, 139.9828, 139.1973, -0.4725704, 0, 0, -0.8812929,  True, '2019-02-10 00:00:00'); /* Murk Drudge */

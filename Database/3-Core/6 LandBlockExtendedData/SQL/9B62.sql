@@ -5,11 +5,11 @@ VALUES (0x79B62001,  1154, 0x9B620027, 104.1264, 158.1543, 30.0025, 0.7874804, 0
 /* @teleloc 0x9B620027 [104.126400 158.154300 30.002500] 0.787480 0.000000 0.000000 -0.616340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B62001, 0x79B62002, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79B62001, 0x79B62003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79B62001, 0x79B62004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79B62001, 0x79B62005, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79B62001, 0x79B62006, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x79B62001, 0x79B62002, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79B62001, 0x79B62003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79B62001, 0x79B62004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79B62001, 0x79B62005, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79B62001, 0x79B62006, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B62002,  5683, 0x9B620027, 104.1264, 158.1543, 30.0025, 0.7874804, 0, 0, -0.6163397,  True, '2019-02-10 00:00:00'); /* Seared Skeleton */
@@ -36,10 +36,10 @@ VALUES (0x79B62007,  1542, 0x9B620034, 147.8609, 89.70585, 37.25682, 1, 0, 0, 0,
 /* @teleloc 0x9B620034 [147.860900 89.705850 37.256820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B62007, 0x79B62008, '2019-02-10 00:00:00') /* Hood */
-     , (0x79B62007, 0x79B62009, '2019-02-10 00:00:00') /* Frost Tungi */
-     , (0x79B62007, 0x79B6200A, '2019-02-10 00:00:00') /* Lead Pea */
-     , (0x79B62007, 0x79B6200B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79B62007, 0x79B62008, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x79B62007, 0x79B62009, '2019-02-10 00:00:00') /* Frost Tungi (3904) */
+     , (0x79B62007, 0x79B6200A, '2019-02-10 00:00:00') /* Lead Pea (8329) */
+     , (0x79B62007, 0x79B6200B, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B62008, 44975, 0x9B620034, 147.8609, 89.70585, 37.25682, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hood */

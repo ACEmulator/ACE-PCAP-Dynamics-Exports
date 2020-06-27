@@ -157,14 +157,14 @@ VALUES (0x749B6044,  1154, 0x49B60127, 87.8275, 139.088, 236, -0.349938, 0, 0, -
 /* @teleloc 0x49B60127 [87.827500 139.088000 236.000000] -0.349938 0.000000 0.000000 -0.936773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B6044, 0x749B6045, '2019-02-10 00:00:00') /* Omarah */
-     , (0x749B6044, 0x749B6046, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x749B6044, 0x749B6047, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x749B6044, 0x749B6048, '2019-02-10 00:00:00') /* Journeyman Fletcher */
-     , (0x749B6044, 0x749B6049, '2019-02-10 00:00:00') /* Small Creepy Statue */
-     , (0x749B6044, 0x749B604A, '2019-02-10 00:00:00') /* Mairisa bint Fuda */
-     , (0x749B6044, 0x749B604B, '2019-02-10 00:00:00') /* Trophy Smith */
-     , (0x749B6044, 0x749B604C, '2019-02-10 00:00:00') /* Jun Sawashima */;
+VALUES (0x749B6044, 0x749B6045, '2019-02-10 00:00:00') /* Omarah (45865) */
+     , (0x749B6044, 0x749B6046, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x749B6044, 0x749B6047, '2019-02-10 00:00:00') /* Leather Crafter (4213) */
+     , (0x749B6044, 0x749B6048, '2019-02-10 00:00:00') /* Journeyman Fletcher (28923) */
+     , (0x749B6044, 0x749B6049, '2019-02-10 00:00:00') /* Small Creepy Statue (25988) */
+     , (0x749B6044, 0x749B604A, '2019-02-10 00:00:00') /* Mairisa bint Fuda (5874) */
+     , (0x749B6044, 0x749B604B, '2019-02-10 00:00:00') /* Trophy Smith (3931) */
+     , (0x749B6044, 0x749B604C, '2019-02-10 00:00:00') /* Jun Sawashima (31692) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B6045, 45865, 0x49B60127, 87.8275, 139.088, 236, -0.349938, 0, 0, -0.936773,  True, '2019-02-10 00:00:00'); /* Omarah */
@@ -203,13 +203,13 @@ VALUES (0x749B604D,  1542, 0x49B60017, 52.85185, 150.0964, 240.0057, 0.511748, 0
 /* @teleloc 0x49B60017 [52.851850 150.096400 240.005700] 0.511748 0.000000 0.000000 -0.859136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B604D, 0x749B604E, '2019-02-10 00:00:00') /* Cow */
-     , (0x749B604D, 0x749B604F, '2019-02-10 00:00:00') /* Cow */
-     , (0x749B604D, 0x749B6050, '2019-02-10 00:00:00') /* Cow */
-     , (0x749B604D, 0x749B6051, '2019-02-10 00:00:00') /* Gateway */
-     , (0x749B604D, 0x749B6052, '2019-02-10 00:00:00') /* Gateway */
-     , (0x749B604D, 0x749B6053, '2019-02-10 00:00:00') /* Cow */
-     , (0x749B604D, 0x749B6054, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x749B604D, 0x749B604E, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x749B604D, 0x749B604F, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x749B604D, 0x749B6050, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x749B604D, 0x749B6051, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x749B604D, 0x749B6052, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x749B604D, 0x749B6053, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x749B604D, 0x749B6054, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B604E,    14, 0x49B60017, 52.85185, 150.0964, 240.0057, 0.511748, 0, 0, -0.859136,  True, '2019-02-10 00:00:00'); /* Cow */

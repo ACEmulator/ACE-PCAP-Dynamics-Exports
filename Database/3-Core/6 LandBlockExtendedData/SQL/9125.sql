@@ -5,9 +5,9 @@ VALUES (0x79125001,  1154, 0x91250031, 147.0936, 10.43985, 88.51365, 0.7933533, 
 /* @teleloc 0x91250031 [147.093600 10.439850 88.513650] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79125001, 0x79125002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79125001, 0x79125003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79125001, 0x79125004, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x79125001, 0x79125002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79125001, 0x79125003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79125001, 0x79125004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79125002,  7179, 0x91250031, 147.0936, 10.43985, 88.51365, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */

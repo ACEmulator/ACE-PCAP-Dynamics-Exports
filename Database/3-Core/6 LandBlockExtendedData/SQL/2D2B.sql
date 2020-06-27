@@ -5,18 +5,18 @@ VALUES (0x72D2B001,  1154, 0x2D2B000D, 34.10457, 108.7296, 25.5675, 0.8870109, 0
 /* @teleloc 0x2D2B000D [34.104570 108.729600 25.567500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D2B001, 0x72D2B002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D2B001, 0x72D2B003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72D2B001, 0x72D2B004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72D2B001, 0x72D2B005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72D2B001, 0x72D2B006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72D2B001, 0x72D2B007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D2B001, 0x72D2B008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72D2B001, 0x72D2B009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D2B001, 0x72D2B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D2B001, 0x72D2B00B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D2B001, 0x72D2B00C, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72D2B001, 0x72D2B00D, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x72D2B001, 0x72D2B002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D2B001, 0x72D2B003, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D2B001, 0x72D2B004, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72D2B001, 0x72D2B005, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D2B001, 0x72D2B006, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72D2B001, 0x72D2B007, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72D2B001, 0x72D2B008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72D2B001, 0x72D2B009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72D2B001, 0x72D2B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D2B001, 0x72D2B00B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D2B001, 0x72D2B00C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72D2B001, 0x72D2B00D, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D2B002, 36845, 0x2D2B000D, 34.10457, 108.7296, 25.5675, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

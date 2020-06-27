@@ -5,10 +5,10 @@ VALUES (0x7A653001,  1154, 0xA653001E, 83.82011, 120.535, 33.05937, 0.9996823, 0
 /* @teleloc 0xA653001E [83.820110 120.535000 33.059370] 0.999682 0.000000 0.000000 -0.025206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A653001, 0x7A653002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A653001, 0x7A653003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A653001, 0x7A653004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A653001, 0x7A653005, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7A653001, 0x7A653002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A653001, 0x7A653003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A653001, 0x7A653004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A653001, 0x7A653005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A653002,  5497, 0xA653001E, 83.82011, 120.535, 33.05937, 0.9996823, 0, 0, -0.0252055,  True, '2019-02-10 00:00:00'); /* Virindi Director */
@@ -31,7 +31,7 @@ VALUES (0x7A653006,  1542, 0xA653001E, 72.9279, 133.4654, 34.40317, 0.9996823, 0
 /* @teleloc 0xA653001E [72.927900 133.465400 34.403170] 0.999682 0.000000 0.000000 -0.025206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A653006, 0x7A653007, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7A653006, 0x7A653007, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A653007, 15715, 0xA653001E, 72.9279, 133.4654, 34.40317, 0.9996823, 0, 0, -0.0252055,  True, '2019-02-10 00:00:00'); /* Sunflower */

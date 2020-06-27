@@ -5,10 +5,10 @@ VALUES (0x78093001,  1154, 0x8093003B, 170.5619, 59.60203, 115.365, -0.4228583, 
 /* @teleloc 0x8093003B [170.561900 59.602030 115.365000] -0.422858 0.000000 0.000000 -0.906196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78093001, 0x78093002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78093001, 0x78093003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x78093001, 0x78093004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78093001, 0x78093005, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x78093001, 0x78093002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78093001, 0x78093003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x78093001, 0x78093004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78093001, 0x78093005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78093002,  9253, 0x8093003B, 170.5619, 59.60203, 115.365, -0.4228583, 0, 0, -0.9061958,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

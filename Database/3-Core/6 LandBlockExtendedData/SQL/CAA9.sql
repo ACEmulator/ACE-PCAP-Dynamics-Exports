@@ -5,23 +5,23 @@ VALUES (0x7CAA9001,  1154, 0xCAA90006, 22.02184, 129.2426, 55.82678, 0.3123974, 
 /* @teleloc 0xCAA90006 [22.021840 129.242600 55.826780] 0.312397 0.000000 0.000000 -0.949952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAA9001, 0x7CAA9002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CAA9001, 0x7CAA9003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CAA9001, 0x7CAA9004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CAA9001, 0x7CAA9005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CAA9001, 0x7CAA9006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CAA9001, 0x7CAA9007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CAA9001, 0x7CAA9008, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CAA9001, 0x7CAA9009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CAA9001, 0x7CAA900A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CAA9001, 0x7CAA900B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CAA9001, 0x7CAA900C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CAA9001, 0x7CAA900D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CAA9001, 0x7CAA900E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CAA9001, 0x7CAA900F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CAA9001, 0x7CAA9010, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CAA9001, 0x7CAA9011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CAA9001, 0x7CAA9012, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7CAA9001, 0x7CAA9002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CAA9001, 0x7CAA9003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CAA9001, 0x7CAA9004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CAA9001, 0x7CAA9005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CAA9001, 0x7CAA9006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CAA9001, 0x7CAA9007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CAA9001, 0x7CAA9008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CAA9001, 0x7CAA9009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CAA9001, 0x7CAA900A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CAA9001, 0x7CAA900B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CAA9001, 0x7CAA900C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CAA9001, 0x7CAA900D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CAA9001, 0x7CAA900E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CAA9001, 0x7CAA900F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CAA9001, 0x7CAA9010, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CAA9001, 0x7CAA9011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CAA9001, 0x7CAA9012, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAA9002, 22010, 0xCAA90006, 22.02184, 129.2426, 55.82678, 0.3123974, 0, 0, -0.9499515,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -96,7 +96,7 @@ VALUES (0x7CAA9013,  1542, 0xCAA90030, 120.1916, 185.5405, 58.01597, 0.9990482, 
 /* @teleloc 0xCAA90030 [120.191600 185.540500 58.015970] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAA9013, 0x7CAA9014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CAA9013, 0x7CAA9014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAA9014,  4179, 0xCAA90030, 120.1916, 185.5405, 58.01597, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

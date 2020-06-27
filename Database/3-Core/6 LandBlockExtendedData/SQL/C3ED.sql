@@ -5,13 +5,13 @@ VALUES (0x7C3ED001,  1154, 0xC3ED0035, 151.4252, 104.0743, -0.45, 0.9937114, 0, 
 /* @teleloc 0xC3ED0035 [151.425200 104.074300 -0.450000] 0.993711 0.000000 0.000000 -0.111971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3ED001, 0x7C3ED002, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C3ED001, 0x7C3ED003, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C3ED001, 0x7C3ED004, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C3ED001, 0x7C3ED005, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C3ED001, 0x7C3ED006, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3ED001, 0x7C3ED007, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3ED001, 0x7C3ED008, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */;
+VALUES (0x7C3ED001, 0x7C3ED002, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C3ED001, 0x7C3ED003, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3ED001, 0x7C3ED004, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3ED001, 0x7C3ED005, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3ED001, 0x7C3ED006, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C3ED001, 0x7C3ED007, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3ED001, 0x7C3ED008, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3ED002, 33739, 0xC3ED0035, 151.4252, 104.0743, -0.45, 0.9937114, 0, 0, -0.1119714,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */

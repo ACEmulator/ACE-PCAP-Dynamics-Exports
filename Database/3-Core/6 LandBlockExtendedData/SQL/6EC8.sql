@@ -5,11 +5,11 @@ VALUES (0x76EC8001,  1154, 0x6EC8003B, 191.3458, 55.15622, 204.6577, 0.8660254, 
 /* @teleloc 0x6EC8003B [191.345800 55.156220 204.657700] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EC8001, 0x76EC8002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76EC8001, 0x76EC8003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76EC8001, 0x76EC8004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76EC8001, 0x76EC8005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x76EC8001, 0x76EC8006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x76EC8001, 0x76EC8002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76EC8001, 0x76EC8003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76EC8001, 0x76EC8004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76EC8001, 0x76EC8005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x76EC8001, 0x76EC8006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EC8002,  7982, 0x6EC8003B, 191.3458, 55.15622, 204.6577, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

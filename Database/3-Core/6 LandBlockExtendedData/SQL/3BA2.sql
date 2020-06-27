@@ -5,22 +5,22 @@ VALUES (0x73BA2001,  1154, 0x3BA2003F, 179.2323, 158.2022, 9.396382, -0.6888584,
 /* @teleloc 0x3BA2003F [179.232300 158.202200 9.396382] -0.688858 0.000000 0.000000 -0.724896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BA2001, 0x73BA2002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x73BA2001, 0x73BA2003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73BA2001, 0x73BA2004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA2005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA2006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA2007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73BA2001, 0x73BA2008, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x73BA2001, 0x73BA2009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73BA2001, 0x73BA200A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73BA2001, 0x73BA200B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73BA2001, 0x73BA200C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73BA2001, 0x73BA200D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA200E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA200F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73BA2001, 0x73BA2010, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73BA2001, 0x73BA2011, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x73BA2001, 0x73BA2002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x73BA2001, 0x73BA2003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73BA2001, 0x73BA2004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA2005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA2006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA2007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73BA2001, 0x73BA2008, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x73BA2001, 0x73BA2009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73BA2001, 0x73BA200A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73BA2001, 0x73BA200B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73BA2001, 0x73BA200C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73BA2001, 0x73BA200D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA200E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA200F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73BA2001, 0x73BA2010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73BA2001, 0x73BA2011, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BA2002,  7780, 0x3BA2003F, 179.2323, 158.2022, 9.396382, -0.6888584, 0, 0, -0.7248958,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -91,8 +91,8 @@ VALUES (0x73BA2012,  1542, 0x3BA2001C, 82.6838, 78.54854, 17.56127, 1, 0, 0, 0, 
 /* @teleloc 0x3BA2001C [82.683800 78.548540 17.561270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BA2012, 0x73BA2013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73BA2012, 0x73BA2014, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x73BA2012, 0x73BA2013, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x73BA2012, 0x73BA2014, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BA2013, 22571, 0x3BA2001C, 82.6838, 78.54854, 17.56127, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

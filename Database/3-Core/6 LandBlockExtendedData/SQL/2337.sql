@@ -5,16 +5,16 @@ VALUES (0x72337001,  1154, 0x23370040, 187.2476, 174.7307, -0.4499986, 0.8466016
 /* @teleloc 0x23370040 [187.247600 174.730700 -0.449999] 0.846602 0.000000 0.000000 -0.532227 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72337001, 0x72337002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72337001, 0x72337003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72337001, 0x72337004, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72337001, 0x72337005, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72337001, 0x72337006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72337001, 0x72337007, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72337001, 0x72337008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72337001, 0x72337009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72337001, 0x7233700A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72337001, 0x7233700B, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x72337001, 0x72337002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72337001, 0x72337003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72337001, 0x72337004, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72337001, 0x72337005, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x72337001, 0x72337006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72337001, 0x72337007, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72337001, 0x72337008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72337001, 0x72337009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72337001, 0x7233700A, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72337001, 0x7233700B, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72337002,  7125, 0x23370040, 187.2476, 174.7307, -0.4499986, 0.8466016, 0, 0, -0.5322272,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -61,7 +61,7 @@ VALUES (0x7233700C,  1542, 0x23370022, 113.0199, 31.66765, -0.11, 0.1022518, 0, 
 /* @teleloc 0x23370022 [113.019900 31.667650 -0.110000] 0.102252 0.000000 0.000000 -0.994759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7233700C, 0x7233700D, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7233700C, 0x7233700D, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7233700D,  9286, 0x23370022, 113.0199, 31.66765, -0.11, 0.1022518, 0, 0, -0.9947585,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

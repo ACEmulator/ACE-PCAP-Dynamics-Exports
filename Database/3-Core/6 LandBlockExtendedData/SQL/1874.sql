@@ -5,25 +5,25 @@ VALUES (0x71874001,  1154, 0x18740027, 107.6306, 158.5517, 158.0719, -0.8393945,
 /* @teleloc 0x18740027 [107.630600 158.551700 158.071900] -0.839395 0.000000 0.000000 -0.543523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71874001, 0x71874002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71874001, 0x71874003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71874001, 0x71874004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71874001, 0x71874005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71874001, 0x71874006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71874001, 0x71874007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71874001, 0x71874008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71874001, 0x71874009, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71874001, 0x7187400A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71874001, 0x7187400B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71874001, 0x7187400C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71874001, 0x7187400D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71874001, 0x7187400E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71874001, 0x7187400F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71874001, 0x71874010, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71874001, 0x71874011, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71874001, 0x71874012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71874001, 0x71874013, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x71874001, 0x71874014, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x71874001, 0x71874002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71874001, 0x71874003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71874001, 0x71874004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71874001, 0x71874005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71874001, 0x71874006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71874001, 0x71874007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71874001, 0x71874008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71874001, 0x71874009, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71874001, 0x7187400A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71874001, 0x7187400B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71874001, 0x7187400C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71874001, 0x7187400D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71874001, 0x7187400E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71874001, 0x7187400F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71874001, 0x71874010, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71874001, 0x71874011, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71874001, 0x71874012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71874001, 0x71874013, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x71874001, 0x71874014, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71874002, 11541, 0x18740027, 107.6306, 158.5517, 158.0719, -0.8393945, 0, 0, -0.5435226,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -106,7 +106,7 @@ VALUES (0x71874015,  1542, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 
 /* @teleloc 0x18740029 [138.578200 7.420378 164.670700] 0.227882 0.000000 0.000000 -0.973689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71874015, 0x71874016, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x71874015, 0x71874016, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71874016, 11555, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 0, 0, -0.9736887,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

@@ -5,14 +5,14 @@ VALUES (0x76BED001,  1154, 0x6BED0024, 106.8908, 76.4017, -0.446, 0.8870109, 0, 
 /* @teleloc 0x6BED0024 [106.890800 76.401700 -0.446000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BED001, 0x76BED002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76BED001, 0x76BED003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76BED001, 0x76BED004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76BED001, 0x76BED005, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76BED001, 0x76BED006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76BED001, 0x76BED007, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x76BED001, 0x76BED008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76BED001, 0x76BED009, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x76BED001, 0x76BED002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76BED001, 0x76BED003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76BED001, 0x76BED004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76BED001, 0x76BED005, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76BED001, 0x76BED006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76BED001, 0x76BED007, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x76BED001, 0x76BED008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x76BED001, 0x76BED009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BED002,  4254, 0x6BED0024, 106.8908, 76.4017, -0.446, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

@@ -5,17 +5,17 @@ VALUES (0x72E94001,  1154, 0x2E940015, 53.13818, 99.90608, -0.1, -0.6598425, 0, 
 /* @teleloc 0x2E940015 [53.138180 99.906080 -0.100000] -0.659843 0.000000 0.000000 -0.751404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E94001, 0x72E94002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72E94001, 0x72E94003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72E94001, 0x72E94004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E94001, 0x72E94005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72E94001, 0x72E94006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72E94001, 0x72E94007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72E94001, 0x72E94008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72E94001, 0x72E94009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72E94001, 0x72E9400A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72E94001, 0x72E9400B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72E94001, 0x72E9400C, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72E94001, 0x72E94002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72E94001, 0x72E94003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72E94001, 0x72E94004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E94001, 0x72E94005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72E94001, 0x72E94006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72E94001, 0x72E94007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72E94001, 0x72E94008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72E94001, 0x72E94009, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72E94001, 0x72E9400A, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72E94001, 0x72E9400B, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72E94001, 0x72E9400C, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E94002,  7112, 0x2E940015, 53.13818, 99.90608, -0.1, -0.6598425, 0, 0, -0.7514039,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

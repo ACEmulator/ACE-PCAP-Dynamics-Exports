@@ -5,15 +5,15 @@ VALUES (0x7B40D001,  1154, 0xB40D0017, 49.21249, 157.8117, -0.09339994, -0.99213
 /* @teleloc 0xB40D0017 [49.212490 157.811700 -0.093400] -0.992140 0.000000 0.000000 -0.125137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B40D001, 0x7B40D002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7B40D001, 0x7B40D003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7B40D001, 0x7B40D004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B40D001, 0x7B40D005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7B40D001, 0x7B40D006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7B40D001, 0x7B40D007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B40D001, 0x7B40D008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B40D001, 0x7B40D009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B40D001, 0x7B40D00A, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7B40D001, 0x7B40D002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7B40D001, 0x7B40D003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7B40D001, 0x7B40D004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B40D001, 0x7B40D005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7B40D001, 0x7B40D006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7B40D001, 0x7B40D007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B40D001, 0x7B40D008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B40D001, 0x7B40D009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B40D001, 0x7B40D00A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B40D002,  7103, 0xB40D0017, 49.21249, 157.8117, -0.09339994, -0.9921395, 0, 0, -0.1251369,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -56,7 +56,7 @@ VALUES (0x7B40D00B,  1542, 0xB40D0010, 37.4267, 189.7168, 3.556463, 0.9537169, 0
 /* @teleloc 0xB40D0010 [37.426700 189.716800 3.556463] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B40D00B, 0x7B40D00C, '2019-02-10 00:00:00') /* Direlands Southwest Shore Portal */;
+VALUES (0x7B40D00B, 0x7B40D00C, '2019-02-10 00:00:00') /* Direlands Southwest Shore Portal (8384) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B40D00C,  8384, 0xB40D0010, 37.4267, 189.7168, 3.556463, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southwest Shore Portal */

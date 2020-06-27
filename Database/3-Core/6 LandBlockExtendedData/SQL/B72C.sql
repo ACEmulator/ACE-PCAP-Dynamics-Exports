@@ -5,17 +5,17 @@ VALUES (0x7B72C001,  1154, 0xB72C000B, 25.14417, 58.86322, 273.3247, 0.3420202, 
 /* @teleloc 0xB72C000B [25.144170 58.863220 273.324700] 0.342020 0.000000 0.000000 -0.939693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72C001, 0x7B72C002, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B72C001, 0x7B72C003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B72C001, 0x7B72C004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B72C001, 0x7B72C005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B72C001, 0x7B72C006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B72C001, 0x7B72C007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B72C001, 0x7B72C008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B72C001, 0x7B72C009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B72C001, 0x7B72C00A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B72C001, 0x7B72C00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B72C001, 0x7B72C00C, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7B72C001, 0x7B72C002, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B72C001, 0x7B72C003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B72C001, 0x7B72C004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B72C001, 0x7B72C005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B72C001, 0x7B72C006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B72C001, 0x7B72C007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B72C001, 0x7B72C008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B72C001, 0x7B72C009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B72C001, 0x7B72C00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B72C001, 0x7B72C00B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B72C001, 0x7B72C00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B72C002,  2573, 0xB72C000B, 25.14417, 58.86322, 273.3247, 0.3420202, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* K'nath T'aed */
@@ -66,8 +66,8 @@ VALUES (0x7B72C00D,  1542, 0xB72C0019, 79.83363, 16.98016, 255.0369, 0.9952689, 
 /* @teleloc 0xB72C0019 [79.833630 16.980160 255.036900] 0.995269 0.000000 0.000000 -0.097159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72C00D, 0x7B72C00E, '2019-02-10 00:00:00') /* Rock */
-     , (0x7B72C00D, 0x7B72C00F, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7B72C00D, 0x7B72C00E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B72C00D, 0x7B72C00F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B72C00E, 42528, 0xB72C0019, 79.83363, 16.98016, 255.0369, 0.9952689, 0, 0, -0.09715917,  True, '2019-02-10 00:00:00'); /* Rock */

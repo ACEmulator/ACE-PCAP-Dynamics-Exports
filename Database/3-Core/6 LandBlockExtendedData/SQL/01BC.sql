@@ -33,20 +33,20 @@ VALUES (0x701BC018,  1154, 0x01BC0112, 27.7444, -55.8165, 0.005500019, 0.123169,
 /* @teleloc 0x01BC0112 [27.744400 -55.816500 0.005500] 0.123169 0.000000 0.000000 -0.992386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BC018, 0x701BC019, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x701BC018, 0x701BC01A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BC018, 0x701BC01B, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701BC018, 0x701BC01C, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BC018, 0x701BC01D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BC018, 0x701BC01E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BC018, 0x701BC01F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x701BC018, 0x701BC020, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BC018, 0x701BC021, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BC018, 0x701BC022, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BC018, 0x701BC023, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BC018, 0x701BC024, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x701BC018, 0x701BC025, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x701BC018, 0x701BC026, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x701BC018, 0x701BC019, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x701BC018, 0x701BC01A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BC018, 0x701BC01B, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701BC018, 0x701BC01C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BC018, 0x701BC01D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BC018, 0x701BC01E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BC018, 0x701BC01F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x701BC018, 0x701BC020, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BC018, 0x701BC021, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BC018, 0x701BC022, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BC018, 0x701BC023, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BC018, 0x701BC024, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x701BC018, 0x701BC025, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x701BC018, 0x701BC026, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BC019,   231, 0x01BC0112, 27.7444, -55.8165, 0.005500019, 0.123169, 0, 0, -0.992386,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

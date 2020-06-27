@@ -5,15 +5,15 @@ VALUES (0x79FAF001,  1154, 0x9FAF0019, 79.15289, 18.11666, 117.8997, 1, 0, 0, 0,
 /* @teleloc 0x9FAF0019 [79.152890 18.116660 117.899700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FAF001, 0x79FAF002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FAF001, 0x79FAF003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FAF001, 0x79FAF004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FAF001, 0x79FAF005, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79FAF001, 0x79FAF006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79FAF001, 0x79FAF007, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79FAF001, 0x79FAF008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FAF001, 0x79FAF009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79FAF001, 0x79FAF00A, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x79FAF001, 0x79FAF002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FAF001, 0x79FAF003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79FAF001, 0x79FAF004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79FAF001, 0x79FAF005, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79FAF001, 0x79FAF006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79FAF001, 0x79FAF007, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79FAF001, 0x79FAF008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FAF001, 0x79FAF009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FAF001, 0x79FAF00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FAF002,   231, 0x9FAF0019, 79.15289, 18.11666, 117.8997, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -56,9 +56,9 @@ VALUES (0x79FAF00B,  1542, 0x9FAF0019, 80.68669, 16.29544, 117.916, 1, 0, 0, 0, 
 /* @teleloc 0x9FAF0019 [80.686690 16.295440 117.916000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FAF00B, 0x79FAF00C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x79FAF00B, 0x79FAF00D, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x79FAF00B, 0x79FAF00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79FAF00B, 0x79FAF00C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x79FAF00B, 0x79FAF00D, '2019-02-10 00:00:00') /* Old Gravestone (34132) */
+     , (0x79FAF00B, 0x79FAF00E, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FAF00C, 31443, 0x9FAF0019, 80.68669, 16.29544, 117.916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

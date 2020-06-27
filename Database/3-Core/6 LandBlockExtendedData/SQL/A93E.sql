@@ -5,11 +5,11 @@ VALUES (0x7A93E001,  1154, 0xA93E000E, 41.90292, 128.5401, 39.49331, 1, 0, 0, 0,
 /* @teleloc 0xA93E000E [41.902920 128.540100 39.493310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A93E001, 0x7A93E002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A93E001, 0x7A93E003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A93E001, 0x7A93E004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A93E001, 0x7A93E005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A93E001, 0x7A93E006, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A93E001, 0x7A93E002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A93E001, 0x7A93E003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A93E001, 0x7A93E004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A93E001, 0x7A93E005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A93E001, 0x7A93E006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A93E002,    18, 0xA93E000E, 41.90292, 128.5401, 39.49331, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */

@@ -5,10 +5,10 @@ VALUES (0x717BB001,  1154, 0x17BB0013, 57.46661, 68.14235, 23.52359, 0.7252236, 
 /* @teleloc 0x17BB0013 [57.466610 68.142350 23.523590] 0.725224 0.000000 0.000000 -0.688514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717BB001, 0x717BB002, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x717BB001, 0x717BB003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x717BB001, 0x717BB004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x717BB001, 0x717BB005, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x717BB001, 0x717BB002, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x717BB001, 0x717BB003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x717BB001, 0x717BB004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x717BB001, 0x717BB005, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717BB002, 11491, 0x17BB0013, 57.46661, 68.14235, 23.52359, 0.7252236, 0, 0, -0.6885135,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */

@@ -5,17 +5,17 @@ VALUES (0x795D9001,  1154, 0x95D90010, 32.26353, 168.6349, 124.6169, -0.7796085,
 /* @teleloc 0x95D90010 [32.263530 168.634900 124.616900] -0.779609 0.000000 0.000000 -0.626267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D9001, 0x795D9002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795D9001, 0x795D9003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795D9001, 0x795D9004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795D9001, 0x795D9005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795D9001, 0x795D9006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795D9001, 0x795D9007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x795D9001, 0x795D9008, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x795D9001, 0x795D9009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x795D9001, 0x795D900A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x795D9001, 0x795D900B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x795D9001, 0x795D900C, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x795D9001, 0x795D9002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795D9001, 0x795D9003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795D9001, 0x795D9004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795D9001, 0x795D9005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795D9001, 0x795D9006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795D9001, 0x795D9007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x795D9001, 0x795D9008, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x795D9001, 0x795D9009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x795D9001, 0x795D900A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x795D9001, 0x795D900B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x795D9001, 0x795D900C, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D9002,  7333, 0x95D90010, 32.26353, 168.6349, 124.6169, -0.7796085, 0, 0, -0.6262671,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

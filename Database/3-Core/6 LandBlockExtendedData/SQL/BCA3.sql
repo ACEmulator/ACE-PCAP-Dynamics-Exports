@@ -5,12 +5,12 @@ VALUES (0x7BCA3001,  1154, 0xBCA30020, 82.58949, 189.6995, 25.31925, 0.849012, 0
 /* @teleloc 0xBCA30020 [82.589490 189.699500 25.319250] 0.849012 0.000000 0.000000 -0.528374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCA3001, 0x7BCA3002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BCA3001, 0x7BCA3003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BCA3001, 0x7BCA3004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BCA3001, 0x7BCA3005, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BCA3001, 0x7BCA3006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BCA3001, 0x7BCA3007, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7BCA3001, 0x7BCA3002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BCA3001, 0x7BCA3003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BCA3001, 0x7BCA3004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BCA3001, 0x7BCA3005, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BCA3001, 0x7BCA3006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BCA3001, 0x7BCA3007, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCA3002,   202, 0xBCA30020, 82.58949, 189.6995, 25.31925, 0.849012, 0, 0, -0.5283737,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

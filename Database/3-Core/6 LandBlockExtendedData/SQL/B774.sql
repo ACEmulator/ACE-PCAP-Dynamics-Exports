@@ -5,11 +5,11 @@ VALUES (0x7B774001,  1154, 0xB774000A, 45.09874, 41.1169, 25.3674, -0.6568111, 0
 /* @teleloc 0xB774000A [45.098740 41.116900 25.367400] -0.656811 0.000000 0.000000 -0.754055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B774001, 0x7B774002, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B774001, 0x7B774003, '2019-02-10 00:00:00') /* Static */
-     , (0x7B774001, 0x7B774004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B774001, 0x7B774005, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B774001, 0x7B774006, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7B774001, 0x7B774002, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B774001, 0x7B774003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B774001, 0x7B774004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B774001, 0x7B774005, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B774001, 0x7B774006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B774002,  4132, 0xB774000A, 45.09874, 41.1169, 25.3674, -0.6568111, 0, 0, -0.7540551,  True, '2019-02-10 00:00:00'); /* Russet Rat */

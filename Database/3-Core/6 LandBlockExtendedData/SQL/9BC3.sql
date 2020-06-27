@@ -5,13 +5,13 @@ VALUES (0x79BC3001,  1154, 0x9BC3002E, 124.3329, 127.3369, 27.912, -0.2832279, 0
 /* @teleloc 0x9BC3002E [124.332900 127.336900 27.912000] -0.283228 0.000000 0.000000 0.959053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BC3001, 0x79BC3002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79BC3001, 0x79BC3008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x79BC3001, 0x79BC3002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79BC3001, 0x79BC3008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BC3002,   215, 0x9BC3002E, 124.3329, 127.3369, 27.912, -0.2832279, 0, 0, 0.9590526,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

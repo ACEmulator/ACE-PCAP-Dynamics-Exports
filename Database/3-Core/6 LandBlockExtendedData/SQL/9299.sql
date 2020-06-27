@@ -5,10 +5,10 @@ VALUES (0x79299001,  1154, 0x92990019, 92.20853, 6.85566, 41.15261, 0.919979, 0,
 /* @teleloc 0x92990019 [92.208530 6.855660 41.152610] 0.919979 0.000000 0.000000 -0.391968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79299001, 0x79299002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79299001, 0x79299003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79299001, 0x79299004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79299001, 0x79299005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79299001, 0x79299002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79299001, 0x79299003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79299001, 0x79299004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79299001, 0x79299005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79299002, 11528, 0x92990019, 92.20853, 6.85566, 41.15261, 0.919979, 0, 0, -0.3919675,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

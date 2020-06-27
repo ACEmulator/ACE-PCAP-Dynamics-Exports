@@ -5,12 +5,12 @@ VALUES (0x78D83001,  1154, 0x8D830031, 159.5322, 6.753357, 57.29386, 0.3001676, 
 /* @teleloc 0x8D830031 [159.532200 6.753357 57.293860] 0.300168 0.000000 0.000000 -0.953886 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D83001, 0x78D83002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78D83001, 0x78D83003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78D83001, 0x78D83004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D83001, 0x78D83005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D83001, 0x78D83006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D83001, 0x78D83007, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x78D83001, 0x78D83002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78D83001, 0x78D83003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78D83001, 0x78D83004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D83001, 0x78D83005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D83001, 0x78D83006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D83001, 0x78D83007, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D83002,  7345, 0x8D830031, 159.5322, 6.753357, 57.29386, 0.3001676, 0, 0, -0.9538864,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -41,7 +41,7 @@ VALUES (0x78D83008,  1542, 0x8D830021, 99.59038, 4.425354, 56.44022, 0.7660445, 
 /* @teleloc 0x8D830021 [99.590380 4.425354 56.440220] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D83008, 0x78D83009, '2019-02-10 00:00:00') /* Baggy Shirt */;
+VALUES (0x78D83008, 0x78D83009, '2019-02-10 00:00:00') /* Baggy Shirt (2590) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D83009,  2590, 0x8D830021, 99.59038, 4.425354, 56.44022, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Baggy Shirt */

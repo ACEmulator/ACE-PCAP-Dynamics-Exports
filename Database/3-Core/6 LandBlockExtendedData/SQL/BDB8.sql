@@ -5,19 +5,19 @@ VALUES (0x7BDB8001,  1154, 0xBDB8002C, 139.8691, 91.64744, 194.91, 0.9589348, 0,
 /* @teleloc 0xBDB8002C [139.869100 91.647440 194.910000] 0.958935 0.000000 0.000000 -0.283627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB8001, 0x7BDB8002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BDB8001, 0x7BDB8003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB8001, 0x7BDB8004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BDB8001, 0x7BDB8005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB8001, 0x7BDB8006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BDB8001, 0x7BDB8007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BDB8001, 0x7BDB8008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BDB8001, 0x7BDB8009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BDB8001, 0x7BDB800A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB8001, 0x7BDB800B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB8001, 0x7BDB800C, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7BDB8001, 0x7BDB800D, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB8001, 0x7BDB800E, '2019-02-10 00:00:00') /* Snowy Mattekar */;
+VALUES (0x7BDB8001, 0x7BDB8002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BDB8001, 0x7BDB8003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB8001, 0x7BDB8004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BDB8001, 0x7BDB8005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB8001, 0x7BDB8006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BDB8001, 0x7BDB8007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BDB8001, 0x7BDB8008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BDB8001, 0x7BDB8009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BDB8001, 0x7BDB800A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB8001, 0x7BDB800B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB8001, 0x7BDB800C, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7BDB8001, 0x7BDB800D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB8001, 0x7BDB800E, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB8002,  9253, 0xBDB8002C, 139.8691, 91.64744, 194.91, 0.9589348, 0, 0, -0.2836265,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

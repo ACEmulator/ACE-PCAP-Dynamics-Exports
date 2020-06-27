@@ -5,11 +5,11 @@ VALUES (0x7415A001,  1154, 0x415A000C, 39.69754, 95.01987, 16.08386, -0.9989248,
 /* @teleloc 0x415A000C [39.697540 95.019870 16.083860] -0.998925 0.000000 0.000000 -0.046360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7415A001, 0x7415A002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7415A001, 0x7415A003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7415A001, 0x7415A004, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7415A001, 0x7415A005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7415A001, 0x7415A006, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x7415A001, 0x7415A002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7415A001, 0x7415A003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7415A001, 0x7415A004, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7415A001, 0x7415A005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7415A001, 0x7415A006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7415A002, 24320, 0x415A000C, 39.69754, 95.01987, 16.08386, -0.9989248, 0, 0, -0.04635976,  True, '2019-02-10 00:00:00'); /* Great Revenant */

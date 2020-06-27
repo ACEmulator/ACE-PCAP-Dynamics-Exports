@@ -5,25 +5,25 @@ VALUES (0x7AC85001,  1154, 0xAC850011, 50.55359, 4.554937, 46.98535, 0.7071068, 
 /* @teleloc 0xAC850011 [50.553590 4.554937 46.985350] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC85001, 0x7AC85002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC85001, 0x7AC85003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC85001, 0x7AC85004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC85001, 0x7AC85005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC85001, 0x7AC85006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC85001, 0x7AC85007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AC85001, 0x7AC85008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AC85001, 0x7AC85009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AC85001, 0x7AC8500A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AC85001, 0x7AC8500B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC85001, 0x7AC8500C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC85001, 0x7AC8500D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC85001, 0x7AC8500E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AC85001, 0x7AC8500F, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC85001, 0x7AC85010, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC85001, 0x7AC85011, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC85001, 0x7AC85012, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AC85001, 0x7AC85013, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AC85001, 0x7AC85014, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7AC85001, 0x7AC85002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC85001, 0x7AC85003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC85001, 0x7AC85004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC85001, 0x7AC85005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC85001, 0x7AC85006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC85001, 0x7AC85007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AC85001, 0x7AC85008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AC85001, 0x7AC85009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AC85001, 0x7AC8500A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AC85001, 0x7AC8500B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AC85001, 0x7AC8500C, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AC85001, 0x7AC8500D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC85001, 0x7AC8500E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AC85001, 0x7AC8500F, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC85001, 0x7AC85010, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC85001, 0x7AC85011, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC85001, 0x7AC85012, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AC85001, 0x7AC85013, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AC85001, 0x7AC85014, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC85002,  1608, 0xAC850011, 50.55359, 4.554937, 46.98535, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -106,7 +106,7 @@ VALUES (0x7AC85015,  1542, 0xAC850009, 44.27569, 9.847271, 48.41867, 1, 0, 0, 0,
 /* @teleloc 0xAC850009 [44.275690 9.847271 48.418670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC85015, 0x7AC85016, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AC85015, 0x7AC85016, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC85016, 31443, 0xAC850009, 44.27569, 9.847271, 48.41867, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

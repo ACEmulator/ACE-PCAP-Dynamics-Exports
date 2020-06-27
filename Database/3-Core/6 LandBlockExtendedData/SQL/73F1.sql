@@ -5,30 +5,30 @@ VALUES (0x773F1001,  1154, 0x73F10008, 0.7373552, 173.0583, 1.311302E-06, -0.298
 /* @teleloc 0x73F10008 [0.737355 173.058300 0.000001] -0.298787 0.000000 0.000000 -0.954320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773F1001, 0x773F1002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x773F1001, 0x773F1003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x773F1001, 0x773F1004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x773F1001, 0x773F1005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x773F1001, 0x773F1006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x773F1001, 0x773F1007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x773F1001, 0x773F1008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x773F1001, 0x773F1009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x773F1001, 0x773F100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x773F1001, 0x773F100B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F100C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F100D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F100E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x773F1001, 0x773F100F, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x773F1001, 0x773F1010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F1011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F1012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x773F1001, 0x773F1013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F1014, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x773F1001, 0x773F1015, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x773F1001, 0x773F1016, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x773F1001, 0x773F1017, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F1018, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x773F1001, 0x773F1019, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x773F1001, 0x773F1002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x773F1001, 0x773F1003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x773F1001, 0x773F1004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x773F1001, 0x773F1005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x773F1001, 0x773F1006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x773F1001, 0x773F1007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x773F1001, 0x773F1008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x773F1001, 0x773F1009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x773F1001, 0x773F100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x773F1001, 0x773F100B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F100C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F100D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F100E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x773F1001, 0x773F100F, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x773F1001, 0x773F1010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F1011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F1012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x773F1001, 0x773F1013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F1014, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x773F1001, 0x773F1015, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x773F1001, 0x773F1016, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x773F1001, 0x773F1017, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F1018, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x773F1001, 0x773F1019, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773F1002,  7126, 0x73F10008, 0.7373552, 173.0583, 1.311302E-06, -0.2987865, 0, 0, -0.95432,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -131,10 +131,10 @@ VALUES (0x773F101A,  1542, 0x73F10007, 4.548564, 164.5985, 0.2834562, 1, 0, 0, 0
 /* @teleloc 0x73F10007 [4.548564 164.598500 0.283456] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773F101A, 0x773F101B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x773F101A, 0x773F101C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x773F101A, 0x773F101D, '2019-02-10 00:00:00') /* Bones */
-     , (0x773F101A, 0x773F101E, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x773F101A, 0x773F101B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x773F101A, 0x773F101C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x773F101A, 0x773F101D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x773F101A, 0x773F101E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773F101B,  4179, 0x73F10007, 4.548564, 164.5985, 0.2834562, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

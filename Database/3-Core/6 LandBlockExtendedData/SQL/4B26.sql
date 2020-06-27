@@ -5,20 +5,20 @@ VALUES (0x74B26001,  1154, 0x4B260022, 117.8299, 46.60163, 42.45077, 0.2450769, 
 /* @teleloc 0x4B260022 [117.829900 46.601630 42.450770] 0.245077 0.000000 0.000000 -0.969504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B26001, 0x74B26002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x74B26001, 0x74B26003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74B26001, 0x74B26004, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x74B26001, 0x74B26005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74B26001, 0x74B26006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74B26001, 0x74B26007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74B26001, 0x74B26008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x74B26001, 0x74B26009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74B26001, 0x74B2600A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74B26001, 0x74B2600B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B26001, 0x74B2600C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74B26001, 0x74B2600D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74B26001, 0x74B2600E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74B26001, 0x74B2600F, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x74B26001, 0x74B26002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x74B26001, 0x74B26003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74B26001, 0x74B26004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x74B26001, 0x74B26005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74B26001, 0x74B26006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74B26001, 0x74B26007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74B26001, 0x74B26008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x74B26001, 0x74B26009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74B26001, 0x74B2600A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74B26001, 0x74B2600B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B26001, 0x74B2600C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74B26001, 0x74B2600D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74B26001, 0x74B2600E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74B26001, 0x74B2600F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B26002, 10802, 0x4B260022, 117.8299, 46.60163, 42.45077, 0.2450769, 0, 0, -0.9695036,  True, '2019-02-10 00:00:00'); /* Unstable Rift */

@@ -5,10 +5,10 @@ VALUES (0x7D299001,  1154, 0xD2990039, 176.1048, 6.557388, 4.667404, 0.894316, 0
 /* @teleloc 0xD2990039 [176.104800 6.557388 4.667404] 0.894316 0.000000 0.000000 -0.447436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D299001, 0x7D299002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D299001, 0x7D299003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7D299001, 0x7D299004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D299001, 0x7D299005, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7D299001, 0x7D299002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D299001, 0x7D299003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7D299001, 0x7D299004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D299001, 0x7D299005, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D299002, 24937, 0xD2990039, 176.1048, 6.557388, 4.667404, 0.894316, 0, 0, -0.4474359,  True, '2019-02-10 00:00:00'); /* Chicken */

@@ -5,11 +5,11 @@ VALUES (0x739EA001,  1154, 0x39EA003A, 174.388, 47.01102, 2.253745, -0.6904603, 
 /* @teleloc 0x39EA003A [174.388000 47.011020 2.253745] -0.690460 0.000000 0.000000 -0.723370 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739EA001, 0x739EA002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x739EA001, 0x739EA003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x739EA001, 0x739EA004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x739EA001, 0x739EA005, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739EA001, 0x739EA006, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x739EA001, 0x739EA002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x739EA001, 0x739EA003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x739EA001, 0x739EA004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x739EA001, 0x739EA005, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739EA001, 0x739EA006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739EA002, 21550, 0x39EA003A, 174.388, 47.01102, 2.253745, -0.6904603, 0, 0, -0.7233703,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */

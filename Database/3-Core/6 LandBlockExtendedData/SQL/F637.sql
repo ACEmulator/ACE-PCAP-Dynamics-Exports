@@ -5,31 +5,31 @@ VALUES (0x7F637001,  1154, 0xF6370040, 174.8284, 170.8804, 2.845152, -0.4396224,
 /* @teleloc 0xF6370040 [174.828400 170.880400 2.845152] -0.439622 0.000000 0.000000 -0.898183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F637001, 0x7F637002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F637001, 0x7F637003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F637001, 0x7F637004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F637001, 0x7F637005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F637001, 0x7F637006, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F637001, 0x7F637007, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F637001, 0x7F637008, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F637001, 0x7F637009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F637001, 0x7F63700A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F637001, 0x7F63700B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F637001, 0x7F63700C, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F637001, 0x7F63700D, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F637001, 0x7F63700E, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F637001, 0x7F63700F, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F637001, 0x7F637010, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F637001, 0x7F637011, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F637001, 0x7F637012, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F637001, 0x7F637013, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F637001, 0x7F637014, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F637001, 0x7F637015, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F637001, 0x7F637016, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F637001, 0x7F637017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F637001, 0x7F637018, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F637001, 0x7F637019, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F637001, 0x7F63701A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */;
+VALUES (0x7F637001, 0x7F637002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F637001, 0x7F637003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F637001, 0x7F637004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F637001, 0x7F637005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F637001, 0x7F637006, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F637001, 0x7F637007, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F637001, 0x7F637008, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F637001, 0x7F637009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F637001, 0x7F63700A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F637001, 0x7F63700B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F637001, 0x7F63700C, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F637001, 0x7F63700D, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F637001, 0x7F63700E, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F637001, 0x7F63700F, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F637001, 0x7F637010, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F637001, 0x7F637011, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F637001, 0x7F637012, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F637001, 0x7F637013, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F637001, 0x7F637014, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F637001, 0x7F637015, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F637001, 0x7F637016, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F637001, 0x7F637017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F637001, 0x7F637018, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F637001, 0x7F637019, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F637001, 0x7F63701A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F637002, 40313, 0xF6370040, 174.8284, 170.8804, 2.845152, -0.4396224, 0, 0, -0.8981827,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */

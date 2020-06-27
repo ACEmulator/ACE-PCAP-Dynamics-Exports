@@ -5,32 +5,32 @@ VALUES (0x7277E001,  1154, 0x277E001F, 82.97022, 157.2257, 52.51563, 0.3423581, 
 /* @teleloc 0x277E001F [82.970220 157.225700 52.515630] 0.342358 0.000000 0.000000 -0.939570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277E001, 0x7277E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7277E001, 0x7277E003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277E001, 0x7277E006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7277E001, 0x7277E008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7277E001, 0x7277E009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7277E001, 0x7277E00A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7277E001, 0x7277E00B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7277E001, 0x7277E00C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7277E001, 0x7277E00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277E001, 0x7277E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7277E001, 0x7277E011, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277E001, 0x7277E012, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7277E001, 0x7277E013, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7277E001, 0x7277E014, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7277E001, 0x7277E015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7277E001, 0x7277E016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7277E001, 0x7277E017, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277E001, 0x7277E018, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277E001, 0x7277E019, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277E001, 0x7277E01A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7277E001, 0x7277E01B, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x7277E001, 0x7277E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7277E001, 0x7277E003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277E001, 0x7277E006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7277E001, 0x7277E008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7277E001, 0x7277E009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7277E001, 0x7277E00A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7277E001, 0x7277E00B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7277E001, 0x7277E00C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7277E001, 0x7277E00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277E001, 0x7277E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7277E001, 0x7277E011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277E001, 0x7277E012, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7277E001, 0x7277E013, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7277E001, 0x7277E014, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7277E001, 0x7277E015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7277E001, 0x7277E016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7277E001, 0x7277E017, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277E001, 0x7277E018, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277E001, 0x7277E019, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277E001, 0x7277E01A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7277E001, 0x7277E01B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277E002, 36829, 0x277E001F, 82.97022, 157.2257, 52.51563, 0.3423581, 0, 0, -0.9395695,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -141,12 +141,12 @@ VALUES (0x7277E01C,  1542, 0x277E000A, 40.0472, 46.2337, 70.22042, -0.5120987, 0
 /* @teleloc 0x277E000A [40.047200 46.233700 70.220420] -0.512099 0.000000 0.000000 -0.858927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277E01C, 0x7277E01D, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7277E01C, 0x7277E01E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7277E01C, 0x7277E01F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7277E01C, 0x7277E020, '2019-02-10 00:00:00') /* Bones */
-     , (0x7277E01C, 0x7277E021, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7277E01C, 0x7277E022, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7277E01C, 0x7277E01D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7277E01C, 0x7277E01E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7277E01C, 0x7277E01F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7277E01C, 0x7277E020, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7277E01C, 0x7277E021, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7277E01C, 0x7277E022, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277E01D,  8648, 0x277E000A, 40.0472, 46.2337, 70.22042, -0.5120987, 0, 0, -0.8589266,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

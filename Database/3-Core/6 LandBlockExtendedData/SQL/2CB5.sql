@@ -45,14 +45,14 @@ VALUES (0x72CB5013,  1154, 0x2CB50111, 5.977, 37.989, -1.195, 0.851434, 0, 0, -0
 /* @teleloc 0x2CB50111 [5.977000 37.989000 -1.195000] 0.851434 0.000000 0.000000 -0.524462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CB5013, 0x72CB5014, '2019-02-10 00:00:00') /* Eliza du Curena */
-     , (0x72CB5013, 0x72CB5015, '2019-02-10 00:00:00') /* Virindi Delegate */
-     , (0x72CB5013, 0x72CB5016, '2019-02-10 00:00:00') /* Tito Brickicci */
-     , (0x72CB5013, 0x72CB5017, '2019-02-10 00:00:00') /* Valentina du Lurio */
-     , (0x72CB5013, 0x72CB5018, '2019-02-10 00:00:00') /* Caprice du Bellenesse */
-     , (0x72CB5013, 0x72CB5019, '2019-02-10 00:00:00') /* Balarazo */
-     , (0x72CB5013, 0x72CB501A, '2019-02-10 00:00:00') /* Shalon ibn Mayar the Collector */
-     , (0x72CB5013, 0x72CB501B, '2019-02-10 00:00:00') /* Mazur ibn Stounis */;
+VALUES (0x72CB5013, 0x72CB5014, '2019-02-10 00:00:00') /* Eliza du Curena (31957) */
+     , (0x72CB5013, 0x72CB5015, '2019-02-10 00:00:00') /* Virindi Delegate (51208) */
+     , (0x72CB5013, 0x72CB5016, '2019-02-10 00:00:00') /* Tito Brickicci (32068) */
+     , (0x72CB5013, 0x72CB5017, '2019-02-10 00:00:00') /* Valentina du Lurio (32071) */
+     , (0x72CB5013, 0x72CB5018, '2019-02-10 00:00:00') /* Caprice du Bellenesse (32070) */
+     , (0x72CB5013, 0x72CB5019, '2019-02-10 00:00:00') /* Balarazo (28258) */
+     , (0x72CB5013, 0x72CB501A, '2019-02-10 00:00:00') /* Shalon ibn Mayar the Collector (11346) */
+     , (0x72CB5013, 0x72CB501B, '2019-02-10 00:00:00') /* Mazur ibn Stounis (10866) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CB5014, 31957, 0x2CB50111, 5.977, 37.989, -1.195, 0.851434, 0, 0, -0.524462,  True, '2019-02-10 00:00:00'); /* Eliza du Curena */

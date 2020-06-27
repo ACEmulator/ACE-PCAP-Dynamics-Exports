@@ -5,12 +5,12 @@ VALUES (0x7AAAA001,  1154, 0xAAAA0004, 2.888506, 90.44563, 108.2749, 0.9556336, 
 /* @teleloc 0xAAAA0004 [2.888506 90.445630 108.274900] 0.955634 0.000000 0.000000 -0.294558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAAA001, 0x7AAAA002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AAAA001, 0x7AAAA003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAA001, 0x7AAAA004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAA001, 0x7AAAA005, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7AAAA001, 0x7AAAA006, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7AAAA001, 0x7AAAA007, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7AAAA001, 0x7AAAA002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AAAA001, 0x7AAAA003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAA001, 0x7AAAA004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAA001, 0x7AAAA005, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7AAAA001, 0x7AAAA006, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7AAAA001, 0x7AAAA007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAAA002,   939, 0xAAAA0004, 2.888506, 90.44563, 108.2749, 0.9556336, 0, 0, -0.2945579,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -41,7 +41,7 @@ VALUES (0x7AAAA008,  1542, 0xAAAA0031, 167.3704, 11.67804, 130.9744, 0.9990482, 
 /* @teleloc 0xAAAA0031 [167.370400 11.678040 130.974400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAAA008, 0x7AAAA009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AAAA008, 0x7AAAA009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAAA009,  4179, 0xAAAA0031, 167.3704, 11.67804, 130.9744, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

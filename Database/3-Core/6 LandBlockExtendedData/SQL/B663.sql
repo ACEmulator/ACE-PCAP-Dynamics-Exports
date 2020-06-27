@@ -5,15 +5,15 @@ VALUES (0x7B663001,  1154, 0xB663001E, 73.80962, 129.5818, 21.8506, 0.9238795, 0
 /* @teleloc 0xB663001E [73.809620 129.581800 21.850600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B663001, 0x7B663002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B663001, 0x7B663003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B663001, 0x7B663004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B663001, 0x7B663005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B663001, 0x7B663006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B663001, 0x7B663007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B663001, 0x7B663008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B663001, 0x7B663009, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B663001, 0x7B66300A, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7B663001, 0x7B663002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B663001, 0x7B663003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B663001, 0x7B663004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B663001, 0x7B663005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B663001, 0x7B663006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B663001, 0x7B663007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B663001, 0x7B663008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B663001, 0x7B663009, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B663001, 0x7B66300A, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B663002,   221, 0xB663001E, 73.80962, 129.5818, 21.8506, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */

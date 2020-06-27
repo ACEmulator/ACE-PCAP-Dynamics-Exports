@@ -9,12 +9,12 @@ VALUES (0x78972001,  1154, 0x8972000C, 38.06866, 76.77141, 22.86249, 0.5791182, 
 /* @teleloc 0x8972000C [38.068660 76.771410 22.862490] 0.579118 0.000000 0.000000 -0.815244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78972001, 0x78972002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78972001, 0x78972003, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78972001, 0x78972004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78972001, 0x78972005, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78972001, 0x78972006, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78972001, 0x78972007, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x78972001, 0x78972002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78972001, 0x78972003, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78972001, 0x78972004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78972001, 0x78972005, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78972001, 0x78972006, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78972001, 0x78972007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78972002,  4266, 0x8972000C, 38.06866, 76.77141, 22.86249, 0.5791182, 0, 0, -0.8152436,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -45,7 +45,7 @@ VALUES (0x78972008,  1542, 0x8972000C, 33.1092, 92.38525, 21.08426, 0.9914449, 0
 /* @teleloc 0x8972000C [33.109200 92.385250 21.084260] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78972008, 0x78972009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78972008, 0x78972009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78972009,  4380, 0x8972000C, 33.1092, 92.38525, 21.08426, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

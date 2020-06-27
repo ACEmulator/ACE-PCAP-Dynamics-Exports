@@ -5,12 +5,12 @@ VALUES (0x71D3D001,  1154, 0x1D3D002D, 136.7149, 102.8733, 59.99775, 0.1192245, 
 /* @teleloc 0x1D3D002D [136.714900 102.873300 59.997750] 0.119225 0.000000 0.000000 -0.992867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D3D001, 0x71D3D002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71D3D001, 0x71D3D003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71D3D001, 0x71D3D004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71D3D001, 0x71D3D005, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71D3D001, 0x71D3D006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71D3D001, 0x71D3D007, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x71D3D001, 0x71D3D002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71D3D001, 0x71D3D003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71D3D001, 0x71D3D004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71D3D001, 0x71D3D005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71D3D001, 0x71D3D006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71D3D001, 0x71D3D007, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D3D002,  7983, 0x1D3D002D, 136.7149, 102.8733, 59.99775, 0.1192245, 0, 0, -0.9928673,  True, '2019-02-10 00:00:00'); /* Bane Grievver */

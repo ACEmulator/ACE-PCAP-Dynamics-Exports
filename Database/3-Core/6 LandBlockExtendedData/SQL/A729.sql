@@ -5,13 +5,13 @@ VALUES (0x7A729001,  1154, 0xA7290028, 98.41415, 190.7083, 147.9206, -0.9991992,
 /* @teleloc 0xA7290028 [98.414150 190.708300 147.920600] -0.999199 0.000000 0.000000 -0.040012 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A729001, 0x7A729002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A729001, 0x7A729003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A729001, 0x7A729004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A729001, 0x7A729005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A729001, 0x7A729006, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A729001, 0x7A729007, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A729001, 0x7A729008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7A729001, 0x7A729002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A729001, 0x7A729003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A729001, 0x7A729004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A729001, 0x7A729005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A729001, 0x7A729006, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A729001, 0x7A729007, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A729001, 0x7A729008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A729002,  5890, 0xA7290028, 98.41415, 190.7083, 147.9206, -0.9991992, 0, 0, -0.04001184,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */
@@ -46,12 +46,12 @@ VALUES (0x7A729009,  1542, 0xA7290034, 158.4588, 88.86272, 158.6394, 1, 0, 0, 0,
 /* @teleloc 0xA7290034 [158.458800 88.862720 158.639400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A729009, 0x7A72900A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7A729009, 0x7A72900B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A729009, 0x7A72900C, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7A729009, 0x7A72900D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7A729009, 0x7A72900E, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7A729009, 0x7A72900F, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7A729009, 0x7A72900A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7A729009, 0x7A72900B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A729009, 0x7A72900C, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7A729009, 0x7A72900D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7A729009, 0x7A72900E, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7A729009, 0x7A72900F, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A72900A,  9024, 0xA7290034, 158.4588, 88.86272, 158.6394, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

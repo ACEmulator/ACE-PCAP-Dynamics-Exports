@@ -29,12 +29,12 @@ VALUES (0x7D784006,  1154, 0xD784003C, 171.4252, 95.7935, 20.28794, -0.9100673, 
 /* @teleloc 0xD784003C [171.425200 95.793500 20.287940] -0.910067 0.000000 0.000000 -0.414461 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D784006, 0x7D784007, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D784006, 0x7D784008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D784006, 0x7D784009, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D784006, 0x7D78400A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7D784006, 0x7D78400B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7D784006, 0x7D78400C, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7D784006, 0x7D784007, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D784006, 0x7D784008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D784006, 0x7D784009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D784006, 0x7D78400A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7D784006, 0x7D78400B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7D784006, 0x7D78400C, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D784007, 22208, 0xD784003C, 171.4252, 95.7935, 20.28794, -0.9100673, 0, 0, -0.4144605,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
@@ -65,8 +65,8 @@ VALUES (0x7D78400D,  1542, 0xD784001A, 91.70423, 36.23581, 22.36336, -0.9583901,
 /* @teleloc 0xD784001A [91.704230 36.235810 22.363360] -0.958390 0.000000 0.000000 -0.285462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D78400D, 0x7D78400E, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D78400D, 0x7D78400F, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7D78400D, 0x7D78400E, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D78400D, 0x7D78400F, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D78400E,    14, 0xD784001A, 91.70423, 36.23581, 22.36336, -0.9583901, 0, 0, -0.285462,  True, '2019-02-10 00:00:00'); /* Cow */

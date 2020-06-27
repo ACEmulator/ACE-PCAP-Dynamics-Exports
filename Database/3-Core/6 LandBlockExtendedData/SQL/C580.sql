@@ -9,25 +9,25 @@ VALUES (0x7C580001,  1154, 0xC5800002, 6.846427, 25.48511, 50.4953, 0.05639393, 
 /* @teleloc 0xC5800002 [6.846427 25.485110 50.495300] 0.056394 0.000000 0.000000 -0.998409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C580001, 0x7C580002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C580001, 0x7C580003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C580001, 0x7C580004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C580001, 0x7C580005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C580001, 0x7C580006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C580001, 0x7C580007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C580001, 0x7C580008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C580001, 0x7C580009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C580001, 0x7C58000A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C580001, 0x7C58000B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C580001, 0x7C58000C, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C580001, 0x7C58000D, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C580001, 0x7C58000E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C580001, 0x7C58000F, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C580001, 0x7C580010, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C580001, 0x7C580011, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C580001, 0x7C580012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C580001, 0x7C580013, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C580001, 0x7C580014, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7C580001, 0x7C580002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C580001, 0x7C580003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C580001, 0x7C580004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C580001, 0x7C580005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C580001, 0x7C580006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C580001, 0x7C580007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C580001, 0x7C580008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C580001, 0x7C580009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C580001, 0x7C58000A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C580001, 0x7C58000B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C580001, 0x7C58000C, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C580001, 0x7C58000D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C580001, 0x7C58000E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C580001, 0x7C58000F, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C580001, 0x7C580010, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C580001, 0x7C580011, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C580001, 0x7C580012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C580001, 0x7C580013, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C580001, 0x7C580014, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C580002,   182, 0xC5800002, 6.846427, 25.48511, 50.4953, 0.05639393, 0, 0, -0.9984086,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -110,8 +110,8 @@ VALUES (0x7C580015,  1542, 0xC580002C, 136.0839, 82.32233, 26.015, 1, 0, 0, 0, F
 /* @teleloc 0xC580002C [136.083900 82.322330 26.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C580015, 0x7C580016, '2019-02-10 00:00:00') /* Coalesced Mana */
-     , (0x7C580015, 0x7C580017, '2019-02-10 00:00:00') /* Chainmail Pauldrons */;
+VALUES (0x7C580015, 0x7C580016, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
+     , (0x7C580015, 0x7C580017, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C580016, 42518, 0xC580002C, 136.0839, 82.32233, 26.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Coalesced Mana */

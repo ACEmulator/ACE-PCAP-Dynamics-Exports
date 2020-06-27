@@ -13,26 +13,26 @@ VALUES (0x7BA6A002,  1154, 0xBA6A0107, 161.2684, 7.85939, 10.40332, 0.988691, 0,
 /* @teleloc 0xBA6A0107 [161.268400 7.859390 10.403320] 0.988691 0.000000 0.000000 -0.149970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6A002, 0x7BA6A003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BA6A002, 0x7BA6A004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BA6A002, 0x7BA6A005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7BA6A002, 0x7BA6A006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BA6A002, 0x7BA6A007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BA6A002, 0x7BA6A008, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BA6A002, 0x7BA6A009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA6A002, 0x7BA6A00A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BA6A002, 0x7BA6A00B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA6A002, 0x7BA6A00C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BA6A002, 0x7BA6A00D, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BA6A002, 0x7BA6A00E, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BA6A002, 0x7BA6A00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BA6A002, 0x7BA6A010, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BA6A002, 0x7BA6A011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BA6A002, 0x7BA6A012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BA6A002, 0x7BA6A013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BA6A002, 0x7BA6A014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7BA6A002, 0x7BA6A015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA6A002, 0x7BA6A016, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7BA6A002, 0x7BA6A003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BA6A002, 0x7BA6A004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BA6A002, 0x7BA6A005, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7BA6A002, 0x7BA6A006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BA6A002, 0x7BA6A007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BA6A002, 0x7BA6A008, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BA6A002, 0x7BA6A009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA6A002, 0x7BA6A00A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BA6A002, 0x7BA6A00B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA6A002, 0x7BA6A00C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BA6A002, 0x7BA6A00D, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BA6A002, 0x7BA6A00E, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BA6A002, 0x7BA6A00F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BA6A002, 0x7BA6A010, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BA6A002, 0x7BA6A011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BA6A002, 0x7BA6A012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BA6A002, 0x7BA6A013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BA6A002, 0x7BA6A014, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7BA6A002, 0x7BA6A015, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA6A002, 0x7BA6A016, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA6A003,   193, 0xBA6A0107, 161.2684, 7.85939, 10.40332, 0.988691, 0, 0, -0.14997,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -119,12 +119,12 @@ VALUES (0x7BA6A017,  1542, 0xBA6A0106, 150.4082, 6.929811, 10.479, 0.242807, 0, 
 /* @teleloc 0xBA6A0106 [150.408200 6.929811 10.479000] 0.242807 0.000000 0.000000 -0.970075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6A017, 0x7BA6A018, '2019-02-10 00:00:00') /* Holtburg Dungeon Directions */
-     , (0x7BA6A017, 0x7BA6A019, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7BA6A017, 0x7BA6A01A, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BA6A017, 0x7BA6A01B, '2019-02-10 00:00:00') /* Parchment */
-     , (0x7BA6A017, 0x7BA6A01C, '2019-02-10 00:00:00') /* A torn note  */
-     , (0x7BA6A017, 0x7BA6A01D, '2019-02-10 00:00:00') /* An old note  */;
+VALUES (0x7BA6A017, 0x7BA6A018, '2019-02-10 00:00:00') /* Holtburg Dungeon Directions (1221) */
+     , (0x7BA6A017, 0x7BA6A019, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7BA6A017, 0x7BA6A01A, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7BA6A017, 0x7BA6A01B, '2019-02-10 00:00:00') /* Parchment (365) */
+     , (0x7BA6A017, 0x7BA6A01C, '2019-02-10 00:00:00') /* A torn note  (1417) */
+     , (0x7BA6A017, 0x7BA6A01D, '2019-02-10 00:00:00') /* An old note  (1418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA6A018,  1221, 0xBA6A0106, 150.4082, 6.929811, 10.479, 0.242807, 0, 0, -0.970075,  True, '2019-02-10 00:00:00'); /* Holtburg Dungeon Directions */

@@ -5,20 +5,20 @@ VALUES (0x71538001,  1154, 0x1538002B, 130.1508, 55.26727, 4.760678, 0.5895049, 
 /* @teleloc 0x1538002B [130.150800 55.267270 4.760678] 0.589505 0.000000 0.000000 -0.807765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71538001, 0x71538002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71538001, 0x71538003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71538001, 0x71538004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71538001, 0x71538005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71538001, 0x71538006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71538001, 0x71538007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71538001, 0x71538008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71538001, 0x71538009, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71538001, 0x7153800A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71538001, 0x7153800B, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71538001, 0x7153800C, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71538001, 0x7153800D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71538001, 0x7153800E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71538001, 0x7153800F, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71538001, 0x71538002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71538001, 0x71538003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71538001, 0x71538004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71538001, 0x71538005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71538001, 0x71538006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71538001, 0x71538007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71538001, 0x71538008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71538001, 0x71538009, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71538001, 0x7153800A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71538001, 0x7153800B, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71538001, 0x7153800C, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71538001, 0x7153800D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71538001, 0x7153800E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71538001, 0x7153800F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71538002, 22054, 0x1538002B, 130.1508, 55.26727, 4.760678, 0.5895049, 0, 0, -0.8077648,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -81,7 +81,7 @@ VALUES (0x71538010,  1542, 0x15380005, 7.986101, 102.4777, 49.99, -0.4363351, 0,
 /* @teleloc 0x15380005 [7.986101 102.477700 49.990000] -0.436335 0.000000 0.000000 -0.899784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71538010, 0x71538011, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x71538010, 0x71538011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71538011,  9286, 0x15380005, 7.986101, 102.4777, 49.99, -0.4363351, 0, 0, -0.8997842,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

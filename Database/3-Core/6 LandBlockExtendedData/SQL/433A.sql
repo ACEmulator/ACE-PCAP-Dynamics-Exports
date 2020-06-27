@@ -5,17 +5,17 @@ VALUES (0x7433A001,  1154, 0x433A000A, 43.83167, 43.90459, 20.96542, -0.9688591,
 /* @teleloc 0x433A000A [43.831670 43.904590 20.965420] -0.968859 0.000000 0.000000 -0.247613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7433A001, 0x7433A002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7433A001, 0x7433A003, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x7433A001, 0x7433A004, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7433A001, 0x7433A005, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7433A001, 0x7433A006, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x7433A001, 0x7433A007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7433A001, 0x7433A008, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7433A001, 0x7433A009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7433A001, 0x7433A00A, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7433A001, 0x7433A00B, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7433A001, 0x7433A00C, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7433A001, 0x7433A002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7433A001, 0x7433A003, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7433A001, 0x7433A004, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7433A001, 0x7433A005, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7433A001, 0x7433A006, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7433A001, 0x7433A007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7433A001, 0x7433A008, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7433A001, 0x7433A009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7433A001, 0x7433A00A, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7433A001, 0x7433A00B, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7433A001, 0x7433A00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7433A002, 14516, 0x433A000A, 43.83167, 43.90459, 20.96542, -0.9688591, 0, 0, -0.2476125,  True, '2019-02-10 00:00:00'); /* Caustic */

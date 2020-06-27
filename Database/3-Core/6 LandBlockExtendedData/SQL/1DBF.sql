@@ -5,17 +5,17 @@ VALUES (0x71DBF001,  1154, 0x1DBF0003, 14.25226, 49.01175, 98.006, 1, 0, 0, 0, F
 /* @teleloc 0x1DBF0003 [14.252260 49.011750 98.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DBF001, 0x71DBF002, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71DBF001, 0x71DBF003, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71DBF001, 0x71DBF004, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71DBF001, 0x71DBF005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71DBF001, 0x71DBF006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71DBF001, 0x71DBF007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71DBF001, 0x71DBF008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71DBF001, 0x71DBF009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71DBF001, 0x71DBF00A, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71DBF001, 0x71DBF00B, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71DBF001, 0x71DBF00C, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x71DBF001, 0x71DBF002, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DBF001, 0x71DBF003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DBF001, 0x71DBF004, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DBF001, 0x71DBF005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71DBF001, 0x71DBF006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71DBF001, 0x71DBF007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71DBF001, 0x71DBF008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71DBF001, 0x71DBF009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71DBF001, 0x71DBF00A, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71DBF001, 0x71DBF00B, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DBF001, 0x71DBF00C, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DBF002, 11520, 0x1DBF0003, 14.25226, 49.01175, 98.006, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Nualuan */
@@ -66,8 +66,8 @@ VALUES (0x71DBF00D,  1542, 0x1DBF002C, 121.5004, 84.90844, 95.937, 1, 0, 0, 0, F
 /* @teleloc 0x1DBF002C [121.500400 84.908440 95.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DBF00D, 0x71DBF00E, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x71DBF00D, 0x71DBF00F, '2019-02-10 00:00:00') /* Small Hive Portal */;
+VALUES (0x71DBF00D, 0x71DBF00E, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x71DBF00D, 0x71DBF00F, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DBF00E, 11221, 0x1DBF002C, 121.5004, 84.90844, 95.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

@@ -5,17 +5,17 @@ VALUES (0x738E4001,  1154, 0x38E40010, 37.78367, 172.8893, 21.55858, -0.8913462,
 /* @teleloc 0x38E40010 [37.783670 172.889300 21.558580] -0.891346 0.000000 0.000000 -0.453323 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738E4001, 0x738E4002, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x738E4001, 0x738E4003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E4001, 0x738E4004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738E4001, 0x738E4005, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x738E4001, 0x738E4006, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738E4001, 0x738E4007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x738E4001, 0x738E4008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x738E4001, 0x738E4009, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E4001, 0x738E400A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x738E4001, 0x738E400B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x738E4001, 0x738E400C, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x738E4001, 0x738E4002, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x738E4001, 0x738E4003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x738E4001, 0x738E4004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738E4001, 0x738E4005, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x738E4001, 0x738E4006, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738E4001, 0x738E4007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x738E4001, 0x738E4008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x738E4001, 0x738E4009, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x738E4001, 0x738E400A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x738E4001, 0x738E400B, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x738E4001, 0x738E400C, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738E4002, 24478, 0x38E40010, 37.78367, 172.8893, 21.55858, -0.8913462, 0, 0, -0.4533232,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */

@@ -5,17 +5,17 @@ VALUES (0x7B462001,  1154, 0xB462002A, 128.6968, 38.52599, 23.51773, -0.2227179,
 /* @teleloc 0xB462002A [128.696800 38.525990 23.517730] -0.222718 0.000000 0.000000 -0.974883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B462001, 0x7B462002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B462001, 0x7B462003, '2019-02-10 00:00:00') /* Static */
-     , (0x7B462001, 0x7B462004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B462001, 0x7B462005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B462001, 0x7B462006, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B462001, 0x7B462007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B462001, 0x7B462008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B462001, 0x7B462009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B462001, 0x7B46200A, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B462001, 0x7B46200B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B462001, 0x7B46200C, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B462001, 0x7B462002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B462001, 0x7B462003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B462001, 0x7B462004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B462001, 0x7B462005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B462001, 0x7B462006, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B462001, 0x7B462007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B462001, 0x7B462008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B462001, 0x7B462009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B462001, 0x7B46200A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B462001, 0x7B46200B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B462001, 0x7B46200C, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B462002,   192, 0xB462002A, 128.6968, 38.52599, 23.51773, -0.2227179, 0, 0, -0.9748829,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -66,7 +66,7 @@ VALUES (0x7B46200D,  1542, 0xB4620029, 136.6427, 19.69949, 24.35838, 1, 0, 0, 0,
 /* @teleloc 0xB4620029 [136.642700 19.699490 24.358380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46200D, 0x7B46200E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B46200D, 0x7B46200E, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46200E, 22572, 0xB4620029, 136.6427, 19.69949, 24.35838, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

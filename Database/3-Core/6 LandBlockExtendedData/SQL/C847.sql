@@ -5,10 +5,10 @@ VALUES (0x7C847001,  1154, 0xC847002A, 130.3347, 29.58506, 176.393, 0.2796982, 0
 /* @teleloc 0xC847002A [130.334700 29.585060 176.393000] 0.279698 0.000000 0.000000 -0.960088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C847001, 0x7C847002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C847001, 0x7C847003, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7C847001, 0x7C847004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C847001, 0x7C847005, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7C847001, 0x7C847002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C847001, 0x7C847003, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7C847001, 0x7C847004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C847001, 0x7C847005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C847002, 28552, 0xC847002A, 130.3347, 29.58506, 176.393, 0.2796982, 0, 0, -0.960088,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

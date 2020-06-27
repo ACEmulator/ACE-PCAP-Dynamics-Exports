@@ -9,121 +9,121 @@ VALUES (0x7CB3D002,  1154, 0xCB3D0036, 160.0949, 128.6842, 177.2743, -0.4498597,
 /* @teleloc 0xCB3D0036 [160.094900 128.684200 177.274300] -0.449860 0.000000 0.000000 -0.893099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB3D002, 0x7CB3D003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7CB3D002, 0x7CB3D004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB3D002, 0x7CB3D005, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7CB3D002, 0x7CB3D006, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D007, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D008, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7CB3D002, 0x7CB3D009, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CB3D002, 0x7CB3D00A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D00B, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7CB3D002, 0x7CB3D00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB3D002, 0x7CB3D00D, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CB3D002, 0x7CB3D00E, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CB3D002, 0x7CB3D00F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D013, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CB3D002, 0x7CB3D014, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CB3D002, 0x7CB3D015, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CB3D002, 0x7CB3D016, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D017, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D018, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CB3D002, 0x7CB3D019, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D01A, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7CB3D002, 0x7CB3D01B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CB3D002, 0x7CB3D01C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D01D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D01E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D01F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D020, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D021, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D022, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D023, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB3D002, 0x7CB3D024, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D025, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D026, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CB3D002, 0x7CB3D027, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D028, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D029, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D02A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D02B, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7CB3D002, 0x7CB3D02C, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7CB3D002, 0x7CB3D02D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D02E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D02F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D030, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D031, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D032, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CB3D002, 0x7CB3D033, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D034, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D035, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D036, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D037, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D038, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CB3D002, 0x7CB3D039, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CB3D002, 0x7CB3D03A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D03B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D03C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D03D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB3D002, 0x7CB3D03E, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D03F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D040, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CB3D002, 0x7CB3D041, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB3D002, 0x7CB3D042, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7CB3D002, 0x7CB3D043, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D044, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D045, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7CB3D002, 0x7CB3D046, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7CB3D002, 0x7CB3D047, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D048, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CB3D002, 0x7CB3D049, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB3D002, 0x7CB3D04A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB3D002, 0x7CB3D04B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D04C, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CB3D002, 0x7CB3D04D, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7CB3D002, 0x7CB3D04E, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D04F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D050, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CB3D002, 0x7CB3D051, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D052, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D053, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D054, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D055, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D056, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7CB3D002, 0x7CB3D057, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7CB3D002, 0x7CB3D058, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7CB3D002, 0x7CB3D059, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CB3D002, 0x7CB3D05A, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CB3D002, 0x7CB3D05B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D05C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CB3D002, 0x7CB3D05D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CB3D002, 0x7CB3D05E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CB3D002, 0x7CB3D05F, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CB3D002, 0x7CB3D060, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D061, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB3D002, 0x7CB3D062, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CB3D002, 0x7CB3D063, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CB3D002, 0x7CB3D064, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CB3D002, 0x7CB3D065, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D066, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CB3D002, 0x7CB3D067, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CB3D002, 0x7CB3D068, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CB3D002, 0x7CB3D069, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CB3D002, 0x7CB3D06A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CB3D002, 0x7CB3D06B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D06C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CB3D002, 0x7CB3D06D, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D06E, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CB3D002, 0x7CB3D06F, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CB3D002, 0x7CB3D070, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CB3D002, 0x7CB3D071, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CB3D002, 0x7CB3D072, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CB3D002, 0x7CB3D073, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CB3D002, 0x7CB3D074, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB3D002, 0x7CB3D075, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7CB3D002, 0x7CB3D003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7CB3D002, 0x7CB3D004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB3D002, 0x7CB3D005, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7CB3D002, 0x7CB3D006, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D007, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D008, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7CB3D002, 0x7CB3D009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CB3D002, 0x7CB3D00A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D00B, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7CB3D002, 0x7CB3D00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB3D002, 0x7CB3D00D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CB3D002, 0x7CB3D00E, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CB3D002, 0x7CB3D00F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CB3D002, 0x7CB3D014, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CB3D002, 0x7CB3D015, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CB3D002, 0x7CB3D016, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D017, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D018, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CB3D002, 0x7CB3D019, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D01A, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7CB3D002, 0x7CB3D01B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CB3D002, 0x7CB3D01C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D01D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D01E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D01F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D020, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D021, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D022, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D023, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB3D002, 0x7CB3D024, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D025, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D026, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CB3D002, 0x7CB3D027, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D028, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D029, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D02A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D02B, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7CB3D002, 0x7CB3D02C, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7CB3D002, 0x7CB3D02D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D02E, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D02F, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D030, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D031, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D032, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CB3D002, 0x7CB3D033, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D034, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D035, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D036, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D037, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D038, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CB3D002, 0x7CB3D039, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CB3D002, 0x7CB3D03A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D03B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D03C, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D03D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB3D002, 0x7CB3D03E, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D03F, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D040, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CB3D002, 0x7CB3D041, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB3D002, 0x7CB3D042, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7CB3D002, 0x7CB3D043, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D044, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D045, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CB3D002, 0x7CB3D046, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CB3D002, 0x7CB3D047, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D048, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CB3D002, 0x7CB3D049, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB3D002, 0x7CB3D04A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB3D002, 0x7CB3D04B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D04C, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CB3D002, 0x7CB3D04D, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7CB3D002, 0x7CB3D04E, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D04F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D050, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CB3D002, 0x7CB3D051, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D052, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D053, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D054, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D055, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D056, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7CB3D002, 0x7CB3D057, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7CB3D002, 0x7CB3D058, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7CB3D002, 0x7CB3D059, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CB3D002, 0x7CB3D05A, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CB3D002, 0x7CB3D05B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D05C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CB3D002, 0x7CB3D05D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CB3D002, 0x7CB3D05E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CB3D002, 0x7CB3D05F, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CB3D002, 0x7CB3D060, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D061, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB3D002, 0x7CB3D062, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CB3D002, 0x7CB3D063, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CB3D002, 0x7CB3D064, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB3D002, 0x7CB3D065, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D066, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CB3D002, 0x7CB3D067, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CB3D002, 0x7CB3D068, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CB3D002, 0x7CB3D069, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CB3D002, 0x7CB3D06A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CB3D002, 0x7CB3D06B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D06C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB3D002, 0x7CB3D06D, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D06E, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CB3D002, 0x7CB3D06F, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CB3D002, 0x7CB3D070, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CB3D002, 0x7CB3D071, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CB3D002, 0x7CB3D072, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CB3D002, 0x7CB3D073, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CB3D002, 0x7CB3D074, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB3D002, 0x7CB3D075, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB3D003, 14521, 0xCB3D0036, 160.0949, 128.6842, 177.2743, -0.4498597, 0, 0, -0.8930992,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -590,7 +590,7 @@ VALUES (0x7CB3D076,  1154, 0xCB3D002A, 136.569, 26.7439, 176.005, -0.0131018, 0,
 /* @teleloc 0xCB3D002A [136.569000 26.743900 176.005000] -0.013102 0.000000 0.000000 -0.999914 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB3D076, 0x7CB3D077, '2019-02-10 00:00:00') /* Drunken Madman */;
+VALUES (0x7CB3D076, 0x7CB3D077, '2019-02-10 00:00:00') /* Drunken Madman (4201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB3D077,  4201, 0xCB3D002A, 136.569, 26.7439, 176.005, -0.0131018, 0, 0, -0.999914,  True, '2019-02-10 00:00:00'); /* Drunken Madman */
@@ -601,18 +601,18 @@ VALUES (0x7CB3D078,  1542, 0xCB3D0029, 139.7829, 22.91368, 176.2991, 0.3420202, 
 /* @teleloc 0xCB3D0029 [139.782900 22.913680 176.299100] 0.342020 0.000000 0.000000 -0.939693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB3D078, 0x7CB3D079, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7CB3D078, 0x7CB3D07A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CB3D078, 0x7CB3D07B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CB3D078, 0x7CB3D07C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CB3D078, 0x7CB3D07D, '2019-02-10 00:00:00') /* Rock */
-     , (0x7CB3D078, 0x7CB3D07E, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x7CB3D078, 0x7CB3D07F, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7CB3D078, 0x7CB3D080, '2019-02-10 00:00:00') /* Rock */
-     , (0x7CB3D078, 0x7CB3D081, '2019-02-10 00:00:00') /* Rock */
-     , (0x7CB3D078, 0x7CB3D082, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CB3D078, 0x7CB3D083, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7CB3D078, 0x7CB3D084, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CB3D078, 0x7CB3D079, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7CB3D078, 0x7CB3D07A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CB3D078, 0x7CB3D07B, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CB3D078, 0x7CB3D07C, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CB3D078, 0x7CB3D07D, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7CB3D078, 0x7CB3D07E, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7CB3D078, 0x7CB3D07F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7CB3D078, 0x7CB3D080, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7CB3D078, 0x7CB3D081, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7CB3D078, 0x7CB3D082, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7CB3D078, 0x7CB3D083, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7CB3D078, 0x7CB3D084, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB3D079,  1955, 0xCB3D0029, 139.7829, 22.91368, 176.2991, 0.3420202, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* Gateway */

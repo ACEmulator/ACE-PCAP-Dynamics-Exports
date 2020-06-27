@@ -5,16 +5,16 @@ VALUES (0x7D7B6001,  1154, 0xD7B6000E, 45.51407, 127.5919, 3.482984, 0.1698578, 
 /* @teleloc 0xD7B6000E [45.514070 127.591900 3.482984] 0.169858 0.000000 0.000000 -0.985469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7B6001, 0x7D7B6002, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D7B6001, 0x7D7B6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D7B6001, 0x7D7B6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D7B6001, 0x7D7B6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D7B6001, 0x7D7B6006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D7B6001, 0x7D7B6007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D7B6001, 0x7D7B6008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D7B6001, 0x7D7B6009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D7B6001, 0x7D7B600A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D7B6001, 0x7D7B600B, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7D7B6001, 0x7D7B6002, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D7B6001, 0x7D7B6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D7B6001, 0x7D7B6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D7B6001, 0x7D7B6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D7B6001, 0x7D7B6006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D7B6001, 0x7D7B6007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D7B6001, 0x7D7B6008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D7B6001, 0x7D7B6009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D7B6001, 0x7D7B600A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D7B6001, 0x7D7B600B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7B6002,  2565, 0xD7B6000E, 45.51407, 127.5919, 3.482984, 0.1698578, 0, 0, -0.9854686,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */

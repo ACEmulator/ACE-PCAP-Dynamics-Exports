@@ -9,14 +9,14 @@ VALUES (0x79224001,  1154, 0x92240021, 111.138, 12.12582, 90.99451, 0.9994832, 0
 /* @teleloc 0x92240021 [111.138000 12.125820 90.994510] 0.999483 0.000000 0.000000 -0.032144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79224001, 0x79224002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79224001, 0x79224003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79224001, 0x79224004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79224001, 0x79224005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79224001, 0x79224006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79224001, 0x79224007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79224001, 0x79224008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79224001, 0x79224009, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x79224001, 0x79224002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79224001, 0x79224003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79224001, 0x79224004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79224001, 0x79224005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79224001, 0x79224006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79224001, 0x79224007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79224001, 0x79224008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79224001, 0x79224009, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79224002,  4253, 0x92240021, 111.138, 12.12582, 90.99451, 0.9994832, 0, 0, -0.03214386,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -55,7 +55,7 @@ VALUES (0x7922400A,  1542, 0x9224003E, 183.6523, 120.4202, 95.30435, 0.8040079, 
 /* @teleloc 0x9224003E [183.652300 120.420200 95.304350] 0.804008 0.000000 0.000000 -0.594619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7922400A, 0x7922400B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7922400A, 0x7922400B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7922400B,  8037, 0x9224003E, 183.6523, 120.4202, 95.30435, 0.8040079, 0, 0, -0.5946186,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

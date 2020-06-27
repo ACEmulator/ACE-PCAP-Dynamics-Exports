@@ -37,106 +37,106 @@ VALUES (0x7594E077,  1154, 0x594E063D, 110, -240, -17.9975, 1, 0, 0, 0, False, '
 /* @teleloc 0x594E063D [110.000000 -240.000000 -17.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594E077, 0x7594E078, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E079, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E07A, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E07B, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E07C, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E07D, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E07E, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E07F, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E080, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E081, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E082, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E083, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E084, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E085, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E086, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E087, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E088, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E089, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E08A, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E08B, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E08C, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E08D, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E08E, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E08F, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E090, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E091, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E092, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E093, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E094, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E095, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E096, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E097, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E098, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E099, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E09A, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E09B, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E09C, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E09D, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E09E, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E09F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0A0, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E0A1, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0A2, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0A3, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0A4, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0A5, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0A6, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0A7, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0A8, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E0A9, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0AA, '2019-02-10 00:00:00') /* Tamed Reaper */
-     , (0x7594E077, 0x7594E0AB, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0AC, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0AD, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0AE, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E0AF, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0B0, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0B1, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0B2, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0B3, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0B4, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0B5, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0B6, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0B7, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil */
-     , (0x7594E077, 0x7594E0B8, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0B9, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0BA, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0BB, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0BC, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0BD, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0BE, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0BF, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0C0, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0C1, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0C2, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0C3, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0C4, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0C5, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0C6, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0C7, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0C8, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0C9, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0CA, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0CB, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil */
-     , (0x7594E077, 0x7594E0CC, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0CD, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0CE, '2019-02-10 00:00:00') /* A'nekshay */
-     , (0x7594E077, 0x7594E0CF, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0D0, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0D1, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0D2, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0D3, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E0D4, '2019-02-10 00:00:00') /* A'nekshay Temple Servant */
-     , (0x7594E077, 0x7594E0D5, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0D6, '2019-02-10 00:00:00') /* Reedshark Hunter */
-     , (0x7594E077, 0x7594E0D7, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7594E077, 0x7594E0D8, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7594E077, 0x7594E0D9, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian */
-     , (0x7594E077, 0x7594E0DA, '2019-02-10 00:00:00') /* Reedshark Seeker */
-     , (0x7594E077, 0x7594E0DB, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil */;
+VALUES (0x7594E077, 0x7594E078, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E079, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E07A, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E07B, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E07C, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E07D, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E07E, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E07F, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E080, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E081, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E082, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E083, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E084, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E085, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E086, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E087, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E088, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E089, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E08A, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E08B, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E08C, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E08D, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E08E, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E08F, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E090, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E091, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E092, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E093, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E094, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E095, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E096, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E097, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E098, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E099, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E09A, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E09B, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E09C, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E09D, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E09E, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E09F, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0A0, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E0A1, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0A2, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0A3, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0A4, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E0A5, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0A6, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E0A7, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0A8, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E0A9, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0AA, '2019-02-10 00:00:00') /* Tamed Reaper (44052) */
+     , (0x7594E077, 0x7594E0AB, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0AC, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E0AD, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0AE, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E0AF, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0B0, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E0B1, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0B2, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0B3, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E0B4, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0B5, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0B6, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0B7, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil (45834) */
+     , (0x7594E077, 0x7594E0B8, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0B9, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0BA, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0BB, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0BC, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0BD, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0BE, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0BF, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0C0, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0C1, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0C2, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0C3, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45805) */
+     , (0x7594E077, 0x7594E0C4, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0C5, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0C6, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45806) */
+     , (0x7594E077, 0x7594E0C7, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0C8, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0C9, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0CA, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0CB, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil (45835) */
+     , (0x7594E077, 0x7594E0CC, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E0CD, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0CE, '2019-02-10 00:00:00') /* A'nekshay (45802) */
+     , (0x7594E077, 0x7594E0CF, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0D0, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0D1, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E0D2, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0D3, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E0D4, '2019-02-10 00:00:00') /* A'nekshay Temple Servant (45804) */
+     , (0x7594E077, 0x7594E0D5, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0D6, '2019-02-10 00:00:00') /* Reedshark Hunter (44048) */
+     , (0x7594E077, 0x7594E0D7, '2019-02-10 00:00:00') /* Blessed Moarsman (45807) */
+     , (0x7594E077, 0x7594E0D8, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7594E077, 0x7594E0D9, '2019-02-10 00:00:00') /* A'nekshay Temple Guardian (45803) */
+     , (0x7594E077, 0x7594E0DA, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
+     , (0x7594E077, 0x7594E0DB, '2019-02-10 00:00:00') /* Apparition of the Book of Eibhil (45835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594E078, 44052, 0x594E063D, 110, -240, -17.9975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tamed Reaper */
@@ -543,19 +543,19 @@ VALUES (0x7594E0DC,  1154, 0x594E0602, 60, -190, -17.995, -0.00420373, 0, 0, -0.
 /* @teleloc 0x594E0602 [60.000000 -190.000000 -17.995000] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594E0DC, 0x7594E0DD, '2019-02-10 00:00:00') /* Guardian Spirit */
-     , (0x7594E0DC, 0x7594E0DE, '2019-02-10 00:00:00') /* Apparition of Lady Daenerah */
-     , (0x7594E0DC, 0x7594E0DF, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar */
-     , (0x7594E0DC, 0x7594E0E0, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei */
-     , (0x7594E0DC, 0x7594E0E1, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar */
-     , (0x7594E0DC, 0x7594E0E2, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei */
-     , (0x7594E0DC, 0x7594E0E3, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar */
-     , (0x7594E0DC, 0x7594E0E4, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei */
-     , (0x7594E0DC, 0x7594E0E5, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar */
-     , (0x7594E0DC, 0x7594E0E6, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei */
-     , (0x7594E0DC, 0x7594E0E7, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar */
-     , (0x7594E0DC, 0x7594E0E8, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei */
-     , (0x7594E0DC, 0x7594E0E9, '2019-02-10 00:00:00') /* Avatar of the Deru */;
+VALUES (0x7594E0DC, 0x7594E0DD, '2019-02-10 00:00:00') /* Guardian Spirit (44473) */
+     , (0x7594E0DC, 0x7594E0DE, '2019-02-10 00:00:00') /* Apparition of Lady Daenerah (45818) */
+     , (0x7594E0DC, 0x7594E0DF, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar (45771) */
+     , (0x7594E0DC, 0x7594E0E0, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei (45776) */
+     , (0x7594E0DC, 0x7594E0E1, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar (45772) */
+     , (0x7594E0DC, 0x7594E0E2, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei (45776) */
+     , (0x7594E0DC, 0x7594E0E3, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar (45773) */
+     , (0x7594E0DC, 0x7594E0E4, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei (45776) */
+     , (0x7594E0DC, 0x7594E0E5, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar (45774) */
+     , (0x7594E0DC, 0x7594E0E6, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei (45776) */
+     , (0x7594E0DC, 0x7594E0E7, '2019-02-10 00:00:00') /* Apparition of Borelean Strathelar (45775) */
+     , (0x7594E0DC, 0x7594E0E8, '2019-02-10 00:00:00') /* Apparition of Hoshino Kei (45777) */
+     , (0x7594E0DC, 0x7594E0E9, '2019-02-10 00:00:00') /* Avatar of the Deru (44472) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594E0DD, 44473, 0x594E0602, 60, -190, -17.995, -0.00420373, 0, 0, -0.9999912,  True, '2019-02-10 00:00:00'); /* Guardian Spirit */

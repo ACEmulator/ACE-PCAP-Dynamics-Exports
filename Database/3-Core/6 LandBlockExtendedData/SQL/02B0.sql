@@ -109,83 +109,83 @@ VALUES (0x702B00CB,  1154, 0x02B00240, 167.118, -48.9352, 54.005, 0.3526981, 0, 
 /* @teleloc 0x02B00240 [167.118000 -48.935200 54.005000] 0.352698 0.000000 0.000000 -0.935737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B00CB, 0x702B00CC, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00CD, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00CE, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00CF, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00D0, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00D1, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00D2, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00D3, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00D4, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00D5, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00D6, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00D7, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00D8, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00D9, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00DA, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00DB, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00DC, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00DD, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00DE, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00DF, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E0, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00E1, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00E2, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E3, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E4, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E5, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E6, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00E7, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00E8, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B00E9, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00EA, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00EB, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00EC, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00ED, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00EE, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00EF, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F0, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F1, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F2, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F3, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F4, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F5, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00F6, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00F7, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F8, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00F9, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00FA, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00FB, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00FC, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00FD, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B00FE, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B00FF, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B0100, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B0101, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0102, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B0103, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0104, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B0105, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0106, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0107, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B0108, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B0109, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B010A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B010B, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B010C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x702B00CB, 0x702B010D, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x702B00CB, 0x702B010E, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x702B00CB, 0x702B010F, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x702B00CB, 0x702B0110, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x702B00CB, 0x702B0111, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0112, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x702B00CB, 0x702B0113, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x702B00CB, 0x702B0114, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0115, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x702B00CB, 0x702B0116, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0117, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x702B00CB, 0x702B0118, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x702B00CB, 0x702B00CC, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00CD, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00CE, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00CF, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00D0, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00D1, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00D2, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00D3, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00D4, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00D5, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00D6, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00D7, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00D8, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00D9, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00DA, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00DB, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00DC, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00DD, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00DE, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00DF, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E0, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00E1, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00E2, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E3, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E4, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E5, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E6, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00E7, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00E8, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B00E9, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00EA, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00EB, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00EC, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00ED, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00EE, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00EF, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F0, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F1, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F2, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F3, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F4, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F5, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00F6, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00F7, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F8, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00F9, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00FA, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00FB, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00FC, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00FD, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B00FE, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B00FF, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B0100, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B0101, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0102, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B0103, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0104, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B0105, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0106, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0107, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B0108, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B0109, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B010A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B010B, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B010C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x702B00CB, 0x702B010D, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x702B00CB, 0x702B010E, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x702B00CB, 0x702B010F, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x702B00CB, 0x702B0110, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (8822) */
+     , (0x702B00CB, 0x702B0111, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0112, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (8822) */
+     , (0x702B00CB, 0x702B0113, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x702B00CB, 0x702B0114, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0115, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x702B00CB, 0x702B0116, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0117, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x702B00CB, 0x702B0118, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B00CC, 23089, 0x02B00240, 167.118, -48.9352, 54.005, 0.3526981, 0, 0, -0.9357372,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */

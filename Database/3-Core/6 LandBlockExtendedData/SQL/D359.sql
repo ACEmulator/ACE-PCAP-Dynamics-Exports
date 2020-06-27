@@ -5,20 +5,20 @@ VALUES (0x7D359001,  1154, 0xD359001B, 79.01415, 59.02436, 32.0042, 1, 0, 0, 0, 
 /* @teleloc 0xD359001B [79.014150 59.024360 32.004200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D359001, 0x7D359002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D359001, 0x7D359003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D359001, 0x7D359004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D359001, 0x7D359005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D359001, 0x7D359006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D359001, 0x7D359007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D359008, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7D359001, 0x7D359009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D35900A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D35900B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D35900C, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D359001, 0x7D35900D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D35900E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D359001, 0x7D35900F, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7D359001, 0x7D359002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D359001, 0x7D359003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D359001, 0x7D359004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7D359001, 0x7D359005, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7D359001, 0x7D359006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D359001, 0x7D359007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D359008, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7D359001, 0x7D359009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D35900A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D35900B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D35900C, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D359001, 0x7D35900D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D35900E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D359001, 0x7D35900F, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D359002,   940, 0xD359001B, 79.01415, 59.02436, 32.0042, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -81,8 +81,8 @@ VALUES (0x7D359010,  1542, 0xD359001B, 79.87217, 55.74049, 32, 1, 0, 0, 0, False
 /* @teleloc 0xD359001B [79.872170 55.740490 32.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D359010, 0x7D359011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D359010, 0x7D359012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D359010, 0x7D359011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D359010, 0x7D359012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D359011,  4179, 0xD359001B, 79.87217, 55.74049, 32, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

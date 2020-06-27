@@ -5,27 +5,27 @@ VALUES (0x7FA2D001,  1154, 0xFA2D0006, 16.07721, 126.2666, 0.0004999638, -0.5355
 /* @teleloc 0xFA2D0006 [16.077210 126.266600 0.000500] -0.535531 0.000000 0.000000 -0.844515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA2D001, 0x7FA2D002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA2D001, 0x7FA2D003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7FA2D001, 0x7FA2D004, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA2D001, 0x7FA2D005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2D001, 0x7FA2D006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2D001, 0x7FA2D007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2D001, 0x7FA2D008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2D001, 0x7FA2D009, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA2D001, 0x7FA2D00A, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA2D001, 0x7FA2D00B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7FA2D001, 0x7FA2D00C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7FA2D001, 0x7FA2D00D, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2D001, 0x7FA2D00E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA2D001, 0x7FA2D00F, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2D001, 0x7FA2D010, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2D001, 0x7FA2D011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA2D001, 0x7FA2D012, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7FA2D001, 0x7FA2D013, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA2D001, 0x7FA2D014, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA2D001, 0x7FA2D015, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA2D001, 0x7FA2D016, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */;
+VALUES (0x7FA2D001, 0x7FA2D002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA2D001, 0x7FA2D003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7FA2D001, 0x7FA2D004, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA2D001, 0x7FA2D005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2D001, 0x7FA2D006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2D001, 0x7FA2D007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2D001, 0x7FA2D008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2D001, 0x7FA2D009, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA2D001, 0x7FA2D00A, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA2D001, 0x7FA2D00B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7FA2D001, 0x7FA2D00C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7FA2D001, 0x7FA2D00D, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2D001, 0x7FA2D00E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA2D001, 0x7FA2D00F, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2D001, 0x7FA2D010, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2D001, 0x7FA2D011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA2D001, 0x7FA2D012, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7FA2D001, 0x7FA2D013, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA2D001, 0x7FA2D014, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA2D001, 0x7FA2D015, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA2D001, 0x7FA2D016, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA2D002, 40307, 0xFA2D0006, 16.07721, 126.2666, 0.0004999638, -0.5355312, 0, 0, -0.8445154,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

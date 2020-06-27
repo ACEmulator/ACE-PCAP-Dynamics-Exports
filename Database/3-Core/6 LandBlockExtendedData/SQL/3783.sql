@@ -5,11 +5,11 @@ VALUES (0x73783001,  1154, 0x37830006, 17.3659, 132.835, 29.10901, -0.933858, 0,
 /* @teleloc 0x37830006 [17.365900 132.835000 29.109010] -0.933858 0.000000 0.000000 -0.357644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73783001, 0x73783002, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x73783001, 0x73783003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73783001, 0x73783004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x73783001, 0x73783005, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x73783001, 0x73783006, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x73783001, 0x73783002, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x73783001, 0x73783003, '2019-02-10 00:00:00') /* Tumerok Warrior (2488) */
+     , (0x73783001, 0x73783004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x73783001, 0x73783005, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x73783001, 0x73783006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73783002,  1631, 0x37830006, 17.3659, 132.835, 29.10901, -0.933858, 0, 0, -0.357644,  True, '2019-02-10 00:00:00'); /* Drudge Servant */

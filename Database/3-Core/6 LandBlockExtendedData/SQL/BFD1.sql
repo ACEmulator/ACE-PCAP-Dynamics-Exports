@@ -5,16 +5,16 @@ VALUES (0x7BFD1001,  1154, 0xBFD10015, 69.32623, 98.67663, 209.9894, -0.9482798,
 /* @teleloc 0xBFD10015 [69.326230 98.676630 209.989400] -0.948280 0.000000 0.000000 -0.317436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD1001, 0x7BFD1002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7BFD1001, 0x7BFD1003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7BFD1001, 0x7BFD1004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BFD1001, 0x7BFD1005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD1001, 0x7BFD1006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7BFD1001, 0x7BFD1007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BFD1001, 0x7BFD1008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD1001, 0x7BFD1009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BFD1001, 0x7BFD100A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFD1001, 0x7BFD100B, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x7BFD1001, 0x7BFD1002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7BFD1001, 0x7BFD1003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7BFD1001, 0x7BFD1004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BFD1001, 0x7BFD1005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD1001, 0x7BFD1006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7BFD1001, 0x7BFD1007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BFD1001, 0x7BFD1008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD1001, 0x7BFD1009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BFD1001, 0x7BFD100A, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BFD1001, 0x7BFD100B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD1002, 24960, 0xBFD10015, 69.32623, 98.67663, 209.9894, -0.9482798, 0, 0, -0.3174358,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

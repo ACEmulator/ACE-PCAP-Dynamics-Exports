@@ -5,14 +5,14 @@ VALUES (0x7A5D0001,  1154, 0xA5D00005, 0.6982129, 111.7963, 151.2607, 0.7660445,
 /* @teleloc 0xA5D00005 [0.698213 111.796300 151.260700] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D0001, 0x7A5D0002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A5D0001, 0x7A5D0003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A5D0001, 0x7A5D0004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A5D0001, 0x7A5D0005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D0001, 0x7A5D0006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A5D0001, 0x7A5D0007, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D0001, 0x7A5D0008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D0001, 0x7A5D0009, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x7A5D0001, 0x7A5D0002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A5D0001, 0x7A5D0003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A5D0001, 0x7A5D0004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A5D0001, 0x7A5D0005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D0001, 0x7A5D0006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A5D0001, 0x7A5D0007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D0001, 0x7A5D0008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D0001, 0x7A5D0009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D0002,  7334, 0xA5D00005, 0.6982129, 111.7963, 151.2607, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -51,8 +51,8 @@ VALUES (0x7A5D000A,  1542, 0xA5D00005, 1.250466, 111.215, 151.1637, 1, 0, 0, 0, 
 /* @teleloc 0xA5D00005 [1.250466 111.215000 151.163700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D000A, 0x7A5D000B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A5D000A, 0x7A5D000C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A5D000A, 0x7A5D000B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A5D000A, 0x7A5D000C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D000B, 22567, 0xA5D00005, 1.250466, 111.215, 151.1637, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

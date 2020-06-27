@@ -5,11 +5,11 @@ VALUES (0x7B965001,  1154, 0xB9650038, 150.6393, 171.8722, 5.9045, 0.9537169, 0,
 /* @teleloc 0xB9650038 [150.639300 171.872200 5.904500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B965001, 0x7B965002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B965001, 0x7B965003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B965001, 0x7B965004, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B965001, 0x7B965005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B965001, 0x7B965006, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7B965001, 0x7B965002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B965001, 0x7B965003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B965001, 0x7B965004, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B965001, 0x7B965005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B965001, 0x7B965006, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B965002,  1616, 0xB9650038, 150.6393, 171.8722, 5.9045, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */

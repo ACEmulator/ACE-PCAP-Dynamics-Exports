@@ -5,14 +5,14 @@ VALUES (0x72C75001,  1154, 0x2C75003C, 179.82, 79.51868, 149.2631, -0.7260453, 0
 /* @teleloc 0x2C75003C [179.820000 79.518680 149.263100] -0.726045 0.000000 0.000000 -0.687647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C75001, 0x72C75002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C75001, 0x72C75003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C75001, 0x72C75004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C75001, 0x72C75005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72C75001, 0x72C75006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72C75001, 0x72C75007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C75001, 0x72C75008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C75001, 0x72C75009, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x72C75001, 0x72C75002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C75001, 0x72C75003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C75001, 0x72C75004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C75001, 0x72C75005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72C75001, 0x72C75006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72C75001, 0x72C75007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C75001, 0x72C75008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C75001, 0x72C75009, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C75002, 36832, 0x2C75003C, 179.82, 79.51868, 149.2631, -0.7260453, 0, 0, -0.6876469,  True, '2019-02-10 00:00:00'); /* Gold Golem */

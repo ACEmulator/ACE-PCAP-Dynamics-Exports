@@ -5,25 +5,25 @@ VALUES (0x7E94E001,  1154, 0xE94E0016, 63.77932, 128.8688, 6.670057, -0.2024342,
 /* @teleloc 0xE94E0016 [63.779320 128.868800 6.670057] -0.202434 0.000000 0.000000 -0.979296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E94E001, 0x7E94E002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E94E001, 0x7E94E003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E94E001, 0x7E94E004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E94E001, 0x7E94E005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E94E001, 0x7E94E006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E94E001, 0x7E94E007, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E94E001, 0x7E94E008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E94E001, 0x7E94E009, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E94E001, 0x7E94E00A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E94E001, 0x7E94E00B, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E94E001, 0x7E94E00C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E94E001, 0x7E94E00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E94E001, 0x7E94E00E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E94E001, 0x7E94E00F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E94E001, 0x7E94E010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E94E001, 0x7E94E011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E94E001, 0x7E94E012, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E94E001, 0x7E94E013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E94E001, 0x7E94E014, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7E94E001, 0x7E94E002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E94E001, 0x7E94E003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E94E001, 0x7E94E004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E94E001, 0x7E94E005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E94E001, 0x7E94E006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E94E001, 0x7E94E007, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E94E001, 0x7E94E008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E94E001, 0x7E94E009, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E94E001, 0x7E94E00A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E94E001, 0x7E94E00B, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E94E001, 0x7E94E00C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E94E001, 0x7E94E00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E94E001, 0x7E94E00E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E94E001, 0x7E94E00F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E94E001, 0x7E94E010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E94E001, 0x7E94E011, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E94E001, 0x7E94E012, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E94E001, 0x7E94E013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E94E001, 0x7E94E014, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E94E002,  4110, 0xE94E0016, 63.77932, 128.8688, 6.670057, -0.2024342, 0, 0, -0.9792958,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

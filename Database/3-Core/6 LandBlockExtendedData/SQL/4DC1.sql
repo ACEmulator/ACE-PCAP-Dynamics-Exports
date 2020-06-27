@@ -5,17 +5,17 @@ VALUES (0x74DC1001,  1154, 0x4DC1002C, 131.672, 90.44347, 13.02734, 0.7631977, 0
 /* @teleloc 0x4DC1002C [131.672000 90.443470 13.027340] 0.763198 0.000000 0.000000 -0.646165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DC1001, 0x74DC1002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x74DC1001, 0x74DC1003, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x74DC1001, 0x74DC1004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74DC1001, 0x74DC1005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x74DC1001, 0x74DC1006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74DC1001, 0x74DC1007, '2019-02-10 00:00:00') /* Ember */
-     , (0x74DC1001, 0x74DC1008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74DC1001, 0x74DC1009, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74DC1001, 0x74DC100A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74DC1001, 0x74DC100B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74DC1001, 0x74DC100C, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x74DC1001, 0x74DC1002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x74DC1001, 0x74DC1003, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x74DC1001, 0x74DC1004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74DC1001, 0x74DC1005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x74DC1001, 0x74DC1006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74DC1001, 0x74DC1007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x74DC1001, 0x74DC1008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74DC1001, 0x74DC1009, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74DC1001, 0x74DC100A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74DC1001, 0x74DC100B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74DC1001, 0x74DC100C, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DC1002,  5748, 0x4DC1002C, 131.672, 90.44347, 13.02734, 0.7631977, 0, 0, -0.646165,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

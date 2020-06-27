@@ -5,12 +5,12 @@ VALUES (0x774BA001,  1154, 0x74BA0031, 167.1173, 11.04693, 100.3738, 0.410681, 0
 /* @teleloc 0x74BA0031 [167.117300 11.046930 100.373800] 0.410681 0.000000 0.000000 -0.911779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774BA001, 0x774BA002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x774BA001, 0x774BA003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x774BA001, 0x774BA004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x774BA001, 0x774BA005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x774BA001, 0x774BA006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x774BA001, 0x774BA007, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x774BA001, 0x774BA002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x774BA001, 0x774BA003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x774BA001, 0x774BA004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x774BA001, 0x774BA005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x774BA001, 0x774BA006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x774BA001, 0x774BA007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774BA002, 23565, 0x74BA0031, 167.1173, 11.04693, 100.3738, 0.410681, 0, 0, -0.9117791,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

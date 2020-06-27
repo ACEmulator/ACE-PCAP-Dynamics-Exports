@@ -5,9 +5,9 @@ VALUES (0x7384B001,  1154, 0x384B0031, 152.1046, 8.006956, 0.006400108, 0.149758
 /* @teleloc 0x384B0031 [152.104600 8.006956 0.006400] 0.149758 0.000000 0.000000 -0.988723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7384B001, 0x7384B002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7384B001, 0x7384B003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7384B001, 0x7384B004, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x7384B001, 0x7384B002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7384B001, 0x7384B003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7384B001, 0x7384B004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7384B002,  7181, 0x384B0031, 152.1046, 8.006956, 0.006400108, 0.1497584, 0, 0, -0.9887226,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */

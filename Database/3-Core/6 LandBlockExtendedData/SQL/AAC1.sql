@@ -5,24 +5,24 @@ VALUES (0x7AAC1001,  1154, 0xAAC10018, 67.23019, 183.7611, 103.4849, -0.8092139,
 /* @teleloc 0xAAC10018 [67.230190 183.761100 103.484900] -0.809214 0.000000 0.000000 -0.587514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAC1001, 0x7AAC1002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAC1001, 0x7AAC1003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AAC1001, 0x7AAC1004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAC1001, 0x7AAC1005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AAC1001, 0x7AAC1006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAC1001, 0x7AAC1007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AAC1001, 0x7AAC1008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAC1001, 0x7AAC1009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AAC1001, 0x7AAC100A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAC1001, 0x7AAC100B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAC1001, 0x7AAC100C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7AAC1001, 0x7AAC100D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AAC1001, 0x7AAC100E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAC1001, 0x7AAC100F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AAC1001, 0x7AAC1010, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AAC1001, 0x7AAC1011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAC1001, 0x7AAC1012, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7AAC1001, 0x7AAC1013, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7AAC1001, 0x7AAC1002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAC1001, 0x7AAC1003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AAC1001, 0x7AAC1004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAC1001, 0x7AAC1005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AAC1001, 0x7AAC1006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAC1001, 0x7AAC1007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AAC1001, 0x7AAC1008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAC1001, 0x7AAC1009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AAC1001, 0x7AAC100A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAC1001, 0x7AAC100B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAC1001, 0x7AAC100C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7AAC1001, 0x7AAC100D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AAC1001, 0x7AAC100E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAC1001, 0x7AAC100F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AAC1001, 0x7AAC1010, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AAC1001, 0x7AAC1011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAC1001, 0x7AAC1012, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7AAC1001, 0x7AAC1013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAC1002,  1608, 0xAAC10018, 67.23019, 183.7611, 103.4849, -0.8092139, 0, 0, -0.5875142,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -101,7 +101,7 @@ VALUES (0x7AAC1014,  1542, 0xAAC10016, 48.54723, 121.0475, 115.7342, 1, 0, 0, 0,
 /* @teleloc 0xAAC10016 [48.547230 121.047500 115.734200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAC1014, 0x7AAC1015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AAC1014, 0x7AAC1015, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAC1015, 22570, 0xAAC10016, 48.54723, 121.0475, 115.7342, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x77ED9001,  1154, 0x7ED90006, 23.75209, 122.5516, 263.7919, 0.7071068, 
 /* @teleloc 0x7ED90006 [23.752090 122.551600 263.791900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ED9001, 0x77ED9002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77ED9001, 0x77ED9003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77ED9001, 0x77ED9004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77ED9001, 0x77ED9005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77ED9001, 0x77ED9006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x77ED9001, 0x77ED9007, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x77ED9001, 0x77ED9002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77ED9001, 0x77ED9003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77ED9001, 0x77ED9004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77ED9001, 0x77ED9005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77ED9001, 0x77ED9006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x77ED9001, 0x77ED9007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ED9002, 24280, 0x7ED90006, 23.75209, 122.5516, 263.7919, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -41,7 +41,7 @@ VALUES (0x77ED9008,  1542, 0x7ED90005, 20.88496, 119.8205, 266.8027, -4.371139E-
 /* @teleloc 0x7ED90005 [20.884960 119.820500 266.802700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ED9008, 0x77ED9009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77ED9008, 0x77ED9009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ED9009,  4380, 0x7ED90005, 20.88496, 119.8205, 266.8027, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

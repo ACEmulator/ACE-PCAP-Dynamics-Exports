@@ -5,19 +5,19 @@ VALUES (0x7EC4F001,  1154, 0xEC4F002F, 129.4104, 157.5149, 12.91295, -0.6055115,
 /* @teleloc 0xEC4F002F [129.410400 157.514900 12.912950] -0.605512 0.000000 0.000000 -0.795837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC4F001, 0x7EC4F002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EC4F001, 0x7EC4F003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EC4F001, 0x7EC4F004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EC4F001, 0x7EC4F005, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EC4F001, 0x7EC4F006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EC4F001, 0x7EC4F007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EC4F001, 0x7EC4F008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7EC4F001, 0x7EC4F009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7EC4F001, 0x7EC4F00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EC4F001, 0x7EC4F00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC4F001, 0x7EC4F00C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7EC4F001, 0x7EC4F00D, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7EC4F001, 0x7EC4F00E, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7EC4F001, 0x7EC4F002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EC4F001, 0x7EC4F003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EC4F001, 0x7EC4F004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EC4F001, 0x7EC4F005, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EC4F001, 0x7EC4F006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EC4F001, 0x7EC4F007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EC4F001, 0x7EC4F008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7EC4F001, 0x7EC4F009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7EC4F001, 0x7EC4F00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EC4F001, 0x7EC4F00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC4F001, 0x7EC4F00C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7EC4F001, 0x7EC4F00D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7EC4F001, 0x7EC4F00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC4F002,  7108, 0xEC4F002F, 129.4104, 157.5149, 12.91295, -0.6055115, 0, 0, -0.7958366,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -76,7 +76,7 @@ VALUES (0x7EC4F00F,  1542, 0xEC4F0040, 179.7795, 168.1819, 14.11023, 1, 0, 0, 0,
 /* @teleloc 0xEC4F0040 [179.779500 168.181900 14.110230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC4F00F, 0x7EC4F010, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7EC4F00F, 0x7EC4F010, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC4F010,  8588, 0xEC4F0040, 179.7795, 168.1819, 14.11023, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,16 +5,16 @@ VALUES (0x749CD001,  1154, 0x49CD0023, 111.5472, 71.602, 39.33876, -0.9980867, 0
 /* @teleloc 0x49CD0023 [111.547200 71.602000 39.338760] -0.998087 0.000000 0.000000 -0.061830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749CD001, 0x749CD002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x749CD001, 0x749CD003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749CD001, 0x749CD004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749CD001, 0x749CD005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749CD001, 0x749CD006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x749CD001, 0x749CD007, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x749CD001, 0x749CD008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749CD001, 0x749CD009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x749CD001, 0x749CD00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x749CD001, 0x749CD00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x749CD001, 0x749CD002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x749CD001, 0x749CD003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749CD001, 0x749CD004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749CD001, 0x749CD005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749CD001, 0x749CD006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x749CD001, 0x749CD007, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x749CD001, 0x749CD008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749CD001, 0x749CD009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x749CD001, 0x749CD00A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x749CD001, 0x749CD00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749CD002,  4216, 0x49CD0023, 111.5472, 71.602, 39.33876, -0.9980867, 0, 0, -0.06183007,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -61,9 +61,9 @@ VALUES (0x749CD00C,  1542, 0x49CD0006, 0.7465363, 129.2895, 44.26671, 0.9914449,
 /* @teleloc 0x49CD0006 [0.746536 129.289500 44.266710] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749CD00C, 0x749CD00D, '2019-02-10 00:00:00') /* Bones */
-     , (0x749CD00C, 0x749CD00E, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x749CD00C, 0x749CD00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x749CD00C, 0x749CD00D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x749CD00C, 0x749CD00E, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x749CD00C, 0x749CD00F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749CD00D,  4380, 0x49CD0006, 0.7465363, 129.2895, 44.26671, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

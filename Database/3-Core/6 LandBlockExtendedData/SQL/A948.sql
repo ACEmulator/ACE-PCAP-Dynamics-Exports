@@ -5,14 +5,14 @@ VALUES (0x7A948001,  1154, 0xA9480037, 160.1895, 145.1593, 38.0075, 0.9659258, 0
 /* @teleloc 0xA9480037 [160.189500 145.159300 38.007500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A948001, 0x7A948002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A948001, 0x7A948003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A948001, 0x7A948004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A948001, 0x7A948005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A948001, 0x7A948006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A948001, 0x7A948007, '2019-02-10 00:00:00') /* Mox */
-     , (0x7A948001, 0x7A948008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A948001, 0x7A948009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7A948001, 0x7A948002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A948001, 0x7A948003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A948001, 0x7A948004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A948001, 0x7A948005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A948001, 0x7A948006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A948001, 0x7A948007, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7A948001, 0x7A948008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A948001, 0x7A948009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A948002,  1630, 0xA9480037, 160.1895, 145.1593, 38.0075, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */

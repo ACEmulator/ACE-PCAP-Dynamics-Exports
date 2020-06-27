@@ -5,12 +5,12 @@ VALUES (0x7A5DA001,  1154, 0xA5DA0005, 15.99841, 108.6693, 40.95247, 0.4281096, 
 /* @teleloc 0xA5DA0005 [15.998410 108.669300 40.952470] 0.428110 0.000000 0.000000 -0.903727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5DA001, 0x7A5DA002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A5DA001, 0x7A5DA003, '2019-02-10 00:00:00') /* Banished Olthoi */
-     , (0x7A5DA001, 0x7A5DA004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A5DA001, 0x7A5DA005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A5DA001, 0x7A5DA006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A5DA001, 0x7A5DA007, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x7A5DA001, 0x7A5DA002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A5DA001, 0x7A5DA003, '2019-02-10 00:00:00') /* Banished Olthoi (30903) */
+     , (0x7A5DA001, 0x7A5DA004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A5DA001, 0x7A5DA005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A5DA001, 0x7A5DA006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A5DA001, 0x7A5DA007, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5DA002,  4217, 0xA5DA0005, 15.99841, 108.6693, 40.95247, 0.4281096, 0, 0, -0.9037268,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

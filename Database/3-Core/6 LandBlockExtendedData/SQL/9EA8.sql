@@ -5,18 +5,18 @@ VALUES (0x79EA8001,  1154, 0x9EA8003B, 183.9251, 53.98803, 73.67303, 0.5952069, 
 /* @teleloc 0x9EA8003B [183.925100 53.988030 73.673030] 0.595207 0.000000 0.000000 -0.803573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA8001, 0x79EA8002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EA8001, 0x79EA8003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EA8001, 0x79EA8004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79EA8001, 0x79EA8005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79EA8001, 0x79EA8006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79EA8001, 0x79EA8007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79EA8001, 0x79EA8008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79EA8001, 0x79EA8009, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79EA8001, 0x79EA800A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA8001, 0x79EA800B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79EA8001, 0x79EA800C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA8001, 0x79EA800D, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x79EA8001, 0x79EA8002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EA8001, 0x79EA8003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EA8001, 0x79EA8004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79EA8001, 0x79EA8005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79EA8001, 0x79EA8006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79EA8001, 0x79EA8007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79EA8001, 0x79EA8008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79EA8001, 0x79EA8009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79EA8001, 0x79EA800A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA8001, 0x79EA800B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79EA8001, 0x79EA800C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA8001, 0x79EA800D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA8002,     3, 0x9EA8003B, 183.9251, 53.98803, 73.67303, 0.5952069, 0, 0, -0.8035725,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -71,7 +71,7 @@ VALUES (0x79EA800E,  1542, 0x9EA80032, 148.8912, 47.71109, 75.5924, 1, 0, 0, 0, 
 /* @teleloc 0x9EA80032 [148.891200 47.711090 75.592400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA800E, 0x79EA800F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79EA800E, 0x79EA800F, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA800F, 22576, 0x9EA80032, 148.8912, 47.71109, 75.5924, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

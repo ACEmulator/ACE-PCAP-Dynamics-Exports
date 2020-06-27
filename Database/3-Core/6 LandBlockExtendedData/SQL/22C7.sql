@@ -5,9 +5,9 @@ VALUES (0x722C7001,  1154, 0x22C70038, 151.0607, 190.5858, 8.470531, 0.4305658, 
 /* @teleloc 0x22C70038 [151.060700 190.585800 8.470531] 0.430566 0.000000 0.000000 -0.902559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C7001, 0x722C7002, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C7001, 0x722C7003, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C7001, 0x722C7004, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x722C7001, 0x722C7002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C7001, 0x722C7003, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C7001, 0x722C7004, '2019-02-10 00:00:00') /* Virindi Executor (10954) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C7002, 27708, 0x22C70038, 151.0607, 190.5858, 8.470531, 0.4305658, 0, 0, -0.9025592,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */

@@ -5,10 +5,10 @@ VALUES (0x71A32001,  1154, 0x1A320002, 4.66667, 41.43074, 64.63371, -0.3653041, 
 /* @teleloc 0x1A320002 [4.666670 41.430740 64.633710] -0.365304 0.000000 0.000000 -0.930888 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A32001, 0x71A32002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A32001, 0x71A32003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71A32001, 0x71A32004, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71A32001, 0x71A32005, '2019-02-10 00:00:00') /* Primeval Skeleton */;
+VALUES (0x71A32001, 0x71A32002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71A32001, 0x71A32003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71A32001, 0x71A32004, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71A32001, 0x71A32005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A32002, 14520, 0x1A320002, 4.66667, 41.43074, 64.63371, -0.3653041, 0, 0, -0.9308882,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

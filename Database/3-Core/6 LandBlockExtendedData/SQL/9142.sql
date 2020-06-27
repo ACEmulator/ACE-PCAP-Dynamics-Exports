@@ -5,11 +5,11 @@ VALUES (0x79142001,  1154, 0x91420011, 66.52911, 4.186084, 11.65316, -0.5961094,
 /* @teleloc 0x91420011 [66.529110 4.186084 11.653160] -0.596109 0.000000 0.000000 -0.802903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79142001, 0x79142002, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79142001, 0x79142003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79142001, 0x79142004, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79142001, 0x79142005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79142001, 0x79142006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x79142001, 0x79142002, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79142001, 0x79142003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79142001, 0x79142004, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79142001, 0x79142005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79142001, 0x79142006, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79142002,  9256, 0x91420011, 66.52911, 4.186084, 11.65316, -0.5961094, 0, 0, -0.8029032,  True, '2019-02-10 00:00:00'); /* Dune Reaver */

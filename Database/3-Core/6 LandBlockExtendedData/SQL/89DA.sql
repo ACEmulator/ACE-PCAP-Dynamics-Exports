@@ -5,10 +5,10 @@ VALUES (0x789DA001,  1154, 0x89DA0017, 54.24234, 158.3897, 108.288, 0.9238795, 0
 /* @teleloc 0x89DA0017 [54.242340 158.389700 108.288000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789DA001, 0x789DA002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x789DA001, 0x789DA003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x789DA001, 0x789DA004, '2019-02-10 00:00:00') /* Hyem */
-     , (0x789DA001, 0x789DA005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x789DA001, 0x789DA002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x789DA001, 0x789DA003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x789DA001, 0x789DA004, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x789DA001, 0x789DA005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789DA002,  7089, 0x89DA0017, 54.24234, 158.3897, 108.288, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

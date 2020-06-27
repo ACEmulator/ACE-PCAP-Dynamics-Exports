@@ -5,13 +5,13 @@ VALUES (0x72AF1001,  1154, 0x2AF1003D, 188.2171, 103.524, 3.99545, 0.9987275, 0,
 /* @teleloc 0x2AF1003D [188.217100 103.524000 3.995450] 0.998728 0.000000 0.000000 -0.050432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AF1001, 0x72AF1002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AF1001, 0x72AF1003, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AF1001, 0x72AF1004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AF1001, 0x72AF1005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AF1001, 0x72AF1006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AF1001, 0x72AF1007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AF1001, 0x72AF1008, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x72AF1001, 0x72AF1002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AF1001, 0x72AF1003, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AF1001, 0x72AF1004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AF1001, 0x72AF1005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AF1001, 0x72AF1006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AF1001, 0x72AF1007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AF1001, 0x72AF1008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AF1002, 24960, 0x2AF1003D, 188.2171, 103.524, 3.99545, 0.9987275, 0, 0, -0.05043176,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

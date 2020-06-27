@@ -5,9 +5,9 @@ VALUES (0x763CB001,  1154, 0x63CB000F, 27.27786, 153.4014, 155.0496, -0.9954168,
 /* @teleloc 0x63CB000F [27.277860 153.401400 155.049600] -0.995417 0.000000 0.000000 -0.095632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763CB001, 0x763CB002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x763CB001, 0x763CB003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x763CB001, 0x763CB004, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x763CB001, 0x763CB002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x763CB001, 0x763CB003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x763CB001, 0x763CB004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763CB002, 36844, 0x63CB000F, 27.27786, 153.4014, 155.0496, -0.9954168, 0, 0, -0.09563153,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -26,7 +26,7 @@ VALUES (0x763CB005,  1542, 0x63CB0035, 166.6695, 105.1647, 162.6528, 0.8930511, 
 /* @teleloc 0x63CB0035 [166.669500 105.164700 162.652800] 0.893051 0.000000 0.000000 -0.449955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763CB005, 0x763CB006, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x763CB005, 0x763CB006, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763CB006,  8648, 0x63CB0035, 166.6695, 105.1647, 162.6528, 0.8930511, 0, 0, -0.4499552,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

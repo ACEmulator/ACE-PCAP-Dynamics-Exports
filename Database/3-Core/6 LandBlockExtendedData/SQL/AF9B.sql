@@ -5,12 +5,12 @@ VALUES (0x7AF9B001,  1154, 0xAF9B0005, 9.831393, 109.0432, 67.09693, -0.8947877,
 /* @teleloc 0xAF9B0005 [9.831393 109.043200 67.096930] -0.894788 0.000000 0.000000 -0.446492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF9B001, 0x7AF9B002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF9B001, 0x7AF9B003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AF9B001, 0x7AF9B004, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7AF9B001, 0x7AF9B005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AF9B001, 0x7AF9B006, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7AF9B001, 0x7AF9B007, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7AF9B001, 0x7AF9B002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF9B001, 0x7AF9B003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AF9B001, 0x7AF9B004, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7AF9B001, 0x7AF9B005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AF9B001, 0x7AF9B006, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AF9B001, 0x7AF9B007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF9B002,   194, 0xAF9B0005, 9.831393, 109.0432, 67.09693, -0.8947877, 0, 0, -0.446492,  True, '2019-02-10 00:00:00'); /* Copper Golem */

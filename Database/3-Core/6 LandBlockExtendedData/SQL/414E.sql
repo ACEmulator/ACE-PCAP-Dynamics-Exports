@@ -5,13 +5,13 @@ VALUES (0x7414E001,  1154, 0x414E0029, 134.9515, 7.261185, 23.63909, 0.9880635, 
 /* @teleloc 0x414E0029 [134.951500 7.261185 23.639090] 0.988064 0.000000 0.000000 -0.154047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414E001, 0x7414E002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7414E001, 0x7414E003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7414E001, 0x7414E004, '2019-02-10 00:00:00') /* Flare */
-     , (0x7414E001, 0x7414E005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7414E001, 0x7414E006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7414E001, 0x7414E007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7414E001, 0x7414E008, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x7414E001, 0x7414E002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7414E001, 0x7414E003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7414E001, 0x7414E004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7414E001, 0x7414E005, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7414E001, 0x7414E006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7414E001, 0x7414E007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7414E001, 0x7414E008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414E002,  5712, 0x414E0029, 134.9515, 7.261185, 23.63909, 0.9880635, 0, 0, -0.1540473,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -46,7 +46,7 @@ VALUES (0x7414E009,  1542, 0x414E0009, 31.59125, 12.68898, 34.43745, 0.2058581, 
 /* @teleloc 0x414E0009 [31.591250 12.688980 34.437450] 0.205858 0.000000 0.000000 -0.978582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414E009, 0x7414E00A, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7414E009, 0x7414E00A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414E00A, 11555, 0x414E0009, 31.59125, 12.68898, 34.43745, 0.2058581, 0, 0, -0.9785818,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

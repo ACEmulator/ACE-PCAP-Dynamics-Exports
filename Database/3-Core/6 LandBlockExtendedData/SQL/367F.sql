@@ -5,13 +5,13 @@ VALUES (0x7367F001,  1154, 0x367F003E, 182.0243, 128.9641, 45.8993, 0.6397813, 0
 /* @teleloc 0x367F003E [182.024300 128.964100 45.899300] 0.639781 0.000000 0.000000 -0.768557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7367F001, 0x7367F002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7367F001, 0x7367F003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7367F001, 0x7367F004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7367F001, 0x7367F005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7367F001, 0x7367F006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7367F001, 0x7367F007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7367F001, 0x7367F008, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7367F001, 0x7367F002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7367F001, 0x7367F003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7367F001, 0x7367F004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7367F001, 0x7367F005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7367F001, 0x7367F006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7367F001, 0x7367F007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7367F001, 0x7367F008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7367F002, 41533, 0x367F003E, 182.0243, 128.9641, 45.8993, 0.6397813, 0, 0, -0.768557,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */

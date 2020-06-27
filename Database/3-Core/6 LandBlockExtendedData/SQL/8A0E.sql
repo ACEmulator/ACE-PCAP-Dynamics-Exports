@@ -509,8 +509,8 @@ VALUES (0x78A0E07E,  1542, 0x8A0E001C, 93.8476, 89.64858, 224.4368, 0.966472, 0,
 /* @teleloc 0x8A0E001C [93.847600 89.648580 224.436800] 0.966472 0.000000 0.000000 0.256772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A0E07E, 0x78A0E07F, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x78A0E07E, 0x78A0E080, '2019-02-10 00:00:00') /* Brawler's Crystal */;
+VALUES (0x78A0E07E, 0x78A0E07F, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x78A0E07E, 0x78A0E080, '2019-02-10 00:00:00') /* Brawler's Crystal (45366) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A0E07F, 38456, 0x8A0E001C, 93.8476, 89.64858, 224.4368, 0.966472, 0, 0, 0.2567719,  True, '2019-02-10 00:00:00'); /* Mana Forge Key */

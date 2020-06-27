@@ -5,17 +5,17 @@ VALUES (0x71C4E001,  1154, 0x1C4E0028, 97.97901, 186.537, 77.71422, 0.2588191, 0
 /* @teleloc 0x1C4E0028 [97.979010 186.537000 77.714220] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C4E001, 0x71C4E002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71C4E001, 0x71C4E003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C4E001, 0x71C4E004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C4E001, 0x71C4E005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C4E001, 0x71C4E006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71C4E001, 0x71C4E007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71C4E001, 0x71C4E008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C4E001, 0x71C4E009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C4E001, 0x71C4E00A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C4E001, 0x71C4E00B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C4E001, 0x71C4E00C, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x71C4E001, 0x71C4E002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71C4E001, 0x71C4E003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C4E001, 0x71C4E004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C4E001, 0x71C4E005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C4E001, 0x71C4E006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71C4E001, 0x71C4E007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71C4E001, 0x71C4E008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C4E001, 0x71C4E009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C4E001, 0x71C4E00A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C4E001, 0x71C4E00B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C4E001, 0x71C4E00C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C4E002, 36822, 0x1C4E0028, 97.97901, 186.537, 77.71422, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -66,8 +66,8 @@ VALUES (0x71C4E00D,  1542, 0x1C4E0011, 59.0363, 15.77679, 41.41566, -4.371139E-0
 /* @teleloc 0x1C4E0011 [59.036300 15.776790 41.415660] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C4E00D, 0x71C4E00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x71C4E00D, 0x71C4E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C4E00D, 0x71C4E00E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71C4E00D, 0x71C4E00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C4E00E,  4380, 0x1C4E0011, 59.0363, 15.77679, 41.41566, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

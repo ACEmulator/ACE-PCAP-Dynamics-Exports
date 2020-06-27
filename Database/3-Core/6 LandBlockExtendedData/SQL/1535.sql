@@ -5,11 +5,11 @@ VALUES (0x71535001,  1154, 0x1535003B, 188.0669, 56.73307, 23.52565, -4.371139E-
 /* @teleloc 0x1535003B [188.066900 56.733070 23.525650] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71535001, 0x71535002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71535001, 0x71535003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71535001, 0x71535004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71535001, 0x71535005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71535001, 0x71535006, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x71535001, 0x71535002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71535001, 0x71535003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71535001, 0x71535004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71535001, 0x71535005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71535001, 0x71535006, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71535002,  7982, 0x1535003B, 188.0669, 56.73307, 23.52565, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

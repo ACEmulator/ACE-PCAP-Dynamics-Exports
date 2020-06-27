@@ -5,9 +5,9 @@ VALUES (0x75028001,  1154, 0x50280023, 110.7309, 62.20825, 68.01, -0.8092677, 0,
 /* @teleloc 0x50280023 [110.730900 62.208250 68.010000] -0.809268 0.000000 0.000000 -0.587440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75028001, 0x75028002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75028001, 0x75028003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75028001, 0x75028004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x75028001, 0x75028002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75028001, 0x75028003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75028001, 0x75028004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75028002, 36830, 0x50280023, 110.7309, 62.20825, 68.01, -0.8092677, 0, 0, -0.5874401,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

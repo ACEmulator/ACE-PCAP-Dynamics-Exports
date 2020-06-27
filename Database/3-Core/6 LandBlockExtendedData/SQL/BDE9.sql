@@ -5,17 +5,17 @@ VALUES (0x7BDE9001,  1154, 0xBDE90007, 18.63635, 167.714, 18.45412, 0.7071068, 0
 /* @teleloc 0xBDE90007 [18.636350 167.714000 18.454120] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDE9001, 0x7BDE9002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDE9001, 0x7BDE9003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BDE9001, 0x7BDE9004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDE9001, 0x7BDE9005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDE9001, 0x7BDE9006, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BDE9001, 0x7BDE9007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDE9001, 0x7BDE9008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BDE9001, 0x7BDE9009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BDE9001, 0x7BDE900A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BDE9001, 0x7BDE900B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDE9001, 0x7BDE900C, '2019-02-10 00:00:00') /* Spirit */;
+VALUES (0x7BDE9001, 0x7BDE9002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDE9001, 0x7BDE9003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BDE9001, 0x7BDE9004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDE9001, 0x7BDE9005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDE9001, 0x7BDE9006, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BDE9001, 0x7BDE9007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDE9001, 0x7BDE9008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BDE9001, 0x7BDE9009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BDE9001, 0x7BDE900A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BDE9001, 0x7BDE900B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDE9001, 0x7BDE900C, '2019-02-10 00:00:00') /* Spirit (28246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDE9002,  7333, 0xBDE90007, 18.63635, 167.714, 18.45412, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -66,7 +66,7 @@ VALUES (0x7BDE900D,  1542, 0xBDE90008, 20.93636, 171.8139, 19.31812, -4.371139E-
 /* @teleloc 0xBDE90008 [20.936360 171.813900 19.318120] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDE900D, 0x7BDE900E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BDE900D, 0x7BDE900E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDE900E,  4380, 0xBDE90008, 20.93636, 171.8139, 19.31812, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

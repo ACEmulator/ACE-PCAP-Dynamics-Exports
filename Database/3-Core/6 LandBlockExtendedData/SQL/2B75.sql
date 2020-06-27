@@ -5,15 +5,15 @@ VALUES (0x72B75001,  1154, 0x2B75002A, 142.551, 40.44748, 149.61, 0.8028812, 0, 
 /* @teleloc 0x2B75002A [142.551000 40.447480 149.610000] 0.802881 0.000000 0.000000 -0.596139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B75001, 0x72B75002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72B75001, 0x72B75003, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72B75001, 0x72B75004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72B75001, 0x72B75005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72B75001, 0x72B75006, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x72B75001, 0x72B75007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72B75001, 0x72B75008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B75001, 0x72B75009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72B75001, 0x72B7500A, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x72B75001, 0x72B75002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72B75001, 0x72B75003, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72B75001, 0x72B75004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72B75001, 0x72B75005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72B75001, 0x72B75006, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x72B75001, 0x72B75007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72B75001, 0x72B75008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B75001, 0x72B75009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72B75001, 0x72B7500A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B75002,  7982, 0x2B75002A, 142.551, 40.44748, 149.61, 0.8028812, 0, 0, -0.596139,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

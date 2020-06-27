@@ -5,26 +5,26 @@ VALUES (0x724BF001,  1154, 0x24BF001D, 78.50655, 98.68005, 147.4663, 1, 0, 0, 0,
 /* @teleloc 0x24BF001D [78.506550 98.680050 147.466300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BF001, 0x724BF002, '2019-02-10 00:00:00') /* Synnast */
-     , (0x724BF001, 0x724BF003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x724BF001, 0x724BF004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x724BF001, 0x724BF005, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x724BF001, 0x724BF006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x724BF001, 0x724BF007, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x724BF001, 0x724BF008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x724BF001, 0x724BF009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BF001, 0x724BF00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BF001, 0x724BF00B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BF001, 0x724BF00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x724BF001, 0x724BF00D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BF001, 0x724BF00E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x724BF001, 0x724BF00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BF001, 0x724BF010, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x724BF001, 0x724BF011, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x724BF001, 0x724BF012, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x724BF001, 0x724BF013, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x724BF001, 0x724BF014, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x724BF001, 0x724BF015, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x724BF001, 0x724BF002, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x724BF001, 0x724BF003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x724BF001, 0x724BF004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x724BF001, 0x724BF005, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x724BF001, 0x724BF006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x724BF001, 0x724BF007, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x724BF001, 0x724BF008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x724BF001, 0x724BF009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x724BF001, 0x724BF00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x724BF001, 0x724BF00B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BF001, 0x724BF00C, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x724BF001, 0x724BF00D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BF001, 0x724BF00E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x724BF001, 0x724BF00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BF001, 0x724BF010, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x724BF001, 0x724BF011, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x724BF001, 0x724BF012, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x724BF001, 0x724BF013, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x724BF001, 0x724BF014, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x724BF001, 0x724BF015, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BF002,  7094, 0x24BF001D, 78.50655, 98.68005, 147.4663, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
@@ -111,9 +111,9 @@ VALUES (0x724BF016,  1542, 0x24BF0017, 53.13799, 160.8255, 146.5044, 1, 0, 0, 0,
 /* @teleloc 0x24BF0017 [53.137990 160.825500 146.504400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BF016, 0x724BF017, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x724BF016, 0x724BF018, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x724BF016, 0x724BF019, '2019-02-10 00:00:00') /* Shallow Hive Portal */;
+VALUES (0x724BF016, 0x724BF017, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x724BF016, 0x724BF018, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x724BF016, 0x724BF019, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BF017, 11223, 0x24BF0017, 53.13799, 160.8255, 146.5044, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Simple Hive Portal */

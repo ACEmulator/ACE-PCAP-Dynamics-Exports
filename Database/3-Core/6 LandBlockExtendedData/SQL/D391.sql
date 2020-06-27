@@ -5,11 +5,11 @@ VALUES (0x7D391001,  1154, 0xD3910040, 170.8268, 178.0187, 0.01050007, 0.8521093
 /* @teleloc 0xD3910040 [170.826800 178.018700 0.010500] 0.852109 0.000000 0.000000 -0.523364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D391001, 0x7D391002, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D391001, 0x7D391003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D391001, 0x7D391004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D391001, 0x7D391005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D391001, 0x7D391006, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7D391001, 0x7D391002, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D391001, 0x7D391003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D391001, 0x7D391004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D391001, 0x7D391005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D391001, 0x7D391006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D391002,  2565, 0xD3910040, 170.8268, 178.0187, 0.01050007, 0.8521093, 0, 0, -0.5233639,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */

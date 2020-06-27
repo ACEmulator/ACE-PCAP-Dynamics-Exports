@@ -5,18 +5,18 @@ VALUES (0x7FA36001,  1154, 0xFA360002, 12.34046, 42.28732, -0.9000001, 0.6650766
 /* @teleloc 0xFA360002 [12.340460 42.287320 -0.900000] 0.665077 0.000000 0.000000 -0.746775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA36001, 0x7FA36002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA36008, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA36001, 0x7FA36009, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA36001, 0x7FA3600A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA3600B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA3600C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7FA36001, 0x7FA3600D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */;
+VALUES (0x7FA36001, 0x7FA36002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7FA36001, 0x7FA36003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA36001, 0x7FA36004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA36001, 0x7FA36005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA36001, 0x7FA36006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA36001, 0x7FA36007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA36001, 0x7FA36008, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA36001, 0x7FA36009, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA36001, 0x7FA3600A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7FA36001, 0x7FA3600B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7FA36001, 0x7FA3600C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7FA36001, 0x7FA3600D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA36002, 40314, 0xFA360002, 12.34046, 42.28732, -0.9000001, 0.6650766, 0, 0, -0.7467752,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */

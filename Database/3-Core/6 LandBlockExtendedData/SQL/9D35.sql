@@ -5,10 +5,10 @@ VALUES (0x79D35001,  1154, 0x9D35001C, 88.01899, 75.76361, 150.4279, 0.9238795, 
 /* @teleloc 0x9D35001C [88.018990 75.763610 150.427900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D35001, 0x79D35002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D35001, 0x79D35003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D35001, 0x79D35004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D35001, 0x79D35005, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79D35001, 0x79D35002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D35001, 0x79D35003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D35001, 0x79D35004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D35001, 0x79D35005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D35002,   235, 0x9D35001C, 88.01899, 75.76361, 150.4279, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

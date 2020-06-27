@@ -5,10 +5,10 @@ VALUES (0x772D9001,  1154, 0x72D90012, 69.64281, 41.58841, 273.0821, 0.2588191, 
 /* @teleloc 0x72D90012 [69.642810 41.588410 273.082100] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D9001, 0x772D9002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x772D9001, 0x772D9003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x772D9001, 0x772D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x772D9001, 0x772D9005, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x772D9001, 0x772D9002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x772D9001, 0x772D9003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x772D9001, 0x772D9004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x772D9001, 0x772D9005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D9002, 24497, 0x72D90012, 69.64281, 41.58841, 273.0821, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -31,8 +31,8 @@ VALUES (0x772D9006,  1542, 0x72D90040, 176.991, 184.7127, 232.6784, 1, 0, 0, 0, 
 /* @teleloc 0x72D90040 [176.991000 184.712700 232.678400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D9006, 0x772D9007, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x772D9006, 0x772D9008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x772D9006, 0x772D9007, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x772D9006, 0x772D9008, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D9007,  8648, 0x72D90040, 176.991, 184.7127, 232.6784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

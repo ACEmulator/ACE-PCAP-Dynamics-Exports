@@ -5,41 +5,41 @@ VALUES (0x78FD3001,  1154, 0x8FD30039, 177.3111, 18.59286, 295.1111, 0.8029534, 
 /* @teleloc 0x8FD30039 [177.311100 18.592860 295.111100] 0.802953 0.000000 0.000000 -0.596042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FD3001, 0x78FD3002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x78FD3001, 0x78FD3003, '2019-02-10 00:00:00') /* Ember */
-     , (0x78FD3001, 0x78FD3004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78FD3001, 0x78FD3005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78FD3001, 0x78FD3006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78FD3001, 0x78FD3007, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x78FD3001, 0x78FD3008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x78FD3001, 0x78FD3009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78FD3001, 0x78FD300A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78FD3001, 0x78FD300B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78FD3001, 0x78FD300C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78FD3001, 0x78FD300D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x78FD3001, 0x78FD300E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78FD3001, 0x78FD300F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD3010, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD3011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78FD3001, 0x78FD3012, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD3013, '2019-02-10 00:00:00') /* Ember */
-     , (0x78FD3001, 0x78FD3014, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x78FD3001, 0x78FD3015, '2019-02-10 00:00:00') /* Shivver */
-     , (0x78FD3001, 0x78FD3016, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x78FD3001, 0x78FD3017, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD3018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78FD3001, 0x78FD3019, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD301A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x78FD3001, 0x78FD301B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78FD3001, 0x78FD301C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78FD3001, 0x78FD301D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78FD3001, 0x78FD301E, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x78FD3001, 0x78FD301F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78FD3001, 0x78FD3020, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78FD3001, 0x78FD3021, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FD3001, 0x78FD3022, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FD3001, 0x78FD3023, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78FD3001, 0x78FD3024, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x78FD3001, 0x78FD3002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x78FD3001, 0x78FD3003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x78FD3001, 0x78FD3004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78FD3001, 0x78FD3005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78FD3001, 0x78FD3006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78FD3001, 0x78FD3007, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x78FD3001, 0x78FD3008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x78FD3001, 0x78FD3009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78FD3001, 0x78FD300A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78FD3001, 0x78FD300B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78FD3001, 0x78FD300C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78FD3001, 0x78FD300D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x78FD3001, 0x78FD300E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78FD3001, 0x78FD300F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD3010, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD3011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78FD3001, 0x78FD3012, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD3013, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x78FD3001, 0x78FD3014, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x78FD3001, 0x78FD3015, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x78FD3001, 0x78FD3016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x78FD3001, 0x78FD3017, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD3018, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78FD3001, 0x78FD3019, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD301A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x78FD3001, 0x78FD301B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78FD3001, 0x78FD301C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78FD3001, 0x78FD301D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78FD3001, 0x78FD301E, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x78FD3001, 0x78FD301F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78FD3001, 0x78FD3020, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78FD3001, 0x78FD3021, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FD3001, 0x78FD3022, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FD3001, 0x78FD3023, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78FD3001, 0x78FD3024, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FD3002, 26470, 0x8FD30039, 177.3111, 18.59286, 295.1111, 0.8029534, 0, 0, -0.5960418,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
@@ -186,8 +186,8 @@ VALUES (0x78FD3025,  1542, 0x8FD30012, 64.08604, 44.33189, 306.35, 1, 0, 0, 0, F
 /* @teleloc 0x8FD30012 [64.086040 44.331890 306.350000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FD3025, 0x78FD3026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78FD3025, 0x78FD3027, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78FD3025, 0x78FD3026, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78FD3025, 0x78FD3027, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FD3026, 22567, 0x8FD30012, 64.08604, 44.33189, 306.35, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x73BE8001,  1154, 0x3BE80001, 16.56454, 20.22923, 5.065244, -0.6948882,
 /* @teleloc 0x3BE80001 [16.564540 20.229230 5.065244] -0.694888 0.000000 0.000000 -0.719118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BE8001, 0x73BE8002, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x73BE8001, 0x73BE8003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73BE8001, 0x73BE8004, '2019-02-10 00:00:00') /* Ruschk Warlord */;
+VALUES (0x73BE8001, 0x73BE8002, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x73BE8001, 0x73BE8003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73BE8001, 0x73BE8004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BE8002, 24322, 0x3BE80001, 16.56454, 20.22923, 5.065244, -0.6948882, 0, 0, -0.7191178,  True, '2019-02-10 00:00:00'); /* Undead Lieutenant */

@@ -5,10 +5,10 @@ VALUES (0x7CC61001,  1154, 0xCC610035, 161.5961, 105.5654, 6.013, -0.9848377, 0,
 /* @teleloc 0xCC610035 [161.596100 105.565400 6.013000] -0.984838 0.000000 0.000000 -0.173478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC61001, 0x7CC61002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC61001, 0x7CC61003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC61001, 0x7CC61004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC61001, 0x7CC61005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x7CC61001, 0x7CC61002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC61001, 0x7CC61003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC61001, 0x7CC61004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC61001, 0x7CC61005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC61002,   217, 0xCC610035, 161.5961, 105.5654, 6.013, -0.9848377, 0, 0, -0.1734783,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -31,7 +31,7 @@ VALUES (0x7CC61006,  1542, 0xCC610031, 163.1516, 21.16171, 6, -0.9938806, 0, 0, 
 /* @teleloc 0xCC610031 [163.151600 21.161710 6.000000] -0.993881 0.000000 0.000000 -0.110459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC61006, 0x7CC61007, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7CC61006, 0x7CC61007, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC61007, 11554, 0xCC610031, 163.1516, 21.16171, 6, -0.9938806, 0, 0, -0.1104594,  True, '2019-02-10 00:00:00'); /* Colban Plant */

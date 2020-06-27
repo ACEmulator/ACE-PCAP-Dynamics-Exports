@@ -25,25 +25,25 @@ VALUES (0x73EC5005,  1154, 0x3EC50004, 23.58257, 78.91214, 8.549476, 0.2588191, 
 /* @teleloc 0x3EC50004 [23.582570 78.912140 8.549476] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EC5005, 0x73EC5006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73EC5005, 0x73EC5007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73EC5005, 0x73EC5008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73EC5005, 0x73EC5009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73EC5005, 0x73EC500A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73EC5005, 0x73EC500B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73EC5005, 0x73EC500C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73EC5005, 0x73EC500D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73EC5005, 0x73EC500E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73EC5005, 0x73EC500F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73EC5005, 0x73EC5010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73EC5005, 0x73EC5011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73EC5005, 0x73EC5012, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73EC5005, 0x73EC5013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73EC5005, 0x73EC5014, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73EC5005, 0x73EC5015, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73EC5005, 0x73EC5016, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73EC5005, 0x73EC5017, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73EC5005, 0x73EC5018, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x73EC5005, 0x73EC5006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73EC5005, 0x73EC5007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73EC5005, 0x73EC5008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73EC5005, 0x73EC5009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73EC5005, 0x73EC500A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73EC5005, 0x73EC500B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x73EC5005, 0x73EC500C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73EC5005, 0x73EC500D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73EC5005, 0x73EC500E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73EC5005, 0x73EC500F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73EC5005, 0x73EC5010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73EC5005, 0x73EC5011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73EC5005, 0x73EC5012, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73EC5005, 0x73EC5013, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73EC5005, 0x73EC5014, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73EC5005, 0x73EC5015, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73EC5005, 0x73EC5016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73EC5005, 0x73EC5017, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x73EC5005, 0x73EC5018, '2019-02-10 00:00:00') /* Great Skeleton (7122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EC5006, 24320, 0x3EC50004, 23.58257, 78.91214, 8.549476, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -126,7 +126,7 @@ VALUES (0x73EC5019,  1542, 0x3EC50004, 19.4795, 81.93948, 8.451582, 0.9990482, 0
 /* @teleloc 0x3EC50004 [19.479500 81.939480 8.451582] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EC5019, 0x73EC501A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73EC5019, 0x73EC501A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EC501A,  4179, 0x3EC50004, 19.4795, 81.93948, 8.451582, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,17 +5,17 @@ VALUES (0x7AA13001,  1154, 0xAA130031, 146.6765, 7.478356, 131.5207, 0.8433914, 
 /* @teleloc 0xAA130031 [146.676500 7.478356 131.520700] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA13001, 0x7AA13002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA13001, 0x7AA13003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7AA13001, 0x7AA13004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA13001, 0x7AA13005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA13001, 0x7AA13006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA13001, 0x7AA13007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA13001, 0x7AA13008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA13001, 0x7AA13009, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7AA13001, 0x7AA1300A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AA13001, 0x7AA1300B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AA13001, 0x7AA1300C, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7AA13001, 0x7AA13002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA13001, 0x7AA13003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7AA13001, 0x7AA13004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AA13001, 0x7AA13005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA13001, 0x7AA13006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA13001, 0x7AA13007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AA13001, 0x7AA13008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7AA13001, 0x7AA13009, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7AA13001, 0x7AA1300A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AA13001, 0x7AA1300B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AA13001, 0x7AA1300C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA13002,  1610, 0xAA130031, 146.6765, 7.478356, 131.5207, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

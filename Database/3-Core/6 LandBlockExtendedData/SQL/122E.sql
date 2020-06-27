@@ -5,25 +5,25 @@ VALUES (0x7122E001,  1154, 0x122E002B, 127.7187, 52.63245, 7.122153, 0.9659258, 
 /* @teleloc 0x122E002B [127.718700 52.632450 7.122153] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7122E001, 0x7122E002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7122E001, 0x7122E003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7122E001, 0x7122E004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7122E001, 0x7122E005, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7122E001, 0x7122E006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7122E001, 0x7122E007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7122E001, 0x7122E008, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7122E001, 0x7122E009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E00A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E00B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7122E001, 0x7122E00D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7122E001, 0x7122E00E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7122E001, 0x7122E00F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7122E001, 0x7122E010, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E011, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E012, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7122E001, 0x7122E013, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7122E001, 0x7122E014, '2019-02-10 00:00:00') /* Miasma */;
+VALUES (0x7122E001, 0x7122E002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7122E001, 0x7122E003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7122E001, 0x7122E004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7122E001, 0x7122E005, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7122E001, 0x7122E006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7122E001, 0x7122E007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7122E001, 0x7122E008, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7122E001, 0x7122E009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E00A, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E00B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7122E001, 0x7122E00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7122E001, 0x7122E00E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7122E001, 0x7122E00F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7122E001, 0x7122E010, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E011, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E012, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7122E001, 0x7122E013, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7122E001, 0x7122E014, '2019-02-10 00:00:00') /* Miasma (14514) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7122E002, 23567, 0x122E002B, 127.7187, 52.63245, 7.122153, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
@@ -106,8 +106,8 @@ VALUES (0x7122E015,  1542, 0x122E002B, 125.0245, 51.20621, 4.361024, 1, 0, 0, 0,
 /* @teleloc 0x122E002B [125.024500 51.206210 4.361024] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7122E015, 0x7122E016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7122E015, 0x7122E017, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7122E015, 0x7122E016, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7122E015, 0x7122E017, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7122E016, 22566, 0x122E002B, 125.0245, 51.20621, 4.361024, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

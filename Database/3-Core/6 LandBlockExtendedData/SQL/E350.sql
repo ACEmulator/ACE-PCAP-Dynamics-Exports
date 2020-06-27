@@ -5,15 +5,15 @@ VALUES (0x7E350001,  1154, 0xE3500034, 165.6777, 81.65611, 28.005, -0.7484931, 0
 /* @teleloc 0xE3500034 [165.677700 81.656110 28.005000] -0.748493 0.000000 0.000000 -0.663143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E350001, 0x7E350002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7E350001, 0x7E350003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7E350001, 0x7E350004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E350001, 0x7E350005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E350001, 0x7E350006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E350001, 0x7E350007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E350001, 0x7E350008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E350001, 0x7E350009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E350001, 0x7E35000A, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7E350001, 0x7E350002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7E350001, 0x7E350003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7E350001, 0x7E350004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E350001, 0x7E350005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E350001, 0x7E350006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E350001, 0x7E350007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E350001, 0x7E350008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E350001, 0x7E350009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E350001, 0x7E35000A, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E350002,    18, 0xE3500034, 165.6777, 81.65611, 28.005, -0.7484931, 0, 0, -0.6631426,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */

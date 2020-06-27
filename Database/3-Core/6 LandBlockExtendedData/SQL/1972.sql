@@ -5,16 +5,16 @@ VALUES (0x71972001,  1154, 0x1972001F, 95.51213, 165.1529, 199.8027, 1, 0, 0, 0,
 /* @teleloc 0x1972001F [95.512130 165.152900 199.802700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71972001, 0x71972002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71972001, 0x71972003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71972001, 0x71972004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71972001, 0x71972005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71972001, 0x71972006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71972001, 0x71972007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71972001, 0x71972008, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71972001, 0x71972009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71972001, 0x7197200A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71972001, 0x7197200B, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x71972001, 0x71972002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71972001, 0x71972003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71972001, 0x71972004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71972001, 0x71972005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71972001, 0x71972006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71972001, 0x71972007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71972001, 0x71972008, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71972001, 0x71972009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71972001, 0x7197200A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71972001, 0x7197200B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71972002,   228, 0x1972001F, 95.51213, 165.1529, 199.8027, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -61,7 +61,7 @@ VALUES (0x7197200C,  1542, 0x19720031, 162.4321, 19.44668, 197.6171, 1, 0, 0, 0,
 /* @teleloc 0x19720031 [162.432100 19.446680 197.617100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7197200C, 0x7197200D, '2019-02-10 00:00:00') /* Portal to Kara */;
+VALUES (0x7197200C, 0x7197200D, '2019-02-10 00:00:00') /* Portal to Kara (42848) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7197200D, 42848, 0x19720031, 162.4321, 19.44668, 197.6171, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Kara */

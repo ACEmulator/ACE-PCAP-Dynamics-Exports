@@ -5,11 +5,11 @@ VALUES (0x7BDD5001,  1154, 0xBDD50009, 24.41921, 1.310989, 91.98755, 0.7071068, 
 /* @teleloc 0xBDD50009 [24.419210 1.310989 91.987550] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD5001, 0x7BDD5002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD5001, 0x7BDD5003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD5001, 0x7BDD5004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD5001, 0x7BDD5005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD5001, 0x7BDD5006, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7BDD5001, 0x7BDD5002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD5001, 0x7BDD5003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD5001, 0x7BDD5004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD5001, 0x7BDD5005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD5001, 0x7BDD5006, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD5002, 24289, 0xBDD50009, 24.41921, 1.310989, 91.98755, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

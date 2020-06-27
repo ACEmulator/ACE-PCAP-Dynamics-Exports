@@ -5,14 +5,14 @@ VALUES (0x72B62001,  1154, 0x2B620018, 51.59069, 184.4717, 120.0065, 0.4226182, 
 /* @teleloc 0x2B620018 [51.590690 184.471700 120.006500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B62001, 0x72B62002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B62001, 0x72B62003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B62001, 0x72B62004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B62001, 0x72B62005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B62001, 0x72B62006, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72B62001, 0x72B62007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B62001, 0x72B62008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B62001, 0x72B62009, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x72B62001, 0x72B62002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B62001, 0x72B62003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B62001, 0x72B62004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B62001, 0x72B62005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B62001, 0x72B62006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72B62001, 0x72B62007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B62001, 0x72B62008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B62001, 0x72B62009, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B62002,  8431, 0x2B620018, 51.59069, 184.4717, 120.0065, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

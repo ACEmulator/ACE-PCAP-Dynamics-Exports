@@ -9,12 +9,12 @@ VALUES (0x7DF3C001,  1154, 0xDF3C0030, 141.1292, 172.989, 44.61964, -0.1552918, 
 /* @teleloc 0xDF3C0030 [141.129200 172.989000 44.619640] -0.155292 0.000000 0.000000 -0.987869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF3C001, 0x7DF3C002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7DF3C001, 0x7DF3C003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DF3C001, 0x7DF3C004, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7DF3C001, 0x7DF3C005, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7DF3C001, 0x7DF3C006, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7DF3C001, 0x7DF3C007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7DF3C001, 0x7DF3C002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7DF3C001, 0x7DF3C003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DF3C001, 0x7DF3C004, '2019-02-10 00:00:00') /* Exploration Marker (39752) */
+     , (0x7DF3C001, 0x7DF3C005, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7DF3C001, 0x7DF3C006, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7DF3C001, 0x7DF3C007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3C002,  8014, 0xDF3C0030, 141.1292, 172.989, 44.61964, -0.1552918, 0, 0, -0.9878687,  True, '2019-02-10 00:00:00'); /* Fragment */

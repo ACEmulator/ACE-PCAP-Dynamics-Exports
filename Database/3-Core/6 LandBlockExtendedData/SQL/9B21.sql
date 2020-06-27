@@ -5,12 +5,12 @@ VALUES (0x79B21001,  1154, 0x9B210022, 105.9846, 39.88149, 151.6347, 0.9396926, 
 /* @teleloc 0x9B210022 [105.984600 39.881490 151.634700] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B21001, 0x79B21002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B21001, 0x79B21003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B21001, 0x79B21004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79B21001, 0x79B21005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79B21001, 0x79B21006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79B21001, 0x79B21007, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x79B21001, 0x79B21002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B21001, 0x79B21003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B21001, 0x79B21004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79B21001, 0x79B21005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79B21001, 0x79B21006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79B21001, 0x79B21007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B21002, 37100, 0x9B210022, 105.9846, 39.88149, 151.6347, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
@@ -41,7 +41,7 @@ VALUES (0x79B21008,  1542, 0x9B210033, 154.4425, 65.9582, 150.7491, -0.9898146, 
 /* @teleloc 0x9B210033 [154.442500 65.958200 150.749100] -0.989815 0.000000 0.000000 -0.142362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B21008, 0x79B21009, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x79B21008, 0x79B21009, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B21009, 14789, 0x9B210033, 154.4425, 65.9582, 150.7491, -0.9898146, 0, 0, -0.1423621,  True, '2019-02-10 00:00:00'); /* Ginger */

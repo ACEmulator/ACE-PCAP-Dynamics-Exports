@@ -5,27 +5,27 @@ VALUES (0x755BF001,  1154, 0x55BF0029, 138.143, 15.51833, 3.299695, 0.669237, 0,
 /* @teleloc 0x55BF0029 [138.143000 15.518330 3.299695] 0.669237 0.000000 0.000000 -0.743049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755BF001, 0x755BF002, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x755BF001, 0x755BF003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x755BF001, 0x755BF004, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x755BF001, 0x755BF005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x755BF001, 0x755BF006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x755BF001, 0x755BF007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x755BF001, 0x755BF008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x755BF001, 0x755BF009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x755BF001, 0x755BF00A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x755BF001, 0x755BF00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x755BF001, 0x755BF00C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x755BF001, 0x755BF00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755BF001, 0x755BF00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755BF001, 0x755BF00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755BF001, 0x755BF010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x755BF001, 0x755BF011, '2019-02-10 00:00:00') /* Rampager */
-     , (0x755BF001, 0x755BF012, '2019-02-10 00:00:00') /* Rampager */
-     , (0x755BF001, 0x755BF013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x755BF001, 0x755BF014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x755BF001, 0x755BF015, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x755BF001, 0x755BF016, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x755BF001, 0x755BF002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x755BF001, 0x755BF003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x755BF001, 0x755BF004, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x755BF001, 0x755BF005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x755BF001, 0x755BF006, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x755BF001, 0x755BF007, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x755BF001, 0x755BF008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x755BF001, 0x755BF009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x755BF001, 0x755BF00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x755BF001, 0x755BF00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x755BF001, 0x755BF00C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x755BF001, 0x755BF00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755BF001, 0x755BF00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755BF001, 0x755BF00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755BF001, 0x755BF010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x755BF001, 0x755BF011, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x755BF001, 0x755BF012, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x755BF001, 0x755BF013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x755BF001, 0x755BF014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x755BF001, 0x755BF015, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x755BF001, 0x755BF016, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755BF002,   230, 0x55BF0029, 138.143, 15.51833, 3.299695, 0.669237, 0, 0, -0.743049,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
@@ -116,7 +116,7 @@ VALUES (0x755BF017,  1542, 0x55BF0013, 71.36889, 56.17524, 11.36254, 1, 0, 0, 0,
 /* @teleloc 0x55BF0013 [71.368890 56.175240 11.362540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755BF017, 0x755BF018, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x755BF017, 0x755BF018, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755BF018,  8999, 0x55BF0013, 71.36889, 56.17524, 11.36254, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

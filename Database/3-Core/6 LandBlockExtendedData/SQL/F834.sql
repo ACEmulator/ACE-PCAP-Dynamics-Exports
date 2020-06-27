@@ -5,33 +5,33 @@ VALUES (0x7F834001,  1154, 0xF8340011, 58.1632, 22.54589, 87.58869, 0.9071872, 0
 /* @teleloc 0xF8340011 [58.163200 22.545890 87.588690] 0.907187 0.000000 0.000000 -0.420727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F834001, 0x7F834002, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F834001, 0x7F834003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F834001, 0x7F834004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F834001, 0x7F834005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F834001, 0x7F834006, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F834001, 0x7F834007, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7F834001, 0x7F834008, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F834001, 0x7F834009, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F834001, 0x7F83400A, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7F834001, 0x7F83400B, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F834001, 0x7F83400C, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F834001, 0x7F83400D, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7F834001, 0x7F83400E, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F834001, 0x7F83400F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F834001, 0x7F834010, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F834001, 0x7F834011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F834001, 0x7F834017, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F834001, 0x7F834018, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F834001, 0x7F834019, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F834001, 0x7F83401A, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F834001, 0x7F83401B, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F834001, 0x7F83401C, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7F834001, 0x7F834002, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F834001, 0x7F834003, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F834001, 0x7F834004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F834001, 0x7F834005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F834001, 0x7F834006, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F834001, 0x7F834007, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7F834001, 0x7F834008, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F834001, 0x7F834009, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F834001, 0x7F83400A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7F834001, 0x7F83400B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F834001, 0x7F83400C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F834001, 0x7F83400D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7F834001, 0x7F83400E, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F834001, 0x7F83400F, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F834001, 0x7F834010, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F834001, 0x7F834011, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F834001, 0x7F834012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F834001, 0x7F834013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F834001, 0x7F834014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F834001, 0x7F834015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F834001, 0x7F834016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F834001, 0x7F834017, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F834001, 0x7F834018, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F834001, 0x7F834019, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F834001, 0x7F83401A, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F834001, 0x7F83401B, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F834001, 0x7F83401C, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F834002, 40308, 0xF8340011, 58.1632, 22.54589, 87.58869, 0.9071872, 0, 0, -0.4207271,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */

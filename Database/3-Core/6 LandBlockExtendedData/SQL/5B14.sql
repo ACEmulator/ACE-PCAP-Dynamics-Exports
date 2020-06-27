@@ -5,10 +5,10 @@ VALUES (0x75B14001,  1154, 0x5B14002A, 130.7439, 40.46886, 120.029, 0.8191521, 0
 /* @teleloc 0x5B14002A [130.743900 40.468860 120.029000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B14001, 0x75B14002, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75B14001, 0x75B14003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x75B14001, 0x75B14004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75B14001, 0x75B14005, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x75B14001, 0x75B14002, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75B14001, 0x75B14003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x75B14001, 0x75B14004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75B14001, 0x75B14005, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B14002, 23490, 0x5B14002A, 130.7439, 40.46886, 120.029, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Councillor */

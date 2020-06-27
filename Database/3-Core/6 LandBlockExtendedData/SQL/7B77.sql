@@ -5,9 +5,9 @@ VALUES (0x77B77001,  1154, 0x7B77001D, 79.86191, 111.5959, 8.65766, 0.9659258, 0
 /* @teleloc 0x7B77001D [79.861910 111.595900 8.657660] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B77001, 0x77B77002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77B77001, 0x77B77003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77B77001, 0x77B77004, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77B77001, 0x77B77002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77B77001, 0x77B77003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77B77001, 0x77B77004, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B77002,  1759, 0x7B77001D, 79.86191, 111.5959, 8.65766, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -26,7 +26,7 @@ VALUES (0x77B77005,  1542, 0x7B77001D, 79.29256, 113.5132, 9.59592, 0.9914449, 0
 /* @teleloc 0x7B77001D [79.292560 113.513200 9.595920] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B77005, 0x77B77006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77B77005, 0x77B77006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B77006,  4380, 0x7B77001D, 79.29256, 113.5132, 9.59592, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

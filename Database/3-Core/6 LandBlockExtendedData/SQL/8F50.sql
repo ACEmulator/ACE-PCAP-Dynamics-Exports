@@ -5,10 +5,10 @@ VALUES (0x78F50001,  1154, 0x8F50003D, 175.0807, 97.74335, 19.01624, 0.43161, 0,
 /* @teleloc 0x8F50003D [175.080700 97.743350 19.016240] 0.431610 0.000000 0.000000 -0.902060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F50001, 0x78F50002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x78F50001, 0x78F50003, '2019-02-10 00:00:00') /* Pure One */
-     , (0x78F50001, 0x78F50004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78F50001, 0x78F50005, '2019-02-10 00:00:00') /* Innocent Doll */;
+VALUES (0x78F50001, 0x78F50002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x78F50001, 0x78F50003, '2019-02-10 00:00:00') /* Pure One (11988) */
+     , (0x78F50001, 0x78F50004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78F50001, 0x78F50005, '2019-02-10 00:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F50002,  1626, 0x8F50003D, 175.0807, 97.74335, 19.01624, 0.43161, 0, 0, -0.9020603,  True, '2019-02-10 00:00:00'); /* Silver Rat */

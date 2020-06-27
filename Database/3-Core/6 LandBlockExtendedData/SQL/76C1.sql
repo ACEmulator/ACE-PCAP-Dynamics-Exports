@@ -5,25 +5,25 @@ VALUES (0x776C1001,  1154, 0x76C1001B, 88.16837, 70.66904, 135.0639, -0.1739255,
 /* @teleloc 0x76C1001B [88.168370 70.669040 135.063900] -0.173926 0.000000 0.000000 -0.984759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C1001, 0x776C1002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C1001, 0x776C1003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x776C1001, 0x776C1004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x776C1001, 0x776C1005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x776C1001, 0x776C1006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x776C1001, 0x776C1007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776C1001, 0x776C1008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x776C1001, 0x776C1009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x776C1001, 0x776C100A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C1001, 0x776C100B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C1001, 0x776C100C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C1001, 0x776C100D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C1001, 0x776C100E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C1001, 0x776C100F, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x776C1001, 0x776C1010, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x776C1001, 0x776C1011, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C1001, 0x776C1012, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776C1001, 0x776C1013, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C1001, 0x776C1014, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x776C1001, 0x776C1002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C1001, 0x776C1003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x776C1001, 0x776C1004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x776C1001, 0x776C1005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x776C1001, 0x776C1006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x776C1001, 0x776C1007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776C1001, 0x776C1008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x776C1001, 0x776C1009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x776C1001, 0x776C100A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C1001, 0x776C100B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C1001, 0x776C100C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C1001, 0x776C100D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C1001, 0x776C100E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C1001, 0x776C100F, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x776C1001, 0x776C1010, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x776C1001, 0x776C1011, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C1001, 0x776C1012, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776C1001, 0x776C1013, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C1001, 0x776C1014, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C1002, 24277, 0x76C1001B, 88.16837, 70.66904, 135.0639, -0.1739255, 0, 0, -0.9847588,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -106,12 +106,12 @@ VALUES (0x776C1015,  1542, 0x76C10040, 186.6307, 173.8873, 198.2314, 1, 0, 0, 0,
 /* @teleloc 0x76C10040 [186.630700 173.887300 198.231400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C1015, 0x776C1016, '2019-02-10 00:00:00') /* Rock */
-     , (0x776C1015, 0x776C1017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x776C1015, 0x776C1018, '2019-02-10 00:00:00') /* Bones */
-     , (0x776C1015, 0x776C1019, '2019-02-10 00:00:00') /* Bones */
-     , (0x776C1015, 0x776C101A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x776C1015, 0x776C101B, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x776C1015, 0x776C1016, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x776C1015, 0x776C1017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x776C1015, 0x776C1018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x776C1015, 0x776C1019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x776C1015, 0x776C101A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x776C1015, 0x776C101B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C1016, 42528, 0x76C10040, 186.6307, 173.8873, 198.2314, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rock */

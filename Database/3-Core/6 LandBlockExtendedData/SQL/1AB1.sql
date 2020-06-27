@@ -5,11 +5,11 @@ VALUES (0x71AB1001,  1154, 0x1AB10020, 87.13852, 186.7231, 19.9961, 0.3995378, 0
 /* @teleloc 0x1AB10020 [87.138520 186.723100 19.996100] 0.399538 0.000000 0.000000 -0.916717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB1001, 0x71AB1002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x71AB1001, 0x71AB1003, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x71AB1001, 0x71AB1004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71AB1001, 0x71AB1005, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x71AB1001, 0x71AB1006, '2019-02-10 00:00:00') /* Hea Warrior */;
+VALUES (0x71AB1001, 0x71AB1002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x71AB1001, 0x71AB1003, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x71AB1001, 0x71AB1004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71AB1001, 0x71AB1005, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x71AB1001, 0x71AB1006, '2019-02-10 00:00:00') /* Hea Warrior (11523) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB1002, 24959, 0x1AB10020, 87.13852, 186.7231, 19.9961, 0.3995378, 0, 0, -0.9167167,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -36,7 +36,7 @@ VALUES (0x71AB1007,  1542, 0x1AB1003E, 170.3765, 134.9698, 23.95196, 0.6157873, 
 /* @teleloc 0x1AB1003E [170.376500 134.969800 23.951960] 0.615787 0.000000 0.000000 -0.787913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AB1007, 0x71AB1008, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */;
+VALUES (0x71AB1007, 0x71AB1008, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB1008, 11563, 0x1AB1003E, 170.3765, 134.9698, 23.95196, 0.6157873, 0, 0, -0.7879125,  True, '2019-02-10 00:00:00'); /* Carenzi Burrower Camp Generator */

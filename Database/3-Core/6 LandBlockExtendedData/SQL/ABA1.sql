@@ -5,21 +5,21 @@ VALUES (0x7ABA1001,  1154, 0xABA10037, 162.2797, 167.0607, 146.3909, 0.8870109, 
 /* @teleloc 0xABA10037 [162.279700 167.060700 146.390900] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA1001, 0x7ABA1002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7ABA1001, 0x7ABA1003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7ABA1001, 0x7ABA1004, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7ABA1001, 0x7ABA1005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7ABA1001, 0x7ABA1006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7ABA1001, 0x7ABA1007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABA1001, 0x7ABA1008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7ABA1001, 0x7ABA1009, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7ABA1001, 0x7ABA100A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7ABA1001, 0x7ABA100B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7ABA1001, 0x7ABA100C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7ABA1001, 0x7ABA100D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7ABA1001, 0x7ABA100E, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7ABA1001, 0x7ABA100F, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ABA1001, 0x7ABA1010, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7ABA1001, 0x7ABA1002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7ABA1001, 0x7ABA1003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7ABA1001, 0x7ABA1004, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7ABA1001, 0x7ABA1005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7ABA1001, 0x7ABA1006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7ABA1001, 0x7ABA1007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABA1001, 0x7ABA1008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7ABA1001, 0x7ABA1009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7ABA1001, 0x7ABA100A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7ABA1001, 0x7ABA100B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7ABA1001, 0x7ABA100C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7ABA1001, 0x7ABA100D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7ABA1001, 0x7ABA100E, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7ABA1001, 0x7ABA100F, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ABA1001, 0x7ABA1010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA1002,  2576, 0xABA10037, 162.2797, 167.0607, 146.3909, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -86,9 +86,9 @@ VALUES (0x7ABA1011,  1542, 0xABA10037, 160.3077, 164.0422, 148, 0.9990482, 0, 0,
 /* @teleloc 0xABA10037 [160.307700 164.042200 148.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA1011, 0x7ABA1012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ABA1011, 0x7ABA1013, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7ABA1011, 0x7ABA1014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7ABA1011, 0x7ABA1012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ABA1011, 0x7ABA1013, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7ABA1011, 0x7ABA1014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA1012,  4179, 0xABA10037, 160.3077, 164.0422, 148, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

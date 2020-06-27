@@ -13,9 +13,9 @@ VALUES (0x78BDF006,  1154, 0x8BDF002A, 130.6, 26.924, 31.11, 0.225285, 0, 0, 0.9
 /* @teleloc 0x8BDF002A [130.600000 26.924000 31.110000] 0.225285 0.000000 0.000000 0.974293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BDF006, 0x78BDF007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x78BDF006, 0x78BDF008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78BDF006, 0x78BDF009, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x78BDF006, 0x78BDF007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x78BDF006, 0x78BDF008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78BDF006, 0x78BDF009, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BDF007,   941, 0x8BDF002A, 130.6, 26.924, 31.11, 0.225285, 0, 0, 0.974293,  True, '2019-02-10 00:00:00'); /* Water Golem */

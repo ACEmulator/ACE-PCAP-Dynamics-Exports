@@ -5,10 +5,10 @@ VALUES (0x79987001,  1154, 0x99870027, 98.99152, 149.6761, 41.51199, 0.7995383, 
 /* @teleloc 0x99870027 [98.991520 149.676100 41.511990] 0.799538 0.000000 0.000000 -0.600615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79987001, 0x79987002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x79987001, 0x79987003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79987001, 0x79987004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79987001, 0x79987005, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x79987001, 0x79987002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x79987001, 0x79987003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79987001, 0x79987004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79987001, 0x79987005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79987002,  8014, 0x99870027, 98.99152, 149.6761, 41.51199, 0.7995383, 0, 0, -0.6006152,  True, '2019-02-10 00:00:00'); /* Fragment */

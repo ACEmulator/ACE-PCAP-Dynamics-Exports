@@ -5,15 +5,15 @@ VALUES (0x78FD5001,  1154, 0x8FD50019, 73.28651, 18.31111, 416.5263, 1, 0, 0, 0,
 /* @teleloc 0x8FD50019 [73.286510 18.311110 416.526300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FD5001, 0x78FD5002, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x78FD5001, 0x78FD5003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78FD5001, 0x78FD5004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78FD5001, 0x78FD5005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78FD5001, 0x78FD5006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x78FD5001, 0x78FD5007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x78FD5001, 0x78FD5008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78FD5001, 0x78FD5009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FD5001, 0x78FD500A, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x78FD5001, 0x78FD5002, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x78FD5001, 0x78FD5003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78FD5001, 0x78FD5004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78FD5001, 0x78FD5005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78FD5001, 0x78FD5006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x78FD5001, 0x78FD5007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x78FD5001, 0x78FD5008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78FD5001, 0x78FD5009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FD5001, 0x78FD500A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FD5002, 11987, 0x8FD50019, 73.28651, 18.31111, 416.5263, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sentient Fragment */

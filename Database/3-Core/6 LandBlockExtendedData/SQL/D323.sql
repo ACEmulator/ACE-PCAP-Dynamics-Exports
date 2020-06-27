@@ -5,16 +5,16 @@ VALUES (0x7D323001,  1154, 0xD3230021, 117.6768, 12.73693, 56.38969, 0.7169636, 
 /* @teleloc 0xD3230021 [117.676800 12.736930 56.389690] 0.716964 0.000000 0.000000 -0.697111 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D323001, 0x7D323002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D323001, 0x7D323003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D323001, 0x7D323004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D323001, 0x7D323005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D323001, 0x7D323006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D323001, 0x7D323007, '2019-02-10 00:00:00') /* Flare */
-     , (0x7D323001, 0x7D323008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D323001, 0x7D323009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D323001, 0x7D32300A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D323001, 0x7D32300B, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7D323001, 0x7D323002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D323001, 0x7D323003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D323001, 0x7D323004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D323001, 0x7D323005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D323001, 0x7D323006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D323001, 0x7D323007, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7D323001, 0x7D323008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D323001, 0x7D323009, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D323001, 0x7D32300A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D323001, 0x7D32300B, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D323002,  7334, 0xD3230021, 117.6768, 12.73693, 56.38969, 0.7169636, 0, 0, -0.6971107,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -61,12 +61,12 @@ VALUES (0x7D32300C,  1542, 0xD323001D, 77.07202, 118.9426, 62.38205, 0.4226182, 
 /* @teleloc 0xD323001D [77.072020 118.942600 62.382050] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D32300C, 0x7D32300D, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7D32300C, 0x7D32300E, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7D32300C, 0x7D32300F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7D32300C, 0x7D323010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D32300C, 0x7D323011, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7D32300C, 0x7D323012, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */;
+VALUES (0x7D32300C, 0x7D32300D, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7D32300C, 0x7D32300E, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7D32300C, 0x7D32300F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7D32300C, 0x7D323010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D32300C, 0x7D323011, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7D32300C, 0x7D323012, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D32300D,  9041, 0xD323001D, 77.07202, 118.9426, 62.38205, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Zairente's Frying Pan */

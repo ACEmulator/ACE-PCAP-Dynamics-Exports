@@ -5,14 +5,14 @@ VALUES (0x7C04D001,  1154, 0xC04D003C, 171.8558, 73.38512, 24.44362, -0.9101906,
 /* @teleloc 0xC04D003C [171.855800 73.385120 24.443620] -0.910191 0.000000 0.000000 -0.414190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C04D001, 0x7C04D002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C04D001, 0x7C04D003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C04D001, 0x7C04D004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C04D001, 0x7C04D005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C04D001, 0x7C04D006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C04D001, 0x7C04D007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C04D001, 0x7C04D008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C04D001, 0x7C04D009, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C04D001, 0x7C04D002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C04D001, 0x7C04D003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C04D001, 0x7C04D004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C04D001, 0x7C04D005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C04D001, 0x7C04D006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C04D001, 0x7C04D007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C04D001, 0x7C04D008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C04D001, 0x7C04D009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C04D002,  7345, 0xC04D003C, 171.8558, 73.38512, 24.44362, -0.9101906, 0, 0, -0.4141895,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -51,9 +51,9 @@ VALUES (0x7C04D00A,  1542, 0xC04D0035, 161.7436, 114.754, 25.10483, 0.9238795, 0
 /* @teleloc 0xC04D0035 [161.743600 114.754000 25.104830] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C04D00A, 0x7C04D00B, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C04D00A, 0x7C04D00C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C04D00A, 0x7C04D00D, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7C04D00A, 0x7C04D00B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C04D00A, 0x7C04D00C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C04D00A, 0x7C04D00D, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C04D00B,  4380, 0xC04D0035, 161.7436, 114.754, 25.10483, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

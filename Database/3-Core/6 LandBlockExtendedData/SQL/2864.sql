@@ -5,9 +5,9 @@ VALUES (0x72864001,  1154, 0x28640032, 146.3828, 41.68048, 78.42762, -0.6806989,
 /* @teleloc 0x28640032 [146.382800 41.680480 78.427620] -0.680699 0.000000 0.000000 -0.732563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72864001, 0x72864002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72864001, 0x72864003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72864001, 0x72864004, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x72864001, 0x72864002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72864001, 0x72864003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72864001, 0x72864004, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72864002, 10802, 0x28640032, 146.3828, 41.68048, 78.42762, -0.6806989, 0, 0, -0.7325633,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
@@ -26,8 +26,8 @@ VALUES (0x72864005,  1542, 0x28640022, 117.9642, 44.23648, 78.23438, 1, 0, 0, 0,
 /* @teleloc 0x28640022 [117.964200 44.236480 78.234380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72864005, 0x72864006, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72864005, 0x72864007, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72864005, 0x72864006, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72864005, 0x72864007, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72864006, 31445, 0x28640022, 117.9642, 44.23648, 78.23438, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

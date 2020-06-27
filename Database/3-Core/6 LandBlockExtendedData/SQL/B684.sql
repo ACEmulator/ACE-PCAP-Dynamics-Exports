@@ -5,19 +5,19 @@ VALUES (0x7B684001,  1154, 0xB684001F, 91.43132, 161.2939, 27.32279, -0.3719778,
 /* @teleloc 0xB684001F [91.431320 161.293900 27.322790] -0.371978 0.000000 0.000000 -0.928242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B684001, 0x7B684002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B684001, 0x7B684003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B684001, 0x7B684004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B684001, 0x7B684005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B684001, 0x7B684006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B684001, 0x7B684007, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B684001, 0x7B684008, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7B684001, 0x7B684009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B684001, 0x7B68400A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B684001, 0x7B68400B, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B684001, 0x7B68400C, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B684001, 0x7B68400D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B684001, 0x7B68400E, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B684001, 0x7B684002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B684001, 0x7B684003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B684001, 0x7B684004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B684001, 0x7B684005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B684001, 0x7B684006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B684001, 0x7B684007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B684001, 0x7B684008, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7B684001, 0x7B684009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B684001, 0x7B68400A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B684001, 0x7B68400B, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B684001, 0x7B68400C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B684001, 0x7B68400D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B684001, 0x7B68400E, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B684002,  1756, 0xB684001F, 91.43132, 161.2939, 27.32279, -0.3719778, 0, 0, -0.9282416,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -76,8 +76,8 @@ VALUES (0x7B68400F,  1542, 0xB684001F, 88.36256, 166.6344, 27.3867, 1, 0, 0, 0, 
 /* @teleloc 0xB684001F [88.362560 166.634400 27.386700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B68400F, 0x7B684010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B68400F, 0x7B684011, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7B68400F, 0x7B684010, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7B68400F, 0x7B684011, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B684010, 22570, 0xB684001F, 88.36256, 166.6344, 27.3867, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

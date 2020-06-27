@@ -5,11 +5,11 @@ VALUES (0x75ADD001,  1154, 0x5ADD0032, 150.0618, 47.1525, 79.64325, -0.3968064, 
 /* @teleloc 0x5ADD0032 [150.061800 47.152500 79.643250] -0.396806 0.000000 0.000000 -0.917902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ADD001, 0x75ADD002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75ADD001, 0x75ADD003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75ADD001, 0x75ADD004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75ADD001, 0x75ADD005, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75ADD001, 0x75ADD006, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x75ADD001, 0x75ADD002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75ADD001, 0x75ADD003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75ADD001, 0x75ADD004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75ADD001, 0x75ADD005, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75ADD001, 0x75ADD006, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ADD002,  7086, 0x5ADD0032, 150.0618, 47.1525, 79.64325, -0.3968064, 0, 0, -0.9179024,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -36,7 +36,7 @@ VALUES (0x75ADD007,  1542, 0x5ADD0024, 111.1691, 73.22819, 83.4124, 1, 0, 0, 0, 
 /* @teleloc 0x5ADD0024 [111.169100 73.228190 83.412400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ADD007, 0x75ADD008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75ADD007, 0x75ADD008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ADD008,  4179, 0x5ADD0024, 111.1691, 73.22819, 83.4124, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

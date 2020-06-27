@@ -5,34 +5,34 @@ VALUES (0x7DBBF001,  1154, 0xDBBF0009, 46.3945, 18.73279, 13.38971, 0.7698371, 0
 /* @teleloc 0xDBBF0009 [46.394500 18.732790 13.389710] 0.769837 0.000000 0.000000 -0.638240 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DBBF001, 0x7DBBF002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DBBF001, 0x7DBBF003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBBF001, 0x7DBBF004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBBF001, 0x7DBBF005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBBF001, 0x7DBBF006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DBBF001, 0x7DBBF007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DBBF001, 0x7DBBF008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DBBF001, 0x7DBBF009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7DBBF001, 0x7DBBF00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7DBBF001, 0x7DBBF00B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DBBF001, 0x7DBBF00C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DBBF001, 0x7DBBF00D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DBBF001, 0x7DBBF00E, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DBBF001, 0x7DBBF00F, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DBBF001, 0x7DBBF010, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7DBBF001, 0x7DBBF011, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7DBBF001, 0x7DBBF012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DBBF001, 0x7DBBF013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBBF001, 0x7DBBF014, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DBBF001, 0x7DBBF015, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DBBF001, 0x7DBBF016, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7DBBF001, 0x7DBBF017, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBBF001, 0x7DBBF018, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DBBF001, 0x7DBBF019, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DBBF001, 0x7DBBF01A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DBBF001, 0x7DBBF01B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DBBF001, 0x7DBBF01C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7DBBF001, 0x7DBBF01D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */;
+VALUES (0x7DBBF001, 0x7DBBF002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DBBF001, 0x7DBBF003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBBF001, 0x7DBBF004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBBF001, 0x7DBBF005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBBF001, 0x7DBBF006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DBBF001, 0x7DBBF007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DBBF001, 0x7DBBF008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DBBF001, 0x7DBBF009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7DBBF001, 0x7DBBF00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7DBBF001, 0x7DBBF00B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DBBF001, 0x7DBBF00C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DBBF001, 0x7DBBF00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DBBF001, 0x7DBBF00E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DBBF001, 0x7DBBF00F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DBBF001, 0x7DBBF010, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7DBBF001, 0x7DBBF011, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7DBBF001, 0x7DBBF012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DBBF001, 0x7DBBF013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBBF001, 0x7DBBF014, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DBBF001, 0x7DBBF015, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DBBF001, 0x7DBBF016, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7DBBF001, 0x7DBBF017, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBBF001, 0x7DBBF018, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DBBF001, 0x7DBBF019, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DBBF001, 0x7DBBF01A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DBBF001, 0x7DBBF01B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DBBF001, 0x7DBBF01C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7DBBF001, 0x7DBBF01D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DBBF002,     3, 0xDBBF0009, 46.3945, 18.73279, 13.38971, 0.7698371, 0, 0, -0.6382404,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -151,7 +151,7 @@ VALUES (0x7DBBF01E,  1542, 0xDBBF0024, 105.1884, 91.60635, 12.86753, 0.6755902, 
 /* @teleloc 0xDBBF0024 [105.188400 91.606350 12.867530] 0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DBBF01E, 0x7DBBF01F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7DBBF01E, 0x7DBBF01F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DBBF01F,  4380, 0xDBBF0024, 105.1884, 91.60635, 12.86753, 0.6755902, 0, 0, -0.7372773,  True, '2019-02-10 00:00:00'); /* Bones */

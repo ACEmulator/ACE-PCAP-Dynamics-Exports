@@ -5,20 +5,20 @@ VALUES (0x740BB001,  1154, 0x40BB0028, 116.8238, 183.5223, 3.007096, -0.1736482,
 /* @teleloc 0x40BB0028 [116.823800 183.522300 3.007096] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BB001, 0x740BB002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740BB001, 0x740BB003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740BB001, 0x740BB004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BB001, 0x740BB005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BB001, 0x740BB006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BB001, 0x740BB007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BB001, 0x740BB008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x740BB001, 0x740BB009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740BB001, 0x740BB00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740BB001, 0x740BB00B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x740BB001, 0x740BB00C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x740BB001, 0x740BB00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x740BB001, 0x740BB00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x740BB001, 0x740BB00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x740BB001, 0x740BB002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740BB001, 0x740BB003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740BB001, 0x740BB004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BB001, 0x740BB005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BB001, 0x740BB006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BB001, 0x740BB007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BB001, 0x740BB008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x740BB001, 0x740BB009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740BB001, 0x740BB00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740BB001, 0x740BB00B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x740BB001, 0x740BB00C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x740BB001, 0x740BB00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x740BB001, 0x740BB00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x740BB001, 0x740BB00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BB002,  4255, 0x40BB0028, 116.8238, 183.5223, 3.007096, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

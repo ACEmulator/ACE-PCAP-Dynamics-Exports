@@ -5,12 +5,12 @@ VALUES (0x7D591001,  1154, 0xD5910012, 69.82404, 31.03849, -0.8934, 0.08853435, 
 /* @teleloc 0xD5910012 [69.824040 31.038490 -0.893400] 0.088534 0.000000 0.000000 -0.996073 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D591001, 0x7D591002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D591001, 0x7D591003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D591001, 0x7D591004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D591001, 0x7D591005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D591001, 0x7D591006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D591001, 0x7D591007, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7D591001, 0x7D591002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D591001, 0x7D591003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D591001, 0x7D591004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D591001, 0x7D591005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D591001, 0x7D591006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D591001, 0x7D591007, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D591002,  8429, 0xD5910012, 69.82404, 31.03849, -0.8934, 0.08853435, 0, 0, -0.9960731,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */
@@ -41,7 +41,7 @@ VALUES (0x7D591008,  1542, 0xD591001A, 87.58727, 35.1072, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0xD591001A [87.587270 35.107200 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D591008, 0x7D591009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D591008, 0x7D591009, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D591009, 31443, 0xD591001A, 87.58727, 35.1072, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

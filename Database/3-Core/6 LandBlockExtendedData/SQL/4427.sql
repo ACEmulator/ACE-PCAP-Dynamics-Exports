@@ -5,8 +5,8 @@ VALUES (0x74427001,  1154, 0x44270027, 96.07747, 167.8701, 8.076229, -0.4671337,
 /* @teleloc 0x44270027 [96.077470 167.870100 8.076229] -0.467134 0.000000 0.000000 -0.884187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74427001, 0x74427002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74427001, 0x74427003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x74427001, 0x74427002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74427001, 0x74427003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74427002, 36843, 0x44270027, 96.07747, 167.8701, 8.076229, -0.4671337, 0, 0, -0.8841867,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -21,8 +21,8 @@ VALUES (0x74427004,  1542, 0x44270006, 0.4914398, 127.3935, 45.15291, 1, 0, 0, 0
 /* @teleloc 0x44270006 [0.491440 127.393500 45.152910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74427004, 0x74427005, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74427004, 0x74427006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74427004, 0x74427005, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74427004, 0x74427006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74427005, 22567, 0x44270006, 0.4914398, 127.3935, 45.15291, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

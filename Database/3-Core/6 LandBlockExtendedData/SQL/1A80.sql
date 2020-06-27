@@ -5,15 +5,15 @@ VALUES (0x71A80001,  1154, 0x1A800032, 155.0599, 27.92851, 80.0065, 0.9238795, 0
 /* @teleloc 0x1A800032 [155.059900 27.928510 80.006500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A80001, 0x71A80002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A80001, 0x71A80003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71A80001, 0x71A80004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A80001, 0x71A80005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A80001, 0x71A80006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A80001, 0x71A80007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A80001, 0x71A80008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A80001, 0x71A80009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A80001, 0x71A8000A, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x71A80001, 0x71A80002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A80001, 0x71A80003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71A80001, 0x71A80004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A80001, 0x71A80005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A80001, 0x71A80006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A80001, 0x71A80007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A80001, 0x71A80008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A80001, 0x71A80009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A80001, 0x71A8000A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A80002, 10807, 0x1A800032, 155.0599, 27.92851, 80.0065, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -56,8 +56,8 @@ VALUES (0x71A8000B,  1542, 0x1A800008, 6.537999, 168.6611, 140.3795, -4.371139E-
 /* @teleloc 0x1A800008 [6.537999 168.661100 140.379500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8000B, 0x71A8000C, '2019-02-10 00:00:00') /* Bones */
-     , (0x71A8000B, 0x71A8000D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71A8000B, 0x71A8000C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71A8000B, 0x71A8000D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8000C,  4380, 0x1A800008, 6.537999, 168.6611, 140.3795, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

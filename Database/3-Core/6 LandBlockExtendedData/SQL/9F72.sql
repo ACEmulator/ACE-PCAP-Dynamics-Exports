@@ -5,15 +5,15 @@ VALUES (0x79F72001,  1154, 0x9F720035, 144.0722, 110.0171, 24.01102, 0.8779687, 
 /* @teleloc 0x9F720035 [144.072200 110.017100 24.011020] 0.877969 0.000000 0.000000 -0.478718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F72001, 0x79F72002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79F72001, 0x79F72003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79F72001, 0x79F72004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79F72001, 0x79F72005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79F72001, 0x79F72006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79F72001, 0x79F72007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79F72001, 0x79F72008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79F72001, 0x79F72009, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79F72001, 0x79F7200A, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x79F72001, 0x79F72002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79F72001, 0x79F72003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79F72001, 0x79F72004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79F72001, 0x79F72005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79F72001, 0x79F72006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79F72001, 0x79F72007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79F72001, 0x79F72008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79F72001, 0x79F72009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79F72001, 0x79F7200A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F72002,  1758, 0x9F720035, 144.0722, 110.0171, 24.01102, 0.8779687, 0, 0, -0.4787181,  True, '2019-02-10 00:00:00'); /* Shadow */

@@ -5,15 +5,15 @@ VALUES (0x71A85001,  1154, 0x1A850009, 32.1725, 1.306884, 126.4396, -0.08715577,
 /* @teleloc 0x1A850009 [32.172500 1.306884 126.439600] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A85001, 0x71A85002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71A85001, 0x71A85003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71A85001, 0x71A85004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71A85001, 0x71A85005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71A85001, 0x71A85006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A85001, 0x71A85007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A85001, 0x71A85008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A85001, 0x71A85009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A85001, 0x71A8500A, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71A85001, 0x71A85002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71A85001, 0x71A85003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71A85001, 0x71A85004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71A85001, 0x71A85005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71A85001, 0x71A85006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A85001, 0x71A85007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A85001, 0x71A85008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A85001, 0x71A85009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A85001, 0x71A8500A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A85002,  7346, 0x1A850009, 32.1725, 1.306884, 126.4396, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -56,7 +56,7 @@ VALUES (0x71A8500B,  1542, 0x1A85001C, 88.65852, 95.96323, 142, 1, 0, 0, 0, Fals
 /* @teleloc 0x1A85001C [88.658520 95.963230 142.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8500B, 0x71A8500C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71A8500B, 0x71A8500C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8500C, 22567, 0x1A85001C, 88.65852, 95.96323, 142, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

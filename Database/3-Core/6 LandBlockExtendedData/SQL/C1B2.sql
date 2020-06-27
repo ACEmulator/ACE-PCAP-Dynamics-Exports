@@ -5,17 +5,17 @@ VALUES (0x7C1B2001,  1154, 0xC1B20024, 107.6419, 88.91676, 382.9985, -0.233138, 
 /* @teleloc 0xC1B20024 [107.641900 88.916760 382.998500] -0.233138 0.000000 0.000000 -0.972444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1B2001, 0x7C1B2002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C1B2001, 0x7C1B2003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C1B2001, 0x7C1B2004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C1B2001, 0x7C1B2005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C1B2001, 0x7C1B2006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C1B2001, 0x7C1B2007, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C1B2001, 0x7C1B2008, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C1B2001, 0x7C1B2009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C1B2001, 0x7C1B200A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1B2001, 0x7C1B200B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1B2001, 0x7C1B200C, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7C1B2001, 0x7C1B2002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C1B2001, 0x7C1B2003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C1B2001, 0x7C1B2004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C1B2001, 0x7C1B2005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C1B2001, 0x7C1B2006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C1B2001, 0x7C1B2007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C1B2001, 0x7C1B2008, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C1B2001, 0x7C1B2009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C1B2001, 0x7C1B200A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1B2001, 0x7C1B200B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1B2001, 0x7C1B200C, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1B2002,  2582, 0xC1B20024, 107.6419, 88.91676, 382.9985, -0.233138, 0, 0, -0.9724436,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

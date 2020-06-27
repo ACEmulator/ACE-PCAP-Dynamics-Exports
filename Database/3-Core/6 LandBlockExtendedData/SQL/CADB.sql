@@ -5,27 +5,27 @@ VALUES (0x7CADB001,  1154, 0xCADB0037, 153.52, 166.932, -0.0934, -0.0781276, 0, 
 /* @teleloc 0xCADB0037 [153.520000 166.932000 -0.093400] -0.078128 0.000000 0.000000 -0.996943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CADB001, 0x7CADB002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7CADB001, 0x7CADB003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CADB001, 0x7CADB004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CADB001, 0x7CADB005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CADB001, 0x7CADB006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CADB001, 0x7CADB007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CADB001, 0x7CADB008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CADB001, 0x7CADB009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7CADB001, 0x7CADB00A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7CADB001, 0x7CADB00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7CADB001, 0x7CADB00C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CADB001, 0x7CADB00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CADB001, 0x7CADB00E, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7CADB001, 0x7CADB00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CADB001, 0x7CADB010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CADB001, 0x7CADB011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CADB001, 0x7CADB012, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CADB001, 0x7CADB013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7CADB001, 0x7CADB014, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7CADB001, 0x7CADB015, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7CADB001, 0x7CADB016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7CADB001, 0x7CADB002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7CADB001, 0x7CADB003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CADB001, 0x7CADB004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CADB001, 0x7CADB005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CADB001, 0x7CADB006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CADB001, 0x7CADB007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CADB001, 0x7CADB008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CADB001, 0x7CADB009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7CADB001, 0x7CADB00A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7CADB001, 0x7CADB00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7CADB001, 0x7CADB00C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CADB001, 0x7CADB00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CADB001, 0x7CADB00E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7CADB001, 0x7CADB00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CADB001, 0x7CADB010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CADB001, 0x7CADB011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CADB001, 0x7CADB012, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CADB001, 0x7CADB013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7CADB001, 0x7CADB014, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7CADB001, 0x7CADB015, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7CADB001, 0x7CADB016, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CADB002,  7102, 0xCADB0037, 153.52, 166.932, -0.0934, -0.0781276, 0, 0, -0.9969434,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -116,7 +116,7 @@ VALUES (0x7CADB017,  1542, 0xCADB0030, 142.0362, 178.4731, -0.163, 0.9955669, 0,
 /* @teleloc 0xCADB0030 [142.036200 178.473100 -0.163000] 0.995567 0.000000 0.000000 -0.094056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CADB017, 0x7CADB018, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7CADB017, 0x7CADB018, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CADB018,  9071, 0xCADB0030, 142.0362, 178.4731, -0.163, 0.9955669, 0, 0, -0.09405611,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

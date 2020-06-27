@@ -5,10 +5,10 @@ VALUES (0x7C99C001,  1154, 0xC99C0022, 109.8301, 31.70116, 29.03822, -0.6322103,
 /* @teleloc 0xC99C0022 [109.830100 31.701160 29.038220] -0.632210 0.000000 0.000000 -0.774797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C99C001, 0x7C99C002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C99C001, 0x7C99C003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C99C001, 0x7C99C004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C99C001, 0x7C99C005, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C99C001, 0x7C99C002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C99C001, 0x7C99C003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C99C001, 0x7C99C004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C99C001, 0x7C99C005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C99C002,  8014, 0xC99C0022, 109.8301, 31.70116, 29.03822, -0.6322103, 0, 0, -0.7747968,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -31,7 +31,7 @@ VALUES (0x7C99C006,  1542, 0xC99C0001, 10.74403, 18.61691, 45.76074, 1, 0, 0, 0,
 /* @teleloc 0xC99C0001 [10.744030 18.616910 45.760740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C99C006, 0x7C99C007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C99C006, 0x7C99C007, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C99C007, 22570, 0xC99C0001, 10.74403, 18.61691, 45.76074, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

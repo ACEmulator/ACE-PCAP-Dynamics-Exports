@@ -5,11 +5,11 @@ VALUES (0x7BA79001,  1154, 0xBA790014, 58.92723, 76.13313, 26.18729, 0.4966716, 
 /* @teleloc 0xBA790014 [58.927230 76.133130 26.187290] 0.496672 0.000000 0.000000 -0.867939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA79001, 0x7BA79002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BA79001, 0x7BA79003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BA79001, 0x7BA79004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BA79001, 0x7BA79005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BA79001, 0x7BA79006, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7BA79001, 0x7BA79002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BA79001, 0x7BA79003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BA79001, 0x7BA79004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA79001, 0x7BA79005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA79001, 0x7BA79006, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA79002,   181, 0xBA790014, 58.92723, 76.13313, 26.18729, 0.4966716, 0, 0, -0.8679385,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

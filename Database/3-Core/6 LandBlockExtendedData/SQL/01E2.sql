@@ -225,61 +225,61 @@ VALUES (0x701E20B2,  1154, 0x01E2022F, 73.5052, 2.51321, 18.00715, -0.551027, 0,
 /* @teleloc 0x01E2022F [73.505200 2.513210 18.007150] -0.551027 0.000000 0.000000 -0.834487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E20B2, 0x701E20B3, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20B4, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20B5, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20B6, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20B7, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x701E20B2, 0x701E20B8, '2019-02-10 00:00:00') /* Flamma */
-     , (0x701E20B2, 0x701E20B9, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x701E20B2, 0x701E20BA, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x701E20B2, 0x701E20BB, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20BC, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20BD, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20BE, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20BF, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20C0, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20C1, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20C2, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20C3, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20C4, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x701E20B2, 0x701E20C5, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20C6, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20C7, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x701E20B2, 0x701E20C8, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x701E20B2, 0x701E20C9, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20CA, '2019-02-10 00:00:00') /* Giant White Rat */
-     , (0x701E20B2, 0x701E20CB, '2019-02-10 00:00:00') /* Giant White Rat */
-     , (0x701E20B2, 0x701E20CC, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x701E20B2, 0x701E20CD, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x701E20B2, 0x701E20CE, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701E20B2, 0x701E20CF, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x701E20B2, 0x701E20D0, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x701E20B2, 0x701E20D1, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x701E20B2, 0x701E20D2, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20D3, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20D4, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20D5, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20D6, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x701E20B2, 0x701E20D7, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20D8, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x701E20B2, 0x701E20D9, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x701E20B2, 0x701E20DA, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x701E20B2, 0x701E20DB, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20DC, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701E20B2, 0x701E20DD, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x701E20B2, 0x701E20DE, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20DF, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20E0, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20E1, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x701E20B2, 0x701E20E2, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x701E20B2, 0x701E20E3, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20E4, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20E5, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20E6, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701E20B2, 0x701E20E7, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20E8, '2019-02-10 00:00:00') /* Revenant */
-     , (0x701E20B2, 0x701E20E9, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x701E20B2, 0x701E20B3, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20B4, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20B5, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20B6, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20B7, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701E20B2, 0x701E20B8, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x701E20B2, 0x701E20B9, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x701E20B2, 0x701E20BA, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x701E20B2, 0x701E20BB, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20BC, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20BD, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20BE, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20BF, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20C0, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20C1, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20C2, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20C3, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20C4, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x701E20B2, 0x701E20C5, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20C6, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20C7, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x701E20B2, 0x701E20C8, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x701E20B2, 0x701E20C9, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20CA, '2019-02-10 00:00:00') /* Giant White Rat (1273) */
+     , (0x701E20B2, 0x701E20CB, '2019-02-10 00:00:00') /* Giant White Rat (1273) */
+     , (0x701E20B2, 0x701E20CC, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x701E20B2, 0x701E20CD, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x701E20B2, 0x701E20CE, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701E20B2, 0x701E20CF, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x701E20B2, 0x701E20D0, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x701E20B2, 0x701E20D1, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x701E20B2, 0x701E20D2, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20D3, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20D4, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20D5, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20D6, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x701E20B2, 0x701E20D7, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20D8, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x701E20B2, 0x701E20D9, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x701E20B2, 0x701E20DA, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x701E20B2, 0x701E20DB, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20DC, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701E20B2, 0x701E20DD, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x701E20B2, 0x701E20DE, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20DF, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20E0, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20E1, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x701E20B2, 0x701E20E2, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20B2, 0x701E20E3, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20E4, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20E5, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20E6, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701E20B2, 0x701E20E7, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20E8, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x701E20B2, 0x701E20E9, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20B3,  7085, 0x01E2022F, 73.5052, 2.51321, 18.00715, -0.551027, 0, 0, -0.834487,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -506,8 +506,8 @@ VALUES (0x701E20EA,  1542, 0x01E20136, 86.7514, -32.6635, -17.921, 0.9267337, 0,
 /* @teleloc 0x01E20136 [86.751400 -32.663500 -17.921000] 0.926734 0.000000 0.000000 -0.375719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E20EA, 0x701E20EB, '2019-02-10 00:00:00') /* Gwillim's Alchemy Notes */
-     , (0x701E20EA, 0x701E20EC, '2019-02-10 00:00:00') /* Gwillim's Alchemy Bag */;
+VALUES (0x701E20EA, 0x701E20EB, '2019-02-10 00:00:00') /* Gwillim's Alchemy Notes (5841) */
+     , (0x701E20EA, 0x701E20EC, '2019-02-10 00:00:00') /* Gwillim's Alchemy Bag (5844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20EB,  5841, 0x01E20136, 86.7514, -32.6635, -17.921, 0.9267337, 0, 0, -0.3757189,  True, '2019-02-10 00:00:00'); /* Gwillim's Alchemy Notes */

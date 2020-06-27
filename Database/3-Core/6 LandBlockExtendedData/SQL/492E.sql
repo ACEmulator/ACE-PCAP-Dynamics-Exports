@@ -5,29 +5,29 @@ VALUES (0x7492E001,  1154, 0x492E0003, 8.295136, 69.1312, 67.995, 0.7072368, 0, 
 /* @teleloc 0x492E0003 [8.295136 69.131200 67.995000] 0.707237 0.000000 0.000000 -0.706977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7492E001, 0x7492E002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7492E001, 0x7492E003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7492E001, 0x7492E004, '2019-02-10 00:00:00') /* Pyre Champion */
-     , (0x7492E001, 0x7492E005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7492E001, 0x7492E007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7492E001, 0x7492E008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7492E001, 0x7492E009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E00A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7492E001, 0x7492E00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7492E001, 0x7492E00C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7492E001, 0x7492E00D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7492E001, 0x7492E00E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7492E001, 0x7492E00F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7492E001, 0x7492E010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E011, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7492E001, 0x7492E012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7492E001, 0x7492E013, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7492E001, 0x7492E016, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7492E001, 0x7492E017, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7492E001, 0x7492E018, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7492E001, 0x7492E002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7492E001, 0x7492E003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7492E001, 0x7492E004, '2019-02-10 00:00:00') /* Pyre Champion (52309) */
+     , (0x7492E001, 0x7492E005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7492E001, 0x7492E007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7492E001, 0x7492E008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7492E001, 0x7492E009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E00A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7492E001, 0x7492E00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7492E001, 0x7492E00C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7492E001, 0x7492E00D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7492E001, 0x7492E00E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7492E001, 0x7492E00F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7492E001, 0x7492E010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E011, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7492E001, 0x7492E012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7492E001, 0x7492E013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7492E001, 0x7492E016, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7492E001, 0x7492E017, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7492E001, 0x7492E018, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7492E002, 36842, 0x492E0003, 8.295136, 69.1312, 67.995, 0.7072368, 0, 0, -0.7069767,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -126,11 +126,11 @@ VALUES (0x7492E019,  1542, 0x492E0004, 9.407257, 83.5623, 68, 0.2839535, 0, 0, -
 /* @teleloc 0x492E0004 [9.407257 83.562300 68.000000] 0.283954 0.000000 0.000000 -0.958838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7492E019, 0x7492E01A, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7492E019, 0x7492E01B, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7492E019, 0x7492E01C, '2019-02-10 00:00:00') /* Portal to Zaikhal */
-     , (0x7492E019, 0x7492E01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7492E019, 0x7492E01E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7492E019, 0x7492E01A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7492E019, 0x7492E01B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7492E019, 0x7492E01C, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */
+     , (0x7492E019, 0x7492E01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7492E019, 0x7492E01E, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7492E01A,  8646, 0x492E0004, 9.407257, 83.5623, 68, 0.2839535, 0, 0, -0.958838,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

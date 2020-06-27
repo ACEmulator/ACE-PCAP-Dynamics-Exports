@@ -5,21 +5,21 @@ VALUES (0x79E5F001,  1154, 0x9E5F001C, 80.58402, 90.16159, 128.1622, 0.9238795, 
 /* @teleloc 0x9E5F001C [80.584020 90.161590 128.162200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E5F001, 0x79E5F002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79E5F001, 0x79E5F003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79E5F001, 0x79E5F004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79E5F001, 0x79E5F005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79E5F001, 0x79E5F006, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79E5F001, 0x79E5F007, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79E5F001, 0x79E5F008, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79E5F001, 0x79E5F009, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79E5F001, 0x79E5F00A, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79E5F001, 0x79E5F00B, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79E5F001, 0x79E5F00C, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79E5F001, 0x79E5F00D, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79E5F001, 0x79E5F00E, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79E5F001, 0x79E5F00F, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79E5F001, 0x79E5F010, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x79E5F001, 0x79E5F002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79E5F001, 0x79E5F003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79E5F001, 0x79E5F004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79E5F001, 0x79E5F005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79E5F001, 0x79E5F006, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79E5F001, 0x79E5F007, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79E5F001, 0x79E5F008, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79E5F001, 0x79E5F009, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79E5F001, 0x79E5F00A, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79E5F001, 0x79E5F00B, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79E5F001, 0x79E5F00C, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79E5F001, 0x79E5F00D, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79E5F001, 0x79E5F00E, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79E5F001, 0x79E5F00F, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79E5F001, 0x79E5F010, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E5F002,  1626, 0x9E5F001C, 80.58402, 90.16159, 128.1622, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -86,9 +86,9 @@ VALUES (0x79E5F011,  1542, 0x9E5F001C, 85.32389, 89.79602, 128.8995, 1, 0, 0, 0,
 /* @teleloc 0x9E5F001C [85.323890 89.796020 128.899500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E5F011, 0x79E5F012, '2019-02-10 00:00:00') /* Bones */
-     , (0x79E5F011, 0x79E5F013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79E5F011, 0x79E5F014, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x79E5F011, 0x79E5F012, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x79E5F011, 0x79E5F013, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79E5F011, 0x79E5F014, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E5F012,  4379, 0x9E5F001C, 85.32389, 89.79602, 128.8995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

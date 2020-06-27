@@ -5,9 +5,9 @@ VALUES (0x7136E001,  1154, 0x136E0006, 3.381897, 132.9533, 60.92511, -0.7746503,
 /* @teleloc 0x136E0006 [3.381897 132.953300 60.925110] -0.774650 0.000000 0.000000 -0.632390 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7136E001, 0x7136E002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7136E001, 0x7136E003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7136E001, 0x7136E004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7136E001, 0x7136E002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7136E001, 0x7136E003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7136E001, 0x7136E004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7136E002, 24283, 0x136E0006, 3.381897, 132.9533, 60.92511, -0.7746503, 0, 0, -0.6323898,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

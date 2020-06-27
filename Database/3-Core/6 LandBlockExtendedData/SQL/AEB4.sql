@@ -5,15 +5,15 @@ VALUES (0x7AEB4001,  1154, 0xAEB40005, 18.79088, 114.945, 53.89872, -0.9101273, 
 /* @teleloc 0xAEB40005 [18.790880 114.945000 53.898720] -0.910127 0.000000 0.000000 -0.414329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB4001, 0x7AEB4002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7AEB4001, 0x7AEB4003, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7AEB4001, 0x7AEB4004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEB4001, 0x7AEB4005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEB4001, 0x7AEB4006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEB4001, 0x7AEB4007, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7AEB4001, 0x7AEB4008, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7AEB4001, 0x7AEB4009, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7AEB4001, 0x7AEB400A, '2019-02-10 00:00:00') /* Mite Snippet */;
+VALUES (0x7AEB4001, 0x7AEB4002, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7AEB4001, 0x7AEB4003, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7AEB4001, 0x7AEB4004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AEB4001, 0x7AEB4005, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AEB4001, 0x7AEB4006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AEB4001, 0x7AEB4007, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7AEB4001, 0x7AEB4008, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7AEB4001, 0x7AEB4009, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7AEB4001, 0x7AEB400A, '2019-02-10 00:00:00') /* Mite Snippet (19260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB4002, 19261, 0xAEB40005, 18.79088, 114.945, 53.89872, -0.9101273, 0, 0, -0.4143286,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

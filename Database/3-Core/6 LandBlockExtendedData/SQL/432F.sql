@@ -5,17 +5,17 @@ VALUES (0x7432F001,  1154, 0x432F0005, 19.45939, 99.87196, 14.11953, 0.1306599, 
 /* @teleloc 0x432F0005 [19.459390 99.871960 14.119530] 0.130660 0.000000 0.000000 -0.991427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432F001, 0x7432F002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7432F001, 0x7432F003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7432F001, 0x7432F004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7432F001, 0x7432F005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7432F001, 0x7432F006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7432F001, 0x7432F007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7432F001, 0x7432F008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7432F001, 0x7432F009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7432F001, 0x7432F00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7432F001, 0x7432F00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7432F001, 0x7432F00C, '2019-02-10 00:00:00') /* Dire Champion Golem */;
+VALUES (0x7432F001, 0x7432F002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7432F001, 0x7432F003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7432F001, 0x7432F004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7432F001, 0x7432F005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7432F001, 0x7432F006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7432F001, 0x7432F007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7432F001, 0x7432F008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7432F001, 0x7432F009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7432F001, 0x7432F00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7432F001, 0x7432F00B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7432F001, 0x7432F00C, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432F002,   228, 0x432F0005, 19.45939, 99.87196, 14.11953, 0.1306599, 0, 0, -0.9914272,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -66,8 +66,8 @@ VALUES (0x7432F00D,  1542, 0x432F000E, 40.1669, 121.6645, 20.03763, 1, 0, 0, 0, 
 /* @teleloc 0x432F000E [40.166900 121.664500 20.037630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432F00D, 0x7432F00E, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7432F00D, 0x7432F00F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7432F00D, 0x7432F00E, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7432F00D, 0x7432F00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432F00E,  8999, 0x432F000E, 40.1669, 121.6645, 20.03763, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

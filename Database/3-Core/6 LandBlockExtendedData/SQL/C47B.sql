@@ -5,8 +5,8 @@ VALUES (0x7C47B001,  1154, 0xC47B0032, 156.3535, 24.98211, 44.89661, 0.7372774, 
 /* @teleloc 0xC47B0032 [156.353500 24.982110 44.896610] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C47B001, 0x7C47B002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C47B001, 0x7C47B003, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7C47B001, 0x7C47B002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C47B001, 0x7C47B003, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C47B002,  4111, 0xC47B0032, 156.3535, 24.98211, 44.89661, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

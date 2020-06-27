@@ -5,10 +5,10 @@ VALUES (0x78016001,  1154, 0x80160027, 114.4434, 150.9973, 47.11218, 0.5209628, 
 /* @teleloc 0x80160027 [114.443400 150.997300 47.112180] 0.520963 0.000000 0.000000 -0.853579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78016001, 0x78016002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x78016001, 0x78016003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78016001, 0x78016004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78016001, 0x78016005, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x78016001, 0x78016002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x78016001, 0x78016003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78016001, 0x78016004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78016001, 0x78016005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78016002, 32483, 0x80160027, 114.4434, 150.9973, 47.11218, 0.5209628, 0, 0, -0.8535794,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

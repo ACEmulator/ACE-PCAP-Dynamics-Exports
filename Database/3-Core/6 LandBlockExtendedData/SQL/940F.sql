@@ -5,20 +5,20 @@ VALUES (0x7940F001,  1154, 0x940F0002, 3.329285, 39.74707, 56.43841, -0.6678309,
 /* @teleloc 0x940F0002 [3.329285 39.747070 56.438410] -0.667831 0.000000 0.000000 -0.744313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7940F001, 0x7940F002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7940F001, 0x7940F003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7940F001, 0x7940F004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7940F001, 0x7940F005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7940F001, 0x7940F006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7940F001, 0x7940F007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7940F001, 0x7940F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7940F001, 0x7940F009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7940F001, 0x7940F00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7940F001, 0x7940F00B, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7940F001, 0x7940F00C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7940F001, 0x7940F00D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7940F001, 0x7940F00E, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7940F001, 0x7940F00F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7940F001, 0x7940F002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7940F001, 0x7940F003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7940F001, 0x7940F004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7940F001, 0x7940F005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7940F001, 0x7940F006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7940F001, 0x7940F007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7940F001, 0x7940F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7940F001, 0x7940F009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7940F001, 0x7940F00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7940F001, 0x7940F00B, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7940F001, 0x7940F00C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7940F001, 0x7940F00D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7940F001, 0x7940F00E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7940F001, 0x7940F00F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7940F002, 14800, 0x940F0002, 3.329285, 39.74707, 56.43841, -0.6678309, 0, 0, -0.744313,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -81,7 +81,7 @@ VALUES (0x7940F010,  1542, 0x940F0033, 167.5612, 61.50797, 136, 1, 0, 0, 0, Fals
 /* @teleloc 0x940F0033 [167.561200 61.507970 136.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7940F010, 0x7940F011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7940F010, 0x7940F011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7940F011, 22571, 0x940F0033, 167.5612, 61.50797, 136, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

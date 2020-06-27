@@ -9,12 +9,12 @@ VALUES (0x7A023001,  1154, 0xA023001B, 92.51804, 66.24175, 318.269, 0.01137859, 
 /* @teleloc 0xA023001B [92.518040 66.241750 318.269000] 0.011379 0.000000 0.000000 -0.999935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A023001, 0x7A023002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A023001, 0x7A023003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A023001, 0x7A023004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A023001, 0x7A023005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A023001, 0x7A023006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A023001, 0x7A023007, '2019-02-10 00:00:00') /* Extas Lugian */;
+VALUES (0x7A023001, 0x7A023002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A023001, 0x7A023003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A023001, 0x7A023004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A023001, 0x7A023005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A023001, 0x7A023006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A023001, 0x7A023007, '2019-02-10 00:00:00') /* Extas Lugian (7100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A023002,  8139, 0xA023001B, 92.51804, 66.24175, 318.269, 0.01137859, 0, 0, -0.9999353,  True, '2019-02-10 00:00:00'); /* Gigas Raider */

@@ -5,8 +5,8 @@ VALUES (0x737E9001,  1154, 0x37E90023, 116.775, 53.53809, 2.00455, 0.9450554, 0,
 /* @teleloc 0x37E90023 [116.775000 53.538090 2.004550] 0.945055 0.000000 0.000000 -0.326910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737E9001, 0x737E9002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x737E9001, 0x737E9003, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x737E9001, 0x737E9002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x737E9001, 0x737E9003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737E9002, 24281, 0x37E90023, 116.775, 53.53809, 2.00455, 0.9450554, 0, 0, -0.3269101,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

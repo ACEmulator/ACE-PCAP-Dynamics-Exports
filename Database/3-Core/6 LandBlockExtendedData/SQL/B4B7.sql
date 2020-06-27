@@ -5,9 +5,9 @@ VALUES (0x7B4B7001,  1154, 0xB4B70003, 12.40372, 57.08723, 98.47765, -0.7831833,
 /* @teleloc 0xB4B70003 [12.403720 57.087230 98.477650] -0.783183 0.000000 0.000000 -0.621791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B7001, 0x7B4B7002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B4B7001, 0x7B4B7003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B4B7001, 0x7B4B7004, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7B4B7001, 0x7B4B7002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B4B7001, 0x7B4B7003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B4B7001, 0x7B4B7004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B7002, 24938, 0xB4B70003, 12.40372, 57.08723, 98.47765, -0.7831833, 0, 0, -0.6217909,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

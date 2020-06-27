@@ -5,16 +5,16 @@ VALUES (0x7A5EB001,  1154, 0xA5EB0035, 166.3592, 96.1337, 2.004, -0.05934521, 0,
 /* @teleloc 0xA5EB0035 [166.359200 96.133700 2.004000] -0.059345 0.000000 0.000000 -0.998238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5EB001, 0x7A5EB002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A5EB001, 0x7A5EB003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A5EB001, 0x7A5EB004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A5EB001, 0x7A5EB005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A5EB001, 0x7A5EB006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A5EB001, 0x7A5EB007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A5EB001, 0x7A5EB008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A5EB001, 0x7A5EB009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A5EB001, 0x7A5EB00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A5EB001, 0x7A5EB00B, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7A5EB001, 0x7A5EB002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A5EB001, 0x7A5EB003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A5EB001, 0x7A5EB004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A5EB001, 0x7A5EB005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A5EB001, 0x7A5EB006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A5EB001, 0x7A5EB007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A5EB001, 0x7A5EB008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A5EB001, 0x7A5EB009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A5EB001, 0x7A5EB00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A5EB001, 0x7A5EB00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5EB002,  4254, 0xA5EB0035, 166.3592, 96.1337, 2.004, -0.05934521, 0, 0, -0.9982375,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

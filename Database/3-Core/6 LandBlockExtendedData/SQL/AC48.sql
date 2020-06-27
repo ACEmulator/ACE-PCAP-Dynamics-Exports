@@ -5,12 +5,12 @@ VALUES (0x7AC48001,  1154, 0xAC480031, 159.8193, 0.9303894, 13.24574, 0.06926477
 /* @teleloc 0xAC480031 [159.819300 0.930389 13.245740] 0.069265 0.000000 0.000000 -0.997598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC48001, 0x7AC48002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AC48001, 0x7AC48003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC48001, 0x7AC48004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC48001, 0x7AC48005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC48001, 0x7AC48006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC48001, 0x7AC48007, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7AC48001, 0x7AC48002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AC48001, 0x7AC48003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC48001, 0x7AC48004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC48001, 0x7AC48005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC48001, 0x7AC48006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC48001, 0x7AC48007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC48002,  1757, 0xAC480031, 159.8193, 0.9303894, 13.24574, 0.06926477, 0, 0, -0.9975983,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

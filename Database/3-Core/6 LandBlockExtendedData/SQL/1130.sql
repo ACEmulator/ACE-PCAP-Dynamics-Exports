@@ -5,9 +5,9 @@ VALUES (0x71130001,  1154, 0x11300040, 174.4502, 186.1649, 11.67096, 0.2457162, 
 /* @teleloc 0x11300040 [174.450200 186.164900 11.670960] 0.245716 0.000000 0.000000 -0.969342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71130001, 0x71130002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71130001, 0x71130003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71130001, 0x71130004, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x71130001, 0x71130002, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71130001, 0x71130003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71130001, 0x71130004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71130002, 36816, 0x11300040, 174.4502, 186.1649, 11.67096, 0.2457162, 0, 0, -0.9693418,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
@@ -26,7 +26,7 @@ VALUES (0x71130005,  1542, 0x11300040, 168.6313, 187.3792, 16.575, 1, 0, 0, 0, F
 /* @teleloc 0x11300040 [168.631300 187.379200 16.575000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71130005, 0x71130006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71130005, 0x71130006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71130006,  4380, 0x11300040, 168.6313, 187.3792, 16.575, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

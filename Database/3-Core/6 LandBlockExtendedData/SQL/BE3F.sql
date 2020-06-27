@@ -5,25 +5,25 @@ VALUES (0x7BE3F001,  1154, 0xBE3F0035, 145.3782, 119.7964, 46.0121, 0.7071068, 0
 /* @teleloc 0xBE3F0035 [145.378200 119.796400 46.012100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE3F001, 0x7BE3F002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7BE3F001, 0x7BE3F003, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7BE3F001, 0x7BE3F004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7BE3F001, 0x7BE3F005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BE3F001, 0x7BE3F006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BE3F001, 0x7BE3F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7BE3F001, 0x7BE3F008, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7BE3F001, 0x7BE3F009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BE3F001, 0x7BE3F00A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F00B, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BE3F001, 0x7BE3F00C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F00D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F00E, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BE3F001, 0x7BE3F00F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F010, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BE3F001, 0x7BE3F011, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F012, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BE3F001, 0x7BE3F013, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BE3F001, 0x7BE3F014, '2019-02-10 00:00:00') /* Gigas Lugian */;
+VALUES (0x7BE3F001, 0x7BE3F002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7BE3F001, 0x7BE3F003, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7BE3F001, 0x7BE3F004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7BE3F001, 0x7BE3F005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BE3F001, 0x7BE3F006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BE3F001, 0x7BE3F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7BE3F001, 0x7BE3F008, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7BE3F001, 0x7BE3F009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BE3F001, 0x7BE3F00A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F00B, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BE3F001, 0x7BE3F00C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F00D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F00E, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BE3F001, 0x7BE3F00F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F010, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BE3F001, 0x7BE3F011, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F012, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BE3F001, 0x7BE3F013, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BE3F001, 0x7BE3F014, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE3F002,  1627, 0xBE3F0035, 145.3782, 119.7964, 46.0121, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -106,7 +106,7 @@ VALUES (0x7BE3F015,  1542, 0xBE3F002E, 140.9249, 122.0326, 45.999, 0.7071068, 0,
 /* @teleloc 0xBE3F002E [140.924900 122.032600 45.999000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE3F015, 0x7BE3F016, '2019-02-10 00:00:00') /* Myrrh */;
+VALUES (0x7BE3F015, 0x7BE3F016, '2019-02-10 00:00:00') /* Myrrh (777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE3F016,   777, 0xBE3F002E, 140.9249, 122.0326, 45.999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Myrrh */

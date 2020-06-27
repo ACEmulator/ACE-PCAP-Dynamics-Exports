@@ -5,12 +5,12 @@ VALUES (0x73F15001,  1154, 0x3F150026, 112.0044, 138.7424, -0.09175003, -0.80557
 /* @teleloc 0x3F150026 [112.004400 138.742400 -0.091750] -0.805572 0.000000 0.000000 -0.592498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F15001, 0x73F15002, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x73F15001, 0x73F15003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73F15001, 0x73F15004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73F15001, 0x73F15005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73F15001, 0x73F15006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73F15001, 0x73F15007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73F15001, 0x73F15002, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x73F15001, 0x73F15003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73F15001, 0x73F15004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73F15001, 0x73F15005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73F15001, 0x73F15006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73F15001, 0x73F15007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F15002, 12037, 0x3F150026, 112.0044, 138.7424, -0.09175003, -0.805572, 0, 0, -0.5924979,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */
@@ -41,8 +41,8 @@ VALUES (0x73F15008,  1542, 0x3F15002A, 131.2455, 44.23151, -0.452161, 1, 0, 0, 0
 /* @teleloc 0x3F15002A [131.245500 44.231510 -0.452161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F15008, 0x73F15009, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73F15008, 0x73F1500A, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x73F15008, 0x73F15009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73F15008, 0x73F1500A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F15009, 31445, 0x3F15002A, 131.2455, 44.23151, -0.452161, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

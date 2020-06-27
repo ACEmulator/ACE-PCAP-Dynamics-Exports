@@ -5,18 +5,18 @@ VALUES (0x75DB7001,  1154, 0x5DB7003D, 176.9107, 119.3429, 0.06475425, -0.281901
 /* @teleloc 0x5DB7003D [176.910700 119.342900 0.064754] -0.281901 0.000000 0.000000 -0.959443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DB7001, 0x75DB7002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75DB7001, 0x75DB7003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75DB7001, 0x75DB7004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DB7001, 0x75DB7005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DB7001, 0x75DB7006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75DB7001, 0x75DB7007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75DB7001, 0x75DB7008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75DB7001, 0x75DB7009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DB7001, 0x75DB700A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75DB7001, 0x75DB700B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75DB7001, 0x75DB700C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75DB7001, 0x75DB700D, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x75DB7001, 0x75DB7002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75DB7001, 0x75DB7003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75DB7001, 0x75DB7004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DB7001, 0x75DB7005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DB7001, 0x75DB7006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75DB7001, 0x75DB7007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75DB7001, 0x75DB7008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75DB7001, 0x75DB7009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DB7001, 0x75DB700A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75DB7001, 0x75DB700B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75DB7001, 0x75DB700C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75DB7001, 0x75DB700D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DB7002, 22933, 0x5DB7003D, 176.9107, 119.3429, 0.06475425, -0.2819011, 0, 0, -0.9594434,  True, '2019-02-10 00:00:00'); /* Mist Golem */
@@ -71,7 +71,7 @@ VALUES (0x75DB700E,  1542, 0x5DB7003D, 191.5181, 115.2122, 0.3989798, 0.9238795,
 /* @teleloc 0x5DB7003D [191.518100 115.212200 0.398980] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DB700E, 0x75DB700F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x75DB700E, 0x75DB700F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DB700F,  4180, 0x5DB7003D, 191.5181, 115.2122, 0.3989798, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

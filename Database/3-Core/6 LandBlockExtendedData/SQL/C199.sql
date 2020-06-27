@@ -5,14 +5,14 @@ VALUES (0x7C199001,  1154, 0xC199003E, 183.6572, 126.367, 24.37793, 0.9905576, 0
 /* @teleloc 0xC199003E [183.657200 126.367000 24.377930] 0.990558 0.000000 0.000000 -0.137098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C199001, 0x7C199002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C199001, 0x7C199003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C199001, 0x7C199004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C199001, 0x7C199005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C199001, 0x7C199006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C199001, 0x7C199007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C199001, 0x7C199008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C199001, 0x7C199009, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7C199001, 0x7C199002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C199001, 0x7C199003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C199001, 0x7C199004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C199001, 0x7C199005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C199001, 0x7C199006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C199001, 0x7C199007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C199001, 0x7C199008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C199001, 0x7C199009, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C199002,   216, 0xC199003E, 183.6572, 126.367, 24.37793, 0.9905576, 0, 0, -0.1370977,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

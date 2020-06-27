@@ -5,18 +5,18 @@ VALUES (0x74CCD001,  1154, 0x4CCD0019, 95.4743, 6.04207, 68.93992, 0.6678947, 0,
 /* @teleloc 0x4CCD0019 [95.474300 6.042070 68.939920] 0.667895 0.000000 0.000000 -0.744256 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CCD001, 0x74CCD002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74CCD001, 0x74CCD003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74CCD001, 0x74CCD004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74CCD001, 0x74CCD005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74CCD001, 0x74CCD006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CCD001, 0x74CCD007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CCD001, 0x74CCD008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74CCD001, 0x74CCD009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CCD001, 0x74CCD00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CCD001, 0x74CCD00B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74CCD001, 0x74CCD00C, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74CCD001, 0x74CCD00D, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74CCD001, 0x74CCD002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74CCD001, 0x74CCD003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74CCD001, 0x74CCD004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74CCD001, 0x74CCD005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74CCD001, 0x74CCD006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CCD001, 0x74CCD007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CCD001, 0x74CCD008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74CCD001, 0x74CCD009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CCD001, 0x74CCD00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CCD001, 0x74CCD00B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74CCD001, 0x74CCD00C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74CCD001, 0x74CCD00D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CCD002, 23617, 0x4CCD0019, 95.4743, 6.04207, 68.93992, 0.6678947, 0, 0, -0.7442558,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

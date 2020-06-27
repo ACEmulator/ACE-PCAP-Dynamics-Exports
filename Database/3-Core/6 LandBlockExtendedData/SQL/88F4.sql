@@ -5,21 +5,21 @@ VALUES (0x788F4001,  1154, 0x88F40035, 163.329, 103.5898, 18.74219, -0.3738149, 
 /* @teleloc 0x88F40035 [163.329000 103.589800 18.742190] -0.373815 0.000000 0.000000 -0.927503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788F4001, 0x788F4002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x788F4001, 0x788F4003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x788F4001, 0x788F4004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x788F4001, 0x788F4005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x788F4001, 0x788F4006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788F4001, 0x788F4007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x788F4001, 0x788F4008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788F4001, 0x788F4009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788F4001, 0x788F400A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x788F4001, 0x788F400B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788F4001, 0x788F400C, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x788F4001, 0x788F400D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x788F4001, 0x788F400E, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x788F4001, 0x788F400F, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x788F4001, 0x788F4010, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x788F4001, 0x788F4002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x788F4001, 0x788F4003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x788F4001, 0x788F4004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x788F4001, 0x788F4005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x788F4001, 0x788F4006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788F4001, 0x788F4007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x788F4001, 0x788F4008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788F4001, 0x788F4009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788F4001, 0x788F400A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x788F4001, 0x788F400B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788F4001, 0x788F400C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x788F4001, 0x788F400D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x788F4001, 0x788F400E, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x788F4001, 0x788F400F, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x788F4001, 0x788F4010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788F4002,  7088, 0x88F40035, 163.329, 103.5898, 18.74219, -0.3738149, 0, 0, -0.9275033,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

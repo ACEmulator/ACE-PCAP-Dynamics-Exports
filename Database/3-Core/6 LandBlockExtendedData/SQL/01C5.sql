@@ -77,72 +77,72 @@ VALUES (0x701C503D,  1154, 0x01C50147, 50.12613, 1.728967, -5.9945, -4.37114E-08
 /* @teleloc 0x01C50147 [50.126130 1.728967 -5.994500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C503D, 0x701C503E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C503F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5040, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C5041, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5042, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5043, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C5044, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C5045, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5046, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5047, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C5048, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C5049, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C504A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C504B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C504C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C504D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C504E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C504F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5050, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5051, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5052, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5053, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5054, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5055, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701C503D, 0x701C5056, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5057, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5058, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5059, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C505A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C505B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C505C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C505D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C505E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C505F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5060, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5061, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5062, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5063, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5064, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5065, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5066, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5067, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5068, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5069, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C506A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C506B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C506C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701C503D, 0x701C506D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C506E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C506F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5070, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5071, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5072, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5073, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5074, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5075, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5076, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C5077, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5078, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C5079, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701C503D, 0x701C507A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C507B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C507C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C507D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C507E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701C503D, 0x701C507F, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x701C503D, 0x701C503E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C503F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5040, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C5041, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5042, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5043, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C5044, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C5045, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5046, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5047, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C5048, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C5049, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C504A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C504B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C504C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C504D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C504E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C504F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5050, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5051, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5052, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5053, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5054, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5055, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701C503D, 0x701C5056, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5057, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5058, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5059, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C505A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C505B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C505C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C505D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C505E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C505F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5060, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5061, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5062, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5063, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5064, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5065, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5066, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5067, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5068, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5069, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C506A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C506B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C506C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701C503D, 0x701C506D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C506E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C506F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5070, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5071, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5072, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5073, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5074, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5075, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5076, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C5077, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5078, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C5079, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701C503D, 0x701C507A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C507B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C507C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C507D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C507E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701C503D, 0x701C507F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C503E,   947, 0x01C50147, 50.12613, 1.728967, -5.9945, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

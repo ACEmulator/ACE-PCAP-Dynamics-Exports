@@ -5,16 +5,16 @@ VALUES (0x7A6BB001,  1154, 0xA6BB0029, 123.3435, 15.44594, 70.86092, -0.9756391,
 /* @teleloc 0xA6BB0029 [123.343500 15.445940 70.860920] -0.975639 0.000000 0.000000 -0.219382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6BB001, 0x7A6BB002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A6BB001, 0x7A6BB003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A6BB001, 0x7A6BB004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A6BB001, 0x7A6BB005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6BB001, 0x7A6BB006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A6BB001, 0x7A6BB007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6BB001, 0x7A6BB008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6BB001, 0x7A6BB009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A6BB001, 0x7A6BB00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A6BB001, 0x7A6BB00B, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7A6BB001, 0x7A6BB002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A6BB001, 0x7A6BB003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A6BB001, 0x7A6BB004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A6BB001, 0x7A6BB005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6BB001, 0x7A6BB006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A6BB001, 0x7A6BB007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6BB001, 0x7A6BB008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6BB001, 0x7A6BB009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A6BB001, 0x7A6BB00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A6BB001, 0x7A6BB00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6BB002,  2612, 0xA6BB0029, 123.3435, 15.44594, 70.86092, -0.9756391, 0, 0, -0.2193816,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -61,7 +61,7 @@ VALUES (0x7A6BB00C,  1542, 0xA6BB0034, 148.6867, 73.66802, 47.69115, 1, 0, 0, 0,
 /* @teleloc 0xA6BB0034 [148.686700 73.668020 47.691150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6BB00C, 0x7A6BB00D, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7A6BB00C, 0x7A6BB00D, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6BB00D,   265, 0xA6BB0034, 148.6867, 73.66802, 47.69115, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

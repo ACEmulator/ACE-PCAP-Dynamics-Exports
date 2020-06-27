@@ -5,16 +5,16 @@ VALUES (0x7BBD8001,  1154, 0xBBD80025, 100.1636, 98.40673, 89.24397, 0.04127482,
 /* @teleloc 0xBBD80025 [100.163600 98.406730 89.243970] 0.041275 0.000000 0.000000 -0.999148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD8001, 0x7BBD8002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BBD8001, 0x7BBD8003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BBD8001, 0x7BBD8004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BBD8001, 0x7BBD8005, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBD8001, 0x7BBD8006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BBD8001, 0x7BBD8007, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BBD8001, 0x7BBD8008, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BBD8001, 0x7BBD8009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BBD8001, 0x7BBD800A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BBD8001, 0x7BBD800B, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7BBD8001, 0x7BBD8002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BBD8001, 0x7BBD8003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BBD8001, 0x7BBD8004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BBD8001, 0x7BBD8005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBD8001, 0x7BBD8006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BBD8001, 0x7BBD8007, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BBD8001, 0x7BBD8008, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BBD8001, 0x7BBD8009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BBD8001, 0x7BBD800A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BBD8001, 0x7BBD800B, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD8002,  7121, 0xBBD80025, 100.1636, 98.40673, 89.24397, 0.04127482, 0, 0, -0.9991478,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

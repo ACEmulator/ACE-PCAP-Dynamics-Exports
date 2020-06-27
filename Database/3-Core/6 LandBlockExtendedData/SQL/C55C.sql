@@ -9,29 +9,29 @@ VALUES (0x7C55C001,  1154, 0xC55C0028, 103.7355, 181.6856, 5.1075, 0.1806851, 0,
 /* @teleloc 0xC55C0028 [103.735500 181.685600 5.107500] 0.180685 0.000000 0.000000 -0.983541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C55C001, 0x7C55C002, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C55C001, 0x7C55C003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C55C001, 0x7C55C004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C55C001, 0x7C55C005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C55C001, 0x7C55C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C55C001, 0x7C55C007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C55C001, 0x7C55C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C55C001, 0x7C55C00A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C55C001, 0x7C55C00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C00C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7C55C001, 0x7C55C00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C00E, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C55C001, 0x7C55C00F, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C55C001, 0x7C55C010, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C011, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C012, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C55C001, 0x7C55C014, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C55C001, 0x7C55C015, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C55C001, 0x7C55C016, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C55C001, 0x7C55C017, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C55C001, 0x7C55C018, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7C55C001, 0x7C55C002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C55C001, 0x7C55C003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C55C001, 0x7C55C004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C55C001, 0x7C55C005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C55C001, 0x7C55C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C55C001, 0x7C55C007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C55C001, 0x7C55C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C55C001, 0x7C55C00A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C55C001, 0x7C55C00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C00C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7C55C001, 0x7C55C00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C00E, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C55C001, 0x7C55C00F, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C55C001, 0x7C55C010, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C011, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C012, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C55C001, 0x7C55C014, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C55C001, 0x7C55C015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C55C001, 0x7C55C016, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C55C001, 0x7C55C017, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C55C001, 0x7C55C018, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C55C002,   204, 0xC55C0028, 103.7355, 181.6856, 5.1075, 0.1806851, 0, 0, -0.983541,  True, '2019-02-10 00:00:00'); /* Lich */
@@ -130,7 +130,7 @@ VALUES (0x7C55C019,  1542, 0xC55C0037, 152.7566, 165.4953, 5.1, 0.9915677, 0, 0,
 /* @teleloc 0xC55C0037 [152.756600 165.495300 5.100000] 0.991568 0.000000 0.000000 -0.129590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C55C019, 0x7C55C01A, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7C55C019, 0x7C55C01A, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C55C01A,  8588, 0xC55C0037, 152.7566, 165.4953, 5.1, 0.9915677, 0, 0, -0.1295896,  True, '2019-02-10 00:00:00'); /* Idol */

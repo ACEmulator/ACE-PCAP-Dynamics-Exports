@@ -5,16 +5,16 @@ VALUES (0x798E9001,  1154, 0x98E90012, 48.62709, 45.00793, 96.0099, 0.320218, 0,
 /* @teleloc 0x98E90012 [48.627090 45.007930 96.009900] 0.320218 0.000000 0.000000 -0.947344 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E9001, 0x798E9002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x798E9001, 0x798E9003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x798E9001, 0x798E9004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x798E9001, 0x798E9005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x798E9001, 0x798E9006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x798E9001, 0x798E9007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x798E9001, 0x798E9008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x798E9001, 0x798E9009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x798E9001, 0x798E900A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x798E9001, 0x798E900B, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x798E9001, 0x798E9002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x798E9001, 0x798E9003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x798E9001, 0x798E9004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x798E9001, 0x798E9005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x798E9001, 0x798E9006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x798E9001, 0x798E9007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x798E9001, 0x798E9008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x798E9001, 0x798E9009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x798E9001, 0x798E900A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x798E9001, 0x798E900B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E9002, 22520, 0x98E90012, 48.62709, 45.00793, 96.0099, 0.320218, 0, 0, -0.9473439,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -61,7 +61,7 @@ VALUES (0x798E900C,  1542, 0x98E90013, 56.13914, 71.53889, 94.03842, -0.9907185,
 /* @teleloc 0x98E90013 [56.139140 71.538890 94.038420] -0.990719 0.000000 0.000000 -0.135929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E900C, 0x798E900D, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x798E900C, 0x798E900D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E900D,  8648, 0x98E90013, 56.13914, 71.53889, 94.03842, -0.9907185, 0, 0, -0.1359292,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

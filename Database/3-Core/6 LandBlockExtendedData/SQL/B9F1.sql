@@ -9,17 +9,17 @@ VALUES (0x7B9F1001,  1154, 0xB9F10007, 22.95035, 165.3998, 398, 0.9238795, 0, 0,
 /* @teleloc 0xB9F10007 [22.950350 165.399800 398.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9F1001, 0x7B9F1002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7B9F1001, 0x7B9F1003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9F1001, 0x7B9F1004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B9F1001, 0x7B9F1005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B9F1001, 0x7B9F1006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B9F1001, 0x7B9F1007, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B9F1001, 0x7B9F1008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B9F1001, 0x7B9F1009, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7B9F1001, 0x7B9F100A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B9F1001, 0x7B9F100B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B9F1001, 0x7B9F100C, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7B9F1001, 0x7B9F1002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7B9F1001, 0x7B9F1003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9F1001, 0x7B9F1004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B9F1001, 0x7B9F1005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B9F1001, 0x7B9F1006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B9F1001, 0x7B9F1007, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B9F1001, 0x7B9F1008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B9F1001, 0x7B9F1009, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7B9F1001, 0x7B9F100A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9F1001, 0x7B9F100B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B9F1001, 0x7B9F100C, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9F1002,  4216, 0xB9F10007, 22.95035, 165.3998, 398, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -70,7 +70,7 @@ VALUES (0x7B9F100D,  1542, 0xB9F10038, 164.1842, 190.4002, 398, 1, 0, 0, 0, Fals
 /* @teleloc 0xB9F10038 [164.184200 190.400200 398.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9F100D, 0x7B9F100E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B9F100D, 0x7B9F100E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9F100E,  4179, 0xB9F10038, 164.1842, 190.4002, 398, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

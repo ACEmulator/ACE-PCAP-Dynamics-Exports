@@ -5,12 +5,12 @@ VALUES (0x7976A001,  1154, 0x976A002C, 127.4534, 80.08516, 61.32457, 0.7071068, 
 /* @teleloc 0x976A002C [127.453400 80.085160 61.324570] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7976A001, 0x7976A002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7976A001, 0x7976A003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7976A001, 0x7976A004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7976A001, 0x7976A005, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7976A001, 0x7976A006, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7976A001, 0x7976A007, '2019-02-10 00:00:00') /* Greater Mu-miyah */;
+VALUES (0x7976A001, 0x7976A002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7976A001, 0x7976A003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7976A001, 0x7976A004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7976A001, 0x7976A005, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7976A001, 0x7976A006, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7976A001, 0x7976A007, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7976A002,  1766, 0x976A002C, 127.4534, 80.08516, 61.32457, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

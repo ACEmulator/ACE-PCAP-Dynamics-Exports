@@ -5,49 +5,49 @@ VALUES (0x76CEF001,  1154, 0x6CEF000F, 28.07286, 146.4165, -0.8934, 0.8660254, 0
 /* @teleloc 0x6CEF000F [28.072860 146.416500 -0.893400] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CEF001, 0x76CEF002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF008, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x76CEF001, 0x76CEF009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x76CEF001, 0x76CEF00A, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x76CEF001, 0x76CEF00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF00D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF00E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF00F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF010, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x76CEF001, 0x76CEF011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CEF001, 0x76CEF013, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76CEF001, 0x76CEF014, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76CEF001, 0x76CEF015, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76CEF001, 0x76CEF016, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76CEF001, 0x76CEF017, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x76CEF001, 0x76CEF018, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF019, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF01A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF01B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF01C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x76CEF001, 0x76CEF01D, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76CEF001, 0x76CEF01E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76CEF001, 0x76CEF01F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76CEF001, 0x76CEF020, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76CEF001, 0x76CEF021, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x76CEF001, 0x76CEF022, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76CEF001, 0x76CEF023, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x76CEF001, 0x76CEF024, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x76CEF001, 0x76CEF025, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x76CEF001, 0x76CEF026, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x76CEF001, 0x76CEF027, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CEF001, 0x76CEF028, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CEF001, 0x76CEF029, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CEF001, 0x76CEF02A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76CEF001, 0x76CEF02B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76CEF001, 0x76CEF02C, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x76CEF001, 0x76CEF002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF008, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x76CEF001, 0x76CEF009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x76CEF001, 0x76CEF00A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x76CEF001, 0x76CEF00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF00E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF00F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF010, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x76CEF001, 0x76CEF011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF012, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x76CEF001, 0x76CEF013, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76CEF001, 0x76CEF014, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76CEF001, 0x76CEF015, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76CEF001, 0x76CEF016, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76CEF001, 0x76CEF017, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x76CEF001, 0x76CEF018, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF019, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF01A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF01B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF01C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x76CEF001, 0x76CEF01D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76CEF001, 0x76CEF01E, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76CEF001, 0x76CEF01F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76CEF001, 0x76CEF020, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76CEF001, 0x76CEF021, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x76CEF001, 0x76CEF022, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76CEF001, 0x76CEF023, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x76CEF001, 0x76CEF024, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x76CEF001, 0x76CEF025, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x76CEF001, 0x76CEF026, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x76CEF001, 0x76CEF027, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x76CEF001, 0x76CEF028, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x76CEF001, 0x76CEF029, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x76CEF001, 0x76CEF02A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76CEF001, 0x76CEF02B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76CEF001, 0x76CEF02C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CEF002,  4248, 0x6CEF000F, 28.07286, 146.4165, -0.8934, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -226,10 +226,10 @@ VALUES (0x76CEF02D,  1542, 0x6CEF000E, 29.26143, 140.3085, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x6CEF000E [29.261430 140.308500 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CEF02D, 0x76CEF02E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x76CEF02D, 0x76CEF02F, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x76CEF02D, 0x76CEF030, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x76CEF02D, 0x76CEF031, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x76CEF02D, 0x76CEF02E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x76CEF02D, 0x76CEF02F, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x76CEF02D, 0x76CEF030, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x76CEF02D, 0x76CEF031, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CEF02E,  4179, 0x6CEF000E, 29.26143, 140.3085, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

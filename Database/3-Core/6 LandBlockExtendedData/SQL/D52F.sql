@@ -5,11 +5,11 @@ VALUES (0x7D52F001,  1154, 0xD52F0008, 9.314602, 186.7652, 141.5244, -0.3444465,
 /* @teleloc 0xD52F0008 [9.314602 186.765200 141.524400] -0.344447 0.000000 0.000000 -0.938806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D52F001, 0x7D52F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7D52F001, 0x7D52F003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D52F001, 0x7D52F004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D52F001, 0x7D52F005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D52F001, 0x7D52F006, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x7D52F001, 0x7D52F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7D52F001, 0x7D52F003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D52F001, 0x7D52F004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D52F001, 0x7D52F005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D52F001, 0x7D52F006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D52F002, 28551, 0xD52F0008, 9.314602, 186.7652, 141.5244, -0.3444465, 0, 0, -0.9388059,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -36,12 +36,12 @@ VALUES (0x7D52F007,  1542, 0xD52F0022, 109.5865, 27.24378, 196.0796, 1, 0, 0, 0,
 /* @teleloc 0xD52F0022 [109.586500 27.243780 196.079600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D52F007, 0x7D52F008, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7D52F007, 0x7D52F009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D52F007, 0x7D52F00A, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7D52F007, 0x7D52F00B, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7D52F007, 0x7D52F00C, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7D52F007, 0x7D52F00D, '2019-02-10 00:00:00') /* Hasina bint Rira */;
+VALUES (0x7D52F007, 0x7D52F008, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7D52F007, 0x7D52F009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D52F007, 0x7D52F00A, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7D52F007, 0x7D52F00B, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7D52F007, 0x7D52F00C, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7D52F007, 0x7D52F00D, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D52F008,  9024, 0xD52F0022, 109.5865, 27.24378, 196.0796, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

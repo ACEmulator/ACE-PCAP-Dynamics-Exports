@@ -5,9 +5,9 @@ VALUES (0x71436001,  1154, 0x14360031, 149.1331, 6.275574, 30.3459, 0.9998106, 0
 /* @teleloc 0x14360031 [149.133100 6.275574 30.345900] 0.999811 0.000000 0.000000 -0.019462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71436001, 0x71436002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71436001, 0x71436003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71436001, 0x71436004, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71436001, 0x71436002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71436001, 0x71436003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71436001, 0x71436004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71436002, 15267, 0x14360031, 149.1331, 6.275574, 30.3459, 0.9998106, 0, 0, -0.0194618,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

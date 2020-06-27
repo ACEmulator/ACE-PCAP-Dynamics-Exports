@@ -5,42 +5,42 @@ VALUES (0x7E44F001,  1154, 0xE44F0013, 62.69992, 61.90892, 1.9055, -0.9644179, 0
 /* @teleloc 0xE44F0013 [62.699920 61.908920 1.905500] -0.964418 0.000000 0.000000 -0.264383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44F001, 0x7E44F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E44F001, 0x7E44F003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E44F001, 0x7E44F004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E44F001, 0x7E44F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E44F001, 0x7E44F008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E44F001, 0x7E44F00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E44F001, 0x7E44F00B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E44F001, 0x7E44F00E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E44F001, 0x7E44F00F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F010, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F012, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E44F001, 0x7E44F013, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F014, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E44F001, 0x7E44F015, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E44F001, 0x7E44F016, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E44F001, 0x7E44F017, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F018, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E44F001, 0x7E44F019, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E44F001, 0x7E44F01A, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7E44F001, 0x7E44F01B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E44F001, 0x7E44F01C, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E44F001, 0x7E44F01D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F01E, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7E44F001, 0x7E44F01F, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E44F001, 0x7E44F020, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E44F001, 0x7E44F021, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E44F001, 0x7E44F022, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E44F001, 0x7E44F023, '2019-02-10 00:00:00') /* Spark */
-     , (0x7E44F001, 0x7E44F024, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E44F001, 0x7E44F025, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7E44F001, 0x7E44F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E44F001, 0x7E44F003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E44F001, 0x7E44F004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E44F001, 0x7E44F005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E44F001, 0x7E44F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E44F001, 0x7E44F007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E44F001, 0x7E44F008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E44F001, 0x7E44F009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E44F001, 0x7E44F00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E44F001, 0x7E44F00B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E44F001, 0x7E44F00E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E44F001, 0x7E44F00F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F010, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E44F001, 0x7E44F012, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E44F001, 0x7E44F013, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E44F001, 0x7E44F014, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E44F001, 0x7E44F015, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E44F001, 0x7E44F016, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E44F001, 0x7E44F017, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E44F001, 0x7E44F018, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E44F001, 0x7E44F019, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E44F001, 0x7E44F01A, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7E44F001, 0x7E44F01B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E44F001, 0x7E44F01C, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E44F001, 0x7E44F01D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F01E, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7E44F001, 0x7E44F01F, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E44F001, 0x7E44F020, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E44F001, 0x7E44F021, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E44F001, 0x7E44F022, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E44F001, 0x7E44F023, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7E44F001, 0x7E44F024, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E44F001, 0x7E44F025, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44F002,   211, 0xE44F0013, 62.69992, 61.90892, 1.9055, -0.9644179, 0, 0, -0.2643826,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

@@ -9,19 +9,19 @@ VALUES (0x7E24C001,  1154, 0xE24C0018, 63.45197, 175.5655, 24.0075, -0.8646481, 
 /* @teleloc 0xE24C0018 [63.451970 175.565500 24.007500] -0.864648 0.000000 0.000000 0.502378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E24C001, 0x7E24C002, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C003, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C004, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C005, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7E24C001, 0x7E24C007, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C008, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C009, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7E24C001, 0x7E24C00A, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C00B, '2019-02-10 00:00:00') /* Undead */
-     , (0x7E24C001, 0x7E24C00C, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E24C001, 0x7E24C00D, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E24C001, 0x7E24C00E, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7E24C001, 0x7E24C002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7E24C001, 0x7E24C007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C008, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C009, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7E24C001, 0x7E24C00A, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C00B, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7E24C001, 0x7E24C00C, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E24C001, 0x7E24C00D, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E24C001, 0x7E24C00E, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24C002,    16, 0xE24C0018, 63.45197, 175.5655, 24.0075, -0.8646481, 0, 0, 0.502378,  True, '2019-02-10 00:00:00'); /* Undead */
@@ -80,10 +80,10 @@ VALUES (0x7E24C00F,  1542, 0xE24C0017, 52.9182, 164.7793, 24.0855, -0.9999378, 0
 /* @teleloc 0xE24C0017 [52.918200 164.779300 24.085500] -0.999938 0.000000 0.000000 -0.011154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E24C00F, 0x7E24C010, '2019-02-10 00:00:00') /* Scroll of Cleanse Life Magic Other */
-     , (0x7E24C00F, 0x7E24C011, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E24C00F, 0x7E24C012, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x7E24C00F, 0x7E24C013, '2019-02-10 00:00:00') /* Iron Pea */;
+VALUES (0x7E24C00F, 0x7E24C010, '2019-02-10 00:00:00') /* Scroll of Cleanse Life Magic Other (20392) */
+     , (0x7E24C00F, 0x7E24C011, '2019-02-10 00:00:00') /* Gem (2418) */
+     , (0x7E24C00F, 0x7E24C012, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x7E24C00F, 0x7E24C013, '2019-02-10 00:00:00') /* Iron Pea (8328) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24C010, 20392, 0xE24C0017, 52.9182, 164.7793, 24.0855, -0.9999378, 0, 0, -0.0111536,  True, '2019-02-10 00:00:00'); /* Scroll of Cleanse Life Magic Other */

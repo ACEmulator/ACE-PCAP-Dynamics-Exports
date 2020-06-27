@@ -5,20 +5,20 @@ VALUES (0x7297E001,  1154, 0x297E0007, 21.77514, 151.0265, 65.26338, 0.7071068, 
 /* @teleloc 0x297E0007 [21.775140 151.026500 65.263380] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7297E001, 0x7297E002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7297E001, 0x7297E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7297E001, 0x7297E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7297E001, 0x7297E005, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7297E001, 0x7297E006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7297E001, 0x7297E007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7297E001, 0x7297E008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7297E001, 0x7297E009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7297E001, 0x7297E00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7297E001, 0x7297E00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7297E001, 0x7297E00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7297E001, 0x7297E00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7297E001, 0x7297E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7297E001, 0x7297E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7297E001, 0x7297E002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7297E001, 0x7297E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7297E001, 0x7297E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7297E001, 0x7297E005, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7297E001, 0x7297E006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7297E001, 0x7297E007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7297E001, 0x7297E008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7297E001, 0x7297E009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7297E001, 0x7297E00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7297E001, 0x7297E00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7297E001, 0x7297E00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7297E001, 0x7297E00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7297E001, 0x7297E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7297E001, 0x7297E00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7297E002,  1757, 0x297E0007, 21.77514, 151.0265, 65.26338, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -81,7 +81,7 @@ VALUES (0x7297E010,  1542, 0x297E000D, 44.34375, 108.7916, 66, -0.4743119, 0, 0,
 /* @teleloc 0x297E000D [44.343750 108.791600 66.000000] -0.474312 0.000000 0.000000 -0.880357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7297E010, 0x7297E011, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7297E010, 0x7297E011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7297E011,  8644, 0x297E000D, 44.34375, 108.7916, 66, -0.4743119, 0, 0, -0.8803568,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

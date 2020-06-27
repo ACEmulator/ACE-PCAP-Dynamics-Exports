@@ -5,14 +5,14 @@ VALUES (0x71664001,  1154, 0x16640035, 164.2364, 111.9791, 42.32763, 0.969276, 0
 /* @teleloc 0x16640035 [164.236400 111.979100 42.327630] 0.969276 0.000000 0.000000 -0.245976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71664001, 0x71664002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71664001, 0x71664003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71664001, 0x71664004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71664001, 0x71664005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71664001, 0x71664006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71664001, 0x71664007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71664001, 0x71664008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71664001, 0x71664009, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71664001, 0x71664002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71664001, 0x71664003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71664001, 0x71664004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71664001, 0x71664005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71664001, 0x71664006, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71664001, 0x71664007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71664001, 0x71664008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71664001, 0x71664009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71664002, 36818, 0x16640035, 164.2364, 111.9791, 42.32763, 0.969276, 0, 0, -0.2459758,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

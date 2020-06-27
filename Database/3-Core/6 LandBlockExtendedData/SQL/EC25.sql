@@ -9,24 +9,24 @@ VALUES (0x7EC25018,  1154, 0xEC250031, 152.677, 21.2051, 0.006600022, 0.9980974,
 /* @teleloc 0xEC250031 [152.677000 21.205100 0.006600] 0.998097 0.000000 0.000000 -0.061658 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC25018, 0x7EC25019, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EC25018, 0x7EC2501A, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EC25018, 0x7EC2501B, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7EC25018, 0x7EC2501C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EC25018, 0x7EC2501D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EC25018, 0x7EC2501E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EC25018, 0x7EC2501F, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EC25018, 0x7EC25020, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EC25018, 0x7EC25021, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EC25018, 0x7EC25022, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EC25018, 0x7EC25023, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EC25018, 0x7EC25024, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EC25018, 0x7EC25025, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC25018, 0x7EC25026, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EC25018, 0x7EC25027, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC25018, 0x7EC25028, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EC25018, 0x7EC25029, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EC25018, 0x7EC2502A, '2019-02-10 00:00:00') /* Mosswart Zealot */;
+VALUES (0x7EC25018, 0x7EC25019, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EC25018, 0x7EC2501A, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EC25018, 0x7EC2501B, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7EC25018, 0x7EC2501C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EC25018, 0x7EC2501D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EC25018, 0x7EC2501E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EC25018, 0x7EC2501F, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EC25018, 0x7EC25020, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EC25018, 0x7EC25021, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EC25018, 0x7EC25022, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EC25018, 0x7EC25023, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EC25018, 0x7EC25024, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EC25018, 0x7EC25025, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC25018, 0x7EC25026, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EC25018, 0x7EC25027, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC25018, 0x7EC25028, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EC25018, 0x7EC25029, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EC25018, 0x7EC2502A, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC25019,  8429, 0xEC250031, 152.677, 21.2051, 0.006600022, 0.9980974, 0, 0, -0.06165762,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

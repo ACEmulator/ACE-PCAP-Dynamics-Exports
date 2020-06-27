@@ -5,15 +5,15 @@ VALUES (0x72070001,  1154, 0x20700008, 4.517965, 183.2706, 145.2805, 0.9999574, 
 /* @teleloc 0x20700008 [4.517965 183.270600 145.280500] 0.999957 0.000000 0.000000 0.009234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72070001, 0x72070002, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x72070001, 0x72070003, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x72070001, 0x72070004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72070001, 0x72070005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72070001, 0x72070006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72070001, 0x72070007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72070001, 0x72070008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72070001, 0x72070009, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72070001, 0x7207000A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */;
+VALUES (0x72070001, 0x72070002, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72070001, 0x72070003, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72070001, 0x72070004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72070001, 0x72070005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72070001, 0x72070006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72070001, 0x72070007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72070001, 0x72070008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72070001, 0x72070009, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72070001, 0x7207000A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72070002, 41529, 0x20700008, 4.517965, 183.2706, 145.2805, 0.9999574, 0, 0, 0.009234323,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Knight */

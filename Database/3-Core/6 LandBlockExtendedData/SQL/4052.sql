@@ -5,15 +5,15 @@ VALUES (0x74052001,  1154, 0x40520018, 70.5087, 191.2582, 96.13114, 0.9687399, 0
 /* @teleloc 0x40520018 [70.508700 191.258200 96.131140] 0.968740 0.000000 0.000000 -0.248079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74052001, 0x74052002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74052001, 0x74052003, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x74052001, 0x74052004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74052001, 0x74052005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x74052001, 0x74052006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74052001, 0x74052007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74052001, 0x74052008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74052001, 0x74052009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74052001, 0x7405200A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x74052001, 0x74052002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74052001, 0x74052003, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x74052001, 0x74052004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74052001, 0x74052005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x74052001, 0x74052006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74052001, 0x74052007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74052001, 0x74052008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74052001, 0x74052009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74052001, 0x7405200A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74052002, 41535, 0x40520018, 70.5087, 191.2582, 96.13114, 0.9687399, 0, 0, -0.2480788,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -56,8 +56,8 @@ VALUES (0x7405200B,  1542, 0x4052003F, 180.2772, 145.9629, 104, -4.371139E-08, 0
 /* @teleloc 0x4052003F [180.277200 145.962900 104.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7405200B, 0x7405200C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7405200B, 0x7405200D, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7405200B, 0x7405200C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7405200B, 0x7405200D, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7405200C,  4380, 0x4052003F, 180.2772, 145.9629, 104, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

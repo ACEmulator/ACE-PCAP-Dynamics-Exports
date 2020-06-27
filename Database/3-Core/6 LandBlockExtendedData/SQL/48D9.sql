@@ -5,9 +5,9 @@ VALUES (0x748D9001,  1154, 0x48D9000B, 46.59654, 48.33288, 56.94878, 0.7031665, 
 /* @teleloc 0x48D9000B [46.596540 48.332880 56.948780] 0.703167 0.000000 0.000000 -0.711025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748D9001, 0x748D9002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x748D9001, 0x748D9003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x748D9001, 0x748D9004, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x748D9001, 0x748D9002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x748D9001, 0x748D9003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x748D9001, 0x748D9004, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748D9002,  7346, 0x48D9000B, 46.59654, 48.33288, 56.94878, 0.7031665, 0, 0, -0.7110252,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

@@ -5,29 +5,29 @@ VALUES (0x79AA6001,  1154, 0x9AA6003B, 190.7191, 68.82834, 73.47139, -0.9971604,
 /* @teleloc 0x9AA6003B [190.719100 68.828340 73.471390] -0.997160 0.000000 0.000000 -0.075307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AA6001, 0x79AA6002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79AA6001, 0x79AA6003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AA6001, 0x79AA6004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AA6001, 0x79AA6005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AA6001, 0x79AA6006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79AA6001, 0x79AA6007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79AA6001, 0x79AA6008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79AA6001, 0x79AA6009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79AA6001, 0x79AA600A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79AA6001, 0x79AA600B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79AA6001, 0x79AA600C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79AA6001, 0x79AA600D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79AA6001, 0x79AA600E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79AA6001, 0x79AA600F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79AA6001, 0x79AA6010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79AA6001, 0x79AA6011, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AA6001, 0x79AA6012, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x79AA6001, 0x79AA6013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79AA6001, 0x79AA6014, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79AA6001, 0x79AA6015, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AA6001, 0x79AA6016, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79AA6001, 0x79AA6017, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79AA6001, 0x79AA6018, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x79AA6001, 0x79AA6002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79AA6001, 0x79AA6003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AA6001, 0x79AA6004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AA6001, 0x79AA6005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AA6001, 0x79AA6006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79AA6001, 0x79AA6007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79AA6001, 0x79AA6008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79AA6001, 0x79AA6009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79AA6001, 0x79AA600A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79AA6001, 0x79AA600B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79AA6001, 0x79AA600C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79AA6001, 0x79AA600D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79AA6001, 0x79AA600E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79AA6001, 0x79AA600F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79AA6001, 0x79AA6010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79AA6001, 0x79AA6011, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AA6001, 0x79AA6012, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x79AA6001, 0x79AA6013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79AA6001, 0x79AA6014, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79AA6001, 0x79AA6015, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AA6001, 0x79AA6016, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79AA6001, 0x79AA6017, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79AA6001, 0x79AA6018, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AA6002,     3, 0x9AA6003B, 190.7191, 68.82834, 73.47139, -0.9971604, 0, 0, -0.07530744,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -126,8 +126,8 @@ VALUES (0x79AA6019,  1542, 0x9AA6003E, 175.7718, 121.2105, 82.10088, 1, 0, 0, 0,
 /* @teleloc 0x9AA6003E [175.771800 121.210500 82.100880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AA6019, 0x79AA601A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79AA6019, 0x79AA601B, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79AA6019, 0x79AA601A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79AA6019, 0x79AA601B, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AA601A,  8232, 0x9AA6003E, 175.7718, 121.2105, 82.10088, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

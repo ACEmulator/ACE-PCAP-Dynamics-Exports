@@ -9,310 +9,310 @@ VALUES (0x72F2E001,  1154, 0x2F2E0040, 180.5567, 168.5412, 4.0025, 0.9848127, 0,
 /* @teleloc 0x2F2E0040 [180.556700 168.541200 4.002500] 0.984813 0.000000 0.000000 -0.173620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2E001, 0x72F2E002, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2E001, 0x72F2E009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E00B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E00E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E00F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E010, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E011, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E012, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E013, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E014, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F2E001, 0x72F2E015, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E016, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E018, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E019, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2E001, 0x72F2E01A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E01B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E01C, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72F2E001, 0x72F2E01D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E01E, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E01F, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72F2E001, 0x72F2E020, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F2E001, 0x72F2E021, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E022, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72F2E001, 0x72F2E023, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72F2E001, 0x72F2E024, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E025, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E026, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E027, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E028, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2E001, 0x72F2E029, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E02A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E02B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E02C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E02D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2E001, 0x72F2E02E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E02F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2E001, 0x72F2E030, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E031, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E032, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E033, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E034, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E035, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E036, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E037, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E038, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E039, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E03A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E03B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E03C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E03D, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72F2E001, 0x72F2E03E, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2E001, 0x72F2E03F, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E040, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E041, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E042, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E043, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E044, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E045, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E046, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E047, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E048, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F2E001, 0x72F2E049, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E04A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72F2E001, 0x72F2E04B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E04C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E04D, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F2E001, 0x72F2E04E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2E001, 0x72F2E04F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2E001, 0x72F2E050, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72F2E001, 0x72F2E051, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72F2E001, 0x72F2E052, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E053, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2E001, 0x72F2E054, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2E001, 0x72F2E055, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E056, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2E001, 0x72F2E057, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E058, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E059, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E05A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E05B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E05C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E05D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E05E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E05F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E060, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E061, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E062, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E064, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E065, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E066, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72F2E001, 0x72F2E067, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E068, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E069, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E06A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E06B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E06C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E06D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E06E, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2E001, 0x72F2E06F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72F2E001, 0x72F2E070, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F2E001, 0x72F2E071, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E072, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E073, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E074, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E075, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E076, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E077, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E078, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F2E001, 0x72F2E079, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E07A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E07B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E07C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E07D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E07E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E07F, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E080, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E081, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E082, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E083, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E084, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E085, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E086, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E087, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E088, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E089, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E08A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E08B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E08C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72F2E001, 0x72F2E08D, '2019-02-10 00:00:00') /* Aerbax's Shadow */
-     , (0x72F2E001, 0x72F2E08E, '2019-02-10 00:00:00') /* Elemental Protector */
-     , (0x72F2E001, 0x72F2E08F, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E090, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E091, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E092, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E093, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2E001, 0x72F2E094, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E095, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E096, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E097, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E098, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E099, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E09A, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E09B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E09C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E09D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E09E, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E09F, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E0A0, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E0A1, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E0A2, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72F2E001, 0x72F2E0A3, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F2E001, 0x72F2E0A4, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72F2E001, 0x72F2E0A5, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E0A6, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x72F2E001, 0x72F2E0A7, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E0A8, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E0A9, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E0AA, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0AB, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0AC, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E0AD, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72F2E001, 0x72F2E0AE, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0AF, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E0B0, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E0B1, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E0B2, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E0B3, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E0B4, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E0B5, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2E001, 0x72F2E0B6, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E0B7, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E0B8, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0B9, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0BA, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E0BB, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72F2E001, 0x72F2E0BC, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E0BD, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E0BE, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F2E001, 0x72F2E0BF, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E0C0, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E0C1, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E0C2, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E0C3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E0C4, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E0C5, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0C6, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0C7, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E0C8, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0C9, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F2E001, 0x72F2E0CA, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0CB, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E0CC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E0CD, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E0CE, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E0CF, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E0D0, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E0D1, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E0D2, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2E001, 0x72F2E0D3, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E0D4, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E0D5, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E0D6, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E0D7, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E0D8, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E0D9, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72F2E001, 0x72F2E0DA, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E0DB, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F2E001, 0x72F2E0DC, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2E001, 0x72F2E0DD, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E0DE, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E0DF, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E0E0, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E0E1, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E0E2, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E0E3, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2E001, 0x72F2E0E4, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72F2E001, 0x72F2E0E5, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F2E001, 0x72F2E0E6, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2E001, 0x72F2E0E7, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0E8, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E0E9, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E0EA, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F2E001, 0x72F2E0EB, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0EC, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72F2E001, 0x72F2E0ED, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E0EE, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E0EF, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0F0, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E0F1, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E0F2, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E0F3, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2E001, 0x72F2E0F4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E0F5, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E0F6, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E0F7, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F2E001, 0x72F2E0F8, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E0F9, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0FA, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E0FB, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72F2E001, 0x72F2E0FC, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F2E001, 0x72F2E0FD, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72F2E001, 0x72F2E0FE, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E0FF, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E100, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F2E001, 0x72F2E101, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E102, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E103, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E104, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2E001, 0x72F2E105, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E106, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E107, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F2E001, 0x72F2E108, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E109, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E10A, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2E001, 0x72F2E10B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F2E001, 0x72F2E10C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E10D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F2E001, 0x72F2E10E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2E001, 0x72F2E10F, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72F2E001, 0x72F2E110, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72F2E001, 0x72F2E111, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F2E001, 0x72F2E112, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2E001, 0x72F2E113, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2E001, 0x72F2E114, '2019-02-10 00:00:00') /* Drudge Protector */
-     , (0x72F2E001, 0x72F2E115, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2E001, 0x72F2E116, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2E001, 0x72F2E117, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2E001, 0x72F2E118, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2E001, 0x72F2E119, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F2E001, 0x72F2E11A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F2E001, 0x72F2E11B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2E001, 0x72F2E11C, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F2E001, 0x72F2E11D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E11E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E11F, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72F2E001, 0x72F2E120, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E121, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E122, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E123, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72F2E001, 0x72F2E124, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E125, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2E001, 0x72F2E126, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2E001, 0x72F2E127, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E128, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E129, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E12A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2E001, 0x72F2E12B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F2E001, 0x72F2E12C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2E001, 0x72F2E12D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F2E001, 0x72F2E12E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E12F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2E001, 0x72F2E130, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F2E001, 0x72F2E131, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x72F2E001, 0x72F2E002, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E004, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2E001, 0x72F2E009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E00B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E00E, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E00F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E010, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E011, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E012, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E013, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E014, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F2E001, 0x72F2E015, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E016, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E018, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E019, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2E001, 0x72F2E01A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E01B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E01C, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72F2E001, 0x72F2E01D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E01E, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E01F, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72F2E001, 0x72F2E020, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72F2E001, 0x72F2E021, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E022, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72F2E001, 0x72F2E023, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72F2E001, 0x72F2E024, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E025, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E026, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E027, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2E001, 0x72F2E028, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72F2E001, 0x72F2E029, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2E001, 0x72F2E02A, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E02B, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E02C, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E02D, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2E001, 0x72F2E02E, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2E001, 0x72F2E02F, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2E001, 0x72F2E030, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E031, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E032, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E033, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E034, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E035, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E036, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E037, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2E001, 0x72F2E038, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E039, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E03A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2E001, 0x72F2E03B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E03C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E03D, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72F2E001, 0x72F2E03E, '2019-02-10 00:00:00') /* Aerbax's Shadow (37380) */
+     , (0x72F2E001, 0x72F2E03F, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F2E001, 0x72F2E040, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E041, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E042, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E043, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E044, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E045, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E046, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E047, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E048, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F2E001, 0x72F2E049, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E04A, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72F2E001, 0x72F2E04B, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72F2E001, 0x72F2E04C, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E04D, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F2E001, 0x72F2E04E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2E001, 0x72F2E04F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2E001, 0x72F2E050, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72F2E001, 0x72F2E051, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72F2E001, 0x72F2E052, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F2E001, 0x72F2E053, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2E001, 0x72F2E054, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2E001, 0x72F2E055, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E056, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2E001, 0x72F2E057, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E058, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E059, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E05A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E05B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E05C, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2E001, 0x72F2E05D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E05E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2E001, 0x72F2E05F, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E060, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2E001, 0x72F2E061, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E062, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E064, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E065, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E066, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72F2E001, 0x72F2E067, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E068, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E069, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E06A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E06B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E06C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E06D, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E06E, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2E001, 0x72F2E06F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72F2E001, 0x72F2E070, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72F2E001, 0x72F2E071, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E072, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E073, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2E001, 0x72F2E074, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E075, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E076, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E077, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E078, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F2E001, 0x72F2E079, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E07A, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E07B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E07C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E07D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E07E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E07F, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E080, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E081, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E082, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E083, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E084, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E085, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E086, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E087, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E088, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E089, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E08A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E08B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E08C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72F2E001, 0x72F2E08D, '2019-02-10 00:00:00') /* Aerbax's Shadow (37380) */
+     , (0x72F2E001, 0x72F2E08E, '2019-02-10 00:00:00') /* Elemental Protector (36955) */
+     , (0x72F2E001, 0x72F2E08F, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2E001, 0x72F2E090, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F2E001, 0x72F2E091, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E092, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E093, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2E001, 0x72F2E094, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E095, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E096, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E097, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2E001, 0x72F2E098, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E099, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E09A, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E09B, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E09C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E09D, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2E001, 0x72F2E09E, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E09F, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2E001, 0x72F2E0A0, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E0A1, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E0A2, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72F2E001, 0x72F2E0A3, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72F2E001, 0x72F2E0A4, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72F2E001, 0x72F2E0A5, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E0A6, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x72F2E001, 0x72F2E0A7, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E0A8, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72F2E001, 0x72F2E0A9, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F2E001, 0x72F2E0AA, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0AB, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0AC, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E0AD, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72F2E001, 0x72F2E0AE, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0AF, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E0B0, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E0B1, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E0B2, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E0B3, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E0B4, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2E001, 0x72F2E0B5, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72F2E001, 0x72F2E0B6, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E0B7, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2E001, 0x72F2E0B8, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0B9, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0BA, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E0BB, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72F2E001, 0x72F2E0BC, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E0BD, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72F2E001, 0x72F2E0BE, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F2E001, 0x72F2E0BF, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E0C0, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2E001, 0x72F2E0C1, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2E001, 0x72F2E0C2, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E0C3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E0C4, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E0C5, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0C6, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0C7, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E0C8, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0C9, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F2E001, 0x72F2E0CA, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0CB, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2E001, 0x72F2E0CC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E0CD, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2E001, 0x72F2E0CE, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E0CF, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2E001, 0x72F2E0D0, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E0D1, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E0D2, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72F2E001, 0x72F2E0D3, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E0D4, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E0D5, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E0D6, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E0D7, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72F2E001, 0x72F2E0D8, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72F2E001, 0x72F2E0D9, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72F2E001, 0x72F2E0DA, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E0DB, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F2E001, 0x72F2E0DC, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2E001, 0x72F2E0DD, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E0DE, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E0DF, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E0E0, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F2E001, 0x72F2E0E1, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E0E2, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E0E3, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2E001, 0x72F2E0E4, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72F2E001, 0x72F2E0E5, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72F2E001, 0x72F2E0E6, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72F2E001, 0x72F2E0E7, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0E8, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E0E9, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E0EA, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F2E001, 0x72F2E0EB, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0EC, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72F2E001, 0x72F2E0ED, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E0EE, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F2E001, 0x72F2E0EF, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0F0, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E0F1, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E0F2, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E0F3, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72F2E001, 0x72F2E0F4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E0F5, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E0F6, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E0F7, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F2E001, 0x72F2E0F8, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E0F9, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0FA, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E0FB, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72F2E001, 0x72F2E0FC, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72F2E001, 0x72F2E0FD, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72F2E001, 0x72F2E0FE, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E0FF, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E100, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F2E001, 0x72F2E101, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E102, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E103, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E104, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2E001, 0x72F2E105, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E106, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E107, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F2E001, 0x72F2E108, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F2E001, 0x72F2E109, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F2E001, 0x72F2E10A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2E001, 0x72F2E10B, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F2E001, 0x72F2E10C, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E10D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F2E001, 0x72F2E10E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2E001, 0x72F2E10F, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72F2E001, 0x72F2E110, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72F2E001, 0x72F2E111, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F2E001, 0x72F2E112, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2E001, 0x72F2E113, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2E001, 0x72F2E114, '2019-02-10 00:00:00') /* Drudge Protector (36953) */
+     , (0x72F2E001, 0x72F2E115, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2E001, 0x72F2E116, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2E001, 0x72F2E117, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2E001, 0x72F2E118, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2E001, 0x72F2E119, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F2E001, 0x72F2E11A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72F2E001, 0x72F2E11B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2E001, 0x72F2E11C, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F2E001, 0x72F2E11D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E11E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E11F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72F2E001, 0x72F2E120, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72F2E001, 0x72F2E121, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E122, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E123, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72F2E001, 0x72F2E124, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E125, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2E001, 0x72F2E126, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2E001, 0x72F2E127, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E128, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E129, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E12A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2E001, 0x72F2E12B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F2E001, 0x72F2E12C, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2E001, 0x72F2E12D, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F2E001, 0x72F2E12E, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E12F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2E001, 0x72F2E130, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F2E001, 0x72F2E131, '2019-02-10 00:00:00') /* Virindi Consul (36861) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2E002, 10787, 0x2F2E0040, 180.5567, 168.5412, 4.0025, 0.9848127, 0, 0, -0.17362,  True, '2019-02-10 00:00:00'); /* Terebrous Hollow Minion */
@@ -1535,54 +1535,54 @@ VALUES (0x72F2E132,  1542, 0x2F2E0020, 89.93852, 168.3853, 4.505123, 1, 0, 0, 0,
 /* @teleloc 0x2F2E0020 [89.938520 168.385300 4.505123] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2E132, 0x72F2E133, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F2E132, 0x72F2E134, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F2E132, 0x72F2E135, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x72F2E132, 0x72F2E136, '2019-02-10 00:00:00') /* South Gate */
-     , (0x72F2E132, 0x72F2E137, '2019-02-10 00:00:00') /* Aerbax Beam */
-     , (0x72F2E132, 0x72F2E138, '2019-02-10 00:00:00') /* South Gate */
-     , (0x72F2E132, 0x72F2E139, '2019-02-10 00:00:00') /* South Gate */
-     , (0x72F2E132, 0x72F2E13A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72F2E132, 0x72F2E13B, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F2E132, 0x72F2E13C, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E13D, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E13E, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E13F, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E140, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E141, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E142, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E143, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E144, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E145, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E146, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E147, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E148, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E149, '2019-02-10 00:00:00') /* Aerbax Mask Shard */
-     , (0x72F2E132, 0x72F2E14A, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x72F2E132, 0x72F2E14B, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F2E132, 0x72F2E14C, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2E132, 0x72F2E14D, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F2E132, 0x72F2E14E, '2019-02-10 00:00:00') /* Big Fire */
-     , (0x72F2E132, 0x72F2E14F, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2E132, 0x72F2E150, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot */
-     , (0x72F2E132, 0x72F2E151, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot */
-     , (0x72F2E132, 0x72F2E152, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot */
-     , (0x72F2E132, 0x72F2E153, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot */
-     , (0x72F2E132, 0x72F2E154, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot */
-     , (0x72F2E132, 0x72F2E155, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E156, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E157, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x72F2E132, 0x72F2E158, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x72F2E132, 0x72F2E159, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F2E132, 0x72F2E15A, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F2E132, 0x72F2E15B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x72F2E132, 0x72F2E15C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72F2E132, 0x72F2E15D, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x72F2E132, 0x72F2E15E, '2019-02-10 00:00:00') /* Acid Sceptre */
-     , (0x72F2E132, 0x72F2E15F, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x72F2E132, 0x72F2E160, '2019-02-10 00:00:00') /* Spear */
-     , (0x72F2E132, 0x72F2E161, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x72F2E132, 0x72F2E162, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x72F2E132, 0x72F2E133, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72F2E132, 0x72F2E134, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F2E132, 0x72F2E135, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x72F2E132, 0x72F2E136, '2019-02-10 00:00:00') /* South Gate (37051) */
+     , (0x72F2E132, 0x72F2E137, '2019-02-10 00:00:00') /* Aerbax Beam (36977) */
+     , (0x72F2E132, 0x72F2E138, '2019-02-10 00:00:00') /* South Gate (37051) */
+     , (0x72F2E132, 0x72F2E139, '2019-02-10 00:00:00') /* South Gate (37051) */
+     , (0x72F2E132, 0x72F2E13A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72F2E132, 0x72F2E13B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F2E132, 0x72F2E13C, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E13D, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E13E, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E13F, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E140, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E141, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E142, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E143, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E144, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E145, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E146, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E147, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E148, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E149, '2019-02-10 00:00:00') /* Aerbax Mask Shard (37058) */
+     , (0x72F2E132, 0x72F2E14A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x72F2E132, 0x72F2E14B, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F2E132, 0x72F2E14C, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2E132, 0x72F2E14D, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F2E132, 0x72F2E14E, '2019-02-10 00:00:00') /* Big Fire (35461) */
+     , (0x72F2E132, 0x72F2E14F, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2E132, 0x72F2E150, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x72F2E132, 0x72F2E151, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x72F2E132, 0x72F2E152, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x72F2E132, 0x72F2E153, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x72F2E132, 0x72F2E154, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */
+     , (0x72F2E132, 0x72F2E155, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E156, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E157, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x72F2E132, 0x72F2E158, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x72F2E132, 0x72F2E159, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F2E132, 0x72F2E15A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F2E132, 0x72F2E15B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x72F2E132, 0x72F2E15C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72F2E132, 0x72F2E15D, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x72F2E132, 0x72F2E15E, '2019-02-10 00:00:00') /* Acid Sceptre (29259) */
+     , (0x72F2E132, 0x72F2E15F, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x72F2E132, 0x72F2E160, '2019-02-10 00:00:00') /* Spear (35569) */
+     , (0x72F2E132, 0x72F2E161, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x72F2E132, 0x72F2E162, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2E133, 22566, 0x2F2E0020, 89.93852, 168.3853, 4.505123, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

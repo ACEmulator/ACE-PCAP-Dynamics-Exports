@@ -5,32 +5,32 @@ VALUES (0x774F1001,  1154, 0x74F10025, 119.2459, 110.9526, 12.25534, 0.2588191, 
 /* @teleloc 0x74F10025 [119.245900 110.952600 12.255340] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774F1001, 0x774F1002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x774F1001, 0x774F1003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x774F1001, 0x774F1004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x774F1001, 0x774F1005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x774F1001, 0x774F1006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x774F1001, 0x774F1007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x774F1001, 0x774F1008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x774F1001, 0x774F1009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x774F1001, 0x774F100A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x774F1001, 0x774F100B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x774F1001, 0x774F100C, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x774F1001, 0x774F100D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x774F1001, 0x774F100E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x774F1001, 0x774F100F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x774F1001, 0x774F1010, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x774F1001, 0x774F1011, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x774F1001, 0x774F1012, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x774F1001, 0x774F1013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x774F1001, 0x774F1014, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x774F1001, 0x774F1015, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x774F1001, 0x774F1016, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x774F1001, 0x774F1017, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x774F1001, 0x774F1018, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x774F1001, 0x774F1019, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774F1001, 0x774F101A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774F1001, 0x774F101B, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x774F1001, 0x774F1002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x774F1001, 0x774F1003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x774F1001, 0x774F1004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x774F1001, 0x774F1005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x774F1001, 0x774F1006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x774F1001, 0x774F1007, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x774F1001, 0x774F1008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x774F1001, 0x774F1009, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x774F1001, 0x774F100A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x774F1001, 0x774F100B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x774F1001, 0x774F100C, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x774F1001, 0x774F100D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x774F1001, 0x774F100E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x774F1001, 0x774F100F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x774F1001, 0x774F1010, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x774F1001, 0x774F1011, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x774F1001, 0x774F1012, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x774F1001, 0x774F1013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x774F1001, 0x774F1014, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x774F1001, 0x774F1015, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x774F1001, 0x774F1016, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x774F1001, 0x774F1017, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x774F1001, 0x774F1018, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x774F1001, 0x774F1019, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774F1001, 0x774F101A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774F1001, 0x774F101B, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774F1002, 24287, 0x74F10025, 119.2459, 110.9526, 12.25534, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -141,7 +141,7 @@ VALUES (0x774F101C,  1542, 0x74F10025, 96.33482, 104.9816, 15.66109, 0.9238795, 
 /* @teleloc 0x74F10025 [96.334820 104.981600 15.661090] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774F101C, 0x774F101D, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x774F101C, 0x774F101D, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774F101D,  6118, 0x74F10025, 96.33482, 104.9816, 15.66109, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

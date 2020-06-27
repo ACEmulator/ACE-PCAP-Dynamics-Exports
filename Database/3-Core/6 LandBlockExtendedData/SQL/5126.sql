@@ -5,13 +5,13 @@ VALUES (0x75126001,  1154, 0x51260034, 147.6048, 72.15721, -0.45, -0.6069131, 0,
 /* @teleloc 0x51260034 [147.604800 72.157210 -0.450000] -0.606913 0.000000 0.000000 -0.794768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75126001, 0x75126002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x75126001, 0x75126003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75126001, 0x75126004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75126001, 0x75126005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75126001, 0x75126006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75126001, 0x75126007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75126001, 0x75126008, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x75126001, 0x75126002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x75126001, 0x75126003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x75126001, 0x75126004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x75126001, 0x75126005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75126001, 0x75126006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75126001, 0x75126007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75126001, 0x75126008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75126002, 23616, 0x51260034, 147.6048, 72.15721, -0.45, -0.6069131, 0, 0, -0.7947682,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

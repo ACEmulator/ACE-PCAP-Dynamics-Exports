@@ -5,28 +5,28 @@ VALUES (0x7BEC8001,  1154, 0xBEC80009, 36.54479, 9.281261, 160.1004, 0.9626052, 
 /* @teleloc 0xBEC80009 [36.544790 9.281261 160.100400] 0.962605 0.000000 0.000000 -0.270908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEC8001, 0x7BEC8002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BEC8001, 0x7BEC8003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEC8001, 0x7BEC8004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC8001, 0x7BEC8005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEC8001, 0x7BEC8006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BEC8001, 0x7BEC8007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BEC8001, 0x7BEC8008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEC8001, 0x7BEC8009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEC8001, 0x7BEC800A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7BEC8001, 0x7BEC800B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BEC8001, 0x7BEC800C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BEC8001, 0x7BEC800D, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC8001, 0x7BEC800E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BEC8001, 0x7BEC800F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BEC8001, 0x7BEC8010, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEC8001, 0x7BEC8011, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7BEC8001, 0x7BEC8012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7BEC8001, 0x7BEC8013, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7BEC8001, 0x7BEC8014, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7BEC8001, 0x7BEC8015, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BEC8001, 0x7BEC8016, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7BEC8001, 0x7BEC8017, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7BEC8001, 0x7BEC8002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BEC8001, 0x7BEC8003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEC8001, 0x7BEC8004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC8001, 0x7BEC8005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEC8001, 0x7BEC8006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BEC8001, 0x7BEC8007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BEC8001, 0x7BEC8008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEC8001, 0x7BEC8009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEC8001, 0x7BEC800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7BEC8001, 0x7BEC800B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BEC8001, 0x7BEC800C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BEC8001, 0x7BEC800D, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC8001, 0x7BEC800E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BEC8001, 0x7BEC800F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BEC8001, 0x7BEC8010, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEC8001, 0x7BEC8011, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7BEC8001, 0x7BEC8012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7BEC8001, 0x7BEC8013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7BEC8001, 0x7BEC8014, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7BEC8001, 0x7BEC8015, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BEC8001, 0x7BEC8016, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7BEC8001, 0x7BEC8017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEC8002, 14521, 0xBEC80009, 36.54479, 9.281261, 160.1004, 0.9626052, 0, 0, -0.2709083,  True, '2019-02-10 00:00:00'); /* Glacial Golem */

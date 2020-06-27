@@ -5,25 +5,25 @@ VALUES (0x773DA001,  1154, 0x73DA002F, 129.3467, 146.4615, 263.1637, 1, 0, 0, 0,
 /* @teleloc 0x73DA002F [129.346700 146.461500 263.163700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773DA001, 0x773DA002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x773DA001, 0x773DA004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x773DA001, 0x773DA005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x773DA001, 0x773DA007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x773DA001, 0x773DA00A, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x773DA001, 0x773DA00B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x773DA001, 0x773DA00C, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x773DA001, 0x773DA00D, '2019-02-10 00:00:00') /* Gelid */
-     , (0x773DA001, 0x773DA00E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA00F, '2019-02-10 00:00:00') /* Frost */
-     , (0x773DA001, 0x773DA010, '2019-02-10 00:00:00') /* Frost */
-     , (0x773DA001, 0x773DA011, '2019-02-10 00:00:00') /* Flamma */
-     , (0x773DA001, 0x773DA012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773DA001, 0x773DA013, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773DA001, 0x773DA014, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x773DA001, 0x773DA002, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x773DA001, 0x773DA004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x773DA001, 0x773DA005, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x773DA001, 0x773DA007, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA008, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x773DA001, 0x773DA00A, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x773DA001, 0x773DA00B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x773DA001, 0x773DA00C, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x773DA001, 0x773DA00D, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x773DA001, 0x773DA00E, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA00F, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x773DA001, 0x773DA010, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x773DA001, 0x773DA011, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x773DA001, 0x773DA012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773DA001, 0x773DA013, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773DA001, 0x773DA014, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773DA002,  8405, 0x73DA002F, 129.3467, 146.4615, 263.1637, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Flamma */

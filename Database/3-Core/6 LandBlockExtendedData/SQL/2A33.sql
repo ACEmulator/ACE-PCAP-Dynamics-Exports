@@ -5,9 +5,9 @@ VALUES (0x72A33001,  1154, 0x2A33001C, 95.99757, 84.21839, 76.029, -0.5886773, 0
 /* @teleloc 0x2A33001C [95.997570 84.218390 76.029000] -0.588677 0.000000 0.000000 -0.808368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A33001, 0x72A33002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72A33001, 0x72A33003, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A33001, 0x72A33004, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72A33001, 0x72A33002, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72A33001, 0x72A33003, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A33001, 0x72A33004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A33002, 36861, 0x2A33001C, 95.99757, 84.21839, 76.029, -0.5886773, 0, 0, -0.8083681,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

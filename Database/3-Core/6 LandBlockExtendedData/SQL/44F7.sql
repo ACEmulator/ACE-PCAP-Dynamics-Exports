@@ -5,28 +5,28 @@ VALUES (0x744F7001,  1154, 0x44F7000F, 24.82173, 161.5833, 107.2645, -0.7135705,
 /* @teleloc 0x44F7000F [24.821730 161.583300 107.264500] -0.713571 0.000000 0.000000 -0.700583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744F7001, 0x744F7002, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x744F7001, 0x744F7003, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x744F7001, 0x744F7004, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x744F7001, 0x744F7005, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x744F7001, 0x744F7006, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x744F7001, 0x744F7007, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x744F7001, 0x744F7008, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x744F7001, 0x744F7009, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x744F7001, 0x744F700A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x744F7001, 0x744F700B, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x744F7001, 0x744F700C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x744F7001, 0x744F700D, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x744F7001, 0x744F700E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x744F7001, 0x744F700F, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x744F7001, 0x744F7010, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x744F7001, 0x744F7011, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x744F7001, 0x744F7012, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x744F7001, 0x744F7013, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x744F7001, 0x744F7014, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x744F7001, 0x744F7015, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x744F7001, 0x744F7016, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x744F7001, 0x744F7017, '2019-02-10 00:00:00') /* Frenzied Fiun */;
+VALUES (0x744F7001, 0x744F7002, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x744F7001, 0x744F7003, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x744F7001, 0x744F7004, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x744F7001, 0x744F7005, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x744F7001, 0x744F7006, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x744F7001, 0x744F7007, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x744F7001, 0x744F7008, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x744F7001, 0x744F7009, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x744F7001, 0x744F700A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x744F7001, 0x744F700B, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x744F7001, 0x744F700C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x744F7001, 0x744F700D, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x744F7001, 0x744F700E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x744F7001, 0x744F700F, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x744F7001, 0x744F7010, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x744F7001, 0x744F7011, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x744F7001, 0x744F7012, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x744F7001, 0x744F7013, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x744F7001, 0x744F7014, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x744F7001, 0x744F7015, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x744F7001, 0x744F7016, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x744F7001, 0x744F7017, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F7002, 29342, 0x44F7000F, 24.82173, 161.5833, 107.2645, -0.7135705, 0, 0, -0.7005833,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */
@@ -121,7 +121,7 @@ VALUES (0x744F7018,  1542, 0x44F70034, 154.4136, 72.79112, 106.9344, 0.7345793, 
 /* @teleloc 0x44F70034 [154.413600 72.791120 106.934400] 0.734579 0.000000 0.000000 -0.678523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744F7018, 0x744F7019, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x744F7018, 0x744F7019, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F7019, 31032, 0x44F70034, 154.4136, 72.79112, 106.9344, 0.7345793, 0, 0, -0.6785229,  True, '2019-02-10 00:00:00'); /* Snow Lily */

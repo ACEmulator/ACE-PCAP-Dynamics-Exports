@@ -5,14 +5,14 @@ VALUES (0x78DE9001,  1154, 0x8DE9000C, 40.51624, 74.33964, 31.80958, -0.8609013,
 /* @teleloc 0x8DE9000C [40.516240 74.339640 31.809580] -0.860901 0.000000 0.000000 -0.508772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DE9001, 0x78DE9002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78DE9001, 0x78DE9003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78DE9001, 0x78DE9004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE9001, 0x78DE9005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE9001, 0x78DE9006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78DE9001, 0x78DE9007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE9001, 0x78DE9008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x78DE9001, 0x78DE9009, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x78DE9001, 0x78DE9002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78DE9001, 0x78DE9003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78DE9001, 0x78DE9004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE9001, 0x78DE9005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE9001, 0x78DE9006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78DE9001, 0x78DE9007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE9001, 0x78DE9008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x78DE9001, 0x78DE9009, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DE9002,  7090, 0x8DE9000C, 40.51624, 74.33964, 31.80958, -0.8609013, 0, 0, -0.5087721,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -51,7 +51,7 @@ VALUES (0x78DE900A,  1542, 0x8DE90006, 12.84598, 134.8318, 29.57505, 0.9990482, 
 /* @teleloc 0x8DE90006 [12.845980 134.831800 29.575050] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DE900A, 0x78DE900B, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x78DE900A, 0x78DE900B, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DE900B,  6117, 0x8DE90006, 12.84598, 134.8318, 29.57505, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

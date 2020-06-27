@@ -5,16 +5,16 @@ VALUES (0x7EE74001,  1154, 0xEE740001, 9.100109, 15.47115, -0.08679986, 0.238980
 /* @teleloc 0xEE740001 [9.100109 15.471150 -0.086800] 0.238981 0.000000 0.000000 -0.971024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE74001, 0x7EE74002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7EE74001, 0x7EE74003, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE74001, 0x7EE74004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE74001, 0x7EE74005, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EE74001, 0x7EE74006, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EE74001, 0x7EE74007, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EE74001, 0x7EE74008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE74001, 0x7EE74009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE74001, 0x7EE7400A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EE74001, 0x7EE7400B, '2019-02-10 00:00:00') /* Obsidian Chittick */;
+VALUES (0x7EE74001, 0x7EE74002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7EE74001, 0x7EE74003, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE74001, 0x7EE74004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE74001, 0x7EE74005, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EE74001, 0x7EE74006, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EE74001, 0x7EE74007, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EE74001, 0x7EE74008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE74001, 0x7EE74009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE74001, 0x7EE7400A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EE74001, 0x7EE7400B, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE74002, 11541, 0xEE740001, 9.100109, 15.47115, -0.08679986, 0.2389807, 0, 0, -0.9710243,  True, '2019-02-10 00:00:00'); /* Plated Tusker */

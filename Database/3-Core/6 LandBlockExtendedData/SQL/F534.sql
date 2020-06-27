@@ -5,16 +5,16 @@ VALUES (0x7F534001,  1154, 0xF5340036, 145.364, 129.3424, -0.895, 0.5440369, 0, 
 /* @teleloc 0xF5340036 [145.364000 129.342400 -0.895000] 0.544037 0.000000 0.000000 -0.839061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F534001, 0x7F534002, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F534001, 0x7F534003, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F534001, 0x7F534004, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F534001, 0x7F534005, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F534001, 0x7F534006, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F534001, 0x7F534007, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F534001, 0x7F534008, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F534001, 0x7F534009, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F534001, 0x7F53400A, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F534001, 0x7F53400B, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7F534001, 0x7F534002, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F534001, 0x7F534003, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F534001, 0x7F534004, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F534001, 0x7F534005, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F534001, 0x7F534006, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F534001, 0x7F534007, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F534001, 0x7F534008, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F534001, 0x7F534009, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F534001, 0x7F53400A, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F534001, 0x7F53400B, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F534002, 40297, 0xF5340036, 145.364, 129.3424, -0.895, 0.5440369, 0, 0, -0.8390613,  True, '2019-02-10 00:00:00'); /* Bandit Mana Hunter */

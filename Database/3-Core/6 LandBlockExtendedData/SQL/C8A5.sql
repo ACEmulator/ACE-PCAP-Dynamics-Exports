@@ -5,21 +5,21 @@ VALUES (0x7C8A5001,  1154, 0xC8A50014, 55.49541, 86.18111, 36.63462, -0.9264991,
 /* @teleloc 0xC8A50014 [55.495410 86.181110 36.634620] -0.926499 0.000000 0.000000 -0.376297 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8A5001, 0x7C8A5002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7C8A5001, 0x7C8A5003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C8A5001, 0x7C8A5004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C8A5001, 0x7C8A5005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C8A5001, 0x7C8A5006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C8A5001, 0x7C8A5007, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C8A5001, 0x7C8A5008, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7C8A5001, 0x7C8A5009, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C8A5001, 0x7C8A500A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8A5001, 0x7C8A500B, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7C8A5001, 0x7C8A500C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C8A5001, 0x7C8A500D, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C8A5001, 0x7C8A500E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A5001, 0x7C8A500F, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C8A5001, 0x7C8A5010, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7C8A5001, 0x7C8A5002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7C8A5001, 0x7C8A5003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C8A5001, 0x7C8A5004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C8A5001, 0x7C8A5005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C8A5001, 0x7C8A5006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C8A5001, 0x7C8A5007, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C8A5001, 0x7C8A5008, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7C8A5001, 0x7C8A5009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C8A5001, 0x7C8A500A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8A5001, 0x7C8A500B, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7C8A5001, 0x7C8A500C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C8A5001, 0x7C8A500D, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C8A5001, 0x7C8A500E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A5001, 0x7C8A500F, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C8A5001, 0x7C8A5010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8A5002, 11531, 0xC8A50014, 55.49541, 86.18111, 36.63462, -0.9264991, 0, 0, -0.376297,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -86,8 +86,8 @@ VALUES (0x7C8A5011,  1542, 0xC8A50028, 102.1834, 181.7084, 43.29575, 1, 0, 0, 0,
 /* @teleloc 0xC8A50028 [102.183400 181.708400 43.295750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8A5011, 0x7C8A5012, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C8A5011, 0x7C8A5013, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7C8A5011, 0x7C8A5012, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C8A5011, 0x7C8A5013, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8A5012,  8232, 0xC8A50028, 102.1834, 181.7084, 43.29575, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

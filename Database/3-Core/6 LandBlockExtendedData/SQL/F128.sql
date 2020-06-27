@@ -9,30 +9,30 @@ VALUES (0x7F12800A,  1154, 0xF1280101, 131.944, 33.3635, 20.0066, -0.993879, 0, 
 /* @teleloc 0xF1280101 [131.944000 33.363500 20.006600] -0.993879 0.000000 0.000000 0.110473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F12800A, 0x7F12800B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F12800A, 0x7F12800C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F12800D, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F12800E, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F12800F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F128010, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F128011, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F12800A, 0x7F128012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F12800A, 0x7F128013, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F12800A, 0x7F128014, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F12800A, 0x7F128015, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F12800A, 0x7F128016, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F12800A, 0x7F128017, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F128018, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F128019, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F12801A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F12801B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F12801C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F12801D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F12800A, 0x7F12801E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F12800A, 0x7F12801F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F12800A, 0x7F128020, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F12800A, 0x7F128021, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F12800A, 0x7F128022, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F12800A, 0x7F12800B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F12800A, 0x7F12800C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F12800D, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F12800E, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F12800F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F128010, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F128011, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F12800A, 0x7F128012, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F12800A, 0x7F128013, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F12800A, 0x7F128014, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F12800A, 0x7F128015, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F12800A, 0x7F128016, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F12800A, 0x7F128017, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F128018, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F128019, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F12801A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F12801B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F12801C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F12801D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F12800A, 0x7F12801E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F12800A, 0x7F12801F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F12800A, 0x7F128020, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F12800A, 0x7F128021, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F12800A, 0x7F128022, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F12800B,  7102, 0xF1280101, 131.944, 33.3635, 20.0066, -0.993879, 0, 0, 0.110473,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -135,8 +135,8 @@ VALUES (0x7F128023,  1542, 0xF1280024, 110.676, 94.00411, 9.505204, 0.9990482, 0
 /* @teleloc 0xF1280024 [110.676000 94.004110 9.505204] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F128023, 0x7F128024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F128023, 0x7F128025, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F128023, 0x7F128024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F128023, 0x7F128025, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F128024,  4179, 0xF1280024, 110.676, 94.00411, 9.505204, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

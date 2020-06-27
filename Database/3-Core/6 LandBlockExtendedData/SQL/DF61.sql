@@ -41,63 +41,63 @@ VALUES (0x7DF610E8,  1154, 0xDF61010F, 79.7647, 33.3544, 26.3594, -0.916362, 0, 
 /* @teleloc 0xDF61010F [79.764700 33.354400 26.359400] -0.916362 0.000000 0.000000 -0.400350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF610E8, 0x7DF610E9, '2019-02-10 00:00:00') /* Spinning Wheel */
-     , (0x7DF610E8, 0x7DF610EA, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF610EB, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF610EC, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF610E8, 0x7DF610ED, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF610EE, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF610E8, 0x7DF610EF, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F0, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F1, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F2, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F3, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F4, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F5, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F6, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610F7, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7DF610E8, 0x7DF610F8, '2019-02-10 00:00:00') /* Baron Nuvillus */
-     , (0x7DF610E8, 0x7DF610F9, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610FA, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610FB, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF610FC, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF610FD, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610FE, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF610FF, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7DF610E8, 0x7DF61100, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7DF610E8, 0x7DF61101, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7DF610E8, 0x7DF61102, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF61103, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF61104, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF61105, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF61106, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF61107, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7DF610E8, 0x7DF61108, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF610E8, 0x7DF61109, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF6110A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF6110B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF6110C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF610E8, 0x7DF6110D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF610E8, 0x7DF6110E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DF610E8, 0x7DF6110F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7DF610E8, 0x7DF61110, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DF610E8, 0x7DF61111, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF610E8, 0x7DF61112, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF61113, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF61114, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF61115, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF61116, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DF610E8, 0x7DF61117, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7DF610E8, 0x7DF61118, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7DF610E8, 0x7DF61119, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7DF610E8, 0x7DF6111A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DF610E8, 0x7DF6111B, '2019-02-10 00:00:00') /* Mox */
-     , (0x7DF610E8, 0x7DF6111C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF610E8, 0x7DF6111D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7DF610E8, 0x7DF6111E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7DF610E8, 0x7DF6111F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF610E8, 0x7DF61120, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7DF610E8, 0x7DF61121, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7DF610E8, 0x7DF610E9, '2019-02-10 00:00:00') /* Spinning Wheel (19129) */
+     , (0x7DF610E8, 0x7DF610EA, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF610EB, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF610EC, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF610E8, 0x7DF610ED, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF610EE, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF610E8, 0x7DF610EF, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F0, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F1, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F2, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F3, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F4, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F5, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F6, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610F7, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7DF610E8, 0x7DF610F8, '2019-02-10 00:00:00') /* Baron Nuvillus (26005) */
+     , (0x7DF610E8, 0x7DF610F9, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610FA, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610FB, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF610FC, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF610FD, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610FE, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF610FF, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7DF610E8, 0x7DF61100, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7DF610E8, 0x7DF61101, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7DF610E8, 0x7DF61102, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF61103, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF61104, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF61105, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF61106, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF61107, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7DF610E8, 0x7DF61108, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF610E8, 0x7DF61109, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF6110A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF6110B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF6110C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF610E8, 0x7DF6110D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF610E8, 0x7DF6110E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DF610E8, 0x7DF6110F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7DF610E8, 0x7DF61110, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DF610E8, 0x7DF61111, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF610E8, 0x7DF61112, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF61113, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF61114, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF61115, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF61116, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DF610E8, 0x7DF61117, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7DF610E8, 0x7DF61118, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DF610E8, 0x7DF61119, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7DF610E8, 0x7DF6111A, '2019-02-10 00:00:00') /* Skeleton Lord (7822) */
+     , (0x7DF610E8, 0x7DF6111B, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7DF610E8, 0x7DF6111C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF610E8, 0x7DF6111D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7DF610E8, 0x7DF6111E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7DF610E8, 0x7DF6111F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF610E8, 0x7DF61120, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7DF610E8, 0x7DF61121, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF610E9, 19129, 0xDF61010F, 79.7647, 33.3544, 26.3594, -0.916362, 0, 0, -0.40035,  True, '2019-02-10 00:00:00'); /* Spinning Wheel */
@@ -332,27 +332,27 @@ VALUES (0x7DF61122,  1542, 0xDF610124, 76.41011, 12.83352, 19.2221, -0.209052, 0
 /* @teleloc 0xDF610124 [76.410110 12.833520 19.222100] -0.209052 0.000000 0.000000 0.977905 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF61122, 0x7DF61123, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61124, '2019-02-10 00:00:00') /* Ring */
-     , (0x7DF61122, 0x7DF61125, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7DF61122, 0x7DF61126, '2019-02-10 00:00:00') /* Royal Cabbage */
-     , (0x7DF61122, 0x7DF61127, '2019-02-10 00:00:00') /* Ring */
-     , (0x7DF61122, 0x7DF61128, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7DF61122, 0x7DF61129, '2019-02-10 00:00:00') /* Idol */
-     , (0x7DF61122, 0x7DF6112A, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x7DF61122, 0x7DF6112B, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF6112C, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF6112D, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7DF61122, 0x7DF6112E, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF6112F, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61130, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61131, '2019-02-10 00:00:00') /* Baggy Pants */
-     , (0x7DF61122, 0x7DF61132, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61133, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61134, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61135, '2019-02-10 00:00:00') /* Poet's Shirt */
-     , (0x7DF61122, 0x7DF61136, '2019-02-10 00:00:00') /* Gem */
-     , (0x7DF61122, 0x7DF61137, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7DF61122, 0x7DF61123, '2019-02-10 00:00:00') /* Gem (2432) */
+     , (0x7DF61122, 0x7DF61124, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7DF61122, 0x7DF61125, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7DF61122, 0x7DF61126, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */
+     , (0x7DF61122, 0x7DF61127, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7DF61122, 0x7DF61128, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7DF61122, 0x7DF61129, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7DF61122, 0x7DF6112A, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x7DF61122, 0x7DF6112B, '2019-02-10 00:00:00') /* Gem (2427) */
+     , (0x7DF61122, 0x7DF6112C, '2019-02-10 00:00:00') /* Gem (2433) */
+     , (0x7DF61122, 0x7DF6112D, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7DF61122, 0x7DF6112E, '2019-02-10 00:00:00') /* Gem (2401) */
+     , (0x7DF61122, 0x7DF6112F, '2019-02-10 00:00:00') /* Gem (2429) */
+     , (0x7DF61122, 0x7DF61130, '2019-02-10 00:00:00') /* Gem (2398) */
+     , (0x7DF61122, 0x7DF61131, '2019-02-10 00:00:00') /* Baggy Pants (2598) */
+     , (0x7DF61122, 0x7DF61132, '2019-02-10 00:00:00') /* Gem (2417) */
+     , (0x7DF61122, 0x7DF61133, '2019-02-10 00:00:00') /* Gem (2415) */
+     , (0x7DF61122, 0x7DF61134, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x7DF61122, 0x7DF61135, '2019-02-10 00:00:00') /* Poet's Shirt (28608) */
+     , (0x7DF61122, 0x7DF61136, '2019-02-10 00:00:00') /* Gem (2406) */
+     , (0x7DF61122, 0x7DF61137, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF61123,  2432, 0xDF610124, 76.41011, 12.83352, 19.2221, -0.209052, 0, 0, 0.977905,  True, '2019-02-10 00:00:00'); /* Gem */

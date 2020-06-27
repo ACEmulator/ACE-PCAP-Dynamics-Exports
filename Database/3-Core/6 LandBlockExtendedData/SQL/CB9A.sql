@@ -5,14 +5,14 @@ VALUES (0x7CB9A001,  1154, 0xCB9A0006, 3.285645, 141.8159, 10.3709, -0.9671574, 
 /* @teleloc 0xCB9A0006 [3.285645 141.815900 10.370900] -0.967157 0.000000 0.000000 -0.254178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9A001, 0x7CB9A002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CB9A001, 0x7CB9A003, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7CB9A001, 0x7CB9A004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB9A001, 0x7CB9A005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CB9A001, 0x7CB9A006, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CB9A001, 0x7CB9A007, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CB9A001, 0x7CB9A008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CB9A001, 0x7CB9A009, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7CB9A001, 0x7CB9A002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CB9A001, 0x7CB9A003, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7CB9A001, 0x7CB9A004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB9A001, 0x7CB9A005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CB9A001, 0x7CB9A006, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CB9A001, 0x7CB9A007, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CB9A001, 0x7CB9A008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CB9A001, 0x7CB9A009, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9A002,  7345, 0xCB9A0006, 3.285645, 141.8159, 10.3709, -0.9671574, 0, 0, -0.2541783,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -51,9 +51,9 @@ VALUES (0x7CB9A00A,  1542, 0xCB9A003C, 178.8209, 81.78374, 10.12849, 1, 0, 0, 0,
 /* @teleloc 0xCB9A003C [178.820900 81.783740 10.128490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9A00A, 0x7CB9A00B, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CB9A00A, 0x7CB9A00C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CB9A00A, 0x7CB9A00D, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CB9A00A, 0x7CB9A00B, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CB9A00A, 0x7CB9A00C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CB9A00A, 0x7CB9A00D, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9A00B,  8232, 0xCB9A003C, 178.8209, 81.78374, 10.12849, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

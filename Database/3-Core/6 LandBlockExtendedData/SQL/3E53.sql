@@ -5,14 +5,14 @@ VALUES (0x73E53001,  1154, 0x3E530027, 110.789, 145.3204, 52.33166, -0.972338, 0
 /* @teleloc 0x3E530027 [110.789000 145.320400 52.331660] -0.972338 0.000000 0.000000 -0.233578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E53001, 0x73E53002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E53001, 0x73E53003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73E53001, 0x73E53004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73E53001, 0x73E53005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E53001, 0x73E53006, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x73E53001, 0x73E53007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E53001, 0x73E53008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E53001, 0x73E53009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73E53001, 0x73E53002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E53001, 0x73E53003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73E53001, 0x73E53004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73E53001, 0x73E53005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E53001, 0x73E53006, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x73E53001, 0x73E53007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73E53001, 0x73E53008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73E53001, 0x73E53009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E53002, 41535, 0x3E530027, 110.789, 145.3204, 52.33166, -0.972338, 0, 0, -0.2335782,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

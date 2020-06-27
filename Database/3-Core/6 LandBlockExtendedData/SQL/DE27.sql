@@ -5,38 +5,38 @@ VALUES (0x7DE27001,  1154, 0xDE270002, 18.72675, 46.44172, -0.89175, 0.4368321, 
 /* @teleloc 0xDE270002 [18.726750 46.441720 -0.891750] 0.436832 0.000000 0.000000 -0.899543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE27001, 0x7DE27002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DE27001, 0x7DE27003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE27001, 0x7DE27004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DE27001, 0x7DE27005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE27001, 0x7DE27006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE27001, 0x7DE27007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE27001, 0x7DE27008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE27001, 0x7DE27009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE27001, 0x7DE2700A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE27001, 0x7DE2700B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DE27001, 0x7DE2700C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2700D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2700E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2700F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DE27001, 0x7DE27010, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE27001, 0x7DE27011, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE27001, 0x7DE27012, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE27001, 0x7DE27013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE27001, 0x7DE27014, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DE27001, 0x7DE27015, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DE27001, 0x7DE27016, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DE27001, 0x7DE27017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DE27001, 0x7DE27018, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DE27001, 0x7DE27019, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7DE27001, 0x7DE2701A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7DE27001, 0x7DE2701B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DE27001, 0x7DE2701C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2701D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2701E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DE27001, 0x7DE2701F, '2019-02-10 00:00:00') /* Banished Tumerok */
-     , (0x7DE27001, 0x7DE27020, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7DE27001, 0x7DE27021, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7DE27001, 0x7DE27002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DE27001, 0x7DE27003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE27001, 0x7DE27004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DE27001, 0x7DE27005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DE27001, 0x7DE27006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DE27001, 0x7DE27007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7DE27001, 0x7DE27008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE27001, 0x7DE27009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE27001, 0x7DE2700A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE27001, 0x7DE2700B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DE27001, 0x7DE2700C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE27001, 0x7DE2700D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE27001, 0x7DE2700E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE27001, 0x7DE2700F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DE27001, 0x7DE27010, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE27001, 0x7DE27011, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE27001, 0x7DE27012, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE27001, 0x7DE27013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DE27001, 0x7DE27014, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DE27001, 0x7DE27015, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DE27001, 0x7DE27016, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DE27001, 0x7DE27017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DE27001, 0x7DE27018, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DE27001, 0x7DE27019, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7DE27001, 0x7DE2701A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7DE27001, 0x7DE2701B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DE27001, 0x7DE2701C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DE27001, 0x7DE2701D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DE27001, 0x7DE2701E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DE27001, 0x7DE2701F, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x7DE27001, 0x7DE27020, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7DE27001, 0x7DE27021, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE27002,   619, 0xDE270002, 18.72675, 46.44172, -0.89175, 0.4368321, 0, 0, -0.899543,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -171,13 +171,13 @@ VALUES (0x7DE27022,  1542, 0xDE270034, 153.3121, 81.09809, 1, 1, 0, 0, 0, False,
 /* @teleloc 0xDE270034 [153.312100 81.098090 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE27022, 0x7DE27023, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7DE27022, 0x7DE27024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7DE27022, 0x7DE27025, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7DE27022, 0x7DE27026, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7DE27022, 0x7DE27027, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7DE27022, 0x7DE27028, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7DE27022, 0x7DE27029, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DE27022, 0x7DE27023, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7DE27022, 0x7DE27024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7DE27022, 0x7DE27025, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7DE27022, 0x7DE27026, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7DE27022, 0x7DE27027, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7DE27022, 0x7DE27028, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7DE27022, 0x7DE27029, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE27023,  9024, 0xDE270034, 153.3121, 81.09809, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

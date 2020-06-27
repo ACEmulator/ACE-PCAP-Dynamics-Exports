@@ -5,13 +5,13 @@ VALUES (0x7A363001,  1154, 0xA363001D, 72.20922, 113.6916, 26.01157, 0.9238795, 
 /* @teleloc 0xA363001D [72.209220 113.691600 26.011570] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A363001, 0x7A363002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A363001, 0x7A363003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A363001, 0x7A363004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A363001, 0x7A363005, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A363001, 0x7A363006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A363001, 0x7A363007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7A363001, 0x7A363008, '2019-02-10 00:00:00') /* Drudge Slave */;
+VALUES (0x7A363001, 0x7A363002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A363001, 0x7A363003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A363001, 0x7A363004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A363001, 0x7A363005, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A363001, 0x7A363006, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A363001, 0x7A363007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7A363001, 0x7A363008, '2019-02-10 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A363002, 10770, 0xA363001D, 72.20922, 113.6916, 26.01157, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

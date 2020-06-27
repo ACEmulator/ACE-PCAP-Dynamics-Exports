@@ -5,20 +5,20 @@ VALUES (0x7ED26001,  1154, 0xED260001, 7.297667, 16.10628, 25.42383, 0.9537169, 
 /* @teleloc 0xED260001 [7.297667 16.106280 25.423830] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED26001, 0x7ED26002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED26001, 0x7ED26003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7ED26001, 0x7ED26004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED26001, 0x7ED26005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED26001, 0x7ED26006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED26001, 0x7ED26007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED26001, 0x7ED26008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED26001, 0x7ED26009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED26001, 0x7ED2600A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ED26001, 0x7ED2600B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED26001, 0x7ED2600C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED26001, 0x7ED2600D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED26001, 0x7ED2600E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED26001, 0x7ED2600F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7ED26001, 0x7ED26002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED26001, 0x7ED26003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7ED26001, 0x7ED26004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED26001, 0x7ED26005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED26001, 0x7ED26006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED26001, 0x7ED26007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED26001, 0x7ED26008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED26001, 0x7ED26009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED26001, 0x7ED2600A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ED26001, 0x7ED2600B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED26001, 0x7ED2600C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED26001, 0x7ED2600D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED26001, 0x7ED2600E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED26001, 0x7ED2600F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED26002,  4247, 0xED260001, 7.297667, 16.10628, 25.42383, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -81,8 +81,8 @@ VALUES (0x7ED26010,  1542, 0xED260001, 6.808884, 18.89216, 26.6976, 0.9990482, 0
 /* @teleloc 0xED260001 [6.808884 18.892160 26.697600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED26010, 0x7ED26011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ED26010, 0x7ED26012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ED26010, 0x7ED26011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ED26010, 0x7ED26012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED26011,  4179, 0xED260001, 6.808884, 18.89216, 26.6976, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

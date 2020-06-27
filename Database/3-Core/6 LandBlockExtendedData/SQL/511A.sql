@@ -5,21 +5,21 @@ VALUES (0x7511A001,  1154, 0x511A0002, 7.509126, 41.16716, 39.02159, 0.323171, 0
 /* @teleloc 0x511A0002 [7.509126 41.167160 39.021590] 0.323171 0.000000 0.000000 -0.946341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7511A001, 0x7511A002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7511A001, 0x7511A003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7511A001, 0x7511A004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7511A001, 0x7511A005, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7511A001, 0x7511A006, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7511A001, 0x7511A007, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A008, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A00A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A00B, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A00C, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7511A001, 0x7511A00D, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7511A001, 0x7511A00E, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7511A001, 0x7511A00F, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7511A001, 0x7511A010, '2019-02-10 00:00:00') /* Auroch Fire Cow */;
+VALUES (0x7511A001, 0x7511A002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7511A001, 0x7511A003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A001, 0x7511A004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A001, 0x7511A005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A001, 0x7511A006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A001, 0x7511A007, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A00A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A00B, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A00C, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A00D, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A00E, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A00F, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A010, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7511A002,   233, 0x511A0002, 7.509126, 41.16716, 39.02159, 0.323171, 0, 0, -0.9463406,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */

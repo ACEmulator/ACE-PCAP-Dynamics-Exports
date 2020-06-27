@@ -5,18 +5,18 @@ VALUES (0x7BBA2001,  1154, 0xBBA20019, 79.26172, 11.49106, 1.1004, 0.9268959, 0,
 /* @teleloc 0xBBA20019 [79.261720 11.491060 1.100400] 0.926896 0.000000 0.000000 -0.375319 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA2001, 0x7BBA2002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BBA2001, 0x7BBA2003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BBA2001, 0x7BBA2004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BBA2001, 0x7BBA2005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BBA2001, 0x7BBA2006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BBA2001, 0x7BBA2007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BBA2001, 0x7BBA2008, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BBA2001, 0x7BBA2009, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BBA2001, 0x7BBA200A, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BBA2001, 0x7BBA200B, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BBA2001, 0x7BBA200C, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BBA2001, 0x7BBA200D, '2019-02-10 00:00:00') /* Shallows Shark */;
+VALUES (0x7BBA2001, 0x7BBA2002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BBA2001, 0x7BBA2003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BBA2001, 0x7BBA2004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BBA2001, 0x7BBA2005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BBA2001, 0x7BBA2006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BBA2001, 0x7BBA2007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BBA2001, 0x7BBA2008, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BBA2001, 0x7BBA2009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BBA2001, 0x7BBA200A, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BBA2001, 0x7BBA200B, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BBA2001, 0x7BBA200C, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BBA2001, 0x7BBA200D, '2019-02-10 00:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA2002,  7986, 0xBBA20019, 79.26172, 11.49106, 1.1004, 0.9268959, 0, 0, -0.3753185,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
@@ -71,7 +71,7 @@ VALUES (0x7BBA200E,  1542, 0xBBA20007, 19.72809, 148.0275, 1.1, 0.506646, 0, 0, 
 /* @teleloc 0xBBA20007 [19.728090 148.027500 1.100000] 0.506646 0.000000 0.000000 -0.862154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA200E, 0x7BBA200F, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BBA200E, 0x7BBA200F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA200F,  8644, 0xBBA20007, 19.72809, 148.0275, 1.1, 0.506646, 0, 0, -0.8621541,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

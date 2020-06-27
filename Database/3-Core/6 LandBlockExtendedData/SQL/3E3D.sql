@@ -5,22 +5,22 @@ VALUES (0x73E3D001,  1154, 0x3E3D0018, 68.61694, 180.049, 13.73449, 0.7071068, 0
 /* @teleloc 0x3E3D0018 [68.616940 180.049000 13.734490] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E3D001, 0x73E3D002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E3D001, 0x73E3D003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73E3D001, 0x73E3D004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73E3D001, 0x73E3D005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73E3D001, 0x73E3D006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73E3D001, 0x73E3D007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73E3D001, 0x73E3D008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73E3D001, 0x73E3D009, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73E3D001, 0x73E3D00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E3D001, 0x73E3D00B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73E3D001, 0x73E3D00C, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73E3D001, 0x73E3D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E3D001, 0x73E3D00E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73E3D001, 0x73E3D00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73E3D001, 0x73E3D010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73E3D001, 0x73E3D011, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73E3D001, 0x73E3D002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E3D001, 0x73E3D003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73E3D001, 0x73E3D004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73E3D001, 0x73E3D005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73E3D001, 0x73E3D006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73E3D001, 0x73E3D007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73E3D001, 0x73E3D008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73E3D001, 0x73E3D009, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73E3D001, 0x73E3D00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E3D001, 0x73E3D00B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73E3D001, 0x73E3D00C, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73E3D001, 0x73E3D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E3D001, 0x73E3D00E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73E3D001, 0x73E3D00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73E3D001, 0x73E3D010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73E3D001, 0x73E3D011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3D002, 24319, 0x3E3D0018, 68.61694, 180.049, 13.73449, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -91,7 +91,7 @@ VALUES (0x73E3D012,  1542, 0x3E3D0017, 64.22262, 159.2018, 9.237411, 1, 0, 0, 0,
 /* @teleloc 0x3E3D0017 [64.222620 159.201800 9.237411] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E3D012, 0x73E3D013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73E3D012, 0x73E3D013, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3D013, 22567, 0x3E3D0017, 64.22262, 159.2018, 9.237411, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x71D51001,  1154, 0x1D510014, 65.67424, 85.05584, 153.6197, 0.9238795, 
 /* @teleloc 0x1D510014 [65.674240 85.055840 153.619700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D51001, 0x71D51002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71D51001, 0x71D51003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71D51001, 0x71D51004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71D51001, 0x71D51005, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71D51001, 0x71D51002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71D51001, 0x71D51003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71D51001, 0x71D51004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71D51001, 0x71D51005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D51002, 36822, 0x1D510014, 65.67424, 85.05584, 153.6197, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -31,7 +31,7 @@ VALUES (0x71D51006,  1542, 0x1D510014, 62.71351, 86.71539, 154.0002, 1, 0, 0, 0,
 /* @teleloc 0x1D510014 [62.713510 86.715390 154.000200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D51006, 0x71D51007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71D51006, 0x71D51007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D51007,  4179, 0x1D510014, 62.71351, 86.71539, 154.0002, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

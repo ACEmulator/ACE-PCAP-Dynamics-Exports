@@ -5,21 +5,21 @@ VALUES (0x7E621001,  1154, 0xE6210029, 137.4542, 4.607722, 0.01050007, -0.995645
 /* @teleloc 0xE6210029 [137.454200 4.607722 0.010500] -0.995646 0.000000 0.000000 -0.093219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E621001, 0x7E621002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E621001, 0x7E621003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E621001, 0x7E621004, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E621001, 0x7E621005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E621001, 0x7E621006, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E621001, 0x7E621007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E621001, 0x7E621008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E621001, 0x7E621009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E621001, 0x7E62100A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E621001, 0x7E62100B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E621001, 0x7E62100C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E621001, 0x7E62100D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E621001, 0x7E62100E, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E621001, 0x7E62100F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E621001, 0x7E621010, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E621001, 0x7E621002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E621001, 0x7E621003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E621001, 0x7E621004, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E621001, 0x7E621005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E621001, 0x7E621006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E621001, 0x7E621007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E621001, 0x7E621008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E621001, 0x7E621009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E621001, 0x7E62100A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E621001, 0x7E62100B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E621001, 0x7E62100C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E621001, 0x7E62100D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E621001, 0x7E62100E, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E621001, 0x7E62100F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E621001, 0x7E621010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E621002,  7082, 0xE6210029, 137.4542, 4.607722, 0.01050007, -0.9956456, 0, 0, -0.09321907,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -86,9 +86,9 @@ VALUES (0x7E621011,  1542, 0xE6210037, 146.1538, 146.4715, 20.81795, 0.9990482, 
 /* @teleloc 0xE6210037 [146.153800 146.471500 20.817950] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E621011, 0x7E621012, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E621011, 0x7E621013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E621011, 0x7E621014, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7E621011, 0x7E621012, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E621011, 0x7E621013, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E621011, 0x7E621014, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E621012,  6117, 0xE6210037, 146.1538, 146.4715, 20.81795, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

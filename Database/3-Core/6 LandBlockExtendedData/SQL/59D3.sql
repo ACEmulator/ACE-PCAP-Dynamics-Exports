@@ -5,11 +5,11 @@ VALUES (0x759D3001,  1154, 0x59D30027, 102.7322, 153.1607, 24.51932, 0.9097034, 
 /* @teleloc 0x59D30027 [102.732200 153.160700 24.519320] 0.909703 0.000000 0.000000 -0.415259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759D3001, 0x759D3002, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x759D3001, 0x759D3003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x759D3001, 0x759D3004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x759D3001, 0x759D3005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x759D3001, 0x759D3006, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x759D3001, 0x759D3002, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x759D3001, 0x759D3003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x759D3001, 0x759D3004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x759D3001, 0x759D3005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x759D3001, 0x759D3006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759D3002, 28636, 0x59D30027, 102.7322, 153.1607, 24.51932, 0.9097034, 0, 0, -0.4152585,  True, '2019-02-10 00:00:00'); /* Rabid Eater */

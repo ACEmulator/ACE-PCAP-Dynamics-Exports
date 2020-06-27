@@ -5,11 +5,11 @@ VALUES (0x77EA3001,  1154, 0x7EA30007, 7.901249, 164.5422, 43.43085, 0.5954997, 
 /* @teleloc 0x7EA30007 [7.901249 164.542200 43.430850] 0.595500 0.000000 0.000000 -0.803356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EA3001, 0x77EA3002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77EA3001, 0x77EA3003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77EA3001, 0x77EA3004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77EA3001, 0x77EA3005, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x77EA3001, 0x77EA3006, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x77EA3001, 0x77EA3002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77EA3001, 0x77EA3003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77EA3001, 0x77EA3004, '2019-02-10 00:00:00') /* Banderling Scout (1469) */
+     , (0x77EA3001, 0x77EA3005, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x77EA3001, 0x77EA3006, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EA3002,   939, 0x7EA30007, 7.901249, 164.5422, 43.43085, 0.5954997, 0, 0, -0.8033556,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -36,11 +36,11 @@ VALUES (0x77EA3007,  1542, 0x7EA30007, 11.3049, 164.691, 43.45013, -0.2438131, 0
 /* @teleloc 0x7EA30007 [11.304900 164.691000 43.450130] -0.243813 0.000000 0.000000 0.969822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EA3007, 0x77EA3008, '2019-02-10 00:00:00') /* Amaranth */
-     , (0x77EA3007, 0x77EA3009, '2019-02-10 00:00:00') /* Hawthorn */
-     , (0x77EA3007, 0x77EA300A, '2019-02-10 00:00:00') /* Bistort */
-     , (0x77EA3007, 0x77EA300B, '2019-02-10 00:00:00') /* Ginseng */
-     , (0x77EA3007, 0x77EA300C, '2019-02-10 00:00:00') /* Eyebright */;
+VALUES (0x77EA3007, 0x77EA3008, '2019-02-10 00:00:00') /* Amaranth (765) */
+     , (0x77EA3007, 0x77EA3009, '2019-02-10 00:00:00') /* Hawthorn (772) */
+     , (0x77EA3007, 0x77EA300A, '2019-02-10 00:00:00') /* Bistort (766) */
+     , (0x77EA3007, 0x77EA300B, '2019-02-10 00:00:00') /* Ginseng (625) */
+     , (0x77EA3007, 0x77EA300C, '2019-02-10 00:00:00') /* Eyebright (770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EA3008,   765, 0x7EA30007, 11.3049, 164.691, 43.45013, -0.2438131, 0, 0, 0.9698222,  True, '2019-02-10 00:00:00'); /* Amaranth */

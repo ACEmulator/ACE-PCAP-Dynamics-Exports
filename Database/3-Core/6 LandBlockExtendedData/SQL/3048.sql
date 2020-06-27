@@ -5,15 +5,15 @@ VALUES (0x73048001,  1154, 0x3048003B, 186.1651, 53.8291, 2.916972, 0.7071068, 0
 /* @teleloc 0x3048003B [186.165100 53.829100 2.916972] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73048001, 0x73048002, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73048001, 0x73048003, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73048001, 0x73048004, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73048001, 0x73048005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73048001, 0x73048006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73048001, 0x73048007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73048001, 0x73048008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73048001, 0x73048009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73048001, 0x7304800A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73048001, 0x73048002, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73048001, 0x73048003, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73048001, 0x73048004, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73048001, 0x73048005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73048001, 0x73048006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73048001, 0x73048007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73048001, 0x73048008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73048001, 0x73048009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73048001, 0x7304800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73048002, 23488, 0x3048003B, 186.1651, 53.8291, 2.916972, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus Lord */

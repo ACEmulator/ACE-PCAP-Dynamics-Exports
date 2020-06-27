@@ -9,10 +9,10 @@ VALUES (0x7CC52001,  1154, 0xCC52000A, 25.61335, 25.9697, 40.96516, 0.5, 0, 0, -
 /* @teleloc 0xCC52000A [25.613350 25.969700 40.965160] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC52001, 0x7CC52002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC52001, 0x7CC52003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC52001, 0x7CC52004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC52001, 0x7CC52005, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CC52001, 0x7CC52002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC52001, 0x7CC52003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC52001, 0x7CC52004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC52001, 0x7CC52005, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC52002,   194, 0xCC52000A, 25.61335, 25.9697, 40.96516, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */

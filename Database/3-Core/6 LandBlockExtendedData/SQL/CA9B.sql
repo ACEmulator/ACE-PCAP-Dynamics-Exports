@@ -5,9 +5,9 @@ VALUES (0x7CA9B001,  1154, 0xCA9B003E, 190.8192, 120.8514, 6.034604, -0.3202399,
 /* @teleloc 0xCA9B003E [190.819200 120.851400 6.034604] -0.320240 0.000000 0.000000 -0.947337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA9B001, 0x7CA9B002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CA9B001, 0x7CA9B003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CA9B001, 0x7CA9B004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7CA9B001, 0x7CA9B002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CA9B001, 0x7CA9B003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CA9B001, 0x7CA9B004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA9B002, 22809, 0xCA9B003E, 190.8192, 120.8514, 6.034604, -0.3202399, 0, 0, -0.9473365,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -26,7 +26,7 @@ VALUES (0x7CA9B005,  1542, 0xCA9B003E, 184.5164, 122.2266, 6.438084, 0.9990482, 
 /* @teleloc 0xCA9B003E [184.516400 122.226600 6.438084] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA9B005, 0x7CA9B006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CA9B005, 0x7CA9B006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA9B006,  4179, 0xCA9B003E, 184.5164, 122.2266, 6.438084, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

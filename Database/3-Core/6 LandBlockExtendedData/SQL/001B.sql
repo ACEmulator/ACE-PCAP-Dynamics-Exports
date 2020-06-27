@@ -29,58 +29,58 @@ VALUES (0x7001B04A,  1154, 0x001B0127, 80.5302, -110.269, -5.99, -0.999913, 0, 0
 /* @teleloc 0x001B0127 [80.530200 -110.269000 -5.990000] -0.999913 0.000000 0.000000 -0.013156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001B04A, 0x7001B04B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B04C, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B04D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B04E, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B04F, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B050, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B051, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B052, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B053, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B054, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B055, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7001B04A, 0x7001B056, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B057, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B058, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B059, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B05A, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B05B, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B05C, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B05D, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B05E, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B05F, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B060, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B061, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B062, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B063, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B064, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B065, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B066, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B067, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B068, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B069, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B06A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001B04A, 0x7001B06B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B06C, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B06D, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B06E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B06F, '2019-02-10 00:00:00') /* Silver Legion Quartermaster */
-     , (0x7001B04A, 0x7001B070, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001B04A, 0x7001B071, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B072, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B073, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B074, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B075, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001B04A, 0x7001B076, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001B04A, 0x7001B077, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B078, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B079, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001B04A, 0x7001B07A, '2019-02-10 00:00:00') /* Silver Legion Doorkeeper */
-     , (0x7001B04A, 0x7001B07B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B07C, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001B04A, 0x7001B07D, '2019-02-10 00:00:00') /* Captain Argenne */
-     , (0x7001B04A, 0x7001B07E, '2019-02-10 00:00:00') /* Silver Legion Bodyguard */;
+VALUES (0x7001B04A, 0x7001B04B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B04C, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B04D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B04E, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B04F, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B050, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B051, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B052, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B053, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B054, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B055, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7001B04A, 0x7001B056, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B057, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B058, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B059, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B05A, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B04A, 0x7001B05B, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B04A, 0x7001B05C, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B04A, 0x7001B05D, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B05E, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B04A, 0x7001B05F, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B060, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B061, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B062, '2019-02-10 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001B04A, 0x7001B063, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B04A, 0x7001B064, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B04A, 0x7001B065, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B066, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B067, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B068, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001B04A, 0x7001B069, '2019-02-10 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001B04A, 0x7001B06A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001B04A, 0x7001B06B, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001B04A, 0x7001B06C, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001B04A, 0x7001B06D, '2019-02-10 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001B04A, 0x7001B06E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B06F, '2019-02-10 00:00:00') /* Silver Legion Quartermaster (29395) */
+     , (0x7001B04A, 0x7001B070, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001B04A, 0x7001B071, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B072, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B073, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B074, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B075, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B04A, 0x7001B076, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B04A, 0x7001B077, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B078, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B079, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001B04A, 0x7001B07A, '2019-02-10 00:00:00') /* Silver Legion Doorkeeper (29415) */
+     , (0x7001B04A, 0x7001B07B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B07C, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001B04A, 0x7001B07D, '2019-02-10 00:00:00') /* Captain Argenne (29401) */
+     , (0x7001B04A, 0x7001B07E, '2019-02-10 00:00:00') /* Silver Legion Bodyguard (29399) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001B04B,  8138, 0x001B0127, 80.5302, -110.269, -5.99, -0.999913, 0, 0, -0.013156,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -295,7 +295,7 @@ VALUES (0x7001B07F,  1542, 0x001B025C, 364.5095, -340.0703, 17.937, -0.7169287, 
 /* @teleloc 0x001B025C [364.509500 -340.070300 17.937000] -0.716929 0.000000 0.000000 -0.697147 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001B07F, 0x7001B080, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7001B07F, 0x7001B080, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001B080,  1955, 0x001B025C, 364.5095, -340.0703, 17.937, -0.7169287, 0, 0, -0.6971465,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -9,28 +9,28 @@ VALUES (0x7CB5B001,  1154, 0xCB5B003B, 174.6462, 63.50508, 6.032046, 0.9648623, 
 /* @teleloc 0xCB5B003B [174.646200 63.505080 6.032046] 0.964862 0.000000 0.000000 -0.262756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5B001, 0x7CB5B002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5B001, 0x7CB5B004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5B001, 0x7CB5B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5B001, 0x7CB5B007, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5B001, 0x7CB5B008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5B001, 0x7CB5B00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5B001, 0x7CB5B00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B00D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB5B001, 0x7CB5B00F, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CB5B001, 0x7CB5B010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5B001, 0x7CB5B012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B014, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5B001, 0x7CB5B015, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB5B001, 0x7CB5B016, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5B001, 0x7CB5B017, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7CB5B001, 0x7CB5B002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5B001, 0x7CB5B004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5B001, 0x7CB5B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5B001, 0x7CB5B007, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5B001, 0x7CB5B008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5B001, 0x7CB5B00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5B001, 0x7CB5B00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B00D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB5B001, 0x7CB5B00F, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CB5B001, 0x7CB5B010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5B001, 0x7CB5B012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B014, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5B001, 0x7CB5B015, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB5B001, 0x7CB5B016, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5B001, 0x7CB5B017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5B002, 26018, 0xCB5B003B, 174.6462, 63.50508, 6.032046, 0.9648623, 0, 0, -0.2627562,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
@@ -125,7 +125,7 @@ VALUES (0x7CB5B018,  1542, 0xCB5B003D, 177.6375, 117.1969, 6, 0.9816567, 0, 0, -
 /* @teleloc 0xCB5B003D [177.637500 117.196900 6.000000] 0.981657 0.000000 0.000000 -0.190657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5B018, 0x7CB5B019, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7CB5B018, 0x7CB5B019, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5B019,  8588, 0xCB5B003D, 177.6375, 117.1969, 6, 0.9816567, 0, 0, -0.1906573,  True, '2019-02-10 00:00:00'); /* Idol */

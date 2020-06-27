@@ -5,22 +5,22 @@ VALUES (0x7A179001,  1154, 0xA179003D, 178.03, 108.6804, 35.0486, 0.9063078, 0, 
 /* @teleloc 0xA179003D [178.030000 108.680400 35.048600] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A179001, 0x7A179002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A179001, 0x7A179003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A179001, 0x7A179004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A179001, 0x7A179005, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7A179001, 0x7A179006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A179001, 0x7A179007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7A179001, 0x7A179008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A179001, 0x7A179009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A179001, 0x7A17900A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A179001, 0x7A17900B, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7A179001, 0x7A17900C, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A179001, 0x7A17900D, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A179001, 0x7A17900E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A179001, 0x7A17900F, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A179001, 0x7A179010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A179001, 0x7A179011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A179001, 0x7A179002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A179001, 0x7A179003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A179001, 0x7A179004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A179001, 0x7A179005, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7A179001, 0x7A179006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A179001, 0x7A179007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7A179001, 0x7A179008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A179001, 0x7A179009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A179001, 0x7A17900A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A179001, 0x7A17900B, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7A179001, 0x7A17900C, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A179001, 0x7A17900D, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A179001, 0x7A17900E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A179001, 0x7A17900F, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A179001, 0x7A179010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A179001, 0x7A179011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A179002,  2575, 0xA179003D, 178.03, 108.6804, 35.0486, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -91,7 +91,7 @@ VALUES (0x7A179012,  1542, 0xA179003D, 175.8529, 110.2929, 35.19108, 0.9990482, 
 /* @teleloc 0xA179003D [175.852900 110.292900 35.191080] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A179012, 0x7A179013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A179012, 0x7A179013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A179013,  4179, 0xA179003D, 175.8529, 110.2929, 35.19108, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

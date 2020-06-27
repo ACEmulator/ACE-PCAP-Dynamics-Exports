@@ -9,29 +9,29 @@ VALUES (0x73A4D002,  1154, 0x3A4D0025, 101.241, 106.761, 4.006, 0.3490859, 0, 0,
 /* @teleloc 0x3A4D0025 [101.241000 106.761000 4.006000] 0.349086 0.000000 0.000000 -0.937091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A4D002, 0x73A4D003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73A4D002, 0x73A4D004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73A4D002, 0x73A4D005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73A4D002, 0x73A4D006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73A4D002, 0x73A4D007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73A4D002, 0x73A4D008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73A4D002, 0x73A4D009, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73A4D002, 0x73A4D00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73A4D002, 0x73A4D00B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73A4D002, 0x73A4D00C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73A4D002, 0x73A4D00D, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73A4D002, 0x73A4D00E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73A4D002, 0x73A4D00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A4D002, 0x73A4D010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73A4D002, 0x73A4D011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73A4D002, 0x73A4D012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A4D002, 0x73A4D013, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73A4D002, 0x73A4D014, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73A4D002, 0x73A4D015, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73A4D002, 0x73A4D016, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73A4D002, 0x73A4D017, '2019-02-10 00:00:00') /* Flare */
-     , (0x73A4D002, 0x73A4D018, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73A4D002, 0x73A4D019, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x73A4D002, 0x73A4D003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73A4D002, 0x73A4D004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73A4D002, 0x73A4D005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73A4D002, 0x73A4D006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73A4D002, 0x73A4D007, '2019-02-10 00:00:00') /* Tumerok Gladiator (2483) */
+     , (0x73A4D002, 0x73A4D008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73A4D002, 0x73A4D009, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73A4D002, 0x73A4D00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73A4D002, 0x73A4D00B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73A4D002, 0x73A4D00C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73A4D002, 0x73A4D00D, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73A4D002, 0x73A4D00E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73A4D002, 0x73A4D00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A4D002, 0x73A4D010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73A4D002, 0x73A4D011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73A4D002, 0x73A4D012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A4D002, 0x73A4D013, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73A4D002, 0x73A4D014, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73A4D002, 0x73A4D015, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73A4D002, 0x73A4D016, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73A4D002, 0x73A4D017, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73A4D002, 0x73A4D018, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73A4D002, 0x73A4D019, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A4D003, 23565, 0x3A4D0025, 101.241, 106.761, 4.006, 0.3490859, 0, 0, -0.9370908,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -130,7 +130,7 @@ VALUES (0x73A4D01A,  1542, 0x3A4D001A, 89.30861, 36.45299, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x3A4D001A [89.308610 36.452990 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A4D01A, 0x73A4D01B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73A4D01A, 0x73A4D01B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A4D01B,  8999, 0x3A4D001A, 89.30861, 36.45299, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

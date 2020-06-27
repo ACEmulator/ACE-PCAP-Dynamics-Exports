@@ -5,13 +5,13 @@ VALUES (0x742DB001,  1154, 0x42DB0012, 48.42854, 29.78115, 76.43934, -0.6693749,
 /* @teleloc 0x42DB0012 [48.428540 29.781150 76.439340] -0.669375 0.000000 0.000000 -0.742925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DB001, 0x742DB002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x742DB001, 0x742DB003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x742DB001, 0x742DB004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x742DB001, 0x742DB005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x742DB001, 0x742DB006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x742DB001, 0x742DB007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x742DB001, 0x742DB008, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x742DB001, 0x742DB002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x742DB001, 0x742DB003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x742DB001, 0x742DB004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x742DB001, 0x742DB005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x742DB001, 0x742DB006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x742DB001, 0x742DB007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x742DB001, 0x742DB008, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DB002,  9264, 0x42DB0012, 48.42854, 29.78115, 76.43934, -0.6693749, 0, 0, -0.7429247,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

@@ -5,13 +5,13 @@ VALUES (0x70D83001,  1154, 0x0D830006, 21.08243, 139.6614, 0.005000018, 0.694750
 /* @teleloc 0x0D830006 [21.082430 139.661400 0.005000] 0.694750 0.000000 0.000000 -0.719251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D83001, 0x70D83002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70D83001, 0x70D83003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D83001, 0x70D83004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x70D83001, 0x70D83005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70D83001, 0x70D83006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70D83001, 0x70D83007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70D83001, 0x70D83008, '2019-02-10 00:00:00') /* Lesser Void Knight */;
+VALUES (0x70D83001, 0x70D83002, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70D83001, 0x70D83003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D83001, 0x70D83004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x70D83001, 0x70D83005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x70D83001, 0x70D83006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70D83001, 0x70D83007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70D83001, 0x70D83008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D83002, 23562, 0x0D830006, 21.08243, 139.6614, 0.005000018, 0.6947502, 0, 0, -0.719251,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -46,7 +46,7 @@ VALUES (0x70D83009,  1542, 0x0D83000E, 24.83404, 129.3727, 0.4070224, 0.6947502,
 /* @teleloc 0x0D83000E [24.834040 129.372700 0.407022] 0.694750 0.000000 0.000000 -0.719251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D83009, 0x70D8300A, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x70D83009, 0x70D8300A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D8300A,  9286, 0x0D83000E, 24.83404, 129.3727, 0.4070224, 0.6947502, 0, 0, -0.719251,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

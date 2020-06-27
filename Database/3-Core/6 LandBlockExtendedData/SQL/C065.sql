@@ -5,20 +5,20 @@ VALUES (0x7C065001,  1154, 0xC0650023, 99.6056, 71.59724, 34.30167, 0.8191521, 0
 /* @teleloc 0xC0650023 [99.605600 71.597240 34.301670] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C065001, 0x7C065002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7C065001, 0x7C065003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C065001, 0x7C065004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C065001, 0x7C065005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C065001, 0x7C065006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C065001, 0x7C065007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C065001, 0x7C065008, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C065001, 0x7C065009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7C065001, 0x7C06500A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C065001, 0x7C06500B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C065001, 0x7C06500C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C065001, 0x7C06500D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C065001, 0x7C06500E, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C065001, 0x7C06500F, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7C065001, 0x7C065002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7C065001, 0x7C065003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C065001, 0x7C065004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C065001, 0x7C065005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C065001, 0x7C065006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C065001, 0x7C065007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C065001, 0x7C065008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C065001, 0x7C065009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7C065001, 0x7C06500A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C065001, 0x7C06500B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C065001, 0x7C06500C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C065001, 0x7C06500D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C065001, 0x7C06500E, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C065001, 0x7C06500F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C065002,  7108, 0xC0650023, 99.6056, 71.59724, 34.30167, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

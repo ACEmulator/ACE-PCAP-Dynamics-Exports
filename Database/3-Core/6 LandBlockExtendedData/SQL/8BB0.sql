@@ -5,15 +5,15 @@ VALUES (0x78BB0001,  1154, 0x8BB00011, 63.66837, 22.48022, 71.01966, -0.1736482,
 /* @teleloc 0x8BB00011 [63.668370 22.480220 71.019660] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BB0001, 0x78BB0002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78BB0001, 0x78BB0003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78BB0001, 0x78BB0004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78BB0001, 0x78BB0005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x78BB0001, 0x78BB0006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78BB0001, 0x78BB0007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78BB0001, 0x78BB0008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78BB0001, 0x78BB0009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78BB0001, 0x78BB000A, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x78BB0001, 0x78BB0002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78BB0001, 0x78BB0003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78BB0001, 0x78BB0004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78BB0001, 0x78BB0005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x78BB0001, 0x78BB0006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78BB0001, 0x78BB0007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78BB0001, 0x78BB0008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78BB0001, 0x78BB0009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78BB0001, 0x78BB000A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BB0002,  1628, 0x8BB00011, 63.66837, 22.48022, 71.01966, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

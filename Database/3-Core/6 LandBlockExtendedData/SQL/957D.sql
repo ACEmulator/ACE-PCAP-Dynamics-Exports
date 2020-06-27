@@ -5,16 +5,16 @@ VALUES (0x7957D001,  1154, 0x957D001E, 84.19191, 121.3165, 20.55188, 0.3529139, 
 /* @teleloc 0x957D001E [84.191910 121.316500 20.551880] 0.352914 0.000000 0.000000 -0.935656 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7957D001, 0x7957D002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7957D001, 0x7957D003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7957D001, 0x7957D004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7957D001, 0x7957D005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7957D001, 0x7957D006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7957D001, 0x7957D007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7957D001, 0x7957D008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7957D001, 0x7957D009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7957D001, 0x7957D00A, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7957D001, 0x7957D00B, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7957D001, 0x7957D002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7957D001, 0x7957D003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7957D001, 0x7957D004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7957D001, 0x7957D005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7957D001, 0x7957D006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7957D001, 0x7957D007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7957D001, 0x7957D008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7957D001, 0x7957D009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7957D001, 0x7957D00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7957D001, 0x7957D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7957D002,     7, 0x957D001E, 84.19191, 121.3165, 20.55188, 0.3529139, 0, 0, -0.9356558,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

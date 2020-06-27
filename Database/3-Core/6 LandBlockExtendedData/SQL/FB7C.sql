@@ -5,18 +5,18 @@ VALUES (0x7FB7C001,  1154, 0xFB7C0006, 7.00365, 139.2701, 43.42076, 0.3173764, 0
 /* @teleloc 0xFB7C0006 [7.003650 139.270100 43.420760] 0.317376 0.000000 0.000000 -0.948300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FB7C001, 0x7FB7C002, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FB7C001, 0x7FB7C003, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FB7C001, 0x7FB7C004, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FB7C001, 0x7FB7C005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FB7C001, 0x7FB7C006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FB7C001, 0x7FB7C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FB7C001, 0x7FB7C008, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FB7C001, 0x7FB7C009, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FB7C001, 0x7FB7C00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FB7C001, 0x7FB7C00B, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FB7C001, 0x7FB7C00C, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FB7C001, 0x7FB7C00D, '2019-02-10 00:00:00') /* Spiny Chittick */;
+VALUES (0x7FB7C001, 0x7FB7C002, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FB7C001, 0x7FB7C003, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FB7C001, 0x7FB7C004, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FB7C001, 0x7FB7C005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FB7C001, 0x7FB7C006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FB7C001, 0x7FB7C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FB7C001, 0x7FB7C008, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FB7C001, 0x7FB7C009, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FB7C001, 0x7FB7C00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FB7C001, 0x7FB7C00B, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FB7C001, 0x7FB7C00C, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FB7C001, 0x7FB7C00D, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FB7C002, 22524, 0xFB7C0006, 7.00365, 139.2701, 43.42076, 0.3173764, 0, 0, -0.9482996,  True, '2019-02-10 00:00:00'); /* Tuskie Tosser */

@@ -5,15 +5,15 @@ VALUES (0x7312B001,  1154, 0x312B0002, 22.82076, 34.01325, 83.5771, 1, 0, 0, 0, 
 /* @teleloc 0x312B0002 [22.820760 34.013250 83.577100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312B001, 0x7312B002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7312B001, 0x7312B003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7312B001, 0x7312B004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7312B001, 0x7312B005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7312B001, 0x7312B006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7312B001, 0x7312B007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7312B001, 0x7312B008, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7312B001, 0x7312B009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7312B001, 0x7312B00A, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7312B001, 0x7312B002, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x7312B001, 0x7312B003, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7312B001, 0x7312B004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7312B001, 0x7312B005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7312B001, 0x7312B006, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x7312B001, 0x7312B007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7312B001, 0x7312B008, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7312B001, 0x7312B009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7312B001, 0x7312B00A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312B002, 36848, 0x312B0002, 22.82076, 34.01325, 83.5771, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

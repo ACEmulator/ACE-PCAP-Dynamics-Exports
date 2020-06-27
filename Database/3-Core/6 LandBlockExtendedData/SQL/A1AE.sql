@@ -5,10 +5,10 @@ VALUES (0x7A1AE001,  1154, 0xA1AE002B, 134.7736, 49.38689, 75.77603, -0.9898022,
 /* @teleloc 0xA1AE002B [134.773600 49.386890 75.776030] -0.989802 0.000000 0.000000 -0.142449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1AE001, 0x7A1AE002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7A1AE001, 0x7A1AE003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A1AE001, 0x7A1AE004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A1AE001, 0x7A1AE005, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7A1AE001, 0x7A1AE002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7A1AE001, 0x7A1AE003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A1AE001, 0x7A1AE004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A1AE001, 0x7A1AE005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1AE002,   183, 0xA1AE002B, 134.7736, 49.38689, 75.77603, -0.9898022, 0, 0, -0.1424487,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -31,7 +31,7 @@ VALUES (0x7A1AE006,  1542, 0xA1AE001E, 80.65945, 123.3001, 95.55338, 0.9990482, 
 /* @teleloc 0xA1AE001E [80.659450 123.300100 95.553380] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1AE006, 0x7A1AE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A1AE006, 0x7A1AE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1AE007,  4179, 0xA1AE001E, 80.65945, 123.3001, 95.55338, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

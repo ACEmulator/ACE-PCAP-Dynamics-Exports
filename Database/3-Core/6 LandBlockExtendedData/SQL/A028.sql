@@ -5,16 +5,16 @@ VALUES (0x7A028001,  1154, 0xA0280015, 70.42917, 110.9296, 282.3586, -0.8422933,
 /* @teleloc 0xA0280015 [70.429170 110.929600 282.358600] -0.842293 0.000000 0.000000 -0.539020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A028001, 0x7A028002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A028001, 0x7A028003, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7A028001, 0x7A028004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A028001, 0x7A028005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A028001, 0x7A028006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A028001, 0x7A028007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A028001, 0x7A028008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A028001, 0x7A028009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A028001, 0x7A02800A, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A028001, 0x7A02800B, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7A028001, 0x7A028002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A028001, 0x7A028003, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7A028001, 0x7A028004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A028001, 0x7A028005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A028001, 0x7A028006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A028001, 0x7A028007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A028001, 0x7A028008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A028001, 0x7A028009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A028001, 0x7A02800A, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A028001, 0x7A02800B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A028002, 14518, 0xA0280015, 70.42917, 110.9296, 282.3586, -0.8422933, 0, 0, -0.5390196,  True, '2019-02-10 00:00:00'); /* Shivver */

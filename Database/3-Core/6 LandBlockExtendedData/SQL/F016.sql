@@ -5,24 +5,24 @@ VALUES (0x7F016001,  1154, 0xF016003E, 180.5886, 138.5936, 20.48241, 0.9537169, 
 /* @teleloc 0xF016003E [180.588600 138.593600 20.482410] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F016001, 0x7F016002, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F016001, 0x7F016003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F016001, 0x7F016004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F016001, 0x7F016005, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F016001, 0x7F016006, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F016001, 0x7F016007, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F016001, 0x7F016008, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F016001, 0x7F016009, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F016001, 0x7F01600A, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F016001, 0x7F01600B, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F016001, 0x7F01600C, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F016001, 0x7F01600D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F016001, 0x7F01600E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F016001, 0x7F01600F, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F016001, 0x7F016010, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F016001, 0x7F016011, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F016001, 0x7F016012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F016001, 0x7F016013, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7F016001, 0x7F016002, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F016001, 0x7F016003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F016001, 0x7F016004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F016001, 0x7F016005, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F016001, 0x7F016006, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F016001, 0x7F016007, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F016001, 0x7F016008, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F016001, 0x7F016009, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F016001, 0x7F01600A, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F016001, 0x7F01600B, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F016001, 0x7F01600C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F016001, 0x7F01600D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F016001, 0x7F01600E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F016001, 0x7F01600F, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F016001, 0x7F016010, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F016001, 0x7F016011, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F016001, 0x7F016012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F016001, 0x7F016013, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F016002,  8470, 0xF016003E, 180.5886, 138.5936, 20.48241, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Sulthis Eye Stalk */
@@ -101,7 +101,7 @@ VALUES (0x7F016014,  1542, 0xF0160039, 168.7579, 21.02303, -0.09999999, 0.923879
 /* @teleloc 0xF0160039 [168.757900 21.023030 -0.100000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F016014, 0x7F016015, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7F016014, 0x7F016015, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F016015,  4180, 0xF0160039, 168.7579, 21.02303, -0.09999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

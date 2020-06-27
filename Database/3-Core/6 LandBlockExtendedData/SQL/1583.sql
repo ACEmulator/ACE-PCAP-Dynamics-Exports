@@ -5,17 +5,17 @@ VALUES (0x71583001,  1154, 0x15830040, 187.1559, 178.7537, 29.995, 0.7071068, 0,
 /* @teleloc 0x15830040 [187.155900 178.753700 29.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71583001, 0x71583002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71583001, 0x71583003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71583001, 0x71583004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71583001, 0x71583005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71583001, 0x71583006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71583001, 0x71583007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71583001, 0x71583008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71583001, 0x71583009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71583001, 0x7158300A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71583001, 0x7158300B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71583001, 0x7158300C, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x71583001, 0x71583002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71583001, 0x71583003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71583001, 0x71583004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71583001, 0x71583005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71583001, 0x71583006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71583001, 0x71583007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71583001, 0x71583008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71583001, 0x71583009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71583001, 0x7158300A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71583001, 0x7158300B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71583001, 0x7158300C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71583002, 36842, 0x15830040, 187.1559, 178.7537, 29.995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -66,7 +66,7 @@ VALUES (0x7158300D,  1542, 0x1583000C, 41.98692, 72.69589, 63.2385, 0.9272183, 0
 /* @teleloc 0x1583000C [41.986920 72.695890 63.238500] 0.927218 0.000000 0.000000 -0.374521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7158300D, 0x7158300E, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7158300D, 0x7158300E, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7158300E,  8646, 0x1583000C, 41.98692, 72.69589, 63.2385, 0.9272183, 0, 0, -0.3745213,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,12 +5,12 @@ VALUES (0x7532B001,  1154, 0x532B000C, 46.34949, 78.91974, 0.2850856, 0.1736482,
 /* @teleloc 0x532B000C [46.349490 78.919740 0.285086] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7532B001, 0x7532B002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7532B001, 0x7532B003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7532B001, 0x7532B004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7532B001, 0x7532B005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7532B001, 0x7532B006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7532B001, 0x7532B007, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7532B001, 0x7532B002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7532B001, 0x7532B003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7532B001, 0x7532B004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7532B001, 0x7532B005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7532B001, 0x7532B006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7532B001, 0x7532B007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7532B002, 36834, 0x532B000C, 46.34949, 78.91974, 0.2850856, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

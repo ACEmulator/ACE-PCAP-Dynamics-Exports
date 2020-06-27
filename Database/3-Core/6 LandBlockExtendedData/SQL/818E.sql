@@ -5,14 +5,14 @@ VALUES (0x7818E001,  1154, 0x818E0038, 149.9091, 177.0175, 132.7422, 0.8870109, 
 /* @teleloc 0x818E0038 [149.909100 177.017500 132.742200] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7818E001, 0x7818E002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7818E001, 0x7818E003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7818E001, 0x7818E004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7818E001, 0x7818E005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7818E001, 0x7818E006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7818E001, 0x7818E007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7818E001, 0x7818E008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7818E001, 0x7818E009, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7818E001, 0x7818E002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7818E001, 0x7818E003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7818E001, 0x7818E004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7818E001, 0x7818E005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7818E001, 0x7818E006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7818E001, 0x7818E007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7818E001, 0x7818E008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7818E001, 0x7818E009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7818E002,  1756, 0x818E0038, 149.9091, 177.0175, 132.7422, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

@@ -5,46 +5,46 @@ VALUES (0x72E36001,  1154, 0x2E360026, 105.8062, 129.6799, 33.18997, -0.5076094,
 /* @teleloc 0x2E360026 [105.806200 129.679900 33.189970] -0.507609 0.000000 0.000000 -0.861587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E36001, 0x72E36002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72E36001, 0x72E36003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72E36001, 0x72E36004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E36001, 0x72E36005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72E36001, 0x72E36006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72E36001, 0x72E36007, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72E36001, 0x72E36008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72E36001, 0x72E36009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72E36001, 0x72E3600A, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72E36001, 0x72E3600B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E36001, 0x72E3600C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72E36001, 0x72E3600D, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E36001, 0x72E3600E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72E36001, 0x72E3600F, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E36001, 0x72E36010, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72E36001, 0x72E36011, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E36001, 0x72E36012, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72E36001, 0x72E36013, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72E36001, 0x72E36014, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E36001, 0x72E36015, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72E36001, 0x72E36016, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72E36001, 0x72E36017, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72E36001, 0x72E36018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E36001, 0x72E36019, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E36001, 0x72E3601A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E36001, 0x72E3601B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E36001, 0x72E3601C, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72E36001, 0x72E3601D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72E36001, 0x72E3601E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72E36001, 0x72E3601F, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72E36001, 0x72E36020, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72E36001, 0x72E36021, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E36001, 0x72E36022, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E36001, 0x72E36023, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72E36001, 0x72E36024, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72E36001, 0x72E36025, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72E36001, 0x72E36026, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72E36001, 0x72E36027, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72E36001, 0x72E36028, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72E36001, 0x72E36029, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x72E36001, 0x72E36002, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72E36001, 0x72E36003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72E36001, 0x72E36004, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E36001, 0x72E36005, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72E36001, 0x72E36006, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72E36001, 0x72E36007, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72E36001, 0x72E36008, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72E36001, 0x72E36009, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72E36001, 0x72E3600A, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72E36001, 0x72E3600B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E36001, 0x72E3600C, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72E36001, 0x72E3600D, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E36001, 0x72E3600E, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72E36001, 0x72E3600F, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E36001, 0x72E36010, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72E36001, 0x72E36011, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E36001, 0x72E36012, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72E36001, 0x72E36013, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72E36001, 0x72E36014, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E36001, 0x72E36015, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72E36001, 0x72E36016, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72E36001, 0x72E36017, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72E36001, 0x72E36018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E36001, 0x72E36019, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E36001, 0x72E3601A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E36001, 0x72E3601B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E36001, 0x72E3601C, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72E36001, 0x72E3601D, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72E36001, 0x72E3601E, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72E36001, 0x72E3601F, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72E36001, 0x72E36020, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72E36001, 0x72E36021, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E36001, 0x72E36022, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E36001, 0x72E36023, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x72E36001, 0x72E36024, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72E36001, 0x72E36025, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72E36001, 0x72E36026, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72E36001, 0x72E36027, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72E36001, 0x72E36028, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72E36001, 0x72E36029, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E36002, 23479, 0x2E360026, 105.8062, 129.6799, 33.18997, -0.5076094, 0, 0, -0.8615873,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -211,7 +211,7 @@ VALUES (0x72E3602A,  1542, 0x2E36001D, 81.6237, 116.3609, 37.00257, 1, 0, 0, 0, 
 /* @teleloc 0x2E36001D [81.623700 116.360900 37.002570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E3602A, 0x72E3602B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72E3602A, 0x72E3602B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E3602B, 22566, 0x2E36001D, 81.6237, 116.3609, 37.00257, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

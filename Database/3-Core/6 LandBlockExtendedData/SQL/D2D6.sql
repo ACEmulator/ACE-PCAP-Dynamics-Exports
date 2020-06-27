@@ -5,28 +5,28 @@ VALUES (0x7D2D6001,  1154, 0xD2D60031, 167.855, 7.97591, 0.008186817, -0.4565765
 /* @teleloc 0xD2D60031 [167.855000 7.975910 0.008187] -0.456577 0.000000 0.000000 -0.889684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2D6001, 0x7D2D6002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D6001, 0x7D2D6003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D6001, 0x7D2D6004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D6001, 0x7D2D6005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D2D6001, 0x7D2D6006, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D2D6001, 0x7D2D6007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D6001, 0x7D2D6008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D6001, 0x7D2D6009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D2D6001, 0x7D2D600A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D2D6001, 0x7D2D600B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2D6001, 0x7D2D600C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2D6001, 0x7D2D600D, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2D6001, 0x7D2D600E, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2D6001, 0x7D2D600F, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2D6001, 0x7D2D6010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2D6001, 0x7D2D6011, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D2D6001, 0x7D2D6012, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7D2D6001, 0x7D2D6013, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7D2D6001, 0x7D2D6014, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D2D6001, 0x7D2D6015, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D2D6001, 0x7D2D6016, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2D6001, 0x7D2D6017, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7D2D6001, 0x7D2D6002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D6001, 0x7D2D6003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D6001, 0x7D2D6004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D6001, 0x7D2D6005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D2D6001, 0x7D2D6006, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D2D6001, 0x7D2D6007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D6001, 0x7D2D6008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D6001, 0x7D2D6009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D2D6001, 0x7D2D600A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D2D6001, 0x7D2D600B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2D6001, 0x7D2D600C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2D6001, 0x7D2D600D, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2D6001, 0x7D2D600E, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2D6001, 0x7D2D600F, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2D6001, 0x7D2D6010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2D6001, 0x7D2D6011, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D2D6001, 0x7D2D6012, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7D2D6001, 0x7D2D6013, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7D2D6001, 0x7D2D6014, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D2D6001, 0x7D2D6015, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D2D6001, 0x7D2D6016, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2D6001, 0x7D2D6017, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D6002, 24959, 0xD2D60031, 167.855, 7.97591, 0.008186817, -0.4565765, 0, 0, -0.8896841,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

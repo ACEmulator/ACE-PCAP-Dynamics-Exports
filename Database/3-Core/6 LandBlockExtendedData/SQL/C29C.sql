@@ -5,31 +5,31 @@ VALUES (0x7C29C001,  1154, 0xC29C0001, 3.321518, 0.2741547, 39.38503, 0.7071068,
 /* @teleloc 0xC29C0001 [3.321518 0.274155 39.385030] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29C001, 0x7C29C002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C29C001, 0x7C29C003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C29C001, 0x7C29C004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29C001, 0x7C29C005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C29C001, 0x7C29C006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C29C001, 0x7C29C007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C29C001, 0x7C29C008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C29C001, 0x7C29C009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C29C001, 0x7C29C00A, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C29C001, 0x7C29C00B, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C29C001, 0x7C29C00C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C29C001, 0x7C29C00D, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C29C001, 0x7C29C00E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C29C001, 0x7C29C00F, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C29C001, 0x7C29C010, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29C001, 0x7C29C011, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C29C001, 0x7C29C012, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C29C001, 0x7C29C013, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C29C001, 0x7C29C014, '2019-02-10 00:00:00') /* Static */
-     , (0x7C29C001, 0x7C29C015, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C29C001, 0x7C29C016, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C29C001, 0x7C29C017, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C29C001, 0x7C29C018, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C29C001, 0x7C29C019, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C29C001, 0x7C29C01A, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7C29C001, 0x7C29C002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C29C001, 0x7C29C003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C29C001, 0x7C29C004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29C001, 0x7C29C005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C29C001, 0x7C29C006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C29C001, 0x7C29C007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C29C001, 0x7C29C008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C29C001, 0x7C29C009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C29C001, 0x7C29C00A, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C29C001, 0x7C29C00B, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C29C001, 0x7C29C00C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C29C001, 0x7C29C00D, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C29C001, 0x7C29C00E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C29C001, 0x7C29C00F, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C29C001, 0x7C29C010, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29C001, 0x7C29C011, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C29C001, 0x7C29C012, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C29C001, 0x7C29C013, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C29C001, 0x7C29C014, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C29C001, 0x7C29C015, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C29C001, 0x7C29C016, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C29C001, 0x7C29C017, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C29C001, 0x7C29C018, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C29C001, 0x7C29C019, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C29C001, 0x7C29C01A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29C002,     6, 0xC29C0001, 3.321518, 0.2741547, 39.38503, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -136,9 +136,9 @@ VALUES (0x7C29C01B,  1542, 0xC29C0001, 8.615841, 1.194047, 38.26551, 1, 0, 0, 0,
 /* @teleloc 0xC29C0001 [8.615841 1.194047 38.265510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29C01B, 0x7C29C01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C29C01B, 0x7C29C01D, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C29C01B, 0x7C29C01E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C29C01B, 0x7C29C01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C29C01B, 0x7C29C01D, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C29C01B, 0x7C29C01E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29C01C,  4179, 0xC29C0001, 8.615841, 1.194047, 38.26551, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

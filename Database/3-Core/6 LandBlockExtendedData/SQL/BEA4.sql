@@ -5,14 +5,14 @@ VALUES (0x7BEA4001,  1154, 0xBEA40010, 33.43943, 180.3694, 38.67037, 0.5524526, 
 /* @teleloc 0xBEA40010 [33.439430 180.369400 38.670370] 0.552453 0.000000 0.000000 -0.833544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEA4001, 0x7BEA4002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BEA4001, 0x7BEA4003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BEA4001, 0x7BEA4004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BEA4001, 0x7BEA4005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BEA4001, 0x7BEA4006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BEA4001, 0x7BEA4007, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BEA4001, 0x7BEA4008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BEA4001, 0x7BEA4009, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7BEA4001, 0x7BEA4002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BEA4001, 0x7BEA4003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BEA4001, 0x7BEA4004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BEA4001, 0x7BEA4005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BEA4001, 0x7BEA4006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BEA4001, 0x7BEA4007, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BEA4001, 0x7BEA4008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BEA4001, 0x7BEA4009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEA4002,   222, 0xBEA40010, 33.43943, 180.3694, 38.67037, 0.5524526, 0, 0, -0.8335444,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */

@@ -9,28 +9,28 @@ VALUES (0x71A3B006,  1154, 0x1A3B0005, 14.44888, 101.6725, 22.80593, 0.7071068, 
 /* @teleloc 0x1A3B0005 [14.448880 101.672500 22.805930] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A3B006, 0x71A3B007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A3B006, 0x71A3B008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A3B006, 0x71A3B009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A3B006, 0x71A3B00A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71A3B006, 0x71A3B00B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71A3B006, 0x71A3B00C, '2019-02-10 00:00:00') /* Reaper */
-     , (0x71A3B006, 0x71A3B00D, '2019-02-10 00:00:00') /* Reaper */
-     , (0x71A3B006, 0x71A3B00E, '2019-02-10 00:00:00') /* Reaper */
-     , (0x71A3B006, 0x71A3B00F, '2019-02-10 00:00:00') /* Reaper */
-     , (0x71A3B006, 0x71A3B010, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71A3B006, 0x71A3B011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71A3B006, 0x71A3B012, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A3B006, 0x71A3B013, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71A3B006, 0x71A3B014, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71A3B006, 0x71A3B015, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71A3B006, 0x71A3B016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A3B006, 0x71A3B017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A3B006, 0x71A3B018, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71A3B006, 0x71A3B019, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A3B006, 0x71A3B01A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A3B006, 0x71A3B01B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A3B006, 0x71A3B01C, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x71A3B006, 0x71A3B007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A3B006, 0x71A3B008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A3B006, 0x71A3B009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A3B006, 0x71A3B00A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71A3B006, 0x71A3B00B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71A3B006, 0x71A3B00C, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x71A3B006, 0x71A3B00D, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x71A3B006, 0x71A3B00E, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x71A3B006, 0x71A3B00F, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x71A3B006, 0x71A3B010, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71A3B006, 0x71A3B011, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71A3B006, 0x71A3B012, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A3B006, 0x71A3B013, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71A3B006, 0x71A3B014, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71A3B006, 0x71A3B015, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71A3B006, 0x71A3B016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A3B006, 0x71A3B017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A3B006, 0x71A3B018, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71A3B006, 0x71A3B019, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A3B006, 0x71A3B01A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A3B006, 0x71A3B01B, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A3B006, 0x71A3B01C, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A3B007, 36836, 0x1A3B0005, 14.44888, 101.6725, 22.80593, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
@@ -125,8 +125,8 @@ VALUES (0x71A3B01D,  1542, 0x1A3B0005, 14.71684, 99.53521, 23.82955, 0.9990482, 
 /* @teleloc 0x1A3B0005 [14.716840 99.535210 23.829550] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A3B01D, 0x71A3B01E, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x71A3B01D, 0x71A3B01F, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71A3B01D, 0x71A3B01E, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x71A3B01D, 0x71A3B01F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A3B01E, 24476, 0x1A3B0005, 14.71684, 99.53521, 23.82955, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Sturdy Steel Chest */

@@ -5,12 +5,12 @@ VALUES (0x7AB12001,  1154, 0xAB12003A, 171.5247, 42.97957, 109.1005, -0.6427876,
 /* @teleloc 0xAB12003A [171.524700 42.979570 109.100500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB12001, 0x7AB12002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7AB12001, 0x7AB12003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7AB12001, 0x7AB12004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7AB12001, 0x7AB12005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7AB12001, 0x7AB12006, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7AB12001, 0x7AB12007, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7AB12001, 0x7AB12002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7AB12001, 0x7AB12003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7AB12001, 0x7AB12004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7AB12001, 0x7AB12005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7AB12001, 0x7AB12006, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7AB12001, 0x7AB12007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB12002,  7987, 0xAB12003A, 171.5247, 42.97957, 109.1005, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -41,7 +41,7 @@ VALUES (0x7AB12008,  1542, 0xAB120034, 158.4174, 84.02521, 109.2, 0.9990482, 0, 
 /* @teleloc 0xAB120034 [158.417400 84.025210 109.200000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB12008, 0x7AB12009, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7AB12008, 0x7AB12009, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB12009,  6117, 0xAB120034, 158.4174, 84.02521, 109.2, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

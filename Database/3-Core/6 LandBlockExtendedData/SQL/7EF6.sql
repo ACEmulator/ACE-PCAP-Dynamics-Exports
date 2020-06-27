@@ -5,12 +5,12 @@ VALUES (0x77EF6001,  1154, 0x7EF60002, 5.918264, 30.71003, 51.87304, 0.9396926, 
 /* @teleloc 0x7EF60002 [5.918264 30.710030 51.873040] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF6001, 0x77EF6002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77EF6001, 0x77EF6003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77EF6001, 0x77EF6004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x77EF6001, 0x77EF6005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77EF6001, 0x77EF6006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77EF6001, 0x77EF6007, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x77EF6001, 0x77EF6002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77EF6001, 0x77EF6003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77EF6001, 0x77EF6004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x77EF6001, 0x77EF6005, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x77EF6001, 0x77EF6006, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77EF6001, 0x77EF6007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF6002, 37098, 0x7EF60002, 5.918264, 30.71003, 51.87304, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

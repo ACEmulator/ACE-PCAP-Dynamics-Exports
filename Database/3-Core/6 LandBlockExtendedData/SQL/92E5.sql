@@ -5,13 +5,13 @@ VALUES (0x792E5001,  1154, 0x92E50022, 113.1018, 28.8727, 62.26617, -0.08883592,
 /* @teleloc 0x92E50022 [113.101800 28.872700 62.266170] -0.088836 0.000000 0.000000 -0.996046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E5001, 0x792E5002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x792E5001, 0x792E5003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x792E5001, 0x792E5004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x792E5001, 0x792E5005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792E5001, 0x792E5006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x792E5001, 0x792E5007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x792E5001, 0x792E5008, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x792E5001, 0x792E5002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x792E5001, 0x792E5003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x792E5001, 0x792E5004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x792E5001, 0x792E5005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792E5001, 0x792E5006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x792E5001, 0x792E5007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x792E5001, 0x792E5008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E5002, 38177, 0x92E50022, 113.1018, 28.8727, 62.26617, -0.08883592, 0, 0, -0.9960462,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -46,7 +46,7 @@ VALUES (0x792E5009,  1542, 0x92E50017, 52.82756, 149.0887, 55.15188, 1, 0, 0, 0,
 /* @teleloc 0x92E50017 [52.827560 149.088700 55.151880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E5009, 0x792E500A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x792E5009, 0x792E500A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E500A, 22567, 0x92E50017, 52.82756, 149.0887, 55.15188, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

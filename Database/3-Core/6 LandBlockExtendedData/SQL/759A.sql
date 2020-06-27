@@ -5,20 +5,20 @@ VALUES (0x7759A001,  1154, 0x759A0033, 147.3373, 50.97145, 73.94902, -0.07940441
 /* @teleloc 0x759A0033 [147.337300 50.971450 73.949020] -0.079404 0.000000 0.000000 -0.996843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7759A001, 0x7759A002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7759A001, 0x7759A003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7759A001, 0x7759A004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7759A001, 0x7759A005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7759A001, 0x7759A006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7759A001, 0x7759A007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7759A001, 0x7759A008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7759A001, 0x7759A009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7759A001, 0x7759A00A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7759A001, 0x7759A00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7759A001, 0x7759A00C, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7759A001, 0x7759A00D, '2019-02-10 00:00:00') /* Static */
-     , (0x7759A001, 0x7759A00E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7759A001, 0x7759A00F, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7759A001, 0x7759A002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7759A001, 0x7759A003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7759A001, 0x7759A004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7759A001, 0x7759A005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7759A001, 0x7759A006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7759A001, 0x7759A007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7759A001, 0x7759A008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7759A001, 0x7759A009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7759A001, 0x7759A00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7759A001, 0x7759A00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7759A001, 0x7759A00C, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7759A001, 0x7759A00D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7759A001, 0x7759A00E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7759A001, 0x7759A00F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7759A002,   199, 0x759A0033, 147.3373, 50.97145, 73.94902, -0.07940441, 0, 0, -0.9968425,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -81,7 +81,7 @@ VALUES (0x7759A010,  1542, 0x759A000E, 41.02681, 141.9944, 100.9972, 1, 0, 0, 0,
 /* @teleloc 0x759A000E [41.026810 141.994400 100.997200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7759A010, 0x7759A011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7759A010, 0x7759A011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7759A011, 22571, 0x759A000E, 41.02681, 141.9944, 100.9972, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

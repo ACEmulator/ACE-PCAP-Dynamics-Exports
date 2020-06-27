@@ -5,13 +5,13 @@ VALUES (0x729BC001,  1154, 0x29BC000B, 26.49317, 68.23386, 20, 0.1141083, 0, 0, 
 /* @teleloc 0x29BC000B [26.493170 68.233860 20.000000] 0.114108 0.000000 0.000000 -0.993468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729BC001, 0x729BC002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x729BC001, 0x729BC003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x729BC001, 0x729BC004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x729BC001, 0x729BC005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x729BC001, 0x729BC006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x729BC001, 0x729BC007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x729BC001, 0x729BC008, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x729BC001, 0x729BC002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x729BC001, 0x729BC003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x729BC001, 0x729BC004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x729BC001, 0x729BC005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x729BC001, 0x729BC006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x729BC001, 0x729BC007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x729BC001, 0x729BC008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729BC002, 11495, 0x29BC000B, 26.49317, 68.23386, 20, 0.1141083, 0, 0, -0.9934683,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */

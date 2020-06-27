@@ -5,14 +5,14 @@ VALUES (0x79BEB001,  1154, 0x9BEB001D, 75.20363, 117.4468, 57.56086, -0.6218206,
 /* @teleloc 0x9BEB001D [75.203630 117.446800 57.560860] -0.621821 0.000000 0.000000 -0.783160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEB001, 0x79BEB002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79BEB001, 0x79BEB003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79BEB001, 0x79BEB004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79BEB001, 0x79BEB005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79BEB001, 0x79BEB006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BEB001, 0x79BEB007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BEB001, 0x79BEB008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79BEB001, 0x79BEB009, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x79BEB001, 0x79BEB002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79BEB001, 0x79BEB003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79BEB001, 0x79BEB004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79BEB001, 0x79BEB005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79BEB001, 0x79BEB006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BEB001, 0x79BEB007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BEB001, 0x79BEB008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79BEB001, 0x79BEB009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEB002, 38177, 0x9BEB001D, 75.20363, 117.4468, 57.56086, -0.6218206, 0, 0, -0.7831597,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

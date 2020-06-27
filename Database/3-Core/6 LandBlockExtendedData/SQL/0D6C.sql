@@ -5,19 +5,19 @@ VALUES (0x70D6C001,  1154, 0x0D6C001B, 82.67781, 50.13591, 7.281676, 0.4769439, 
 /* @teleloc 0x0D6C001B [82.677810 50.135910 7.281676] 0.476944 0.000000 0.000000 -0.878934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D6C001, 0x70D6C002, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70D6C001, 0x70D6C003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D6C001, 0x70D6C004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70D6C001, 0x70D6C005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D6C001, 0x70D6C006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70D6C001, 0x70D6C007, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70D6C001, 0x70D6C008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70D6C001, 0x70D6C009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D6C001, 0x70D6C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D6C001, 0x70D6C00B, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70D6C001, 0x70D6C00C, '2019-02-10 00:00:00') /* Sirrocco */
-     , (0x70D6C001, 0x70D6C00D, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70D6C001, 0x70D6C00E, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x70D6C001, 0x70D6C002, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70D6C001, 0x70D6C003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D6C001, 0x70D6C004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70D6C001, 0x70D6C005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D6C001, 0x70D6C006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70D6C001, 0x70D6C007, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70D6C001, 0x70D6C008, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70D6C001, 0x70D6C009, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D6C001, 0x70D6C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D6C001, 0x70D6C00B, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70D6C001, 0x70D6C00C, '2019-02-10 00:00:00') /* Sirrocco (14878) */
+     , (0x70D6C001, 0x70D6C00D, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70D6C001, 0x70D6C00E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D6C002, 24957, 0x0D6C001B, 82.67781, 50.13591, 7.281676, 0.4769439, 0, 0, -0.8789337,  True, '2019-02-10 00:00:00'); /* Lacerator */
@@ -76,7 +76,7 @@ VALUES (0x70D6C00F,  1542, 0x0D6C000D, 41.69633, 96.51266, 9.485695, -0.8650154,
 /* @teleloc 0x0D6C000D [41.696330 96.512660 9.485695] -0.865015 0.000000 0.000000 -0.501745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D6C00F, 0x70D6C010, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x70D6C00F, 0x70D6C010, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D6C010, 31688, 0x0D6C000D, 41.69633, 96.51266, 9.485695, -0.8650154, 0, 0, -0.5017452,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

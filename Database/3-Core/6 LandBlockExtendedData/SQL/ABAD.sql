@@ -5,36 +5,36 @@ VALUES (0x7ABAD001,  1154, 0xABAD0100, 52.5913, 110.41, 74.8035, 0.226996, 0, 0,
 /* @teleloc 0xABAD0100 [52.591300 110.410000 74.803500] 0.226996 0.000000 0.000000 0.973896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAD001, 0x7ABAD002, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD003, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD006, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD007, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD008, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD009, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD00A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD00B, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD00C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD00D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ABAD001, 0x7ABAD00E, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD00F, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABAD001, 0x7ABAD011, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD012, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD013, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD014, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD015, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD016, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD017, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD018, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ABAD001, 0x7ABAD019, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD01A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ABAD001, 0x7ABAD01B, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD01C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD01D, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABAD001, 0x7ABAD01E, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABAD001, 0x7ABAD01F, '2019-02-10 00:00:00') /* Drudge Slave */;
+VALUES (0x7ABAD001, 0x7ABAD002, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD003, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD006, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD007, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD008, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD009, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD00A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD00B, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD00C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD00D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ABAD001, 0x7ABAD00E, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD00F, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABAD001, 0x7ABAD011, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD012, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD013, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD014, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD015, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD016, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD017, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD018, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ABAD001, 0x7ABAD019, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD01A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ABAD001, 0x7ABAD01B, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD01C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD01D, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABAD001, 0x7ABAD01E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABAD001, 0x7ABAD01F, '2019-02-10 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAD002,  1632, 0xABAD0100, 52.5913, 110.41, 74.8035, 0.226996, 0, 0, 0.973896,  True, '2019-02-10 00:00:00'); /* Drudge Slave */
@@ -161,9 +161,9 @@ VALUES (0x7ABAD020,  1542, 0xABAD0100, 47.2944, 107.61, 74.82401, 0.43821, 0, 0,
 /* @teleloc 0xABAD0100 [47.294400 107.610000 74.824010] 0.438210 0.000000 0.000000 0.898873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAD020, 0x7ABAD021, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ABAD020, 0x7ABAD022, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ABAD020, 0x7ABAD023, '2019-02-10 00:00:00') /* Renald's Old Mug */;
+VALUES (0x7ABAD020, 0x7ABAD021, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ABAD020, 0x7ABAD022, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ABAD020, 0x7ABAD023, '2019-02-10 00:00:00') /* Renald's Old Mug (28844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAD021,   258, 0xABAD0100, 47.2944, 107.61, 74.82401, 0.43821, 0, 0, 0.898873,  True, '2019-02-10 00:00:00'); /* Apple */

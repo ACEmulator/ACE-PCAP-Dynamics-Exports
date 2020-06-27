@@ -5,19 +5,19 @@ VALUES (0x7198C001,  1154, 0x198C0027, 118.7797, 157.9302, 229.5015, 0.5084893, 
 /* @teleloc 0x198C0027 [118.779700 157.930200 229.501500] 0.508489 0.000000 0.000000 -0.861068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198C001, 0x7198C002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198C001, 0x7198C003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7198C001, 0x7198C004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198C001, 0x7198C005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7198C001, 0x7198C006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7198C001, 0x7198C007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198C001, 0x7198C008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198C001, 0x7198C009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7198C001, 0x7198C00A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7198C001, 0x7198C00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198C001, 0x7198C00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198C001, 0x7198C00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198C001, 0x7198C00E, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7198C001, 0x7198C002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198C001, 0x7198C003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7198C001, 0x7198C004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198C001, 0x7198C005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7198C001, 0x7198C006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7198C001, 0x7198C007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198C001, 0x7198C008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198C001, 0x7198C009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7198C001, 0x7198C00A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7198C001, 0x7198C00B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198C001, 0x7198C00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198C001, 0x7198C00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198C001, 0x7198C00E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198C002, 36832, 0x198C0027, 118.7797, 157.9302, 229.5015, 0.5084893, 0, 0, -0.8610683,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -76,8 +76,8 @@ VALUES (0x7198C00F,  1542, 0x198C0009, 33.58449, 16.49638, 173.6229, -0.3605075,
 /* @teleloc 0x198C0009 [33.584490 16.496380 173.622900] -0.360508 0.000000 0.000000 -0.932756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198C00F, 0x7198C010, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7198C00F, 0x7198C011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7198C00F, 0x7198C010, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7198C00F, 0x7198C011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198C010,  8648, 0x198C0009, 33.58449, 16.49638, 173.6229, -0.3605075, 0, 0, -0.9327563,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

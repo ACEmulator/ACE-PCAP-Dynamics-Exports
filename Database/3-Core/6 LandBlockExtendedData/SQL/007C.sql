@@ -93,29 +93,29 @@ VALUES (0x7007C04A,  1154, 0x007C0239, 0.226816, -170.121, -6, 0.726231, 0, 0, -
 /* @teleloc 0x007C0239 [0.226816 -170.121000 -6.000000] 0.726231 0.000000 0.000000 -0.687451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007C04A, 0x7007C04B, '2019-02-10 00:00:00') /* Faisi Disciple */
-     , (0x7007C04A, 0x7007C04C, '2019-02-10 00:00:00') /* Faisi Disciple */
-     , (0x7007C04A, 0x7007C04D, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C04E, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C04F, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C050, '2019-02-10 00:00:00') /* Faisi Disciple */
-     , (0x7007C04A, 0x7007C051, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C052, '2019-02-10 00:00:00') /* Faisi Disciple */
-     , (0x7007C04A, 0x7007C053, '2019-02-10 00:00:00') /* Altar of Urdhinivix */
-     , (0x7007C04A, 0x7007C054, '2019-02-10 00:00:00') /* Faisi Disciple */
-     , (0x7007C04A, 0x7007C055, '2019-02-10 00:00:00') /* Aste Soul Harrier */
-     , (0x7007C04A, 0x7007C056, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C057, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C058, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C059, '2019-02-10 00:00:00') /* Essa Soul Harrier */
-     , (0x7007C04A, 0x7007C05A, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C05B, '2019-02-10 00:00:00') /* Essa Soul Harrier */
-     , (0x7007C04A, 0x7007C05C, '2019-02-10 00:00:00') /* Essa Soul Harrier */
-     , (0x7007C04A, 0x7007C05D, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C05E, '2019-02-10 00:00:00') /* Chomu Disciple */
-     , (0x7007C04A, 0x7007C05F, '2019-02-10 00:00:00') /* Soul Hunter */
-     , (0x7007C04A, 0x7007C060, '2019-02-10 00:00:00') /* Essa Soul Harrier */
-     , (0x7007C04A, 0x7007C061, '2019-02-10 00:00:00') /* Essa Soul Harrier */;
+VALUES (0x7007C04A, 0x7007C04B, '2019-02-10 00:00:00') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C04C, '2019-02-10 00:00:00') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C04D, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C04E, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C04F, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C050, '2019-02-10 00:00:00') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C051, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C052, '2019-02-10 00:00:00') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C053, '2019-02-10 00:00:00') /* Altar of Urdhinivix (34306) */
+     , (0x7007C04A, 0x7007C054, '2019-02-10 00:00:00') /* Faisi Disciple (34312) */
+     , (0x7007C04A, 0x7007C055, '2019-02-10 00:00:00') /* Aste Soul Harrier (34313) */
+     , (0x7007C04A, 0x7007C056, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C057, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C058, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C059, '2019-02-10 00:00:00') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C05A, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C05B, '2019-02-10 00:00:00') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C05C, '2019-02-10 00:00:00') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C05D, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C05E, '2019-02-10 00:00:00') /* Chomu Disciple (34314) */
+     , (0x7007C04A, 0x7007C05F, '2019-02-10 00:00:00') /* Soul Hunter (34315) */
+     , (0x7007C04A, 0x7007C060, '2019-02-10 00:00:00') /* Essa Soul Harrier (34311) */
+     , (0x7007C04A, 0x7007C061, '2019-02-10 00:00:00') /* Essa Soul Harrier (34311) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007C04B, 34312, 0x007C0239, 0.226816, -170.121, -6, 0.726231, 0, 0, -0.687451,  True, '2019-02-10 00:00:00'); /* Faisi Disciple */
@@ -214,8 +214,8 @@ VALUES (0x7007C062,  1542, 0x007C0134, 69.5, -30, -18.0075, 0, 0, 0, -1, False, 
 /* @teleloc 0x007C0134 [69.500000 -30.000000 -18.007500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7007C062, 0x7007C063, '2019-02-10 00:00:00') /* Sacrificial Goblet */
-     , (0x7007C062, 0x7007C064, '2019-02-10 00:00:00') /* Sacrificial Knife */;
+VALUES (0x7007C062, 0x7007C063, '2019-02-10 00:00:00') /* Sacrificial Goblet (34308) */
+     , (0x7007C062, 0x7007C064, '2019-02-10 00:00:00') /* Sacrificial Knife (34307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007C063, 34308, 0x007C0134, 69.5, -30, -18.0075, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Sacrificial Goblet */

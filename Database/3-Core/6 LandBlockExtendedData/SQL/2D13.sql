@@ -5,14 +5,14 @@ VALUES (0x72D13001,  1154, 0x2D130029, 138.4654, 3.02044, 15.29808, 0.9961947, 0
 /* @teleloc 0x2D130029 [138.465400 3.020440 15.298080] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D13001, 0x72D13002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72D13001, 0x72D13003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D13001, 0x72D13004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D13001, 0x72D13005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D13001, 0x72D13006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72D13001, 0x72D13007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D13001, 0x72D13008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D13001, 0x72D13009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72D13001, 0x72D13002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72D13001, 0x72D13003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D13001, 0x72D13004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D13001, 0x72D13005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D13001, 0x72D13006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72D13001, 0x72D13007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D13001, 0x72D13008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D13001, 0x72D13009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D13002,  1629, 0x2D130029, 138.4654, 3.02044, 15.29808, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -51,8 +51,8 @@ VALUES (0x72D1300A,  1542, 0x2D130008, 9.355167, 188.5757, 12.7696, 0.3152981, 0
 /* @teleloc 0x2D130008 [9.355167 188.575700 12.769600] 0.315298 0.000000 0.000000 -0.948993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D1300A, 0x72D1300B, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x72D1300A, 0x72D1300C, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72D1300A, 0x72D1300B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x72D1300A, 0x72D1300C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D1300B,  9288, 0x2D130008, 9.355167, 188.5757, 12.7696, 0.3152981, 0, 0, -0.9489927,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

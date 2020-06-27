@@ -5,21 +5,21 @@ VALUES (0x7289D001,  1154, 0x289D0021, 106.9668, 22.22135, 1.234323, 0.7071068, 
 /* @teleloc 0x289D0021 [106.966800 22.221350 1.234323] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7289D001, 0x7289D002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7289D001, 0x7289D003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7289D001, 0x7289D004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7289D001, 0x7289D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7289D001, 0x7289D006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7289D001, 0x7289D007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7289D001, 0x7289D008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7289D001, 0x7289D009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7289D001, 0x7289D00A, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7289D001, 0x7289D00B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7289D001, 0x7289D00C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7289D001, 0x7289D00D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7289D001, 0x7289D00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7289D001, 0x7289D00F, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7289D001, 0x7289D010, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x7289D001, 0x7289D002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7289D001, 0x7289D003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7289D001, 0x7289D004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7289D001, 0x7289D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7289D001, 0x7289D006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7289D001, 0x7289D007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7289D001, 0x7289D008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7289D001, 0x7289D009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7289D001, 0x7289D00A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7289D001, 0x7289D00B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7289D001, 0x7289D00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7289D001, 0x7289D00D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7289D001, 0x7289D00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7289D001, 0x7289D00F, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7289D001, 0x7289D010, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7289D002,  7112, 0x289D0021, 106.9668, 22.22135, 1.234323, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

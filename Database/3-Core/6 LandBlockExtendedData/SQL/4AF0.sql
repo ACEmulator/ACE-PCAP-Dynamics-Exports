@@ -9,11 +9,11 @@ VALUES (0x74AF0001,  1154, 0x4AF00001, 20.62171, 16.90034, -0.46875, 0.92852, 0,
 /* @teleloc 0x4AF00001 [20.621710 16.900340 -0.468750] 0.928520 0.000000 0.000000 -0.371283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AF0001, 0x74AF0002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x74AF0001, 0x74AF0003, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x74AF0001, 0x74AF0004, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x74AF0001, 0x74AF0005, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74AF0001, 0x74AF0006, '2019-02-10 00:00:00') /* Royal Thaumaturge */;
+VALUES (0x74AF0001, 0x74AF0002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x74AF0001, 0x74AF0003, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x74AF0001, 0x74AF0004, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x74AF0001, 0x74AF0005, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74AF0001, 0x74AF0006, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AF0002,  7114, 0x4AF00001, 20.62171, 16.90034, -0.46875, 0.92852, 0, 0, -0.3712825,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

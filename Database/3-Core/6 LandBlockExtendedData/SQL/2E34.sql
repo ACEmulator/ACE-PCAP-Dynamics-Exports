@@ -5,17 +5,17 @@ VALUES (0x72E34001,  1154, 0x2E340030, 128.5002, 185.1861, 68.59682, -0.3938557,
 /* @teleloc 0x2E340030 [128.500200 185.186100 68.596820] -0.393856 0.000000 0.000000 -0.919172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E34001, 0x72E34002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E34001, 0x72E34003, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72E34001, 0x72E34004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E34001, 0x72E34005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E34001, 0x72E34006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72E34001, 0x72E34007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72E34001, 0x72E34008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72E34001, 0x72E34009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72E34001, 0x72E3400A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72E34001, 0x72E3400B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E34001, 0x72E3400C, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x72E34001, 0x72E34002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E34001, 0x72E34003, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72E34001, 0x72E34004, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E34001, 0x72E34005, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E34001, 0x72E34006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72E34001, 0x72E34007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72E34001, 0x72E34008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72E34001, 0x72E34009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72E34001, 0x72E3400A, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72E34001, 0x72E3400B, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72E34001, 0x72E3400C, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E34002, 36860, 0x2E340030, 128.5002, 185.1861, 68.59682, -0.3938557, 0, 0, -0.9191723,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

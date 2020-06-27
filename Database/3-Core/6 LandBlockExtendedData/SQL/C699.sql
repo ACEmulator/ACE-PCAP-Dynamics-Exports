@@ -5,10 +5,10 @@ VALUES (0x7C699001,  1154, 0xC699002C, 131.8017, 92.73347, 6.005, 0.8182386, 0, 
 /* @teleloc 0xC699002C [131.801700 92.733470 6.005000] 0.818239 0.000000 0.000000 -0.574879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C699001, 0x7C699002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7C699001, 0x7C699003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C699001, 0x7C699004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C699001, 0x7C699005, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7C699001, 0x7C699002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7C699001, 0x7C699003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C699001, 0x7C699004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C699001, 0x7C699005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C699002,    10, 0xC699002C, 131.8017, 92.73347, 6.005, 0.8182386, 0, 0, -0.5748787,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

@@ -5,21 +5,21 @@ VALUES (0x7AAAF001,  1154, 0xAAAF0015, 67.95049, 117.5204, 90.56052, 0.7006279, 
 /* @teleloc 0xAAAF0015 [67.950490 117.520400 90.560520] 0.700628 0.000000 0.000000 -0.713527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAAF001, 0x7AAAF002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAAF001, 0x7AAAF003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAF001, 0x7AAAF004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AAAF001, 0x7AAAF005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAF001, 0x7AAAF006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAF001, 0x7AAAF007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAAF001, 0x7AAAF008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAF001, 0x7AAAF009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAF001, 0x7AAAF00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AAAF001, 0x7AAAF00B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AAAF001, 0x7AAAF00C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAF001, 0x7AAAF00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AAAF001, 0x7AAAF00E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAF001, 0x7AAAF00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAF001, 0x7AAAF010, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7AAAF001, 0x7AAAF002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAAF001, 0x7AAAF003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AAAF001, 0x7AAAF004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7AAAF001, 0x7AAAF005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7AAAF001, 0x7AAAF006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AAAF001, 0x7AAAF007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAAF001, 0x7AAAF008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7AAAF001, 0x7AAAF009, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AAAF001, 0x7AAAF00A, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7AAAF001, 0x7AAAF00B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AAAF001, 0x7AAAF00C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7AAAF001, 0x7AAAF00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AAAF001, 0x7AAAF00E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7AAAF001, 0x7AAAF00F, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7AAAF001, 0x7AAAF010, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAAF002,  2566, 0xAAAF0015, 67.95049, 117.5204, 90.56052, 0.7006279, 0, 0, -0.7135269,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

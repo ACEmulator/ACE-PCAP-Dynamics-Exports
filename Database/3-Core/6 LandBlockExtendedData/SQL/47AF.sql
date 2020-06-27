@@ -5,27 +5,27 @@ VALUES (0x747AF001,  1154, 0x47AF000F, 36.12217, 165.5036, 111.4877, -0.9723498,
 /* @teleloc 0x47AF000F [36.122170 165.503600 111.487700] -0.972350 0.000000 0.000000 -0.233529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747AF001, 0x747AF002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x747AF001, 0x747AF003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x747AF001, 0x747AF004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x747AF001, 0x747AF007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x747AF001, 0x747AF008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x747AF001, 0x747AF009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x747AF001, 0x747AF00A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x747AF001, 0x747AF00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF00E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x747AF001, 0x747AF00F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x747AF001, 0x747AF010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x747AF001, 0x747AF011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x747AF001, 0x747AF012, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x747AF001, 0x747AF013, '2019-02-10 00:00:00') /* Frost */
-     , (0x747AF001, 0x747AF014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x747AF001, 0x747AF015, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x747AF001, 0x747AF016, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x747AF001, 0x747AF002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x747AF001, 0x747AF003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x747AF001, 0x747AF004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x747AF001, 0x747AF007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x747AF001, 0x747AF008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x747AF001, 0x747AF009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x747AF001, 0x747AF00A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x747AF001, 0x747AF00B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF00C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF00E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x747AF001, 0x747AF00F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x747AF001, 0x747AF010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x747AF001, 0x747AF011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x747AF001, 0x747AF012, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x747AF001, 0x747AF013, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x747AF001, 0x747AF014, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x747AF001, 0x747AF015, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x747AF001, 0x747AF016, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747AF002, 14800, 0x47AF000F, 36.12217, 165.5036, 111.4877, -0.9723498, 0, 0, -0.2335291,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

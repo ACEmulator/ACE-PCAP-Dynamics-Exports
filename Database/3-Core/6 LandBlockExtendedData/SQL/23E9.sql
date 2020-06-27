@@ -5,8 +5,8 @@ VALUES (0x723E9001,  1154, 0x23E90009, 25.0553, 9.60787, -0.0934, 0.8430737, 0, 
 /* @teleloc 0x23E90009 [25.055300 9.607870 -0.093400] 0.843074 0.000000 0.000000 -0.537798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723E9001, 0x723E9002, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x723E9001, 0x723E9003, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x723E9001, 0x723E9002, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x723E9001, 0x723E9003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E9002, 28670, 0x23E90009, 25.0553, 9.60787, -0.0934, 0.8430737, 0, 0, -0.537798,  True, '2019-02-10 00:00:00'); /* Ruschk Fiend */

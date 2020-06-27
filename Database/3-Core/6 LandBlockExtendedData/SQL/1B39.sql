@@ -5,13 +5,13 @@ VALUES (0x71B39001,  1154, 0x1B390033, 146.3336, 57.56569, 77.0016, 0.2588191, 0
 /* @teleloc 0x1B390033 [146.333600 57.565690 77.001600] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B39001, 0x71B39002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71B39001, 0x71B39003, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71B39001, 0x71B39004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71B39001, 0x71B39005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B39001, 0x71B39006, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71B39001, 0x71B39007, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71B39001, 0x71B39008, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x71B39001, 0x71B39002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71B39001, 0x71B39003, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71B39001, 0x71B39004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71B39001, 0x71B39005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71B39001, 0x71B39006, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71B39001, 0x71B39007, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71B39001, 0x71B39008, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B39002, 36839, 0x1B390033, 146.3336, 57.56569, 77.0016, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */
@@ -46,7 +46,7 @@ VALUES (0x71B39009,  1542, 0x1B39002B, 143.6168, 61.59546, 77.21325, -4.371139E-
 /* @teleloc 0x1B39002B [143.616800 61.595460 77.213250] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B39009, 0x71B3900A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B39009, 0x71B3900A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B3900A,  4380, 0x1B39002B, 143.6168, 61.59546, 77.21325, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

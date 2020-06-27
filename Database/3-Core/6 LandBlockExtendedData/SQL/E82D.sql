@@ -321,7 +321,7 @@ VALUES (0x7E82D051,  1154, 0xE82D0027, 112.29, 167.7877, 86.60962, -0.0385881, 0
 /* @teleloc 0xE82D0027 [112.290000 167.787700 86.609620] -0.038588 0.000000 0.000000 -0.999255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E82D051, 0x7E82D052, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7E82D051, 0x7E82D052, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82D052,  7334, 0xE82D0027, 112.29, 167.7877, 86.60962, -0.0385881, 0, 0, -0.9992552,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

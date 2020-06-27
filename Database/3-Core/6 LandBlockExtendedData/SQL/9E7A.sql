@@ -5,24 +5,24 @@ VALUES (0x79E7A001,  1154, 0x9E7A0022, 105.8571, 34.94581, 22.09372, -0.8885004,
 /* @teleloc 0x9E7A0022 [105.857100 34.945810 22.093720] -0.888500 0.000000 0.000000 -0.458876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7A001, 0x79E7A002, '2019-02-10 00:00:00') /* Gout */
-     , (0x79E7A001, 0x79E7A003, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79E7A001, 0x79E7A004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79E7A001, 0x79E7A005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79E7A001, 0x79E7A006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79E7A001, 0x79E7A007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79E7A001, 0x79E7A008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79E7A001, 0x79E7A009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x79E7A001, 0x79E7A00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E7A001, 0x79E7A00B, '2019-02-10 00:00:00') /* Charge */
-     , (0x79E7A001, 0x79E7A00C, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79E7A001, 0x79E7A00D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E7A001, 0x79E7A00E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79E7A001, 0x79E7A00F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79E7A001, 0x79E7A010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79E7A001, 0x79E7A011, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79E7A001, 0x79E7A012, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x79E7A001, 0x79E7A013, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x79E7A001, 0x79E7A002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79E7A001, 0x79E7A003, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79E7A001, 0x79E7A004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79E7A001, 0x79E7A005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79E7A001, 0x79E7A006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79E7A001, 0x79E7A007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79E7A001, 0x79E7A008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79E7A001, 0x79E7A009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x79E7A001, 0x79E7A00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E7A001, 0x79E7A00B, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79E7A001, 0x79E7A00C, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79E7A001, 0x79E7A00D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E7A001, 0x79E7A00E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79E7A001, 0x79E7A00F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79E7A001, 0x79E7A010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79E7A001, 0x79E7A011, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79E7A001, 0x79E7A012, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x79E7A001, 0x79E7A013, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7A002, 21164, 0x9E7A0022, 105.8571, 34.94581, 22.09372, -0.8885004, 0, 0, -0.4588758,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -101,7 +101,7 @@ VALUES (0x79E7A014,  1542, 0x9E7A001C, 75.2888, 89.19037, 23.99784, 1, 0, 0, 0, 
 /* @teleloc 0x9E7A001C [75.288800 89.190370 23.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7A014, 0x79E7A015, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x79E7A014, 0x79E7A015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7A015, 31443, 0x9E7A001C, 75.2888, 89.19037, 23.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

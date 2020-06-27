@@ -5,22 +5,22 @@ VALUES (0x70F3A001,  1154, 0x0F3A0033, 154.8502, 58.38817, -0.8935001, 1, 0, 0, 
 /* @teleloc 0x0F3A0033 [154.850200 58.388170 -0.893500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F3A001, 0x70F3A002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x70F3A001, 0x70F3A003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F3A001, 0x70F3A004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70F3A001, 0x70F3A005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F3A001, 0x70F3A006, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70F3A001, 0x70F3A007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70F3A001, 0x70F3A008, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70F3A001, 0x70F3A009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F3A001, 0x70F3A00A, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70F3A001, 0x70F3A00B, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x70F3A001, 0x70F3A00C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F3A001, 0x70F3A00D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F3A001, 0x70F3A00E, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F3A001, 0x70F3A00F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F3A001, 0x70F3A010, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F3A001, 0x70F3A011, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x70F3A001, 0x70F3A002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x70F3A001, 0x70F3A003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F3A001, 0x70F3A004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70F3A001, 0x70F3A005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F3A001, 0x70F3A006, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70F3A001, 0x70F3A007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70F3A001, 0x70F3A008, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70F3A001, 0x70F3A009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F3A001, 0x70F3A00A, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70F3A001, 0x70F3A00B, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x70F3A001, 0x70F3A00C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F3A001, 0x70F3A00D, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F3A001, 0x70F3A00E, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F3A001, 0x70F3A00F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F3A001, 0x70F3A010, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F3A001, 0x70F3A011, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F3A002, 22909, 0x0F3A0033, 154.8502, 58.38817, -0.8935001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -91,7 +91,7 @@ VALUES (0x70F3A012,  1542, 0x0F3A0022, 109.9964, 43.22103, 0, -4.371139E-08, 0, 
 /* @teleloc 0x0F3A0022 [109.996400 43.221030 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F3A012, 0x70F3A013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F3A012, 0x70F3A013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F3A013,  4380, 0x0F3A0022, 109.9964, 43.22103, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

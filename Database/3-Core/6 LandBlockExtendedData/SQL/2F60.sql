@@ -5,18 +5,18 @@ VALUES (0x72F60001,  1154, 0x2F600027, 114.0604, 146.2845, 8.311093, 0.9537169, 
 /* @teleloc 0x2F600027 [114.060400 146.284500 8.311093] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F60001, 0x72F60002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F60001, 0x72F60003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F60001, 0x72F60004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F60001, 0x72F60005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72F60001, 0x72F60006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F60001, 0x72F60007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F60001, 0x72F60008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72F60001, 0x72F60009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F60001, 0x72F6000A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F60001, 0x72F6000B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F60001, 0x72F6000C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72F60001, 0x72F6000D, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x72F60001, 0x72F60002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F60001, 0x72F60003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F60001, 0x72F60004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F60001, 0x72F60005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72F60001, 0x72F60006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F60001, 0x72F60007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F60001, 0x72F60008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72F60001, 0x72F60009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F60001, 0x72F6000A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F60001, 0x72F6000B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F60001, 0x72F6000C, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72F60001, 0x72F6000D, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F60002,  8431, 0x2F600027, 114.0604, 146.2845, 8.311093, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

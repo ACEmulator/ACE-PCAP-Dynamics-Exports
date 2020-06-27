@@ -5,11 +5,11 @@ VALUES (0x7AEA6001,  1154, 0xAEA60002, 18.32427, 42.74903, 138.4075, -0.4092174,
 /* @teleloc 0xAEA60002 [18.324270 42.749030 138.407500] -0.409217 0.000000 0.000000 -0.912437 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA6001, 0x7AEA6002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEA6001, 0x7AEA6003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7AEA6001, 0x7AEA6004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AEA6001, 0x7AEA6005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEA6001, 0x7AEA6006, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7AEA6001, 0x7AEA6002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AEA6001, 0x7AEA6003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7AEA6001, 0x7AEA6004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AEA6001, 0x7AEA6005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEA6001, 0x7AEA6006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA6002,   193, 0xAEA60002, 18.32427, 42.74903, 138.4075, -0.4092174, 0, 0, -0.9124369,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

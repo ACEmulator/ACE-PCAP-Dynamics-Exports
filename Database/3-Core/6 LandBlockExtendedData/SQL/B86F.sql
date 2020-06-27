@@ -17,38 +17,38 @@ VALUES (0x7B86F00D,  1154, 0xB86F003B, 169.0146, 54.13111, 10, -0.1080293, 0, 0,
 /* @teleloc 0xB86F003B [169.014600 54.131110 10.000000] -0.108029 0.000000 0.000000 -0.994148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B86F00D, 0x7B86F00E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F00F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F012, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F016, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F017, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F018, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F019, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F01B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F01D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B86F00D, 0x7B86F01E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F01F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B86F00D, 0x7B86F020, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F021, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B86F00D, 0x7B86F022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F023, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F025, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F026, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B86F00D, 0x7B86F027, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F028, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F029, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F02A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F02B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B86F00D, 0x7B86F02C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B86F00D, 0x7B86F02D, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7B86F00D, 0x7B86F00E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F00F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F012, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F019, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F01B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F01D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B86F00D, 0x7B86F01E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F01F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B86F00D, 0x7B86F020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F021, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B86F00D, 0x7B86F022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F023, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F025, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F026, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B86F00D, 0x7B86F027, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F028, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F029, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F02A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F02B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B86F00D, 0x7B86F02C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B86F00D, 0x7B86F02D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B86F00E,  2567, 0xB86F003B, 169.0146, 54.13111, 10, -0.1080293, 0, 0, -0.9941477,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -183,10 +183,10 @@ VALUES (0x7B86F02E,  1542, 0xB86F003B, 169.7702, 50.357, 10, 1, 0, 0, 0, False, 
 /* @teleloc 0xB86F003B [169.770200 50.357000 10.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B86F02E, 0x7B86F02F, '2019-02-10 00:00:00') /* Egg */
-     , (0x7B86F02E, 0x7B86F030, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7B86F02E, 0x7B86F031, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7B86F02E, 0x7B86F032, '2019-02-10 00:00:00') /* Decanter of Nullified Essence */;
+VALUES (0x7B86F02E, 0x7B86F02F, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7B86F02E, 0x7B86F030, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7B86F02E, 0x7B86F031, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7B86F02E, 0x7B86F032, '2019-02-10 00:00:00') /* Decanter of Nullified Essence (32943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B86F02F,   546, 0xB86F003B, 169.7702, 50.357, 10, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

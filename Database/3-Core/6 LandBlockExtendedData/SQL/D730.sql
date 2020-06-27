@@ -5,12 +5,12 @@ VALUES (0x7D730001,  1154, 0xD7300030, 142.3561, 183.1841, 108.1415, 0.9238795, 
 /* @teleloc 0xD7300030 [142.356100 183.184100 108.141500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D730001, 0x7D730002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D730001, 0x7D730003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D730001, 0x7D730004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D730001, 0x7D730005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D730001, 0x7D730006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D730001, 0x7D730007, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7D730001, 0x7D730002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D730001, 0x7D730003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D730001, 0x7D730004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D730001, 0x7D730005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D730001, 0x7D730006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D730001, 0x7D730007, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D730002,  7090, 0xD7300030, 142.3561, 183.1841, 108.1415, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

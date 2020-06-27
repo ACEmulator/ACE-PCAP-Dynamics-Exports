@@ -5,14 +5,14 @@ VALUES (0x7BEB1001,  1154, 0xBEB1001B, 93.93546, 68.67652, 146.9971, -0.7660444,
 /* @teleloc 0xBEB1001B [93.935460 68.676520 146.997100] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB1001, 0x7BEB1002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEB1001, 0x7BEB1003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BEB1001, 0x7BEB1004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB1001, 0x7BEB1005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BEB1001, 0x7BEB1006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB1001, 0x7BEB1007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB1001, 0x7BEB1008, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEB1001, 0x7BEB1009, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7BEB1001, 0x7BEB1002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEB1001, 0x7BEB1003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BEB1001, 0x7BEB1004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB1001, 0x7BEB1005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BEB1001, 0x7BEB1006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB1001, 0x7BEB1007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB1001, 0x7BEB1008, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEB1001, 0x7BEB1009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB1002,  9401, 0xBEB1001B, 93.93546, 68.67652, 146.9971, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -51,7 +51,7 @@ VALUES (0x7BEB100A,  1542, 0xBEB10024, 115.6344, 79.20475, 152.9086, -0.06484859
 /* @teleloc 0xBEB10024 [115.634400 79.204750 152.908600] -0.064849 0.000000 0.000000 -0.997895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB100A, 0x7BEB100B, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BEB100A, 0x7BEB100B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB100B,  8646, 0xBEB10024, 115.6344, 79.20475, 152.9086, -0.06484859, 0, 0, -0.9978951,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

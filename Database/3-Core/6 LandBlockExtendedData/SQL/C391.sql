@@ -5,25 +5,25 @@ VALUES (0x7C391001,  1154, 0xC3910016, 66.31682, 131.1382, 1.5545, -0.5448886, 0
 /* @teleloc 0xC3910016 [66.316820 131.138200 1.554500] -0.544889 0.000000 0.000000 -0.838509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C391001, 0x7C391002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C391001, 0x7C391003, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C391001, 0x7C391004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C391001, 0x7C391005, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7C391001, 0x7C391006, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C391001, 0x7C391007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C391008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C391009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C39100A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C39100B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C39100C, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C391001, 0x7C39100D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C391001, 0x7C39100E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C391001, 0x7C39100F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C391001, 0x7C391010, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C391001, 0x7C391011, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C391001, 0x7C391012, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C391001, 0x7C391013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C391001, 0x7C391014, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7C391001, 0x7C391002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C391001, 0x7C391003, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C391001, 0x7C391004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C391001, 0x7C391005, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7C391001, 0x7C391006, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C391001, 0x7C391007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C391008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C391009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C39100A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C39100B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C39100C, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C391001, 0x7C39100D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C391001, 0x7C39100E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C391001, 0x7C39100F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C391001, 0x7C391010, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C391001, 0x7C391011, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C391001, 0x7C391012, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C391001, 0x7C391013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C391001, 0x7C391014, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C391002,  1612, 0xC3910016, 66.31682, 131.1382, 1.5545, -0.5448886, 0, 0, -0.8385085,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -106,7 +106,7 @@ VALUES (0x7C391015,  1542, 0xC391001F, 89.80281, 151.2385, 1.9, 0.9537169, 0, 0,
 /* @teleloc 0xC391001F [89.802810 151.238500 1.900000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C391015, 0x7C391016, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C391015, 0x7C391016, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C391016,  4180, 0xC391001F, 89.80281, 151.2385, 1.9, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Corpse */

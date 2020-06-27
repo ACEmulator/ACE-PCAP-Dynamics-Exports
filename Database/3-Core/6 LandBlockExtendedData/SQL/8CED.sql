@@ -5,12 +5,12 @@ VALUES (0x78CED001,  1154, 0x8CED0033, 151.913, 65.49977, 35.33158, 0.4376775, 0
 /* @teleloc 0x8CED0033 [151.913000 65.499770 35.331580] 0.437678 0.000000 0.000000 -0.899132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CED001, 0x78CED002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78CED001, 0x78CED003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CED001, 0x78CED004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CED001, 0x78CED005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78CED001, 0x78CED006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CED001, 0x78CED007, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x78CED001, 0x78CED002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78CED001, 0x78CED003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CED001, 0x78CED004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CED001, 0x78CED005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78CED001, 0x78CED006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CED001, 0x78CED007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CED002,  9253, 0x8CED0033, 151.913, 65.49977, 35.33158, 0.4376775, 0, 0, -0.899132,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

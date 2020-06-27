@@ -5,11 +5,11 @@ VALUES (0x767B3001,  1154, 0x67B30003, 5.982582, 66.70643, 30.00419, 0.7660445, 
 /* @teleloc 0x67B30003 [5.982582 66.706430 30.004190] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767B3001, 0x767B3002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x767B3001, 0x767B3003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x767B3001, 0x767B3004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x767B3001, 0x767B3005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x767B3001, 0x767B3006, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x767B3001, 0x767B3002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x767B3001, 0x767B3003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x767B3001, 0x767B3004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x767B3001, 0x767B3005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x767B3001, 0x767B3006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767B3002,  7096, 0x67B30003, 5.982582, 66.70643, 30.00419, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -36,7 +36,7 @@ VALUES (0x767B3007,  1542, 0x67B30022, 100.4451, 40.08039, 79.56258, 1, 0, 0, 0,
 /* @teleloc 0x67B30022 [100.445100 40.080390 79.562580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767B3007, 0x767B3008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x767B3007, 0x767B3008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767B3008,  4179, 0x67B30022, 100.4451, 40.08039, 79.56258, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

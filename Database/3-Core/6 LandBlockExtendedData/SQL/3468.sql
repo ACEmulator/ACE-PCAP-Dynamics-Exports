@@ -5,18 +5,18 @@ VALUES (0x73468001,  1154, 0x3468003E, 172.7873, 121.3884, 132.5149, 0.8580388, 
 /* @teleloc 0x3468003E [172.787300 121.388400 132.514900] 0.858039 0.000000 0.000000 -0.513585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73468001, 0x73468002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73468001, 0x73468003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73468001, 0x73468004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73468001, 0x73468005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73468001, 0x73468006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73468001, 0x73468007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73468001, 0x73468008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73468001, 0x73468009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73468001, 0x7346800A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73468001, 0x7346800B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73468001, 0x7346800C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73468001, 0x7346800D, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73468001, 0x73468002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73468001, 0x73468003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73468001, 0x73468004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73468001, 0x73468005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73468001, 0x73468006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73468001, 0x73468007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73468001, 0x73468008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73468001, 0x73468009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73468001, 0x7346800A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73468001, 0x7346800B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73468001, 0x7346800C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73468001, 0x7346800D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73468002, 36842, 0x3468003E, 172.7873, 121.3884, 132.5149, 0.8580388, 0, 0, -0.5135849,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

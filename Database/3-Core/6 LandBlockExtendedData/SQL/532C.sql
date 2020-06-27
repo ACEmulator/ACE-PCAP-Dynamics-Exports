@@ -5,9 +5,9 @@ VALUES (0x7532C001,  1154, 0x532C0012, 51.66618, 24.62323, -0.09175, -0.5026792,
 /* @teleloc 0x532C0012 [51.666180 24.623230 -0.091750] -0.502679 0.000000 0.000000 -0.864473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7532C001, 0x7532C002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7532C001, 0x7532C003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7532C001, 0x7532C004, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7532C001, 0x7532C002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7532C001, 0x7532C003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7532C001, 0x7532C004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7532C002, 24325, 0x532C0012, 51.66618, 24.62323, -0.09175, -0.5026792, 0, 0, -0.864473,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -26,7 +26,7 @@ VALUES (0x7532C005,  1542, 0x532C0005, 9.81855, 109.2715, 3.024015, 1, 0, 0, 0, 
 /* @teleloc 0x532C0005 [9.818550 109.271500 3.024015] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7532C005, 0x7532C006, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7532C005, 0x7532C006, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7532C006, 31445, 0x532C0005, 9.81855, 109.2715, 3.024015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

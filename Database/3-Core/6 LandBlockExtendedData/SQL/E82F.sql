@@ -5,22 +5,22 @@ VALUES (0x7E82F001,  1154, 0xE82F0024, 102.6832, 89.33196, 187.2129, 0.8797974, 
 /* @teleloc 0xE82F0024 [102.683200 89.331960 187.212900] 0.879797 0.000000 0.000000 -0.475349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E82F001, 0x7E82F002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E82F001, 0x7E82F003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E82F001, 0x7E82F004, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7E82F001, 0x7E82F005, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E82F001, 0x7E82F006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E82F001, 0x7E82F007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E82F001, 0x7E82F008, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7E82F001, 0x7E82F009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7E82F001, 0x7E82F00A, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7E82F001, 0x7E82F00B, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7E82F001, 0x7E82F00C, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7E82F001, 0x7E82F00D, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7E82F001, 0x7E82F00E, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7E82F001, 0x7E82F00F, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7E82F001, 0x7E82F010, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E82F001, 0x7E82F011, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7E82F001, 0x7E82F002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E82F001, 0x7E82F003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E82F001, 0x7E82F004, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7E82F001, 0x7E82F005, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E82F001, 0x7E82F006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E82F001, 0x7E82F007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E82F001, 0x7E82F008, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7E82F001, 0x7E82F009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7E82F001, 0x7E82F00A, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7E82F001, 0x7E82F00B, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7E82F001, 0x7E82F00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7E82F001, 0x7E82F00D, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E82F001, 0x7E82F00E, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7E82F001, 0x7E82F00F, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7E82F001, 0x7E82F010, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E82F001, 0x7E82F011, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82F002,  2576, 0xE82F0024, 102.6832, 89.33196, 187.2129, 0.8797974, 0, 0, -0.4753489,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -91,7 +91,7 @@ VALUES (0x7E82F012,  1542, 0xE82F002C, 122.5598, 85.15358, 182.8676, 0.8797974, 
 /* @teleloc 0xE82F002C [122.559800 85.153580 182.867600] 0.879797 0.000000 0.000000 -0.475349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E82F012, 0x7E82F013, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7E82F012, 0x7E82F013, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82F013, 42528, 0xE82F002C, 122.5598, 85.15358, 182.8676, 0.8797974, 0, 0, -0.4753489,  True, '2019-02-10 00:00:00'); /* Rock */

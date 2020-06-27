@@ -5,15 +5,15 @@ VALUES (0x782C4001,  1154, 0x82C4001B, 95.36095, 66.38134, 119.9539, -0.2916438,
 /* @teleloc 0x82C4001B [95.360950 66.381340 119.953900] -0.291644 0.000000 0.000000 -0.956527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782C4001, 0x782C4002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x782C4001, 0x782C4003, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x782C4001, 0x782C4004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x782C4001, 0x782C4005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x782C4001, 0x782C4006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x782C4001, 0x782C4007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x782C4001, 0x782C4008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x782C4001, 0x782C4009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x782C4001, 0x782C400A, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x782C4001, 0x782C4002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x782C4001, 0x782C4003, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x782C4001, 0x782C4004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x782C4001, 0x782C4005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x782C4001, 0x782C4006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x782C4001, 0x782C4007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x782C4001, 0x782C4008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x782C4001, 0x782C4009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x782C4001, 0x782C400A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782C4002,  7085, 0x82C4001B, 95.36095, 66.38134, 119.9539, -0.2916438, 0, 0, -0.956527,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

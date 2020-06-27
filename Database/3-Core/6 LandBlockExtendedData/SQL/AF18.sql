@@ -5,8 +5,8 @@ VALUES (0x7AF18001,  1154, 0xAF180006, 15.98416, 139.8155, 206.905, 0.3459175, 0
 /* @teleloc 0xAF180006 [15.984160 139.815500 206.905000] 0.345918 0.000000 0.000000 -0.938265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF18001, 0x7AF18002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AF18001, 0x7AF18003, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7AF18001, 0x7AF18002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AF18001, 0x7AF18003, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF18002, 14559, 0xAF180006, 15.98416, 139.8155, 206.905, 0.3459175, 0, 0, -0.9382649,  True, '2019-02-10 00:00:00'); /* Oak Golem */

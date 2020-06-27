@@ -5,17 +5,17 @@ VALUES (0x72E4F001,  1154, 0x2E4F0005, 16.86483, 105.1605, 8.664652, -0.1247174,
 /* @teleloc 0x2E4F0005 [16.864830 105.160500 8.664652] -0.124717 0.000000 0.000000 -0.992192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E4F001, 0x72E4F002, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72E4F001, 0x72E4F003, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72E4F001, 0x72E4F004, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72E4F001, 0x72E4F005, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72E4F001, 0x72E4F006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x72E4F001, 0x72E4F007, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72E4F001, 0x72E4F008, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72E4F001, 0x72E4F009, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72E4F001, 0x72E4F00A, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72E4F001, 0x72E4F00B, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72E4F001, 0x72E4F00C, '2019-02-10 00:00:00') /* Transcendent Tumerok */;
+VALUES (0x72E4F001, 0x72E4F002, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72E4F001, 0x72E4F003, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72E4F001, 0x72E4F004, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72E4F001, 0x72E4F005, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72E4F001, 0x72E4F006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x72E4F001, 0x72E4F007, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72E4F001, 0x72E4F008, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72E4F001, 0x72E4F009, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72E4F001, 0x72E4F00A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72E4F001, 0x72E4F00B, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72E4F001, 0x72E4F00C, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E4F002, 22904, 0x2E4F0005, 16.86483, 105.1605, 8.664652, -0.1247174, 0, 0, -0.9921923,  True, '2019-02-10 00:00:00'); /* Dark Guardian */

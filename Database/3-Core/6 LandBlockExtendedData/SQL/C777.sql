@@ -5,13 +5,13 @@ VALUES (0x7C777001,  1154, 0xC777002E, 136.2346, 137.4829, 5.096, -0.9940953, 0,
 /* @teleloc 0xC777002E [136.234600 137.482900 5.096000] -0.994095 0.000000 0.000000 -0.108510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C777001, 0x7C777002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C777001, 0x7C777003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C777001, 0x7C777004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C777001, 0x7C777005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C777001, 0x7C777006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C777001, 0x7C777007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C777001, 0x7C777008, '2019-02-10 00:00:00') /* Shallows Shark */;
+VALUES (0x7C777001, 0x7C777002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C777001, 0x7C777003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C777001, 0x7C777004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C777001, 0x7C777005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C777001, 0x7C777006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C777001, 0x7C777007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C777001, 0x7C777008, '2019-02-10 00:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C777002,  4109, 0xC777002E, 136.2346, 137.4829, 5.096, -0.9940953, 0, 0, -0.1085102,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

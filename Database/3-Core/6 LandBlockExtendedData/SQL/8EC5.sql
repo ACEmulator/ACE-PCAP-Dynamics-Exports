@@ -5,20 +5,20 @@ VALUES (0x78EC5001,  1154, 0x8EC5001E, 76.91693, 143.8292, 95.52909, -0.7500428,
 /* @teleloc 0x8EC5001E [76.916930 143.829200 95.529090] -0.750043 0.000000 0.000000 -0.661389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC5001, 0x78EC5002, '2019-02-10 00:00:00') /* Banished Lugian */
-     , (0x78EC5001, 0x78EC5003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78EC5001, 0x78EC5004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EC5001, 0x78EC5005, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78EC5001, 0x78EC5006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78EC5001, 0x78EC5007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78EC5001, 0x78EC5008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EC5001, 0x78EC5009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EC5001, 0x78EC500A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EC5001, 0x78EC500B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EC5001, 0x78EC500C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC5001, 0x78EC500D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EC5001, 0x78EC500E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EC5001, 0x78EC500F, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x78EC5001, 0x78EC5002, '2019-02-10 00:00:00') /* Banished Lugian (30901) */
+     , (0x78EC5001, 0x78EC5003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78EC5001, 0x78EC5004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EC5001, 0x78EC5005, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78EC5001, 0x78EC5006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78EC5001, 0x78EC5007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78EC5001, 0x78EC5008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EC5001, 0x78EC5009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EC5001, 0x78EC500A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EC5001, 0x78EC500B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EC5001, 0x78EC500C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC5001, 0x78EC500D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EC5001, 0x78EC500E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EC5001, 0x78EC500F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC5002, 30901, 0x8EC5001E, 76.91693, 143.8292, 95.52909, -0.7500428, 0, 0, -0.6613893,  True, '2019-02-10 00:00:00'); /* Banished Lugian */

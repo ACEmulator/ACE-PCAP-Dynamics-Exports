@@ -5,10 +5,10 @@ VALUES (0x774B9001,  1154, 0x74B90039, 186.4654, 19.16375, 116.3358, 0.4066987, 
 /* @teleloc 0x74B90039 [186.465400 19.163750 116.335800] 0.406699 0.000000 0.000000 -0.913562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774B9001, 0x774B9002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x774B9001, 0x774B9003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x774B9001, 0x774B9004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x774B9001, 0x774B9005, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x774B9001, 0x774B9002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x774B9001, 0x774B9003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x774B9001, 0x774B9004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x774B9001, 0x774B9005, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774B9002,  9252, 0x74B90039, 186.4654, 19.16375, 116.3358, 0.4066987, 0, 0, -0.9135624,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

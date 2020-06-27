@@ -5,24 +5,24 @@ VALUES (0x72889001,  1154, 0x2889000A, 42.15073, 38.93044, 102.0075, 0.862837, 0
 /* @teleloc 0x2889000A [42.150730 38.930440 102.007500] 0.862837 0.000000 0.000000 -0.505482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72889001, 0x72889002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72889001, 0x72889003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72889001, 0x72889004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72889001, 0x72889005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72889001, 0x72889006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72889001, 0x72889007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72889001, 0x72889008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72889001, 0x72889009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72889001, 0x7288900A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72889001, 0x7288900B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72889001, 0x7288900C, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x72889001, 0x7288900D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72889001, 0x7288900E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x72889001, 0x7288900F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72889001, 0x72889010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72889001, 0x72889011, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72889001, 0x72889012, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72889001, 0x72889013, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x72889001, 0x72889002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72889001, 0x72889003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72889001, 0x72889004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72889001, 0x72889005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72889001, 0x72889006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72889001, 0x72889007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72889001, 0x72889008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72889001, 0x72889009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72889001, 0x7288900A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72889001, 0x7288900B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72889001, 0x7288900C, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x72889001, 0x7288900D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72889001, 0x7288900E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x72889001, 0x7288900F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72889001, 0x72889010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72889001, 0x72889011, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72889001, 0x72889012, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72889001, 0x72889013, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72889002, 41535, 0x2889000A, 42.15073, 38.93044, 102.0075, 0.862837, 0, 0, -0.5054823,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -101,8 +101,8 @@ VALUES (0x72889014,  1542, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0, F
 /* @teleloc 0x2889001B [86.191700 66.588890 101.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72889014, 0x72889015, '2019-02-10 00:00:00') /* Heartland */
-     , (0x72889014, 0x72889016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72889014, 0x72889015, '2019-02-10 00:00:00') /* Heartland (1900) */
+     , (0x72889014, 0x72889016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72889015,  1900, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Heartland */

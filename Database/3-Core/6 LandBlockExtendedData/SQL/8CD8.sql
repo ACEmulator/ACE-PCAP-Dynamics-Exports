@@ -5,12 +5,12 @@ VALUES (0x78CD8001,  1154, 0x8CD8002F, 139.3005, 153.1877, 147.9154, -0.01774997
 /* @teleloc 0x8CD8002F [139.300500 153.187700 147.915400] -0.017750 0.000000 0.000000 -0.999843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD8001, 0x78CD8002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD8001, 0x78CD8003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x78CD8001, 0x78CD8004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x78CD8001, 0x78CD8005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CD8001, 0x78CD8006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78CD8001, 0x78CD8007, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x78CD8001, 0x78CD8002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD8001, 0x78CD8003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x78CD8001, 0x78CD8004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x78CD8001, 0x78CD8005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CD8001, 0x78CD8006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78CD8001, 0x78CD8007, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD8002, 24294, 0x8CD8002F, 139.3005, 153.1877, 147.9154, -0.01774997, 0, 0, -0.9998425,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

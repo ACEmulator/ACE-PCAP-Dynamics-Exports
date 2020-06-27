@@ -5,9 +5,9 @@ VALUES (0x7419A001,  1154, 0x419A002E, 130.3204, 124.4189, 24.40267, 0.9988297, 
 /* @teleloc 0x419A002E [130.320400 124.418900 24.402670] 0.998830 0.000000 0.000000 -0.048367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7419A001, 0x7419A002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7419A001, 0x7419A003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7419A001, 0x7419A004, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x7419A001, 0x7419A002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7419A001, 0x7419A003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7419A001, 0x7419A004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7419A002,  7607, 0x419A002E, 130.3204, 124.4189, 24.40267, 0.9988297, 0, 0, -0.04836694,  True, '2019-02-10 00:00:00'); /* Ember */

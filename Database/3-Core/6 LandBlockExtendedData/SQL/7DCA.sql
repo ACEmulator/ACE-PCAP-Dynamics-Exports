@@ -5,15 +5,15 @@ VALUES (0x77DCA001,  1154, 0x7DCA0009, 38.98556, 19.71764, 151.6541, -0.1736482,
 /* @teleloc 0x7DCA0009 [38.985560 19.717640 151.654100] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DCA001, 0x77DCA002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DCA001, 0x77DCA003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x77DCA001, 0x77DCA004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x77DCA001, 0x77DCA005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x77DCA001, 0x77DCA006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DCA001, 0x77DCA007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x77DCA001, 0x77DCA008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DCA001, 0x77DCA009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DCA001, 0x77DCA00A, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x77DCA001, 0x77DCA002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DCA001, 0x77DCA003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x77DCA001, 0x77DCA004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x77DCA001, 0x77DCA005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x77DCA001, 0x77DCA006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DCA001, 0x77DCA007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x77DCA001, 0x77DCA008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DCA001, 0x77DCA009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DCA001, 0x77DCA00A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DCA002,  1629, 0x7DCA0009, 38.98556, 19.71764, 151.6541, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -56,7 +56,7 @@ VALUES (0x77DCA00B,  1542, 0x7DCA0034, 158.8341, 86.72517, 147.2362, 0.9509069, 
 /* @teleloc 0x7DCA0034 [158.834100 86.725170 147.236200] 0.950907 0.000000 0.000000 -0.309477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DCA00B, 0x77DCA00C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x77DCA00B, 0x77DCA00C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DCA00C,  8646, 0x7DCA0034, 158.8341, 86.72517, 147.2362, 0.9509069, 0, 0, -0.3094769,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

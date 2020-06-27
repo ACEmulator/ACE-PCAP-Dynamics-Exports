@@ -5,12 +5,12 @@ VALUES (0x7A439001,  1154, 0xA4390039, 186.2773, 9.192117, 35.53521, 0.7071068, 
 /* @teleloc 0xA4390039 [186.277300 9.192117 35.535210] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A439001, 0x7A439002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A439001, 0x7A439003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A439001, 0x7A439004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A439001, 0x7A439005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A439001, 0x7A439006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A439001, 0x7A439007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A439001, 0x7A439002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A439001, 0x7A439003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A439001, 0x7A439004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A439001, 0x7A439005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A439001, 0x7A439006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A439001, 0x7A439007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A439002,   235, 0xA4390039, 186.2773, 9.192117, 35.53521, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -41,8 +41,8 @@ VALUES (0x7A439008,  1542, 0xA4390039, 186.1703, 3.193071, 37.4257, 0.9990482, 0
 /* @teleloc 0xA4390039 [186.170300 3.193071 37.425700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A439008, 0x7A439009, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7A439008, 0x7A43900A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7A439008, 0x7A439009, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7A439008, 0x7A43900A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A439009,  6117, 0xA4390039, 186.1703, 3.193071, 37.4257, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

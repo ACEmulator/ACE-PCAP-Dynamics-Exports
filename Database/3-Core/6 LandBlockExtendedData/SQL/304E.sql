@@ -5,20 +5,20 @@ VALUES (0x7304E001,  1154, 0x304E000B, 45.0127, 64.13017, 3.12424, 0.8824502, 0,
 /* @teleloc 0x304E000B [45.012700 64.130170 3.124240] 0.882450 0.000000 0.000000 -0.470406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304E001, 0x7304E002, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7304E001, 0x7304E003, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7304E001, 0x7304E004, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7304E001, 0x7304E005, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7304E001, 0x7304E006, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7304E001, 0x7304E007, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x7304E001, 0x7304E008, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x7304E001, 0x7304E009, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x7304E001, 0x7304E00A, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x7304E001, 0x7304E00B, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x7304E001, 0x7304E00C, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x7304E001, 0x7304E00D, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x7304E001, 0x7304E00E, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7304E001, 0x7304E00F, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x7304E001, 0x7304E002, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7304E001, 0x7304E003, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7304E001, 0x7304E004, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7304E001, 0x7304E005, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7304E001, 0x7304E006, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7304E001, 0x7304E007, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x7304E001, 0x7304E008, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x7304E001, 0x7304E009, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x7304E001, 0x7304E00A, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x7304E001, 0x7304E00B, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x7304E001, 0x7304E00C, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x7304E001, 0x7304E00D, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x7304E001, 0x7304E00E, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7304E001, 0x7304E00F, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304E002, 23571, 0x304E000B, 45.0127, 64.13017, 3.12424, 0.8824502, 0, 0, -0.4704059,  True, '2019-02-10 00:00:00'); /* Virindi Quidiox */
@@ -81,8 +81,8 @@ VALUES (0x7304E010,  1542, 0x304E000B, 44.56516, 66.47231, 3.253122, 0.8824502, 
 /* @teleloc 0x304E000B [44.565160 66.472310 3.253122] 0.882450 0.000000 0.000000 -0.470406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304E010, 0x7304E011, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x7304E010, 0x7304E012, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest */;
+VALUES (0x7304E010, 0x7304E011, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x7304E010, 0x7304E012, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest (23085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304E011, 46284, 0x304E000B, 44.56516, 66.47231, 3.253122, 0.8824502, 0, 0, -0.4704059,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

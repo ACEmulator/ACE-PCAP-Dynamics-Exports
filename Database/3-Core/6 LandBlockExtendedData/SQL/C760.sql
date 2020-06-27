@@ -5,12 +5,12 @@ VALUES (0x7C760001,  1154, 0xC7600031, 158.2484, 0.9039612, 5.9066, -0.5608068, 
 /* @teleloc 0xC7600031 [158.248400 0.903961 5.906600] -0.560807 0.000000 0.000000 -0.827947 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C760001, 0x7C760002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C760001, 0x7C760003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C760001, 0x7C760004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C760001, 0x7C760005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C760001, 0x7C760006, '2019-02-10 00:00:00') /* Mox */
-     , (0x7C760001, 0x7C760007, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C760001, 0x7C760002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C760001, 0x7C760003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C760001, 0x7C760004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C760001, 0x7C760005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C760001, 0x7C760006, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7C760001, 0x7C760007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C760002,  8428, 0xC7600031, 158.2484, 0.9039612, 5.9066, -0.5608068, 0, 0, -0.8279467,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */

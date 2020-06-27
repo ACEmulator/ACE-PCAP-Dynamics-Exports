@@ -5,12 +5,12 @@ VALUES (0x72913001,  1154, 0x2913002F, 140.158, 155.193, 11.68808, -0.6532846, 0
 /* @teleloc 0x2913002F [140.158000 155.193000 11.688080] -0.653285 0.000000 0.000000 -0.757112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72913001, 0x72913002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72913001, 0x72913003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72913001, 0x72913004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72913001, 0x72913005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72913001, 0x72913006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72913001, 0x72913007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x72913001, 0x72913002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72913001, 0x72913003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72913001, 0x72913004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72913001, 0x72913005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72913001, 0x72913006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72913001, 0x72913007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72913002, 24320, 0x2913002F, 140.158, 155.193, 11.68808, -0.6532846, 0, 0, -0.7571124,  True, '2019-02-10 00:00:00'); /* Great Revenant */

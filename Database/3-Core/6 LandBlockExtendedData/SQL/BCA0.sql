@@ -9,9 +9,9 @@ VALUES (0x7BCA0001,  1154, 0xBCA00017, 55.93558, 156.0081, 0.1085557, 0.4460585,
 /* @teleloc 0xBCA00017 [55.935580 156.008100 0.108556] 0.446059 0.000000 0.000000 -0.895004 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCA0001, 0x7BCA0002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BCA0001, 0x7BCA0003, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BCA0001, 0x7BCA0004, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7BCA0001, 0x7BCA0002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BCA0001, 0x7BCA0003, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BCA0001, 0x7BCA0004, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCA0002,   200, 0xBCA00017, 55.93558, 156.0081, 0.1085557, 0.4460585, 0, 0, -0.8950038,  True, '2019-02-10 00:00:00'); /* Mud Golem */

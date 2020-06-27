@@ -5,14 +5,14 @@ VALUES (0x73D3F001,  1154, 0x3D3F003B, 185.8674, 59.96841, 34.01579, 0.7251963, 
 /* @teleloc 0x3D3F003B [185.867400 59.968410 34.015790] 0.725196 0.000000 0.000000 -0.688542 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D3F001, 0x73D3F002, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73D3F001, 0x73D3F003, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73D3F001, 0x73D3F004, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73D3F001, 0x73D3F005, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73D3F001, 0x73D3F006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D3F001, 0x73D3F007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D3F001, 0x73D3F008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D3F001, 0x73D3F009, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73D3F001, 0x73D3F002, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73D3F001, 0x73D3F003, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73D3F001, 0x73D3F004, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73D3F001, 0x73D3F005, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73D3F001, 0x73D3F006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D3F001, 0x73D3F007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D3F001, 0x73D3F008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D3F001, 0x73D3F009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D3F002, 23483, 0x3D3F003B, 185.8674, 59.96841, 34.01579, 0.7251963, 0, 0, -0.6885421,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */

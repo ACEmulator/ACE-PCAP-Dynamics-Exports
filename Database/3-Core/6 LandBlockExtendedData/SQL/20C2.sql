@@ -5,13 +5,13 @@ VALUES (0x720C2001,  1154, 0x20C20028, 111.2535, 188.8198, 22.003, -0.947441, 0,
 /* @teleloc 0x20C20028 [111.253500 188.819800 22.003000] -0.947441 0.000000 0.000000 -0.319931 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C2001, 0x720C2002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x720C2001, 0x720C2003, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C2001, 0x720C2004, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x720C2001, 0x720C2005, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x720C2001, 0x720C2006, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x720C2001, 0x720C2007, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C2001, 0x720C2008, '2019-02-10 00:00:00') /* Brass Gromnie */;
+VALUES (0x720C2001, 0x720C2002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x720C2001, 0x720C2003, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C2001, 0x720C2004, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x720C2001, 0x720C2005, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x720C2001, 0x720C2006, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x720C2001, 0x720C2007, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C2001, 0x720C2008, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C2002, 27711, 0x20C20028, 111.2535, 188.8198, 22.003, -0.947441, 0, 0, -0.3199305,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
@@ -46,9 +46,9 @@ VALUES (0x720C2009,  1542, 0x20C20029, 139.6578, 15.51857, 79.92008, 1, 0, 0, 0,
 /* @teleloc 0x20C20029 [139.657800 15.518570 79.920080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C2009, 0x720C200A, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x720C2009, 0x720C200B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720C2009, 0x720C200C, '2019-02-10 00:00:00') /* Cooking Gear */;
+VALUES (0x720C2009, 0x720C200A, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x720C2009, 0x720C200B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720C2009, 0x720C200C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C200A, 11225, 0x20C20029, 139.6578, 15.51857, 79.92008, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

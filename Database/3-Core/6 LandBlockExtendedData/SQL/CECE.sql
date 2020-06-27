@@ -5,13 +5,13 @@ VALUES (0x7CECE001,  1154, 0xCECE0031, 166.3076, 17.10739, 48.71542, 0.6739551, 
 /* @teleloc 0xCECE0031 [166.307600 17.107390 48.715420] 0.673955 0.000000 0.000000 -0.738772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CECE001, 0x7CECE002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CECE001, 0x7CECE003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CECE001, 0x7CECE004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECE001, 0x7CECE005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CECE001, 0x7CECE006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CECE001, 0x7CECE007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CECE001, 0x7CECE008, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7CECE001, 0x7CECE002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CECE001, 0x7CECE003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CECE001, 0x7CECE004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECE001, 0x7CECE005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CECE001, 0x7CECE006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CECE001, 0x7CECE007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CECE001, 0x7CECE008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CECE002, 23482, 0xCECE0031, 166.3076, 17.10739, 48.71542, 0.6739551, 0, 0, -0.7387723,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

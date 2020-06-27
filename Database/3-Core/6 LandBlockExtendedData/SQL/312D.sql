@@ -5,15 +5,15 @@ VALUES (0x7312D001,  1154, 0x312D001C, 94.75255, 76.385, 64.23102, 1, 0, 0, 0, F
 /* @teleloc 0x312D001C [94.752550 76.385000 64.231020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312D001, 0x7312D002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7312D001, 0x7312D003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7312D001, 0x7312D004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7312D001, 0x7312D005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7312D001, 0x7312D006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7312D001, 0x7312D007, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x7312D001, 0x7312D008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7312D001, 0x7312D009, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7312D001, 0x7312D00A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */;
+VALUES (0x7312D001, 0x7312D002, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7312D001, 0x7312D003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7312D001, 0x7312D004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7312D001, 0x7312D005, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7312D001, 0x7312D006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7312D001, 0x7312D007, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x7312D001, 0x7312D008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7312D001, 0x7312D009, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7312D001, 0x7312D00A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312D002, 24282, 0x312D001C, 94.75255, 76.385, 64.23102, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -56,7 +56,7 @@ VALUES (0x7312D00B,  1542, 0x312D001C, 95.37639, 77.8516, 63.89357, 1, 0, 0, 0, 
 /* @teleloc 0x312D001C [95.376390 77.851600 63.893570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7312D00B, 0x7312D00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7312D00B, 0x7312D00C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7312D00C, 22566, 0x312D001C, 95.37639, 77.8516, 63.89357, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,13 +5,13 @@ VALUES (0x79421001,  1154, 0x9421000D, 34.57109, 96.54515, 166.7017, 0.2662987, 
 /* @teleloc 0x9421000D [34.571090 96.545150 166.701700] 0.266299 0.000000 0.000000 -0.963891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79421001, 0x79421002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79421001, 0x79421003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79421001, 0x79421004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79421001, 0x79421005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79421001, 0x79421006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79421001, 0x79421007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79421001, 0x79421008, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x79421001, 0x79421002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79421001, 0x79421003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79421001, 0x79421004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79421001, 0x79421005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79421001, 0x79421006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79421001, 0x79421007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79421001, 0x79421008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79421002,  7780, 0x9421000D, 34.57109, 96.54515, 166.7017, 0.2662987, 0, 0, -0.9638906,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -46,7 +46,7 @@ VALUES (0x79421009,  1542, 0x9421000E, 38.83279, 130.0856, 162.2467, 0.9914449, 
 /* @teleloc 0x9421000E [38.832790 130.085600 162.246700] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79421009, 0x7942100A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79421009, 0x7942100A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942100A,  4380, 0x9421000E, 38.83279, 130.0856, 162.2467, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

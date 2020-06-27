@@ -5,14 +5,14 @@ VALUES (0x79735001,  1154, 0x97350021, 98.8412, 7.884561, 40.003, 0.3138068, 0, 
 /* @teleloc 0x97350021 [98.841200 7.884561 40.003000] 0.313807 0.000000 0.000000 -0.949487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79735001, 0x79735002, '2019-02-10 00:00:00') /* Gout */
-     , (0x79735001, 0x79735003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79735001, 0x79735004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79735001, 0x79735005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79735001, 0x79735006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79735001, 0x79735007, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79735001, 0x79735008, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79735001, 0x79735009, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x79735001, 0x79735002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79735001, 0x79735003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79735001, 0x79735004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79735001, 0x79735005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79735001, 0x79735006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79735001, 0x79735007, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79735001, 0x79735008, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79735001, 0x79735009, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79735002, 21164, 0x97350021, 98.8412, 7.884561, 40.003, 0.3138068, 0, 0, -0.9494869,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -51,7 +51,7 @@ VALUES (0x7973500A,  1542, 0x9735002F, 138.0123, 156.8896, 40, 1, 0, 0, 0, False
 /* @teleloc 0x9735002F [138.012300 156.889600 40.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7973500A, 0x7973500B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7973500A, 0x7973500B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7973500B, 22576, 0x9735002F, 138.0123, 156.8896, 40, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

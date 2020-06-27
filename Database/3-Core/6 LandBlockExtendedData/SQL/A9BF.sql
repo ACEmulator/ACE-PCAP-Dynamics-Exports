@@ -5,19 +5,19 @@ VALUES (0x7A9BF001,  1154, 0xA9BF0021, 101.2098, 3.715955, 100.5636, 0.9965655, 
 /* @teleloc 0xA9BF0021 [101.209800 3.715955 100.563600] 0.996566 0.000000 0.000000 -0.082808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9BF001, 0x7A9BF002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A9BF001, 0x7A9BF003, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7A9BF001, 0x7A9BF004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A9BF001, 0x7A9BF005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A9BF001, 0x7A9BF006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A9BF001, 0x7A9BF007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A9BF001, 0x7A9BF008, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A9BF001, 0x7A9BF009, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A9BF001, 0x7A9BF00A, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A9BF001, 0x7A9BF00B, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A9BF001, 0x7A9BF00C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A9BF001, 0x7A9BF00D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A9BF001, 0x7A9BF00E, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7A9BF001, 0x7A9BF002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A9BF001, 0x7A9BF003, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7A9BF001, 0x7A9BF004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A9BF001, 0x7A9BF005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A9BF001, 0x7A9BF006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A9BF001, 0x7A9BF007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A9BF001, 0x7A9BF008, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A9BF001, 0x7A9BF009, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A9BF001, 0x7A9BF00A, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A9BF001, 0x7A9BF00B, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A9BF001, 0x7A9BF00C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A9BF001, 0x7A9BF00D, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A9BF001, 0x7A9BF00E, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9BF002,   946, 0xA9BF0021, 101.2098, 3.715955, 100.5636, 0.9965655, 0, 0, -0.08280813,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -76,7 +76,7 @@ VALUES (0x7A9BF00F,  1542, 0xA9BF000B, 35.32608, 50.17505, 90.87491, -0.02698313
 /* @teleloc 0xA9BF000B [35.326080 50.175050 90.874910] -0.026983 0.000000 0.000000 -0.999636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9BF00F, 0x7A9BF010, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7A9BF00F, 0x7A9BF010, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9BF010,  8037, 0xA9BF000B, 35.32608, 50.17505, 90.87491, -0.02698313, 0, 0, -0.9996359,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,14 +5,14 @@ VALUES (0x72A66001,  1154, 0x2A660028, 108.172, 184.1904, 52.62212, 0.3268628, 0
 /* @teleloc 0x2A660028 [108.172000 184.190400 52.622120] 0.326863 0.000000 0.000000 -0.945072 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A66001, 0x72A66002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72A66001, 0x72A66003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72A66001, 0x72A66004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72A66001, 0x72A66005, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72A66001, 0x72A66006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A66001, 0x72A66007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A66001, 0x72A66008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A66001, 0x72A66009, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x72A66001, 0x72A66002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72A66001, 0x72A66003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72A66001, 0x72A66004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72A66001, 0x72A66005, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72A66001, 0x72A66006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A66001, 0x72A66007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72A66001, 0x72A66008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A66001, 0x72A66009, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A66002, 33309, 0x2A660028, 108.172, 184.1904, 52.62212, 0.3268628, 0, 0, -0.9450718,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

@@ -13,10 +13,10 @@ VALUES (0x739F6002,  1154, 0x39F60039, 177.092, 11.88174, 50.75916, 0.8530043, 0
 /* @teleloc 0x39F60039 [177.092000 11.881740 50.759160] 0.853004 0.000000 0.000000 -0.521904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739F6002, 0x739F6003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x739F6002, 0x739F6004, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739F6002, 0x739F6005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x739F6002, 0x739F6006, '2019-02-10 00:00:00') /* Small Coral Golem */;
+VALUES (0x739F6002, 0x739F6003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x739F6002, 0x739F6004, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739F6002, 0x739F6005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x739F6002, 0x739F6006, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739F6003, 29346, 0x39F60039, 177.092, 11.88174, 50.75916, 0.8530043, 0, 0, -0.5219039,  True, '2019-02-10 00:00:00'); /* Polar Ursuin */
@@ -39,7 +39,7 @@ VALUES (0x739F6007,  1154, 0x39F60100, 14.202, 176.702, 2.005, 0.97977, 0, 0, 0.
 /* @teleloc 0x39F60100 [14.202000 176.702000 2.005000] 0.979770 0.000000 0.000000 0.200126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739F6007, 0x739F6008, '2019-02-10 00:00:00') /* Mariabella Varanese */;
+VALUES (0x739F6007, 0x739F6008, '2019-02-10 00:00:00') /* Mariabella Varanese (31642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739F6008, 31642, 0x39F60100, 14.202, 176.702, 2.005, 0.97977, 0, 0, 0.200126,  True, '2019-02-10 00:00:00'); /* Mariabella Varanese */

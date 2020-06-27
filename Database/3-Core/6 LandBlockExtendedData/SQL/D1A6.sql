@@ -5,16 +5,16 @@ VALUES (0x7D1A6001,  1154, 0xD1A60030, 126.8817, 170.6339, 23.78551, 0.727378, 0
 /* @teleloc 0xD1A60030 [126.881700 170.633900 23.785510] 0.727378 0.000000 0.000000 -0.686237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A6001, 0x7D1A6002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D1A6001, 0x7D1A6003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D1A6001, 0x7D1A6004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7D1A6001, 0x7D1A6005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D1A6001, 0x7D1A6006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D1A6001, 0x7D1A6007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D1A6001, 0x7D1A6008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D1A6001, 0x7D1A6009, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7D1A6001, 0x7D1A600A, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D1A6001, 0x7D1A600B, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7D1A6001, 0x7D1A6002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D1A6001, 0x7D1A6003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D1A6001, 0x7D1A6004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7D1A6001, 0x7D1A6005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D1A6001, 0x7D1A6006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D1A6001, 0x7D1A6007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D1A6001, 0x7D1A6008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D1A6001, 0x7D1A6009, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7D1A6001, 0x7D1A600A, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D1A6001, 0x7D1A600B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A6002,  1758, 0xD1A60030, 126.8817, 170.6339, 23.78551, 0.727378, 0, 0, -0.686237,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -61,7 +61,7 @@ VALUES (0x7D1A600C,  1542, 0xD1A6000D, 32.90117, 117.071, 36.24874, 0.9238795, 0
 /* @teleloc 0xD1A6000D [32.901170 117.071000 36.248740] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A600C, 0x7D1A600D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D1A600C, 0x7D1A600D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A600D,  4380, 0xD1A6000D, 32.90117, 117.071, 36.24874, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,19 +5,19 @@ VALUES (0x7263A001,  1154, 0x263A003D, 182.5916, 110.612, 0.009999961, -0.436780
 /* @teleloc 0x263A003D [182.591600 110.612000 0.010000] -0.436781 0.000000 0.000000 -0.899568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7263A001, 0x7263A002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7263A001, 0x7263A003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7263A001, 0x7263A004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7263A001, 0x7263A005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7263A001, 0x7263A006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7263A001, 0x7263A007, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7263A001, 0x7263A008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7263A001, 0x7263A009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7263A001, 0x7263A00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7263A001, 0x7263A00B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7263A001, 0x7263A00C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7263A001, 0x7263A00D, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7263A001, 0x7263A00E, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x7263A001, 0x7263A002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7263A001, 0x7263A003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7263A001, 0x7263A004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7263A001, 0x7263A005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7263A001, 0x7263A006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7263A001, 0x7263A007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7263A001, 0x7263A008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7263A001, 0x7263A009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7263A001, 0x7263A00A, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7263A001, 0x7263A00B, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7263A001, 0x7263A00C, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7263A001, 0x7263A00D, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7263A001, 0x7263A00E, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7263A002, 14520, 0x263A003D, 182.5916, 110.612, 0.009999961, -0.4367808, 0, 0, -0.899568,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

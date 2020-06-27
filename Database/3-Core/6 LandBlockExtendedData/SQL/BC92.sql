@@ -5,16 +5,16 @@ VALUES (0x7BC92001,  1154, 0xBC920031, 145.7456, 0.6981812, 22.002, 0.3879342, 0
 /* @teleloc 0xBC920031 [145.745600 0.698181 22.002000] 0.387934 0.000000 0.000000 -0.921687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC92001, 0x7BC92002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BC92001, 0x7BC92003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC92004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BC92001, 0x7BC92005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC92006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC92007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC92008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC92009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC9200A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC92001, 0x7BC9200B, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BC92001, 0x7BC92002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BC92001, 0x7BC92003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC92004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BC92001, 0x7BC92005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC92006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC92007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC92008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC92009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC9200A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC92001, 0x7BC9200B, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC92002,  7990, 0xBC920031, 145.7456, 0.6981812, 22.002, 0.3879342, 0, 0, -0.9216871,  True, '2019-02-10 00:00:00'); /* Field Ursuin */

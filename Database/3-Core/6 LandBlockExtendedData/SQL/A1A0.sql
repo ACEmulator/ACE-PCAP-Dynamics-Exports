@@ -5,14 +5,14 @@ VALUES (0x7A1A0001,  1154, 0xA1A00032, 166.5657, 46.17878, 131.5844, -0.2531901,
 /* @teleloc 0xA1A00032 [166.565700 46.178780 131.584400] -0.253190 0.000000 0.000000 -0.967417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A0001, 0x7A1A0002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A1A0001, 0x7A1A0003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A1A0001, 0x7A1A0004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A1A0001, 0x7A1A0005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A1A0001, 0x7A1A0006, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A1A0001, 0x7A1A0007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A1A0001, 0x7A1A0008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A1A0001, 0x7A1A0009, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A1A0001, 0x7A1A0002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A1A0001, 0x7A1A0003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A1A0001, 0x7A1A0004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A1A0001, 0x7A1A0005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A1A0001, 0x7A1A0006, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A1A0001, 0x7A1A0007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A1A0001, 0x7A1A0008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A1A0001, 0x7A1A0009, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A0002,  1630, 0xA1A00032, 166.5657, 46.17878, 131.5844, -0.2531901, 0, 0, -0.9674165,  True, '2019-02-10 00:00:00'); /* Lich Lord */

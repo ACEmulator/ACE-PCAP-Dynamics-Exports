@@ -5,15 +5,15 @@ VALUES (0x7260E001,  1154, 0x260E0029, 139.2642, 14.04508, 9.084594, -0.8391477,
 /* @teleloc 0x260E0029 [139.264200 14.045080 9.084594] -0.839148 0.000000 0.000000 -0.543904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7260E001, 0x7260E002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7260E001, 0x7260E003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260E001, 0x7260E004, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7260E001, 0x7260E005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260E001, 0x7260E006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7260E001, 0x7260E007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7260E001, 0x7260E008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7260E001, 0x7260E009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7260E001, 0x7260E00A, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7260E001, 0x7260E002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7260E001, 0x7260E003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260E001, 0x7260E004, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7260E001, 0x7260E005, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260E001, 0x7260E006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7260E001, 0x7260E007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7260E001, 0x7260E008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7260E001, 0x7260E009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7260E001, 0x7260E00A, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7260E002, 24320, 0x260E0029, 139.2642, 14.04508, 9.084594, -0.8391477, 0, 0, -0.5439036,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -56,7 +56,7 @@ VALUES (0x7260E00B,  1542, 0x260E0036, 152.5617, 128.7281, 42.51005, -0.9812096,
 /* @teleloc 0x260E0036 [152.561700 128.728100 42.510050] -0.981210 0.000000 0.000000 -0.192945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7260E00B, 0x7260E00C, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7260E00B, 0x7260E00C, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7260E00C,  1955, 0x260E0036, 152.5617, 128.7281, 42.51005, -0.9812096, 0, 0, -0.1929449,  True, '2019-02-10 00:00:00'); /* Gateway */

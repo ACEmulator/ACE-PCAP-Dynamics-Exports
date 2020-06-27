@@ -5,14 +5,14 @@ VALUES (0x7EF42001,  1154, 0xEF420033, 145.4048, 58.13894, 0.8299114, 0.9129418,
 /* @teleloc 0xEF420033 [145.404800 58.138940 0.829911] 0.912942 0.000000 0.000000 -0.408090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF42001, 0x7EF42002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EF42001, 0x7EF42003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7EF42001, 0x7EF42004, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EF42001, 0x7EF42005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EF42001, 0x7EF42006, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7EF42001, 0x7EF42007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EF42001, 0x7EF42008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7EF42001, 0x7EF42009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7EF42001, 0x7EF42002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EF42001, 0x7EF42003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7EF42001, 0x7EF42004, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EF42001, 0x7EF42005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EF42001, 0x7EF42006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7EF42001, 0x7EF42007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EF42001, 0x7EF42008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7EF42001, 0x7EF42009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF42002,  4110, 0xEF420033, 145.4048, 58.13894, 0.8299114, 0.9129418, 0, 0, -0.4080897,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

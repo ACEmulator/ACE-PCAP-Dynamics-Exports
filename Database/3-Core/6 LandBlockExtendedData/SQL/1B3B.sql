@@ -5,21 +5,21 @@ VALUES (0x71B3B001,  1154, 0x1B3B000E, 47.73866, 143.5834, 0.04121375, -0.717423
 /* @teleloc 0x1B3B000E [47.738660 143.583400 0.041214] -0.717423 0.000000 0.000000 -0.696638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B3B001, 0x71B3B002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71B3B001, 0x71B3B003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x71B3B001, 0x71B3B004, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71B3B001, 0x71B3B005, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71B3B001, 0x71B3B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71B3B001, 0x71B3B007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3B001, 0x71B3B008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71B3B001, 0x71B3B009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3B001, 0x71B3B00A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71B3B001, 0x71B3B00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3B001, 0x71B3B00C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3B001, 0x71B3B00D, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71B3B001, 0x71B3B00E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B3B001, 0x71B3B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B3B001, 0x71B3B010, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71B3B001, 0x71B3B002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71B3B001, 0x71B3B003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x71B3B001, 0x71B3B004, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71B3B001, 0x71B3B005, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71B3B001, 0x71B3B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71B3B001, 0x71B3B007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3B001, 0x71B3B008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71B3B001, 0x71B3B009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3B001, 0x71B3B00A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71B3B001, 0x71B3B00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3B001, 0x71B3B00C, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3B001, 0x71B3B00D, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71B3B001, 0x71B3B00E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B3B001, 0x71B3B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B3B001, 0x71B3B010, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B3B002, 22910, 0x1B3B000E, 47.73866, 143.5834, 0.04121375, -0.717423, 0, 0, -0.6966379,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

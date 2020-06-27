@@ -5,10 +5,10 @@ VALUES (0x7DCC6001,  1154, 0xDCC60008, 12.68634, 181.9212, 114.1062, 0.7071068, 
 /* @teleloc 0xDCC60008 [12.686340 181.921200 114.106200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DCC6001, 0x7DCC6002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7DCC6001, 0x7DCC6003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7DCC6001, 0x7DCC6004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DCC6001, 0x7DCC6005, '2019-02-10 00:00:00') /* Augmented Olthoi */;
+VALUES (0x7DCC6001, 0x7DCC6002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7DCC6001, 0x7DCC6003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7DCC6001, 0x7DCC6004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DCC6001, 0x7DCC6005, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DCC6002, 24279, 0xDCC60008, 12.68634, 181.9212, 114.1062, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
@@ -31,7 +31,7 @@ VALUES (0x7DCC6006,  1542, 0xDCC60008, 17.33583, 182.6157, 113.7835, -4.371139E-
 /* @teleloc 0xDCC60008 [17.335830 182.615700 113.783500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DCC6006, 0x7DCC6007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7DCC6006, 0x7DCC6007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DCC6007,  4380, 0xDCC60008, 17.33583, 182.6157, 113.7835, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

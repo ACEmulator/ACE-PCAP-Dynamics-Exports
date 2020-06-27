@@ -5,12 +5,12 @@ VALUES (0x718C3001,  1154, 0x18C3002C, 124.8114, 77.41858, 54.05701, 0.1183436, 
 /* @teleloc 0x18C3002C [124.811400 77.418580 54.057010] 0.118344 0.000000 0.000000 -0.992973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718C3001, 0x718C3002, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x718C3001, 0x718C3003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x718C3001, 0x718C3004, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x718C3001, 0x718C3005, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x718C3001, 0x718C3006, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x718C3001, 0x718C3007, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x718C3001, 0x718C3002, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x718C3001, 0x718C3003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x718C3001, 0x718C3004, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x718C3001, 0x718C3005, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x718C3001, 0x718C3006, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x718C3001, 0x718C3007, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718C3002, 11534, 0x18C3002C, 124.8114, 77.41858, 54.05701, 0.1183436, 0, 0, -0.9929727,  True, '2019-02-10 00:00:00'); /* Enku Zefir */

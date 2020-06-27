@@ -5,8 +5,8 @@ VALUES (0x71758001,  1154, 0x17580026, 104.6757, 143.7931, 0.02899998, 0.6730708
 /* @teleloc 0x17580026 [104.675700 143.793100 0.029000] 0.673071 0.000000 0.000000 -0.739578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71758001, 0x71758002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71758001, 0x71758003, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71758001, 0x71758002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71758001, 0x71758003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71758002, 23489, 0x17580026, 104.6757, 143.7931, 0.02899998, 0.6730708, 0, 0, -0.739578,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

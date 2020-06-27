@@ -5,12 +5,12 @@ VALUES (0x77E6A001,  1154, 0x7E6A0011, 55.21459, 6.892295, 12.5517, 0.4337721, 0
 /* @teleloc 0x7E6A0011 [55.214590 6.892295 12.551700] 0.433772 0.000000 0.000000 -0.901023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E6A001, 0x77E6A002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x77E6A001, 0x77E6A003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77E6A001, 0x77E6A004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77E6A001, 0x77E6A005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x77E6A001, 0x77E6A006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x77E6A001, 0x77E6A007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x77E6A001, 0x77E6A002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x77E6A001, 0x77E6A003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77E6A001, 0x77E6A004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77E6A001, 0x77E6A005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x77E6A001, 0x77E6A006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x77E6A001, 0x77E6A007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6A002,   940, 0x7E6A0011, 55.21459, 6.892295, 12.5517, 0.4337721, 0, 0, -0.9010226,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

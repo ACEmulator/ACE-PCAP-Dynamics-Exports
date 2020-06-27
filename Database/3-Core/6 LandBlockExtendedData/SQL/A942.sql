@@ -5,16 +5,16 @@ VALUES (0x7A942001,  1154, 0xA942001A, 73.39455, 40.66356, 14.64037, -0.07154217
 /* @teleloc 0xA942001A [73.394550 40.663560 14.640370] -0.071542 0.000000 0.000000 -0.997438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A942001, 0x7A942002, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A942001, 0x7A942003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A942001, 0x7A942004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A942001, 0x7A942005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A942001, 0x7A942006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A942001, 0x7A942007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A942001, 0x7A942008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A942001, 0x7A942009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A942001, 0x7A94200A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A942001, 0x7A94200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7A942001, 0x7A942002, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A942001, 0x7A942003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A942001, 0x7A942004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A942001, 0x7A942005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A942001, 0x7A942006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A942001, 0x7A942007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A942001, 0x7A942008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A942001, 0x7A942009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A942001, 0x7A94200A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A942001, 0x7A94200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A942002,  9244, 0xA942001A, 73.39455, 40.66356, 14.64037, -0.07154217, 0, 0, -0.9974376,  True, '2019-02-10 00:00:00'); /* Pristine Doll */

@@ -5,16 +5,16 @@ VALUES (0x7DD24001,  1154, 0xDD240027, 117.5757, 167.8858, 22.20371, -0.836028, 
 /* @teleloc 0xDD240027 [117.575700 167.885800 22.203710] -0.836028 0.000000 0.000000 -0.548687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD24001, 0x7DD24002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7DD24001, 0x7DD24003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DD24001, 0x7DD24004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DD24001, 0x7DD24005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7DD24001, 0x7DD24006, '2019-02-10 00:00:00') /* Ember */
-     , (0x7DD24001, 0x7DD24007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7DD24001, 0x7DD24008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7DD24001, 0x7DD24009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DD24001, 0x7DD2400A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DD24001, 0x7DD2400B, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7DD24001, 0x7DD24002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7DD24001, 0x7DD24003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7DD24001, 0x7DD24004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DD24001, 0x7DD24005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7DD24001, 0x7DD24006, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7DD24001, 0x7DD24007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7DD24001, 0x7DD24008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7DD24001, 0x7DD24009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DD24001, 0x7DD2400A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DD24001, 0x7DD2400B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD24002,  8139, 0xDD240027, 117.5757, 167.8858, 22.20371, -0.836028, 0, 0, -0.5486867,  True, '2019-02-10 00:00:00'); /* Gigas Raider */

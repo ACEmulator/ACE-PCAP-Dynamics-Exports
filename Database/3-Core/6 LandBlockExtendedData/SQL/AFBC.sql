@@ -5,9 +5,9 @@ VALUES (0x7AFBC001,  1154, 0xAFBC0009, 44.37052, 16.29571, 113.0605, 0.6672267, 
 /* @teleloc 0xAFBC0009 [44.370520 16.295710 113.060500] 0.667227 0.000000 0.000000 -0.744855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFBC001, 0x7AFBC002, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AFBC001, 0x7AFBC003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7AFBC001, 0x7AFBC004, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7AFBC001, 0x7AFBC002, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AFBC001, 0x7AFBC003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7AFBC001, 0x7AFBC004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFBC002,   945, 0xAFBC0009, 44.37052, 16.29571, 113.0605, 0.6672267, 0, 0, -0.7448547,  True, '2019-02-10 00:00:00'); /* Mite Sentry */

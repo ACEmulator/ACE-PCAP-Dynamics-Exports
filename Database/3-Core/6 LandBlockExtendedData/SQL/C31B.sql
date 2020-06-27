@@ -5,10 +5,10 @@ VALUES (0x7C31B001,  1154, 0xC31B0025, 117.6895, 98.25017, 48.58514, 0.1266369, 
 /* @teleloc 0xC31B0025 [117.689500 98.250170 48.585140] 0.126637 0.000000 0.000000 -0.991949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C31B001, 0x7C31B002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C31B001, 0x7C31B003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C31B001, 0x7C31B004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C31B001, 0x7C31B005, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7C31B001, 0x7C31B002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C31B001, 0x7C31B003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C31B001, 0x7C31B004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C31B001, 0x7C31B005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C31B002,  7179, 0xC31B0025, 117.6895, 98.25017, 48.58514, 0.1266369, 0, 0, -0.9919491,  True, '2019-02-10 00:00:00'); /* Relic Bones */

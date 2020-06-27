@@ -5,15 +5,15 @@ VALUES (0x79978001,  1154, 0x99780038, 149.1391, 181.7579, 26.85351, 0.7071068, 
 /* @teleloc 0x99780038 [149.139100 181.757900 26.853510] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79978001, 0x79978002, '2019-02-10 00:00:00') /* Chilly the Snowman */
-     , (0x79978001, 0x79978003, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x79978001, 0x79978004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79978001, 0x79978005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79978001, 0x79978006, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79978001, 0x79978007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79978001, 0x79978008, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79978001, 0x79978009, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79978001, 0x7997800A, '2019-02-10 00:00:00') /* Rough Monouga */;
+VALUES (0x79978001, 0x79978002, '2019-02-10 00:00:00') /* Chilly the Snowman (5760) */
+     , (0x79978001, 0x79978003, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x79978001, 0x79978004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79978001, 0x79978005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79978001, 0x79978006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79978001, 0x79978007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79978001, 0x79978008, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79978001, 0x79978009, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79978001, 0x7997800A, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79978002,  5760, 0x99780038, 149.1391, 181.7579, 26.85351, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chilly the Snowman */
@@ -56,8 +56,8 @@ VALUES (0x7997800B,  1542, 0x9978002F, 128.9735, 165.6608, 27.48647, 0.9238795, 
 /* @teleloc 0x9978002F [128.973500 165.660800 27.486470] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997800B, 0x7997800C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7997800B, 0x7997800D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7997800B, 0x7997800C, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7997800B, 0x7997800D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7997800C,  4180, 0x9978002F, 128.9735, 165.6608, 27.48647, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

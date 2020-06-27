@@ -5,9 +5,9 @@ VALUES (0x78FEB001,  1154, 0x8FEB001B, 73.21846, 67.97228, 47.80407, 0.7071068, 
 /* @teleloc 0x8FEB001B [73.218460 67.972280 47.804070] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FEB001, 0x78FEB002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FEB001, 0x78FEB003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78FEB001, 0x78FEB004, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x78FEB001, 0x78FEB002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FEB001, 0x78FEB003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78FEB001, 0x78FEB004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FEB002,  7088, 0x8FEB001B, 73.21846, 67.97228, 47.80407, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -26,7 +26,7 @@ VALUES (0x78FEB005,  1542, 0x8FEB001B, 87.62928, 71.22211, 47.09676, 0.9709905, 
 /* @teleloc 0x8FEB001B [87.629280 71.222110 47.096760] 0.970991 0.000000 0.000000 -0.239118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FEB005, 0x78FEB006, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x78FEB005, 0x78FEB006, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FEB006, 11554, 0x8FEB001B, 87.62928, 71.22211, 47.09676, 0.9709905, 0, 0, -0.2391179,  True, '2019-02-10 00:00:00'); /* Colban Plant */

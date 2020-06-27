@@ -5,20 +5,20 @@ VALUES (0x7DFCB001,  1154, 0xDFCB001D, 91.0628, 112.4794, -0.9045493, -0.5070101
 /* @teleloc 0xDFCB001D [91.062800 112.479400 -0.904549] -0.507010 0.000000 0.000000 -0.861940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DFCB001, 0x7DFCB002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DFCB001, 0x7DFCB008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DFCB001, 0x7DFCB009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DFCB001, 0x7DFCB00A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB00B, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB00C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DFCB001, 0x7DFCB00D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB00E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DFCB001, 0x7DFCB00F, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7DFCB001, 0x7DFCB002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DFCB001, 0x7DFCB008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DFCB001, 0x7DFCB009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DFCB001, 0x7DFCB00A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB00B, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DFCB001, 0x7DFCB00D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB00E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DFCB001, 0x7DFCB00F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DFCB002, 24960, 0xDFCB001D, 91.0628, 112.4794, -0.9045493, -0.5070101, 0, 0, -0.8619401,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

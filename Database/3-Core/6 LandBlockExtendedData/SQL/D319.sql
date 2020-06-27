@@ -5,8 +5,8 @@ VALUES (0x7D319001,  1154, 0xD3190001, 14.85041, 19.47497, -0.8899999, -0.373974
 /* @teleloc 0xD3190001 [14.850410 19.474970 -0.890000] -0.373974 0.000000 0.000000 -0.927439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D319001, 0x7D319002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7D319001, 0x7D319003, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7D319001, 0x7D319002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7D319001, 0x7D319003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D319002, 22933, 0xD3190001, 14.85041, 19.47497, -0.8899999, -0.3739744, 0, 0, -0.927439,  True, '2019-02-10 00:00:00'); /* Mist Golem */
@@ -21,8 +21,8 @@ VALUES (0x7D319004,  1542, 0xD3190008, 2.172111, 191.7857, 1.755991, 0.9537169, 
 /* @teleloc 0xD3190008 [2.172111 191.785700 1.755991] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D319004, 0x7D319005, '2019-02-10 00:00:00') /* Direlands Northwest Shore Portal */
-     , (0x7D319004, 0x7D319006, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D319004, 0x7D319005, '2019-02-10 00:00:00') /* Direlands Northwest Shore Portal (8388) */
+     , (0x7D319004, 0x7D319006, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D319005,  8388, 0xD3190008, 2.172111, 191.7857, 1.755991, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Northwest Shore Portal */

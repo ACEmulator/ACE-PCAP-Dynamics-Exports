@@ -5,11 +5,11 @@ VALUES (0x74FBE001,  1154, 0x4FBE0010, 47.16202, 176.8268, 28.26854, -0.09786015
 /* @teleloc 0x4FBE0010 [47.162020 176.826800 28.268540] -0.097860 0.000000 0.000000 -0.995200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FBE001, 0x74FBE002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74FBE001, 0x74FBE003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x74FBE001, 0x74FBE004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x74FBE001, 0x74FBE005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74FBE001, 0x74FBE006, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x74FBE001, 0x74FBE002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74FBE001, 0x74FBE003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x74FBE001, 0x74FBE004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x74FBE001, 0x74FBE005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74FBE001, 0x74FBE006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FBE002, 24289, 0x4FBE0010, 47.16202, 176.8268, 28.26854, -0.09786015, 0, 0, -0.9952002,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

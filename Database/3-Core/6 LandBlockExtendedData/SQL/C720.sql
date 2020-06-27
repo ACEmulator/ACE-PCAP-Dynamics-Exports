@@ -9,13 +9,13 @@ VALUES (0x7C720001,  1154, 0xC7200002, 21.3026, 39.54891, 231.781, -0.8896774, 0
 /* @teleloc 0xC7200002 [21.302600 39.548910 231.781000] -0.889677 0.000000 0.000000 -0.456590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C720001, 0x7C720002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7C720001, 0x7C720003, '2019-02-10 00:00:00') /* Flare */
-     , (0x7C720001, 0x7C720004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C720001, 0x7C720005, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7C720001, 0x7C720006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C720001, 0x7C720007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C720001, 0x7C720008, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7C720001, 0x7C720002, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7C720001, 0x7C720003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7C720001, 0x7C720004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C720001, 0x7C720005, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7C720001, 0x7C720006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C720001, 0x7C720007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C720001, 0x7C720008, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C720002,  5711, 0xC7200002, 21.3026, 39.54891, 231.781, -0.8896774, 0, 0, -0.4565897,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -50,7 +50,7 @@ VALUES (0x7C720009,  1154, 0xC7200102, 10.2967, 106.364, 251.205, -0.844195, 0, 
 /* @teleloc 0xC7200102 [10.296700 106.364000 251.205000] -0.844195 0.000000 0.000000 -0.536036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C720009, 0x7C72000A, '2019-02-10 00:00:00') /* Le-Ai Rea */;
+VALUES (0x7C720009, 0x7C72000A, '2019-02-10 00:00:00') /* Le-Ai Rea (4122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72000A,  4122, 0xC7200102, 10.2967, 106.364, 251.205, -0.844195, 0, 0, -0.536036,  True, '2019-02-10 00:00:00'); /* Le-Ai Rea */

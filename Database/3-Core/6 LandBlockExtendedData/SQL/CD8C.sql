@@ -5,10 +5,10 @@ VALUES (0x7CD8C001,  1154, 0xCD8C0003, 11.71225, 51.46709, 21.71108, -0.9444755,
 /* @teleloc 0xCD8C0003 [11.712250 51.467090 21.711080] -0.944476 0.000000 0.000000 -0.328582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD8C001, 0x7CD8C002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD8C001, 0x7CD8C003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CD8C001, 0x7CD8C004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CD8C001, 0x7CD8C005, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7CD8C001, 0x7CD8C002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD8C001, 0x7CD8C003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CD8C001, 0x7CD8C004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CD8C001, 0x7CD8C005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD8C002,  2566, 0xCD8C0003, 11.71225, 51.46709, 21.71108, -0.9444755, 0, 0, -0.328582,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

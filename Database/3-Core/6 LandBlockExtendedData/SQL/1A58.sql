@@ -5,10 +5,10 @@ VALUES (0x71A58001,  1154, 0x1A580038, 162.6161, 182.0057, 5.846147, 0.001659706
 /* @teleloc 0x1A580038 [162.616100 182.005700 5.846147] 0.001660 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A58001, 0x71A58002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x71A58001, 0x71A58003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71A58001, 0x71A58004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71A58001, 0x71A58005, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x71A58001, 0x71A58002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x71A58001, 0x71A58003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71A58001, 0x71A58004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71A58001, 0x71A58005, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A58002,  7126, 0x1A580038, 162.6161, 182.0057, 5.846147, 0.001659706, 0, 0, -0.9999986,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -31,7 +31,7 @@ VALUES (0x71A58006,  1542, 0x1A580026, 96.87696, 134.8014, 5.726102, 0.9990482, 
 /* @teleloc 0x1A580026 [96.876960 134.801400 5.726102] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A58006, 0x71A58007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71A58006, 0x71A58007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A58007,  4179, 0x1A580026, 96.87696, 134.8014, 5.726102, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

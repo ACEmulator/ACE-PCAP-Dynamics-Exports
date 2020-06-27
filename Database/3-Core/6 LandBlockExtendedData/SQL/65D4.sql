@@ -5,20 +5,20 @@ VALUES (0x765D4001,  1154, 0x65D4003E, 177.8321, 133.5442, 67.44803, -0.7770573,
 /* @teleloc 0x65D4003E [177.832100 133.544200 67.448030] -0.777057 0.000000 0.000000 -0.629430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765D4001, 0x765D4002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D4001, 0x765D4003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x765D4001, 0x765D4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x765D4001, 0x765D4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x765D4001, 0x765D4006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x765D4001, 0x765D4007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x765D4001, 0x765D4008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765D4001, 0x765D4009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x765D4001, 0x765D400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x765D4001, 0x765D400B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x765D4001, 0x765D400C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x765D4001, 0x765D400D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x765D4001, 0x765D400E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x765D4001, 0x765D400F, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x765D4001, 0x765D4002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x765D4001, 0x765D4003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x765D4001, 0x765D4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x765D4001, 0x765D4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x765D4001, 0x765D4006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x765D4001, 0x765D4007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x765D4001, 0x765D4008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765D4001, 0x765D4009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x765D4001, 0x765D400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x765D4001, 0x765D400B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x765D4001, 0x765D400C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x765D4001, 0x765D400D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x765D4001, 0x765D400E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x765D4001, 0x765D400F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765D4002, 36832, 0x65D4003E, 177.8321, 133.5442, 67.44803, -0.7770573, 0, 0, -0.6294298,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -81,9 +81,9 @@ VALUES (0x765D4010,  1542, 0x65D4003E, 176.5089, 127.4692, 66.51209, -0.7770573,
 /* @teleloc 0x65D4003E [176.508900 127.469200 66.512090] -0.777057 0.000000 0.000000 -0.629430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765D4010, 0x765D4011, '2019-02-10 00:00:00') /* Rock */
-     , (0x765D4010, 0x765D4012, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x765D4010, 0x765D4013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x765D4010, 0x765D4011, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x765D4010, 0x765D4012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x765D4010, 0x765D4013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765D4011, 42528, 0x65D4003E, 176.5089, 127.4692, 66.51209, -0.7770573, 0, 0, -0.6294298,  True, '2019-02-10 00:00:00'); /* Rock */

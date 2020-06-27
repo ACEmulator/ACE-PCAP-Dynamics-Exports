@@ -5,16 +5,16 @@ VALUES (0x7C3A1001,  1154, 0xC3A1001A, 73.4129, 38.65397, 12.00765, 0.9961798, 0
 /* @teleloc 0xC3A1001A [73.412900 38.653970 12.007650] 0.996180 0.000000 0.000000 -0.087326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A1001, 0x7C3A1002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C3A1001, 0x7C3A1003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C3A1001, 0x7C3A1004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C3A1001, 0x7C3A1005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C3A1001, 0x7C3A1006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C3A1001, 0x7C3A1007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C3A1001, 0x7C3A1008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C3A1001, 0x7C3A1009, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C3A1001, 0x7C3A100A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C3A1001, 0x7C3A100B, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7C3A1001, 0x7C3A1002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C3A1001, 0x7C3A1003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C3A1001, 0x7C3A1004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C3A1001, 0x7C3A1005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C3A1001, 0x7C3A1006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C3A1001, 0x7C3A1007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C3A1001, 0x7C3A1008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C3A1001, 0x7C3A1009, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C3A1001, 0x7C3A100A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C3A1001, 0x7C3A100B, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A1002,   182, 0xC3A1001A, 73.4129, 38.65397, 12.00765, 0.9961798, 0, 0, -0.08732637,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -61,8 +61,8 @@ VALUES (0x7C3A100C,  1542, 0xC3A1000A, 47.37276, 26.9661, 12, 0.9659258, 0, 0, -
 /* @teleloc 0xC3A1000A [47.372760 26.966100 12.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A100C, 0x7C3A100D, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C3A100C, 0x7C3A100E, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C3A100C, 0x7C3A100D, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C3A100C, 0x7C3A100E, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A100D,  4180, 0xC3A1000A, 47.37276, 26.9661, 12, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

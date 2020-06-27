@@ -5,13 +5,13 @@ VALUES (0x759D7001,  1154, 0x59D7002E, 124.9678, 122.254, 161.2903, 0.9238795, 0
 /* @teleloc 0x59D7002E [124.967800 122.254000 161.290300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759D7001, 0x759D7002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x759D7001, 0x759D7003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x759D7001, 0x759D7004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x759D7001, 0x759D7005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x759D7001, 0x759D7006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x759D7001, 0x759D7007, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x759D7001, 0x759D7008, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x759D7001, 0x759D7002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x759D7001, 0x759D7003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x759D7001, 0x759D7004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x759D7001, 0x759D7005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x759D7001, 0x759D7006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x759D7001, 0x759D7007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x759D7001, 0x759D7008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759D7002, 36830, 0x59D7002E, 124.9678, 122.254, 161.2903, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

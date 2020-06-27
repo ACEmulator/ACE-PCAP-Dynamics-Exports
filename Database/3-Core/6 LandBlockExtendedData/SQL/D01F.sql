@@ -5,25 +5,25 @@ VALUES (0x7D01F001,  1154, 0xD01F0027, 113.4626, 147.3369, 126.0768, -0.4407144,
 /* @teleloc 0xD01F0027 [113.462600 147.336900 126.076800] -0.440714 0.000000 0.000000 -0.897647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D01F001, 0x7D01F002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D01F001, 0x7D01F003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D01F001, 0x7D01F004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D01F001, 0x7D01F005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D01F001, 0x7D01F006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D01F001, 0x7D01F007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D01F001, 0x7D01F008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D01F001, 0x7D01F009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D01F001, 0x7D01F00A, '2019-02-10 00:00:00') /* Banished Phyntos Wasp */
-     , (0x7D01F001, 0x7D01F00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D01F001, 0x7D01F00C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D01F001, 0x7D01F00D, '2019-02-10 00:00:00') /* Flare */
-     , (0x7D01F001, 0x7D01F00E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D01F001, 0x7D01F00F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D01F001, 0x7D01F010, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D01F001, 0x7D01F011, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D01F001, 0x7D01F012, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D01F001, 0x7D01F013, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D01F001, 0x7D01F014, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7D01F001, 0x7D01F002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D01F001, 0x7D01F003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D01F001, 0x7D01F004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D01F001, 0x7D01F005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D01F001, 0x7D01F006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D01F001, 0x7D01F007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D01F001, 0x7D01F008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D01F001, 0x7D01F009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D01F001, 0x7D01F00A, '2019-02-10 00:00:00') /* Banished Phyntos Wasp (30904) */
+     , (0x7D01F001, 0x7D01F00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D01F001, 0x7D01F00C, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D01F001, 0x7D01F00D, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7D01F001, 0x7D01F00E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D01F001, 0x7D01F00F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D01F001, 0x7D01F010, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D01F001, 0x7D01F011, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D01F001, 0x7D01F012, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D01F001, 0x7D01F013, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D01F001, 0x7D01F014, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D01F002,  7105, 0xD01F0027, 113.4626, 147.3369, 126.0768, -0.4407144, 0, 0, -0.8976474,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -106,7 +106,7 @@ VALUES (0x7D01F015,  1542, 0xD01F001D, 84.39469, 105.3465, 137.0727, 0.9999381, 
 /* @teleloc 0xD01F001D [84.394690 105.346500 137.072700] 0.999938 0.000000 0.000000 -0.011123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D01F015, 0x7D01F016, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D01F015, 0x7D01F016, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D01F016,  8037, 0xD01F001D, 84.39469, 105.3465, 137.0727, 0.9999381, 0, 0, -0.01112277,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

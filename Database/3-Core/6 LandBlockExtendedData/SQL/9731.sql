@@ -5,10 +5,10 @@ VALUES (0x79731001,  1154, 0x9731001B, 74.67281, 71.30186, 125.2574, 0.5199307, 
 /* @teleloc 0x9731001B [74.672810 71.301860 125.257400] 0.519931 0.000000 0.000000 -0.854209 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79731001, 0x79731002, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79731001, 0x79731003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79731001, 0x79731004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79731001, 0x79731005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x79731001, 0x79731002, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79731001, 0x79731003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79731001, 0x79731004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79731001, 0x79731005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79731002, 10767, 0x9731001B, 74.67281, 71.30186, 125.2574, 0.5199307, 0, 0, -0.8542085,  True, '2019-02-10 00:00:00'); /* Battered Doll */

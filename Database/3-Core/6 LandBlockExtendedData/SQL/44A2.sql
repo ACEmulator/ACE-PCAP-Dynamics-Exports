@@ -5,11 +5,11 @@ VALUES (0x744A2001,  1154, 0x44A2002E, 136.4358, 133.8432, 71.55206, -0.7898174,
 /* @teleloc 0x44A2002E [136.435800 133.843200 71.552060] -0.789817 0.000000 0.000000 -0.613342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744A2001, 0x744A2002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x744A2001, 0x744A2003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x744A2001, 0x744A2004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x744A2001, 0x744A2005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x744A2001, 0x744A2006, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x744A2001, 0x744A2002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x744A2001, 0x744A2003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x744A2001, 0x744A2004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x744A2001, 0x744A2005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x744A2001, 0x744A2006, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744A2002,  7124, 0x44A2002E, 136.4358, 133.8432, 71.55206, -0.7898174, 0, 0, -0.6133421,  True, '2019-02-10 00:00:00'); /* Dark Magus */

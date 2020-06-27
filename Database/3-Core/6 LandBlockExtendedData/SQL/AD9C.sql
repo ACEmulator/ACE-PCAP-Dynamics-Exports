@@ -5,13 +5,13 @@ VALUES (0x7AD9C001,  1154, 0xAD9C0021, 114.246, 16.05824, 68.67887, 0.8191521, 0
 /* @teleloc 0xAD9C0021 [114.246000 16.058240 68.678870] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9C001, 0x7AD9C002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AD9C001, 0x7AD9C003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AD9C001, 0x7AD9C004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AD9C001, 0x7AD9C005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AD9C001, 0x7AD9C006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD9C001, 0x7AD9C007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD9C001, 0x7AD9C008, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AD9C001, 0x7AD9C002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AD9C001, 0x7AD9C003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AD9C001, 0x7AD9C004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AD9C001, 0x7AD9C005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AD9C001, 0x7AD9C006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD9C001, 0x7AD9C007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD9C001, 0x7AD9C008, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9C002,  1760, 0xAD9C0021, 114.246, 16.05824, 68.67887, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

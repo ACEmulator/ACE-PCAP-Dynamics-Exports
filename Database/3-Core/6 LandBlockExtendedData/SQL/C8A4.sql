@@ -5,53 +5,53 @@ VALUES (0x7C8A4001,  1154, 0xC8A40005, 3.172704, 104.1952, 38.53429, 0.9992086, 
 /* @teleloc 0xC8A40005 [3.172704 104.195200 38.534290] 0.999209 0.000000 0.000000 -0.039776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8A4001, 0x7C8A4002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C8A4001, 0x7C8A4003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C8A4001, 0x7C8A4004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C8A4001, 0x7C8A4005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C8A4001, 0x7C8A4006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C8A4001, 0x7C8A4007, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7C8A4001, 0x7C8A4008, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7C8A4001, 0x7C8A4009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C8A4001, 0x7C8A400A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C8A4001, 0x7C8A400B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C8A4001, 0x7C8A400C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C8A4001, 0x7C8A400D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C8A4001, 0x7C8A400E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C8A4001, 0x7C8A400F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8A4001, 0x7C8A4010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8A4001, 0x7C8A4011, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8A4001, 0x7C8A4012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8A4001, 0x7C8A4013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C8A4001, 0x7C8A4014, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C8A4001, 0x7C8A4015, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8A4001, 0x7C8A4016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4019, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8A4001, 0x7C8A401A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C8A4001, 0x7C8A401B, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C8A4001, 0x7C8A401C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C8A4001, 0x7C8A401D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8A4001, 0x7C8A401E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C8A4001, 0x7C8A401F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4020, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4021, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4022, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4023, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8A4001, 0x7C8A4024, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4025, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C8A4001, 0x7C8A4026, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4027, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4028, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A4029, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A402A, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C8A4001, 0x7C8A402B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A402C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A402D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A402E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8A4001, 0x7C8A402F, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C8A4001, 0x7C8A4030, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C8A4001, 0x7C8A4002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C8A4001, 0x7C8A4003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C8A4001, 0x7C8A4004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C8A4001, 0x7C8A4005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C8A4001, 0x7C8A4006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C8A4001, 0x7C8A4007, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7C8A4001, 0x7C8A4008, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7C8A4001, 0x7C8A4009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C8A4001, 0x7C8A400A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C8A4001, 0x7C8A400B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C8A4001, 0x7C8A400C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C8A4001, 0x7C8A400D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C8A4001, 0x7C8A400E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C8A4001, 0x7C8A400F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8A4001, 0x7C8A4010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8A4001, 0x7C8A4011, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8A4001, 0x7C8A4012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8A4001, 0x7C8A4013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C8A4001, 0x7C8A4014, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C8A4001, 0x7C8A4015, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8A4001, 0x7C8A4016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4019, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8A4001, 0x7C8A401A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C8A4001, 0x7C8A401B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C8A4001, 0x7C8A401C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C8A4001, 0x7C8A401D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8A4001, 0x7C8A401E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C8A4001, 0x7C8A401F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4020, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4021, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4022, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4023, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8A4001, 0x7C8A4024, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4025, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C8A4001, 0x7C8A4026, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4027, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4028, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A4029, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A402A, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C8A4001, 0x7C8A402B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A402C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A402D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A402E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8A4001, 0x7C8A402F, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C8A4001, 0x7C8A4030, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8A4002,   229, 0xC8A40005, 3.172704, 104.1952, 38.53429, 0.9992086, 0, 0, -0.03977551,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -246,8 +246,8 @@ VALUES (0x7C8A4031,  1542, 0xC8A40009, 47.62449, 11.76795, 52.99336, -0.9930365,
 /* @teleloc 0xC8A40009 [47.624490 11.767950 52.993360] -0.993037 0.000000 0.000000 -0.117807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8A4031, 0x7C8A4032, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C8A4031, 0x7C8A4033, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7C8A4031, 0x7C8A4032, '2019-02-10 00:00:00') /* Old Gravestone (34131) */
+     , (0x7C8A4031, 0x7C8A4033, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8A4032, 34131, 0xC8A40009, 47.62449, 11.76795, 52.99336, -0.9930365, 0, 0, -0.1178068,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

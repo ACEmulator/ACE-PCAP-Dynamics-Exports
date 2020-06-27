@@ -5,10 +5,10 @@ VALUES (0x756DD001,  1154, 0x56DD0038, 148.0345, 175.7086, 42.99853, 0.6803742, 
 /* @teleloc 0x56DD0038 [148.034500 175.708600 42.998530] 0.680374 0.000000 0.000000 -0.732865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756DD001, 0x756DD002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x756DD001, 0x756DD003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x756DD001, 0x756DD004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x756DD001, 0x756DD005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x756DD001, 0x756DD002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x756DD001, 0x756DD003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x756DD001, 0x756DD004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x756DD001, 0x756DD005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756DD002,  7346, 0x56DD0038, 148.0345, 175.7086, 42.99853, 0.6803742, 0, 0, -0.7328649,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

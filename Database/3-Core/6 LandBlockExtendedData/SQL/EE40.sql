@@ -5,12 +5,12 @@ VALUES (0x7EE40001,  1154, 0xEE40002D, 135.75, 111.9798, 0.005499959, 0.7768198,
 /* @teleloc 0xEE40002D [135.750000 111.979800 0.005500] 0.776820 0.000000 0.000000 -0.629723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE40001, 0x7EE40002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7EE40001, 0x7EE40003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EE40001, 0x7EE40004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EE40001, 0x7EE40005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EE40001, 0x7EE40006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7EE40001, 0x7EE40007, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7EE40001, 0x7EE40002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7EE40001, 0x7EE40003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EE40001, 0x7EE40004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EE40001, 0x7EE40005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EE40001, 0x7EE40006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7EE40001, 0x7EE40007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE40002,   947, 0xEE40002D, 135.75, 111.9798, 0.005499959, 0.7768198, 0, 0, -0.629723,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

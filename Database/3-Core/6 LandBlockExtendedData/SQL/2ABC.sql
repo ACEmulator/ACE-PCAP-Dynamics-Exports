@@ -5,15 +5,15 @@ VALUES (0x72ABC001,  1154, 0x2ABC0003, 8.221295, 66.11498, 9.505033, 0.06769145,
 /* @teleloc 0x2ABC0003 [8.221295 66.114980 9.505033] 0.067691 0.000000 0.000000 -0.997706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72ABC001, 0x72ABC002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72ABC001, 0x72ABC003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72ABC001, 0x72ABC004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x72ABC001, 0x72ABC005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x72ABC001, 0x72ABC006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72ABC001, 0x72ABC007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72ABC001, 0x72ABC008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72ABC001, 0x72ABC009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72ABC001, 0x72ABC00A, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x72ABC001, 0x72ABC002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72ABC001, 0x72ABC003, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72ABC001, 0x72ABC004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x72ABC001, 0x72ABC005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x72ABC001, 0x72ABC006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72ABC001, 0x72ABC007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72ABC001, 0x72ABC008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72ABC001, 0x72ABC009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72ABC001, 0x72ABC00A, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72ABC002, 24960, 0x2ABC0003, 8.221295, 66.11498, 9.505033, 0.06769145, 0, 0, -0.9977063,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

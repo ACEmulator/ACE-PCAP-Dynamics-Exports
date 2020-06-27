@@ -5,14 +5,14 @@ VALUES (0x72359001,  1154, 0x2359001B, 94.05729, 64.62834, 0.002499998, 0.337763
 /* @teleloc 0x2359001B [94.057290 64.628340 0.002500] 0.337764 0.000000 0.000000 -0.941231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72359001, 0x72359002, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x72359001, 0x72359003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72359001, 0x72359004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72359001, 0x72359005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72359001, 0x72359006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72359001, 0x72359007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72359001, 0x72359008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72359001, 0x72359009, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x72359001, 0x72359002, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x72359001, 0x72359003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72359001, 0x72359004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72359001, 0x72359005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72359001, 0x72359006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72359001, 0x72359007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72359001, 0x72359008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72359001, 0x72359009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72359002, 12026, 0x2359001B, 94.05729, 64.62834, 0.002499998, 0.3377635, 0, 0, -0.941231,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */
@@ -51,7 +51,7 @@ VALUES (0x7235900A,  1542, 0x23590035, 161.0208, 102.3584, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x23590035 [161.020800 102.358400 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7235900A, 0x7235900B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7235900A, 0x7235900B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7235900B,  8999, 0x23590035, 161.0208, 102.3584, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

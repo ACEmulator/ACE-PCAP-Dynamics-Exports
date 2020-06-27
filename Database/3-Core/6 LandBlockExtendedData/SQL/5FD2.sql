@@ -5,22 +5,22 @@ VALUES (0x75FD2001,  1154, 0x5FD20032, 166.3457, 47.71724, 15.77141, 0.3041138, 
 /* @teleloc 0x5FD20032 [166.345700 47.717240 15.771410] 0.304114 0.000000 0.000000 -0.952636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD2001, 0x75FD2002, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x75FD2001, 0x75FD2003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75FD2001, 0x75FD2004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x75FD2001, 0x75FD2005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75FD2001, 0x75FD2006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD2007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD2001, 0x75FD2008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD2001, 0x75FD2009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75FD2001, 0x75FD200A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75FD2001, 0x75FD200B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD200C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD200D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD200E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD200F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75FD2001, 0x75FD2010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD2001, 0x75FD2011, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x75FD2001, 0x75FD2002, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x75FD2001, 0x75FD2003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x75FD2001, 0x75FD2004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x75FD2001, 0x75FD2005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75FD2001, 0x75FD2006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD2007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75FD2001, 0x75FD2008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75FD2001, 0x75FD2009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75FD2001, 0x75FD200A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75FD2001, 0x75FD200B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD200C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD200D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD200E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD200F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75FD2001, 0x75FD2010, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75FD2001, 0x75FD2011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD2002, 28636, 0x5FD20032, 166.3457, 47.71724, 15.77141, 0.3041138, 0, 0, -0.9526357,  True, '2019-02-10 00:00:00'); /* Rabid Eater */
@@ -91,9 +91,9 @@ VALUES (0x75FD2012,  1542, 0x5FD2002E, 133.1707, 142.3084, 16.62051, 1, 0, 0, 0,
 /* @teleloc 0x5FD2002E [133.170700 142.308400 16.620510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD2012, 0x75FD2013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75FD2012, 0x75FD2014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75FD2012, 0x75FD2015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75FD2012, 0x75FD2013, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75FD2012, 0x75FD2014, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x75FD2012, 0x75FD2015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD2013, 22567, 0x5FD2002E, 133.1707, 142.3084, 16.62051, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

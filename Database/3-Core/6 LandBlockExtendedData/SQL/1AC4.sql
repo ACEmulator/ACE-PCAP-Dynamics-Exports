@@ -5,18 +5,18 @@ VALUES (0x71AC4001,  1154, 0x1AC4001C, 84.67955, 88.19691, 23.30351, 0.2287457, 
 /* @teleloc 0x1AC4001C [84.679550 88.196910 23.303510] 0.228746 0.000000 0.000000 -0.973486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AC4001, 0x71AC4002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC4001, 0x71AC4003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC4001, 0x71AC4004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC4001, 0x71AC4005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC4001, 0x71AC4006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC4001, 0x71AC4007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC4001, 0x71AC4008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC4001, 0x71AC4009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71AC4001, 0x71AC400A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71AC4001, 0x71AC400B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71AC4001, 0x71AC400C, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71AC4001, 0x71AC400D, '2019-02-10 00:00:00') /* Zharalim */;
+VALUES (0x71AC4001, 0x71AC4002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC4001, 0x71AC4003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC4001, 0x71AC4004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC4001, 0x71AC4005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC4001, 0x71AC4006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC4001, 0x71AC4007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC4001, 0x71AC4008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC4001, 0x71AC4009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71AC4001, 0x71AC400A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71AC4001, 0x71AC400B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71AC4001, 0x71AC400C, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71AC4001, 0x71AC400D, '2019-02-10 00:00:00') /* Zharalim (12186) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AC4002, 27711, 0x1AC4001C, 84.67955, 88.19691, 23.30351, 0.2287457, 0, 0, -0.9734862,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */

@@ -5,17 +5,17 @@ VALUES (0x7CF19001,  1154, 0xCF190013, 53.23932, 50.92178, 98.68508, 0.975355, 0
 /* @teleloc 0xCF190013 [53.239320 50.921780 98.685080] 0.975355 0.000000 0.000000 -0.220642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF19001, 0x7CF19002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CF19001, 0x7CF19003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CF19001, 0x7CF19004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CF19001, 0x7CF19005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CF19001, 0x7CF19006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CF19001, 0x7CF19007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CF19001, 0x7CF19008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF19001, 0x7CF19009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CF19001, 0x7CF1900A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF19001, 0x7CF1900B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CF19001, 0x7CF1900C, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7CF19001, 0x7CF19002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CF19001, 0x7CF19003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CF19001, 0x7CF19004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CF19001, 0x7CF19005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CF19001, 0x7CF19006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CF19001, 0x7CF19007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CF19001, 0x7CF19008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF19001, 0x7CF19009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CF19001, 0x7CF1900A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF19001, 0x7CF1900B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CF19001, 0x7CF1900C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF19002, 11526, 0xCF190013, 53.23932, 50.92178, 98.68508, 0.975355, 0, 0, -0.2206416,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

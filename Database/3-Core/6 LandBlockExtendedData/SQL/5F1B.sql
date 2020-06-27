@@ -5,8 +5,8 @@ VALUES (0x75F1B001,  1154, 0x5F1B0006, 11.89728, 127.2152, 4.426623, -0.9930893,
 /* @teleloc 0x5F1B0006 [11.897280 127.215200 4.426623] -0.993089 0.000000 0.000000 -0.117361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F1B001, 0x75F1B002, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x75F1B001, 0x75F1B003, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x75F1B001, 0x75F1B002, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x75F1B001, 0x75F1B003, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F1B002,  2586, 0x5F1B0006, 11.89728, 127.2152, 4.426623, -0.9930893, 0, 0, -0.117361,  True, '2019-02-10 00:00:00'); /* Sata Sclavus */

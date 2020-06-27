@@ -5,11 +5,11 @@ VALUES (0x71782001,  1154, 0x17820015, 60.48414, 101.6334, 53.25301, 0.9932822, 
 /* @teleloc 0x17820015 [60.484140 101.633400 53.253010] 0.993282 0.000000 0.000000 -0.115717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71782001, 0x71782002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71782001, 0x71782003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71782001, 0x71782004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71782001, 0x71782005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71782001, 0x71782006, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x71782001, 0x71782002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71782001, 0x71782003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71782001, 0x71782004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71782001, 0x71782005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71782001, 0x71782006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71782002,  8138, 0x17820015, 60.48414, 101.6334, 53.25301, 0.9932822, 0, 0, -0.115717,  True, '2019-02-10 00:00:00'); /* Extas Raider */

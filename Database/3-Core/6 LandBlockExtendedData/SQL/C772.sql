@@ -9,21 +9,21 @@ VALUES (0x7C77200C,  1154, 0xC7720028, 102.1824, 186.0081, 40.0025, -0.06078766,
 /* @teleloc 0xC7720028 [102.182400 186.008100 40.002500] -0.060788 0.000000 0.000000 -0.998151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C77200C, 0x7C77200D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C77200C, 0x7C77200E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C77200F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772010, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772011, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C77200C, 0x7C772012, '2019-02-10 00:00:00') /* Static */
-     , (0x7C77200C, 0x7C772013, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772014, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772015, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772016, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772017, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C77200C, 0x7C772018, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7C77200C, 0x7C772019, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7C77200C, 0x7C77201A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C77200C, 0x7C77201B, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C77200C, 0x7C77200D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C77200C, 0x7C77200E, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C77200F, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772010, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772011, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C77200C, 0x7C772012, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C77200C, 0x7C772013, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772014, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772015, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772016, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772017, '2019-02-10 00:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C77200C, 0x7C772018, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7C77200C, 0x7C772019, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7C77200C, 0x7C77201A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C77200C, 0x7C77201B, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C77200D,  1762, 0xC7720028, 102.1824, 186.0081, 40.0025, -0.06078766, 0, 0, -0.9981507,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -90,7 +90,7 @@ VALUES (0x7C77201C,  1154, 0xC772001D, 81.1637, 109.752, 55.205, -0.542571, 0, 0
 /* @teleloc 0xC772001D [81.163700 109.752000 55.205000] -0.542571 0.000000 0.000000 -0.840010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C77201C, 0x7C77201D, '2019-02-10 00:00:00') /* Brontynn Marshad */;
+VALUES (0x7C77201C, 0x7C77201D, '2019-02-10 00:00:00') /* Brontynn Marshad (15809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C77201D, 15809, 0xC772001D, 81.1637, 109.752, 55.205, -0.542571, 0, 0, -0.8400099,  True, '2019-02-10 00:00:00'); /* Brontynn Marshad */
@@ -101,7 +101,7 @@ VALUES (0x7C77201E,  1542, 0xC7720028, 107.2427, 173.0168, 40, 1, 0, 0, 0, False
 /* @teleloc 0xC7720028 [107.242700 173.016800 40.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C77201E, 0x7C77201F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C77201E, 0x7C77201F, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C77201F, 22576, 0xC7720028, 107.2427, 173.0168, 40, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

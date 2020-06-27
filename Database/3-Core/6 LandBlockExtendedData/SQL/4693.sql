@@ -5,10 +5,10 @@ VALUES (0x74693001,  1154, 0x46930026, 115.399, 136.89, 90.98729, 0.9238795, 0, 
 /* @teleloc 0x46930026 [115.399000 136.890000 90.987290] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74693001, 0x74693002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74693001, 0x74693003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74693001, 0x74693004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74693001, 0x74693005, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x74693001, 0x74693002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74693001, 0x74693003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74693001, 0x74693004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74693001, 0x74693005, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74693002,   201, 0x46930026, 115.399, 136.89, 90.98729, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

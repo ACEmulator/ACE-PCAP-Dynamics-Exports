@@ -5,14 +5,14 @@ VALUES (0x79DED001,  1154, 0x9DED002B, 120.8173, 67.39088, 10.32599, -0.5491636,
 /* @teleloc 0x9DED002B [120.817300 67.390880 10.325990] -0.549164 0.000000 0.000000 -0.835715 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DED001, 0x79DED002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x79DED001, 0x79DED003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79DED001, 0x79DED004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79DED001, 0x79DED005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79DED001, 0x79DED006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79DED001, 0x79DED007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79DED001, 0x79DED008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79DED001, 0x79DED009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x79DED001, 0x79DED002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x79DED001, 0x79DED003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79DED001, 0x79DED004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79DED001, 0x79DED005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79DED001, 0x79DED006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79DED001, 0x79DED007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79DED001, 0x79DED008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79DED001, 0x79DED009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DED002, 22933, 0x9DED002B, 120.8173, 67.39088, 10.32599, -0.5491636, 0, 0, -0.8357149,  True, '2019-02-10 00:00:00'); /* Mist Golem */

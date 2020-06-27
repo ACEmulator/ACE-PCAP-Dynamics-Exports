@@ -5,30 +5,30 @@ VALUES (0x720C7001,  1154, 0x20C70039, 172.6285, 6.043284, 49.7668, -0.2491303, 
 /* @teleloc 0x20C70039 [172.628500 6.043284 49.766800] -0.249130 0.000000 0.000000 -0.968470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C7001, 0x720C7002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x720C7001, 0x720C7003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C7004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C7005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C7006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C7007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C7008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C7009, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C700A, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C700B, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C700C, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C700D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C7001, 0x720C700E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C7001, 0x720C700F, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x720C7001, 0x720C7010, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C7001, 0x720C7011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C7001, 0x720C7012, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x720C7001, 0x720C7013, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x720C7001, 0x720C7014, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x720C7001, 0x720C7015, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C7001, 0x720C7016, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C7017, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C7018, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C7001, 0x720C7019, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x720C7001, 0x720C7002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x720C7001, 0x720C7003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C7004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C7005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C7006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C7007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C7008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C7009, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C700A, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C700B, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C700C, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C700D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C7001, 0x720C700E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C7001, 0x720C700F, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x720C7001, 0x720C7010, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C7001, 0x720C7011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C7001, 0x720C7012, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x720C7001, 0x720C7013, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x720C7001, 0x720C7014, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x720C7001, 0x720C7015, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C7001, 0x720C7016, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C7017, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C7018, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C7001, 0x720C7019, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C7002, 27717, 0x20C70039, 172.6285, 6.043284, 49.7668, -0.2491303, 0, 0, -0.96847,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */
@@ -131,9 +131,9 @@ VALUES (0x720C701A,  1542, 0x20C70027, 109.8136, 153.1063, 22.24001, -0.04394991
 /* @teleloc 0x20C70027 [109.813600 153.106300 22.240010] -0.043950 0.000000 0.000000 -0.999034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C701A, 0x720C701B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x720C701A, 0x720C701C, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x720C701A, 0x720C701D, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x720C701A, 0x720C701B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x720C701A, 0x720C701C, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x720C701A, 0x720C701D, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C701B, 27719, 0x20C70027, 109.8136, 153.1063, 22.24001, -0.04394991, 0, 0, -0.9990337,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

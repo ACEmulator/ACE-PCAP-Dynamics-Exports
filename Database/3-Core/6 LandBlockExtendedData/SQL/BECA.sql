@@ -5,11 +5,11 @@ VALUES (0x7BECA001,  1154, 0xBECA0021, 111.7875, 13.28076, 162.2135, 0.9238795, 
 /* @teleloc 0xBECA0021 [111.787500 13.280760 162.213500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BECA001, 0x7BECA002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BECA001, 0x7BECA003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BECA001, 0x7BECA004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BECA001, 0x7BECA005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BECA001, 0x7BECA006, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7BECA001, 0x7BECA002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BECA001, 0x7BECA003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BECA001, 0x7BECA004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BECA001, 0x7BECA005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BECA001, 0x7BECA006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BECA002,  9401, 0xBECA0021, 111.7875, 13.28076, 162.2135, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

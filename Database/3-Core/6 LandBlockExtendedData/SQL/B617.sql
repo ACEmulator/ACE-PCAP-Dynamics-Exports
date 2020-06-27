@@ -5,24 +5,24 @@ VALUES (0x7B617001,  1154, 0xB6170020, 86.95989, 172.4604, 126.8378, 0.1262873, 
 /* @teleloc 0xB6170020 [86.959890 172.460400 126.837800] 0.126287 0.000000 0.000000 -0.991994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B617001, 0x7B617002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B617001, 0x7B617003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B617001, 0x7B617004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B617001, 0x7B617005, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7B617001, 0x7B617006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B617001, 0x7B617007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7B617001, 0x7B617008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B617001, 0x7B617009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B617001, 0x7B61700A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B617001, 0x7B61700B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B617001, 0x7B61700C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B617001, 0x7B61700D, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x7B617001, 0x7B61700E, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B617001, 0x7B61700F, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B617001, 0x7B617010, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B617001, 0x7B617011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B617001, 0x7B617012, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B617001, 0x7B617013, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7B617001, 0x7B617002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B617001, 0x7B617003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B617001, 0x7B617004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B617001, 0x7B617005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7B617001, 0x7B617006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B617001, 0x7B617007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7B617001, 0x7B617008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B617001, 0x7B617009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B617001, 0x7B61700A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B617001, 0x7B61700B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B617001, 0x7B61700C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B617001, 0x7B61700D, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x7B617001, 0x7B61700E, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B617001, 0x7B61700F, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B617001, 0x7B617010, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B617001, 0x7B617011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B617001, 0x7B617012, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B617001, 0x7B617013, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B617002, 38181, 0xB6170020, 86.95989, 172.4604, 126.8378, 0.1262873, 0, 0, -0.9919937,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -101,8 +101,8 @@ VALUES (0x7B617014,  1542, 0xB6170005, 1.997806, 118.3573, 96.54385, 1, 0, 0, 0,
 /* @teleloc 0xB6170005 [1.997806 118.357300 96.543850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B617014, 0x7B617015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B617014, 0x7B617016, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal */;
+VALUES (0x7B617014, 0x7B617015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B617014, 0x7B617016, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal (8383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B617015,  4179, 0xB6170005, 1.997806, 118.3573, 96.54385, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

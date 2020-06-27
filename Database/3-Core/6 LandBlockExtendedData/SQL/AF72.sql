@@ -5,35 +5,35 @@ VALUES (0x7AF72001,  1154, 0xAF72003D, 169.729, 102.1322, 34.6581, 0.8053648, 0,
 /* @teleloc 0xAF72003D [169.729000 102.132200 34.658100] 0.805365 0.000000 0.000000 -0.592780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF72001, 0x7AF72002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AF72001, 0x7AF72003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AF72001, 0x7AF72004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF72001, 0x7AF72005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF72001, 0x7AF72006, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AF72001, 0x7AF72007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF72001, 0x7AF72008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AF72001, 0x7AF72009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF72001, 0x7AF7200A, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AF72001, 0x7AF7200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AF72001, 0x7AF7200C, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AF72001, 0x7AF7200D, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AF72001, 0x7AF7200E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF72001, 0x7AF7200F, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF72001, 0x7AF72010, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF72001, 0x7AF72011, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AF72001, 0x7AF72012, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF72001, 0x7AF72013, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AF72001, 0x7AF72014, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AF72001, 0x7AF72015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AF72001, 0x7AF72016, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AF72001, 0x7AF72017, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AF72001, 0x7AF72018, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AF72001, 0x7AF72019, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AF72001, 0x7AF7201A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF72001, 0x7AF7201B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AF72001, 0x7AF7201C, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7AF72001, 0x7AF7201D, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF72001, 0x7AF7201E, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7AF72001, 0x7AF72002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AF72001, 0x7AF72003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AF72001, 0x7AF72004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF72001, 0x7AF72005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF72001, 0x7AF72006, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AF72001, 0x7AF72007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF72001, 0x7AF72008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AF72001, 0x7AF72009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF72001, 0x7AF7200A, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AF72001, 0x7AF7200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AF72001, 0x7AF7200C, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AF72001, 0x7AF7200D, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AF72001, 0x7AF7200E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF72001, 0x7AF7200F, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF72001, 0x7AF72010, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF72001, 0x7AF72011, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AF72001, 0x7AF72012, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF72001, 0x7AF72013, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AF72001, 0x7AF72014, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AF72001, 0x7AF72015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AF72001, 0x7AF72016, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AF72001, 0x7AF72017, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AF72001, 0x7AF72018, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AF72001, 0x7AF72019, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AF72001, 0x7AF7201A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF72001, 0x7AF7201B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AF72001, 0x7AF7201C, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7AF72001, 0x7AF7201D, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF72001, 0x7AF7201E, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF72002, 21168, 0xAF72003D, 169.729, 102.1322, 34.6581, 0.8053648, 0, 0, -0.5927795,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -156,9 +156,9 @@ VALUES (0x7AF7201F,  1542, 0xAF72002B, 126.0334, 65.98986, 30.50026, 1, 0, 0, 0,
 /* @teleloc 0xAF72002B [126.033400 65.989860 30.500260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF7201F, 0x7AF72020, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AF7201F, 0x7AF72021, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AF7201F, 0x7AF72022, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7AF7201F, 0x7AF72020, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AF7201F, 0x7AF72021, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7AF7201F, 0x7AF72022, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF72020,   265, 0xAF72002B, 126.0334, 65.98986, 30.50026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

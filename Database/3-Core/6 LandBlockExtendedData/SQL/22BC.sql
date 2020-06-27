@@ -5,23 +5,23 @@ VALUES (0x722BC001,  1154, 0x22BC0014, 51.28841, 78.77497, 152.9597, 1, 0, 0, 0,
 /* @teleloc 0x22BC0014 [51.288410 78.774970 152.959700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BC001, 0x722BC002, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722BC001, 0x722BC003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x722BC001, 0x722BC004, '2019-02-10 00:00:00') /* Static */
-     , (0x722BC001, 0x722BC005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x722BC001, 0x722BC006, '2019-02-10 00:00:00') /* Static */
-     , (0x722BC001, 0x722BC007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC009, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BC001, 0x722BC00A, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BC001, 0x722BC00B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC00C, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722BC001, 0x722BC00D, '2019-02-10 00:00:00') /* Poacher */
-     , (0x722BC001, 0x722BC00E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722BC001, 0x722BC011, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722BC001, 0x722BC012, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x722BC001, 0x722BC002, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722BC001, 0x722BC003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x722BC001, 0x722BC004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x722BC001, 0x722BC005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x722BC001, 0x722BC006, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x722BC001, 0x722BC007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC009, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BC001, 0x722BC00A, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BC001, 0x722BC00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC00C, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722BC001, 0x722BC00D, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x722BC001, 0x722BC00E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722BC001, 0x722BC011, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722BC001, 0x722BC012, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BC002, 11486, 0x22BC0014, 51.28841, 78.77497, 152.9597, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
@@ -96,18 +96,18 @@ VALUES (0x722BC013,  1542, 0x22BC0010, 36.0852, 187.3843, 160, -4.37114E-08, 0, 
 /* @teleloc 0x22BC0010 [36.085200 187.384300 160.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BC013, 0x722BC014, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC015, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC016, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC017, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC018, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC019, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC01A, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC01B, '2019-02-10 00:00:00') /* Menhir Stone */
-     , (0x722BC013, 0x722BC01C, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x722BC013, 0x722BC01D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x722BC013, 0x722BC01E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722BC013, 0x722BC01F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x722BC013, 0x722BC014, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x722BC013, 0x722BC015, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x722BC013, 0x722BC016, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x722BC013, 0x722BC017, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x722BC013, 0x722BC018, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x722BC013, 0x722BC019, '2019-02-10 00:00:00') /* Menhir Stone (12097) */
+     , (0x722BC013, 0x722BC01A, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x722BC013, 0x722BC01B, '2019-02-10 00:00:00') /* Menhir Stone (12108) */
+     , (0x722BC013, 0x722BC01C, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x722BC013, 0x722BC01D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x722BC013, 0x722BC01E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722BC013, 0x722BC01F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BC014, 12097, 0x22BC0010, 36.0852, 187.3843, 160, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Menhir Stone */

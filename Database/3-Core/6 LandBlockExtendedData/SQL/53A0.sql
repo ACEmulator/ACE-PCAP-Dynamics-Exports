@@ -5,10 +5,10 @@ VALUES (0x753A0001,  1154, 0x53A0003E, 189.1504, 141.6529, 43.05272, -0.9456267,
 /* @teleloc 0x53A0003E [189.150400 141.652900 43.052720] -0.945627 0.000000 0.000000 -0.325254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753A0001, 0x753A0002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x753A0001, 0x753A0003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x753A0001, 0x753A0004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x753A0001, 0x753A0005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x753A0001, 0x753A0002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x753A0001, 0x753A0003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x753A0001, 0x753A0004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x753A0001, 0x753A0005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753A0002,  9252, 0x53A0003E, 189.1504, 141.6529, 43.05272, -0.9456267, 0, 0, -0.3252538,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

@@ -5,19 +5,19 @@ VALUES (0x741BA001,  1154, 0x41BA003D, 173.0179, 107.3133, 21.35194, 0.6535391, 
 /* @teleloc 0x41BA003D [173.017900 107.313300 21.351940] 0.653539 0.000000 0.000000 -0.756893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741BA001, 0x741BA002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x741BA001, 0x741BA003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x741BA001, 0x741BA004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x741BA001, 0x741BA005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x741BA001, 0x741BA006, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x741BA001, 0x741BA007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x741BA001, 0x741BA008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x741BA001, 0x741BA009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x741BA001, 0x741BA00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x741BA001, 0x741BA00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x741BA001, 0x741BA00C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x741BA001, 0x741BA00D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x741BA001, 0x741BA00E, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x741BA001, 0x741BA002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x741BA001, 0x741BA003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x741BA001, 0x741BA004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x741BA001, 0x741BA005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x741BA001, 0x741BA006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x741BA001, 0x741BA007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x741BA001, 0x741BA008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x741BA001, 0x741BA009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x741BA001, 0x741BA00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x741BA001, 0x741BA00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x741BA001, 0x741BA00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x741BA001, 0x741BA00D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x741BA001, 0x741BA00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741BA002,  9252, 0x41BA003D, 173.0179, 107.3133, 21.35194, 0.6535391, 0, 0, -0.7568928,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -76,9 +76,9 @@ VALUES (0x741BA00F,  1542, 0x41BA001C, 91.69939, 74.32294, 20.35839, 0.8494607, 
 /* @teleloc 0x41BA001C [91.699390 74.322940 20.358390] 0.849461 0.000000 0.000000 -0.527652 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741BA00F, 0x741BA010, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x741BA00F, 0x741BA011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x741BA00F, 0x741BA012, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x741BA00F, 0x741BA010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x741BA00F, 0x741BA011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x741BA00F, 0x741BA012, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741BA010,  8041, 0x41BA001C, 91.69939, 74.32294, 20.35839, 0.8494607, 0, 0, -0.527652,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

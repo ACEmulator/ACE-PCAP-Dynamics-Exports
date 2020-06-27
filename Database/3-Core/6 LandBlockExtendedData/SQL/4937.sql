@@ -5,9 +5,9 @@ VALUES (0x74937001,  1154, 0x4937003A, 171.1749, 24.67813, 1.743674, 0.3565714, 
 /* @teleloc 0x4937003A [171.174900 24.678130 1.743674] 0.356571 0.000000 0.000000 -0.934268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74937001, 0x74937002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74937001, 0x74937003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74937001, 0x74937004, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x74937001, 0x74937002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74937001, 0x74937003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74937001, 0x74937004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74937002, 24319, 0x4937003A, 171.1749, 24.67813, 1.743674, 0.3565714, 0, 0, -0.9342681,  True, '2019-02-10 00:00:00'); /* Dark Master */

@@ -5,9 +5,9 @@ VALUES (0x73FC6001,  1154, 0x3FC6000C, 47.90078, 73.16763, 31.79213, 0.9503372, 
 /* @teleloc 0x3FC6000C [47.900780 73.167630 31.792130] 0.950337 0.000000 0.000000 -0.311222 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FC6001, 0x73FC6002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73FC6001, 0x73FC6003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73FC6001, 0x73FC6004, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x73FC6001, 0x73FC6002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x73FC6001, 0x73FC6003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x73FC6001, 0x73FC6004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FC6002, 24290, 0x3FC6000C, 47.90078, 73.16763, 31.79213, 0.9503372, 0, 0, -0.3112222,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

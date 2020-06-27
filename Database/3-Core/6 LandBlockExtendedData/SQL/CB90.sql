@@ -5,15 +5,15 @@ VALUES (0x7CB90001,  1154, 0xCB900037, 145.8178, 160.3878, 23.03993, 0.7071068, 
 /* @teleloc 0xCB900037 [145.817800 160.387800 23.039930] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB90001, 0x7CB90002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CB90001, 0x7CB90003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CB90001, 0x7CB90004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CB90001, 0x7CB90005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CB90001, 0x7CB90006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB90001, 0x7CB90007, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CB90001, 0x7CB90008, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7CB90001, 0x7CB90009, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CB90001, 0x7CB9000A, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7CB90001, 0x7CB90002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7CB90001, 0x7CB90003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CB90001, 0x7CB90004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CB90001, 0x7CB90005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CB90001, 0x7CB90006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB90001, 0x7CB90007, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CB90001, 0x7CB90008, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7CB90001, 0x7CB90009, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CB90001, 0x7CB9000A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB90002,  5766, 0xCB900037, 145.8178, 160.3878, 23.03993, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -56,8 +56,8 @@ VALUES (0x7CB9000B,  1542, 0xCB90001F, 84.38866, 154.6563, 18.49555, 0.9238795, 
 /* @teleloc 0xCB90001F [84.388660 154.656300 18.495550] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9000B, 0x7CB9000C, '2019-02-10 00:00:00') /* Scroll of Jumping Ineptitude III */
-     , (0x7CB9000B, 0x7CB9000D, '2019-02-10 00:00:00') /* Adept Healing Kit */;
+VALUES (0x7CB9000B, 0x7CB9000C, '2019-02-10 00:00:00') /* Scroll of Jumping Ineptitude III (9626) */
+     , (0x7CB9000B, 0x7CB9000D, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9000C,  9626, 0xCB90001F, 84.38866, 154.6563, 18.49555, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Scroll of Jumping Ineptitude III */

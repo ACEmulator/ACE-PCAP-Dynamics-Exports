@@ -5,14 +5,14 @@ VALUES (0x778D2001,  1154, 0x78D20023, 110.6575, 54.35673, 230.0893, 0.7071068, 
 /* @teleloc 0x78D20023 [110.657500 54.356730 230.089300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778D2001, 0x778D2002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x778D2001, 0x778D2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x778D2001, 0x778D2004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x778D2001, 0x778D2005, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x778D2001, 0x778D2006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x778D2001, 0x778D2007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x778D2001, 0x778D2008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x778D2001, 0x778D2009, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x778D2001, 0x778D2002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x778D2001, 0x778D2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x778D2001, 0x778D2004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x778D2001, 0x778D2005, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x778D2001, 0x778D2006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x778D2001, 0x778D2007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x778D2001, 0x778D2008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x778D2001, 0x778D2009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778D2002,  7121, 0x78D20023, 110.6575, 54.35673, 230.0893, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -51,8 +51,8 @@ VALUES (0x778D200A,  1542, 0x78D20023, 106.5396, 53.71913, 230.72, 1, 0, 0, 0, F
 /* @teleloc 0x78D20023 [106.539600 53.719130 230.720000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778D200A, 0x778D200B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x778D200A, 0x778D200C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x778D200A, 0x778D200B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x778D200A, 0x778D200C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778D200B, 22566, 0x78D20023, 106.5396, 53.71913, 230.72, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

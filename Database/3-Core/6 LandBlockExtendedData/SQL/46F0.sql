@@ -5,1009 +5,1009 @@ VALUES (0x746F0001,  1154, 0x46F00004, 14.64578, 80.17614, 39.27652, -0.4615435,
 /* @teleloc 0x46F00004 [14.645780 80.176140 39.276520] -0.461544 0.000000 0.000000 -0.887118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746F0001, 0x746F0002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0003, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0004, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0005, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0006, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0007, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0008, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0009, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F000A, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x746F0001, 0x746F000B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F000C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F000D, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F000E, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F000F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0010, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0011, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0012, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0013, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0014, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0015, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0016, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0017, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0018, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0019, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F001A, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F001B, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x746F0001, 0x746F001C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F001D, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F001E, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F001F, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0020, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0021, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0022, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0023, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0024, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0025, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0026, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0027, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0028, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0029, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F002A, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F002B, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F002C, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F002D, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F002E, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F002F, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0030, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0031, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0032, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0033, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0034, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0035, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0036, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0037, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0038, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0039, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F003A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F003B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F003C, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F003D, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F003E, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F003F, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0040, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0041, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0042, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0043, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0044, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0045, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0046, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0047, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0048, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0049, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F004A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F004B, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F004C, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F004D, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F004E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F004F, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0050, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0051, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0052, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0053, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0054, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0055, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0056, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0057, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0058, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0059, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F005A, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F005B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F005C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F005D, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F005E, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F005F, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0060, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0061, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0062, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0063, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0064, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0065, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0066, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0067, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0068, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0069, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F006A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F006B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F006C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F006D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F006E, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F006F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0070, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0071, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0072, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0073, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F0074, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0075, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0076, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0077, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0078, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0079, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F007A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F007B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F007C, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F007D, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F007E, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F007F, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F0080, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0081, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0082, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0083, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0084, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0085, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0086, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0087, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0088, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0089, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F008A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F008B, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F008C, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F008D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F008E, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F008F, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F0090, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0091, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0092, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0093, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0094, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0095, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0096, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0097, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0098, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0099, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F009A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F009B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F009C, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F009D, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F009E, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F009F, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F00A0, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F00A1, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00A2, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F00A3, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00A4, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00A5, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F00A6, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F00A7, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00A8, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F00A9, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00AA, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F00AB, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00AC, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00AD, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F00AE, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00AF, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F00B0, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F00B1, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F00B2, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F00B3, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00B4, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00B5, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00B6, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x746F0001, 0x746F00B7, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F00B8, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F00B9, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F00BA, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F00BB, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00BC, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00BD, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F00BE, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F00BF, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F00C0, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00C1, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F00C2, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F00C3, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F00C4, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00C5, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00C6, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00C7, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00C8, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00C9, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00CA, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F00CB, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F00CC, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00CD, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00CE, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F00CF, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00D0, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00D1, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00D2, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00D3, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00D4, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00D5, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00D6, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F00D7, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00D8, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F00D9, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00DA, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F00DB, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F00DC, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F00DD, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F00DE, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F00DF, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F00E0, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F00E1, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F00E2, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00E3, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00E4, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00E5, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00E6, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00E7, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F00E8, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F00E9, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00EA, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F00EB, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F00EC, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F00ED, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00EE, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00EF, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00F0, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00F1, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x746F0001, 0x746F00F2, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00F3, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00F4, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x746F0001, 0x746F00F5, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F00F6, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F00F7, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00F8, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00F9, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F00FA, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F00FB, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F00FC, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F00FD, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F00FE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F00FF, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0100, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F0101, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0102, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0103, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x746F0001, 0x746F0104, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0105, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0106, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0107, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0108, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0109, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x746F0001, 0x746F010A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F010B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F010C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F010D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F010E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F010F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F0110, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0111, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0112, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0113, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0114, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F0115, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0116, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0117, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0118, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0119, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F011A, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F011B, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F011C, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F011D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F011E, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F011F, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0120, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0121, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0122, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0123, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0124, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0125, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0126, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F0127, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0128, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0129, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F012A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F012B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F012C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F012D, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F012E, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F012F, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0130, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0131, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0132, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F0133, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F0134, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0135, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0136, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0137, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0138, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0139, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F013A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F013B, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F013C, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F013D, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F013E, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F013F, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0140, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x746F0001, 0x746F0141, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0142, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F0143, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0144, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0145, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0146, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F0147, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0148, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0149, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F014A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F014B, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F014C, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F014D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F014E, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F014F, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x746F0001, 0x746F0150, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F0151, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0152, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F0153, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F0154, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0155, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0156, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0157, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0158, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0159, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F015A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F015B, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F015C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F015D, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F015E, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F015F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0160, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0161, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0162, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0163, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0164, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0165, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0166, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0167, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0168, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0169, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F016A, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F016B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F016C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F016D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F016E, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F016F, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0170, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0171, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0172, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0173, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0174, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F0175, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0176, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0177, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0178, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0179, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F017A, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F017B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F017C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F017D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F017E, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F017F, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0180, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x746F0001, 0x746F0181, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0182, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0183, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0184, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0185, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0186, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F0187, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0188, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0189, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F018A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F018B, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F018C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F018D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F018E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F018F, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0190, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0191, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0192, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0193, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0194, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0195, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0196, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0197, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F0198, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0199, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F019A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F019B, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F019C, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F019D, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F019E, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F019F, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x746F0001, 0x746F01A0, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F01A1, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F01A2, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F01A3, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F01A4, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F01A5, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F01A6, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F01A7, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01A8, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F01A9, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F01AA, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F01AB, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01AC, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F01AD, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F01AE, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F01AF, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F01B0, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F01B1, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01B2, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F01B3, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F01B4, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01B5, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F01B6, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F01B7, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F01B8, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F01B9, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F01BA, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x746F0001, 0x746F01BB, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F01BC, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x746F0001, 0x746F01BD, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01BE, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F01BF, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F01C0, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F01C1, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01C2, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01C3, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F01C4, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F01C5, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F01C6, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01C7, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01C8, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F01C9, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F01CA, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01CB, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01CC, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F01CD, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01CE, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F01CF, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01D0, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F01D1, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F01D2, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01D3, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01D4, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x746F0001, 0x746F01D5, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F01D6, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F01D7, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F01D8, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F01D9, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01DA, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F01DB, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F01DC, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01DD, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F01DE, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F01DF, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x746F0001, 0x746F01E0, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F01E1, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F01E2, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F01E3, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01E4, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01E5, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F01E6, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F01E7, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F01E8, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01E9, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F01EA, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F01EB, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F01EC, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F01ED, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01EE, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F01EF, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01F0, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F01F1, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F01F2, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F01F3, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F01F4, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F01F5, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F01F6, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F01F7, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F01F8, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F01F9, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F01FA, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01FB, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01FC, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F01FD, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F01FE, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F01FF, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0200, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0201, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0202, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0203, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0204, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0205, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0206, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0207, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0208, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F0209, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F020A, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F020B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F020C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F020D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F020E, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F020F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0210, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0211, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0212, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0213, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F0214, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0215, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0216, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0217, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0218, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0219, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F021A, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F021B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F021C, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F021D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F021E, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F021F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0220, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0221, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0222, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F0223, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0224, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0225, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0226, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0227, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F0228, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0229, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F022A, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F022B, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F022C, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F022D, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F022E, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F022F, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0230, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0231, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0232, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F0233, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F0234, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0235, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0236, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0237, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0238, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0239, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F023A, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F023B, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F023C, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F023D, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F023E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F023F, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0240, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0241, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0242, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0243, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F0244, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0245, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0246, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0247, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0248, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F0249, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F024A, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F024B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F024C, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F024D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F024E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F024F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0250, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0251, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0252, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0253, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0254, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0255, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0256, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0257, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0258, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F0259, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F025A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F025B, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F025C, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F025D, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F025E, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F025F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0260, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0261, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0262, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0263, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0264, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0265, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0266, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0267, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0268, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0269, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F026A, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F026B, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F026C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F026D, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F026E, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F026F, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0270, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0271, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0272, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0273, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0274, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0275, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0276, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F0277, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0278, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0279, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F027A, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F027B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F027C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F027D, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F027E, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F027F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0280, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0281, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0282, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0283, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0284, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x746F0001, 0x746F0285, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0286, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0287, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0288, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0289, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F028A, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F028B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F028C, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F028D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F028E, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F028F, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0290, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F0291, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0292, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0293, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0294, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0295, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0296, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0297, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0298, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0299, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F029A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F029B, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F029C, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F029D, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F029E, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F029F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02A0, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02A1, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02A2, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02A3, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F02A4, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F02A5, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x746F0001, 0x746F02A6, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F02A7, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F02A8, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F02A9, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F02AA, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02AB, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x746F0001, 0x746F02AC, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F02AD, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02AE, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F02AF, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F02B0, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F02B1, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F02B2, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02B3, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F02B4, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02B5, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02B6, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02B7, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02B8, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02B9, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F02BA, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F02BB, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F02BC, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02BD, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02BE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02BF, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F02C0, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F02C1, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F02C2, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02C3, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F02C4, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F02C5, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F02C6, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02C7, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02C8, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F02C9, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F02CA, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02CB, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02CC, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F02CD, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02CE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02CF, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F02D0, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02D1, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02D2, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F02D3, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02D4, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02D5, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F02D6, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02D7, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02D8, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F02D9, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02DA, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F02DB, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F02DC, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F02DD, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F02DE, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F02DF, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F02E0, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02E1, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F02E2, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F02E3, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02E4, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F02E5, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F02E6, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F02E7, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F02E8, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F02E9, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02EA, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02EB, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F02EC, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F02ED, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F02EE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02EF, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02F0, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F02F1, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02F2, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02F3, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02F4, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F02F5, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02F6, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x746F0001, 0x746F02F7, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F02F8, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02F9, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F02FA, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x746F0001, 0x746F02FB, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F02FC, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F02FD, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F02FE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F02FF, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0300, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x746F0001, 0x746F0301, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0302, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0303, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0304, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0305, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0306, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0307, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0308, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0309, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F030A, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F030B, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F030C, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F030D, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F030E, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F030F, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F0310, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0311, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0312, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0313, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0314, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0315, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F0316, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0317, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0318, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0319, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F031A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F031B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F031C, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F031D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F031E, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F031F, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0320, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0321, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0322, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0323, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F0324, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0325, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0326, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0327, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0328, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0329, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F032A, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F032B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F032C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F032D, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F032E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F032F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0330, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0331, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F0332, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0333, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F0334, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x746F0001, 0x746F0335, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F0336, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F0337, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0338, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x746F0001, 0x746F0339, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F033A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F033B, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F033C, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F033D, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F033E, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F033F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0340, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x746F0001, 0x746F0341, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0342, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F0343, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0344, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0345, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0346, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0347, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0348, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x746F0001, 0x746F0349, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F034A, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F034B, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F034C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F034D, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F034E, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F034F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F0350, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F0351, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F0352, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0353, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0354, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F0355, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0356, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0357, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0358, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0359, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F035A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F035B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F035C, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x746F0001, 0x746F035D, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F035E, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F035F, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0360, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x746F0001, 0x746F0361, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x746F0001, 0x746F0362, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F0363, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0364, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x746F0001, 0x746F0365, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0366, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0367, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0368, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0369, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F036A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F036B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F036C, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F036D, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F036E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F036F, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0370, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0371, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0372, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0373, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0374, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F0375, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0376, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F0377, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F0378, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F0379, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F037A, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F037B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F037C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F037D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F037E, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F037F, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F0380, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0381, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F0382, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0383, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0384, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F0385, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F0386, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F0387, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x746F0001, 0x746F0388, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0389, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F038A, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F038B, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F038C, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F038D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F038E, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F038F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F0390, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0391, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0392, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F0393, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x746F0001, 0x746F0394, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F0395, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F0396, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F0397, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F0398, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x746F0001, 0x746F0399, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x746F0001, 0x746F039A, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F039B, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F039C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F039D, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F039E, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x746F0001, 0x746F039F, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F03A0, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F03A1, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03A2, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F03A3, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03A4, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03A5, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03A6, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F03A7, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F03A8, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03A9, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x746F0001, 0x746F03AA, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F03AB, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03AC, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F03AD, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F03AE, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03AF, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03B0, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03B1, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F03B2, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F03B3, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03B4, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x746F0001, 0x746F03B5, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F03B6, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F03B7, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03B8, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03B9, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F03BA, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x746F0001, 0x746F03BB, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03BC, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03BD, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F03BE, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F03BF, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746F0001, 0x746F03C0, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F03C1, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03C2, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F03C3, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03C4, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x746F0001, 0x746F03C5, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F03C6, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x746F0001, 0x746F03C7, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03C8, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x746F0001, 0x746F03C9, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F03CA, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x746F0001, 0x746F03CB, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03CC, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x746F0001, 0x746F03CD, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F03CE, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x746F0001, 0x746F03CF, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03D0, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03D1, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F03D2, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F03D3, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x746F0001, 0x746F03D4, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03D5, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03D6, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F03D7, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03D8, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x746F0001, 0x746F03D9, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03DA, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03DB, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F03DC, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03DD, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746F0001, 0x746F03DE, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x746F0001, 0x746F03DF, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x746F0001, 0x746F03E0, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03E1, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F03E2, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x746F0001, 0x746F03E3, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x746F0001, 0x746F03E4, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x746F0001, 0x746F03E5, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x746F0001, 0x746F03E6, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x746F0001, 0x746F03E7, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03E8, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746F0001, 0x746F03E9, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x746F0001, 0x746F03EA, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x746F0001, 0x746F03EB, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x746F0001, 0x746F03EC, '2019-02-10 00:00:00') /* Viamontian Tribune */;
+VALUES (0x746F0001, 0x746F0002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F0003, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0004, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0005, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0006, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0007, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0008, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0009, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F000A, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x746F0001, 0x746F000B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F000C, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F000D, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F000E, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F000F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0010, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0011, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0012, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0013, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0014, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0015, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0016, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0017, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0018, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0019, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F001A, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F001B, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x746F0001, 0x746F001C, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F001D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F001E, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F001F, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0020, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0021, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0022, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0023, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0024, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0025, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0026, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0027, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0028, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0029, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F002A, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F002B, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F002C, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F002D, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F002E, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F002F, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0030, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0031, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0032, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0033, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0034, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0035, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0036, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0037, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0038, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0039, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F003A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F003B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F003C, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F003D, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F003E, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F003F, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0040, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0041, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0042, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0043, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0044, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0045, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0046, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0047, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0048, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0049, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F004A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F004B, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F004C, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F004D, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F004E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F004F, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0050, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0051, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0052, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0053, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0054, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0055, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0056, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0057, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0058, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0059, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F005A, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F005B, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F005C, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F005D, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F005E, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F005F, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0060, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0061, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0062, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0063, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0064, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0065, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0066, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0067, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0068, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0069, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F006A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F006B, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F006C, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F006D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F006E, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F006F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0070, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0071, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F0072, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0073, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F0074, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0075, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0076, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0077, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0078, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0079, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F007A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F007B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F007C, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F007D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F007E, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F007F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F0080, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0081, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0082, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0083, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0084, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0085, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0086, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0087, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0088, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0089, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F008A, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F008B, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F008C, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F008D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F008E, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F008F, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F0090, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0091, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0092, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0093, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0094, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0095, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0096, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F0097, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0098, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0099, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F009A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F009B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F009C, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F009D, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F009E, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F009F, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F00A0, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F00A1, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00A2, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F00A3, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00A4, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00A5, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F00A6, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F00A7, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00A8, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F00A9, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00AA, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F00AB, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00AC, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00AD, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F00AE, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00AF, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F00B0, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F00B1, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F00B2, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F00B3, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00B4, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00B5, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00B6, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x746F0001, 0x746F00B7, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F00B8, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F00B9, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F00BA, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F00BB, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00BC, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00BD, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F00BE, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F00BF, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F00C0, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00C1, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F00C2, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F00C3, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F00C4, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00C5, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00C6, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00C7, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00C8, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00C9, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00CA, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F00CB, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F00CC, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00CD, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00CE, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F00CF, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00D0, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00D1, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00D2, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00D3, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00D4, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00D5, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00D6, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F00D7, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00D8, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F00D9, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00DA, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F00DB, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F00DC, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F00DD, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F00DE, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F00DF, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F00E0, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F00E1, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F00E2, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00E3, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00E4, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00E5, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00E6, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00E7, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F00E8, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F00E9, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00EA, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F00EB, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F00EC, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F00ED, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00EE, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00EF, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00F0, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00F1, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x746F0001, 0x746F00F2, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00F3, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00F4, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x746F0001, 0x746F00F5, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F00F6, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F00F7, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00F8, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00F9, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F00FA, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F00FB, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F00FC, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F00FD, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F00FE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F00FF, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0100, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F0101, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0102, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0103, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x746F0001, 0x746F0104, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0105, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0106, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0107, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0108, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0109, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x746F0001, 0x746F010A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F010B, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F010C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F010D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F010E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F010F, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F0110, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0111, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0112, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0113, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0114, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F0115, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0116, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0117, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0118, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0119, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F011A, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F011B, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F011C, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F011D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F011E, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F011F, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0120, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0121, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0122, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F0123, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0124, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0125, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0126, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F0127, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0128, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F0129, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F012A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F012B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F012C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F012D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F012E, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F012F, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0130, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0131, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0132, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F0133, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F0134, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0135, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0136, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0137, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0138, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0139, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F013A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F013B, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F013C, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F013D, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F013E, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F013F, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0140, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x746F0001, 0x746F0141, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0142, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F0143, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0144, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0145, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0146, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F0147, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0148, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0149, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F014A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F014B, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F014C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F014D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F014E, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F014F, '2019-02-10 00:00:00') /* Uber Penguin (28661) */
+     , (0x746F0001, 0x746F0150, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F0151, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0152, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F0153, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F0154, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0155, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0156, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0157, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0158, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0159, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F015A, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F015B, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F015C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F015D, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F015E, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F015F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0160, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0161, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0162, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0163, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0164, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0165, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0166, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0167, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0168, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0169, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F016A, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F016B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F016C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F016D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F016E, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F016F, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0170, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0171, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0172, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F0173, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0174, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F0175, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0176, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0177, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0178, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0179, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F017A, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F017B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F017C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F017D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F017E, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F017F, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0180, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x746F0001, 0x746F0181, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0182, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0183, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0184, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0185, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F0186, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F0187, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0188, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0189, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F018A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F018B, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F018C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F018D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F018E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F018F, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0190, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0191, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0192, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0193, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0194, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0195, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0196, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0197, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F0198, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0199, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F019A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F019B, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F019C, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F019D, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F019E, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F019F, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x746F0001, 0x746F01A0, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F01A1, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F01A2, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F01A3, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F01A4, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F01A5, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F01A6, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F01A7, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01A8, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F01A9, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F01AA, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F01AB, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01AC, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F01AD, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F01AE, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F01AF, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F01B0, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F01B1, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01B2, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F01B3, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F01B4, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01B5, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F01B6, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F01B7, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F01B8, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F01B9, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F01BA, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x746F0001, 0x746F01BB, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F01BC, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x746F0001, 0x746F01BD, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01BE, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F01BF, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F01C0, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F01C1, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01C2, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01C3, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F01C4, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F01C5, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F01C6, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01C7, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01C8, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F01C9, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F01CA, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01CB, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01CC, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F01CD, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01CE, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F01CF, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01D0, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F01D1, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F01D2, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01D3, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01D4, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x746F0001, 0x746F01D5, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F01D6, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F01D7, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F01D8, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F01D9, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01DA, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F01DB, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F01DC, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01DD, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F01DE, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F01DF, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x746F0001, 0x746F01E0, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F01E1, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F01E2, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F01E3, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01E4, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01E5, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F01E6, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F01E7, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F01E8, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01E9, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F01EA, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F01EB, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F01EC, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F01ED, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01EE, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F01EF, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01F0, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F01F1, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F01F2, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F01F3, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F01F4, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F01F5, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F01F6, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F01F7, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F01F8, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F01F9, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F01FA, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01FB, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01FC, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F01FD, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F01FE, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F01FF, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0200, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0201, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0202, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0203, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0204, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0205, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0206, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0207, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0208, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F0209, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F020A, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F020B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F020C, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F020D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F020E, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F020F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0210, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0211, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0212, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F0213, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F0214, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0215, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0216, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0217, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0218, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0219, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F021A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F021B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F021C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F021D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F021E, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F021F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0220, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0221, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0222, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F0223, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0224, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0225, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0226, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0227, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F0228, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0229, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F022A, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F022B, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F022C, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F022D, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F022E, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F022F, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0230, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0231, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0232, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F0233, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F0234, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0235, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0236, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0237, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0238, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0239, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F023A, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F023B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F023C, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F023D, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F023E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F023F, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0240, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0241, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0242, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0243, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F0244, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0245, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0246, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0247, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F0248, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F0249, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F024A, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F024B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F024C, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F024D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F024E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F024F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0250, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F0251, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0252, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0253, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0254, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0255, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0256, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0257, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0258, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F0259, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F025A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F025B, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F025C, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F025D, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F025E, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F025F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0260, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0261, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0262, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0263, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0264, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0265, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0266, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0267, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0268, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0269, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F026A, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F026B, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F026C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F026D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F026E, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F026F, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F0270, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0271, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0272, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0273, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0274, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0275, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0276, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F0277, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0278, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0279, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F027A, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F027B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F027C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F027D, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F027E, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F027F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0280, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0281, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0282, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0283, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0284, '2019-02-10 00:00:00') /* Uber Penguin (28660) */
+     , (0x746F0001, 0x746F0285, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0286, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0287, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0288, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0289, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F028A, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F028B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F028C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F028D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F028E, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F028F, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0290, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F0291, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0292, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0293, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0294, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0295, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0296, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0297, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0298, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0299, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F029A, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F029B, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F029C, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F029D, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F029E, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F029F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02A0, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02A1, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02A2, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02A3, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F02A4, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F02A5, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x746F0001, 0x746F02A6, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F02A7, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F02A8, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F02A9, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F02AA, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02AB, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x746F0001, 0x746F02AC, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F02AD, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02AE, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F02AF, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F02B0, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F02B1, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F02B2, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02B3, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F02B4, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02B5, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02B6, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02B7, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02B8, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02B9, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F02BA, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F02BB, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F02BC, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02BD, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02BE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02BF, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F02C0, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F02C1, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F02C2, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02C3, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F02C4, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F02C5, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F02C6, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02C7, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02C8, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F02C9, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F02CA, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02CB, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02CC, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F02CD, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02CE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02CF, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F02D0, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02D1, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02D2, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F02D3, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02D4, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02D5, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F02D6, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02D7, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02D8, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F02D9, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02DA, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F02DB, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F02DC, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F02DD, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F02DE, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F02DF, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F02E0, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02E1, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F02E2, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F02E3, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02E4, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F02E5, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F02E6, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F02E7, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F02E8, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F02E9, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02EA, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02EB, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F02EC, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F02ED, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F02EE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02EF, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02F0, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F02F1, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02F2, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02F3, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02F4, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F02F5, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02F6, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x746F0001, 0x746F02F7, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F02F8, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02F9, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F02FA, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x746F0001, 0x746F02FB, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F02FC, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F02FD, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F02FE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F02FF, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0300, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x746F0001, 0x746F0301, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0302, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0303, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0304, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0305, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0306, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0307, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0308, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0309, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F030A, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F030B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F030C, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F030D, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F030E, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F030F, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F0310, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F0311, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0312, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0313, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0314, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0315, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F0316, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0317, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0318, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0319, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F031A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F031B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F031C, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F031D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F031E, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F031F, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0320, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0321, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0322, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0323, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F0324, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0325, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0326, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0327, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0328, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0329, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F032A, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F032B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F032C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F032D, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F032E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F032F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0330, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0331, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F0332, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0333, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F0334, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x746F0001, 0x746F0335, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F0336, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F0337, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0338, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x746F0001, 0x746F0339, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F033A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F033B, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F033C, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F033D, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F033E, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F033F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0340, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x746F0001, 0x746F0341, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0342, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F0343, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0344, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0345, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0346, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0347, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0348, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x746F0001, 0x746F0349, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F034A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F034B, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F034C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F034D, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x746F0001, 0x746F034E, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F034F, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F0350, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F0351, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F0352, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0353, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0354, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F0355, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0356, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0357, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0358, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0359, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F035A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F035B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F035C, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x746F0001, 0x746F035D, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F035E, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F035F, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0360, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x746F0001, 0x746F0361, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x746F0001, 0x746F0362, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F0363, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0364, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x746F0001, 0x746F0365, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0366, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0367, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0368, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0369, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F036A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F036B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F036C, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F036D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F036E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F036F, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0370, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0371, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0372, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0373, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0374, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F0375, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0376, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F0377, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F0378, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F0379, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F037A, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F037B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F037C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F037D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F037E, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F037F, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F0380, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0381, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F0382, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0383, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0384, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F0385, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F0386, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F0387, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x746F0001, 0x746F0388, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0389, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F038A, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F038B, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F038C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F038D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F038E, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F038F, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F0390, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0391, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0392, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F0393, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x746F0001, 0x746F0394, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F0395, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F0396, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F0397, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F0398, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x746F0001, 0x746F0399, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x746F0001, 0x746F039A, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F039B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F039C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F039D, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F039E, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x746F0001, 0x746F039F, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F03A0, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F03A1, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03A2, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F03A3, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03A4, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03A5, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03A6, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F03A7, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F03A8, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03A9, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x746F0001, 0x746F03AA, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F03AB, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03AC, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F03AD, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F03AE, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03AF, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03B0, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03B1, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F03B2, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F03B3, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03B4, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x746F0001, 0x746F03B5, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F03B6, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F03B7, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03B8, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03B9, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F03BA, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x746F0001, 0x746F03BB, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03BC, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03BD, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F03BE, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F03BF, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746F0001, 0x746F03C0, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F03C1, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03C2, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F03C3, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03C4, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x746F0001, 0x746F03C5, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F03C6, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x746F0001, 0x746F03C7, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03C8, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x746F0001, 0x746F03C9, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F03CA, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x746F0001, 0x746F03CB, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03CC, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x746F0001, 0x746F03CD, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F03CE, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x746F0001, 0x746F03CF, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03D0, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03D1, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F03D2, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F03D3, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x746F0001, 0x746F03D4, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03D5, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03D6, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F03D7, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03D8, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x746F0001, 0x746F03D9, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03DA, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03DB, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x746F0001, 0x746F03DC, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03DD, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746F0001, 0x746F03DE, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x746F0001, 0x746F03DF, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x746F0001, 0x746F03E0, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03E1, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F03E2, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x746F0001, 0x746F03E3, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x746F0001, 0x746F03E4, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x746F0001, 0x746F03E5, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x746F0001, 0x746F03E6, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x746F0001, 0x746F03E7, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03E8, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746F0001, 0x746F03E9, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x746F0001, 0x746F03EA, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x746F0001, 0x746F03EB, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x746F0001, 0x746F03EC, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746F0002, 28049, 0x46F00004, 14.64578, 80.17614, 39.27652, -0.4615435, 0, 0, -0.8871176,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
@@ -5026,29 +5026,29 @@ VALUES (0x746F03ED,  1542, 0x46F0003C, 171.639, 81.10983, 39.21506, -0.9313089, 
 /* @teleloc 0x46F0003C [171.639000 81.109830 39.215060] -0.931309 0.000000 0.000000 -0.364230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746F03ED, 0x746F03EE, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03EF, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F0, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F1, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F2, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F3, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F4, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F5, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F6, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F7, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F8, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03F9, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FA, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FB, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FC, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FD, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FE, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F03FF, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F0400, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F0401, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F0402, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F0403, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x746F03ED, 0x746F0404, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x746F03ED, 0x746F03EE, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03EF, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F0, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F1, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F2, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F3, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F4, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F5, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F6, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F7, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F8, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03F9, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FA, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FB, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FC, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FD, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FE, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F03FF, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F0400, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F0401, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F0402, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F0403, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x746F03ED, 0x746F0404, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746F03EE, 31032, 0x46F0003C, 171.639, 81.10983, 39.21506, -0.9313089, 0, 0, -0.3642303,  True, '2019-02-10 00:00:00'); /* Snow Lily */

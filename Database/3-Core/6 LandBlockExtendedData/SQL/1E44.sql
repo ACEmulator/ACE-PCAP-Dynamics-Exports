@@ -5,13 +5,13 @@ VALUES (0x71E44001,  1154, 0x1E440033, 159.3768, 60.78296, 10.7286, 0.7071068, 0
 /* @teleloc 0x1E440033 [159.376800 60.782960 10.728600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E44001, 0x71E44002, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E44001, 0x71E44003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E44001, 0x71E44004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71E44001, 0x71E44005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71E44001, 0x71E44006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71E44001, 0x71E44007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71E44001, 0x71E44008, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x71E44001, 0x71E44002, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E44001, 0x71E44003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E44001, 0x71E44004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71E44001, 0x71E44005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71E44001, 0x71E44006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71E44001, 0x71E44007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71E44001, 0x71E44008, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E44002, 36836, 0x1E440033, 159.3768, 60.78296, 10.7286, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
@@ -46,9 +46,9 @@ VALUES (0x71E44009,  1542, 0x1E440033, 154.8748, 57.45039, 10.78753, -4.371139E-
 /* @teleloc 0x1E440033 [154.874800 57.450390 10.787530] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E44009, 0x71E4400A, '2019-02-10 00:00:00') /* Bones */
-     , (0x71E44009, 0x71E4400B, '2019-02-10 00:00:00') /* Bones */
-     , (0x71E44009, 0x71E4400C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71E44009, 0x71E4400A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71E44009, 0x71E4400B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71E44009, 0x71E4400C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E4400A,  4380, 0x1E440033, 154.8748, 57.45039, 10.78753, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

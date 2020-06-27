@@ -5,33 +5,33 @@ VALUES (0x792D2001,  1154, 0x92D2000E, 47.91116, 129.8835, 632, 1, 0, 0, 0, Fals
 /* @teleloc 0x92D2000E [47.911160 129.883500 632.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D2001, 0x792D2002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x792D2001, 0x792D2003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792D2001, 0x792D2004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792D2001, 0x792D2005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D2001, 0x792D2006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D2001, 0x792D2007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D2001, 0x792D2008, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x792D2001, 0x792D2009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792D2001, 0x792D200A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x792D2001, 0x792D200B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x792D2001, 0x792D200C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792D2001, 0x792D200D, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D2001, 0x792D200E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D2001, 0x792D200F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x792D2001, 0x792D2010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x792D2001, 0x792D2011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x792D2001, 0x792D2012, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D2001, 0x792D2013, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D2001, 0x792D2014, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D2001, 0x792D2015, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792D2001, 0x792D2016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792D2001, 0x792D2017, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x792D2001, 0x792D2018, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x792D2001, 0x792D2019, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792D2001, 0x792D201A, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x792D2001, 0x792D201B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x792D2001, 0x792D201C, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x792D2001, 0x792D2002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x792D2001, 0x792D2003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792D2001, 0x792D2004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792D2001, 0x792D2005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D2001, 0x792D2006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D2001, 0x792D2007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D2001, 0x792D2008, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x792D2001, 0x792D2009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792D2001, 0x792D200A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x792D2001, 0x792D200B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x792D2001, 0x792D200C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792D2001, 0x792D200D, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D2001, 0x792D200E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D2001, 0x792D200F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x792D2001, 0x792D2010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x792D2001, 0x792D2011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x792D2001, 0x792D2012, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D2001, 0x792D2013, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D2001, 0x792D2014, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D2001, 0x792D2015, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792D2001, 0x792D2016, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x792D2001, 0x792D2017, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x792D2001, 0x792D2018, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x792D2001, 0x792D2019, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x792D2001, 0x792D201A, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x792D2001, 0x792D201B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x792D2001, 0x792D201C, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D2002,  6041, 0x92D2000E, 47.91116, 129.8835, 632, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -146,8 +146,8 @@ VALUES (0x792D201D,  1542, 0x92D20006, 20.3458, 143.3008, 630.2921, 1, 0, 0, 0, 
 /* @teleloc 0x92D20006 [20.345800 143.300800 630.292100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D201D, 0x792D201E, '2019-02-10 00:00:00') /* Rock */
-     , (0x792D201D, 0x792D201F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x792D201D, 0x792D201E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x792D201D, 0x792D201F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D201E, 42528, 0x92D20006, 20.3458, 143.3008, 630.2921, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rock */

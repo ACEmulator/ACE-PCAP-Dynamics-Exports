@@ -5,17 +5,17 @@ VALUES (0x7C17C001,  1154, 0xC17C0003, 23.71156, 69.73595, 66.07661, 0.9537169, 
 /* @teleloc 0xC17C0003 [23.711560 69.735950 66.076610] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C17C001, 0x7C17C002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C17C001, 0x7C17C003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C17C001, 0x7C17C004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C17C001, 0x7C17C005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C17C001, 0x7C17C006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C17C001, 0x7C17C007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C17C001, 0x7C17C008, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7C17C001, 0x7C17C009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C17C001, 0x7C17C00A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C17C001, 0x7C17C00B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C17C001, 0x7C17C00C, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7C17C001, 0x7C17C002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C17C001, 0x7C17C003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C17C001, 0x7C17C004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C17C001, 0x7C17C005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C17C001, 0x7C17C006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C17C001, 0x7C17C007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C17C001, 0x7C17C008, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7C17C001, 0x7C17C009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C17C001, 0x7C17C00A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C17C001, 0x7C17C00B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C17C001, 0x7C17C00C, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17C002,  1612, 0xC17C0003, 23.71156, 69.73595, 66.07661, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -66,8 +66,8 @@ VALUES (0x7C17C00D,  1542, 0xC17C002A, 125.268, 35.03796, 42.38275, 1, 0, 0, 0, 
 /* @teleloc 0xC17C002A [125.268000 35.037960 42.382750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C17C00D, 0x7C17C00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C17C00D, 0x7C17C00F, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C17C00D, 0x7C17C00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C17C00D, 0x7C17C00F, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17C00E,  4179, 0xC17C002A, 125.268, 35.03796, 42.38275, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

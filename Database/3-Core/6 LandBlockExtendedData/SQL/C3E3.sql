@@ -25,118 +25,118 @@ VALUES (0x7C3E3020,  1154, 0xC3E30128, 83.9772, 78.0738, 36.60975, 0.00928063, 0
 /* @teleloc 0xC3E30128 [83.977200 78.073800 36.609750] 0.009281 0.000000 0.000000 -0.999957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3E3020, 0x7C3E3021, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3022, '2019-02-10 00:00:00') /* Falatacot Abbess */
-     , (0x7C3E3020, 0x7C3E3023, '2019-02-10 00:00:00') /* Falatacot Abbess */
-     , (0x7C3E3020, 0x7C3E3024, '2019-02-10 00:00:00') /* Falatacot Abbess */
-     , (0x7C3E3020, 0x7C3E3025, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3026, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3027, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3028, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3029, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E302A, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E302B, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E302C, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E302D, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E302E, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E302F, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3030, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3031, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3032, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3033, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3034, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3035, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3036, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3037, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3038, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3039, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E303A, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E303B, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E303C, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E303D, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E303E, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E303F, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3040, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3041, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3042, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3043, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3044, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3045, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3046, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3047, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3048, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3049, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E304A, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E304B, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E304C, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E304D, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E304E, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E304F, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3050, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3051, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3052, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3053, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3054, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3055, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3056, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3057, '2019-02-10 00:00:00') /* Falatacot Abbess */
-     , (0x7C3E3020, 0x7C3E3058, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3059, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E305A, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E305B, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E305C, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E305D, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E305E, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E305F, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3060, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3061, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3062, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3063, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3064, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3065, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3066, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3067, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3068, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3069, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E306A, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E306B, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E306C, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E306D, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E306E, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E306F, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3070, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3071, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3072, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3073, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3074, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E3075, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E3076, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3077, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3078, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3079, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E307A, '2019-02-10 00:00:00') /* Ancient Soul */
-     , (0x7C3E3020, 0x7C3E307B, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7C3E3020, 0x7C3E307C, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E307D, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E307E, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E307F, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3080, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3081, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3082, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3083, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3084, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3085, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3086, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3087, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3088, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E3089, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E308A, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E308B, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E308C, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E308D, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E308E, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7C3E3020, 0x7C3E308F, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7C3E3020, 0x7C3E3090, '2019-02-10 00:00:00') /* Sishalti Tentacle */;
+VALUES (0x7C3E3020, 0x7C3E3021, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x7C3E3020, 0x7C3E3022, '2019-02-10 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7C3E3020, 0x7C3E3023, '2019-02-10 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7C3E3020, 0x7C3E3024, '2019-02-10 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7C3E3020, 0x7C3E3025, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E3026, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E3027, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3028, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E3029, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E302A, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E302B, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E302C, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E302D, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E302E, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E302F, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3030, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3031, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3032, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3033, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3034, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3035, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3036, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3037, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3038, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3039, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E303A, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E303B, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E303C, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E303D, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E303E, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E303F, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3040, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3041, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3042, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3043, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3044, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3045, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3046, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3047, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3048, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3049, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E304A, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E304B, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E304C, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E304D, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E304E, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E304F, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3050, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3051, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3052, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3053, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3054, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3055, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3056, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3057, '2019-02-10 00:00:00') /* Falatacot Abbess (25345) */
+     , (0x7C3E3020, 0x7C3E3058, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3059, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E305A, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E305B, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E305C, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E305D, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E305E, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E305F, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3060, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3061, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3062, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3063, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3064, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3065, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3066, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3067, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3068, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3069, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E306A, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E306B, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E306C, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E306D, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E306E, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E306F, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3070, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3071, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3072, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3073, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E3074, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E3075, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E3076, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3077, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3078, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3079, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E307A, '2019-02-10 00:00:00') /* Ancient Soul (26516) */
+     , (0x7C3E3020, 0x7C3E307B, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7C3E3020, 0x7C3E307C, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E307D, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E307E, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E307F, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3080, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3081, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3082, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3083, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3084, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3085, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3086, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3087, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3088, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E3089, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E308A, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E308B, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E308C, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E308D, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E308E, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7C3E3020, 0x7C3E308F, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7C3E3020, 0x7C3E3090, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3E3021, 33285, 0xC3E30128, 83.9772, 78.0738, 36.60975, 0.00928063, 0, 0, -0.999957,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */

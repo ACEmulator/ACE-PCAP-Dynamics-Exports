@@ -5,15 +5,15 @@ VALUES (0x75EB8001,  1154, 0x5EB80001, 0.965306, 8.55759, -0.09999999, 0.999985,
 /* @teleloc 0x5EB80001 [0.965306 8.557590 -0.100000] 0.999985 0.000000 0.000000 -0.005505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EB8001, 0x75EB8002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x75EB8001, 0x75EB8003, '2019-02-10 00:00:00') /* Ember */
-     , (0x75EB8001, 0x75EB8004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75EB8001, 0x75EB8005, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x75EB8001, 0x75EB8006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75EB8001, 0x75EB8007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75EB8001, 0x75EB8008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75EB8001, 0x75EB8009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EB8001, 0x75EB800A, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x75EB8001, 0x75EB8002, '2019-02-10 00:00:00') /* Exploration Marker (39837) */
+     , (0x75EB8001, 0x75EB8003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75EB8001, 0x75EB8004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75EB8001, 0x75EB8005, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x75EB8001, 0x75EB8006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75EB8001, 0x75EB8007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75EB8001, 0x75EB8008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75EB8001, 0x75EB8009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EB8001, 0x75EB800A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EB8002, 39837, 0x5EB80001, 0.965306, 8.55759, -0.09999999, 0.999985, 0, 0, -0.00550487,  True, '2019-02-10 00:00:00'); /* Exploration Marker */

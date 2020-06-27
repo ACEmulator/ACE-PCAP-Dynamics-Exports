@@ -5,18 +5,18 @@ VALUES (0x796DD001,  1154, 0x96DD0003, 23.61568, 65.4436, 279.8308, -4.371139E-0
 /* @teleloc 0x96DD0003 [23.615680 65.443600 279.830800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DD001, 0x796DD002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DD001, 0x796DD003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DD001, 0x796DD004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DD001, 0x796DD005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x796DD001, 0x796DD006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x796DD001, 0x796DD007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DD001, 0x796DD008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x796DD001, 0x796DD009, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x796DD001, 0x796DD00A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x796DD001, 0x796DD00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x796DD001, 0x796DD00C, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x796DD001, 0x796DD00D, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x796DD001, 0x796DD002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DD001, 0x796DD003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DD001, 0x796DD004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DD001, 0x796DD005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x796DD001, 0x796DD006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x796DD001, 0x796DD007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DD001, 0x796DD008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x796DD001, 0x796DD009, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x796DD001, 0x796DD00A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x796DD001, 0x796DD00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796DD001, 0x796DD00C, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x796DD001, 0x796DD00D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DD002,  7333, 0x96DD0003, 23.61568, 65.4436, 279.8308, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

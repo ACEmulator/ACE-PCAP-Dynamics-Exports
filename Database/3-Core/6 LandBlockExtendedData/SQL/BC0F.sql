@@ -5,14 +5,14 @@ VALUES (0x7BC0F001,  1154, 0xBC0F0006, 12.01019, 128.5558, -0.4454499, 0.8433914
 /* @teleloc 0xBC0F0006 [12.010190 128.555800 -0.445450] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC0F001, 0x7BC0F002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC0F001, 0x7BC0F003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC0F001, 0x7BC0F004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC0F001, 0x7BC0F005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BC0F001, 0x7BC0F006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BC0F001, 0x7BC0F007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BC0F001, 0x7BC0F008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BC0F001, 0x7BC0F009, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BC0F001, 0x7BC0F002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC0F001, 0x7BC0F003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC0F001, 0x7BC0F004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BC0F001, 0x7BC0F005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BC0F001, 0x7BC0F006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BC0F001, 0x7BC0F007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BC0F001, 0x7BC0F008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BC0F001, 0x7BC0F009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC0F002,  1610, 0xBC0F0006, 12.01019, 128.5558, -0.4454499, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

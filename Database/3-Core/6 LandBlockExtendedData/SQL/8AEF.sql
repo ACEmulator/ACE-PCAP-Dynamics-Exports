@@ -5,10 +5,10 @@ VALUES (0x78AEF001,  1154, 0x8AEF001B, 72.30402, 59.53954, 44.88962, 0.8870109, 
 /* @teleloc 0x8AEF001B [72.304020 59.539540 44.889620] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AEF001, 0x78AEF002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78AEF001, 0x78AEF003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x78AEF001, 0x78AEF004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78AEF001, 0x78AEF005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x78AEF001, 0x78AEF002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78AEF001, 0x78AEF003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x78AEF001, 0x78AEF004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78AEF001, 0x78AEF005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AEF002,  4254, 0x8AEF001B, 72.30402, 59.53954, 44.88962, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -31,7 +31,7 @@ VALUES (0x78AEF006,  1542, 0x8AEF0013, 68.62506, 58.5184, 45.72027, 1, 0, 0, 0, 
 /* @teleloc 0x8AEF0013 [68.625060 58.518400 45.720270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AEF006, 0x78AEF007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78AEF006, 0x78AEF007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AEF007, 22571, 0x8AEF0013, 68.62506, 58.5184, 45.72027, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

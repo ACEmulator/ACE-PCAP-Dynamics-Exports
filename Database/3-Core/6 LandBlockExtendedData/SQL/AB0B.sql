@@ -5,17 +5,17 @@ VALUES (0x7AB0B001,  1154, 0xAB0B0020, 74.80932, 183.2879, -0.09339994, 0.642787
 /* @teleloc 0xAB0B0020 [74.809320 183.287900 -0.093400] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0B001, 0x7AB0B002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7AB0B001, 0x7AB0B003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7AB0B001, 0x7AB0B004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7AB0B001, 0x7AB0B005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AB0B001, 0x7AB0B006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AB0B001, 0x7AB0B007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AB0B001, 0x7AB0B008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AB0B001, 0x7AB0B009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7AB0B001, 0x7AB0B00A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7AB0B001, 0x7AB0B00B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7AB0B001, 0x7AB0B00C, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7AB0B001, 0x7AB0B002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7AB0B001, 0x7AB0B003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7AB0B001, 0x7AB0B004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7AB0B001, 0x7AB0B005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AB0B001, 0x7AB0B006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AB0B001, 0x7AB0B007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AB0B001, 0x7AB0B008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AB0B001, 0x7AB0B009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7AB0B001, 0x7AB0B00A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7AB0B001, 0x7AB0B00B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7AB0B001, 0x7AB0B00C, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0B002,  7103, 0xAB0B0020, 74.80932, 183.2879, -0.09339994, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -66,7 +66,7 @@ VALUES (0x7AB0B00D,  1542, 0xAB0B0030, 140.3392, 171.0887, 0, 0.9238795, 0, 0, -
 /* @teleloc 0xAB0B0030 [140.339200 171.088700 0.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB0B00D, 0x7AB0B00E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7AB0B00D, 0x7AB0B00E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB0B00E,  4180, 0xAB0B0030, 140.3392, 171.0887, 0, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

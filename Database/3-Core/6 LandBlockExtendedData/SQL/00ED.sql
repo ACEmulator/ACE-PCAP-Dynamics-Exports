@@ -13,36 +13,36 @@ VALUES (0x700ED033,  1154, 0x00ED030A, 195.809, -249.414, -5.9975, 0.639684, 0, 
 /* @teleloc 0x00ED030A [195.809000 -249.414000 -5.997500] 0.639684 0.000000 0.000000 0.768638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700ED033, 0x700ED034, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700ED033, 0x700ED035, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700ED033, 0x700ED036, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700ED033, 0x700ED037, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700ED033, 0x700ED038, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700ED033, 0x700ED039, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700ED033, 0x700ED03A, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700ED033, 0x700ED03B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x700ED033, 0x700ED03C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700ED033, 0x700ED03D, '2019-02-10 00:00:00') /* Enchantment Proctor */
-     , (0x700ED033, 0x700ED03E, '2019-02-10 00:00:00') /* Enchantment Proctor */
-     , (0x700ED033, 0x700ED03F, '2019-02-10 00:00:00') /* Enchantment Proctor */
-     , (0x700ED033, 0x700ED040, '2019-02-10 00:00:00') /* Enchantment Proctor */
-     , (0x700ED033, 0x700ED041, '2019-02-10 00:00:00') /* Artifice Proctor */
-     , (0x700ED033, 0x700ED042, '2019-02-10 00:00:00') /* Artifice Proctor */
-     , (0x700ED033, 0x700ED043, '2019-02-10 00:00:00') /* Artifice Proctor */
-     , (0x700ED033, 0x700ED044, '2019-02-10 00:00:00') /* Verdancy Proctor */
-     , (0x700ED033, 0x700ED045, '2019-02-10 00:00:00') /* Artifice Proctor */
-     , (0x700ED033, 0x700ED046, '2019-02-10 00:00:00') /* Verdancy Proctor */
-     , (0x700ED033, 0x700ED047, '2019-02-10 00:00:00') /* Verdancy Proctor */
-     , (0x700ED033, 0x700ED048, '2019-02-10 00:00:00') /* Verdancy Proctor */
-     , (0x700ED033, 0x700ED049, '2019-02-10 00:00:00') /* Strife Proctor */
-     , (0x700ED033, 0x700ED04A, '2019-02-10 00:00:00') /* Strife Proctor */
-     , (0x700ED033, 0x700ED04B, '2019-02-10 00:00:00') /* Strife Proctor */
-     , (0x700ED033, 0x700ED04C, '2019-02-10 00:00:00') /* Strife Proctor */
-     , (0x700ED033, 0x700ED04D, '2019-02-10 00:00:00') /* Verdancy Proctor */
-     , (0x700ED033, 0x700ED04E, '2019-02-10 00:00:00') /* Enchantment Proctor */
-     , (0x700ED033, 0x700ED04F, '2019-02-10 00:00:00') /* Artifice Proctor */
-     , (0x700ED033, 0x700ED050, '2019-02-10 00:00:00') /* Artifex of the Elements */
-     , (0x700ED033, 0x700ED051, '2019-02-10 00:00:00') /* Strife Proctor */;
+VALUES (0x700ED033, 0x700ED034, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700ED033, 0x700ED035, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700ED033, 0x700ED036, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700ED033, 0x700ED037, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700ED033, 0x700ED038, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700ED033, 0x700ED039, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700ED033, 0x700ED03A, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700ED033, 0x700ED03B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x700ED033, 0x700ED03C, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700ED033, 0x700ED03D, '2019-02-10 00:00:00') /* Enchantment Proctor (36222) */
+     , (0x700ED033, 0x700ED03E, '2019-02-10 00:00:00') /* Enchantment Proctor (36222) */
+     , (0x700ED033, 0x700ED03F, '2019-02-10 00:00:00') /* Enchantment Proctor (36222) */
+     , (0x700ED033, 0x700ED040, '2019-02-10 00:00:00') /* Enchantment Proctor (36222) */
+     , (0x700ED033, 0x700ED041, '2019-02-10 00:00:00') /* Artifice Proctor (36223) */
+     , (0x700ED033, 0x700ED042, '2019-02-10 00:00:00') /* Artifice Proctor (36223) */
+     , (0x700ED033, 0x700ED043, '2019-02-10 00:00:00') /* Artifice Proctor (36223) */
+     , (0x700ED033, 0x700ED044, '2019-02-10 00:00:00') /* Verdancy Proctor (36220) */
+     , (0x700ED033, 0x700ED045, '2019-02-10 00:00:00') /* Artifice Proctor (36223) */
+     , (0x700ED033, 0x700ED046, '2019-02-10 00:00:00') /* Verdancy Proctor (36220) */
+     , (0x700ED033, 0x700ED047, '2019-02-10 00:00:00') /* Verdancy Proctor (36220) */
+     , (0x700ED033, 0x700ED048, '2019-02-10 00:00:00') /* Verdancy Proctor (36220) */
+     , (0x700ED033, 0x700ED049, '2019-02-10 00:00:00') /* Strife Proctor (36221) */
+     , (0x700ED033, 0x700ED04A, '2019-02-10 00:00:00') /* Strife Proctor (36221) */
+     , (0x700ED033, 0x700ED04B, '2019-02-10 00:00:00') /* Strife Proctor (36221) */
+     , (0x700ED033, 0x700ED04C, '2019-02-10 00:00:00') /* Strife Proctor (36221) */
+     , (0x700ED033, 0x700ED04D, '2019-02-10 00:00:00') /* Verdancy Proctor (36220) */
+     , (0x700ED033, 0x700ED04E, '2019-02-10 00:00:00') /* Enchantment Proctor (36222) */
+     , (0x700ED033, 0x700ED04F, '2019-02-10 00:00:00') /* Artifice Proctor (36223) */
+     , (0x700ED033, 0x700ED050, '2019-02-10 00:00:00') /* Artifex of the Elements (36216) */
+     , (0x700ED033, 0x700ED051, '2019-02-10 00:00:00') /* Strife Proctor (36221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700ED034, 23555, 0x00ED030A, 195.809, -249.414, -5.9975, 0.639684, 0, 0, 0.768638,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */
@@ -169,37 +169,37 @@ VALUES (0x700ED052,  1542, 0x00ED026D, 360.16, -187.847, -11.958, 0.5591558, 0, 
 /* @teleloc 0x00ED026D [360.160000 -187.847000 -11.958000] 0.559156 0.000000 0.000000 0.829063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700ED052, 0x700ED053, '2019-02-10 00:00:00') /* Elemental Talisman */
-     , (0x700ED052, 0x700ED054, '2019-02-10 00:00:00') /* Scroll of Martyr's Blight VII */
-     , (0x700ED052, 0x700ED055, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x700ED052, 0x700ED056, '2019-02-10 00:00:00') /* Cloth Cap */
-     , (0x700ED052, 0x700ED057, '2019-02-10 00:00:00') /* Scroll of Dual Wield Mastery Self VII */
-     , (0x700ED052, 0x700ED058, '2019-02-10 00:00:00') /* Fire Bow */
-     , (0x700ED052, 0x700ED059, '2019-02-10 00:00:00') /* Gateway */
-     , (0x700ED052, 0x700ED05A, '2019-02-10 00:00:00') /* Scroll of Topheron's Blessing */
-     , (0x700ED052, 0x700ED05B, '2019-02-10 00:00:00') /* Fire Atlatl */
-     , (0x700ED052, 0x700ED05C, '2019-02-10 00:00:00') /* Gem */
-     , (0x700ED052, 0x700ED05D, '2019-02-10 00:00:00') /* Acid Slingshot */
-     , (0x700ED052, 0x700ED05E, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x700ED052, 0x700ED05F, '2019-02-10 00:00:00') /* Gem */
-     , (0x700ED052, 0x700ED060, '2019-02-10 00:00:00') /* Kasa */
-     , (0x700ED052, 0x700ED061, '2019-02-10 00:00:00') /* Scroll of Tenaciousness */
-     , (0x700ED052, 0x700ED062, '2019-02-10 00:00:00') /* Cloth Cap */
-     , (0x700ED052, 0x700ED063, '2019-02-10 00:00:00') /* Gem */
-     , (0x700ED052, 0x700ED064, '2019-02-10 00:00:00') /* Ring */
-     , (0x700ED052, 0x700ED065, '2019-02-10 00:00:00') /* Trousers */
-     , (0x700ED052, 0x700ED066, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x700ED052, 0x700ED067, '2019-02-10 00:00:00') /* Schlager */
-     , (0x700ED052, 0x700ED068, '2019-02-10 00:00:00') /* Scroll of Rending Wind */
-     , (0x700ED052, 0x700ED069, '2019-02-10 00:00:00') /* Scroll of Sashi Mu's Kiss */
-     , (0x700ED052, 0x700ED06A, '2019-02-10 00:00:00') /* Armet */
-     , (0x700ED052, 0x700ED06B, '2019-02-10 00:00:00') /* Scroll of Koga's Boon */
-     , (0x700ED052, 0x700ED06C, '2019-02-10 00:00:00') /* Key */
-     , (0x700ED052, 0x700ED06D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x700ED052, 0x700ED06E, '2019-02-10 00:00:00') /* Ring */
-     , (0x700ED052, 0x700ED06F, '2019-02-10 00:00:00') /* Gem */
-     , (0x700ED052, 0x700ED070, '2019-02-10 00:00:00') /* Gem */
-     , (0x700ED052, 0x700ED071, '2019-02-10 00:00:00') /* Scroll of Gift of Essence */;
+VALUES (0x700ED052, 0x700ED053, '2019-02-10 00:00:00') /* Elemental Talisman (36200) */
+     , (0x700ED052, 0x700ED054, '2019-02-10 00:00:00') /* Scroll of Martyr's Blight VII (21108) */
+     , (0x700ED052, 0x700ED055, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x700ED052, 0x700ED056, '2019-02-10 00:00:00') /* Cloth Cap (118) */
+     , (0x700ED052, 0x700ED057, '2019-02-10 00:00:00') /* Scroll of Dual Wield Mastery Self VII (45282) */
+     , (0x700ED052, 0x700ED058, '2019-02-10 00:00:00') /* Fire Bow (29241) */
+     , (0x700ED052, 0x700ED059, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700ED052, 0x700ED05A, '2019-02-10 00:00:00') /* Scroll of Topheron's Blessing (20569) */
+     , (0x700ED052, 0x700ED05B, '2019-02-10 00:00:00') /* Fire Atlatl (29255) */
+     , (0x700ED052, 0x700ED05C, '2019-02-10 00:00:00') /* Gem (2409) */
+     , (0x700ED052, 0x700ED05D, '2019-02-10 00:00:00') /* Acid Slingshot (31813) */
+     , (0x700ED052, 0x700ED05E, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x700ED052, 0x700ED05F, '2019-02-10 00:00:00') /* Gem (2409) */
+     , (0x700ED052, 0x700ED060, '2019-02-10 00:00:00') /* Kasa (5901) */
+     , (0x700ED052, 0x700ED061, '2019-02-10 00:00:00') /* Scroll of Tenaciousness (20493) */
+     , (0x700ED052, 0x700ED062, '2019-02-10 00:00:00') /* Cloth Cap (118) */
+     , (0x700ED052, 0x700ED063, '2019-02-10 00:00:00') /* Gem (2424) */
+     , (0x700ED052, 0x700ED064, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x700ED052, 0x700ED065, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x700ED052, 0x700ED066, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x700ED052, 0x700ED067, '2019-02-10 00:00:00') /* Schlager (45108) */
+     , (0x700ED052, 0x700ED068, '2019-02-10 00:00:00') /* Scroll of Rending Wind (20464) */
+     , (0x700ED052, 0x700ED069, '2019-02-10 00:00:00') /* Scroll of Sashi Mu's Kiss (20526) */
+     , (0x700ED052, 0x700ED06A, '2019-02-10 00:00:00') /* Armet (8488) */
+     , (0x700ED052, 0x700ED06B, '2019-02-10 00:00:00') /* Scroll of Koga's Boon (20597) */
+     , (0x700ED052, 0x700ED06C, '2019-02-10 00:00:00') /* Key (1266) */
+     , (0x700ED052, 0x700ED06D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700ED052, 0x700ED06E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x700ED052, 0x700ED06F, '2019-02-10 00:00:00') /* Gem (2410) */
+     , (0x700ED052, 0x700ED070, '2019-02-10 00:00:00') /* Gem (2412) */
+     , (0x700ED052, 0x700ED071, '2019-02-10 00:00:00') /* Scroll of Gift of Essence (20608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700ED053, 36200, 0x00ED026D, 360.16, -187.847, -11.958, 0.5591558, 0, 0, 0.8290626,  True, '2019-02-10 00:00:00'); /* Elemental Talisman */

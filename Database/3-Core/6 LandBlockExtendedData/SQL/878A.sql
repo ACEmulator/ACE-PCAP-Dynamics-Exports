@@ -5,14 +5,14 @@ VALUES (0x7878A001,  1154, 0x878A000A, 46.40549, 34.48311, 83.33669, 0.9659258, 
 /* @teleloc 0x878A000A [46.405490 34.483110 83.336690] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7878A001, 0x7878A002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7878A001, 0x7878A003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7878A001, 0x7878A004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7878A001, 0x7878A005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7878A001, 0x7878A006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7878A001, 0x7878A007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7878A001, 0x7878A008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7878A001, 0x7878A009, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7878A001, 0x7878A002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7878A001, 0x7878A003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7878A001, 0x7878A004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7878A001, 0x7878A005, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7878A001, 0x7878A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7878A001, 0x7878A007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7878A001, 0x7878A008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7878A001, 0x7878A009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7878A002,   195, 0x878A000A, 46.40549, 34.48311, 83.33669, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */

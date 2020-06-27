@@ -5,15 +5,15 @@ VALUES (0x72E0C001,  1154, 0x2E0C0038, 144.1689, 177.4568, 0.00999999, 0.9064919
 /* @teleloc 0x2E0C0038 [144.168900 177.456800 0.010000] 0.906492 0.000000 0.000000 -0.422223 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0C001, 0x72E0C002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72E0C001, 0x72E0C003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E0C001, 0x72E0C004, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72E0C001, 0x72E0C005, '2019-02-10 00:00:00') /* Caustic */
-     , (0x72E0C001, 0x72E0C006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72E0C001, 0x72E0C007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72E0C001, 0x72E0C008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E0C001, 0x72E0C009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72E0C001, 0x72E0C00A, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x72E0C001, 0x72E0C002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72E0C001, 0x72E0C003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E0C001, 0x72E0C004, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72E0C001, 0x72E0C005, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x72E0C001, 0x72E0C006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72E0C001, 0x72E0C007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72E0C001, 0x72E0C008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E0C001, 0x72E0C009, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72E0C001, 0x72E0C00A, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0C002, 36827, 0x2E0C0038, 144.1689, 177.4568, 0.00999999, 0.9064919, 0, 0, -0.4222233,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */

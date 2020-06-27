@@ -5,9 +5,9 @@ VALUES (0x7BE74001,  1154, 0xBE74000B, 46.29006, 51.11612, 5.112, 0.9928029, 0, 
 /* @teleloc 0xBE74000B [46.290060 51.116120 5.112000] 0.992803 0.000000 0.000000 -0.119760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE74001, 0x7BE74002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BE74001, 0x7BE74003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BE74001, 0x7BE74004, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7BE74001, 0x7BE74002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BE74001, 0x7BE74003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BE74001, 0x7BE74004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE74002,    12, 0xBE74000B, 46.29006, 51.11612, 5.112, 0.9928029, 0, 0, -0.1197601,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */

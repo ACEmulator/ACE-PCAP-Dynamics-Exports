@@ -5,13 +5,13 @@ VALUES (0x77BD4001,  1154, 0x7BD4000C, 46.53664, 72.86996, 228.0555, 0.9961947, 
 /* @teleloc 0x7BD4000C [46.536640 72.869960 228.055500] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BD4001, 0x77BD4002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77BD4001, 0x77BD4003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77BD4001, 0x77BD4004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77BD4001, 0x77BD4005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77BD4001, 0x77BD4006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77BD4001, 0x77BD4007, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x77BD4001, 0x77BD4008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x77BD4001, 0x77BD4002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77BD4001, 0x77BD4003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77BD4001, 0x77BD4004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77BD4001, 0x77BD4005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77BD4001, 0x77BD4006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77BD4001, 0x77BD4007, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x77BD4001, 0x77BD4008, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BD4002,   228, 0x7BD4000C, 46.53664, 72.86996, 228.0555, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

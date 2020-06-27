@@ -5,12 +5,12 @@ VALUES (0x7198E001,  1154, 0x198E0035, 153.3191, 111.6225, 203.878, 0.9401116, 0
 /* @teleloc 0x198E0035 [153.319100 111.622500 203.878000] 0.940112 0.000000 0.000000 -0.340867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198E001, 0x7198E002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7198E001, 0x7198E003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7198E001, 0x7198E004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7198E001, 0x7198E005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7198E001, 0x7198E006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7198E001, 0x7198E007, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x7198E001, 0x7198E002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7198E001, 0x7198E003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7198E001, 0x7198E004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7198E001, 0x7198E005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7198E001, 0x7198E006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7198E001, 0x7198E007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198E002, 36842, 0x198E0035, 153.3191, 111.6225, 203.878, 0.9401116, 0, 0, -0.3408666,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

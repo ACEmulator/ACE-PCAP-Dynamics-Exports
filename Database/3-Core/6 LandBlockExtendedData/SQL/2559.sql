@@ -5,15 +5,15 @@ VALUES (0x72559001,  1154, 0x25590026, 103.8885, 125.5663, 1.787119, -0.221536, 
 /* @teleloc 0x25590026 [103.888500 125.566300 1.787119] -0.221536 0.000000 0.000000 -0.975152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72559001, 0x72559002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72559001, 0x72559003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72559001, 0x72559004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72559001, 0x72559005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72559001, 0x72559006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72559001, 0x72559007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72559001, 0x72559008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72559001, 0x72559009, '2019-02-10 00:00:00') /* Flare */
-     , (0x72559001, 0x7255900A, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x72559001, 0x72559002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72559001, 0x72559003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72559001, 0x72559004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72559001, 0x72559005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72559001, 0x72559006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72559001, 0x72559007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72559001, 0x72559008, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72559001, 0x72559009, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72559001, 0x7255900A, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72559002,  5712, 0x25590026, 103.8885, 125.5663, 1.787119, -0.221536, 0, 0, -0.9751522,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -56,7 +56,7 @@ VALUES (0x7255900B,  1542, 0x25590002, 1.549408, 44.50198, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x25590002 [1.549408 44.501980 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7255900B, 0x7255900C, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7255900B, 0x7255900C, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7255900C,  8999, 0x25590002, 1.549408, 44.50198, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

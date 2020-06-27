@@ -5,10 +5,10 @@ VALUES (0x79F23001,  1154, 0x9F230036, 157.7416, 139.8619, 256.8357, 0.9238795, 
 /* @teleloc 0x9F230036 [157.741600 139.861900 256.835700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F23001, 0x79F23002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79F23001, 0x79F23003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x79F23001, 0x79F23004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79F23001, 0x79F23005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x79F23001, 0x79F23002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79F23001, 0x79F23003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x79F23001, 0x79F23004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79F23001, 0x79F23005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F23002,   199, 0x9F230036, 157.7416, 139.8619, 256.8357, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */

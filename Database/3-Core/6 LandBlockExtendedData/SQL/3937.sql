@@ -5,10 +5,10 @@ VALUES (0x73937001,  1154, 0x39370014, 70.43862, 73.08174, 35.93885, 0.5579461, 
 /* @teleloc 0x39370014 [70.438620 73.081740 35.938850] 0.557946 0.000000 0.000000 -0.829877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73937001, 0x73937002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x73937001, 0x73937003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73937001, 0x73937004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73937001, 0x73937005, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x73937001, 0x73937002, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x73937001, 0x73937003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73937001, 0x73937004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73937001, 0x73937005, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73937002, 36862, 0x39370014, 70.43862, 73.08174, 35.93885, 0.5579461, 0, 0, -0.8298772,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */

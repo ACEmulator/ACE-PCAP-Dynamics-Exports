@@ -5,12 +5,12 @@ VALUES (0x79CE8001,  1154, 0x9CE80004, 0.707276, 75.44812, 122.1354, 0.7747714, 
 /* @teleloc 0x9CE80004 [0.707276 75.448120 122.135400] 0.774771 0.000000 0.000000 -0.632242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CE8001, 0x79CE8002, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79CE8001, 0x79CE8003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79CE8001, 0x79CE8004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79CE8001, 0x79CE8005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79CE8001, 0x79CE8006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79CE8001, 0x79CE8007, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x79CE8001, 0x79CE8002, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79CE8001, 0x79CE8003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79CE8001, 0x79CE8004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79CE8001, 0x79CE8005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79CE8001, 0x79CE8006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79CE8001, 0x79CE8007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CE8002, 27565, 0x9CE80004, 0.707276, 75.44812, 122.1354, 0.7747714, 0, 0, -0.6322415,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */

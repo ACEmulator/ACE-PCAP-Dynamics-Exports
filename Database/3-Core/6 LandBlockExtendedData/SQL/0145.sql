@@ -77,25 +77,25 @@ VALUES (0x7014502D,  1154, 0x0145010B, 100, -30, -5.9975, -4.37114E-08, 0, 0, -1
 /* @teleloc 0x0145010B [100.000000 -30.000000 -5.997500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014502D, 0x7014502E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014502F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145030, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145031, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145032, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145033, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145034, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145035, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145036, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145037, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145038, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145039, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014503A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014503B, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014503C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014503D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x7014503E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7014502D, 0x7014503F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7014502D, 0x70145040, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7014502D, 0x7014502E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014502F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145030, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145031, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145032, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145033, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145034, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145035, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145036, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145037, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145038, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145039, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014503A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014503B, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014503C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014503D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x7014503E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7014502D, 0x7014503F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7014502D, 0x70145040, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014502E,  1760, 0x0145010B, 100, -30, -5.9975, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -178,11 +178,11 @@ VALUES (0x70145041,  1542, 0x01450113, 10.1492, -68.09026, 0, 0.7071068, 0, 0, -
 /* @teleloc 0x01450113 [10.149200 -68.090260 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70145041, 0x70145042, '2019-02-10 00:00:00') /* Studded Leather Girth */
-     , (0x70145041, 0x70145043, '2019-02-10 00:00:00') /* Studded Leather Sleeves */
-     , (0x70145041, 0x70145044, '2019-02-10 00:00:00') /* Alloy Instrument */
-     , (0x70145041, 0x70145045, '2019-02-10 00:00:00') /* Chainmail Sleeves */
-     , (0x70145041, 0x70145046, '2019-02-10 00:00:00') /* Studded Leather Coat */;
+VALUES (0x70145041, 0x70145042, '2019-02-10 00:00:00') /* Studded Leather Girth (63) */
+     , (0x70145041, 0x70145043, '2019-02-10 00:00:00') /* Studded Leather Sleeves (105) */
+     , (0x70145041, 0x70145044, '2019-02-10 00:00:00') /* Alloy Instrument (25317) */
+     , (0x70145041, 0x70145045, '2019-02-10 00:00:00') /* Chainmail Sleeves (101) */
+     , (0x70145041, 0x70145046, '2019-02-10 00:00:00') /* Studded Leather Coat (48) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70145042,    63, 0x01450113, 10.1492, -68.09026, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Studded Leather Girth */

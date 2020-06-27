@@ -5,14 +5,14 @@ VALUES (0x72317001,  1154, 0x2317001F, 72.10492, 166.9997, 74.029, 0.9659258, 0,
 /* @teleloc 0x2317001F [72.104920 166.999700 74.029000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72317001, 0x72317002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72317001, 0x72317003, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72317001, 0x72317004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72317001, 0x72317005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72317001, 0x72317006, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72317001, 0x72317007, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72317001, 0x72317008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72317001, 0x72317009, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72317001, 0x72317002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72317001, 0x72317003, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72317001, 0x72317004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72317001, 0x72317005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72317001, 0x72317006, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72317001, 0x72317007, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x72317001, 0x72317008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72317001, 0x72317009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72317002, 10814, 0x2317001F, 72.10492, 166.9997, 74.029, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */

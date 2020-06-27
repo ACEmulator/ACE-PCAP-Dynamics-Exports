@@ -5,15 +5,15 @@ VALUES (0x713C1001,  1154, 0x13C1001A, 93.7058, 36.398, 19.15802, 0.6656502, 0, 
 /* @teleloc 0x13C1001A [93.705800 36.398000 19.158020] 0.665650 0.000000 0.000000 -0.746264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713C1001, 0x713C1002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713C1001, 0x713C1003, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x713C1001, 0x713C1004, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x713C1001, 0x713C1005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713C1001, 0x713C1006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713C1001, 0x713C1007, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x713C1001, 0x713C1008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x713C1001, 0x713C1009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x713C1001, 0x713C100A, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x713C1001, 0x713C1002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713C1001, 0x713C1003, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x713C1001, 0x713C1004, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x713C1001, 0x713C1005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713C1001, 0x713C1006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713C1001, 0x713C1007, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x713C1001, 0x713C1008, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x713C1001, 0x713C1009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x713C1001, 0x713C100A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713C1002, 11493, 0x13C1001A, 93.7058, 36.398, 19.15802, 0.6656502, 0, 0, -0.7462639,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */

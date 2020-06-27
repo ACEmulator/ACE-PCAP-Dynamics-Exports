@@ -5,18 +5,18 @@ VALUES (0x746B2001,  1154, 0x46B20011, 55.75044, 4.114192, 51.95569, 0.7372774, 
 /* @teleloc 0x46B20011 [55.750440 4.114192 51.955690] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746B2001, 0x746B2002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x746B2001, 0x746B2003, '2019-02-10 00:00:00') /* Banished Monouga */
-     , (0x746B2001, 0x746B2004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x746B2001, 0x746B2005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x746B2001, 0x746B2006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x746B2001, 0x746B2007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x746B2001, 0x746B2008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x746B2001, 0x746B2009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x746B2001, 0x746B200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x746B2001, 0x746B200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x746B2001, 0x746B200C, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x746B2001, 0x746B200D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x746B2001, 0x746B2002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x746B2001, 0x746B2003, '2019-02-10 00:00:00') /* Banished Monouga (30884) */
+     , (0x746B2001, 0x746B2004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x746B2001, 0x746B2005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x746B2001, 0x746B2006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x746B2001, 0x746B2007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x746B2001, 0x746B2008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x746B2001, 0x746B2009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x746B2001, 0x746B200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x746B2001, 0x746B200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x746B2001, 0x746B200C, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x746B2001, 0x746B200D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746B2002,  4255, 0x46B20011, 55.75044, 4.114192, 51.95569, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -71,7 +71,7 @@ VALUES (0x746B200E,  1542, 0x46B20029, 126.9656, 15.84794, 70.80344, -4.371139E-
 /* @teleloc 0x46B20029 [126.965600 15.847940 70.803440] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746B200E, 0x746B200F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x746B200E, 0x746B200F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746B200F,  4380, 0x46B20029, 126.9656, 15.84794, 70.80344, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,29 +5,29 @@ VALUES (0x73FED001,  1154, 0x3FED0018, 68.34937, 169.2531, 16.44706, -0.8248842,
 /* @teleloc 0x3FED0018 [68.349370 169.253100 16.447060] -0.824884 0.000000 0.000000 -0.565302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FED001, 0x73FED002, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED003, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED004, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED005, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FED001, 0x73FED006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED007, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FED001, 0x73FED008, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FED001, 0x73FED009, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73FED001, 0x73FED00A, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED00B, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED00C, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FED001, 0x73FED00D, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED00E, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED00F, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED010, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x73FED001, 0x73FED011, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED012, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FED001, 0x73FED013, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FED001, 0x73FED014, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FED001, 0x73FED015, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FED001, 0x73FED016, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73FED001, 0x73FED017, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FED001, 0x73FED018, '2019-02-10 00:00:00') /* Viamontian Counselor */;
+VALUES (0x73FED001, 0x73FED002, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED003, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED004, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED005, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FED001, 0x73FED006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED007, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FED001, 0x73FED008, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FED001, 0x73FED009, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73FED001, 0x73FED00A, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED00B, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED00C, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FED001, 0x73FED00D, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED00E, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED00F, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED010, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x73FED001, 0x73FED011, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED012, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FED001, 0x73FED013, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FED001, 0x73FED014, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FED001, 0x73FED015, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FED001, 0x73FED016, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73FED001, 0x73FED017, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FED001, 0x73FED018, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FED002, 29343, 0x3FED0018, 68.34937, 169.2531, 16.44706, -0.8248842, 0, 0, -0.5653017,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */

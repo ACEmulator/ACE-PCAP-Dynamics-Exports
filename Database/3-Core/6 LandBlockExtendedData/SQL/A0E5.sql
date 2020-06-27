@@ -5,12 +5,12 @@ VALUES (0x7A0E5001,  1154, 0xA0E50027, 118.1879, 147.4588, 123.1353, -0.9927695,
 /* @teleloc 0xA0E50027 [118.187900 147.458800 123.135300] -0.992770 0.000000 0.000000 -0.120037 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0E5001, 0x7A0E5002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A0E5001, 0x7A0E5003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A0E5001, 0x7A0E5004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A0E5001, 0x7A0E5005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A0E5001, 0x7A0E5006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A0E5001, 0x7A0E5007, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7A0E5001, 0x7A0E5002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A0E5001, 0x7A0E5003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A0E5001, 0x7A0E5004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A0E5001, 0x7A0E5005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A0E5001, 0x7A0E5006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A0E5001, 0x7A0E5007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0E5002,   212, 0xA0E50027, 118.1879, 147.4588, 123.1353, -0.9927695, 0, 0, -0.1200365,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

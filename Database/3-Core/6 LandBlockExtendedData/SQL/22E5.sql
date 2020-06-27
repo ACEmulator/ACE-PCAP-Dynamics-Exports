@@ -5,14 +5,14 @@ VALUES (0x722E5001,  1154, 0x22E5001F, 91.75984, 159.5768, 156.4824, 0.7033415, 
 /* @teleloc 0x22E5001F [91.759840 159.576800 156.482400] 0.703342 0.000000 0.000000 -0.710852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E5001, 0x722E5002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x722E5001, 0x722E5003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x722E5001, 0x722E5004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x722E5001, 0x722E5005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x722E5001, 0x722E5006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x722E5001, 0x722E5007, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722E5001, 0x722E5008, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x722E5001, 0x722E5009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x722E5001, 0x722E5002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x722E5001, 0x722E5003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x722E5001, 0x722E5004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x722E5001, 0x722E5005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x722E5001, 0x722E5006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x722E5001, 0x722E5007, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E5001, 0x722E5008, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x722E5001, 0x722E5009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E5002,  1609, 0x22E5001F, 91.75984, 159.5768, 156.4824, 0.7033415, 0, 0, -0.710852,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

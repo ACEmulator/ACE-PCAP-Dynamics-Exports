@@ -5,15 +5,15 @@ VALUES (0x780C5001,  1154, 0x80C50036, 153.3387, 137.4975, 88.52843, -4.371139E-
 /* @teleloc 0x80C50036 [153.338700 137.497500 88.528430] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780C5001, 0x780C5002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x780C5001, 0x780C5003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x780C5001, 0x780C5004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x780C5001, 0x780C5005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x780C5001, 0x780C5006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x780C5001, 0x780C5007, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x780C5001, 0x780C5008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x780C5001, 0x780C5009, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x780C5001, 0x780C500A, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x780C5001, 0x780C5002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x780C5001, 0x780C5003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x780C5001, 0x780C5004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x780C5001, 0x780C5005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x780C5001, 0x780C5006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x780C5001, 0x780C5007, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x780C5001, 0x780C5008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x780C5001, 0x780C5009, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x780C5001, 0x780C500A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780C5002,  1629, 0x80C50036, 153.3387, 137.4975, 88.52843, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

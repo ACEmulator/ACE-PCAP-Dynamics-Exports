@@ -5,23 +5,23 @@ VALUES (0x75D17001,  1154, 0x5D170024, 107.9472, 82.83874, 68.029, 0.9659258, 0,
 /* @teleloc 0x5D170024 [107.947200 82.838740 68.029000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D17001, 0x75D17002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75D17001, 0x75D17003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75D17001, 0x75D17004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75D17001, 0x75D17005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D17001, 0x75D17006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75D17001, 0x75D17007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75D17001, 0x75D17008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D17001, 0x75D17009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75D17001, 0x75D1700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D17001, 0x75D1700B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D17001, 0x75D1700C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D17001, 0x75D1700D, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75D17001, 0x75D1700E, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D17001, 0x75D1700F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D17001, 0x75D17010, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D17001, 0x75D17011, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D17001, 0x75D17012, '2019-02-10 00:00:00') /* Virindi Councillor */;
+VALUES (0x75D17001, 0x75D17002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75D17001, 0x75D17003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75D17001, 0x75D17004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75D17001, 0x75D17005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D17001, 0x75D17006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75D17001, 0x75D17007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75D17001, 0x75D17008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D17001, 0x75D17009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75D17001, 0x75D1700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D17001, 0x75D1700B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x75D17001, 0x75D1700C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D17001, 0x75D1700D, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75D17001, 0x75D1700E, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75D17001, 0x75D1700F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D17001, 0x75D17010, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D17001, 0x75D17011, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75D17001, 0x75D17012, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D17002,    23, 0x5D170024, 107.9472, 82.83874, 68.029, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -96,7 +96,7 @@ VALUES (0x75D17013,  1542, 0x5D17001B, 86.04198, 54.96899, 71.31934, 1, 0, 0, 0,
 /* @teleloc 0x5D17001B [86.041980 54.968990 71.319340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D17013, 0x75D17014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75D17013, 0x75D17014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D17014,  4179, 0x5D17001B, 86.04198, 54.96899, 71.31934, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,30 +5,30 @@ VALUES (0x7CD9B001,  1154, 0xCD9B000E, 38.49941, 129.7785, 14.00715, -0.03363099
 /* @teleloc 0xCD9B000E [38.499410 129.778500 14.007150] -0.033631 0.000000 0.000000 -0.999434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9B001, 0x7CD9B002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD9B001, 0x7CD9B003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD9B001, 0x7CD9B004, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CD9B001, 0x7CD9B005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD9B001, 0x7CD9B006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD9B001, 0x7CD9B007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD9B001, 0x7CD9B008, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD9B001, 0x7CD9B009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD9B001, 0x7CD9B00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD9B001, 0x7CD9B00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD9B001, 0x7CD9B00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD9B001, 0x7CD9B00D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD9B001, 0x7CD9B00E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD9B001, 0x7CD9B00F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CD9B001, 0x7CD9B010, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD9B001, 0x7CD9B011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD9B001, 0x7CD9B012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD9B001, 0x7CD9B013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD9B001, 0x7CD9B014, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CD9B001, 0x7CD9B015, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CD9B001, 0x7CD9B016, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CD9B001, 0x7CD9B017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD9B001, 0x7CD9B018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD9B001, 0x7CD9B019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CD9B001, 0x7CD9B002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD9B001, 0x7CD9B003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD9B001, 0x7CD9B004, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CD9B001, 0x7CD9B005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD9B001, 0x7CD9B006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD9B001, 0x7CD9B007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD9B001, 0x7CD9B008, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD9B001, 0x7CD9B009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD9B001, 0x7CD9B00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD9B001, 0x7CD9B00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD9B001, 0x7CD9B00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD9B001, 0x7CD9B00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD9B001, 0x7CD9B00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD9B001, 0x7CD9B00F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CD9B001, 0x7CD9B010, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD9B001, 0x7CD9B011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD9B001, 0x7CD9B012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD9B001, 0x7CD9B013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD9B001, 0x7CD9B014, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CD9B001, 0x7CD9B015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CD9B001, 0x7CD9B016, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CD9B001, 0x7CD9B017, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD9B001, 0x7CD9B018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD9B001, 0x7CD9B019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9B002, 22809, 0xCD9B000E, 38.49941, 129.7785, 14.00715, -0.03363099, 0, 0, -0.9994343,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -131,7 +131,7 @@ VALUES (0x7CD9B01A,  1542, 0xCD9B001E, 80.11902, 137.4055, 14, -0.4118695, 0, 0,
 /* @teleloc 0xCD9B001E [80.119020 137.405500 14.000000] -0.411870 0.000000 0.000000 -0.911243 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD9B01A, 0x7CD9B01B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CD9B01A, 0x7CD9B01B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD9B01B,  8037, 0xCD9B001E, 80.11902, 137.4055, 14, -0.4118695, 0, 0, -0.9112428,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

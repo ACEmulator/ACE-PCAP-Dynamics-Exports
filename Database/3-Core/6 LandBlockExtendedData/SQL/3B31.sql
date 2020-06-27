@@ -5,21 +5,21 @@ VALUES (0x73B31001,  1154, 0x3B310038, 166.2625, 189.423, 141.0713, -0.1347225, 
 /* @teleloc 0x3B310038 [166.262500 189.423000 141.071300] -0.134723 0.000000 0.000000 -0.990883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B31001, 0x73B31002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x73B31001, 0x73B31003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73B31001, 0x73B31004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73B31001, 0x73B31005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73B31001, 0x73B31006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x73B31001, 0x73B31007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73B31001, 0x73B31008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73B31001, 0x73B31009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73B31001, 0x73B3100A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73B31001, 0x73B3100B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73B31001, 0x73B3100C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73B31001, 0x73B3100D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73B31001, 0x73B3100E, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73B31001, 0x73B3100F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73B31001, 0x73B31010, '2019-02-10 00:00:00') /* Paroxysm Shadow */;
+VALUES (0x73B31001, 0x73B31002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x73B31001, 0x73B31003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73B31001, 0x73B31004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x73B31001, 0x73B31005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x73B31001, 0x73B31006, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x73B31001, 0x73B31007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73B31001, 0x73B31008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73B31001, 0x73B31009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73B31001, 0x73B3100A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73B31001, 0x73B3100B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73B31001, 0x73B3100C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73B31001, 0x73B3100D, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x73B31001, 0x73B3100E, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x73B31001, 0x73B3100F, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x73B31001, 0x73B31010, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B31002,  7097, 0x3B310038, 166.2625, 189.423, 141.0713, -0.1347225, 0, 0, -0.9908834,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -86,7 +86,7 @@ VALUES (0x73B31011,  1542, 0x3B310040, 174.3385, 184.6166, 142.9693, -4.371139E-
 /* @teleloc 0x3B310040 [174.338500 184.616600 142.969300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B31011, 0x73B31012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73B31011, 0x73B31012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B31012,  4380, 0x3B310040, 174.3385, 184.6166, 142.9693, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

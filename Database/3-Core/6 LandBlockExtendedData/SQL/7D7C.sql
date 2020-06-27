@@ -5,18 +5,18 @@ VALUES (0x77D7C001,  1154, 0x7D7C0032, 161.1371, 27.26721, 62.85105, 0.6256306, 
 /* @teleloc 0x7D7C0032 [161.137100 27.267210 62.851050] 0.625631 0.000000 0.000000 -0.780119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D7C001, 0x77D7C002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77D7C001, 0x77D7C003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x77D7C001, 0x77D7C004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x77D7C001, 0x77D7C005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77D7C001, 0x77D7C006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77D7C001, 0x77D7C007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77D7C001, 0x77D7C008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77D7C001, 0x77D7C009, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x77D7C001, 0x77D7C00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77D7C001, 0x77D7C00B, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x77D7C001, 0x77D7C00C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x77D7C001, 0x77D7C00D, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x77D7C001, 0x77D7C002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77D7C001, 0x77D7C003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x77D7C001, 0x77D7C004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x77D7C001, 0x77D7C005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77D7C001, 0x77D7C006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77D7C001, 0x77D7C007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77D7C001, 0x77D7C008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77D7C001, 0x77D7C009, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x77D7C001, 0x77D7C00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77D7C001, 0x77D7C00B, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x77D7C001, 0x77D7C00C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x77D7C001, 0x77D7C00D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D7C002,  7345, 0x7D7C0032, 161.1371, 27.26721, 62.85105, 0.6256306, 0, 0, -0.7801194,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -71,7 +71,7 @@ VALUES (0x77D7C00E,  1542, 0x7D7C003C, 185.787, 79.83019, 66.99304, 0.9990482, 0
 /* @teleloc 0x7D7C003C [185.787000 79.830190 66.993040] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D7C00E, 0x77D7C00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77D7C00E, 0x77D7C00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D7C00F,  4179, 0x7D7C003C, 185.787, 79.83019, 66.99304, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

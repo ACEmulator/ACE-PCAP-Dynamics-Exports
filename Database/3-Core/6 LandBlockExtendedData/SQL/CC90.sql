@@ -5,14 +5,14 @@ VALUES (0x7CC90001,  1154, 0xCC900034, 151.0581, 80.3343, 27.41682, 0.306926, 0,
 /* @teleloc 0xCC900034 [151.058100 80.334300 27.416820] 0.306926 0.000000 0.000000 -0.951733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC90001, 0x7CC90002, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CC90001, 0x7CC90003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CC90001, 0x7CC90004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CC90001, 0x7CC90005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CC90001, 0x7CC90006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CC90001, 0x7CC90007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CC90001, 0x7CC90008, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7CC90001, 0x7CC90009, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7CC90001, 0x7CC90002, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CC90001, 0x7CC90003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CC90001, 0x7CC90004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CC90001, 0x7CC90005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CC90001, 0x7CC90006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CC90001, 0x7CC90007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CC90001, 0x7CC90008, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7CC90001, 0x7CC90009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC90002,   945, 0xCC900034, 151.0581, 80.3343, 27.41682, 0.306926, 0, 0, -0.9517334,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
@@ -51,7 +51,7 @@ VALUES (0x7CC9000A,  1542, 0xCC900033, 165.4275, 68.65856, 26.22537, 0.7110053, 
 /* @teleloc 0xCC900033 [165.427500 68.658560 26.225370] 0.711005 0.000000 0.000000 -0.703187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9000A, 0x7CC9000B, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7CC9000A, 0x7CC9000B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9000B, 31686, 0xCC900033, 165.4275, 68.65856, 26.22537, 0.7110053, 0, 0, -0.7031866,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

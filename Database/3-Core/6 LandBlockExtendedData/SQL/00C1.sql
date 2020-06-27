@@ -5,134 +5,134 @@ VALUES (0x700C1001,  1154, 0x00C10326, 49.6395, -80.2048, -26.9954, -0.7519674, 
 /* @teleloc 0x00C10326 [49.639500 -80.204800 -26.995400] -0.751967 0.000000 0.000000 -0.659200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C1001, 0x700C1002, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1003, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1004, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1005, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1006, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1007, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1008, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1009, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C100F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1010, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1011, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1012, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1013, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1014, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1015, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1016, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1017, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1018, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1019, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C101F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1020, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1021, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1022, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1023, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1024, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1025, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1026, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1027, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1028, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1029, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C102F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1030, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1031, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1032, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1033, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1034, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1035, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1036, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1037, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1038, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1039, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C103F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1040, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1041, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1042, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1043, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1044, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1045, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1046, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1047, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1048, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1049, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C104F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1050, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1051, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1052, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1053, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1054, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1055, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1056, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1057, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1058, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1059, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C105F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1060, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1061, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1062, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1063, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1064, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1065, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1066, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1067, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1068, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1069, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C106F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1070, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1071, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1072, '2019-02-10 00:00:00') /* Ves the Mad */
-     , (0x700C1001, 0x700C1073, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1074, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1075, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1076, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1077, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1078, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1079, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C107F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1080, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x700C1001, 0x700C1081, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */;
+VALUES (0x700C1001, 0x700C1002, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1003, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1004, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1005, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1006, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1007, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1008, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1009, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C100F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1010, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1011, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1012, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1013, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1014, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1015, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1016, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1017, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1018, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1019, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C101F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1020, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1021, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1022, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1023, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1024, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1025, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1026, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1027, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1028, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1029, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C102F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1030, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1031, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1032, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1033, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1034, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1035, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1036, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1037, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1038, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1039, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C103F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1040, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1041, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1042, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1043, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1044, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1045, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1046, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1047, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1048, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1049, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C104F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1050, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1051, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1052, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1053, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1054, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1055, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1056, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1057, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1058, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1059, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C105F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1060, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1061, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1062, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1063, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1064, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1065, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1066, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1067, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1068, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1069, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C106F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1070, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1071, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1072, '2019-02-10 00:00:00') /* Ves the Mad (38146) */
+     , (0x700C1001, 0x700C1073, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1074, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1075, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1076, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1077, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1078, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1079, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C107F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1080, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x700C1001, 0x700C1081, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C1002, 37421, 0x00C10326, 49.6395, -80.2048, -26.9954, -0.7519674, 0, 0, -0.6592003,  True, '2019-02-10 00:00:00'); /* Blighted Rank Moarsman */

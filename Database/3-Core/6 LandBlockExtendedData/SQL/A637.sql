@@ -5,12 +5,12 @@ VALUES (0x7A637001,  1154, 0xA6370011, 50.98371, 20.80802, 62, -0.2051337, 0, 0,
 /* @teleloc 0xA6370011 [50.983710 20.808020 62.000000] -0.205134 0.000000 0.000000 -0.978734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A637001, 0x7A637002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7A637001, 0x7A637003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A637001, 0x7A637004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A637001, 0x7A637005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A637001, 0x7A637006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A637001, 0x7A637007, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7A637001, 0x7A637002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7A637001, 0x7A637003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A637001, 0x7A637004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A637001, 0x7A637005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A637001, 0x7A637006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A637001, 0x7A637007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A637002, 22009, 0xA6370011, 50.98371, 20.80802, 62, -0.2051337, 0, 0, -0.978734,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -41,7 +41,7 @@ VALUES (0x7A637008,  1542, 0xA637000E, 24.44444, 141.5747, 60, 1, 0, 0, 0, False
 /* @teleloc 0xA637000E [24.444440 141.574700 60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A637008, 0x7A637009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A637008, 0x7A637009, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A637009, 22576, 0xA637000E, 24.44444, 141.5747, 60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

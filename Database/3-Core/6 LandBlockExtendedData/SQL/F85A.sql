@@ -9,19 +9,19 @@ VALUES (0x7F85A005,  1154, 0xF85A000B, 43.2554, 69.4303, 100.0071, 0.234981, 0, 
 /* @teleloc 0xF85A000B [43.255400 69.430300 100.007100] 0.234981 0.000000 0.000000 -0.972000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85A005, 0x7F85A006, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7F85A005, 0x7F85A007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7F85A005, 0x7F85A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F85A005, 0x7F85A009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F85A005, 0x7F85A00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F85A005, 0x7F85A00B, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7F85A005, 0x7F85A00C, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7F85A005, 0x7F85A00D, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7F85A005, 0x7F85A00E, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F85A005, 0x7F85A00F, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F85A005, 0x7F85A010, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F85A005, 0x7F85A011, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F85A005, 0x7F85A012, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7F85A005, 0x7F85A006, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7F85A005, 0x7F85A007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7F85A005, 0x7F85A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F85A005, 0x7F85A009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F85A005, 0x7F85A00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F85A005, 0x7F85A00B, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7F85A005, 0x7F85A00C, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7F85A005, 0x7F85A00D, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7F85A005, 0x7F85A00E, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F85A005, 0x7F85A00F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F85A005, 0x7F85A010, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F85A005, 0x7F85A011, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F85A005, 0x7F85A012, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85A006,   183, 0xF85A000B, 43.2554, 69.4303, 100.0071, 0.234981, 0, 0, -0.9719999,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -80,11 +80,11 @@ VALUES (0x7F85A013,  1542, 0xF85A0032, 144.7192, 29.07996, -0.1, -0.9255809, 0, 
 /* @teleloc 0xF85A0032 [144.719200 29.079960 -0.100000] -0.925581 0.000000 0.000000 -0.378550 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85A013, 0x7F85A014, '2019-02-10 00:00:00') /* Fish */
-     , (0x7F85A013, 0x7F85A015, '2019-02-10 00:00:00') /* Fish */
-     , (0x7F85A013, 0x7F85A016, '2019-02-10 00:00:00') /* Fish */
-     , (0x7F85A013, 0x7F85A017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F85A013, 0x7F85A018, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x7F85A013, 0x7F85A014, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7F85A013, 0x7F85A015, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7F85A013, 0x7F85A016, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7F85A013, 0x7F85A017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F85A013, 0x7F85A018, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85A014,   263, 0xF85A0032, 144.7192, 29.07996, -0.1, -0.9255809, 0, 0, -0.3785499,  True, '2019-02-10 00:00:00'); /* Fish */

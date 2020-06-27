@@ -5,16 +5,16 @@ VALUES (0x7A811001,  1154, 0xA811001B, 95.80605, 58.49076, 160.0212, 0.3070379, 
 /* @teleloc 0xA811001B [95.806050 58.490760 160.021200] 0.307038 0.000000 0.000000 -0.951697 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A811001, 0x7A811002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A811001, 0x7A811003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A811001, 0x7A811004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A811001, 0x7A811005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A811001, 0x7A811006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A811001, 0x7A811007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A811001, 0x7A811008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A811001, 0x7A811009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A811001, 0x7A81100A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A811001, 0x7A81100B, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7A811001, 0x7A811002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A811001, 0x7A811003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A811001, 0x7A811004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A811001, 0x7A811005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A811001, 0x7A811006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A811001, 0x7A811007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A811001, 0x7A811008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A811001, 0x7A811009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A811001, 0x7A81100A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A811001, 0x7A81100B, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A811002,  1757, 0xA811001B, 95.80605, 58.49076, 160.0212, 0.3070379, 0, 0, -0.9516973,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -61,10 +61,10 @@ VALUES (0x7A81100C,  1542, 0xA811001A, 80.57987, 41.11149, 161.285, 0.3070379, 0
 /* @teleloc 0xA811001A [80.579870 41.111490 161.285000] 0.307038 0.000000 0.000000 -0.951697 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A81100C, 0x7A81100D, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7A81100C, 0x7A81100E, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A81100C, 0x7A81100F, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A81100C, 0x7A811010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A81100C, 0x7A81100D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7A81100C, 0x7A81100E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A81100C, 0x7A81100F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A81100C, 0x7A811010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A81100D,  8648, 0xA811001A, 80.57987, 41.11149, 161.285, 0.3070379, 0, 0, -0.9516973,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

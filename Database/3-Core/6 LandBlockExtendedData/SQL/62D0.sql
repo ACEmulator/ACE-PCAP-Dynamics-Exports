@@ -5,12 +5,12 @@ VALUES (0x762D0001,  1154, 0x62D0000C, 35.49048, 88.76183, 23.33104, 0.6177107, 
 /* @teleloc 0x62D0000C [35.490480 88.761830 23.331040] 0.617711 0.000000 0.000000 -0.786405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D0001, 0x762D0002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x762D0001, 0x762D0003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D0001, 0x762D0004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D0001, 0x762D0005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x762D0001, 0x762D0006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D0001, 0x762D0007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x762D0001, 0x762D0002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x762D0001, 0x762D0003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D0001, 0x762D0004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D0001, 0x762D0005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x762D0001, 0x762D0006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D0001, 0x762D0007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D0002, 11541, 0x62D0000C, 35.49048, 88.76183, 23.33104, 0.6177107, 0, 0, -0.7864054,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -41,10 +41,10 @@ VALUES (0x762D0008,  1542, 0x62D00004, 17.60272, 78.36781, 25.72438, 1, 0, 0, 0,
 /* @teleloc 0x62D00004 [17.602720 78.367810 25.724380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D0008, 0x762D0009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x762D0008, 0x762D000A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x762D0008, 0x762D000B, '2019-02-10 00:00:00') /* Bones */
-     , (0x762D0008, 0x762D000C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x762D0008, 0x762D0009, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x762D0008, 0x762D000A, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x762D0008, 0x762D000B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x762D0008, 0x762D000C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D0009, 22567, 0x62D00004, 17.60272, 78.36781, 25.72438, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

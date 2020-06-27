@@ -5,11 +5,11 @@ VALUES (0x77B83001,  1154, 0x7B830027, 115.3437, 145.2375, 32.11062, 0.9950972, 
 /* @teleloc 0x7B830027 [115.343700 145.237500 32.110620] 0.995097 0.000000 0.000000 -0.098902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B83001, 0x77B83002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x77B83001, 0x77B83003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x77B83001, 0x77B83004, '2019-02-10 00:00:00') /* Charge */
-     , (0x77B83001, 0x77B83005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77B83001, 0x77B83006, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x77B83001, 0x77B83002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x77B83001, 0x77B83003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x77B83001, 0x77B83004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x77B83001, 0x77B83005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77B83001, 0x77B83006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B83002,  1630, 0x7B830027, 115.3437, 145.2375, 32.11062, 0.9950972, 0, 0, -0.09890214,  True, '2019-02-10 00:00:00'); /* Lich Lord */

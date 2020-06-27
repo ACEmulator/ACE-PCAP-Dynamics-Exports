@@ -5,22 +5,22 @@ VALUES (0x75F9B001,  1154, 0x5F9B000C, 46.97274, 90.67032, 19.992, 0.7265786, 0,
 /* @teleloc 0x5F9B000C [46.972740 90.670320 19.992000] 0.726579 0.000000 0.000000 -0.687083 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F9B001, 0x75F9B002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75F9B001, 0x75F9B003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75F9B001, 0x75F9B004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75F9B001, 0x75F9B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75F9B001, 0x75F9B006, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75F9B001, 0x75F9B007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75F9B001, 0x75F9B008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75F9B001, 0x75F9B009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75F9B001, 0x75F9B00A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75F9B001, 0x75F9B00B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75F9B001, 0x75F9B00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75F9B001, 0x75F9B00D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75F9B001, 0x75F9B00E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75F9B001, 0x75F9B00F, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75F9B001, 0x75F9B010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75F9B001, 0x75F9B011, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x75F9B001, 0x75F9B002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75F9B001, 0x75F9B003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75F9B001, 0x75F9B004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75F9B001, 0x75F9B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75F9B001, 0x75F9B006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75F9B001, 0x75F9B007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75F9B001, 0x75F9B008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75F9B001, 0x75F9B009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75F9B001, 0x75F9B00A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75F9B001, 0x75F9B00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75F9B001, 0x75F9B00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75F9B001, 0x75F9B00D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75F9B001, 0x75F9B00E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75F9B001, 0x75F9B00F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75F9B001, 0x75F9B010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75F9B001, 0x75F9B011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F9B002, 24288, 0x5F9B000C, 46.97274, 90.67032, 19.992, 0.7265786, 0, 0, -0.6870834,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -91,7 +91,7 @@ VALUES (0x75F9B012,  1542, 0x5F9B000D, 27.93932, 100.9361, 20, -4.371139E-08, 0,
 /* @teleloc 0x5F9B000D [27.939320 100.936100 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F9B012, 0x75F9B013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75F9B012, 0x75F9B013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F9B013,  4380, 0x5F9B000D, 27.93932, 100.9361, 20, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

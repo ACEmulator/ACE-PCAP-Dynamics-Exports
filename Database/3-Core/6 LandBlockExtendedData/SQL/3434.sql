@@ -5,16 +5,16 @@ VALUES (0x73434001,  1154, 0x3434001F, 72.05832, 167.4121, 44.029, 0.9659258, 0,
 /* @teleloc 0x3434001F [72.058320 167.412100 44.029000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73434001, 0x73434002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73434001, 0x73434003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73434001, 0x73434004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73434001, 0x73434005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73434001, 0x73434006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73434001, 0x73434007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73434001, 0x73434008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73434001, 0x73434009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73434001, 0x7343400A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73434001, 0x7343400B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73434001, 0x73434002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73434001, 0x73434003, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73434001, 0x73434004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73434001, 0x73434005, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73434001, 0x73434006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73434001, 0x73434007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73434001, 0x73434008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73434001, 0x73434009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73434001, 0x7343400A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73434001, 0x7343400B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73434002, 36860, 0x3434001F, 72.05832, 167.4121, 44.029, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

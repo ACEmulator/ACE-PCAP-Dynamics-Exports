@@ -5,12 +5,12 @@ VALUES (0x723EF001,  1154, 0x23EF0031, 155.5079, 14.27061, 0.002499938, -0.43595
 /* @teleloc 0x23EF0031 [155.507900 14.270610 0.002500] -0.435955 0.000000 0.000000 -0.899969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723EF001, 0x723EF002, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x723EF001, 0x723EF003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x723EF001, 0x723EF004, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x723EF001, 0x723EF005, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x723EF001, 0x723EF006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x723EF001, 0x723EF007, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */;
+VALUES (0x723EF001, 0x723EF002, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x723EF001, 0x723EF003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x723EF001, 0x723EF004, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x723EF001, 0x723EF005, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x723EF001, 0x723EF006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x723EF001, 0x723EF007, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723EF002,  8595, 0x23EF0031, 155.5079, 14.27061, 0.002499938, -0.4359549, 0, 0, -0.8999685,  True, '2019-02-10 00:00:00'); /* Cursed Bones */

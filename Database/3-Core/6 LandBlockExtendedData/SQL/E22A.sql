@@ -5,19 +5,19 @@ VALUES (0x7E22A001,  1154, 0xE22A002A, 136.907, 42.62035, 59.17139, 0.8870109, 0
 /* @teleloc 0xE22A002A [136.907000 42.620350 59.171390] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E22A001, 0x7E22A002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7E22A001, 0x7E22A003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E22A001, 0x7E22A004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E22A001, 0x7E22A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7E22A001, 0x7E22A006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E22A001, 0x7E22A007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E22A001, 0x7E22A008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7E22A001, 0x7E22A009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7E22A001, 0x7E22A00A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7E22A001, 0x7E22A00B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7E22A001, 0x7E22A00C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7E22A001, 0x7E22A00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7E22A001, 0x7E22A00E, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x7E22A001, 0x7E22A002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7E22A001, 0x7E22A003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E22A001, 0x7E22A004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E22A001, 0x7E22A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7E22A001, 0x7E22A006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E22A001, 0x7E22A007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E22A001, 0x7E22A008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7E22A001, 0x7E22A009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7E22A001, 0x7E22A00A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7E22A001, 0x7E22A00B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7E22A001, 0x7E22A00C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7E22A001, 0x7E22A00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7E22A001, 0x7E22A00E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E22A002,  4254, 0xE22A002A, 136.907, 42.62035, 59.17139, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

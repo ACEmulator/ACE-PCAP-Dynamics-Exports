@@ -5,47 +5,47 @@ VALUES (0x71FC8001,  1154, 0x1FC8003B, 175.7853, 55.60886, 19.35393, -0.7820017,
 /* @teleloc 0x1FC8003B [175.785300 55.608860 19.353930] -0.782002 0.000000 0.000000 -0.623276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC8001, 0x71FC8002, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC8001, 0x71FC8003, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC8004, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71FC8001, 0x71FC8005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71FC8001, 0x71FC8006, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC8001, 0x71FC8007, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC8001, 0x71FC8008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71FC8001, 0x71FC8009, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71FC8001, 0x71FC800A, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x71FC8001, 0x71FC800B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71FC8001, 0x71FC800C, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x71FC8001, 0x71FC800D, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71FC8001, 0x71FC800E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71FC8001, 0x71FC800F, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71FC8001, 0x71FC8010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71FC8001, 0x71FC8011, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71FC8001, 0x71FC8012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71FC8001, 0x71FC8013, '2019-02-10 00:00:00') /* Aun Herbalist */
-     , (0x71FC8001, 0x71FC8014, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71FC8001, 0x71FC8015, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC8001, 0x71FC8016, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC8017, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC8018, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC8001, 0x71FC8019, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC8001, 0x71FC801A, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC8001, 0x71FC801B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC801C, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC801D, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC8001, 0x71FC801E, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC8001, 0x71FC801F, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC8001, 0x71FC8020, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8021, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8022, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8023, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8024, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8025, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC8001, 0x71FC8026, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC8001, 0x71FC8027, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71FC8001, 0x71FC8028, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC8029, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC8001, 0x71FC802A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x71FC8001, 0x71FC8002, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC8001, 0x71FC8003, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC8004, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71FC8001, 0x71FC8005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71FC8001, 0x71FC8006, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC8001, 0x71FC8007, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC8001, 0x71FC8008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC8001, 0x71FC8009, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71FC8001, 0x71FC800A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x71FC8001, 0x71FC800B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC8001, 0x71FC800C, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x71FC8001, 0x71FC800D, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71FC8001, 0x71FC800E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71FC8001, 0x71FC800F, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71FC8001, 0x71FC8010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71FC8001, 0x71FC8011, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71FC8001, 0x71FC8012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71FC8001, 0x71FC8013, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */
+     , (0x71FC8001, 0x71FC8014, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71FC8001, 0x71FC8015, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC8001, 0x71FC8016, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC8017, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC8018, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC8001, 0x71FC8019, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC8001, 0x71FC801A, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC8001, 0x71FC801B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC801C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC801D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC8001, 0x71FC801E, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC8001, 0x71FC801F, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC8001, 0x71FC8020, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8021, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8022, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8023, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8024, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8025, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC8001, 0x71FC8026, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC8001, 0x71FC8027, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71FC8001, 0x71FC8028, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC8029, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC8001, 0x71FC802A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC8002, 27712, 0x1FC8003B, 175.7853, 55.60886, 19.35393, -0.7820017, 0, 0, -0.6232763,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */
@@ -216,10 +216,10 @@ VALUES (0x71FC802B,  1542, 0x1FC80010, 42.28749, 177.0601, 4.987188, 0.945922, 0
 /* @teleloc 0x1FC80010 [42.287490 177.060100 4.987188] 0.945922 0.000000 0.000000 -0.324394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC802B, 0x71FC802C, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x71FC802B, 0x71FC802D, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x71FC802B, 0x71FC802E, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71FC802B, 0x71FC802F, '2019-02-10 00:00:00') /* Atuakeh Plant */;
+VALUES (0x71FC802B, 0x71FC802C, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x71FC802B, 0x71FC802D, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x71FC802B, 0x71FC802E, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71FC802B, 0x71FC802F, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC802C, 36066, 0x1FC80010, 42.28749, 177.0601, 4.987188, 0.945922, 0, 0, -0.3243942,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

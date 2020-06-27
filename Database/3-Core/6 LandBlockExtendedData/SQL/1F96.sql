@@ -5,11 +5,11 @@ VALUES (0x71F96001,  1154, 0x1F960010, 30.26813, 174.111, -0.89175, 0.4856362, 0
 /* @teleloc 0x1F960010 [30.268130 174.111000 -0.891750] 0.485636 0.000000 0.000000 -0.874161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F96001, 0x71F96002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71F96001, 0x71F96003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71F96001, 0x71F96004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71F96001, 0x71F96005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71F96001, 0x71F96006, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x71F96001, 0x71F96002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71F96001, 0x71F96003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71F96001, 0x71F96004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71F96001, 0x71F96005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71F96001, 0x71F96006, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F96002, 24320, 0x1F960010, 30.26813, 174.111, -0.89175, 0.4856362, 0, 0, -0.8741611,  True, '2019-02-10 00:00:00'); /* Great Revenant */

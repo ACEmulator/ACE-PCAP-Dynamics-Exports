@@ -13,64 +13,64 @@ VALUES (0x7536E040,  1154, 0x536E01F2, 79.3787, -69.7611, -35.995, 0.012986, 0, 
 /* @teleloc 0x536E01F2 [79.378700 -69.761100 -35.995000] 0.012986 0.000000 0.000000 -0.999916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536E040, 0x7536E041, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E042, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E043, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E044, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E045, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E046, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E047, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E048, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E049, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E04A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E04B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E04C, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E04D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E04E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E04F, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E050, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7536E040, 0x7536E051, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7536E040, 0x7536E052, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E053, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E054, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E055, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E056, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E057, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E058, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7536E040, 0x7536E059, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E05A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7536E040, 0x7536E05B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E05C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E05D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7536E040, 0x7536E05E, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E05F, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E060, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E061, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E062, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E063, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E064, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E065, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E066, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7536E040, 0x7536E067, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E068, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E069, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E06A, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E06B, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E06C, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E040, 0x7536E06D, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E06E, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536E040, 0x7536E06F, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E070, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536E040, 0x7536E071, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E072, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E073, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7536E040, 0x7536E074, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7536E040, 0x7536E075, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E076, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E077, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E078, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E079, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536E040, 0x7536E07A, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7536E040, 0x7536E041, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E042, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E043, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E044, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E045, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E046, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E047, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E048, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E049, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E04A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E04B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E04C, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E04D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E04E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E04F, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E050, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7536E040, 0x7536E051, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7536E040, 0x7536E052, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E053, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E054, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E055, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E056, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E057, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E058, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7536E040, 0x7536E059, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E05A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7536E040, 0x7536E05B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E05C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E05D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E040, 0x7536E05E, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E05F, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E060, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E061, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E062, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E063, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E064, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536E040, 0x7536E065, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E066, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E040, 0x7536E067, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E068, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E069, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E06A, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E06B, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E06C, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E040, 0x7536E06D, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E06E, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E040, 0x7536E06F, '2019-02-10 00:00:00') /* Virindi Master (8869) */
+     , (0x7536E040, 0x7536E070, '2019-02-10 00:00:00') /* Virindi Master (8869) */
+     , (0x7536E040, 0x7536E071, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7536E040, 0x7536E072, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7536E040, 0x7536E073, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536E040, 0x7536E074, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536E040, 0x7536E075, '2019-02-10 00:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E040, 0x7536E076, '2019-02-10 00:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E040, 0x7536E077, '2019-02-10 00:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E040, 0x7536E078, '2019-02-10 00:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E040, 0x7536E079, '2019-02-10 00:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E040, 0x7536E07A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536E041, 15299, 0x536E01F2, 79.3787, -69.7611, -35.995, 0.012986, 0, 0, -0.999916,  True, '2019-02-10 00:00:00'); /* Martinate Simulacrum */

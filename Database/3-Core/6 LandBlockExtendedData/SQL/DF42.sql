@@ -5,11 +5,11 @@ VALUES (0x7DF42001,  1154, 0xDF420001, 6.114367, 23.94407, 25.49797, 0.9659258, 
 /* @teleloc 0xDF420001 [6.114367 23.944070 25.497970] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF42001, 0x7DF42002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF42001, 0x7DF42003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF42001, 0x7DF42004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DF42001, 0x7DF42005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7DF42001, 0x7DF42006, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7DF42001, 0x7DF42002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF42001, 0x7DF42003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF42001, 0x7DF42004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DF42001, 0x7DF42005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7DF42001, 0x7DF42006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF42002,  1630, 0xDF420001, 6.114367, 23.94407, 25.49797, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */

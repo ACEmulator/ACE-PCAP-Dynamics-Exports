@@ -5,9 +5,9 @@ VALUES (0x798E1001,  1154, 0x98E10021, 100.1623, 14.66125, 163.7221, 0.7179664, 
 /* @teleloc 0x98E10021 [100.162300 14.661250 163.722100] 0.717966 0.000000 0.000000 -0.696078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798E1001, 0x798E1002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x798E1001, 0x798E1003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x798E1001, 0x798E1004, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x798E1001, 0x798E1002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x798E1001, 0x798E1003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x798E1001, 0x798E1004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798E1002,   214, 0x98E10021, 100.1623, 14.66125, 163.7221, 0.7179664, 0, 0, -0.6960777,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

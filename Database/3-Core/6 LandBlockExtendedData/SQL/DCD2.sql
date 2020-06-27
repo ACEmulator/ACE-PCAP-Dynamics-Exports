@@ -321,7 +321,7 @@ VALUES (0x7DCD2050,  1542, 0xDCD20111, 109.4074, 137.6744, 3.937, -0.3312521, 0,
 /* @teleloc 0xDCD20111 [109.407400 137.674400 3.937000] -0.331252 0.000000 0.000000 -0.943542 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DCD2050, 0x7DCD2051, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7DCD2050, 0x7DCD2051, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DCD2051,  1955, 0xDCD20111, 109.4074, 137.6744, 3.937, -0.3312521, 0, 0, -0.9435423,  True, '2019-02-10 00:00:00'); /* Gateway */

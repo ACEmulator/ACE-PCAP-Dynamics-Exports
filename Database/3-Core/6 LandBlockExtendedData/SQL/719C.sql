@@ -5,12 +5,12 @@ VALUES (0x7719C001,  1154, 0x719C003A, 172.6469, 39.09194, 240.0099, -0.993378, 
 /* @teleloc 0x719C003A [172.646900 39.091940 240.009900] -0.993378 0.000000 0.000000 -0.114892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7719C001, 0x7719C002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7719C001, 0x7719C003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7719C001, 0x7719C004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7719C001, 0x7719C005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7719C001, 0x7719C006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7719C001, 0x7719C007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7719C001, 0x7719C002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7719C001, 0x7719C003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7719C001, 0x7719C004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7719C001, 0x7719C005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7719C001, 0x7719C006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7719C001, 0x7719C007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7719C002, 22520, 0x719C003A, 172.6469, 39.09194, 240.0099, -0.993378, 0, 0, -0.1148916,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

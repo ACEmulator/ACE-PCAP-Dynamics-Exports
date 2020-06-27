@@ -5,12 +5,12 @@ VALUES (0x7D538001,  1154, 0xD538003E, 174.1538, 137.1891, 104.5263, 0.5, 0, 0, 
 /* @teleloc 0xD538003E [174.153800 137.189100 104.526300] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D538001, 0x7D538002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D538001, 0x7D538003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D538001, 0x7D538004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D538001, 0x7D538005, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D538001, 0x7D538006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D538001, 0x7D538007, '2019-02-10 00:00:00') /* Rough Monouga */;
+VALUES (0x7D538001, 0x7D538002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D538001, 0x7D538003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D538001, 0x7D538004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D538001, 0x7D538005, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D538001, 0x7D538006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D538001, 0x7D538007, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D538002, 14521, 0xD538003E, 174.1538, 137.1891, 104.5263, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -41,7 +41,7 @@ VALUES (0x7D538008,  1542, 0xD538001F, 93.60004, 155.5107, 126.4918, -0.8511125,
 /* @teleloc 0xD538001F [93.600040 155.510700 126.491800] -0.851113 0.000000 0.000000 -0.524983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D538008, 0x7D538009, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7D538008, 0x7D538009, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D538009, 22837, 0xD538001F, 93.60004, 155.5107, 126.4918, -0.8511125, 0, 0, -0.5249832,  True, '2019-02-10 00:00:00'); /* Snowflower */

@@ -5,15 +5,15 @@ VALUES (0x7E43A001,  1154, 0xE43A0029, 138.1272, 2.034293, 107.002, -0.7460945, 
 /* @teleloc 0xE43A0029 [138.127200 2.034293 107.002000] -0.746095 0.000000 0.000000 -0.665840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E43A001, 0x7E43A002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E43A001, 0x7E43A003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E43A001, 0x7E43A004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E43A001, 0x7E43A005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E43A001, 0x7E43A006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E43A001, 0x7E43A007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7E43A001, 0x7E43A008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E43A001, 0x7E43A009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E43A001, 0x7E43A00A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7E43A001, 0x7E43A002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E43A001, 0x7E43A003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E43A001, 0x7E43A004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E43A001, 0x7E43A005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E43A001, 0x7E43A006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E43A001, 0x7E43A007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7E43A001, 0x7E43A008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E43A001, 0x7E43A009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E43A001, 0x7E43A00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E43A002,     3, 0xE43A0029, 138.1272, 2.034293, 107.002, -0.7460945, 0, 0, -0.6658401,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

@@ -5,17 +5,17 @@ VALUES (0x7318F001,  1154, 0x318F0018, 62.67103, 170.7988, 8.777415, -4.371139E-
 /* @teleloc 0x318F0018 [62.671030 170.798800 8.777415] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7318F001, 0x7318F002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7318F001, 0x7318F003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7318F001, 0x7318F004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7318F001, 0x7318F005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7318F001, 0x7318F006, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7318F001, 0x7318F007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7318F001, 0x7318F008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7318F001, 0x7318F009, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7318F001, 0x7318F00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7318F001, 0x7318F00B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7318F001, 0x7318F00C, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x7318F001, 0x7318F002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7318F001, 0x7318F003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7318F001, 0x7318F004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7318F001, 0x7318F005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7318F001, 0x7318F006, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7318F001, 0x7318F007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7318F001, 0x7318F008, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7318F001, 0x7318F009, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7318F001, 0x7318F00A, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7318F001, 0x7318F00B, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7318F001, 0x7318F00C, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7318F002,  7112, 0x318F0018, 62.67103, 170.7988, 8.777415, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -66,7 +66,7 @@ VALUES (0x7318F00D,  1542, 0x318F0028, 104.836, 181.4097, 7.447221, 1, 0, 0, 0, 
 /* @teleloc 0x318F0028 [104.836000 181.409700 7.447221] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7318F00D, 0x7318F00E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7318F00D, 0x7318F00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7318F00E, 31445, 0x318F0028, 104.836, 181.4097, 7.447221, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

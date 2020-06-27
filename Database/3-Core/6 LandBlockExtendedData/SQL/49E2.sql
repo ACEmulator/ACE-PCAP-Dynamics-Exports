@@ -5,14 +5,14 @@ VALUES (0x749E2001,  1154, 0x49E20023, 108.3802, 68.34686, 64.13994, 0.6427876, 
 /* @teleloc 0x49E20023 [108.380200 68.346860 64.139940] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E2001, 0x749E2002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749E2001, 0x749E2003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749E2001, 0x749E2004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749E2001, 0x749E2005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749E2001, 0x749E2006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x749E2001, 0x749E2007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x749E2001, 0x749E2008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x749E2001, 0x749E2009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x749E2001, 0x749E2002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749E2001, 0x749E2003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749E2001, 0x749E2004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749E2001, 0x749E2005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749E2001, 0x749E2006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x749E2001, 0x749E2007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x749E2001, 0x749E2008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x749E2001, 0x749E2009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E2002, 10810, 0x49E20023, 108.3802, 68.34686, 64.13994, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -51,7 +51,7 @@ VALUES (0x749E200A,  1542, 0x49E2001A, 85.83922, 34.02431, 57.1419, 0.9990482, 0
 /* @teleloc 0x49E2001A [85.839220 34.024310 57.141900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749E200A, 0x749E200B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x749E200A, 0x749E200B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E200B,  4179, 0x49E2001A, 85.83922, 34.02431, 57.1419, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

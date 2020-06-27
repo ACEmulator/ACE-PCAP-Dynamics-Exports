@@ -5,8 +5,8 @@ VALUES (0x7C872001,  1154, 0xC8720016, 53.32166, 137.3268, 38.005, -0.8452848, 0
 /* @teleloc 0xC8720016 [53.321660 137.326800 38.005000] -0.845285 0.000000 0.000000 -0.534316 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C872001, 0x7C872002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C872001, 0x7C872003, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7C872001, 0x7C872002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C872001, 0x7C872003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C872002,  1758, 0xC8720016, 53.32166, 137.3268, 38.005, -0.8452848, 0, 0, -0.5343161,  True, '2019-02-10 00:00:00'); /* Shadow */

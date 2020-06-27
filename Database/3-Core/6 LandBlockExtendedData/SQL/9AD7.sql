@@ -5,10 +5,10 @@ VALUES (0x79AD7001,  1154, 0x9AD70023, 116.6769, 56.70394, 103.2874, 0.619588, 0
 /* @teleloc 0x9AD70023 [116.676900 56.703940 103.287400] 0.619588 0.000000 0.000000 -0.784927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD7001, 0x79AD7002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79AD7001, 0x79AD7003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79AD7001, 0x79AD7004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79AD7001, 0x79AD7005, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x79AD7001, 0x79AD7002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79AD7001, 0x79AD7003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79AD7001, 0x79AD7004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79AD7001, 0x79AD7005, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD7002,  4217, 0x9AD70023, 116.6769, 56.70394, 103.2874, 0.619588, 0, 0, -0.7849272,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

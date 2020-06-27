@@ -5,9 +5,9 @@ VALUES (0x7CB7D001,  1154, 0xCB7D0020, 79.78728, 171.039, 34.25575, 0.7243258, 0
 /* @teleloc 0xCB7D0020 [79.787280 171.039000 34.255750] 0.724326 0.000000 0.000000 -0.689458 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB7D001, 0x7CB7D002, '2019-02-10 00:00:00') /* Static */
-     , (0x7CB7D001, 0x7CB7D003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CB7D001, 0x7CB7D004, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7CB7D001, 0x7CB7D002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7CB7D001, 0x7CB7D003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CB7D001, 0x7CB7D004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB7D002,  6382, 0xCB7D0020, 79.78728, 171.039, 34.25575, 0.7243258, 0, 0, -0.6894578,  True, '2019-02-10 00:00:00'); /* Static */
@@ -26,9 +26,9 @@ VALUES (0x7CB7D005,  1542, 0xCB7D002C, 121.4077, 88.83605, 26.97203, 0.9999371, 
 /* @teleloc 0xCB7D002C [121.407700 88.836050 26.972030] 0.999937 0.000000 0.000000 -0.011213 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB7D005, 0x7CB7D006, '2019-02-10 00:00:00') /* Gem */
-     , (0x7CB7D005, 0x7CB7D007, '2019-02-10 00:00:00') /* Scroll of Dual Wield Mastery Other V */
-     , (0x7CB7D005, 0x7CB7D008, '2019-02-10 00:00:00') /* Reliable Lockpick */;
+VALUES (0x7CB7D005, 0x7CB7D006, '2019-02-10 00:00:00') /* Gem (2417) */
+     , (0x7CB7D005, 0x7CB7D007, '2019-02-10 00:00:00') /* Scroll of Dual Wield Mastery Other V (45272) */
+     , (0x7CB7D005, 0x7CB7D008, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB7D006,  2417, 0xCB7D002C, 121.4077, 88.83605, 26.97203, 0.9999371, 0, 0, -0.01121256,  True, '2019-02-10 00:00:00'); /* Gem */

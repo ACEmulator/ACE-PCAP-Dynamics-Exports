@@ -37,28 +37,28 @@ VALUES (0x701BA023,  1154, 0x01BA01B1, 111.535, -57.8254, 0.004999995, -0.401748
 /* @teleloc 0x01BA01B1 [111.535000 -57.825400 0.005000] -0.401748 0.000000 0.000000 -0.915750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BA023, 0x701BA024, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA025, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA026, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA027, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA028, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x701BA023, 0x701BA029, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA02F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA030, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x701BA023, 0x701BA031, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA032, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA033, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA034, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA035, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA036, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA037, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x701BA023, 0x701BA038, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x701BA023, 0x701BA039, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x701BA023, 0x701BA024, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA025, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA026, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA027, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA028, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x701BA023, 0x701BA029, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA02F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA030, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA023, 0x701BA031, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA032, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA033, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA034, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA035, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA036, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA037, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x701BA023, 0x701BA038, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x701BA023, 0x701BA039, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BA024,  1757, 0x01BA01B1, 111.535, -57.8254, 0.004999995, -0.4017481, 0, 0, -0.9157502,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -153,18 +153,18 @@ VALUES (0x701BA03A,  1542, 0x01BA01AE, 109.3637, -26.00795, 0.012395, -0.7538209
 /* @teleloc 0x01BA01AE [109.363700 -26.007950 0.012395] -0.753821 0.000000 0.000000 0.657080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BA03A, 0x701BA03B, '2019-02-10 00:00:00') /* Gorget */
-     , (0x701BA03A, 0x701BA03C, '2019-02-10 00:00:00') /* Gem */
-     , (0x701BA03A, 0x701BA03D, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x701BA03A, 0x701BA03E, '2019-02-10 00:00:00') /* Alloy Cylinder */
-     , (0x701BA03A, 0x701BA03F, '2019-02-10 00:00:00') /* Shirt */
-     , (0x701BA03A, 0x701BA040, '2019-02-10 00:00:00') /* Signet Crown */
-     , (0x701BA03A, 0x701BA041, '2019-02-10 00:00:00') /* Gem */
-     , (0x701BA03A, 0x701BA042, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x701BA03A, 0x701BA043, '2019-02-10 00:00:00') /* Gem */
-     , (0x701BA03A, 0x701BA044, '2019-02-10 00:00:00') /* Circlet */
-     , (0x701BA03A, 0x701BA045, '2019-02-10 00:00:00') /* Scroll of Martyr's Tenacity VI */
-     , (0x701BA03A, 0x701BA046, '2019-02-10 00:00:00') /* Scroll of Drain Stamina Other VI */;
+VALUES (0x701BA03A, 0x701BA03B, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x701BA03A, 0x701BA03C, '2019-02-10 00:00:00') /* Gem (2420) */
+     , (0x701BA03A, 0x701BA03D, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x701BA03A, 0x701BA03E, '2019-02-10 00:00:00') /* Alloy Cylinder (25326) */
+     , (0x701BA03A, 0x701BA03F, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x701BA03A, 0x701BA040, '2019-02-10 00:00:00') /* Signet Crown (31868) */
+     , (0x701BA03A, 0x701BA041, '2019-02-10 00:00:00') /* Gem (2424) */
+     , (0x701BA03A, 0x701BA042, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x701BA03A, 0x701BA043, '2019-02-10 00:00:00') /* Gem (2401) */
+     , (0x701BA03A, 0x701BA044, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x701BA03A, 0x701BA045, '2019-02-10 00:00:00') /* Scroll of Martyr's Tenacity VI (21114) */
+     , (0x701BA03A, 0x701BA046, '2019-02-10 00:00:00') /* Scroll of Drain Stamina Other VI (3730) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BA03B,  2367, 0x01BA01AE, 109.3637, -26.00795, 0.012395, -0.7538209, 0, 0, 0.6570799,  True, '2019-02-10 00:00:00'); /* Gorget */

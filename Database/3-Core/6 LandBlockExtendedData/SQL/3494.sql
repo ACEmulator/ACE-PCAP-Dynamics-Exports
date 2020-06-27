@@ -5,13 +5,13 @@ VALUES (0x73494001,  1154, 0x3494000C, 39.0556, 86.18941, 2.072182, 0.001688555,
 /* @teleloc 0x3494000C [39.055600 86.189410 2.072182] 0.001689 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73494001, 0x73494002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73494001, 0x73494003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73494001, 0x73494004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73494001, 0x73494005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73494001, 0x73494006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73494001, 0x73494007, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73494001, 0x73494008, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x73494001, 0x73494002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73494001, 0x73494003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73494001, 0x73494004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73494001, 0x73494005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73494001, 0x73494006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73494001, 0x73494007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73494001, 0x73494008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73494002,  7112, 0x3494000C, 39.0556, 86.18941, 2.072182, 0.001688555, 0, 0, -0.9999986,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

@@ -5,28 +5,28 @@ VALUES (0x743DF001,  1154, 0x43DF002F, 125.3277, 146.2263, 2.457178, 0.7071068, 
 /* @teleloc 0x43DF002F [125.327700 146.226300 2.457178] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DF001, 0x743DF002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743DF001, 0x743DF003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743DF001, 0x743DF004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x743DF001, 0x743DF005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x743DF001, 0x743DF006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x743DF001, 0x743DF007, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x743DF001, 0x743DF008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x743DF001, 0x743DF009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DF001, 0x743DF00A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DF001, 0x743DF00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x743DF001, 0x743DF00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x743DF001, 0x743DF00D, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x743DF001, 0x743DF00E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743DF001, 0x743DF00F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x743DF001, 0x743DF010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x743DF001, 0x743DF011, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x743DF001, 0x743DF012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x743DF001, 0x743DF013, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x743DF001, 0x743DF014, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x743DF001, 0x743DF015, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x743DF001, 0x743DF016, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x743DF001, 0x743DF017, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x743DF001, 0x743DF002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743DF001, 0x743DF003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743DF001, 0x743DF004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x743DF001, 0x743DF005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x743DF001, 0x743DF006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x743DF001, 0x743DF007, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x743DF001, 0x743DF008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x743DF001, 0x743DF009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DF001, 0x743DF00A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DF001, 0x743DF00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x743DF001, 0x743DF00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x743DF001, 0x743DF00D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x743DF001, 0x743DF00E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743DF001, 0x743DF00F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x743DF001, 0x743DF010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x743DF001, 0x743DF011, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x743DF001, 0x743DF012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x743DF001, 0x743DF013, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x743DF001, 0x743DF014, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x743DF001, 0x743DF015, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x743DF001, 0x743DF016, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x743DF001, 0x743DF017, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DF002,  7184, 0x43DF002F, 125.3277, 146.2263, 2.457178, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -121,7 +121,7 @@ VALUES (0x743DF018,  1542, 0x43DF0020, 75.3197, 169.568, 0.079, 0.993254, 0, 0, 
 /* @teleloc 0x43DF0020 [75.319700 169.568000 0.079000] 0.993254 0.000000 0.000000 -0.115955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743DF018, 0x743DF019, '2019-02-10 00:00:00') /* Halaetan Magic Page 7 */;
+VALUES (0x743DF018, 0x743DF019, '2019-02-10 00:00:00') /* Halaetan Magic Page 7 (30912) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743DF019, 30912, 0x43DF0020, 75.3197, 169.568, 0.079, 0.993254, 0, 0, -0.115955,  True, '2019-02-10 00:00:00'); /* Halaetan Magic Page 7 */

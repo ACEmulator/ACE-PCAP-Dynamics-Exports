@@ -5,14 +5,14 @@ VALUES (0x73B4C001,  1154, 0x3B4C0028, 104.1401, 190.4467, 28.81419, -0.1976949,
 /* @teleloc 0x3B4C0028 [104.140100 190.446700 28.814190] -0.197695 0.000000 0.000000 -0.980264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4C001, 0x73B4C002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4C001, 0x73B4C003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73B4C001, 0x73B4C004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4C001, 0x73B4C005, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73B4C001, 0x73B4C006, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4C001, 0x73B4C007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4C001, 0x73B4C008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4C001, 0x73B4C009, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73B4C001, 0x73B4C002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4C001, 0x73B4C003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73B4C001, 0x73B4C004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4C001, 0x73B4C005, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73B4C001, 0x73B4C006, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4C001, 0x73B4C007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4C001, 0x73B4C008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4C001, 0x73B4C009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4C002,  7181, 0x3B4C0028, 104.1401, 190.4467, 28.81419, -0.1976949, 0, 0, -0.9802636,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */

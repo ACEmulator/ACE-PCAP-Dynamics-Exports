@@ -5,14 +5,14 @@ VALUES (0x7CC58001,  1154, 0xCC58002F, 138.7072, 151.4323, 14.44794, -0.1679788,
 /* @teleloc 0xCC58002F [138.707200 151.432300 14.447940] -0.167979 0.000000 0.000000 -0.985791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC58001, 0x7CC58002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC58001, 0x7CC58003, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7CC58001, 0x7CC58004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CC58001, 0x7CC58005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CC58001, 0x7CC58006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CC58001, 0x7CC58007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC58001, 0x7CC58008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CC58001, 0x7CC58009, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7CC58001, 0x7CC58002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC58001, 0x7CC58003, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7CC58001, 0x7CC58004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CC58001, 0x7CC58005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CC58001, 0x7CC58006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CC58001, 0x7CC58007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC58001, 0x7CC58008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CC58001, 0x7CC58009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC58002,  7345, 0xCC58002F, 138.7072, 151.4323, 14.44794, -0.1679788, 0, 0, -0.9857906,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,9 +5,9 @@ VALUES (0x7A6BD001,  1154, 0xA6BD0039, 171.2677, 0.3218689, 73.51447, 0.9992842,
 /* @teleloc 0xA6BD0039 [171.267700 0.321869 73.514470] 0.999284 0.000000 0.000000 -0.037829 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6BD001, 0x7A6BD002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6BD001, 0x7A6BD003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A6BD001, 0x7A6BD004, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7A6BD001, 0x7A6BD002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6BD001, 0x7A6BD003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A6BD001, 0x7A6BD004, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6BD002,  7989, 0xA6BD0039, 171.2677, 0.3218689, 73.51447, 0.9992842, 0, 0, -0.037829,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

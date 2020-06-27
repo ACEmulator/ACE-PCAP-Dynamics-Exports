@@ -5,14 +5,14 @@ VALUES (0x7B91A001,  1154, 0xB91A001D, 74.87544, 99.54932, 169.7792, 0.8433914, 
 /* @teleloc 0xB91A001D [74.875440 99.549320 169.779200] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91A001, 0x7B91A002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B91A001, 0x7B91A003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B91A001, 0x7B91A004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B91A001, 0x7B91A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B91A001, 0x7B91A006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B91A001, 0x7B91A007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B91A001, 0x7B91A008, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7B91A001, 0x7B91A009, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7B91A001, 0x7B91A002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B91A001, 0x7B91A003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B91A001, 0x7B91A004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B91A001, 0x7B91A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B91A001, 0x7B91A006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B91A001, 0x7B91A007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B91A001, 0x7B91A008, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7B91A001, 0x7B91A009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91A002,  1610, 0xB91A001D, 74.87544, 99.54932, 169.7792, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -51,8 +51,8 @@ VALUES (0x7B91A00A,  1542, 0xB91A000F, 30.47221, 161.6892, 202.2116, 0.9072785, 
 /* @teleloc 0xB91A000F [30.472210 161.689200 202.211600] 0.907279 0.000000 0.000000 -0.420530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91A00A, 0x7B91A00B, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7B91A00A, 0x7B91A00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B91A00A, 0x7B91A00B, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7B91A00A, 0x7B91A00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91A00B,  8648, 0xB91A000F, 30.47221, 161.6892, 202.2116, 0.9072785, 0, 0, -0.4205302,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

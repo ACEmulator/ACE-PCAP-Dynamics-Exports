@@ -5,15 +5,15 @@ VALUES (0x7A1E6001,  1154, 0xA1E60040, 168.5189, 177.8641, 105.5865, 0.7071068, 
 /* @teleloc 0xA1E60040 [168.518900 177.864100 105.586500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1E6001, 0x7A1E6002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A1E6001, 0x7A1E6003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A1E6001, 0x7A1E6004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1E6001, 0x7A1E6005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A1E6001, 0x7A1E6006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A1E6001, 0x7A1E6007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A1E6001, 0x7A1E6008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A1E6001, 0x7A1E6009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A1E6001, 0x7A1E600A, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x7A1E6001, 0x7A1E6002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A1E6001, 0x7A1E6003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A1E6001, 0x7A1E6004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1E6001, 0x7A1E6005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1E6001, 0x7A1E6006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A1E6001, 0x7A1E6007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A1E6001, 0x7A1E6008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A1E6001, 0x7A1E6009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A1E6001, 0x7A1E600A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E6002,    23, 0xA1E60040, 168.5189, 177.8641, 105.5865, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

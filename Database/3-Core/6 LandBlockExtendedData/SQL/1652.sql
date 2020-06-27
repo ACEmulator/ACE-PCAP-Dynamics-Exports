@@ -5,18 +5,18 @@ VALUES (0x71652001,  1154, 0x16520008, 18.71475, 177.4943, 15.1693, 0.9757174, 0
 /* @teleloc 0x16520008 [18.714750 177.494300 15.169300] 0.975717 0.000000 0.000000 -0.219033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71652001, 0x71652002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71652001, 0x71652003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71652001, 0x71652004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71652001, 0x71652005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71652001, 0x71652006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71652001, 0x71652007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71652001, 0x71652008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71652001, 0x71652009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71652001, 0x7165200A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71652001, 0x7165200B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71652001, 0x7165200C, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71652001, 0x7165200D, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x71652001, 0x71652002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71652001, 0x71652003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71652001, 0x71652004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71652001, 0x71652005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71652001, 0x71652006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71652001, 0x71652007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71652001, 0x71652008, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71652001, 0x71652009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71652001, 0x7165200A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71652001, 0x7165200B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71652001, 0x7165200C, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71652001, 0x7165200D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71652002, 36825, 0x16520008, 18.71475, 177.4943, 15.1693, 0.9757174, 0, 0, -0.219033,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -71,7 +71,7 @@ VALUES (0x7165200E,  1542, 0x16520008, 13.43647, 169.7028, 12.5676, 1, 0, 0, 0, 
 /* @teleloc 0x16520008 [13.436470 169.702800 12.567600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165200E, 0x7165200F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7165200E, 0x7165200F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165200F,  4179, 0x16520008, 13.43647, 169.7028, 12.5676, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

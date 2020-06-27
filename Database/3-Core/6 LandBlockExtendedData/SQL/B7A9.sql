@@ -5,11 +5,11 @@ VALUES (0x7B7A9001,  1154, 0xB7A9001F, 74.56683, 155.7006, 107.1972, 0.9949875, 
 /* @teleloc 0xB7A9001F [74.566830 155.700600 107.197200] 0.994988 0.000000 0.000000 -0.099999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7A9001, 0x7B7A9002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B7A9001, 0x7B7A9003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B7A9001, 0x7B7A9004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B7A9001, 0x7B7A9005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B7A9001, 0x7B7A9006, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7B7A9001, 0x7B7A9002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B7A9001, 0x7B7A9003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B7A9001, 0x7B7A9004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B7A9001, 0x7B7A9005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B7A9001, 0x7B7A9006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7A9002,  8673, 0xB7A9001F, 74.56683, 155.7006, 107.1972, 0.9949875, 0, 0, -0.0999992,  True, '2019-02-10 00:00:00'); /* Risen Knight */

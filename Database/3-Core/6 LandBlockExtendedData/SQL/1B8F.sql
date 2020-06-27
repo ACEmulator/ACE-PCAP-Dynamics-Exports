@@ -5,13 +5,13 @@ VALUES (0x71B8F001,  1154, 0x1B8F0028, 117.0867, 174.525, 97.97278, -0.9639225, 
 /* @teleloc 0x1B8F0028 [117.086700 174.525000 97.972780] -0.963923 0.000000 0.000000 -0.266183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B8F001, 0x71B8F002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71B8F001, 0x71B8F003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x71B8F001, 0x71B8F004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71B8F001, 0x71B8F005, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71B8F001, 0x71B8F006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B8F001, 0x71B8F007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71B8F001, 0x71B8F008, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x71B8F001, 0x71B8F002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71B8F001, 0x71B8F003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x71B8F001, 0x71B8F004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71B8F001, 0x71B8F005, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71B8F001, 0x71B8F006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B8F001, 0x71B8F007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71B8F001, 0x71B8F008, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B8F002, 41535, 0x1B8F0028, 117.0867, 174.525, 97.97278, -0.9639225, 0, 0, -0.266183,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

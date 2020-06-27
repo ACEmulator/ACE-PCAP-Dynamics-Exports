@@ -5,11 +5,11 @@ VALUES (0x74B10001,  1154, 0x4B100024, 104.6144, 83.74908, 2.05502, 0.7071068, 0
 /* @teleloc 0x4B100024 [104.614400 83.749080 2.055020] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B10001, 0x74B10002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74B10001, 0x74B10003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74B10001, 0x74B10004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74B10001, 0x74B10005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74B10001, 0x74B10006, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x74B10001, 0x74B10002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74B10001, 0x74B10003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74B10001, 0x74B10004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74B10001, 0x74B10005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74B10001, 0x74B10006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B10002,  7184, 0x4B100024, 104.6144, 83.74908, 2.05502, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

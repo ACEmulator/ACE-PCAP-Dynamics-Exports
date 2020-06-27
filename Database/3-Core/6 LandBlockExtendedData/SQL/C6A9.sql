@@ -265,16 +265,16 @@ VALUES (0x7C6A9098,  1154, 0xC6A90008, 23.5546, 168.419, 22, -0.363977, 0, 0, 0.
 /* @teleloc 0xC6A90008 [23.554600 168.419000 22.000000] -0.363977 0.000000 0.000000 0.931408 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6A9098, 0x7C6A9099, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7C6A9098, 0x7C6A909A, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7C6A9098, 0x7C6A909B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C6A9098, 0x7C6A909C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C6A9098, 0x7C6A909D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C6A9098, 0x7C6A909E, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7C6A9098, 0x7C6A909F, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7C6A9098, 0x7C6A90A0, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7C6A9098, 0x7C6A90A1, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7C6A9098, 0x7C6A90A2, '2019-02-10 00:00:00') /* Big Red Olthoi */;
+VALUES (0x7C6A9098, 0x7C6A9099, '2019-02-10 00:00:00') /* Exploration Marker (39788) */
+     , (0x7C6A9098, 0x7C6A909A, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7C6A9098, 0x7C6A909B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C6A9098, 0x7C6A909C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C6A9098, 0x7C6A909D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C6A9098, 0x7C6A909E, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7C6A9098, 0x7C6A909F, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7C6A9098, 0x7C6A90A0, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7C6A9098, 0x7C6A90A1, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7C6A9098, 0x7C6A90A2, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A9099, 39788, 0xC6A90008, 23.5546, 168.419, 22, -0.363977, 0, 0, 0.9314079,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -321,123 +321,123 @@ VALUES (0x7C6A90A3,  1154, 0xC6A90109, 70.1037, 31.2587, 42.005, -0.8902429, 0, 
 /* @teleloc 0xC6A90109 [70.103700 31.258700 42.005000] -0.890243 0.000000 0.000000 -0.455486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6A90A3, 0x7C6A90A4, '2019-02-10 00:00:00') /* Guard Audrey */
-     , (0x7C6A90A3, 0x7C6A90A5, '2019-02-10 00:00:00') /* Hiyp the Toad */
-     , (0x7C6A90A3, 0x7C6A90A6, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x7C6A90A3, 0x7C6A90A7, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7C6A90A3, 0x7C6A90A8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90A9, '2019-02-10 00:00:00') /* Professor of Void Magic */
-     , (0x7C6A90A3, 0x7C6A90AA, '2019-02-10 00:00:00') /* Professor of War Magic */
-     , (0x7C6A90A3, 0x7C6A90AB, '2019-02-10 00:00:00') /* Primalist */
-     , (0x7C6A90A3, 0x7C6A90AC, '2019-02-10 00:00:00') /* Professor of Life Magic */
-     , (0x7C6A90A3, 0x7C6A90AD, '2019-02-10 00:00:00') /* Professor of Item Magic */
-     , (0x7C6A90A3, 0x7C6A90AE, '2019-02-10 00:00:00') /* Professor of Creature Magic */
-     , (0x7C6A90A3, 0x7C6A90AF, '2019-02-10 00:00:00') /* Necromancer */
-     , (0x7C6A90A3, 0x7C6A90B0, '2019-02-10 00:00:00') /* Naturalist */
-     , (0x7C6A90A3, 0x7C6A90B1, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7C6A90A3, 0x7C6A90B2, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7C6A90A3, 0x7C6A90B3, '2019-02-10 00:00:00') /* Isin Dule */
-     , (0x7C6A90A3, 0x7C6A90B4, '2019-02-10 00:00:00') /* Lord Dargeth */
-     , (0x7C6A90A3, 0x7C6A90B5, '2019-02-10 00:00:00') /* Thrown Weapons Mastery */
-     , (0x7C6A90A3, 0x7C6A90B6, '2019-02-10 00:00:00') /* Magic Mastery */
-     , (0x7C6A90A3, 0x7C6A90B7, '2019-02-10 00:00:00') /* Crossbow Mastery */
-     , (0x7C6A90A3, 0x7C6A90B8, '2019-02-10 00:00:00') /* Bow Mastery */
-     , (0x7C6A90A3, 0x7C6A90B9, '2019-02-10 00:00:00') /* Two Handed Combat Mastery */
-     , (0x7C6A90A3, 0x7C6A90BA, '2019-02-10 00:00:00') /* Unarmed Combat Mastery */
-     , (0x7C6A90A3, 0x7C6A90BB, '2019-02-10 00:00:00') /* Sword Mastery */
-     , (0x7C6A90A3, 0x7C6A90BC, '2019-02-10 00:00:00') /* Apprentice Alchemist */
-     , (0x7C6A90A3, 0x7C6A90BD, '2019-02-10 00:00:00') /* Umbral Guard */
-     , (0x7C6A90A3, 0x7C6A90BE, '2019-02-10 00:00:00') /* Umbral Guard */
-     , (0x7C6A90A3, 0x7C6A90BF, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7C6A90A3, 0x7C6A90C0, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7C6A90A3, 0x7C6A90C1, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x7C6A90A3, 0x7C6A90C2, '2019-02-10 00:00:00') /* Anasha */
-     , (0x7C6A90A3, 0x7C6A90C3, '2019-02-10 00:00:00') /* Staves Mastery */
-     , (0x7C6A90A3, 0x7C6A90C4, '2019-02-10 00:00:00') /* Spears Mastery */
-     , (0x7C6A90A3, 0x7C6A90C5, '2019-02-10 00:00:00') /* Translator Aun Laokhe */
-     , (0x7C6A90A3, 0x7C6A90C6, '2019-02-10 00:00:00') /* Mace Mastery */
-     , (0x7C6A90A3, 0x7C6A90C7, '2019-02-10 00:00:00') /* Dagger Mastery */
-     , (0x7C6A90A3, 0x7C6A90C8, '2019-02-10 00:00:00') /* Axe Mastery */
-     , (0x7C6A90A3, 0x7C6A90C9, '2019-02-10 00:00:00') /* John */
-     , (0x7C6A90A3, 0x7C6A90CA, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7C6A90A3, 0x7C6A90CB, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7C6A90A3, 0x7C6A90CC, '2019-02-10 00:00:00') /* Varinia */
-     , (0x7C6A90A3, 0x7C6A90CD, '2019-02-10 00:00:00') /* Monroe */
-     , (0x7C6A90A3, 0x7C6A90CE, '2019-02-10 00:00:00') /* Jacob Durstan */
-     , (0x7C6A90A3, 0x7C6A90CF, '2019-02-10 00:00:00') /* Blackmoor's Page */
-     , (0x7C6A90A3, 0x7C6A90D0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90D9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90DF, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90E9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90EA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90EB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90EC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90ED, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90EE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90EF, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90F9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A90FF, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9100, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9101, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9102, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9103, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9104, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9105, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9106, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9107, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9108, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9109, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A910F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9110, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9111, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9112, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9113, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9114, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9115, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9116, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9117, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C6A90A3, 0x7C6A9118, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7C6A90A3, 0x7C6A90A4, '2019-02-10 00:00:00') /* Guard Audrey (28968) */
+     , (0x7C6A90A3, 0x7C6A90A5, '2019-02-10 00:00:00') /* Hiyp the Toad (25486) */
+     , (0x7C6A90A3, 0x7C6A90A6, '2019-02-10 00:00:00') /* Leather Crafter (4213) */
+     , (0x7C6A90A3, 0x7C6A90A7, '2019-02-10 00:00:00') /* Emissary of Asheron (45495) */
+     , (0x7C6A90A3, 0x7C6A90A8, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90A9, '2019-02-10 00:00:00') /* Professor of Void Magic (53385) */
+     , (0x7C6A90A3, 0x7C6A90AA, '2019-02-10 00:00:00') /* Professor of War Magic (53381) */
+     , (0x7C6A90A3, 0x7C6A90AB, '2019-02-10 00:00:00') /* Primalist (49516) */
+     , (0x7C6A90A3, 0x7C6A90AC, '2019-02-10 00:00:00') /* Professor of Life Magic (53384) */
+     , (0x7C6A90A3, 0x7C6A90AD, '2019-02-10 00:00:00') /* Professor of Item Magic (53383) */
+     , (0x7C6A90A3, 0x7C6A90AE, '2019-02-10 00:00:00') /* Professor of Creature Magic (53382) */
+     , (0x7C6A90A3, 0x7C6A90AF, '2019-02-10 00:00:00') /* Necromancer (49515) */
+     , (0x7C6A90A3, 0x7C6A90B0, '2019-02-10 00:00:00') /* Naturalist (49514) */
+     , (0x7C6A90A3, 0x7C6A90B1, '2019-02-10 00:00:00') /* Emissary of Asheron (45490) */
+     , (0x7C6A90A3, 0x7C6A90B2, '2019-02-10 00:00:00') /* Emissary of Asheron (45492) */
+     , (0x7C6A90A3, 0x7C6A90B3, '2019-02-10 00:00:00') /* Isin Dule (43861) */
+     , (0x7C6A90A3, 0x7C6A90B4, '2019-02-10 00:00:00') /* Lord Dargeth (42984) */
+     , (0x7C6A90A3, 0x7C6A90B5, '2019-02-10 00:00:00') /* Thrown Weapons Mastery (45480) */
+     , (0x7C6A90A3, 0x7C6A90B6, '2019-02-10 00:00:00') /* Magic Mastery (45477) */
+     , (0x7C6A90A3, 0x7C6A90B7, '2019-02-10 00:00:00') /* Crossbow Mastery (45474) */
+     , (0x7C6A90A3, 0x7C6A90B8, '2019-02-10 00:00:00') /* Bow Mastery (45473) */
+     , (0x7C6A90A3, 0x7C6A90B9, '2019-02-10 00:00:00') /* Two Handed Combat Mastery (45481) */
+     , (0x7C6A90A3, 0x7C6A90BA, '2019-02-10 00:00:00') /* Unarmed Combat Mastery (45482) */
+     , (0x7C6A90A3, 0x7C6A90BB, '2019-02-10 00:00:00') /* Sword Mastery (45471) */
+     , (0x7C6A90A3, 0x7C6A90BC, '2019-02-10 00:00:00') /* Apprentice Alchemist (28182) */
+     , (0x7C6A90A3, 0x7C6A90BD, '2019-02-10 00:00:00') /* Umbral Guard (43862) */
+     , (0x7C6A90A3, 0x7C6A90BE, '2019-02-10 00:00:00') /* Umbral Guard (43862) */
+     , (0x7C6A90A3, 0x7C6A90BF, '2019-02-10 00:00:00') /* Royal Guard (43009) */
+     , (0x7C6A90A3, 0x7C6A90C0, '2019-02-10 00:00:00') /* Royal Guard (43010) */
+     , (0x7C6A90A3, 0x7C6A90C1, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7C6A90A3, 0x7C6A90C2, '2019-02-10 00:00:00') /* Anasha (22934) */
+     , (0x7C6A90A3, 0x7C6A90C3, '2019-02-10 00:00:00') /* Staves Mastery (45479) */
+     , (0x7C6A90A3, 0x7C6A90C4, '2019-02-10 00:00:00') /* Spears Mastery (45478) */
+     , (0x7C6A90A3, 0x7C6A90C5, '2019-02-10 00:00:00') /* Translator Aun Laokhe (27117) */
+     , (0x7C6A90A3, 0x7C6A90C6, '2019-02-10 00:00:00') /* Mace Mastery (45476) */
+     , (0x7C6A90A3, 0x7C6A90C7, '2019-02-10 00:00:00') /* Dagger Mastery (45475) */
+     , (0x7C6A90A3, 0x7C6A90C8, '2019-02-10 00:00:00') /* Axe Mastery (45472) */
+     , (0x7C6A90A3, 0x7C6A90C9, '2019-02-10 00:00:00') /* John (51962) */
+     , (0x7C6A90A3, 0x7C6A90CA, '2019-02-10 00:00:00') /* Royal Guard (43007) */
+     , (0x7C6A90A3, 0x7C6A90CB, '2019-02-10 00:00:00') /* Royal Guard (43008) */
+     , (0x7C6A90A3, 0x7C6A90CC, '2019-02-10 00:00:00') /* Varinia (52139) */
+     , (0x7C6A90A3, 0x7C6A90CD, '2019-02-10 00:00:00') /* Monroe (46424) */
+     , (0x7C6A90A3, 0x7C6A90CE, '2019-02-10 00:00:00') /* Jacob Durstan (31364) */
+     , (0x7C6A90A3, 0x7C6A90CF, '2019-02-10 00:00:00') /* Blackmoor's Page (46776) */
+     , (0x7C6A90A3, 0x7C6A90D0, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D1, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D2, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D3, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D4, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D5, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D6, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D7, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D8, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90D9, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DA, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DB, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DC, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DD, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DE, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90DF, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E0, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E1, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E2, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E3, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E4, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E5, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E6, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E7, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E8, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90E9, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90EA, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90EB, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90EC, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90ED, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90EE, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90EF, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F0, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F1, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F2, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F3, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F4, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F5, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F6, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F7, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F8, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90F9, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FA, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FB, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FC, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FD, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FE, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A90FF, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9100, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9101, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9102, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9103, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9104, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9105, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9106, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9107, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9108, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9109, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910A, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910B, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910C, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910D, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910E, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A910F, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9110, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9111, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9112, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9113, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9114, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9115, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9116, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9117, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7C6A90A3, 0x7C6A9118, '2019-02-10 00:00:00') /* Town Crier (5773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A90A4, 28968, 0xC6A90109, 70.1037, 31.2587, 42.005, -0.8902429, 0, 0, -0.455486,  True, '2019-02-10 00:00:00'); /* Guard Audrey */
@@ -912,1605 +912,1605 @@ VALUES (0x7C6A9119,  1542, 0xC6A9015E, 36.69109, 55.46146, 45, -0.5230592, 0, 0,
 /* @teleloc 0xC6A9015E [36.691090 55.461460 45.000000] -0.523059 0.000000 0.000000 -0.852296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6A9119, 0x7C6A911A, '2019-02-10 00:00:00') /* Orb */
-     , (0x7C6A9119, 0x7C6A911B, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A911C, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A911D, '2019-02-10 00:00:00') /* Leather Vest */
-     , (0x7C6A9119, 0x7C6A911E, '2019-02-10 00:00:00') /* Olthoi Greaves */
-     , (0x7C6A9119, 0x7C6A911F, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9120, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9121, '2019-02-10 00:00:00') /* Studded Leather Cuirass */
-     , (0x7C6A9119, 0x7C6A9122, '2019-02-10 00:00:00') /* Training Atlatl */
-     , (0x7C6A9119, 0x7C6A9123, '2019-02-10 00:00:00') /* Training Tungi */
-     , (0x7C6A9119, 0x7C6A9124, '2019-02-10 00:00:00') /* Ust */
-     , (0x7C6A9119, 0x7C6A9125, '2019-02-10 00:00:00') /* Facility Hub Portal Gem */
-     , (0x7C6A9119, 0x7C6A9126, '2019-02-10 00:00:00') /* Academy Coat */
-     , (0x7C6A9119, 0x7C6A9127, '2019-02-10 00:00:00') /* Handy Healing Kit */
-     , (0x7C6A9119, 0x7C6A9128, '2019-02-10 00:00:00') /* Crude Lockpick */
-     , (0x7C6A9119, 0x7C6A9129, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A912A, '2019-02-10 00:00:00') /* Circlet */
-     , (0x7C6A9119, 0x7C6A912B, '2019-02-10 00:00:00') /* Coronet */
-     , (0x7C6A9119, 0x7C6A912C, '2019-02-10 00:00:00') /* Signet Crown */
-     , (0x7C6A9119, 0x7C6A912D, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A912E, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A912F, '2019-02-10 00:00:00') /* Wand */
-     , (0x7C6A9119, 0x7C6A9130, '2019-02-10 00:00:00') /* Orb */
-     , (0x7C6A9119, 0x7C6A9131, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9132, '2019-02-10 00:00:00') /* Staff */
-     , (0x7C6A9119, 0x7C6A9133, '2019-02-10 00:00:00') /* Piercing Atlatl */
-     , (0x7C6A9119, 0x7C6A9134, '2019-02-10 00:00:00') /* Flaming Claw */
-     , (0x7C6A9119, 0x7C6A9135, '2019-02-10 00:00:00') /* Fire Atlatl */
-     , (0x7C6A9119, 0x7C6A9136, '2019-02-10 00:00:00') /* Fire Slingshot */
-     , (0x7C6A9119, 0x7C6A9137, '2019-02-10 00:00:00') /* Fire Crossbow */
-     , (0x7C6A9119, 0x7C6A9138, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9139, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A913A, '2019-02-10 00:00:00') /* Haebrean Pauldrons */
-     , (0x7C6A9119, 0x7C6A913B, '2019-02-10 00:00:00') /* Platemail Hauberk */
-     , (0x7C6A9119, 0x7C6A913C, '2019-02-10 00:00:00') /* Alduressa Coat */
-     , (0x7C6A9119, 0x7C6A913D, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A913E, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A913F, '2019-02-10 00:00:00') /* Goggles */
-     , (0x7C6A9119, 0x7C6A9140, '2019-02-10 00:00:00') /* Covenant Shield */
-     , (0x7C6A9119, 0x7C6A9141, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9142, '2019-02-10 00:00:00') /* Covenant Tassets */
-     , (0x7C6A9119, 0x7C6A9143, '2019-02-10 00:00:00') /* Salvager's Helm */
-     , (0x7C6A9119, 0x7C6A9144, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9145, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9146, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9147, '2019-02-10 00:00:00') /* Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A9148, '2019-02-10 00:00:00') /* Haebrean Breastplate */
-     , (0x7C6A9119, 0x7C6A9149, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A914A, '2019-02-10 00:00:00') /* Acid Long Sword */
-     , (0x7C6A9119, 0x7C6A914B, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A914C, '2019-02-10 00:00:00') /* Stormwood Sword */
-     , (0x7C6A9119, 0x7C6A914D, '2019-02-10 00:00:00') /* Flaming Long Sword */
-     , (0x7C6A9119, 0x7C6A914E, '2019-02-10 00:00:00') /* Frost Ken */
-     , (0x7C6A9119, 0x7C6A914F, '2019-02-10 00:00:00') /* Tachi */
-     , (0x7C6A9119, 0x7C6A9150, '2019-02-10 00:00:00') /* Long Sword */
-     , (0x7C6A9119, 0x7C6A9151, '2019-02-10 00:00:00') /* Flaming Ken */
-     , (0x7C6A9119, 0x7C6A9152, '2019-02-10 00:00:00') /* Lightning Tachi */
-     , (0x7C6A9119, 0x7C6A9153, '2019-02-10 00:00:00') /* Flaming Flamberge */
-     , (0x7C6A9119, 0x7C6A9154, '2019-02-10 00:00:00') /* Flaming Dericost Blade */
-     , (0x7C6A9119, 0x7C6A9155, '2019-02-10 00:00:00') /* Schlager */
-     , (0x7C6A9119, 0x7C6A9156, '2019-02-10 00:00:00') /* Frost Long Sword */
-     , (0x7C6A9119, 0x7C6A9157, '2019-02-10 00:00:00') /* Flaming Tachi */
-     , (0x7C6A9119, 0x7C6A9158, '2019-02-10 00:00:00') /* Flaming Shamshir */
-     , (0x7C6A9119, 0x7C6A9159, '2019-02-10 00:00:00') /* Ken */
-     , (0x7C6A9119, 0x7C6A915A, '2019-02-10 00:00:00') /* Takuba */
-     , (0x7C6A9119, 0x7C6A915B, '2019-02-10 00:00:00') /* Flamberge */
-     , (0x7C6A9119, 0x7C6A915C, '2019-02-10 00:00:00') /* Frost Takuba */
-     , (0x7C6A9119, 0x7C6A915D, '2019-02-10 00:00:00') /* Lightning Schlager */
-     , (0x7C6A9119, 0x7C6A915E, '2019-02-10 00:00:00') /* Font of Jojii */
-     , (0x7C6A9119, 0x7C6A915F, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9160, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9161, '2019-02-10 00:00:00') /* Lorica Helm */
-     , (0x7C6A9119, 0x7C6A9162, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9163, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9164, '2019-02-10 00:00:00') /* Deceiver's Crystal */
-     , (0x7C6A9119, 0x7C6A9165, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A9166, '2019-02-10 00:00:00') /* Battle Axe */
-     , (0x7C6A9119, 0x7C6A9167, '2019-02-10 00:00:00') /* Scroll of Imperil Other VI */
-     , (0x7C6A9119, 0x7C6A9168, '2019-02-10 00:00:00') /* Quadruple-bladed Axe */
-     , (0x7C6A9119, 0x7C6A9169, '2019-02-10 00:00:00') /* War Hammer */
-     , (0x7C6A9119, 0x7C6A916A, '2019-02-10 00:00:00') /* War Hammer */
-     , (0x7C6A9119, 0x7C6A916B, '2019-02-10 00:00:00') /* Aura of Hermetic Link Self VI */
-     , (0x7C6A9119, 0x7C6A916C, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x7C6A9119, 0x7C6A916D, '2019-02-10 00:00:00') /* Hyssop */
-     , (0x7C6A9119, 0x7C6A916E, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A916F, '2019-02-10 00:00:00') /* Dericost Blade */
-     , (0x7C6A9119, 0x7C6A9170, '2019-02-10 00:00:00') /* Qafiya */
-     , (0x7C6A9119, 0x7C6A9171, '2019-02-10 00:00:00') /* Morning Star */
-     , (0x7C6A9119, 0x7C6A9172, '2019-02-10 00:00:00') /* Treated Healing Kit */
-     , (0x7C6A9119, 0x7C6A9173, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9174, '2019-02-10 00:00:00') /* Acid Olthoi Axe */
-     , (0x7C6A9119, 0x7C6A9175, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9176, '2019-02-10 00:00:00') /* Robe of the Tundra */
-     , (0x7C6A9119, 0x7C6A9177, '2019-02-10 00:00:00') /* Tachi */
-     , (0x7C6A9119, 0x7C6A9178, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A9179, '2019-02-10 00:00:00') /* Yoroi Breastplate */
-     , (0x7C6A9119, 0x7C6A917A, '2019-02-10 00:00:00') /* Experience Certificate */
-     , (0x7C6A9119, 0x7C6A917B, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A917C, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A917D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A917E, '2019-02-10 00:00:00') /* Hero Token */
-     , (0x7C6A9119, 0x7C6A917F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9180, '2019-02-10 00:00:00') /* An Ancient Masonry on Aerlinthe */
-     , (0x7C6A9119, 0x7C6A9181, '2019-02-10 00:00:00') /* Frost Sceptre */
-     , (0x7C6A9119, 0x7C6A9182, '2019-02-10 00:00:00') /* Gem of Knowledge */
-     , (0x7C6A9119, 0x7C6A9183, '2019-02-10 00:00:00') /* Greater Gem of Knowledge */
-     , (0x7C6A9119, 0x7C6A9184, '2019-02-10 00:00:00') /* Ink of Objectification */
-     , (0x7C6A9119, 0x7C6A9185, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7C6A9119, 0x7C6A9186, '2019-02-10 00:00:00') /* Stamina Tincture */
-     , (0x7C6A9119, 0x7C6A9187, '2019-02-10 00:00:00') /* Spirit of Aun Tanua */
-     , (0x7C6A9119, 0x7C6A9188, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A9189, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A918A, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A918B, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A918C, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A918D, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A918E, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A918F, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A9190, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9191, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9192, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9193, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9194, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9195, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A9196, '2019-02-10 00:00:00') /* Greater Mana Stone */
-     , (0x7C6A9119, 0x7C6A9197, '2019-02-10 00:00:00') /* Asheron's Second Missive */
-     , (0x7C6A9119, 0x7C6A9198, '2019-02-10 00:00:00') /* Festivus Rug */
-     , (0x7C6A9119, 0x7C6A9199, '2019-02-10 00:00:00') /* Virindi Mask */
-     , (0x7C6A9119, 0x7C6A919A, '2019-02-10 00:00:00') /* Superior Helmet */
-     , (0x7C6A9119, 0x7C6A919B, '2019-02-10 00:00:00') /* Quintessence Sickle */
-     , (0x7C6A9119, 0x7C6A919C, '2019-02-10 00:00:00') /* Virindi Mask */
-     , (0x7C6A9119, 0x7C6A919D, '2019-02-10 00:00:00') /* Osseous Mace */
-     , (0x7C6A9119, 0x7C6A919E, '2019-02-10 00:00:00') /* Burnja's Board with Nails */
-     , (0x7C6A9119, 0x7C6A919F, '2019-02-10 00:00:00') /* Pack Bael'Zharon */
-     , (0x7C6A9119, 0x7C6A91A0, '2019-02-10 00:00:00') /* Pack Martine */
-     , (0x7C6A9119, 0x7C6A91A1, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x7C6A9119, 0x7C6A91A2, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen */
-     , (0x7C6A9119, 0x7C6A91A3, '2019-02-10 00:00:00') /* Pack Burun Kukuur */
-     , (0x7C6A9119, 0x7C6A91A4, '2019-02-10 00:00:00') /* Pack Bael'Zharon */
-     , (0x7C6A9119, 0x7C6A91A5, '2019-02-10 00:00:00') /* Virindi Profatrix Mask */
-     , (0x7C6A9119, 0x7C6A91A6, '2019-02-10 00:00:00') /* Lightning Lugian Hammer */
-     , (0x7C6A9119, 0x7C6A91A7, '2019-02-10 00:00:00') /* Staff */
-     , (0x7C6A9119, 0x7C6A91A8, '2019-02-10 00:00:00') /* Olthoi Greaves */
-     , (0x7C6A9119, 0x7C6A91A9, '2019-02-10 00:00:00') /* Baggy Tunic */
-     , (0x7C6A9119, 0x7C6A91AA, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A91AB, '2019-02-10 00:00:00') /* Fire Staff */
-     , (0x7C6A9119, 0x7C6A91AC, '2019-02-10 00:00:00') /* Piercing Staff */
-     , (0x7C6A9119, 0x7C6A91AD, '2019-02-10 00:00:00') /* Covenant Breastplate */
-     , (0x7C6A9119, 0x7C6A91AE, '2019-02-10 00:00:00') /* Chiran Helm */
-     , (0x7C6A9119, 0x7C6A91AF, '2019-02-10 00:00:00') /* Studded Leather Tassets */
-     , (0x7C6A9119, 0x7C6A91B0, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7C6A9119, 0x7C6A91B1, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A91B2, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A91B3, '2019-02-10 00:00:00') /* Olthoi Amuli Helm */
-     , (0x7C6A9119, 0x7C6A91B4, '2019-02-10 00:00:00') /* Coronet */
-     , (0x7C6A9119, 0x7C6A91B5, '2019-02-10 00:00:00') /* Flaming Jitte */
-     , (0x7C6A9119, 0x7C6A91B6, '2019-02-10 00:00:00') /* Frost Atlatl */
-     , (0x7C6A9119, 0x7C6A91B7, '2019-02-10 00:00:00') /* Yaoji */
-     , (0x7C6A9119, 0x7C6A91B8, '2019-02-10 00:00:00') /* Lightning Poniard */
-     , (0x7C6A9119, 0x7C6A91B9, '2019-02-10 00:00:00') /* Alduressa Boots */
-     , (0x7C6A9119, 0x7C6A91BA, '2019-02-10 00:00:00') /* Morning Star */
-     , (0x7C6A9119, 0x7C6A91BB, '2019-02-10 00:00:00') /* Acid Jo */
-     , (0x7C6A9119, 0x7C6A91BC, '2019-02-10 00:00:00') /* Tenassa Sleeves */
-     , (0x7C6A9119, 0x7C6A91BD, '2019-02-10 00:00:00') /* Dagger */
-     , (0x7C6A9119, 0x7C6A91BE, '2019-02-10 00:00:00') /* Hood */
-     , (0x7C6A9119, 0x7C6A91BF, '2019-02-10 00:00:00') /* Fire Trident */
-     , (0x7C6A9119, 0x7C6A91C0, '2019-02-10 00:00:00') /* Blunt Compound Bow */
-     , (0x7C6A9119, 0x7C6A91C1, '2019-02-10 00:00:00') /* Koujia Breastplate */
-     , (0x7C6A9119, 0x7C6A91C2, '2019-02-10 00:00:00') /* Hefty Walking Cane */
-     , (0x7C6A9119, 0x7C6A91C3, '2019-02-10 00:00:00') /* Chainmail Leggings */
-     , (0x7C6A9119, 0x7C6A91C4, '2019-02-10 00:00:00') /* Trident */
-     , (0x7C6A9119, 0x7C6A91C5, '2019-02-10 00:00:00') /* Sedgemail Leather Vest */
-     , (0x7C6A9119, 0x7C6A91C6, '2019-02-10 00:00:00') /* Chainmail Leggings */
-     , (0x7C6A9119, 0x7C6A91C7, '2019-02-10 00:00:00') /* Mutated Olthoi Gland */
-     , (0x7C6A9119, 0x7C6A91C8, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91C9, '2019-02-10 00:00:00') /* Acid Bow */
-     , (0x7C6A9119, 0x7C6A91CA, '2019-02-10 00:00:00') /* Bone Bow */
-     , (0x7C6A9119, 0x7C6A91CB, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A91CC, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A91CD, '2019-02-10 00:00:00') /* Gorget */
-     , (0x7C6A9119, 0x7C6A91CE, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A91CF, '2019-02-10 00:00:00') /* Acid Compound Crossbow */
-     , (0x7C6A9119, 0x7C6A91D0, '2019-02-10 00:00:00') /* Acid Baton */
-     , (0x7C6A9119, 0x7C6A91D1, '2019-02-10 00:00:00') /* Acid Board with Nail */
-     , (0x7C6A9119, 0x7C6A91D2, '2019-02-10 00:00:00') /* Electric Board with Nail */
-     , (0x7C6A9119, 0x7C6A91D3, '2019-02-10 00:00:00') /* Loafers */
-     , (0x7C6A9119, 0x7C6A91D4, '2019-02-10 00:00:00') /* Piercing Bow */
-     , (0x7C6A9119, 0x7C6A91D5, '2019-02-10 00:00:00') /* Top */
-     , (0x7C6A9119, 0x7C6A91D6, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A91D7, '2019-02-10 00:00:00') /* Acid Compound Bow */
-     , (0x7C6A9119, 0x7C6A91D8, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A91D9, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6A9119, 0x7C6A91DA, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A91DB, '2019-02-10 00:00:00') /* Baggy Shirt */
-     , (0x7C6A9119, 0x7C6A91DC, '2019-02-10 00:00:00') /* Compass */
-     , (0x7C6A9119, 0x7C6A91DD, '2019-02-10 00:00:00') /* Slashing Compound Bow */
-     , (0x7C6A9119, 0x7C6A91DE, '2019-02-10 00:00:00') /* Lancet */
-     , (0x7C6A9119, 0x7C6A91DF, '2019-02-10 00:00:00') /* Knife */
-     , (0x7C6A9119, 0x7C6A91E0, '2019-02-10 00:00:00') /* Fire Staff */
-     , (0x7C6A9119, 0x7C6A91E1, '2019-02-10 00:00:00') /* Ice Wand */
-     , (0x7C6A9119, 0x7C6A91E2, '2019-02-10 00:00:00') /* Frost Sceptre */
-     , (0x7C6A9119, 0x7C6A91E3, '2019-02-10 00:00:00') /* Ink of Formation */
-     , (0x7C6A9119, 0x7C6A91E4, '2019-02-10 00:00:00') /* Glyph of Self */
-     , (0x7C6A9119, 0x7C6A91E5, '2019-02-10 00:00:00') /* Hammer */
-     , (0x7C6A9119, 0x7C6A91E6, '2019-02-10 00:00:00') /* High-Stakes Gambling Token */
-     , (0x7C6A9119, 0x7C6A91E7, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A91E8, '2019-02-10 00:00:00') /* Platemail Hauberk */
-     , (0x7C6A9119, 0x7C6A91E9, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A91EA, '2019-02-10 00:00:00') /* Flaming Great Star Mace */
-     , (0x7C6A9119, 0x7C6A91EB, '2019-02-10 00:00:00') /* Frost Stick */
-     , (0x7C6A9119, 0x7C6A91EC, '2019-02-10 00:00:00') /* Lancet */
-     , (0x7C6A9119, 0x7C6A91ED, '2019-02-10 00:00:00') /* Lightning Claw */
-     , (0x7C6A9119, 0x7C6A91EE, '2019-02-10 00:00:00') /* Short Sword */
-     , (0x7C6A9119, 0x7C6A91EF, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91F0, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A91F1, '2019-02-10 00:00:00') /* Intricate Obsidian Key */
-     , (0x7C6A9119, 0x7C6A91F2, '2019-02-10 00:00:00') /* Scroll of Archer's Gift */
-     , (0x7C6A9119, 0x7C6A91F3, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x7C6A9119, 0x7C6A91F4, '2019-02-10 00:00:00') /* T'ing's Crystal */
-     , (0x7C6A9119, 0x7C6A91F5, '2019-02-10 00:00:00') /* Salvage */
-     , (0x7C6A9119, 0x7C6A91F6, '2019-02-10 00:00:00') /* Diamond Powder */
-     , (0x7C6A9119, 0x7C6A91F7, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91F8, '2019-02-10 00:00:00') /* Hunter's Stock Amber */
-     , (0x7C6A9119, 0x7C6A91F9, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91FA, '2019-02-10 00:00:00') /* Bobo's Stout */
-     , (0x7C6A9119, 0x7C6A91FB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91FC, '2019-02-10 00:00:00') /* Tusker Spit Ale */
-     , (0x7C6A9119, 0x7C6A91FD, '2019-02-10 00:00:00') /* Duke Raoul's Distillation */
-     , (0x7C6A9119, 0x7C6A91FE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A91FF, '2019-02-10 00:00:00') /* Dark Sliver */
-     , (0x7C6A9119, 0x7C6A9200, '2019-02-10 00:00:00') /* Swamp Stone */
-     , (0x7C6A9119, 0x7C6A9201, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A9202, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9203, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9204, '2019-02-10 00:00:00') /* Copper Scarab */
-     , (0x7C6A9119, 0x7C6A9205, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A9206, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7C6A9119, 0x7C6A9207, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A9208, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A9209, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A920A, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A920B, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A920C, '2019-02-10 00:00:00') /* Frost Greataxe */
-     , (0x7C6A9119, 0x7C6A920D, '2019-02-10 00:00:00') /* Flaming Dagger */
-     , (0x7C6A9119, 0x7C6A920E, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A920F, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A9210, '2019-02-10 00:00:00') /* Cowl */
-     , (0x7C6A9119, 0x7C6A9211, '2019-02-10 00:00:00') /* Lugian Hammer */
-     , (0x7C6A9119, 0x7C6A9212, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9213, '2019-02-10 00:00:00') /* Lightning Greataxe */
-     , (0x7C6A9119, 0x7C6A9214, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x7C6A9119, 0x7C6A9215, '2019-02-10 00:00:00') /* Leather Pauldrons */
-     , (0x7C6A9119, 0x7C6A9216, '2019-02-10 00:00:00') /* Bordered Cloak */
-     , (0x7C6A9119, 0x7C6A9217, '2019-02-10 00:00:00') /* Acid Tetsubo */
-     , (0x7C6A9119, 0x7C6A9218, '2019-02-10 00:00:00') /* Flaming Dagger */
-     , (0x7C6A9119, 0x7C6A9219, '2019-02-10 00:00:00') /* Frost Pike */
-     , (0x7C6A9119, 0x7C6A921A, '2019-02-10 00:00:00') /* Lorica Helm */
-     , (0x7C6A9119, 0x7C6A921B, '2019-02-10 00:00:00') /* Spine Glaive */
-     , (0x7C6A9119, 0x7C6A921C, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A921D, '2019-02-10 00:00:00') /* Olthoi Bracers */
-     , (0x7C6A9119, 0x7C6A921E, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A921F, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C6A9119, 0x7C6A9220, '2019-02-10 00:00:00') /* Diforsa Pauldrons */
-     , (0x7C6A9119, 0x7C6A9221, '2019-02-10 00:00:00') /* Chainmail Shirt */
-     , (0x7C6A9119, 0x7C6A9222, '2019-02-10 00:00:00') /* Yoroi Pauldrons */
-     , (0x7C6A9119, 0x7C6A9223, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9224, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A9225, '2019-02-10 00:00:00') /* Pike */
-     , (0x7C6A9119, 0x7C6A9226, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A9227, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7C6A9119, 0x7C6A9228, '2019-02-10 00:00:00') /* Frost Jo */
-     , (0x7C6A9119, 0x7C6A9229, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A922A, '2019-02-10 00:00:00') /* Cloak */
-     , (0x7C6A9119, 0x7C6A922B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A922C, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A922D, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A922E, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A922F, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A9230, '2019-02-10 00:00:00') /* Covenant Tassets */
-     , (0x7C6A9119, 0x7C6A9231, '2019-02-10 00:00:00') /* Olthoi Greaves */
-     , (0x7C6A9119, 0x7C6A9232, '2019-02-10 00:00:00') /* Stamina Philtre */
-     , (0x7C6A9119, 0x7C6A9233, '2019-02-10 00:00:00') /* Covenant Shield */
-     , (0x7C6A9119, 0x7C6A9234, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A9235, '2019-02-10 00:00:00') /* Khanjar */
-     , (0x7C6A9119, 0x7C6A9236, '2019-02-10 00:00:00') /* Covenant Girth */
-     , (0x7C6A9119, 0x7C6A9237, '2019-02-10 00:00:00') /* Olthoi Girth */
-     , (0x7C6A9119, 0x7C6A9238, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A9239, '2019-02-10 00:00:00') /* Sedgemail Leather Vest */
-     , (0x7C6A9119, 0x7C6A923A, '2019-02-10 00:00:00') /* Sedgemail Leather Pants */
-     , (0x7C6A9119, 0x7C6A923B, '2019-02-10 00:00:00') /* Olthoi Bracers */
-     , (0x7C6A9119, 0x7C6A923C, '2019-02-10 00:00:00') /* Covenant Sollerets */
-     , (0x7C6A9119, 0x7C6A923D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A923E, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7C6A9119, 0x7C6A923F, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9240, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A9241, '2019-02-10 00:00:00') /* Lightning Hand Wraps */
-     , (0x7C6A9119, 0x7C6A9242, '2019-02-10 00:00:00') /* Acid Quarter Staff */
-     , (0x7C6A9119, 0x7C6A9243, '2019-02-10 00:00:00') /* Acid Atlatl */
-     , (0x7C6A9119, 0x7C6A9244, '2019-02-10 00:00:00') /* Electric Naginata */
-     , (0x7C6A9119, 0x7C6A9245, '2019-02-10 00:00:00') /* Tenassa Breastplate */
-     , (0x7C6A9119, 0x7C6A9246, '2019-02-10 00:00:00') /* Diforsa Tassets */
-     , (0x7C6A9119, 0x7C6A9247, '2019-02-10 00:00:00') /* Chainmail Shirt */
-     , (0x7C6A9119, 0x7C6A9248, '2019-02-10 00:00:00') /* White Bunny Slippers */
-     , (0x7C6A9119, 0x7C6A9249, '2019-02-10 00:00:00') /* Haebrean Gauntlets */
-     , (0x7C6A9119, 0x7C6A924A, '2019-02-10 00:00:00') /* Koujia Leggings */
-     , (0x7C6A9119, 0x7C6A924B, '2019-02-10 00:00:00') /* Chainmail Basinet */
-     , (0x7C6A9119, 0x7C6A924C, '2019-02-10 00:00:00') /* Lorica Gauntlets */
-     , (0x7C6A9119, 0x7C6A924D, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A924E, '2019-02-10 00:00:00') /* White Bunny Slippers */
-     , (0x7C6A9119, 0x7C6A924F, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A9250, '2019-02-10 00:00:00') /* Olthoi Bracers */
-     , (0x7C6A9119, 0x7C6A9251, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A9252, '2019-02-10 00:00:00') /* Olthoi Breastplate */
-     , (0x7C6A9119, 0x7C6A9253, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets */
-     , (0x7C6A9119, 0x7C6A9254, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets */
-     , (0x7C6A9119, 0x7C6A9255, '2019-02-10 00:00:00') /* Olthoi Greaves */
-     , (0x7C6A9119, 0x7C6A9256, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x7C6A9119, 0x7C6A9257, '2019-02-10 00:00:00') /* Scalemail Gauntlets */
-     , (0x7C6A9119, 0x7C6A9258, '2019-02-10 00:00:00') /* Frost Claw */
-     , (0x7C6A9119, 0x7C6A9259, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A925A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A925B, '2019-02-10 00:00:00') /* Small Belt Pouch */
-     , (0x7C6A9119, 0x7C6A925C, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x7C6A9119, 0x7C6A925D, '2019-02-10 00:00:00') /* Gold Shallows Shredder Fin */
-     , (0x7C6A9119, 0x7C6A925E, '2019-02-10 00:00:00') /* Gold Moarsman Tooth */
-     , (0x7C6A9119, 0x7C6A925F, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Staff (Level 180+) */
-     , (0x7C6A9119, 0x7C6A9260, '2019-02-10 00:00:00') /* Life Giver's Crystal */
-     , (0x7C6A9119, 0x7C6A9261, '2019-02-10 00:00:00') /* Tinker's Crystal */
-     , (0x7C6A9119, 0x7C6A9262, '2019-02-10 00:00:00') /* Evader's Crystal */
-     , (0x7C6A9119, 0x7C6A9263, '2019-02-10 00:00:00') /* T'ing's Crystal */
-     , (0x7C6A9119, 0x7C6A9264, '2019-02-10 00:00:00') /* Ben Ten's Crystal */
-     , (0x7C6A9119, 0x7C6A9265, '2019-02-10 00:00:00') /* Tinker's Crystal */
-     , (0x7C6A9119, 0x7C6A9266, '2019-02-10 00:00:00') /* Letter From Home */
-     , (0x7C6A9119, 0x7C6A9267, '2019-02-10 00:00:00') /* Electric Bow */
-     , (0x7C6A9119, 0x7C6A9268, '2019-02-10 00:00:00') /* A Call To Arms */
-     , (0x7C6A9119, 0x7C6A9269, '2019-02-10 00:00:00') /* A Call To Arms */
-     , (0x7C6A9119, 0x7C6A926A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A926B, '2019-02-10 00:00:00') /* Diadem */
-     , (0x7C6A9119, 0x7C6A926C, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A926D, '2019-02-10 00:00:00') /* Dark Shard */
-     , (0x7C6A9119, 0x7C6A926E, '2019-02-10 00:00:00') /* Salvage (39) */
-     , (0x7C6A9119, 0x7C6A926F, '2019-02-10 00:00:00') /* Dereth Map */
-     , (0x7C6A9119, 0x7C6A9270, '2019-02-10 00:00:00') /* Oxidized Statue */
-     , (0x7C6A9119, 0x7C6A9271, '2019-02-10 00:00:00') /* Dho Vest and Over-Robe */
-     , (0x7C6A9119, 0x7C6A9272, '2019-02-10 00:00:00') /* Bending Willow and Setting Sun */
-     , (0x7C6A9119, 0x7C6A9273, '2019-02-10 00:00:00') /* Into the Unknown */
-     , (0x7C6A9119, 0x7C6A9274, '2019-02-10 00:00:00') /* Map of Auberean */
-     , (0x7C6A9119, 0x7C6A9275, '2019-02-10 00:00:00') /* The Studious Mind */
-     , (0x7C6A9119, 0x7C6A9276, '2019-02-10 00:00:00') /* Falling Leaves */
-     , (0x7C6A9119, 0x7C6A9277, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x7C6A9119, 0x7C6A9278, '2019-02-10 00:00:00') /* Modified Iasparailaun */
-     , (0x7C6A9119, 0x7C6A9279, '2019-02-10 00:00:00') /* Renegade Herbal Kit */
-     , (0x7C6A9119, 0x7C6A927A, '2019-02-10 00:00:00') /* Rare Red Pack Idol */
-     , (0x7C6A9119, 0x7C6A927B, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A927C, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A927D, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A927E, '2019-02-10 00:00:00') /* Abominable Pack Snowman */
-     , (0x7C6A9119, 0x7C6A927F, '2019-02-10 00:00:00') /* A Horn of Vigilance */
-     , (0x7C6A9119, 0x7C6A9280, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7C6A9119, 0x7C6A9281, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A9282, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7C6A9119, 0x7C6A9283, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7C6A9119, 0x7C6A9284, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A9285, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7C6A9119, 0x7C6A9286, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7C6A9119, 0x7C6A9287, '2019-02-10 00:00:00') /* Vaulter's Crystal */
-     , (0x7C6A9119, 0x7C6A9288, '2019-02-10 00:00:00') /* Life Giver's Crystal */
-     , (0x7C6A9119, 0x7C6A9289, '2019-02-10 00:00:00') /* Ice Badge */
-     , (0x7C6A9119, 0x7C6A928A, '2019-02-10 00:00:00') /* Dark Speck */
-     , (0x7C6A9119, 0x7C6A928B, '2019-02-10 00:00:00') /* Silver Pea */
-     , (0x7C6A9119, 0x7C6A928C, '2019-02-10 00:00:00') /* Salvage (87) */
-     , (0x7C6A9119, 0x7C6A928D, '2019-02-10 00:00:00') /* Salvaged  (54) */
-     , (0x7C6A9119, 0x7C6A928E, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A928F, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9290, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A9291, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9292, '2019-02-10 00:00:00') /* Lesser Corrupted Essence */
-     , (0x7C6A9119, 0x7C6A9293, '2019-02-10 00:00:00') /* Alacritous Ink */
-     , (0x7C6A9119, 0x7C6A9294, '2019-02-10 00:00:00') /* Ink of Objectification */
-     , (0x7C6A9119, 0x7C6A9295, '2019-02-10 00:00:00') /* Ink of Conveyance */
-     , (0x7C6A9119, 0x7C6A9296, '2019-02-10 00:00:00') /* Ink of Formation */
-     , (0x7C6A9119, 0x7C6A9297, '2019-02-10 00:00:00') /* Quill of Infliction */
-     , (0x7C6A9119, 0x7C6A9298, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9299, '2019-02-10 00:00:00') /* Glyph of Corrosion */
-     , (0x7C6A9119, 0x7C6A929A, '2019-02-10 00:00:00') /* Glyph of Bludgeoning */
-     , (0x7C6A9119, 0x7C6A929B, '2019-02-10 00:00:00') /* Glyph of Missile Weapons */
-     , (0x7C6A9119, 0x7C6A929C, '2019-02-10 00:00:00') /* Blunt Compound Bow */
-     , (0x7C6A9119, 0x7C6A929D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A929E, '2019-02-10 00:00:00') /* Scroll of Void Magic Ineptitude Other VII */
-     , (0x7C6A9119, 0x7C6A929F, '2019-02-10 00:00:00') /* Quadrelle */
-     , (0x7C6A9119, 0x7C6A92A0, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A92A1, '2019-02-10 00:00:00') /* Glyph of Bludgeoning */
-     , (0x7C6A9119, 0x7C6A92A2, '2019-02-10 00:00:00') /* Glyph of Lightning */
-     , (0x7C6A9119, 0x7C6A92A3, '2019-02-10 00:00:00') /* Platemail Cuirass */
-     , (0x7C6A9119, 0x7C6A92A4, '2019-02-10 00:00:00') /* Ink of Formation */
-     , (0x7C6A9119, 0x7C6A92A5, '2019-02-10 00:00:00') /* Yoroi Leggings */
-     , (0x7C6A9119, 0x7C6A92A6, '2019-02-10 00:00:00') /* Glyph of Piercing */
-     , (0x7C6A9119, 0x7C6A92A7, '2019-02-10 00:00:00') /* Glyph of Slashing */
-     , (0x7C6A9119, 0x7C6A92A8, '2019-02-10 00:00:00') /* Glyph of Armor */
-     , (0x7C6A9119, 0x7C6A92A9, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A92AA, '2019-02-10 00:00:00') /* Glyph of Flame */
-     , (0x7C6A9119, 0x7C6A92AB, '2019-02-10 00:00:00') /* Slashing Bow */
-     , (0x7C6A9119, 0x7C6A92AC, '2019-02-10 00:00:00') /* Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A92AD, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A92AE, '2019-02-10 00:00:00') /* Priceless Ore */
-     , (0x7C6A9119, 0x7C6A92AF, '2019-02-10 00:00:00') /* Cave Penguin Cake */
-     , (0x7C6A9119, 0x7C6A92B0, '2019-02-10 00:00:00') /* Stout Lugian Ale */
-     , (0x7C6A9119, 0x7C6A92B1, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7C6A9119, 0x7C6A92B2, '2019-02-10 00:00:00') /* Potion of Black Fire */
-     , (0x7C6A9119, 0x7C6A92B3, '2019-02-10 00:00:00') /* Refreshing Water */
-     , (0x7C6A9119, 0x7C6A92B4, '2019-02-10 00:00:00') /* Candy Corn */
-     , (0x7C6A9119, 0x7C6A92B5, '2019-02-10 00:00:00') /* Hearty Lugian Loaf */
-     , (0x7C6A9119, 0x7C6A92B6, '2019-02-10 00:00:00') /* Trimmed Cloak */
-     , (0x7C6A9119, 0x7C6A92B7, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A92B8, '2019-02-10 00:00:00') /* Cloak */
-     , (0x7C6A9119, 0x7C6A92B9, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A92BA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A92BB, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A92BC, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A92BD, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A92BE, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A92BF, '2019-02-10 00:00:00') /* Leather Breastplate */
-     , (0x7C6A9119, 0x7C6A92C0, '2019-02-10 00:00:00') /* Leather Breastplate */
-     , (0x7C6A9119, 0x7C6A92C1, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A92C2, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7C6A9119, 0x7C6A92C3, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7C6A9119, 0x7C6A92C4, '2019-02-10 00:00:00') /* Hard Boiled Olthoi Egg */
-     , (0x7C6A9119, 0x7C6A92C5, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A92C6, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7C6A9119, 0x7C6A92C7, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7C6A9119, 0x7C6A92C8, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7C6A9119, 0x7C6A92C9, '2019-02-10 00:00:00') /* Wide Breeches */
-     , (0x7C6A9119, 0x7C6A92CA, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7C6A9119, 0x7C6A92CB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A92CC, '2019-02-10 00:00:00') /* Ice Wand */
-     , (0x7C6A9119, 0x7C6A92CD, '2019-02-10 00:00:00') /* Aetherium Vault Key */
-     , (0x7C6A9119, 0x7C6A92CE, '2019-02-10 00:00:00') /* Frost Rapier */
-     , (0x7C6A9119, 0x7C6A92CF, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A92D0, '2019-02-10 00:00:00') /* Katar */
-     , (0x7C6A9119, 0x7C6A92D1, '2019-02-10 00:00:00') /* Flying Machine Instructions */
-     , (0x7C6A9119, 0x7C6A92D2, '2019-02-10 00:00:00') /* Nayin */
-     , (0x7C6A9119, 0x7C6A92D3, '2019-02-10 00:00:00') /* Dirk of the Fallen */
-     , (0x7C6A9119, 0x7C6A92D4, '2019-02-10 00:00:00') /* Superb Lockpick */
-     , (0x7C6A9119, 0x7C6A92D5, '2019-02-10 00:00:00') /* Excellent Lockpick */
-     , (0x7C6A9119, 0x7C6A92D6, '2019-02-10 00:00:00') /* Bundle of Arrowheads */
-     , (0x7C6A9119, 0x7C6A92D7, '2019-02-10 00:00:00') /* Bundle of Arrowshafts */
-     , (0x7C6A9119, 0x7C6A92D8, '2019-02-10 00:00:00') /* Bundle of Quarrelshafts */
-     , (0x7C6A9119, 0x7C6A92D9, '2019-02-10 00:00:00') /* Electric Naginata */
-     , (0x7C6A9119, 0x7C6A92DA, '2019-02-10 00:00:00') /* Studded Leather Sleeves */
-     , (0x7C6A9119, 0x7C6A92DB, '2019-02-10 00:00:00') /* Aerbax's Defeat */
-     , (0x7C6A9119, 0x7C6A92DC, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A92DD, '2019-02-10 00:00:00') /* Scroll of Honed Control */
-     , (0x7C6A9119, 0x7C6A92DE, '2019-02-10 00:00:00') /* Scroll of Tusker's Gift */
-     , (0x7C6A9119, 0x7C6A92DF, '2019-02-10 00:00:00') /* Scroll of Blessing of the Blade Turner */
-     , (0x7C6A9119, 0x7C6A92E0, '2019-02-10 00:00:00') /* Staff */
-     , (0x7C6A9119, 0x7C6A92E1, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A92E2, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A92E3, '2019-02-10 00:00:00') /* Health Elixir */
-     , (0x7C6A9119, 0x7C6A92E4, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x7C6A9119, 0x7C6A92E5, '2019-02-10 00:00:00') /* Diadem */
-     , (0x7C6A9119, 0x7C6A92E6, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A92E7, '2019-02-10 00:00:00') /* Shoyanen's Portal Gem */
-     , (0x7C6A9119, 0x7C6A92E8, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A92E9, '2019-02-10 00:00:00') /* Gold Pea */
-     , (0x7C6A9119, 0x7C6A92EA, '2019-02-10 00:00:00') /* Blueprints for a Burun Fortress */
-     , (0x7C6A9119, 0x7C6A92EB, '2019-02-10 00:00:00') /* Cowl */
-     , (0x7C6A9119, 0x7C6A92EC, '2019-02-10 00:00:00') /* Leather Jerkin */
-     , (0x7C6A9119, 0x7C6A92ED, '2019-02-10 00:00:00') /* Hyssop */
-     , (0x7C6A9119, 0x7C6A92EE, '2019-02-10 00:00:00') /* Salvage (14) */
-     , (0x7C6A9119, 0x7C6A92EF, '2019-02-10 00:00:00') /* Leather Shorts */
-     , (0x7C6A9119, 0x7C6A92F0, '2019-02-10 00:00:00') /* Tenassa Breastplate */
-     , (0x7C6A9119, 0x7C6A92F1, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A92F2, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x7C6A9119, 0x7C6A92F3, '2019-02-10 00:00:00') /* Covenant Helm */
-     , (0x7C6A9119, 0x7C6A92F4, '2019-02-10 00:00:00') /* Covenant Greaves */
-     , (0x7C6A9119, 0x7C6A92F5, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A92F6, '2019-02-10 00:00:00') /* Acid Khanjar */
-     , (0x7C6A9119, 0x7C6A92F7, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A92F8, '2019-02-10 00:00:00') /* Salvage (95) */
-     , (0x7C6A9119, 0x7C6A92F9, '2019-02-10 00:00:00') /* Salvaged Reedshark Hide (100) */
-     , (0x7C6A9119, 0x7C6A92FA, '2019-02-10 00:00:00') /* Salvage (97) */
-     , (0x7C6A9119, 0x7C6A92FB, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A92FC, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A92FD, '2019-02-10 00:00:00') /* Electric Sceptre */
-     , (0x7C6A9119, 0x7C6A92FE, '2019-02-10 00:00:00') /* Flaming Corsesca */
-     , (0x7C6A9119, 0x7C6A92FF, '2019-02-10 00:00:00') /* Chiran Coat */
-     , (0x7C6A9119, 0x7C6A9300, '2019-02-10 00:00:00') /* Koujia Leggings */
-     , (0x7C6A9119, 0x7C6A9301, '2019-02-10 00:00:00') /* A Comprehensive Guide to Gearcrafting */
-     , (0x7C6A9119, 0x7C6A9302, '2019-02-10 00:00:00') /* Bone Bow */
-     , (0x7C6A9119, 0x7C6A9303, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x7C6A9119, 0x7C6A9304, '2019-02-10 00:00:00') /* Studded Leather Gauntlets */
-     , (0x7C6A9119, 0x7C6A9305, '2019-02-10 00:00:00') /* Vest */
-     , (0x7C6A9119, 0x7C6A9306, '2019-02-10 00:00:00') /* Empyrean Over-robe */
-     , (0x7C6A9119, 0x7C6A9307, '2019-02-10 00:00:00') /* Covenant Girth */
-     , (0x7C6A9119, 0x7C6A9308, '2019-02-10 00:00:00') /* Studded Leather Tassets */
-     , (0x7C6A9119, 0x7C6A9309, '2019-02-10 00:00:00') /* Chainmail Hauberk */
-     , (0x7C6A9119, 0x7C6A930A, '2019-02-10 00:00:00') /* Cloth Cap */
-     , (0x7C6A9119, 0x7C6A930B, '2019-02-10 00:00:00') /* Loose Tunic */
-     , (0x7C6A9119, 0x7C6A930C, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A930D, '2019-02-10 00:00:00') /* Knorr Academy Boots */
-     , (0x7C6A9119, 0x7C6A930E, '2019-02-10 00:00:00') /* Loafers */
-     , (0x7C6A9119, 0x7C6A930F, '2019-02-10 00:00:00') /* Piercing Sceptre */
-     , (0x7C6A9119, 0x7C6A9310, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A9311, '2019-02-10 00:00:00') /* Olthoi Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9312, '2019-02-10 00:00:00') /* Baggy Tunic */
-     , (0x7C6A9119, 0x7C6A9313, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A9314, '2019-02-10 00:00:00') /* Lorica Breastplate */
-     , (0x7C6A9119, 0x7C6A9315, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A9316, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9317, '2019-02-10 00:00:00') /* Kasa */
-     , (0x7C6A9119, 0x7C6A9318, '2019-02-10 00:00:00') /* Amulet */
-     , (0x7C6A9119, 0x7C6A9319, '2019-02-10 00:00:00') /* Studded Leather Bracers */
-     , (0x7C6A9119, 0x7C6A931A, '2019-02-10 00:00:00') /* Fire Bow */
-     , (0x7C6A9119, 0x7C6A931B, '2019-02-10 00:00:00') /* Studded Leather Breastplate */
-     , (0x7C6A9119, 0x7C6A931C, '2019-02-10 00:00:00') /* Alduressa Boots */
-     , (0x7C6A9119, 0x7C6A931D, '2019-02-10 00:00:00') /* Chiran Sandals */
-     , (0x7C6A9119, 0x7C6A931E, '2019-02-10 00:00:00') /* Studded Leather Girth */
-     , (0x7C6A9119, 0x7C6A931F, '2019-02-10 00:00:00') /* Empyrean Over-robe */
-     , (0x7C6A9119, 0x7C6A9320, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A9321, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A9322, '2019-02-10 00:00:00') /* Scalemail Coif */
-     , (0x7C6A9119, 0x7C6A9323, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A9324, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9325, '2019-02-10 00:00:00') /* Acid Staff */
-     , (0x7C6A9119, 0x7C6A9326, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets */
-     , (0x7C6A9119, 0x7C6A9327, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A9328, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets */
-     , (0x7C6A9119, 0x7C6A9329, '2019-02-10 00:00:00') /* Trident */
-     , (0x7C6A9119, 0x7C6A932A, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A932B, '2019-02-10 00:00:00') /* Olthoi Amuli Helm */
-     , (0x7C6A9119, 0x7C6A932C, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A932D, '2019-02-10 00:00:00') /* Alduressa Helm */
-     , (0x7C6A9119, 0x7C6A932E, '2019-02-10 00:00:00') /* Tenassa Leggings */
-     , (0x7C6A9119, 0x7C6A932F, '2019-02-10 00:00:00') /* Sedgemail Leather Sleeves */
-     , (0x7C6A9119, 0x7C6A9330, '2019-02-10 00:00:00') /* Acid Sceptre */
-     , (0x7C6A9119, 0x7C6A9331, '2019-02-10 00:00:00') /* Energy Crystal */
-     , (0x7C6A9119, 0x7C6A9332, '2019-02-10 00:00:00') /* Nariyid Sleeves */
-     , (0x7C6A9119, 0x7C6A9333, '2019-02-10 00:00:00') /* Koujia Sleeves */
-     , (0x7C6A9119, 0x7C6A9334, '2019-02-10 00:00:00') /* Faran War Master Robe */
-     , (0x7C6A9119, 0x7C6A9335, '2019-02-10 00:00:00') /* Training Shortbow */
-     , (0x7C6A9119, 0x7C6A9336, '2019-02-10 00:00:00') /* Salvaged Reedshark Hide (100) */
-     , (0x7C6A9119, 0x7C6A9337, '2019-02-10 00:00:00') /* Sack */
-     , (0x7C6A9119, 0x7C6A9338, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9339, '2019-02-10 00:00:00') /* Frost Jitte */
-     , (0x7C6A9119, 0x7C6A933A, '2019-02-10 00:00:00') /* Bone Key */
-     , (0x7C6A9119, 0x7C6A933B, '2019-02-10 00:00:00') /* Stone Key */
-     , (0x7C6A9119, 0x7C6A933C, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A933D, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A933E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A933F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9340, '2019-02-10 00:00:00') /* Pyreal Bar */
-     , (0x7C6A9119, 0x7C6A9341, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A9342, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9343, '2019-02-10 00:00:00') /* Shou-jen Shozoku Jacket */
-     , (0x7C6A9119, 0x7C6A9344, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Leggings */
-     , (0x7C6A9119, 0x7C6A9345, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Girth */
-     , (0x7C6A9119, 0x7C6A9346, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Coat */
-     , (0x7C6A9119, 0x7C6A9347, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7C6A9119, 0x7C6A9348, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x7C6A9119, 0x7C6A9349, '2019-02-10 00:00:00') /* Smock */
-     , (0x7C6A9119, 0x7C6A934A, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A934B, '2019-02-10 00:00:00') /* Promissory Note */
-     , (0x7C6A9119, 0x7C6A934C, '2019-02-10 00:00:00') /* Moderate Mana Stone */
-     , (0x7C6A9119, 0x7C6A934D, '2019-02-10 00:00:00') /* Greater Mana Stone */
-     , (0x7C6A9119, 0x7C6A934E, '2019-02-10 00:00:00') /* Greater Mana Stone */
-     , (0x7C6A9119, 0x7C6A934F, '2019-02-10 00:00:00') /* Shendolain Key */
-     , (0x7C6A9119, 0x7C6A9350, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A9351, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A9352, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9353, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9354, '2019-02-10 00:00:00') /* Trimmed Cloak */
-     , (0x7C6A9119, 0x7C6A9355, '2019-02-10 00:00:00') /* Second Half of a Worn Sword */
-     , (0x7C6A9119, 0x7C6A9356, '2019-02-10 00:00:00') /* Dark Revenant Thighbone */
-     , (0x7C6A9119, 0x7C6A9357, '2019-02-10 00:00:00') /* Health Tonic */
-     , (0x7C6A9119, 0x7C6A9358, '2019-02-10 00:00:00') /* Mana Tonic */
-     , (0x7C6A9119, 0x7C6A9359, '2019-02-10 00:00:00') /* Scarlet Red Letter */
-     , (0x7C6A9119, 0x7C6A935A, '2019-02-10 00:00:00') /* Scarlet Red Letter */
-     , (0x7C6A9119, 0x7C6A935B, '2019-02-10 00:00:00') /* Empyrean Spherule */
-     , (0x7C6A9119, 0x7C6A935C, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A935D, '2019-02-10 00:00:00') /* Fried Olthoi Egg */
-     , (0x7C6A9119, 0x7C6A935E, '2019-02-10 00:00:00') /* Desk */
-     , (0x7C6A9119, 0x7C6A935F, '2019-02-10 00:00:00') /* Hearth */
-     , (0x7C6A9119, 0x7C6A9360, '2019-02-10 00:00:00') /* Artist's Crystal */
-     , (0x7C6A9119, 0x7C6A9361, '2019-02-10 00:00:00') /* Drudge Fight */
-     , (0x7C6A9119, 0x7C6A9362, '2019-02-10 00:00:00') /* Oxidized Statue  */
-     , (0x7C6A9119, 0x7C6A9363, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7C6A9119, 0x7C6A9364, '2019-02-10 00:00:00') /* Pearl of Swift Killing */
-     , (0x7C6A9119, 0x7C6A9365, '2019-02-10 00:00:00') /* Oswald's Crystal */
-     , (0x7C6A9119, 0x7C6A9366, '2019-02-10 00:00:00') /* Vaulter's Crystal */
-     , (0x7C6A9119, 0x7C6A9367, '2019-02-10 00:00:00') /* Adherent's Crystal */
-     , (0x7C6A9119, 0x7C6A9368, '2019-02-10 00:00:00') /* Adherent's Crystal */
-     , (0x7C6A9119, 0x7C6A9369, '2019-02-10 00:00:00') /* Pack Gaerlan */
-     , (0x7C6A9119, 0x7C6A936A, '2019-02-10 00:00:00') /* Adherent's Crystal */
-     , (0x7C6A9119, 0x7C6A936B, '2019-02-10 00:00:00') /* Treasure */
-     , (0x7C6A9119, 0x7C6A936C, '2019-02-10 00:00:00') /* Chainmail Shirt */
-     , (0x7C6A9119, 0x7C6A936D, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A936E, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A936F, '2019-02-10 00:00:00') /* Misshapen Bone Fragment */
-     , (0x7C6A9119, 0x7C6A9370, '2019-02-10 00:00:00') /* Hot Pepper */
-     , (0x7C6A9119, 0x7C6A9371, '2019-02-10 00:00:00') /* Hot Sauce */
-     , (0x7C6A9119, 0x7C6A9372, '2019-02-10 00:00:00') /* Cinnamon */
-     , (0x7C6A9119, 0x7C6A9373, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9374, '2019-02-10 00:00:00') /* Priceless Ore */
-     , (0x7C6A9119, 0x7C6A9375, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A9376, '2019-02-10 00:00:00') /* Scroll of Destructive Curse V */
-     , (0x7C6A9119, 0x7C6A9377, '2019-02-10 00:00:00') /* Scroll of Creature Enchantment Ineptitude V */
-     , (0x7C6A9119, 0x7C6A9378, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7C6A9119, 0x7C6A9379, '2019-02-10 00:00:00') /* Stamina Tincture */
-     , (0x7C6A9119, 0x7C6A937A, '2019-02-10 00:00:00') /* Scroll of Armor Other IV */
-     , (0x7C6A9119, 0x7C6A937B, '2019-02-10 00:00:00') /* Scroll of Force Bolt */
-     , (0x7C6A9119, 0x7C6A937C, '2019-02-10 00:00:00') /* Scroll of Flame Bolt II */
-     , (0x7C6A9119, 0x7C6A937D, '2019-02-10 00:00:00') /* Salvage */
-     , (0x7C6A9119, 0x7C6A937E, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A937F, '2019-02-10 00:00:00') /* Trade Note (1,000) */
-     , (0x7C6A9119, 0x7C6A9380, '2019-02-10 00:00:00') /* Trade Note (100,000) */
-     , (0x7C6A9119, 0x7C6A9381, '2019-02-10 00:00:00') /* Trade Note (150,000) */
-     , (0x7C6A9119, 0x7C6A9382, '2019-02-10 00:00:00') /* Trade Note (10,000) */
-     , (0x7C6A9119, 0x7C6A9383, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A9384, '2019-02-10 00:00:00') /* Frost Quadrelle */
-     , (0x7C6A9119, 0x7C6A9385, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A9386, '2019-02-10 00:00:00') /* Olthoi Celdon Girth */
-     , (0x7C6A9119, 0x7C6A9387, '2019-02-10 00:00:00') /* Diforsa Sleeves */
-     , (0x7C6A9119, 0x7C6A9388, '2019-02-10 00:00:00') /* Lightning Greataxe */
-     , (0x7C6A9119, 0x7C6A9389, '2019-02-10 00:00:00') /* Epee */
-     , (0x7C6A9119, 0x7C6A938A, '2019-02-10 00:00:00') /* Scroll of Fortified Lock */
-     , (0x7C6A9119, 0x7C6A938B, '2019-02-10 00:00:00') /* Scroll of Martyr's Hecatomb VII */
-     , (0x7C6A9119, 0x7C6A938C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A938D, '2019-02-10 00:00:00') /* Shendolain Key */
-     , (0x7C6A9119, 0x7C6A938E, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7C6A9119, 0x7C6A938F, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7C6A9119, 0x7C6A9390, '2019-02-10 00:00:00') /* Nether Staff */
-     , (0x7C6A9119, 0x7C6A9391, '2019-02-10 00:00:00') /* Etheric Seal */
-     , (0x7C6A9119, 0x7C6A9392, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9393, '2019-02-10 00:00:00') /* Fire Trident */
-     , (0x7C6A9119, 0x7C6A9394, '2019-02-10 00:00:00') /* Nariyid Girth */
-     , (0x7C6A9119, 0x7C6A9395, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A9396, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9397, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A9398, '2019-02-10 00:00:00') /* Fez */
-     , (0x7C6A9119, 0x7C6A9399, '2019-02-10 00:00:00') /* Lyceum Hood */
-     , (0x7C6A9119, 0x7C6A939A, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A939B, '2019-02-10 00:00:00') /* Pants */
-     , (0x7C6A9119, 0x7C6A939C, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A939D, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A939E, '2019-02-10 00:00:00') /* Visage of the Shadow Virindi */
-     , (0x7C6A9119, 0x7C6A939F, '2019-02-10 00:00:00') /* Lesser Mana Kit */
-     , (0x7C6A9119, 0x7C6A93A0, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A93A1, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A93A2, '2019-02-10 00:00:00') /* Principles of the Celestial Hand */
-     , (0x7C6A9119, 0x7C6A93A3, '2019-02-10 00:00:00') /* Doppelganger Shield */
-     , (0x7C6A9119, 0x7C6A93A4, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A93A5, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A93A6, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A93A7, '2019-02-10 00:00:00') /* Scalemail Bracers */
-     , (0x7C6A9119, 0x7C6A93A8, '2019-02-10 00:00:00') /* Quill of Benevolence */
-     , (0x7C6A9119, 0x7C6A93A9, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A93AA, '2019-02-10 00:00:00') /* Parabolic Ink */
-     , (0x7C6A9119, 0x7C6A93AB, '2019-02-10 00:00:00') /* Iron Scarab */
-     , (0x7C6A9119, 0x7C6A93AC, '2019-02-10 00:00:00') /* Silver Scarab */
-     , (0x7C6A9119, 0x7C6A93AD, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A93AE, '2019-02-10 00:00:00') /* Royal Runed War Bow */
-     , (0x7C6A9119, 0x7C6A93AF, '2019-02-10 00:00:00') /* Koujia Leggings */
-     , (0x7C6A9119, 0x7C6A93B0, '2019-02-10 00:00:00') /* Leather Pauldrons */
-     , (0x7C6A9119, 0x7C6A93B1, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes */
-     , (0x7C6A9119, 0x7C6A93B2, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C6A9119, 0x7C6A93B3, '2019-02-10 00:00:00') /* Platemail Girth */
-     , (0x7C6A9119, 0x7C6A93B4, '2019-02-10 00:00:00') /* Haebrean Vambraces */
-     , (0x7C6A9119, 0x7C6A93B5, '2019-02-10 00:00:00') /* Seal */
-     , (0x7C6A9119, 0x7C6A93B6, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A93B7, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A93B8, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets */
-     , (0x7C6A9119, 0x7C6A93B9, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A93BA, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A93BB, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A93BC, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A93BD, '2019-02-10 00:00:00') /* Olthoi Celdon Girth */
-     , (0x7C6A9119, 0x7C6A93BE, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A93BF, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A93C0, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A93C1, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A93C2, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets */
-     , (0x7C6A9119, 0x7C6A93C3, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets */
-     , (0x7C6A9119, 0x7C6A93C4, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A93C5, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A93C6, '2019-02-10 00:00:00') /* Olthoi Amuli Helm */
-     , (0x7C6A9119, 0x7C6A93C7, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A93C8, '2019-02-10 00:00:00') /* Olthoi Celdon Girth */
-     , (0x7C6A9119, 0x7C6A93C9, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A93CA, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A93CB, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A93CC, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A93CD, '2019-02-10 00:00:00') /* Olthoi Celdon Girth */
-     , (0x7C6A9119, 0x7C6A93CE, '2019-02-10 00:00:00') /* Frost Bow */
-     , (0x7C6A9119, 0x7C6A93CF, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets */
-     , (0x7C6A9119, 0x7C6A93D0, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A93D1, '2019-02-10 00:00:00') /* Haebrean Girth */
-     , (0x7C6A9119, 0x7C6A93D2, '2019-02-10 00:00:00') /* Pack Asheron */
-     , (0x7C6A9119, 0x7C6A93D3, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A93D4, '2019-02-10 00:00:00') /* Pyreal Bar */
-     , (0x7C6A9119, 0x7C6A93D5, '2019-02-10 00:00:00') /* Sack */
-     , (0x7C6A9119, 0x7C6A93D6, '2019-02-10 00:00:00') /* Silken Wrap */
-     , (0x7C6A9119, 0x7C6A93D7, '2019-02-10 00:00:00') /* Frozen Fortress Testing Grounds Attunement Shard (Level 180+) */
-     , (0x7C6A9119, 0x7C6A93D8, '2019-02-10 00:00:00') /* Cracked Shard */
-     , (0x7C6A9119, 0x7C6A93D9, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x7C6A9119, 0x7C6A93DA, '2019-02-10 00:00:00') /* Pyreal Nugget */
-     , (0x7C6A9119, 0x7C6A93DB, '2019-02-10 00:00:00') /* Shou-jen Shozoku Jacket */
-     , (0x7C6A9119, 0x7C6A93DC, '2019-02-10 00:00:00') /* Shou-jen Jika-Tabi */
-     , (0x7C6A9119, 0x7C6A93DD, '2019-02-10 00:00:00') /* Armor Upgrade Kit Containment Gem */
-     , (0x7C6A9119, 0x7C6A93DE, '2019-02-10 00:00:00') /* Nether Sceptre */
-     , (0x7C6A9119, 0x7C6A93DF, '2019-02-10 00:00:00') /* Shou-jen Shozoku Mask */
-     , (0x7C6A9119, 0x7C6A93E0, '2019-02-10 00:00:00') /* Nether Staff */
-     , (0x7C6A9119, 0x7C6A93E1, '2019-02-10 00:00:00') /* Leather Jerkin */
-     , (0x7C6A9119, 0x7C6A93E2, '2019-02-10 00:00:00') /* Acid Baton */
-     , (0x7C6A9119, 0x7C6A93E3, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A93E4, '2019-02-10 00:00:00') /* Entryway Key */
-     , (0x7C6A9119, 0x7C6A93E5, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A93E6, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7C6A9119, 0x7C6A93E7, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7C6A9119, 0x7C6A93E8, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7C6A9119, 0x7C6A93E9, '2019-02-10 00:00:00') /* Scroll of Clouded Soul II */
-     , (0x7C6A9119, 0x7C6A93EA, '2019-02-10 00:00:00') /* Gharu'ndim Hanging Rug */
-     , (0x7C6A9119, 0x7C6A93EB, '2019-02-10 00:00:00') /* Luminance Certificate */
-     , (0x7C6A9119, 0x7C6A93EC, '2019-02-10 00:00:00') /* Martine's Mask */
-     , (0x7C6A9119, 0x7C6A93ED, '2019-02-10 00:00:00') /* Health Tonic */
-     , (0x7C6A9119, 0x7C6A93EE, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A93EF, '2019-02-10 00:00:00') /* Contract for Kill: Rynthid Rare Boss */
-     , (0x7C6A9119, 0x7C6A93F0, '2019-02-10 00:00:00') /* Trade Note (100) */
-     , (0x7C6A9119, 0x7C6A93F1, '2019-02-10 00:00:00') /* Modified Iasparailaun */
-     , (0x7C6A9119, 0x7C6A93F2, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A93F3, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A93F4, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A93F5, '2019-02-10 00:00:00') /* Dark Shard */
-     , (0x7C6A9119, 0x7C6A93F6, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C6A9119, 0x7C6A93F7, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7C6A9119, 0x7C6A93F8, '2019-02-10 00:00:00') /* Small Shard */
-     , (0x7C6A9119, 0x7C6A93F9, '2019-02-10 00:00:00') /* Sake */
-     , (0x7C6A9119, 0x7C6A93FA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A93FB, '2019-02-10 00:00:00') /* Ancient Journal */
-     , (0x7C6A9119, 0x7C6A93FC, '2019-02-10 00:00:00') /* Seven of Hands */
-     , (0x7C6A9119, 0x7C6A93FD, '2019-02-10 00:00:00') /* Scroll of Summoning Mastery Other VII */
-     , (0x7C6A9119, 0x7C6A93FE, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7C6A9119, 0x7C6A93FF, '2019-02-10 00:00:00') /* The Healer's Heart */
-     , (0x7C6A9119, 0x7C6A9400, '2019-02-10 00:00:00') /* Salvager's Helm */
-     , (0x7C6A9119, 0x7C6A9401, '2019-02-10 00:00:00') /* Mosswart Mask */
-     , (0x7C6A9119, 0x7C6A9402, '2019-02-10 00:00:00') /* Atlan Bow */
-     , (0x7C6A9119, 0x7C6A9403, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7C6A9119, 0x7C6A9404, '2019-02-10 00:00:00') /* Buadren */
-     , (0x7C6A9119, 0x7C6A9405, '2019-02-10 00:00:00') /* Burning Sands Golem Heart */
-     , (0x7C6A9119, 0x7C6A9406, '2019-02-10 00:00:00') /* Empyrean Over-robe */
-     , (0x7C6A9119, 0x7C6A9407, '2019-02-10 00:00:00') /* Moons Stamp */
-     , (0x7C6A9119, 0x7C6A9408, '2019-02-10 00:00:00') /* Tusker Spit */
-     , (0x7C6A9119, 0x7C6A9409, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A940A, '2019-02-10 00:00:00') /* Olthoi's Jewel */
-     , (0x7C6A9119, 0x7C6A940B, '2019-02-10 00:00:00') /* Tusker's Jewel */
-     , (0x7C6A9119, 0x7C6A940C, '2019-02-10 00:00:00') /* Evader's Crystal */
-     , (0x7C6A9119, 0x7C6A940D, '2019-02-10 00:00:00') /* Duelist's Jewel */
-     , (0x7C6A9119, 0x7C6A940E, '2019-02-10 00:00:00') /* Gelid's Jewel */
-     , (0x7C6A9119, 0x7C6A940F, '2019-02-10 00:00:00') /* Olthoi's Jewel */
-     , (0x7C6A9119, 0x7C6A9410, '2019-02-10 00:00:00') /* Olthoi's Jewel */
-     , (0x7C6A9119, 0x7C6A9411, '2019-02-10 00:00:00') /* Sake */
-     , (0x7C6A9119, 0x7C6A9412, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9413, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9414, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9415, '2019-02-10 00:00:00') /* Empyrean Portalspace Stabilizer */
-     , (0x7C6A9119, 0x7C6A9416, '2019-02-10 00:00:00') /* Archer's Jewel */
-     , (0x7C6A9119, 0x7C6A9417, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9418, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9419, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7C6A9119, 0x7C6A941A, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7C6A9119, 0x7C6A941B, '2019-02-10 00:00:00') /* Small Bundle of Timber Siraluun Feathers */
-     , (0x7C6A9119, 0x7C6A941C, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7C6A9119, 0x7C6A941D, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7C6A9119, 0x7C6A941E, '2019-02-10 00:00:00') /* Small Shard */
-     , (0x7C6A9119, 0x7C6A941F, '2019-02-10 00:00:00') /* Pyreal Bar */
-     , (0x7C6A9119, 0x7C6A9420, '2019-02-10 00:00:00') /* Fresh Zombie Torso */
-     , (0x7C6A9119, 0x7C6A9421, '2019-02-10 00:00:00') /* Fresh Zombie Leg */
-     , (0x7C6A9119, 0x7C6A9422, '2019-02-10 00:00:00') /* Fresh Zombie Leg */
-     , (0x7C6A9119, 0x7C6A9423, '2019-02-10 00:00:00') /* Fresh Zombie Head */
-     , (0x7C6A9119, 0x7C6A9424, '2019-02-10 00:00:00') /* Fresh Zombie Head */
-     , (0x7C6A9119, 0x7C6A9425, '2019-02-10 00:00:00') /* Lich Skull */
-     , (0x7C6A9119, 0x7C6A9426, '2019-02-10 00:00:00') /* Bunch of Nanners */
-     , (0x7C6A9119, 0x7C6A9427, '2019-02-10 00:00:00') /* Thick Lugian Stew */
-     , (0x7C6A9119, 0x7C6A9428, '2019-02-10 00:00:00') /* Refreshing Water */
-     , (0x7C6A9119, 0x7C6A9429, '2019-02-10 00:00:00') /* Cave Penguin Cake */
-     , (0x7C6A9119, 0x7C6A942A, '2019-02-10 00:00:00') /* Stout Lugian Ale */
-     , (0x7C6A9119, 0x7C6A942B, '2019-02-10 00:00:00') /* Hearty Lugian Loaf */
-     , (0x7C6A9119, 0x7C6A942C, '2019-02-10 00:00:00') /* Drudge */
-     , (0x7C6A9119, 0x7C6A942D, '2019-02-10 00:00:00') /* Obsidian Sphere */
-     , (0x7C6A9119, 0x7C6A942E, '2019-02-10 00:00:00') /* Pyreal Nugget */
-     , (0x7C6A9119, 0x7C6A942F, '2019-02-10 00:00:00') /* Brown Lump */
-     , (0x7C6A9119, 0x7C6A9430, '2019-02-10 00:00:00') /* Key */
-     , (0x7C6A9119, 0x7C6A9431, '2019-02-10 00:00:00') /* Diamond Powder */
-     , (0x7C6A9119, 0x7C6A9432, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9433, '2019-02-10 00:00:00') /* Promissory Note */
-     , (0x7C6A9119, 0x7C6A9434, '2019-02-10 00:00:00') /* Promissory Note */
-     , (0x7C6A9119, 0x7C6A9435, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A9436, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A9437, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A9438, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9439, '2019-02-10 00:00:00') /* Hot Pepper */
-     , (0x7C6A9119, 0x7C6A943A, '2019-02-10 00:00:00') /* Silver Pea */
-     , (0x7C6A9119, 0x7C6A943B, '2019-02-10 00:00:00') /* Facility Hub Portal Gem */
-     , (0x7C6A9119, 0x7C6A943C, '2019-02-10 00:00:00') /* Ust */
-     , (0x7C6A9119, 0x7C6A943D, '2019-02-10 00:00:00') /* Olthoi Pauldrons */
-     , (0x7C6A9119, 0x7C6A943E, '2019-02-10 00:00:00') /* Olthoi Breastplate */
-     , (0x7C6A9119, 0x7C6A943F, '2019-02-10 00:00:00') /* Alduressa Boots */
-     , (0x7C6A9119, 0x7C6A9440, '2019-02-10 00:00:00') /* Olthoi Pauldrons */
-     , (0x7C6A9119, 0x7C6A9441, '2019-02-10 00:00:00') /* Lugian Hammer */
-     , (0x7C6A9119, 0x7C6A9442, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9443, '2019-02-10 00:00:00') /* Olthoi Greaves */
-     , (0x7C6A9119, 0x7C6A9444, '2019-02-10 00:00:00') /* Olthoi Girth */
-     , (0x7C6A9119, 0x7C6A9445, '2019-02-10 00:00:00') /* Haebrean Gauntlets */
-     , (0x7C6A9119, 0x7C6A9446, '2019-02-10 00:00:00') /* Lightning Stick */
-     , (0x7C6A9119, 0x7C6A9447, '2019-02-10 00:00:00') /* Acid Katar */
-     , (0x7C6A9119, 0x7C6A9448, '2019-02-10 00:00:00') /* Lightning Knife */
-     , (0x7C6A9119, 0x7C6A9449, '2019-02-10 00:00:00') /* Olthoi Alduressa Coat */
-     , (0x7C6A9119, 0x7C6A944A, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A944B, '2019-02-10 00:00:00') /* Olthoi Celdon Helm */
-     , (0x7C6A9119, 0x7C6A944C, '2019-02-10 00:00:00') /* Electric Bow */
-     , (0x7C6A9119, 0x7C6A944D, '2019-02-10 00:00:00') /* Frost Dirk */
-     , (0x7C6A9119, 0x7C6A944E, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A944F, '2019-02-10 00:00:00') /* Piercing Crossbow */
-     , (0x7C6A9119, 0x7C6A9450, '2019-02-10 00:00:00') /* Lightning Nabut */
-     , (0x7C6A9119, 0x7C6A9451, '2019-02-10 00:00:00') /* Staff of Aerfalle */
-     , (0x7C6A9119, 0x7C6A9452, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9453, '2019-02-10 00:00:00') /* Orb */
-     , (0x7C6A9119, 0x7C6A9454, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A9455, '2019-02-10 00:00:00') /* Electric Spine Glaive */
-     , (0x7C6A9119, 0x7C6A9456, '2019-02-10 00:00:00') /* Studded Leather Girth */
-     , (0x7C6A9119, 0x7C6A9457, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9458, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9459, '2019-02-10 00:00:00') /* Fire Spine Glaive */
-     , (0x7C6A9119, 0x7C6A945A, '2019-02-10 00:00:00') /* Compass */
-     , (0x7C6A9119, 0x7C6A945B, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A945C, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A945D, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A945E, '2019-02-10 00:00:00') /* Flaming Flanged Mace */
-     , (0x7C6A9119, 0x7C6A945F, '2019-02-10 00:00:00') /* Frost Crossbow */
-     , (0x7C6A9119, 0x7C6A9460, '2019-02-10 00:00:00') /* Armet */
-     , (0x7C6A9119, 0x7C6A9461, '2019-02-10 00:00:00') /* Aura of Blood Drinker Self VI */
-     , (0x7C6A9119, 0x7C6A9462, '2019-02-10 00:00:00') /* Chainmail Leggings */
-     , (0x7C6A9119, 0x7C6A9463, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets */
-     , (0x7C6A9119, 0x7C6A9464, '2019-02-10 00:00:00') /* Nariyid Sleeves */
-     , (0x7C6A9119, 0x7C6A9465, '2019-02-10 00:00:00') /* Olthoi Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9466, '2019-02-10 00:00:00') /* Lace Shirt */
-     , (0x7C6A9119, 0x7C6A9467, '2019-02-10 00:00:00') /* Frost Lugian Hammer */
-     , (0x7C6A9119, 0x7C6A9468, '2019-02-10 00:00:00') /* Platemail Cuirass */
-     , (0x7C6A9119, 0x7C6A9469, '2019-02-10 00:00:00') /* Electric Spine Glaive */
-     , (0x7C6A9119, 0x7C6A946A, '2019-02-10 00:00:00') /* Nariyid Girth */
-     , (0x7C6A9119, 0x7C6A946B, '2019-02-10 00:00:00') /* Olthoi Alduressa Leggings */
-     , (0x7C6A9119, 0x7C6A946C, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C6A9119, 0x7C6A946D, '2019-02-10 00:00:00') /* Acid Nekode */
-     , (0x7C6A9119, 0x7C6A946E, '2019-02-10 00:00:00') /* Electric Atlatl */
-     , (0x7C6A9119, 0x7C6A946F, '2019-02-10 00:00:00') /* Scalemail Bracers */
-     , (0x7C6A9119, 0x7C6A9470, '2019-02-10 00:00:00') /* Hammer */
-     , (0x7C6A9119, 0x7C6A9471, '2019-02-10 00:00:00') /* Nariyid Boots */
-     , (0x7C6A9119, 0x7C6A9472, '2019-02-10 00:00:00') /* Olthoi Helm */
-     , (0x7C6A9119, 0x7C6A9473, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9474, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9475, '2019-02-10 00:00:00') /* Treated Healing Kit */
-     , (0x7C6A9119, 0x7C6A9476, '2019-02-10 00:00:00') /* Frost Jitte */
-     , (0x7C6A9119, 0x7C6A9477, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7C6A9119, 0x7C6A9478, '2019-02-10 00:00:00') /* Lightning Spear */
-     , (0x7C6A9119, 0x7C6A9479, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C6A9119, 0x7C6A947A, '2019-02-10 00:00:00') /* Chiran Gauntlets */
-     , (0x7C6A9119, 0x7C6A947B, '2019-02-10 00:00:00') /* Covenant Girth */
-     , (0x7C6A9119, 0x7C6A947C, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A947D, '2019-02-10 00:00:00') /* Frost Stiletto */
-     , (0x7C6A9119, 0x7C6A947E, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x7C6A9119, 0x7C6A947F, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x7C6A9119, 0x7C6A9480, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x7C6A9119, 0x7C6A9481, '2019-02-10 00:00:00') /* Slashing Bow */
-     , (0x7C6A9119, 0x7C6A9482, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A9483, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9484, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes */
-     , (0x7C6A9119, 0x7C6A9485, '2019-02-10 00:00:00') /* Yoroi Tassets */
-     , (0x7C6A9119, 0x7C6A9486, '2019-02-10 00:00:00') /* Tower Shield */
-     , (0x7C6A9119, 0x7C6A9487, '2019-02-10 00:00:00') /* Katar */
-     , (0x7C6A9119, 0x7C6A9488, '2019-02-10 00:00:00') /* Ice Wand */
-     , (0x7C6A9119, 0x7C6A9489, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A948A, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x7C6A9119, 0x7C6A948B, '2019-02-10 00:00:00') /* Mattekar */
-     , (0x7C6A9119, 0x7C6A948C, '2019-02-10 00:00:00') /* Phyntos Wasp */
-     , (0x7C6A9119, 0x7C6A948D, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A948E, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7C6A9119, 0x7C6A948F, '2019-02-10 00:00:00') /* Hero Token */
-     , (0x7C6A9119, 0x7C6A9490, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A9491, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9492, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9493, '2019-02-10 00:00:00') /* Acid Bow */
-     , (0x7C6A9119, 0x7C6A9494, '2019-02-10 00:00:00') /* Olthoi Koujia Kabuton */
-     , (0x7C6A9119, 0x7C6A9495, '2019-02-10 00:00:00') /* Olthoi Koujia Leggings */
-     , (0x7C6A9119, 0x7C6A9496, '2019-02-10 00:00:00') /* Scalemail Leggings */
-     , (0x7C6A9119, 0x7C6A9497, '2019-02-10 00:00:00') /* Nefane Pearl */
-     , (0x7C6A9119, 0x7C6A9498, '2019-02-10 00:00:00') /* Salvage (39) */
-     , (0x7C6A9119, 0x7C6A9499, '2019-02-10 00:00:00') /* Aura of Infected Spirit Caress Scroll */
-     , (0x7C6A9119, 0x7C6A949A, '2019-02-10 00:00:00') /* Pantaloons */
-     , (0x7C6A9119, 0x7C6A949B, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other VII */
-     , (0x7C6A9119, 0x7C6A949C, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7C6A9119, 0x7C6A949D, '2019-02-10 00:00:00') /* Orb */
-     , (0x7C6A9119, 0x7C6A949E, '2019-02-10 00:00:00') /* Experience Certificate */
-     , (0x7C6A9119, 0x7C6A949F, '2019-02-10 00:00:00') /* Letter to Bretself the Translator */
-     , (0x7C6A9119, 0x7C6A94A0, '2019-02-10 00:00:00') /* Kilif Zefir Sites */
-     , (0x7C6A9119, 0x7C6A94A1, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A94A2, '2019-02-10 00:00:00') /* Pack Pumpkin Lord */
-     , (0x7C6A9119, 0x7C6A94A3, '2019-02-10 00:00:00') /* Pack Golem */
-     , (0x7C6A9119, 0x7C6A94A4, '2019-02-10 00:00:00') /* Pack Asheron */
-     , (0x7C6A9119, 0x7C6A94A5, '2019-02-10 00:00:00') /* Pack Gaerlan */
-     , (0x7C6A9119, 0x7C6A94A6, '2019-02-10 00:00:00') /* Pack Burun Kukuur */
-     , (0x7C6A9119, 0x7C6A94A7, '2019-02-10 00:00:00') /* Sprouting Pumpkin Vine */
-     , (0x7C6A9119, 0x7C6A94A8, '2019-02-10 00:00:00') /* Pack Martine */
-     , (0x7C6A9119, 0x7C6A94A9, '2019-02-10 00:00:00') /* Pack Bael'Zharon */
-     , (0x7C6A9119, 0x7C6A94AA, '2019-02-10 00:00:00') /* Oxidized Statue  */
-     , (0x7C6A9119, 0x7C6A94AB, '2019-02-10 00:00:00') /* Tipped Pack Cow */
-     , (0x7C6A9119, 0x7C6A94AC, '2019-02-10 00:00:00') /* Pack Levistras */
-     , (0x7C6A9119, 0x7C6A94AD, '2019-02-10 00:00:00') /* Pack Grael */
-     , (0x7C6A9119, 0x7C6A94AE, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen */
-     , (0x7C6A9119, 0x7C6A94AF, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7C6A9119, 0x7C6A94B0, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7C6A9119, 0x7C6A94B1, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7C6A9119, 0x7C6A94B2, '2019-02-10 00:00:00') /* Pack Gaerlan */
-     , (0x7C6A9119, 0x7C6A94B3, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7C6A9119, 0x7C6A94B4, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7C6A9119, 0x7C6A94B5, '2019-02-10 00:00:00') /* Myrrh */
-     , (0x7C6A9119, 0x7C6A94B6, '2019-02-10 00:00:00') /* Vervain */
-     , (0x7C6A9119, 0x7C6A94B7, '2019-02-10 00:00:00') /* Yarrow */
-     , (0x7C6A9119, 0x7C6A94B8, '2019-02-10 00:00:00') /* Comfrey */
-     , (0x7C6A9119, 0x7C6A94B9, '2019-02-10 00:00:00') /* Henbane */
-     , (0x7C6A9119, 0x7C6A94BA, '2019-02-10 00:00:00') /* Dragonsblood */
-     , (0x7C6A9119, 0x7C6A94BB, '2019-02-10 00:00:00') /* Hawthorn */
-     , (0x7C6A9119, 0x7C6A94BC, '2019-02-10 00:00:00') /* Ginseng */
-     , (0x7C6A9119, 0x7C6A94BD, '2019-02-10 00:00:00') /* Amaranth */
-     , (0x7C6A9119, 0x7C6A94BE, '2019-02-10 00:00:00') /* Bistort */
-     , (0x7C6A9119, 0x7C6A94BF, '2019-02-10 00:00:00') /* Mugwort */
-     , (0x7C6A9119, 0x7C6A94C0, '2019-02-10 00:00:00') /* Damiana */
-     , (0x7C6A9119, 0x7C6A94C1, '2019-02-10 00:00:00') /* Saffron */
-     , (0x7C6A9119, 0x7C6A94C2, '2019-02-10 00:00:00') /* Mandrake */
-     , (0x7C6A9119, 0x7C6A94C3, '2019-02-10 00:00:00') /* Hyssop */
-     , (0x7C6A9119, 0x7C6A94C4, '2019-02-10 00:00:00') /* Gelidite Dais */
-     , (0x7C6A9119, 0x7C6A94C5, '2019-02-10 00:00:00') /* Gem of Knowledge */
-     , (0x7C6A9119, 0x7C6A94C6, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7C6A9119, 0x7C6A94C7, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7C6A9119, 0x7C6A94C8, '2019-02-10 00:00:00') /* Bow of the Quiddity */
-     , (0x7C6A9119, 0x7C6A94C9, '2019-02-10 00:00:00') /* Facility Hub Portal Gem */
-     , (0x7C6A9119, 0x7C6A94CA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94CB, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A94CC, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94CD, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x7C6A9119, 0x7C6A94CE, '2019-02-10 00:00:00') /* Leather Greaves */
-     , (0x7C6A9119, 0x7C6A94CF, '2019-02-10 00:00:00') /* Piercing Sceptre */
-     , (0x7C6A9119, 0x7C6A94D0, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A94D1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94D2, '2019-02-10 00:00:00') /* Trident */
-     , (0x7C6A9119, 0x7C6A94D3, '2019-02-10 00:00:00') /* Top */
-     , (0x7C6A9119, 0x7C6A94D4, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A94D5, '2019-02-10 00:00:00') /* Health Philtre */
-     , (0x7C6A9119, 0x7C6A94D6, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A94D7, '2019-02-10 00:00:00') /* Fortified Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A94D8, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A94D9, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94DA, '2019-02-10 00:00:00') /* Top */
-     , (0x7C6A9119, 0x7C6A94DB, '2019-02-10 00:00:00') /* Scholar's Crystal */
-     , (0x7C6A9119, 0x7C6A94DC, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7C6A9119, 0x7C6A94DD, '2019-02-10 00:00:00') /* Vaulter's Crystal */
-     , (0x7C6A9119, 0x7C6A94DE, '2019-02-10 00:00:00') /* Salvage (82) */
-     , (0x7C6A9119, 0x7C6A94DF, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x7C6A9119, 0x7C6A94E0, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A94E1, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A94E2, '2019-02-10 00:00:00') /* Pyreal Nugget */
-     , (0x7C6A9119, 0x7C6A94E3, '2019-02-10 00:00:00') /* Pyreal Sliver */
-     , (0x7C6A9119, 0x7C6A94E4, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A94E5, '2019-02-10 00:00:00') /* Carving Knife */
-     , (0x7C6A9119, 0x7C6A94E6, '2019-02-10 00:00:00') /* Platinum Scarab */
-     , (0x7C6A9119, 0x7C6A94E7, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7C6A9119, 0x7C6A94E8, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94E9, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94EA, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7C6A9119, 0x7C6A94EB, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7C6A9119, 0x7C6A94EC, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A94ED, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A94EE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A94EF, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A94F0, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A94F1, '2019-02-10 00:00:00') /* Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A94F2, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A94F3, '2019-02-10 00:00:00') /* Granite Key */
-     , (0x7C6A9119, 0x7C6A94F4, '2019-02-10 00:00:00') /* Minor Item Tinkering Armature */
-     , (0x7C6A9119, 0x7C6A94F5, '2019-02-10 00:00:00') /* Moderate Item Tinkering Armature */
-     , (0x7C6A9119, 0x7C6A94F6, '2019-02-10 00:00:00') /* Major Item Tinkering Armature */
-     , (0x7C6A9119, 0x7C6A94F7, '2019-02-10 00:00:00') /* Moderate Item Tinkering Armature */
-     , (0x7C6A9119, 0x7C6A94F8, '2019-02-10 00:00:00') /* Cellar Key */
-     , (0x7C6A9119, 0x7C6A94F9, '2019-02-10 00:00:00') /* Entryway Key */
-     , (0x7C6A9119, 0x7C6A94FA, '2019-02-10 00:00:00') /* Greater Mana Kit */
-     , (0x7C6A9119, 0x7C6A94FB, '2019-02-10 00:00:00') /* Renegade Herbal Kit */
-     , (0x7C6A9119, 0x7C6A94FC, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A94FD, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A94FE, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A94FF, '2019-02-10 00:00:00') /* Pyreal Mote */
-     , (0x7C6A9119, 0x7C6A9500, '2019-02-10 00:00:00') /* Salvage (16) */
-     , (0x7C6A9119, 0x7C6A9501, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6A9119, 0x7C6A9502, '2019-02-10 00:00:00') /* Skill Reset Certificate */
-     , (0x7C6A9119, 0x7C6A9503, '2019-02-10 00:00:00') /* Quiddity Orb */
-     , (0x7C6A9119, 0x7C6A9504, '2019-02-10 00:00:00') /* Candeth Keep Blueprints */
-     , (0x7C6A9119, 0x7C6A9505, '2019-02-10 00:00:00') /* Untranslated Writing */
-     , (0x7C6A9119, 0x7C6A9506, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A9507, '2019-02-10 00:00:00') /* Sack */
-     , (0x7C6A9119, 0x7C6A9508, '2019-02-10 00:00:00') /* Pack Burun Kukuur */
-     , (0x7C6A9119, 0x7C6A9509, '2019-02-10 00:00:00') /* Pack Asheron */
-     , (0x7C6A9119, 0x7C6A950A, '2019-02-10 00:00:00') /* Pack Levistras */
-     , (0x7C6A9119, 0x7C6A950B, '2019-02-10 00:00:00') /* Alloy Machine */
-     , (0x7C6A9119, 0x7C6A950C, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A950D, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A950E, '2019-02-10 00:00:00') /* Renegade Crossbow */
-     , (0x7C6A9119, 0x7C6A950F, '2019-02-10 00:00:00') /* Quadruple-bladed Axe */
-     , (0x7C6A9119, 0x7C6A9510, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x7C6A9119, 0x7C6A9511, '2019-02-10 00:00:00') /* Scarlet Red Letter */
-     , (0x7C6A9119, 0x7C6A9512, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7C6A9119, 0x7C6A9513, '2019-02-10 00:00:00') /* Water of Lethe */
-     , (0x7C6A9119, 0x7C6A9514, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x7C6A9119, 0x7C6A9515, '2019-02-10 00:00:00') /* Swamp Stone */
-     , (0x7C6A9119, 0x7C6A9516, '2019-02-10 00:00:00') /* Swamp Stone */
-     , (0x7C6A9119, 0x7C6A9517, '2019-02-10 00:00:00') /* Foolproof Yellow Topaz */
-     , (0x7C6A9119, 0x7C6A9518, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A9519, '2019-02-10 00:00:00') /* Olthoi Koujia Leggings */
-     , (0x7C6A9119, 0x7C6A951A, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A951B, '2019-02-10 00:00:00') /* Baggy Pants */
-     , (0x7C6A9119, 0x7C6A951C, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7C6A9119, 0x7C6A951D, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7C6A9119, 0x7C6A951E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A951F, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A9520, '2019-02-10 00:00:00') /* Pack T'thuun */
-     , (0x7C6A9119, 0x7C6A9521, '2019-02-10 00:00:00') /* Pack T'thuun */
-     , (0x7C6A9119, 0x7C6A9522, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7C6A9119, 0x7C6A9523, '2019-02-10 00:00:00') /* Lace Shirt */
-     , (0x7C6A9119, 0x7C6A9524, '2019-02-10 00:00:00') /* Viamontian Pants */
-     , (0x7C6A9119, 0x7C6A9525, '2019-02-10 00:00:00') /* Poet's Shirt */
-     , (0x7C6A9119, 0x7C6A9526, '2019-02-10 00:00:00') /* Flaming War Hammer */
-     , (0x7C6A9119, 0x7C6A9527, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x7C6A9119, 0x7C6A9528, '2019-02-10 00:00:00') /* Olthoi Pauldrons */
-     , (0x7C6A9119, 0x7C6A9529, '2019-02-10 00:00:00') /* Studded Leather Pauldrons */
-     , (0x7C6A9119, 0x7C6A952A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A952B, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A952C, '2019-02-10 00:00:00') /* Yoroi Leggings */
-     , (0x7C6A9119, 0x7C6A952D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A952E, '2019-02-10 00:00:00') /* Dark Sliver */
-     , (0x7C6A9119, 0x7C6A952F, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A9530, '2019-02-10 00:00:00') /* Acid Morning Star */
-     , (0x7C6A9119, 0x7C6A9531, '2019-02-10 00:00:00') /* Compass */
-     , (0x7C6A9119, 0x7C6A9532, '2019-02-10 00:00:00') /* Pyreal Mote */
-     , (0x7C6A9119, 0x7C6A9533, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A9534, '2019-02-10 00:00:00') /* Small Bundle of Littoral Siraluun Feathers */
-     , (0x7C6A9119, 0x7C6A9535, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9536, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A9537, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7C6A9119, 0x7C6A9538, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C6A9119, 0x7C6A9539, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A953A, '2019-02-10 00:00:00') /* Treated Healing Kit */
-     , (0x7C6A9119, 0x7C6A953B, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A953C, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7C6A9119, 0x7C6A953D, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A953E, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A953F, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7C6A9119, 0x7C6A9540, '2019-02-10 00:00:00') /* Amulet */
-     , (0x7C6A9119, 0x7C6A9541, '2019-02-10 00:00:00') /* Nether Sceptre */
-     , (0x7C6A9119, 0x7C6A9542, '2019-02-10 00:00:00') /* Flaming War Axe */
-     , (0x7C6A9119, 0x7C6A9543, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A9544, '2019-02-10 00:00:00') /* Poet's Shirt */
-     , (0x7C6A9119, 0x7C6A9545, '2019-02-10 00:00:00') /* Pants */
-     , (0x7C6A9119, 0x7C6A9546, '2019-02-10 00:00:00') /* Viamontian Pants */
-     , (0x7C6A9119, 0x7C6A9547, '2019-02-10 00:00:00') /* Trousers */
-     , (0x7C6A9119, 0x7C6A9548, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9549, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6A9119, 0x7C6A954A, '2019-02-10 00:00:00') /* Cowl */
-     , (0x7C6A9119, 0x7C6A954B, '2019-02-10 00:00:00') /* Helmet */
-     , (0x7C6A9119, 0x7C6A954C, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7C6A9119, 0x7C6A954D, '2019-02-10 00:00:00') /* Acid Quarter Staff */
-     , (0x7C6A9119, 0x7C6A954E, '2019-02-10 00:00:00') /* Flaming Katar */
-     , (0x7C6A9119, 0x7C6A954F, '2019-02-10 00:00:00') /* Acid Great Star Mace */
-     , (0x7C6A9119, 0x7C6A9550, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A9551, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A9552, '2019-02-10 00:00:00') /* Flaming War Hammer */
-     , (0x7C6A9119, 0x7C6A9553, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A9554, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9555, '2019-02-10 00:00:00') /* Boxed Augmentation Gem */
-     , (0x7C6A9119, 0x7C6A9556, '2019-02-10 00:00:00') /* Boxed Augmentation Gem */
-     , (0x7C6A9119, 0x7C6A9557, '2019-02-10 00:00:00') /* Long Leather Gauntlets */
-     , (0x7C6A9119, 0x7C6A9558, '2019-02-10 00:00:00') /* Lace Shirt */
-     , (0x7C6A9119, 0x7C6A9559, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A955A, '2019-02-10 00:00:00') /* Siraluun Matihao */
-     , (0x7C6A9119, 0x7C6A955B, '2019-02-10 00:00:00') /* Fortified Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A955C, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A955D, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A955E, '2019-02-10 00:00:00') /* Pack Grael */
-     , (0x7C6A9119, 0x7C6A955F, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen */
-     , (0x7C6A9119, 0x7C6A9560, '2019-02-10 00:00:00') /* Glyph of Missile Weapons */
-     , (0x7C6A9119, 0x7C6A9561, '2019-02-10 00:00:00') /* Ink of Objectification */
-     , (0x7C6A9119, 0x7C6A9562, '2019-02-10 00:00:00') /* Mana Philtre */
-     , (0x7C6A9119, 0x7C6A9563, '2019-02-10 00:00:00') /* Ink of Formation */
-     , (0x7C6A9119, 0x7C6A9564, '2019-02-10 00:00:00') /* Mutilator Helm */
-     , (0x7C6A9119, 0x7C6A9565, '2019-02-10 00:00:00') /* Glyph of Bludgeoning */
-     , (0x7C6A9119, 0x7C6A9566, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A9567, '2019-02-10 00:00:00') /* Glyph of Slashing */
-     , (0x7C6A9119, 0x7C6A9568, '2019-02-10 00:00:00') /* Glyph of Life Magic */
-     , (0x7C6A9119, 0x7C6A9569, '2019-02-10 00:00:00') /* Doll Leader's Charm */
-     , (0x7C6A9119, 0x7C6A956A, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A956B, '2019-02-10 00:00:00') /* Rogue's Crystal */
-     , (0x7C6A9119, 0x7C6A956C, '2019-02-10 00:00:00') /* Lugian's Pearl */
-     , (0x7C6A9119, 0x7C6A956D, '2019-02-10 00:00:00') /* Berzerker's Crystal */
-     , (0x7C6A9119, 0x7C6A956E, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7C6A9119, 0x7C6A956F, '2019-02-10 00:00:00') /* White Virindi Wand */
-     , (0x7C6A9119, 0x7C6A9570, '2019-02-10 00:00:00') /* Salvage (14) */
-     , (0x7C6A9119, 0x7C6A9571, '2019-02-10 00:00:00') /* Al-Arqas Portal Gem */
-     , (0x7C6A9119, 0x7C6A9572, '2019-02-10 00:00:00') /* Homecoming Pennant */
-     , (0x7C6A9119, 0x7C6A9573, '2019-02-10 00:00:00') /* Homecoming Pennant */
-     , (0x7C6A9119, 0x7C6A9574, '2019-02-10 00:00:00') /* Intricate Carving Tool */
-     , (0x7C6A9119, 0x7C6A9575, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7C6A9119, 0x7C6A9576, '2019-02-10 00:00:00') /* Treated Healing Kit */
-     , (0x7C6A9119, 0x7C6A9577, '2019-02-10 00:00:00') /* Festival Lights */
-     , (0x7C6A9119, 0x7C6A9578, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A9579, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A957A, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A957B, '2019-02-10 00:00:00') /* Turban */
-     , (0x7C6A9119, 0x7C6A957C, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A957D, '2019-02-10 00:00:00') /* Lesser Mana Stone */
-     , (0x7C6A9119, 0x7C6A957E, '2019-02-10 00:00:00') /* Moderate Mana Stone */
-     , (0x7C6A9119, 0x7C6A957F, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9580, '2019-02-10 00:00:00') /* Health Philtre */
-     , (0x7C6A9119, 0x7C6A9581, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A9582, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7C6A9119, 0x7C6A9583, '2019-02-10 00:00:00') /* Scalemail Greaves */
-     , (0x7C6A9119, 0x7C6A9584, '2019-02-10 00:00:00') /* Lightning Poniard */
-     , (0x7C6A9119, 0x7C6A9585, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9586, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9587, '2019-02-10 00:00:00') /* Flaming Weeping Sword */
-     , (0x7C6A9119, 0x7C6A9588, '2019-02-10 00:00:00') /* Club of Surprising Cunning */
-     , (0x7C6A9119, 0x7C6A9589, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A958A, '2019-02-10 00:00:00') /* Dark Monolith Caverns */
-     , (0x7C6A9119, 0x7C6A958B, '2019-02-10 00:00:00') /* Invitation to the Battle Burrows */
-     , (0x7C6A9119, 0x7C6A958C, '2019-02-10 00:00:00') /* Buckler */
-     , (0x7C6A9119, 0x7C6A958D, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A958E, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A958F, '2019-02-10 00:00:00') /* Tusker Spit */
-     , (0x7C6A9119, 0x7C6A9590, '2019-02-10 00:00:00') /* Bandana */
-     , (0x7C6A9119, 0x7C6A9591, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9592, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A9593, '2019-02-10 00:00:00') /* Creature Spells Certificate */
-     , (0x7C6A9119, 0x7C6A9594, '2019-02-10 00:00:00') /* Item Spells Certificate */
-     , (0x7C6A9119, 0x7C6A9595, '2019-02-10 00:00:00') /* Staff */
-     , (0x7C6A9119, 0x7C6A9596, '2019-02-10 00:00:00') /* Alduressa Helm */
-     , (0x7C6A9119, 0x7C6A9597, '2019-02-10 00:00:00') /* Studded Leather Basinet */
-     , (0x7C6A9119, 0x7C6A9598, '2019-02-10 00:00:00') /* Olthoi Amuli Helm */
-     , (0x7C6A9119, 0x7C6A9599, '2019-02-10 00:00:00') /* Chainmail Coif */
-     , (0x7C6A9119, 0x7C6A959A, '2019-02-10 00:00:00') /* Covenant Sollerets */
-     , (0x7C6A9119, 0x7C6A959B, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7C6A9119, 0x7C6A959C, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets */
-     , (0x7C6A9119, 0x7C6A959D, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A959E, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x7C6A9119, 0x7C6A959F, '2019-02-10 00:00:00') /* Pack Aerbax */
-     , (0x7C6A9119, 0x7C6A95A0, '2019-02-10 00:00:00') /* Rare Pink Pack Idol */
-     , (0x7C6A9119, 0x7C6A95A1, '2019-02-10 00:00:00') /* Noble Relic Leggings of Health */
-     , (0x7C6A9119, 0x7C6A95A2, '2019-02-10 00:00:00') /* Noble Relic Gauntlets of Strength */
-     , (0x7C6A9119, 0x7C6A95A3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95A4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95A5, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A95A6, '2019-02-10 00:00:00') /* Gem */
-     , (0x7C6A9119, 0x7C6A95A7, '2019-02-10 00:00:00') /* Elysa's Favor */
-     , (0x7C6A9119, 0x7C6A95A8, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A95A9, '2019-02-10 00:00:00') /* Protective Drudge Charm */
-     , (0x7C6A9119, 0x7C6A95AA, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A95AB, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7C6A9119, 0x7C6A95AC, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A95AD, '2019-02-10 00:00:00') /* Compass */
-     , (0x7C6A9119, 0x7C6A95AE, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A95AF, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A95B0, '2019-02-10 00:00:00') /* Trousers */
-     , (0x7C6A9119, 0x7C6A95B1, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A95B2, '2019-02-10 00:00:00') /* Thick Lugian Stew */
-     , (0x7C6A9119, 0x7C6A95B3, '2019-02-10 00:00:00') /* Stout Lugian Ale */
-     , (0x7C6A9119, 0x7C6A95B4, '2019-02-10 00:00:00') /* Priceless Ore */
-     , (0x7C6A9119, 0x7C6A95B5, '2019-02-10 00:00:00') /* Refreshing Water */
-     , (0x7C6A9119, 0x7C6A95B6, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A95B7, '2019-02-10 00:00:00') /* Slashing Compound Bow */
-     , (0x7C6A9119, 0x7C6A95B8, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6A9119, 0x7C6A95B9, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A95BA, '2019-02-10 00:00:00') /* Ruminations on Portal Creation */
-     , (0x7C6A9119, 0x7C6A95BB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95BC, '2019-02-10 00:00:00') /* Platemail Cuirass */
-     , (0x7C6A9119, 0x7C6A95BD, '2019-02-10 00:00:00') /* Utterly Flawless Lense */
-     , (0x7C6A9119, 0x7C6A95BE, '2019-02-10 00:00:00') /* Olthoi Amuli Helm */
-     , (0x7C6A9119, 0x7C6A95BF, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95C0, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95C1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95C2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95C3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95C4, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7C6A9119, 0x7C6A95C5, '2019-02-10 00:00:00') /* Oxidized Statue */
-     , (0x7C6A9119, 0x7C6A95C6, '2019-02-10 00:00:00') /* Oxidized Statue  */
-     , (0x7C6A9119, 0x7C6A95C7, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7C6A9119, 0x7C6A95C8, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7C6A9119, 0x7C6A95C9, '2019-02-10 00:00:00') /* Amulet */
-     , (0x7C6A9119, 0x7C6A95CA, '2019-02-10 00:00:00') /* Stick */
-     , (0x7C6A9119, 0x7C6A95CB, '2019-02-10 00:00:00') /* Goggles */
-     , (0x7C6A9119, 0x7C6A95CC, '2019-02-10 00:00:00') /* Cloak */
-     , (0x7C6A9119, 0x7C6A95CD, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A95CE, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A95CF, '2019-02-10 00:00:00') /* Nabut */
-     , (0x7C6A9119, 0x7C6A95D0, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A95D1, '2019-02-10 00:00:00') /* Amulet */
-     , (0x7C6A9119, 0x7C6A95D2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95D3, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7C6A9119, 0x7C6A95D4, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A95D5, '2019-02-10 00:00:00') /* Moderate Mana Stone */
-     , (0x7C6A9119, 0x7C6A95D6, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7C6A9119, 0x7C6A95D7, '2019-02-10 00:00:00') /* War Hammer */
-     , (0x7C6A9119, 0x7C6A95D8, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7C6A9119, 0x7C6A95D9, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A95DA, '2019-02-10 00:00:00') /* Wood Heart */
-     , (0x7C6A9119, 0x7C6A95DB, '2019-02-10 00:00:00') /* Copper Heart */
-     , (0x7C6A9119, 0x7C6A95DC, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A95DD, '2019-02-10 00:00:00') /* Stormwood Sword */
-     , (0x7C6A9119, 0x7C6A95DE, '2019-02-10 00:00:00') /* Trousers */
-     , (0x7C6A9119, 0x7C6A95DF, '2019-02-10 00:00:00') /* Baggy Tunic */
-     , (0x7C6A9119, 0x7C6A95E0, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean */
-     , (0x7C6A9119, 0x7C6A95E1, '2019-02-10 00:00:00') /* Coronet */
-     , (0x7C6A9119, 0x7C6A95E2, '2019-02-10 00:00:00') /* Yoroi Cuirass */
-     , (0x7C6A9119, 0x7C6A95E3, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A95E4, '2019-02-10 00:00:00') /* Hand Axe */
-     , (0x7C6A9119, 0x7C6A95E5, '2019-02-10 00:00:00') /* Dart Flinger */
-     , (0x7C6A9119, 0x7C6A95E6, '2019-02-10 00:00:00') /* Studded Leather Cowl */
-     , (0x7C6A9119, 0x7C6A95E7, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7C6A9119, 0x7C6A95E8, '2019-02-10 00:00:00') /* Circle of Raven Might */
-     , (0x7C6A9119, 0x7C6A95E9, '2019-02-10 00:00:00') /* Mitts of the Hunter */
-     , (0x7C6A9119, 0x7C6A95EA, '2019-02-10 00:00:00') /* Blooded Platinum Invader Lord Helm */
-     , (0x7C6A9119, 0x7C6A95EB, '2019-02-10 00:00:00') /* Quintessence Sickle */
-     , (0x7C6A9119, 0x7C6A95EC, '2019-02-10 00:00:00') /* Ashen Oculus */
-     , (0x7C6A9119, 0x7C6A95ED, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A95EE, '2019-02-10 00:00:00') /* Granite Key */
-     , (0x7C6A9119, 0x7C6A95EF, '2019-02-10 00:00:00') /* Aluvian Lamp */
-     , (0x7C6A9119, 0x7C6A95F0, '2019-02-10 00:00:00') /* Marble Key */
-     , (0x7C6A9119, 0x7C6A95F1, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7C6A9119, 0x7C6A95F2, '2019-02-10 00:00:00') /* Ground Chorizite */
-     , (0x7C6A9119, 0x7C6A95F3, '2019-02-10 00:00:00') /* Ground Chorizite */
-     , (0x7C6A9119, 0x7C6A95F4, '2019-02-10 00:00:00') /* Ground Chorizite */
-     , (0x7C6A9119, 0x7C6A95F5, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A95F6, '2019-02-10 00:00:00') /* Epee */
-     , (0x7C6A9119, 0x7C6A95F7, '2019-02-10 00:00:00') /* Hood */
-     , (0x7C6A9119, 0x7C6A95F8, '2019-02-10 00:00:00') /* Orb of the Ironsea */
-     , (0x7C6A9119, 0x7C6A95F9, '2019-02-10 00:00:00') /* Pearl of Spirit Drinking */
-     , (0x7C6A9119, 0x7C6A95FA, '2019-02-10 00:00:00') /* Olthoi's Jewel */
-     , (0x7C6A9119, 0x7C6A95FB, '2019-02-10 00:00:00') /* Gelid's Jewel */
-     , (0x7C6A9119, 0x7C6A95FC, '2019-02-10 00:00:00') /* Corruptor's Crystal */
-     , (0x7C6A9119, 0x7C6A95FD, '2019-02-10 00:00:00') /* Duelist's Jewel */
-     , (0x7C6A9119, 0x7C6A95FE, '2019-02-10 00:00:00') /* Tusker's Jewel */
-     , (0x7C6A9119, 0x7C6A95FF, '2019-02-10 00:00:00') /* Viamontian Pants */
-     , (0x7C6A9119, 0x7C6A9600, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9601, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9602, '2019-02-10 00:00:00') /* Mana Stone */
-     , (0x7C6A9119, 0x7C6A9603, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C6A9119, 0x7C6A9604, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A9605, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A9606, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A9607, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9608, '2019-02-10 00:00:00') /* Knorr Academy Helm */
-     , (0x7C6A9119, 0x7C6A9609, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets */
-     , (0x7C6A9119, 0x7C6A960A, '2019-02-10 00:00:00') /* Turban */
-     , (0x7C6A9119, 0x7C6A960B, '2019-02-10 00:00:00') /* Leather Pants */
-     , (0x7C6A9119, 0x7C6A960C, '2019-02-10 00:00:00') /* Vest */
-     , (0x7C6A9119, 0x7C6A960D, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes */
-     , (0x7C6A9119, 0x7C6A960E, '2019-02-10 00:00:00') /* Bordered Cloak */
-     , (0x7C6A9119, 0x7C6A960F, '2019-02-10 00:00:00') /* Lightning Stick */
-     , (0x7C6A9119, 0x7C6A9610, '2019-02-10 00:00:00') /* Lightning Khanda-handled Mace */
-     , (0x7C6A9119, 0x7C6A9611, '2019-02-10 00:00:00') /* Lancet */
-     , (0x7C6A9119, 0x7C6A9612, '2019-02-10 00:00:00') /* Baggy Breeches */
-     , (0x7C6A9119, 0x7C6A9613, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9614, '2019-02-10 00:00:00') /* Nariyid Boots */
-     , (0x7C6A9119, 0x7C6A9615, '2019-02-10 00:00:00') /* Aerbax's Defeat */
-     , (0x7C6A9119, 0x7C6A9616, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7C6A9119, 0x7C6A9617, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x7C6A9119, 0x7C6A9618, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x7C6A9119, 0x7C6A9619, '2019-02-10 00:00:00') /* Signet Crown */
-     , (0x7C6A9119, 0x7C6A961A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A961B, '2019-02-10 00:00:00') /* Piece of parchment */
-     , (0x7C6A9119, 0x7C6A961C, '2019-02-10 00:00:00') /* Diadem */
-     , (0x7C6A9119, 0x7C6A961D, '2019-02-10 00:00:00') /* Wide Breeches */
-     , (0x7C6A9119, 0x7C6A961E, '2019-02-10 00:00:00') /* Cloth Cap */
-     , (0x7C6A9119, 0x7C6A961F, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C6A9119, 0x7C6A9620, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A9621, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9622, '2019-02-10 00:00:00') /* Goggles */
-     , (0x7C6A9119, 0x7C6A9623, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7C6A9119, 0x7C6A9624, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A9625, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9626, '2019-02-10 00:00:00') /* Moderate Mana Stone */
-     , (0x7C6A9119, 0x7C6A9627, '2019-02-10 00:00:00') /* Torch */
-     , (0x7C6A9119, 0x7C6A9628, '2019-02-10 00:00:00') /* Tipped Pack Cow */
-     , (0x7C6A9119, 0x7C6A9629, '2019-02-10 00:00:00') /* Small Shard */
-     , (0x7C6A9119, 0x7C6A962A, '2019-02-10 00:00:00') /* Superb Lockpick */
-     , (0x7C6A9119, 0x7C6A962B, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A962C, '2019-02-10 00:00:00') /* Marshmallow Pumpkin */
-     , (0x7C6A9119, 0x7C6A962D, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Idol (Level 180+) */
-     , (0x7C6A9119, 0x7C6A962E, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Sword (Level 180+) */
-     , (0x7C6A9119, 0x7C6A962F, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Staff (Level 180+) */
-     , (0x7C6A9119, 0x7C6A9630, '2019-02-10 00:00:00') /* Salvage (39) */
-     , (0x7C6A9119, 0x7C6A9631, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9632, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9633, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9634, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9635, '2019-02-10 00:00:00') /* Salvage (40) */
-     , (0x7C6A9119, 0x7C6A9636, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A9637, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A9638, '2019-02-10 00:00:00') /* Piercing Baton */
-     , (0x7C6A9119, 0x7C6A9639, '2019-02-10 00:00:00') /* Salvage (97) */
-     , (0x7C6A9119, 0x7C6A963A, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x7C6A9119, 0x7C6A963B, '2019-02-10 00:00:00') /* Frost Spine Glaive */
-     , (0x7C6A9119, 0x7C6A963C, '2019-02-10 00:00:00') /* Salvage (31) */
-     , (0x7C6A9119, 0x7C6A963D, '2019-02-10 00:00:00') /* Superb Lockpick */
-     , (0x7C6A9119, 0x7C6A963E, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A963F, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets */
-     , (0x7C6A9119, 0x7C6A9640, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction */
-     , (0x7C6A9119, 0x7C6A9641, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9642, '2019-02-10 00:00:00') /* Aluvian Lamp */
-     , (0x7C6A9119, 0x7C6A9643, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9644, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7C6A9119, 0x7C6A9645, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9646, '2019-02-10 00:00:00') /* Ust */
-     , (0x7C6A9119, 0x7C6A9647, '2019-02-10 00:00:00') /* Olthoi Koujia Breastplate */
-     , (0x7C6A9119, 0x7C6A9648, '2019-02-10 00:00:00') /* Olthoi Amuli Coat */
-     , (0x7C6A9119, 0x7C6A9649, '2019-02-10 00:00:00') /* Sedgemail Leather Vest */
-     , (0x7C6A9119, 0x7C6A964A, '2019-02-10 00:00:00') /* Lyceum Hood */
-     , (0x7C6A9119, 0x7C6A964B, '2019-02-10 00:00:00') /* Olthoi Breastplate */
-     , (0x7C6A9119, 0x7C6A964C, '2019-02-10 00:00:00') /* Olthoi Sollerets */
-     , (0x7C6A9119, 0x7C6A964D, '2019-02-10 00:00:00') /* Haebrean Pauldrons */
-     , (0x7C6A9119, 0x7C6A964E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A964F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9650, '2019-02-10 00:00:00') /* Gem of Purity */
-     , (0x7C6A9119, 0x7C6A9651, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9652, '2019-02-10 00:00:00') /* Greater Mana Stone */
-     , (0x7C6A9119, 0x7C6A9653, '2019-02-10 00:00:00') /* Coronet */
-     , (0x7C6A9119, 0x7C6A9654, '2019-02-10 00:00:00') /* Fez */
-     , (0x7C6A9119, 0x7C6A9655, '2019-02-10 00:00:00') /* Olthoi Celdon Girth */
-     , (0x7C6A9119, 0x7C6A9656, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9657, '2019-02-10 00:00:00') /* Alduressa Boots */
-     , (0x7C6A9119, 0x7C6A9658, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9659, '2019-02-10 00:00:00') /* Olthoi Tassets */
-     , (0x7C6A9119, 0x7C6A965A, '2019-02-10 00:00:00') /* Kasa */
-     , (0x7C6A9119, 0x7C6A965B, '2019-02-10 00:00:00') /* Studded Leather Girth */
-     , (0x7C6A9119, 0x7C6A965C, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7C6A9119, 0x7C6A965D, '2019-02-10 00:00:00') /* Baigha */
-     , (0x7C6A9119, 0x7C6A965E, '2019-02-10 00:00:00') /* Knorr Academy Boots */
-     , (0x7C6A9119, 0x7C6A965F, '2019-02-10 00:00:00') /* Lorica Helm */
-     , (0x7C6A9119, 0x7C6A9660, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9661, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9662, '2019-02-10 00:00:00') /* Loose Pants */
-     , (0x7C6A9119, 0x7C6A9663, '2019-02-10 00:00:00') /* Flared Shirt */
-     , (0x7C6A9119, 0x7C6A9664, '2019-02-10 00:00:00') /* Academy Coat */
-     , (0x7C6A9119, 0x7C6A9665, '2019-02-10 00:00:00') /* Ginseng */
-     , (0x7C6A9119, 0x7C6A9666, '2019-02-10 00:00:00') /* Scroll of Hermetic Void IV */
-     , (0x7C6A9119, 0x7C6A9667, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7C6A9119, 0x7C6A9668, '2019-02-10 00:00:00') /* Thick Lugian Stew */
-     , (0x7C6A9119, 0x7C6A9669, '2019-02-10 00:00:00') /* Refreshing Water */
-     , (0x7C6A9119, 0x7C6A966A, '2019-02-10 00:00:00') /* Hearty Lugian Loaf */
-     , (0x7C6A9119, 0x7C6A966B, '2019-02-10 00:00:00') /* Resister's Crystal */
-     , (0x7C6A9119, 0x7C6A966C, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A966D, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A966E, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A966F, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9670, '2019-02-10 00:00:00') /* Cracked Shard */
-     , (0x7C6A9119, 0x7C6A9671, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9672, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9673, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A9674, '2019-02-10 00:00:00') /* Alchemy Table */
-     , (0x7C6A9119, 0x7C6A9675, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x7C6A9119, 0x7C6A9676, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction */
-     , (0x7C6A9119, 0x7C6A9677, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9678, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A9679, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7C6A9119, 0x7C6A967A, '2019-02-10 00:00:00') /* Mana Tonic */
-     , (0x7C6A9119, 0x7C6A967B, '2019-02-10 00:00:00') /* Gem of Balance */
-     , (0x7C6A9119, 0x7C6A967C, '2019-02-10 00:00:00') /* Gem of Purity */
-     , (0x7C6A9119, 0x7C6A967D, '2019-02-10 00:00:00') /* Stamina Tonic */
-     , (0x7C6A9119, 0x7C6A967E, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A967F, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7C6A9119, 0x7C6A9680, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A9681, '2019-02-10 00:00:00') /* Great Star Mace */
-     , (0x7C6A9119, 0x7C6A9682, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A9683, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9684, '2019-02-10 00:00:00') /* Piercing Bow */
-     , (0x7C6A9119, 0x7C6A9685, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A9686, '2019-02-10 00:00:00') /* Pants */
-     , (0x7C6A9119, 0x7C6A9687, '2019-02-10 00:00:00') /* Olthoi Alduressa Leggings */
-     , (0x7C6A9119, 0x7C6A9688, '2019-02-10 00:00:00') /* Gorget */
-     , (0x7C6A9119, 0x7C6A9689, '2019-02-10 00:00:00') /* Top */
-     , (0x7C6A9119, 0x7C6A968A, '2019-02-10 00:00:00') /* Haebrean Gauntlets */
-     , (0x7C6A9119, 0x7C6A968B, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A968C, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A968D, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A968E, '2019-02-10 00:00:00') /* Piercing Crossbow */
-     , (0x7C6A9119, 0x7C6A968F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9690, '2019-02-10 00:00:00') /* Smock */
-     , (0x7C6A9119, 0x7C6A9691, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A9692, '2019-02-10 00:00:00') /* Piercing Compound Bow */
-     , (0x7C6A9119, 0x7C6A9693, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7C6A9119, 0x7C6A9694, '2019-02-10 00:00:00') /* Haebrean Breastplate */
-     , (0x7C6A9119, 0x7C6A9695, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9696, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A9697, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A9698, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A9699, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A969A, '2019-02-10 00:00:00') /* Salvage (82) */
-     , (0x7C6A9119, 0x7C6A969B, '2019-02-10 00:00:00') /* Salvage (81) */
-     , (0x7C6A9119, 0x7C6A969C, '2019-02-10 00:00:00') /* Scroll of Swordsman's Bane */
-     , (0x7C6A9119, 0x7C6A969D, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A969E, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A969F, '2019-02-10 00:00:00') /* Virindi Servant's Amulet */
-     , (0x7C6A9119, 0x7C6A96A0, '2019-02-10 00:00:00') /* Suikan Creature Master Robe */
-     , (0x7C6A9119, 0x7C6A96A1, '2019-02-10 00:00:00') /* Salvage (100) */
-     , (0x7C6A9119, 0x7C6A96A2, '2019-02-10 00:00:00') /* Salvage (20) */
-     , (0x7C6A9119, 0x7C6A96A3, '2019-02-10 00:00:00') /* Pyreal Sliver */
-     , (0x7C6A9119, 0x7C6A96A4, '2019-02-10 00:00:00') /* Sack */
-     , (0x7C6A9119, 0x7C6A96A5, '2019-02-10 00:00:00') /* Suikan Creature Master Robe */
-     , (0x7C6A9119, 0x7C6A96A6, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C6A9119, 0x7C6A96A7, '2019-02-10 00:00:00') /* Ice Tachi */
-     , (0x7C6A9119, 0x7C6A96A8, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7C6A9119, 0x7C6A96A9, '2019-02-10 00:00:00') /* Second Half of a Battered Axe */
-     , (0x7C6A9119, 0x7C6A96AA, '2019-02-10 00:00:00') /* Orb */
-     , (0x7C6A9119, 0x7C6A96AB, '2019-02-10 00:00:00') /* Pack */
-     , (0x7C6A9119, 0x7C6A96AC, '2019-02-10 00:00:00') /* Scroll of Hieromancer's Boon */
-     , (0x7C6A9119, 0x7C6A96AD, '2019-02-10 00:00:00') /* Scroll of Yoshi's Blessing */
-     , (0x7C6A9119, 0x7C6A96AE, '2019-02-10 00:00:00') /* Bread */
-     , (0x7C6A9119, 0x7C6A96AF, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A96B0, '2019-02-10 00:00:00') /* Letter From Home */
-     , (0x7C6A9119, 0x7C6A96B1, '2019-02-10 00:00:00') /* Scroll of Turn Blade III */
-     , (0x7C6A9119, 0x7C6A96B2, '2019-02-10 00:00:00') /* Sack */
-     , (0x7C6A9119, 0x7C6A96B3, '2019-02-10 00:00:00') /* Gorget */
-     , (0x7C6A9119, 0x7C6A96B4, '2019-02-10 00:00:00') /* Nether Sceptre */
-     , (0x7C6A9119, 0x7C6A96B5, '2019-02-10 00:00:00') /* Wide Breeches */
-     , (0x7C6A9119, 0x7C6A96B6, '2019-02-10 00:00:00') /* Teardrop Crown */
-     , (0x7C6A9119, 0x7C6A96B7, '2019-02-10 00:00:00') /* Acid War Axe */
-     , (0x7C6A9119, 0x7C6A96B8, '2019-02-10 00:00:00') /* Piercing Bow */
-     , (0x7C6A9119, 0x7C6A96B9, '2019-02-10 00:00:00') /* Lightning Hand Wraps */
-     , (0x7C6A9119, 0x7C6A96BA, '2019-02-10 00:00:00') /* Piercing Compound Crossbow */
-     , (0x7C6A9119, 0x7C6A96BB, '2019-02-10 00:00:00') /* Salvage */
-     , (0x7C6A9119, 0x7C6A96BC, '2019-02-10 00:00:00') /* Diamond Heart */
-     , (0x7C6A9119, 0x7C6A96BD, '2019-02-10 00:00:00') /* Acid Trident */
-     , (0x7C6A9119, 0x7C6A96BE, '2019-02-10 00:00:00') /* Salvage (82) */
-     , (0x7C6A9119, 0x7C6A96BF, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7C6A9119, 0x7C6A96C0, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A96C1, '2019-02-10 00:00:00') /* Quartered Cloak */
-     , (0x7C6A9119, 0x7C6A96C2, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A96C3, '2019-02-10 00:00:00') /* Seal */
-     , (0x7C6A9119, 0x7C6A96C4, '2019-02-10 00:00:00') /* Mace of Dissonance */
-     , (0x7C6A9119, 0x7C6A96C5, '2019-02-10 00:00:00') /* Pyreal Bar */
-     , (0x7C6A9119, 0x7C6A96C6, '2019-02-10 00:00:00') /* Nodachi */
-     , (0x7C6A9119, 0x7C6A96C7, '2019-02-10 00:00:00') /* Trousers */
-     , (0x7C6A9119, 0x7C6A96C8, '2019-02-10 00:00:00') /* Tenassa Breastplate */
-     , (0x7C6A9119, 0x7C6A96C9, '2019-02-10 00:00:00') /* Repaired Shadow Stone */
-     , (0x7C6A9119, 0x7C6A96CA, '2019-02-10 00:00:00') /* Doppelganger Robe */
-     , (0x7C6A9119, 0x7C6A96CB, '2019-02-10 00:00:00') /* Doppelganger Shield */
-     , (0x7C6A9119, 0x7C6A96CC, '2019-02-10 00:00:00') /* Entryway Key */
-     , (0x7C6A9119, 0x7C6A96CD, '2019-02-10 00:00:00') /* Gold Phyntos Wasp Wing */
-     , (0x7C6A9119, 0x7C6A96CE, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7C6A9119, 0x7C6A96CF, '2019-02-10 00:00:00') /* Town Network Portal Gem */
-     , (0x7C6A9119, 0x7C6A96D0, '2019-02-10 00:00:00') /* Celdon Breastplate */
-     , (0x7C6A9119, 0x7C6A96D1, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A96D2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C6A9119, 0x7C6A96D3, '2019-02-10 00:00:00') /* Gorget */
-     , (0x7C6A9119, 0x7C6A96D4, '2019-02-10 00:00:00') /* Flared Tunic */
-     , (0x7C6A9119, 0x7C6A96D5, '2019-02-10 00:00:00') /* Bordered Cloak */
-     , (0x7C6A9119, 0x7C6A96D6, '2019-02-10 00:00:00') /* Cloak */
-     , (0x7C6A9119, 0x7C6A96D7, '2019-02-10 00:00:00') /* Cowl */
-     , (0x7C6A9119, 0x7C6A96D8, '2019-02-10 00:00:00') /* Teardrop Crown */
-     , (0x7C6A9119, 0x7C6A96D9, '2019-02-10 00:00:00') /* Nefane Pearl */
-     , (0x7C6A9119, 0x7C6A96DA, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A96DB, '2019-02-10 00:00:00') /* Quill of Introspection */
-     , (0x7C6A9119, 0x7C6A96DC, '2019-02-10 00:00:00') /* Olthoi Koujia Sleeves */
-     , (0x7C6A9119, 0x7C6A96DD, '2019-02-10 00:00:00') /* Quill of Infliction */
-     , (0x7C6A9119, 0x7C6A96DE, '2019-02-10 00:00:00') /* Celdon Girth */
-     , (0x7C6A9119, 0x7C6A96DF, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A96E0, '2019-02-10 00:00:00') /* Sandals */
-     , (0x7C6A9119, 0x7C6A96E1, '2019-02-10 00:00:00') /* Khanjar */
-     , (0x7C6A9119, 0x7C6A96E2, '2019-02-10 00:00:00') /* Chiran Coat */
-     , (0x7C6A9119, 0x7C6A96E3, '2019-02-10 00:00:00') /* Empyrean Over-robe */
-     , (0x7C6A9119, 0x7C6A96E4, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x7C6A9119, 0x7C6A96E5, '2019-02-10 00:00:00') /* Covenant Gauntlets */
-     , (0x7C6A9119, 0x7C6A96E6, '2019-02-10 00:00:00') /* Ruschk Hunter Leggings */
-     , (0x7C6A9119, 0x7C6A96E7, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7C6A9119, 0x7C6A96E8, '2019-02-10 00:00:00') /* Fire Board with Nail */
-     , (0x7C6A9119, 0x7C6A96E9, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A96EA, '2019-02-10 00:00:00') /* Flaming Lancet */
-     , (0x7C6A9119, 0x7C6A96EB, '2019-02-10 00:00:00') /* Frost Compound Bow */
-     , (0x7C6A9119, 0x7C6A96EC, '2019-02-10 00:00:00') /* Covenant Girth */
-     , (0x7C6A9119, 0x7C6A96ED, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7C6A9119, 0x7C6A96EE, '2019-02-10 00:00:00') /* Olthoi Sollerets */
-     , (0x7C6A9119, 0x7C6A96EF, '2019-02-10 00:00:00') /* Electric Trident */
-     , (0x7C6A9119, 0x7C6A96F0, '2019-02-10 00:00:00') /* Frost Nodachi */
-     , (0x7C6A9119, 0x7C6A96F1, '2019-02-10 00:00:00') /* Writ of Refuge */
-     , (0x7C6A9119, 0x7C6A96F2, '2019-02-10 00:00:00') /* Covenant Shield */
-     , (0x7C6A9119, 0x7C6A96F3, '2019-02-10 00:00:00') /* Mana Tonic */
-     , (0x7C6A9119, 0x7C6A96F4, '2019-02-10 00:00:00') /* Sollerets */
-     , (0x7C6A9119, 0x7C6A96F5, '2019-02-10 00:00:00') /* Kasrullah */
-     , (0x7C6A9119, 0x7C6A96F6, '2019-02-10 00:00:00') /* Fire Board with Nail */
-     , (0x7C6A9119, 0x7C6A96F7, '2019-02-10 00:00:00') /* Acid Atlatl */
-     , (0x7C6A9119, 0x7C6A96F8, '2019-02-10 00:00:00') /* Studded Leather Gauntlets */
-     , (0x7C6A9119, 0x7C6A96F9, '2019-02-10 00:00:00') /* Frost Magari Yari */
-     , (0x7C6A9119, 0x7C6A96FA, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7C6A9119, 0x7C6A96FB, '2019-02-10 00:00:00') /* Koujia Breastplate */
-     , (0x7C6A9119, 0x7C6A96FC, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x7C6A9119, 0x7C6A96FD, '2019-02-10 00:00:00') /* Acid Shashqa */
-     , (0x7C6A9119, 0x7C6A96FE, '2019-02-10 00:00:00') /* Tachi */
-     , (0x7C6A9119, 0x7C6A96FF, '2019-02-10 00:00:00') /* Lightning Katar */
-     , (0x7C6A9119, 0x7C6A9700, '2019-02-10 00:00:00') /* Flaming Quarter Staff */
-     , (0x7C6A9119, 0x7C6A9701, '2019-02-10 00:00:00') /* Covenant Gauntlets */
-     , (0x7C6A9119, 0x7C6A9702, '2019-02-10 00:00:00') /* Lightning Jitte */
-     , (0x7C6A9119, 0x7C6A9703, '2019-02-10 00:00:00') /* Studded Leather Coat */
-     , (0x7C6A9119, 0x7C6A9704, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C6A9119, 0x7C6A9705, '2019-02-10 00:00:00') /* Salvaged  (100) */
-     , (0x7C6A9119, 0x7C6A9706, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A9707, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A9708, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A9709, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C6A9119, 0x7C6A970A, '2019-02-10 00:00:00') /* Celdon Leggings */
-     , (0x7C6A9119, 0x7C6A970B, '2019-02-10 00:00:00') /* Artificer's Gauntlets */
-     , (0x7C6A9119, 0x7C6A970C, '2019-02-10 00:00:00') /* Black Spear of Shadow Renewal */
-     , (0x7C6A9119, 0x7C6A970D, '2019-02-10 00:00:00') /* Hieromancer's Crystal */
-     , (0x7C6A9119, 0x7C6A970E, '2019-02-10 00:00:00') /* Ben Ten's Crystal */
-     , (0x7C6A9119, 0x7C6A970F, '2019-02-10 00:00:00') /* Smithy's Crystal */
-     , (0x7C6A9119, 0x7C6A9710, '2019-02-10 00:00:00') /* Fletcher's Crystal */
-     , (0x7C6A9119, 0x7C6A9711, '2019-02-10 00:00:00') /* Tinker's Crystal */
-     , (0x7C6A9119, 0x7C6A9712, '2019-02-10 00:00:00') /* Thorsten's Crystal */
-     , (0x7C6A9119, 0x7C6A9713, '2019-02-10 00:00:00') /* Hunter's Crystal */
-     , (0x7C6A9119, 0x7C6A9714, '2019-02-10 00:00:00') /* Thorsten's Crystal */
-     , (0x7C6A9119, 0x7C6A9715, '2019-02-10 00:00:00') /* Circlet */
-     , (0x7C6A9119, 0x7C6A9716, '2019-02-10 00:00:00') /* Loafers */
-     , (0x7C6A9119, 0x7C6A9717, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9718, '2019-02-10 00:00:00') /* Facility Hub Portal Gem */
-     , (0x7C6A9119, 0x7C6A9719, '2019-02-10 00:00:00') /* Circlet */
-     , (0x7C6A9119, 0x7C6A971A, '2019-02-10 00:00:00') /* Circlet */
-     , (0x7C6A9119, 0x7C6A971B, '2019-02-10 00:00:00') /* Wand */
-     , (0x7C6A9119, 0x7C6A971C, '2019-02-10 00:00:00') /* Studded Leather Bracers */
-     , (0x7C6A9119, 0x7C6A971D, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C6A9119, 0x7C6A971E, '2019-02-10 00:00:00') /* Energy Crown */
-     , (0x7C6A9119, 0x7C6A971F, '2019-02-10 00:00:00') /* Smock */
-     , (0x7C6A9119, 0x7C6A9720, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A9721, '2019-02-10 00:00:00') /* Crown */
-     , (0x7C6A9119, 0x7C6A9722, '2019-02-10 00:00:00') /* Blunt Staff */
-     , (0x7C6A9119, 0x7C6A9723, '2019-02-10 00:00:00') /* Frost Dolabra */
-     , (0x7C6A9119, 0x7C6A9724, '2019-02-10 00:00:00') /* Slashing Slingshot */
-     , (0x7C6A9119, 0x7C6A9725, '2019-02-10 00:00:00') /* Lancet */
-     , (0x7C6A9119, 0x7C6A9726, '2019-02-10 00:00:00') /* Frost Yari */
-     , (0x7C6A9119, 0x7C6A9727, '2019-02-10 00:00:00') /* Platemail Tassets */
-     , (0x7C6A9119, 0x7C6A9728, '2019-02-10 00:00:00') /* Leather Pants */
-     , (0x7C6A9119, 0x7C6A9729, '2019-02-10 00:00:00') /* Frost Jo */
-     , (0x7C6A9119, 0x7C6A972A, '2019-02-10 00:00:00') /* Acid Dagger */
-     , (0x7C6A9119, 0x7C6A972B, '2019-02-10 00:00:00') /* Lightning Assagai */
-     , (0x7C6A9119, 0x7C6A972C, '2019-02-10 00:00:00') /* Fire Slingshot */
-     , (0x7C6A9119, 0x7C6A972D, '2019-02-10 00:00:00') /* Faran Over-robe */
-     , (0x7C6A9119, 0x7C6A972E, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7C6A9119, 0x7C6A972F, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7C6A9119, 0x7C6A9730, '2019-02-10 00:00:00') /* Stiletto */
-     , (0x7C6A9119, 0x7C6A9731, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x7C6A9119, 0x7C6A9732, '2019-02-10 00:00:00') /* Alduressa Coat */
-     , (0x7C6A9119, 0x7C6A9733, '2019-02-10 00:00:00') /* Chiran Gauntlets */
-     , (0x7C6A9119, 0x7C6A9734, '2019-02-10 00:00:00') /* Frost Bow */
-     , (0x7C6A9119, 0x7C6A9735, '2019-02-10 00:00:00') /* Mechanical Scarab */
-     , (0x7C6A9119, 0x7C6A9736, '2019-02-10 00:00:00') /* Yoroi Cuirass */
-     , (0x7C6A9119, 0x7C6A9737, '2019-02-10 00:00:00') /* Cowl */
-     , (0x7C6A9119, 0x7C6A9738, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C6A9119, 0x7C6A9739, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves */
-     , (0x7C6A9119, 0x7C6A973A, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7C6A9119, 0x7C6A973B, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7C6A9119, 0x7C6A973C, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7C6A9119, 0x7C6A973D, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7C6A9119, 0x7C6A973E, '2019-02-10 00:00:00') /* Copper Scarab */
-     , (0x7C6A9119, 0x7C6A973F, '2019-02-10 00:00:00') /* Silver Pea */
-     , (0x7C6A9119, 0x7C6A9740, '2019-02-10 00:00:00') /* Vest */
-     , (0x7C6A9119, 0x7C6A9741, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7C6A9119, 0x7C6A9742, '2019-02-10 00:00:00') /* Teardrop Crown */
-     , (0x7C6A9119, 0x7C6A9743, '2019-02-10 00:00:00') /* Mutated Olthoi Gland */
-     , (0x7C6A9119, 0x7C6A9744, '2019-02-10 00:00:00') /* Glyph of Light Weapons */
-     , (0x7C6A9119, 0x7C6A9745, '2019-02-10 00:00:00') /* Chiran Leggings */
-     , (0x7C6A9119, 0x7C6A9746, '2019-02-10 00:00:00') /* Acid Naginata */
-     , (0x7C6A9119, 0x7C6A9747, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A9748, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7C6A9119, 0x7C6A9749, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7C6A9119, 0x7C6A974A, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7C6A9119, 0x7C6A974B, '2019-02-10 00:00:00') /* Life Spells Certificate */
-     , (0x7C6A9119, 0x7C6A974C, '2019-02-10 00:00:00') /* Sceptre */
-     , (0x7C6A9119, 0x7C6A974D, '2019-02-10 00:00:00') /* Peerless Lockpick */
-     , (0x7C6A9119, 0x7C6A974E, '2019-02-10 00:00:00') /* Mutated Olthoi Gland */
-     , (0x7C6A9119, 0x7C6A974F, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C6A9119, 0x7C6A9750, '2019-02-10 00:00:00') /* Mutated Olthoi Gland */
-     , (0x7C6A9119, 0x7C6A9751, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C6A9119, 0x7C6A9752, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C6A9119, 0x7C6A9753, '2019-02-10 00:00:00') /* Superb Lockpick */
-     , (0x7C6A9119, 0x7C6A9754, '2019-02-10 00:00:00') /* Mutated Olthoi Gland */
-     , (0x7C6A9119, 0x7C6A9755, '2019-02-10 00:00:00') /* Hood */
-     , (0x7C6A9119, 0x7C6A9756, '2019-02-10 00:00:00') /* Olthoi Amuli Gauntlets */
-     , (0x7C6A9119, 0x7C6A9757, '2019-02-10 00:00:00') /* Olthoi Koujia Gauntlets */
-     , (0x7C6A9119, 0x7C6A9758, '2019-02-10 00:00:00') /* Nariyid Breastplate */;
+VALUES (0x7C6A9119, 0x7C6A911A, '2019-02-10 00:00:00') /* Orb (2366) */
+     , (0x7C6A9119, 0x7C6A911B, '2019-02-10 00:00:00') /* Salvaged  (100) (21065) */
+     , (0x7C6A9119, 0x7C6A911C, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x7C6A9119, 0x7C6A911D, '2019-02-10 00:00:00') /* Leather Vest (25638) */
+     , (0x7C6A9119, 0x7C6A911E, '2019-02-10 00:00:00') /* Olthoi Greaves (37194) */
+     , (0x7C6A9119, 0x7C6A911F, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A9120, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9121, '2019-02-10 00:00:00') /* Studded Leather Cuirass (53) */
+     , (0x7C6A9119, 0x7C6A9122, '2019-02-10 00:00:00') /* Training Atlatl (12746) */
+     , (0x7C6A9119, 0x7C6A9123, '2019-02-10 00:00:00') /* Training Tungi (45533) */
+     , (0x7C6A9119, 0x7C6A9124, '2019-02-10 00:00:00') /* Ust (20646) */
+     , (0x7C6A9119, 0x7C6A9125, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */
+     , (0x7C6A9119, 0x7C6A9126, '2019-02-10 00:00:00') /* Academy Coat (13213) */
+     , (0x7C6A9119, 0x7C6A9127, '2019-02-10 00:00:00') /* Handy Healing Kit (628) */
+     , (0x7C6A9119, 0x7C6A9128, '2019-02-10 00:00:00') /* Crude Lockpick (511) */
+     , (0x7C6A9119, 0x7C6A9129, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A912A, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x7C6A9119, 0x7C6A912B, '2019-02-10 00:00:00') /* Coronet (31866) */
+     , (0x7C6A9119, 0x7C6A912C, '2019-02-10 00:00:00') /* Signet Crown (31868) */
+     , (0x7C6A9119, 0x7C6A912D, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A912E, '2019-02-10 00:00:00') /* Chevron Cloak (44852) */
+     , (0x7C6A9119, 0x7C6A912F, '2019-02-10 00:00:00') /* Wand (2472) */
+     , (0x7C6A9119, 0x7C6A9130, '2019-02-10 00:00:00') /* Orb (2366) */
+     , (0x7C6A9119, 0x7C6A9131, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A9132, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x7C6A9119, 0x7C6A9133, '2019-02-10 00:00:00') /* Piercing Atlatl (29257) */
+     , (0x7C6A9119, 0x7C6A9134, '2019-02-10 00:00:00') /* Flaming Claw (31787) */
+     , (0x7C6A9119, 0x7C6A9135, '2019-02-10 00:00:00') /* Fire Atlatl (29255) */
+     , (0x7C6A9119, 0x7C6A9136, '2019-02-10 00:00:00') /* Fire Slingshot (31816) */
+     , (0x7C6A9119, 0x7C6A9137, '2019-02-10 00:00:00') /* Fire Crossbow (29248) */
+     , (0x7C6A9119, 0x7C6A9138, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9139, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A913A, '2019-02-10 00:00:00') /* Haebrean Pauldrons (42754) */
+     , (0x7C6A9119, 0x7C6A913B, '2019-02-10 00:00:00') /* Platemail Hauberk (72) */
+     , (0x7C6A9119, 0x7C6A913C, '2019-02-10 00:00:00') /* Alduressa Coat (28629) */
+     , (0x7C6A9119, 0x7C6A913D, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A913E, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A913F, '2019-02-10 00:00:00') /* Goggles (41484) */
+     , (0x7C6A9119, 0x7C6A9140, '2019-02-10 00:00:00') /* Covenant Shield (40713) */
+     , (0x7C6A9119, 0x7C6A9141, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9142, '2019-02-10 00:00:00') /* Covenant Tassets (40704) */
+     , (0x7C6A9119, 0x7C6A9143, '2019-02-10 00:00:00') /* Salvager's Helm (30881) */
+     , (0x7C6A9119, 0x7C6A9144, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9145, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9146, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9147, '2019-02-10 00:00:00') /* Celdon Sleeves (6048) */
+     , (0x7C6A9119, 0x7C6A9148, '2019-02-10 00:00:00') /* Haebrean Breastplate (42749) */
+     , (0x7C6A9119, 0x7C6A9149, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A914A, '2019-02-10 00:00:00') /* Acid Long Sword (3881) */
+     , (0x7C6A9119, 0x7C6A914B, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A914C, '2019-02-10 00:00:00') /* Stormwood Sword (3882) */
+     , (0x7C6A9119, 0x7C6A914D, '2019-02-10 00:00:00') /* Flaming Long Sword (3883) */
+     , (0x7C6A9119, 0x7C6A914E, '2019-02-10 00:00:00') /* Frost Ken (3825) */
+     , (0x7C6A9119, 0x7C6A914F, '2019-02-10 00:00:00') /* Tachi (353) */
+     , (0x7C6A9119, 0x7C6A9150, '2019-02-10 00:00:00') /* Long Sword (351) */
+     , (0x7C6A9119, 0x7C6A9151, '2019-02-10 00:00:00') /* Flaming Ken (3824) */
+     , (0x7C6A9119, 0x7C6A9152, '2019-02-10 00:00:00') /* Lightning Tachi (3890) */
+     , (0x7C6A9119, 0x7C6A9153, '2019-02-10 00:00:00') /* Flaming Flamberge (30577) */
+     , (0x7C6A9119, 0x7C6A9154, '2019-02-10 00:00:00') /* Flaming Dericost Blade (31762) */
+     , (0x7C6A9119, 0x7C6A9155, '2019-02-10 00:00:00') /* Schlager (45108) */
+     , (0x7C6A9119, 0x7C6A9156, '2019-02-10 00:00:00') /* Frost Long Sword (3884) */
+     , (0x7C6A9119, 0x7C6A9157, '2019-02-10 00:00:00') /* Flaming Tachi (3891) */
+     , (0x7C6A9119, 0x7C6A9158, '2019-02-10 00:00:00') /* Flaming Shamshir (3855) */
+     , (0x7C6A9119, 0x7C6A9159, '2019-02-10 00:00:00') /* Ken (327) */
+     , (0x7C6A9119, 0x7C6A915A, '2019-02-10 00:00:00') /* Takuba (354) */
+     , (0x7C6A9119, 0x7C6A915B, '2019-02-10 00:00:00') /* Flamberge (30576) */
+     , (0x7C6A9119, 0x7C6A915C, '2019-02-10 00:00:00') /* Frost Takuba (3896) */
+     , (0x7C6A9119, 0x7C6A915D, '2019-02-10 00:00:00') /* Lightning Schlager (45110) */
+     , (0x7C6A9119, 0x7C6A915E, '2019-02-10 00:00:00') /* Font of Jojii (25818) */
+     , (0x7C6A9119, 0x7C6A915F, '2019-02-10 00:00:00') /* Salvaged  (100) (21076) */
+     , (0x7C6A9119, 0x7C6A9160, '2019-02-10 00:00:00') /* Salvaged  (100) (21049) */
+     , (0x7C6A9119, 0x7C6A9161, '2019-02-10 00:00:00') /* Lorica Helm (27223) */
+     , (0x7C6A9119, 0x7C6A9162, '2019-02-10 00:00:00') /* Salvaged  (100) (21045) */
+     , (0x7C6A9119, 0x7C6A9163, '2019-02-10 00:00:00') /* Salvaged  (100) (21079) */
+     , (0x7C6A9119, 0x7C6A9164, '2019-02-10 00:00:00') /* Deceiver's Crystal (30200) */
+     , (0x7C6A9119, 0x7C6A9165, '2019-02-10 00:00:00') /* Chevron Cloak (44852) */
+     , (0x7C6A9119, 0x7C6A9166, '2019-02-10 00:00:00') /* Battle Axe (301) */
+     , (0x7C6A9119, 0x7C6A9167, '2019-02-10 00:00:00') /* Scroll of Imperil Other VI (2706) */
+     , (0x7C6A9119, 0x7C6A9168, '2019-02-10 00:00:00') /* Quadruple-bladed Axe (24557) */
+     , (0x7C6A9119, 0x7C6A9169, '2019-02-10 00:00:00') /* War Hammer (359) */
+     , (0x7C6A9119, 0x7C6A916A, '2019-02-10 00:00:00') /* War Hammer (359) */
+     , (0x7C6A9119, 0x7C6A916B, '2019-02-10 00:00:00') /* Aura of Hermetic Link Self VI (2892) */
+     , (0x7C6A9119, 0x7C6A916C, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x7C6A9119, 0x7C6A916D, '2019-02-10 00:00:00') /* Hyssop (774) */
+     , (0x7C6A9119, 0x7C6A916E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A916F, '2019-02-10 00:00:00') /* Dericost Blade (31759) */
+     , (0x7C6A9119, 0x7C6A9170, '2019-02-10 00:00:00') /* Qafiya (128) */
+     , (0x7C6A9119, 0x7C6A9171, '2019-02-10 00:00:00') /* Morning Star (332) */
+     , (0x7C6A9119, 0x7C6A9172, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
+     , (0x7C6A9119, 0x7C6A9173, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9174, '2019-02-10 00:00:00') /* Acid Olthoi Axe (24239) */
+     , (0x7C6A9119, 0x7C6A9175, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9176, '2019-02-10 00:00:00') /* Robe of the Tundra (23593) */
+     , (0x7C6A9119, 0x7C6A9177, '2019-02-10 00:00:00') /* Tachi (353) */
+     , (0x7C6A9119, 0x7C6A9178, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A9179, '2019-02-10 00:00:00') /* Yoroi Breastplate (43) */
+     , (0x7C6A9119, 0x7C6A917A, '2019-02-10 00:00:00') /* Experience Certificate (46415) */
+     , (0x7C6A9119, 0x7C6A917B, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A917C, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A917D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A917E, '2019-02-10 00:00:00') /* Hero Token (35810) */
+     , (0x7C6A9119, 0x7C6A917F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9180, '2019-02-10 00:00:00') /* An Ancient Masonry on Aerlinthe (32968) */
+     , (0x7C6A9119, 0x7C6A9181, '2019-02-10 00:00:00') /* Frost Sceptre (29263) */
+     , (0x7C6A9119, 0x7C6A9182, '2019-02-10 00:00:00') /* Gem of Knowledge (36510) */
+     , (0x7C6A9119, 0x7C6A9183, '2019-02-10 00:00:00') /* Greater Gem of Knowledge (36509) */
+     , (0x7C6A9119, 0x7C6A9184, '2019-02-10 00:00:00') /* Ink of Objectification (37355) */
+     , (0x7C6A9119, 0x7C6A9185, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7C6A9119, 0x7C6A9186, '2019-02-10 00:00:00') /* Stamina Tincture (27326) */
+     , (0x7C6A9119, 0x7C6A9187, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x7C6A9119, 0x7C6A9188, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A9189, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A918A, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A918B, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A918C, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A918D, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A918E, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A918F, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A9190, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9191, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9192, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9193, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9194, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9195, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A9196, '2019-02-10 00:00:00') /* Greater Mana Stone (2436) */
+     , (0x7C6A9119, 0x7C6A9197, '2019-02-10 00:00:00') /* Asheron's Second Missive (8814) */
+     , (0x7C6A9119, 0x7C6A9198, '2019-02-10 00:00:00') /* Festivus Rug (36909) */
+     , (0x7C6A9119, 0x7C6A9199, '2019-02-10 00:00:00') /* Virindi Mask (8153) */
+     , (0x7C6A9119, 0x7C6A919A, '2019-02-10 00:00:00') /* Superior Helmet (1518) */
+     , (0x7C6A9119, 0x7C6A919B, '2019-02-10 00:00:00') /* Quintessence Sickle (10765) */
+     , (0x7C6A9119, 0x7C6A919C, '2019-02-10 00:00:00') /* Virindi Mask (8153) */
+     , (0x7C6A9119, 0x7C6A919D, '2019-02-10 00:00:00') /* Osseous Mace (11997) */
+     , (0x7C6A9119, 0x7C6A919E, '2019-02-10 00:00:00') /* Burnja's Board with Nails (35407) */
+     , (0x7C6A9119, 0x7C6A919F, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */
+     , (0x7C6A9119, 0x7C6A91A0, '2019-02-10 00:00:00') /* Pack Martine (29921) */
+     , (0x7C6A9119, 0x7C6A91A1, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x7C6A9119, 0x7C6A91A2, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen (29922) */
+     , (0x7C6A9119, 0x7C6A91A3, '2019-02-10 00:00:00') /* Pack Burun Kukuur (29919) */
+     , (0x7C6A9119, 0x7C6A91A4, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */
+     , (0x7C6A9119, 0x7C6A91A5, '2019-02-10 00:00:00') /* Virindi Profatrix Mask (22014) */
+     , (0x7C6A9119, 0x7C6A91A6, '2019-02-10 00:00:00') /* Lightning Lugian Hammer (31766) */
+     , (0x7C6A9119, 0x7C6A91A7, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x7C6A9119, 0x7C6A91A8, '2019-02-10 00:00:00') /* Olthoi Greaves (37194) */
+     , (0x7C6A9119, 0x7C6A91A9, '2019-02-10 00:00:00') /* Baggy Tunic (2595) */
+     , (0x7C6A9119, 0x7C6A91AA, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A91AB, '2019-02-10 00:00:00') /* Fire Staff (37220) */
+     , (0x7C6A9119, 0x7C6A91AC, '2019-02-10 00:00:00') /* Piercing Staff (37222) */
+     , (0x7C6A9119, 0x7C6A91AD, '2019-02-10 00:00:00') /* Covenant Breastplate (21152) */
+     , (0x7C6A9119, 0x7C6A91AE, '2019-02-10 00:00:00') /* Chiran Helm (27217) */
+     , (0x7C6A9119, 0x7C6A91AF, '2019-02-10 00:00:00') /* Studded Leather Tassets (112) */
+     , (0x7C6A9119, 0x7C6A91B0, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7C6A9119, 0x7C6A91B1, '2019-02-10 00:00:00') /* Chevron Cloak (44850) */
+     , (0x7C6A9119, 0x7C6A91B2, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A91B3, '2019-02-10 00:00:00') /* Olthoi Amuli Helm (37196) */
+     , (0x7C6A9119, 0x7C6A91B4, '2019-02-10 00:00:00') /* Coronet (31866) */
+     , (0x7C6A9119, 0x7C6A91B5, '2019-02-10 00:00:00') /* Flaming Jitte (3804) */
+     , (0x7C6A9119, 0x7C6A91B6, '2019-02-10 00:00:00') /* Frost Atlatl (29256) */
+     , (0x7C6A9119, 0x7C6A91B7, '2019-02-10 00:00:00') /* Yaoji (45406) */
+     , (0x7C6A9119, 0x7C6A91B8, '2019-02-10 00:00:00') /* Lightning Poniard (30597) */
+     , (0x7C6A9119, 0x7C6A91B9, '2019-02-10 00:00:00') /* Alduressa Boots (30950) */
+     , (0x7C6A9119, 0x7C6A91BA, '2019-02-10 00:00:00') /* Morning Star (332) */
+     , (0x7C6A9119, 0x7C6A91BB, '2019-02-10 00:00:00') /* Acid Jo (22154) */
+     , (0x7C6A9119, 0x7C6A91BC, '2019-02-10 00:00:00') /* Tenassa Sleeves (28624) */
+     , (0x7C6A9119, 0x7C6A91BD, '2019-02-10 00:00:00') /* Dagger (45421) */
+     , (0x7C6A9119, 0x7C6A91BE, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x7C6A9119, 0x7C6A91BF, '2019-02-10 00:00:00') /* Fire Trident (7792) */
+     , (0x7C6A9119, 0x7C6A91C0, '2019-02-10 00:00:00') /* Blunt Compound Bow (31800) */
+     , (0x7C6A9119, 0x7C6A91C1, '2019-02-10 00:00:00') /* Koujia Breastplate (6003) */
+     , (0x7C6A9119, 0x7C6A91C2, '2019-02-10 00:00:00') /* Hefty Walking Cane (22168) */
+     , (0x7C6A9119, 0x7C6A91C3, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
+     , (0x7C6A9119, 0x7C6A91C4, '2019-02-10 00:00:00') /* Trident (7772) */
+     , (0x7C6A9119, 0x7C6A91C5, '2019-02-10 00:00:00') /* Sedgemail Leather Vest (43828) */
+     , (0x7C6A9119, 0x7C6A91C6, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
+     , (0x7C6A9119, 0x7C6A91C7, '2019-02-10 00:00:00') /* Mutated Olthoi Gland (43747) */
+     , (0x7C6A9119, 0x7C6A91C8, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91C9, '2019-02-10 00:00:00') /* Acid Bow (29238) */
+     , (0x7C6A9119, 0x7C6A91CA, '2019-02-10 00:00:00') /* Bone Bow (29239) */
+     , (0x7C6A9119, 0x7C6A91CB, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A91CC, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7C6A9119, 0x7C6A91CD, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x7C6A9119, 0x7C6A91CE, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A91CF, '2019-02-10 00:00:00') /* Acid Compound Crossbow (31806) */
+     , (0x7C6A9119, 0x7C6A91D0, '2019-02-10 00:00:00') /* Acid Baton (31820) */
+     , (0x7C6A9119, 0x7C6A91D1, '2019-02-10 00:00:00') /* Acid Board with Nail (31775) */
+     , (0x7C6A9119, 0x7C6A91D2, '2019-02-10 00:00:00') /* Electric Board with Nail (31776) */
+     , (0x7C6A9119, 0x7C6A91D3, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x7C6A9119, 0x7C6A91D4, '2019-02-10 00:00:00') /* Piercing Bow (29243) */
+     , (0x7C6A9119, 0x7C6A91D5, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7C6A9119, 0x7C6A91D6, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A91D7, '2019-02-10 00:00:00') /* Acid Compound Bow (31799) */
+     , (0x7C6A9119, 0x7C6A91D8, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A91D9, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6A9119, 0x7C6A91DA, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A91DB, '2019-02-10 00:00:00') /* Baggy Shirt (2590) */
+     , (0x7C6A9119, 0x7C6A91DC, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7C6A9119, 0x7C6A91DD, '2019-02-10 00:00:00') /* Slashing Compound Bow (31798) */
+     , (0x7C6A9119, 0x7C6A91DE, '2019-02-10 00:00:00') /* Lancet (31794) */
+     , (0x7C6A9119, 0x7C6A91DF, '2019-02-10 00:00:00') /* Knife (45416) */
+     , (0x7C6A9119, 0x7C6A91E0, '2019-02-10 00:00:00') /* Fire Staff (37220) */
+     , (0x7C6A9119, 0x7C6A91E1, '2019-02-10 00:00:00') /* Ice Wand (31824) */
+     , (0x7C6A9119, 0x7C6A91E2, '2019-02-10 00:00:00') /* Frost Sceptre (29263) */
+     , (0x7C6A9119, 0x7C6A91E3, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
+     , (0x7C6A9119, 0x7C6A91E4, '2019-02-10 00:00:00') /* Glyph of Self (37331) */
+     , (0x7C6A9119, 0x7C6A91E5, '2019-02-10 00:00:00') /* Hammer (45113) */
+     , (0x7C6A9119, 0x7C6A91E6, '2019-02-10 00:00:00') /* High-Stakes Gambling Token (44717) */
+     , (0x7C6A9119, 0x7C6A91E7, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A91E8, '2019-02-10 00:00:00') /* Platemail Hauberk (72) */
+     , (0x7C6A9119, 0x7C6A91E9, '2019-02-10 00:00:00') /* Salvage (100) (21052) */
+     , (0x7C6A9119, 0x7C6A91EA, '2019-02-10 00:00:00') /* Flaming Great Star Mace (41060) */
+     , (0x7C6A9119, 0x7C6A91EB, '2019-02-10 00:00:00') /* Frost Stick (31792) */
+     , (0x7C6A9119, 0x7C6A91EC, '2019-02-10 00:00:00') /* Lancet (31794) */
+     , (0x7C6A9119, 0x7C6A91ED, '2019-02-10 00:00:00') /* Lightning Claw (31786) */
+     , (0x7C6A9119, 0x7C6A91EE, '2019-02-10 00:00:00') /* Short Sword (45396) */
+     , (0x7C6A9119, 0x7C6A91EF, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91F0, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A91F1, '2019-02-10 00:00:00') /* Intricate Obsidian Key (9316) */
+     , (0x7C6A9119, 0x7C6A91F2, '2019-02-10 00:00:00') /* Scroll of Archer's Gift (20485) */
+     , (0x7C6A9119, 0x7C6A91F3, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x7C6A9119, 0x7C6A91F4, '2019-02-10 00:00:00') /* T'ing's Crystal (41257) */
+     , (0x7C6A9119, 0x7C6A91F5, '2019-02-10 00:00:00') /* Salvage (29576) */
+     , (0x7C6A9119, 0x7C6A91F6, '2019-02-10 00:00:00') /* Diamond Powder (12689) */
+     , (0x7C6A9119, 0x7C6A91F7, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91F8, '2019-02-10 00:00:00') /* Hunter's Stock Amber (32272) */
+     , (0x7C6A9119, 0x7C6A91F9, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91FA, '2019-02-10 00:00:00') /* Bobo's Stout (29106) */
+     , (0x7C6A9119, 0x7C6A91FB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91FC, '2019-02-10 00:00:00') /* Tusker Spit Ale (29109) */
+     , (0x7C6A9119, 0x7C6A91FD, '2019-02-10 00:00:00') /* Duke Raoul's Distillation (32271) */
+     , (0x7C6A9119, 0x7C6A91FE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A91FF, '2019-02-10 00:00:00') /* Dark Sliver (6059) */
+     , (0x7C6A9119, 0x7C6A9200, '2019-02-10 00:00:00') /* Swamp Stone (3694) */
+     , (0x7C6A9119, 0x7C6A9201, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A9202, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9203, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9204, '2019-02-10 00:00:00') /* Copper Scarab (686) */
+     , (0x7C6A9119, 0x7C6A9205, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A9206, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7C6A9119, 0x7C6A9207, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A9208, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A9209, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A920A, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A920B, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A920C, '2019-02-10 00:00:00') /* Frost Greataxe (41056) */
+     , (0x7C6A9119, 0x7C6A920D, '2019-02-10 00:00:00') /* Flaming Dagger (45424) */
+     , (0x7C6A9119, 0x7C6A920E, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A920F, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A9210, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x7C6A9119, 0x7C6A9211, '2019-02-10 00:00:00') /* Lugian Hammer (31764) */
+     , (0x7C6A9119, 0x7C6A9212, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9213, '2019-02-10 00:00:00') /* Lightning Greataxe (41054) */
+     , (0x7C6A9119, 0x7C6A9214, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x7C6A9119, 0x7C6A9215, '2019-02-10 00:00:00') /* Leather Pauldrons (25648) */
+     , (0x7C6A9119, 0x7C6A9216, '2019-02-10 00:00:00') /* Bordered Cloak (44853) */
+     , (0x7C6A9119, 0x7C6A9217, '2019-02-10 00:00:00') /* Acid Tetsubo (40636) */
+     , (0x7C6A9119, 0x7C6A9218, '2019-02-10 00:00:00') /* Flaming Dagger (45424) */
+     , (0x7C6A9119, 0x7C6A9219, '2019-02-10 00:00:00') /* Frost Pike (41050) */
+     , (0x7C6A9119, 0x7C6A921A, '2019-02-10 00:00:00') /* Lorica Helm (27223) */
+     , (0x7C6A9119, 0x7C6A921B, '2019-02-10 00:00:00') /* Spine Glaive (31779) */
+     , (0x7C6A9119, 0x7C6A921C, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A921D, '2019-02-10 00:00:00') /* Olthoi Bracers (40693) */
+     , (0x7C6A9119, 0x7C6A921E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A921F, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x7C6A9119, 0x7C6A9220, '2019-02-10 00:00:00') /* Diforsa Pauldrons (28623) */
+     , (0x7C6A9119, 0x7C6A9221, '2019-02-10 00:00:00') /* Chainmail Shirt (96) */
+     , (0x7C6A9119, 0x7C6A9222, '2019-02-10 00:00:00') /* Yoroi Pauldrons (90) */
+     , (0x7C6A9119, 0x7C6A9223, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A9224, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A9225, '2019-02-10 00:00:00') /* Pike (41046) */
+     , (0x7C6A9119, 0x7C6A9226, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A9227, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7C6A9119, 0x7C6A9228, '2019-02-10 00:00:00') /* Frost Jo (22157) */
+     , (0x7C6A9119, 0x7C6A9229, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A922A, '2019-02-10 00:00:00') /* Cloak (44840) */
+     , (0x7C6A9119, 0x7C6A922B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A922C, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A922D, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A922E, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A922F, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A9230, '2019-02-10 00:00:00') /* Covenant Tassets (40714) */
+     , (0x7C6A9119, 0x7C6A9231, '2019-02-10 00:00:00') /* Olthoi Greaves (37194) */
+     , (0x7C6A9119, 0x7C6A9232, '2019-02-10 00:00:00') /* Stamina Philtre (27325) */
+     , (0x7C6A9119, 0x7C6A9233, '2019-02-10 00:00:00') /* Covenant Shield (40713) */
+     , (0x7C6A9119, 0x7C6A9234, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A9235, '2019-02-10 00:00:00') /* Khanjar (45431) */
+     , (0x7C6A9119, 0x7C6A9236, '2019-02-10 00:00:00') /* Covenant Girth (40699) */
+     , (0x7C6A9119, 0x7C6A9237, '2019-02-10 00:00:00') /* Olthoi Girth (37193) */
+     , (0x7C6A9119, 0x7C6A9238, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A9239, '2019-02-10 00:00:00') /* Sedgemail Leather Vest (43828) */
+     , (0x7C6A9119, 0x7C6A923A, '2019-02-10 00:00:00') /* Sedgemail Leather Pants (43831) */
+     , (0x7C6A9119, 0x7C6A923B, '2019-02-10 00:00:00') /* Olthoi Bracers (40675) */
+     , (0x7C6A9119, 0x7C6A923C, '2019-02-10 00:00:00') /* Covenant Sollerets (21150) */
+     , (0x7C6A9119, 0x7C6A923D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A923E, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7C6A9119, 0x7C6A923F, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9240, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A9241, '2019-02-10 00:00:00') /* Lightning Hand Wraps (45120) */
+     , (0x7C6A9119, 0x7C6A9242, '2019-02-10 00:00:00') /* Acid Quarter Staff (22164) */
+     , (0x7C6A9119, 0x7C6A9243, '2019-02-10 00:00:00') /* Acid Atlatl (29252) */
+     , (0x7C6A9119, 0x7C6A9244, '2019-02-10 00:00:00') /* Electric Naginata (7798) */
+     , (0x7C6A9119, 0x7C6A9245, '2019-02-10 00:00:00') /* Tenassa Breastplate (31026) */
+     , (0x7C6A9119, 0x7C6A9246, '2019-02-10 00:00:00') /* Diforsa Tassets (28626) */
+     , (0x7C6A9119, 0x7C6A9247, '2019-02-10 00:00:00') /* Chainmail Shirt (96) */
+     , (0x7C6A9119, 0x7C6A9248, '2019-02-10 00:00:00') /* White Bunny Slippers (37210) */
+     , (0x7C6A9119, 0x7C6A9249, '2019-02-10 00:00:00') /* Haebrean Gauntlets (42750) */
+     , (0x7C6A9119, 0x7C6A924A, '2019-02-10 00:00:00') /* Koujia Leggings (6004) */
+     , (0x7C6A9119, 0x7C6A924B, '2019-02-10 00:00:00') /* Chainmail Basinet (35) */
+     , (0x7C6A9119, 0x7C6A924C, '2019-02-10 00:00:00') /* Lorica Gauntlets (27222) */
+     , (0x7C6A9119, 0x7C6A924D, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A924E, '2019-02-10 00:00:00') /* White Bunny Slippers (37210) */
+     , (0x7C6A9119, 0x7C6A924F, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A9250, '2019-02-10 00:00:00') /* Olthoi Bracers (40675) */
+     , (0x7C6A9119, 0x7C6A9251, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A9252, '2019-02-10 00:00:00') /* Olthoi Breastplate (37216) */
+     , (0x7C6A9119, 0x7C6A9253, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets (37187) */
+     , (0x7C6A9119, 0x7C6A9254, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets (37208) */
+     , (0x7C6A9119, 0x7C6A9255, '2019-02-10 00:00:00') /* Olthoi Greaves (37194) */
+     , (0x7C6A9119, 0x7C6A9256, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x7C6A9119, 0x7C6A9257, '2019-02-10 00:00:00') /* Scalemail Gauntlets (58) */
+     , (0x7C6A9119, 0x7C6A9258, '2019-02-10 00:00:00') /* Frost Claw (31783) */
+     , (0x7C6A9119, 0x7C6A9259, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A925A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A925B, '2019-02-10 00:00:00') /* Small Belt Pouch (139) */
+     , (0x7C6A9119, 0x7C6A925C, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x7C6A9119, 0x7C6A925D, '2019-02-10 00:00:00') /* Gold Shallows Shredder Fin (31904) */
+     , (0x7C6A9119, 0x7C6A925E, '2019-02-10 00:00:00') /* Gold Moarsman Tooth (31903) */
+     , (0x7C6A9119, 0x7C6A925F, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Staff (Level 180+) (44293) */
+     , (0x7C6A9119, 0x7C6A9260, '2019-02-10 00:00:00') /* Life Giver's Crystal (30218) */
+     , (0x7C6A9119, 0x7C6A9261, '2019-02-10 00:00:00') /* Tinker's Crystal (30215) */
+     , (0x7C6A9119, 0x7C6A9262, '2019-02-10 00:00:00') /* Evader's Crystal (30228) */
+     , (0x7C6A9119, 0x7C6A9263, '2019-02-10 00:00:00') /* T'ing's Crystal (41257) */
+     , (0x7C6A9119, 0x7C6A9264, '2019-02-10 00:00:00') /* Ben Ten's Crystal (30242) */
+     , (0x7C6A9119, 0x7C6A9265, '2019-02-10 00:00:00') /* Tinker's Crystal (41256) */
+     , (0x7C6A9119, 0x7C6A9266, '2019-02-10 00:00:00') /* Letter From Home (30985) */
+     , (0x7C6A9119, 0x7C6A9267, '2019-02-10 00:00:00') /* Electric Bow (29240) */
+     , (0x7C6A9119, 0x7C6A9268, '2019-02-10 00:00:00') /* A Call To Arms (11929) */
+     , (0x7C6A9119, 0x7C6A9269, '2019-02-10 00:00:00') /* A Call To Arms (11929) */
+     , (0x7C6A9119, 0x7C6A926A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A926B, '2019-02-10 00:00:00') /* Diadem (31867) */
+     , (0x7C6A9119, 0x7C6A926C, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A926D, '2019-02-10 00:00:00') /* Dark Shard (6058) */
+     , (0x7C6A9119, 0x7C6A926E, '2019-02-10 00:00:00') /* Salvage (39) (20993) */
+     , (0x7C6A9119, 0x7C6A926F, '2019-02-10 00:00:00') /* Dereth Map (11931) */
+     , (0x7C6A9119, 0x7C6A9270, '2019-02-10 00:00:00') /* Oxidized Statue (19224) */
+     , (0x7C6A9119, 0x7C6A9271, '2019-02-10 00:00:00') /* Dho Vest and Over-Robe (44800) */
+     , (0x7C6A9119, 0x7C6A9272, '2019-02-10 00:00:00') /* Bending Willow and Setting Sun (22850) */
+     , (0x7C6A9119, 0x7C6A9273, '2019-02-10 00:00:00') /* Into the Unknown (249) */
+     , (0x7C6A9119, 0x7C6A9274, '2019-02-10 00:00:00') /* Map of Auberean (27433) */
+     , (0x7C6A9119, 0x7C6A9275, '2019-02-10 00:00:00') /* The Studious Mind (250) */
+     , (0x7C6A9119, 0x7C6A9276, '2019-02-10 00:00:00') /* Falling Leaves (22849) */
+     , (0x7C6A9119, 0x7C6A9277, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x7C6A9119, 0x7C6A9278, '2019-02-10 00:00:00') /* Modified Iasparailaun (46959) */
+     , (0x7C6A9119, 0x7C6A9279, '2019-02-10 00:00:00') /* Renegade Herbal Kit (27671) */
+     , (0x7C6A9119, 0x7C6A927A, '2019-02-10 00:00:00') /* Rare Red Pack Idol (32793) */
+     , (0x7C6A9119, 0x7C6A927B, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A927C, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A927D, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A927E, '2019-02-10 00:00:00') /* Abominable Pack Snowman (34407) */
+     , (0x7C6A9119, 0x7C6A927F, '2019-02-10 00:00:00') /* A Horn of Vigilance (11935) */
+     , (0x7C6A9119, 0x7C6A9280, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7C6A9119, 0x7C6A9281, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A9282, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7C6A9119, 0x7C6A9283, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7C6A9119, 0x7C6A9284, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A9285, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7C6A9119, 0x7C6A9286, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7C6A9119, 0x7C6A9287, '2019-02-10 00:00:00') /* Vaulter's Crystal (30216) */
+     , (0x7C6A9119, 0x7C6A9288, '2019-02-10 00:00:00') /* Life Giver's Crystal (30218) */
+     , (0x7C6A9119, 0x7C6A9289, '2019-02-10 00:00:00') /* Ice Badge (25787) */
+     , (0x7C6A9119, 0x7C6A928A, '2019-02-10 00:00:00') /* Dark Speck (6060) */
+     , (0x7C6A9119, 0x7C6A928B, '2019-02-10 00:00:00') /* Silver Pea (8331) */
+     , (0x7C6A9119, 0x7C6A928C, '2019-02-10 00:00:00') /* Salvage (87) (21077) */
+     , (0x7C6A9119, 0x7C6A928D, '2019-02-10 00:00:00') /* Salvaged  (54) (20984) */
+     , (0x7C6A9119, 0x7C6A928E, '2019-02-10 00:00:00') /* Salvage (100) (21068) */
+     , (0x7C6A9119, 0x7C6A928F, '2019-02-10 00:00:00') /* Salvaged  (100) (20981) */
+     , (0x7C6A9119, 0x7C6A9290, '2019-02-10 00:00:00') /* Salvage (100) (21042) */
+     , (0x7C6A9119, 0x7C6A9291, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9292, '2019-02-10 00:00:00') /* Lesser Corrupted Essence (44469) */
+     , (0x7C6A9119, 0x7C6A9293, '2019-02-10 00:00:00') /* Alacritous Ink (37359) */
+     , (0x7C6A9119, 0x7C6A9294, '2019-02-10 00:00:00') /* Ink of Objectification (37355) */
+     , (0x7C6A9119, 0x7C6A9295, '2019-02-10 00:00:00') /* Ink of Conveyance (37360) */
+     , (0x7C6A9119, 0x7C6A9296, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
+     , (0x7C6A9119, 0x7C6A9297, '2019-02-10 00:00:00') /* Quill of Infliction (37363) */
+     , (0x7C6A9119, 0x7C6A9298, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9299, '2019-02-10 00:00:00') /* Glyph of Corrosion (37342) */
+     , (0x7C6A9119, 0x7C6A929A, '2019-02-10 00:00:00') /* Glyph of Bludgeoning (37347) */
+     , (0x7C6A9119, 0x7C6A929B, '2019-02-10 00:00:00') /* Glyph of Missile Weapons (37371) */
+     , (0x7C6A9119, 0x7C6A929C, '2019-02-10 00:00:00') /* Blunt Compound Bow (31800) */
+     , (0x7C6A9119, 0x7C6A929D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A929E, '2019-02-10 00:00:00') /* Scroll of Void Magic Ineptitude Other VII (43373) */
+     , (0x7C6A9119, 0x7C6A929F, '2019-02-10 00:00:00') /* Quadrelle (40623) */
+     , (0x7C6A9119, 0x7C6A92A0, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A92A1, '2019-02-10 00:00:00') /* Glyph of Bludgeoning (37347) */
+     , (0x7C6A9119, 0x7C6A92A2, '2019-02-10 00:00:00') /* Glyph of Lightning (37314) */
+     , (0x7C6A9119, 0x7C6A92A3, '2019-02-10 00:00:00') /* Platemail Cuirass (51) */
+     , (0x7C6A9119, 0x7C6A92A4, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
+     , (0x7C6A9119, 0x7C6A92A5, '2019-02-10 00:00:00') /* Yoroi Leggings (2437) */
+     , (0x7C6A9119, 0x7C6A92A6, '2019-02-10 00:00:00') /* Glyph of Piercing (37327) */
+     , (0x7C6A9119, 0x7C6A92A7, '2019-02-10 00:00:00') /* Glyph of Slashing (37332) */
+     , (0x7C6A9119, 0x7C6A92A8, '2019-02-10 00:00:00') /* Glyph of Armor (37345) */
+     , (0x7C6A9119, 0x7C6A92A9, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A92AA, '2019-02-10 00:00:00') /* Glyph of Flame (37301) */
+     , (0x7C6A9119, 0x7C6A92AB, '2019-02-10 00:00:00') /* Slashing Bow (29244) */
+     , (0x7C6A9119, 0x7C6A92AC, '2019-02-10 00:00:00') /* Celdon Sleeves (6048) */
+     , (0x7C6A9119, 0x7C6A92AD, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A92AE, '2019-02-10 00:00:00') /* Priceless Ore (27259) */
+     , (0x7C6A9119, 0x7C6A92AF, '2019-02-10 00:00:00') /* Cave Penguin Cake (28843) */
+     , (0x7C6A9119, 0x7C6A92B0, '2019-02-10 00:00:00') /* Stout Lugian Ale (28452) */
+     , (0x7C6A9119, 0x7C6A92B1, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7C6A9119, 0x7C6A92B2, '2019-02-10 00:00:00') /* Potion of Black Fire (3722) */
+     , (0x7C6A9119, 0x7C6A92B3, '2019-02-10 00:00:00') /* Refreshing Water (27261) */
+     , (0x7C6A9119, 0x7C6A92B4, '2019-02-10 00:00:00') /* Candy Corn (32207) */
+     , (0x7C6A9119, 0x7C6A92B5, '2019-02-10 00:00:00') /* Hearty Lugian Loaf (28453) */
+     , (0x7C6A9119, 0x7C6A92B6, '2019-02-10 00:00:00') /* Trimmed Cloak (44856) */
+     , (0x7C6A9119, 0x7C6A92B7, '2019-02-10 00:00:00') /* Chevron Cloak (44851) */
+     , (0x7C6A9119, 0x7C6A92B8, '2019-02-10 00:00:00') /* Cloak (44840) */
+     , (0x7C6A9119, 0x7C6A92B9, '2019-02-10 00:00:00') /* Halved Cloak (44855) */
+     , (0x7C6A9119, 0x7C6A92BA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A92BB, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A92BC, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A92BD, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A92BE, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A92BF, '2019-02-10 00:00:00') /* Leather Breastplate (39) */
+     , (0x7C6A9119, 0x7C6A92C0, '2019-02-10 00:00:00') /* Leather Breastplate (39) */
+     , (0x7C6A9119, 0x7C6A92C1, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A92C2, '2019-02-10 00:00:00') /* Legendary Key (51586) */
+     , (0x7C6A9119, 0x7C6A92C3, '2019-02-10 00:00:00') /* Legendary Key (51586) */
+     , (0x7C6A9119, 0x7C6A92C4, '2019-02-10 00:00:00') /* Hard Boiled Olthoi Egg (11137) */
+     , (0x7C6A9119, 0x7C6A92C5, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A92C6, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7C6A9119, 0x7C6A92C7, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7C6A9119, 0x7C6A92C8, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7C6A9119, 0x7C6A92C9, '2019-02-10 00:00:00') /* Wide Breeches (2604) */
+     , (0x7C6A9119, 0x7C6A92CA, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7C6A9119, 0x7C6A92CB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A92CC, '2019-02-10 00:00:00') /* Ice Wand (31824) */
+     , (0x7C6A9119, 0x7C6A92CD, '2019-02-10 00:00:00') /* Aetherium Vault Key (40805) */
+     , (0x7C6A9119, 0x7C6A92CE, '2019-02-10 00:00:00') /* Frost Rapier (45107) */
+     , (0x7C6A9119, 0x7C6A92CF, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A92D0, '2019-02-10 00:00:00') /* Katar (326) */
+     , (0x7C6A9119, 0x7C6A92D1, '2019-02-10 00:00:00') /* Flying Machine Instructions (30658) */
+     , (0x7C6A9119, 0x7C6A92D2, '2019-02-10 00:00:00') /* Nayin (334) */
+     , (0x7C6A9119, 0x7C6A92D3, '2019-02-10 00:00:00') /* Dirk of the Fallen (30869) */
+     , (0x7C6A9119, 0x7C6A92D4, '2019-02-10 00:00:00') /* Superb Lockpick (515) */
+     , (0x7C6A9119, 0x7C6A92D5, '2019-02-10 00:00:00') /* Excellent Lockpick (514) */
+     , (0x7C6A9119, 0x7C6A92D6, '2019-02-10 00:00:00') /* Bundle of Arrowheads (4586) */
+     , (0x7C6A9119, 0x7C6A92D7, '2019-02-10 00:00:00') /* Bundle of Arrowshafts (4585) */
+     , (0x7C6A9119, 0x7C6A92D8, '2019-02-10 00:00:00') /* Bundle of Quarrelshafts (5339) */
+     , (0x7C6A9119, 0x7C6A92D9, '2019-02-10 00:00:00') /* Electric Naginata (7798) */
+     , (0x7C6A9119, 0x7C6A92DA, '2019-02-10 00:00:00') /* Studded Leather Sleeves (105) */
+     , (0x7C6A9119, 0x7C6A92DB, '2019-02-10 00:00:00') /* Aerbax's Defeat (31822) */
+     , (0x7C6A9119, 0x7C6A92DC, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A92DD, '2019-02-10 00:00:00') /* Scroll of Honed Control (20235) */
+     , (0x7C6A9119, 0x7C6A92DE, '2019-02-10 00:00:00') /* Scroll of Tusker's Gift (20473) */
+     , (0x7C6A9119, 0x7C6A92DF, '2019-02-10 00:00:00') /* Scroll of Blessing of the Blade Turner (20469) */
+     , (0x7C6A9119, 0x7C6A92E0, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x7C6A9119, 0x7C6A92E1, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A92E2, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A92E3, '2019-02-10 00:00:00') /* Health Elixir (2458) */
+     , (0x7C6A9119, 0x7C6A92E4, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x7C6A9119, 0x7C6A92E5, '2019-02-10 00:00:00') /* Diadem (31867) */
+     , (0x7C6A9119, 0x7C6A92E6, '2019-02-10 00:00:00') /* Salvaged  (100) (20985) */
+     , (0x7C6A9119, 0x7C6A92E7, '2019-02-10 00:00:00') /* Shoyanen's Portal Gem (8982) */
+     , (0x7C6A9119, 0x7C6A92E8, '2019-02-10 00:00:00') /* Salvaged  (100) (20994) */
+     , (0x7C6A9119, 0x7C6A92E9, '2019-02-10 00:00:00') /* Gold Pea (8327) */
+     , (0x7C6A9119, 0x7C6A92EA, '2019-02-10 00:00:00') /* Blueprints for a Burun Fortress (28073) */
+     , (0x7C6A9119, 0x7C6A92EB, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x7C6A9119, 0x7C6A92EC, '2019-02-10 00:00:00') /* Leather Jerkin (25639) */
+     , (0x7C6A9119, 0x7C6A92ED, '2019-02-10 00:00:00') /* Hyssop (774) */
+     , (0x7C6A9119, 0x7C6A92EE, '2019-02-10 00:00:00') /* Salvage (14) (21050) */
+     , (0x7C6A9119, 0x7C6A92EF, '2019-02-10 00:00:00') /* Leather Shorts (25650) */
+     , (0x7C6A9119, 0x7C6A92F0, '2019-02-10 00:00:00') /* Tenassa Breastplate (31026) */
+     , (0x7C6A9119, 0x7C6A92F1, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A92F2, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x7C6A9119, 0x7C6A92F3, '2019-02-10 00:00:00') /* Covenant Helm (40701) */
+     , (0x7C6A9119, 0x7C6A92F4, '2019-02-10 00:00:00') /* Covenant Greaves (40700) */
+     , (0x7C6A9119, 0x7C6A92F5, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A92F6, '2019-02-10 00:00:00') /* Acid Khanjar (45432) */
+     , (0x7C6A9119, 0x7C6A92F7, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A92F8, '2019-02-10 00:00:00') /* Salvage (95) (21056) */
+     , (0x7C6A9119, 0x7C6A92F9, '2019-02-10 00:00:00') /* Salvaged Reedshark Hide (100) (20991) */
+     , (0x7C6A9119, 0x7C6A92FA, '2019-02-10 00:00:00') /* Salvage (97) (21037) */
+     , (0x7C6A9119, 0x7C6A92FB, '2019-02-10 00:00:00') /* Salvage (100) (21054) */
+     , (0x7C6A9119, 0x7C6A92FC, '2019-02-10 00:00:00') /* Salvaged  (100) (21076) */
+     , (0x7C6A9119, 0x7C6A92FD, '2019-02-10 00:00:00') /* Electric Sceptre (29261) */
+     , (0x7C6A9119, 0x7C6A92FE, '2019-02-10 00:00:00') /* Flaming Corsesca (40821) */
+     , (0x7C6A9119, 0x7C6A92FF, '2019-02-10 00:00:00') /* Chiran Coat (27215) */
+     , (0x7C6A9119, 0x7C6A9300, '2019-02-10 00:00:00') /* Koujia Leggings (6004) */
+     , (0x7C6A9119, 0x7C6A9301, '2019-02-10 00:00:00') /* A Comprehensive Guide to Gearcrafting (41744) */
+     , (0x7C6A9119, 0x7C6A9302, '2019-02-10 00:00:00') /* Bone Bow (29239) */
+     , (0x7C6A9119, 0x7C6A9303, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x7C6A9119, 0x7C6A9304, '2019-02-10 00:00:00') /* Studded Leather Gauntlets (59) */
+     , (0x7C6A9119, 0x7C6A9305, '2019-02-10 00:00:00') /* Vest (28609) */
+     , (0x7C6A9119, 0x7C6A9306, '2019-02-10 00:00:00') /* Empyrean Over-robe (44803) */
+     , (0x7C6A9119, 0x7C6A9307, '2019-02-10 00:00:00') /* Covenant Girth (43050) */
+     , (0x7C6A9119, 0x7C6A9308, '2019-02-10 00:00:00') /* Studded Leather Tassets (112) */
+     , (0x7C6A9119, 0x7C6A9309, '2019-02-10 00:00:00') /* Chainmail Hauberk (71) */
+     , (0x7C6A9119, 0x7C6A930A, '2019-02-10 00:00:00') /* Cloth Cap (118) */
+     , (0x7C6A9119, 0x7C6A930B, '2019-02-10 00:00:00') /* Loose Tunic (2593) */
+     , (0x7C6A9119, 0x7C6A930C, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A930D, '2019-02-10 00:00:00') /* Knorr Academy Boots (43053) */
+     , (0x7C6A9119, 0x7C6A930E, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x7C6A9119, 0x7C6A930F, '2019-02-10 00:00:00') /* Piercing Sceptre (29264) */
+     , (0x7C6A9119, 0x7C6A9310, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A9311, '2019-02-10 00:00:00') /* Olthoi Amuli Coat (37299) */
+     , (0x7C6A9119, 0x7C6A9312, '2019-02-10 00:00:00') /* Baggy Tunic (2595) */
+     , (0x7C6A9119, 0x7C6A9313, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A9314, '2019-02-10 00:00:00') /* Lorica Breastplate (27221) */
+     , (0x7C6A9119, 0x7C6A9315, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A9316, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9317, '2019-02-10 00:00:00') /* Kasa (5901) */
+     , (0x7C6A9119, 0x7C6A9318, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x7C6A9119, 0x7C6A9319, '2019-02-10 00:00:00') /* Studded Leather Bracers (38) */
+     , (0x7C6A9119, 0x7C6A931A, '2019-02-10 00:00:00') /* Fire Bow (29241) */
+     , (0x7C6A9119, 0x7C6A931B, '2019-02-10 00:00:00') /* Studded Leather Breastplate (42) */
+     , (0x7C6A9119, 0x7C6A931C, '2019-02-10 00:00:00') /* Alduressa Boots (30950) */
+     , (0x7C6A9119, 0x7C6A931D, '2019-02-10 00:00:00') /* Chiran Sandals (27219) */
+     , (0x7C6A9119, 0x7C6A931E, '2019-02-10 00:00:00') /* Studded Leather Girth (63) */
+     , (0x7C6A9119, 0x7C6A931F, '2019-02-10 00:00:00') /* Empyrean Over-robe (44803) */
+     , (0x7C6A9119, 0x7C6A9320, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A9321, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A9322, '2019-02-10 00:00:00') /* Scalemail Coif (793) */
+     , (0x7C6A9119, 0x7C6A9323, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A9324, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A9325, '2019-02-10 00:00:00') /* Acid Staff (37224) */
+     , (0x7C6A9119, 0x7C6A9326, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets (37208) */
+     , (0x7C6A9119, 0x7C6A9327, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A9328, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets (37209) */
+     , (0x7C6A9119, 0x7C6A9329, '2019-02-10 00:00:00') /* Trident (7772) */
+     , (0x7C6A9119, 0x7C6A932A, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A932B, '2019-02-10 00:00:00') /* Olthoi Amuli Helm (37196) */
+     , (0x7C6A9119, 0x7C6A932C, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A932D, '2019-02-10 00:00:00') /* Alduressa Helm (28617) */
+     , (0x7C6A9119, 0x7C6A932E, '2019-02-10 00:00:00') /* Tenassa Leggings (28622) */
+     , (0x7C6A9119, 0x7C6A932F, '2019-02-10 00:00:00') /* Sedgemail Leather Sleeves (43833) */
+     , (0x7C6A9119, 0x7C6A9330, '2019-02-10 00:00:00') /* Acid Sceptre (29259) */
+     , (0x7C6A9119, 0x7C6A9331, '2019-02-10 00:00:00') /* Energy Crystal (37219) */
+     , (0x7C6A9119, 0x7C6A9332, '2019-02-10 00:00:00') /* Nariyid Sleeves (27232) */
+     , (0x7C6A9119, 0x7C6A9333, '2019-02-10 00:00:00') /* Koujia Sleeves (6005) */
+     , (0x7C6A9119, 0x7C6A9334, '2019-02-10 00:00:00') /* Faran War Master Robe (5909) */
+     , (0x7C6A9119, 0x7C6A9335, '2019-02-10 00:00:00') /* Training Shortbow (12741) */
+     , (0x7C6A9119, 0x7C6A9336, '2019-02-10 00:00:00') /* Salvaged Reedshark Hide (100) (20991) */
+     , (0x7C6A9119, 0x7C6A9337, '2019-02-10 00:00:00') /* Sack (166) */
+     , (0x7C6A9119, 0x7C6A9338, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9339, '2019-02-10 00:00:00') /* Frost Jitte (3805) */
+     , (0x7C6A9119, 0x7C6A933A, '2019-02-10 00:00:00') /* Bone Key (25566) */
+     , (0x7C6A9119, 0x7C6A933B, '2019-02-10 00:00:00') /* Stone Key (5664) */
+     , (0x7C6A9119, 0x7C6A933C, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A933D, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A933E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A933F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9340, '2019-02-10 00:00:00') /* Pyreal Bar (6329) */
+     , (0x7C6A9119, 0x7C6A9341, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A9342, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9343, '2019-02-10 00:00:00') /* Shou-jen Shozoku Jacket (33975) */
+     , (0x7C6A9119, 0x7C6A9344, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Leggings (23953) */
+     , (0x7C6A9119, 0x7C6A9345, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Girth (23940) */
+     , (0x7C6A9119, 0x7C6A9346, '2019-02-10 00:00:00') /* Luminescent Thaumaturgic Coat (23934) */
+     , (0x7C6A9119, 0x7C6A9347, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7C6A9119, 0x7C6A9348, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x7C6A9119, 0x7C6A9349, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x7C6A9119, 0x7C6A934A, '2019-02-10 00:00:00') /* Halved Cloak (44855) */
+     , (0x7C6A9119, 0x7C6A934B, '2019-02-10 00:00:00') /* Promissory Note (43901) */
+     , (0x7C6A9119, 0x7C6A934C, '2019-02-10 00:00:00') /* Moderate Mana Stone (27330) */
+     , (0x7C6A9119, 0x7C6A934D, '2019-02-10 00:00:00') /* Greater Mana Stone (2436) */
+     , (0x7C6A9119, 0x7C6A934E, '2019-02-10 00:00:00') /* Greater Mana Stone (2436) */
+     , (0x7C6A9119, 0x7C6A934F, '2019-02-10 00:00:00') /* Shendolain Key (8021) */
+     , (0x7C6A9119, 0x7C6A9350, '2019-02-10 00:00:00') /* Halved Cloak (44855) */
+     , (0x7C6A9119, 0x7C6A9351, '2019-02-10 00:00:00') /* Halved Cloak (44854) */
+     , (0x7C6A9119, 0x7C6A9352, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A9353, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9354, '2019-02-10 00:00:00') /* Trimmed Cloak (44856) */
+     , (0x7C6A9119, 0x7C6A9355, '2019-02-10 00:00:00') /* Second Half of a Worn Sword (31467) */
+     , (0x7C6A9119, 0x7C6A9356, '2019-02-10 00:00:00') /* Dark Revenant Thighbone (7045) */
+     , (0x7C6A9119, 0x7C6A9357, '2019-02-10 00:00:00') /* Health Tonic (27320) */
+     , (0x7C6A9119, 0x7C6A9358, '2019-02-10 00:00:00') /* Mana Tonic (27323) */
+     , (0x7C6A9119, 0x7C6A9359, '2019-02-10 00:00:00') /* Scarlet Red Letter (45876) */
+     , (0x7C6A9119, 0x7C6A935A, '2019-02-10 00:00:00') /* Scarlet Red Letter (45876) */
+     , (0x7C6A9119, 0x7C6A935B, '2019-02-10 00:00:00') /* Empyrean Spherule (36946) */
+     , (0x7C6A9119, 0x7C6A935C, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A935D, '2019-02-10 00:00:00') /* Fried Olthoi Egg (11136) */
+     , (0x7C6A9119, 0x7C6A935E, '2019-02-10 00:00:00') /* Desk (276) */
+     , (0x7C6A9119, 0x7C6A935F, '2019-02-10 00:00:00') /* Hearth (246) */
+     , (0x7C6A9119, 0x7C6A9360, '2019-02-10 00:00:00') /* Artist's Crystal (30246) */
+     , (0x7C6A9119, 0x7C6A9361, '2019-02-10 00:00:00') /* Drudge Fight (27390) */
+     , (0x7C6A9119, 0x7C6A9362, '2019-02-10 00:00:00') /* Oxidized Statue  (19238) */
+     , (0x7C6A9119, 0x7C6A9363, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7C6A9119, 0x7C6A9364, '2019-02-10 00:00:00') /* Pearl of Swift Killing (30241) */
+     , (0x7C6A9119, 0x7C6A9365, '2019-02-10 00:00:00') /* Oswald's Crystal (30199) */
+     , (0x7C6A9119, 0x7C6A9366, '2019-02-10 00:00:00') /* Vaulter's Crystal (30216) */
+     , (0x7C6A9119, 0x7C6A9367, '2019-02-10 00:00:00') /* Adherent's Crystal (30222) */
+     , (0x7C6A9119, 0x7C6A9368, '2019-02-10 00:00:00') /* Adherent's Crystal (30222) */
+     , (0x7C6A9119, 0x7C6A9369, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
+     , (0x7C6A9119, 0x7C6A936A, '2019-02-10 00:00:00') /* Adherent's Crystal (30222) */
+     , (0x7C6A9119, 0x7C6A936B, '2019-02-10 00:00:00') /* Treasure (22614) */
+     , (0x7C6A9119, 0x7C6A936C, '2019-02-10 00:00:00') /* Chainmail Shirt (96) */
+     , (0x7C6A9119, 0x7C6A936D, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A936E, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A936F, '2019-02-10 00:00:00') /* Misshapen Bone Fragment (34963) */
+     , (0x7C6A9119, 0x7C6A9370, '2019-02-10 00:00:00') /* Hot Pepper (5794) */
+     , (0x7C6A9119, 0x7C6A9371, '2019-02-10 00:00:00') /* Hot Sauce (5795) */
+     , (0x7C6A9119, 0x7C6A9372, '2019-02-10 00:00:00') /* Cinnamon (5781) */
+     , (0x7C6A9119, 0x7C6A9373, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9374, '2019-02-10 00:00:00') /* Priceless Ore (27259) */
+     , (0x7C6A9119, 0x7C6A9375, '2019-02-10 00:00:00') /* Quartered Cloak (44857) */
+     , (0x7C6A9119, 0x7C6A9376, '2019-02-10 00:00:00') /* Scroll of Destructive Curse V (43324) */
+     , (0x7C6A9119, 0x7C6A9377, '2019-02-10 00:00:00') /* Scroll of Creature Enchantment Ineptitude V (3191) */
+     , (0x7C6A9119, 0x7C6A9378, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7C6A9119, 0x7C6A9379, '2019-02-10 00:00:00') /* Stamina Tincture (27326) */
+     , (0x7C6A9119, 0x7C6A937A, '2019-02-10 00:00:00') /* Scroll of Armor Other IV (4387) */
+     , (0x7C6A9119, 0x7C6A937B, '2019-02-10 00:00:00') /* Scroll of Force Bolt (1639) */
+     , (0x7C6A9119, 0x7C6A937C, '2019-02-10 00:00:00') /* Scroll of Flame Bolt II (5998) */
+     , (0x7C6A9119, 0x7C6A937D, '2019-02-10 00:00:00') /* Salvage (33621) */
+     , (0x7C6A9119, 0x7C6A937E, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A937F, '2019-02-10 00:00:00') /* Trade Note (1,000) (2623) */
+     , (0x7C6A9119, 0x7C6A9380, '2019-02-10 00:00:00') /* Trade Note (100,000) (2627) */
+     , (0x7C6A9119, 0x7C6A9381, '2019-02-10 00:00:00') /* Trade Note (150,000) (20628) */
+     , (0x7C6A9119, 0x7C6A9382, '2019-02-10 00:00:00') /* Trade Note (10,000) (2625) */
+     , (0x7C6A9119, 0x7C6A9383, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A9384, '2019-02-10 00:00:00') /* Frost Quadrelle (40627) */
+     , (0x7C6A9119, 0x7C6A9385, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A9386, '2019-02-10 00:00:00') /* Olthoi Celdon Girth (37192) */
+     , (0x7C6A9119, 0x7C6A9387, '2019-02-10 00:00:00') /* Diforsa Sleeves (30949) */
+     , (0x7C6A9119, 0x7C6A9388, '2019-02-10 00:00:00') /* Lightning Greataxe (41054) */
+     , (0x7C6A9119, 0x7C6A9389, '2019-02-10 00:00:00') /* Epee (45099) */
+     , (0x7C6A9119, 0x7C6A938A, '2019-02-10 00:00:00') /* Scroll of Fortified Lock (20425) */
+     , (0x7C6A9119, 0x7C6A938B, '2019-02-10 00:00:00') /* Scroll of Martyr's Hecatomb VII (21101) */
+     , (0x7C6A9119, 0x7C6A938C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A938D, '2019-02-10 00:00:00') /* Shendolain Key (8021) */
+     , (0x7C6A9119, 0x7C6A938E, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7C6A9119, 0x7C6A938F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7C6A9119, 0x7C6A9390, '2019-02-10 00:00:00') /* Nether Staff (43383) */
+     , (0x7C6A9119, 0x7C6A9391, '2019-02-10 00:00:00') /* Etheric Seal (19353) */
+     , (0x7C6A9119, 0x7C6A9392, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9393, '2019-02-10 00:00:00') /* Fire Trident (7792) */
+     , (0x7C6A9119, 0x7C6A9394, '2019-02-10 00:00:00') /* Nariyid Girth (27229) */
+     , (0x7C6A9119, 0x7C6A9395, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A9396, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9397, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A9398, '2019-02-10 00:00:00') /* Fez (5894) */
+     , (0x7C6A9119, 0x7C6A9399, '2019-02-10 00:00:00') /* Lyceum Hood (44977) */
+     , (0x7C6A9119, 0x7C6A939A, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A939B, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7C6A9119, 0x7C6A939C, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A939D, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A939E, '2019-02-10 00:00:00') /* Visage of the Shadow Virindi (36048) */
+     , (0x7C6A9119, 0x7C6A939F, '2019-02-10 00:00:00') /* Lesser Mana Kit (44713) */
+     , (0x7C6A9119, 0x7C6A93A0, '2019-02-10 00:00:00') /* Quartered Cloak (44858) */
+     , (0x7C6A9119, 0x7C6A93A1, '2019-02-10 00:00:00') /* Gem (2409) */
+     , (0x7C6A9119, 0x7C6A93A2, '2019-02-10 00:00:00') /* Principles of the Celestial Hand (41011) */
+     , (0x7C6A9119, 0x7C6A93A3, '2019-02-10 00:00:00') /* Doppelganger Shield (30833) */
+     , (0x7C6A9119, 0x7C6A93A4, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A93A5, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A93A6, '2019-02-10 00:00:00') /* Salvage (100) (21055) */
+     , (0x7C6A9119, 0x7C6A93A7, '2019-02-10 00:00:00') /* Scalemail Bracers (37) */
+     , (0x7C6A9119, 0x7C6A93A8, '2019-02-10 00:00:00') /* Quill of Benevolence (37365) */
+     , (0x7C6A9119, 0x7C6A93A9, '2019-02-10 00:00:00') /* Quartered Cloak (44857) */
+     , (0x7C6A9119, 0x7C6A93AA, '2019-02-10 00:00:00') /* Parabolic Ink (37356) */
+     , (0x7C6A9119, 0x7C6A93AB, '2019-02-10 00:00:00') /* Iron Scarab (689) */
+     , (0x7C6A9119, 0x7C6A93AC, '2019-02-10 00:00:00') /* Silver Scarab (688) */
+     , (0x7C6A9119, 0x7C6A93AD, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A93AE, '2019-02-10 00:00:00') /* Royal Runed War Bow (33205) */
+     , (0x7C6A9119, 0x7C6A93AF, '2019-02-10 00:00:00') /* Koujia Leggings (6004) */
+     , (0x7C6A9119, 0x7C6A93B0, '2019-02-10 00:00:00') /* Leather Pauldrons (25648) */
+     , (0x7C6A9119, 0x7C6A93B1, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes (43832) */
+     , (0x7C6A9119, 0x7C6A93B2, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x7C6A9119, 0x7C6A93B3, '2019-02-10 00:00:00') /* Platemail Girth (61) */
+     , (0x7C6A9119, 0x7C6A93B4, '2019-02-10 00:00:00') /* Haebrean Vambraces (42757) */
+     , (0x7C6A9119, 0x7C6A93B5, '2019-02-10 00:00:00') /* Seal (5873) */
+     , (0x7C6A9119, 0x7C6A93B6, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A93B7, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A93B8, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets (37209) */
+     , (0x7C6A9119, 0x7C6A93B9, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A93BA, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A93BB, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A93BC, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A93BD, '2019-02-10 00:00:00') /* Olthoi Celdon Girth (37192) */
+     , (0x7C6A9119, 0x7C6A93BE, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A93BF, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A93C0, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A93C1, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A93C2, '2019-02-10 00:00:00') /* Olthoi Celdon Sollerets (37209) */
+     , (0x7C6A9119, 0x7C6A93C3, '2019-02-10 00:00:00') /* Olthoi Celdon Gauntlets (37189) */
+     , (0x7C6A9119, 0x7C6A93C4, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A93C5, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A93C6, '2019-02-10 00:00:00') /* Olthoi Amuli Helm (37196) */
+     , (0x7C6A9119, 0x7C6A93C7, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A93C8, '2019-02-10 00:00:00') /* Olthoi Celdon Girth (37192) */
+     , (0x7C6A9119, 0x7C6A93C9, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A93CA, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A93CB, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A93CC, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A93CD, '2019-02-10 00:00:00') /* Olthoi Celdon Girth (37192) */
+     , (0x7C6A9119, 0x7C6A93CE, '2019-02-10 00:00:00') /* Frost Bow (29242) */
+     , (0x7C6A9119, 0x7C6A93CF, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets (37187) */
+     , (0x7C6A9119, 0x7C6A93D0, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A93D1, '2019-02-10 00:00:00') /* Haebrean Girth (42751) */
+     , (0x7C6A9119, 0x7C6A93D2, '2019-02-10 00:00:00') /* Pack Asheron (29916) */
+     , (0x7C6A9119, 0x7C6A93D3, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A93D4, '2019-02-10 00:00:00') /* Pyreal Bar (6329) */
+     , (0x7C6A9119, 0x7C6A93D5, '2019-02-10 00:00:00') /* Sack (166) */
+     , (0x7C6A9119, 0x7C6A93D6, '2019-02-10 00:00:00') /* Silken Wrap (28070) */
+     , (0x7C6A9119, 0x7C6A93D7, '2019-02-10 00:00:00') /* Frozen Fortress Testing Grounds Attunement Shard (Level 180+) (51370) */
+     , (0x7C6A9119, 0x7C6A93D8, '2019-02-10 00:00:00') /* Cracked Shard (6055) */
+     , (0x7C6A9119, 0x7C6A93D9, '2019-02-10 00:00:00') /* Diamond Shield (23615) */
+     , (0x7C6A9119, 0x7C6A93DA, '2019-02-10 00:00:00') /* Pyreal Nugget (6354) */
+     , (0x7C6A9119, 0x7C6A93DB, '2019-02-10 00:00:00') /* Shou-jen Shozoku Jacket (33975) */
+     , (0x7C6A9119, 0x7C6A93DC, '2019-02-10 00:00:00') /* Shou-jen Jika-Tabi (33973) */
+     , (0x7C6A9119, 0x7C6A93DD, '2019-02-10 00:00:00') /* Armor Upgrade Kit Containment Gem (40607) */
+     , (0x7C6A9119, 0x7C6A93DE, '2019-02-10 00:00:00') /* Nether Sceptre (43381) */
+     , (0x7C6A9119, 0x7C6A93DF, '2019-02-10 00:00:00') /* Shou-jen Shozoku Mask (33976) */
+     , (0x7C6A9119, 0x7C6A93E0, '2019-02-10 00:00:00') /* Nether Staff (43383) */
+     , (0x7C6A9119, 0x7C6A93E1, '2019-02-10 00:00:00') /* Leather Jerkin (25639) */
+     , (0x7C6A9119, 0x7C6A93E2, '2019-02-10 00:00:00') /* Acid Baton (31820) */
+     , (0x7C6A9119, 0x7C6A93E3, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A93E4, '2019-02-10 00:00:00') /* Entryway Key (43519) */
+     , (0x7C6A9119, 0x7C6A93E5, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A93E6, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7C6A9119, 0x7C6A93E7, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7C6A9119, 0x7C6A93E8, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7C6A9119, 0x7C6A93E9, '2019-02-10 00:00:00') /* Scroll of Clouded Soul II (53335) */
+     , (0x7C6A9119, 0x7C6A93EA, '2019-02-10 00:00:00') /* Gharu'ndim Hanging Rug (25770) */
+     , (0x7C6A9119, 0x7C6A93EB, '2019-02-10 00:00:00') /* Luminance Certificate (46414) */
+     , (0x7C6A9119, 0x7C6A93EC, '2019-02-10 00:00:00') /* Martine's Mask (21373) */
+     , (0x7C6A9119, 0x7C6A93ED, '2019-02-10 00:00:00') /* Health Tonic (27320) */
+     , (0x7C6A9119, 0x7C6A93EE, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A93EF, '2019-02-10 00:00:00') /* Contract for Kill: Rynthid Rare Boss (51871) */
+     , (0x7C6A9119, 0x7C6A93F0, '2019-02-10 00:00:00') /* Trade Note (100) (2621) */
+     , (0x7C6A9119, 0x7C6A93F1, '2019-02-10 00:00:00') /* Modified Iasparailaun (46959) */
+     , (0x7C6A9119, 0x7C6A93F2, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A93F3, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A93F4, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A93F5, '2019-02-10 00:00:00') /* Dark Shard (6058) */
+     , (0x7C6A9119, 0x7C6A93F6, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C6A9119, 0x7C6A93F7, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7C6A9119, 0x7C6A93F8, '2019-02-10 00:00:00') /* Small Shard (6056) */
+     , (0x7C6A9119, 0x7C6A93F9, '2019-02-10 00:00:00') /* Sake (2468) */
+     , (0x7C6A9119, 0x7C6A93FA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A93FB, '2019-02-10 00:00:00') /* Ancient Journal (41931) */
+     , (0x7C6A9119, 0x7C6A93FC, '2019-02-10 00:00:00') /* Seven of Hands (37240) */
+     , (0x7C6A9119, 0x7C6A93FD, '2019-02-10 00:00:00') /* Scroll of Summoning Mastery Other VII (49469) */
+     , (0x7C6A9119, 0x7C6A93FE, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7C6A9119, 0x7C6A93FF, '2019-02-10 00:00:00') /* The Healer's Heart (8552) */
+     , (0x7C6A9119, 0x7C6A9400, '2019-02-10 00:00:00') /* Salvager's Helm (30881) */
+     , (0x7C6A9119, 0x7C6A9401, '2019-02-10 00:00:00') /* Mosswart Mask (8150) */
+     , (0x7C6A9119, 0x7C6A9402, '2019-02-10 00:00:00') /* Atlan Bow (46139) */
+     , (0x7C6A9119, 0x7C6A9403, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7C6A9119, 0x7C6A9404, '2019-02-10 00:00:00') /* Buadren (14568) */
+     , (0x7C6A9119, 0x7C6A9405, '2019-02-10 00:00:00') /* Burning Sands Golem Heart (48941) */
+     , (0x7C6A9119, 0x7C6A9406, '2019-02-10 00:00:00') /* Empyrean Over-robe (43274) */
+     , (0x7C6A9119, 0x7C6A9407, '2019-02-10 00:00:00') /* Moons Stamp (20861) */
+     , (0x7C6A9119, 0x7C6A9408, '2019-02-10 00:00:00') /* Tusker Spit (29204) */
+     , (0x7C6A9119, 0x7C6A9409, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A940A, '2019-02-10 00:00:00') /* Olthoi's Jewel (30182) */
+     , (0x7C6A9119, 0x7C6A940B, '2019-02-10 00:00:00') /* Tusker's Jewel (30193) */
+     , (0x7C6A9119, 0x7C6A940C, '2019-02-10 00:00:00') /* Evader's Crystal (30228) */
+     , (0x7C6A9119, 0x7C6A940D, '2019-02-10 00:00:00') /* Duelist's Jewel (30235) */
+     , (0x7C6A9119, 0x7C6A940E, '2019-02-10 00:00:00') /* Gelid's Jewel (30208) */
+     , (0x7C6A9119, 0x7C6A940F, '2019-02-10 00:00:00') /* Olthoi's Jewel (30182) */
+     , (0x7C6A9119, 0x7C6A9410, '2019-02-10 00:00:00') /* Olthoi's Jewel (30182) */
+     , (0x7C6A9119, 0x7C6A9411, '2019-02-10 00:00:00') /* Sake (2468) */
+     , (0x7C6A9119, 0x7C6A9412, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9413, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9414, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9415, '2019-02-10 00:00:00') /* Empyrean Portalspace Stabilizer (43070) */
+     , (0x7C6A9119, 0x7C6A9416, '2019-02-10 00:00:00') /* Archer's Jewel (30231) */
+     , (0x7C6A9119, 0x7C6A9417, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9418, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9419, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7C6A9119, 0x7C6A941A, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7C6A9119, 0x7C6A941B, '2019-02-10 00:00:00') /* Small Bundle of Timber Siraluun Feathers (29903) */
+     , (0x7C6A9119, 0x7C6A941C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7C6A9119, 0x7C6A941D, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7C6A9119, 0x7C6A941E, '2019-02-10 00:00:00') /* Small Shard (6056) */
+     , (0x7C6A9119, 0x7C6A941F, '2019-02-10 00:00:00') /* Pyreal Bar (6329) */
+     , (0x7C6A9119, 0x7C6A9420, '2019-02-10 00:00:00') /* Fresh Zombie Torso (34099) */
+     , (0x7C6A9119, 0x7C6A9421, '2019-02-10 00:00:00') /* Fresh Zombie Leg (34098) */
+     , (0x7C6A9119, 0x7C6A9422, '2019-02-10 00:00:00') /* Fresh Zombie Leg (34098) */
+     , (0x7C6A9119, 0x7C6A9423, '2019-02-10 00:00:00') /* Fresh Zombie Head (34097) */
+     , (0x7C6A9119, 0x7C6A9424, '2019-02-10 00:00:00') /* Fresh Zombie Head (34097) */
+     , (0x7C6A9119, 0x7C6A9425, '2019-02-10 00:00:00') /* Lich Skull (4121) */
+     , (0x7C6A9119, 0x7C6A9426, '2019-02-10 00:00:00') /* Bunch of Nanners (22578) */
+     , (0x7C6A9119, 0x7C6A9427, '2019-02-10 00:00:00') /* Thick Lugian Stew (28454) */
+     , (0x7C6A9119, 0x7C6A9428, '2019-02-10 00:00:00') /* Refreshing Water (27261) */
+     , (0x7C6A9119, 0x7C6A9429, '2019-02-10 00:00:00') /* Cave Penguin Cake (28843) */
+     , (0x7C6A9119, 0x7C6A942A, '2019-02-10 00:00:00') /* Stout Lugian Ale (28452) */
+     , (0x7C6A9119, 0x7C6A942B, '2019-02-10 00:00:00') /* Hearty Lugian Loaf (28453) */
+     , (0x7C6A9119, 0x7C6A942C, '2019-02-10 00:00:00') /* Drudge (44732) */
+     , (0x7C6A9119, 0x7C6A942D, '2019-02-10 00:00:00') /* Obsidian Sphere (3720) */
+     , (0x7C6A9119, 0x7C6A942E, '2019-02-10 00:00:00') /* Pyreal Nugget (6354) */
+     , (0x7C6A9119, 0x7C6A942F, '2019-02-10 00:00:00') /* Brown Lump (5789) */
+     , (0x7C6A9119, 0x7C6A9430, '2019-02-10 00:00:00') /* Key (5022) */
+     , (0x7C6A9119, 0x7C6A9431, '2019-02-10 00:00:00') /* Diamond Powder (12689) */
+     , (0x7C6A9119, 0x7C6A9432, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9433, '2019-02-10 00:00:00') /* Promissory Note (43901) */
+     , (0x7C6A9119, 0x7C6A9434, '2019-02-10 00:00:00') /* Promissory Note (43901) */
+     , (0x7C6A9119, 0x7C6A9435, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A9436, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A9437, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A9438, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9439, '2019-02-10 00:00:00') /* Hot Pepper (5794) */
+     , (0x7C6A9119, 0x7C6A943A, '2019-02-10 00:00:00') /* Silver Pea (8331) */
+     , (0x7C6A9119, 0x7C6A943B, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */
+     , (0x7C6A9119, 0x7C6A943C, '2019-02-10 00:00:00') /* Ust (20646) */
+     , (0x7C6A9119, 0x7C6A943D, '2019-02-10 00:00:00') /* Olthoi Pauldrons (40681) */
+     , (0x7C6A9119, 0x7C6A943E, '2019-02-10 00:00:00') /* Olthoi Breastplate (40676) */
+     , (0x7C6A9119, 0x7C6A943F, '2019-02-10 00:00:00') /* Alduressa Boots (30950) */
+     , (0x7C6A9119, 0x7C6A9440, '2019-02-10 00:00:00') /* Olthoi Pauldrons (37204) */
+     , (0x7C6A9119, 0x7C6A9441, '2019-02-10 00:00:00') /* Lugian Hammer (31764) */
+     , (0x7C6A9119, 0x7C6A9442, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9443, '2019-02-10 00:00:00') /* Olthoi Greaves (37194) */
+     , (0x7C6A9119, 0x7C6A9444, '2019-02-10 00:00:00') /* Olthoi Girth (40678) */
+     , (0x7C6A9119, 0x7C6A9445, '2019-02-10 00:00:00') /* Haebrean Gauntlets (42750) */
+     , (0x7C6A9119, 0x7C6A9446, '2019-02-10 00:00:00') /* Lightning Stick (31790) */
+     , (0x7C6A9119, 0x7C6A9447, '2019-02-10 00:00:00') /* Acid Katar (3818) */
+     , (0x7C6A9119, 0x7C6A9448, '2019-02-10 00:00:00') /* Lightning Knife (45418) */
+     , (0x7C6A9119, 0x7C6A9449, '2019-02-10 00:00:00') /* Olthoi Alduressa Coat (37217) */
+     , (0x7C6A9119, 0x7C6A944A, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A944B, '2019-02-10 00:00:00') /* Olthoi Celdon Helm (37197) */
+     , (0x7C6A9119, 0x7C6A944C, '2019-02-10 00:00:00') /* Electric Bow (29240) */
+     , (0x7C6A9119, 0x7C6A944D, '2019-02-10 00:00:00') /* Frost Dirk (22444) */
+     , (0x7C6A9119, 0x7C6A944E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A944F, '2019-02-10 00:00:00') /* Piercing Crossbow (29250) */
+     , (0x7C6A9119, 0x7C6A9450, '2019-02-10 00:00:00') /* Lightning Nabut (22160) */
+     , (0x7C6A9119, 0x7C6A9451, '2019-02-10 00:00:00') /* Staff of Aerfalle (31821) */
+     , (0x7C6A9119, 0x7C6A9452, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A9453, '2019-02-10 00:00:00') /* Orb (2366) */
+     , (0x7C6A9119, 0x7C6A9454, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A9455, '2019-02-10 00:00:00') /* Electric Spine Glaive (31781) */
+     , (0x7C6A9119, 0x7C6A9456, '2019-02-10 00:00:00') /* Studded Leather Girth (63) */
+     , (0x7C6A9119, 0x7C6A9457, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A9458, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A9459, '2019-02-10 00:00:00') /* Fire Spine Glaive (31782) */
+     , (0x7C6A9119, 0x7C6A945A, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7C6A9119, 0x7C6A945B, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A945C, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A945D, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A945E, '2019-02-10 00:00:00') /* Flaming Flanged Mace (30589) */
+     , (0x7C6A9119, 0x7C6A945F, '2019-02-10 00:00:00') /* Frost Crossbow (29249) */
+     , (0x7C6A9119, 0x7C6A9460, '2019-02-10 00:00:00') /* Armet (8488) */
+     , (0x7C6A9119, 0x7C6A9461, '2019-02-10 00:00:00') /* Aura of Blood Drinker Self VI (2786) */
+     , (0x7C6A9119, 0x7C6A9462, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
+     , (0x7C6A9119, 0x7C6A9463, '2019-02-10 00:00:00') /* Olthoi Alduressa Gauntlets (37187) */
+     , (0x7C6A9119, 0x7C6A9464, '2019-02-10 00:00:00') /* Nariyid Sleeves (27232) */
+     , (0x7C6A9119, 0x7C6A9465, '2019-02-10 00:00:00') /* Olthoi Amuli Coat (37299) */
+     , (0x7C6A9119, 0x7C6A9466, '2019-02-10 00:00:00') /* Lace Shirt (28607) */
+     , (0x7C6A9119, 0x7C6A9467, '2019-02-10 00:00:00') /* Frost Lugian Hammer (31763) */
+     , (0x7C6A9119, 0x7C6A9468, '2019-02-10 00:00:00') /* Platemail Cuirass (51) */
+     , (0x7C6A9119, 0x7C6A9469, '2019-02-10 00:00:00') /* Electric Spine Glaive (31781) */
+     , (0x7C6A9119, 0x7C6A946A, '2019-02-10 00:00:00') /* Nariyid Girth (27229) */
+     , (0x7C6A9119, 0x7C6A946B, '2019-02-10 00:00:00') /* Olthoi Alduressa Leggings (37200) */
+     , (0x7C6A9119, 0x7C6A946C, '2019-02-10 00:00:00') /* Leather Boots (115) */
+     , (0x7C6A9119, 0x7C6A946D, '2019-02-10 00:00:00') /* Acid Nekode (4197) */
+     , (0x7C6A9119, 0x7C6A946E, '2019-02-10 00:00:00') /* Electric Atlatl (29254) */
+     , (0x7C6A9119, 0x7C6A946F, '2019-02-10 00:00:00') /* Scalemail Bracers (37) */
+     , (0x7C6A9119, 0x7C6A9470, '2019-02-10 00:00:00') /* Hammer (45113) */
+     , (0x7C6A9119, 0x7C6A9471, '2019-02-10 00:00:00') /* Nariyid Boots (27226) */
+     , (0x7C6A9119, 0x7C6A9472, '2019-02-10 00:00:00') /* Olthoi Helm (40688) */
+     , (0x7C6A9119, 0x7C6A9473, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9474, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9475, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
+     , (0x7C6A9119, 0x7C6A9476, '2019-02-10 00:00:00') /* Frost Jitte (3805) */
+     , (0x7C6A9119, 0x7C6A9477, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7C6A9119, 0x7C6A9478, '2019-02-10 00:00:00') /* Lightning Spear (3874) */
+     , (0x7C6A9119, 0x7C6A9479, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x7C6A9119, 0x7C6A947A, '2019-02-10 00:00:00') /* Chiran Gauntlets (27216) */
+     , (0x7C6A9119, 0x7C6A947B, '2019-02-10 00:00:00') /* Covenant Girth (40699) */
+     , (0x7C6A9119, 0x7C6A947C, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A947D, '2019-02-10 00:00:00') /* Frost Stiletto (30604) */
+     , (0x7C6A9119, 0x7C6A947E, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x7C6A9119, 0x7C6A947F, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x7C6A9119, 0x7C6A9480, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x7C6A9119, 0x7C6A9481, '2019-02-10 00:00:00') /* Slashing Bow (29244) */
+     , (0x7C6A9119, 0x7C6A9482, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A9483, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (37201) */
+     , (0x7C6A9119, 0x7C6A9484, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes (43832) */
+     , (0x7C6A9119, 0x7C6A9485, '2019-02-10 00:00:00') /* Yoroi Tassets (113) */
+     , (0x7C6A9119, 0x7C6A9486, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x7C6A9119, 0x7C6A9487, '2019-02-10 00:00:00') /* Katar (326) */
+     , (0x7C6A9119, 0x7C6A9488, '2019-02-10 00:00:00') /* Ice Wand (31824) */
+     , (0x7C6A9119, 0x7C6A9489, '2019-02-10 00:00:00') /* Olthoi Celdon Breastplate (37214) */
+     , (0x7C6A9119, 0x7C6A948A, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x7C6A9119, 0x7C6A948B, '2019-02-10 00:00:00') /* Mattekar (44748) */
+     , (0x7C6A9119, 0x7C6A948C, '2019-02-10 00:00:00') /* Phyntos Wasp (44781) */
+     , (0x7C6A9119, 0x7C6A948D, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A948E, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7C6A9119, 0x7C6A948F, '2019-02-10 00:00:00') /* Hero Token (35810) */
+     , (0x7C6A9119, 0x7C6A9490, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A9491, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9492, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9493, '2019-02-10 00:00:00') /* Acid Bow (29238) */
+     , (0x7C6A9119, 0x7C6A9494, '2019-02-10 00:00:00') /* Olthoi Koujia Kabuton (37198) */
+     , (0x7C6A9119, 0x7C6A9495, '2019-02-10 00:00:00') /* Olthoi Koujia Leggings (37203) */
+     , (0x7C6A9119, 0x7C6A9496, '2019-02-10 00:00:00') /* Scalemail Leggings (83) */
+     , (0x7C6A9119, 0x7C6A9497, '2019-02-10 00:00:00') /* Nefane Pearl (43382) */
+     , (0x7C6A9119, 0x7C6A9498, '2019-02-10 00:00:00') /* Salvage (39) (20993) */
+     , (0x7C6A9119, 0x7C6A9499, '2019-02-10 00:00:00') /* Aura of Infected Spirit Caress Scroll (28008) */
+     , (0x7C6A9119, 0x7C6A949A, '2019-02-10 00:00:00') /* Pantaloons (2600) */
+     , (0x7C6A9119, 0x7C6A949B, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other VII (46882) */
+     , (0x7C6A9119, 0x7C6A949C, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7C6A9119, 0x7C6A949D, '2019-02-10 00:00:00') /* Orb (2366) */
+     , (0x7C6A9119, 0x7C6A949E, '2019-02-10 00:00:00') /* Experience Certificate (46415) */
+     , (0x7C6A9119, 0x7C6A949F, '2019-02-10 00:00:00') /* Letter to Bretself the Translator (34349) */
+     , (0x7C6A9119, 0x7C6A94A0, '2019-02-10 00:00:00') /* Kilif Zefir Sites (33954) */
+     , (0x7C6A9119, 0x7C6A94A1, '2019-02-10 00:00:00') /* Salvaged  (100) (20986) */
+     , (0x7C6A9119, 0x7C6A94A2, '2019-02-10 00:00:00') /* Pack Pumpkin Lord (32206) */
+     , (0x7C6A9119, 0x7C6A94A3, '2019-02-10 00:00:00') /* Pack Golem (9179) */
+     , (0x7C6A9119, 0x7C6A94A4, '2019-02-10 00:00:00') /* Pack Asheron (29916) */
+     , (0x7C6A9119, 0x7C6A94A5, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
+     , (0x7C6A9119, 0x7C6A94A6, '2019-02-10 00:00:00') /* Pack Burun Kukuur (29919) */
+     , (0x7C6A9119, 0x7C6A94A7, '2019-02-10 00:00:00') /* Sprouting Pumpkin Vine (34087) */
+     , (0x7C6A9119, 0x7C6A94A8, '2019-02-10 00:00:00') /* Pack Martine (29921) */
+     , (0x7C6A9119, 0x7C6A94A9, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */
+     , (0x7C6A9119, 0x7C6A94AA, '2019-02-10 00:00:00') /* Oxidized Statue  (19236) */
+     , (0x7C6A9119, 0x7C6A94AB, '2019-02-10 00:00:00') /* Tipped Pack Cow (33965) */
+     , (0x7C6A9119, 0x7C6A94AC, '2019-02-10 00:00:00') /* Pack Levistras (29920) */
+     , (0x7C6A9119, 0x7C6A94AD, '2019-02-10 00:00:00') /* Pack Grael (33802) */
+     , (0x7C6A9119, 0x7C6A94AE, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen (29922) */
+     , (0x7C6A9119, 0x7C6A94AF, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7C6A9119, 0x7C6A94B0, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7C6A9119, 0x7C6A94B1, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7C6A9119, 0x7C6A94B2, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
+     , (0x7C6A9119, 0x7C6A94B3, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7C6A9119, 0x7C6A94B4, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7C6A9119, 0x7C6A94B5, '2019-02-10 00:00:00') /* Myrrh (777) */
+     , (0x7C6A9119, 0x7C6A94B6, '2019-02-10 00:00:00') /* Vervain (779) */
+     , (0x7C6A9119, 0x7C6A94B7, '2019-02-10 00:00:00') /* Yarrow (781) */
+     , (0x7C6A9119, 0x7C6A94B8, '2019-02-10 00:00:00') /* Comfrey (767) */
+     , (0x7C6A9119, 0x7C6A94B9, '2019-02-10 00:00:00') /* Henbane (773) */
+     , (0x7C6A9119, 0x7C6A94BA, '2019-02-10 00:00:00') /* Dragonsblood (769) */
+     , (0x7C6A9119, 0x7C6A94BB, '2019-02-10 00:00:00') /* Hawthorn (772) */
+     , (0x7C6A9119, 0x7C6A94BC, '2019-02-10 00:00:00') /* Ginseng (625) */
+     , (0x7C6A9119, 0x7C6A94BD, '2019-02-10 00:00:00') /* Amaranth (765) */
+     , (0x7C6A9119, 0x7C6A94BE, '2019-02-10 00:00:00') /* Bistort (766) */
+     , (0x7C6A9119, 0x7C6A94BF, '2019-02-10 00:00:00') /* Mugwort (776) */
+     , (0x7C6A9119, 0x7C6A94C0, '2019-02-10 00:00:00') /* Damiana (768) */
+     , (0x7C6A9119, 0x7C6A94C1, '2019-02-10 00:00:00') /* Saffron (778) */
+     , (0x7C6A9119, 0x7C6A94C2, '2019-02-10 00:00:00') /* Mandrake (775) */
+     , (0x7C6A9119, 0x7C6A94C3, '2019-02-10 00:00:00') /* Hyssop (774) */
+     , (0x7C6A9119, 0x7C6A94C4, '2019-02-10 00:00:00') /* Gelidite Dais (15855) */
+     , (0x7C6A9119, 0x7C6A94C5, '2019-02-10 00:00:00') /* Gem of Knowledge (43188) */
+     , (0x7C6A9119, 0x7C6A94C6, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7C6A9119, 0x7C6A94C7, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7C6A9119, 0x7C6A94C8, '2019-02-10 00:00:00') /* Bow of the Quiddity (9597) */
+     , (0x7C6A9119, 0x7C6A94C9, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */
+     , (0x7C6A9119, 0x7C6A94CA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94CB, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A94CC, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94CD, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x7C6A9119, 0x7C6A94CE, '2019-02-10 00:00:00') /* Leather Greaves (25644) */
+     , (0x7C6A9119, 0x7C6A94CF, '2019-02-10 00:00:00') /* Piercing Sceptre (29264) */
+     , (0x7C6A9119, 0x7C6A94D0, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A94D1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94D2, '2019-02-10 00:00:00') /* Trident (7772) */
+     , (0x7C6A9119, 0x7C6A94D3, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7C6A9119, 0x7C6A94D4, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A94D5, '2019-02-10 00:00:00') /* Health Philtre (27318) */
+     , (0x7C6A9119, 0x7C6A94D6, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A94D7, '2019-02-10 00:00:00') /* Fortified Mana Forge Key (38919) */
+     , (0x7C6A9119, 0x7C6A94D8, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A94D9, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94DA, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7C6A9119, 0x7C6A94DB, '2019-02-10 00:00:00') /* Scholar's Crystal (30184) */
+     , (0x7C6A9119, 0x7C6A94DC, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7C6A9119, 0x7C6A94DD, '2019-02-10 00:00:00') /* Vaulter's Crystal (30216) */
+     , (0x7C6A9119, 0x7C6A94DE, '2019-02-10 00:00:00') /* Salvage (82) (21069) */
+     , (0x7C6A9119, 0x7C6A94DF, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x7C6A9119, 0x7C6A94E0, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A94E1, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A94E2, '2019-02-10 00:00:00') /* Pyreal Nugget (6354) */
+     , (0x7C6A9119, 0x7C6A94E3, '2019-02-10 00:00:00') /* Pyreal Sliver (6355) */
+     , (0x7C6A9119, 0x7C6A94E4, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A94E5, '2019-02-10 00:00:00') /* Carving Knife (4757) */
+     , (0x7C6A9119, 0x7C6A94E6, '2019-02-10 00:00:00') /* Platinum Scarab (8897) */
+     , (0x7C6A9119, 0x7C6A94E7, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7C6A9119, 0x7C6A94E8, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94E9, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94EA, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7C6A9119, 0x7C6A94EB, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7C6A9119, 0x7C6A94EC, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A94ED, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A94EE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A94EF, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A94F0, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A94F1, '2019-02-10 00:00:00') /* Celdon Sleeves (6048) */
+     , (0x7C6A9119, 0x7C6A94F2, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A94F3, '2019-02-10 00:00:00') /* Granite Key (23094) */
+     , (0x7C6A9119, 0x7C6A94F4, '2019-02-10 00:00:00') /* Minor Item Tinkering Armature (41509) */
+     , (0x7C6A9119, 0x7C6A94F5, '2019-02-10 00:00:00') /* Moderate Item Tinkering Armature (41498) */
+     , (0x7C6A9119, 0x7C6A94F6, '2019-02-10 00:00:00') /* Major Item Tinkering Armature (41508) */
+     , (0x7C6A9119, 0x7C6A94F7, '2019-02-10 00:00:00') /* Moderate Item Tinkering Armature (41507) */
+     , (0x7C6A9119, 0x7C6A94F8, '2019-02-10 00:00:00') /* Cellar Key (43521) */
+     , (0x7C6A9119, 0x7C6A94F9, '2019-02-10 00:00:00') /* Entryway Key (43519) */
+     , (0x7C6A9119, 0x7C6A94FA, '2019-02-10 00:00:00') /* Greater Mana Kit (44712) */
+     , (0x7C6A9119, 0x7C6A94FB, '2019-02-10 00:00:00') /* Renegade Herbal Kit (27671) */
+     , (0x7C6A9119, 0x7C6A94FC, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A94FD, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A94FE, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A94FF, '2019-02-10 00:00:00') /* Pyreal Mote (6353) */
+     , (0x7C6A9119, 0x7C6A9500, '2019-02-10 00:00:00') /* Salvage (16) (21088) */
+     , (0x7C6A9119, 0x7C6A9501, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6A9119, 0x7C6A9502, '2019-02-10 00:00:00') /* Skill Reset Certificate (46420) */
+     , (0x7C6A9119, 0x7C6A9503, '2019-02-10 00:00:00') /* Quiddity Orb (10731) */
+     , (0x7C6A9119, 0x7C6A9504, '2019-02-10 00:00:00') /* Candeth Keep Blueprints (27464) */
+     , (0x7C6A9119, 0x7C6A9505, '2019-02-10 00:00:00') /* Untranslated Writing (28318) */
+     , (0x7C6A9119, 0x7C6A9506, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A9507, '2019-02-10 00:00:00') /* Sack (166) */
+     , (0x7C6A9119, 0x7C6A9508, '2019-02-10 00:00:00') /* Pack Burun Kukuur (29919) */
+     , (0x7C6A9119, 0x7C6A9509, '2019-02-10 00:00:00') /* Pack Asheron (29916) */
+     , (0x7C6A9119, 0x7C6A950A, '2019-02-10 00:00:00') /* Pack Levistras (29920) */
+     , (0x7C6A9119, 0x7C6A950B, '2019-02-10 00:00:00') /* Alloy Machine (25449) */
+     , (0x7C6A9119, 0x7C6A950C, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A950D, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A950E, '2019-02-10 00:00:00') /* Renegade Crossbow (24559) */
+     , (0x7C6A9119, 0x7C6A950F, '2019-02-10 00:00:00') /* Quadruple-bladed Axe (24557) */
+     , (0x7C6A9119, 0x7C6A9510, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x7C6A9119, 0x7C6A9511, '2019-02-10 00:00:00') /* Scarlet Red Letter (45876) */
+     , (0x7C6A9119, 0x7C6A9512, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7C6A9119, 0x7C6A9513, '2019-02-10 00:00:00') /* Water of Lethe (5498) */
+     , (0x7C6A9119, 0x7C6A9514, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x7C6A9119, 0x7C6A9515, '2019-02-10 00:00:00') /* Swamp Stone (3694) */
+     , (0x7C6A9119, 0x7C6A9516, '2019-02-10 00:00:00') /* Swamp Stone (3694) */
+     , (0x7C6A9119, 0x7C6A9517, '2019-02-10 00:00:00') /* Foolproof Yellow Topaz (36635) */
+     , (0x7C6A9119, 0x7C6A9518, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A9519, '2019-02-10 00:00:00') /* Olthoi Koujia Leggings (37203) */
+     , (0x7C6A9119, 0x7C6A951A, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A951B, '2019-02-10 00:00:00') /* Baggy Pants (2598) */
+     , (0x7C6A9119, 0x7C6A951C, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7C6A9119, 0x7C6A951D, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7C6A9119, 0x7C6A951E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A951F, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A9520, '2019-02-10 00:00:00') /* Pack T'thuun (39369) */
+     , (0x7C6A9119, 0x7C6A9521, '2019-02-10 00:00:00') /* Pack T'thuun (39369) */
+     , (0x7C6A9119, 0x7C6A9522, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7C6A9119, 0x7C6A9523, '2019-02-10 00:00:00') /* Lace Shirt (28607) */
+     , (0x7C6A9119, 0x7C6A9524, '2019-02-10 00:00:00') /* Viamontian Pants (28606) */
+     , (0x7C6A9119, 0x7C6A9525, '2019-02-10 00:00:00') /* Poet's Shirt (28608) */
+     , (0x7C6A9119, 0x7C6A9526, '2019-02-10 00:00:00') /* Flaming War Hammer (3907) */
+     , (0x7C6A9119, 0x7C6A9527, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x7C6A9119, 0x7C6A9528, '2019-02-10 00:00:00') /* Olthoi Pauldrons (37204) */
+     , (0x7C6A9119, 0x7C6A9529, '2019-02-10 00:00:00') /* Studded Leather Pauldrons (89) */
+     , (0x7C6A9119, 0x7C6A952A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A952B, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (42417) */
+     , (0x7C6A9119, 0x7C6A952C, '2019-02-10 00:00:00') /* Yoroi Leggings (42416) */
+     , (0x7C6A9119, 0x7C6A952D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A952E, '2019-02-10 00:00:00') /* Dark Sliver (6059) */
+     , (0x7C6A9119, 0x7C6A952F, '2019-02-10 00:00:00') /* Quartered Cloak (44857) */
+     , (0x7C6A9119, 0x7C6A9530, '2019-02-10 00:00:00') /* Acid Morning Star (3939) */
+     , (0x7C6A9119, 0x7C6A9531, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7C6A9119, 0x7C6A9532, '2019-02-10 00:00:00') /* Pyreal Mote (6353) */
+     , (0x7C6A9119, 0x7C6A9533, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A9534, '2019-02-10 00:00:00') /* Small Bundle of Littoral Siraluun Feathers (29899) */
+     , (0x7C6A9119, 0x7C6A9535, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9536, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A9537, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7C6A9119, 0x7C6A9538, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C6A9119, 0x7C6A9539, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A953A, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
+     , (0x7C6A9119, 0x7C6A953B, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (37201) */
+     , (0x7C6A9119, 0x7C6A953C, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7C6A9119, 0x7C6A953D, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A953E, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A953F, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7C6A9119, 0x7C6A9540, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x7C6A9119, 0x7C6A9541, '2019-02-10 00:00:00') /* Nether Sceptre (43381) */
+     , (0x7C6A9119, 0x7C6A9542, '2019-02-10 00:00:00') /* Flaming War Axe (31772) */
+     , (0x7C6A9119, 0x7C6A9543, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A9544, '2019-02-10 00:00:00') /* Poet's Shirt (28608) */
+     , (0x7C6A9119, 0x7C6A9545, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7C6A9119, 0x7C6A9546, '2019-02-10 00:00:00') /* Viamontian Pants (28606) */
+     , (0x7C6A9119, 0x7C6A9547, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x7C6A9119, 0x7C6A9548, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9549, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6A9119, 0x7C6A954A, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x7C6A9119, 0x7C6A954B, '2019-02-10 00:00:00') /* Helmet (75) */
+     , (0x7C6A9119, 0x7C6A954C, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7C6A9119, 0x7C6A954D, '2019-02-10 00:00:00') /* Acid Quarter Staff (22164) */
+     , (0x7C6A9119, 0x7C6A954E, '2019-02-10 00:00:00') /* Flaming Katar (3820) */
+     , (0x7C6A9119, 0x7C6A954F, '2019-02-10 00:00:00') /* Acid Great Star Mace (41058) */
+     , (0x7C6A9119, 0x7C6A9550, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A9551, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A9552, '2019-02-10 00:00:00') /* Flaming War Hammer (3907) */
+     , (0x7C6A9119, 0x7C6A9553, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A9554, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A9555, '2019-02-10 00:00:00') /* Boxed Augmentation Gem (46441) */
+     , (0x7C6A9119, 0x7C6A9556, '2019-02-10 00:00:00') /* Boxed Augmentation Gem (46441) */
+     , (0x7C6A9119, 0x7C6A9557, '2019-02-10 00:00:00') /* Long Leather Gauntlets (25646) */
+     , (0x7C6A9119, 0x7C6A9558, '2019-02-10 00:00:00') /* Lace Shirt (28607) */
+     , (0x7C6A9119, 0x7C6A9559, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A955A, '2019-02-10 00:00:00') /* Siraluun Matihao (11365) */
+     , (0x7C6A9119, 0x7C6A955B, '2019-02-10 00:00:00') /* Fortified Mana Forge Key (38919) */
+     , (0x7C6A9119, 0x7C6A955C, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A955D, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A955E, '2019-02-10 00:00:00') /* Pack Grael (33802) */
+     , (0x7C6A9119, 0x7C6A955F, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen (29922) */
+     , (0x7C6A9119, 0x7C6A9560, '2019-02-10 00:00:00') /* Glyph of Missile Weapons (37371) */
+     , (0x7C6A9119, 0x7C6A9561, '2019-02-10 00:00:00') /* Ink of Objectification (37355) */
+     , (0x7C6A9119, 0x7C6A9562, '2019-02-10 00:00:00') /* Mana Philtre (27321) */
+     , (0x7C6A9119, 0x7C6A9563, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
+     , (0x7C6A9119, 0x7C6A9564, '2019-02-10 00:00:00') /* Mutilator Helm (25525) */
+     , (0x7C6A9119, 0x7C6A9565, '2019-02-10 00:00:00') /* Glyph of Bludgeoning (37347) */
+     , (0x7C6A9119, 0x7C6A9566, '2019-02-10 00:00:00') /* Gem (2415) */
+     , (0x7C6A9119, 0x7C6A9567, '2019-02-10 00:00:00') /* Glyph of Slashing (37332) */
+     , (0x7C6A9119, 0x7C6A9568, '2019-02-10 00:00:00') /* Glyph of Life Magic (37313) */
+     , (0x7C6A9119, 0x7C6A9569, '2019-02-10 00:00:00') /* Doll Leader's Charm (12232) */
+     , (0x7C6A9119, 0x7C6A956A, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A956B, '2019-02-10 00:00:00') /* Rogue's Crystal (45360) */
+     , (0x7C6A9119, 0x7C6A956C, '2019-02-10 00:00:00') /* Lugian's Pearl (30240) */
+     , (0x7C6A9119, 0x7C6A956D, '2019-02-10 00:00:00') /* Berzerker's Crystal (45368) */
+     , (0x7C6A9119, 0x7C6A956E, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7C6A9119, 0x7C6A956F, '2019-02-10 00:00:00') /* White Virindi Wand (3748) */
+     , (0x7C6A9119, 0x7C6A9570, '2019-02-10 00:00:00') /* Salvage (14) (21050) */
+     , (0x7C6A9119, 0x7C6A9571, '2019-02-10 00:00:00') /* Al-Arqas Portal Gem (8973) */
+     , (0x7C6A9119, 0x7C6A9572, '2019-02-10 00:00:00') /* Homecoming Pennant (25952) */
+     , (0x7C6A9119, 0x7C6A9573, '2019-02-10 00:00:00') /* Homecoming Pennant (25952) */
+     , (0x7C6A9119, 0x7C6A9574, '2019-02-10 00:00:00') /* Intricate Carving Tool (9295) */
+     , (0x7C6A9119, 0x7C6A9575, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7C6A9119, 0x7C6A9576, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
+     , (0x7C6A9119, 0x7C6A9577, '2019-02-10 00:00:00') /* Festival Lights (32211) */
+     , (0x7C6A9119, 0x7C6A9578, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A9579, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A957A, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A957B, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7C6A9119, 0x7C6A957C, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A957D, '2019-02-10 00:00:00') /* Lesser Mana Stone (2434) */
+     , (0x7C6A9119, 0x7C6A957E, '2019-02-10 00:00:00') /* Moderate Mana Stone (27330) */
+     , (0x7C6A9119, 0x7C6A957F, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (37201) */
+     , (0x7C6A9119, 0x7C6A9580, '2019-02-10 00:00:00') /* Health Philtre (27318) */
+     , (0x7C6A9119, 0x7C6A9581, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A9582, '2019-02-10 00:00:00') /* Legendary Key (51963) */
+     , (0x7C6A9119, 0x7C6A9583, '2019-02-10 00:00:00') /* Scalemail Greaves (67) */
+     , (0x7C6A9119, 0x7C6A9584, '2019-02-10 00:00:00') /* Lightning Poniard (30597) */
+     , (0x7C6A9119, 0x7C6A9585, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9586, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9587, '2019-02-10 00:00:00') /* Flaming Weeping Sword (51492) */
+     , (0x7C6A9119, 0x7C6A9588, '2019-02-10 00:00:00') /* Club of Surprising Cunning (51462) */
+     , (0x7C6A9119, 0x7C6A9589, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A958A, '2019-02-10 00:00:00') /* Dark Monolith Caverns (32940) */
+     , (0x7C6A9119, 0x7C6A958B, '2019-02-10 00:00:00') /* Invitation to the Battle Burrows (37088) */
+     , (0x7C6A9119, 0x7C6A958C, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x7C6A9119, 0x7C6A958D, '2019-02-10 00:00:00') /* Gem (2396) */
+     , (0x7C6A9119, 0x7C6A958E, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A958F, '2019-02-10 00:00:00') /* Tusker Spit (29204) */
+     , (0x7C6A9119, 0x7C6A9590, '2019-02-10 00:00:00') /* Bandana (28612) */
+     , (0x7C6A9119, 0x7C6A9591, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9592, '2019-02-10 00:00:00') /* Gem (2397) */
+     , (0x7C6A9119, 0x7C6A9593, '2019-02-10 00:00:00') /* Creature Spells Certificate (46417) */
+     , (0x7C6A9119, 0x7C6A9594, '2019-02-10 00:00:00') /* Item Spells Certificate (46418) */
+     , (0x7C6A9119, 0x7C6A9595, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x7C6A9119, 0x7C6A9596, '2019-02-10 00:00:00') /* Alduressa Helm (28617) */
+     , (0x7C6A9119, 0x7C6A9597, '2019-02-10 00:00:00') /* Studded Leather Basinet (554) */
+     , (0x7C6A9119, 0x7C6A9598, '2019-02-10 00:00:00') /* Olthoi Amuli Helm (37196) */
+     , (0x7C6A9119, 0x7C6A9599, '2019-02-10 00:00:00') /* Chainmail Coif (85) */
+     , (0x7C6A9119, 0x7C6A959A, '2019-02-10 00:00:00') /* Covenant Sollerets (21150) */
+     , (0x7C6A9119, 0x7C6A959B, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7C6A9119, 0x7C6A959C, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets (37208) */
+     , (0x7C6A9119, 0x7C6A959D, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A959E, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x7C6A9119, 0x7C6A959F, '2019-02-10 00:00:00') /* Pack Aerbax (37515) */
+     , (0x7C6A9119, 0x7C6A95A0, '2019-02-10 00:00:00') /* Rare Pink Pack Idol (32794) */
+     , (0x7C6A9119, 0x7C6A95A1, '2019-02-10 00:00:00') /* Noble Relic Leggings of Health (33587) */
+     , (0x7C6A9119, 0x7C6A95A2, '2019-02-10 00:00:00') /* Noble Relic Gauntlets of Strength (33585) */
+     , (0x7C6A9119, 0x7C6A95A3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95A4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95A5, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A95A6, '2019-02-10 00:00:00') /* Gem (2407) */
+     , (0x7C6A9119, 0x7C6A95A7, '2019-02-10 00:00:00') /* Elysa's Favor (14485) */
+     , (0x7C6A9119, 0x7C6A95A8, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A95A9, '2019-02-10 00:00:00') /* Protective Drudge Charm (35590) */
+     , (0x7C6A9119, 0x7C6A95AA, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A95AB, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7C6A9119, 0x7C6A95AC, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A95AD, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7C6A9119, 0x7C6A95AE, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A95AF, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A95B0, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x7C6A9119, 0x7C6A95B1, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7C6A9119, 0x7C6A95B2, '2019-02-10 00:00:00') /* Thick Lugian Stew (28454) */
+     , (0x7C6A9119, 0x7C6A95B3, '2019-02-10 00:00:00') /* Stout Lugian Ale (28452) */
+     , (0x7C6A9119, 0x7C6A95B4, '2019-02-10 00:00:00') /* Priceless Ore (27259) */
+     , (0x7C6A9119, 0x7C6A95B5, '2019-02-10 00:00:00') /* Refreshing Water (27261) */
+     , (0x7C6A9119, 0x7C6A95B6, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x7C6A9119, 0x7C6A95B7, '2019-02-10 00:00:00') /* Slashing Compound Bow (31798) */
+     , (0x7C6A9119, 0x7C6A95B8, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6A9119, 0x7C6A95B9, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A95BA, '2019-02-10 00:00:00') /* Ruminations on Portal Creation (34347) */
+     , (0x7C6A9119, 0x7C6A95BB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95BC, '2019-02-10 00:00:00') /* Platemail Cuirass (51) */
+     , (0x7C6A9119, 0x7C6A95BD, '2019-02-10 00:00:00') /* Utterly Flawless Lense (41465) */
+     , (0x7C6A9119, 0x7C6A95BE, '2019-02-10 00:00:00') /* Olthoi Amuli Helm (37196) */
+     , (0x7C6A9119, 0x7C6A95BF, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95C0, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95C1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95C2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95C3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95C4, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7C6A9119, 0x7C6A95C5, '2019-02-10 00:00:00') /* Oxidized Statue (19228) */
+     , (0x7C6A9119, 0x7C6A95C6, '2019-02-10 00:00:00') /* Oxidized Statue  (19246) */
+     , (0x7C6A9119, 0x7C6A95C7, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7C6A9119, 0x7C6A95C8, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7C6A9119, 0x7C6A95C9, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x7C6A9119, 0x7C6A95CA, '2019-02-10 00:00:00') /* Stick (31788) */
+     , (0x7C6A9119, 0x7C6A95CB, '2019-02-10 00:00:00') /* Goggles (41484) */
+     , (0x7C6A9119, 0x7C6A95CC, '2019-02-10 00:00:00') /* Cloak (44840) */
+     , (0x7C6A9119, 0x7C6A95CD, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A95CE, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A95CF, '2019-02-10 00:00:00') /* Nabut (22163) */
+     , (0x7C6A9119, 0x7C6A95D0, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A95D1, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x7C6A9119, 0x7C6A95D2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95D3, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7C6A9119, 0x7C6A95D4, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A95D5, '2019-02-10 00:00:00') /* Moderate Mana Stone (27330) */
+     , (0x7C6A9119, 0x7C6A95D6, '2019-02-10 00:00:00') /* Leather Gauntlets (25642) */
+     , (0x7C6A9119, 0x7C6A95D7, '2019-02-10 00:00:00') /* War Hammer (359) */
+     , (0x7C6A9119, 0x7C6A95D8, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7C6A9119, 0x7C6A95D9, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A95DA, '2019-02-10 00:00:00') /* Wood Heart (3673) */
+     , (0x7C6A9119, 0x7C6A95DB, '2019-02-10 00:00:00') /* Copper Heart (3670) */
+     , (0x7C6A9119, 0x7C6A95DC, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C6A9119, 0x7C6A95DD, '2019-02-10 00:00:00') /* Stormwood Sword (53316) */
+     , (0x7C6A9119, 0x7C6A95DE, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x7C6A9119, 0x7C6A95DF, '2019-02-10 00:00:00') /* Baggy Tunic (2595) */
+     , (0x7C6A9119, 0x7C6A95E0, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean (43534) */
+     , (0x7C6A9119, 0x7C6A95E1, '2019-02-10 00:00:00') /* Coronet (31866) */
+     , (0x7C6A9119, 0x7C6A95E2, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
+     , (0x7C6A9119, 0x7C6A95E3, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A95E4, '2019-02-10 00:00:00') /* Hand Axe (303) */
+     , (0x7C6A9119, 0x7C6A95E5, '2019-02-10 00:00:00') /* Dart Flinger (30746) */
+     , (0x7C6A9119, 0x7C6A95E6, '2019-02-10 00:00:00') /* Studded Leather Cowl (723) */
+     , (0x7C6A9119, 0x7C6A95E7, '2019-02-10 00:00:00') /* Leather Gauntlets (56) */
+     , (0x7C6A9119, 0x7C6A95E8, '2019-02-10 00:00:00') /* Circle of Raven Might (31394) */
+     , (0x7C6A9119, 0x7C6A95E9, '2019-02-10 00:00:00') /* Mitts of the Hunter (31393) */
+     , (0x7C6A9119, 0x7C6A95EA, '2019-02-10 00:00:00') /* Blooded Platinum Invader Lord Helm (29371) */
+     , (0x7C6A9119, 0x7C6A95EB, '2019-02-10 00:00:00') /* Quintessence Sickle (25949) */
+     , (0x7C6A9119, 0x7C6A95EC, '2019-02-10 00:00:00') /* Ashen Oculus (28155) */
+     , (0x7C6A9119, 0x7C6A95ED, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A95EE, '2019-02-10 00:00:00') /* Granite Key (23094) */
+     , (0x7C6A9119, 0x7C6A95EF, '2019-02-10 00:00:00') /* Aluvian Lamp (25763) */
+     , (0x7C6A9119, 0x7C6A95F0, '2019-02-10 00:00:00') /* Marble Key (23095) */
+     , (0x7C6A9119, 0x7C6A95F1, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7C6A9119, 0x7C6A95F2, '2019-02-10 00:00:00') /* Ground Chorizite (7534) */
+     , (0x7C6A9119, 0x7C6A95F3, '2019-02-10 00:00:00') /* Ground Chorizite (7534) */
+     , (0x7C6A9119, 0x7C6A95F4, '2019-02-10 00:00:00') /* Ground Chorizite (7534) */
+     , (0x7C6A9119, 0x7C6A95F5, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A95F6, '2019-02-10 00:00:00') /* Epee (45099) */
+     , (0x7C6A9119, 0x7C6A95F7, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x7C6A9119, 0x7C6A95F8, '2019-02-10 00:00:00') /* Orb of the Ironsea (30376) */
+     , (0x7C6A9119, 0x7C6A95F9, '2019-02-10 00:00:00') /* Pearl of Spirit Drinking (30237) */
+     , (0x7C6A9119, 0x7C6A95FA, '2019-02-10 00:00:00') /* Olthoi's Jewel (30182) */
+     , (0x7C6A9119, 0x7C6A95FB, '2019-02-10 00:00:00') /* Gelid's Jewel (30208) */
+     , (0x7C6A9119, 0x7C6A95FC, '2019-02-10 00:00:00') /* Corruptor's Crystal (43407) */
+     , (0x7C6A9119, 0x7C6A95FD, '2019-02-10 00:00:00') /* Duelist's Jewel (30235) */
+     , (0x7C6A9119, 0x7C6A95FE, '2019-02-10 00:00:00') /* Tusker's Jewel (30193) */
+     , (0x7C6A9119, 0x7C6A95FF, '2019-02-10 00:00:00') /* Viamontian Pants (28606) */
+     , (0x7C6A9119, 0x7C6A9600, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9601, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9602, '2019-02-10 00:00:00') /* Mana Stone (2435) */
+     , (0x7C6A9119, 0x7C6A9603, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C6A9119, 0x7C6A9604, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A9605, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A9606, '2019-02-10 00:00:00') /* Halved Cloak (44855) */
+     , (0x7C6A9119, 0x7C6A9607, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A9608, '2019-02-10 00:00:00') /* Knorr Academy Helm (43068) */
+     , (0x7C6A9119, 0x7C6A9609, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets (37208) */
+     , (0x7C6A9119, 0x7C6A960A, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7C6A9119, 0x7C6A960B, '2019-02-10 00:00:00') /* Leather Pants (25647) */
+     , (0x7C6A9119, 0x7C6A960C, '2019-02-10 00:00:00') /* Vest (28609) */
+     , (0x7C6A9119, 0x7C6A960D, '2019-02-10 00:00:00') /* Sedgemail Leather Shoes (43832) */
+     , (0x7C6A9119, 0x7C6A960E, '2019-02-10 00:00:00') /* Bordered Cloak (44853) */
+     , (0x7C6A9119, 0x7C6A960F, '2019-02-10 00:00:00') /* Lightning Stick (31790) */
+     , (0x7C6A9119, 0x7C6A9610, '2019-02-10 00:00:00') /* Lightning Khanda-handled Mace (41064) */
+     , (0x7C6A9119, 0x7C6A9611, '2019-02-10 00:00:00') /* Lancet (31794) */
+     , (0x7C6A9119, 0x7C6A9612, '2019-02-10 00:00:00') /* Baggy Breeches (2603) */
+     , (0x7C6A9119, 0x7C6A9613, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7C6A9119, 0x7C6A9614, '2019-02-10 00:00:00') /* Nariyid Boots (27226) */
+     , (0x7C6A9119, 0x7C6A9615, '2019-02-10 00:00:00') /* Aerbax's Defeat (31822) */
+     , (0x7C6A9119, 0x7C6A9616, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7C6A9119, 0x7C6A9617, '2019-02-10 00:00:00') /* Halved Cloak (44854) */
+     , (0x7C6A9119, 0x7C6A9618, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x7C6A9119, 0x7C6A9619, '2019-02-10 00:00:00') /* Signet Crown (31868) */
+     , (0x7C6A9119, 0x7C6A961A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A961B, '2019-02-10 00:00:00') /* Piece of parchment (2195) */
+     , (0x7C6A9119, 0x7C6A961C, '2019-02-10 00:00:00') /* Diadem (31867) */
+     , (0x7C6A9119, 0x7C6A961D, '2019-02-10 00:00:00') /* Wide Breeches (2604) */
+     , (0x7C6A9119, 0x7C6A961E, '2019-02-10 00:00:00') /* Cloth Cap (118) */
+     , (0x7C6A9119, 0x7C6A961F, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C6A9119, 0x7C6A9620, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A9621, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9622, '2019-02-10 00:00:00') /* Goggles (41484) */
+     , (0x7C6A9119, 0x7C6A9623, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7C6A9119, 0x7C6A9624, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A9625, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9626, '2019-02-10 00:00:00') /* Moderate Mana Stone (27330) */
+     , (0x7C6A9119, 0x7C6A9627, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x7C6A9119, 0x7C6A9628, '2019-02-10 00:00:00') /* Tipped Pack Cow (33965) */
+     , (0x7C6A9119, 0x7C6A9629, '2019-02-10 00:00:00') /* Small Shard (6056) */
+     , (0x7C6A9119, 0x7C6A962A, '2019-02-10 00:00:00') /* Superb Lockpick (515) */
+     , (0x7C6A9119, 0x7C6A962B, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A962C, '2019-02-10 00:00:00') /* Marshmallow Pumpkin (32209) */
+     , (0x7C6A9119, 0x7C6A962D, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Idol (Level 180+) (44296) */
+     , (0x7C6A9119, 0x7C6A962E, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Sword (Level 180+) (44294) */
+     , (0x7C6A9119, 0x7C6A962F, '2019-02-10 00:00:00') /* Ancient Tablet of the Crystal Staff (Level 180+) (44293) */
+     , (0x7C6A9119, 0x7C6A9630, '2019-02-10 00:00:00') /* Salvage (39) (20993) */
+     , (0x7C6A9119, 0x7C6A9631, '2019-02-10 00:00:00') /* Salvaged  (100) (20989) */
+     , (0x7C6A9119, 0x7C6A9632, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9633, '2019-02-10 00:00:00') /* Salvaged  (100) (20994) */
+     , (0x7C6A9119, 0x7C6A9634, '2019-02-10 00:00:00') /* Salvaged  (100) (20986) */
+     , (0x7C6A9119, 0x7C6A9635, '2019-02-10 00:00:00') /* Salvage (40) (21066) */
+     , (0x7C6A9119, 0x7C6A9636, '2019-02-10 00:00:00') /* Quartered Cloak (44858) */
+     , (0x7C6A9119, 0x7C6A9637, '2019-02-10 00:00:00') /* Salvage (100) (21054) */
+     , (0x7C6A9119, 0x7C6A9638, '2019-02-10 00:00:00') /* Piercing Baton (31825) */
+     , (0x7C6A9119, 0x7C6A9639, '2019-02-10 00:00:00') /* Salvage (97) (21037) */
+     , (0x7C6A9119, 0x7C6A963A, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x7C6A9119, 0x7C6A963B, '2019-02-10 00:00:00') /* Frost Spine Glaive (31778) */
+     , (0x7C6A9119, 0x7C6A963C, '2019-02-10 00:00:00') /* Salvage (31) (21039) */
+     , (0x7C6A9119, 0x7C6A963D, '2019-02-10 00:00:00') /* Superb Lockpick (515) */
+     , (0x7C6A9119, 0x7C6A963E, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A963F, '2019-02-10 00:00:00') /* Olthoi Amuli Sollerets (37208) */
+     , (0x7C6A9119, 0x7C6A9640, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */
+     , (0x7C6A9119, 0x7C6A9641, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A9642, '2019-02-10 00:00:00') /* Aluvian Lamp (25763) */
+     , (0x7C6A9119, 0x7C6A9643, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9644, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7C6A9119, 0x7C6A9645, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9646, '2019-02-10 00:00:00') /* Ust (20646) */
+     , (0x7C6A9119, 0x7C6A9647, '2019-02-10 00:00:00') /* Olthoi Koujia Breastplate (37215) */
+     , (0x7C6A9119, 0x7C6A9648, '2019-02-10 00:00:00') /* Olthoi Amuli Coat (37299) */
+     , (0x7C6A9119, 0x7C6A9649, '2019-02-10 00:00:00') /* Sedgemail Leather Vest (43828) */
+     , (0x7C6A9119, 0x7C6A964A, '2019-02-10 00:00:00') /* Lyceum Hood (44977) */
+     , (0x7C6A9119, 0x7C6A964B, '2019-02-10 00:00:00') /* Olthoi Breastplate (37216) */
+     , (0x7C6A9119, 0x7C6A964C, '2019-02-10 00:00:00') /* Olthoi Sollerets (40691) */
+     , (0x7C6A9119, 0x7C6A964D, '2019-02-10 00:00:00') /* Haebrean Pauldrons (42754) */
+     , (0x7C6A9119, 0x7C6A964E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A964F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9650, '2019-02-10 00:00:00') /* Gem of Purity (9192) */
+     , (0x7C6A9119, 0x7C6A9651, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9652, '2019-02-10 00:00:00') /* Greater Mana Stone (2436) */
+     , (0x7C6A9119, 0x7C6A9653, '2019-02-10 00:00:00') /* Coronet (31866) */
+     , (0x7C6A9119, 0x7C6A9654, '2019-02-10 00:00:00') /* Fez (5894) */
+     , (0x7C6A9119, 0x7C6A9655, '2019-02-10 00:00:00') /* Olthoi Celdon Girth (37192) */
+     , (0x7C6A9119, 0x7C6A9656, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9657, '2019-02-10 00:00:00') /* Alduressa Boots (30950) */
+     , (0x7C6A9119, 0x7C6A9658, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9659, '2019-02-10 00:00:00') /* Olthoi Tassets (40684) */
+     , (0x7C6A9119, 0x7C6A965A, '2019-02-10 00:00:00') /* Kasa (5901) */
+     , (0x7C6A9119, 0x7C6A965B, '2019-02-10 00:00:00') /* Studded Leather Girth (63) */
+     , (0x7C6A9119, 0x7C6A965C, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7C6A9119, 0x7C6A965D, '2019-02-10 00:00:00') /* Baigha (550) */
+     , (0x7C6A9119, 0x7C6A965E, '2019-02-10 00:00:00') /* Knorr Academy Boots (43053) */
+     , (0x7C6A9119, 0x7C6A965F, '2019-02-10 00:00:00') /* Lorica Helm (27223) */
+     , (0x7C6A9119, 0x7C6A9660, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A9661, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9662, '2019-02-10 00:00:00') /* Loose Pants (2601) */
+     , (0x7C6A9119, 0x7C6A9663, '2019-02-10 00:00:00') /* Flared Shirt (2588) */
+     , (0x7C6A9119, 0x7C6A9664, '2019-02-10 00:00:00') /* Academy Coat (13212) */
+     , (0x7C6A9119, 0x7C6A9665, '2019-02-10 00:00:00') /* Ginseng (625) */
+     , (0x7C6A9119, 0x7C6A9666, '2019-02-10 00:00:00') /* Scroll of Hermetic Void IV (2839) */
+     , (0x7C6A9119, 0x7C6A9667, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7C6A9119, 0x7C6A9668, '2019-02-10 00:00:00') /* Thick Lugian Stew (28454) */
+     , (0x7C6A9119, 0x7C6A9669, '2019-02-10 00:00:00') /* Refreshing Water (27261) */
+     , (0x7C6A9119, 0x7C6A966A, '2019-02-10 00:00:00') /* Hearty Lugian Loaf (28453) */
+     , (0x7C6A9119, 0x7C6A966B, '2019-02-10 00:00:00') /* Resister's Crystal (30224) */
+     , (0x7C6A9119, 0x7C6A966C, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A966D, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A966E, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A966F, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7C6A9119, 0x7C6A9670, '2019-02-10 00:00:00') /* Cracked Shard (6055) */
+     , (0x7C6A9119, 0x7C6A9671, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9672, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A9673, '2019-02-10 00:00:00') /* Aetheria (42637) */
+     , (0x7C6A9119, 0x7C6A9674, '2019-02-10 00:00:00') /* Alchemy Table (25771) */
+     , (0x7C6A9119, 0x7C6A9675, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x7C6A9119, 0x7C6A9676, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */
+     , (0x7C6A9119, 0x7C6A9677, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9678, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A9679, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7C6A9119, 0x7C6A967A, '2019-02-10 00:00:00') /* Mana Tonic (27323) */
+     , (0x7C6A9119, 0x7C6A967B, '2019-02-10 00:00:00') /* Gem of Balance (34291) */
+     , (0x7C6A9119, 0x7C6A967C, '2019-02-10 00:00:00') /* Gem of Purity (9192) */
+     , (0x7C6A9119, 0x7C6A967D, '2019-02-10 00:00:00') /* Stamina Tonic (27327) */
+     , (0x7C6A9119, 0x7C6A967E, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A967F, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7C6A9119, 0x7C6A9680, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A9681, '2019-02-10 00:00:00') /* Great Star Mace (41057) */
+     , (0x7C6A9119, 0x7C6A9682, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A9683, '2019-02-10 00:00:00') /* Olthoi Amuli Leggings (37201) */
+     , (0x7C6A9119, 0x7C6A9684, '2019-02-10 00:00:00') /* Piercing Bow (29243) */
+     , (0x7C6A9119, 0x7C6A9685, '2019-02-10 00:00:00') /* Chevron Cloak (44850) */
+     , (0x7C6A9119, 0x7C6A9686, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7C6A9119, 0x7C6A9687, '2019-02-10 00:00:00') /* Olthoi Alduressa Leggings (37200) */
+     , (0x7C6A9119, 0x7C6A9688, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x7C6A9119, 0x7C6A9689, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7C6A9119, 0x7C6A968A, '2019-02-10 00:00:00') /* Haebrean Gauntlets (42750) */
+     , (0x7C6A9119, 0x7C6A968B, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A968C, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A968D, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A968E, '2019-02-10 00:00:00') /* Piercing Crossbow (29250) */
+     , (0x7C6A9119, 0x7C6A968F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9690, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x7C6A9119, 0x7C6A9691, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A9692, '2019-02-10 00:00:00') /* Piercing Compound Bow (31804) */
+     , (0x7C6A9119, 0x7C6A9693, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7C6A9119, 0x7C6A9694, '2019-02-10 00:00:00') /* Haebrean Breastplate (42749) */
+     , (0x7C6A9119, 0x7C6A9695, '2019-02-10 00:00:00') /* Salvaged  (100) (21045) */
+     , (0x7C6A9119, 0x7C6A9696, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A9697, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A9698, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A9699, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A969A, '2019-02-10 00:00:00') /* Salvage (82) (21040) */
+     , (0x7C6A9119, 0x7C6A969B, '2019-02-10 00:00:00') /* Salvage (81) (20988) */
+     , (0x7C6A9119, 0x7C6A969C, '2019-02-10 00:00:00') /* Scroll of Swordsman's Bane (20404) */
+     , (0x7C6A9119, 0x7C6A969D, '2019-02-10 00:00:00') /* Salvaged  (100) (21065) */
+     , (0x7C6A9119, 0x7C6A969E, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A969F, '2019-02-10 00:00:00') /* Virindi Servant's Amulet (8789) */
+     , (0x7C6A9119, 0x7C6A96A0, '2019-02-10 00:00:00') /* Suikan Creature Master Robe (5917) */
+     , (0x7C6A9119, 0x7C6A96A1, '2019-02-10 00:00:00') /* Salvage (100) (21042) */
+     , (0x7C6A9119, 0x7C6A96A2, '2019-02-10 00:00:00') /* Salvage (20) (21048) */
+     , (0x7C6A9119, 0x7C6A96A3, '2019-02-10 00:00:00') /* Pyreal Sliver (6355) */
+     , (0x7C6A9119, 0x7C6A96A4, '2019-02-10 00:00:00') /* Sack (166) */
+     , (0x7C6A9119, 0x7C6A96A5, '2019-02-10 00:00:00') /* Suikan Creature Master Robe (5917) */
+     , (0x7C6A9119, 0x7C6A96A6, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7C6A9119, 0x7C6A96A7, '2019-02-10 00:00:00') /* Ice Tachi (1435) */
+     , (0x7C6A9119, 0x7C6A96A8, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7C6A9119, 0x7C6A96A9, '2019-02-10 00:00:00') /* Second Half of a Battered Axe (31451) */
+     , (0x7C6A9119, 0x7C6A96AA, '2019-02-10 00:00:00') /* Orb (2366) */
+     , (0x7C6A9119, 0x7C6A96AB, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7C6A9119, 0x7C6A96AC, '2019-02-10 00:00:00') /* Scroll of Hieromancer's Boon (20595) */
+     , (0x7C6A9119, 0x7C6A96AD, '2019-02-10 00:00:00') /* Scroll of Yoshi's Blessing (41287) */
+     , (0x7C6A9119, 0x7C6A96AE, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7C6A9119, 0x7C6A96AF, '2019-02-10 00:00:00') /* Quartered Cloak (44858) */
+     , (0x7C6A9119, 0x7C6A96B0, '2019-02-10 00:00:00') /* Letter From Home (43018) */
+     , (0x7C6A9119, 0x7C6A96B1, '2019-02-10 00:00:00') /* Scroll of Turn Blade III (2894) */
+     , (0x7C6A9119, 0x7C6A96B2, '2019-02-10 00:00:00') /* Sack (166) */
+     , (0x7C6A9119, 0x7C6A96B3, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x7C6A9119, 0x7C6A96B4, '2019-02-10 00:00:00') /* Nether Sceptre (43381) */
+     , (0x7C6A9119, 0x7C6A96B5, '2019-02-10 00:00:00') /* Wide Breeches (2604) */
+     , (0x7C6A9119, 0x7C6A96B6, '2019-02-10 00:00:00') /* Teardrop Crown (31864) */
+     , (0x7C6A9119, 0x7C6A96B7, '2019-02-10 00:00:00') /* Acid War Axe (31770) */
+     , (0x7C6A9119, 0x7C6A96B8, '2019-02-10 00:00:00') /* Piercing Bow (29243) */
+     , (0x7C6A9119, 0x7C6A96B9, '2019-02-10 00:00:00') /* Lightning Hand Wraps (45120) */
+     , (0x7C6A9119, 0x7C6A96BA, '2019-02-10 00:00:00') /* Piercing Compound Crossbow (31811) */
+     , (0x7C6A9119, 0x7C6A96BB, '2019-02-10 00:00:00') /* Salvage (36570) */
+     , (0x7C6A9119, 0x7C6A96BC, '2019-02-10 00:00:00') /* Diamond Heart (7338) */
+     , (0x7C6A9119, 0x7C6A96BD, '2019-02-10 00:00:00') /* Acid Trident (7793) */
+     , (0x7C6A9119, 0x7C6A96BE, '2019-02-10 00:00:00') /* Salvage (82) (21040) */
+     , (0x7C6A9119, 0x7C6A96BF, '2019-02-10 00:00:00') /* Chevron Cloak (44851) */
+     , (0x7C6A9119, 0x7C6A96C0, '2019-02-10 00:00:00') /* Salvaged  (100) (21049) */
+     , (0x7C6A9119, 0x7C6A96C1, '2019-02-10 00:00:00') /* Quartered Cloak (44858) */
+     , (0x7C6A9119, 0x7C6A96C2, '2019-02-10 00:00:00') /* Salvaged  (100) (21079) */
+     , (0x7C6A9119, 0x7C6A96C3, '2019-02-10 00:00:00') /* Seal (5873) */
+     , (0x7C6A9119, 0x7C6A96C4, '2019-02-10 00:00:00') /* Mace of Dissonance (25906) */
+     , (0x7C6A9119, 0x7C6A96C5, '2019-02-10 00:00:00') /* Pyreal Bar (6329) */
+     , (0x7C6A9119, 0x7C6A96C6, '2019-02-10 00:00:00') /* Nodachi (40760) */
+     , (0x7C6A9119, 0x7C6A96C7, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x7C6A9119, 0x7C6A96C8, '2019-02-10 00:00:00') /* Tenassa Breastplate (31026) */
+     , (0x7C6A9119, 0x7C6A96C9, '2019-02-10 00:00:00') /* Repaired Shadow Stone (32588) */
+     , (0x7C6A9119, 0x7C6A96CA, '2019-02-10 00:00:00') /* Doppelganger Robe (30832) */
+     , (0x7C6A9119, 0x7C6A96CB, '2019-02-10 00:00:00') /* Doppelganger Shield (30833) */
+     , (0x7C6A9119, 0x7C6A96CC, '2019-02-10 00:00:00') /* Entryway Key (43519) */
+     , (0x7C6A9119, 0x7C6A96CD, '2019-02-10 00:00:00') /* Gold Phyntos Wasp Wing (3700) */
+     , (0x7C6A9119, 0x7C6A96CE, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7C6A9119, 0x7C6A96CF, '2019-02-10 00:00:00') /* Town Network Portal Gem (43020) */
+     , (0x7C6A9119, 0x7C6A96D0, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7C6A9119, 0x7C6A96D1, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A96D2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C6A9119, 0x7C6A96D3, '2019-02-10 00:00:00') /* Gorget (2367) */
+     , (0x7C6A9119, 0x7C6A96D4, '2019-02-10 00:00:00') /* Flared Tunic (2594) */
+     , (0x7C6A9119, 0x7C6A96D5, '2019-02-10 00:00:00') /* Bordered Cloak (44853) */
+     , (0x7C6A9119, 0x7C6A96D6, '2019-02-10 00:00:00') /* Cloak (44840) */
+     , (0x7C6A9119, 0x7C6A96D7, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x7C6A9119, 0x7C6A96D8, '2019-02-10 00:00:00') /* Teardrop Crown (31864) */
+     , (0x7C6A9119, 0x7C6A96D9, '2019-02-10 00:00:00') /* Nefane Pearl (43382) */
+     , (0x7C6A9119, 0x7C6A96DA, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A96DB, '2019-02-10 00:00:00') /* Quill of Introspection (37364) */
+     , (0x7C6A9119, 0x7C6A96DC, '2019-02-10 00:00:00') /* Olthoi Koujia Sleeves (37206) */
+     , (0x7C6A9119, 0x7C6A96DD, '2019-02-10 00:00:00') /* Quill of Infliction (37363) */
+     , (0x7C6A9119, 0x7C6A96DE, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7C6A9119, 0x7C6A96DF, '2019-02-10 00:00:00') /* Olthoi Celdon Leggings (37202) */
+     , (0x7C6A9119, 0x7C6A96E0, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x7C6A9119, 0x7C6A96E1, '2019-02-10 00:00:00') /* Khanjar (45431) */
+     , (0x7C6A9119, 0x7C6A96E2, '2019-02-10 00:00:00') /* Chiran Coat (27215) */
+     , (0x7C6A9119, 0x7C6A96E3, '2019-02-10 00:00:00') /* Empyrean Over-robe (44803) */
+     , (0x7C6A9119, 0x7C6A96E4, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x7C6A9119, 0x7C6A96E5, '2019-02-10 00:00:00') /* Covenant Gauntlets (21153) */
+     , (0x7C6A9119, 0x7C6A96E6, '2019-02-10 00:00:00') /* Ruschk Hunter Leggings (29050) */
+     , (0x7C6A9119, 0x7C6A96E7, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7C6A9119, 0x7C6A96E8, '2019-02-10 00:00:00') /* Fire Board with Nail (31777) */
+     , (0x7C6A9119, 0x7C6A96E9, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A96EA, '2019-02-10 00:00:00') /* Flaming Lancet (31797) */
+     , (0x7C6A9119, 0x7C6A96EB, '2019-02-10 00:00:00') /* Frost Compound Bow (31803) */
+     , (0x7C6A9119, 0x7C6A96EC, '2019-02-10 00:00:00') /* Covenant Girth (40699) */
+     , (0x7C6A9119, 0x7C6A96ED, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7C6A9119, 0x7C6A96EE, '2019-02-10 00:00:00') /* Olthoi Sollerets (40691) */
+     , (0x7C6A9119, 0x7C6A96EF, '2019-02-10 00:00:00') /* Electric Trident (7794) */
+     , (0x7C6A9119, 0x7C6A96F0, '2019-02-10 00:00:00') /* Frost Nodachi (40764) */
+     , (0x7C6A9119, 0x7C6A96F1, '2019-02-10 00:00:00') /* Writ of Refuge (11710) */
+     , (0x7C6A9119, 0x7C6A96F2, '2019-02-10 00:00:00') /* Covenant Shield (40713) */
+     , (0x7C6A9119, 0x7C6A96F3, '2019-02-10 00:00:00') /* Mana Tonic (27323) */
+     , (0x7C6A9119, 0x7C6A96F4, '2019-02-10 00:00:00') /* Sollerets (107) */
+     , (0x7C6A9119, 0x7C6A96F5, '2019-02-10 00:00:00') /* Kasrullah (325) */
+     , (0x7C6A9119, 0x7C6A96F6, '2019-02-10 00:00:00') /* Fire Board with Nail (31777) */
+     , (0x7C6A9119, 0x7C6A96F7, '2019-02-10 00:00:00') /* Acid Atlatl (29252) */
+     , (0x7C6A9119, 0x7C6A96F8, '2019-02-10 00:00:00') /* Studded Leather Gauntlets (59) */
+     , (0x7C6A9119, 0x7C6A96F9, '2019-02-10 00:00:00') /* Frost Magari Yari (41045) */
+     , (0x7C6A9119, 0x7C6A96FA, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7C6A9119, 0x7C6A96FB, '2019-02-10 00:00:00') /* Koujia Breastplate (6003) */
+     , (0x7C6A9119, 0x7C6A96FC, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x7C6A9119, 0x7C6A96FD, '2019-02-10 00:00:00') /* Acid Shashqa (41068) */
+     , (0x7C6A9119, 0x7C6A96FE, '2019-02-10 00:00:00') /* Tachi (353) */
+     , (0x7C6A9119, 0x7C6A96FF, '2019-02-10 00:00:00') /* Lightning Katar (3819) */
+     , (0x7C6A9119, 0x7C6A9700, '2019-02-10 00:00:00') /* Flaming Quarter Staff (22166) */
+     , (0x7C6A9119, 0x7C6A9701, '2019-02-10 00:00:00') /* Covenant Gauntlets (21153) */
+     , (0x7C6A9119, 0x7C6A9702, '2019-02-10 00:00:00') /* Lightning Jitte (3803) */
+     , (0x7C6A9119, 0x7C6A9703, '2019-02-10 00:00:00') /* Studded Leather Coat (48) */
+     , (0x7C6A9119, 0x7C6A9704, '2019-02-10 00:00:00') /* Leather Boots (25661) */
+     , (0x7C6A9119, 0x7C6A9705, '2019-02-10 00:00:00') /* Salvaged  (100) (20986) */
+     , (0x7C6A9119, 0x7C6A9706, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A9707, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A9708, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A9709, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C6A9119, 0x7C6A970A, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */
+     , (0x7C6A9119, 0x7C6A970B, '2019-02-10 00:00:00') /* Artificer's Gauntlets (24454) */
+     , (0x7C6A9119, 0x7C6A970C, '2019-02-10 00:00:00') /* Black Spear of Shadow Renewal (33719) */
+     , (0x7C6A9119, 0x7C6A970D, '2019-02-10 00:00:00') /* Hieromancer's Crystal (30245) */
+     , (0x7C6A9119, 0x7C6A970E, '2019-02-10 00:00:00') /* Ben Ten's Crystal (30242) */
+     , (0x7C6A9119, 0x7C6A970F, '2019-02-10 00:00:00') /* Smithy's Crystal (30186) */
+     , (0x7C6A9119, 0x7C6A9710, '2019-02-10 00:00:00') /* Fletcher's Crystal (30205) */
+     , (0x7C6A9119, 0x7C6A9711, '2019-02-10 00:00:00') /* Tinker's Crystal (41256) */
+     , (0x7C6A9119, 0x7C6A9712, '2019-02-10 00:00:00') /* Thorsten's Crystal (30189) */
+     , (0x7C6A9119, 0x7C6A9713, '2019-02-10 00:00:00') /* Hunter's Crystal (30187) */
+     , (0x7C6A9119, 0x7C6A9714, '2019-02-10 00:00:00') /* Thorsten's Crystal (30244) */
+     , (0x7C6A9119, 0x7C6A9715, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x7C6A9119, 0x7C6A9716, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x7C6A9119, 0x7C6A9717, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9718, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */
+     , (0x7C6A9119, 0x7C6A9719, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x7C6A9119, 0x7C6A971A, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x7C6A9119, 0x7C6A971B, '2019-02-10 00:00:00') /* Wand (2472) */
+     , (0x7C6A9119, 0x7C6A971C, '2019-02-10 00:00:00') /* Studded Leather Bracers (38) */
+     , (0x7C6A9119, 0x7C6A971D, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C6A9119, 0x7C6A971E, '2019-02-10 00:00:00') /* Energy Crown (23591) */
+     , (0x7C6A9119, 0x7C6A971F, '2019-02-10 00:00:00') /* Smock (2589) */
+     , (0x7C6A9119, 0x7C6A9720, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A9721, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7C6A9119, 0x7C6A9722, '2019-02-10 00:00:00') /* Blunt Staff (37225) */
+     , (0x7C6A9119, 0x7C6A9723, '2019-02-10 00:00:00') /* Frost Dolabra (30565) */
+     , (0x7C6A9119, 0x7C6A9724, '2019-02-10 00:00:00') /* Slashing Slingshot (31812) */
+     , (0x7C6A9119, 0x7C6A9725, '2019-02-10 00:00:00') /* Lancet (31794) */
+     , (0x7C6A9119, 0x7C6A9726, '2019-02-10 00:00:00') /* Frost Yari (3916) */
+     , (0x7C6A9119, 0x7C6A9727, '2019-02-10 00:00:00') /* Platemail Tassets (110) */
+     , (0x7C6A9119, 0x7C6A9728, '2019-02-10 00:00:00') /* Leather Pants (25647) */
+     , (0x7C6A9119, 0x7C6A9729, '2019-02-10 00:00:00') /* Frost Jo (22157) */
+     , (0x7C6A9119, 0x7C6A972A, '2019-02-10 00:00:00') /* Acid Dagger (45422) */
+     , (0x7C6A9119, 0x7C6A972B, '2019-02-10 00:00:00') /* Lightning Assagai (41038) */
+     , (0x7C6A9119, 0x7C6A972C, '2019-02-10 00:00:00') /* Fire Slingshot (31816) */
+     , (0x7C6A9119, 0x7C6A972D, '2019-02-10 00:00:00') /* Faran Over-robe (44799) */
+     , (0x7C6A9119, 0x7C6A972E, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7C6A9119, 0x7C6A972F, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7C6A9119, 0x7C6A9730, '2019-02-10 00:00:00') /* Stiletto (30601) */
+     , (0x7C6A9119, 0x7C6A9731, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x7C6A9119, 0x7C6A9732, '2019-02-10 00:00:00') /* Alduressa Coat (28629) */
+     , (0x7C6A9119, 0x7C6A9733, '2019-02-10 00:00:00') /* Chiran Gauntlets (27216) */
+     , (0x7C6A9119, 0x7C6A9734, '2019-02-10 00:00:00') /* Frost Bow (29242) */
+     , (0x7C6A9119, 0x7C6A9735, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7C6A9119, 0x7C6A9736, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
+     , (0x7C6A9119, 0x7C6A9737, '2019-02-10 00:00:00') /* Cowl (119) */
+     , (0x7C6A9119, 0x7C6A9738, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C6A9119, 0x7C6A9739, '2019-02-10 00:00:00') /* Olthoi Celdon Sleeves (37205) */
+     , (0x7C6A9119, 0x7C6A973A, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7C6A9119, 0x7C6A973B, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7C6A9119, 0x7C6A973C, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7C6A9119, 0x7C6A973D, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7C6A9119, 0x7C6A973E, '2019-02-10 00:00:00') /* Copper Scarab (686) */
+     , (0x7C6A9119, 0x7C6A973F, '2019-02-10 00:00:00') /* Silver Pea (8331) */
+     , (0x7C6A9119, 0x7C6A9740, '2019-02-10 00:00:00') /* Vest (28609) */
+     , (0x7C6A9119, 0x7C6A9741, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7C6A9119, 0x7C6A9742, '2019-02-10 00:00:00') /* Teardrop Crown (31864) */
+     , (0x7C6A9119, 0x7C6A9743, '2019-02-10 00:00:00') /* Mutated Olthoi Gland (43747) */
+     , (0x7C6A9119, 0x7C6A9744, '2019-02-10 00:00:00') /* Glyph of Light Weapons (37370) */
+     , (0x7C6A9119, 0x7C6A9745, '2019-02-10 00:00:00') /* Chiran Leggings (27218) */
+     , (0x7C6A9119, 0x7C6A9746, '2019-02-10 00:00:00') /* Acid Naginata (7797) */
+     , (0x7C6A9119, 0x7C6A9747, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A9748, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7C6A9119, 0x7C6A9749, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7C6A9119, 0x7C6A974A, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7C6A9119, 0x7C6A974B, '2019-02-10 00:00:00') /* Life Spells Certificate (46419) */
+     , (0x7C6A9119, 0x7C6A974C, '2019-02-10 00:00:00') /* Sceptre (2548) */
+     , (0x7C6A9119, 0x7C6A974D, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7C6A9119, 0x7C6A974E, '2019-02-10 00:00:00') /* Mutated Olthoi Gland (43747) */
+     , (0x7C6A9119, 0x7C6A974F, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7C6A9119, 0x7C6A9750, '2019-02-10 00:00:00') /* Mutated Olthoi Gland (43747) */
+     , (0x7C6A9119, 0x7C6A9751, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C6A9119, 0x7C6A9752, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C6A9119, 0x7C6A9753, '2019-02-10 00:00:00') /* Superb Lockpick (515) */
+     , (0x7C6A9119, 0x7C6A9754, '2019-02-10 00:00:00') /* Mutated Olthoi Gland (43747) */
+     , (0x7C6A9119, 0x7C6A9755, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x7C6A9119, 0x7C6A9756, '2019-02-10 00:00:00') /* Olthoi Amuli Gauntlets (37188) */
+     , (0x7C6A9119, 0x7C6A9757, '2019-02-10 00:00:00') /* Olthoi Koujia Gauntlets (37190) */
+     , (0x7C6A9119, 0x7C6A9758, '2019-02-10 00:00:00') /* Nariyid Breastplate (27227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A911A,  2366, 0xC6A9015E, 36.69109, 55.46146, 45, -0.5230592, 0, 0, -0.8522964,  True, '2019-02-10 00:00:00'); /* Orb */

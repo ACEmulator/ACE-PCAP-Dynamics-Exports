@@ -5,13 +5,13 @@ VALUES (0x7989A001,  1154, 0x989A0016, 61.60529, 140.4762, 55.71207, -0.2380597,
 /* @teleloc 0x989A0016 [61.605290 140.476200 55.712070] -0.238060 0.000000 0.000000 -0.971251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7989A001, 0x7989A002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7989A001, 0x7989A003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7989A001, 0x7989A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7989A001, 0x7989A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7989A001, 0x7989A006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7989A001, 0x7989A007, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7989A001, 0x7989A008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7989A001, 0x7989A002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7989A001, 0x7989A003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7989A001, 0x7989A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7989A001, 0x7989A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7989A001, 0x7989A006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7989A001, 0x7989A007, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7989A001, 0x7989A008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7989A002,  9251, 0x989A0016, 61.60529, 140.4762, 55.71207, -0.2380597, 0, 0, -0.9712505,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

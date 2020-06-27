@@ -5,30 +5,30 @@ VALUES (0x7F75E001,  1154, 0xF75E0040, 182.6608, 173.8131, 34.53079, 0.5920542, 
 /* @teleloc 0xF75E0040 [182.660800 173.813100 34.530790] 0.592054 0.000000 0.000000 -0.805898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75E001, 0x7F75E002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F75E001, 0x7F75E003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7F75E001, 0x7F75E004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F75E001, 0x7F75E005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7F75E001, 0x7F75E006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7F75E001, 0x7F75E007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F75E001, 0x7F75E008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7F75E001, 0x7F75E009, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F75E001, 0x7F75E00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F75E001, 0x7F75E00B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7F75E001, 0x7F75E00C, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F75E001, 0x7F75E00D, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F75E001, 0x7F75E00E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F75E001, 0x7F75E00F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F75E001, 0x7F75E010, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F75E001, 0x7F75E011, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F75E001, 0x7F75E012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F75E001, 0x7F75E013, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7F75E001, 0x7F75E014, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7F75E001, 0x7F75E015, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7F75E001, 0x7F75E016, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F75E001, 0x7F75E017, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F75E001, 0x7F75E018, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F75E001, 0x7F75E019, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7F75E001, 0x7F75E002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F75E001, 0x7F75E003, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */
+     , (0x7F75E001, 0x7F75E004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F75E001, 0x7F75E005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7F75E001, 0x7F75E006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7F75E001, 0x7F75E007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F75E001, 0x7F75E008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7F75E001, 0x7F75E009, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F75E001, 0x7F75E00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F75E001, 0x7F75E00B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7F75E001, 0x7F75E00C, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F75E001, 0x7F75E00D, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F75E001, 0x7F75E00E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F75E001, 0x7F75E00F, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F75E001, 0x7F75E010, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F75E001, 0x7F75E011, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F75E001, 0x7F75E012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F75E001, 0x7F75E013, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7F75E001, 0x7F75E014, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7F75E001, 0x7F75E015, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7F75E001, 0x7F75E016, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F75E001, 0x7F75E017, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F75E001, 0x7F75E018, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F75E001, 0x7F75E019, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75E002,  8430, 0xF75E0040, 182.6608, 173.8131, 34.53079, 0.5920542, 0, 0, -0.8058982,  True, '2019-02-10 00:00:00'); /* Mosswart Soul Trapper */
@@ -131,11 +131,11 @@ VALUES (0x7F75E01A,  1542, 0xF75E000C, 29.54535, 94.49997, 7.886346, 0.5368115, 
 /* @teleloc 0xF75E000C [29.545350 94.499970 7.886346] 0.536812 0.000000 0.000000 -0.843702 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75E01A, 0x7F75E01B, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7F75E01A, 0x7F75E01C, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7F75E01A, 0x7F75E01D, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7F75E01A, 0x7F75E01E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7F75E01A, 0x7F75E01F, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7F75E01A, 0x7F75E01B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7F75E01A, 0x7F75E01C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7F75E01A, 0x7F75E01D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7F75E01A, 0x7F75E01E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7F75E01A, 0x7F75E01F, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75E01B,  8037, 0xF75E000C, 29.54535, 94.49997, 7.886346, 0.5368115, 0, 0, -0.8437023,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

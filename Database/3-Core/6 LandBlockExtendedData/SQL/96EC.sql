@@ -5,32 +5,32 @@ VALUES (0x796EC001,  1154, 0x96EC003C, 168.3564, 75.70554, 7.683205, 0.7071068, 
 /* @teleloc 0x96EC003C [168.356400 75.705540 7.683205] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796EC001, 0x796EC002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x796EC001, 0x796EC003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x796EC001, 0x796EC004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796EC001, 0x796EC005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x796EC001, 0x796EC006, '2019-02-10 00:00:00') /* Banished Tumerok */
-     , (0x796EC001, 0x796EC007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796EC001, 0x796EC008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x796EC001, 0x796EC009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x796EC001, 0x796EC00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x796EC001, 0x796EC00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x796EC001, 0x796EC00C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796EC001, 0x796EC00D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x796EC001, 0x796EC00E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x796EC001, 0x796EC00F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x796EC001, 0x796EC010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x796EC001, 0x796EC011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796EC001, 0x796EC012, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x796EC001, 0x796EC013, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x796EC001, 0x796EC014, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x796EC001, 0x796EC015, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796EC001, 0x796EC016, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x796EC001, 0x796EC017, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x796EC001, 0x796EC018, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796EC001, 0x796EC019, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796EC001, 0x796EC01A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796EC001, 0x796EC01B, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x796EC001, 0x796EC002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796EC001, 0x796EC003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x796EC001, 0x796EC004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796EC001, 0x796EC005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x796EC001, 0x796EC006, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x796EC001, 0x796EC007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796EC001, 0x796EC008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x796EC001, 0x796EC009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x796EC001, 0x796EC00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x796EC001, 0x796EC00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x796EC001, 0x796EC00C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796EC001, 0x796EC00D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x796EC001, 0x796EC00E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x796EC001, 0x796EC00F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EC001, 0x796EC010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EC001, 0x796EC011, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796EC001, 0x796EC012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EC001, 0x796EC013, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x796EC001, 0x796EC014, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x796EC001, 0x796EC015, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796EC001, 0x796EC016, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x796EC001, 0x796EC017, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x796EC001, 0x796EC018, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796EC001, 0x796EC019, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796EC001, 0x796EC01A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796EC001, 0x796EC01B, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EC002, 24289, 0x96EC003C, 168.3564, 75.70554, 7.683205, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -141,10 +141,10 @@ VALUES (0x796EC01C,  1542, 0x96EC0034, 146.4446, 80.96929, 10.21974, 0.9365434, 
 /* @teleloc 0x96EC0034 [146.444600 80.969290 10.219740] 0.936543 0.000000 0.000000 -0.350552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796EC01C, 0x796EC01D, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x796EC01C, 0x796EC01E, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x796EC01C, 0x796EC01F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x796EC01C, 0x796EC020, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x796EC01C, 0x796EC01D, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x796EC01C, 0x796EC01E, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x796EC01C, 0x796EC01F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x796EC01C, 0x796EC020, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EC01D, 11554, 0x96EC0034, 146.4446, 80.96929, 10.21974, 0.9365434, 0, 0, -0.3505517,  True, '2019-02-10 00:00:00'); /* Colban Plant */

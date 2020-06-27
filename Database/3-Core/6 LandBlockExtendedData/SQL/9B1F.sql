@@ -5,10 +5,10 @@ VALUES (0x79B1F001,  1154, 0x9B1F000F, 45.11135, 162.2778, 167.5043, -0.7947171,
 /* @teleloc 0x9B1F000F [45.111350 162.277800 167.504300] -0.794717 0.000000 0.000000 -0.606980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B1F001, 0x79B1F002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79B1F001, 0x79B1F003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79B1F001, 0x79B1F004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79B1F001, 0x79B1F005, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x79B1F001, 0x79B1F002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79B1F001, 0x79B1F003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79B1F001, 0x79B1F004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79B1F001, 0x79B1F005, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B1F002,  8968, 0x9B1F000F, 45.11135, 162.2778, 167.5043, -0.7947171, 0, 0, -0.60698,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -31,8 +31,8 @@ VALUES (0x79B1F006,  1542, 0x9B1F001E, 72.20536, 140.8491, 159.9622, -0.1176129,
 /* @teleloc 0x9B1F001E [72.205360 140.849100 159.962200] -0.117613 0.000000 0.000000 -0.993060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B1F006, 0x79B1F007, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79B1F006, 0x79B1F008, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x79B1F006, 0x79B1F007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79B1F006, 0x79B1F008, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B1F007,  8037, 0x9B1F001E, 72.20536, 140.8491, 159.9622, -0.1176129, 0, 0, -0.9930595,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,9 +5,9 @@ VALUES (0x7A632001,  1154, 0xA6320033, 160.8855, 61.86264, 121.4727, -0.4159456,
 /* @teleloc 0xA6320033 [160.885500 61.862640 121.472700] -0.415946 0.000000 0.000000 -0.909390 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A632001, 0x7A632002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A632001, 0x7A632003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A632001, 0x7A632004, '2019-02-10 00:00:00') /* Three Eyed Snowman */;
+VALUES (0x7A632001, 0x7A632002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A632001, 0x7A632003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A632001, 0x7A632004, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A632002, 14518, 0xA6320033, 160.8855, 61.86264, 121.4727, -0.4159456, 0, 0, -0.9093895,  True, '2019-02-10 00:00:00'); /* Shivver */

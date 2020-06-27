@@ -9,16 +9,16 @@ VALUES (0x736ED001,  1154, 0x36ED0016, 53.3973, 133.345, 85.57542, 0.6542556, 0,
 /* @teleloc 0x36ED0016 [53.397300 133.345000 85.575420] 0.654256 0.000000 0.000000 -0.756274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736ED001, 0x736ED002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x736ED001, 0x736ED003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x736ED001, 0x736ED004, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x736ED001, 0x736ED005, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x736ED001, 0x736ED006, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x736ED001, 0x736ED007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x736ED001, 0x736ED008, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x736ED001, 0x736ED009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x736ED001, 0x736ED00A, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736ED001, 0x736ED00B, '2019-02-10 00:00:00') /* Bokrok Lugian */;
+VALUES (0x736ED001, 0x736ED002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x736ED001, 0x736ED003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x736ED001, 0x736ED004, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x736ED001, 0x736ED005, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x736ED001, 0x736ED006, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x736ED001, 0x736ED007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x736ED001, 0x736ED008, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x736ED001, 0x736ED009, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x736ED001, 0x736ED00A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x736ED001, 0x736ED00B, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736ED002, 22909, 0x36ED0016, 53.3973, 133.345, 85.57542, 0.6542556, 0, 0, -0.7562736,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */

@@ -5,27 +5,27 @@ VALUES (0x7B93C001,  1154, 0xB93C001F, 75.63474, 145.8605, 77.36942, -0.5072516,
 /* @teleloc 0xB93C001F [75.634740 145.860500 77.369420] -0.507252 0.000000 0.000000 -0.861798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B93C001, 0x7B93C002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B93C001, 0x7B93C004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B93C001, 0x7B93C005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C006, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7B93C001, 0x7B93C007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B93C001, 0x7B93C009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C00A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B93C001, 0x7B93C00D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B93C001, 0x7B93C00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B93C001, 0x7B93C00F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B93C001, 0x7B93C010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B93C001, 0x7B93C011, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B93C001, 0x7B93C012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B93C001, 0x7B93C013, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B93C001, 0x7B93C014, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B93C001, 0x7B93C015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B93C001, 0x7B93C016, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7B93C001, 0x7B93C002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B93C001, 0x7B93C004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B93C001, 0x7B93C005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C006, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7B93C001, 0x7B93C007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B93C001, 0x7B93C009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B93C001, 0x7B93C00D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B93C001, 0x7B93C00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B93C001, 0x7B93C00F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B93C001, 0x7B93C010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B93C001, 0x7B93C011, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B93C001, 0x7B93C012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B93C001, 0x7B93C013, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B93C001, 0x7B93C014, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B93C001, 0x7B93C015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B93C001, 0x7B93C016, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B93C002,   194, 0xB93C001F, 75.63474, 145.8605, 77.36942, -0.5072516, 0, 0, -0.861798,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -116,7 +116,7 @@ VALUES (0x7B93C017,  1542, 0xB93C0017, 68.54436, 157.3329, 73.16109, 1, 0, 0, 0,
 /* @teleloc 0xB93C0017 [68.544360 157.332900 73.161090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B93C017, 0x7B93C018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B93C017, 0x7B93C018, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B93C018, 22570, 0xB93C0017, 68.54436, 157.3329, 73.16109, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

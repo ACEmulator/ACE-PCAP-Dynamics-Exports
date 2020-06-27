@@ -5,20 +5,20 @@ VALUES (0x77813001,  1154, 0x7813000C, 41.86717, 83.04168, 20.31107, 0.614552, 0
 /* @teleloc 0x7813000C [41.867170 83.041680 20.311070] 0.614552 0.000000 0.000000 -0.788876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77813001, 0x77813002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77813001, 0x77813003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77813001, 0x77813004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77813001, 0x77813005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77813001, 0x77813006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77813001, 0x77813007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77813001, 0x77813008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77813001, 0x77813009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77813001, 0x7781300A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77813001, 0x7781300B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77813001, 0x7781300C, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77813001, 0x7781300D, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77813001, 0x7781300E, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x77813001, 0x7781300F, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x77813001, 0x77813002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77813001, 0x77813003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77813001, 0x77813004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77813001, 0x77813005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77813001, 0x77813006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77813001, 0x77813007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77813001, 0x77813008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x77813001, 0x77813009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77813001, 0x7781300A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77813001, 0x7781300B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77813001, 0x7781300C, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77813001, 0x7781300D, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77813001, 0x7781300E, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x77813001, 0x7781300F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77813002,  4254, 0x7813000C, 41.86717, 83.04168, 20.31107, 0.614552, 0, 0, -0.7888764,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -81,7 +81,7 @@ VALUES (0x77813010,  1542, 0x78130039, 172.7162, 15.58538, 22.49915, -0.9871083,
 /* @teleloc 0x78130039 [172.716200 15.585380 22.499150] -0.987108 0.000000 0.000000 -0.160054 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77813010, 0x77813011, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x77813010, 0x77813011, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77813011,  8041, 0x78130039, 172.7162, 15.58538, 22.49915, -0.9871083, 0, 0, -0.1600537,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

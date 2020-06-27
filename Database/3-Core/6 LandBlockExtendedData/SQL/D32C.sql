@@ -5,17 +5,17 @@ VALUES (0x7D32C001,  1154, 0xD32C0028, 99.23441, 182.4234, 93.994, 0.9238795, 0,
 /* @teleloc 0xD32C0028 [99.234410 182.423400 93.994000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D32C001, 0x7D32C002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D32C001, 0x7D32C003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D32C001, 0x7D32C004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D32C001, 0x7D32C005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D32C001, 0x7D32C006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D32C001, 0x7D32C007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D32C001, 0x7D32C008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D32C001, 0x7D32C009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D32C001, 0x7D32C00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D32C001, 0x7D32C00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D32C001, 0x7D32C00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7D32C001, 0x7D32C002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D32C001, 0x7D32C003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D32C001, 0x7D32C004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D32C001, 0x7D32C005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D32C001, 0x7D32C006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D32C001, 0x7D32C007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D32C001, 0x7D32C008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D32C001, 0x7D32C009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D32C001, 0x7D32C00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D32C001, 0x7D32C00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D32C001, 0x7D32C00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D32C002,  7089, 0xD32C0028, 99.23441, 182.4234, 93.994, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -66,10 +66,10 @@ VALUES (0x7D32C00D,  1542, 0xD32C0025, 111.0272, 105.8158, 92.24787, 1, 0, 0, 0,
 /* @teleloc 0xD32C0025 [111.027200 105.815800 92.247870] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D32C00D, 0x7D32C00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D32C00D, 0x7D32C00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D32C00D, 0x7D32C010, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7D32C00D, 0x7D32C011, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D32C00D, 0x7D32C00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D32C00D, 0x7D32C00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7D32C00D, 0x7D32C010, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7D32C00D, 0x7D32C011, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D32C00E,  4179, 0xD32C0025, 111.0272, 105.8158, 92.24787, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

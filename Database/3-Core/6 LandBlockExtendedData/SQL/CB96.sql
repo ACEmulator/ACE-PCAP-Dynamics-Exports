@@ -5,12 +5,12 @@ VALUES (0x7CB96001,  1154, 0xCB960039, 176.305, 17.48097, 27.60808, 0.9948456, 0
 /* @teleloc 0xCB960039 [176.305000 17.480970 27.608080] 0.994846 0.000000 0.000000 -0.101401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB96001, 0x7CB96002, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7CB96001, 0x7CB96003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CB96001, 0x7CB96004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CB96001, 0x7CB96005, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CB96001, 0x7CB96006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CB96001, 0x7CB96007, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7CB96001, 0x7CB96002, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7CB96001, 0x7CB96003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CB96001, 0x7CB96004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CB96001, 0x7CB96005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CB96001, 0x7CB96006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CB96001, 0x7CB96007, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB96002, 28879, 0xCB960039, 176.305, 17.48097, 27.60808, 0.9948456, 0, 0, -0.1014009,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
@@ -41,7 +41,7 @@ VALUES (0x7CB96008,  1542, 0xCB960039, 175.9014, 15.5221, 27.60808, 1, 0, 0, 0, 
 /* @teleloc 0xCB960039 [175.901400 15.522100 27.608080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB96008, 0x7CB96009, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CB96008, 0x7CB96009, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB96009,  8232, 0xCB960039, 175.9014, 15.5221, 27.60808, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

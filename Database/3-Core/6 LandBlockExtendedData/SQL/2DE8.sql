@@ -5,20 +5,20 @@ VALUES (0x72DE8001,  1154, 0x2DE80040, 190.5806, 179.0331, 24.51851, 0.3615067, 
 /* @teleloc 0x2DE80040 [190.580600 179.033100 24.518510] 0.361507 0.000000 0.000000 -0.932370 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DE8001, 0x72DE8002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72DE8001, 0x72DE8003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72DE8001, 0x72DE8004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72DE8001, 0x72DE8005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72DE8001, 0x72DE8006, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DE8001, 0x72DE8007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72DE8001, 0x72DE8008, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72DE8001, 0x72DE8009, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72DE8001, 0x72DE800A, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72DE8001, 0x72DE800B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72DE8001, 0x72DE800C, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72DE8001, 0x72DE800D, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72DE8001, 0x72DE800E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72DE8001, 0x72DE800F, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x72DE8001, 0x72DE8002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72DE8001, 0x72DE8003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72DE8001, 0x72DE8004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72DE8001, 0x72DE8005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72DE8001, 0x72DE8006, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DE8001, 0x72DE8007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72DE8001, 0x72DE8008, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72DE8001, 0x72DE8009, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72DE8001, 0x72DE800A, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72DE8001, 0x72DE800B, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72DE8001, 0x72DE800C, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72DE8001, 0x72DE800D, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72DE8001, 0x72DE800E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72DE8001, 0x72DE800F, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DE8002,  8968, 0x2DE80040, 190.5806, 179.0331, 24.51851, 0.3615067, 0, 0, -0.9323695,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

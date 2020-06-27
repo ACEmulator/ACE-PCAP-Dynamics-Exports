@@ -5,15 +5,15 @@ VALUES (0x79B79001,  1154, 0x9B790017, 56.53479, 158.041, 20.0035, -0.7251719, 0
 /* @teleloc 0x9B790017 [56.534790 158.041000 20.003500] -0.725172 0.000000 0.000000 -0.688568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B79001, 0x79B79002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x79B79001, 0x79B79003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x79B79001, 0x79B79004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x79B79001, 0x79B79005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x79B79001, 0x79B79006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x79B79001, 0x79B79007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B79001, 0x79B79008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x79B79001, 0x79B79009, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B79001, 0x79B7900A, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x79B79001, 0x79B79002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x79B79001, 0x79B79003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x79B79001, 0x79B79004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x79B79001, 0x79B79005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x79B79001, 0x79B79006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x79B79001, 0x79B79007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B79001, 0x79B79008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x79B79001, 0x79B79009, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B79001, 0x79B7900A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B79002,   192, 0x9B790017, 56.53479, 158.041, 20.0035, -0.7251719, 0, 0, -0.6885679,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

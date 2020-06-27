@@ -5,10 +5,10 @@ VALUES (0x7935F001,  1154, 0x935F000C, 44.36962, 76.64826, 9.699967, 0.9238795, 
 /* @teleloc 0x935F000C [44.369620 76.648260 9.699967] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7935F001, 0x7935F002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7935F001, 0x7935F003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7935F001, 0x7935F004, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7935F001, 0x7935F005, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x7935F001, 0x7935F002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7935F001, 0x7935F003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7935F001, 0x7935F004, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7935F001, 0x7935F005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7935F002,  1759, 0x935F000C, 44.36962, 76.64826, 9.699967, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Skeleton */

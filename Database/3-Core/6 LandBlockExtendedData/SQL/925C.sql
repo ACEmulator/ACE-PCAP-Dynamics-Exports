@@ -5,10 +5,10 @@ VALUES (0x7925C001,  1154, 0x925C0004, 18.5833, 72.15458, 20.8974, 0.9238795, 0,
 /* @teleloc 0x925C0004 [18.583300 72.154580 20.897400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7925C001, 0x7925C002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7925C001, 0x7925C003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7925C001, 0x7925C004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7925C001, 0x7925C005, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7925C001, 0x7925C002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7925C001, 0x7925C003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7925C001, 0x7925C004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7925C001, 0x7925C005, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7925C002,   950, 0x925C0004, 18.5833, 72.15458, 20.8974, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */

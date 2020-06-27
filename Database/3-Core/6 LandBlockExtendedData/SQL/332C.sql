@@ -5,19 +5,19 @@ VALUES (0x7332C001,  1154, 0x332C000B, 44.7907, 69.90057, 88.10569, 0.4064003, 0
 /* @teleloc 0x332C000B [44.790700 69.900570 88.105690] 0.406400 0.000000 0.000000 -0.913695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7332C001, 0x7332C002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7332C001, 0x7332C003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7332C001, 0x7332C004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7332C001, 0x7332C005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7332C001, 0x7332C006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7332C001, 0x7332C007, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7332C001, 0x7332C008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7332C001, 0x7332C009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7332C001, 0x7332C00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7332C001, 0x7332C00B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7332C001, 0x7332C00C, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7332C001, 0x7332C00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7332C001, 0x7332C00E, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x7332C001, 0x7332C002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7332C001, 0x7332C003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7332C001, 0x7332C004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7332C001, 0x7332C005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7332C001, 0x7332C006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7332C001, 0x7332C007, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7332C001, 0x7332C008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7332C001, 0x7332C009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7332C001, 0x7332C00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7332C001, 0x7332C00B, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7332C001, 0x7332C00C, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7332C001, 0x7332C00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7332C001, 0x7332C00E, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7332C002, 10810, 0x332C000B, 44.7907, 69.90057, 88.10569, 0.4064003, 0, 0, -0.9136952,  True, '2019-02-10 00:00:00'); /* Rampager */

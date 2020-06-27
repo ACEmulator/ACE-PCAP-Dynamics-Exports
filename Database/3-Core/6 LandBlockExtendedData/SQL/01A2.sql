@@ -89,105 +89,105 @@ VALUES (0x701A20C0,  1154, 0x01A2044C, 91.31179, -70.37328, -11.99505, 1, 0, 0, 
 /* @teleloc 0x01A2044C [91.311790 -70.373280 -11.995050] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A20C0, 0x701A20C1, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20C2, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20C3, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20C4, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20C5, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20C6, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20C7, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20C8, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20C9, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20CA, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20CB, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20CC, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20CD, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20CE, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20CF, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D0, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D1, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20D2, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D3, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D4, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D5, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D6, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A20D7, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20D8, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A20D9, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20DA, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20DB, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20DC, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20DD, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A20DE, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20DF, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20E0, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A20E1, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20E2, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20E3, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20E4, '2019-02-10 00:00:00') /* Lich */
-     , (0x701A20C0, 0x701A20E5, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20E6, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20E7, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701A20C0, 0x701A20E8, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701A20C0, 0x701A20E9, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20EA, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20EB, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20EC, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20ED, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20EE, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20EF, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20F0, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20F1, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20F2, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20F3, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20F4, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20F5, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20F6, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A20F7, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20F8, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20F9, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A20FA, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A20FB, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A20FC, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A20FD, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A20FE, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A20FF, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2100, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2101, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A2102, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2103, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2104, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A2105, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A2106, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2107, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2108, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2109, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A210A, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A210B, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A210C, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A210D, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A210E, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x701A20C0, 0x701A210F, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2110, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x701A20C0, 0x701A2111, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2112, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x701A20C0, 0x701A2113, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x701A20C0, 0x701A2114, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x701A20C0, 0x701A2115, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2116, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2117, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2118, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2119, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A211A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A211B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A211C, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A211D, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A211E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A211F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2120, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701A20C0, 0x701A2121, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701A20C0, 0x701A2122, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701A20C0, 0x701A2123, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x701A20C0, 0x701A20C1, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20C2, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20C3, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20C4, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20C5, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20C6, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20C7, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20C8, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20C9, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20CA, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20CB, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20CC, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20CD, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20CE, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20CF, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D0, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D1, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20D2, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D3, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D4, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D5, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D6, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701A20C0, 0x701A20D7, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20D8, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701A20C0, 0x701A20D9, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20DA, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20DB, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20DC, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20DD, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701A20C0, 0x701A20DE, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20DF, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20E0, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A20E1, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20E2, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20E3, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20E4, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x701A20C0, 0x701A20E5, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20E6, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20E7, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701A20C0, 0x701A20E8, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701A20C0, 0x701A20E9, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20EA, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20EB, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20EC, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20ED, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20EE, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20EF, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20F0, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20F1, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20F2, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20F3, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20F4, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20F5, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20F6, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A20F7, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20F8, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20F9, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A20FA, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A20FB, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A20FC, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A20FD, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A20FE, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A20FF, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2100, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2101, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A2102, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2103, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2104, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A2105, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A2106, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2107, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2108, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2109, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A210A, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A210B, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A210C, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A210D, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A210E, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x701A20C0, 0x701A210F, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2110, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x701A20C0, 0x701A2111, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2112, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x701A20C0, 0x701A2113, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x701A20C0, 0x701A2114, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x701A20C0, 0x701A2115, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2116, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2117, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2118, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2119, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A211A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A211B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A211C, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701A20C0, 0x701A211D, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701A20C0, 0x701A211E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A211F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2120, '2019-02-10 00:00:00') /* Mosswart Shaman (2186) */
+     , (0x701A20C0, 0x701A2121, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701A20C0, 0x701A2122, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701A20C0, 0x701A2123, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A20C1,     8, 0x01A2044C, 91.31179, -70.37328, -11.99505, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -590,9 +590,9 @@ VALUES (0x701A2124,  1542, 0x01A20435, 69.8331, -57.7475, -10.6521, 1, 0, 0, 0, 
 /* @teleloc 0x01A20435 [69.833100 -57.747500 -10.652100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A2124, 0x701A2125, '2019-02-10 00:00:00') /* Swamp Temple Tome */
-     , (0x701A2124, 0x701A2126, '2019-02-10 00:00:00') /* Salmon */
-     , (0x701A2124, 0x701A2127, '2019-02-10 00:00:00') /* Grotesquely Carved Key */;
+VALUES (0x701A2124, 0x701A2125, '2019-02-10 00:00:00') /* Swamp Temple Tome (2191) */
+     , (0x701A2124, 0x701A2126, '2019-02-10 00:00:00') /* Salmon (1450) */
+     , (0x701A2124, 0x701A2127, '2019-02-10 00:00:00') /* Grotesquely Carved Key (2507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A2125,  2191, 0x01A20435, 69.8331, -57.7475, -10.6521, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Swamp Temple Tome */

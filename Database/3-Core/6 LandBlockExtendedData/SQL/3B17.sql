@@ -5,13 +5,13 @@ VALUES (0x73B17001,  1154, 0x3B170031, 157.9481, 19.17891, 68.029, 0.9659258, 0,
 /* @teleloc 0x3B170031 [157.948100 19.178910 68.029000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B17001, 0x73B17002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73B17001, 0x73B17003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73B17001, 0x73B17004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73B17001, 0x73B17005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73B17001, 0x73B17006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73B17001, 0x73B17007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73B17001, 0x73B17008, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73B17001, 0x73B17002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73B17001, 0x73B17003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73B17001, 0x73B17004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73B17001, 0x73B17005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B17001, 0x73B17006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73B17001, 0x73B17007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73B17001, 0x73B17008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B17002,  5497, 0x3B170031, 157.9481, 19.17891, 68.029, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Director */
@@ -46,8 +46,8 @@ VALUES (0x73B17009,  1542, 0x3B170039, 171.4512, 1.806266, 67.99, 0.7233119, 0, 
 /* @teleloc 0x3B170039 [171.451200 1.806266 67.990000] 0.723312 0.000000 0.000000 -0.690521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B17009, 0x73B1700A, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x73B17009, 0x73B1700B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73B17009, 0x73B1700A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x73B17009, 0x73B1700B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B1700A,  9286, 0x3B170039, 171.4512, 1.806266, 67.99, 0.7233119, 0, 0, -0.6905214,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

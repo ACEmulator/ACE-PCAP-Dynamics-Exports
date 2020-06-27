@@ -5,12 +5,12 @@ VALUES (0x75AC5001,  1154, 0x5AC50037, 162.7609, 157.0658, 53.82737, 0.9396926, 
 /* @teleloc 0x5AC50037 [162.760900 157.065800 53.827370] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AC5001, 0x75AC5002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75AC5001, 0x75AC5003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75AC5001, 0x75AC5004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75AC5001, 0x75AC5005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x75AC5001, 0x75AC5006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75AC5001, 0x75AC5007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x75AC5001, 0x75AC5002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75AC5001, 0x75AC5003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75AC5001, 0x75AC5004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75AC5001, 0x75AC5005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75AC5001, 0x75AC5006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75AC5001, 0x75AC5007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AC5002, 37098, 0x5AC50037, 162.7609, 157.0658, 53.82737, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

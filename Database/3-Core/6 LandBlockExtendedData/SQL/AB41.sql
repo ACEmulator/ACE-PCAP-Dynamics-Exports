@@ -5,8 +5,8 @@ VALUES (0x7AB41001,  1154, 0xAB410016, 62.03079, 136.2882, 24.65015, -0.2754101,
 /* @teleloc 0xAB410016 [62.030790 136.288200 24.650150] -0.275410 0.000000 0.000000 -0.961327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB41001, 0x7AB41002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB41001, 0x7AB41003, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7AB41001, 0x7AB41002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB41001, 0x7AB41003, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB41002,  1630, 0xAB410016, 62.03079, 136.2882, 24.65015, -0.2754101, 0, 0, -0.9613268,  True, '2019-02-10 00:00:00'); /* Lich Lord */

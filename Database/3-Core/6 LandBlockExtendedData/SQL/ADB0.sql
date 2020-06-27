@@ -5,28 +5,28 @@ VALUES (0x7ADB0001,  1154, 0xADB00028, 100.9813, 187.0352, 82.07594, 0.1741417, 
 /* @teleloc 0xADB00028 [100.981300 187.035200 82.075940] 0.174142 0.000000 0.000000 -0.984721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB0001, 0x7ADB0002, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ADB0001, 0x7ADB0003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB0001, 0x7ADB0004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB0001, 0x7ADB0005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ADB0001, 0x7ADB0006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB0001, 0x7ADB0007, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB0001, 0x7ADB0008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB0001, 0x7ADB0009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ADB0001, 0x7ADB000A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ADB0001, 0x7ADB000B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ADB0001, 0x7ADB000C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ADB0001, 0x7ADB000D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB000E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB000F, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB0010, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB0011, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB0012, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ADB0001, 0x7ADB0013, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB0001, 0x7ADB0014, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB0015, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB0001, 0x7ADB0016, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB0001, 0x7ADB0017, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x7ADB0001, 0x7ADB0002, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ADB0001, 0x7ADB0003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB0001, 0x7ADB0004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB0001, 0x7ADB0005, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ADB0001, 0x7ADB0006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB0001, 0x7ADB0007, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB0001, 0x7ADB0008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB0001, 0x7ADB0009, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ADB0001, 0x7ADB000A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ADB0001, 0x7ADB000B, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ADB0001, 0x7ADB000C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ADB0001, 0x7ADB000D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB000E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB000F, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB0010, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB0011, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB0012, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ADB0001, 0x7ADB0013, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB0001, 0x7ADB0014, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB0015, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB0001, 0x7ADB0016, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB0001, 0x7ADB0017, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB0002, 19260, 0xADB00028, 100.9813, 187.0352, 82.07594, 0.1741417, 0, 0, -0.9847206,  True, '2019-02-10 00:00:00'); /* Mite Snippet */

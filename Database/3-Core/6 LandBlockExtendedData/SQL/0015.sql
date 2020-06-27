@@ -101,39 +101,39 @@ VALUES (0x70015037,  1154, 0x001501D4, 39.0199, -45.8829, 12.00455, 0.406537, 0,
 /* @teleloc 0x001501D4 [39.019900 -45.882900 12.004550] 0.406537 0.000000 0.000000 -0.913634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015037, 0x70015038, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015039, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503B, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503D, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503E, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001503F, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015040, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015041, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015042, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015043, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015044, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015045, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015046, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015047, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015048, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015049, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001504A, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x7001504B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x7001504C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001504D, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001504E, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001504F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015050, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015052, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015053, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015054, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015055, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015056, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015057, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015058, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x70015037, 0x70015038, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015039, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503B, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503D, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001503F, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015040, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015041, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015042, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015043, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015044, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x70015045, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015046, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015047, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015048, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015049, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504A, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x7001504B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x70015037, 0x7001504C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504D, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001504F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015050, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015052, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015053, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015054, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015055, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015056, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30681) */
+     , (0x70015037, 0x70015057, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015058, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015038, 30680, 0x001501D4, 39.0199, -45.8829, 12.00455, 0.406537, 0, 0, -0.913634,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph */
@@ -272,10 +272,10 @@ VALUES (0x70015059,  1542, 0x0015014D, 21.49218, -9.396818, -12, -0.66466, 0, 0,
 /* @teleloc 0x0015014D [21.492180 -9.396818 -12.000000] -0.664660 0.000000 0.000000 -0.747146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015059, 0x7001505A, '2019-02-10 00:00:00') /* Salmon */
-     , (0x70015059, 0x7001505B, '2019-02-10 00:00:00') /* Apple */
-     , (0x70015059, 0x7001505C, '2019-02-10 00:00:00') /* Apple */
-     , (0x70015059, 0x7001505D, '2019-02-10 00:00:00') /* Salmon */;
+VALUES (0x70015059, 0x7001505A, '2019-02-10 00:00:00') /* Salmon (1450) */
+     , (0x70015059, 0x7001505B, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x70015059, 0x7001505C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x70015059, 0x7001505D, '2019-02-10 00:00:00') /* Salmon (1450) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001505A,  1450, 0x0015014D, 21.49218, -9.396818, -12, -0.66466, 0, 0, -0.747146,  True, '2019-02-10 00:00:00'); /* Salmon */

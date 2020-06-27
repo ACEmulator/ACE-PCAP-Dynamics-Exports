@@ -5,22 +5,22 @@ VALUES (0x7C38F001,  1154, 0xC38F0004, 18.17558, 91.59917, 12.0022, 0.0871558, 0
 /* @teleloc 0xC38F0004 [18.175580 91.599170 12.002200] 0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C38F001, 0x7C38F002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C38F001, 0x7C38F003, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C38F001, 0x7C38F004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C38F001, 0x7C38F005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C38F001, 0x7C38F006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C38F001, 0x7C38F007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C38F001, 0x7C38F008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C38F001, 0x7C38F009, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C38F001, 0x7C38F00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C38F001, 0x7C38F00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C38F001, 0x7C38F00C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C38F001, 0x7C38F00D, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C38F001, 0x7C38F00E, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C38F001, 0x7C38F00F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C38F001, 0x7C38F010, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C38F001, 0x7C38F011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7C38F001, 0x7C38F002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C38F001, 0x7C38F003, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C38F001, 0x7C38F004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C38F001, 0x7C38F005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C38F001, 0x7C38F006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C38F001, 0x7C38F007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C38F001, 0x7C38F008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C38F001, 0x7C38F009, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C38F001, 0x7C38F00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C38F001, 0x7C38F00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C38F001, 0x7C38F00C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C38F001, 0x7C38F00D, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C38F001, 0x7C38F00E, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C38F001, 0x7C38F00F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C38F001, 0x7C38F010, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C38F001, 0x7C38F011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C38F002,  7991, 0xC38F0004, 18.17558, 91.59917, 12.0022, 0.0871558, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

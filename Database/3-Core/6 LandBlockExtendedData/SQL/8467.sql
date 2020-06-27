@@ -5,11 +5,11 @@ VALUES (0x78467001,  1154, 0x84670006, 18.50112, 127.4405, 9.54426, 0.9506266, 0
 /* @teleloc 0x84670006 [18.501120 127.440500 9.544260] 0.950627 0.000000 0.000000 -0.310337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78467001, 0x78467002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78467001, 0x78467003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78467001, 0x78467004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78467001, 0x78467005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78467001, 0x78467006, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x78467001, 0x78467002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78467001, 0x78467003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78467001, 0x78467004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78467001, 0x78467005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78467001, 0x78467006, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78467002,  1760, 0x84670006, 18.50112, 127.4405, 9.54426, 0.9506266, 0, 0, -0.3103371,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

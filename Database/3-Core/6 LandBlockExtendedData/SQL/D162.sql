@@ -5,20 +5,20 @@ VALUES (0x7D162001,  1154, 0xD1620027, 96.34439, 153.045, 6.0044, -0.9648798, 0,
 /* @teleloc 0xD1620027 [96.344390 153.045000 6.004400] -0.964880 0.000000 0.000000 -0.262692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D162001, 0x7D162002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D162001, 0x7D162003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7D162001, 0x7D162004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D162001, 0x7D162005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D162001, 0x7D162006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D162001, 0x7D162007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D162001, 0x7D162008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7D162001, 0x7D162009, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7D162001, 0x7D16200A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D162001, 0x7D16200B, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D162001, 0x7D16200C, '2019-02-10 00:00:00') /* Undead */
-     , (0x7D162001, 0x7D16200D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D162001, 0x7D16200E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7D162001, 0x7D16200F, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7D162001, 0x7D162002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7D162001, 0x7D162003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7D162001, 0x7D162004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D162001, 0x7D162005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D162001, 0x7D162006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D162001, 0x7D162007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D162001, 0x7D162008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7D162001, 0x7D162009, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7D162001, 0x7D16200A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D162001, 0x7D16200B, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D162001, 0x7D16200C, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7D162001, 0x7D16200D, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7D162001, 0x7D16200E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7D162001, 0x7D16200F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D162002,  4249, 0xD1620027, 96.34439, 153.045, 6.0044, -0.9648798, 0, 0, -0.262692,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -81,7 +81,7 @@ VALUES (0x7D162010,  1542, 0xD1620017, 54.31953, 151.4743, 6, 0.7663423, 0, 0, -
 /* @teleloc 0xD1620017 [54.319530 151.474300 6.000000] 0.766342 0.000000 0.000000 -0.642433 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D162010, 0x7D162011, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7D162010, 0x7D162011, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D162011,  8041, 0xD1620017, 54.31953, 151.4743, 6, 0.7663423, 0, 0, -0.6424325,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

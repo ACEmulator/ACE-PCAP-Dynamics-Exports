@@ -5,15 +5,15 @@ VALUES (0x7748F001,  1154, 0x748F0015, 59.77733, 104.9228, 100.3258, -0.9126931,
 /* @teleloc 0x748F0015 [59.777330 104.922800 100.325800] -0.912693 0.000000 0.000000 -0.408646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7748F001, 0x7748F002, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7748F001, 0x7748F003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7748F001, 0x7748F004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7748F001, 0x7748F005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7748F001, 0x7748F006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7748F001, 0x7748F007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7748F001, 0x7748F008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7748F001, 0x7748F009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7748F001, 0x7748F00A, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7748F001, 0x7748F002, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7748F001, 0x7748F003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7748F001, 0x7748F004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7748F001, 0x7748F005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7748F001, 0x7748F006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7748F001, 0x7748F007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7748F001, 0x7748F008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7748F001, 0x7748F009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7748F001, 0x7748F00A, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7748F002, 36443, 0x748F0015, 59.77733, 104.9228, 100.3258, -0.9126931, 0, 0, -0.4086456,  True, '2019-02-10 00:00:00'); /* Harvest Reaper */

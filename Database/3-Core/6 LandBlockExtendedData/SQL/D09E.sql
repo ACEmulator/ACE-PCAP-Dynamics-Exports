@@ -5,11 +5,11 @@ VALUES (0x7D09E001,  1154, 0xD09E0008, 7.264034, 172.6561, -0.08949995, 0.866025
 /* @teleloc 0xD09E0008 [7.264034 172.656100 -0.089500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D09E001, 0x7D09E002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D09E001, 0x7D09E003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D09E001, 0x7D09E004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D09E001, 0x7D09E005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D09E001, 0x7D09E006, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7D09E001, 0x7D09E002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D09E001, 0x7D09E003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D09E001, 0x7D09E004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D09E001, 0x7D09E005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D09E001, 0x7D09E006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D09E002,  7082, 0xD09E0008, 7.264034, 172.6561, -0.08949995, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

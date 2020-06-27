@@ -5,30 +5,30 @@ VALUES (0x7C345001,  1154, 0xC345001A, 86.43098, 26.41205, 92.03504, -0.1736482,
 /* @teleloc 0xC345001A [86.430980 26.412050 92.035040] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C345001, 0x7C345002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C345001, 0x7C345003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C345001, 0x7C345004, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7C345001, 0x7C345005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C345001, 0x7C345006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C345001, 0x7C345007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C345001, 0x7C345008, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7C345001, 0x7C345009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C345001, 0x7C34500A, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C345001, 0x7C34500B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C345001, 0x7C34500C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C345001, 0x7C34500D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C345001, 0x7C34500E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C345001, 0x7C34500F, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C345001, 0x7C345010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C345001, 0x7C345011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C345001, 0x7C345012, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C345001, 0x7C345013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C345001, 0x7C345014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C345001, 0x7C345015, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C345001, 0x7C345016, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C345001, 0x7C345017, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C345001, 0x7C345018, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C345001, 0x7C345019, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7C345001, 0x7C345002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C345001, 0x7C345003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C345001, 0x7C345004, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7C345001, 0x7C345005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C345001, 0x7C345006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C345001, 0x7C345007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C345001, 0x7C345008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7C345001, 0x7C345009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C345001, 0x7C34500A, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C345001, 0x7C34500B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C345001, 0x7C34500C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C345001, 0x7C34500D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C345001, 0x7C34500E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C345001, 0x7C34500F, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C345001, 0x7C345010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C345001, 0x7C345011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C345001, 0x7C345012, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C345001, 0x7C345013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C345001, 0x7C345014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C345001, 0x7C345015, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C345001, 0x7C345016, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C345001, 0x7C345017, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C345001, 0x7C345018, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C345001, 0x7C345019, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C345002,  1627, 0xC345001A, 86.43098, 26.41205, 92.03504, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -131,8 +131,8 @@ VALUES (0x7C34501A,  1542, 0xC3450015, 66.25777, 102.9317, 200.3502, 0.7071068, 
 /* @teleloc 0xC3450015 [66.257770 102.931700 200.350200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C34501A, 0x7C34501B, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7C34501A, 0x7C34501C, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7C34501A, 0x7C34501B, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7C34501A, 0x7C34501C, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C34501B,  5779, 0xC3450015, 66.25777, 102.9317, 200.3502, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

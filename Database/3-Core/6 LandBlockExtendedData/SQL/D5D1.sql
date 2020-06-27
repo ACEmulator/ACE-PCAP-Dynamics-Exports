@@ -5,8 +5,8 @@ VALUES (0x7D5D1001,  1154, 0xD5D1003C, 189.464, 82.9694, 90.07639, -0.5577871, 0
 /* @teleloc 0xD5D1003C [189.464000 82.969400 90.076390] -0.557787 0.000000 0.000000 -0.829984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5D1001, 0x7D5D1002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7D5D1001, 0x7D5D1003, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x7D5D1001, 0x7D5D1002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7D5D1001, 0x7D5D1003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5D1002,  7994, 0xD5D1003C, 189.464, 82.9694, 90.07639, -0.5577871, 0, 0, -0.8299841,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

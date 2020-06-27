@@ -5,10 +5,10 @@ VALUES (0x7BDD6001,  1154, 0xBDD60001, 7.690629, 9.700705, 124.7994, 0.9869297, 
 /* @teleloc 0xBDD60001 [7.690629 9.700705 124.799400] 0.986930 0.000000 0.000000 -0.161151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD6001, 0x7BDD6002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BDD6001, 0x7BDD6003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD6001, 0x7BDD6004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD6001, 0x7BDD6005, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7BDD6001, 0x7BDD6002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BDD6001, 0x7BDD6003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD6001, 0x7BDD6004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD6001, 0x7BDD6005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD6002,  9253, 0xBDD60001, 7.690629, 9.700705, 124.7994, 0.9869297, 0, 0, -0.1611513,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

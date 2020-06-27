@@ -5,9 +5,9 @@ VALUES (0x73385001,  1154, 0x3385003E, 168.4443, 135.8621, 190.3653, -0.9960598,
 /* @teleloc 0x3385003E [168.444300 135.862100 190.365300] -0.996060 0.000000 0.000000 -0.088683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73385001, 0x73385002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73385001, 0x73385003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x73385001, 0x73385004, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73385001, 0x73385002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73385001, 0x73385003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x73385001, 0x73385004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73385002, 36842, 0x3385003E, 168.4443, 135.8621, 190.3653, -0.9960598, 0, 0, -0.08868345,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

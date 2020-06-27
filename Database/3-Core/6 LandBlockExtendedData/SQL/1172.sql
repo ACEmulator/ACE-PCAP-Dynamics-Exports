@@ -5,10 +5,10 @@ VALUES (0x71172001,  1154, 0x11720034, 148.1991, 85.95397, 119.9812, -0.1736482,
 /* @teleloc 0x11720034 [148.199100 85.953970 119.981200] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71172001, 0x71172002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71172001, 0x71172003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71172001, 0x71172004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71172001, 0x71172005, '2019-02-10 00:00:00') /* Gotrok Titan */;
+VALUES (0x71172001, 0x71172002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71172001, 0x71172003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71172001, 0x71172004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71172001, 0x71172005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71172002,  7114, 0x11720034, 148.1991, 85.95397, 119.9812, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

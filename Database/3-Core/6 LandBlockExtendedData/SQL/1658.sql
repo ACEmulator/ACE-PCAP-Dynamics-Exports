@@ -5,14 +5,14 @@ VALUES (0x71658001,  1154, 0x16580017, 54.04751, 148.1842, 0.00454998, 0.9341912
 /* @teleloc 0x16580017 [54.047510 148.184200 0.004550] 0.934191 0.000000 0.000000 -0.356773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71658001, 0x71658002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71658001, 0x71658003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71658001, 0x71658004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71658001, 0x71658005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71658001, 0x71658006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71658001, 0x71658007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71658001, 0x71658008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71658001, 0x71658009, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x71658001, 0x71658002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71658001, 0x71658003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71658001, 0x71658004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71658001, 0x71658005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71658001, 0x71658006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71658001, 0x71658007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71658001, 0x71658008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71658001, 0x71658009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71658002, 36822, 0x16580017, 54.04751, 148.1842, 0.00454998, 0.9341912, 0, 0, -0.3567729,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */

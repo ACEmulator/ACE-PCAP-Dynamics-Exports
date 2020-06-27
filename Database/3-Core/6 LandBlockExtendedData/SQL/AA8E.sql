@@ -5,19 +5,19 @@ VALUES (0x7AA8E001,  1154, 0xAA8E0002, 18.48637, 37.75643, 52.39955, -0.08715577
 /* @teleloc 0xAA8E0002 [18.486370 37.756430 52.399550] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA8E001, 0x7AA8E002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AA8E001, 0x7AA8E003, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7AA8E001, 0x7AA8E004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AA8E001, 0x7AA8E005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AA8E001, 0x7AA8E006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AA8E001, 0x7AA8E007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AA8E001, 0x7AA8E008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AA8E001, 0x7AA8E009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA8E001, 0x7AA8E00A, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AA8E001, 0x7AA8E00B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AA8E001, 0x7AA8E00C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AA8E001, 0x7AA8E00D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AA8E001, 0x7AA8E00E, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7AA8E001, 0x7AA8E002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AA8E001, 0x7AA8E003, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7AA8E001, 0x7AA8E004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AA8E001, 0x7AA8E005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AA8E001, 0x7AA8E006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AA8E001, 0x7AA8E007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AA8E001, 0x7AA8E008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AA8E001, 0x7AA8E009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA8E001, 0x7AA8E00A, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AA8E001, 0x7AA8E00B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AA8E001, 0x7AA8E00C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AA8E001, 0x7AA8E00D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AA8E001, 0x7AA8E00E, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA8E002, 24940, 0xAA8E0002, 18.48637, 37.75643, 52.39955, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -76,8 +76,8 @@ VALUES (0x7AA8E00F,  1542, 0xAA8E0002, 14.86321, 44.11951, 51.10823, 1, 0, 0, 0,
 /* @teleloc 0xAA8E0002 [14.863210 44.119510 51.108230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA8E00F, 0x7AA8E010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AA8E00F, 0x7AA8E011, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7AA8E00F, 0x7AA8E010, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7AA8E00F, 0x7AA8E011, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA8E010, 22576, 0xAA8E0002, 14.86321, 44.11951, 51.10823, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x79EEC001,  1154, 0x9EEC0019, 79.33301, 15.04277, 17.49287, -0.8492126,
 /* @teleloc 0x9EEC0019 [79.333010 15.042770 17.492870] -0.849213 0.000000 0.000000 -0.528051 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EEC001, 0x79EEC002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79EEC001, 0x79EEC003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x79EEC001, 0x79EEC004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x79EEC001, 0x79EEC005, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x79EEC001, 0x79EEC002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79EEC001, 0x79EEC003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x79EEC001, 0x79EEC004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x79EEC001, 0x79EEC005, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EEC002, 28551, 0x9EEC0019, 79.33301, 15.04277, 17.49287, -0.8492126, 0, 0, -0.528051,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

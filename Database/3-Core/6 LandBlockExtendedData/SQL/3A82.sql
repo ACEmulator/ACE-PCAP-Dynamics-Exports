@@ -5,9 +5,9 @@ VALUES (0x73A82001,  1154, 0x3A82002B, 120.0946, 50.41578, 36.0075, 0.9069349, 0
 /* @teleloc 0x3A82002B [120.094600 50.415780 36.007500] 0.906935 0.000000 0.000000 -0.421271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A82001, 0x73A82002, '2019-02-10 00:00:00') /* Gelid */
-     , (0x73A82001, 0x73A82003, '2019-02-10 00:00:00') /* Frost */
-     , (0x73A82001, 0x73A82004, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x73A82001, 0x73A82002, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x73A82001, 0x73A82003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73A82001, 0x73A82004, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A82002, 20190, 0x3A82002B, 120.0946, 50.41578, 36.0075, 0.9069349, 0, 0, -0.4212708,  True, '2019-02-10 00:00:00'); /* Gelid */

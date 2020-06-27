@@ -5,15 +5,15 @@ VALUES (0x7ADA9001,  1154, 0xADA9000D, 43.81752, 115.724, 117.0811, -0.1736482, 
 /* @teleloc 0xADA9000D [43.817520 115.724000 117.081100] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADA9001, 0x7ADA9002, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7ADA9001, 0x7ADA9003, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ADA9001, 0x7ADA9004, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7ADA9001, 0x7ADA9005, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7ADA9001, 0x7ADA9006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ADA9001, 0x7ADA9007, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7ADA9001, 0x7ADA9008, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7ADA9001, 0x7ADA9009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADA9001, 0x7ADA900A, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7ADA9001, 0x7ADA9002, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7ADA9001, 0x7ADA9003, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ADA9001, 0x7ADA9004, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7ADA9001, 0x7ADA9005, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7ADA9001, 0x7ADA9006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ADA9001, 0x7ADA9007, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7ADA9001, 0x7ADA9008, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7ADA9001, 0x7ADA9009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADA9001, 0x7ADA900A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADA9002,    11, 0xADA9000D, 43.81752, 115.724, 117.0811, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Male Tusker */
@@ -56,7 +56,7 @@ VALUES (0x7ADA900B,  1542, 0xADA9001E, 81.29593, 143.5717, 114.9543, 0.9990482, 
 /* @teleloc 0xADA9001E [81.295930 143.571700 114.954300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADA900B, 0x7ADA900C, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7ADA900B, 0x7ADA900C, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADA900C,  6118, 0xADA9001E, 81.29593, 143.5717, 114.9543, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

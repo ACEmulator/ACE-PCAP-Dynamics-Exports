@@ -5,18 +5,18 @@ VALUES (0x7DD25001,  1154, 0xDD250038, 146.3504, 170.2359, 7.21903, -0.715942, 0
 /* @teleloc 0xDD250038 [146.350400 170.235900 7.219030] -0.715942 0.000000 0.000000 -0.698160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD25001, 0x7DD25002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7DD25001, 0x7DD25003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DD25001, 0x7DD25004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DD25001, 0x7DD25005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DD25001, 0x7DD25006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DD25001, 0x7DD25007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DD25001, 0x7DD25008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7DD25001, 0x7DD25009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DD25001, 0x7DD2500A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DD25001, 0x7DD2500B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DD25001, 0x7DD2500C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DD25001, 0x7DD2500D, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7DD25001, 0x7DD25002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7DD25001, 0x7DD25003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DD25001, 0x7DD25004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DD25001, 0x7DD25005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DD25001, 0x7DD25006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DD25001, 0x7DD25007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DD25001, 0x7DD25008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7DD25001, 0x7DD25009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DD25001, 0x7DD2500A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DD25001, 0x7DD2500B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DD25001, 0x7DD2500C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DD25001, 0x7DD2500D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD25002,  7780, 0xDD250038, 146.3504, 170.2359, 7.21903, -0.715942, 0, 0, -0.6981598,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -71,8 +71,8 @@ VALUES (0x7DD2500E,  1542, 0xDD250038, 158.6242, 187.2719, 3.410224, 0.9480263, 
 /* @teleloc 0xDD250038 [158.624200 187.271900 3.410224] 0.948026 0.000000 0.000000 -0.318192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD2500E, 0x7DD2500F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7DD2500E, 0x7DD25010, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7DD2500E, 0x7DD2500F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7DD2500E, 0x7DD25010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD2500F,  1955, 0xDD250038, 158.6242, 187.2719, 3.410224, 0.9480263, 0, 0, -0.318192,  True, '2019-02-10 00:00:00'); /* Gateway */

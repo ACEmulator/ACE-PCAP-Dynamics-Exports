@@ -9,12 +9,12 @@ VALUES (0x77E79001,  1154, 0x7E790008, 14.60231, 172.5917, 24.38764, -0.9980757,
 /* @teleloc 0x7E790008 [14.602310 172.591700 24.387640] -0.998076 0.000000 0.000000 -0.062007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E79001, 0x77E79002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77E79001, 0x77E79003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x77E79001, 0x77E79004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77E79001, 0x77E79005, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x77E79001, 0x77E79006, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x77E79001, 0x77E79007, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x77E79001, 0x77E79002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77E79001, 0x77E79003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x77E79001, 0x77E79004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77E79001, 0x77E79005, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x77E79001, 0x77E79006, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x77E79001, 0x77E79007, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E79002,  1758, 0x7E790008, 14.60231, 172.5917, 24.38764, -0.9980757, 0, 0, -0.06200735,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -45,7 +45,7 @@ VALUES (0x77E79008,  1542, 0x7E790030, 138.9778, 179.2922, 29.937, -0.9375679, 0
 /* @teleloc 0x7E790030 [138.977800 179.292200 29.937000] -0.937568 0.000000 0.000000 -0.347802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E79008, 0x77E79009, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x77E79008, 0x77E79009, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E79009,  1955, 0x7E790030, 138.9778, 179.2922, 29.937, -0.9375679, 0, 0, -0.3478022,  True, '2019-02-10 00:00:00'); /* Gateway */

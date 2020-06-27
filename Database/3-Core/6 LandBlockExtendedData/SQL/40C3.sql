@@ -5,30 +5,30 @@ VALUES (0x740C3001,  1154, 0x40C3000B, 34.6736, 64.09229, 3.3341, -4.371139E-08,
 /* @teleloc 0x40C3000B [34.673600 64.092290 3.334100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740C3001, 0x740C3002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x740C3001, 0x740C3003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x740C3001, 0x740C3004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x740C3001, 0x740C3005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x740C3001, 0x740C3006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x740C3001, 0x740C3007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x740C3001, 0x740C3008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740C3001, 0x740C3009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740C3001, 0x740C300A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740C3001, 0x740C300B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740C3001, 0x740C300C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x740C3001, 0x740C300D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x740C3001, 0x740C300E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740C3001, 0x740C300F, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x740C3001, 0x740C3010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x740C3001, 0x740C3011, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x740C3001, 0x740C3012, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x740C3001, 0x740C3013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x740C3001, 0x740C3014, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x740C3001, 0x740C3015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740C3001, 0x740C3016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740C3001, 0x740C3017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x740C3001, 0x740C3018, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x740C3001, 0x740C3019, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x740C3001, 0x740C3002, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x740C3001, 0x740C3003, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x740C3001, 0x740C3004, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x740C3001, 0x740C3005, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x740C3001, 0x740C3006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x740C3001, 0x740C3007, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x740C3001, 0x740C3008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740C3001, 0x740C3009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740C3001, 0x740C300A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740C3001, 0x740C300B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740C3001, 0x740C300C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x740C3001, 0x740C300D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x740C3001, 0x740C300E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740C3001, 0x740C300F, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x740C3001, 0x740C3010, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x740C3001, 0x740C3011, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x740C3001, 0x740C3012, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x740C3001, 0x740C3013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x740C3001, 0x740C3014, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x740C3001, 0x740C3015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740C3001, 0x740C3016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740C3001, 0x740C3017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x740C3001, 0x740C3018, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x740C3001, 0x740C3019, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740C3002, 24314, 0x40C3000B, 34.6736, 64.09229, 3.3341, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */
@@ -131,8 +131,8 @@ VALUES (0x740C301A,  1542, 0x40C3001E, 93.82426, 138.4755, 14.42, -0.0142918, 0,
 /* @teleloc 0x40C3001E [93.824260 138.475500 14.420000] -0.014292 0.000000 0.000000 -0.999898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740C301A, 0x740C301B, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x740C301A, 0x740C301C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x740C301A, 0x740C301B, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x740C301A, 0x740C301C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740C301B, 11555, 0x40C3001E, 93.82426, 138.4755, 14.42, -0.0142918, 0, 0, -0.9998978,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

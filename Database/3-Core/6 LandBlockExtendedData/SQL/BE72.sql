@@ -21,14 +21,14 @@ VALUES (0x7BE72004,  1154, 0xBE72000C, 33.22448, 87.71651, 6.0011, -0.8797022, 0
 /* @teleloc 0xBE72000C [33.224480 87.716510 6.001100] -0.879702 0.000000 0.000000 -0.475525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE72004, 0x7BE72005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BE72004, 0x7BE72006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BE72004, 0x7BE72007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BE72004, 0x7BE72008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BE72004, 0x7BE72009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE72004, 0x7BE7200A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BE72004, 0x7BE7200B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BE72004, 0x7BE7200C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x7BE72004, 0x7BE72005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BE72004, 0x7BE72006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BE72004, 0x7BE72007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BE72004, 0x7BE72008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BE72004, 0x7BE72009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE72004, 0x7BE7200A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BE72004, 0x7BE7200B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BE72004, 0x7BE7200C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE72005,  2577, 0xBE72000C, 33.22448, 87.71651, 6.0011, -0.8797022, 0, 0, -0.4755251,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
@@ -67,7 +67,7 @@ VALUES (0x7BE7200D,  1154, 0xBE720102, 107, 108, 1.2, -0.707107, 0, 0, -0.707107
 /* @teleloc 0xBE720102 [107.000000 108.000000 1.200000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7200D, 0x7BE7200E, '2019-02-10 00:00:00') /* Hassha */;
+VALUES (0x7BE7200D, 0x7BE7200E, '2019-02-10 00:00:00') /* Hassha (32673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7200E, 32673, 0xBE720102, 107, 108, 1.2, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Hassha */

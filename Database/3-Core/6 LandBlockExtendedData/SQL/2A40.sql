@@ -5,17 +5,17 @@ VALUES (0x72A40001,  1154, 0x2A400024, 107.0045, 82.67315, 24.16592, -0.6685218,
 /* @teleloc 0x2A400024 [107.004500 82.673150 24.165920] -0.668522 0.000000 0.000000 -0.743693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A40001, 0x72A40002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72A40001, 0x72A40003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A40001, 0x72A40004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72A40001, 0x72A40005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A40001, 0x72A40006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A40001, 0x72A40007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A40001, 0x72A40008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A40001, 0x72A40009, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72A40001, 0x72A4000A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A40001, 0x72A4000B, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72A40001, 0x72A4000C, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x72A40001, 0x72A40002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72A40001, 0x72A40003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A40001, 0x72A40004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72A40001, 0x72A40005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A40001, 0x72A40006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A40001, 0x72A40007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A40001, 0x72A40008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A40001, 0x72A40009, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72A40001, 0x72A4000A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A40001, 0x72A4000B, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72A40001, 0x72A4000C, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A40002,  7126, 0x2A400024, 107.0045, 82.67315, 24.16592, -0.6685218, 0, 0, -0.7436925,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -66,7 +66,7 @@ VALUES (0x72A4000D,  1542, 0x2A400006, 10.98275, 126.2204, 94, 1, 0, 0, 0, False
 /* @teleloc 0x2A400006 [10.982750 126.220400 94.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4000D, 0x72A4000E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72A4000D, 0x72A4000E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4000E,  4380, 0x2A400006, 10.98275, 126.2204, 94, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

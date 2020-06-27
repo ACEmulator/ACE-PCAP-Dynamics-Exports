@@ -5,13 +5,13 @@ VALUES (0x74B13001,  1154, 0x4B130002, 15.55, 39.63792, -0.4435, 0.4226182, 0, 0
 /* @teleloc 0x4B130002 [15.550000 39.637920 -0.443500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B13001, 0x74B13002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74B13001, 0x74B13003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74B13001, 0x74B13004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x74B13001, 0x74B13005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74B13001, 0x74B13006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74B13001, 0x74B13007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74B13001, 0x74B13008, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x74B13001, 0x74B13002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74B13001, 0x74B13003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74B13001, 0x74B13004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x74B13001, 0x74B13005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74B13001, 0x74B13006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74B13001, 0x74B13007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74B13001, 0x74B13008, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B13002,  8431, 0x4B130002, 15.55, 39.63792, -0.4435, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

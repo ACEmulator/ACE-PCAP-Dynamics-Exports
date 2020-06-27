@@ -5,22 +5,22 @@ VALUES (0x72C41001,  1154, 0x2C41003F, 183.6868, 148.4705, 21.65646, 0.8191521, 
 /* @teleloc 0x2C41003F [183.686800 148.470500 21.656460] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C41001, 0x72C41002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C41001, 0x72C41003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72C41001, 0x72C41004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C41001, 0x72C41005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72C41001, 0x72C41006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72C41001, 0x72C41007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72C41001, 0x72C41008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72C41001, 0x72C41009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72C41001, 0x72C4100A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72C41001, 0x72C4100B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72C41001, 0x72C4100C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72C41001, 0x72C4100D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72C41001, 0x72C4100E, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72C41001, 0x72C4100F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C41001, 0x72C41010, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C41001, 0x72C41011, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72C41001, 0x72C41002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C41001, 0x72C41003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72C41001, 0x72C41004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C41001, 0x72C41005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72C41001, 0x72C41006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72C41001, 0x72C41007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72C41001, 0x72C41008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72C41001, 0x72C41009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72C41001, 0x72C4100A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72C41001, 0x72C4100B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72C41001, 0x72C4100C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72C41001, 0x72C4100D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72C41001, 0x72C4100E, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72C41001, 0x72C4100F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C41001, 0x72C41010, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C41001, 0x72C41011, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C41002,  7340, 0x2C41003F, 183.6868, 148.4705, 21.65646, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -91,9 +91,9 @@ VALUES (0x72C41012,  1542, 0x2C41003F, 185.1391, 146.7703, 21.76914, 1, 0, 0, 0,
 /* @teleloc 0x2C41003F [185.139100 146.770300 21.769140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C41012, 0x72C41013, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72C41012, 0x72C41014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72C41012, 0x72C41015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72C41012, 0x72C41013, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72C41012, 0x72C41014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72C41012, 0x72C41015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C41013,  8999, 0x2C41003F, 185.1391, 146.7703, 21.76914, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

@@ -5,17 +5,17 @@ VALUES (0x7DB43001,  1154, 0xDB430031, 148.2482, 20.96072, 58.95381, 0.8870109, 
 /* @teleloc 0xDB430031 [148.248200 20.960720 58.953810] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB43001, 0x7DB43002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DB43001, 0x7DB43003, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7DB43001, 0x7DB43004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7DB43001, 0x7DB43005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7DB43001, 0x7DB43006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7DB43001, 0x7DB43007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7DB43001, 0x7DB43008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7DB43001, 0x7DB43009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DB43001, 0x7DB4300A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DB43001, 0x7DB4300B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DB43001, 0x7DB4300C, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7DB43001, 0x7DB43002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DB43001, 0x7DB43003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7DB43001, 0x7DB43004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7DB43001, 0x7DB43005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7DB43001, 0x7DB43006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7DB43001, 0x7DB43007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7DB43001, 0x7DB43008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7DB43001, 0x7DB43009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DB43001, 0x7DB4300A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DB43001, 0x7DB4300B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DB43001, 0x7DB4300C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB43002,  2576, 0xDB430031, 148.2482, 20.96072, 58.95381, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -66,8 +66,8 @@ VALUES (0x7DB4300D,  1542, 0xDB430031, 151.7458, 20.08473, 59.61723, 0.9990482, 
 /* @teleloc 0xDB430031 [151.745800 20.084730 59.617230] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB4300D, 0x7DB4300E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7DB4300D, 0x7DB4300F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DB4300D, 0x7DB4300E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7DB4300D, 0x7DB4300F, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB4300E,  4179, 0xDB430031, 151.7458, 20.08473, 59.61723, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

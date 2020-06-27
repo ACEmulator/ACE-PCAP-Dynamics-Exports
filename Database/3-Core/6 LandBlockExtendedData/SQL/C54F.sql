@@ -5,20 +5,20 @@ VALUES (0x7C54F001,  1154, 0xC54F0019, 91.92182, 6.707413, 21.23405, 0.7836401, 
 /* @teleloc 0xC54F0019 [91.921820 6.707413 21.234050] 0.783640 0.000000 0.000000 -0.621215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C54F001, 0x7C54F002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C54F001, 0x7C54F003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C54F001, 0x7C54F004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C54F001, 0x7C54F005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C54F001, 0x7C54F006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C54F001, 0x7C54F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C54F001, 0x7C54F008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C54F001, 0x7C54F009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C54F001, 0x7C54F00A, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C54F001, 0x7C54F00B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C54F001, 0x7C54F00C, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C54F001, 0x7C54F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C54F001, 0x7C54F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C54F001, 0x7C54F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C54F001, 0x7C54F002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C54F001, 0x7C54F003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C54F001, 0x7C54F004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C54F001, 0x7C54F005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C54F001, 0x7C54F006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C54F001, 0x7C54F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C54F001, 0x7C54F008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C54F001, 0x7C54F009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C54F001, 0x7C54F00A, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C54F001, 0x7C54F00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C54F001, 0x7C54F00C, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C54F001, 0x7C54F00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C54F001, 0x7C54F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C54F001, 0x7C54F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C54F002,  1627, 0xC54F0019, 91.92182, 6.707413, 21.23405, 0.7836401, 0, 0, -0.6212151,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

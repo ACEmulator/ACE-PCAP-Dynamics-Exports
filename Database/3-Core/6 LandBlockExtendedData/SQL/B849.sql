@@ -5,9 +5,9 @@ VALUES (0x7B849001,  1154, 0xB8490026, 101.5036, 139.3009, 22.006, -0.82092, 0, 
 /* @teleloc 0xB8490026 [101.503600 139.300900 22.006000] -0.820920 0.000000 0.000000 -0.571043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B849001, 0x7B849002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B849001, 0x7B849003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B849001, 0x7B849004, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7B849001, 0x7B849002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B849001, 0x7B849003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B849001, 0x7B849004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B849002,   226, 0xB8490026, 101.5036, 139.3009, 22.006, -0.82092, 0, 0, -0.5710432,  True, '2019-02-10 00:00:00'); /* High Tumerok */

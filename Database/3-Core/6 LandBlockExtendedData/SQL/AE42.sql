@@ -5,18 +5,18 @@ VALUES (0x7AE42001,  1154, 0xAE42003B, 184.9273, 53.37674, 18.005, 0.9238795, 0,
 /* @teleloc 0xAE42003B [184.927300 53.376740 18.005000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE42001, 0x7AE42002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE42001, 0x7AE42003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE42001, 0x7AE42004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE42001, 0x7AE42005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE42001, 0x7AE42006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE42001, 0x7AE42007, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AE42001, 0x7AE42008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AE42001, 0x7AE42009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AE42001, 0x7AE4200A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE42001, 0x7AE4200B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE42001, 0x7AE4200C, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AE42001, 0x7AE4200D, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x7AE42001, 0x7AE42002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE42001, 0x7AE42003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE42001, 0x7AE42004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE42001, 0x7AE42005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE42001, 0x7AE42006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE42001, 0x7AE42007, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AE42001, 0x7AE42008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AE42001, 0x7AE42009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AE42001, 0x7AE4200A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE42001, 0x7AE4200B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE42001, 0x7AE4200C, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AE42001, 0x7AE4200D, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE42002,  1758, 0xAE42003B, 184.9273, 53.37674, 18.005, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

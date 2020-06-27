@@ -5,18 +5,18 @@ VALUES (0x77610001,  1154, 0x7610001F, 75.39096, 155.2586, -0.09249997, 0.923879
 /* @teleloc 0x7610001F [75.390960 155.258600 -0.092500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77610001, 0x77610002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77610001, 0x77610003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x77610001, 0x77610004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x77610001, 0x77610005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x77610001, 0x77610006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77610001, 0x77610007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77610001, 0x77610008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77610001, 0x77610009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77610001, 0x7761000A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77610001, 0x7761000B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x77610001, 0x7761000C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x77610001, 0x7761000D, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x77610001, 0x77610002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77610001, 0x77610003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x77610001, 0x77610004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x77610001, 0x77610005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x77610001, 0x77610006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77610001, 0x77610007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77610001, 0x77610008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77610001, 0x77610009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77610001, 0x7761000A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77610001, 0x7761000B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x77610001, 0x7761000C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x77610001, 0x7761000D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77610002,  7123, 0x7610001F, 75.39096, 155.2586, -0.09249997, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -71,7 +71,7 @@ VALUES (0x7761000E,  1542, 0x76100018, 53.12277, 182.7751, 4.13562, 0.9990482, 0
 /* @teleloc 0x76100018 [53.122770 182.775100 4.135620] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7761000E, 0x7761000F, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7761000E, 0x7761000F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7761000F,  6117, 0x76100018, 53.12277, 182.7751, 4.13562, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -5,10 +5,10 @@ VALUES (0x72A7B001,  1154, 0x2A7B0010, 24.98207, 168.4168, 340.4157, -0.7924222,
 /* @teleloc 0x2A7B0010 [24.982070 168.416800 340.415700] -0.792422 0.000000 0.000000 -0.609973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7B001, 0x72A7B002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72A7B001, 0x72A7B003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72A7B001, 0x72A7B004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A7B001, 0x72A7B005, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x72A7B001, 0x72A7B002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72A7B001, 0x72A7B003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72A7B001, 0x72A7B004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A7B001, 0x72A7B005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7B002, 20189, 0x2A7B0010, 24.98207, 168.4168, 340.4157, -0.7924222, 0, 0, -0.609973,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -31,7 +31,7 @@ VALUES (0x72A7B006,  1542, 0x2A7B0015, 67.85855, 109.6393, 362.5914, 0.9990482, 
 /* @teleloc 0x2A7B0015 [67.858550 109.639300 362.591400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7B006, 0x72A7B007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72A7B006, 0x72A7B007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7B007,  4179, 0x2A7B0015, 67.85855, 109.6393, 362.5914, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

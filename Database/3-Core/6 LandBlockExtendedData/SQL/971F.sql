@@ -5,19 +5,19 @@ VALUES (0x7971F001,  1154, 0x971F003C, 168.6512, 89.76015, 183.8979, -0.4845666,
 /* @teleloc 0x971F003C [168.651200 89.760150 183.897900] -0.484567 0.000000 0.000000 -0.874754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7971F001, 0x7971F002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7971F001, 0x7971F003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7971F001, 0x7971F004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7971F001, 0x7971F005, '2019-02-10 00:00:00') /* Static */
-     , (0x7971F001, 0x7971F006, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7971F001, 0x7971F007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7971F001, 0x7971F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7971F001, 0x7971F009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7971F001, 0x7971F00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7971F001, 0x7971F00B, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7971F001, 0x7971F00C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7971F001, 0x7971F00D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7971F001, 0x7971F00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7971F001, 0x7971F002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7971F001, 0x7971F003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7971F001, 0x7971F004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7971F001, 0x7971F005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7971F001, 0x7971F006, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7971F001, 0x7971F007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7971F001, 0x7971F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7971F001, 0x7971F009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7971F001, 0x7971F00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7971F001, 0x7971F00B, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7971F001, 0x7971F00C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7971F001, 0x7971F00D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7971F001, 0x7971F00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7971F002,  4253, 0x971F003C, 168.6512, 89.76015, 183.8979, -0.4845666, 0, 0, -0.8747544,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -76,7 +76,7 @@ VALUES (0x7971F00F,  1542, 0x971F003D, 183.86, 97.69126, 185.0398, -0.4845666, 0
 /* @teleloc 0x971F003D [183.860000 97.691260 185.039800] -0.484567 0.000000 0.000000 -0.874754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7971F00F, 0x7971F010, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7971F00F, 0x7971F010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7971F010,  8041, 0x971F003D, 183.86, 97.69126, 185.0398, -0.4845666, 0, 0, -0.8747544,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

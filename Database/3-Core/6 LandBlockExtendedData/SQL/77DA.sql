@@ -9,17 +9,17 @@ VALUES (0x777DA00C,  1154, 0x77DA000D, 43.7251, 111.76, 215.6767, 0.2229651, 0, 
 /* @teleloc 0x77DA000D [43.725100 111.760000 215.676700] 0.222965 0.000000 0.000000 -0.974827 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777DA00C, 0x777DA00D, '2019-02-10 00:00:00') /* Banderling Chanter */
-     , (0x777DA00C, 0x777DA00E, '2019-02-10 00:00:00') /* Banderling Chanter */
-     , (0x777DA00C, 0x777DA00F, '2019-02-10 00:00:00') /* Amethyst Gromnie */
-     , (0x777DA00C, 0x777DA010, '2019-02-10 00:00:00') /* Amethyst Gromnie */
-     , (0x777DA00C, 0x777DA011, '2019-02-10 00:00:00') /* Banderling Chanter */
-     , (0x777DA00C, 0x777DA012, '2019-02-10 00:00:00') /* Banderling Chanter */
-     , (0x777DA00C, 0x777DA013, '2019-02-10 00:00:00') /* Banderling Spirit Dancer */
-     , (0x777DA00C, 0x777DA014, '2019-02-10 00:00:00') /* Crude Statue */
-     , (0x777DA00C, 0x777DA015, '2019-02-10 00:00:00') /* Amethyst Gromnie */
-     , (0x777DA00C, 0x777DA016, '2019-02-10 00:00:00') /* Banderling Chanter */
-     , (0x777DA00C, 0x777DA017, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x777DA00C, 0x777DA00D, '2019-02-10 00:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA00C, 0x777DA00E, '2019-02-10 00:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA00C, 0x777DA00F, '2019-02-10 00:00:00') /* Amethyst Gromnie (25596) */
+     , (0x777DA00C, 0x777DA010, '2019-02-10 00:00:00') /* Amethyst Gromnie (25596) */
+     , (0x777DA00C, 0x777DA011, '2019-02-10 00:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA00C, 0x777DA012, '2019-02-10 00:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA00C, 0x777DA013, '2019-02-10 00:00:00') /* Banderling Spirit Dancer (30638) */
+     , (0x777DA00C, 0x777DA014, '2019-02-10 00:00:00') /* Crude Statue (30626) */
+     , (0x777DA00C, 0x777DA015, '2019-02-10 00:00:00') /* Amethyst Gromnie (25596) */
+     , (0x777DA00C, 0x777DA016, '2019-02-10 00:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA00C, 0x777DA017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777DA00D, 30754, 0x77DA000D, 43.7251, 111.76, 215.6767, 0.2229651, 0, 0, -0.9748265,  True, '2019-02-10 00:00:00'); /* Banderling Chanter */

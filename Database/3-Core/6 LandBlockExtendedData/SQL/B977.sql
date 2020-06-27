@@ -5,19 +5,19 @@ VALUES (0x7B977001,  1154, 0xB9770005, 17.74662, 115.945, 38.28415, -0.563009, 0
 /* @teleloc 0xB9770005 [17.746620 115.945000 38.284150] -0.563009 0.000000 0.000000 -0.826451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B977001, 0x7B977002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B977001, 0x7B977003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B977001, 0x7B977004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B977001, 0x7B977005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B977001, 0x7B977006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B977001, 0x7B977007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B977001, 0x7B977008, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B977001, 0x7B977009, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B977001, 0x7B97700A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B977001, 0x7B97700B, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B977001, 0x7B97700C, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B977001, 0x7B97700D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B977001, 0x7B97700E, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7B977001, 0x7B977002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B977001, 0x7B977003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B977001, 0x7B977004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B977001, 0x7B977005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B977001, 0x7B977006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B977001, 0x7B977007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B977001, 0x7B977008, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B977001, 0x7B977009, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B977001, 0x7B97700A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B977001, 0x7B97700B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B977001, 0x7B97700C, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B977001, 0x7B97700D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B977001, 0x7B97700E, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B977002,  7991, 0xB9770005, 17.74662, 115.945, 38.28415, -0.563009, 0, 0, -0.8264508,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */
@@ -76,7 +76,7 @@ VALUES (0x7B97700F,  1542, 0xB977001A, 73.0054, 27.13742, 27.82233, 1, 0, 0, 0, 
 /* @teleloc 0xB977001A [73.005400 27.137420 27.822330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B97700F, 0x7B977010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B97700F, 0x7B977010, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B977010, 22572, 0xB977001A, 73.0054, 27.13742, 27.82233, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

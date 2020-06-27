@@ -5,12 +5,12 @@ VALUES (0x7D931001,  1154, 0xD931001E, 75.06312, 124.8351, 95.97194, 0.4819043, 
 /* @teleloc 0xD931001E [75.063120 124.835100 95.971940] 0.481904 0.000000 0.000000 -0.876224 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D931001, 0x7D931002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D931001, 0x7D931003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D931001, 0x7D931004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D931001, 0x7D931005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D931001, 0x7D931006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D931001, 0x7D931007, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7D931001, 0x7D931002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D931001, 0x7D931003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D931001, 0x7D931004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D931001, 0x7D931005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D931001, 0x7D931006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D931001, 0x7D931007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D931002,  7105, 0xD931001E, 75.06312, 124.8351, 95.97194, 0.4819043, 0, 0, -0.8762239,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

@@ -5,29 +5,29 @@ VALUES (0x7BB9C001,  1154, 0xBB9C003F, 169.806, 166.457, 1.9004, -0.6492919, 0, 
 /* @teleloc 0xBB9C003F [169.806000 166.457000 1.900400] -0.649292 0.000000 0.000000 -0.760539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9C001, 0x7BB9C002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB9C001, 0x7BB9C003, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB9C001, 0x7BB9C004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BB9C001, 0x7BB9C005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB9C001, 0x7BB9C006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB9C001, 0x7BB9C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB9C001, 0x7BB9C008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB9C001, 0x7BB9C009, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BB9C001, 0x7BB9C00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BB9C001, 0x7BB9C00B, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BB9C001, 0x7BB9C00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB9C001, 0x7BB9C00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB9C001, 0x7BB9C00E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB9C001, 0x7BB9C00F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB9C001, 0x7BB9C010, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB9C001, 0x7BB9C011, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB9C001, 0x7BB9C012, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BB9C001, 0x7BB9C013, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BB9C001, 0x7BB9C014, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BB9C001, 0x7BB9C015, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BB9C001, 0x7BB9C016, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB9C001, 0x7BB9C017, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB9C001, 0x7BB9C018, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BB9C001, 0x7BB9C002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB9C001, 0x7BB9C003, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB9C001, 0x7BB9C004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BB9C001, 0x7BB9C005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB9C001, 0x7BB9C006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB9C001, 0x7BB9C007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB9C001, 0x7BB9C008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB9C001, 0x7BB9C009, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BB9C001, 0x7BB9C00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BB9C001, 0x7BB9C00B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BB9C001, 0x7BB9C00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB9C001, 0x7BB9C00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB9C001, 0x7BB9C00E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB9C001, 0x7BB9C00F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB9C001, 0x7BB9C010, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB9C001, 0x7BB9C011, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB9C001, 0x7BB9C012, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BB9C001, 0x7BB9C013, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BB9C001, 0x7BB9C014, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BB9C001, 0x7BB9C015, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BB9C001, 0x7BB9C016, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB9C001, 0x7BB9C017, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB9C001, 0x7BB9C018, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9C002,  7986, 0xBB9C003F, 169.806, 166.457, 1.9004, -0.6492919, 0, 0, -0.7605393,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */

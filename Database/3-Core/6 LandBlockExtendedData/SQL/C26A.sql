@@ -5,14 +5,14 @@ VALUES (0x7C26A001,  1154, 0xC26A000A, 30.13631, 26.46519, 62.30842, 0.8191521, 
 /* @teleloc 0xC26A000A [30.136310 26.465190 62.308420] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26A001, 0x7C26A002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C26A001, 0x7C26A003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C26A001, 0x7C26A004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C26A001, 0x7C26A005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C26A001, 0x7C26A006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C26A001, 0x7C26A007, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7C26A001, 0x7C26A008, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7C26A001, 0x7C26A009, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x7C26A001, 0x7C26A002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C26A001, 0x7C26A003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C26A001, 0x7C26A004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C26A001, 0x7C26A005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C26A001, 0x7C26A006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C26A001, 0x7C26A007, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7C26A001, 0x7C26A008, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7C26A001, 0x7C26A009, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C26A002,  1760, 0xC26A000A, 30.13631, 26.46519, 62.30842, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

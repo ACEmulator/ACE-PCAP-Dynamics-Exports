@@ -5,17 +5,17 @@ VALUES (0x79529001,  1154, 0x95290038, 160.1504, 189.5792, 130.5446, -0.8448527,
 /* @teleloc 0x95290038 [160.150400 189.579200 130.544600] -0.844853 0.000000 0.000000 -0.534999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79529001, 0x79529002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79529001, 0x79529003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79529001, 0x79529004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x79529001, 0x79529005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79529001, 0x79529006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79529001, 0x79529007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79529001, 0x79529008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79529001, 0x79529009, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x79529001, 0x7952900A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79529001, 0x7952900B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79529001, 0x7952900C, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x79529001, 0x79529002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79529001, 0x79529003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79529001, 0x79529004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x79529001, 0x79529005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79529001, 0x79529006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79529001, 0x79529007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79529001, 0x79529008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79529001, 0x79529009, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x79529001, 0x7952900A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79529001, 0x7952900B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79529001, 0x7952900C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79529002,   201, 0x95290038, 160.1504, 189.5792, 130.5446, -0.8448527, 0, 0, -0.5349989,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -66,8 +66,8 @@ VALUES (0x7952900D,  1542, 0x95290014, 62.12106, 90.69333, 143.1568, 1, 0, 0, 0,
 /* @teleloc 0x95290014 [62.121060 90.693330 143.156800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7952900D, 0x7952900E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7952900D, 0x7952900F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7952900D, 0x7952900E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7952900D, 0x7952900F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7952900E, 22571, 0x95290014, 62.12106, 90.69333, 143.1568, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

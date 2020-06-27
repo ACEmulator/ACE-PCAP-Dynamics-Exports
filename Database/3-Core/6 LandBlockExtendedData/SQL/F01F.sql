@@ -5,24 +5,24 @@ VALUES (0x7F01F001,  1154, 0xF01F0035, 149.0977, 101.0948, -0.01800001, -0.03311
 /* @teleloc 0xF01F0035 [149.097700 101.094800 -0.018000] -0.033114 0.000000 0.000000 -0.999452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F01F001, 0x7F01F002, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7F01F001, 0x7F01F003, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7F01F001, 0x7F01F004, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F01F001, 0x7F01F005, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F01F001, 0x7F01F006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F01F001, 0x7F01F007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F01F001, 0x7F01F008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F01F001, 0x7F01F009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F01F001, 0x7F01F00A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F01F001, 0x7F01F00B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F01F001, 0x7F01F00C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F01F001, 0x7F01F00D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F01F001, 0x7F01F00E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F01F001, 0x7F01F00F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F01F001, 0x7F01F010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F01F001, 0x7F01F011, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F01F001, 0x7F01F012, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F01F001, 0x7F01F013, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F01F001, 0x7F01F002, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F01F001, 0x7F01F003, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7F01F001, 0x7F01F004, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F01F001, 0x7F01F005, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F01F001, 0x7F01F006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F01F001, 0x7F01F007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F01F001, 0x7F01F008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F01F001, 0x7F01F009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F01F001, 0x7F01F00A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F01F001, 0x7F01F00B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F01F001, 0x7F01F00C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F01F001, 0x7F01F00D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F01F001, 0x7F01F00E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F01F001, 0x7F01F00F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F01F001, 0x7F01F010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F01F001, 0x7F01F011, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F01F001, 0x7F01F012, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F01F001, 0x7F01F013, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F01F002,  4258, 0xF01F0035, 149.0977, 101.0948, -0.01800001, -0.03311402, 0, 0, -0.9994516,  True, '2019-02-10 00:00:00'); /* Slithis Eye Stalk */
@@ -101,7 +101,7 @@ VALUES (0x7F01F014,  1542, 0xF01F003B, 173.213, 61.94028, 7.544785, -4.371139E-0
 /* @teleloc 0xF01F003B [173.213000 61.940280 7.544785] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F01F014, 0x7F01F015, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7F01F014, 0x7F01F015, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F01F015,  8588, 0xF01F003B, 173.213, 61.94028, 7.544785, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Idol */

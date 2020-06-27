@@ -5,17 +5,17 @@ VALUES (0x7C2B0001,  1154, 0xC2B00031, 156.7448, 0.2119892, 132.8207, 0.327371, 
 /* @teleloc 0xC2B00031 [156.744800 0.211989 132.820700] 0.327371 0.000000 0.000000 -0.944896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2B0001, 0x7C2B0002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C2B0001, 0x7C2B0003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C2B0001, 0x7C2B0004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C2B0001, 0x7C2B0005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C2B0001, 0x7C2B0006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C2B0001, 0x7C2B0007, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7C2B0001, 0x7C2B0008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C2B0001, 0x7C2B0009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C2B0001, 0x7C2B000A, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C2B0001, 0x7C2B000B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C2B0001, 0x7C2B000C, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7C2B0001, 0x7C2B0002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C2B0001, 0x7C2B0003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C2B0001, 0x7C2B0004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C2B0001, 0x7C2B0005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C2B0001, 0x7C2B0006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C2B0001, 0x7C2B0007, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7C2B0001, 0x7C2B0008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C2B0001, 0x7C2B0009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C2B0001, 0x7C2B000A, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C2B0001, 0x7C2B000B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C2B0001, 0x7C2B000C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2B0002,  7345, 0xC2B00031, 156.7448, 0.2119892, 132.8207, 0.327371, 0, 0, -0.9448959,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

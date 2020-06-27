@@ -5,25 +5,25 @@ VALUES (0x7BEA1001,  1154, 0xBEA10007, 7.996968, 153.8403, 1.55765, -0.7171801, 
 /* @teleloc 0xBEA10007 [7.996968 153.840300 1.557650] -0.717180 0.000000 0.000000 -0.696888 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEA1001, 0x7BEA1002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BEA1001, 0x7BEA1003, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BEA1001, 0x7BEA1004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BEA1001, 0x7BEA1005, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BEA1001, 0x7BEA1006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BEA1001, 0x7BEA1007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BEA1001, 0x7BEA1008, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BEA1001, 0x7BEA1009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BEA1001, 0x7BEA100A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BEA1001, 0x7BEA100B, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BEA1001, 0x7BEA100C, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BEA1001, 0x7BEA100D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BEA1001, 0x7BEA100E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BEA1001, 0x7BEA100F, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BEA1001, 0x7BEA1010, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BEA1001, 0x7BEA1011, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BEA1001, 0x7BEA1012, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BEA1001, 0x7BEA1013, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BEA1001, 0x7BEA1014, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7BEA1001, 0x7BEA1002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BEA1001, 0x7BEA1003, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BEA1001, 0x7BEA1004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BEA1001, 0x7BEA1005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BEA1001, 0x7BEA1006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BEA1001, 0x7BEA1007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BEA1001, 0x7BEA1008, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BEA1001, 0x7BEA1009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BEA1001, 0x7BEA100A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BEA1001, 0x7BEA100B, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BEA1001, 0x7BEA100C, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BEA1001, 0x7BEA100D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BEA1001, 0x7BEA100E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BEA1001, 0x7BEA100F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BEA1001, 0x7BEA1010, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BEA1001, 0x7BEA1011, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BEA1001, 0x7BEA1012, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BEA1001, 0x7BEA1013, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BEA1001, 0x7BEA1014, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEA1002,   182, 0xBEA10007, 7.996968, 153.8403, 1.55765, -0.7171801, 0, 0, -0.6968879,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

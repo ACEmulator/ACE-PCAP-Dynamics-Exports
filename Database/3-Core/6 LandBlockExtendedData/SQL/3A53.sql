@@ -5,9 +5,9 @@ VALUES (0x73A53001,  1154, 0x3A530014, 70.15688, 75.15403, 28.71778, -0.7660444,
 /* @teleloc 0x3A530014 [70.156880 75.154030 28.717780] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A53001, 0x73A53002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A53001, 0x73A53003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A53001, 0x73A53004, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x73A53001, 0x73A53002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A53001, 0x73A53003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A53001, 0x73A53004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A53002, 24497, 0x3A530014, 70.15688, 75.15403, 28.71778, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

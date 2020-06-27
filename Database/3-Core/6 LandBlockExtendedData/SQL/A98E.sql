@@ -9,25 +9,25 @@ VALUES (0x7A98E002,  1154, 0xA98E003A, 174.0029, 26.65133, 37.72766, 0.8310059, 
 /* @teleloc 0xA98E003A [174.002900 26.651330 37.727660] 0.831006 0.000000 0.000000 -0.556264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98E002, 0x7A98E003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A98E002, 0x7A98E004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A98E002, 0x7A98E005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A98E002, 0x7A98E006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A98E002, 0x7A98E007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A98E002, 0x7A98E008, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A98E002, 0x7A98E009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A98E002, 0x7A98E00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A98E002, 0x7A98E00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A98E002, 0x7A98E00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A98E002, 0x7A98E00D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A98E002, 0x7A98E00E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A98E002, 0x7A98E00F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A98E002, 0x7A98E010, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A98E002, 0x7A98E011, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A98E002, 0x7A98E012, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7A98E002, 0x7A98E013, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A98E002, 0x7A98E014, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A98E002, 0x7A98E015, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7A98E002, 0x7A98E003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A98E002, 0x7A98E004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A98E002, 0x7A98E005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A98E002, 0x7A98E006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A98E002, 0x7A98E007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A98E002, 0x7A98E008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A98E002, 0x7A98E009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A98E002, 0x7A98E00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A98E002, 0x7A98E00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A98E002, 0x7A98E00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A98E002, 0x7A98E00D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A98E002, 0x7A98E00E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A98E002, 0x7A98E00F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A98E002, 0x7A98E010, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A98E002, 0x7A98E011, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A98E002, 0x7A98E012, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7A98E002, 0x7A98E013, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A98E002, 0x7A98E014, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A98E002, 0x7A98E015, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98E003,   226, 0xA98E003A, 174.0029, 26.65133, 37.72766, 0.8310059, 0, 0, -0.5562636,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -110,7 +110,7 @@ VALUES (0x7A98E016,  1154, 0xA98E0100, 105.938, 51.2434, 19.66, -0.982785, 0, 0,
 /* @teleloc 0xA98E0100 [105.938000 51.243400 19.660000] -0.982785 0.000000 0.000000 0.184753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98E016, 0x7A98E017, '2019-02-10 00:00:00') /* Grilhud the Hermit */;
+VALUES (0x7A98E016, 0x7A98E017, '2019-02-10 00:00:00') /* Grilhud the Hermit (4202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98E017,  4202, 0xA98E0100, 105.938, 51.2434, 19.66, -0.982785, 0, 0, 0.184753,  True, '2019-02-10 00:00:00'); /* Grilhud the Hermit */
@@ -121,7 +121,7 @@ VALUES (0x7A98E018,  1542, 0xA98E0022, 106.049, 29.77095, 27.02192, 1, 0, 0, 0, 
 /* @teleloc 0xA98E0022 [106.049000 29.770950 27.021920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98E018, 0x7A98E019, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7A98E018, 0x7A98E019, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98E019,  4383, 0xA98E0022, 106.049, 29.77095, 27.02192, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

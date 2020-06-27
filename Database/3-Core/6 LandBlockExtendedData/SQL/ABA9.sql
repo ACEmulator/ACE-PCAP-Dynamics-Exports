@@ -5,12 +5,12 @@ VALUES (0x7ABA9001,  1154, 0xABA90022, 112.322, 29.36114, 142.6448, 0.9588197, 0
 /* @teleloc 0xABA90022 [112.322000 29.361140 142.644800] 0.958820 0.000000 0.000000 -0.284015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA9001, 0x7ABA9002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ABA9001, 0x7ABA9003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ABA9001, 0x7ABA9004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7ABA9001, 0x7ABA9005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ABA9001, 0x7ABA9006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ABA9001, 0x7ABA9007, '2019-02-10 00:00:00') /* Mite Scamp */;
+VALUES (0x7ABA9001, 0x7ABA9002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ABA9001, 0x7ABA9003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ABA9001, 0x7ABA9004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7ABA9001, 0x7ABA9005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ABA9001, 0x7ABA9006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ABA9001, 0x7ABA9007, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA9002,   944, 0xABA90022, 112.322, 29.36114, 142.6448, 0.9588197, 0, 0, -0.2840154,  True, '2019-02-10 00:00:00'); /* Mite Digger */

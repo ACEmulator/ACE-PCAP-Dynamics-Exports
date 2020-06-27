@@ -5,14 +5,14 @@ VALUES (0x73FAF001,  1154, 0x3FAF000D, 37.9599, 103.2063, 3.175325, 0.8092099, 0
 /* @teleloc 0x3FAF000D [37.959900 103.206300 3.175325] 0.809210 0.000000 0.000000 -0.587520 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FAF001, 0x73FAF002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73FAF001, 0x73FAF003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73FAF001, 0x73FAF004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73FAF001, 0x73FAF005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73FAF001, 0x73FAF006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x73FAF001, 0x73FAF007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73FAF001, 0x73FAF008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73FAF001, 0x73FAF009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x73FAF001, 0x73FAF002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73FAF001, 0x73FAF003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73FAF001, 0x73FAF004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73FAF001, 0x73FAF005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73FAF001, 0x73FAF006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x73FAF001, 0x73FAF007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73FAF001, 0x73FAF008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73FAF001, 0x73FAF009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FAF002,  7105, 0x3FAF000D, 37.9599, 103.2063, 3.175325, 0.8092099, 0, 0, -0.5875197,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -51,7 +51,7 @@ VALUES (0x73FAF00A,  1542, 0x3FAF001E, 74.52396, 128.5451, 5.645572, 0.9537169, 
 /* @teleloc 0x3FAF001E [74.523960 128.545100 5.645572] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FAF00A, 0x73FAF00B, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal */;
+VALUES (0x73FAF00A, 0x73FAF00B, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal (8383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FAF00B,  8383, 0x3FAF001E, 74.52396, 128.5451, 5.645572, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Desert Northeast Portal */

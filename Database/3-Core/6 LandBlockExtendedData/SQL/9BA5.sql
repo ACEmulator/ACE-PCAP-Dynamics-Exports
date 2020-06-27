@@ -5,14 +5,14 @@ VALUES (0x79BA5001,  1154, 0x9BA50036, 164.9985, 122.8742, 77.28294, 0.7071068, 
 /* @teleloc 0x9BA50036 [164.998500 122.874200 77.282940] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BA5001, 0x79BA5002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79BA5001, 0x79BA5003, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x79BA5001, 0x79BA5004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BA5001, 0x79BA5005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79BA5001, 0x79BA5006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79BA5001, 0x79BA5007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79BA5001, 0x79BA5008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79BA5001, 0x79BA5009, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x79BA5001, 0x79BA5002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79BA5001, 0x79BA5003, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x79BA5001, 0x79BA5004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BA5001, 0x79BA5005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79BA5001, 0x79BA5006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79BA5001, 0x79BA5007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79BA5001, 0x79BA5008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79BA5001, 0x79BA5009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BA5002,  1627, 0x9BA50036, 164.9985, 122.8742, 77.28294, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -51,7 +51,7 @@ VALUES (0x79BA500A,  1542, 0x9BA50007, 6.070733, 146.7761, 73.7665, 1, 0, 0, 0, 
 /* @teleloc 0x9BA50007 [6.070733 146.776100 73.766500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BA500A, 0x79BA500B, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x79BA500A, 0x79BA500B, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BA500B, 31443, 0x9BA50007, 6.070733, 146.7761, 73.7665, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,12 +5,12 @@ VALUES (0x78D8C001,  1154, 0x8D8C0032, 150.4395, 26.63705, 48.54963, 0.5349557, 
 /* @teleloc 0x8D8C0032 [150.439500 26.637050 48.549630] 0.534956 0.000000 0.000000 -0.844880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D8C001, 0x78D8C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D8C001, 0x78D8C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D8C001, 0x78D8C004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D8C001, 0x78D8C005, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x78D8C001, 0x78D8C006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78D8C001, 0x78D8C007, '2019-02-10 00:00:00') /* Gout */;
+VALUES (0x78D8C001, 0x78D8C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D8C001, 0x78D8C003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D8C001, 0x78D8C004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D8C001, 0x78D8C005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x78D8C001, 0x78D8C006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78D8C001, 0x78D8C007, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8C002,   217, 0x8D8C0032, 150.4395, 26.63705, 48.54963, 0.5349557, 0, 0, -0.8448801,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

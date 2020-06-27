@@ -5,21 +5,21 @@ VALUES (0x78DAB001,  1154, 0x8DAB0009, 26.96397, 22.5766, 33.9728, 0.975914, 0, 
 /* @teleloc 0x8DAB0009 [26.963970 22.576600 33.972800] 0.975914 0.000000 0.000000 -0.218156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAB001, 0x78DAB002, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB003, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x78DAB001, 0x78DAB004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78DAB001, 0x78DAB009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DAB001, 0x78DAB00A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78DAB001, 0x78DAB00B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78DAB001, 0x78DAB00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78DAB001, 0x78DAB00D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78DAB001, 0x78DAB00E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x78DAB001, 0x78DAB00F, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78DAB001, 0x78DAB010, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x78DAB001, 0x78DAB002, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB003, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x78DAB001, 0x78DAB004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78DAB001, 0x78DAB009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DAB001, 0x78DAB00A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78DAB001, 0x78DAB00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78DAB001, 0x78DAB00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78DAB001, 0x78DAB00D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78DAB001, 0x78DAB00E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78DAB001, 0x78DAB00F, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78DAB001, 0x78DAB010, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAB002, 32203, 0x8DAB0009, 26.96397, 22.5766, 33.9728, 0.975914, 0, 0, -0.2181555,  True, '2019-02-10 00:00:00'); /* Pumpkin Kin */

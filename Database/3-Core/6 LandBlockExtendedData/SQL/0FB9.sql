@@ -5,20 +5,20 @@ VALUES (0x70FB9001,  1154, 0x0FB90013, 69.80699, 55.01036, -0.09999999, 0.859895
 /* @teleloc 0x0FB90013 [69.806990 55.010360 -0.100000] 0.859895 0.000000 0.000000 -0.510471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70FB9001, 0x70FB9002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x70FB9001, 0x70FB9003, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x70FB9001, 0x70FB9004, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x70FB9001, 0x70FB9005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x70FB9001, 0x70FB9006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x70FB9001, 0x70FB9007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x70FB9001, 0x70FB9008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x70FB9001, 0x70FB9009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x70FB9001, 0x70FB900A, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x70FB9001, 0x70FB900B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x70FB9001, 0x70FB900C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x70FB9001, 0x70FB900D, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x70FB9001, 0x70FB900E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x70FB9001, 0x70FB900F, '2019-02-10 00:00:00') /* Engorged Eater */;
+VALUES (0x70FB9001, 0x70FB9002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x70FB9001, 0x70FB9003, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x70FB9001, 0x70FB9004, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x70FB9001, 0x70FB9005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x70FB9001, 0x70FB9006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x70FB9001, 0x70FB9007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x70FB9001, 0x70FB9008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x70FB9001, 0x70FB9009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x70FB9001, 0x70FB900A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x70FB9001, 0x70FB900B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x70FB9001, 0x70FB900C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x70FB9001, 0x70FB900D, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x70FB9001, 0x70FB900E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x70FB9001, 0x70FB900F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70FB9002, 11495, 0x0FB90013, 69.80699, 55.01036, -0.09999999, 0.859895, 0, 0, -0.5104709,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */

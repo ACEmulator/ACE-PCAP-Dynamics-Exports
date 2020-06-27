@@ -5,14 +5,14 @@ VALUES (0x71A2A001,  1154, 0x1A2A0018, 70.75448, 173.145, 37.28886, 0.9659258, 0
 /* @teleloc 0x1A2A0018 [70.754480 173.145000 37.288860] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A2A001, 0x71A2A002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71A2A001, 0x71A2A003, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71A2A001, 0x71A2A004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71A2A001, 0x71A2A005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71A2A001, 0x71A2A006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A2A001, 0x71A2A007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x71A2A001, 0x71A2A008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A2A001, 0x71A2A009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71A2A001, 0x71A2A002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71A2A001, 0x71A2A003, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71A2A001, 0x71A2A004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71A2A001, 0x71A2A005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71A2A001, 0x71A2A006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A2A001, 0x71A2A007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x71A2A001, 0x71A2A008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A2A001, 0x71A2A009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A2A002, 10814, 0x1A2A0018, 70.75448, 173.145, 37.28886, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */

@@ -5,9 +5,9 @@ VALUES (0x7925B001,  1154, 0x925B0021, 115.6607, 13.23593, 17.34, -0.445721, 0, 
 /* @teleloc 0x925B0021 [115.660700 13.235930 17.340000] -0.445721 0.000000 0.000000 -0.895172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7925B001, 0x7925B002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7925B001, 0x7925B003, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x7925B001, 0x7925B004, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7925B001, 0x7925B002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7925B001, 0x7925B003, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x7925B001, 0x7925B004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7925B002, 24937, 0x925B0021, 115.6607, 13.23593, 17.34, -0.445721, 0, 0, -0.8951719,  True, '2019-02-10 00:00:00'); /* Chicken */

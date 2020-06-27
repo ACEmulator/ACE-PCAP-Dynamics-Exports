@@ -5,9 +5,9 @@ VALUES (0x710B8001,  1154, 0x10B80033, 162.0234, 57.7294, 0, -0.6536773, 0, 0, -
 /* @teleloc 0x10B80033 [162.023400 57.729400 0.000000] -0.653677 0.000000 0.000000 -0.756773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x710B8001, 0x710B8002, '2019-02-10 00:00:00') /* Eater */
-     , (0x710B8001, 0x710B8003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x710B8001, 0x710B8004, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x710B8001, 0x710B8002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x710B8001, 0x710B8003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x710B8001, 0x710B8004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x710B8002, 28640, 0x10B80033, 162.0234, 57.7294, 0, -0.6536773, 0, 0, -0.7567734,  True, '2019-02-10 00:00:00'); /* Eater */

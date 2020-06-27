@@ -5,13 +5,13 @@ VALUES (0x7A10E001,  1154, 0xA10E0010, 25.57716, 171.7154, -0.9, -0.9013984, 0, 
 /* @teleloc 0xA10E0010 [25.577160 171.715400 -0.900000] -0.901398 0.000000 0.000000 -0.432991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A10E001, 0x7A10E002, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7A10E001, 0x7A10E003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A10E001, 0x7A10E004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7A10E001, 0x7A10E005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7A10E001, 0x7A10E006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7A10E001, 0x7A10E007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A10E001, 0x7A10E008, '2019-02-10 00:00:00') /* Dread Idol */;
+VALUES (0x7A10E001, 0x7A10E002, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7A10E001, 0x7A10E003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A10E001, 0x7A10E004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7A10E001, 0x7A10E005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7A10E001, 0x7A10E006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7A10E001, 0x7A10E007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A10E001, 0x7A10E008, '2019-02-10 00:00:00') /* Dread Idol (8467) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A10E002,  2586, 0xA10E0010, 25.57716, 171.7154, -0.9, -0.9013984, 0, 0, -0.4329907,  True, '2019-02-10 00:00:00'); /* Sata Sclavus */

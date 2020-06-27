@@ -5,11 +5,11 @@ VALUES (0x72768001,  1154, 0x2768002E, 121.9521, 120.2349, 89.91214, 0.9238795, 
 /* @teleloc 0x2768002E [121.952100 120.234900 89.912140] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72768001, 0x72768002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72768001, 0x72768003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72768001, 0x72768004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72768001, 0x72768005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72768001, 0x72768006, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x72768001, 0x72768002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72768001, 0x72768003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72768001, 0x72768004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72768001, 0x72768005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72768001, 0x72768006, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72768002, 24497, 0x2768002E, 121.9521, 120.2349, 89.91214, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

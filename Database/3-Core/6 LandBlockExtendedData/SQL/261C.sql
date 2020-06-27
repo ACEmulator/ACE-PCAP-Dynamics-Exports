@@ -5,15 +5,15 @@ VALUES (0x7261C001,  1154, 0x261C0029, 136.5868, 16.01325, 41.34112, -0.9448796,
 /* @teleloc 0x261C0029 [136.586800 16.013250 41.341120] -0.944880 0.000000 0.000000 -0.327418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261C001, 0x7261C002, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7261C001, 0x7261C003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7261C001, 0x7261C004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7261C001, 0x7261C005, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7261C001, 0x7261C006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7261C001, 0x7261C007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7261C001, 0x7261C008, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7261C001, 0x7261C009, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7261C001, 0x7261C00A, '2019-02-10 00:00:00') /* Primeval Skeleton */;
+VALUES (0x7261C001, 0x7261C002, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7261C001, 0x7261C003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7261C001, 0x7261C004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7261C001, 0x7261C005, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7261C001, 0x7261C006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7261C001, 0x7261C007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7261C001, 0x7261C008, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7261C001, 0x7261C009, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7261C001, 0x7261C00A, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261C002, 36836, 0x261C0029, 136.5868, 16.01325, 41.34112, -0.9448796, 0, 0, -0.327418,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */

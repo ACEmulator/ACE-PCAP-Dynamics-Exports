@@ -5,10 +5,10 @@ VALUES (0x7276E001,  1154, 0x276E0001, 23.66143, 15.24364, 98.64296, -0.84995, 0
 /* @teleloc 0x276E0001 [23.661430 15.243640 98.642960] -0.849950 0.000000 0.000000 -0.526864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7276E001, 0x7276E002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7276E001, 0x7276E003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7276E001, 0x7276E004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7276E001, 0x7276E005, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7276E001, 0x7276E002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7276E001, 0x7276E003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7276E001, 0x7276E004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7276E001, 0x7276E005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7276E002,  7982, 0x276E0001, 23.66143, 15.24364, 98.64296, -0.84995, 0, 0, -0.5268635,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

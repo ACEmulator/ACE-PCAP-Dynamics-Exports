@@ -5,18 +5,18 @@ VALUES (0x7D0E3001,  1154, 0xD0E30005, 14.87349, 111.6527, 18.09221, -0.8253663,
 /* @teleloc 0xD0E30005 [14.873490 111.652700 18.092210] -0.825366 0.000000 0.000000 -0.564598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0E3001, 0x7D0E3002, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D0E3001, 0x7D0E3003, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D0E3001, 0x7D0E3004, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7D0E3001, 0x7D0E3005, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7D0E3001, 0x7D0E3006, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7D0E3001, 0x7D0E3007, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7D0E3001, 0x7D0E3008, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D0E3001, 0x7D0E3009, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7D0E3001, 0x7D0E300A, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D0E3001, 0x7D0E300B, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7D0E3001, 0x7D0E300C, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7D0E3001, 0x7D0E300D, '2019-02-10 00:00:00') /* Remoran Sand Stalker */;
+VALUES (0x7D0E3001, 0x7D0E3002, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D0E3001, 0x7D0E3003, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D0E3001, 0x7D0E3004, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7D0E3001, 0x7D0E3005, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7D0E3001, 0x7D0E3006, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7D0E3001, 0x7D0E3007, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7D0E3001, 0x7D0E3008, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D0E3001, 0x7D0E3009, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7D0E3001, 0x7D0E300A, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D0E3001, 0x7D0E300B, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7D0E3001, 0x7D0E300C, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7D0E3001, 0x7D0E300D, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0E3002, 31915, 0xD0E30005, 14.87349, 111.6527, 18.09221, -0.8253663, 0, 0, -0.5645977,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */

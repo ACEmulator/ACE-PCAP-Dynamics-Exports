@@ -5,11 +5,11 @@ VALUES (0x7A6A4001,  1154, 0xA6A40006, 17.55936, 139.2426, 115.8747, -0.6980821,
 /* @teleloc 0xA6A40006 [17.559360 139.242600 115.874700] -0.698082 0.000000 0.000000 -0.716018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6A4001, 0x7A6A4002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A6A4001, 0x7A6A4003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A6A4001, 0x7A6A4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A6A4001, 0x7A6A4005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A6A4001, 0x7A6A4006, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7A6A4001, 0x7A6A4002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A6A4001, 0x7A6A4003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A6A4001, 0x7A6A4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A6A4001, 0x7A6A4005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A6A4001, 0x7A6A4006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6A4002,  7128, 0xA6A40006, 17.55936, 139.2426, 115.8747, -0.6980821, 0, 0, -0.7160177,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

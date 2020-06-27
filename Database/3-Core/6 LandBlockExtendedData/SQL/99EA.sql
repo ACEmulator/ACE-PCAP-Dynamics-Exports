@@ -5,35 +5,35 @@ VALUES (0x799EA001,  1154, 0x99EA0011, 61.06276, 12.97993, 88.90726, 0.930801, 0
 /* @teleloc 0x99EA0011 [61.062760 12.979930 88.907260] 0.930801 0.000000 0.000000 -0.365526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EA001, 0x799EA002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x799EA001, 0x799EA003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x799EA001, 0x799EA004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x799EA001, 0x799EA006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x799EA001, 0x799EA00A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x799EA001, 0x799EA00B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x799EA001, 0x799EA00C, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x799EA001, 0x799EA00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x799EA001, 0x799EA00E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x799EA001, 0x799EA00F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x799EA001, 0x799EA010, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x799EA001, 0x799EA011, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA012, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA013, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA014, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA015, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA016, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x799EA001, 0x799EA017, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x799EA001, 0x799EA018, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799EA001, 0x799EA019, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x799EA001, 0x799EA01A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799EA001, 0x799EA01B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x799EA001, 0x799EA01C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x799EA001, 0x799EA01D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x799EA001, 0x799EA01E, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x799EA001, 0x799EA002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x799EA001, 0x799EA003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x799EA001, 0x799EA004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x799EA001, 0x799EA006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x799EA001, 0x799EA00A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x799EA001, 0x799EA00B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x799EA001, 0x799EA00C, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x799EA001, 0x799EA00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x799EA001, 0x799EA00E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x799EA001, 0x799EA00F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x799EA001, 0x799EA010, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x799EA001, 0x799EA011, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA012, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA013, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA014, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA015, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x799EA001, 0x799EA017, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799EA001, 0x799EA018, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EA001, 0x799EA019, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799EA001, 0x799EA01A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EA001, 0x799EA01B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x799EA001, 0x799EA01C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x799EA001, 0x799EA01D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x799EA001, 0x799EA01E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EA002,  7994, 0x99EA0011, 61.06276, 12.97993, 88.90726, 0.930801, 0, 0, -0.3655263,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -156,7 +156,7 @@ VALUES (0x799EA01F,  1542, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-
 /* @teleloc 0x99EA0021 [118.044100 22.449480 99.370160] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EA01F, 0x799EA020, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x799EA01F, 0x799EA020, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EA020,  4380, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

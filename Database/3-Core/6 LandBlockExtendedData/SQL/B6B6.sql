@@ -5,12 +5,12 @@ VALUES (0x7B6B6001,  1154, 0xB6B6000C, 31.0897, 76.69, 110.3889, 0.06371371, 0, 
 /* @teleloc 0xB6B6000C [31.089700 76.690000 110.388900] 0.063714 0.000000 0.000000 -0.997968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6B6001, 0x7B6B6002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B6B6001, 0x7B6B6003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6B6001, 0x7B6B6004, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B6B6001, 0x7B6B6005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6B6001, 0x7B6B6006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6B6001, 0x7B6B6007, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B6B6001, 0x7B6B6002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B6B6001, 0x7B6B6003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6B6001, 0x7B6B6004, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B6B6001, 0x7B6B6005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6B6001, 0x7B6B6006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6B6001, 0x7B6B6007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6B6002,     6, 0xB6B6000C, 31.0897, 76.69, 110.3889, 0.06371371, 0, 0, -0.9979682,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

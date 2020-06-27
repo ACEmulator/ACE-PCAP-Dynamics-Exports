@@ -5,11 +5,11 @@ VALUES (0x75FDF001,  1154, 0x5FDF0029, 130.8802, 18.98269, 74.73367, 0.9396926, 
 /* @teleloc 0x5FDF0029 [130.880200 18.982690 74.733670] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FDF001, 0x75FDF002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75FDF001, 0x75FDF003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75FDF001, 0x75FDF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75FDF001, 0x75FDF005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75FDF001, 0x75FDF006, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x75FDF001, 0x75FDF002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75FDF001, 0x75FDF003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x75FDF001, 0x75FDF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75FDF001, 0x75FDF005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75FDF001, 0x75FDF006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FDF002, 37098, 0x5FDF0029, 130.8802, 18.98269, 74.73367, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

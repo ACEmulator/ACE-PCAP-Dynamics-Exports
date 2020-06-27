@@ -5,12 +5,12 @@ VALUES (0x7C2B3001,  1154, 0xC2B30003, 4.890649, 54.81778, 323.0243, -0.7660444,
 /* @teleloc 0xC2B30003 [4.890649 54.817780 323.024300] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2B3001, 0x7C2B3002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B3001, 0x7C2B3003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B3001, 0x7C2B3004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C2B3001, 0x7C2B3005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C2B3001, 0x7C2B3006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C2B3001, 0x7C2B3007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C2B3001, 0x7C2B3002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B3001, 0x7C2B3003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B3001, 0x7C2B3004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C2B3001, 0x7C2B3005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C2B3001, 0x7C2B3006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C2B3001, 0x7C2B3007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2B3002,  9400, 0xC2B30003, 4.890649, 54.81778, 323.0243, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -41,7 +41,7 @@ VALUES (0x7C2B3008,  1542, 0xC2B3000F, 42.61066, 151.4197, 305.2959, 0.9990482, 
 /* @teleloc 0xC2B3000F [42.610660 151.419700 305.295900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2B3008, 0x7C2B3009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C2B3008, 0x7C2B3009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2B3009,  4179, 0xC2B3000F, 42.61066, 151.4197, 305.2959, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -509,46 +509,46 @@ VALUES (0x78EA107F,  1542, 0x8EA10014, 48.28257, 90.18924, 92.96343, 0.1317415, 
 /* @teleloc 0x8EA10014 [48.282570 90.189240 92.963430] 0.131742 0.000000 0.000000 -0.991284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EA107F, 0x78EA1080, '2019-02-10 00:00:00') /* Trimmed Cloak */
-     , (0x78EA107F, 0x78EA1081, '2019-02-10 00:00:00') /* Ken */
-     , (0x78EA107F, 0x78EA1082, '2019-02-10 00:00:00') /* Electric Compound Bow */
-     , (0x78EA107F, 0x78EA1083, '2019-02-10 00:00:00') /* Alduressa Boots */
-     , (0x78EA107F, 0x78EA1084, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78EA107F, 0x78EA1085, '2019-02-10 00:00:00') /* Alduressa Coat */
-     , (0x78EA107F, 0x78EA1086, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78EA107F, 0x78EA1087, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78EA107F, 0x78EA1088, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x78EA107F, 0x78EA1089, '2019-02-10 00:00:00') /* Pack T'thuun */
-     , (0x78EA107F, 0x78EA108A, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA108B, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA108C, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA108D, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA108E, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA108F, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA1090, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA1091, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78EA107F, 0x78EA1092, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78EA107F, 0x78EA1093, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x78EA107F, 0x78EA1094, '2019-02-10 00:00:00') /* Honeyed Life Mead */
-     , (0x78EA107F, 0x78EA1095, '2019-02-10 00:00:00') /* Gladiator Diemos Statue */
-     , (0x78EA107F, 0x78EA1096, '2019-02-10 00:00:00') /* Pack Grael */
-     , (0x78EA107F, 0x78EA1097, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen */
-     , (0x78EA107F, 0x78EA1098, '2019-02-10 00:00:00') /* Pack Pumpkin Lord */
-     , (0x78EA107F, 0x78EA1099, '2019-02-10 00:00:00') /* Wandering Ghost */
-     , (0x78EA107F, 0x78EA109A, '2019-02-10 00:00:00') /* Pack Gaerlan */
-     , (0x78EA107F, 0x78EA109B, '2019-02-10 00:00:00') /* Pack Martine */
-     , (0x78EA107F, 0x78EA109C, '2019-02-10 00:00:00') /* Insidious Monouga Idol */
-     , (0x78EA107F, 0x78EA109D, '2019-02-10 00:00:00') /* Rare Pink Pack Idol */
-     , (0x78EA107F, 0x78EA109E, '2019-02-10 00:00:00') /* Rare Red Pack Idol */
-     , (0x78EA107F, 0x78EA109F, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x78EA107F, 0x78EA10A0, '2019-02-10 00:00:00') /* Tipped Pack Cow */
-     , (0x78EA107F, 0x78EA10A1, '2019-02-10 00:00:00') /* Abominable Pack Snowman */
-     , (0x78EA107F, 0x78EA10A2, '2019-02-10 00:00:00') /* Pack Aerbax */
-     , (0x78EA107F, 0x78EA10A3, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x78EA107F, 0x78EA10A4, '2019-02-10 00:00:00') /* Pack Scold */
-     , (0x78EA107F, 0x78EA10A5, '2019-02-10 00:00:00') /* Pack Levistras */
-     , (0x78EA107F, 0x78EA10A6, '2019-02-10 00:00:00') /* Rare Pack T'thuun */
-     , (0x78EA107F, 0x78EA10A7, '2019-02-10 00:00:00') /* Small Shadow Statue of the Hopeslayer */;
+VALUES (0x78EA107F, 0x78EA1080, '2019-02-10 00:00:00') /* Trimmed Cloak (44856) */
+     , (0x78EA107F, 0x78EA1081, '2019-02-10 00:00:00') /* Ken (327) */
+     , (0x78EA107F, 0x78EA1082, '2019-02-10 00:00:00') /* Electric Compound Bow (31801) */
+     , (0x78EA107F, 0x78EA1083, '2019-02-10 00:00:00') /* Alduressa Boots (30950) */
+     , (0x78EA107F, 0x78EA1084, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78EA107F, 0x78EA1085, '2019-02-10 00:00:00') /* Alduressa Coat (28629) */
+     , (0x78EA107F, 0x78EA1086, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78EA107F, 0x78EA1087, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78EA107F, 0x78EA1088, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x78EA107F, 0x78EA1089, '2019-02-10 00:00:00') /* Pack T'thuun (39369) */
+     , (0x78EA107F, 0x78EA108A, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA108B, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA108C, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA108D, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA108E, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA108F, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA1090, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA1091, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78EA107F, 0x78EA1092, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78EA107F, 0x78EA1093, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x78EA107F, 0x78EA1094, '2019-02-10 00:00:00') /* Honeyed Life Mead (52700) */
+     , (0x78EA107F, 0x78EA1095, '2019-02-10 00:00:00') /* Gladiator Diemos Statue (35807) */
+     , (0x78EA107F, 0x78EA1096, '2019-02-10 00:00:00') /* Pack Grael (33802) */
+     , (0x78EA107F, 0x78EA1097, '2019-02-10 00:00:00') /* Pack Ancient Olthoi Queen (29922) */
+     , (0x78EA107F, 0x78EA1098, '2019-02-10 00:00:00') /* Pack Pumpkin Lord (32206) */
+     , (0x78EA107F, 0x78EA1099, '2019-02-10 00:00:00') /* Wandering Ghost (36450) */
+     , (0x78EA107F, 0x78EA109A, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
+     , (0x78EA107F, 0x78EA109B, '2019-02-10 00:00:00') /* Pack Martine (29921) */
+     , (0x78EA107F, 0x78EA109C, '2019-02-10 00:00:00') /* Insidious Monouga Idol (24844) */
+     , (0x78EA107F, 0x78EA109D, '2019-02-10 00:00:00') /* Rare Pink Pack Idol (32794) */
+     , (0x78EA107F, 0x78EA109E, '2019-02-10 00:00:00') /* Rare Red Pack Idol (32793) */
+     , (0x78EA107F, 0x78EA109F, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x78EA107F, 0x78EA10A0, '2019-02-10 00:00:00') /* Tipped Pack Cow (33965) */
+     , (0x78EA107F, 0x78EA10A1, '2019-02-10 00:00:00') /* Abominable Pack Snowman (34407) */
+     , (0x78EA107F, 0x78EA10A2, '2019-02-10 00:00:00') /* Pack Aerbax (37515) */
+     , (0x78EA107F, 0x78EA10A3, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x78EA107F, 0x78EA10A4, '2019-02-10 00:00:00') /* Pack Scold (34406) */
+     , (0x78EA107F, 0x78EA10A5, '2019-02-10 00:00:00') /* Pack Levistras (29920) */
+     , (0x78EA107F, 0x78EA10A6, '2019-02-10 00:00:00') /* Rare Pack T'thuun (39370) */
+     , (0x78EA107F, 0x78EA10A7, '2019-02-10 00:00:00') /* Small Shadow Statue of the Hopeslayer (34573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EA1080, 44856, 0x8EA10014, 48.28257, 90.18924, 92.96343, 0.1317415, 0, 0, -0.9912841,  True, '2019-02-10 00:00:00'); /* Trimmed Cloak */

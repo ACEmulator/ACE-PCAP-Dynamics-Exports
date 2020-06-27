@@ -5,9 +5,9 @@ VALUES (0x722BF001,  1154, 0x22BF0102, 6.0016, 109.056, 78.79949, -0.202933, 0, 
 /* @teleloc 0x22BF0102 [6.001600 109.056000 78.799490] -0.202933 0.000000 0.000000 -0.979193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BF001, 0x722BF002, '2019-02-10 00:00:00') /* Olthoi Harvester */
-     , (0x722BF001, 0x722BF003, '2019-02-10 00:00:00') /* Olthoi Harvester */
-     , (0x722BF001, 0x722BF004, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x722BF001, 0x722BF002, '2019-02-10 00:00:00') /* Olthoi Harvester (11480) */
+     , (0x722BF001, 0x722BF003, '2019-02-10 00:00:00') /* Olthoi Harvester (11480) */
+     , (0x722BF001, 0x722BF004, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BF002, 11480, 0x22BF0102, 6.0016, 109.056, 78.79949, -0.202933, 0, 0, -0.979193,  True, '2019-02-10 00:00:00'); /* Olthoi Harvester */

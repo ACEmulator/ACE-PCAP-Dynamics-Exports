@@ -5,24 +5,24 @@ VALUES (0x7B4B3001,  1154, 0xB4B3000A, 46.21555, 35.87519, 120.0071, 0.2588191, 
 /* @teleloc 0xB4B3000A [46.215550 35.875190 120.007100] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B3001, 0x7B4B3002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B4B3001, 0x7B4B3003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4B3001, 0x7B4B3004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B4B3001, 0x7B4B3005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B4B3001, 0x7B4B3006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4B3001, 0x7B4B3007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4B3001, 0x7B4B3008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4B3001, 0x7B4B3009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B4B3001, 0x7B4B300A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B4B3001, 0x7B4B300B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B4B3001, 0x7B4B300C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B3001, 0x7B4B300D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B3001, 0x7B4B300E, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7B4B3001, 0x7B4B300F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B3001, 0x7B4B3010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B3001, 0x7B4B3011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B3001, 0x7B4B3012, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B4B3001, 0x7B4B3013, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7B4B3001, 0x7B4B3002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B4B3001, 0x7B4B3003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4B3001, 0x7B4B3004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B4B3001, 0x7B4B3005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B4B3001, 0x7B4B3006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4B3001, 0x7B4B3007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4B3001, 0x7B4B3008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4B3001, 0x7B4B3009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B4B3001, 0x7B4B300A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B4B3001, 0x7B4B300B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B4B3001, 0x7B4B300C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B3001, 0x7B4B300D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B3001, 0x7B4B300E, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7B4B3001, 0x7B4B300F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B3001, 0x7B4B3010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B3001, 0x7B4B3011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B3001, 0x7B4B3012, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B4B3001, 0x7B4B3013, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B3002,   937, 0xB4B3000A, 46.21555, 35.87519, 120.0071, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -101,8 +101,8 @@ VALUES (0x7B4B3014,  1542, 0xB4B30023, 114.7529, 60.29753, 115.1112, 1, 0, 0, 0,
 /* @teleloc 0xB4B30023 [114.752900 60.297530 115.111200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B3014, 0x7B4B3015, '2019-02-10 00:00:00') /* Meat */
-     , (0x7B4B3014, 0x7B4B3016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B4B3014, 0x7B4B3015, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7B4B3014, 0x7B4B3016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B3015,   265, 0xB4B30023, 114.7529, 60.29753, 115.1112, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

@@ -5,15 +5,15 @@ VALUES (0x7CD61001,  1154, 0xCD610036, 146.7514, 128.297, 5.9, -0.755906, 0, 0, 
 /* @teleloc 0xCD610036 [146.751400 128.297000 5.900000] -0.755906 0.000000 0.000000 -0.654680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD61001, 0x7CD61002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CD61001, 0x7CD61003, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CD61001, 0x7CD61004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD61001, 0x7CD61005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CD61001, 0x7CD61006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD61001, 0x7CD61007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD61001, 0x7CD61008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD61001, 0x7CD61009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD61001, 0x7CD6100A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7CD61001, 0x7CD61002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CD61001, 0x7CD61003, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CD61001, 0x7CD61004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD61001, 0x7CD61005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CD61001, 0x7CD61006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD61001, 0x7CD61007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD61001, 0x7CD61008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD61001, 0x7CD61009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD61001, 0x7CD6100A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD61002, 22010, 0xCD610036, 146.7514, 128.297, 5.9, -0.755906, 0, 0, -0.6546801,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

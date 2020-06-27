@@ -5,10 +5,10 @@ VALUES (0x7DE23001,  1154, 0xDE230005, 9.019176, 106.3796, -0.9000001, 0.939069,
 /* @teleloc 0xDE230005 [9.019176 106.379600 -0.900000] 0.939069 0.000000 0.000000 -0.343729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE23001, 0x7DE23002, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7DE23001, 0x7DE23003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DE23001, 0x7DE23004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DE23001, 0x7DE23005, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7DE23001, 0x7DE23002, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7DE23001, 0x7DE23003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DE23001, 0x7DE23004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DE23001, 0x7DE23005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE23002,  2586, 0xDE230005, 9.019176, 106.3796, -0.9000001, 0.939069, 0, 0, -0.3437286,  True, '2019-02-10 00:00:00'); /* Sata Sclavus */

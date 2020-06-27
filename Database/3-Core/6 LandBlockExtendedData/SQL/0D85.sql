@@ -5,25 +5,25 @@ VALUES (0x70D85001,  1154, 0x0D850028, 104.0033, 177.7942, 14.1052, 0.7071068, 0
 /* @teleloc 0x0D850028 [104.003300 177.794200 14.105200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D85001, 0x70D85002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70D85001, 0x70D85003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D85001, 0x70D85004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D85001, 0x70D85005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70D85001, 0x70D85006, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70D85001, 0x70D85007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70D85001, 0x70D85008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D85001, 0x70D85009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70D85001, 0x70D8500A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70D85001, 0x70D8500B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70D85001, 0x70D8500C, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70D85001, 0x70D8500D, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70D85001, 0x70D8500E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x70D85001, 0x70D8500F, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70D85001, 0x70D85010, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x70D85001, 0x70D85011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70D85001, 0x70D85012, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70D85001, 0x70D85013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70D85001, 0x70D85014, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x70D85001, 0x70D85002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70D85001, 0x70D85003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D85001, 0x70D85004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D85001, 0x70D85005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70D85001, 0x70D85006, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70D85001, 0x70D85007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70D85001, 0x70D85008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D85001, 0x70D85009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70D85001, 0x70D8500A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70D85001, 0x70D8500B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70D85001, 0x70D8500C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70D85001, 0x70D8500D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70D85001, 0x70D8500E, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x70D85001, 0x70D8500F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70D85001, 0x70D85010, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x70D85001, 0x70D85011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70D85001, 0x70D85012, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70D85001, 0x70D85013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70D85001, 0x70D85014, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D85002, 36819, 0x0D850028, 104.0033, 177.7942, 14.1052, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -106,8 +106,8 @@ VALUES (0x70D85015,  1542, 0x0D850028, 108.1107, 175.5075, 14.1052, -4.371139E-0
 /* @teleloc 0x0D850028 [108.110700 175.507500 14.105200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D85015, 0x70D85016, '2019-02-10 00:00:00') /* Bones */
-     , (0x70D85015, 0x70D85017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70D85015, 0x70D85016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70D85015, 0x70D85017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D85016,  4380, 0x0D850028, 108.1107, 175.5075, 14.1052, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

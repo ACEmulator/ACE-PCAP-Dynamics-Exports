@@ -5,15 +5,15 @@ VALUES (0x7A43A001,  1154, 0xA43A0033, 149.8258, 55.11179, 35.9919, -0.1736482, 
 /* @teleloc 0xA43A0033 [149.825800 55.111790 35.991900] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A43A001, 0x7A43A002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A43A001, 0x7A43A003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A43A001, 0x7A43A004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A43A001, 0x7A43A005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A43A001, 0x7A43A006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A43A001, 0x7A43A007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A43A001, 0x7A43A008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A43A001, 0x7A43A009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A43A001, 0x7A43A00A, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A43A001, 0x7A43A002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A43A001, 0x7A43A003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A43A001, 0x7A43A004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A43A001, 0x7A43A005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A43A001, 0x7A43A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A43A001, 0x7A43A007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A43A001, 0x7A43A008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A43A001, 0x7A43A009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A43A001, 0x7A43A00A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A43A002,  2575, 0xA43A0033, 149.8258, 55.11179, 35.9919, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

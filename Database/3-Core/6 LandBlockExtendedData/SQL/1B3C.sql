@@ -5,15 +5,15 @@ VALUES (0x71B3C001,  1154, 0x1B3C0032, 164.5418, 26.76277, 33.83228, 0.9238795, 
 /* @teleloc 0x1B3C0032 [164.541800 26.762770 33.832280] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B3C001, 0x71B3C002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B3C001, 0x71B3C003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71B3C001, 0x71B3C004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71B3C001, 0x71B3C005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3C001, 0x71B3C006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71B3C001, 0x71B3C007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71B3C001, 0x71B3C008, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71B3C001, 0x71B3C009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71B3C001, 0x71B3C00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71B3C001, 0x71B3C002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B3C001, 0x71B3C003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71B3C001, 0x71B3C004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71B3C001, 0x71B3C005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3C001, 0x71B3C006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71B3C001, 0x71B3C007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71B3C001, 0x71B3C008, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71B3C001, 0x71B3C009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71B3C001, 0x71B3C00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B3C002, 36822, 0x1B3C0032, 164.5418, 26.76277, 33.83228, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -56,8 +56,8 @@ VALUES (0x71B3C00B,  1542, 0x1B3C0032, 165.0661, 25.44936, 34.00293, 1, 0, 0, 0,
 /* @teleloc 0x1B3C0032 [165.066100 25.449360 34.002930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B3C00B, 0x71B3C00C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71B3C00B, 0x71B3C00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B3C00B, 0x71B3C00C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71B3C00B, 0x71B3C00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B3C00C,  4179, 0x1B3C0032, 165.0661, 25.44936, 34.00293, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

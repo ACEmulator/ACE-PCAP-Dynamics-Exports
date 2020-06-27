@@ -5,11 +5,11 @@ VALUES (0x7B14C001,  1154, 0xB14C0018, 59.74147, 191.0933, 21.02654, -0.8180811,
 /* @teleloc 0xB14C0018 [59.741470 191.093300 21.026540] -0.818081 0.000000 0.000000 -0.575103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B14C001, 0x7B14C002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B14C001, 0x7B14C003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B14C001, 0x7B14C004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7B14C001, 0x7B14C005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B14C001, 0x7B14C006, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7B14C001, 0x7B14C002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B14C001, 0x7B14C003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B14C001, 0x7B14C004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7B14C001, 0x7B14C005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B14C001, 0x7B14C006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B14C002,  1758, 0xB14C0018, 59.74147, 191.0933, 21.02654, -0.8180811, 0, 0, -0.5751029,  True, '2019-02-10 00:00:00'); /* Shadow */

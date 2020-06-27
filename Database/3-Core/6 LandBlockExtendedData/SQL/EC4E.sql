@@ -5,16 +5,16 @@ VALUES (0x7EC4E001,  1154, 0xEC4E0011, 65.17143, 23.94571, 0.004949987, 0.464564
 /* @teleloc 0xEC4E0011 [65.171430 23.945710 0.004950] 0.464565 0.000000 0.000000 -0.885539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC4E001, 0x7EC4E002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7EC4E001, 0x7EC4E003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7EC4E001, 0x7EC4E004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7EC4E001, 0x7EC4E005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EC4E001, 0x7EC4E006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EC4E001, 0x7EC4E007, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EC4E001, 0x7EC4E008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7EC4E001, 0x7EC4E009, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7EC4E001, 0x7EC4E00A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7EC4E001, 0x7EC4E00B, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7EC4E001, 0x7EC4E002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7EC4E001, 0x7EC4E003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7EC4E001, 0x7EC4E004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7EC4E001, 0x7EC4E005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EC4E001, 0x7EC4E006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EC4E001, 0x7EC4E007, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EC4E001, 0x7EC4E008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7EC4E001, 0x7EC4E009, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7EC4E001, 0x7EC4E00A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7EC4E001, 0x7EC4E00B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC4E002,     8, 0xEC4E0011, 65.17143, 23.94571, 0.004949987, 0.4645647, 0, 0, -0.8855392,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

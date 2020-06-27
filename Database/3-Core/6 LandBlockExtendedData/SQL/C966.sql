@@ -5,9 +5,9 @@ VALUES (0x7C966001,  1154, 0xC9660039, 168.002, 19.89145, 37.99984, -0.0103874, 
 /* @teleloc 0xC9660039 [168.002000 19.891450 37.999840] -0.010387 0.000000 0.000000 -0.999946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C966001, 0x7C966002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C966001, 0x7C966003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C966001, 0x7C966004, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7C966001, 0x7C966002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C966001, 0x7C966003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C966001, 0x7C966004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C966002,  1989, 0xC9660039, 168.002, 19.89145, 37.99984, -0.0103874, 0, 0, -0.9999461,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

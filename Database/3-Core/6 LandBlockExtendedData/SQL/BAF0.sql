@@ -5,27 +5,27 @@ VALUES (0x7BAF0001,  1154, 0xBAF00039, 181.0695, 22.62214, 280.3658, 0.9993677, 
 /* @teleloc 0xBAF00039 [181.069500 22.622140 280.365800] 0.999368 0.000000 0.000000 -0.035557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAF0001, 0x7BAF0002, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAF0001, 0x7BAF0003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF0001, 0x7BAF0004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF0001, 0x7BAF0005, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAF0001, 0x7BAF0006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF0001, 0x7BAF0007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF0001, 0x7BAF0008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BAF0001, 0x7BAF0009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAF0001, 0x7BAF000A, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BAF0001, 0x7BAF000B, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAF0001, 0x7BAF000C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BAF0001, 0x7BAF000D, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAF0001, 0x7BAF000E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAF0001, 0x7BAF000F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BAF0001, 0x7BAF0010, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAF0001, 0x7BAF0011, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAF0001, 0x7BAF0012, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BAF0001, 0x7BAF0013, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BAF0001, 0x7BAF0014, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAF0001, 0x7BAF0015, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7BAF0001, 0x7BAF0016, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */;
+VALUES (0x7BAF0001, 0x7BAF0002, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAF0001, 0x7BAF0003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF0001, 0x7BAF0004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF0001, 0x7BAF0005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAF0001, 0x7BAF0006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF0001, 0x7BAF0007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF0001, 0x7BAF0008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAF0001, 0x7BAF0009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAF0001, 0x7BAF000A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAF0001, 0x7BAF000B, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAF0001, 0x7BAF000C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAF0001, 0x7BAF000D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAF0001, 0x7BAF000E, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAF0001, 0x7BAF000F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BAF0001, 0x7BAF0010, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAF0001, 0x7BAF0011, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAF0001, 0x7BAF0012, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BAF0001, 0x7BAF0013, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BAF0001, 0x7BAF0014, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAF0001, 0x7BAF0015, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7BAF0001, 0x7BAF0016, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF0002, 28048, 0xBAF00039, 181.0695, 22.62214, 280.3658, 0.9993677, 0, 0, -0.03555695,  True, '2019-02-10 00:00:00'); /* Specter */

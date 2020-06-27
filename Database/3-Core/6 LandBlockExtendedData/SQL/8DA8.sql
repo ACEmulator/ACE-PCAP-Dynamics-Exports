@@ -5,12 +5,12 @@ VALUES (0x78DA8001,  1154, 0x8DA80001, 3.464494, 4.501273, 74.38184, 0.5054112, 
 /* @teleloc 0x8DA80001 [3.464494 4.501273 74.381840] 0.505411 0.000000 0.000000 -0.862879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DA8001, 0x78DA8002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DA8001, 0x78DA8003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78DA8001, 0x78DA8004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78DA8001, 0x78DA8005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78DA8001, 0x78DA8006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DA8001, 0x78DA8007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x78DA8001, 0x78DA8002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DA8001, 0x78DA8003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78DA8001, 0x78DA8004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78DA8001, 0x78DA8005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78DA8001, 0x78DA8006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DA8001, 0x78DA8007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DA8002,  1758, 0x8DA80001, 3.464494, 4.501273, 74.38184, 0.5054112, 0, 0, -0.8628786,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -41,7 +41,7 @@ VALUES (0x78DA8008,  1542, 0x8DA8000A, 35.92607, 28.88693, 75.05292, 0.5054112, 
 /* @teleloc 0x8DA8000A [35.926070 28.886930 75.052920] 0.505411 0.000000 0.000000 -0.862879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DA8008, 0x78DA8009, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x78DA8008, 0x78DA8009, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DA8009, 31686, 0x8DA8000A, 35.92607, 28.88693, 75.05292, 0.5054112, 0, 0, -0.8628786,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

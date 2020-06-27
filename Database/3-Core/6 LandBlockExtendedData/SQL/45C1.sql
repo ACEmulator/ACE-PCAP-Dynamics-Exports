@@ -5,22 +5,22 @@ VALUES (0x745C1001,  1154, 0x45C1001E, 78.88537, 140.3773, -0.8988001, -4.371139
 /* @teleloc 0x45C1001E [78.885370 140.377300 -0.898800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745C1001, 0x745C1002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x745C1001, 0x745C1003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x745C1001, 0x745C1004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x745C1001, 0x745C1005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x745C1001, 0x745C1006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x745C1001, 0x745C1007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x745C1001, 0x745C1008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x745C1001, 0x745C1009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x745C1001, 0x745C100A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x745C1001, 0x745C100B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x745C1001, 0x745C100C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x745C1001, 0x745C100D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x745C1001, 0x745C100E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x745C1001, 0x745C100F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x745C1001, 0x745C1010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745C1001, 0x745C1011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x745C1001, 0x745C1002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x745C1001, 0x745C1003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x745C1001, 0x745C1004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x745C1001, 0x745C1005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x745C1001, 0x745C1006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x745C1001, 0x745C1007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x745C1001, 0x745C1008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x745C1001, 0x745C1009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x745C1001, 0x745C100A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x745C1001, 0x745C100B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x745C1001, 0x745C100C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x745C1001, 0x745C100D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x745C1001, 0x745C100E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x745C1001, 0x745C100F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x745C1001, 0x745C1010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745C1001, 0x745C1011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745C1002,  7109, 0x45C1001E, 78.88537, 140.3773, -0.8988001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

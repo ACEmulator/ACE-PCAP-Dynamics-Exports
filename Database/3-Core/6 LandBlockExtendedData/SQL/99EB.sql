@@ -5,22 +5,22 @@ VALUES (0x799EB001,  1154, 0x99EB0019, 82.20463, 2.902747, 43.51441, 0.8660254, 
 /* @teleloc 0x99EB0019 [82.204630 2.902747 43.514410] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EB001, 0x799EB002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x799EB001, 0x799EB003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799EB001, 0x799EB004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799EB001, 0x799EB005, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x799EB001, 0x799EB006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x799EB001, 0x799EB007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x799EB001, 0x799EB008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799EB001, 0x799EB009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x799EB001, 0x799EB00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x799EB001, 0x799EB00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x799EB001, 0x799EB00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x799EB001, 0x799EB00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x799EB001, 0x799EB00E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x799EB001, 0x799EB00F, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x799EB001, 0x799EB010, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x799EB001, 0x799EB011, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x799EB001, 0x799EB002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x799EB001, 0x799EB003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799EB001, 0x799EB004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799EB001, 0x799EB005, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x799EB001, 0x799EB006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x799EB001, 0x799EB007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x799EB001, 0x799EB008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799EB001, 0x799EB009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799EB001, 0x799EB00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799EB001, 0x799EB00B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x799EB001, 0x799EB00C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x799EB001, 0x799EB00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x799EB001, 0x799EB00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799EB001, 0x799EB00F, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x799EB001, 0x799EB010, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x799EB001, 0x799EB011, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EB002,  7980, 0x99EB0019, 82.20463, 2.902747, 43.51441, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -91,7 +91,7 @@ VALUES (0x799EB012,  1542, 0x99EB002B, 138.6258, 62.01593, 38.66895, 1, 0, 0, 0,
 /* @teleloc 0x99EB002B [138.625800 62.015930 38.668950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EB012, 0x799EB013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x799EB012, 0x799EB013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EB013,  4179, 0x99EB002B, 138.6258, 62.01593, 38.66895, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

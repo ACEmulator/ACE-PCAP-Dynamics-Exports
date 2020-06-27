@@ -5,17 +5,17 @@ VALUES (0x7A02B001,  1154, 0xA02B0031, 156.893, 8.46844, 324.3787, 0.1762391, 0,
 /* @teleloc 0xA02B0031 [156.893000 8.468440 324.378700] 0.176239 0.000000 0.000000 0.984347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A02B001, 0x7A02B002, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A02B001, 0x7A02B003, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A02B001, 0x7A02B004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A02B001, 0x7A02B005, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A02B001, 0x7A02B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A02B001, 0x7A02B007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A02B001, 0x7A02B008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A02B001, 0x7A02B009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A02B001, 0x7A02B00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A02B001, 0x7A02B00B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A02B001, 0x7A02B00C, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7A02B001, 0x7A02B002, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A02B001, 0x7A02B003, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A02B001, 0x7A02B004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A02B001, 0x7A02B005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A02B001, 0x7A02B006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A02B001, 0x7A02B007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A02B001, 0x7A02B008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A02B001, 0x7A02B009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A02B001, 0x7A02B00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A02B001, 0x7A02B00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A02B001, 0x7A02B00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A02B002, 24943, 0xA02B0031, 156.893, 8.46844, 324.3787, 0.1762391, 0, 0, 0.9843474,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */

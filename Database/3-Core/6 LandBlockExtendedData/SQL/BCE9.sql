@@ -5,27 +5,27 @@ VALUES (0x7BCE9001,  1154, 0xBCE90009, 46.29708, 5.111404, 30.39182, 0.7372774, 
 /* @teleloc 0xBCE90009 [46.297080 5.111404 30.391820] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCE9001, 0x7BCE9002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCE9001, 0x7BCE9003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCE9001, 0x7BCE9004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BCE9001, 0x7BCE9005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BCE9001, 0x7BCE9006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BCE9001, 0x7BCE9007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BCE9001, 0x7BCE9008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BCE9001, 0x7BCE9009, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BCE9001, 0x7BCE900A, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BCE9001, 0x7BCE900B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BCE9001, 0x7BCE900C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BCE9001, 0x7BCE900D, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7BCE9001, 0x7BCE900E, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BCE9001, 0x7BCE900F, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BCE9001, 0x7BCE9010, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7BCE9001, 0x7BCE9011, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BCE9001, 0x7BCE9012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BCE9001, 0x7BCE9013, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BCE9001, 0x7BCE9014, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BCE9001, 0x7BCE9015, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BCE9001, 0x7BCE9016, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7BCE9001, 0x7BCE9002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCE9001, 0x7BCE9003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCE9001, 0x7BCE9004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BCE9001, 0x7BCE9005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BCE9001, 0x7BCE9006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BCE9001, 0x7BCE9007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BCE9001, 0x7BCE9008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BCE9001, 0x7BCE9009, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BCE9001, 0x7BCE900A, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BCE9001, 0x7BCE900B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BCE9001, 0x7BCE900C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BCE9001, 0x7BCE900D, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7BCE9001, 0x7BCE900E, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BCE9001, 0x7BCE900F, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BCE9001, 0x7BCE9010, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7BCE9001, 0x7BCE9011, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BCE9001, 0x7BCE9012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BCE9001, 0x7BCE9013, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BCE9001, 0x7BCE9014, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BCE9001, 0x7BCE9015, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BCE9001, 0x7BCE9016, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCE9002,  4255, 0xBCE90009, 46.29708, 5.111404, 30.39182, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -116,7 +116,7 @@ VALUES (0x7BCE9017,  1542, 0xBCE9003F, 187.6428, 157.3914, 20.7262, 1, 0, 0, 0, 
 /* @teleloc 0xBCE9003F [187.642800 157.391400 20.726200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCE9017, 0x7BCE9018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BCE9017, 0x7BCE9018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCE9018,  4179, 0xBCE9003F, 187.6428, 157.3914, 20.7262, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

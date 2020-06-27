@@ -5,17 +5,17 @@ VALUES (0x73446001,  1154, 0x3446003A, 171.8458, 29.40753, 25.34, -0.5651302, 0,
 /* @teleloc 0x3446003A [171.845800 29.407530 25.340000] -0.565130 0.000000 0.000000 -0.825002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73446001, 0x73446002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x73446001, 0x73446003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73446001, 0x73446004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73446001, 0x73446005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73446001, 0x73446006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73446001, 0x73446007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73446001, 0x73446008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73446001, 0x73446009, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73446001, 0x7344600A, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73446001, 0x7344600B, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73446001, 0x7344600C, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */;
+VALUES (0x73446001, 0x73446002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x73446001, 0x73446003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73446001, 0x73446004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73446001, 0x73446005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73446001, 0x73446006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73446001, 0x73446007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73446001, 0x73446008, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73446001, 0x73446009, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73446001, 0x7344600A, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73446001, 0x7344600B, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73446001, 0x7344600C, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73446002, 28553, 0x3446003A, 171.8458, 29.40753, 25.34, -0.5651302, 0, 0, -0.8250017,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
@@ -66,7 +66,7 @@ VALUES (0x7344600D,  1542, 0x34460025, 117.8, 110.3278, 30.72638, 1, 0, 0, 0, Fa
 /* @teleloc 0x34460025 [117.800000 110.327800 30.726380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7344600D, 0x7344600E, '2019-02-10 00:00:00') /* Portal to Kara */;
+VALUES (0x7344600D, 0x7344600E, '2019-02-10 00:00:00') /* Portal to Kara (42848) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7344600E, 42848, 0x34460025, 117.8, 110.3278, 30.72638, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Kara */

@@ -5,14 +5,14 @@ VALUES (0x79C1C001,  1154, 0x9C1C000F, 35.30054, 150.0262, 287.741, -0.929248, 0
 /* @teleloc 0x9C1C000F [35.300540 150.026200 287.741000] -0.929248 0.000000 0.000000 -0.369457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C1C001, 0x79C1C002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79C1C001, 0x79C1C003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79C1C001, 0x79C1C004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79C1C001, 0x79C1C005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79C1C001, 0x79C1C006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79C1C001, 0x79C1C007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79C1C001, 0x79C1C008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79C1C001, 0x79C1C009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x79C1C001, 0x79C1C002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79C1C001, 0x79C1C003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79C1C001, 0x79C1C004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79C1C001, 0x79C1C005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79C1C001, 0x79C1C006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79C1C001, 0x79C1C007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79C1C001, 0x79C1C008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79C1C001, 0x79C1C009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C1C002,   201, 0x9C1C000F, 35.30054, 150.0262, 287.741, -0.929248, 0, 0, -0.3694565,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -51,8 +51,8 @@ VALUES (0x79C1C00A,  1542, 0x9C1C0017, 62.8981, 161.8168, 278.8136, 1, 0, 0, 0, 
 /* @teleloc 0x9C1C0017 [62.898100 161.816800 278.813600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C1C00A, 0x79C1C00B, '2019-02-10 00:00:00') /* Bones */
-     , (0x79C1C00A, 0x79C1C00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79C1C00A, 0x79C1C00B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79C1C00A, 0x79C1C00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C1C00B,  4380, 0x9C1C0017, 62.8981, 161.8168, 278.8136, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,9 +5,9 @@ VALUES (0x7A39D001,  1154, 0xA39D0002, 20.64262, 40.63618, 82.67024, 0.9810393, 
 /* @teleloc 0xA39D0002 [20.642620 40.636180 82.670240] 0.981039 0.000000 0.000000 -0.193809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A39D001, 0x7A39D002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A39D001, 0x7A39D003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A39D001, 0x7A39D004, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7A39D001, 0x7A39D002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A39D001, 0x7A39D003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A39D001, 0x7A39D004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A39D002,  1762, 0xA39D0002, 20.64262, 40.63618, 82.67024, 0.9810393, 0, 0, -0.1938091,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

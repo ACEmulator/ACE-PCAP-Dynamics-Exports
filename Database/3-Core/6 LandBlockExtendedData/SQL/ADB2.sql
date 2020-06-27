@@ -17,20 +17,20 @@ VALUES (0x7ADB2003,  1154, 0xADB2001E, 76.93183, 136.9092, 27.90715, 0.9959976, 
 /* @teleloc 0xADB2001E [76.931830 136.909200 27.907150] 0.995998 0.000000 0.000000 -0.089380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB2003, 0x7ADB2004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ADB2003, 0x7ADB2005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB2003, 0x7ADB2006, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ADB2003, 0x7ADB2007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7ADB2003, 0x7ADB2008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB2003, 0x7ADB2009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB2003, 0x7ADB200A, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ADB2003, 0x7ADB200B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB2003, 0x7ADB200C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB2003, 0x7ADB200D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB2003, 0x7ADB200E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB2003, 0x7ADB200F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB2003, 0x7ADB2010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB2003, 0x7ADB2011, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7ADB2003, 0x7ADB2004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ADB2003, 0x7ADB2005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB2003, 0x7ADB2006, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ADB2003, 0x7ADB2007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7ADB2003, 0x7ADB2008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB2003, 0x7ADB2009, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB2003, 0x7ADB200A, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ADB2003, 0x7ADB200B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB2003, 0x7ADB200C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB2003, 0x7ADB200D, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB2003, 0x7ADB200E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB2003, 0x7ADB200F, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ADB2003, 0x7ADB2010, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB2003, 0x7ADB2011, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB2004, 19256, 0xADB2001E, 76.93183, 136.9092, 27.90715, 0.9959976, 0, 0, -0.08938012,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -93,14 +93,14 @@ VALUES (0x7ADB2012,  1542, 0xADB20005, 17.06347, 112.2804, 30.0057, 0.250856, 0,
 /* @teleloc 0xADB20005 [17.063470 112.280400 30.005700] 0.250856 0.000000 0.000000 0.968024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB2012, 0x7ADB2013, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB2012, 0x7ADB2014, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB2012, 0x7ADB2015, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7ADB2012, 0x7ADB2016, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7ADB2012, 0x7ADB2017, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7ADB2012, 0x7ADB2018, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB2012, 0x7ADB2019, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB2012, 0x7ADB201A, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7ADB2012, 0x7ADB2013, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7ADB2012, 0x7ADB2014, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7ADB2012, 0x7ADB2015, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7ADB2012, 0x7ADB2016, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7ADB2012, 0x7ADB2017, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7ADB2012, 0x7ADB2018, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7ADB2012, 0x7ADB2019, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7ADB2012, 0x7ADB201A, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB2013,    14, 0xADB20005, 17.06347, 112.2804, 30.0057, 0.250856, 0, 0, 0.968024,  True, '2019-02-10 00:00:00'); /* Cow */

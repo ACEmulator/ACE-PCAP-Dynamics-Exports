@@ -13,17 +13,17 @@ VALUES (0x75ED2002,  1154, 0x5ED20006, 19.5585, 135.365, 22.5671, -0.9883084, 0,
 /* @teleloc 0x5ED20006 [19.558500 135.365000 22.567100] -0.988308 0.000000 0.000000 0.152468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ED2002, 0x75ED2003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75ED2002, 0x75ED2004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75ED2002, 0x75ED2005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x75ED2002, 0x75ED2006, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x75ED2002, 0x75ED2007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75ED2002, 0x75ED2008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75ED2002, 0x75ED2009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75ED2002, 0x75ED200A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ED2002, 0x75ED200B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ED2002, 0x75ED200C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ED2002, 0x75ED200D, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x75ED2002, 0x75ED2003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75ED2002, 0x75ED2004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75ED2002, 0x75ED2005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x75ED2002, 0x75ED2006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x75ED2002, 0x75ED2007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75ED2002, 0x75ED2008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75ED2002, 0x75ED2009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75ED2002, 0x75ED200A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ED2002, 0x75ED200B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ED2002, 0x75ED200C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ED2002, 0x75ED200D, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ED2003, 28657, 0x5ED20006, 19.5585, 135.365, 22.5671, -0.9883084, 0, 0, 0.1524681,  True, '2019-02-10 00:00:00'); /* Viamontian Man-at-Arms */

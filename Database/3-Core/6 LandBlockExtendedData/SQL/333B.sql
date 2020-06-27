@@ -5,20 +5,20 @@ VALUES (0x7333B001,  1154, 0x333B0002, 8.509268, 32.70216, 146.7297, 1, 0, 0, 0,
 /* @teleloc 0x333B0002 [8.509268 32.702160 146.729700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7333B001, 0x7333B002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7333B001, 0x7333B003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7333B001, 0x7333B004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7333B001, 0x7333B005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7333B001, 0x7333B006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7333B001, 0x7333B007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7333B001, 0x7333B008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7333B001, 0x7333B009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7333B001, 0x7333B00A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7333B001, 0x7333B00B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7333B001, 0x7333B00C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7333B001, 0x7333B00D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7333B001, 0x7333B00E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7333B001, 0x7333B00F, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7333B001, 0x7333B002, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7333B001, 0x7333B003, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7333B001, 0x7333B004, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7333B001, 0x7333B005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7333B001, 0x7333B006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7333B001, 0x7333B007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7333B001, 0x7333B008, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7333B001, 0x7333B009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7333B001, 0x7333B00A, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7333B001, 0x7333B00B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7333B001, 0x7333B00C, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7333B001, 0x7333B00D, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7333B001, 0x7333B00E, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7333B001, 0x7333B00F, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7333B002, 24282, 0x333B0002, 8.509268, 32.70216, 146.7297, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

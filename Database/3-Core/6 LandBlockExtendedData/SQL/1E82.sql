@@ -5,11 +5,11 @@ VALUES (0x71E82001,  1154, 0x1E82003E, 172.5563, 127.3115, 145.7704, -0.5558304,
 /* @teleloc 0x1E82003E [172.556300 127.311500 145.770400] -0.555830 0.000000 0.000000 -0.831296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E82001, 0x71E82002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E82001, 0x71E82003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E82001, 0x71E82004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71E82001, 0x71E82005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71E82001, 0x71E82006, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x71E82001, 0x71E82002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E82001, 0x71E82003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E82001, 0x71E82004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71E82001, 0x71E82005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71E82001, 0x71E82006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E82002, 23482, 0x1E82003E, 172.5563, 127.3115, 145.7704, -0.5558304, 0, 0, -0.8312957,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -36,7 +36,7 @@ VALUES (0x71E82007,  1542, 0x1E820015, 54.22049, 100.5685, 83.06903, -0.1344156,
 /* @teleloc 0x1E820015 [54.220490 100.568500 83.069030] -0.134416 0.000000 0.000000 -0.990925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E82007, 0x71E82008, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x71E82007, 0x71E82008, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E82008,  8648, 0x1E820015, 54.22049, 100.5685, 83.06903, -0.1344156, 0, 0, -0.990925,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

@@ -5,28 +5,28 @@ VALUES (0x7FA81001,  1154, 0xFA810008, 0.7568665, 168.0647, 13.99901, 0.9972783,
 /* @teleloc 0xFA810008 [0.756867 168.064700 13.999010] 0.997278 0.000000 0.000000 -0.073729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA81001, 0x7FA81002, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FA81001, 0x7FA81003, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA81001, 0x7FA81004, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA81001, 0x7FA81005, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA81001, 0x7FA81006, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA81001, 0x7FA81007, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA81001, 0x7FA81008, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA81001, 0x7FA81009, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA81001, 0x7FA8100A, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA8100B, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA8100C, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA8100D, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA8100E, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA8100F, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA81010, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FA81001, 0x7FA81011, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA81001, 0x7FA81012, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA81001, 0x7FA81013, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA81001, 0x7FA81014, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA81001, 0x7FA81015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA81001, 0x7FA81016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA81001, 0x7FA81017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7FA81001, 0x7FA81002, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FA81001, 0x7FA81003, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA81001, 0x7FA81004, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA81001, 0x7FA81005, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA81001, 0x7FA81006, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA81001, 0x7FA81007, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA81001, 0x7FA81008, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA81001, 0x7FA81009, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA81001, 0x7FA8100A, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA8100B, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA8100C, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA8100D, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA8100E, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA8100F, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA81010, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FA81001, 0x7FA81011, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA81001, 0x7FA81012, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA81001, 0x7FA81013, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA81001, 0x7FA81014, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA81001, 0x7FA81015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA81001, 0x7FA81016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA81001, 0x7FA81017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA81002, 22524, 0xFA810008, 0.7568665, 168.0647, 13.99901, 0.9972783, 0, 0, -0.07372885,  True, '2019-02-10 00:00:00'); /* Tuskie Tosser */

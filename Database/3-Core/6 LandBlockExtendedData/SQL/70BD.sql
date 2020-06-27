@@ -5,11 +5,11 @@ VALUES (0x770BD001,  1154, 0x70BD0019, 77.20334, 17.5902, 95.10825, -0.745811, 0
 /* @teleloc 0x70BD0019 [77.203340 17.590200 95.108250] -0.745811 0.000000 0.000000 -0.666158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770BD001, 0x770BD002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x770BD001, 0x770BD003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x770BD001, 0x770BD004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x770BD001, 0x770BD005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x770BD001, 0x770BD006, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x770BD001, 0x770BD002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x770BD001, 0x770BD003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x770BD001, 0x770BD004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x770BD001, 0x770BD005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x770BD001, 0x770BD006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770BD002,  4217, 0x70BD0019, 77.20334, 17.5902, 95.10825, -0.745811, 0, 0, -0.6661575,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

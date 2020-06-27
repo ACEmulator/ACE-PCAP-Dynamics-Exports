@@ -9,12 +9,12 @@ VALUES (0x701DF001,  1154, 0x01DF010F, 28.84431, -18.61254, 0.004949987, -0.7370
 /* @teleloc 0x01DF010F [28.844310 -18.612540 0.004950] -0.737056 0.000000 0.000000 -0.675831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DF001, 0x701DF002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701DF001, 0x701DF003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701DF001, 0x701DF004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701DF001, 0x701DF005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701DF001, 0x701DF006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701DF001, 0x701DF007, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x701DF001, 0x701DF002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701DF001, 0x701DF003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701DF001, 0x701DF004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701DF001, 0x701DF005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701DF001, 0x701DF006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701DF001, 0x701DF007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DF002,     8, 0x01DF010F, 28.84431, -18.61254, 0.004949987, -0.737056, 0, 0, -0.675831,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -45,13 +45,13 @@ VALUES (0x701DF008,  1542, 0x01DF011C, 62.6839, -17.82449, 0.06874999, 1, 0, 0, 
 /* @teleloc 0x01DF011C [62.683900 -17.824490 0.068750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DF008, 0x701DF009, '2019-02-10 00:00:00') /* Khanjar */
-     , (0x701DF008, 0x701DF00A, '2019-02-10 00:00:00') /* Bread */
-     , (0x701DF008, 0x701DF00B, '2019-02-10 00:00:00') /* Apple */
-     , (0x701DF008, 0x701DF00C, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701DF008, 0x701DF00D, '2019-02-10 00:00:00') /* Fish */
-     , (0x701DF008, 0x701DF00E, '2019-02-10 00:00:00') /* Apple */
-     , (0x701DF008, 0x701DF00F, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x701DF008, 0x701DF009, '2019-02-10 00:00:00') /* Khanjar (328) */
+     , (0x701DF008, 0x701DF00A, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701DF008, 0x701DF00B, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701DF008, 0x701DF00C, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701DF008, 0x701DF00D, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701DF008, 0x701DF00E, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701DF008, 0x701DF00F, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DF009,   328, 0x01DF011C, 62.6839, -17.82449, 0.06874999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Khanjar */

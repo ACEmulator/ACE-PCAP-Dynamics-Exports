@@ -5,22 +5,22 @@ VALUES (0x7CD72001,  1154, 0xCD720007, 21.69573, 154.0498, 36.86648, -0.3337054,
 /* @teleloc 0xCD720007 [21.695730 154.049800 36.866480] -0.333705 0.000000 0.000000 -0.942677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD72001, 0x7CD72002, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7CD72001, 0x7CD72003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CD72001, 0x7CD72004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CD72001, 0x7CD72005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD72001, 0x7CD72006, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7CD72001, 0x7CD72007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD72001, 0x7CD72008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD72001, 0x7CD72009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD72001, 0x7CD7200A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CD72001, 0x7CD7200B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CD72001, 0x7CD7200C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD72001, 0x7CD7200D, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7CD72001, 0x7CD7200E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD72001, 0x7CD7200F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CD72001, 0x7CD72010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD72001, 0x7CD72011, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7CD72001, 0x7CD72002, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7CD72001, 0x7CD72003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CD72001, 0x7CD72004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CD72001, 0x7CD72005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD72001, 0x7CD72006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7CD72001, 0x7CD72007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD72001, 0x7CD72008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD72001, 0x7CD72009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD72001, 0x7CD7200A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CD72001, 0x7CD7200B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CD72001, 0x7CD7200C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD72001, 0x7CD7200D, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7CD72001, 0x7CD7200E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD72001, 0x7CD7200F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CD72001, 0x7CD72010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD72001, 0x7CD72011, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD72002,  9242, 0xCD720007, 21.69573, 154.0498, 36.86648, -0.3337054, 0, 0, -0.9426774,  True, '2019-02-10 00:00:00'); /* Innocent Doll */
@@ -91,8 +91,8 @@ VALUES (0x7CD72012,  1542, 0xCD720019, 94.7184, 5.671629, 34.0015, -0.9958509, 0
 /* @teleloc 0xCD720019 [94.718400 5.671629 34.001500] -0.995851 0.000000 0.000000 -0.091001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD72012, 0x7CD72013, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7CD72012, 0x7CD72014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CD72012, 0x7CD72013, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7CD72012, 0x7CD72014, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD72013, 15715, 0xCD720019, 94.7184, 5.671629, 34.0015, -0.9958509, 0, 0, -0.09100053,  True, '2019-02-10 00:00:00'); /* Sunflower */

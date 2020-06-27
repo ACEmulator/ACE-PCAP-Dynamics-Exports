@@ -5,12 +5,12 @@ VALUES (0x7CF9E001,  1154, 0xCF9E0020, 90.9185, 187.1929, 2.425959, -0.1746098, 
 /* @teleloc 0xCF9E0020 [90.918500 187.192900 2.425959] -0.174610 0.000000 0.000000 -0.984638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF9E001, 0x7CF9E002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CF9E001, 0x7CF9E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CF9E001, 0x7CF9E004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CF9E001, 0x7CF9E005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CF9E001, 0x7CF9E006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CF9E001, 0x7CF9E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CF9E001, 0x7CF9E002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CF9E001, 0x7CF9E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CF9E001, 0x7CF9E004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CF9E001, 0x7CF9E005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CF9E001, 0x7CF9E006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CF9E001, 0x7CF9E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF9E002,  1762, 0xCF9E0020, 90.9185, 187.1929, 2.425959, -0.1746098, 0, 0, -0.9846377,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

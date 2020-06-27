@@ -5,18 +5,18 @@ VALUES (0x7CE25001,  1154, 0xCE250002, 23.16211, 30.39549, 151.1407, 0.8676224, 
 /* @teleloc 0xCE250002 [23.162110 30.395490 151.140700] 0.867622 0.000000 0.000000 -0.497224 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE25001, 0x7CE25002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CE25001, 0x7CE25003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CE25001, 0x7CE25004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CE25001, 0x7CE25005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CE25001, 0x7CE25006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CE25001, 0x7CE25007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CE25001, 0x7CE25008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CE25001, 0x7CE25009, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7CE25001, 0x7CE2500A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CE25001, 0x7CE2500B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CE25001, 0x7CE2500C, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CE25001, 0x7CE2500D, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7CE25001, 0x7CE25002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CE25001, 0x7CE25003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CE25001, 0x7CE25004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CE25001, 0x7CE25005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CE25001, 0x7CE25006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CE25001, 0x7CE25007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CE25001, 0x7CE25008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CE25001, 0x7CE25009, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7CE25001, 0x7CE2500A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CE25001, 0x7CE2500B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CE25001, 0x7CE2500C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CE25001, 0x7CE2500D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE25002,  1757, 0xCE250002, 23.16211, 30.39549, 151.1407, 0.8676224, 0, 0, -0.4972237,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -71,7 +71,7 @@ VALUES (0x7CE2500E,  1542, 0xCE250002, 22.61011, 34.2787, 160.5035, 0.9537169, 0
 /* @teleloc 0xCE250002 [22.610110 34.278700 160.503500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE2500E, 0x7CE2500F, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7CE2500E, 0x7CE2500F, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE2500F,  5779, 0xCE250002, 22.61011, 34.2787, 160.5035, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

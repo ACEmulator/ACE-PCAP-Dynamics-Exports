@@ -5,22 +5,22 @@ VALUES (0x71A8F001,  1154, 0x1A8F0037, 154.7355, 167.1973, 68.0132, 0.8415573, 0
 /* @teleloc 0x1A8F0037 [154.735500 167.197300 68.013200] 0.841557 0.000000 0.000000 -0.540168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8F001, 0x71A8F002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71A8F001, 0x71A8F003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A8F001, 0x71A8F004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A8F001, 0x71A8F005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A8F001, 0x71A8F006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A8F001, 0x71A8F007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A8F001, 0x71A8F008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71A8F001, 0x71A8F009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71A8F001, 0x71A8F00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A8F001, 0x71A8F00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A8F001, 0x71A8F00C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71A8F001, 0x71A8F00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71A8F001, 0x71A8F00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71A8F001, 0x71A8F00F, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A8F001, 0x71A8F010, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71A8F001, 0x71A8F011, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x71A8F001, 0x71A8F002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71A8F001, 0x71A8F003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A8F001, 0x71A8F004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A8F001, 0x71A8F005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A8F001, 0x71A8F006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A8F001, 0x71A8F007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A8F001, 0x71A8F008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71A8F001, 0x71A8F009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71A8F001, 0x71A8F00A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A8F001, 0x71A8F00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A8F001, 0x71A8F00C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71A8F001, 0x71A8F00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71A8F001, 0x71A8F00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71A8F001, 0x71A8F00F, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A8F001, 0x71A8F010, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71A8F001, 0x71A8F011, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8F002, 11540, 0x1A8F0037, 154.7355, 167.1973, 68.0132, 0.8415573, 0, 0, -0.5401679,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

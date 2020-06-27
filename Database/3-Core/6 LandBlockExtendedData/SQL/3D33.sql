@@ -5,14 +5,14 @@ VALUES (0x73D33001,  1154, 0x3D330008, 5.197887, 174.1934, 110.2101, 0.8527718, 
 /* @teleloc 0x3D330008 [5.197887 174.193400 110.210100] 0.852772 0.000000 0.000000 -0.522284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D33001, 0x73D33002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73D33001, 0x73D33003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73D33001, 0x73D33004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73D33001, 0x73D33005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73D33001, 0x73D33006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73D33001, 0x73D33007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73D33001, 0x73D33008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73D33001, 0x73D33009, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x73D33001, 0x73D33002, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73D33001, 0x73D33003, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73D33001, 0x73D33004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73D33001, 0x73D33005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73D33001, 0x73D33006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73D33001, 0x73D33007, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73D33001, 0x73D33008, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73D33001, 0x73D33009, '2019-02-10 00:00:00') /* Banderling Savage (24276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D33002, 24274, 0x3D330008, 5.197887, 174.1934, 110.2101, 0.8527718, 0, 0, -0.5222837,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */

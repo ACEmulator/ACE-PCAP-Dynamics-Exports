@@ -5,19 +5,19 @@ VALUES (0x7C68A001,  1154, 0xC68A0004, 20.34563, 94.79314, 52.10339, 0.9185637, 
 /* @teleloc 0xC68A0004 [20.345630 94.793140 52.103390] 0.918564 0.000000 0.000000 -0.395273 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C68A001, 0x7C68A002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C68A001, 0x7C68A004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C68A001, 0x7C68A007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C68A001, 0x7C68A008, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C68A001, 0x7C68A009, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C68A001, 0x7C68A00A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A00B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A00C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A00D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68A001, 0x7C68A00E, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7C68A001, 0x7C68A002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C68A001, 0x7C68A004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C68A001, 0x7C68A007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C68A001, 0x7C68A008, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C68A001, 0x7C68A009, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C68A001, 0x7C68A00A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A00B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A00C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A00D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68A001, 0x7C68A00E, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C68A002,  2566, 0xC68A0004, 20.34563, 94.79314, 52.10339, 0.9185637, 0, 0, -0.3952731,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

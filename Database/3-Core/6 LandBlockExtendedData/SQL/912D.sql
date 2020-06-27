@@ -5,11 +5,11 @@ VALUES (0x7912D001,  1154, 0x912D0004, 8.257359, 87.43678, -0.09949994, 0.923879
 /* @teleloc 0x912D0004 [8.257359 87.436780 -0.099500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7912D001, 0x7912D002, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7912D001, 0x7912D003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7912D001, 0x7912D004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7912D001, 0x7912D005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7912D001, 0x7912D006, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7912D001, 0x7912D002, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7912D001, 0x7912D003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7912D001, 0x7912D004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7912D001, 0x7912D005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7912D001, 0x7912D006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7912D002,  9250, 0x912D0004, 8.257359, 87.43678, -0.09949994, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */

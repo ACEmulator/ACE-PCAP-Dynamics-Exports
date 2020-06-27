@@ -5,21 +5,21 @@ VALUES (0x7A341001,  1154, 0xA3410036, 152.9463, 123.9089, 43.90735, -0.9598188,
 /* @teleloc 0xA3410036 [152.946300 123.908900 43.907350] -0.959819 0.000000 0.000000 -0.280621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A341001, 0x7A341002, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7A341001, 0x7A341003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A341001, 0x7A341004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A341001, 0x7A341005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A341001, 0x7A341006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A341001, 0x7A341007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A341001, 0x7A341008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A341001, 0x7A341009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A341001, 0x7A34100A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A341001, 0x7A34100B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A341001, 0x7A34100C, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A341001, 0x7A34100D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A341001, 0x7A34100E, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7A341001, 0x7A34100F, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7A341001, 0x7A341010, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A341001, 0x7A341002, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7A341001, 0x7A341003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A341001, 0x7A341004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A341001, 0x7A341005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A341001, 0x7A341006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A341001, 0x7A341007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A341001, 0x7A341008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A341001, 0x7A341009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A341001, 0x7A34100A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A341001, 0x7A34100B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A341001, 0x7A34100C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A341001, 0x7A34100D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A341001, 0x7A34100E, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7A341001, 0x7A34100F, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7A341001, 0x7A341010, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A341002, 12018, 0xA3410036, 152.9463, 123.9089, 43.90735, -0.9598188, 0, 0, -0.2806206,  True, '2019-02-10 00:00:00'); /* Master of the Pack */
@@ -86,7 +86,7 @@ VALUES (0x7A341011,  1542, 0xA3410036, 160.0259, 137.8487, 44.81641, -0.9598188,
 /* @teleloc 0xA3410036 [160.025900 137.848700 44.816410] -0.959819 0.000000 0.000000 -0.280621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A341011, 0x7A341012, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7A341011, 0x7A341012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A341012,  8041, 0xA3410036, 160.0259, 137.8487, 44.81641, -0.9598188, 0, 0, -0.2806206,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

@@ -5,12 +5,12 @@ VALUES (0x710BF001,  1154, 0x10BF0031, 158.565, 9.447702, 7.21975, 0.5142766, 0,
 /* @teleloc 0x10BF0031 [158.565000 9.447702 7.219750] 0.514277 0.000000 0.000000 -0.857624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x710BF001, 0x710BF002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x710BF001, 0x710BF003, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x710BF001, 0x710BF004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BF001, 0x710BF005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BF001, 0x710BF006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BF001, 0x710BF007, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x710BF001, 0x710BF002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x710BF001, 0x710BF003, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x710BF001, 0x710BF004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BF001, 0x710BF005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BF001, 0x710BF006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BF001, 0x710BF007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x710BF002, 11519, 0x10BF0031, 158.565, 9.447702, 7.21975, 0.5142766, 0, 0, -0.8576244,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */

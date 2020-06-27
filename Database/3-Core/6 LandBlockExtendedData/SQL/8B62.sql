@@ -5,10 +5,10 @@ VALUES (0x78B62001,  1154, 0x8B62003C, 184.9375, 80.30289, 11.31059, -0.7832653,
 /* @teleloc 0x8B62003C [184.937500 80.302890 11.310590] -0.783265 0.000000 0.000000 -0.621688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B62001, 0x78B62002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78B62001, 0x78B62003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78B62001, 0x78B62004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78B62001, 0x78B62005, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x78B62001, 0x78B62002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78B62001, 0x78B62003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78B62001, 0x78B62004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78B62001, 0x78B62005, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B62002,  1756, 0x8B62003C, 184.9375, 80.30289, 11.31059, -0.7832653, 0, 0, -0.6216877,  True, '2019-02-10 00:00:00'); /* Shadow Child */

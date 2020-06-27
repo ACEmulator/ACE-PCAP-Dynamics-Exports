@@ -5,12 +5,12 @@ VALUES (0x7AAD7001,  1154, 0xAAD70010, 47.9125, 175.4299, 57.38084, -0.9994385, 
 /* @teleloc 0xAAD70010 [47.912500 175.429900 57.380840] -0.999439 0.000000 0.000000 -0.033507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAD7001, 0x7AAD7002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7AAD7001, 0x7AAD7003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AAD7001, 0x7AAD7004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7AAD7001, 0x7AAD7005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AAD7001, 0x7AAD7006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AAD7001, 0x7AAD7007, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7AAD7001, 0x7AAD7002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7AAD7001, 0x7AAD7003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AAD7001, 0x7AAD7004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7AAD7001, 0x7AAD7005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AAD7001, 0x7AAD7006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AAD7001, 0x7AAD7007, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAD7002,  5748, 0xAAD70010, 47.9125, 175.4299, 57.38084, -0.9994385, 0, 0, -0.03350671,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

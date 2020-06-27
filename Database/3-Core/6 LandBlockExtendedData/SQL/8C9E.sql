@@ -5,30 +5,30 @@ VALUES (0x78C9E001,  1154, 0x8C9E000A, 27.0934, 29.70478, 106.2101, 0.9832463, 0
 /* @teleloc 0x8C9E000A [27.093400 29.704780 106.210100] 0.983246 0.000000 0.000000 -0.182282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C9E001, 0x78C9E002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78C9E001, 0x78C9E003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78C9E001, 0x78C9E004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78C9E001, 0x78C9E005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78C9E001, 0x78C9E006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78C9E001, 0x78C9E007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x78C9E001, 0x78C9E008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78C9E001, 0x78C9E009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78C9E001, 0x78C9E00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78C9E001, 0x78C9E00B, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x78C9E001, 0x78C9E00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78C9E001, 0x78C9E00D, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78C9E001, 0x78C9E00E, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x78C9E001, 0x78C9E00F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x78C9E001, 0x78C9E010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78C9E001, 0x78C9E011, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x78C9E001, 0x78C9E012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78C9E001, 0x78C9E013, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78C9E001, 0x78C9E014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78C9E001, 0x78C9E015, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78C9E001, 0x78C9E016, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78C9E001, 0x78C9E017, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78C9E001, 0x78C9E018, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78C9E001, 0x78C9E019, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x78C9E001, 0x78C9E002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78C9E001, 0x78C9E003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78C9E001, 0x78C9E004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78C9E001, 0x78C9E005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78C9E001, 0x78C9E006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78C9E001, 0x78C9E007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x78C9E001, 0x78C9E008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78C9E001, 0x78C9E009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78C9E001, 0x78C9E00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78C9E001, 0x78C9E00B, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x78C9E001, 0x78C9E00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78C9E001, 0x78C9E00D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78C9E001, 0x78C9E00E, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x78C9E001, 0x78C9E00F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x78C9E001, 0x78C9E010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78C9E001, 0x78C9E011, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78C9E001, 0x78C9E012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78C9E001, 0x78C9E013, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78C9E001, 0x78C9E014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78C9E001, 0x78C9E015, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78C9E001, 0x78C9E016, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78C9E001, 0x78C9E017, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78C9E001, 0x78C9E018, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78C9E001, 0x78C9E019, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C9E002,  2576, 0x8C9E000A, 27.0934, 29.70478, 106.2101, 0.9832463, 0, 0, -0.1822823,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -131,8 +131,8 @@ VALUES (0x78C9E01A,  1542, 0x8C9E0022, 118.0786, 34.72703, 92.50684, 0.9238795, 
 /* @teleloc 0x8C9E0022 [118.078600 34.727030 92.506840] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C9E01A, 0x78C9E01B, '2019-02-10 00:00:00') /* Bones */
-     , (0x78C9E01A, 0x78C9E01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78C9E01A, 0x78C9E01B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78C9E01A, 0x78C9E01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C9E01B,  4380, 0x8C9E0022, 118.0786, 34.72703, 92.50684, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

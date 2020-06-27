@@ -5,14 +5,14 @@ VALUES (0x73961001,  1154, 0x39610013, 68.03622, 53.29613, 40.0065, -0.9960704, 
 /* @teleloc 0x39610013 [68.036220 53.296130 40.006500] -0.996070 0.000000 0.000000 -0.088564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73961001, 0x73961002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73961001, 0x73961003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73961001, 0x73961004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73961001, 0x73961005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73961001, 0x73961006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73961001, 0x73961007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73961001, 0x73961008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73961001, 0x73961009, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x73961001, 0x73961002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73961001, 0x73961003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73961001, 0x73961004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73961001, 0x73961005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73961001, 0x73961006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73961001, 0x73961007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73961001, 0x73961008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73961001, 0x73961009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73961002, 22909, 0x39610013, 68.03622, 53.29613, 40.0065, -0.9960704, 0, 0, -0.08856423,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -51,7 +51,7 @@ VALUES (0x7396100A,  1542, 0x39610014, 61.81451, 90.44855, 39.99, -0.9960704, 0,
 /* @teleloc 0x39610014 [61.814510 90.448550 39.990000] -0.996070 0.000000 0.000000 -0.088564 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7396100A, 0x7396100B, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7396100A, 0x7396100B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7396100B,  9288, 0x39610014, 61.81451, 90.44855, 39.99, -0.9960704, 0, 0, -0.08856423,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

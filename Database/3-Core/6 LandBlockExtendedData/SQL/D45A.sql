@@ -5,11 +5,11 @@ VALUES (0x7D45A001,  1154, 0xD45A003B, 172.8576, 65.0873, 25.02629, -0.87045, 0,
 /* @teleloc 0xD45A003B [172.857600 65.087300 25.026290] -0.870450 0.000000 0.000000 -0.492257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D45A001, 0x7D45A002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D45A001, 0x7D45A003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D45A001, 0x7D45A004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D45A001, 0x7D45A005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D45A001, 0x7D45A006, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D45A001, 0x7D45A002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D45A001, 0x7D45A003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D45A001, 0x7D45A004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D45A001, 0x7D45A005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D45A001, 0x7D45A006, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D45A002,     6, 0xD45A003B, 172.8576, 65.0873, 25.02629, -0.87045, 0, 0, -0.4922568,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

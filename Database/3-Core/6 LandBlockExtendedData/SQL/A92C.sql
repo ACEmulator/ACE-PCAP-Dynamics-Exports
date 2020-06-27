@@ -5,10 +5,10 @@ VALUES (0x7A92C001,  1154, 0xA92C0015, 54.97441, 104.5045, 135.745, -0.7547947, 
 /* @teleloc 0xA92C0015 [54.974410 104.504500 135.745000] -0.754795 0.000000 0.000000 -0.655961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A92C001, 0x7A92C002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A92C001, 0x7A92C003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7A92C001, 0x7A92C004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A92C001, 0x7A92C005, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7A92C001, 0x7A92C002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A92C001, 0x7A92C003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7A92C001, 0x7A92C004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A92C001, 0x7A92C005, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A92C002,  5890, 0xA92C0015, 54.97441, 104.5045, 135.745, -0.7547947, 0, 0, -0.6559611,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */

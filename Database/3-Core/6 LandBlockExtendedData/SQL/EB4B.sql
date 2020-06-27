@@ -5,9 +5,9 @@ VALUES (0x7EB4B001,  1154, 0xEB4B0020, 86.3664, 188.6283, 7.087279, 0.8813259, 0
 /* @teleloc 0xEB4B0020 [86.366400 188.628300 7.087279] 0.881326 0.000000 0.000000 -0.472509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB4B001, 0x7EB4B002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7EB4B001, 0x7EB4B003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7EB4B001, 0x7EB4B004, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7EB4B001, 0x7EB4B002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7EB4B001, 0x7EB4B003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7EB4B001, 0x7EB4B004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB4B002,   192, 0xEB4B0020, 86.3664, 188.6283, 7.087279, 0.8813259, 0, 0, -0.4725088,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -26,7 +26,7 @@ VALUES (0x7EB4B005,  1542, 0xEB4B0031, 158.6772, 4.435357, 17.35452, 1, 0, 0, 0,
 /* @teleloc 0xEB4B0031 [158.677200 4.435357 17.354520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB4B005, 0x7EB4B006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7EB4B005, 0x7EB4B006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB4B006,  4179, 0xEB4B0031, 158.6772, 4.435357, 17.35452, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

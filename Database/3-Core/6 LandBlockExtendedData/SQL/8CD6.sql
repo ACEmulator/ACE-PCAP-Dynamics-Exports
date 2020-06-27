@@ -5,9 +5,9 @@ VALUES (0x78CD6001,  1154, 0x8CD6001E, 76.06828, 143.5204, 165.7409, 0.1152894, 
 /* @teleloc 0x8CD6001E [76.068280 143.520400 165.740900] 0.115289 0.000000 0.000000 -0.993332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD6001, 0x78CD6002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78CD6001, 0x78CD6003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CD6001, 0x78CD6004, '2019-02-10 00:00:00') /* Warlock of the Blood */;
+VALUES (0x78CD6001, 0x78CD6002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78CD6001, 0x78CD6003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CD6001, 0x78CD6004, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD6002,   214, 0x8CD6001E, 76.06828, 143.5204, 165.7409, 0.1152894, 0, 0, -0.993332,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

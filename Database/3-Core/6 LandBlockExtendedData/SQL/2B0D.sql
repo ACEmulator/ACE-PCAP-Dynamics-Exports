@@ -5,26 +5,26 @@ VALUES (0x72B0D001,  1154, 0x2B0D000E, 38.76094, 124.3016, 5.953517, -0.8199934,
 /* @teleloc 0x2B0D000E [38.760940 124.301600 5.953517] -0.819993 0.000000 0.000000 -0.572373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0D001, 0x72B0D002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B0D001, 0x72B0D003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72B0D001, 0x72B0D004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72B0D001, 0x72B0D005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B0D001, 0x72B0D006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72B0D001, 0x72B0D007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B0D001, 0x72B0D008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B0D001, 0x72B0D009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72B0D001, 0x72B0D00A, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72B0D001, 0x72B0D00B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B0D001, 0x72B0D00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B0D001, 0x72B0D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B0D001, 0x72B0D00E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72B0D001, 0x72B0D00F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72B0D001, 0x72B0D010, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72B0D001, 0x72B0D011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72B0D001, 0x72B0D012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72B0D001, 0x72B0D013, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72B0D001, 0x72B0D014, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72B0D001, 0x72B0D015, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x72B0D001, 0x72B0D002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B0D001, 0x72B0D003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72B0D001, 0x72B0D004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72B0D001, 0x72B0D005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B0D001, 0x72B0D006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72B0D001, 0x72B0D007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B0D001, 0x72B0D008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B0D001, 0x72B0D009, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72B0D001, 0x72B0D00A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72B0D001, 0x72B0D00B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B0D001, 0x72B0D00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B0D001, 0x72B0D00D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B0D001, 0x72B0D00E, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72B0D001, 0x72B0D00F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72B0D001, 0x72B0D010, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72B0D001, 0x72B0D011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72B0D001, 0x72B0D012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72B0D001, 0x72B0D013, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72B0D001, 0x72B0D014, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72B0D001, 0x72B0D015, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0D002,  7119, 0x2B0D000E, 38.76094, 124.3016, 5.953517, -0.8199934, 0, 0, -0.572373,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -111,7 +111,7 @@ VALUES (0x72B0D016,  1542, 0x2B0D0020, 75.06812, 177.8128, 15.53406, 1, 0, 0, 0,
 /* @teleloc 0x2B0D0020 [75.068120 177.812800 15.534060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0D016, 0x72B0D017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72B0D016, 0x72B0D017, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0D017, 22571, 0x2B0D0020, 75.06812, 177.8128, 15.53406, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

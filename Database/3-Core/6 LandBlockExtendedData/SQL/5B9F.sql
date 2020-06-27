@@ -5,15 +5,15 @@ VALUES (0x75B9F001,  1154, 0x5B9F0020, 89.09407, 170.9892, 20.0065, -0.835843, 0
 /* @teleloc 0x5B9F0020 [89.094070 170.989200 20.006500] -0.835843 0.000000 0.000000 -0.548969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9F001, 0x75B9F002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75B9F001, 0x75B9F003, '2019-02-10 00:00:00') /* Static */
-     , (0x75B9F001, 0x75B9F004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x75B9F001, 0x75B9F005, '2019-02-10 00:00:00') /* Ember */
-     , (0x75B9F001, 0x75B9F006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75B9F001, 0x75B9F007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75B9F001, 0x75B9F008, '2019-02-10 00:00:00') /* Static */
-     , (0x75B9F001, 0x75B9F009, '2019-02-10 00:00:00') /* Ember */
-     , (0x75B9F001, 0x75B9F00A, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75B9F001, 0x75B9F002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75B9F001, 0x75B9F003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75B9F001, 0x75B9F004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x75B9F001, 0x75B9F005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75B9F001, 0x75B9F006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75B9F001, 0x75B9F007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75B9F001, 0x75B9F008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75B9F001, 0x75B9F009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75B9F001, 0x75B9F00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9F002,  6380, 0x5B9F0020, 89.09407, 170.9892, 20.0065, -0.835843, 0, 0, -0.5489686,  True, '2019-02-10 00:00:00'); /* Scintilla */

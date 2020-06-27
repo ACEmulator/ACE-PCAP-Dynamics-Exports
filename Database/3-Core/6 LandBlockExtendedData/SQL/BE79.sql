@@ -5,16 +5,16 @@ VALUES (0x7BE79001,  1154, 0xBE79000F, 31.68809, 160.7695, 33.16704, -0.9834241,
 /* @teleloc 0xBE79000F [31.688090 160.769500 33.167040] -0.983424 0.000000 0.000000 -0.181321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE79001, 0x7BE79002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BE79001, 0x7BE79003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BE79001, 0x7BE79004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BE79001, 0x7BE79005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BE79001, 0x7BE79006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BE79001, 0x7BE79007, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BE79001, 0x7BE79008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7BE79001, 0x7BE79009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BE79001, 0x7BE7900A, '2019-02-10 00:00:00') /* Static */
-     , (0x7BE79001, 0x7BE7900B, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7BE79001, 0x7BE79002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BE79001, 0x7BE79003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE79001, 0x7BE79004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BE79001, 0x7BE79005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BE79001, 0x7BE79006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BE79001, 0x7BE79007, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BE79001, 0x7BE79008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7BE79001, 0x7BE79009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BE79001, 0x7BE7900A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BE79001, 0x7BE7900B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE79002,  7989, 0xBE79000F, 31.68809, 160.7695, 33.16704, -0.9834241, 0, 0, -0.1813205,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
@@ -61,7 +61,7 @@ VALUES (0x7BE7900C,  1542, 0xBE790036, 147.9424, 132.7129, 57.79028, 1, 0, 0, 0,
 /* @teleloc 0xBE790036 [147.942400 132.712900 57.790280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7900C, 0x7BE7900D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BE7900C, 0x7BE7900D, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7900D, 22572, 0xBE790036, 147.9424, 132.7129, 57.79028, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

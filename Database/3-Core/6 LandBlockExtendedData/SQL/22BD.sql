@@ -5,8 +5,8 @@ VALUES (0x722BD001,  1154, 0x22BD0006, 13.15204, 132.5911, 105.6303, 1, 0, 0, 0,
 /* @teleloc 0x22BD0006 [13.152040 132.591100 105.630300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BD001, 0x722BD002, '2019-02-10 00:00:00') /* Cultist */
-     , (0x722BD001, 0x722BD003, '2019-02-10 00:00:00') /* Kithless Siraluun */;
+VALUES (0x722BD001, 0x722BD002, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x722BD001, 0x722BD003, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BD002, 11501, 0x22BD0006, 13.15204, 132.5911, 105.6303, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist */
@@ -21,9 +21,9 @@ VALUES (0x722BD004,  1542, 0x22BD0006, 9.899904, 140.093, 106.054, 1, 0, 0, 0, F
 /* @teleloc 0x22BD0006 [9.899904 140.093000 106.054000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722BD004, 0x722BD005, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x722BD004, 0x722BD006, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x722BD004, 0x722BD007, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x722BD004, 0x722BD005, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x722BD004, 0x722BD006, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x722BD004, 0x722BD007, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722BD005, 11556, 0x22BD0006, 9.899904, 140.093, 106.054, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

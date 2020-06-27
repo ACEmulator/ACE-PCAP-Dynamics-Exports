@@ -5,10 +5,10 @@ VALUES (0x7885B001,  1154, 0x885B003A, 170.4736, 42.56085, 8.007501, -0.2983257,
 /* @teleloc 0x885B003A [170.473600 42.560850 8.007501] -0.298326 0.000000 0.000000 -0.954464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7885B001, 0x7885B002, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7885B001, 0x7885B003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7885B001, 0x7885B004, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7885B001, 0x7885B005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7885B001, 0x7885B002, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7885B001, 0x7885B003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7885B001, 0x7885B004, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7885B001, 0x7885B005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7885B002, 10801, 0x885B003A, 170.4736, 42.56085, 8.007501, -0.2983257, 0, 0, -0.9544641,  True, '2019-02-10 00:00:00'); /* Shallow Rift */

@@ -5,12 +5,12 @@ VALUES (0x73D72001,  1154, 0x3D720003, 18.92845, 58.8973, -0.09000003, 0.1775352
 /* @teleloc 0x3D720003 [18.928450 58.897300 -0.090000] 0.177535 0.000000 0.000000 -0.984115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D72001, 0x73D72002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D72001, 0x73D72003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D72001, 0x73D72004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D72001, 0x73D72005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D72001, 0x73D72006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D72001, 0x73D72007, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x73D72001, 0x73D72002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73D72001, 0x73D72003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73D72001, 0x73D72004, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73D72001, 0x73D72005, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73D72001, 0x73D72006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73D72001, 0x73D72007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D72002, 36828, 0x3D720003, 18.92845, 58.8973, -0.09000003, 0.1775352, 0, 0, -0.9841145,  True, '2019-02-10 00:00:00'); /* Coral Golem */

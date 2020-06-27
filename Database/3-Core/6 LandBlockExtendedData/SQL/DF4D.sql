@@ -5,19 +5,19 @@ VALUES (0x7DF4D001,  1154, 0xDF4D002E, 141.9963, 124.6667, 17.84303, 0.7071068, 
 /* @teleloc 0xDF4D002E [141.996300 124.666700 17.843030] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF4D001, 0x7DF4D002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DF4D001, 0x7DF4D003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DF4D001, 0x7DF4D004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7DF4D001, 0x7DF4D005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DF4D001, 0x7DF4D006, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7DF4D001, 0x7DF4D007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7DF4D001, 0x7DF4D008, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7DF4D001, 0x7DF4D009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7DF4D001, 0x7DF4D00A, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7DF4D001, 0x7DF4D00B, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7DF4D001, 0x7DF4D00C, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7DF4D001, 0x7DF4D00D, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DF4D001, 0x7DF4D00E, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7DF4D001, 0x7DF4D002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DF4D001, 0x7DF4D003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DF4D001, 0x7DF4D004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7DF4D001, 0x7DF4D005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DF4D001, 0x7DF4D006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7DF4D001, 0x7DF4D007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7DF4D001, 0x7DF4D008, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7DF4D001, 0x7DF4D009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7DF4D001, 0x7DF4D00A, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7DF4D001, 0x7DF4D00B, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7DF4D001, 0x7DF4D00C, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7DF4D001, 0x7DF4D00D, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DF4D001, 0x7DF4D00E, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF4D002,   942, 0xDF4D002E, 141.9963, 124.6667, 17.84303, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -76,7 +76,7 @@ VALUES (0x7DF4D00F,  1542, 0xDF4D0037, 162.8265, 151.4989, 19.76266, 1, 0, 0, 0,
 /* @teleloc 0xDF4D0037 [162.826500 151.498900 19.762660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF4D00F, 0x7DF4D010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DF4D00F, 0x7DF4D010, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF4D010, 22572, 0xDF4D0037, 162.8265, 151.4989, 19.76266, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

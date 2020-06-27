@@ -5,15 +5,15 @@ VALUES (0x78971001,  1154, 0x89710003, 6.753695, 60.14294, 14.90571, -0.622274, 
 /* @teleloc 0x89710003 [6.753695 60.142940 14.905710] -0.622274 0.000000 0.000000 -0.782800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78971001, 0x78971002, '2019-02-10 00:00:00') /* Undead */
-     , (0x78971001, 0x78971003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78971001, 0x78971004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78971001, 0x78971005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78971001, 0x78971006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78971001, 0x78971007, '2019-02-10 00:00:00') /* Undead */
-     , (0x78971001, 0x78971008, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x78971001, 0x78971009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x78971001, 0x7897100A, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x78971001, 0x78971002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x78971001, 0x78971003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78971001, 0x78971004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78971001, 0x78971005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78971001, 0x78971006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78971001, 0x78971007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x78971001, 0x78971008, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x78971001, 0x78971009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x78971001, 0x7897100A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78971002,    16, 0x89710003, 6.753695, 60.14294, 14.90571, -0.622274, 0, 0, -0.7827995,  True, '2019-02-10 00:00:00'); /* Undead */
@@ -56,8 +56,8 @@ VALUES (0x7897100B,  1542, 0x89710016, 61.58069, 125.0507, 9.579109, 1, 0, 0, 0,
 /* @teleloc 0x89710016 [61.580690 125.050700 9.579109] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7897100B, 0x7897100C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7897100B, 0x7897100D, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7897100B, 0x7897100C, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7897100B, 0x7897100D, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7897100C, 22572, 0x89710016, 61.58069, 125.0507, 9.579109, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

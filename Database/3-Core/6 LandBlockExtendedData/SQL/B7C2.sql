@@ -5,10 +5,10 @@ VALUES (0x7B7C2001,  1154, 0xB7C2002F, 137.5418, 159.1635, 292.1596, 0.2929793, 
 /* @teleloc 0xB7C2002F [137.541800 159.163500 292.159600] 0.292979 0.000000 0.000000 -0.956119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7C2001, 0x7B7C2002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B7C2001, 0x7B7C2003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7B7C2001, 0x7B7C2004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B7C2001, 0x7B7C2005, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B7C2001, 0x7B7C2002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B7C2001, 0x7B7C2003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7B7C2001, 0x7B7C2004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B7C2001, 0x7B7C2005, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7C2002,  7345, 0xB7C2002F, 137.5418, 159.1635, 292.1596, 0.2929793, 0, 0, -0.9561188,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

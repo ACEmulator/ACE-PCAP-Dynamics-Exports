@@ -5,11 +5,11 @@ VALUES (0x760D2001,  1154, 0x60D20001, 17.02669, 23.77973, 36.27682, -0.9584451,
 /* @teleloc 0x60D20001 [17.026690 23.779730 36.276820] -0.958445 0.000000 0.000000 -0.285277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D2001, 0x760D2002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760D2001, 0x760D2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x760D2001, 0x760D2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x760D2001, 0x760D2005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x760D2001, 0x760D2006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x760D2001, 0x760D2002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760D2001, 0x760D2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x760D2001, 0x760D2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x760D2001, 0x760D2005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x760D2001, 0x760D2006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D2002,  7096, 0x60D20001, 17.02669, 23.77973, 36.27682, -0.9584451, 0, 0, -0.2852772,  True, '2019-02-10 00:00:00'); /* Gold Golem */

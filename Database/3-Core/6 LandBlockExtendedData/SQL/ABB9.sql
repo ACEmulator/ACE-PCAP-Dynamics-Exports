@@ -5,19 +5,19 @@ VALUES (0x7ABB9001,  1154, 0xABB90015, 61.50604, 113.1567, 92.82628, -0.9571103,
 /* @teleloc 0xABB90015 [61.506040 113.156700 92.826280] -0.957110 0.000000 0.000000 -0.289724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB9001, 0x7ABB9002, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ABB9001, 0x7ABB9003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ABB9001, 0x7ABB9004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ABB9001, 0x7ABB9005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ABB9001, 0x7ABB9006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ABB9001, 0x7ABB9007, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7ABB9001, 0x7ABB9008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ABB9001, 0x7ABB9009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ABB9001, 0x7ABB900A, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7ABB9001, 0x7ABB900B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABB9001, 0x7ABB900C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABB9001, 0x7ABB900D, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABB9001, 0x7ABB900E, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x7ABB9001, 0x7ABB9002, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ABB9001, 0x7ABB9003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ABB9001, 0x7ABB9004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ABB9001, 0x7ABB9005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ABB9001, 0x7ABB9006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ABB9001, 0x7ABB9007, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7ABB9001, 0x7ABB9008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ABB9001, 0x7ABB9009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ABB9001, 0x7ABB900A, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7ABB9001, 0x7ABB900B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABB9001, 0x7ABB900C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABB9001, 0x7ABB900D, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABB9001, 0x7ABB900E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB9002,   945, 0xABB90015, 61.50604, 113.1567, 92.82628, -0.9571103, 0, 0, -0.2897239,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
@@ -76,8 +76,8 @@ VALUES (0x7ABB900F,  1542, 0xABB90018, 49.7869, 191.3448, 90.29781, 1, 0, 0, 0, 
 /* @teleloc 0xABB90018 [49.786900 191.344800 90.297810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB900F, 0x7ABB9010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ABB900F, 0x7ABB9011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ABB900F, 0x7ABB9010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ABB900F, 0x7ABB9011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB9010,  4179, 0xABB90018, 49.7869, 191.3448, 90.29781, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,11 +5,11 @@ VALUES (0x73F51001,  1154, 0x3F510003, 1.011948, 49.55452, 50.0065, 0.02762057, 
 /* @teleloc 0x3F510003 [1.011948 49.554520 50.006500] 0.027621 0.000000 0.000000 -0.999619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F51001, 0x73F51002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73F51001, 0x73F51003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73F51001, 0x73F51004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73F51001, 0x73F51005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73F51001, 0x73F51006, '2019-02-10 00:00:00') /* Unstable Rift */;
+VALUES (0x73F51001, 0x73F51002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73F51001, 0x73F51003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73F51001, 0x73F51004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73F51001, 0x73F51005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73F51001, 0x73F51006, '2019-02-10 00:00:00') /* Unstable Rift (10802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F51002, 22909, 0x3F510003, 1.011948, 49.55452, 50.0065, 0.02762057, 0, 0, -0.9996185,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -36,7 +36,7 @@ VALUES (0x73F51007,  1542, 0x3F510002, 5.741547, 33.81001, 50, 1, 0, 0, 0, False
 /* @teleloc 0x3F510002 [5.741547 33.810010 50.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F51007, 0x73F51008, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73F51007, 0x73F51008, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F51008,  8999, 0x3F510002, 5.741547, 33.81001, 50, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

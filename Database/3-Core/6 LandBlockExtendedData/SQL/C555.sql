@@ -5,11 +5,11 @@ VALUES (0x7C555001,  1154, 0xC555002B, 125.3841, 71.88167, 18.00332, 0.7660445, 
 /* @teleloc 0xC555002B [125.384100 71.881670 18.003320] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C555001, 0x7C555002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C555001, 0x7C555003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C555001, 0x7C555004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C555001, 0x7C555005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C555001, 0x7C555006, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7C555001, 0x7C555002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C555001, 0x7C555003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C555001, 0x7C555004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C555001, 0x7C555005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C555001, 0x7C555006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C555002,  1608, 0xC555002B, 125.3841, 71.88167, 18.00332, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -36,7 +36,7 @@ VALUES (0x7C555007,  1542, 0xC555002B, 142.2422, 60.83537, 18, 0.9990482, 0, 0, 
 /* @teleloc 0xC555002B [142.242200 60.835370 18.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C555007, 0x7C555008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C555007, 0x7C555008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C555008,  4179, 0xC555002B, 142.2422, 60.83537, 18, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,13 +5,13 @@ VALUES (0x7F728001,  1154, 0xF7280010, 45.08633, 182.8056, -0.4488, 0.8191521, 0
 /* @teleloc 0xF7280010 [45.086330 182.805600 -0.448800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F728001, 0x7F728002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F728001, 0x7F728003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F728001, 0x7F728004, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F728001, 0x7F728005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F728001, 0x7F728006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F728001, 0x7F728007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F728001, 0x7F728008, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F728001, 0x7F728002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F728001, 0x7F728003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F728001, 0x7F728004, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F728001, 0x7F728005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F728001, 0x7F728006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F728001, 0x7F728007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F728001, 0x7F728008, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F728002,  7109, 0xF7280010, 45.08633, 182.8056, -0.4488, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

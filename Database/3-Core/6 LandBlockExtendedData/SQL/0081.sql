@@ -65,8 +65,8 @@ VALUES (0x70081024,  1154, 0x00810114, 30, -56, 0.004199982, 0, 0, 0, -1, False,
 /* @teleloc 0x00810114 [30.000000 -56.000000 0.004200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70081024, 0x70081025, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x70081024, 0x70081026, '2019-02-10 00:00:00') /* Pyreal Target Drudge */;
+VALUES (0x70081024, 0x70081025, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x70081024, 0x70081026, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70081025, 24888, 0x00810114, 30, -56, 0.004199982, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Pyreal Target Drudge */
@@ -81,10 +81,10 @@ VALUES (0x70081027,  1154, 0x00810133, 92, -37, 0.004999995, -0.720055, 0, 0, -0
 /* @teleloc 0x00810133 [92.000000 -37.000000 0.005000] -0.720055 0.000000 0.000000 -0.693917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70081027, 0x70081028, '2019-02-10 00:00:00') /* Varlanna */
-     , (0x70081027, 0x70081029, '2019-02-10 00:00:00') /* Eddred the Wolf */
-     , (0x70081027, 0x7008102A, '2019-02-10 00:00:00') /* Hassim */
-     , (0x70081027, 0x7008102B, '2019-02-10 00:00:00') /* Crystal of Life Protections */;
+VALUES (0x70081027, 0x70081028, '2019-02-10 00:00:00') /* Varlanna (33499) */
+     , (0x70081027, 0x70081029, '2019-02-10 00:00:00') /* Eddred the Wolf (32992) */
+     , (0x70081027, 0x7008102A, '2019-02-10 00:00:00') /* Hassim (33187) */
+     , (0x70081027, 0x7008102B, '2019-02-10 00:00:00') /* Crystal of Life Protections (33451) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70081028, 33499, 0x00810133, 92, -37, 0.004999995, -0.720055, 0, 0, -0.693917,  True, '2019-02-10 00:00:00'); /* Varlanna */
@@ -107,17 +107,17 @@ VALUES (0x7008102C,  1542, 0x00810133, 92.25, -41.25, 0.9464999, 0.707107, 0, 0,
 /* @teleloc 0x00810133 [92.250000 -41.250000 0.946500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7008102C, 0x7008102D, '2019-02-10 00:00:00') /* Silveran Wand Token */
-     , (0x7008102C, 0x7008102E, '2019-02-10 00:00:00') /* Silveran Sword Token */
-     , (0x7008102C, 0x7008102F, '2019-02-10 00:00:00') /* Silveran Staff Token */
-     , (0x7008102C, 0x70081030, '2019-02-10 00:00:00') /* Silveran Spear Token */
-     , (0x7008102C, 0x70081031, '2019-02-10 00:00:00') /* Silveran Mace Token */
-     , (0x7008102C, 0x70081032, '2019-02-10 00:00:00') /* Silveran Dagger Token */
-     , (0x7008102C, 0x70081033, '2019-02-10 00:00:00') /* Silveran Crossbow Token */
-     , (0x7008102C, 0x70081034, '2019-02-10 00:00:00') /* Silveran Claw Token */
-     , (0x7008102C, 0x70081035, '2019-02-10 00:00:00') /* Silveran Bow Token */
-     , (0x7008102C, 0x70081036, '2019-02-10 00:00:00') /* Silveran Axe Token */
-     , (0x7008102C, 0x70081037, '2019-02-10 00:00:00') /* Silveran Atlatl Token */;
+VALUES (0x7008102C, 0x7008102D, '2019-02-10 00:00:00') /* Silveran Wand Token (33509) */
+     , (0x7008102C, 0x7008102E, '2019-02-10 00:00:00') /* Silveran Sword Token (33508) */
+     , (0x7008102C, 0x7008102F, '2019-02-10 00:00:00') /* Silveran Staff Token (33507) */
+     , (0x7008102C, 0x70081030, '2019-02-10 00:00:00') /* Silveran Spear Token (33506) */
+     , (0x7008102C, 0x70081031, '2019-02-10 00:00:00') /* Silveran Mace Token (33505) */
+     , (0x7008102C, 0x70081032, '2019-02-10 00:00:00') /* Silveran Dagger Token (33504) */
+     , (0x7008102C, 0x70081033, '2019-02-10 00:00:00') /* Silveran Crossbow Token (33503) */
+     , (0x7008102C, 0x70081034, '2019-02-10 00:00:00') /* Silveran Claw Token (33502) */
+     , (0x7008102C, 0x70081035, '2019-02-10 00:00:00') /* Silveran Bow Token (33512) */
+     , (0x7008102C, 0x70081036, '2019-02-10 00:00:00') /* Silveran Axe Token (33511) */
+     , (0x7008102C, 0x70081037, '2019-02-10 00:00:00') /* Silveran Atlatl Token (33510) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008102D, 33509, 0x00810133, 92.25, -41.25, 0.9464999, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Silveran Wand Token */

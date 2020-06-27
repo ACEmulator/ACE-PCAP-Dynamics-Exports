@@ -5,9 +5,9 @@ VALUES (0x7E05A001,  1154, 0xE05A0005, 19.67982, 117.0858, 13.64178, -0.5039455,
 /* @teleloc 0xE05A0005 [19.679820 117.085800 13.641780] -0.503946 0.000000 0.000000 -0.863735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E05A001, 0x7E05A002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7E05A001, 0x7E05A003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E05A001, 0x7E05A004, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7E05A001, 0x7E05A002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7E05A001, 0x7E05A003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E05A001, 0x7E05A004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E05A002,  7989, 0xE05A0005, 19.67982, 117.0858, 13.64178, -0.5039455, 0, 0, -0.8637354,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

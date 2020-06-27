@@ -5,8 +5,8 @@ VALUES (0x7DB79001,  1154, 0xDB79000A, 45.03049, 43.29469, 14.15065, -0.5184433,
 /* @teleloc 0xDB79000A [45.030490 43.294690 14.150650] -0.518443 0.000000 0.000000 -0.855112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB79001, 0x7DB79002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DB79001, 0x7DB79003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7DB79001, 0x7DB79002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DB79001, 0x7DB79003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB79002, 23565, 0xDB79000A, 45.03049, 43.29469, 14.15065, -0.5184433, 0, 0, -0.855112,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

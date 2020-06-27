@@ -5,16 +5,16 @@ VALUES (0x71B6A001,  1154, 0x1B6A0030, 130.244, 190.4411, 20.005, 0.7071068, 0, 
 /* @teleloc 0x1B6A0030 [130.244000 190.441100 20.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B6A001, 0x71B6A002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71B6A001, 0x71B6A003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71B6A001, 0x71B6A004, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71B6A001, 0x71B6A005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71B6A001, 0x71B6A006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71B6A001, 0x71B6A007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71B6A001, 0x71B6A008, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71B6A001, 0x71B6A009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B6A001, 0x71B6A00A, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71B6A001, 0x71B6A00B, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x71B6A001, 0x71B6A002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71B6A001, 0x71B6A003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71B6A001, 0x71B6A004, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71B6A001, 0x71B6A005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71B6A001, 0x71B6A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71B6A001, 0x71B6A007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71B6A001, 0x71B6A008, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71B6A001, 0x71B6A009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B6A001, 0x71B6A00A, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71B6A001, 0x71B6A00B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B6A002,  1757, 0x1B6A0030, 130.244, 190.4411, 20.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -61,7 +61,7 @@ VALUES (0x71B6A00C,  1542, 0x1B6A0021, 103.4357, 13.41229, 30.33747, -4.371139E-
 /* @teleloc 0x1B6A0021 [103.435700 13.412290 30.337470] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B6A00C, 0x71B6A00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B6A00C, 0x71B6A00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B6A00D,  4380, 0x1B6A0021, 103.4357, 13.41229, 30.33747, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

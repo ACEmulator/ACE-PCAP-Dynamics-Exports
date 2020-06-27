@@ -5,13 +5,13 @@ VALUES (0x7B9BA001,  1154, 0xB9BA0006, 8.04866, 123.4103, 282.6722, 0.052448, 0,
 /* @teleloc 0xB9BA0006 [8.048660 123.410300 282.672200] 0.052448 0.000000 0.000000 -0.998624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9BA001, 0x7B9BA002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B9BA001, 0x7B9BA003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B9BA001, 0x7B9BA004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B9BA001, 0x7B9BA005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9BA001, 0x7B9BA006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9BA001, 0x7B9BA007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B9BA001, 0x7B9BA008, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7B9BA001, 0x7B9BA002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B9BA001, 0x7B9BA003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B9BA001, 0x7B9BA004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B9BA001, 0x7B9BA005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9BA001, 0x7B9BA006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9BA001, 0x7B9BA007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B9BA001, 0x7B9BA008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9BA002,  9400, 0xB9BA0006, 8.04866, 123.4103, 282.6722, 0.052448, 0, 0, -0.9986237,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

@@ -5,10 +5,10 @@ VALUES (0x7A596001,  1154, 0xA5960019, 92.90435, 16.2306, 57.68738, -0.7970472, 
 /* @teleloc 0xA5960019 [92.904350 16.230600 57.687380] -0.797047 0.000000 0.000000 -0.603917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A596001, 0x7A596002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7A596001, 0x7A596003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A596001, 0x7A596004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A596001, 0x7A596005, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x7A596001, 0x7A596002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7A596001, 0x7A596003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A596001, 0x7A596004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A596001, 0x7A596005, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A596002, 21160, 0xA5960019, 92.90435, 16.2306, 57.68738, -0.7970472, 0, 0, -0.603917,  True, '2019-02-10 00:00:00'); /* Scourge */
@@ -31,7 +31,7 @@ VALUES (0x7A596006,  1542, 0xA5960024, 101.0713, 84.69757, 41.82074, 0.9238795, 
 /* @teleloc 0xA5960024 [101.071300 84.697570 41.820740] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A596006, 0x7A596007, '2019-02-10 00:00:00') /* Baishi Portal */;
+VALUES (0x7A596006, 0x7A596007, '2019-02-10 00:00:00') /* Baishi Portal (42845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A596007, 42845, 0xA5960024, 101.0713, 84.69757, 41.82074, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Baishi Portal */

@@ -5,19 +5,19 @@ VALUES (0x7B727001,  1154, 0xB7270027, 103.1787, 146.4644, 300.0397, 0.8870109, 
 /* @teleloc 0xB7270027 [103.178700 146.464400 300.039700] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B727001, 0x7B727002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B727001, 0x7B727003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B727001, 0x7B727004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B727001, 0x7B727005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B727001, 0x7B727006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B727001, 0x7B727007, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B727001, 0x7B727008, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7B727001, 0x7B727009, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B727001, 0x7B72700A, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B727001, 0x7B72700B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B727001, 0x7B72700C, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B727001, 0x7B72700D, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B727001, 0x7B72700E, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7B727001, 0x7B727002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B727001, 0x7B727003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B727001, 0x7B727004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B727001, 0x7B727005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B727001, 0x7B727006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B727001, 0x7B727007, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B727001, 0x7B727008, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7B727001, 0x7B727009, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B727001, 0x7B72700A, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B727001, 0x7B72700B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B727001, 0x7B72700C, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B727001, 0x7B72700D, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B727001, 0x7B72700E, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B727002,  4254, 0xB7270027, 103.1787, 146.4644, 300.0397, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -76,13 +76,13 @@ VALUES (0x7B72700F,  1542, 0xB727002F, 136.0263, 165.7199, 294.1586, -0.3642874,
 /* @teleloc 0xB727002F [136.026300 165.719900 294.158600] -0.364287 0.000000 0.000000 -0.931287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72700F, 0x7B727010, '2019-02-10 00:00:00') /* Rock */
-     , (0x7B72700F, 0x7B727011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B72700F, 0x7B727012, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7B72700F, 0x7B727013, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7B72700F, 0x7B727014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7B72700F, 0x7B727015, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7B72700F, 0x7B727016, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7B72700F, 0x7B727010, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B72700F, 0x7B727011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B72700F, 0x7B727012, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7B72700F, 0x7B727013, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7B72700F, 0x7B727014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7B72700F, 0x7B727015, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7B72700F, 0x7B727016, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B727010, 42528, 0xB727002F, 136.0263, 165.7199, 294.1586, -0.3642874, 0, 0, -0.9312866,  True, '2019-02-10 00:00:00'); /* Rock */

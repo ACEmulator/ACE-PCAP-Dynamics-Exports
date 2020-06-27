@@ -5,13 +5,13 @@ VALUES (0x7CF61001,  1154, 0xCF610021, 101.3039, 8.516257, 5.5555, -0.7134244, 0
 /* @teleloc 0xCF610021 [101.303900 8.516257 5.555500] -0.713424 0.000000 0.000000 -0.700732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF61001, 0x7CF61002, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7CF61001, 0x7CF61003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CF61001, 0x7CF61004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CF61001, 0x7CF61005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CF61001, 0x7CF61006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CF61001, 0x7CF61007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CF61001, 0x7CF61008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7CF61001, 0x7CF61002, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7CF61001, 0x7CF61003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CF61001, 0x7CF61004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CF61001, 0x7CF61005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CF61001, 0x7CF61006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CF61001, 0x7CF61007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CF61001, 0x7CF61008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF61002,  1619, 0xCF610021, 101.3039, 8.516257, 5.5555, -0.7134244, 0, 0, -0.7007322,  True, '2019-02-10 00:00:00'); /* Mosswart Shaman */

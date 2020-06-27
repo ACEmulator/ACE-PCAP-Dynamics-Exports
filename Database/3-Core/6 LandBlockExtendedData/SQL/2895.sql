@@ -5,13 +5,13 @@ VALUES (0x72895001,  1154, 0x28950032, 151.6834, 25.66422, 98.16544, -0.8733987,
 /* @teleloc 0x28950032 [151.683400 25.664220 98.165440] -0.873399 0.000000 0.000000 -0.487006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72895001, 0x72895002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72895001, 0x72895003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72895001, 0x72895004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72895001, 0x72895005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72895001, 0x72895006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72895001, 0x72895007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72895001, 0x72895008, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x72895001, 0x72895002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72895001, 0x72895003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72895001, 0x72895004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72895001, 0x72895005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72895001, 0x72895006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72895001, 0x72895007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72895001, 0x72895008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72895002,  7346, 0x28950032, 151.6834, 25.66422, 98.16544, -0.8733987, 0, 0, -0.4870059,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

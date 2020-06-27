@@ -5,138 +5,138 @@ VALUES (0x7F51A001,  1154, 0xF51A0007, 23.97435, 145.1471, 1.311302E-06, -0.9995
 /* @teleloc 0xF51A0007 [23.974350 145.147100 0.000001] -0.999573 0.000000 0.000000 -0.029228 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51A001, 0x7F51A002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F51A001, 0x7F51A003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A007, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F51A001, 0x7F51A008, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A009, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A00A, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F51A001, 0x7F51A00B, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F51A001, 0x7F51A00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A00D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F51A001, 0x7F51A00E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A00F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A011, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A012, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F51A001, 0x7F51A013, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F51A001, 0x7F51A014, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F51A001, 0x7F51A015, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A016, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A017, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A018, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A019, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A01A, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A01B, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A01C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F51A001, 0x7F51A01D, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7F51A001, 0x7F51A01E, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7F51A001, 0x7F51A01F, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7F51A001, 0x7F51A020, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A021, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A022, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A023, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A024, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A025, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A026, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A027, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A028, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A029, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A02A, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F51A001, 0x7F51A02B, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A02C, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A02D, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F51A001, 0x7F51A02E, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F51A001, 0x7F51A02F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A030, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A031, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A032, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7F51A001, 0x7F51A033, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A034, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A035, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F51A001, 0x7F51A036, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A037, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A038, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A039, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A03A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A03B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F51A001, 0x7F51A03C, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A03D, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A03E, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A03F, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7F51A001, 0x7F51A040, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A041, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A042, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A043, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A044, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A045, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A046, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A047, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A048, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A049, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A04A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A04B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A04C, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A04D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A04E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A04F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A050, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A051, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F51A001, 0x7F51A052, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A053, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F51A001, 0x7F51A054, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F51A001, 0x7F51A055, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F51A001, 0x7F51A056, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A057, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A058, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A059, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A05A, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A05B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A05C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F51A001, 0x7F51A05D, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A05E, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A05F, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A060, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A061, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A062, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A063, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A064, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F51A001, 0x7F51A065, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F51A001, 0x7F51A066, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A067, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A068, '2019-02-10 00:00:00') /* Sulthis Eye Stalk */
-     , (0x7F51A001, 0x7F51A069, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A06A, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A06B, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F51A001, 0x7F51A06C, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A06D, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A06E, '2019-02-10 00:00:00') /* Sulthis Tendril */
-     , (0x7F51A001, 0x7F51A06F, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A070, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A071, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F51A001, 0x7F51A072, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A073, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A074, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A075, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A076, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F51A001, 0x7F51A077, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A078, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A079, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F51A001, 0x7F51A07A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A07B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A07C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A07D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A07E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A07F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F51A001, 0x7F51A080, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A081, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A082, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F51A001, 0x7F51A083, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F51A001, 0x7F51A084, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F51A001, 0x7F51A085, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7F51A001, 0x7F51A002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F51A001, 0x7F51A003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A007, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F51A001, 0x7F51A008, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A009, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A00A, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F51A001, 0x7F51A00B, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F51A001, 0x7F51A00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A00D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F51A001, 0x7F51A00E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A00F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A011, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A012, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F51A001, 0x7F51A013, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F51A001, 0x7F51A014, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F51A001, 0x7F51A015, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A016, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A017, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A018, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A019, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A01A, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A01B, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A01C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F51A001, 0x7F51A01D, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7F51A001, 0x7F51A01E, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7F51A001, 0x7F51A01F, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7F51A001, 0x7F51A020, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A021, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A022, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A023, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A024, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A025, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A026, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A027, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A028, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A029, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A02A, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F51A001, 0x7F51A02B, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A02C, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A02D, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F51A001, 0x7F51A02E, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F51A001, 0x7F51A02F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A030, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A031, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A032, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7F51A001, 0x7F51A033, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A034, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A035, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F51A001, 0x7F51A036, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A037, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A038, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A039, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A03A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A03B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F51A001, 0x7F51A03C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A03D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A03E, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A03F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7F51A001, 0x7F51A040, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A041, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A042, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A043, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A044, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A045, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A046, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A047, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A048, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A049, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A04A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A04B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A04C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A04D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A04E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A04F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A050, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A051, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F51A001, 0x7F51A052, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A053, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F51A001, 0x7F51A054, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F51A001, 0x7F51A055, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F51A001, 0x7F51A056, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A057, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A058, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A059, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A05A, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A05B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A05C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F51A001, 0x7F51A05D, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A05E, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A05F, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A060, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A061, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A062, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A063, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A064, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F51A001, 0x7F51A065, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F51A001, 0x7F51A066, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A067, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A068, '2019-02-10 00:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F51A001, 0x7F51A069, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A06A, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A06B, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F51A001, 0x7F51A06C, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A06D, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A06E, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F51A001, 0x7F51A06F, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A070, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A071, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F51A001, 0x7F51A072, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A073, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A074, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A075, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A076, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F51A001, 0x7F51A077, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A078, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A079, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F51A001, 0x7F51A07A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A07B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A07C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A07D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A07E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A07F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F51A001, 0x7F51A080, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A081, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A082, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F51A001, 0x7F51A083, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F51A001, 0x7F51A084, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F51A001, 0x7F51A085, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51A002,  7126, 0xF51A0007, 23.97435, 145.1471, 1.311302E-06, -0.9995728, 0, 0, -0.02922825,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -671,11 +671,11 @@ VALUES (0x7F51A086,  1542, 0xF51A0011, 56.88378, 4.245499, 100, 0.9990482, 0, 0,
 /* @teleloc 0xF51A0011 [56.883780 4.245499 100.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51A086, 0x7F51A087, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F51A086, 0x7F51A088, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7F51A086, 0x7F51A089, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F51A086, 0x7F51A08A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F51A086, 0x7F51A08B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F51A086, 0x7F51A087, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F51A086, 0x7F51A088, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7F51A086, 0x7F51A089, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7F51A086, 0x7F51A08A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F51A086, 0x7F51A08B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51A087,  4179, 0xF51A0011, 56.88378, 4.245499, 100, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

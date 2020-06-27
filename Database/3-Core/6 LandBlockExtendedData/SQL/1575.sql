@@ -5,14 +5,14 @@ VALUES (0x71575001,  1154, 0x15750031, 160.4271, 19.5845, 40.725, 0.3987491, 0, 
 /* @teleloc 0x15750031 [160.427100 19.584500 40.725000] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71575001, 0x71575002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71575001, 0x71575003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71575001, 0x71575004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71575001, 0x71575005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71575001, 0x71575006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71575001, 0x71575007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71575001, 0x71575008, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71575001, 0x71575009, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x71575001, 0x71575002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71575001, 0x71575003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71575001, 0x71575004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71575001, 0x71575005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71575001, 0x71575006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71575001, 0x71575007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71575001, 0x71575008, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71575001, 0x71575009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71575002, 36843, 0x15750031, 160.4271, 19.5845, 40.725, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -51,9 +51,9 @@ VALUES (0x7157500A,  1542, 0x15750031, 164.2472, 23.22548, 40.725, 0.9990482, 0,
 /* @teleloc 0x15750031 [164.247200 23.225480 40.725000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7157500A, 0x7157500B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7157500A, 0x7157500C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7157500A, 0x7157500D, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7157500A, 0x7157500B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7157500A, 0x7157500C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7157500A, 0x7157500D, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7157500B,  4179, 0x15750031, 164.2472, 23.22548, 40.725, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

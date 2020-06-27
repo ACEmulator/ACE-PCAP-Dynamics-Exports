@@ -281,7 +281,7 @@ VALUES (0x75463069,  1154, 0x546302A5, 218.801, -71.9973, -5.9905, -0.740316, 0,
 /* @teleloc 0x546302A5 [218.801000 -71.997300 -5.990500] -0.740316 0.000000 0.000000 -0.672259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75463069, 0x7546306A, '2019-02-10 00:00:00') /* Oubliette Gatekeeper */;
+VALUES (0x75463069, 0x7546306A, '2019-02-10 00:00:00') /* Oubliette Gatekeeper (16912) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7546306A, 16912, 0x546302A5, 218.801, -71.9973, -5.9905, -0.740316, 0, 0, -0.672259,  True, '2019-02-10 00:00:00'); /* Oubliette Gatekeeper */
@@ -292,16 +292,16 @@ VALUES (0x7546306B,  1542, 0x54630328, 148.727, -69.6912, 0.057, 0.423643, 0, 0,
 /* @teleloc 0x54630328 [148.727000 -69.691200 0.057000] 0.423643 0.000000 0.000000 0.905829 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7546306B, 0x7546306C, '2019-02-10 00:00:00') /* Empty Binding */
-     , (0x7546306B, 0x7546306D, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x7546306E, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x7546306F, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x75463070, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x75463071, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x75463072, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x75463073, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */
-     , (0x7546306B, 0x75463074, '2019-02-10 00:00:00') /* Gelidite Dais */
-     , (0x7546306B, 0x75463075, '2019-02-10 00:00:00') /* A Hastily Scrawled Note */;
+VALUES (0x7546306B, 0x7546306C, '2019-02-10 00:00:00') /* Empty Binding (15853) */
+     , (0x7546306B, 0x7546306D, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15781) */
+     , (0x7546306B, 0x7546306E, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15783) */
+     , (0x7546306B, 0x7546306F, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15782) */
+     , (0x7546306B, 0x75463070, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15787) */
+     , (0x7546306B, 0x75463071, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15785) */
+     , (0x7546306B, 0x75463072, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15786) */
+     , (0x7546306B, 0x75463073, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15784) */
+     , (0x7546306B, 0x75463074, '2019-02-10 00:00:00') /* Gelidite Dais (15855) */
+     , (0x7546306B, 0x75463075, '2019-02-10 00:00:00') /* A Hastily Scrawled Note (15788) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7546306C, 15853, 0x54630328, 148.727, -69.6912, 0.057, 0.423643, 0, 0, 0.905829,  True, '2019-02-10 00:00:00'); /* Empty Binding */

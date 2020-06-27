@@ -5,17 +5,17 @@ VALUES (0x7D63C001,  1154, 0xD63C0021, 114.0933, 13.75201, 147.718, -0.7660444, 
 /* @teleloc 0xD63C0021 [114.093300 13.752010 147.718000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D63C001, 0x7D63C002, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7D63C001, 0x7D63C003, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7D63C001, 0x7D63C004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D63C001, 0x7D63C005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D63C001, 0x7D63C006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D63C001, 0x7D63C007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D63C001, 0x7D63C008, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7D63C001, 0x7D63C009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D63C001, 0x7D63C00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D63C001, 0x7D63C00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D63C001, 0x7D63C00C, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7D63C001, 0x7D63C002, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D63C001, 0x7D63C003, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D63C001, 0x7D63C004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D63C001, 0x7D63C005, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7D63C001, 0x7D63C006, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7D63C001, 0x7D63C007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D63C001, 0x7D63C008, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7D63C001, 0x7D63C009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D63C001, 0x7D63C00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D63C001, 0x7D63C00B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D63C001, 0x7D63C00C, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D63C002, 24943, 0xD63C0021, 114.0933, 13.75201, 147.718, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */
@@ -66,7 +66,7 @@ VALUES (0x7D63C00D,  1542, 0xD63C0024, 104.4187, 92.25741, 137.4548, 1, 0, 0, 0,
 /* @teleloc 0xD63C0024 [104.418700 92.257410 137.454800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D63C00D, 0x7D63C00E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D63C00D, 0x7D63C00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D63C00E, 31443, 0xD63C0024, 104.4187, 92.25741, 137.4548, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

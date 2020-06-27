@@ -5,31 +5,31 @@ VALUES (0x72F2B001,  1154, 0x2F2B0019, 83.04642, 23.76788, 77.98566, -0.2044312,
 /* @teleloc 0x2F2B0019 [83.046420 23.767880 77.985660] -0.204431 0.000000 0.000000 -0.978881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2B001, 0x72F2B002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F2B001, 0x72F2B003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F2B001, 0x72F2B004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2B001, 0x72F2B005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F2B001, 0x72F2B006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2B001, 0x72F2B007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2B001, 0x72F2B008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2B001, 0x72F2B009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2B001, 0x72F2B00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2B001, 0x72F2B00B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F2B001, 0x72F2B00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2B001, 0x72F2B00D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2B001, 0x72F2B00E, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2B001, 0x72F2B00F, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F2B001, 0x72F2B010, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2B001, 0x72F2B011, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2B001, 0x72F2B012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F2B001, 0x72F2B013, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F2B001, 0x72F2B014, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F2B001, 0x72F2B015, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2B001, 0x72F2B016, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F2B001, 0x72F2B017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F2B001, 0x72F2B018, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72F2B001, 0x72F2B019, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2B001, 0x72F2B01A, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x72F2B001, 0x72F2B002, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72F2B001, 0x72F2B003, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F2B001, 0x72F2B004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2B001, 0x72F2B005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F2B001, 0x72F2B006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2B001, 0x72F2B007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2B001, 0x72F2B008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2B001, 0x72F2B009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2B001, 0x72F2B00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2B001, 0x72F2B00B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F2B001, 0x72F2B00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2B001, 0x72F2B00D, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2B001, 0x72F2B00E, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2B001, 0x72F2B00F, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F2B001, 0x72F2B010, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2B001, 0x72F2B011, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2B001, 0x72F2B012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F2B001, 0x72F2B013, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F2B001, 0x72F2B014, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F2B001, 0x72F2B015, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2B001, 0x72F2B016, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F2B001, 0x72F2B017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F2B001, 0x72F2B018, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72F2B001, 0x72F2B019, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2B001, 0x72F2B01A, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2B002, 36851, 0x2F2B0019, 83.04642, 23.76788, 77.98566, -0.2044312, 0, 0, -0.9788809,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

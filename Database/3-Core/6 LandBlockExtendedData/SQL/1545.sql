@@ -5,18 +5,18 @@ VALUES (0x71545001,  1154, 0x15450013, 68.51989, 50.37972, 5.250671, 0.9659258, 
 /* @teleloc 0x15450013 [68.519890 50.379720 5.250671] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71545001, 0x71545002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71545001, 0x71545003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71545001, 0x71545004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71545001, 0x71545005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71545001, 0x71545006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71545001, 0x71545007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71545001, 0x71545008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71545001, 0x71545009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71545001, 0x7154500A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71545001, 0x7154500B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71545001, 0x7154500C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71545001, 0x7154500D, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71545001, 0x71545002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71545001, 0x71545003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71545001, 0x71545004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71545001, 0x71545005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71545001, 0x71545006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71545001, 0x71545007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71545001, 0x71545008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71545001, 0x71545009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71545001, 0x7154500A, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71545001, 0x7154500B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71545001, 0x7154500C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71545001, 0x7154500D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71545002,  9264, 0x15450013, 68.51989, 50.37972, 5.250671, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -71,8 +71,8 @@ VALUES (0x7154500E,  1542, 0x15450007, 13.06874, 159.8529, 12.04389, -0.9851608,
 /* @teleloc 0x15450007 [13.068740 159.852900 12.043890] -0.985161 0.000000 0.000000 -0.171634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154500E, 0x7154500F, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7154500E, 0x71545010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7154500E, 0x7154500F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7154500E, 0x71545010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154500F,  9288, 0x15450007, 13.06874, 159.8529, 12.04389, -0.9851608, 0, 0, -0.1716338,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,17 +5,17 @@ VALUES (0x7C72E001,  1154, 0xC72E001A, 76.06133, 29.45794, 234.5241, -0.9215243,
 /* @teleloc 0xC72E001A [76.061330 29.457940 234.524100] -0.921524 0.000000 0.000000 -0.388321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C72E001, 0x7C72E002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C72E001, 0x7C72E003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E007, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7C72E001, 0x7C72E008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C72E001, 0x7C72E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7C72E001, 0x7C72E00B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72E001, 0x7C72E00C, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7C72E001, 0x7C72E002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C72E001, 0x7C72E003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E007, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7C72E001, 0x7C72E008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C72E001, 0x7C72E009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7C72E001, 0x7C72E00B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72E001, 0x7C72E00C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72E002,  1757, 0xC72E001A, 76.06133, 29.45794, 234.5241, -0.9215243, 0, 0, -0.3883205,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -66,7 +66,7 @@ VALUES (0x7C72E00D,  1542, 0xC72E0005, 3.444807, 98.84633, 194.3369, 1, 0, 0, 0,
 /* @teleloc 0xC72E0005 [3.444807 98.846330 194.336900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C72E00D, 0x7C72E00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C72E00D, 0x7C72E00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72E00E, 22571, 0xC72E0005, 3.444807, 98.84633, 194.3369, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,19 +5,19 @@ VALUES (0x7434F001,  1154, 0x434F002A, 122.2314, 31.10721, 10.78647, -0.7710906,
 /* @teleloc 0x434F002A [122.231400 31.107210 10.786470] -0.771091 0.000000 0.000000 -0.636725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7434F001, 0x7434F002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7434F001, 0x7434F003, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7434F001, 0x7434F004, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7434F001, 0x7434F005, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7434F001, 0x7434F006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7434F001, 0x7434F007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7434F001, 0x7434F008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7434F001, 0x7434F009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7434F001, 0x7434F00A, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7434F001, 0x7434F00B, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7434F001, 0x7434F00C, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7434F001, 0x7434F00D, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7434F001, 0x7434F00E, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x7434F001, 0x7434F002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7434F001, 0x7434F003, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7434F001, 0x7434F004, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7434F001, 0x7434F005, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7434F001, 0x7434F006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7434F001, 0x7434F007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7434F001, 0x7434F008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7434F001, 0x7434F009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7434F001, 0x7434F00A, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7434F001, 0x7434F00B, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7434F001, 0x7434F00C, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7434F001, 0x7434F00D, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7434F001, 0x7434F00E, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434F002, 24320, 0x434F002A, 122.2314, 31.10721, 10.78647, -0.7710906, 0, 0, -0.6367254,  True, '2019-02-10 00:00:00'); /* Great Revenant */

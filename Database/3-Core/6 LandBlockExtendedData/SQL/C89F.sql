@@ -5,12 +5,12 @@ VALUES (0x7C89F001,  1154, 0xC89F0003, 23.0857, 55.91046, 17.32091, 0.1879503, 0
 /* @teleloc 0xC89F0003 [23.085700 55.910460 17.320910] 0.187950 0.000000 0.000000 -0.982179 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C89F001, 0x7C89F002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7C89F001, 0x7C89F003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C89F001, 0x7C89F004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C89F001, 0x7C89F005, '2019-02-10 00:00:00') /* Gout */
-     , (0x7C89F001, 0x7C89F006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C89F001, 0x7C89F007, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7C89F001, 0x7C89F002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7C89F001, 0x7C89F003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C89F001, 0x7C89F004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C89F001, 0x7C89F005, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7C89F001, 0x7C89F006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C89F001, 0x7C89F007, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C89F002, 28878, 0xC89F0003, 23.0857, 55.91046, 17.32091, 0.1879503, 0, 0, -0.9821786,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -41,7 +41,7 @@ VALUES (0x7C89F008,  1542, 0xC89F0003, 21.227, 55.17206, 17.32091, 1, 0, 0, 0, F
 /* @teleloc 0xC89F0003 [21.227000 55.172060 17.320910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C89F008, 0x7C89F009, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7C89F008, 0x7C89F009, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C89F009,  8232, 0xC89F0003, 21.227, 55.17206, 17.32091, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

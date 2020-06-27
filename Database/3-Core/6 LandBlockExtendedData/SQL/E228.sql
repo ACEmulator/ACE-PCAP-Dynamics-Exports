@@ -5,10 +5,10 @@ VALUES (0x7E228001,  1154, 0xE2280028, 108.2919, 171.1496, -0.9217501, 0.8726363
 /* @teleloc 0xE2280028 [108.291900 171.149600 -0.921750] 0.872636 0.000000 0.000000 -0.488371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E228001, 0x7E228002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E228001, 0x7E228003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E228001, 0x7E228004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E228001, 0x7E228005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7E228001, 0x7E228002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E228001, 0x7E228003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E228001, 0x7E228004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E228001, 0x7E228005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E228002,  4255, 0xE2280028, 108.2919, 171.1496, -0.9217501, 0.8726363, 0, 0, -0.4883706,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

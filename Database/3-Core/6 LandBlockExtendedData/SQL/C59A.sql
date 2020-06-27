@@ -5,17 +5,17 @@ VALUES (0x7C59A001,  1154, 0xC59A0011, 71.29079, 18.68732, 1.9035, 0.2993677, 0,
 /* @teleloc 0xC59A0011 [71.290790 18.687320 1.903500] 0.299368 0.000000 0.000000 -0.954138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C59A001, 0x7C59A002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C59A001, 0x7C59A003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C59A001, 0x7C59A004, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C59A001, 0x7C59A005, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C59A001, 0x7C59A006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C59A001, 0x7C59A007, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C59A001, 0x7C59A008, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C59A001, 0x7C59A009, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C59A001, 0x7C59A00A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C59A001, 0x7C59A00B, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7C59A001, 0x7C59A00C, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7C59A001, 0x7C59A002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C59A001, 0x7C59A003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C59A001, 0x7C59A004, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C59A001, 0x7C59A005, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C59A001, 0x7C59A006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C59A001, 0x7C59A007, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C59A001, 0x7C59A008, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C59A001, 0x7C59A009, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C59A001, 0x7C59A00A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C59A001, 0x7C59A00B, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7C59A001, 0x7C59A00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C59A002,   192, 0xC59A0011, 71.29079, 18.68732, 1.9035, 0.2993677, 0, 0, -0.9541378,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

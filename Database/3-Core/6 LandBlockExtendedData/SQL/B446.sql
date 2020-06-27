@@ -5,12 +5,12 @@ VALUES (0x7B446001,  1154, 0xB4460009, 47.36272, 12.9231, 22.92558, 0.9238795, 0
 /* @teleloc 0xB4460009 [47.362720 12.923100 22.925580] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B446001, 0x7B446002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B446001, 0x7B446003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B446001, 0x7B446004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B446001, 0x7B446005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B446001, 0x7B446006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B446001, 0x7B446007, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7B446001, 0x7B446002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B446001, 0x7B446003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B446001, 0x7B446004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B446001, 0x7B446005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B446001, 0x7B446006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B446001, 0x7B446007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B446002,  8270, 0xB4460009, 47.36272, 12.9231, 22.92558, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

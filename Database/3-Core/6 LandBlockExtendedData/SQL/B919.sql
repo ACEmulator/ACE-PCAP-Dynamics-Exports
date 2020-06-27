@@ -5,14 +5,14 @@ VALUES (0x7B919001,  1154, 0xB919001A, 81.64544, 32.4522, 142.5344, 0.04963904, 
 /* @teleloc 0xB919001A [81.645440 32.452200 142.534400] 0.049639 0.000000 0.000000 -0.998767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B919001, 0x7B919002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B919001, 0x7B919003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B919001, 0x7B919004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B919001, 0x7B919005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B919001, 0x7B919006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B919001, 0x7B919007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B919001, 0x7B919008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7B919001, 0x7B919009, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7B919001, 0x7B919002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B919001, 0x7B919003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B919001, 0x7B919004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B919001, 0x7B919005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B919001, 0x7B919006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B919001, 0x7B919007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B919001, 0x7B919008, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7B919001, 0x7B919009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B919002,  8141, 0xB919001A, 81.64544, 32.4522, 142.5344, 0.04963904, 0, 0, -0.9987672,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -51,7 +51,7 @@ VALUES (0x7B91900A,  1542, 0xB9190016, 65.5409, 128.6537, 151.1021, 0.5437176, 0
 /* @teleloc 0xB9190016 [65.540900 128.653700 151.102100] 0.543718 0.000000 0.000000 -0.839268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91900A, 0x7B91900B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B91900A, 0x7B91900B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91900B, 42528, 0xB9190016, 65.5409, 128.6537, 151.1021, 0.5437176, 0, 0, -0.8392682,  True, '2019-02-10 00:00:00'); /* Rock */

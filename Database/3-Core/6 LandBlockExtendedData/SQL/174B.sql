@@ -5,12 +5,12 @@ VALUES (0x7174B001,  1154, 0x174B0026, 102.7916, 121.8973, 4.632433, -0.9999403,
 /* @teleloc 0x174B0026 [102.791600 121.897300 4.632433] -0.999940 0.000000 0.000000 -0.010931 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174B001, 0x7174B002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7174B001, 0x7174B003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7174B001, 0x7174B004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7174B001, 0x7174B005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7174B001, 0x7174B006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7174B001, 0x7174B007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x7174B001, 0x7174B002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7174B001, 0x7174B003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7174B001, 0x7174B004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7174B001, 0x7174B005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7174B001, 0x7174B006, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7174B001, 0x7174B007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174B002, 24133, 0x174B0026, 102.7916, 121.8973, 4.632433, -0.9999403, 0, 0, -0.01093071,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

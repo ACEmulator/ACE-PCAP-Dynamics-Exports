@@ -5,8 +5,8 @@ VALUES (0x78CBB001,  1154, 0x8CBB0022, 114.1698, 35.81383, 92.43639, -4.371139E-
 /* @teleloc 0x8CBB0022 [114.169800 35.813830 92.436390] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CBB001, 0x78CBB002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CBB001, 0x78CBB003, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x78CBB001, 0x78CBB002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CBB001, 0x78CBB003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CBB002,  7333, 0x8CBB0022, 114.1698, 35.81383, 92.43639, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -21,7 +21,7 @@ VALUES (0x78CBB004,  1542, 0x8CBB0022, 114.4898, 39.53372, 92.34718, -4.371139E-
 /* @teleloc 0x8CBB0022 [114.489800 39.533720 92.347180] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CBB004, 0x78CBB005, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78CBB004, 0x78CBB005, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CBB005,  4380, 0x8CBB0022, 114.4898, 39.53372, 92.34718, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

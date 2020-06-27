@@ -5,13 +5,13 @@ VALUES (0x79F74001,  1154, 0x9F740032, 164.6359, 46.85704, 22.0025, -0.7567884, 
 /* @teleloc 0x9F740032 [164.635900 46.857040 22.002500] -0.756788 0.000000 0.000000 -0.653660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F74001, 0x79F74002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79F74001, 0x79F74003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x79F74001, 0x79F74004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79F74001, 0x79F74005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79F74001, 0x79F74006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79F74001, 0x79F74007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79F74001, 0x79F74008, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x79F74001, 0x79F74002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79F74001, 0x79F74003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x79F74001, 0x79F74004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79F74001, 0x79F74005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79F74001, 0x79F74006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79F74001, 0x79F74007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79F74001, 0x79F74008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F74002,  1762, 0x9F740032, 164.6359, 46.85704, 22.0025, -0.7567884, 0, 0, -0.65366,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

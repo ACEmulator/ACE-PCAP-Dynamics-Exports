@@ -5,16 +5,16 @@ VALUES (0x7BFA4001,  1154, 0xBFA4000C, 24.13918, 79.57108, 17.27184, -0.8968996,
 /* @teleloc 0xBFA4000C [24.139180 79.571080 17.271840] -0.896900 0.000000 0.000000 -0.442234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA4001, 0x7BFA4002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BFA4001, 0x7BFA4003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA4004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA4005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA4006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BFA4001, 0x7BFA4007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA4008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA4009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA400A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA4001, 0x7BFA400B, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BFA4001, 0x7BFA4002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BFA4001, 0x7BFA4003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA4004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA4005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA4006, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BFA4001, 0x7BFA4007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA4008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA4009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA400A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA4001, 0x7BFA400B, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA4002,   202, 0xBFA4000C, 24.13918, 79.57108, 17.27184, -0.8968996, 0, 0, -0.4422341,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

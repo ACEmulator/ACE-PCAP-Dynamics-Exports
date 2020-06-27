@@ -5,8 +5,8 @@ VALUES (0x7C057001,  1154, 0xC057001E, 81.57532, 138.3876, 16.00455, -0.5545385,
 /* @teleloc 0xC057001E [81.575320 138.387600 16.004550] -0.554539 0.000000 0.000000 -0.832158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C057001, 0x7C057002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C057001, 0x7C057003, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C057001, 0x7C057002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C057001, 0x7C057003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C057002,  1609, 0xC057001E, 81.57532, 138.3876, 16.00455, -0.5545385, 0, 0, -0.8321581,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

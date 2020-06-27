@@ -5,19 +5,19 @@ VALUES (0x737F4001,  1154, 0x37F4000B, 40.81903, 54.06443, 84.24352, 0.7572209, 
 /* @teleloc 0x37F4000B [40.819030 54.064430 84.243520] 0.757221 0.000000 0.000000 -0.653159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737F4001, 0x737F4002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737F4001, 0x737F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x737F4001, 0x737F4004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x737F4001, 0x737F4005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x737F4001, 0x737F4006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x737F4001, 0x737F4007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x737F4001, 0x737F4008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x737F4001, 0x737F4009, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x737F4001, 0x737F400A, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737F4001, 0x737F400B, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737F4001, 0x737F400C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737F4001, 0x737F400D, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x737F4001, 0x737F400E, '2019-02-10 00:00:00') /* Ruschk Warlord */;
+VALUES (0x737F4001, 0x737F4002, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737F4001, 0x737F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x737F4001, 0x737F4004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x737F4001, 0x737F4005, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x737F4001, 0x737F4006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x737F4001, 0x737F4007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x737F4001, 0x737F4008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x737F4001, 0x737F4009, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x737F4001, 0x737F400A, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737F4001, 0x737F400B, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737F4001, 0x737F400C, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737F4001, 0x737F400D, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x737F4001, 0x737F400E, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737F4002, 24292, 0x37F4000B, 40.81903, 54.06443, 84.24352, 0.7572209, 0, 0, -0.6531588,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

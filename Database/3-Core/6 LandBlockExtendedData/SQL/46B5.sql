@@ -5,16 +5,16 @@ VALUES (0x746B5001,  1154, 0x46B5003A, 168.6471, 35.0196, 100.7866, 0.4762399, 0
 /* @teleloc 0x46B5003A [168.647100 35.019600 100.786600] 0.476240 0.000000 0.000000 -0.879315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746B5001, 0x746B5002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x746B5001, 0x746B5003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x746B5001, 0x746B5004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x746B5001, 0x746B5005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x746B5001, 0x746B5006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x746B5001, 0x746B5007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x746B5001, 0x746B5008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x746B5001, 0x746B5009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x746B5001, 0x746B500A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x746B5001, 0x746B500B, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x746B5001, 0x746B5002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x746B5001, 0x746B5003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x746B5001, 0x746B5004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x746B5001, 0x746B5005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x746B5001, 0x746B5006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x746B5001, 0x746B5007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x746B5001, 0x746B5008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x746B5001, 0x746B5009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x746B5001, 0x746B500A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x746B5001, 0x746B500B, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746B5002, 22519, 0x46B5003A, 168.6471, 35.0196, 100.7866, 0.4762399, 0, 0, -0.8793154,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

@@ -5,12 +5,12 @@ VALUES (0x7CD3C001,  1154, 0xCD3C0013, 54.54327, 57.45434, 186.7921, 0.8191521, 
 /* @teleloc 0xCD3C0013 [54.543270 57.454340 186.792100] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3C001, 0x7CD3C002, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CD3C001, 0x7CD3C003, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CD3C001, 0x7CD3C004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CD3C001, 0x7CD3C005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3C001, 0x7CD3C006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CD3C001, 0x7CD3C007, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7CD3C001, 0x7CD3C002, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CD3C001, 0x7CD3C003, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CD3C001, 0x7CD3C004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CD3C001, 0x7CD3C005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3C001, 0x7CD3C006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CD3C001, 0x7CD3C007, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3C002,  7993, 0xCD3C0013, 54.54327, 57.45434, 186.7921, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Linvak Ursuin */

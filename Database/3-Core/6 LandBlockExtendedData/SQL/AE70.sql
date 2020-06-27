@@ -5,28 +5,28 @@ VALUES (0x7AE70001,  1154, 0xAE700018, 55.50116, 175.1017, 21.3774, 0.155875, 0,
 /* @teleloc 0xAE700018 [55.501160 175.101700 21.377400] 0.155875 0.000000 0.000000 -0.987777 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE70001, 0x7AE70002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE70001, 0x7AE70003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AE70001, 0x7AE70004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AE70001, 0x7AE70005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE70001, 0x7AE70006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AE70001, 0x7AE70007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AE70001, 0x7AE70008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AE70001, 0x7AE70009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AE70001, 0x7AE7000A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE70001, 0x7AE7000B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE70001, 0x7AE7000C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE70001, 0x7AE7000D, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AE70001, 0x7AE7000E, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AE70001, 0x7AE7000F, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AE70001, 0x7AE70010, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AE70001, 0x7AE70011, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AE70001, 0x7AE70012, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE70001, 0x7AE70013, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7AE70001, 0x7AE70014, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AE70001, 0x7AE70015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE70001, 0x7AE70016, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE70001, 0x7AE70017, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AE70001, 0x7AE70002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE70001, 0x7AE70003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AE70001, 0x7AE70004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AE70001, 0x7AE70005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE70001, 0x7AE70006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AE70001, 0x7AE70007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AE70001, 0x7AE70008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AE70001, 0x7AE70009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AE70001, 0x7AE7000A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE70001, 0x7AE7000B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE70001, 0x7AE7000C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE70001, 0x7AE7000D, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AE70001, 0x7AE7000E, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AE70001, 0x7AE7000F, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AE70001, 0x7AE70010, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AE70001, 0x7AE70011, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AE70001, 0x7AE70012, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE70001, 0x7AE70013, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7AE70001, 0x7AE70014, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AE70001, 0x7AE70015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE70001, 0x7AE70016, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE70001, 0x7AE70017, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE70002,  1756, 0xAE700018, 55.50116, 175.1017, 21.3774, 0.155875, 0, 0, -0.9877768,  True, '2019-02-10 00:00:00'); /* Shadow Child */

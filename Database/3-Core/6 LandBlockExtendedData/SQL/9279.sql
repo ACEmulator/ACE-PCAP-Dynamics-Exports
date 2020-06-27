@@ -5,9 +5,9 @@ VALUES (0x79279001,  1154, 0x9279000D, 26.05873, 102.062, 20.18356, 0.913159, 0,
 /* @teleloc 0x9279000D [26.058730 102.062000 20.183560] 0.913159 0.000000 0.000000 -0.407604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79279001, 0x79279002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79279001, 0x79279003, '2019-02-10 00:00:00') /* Undead */
-     , (0x79279001, 0x79279004, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x79279001, 0x79279002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79279001, 0x79279003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79279001, 0x79279004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79279002,  1623, 0x9279000D, 26.05873, 102.062, 20.18356, 0.913159, 0, 0, -0.4076035,  True, '2019-02-10 00:00:00'); /* Desert Rat */

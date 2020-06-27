@@ -5,17 +5,17 @@ VALUES (0x7ACB4001,  1154, 0xACB40010, 30.40572, 174.045, 27.105, -0.3245493, 0,
 /* @teleloc 0xACB40010 [30.405720 174.045000 27.105000] -0.324549 0.000000 0.000000 -0.945869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACB4001, 0x7ACB4002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ACB4001, 0x7ACB4003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ACB4001, 0x7ACB4004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ACB4001, 0x7ACB4005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ACB4001, 0x7ACB4006, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ACB4001, 0x7ACB4007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ACB4001, 0x7ACB4008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ACB4001, 0x7ACB4009, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ACB4001, 0x7ACB400A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ACB4001, 0x7ACB400B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ACB4001, 0x7ACB400C, '2019-02-10 00:00:00') /* Gnawer Shreth */;
+VALUES (0x7ACB4001, 0x7ACB4002, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ACB4001, 0x7ACB4003, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ACB4001, 0x7ACB4004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ACB4001, 0x7ACB4005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ACB4001, 0x7ACB4006, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ACB4001, 0x7ACB4007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ACB4001, 0x7ACB4008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ACB4001, 0x7ACB4009, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ACB4001, 0x7ACB400A, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ACB4001, 0x7ACB400B, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ACB4001, 0x7ACB400C, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACB4002, 19259, 0xACB40010, 30.40572, 174.045, 27.105, -0.3245493, 0, 0, -0.9458688,  True, '2019-02-10 00:00:00'); /* Mite Scion */

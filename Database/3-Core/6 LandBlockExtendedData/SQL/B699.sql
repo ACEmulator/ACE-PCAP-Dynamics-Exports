@@ -5,10 +5,10 @@ VALUES (0x7B699001,  1154, 0xB6990022, 97.41713, 46.20824, 23.88791, 0.8870109, 
 /* @teleloc 0xB6990022 [97.417130 46.208240 23.887910] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B699001, 0x7B699002, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B699001, 0x7B699003, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B699001, 0x7B699004, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B699001, 0x7B699005, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7B699001, 0x7B699002, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B699001, 0x7B699003, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B699001, 0x7B699004, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B699001, 0x7B699005, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B699002,   209, 0xB6990022, 97.41713, 46.20824, 23.88791, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Mite Squib */

@@ -5,17 +5,17 @@ VALUES (0x7CC1E001,  1154, 0xCC1E0014, 56.05164, 94.52237, 93.76983, 0.9396926, 
 /* @teleloc 0xCC1E0014 [56.051640 94.522370 93.769830] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC1E001, 0x7CC1E002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC1E001, 0x7CC1E003, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7CC1E001, 0x7CC1E004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC1E001, 0x7CC1E005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CC1E001, 0x7CC1E006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CC1E001, 0x7CC1E007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CC1E001, 0x7CC1E008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CC1E001, 0x7CC1E009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CC1E001, 0x7CC1E00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC1E001, 0x7CC1E00B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CC1E001, 0x7CC1E00C, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x7CC1E001, 0x7CC1E002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC1E001, 0x7CC1E003, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7CC1E001, 0x7CC1E004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC1E001, 0x7CC1E005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CC1E001, 0x7CC1E006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CC1E001, 0x7CC1E007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CC1E001, 0x7CC1E008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CC1E001, 0x7CC1E009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CC1E001, 0x7CC1E00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC1E001, 0x7CC1E00B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CC1E001, 0x7CC1E00C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC1E002, 37100, 0xCC1E0014, 56.05164, 94.52237, 93.76983, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
@@ -66,7 +66,7 @@ VALUES (0x7CC1E00D,  1542, 0xCC1E000C, 29.17245, 75.67612, 100.2191, -0.6609056,
 /* @teleloc 0xCC1E000C [29.172450 75.676120 100.219100] -0.660906 0.000000 0.000000 -0.750469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC1E00D, 0x7CC1E00E, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7CC1E00D, 0x7CC1E00E, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC1E00E, 31687, 0xCC1E000C, 29.17245, 75.67612, 100.2191, -0.6609056, 0, 0, -0.750469,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

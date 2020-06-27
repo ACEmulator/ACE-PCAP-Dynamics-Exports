@@ -5,27 +5,27 @@ VALUES (0x7DB87001,  1154, 0xDB87002E, 136.5456, 129.8506, -0.4434, -0.6407251, 
 /* @teleloc 0xDB87002E [136.545600 129.850600 -0.443400] -0.640725 0.000000 0.000000 -0.767770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB87001, 0x7DB87002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7DB87001, 0x7DB87003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DB87001, 0x7DB87004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DB87001, 0x7DB87005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7DB87001, 0x7DB87006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DB87001, 0x7DB87007, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DB87001, 0x7DB87008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7DB87001, 0x7DB87009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DB87001, 0x7DB8700A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7DB87001, 0x7DB8700B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7DB87001, 0x7DB8700C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7DB87001, 0x7DB8700D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7DB87001, 0x7DB8700E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DB87001, 0x7DB8700F, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DB87001, 0x7DB87010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DB87001, 0x7DB87011, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DB87001, 0x7DB87012, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7DB87001, 0x7DB87013, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7DB87001, 0x7DB87014, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DB87001, 0x7DB87015, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7DB87001, 0x7DB87016, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7DB87001, 0x7DB87002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7DB87001, 0x7DB87003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DB87001, 0x7DB87004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DB87001, 0x7DB87005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7DB87001, 0x7DB87006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DB87001, 0x7DB87007, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DB87001, 0x7DB87008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DB87001, 0x7DB87009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DB87001, 0x7DB8700A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7DB87001, 0x7DB8700B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7DB87001, 0x7DB8700C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7DB87001, 0x7DB8700D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7DB87001, 0x7DB8700E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7DB87001, 0x7DB8700F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DB87001, 0x7DB87010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DB87001, 0x7DB87011, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DB87001, 0x7DB87012, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7DB87001, 0x7DB87013, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DB87001, 0x7DB87014, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DB87001, 0x7DB87015, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7DB87001, 0x7DB87016, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB87002,  8429, 0xDB87002E, 136.5456, 129.8506, -0.4434, -0.6407251, 0, 0, -0.7677703,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

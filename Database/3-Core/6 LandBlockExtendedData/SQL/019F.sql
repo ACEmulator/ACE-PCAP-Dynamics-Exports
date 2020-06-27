@@ -33,19 +33,19 @@ VALUES (0x7019F027,  1154, 0x019F0110, 18.3358, -19.2994, -5.988, -0.7071068, 0,
 /* @teleloc 0x019F0110 [18.335800 -19.299400 -5.988000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019F027, 0x7019F028, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7019F027, 0x7019F029, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7019F027, 0x7019F02A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7019F027, 0x7019F02B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7019F027, 0x7019F02C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7019F027, 0x7019F02D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7019F027, 0x7019F02E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7019F027, 0x7019F02F, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7019F027, 0x7019F030, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7019F027, 0x7019F031, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7019F027, 0x7019F032, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7019F027, 0x7019F033, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7019F027, 0x7019F034, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7019F027, 0x7019F028, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7019F027, 0x7019F029, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7019F027, 0x7019F02A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7019F027, 0x7019F02B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7019F027, 0x7019F02C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7019F027, 0x7019F02D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7019F027, 0x7019F02E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7019F027, 0x7019F02F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7019F027, 0x7019F030, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7019F027, 0x7019F031, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7019F027, 0x7019F032, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7019F027, 0x7019F033, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7019F027, 0x7019F034, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019F028,  1623, 0x019F0110, 18.3358, -19.2994, -5.988, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Desert Rat */
@@ -104,8 +104,8 @@ VALUES (0x7019F035,  1542, 0x019F0102, 34.35794, -82.24633, -12, 0.7071068, 0, 0
 /* @teleloc 0x019F0102 [34.357940 -82.246330 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019F035, 0x7019F036, '2019-02-10 00:00:00') /* Cobalt */
-     , (0x7019F035, 0x7019F037, '2019-02-10 00:00:00') /* Chainmail Pauldrons */;
+VALUES (0x7019F035, 0x7019F036, '2019-02-10 00:00:00') /* Cobalt (756) */
+     , (0x7019F035, 0x7019F037, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019F036,   756, 0x019F0102, 34.35794, -82.24633, -12, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cobalt */

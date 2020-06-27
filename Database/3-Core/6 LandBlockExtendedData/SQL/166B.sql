@@ -5,12 +5,12 @@ VALUES (0x7166B001,  1154, 0x166B0019, 83.96688, 11.17922, 105.348, -4.371139E-0
 /* @teleloc 0x166B0019 [83.966880 11.179220 105.348000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166B001, 0x7166B002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7166B001, 0x7166B003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7166B001, 0x7166B004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7166B001, 0x7166B005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7166B001, 0x7166B006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7166B001, 0x7166B007, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x7166B001, 0x7166B002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7166B001, 0x7166B003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7166B001, 0x7166B004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7166B001, 0x7166B005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7166B001, 0x7166B006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7166B001, 0x7166B007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166B002,   228, 0x166B0019, 83.96688, 11.17922, 105.348, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -41,7 +41,7 @@ VALUES (0x7166B008,  1542, 0x166B0007, 2.760685, 164.8733, 100, -0.3741916, 0, 0
 /* @teleloc 0x166B0007 [2.760685 164.873300 100.000000] -0.374192 0.000000 0.000000 -0.927351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166B008, 0x7166B009, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7166B008, 0x7166B009, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166B009, 11555, 0x166B0007, 2.760685, 164.8733, 100, -0.3741916, 0, 0, -0.9273514,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

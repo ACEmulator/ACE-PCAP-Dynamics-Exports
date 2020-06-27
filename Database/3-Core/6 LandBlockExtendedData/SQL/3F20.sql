@@ -5,12 +5,12 @@ VALUES (0x73F20001,  1154, 0x3F200023, 115.1058, 70.21513, 37.97073, -0.9815724,
 /* @teleloc 0x3F200023 [115.105800 70.215130 37.970730] -0.981572 0.000000 0.000000 -0.191091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F20001, 0x73F20002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73F20001, 0x73F20003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73F20001, 0x73F20004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73F20001, 0x73F20005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F20001, 0x73F20006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73F20001, 0x73F20007, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x73F20001, 0x73F20002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73F20001, 0x73F20003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73F20001, 0x73F20004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73F20001, 0x73F20005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F20001, 0x73F20006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73F20001, 0x73F20007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F20002,  8138, 0x3F200023, 115.1058, 70.21513, 37.97073, -0.9815724, 0, 0, -0.1910906,  True, '2019-02-10 00:00:00'); /* Extas Raider */

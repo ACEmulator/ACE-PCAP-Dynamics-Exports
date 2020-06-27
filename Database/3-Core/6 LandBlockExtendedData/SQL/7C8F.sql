@@ -5,20 +5,20 @@ VALUES (0x77C8F001,  1154, 0x7C8F003B, 191.1799, 61.42096, 126.8606, 0.8930964, 
 /* @teleloc 0x7C8F003B [191.179900 61.420960 126.860600] 0.893096 0.000000 0.000000 -0.449865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C8F001, 0x77C8F002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x77C8F001, 0x77C8F003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C8F001, 0x77C8F004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x77C8F001, 0x77C8F005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x77C8F001, 0x77C8F006, '2019-02-10 00:00:00') /* Gout */
-     , (0x77C8F001, 0x77C8F007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C8F001, 0x77C8F008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C8F001, 0x77C8F009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x77C8F001, 0x77C8F00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C8F001, 0x77C8F00B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77C8F001, 0x77C8F00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C8F001, 0x77C8F00D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77C8F001, 0x77C8F00E, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x77C8F001, 0x77C8F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77C8F001, 0x77C8F002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x77C8F001, 0x77C8F003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C8F001, 0x77C8F004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x77C8F001, 0x77C8F005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x77C8F001, 0x77C8F006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x77C8F001, 0x77C8F007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C8F001, 0x77C8F008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C8F001, 0x77C8F009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x77C8F001, 0x77C8F00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C8F001, 0x77C8F00B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77C8F001, 0x77C8F00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C8F001, 0x77C8F00D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77C8F001, 0x77C8F00E, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x77C8F001, 0x77C8F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C8F002, 22809, 0x7C8F003B, 191.1799, 61.42096, 126.8606, 0.8930964, 0, 0, -0.4498652,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -81,8 +81,8 @@ VALUES (0x77C8F010,  1542, 0x7C8F003C, 191.1988, 76.13589, 126.8606, 0.9990482, 
 /* @teleloc 0x7C8F003C [191.198800 76.135890 126.860600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C8F010, 0x77C8F011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77C8F010, 0x77C8F012, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x77C8F010, 0x77C8F011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77C8F010, 0x77C8F012, '2019-02-10 00:00:00') /* Old Gravestone (34132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C8F011,  4179, 0x7C8F003C, 191.1988, 76.13589, 126.8606, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

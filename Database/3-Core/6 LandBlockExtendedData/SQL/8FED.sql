@@ -5,17 +5,17 @@ VALUES (0x78FED001,  1154, 0x8FED003E, 187.4143, 136.9942, 8.211673, 0.9659258, 
 /* @teleloc 0x8FED003E [187.414300 136.994200 8.211673] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FED001, 0x78FED002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FED001, 0x78FED003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FED001, 0x78FED004, '2019-02-10 00:00:00') /* Banished Tusker */
-     , (0x78FED001, 0x78FED005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78FED001, 0x78FED006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FED001, 0x78FED007, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78FED001, 0x78FED008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78FED001, 0x78FED009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78FED001, 0x78FED00A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78FED001, 0x78FED00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FED001, 0x78FED00C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x78FED001, 0x78FED002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FED001, 0x78FED003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FED001, 0x78FED004, '2019-02-10 00:00:00') /* Banished Tusker (30883) */
+     , (0x78FED001, 0x78FED005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78FED001, 0x78FED006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FED001, 0x78FED007, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78FED001, 0x78FED008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78FED001, 0x78FED009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78FED001, 0x78FED00A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78FED001, 0x78FED00B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FED001, 0x78FED00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FED002,  7096, 0x8FED003E, 187.4143, 136.9942, 8.211673, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -66,7 +66,7 @@ VALUES (0x78FED00D,  1542, 0x8FED0002, 8.428436, 34.50658, 15.12445, 0.8972833, 
 /* @teleloc 0x8FED0002 [8.428436 34.506580 15.124450] 0.897283 0.000000 0.000000 -0.441455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FED00D, 0x78FED00E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x78FED00D, 0x78FED00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FED00E,  8041, 0x8FED0002, 8.428436, 34.50658, 15.12445, 0.8972833, 0, 0, -0.4414553,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

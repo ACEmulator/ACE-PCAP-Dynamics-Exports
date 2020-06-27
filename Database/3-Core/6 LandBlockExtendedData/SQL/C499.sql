@@ -5,8 +5,8 @@ VALUES (0x7C499001,  1154, 0xC499000F, 26.59393, 147.8188, 5.89791, 0.9717975, 0
 /* @teleloc 0xC499000F [26.593930 147.818800 5.897910] 0.971798 0.000000 0.000000 -0.235817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C499001, 0x7C499002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C499001, 0x7C499003, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7C499001, 0x7C499002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C499001, 0x7C499003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C499002,   216, 0xC499000F, 26.59393, 147.8188, 5.89791, 0.9717975, 0, 0, -0.2358169,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

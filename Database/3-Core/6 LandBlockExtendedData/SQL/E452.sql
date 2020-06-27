@@ -5,11 +5,11 @@ VALUES (0x7E452001,  1154, 0xE452000A, 46.00722, 43.87873, 23.58292, -0.7295558,
 /* @teleloc 0xE452000A [46.007220 43.878730 23.582920] -0.729556 0.000000 0.000000 -0.683921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E452001, 0x7E452002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E452001, 0x7E452003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E452001, 0x7E452004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7E452001, 0x7E452005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E452001, 0x7E452006, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7E452001, 0x7E452002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E452001, 0x7E452003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E452001, 0x7E452004, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7E452001, 0x7E452005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E452001, 0x7E452006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E452002, 24938, 0xE452000A, 46.00722, 43.87873, 23.58292, -0.7295558, 0, 0, -0.6839213,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

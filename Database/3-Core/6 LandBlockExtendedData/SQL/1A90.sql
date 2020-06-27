@@ -5,37 +5,37 @@ VALUES (0x71A90001,  1154, 0x1A900032, 153.1116, 26.351, 65.5261, 0.9999024, 0, 
 /* @teleloc 0x1A900032 [153.111600 26.351000 65.526100] 0.999902 0.000000 0.000000 -0.013967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A90001, 0x71A90002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A90001, 0x71A90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A90001, 0x71A90004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71A90001, 0x71A90005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71A90001, 0x71A90006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A90001, 0x71A90007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71A90001, 0x71A90008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71A90001, 0x71A90009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A90001, 0x71A9000A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A90001, 0x71A9000B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A90001, 0x71A9000C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71A90001, 0x71A9000D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A90001, 0x71A9000E, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A90001, 0x71A9000F, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A90001, 0x71A90010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71A90001, 0x71A90011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71A90001, 0x71A90012, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A90001, 0x71A90013, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71A90001, 0x71A90014, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71A90001, 0x71A90015, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A90001, 0x71A90016, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71A90001, 0x71A90017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71A90001, 0x71A90018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71A90001, 0x71A90019, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A90001, 0x71A9001A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71A90001, 0x71A9001B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A90001, 0x71A9001C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A90001, 0x71A9001D, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71A90001, 0x71A9001E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71A90001, 0x71A9001F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71A90001, 0x71A90020, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71A90001, 0x71A90002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A90001, 0x71A90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A90001, 0x71A90004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71A90001, 0x71A90005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71A90001, 0x71A90006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A90001, 0x71A90007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71A90001, 0x71A90008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71A90001, 0x71A90009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A90001, 0x71A9000A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A90001, 0x71A9000B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A90001, 0x71A9000C, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71A90001, 0x71A9000D, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A90001, 0x71A9000E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A90001, 0x71A9000F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A90001, 0x71A90010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71A90001, 0x71A90011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71A90001, 0x71A90012, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A90001, 0x71A90013, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71A90001, 0x71A90014, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71A90001, 0x71A90015, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A90001, 0x71A90016, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71A90001, 0x71A90017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71A90001, 0x71A90018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71A90001, 0x71A90019, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A90001, 0x71A9001A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71A90001, 0x71A9001B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A90001, 0x71A9001C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A90001, 0x71A9001D, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71A90001, 0x71A9001E, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A90001, 0x71A9001F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71A90001, 0x71A90020, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A90002, 41535, 0x1A900032, 153.1116, 26.351, 65.5261, 0.9999024, 0, 0, -0.01396734,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -166,8 +166,8 @@ VALUES (0x71A90021,  1542, 0x1A900019, 87.1894, 7.943976, 65.76752, -4.371139E-0
 /* @teleloc 0x1A900019 [87.189400 7.943976 65.767520] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A90021, 0x71A90022, '2019-02-10 00:00:00') /* Bones */
-     , (0x71A90021, 0x71A90023, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71A90021, 0x71A90022, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71A90021, 0x71A90023, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A90022,  4380, 0x1A900019, 87.1894, 7.943976, 65.76752, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

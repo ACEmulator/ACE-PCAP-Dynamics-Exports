@@ -5,12 +5,12 @@ VALUES (0x7A1D4001,  1154, 0xA1D40008, 16.30676, 180.453, 182.5767, 0.9944659, 0
 /* @teleloc 0xA1D40008 [16.306760 180.453000 182.576700] 0.994466 0.000000 0.000000 -0.105059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D4001, 0x7A1D4002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A1D4001, 0x7A1D4003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A1D4001, 0x7A1D4004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A1D4001, 0x7A1D4005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A1D4001, 0x7A1D4006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A1D4001, 0x7A1D4007, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7A1D4001, 0x7A1D4002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A1D4001, 0x7A1D4003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A1D4001, 0x7A1D4004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A1D4001, 0x7A1D4005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A1D4001, 0x7A1D4006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A1D4001, 0x7A1D4007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D4002, 22520, 0xA1D40008, 16.30676, 180.453, 182.5767, 0.9944659, 0, 0, -0.1050594,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

@@ -5,16 +5,16 @@ VALUES (0x7AEBB001,  1154, 0xAEBB0035, 165.6563, 97.33857, 108.0071, -0.5767536,
 /* @teleloc 0xAEBB0035 [165.656300 97.338570 108.007100] -0.576754 0.000000 0.000000 -0.816918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEBB001, 0x7AEBB002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEBB001, 0x7AEBB003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AEBB001, 0x7AEBB004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AEBB001, 0x7AEBB005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEBB001, 0x7AEBB006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AEBB001, 0x7AEBB007, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7AEBB001, 0x7AEBB008, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7AEBB001, 0x7AEBB009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AEBB001, 0x7AEBB00A, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AEBB001, 0x7AEBB00B, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7AEBB001, 0x7AEBB002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEBB001, 0x7AEBB003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AEBB001, 0x7AEBB004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AEBB001, 0x7AEBB005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEBB001, 0x7AEBB006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AEBB001, 0x7AEBB007, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7AEBB001, 0x7AEBB008, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7AEBB001, 0x7AEBB009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AEBB001, 0x7AEBB00A, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AEBB001, 0x7AEBB00B, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEBB002,   937, 0xAEBB0035, 165.6563, 97.33857, 108.0071, -0.5767536, 0, 0, -0.8169182,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -61,7 +61,7 @@ VALUES (0x7AEBB00C,  1542, 0xAEBB0037, 147.1924, 163.5872, 110, 0.9990482, 0, 0,
 /* @teleloc 0xAEBB0037 [147.192400 163.587200 110.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEBB00C, 0x7AEBB00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AEBB00C, 0x7AEBB00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEBB00D,  4179, 0xAEBB0037, 147.1924, 163.5872, 110, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

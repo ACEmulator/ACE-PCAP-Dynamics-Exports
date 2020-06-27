@@ -5,12 +5,12 @@ VALUES (0x760E0001,  1154, 0x60E00019, 86.01281, 21.59874, 87.63075, 0.9396926, 
 /* @teleloc 0x60E00019 [86.012810 21.598740 87.630750] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760E0001, 0x760E0002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x760E0001, 0x760E0003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x760E0001, 0x760E0004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x760E0001, 0x760E0005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x760E0001, 0x760E0006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x760E0001, 0x760E0007, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x760E0001, 0x760E0002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x760E0001, 0x760E0003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x760E0001, 0x760E0004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x760E0001, 0x760E0005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x760E0001, 0x760E0006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x760E0001, 0x760E0007, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760E0002, 37098, 0x60E00019, 86.01281, 21.59874, 87.63075, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

@@ -5,15 +5,15 @@ VALUES (0x79BB9001,  1154, 0x9BB90032, 167.7175, 33.236, 116.4192, -0.9453815, 0
 /* @teleloc 0x9BB90032 [167.717500 33.236000 116.419200] -0.945382 0.000000 0.000000 -0.325966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BB9001, 0x79BB9002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79BB9001, 0x79BB9003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79BB9001, 0x79BB9004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79BB9001, 0x79BB9005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BB9001, 0x79BB9006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BB9001, 0x79BB9007, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x79BB9001, 0x79BB9008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BB9001, 0x79BB9009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BB9001, 0x79BB900A, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x79BB9001, 0x79BB9002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79BB9001, 0x79BB9003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79BB9001, 0x79BB9004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79BB9001, 0x79BB9005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BB9001, 0x79BB9006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BB9001, 0x79BB9007, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x79BB9001, 0x79BB9008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BB9001, 0x79BB9009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BB9001, 0x79BB900A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BB9002,  2576, 0x9BB90032, 167.7175, 33.236, 116.4192, -0.9453815, 0, 0, -0.3259659,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

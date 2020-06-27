@@ -5,14 +5,14 @@ VALUES (0x72792001,  1154, 0x27920039, 182.8851, 20.73161, 89.51069, 0.2893114, 
 /* @teleloc 0x27920039 [182.885100 20.731610 89.510690] 0.289311 0.000000 0.000000 -0.957235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72792001, 0x72792002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72792001, 0x72792003, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72792001, 0x72792004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72792001, 0x72792005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72792001, 0x72792006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72792001, 0x72792007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72792001, 0x72792008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72792001, 0x72792009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x72792001, 0x72792002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72792001, 0x72792003, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72792001, 0x72792004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72792001, 0x72792005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72792001, 0x72792006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72792001, 0x72792007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72792001, 0x72792008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72792001, 0x72792009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72792002,  7982, 0x27920039, 182.8851, 20.73161, 89.51069, 0.2893114, 0, 0, -0.957235,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -51,7 +51,7 @@ VALUES (0x7279200A,  1542, 0x27920013, 64.41908, 65.70256, 99.27129, 1, 0, 0, 0,
 /* @teleloc 0x27920013 [64.419080 65.702560 99.271290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7279200A, 0x7279200B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7279200A, 0x7279200B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7279200B, 22566, 0x27920013, 64.41908, 65.70256, 99.27129, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

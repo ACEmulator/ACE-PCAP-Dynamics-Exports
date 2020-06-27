@@ -5,9 +5,9 @@ VALUES (0x7AFA6001,  1154, 0xAFA60018, 49.01414, 169.4937, 149.836, 0.9955182, 0
 /* @teleloc 0xAFA60018 [49.014140 169.493700 149.836000] 0.995518 0.000000 0.000000 -0.094570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA6001, 0x7AFA6002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AFA6001, 0x7AFA6003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFA6001, 0x7AFA6004, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7AFA6001, 0x7AFA6002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AFA6001, 0x7AFA6003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFA6001, 0x7AFA6004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA6002,   944, 0xAFA60018, 49.01414, 169.4937, 149.836, 0.9955182, 0, 0, -0.09457017,  True, '2019-02-10 00:00:00'); /* Mite Digger */

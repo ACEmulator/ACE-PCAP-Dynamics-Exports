@@ -9,19 +9,19 @@ VALUES (0x72A80001,  1154, 0x2A800011, 65.7598, 14.7431, 69.9948, 0.486068, 0, 0
 /* @teleloc 0x2A800011 [65.759800 14.743100 69.994800] 0.486068 0.000000 0.000000 -0.873921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A80001, 0x72A80002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A80001, 0x72A80003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A80001, 0x72A80004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A80001, 0x72A80005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72A80001, 0x72A80006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A80001, 0x72A80007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A80001, 0x72A80008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72A80001, 0x72A80009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72A80001, 0x72A8000A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A80001, 0x72A8000B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A80001, 0x72A8000C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A80001, 0x72A8000D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72A80001, 0x72A8000E, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x72A80001, 0x72A80002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A80001, 0x72A80003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A80001, 0x72A80004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A80001, 0x72A80005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72A80001, 0x72A80006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A80001, 0x72A80007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A80001, 0x72A80008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72A80001, 0x72A80009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72A80001, 0x72A8000A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A80001, 0x72A8000B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A80001, 0x72A8000C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A80001, 0x72A8000D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72A80001, 0x72A8000E, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A80002, 24958, 0x2A800011, 65.7598, 14.7431, 69.9948, 0.486068, 0, 0, -0.873921,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -80,7 +80,7 @@ VALUES (0x72A8000F,  1542, 0x2A800037, 164.6235, 163.6854, 27.937, 1, 0, 0, 0, F
 /* @teleloc 0x2A800037 [164.623500 163.685400 27.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8000F, 0x72A80010, '2019-02-10 00:00:00') /* Baishi Portal */;
+VALUES (0x72A8000F, 0x72A80010, '2019-02-10 00:00:00') /* Baishi Portal (42845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A80010, 42845, 0x2A800037, 164.6235, 163.6854, 27.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Baishi Portal */

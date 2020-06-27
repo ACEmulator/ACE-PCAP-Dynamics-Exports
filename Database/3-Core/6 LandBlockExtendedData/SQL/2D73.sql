@@ -5,15 +5,15 @@ VALUES (0x72D73001,  1154, 0x2D730028, 98.43456, 169.832, 167.3388, 0.9238795, 0
 /* @teleloc 0x2D730028 [98.434560 169.832000 167.338800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D73001, 0x72D73002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D73001, 0x72D73003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D73001, 0x72D73004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72D73001, 0x72D73005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72D73001, 0x72D73006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72D73001, 0x72D73007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D73001, 0x72D73008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72D73001, 0x72D73009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D73001, 0x72D7300A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x72D73001, 0x72D73002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D73001, 0x72D73003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D73001, 0x72D73004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72D73001, 0x72D73005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72D73001, 0x72D73006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72D73001, 0x72D73007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D73001, 0x72D73008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72D73001, 0x72D73009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D73001, 0x72D7300A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D73002, 36832, 0x2D730028, 98.43456, 169.832, 167.3388, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -56,7 +56,7 @@ VALUES (0x72D7300B,  1542, 0x2D730038, 163.3259, 172.2182, 121.975, 1, 0, 0, 0, 
 /* @teleloc 0x2D730038 [163.325900 172.218200 121.975000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D7300B, 0x72D7300C, '2019-02-10 00:00:00') /* Heartland */;
+VALUES (0x72D7300B, 0x72D7300C, '2019-02-10 00:00:00') /* Heartland (1900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D7300C,  1900, 0x2D730038, 163.3259, 172.2182, 121.975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Heartland */

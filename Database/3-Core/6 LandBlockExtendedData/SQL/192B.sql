@@ -5,13 +5,13 @@ VALUES (0x7192B001,  1154, 0x192B0025, 119.7949, 109.7379, 13.72744, -0.5728136,
 /* @teleloc 0x192B0025 [119.794900 109.737900 13.727440] -0.572814 0.000000 0.000000 -0.819686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7192B001, 0x7192B002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7192B001, 0x7192B003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7192B001, 0x7192B004, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7192B001, 0x7192B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7192B001, 0x7192B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7192B001, 0x7192B007, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7192B001, 0x7192B008, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x7192B001, 0x7192B002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7192B001, 0x7192B003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7192B001, 0x7192B004, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7192B001, 0x7192B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7192B001, 0x7192B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7192B001, 0x7192B007, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7192B001, 0x7192B008, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7192B002, 23481, 0x192B0025, 119.7949, 109.7379, 13.72744, -0.5728136, 0, 0, -0.8196857,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -46,8 +46,8 @@ VALUES (0x7192B009,  1542, 0x192B0026, 114.7871, 136.0313, 12.00423, 0.828167, 0
 /* @teleloc 0x192B0026 [114.787100 136.031300 12.004230] 0.828167 0.000000 0.000000 -0.560481 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7192B009, 0x7192B00A, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x7192B009, 0x7192B00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7192B009, 0x7192B00A, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x7192B009, 0x7192B00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7192B00A, 31688, 0x192B0026, 114.7871, 136.0313, 12.00423, 0.828167, 0, 0, -0.5604814,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

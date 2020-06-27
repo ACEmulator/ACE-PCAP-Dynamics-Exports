@@ -5,28 +5,28 @@ VALUES (0x7C52E001,  1154, 0xC52E000F, 28.40854, 162.4811, 268.0971, 0.7386122, 
 /* @teleloc 0xC52E000F [28.408540 162.481100 268.097100] 0.738612 0.000000 0.000000 -0.674131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C52E001, 0x7C52E002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C52E001, 0x7C52E003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C52E001, 0x7C52E004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C52E001, 0x7C52E005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C52E001, 0x7C52E006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C52E001, 0x7C52E007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C52E001, 0x7C52E008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C52E001, 0x7C52E009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C52E001, 0x7C52E00A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C52E001, 0x7C52E00B, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7C52E001, 0x7C52E00C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C52E001, 0x7C52E00D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C52E001, 0x7C52E00E, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C52E001, 0x7C52E00F, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C52E001, 0x7C52E010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C52E001, 0x7C52E011, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C52E001, 0x7C52E012, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C52E001, 0x7C52E013, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C52E001, 0x7C52E014, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C52E001, 0x7C52E015, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C52E001, 0x7C52E016, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7C52E001, 0x7C52E017, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7C52E001, 0x7C52E002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C52E001, 0x7C52E003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C52E001, 0x7C52E004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C52E001, 0x7C52E005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C52E001, 0x7C52E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C52E001, 0x7C52E007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C52E001, 0x7C52E008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C52E001, 0x7C52E009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C52E001, 0x7C52E00A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C52E001, 0x7C52E00B, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7C52E001, 0x7C52E00C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C52E001, 0x7C52E00D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C52E001, 0x7C52E00E, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C52E001, 0x7C52E00F, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C52E001, 0x7C52E010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C52E001, 0x7C52E011, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C52E001, 0x7C52E012, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C52E001, 0x7C52E013, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C52E001, 0x7C52E014, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C52E001, 0x7C52E015, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7C52E001, 0x7C52E016, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7C52E001, 0x7C52E017, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52E002,  7089, 0xC52E000F, 28.40854, 162.4811, 268.0971, 0.7386122, 0, 0, -0.6741305,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -121,8 +121,8 @@ VALUES (0x7C52E018,  1542, 0xC52E0038, 157.4879, 190.7949, 204.13, 0.839756, 0, 
 /* @teleloc 0xC52E0038 [157.487900 190.794900 204.130000] 0.839756 0.000000 0.000000 -0.542964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C52E018, 0x7C52E019, '2019-02-10 00:00:00') /* Rock */
-     , (0x7C52E018, 0x7C52E01A, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C52E018, 0x7C52E019, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7C52E018, 0x7C52E01A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52E019, 42528, 0xC52E0038, 157.4879, 190.7949, 204.13, 0.839756, 0, 0, -0.542964,  True, '2019-02-10 00:00:00'); /* Rock */

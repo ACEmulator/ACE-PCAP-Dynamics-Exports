@@ -5,11 +5,11 @@ VALUES (0x77016001,  1154, 0x7016000E, 32.82932, 120.3877, 2.02328, 0.8660254, 0
 /* @teleloc 0x7016000E [32.829320 120.387700 2.023280] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77016001, 0x77016002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x77016001, 0x77016003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77016001, 0x77016004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77016001, 0x77016005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x77016001, 0x77016006, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x77016001, 0x77016002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x77016001, 0x77016003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77016001, 0x77016004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77016001, 0x77016005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x77016001, 0x77016006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77016002,  7988, 0x7016000E, 32.82932, 120.3877, 2.02328, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -36,9 +36,9 @@ VALUES (0x77016007,  1542, 0x7016002C, 126.5279, 84.46353, 2, 1, 0, 0, 0, False,
 /* @teleloc 0x7016002C [126.527900 84.463530 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77016007, 0x77016008, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x77016007, 0x77016009, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x77016007, 0x7701600A, '2019-02-10 00:00:00') /* Cabbage */;
+VALUES (0x77016007, 0x77016008, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x77016007, 0x77016009, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x77016007, 0x7701600A, '2019-02-10 00:00:00') /* Cabbage (260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77016008,   260, 0x7016002C, 126.5279, 84.46353, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cabbage */

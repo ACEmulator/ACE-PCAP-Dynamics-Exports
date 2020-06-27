@@ -9,35 +9,35 @@ VALUES (0x7B6A301E,  1154, 0xB6A3002F, 121.937, 144.194, 1.55, 0.766635, 0, 0, -
 /* @teleloc 0xB6A3002F [121.937000 144.194000 1.550000] 0.766635 0.000000 0.000000 -0.642083 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A301E, 0x7B6A301F, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3020, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3021, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3022, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3023, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3024, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3025, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3026, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3027, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3028, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A3029, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A302A, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A302B, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A302C, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A302D, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A301E, 0x7B6A302E, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B6A301E, 0x7B6A302F, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B6A301E, 0x7B6A3030, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B6A301E, 0x7B6A3031, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A301E, 0x7B6A3032, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A301E, 0x7B6A3033, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A301E, 0x7B6A3034, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A301E, 0x7B6A3035, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B6A301E, 0x7B6A3036, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B6A301E, 0x7B6A3037, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A301E, 0x7B6A3038, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B6A301E, 0x7B6A3039, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B6A301E, 0x7B6A303A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B6A301E, 0x7B6A303B, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7B6A301E, 0x7B6A301F, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3020, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3021, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3022, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3023, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3024, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3025, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3026, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3027, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3028, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A3029, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A302A, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A302B, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A302C, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A302D, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A301E, 0x7B6A302E, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B6A301E, 0x7B6A302F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B6A301E, 0x7B6A3030, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B6A301E, 0x7B6A3031, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A301E, 0x7B6A3032, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A301E, 0x7B6A3033, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A301E, 0x7B6A3034, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A301E, 0x7B6A3035, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B6A301E, 0x7B6A3036, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B6A301E, 0x7B6A3037, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A301E, 0x7B6A3038, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B6A301E, 0x7B6A3039, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B6A301E, 0x7B6A303A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B6A301E, 0x7B6A303B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A301F, 22257, 0xB6A3002F, 121.937, 144.194, 1.55, 0.766635, 0, 0, -0.642083,  True, '2019-02-10 00:00:00'); /* Fishing Hole */
@@ -160,7 +160,7 @@ VALUES (0x7B6A303C,  1154, 0xB6A30100, 50.4806, 136.37, 3.4978, 0.85756, 0, 0, -
 /* @teleloc 0xB6A30100 [50.480600 136.370000 3.497800] 0.857560 0.000000 0.000000 -0.514383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A303C, 0x7B6A303D, '2019-02-10 00:00:00') /* Tackle Master */;
+VALUES (0x7B6A303C, 0x7B6A303D, '2019-02-10 00:00:00') /* Tackle Master (23336) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A303D, 23336, 0xB6A30100, 50.4806, 136.37, 3.4978, 0.85756, 0, 0, -0.514383,  True, '2019-02-10 00:00:00'); /* Tackle Master */
@@ -171,12 +171,12 @@ VALUES (0x7B6A303E,  1542, 0xB6A3003C, 185.5591, 76.91956, 2, 0.9659258, 0, 0, -
 /* @teleloc 0xB6A3003C [185.559100 76.919560 2.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A303E, 0x7B6A303F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B6A303E, 0x7B6A3040, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B6A303E, 0x7B6A3041, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7B6A303E, 0x7B6A3042, '2019-02-10 00:00:00') /* Reliable Lockpick */
-     , (0x7B6A303E, 0x7B6A3043, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B6A303E, 0x7B6A3044, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B6A303E, 0x7B6A303F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B6A303E, 0x7B6A3040, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B6A303E, 0x7B6A3041, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7B6A303E, 0x7B6A3042, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */
+     , (0x7B6A303E, 0x7B6A3043, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B6A303E, 0x7B6A3044, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A303F,  4180, 0xB6A3003C, 185.5591, 76.91956, 2, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

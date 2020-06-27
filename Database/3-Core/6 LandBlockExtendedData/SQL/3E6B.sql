@@ -5,14 +5,14 @@ VALUES (0x73E6B001,  1154, 0x3E6B0011, 56.9631, 23.77345, 40.19529, 0.9537169, 0
 /* @teleloc 0x3E6B0011 [56.963100 23.773450 40.195290] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E6B001, 0x73E6B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E6B001, 0x73E6B003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73E6B001, 0x73E6B004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73E6B001, 0x73E6B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E6B001, 0x73E6B006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73E6B001, 0x73E6B007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73E6B001, 0x73E6B008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73E6B001, 0x73E6B009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73E6B001, 0x73E6B002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E6B001, 0x73E6B003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73E6B001, 0x73E6B004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73E6B001, 0x73E6B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E6B001, 0x73E6B006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73E6B001, 0x73E6B007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73E6B001, 0x73E6B008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73E6B001, 0x73E6B009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E6B002,  8431, 0x3E6B0011, 56.9631, 23.77345, 40.19529, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

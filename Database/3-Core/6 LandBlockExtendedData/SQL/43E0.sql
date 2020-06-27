@@ -5,21 +5,21 @@ VALUES (0x743E0001,  1154, 0x43E00032, 154.8324, 30.87567, 0.6659595, -0.8853868
 /* @teleloc 0x43E00032 [154.832400 30.875670 0.665960] -0.885387 0.000000 0.000000 -0.464855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743E0001, 0x743E0002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x743E0001, 0x743E0003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x743E0001, 0x743E0004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x743E0001, 0x743E0005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x743E0001, 0x743E0006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743E0001, 0x743E0007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743E0001, 0x743E0008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x743E0001, 0x743E0009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x743E0001, 0x743E000A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x743E0001, 0x743E000B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743E0001, 0x743E000C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x743E0001, 0x743E000D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x743E0001, 0x743E000E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x743E0001, 0x743E000F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x743E0001, 0x743E0010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x743E0001, 0x743E0002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x743E0001, 0x743E0003, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x743E0001, 0x743E0004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x743E0001, 0x743E0005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x743E0001, 0x743E0006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743E0001, 0x743E0007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743E0001, 0x743E0008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x743E0001, 0x743E0009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x743E0001, 0x743E000A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x743E0001, 0x743E000B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743E0001, 0x743E000C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x743E0001, 0x743E000D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x743E0001, 0x743E000E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x743E0001, 0x743E000F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x743E0001, 0x743E0010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743E0002, 10807, 0x43E00032, 154.8324, 30.87567, 0.6659595, -0.8853868, 0, 0, -0.464855,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -86,8 +86,8 @@ VALUES (0x743E0011,  1542, 0x43E0002A, 129.7748, 37.23128, 0, -4.371139E-08, 0, 
 /* @teleloc 0x43E0002A [129.774800 37.231280 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743E0011, 0x743E0012, '2019-02-10 00:00:00') /* Bones */
-     , (0x743E0011, 0x743E0013, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x743E0011, 0x743E0012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x743E0011, 0x743E0013, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743E0012,  4380, 0x43E0002A, 129.7748, 37.23128, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

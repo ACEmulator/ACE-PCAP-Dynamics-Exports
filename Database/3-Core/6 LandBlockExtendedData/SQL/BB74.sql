@@ -5,13 +5,13 @@ VALUES (0x7BB74001,  1154, 0xBB740020, 95.36551, 171.4847, 35.29763, 0.5502257, 
 /* @teleloc 0xBB740020 [95.365510 171.484700 35.297630] 0.550226 0.000000 0.000000 -0.835016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB74001, 0x7BB74002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BB74001, 0x7BB74003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BB74001, 0x7BB74004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BB74001, 0x7BB74005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7BB74001, 0x7BB74006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BB74001, 0x7BB74007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB74001, 0x7BB74008, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7BB74001, 0x7BB74002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BB74001, 0x7BB74003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BB74001, 0x7BB74004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BB74001, 0x7BB74005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BB74001, 0x7BB74006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BB74001, 0x7BB74007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB74001, 0x7BB74008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB74002,   193, 0xBB740020, 95.36551, 171.4847, 35.29763, 0.5502257, 0, 0, -0.835016,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -46,7 +46,7 @@ VALUES (0x7BB74009,  1542, 0xBB740019, 89.2209, 7.53479, 35.05527, 0.7071068, 0,
 /* @teleloc 0xBB740019 [89.220900 7.534790 35.055270] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB74009, 0x7BB7400A, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7BB74009, 0x7BB7400A, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB7400A,  9008, 0xBB740019, 89.2209, 7.53479, 35.05527, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

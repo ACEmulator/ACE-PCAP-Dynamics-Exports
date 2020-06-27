@@ -5,11 +5,11 @@ VALUES (0x7A797001,  1154, 0xA7970037, 155.4012, 149.7875, 59.62516, 0.1041535, 
 /* @teleloc 0xA7970037 [155.401200 149.787500 59.625160] 0.104154 0.000000 0.000000 -0.994561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A797001, 0x7A797002, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A797001, 0x7A797003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A797001, 0x7A797004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A797001, 0x7A797005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A797001, 0x7A797006, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x7A797001, 0x7A797002, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A797001, 0x7A797003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A797001, 0x7A797004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A797001, 0x7A797005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A797001, 0x7A797006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A797002,  1605, 0xA7970037, 155.4012, 149.7875, 59.62516, 0.1041535, 0, 0, -0.9945613,  True, '2019-02-10 00:00:00'); /* Auroch Fire Yearling */

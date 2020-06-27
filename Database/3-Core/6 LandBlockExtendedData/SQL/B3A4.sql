@@ -5,28 +5,28 @@ VALUES (0x7B3A4001,  1154, 0xB3A4000A, 37.14764, 47.48554, 32.09024, 0.980478, 0
 /* @teleloc 0xB3A4000A [37.147640 47.485540 32.090240] 0.980478 0.000000 0.000000 -0.196629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A4001, 0x7B3A4002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B3A4001, 0x7B3A4003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B3A4001, 0x7B3A4004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B3A4001, 0x7B3A4005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B3A4001, 0x7B3A4006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B3A4001, 0x7B3A4007, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B3A4001, 0x7B3A4008, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B3A4001, 0x7B3A4009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B3A4001, 0x7B3A400A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B3A4001, 0x7B3A400B, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B3A4001, 0x7B3A400C, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B3A4001, 0x7B3A400D, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B3A4001, 0x7B3A400E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A4001, 0x7B3A400F, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B3A4001, 0x7B3A4010, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B3A4001, 0x7B3A4011, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B3A4001, 0x7B3A4012, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B3A4001, 0x7B3A4013, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B3A4001, 0x7B3A4014, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B3A4001, 0x7B3A4015, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B3A4001, 0x7B3A4016, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B3A4001, 0x7B3A4017, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B3A4001, 0x7B3A4002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B3A4001, 0x7B3A4003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B3A4001, 0x7B3A4004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B3A4001, 0x7B3A4005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B3A4001, 0x7B3A4006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B3A4001, 0x7B3A4007, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B3A4001, 0x7B3A4008, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B3A4001, 0x7B3A4009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B3A4001, 0x7B3A400A, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B3A4001, 0x7B3A400B, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B3A4001, 0x7B3A400C, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B3A4001, 0x7B3A400D, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B3A4001, 0x7B3A400E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A4001, 0x7B3A400F, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B3A4001, 0x7B3A4010, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B3A4001, 0x7B3A4011, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B3A4001, 0x7B3A4012, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B3A4001, 0x7B3A4013, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B3A4001, 0x7B3A4014, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B3A4001, 0x7B3A4015, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B3A4001, 0x7B3A4016, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B3A4001, 0x7B3A4017, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A4002,  1612, 0xB3A4000A, 37.14764, 47.48554, 32.09024, 0.980478, 0, 0, -0.1966288,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

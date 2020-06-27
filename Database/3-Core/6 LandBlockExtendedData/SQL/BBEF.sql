@@ -5,10 +5,10 @@ VALUES (0x7BBEF001,  1154, 0xBBEF0037, 163.1869, 145.7585, 161.4923, 1, 0, 0, 0,
 /* @teleloc 0xBBEF0037 [163.186900 145.758500 161.492300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBEF001, 0x7BBEF002, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BBEF001, 0x7BBEF003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BBEF001, 0x7BBEF004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7BBEF001, 0x7BBEF005, '2019-02-10 00:00:00') /* Haunt */;
+VALUES (0x7BBEF001, 0x7BBEF002, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BBEF001, 0x7BBEF003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BBEF001, 0x7BBEF004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7BBEF001, 0x7BBEF005, '2019-02-10 00:00:00') /* Haunt (28243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBEF002, 28243, 0xBBEF0037, 163.1869, 145.7585, 161.4923, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Haunt */

@@ -5,12 +5,12 @@ VALUES (0x75EA4001,  1154, 0x5EA40001, 14.28533, 5.576481, 33.62461, 0.7993441, 
 /* @teleloc 0x5EA40001 [14.285330 5.576481 33.624610] 0.799344 0.000000 0.000000 -0.600874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EA4001, 0x75EA4002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75EA4001, 0x75EA4003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75EA4001, 0x75EA4004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75EA4001, 0x75EA4005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75EA4001, 0x75EA4006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75EA4001, 0x75EA4007, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x75EA4001, 0x75EA4002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75EA4001, 0x75EA4003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75EA4001, 0x75EA4004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75EA4001, 0x75EA4005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75EA4001, 0x75EA4006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75EA4001, 0x75EA4007, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EA4002,   231, 0x5EA40001, 14.28533, 5.576481, 33.62461, 0.7993441, 0, 0, -0.6008735,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

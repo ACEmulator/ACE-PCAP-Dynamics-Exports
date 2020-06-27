@@ -5,16 +5,16 @@ VALUES (0x721C6001,  1154, 0x21C60012, 66.46941, 38.72417, 53.30423, 0.7071068, 
 /* @teleloc 0x21C60012 [66.469410 38.724170 53.304230] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C6001, 0x721C6002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x721C6001, 0x721C6003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x721C6001, 0x721C6004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x721C6001, 0x721C6005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C6001, 0x721C6006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C6001, 0x721C6007, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C6001, 0x721C6008, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x721C6001, 0x721C6009, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x721C6001, 0x721C600A, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x721C6001, 0x721C600B, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x721C6001, 0x721C6002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x721C6001, 0x721C6003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x721C6001, 0x721C6004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x721C6001, 0x721C6005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C6001, 0x721C6006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C6001, 0x721C6007, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C6001, 0x721C6008, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x721C6001, 0x721C6009, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x721C6001, 0x721C600A, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x721C6001, 0x721C600B, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C6002, 27711, 0x21C60012, 66.46941, 38.72417, 53.30423, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
@@ -61,7 +61,7 @@ VALUES (0x721C600C,  1542, 0x21C6001B, 81.33005, 51.5934, 46.29554, -0.07423627,
 /* @teleloc 0x21C6001B [81.330050 51.593400 46.295540] -0.074236 0.000000 0.000000 -0.997241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C600C, 0x721C600D, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x721C600C, 0x721C600D, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C600D, 27719, 0x21C6001B, 81.33005, 51.5934, 46.29554, -0.07423627, 0, 0, -0.9972407,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

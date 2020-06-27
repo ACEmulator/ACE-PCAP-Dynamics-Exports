@@ -5,25 +5,25 @@ VALUES (0x757B9001,  1154, 0x57B90018, 48.43456, 177.0847, 3.21333, 0.9537169, 0
 /* @teleloc 0x57B90018 [48.434560 177.084700 3.213330] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757B9001, 0x757B9002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x757B9001, 0x757B9003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x757B9001, 0x757B9004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x757B9001, 0x757B9005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x757B9001, 0x757B9006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x757B9001, 0x757B9007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x757B9001, 0x757B9008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x757B9001, 0x757B9009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x757B9001, 0x757B900A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x757B9001, 0x757B900B, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x757B9001, 0x757B900C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x757B9001, 0x757B900D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x757B9001, 0x757B900E, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x757B9001, 0x757B900F, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x757B9001, 0x757B9010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x757B9001, 0x757B9011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x757B9001, 0x757B9012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x757B9001, 0x757B9013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x757B9001, 0x757B9014, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x757B9001, 0x757B9002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x757B9001, 0x757B9003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x757B9001, 0x757B9004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x757B9001, 0x757B9005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x757B9001, 0x757B9006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x757B9001, 0x757B9007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x757B9001, 0x757B9008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x757B9001, 0x757B9009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x757B9001, 0x757B900A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x757B9001, 0x757B900B, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x757B9001, 0x757B900C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x757B9001, 0x757B900D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x757B9001, 0x757B900E, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x757B9001, 0x757B900F, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x757B9001, 0x757B9010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x757B9001, 0x757B9011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x757B9001, 0x757B9012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x757B9001, 0x757B9013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x757B9001, 0x757B9014, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757B9002,  7102, 0x57B90018, 48.43456, 177.0847, 3.21333, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -106,7 +106,7 @@ VALUES (0x757B9015,  1542, 0x57B90020, 79.09877, 171.5584, 1.988727, -0.1736482,
 /* @teleloc 0x57B90020 [79.098770 171.558400 1.988727] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757B9015, 0x757B9016, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x757B9015, 0x757B9016, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757B9016,  4180, 0x57B90020, 79.09877, 171.5584, 1.988727, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

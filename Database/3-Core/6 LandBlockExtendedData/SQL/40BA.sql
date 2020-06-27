@@ -5,11 +5,11 @@ VALUES (0x740BA001,  1154, 0x40BA0037, 161.0729, 154.7924, 10.27323, -0.9974161,
 /* @teleloc 0x40BA0037 [161.072900 154.792400 10.273230] -0.997416 0.000000 0.000000 -0.071840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BA001, 0x740BA002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x740BA001, 0x740BA003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x740BA001, 0x740BA004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x740BA001, 0x740BA005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x740BA001, 0x740BA006, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x740BA001, 0x740BA002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x740BA001, 0x740BA003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x740BA001, 0x740BA004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x740BA001, 0x740BA005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x740BA001, 0x740BA006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BA002, 11526, 0x40BA0037, 161.0729, 154.7924, 10.27323, -0.9974161, 0, 0, -0.07184001,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -36,7 +36,7 @@ VALUES (0x740BA007,  1542, 0x40BA0037, 153.3825, 145.5412, 8.345634, -0.9974161,
 /* @teleloc 0x40BA0037 [153.382500 145.541200 8.345634] -0.997416 0.000000 0.000000 -0.071840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BA007, 0x740BA008, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x740BA007, 0x740BA008, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BA008,  8644, 0x40BA0037, 153.3825, 145.5412, 8.345634, -0.9974161, 0, 0, -0.07184001,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

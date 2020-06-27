@@ -5,27 +5,27 @@ VALUES (0x7CB59001,  1154, 0xCB59002C, 137.2201, 80.87877, 12.013, 0.572805, 0, 
 /* @teleloc 0xCB59002C [137.220100 80.878770 12.013000] 0.572805 0.000000 0.000000 -0.819692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB59001, 0x7CB59002, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7CB59001, 0x7CB59003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CB59001, 0x7CB59004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CB59001, 0x7CB59005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CB59001, 0x7CB59006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CB59001, 0x7CB59007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CB59001, 0x7CB59008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB59001, 0x7CB59009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB59001, 0x7CB5900A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB59001, 0x7CB5900B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CB59001, 0x7CB5900C, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CB59001, 0x7CB5900D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB59001, 0x7CB5900E, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB59001, 0x7CB5900F, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB59001, 0x7CB59010, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CB59001, 0x7CB59011, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB59001, 0x7CB59012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB59001, 0x7CB59013, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CB59001, 0x7CB59014, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB59001, 0x7CB59015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB59001, 0x7CB59016, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7CB59001, 0x7CB59002, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7CB59001, 0x7CB59003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CB59001, 0x7CB59004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CB59001, 0x7CB59005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CB59001, 0x7CB59006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CB59001, 0x7CB59007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CB59001, 0x7CB59008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB59001, 0x7CB59009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB59001, 0x7CB5900A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB59001, 0x7CB5900B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CB59001, 0x7CB5900C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CB59001, 0x7CB5900D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB59001, 0x7CB5900E, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB59001, 0x7CB5900F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB59001, 0x7CB59010, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CB59001, 0x7CB59011, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB59001, 0x7CB59012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB59001, 0x7CB59013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CB59001, 0x7CB59014, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB59001, 0x7CB59015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB59001, 0x7CB59016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB59002, 11992, 0xCB59002C, 137.2201, 80.87877, 12.013, 0.572805, 0, 0, -0.8196917,  True, '2019-02-10 00:00:00'); /* Forest Lord */
@@ -116,8 +116,8 @@ VALUES (0x7CB59017,  1542, 0xCB59001B, 82.23105, 64.21151, 6, 0.9990482, 0, 0, -
 /* @teleloc 0xCB59001B [82.231050 64.211510 6.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB59017, 0x7CB59018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CB59017, 0x7CB59019, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CB59017, 0x7CB59018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CB59017, 0x7CB59019, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB59018,  4179, 0xCB59001B, 82.23105, 64.21151, 6, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

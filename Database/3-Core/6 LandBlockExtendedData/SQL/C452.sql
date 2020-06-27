@@ -5,12 +5,12 @@ VALUES (0x7C452001,  1154, 0xC452001E, 92.66516, 120.7821, 12.01, 0.0548785, 0, 
 /* @teleloc 0xC452001E [92.665160 120.782100 12.010000] 0.054879 0.000000 0.000000 -0.998493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C452001, 0x7C452002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C452001, 0x7C452003, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C452001, 0x7C452004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C452001, 0x7C452005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C452001, 0x7C452006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C452001, 0x7C452007, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7C452001, 0x7C452002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C452001, 0x7C452003, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C452001, 0x7C452004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C452001, 0x7C452005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C452001, 0x7C452006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C452001, 0x7C452007, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C452002,   194, 0xC452001E, 92.66516, 120.7821, 12.01, 0.0548785, 0, 0, -0.998493,  True, '2019-02-10 00:00:00'); /* Copper Golem */

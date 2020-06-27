@@ -5,14 +5,14 @@ VALUES (0x767E4001,  1154, 0x67E40009, 24.79007, 23.88583, 72.06953, 0.8092245, 
 /* @teleloc 0x67E40009 [24.790070 23.885830 72.069530] 0.809225 0.000000 0.000000 -0.587500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767E4001, 0x767E4002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x767E4001, 0x767E4003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x767E4001, 0x767E4004, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x767E4001, 0x767E4005, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x767E4001, 0x767E4006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x767E4001, 0x767E4007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x767E4001, 0x767E4008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x767E4001, 0x767E4009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */;
+VALUES (0x767E4001, 0x767E4002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x767E4001, 0x767E4003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x767E4001, 0x767E4004, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x767E4001, 0x767E4005, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x767E4001, 0x767E4006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x767E4001, 0x767E4007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x767E4001, 0x767E4008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x767E4001, 0x767E4009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767E4002, 10810, 0x67E40009, 24.79007, 23.88583, 72.06953, 0.8092245, 0, 0, -0.5874995,  True, '2019-02-10 00:00:00'); /* Rampager */

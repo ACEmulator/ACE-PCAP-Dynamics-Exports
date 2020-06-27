@@ -5,12 +5,12 @@ VALUES (0x726C7001,  1154, 0x26C7001C, 88.00759, 87.48476, -0.01199996, -0.97647
 /* @teleloc 0x26C7001C [88.007590 87.484760 -0.012000] -0.976477 0.000000 0.000000 -0.215623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726C7001, 0x726C7002, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x726C7001, 0x726C7003, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x726C7001, 0x726C7004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x726C7001, 0x726C7005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x726C7001, 0x726C7006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x726C7001, 0x726C7007, '2019-02-10 00:00:00') /* Untamed Siraluun */;
+VALUES (0x726C7001, 0x726C7002, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x726C7001, 0x726C7003, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x726C7001, 0x726C7004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x726C7001, 0x726C7005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x726C7001, 0x726C7006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x726C7001, 0x726C7007, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726C7002, 27712, 0x26C7001C, 88.00759, 87.48476, -0.01199996, -0.9764767, 0, 0, -0.2156229,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */

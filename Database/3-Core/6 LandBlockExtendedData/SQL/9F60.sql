@@ -5,12 +5,12 @@ VALUES (0x79F60001,  1154, 0x9F60002D, 129.116, 103.965, 124.2248, 0.9238795, 0,
 /* @teleloc 0x9F60002D [129.116000 103.965000 124.224800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F60001, 0x79F60002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79F60001, 0x79F60003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79F60001, 0x79F60004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79F60001, 0x79F60005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79F60001, 0x79F60006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79F60001, 0x79F60007, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x79F60001, 0x79F60002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79F60001, 0x79F60003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79F60001, 0x79F60004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79F60001, 0x79F60005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79F60001, 0x79F60006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79F60001, 0x79F60007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F60002, 24940, 0x9F60002D, 129.116, 103.965, 124.2248, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -41,7 +41,7 @@ VALUES (0x79F60008,  1542, 0x9F60002D, 121.5212, 104.2529, 116.6881, 1, 0, 0, 0,
 /* @teleloc 0x9F60002D [121.521200 104.252900 116.688100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F60008, 0x79F60009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79F60008, 0x79F60009, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F60009, 22576, 0x9F60002D, 121.5212, 104.2529, 116.6881, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

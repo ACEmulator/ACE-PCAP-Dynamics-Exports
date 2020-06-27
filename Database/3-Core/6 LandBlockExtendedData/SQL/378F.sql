@@ -5,23 +5,23 @@ VALUES (0x7378F001,  1154, 0x378F0007, 6.609722, 160.2901, 39.83259, 0.7372774, 
 /* @teleloc 0x378F0007 [6.609722 160.290100 39.832590] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7378F001, 0x7378F002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7378F001, 0x7378F003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7378F001, 0x7378F004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7378F001, 0x7378F005, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7378F001, 0x7378F006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7378F001, 0x7378F007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7378F001, 0x7378F008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7378F001, 0x7378F009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7378F001, 0x7378F00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7378F001, 0x7378F00B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7378F001, 0x7378F00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7378F001, 0x7378F00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7378F001, 0x7378F00E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7378F001, 0x7378F00F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7378F001, 0x7378F010, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7378F001, 0x7378F011, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7378F001, 0x7378F012, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x7378F001, 0x7378F002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7378F001, 0x7378F003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7378F001, 0x7378F004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7378F001, 0x7378F005, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7378F001, 0x7378F006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7378F001, 0x7378F007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7378F001, 0x7378F008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7378F001, 0x7378F009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7378F001, 0x7378F00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7378F001, 0x7378F00B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7378F001, 0x7378F00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7378F001, 0x7378F00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7378F001, 0x7378F00E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7378F001, 0x7378F00F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7378F001, 0x7378F010, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7378F001, 0x7378F011, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7378F001, 0x7378F012, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7378F002, 10807, 0x378F0007, 6.609722, 160.2901, 39.83259, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -96,8 +96,8 @@ VALUES (0x7378F013,  1542, 0x378F0021, 110.1008, 5.865246, 38.15044, 1, 0, 0, 0,
 /* @teleloc 0x378F0021 [110.100800 5.865246 38.150440] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7378F013, 0x7378F014, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7378F013, 0x7378F015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7378F013, 0x7378F014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7378F013, 0x7378F015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7378F014, 31445, 0x378F0021, 110.1008, 5.865246, 38.15044, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

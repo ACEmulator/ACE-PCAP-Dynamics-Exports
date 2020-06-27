@@ -5,15 +5,15 @@ VALUES (0x77017001,  1154, 0x70170038, 150.2494, 169.5886, -0.4488, 0.8191521, 0
 /* @teleloc 0x70170038 [150.249400 169.588600 -0.448800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77017001, 0x77017002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x77017001, 0x77017003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77017001, 0x77017004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x77017001, 0x77017005, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x77017001, 0x77017006, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x77017001, 0x77017007, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x77017001, 0x77017008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x77017001, 0x77017009, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x77017001, 0x7701700A, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x77017001, 0x77017002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x77017001, 0x77017003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77017001, 0x77017004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x77017001, 0x77017005, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x77017001, 0x77017006, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x77017001, 0x77017007, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x77017001, 0x77017008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x77017001, 0x77017009, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x77017001, 0x7701700A, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77017002,  7109, 0x70170038, 150.2494, 169.5886, -0.4488, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -56,8 +56,8 @@ VALUES (0x7701700B,  1542, 0x7017000C, 39.64212, 90.7774, 2.947763, -0.7502552, 
 /* @teleloc 0x7017000C [39.642120 90.777400 2.947763] -0.750255 0.000000 0.000000 -0.661148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7701700B, 0x7701700C, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7701700B, 0x7701700D, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x7701700B, 0x7701700C, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7701700B, 0x7701700D, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7701700C,  9286, 0x7017000C, 39.64212, 90.7774, 2.947763, -0.7502552, 0, 0, -0.6611484,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

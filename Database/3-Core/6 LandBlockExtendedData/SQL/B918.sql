@@ -5,22 +5,22 @@ VALUES (0x7B918001,  1154, 0xB9180032, 161.5095, 30.53124, 86.18418, 0.8660254, 
 /* @teleloc 0xB9180032 [161.509500 30.531240 86.184180] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B918001, 0x7B918002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B918001, 0x7B918003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B918001, 0x7B918004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B918001, 0x7B918005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B918001, 0x7B918006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B918001, 0x7B918007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B918001, 0x7B918008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B918001, 0x7B918009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B918001, 0x7B91800A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B918001, 0x7B91800B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B918001, 0x7B91800C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B918001, 0x7B91800D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B918001, 0x7B91800E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B918001, 0x7B91800F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B918001, 0x7B918010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B918001, 0x7B918011, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7B918001, 0x7B918002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B918001, 0x7B918003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B918001, 0x7B918004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B918001, 0x7B918005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B918001, 0x7B918006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B918001, 0x7B918007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B918001, 0x7B918008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B918001, 0x7B918009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B918001, 0x7B91800A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B918001, 0x7B91800B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B918001, 0x7B91800C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B918001, 0x7B91800D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B918001, 0x7B91800E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B918001, 0x7B91800F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B918001, 0x7B918010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B918001, 0x7B918011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B918002,  7084, 0xB9180032, 161.5095, 30.53124, 86.18418, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -91,7 +91,7 @@ VALUES (0x7B918012,  1542, 0xB9180039, 187.5107, 19.27616, 84.42123, -0.4703309,
 /* @teleloc 0xB9180039 [187.510700 19.276160 84.421230] -0.470331 0.000000 0.000000 -0.882490 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B918012, 0x7B918013, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B918012, 0x7B918013, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B918013, 42528, 0xB9180039, 187.5107, 19.27616, 84.42123, -0.4703309, 0, 0, -0.8824902,  True, '2019-02-10 00:00:00'); /* Rock */

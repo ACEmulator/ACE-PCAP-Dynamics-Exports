@@ -5,17 +5,17 @@ VALUES (0x73916001,  1154, 0x39160012, 59.0632, 37.19177, 10.90069, 0.4342149, 0
 /* @teleloc 0x39160012 [59.063200 37.191770 10.900690] 0.434215 0.000000 0.000000 -0.900809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73916001, 0x73916002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73916001, 0x73916003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73916001, 0x73916004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73916001, 0x73916005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73916001, 0x73916006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73916001, 0x73916007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73916001, 0x73916008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73916001, 0x73916009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73916001, 0x7391600A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73916001, 0x7391600B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73916001, 0x7391600C, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x73916001, 0x73916002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73916001, 0x73916003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73916001, 0x73916004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73916001, 0x73916005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73916001, 0x73916006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73916001, 0x73916007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73916001, 0x73916008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73916001, 0x73916009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73916001, 0x7391600A, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73916001, 0x7391600B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73916001, 0x7391600C, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73916002, 23616, 0x39160012, 59.0632, 37.19177, 10.90069, 0.4342149, 0, 0, -0.9008093,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -66,7 +66,7 @@ VALUES (0x7391600D,  1542, 0x39160001, 20.18413, 23.66631, 14.05561, 1, 0, 0, 0,
 /* @teleloc 0x39160001 [20.184130 23.666310 14.055610] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7391600D, 0x7391600E, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7391600D, 0x7391600E, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7391600E,  8999, 0x39160001, 20.18413, 23.66631, 14.05561, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

@@ -5,10 +5,10 @@ VALUES (0x7AA2B001,  1154, 0xAA2B003A, 172.5175, 37.14903, 225.2753, -0.4274279,
 /* @teleloc 0xAA2B003A [172.517500 37.149030 225.275300] -0.427428 0.000000 0.000000 -0.904050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA2B001, 0x7AA2B002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AA2B001, 0x7AA2B003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA2B001, 0x7AA2B004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AA2B001, 0x7AA2B005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7AA2B001, 0x7AA2B002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AA2B001, 0x7AA2B003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA2B001, 0x7AA2B004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7AA2B001, 0x7AA2B005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA2B002,   201, 0xAA2B003A, 172.5175, 37.14903, 225.2753, -0.4274279, 0, 0, -0.9040495,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

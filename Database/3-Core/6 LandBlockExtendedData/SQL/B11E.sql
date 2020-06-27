@@ -5,12 +5,12 @@ VALUES (0x7B11E001,  1154, 0xB11E0004, 4.473176, 94.95434, 179.2635, 0.2162092, 
 /* @teleloc 0xB11E0004 [4.473176 94.954340 179.263500] 0.216209 0.000000 0.000000 -0.976347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B11E001, 0x7B11E002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B11E001, 0x7B11E003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B11E001, 0x7B11E004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B11E001, 0x7B11E005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B11E001, 0x7B11E006, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B11E001, 0x7B11E007, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7B11E001, 0x7B11E002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B11E001, 0x7B11E003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B11E001, 0x7B11E004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B11E001, 0x7B11E005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B11E001, 0x7B11E006, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B11E001, 0x7B11E007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B11E002,  7107, 0xB11E0004, 4.473176, 94.95434, 179.2635, 0.2162092, 0, 0, -0.9763471,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

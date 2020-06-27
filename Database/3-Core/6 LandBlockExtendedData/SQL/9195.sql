@@ -5,10 +5,10 @@ VALUES (0x79195001,  1154, 0x9195003B, 185.4736, 54.80083, 67.67802, 0.9872374, 
 /* @teleloc 0x9195003B [185.473600 54.800830 67.678020] 0.987237 0.000000 0.000000 -0.159255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79195001, 0x79195002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79195001, 0x79195003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79195001, 0x79195004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79195001, 0x79195005, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x79195001, 0x79195002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79195001, 0x79195003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79195001, 0x79195004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79195001, 0x79195005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79195002, 24959, 0x9195003B, 185.4736, 54.80083, 67.67802, 0.9872374, 0, 0, -0.1592554,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

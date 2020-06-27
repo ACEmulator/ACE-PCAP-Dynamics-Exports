@@ -5,12 +5,12 @@ VALUES (0x7D51B001,  1154, 0xD51B0002, 19.38005, 32.67905, 1.547483, 0.9948872, 
 /* @teleloc 0xD51B0002 [19.380050 32.679050 1.547483] 0.994887 0.000000 0.000000 -0.100993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D51B001, 0x7D51B002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D51B001, 0x7D51B003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D51B001, 0x7D51B004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D51B001, 0x7D51B005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D51B001, 0x7D51B006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D51B001, 0x7D51B007, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7D51B001, 0x7D51B002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D51B001, 0x7D51B003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D51B001, 0x7D51B004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D51B001, 0x7D51B005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D51B001, 0x7D51B006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D51B001, 0x7D51B007, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D51B002,  7124, 0xD51B0002, 19.38005, 32.67905, 1.547483, 0.9948872, 0, 0, -0.1009929,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -41,7 +41,7 @@ VALUES (0x7D51B008,  1542, 0xD51B0002, 0.1662555, 36.82495, 7.027182, 0.9990482,
 /* @teleloc 0xD51B0002 [0.166256 36.824950 7.027182] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D51B008, 0x7D51B009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D51B008, 0x7D51B009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D51B009,  4179, 0xD51B0002, 0.1662555, 36.82495, 7.027182, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

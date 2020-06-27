@@ -5,31 +5,31 @@ VALUES (0x7322A001,  1154, 0x322A0001, 10.43651, 18.58655, 59.57788, -0.9546103,
 /* @teleloc 0x322A0001 [10.436510 18.586550 59.577880] -0.954610 0.000000 0.000000 -0.297858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7322A001, 0x7322A002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7322A001, 0x7322A003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7322A001, 0x7322A004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7322A001, 0x7322A005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322A001, 0x7322A006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322A001, 0x7322A007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7322A001, 0x7322A008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7322A001, 0x7322A009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7322A001, 0x7322A00A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7322A001, 0x7322A00B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7322A001, 0x7322A00C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7322A001, 0x7322A00D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7322A001, 0x7322A00E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7322A001, 0x7322A00F, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7322A001, 0x7322A010, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7322A001, 0x7322A011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7322A001, 0x7322A012, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7322A001, 0x7322A013, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7322A001, 0x7322A014, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7322A001, 0x7322A015, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7322A001, 0x7322A016, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7322A001, 0x7322A017, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7322A001, 0x7322A018, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322A001, 0x7322A019, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322A001, 0x7322A01A, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x7322A001, 0x7322A002, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7322A001, 0x7322A003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7322A001, 0x7322A004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7322A001, 0x7322A005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322A001, 0x7322A006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322A001, 0x7322A007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7322A001, 0x7322A008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7322A001, 0x7322A009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7322A001, 0x7322A00A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7322A001, 0x7322A00B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7322A001, 0x7322A00C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7322A001, 0x7322A00D, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7322A001, 0x7322A00E, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7322A001, 0x7322A00F, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7322A001, 0x7322A010, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7322A001, 0x7322A011, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7322A001, 0x7322A012, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7322A001, 0x7322A013, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7322A001, 0x7322A014, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7322A001, 0x7322A015, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7322A001, 0x7322A016, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7322A001, 0x7322A017, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7322A001, 0x7322A018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322A001, 0x7322A019, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322A001, 0x7322A01A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7322A002, 36865, 0x322A0001, 10.43651, 18.58655, 59.57788, -0.9546103, 0, 0, -0.2978577,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -136,7 +136,7 @@ VALUES (0x7322A01B,  1542, 0x322A0009, 30.9219, 14.65396, 60.04314, -4.371139E-0
 /* @teleloc 0x322A0009 [30.921900 14.653960 60.043140] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7322A01B, 0x7322A01C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7322A01B, 0x7322A01C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7322A01C,  4380, 0x322A0009, 30.9219, 14.65396, 60.04314, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,14 +5,14 @@ VALUES (0x71A70001,  1154, 0x1A700038, 161.3484, 188.5724, 250.005, -0.2020445, 
 /* @teleloc 0x1A700038 [161.348400 188.572400 250.005000] -0.202045 0.000000 0.000000 -0.979376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A70001, 0x71A70002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71A70001, 0x71A70003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A70001, 0x71A70004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71A70001, 0x71A70005, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71A70001, 0x71A70006, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71A70001, 0x71A70007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A70001, 0x71A70008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71A70001, 0x71A70009, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x71A70001, 0x71A70002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71A70001, 0x71A70003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A70001, 0x71A70004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71A70001, 0x71A70005, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71A70001, 0x71A70006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71A70001, 0x71A70007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A70001, 0x71A70008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71A70001, 0x71A70009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A70002, 23564, 0x1A700038, 161.3484, 188.5724, 250.005, -0.2020445, 0, 0, -0.9793764,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

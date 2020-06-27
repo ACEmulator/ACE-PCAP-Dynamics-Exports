@@ -5,32 +5,32 @@ VALUES (0x7118D001,  1154, 0x118D002D, 139.5575, 102.0594, 15.28011, 0.9659258, 
 /* @teleloc 0x118D002D [139.557500 102.059400 15.280110] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7118D001, 0x7118D002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7118D001, 0x7118D003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7118D001, 0x7118D004, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7118D001, 0x7118D005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7118D001, 0x7118D006, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7118D001, 0x7118D007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7118D001, 0x7118D008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7118D001, 0x7118D009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7118D001, 0x7118D00A, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7118D001, 0x7118D00B, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7118D001, 0x7118D00C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7118D001, 0x7118D00D, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x7118D001, 0x7118D00E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7118D001, 0x7118D00F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7118D001, 0x7118D010, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7118D001, 0x7118D011, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7118D001, 0x7118D012, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7118D001, 0x7118D013, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x7118D001, 0x7118D014, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7118D001, 0x7118D015, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7118D001, 0x7118D016, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7118D001, 0x7118D017, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7118D001, 0x7118D018, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7118D001, 0x7118D019, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7118D001, 0x7118D01A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7118D001, 0x7118D01B, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7118D001, 0x7118D002, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7118D001, 0x7118D003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7118D001, 0x7118D004, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7118D001, 0x7118D005, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7118D001, 0x7118D006, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7118D001, 0x7118D007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7118D001, 0x7118D008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7118D001, 0x7118D009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7118D001, 0x7118D00A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7118D001, 0x7118D00B, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7118D001, 0x7118D00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7118D001, 0x7118D00D, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x7118D001, 0x7118D00E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7118D001, 0x7118D00F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7118D001, 0x7118D010, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7118D001, 0x7118D011, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7118D001, 0x7118D012, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7118D001, 0x7118D013, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x7118D001, 0x7118D014, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7118D001, 0x7118D015, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7118D001, 0x7118D016, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7118D001, 0x7118D017, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7118D001, 0x7118D018, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7118D001, 0x7118D019, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7118D001, 0x7118D01A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7118D001, 0x7118D01B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7118D002,  7626, 0x118D002D, 139.5575, 102.0594, 15.28011, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -141,7 +141,7 @@ VALUES (0x7118D01C,  1542, 0x118D001A, 81.59385, 31.6643, 3.851594, 1, 0, 0, 0, 
 /* @teleloc 0x118D001A [81.593850 31.664300 3.851594] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7118D01C, 0x7118D01D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7118D01C, 0x7118D01D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7118D01D,  4179, 0x118D001A, 81.59385, 31.6643, 3.851594, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

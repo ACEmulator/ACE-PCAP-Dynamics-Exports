@@ -5,7 +5,7 @@ VALUES (0x72036001,  1154, 0x20360015, 52.61128, 109.2755, 9.582993, -0.8457979,
 /* @teleloc 0x20360015 [52.611280 109.275500 9.582993] -0.845798 0.000000 0.000000 -0.533504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72036001, 0x72036002, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x72036001, 0x72036002, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72036002, 23090, 0x20360015, 52.61128, 109.2755, 9.582993, -0.8457979, 0, 0, -0.5335035,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */

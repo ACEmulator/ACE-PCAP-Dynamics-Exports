@@ -5,10 +5,10 @@ VALUES (0x78962001,  1154, 0x89620010, 39.29865, 180.9088, 15.45522, -0.6925228,
 /* @teleloc 0x89620010 [39.298650 180.908800 15.455220] -0.692523 0.000000 0.000000 -0.721396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78962001, 0x78962002, '2019-02-10 00:00:00') /* Flare */
-     , (0x78962001, 0x78962003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78962001, 0x78962004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78962001, 0x78962005, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x78962001, 0x78962002, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x78962001, 0x78962003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78962001, 0x78962004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78962001, 0x78962005, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78962002,  5710, 0x89620010, 39.29865, 180.9088, 15.45522, -0.6925228, 0, 0, -0.721396,  True, '2019-02-10 00:00:00'); /* Flare */

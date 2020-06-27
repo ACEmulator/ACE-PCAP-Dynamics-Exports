@@ -5,9 +5,9 @@ VALUES (0x76AE7001,  1154, 0x6AE70005, 2.459645, 99.4374, 163.8581, -0.8434113, 
 /* @teleloc 0x6AE70005 [2.459645 99.437400 163.858100] -0.843411 0.000000 0.000000 -0.537269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76AE7001, 0x76AE7002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x76AE7001, 0x76AE7003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76AE7001, 0x76AE7004, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x76AE7001, 0x76AE7002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x76AE7001, 0x76AE7003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76AE7001, 0x76AE7004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76AE7002, 24275, 0x6AE70005, 2.459645, 99.4374, 163.8581, -0.8434113, 0, 0, -0.5372685,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

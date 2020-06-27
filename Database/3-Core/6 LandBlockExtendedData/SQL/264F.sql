@@ -5,10 +5,10 @@ VALUES (0x7264F001,  1154, 0x264F003B, 169.6571, 52.2662, 89.30715, -0.1354517, 
 /* @teleloc 0x264F003B [169.657100 52.266200 89.307150] -0.135452 0.000000 0.000000 -0.990784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7264F001, 0x7264F002, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264F001, 0x7264F003, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264F001, 0x7264F004, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264F001, 0x7264F005, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x7264F001, 0x7264F002, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264F001, 0x7264F003, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264F001, 0x7264F004, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264F001, 0x7264F005, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264F002, 22900, 0x264F003B, 169.6571, 52.2662, 89.30715, -0.1354517, 0, 0, -0.9907839,  True, '2019-02-10 00:00:00'); /* Bile Grievver */

@@ -13,24 +13,24 @@ VALUES (0x70F33003,  1154, 0x0F330101, 35, 64, 12.6064, 0.7071068, 0, 0, -0.7071
 /* @teleloc 0x0F330101 [35.000000 64.000000 12.606400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F33003, 0x70F33004, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33005, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33006, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33007, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33008, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33009, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300A, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300B, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300C, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300D, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300E, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F3300F, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33010, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33011, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33012, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman */
-     , (0x70F33003, 0x70F33013, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70F33003, 0x70F33014, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70F33003, 0x70F33015, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x70F33003, 0x70F33004, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33005, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33006, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33007, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33008, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33009, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F3300A, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F3300B, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F3300C, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (39007) */
+     , (0x70F33003, 0x70F3300D, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F3300E, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F3300F, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33010, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33011, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33012, '2019-02-10 00:00:00') /* Blighted Desolation Moarsman (37416) */
+     , (0x70F33003, 0x70F33013, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70F33003, 0x70F33014, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70F33003, 0x70F33015, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F33004, 37416, 0x0F330101, 35, 64, 12.6064, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blighted Desolation Moarsman */

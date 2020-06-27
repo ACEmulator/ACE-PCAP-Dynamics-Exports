@@ -5,12 +5,12 @@ VALUES (0x74465001,  1154, 0x44650027, 110.0677, 145.2347, 4.143463, 0.7580154, 
 /* @teleloc 0x44650027 [110.067700 145.234700 4.143463] 0.758015 0.000000 0.000000 -0.652237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74465001, 0x74465002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74465001, 0x74465003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74465001, 0x74465004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74465001, 0x74465005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74465001, 0x74465006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74465001, 0x74465007, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x74465001, 0x74465002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74465001, 0x74465003, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74465001, 0x74465004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74465001, 0x74465005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74465001, 0x74465006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74465001, 0x74465007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74465002, 23563, 0x44650027, 110.0677, 145.2347, 4.143463, 0.7580154, 0, 0, -0.6522366,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

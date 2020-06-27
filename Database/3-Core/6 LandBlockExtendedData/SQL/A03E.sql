@@ -5,15 +5,15 @@ VALUES (0x7A03E001,  1154, 0xA03E003A, 174.4245, 40.39363, 52.3998, -0.6897743, 
 /* @teleloc 0xA03E003A [174.424500 40.393630 52.399800] -0.689774 0.000000 0.000000 -0.724025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A03E001, 0x7A03E002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A03E001, 0x7A03E003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A03E001, 0x7A03E004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A03E001, 0x7A03E005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A03E001, 0x7A03E006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A03E001, 0x7A03E007, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7A03E001, 0x7A03E008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A03E001, 0x7A03E009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A03E001, 0x7A03E00A, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7A03E001, 0x7A03E002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A03E001, 0x7A03E003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A03E001, 0x7A03E004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A03E001, 0x7A03E005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A03E001, 0x7A03E006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A03E001, 0x7A03E007, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7A03E001, 0x7A03E008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A03E001, 0x7A03E009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A03E001, 0x7A03E00A, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A03E002,   226, 0xA03E003A, 174.4245, 40.39363, 52.3998, -0.6897743, 0, 0, -0.7240245,  True, '2019-02-10 00:00:00'); /* High Tumerok */

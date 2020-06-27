@@ -9,18 +9,18 @@ VALUES (0x7E92D001,  1154, 0xE92D0026, 116.9223, 126.9541, 11.27987, 0.688261, 0
 /* @teleloc 0xE92D0026 [116.922300 126.954100 11.279870] 0.688261 0.000000 0.000000 -0.725463 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E92D001, 0x7E92D002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7E92D001, 0x7E92D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E92D001, 0x7E92D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E92D001, 0x7E92D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E92D001, 0x7E92D006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7E92D001, 0x7E92D007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E92D001, 0x7E92D008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E92D001, 0x7E92D009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E92D001, 0x7E92D00A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E92D001, 0x7E92D00B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E92D001, 0x7E92D00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E92D001, 0x7E92D00D, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7E92D001, 0x7E92D002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7E92D001, 0x7E92D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E92D001, 0x7E92D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E92D001, 0x7E92D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E92D001, 0x7E92D006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7E92D001, 0x7E92D007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E92D001, 0x7E92D008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E92D001, 0x7E92D009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E92D001, 0x7E92D00A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E92D001, 0x7E92D00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E92D001, 0x7E92D00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E92D001, 0x7E92D00D, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92D002,  7607, 0xE92D0026, 116.9223, 126.9541, 11.27987, 0.688261, 0, 0, -0.7254632,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -75,7 +75,7 @@ VALUES (0x7E92D00E,  1542, 0xE92D0040, 178.0544, 169.8618, 1.490116E-08, 1, 0, 0
 /* @teleloc 0xE92D0040 [178.054400 169.861800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E92D00E, 0x7E92D00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7E92D00E, 0x7E92D00F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92D00F, 22571, 0xE92D0040, 178.0544, 169.8618, 1.490116E-08, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

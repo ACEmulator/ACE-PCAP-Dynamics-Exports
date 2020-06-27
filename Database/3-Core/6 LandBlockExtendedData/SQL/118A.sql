@@ -5,18 +5,18 @@ VALUES (0x7118A001,  1154, 0x118A003A, 179.0422, 28.20155, 66.00715, -0.8201301,
 /* @teleloc 0x118A003A [179.042200 28.201550 66.007150] -0.820130 0.000000 0.000000 -0.572177 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7118A001, 0x7118A002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7118A001, 0x7118A003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7118A001, 0x7118A004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7118A001, 0x7118A005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7118A001, 0x7118A006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7118A001, 0x7118A007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7118A001, 0x7118A008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7118A001, 0x7118A009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7118A001, 0x7118A00A, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7118A001, 0x7118A00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7118A001, 0x7118A00C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7118A001, 0x7118A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7118A001, 0x7118A002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7118A001, 0x7118A003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7118A001, 0x7118A004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7118A001, 0x7118A005, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7118A001, 0x7118A006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7118A001, 0x7118A007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7118A001, 0x7118A008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7118A001, 0x7118A009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7118A001, 0x7118A00A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7118A001, 0x7118A00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7118A001, 0x7118A00C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7118A001, 0x7118A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7118A002, 36818, 0x118A003A, 179.0422, 28.20155, 66.00715, -0.8201301, 0, 0, -0.5721771,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -71,7 +71,7 @@ VALUES (0x7118A00E,  1542, 0x118A0040, 172.3086, 178.9138, 9.282597, -4.371139E-
 /* @teleloc 0x118A0040 [172.308600 178.913800 9.282597] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7118A00E, 0x7118A00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7118A00E, 0x7118A00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7118A00F,  4380, 0x118A0040, 172.3086, 178.9138, 9.282597, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

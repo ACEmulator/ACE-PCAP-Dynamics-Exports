@@ -5,9 +5,9 @@ VALUES (0x7AFD3001,  1154, 0xAFD30025, 116.5415, 118.4916, 46.4199, -0.4660447, 
 /* @teleloc 0xAFD30025 [116.541500 118.491600 46.419900] -0.466045 0.000000 0.000000 -0.884761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFD3001, 0x7AFD3002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7AFD3001, 0x7AFD3003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7AFD3001, 0x7AFD3004, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7AFD3001, 0x7AFD3002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7AFD3001, 0x7AFD3003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7AFD3001, 0x7AFD3004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFD3002, 23565, 0xAFD30025, 116.5415, 118.4916, 46.4199, -0.4660447, 0, 0, -0.8847612,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

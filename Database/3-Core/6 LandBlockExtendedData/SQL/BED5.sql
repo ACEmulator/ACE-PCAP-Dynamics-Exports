@@ -5,16 +5,16 @@ VALUES (0x7BED5001,  1154, 0xBED5000A, 45.84866, 40.90641, 152.0836, -0.2844873,
 /* @teleloc 0xBED5000A [45.848660 40.906410 152.083600] -0.284487 0.000000 0.000000 -0.958680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED5001, 0x7BED5002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BED5001, 0x7BED5003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED5001, 0x7BED5004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED5001, 0x7BED5005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED5001, 0x7BED5006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BED5001, 0x7BED5007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED5001, 0x7BED5008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED5001, 0x7BED5009, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BED5001, 0x7BED500A, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BED5001, 0x7BED500B, '2019-02-10 00:00:00') /* Acolyte of Wind */;
+VALUES (0x7BED5001, 0x7BED5002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BED5001, 0x7BED5003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED5001, 0x7BED5004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED5001, 0x7BED5005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED5001, 0x7BED5006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BED5001, 0x7BED5007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED5001, 0x7BED5008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED5001, 0x7BED5009, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BED5001, 0x7BED500A, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7BED5001, 0x7BED500B, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED5002, 23082, 0xBED5000A, 45.84866, 40.90641, 152.0836, -0.2844873, 0, 0, -0.9586798,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

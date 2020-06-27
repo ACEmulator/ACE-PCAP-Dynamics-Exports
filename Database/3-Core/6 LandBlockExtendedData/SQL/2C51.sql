@@ -5,32 +5,32 @@ VALUES (0x72C51001,  1154, 0x2C510035, 147.5445, 98.40765, 0.006500006, -0.95385
 /* @teleloc 0x2C510035 [147.544500 98.407650 0.006500] -0.953860 0.000000 0.000000 -0.300253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C51001, 0x72C51002, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72C51001, 0x72C51003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72C51001, 0x72C51004, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72C51001, 0x72C51005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72C51001, 0x72C51006, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72C51001, 0x72C51007, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72C51001, 0x72C51008, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72C51001, 0x72C51009, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72C51001, 0x72C5100A, '2019-02-10 00:00:00') /* K'nath X'ela */
-     , (0x72C51001, 0x72C5100B, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x72C51001, 0x72C5100C, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72C51001, 0x72C5100D, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72C51001, 0x72C5100E, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72C51001, 0x72C5100F, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72C51001, 0x72C51010, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72C51001, 0x72C51011, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72C51001, 0x72C51012, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72C51001, 0x72C51013, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72C51001, 0x72C51014, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72C51001, 0x72C51015, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72C51001, 0x72C51016, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72C51001, 0x72C51017, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72C51001, 0x72C51018, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72C51001, 0x72C51019, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72C51001, 0x72C5101A, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72C51001, 0x72C5101B, '2019-02-10 00:00:00') /* Tremendous Monouga */;
+VALUES (0x72C51001, 0x72C51002, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72C51001, 0x72C51003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72C51001, 0x72C51004, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72C51001, 0x72C51005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72C51001, 0x72C51006, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72C51001, 0x72C51007, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72C51001, 0x72C51008, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72C51001, 0x72C51009, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72C51001, 0x72C5100A, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72C51001, 0x72C5100B, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x72C51001, 0x72C5100C, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72C51001, 0x72C5100D, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72C51001, 0x72C5100E, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72C51001, 0x72C5100F, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72C51001, 0x72C51010, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72C51001, 0x72C51011, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72C51001, 0x72C51012, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72C51001, 0x72C51013, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72C51001, 0x72C51014, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72C51001, 0x72C51015, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72C51001, 0x72C51016, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72C51001, 0x72C51017, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72C51001, 0x72C51018, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72C51001, 0x72C51019, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72C51001, 0x72C5101A, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72C51001, 0x72C5101B, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C51002, 23092, 0x2C510035, 147.5445, 98.40765, 0.006500006, -0.9538596, 0, 0, -0.3002531,  True, '2019-02-10 00:00:00'); /* Revered Tumerok Shaman */
@@ -141,10 +141,10 @@ VALUES (0x72C5101C,  1542, 0x2C510035, 151.6568, 100.3433, 0, -0.9538596, 0, 0, 
 /* @teleloc 0x2C510035 [151.656800 100.343300 0.000000] -0.953860 0.000000 0.000000 -0.300253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C5101C, 0x72C5101D, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72C5101C, 0x72C5101E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x72C5101C, 0x72C5101F, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x72C5101C, 0x72C51020, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72C5101C, 0x72C5101D, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72C5101C, 0x72C5101E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x72C5101C, 0x72C5101F, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x72C5101C, 0x72C51020, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C5101D, 46284, 0x2C510035, 151.6568, 100.3433, 0, -0.9538596, 0, 0, -0.3002531,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

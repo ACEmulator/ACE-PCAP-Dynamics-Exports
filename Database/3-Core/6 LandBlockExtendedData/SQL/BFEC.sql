@@ -5,35 +5,35 @@ VALUES (0x7BFEC001,  1154, 0xBFEC0001, 16.52133, 2.326241, 11.33896, 1, 0, 0, 0,
 /* @teleloc 0xBFEC0001 [16.521330 2.326241 11.338960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFEC001, 0x7BFEC002, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BFEC001, 0x7BFEC003, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BFEC001, 0x7BFEC004, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BFEC001, 0x7BFEC005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEC001, 0x7BFEC006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEC001, 0x7BFEC007, '2019-02-10 00:00:00') /* Devastated Watcher */
-     , (0x7BFEC001, 0x7BFEC008, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BFEC001, 0x7BFEC009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFEC001, 0x7BFEC00A, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BFEC001, 0x7BFEC00B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BFEC001, 0x7BFEC00C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEC001, 0x7BFEC00D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BFEC001, 0x7BFEC00E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BFEC001, 0x7BFEC00F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BFEC001, 0x7BFEC010, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFEC001, 0x7BFEC011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BFEC001, 0x7BFEC012, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BFEC001, 0x7BFEC013, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BFEC001, 0x7BFEC014, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEC001, 0x7BFEC015, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BFEC001, 0x7BFEC016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFEC001, 0x7BFEC017, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BFEC001, 0x7BFEC018, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BFEC001, 0x7BFEC019, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEC001, 0x7BFEC01A, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BFEC001, 0x7BFEC01B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFEC001, 0x7BFEC01C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFEC001, 0x7BFEC01D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFEC001, 0x7BFEC01E, '2019-02-10 00:00:00') /* Spirit */;
+VALUES (0x7BFEC001, 0x7BFEC002, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BFEC001, 0x7BFEC003, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BFEC001, 0x7BFEC004, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BFEC001, 0x7BFEC005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEC001, 0x7BFEC006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEC001, 0x7BFEC007, '2019-02-10 00:00:00') /* Devastated Watcher (31967) */
+     , (0x7BFEC001, 0x7BFEC008, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BFEC001, 0x7BFEC009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFEC001, 0x7BFEC00A, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BFEC001, 0x7BFEC00B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BFEC001, 0x7BFEC00C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEC001, 0x7BFEC00D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BFEC001, 0x7BFEC00E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BFEC001, 0x7BFEC00F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BFEC001, 0x7BFEC010, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFEC001, 0x7BFEC011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BFEC001, 0x7BFEC012, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BFEC001, 0x7BFEC013, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BFEC001, 0x7BFEC014, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEC001, 0x7BFEC015, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BFEC001, 0x7BFEC016, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BFEC001, 0x7BFEC017, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BFEC001, 0x7BFEC018, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BFEC001, 0x7BFEC019, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEC001, 0x7BFEC01A, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BFEC001, 0x7BFEC01B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFEC001, 0x7BFEC01C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BFEC001, 0x7BFEC01D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BFEC001, 0x7BFEC01E, '2019-02-10 00:00:00') /* Spirit (28246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFEC002, 28048, 0xBFEC0001, 16.52133, 2.326241, 11.33896, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Specter */
@@ -156,9 +156,9 @@ VALUES (0x7BFEC01F,  1542, 0xBFEC000E, 39.68185, 135.4755, 14.07954, 0.9990482, 
 /* @teleloc 0xBFEC000E [39.681850 135.475500 14.079540] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFEC01F, 0x7BFEC020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BFEC01F, 0x7BFEC021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BFEC01F, 0x7BFEC022, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BFEC01F, 0x7BFEC020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BFEC01F, 0x7BFEC021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BFEC01F, 0x7BFEC022, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFEC020,  4179, 0xBFEC000E, 39.68185, 135.4755, 14.07954, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

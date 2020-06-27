@@ -5,21 +5,21 @@ VALUES (0x71A41001,  1154, 0x1A410006, 14.37897, 142.7015, 70.00715, 0.07301427,
 /* @teleloc 0x1A410006 [14.378970 142.701500 70.007150] 0.073014 0.000000 0.000000 -0.997331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A41001, 0x71A41002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71A41001, 0x71A41003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71A41001, 0x71A41004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71A41001, 0x71A41005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71A41001, 0x71A41006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A41001, 0x71A41007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A41001, 0x71A41008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A41001, 0x71A41009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A41001, 0x71A4100A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71A41001, 0x71A4100B, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71A41001, 0x71A4100C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71A41001, 0x71A4100D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71A41001, 0x71A4100E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71A41001, 0x71A4100F, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71A41001, 0x71A41010, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x71A41001, 0x71A41002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71A41001, 0x71A41003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71A41001, 0x71A41004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71A41001, 0x71A41005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71A41001, 0x71A41006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A41001, 0x71A41007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A41001, 0x71A41008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A41001, 0x71A41009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A41001, 0x71A4100A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71A41001, 0x71A4100B, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71A41001, 0x71A4100C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71A41001, 0x71A4100D, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71A41001, 0x71A4100E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71A41001, 0x71A4100F, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71A41001, 0x71A41010, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A41002, 36819, 0x1A410006, 14.37897, 142.7015, 70.00715, 0.07301427, 0, 0, -0.9973309,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -86,8 +86,8 @@ VALUES (0x71A41011,  1542, 0x1A410001, 6.840935, 14.84548, 60, 1, 0, 0, 0, False
 /* @teleloc 0x1A410001 [6.840935 14.845480 60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A41011, 0x71A41012, '2019-02-10 00:00:00') /* Bones */
-     , (0x71A41011, 0x71A41013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71A41011, 0x71A41012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71A41011, 0x71A41013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A41012,  4380, 0x1A410001, 6.840935, 14.84548, 60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

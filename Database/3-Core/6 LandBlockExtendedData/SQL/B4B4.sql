@@ -5,10 +5,10 @@ VALUES (0x7B4B4001,  1154, 0xB4B4001C, 81.43598, 81.68301, 114.138, 1, 0, 0, 0, 
 /* @teleloc 0xB4B4001C [81.435980 81.683010 114.138000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B4001, 0x7B4B4002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B4B4001, 0x7B4B4003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B4B4001, 0x7B4B4004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4B4001, 0x7B4B4005, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7B4B4001, 0x7B4B4002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B4B4001, 0x7B4B4003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B4B4001, 0x7B4B4004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4B4001, 0x7B4B4005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B4002,   222, 0xB4B4001C, 81.43598, 81.68301, 114.138, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -31,7 +31,7 @@ VALUES (0x7B4B4006,  1542, 0xB4B4001C, 83.87233, 82.11219, 114.138, 1, 0, 0, 0, 
 /* @teleloc 0xB4B4001C [83.872330 82.112190 114.138000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B4006, 0x7B4B4007, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7B4B4006, 0x7B4B4007, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B4007,   265, 0xB4B4001C, 83.87233, 82.11219, 114.138, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

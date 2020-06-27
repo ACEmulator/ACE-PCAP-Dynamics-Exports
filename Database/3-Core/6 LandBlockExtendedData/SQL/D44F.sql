@@ -9,9 +9,9 @@ VALUES (0x7D44F006,  1154, 0xD44F0008, 5.199182, 185.287, 49.44609, -0.1789795, 
 /* @teleloc 0xD44F0008 [5.199182 185.287000 49.446090] -0.178980 0.000000 0.000000 -0.983853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D44F006, 0x7D44F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D44F006, 0x7D44F008, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D44F006, 0x7D44F009, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7D44F006, 0x7D44F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D44F006, 0x7D44F008, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D44F006, 0x7D44F009, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D44F007,   211, 0xD44F0008, 5.199182, 185.287, 49.44609, -0.1789795, 0, 0, -0.9838528,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -30,12 +30,12 @@ VALUES (0x7D44F00A,  1542, 0xD44F003E, 182.758, 122.7728, 39.23575, -0.9814059, 
 /* @teleloc 0xD44F003E [182.758000 122.772800 39.235750] -0.981406 0.000000 0.000000 -0.191944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D44F00A, 0x7D44F00B, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D44F00A, 0x7D44F00C, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D44F00A, 0x7D44F00D, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D44F00A, 0x7D44F00E, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D44F00A, 0x7D44F00F, '2019-02-10 00:00:00') /* Cow */
-     , (0x7D44F00A, 0x7D44F010, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7D44F00A, 0x7D44F00B, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D44F00A, 0x7D44F00C, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D44F00A, 0x7D44F00D, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D44F00A, 0x7D44F00E, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D44F00A, 0x7D44F00F, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7D44F00A, 0x7D44F010, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D44F00B,    14, 0xD44F003E, 182.758, 122.7728, 39.23575, -0.9814059, 0, 0, -0.191944,  True, '2019-02-10 00:00:00'); /* Cow */

@@ -5,20 +5,20 @@ VALUES (0x7C1C0001,  1154, 0xC1C00016, 69.3734, 133.3597, 192.8972, -0.1577892, 
 /* @teleloc 0xC1C00016 [69.373400 133.359700 192.897200] -0.157789 0.000000 0.000000 -0.987473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1C0001, 0x7C1C0002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7C1C0001, 0x7C1C0003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C1C0001, 0x7C1C0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1C0001, 0x7C1C0005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1C0001, 0x7C1C0006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C0001, 0x7C1C0007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C0001, 0x7C1C0008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1C0001, 0x7C1C0009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C0001, 0x7C1C000A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C1C0001, 0x7C1C000B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C0001, 0x7C1C000C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C0001, 0x7C1C000D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1C0001, 0x7C1C000E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7C1C0001, 0x7C1C000F, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x7C1C0001, 0x7C1C0002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7C1C0001, 0x7C1C0003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C1C0001, 0x7C1C0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1C0001, 0x7C1C0005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1C0001, 0x7C1C0006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C0001, 0x7C1C0007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C0001, 0x7C1C0008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1C0001, 0x7C1C0009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C0001, 0x7C1C000A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C1C0001, 0x7C1C000B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C0001, 0x7C1C000C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C0001, 0x7C1C000D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1C0001, 0x7C1C000E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x7C1C0001, 0x7C1C000F, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1C0002,  7081, 0xC1C00016, 69.3734, 133.3597, 192.8972, -0.1577892, 0, 0, -0.9874728,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

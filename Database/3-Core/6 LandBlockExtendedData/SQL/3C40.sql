@@ -5,16 +5,16 @@ VALUES (0x73C40001,  1154, 0x3C400100, 115.349, 57.5804, 74.81, 0.299625, 0, 0, 
 /* @teleloc 0x3C400100 [115.349000 57.580400 74.810000] 0.299625 0.000000 0.000000 -0.954057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C40001, 0x73C40002, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x73C40001, 0x73C40003, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x73C40001, 0x73C40004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C40005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C40006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C40007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C40008, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x73C40001, 0x73C40009, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C4000A, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C40001, 0x73C4000B, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x73C40001, 0x73C40002, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x73C40001, 0x73C40003, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x73C40001, 0x73C40004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C40005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C40006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C40007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C40008, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x73C40001, 0x73C40009, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C4000A, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C40001, 0x73C4000B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C40002,  8137, 0x3C400100, 115.349, 57.5804, 74.81, 0.299625, 0, 0, -0.954057,  True, '2019-02-10 00:00:00'); /* Tiatus Raider */
@@ -61,10 +61,10 @@ VALUES (0x73C4000C,  1542, 0x3C400100, 124.736, 59.039, 74.82401, 0.6445799, 0, 
 /* @teleloc 0x3C400100 [124.736000 59.039000 74.824010] 0.644580 0.000000 0.000000 -0.764537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4000C, 0x73C4000D, '2019-02-10 00:00:00') /* Super Cheese */
-     , (0x73C4000C, 0x73C4000E, '2019-02-10 00:00:00') /* Peerless Healing Kit */
-     , (0x73C4000C, 0x73C4000F, '2019-02-10 00:00:00') /* Gifted Healing Kit */
-     , (0x73C4000C, 0x73C40010, '2019-02-10 00:00:00') /* Sack */;
+VALUES (0x73C4000C, 0x73C4000D, '2019-02-10 00:00:00') /* Super Cheese (1452) */
+     , (0x73C4000C, 0x73C4000E, '2019-02-10 00:00:00') /* Peerless Healing Kit (632) */
+     , (0x73C4000C, 0x73C4000F, '2019-02-10 00:00:00') /* Gifted Healing Kit (630) */
+     , (0x73C4000C, 0x73C40010, '2019-02-10 00:00:00') /* Sack (166) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4000D,  1452, 0x3C400100, 124.736, 59.039, 74.82401, 0.6445799, 0, 0, -0.7645369,  True, '2019-02-10 00:00:00'); /* Super Cheese */

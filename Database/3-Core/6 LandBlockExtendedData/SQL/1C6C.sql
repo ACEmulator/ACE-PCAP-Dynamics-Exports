@@ -5,11 +5,11 @@ VALUES (0x71C6C001,  1154, 0x1C6C0007, 22.97118, 155.4727, 39.92476, -0.9370177,
 /* @teleloc 0x1C6C0007 [22.971180 155.472700 39.924760] -0.937018 0.000000 0.000000 -0.349282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C6C001, 0x71C6C002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71C6C001, 0x71C6C003, '2019-02-10 00:00:00') /* Frost */
-     , (0x71C6C001, 0x71C6C004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71C6C001, 0x71C6C005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C6C001, 0x71C6C006, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71C6C001, 0x71C6C002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71C6C001, 0x71C6C003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71C6C001, 0x71C6C004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71C6C001, 0x71C6C005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C6C001, 0x71C6C006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C6C002,  7081, 0x1C6C0007, 22.97118, 155.4727, 39.92476, -0.9370177, 0, 0, -0.3492818,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -36,7 +36,7 @@ VALUES (0x71C6C007,  1542, 0x1C6C0002, 21.32016, 43.73429, 39.64452, 0.4086961, 
 /* @teleloc 0x1C6C0002 [21.320160 43.734290 39.644520] 0.408696 0.000000 0.000000 -0.912671 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C6C007, 0x71C6C008, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x71C6C007, 0x71C6C008, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C6C008,  8646, 0x1C6C0002, 21.32016, 43.73429, 39.64452, 0.4086961, 0, 0, -0.9126706,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

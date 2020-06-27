@@ -5,21 +5,21 @@ VALUES (0x7AF0E001,  1154, 0xAF0E000A, 43.74657, 41.22491, -0.4425, 1, 0, 0, 0, 
 /* @teleloc 0xAF0E000A [43.746570 41.224910 -0.442500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF0E001, 0x7AF0E002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AF0E001, 0x7AF0E003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7AF0E001, 0x7AF0E004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7AF0E001, 0x7AF0E005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AF0E001, 0x7AF0E006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7AF0E001, 0x7AF0E007, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7AF0E001, 0x7AF0E008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7AF0E001, 0x7AF0E009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7AF0E001, 0x7AF0E00A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7AF0E001, 0x7AF0E00B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AF0E001, 0x7AF0E00C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AF0E001, 0x7AF0E00D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7AF0E001, 0x7AF0E00E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7AF0E001, 0x7AF0E00F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7AF0E001, 0x7AF0E010, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7AF0E001, 0x7AF0E002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AF0E001, 0x7AF0E003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7AF0E001, 0x7AF0E004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7AF0E001, 0x7AF0E005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AF0E001, 0x7AF0E006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7AF0E001, 0x7AF0E007, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7AF0E001, 0x7AF0E008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7AF0E001, 0x7AF0E009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7AF0E001, 0x7AF0E00A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7AF0E001, 0x7AF0E00B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AF0E001, 0x7AF0E00C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AF0E001, 0x7AF0E00D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7AF0E001, 0x7AF0E00E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7AF0E001, 0x7AF0E00F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7AF0E001, 0x7AF0E010, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF0E002,  7124, 0xAF0E000A, 43.74657, 41.22491, -0.4425, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -86,12 +86,12 @@ VALUES (0x7AF0E011,  1542, 0xAF0E000C, 29.39959, 87.1051, 2.90116, 0.9990482, 0,
 /* @teleloc 0xAF0E000C [29.399590 87.105100 2.901160] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF0E011, 0x7AF0E012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AF0E011, 0x7AF0E013, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7AF0E011, 0x7AF0E014, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7AF0E011, 0x7AF0E015, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7AF0E011, 0x7AF0E016, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7AF0E011, 0x7AF0E017, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7AF0E011, 0x7AF0E012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AF0E011, 0x7AF0E013, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7AF0E011, 0x7AF0E014, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7AF0E011, 0x7AF0E015, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7AF0E011, 0x7AF0E016, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7AF0E011, 0x7AF0E017, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF0E012,  4179, 0xAF0E000C, 29.39959, 87.1051, 2.90116, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

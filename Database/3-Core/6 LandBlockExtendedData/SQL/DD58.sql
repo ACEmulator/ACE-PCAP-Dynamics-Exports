@@ -5,31 +5,31 @@ VALUES (0x7DD58001,  1154, 0xDD58000A, 41.44214, 28.67336, 15.84646, 0.9058473, 
 /* @teleloc 0xDD58000A [41.442140 28.673360 15.846460] 0.905847 0.000000 0.000000 -0.423604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD58001, 0x7DD58002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DD58001, 0x7DD58003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD58001, 0x7DD58004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD58001, 0x7DD58005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD58001, 0x7DD58006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD58001, 0x7DD58007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD58001, 0x7DD58008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD58001, 0x7DD58009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD58001, 0x7DD5800A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7DD58001, 0x7DD5800B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DD58001, 0x7DD5800C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DD58001, 0x7DD5800D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DD58001, 0x7DD5800E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DD58001, 0x7DD5800F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DD58001, 0x7DD58010, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DD58001, 0x7DD58011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD58001, 0x7DD58012, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DD58001, 0x7DD58013, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD58001, 0x7DD58014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DD58001, 0x7DD58015, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DD58001, 0x7DD58016, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7DD58001, 0x7DD58017, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DD58001, 0x7DD58018, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DD58001, 0x7DD58019, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DD58001, 0x7DD5801A, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7DD58001, 0x7DD58002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DD58001, 0x7DD58003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD58001, 0x7DD58004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD58001, 0x7DD58005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD58001, 0x7DD58006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD58001, 0x7DD58007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD58001, 0x7DD58008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD58001, 0x7DD58009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD58001, 0x7DD5800A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7DD58001, 0x7DD5800B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DD58001, 0x7DD5800C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DD58001, 0x7DD5800D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DD58001, 0x7DD5800E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DD58001, 0x7DD5800F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DD58001, 0x7DD58010, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DD58001, 0x7DD58011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD58001, 0x7DD58012, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DD58001, 0x7DD58013, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD58001, 0x7DD58014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DD58001, 0x7DD58015, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DD58001, 0x7DD58016, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7DD58001, 0x7DD58017, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DD58001, 0x7DD58018, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DD58001, 0x7DD58019, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DD58001, 0x7DD5801A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD58002,   192, 0xDD58000A, 41.44214, 28.67336, 15.84646, 0.9058473, 0, 0, -0.4236043,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -136,8 +136,8 @@ VALUES (0x7DD5801B,  1542, 0xDD580004, 20.80988, 88.53947, 17.75427, 0.911892, 0
 /* @teleloc 0xDD580004 [20.809880 88.539470 17.754270] 0.911892 0.000000 0.000000 0.410430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD5801B, 0x7DD5801C, '2019-02-10 00:00:00') /* Studded Leather Shirt */
-     , (0x7DD5801B, 0x7DD5801D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DD5801B, 0x7DD5801C, '2019-02-10 00:00:00') /* Studded Leather Shirt (99) */
+     , (0x7DD5801B, 0x7DD5801D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD5801C,    99, 0xDD580004, 20.80988, 88.53947, 17.75427, 0.911892, 0, 0, 0.4104302,  True, '2019-02-10 00:00:00'); /* Studded Leather Shirt */

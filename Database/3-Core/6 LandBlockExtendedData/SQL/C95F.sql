@@ -5,18 +5,18 @@ VALUES (0x7C95F001,  1154, 0xC95F0007, 20.66333, 148.1137, 5.55825, -0.9929157, 
 /* @teleloc 0xC95F0007 [20.663330 148.113700 5.558250] -0.992916 0.000000 0.000000 -0.118820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95F001, 0x7C95F002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C95F001, 0x7C95F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F005, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7C95F001, 0x7C95F006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C95F001, 0x7C95F007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F00A, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C95F001, 0x7C95F00B, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C95F001, 0x7C95F00C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C95F001, 0x7C95F00D, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C95F001, 0x7C95F002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C95F001, 0x7C95F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C95F001, 0x7C95F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C95F001, 0x7C95F005, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7C95F001, 0x7C95F006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C95F001, 0x7C95F007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F00A, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C95F001, 0x7C95F00B, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C95F001, 0x7C95F00C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C95F001, 0x7C95F00D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95F002,  8673, 0xC95F0007, 20.66333, 148.1137, 5.55825, -0.9929157, 0, 0, -0.1188203,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -71,10 +71,10 @@ VALUES (0x7C95F00E,  1542, 0xC95F0013, 59.0091, 56.14684, 5.9975, 1, 0, 0, 0, Fa
 /* @teleloc 0xC95F0013 [59.009100 56.146840 5.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95F00E, 0x7C95F00F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C95F00E, 0x7C95F010, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C95F00E, 0x7C95F011, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C95F00E, 0x7C95F012, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7C95F00E, 0x7C95F00F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C95F00E, 0x7C95F010, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C95F00E, 0x7C95F011, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C95F00E, 0x7C95F012, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95F00F,   547, 0xC95F0013, 59.0091, 56.14684, 5.9975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */

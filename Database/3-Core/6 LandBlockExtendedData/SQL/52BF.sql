@@ -5,22 +5,22 @@ VALUES (0x752BF001,  1154, 0x52BF001F, 79.17458, 156.4294, 1.929627, 0.9999125, 
 /* @teleloc 0x52BF001F [79.174580 156.429400 1.929627] 0.999913 0.000000 0.000000 -0.013229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752BF001, 0x752BF002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x752BF001, 0x752BF003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x752BF001, 0x752BF004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x752BF001, 0x752BF005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x752BF001, 0x752BF006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x752BF001, 0x752BF007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x752BF001, 0x752BF008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x752BF001, 0x752BF009, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x752BF001, 0x752BF00A, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x752BF001, 0x752BF00B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x752BF001, 0x752BF00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x752BF001, 0x752BF00D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x752BF001, 0x752BF00E, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x752BF001, 0x752BF00F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x752BF001, 0x752BF010, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x752BF001, 0x752BF011, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x752BF001, 0x752BF002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x752BF001, 0x752BF003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x752BF001, 0x752BF004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x752BF001, 0x752BF005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x752BF001, 0x752BF006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x752BF001, 0x752BF007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x752BF001, 0x752BF008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x752BF001, 0x752BF009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x752BF001, 0x752BF00A, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x752BF001, 0x752BF00B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x752BF001, 0x752BF00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x752BF001, 0x752BF00D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x752BF001, 0x752BF00E, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x752BF001, 0x752BF00F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x752BF001, 0x752BF010, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x752BF001, 0x752BF011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752BF002,  7109, 0x52BF001F, 79.17458, 156.4294, 1.929627, 0.9999125, 0, 0, -0.01322874,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

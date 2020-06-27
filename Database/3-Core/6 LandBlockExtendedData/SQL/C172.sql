@@ -5,9 +5,9 @@ VALUES (0x7C172001,  1154, 0xC172002B, 141.7313, 63.80796, 42.19356, 0.9647101, 
 /* @teleloc 0xC172002B [141.731300 63.807960 42.193560] 0.964710 0.000000 0.000000 -0.263315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C172001, 0x7C172002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C172001, 0x7C172003, '2019-02-10 00:00:00') /* Undead */
-     , (0x7C172001, 0x7C172004, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C172001, 0x7C172002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C172001, 0x7C172003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7C172001, 0x7C172004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C172002,  1616, 0xC172002B, 141.7313, 63.80796, 42.19356, 0.9647101, 0, 0, -0.2633145,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */
@@ -26,8 +26,8 @@ VALUES (0x7C172005,  1542, 0xC172002B, 137.9834, 61.29989, 43.42848, 0.6427876, 
 /* @teleloc 0xC172002B [137.983400 61.299890 43.428480] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C172005, 0x7C172006, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C172005, 0x7C172007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C172005, 0x7C172006, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7C172005, 0x7C172007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C172006,  4381, 0xC172002B, 137.9834, 61.29989, 43.42848, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Corpse */

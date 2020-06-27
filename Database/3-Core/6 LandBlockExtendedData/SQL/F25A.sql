@@ -5,11 +5,11 @@ VALUES (0x7F25A001,  1154, 0xF25A0037, 150.4974, 155.4842, -0.8974999, 0.3602232
 /* @teleloc 0xF25A0037 [150.497400 155.484200 -0.897500] 0.360223 0.000000 0.000000 -0.932866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F25A001, 0x7F25A002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F25A001, 0x7F25A003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F25A001, 0x7F25A004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F25A001, 0x7F25A005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F25A001, 0x7F25A006, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7F25A001, 0x7F25A002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F25A001, 0x7F25A003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F25A001, 0x7F25A004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F25A001, 0x7F25A005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F25A001, 0x7F25A006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F25A002, 22208, 0xF25A0037, 150.4974, 155.4842, -0.8974999, 0.3602232, 0, 0, -0.9328662,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

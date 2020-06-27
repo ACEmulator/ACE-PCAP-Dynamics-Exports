@@ -5,13 +5,13 @@ VALUES (0x722DB001,  1154, 0x22DB001A, 95.36599, 40.97173, 6.005, -0.9991651, 0,
 /* @teleloc 0x22DB001A [95.365990 40.971730 6.005000] -0.999165 0.000000 0.000000 -0.040855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722DB001, 0x722DB002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x722DB001, 0x722DB003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x722DB001, 0x722DB004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x722DB001, 0x722DB005, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x722DB001, 0x722DB006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x722DB001, 0x722DB007, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x722DB001, 0x722DB008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x722DB001, 0x722DB002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x722DB001, 0x722DB003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x722DB001, 0x722DB004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x722DB001, 0x722DB005, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x722DB001, 0x722DB006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x722DB001, 0x722DB007, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x722DB001, 0x722DB008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722DB002,  1758, 0x22DB001A, 95.36599, 40.97173, 6.005, -0.9991651, 0, 0, -0.04085491,  True, '2019-02-10 00:00:00'); /* Shadow */

@@ -5,18 +5,18 @@ VALUES (0x7A2A9001,  1154, 0xA2A90039, 185.5548, 20.03385, 71.4614, -0.8990628, 
 /* @teleloc 0xA2A90039 [185.554800 20.033850 71.461400] -0.899063 0.000000 0.000000 -0.437820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A9001, 0x7A2A9002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A2A9001, 0x7A2A9003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A2A9001, 0x7A2A9004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A2A9001, 0x7A2A9005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A2A9001, 0x7A2A9006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A9001, 0x7A2A9007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A9001, 0x7A2A9008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A2A9001, 0x7A2A9009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A2A9001, 0x7A2A900A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A2A9001, 0x7A2A900B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A2A9001, 0x7A2A900C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A2A9001, 0x7A2A900D, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7A2A9001, 0x7A2A9002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A2A9001, 0x7A2A9003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A2A9001, 0x7A2A9004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A2A9001, 0x7A2A9005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A2A9001, 0x7A2A9006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A9001, 0x7A2A9007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A9001, 0x7A2A9008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A2A9001, 0x7A2A9009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A2A9001, 0x7A2A900A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A2A9001, 0x7A2A900B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A2A9001, 0x7A2A900C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A2A9001, 0x7A2A900D, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A9002,  7978, 0xA2A90039, 185.5548, 20.03385, 71.4614, -0.8990628, 0, 0, -0.4378197,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -71,8 +71,8 @@ VALUES (0x7A2A900E,  1542, 0xA2A90007, 18.70598, 145.4525, 68, 1, 0, 0, 0, False
 /* @teleloc 0xA2A90007 [18.705980 145.452500 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A900E, 0x7A2A900F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A2A900E, 0x7A2A9010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A2A900E, 0x7A2A900F, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7A2A900E, 0x7A2A9010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A900F, 22576, 0xA2A90007, 18.70598, 145.4525, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

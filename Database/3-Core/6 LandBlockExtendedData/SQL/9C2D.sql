@@ -5,12 +5,12 @@ VALUES (0x79C2D001,  1154, 0x9C2D003A, 191.8853, 47.72562, 62.02286, -0.5550737,
 /* @teleloc 0x9C2D003A [191.885300 47.725620 62.022860] -0.555074 0.000000 0.000000 -0.831801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C2D001, 0x79C2D002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79C2D001, 0x79C2D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79C2D001, 0x79C2D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79C2D001, 0x79C2D005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79C2D001, 0x79C2D006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79C2D001, 0x79C2D007, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x79C2D001, 0x79C2D002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79C2D001, 0x79C2D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79C2D001, 0x79C2D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79C2D001, 0x79C2D005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79C2D001, 0x79C2D006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79C2D001, 0x79C2D007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C2D002,  5748, 0x9C2D003A, 191.8853, 47.72562, 62.02286, -0.5550737, 0, 0, -0.8318012,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -41,7 +41,7 @@ VALUES (0x79C2D008,  1542, 0x9C2D0021, 105.9266, 20.16187, 65.18822, 0.2459952, 
 /* @teleloc 0x9C2D0021 [105.926600 20.161870 65.188220] 0.245995 0.000000 0.000000 -0.969271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C2D008, 0x79C2D009, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x79C2D008, 0x79C2D009, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C2D009, 42528, 0x9C2D0021, 105.9266, 20.16187, 65.18822, 0.2459952, 0, 0, -0.9692711,  True, '2019-02-10 00:00:00'); /* Rock */

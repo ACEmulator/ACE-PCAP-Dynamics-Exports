@@ -5,18 +5,18 @@ VALUES (0x7E35A001,  1154, 0xE35A0021, 113.9745, 3.951553, 0.006600022, 0.996822
 /* @teleloc 0xE35A0021 [113.974500 3.951553 0.006600] 0.996822 0.000000 0.000000 -0.079657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E35A001, 0x7E35A002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E35A001, 0x7E35A003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E35A001, 0x7E35A004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E35A001, 0x7E35A005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E35A001, 0x7E35A006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E35A001, 0x7E35A007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E35A001, 0x7E35A008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E35A001, 0x7E35A009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E35A001, 0x7E35A00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E35A001, 0x7E35A00B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E35A001, 0x7E35A00C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E35A001, 0x7E35A00D, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7E35A001, 0x7E35A002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E35A001, 0x7E35A003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E35A001, 0x7E35A004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E35A001, 0x7E35A005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E35A001, 0x7E35A006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E35A001, 0x7E35A007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E35A001, 0x7E35A008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E35A001, 0x7E35A009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E35A001, 0x7E35A00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E35A001, 0x7E35A00B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E35A001, 0x7E35A00C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E35A001, 0x7E35A00D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E35A002,  8429, 0xE35A0021, 113.9745, 3.951553, 0.006600022, 0.9968224, 0, 0, -0.07965667,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

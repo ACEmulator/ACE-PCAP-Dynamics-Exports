@@ -5,34 +5,34 @@ VALUES (0x73F4E001,  1154, 0x3F4E001F, 91.53963, 151.851, 20.01, -0.2607724, 0, 
 /* @teleloc 0x3F4E001F [91.539630 151.851000 20.010000] -0.260772 0.000000 0.000000 -0.965400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4E001, 0x73F4E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73F4E001, 0x73F4E003, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73F4E001, 0x73F4E004, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73F4E001, 0x73F4E005, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73F4E001, 0x73F4E006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73F4E001, 0x73F4E007, '2019-02-10 00:00:00') /* King Toad Idol */
-     , (0x73F4E001, 0x73F4E008, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73F4E001, 0x73F4E009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73F4E001, 0x73F4E00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73F4E001, 0x73F4E00B, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F4E001, 0x73F4E00C, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F4E001, 0x73F4E00D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73F4E001, 0x73F4E00E, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E00F, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x73F4E001, 0x73F4E010, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E011, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E012, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E013, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E014, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E015, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E016, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E017, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x73F4E001, 0x73F4E018, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73F4E001, 0x73F4E019, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73F4E001, 0x73F4E01A, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73F4E001, 0x73F4E01B, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73F4E001, 0x73F4E01C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x73F4E001, 0x73F4E01D, '2019-02-10 00:00:00') /* Guruk Miscreant */;
+VALUES (0x73F4E001, 0x73F4E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73F4E001, 0x73F4E003, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73F4E001, 0x73F4E004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73F4E001, 0x73F4E005, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73F4E001, 0x73F4E006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73F4E001, 0x73F4E007, '2019-02-10 00:00:00') /* King Toad Idol (28095) */
+     , (0x73F4E001, 0x73F4E008, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73F4E001, 0x73F4E009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73F4E001, 0x73F4E00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73F4E001, 0x73F4E00B, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F4E001, 0x73F4E00C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F4E001, 0x73F4E00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73F4E001, 0x73F4E00E, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E00F, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x73F4E001, 0x73F4E010, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E011, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E012, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E013, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E014, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E015, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E016, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E017, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x73F4E001, 0x73F4E018, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73F4E001, 0x73F4E019, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73F4E001, 0x73F4E01A, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73F4E001, 0x73F4E01B, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73F4E001, 0x73F4E01C, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x73F4E001, 0x73F4E01D, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4E002, 36829, 0x3F4E001F, 91.53963, 151.851, 20.01, -0.2607724, 0, 0, -0.9654003,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -151,8 +151,8 @@ VALUES (0x73F4E01E,  1542, 0x3F4E0021, 112.489, 11.91283, -0.09999999, 0.9990482
 /* @teleloc 0x3F4E0021 [112.489000 11.912830 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4E01E, 0x73F4E01F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73F4E01E, 0x73F4E020, '2019-02-10 00:00:00') /* Plateau Portal */;
+VALUES (0x73F4E01E, 0x73F4E01F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73F4E01E, 0x73F4E020, '2019-02-10 00:00:00') /* Plateau Portal (42812) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4E01F,  4179, 0x3F4E0021, 112.489, 11.91283, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

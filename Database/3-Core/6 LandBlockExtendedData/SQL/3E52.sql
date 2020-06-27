@@ -5,14 +5,14 @@ VALUES (0x73E52001,  1154, 0x3E520020, 84.39011, 175.3277, 62.78721, 0.6205835, 
 /* @teleloc 0x3E520020 [84.390110 175.327700 62.787210] 0.620584 0.000000 0.000000 -0.784140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E52001, 0x73E52002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73E52001, 0x73E52003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73E52001, 0x73E52004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73E52001, 0x73E52005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73E52001, 0x73E52006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73E52001, 0x73E52007, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73E52001, 0x73E52008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E52001, 0x73E52009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73E52001, 0x73E52002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73E52001, 0x73E52003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73E52001, 0x73E52004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73E52001, 0x73E52005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73E52001, 0x73E52006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73E52001, 0x73E52007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73E52001, 0x73E52008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E52001, 0x73E52009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E52002,  7092, 0x3E520020, 84.39011, 175.3277, 62.78721, 0.6205835, 0, 0, -0.7841403,  True, '2019-02-10 00:00:00'); /* Firestorm */

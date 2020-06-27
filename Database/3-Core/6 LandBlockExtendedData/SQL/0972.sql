@@ -5,18 +5,18 @@ VALUES (0x70972001,  1154, 0x09720037, 167.4268, 163.5131, 14.18999, 0.7071068, 
 /* @teleloc 0x09720037 [167.426800 163.513100 14.189990] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70972001, 0x70972002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70972001, 0x70972003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70972001, 0x70972004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70972001, 0x70972005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70972001, 0x70972006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x70972001, 0x70972007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x70972001, 0x70972008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70972001, 0x70972009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70972001, 0x7097200A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70972001, 0x7097200B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70972001, 0x7097200C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70972001, 0x7097200D, '2019-02-10 00:00:00') /* Chaos Wisp */;
+VALUES (0x70972001, 0x70972002, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70972001, 0x70972003, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70972001, 0x70972004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70972001, 0x70972005, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x70972001, 0x70972006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x70972001, 0x70972007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x70972001, 0x70972008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70972001, 0x70972009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70972001, 0x7097200A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70972001, 0x7097200B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70972001, 0x7097200C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70972001, 0x7097200D, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70972002, 36816, 0x09720037, 167.4268, 163.5131, 14.18999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
@@ -71,8 +71,8 @@ VALUES (0x7097200E,  1542, 0x09720010, 24.6679, 181.9433, -0.9, 1, 0, 0, 0, Fals
 /* @teleloc 0x09720010 [24.667900 181.943300 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097200E, 0x7097200F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7097200E, 0x70972010, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7097200E, 0x7097200F, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7097200E, 0x70972010, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097200F, 22566, 0x09720010, 24.6679, 181.9433, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

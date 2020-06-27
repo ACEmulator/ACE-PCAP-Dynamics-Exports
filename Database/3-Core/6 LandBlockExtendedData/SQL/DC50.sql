@@ -5,17 +5,17 @@ VALUES (0x7DC50001,  1154, 0xDC500036, 149.2521, 126.5452, 22.0025, 0.9265713, 0
 /* @teleloc 0xDC500036 [149.252100 126.545200 22.002500] 0.926571 0.000000 0.000000 -0.376119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC50001, 0x7DC50002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DC50001, 0x7DC50003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC50001, 0x7DC50004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DC50001, 0x7DC50005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DC50001, 0x7DC50006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DC50001, 0x7DC50007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DC50001, 0x7DC50008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC50001, 0x7DC50009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DC50001, 0x7DC5000A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DC50001, 0x7DC5000B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DC50001, 0x7DC5000C, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7DC50001, 0x7DC50002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DC50001, 0x7DC50003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC50001, 0x7DC50004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC50001, 0x7DC50005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DC50001, 0x7DC50006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DC50001, 0x7DC50007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DC50001, 0x7DC50008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC50001, 0x7DC50009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DC50001, 0x7DC5000A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DC50001, 0x7DC5000B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DC50001, 0x7DC5000C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC50002,  1759, 0xDC500036, 149.2521, 126.5452, 22.0025, 0.9265713, 0, 0, -0.3761191,  True, '2019-02-10 00:00:00'); /* Skeleton */

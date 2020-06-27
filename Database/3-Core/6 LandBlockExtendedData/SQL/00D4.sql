@@ -33,548 +33,548 @@ VALUES (0x700D4050,  1154, 0x00D405E7, 182.606, -172.963, -12, -0.3303179, 0, 0,
 /* @teleloc 0x00D405E7 [182.606000 -172.963000 -12.000000] -0.330318 0.000000 0.000000 0.943870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D4050, 0x700D4051, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4052, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4053, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4054, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4055, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4056, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4057, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4058, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4059, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D405A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D405B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D405C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D405D, '2019-02-10 00:00:00') /* Rock */
-     , (0x700D4050, 0x700D405E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D405F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4060, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4061, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4062, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4063, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4064, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4065, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4066, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4067, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4068, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4069, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D406F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4070, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4071, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4072, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4073, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4074, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4075, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4076, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4077, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4078, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4079, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D407F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4080, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4081, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4082, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D4083, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4084, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4085, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D4086, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4087, '2019-02-10 00:00:00') /* Guruk Fiend */
-     , (0x700D4050, 0x700D4088, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4089, '2019-02-10 00:00:00') /* Guruk Monstrosity */
-     , (0x700D4050, 0x700D408A, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D408B, '2019-02-10 00:00:00') /* Guruk Monstrosity */
-     , (0x700D4050, 0x700D408C, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D408D, '2019-02-10 00:00:00') /* Guruk Titan */
-     , (0x700D4050, 0x700D408E, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D408F, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D4090, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4091, '2019-02-10 00:00:00') /* Guruk Titan */
-     , (0x700D4050, 0x700D4092, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4093, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4094, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4095, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4096, '2019-02-10 00:00:00') /* Guruk Fiend */
-     , (0x700D4050, 0x700D4097, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4098, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4099, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D409A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D409B, '2019-02-10 00:00:00') /* Guruk Fiend */
-     , (0x700D4050, 0x700D409C, '2019-02-10 00:00:00') /* Guruk Titan */
-     , (0x700D4050, 0x700D409D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D409E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D409F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A3, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A4, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D40A5, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40A6, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40A7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A8, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40A9, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40AA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40AB, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40AC, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40AD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40AE, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40AF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B3, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40B4, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D40B5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B6, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40B7, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40B8, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40B9, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40BA, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40BB, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40BC, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40BD, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40BE, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40BF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40C0, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40C1, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D40C2, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40C3, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40C4, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40C5, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40C6, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D40C7, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40C8, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40C9, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D40CA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40CB, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40CC, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40CD, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40CE, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40CF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40D0, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40D1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40D2, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40D3, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D40D4, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40D5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40D6, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40D7, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40D8, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40D9, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40DA, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40DB, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D40DC, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D40DD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40DE, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D40DF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E3, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40E4, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E5, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40E6, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40E7, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40E8, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40E9, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40EA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40EB, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40EC, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40ED, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40EE, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40EF, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D40F0, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40F1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40F2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40F3, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40F4, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40F5, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40F6, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40F7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40F8, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D40F9, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40FA, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D40FB, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40FC, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D40FD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D40FE, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D40FF, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4100, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4101, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4102, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4103, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4104, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4105, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4106, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D4107, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4108, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4109, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D410A, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D410B, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D410C, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D410D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D410E, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D410F, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4110, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4111, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4112, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4113, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4114, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4115, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4116, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4117, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4118, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4119, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D411A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D411B, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D411C, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D411D, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D411E, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D411F, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4120, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4121, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4122, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4123, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4124, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4125, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4126, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4127, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4128, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D4129, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D412A, '2019-02-10 00:00:00') /* Guruk Monstrosity */
-     , (0x700D4050, 0x700D412B, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D412C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D412D, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D412E, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D412F, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4130, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4131, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4132, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4133, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4134, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4135, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4136, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4137, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4138, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4139, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D413A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D413B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D413C, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D413D, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D413E, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D413F, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4140, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4141, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4142, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4143, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4144, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4145, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4146, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4147, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4148, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4149, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D414A, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D414B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D414C, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D414D, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D414E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D414F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4150, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4151, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4152, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4153, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4154, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4155, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4156, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4157, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4158, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4159, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D415A, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D415B, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D415C, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D415D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D415E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D415F, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4160, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4161, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4162, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4163, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4164, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D4165, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4166, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4167, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4168, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4169, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D416A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D416B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D416C, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D416D, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D416E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D416F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4170, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4171, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4172, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4173, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4174, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D4175, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4176, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4177, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4178, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4179, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D417A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D417B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D417C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D417D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D417E, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D417F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4180, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4181, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4182, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4183, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4184, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4185, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4186, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4187, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4188, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4189, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D418A, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D418B, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D418C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D418D, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D418E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D418F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4190, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4191, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4192, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4193, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4194, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4195, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4196, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4197, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4198, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4199, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D419A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D419B, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D419C, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D419D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D419E, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D419F, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41A0, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41A1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A3, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D41A4, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A6, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41A8, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41A9, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41AA, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41AB, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41AC, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D41AD, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41AE, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41AF, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D41B0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B1, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41B2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B3, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D41B4, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B6, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41B8, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41B9, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41BA, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D41BB, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41BC, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41BD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41BE, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41BF, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D41C0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C3, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C4, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D41C5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C6, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D41C7, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41C8, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41C9, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41CA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41CB, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41CC, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41CD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41CE, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41CF, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41D0, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41D1, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41D2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41D3, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41D4, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41D5, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41D6, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41D7, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41D8, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41D9, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41DA, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41DB, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D41DC, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41DD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41DE, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41DF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41E0, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D41E1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41E2, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D41E3, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41E4, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D41E5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41E6, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41E7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41E8, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41E9, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41EA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41EB, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D41EC, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41ED, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41EE, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D41EF, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41F0, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D41F1, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F2, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F3, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F4, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F5, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F6, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F7, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F8, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41F9, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D41FA, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41FB, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D41FC, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41FD, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41FE, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D41FF, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4200, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4201, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4202, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4203, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4204, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4205, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4206, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4207, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4208, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4209, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D420A, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D420B, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D420C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D420D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D420E, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D420F, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4210, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4211, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4212, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4213, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4214, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4215, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4216, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4217, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4218, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4219, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D421A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D421B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D421C, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D421D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D421E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D421F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4220, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4221, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4222, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4223, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4224, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4225, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4226, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4227, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4228, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4229, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D422A, '2019-02-10 00:00:00') /* Guruk Hulk */
-     , (0x700D4050, 0x700D422B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D422C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D422D, '2019-02-10 00:00:00') /* Mudwort Thrungus */
-     , (0x700D4050, 0x700D422E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D422F, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4230, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4231, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4232, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4233, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4234, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4235, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4236, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4237, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4238, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4239, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423A, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423B, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423C, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423D, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423E, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D423F, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4240, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4241, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4242, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4243, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4244, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4245, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4246, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4247, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4248, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4249, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D424A, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D424B, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D424C, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D424D, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D424E, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D424F, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4250, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4251, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D4252, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4253, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4254, '2019-02-10 00:00:00') /* False Morel Thrungus */
-     , (0x700D4050, 0x700D4255, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4256, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4257, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4258, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4259, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D425A, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D425B, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D425C, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D425D, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D425E, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D425F, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D4260, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D4261, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4262, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4263, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4264, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4265, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4266, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D4267, '2019-02-10 00:00:00') /* Guruk Smasher */
-     , (0x700D4050, 0x700D4268, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D4269, '2019-02-10 00:00:00') /* Guruk Brute */
-     , (0x700D4050, 0x700D426A, '2019-02-10 00:00:00') /* Guruk Behemoth */
-     , (0x700D4050, 0x700D426B, '2019-02-10 00:00:00') /* Guruk Destroyer */
-     , (0x700D4050, 0x700D426C, '2019-02-10 00:00:00') /* Guruk Beast */
-     , (0x700D4050, 0x700D426D, '2019-02-10 00:00:00') /* Guruk Colossus */
-     , (0x700D4050, 0x700D426E, '2019-02-10 00:00:00') /* Guruk Smasher */;
+VALUES (0x700D4050, 0x700D4051, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4052, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4053, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4054, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4055, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4056, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4057, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4058, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4059, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D405A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D405B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D405C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D405D, '2019-02-10 00:00:00') /* Rock (34947) */
+     , (0x700D4050, 0x700D405E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D405F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4060, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4061, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4062, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4063, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4064, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4065, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4066, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4067, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4068, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4069, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D406F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4070, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4071, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4072, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4073, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4074, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4075, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4076, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4077, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4078, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4079, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D407F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4080, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4081, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4082, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D4083, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4084, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4085, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D4086, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4087, '2019-02-10 00:00:00') /* Guruk Fiend (34786) */
+     , (0x700D4050, 0x700D4088, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4089, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x700D4050, 0x700D408A, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D408B, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x700D4050, 0x700D408C, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D408D, '2019-02-10 00:00:00') /* Guruk Titan (34801) */
+     , (0x700D4050, 0x700D408E, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D408F, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D4090, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4091, '2019-02-10 00:00:00') /* Guruk Titan (34801) */
+     , (0x700D4050, 0x700D4092, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4093, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4094, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4095, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4096, '2019-02-10 00:00:00') /* Guruk Fiend (34786) */
+     , (0x700D4050, 0x700D4097, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4098, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4099, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D409A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D409B, '2019-02-10 00:00:00') /* Guruk Fiend (34786) */
+     , (0x700D4050, 0x700D409C, '2019-02-10 00:00:00') /* Guruk Titan (34801) */
+     , (0x700D4050, 0x700D409D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D409E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D409F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A3, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A4, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D40A5, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40A6, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40A7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A8, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40A9, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40AA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40AB, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40AC, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40AD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40AE, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40AF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B3, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40B4, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D40B5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B6, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40B7, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40B8, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40B9, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40BA, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40BB, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40BC, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40BD, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40BE, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40BF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40C0, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40C1, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D40C2, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40C3, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40C4, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40C5, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40C6, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D40C7, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40C8, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40C9, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D40CA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40CB, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40CC, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40CD, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40CE, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40CF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40D0, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40D1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40D2, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40D3, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D40D4, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40D5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40D6, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40D7, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40D8, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40D9, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40DA, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40DB, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D40DC, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D40DD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40DE, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D40DF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E3, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40E4, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E5, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40E6, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40E7, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40E8, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40E9, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40EA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40EB, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40EC, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40ED, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40EE, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40EF, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D40F0, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40F1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40F2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40F3, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40F4, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40F5, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40F6, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40F7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40F8, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D40F9, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40FA, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D40FB, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40FC, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D40FD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D40FE, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D40FF, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4100, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4101, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4102, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4103, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4104, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4105, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4106, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D4107, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4108, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4109, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D410A, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D410B, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D410C, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D410D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D410E, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D410F, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4110, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4111, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4112, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4113, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4114, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4115, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4116, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4117, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4118, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4119, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D411A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D411B, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D411C, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D411D, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D411E, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D411F, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4120, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4121, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4122, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4123, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4124, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4125, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4126, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4127, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4128, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D4129, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D412A, '2019-02-10 00:00:00') /* Guruk Monstrosity (34793) */
+     , (0x700D4050, 0x700D412B, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D412C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D412D, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D412E, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D412F, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4130, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4131, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4132, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4133, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4134, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4135, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4136, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4137, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4138, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4139, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D413A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D413B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D413C, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D413D, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D413E, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D413F, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4140, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4141, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4142, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4143, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4144, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4145, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4146, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4147, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4148, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4149, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D414A, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D414B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D414C, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D414D, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D414E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D414F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4150, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4151, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4152, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4153, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4154, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4155, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4156, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4157, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4158, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4159, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D415A, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D415B, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D415C, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D415D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D415E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D415F, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4160, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4161, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4162, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4163, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4164, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D4165, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4166, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4167, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4168, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4169, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D416A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D416B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D416C, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D416D, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D416E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D416F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4170, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4171, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4172, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4173, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4174, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D4175, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4176, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4177, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4178, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4179, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D417A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D417B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D417C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D417D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D417E, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D417F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4180, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4181, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4182, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4183, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4184, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4185, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4186, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4187, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4188, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4189, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D418A, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D418B, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D418C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D418D, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D418E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D418F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4190, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4191, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4192, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4193, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4194, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4195, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4196, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4197, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4198, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4199, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D419A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D419B, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D419C, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D419D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D419E, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D419F, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41A0, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41A1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A3, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D41A4, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A6, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41A8, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41A9, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41AA, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41AB, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41AC, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D41AD, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41AE, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41AF, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D41B0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B1, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41B2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B3, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D41B4, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B6, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41B8, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41B9, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41BA, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D41BB, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41BC, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41BD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41BE, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41BF, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D41C0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C3, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C4, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D41C5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C6, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D41C7, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41C8, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41C9, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41CA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41CB, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41CC, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41CD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41CE, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41CF, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41D0, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41D1, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41D2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41D3, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41D4, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41D5, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41D6, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41D7, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41D8, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41D9, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41DA, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41DB, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D41DC, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41DD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41DE, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41DF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41E0, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D41E1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41E2, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D41E3, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41E4, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D41E5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41E6, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41E7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41E8, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41E9, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41EA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41EB, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D41EC, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41ED, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41EE, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D41EF, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41F0, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D41F1, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F2, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F3, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F4, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F5, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F6, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F7, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F8, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41F9, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D41FA, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41FB, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D41FC, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41FD, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41FE, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D41FF, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4200, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4201, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4202, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4203, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4204, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4205, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4206, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4207, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4208, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4209, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D420A, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D420B, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D420C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D420D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D420E, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D420F, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4210, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4211, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4212, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4213, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4214, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4215, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4216, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4217, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4218, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4219, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D421A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D421B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D421C, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D421D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D421E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D421F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4220, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4221, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4222, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4223, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4224, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4225, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4226, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4227, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4228, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4229, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D422A, '2019-02-10 00:00:00') /* Guruk Hulk (34790) */
+     , (0x700D4050, 0x700D422B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D422C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D422D, '2019-02-10 00:00:00') /* Mudwort Thrungus (31024) */
+     , (0x700D4050, 0x700D422E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D422F, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4230, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4231, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4232, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4233, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4234, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4235, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4236, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4237, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4238, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4239, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423A, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423B, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423C, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423D, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423E, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D423F, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4240, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4241, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4242, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4243, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4244, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4245, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4246, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4247, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4248, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4249, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D424A, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D424B, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D424C, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D424D, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D424E, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D424F, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4250, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4251, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D4252, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4253, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4254, '2019-02-10 00:00:00') /* False Morel Thrungus (32593) */
+     , (0x700D4050, 0x700D4255, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4256, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4257, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4258, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4259, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D425A, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D425B, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D425C, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D425D, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D425E, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D425F, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D4260, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D4261, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4262, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4263, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4264, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4265, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4266, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D4267, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */
+     , (0x700D4050, 0x700D4268, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D4269, '2019-02-10 00:00:00') /* Guruk Brute (34782) */
+     , (0x700D4050, 0x700D426A, '2019-02-10 00:00:00') /* Guruk Behemoth (34780) */
+     , (0x700D4050, 0x700D426B, '2019-02-10 00:00:00') /* Guruk Destroyer (34785) */
+     , (0x700D4050, 0x700D426C, '2019-02-10 00:00:00') /* Guruk Beast (34779) */
+     , (0x700D4050, 0x700D426D, '2019-02-10 00:00:00') /* Guruk Colossus (34783) */
+     , (0x700D4050, 0x700D426E, '2019-02-10 00:00:00') /* Guruk Smasher (34797) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D4051, 32593, 0x00D405E7, 182.606, -172.963, -12, -0.3303179, 0, 0, 0.9438697,  True, '2019-02-10 00:00:00'); /* False Morel Thrungus */
@@ -2749,44 +2749,44 @@ VALUES (0x700D426F,  1542, 0x00D405EC, 179.0735, -227.9897, -12.0025, 0.9393727,
 /* @teleloc 0x00D405EC [179.073500 -227.989700 -12.002500] 0.939373 0.000000 0.000000 0.342898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D426F, 0x700D4270, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4271, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4272, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4273, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4274, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4275, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4276, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4277, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4278, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4279, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427A, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427B, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427C, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427D, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427E, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D427F, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4280, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4281, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4282, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4283, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4284, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4285, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4286, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4287, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4288, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4289, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428A, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428B, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428C, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428D, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428E, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D428F, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4290, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4291, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4292, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4293, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4294, '2019-02-10 00:00:00') /* Blue Burning Mushroom */
-     , (0x700D426F, 0x700D4295, '2019-02-10 00:00:00') /* Blue Burning Mushroom */;
+VALUES (0x700D426F, 0x700D4270, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4271, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4272, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4273, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4274, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4275, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4276, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4277, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4278, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4279, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427A, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427B, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427C, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427D, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427E, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D427F, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4280, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4281, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4282, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4283, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4284, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4285, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4286, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4287, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4288, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4289, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428A, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428B, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428C, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428D, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428E, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D428F, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4290, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4291, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4292, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4293, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4294, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */
+     , (0x700D426F, 0x700D4295, '2019-02-10 00:00:00') /* Blue Burning Mushroom (34837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D4270, 34837, 0x00D405EC, 179.0735, -227.9897, -12.0025, 0.9393727, 0, 0, 0.3428979,  True, '2019-02-10 00:00:00'); /* Blue Burning Mushroom */

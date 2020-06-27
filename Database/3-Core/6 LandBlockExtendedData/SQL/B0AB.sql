@@ -13,8 +13,8 @@ VALUES (0x7B0AB002,  1154, 0xB0AB0007, 17.14834, 148.0913, 79.59356, 0.9238795, 
 /* @teleloc 0xB0AB0007 [17.148340 148.091300 79.593560] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AB002, 0x7B0AB003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0AB002, 0x7B0AB004, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7B0AB002, 0x7B0AB003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0AB002, 0x7B0AB004, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AB003,   939, 0xB0AB0007, 17.14834, 148.0913, 79.59356, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -29,12 +29,12 @@ VALUES (0x7B0AB005,  1154, 0xB0AB0100, 104.878, 82.5624, 58.005, -0.939591, 0, 0
 /* @teleloc 0xB0AB0100 [104.878000 82.562400 58.005000] -0.939591 0.000000 0.000000 0.342300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AB005, 0x7B0AB006, '2019-02-10 00:00:00') /* Ayala bint'Shashqa */
-     , (0x7B0AB005, 0x7B0AB007, '2019-02-10 00:00:00') /* Elise Du Ricard */
-     , (0x7B0AB005, 0x7B0AB008, '2019-02-10 00:00:00') /* Gharon al-Bhavarn */
-     , (0x7B0AB005, 0x7B0AB009, '2019-02-10 00:00:00') /* Tamara Mistrunner */
-     , (0x7B0AB005, 0x7B0AB00A, '2019-02-10 00:00:00') /* Ma-Kii */
-     , (0x7B0AB005, 0x7B0AB00B, '2019-02-10 00:00:00') /* Larinne Kerendova */;
+VALUES (0x7B0AB005, 0x7B0AB006, '2019-02-10 00:00:00') /* Ayala bint'Shashqa (41615) */
+     , (0x7B0AB005, 0x7B0AB007, '2019-02-10 00:00:00') /* Elise Du Ricard (33937) */
+     , (0x7B0AB005, 0x7B0AB008, '2019-02-10 00:00:00') /* Gharon al-Bhavarn (33935) */
+     , (0x7B0AB005, 0x7B0AB009, '2019-02-10 00:00:00') /* Tamara Mistrunner (33938) */
+     , (0x7B0AB005, 0x7B0AB00A, '2019-02-10 00:00:00') /* Ma-Kii (33936) */
+     , (0x7B0AB005, 0x7B0AB00B, '2019-02-10 00:00:00') /* Larinne Kerendova (33939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AB006, 41615, 0xB0AB0100, 104.878, 82.5624, 58.005, -0.939591, 0, 0, 0.3423,  True, '2019-02-10 00:00:00'); /* Ayala bint'Shashqa */
@@ -65,7 +65,7 @@ VALUES (0x7B0AB00C,  1542, 0xB0AB0020, 79.59499, 176.6839, 58.03826, -0.8306107,
 /* @teleloc 0xB0AB0020 [79.594990 176.683900 58.038260] -0.830611 0.000000 0.000000 -0.556854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AB00C, 0x7B0AB00D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7B0AB00C, 0x7B0AB00D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AB00D,  1955, 0xB0AB0020, 79.59499, 176.6839, 58.03826, -0.8306107, 0, 0, -0.5568535,  True, '2019-02-10 00:00:00'); /* Gateway */

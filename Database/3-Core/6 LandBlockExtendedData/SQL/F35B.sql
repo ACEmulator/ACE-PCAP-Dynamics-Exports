@@ -5,26 +5,26 @@ VALUES (0x7F35B001,  1154, 0xF35B0035, 145.7851, 101.0891, 5.180398, 0.3133112, 
 /* @teleloc 0xF35B0035 [145.785100 101.089100 5.180398] 0.313311 0.000000 0.000000 -0.949651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F35B001, 0x7F35B002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F35B001, 0x7F35B003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F35B001, 0x7F35B004, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F35B001, 0x7F35B005, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F35B001, 0x7F35B006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F35B001, 0x7F35B007, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F35B001, 0x7F35B008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F35B001, 0x7F35B009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F35B001, 0x7F35B00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F35B001, 0x7F35B00B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F35B001, 0x7F35B00C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F35B001, 0x7F35B00D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F35B001, 0x7F35B00E, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F35B001, 0x7F35B00F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F35B001, 0x7F35B010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F35B001, 0x7F35B011, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F35B001, 0x7F35B012, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F35B001, 0x7F35B013, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F35B001, 0x7F35B014, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F35B001, 0x7F35B015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7F35B001, 0x7F35B002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F35B001, 0x7F35B003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F35B001, 0x7F35B004, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F35B001, 0x7F35B005, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F35B001, 0x7F35B006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F35B001, 0x7F35B007, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F35B001, 0x7F35B008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F35B001, 0x7F35B009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F35B001, 0x7F35B00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F35B001, 0x7F35B00B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F35B001, 0x7F35B00C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F35B001, 0x7F35B00D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F35B001, 0x7F35B00E, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F35B001, 0x7F35B00F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F35B001, 0x7F35B010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F35B001, 0x7F35B011, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F35B001, 0x7F35B012, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F35B001, 0x7F35B013, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F35B001, 0x7F35B014, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F35B001, 0x7F35B015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F35B002,  7180, 0xF35B0035, 145.7851, 101.0891, 5.180398, 0.3133112, 0, 0, -0.9496505,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

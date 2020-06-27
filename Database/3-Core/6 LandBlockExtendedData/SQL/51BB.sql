@@ -5,15 +5,15 @@ VALUES (0x751BB001,  1154, 0x51BB0021, 98.15784, 20.13169, 44.98664, 0.5401391, 
 /* @teleloc 0x51BB0021 [98.157840 20.131690 44.986640] 0.540139 0.000000 0.000000 -0.841576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x751BB001, 0x751BB002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x751BB001, 0x751BB003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x751BB001, 0x751BB004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x751BB001, 0x751BB005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x751BB001, 0x751BB006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x751BB001, 0x751BB007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x751BB001, 0x751BB008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x751BB001, 0x751BB009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x751BB001, 0x751BB00A, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x751BB001, 0x751BB002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x751BB001, 0x751BB003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x751BB001, 0x751BB004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x751BB001, 0x751BB005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x751BB001, 0x751BB006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x751BB001, 0x751BB007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x751BB001, 0x751BB008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x751BB001, 0x751BB009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x751BB001, 0x751BB00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x751BB002,  9252, 0x51BB0021, 98.15784, 20.13169, 44.98664, 0.5401391, 0, 0, -0.8415757,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

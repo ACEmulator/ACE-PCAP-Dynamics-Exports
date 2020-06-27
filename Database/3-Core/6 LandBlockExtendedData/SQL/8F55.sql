@@ -61,23 +61,23 @@ VALUES (0x78F5500E,  1154, 0x8F550039, 191.4865, 17.74613, 12.0055, 0.6453381, 0
 /* @teleloc 0x8F550039 [191.486500 17.746130 12.005500] 0.645338 0.000000 0.000000 -0.763897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F5500E, 0x78F5500F, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x78F5500E, 0x78F55010, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F55011, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F55012, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F55013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x78F5500E, 0x78F55014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x78F5500E, 0x78F55015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x78F5500E, 0x78F55016, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78F5500E, 0x78F55017, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78F5500E, 0x78F55018, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F55019, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x78F5500E, 0x78F5501A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x78F5500E, 0x78F5501B, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F5501C, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F5500E, 0x78F5501D, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78F5500E, 0x78F5501E, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78F5500E, 0x78F5501F, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x78F5500E, 0x78F5500F, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x78F5500E, 0x78F55010, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F55011, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F55012, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F55013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x78F5500E, 0x78F55014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x78F5500E, 0x78F55015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x78F5500E, 0x78F55016, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78F5500E, 0x78F55017, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78F5500E, 0x78F55018, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F55019, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x78F5500E, 0x78F5501A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x78F5500E, 0x78F5501B, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F5501C, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F5500E, 0x78F5501D, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78F5500E, 0x78F5501E, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78F5500E, 0x78F5501F, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F5500F,  1763, 0x8F550039, 191.4865, 17.74613, 12.0055, 0.6453381, 0, 0, -0.7638971,  True, '2019-02-10 00:00:00'); /* Lesser Mu-miyah */
@@ -152,8 +152,8 @@ VALUES (0x78F55020,  1542, 0x8F55003D, 175.4702, 119.5621, 13.96351, 1, 0, 0, 0,
 /* @teleloc 0x8F55003D [175.470200 119.562100 13.963510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F55020, 0x78F55021, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78F55020, 0x78F55022, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x78F55020, 0x78F55021, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x78F55020, 0x78F55022, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F55021, 22572, 0x8F55003D, 175.4702, 119.5621, 13.96351, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

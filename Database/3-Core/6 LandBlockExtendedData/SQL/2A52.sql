@@ -5,22 +5,22 @@ VALUES (0x72A52001,  1154, 0x2A52002B, 135.6178, 61.66017, 1.167348, -0.3845995,
 /* @teleloc 0x2A52002B [135.617800 61.660170 1.167348] -0.384600 0.000000 0.000000 -0.923084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A52001, 0x72A52002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72A52001, 0x72A52003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72A52001, 0x72A52004, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72A52001, 0x72A52005, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A52001, 0x72A52006, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72A52001, 0x72A52007, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A52001, 0x72A52008, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A52001, 0x72A52009, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72A52001, 0x72A5200A, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A52001, 0x72A5200B, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A52001, 0x72A5200C, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72A52001, 0x72A5200D, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72A52001, 0x72A5200E, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72A52001, 0x72A5200F, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72A52001, 0x72A52010, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A52001, 0x72A52011, '2019-02-10 00:00:00') /* Void Knight */;
+VALUES (0x72A52001, 0x72A52002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72A52001, 0x72A52003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72A52001, 0x72A52004, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72A52001, 0x72A52005, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A52001, 0x72A52006, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72A52001, 0x72A52007, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A52001, 0x72A52008, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A52001, 0x72A52009, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72A52001, 0x72A5200A, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A52001, 0x72A5200B, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A52001, 0x72A5200C, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72A52001, 0x72A5200D, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72A52001, 0x72A5200E, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72A52001, 0x72A5200F, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72A52001, 0x72A52010, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A52001, 0x72A52011, '2019-02-10 00:00:00') /* Void Knight (25663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A52002, 36554, 0x2A52002B, 135.6178, 61.66017, 1.167348, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */
@@ -91,8 +91,8 @@ VALUES (0x72A52012,  1542, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 
 /* @teleloc 0x2A520013 [67.630980 71.321350 8.728170] -0.825266 0.000000 0.000000 -0.564745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A52012, 0x72A52013, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72A52012, 0x72A52014, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72A52012, 0x72A52013, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A52012, 0x72A52014, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A52013, 46284, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 0, 0, -0.5647447,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

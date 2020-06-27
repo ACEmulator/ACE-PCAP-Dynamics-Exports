@@ -5,26 +5,26 @@ VALUES (0x79BE8001,  1154, 0x9BE8001A, 75.18294, 37.35158, 109.9925, 0.9658147, 
 /* @teleloc 0x9BE8001A [75.182940 37.351580 109.992500] 0.965815 0.000000 0.000000 -0.259234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BE8001, 0x79BE8002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79BE8001, 0x79BE8003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BE8001, 0x79BE8004, '2019-02-10 00:00:00') /* Frost */
-     , (0x79BE8001, 0x79BE8005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79BE8001, 0x79BE8006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BE8001, 0x79BE8007, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79BE8001, 0x79BE8008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BE8001, 0x79BE8009, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79BE8001, 0x79BE800A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BE8001, 0x79BE800B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79BE8001, 0x79BE800C, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x79BE8001, 0x79BE800D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79BE8001, 0x79BE800E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BE8001, 0x79BE800F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79BE8001, 0x79BE8010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79BE8001, 0x79BE8011, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79BE8001, 0x79BE8012, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79BE8001, 0x79BE8013, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x79BE8001, 0x79BE8014, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x79BE8001, 0x79BE8015, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x79BE8001, 0x79BE8002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79BE8001, 0x79BE8003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BE8001, 0x79BE8004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79BE8001, 0x79BE8005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79BE8001, 0x79BE8006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BE8001, 0x79BE8007, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79BE8001, 0x79BE8008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BE8001, 0x79BE8009, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79BE8001, 0x79BE800A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BE8001, 0x79BE800B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79BE8001, 0x79BE800C, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x79BE8001, 0x79BE800D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79BE8001, 0x79BE800E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BE8001, 0x79BE800F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79BE8001, 0x79BE8010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79BE8001, 0x79BE8011, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79BE8001, 0x79BE8012, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79BE8001, 0x79BE8013, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x79BE8001, 0x79BE8014, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x79BE8001, 0x79BE8015, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BE8002, 24294, 0x9BE8001A, 75.18294, 37.35158, 109.9925, 0.9658147, 0, 0, -0.2592337,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -111,7 +111,7 @@ VALUES (0x79BE8016,  1542, 0x9BE80014, 58.89676, 86.78149, 110.94, 0.9990482, 0,
 /* @teleloc 0x9BE80014 [58.896760 86.781490 110.940000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BE8016, 0x79BE8017, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x79BE8016, 0x79BE8017, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BE8017,  6117, 0x9BE80014, 58.89676, 86.78149, 110.94, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

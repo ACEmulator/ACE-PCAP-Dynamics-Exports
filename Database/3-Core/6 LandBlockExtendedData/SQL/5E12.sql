@@ -5,10 +5,10 @@ VALUES (0x75E12001,  1154, 0x5E12001C, 76.3419, 84.11219, 10.87552, 0.8471636, 0
 /* @teleloc 0x5E12001C [76.341900 84.112190 10.875520] 0.847164 0.000000 0.000000 -0.531332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E12001, 0x75E12002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75E12001, 0x75E12003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75E12001, 0x75E12004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75E12001, 0x75E12005, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x75E12001, 0x75E12002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75E12001, 0x75E12003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75E12001, 0x75E12004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75E12001, 0x75E12005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E12002,  4217, 0x5E12001C, 76.3419, 84.11219, 10.87552, 0.8471636, 0, 0, -0.5313321,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

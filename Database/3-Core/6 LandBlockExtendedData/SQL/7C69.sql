@@ -5,9 +5,9 @@ VALUES (0x77C69001,  1154, 0x7C690031, 161.3375, 6.063422, 30.7711, 0.1759634, 0
 /* @teleloc 0x7C690031 [161.337500 6.063422 30.771100] 0.175963 0.000000 0.000000 -0.984397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C69001, 0x77C69002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77C69001, 0x77C69003, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77C69001, 0x77C69004, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x77C69001, 0x77C69002, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77C69001, 0x77C69003, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77C69001, 0x77C69004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C69002, 19436, 0x7C690031, 161.3375, 6.063422, 30.7711, 0.1759634, 0, 0, -0.9843967,  True, '2019-02-10 00:00:00'); /* Old Bones */

@@ -5,9 +5,9 @@ VALUES (0x78A7E001,  1154, 0x8A7E0015, 67.8114, 116.7792, 60.005, 0.7071068, 0, 
 /* @teleloc 0x8A7E0015 [67.811400 116.779200 60.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A7E001, 0x78A7E002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78A7E001, 0x78A7E003, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x78A7E001, 0x78A7E004, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x78A7E001, 0x78A7E002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78A7E001, 0x78A7E003, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x78A7E001, 0x78A7E004, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A7E002,  1615, 0x8A7E0015, 67.8114, 116.7792, 60.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */
@@ -26,7 +26,7 @@ VALUES (0x78A7E005,  1542, 0x8A7E0015, 65.24655, 119.8487, 60, 0.9659258, 0, 0, 
 /* @teleloc 0x8A7E0015 [65.246550 119.848700 60.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A7E005, 0x78A7E006, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x78A7E005, 0x78A7E006, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A7E006,  4180, 0x8A7E0015, 65.24655, 119.8487, 60, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

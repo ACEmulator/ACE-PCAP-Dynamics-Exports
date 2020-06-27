@@ -5,16 +5,16 @@ VALUES (0x798D6001,  1154, 0x98D60014, 68.57271, 91.79077, 85.93443, 0.9238795, 
 /* @teleloc 0x98D60014 [68.572710 91.790770 85.934430] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798D6001, 0x798D6002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x798D6001, 0x798D6003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x798D6001, 0x798D6004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x798D6001, 0x798D6005, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x798D6001, 0x798D6006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x798D6001, 0x798D6007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x798D6001, 0x798D6008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x798D6001, 0x798D6009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x798D6001, 0x798D600A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x798D6001, 0x798D600B, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x798D6001, 0x798D6002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x798D6001, 0x798D6003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x798D6001, 0x798D6004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x798D6001, 0x798D6005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x798D6001, 0x798D6006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x798D6001, 0x798D6007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x798D6001, 0x798D6008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x798D6001, 0x798D6009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x798D6001, 0x798D600A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x798D6001, 0x798D600B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798D6002,  7124, 0x98D60014, 68.57271, 91.79077, 85.93443, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -61,7 +61,7 @@ VALUES (0x798D600C,  1542, 0x98D60013, 56.01909, 53.23798, 85.93443, 0.9537169, 
 /* @teleloc 0x98D60013 [56.019090 53.237980 85.934430] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798D600C, 0x798D600D, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal */;
+VALUES (0x798D600C, 0x798D600D, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal (8383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798D600D,  8383, 0x98D60013, 56.01909, 53.23798, 85.93443, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Desert Northeast Portal */

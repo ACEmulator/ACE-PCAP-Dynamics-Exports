@@ -5,12 +5,12 @@ VALUES (0x7BC42001,  1154, 0xBC420008, 6.415505, 175.5302, 22.85286, -0.8941145,
 /* @teleloc 0xBC420008 [6.415505 175.530200 22.852860] -0.894115 0.000000 0.000000 -0.447838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC42001, 0x7BC42002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7BC42001, 0x7BC42003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BC42001, 0x7BC42004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BC42001, 0x7BC42005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC42001, 0x7BC42006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC42001, 0x7BC42007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7BC42001, 0x7BC42002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7BC42001, 0x7BC42003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BC42001, 0x7BC42004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BC42001, 0x7BC42005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC42001, 0x7BC42006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BC42001, 0x7BC42007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC42002,  7128, 0xBC420008, 6.415505, 175.5302, 22.85286, -0.8941145, 0, 0, -0.4478384,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -41,8 +41,8 @@ VALUES (0x7BC42008,  1542, 0xBC420005, 19.57046, 104.8733, 31.30259, 1, 0, 0, 0,
 /* @teleloc 0xBC420005 [19.570460 104.873300 31.302590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC42008, 0x7BC42009, '2019-02-10 00:00:00') /* Meat */
-     , (0x7BC42008, 0x7BC4200A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BC42008, 0x7BC42009, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7BC42008, 0x7BC4200A, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC42009,   265, 0xBC420005, 19.57046, 104.8733, 31.30259, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

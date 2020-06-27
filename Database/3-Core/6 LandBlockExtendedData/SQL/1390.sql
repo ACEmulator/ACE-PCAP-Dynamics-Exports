@@ -5,19 +5,19 @@ VALUES (0x71390001,  1154, 0x13900005, 21.7083, 99.72598, 38.02671, 0.1620126, 0
 /* @teleloc 0x13900005 [21.708300 99.725980 38.026710] 0.162013 0.000000 0.000000 -0.986789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71390001, 0x71390002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71390001, 0x71390003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71390001, 0x71390004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71390001, 0x71390005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71390001, 0x71390006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71390001, 0x71390007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71390001, 0x71390008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71390001, 0x71390009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71390001, 0x7139000A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71390001, 0x7139000B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71390001, 0x7139000C, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71390001, 0x7139000D, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71390001, 0x7139000E, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x71390001, 0x71390002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71390001, 0x71390003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71390001, 0x71390004, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71390001, 0x71390005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71390001, 0x71390006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71390001, 0x71390007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71390001, 0x71390008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71390001, 0x71390009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71390001, 0x7139000A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71390001, 0x7139000B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71390001, 0x7139000C, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71390001, 0x7139000D, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71390001, 0x7139000E, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71390002,  4254, 0x13900005, 21.7083, 99.72598, 38.02671, 0.1620126, 0, 0, -0.9867887,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -76,8 +76,8 @@ VALUES (0x7139000F,  1542, 0x13900001, 23.85748, 6.644523, 27.1646, -4.371139E-0
 /* @teleloc 0x13900001 [23.857480 6.644523 27.164600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7139000F, 0x71390010, '2019-02-10 00:00:00') /* Bones */
-     , (0x7139000F, 0x71390011, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7139000F, 0x71390010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7139000F, 0x71390011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71390010,  4380, 0x13900001, 23.85748, 6.644523, 27.1646, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

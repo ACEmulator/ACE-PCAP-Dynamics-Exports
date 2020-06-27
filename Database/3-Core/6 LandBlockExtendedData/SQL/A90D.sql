@@ -5,25 +5,25 @@ VALUES (0x7A90D001,  1154, 0xA90D0009, 32.902, 0.8570681, 0.07892239, 0.9238795,
 /* @teleloc 0xA90D0009 [32.902000 0.857068 0.078922] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90D001, 0x7A90D002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A90D001, 0x7A90D003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A90D001, 0x7A90D004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A90D001, 0x7A90D005, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A90D001, 0x7A90D006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A90D001, 0x7A90D007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A90D001, 0x7A90D008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A90D001, 0x7A90D009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A90D001, 0x7A90D00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A90D001, 0x7A90D00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A90D001, 0x7A90D00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A90D001, 0x7A90D00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A90D001, 0x7A90D00E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A90D001, 0x7A90D00F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A90D001, 0x7A90D010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A90D001, 0x7A90D011, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A90D001, 0x7A90D012, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A90D001, 0x7A90D013, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A90D001, 0x7A90D014, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7A90D001, 0x7A90D002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A90D001, 0x7A90D003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A90D001, 0x7A90D004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A90D001, 0x7A90D005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A90D001, 0x7A90D006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A90D001, 0x7A90D007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A90D001, 0x7A90D008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A90D001, 0x7A90D009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A90D001, 0x7A90D00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A90D001, 0x7A90D00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A90D001, 0x7A90D00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A90D001, 0x7A90D00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A90D001, 0x7A90D00E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A90D001, 0x7A90D00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A90D001, 0x7A90D010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A90D001, 0x7A90D011, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A90D001, 0x7A90D012, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A90D001, 0x7A90D013, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A90D001, 0x7A90D014, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90D002,  7123, 0xA90D0009, 32.902, 0.8570681, 0.07892239, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -106,7 +106,7 @@ VALUES (0x7A90D015,  1542, 0xA90D0009, 33.05869, 5.622663, 0.4055552, 0.8770693,
 /* @teleloc 0xA90D0009 [33.058690 5.622663 0.405555] 0.877069 0.000000 0.000000 -0.480364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90D015, 0x7A90D016, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7A90D015, 0x7A90D016, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90D016,  9071, 0xA90D0009, 33.05869, 5.622663, 0.4055552, 0.8770693, 0, 0, -0.4803638,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

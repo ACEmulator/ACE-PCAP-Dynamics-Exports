@@ -5,8 +5,8 @@ VALUES (0x73D97001,  1154, 0x3D970026, 106.6614, 123.6891, -0.09750003, 0.793353
 /* @teleloc 0x3D970026 [106.661400 123.689100 -0.097500] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D97001, 0x73D97002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73D97001, 0x73D97003, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x73D97001, 0x73D97002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73D97001, 0x73D97003, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D97002,  7179, 0x3D970026, 106.6614, 123.6891, -0.09750003, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */

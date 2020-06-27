@@ -5,10 +5,10 @@ VALUES (0x7B5D4001,  1154, 0xB5D40025, 104.8373, 98.75546, 53.45113, 0.3641554, 
 /* @teleloc 0xB5D40025 [104.837300 98.755460 53.451130] 0.364155 0.000000 0.000000 -0.931338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5D4001, 0x7B5D4002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7B5D4001, 0x7B5D4003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B5D4001, 0x7B5D4004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B5D4001, 0x7B5D4005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7B5D4001, 0x7B5D4002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7B5D4001, 0x7B5D4003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B5D4001, 0x7B5D4004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B5D4001, 0x7B5D4005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5D4002, 26470, 0xB5D40025, 104.8373, 98.75546, 53.45113, 0.3641554, 0, 0, -0.9313382,  True, '2019-02-10 00:00:00'); /* Fire Shreth */

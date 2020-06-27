@@ -5,24 +5,24 @@ VALUES (0x75CA2001,  1154, 0x5CA20040, 169.3849, 182.7627, 72.43472, -0.6748174,
 /* @teleloc 0x5CA20040 [169.384900 182.762700 72.434720] -0.674817 0.000000 0.000000 -0.737985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CA2001, 0x75CA2002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75CA2001, 0x75CA2003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75CA2001, 0x75CA2004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75CA2001, 0x75CA2005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75CA2001, 0x75CA2006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75CA2001, 0x75CA2007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75CA2001, 0x75CA2008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75CA2001, 0x75CA2009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75CA2001, 0x75CA200A, '2019-02-10 00:00:00') /* Static */
-     , (0x75CA2001, 0x75CA200B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x75CA2001, 0x75CA200C, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75CA2001, 0x75CA200D, '2019-02-10 00:00:00') /* Static */
-     , (0x75CA2001, 0x75CA200E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75CA2001, 0x75CA200F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75CA2001, 0x75CA2010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75CA2001, 0x75CA2011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75CA2001, 0x75CA2012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75CA2001, 0x75CA2013, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x75CA2001, 0x75CA2002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75CA2001, 0x75CA2003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75CA2001, 0x75CA2004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75CA2001, 0x75CA2005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75CA2001, 0x75CA2006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75CA2001, 0x75CA2007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75CA2001, 0x75CA2008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75CA2001, 0x75CA2009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75CA2001, 0x75CA200A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75CA2001, 0x75CA200B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x75CA2001, 0x75CA200C, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75CA2001, 0x75CA200D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75CA2001, 0x75CA200E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75CA2001, 0x75CA200F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75CA2001, 0x75CA2010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75CA2001, 0x75CA2011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75CA2001, 0x75CA2012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75CA2001, 0x75CA2013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CA2002, 14800, 0x5CA20040, 169.3849, 182.7627, 72.43472, -0.6748174, 0, 0, -0.7379847,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

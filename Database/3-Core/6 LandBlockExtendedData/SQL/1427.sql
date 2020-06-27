@@ -5,9 +5,9 @@ VALUES (0x71427001,  1154, 0x1427002C, 136.9856, 92.5398, -0.8899999, 0.1736482,
 /* @teleloc 0x1427002C [136.985600 92.539800 -0.890000] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71427001, 0x71427002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71427001, 0x71427003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71427001, 0x71427004, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x71427001, 0x71427002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71427001, 0x71427003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71427001, 0x71427004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71427002, 36834, 0x1427002C, 136.9856, 92.5398, -0.8899999, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

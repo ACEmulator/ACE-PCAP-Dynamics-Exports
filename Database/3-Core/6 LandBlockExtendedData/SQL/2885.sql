@@ -5,13 +5,13 @@ VALUES (0x72885001,  1154, 0x28850025, 101.4368, 100.5074, 232.859, 0.9052252, 0
 /* @teleloc 0x28850025 [101.436800 100.507400 232.859000] 0.905225 0.000000 0.000000 -0.424932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72885001, 0x72885002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72885001, 0x72885003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72885001, 0x72885004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72885001, 0x72885005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72885001, 0x72885006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72885001, 0x72885007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72885001, 0x72885008, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x72885001, 0x72885002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72885001, 0x72885003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72885001, 0x72885004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72885001, 0x72885005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72885001, 0x72885006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72885001, 0x72885007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72885001, 0x72885008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72885002, 21550, 0x28850025, 101.4368, 100.5074, 232.859, 0.9052252, 0, 0, -0.4249323,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -46,7 +46,7 @@ VALUES (0x72885009,  1542, 0x28850001, 3.734344, 15.64877, 263.4797, 1, 0, 0, 0,
 /* @teleloc 0x28850001 [3.734344 15.648770 263.479700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72885009, 0x7288500A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72885009, 0x7288500A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288500A, 22567, 0x28850001, 3.734344, 15.64877, 263.4797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

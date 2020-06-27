@@ -5,15 +5,15 @@ VALUES (0x73344001,  1154, 0x33440022, 111.4685, 32.94308, 93.73278, -0.5927107,
 /* @teleloc 0x33440022 [111.468500 32.943080 93.732780] -0.592711 0.000000 0.000000 -0.805415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73344001, 0x73344002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73344001, 0x73344003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73344001, 0x73344004, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73344001, 0x73344005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73344001, 0x73344006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73344001, 0x73344007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73344001, 0x73344008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73344001, 0x73344009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73344001, 0x7334400A, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x73344001, 0x73344002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73344001, 0x73344003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73344001, 0x73344004, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73344001, 0x73344005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73344001, 0x73344006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73344001, 0x73344007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73344001, 0x73344008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73344001, 0x73344009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73344001, 0x7334400A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73344002, 23617, 0x33440022, 111.4685, 32.94308, 93.73278, -0.5927107, 0, 0, -0.8054154,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -56,7 +56,7 @@ VALUES (0x7334400B,  1542, 0x33440019, 94.34348, 19.00401, 88.19629, 0.9914449, 
 /* @teleloc 0x33440019 [94.343480 19.004010 88.196290] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334400B, 0x7334400C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7334400B, 0x7334400C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334400C,  4380, 0x33440019, 94.34348, 19.00401, 88.19629, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

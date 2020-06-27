@@ -5,18 +5,18 @@ VALUES (0x7258B001,  1154, 0x258B001A, 84.14783, 47.60612, 55.65661, 0.9238795, 
 /* @teleloc 0x258B001A [84.147830 47.606120 55.656610] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7258B001, 0x7258B002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7258B001, 0x7258B003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7258B001, 0x7258B004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7258B001, 0x7258B005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7258B001, 0x7258B006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7258B001, 0x7258B007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7258B001, 0x7258B008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7258B001, 0x7258B009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7258B001, 0x7258B00A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7258B001, 0x7258B00B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7258B001, 0x7258B00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7258B001, 0x7258B00D, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7258B001, 0x7258B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7258B001, 0x7258B003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7258B001, 0x7258B004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7258B001, 0x7258B005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7258B001, 0x7258B006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7258B001, 0x7258B007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7258B001, 0x7258B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7258B001, 0x7258B009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7258B001, 0x7258B00A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7258B001, 0x7258B00B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7258B001, 0x7258B00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7258B001, 0x7258B00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7258B002,  4254, 0x258B001A, 84.14783, 47.60612, 55.65661, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7258B00E,  1542, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0, False
 /* @teleloc 0x258B001A [83.161380 45.249650 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7258B00E, 0x7258B00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7258B00E, 0x7258B00F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7258B00F, 22566, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

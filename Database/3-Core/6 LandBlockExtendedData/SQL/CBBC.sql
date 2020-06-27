@@ -5,9 +5,9 @@ VALUES (0x7CBBC001,  1154, 0xCBBC0001, 16.27227, 0.1962891, 59.9948, -0.4846869,
 /* @teleloc 0xCBBC0001 [16.272270 0.196289 59.994800] -0.484687 0.000000 0.000000 -0.874688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBBC001, 0x7CBBC002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBBC001, 0x7CBBC003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CBBC001, 0x7CBBC004, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7CBBC001, 0x7CBBC002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBBC001, 0x7CBBC003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CBBC001, 0x7CBBC004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBBC002, 24958, 0xCBBC0001, 16.27227, 0.1962891, 59.9948, -0.4846869, 0, 0, -0.8746877,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

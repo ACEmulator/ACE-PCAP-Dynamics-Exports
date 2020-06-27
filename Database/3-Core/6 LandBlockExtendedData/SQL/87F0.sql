@@ -5,9 +5,9 @@ VALUES (0x787F0001,  1154, 0x87F0003F, 189.0331, 148.9894, 76.17505, 0.9928599, 
 /* @teleloc 0x87F0003F [189.033100 148.989400 76.175050] 0.992860 0.000000 0.000000 -0.119286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787F0001, 0x787F0002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x787F0001, 0x787F0003, '2019-02-10 00:00:00') /* Frost */
-     , (0x787F0001, 0x787F0004, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x787F0001, 0x787F0002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x787F0001, 0x787F0003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x787F0001, 0x787F0004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787F0002,  6380, 0x87F0003F, 189.0331, 148.9894, 76.17505, 0.9928599, 0, 0, -0.1192864,  True, '2019-02-10 00:00:00'); /* Scintilla */

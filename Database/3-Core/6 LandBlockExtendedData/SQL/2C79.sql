@@ -5,17 +5,17 @@ VALUES (0x72C79001,  1154, 0x2C790013, 63.28595, 50.29674, 100.0065, -0.9487085,
 /* @teleloc 0x2C790013 [63.285950 50.296740 100.006500] -0.948709 0.000000 0.000000 -0.316152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C79001, 0x72C79002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72C79001, 0x72C79003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72C79001, 0x72C79004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72C79001, 0x72C79005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C79001, 0x72C79006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72C79001, 0x72C79007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C79001, 0x72C79008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72C79001, 0x72C79009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C79001, 0x72C7900A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C79001, 0x72C7900B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C79001, 0x72C7900C, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72C79001, 0x72C79002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72C79001, 0x72C79003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72C79001, 0x72C79004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72C79001, 0x72C79005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C79001, 0x72C79006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72C79001, 0x72C79007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C79001, 0x72C79008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72C79001, 0x72C79009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C79001, 0x72C7900A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C79001, 0x72C7900B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C79001, 0x72C7900C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C79002, 20189, 0x2C790013, 63.28595, 50.29674, 100.0065, -0.9487085, 0, 0, -0.316152,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -66,7 +66,7 @@ VALUES (0x72C7900D,  1542, 0x2C790022, 107.0181, 27.95595, 103.3651, -4.371139E-
 /* @teleloc 0x2C790022 [107.018100 27.955950 103.365100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C7900D, 0x72C7900E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72C7900D, 0x72C7900E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C7900E,  4380, 0x2C790022, 107.0181, 27.95595, 103.3651, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

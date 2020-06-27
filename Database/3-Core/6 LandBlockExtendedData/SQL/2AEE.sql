@@ -21,55 +21,55 @@ VALUES (0x72AEE008,  1154, 0x2AEE003D, 168.601, 97.6729, 64.1394, 0.152115, 0, 0
 /* @teleloc 0x2AEE003D [168.601000 97.672900 64.139400] 0.152115 0.000000 0.000000 0.988363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEE008, 0x72AEE009, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72AEE008, 0x72AEE00A, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72AEE008, 0x72AEE00B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AEE008, 0x72AEE00C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72AEE008, 0x72AEE00D, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72AEE008, 0x72AEE00E, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72AEE008, 0x72AEE00F, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72AEE008, 0x72AEE010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEE008, 0x72AEE011, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEE008, 0x72AEE012, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72AEE008, 0x72AEE013, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEE008, 0x72AEE014, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72AEE008, 0x72AEE015, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEE008, 0x72AEE016, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE017, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEE008, 0x72AEE018, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEE008, 0x72AEE019, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEE008, 0x72AEE01A, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEE008, 0x72AEE01B, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72AEE008, 0x72AEE01C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEE008, 0x72AEE01D, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEE008, 0x72AEE01E, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE01F, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEE008, 0x72AEE020, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEE008, 0x72AEE021, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEE008, 0x72AEE022, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AEE008, 0x72AEE023, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72AEE008, 0x72AEE024, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x72AEE008, 0x72AEE025, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEE008, 0x72AEE026, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72AEE008, 0x72AEE027, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72AEE008, 0x72AEE028, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x72AEE008, 0x72AEE029, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AEE008, 0x72AEE02A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72AEE008, 0x72AEE02B, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEE008, 0x72AEE02C, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE02D, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEE008, 0x72AEE02E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72AEE008, 0x72AEE02F, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE030, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72AEE008, 0x72AEE031, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72AEE008, 0x72AEE032, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEE008, 0x72AEE033, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE034, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEE008, 0x72AEE035, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72AEE008, 0x72AEE036, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72AEE008, 0x72AEE037, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEE008, 0x72AEE038, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72AEE008, 0x72AEE039, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x72AEE008, 0x72AEE009, '2019-02-10 00:00:00') /* Exploration Marker (39838) */
+     , (0x72AEE008, 0x72AEE00A, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72AEE008, 0x72AEE00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AEE008, 0x72AEE00C, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72AEE008, 0x72AEE00D, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72AEE008, 0x72AEE00E, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72AEE008, 0x72AEE00F, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72AEE008, 0x72AEE010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEE008, 0x72AEE011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEE008, 0x72AEE012, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72AEE008, 0x72AEE013, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEE008, 0x72AEE014, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72AEE008, 0x72AEE015, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEE008, 0x72AEE016, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE017, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEE008, 0x72AEE018, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEE008, 0x72AEE019, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEE008, 0x72AEE01A, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEE008, 0x72AEE01B, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72AEE008, 0x72AEE01C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEE008, 0x72AEE01D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEE008, 0x72AEE01E, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE01F, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEE008, 0x72AEE020, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEE008, 0x72AEE021, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEE008, 0x72AEE022, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AEE008, 0x72AEE023, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72AEE008, 0x72AEE024, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x72AEE008, 0x72AEE025, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEE008, 0x72AEE026, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72AEE008, 0x72AEE027, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72AEE008, 0x72AEE028, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x72AEE008, 0x72AEE029, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AEE008, 0x72AEE02A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72AEE008, 0x72AEE02B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEE008, 0x72AEE02C, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE02D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEE008, 0x72AEE02E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AEE008, 0x72AEE02F, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE030, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72AEE008, 0x72AEE031, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72AEE008, 0x72AEE032, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEE008, 0x72AEE033, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE034, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEE008, 0x72AEE035, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72AEE008, 0x72AEE036, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72AEE008, 0x72AEE037, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEE008, 0x72AEE038, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72AEE008, 0x72AEE039, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEE009, 39838, 0x2AEE003D, 168.601, 97.6729, 64.1394, 0.152115, 0, 0, 0.988363,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -272,10 +272,10 @@ VALUES (0x72AEE03A,  1154, 0x2AEE003E, 170.289, 121.743, 66.005, 0.891154, 0, 0,
 /* @teleloc 0x2AEE003E [170.289000 121.743000 66.005000] 0.891154 0.000000 0.000000 -0.453701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEE03A, 0x72AEE03B, '2019-02-10 00:00:00') /* Iian di Alduressa */
-     , (0x72AEE03A, 0x72AEE03C, '2019-02-10 00:00:00') /* Guard */
-     , (0x72AEE03A, 0x72AEE03D, '2019-02-10 00:00:00') /* Sir Ginazio */
-     , (0x72AEE03A, 0x72AEE03E, '2019-02-10 00:00:00') /* Guard */;
+VALUES (0x72AEE03A, 0x72AEE03B, '2019-02-10 00:00:00') /* Iian di Alduressa (32801) */
+     , (0x72AEE03A, 0x72AEE03C, '2019-02-10 00:00:00') /* Guard (29487) */
+     , (0x72AEE03A, 0x72AEE03D, '2019-02-10 00:00:00') /* Sir Ginazio (29488) */
+     , (0x72AEE03A, 0x72AEE03E, '2019-02-10 00:00:00') /* Guard (29487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEE03B, 32801, 0x2AEE003E, 170.289, 121.743, 66.005, 0.891154, 0, 0, -0.453701,  True, '2019-02-10 00:00:00'); /* Iian di Alduressa */

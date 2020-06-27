@@ -5,24 +5,24 @@ VALUES (0x7B860001,  1154, 0xB8600003, 10.73355, 65.59445, 12.18313, 0.9238795, 
 /* @teleloc 0xB8600003 [10.733550 65.594450 12.183130] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B860001, 0x7B860002, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B860001, 0x7B860003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B860001, 0x7B860004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B860001, 0x7B860005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B860001, 0x7B860006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B860001, 0x7B860007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B860001, 0x7B860008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B860001, 0x7B860009, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B860001, 0x7B86000A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B860001, 0x7B86000B, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B860001, 0x7B86000C, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B860001, 0x7B86000D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B860001, 0x7B86000E, '2019-02-10 00:00:00') /* Undead */
-     , (0x7B860001, 0x7B86000F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B860001, 0x7B860010, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B860001, 0x7B860011, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B860001, 0x7B860012, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B860001, 0x7B860013, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7B860001, 0x7B860002, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B860001, 0x7B860003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B860001, 0x7B860004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B860001, 0x7B860005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B860001, 0x7B860006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B860001, 0x7B860007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B860001, 0x7B860008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B860001, 0x7B860009, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B860001, 0x7B86000A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B860001, 0x7B86000B, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B860001, 0x7B86000C, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B860001, 0x7B86000D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B860001, 0x7B86000E, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7B860001, 0x7B86000F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B860001, 0x7B860010, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B860001, 0x7B860011, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B860001, 0x7B860012, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B860001, 0x7B860013, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B860002,   941, 0xB8600003, 10.73355, 65.59445, 12.18313, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Water Golem */
@@ -101,8 +101,8 @@ VALUES (0x7B860014,  1542, 0xB860000A, 36.08719, 30.26664, 15.45594, 0.9238795, 
 /* @teleloc 0xB860000A [36.087190 30.266640 15.455940] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B860014, 0x7B860015, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B860014, 0x7B860016, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7B860014, 0x7B860015, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7B860014, 0x7B860016, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B860015,  4381, 0xB860000A, 36.08719, 30.26664, 15.45594, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

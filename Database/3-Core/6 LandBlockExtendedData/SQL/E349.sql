@@ -5,12 +5,12 @@ VALUES (0x7E349001,  1154, 0xE349003F, 182.2974, 146.8532, 24.79355, -0.04026437
 /* @teleloc 0xE349003F [182.297400 146.853200 24.793550] -0.040264 0.000000 0.000000 -0.999189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E349001, 0x7E349002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E349001, 0x7E349003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E349001, 0x7E349004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E349001, 0x7E349005, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E349001, 0x7E349006, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E349001, 0x7E349007, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7E349001, 0x7E349002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E349001, 0x7E349003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E349001, 0x7E349004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E349001, 0x7E349005, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E349001, 0x7E349006, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E349001, 0x7E349007, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E349002,  4110, 0xE349003F, 182.2974, 146.8532, 24.79355, -0.04026437, 0, 0, -0.9991891,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

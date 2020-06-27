@@ -5,23 +5,23 @@ VALUES (0x7F832001,  1154, 0xF8320003, 1.076126, 48.21339, 73.37866, -0.8238673,
 /* @teleloc 0xF8320003 [1.076126 48.213390 73.378660] -0.823867 0.000000 0.000000 -0.566783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F832001, 0x7F832002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F832001, 0x7F832003, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F832001, 0x7F832004, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F832001, 0x7F832005, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F832001, 0x7F832006, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F832007, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F832008, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F832009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F832001, 0x7F83200A, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F832001, 0x7F83200B, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F83200C, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F83200D, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F83200E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F832001, 0x7F83200F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F832001, 0x7F832010, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F832001, 0x7F832011, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F832001, 0x7F832012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */;
+VALUES (0x7F832001, 0x7F832002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F832001, 0x7F832003, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F832001, 0x7F832004, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F832001, 0x7F832005, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F832001, 0x7F832006, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F832007, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F832008, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F832009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F832001, 0x7F83200A, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F832001, 0x7F83200B, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F83200C, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F83200D, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F83200E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F832001, 0x7F83200F, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F832001, 0x7F832010, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F832001, 0x7F832011, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F832001, 0x7F832012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F832002, 40302, 0xF8320003, 1.076126, 48.21339, 73.37866, -0.8238673, 0, 0, -0.5667827,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
@@ -96,7 +96,7 @@ VALUES (0x7F832013,  1154, 0xF8320020, 74.97768, 169.0316, 42.005, -0.1845694, 0
 /* @teleloc 0xF8320020 [74.977680 169.031600 42.005000] -0.184569 0.000000 0.000000 -0.982820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F832013, 0x7F832014, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */;
+VALUES (0x7F832013, 0x7F832014, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F832014, 41803, 0xF8320020, 74.97768, 169.0316, 42.005, -0.1845694, 0, 0, -0.9828195,  True, '2019-02-10 00:00:00'); /* Corpse of Celestial Hand Agent */

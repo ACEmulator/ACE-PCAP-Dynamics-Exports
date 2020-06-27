@@ -41,81 +41,81 @@ VALUES (0x75D48052,  1154, 0x5D48011F, 43.3589, -71.0054, 6.01, 0.4319188, 0, 0,
 /* @teleloc 0x5D48011F [43.358900 -71.005400 6.010000] 0.431919 0.000000 0.000000 -0.901913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D48052, 0x75D48053, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48054, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48055, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48056, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48057, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48058, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48059, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D4805A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4805B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4805C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4805D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4805E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4805F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48060, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48061, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48062, '2019-02-10 00:00:00') /* Warden of Lowering Self */
-     , (0x75D48052, 0x75D48063, '2019-02-10 00:00:00') /* Servant of Alteration */
-     , (0x75D48052, 0x75D48064, '2019-02-10 00:00:00') /* Warden of Lowering Strength */
-     , (0x75D48052, 0x75D48065, '2019-02-10 00:00:00') /* Warden of Lowering Coordination */
-     , (0x75D48052, 0x75D48066, '2019-02-10 00:00:00') /* Warden of Lowering Endurance */
-     , (0x75D48052, 0x75D48067, '2019-02-10 00:00:00') /* Warden of Lowering Quickness */
-     , (0x75D48052, 0x75D48068, '2019-02-10 00:00:00') /* Servant of Forgetfulness */
-     , (0x75D48052, 0x75D48069, '2019-02-10 00:00:00') /* Warden of Lowering Focus */
-     , (0x75D48052, 0x75D4806A, '2019-02-10 00:00:00') /* Dirty Fighting Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4806B, '2019-02-10 00:00:00') /* Deception Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4806C, '2019-02-10 00:00:00') /* Assess Person Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4806D, '2019-02-10 00:00:00') /* Creature Enchantment Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4806E, '2019-02-10 00:00:00') /* Assess Creature Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4806F, '2019-02-10 00:00:00') /* Cooking Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48070, '2019-02-10 00:00:00') /* Armor Tinkering Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48071, '2019-02-10 00:00:00') /* Alchemy Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48072, '2019-02-10 00:00:00') /* Arcane Lore Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48073, '2019-02-10 00:00:00') /* Summoning Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48074, '2019-02-10 00:00:00') /* Sneak Attack Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48075, '2019-02-10 00:00:00') /* Shield Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48076, '2019-02-10 00:00:00') /* Recklessness Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48077, '2019-02-10 00:00:00') /* Void Magic Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48078, '2019-02-10 00:00:00') /* Two Handed Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48079, '2019-02-10 00:00:00') /* Run Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807A, '2019-02-10 00:00:00') /* Salvaging Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807B, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807C, '2019-02-10 00:00:00') /* War Magic Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807D, '2019-02-10 00:00:00') /* Dual Wield Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807E, '2019-02-10 00:00:00') /* Fletching Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4807F, '2019-02-10 00:00:00') /* Life Magic Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48080, '2019-02-10 00:00:00') /* Finesse Weapons Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48081, '2019-02-10 00:00:00') /* Jump Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48082, '2019-02-10 00:00:00') /* Item Enchantment Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48083, '2019-02-10 00:00:00') /* Leadership Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48084, '2019-02-10 00:00:00') /* Healing Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48085, '2019-02-10 00:00:00') /* Item Tinkering Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48086, '2019-02-10 00:00:00') /* Heavy Weapons Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48087, '2019-02-10 00:00:00') /* Lockpick Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48088, '2019-02-10 00:00:00') /* Melee Defense Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48089, '2019-02-10 00:00:00') /* Mana Conversion Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808A, '2019-02-10 00:00:00') /* Missile Defense Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808B, '2019-02-10 00:00:00') /* Magic Defense Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808C, '2019-02-10 00:00:00') /* Magic Item Tinkering Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808D, '2019-02-10 00:00:00') /* Loyalty Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808E, '2019-02-10 00:00:00') /* Missile Weapons Warden of Forgetfulness */
-     , (0x75D48052, 0x75D4808F, '2019-02-10 00:00:00') /* Light Weapons Warden of Forgetfulness */
-     , (0x75D48052, 0x75D48090, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48091, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48092, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48093, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48094, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x75D48052, 0x75D48095, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48096, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48097, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48098, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D48099, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4809A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4809B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4809C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D48052, 0x75D4809D, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x75D48052, 0x75D48053, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48054, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48055, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48056, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48057, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48058, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48059, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D4805A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4805B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4805C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4805D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4805E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4805F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48060, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48061, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48062, '2019-02-10 00:00:00') /* Warden of Lowering Self (32482) */
+     , (0x75D48052, 0x75D48063, '2019-02-10 00:00:00') /* Servant of Alteration (32551) */
+     , (0x75D48052, 0x75D48064, '2019-02-10 00:00:00') /* Warden of Lowering Strength (32479) */
+     , (0x75D48052, 0x75D48065, '2019-02-10 00:00:00') /* Warden of Lowering Coordination (32478) */
+     , (0x75D48052, 0x75D48066, '2019-02-10 00:00:00') /* Warden of Lowering Endurance (32471) */
+     , (0x75D48052, 0x75D48067, '2019-02-10 00:00:00') /* Warden of Lowering Quickness (32480) */
+     , (0x75D48052, 0x75D48068, '2019-02-10 00:00:00') /* Servant of Forgetfulness (32552) */
+     , (0x75D48052, 0x75D48069, '2019-02-10 00:00:00') /* Warden of Lowering Focus (32481) */
+     , (0x75D48052, 0x75D4806A, '2019-02-10 00:00:00') /* Dirty Fighting Warden of Forgetfulness (45385) */
+     , (0x75D48052, 0x75D4806B, '2019-02-10 00:00:00') /* Deception Warden of Forgetfulness (32419) */
+     , (0x75D48052, 0x75D4806C, '2019-02-10 00:00:00') /* Assess Person Warden of Forgetfulness (32435) */
+     , (0x75D48052, 0x75D4806D, '2019-02-10 00:00:00') /* Creature Enchantment Warden of Forgetfulness (32416) */
+     , (0x75D48052, 0x75D4806E, '2019-02-10 00:00:00') /* Assess Creature Warden of Forgetfulness (32415) */
+     , (0x75D48052, 0x75D4806F, '2019-02-10 00:00:00') /* Cooking Warden of Forgetfulness (32413) */
+     , (0x75D48052, 0x75D48070, '2019-02-10 00:00:00') /* Armor Tinkering Warden of Forgetfulness (32410) */
+     , (0x75D48052, 0x75D48071, '2019-02-10 00:00:00') /* Alchemy Warden of Forgetfulness (32398) */
+     , (0x75D48052, 0x75D48072, '2019-02-10 00:00:00') /* Arcane Lore Warden of Forgetfulness (32409) */
+     , (0x75D48052, 0x75D48073, '2019-02-10 00:00:00') /* Summoning Warden of Forgetfulness (49482) */
+     , (0x75D48052, 0x75D48074, '2019-02-10 00:00:00') /* Sneak Attack Warden of Forgetfulness (45389) */
+     , (0x75D48052, 0x75D48075, '2019-02-10 00:00:00') /* Shield Warden of Forgetfulness (45388) */
+     , (0x75D48052, 0x75D48076, '2019-02-10 00:00:00') /* Recklessness Warden of Forgetfulness (45387) */
+     , (0x75D48052, 0x75D48077, '2019-02-10 00:00:00') /* Void Magic Warden of Forgetfulness (43401) */
+     , (0x75D48052, 0x75D48078, '2019-02-10 00:00:00') /* Two Handed Warden of Forgetfulness (41743) */
+     , (0x75D48052, 0x75D48079, '2019-02-10 00:00:00') /* Run Warden of Forgetfulness (32400) */
+     , (0x75D48052, 0x75D4807A, '2019-02-10 00:00:00') /* Salvaging Warden of Forgetfulness (32401) */
+     , (0x75D48052, 0x75D4807B, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Forgetfulness (32408) */
+     , (0x75D48052, 0x75D4807C, '2019-02-10 00:00:00') /* War Magic Warden of Forgetfulness (32407) */
+     , (0x75D48052, 0x75D4807D, '2019-02-10 00:00:00') /* Dual Wield Warden of Forgetfulness (45386) */
+     , (0x75D48052, 0x75D4807E, '2019-02-10 00:00:00') /* Fletching Warden of Forgetfulness (32420) */
+     , (0x75D48052, 0x75D4807F, '2019-02-10 00:00:00') /* Life Magic Warden of Forgetfulness (32426) */
+     , (0x75D48052, 0x75D48080, '2019-02-10 00:00:00') /* Finesse Weapons Warden of Forgetfulness (32418) */
+     , (0x75D48052, 0x75D48081, '2019-02-10 00:00:00') /* Jump Warden of Forgetfulness (32424) */
+     , (0x75D48052, 0x75D48082, '2019-02-10 00:00:00') /* Item Enchantment Warden of Forgetfulness (32423) */
+     , (0x75D48052, 0x75D48083, '2019-02-10 00:00:00') /* Leadership Warden of Forgetfulness (32425) */
+     , (0x75D48052, 0x75D48084, '2019-02-10 00:00:00') /* Healing Warden of Forgetfulness (32421) */
+     , (0x75D48052, 0x75D48085, '2019-02-10 00:00:00') /* Item Tinkering Warden of Forgetfulness (32422) */
+     , (0x75D48052, 0x75D48086, '2019-02-10 00:00:00') /* Heavy Weapons Warden of Forgetfulness (32404) */
+     , (0x75D48052, 0x75D48087, '2019-02-10 00:00:00') /* Lockpick Warden of Forgetfulness (32427) */
+     , (0x75D48052, 0x75D48088, '2019-02-10 00:00:00') /* Melee Defense Warden of Forgetfulness (32433) */
+     , (0x75D48052, 0x75D48089, '2019-02-10 00:00:00') /* Mana Conversion Warden of Forgetfulness (32432) */
+     , (0x75D48052, 0x75D4808A, '2019-02-10 00:00:00') /* Missile Defense Warden of Forgetfulness (32434) */
+     , (0x75D48052, 0x75D4808B, '2019-02-10 00:00:00') /* Magic Defense Warden of Forgetfulness (32430) */
+     , (0x75D48052, 0x75D4808C, '2019-02-10 00:00:00') /* Magic Item Tinkering Warden of Forgetfulness (32431) */
+     , (0x75D48052, 0x75D4808D, '2019-02-10 00:00:00') /* Loyalty Warden of Forgetfulness (32428) */
+     , (0x75D48052, 0x75D4808E, '2019-02-10 00:00:00') /* Missile Weapons Warden of Forgetfulness (32412) */
+     , (0x75D48052, 0x75D4808F, '2019-02-10 00:00:00') /* Light Weapons Warden of Forgetfulness (32411) */
+     , (0x75D48052, 0x75D48090, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48091, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48092, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48093, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48094, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x75D48052, 0x75D48095, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48096, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48097, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48098, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D48099, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4809A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4809B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4809C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D48052, 0x75D4809D, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D48053,   194, 0x5D48011F, 43.3589, -71.0054, 6.01, 0.4319188, 0, 0, -0.9019125,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -422,7 +422,7 @@ VALUES (0x75D4809E,  1542, 0x5D480176, 53.27073, -17.42159, 17.937, -0.809992, 0
 /* @teleloc 0x5D480176 [53.270730 -17.421590 17.937000] -0.809992 0.000000 0.000000 -0.586441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4809E, 0x75D4809F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x75D4809E, 0x75D4809F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4809F,  1955, 0x5D480176, 53.27073, -17.42159, 17.937, -0.809992, 0, 0, -0.5864409,  True, '2019-02-10 00:00:00'); /* Gateway */

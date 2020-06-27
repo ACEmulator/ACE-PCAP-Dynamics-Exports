@@ -5,14 +5,14 @@ VALUES (0x744B7001,  1154, 0x44B70029, 128.3169, 6.34272, 72.28875, 0.9238795, 0
 /* @teleloc 0x44B70029 [128.316900 6.342720 72.288750] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744B7001, 0x744B7002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x744B7001, 0x744B7003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x744B7001, 0x744B7004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x744B7001, 0x744B7005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x744B7001, 0x744B7006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x744B7001, 0x744B7007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x744B7001, 0x744B7008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x744B7001, 0x744B7009, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x744B7001, 0x744B7002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x744B7001, 0x744B7003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x744B7001, 0x744B7004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x744B7001, 0x744B7005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x744B7001, 0x744B7006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x744B7001, 0x744B7007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x744B7001, 0x744B7008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x744B7001, 0x744B7009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744B7002,   199, 0x44B70029, 128.3169, 6.34272, 72.28875, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */

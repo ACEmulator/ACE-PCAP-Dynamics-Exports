@@ -5,13 +5,13 @@ VALUES (0x790E4001,  1154, 0x90E40025, 103.5367, 98.54853, 64.33535, -0.72098, 0
 /* @teleloc 0x90E40025 [103.536700 98.548530 64.335350] -0.720980 0.000000 0.000000 -0.692956 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790E4001, 0x790E4002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x790E4001, 0x790E4003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x790E4001, 0x790E4004, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x790E4001, 0x790E4005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x790E4001, 0x790E4006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x790E4001, 0x790E4007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x790E4001, 0x790E4008, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x790E4001, 0x790E4002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x790E4001, 0x790E4003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x790E4001, 0x790E4004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x790E4001, 0x790E4005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x790E4001, 0x790E4006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x790E4001, 0x790E4007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x790E4001, 0x790E4008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790E4002,  7088, 0x90E40025, 103.5367, 98.54853, 64.33535, -0.72098, 0, 0, -0.6929559,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -46,8 +46,8 @@ VALUES (0x790E4009,  1542, 0x90E40036, 155.7574, 124.7174, 58.82667, 1, 0, 0, 0,
 /* @teleloc 0x90E40036 [155.757400 124.717400 58.826670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790E4009, 0x790E400A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x790E4009, 0x790E400B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x790E4009, 0x790E400A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x790E4009, 0x790E400B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790E400A, 22567, 0x90E40036, 155.7574, 124.7174, 58.82667, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

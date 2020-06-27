@@ -5,10 +5,10 @@ VALUES (0x74066001,  1154, 0x40660012, 52.70351, 36.6369, 38.96012, 0.9238795, 0
 /* @teleloc 0x40660012 [52.703510 36.636900 38.960120] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74066001, 0x74066002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74066001, 0x74066003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74066001, 0x74066004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74066001, 0x74066005, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x74066001, 0x74066002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74066001, 0x74066003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74066001, 0x74066004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74066001, 0x74066005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74066002,  7184, 0x40660012, 52.70351, 36.6369, 38.96012, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -31,7 +31,7 @@ VALUES (0x74066006,  1542, 0x4066001A, 82.98636, 46.26302, 35.67766, 0.9757906, 
 /* @teleloc 0x4066001A [82.986360 46.263020 35.677660] 0.975791 0.000000 0.000000 -0.218707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74066006, 0x74066007, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x74066006, 0x74066007, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74066007,  9288, 0x4066001A, 82.98636, 46.26302, 35.67766, 0.9757906, 0, 0, -0.2187067,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

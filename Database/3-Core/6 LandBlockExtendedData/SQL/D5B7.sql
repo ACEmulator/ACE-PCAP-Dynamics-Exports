@@ -5,13 +5,13 @@ VALUES (0x7D5B7001,  1154, 0xD5B70029, 133.3395, 21.46816, 30.29985, -0.8047894,
 /* @teleloc 0xD5B70029 [133.339500 21.468160 30.299850] -0.804789 0.000000 0.000000 -0.593561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5B7001, 0x7D5B7002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D5B7001, 0x7D5B7003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D5B7001, 0x7D5B7004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7D5B7001, 0x7D5B7005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D5B7001, 0x7D5B7006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D5B7001, 0x7D5B7007, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7D5B7001, 0x7D5B7008, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7D5B7001, 0x7D5B7002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D5B7001, 0x7D5B7003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D5B7001, 0x7D5B7004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7D5B7001, 0x7D5B7005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D5B7001, 0x7D5B7006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D5B7001, 0x7D5B7007, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7D5B7001, 0x7D5B7008, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5B7002,   213, 0xD5B70029, 133.3395, 21.46816, 30.29985, -0.8047894, 0, 0, -0.5935605,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */

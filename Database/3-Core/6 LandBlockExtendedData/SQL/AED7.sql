@@ -5,14 +5,14 @@ VALUES (0x7AED7001,  1154, 0xAED7002E, 122.7066, 127.3965, 27.7827, -0.8559203, 
 /* @teleloc 0xAED7002E [122.706600 127.396500 27.782700] -0.855920 0.000000 0.000000 -0.517108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED7001, 0x7AED7002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AED7001, 0x7AED7003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AED7001, 0x7AED7004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AED7001, 0x7AED7005, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7AED7001, 0x7AED7006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7AED7001, 0x7AED7007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AED7001, 0x7AED7008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AED7001, 0x7AED7009, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x7AED7001, 0x7AED7002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AED7001, 0x7AED7003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AED7001, 0x7AED7004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AED7001, 0x7AED7005, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7AED7001, 0x7AED7006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7AED7001, 0x7AED7007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AED7001, 0x7AED7008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AED7001, 0x7AED7009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED7002,  4217, 0xAED7002E, 122.7066, 127.3965, 27.7827, -0.8559203, 0, 0, -0.5171078,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -51,7 +51,7 @@ VALUES (0x7AED700A,  1542, 0xAED70003, 15.50914, 56.41535, 33.29872, -0.2386056,
 /* @teleloc 0xAED70003 [15.509140 56.415350 33.298720] -0.238606 0.000000 0.000000 -0.971117 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED700A, 0x7AED700B, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7AED700A, 0x7AED700B, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED700B,  8039, 0xAED70003, 15.50914, 56.41535, 33.29872, -0.2386056, 0, 0, -0.9711165,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

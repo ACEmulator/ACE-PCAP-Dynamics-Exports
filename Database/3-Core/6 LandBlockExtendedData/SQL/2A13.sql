@@ -5,15 +5,15 @@ VALUES (0x72A13001,  1154, 0x2A130021, 98.28603, 6.298599, 54.43185, 0.8807881, 
 /* @teleloc 0x2A130021 [98.286030 6.298599 54.431850] 0.880788 0.000000 0.000000 -0.473511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A13001, 0x72A13002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A13001, 0x72A13003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A13001, 0x72A13004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72A13001, 0x72A13005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A13001, 0x72A13006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A13001, 0x72A13007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A13001, 0x72A13008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A13001, 0x72A13009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A13001, 0x72A1300A, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x72A13001, 0x72A13002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A13001, 0x72A13003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A13001, 0x72A13004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72A13001, 0x72A13005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A13001, 0x72A13006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A13001, 0x72A13007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A13001, 0x72A13008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A13001, 0x72A13009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A13001, 0x72A1300A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A13002,  8431, 0x2A130021, 98.28603, 6.298599, 54.43185, 0.8807881, 0, 0, -0.4735106,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

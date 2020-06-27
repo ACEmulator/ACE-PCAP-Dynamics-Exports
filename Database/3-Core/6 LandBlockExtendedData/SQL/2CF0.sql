@@ -9,17 +9,17 @@ VALUES (0x72CF0001,  1154, 0x2CF00020, 72.4761, 172.1589, 6.267223, 0.5621395, 0
 /* @teleloc 0x2CF00020 [72.476100 172.158900 6.267223] 0.562140 0.000000 0.000000 -0.827043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CF0001, 0x72CF0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CF0001, 0x72CF0003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72CF0001, 0x72CF0004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CF0001, 0x72CF0005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CF0001, 0x72CF0006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72CF0001, 0x72CF0007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CF0001, 0x72CF0008, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CF0001, 0x72CF0009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CF0001, 0x72CF000A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CF0001, 0x72CF000B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CF0001, 0x72CF000C, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x72CF0001, 0x72CF0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CF0001, 0x72CF0003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72CF0001, 0x72CF0004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CF0001, 0x72CF0005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CF0001, 0x72CF0006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72CF0001, 0x72CF0007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CF0001, 0x72CF0008, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CF0001, 0x72CF0009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CF0001, 0x72CF000A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CF0001, 0x72CF000B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CF0001, 0x72CF000C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CF0002, 28551, 0x2CF00020, 72.4761, 172.1589, 6.267223, 0.5621395, 0, 0, -0.8270425,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

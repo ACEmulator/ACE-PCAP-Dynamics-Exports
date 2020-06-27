@@ -5,13 +5,13 @@ VALUES (0x7B848001,  1154, 0xB8480027, 105.5833, 145.5905, 24.0121, -4.371139E-0
 /* @teleloc 0xB8480027 [105.583300 145.590500 24.012100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B848001, 0x7B848002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B848001, 0x7B848003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B848001, 0x7B848004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B848001, 0x7B848005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B848001, 0x7B848006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B848001, 0x7B848007, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7B848001, 0x7B848008, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7B848001, 0x7B848002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B848001, 0x7B848003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B848001, 0x7B848004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B848001, 0x7B848005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B848001, 0x7B848006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B848001, 0x7B848007, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7B848001, 0x7B848008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B848002,   235, 0xB8480027, 105.5833, 145.5905, 24.0121, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

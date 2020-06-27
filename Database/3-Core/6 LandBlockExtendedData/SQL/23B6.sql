@@ -9,11 +9,11 @@ VALUES (0x723B6017,  1154, 0x23B60002, 20.45914, 27.62508, 20, -0.9775836, 0, 0,
 /* @teleloc 0x23B60002 [20.459140 27.625080 20.000000] -0.977584 0.000000 0.000000 -0.210548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723B6017, 0x723B6018, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x723B6017, 0x723B6019, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x723B6017, 0x723B601A, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x723B6017, 0x723B601B, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x723B6017, 0x723B601C, '2019-02-10 00:00:00') /* Carenzi Burrower */;
+VALUES (0x723B6017, 0x723B6018, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x723B6017, 0x723B6019, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x723B6017, 0x723B601A, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x723B6017, 0x723B601B, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x723B6017, 0x723B601C, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723B6018, 22010, 0x23B60002, 20.45914, 27.62508, 20, -0.9775836, 0, 0, -0.2105477,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -40,15 +40,15 @@ VALUES (0x723B601D,  1154, 0x23B60127, 23.7928, 57.6883, -3.195, -0.8931047, 0, 
 /* @teleloc 0x23B60127 [23.792800 57.688300 -3.195000] -0.893105 0.000000 0.000000 -0.449849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723B601D, 0x723B601E, '2019-02-10 00:00:00') /* Daniel */
-     , (0x723B601D, 0x723B601F, '2019-02-10 00:00:00') /* Gromnie */
-     , (0x723B601D, 0x723B6020, '2019-02-10 00:00:00') /* Arica */
-     , (0x723B601D, 0x723B6021, '2019-02-10 00:00:00') /* Antonia */
-     , (0x723B601D, 0x723B6022, '2019-02-10 00:00:00') /* Count Tenera */
-     , (0x723B601D, 0x723B6023, '2019-02-10 00:00:00') /* Matthias Eckhart */
-     , (0x723B601D, 0x723B6024, '2019-02-10 00:00:00') /* Robert Gutsmasher */
-     , (0x723B601D, 0x723B6025, '2019-02-10 00:00:00') /* Dar Rell */
-     , (0x723B601D, 0x723B6026, '2019-02-10 00:00:00') /* Jedeth Eckhart */;
+VALUES (0x723B601D, 0x723B601E, '2019-02-10 00:00:00') /* Daniel (31952) */
+     , (0x723B601D, 0x723B601F, '2019-02-10 00:00:00') /* Gromnie (31953) */
+     , (0x723B601D, 0x723B6020, '2019-02-10 00:00:00') /* Arica (31951) */
+     , (0x723B601D, 0x723B6021, '2019-02-10 00:00:00') /* Antonia (31950) */
+     , (0x723B601D, 0x723B6022, '2019-02-10 00:00:00') /* Count Tenera (31949) */
+     , (0x723B601D, 0x723B6023, '2019-02-10 00:00:00') /* Matthias Eckhart (31954) */
+     , (0x723B601D, 0x723B6024, '2019-02-10 00:00:00') /* Robert Gutsmasher (32110) */
+     , (0x723B601D, 0x723B6025, '2019-02-10 00:00:00') /* Dar Rell (31941) */
+     , (0x723B601D, 0x723B6026, '2019-02-10 00:00:00') /* Jedeth Eckhart (31940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723B601E, 31952, 0x23B60127, 23.7928, 57.6883, -3.195, -0.8931047, 0, 0, -0.4498489,  True, '2019-02-10 00:00:00'); /* Daniel */
@@ -91,7 +91,7 @@ VALUES (0x723B6027,  1542, 0x23B60003, 7.931862, 52.51647, 20.15, -0.9775836, 0,
 /* @teleloc 0x23B60003 [7.931862 52.516470 20.150000] -0.977584 0.000000 0.000000 -0.210548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723B6027, 0x723B6028, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x723B6027, 0x723B6028, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723B6028, 11568, 0x23B60003, 7.931862, 52.51647, 20.15, -0.9775836, 0, 0, -0.2105477,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker Camp Generator */

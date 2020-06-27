@@ -5,13 +5,13 @@ VALUES (0x7F65F001,  1154, 0xF65F003A, 176.3495, 27.51171, -0.8899999, -0.242790
 /* @teleloc 0xF65F003A [176.349500 27.511710 -0.890000] -0.242791 0.000000 0.000000 -0.970079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F65F001, 0x7F65F002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F65F001, 0x7F65F003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F65F001, 0x7F65F004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F65F001, 0x7F65F005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F65F001, 0x7F65F006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F65F001, 0x7F65F007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F65F001, 0x7F65F008, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7F65F001, 0x7F65F002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F65F001, 0x7F65F003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F65F001, 0x7F65F004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F65F001, 0x7F65F005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F65F001, 0x7F65F006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F65F001, 0x7F65F007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F65F001, 0x7F65F008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F65F002, 11531, 0xF65F003A, 176.3495, 27.51171, -0.8899999, -0.2427908, 0, 0, -0.9700786,  True, '2019-02-10 00:00:00'); /* Sand Golem */

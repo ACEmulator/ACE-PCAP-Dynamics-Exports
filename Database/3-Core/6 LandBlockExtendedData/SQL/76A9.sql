@@ -5,14 +5,14 @@ VALUES (0x776A9001,  1154, 0x76A90023, 107.4062, 60.34177, 96.94452, 0.8870109, 
 /* @teleloc 0x76A90023 [107.406200 60.341770 96.944520] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776A9001, 0x776A9002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x776A9001, 0x776A9003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x776A9001, 0x776A9004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x776A9001, 0x776A9005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x776A9001, 0x776A9006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x776A9001, 0x776A9007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x776A9001, 0x776A9008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x776A9001, 0x776A9009, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x776A9001, 0x776A9002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x776A9001, 0x776A9003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x776A9001, 0x776A9004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x776A9001, 0x776A9005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x776A9001, 0x776A9006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x776A9001, 0x776A9007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x776A9001, 0x776A9008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x776A9001, 0x776A9009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776A9002,  7129, 0x76A90023, 107.4062, 60.34177, 96.94452, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */

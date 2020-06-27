@@ -5,19 +5,19 @@ VALUES (0x73C56001,  1154, 0x3C56000A, 42.2605, 25.93155, 36.98558, 0.7372774, 0
 /* @teleloc 0x3C56000A [42.260500 25.931550 36.985580] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C56001, 0x73C56002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C56001, 0x73C56003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73C56001, 0x73C56004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73C56001, 0x73C56005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73C56001, 0x73C56006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73C56001, 0x73C56007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73C56001, 0x73C56008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73C56001, 0x73C56009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73C56001, 0x73C5600A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73C56001, 0x73C5600B, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73C56001, 0x73C5600C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C56001, 0x73C5600D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73C56001, 0x73C5600E, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73C56001, 0x73C56002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C56001, 0x73C56003, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73C56001, 0x73C56004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73C56001, 0x73C56005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73C56001, 0x73C56006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73C56001, 0x73C56007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73C56001, 0x73C56008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73C56001, 0x73C56009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73C56001, 0x73C5600A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73C56001, 0x73C5600B, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73C56001, 0x73C5600C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C56001, 0x73C5600D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73C56001, 0x73C5600E, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C56002,  9264, 0x3C56000A, 42.2605, 25.93155, 36.98558, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -76,7 +76,7 @@ VALUES (0x73C5600F,  1542, 0x3C560012, 61.43005, 44.61259, 38.17534, 1, 0, 0, 0,
 /* @teleloc 0x3C560012 [61.430050 44.612590 38.175340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C5600F, 0x73C56010, '2019-02-10 00:00:00') /* Portal to Arwic */;
+VALUES (0x73C5600F, 0x73C56010, '2019-02-10 00:00:00') /* Portal to Arwic (42819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C56010, 42819, 0x3C560012, 61.43005, 44.61259, 38.17534, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Arwic */

@@ -5,8 +5,8 @@ VALUES (0x7BF75001,  1154, 0xBF750028, 99.17261, 169.0771, 7.826372, -0.9398327,
 /* @teleloc 0xBF750028 [99.172610 169.077100 7.826372] -0.939833 0.000000 0.000000 -0.341635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF75001, 0x7BF75002, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BF75001, 0x7BF75003, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7BF75001, 0x7BF75002, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BF75001, 0x7BF75003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF75002,  2578, 0xBF750028, 99.17261, 169.0771, 7.826372, -0.9398327, 0, 0, -0.3416351,  True, '2019-02-10 00:00:00'); /* Shallows Lurker */

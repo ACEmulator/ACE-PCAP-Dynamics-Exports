@@ -5,38 +5,38 @@ VALUES (0x7DD82001,  1154, 0xDD82002E, 132.4451, 139.2837, 2.0025, 0.7071068, 0,
 /* @teleloc 0xDD82002E [132.445100 139.283700 2.002500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD82001, 0x7DD82002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DD82001, 0x7DD82003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7DD82001, 0x7DD82004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DD82001, 0x7DD82005, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7DD82001, 0x7DD82006, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7DD82001, 0x7DD82007, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7DD82001, 0x7DD82008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD82009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD8200F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DD82001, 0x7DD82010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DD82001, 0x7DD82011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DD82001, 0x7DD82012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7DD82001, 0x7DD82013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7DD82001, 0x7DD82014, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DD82001, 0x7DD82015, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7DD82001, 0x7DD82016, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7DD82001, 0x7DD82017, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DD82001, 0x7DD82018, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DD82001, 0x7DD82019, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DD82001, 0x7DD8201A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7DD82001, 0x7DD8201B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7DD82001, 0x7DD8201C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7DD82001, 0x7DD8201D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7DD82001, 0x7DD8201E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7DD82001, 0x7DD8201F, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DD82001, 0x7DD82020, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7DD82001, 0x7DD82021, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7DD82001, 0x7DD82002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DD82001, 0x7DD82003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7DD82001, 0x7DD82004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DD82001, 0x7DD82005, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7DD82001, 0x7DD82006, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7DD82001, 0x7DD82007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7DD82001, 0x7DD82008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD82009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD8200F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DD82001, 0x7DD82010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7DD82001, 0x7DD82011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DD82001, 0x7DD82012, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7DD82001, 0x7DD82013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7DD82001, 0x7DD82014, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DD82001, 0x7DD82015, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7DD82001, 0x7DD82016, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7DD82001, 0x7DD82017, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DD82001, 0x7DD82018, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DD82001, 0x7DD82019, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DD82001, 0x7DD8201A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7DD82001, 0x7DD8201B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7DD82001, 0x7DD8201C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7DD82001, 0x7DD8201D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7DD82001, 0x7DD8201E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7DD82001, 0x7DD8201F, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DD82001, 0x7DD82020, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7DD82001, 0x7DD82021, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD82002,  1761, 0xDD82002E, 132.4451, 139.2837, 2.0025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -171,7 +171,7 @@ VALUES (0x7DD82022,  1542, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0,
 /* @teleloc 0xDD82002E [134.835200 126.814500 1.997839] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD82022, 0x7DD82023, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7DD82022, 0x7DD82023, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD82023, 31443, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

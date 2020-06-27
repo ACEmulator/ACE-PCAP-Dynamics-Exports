@@ -5,22 +5,22 @@ VALUES (0x73D36001,  1154, 0x3D360015, 62.42309, 110.1014, -0.4499986, -0.999873
 /* @teleloc 0x3D360015 [62.423090 110.101400 -0.449999] -0.999873 0.000000 0.000000 -0.015912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D36001, 0x73D36002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x73D36001, 0x73D36003, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73D36001, 0x73D36004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D36001, 0x73D36005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73D36001, 0x73D36006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73D36001, 0x73D36007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73D36001, 0x73D36008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73D36001, 0x73D36009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73D36001, 0x73D3600A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x73D36001, 0x73D3600B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D36001, 0x73D3600C, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73D36001, 0x73D3600D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73D36001, 0x73D3600E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73D36001, 0x73D3600F, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x73D36001, 0x73D36010, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x73D36001, 0x73D36011, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x73D36001, 0x73D36002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x73D36001, 0x73D36003, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73D36001, 0x73D36004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D36001, 0x73D36005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73D36001, 0x73D36006, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73D36001, 0x73D36007, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73D36001, 0x73D36008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73D36001, 0x73D36009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73D36001, 0x73D3600A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x73D36001, 0x73D3600B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D36001, 0x73D3600C, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73D36001, 0x73D3600D, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73D36001, 0x73D3600E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73D36001, 0x73D3600F, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73D36001, 0x73D36010, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73D36001, 0x73D36011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D36002, 11535, 0x3D360015, 62.42309, 110.1014, -0.4499986, -0.9998734, 0, 0, -0.01591177,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -91,8 +91,8 @@ VALUES (0x73D36012,  1542, 0x3D360015, 65.49612, 101.3471, -0.09999999, 1, 0, 0,
 /* @teleloc 0x3D360015 [65.496120 101.347100 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D36012, 0x73D36013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73D36012, 0x73D36014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73D36012, 0x73D36013, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x73D36012, 0x73D36014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D36013, 22566, 0x3D360015, 65.49612, 101.3471, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

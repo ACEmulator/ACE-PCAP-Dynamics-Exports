@@ -5,12 +5,12 @@ VALUES (0x70976001,  1154, 0x09760040, 185.9394, 184.3008, 4.285293, -0.668347, 
 /* @teleloc 0x09760040 [185.939400 184.300800 4.285293] -0.668347 0.000000 0.000000 -0.743850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70976001, 0x70976002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x70976001, 0x70976003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70976001, 0x70976004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x70976001, 0x70976005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70976001, 0x70976006, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70976001, 0x70976007, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x70976001, 0x70976002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x70976001, 0x70976003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70976001, 0x70976004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x70976001, 0x70976005, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70976001, 0x70976006, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70976001, 0x70976007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70976002, 41004, 0x09760040, 185.9394, 184.3008, 4.285293, -0.668347, 0, 0, -0.7438496,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

@@ -5,14 +5,14 @@ VALUES (0x718C5001,  1154, 0x18C5002B, 136.3286, 59.17966, 20.029, 0.7507153, 0,
 /* @teleloc 0x18C5002B [136.328600 59.179660 20.029000] 0.750715 0.000000 0.000000 -0.660626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718C5001, 0x718C5002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x718C5001, 0x718C5003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x718C5001, 0x718C5004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x718C5001, 0x718C5005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x718C5001, 0x718C5006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x718C5001, 0x718C5007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x718C5001, 0x718C5008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x718C5001, 0x718C5009, '2019-02-10 00:00:00') /* Viamontian Warcaster */;
+VALUES (0x718C5001, 0x718C5002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x718C5001, 0x718C5003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x718C5001, 0x718C5004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x718C5001, 0x718C5005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x718C5001, 0x718C5006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x718C5001, 0x718C5007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x718C5001, 0x718C5008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x718C5001, 0x718C5009, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718C5002,  7340, 0x18C5002B, 136.3286, 59.17966, 20.029, 0.7507153, 0, 0, -0.6606258,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

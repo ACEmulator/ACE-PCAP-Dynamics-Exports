@@ -5,12 +5,12 @@ VALUES (0x75CCA001,  1154, 0x5CCA0029, 127.8171, 8.340881, 159.9639, 0.6861737, 
 /* @teleloc 0x5CCA0029 [127.817100 8.340881 159.963900] 0.686174 0.000000 0.000000 -0.727438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CCA001, 0x75CCA002, '2019-02-10 00:00:00') /* Gelid */
-     , (0x75CCA001, 0x75CCA003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75CCA001, 0x75CCA004, '2019-02-10 00:00:00') /* Frost */
-     , (0x75CCA001, 0x75CCA005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75CCA001, 0x75CCA006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75CCA001, 0x75CCA007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x75CCA001, 0x75CCA002, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x75CCA001, 0x75CCA003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75CCA001, 0x75CCA004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x75CCA001, 0x75CCA005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75CCA001, 0x75CCA006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75CCA001, 0x75CCA007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CCA002, 20190, 0x5CCA0029, 127.8171, 8.340881, 159.9639, 0.6861737, 0, 0, -0.7274378,  True, '2019-02-10 00:00:00'); /* Gelid */

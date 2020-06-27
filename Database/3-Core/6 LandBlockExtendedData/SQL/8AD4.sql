@@ -5,14 +5,14 @@ VALUES (0x78AD4001,  1154, 0x8AD4002A, 135.7061, 43.32688, 308.6177, -0.03788606
 /* @teleloc 0x8AD4002A [135.706100 43.326880 308.617700] -0.037886 0.000000 0.000000 -0.999282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AD4001, 0x78AD4002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78AD4001, 0x78AD4003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78AD4001, 0x78AD4004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x78AD4001, 0x78AD4005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78AD4001, 0x78AD4006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78AD4001, 0x78AD4007, '2019-02-10 00:00:00') /* Frost */
-     , (0x78AD4001, 0x78AD4008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78AD4001, 0x78AD4009, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x78AD4001, 0x78AD4002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78AD4001, 0x78AD4003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78AD4001, 0x78AD4004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x78AD4001, 0x78AD4005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78AD4001, 0x78AD4006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78AD4001, 0x78AD4007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78AD4001, 0x78AD4008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78AD4001, 0x78AD4009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AD4002,     3, 0x8AD4002A, 135.7061, 43.32688, 308.6177, -0.03788606, 0, 0, -0.9992821,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

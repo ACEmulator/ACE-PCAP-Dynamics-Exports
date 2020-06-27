@@ -5,11 +5,11 @@ VALUES (0x75AC9001,  1154, 0x5AC9003C, 182.1404, 75.82529, 145.4418, 0.9303981, 
 /* @teleloc 0x5AC9003C [182.140400 75.825290 145.441800] 0.930398 0.000000 0.000000 -0.366551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AC9001, 0x75AC9002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75AC9001, 0x75AC9003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75AC9001, 0x75AC9004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x75AC9001, 0x75AC9005, '2019-02-10 00:00:00') /* Frost */
-     , (0x75AC9001, 0x75AC9006, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x75AC9001, 0x75AC9002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75AC9001, 0x75AC9003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75AC9001, 0x75AC9004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x75AC9001, 0x75AC9005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x75AC9001, 0x75AC9006, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AC9002,  7081, 0x5AC9003C, 182.1404, 75.82529, 145.4418, 0.9303981, 0, 0, -0.3665506,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

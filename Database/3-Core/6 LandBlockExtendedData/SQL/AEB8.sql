@@ -13,21 +13,21 @@ VALUES (0x7AEB8002,  1154, 0xAEB80102, 12.7284, 79.7583, 96.00715, -0.752688, 0,
 /* @teleloc 0xAEB80102 [12.728400 79.758300 96.007150] -0.752688 0.000000 0.000000 -0.658377 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB8002, 0x7AEB8003, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x7AEB8002, 0x7AEB8004, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7AEB8002, 0x7AEB8005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AEB8002, 0x7AEB8006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEB8002, 0x7AEB8007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB8002, 0x7AEB8008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB8002, 0x7AEB8009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEB8002, 0x7AEB800A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB8002, 0x7AEB800B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AEB8002, 0x7AEB800C, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AEB8002, 0x7AEB800D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AEB8002, 0x7AEB800E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEB8002, 0x7AEB800F, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AEB8002, 0x7AEB8010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEB8002, 0x7AEB8011, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7AEB8002, 0x7AEB8003, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x7AEB8002, 0x7AEB8004, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7AEB8002, 0x7AEB8005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AEB8002, 0x7AEB8006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEB8002, 0x7AEB8007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB8002, 0x7AEB8008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB8002, 0x7AEB8009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEB8002, 0x7AEB800A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB8002, 0x7AEB800B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AEB8002, 0x7AEB800C, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AEB8002, 0x7AEB800D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AEB8002, 0x7AEB800E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEB8002, 0x7AEB800F, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AEB8002, 0x7AEB8010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEB8002, 0x7AEB8011, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB8003,  7087, 0xAEB80102, 12.7284, 79.7583, 96.00715, -0.752688, 0, 0, -0.658377,  True, '2019-02-10 00:00:00'); /* Banderling Ogre */
@@ -94,17 +94,17 @@ VALUES (0x7AEB8012,  1542, 0xAEB80104, 14.21532, 79.89211, 99.05099, -0.627878, 
 /* @teleloc 0xAEB80104 [14.215320 79.892110 99.050990] -0.627878 0.000000 0.000000 -0.778311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB8012, 0x7AEB8013, '2019-02-10 00:00:00') /* Jambiya */
-     , (0x7AEB8012, 0x7AEB8014, '2019-02-10 00:00:00') /* Knife */
-     , (0x7AEB8012, 0x7AEB8015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AEB8012, 0x7AEB8016, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB8017, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB8018, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB8019, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB801A, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB801B, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB801C, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7AEB8012, 0x7AEB801D, '2019-02-10 00:00:00') /* Cabbage */;
+VALUES (0x7AEB8012, 0x7AEB8013, '2019-02-10 00:00:00') /* Jambiya (319) */
+     , (0x7AEB8012, 0x7AEB8014, '2019-02-10 00:00:00') /* Knife (329) */
+     , (0x7AEB8012, 0x7AEB8015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AEB8012, 0x7AEB8016, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB8017, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB8018, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB8019, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB801A, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB801B, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB801C, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7AEB8012, 0x7AEB801D, '2019-02-10 00:00:00') /* Cabbage (260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB8013,   319, 0xAEB80104, 14.21532, 79.89211, 99.05099, -0.627878, 0, 0, -0.778311,  True, '2019-02-10 00:00:00'); /* Jambiya */

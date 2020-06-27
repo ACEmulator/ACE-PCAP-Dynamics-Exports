@@ -5,18 +5,18 @@ VALUES (0x796DE001,  1154, 0x96DE0029, 136.8972, 17.13704, 170.3356, 0.7071068, 
 /* @teleloc 0x96DE0029 [136.897200 17.137040 170.335600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DE001, 0x796DE002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796DE001, 0x796DE003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796DE001, 0x796DE004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DE001, 0x796DE005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DE001, 0x796DE006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DE001, 0x796DE007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796DE001, 0x796DE008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796DE001, 0x796DE009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DE001, 0x796DE00A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DE001, 0x796DE00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x796DE001, 0x796DE00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DE001, 0x796DE00D, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x796DE001, 0x796DE002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796DE001, 0x796DE003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796DE001, 0x796DE004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DE001, 0x796DE005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DE001, 0x796DE006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DE001, 0x796DE007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796DE001, 0x796DE008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796DE001, 0x796DE009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DE001, 0x796DE00A, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x796DE001, 0x796DE00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x796DE001, 0x796DE00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DE001, 0x796DE00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DE002, 24293, 0x96DE0029, 136.8972, 17.13704, 170.3356, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -71,10 +71,10 @@ VALUES (0x796DE00E,  1542, 0x96DE0029, 138.6772, 18.84924, 170.3356, -4.371139E-
 /* @teleloc 0x96DE0029 [138.677200 18.849240 170.335600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DE00E, 0x796DE00F, '2019-02-10 00:00:00') /* Bones */
-     , (0x796DE00E, 0x796DE010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796DE00E, 0x796DE011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796DE00E, 0x796DE012, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x796DE00E, 0x796DE00F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x796DE00E, 0x796DE010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DE00E, 0x796DE011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DE00E, 0x796DE012, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DE00F,  4380, 0x96DE0029, 138.6772, 18.84924, 170.3356, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

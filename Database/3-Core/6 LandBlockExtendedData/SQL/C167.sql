@@ -5,28 +5,28 @@ VALUES (0x7C167001,  1154, 0xC1670017, 61.40033, 163.8443, 75.12495, -0.7228621,
 /* @teleloc 0xC1670017 [61.400330 163.844300 75.124950] -0.722862 0.000000 0.000000 -0.690992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C167001, 0x7C167002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C167001, 0x7C167003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C167001, 0x7C167004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7C167001, 0x7C167005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C167001, 0x7C167006, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7C167001, 0x7C167007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C167001, 0x7C167008, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C167009, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C167001, 0x7C16700A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C16700B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C167001, 0x7C16700C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C16700D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C16700E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C167001, 0x7C16700F, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C167001, 0x7C167010, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C167001, 0x7C167011, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C167001, 0x7C167012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C167001, 0x7C167013, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C167001, 0x7C167014, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C167015, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C167001, 0x7C167016, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C167001, 0x7C167017, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C167001, 0x7C167002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C167001, 0x7C167003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C167001, 0x7C167004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7C167001, 0x7C167005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C167001, 0x7C167006, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7C167001, 0x7C167007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C167001, 0x7C167008, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C167009, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C167001, 0x7C16700A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C16700B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C167001, 0x7C16700C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C16700D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C16700E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C167001, 0x7C16700F, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C167001, 0x7C167010, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C167001, 0x7C167011, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C167001, 0x7C167012, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C167001, 0x7C167013, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C167001, 0x7C167014, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C167015, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C167001, 0x7C167016, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C167001, 0x7C167017, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C167002,  8673, 0xC1670017, 61.40033, 163.8443, 75.12495, -0.7228621, 0, 0, -0.6909923,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -121,7 +121,7 @@ VALUES (0x7C167018,  1542, 0xC167002C, 122.0053, 79.60939, 71.99784, 1, 0, 0, 0,
 /* @teleloc 0xC167002C [122.005300 79.609390 71.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C167018, 0x7C167019, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C167018, 0x7C167019, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C167019, 31443, 0xC167002C, 122.0053, 79.60939, 71.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

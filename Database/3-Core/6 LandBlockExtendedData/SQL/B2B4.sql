@@ -5,11 +5,11 @@ VALUES (0x7B2B4001,  1154, 0xB2B40005, 3.920553, 102.1277, 105.8216, -4.371139E-
 /* @teleloc 0xB2B40005 [3.920553 102.127700 105.821600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2B4001, 0x7B2B4002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B2B4001, 0x7B2B4003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B2B4001, 0x7B2B4004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B2B4001, 0x7B2B4005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2B4001, 0x7B2B4006, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B2B4001, 0x7B2B4002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B2B4001, 0x7B2B4003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B2B4001, 0x7B2B4004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B2B4001, 0x7B2B4005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2B4001, 0x7B2B4006, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2B4002,   211, 0xB2B40005, 3.920553, 102.1277, 105.8216, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

@@ -5,8 +5,8 @@ VALUES (0x73757001,  1154, 0x3757001E, 82.88809, 131.4507, 38.91384, 0.7458997, 
 /* @teleloc 0x3757001E [82.888090 131.450700 38.913840] 0.745900 0.000000 0.000000 -0.666058 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73757001, 0x73757002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73757001, 0x73757003, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x73757001, 0x73757002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73757001, 0x73757003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73757002, 10807, 0x3757001E, 82.88809, 131.4507, 38.91384, 0.7458997, 0, 0, -0.6660582,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

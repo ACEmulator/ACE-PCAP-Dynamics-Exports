@@ -5,10 +5,10 @@ VALUES (0x749B0001,  1154, 0x49B00027, 109.6467, 146.2561, 73.37466, -0.5957583,
 /* @teleloc 0x49B00027 [109.646700 146.256100 73.374660] -0.595758 0.000000 0.000000 -0.803164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B0001, 0x749B0002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x749B0001, 0x749B0003, '2019-02-10 00:00:00') /* Frost */
-     , (0x749B0001, 0x749B0004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x749B0001, 0x749B0005, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x749B0001, 0x749B0002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x749B0001, 0x749B0003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x749B0001, 0x749B0004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x749B0001, 0x749B0005, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B0002, 38177, 0x49B00027, 109.6467, 146.2561, 73.37466, -0.5957583, 0, 0, -0.8031638,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

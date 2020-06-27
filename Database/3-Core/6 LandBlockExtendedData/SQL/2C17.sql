@@ -5,21 +5,21 @@ VALUES (0x72C17001,  1154, 0x2C170036, 157.9154, 120.5471, 14.0065, -0.03104728,
 /* @teleloc 0x2C170036 [157.915400 120.547100 14.006500] -0.031047 0.000000 0.000000 -0.999518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C17001, 0x72C17002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72C17001, 0x72C17003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72C17001, 0x72C17004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72C17001, 0x72C17005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72C17001, 0x72C17006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72C17001, 0x72C17007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C17001, 0x72C17008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72C17001, 0x72C17009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72C17001, 0x72C1700A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C17001, 0x72C1700B, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72C17001, 0x72C1700C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C17001, 0x72C1700D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72C17001, 0x72C1700E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72C17001, 0x72C1700F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72C17001, 0x72C17010, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x72C17001, 0x72C17002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72C17001, 0x72C17003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72C17001, 0x72C17004, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x72C17001, 0x72C17005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72C17001, 0x72C17006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72C17001, 0x72C17007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C17001, 0x72C17008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72C17001, 0x72C17009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72C17001, 0x72C1700A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C17001, 0x72C1700B, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72C17001, 0x72C1700C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C17001, 0x72C1700D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72C17001, 0x72C1700E, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72C17001, 0x72C1700F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72C17001, 0x72C17010, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C17002, 22909, 0x2C170036, 157.9154, 120.5471, 14.0065, -0.03104728, 0, 0, -0.9995179,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -86,7 +86,7 @@ VALUES (0x72C17011,  1542, 0x2C170005, 23.66405, 117.549, 55.99784, 1, 0, 0, 0, 
 /* @teleloc 0x2C170005 [23.664050 117.549000 55.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C17011, 0x72C17012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72C17011, 0x72C17012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C17012, 31445, 0x2C170005, 23.66405, 117.549, 55.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

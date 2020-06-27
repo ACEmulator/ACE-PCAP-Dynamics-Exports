@@ -5,14 +5,14 @@ VALUES (0x73919001,  1154, 0x39190019, 94.69791, 15.10454, 50.33202, 0.5141878, 
 /* @teleloc 0x39190019 [94.697910 15.104540 50.332020] 0.514188 0.000000 0.000000 -0.857678 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73919001, 0x73919002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73919001, 0x73919003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73919001, 0x73919004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73919001, 0x73919005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73919001, 0x73919006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73919001, 0x73919007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73919001, 0x73919008, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73919001, 0x73919009, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x73919001, 0x73919002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73919001, 0x73919003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73919001, 0x73919004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73919001, 0x73919005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73919001, 0x73919006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73919001, 0x73919007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73919001, 0x73919008, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73919001, 0x73919009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73919002, 22910, 0x39190019, 94.69791, 15.10454, 50.33202, 0.5141878, 0, 0, -0.8576776,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

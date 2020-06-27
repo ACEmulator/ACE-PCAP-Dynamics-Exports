@@ -5,30 +5,30 @@ VALUES (0x77FEF001,  1154, 0x7FEF0014, 56.13179, 89.04566, 132.2022, 0.8191521, 
 /* @teleloc 0x7FEF0014 [56.131790 89.045660 132.202200] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FEF001, 0x77FEF002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77FEF001, 0x77FEF003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77FEF001, 0x77FEF004, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x77FEF001, 0x77FEF005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FEF001, 0x77FEF006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77FEF001, 0x77FEF007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77FEF001, 0x77FEF008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77FEF001, 0x77FEF009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEF001, 0x77FEF00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEF001, 0x77FEF00B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77FEF001, 0x77FEF00C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77FEF001, 0x77FEF00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77FEF001, 0x77FEF00E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77FEF001, 0x77FEF00F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FEF001, 0x77FEF010, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x77FEF001, 0x77FEF011, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77FEF001, 0x77FEF012, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77FEF001, 0x77FEF013, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77FEF001, 0x77FEF014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEF001, 0x77FEF015, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FEF001, 0x77FEF016, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FEF001, 0x77FEF017, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77FEF001, 0x77FEF018, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77FEF001, 0x77FEF019, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x77FEF001, 0x77FEF002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77FEF001, 0x77FEF003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77FEF001, 0x77FEF004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x77FEF001, 0x77FEF005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FEF001, 0x77FEF006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77FEF001, 0x77FEF007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77FEF001, 0x77FEF008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77FEF001, 0x77FEF009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEF001, 0x77FEF00A, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEF001, 0x77FEF00B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77FEF001, 0x77FEF00C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77FEF001, 0x77FEF00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77FEF001, 0x77FEF00E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77FEF001, 0x77FEF00F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FEF001, 0x77FEF010, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x77FEF001, 0x77FEF011, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77FEF001, 0x77FEF012, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77FEF001, 0x77FEF013, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77FEF001, 0x77FEF014, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEF001, 0x77FEF015, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FEF001, 0x77FEF016, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FEF001, 0x77FEF017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77FEF001, 0x77FEF018, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77FEF001, 0x77FEF019, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FEF002, 23566, 0x7FEF0014, 56.13179, 89.04566, 132.2022, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -131,10 +131,10 @@ VALUES (0x77FEF01A,  1542, 0x7FEF0012, 52.28283, 47.52073, 126.277, -0.7918329, 
 /* @teleloc 0x7FEF0012 [52.282830 47.520730 126.277000] -0.791833 0.000000 0.000000 -0.610738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FEF01A, 0x77FEF01B, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x77FEF01A, 0x77FEF01C, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x77FEF01A, 0x77FEF01D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77FEF01A, 0x77FEF01E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77FEF01A, 0x77FEF01B, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x77FEF01A, 0x77FEF01C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x77FEF01A, 0x77FEF01D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x77FEF01A, 0x77FEF01E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FEF01B, 11555, 0x7FEF0012, 52.28283, 47.52073, 126.277, -0.7918329, 0, 0, -0.6107379,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

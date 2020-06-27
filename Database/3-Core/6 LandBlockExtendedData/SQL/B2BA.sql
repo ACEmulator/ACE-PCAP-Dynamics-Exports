@@ -5,18 +5,18 @@ VALUES (0x7B2BA001,  1154, 0xB2BA0017, 53.51381, 159.0699, 132.1848, 0.8836502, 
 /* @teleloc 0xB2BA0017 [53.513810 159.069900 132.184800] 0.883650 0.000000 0.000000 -0.468148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2BA001, 0x7B2BA002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7B2BA001, 0x7B2BA003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B2BA001, 0x7B2BA004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B2BA001, 0x7B2BA005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B2BA001, 0x7B2BA006, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7B2BA001, 0x7B2BA007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B2BA001, 0x7B2BA008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B2BA001, 0x7B2BA009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B2BA001, 0x7B2BA00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B2BA001, 0x7B2BA00B, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B2BA001, 0x7B2BA00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B2BA001, 0x7B2BA00D, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7B2BA001, 0x7B2BA002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7B2BA001, 0x7B2BA003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B2BA001, 0x7B2BA004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B2BA001, 0x7B2BA005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B2BA001, 0x7B2BA006, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7B2BA001, 0x7B2BA007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B2BA001, 0x7B2BA008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B2BA001, 0x7B2BA009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B2BA001, 0x7B2BA00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B2BA001, 0x7B2BA00B, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B2BA001, 0x7B2BA00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B2BA001, 0x7B2BA00D, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2BA002, 14521, 0xB2BA0017, 53.51381, 159.0699, 132.1848, 0.8836502, 0, 0, -0.4681478,  True, '2019-02-10 00:00:00'); /* Glacial Golem */

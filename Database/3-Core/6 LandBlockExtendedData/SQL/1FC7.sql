@@ -5,23 +5,23 @@ VALUES (0x71FC7001,  1154, 0x1FC7003A, 174.3855, 31.91446, 41.47048, -0.6800475,
 /* @teleloc 0x1FC7003A [174.385500 31.914460 41.470480] -0.680048 0.000000 0.000000 -0.733168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC7001, 0x71FC7002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC7001, 0x71FC7003, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC7001, 0x71FC7004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC7001, 0x71FC7005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC7001, 0x71FC7006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71FC7001, 0x71FC7007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71FC7001, 0x71FC7008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71FC7001, 0x71FC7009, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71FC7001, 0x71FC700A, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71FC7001, 0x71FC700B, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC7001, 0x71FC700C, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC7001, 0x71FC700D, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71FC7001, 0x71FC700E, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC7001, 0x71FC700F, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC7001, 0x71FC7010, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC7001, 0x71FC7011, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x71FC7001, 0x71FC7012, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x71FC7001, 0x71FC7002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC7001, 0x71FC7003, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC7001, 0x71FC7004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC7001, 0x71FC7005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC7001, 0x71FC7006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71FC7001, 0x71FC7007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71FC7001, 0x71FC7008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71FC7001, 0x71FC7009, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71FC7001, 0x71FC700A, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71FC7001, 0x71FC700B, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC7001, 0x71FC700C, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC7001, 0x71FC700D, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71FC7001, 0x71FC700E, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC7001, 0x71FC700F, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC7001, 0x71FC7010, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC7001, 0x71FC7011, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x71FC7001, 0x71FC7012, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC7002, 27717, 0x1FC7003A, 174.3855, 31.91446, 41.47048, -0.6800475, 0, 0, -0.733168,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

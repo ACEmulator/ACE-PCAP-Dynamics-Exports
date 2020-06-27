@@ -85,101 +85,101 @@ VALUES (0x75D4E0AA,  1154, 0x5D4E02AA, 67.6793, -32.8075, -11.9975, 0.792929, 0,
 /* @teleloc 0x5D4E02AA [67.679300 -32.807500 -11.997500] 0.792929 0.000000 0.000000 -0.609314 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0AA, 0x75D4E0AB, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0AC, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0AD, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0AE, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0AF, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B0, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B1, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B2, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B3, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B4, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B5, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0B6, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0B7, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0B8, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0B9, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0BA, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0BB, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0BC, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0BD, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0BE, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0BF, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0C0, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0C1, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0C2, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0C3, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0C4, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0C5, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0C6, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0C7, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0C8, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0C9, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0CA, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0CB, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0CC, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0CD, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0CE, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0CF, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0D0, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0D1, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0D2, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0D3, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0D4, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0D5, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0D6, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0D7, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0D8, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0D9, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x75D4E0AA, 0x75D4E0DA, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0DB, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0DC, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0DD, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0DE, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E0DF, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E0E0, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E1, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E0E2, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E3, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E4, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E5, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E6, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E7, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E8, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0E9, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0EA, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E0EB, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0EC, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E0ED, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0EE, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0EF, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F0, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F1, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F2, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F3, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F4, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F5, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0F6, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x75D4E0AA, 0x75D4E0F7, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x75D4E0AA, 0x75D4E0F8, '2019-02-10 00:00:00') /* Chimera */
-     , (0x75D4E0AA, 0x75D4E0F9, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FA, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FB, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FC, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FD, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FE, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E0FF, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E100, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0AA, 0x75D4E101, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E102, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E103, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E104, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E105, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E106, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E107, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E108, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x75D4E0AA, 0x75D4E109, '2019-02-10 00:00:00') /* Archfiend */;
+VALUES (0x75D4E0AA, 0x75D4E0AB, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0AC, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0AD, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0AE, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0AF, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B0, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B1, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B2, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B3, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B4, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B5, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0B6, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0B7, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0B8, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0B9, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0BA, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0BB, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0BC, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0BD, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0BE, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0BF, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0C0, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0C1, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0C2, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0C3, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0C4, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0C5, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0C6, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0C7, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0C8, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0C9, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0CA, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0CB, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0CC, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0CD, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0CE, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0CF, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0D0, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0D1, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0D2, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0D3, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0D4, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0D5, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0D6, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0D7, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0D8, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0D9, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x75D4E0AA, 0x75D4E0DA, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0DB, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0DC, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0DD, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0DE, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E0DF, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E0E0, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E1, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E0E2, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E3, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E4, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E5, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E6, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E7, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E8, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0E9, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0EA, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E0EB, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0EC, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E0ED, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0EE, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0EF, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F0, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F1, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F2, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F3, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F4, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F5, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0F6, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0AA, 0x75D4E0F7, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x75D4E0AA, 0x75D4E0F8, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x75D4E0AA, 0x75D4E0F9, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FA, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FB, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FC, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FD, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FE, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E0FF, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E100, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0AA, 0x75D4E101, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E102, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E103, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E104, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E105, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E106, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E107, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E108, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0AA, 0x75D4E109, '2019-02-10 00:00:00') /* Archfiend (25803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E0AB, 25803, 0x5D4E02AA, 67.6793, -32.8075, -11.9975, 0.792929, 0, 0, -0.609314,  True, '2019-02-10 00:00:00'); /* Archfiend */
@@ -566,7 +566,7 @@ VALUES (0x75D4E10A,  1154, 0x5D4E02F0, 84.2554, -0.3153923, 0.01125002, -0.50336
 /* @teleloc 0x5D4E02F0 [84.255400 -0.315392 0.011250] -0.503363 0.000000 0.000000 -0.864075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E10A, 0x75D4E10B, '2019-02-10 00:00:00') /* Jaenyn, Stone Shaper */;
+VALUES (0x75D4E10A, 0x75D4E10B, '2019-02-10 00:00:00') /* Jaenyn, Stone Shaper (25683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E10B, 25683, 0x5D4E02F0, 84.2554, -0.3153923, 0.01125002, -0.503363, 0, 0, -0.864075,  True, '2019-02-10 00:00:00'); /* Jaenyn, Stone Shaper */
@@ -577,9 +577,9 @@ VALUES (0x75D4E10C,  1542, 0x5D4E0101, 57.52, -69.6381, -59.921, 0.5181081, 0, 0
 /* @teleloc 0x5D4E0101 [57.520000 -69.638100 -59.921000] 0.518108 0.000000 0.000000 0.855315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E10C, 0x75D4E10D, '2019-02-10 00:00:00') /* Untranslated Note */
-     , (0x75D4E10C, 0x75D4E10E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x75D4E10C, 0x75D4E10F, '2019-02-10 00:00:00') /* Black Glass Array */;
+VALUES (0x75D4E10C, 0x75D4E10D, '2019-02-10 00:00:00') /* Untranslated Note (25699) */
+     , (0x75D4E10C, 0x75D4E10E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x75D4E10C, 0x75D4E10F, '2019-02-10 00:00:00') /* Black Glass Array (30800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E10D, 25699, 0x5D4E0101, 57.52, -69.6381, -59.921, 0.5181081, 0, 0, 0.8553151,  True, '2019-02-10 00:00:00'); /* Untranslated Note */

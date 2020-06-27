@@ -5,19 +5,19 @@ VALUES (0x75D9E001,  1154, 0x5D9E0021, 111.8816, 3.109256, 30.23644, 0.7071068, 
 /* @teleloc 0x5D9E0021 [111.881600 3.109256 30.236440] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D9E001, 0x75D9E002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75D9E001, 0x75D9E003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75D9E001, 0x75D9E004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75D9E001, 0x75D9E005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75D9E001, 0x75D9E006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D9E001, 0x75D9E007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75D9E001, 0x75D9E008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75D9E001, 0x75D9E009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75D9E001, 0x75D9E00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75D9E001, 0x75D9E00B, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75D9E001, 0x75D9E00C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75D9E001, 0x75D9E00D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75D9E001, 0x75D9E00E, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x75D9E001, 0x75D9E002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75D9E001, 0x75D9E003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75D9E001, 0x75D9E004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75D9E001, 0x75D9E005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75D9E001, 0x75D9E006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D9E001, 0x75D9E007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75D9E001, 0x75D9E008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75D9E001, 0x75D9E009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75D9E001, 0x75D9E00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75D9E001, 0x75D9E00B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75D9E001, 0x75D9E00C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75D9E001, 0x75D9E00D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75D9E001, 0x75D9E00E, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D9E002, 24293, 0x5D9E0021, 111.8816, 3.109256, 30.23644, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -76,8 +76,8 @@ VALUES (0x75D9E00F,  1542, 0x5D9E0017, 66.7963, 156.7506, 23.62128, 0.9914449, 0
 /* @teleloc 0x5D9E0017 [66.796300 156.750600 23.621280] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D9E00F, 0x75D9E010, '2019-02-10 00:00:00') /* Bones */
-     , (0x75D9E00F, 0x75D9E011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75D9E00F, 0x75D9E010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75D9E00F, 0x75D9E011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D9E010,  4380, 0x5D9E0017, 66.7963, 156.7506, 23.62128, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

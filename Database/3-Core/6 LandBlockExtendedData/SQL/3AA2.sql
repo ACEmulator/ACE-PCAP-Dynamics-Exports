@@ -5,18 +5,18 @@ VALUES (0x73AA2001,  1154, 0x3AA2003C, 181.9216, 93.45388, 8.432604, -0.00875633
 /* @teleloc 0x3AA2003C [181.921600 93.453880 8.432604] -0.008756 0.000000 0.000000 -0.999962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AA2001, 0x73AA2002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73AA2001, 0x73AA2003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73AA2001, 0x73AA2004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73AA2001, 0x73AA2005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73AA2001, 0x73AA2006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73AA2001, 0x73AA2007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73AA2001, 0x73AA2008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73AA2001, 0x73AA2009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73AA2001, 0x73AA200A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73AA2001, 0x73AA200B, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73AA2001, 0x73AA200C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x73AA2001, 0x73AA200D, '2019-02-10 00:00:00') /* Mosswart Zealot */;
+VALUES (0x73AA2001, 0x73AA2002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73AA2001, 0x73AA2003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73AA2001, 0x73AA2004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73AA2001, 0x73AA2005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73AA2001, 0x73AA2006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73AA2001, 0x73AA2007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73AA2001, 0x73AA2008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73AA2001, 0x73AA2009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73AA2001, 0x73AA200A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73AA2001, 0x73AA200B, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73AA2001, 0x73AA200C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x73AA2001, 0x73AA200D, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AA2002,   619, 0x3AA2003C, 181.9216, 93.45388, 8.432604, -0.008756331, 0, 0, -0.9999617,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -71,7 +71,7 @@ VALUES (0x73AA200E,  1542, 0x3AA20014, 58.99981, 82.03583, 3.167813, 0.8897939, 
 /* @teleloc 0x3AA20014 [58.999810 82.035830 3.167813] 0.889794 0.000000 0.000000 -0.456363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AA200E, 0x73AA200F, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x73AA200E, 0x73AA200F, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AA200F, 31687, 0x3AA20014, 58.99981, 82.03583, 3.167813, 0.8897939, 0, 0, -0.4563625,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

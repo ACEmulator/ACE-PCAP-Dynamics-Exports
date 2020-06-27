@@ -5,53 +5,53 @@ VALUES (0x71EC8001,  1154, 0x1EC80019, 85.35105, 3.998994, 17.00451, 0.386289, 0
 /* @teleloc 0x1EC80019 [85.351050 3.998994 17.004510] 0.386289 0.000000 0.000000 -0.922378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC8001, 0x71EC8002, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC8001, 0x71EC8003, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC8001, 0x71EC8004, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC8001, 0x71EC8005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71EC8001, 0x71EC8006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71EC8001, 0x71EC8007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC8001, 0x71EC8008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC8001, 0x71EC8009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC8001, 0x71EC800A, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC8001, 0x71EC800B, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71EC8001, 0x71EC800C, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC800D, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC800E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC800F, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC8001, 0x71EC8010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71EC8001, 0x71EC8011, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71EC8001, 0x71EC8012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71EC8001, 0x71EC8013, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71EC8001, 0x71EC8014, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8015, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8016, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8017, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8018, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC8019, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC801A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC801B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71EC8001, 0x71EC801C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71EC8001, 0x71EC801D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC801E, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC801F, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC8020, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC8001, 0x71EC8021, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8022, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8023, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8024, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8025, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8026, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71EC8001, 0x71EC8027, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71EC8001, 0x71EC8028, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71EC8001, 0x71EC8029, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802A, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802B, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802C, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802D, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802E, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC8001, 0x71EC802F, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71EC8001, 0x71EC8030, '2019-02-10 00:00:00') /* Untamed Siraluun */;
+VALUES (0x71EC8001, 0x71EC8002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC8001, 0x71EC8003, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC8001, 0x71EC8004, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC8001, 0x71EC8005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71EC8001, 0x71EC8006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71EC8001, 0x71EC8007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC8001, 0x71EC8008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC8001, 0x71EC8009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC8001, 0x71EC800A, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC8001, 0x71EC800B, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71EC8001, 0x71EC800C, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC800D, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC800E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC800F, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC8001, 0x71EC8010, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71EC8001, 0x71EC8011, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71EC8001, 0x71EC8012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71EC8001, 0x71EC8013, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71EC8001, 0x71EC8014, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8015, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8016, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8017, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8018, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC8019, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC801A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC801B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71EC8001, 0x71EC801C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71EC8001, 0x71EC801D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC801E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC801F, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC8020, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC8001, 0x71EC8021, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8022, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8023, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8024, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8025, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8026, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71EC8001, 0x71EC8027, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71EC8001, 0x71EC8028, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71EC8001, 0x71EC8029, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802A, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802B, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802C, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802D, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802E, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC8001, 0x71EC802F, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71EC8001, 0x71EC8030, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC8002, 27708, 0x1EC80019, 85.35105, 3.998994, 17.00451, 0.386289, 0, 0, -0.9223778,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -246,7 +246,7 @@ VALUES (0x71EC8031,  1542, 0x1EC80019, 91.61526, 9.39479, 17.0184, 0.386289, 0, 
 /* @teleloc 0x1EC80019 [91.615260 9.394790 17.018400] 0.386289 0.000000 0.000000 -0.922378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC8031, 0x71EC8032, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x71EC8031, 0x71EC8032, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC8032, 27719, 0x1EC80019, 91.61526, 9.39479, 17.0184, 0.386289, 0, 0, -0.9223778,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

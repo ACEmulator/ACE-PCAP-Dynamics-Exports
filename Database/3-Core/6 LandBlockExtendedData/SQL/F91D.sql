@@ -5,16 +5,16 @@ VALUES (0x7F91D001,  1154, 0xF91D0005, 1.965134, 98.715, 20.17876, 0.8660254, 0,
 /* @teleloc 0xF91D0005 [1.965134 98.715000 20.178760] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F91D001, 0x7F91D002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F91D001, 0x7F91D003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F91D001, 0x7F91D004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F91D001, 0x7F91D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F91D001, 0x7F91D006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F91D001, 0x7F91D007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F91D001, 0x7F91D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F91D001, 0x7F91D009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F91D001, 0x7F91D00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F91D001, 0x7F91D00B, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7F91D001, 0x7F91D002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F91D001, 0x7F91D003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F91D001, 0x7F91D004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F91D001, 0x7F91D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F91D001, 0x7F91D006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F91D001, 0x7F91D007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F91D001, 0x7F91D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F91D001, 0x7F91D009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F91D001, 0x7F91D00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F91D001, 0x7F91D00B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F91D002,  7128, 0xF91D0005, 1.965134, 98.715, 20.17876, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -61,7 +61,7 @@ VALUES (0x7F91D00C,  1542, 0xF91D0037, 159.9881, 148.3719, -0.45, -0.0002518137,
 /* @teleloc 0xF91D0037 [159.988100 148.371900 -0.450000] -0.000252 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F91D00C, 0x7F91D00D, '2019-02-10 00:00:00') /* Nutmeg */;
+VALUES (0x7F91D00C, 0x7F91D00D, '2019-02-10 00:00:00') /* Nutmeg (14795) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F91D00D, 14795, 0xF91D0037, 159.9881, 148.3719, -0.45, -0.0002518137, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Nutmeg */

@@ -5,13 +5,13 @@ VALUES (0x75E9A001,  1154, 0x5E9A003C, 190.7951, 73.6451, -0.09175003, -0.219432
 /* @teleloc 0x5E9A003C [190.795100 73.645100 -0.091750] -0.219432 0.000000 0.000000 -0.975628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9A001, 0x75E9A002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75E9A001, 0x75E9A003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75E9A001, 0x75E9A004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75E9A001, 0x75E9A005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75E9A001, 0x75E9A006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75E9A001, 0x75E9A007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75E9A001, 0x75E9A008, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x75E9A001, 0x75E9A002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75E9A001, 0x75E9A003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75E9A001, 0x75E9A004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75E9A001, 0x75E9A005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75E9A001, 0x75E9A006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75E9A001, 0x75E9A007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75E9A001, 0x75E9A008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9A002,   619, 0x5E9A003C, 190.7951, 73.6451, -0.09175003, -0.2194321, 0, 0, -0.9756278,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -46,7 +46,7 @@ VALUES (0x75E9A009,  1542, 0x5E9A000E, 32.89238, 138.546, -0.45, 0.9542755, 0, 0
 /* @teleloc 0x5E9A000E [32.892380 138.546000 -0.450000] 0.954276 0.000000 0.000000 -0.298929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9A009, 0x75E9A00A, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x75E9A009, 0x75E9A00A, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9A00A, 11554, 0x5E9A000E, 32.89238, 138.546, -0.45, 0.9542755, 0, 0, -0.2989285,  True, '2019-02-10 00:00:00'); /* Colban Plant */

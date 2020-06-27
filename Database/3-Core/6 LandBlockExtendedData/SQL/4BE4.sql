@@ -5,26 +5,26 @@ VALUES (0x74BE4001,  1154, 0x4BE40022, 96.27287, 24.80746, 41.76359, -0.9975797,
 /* @teleloc 0x4BE40022 [96.272870 24.807460 41.763590] -0.997580 0.000000 0.000000 -0.069532 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BE4001, 0x74BE4002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74BE4001, 0x74BE4003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74BE4001, 0x74BE4004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74BE4001, 0x74BE4005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74BE4001, 0x74BE4006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74BE4001, 0x74BE4007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74BE4001, 0x74BE4008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74BE4001, 0x74BE4009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74BE4001, 0x74BE400A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74BE4001, 0x74BE400B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74BE4001, 0x74BE400C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74BE4001, 0x74BE400D, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74BE4001, 0x74BE400E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74BE4001, 0x74BE400F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74BE4001, 0x74BE4010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74BE4001, 0x74BE4011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74BE4001, 0x74BE4012, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74BE4001, 0x74BE4013, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74BE4001, 0x74BE4014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74BE4001, 0x74BE4015, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74BE4001, 0x74BE4002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74BE4001, 0x74BE4003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74BE4001, 0x74BE4004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74BE4001, 0x74BE4005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74BE4001, 0x74BE4006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74BE4001, 0x74BE4007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74BE4001, 0x74BE4008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74BE4001, 0x74BE4009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74BE4001, 0x74BE400A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74BE4001, 0x74BE400B, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74BE4001, 0x74BE400C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74BE4001, 0x74BE400D, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74BE4001, 0x74BE400E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74BE4001, 0x74BE400F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74BE4001, 0x74BE4010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74BE4001, 0x74BE4011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74BE4001, 0x74BE4012, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74BE4001, 0x74BE4013, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74BE4001, 0x74BE4014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74BE4001, 0x74BE4015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE4002,  4216, 0x4BE40022, 96.27287, 24.80746, 41.76359, -0.9975797, 0, 0, -0.06953242,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

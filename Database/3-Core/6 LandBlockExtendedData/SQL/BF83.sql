@@ -5,19 +5,19 @@ VALUES (0x7BF83001,  1154, 0xBF830019, 75.89391, 10.40255, 46.70653, 0.9537169, 
 /* @teleloc 0xBF830019 [75.893910 10.402550 46.706530] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF83001, 0x7BF83002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF83001, 0x7BF83003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF83001, 0x7BF83004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF83001, 0x7BF83005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF83001, 0x7BF83006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF83001, 0x7BF83007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF83001, 0x7BF83008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF83001, 0x7BF83009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF83001, 0x7BF8300A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF83001, 0x7BF8300B, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BF83001, 0x7BF8300C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BF83001, 0x7BF8300D, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF83001, 0x7BF8300E, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7BF83001, 0x7BF83002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF83001, 0x7BF83003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF83001, 0x7BF83004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF83001, 0x7BF83005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF83001, 0x7BF83006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF83001, 0x7BF83007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF83001, 0x7BF83008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF83001, 0x7BF83009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF83001, 0x7BF8300A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF83001, 0x7BF8300B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BF83001, 0x7BF8300C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BF83001, 0x7BF8300D, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF83001, 0x7BF8300E, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF83002,  1612, 0xBF830019, 75.89391, 10.40255, 46.70653, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -76,7 +76,7 @@ VALUES (0x7BF8300F,  1542, 0xBF83000E, 46.38769, 125.4306, 39.4131, 0.9981214, 0
 /* @teleloc 0xBF83000E [46.387690 125.430600 39.413100] 0.998121 0.000000 0.000000 -0.061267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF8300F, 0x7BF83010, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BF8300F, 0x7BF83010, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF83010,  8646, 0xBF83000E, 46.38769, 125.4306, 39.4131, 0.9981214, 0, 0, -0.06126703,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

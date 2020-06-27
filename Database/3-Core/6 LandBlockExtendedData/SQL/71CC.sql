@@ -5,17 +5,17 @@ VALUES (0x771CC001,  1154, 0x71CC0036, 167.219, 127.6351, 319.2935, 0.9390236, 0
 /* @teleloc 0x71CC0036 [167.219000 127.635100 319.293500] 0.939024 0.000000 0.000000 -0.343853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771CC001, 0x771CC002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x771CC001, 0x771CC003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x771CC001, 0x771CC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x771CC001, 0x771CC005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x771CC001, 0x771CC006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x771CC001, 0x771CC007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x771CC001, 0x771CC008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x771CC001, 0x771CC009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x771CC001, 0x771CC00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x771CC001, 0x771CC00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x771CC001, 0x771CC00C, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x771CC001, 0x771CC002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x771CC001, 0x771CC003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x771CC001, 0x771CC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x771CC001, 0x771CC005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x771CC001, 0x771CC006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x771CC001, 0x771CC007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x771CC001, 0x771CC008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x771CC001, 0x771CC009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x771CC001, 0x771CC00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x771CC001, 0x771CC00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x771CC001, 0x771CC00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771CC002, 24958, 0x71CC0036, 167.219, 127.6351, 319.2935, 0.9390236, 0, 0, -0.3438526,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

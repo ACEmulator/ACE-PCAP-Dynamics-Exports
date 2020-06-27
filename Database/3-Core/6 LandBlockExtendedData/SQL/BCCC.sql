@@ -9,10 +9,10 @@ VALUES (0x7BCCC001,  1154, 0xBCCC000D, 29.66388, 106.6555, 310.4121, 0.9997569, 
 /* @teleloc 0xBCCC000D [29.663880 106.655500 310.412100] 0.999757 0.000000 0.000000 -0.022048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCCC001, 0x7BCCC002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BCCC001, 0x7BCCC003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BCCC001, 0x7BCCC004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BCCC001, 0x7BCCC005, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7BCCC001, 0x7BCCC002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BCCC001, 0x7BCCC003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BCCC001, 0x7BCCC004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BCCC001, 0x7BCCC005, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCCC002, 24959, 0xBCCC000D, 29.66388, 106.6555, 310.4121, 0.9997569, 0, 0, -0.02204765,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

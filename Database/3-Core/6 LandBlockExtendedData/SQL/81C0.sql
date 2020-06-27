@@ -9,14 +9,14 @@ VALUES (0x781C0005,  1154, 0x81C00008, 10.44865, 189.3624, 370.0075, 0.789327, 0
 /* @teleloc 0x81C00008 [10.448650 189.362400 370.007500] 0.789327 0.000000 0.000000 -0.613973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781C0005, 0x781C0006, '2019-02-10 00:00:00') /* Lich */
-     , (0x781C0005, 0x781C0007, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x781C0005, 0x781C0008, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x781C0005, 0x781C0009, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x781C0005, 0x781C000A, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x781C0005, 0x781C000B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x781C0005, 0x781C000C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x781C0005, 0x781C000D, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x781C0005, 0x781C0006, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x781C0005, 0x781C0007, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x781C0005, 0x781C0008, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x781C0005, 0x781C0009, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x781C0005, 0x781C000A, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x781C0005, 0x781C000B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x781C0005, 0x781C000C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x781C0005, 0x781C000D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781C0006,   204, 0x81C00008, 10.44865, 189.3624, 370.0075, 0.789327, 0, 0, -0.613973,  True, '2019-02-10 00:00:00'); /* Lich */

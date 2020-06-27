@@ -5,12 +5,12 @@ VALUES (0x7925F001,  1154, 0x925F0031, 164.8999, 13.78077, 16.22439, -0.9579998,
 /* @teleloc 0x925F0031 [164.899900 13.780770 16.224390] -0.958000 0.000000 0.000000 -0.286769 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7925F001, 0x7925F002, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7925F001, 0x7925F003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7925F001, 0x7925F004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7925F001, 0x7925F005, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x7925F001, 0x7925F006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7925F001, 0x7925F007, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7925F001, 0x7925F002, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7925F001, 0x7925F003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7925F001, 0x7925F004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7925F001, 0x7925F005, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x7925F001, 0x7925F006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7925F001, 0x7925F007, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7925F002,  1611, 0x925F0031, 164.8999, 13.78077, 16.22439, -0.9579998, 0, 0, -0.2867688,  True, '2019-02-10 00:00:00'); /* Rust Gromnie */
@@ -41,8 +41,8 @@ VALUES (0x7925F008,  1542, 0x925F002B, 131.9533, 59.81219, 14, 1, 0, 0, 0, False
 /* @teleloc 0x925F002B [131.953300 59.812190 14.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7925F008, 0x7925F009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7925F008, 0x7925F00A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7925F008, 0x7925F009, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7925F008, 0x7925F00A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7925F009, 22568, 0x925F002B, 131.9533, 59.81219, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

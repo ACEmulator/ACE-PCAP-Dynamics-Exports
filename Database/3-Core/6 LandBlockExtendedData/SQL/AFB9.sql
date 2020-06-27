@@ -5,12 +5,12 @@ VALUES (0x7AFB9001,  1154, 0xAFB90032, 148.7482, 44.03203, 126.4457, 0.9655221, 
 /* @teleloc 0xAFB90032 [148.748200 44.032030 126.445700] 0.965522 0.000000 0.000000 -0.260321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB9001, 0x7AFB9002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7AFB9001, 0x7AFB9003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7AFB9001, 0x7AFB9004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFB9001, 0x7AFB9005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFB9001, 0x7AFB9006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7AFB9001, 0x7AFB9007, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7AFB9001, 0x7AFB9002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7AFB9001, 0x7AFB9003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7AFB9001, 0x7AFB9004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFB9001, 0x7AFB9005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFB9001, 0x7AFB9006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7AFB9001, 0x7AFB9007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB9002,  8010, 0xAFB90032, 148.7482, 44.03203, 126.4457, 0.9655221, 0, 0, -0.2603213,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

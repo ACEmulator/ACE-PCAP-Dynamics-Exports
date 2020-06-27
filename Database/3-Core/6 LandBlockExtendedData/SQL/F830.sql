@@ -5,74 +5,74 @@ VALUES (0x7F830001,  1154, 0xF8300008, 17.04734, 173.9437, 56.09367, -0.9407926,
 /* @teleloc 0xF8300008 [17.047340 173.943700 56.093670] -0.940793 0.000000 0.000000 -0.338983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F830001, 0x7F830002, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F830001, 0x7F830003, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F830001, 0x7F830004, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7F830001, 0x7F830005, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F830001, 0x7F830006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F830001, 0x7F830007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F830001, 0x7F830008, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F830001, 0x7F830009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F83000A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F83000B, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F830001, 0x7F83000C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F83000D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F83000E, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F83000F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830010, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830011, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830012, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830013, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F830014, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F830015, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F830016, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830017, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830018, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F830019, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F830001, 0x7F83001A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83001B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83001C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83001D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83001E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83001F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F830020, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F830021, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F830022, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F830001, 0x7F830023, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F830001, 0x7F830024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F830001, 0x7F830025, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F830001, 0x7F830026, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F830001, 0x7F830027, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7F830001, 0x7F830028, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F830029, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83002A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83002B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83002C, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F83002D, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F83002E, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F830001, 0x7F83002F, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F830001, 0x7F830030, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F830001, 0x7F830031, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F830001, 0x7F830032, '2019-02-10 00:00:00') /* Trained Great Devourer */
-     , (0x7F830001, 0x7F830033, '2019-02-10 00:00:00') /* T'thuun Sclavus Huntsmaster */
-     , (0x7F830001, 0x7F830034, '2019-02-10 00:00:00') /* Trained Great Devourer */
-     , (0x7F830001, 0x7F830035, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F830036, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F830001, 0x7F830037, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F830001, 0x7F830038, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F830001, 0x7F830039, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F830001, 0x7F83003A, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F830001, 0x7F83003B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83003C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83003D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F830001, 0x7F83003E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F830001, 0x7F83003F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F830001, 0x7F830040, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F830001, 0x7F830041, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F830001, 0x7F830042, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F830001, 0x7F830043, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F830001, 0x7F830044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F830001, 0x7F830045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */;
+VALUES (0x7F830001, 0x7F830002, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F830001, 0x7F830003, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F830001, 0x7F830004, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F830001, 0x7F830005, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F830001, 0x7F830006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F830001, 0x7F830007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F830001, 0x7F830008, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F830001, 0x7F830009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F83000A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F83000B, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F830001, 0x7F83000C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F83000D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F83000E, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F83000F, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830010, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830011, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830012, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830013, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F830014, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F830015, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F830016, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830017, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830018, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F830019, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F830001, 0x7F83001A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83001B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83001C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83001D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83001E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83001F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F830020, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F830021, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F830022, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F830001, 0x7F830023, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F830001, 0x7F830024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F830001, 0x7F830025, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F830001, 0x7F830026, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F830001, 0x7F830027, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F830001, 0x7F830028, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F830029, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83002A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83002B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83002C, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F83002D, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F83002E, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F830001, 0x7F83002F, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F830001, 0x7F830030, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F830001, 0x7F830031, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F830001, 0x7F830032, '2019-02-10 00:00:00') /* Trained Great Devourer (41006) */
+     , (0x7F830001, 0x7F830033, '2019-02-10 00:00:00') /* T'thuun Sclavus Huntsmaster (41005) */
+     , (0x7F830001, 0x7F830034, '2019-02-10 00:00:00') /* Trained Great Devourer (41006) */
+     , (0x7F830001, 0x7F830035, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F830036, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F830001, 0x7F830037, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F830001, 0x7F830038, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F830001, 0x7F830039, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F830001, 0x7F83003A, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F830001, 0x7F83003B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83003C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83003D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F830001, 0x7F83003E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F830001, 0x7F83003F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F830001, 0x7F830040, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F830001, 0x7F830041, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F830001, 0x7F830042, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F830001, 0x7F830043, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F830001, 0x7F830044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F830001, 0x7F830045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F830002, 40309, 0xF8300008, 17.04734, 173.9437, 56.09367, -0.9407926, 0, 0, -0.3389827,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */

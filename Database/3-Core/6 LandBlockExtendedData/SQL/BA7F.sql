@@ -5,12 +5,12 @@ VALUES (0x7BA7F001,  1154, 0xBA7F0028, 103.0531, 170.4263, 39.01868, 0.3774506, 
 /* @teleloc 0xBA7F0028 [103.053100 170.426300 39.018680] 0.377451 0.000000 0.000000 -0.926030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA7F001, 0x7BA7F002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA7F001, 0x7BA7F003, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BA7F001, 0x7BA7F004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA7F001, 0x7BA7F005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BA7F001, 0x7BA7F006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA7F001, 0x7BA7F007, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7BA7F001, 0x7BA7F002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA7F001, 0x7BA7F003, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BA7F001, 0x7BA7F004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA7F001, 0x7BA7F005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BA7F001, 0x7BA7F006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA7F001, 0x7BA7F007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA7F002, 24937, 0xBA7F0028, 103.0531, 170.4263, 39.01868, 0.3774506, 0, 0, -0.9260297,  True, '2019-02-10 00:00:00'); /* Chicken */

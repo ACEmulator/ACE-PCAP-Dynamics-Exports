@@ -73,22 +73,22 @@ VALUES (0x75874157,  1154, 0x58740225, 270, -60, -0.003342986, 1, 0, 0, 0, False
 /* @teleloc 0x58740225 [270.000000 -60.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75874157, 0x75874158, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874159, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415A, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415B, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415C, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415D, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415E, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x7587415F, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874160, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874161, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874162, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874163, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874164, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874165, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874166, '2019-02-10 00:00:00') /* Pillar of Lightning */
-     , (0x75874157, 0x75874167, '2019-02-10 00:00:00') /* Pillar of Lightning */;
+VALUES (0x75874157, 0x75874158, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874159, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415A, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415B, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415C, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415D, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415E, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x7587415F, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874160, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874161, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874162, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874163, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874164, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874165, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874166, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */
+     , (0x75874157, 0x75874167, '2019-02-10 00:00:00') /* Pillar of Lightning (51599) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75874158, 51599, 0x58740225, 270, -60, -0.003342986, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pillar of Lightning */
@@ -159,7 +159,7 @@ VALUES (0x75874168,  1154, 0x58740197, 90, -220, -0.20983, 0.08715518, 0, 0, -0.
 /* @teleloc 0x58740197 [90.000000 -220.000000 -0.209830] 0.087155 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75874168, 0x75874169, '2019-02-10 00:00:00') /* Mysterious Portal */;
+VALUES (0x75874168, 0x75874169, '2019-02-10 00:00:00') /* Mysterious Portal (51603) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75874169, 51603, 0x58740197, 90, -220, -0.20983, 0.08715518, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Mysterious Portal */

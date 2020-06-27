@@ -5,21 +5,21 @@ VALUES (0x71883001,  1154, 0x1883000B, 28.2883, 56.2466, 104.5407, -0.8490309, 0
 /* @teleloc 0x1883000B [28.288300 56.246600 104.540700] -0.849031 0.000000 0.000000 -0.528343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71883001, 0x71883002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71883001, 0x71883003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71883001, 0x71883004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71883001, 0x71883005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71883001, 0x71883006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71883001, 0x71883007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71883001, 0x71883008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71883001, 0x71883009, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71883001, 0x7188300A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71883001, 0x7188300B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71883001, 0x7188300C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71883001, 0x7188300D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71883001, 0x7188300E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71883001, 0x7188300F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71883001, 0x71883010, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x71883001, 0x71883002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71883001, 0x71883003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71883001, 0x71883004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71883001, 0x71883005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71883001, 0x71883006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71883001, 0x71883007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71883001, 0x71883008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71883001, 0x71883009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71883001, 0x7188300A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71883001, 0x7188300B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71883001, 0x7188300C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71883001, 0x7188300D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71883001, 0x7188300E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71883001, 0x7188300F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71883001, 0x71883010, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71883002, 23564, 0x1883000B, 28.2883, 56.2466, 104.5407, -0.8490309, 0, 0, -0.5283431,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -86,7 +86,7 @@ VALUES (0x71883011,  1542, 0x18830003, 5.626699, 50.02726, 98.25663, -4.371139E-
 /* @teleloc 0x18830003 [5.626699 50.027260 98.256630] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71883011, 0x71883012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71883011, 0x71883012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71883012,  4380, 0x18830003, 5.626699, 50.02726, 98.25663, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

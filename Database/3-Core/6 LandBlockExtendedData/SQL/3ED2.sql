@@ -5,30 +5,30 @@ VALUES (0x73ED2001,  1154, 0x3ED20014, 56.71951, 75.13297, 3.458252, 0.9396926, 
 /* @teleloc 0x3ED20014 [56.719510 75.132970 3.458252] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED2001, 0x73ED2002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED2001, 0x73ED2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED2001, 0x73ED2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x73ED2001, 0x73ED2005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73ED2001, 0x73ED2006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73ED2001, 0x73ED2007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73ED2001, 0x73ED2008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73ED2001, 0x73ED2009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED2001, 0x73ED200A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED2001, 0x73ED200B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED2001, 0x73ED200C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73ED2001, 0x73ED200D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED2001, 0x73ED200E, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73ED2001, 0x73ED200F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73ED2001, 0x73ED2010, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED2001, 0x73ED2011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73ED2001, 0x73ED2012, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73ED2001, 0x73ED2013, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x73ED2001, 0x73ED2014, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73ED2001, 0x73ED2015, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73ED2001, 0x73ED2016, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73ED2001, 0x73ED2017, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73ED2001, 0x73ED2018, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x73ED2001, 0x73ED2019, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x73ED2001, 0x73ED2002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED2001, 0x73ED2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED2001, 0x73ED2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x73ED2001, 0x73ED2005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73ED2001, 0x73ED2006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73ED2001, 0x73ED2007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73ED2001, 0x73ED2008, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73ED2001, 0x73ED2009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED2001, 0x73ED200A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED2001, 0x73ED200B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED2001, 0x73ED200C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73ED2001, 0x73ED200D, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED2001, 0x73ED200E, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73ED2001, 0x73ED200F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x73ED2001, 0x73ED2010, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED2001, 0x73ED2011, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73ED2001, 0x73ED2012, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x73ED2001, 0x73ED2013, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x73ED2001, 0x73ED2014, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x73ED2001, 0x73ED2015, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73ED2001, 0x73ED2016, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73ED2001, 0x73ED2017, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73ED2001, 0x73ED2018, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x73ED2001, 0x73ED2019, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED2002, 37098, 0x3ED20014, 56.71951, 75.13297, 3.458252, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */
@@ -131,8 +131,8 @@ VALUES (0x73ED201A,  1542, 0x3ED20002, 21.72366, 40.09243, 2.45817, 1, 0, 0, 0, 
 /* @teleloc 0x3ED20002 [21.723660 40.092430 2.458170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED201A, 0x73ED201B, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73ED201A, 0x73ED201C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73ED201A, 0x73ED201B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73ED201A, 0x73ED201C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED201B, 31445, 0x3ED20002, 21.72366, 40.09243, 2.45817, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

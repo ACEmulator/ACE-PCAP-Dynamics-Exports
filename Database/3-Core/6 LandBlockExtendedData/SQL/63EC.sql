@@ -5,28 +5,28 @@ VALUES (0x763EC001,  1154, 0x63EC0034, 148.217, 84.74586, 0.006600022, 0.0827776
 /* @teleloc 0x63EC0034 [148.217000 84.745860 0.006600] 0.082778 0.000000 0.000000 -0.996568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763EC001, 0x763EC002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x763EC001, 0x763EC003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x763EC001, 0x763EC004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x763EC001, 0x763EC005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x763EC001, 0x763EC006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x763EC001, 0x763EC007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x763EC001, 0x763EC008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x763EC001, 0x763EC009, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x763EC001, 0x763EC00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x763EC001, 0x763EC00B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x763EC001, 0x763EC00C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x763EC001, 0x763EC00D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x763EC001, 0x763EC00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x763EC001, 0x763EC00F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x763EC001, 0x763EC010, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x763EC001, 0x763EC011, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x763EC001, 0x763EC012, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x763EC001, 0x763EC013, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x763EC001, 0x763EC014, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x763EC001, 0x763EC015, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x763EC001, 0x763EC016, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x763EC001, 0x763EC017, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x763EC001, 0x763EC002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x763EC001, 0x763EC003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x763EC001, 0x763EC004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x763EC001, 0x763EC005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x763EC001, 0x763EC006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x763EC001, 0x763EC007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x763EC001, 0x763EC008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x763EC001, 0x763EC009, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x763EC001, 0x763EC00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x763EC001, 0x763EC00B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x763EC001, 0x763EC00C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x763EC001, 0x763EC00D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x763EC001, 0x763EC00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x763EC001, 0x763EC00F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x763EC001, 0x763EC010, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x763EC001, 0x763EC011, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x763EC001, 0x763EC012, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x763EC001, 0x763EC013, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x763EC001, 0x763EC014, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x763EC001, 0x763EC015, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x763EC001, 0x763EC016, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x763EC001, 0x763EC017, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763EC002,  4248, 0x63EC0034, 148.217, 84.74586, 0.006600022, 0.08277764, 0, 0, -0.996568,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -121,7 +121,7 @@ VALUES (0x763EC018,  1542, 0x63EC000A, 28.55812, 35.63567, 0.011, 0.9471068, 0, 
 /* @teleloc 0x63EC000A [28.558120 35.635670 0.011000] 0.947107 0.000000 0.000000 -0.320919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763EC018, 0x763EC019, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x763EC018, 0x763EC019, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763EC019, 31687, 0x63EC000A, 28.55812, 35.63567, 0.011, 0.9471068, 0, 0, -0.3209185,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

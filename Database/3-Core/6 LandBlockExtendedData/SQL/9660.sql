@@ -5,7 +5,7 @@ VALUES (0x79660001,  1154, 0x9660001E, 92.76075, 138.037, 12.68, 1, 0, 0, 0, Fal
 /* @teleloc 0x9660001E [92.760750 138.037000 12.680000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79660001, 0x79660002, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x79660001, 0x79660002, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79660002,  1623, 0x9660001E, 92.76075, 138.037, 12.68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Desert Rat */
@@ -16,12 +16,12 @@ VALUES (0x79660003,  1542, 0x9660001E, 94.35457, 140.3177, 12.68, 1, 0, 0, 0, Fa
 /* @teleloc 0x9660001E [94.354570 140.317700 12.680000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79660003, 0x79660004, '2019-02-10 00:00:00') /* Scroll of Martyr's Blight V */
-     , (0x79660003, 0x79660005, '2019-02-10 00:00:00') /* Scroll of Bludgeon Protection Self VI */
-     , (0x79660003, 0x79660006, '2019-02-10 00:00:00') /* Gifted Healing Kit */
-     , (0x79660003, 0x79660007, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x79660003, 0x79660008, '2019-02-10 00:00:00') /* Studded Leather Gauntlets */
-     , (0x79660003, 0x79660009, '2019-02-10 00:00:00') /* Plain Lockpick */;
+VALUES (0x79660003, 0x79660004, '2019-02-10 00:00:00') /* Scroll of Martyr's Blight V (21106) */
+     , (0x79660003, 0x79660005, '2019-02-10 00:00:00') /* Scroll of Bludgeon Protection Self VI (3012) */
+     , (0x79660003, 0x79660006, '2019-02-10 00:00:00') /* Gifted Healing Kit (630) */
+     , (0x79660003, 0x79660007, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x79660003, 0x79660008, '2019-02-10 00:00:00') /* Studded Leather Gauntlets (59) */
+     , (0x79660003, 0x79660009, '2019-02-10 00:00:00') /* Plain Lockpick (513) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79660004, 21106, 0x9660001E, 94.35457, 140.3177, 12.68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Martyr's Blight V */

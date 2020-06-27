@@ -5,16 +5,16 @@ VALUES (0x773A7001,  1154, 0x73A7001C, 87.64193, 77.50349, 55.61831, 0.8433914, 
 /* @teleloc 0x73A7001C [87.641930 77.503490 55.618310] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773A7001, 0x773A7002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x773A7001, 0x773A7003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773A7001, 0x773A7004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x773A7001, 0x773A7005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x773A7001, 0x773A7006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x773A7001, 0x773A7007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x773A7001, 0x773A7008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x773A7001, 0x773A7009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773A7001, 0x773A700A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773A7001, 0x773A700B, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x773A7001, 0x773A7002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x773A7001, 0x773A7003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773A7001, 0x773A7004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x773A7001, 0x773A7005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x773A7001, 0x773A7006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x773A7001, 0x773A7007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x773A7001, 0x773A7008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x773A7001, 0x773A7009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773A7001, 0x773A700A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773A7001, 0x773A700B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773A7002,  1610, 0x73A7001C, 87.64193, 77.50349, 55.61831, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -61,7 +61,7 @@ VALUES (0x773A700C,  1542, 0x73A70017, 50.74808, 156.9823, 69.87466, 0.9990482, 
 /* @teleloc 0x73A70017 [50.748080 156.982300 69.874660] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773A700C, 0x773A700D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x773A700C, 0x773A700D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773A700D,  4179, 0x73A70017, 50.74808, 156.9823, 69.87466, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

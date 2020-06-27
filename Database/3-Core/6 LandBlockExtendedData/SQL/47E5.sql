@@ -5,11 +5,11 @@ VALUES (0x747E5001,  1154, 0x47E50002, 3.073319, 30.09677, -0.8960001, 0.8870109
 /* @teleloc 0x47E50002 [3.073319 30.096770 -0.896000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747E5001, 0x747E5002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x747E5001, 0x747E5003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x747E5001, 0x747E5004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x747E5001, 0x747E5005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x747E5001, 0x747E5006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x747E5001, 0x747E5002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x747E5001, 0x747E5003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x747E5001, 0x747E5004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x747E5001, 0x747E5005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x747E5001, 0x747E5006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747E5002,  4254, 0x47E50002, 3.073319, 30.09677, -0.8960001, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

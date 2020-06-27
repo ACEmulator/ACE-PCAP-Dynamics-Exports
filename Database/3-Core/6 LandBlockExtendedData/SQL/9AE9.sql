@@ -5,12 +5,12 @@ VALUES (0x79AE9001,  1154, 0x9AE90024, 103.2042, 94.91343, 98.41222, 0.2459763, 
 /* @teleloc 0x9AE90024 [103.204200 94.913430 98.412220] 0.245976 0.000000 0.000000 -0.969276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AE9001, 0x79AE9002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79AE9001, 0x79AE9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AE9001, 0x79AE9004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AE9001, 0x79AE9005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AE9001, 0x79AE9006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79AE9001, 0x79AE9007, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x79AE9001, 0x79AE9002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79AE9001, 0x79AE9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AE9001, 0x79AE9004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AE9001, 0x79AE9005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AE9001, 0x79AE9006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79AE9001, 0x79AE9007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AE9002,     3, 0x9AE90024, 103.2042, 94.91343, 98.41222, 0.2459763, 0, 0, -0.9692758,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

@@ -69,68 +69,68 @@ VALUES (0x7001E05A,  1154, 0x001E02F1, 60.1606, -85.8954, 6.005, -0.999939, 0, 0
 /* @teleloc 0x001E02F1 [60.160600 -85.895400 6.005000] -0.999939 0.000000 0.000000 0.011086 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001E05A, 0x7001E05B, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E05C, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E05D, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E05E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E05F, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E060, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E061, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E062, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E063, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E064, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E065, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E066, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E067, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E068, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E069, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E06A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E06B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E06C, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E06D, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E06E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E06F, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E070, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E071, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E072, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E073, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E074, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x7001E05A, 0x7001E075, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E076, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x7001E05A, 0x7001E077, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E078, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x7001E05A, 0x7001E079, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E07A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E07B, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E07C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E07D, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E07E, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E07F, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E080, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E081, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x7001E05A, 0x7001E082, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E083, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E084, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E085, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x7001E05A, 0x7001E086, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E087, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E088, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E089, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E08A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E08B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E08C, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E08D, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E08E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E08F, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x7001E05A, 0x7001E090, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7001E05A, 0x7001E091, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7001E05A, 0x7001E092, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7001E05A, 0x7001E093, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x7001E05A, 0x7001E094, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x7001E05A, 0x7001E095, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x7001E05A, 0x7001E096, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x7001E05A, 0x7001E097, '2019-02-10 00:00:00') /* Royal Prison Warden */
-     , (0x7001E05A, 0x7001E098, '2019-02-10 00:00:00') /* Viamontian Knight */;
+VALUES (0x7001E05A, 0x7001E05B, '2019-02-10 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001E05A, 0x7001E05C, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001E05A, 0x7001E05D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E05E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E05F, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E060, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E061, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E062, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E063, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E064, '2019-02-10 00:00:00') /* Viamontian Warcaster (30296) */
+     , (0x7001E05A, 0x7001E065, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E066, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E067, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E068, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001E05A, 0x7001E069, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001E05A, 0x7001E06A, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001E05A, 0x7001E06B, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E06C, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E06D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E06E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E06F, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E070, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E071, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E072, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001E05A, 0x7001E073, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E074, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001E05A, 0x7001E075, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E076, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001E05A, 0x7001E077, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E078, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x7001E05A, 0x7001E079, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E07A, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001E05A, 0x7001E07B, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E07C, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E07D, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E07E, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E07F, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001E05A, 0x7001E080, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E081, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x7001E05A, 0x7001E082, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001E05A, 0x7001E083, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001E05A, 0x7001E084, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E085, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x7001E05A, 0x7001E086, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E087, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001E05A, 0x7001E088, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E089, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E08A, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7001E05A, 0x7001E08B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E08C, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7001E05A, 0x7001E08D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7001E05A, 0x7001E08E, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E08F, '2019-02-10 00:00:00') /* Viamontian Tribune (30291) */
+     , (0x7001E05A, 0x7001E090, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */
+     , (0x7001E05A, 0x7001E091, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7001E05A, 0x7001E092, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7001E05A, 0x7001E093, '2019-02-10 00:00:00') /* Viamontian Tribune (30291) */
+     , (0x7001E05A, 0x7001E094, '2019-02-10 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001E05A, 0x7001E095, '2019-02-10 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001E05A, 0x7001E096, '2019-02-10 00:00:00') /* Viamontian Counselor (30298) */
+     , (0x7001E05A, 0x7001E097, '2019-02-10 00:00:00') /* Royal Prison Warden (29469) */
+     , (0x7001E05A, 0x7001E098, '2019-02-10 00:00:00') /* Viamontian Knight (30290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001E05B, 30296, 0x001E02F1, 60.1606, -85.8954, 6.005, -0.999939, 0, 0, 0.011086,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */

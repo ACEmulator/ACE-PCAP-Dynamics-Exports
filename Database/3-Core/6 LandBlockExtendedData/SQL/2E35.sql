@@ -5,17 +5,17 @@ VALUES (0x72E35001,  1154, 0x2E350030, 139.1061, 175.6288, 29.45138, 0.9346583, 
 /* @teleloc 0x2E350030 [139.106100 175.628800 29.451380] 0.934658 0.000000 0.000000 -0.355547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E35001, 0x72E35002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72E35001, 0x72E35003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72E35001, 0x72E35004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72E35001, 0x72E35005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72E35001, 0x72E35006, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72E35001, 0x72E35007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72E35001, 0x72E35008, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72E35001, 0x72E35009, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72E35001, 0x72E3500A, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72E35001, 0x72E3500B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72E35001, 0x72E3500C, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72E35001, 0x72E35002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72E35001, 0x72E35003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72E35001, 0x72E35004, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72E35001, 0x72E35005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72E35001, 0x72E35006, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72E35001, 0x72E35007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72E35001, 0x72E35008, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72E35001, 0x72E35009, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72E35001, 0x72E3500A, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72E35001, 0x72E3500B, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72E35001, 0x72E3500C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E35002,  7125, 0x2E350030, 139.1061, 175.6288, 29.45138, 0.9346583, 0, 0, -0.3555474,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */

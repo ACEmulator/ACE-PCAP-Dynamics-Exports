@@ -5,16 +5,16 @@ VALUES (0x73DCE001,  1154, 0x3DCE003E, 184.1366, 133.9777, 1.349719, 0.7071068, 
 /* @teleloc 0x3DCE003E [184.136600 133.977700 1.349719] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCE001, 0x73DCE002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73DCE001, 0x73DCE003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73DCE001, 0x73DCE004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73DCE001, 0x73DCE005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73DCE001, 0x73DCE006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73DCE001, 0x73DCE007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCE001, 0x73DCE008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCE001, 0x73DCE009, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCE001, 0x73DCE00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCE001, 0x73DCE00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x73DCE001, 0x73DCE002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73DCE001, 0x73DCE003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x73DCE001, 0x73DCE004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73DCE001, 0x73DCE005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73DCE001, 0x73DCE006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73DCE001, 0x73DCE007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DCE001, 0x73DCE008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DCE001, 0x73DCE009, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DCE001, 0x73DCE00A, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73DCE001, 0x73DCE00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCE002,  1758, 0x3DCE003E, 184.1366, 133.9777, 1.349719, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

@@ -5,37 +5,37 @@ VALUES (0x72A4D001,  1154, 0x2A4D000B, 47.10632, 49.10731, 0.1554464, -0.7923394
 /* @teleloc 0x2A4D000B [47.106320 49.107310 0.155446] -0.792339 0.000000 0.000000 -0.610081 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4D001, 0x72A4D002, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72A4D001, 0x72A4D003, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x72A4D001, 0x72A4D004, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A4D001, 0x72A4D005, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72A4D001, 0x72A4D006, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A4D001, 0x72A4D007, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72A4D001, 0x72A4D008, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72A4D001, 0x72A4D009, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72A4D001, 0x72A4D00A, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A4D001, 0x72A4D00B, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A4D001, 0x72A4D00C, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A4D001, 0x72A4D00D, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A4D001, 0x72A4D00E, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72A4D001, 0x72A4D00F, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72A4D001, 0x72A4D010, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72A4D001, 0x72A4D011, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72A4D001, 0x72A4D012, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A4D001, 0x72A4D013, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72A4D001, 0x72A4D014, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A4D001, 0x72A4D015, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72A4D001, 0x72A4D016, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72A4D001, 0x72A4D017, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A4D001, 0x72A4D018, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72A4D001, 0x72A4D019, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72A4D001, 0x72A4D01A, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A4D001, 0x72A4D01B, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A4D001, 0x72A4D01C, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72A4D001, 0x72A4D01D, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72A4D001, 0x72A4D01E, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72A4D001, 0x72A4D01F, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72A4D001, 0x72A4D020, '2019-02-10 00:00:00') /* Bile Grievver */;
+VALUES (0x72A4D001, 0x72A4D002, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72A4D001, 0x72A4D003, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x72A4D001, 0x72A4D004, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A4D001, 0x72A4D005, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72A4D001, 0x72A4D006, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A4D001, 0x72A4D007, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72A4D001, 0x72A4D008, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72A4D001, 0x72A4D009, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72A4D001, 0x72A4D00A, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A4D001, 0x72A4D00B, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A4D001, 0x72A4D00C, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A4D001, 0x72A4D00D, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A4D001, 0x72A4D00E, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72A4D001, 0x72A4D00F, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72A4D001, 0x72A4D010, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72A4D001, 0x72A4D011, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72A4D001, 0x72A4D012, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A4D001, 0x72A4D013, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72A4D001, 0x72A4D014, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A4D001, 0x72A4D015, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72A4D001, 0x72A4D016, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72A4D001, 0x72A4D017, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A4D001, 0x72A4D018, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72A4D001, 0x72A4D019, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72A4D001, 0x72A4D01A, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A4D001, 0x72A4D01B, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A4D001, 0x72A4D01C, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72A4D001, 0x72A4D01D, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72A4D001, 0x72A4D01E, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72A4D001, 0x72A4D01F, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72A4D001, 0x72A4D020, '2019-02-10 00:00:00') /* Bile Grievver (22900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4D002, 23092, 0x2A4D000B, 47.10632, 49.10731, 0.1554464, -0.7923394, 0, 0, -0.6100805,  True, '2019-02-10 00:00:00'); /* Revered Tumerok Shaman */
@@ -166,9 +166,9 @@ VALUES (0x72A4D021,  1542, 0x2A4D001A, 92.44624, 41.27161, 6.793656, 0.8682517, 
 /* @teleloc 0x2A4D001A [92.446240 41.271610 6.793656] 0.868252 0.000000 0.000000 -0.496124 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4D021, 0x72A4D022, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72A4D021, 0x72A4D023, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72A4D021, 0x72A4D024, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72A4D021, 0x72A4D022, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A4D021, 0x72A4D023, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A4D021, 0x72A4D024, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4D022, 46284, 0x2A4D001A, 92.44624, 41.27161, 6.793656, 0.8682517, 0, 0, -0.4961239,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

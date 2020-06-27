@@ -5,17 +5,17 @@ VALUES (0x745B0001,  1154, 0x45B0001B, 85.7038, 58.20511, 76.00102, -0.6260101, 
 /* @teleloc 0x45B0001B [85.703800 58.205110 76.001020] -0.626010 0.000000 0.000000 -0.779815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B0001, 0x745B0002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x745B0001, 0x745B0003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x745B0001, 0x745B0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x745B0001, 0x745B0005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x745B0001, 0x745B0006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x745B0001, 0x745B0007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x745B0001, 0x745B0008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x745B0001, 0x745B0009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x745B0001, 0x745B000A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x745B0001, 0x745B000B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x745B0001, 0x745B000C, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x745B0001, 0x745B0002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x745B0001, 0x745B0003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x745B0001, 0x745B0004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x745B0001, 0x745B0005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x745B0001, 0x745B0006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x745B0001, 0x745B0007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x745B0001, 0x745B0008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x745B0001, 0x745B0009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x745B0001, 0x745B000A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x745B0001, 0x745B000B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x745B0001, 0x745B000C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B0002,  4255, 0x45B0001B, 85.7038, 58.20511, 76.00102, -0.6260101, 0, 0, -0.779815,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

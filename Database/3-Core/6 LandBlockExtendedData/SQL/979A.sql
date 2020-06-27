@@ -9,13 +9,13 @@ VALUES (0x7979A001,  1154, 0x979A000F, 26.3993, 166.831, 38.08742, 0.992198, 0, 
 /* @teleloc 0x979A000F [26.399300 166.831000 38.087420] 0.992198 0.000000 0.000000 0.124674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7979A001, 0x7979A002, '2019-02-10 00:00:00') /* Strange Device */
-     , (0x7979A001, 0x7979A003, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x7979A001, 0x7979A004, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x7979A001, 0x7979A005, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x7979A001, 0x7979A006, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x7979A001, 0x7979A007, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker */
-     , (0x7979A001, 0x7979A008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7979A001, 0x7979A002, '2019-02-10 00:00:00') /* Strange Device (36776) */
+     , (0x7979A001, 0x7979A003, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x7979A001, 0x7979A004, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x7979A001, 0x7979A005, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x7979A001, 0x7979A006, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x7979A001, 0x7979A007, '2019-02-10 00:00:00') /* Olthoi Sentinel Tracker (36773) */
+     , (0x7979A001, 0x7979A008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7979A002, 36776, 0x979A000F, 26.3993, 166.831, 38.08742, 0.992198, 0, 0, 0.124674,  True, '2019-02-10 00:00:00'); /* Strange Device */
@@ -50,8 +50,8 @@ VALUES (0x7979A009,  1154, 0x979A000E, 29.53781, 120.9943, 46.91631, -0.9914449,
 /* @teleloc 0x979A000E [29.537810 120.994300 46.916310] -0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7979A009, 0x7979A00A, '2019-02-10 00:00:00') /* Elysa Strathelar */
-     , (0x7979A009, 0x7979A00B, '2019-02-10 00:00:00') /* Thorsten Cragstone */;
+VALUES (0x7979A009, 0x7979A00A, '2019-02-10 00:00:00') /* Elysa Strathelar (36789) */
+     , (0x7979A009, 0x7979A00B, '2019-02-10 00:00:00') /* Thorsten Cragstone (36795) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7979A00A, 36789, 0x979A000E, 29.53781, 120.9943, 46.91631, -0.9914449, 0, 0, -0.1305261,  True, '2019-02-10 00:00:00'); /* Elysa Strathelar */
@@ -66,10 +66,10 @@ VALUES (0x7979A00C,  1542, 0x979A000F, 32.4608, 167.8029, 38.20629, 0.9921978, 0
 /* @teleloc 0x979A000F [32.460800 167.802900 38.206290] 0.992198 0.000000 0.000000 0.124674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7979A00C, 0x7979A00D, '2019-02-10 00:00:00') /* Elysa's Hope */
-     , (0x7979A00C, 0x7979A00E, '2019-02-10 00:00:00') /* Elysa's Hope */
-     , (0x7979A00C, 0x7979A00F, '2019-02-10 00:00:00') /* Elysa's Hope */
-     , (0x7979A00C, 0x7979A010, '2019-02-10 00:00:00') /* Elysa's Hope */;
+VALUES (0x7979A00C, 0x7979A00D, '2019-02-10 00:00:00') /* Elysa's Hope (36786) */
+     , (0x7979A00C, 0x7979A00E, '2019-02-10 00:00:00') /* Elysa's Hope (36786) */
+     , (0x7979A00C, 0x7979A00F, '2019-02-10 00:00:00') /* Elysa's Hope (36786) */
+     , (0x7979A00C, 0x7979A010, '2019-02-10 00:00:00') /* Elysa's Hope (36786) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7979A00D, 36786, 0x979A000F, 32.4608, 167.8029, 38.20629, 0.9921978, 0, 0, 0.124674,  True, '2019-02-10 00:00:00'); /* Elysa's Hope */

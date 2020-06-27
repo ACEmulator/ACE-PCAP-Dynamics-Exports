@@ -5,10 +5,10 @@ VALUES (0x7C92A001,  1154, 0xC92A0003, 5.044312, 70.92514, 184.3212, 0.7287018, 
 /* @teleloc 0xC92A0003 [5.044312 70.925140 184.321200] 0.728702 0.000000 0.000000 -0.684831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C92A001, 0x7C92A002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7C92A001, 0x7C92A003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C92A001, 0x7C92A004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C92A001, 0x7C92A005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7C92A001, 0x7C92A002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7C92A001, 0x7C92A003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C92A001, 0x7C92A004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C92A001, 0x7C92A005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C92A002,  8139, 0xC92A0003, 5.044312, 70.92514, 184.3212, 0.7287018, 0, 0, -0.6848311,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -31,7 +31,7 @@ VALUES (0x7C92A006,  1542, 0xC92A001F, 75.58925, 145.8347, 152.9655, 0.3233183, 
 /* @teleloc 0xC92A001F [75.589250 145.834700 152.965500] 0.323318 0.000000 0.000000 -0.946290 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C92A006, 0x7C92A007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C92A006, 0x7C92A007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C92A007,  8037, 0xC92A001F, 75.58925, 145.8347, 152.9655, 0.3233183, 0, 0, -0.9462903,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

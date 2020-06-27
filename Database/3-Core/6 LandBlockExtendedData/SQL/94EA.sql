@@ -5,18 +5,18 @@ VALUES (0x794EA001,  1154, 0x94EA003E, 177.4431, 137.5391, 22.66066, 0.2242135, 
 /* @teleloc 0x94EA003E [177.443100 137.539100 22.660660] 0.224214 0.000000 0.000000 -0.974540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794EA001, 0x794EA002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x794EA001, 0x794EA003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x794EA001, 0x794EA004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x794EA001, 0x794EA005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794EA001, 0x794EA006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794EA001, 0x794EA007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794EA001, 0x794EA008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x794EA001, 0x794EA009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x794EA001, 0x794EA00A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x794EA001, 0x794EA00B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x794EA001, 0x794EA00C, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x794EA001, 0x794EA00D, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x794EA001, 0x794EA002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x794EA001, 0x794EA003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x794EA001, 0x794EA004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x794EA001, 0x794EA005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794EA001, 0x794EA006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794EA001, 0x794EA007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794EA001, 0x794EA008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x794EA001, 0x794EA009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x794EA001, 0x794EA00A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x794EA001, 0x794EA00B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x794EA001, 0x794EA00C, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x794EA001, 0x794EA00D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794EA002, 38177, 0x94EA003E, 177.4431, 137.5391, 22.66066, 0.2242135, 0, 0, -0.9745401,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -71,8 +71,8 @@ VALUES (0x794EA00E,  1542, 0x94EA0021, 103.6411, 0.7710096, 29.14501, -4.371139E
 /* @teleloc 0x94EA0021 [103.641100 0.771010 29.145010] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794EA00E, 0x794EA00F, '2019-02-10 00:00:00') /* Bones */
-     , (0x794EA00E, 0x794EA010, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x794EA00E, 0x794EA00F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x794EA00E, 0x794EA010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794EA00F,  4380, 0x94EA0021, 103.6411, 0.7710096, 29.14501, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

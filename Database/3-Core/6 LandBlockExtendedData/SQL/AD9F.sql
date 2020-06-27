@@ -5,15 +5,15 @@ VALUES (0x7AD9F001,  1154, 0xAD9F0029, 135.0085, 20.92638, 76.7403, 0.3407965, 0
 /* @teleloc 0xAD9F0029 [135.008500 20.926380 76.740300] 0.340797 0.000000 0.000000 -0.940137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9F001, 0x7AD9F002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AD9F001, 0x7AD9F003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AD9F001, 0x7AD9F004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AD9F001, 0x7AD9F005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AD9F001, 0x7AD9F006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AD9F001, 0x7AD9F007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AD9F001, 0x7AD9F008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD9F001, 0x7AD9F009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD9F001, 0x7AD9F00A, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7AD9F001, 0x7AD9F002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AD9F001, 0x7AD9F003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AD9F001, 0x7AD9F004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AD9F001, 0x7AD9F005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AD9F001, 0x7AD9F006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AD9F001, 0x7AD9F007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AD9F001, 0x7AD9F008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD9F001, 0x7AD9F009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD9F001, 0x7AD9F00A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9F002,  9253, 0xAD9F0029, 135.0085, 20.92638, 76.7403, 0.3407965, 0, 0, -0.9401371,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7AD9F00B,  1542, 0xAD9F0015, 59.11978, 114.0851, 92.14671, 1, 0, 0, 0,
 /* @teleloc 0xAD9F0015 [59.119780 114.085100 92.146710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9F00B, 0x7AD9F00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AD9F00B, 0x7AD9F00C, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9F00C, 22576, 0xAD9F0015, 59.11978, 114.0851, 92.14671, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

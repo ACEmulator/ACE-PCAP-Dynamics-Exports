@@ -5,39 +5,39 @@ VALUES (0x75FB7001,  1154, 0x5FB70009, 27.05187, 18.46096, 0.7199093, 0.9996941,
 /* @teleloc 0x5FB70009 [27.051870 18.460960 0.719909] 0.999694 0.000000 0.000000 -0.024733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FB7001, 0x75FB7002, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x75FB7001, 0x75FB7003, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB7004, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB7005, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB7006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75FB7001, 0x75FB7007, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB7008, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB7009, '2019-02-10 00:00:00') /* Frost */
-     , (0x75FB7001, 0x75FB700A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75FB7001, 0x75FB700B, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x75FB7001, 0x75FB700C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75FB7001, 0x75FB700D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75FB7001, 0x75FB700E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75FB7001, 0x75FB700F, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75FB7001, 0x75FB7010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75FB7001, 0x75FB7011, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75FB7001, 0x75FB7012, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75FB7001, 0x75FB7013, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75FB7001, 0x75FB7014, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75FB7001, 0x75FB7015, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75FB7001, 0x75FB7016, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x75FB7001, 0x75FB7017, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FB7001, 0x75FB7018, '2019-02-10 00:00:00') /* Static */
-     , (0x75FB7001, 0x75FB7019, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75FB7001, 0x75FB701A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75FB7001, 0x75FB701B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75FB7001, 0x75FB701C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75FB7001, 0x75FB701D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75FB7001, 0x75FB701E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75FB7001, 0x75FB701F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75FB7001, 0x75FB7020, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75FB7001, 0x75FB7021, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75FB7001, 0x75FB7022, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75FB7001, 0x75FB7002, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x75FB7001, 0x75FB7003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB7004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB7005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB7006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75FB7001, 0x75FB7007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB7008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB7009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75FB7001, 0x75FB700A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75FB7001, 0x75FB700B, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x75FB7001, 0x75FB700C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75FB7001, 0x75FB700D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75FB7001, 0x75FB700E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75FB7001, 0x75FB700F, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75FB7001, 0x75FB7010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75FB7001, 0x75FB7011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75FB7001, 0x75FB7012, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75FB7001, 0x75FB7013, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75FB7001, 0x75FB7014, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75FB7001, 0x75FB7015, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75FB7001, 0x75FB7016, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x75FB7001, 0x75FB7017, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FB7001, 0x75FB7018, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75FB7001, 0x75FB7019, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75FB7001, 0x75FB701A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75FB7001, 0x75FB701B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75FB7001, 0x75FB701C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75FB7001, 0x75FB701D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75FB7001, 0x75FB701E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75FB7001, 0x75FB701F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75FB7001, 0x75FB7020, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75FB7001, 0x75FB7021, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75FB7001, 0x75FB7022, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FB7002, 30882, 0x5FB70009, 27.05187, 18.46096, 0.7199093, 0.9996941, 0, 0, -0.02473261,  True, '2019-02-10 00:00:00'); /* Banished Shadow */
@@ -176,8 +176,8 @@ VALUES (0x75FB7023,  1542, 0x5FB7002C, 136.7152, 75.31515, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x5FB7002C [136.715200 75.315150 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FB7023, 0x75FB7024, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75FB7023, 0x75FB7025, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75FB7023, 0x75FB7024, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75FB7023, 0x75FB7025, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FB7024, 22567, 0x5FB7002C, 136.7152, 75.31515, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

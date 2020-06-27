@@ -5,32 +5,32 @@ VALUES (0x73C4A001,  1154, 0x3C4A0022, 111.2518, 40.89414, 28.64328, -0.9968853,
 /* @teleloc 0x3C4A0022 [111.251800 40.894140 28.643280] -0.996885 0.000000 0.000000 -0.078865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4A001, 0x73C4A002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A003, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A004, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C4A001, 0x73C4A006, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C4A001, 0x73C4A008, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C4A001, 0x73C4A009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C4A001, 0x73C4A00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C4A001, 0x73C4A00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C4A001, 0x73C4A00D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A00E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A00F, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C4A001, 0x73C4A010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A011, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C4A001, 0x73C4A012, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A013, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A014, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73C4A001, 0x73C4A015, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A016, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73C4A001, 0x73C4A017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73C4A001, 0x73C4A018, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73C4A001, 0x73C4A019, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73C4A001, 0x73C4A01A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C4A001, 0x73C4A01B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x73C4A001, 0x73C4A002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A003, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C4A001, 0x73C4A006, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73C4A001, 0x73C4A008, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C4A001, 0x73C4A009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C4A001, 0x73C4A00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C4A001, 0x73C4A00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C4A001, 0x73C4A00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A00E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A00F, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C4A001, 0x73C4A010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A011, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C4A001, 0x73C4A012, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A013, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A014, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73C4A001, 0x73C4A015, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A016, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73C4A001, 0x73C4A017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73C4A001, 0x73C4A018, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73C4A001, 0x73C4A019, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73C4A001, 0x73C4A01A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C4A001, 0x73C4A01B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4A002,  7181, 0x3C4A0022, 111.2518, 40.89414, 28.64328, -0.9968853, 0, 0, -0.07886476,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -141,11 +141,11 @@ VALUES (0x73C4A01C,  1542, 0x3C4A0023, 115.4413, 57.91273, 24.69576, 0.9990482, 
 /* @teleloc 0x3C4A0023 [115.441300 57.912730 24.695760] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4A01C, 0x73C4A01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C4A01C, 0x73C4A01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C4A01C, 0x73C4A01F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C4A01C, 0x73C4A020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C4A01C, 0x73C4A021, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73C4A01C, 0x73C4A01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C4A01C, 0x73C4A01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C4A01C, 0x73C4A01F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C4A01C, 0x73C4A020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C4A01C, 0x73C4A021, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C4A01D,  4179, 0x3C4A0023, 115.4413, 57.91273, 24.69576, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

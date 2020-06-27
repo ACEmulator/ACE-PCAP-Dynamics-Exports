@@ -5,19 +5,19 @@ VALUES (0x73C62001,  1154, 0x3C620029, 129.8872, 17.36375, 72.0065, 0.9903594, 0
 /* @teleloc 0x3C620029 [129.887200 17.363750 72.006500] 0.990359 0.000000 0.000000 -0.138522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C62001, 0x73C62002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73C62001, 0x73C62003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73C62001, 0x73C62004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C62001, 0x73C62005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C62001, 0x73C62006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C62001, 0x73C62007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C62001, 0x73C62008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C62001, 0x73C62009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73C62001, 0x73C6200A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73C62001, 0x73C6200B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C62001, 0x73C6200C, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73C62001, 0x73C6200D, '2019-02-10 00:00:00') /* Flare */
-     , (0x73C62001, 0x73C6200E, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73C62001, 0x73C62002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73C62001, 0x73C62003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73C62001, 0x73C62004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C62001, 0x73C62005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C62001, 0x73C62006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C62001, 0x73C62007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C62001, 0x73C62008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C62001, 0x73C62009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73C62001, 0x73C6200A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73C62001, 0x73C6200B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C62001, 0x73C6200C, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73C62001, 0x73C6200D, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73C62001, 0x73C6200E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C62002, 21551, 0x3C620029, 129.8872, 17.36375, 72.0065, 0.9903594, 0, 0, -0.1385215,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
@@ -76,8 +76,8 @@ VALUES (0x73C6200F,  1542, 0x3C620027, 105.4404, 160.268, 67.71311, 1, 0, 0, 0, 
 /* @teleloc 0x3C620027 [105.440400 160.268000 67.713110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C6200F, 0x73C62010, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73C6200F, 0x73C62011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73C6200F, 0x73C62010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73C6200F, 0x73C62011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C62010, 31445, 0x3C620027, 105.4404, 160.268, 67.71311, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

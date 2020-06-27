@@ -5,11 +5,11 @@ VALUES (0x77B78001,  1154, 0x7B78002F, 130.229, 163.6377, 10.4964, 0.5539661, 0,
 /* @teleloc 0x7B78002F [130.229000 163.637700 10.496400] 0.553966 0.000000 0.000000 -0.832539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B78001, 0x77B78002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77B78001, 0x77B78003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77B78001, 0x77B78004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x77B78001, 0x77B78005, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77B78001, 0x77B78006, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77B78001, 0x77B78002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77B78001, 0x77B78003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77B78001, 0x77B78004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x77B78001, 0x77B78005, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x77B78001, 0x77B78006, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B78002,   950, 0x7B78002F, 130.229, 163.6377, 10.4964, 0.5539661, 0, 0, -0.8325392,  True, '2019-02-10 00:00:00'); /* Zombie */

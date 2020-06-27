@@ -5,15 +5,15 @@ VALUES (0x73FB2001,  1154, 0x3FB2000E, 44.85489, 126.639, 16.07371, -4.371139E-0
 /* @teleloc 0x3FB2000E [44.854890 126.639000 16.073710] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB2001, 0x73FB2002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73FB2001, 0x73FB2003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73FB2001, 0x73FB2004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73FB2001, 0x73FB2005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73FB2001, 0x73FB2006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73FB2001, 0x73FB2007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73FB2001, 0x73FB2008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73FB2001, 0x73FB2009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73FB2001, 0x73FB200A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x73FB2001, 0x73FB2002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73FB2001, 0x73FB2003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73FB2001, 0x73FB2004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73FB2001, 0x73FB2005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73FB2001, 0x73FB2006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73FB2001, 0x73FB2007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73FB2001, 0x73FB2008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73FB2001, 0x73FB2009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73FB2001, 0x73FB200A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB2002,  7109, 0x3FB2000E, 44.85489, 126.639, 16.07371, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -56,7 +56,7 @@ VALUES (0x73FB200B,  1542, 0x3FB20015, 60.41048, 119.1654, 16.37268, 0.9914449, 
 /* @teleloc 0x3FB20015 [60.410480 119.165400 16.372680] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB200B, 0x73FB200C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73FB200B, 0x73FB200C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB200C,  4380, 0x3FB20015, 60.41048, 119.1654, 16.37268, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

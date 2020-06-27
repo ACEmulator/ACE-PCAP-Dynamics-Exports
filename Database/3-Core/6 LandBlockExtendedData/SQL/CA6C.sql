@@ -5,12 +5,12 @@ VALUES (0x7CA6C001,  1154, 0xCA6C003D, 187.9619, 112.2923, 58.005, 0.4202563, 0,
 /* @teleloc 0xCA6C003D [187.961900 112.292300 58.005000] 0.420256 0.000000 0.000000 -0.907406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA6C001, 0x7CA6C002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CA6C001, 0x7CA6C003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CA6C001, 0x7CA6C004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CA6C001, 0x7CA6C005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CA6C001, 0x7CA6C006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA6C001, 0x7CA6C007, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7CA6C001, 0x7CA6C002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CA6C001, 0x7CA6C003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CA6C001, 0x7CA6C004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CA6C001, 0x7CA6C005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CA6C001, 0x7CA6C006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA6C001, 0x7CA6C007, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA6C002,  1758, 0xCA6C003D, 187.9619, 112.2923, 58.005, 0.4202563, 0, 0, -0.9074055,  True, '2019-02-10 00:00:00'); /* Shadow */

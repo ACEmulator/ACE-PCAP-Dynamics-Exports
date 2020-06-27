@@ -5,20 +5,20 @@ VALUES (0x7376D001,  1154, 0x376D001C, 93.83581, 73.66146, 42.32595, 0.8926814, 
 /* @teleloc 0x376D001C [93.835810 73.661460 42.325950] 0.892681 0.000000 0.000000 -0.450688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376D001, 0x7376D002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7376D001, 0x7376D003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7376D001, 0x7376D004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7376D001, 0x7376D005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7376D001, 0x7376D006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7376D001, 0x7376D007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7376D001, 0x7376D008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7376D001, 0x7376D009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7376D001, 0x7376D00A, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7376D001, 0x7376D00B, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7376D001, 0x7376D00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7376D001, 0x7376D00D, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7376D001, 0x7376D00E, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7376D001, 0x7376D00F, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7376D001, 0x7376D002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7376D001, 0x7376D003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7376D001, 0x7376D004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7376D001, 0x7376D005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7376D001, 0x7376D006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7376D001, 0x7376D007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7376D001, 0x7376D008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7376D001, 0x7376D009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7376D001, 0x7376D00A, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7376D001, 0x7376D00B, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7376D001, 0x7376D00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7376D001, 0x7376D00D, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7376D001, 0x7376D00E, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7376D001, 0x7376D00F, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376D002,  7346, 0x376D001C, 93.83581, 73.66146, 42.32595, 0.8926814, 0, 0, -0.4506882,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -81,7 +81,7 @@ VALUES (0x7376D010,  1542, 0x376D0031, 154.4521, 14.61993, 37.9085, 1, 0, 0, 0, 
 /* @teleloc 0x376D0031 [154.452100 14.619930 37.908500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376D010, 0x7376D011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7376D010, 0x7376D011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376D011, 31445, 0x376D0031, 154.4521, 14.61993, 37.9085, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

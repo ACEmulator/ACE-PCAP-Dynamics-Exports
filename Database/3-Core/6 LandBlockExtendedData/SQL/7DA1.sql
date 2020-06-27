@@ -5,17 +5,17 @@ VALUES (0x77DA1001,  1154, 0x7DA10040, 181.4419, 184.0573, 32.21849, 0.7071068, 
 /* @teleloc 0x7DA10040 [181.441900 184.057300 32.218490] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DA1001, 0x77DA1002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77DA1001, 0x77DA1003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x77DA1001, 0x77DA1004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77DA1001, 0x77DA1005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77DA1001, 0x77DA1006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77DA1001, 0x77DA1007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77DA1001, 0x77DA1008, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x77DA1001, 0x77DA1009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77DA1001, 0x77DA100A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DA1001, 0x77DA100B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77DA1001, 0x77DA100C, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x77DA1001, 0x77DA1002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77DA1001, 0x77DA1003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x77DA1001, 0x77DA1004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77DA1001, 0x77DA1005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77DA1001, 0x77DA1006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77DA1001, 0x77DA1007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77DA1001, 0x77DA1008, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x77DA1001, 0x77DA1009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77DA1001, 0x77DA100A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DA1001, 0x77DA100B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77DA1001, 0x77DA100C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DA1002, 24294, 0x7DA10040, 181.4419, 184.0573, 32.21849, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -66,8 +66,8 @@ VALUES (0x77DA100D,  1542, 0x7DA10040, 176.2916, 182.5784, 31.73733, 0.9990482, 
 /* @teleloc 0x7DA10040 [176.291600 182.578400 31.737330] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DA100D, 0x77DA100E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77DA100D, 0x77DA100F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77DA100D, 0x77DA100E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77DA100D, 0x77DA100F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DA100E,  4179, 0x7DA10040, 176.2916, 182.5784, 31.73733, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

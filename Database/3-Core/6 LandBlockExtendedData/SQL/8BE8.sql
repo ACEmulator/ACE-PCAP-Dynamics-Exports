@@ -5,17 +5,17 @@ VALUES (0x78BE8001,  1154, 0x8BE80013, 52.78621, 50.14566, 34.37261, 0.9715829, 
 /* @teleloc 0x8BE80013 [52.786210 50.145660 34.372610] 0.971583 0.000000 0.000000 -0.236700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE8001, 0x78BE8002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78BE8001, 0x78BE8003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78BE8001, 0x78BE8004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BE8001, 0x78BE8005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BE8001, 0x78BE8006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78BE8001, 0x78BE8007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78BE8001, 0x78BE8008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BE8001, 0x78BE8009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78BE8001, 0x78BE800A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BE8001, 0x78BE800B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78BE8001, 0x78BE800C, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x78BE8001, 0x78BE8002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78BE8001, 0x78BE8003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78BE8001, 0x78BE8004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BE8001, 0x78BE8005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BE8001, 0x78BE8006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78BE8001, 0x78BE8007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78BE8001, 0x78BE8008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BE8001, 0x78BE8009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78BE8001, 0x78BE800A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BE8001, 0x78BE800B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78BE8001, 0x78BE800C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE8002, 11533, 0x8BE80013, 52.78621, 50.14566, 34.37261, 0.9715829, 0, 0, -0.2366996,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -66,13 +66,13 @@ VALUES (0x78BE800D,  1542, 0x8BE8002C, 133.8654, 89.18484, 36.33662, 1, 0, 0, 0,
 /* @teleloc 0x8BE8002C [133.865400 89.184840 36.336620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE800D, 0x78BE800E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x78BE800D, 0x78BE800F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78BE800D, 0x78BE8010, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x78BE800D, 0x78BE8011, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x78BE800D, 0x78BE8012, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x78BE800D, 0x78BE8013, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x78BE800D, 0x78BE8014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78BE800D, 0x78BE800E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x78BE800D, 0x78BE800F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78BE800D, 0x78BE8010, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x78BE800D, 0x78BE8011, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x78BE800D, 0x78BE8012, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x78BE800D, 0x78BE8013, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x78BE800D, 0x78BE8014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE800E,  9024, 0x8BE8002C, 133.8654, 89.18484, 36.33662, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

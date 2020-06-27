@@ -5,26 +5,26 @@ VALUES (0x763E9001,  1154, 0x63E90022, 116.5812, 43.62329, 53.87975, 0.9396926, 
 /* @teleloc 0x63E90022 [116.581200 43.623290 53.879750] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E9001, 0x763E9002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x763E9001, 0x763E9003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x763E9001, 0x763E9004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x763E9001, 0x763E9005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x763E9001, 0x763E9006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x763E9001, 0x763E9007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x763E9001, 0x763E9008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x763E9001, 0x763E9009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x763E9001, 0x763E900A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x763E9001, 0x763E900B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x763E9001, 0x763E900C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x763E9001, 0x763E900D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x763E9001, 0x763E900E, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x763E9001, 0x763E900F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E9001, 0x763E9010, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E9001, 0x763E9011, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E9001, 0x763E9012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x763E9001, 0x763E9013, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x763E9001, 0x763E9014, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x763E9001, 0x763E9015, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x763E9001, 0x763E9002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x763E9001, 0x763E9003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x763E9001, 0x763E9004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x763E9001, 0x763E9005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x763E9001, 0x763E9006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x763E9001, 0x763E9007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x763E9001, 0x763E9008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x763E9001, 0x763E9009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x763E9001, 0x763E900A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x763E9001, 0x763E900B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x763E9001, 0x763E900C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x763E9001, 0x763E900D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x763E9001, 0x763E900E, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x763E9001, 0x763E900F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E9001, 0x763E9010, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E9001, 0x763E9011, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E9001, 0x763E9012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x763E9001, 0x763E9013, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x763E9001, 0x763E9014, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x763E9001, 0x763E9015, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E9002, 37098, 0x63E90022, 116.5812, 43.62329, 53.87975, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */
@@ -111,9 +111,9 @@ VALUES (0x763E9016,  1542, 0x63E90022, 98.85954, 39.07079, 52.59298, -4.371139E-
 /* @teleloc 0x63E90022 [98.859540 39.070790 52.592980] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E9016, 0x763E9017, '2019-02-10 00:00:00') /* Bones */
-     , (0x763E9016, 0x763E9018, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x763E9016, 0x763E9019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x763E9016, 0x763E9017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x763E9016, 0x763E9018, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x763E9016, 0x763E9019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E9017,  4380, 0x63E90022, 98.85954, 39.07079, 52.59298, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

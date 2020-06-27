@@ -5,8 +5,8 @@ VALUES (0x7C478001,  1154, 0xC4780017, 57.21001, 144.1005, 22.01887, 0.1261653, 
 /* @teleloc 0xC4780017 [57.210010 144.100500 22.018870] 0.126165 0.000000 0.000000 -0.992009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C478001, 0x7C478002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C478001, 0x7C478003, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7C478001, 0x7C478002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C478001, 0x7C478003, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C478002,   180, 0xC4780017, 57.21001, 144.1005, 22.01887, 0.1261653, 0, 0, -0.9920092,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */

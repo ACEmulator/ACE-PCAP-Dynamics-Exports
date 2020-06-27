@@ -5,19 +5,19 @@ VALUES (0x72D40001,  1154, 0x2D400038, 161.506, 172.242, 25.66834, 0.9998399, 0,
 /* @teleloc 0x2D400038 [161.506000 172.242000 25.668340] 0.999840 0.000000 0.000000 -0.017893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D40001, 0x72D40002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72D40001, 0x72D40003, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72D40001, 0x72D40004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72D40001, 0x72D40005, '2019-02-10 00:00:00') /* Flare */
-     , (0x72D40001, 0x72D40006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D40001, 0x72D40007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D40001, 0x72D40008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D40001, 0x72D40009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D40001, 0x72D4000A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D40001, 0x72D4000B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72D40001, 0x72D4000C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D40001, 0x72D4000D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D40001, 0x72D4000E, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x72D40001, 0x72D40002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72D40001, 0x72D40003, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72D40001, 0x72D40004, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72D40001, 0x72D40005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72D40001, 0x72D40006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D40001, 0x72D40007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D40001, 0x72D40008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D40001, 0x72D40009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D40001, 0x72D4000A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D40001, 0x72D4000B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72D40001, 0x72D4000C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D40001, 0x72D4000D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D40001, 0x72D4000E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D40002,  7126, 0x2D400038, 161.506, 172.242, 25.66834, 0.9998399, 0, 0, -0.01789309,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -76,7 +76,7 @@ VALUES (0x72D4000F,  1542, 0x2D40002D, 139.1919, 118.6661, 125.9978, 1, 0, 0, 0,
 /* @teleloc 0x2D40002D [139.191900 118.666100 125.997800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D4000F, 0x72D40010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72D4000F, 0x72D40010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D40010, 31445, 0x2D40002D, 139.1919, 118.6661, 125.9978, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

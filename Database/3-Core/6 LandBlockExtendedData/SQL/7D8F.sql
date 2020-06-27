@@ -73,30 +73,30 @@ VALUES (0x77D8F011,  1154, 0x7D8F0040, 172.2766, 173.0772, 203.9985, 0.8660254, 
 /* @teleloc 0x7D8F0040 [172.276600 173.077200 203.998500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D8F011, 0x77D8F012, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77D8F011, 0x77D8F013, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77D8F011, 0x77D8F014, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77D8F011, 0x77D8F015, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77D8F011, 0x77D8F016, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x77D8F011, 0x77D8F017, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77D8F011, 0x77D8F018, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x77D8F011, 0x77D8F019, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77D8F011, 0x77D8F01A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77D8F011, 0x77D8F01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D8F011, 0x77D8F01C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x77D8F011, 0x77D8F01D, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x77D8F011, 0x77D8F01E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77D8F011, 0x77D8F01F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77D8F011, 0x77D8F020, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77D8F011, 0x77D8F021, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77D8F011, 0x77D8F022, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77D8F011, 0x77D8F023, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x77D8F011, 0x77D8F024, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77D8F011, 0x77D8F025, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x77D8F011, 0x77D8F026, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x77D8F011, 0x77D8F027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D8F011, 0x77D8F028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D8F011, 0x77D8F029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77D8F011, 0x77D8F012, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77D8F011, 0x77D8F013, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77D8F011, 0x77D8F014, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77D8F011, 0x77D8F015, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77D8F011, 0x77D8F016, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x77D8F011, 0x77D8F017, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77D8F011, 0x77D8F018, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x77D8F011, 0x77D8F019, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77D8F011, 0x77D8F01A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77D8F011, 0x77D8F01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D8F011, 0x77D8F01C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x77D8F011, 0x77D8F01D, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x77D8F011, 0x77D8F01E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77D8F011, 0x77D8F01F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77D8F011, 0x77D8F020, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77D8F011, 0x77D8F021, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77D8F011, 0x77D8F022, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77D8F011, 0x77D8F023, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x77D8F011, 0x77D8F024, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77D8F011, 0x77D8F025, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x77D8F011, 0x77D8F026, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x77D8F011, 0x77D8F027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D8F011, 0x77D8F028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D8F011, 0x77D8F029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D8F012,  7978, 0x7D8F0040, 172.2766, 173.0772, 203.9985, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -199,9 +199,9 @@ VALUES (0x77D8F02A,  1542, 0x7D8F0001, 22.47412, 18.77301, 124.1272, 0.9990482, 
 /* @teleloc 0x7D8F0001 [22.474120 18.773010 124.127200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D8F02A, 0x77D8F02B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77D8F02A, 0x77D8F02C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x77D8F02A, 0x77D8F02D, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x77D8F02A, 0x77D8F02B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77D8F02A, 0x77D8F02C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x77D8F02A, 0x77D8F02D, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D8F02B,  4179, 0x7D8F0001, 22.47412, 18.77301, 124.1272, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

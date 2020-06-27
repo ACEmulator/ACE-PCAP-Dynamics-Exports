@@ -5,18 +5,18 @@ VALUES (0x72A7F001,  1154, 0x2A7F0020, 72.23492, 181.8971, 70, 0.486068, 0, 0, -
 /* @teleloc 0x2A7F0020 [72.234920 181.897100 70.000000] 0.486068 0.000000 0.000000 -0.873921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7F001, 0x72A7F002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A7F001, 0x72A7F003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A7F001, 0x72A7F004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72A7F001, 0x72A7F005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72A7F001, 0x72A7F006, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x72A7F001, 0x72A7F007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A7F001, 0x72A7F008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72A7F001, 0x72A7F009, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72A7F001, 0x72A7F00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72A7F001, 0x72A7F00B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72A7F001, 0x72A7F00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A7F001, 0x72A7F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72A7F001, 0x72A7F002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A7F001, 0x72A7F003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A7F001, 0x72A7F004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72A7F001, 0x72A7F005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72A7F001, 0x72A7F006, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x72A7F001, 0x72A7F007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A7F001, 0x72A7F008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72A7F001, 0x72A7F009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72A7F001, 0x72A7F00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72A7F001, 0x72A7F00B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72A7F001, 0x72A7F00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A7F001, 0x72A7F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7F002, 23482, 0x2A7F0020, 72.23492, 181.8971, 70, 0.486068, 0, 0, -0.873921,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

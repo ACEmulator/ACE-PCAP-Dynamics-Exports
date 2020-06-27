@@ -5,17 +5,17 @@ VALUES (0x7C15A001,  1154, 0xC15A0006, 0.9023895, 132.1687, 6.01, -0.7201139, 0,
 /* @teleloc 0xC15A0006 [0.902390 132.168700 6.010000] -0.720114 0.000000 0.000000 -0.693856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15A001, 0x7C15A002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C15A001, 0x7C15A003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C15A001, 0x7C15A004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C15A001, 0x7C15A005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C15A001, 0x7C15A006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C15A001, 0x7C15A007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C15A001, 0x7C15A008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C15A001, 0x7C15A009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C15A001, 0x7C15A00A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C15A001, 0x7C15A00B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C15A001, 0x7C15A00C, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7C15A001, 0x7C15A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C15A001, 0x7C15A003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C15A001, 0x7C15A004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C15A001, 0x7C15A005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C15A001, 0x7C15A006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C15A001, 0x7C15A007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C15A001, 0x7C15A008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C15A001, 0x7C15A009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C15A001, 0x7C15A00A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C15A001, 0x7C15A00B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C15A001, 0x7C15A00C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15A002,   194, 0xC15A0006, 0.9023895, 132.1687, 6.01, -0.7201139, 0, 0, -0.6938559,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -66,7 +66,7 @@ VALUES (0x7C15A00D,  1542, 0xC15A0018, 62.30476, 179.7835, 5.9, 0.9990482, 0, 0,
 /* @teleloc 0xC15A0018 [62.304760 179.783500 5.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15A00D, 0x7C15A00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C15A00D, 0x7C15A00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15A00E,  4179, 0xC15A0018, 62.30476, 179.7835, 5.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,23 +5,23 @@ VALUES (0x7E44B001,  1154, 0xE44B0035, 148.7334, 102.5511, 30.76588, -0.9999874,
 /* @teleloc 0xE44B0035 [148.733400 102.551100 30.765880] -0.999987 0.000000 0.000000 -0.005029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44B001, 0x7E44B002, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E44B001, 0x7E44B003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44B001, 0x7E44B004, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E44B001, 0x7E44B005, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E44B001, 0x7E44B006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E44B001, 0x7E44B007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44B001, 0x7E44B008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44B001, 0x7E44B009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44B001, 0x7E44B00A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44B001, 0x7E44B00B, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E44B001, 0x7E44B00C, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E44B001, 0x7E44B00D, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E44B001, 0x7E44B00E, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44B001, 0x7E44B00F, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44B001, 0x7E44B010, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E44B001, 0x7E44B011, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E44B001, 0x7E44B012, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7E44B001, 0x7E44B002, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E44B001, 0x7E44B003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44B001, 0x7E44B004, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E44B001, 0x7E44B005, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E44B001, 0x7E44B006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E44B001, 0x7E44B007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44B001, 0x7E44B008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44B001, 0x7E44B009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44B001, 0x7E44B00A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44B001, 0x7E44B00B, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E44B001, 0x7E44B00C, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E44B001, 0x7E44B00D, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E44B001, 0x7E44B00E, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44B001, 0x7E44B00F, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44B001, 0x7E44B010, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E44B001, 0x7E44B011, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E44B001, 0x7E44B012, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44B002,   949, 0xE44B0035, 148.7334, 102.5511, 30.76588, -0.9999874, 0, 0, -0.005029093,  True, '2019-02-10 00:00:00'); /* Red Rat */

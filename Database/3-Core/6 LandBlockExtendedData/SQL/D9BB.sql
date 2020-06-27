@@ -5,15 +5,15 @@ VALUES (0x7D9BB001,  1154, 0xD9BB0002, 17.79457, 24.96185, -0.8999999, 0.540885,
 /* @teleloc 0xD9BB0002 [17.794570 24.961850 -0.900000] 0.540885 0.000000 0.000000 -0.841097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9BB001, 0x7D9BB002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D9BB001, 0x7D9BB003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D9BB001, 0x7D9BB004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D9BB001, 0x7D9BB005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D9BB001, 0x7D9BB006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D9BB001, 0x7D9BB007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D9BB001, 0x7D9BB008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D9BB001, 0x7D9BB009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9BB001, 0x7D9BB00A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7D9BB001, 0x7D9BB002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D9BB001, 0x7D9BB003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D9BB001, 0x7D9BB004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D9BB001, 0x7D9BB005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D9BB001, 0x7D9BB006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D9BB001, 0x7D9BB007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D9BB001, 0x7D9BB008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D9BB001, 0x7D9BB009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9BB001, 0x7D9BB00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9BB002,  6041, 0xD9BB0002, 17.79457, 24.96185, -0.8999999, 0.540885, 0, 0, -0.8410965,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -56,7 +56,7 @@ VALUES (0x7D9BB00B,  1542, 0xD9BB000E, 36.60912, 133.1951, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xD9BB000E [36.609120 133.195100 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9BB00B, 0x7D9BB00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D9BB00B, 0x7D9BB00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9BB00C,  4179, 0xD9BB000E, 36.60912, 133.1951, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

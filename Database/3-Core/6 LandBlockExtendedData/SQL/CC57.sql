@@ -5,11 +5,11 @@ VALUES (0x7CC57001,  1154, 0xCC570037, 144.7322, 149.9216, 17.89096, -0.6770521,
 /* @teleloc 0xCC570037 [144.732200 149.921600 17.890960] -0.677052 0.000000 0.000000 -0.735935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC57001, 0x7CC57002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC57001, 0x7CC57003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CC57001, 0x7CC57004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC57001, 0x7CC57005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC57001, 0x7CC57006, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7CC57001, 0x7CC57002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC57001, 0x7CC57003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CC57001, 0x7CC57004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC57001, 0x7CC57005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC57001, 0x7CC57006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC57002,   217, 0xCC570037, 144.7322, 149.9216, 17.89096, -0.6770521, 0, 0, -0.7359351,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -36,7 +36,7 @@ VALUES (0x7CC57007,  1542, 0xCC570038, 157.1866, 168.4235, 15.76694, -0.8261058,
 /* @teleloc 0xCC570038 [157.186600 168.423500 15.766940] -0.826106 0.000000 0.000000 -0.563515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC57007, 0x7CC57008, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CC57007, 0x7CC57008, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC57008,  8037, 0xCC570038, 157.1866, 168.4235, 15.76694, -0.8261058, 0, 0, -0.5635151,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

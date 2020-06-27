@@ -5,21 +5,21 @@ VALUES (0x7B80D001,  1154, 0xB80D0028, 101.893, 190.9914, 26.01376, 0.7771459, 0
 /* @teleloc 0xB80D0028 [101.893000 190.991400 26.013760] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B80D001, 0x7B80D002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B80D001, 0x7B80D003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B80D001, 0x7B80D004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B80D001, 0x7B80D005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7B80D001, 0x7B80D006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B80D001, 0x7B80D007, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7B80D001, 0x7B80D008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B80D001, 0x7B80D009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7B80D001, 0x7B80D00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B80D001, 0x7B80D00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B80D001, 0x7B80D00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B80D001, 0x7B80D00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B80D001, 0x7B80D00E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B80D001, 0x7B80D00F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B80D001, 0x7B80D010, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B80D001, 0x7B80D002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B80D001, 0x7B80D003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B80D001, 0x7B80D004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B80D001, 0x7B80D005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7B80D001, 0x7B80D006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B80D001, 0x7B80D007, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7B80D001, 0x7B80D008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B80D001, 0x7B80D009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7B80D001, 0x7B80D00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B80D001, 0x7B80D00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B80D001, 0x7B80D00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B80D001, 0x7B80D00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B80D001, 0x7B80D00E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B80D001, 0x7B80D00F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B80D001, 0x7B80D010, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B80D002,  1610, 0xB80D0028, 101.893, 190.9914, 26.01376, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

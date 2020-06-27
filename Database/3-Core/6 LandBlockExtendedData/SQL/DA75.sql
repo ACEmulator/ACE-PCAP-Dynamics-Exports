@@ -201,10 +201,10 @@ VALUES (0x7DA75041,  1154, 0xDA750035, 154.634, 97.9081, 18, -0.691286, 0, 0, -0
 /* @teleloc 0xDA750035 [154.634000 97.908100 18.000000] -0.691286 0.000000 0.000000 -0.722581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA75041, 0x7DA75042, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7DA75041, 0x7DA75043, '2019-02-10 00:00:00') /* Tiatus Lugian */
-     , (0x7DA75041, 0x7DA75044, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7DA75041, 0x7DA75045, '2019-02-10 00:00:00') /* Lugian Juggernaut */;
+VALUES (0x7DA75041, 0x7DA75042, '2019-02-10 00:00:00') /* Exploration Marker (39826) */
+     , (0x7DA75041, 0x7DA75043, '2019-02-10 00:00:00') /* Tiatus Lugian (7101) */
+     , (0x7DA75041, 0x7DA75044, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7DA75041, 0x7DA75045, '2019-02-10 00:00:00') /* Lugian Juggernaut (24284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA75042, 39826, 0xDA750035, 154.634, 97.9081, 18, -0.691286, 0, 0, -0.722581,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -227,37 +227,37 @@ VALUES (0x7DA75046,  1154, 0xDA75002B, 134.1897, 60.38836, 18.005, 0.707107, 0, 
 /* @teleloc 0xDA75002B [134.189700 60.388360 18.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA75046, 0x7DA75047, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75048, '2019-02-10 00:00:00') /* Lieutenant Rothe */
-     , (0x7DA75046, 0x7DA75049, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x7DA75046, 0x7DA7504A, '2019-02-10 00:00:00') /* Tumerok Collector */
-     , (0x7DA75046, 0x7DA7504B, '2019-02-10 00:00:00') /* Orcud the Beggar */
-     , (0x7DA75046, 0x7DA7504C, '2019-02-10 00:00:00') /* Gorak */
-     , (0x7DA75046, 0x7DA7504D, '2019-02-10 00:00:00') /* Journeyman Alchemist */
-     , (0x7DA75046, 0x7DA7504E, '2019-02-10 00:00:00') /* Binthura the Beggar */
-     , (0x7DA75046, 0x7DA7504F, '2019-02-10 00:00:00') /* Royal Guard Tabbeth */
-     , (0x7DA75046, 0x7DA75050, '2019-02-10 00:00:00') /* Dinsmal the Beggar */
-     , (0x7DA75046, 0x7DA75051, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75052, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75053, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75054, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75055, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75056, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75057, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75058, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75059, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA7505A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA7505B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA7505C, '2019-02-10 00:00:00') /* Orcud the Beggar */
-     , (0x7DA75046, 0x7DA7505D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA7505E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA7505F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75060, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75061, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75062, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75063, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75064, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA75046, 0x7DA75065, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7DA75046, 0x7DA75047, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75048, '2019-02-10 00:00:00') /* Lieutenant Rothe (32650) */
+     , (0x7DA75046, 0x7DA75049, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7DA75046, 0x7DA7504A, '2019-02-10 00:00:00') /* Tumerok Collector (3922) */
+     , (0x7DA75046, 0x7DA7504B, '2019-02-10 00:00:00') /* Orcud the Beggar (2223) */
+     , (0x7DA75046, 0x7DA7504C, '2019-02-10 00:00:00') /* Gorak (28516) */
+     , (0x7DA75046, 0x7DA7504D, '2019-02-10 00:00:00') /* Journeyman Alchemist (28917) */
+     , (0x7DA75046, 0x7DA7504E, '2019-02-10 00:00:00') /* Binthura the Beggar (2225) */
+     , (0x7DA75046, 0x7DA7504F, '2019-02-10 00:00:00') /* Royal Guard Tabbeth (28414) */
+     , (0x7DA75046, 0x7DA75050, '2019-02-10 00:00:00') /* Dinsmal the Beggar (2224) */
+     , (0x7DA75046, 0x7DA75051, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75052, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75053, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75054, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75055, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75056, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75057, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75058, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75059, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA7505A, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA7505B, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA7505C, '2019-02-10 00:00:00') /* Orcud the Beggar (2223) */
+     , (0x7DA75046, 0x7DA7505D, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA7505E, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA7505F, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75060, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75061, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75062, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75063, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75064, '2019-02-10 00:00:00') /* Town Crier (5773) */
+     , (0x7DA75046, 0x7DA75065, '2019-02-10 00:00:00') /* Town Crier (5773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA75047,  5773, 0xDA75002B, 134.1897, 60.38836, 18.005, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Town Crier */
@@ -388,7 +388,7 @@ VALUES (0x7DA75066,  1542, 0xDA75002B, 125.8738, 54.04275, 17.937, -0.5207444, 0
 /* @teleloc 0xDA75002B [125.873800 54.042750 17.937000] -0.520744 0.000000 0.000000 0.853713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA75066, 0x7DA75067, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7DA75066, 0x7DA75067, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA75067,  1955, 0xDA75002B, 125.8738, 54.04275, 17.937, -0.5207444, 0, 0, 0.8537126,  True, '2019-02-10 00:00:00'); /* Gateway */

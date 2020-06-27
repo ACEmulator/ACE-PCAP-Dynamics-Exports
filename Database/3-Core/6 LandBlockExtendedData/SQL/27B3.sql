@@ -5,10 +5,10 @@ VALUES (0x727B3001,  1154, 0x27B30025, 106.913, 98.72021, 0.2191846, -0.973094, 
 /* @teleloc 0x27B30025 [106.913000 98.720210 0.219185] -0.973094 0.000000 0.000000 -0.230408 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727B3001, 0x727B3002, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x727B3001, 0x727B3003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x727B3001, 0x727B3004, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x727B3001, 0x727B3005, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x727B3001, 0x727B3002, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x727B3001, 0x727B3003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x727B3001, 0x727B3004, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x727B3001, 0x727B3005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727B3002, 11487, 0x27B30025, 106.913, 98.72021, 0.2191846, -0.973094, 0, 0, -0.2304082,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */
@@ -31,8 +31,8 @@ VALUES (0x727B3006,  1542, 0x27B3002A, 141.6153, 28.97425, 1, 1, 0, 0, 0, False,
 /* @teleloc 0x27B3002A [141.615300 28.974250 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727B3006, 0x727B3007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x727B3006, 0x727B3008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x727B3006, 0x727B3007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x727B3006, 0x727B3008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727B3007,  9024, 0x27B3002A, 141.6153, 28.97425, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

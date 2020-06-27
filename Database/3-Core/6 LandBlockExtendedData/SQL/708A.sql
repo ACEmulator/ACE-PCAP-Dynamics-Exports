@@ -5,12 +5,12 @@ VALUES (0x7708A001,  1154, 0x708A0015, 53.22071, 106.4821, 0.006600022, 0.061048
 /* @teleloc 0x708A0015 [53.220710 106.482100 0.006600] 0.061049 0.000000 0.000000 -0.998135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7708A001, 0x7708A002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7708A001, 0x7708A003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7708A001, 0x7708A004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7708A001, 0x7708A005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7708A001, 0x7708A006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7708A001, 0x7708A007, '2019-02-10 00:00:00') /* Mosswart Zealot */;
+VALUES (0x7708A001, 0x7708A002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7708A001, 0x7708A003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7708A001, 0x7708A004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7708A001, 0x7708A005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7708A001, 0x7708A006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7708A001, 0x7708A007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7708A002,  8427, 0x708A0015, 53.22071, 106.4821, 0.006600022, 0.06104851, 0, 0, -0.9981348,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */

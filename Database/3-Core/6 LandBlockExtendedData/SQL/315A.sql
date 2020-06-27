@@ -5,12 +5,12 @@ VALUES (0x7315A001,  1154, 0x315A002B, 131.0933, 53.2856, 17.87789, 0.7071068, 0
 /* @teleloc 0x315A002B [131.093300 53.285600 17.877890] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315A001, 0x7315A002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7315A001, 0x7315A003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7315A001, 0x7315A004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7315A001, 0x7315A005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7315A001, 0x7315A006, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7315A001, 0x7315A007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7315A001, 0x7315A002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7315A001, 0x7315A003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7315A001, 0x7315A004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7315A001, 0x7315A005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7315A001, 0x7315A006, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7315A001, 0x7315A007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315A002,  7340, 0x315A002B, 131.0933, 53.2856, 17.87789, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -41,8 +41,8 @@ VALUES (0x7315A008,  1542, 0x315A0024, 98.30795, 95.69037, 19.99, -0.1827183, 0,
 /* @teleloc 0x315A0024 [98.307950 95.690370 19.990000] -0.182718 0.000000 0.000000 -0.983165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315A008, 0x7315A009, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7315A008, 0x7315A00A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7315A008, 0x7315A009, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7315A008, 0x7315A00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315A009,  9286, 0x315A0024, 98.30795, 95.69037, 19.99, -0.1827183, 0, 0, -0.9831653,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

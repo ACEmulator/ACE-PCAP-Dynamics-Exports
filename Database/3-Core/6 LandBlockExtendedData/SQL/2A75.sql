@@ -5,17 +5,17 @@ VALUES (0x72A75001,  1154, 0x2A750035, 160.9787, 109.1849, 184.6025, 0.4429576, 
 /* @teleloc 0x2A750035 [160.978700 109.184900 184.602500] 0.442958 0.000000 0.000000 -0.896543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A75001, 0x72A75002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72A75001, 0x72A75003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A75001, 0x72A75004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A75001, 0x72A75005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A75001, 0x72A75006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A75001, 0x72A75007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A75001, 0x72A75008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72A75001, 0x72A75009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A75001, 0x72A7500A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72A75001, 0x72A7500B, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72A75001, 0x72A7500C, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x72A75001, 0x72A75002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72A75001, 0x72A75003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A75001, 0x72A75004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A75001, 0x72A75005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A75001, 0x72A75006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A75001, 0x72A75007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A75001, 0x72A75008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72A75001, 0x72A75009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A75001, 0x72A7500A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72A75001, 0x72A7500B, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72A75001, 0x72A7500C, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A75002,  8138, 0x2A750035, 160.9787, 109.1849, 184.6025, 0.4429576, 0, 0, -0.8965425,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -66,9 +66,9 @@ VALUES (0x72A7500D,  1542, 0x2A75002F, 131.3685, 162.5498, 216, 0.9990482, 0, 0,
 /* @teleloc 0x2A75002F [131.368500 162.549800 216.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7500D, 0x72A7500E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72A7500D, 0x72A7500F, '2019-02-10 00:00:00') /* Rock */
-     , (0x72A7500D, 0x72A75010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72A7500D, 0x72A7500E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72A7500D, 0x72A7500F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x72A7500D, 0x72A75010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7500E,  4179, 0x2A75002F, 131.3685, 162.5498, 216, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,17 +5,17 @@ VALUES (0x793EC001,  1154, 0x93EC0010, 35.08362, 184.6315, 20.0099, -0.9998947, 
 /* @teleloc 0x93EC0010 [35.083620 184.631500 20.009900] -0.999895 0.000000 0.000000 -0.014507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793EC001, 0x793EC002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793EC001, 0x793EC003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793EC001, 0x793EC004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x793EC001, 0x793EC005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x793EC001, 0x793EC006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x793EC001, 0x793EC007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x793EC001, 0x793EC008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793EC001, 0x793EC009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x793EC001, 0x793EC00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x793EC001, 0x793EC00B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x793EC001, 0x793EC00C, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x793EC001, 0x793EC002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793EC001, 0x793EC003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793EC001, 0x793EC004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x793EC001, 0x793EC005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x793EC001, 0x793EC006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x793EC001, 0x793EC007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x793EC001, 0x793EC008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793EC001, 0x793EC009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x793EC001, 0x793EC00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x793EC001, 0x793EC00B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x793EC001, 0x793EC00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793EC002, 22520, 0x93EC0010, 35.08362, 184.6315, 20.0099, -0.9998947, 0, 0, -0.01450717,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

@@ -5,23 +5,23 @@ VALUES (0x75B9E001,  1154, 0x5B9E0022, 113.9954, 47.7419, 21.00523, -0.9165707, 
 /* @teleloc 0x5B9E0022 [113.995400 47.741900 21.005230] -0.916571 0.000000 0.000000 -0.399873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9E001, 0x75B9E002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75B9E001, 0x75B9E003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75B9E001, 0x75B9E004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75B9E001, 0x75B9E005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75B9E001, 0x75B9E006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75B9E001, 0x75B9E007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75B9E001, 0x75B9E008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75B9E001, 0x75B9E009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75B9E001, 0x75B9E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75B9E001, 0x75B9E00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75B9E001, 0x75B9E00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75B9E001, 0x75B9E00D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75B9E001, 0x75B9E00E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75B9E001, 0x75B9E00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75B9E001, 0x75B9E010, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x75B9E001, 0x75B9E011, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75B9E001, 0x75B9E012, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x75B9E001, 0x75B9E002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75B9E001, 0x75B9E003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75B9E001, 0x75B9E004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75B9E001, 0x75B9E005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75B9E001, 0x75B9E006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75B9E001, 0x75B9E007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75B9E001, 0x75B9E008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75B9E001, 0x75B9E009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75B9E001, 0x75B9E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75B9E001, 0x75B9E00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75B9E001, 0x75B9E00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75B9E001, 0x75B9E00D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75B9E001, 0x75B9E00E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75B9E001, 0x75B9E00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75B9E001, 0x75B9E010, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x75B9E001, 0x75B9E011, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75B9E001, 0x75B9E012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9E002, 23565, 0x5B9E0022, 113.9954, 47.7419, 21.00523, -0.9165707, 0, 0, -0.3998728,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -96,8 +96,8 @@ VALUES (0x75B9E013,  1542, 0x5B9E0022, 119.9133, 30.8212, 21.98555, -0.471678, 0
 /* @teleloc 0x5B9E0022 [119.913300 30.821200 21.985550] -0.471678 0.000000 0.000000 -0.881771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9E013, 0x75B9E014, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x75B9E013, 0x75B9E015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75B9E013, 0x75B9E014, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x75B9E013, 0x75B9E015, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9E014,  8039, 0x5B9E0022, 119.9133, 30.8212, 21.98555, -0.471678, 0, 0, -0.8817709,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

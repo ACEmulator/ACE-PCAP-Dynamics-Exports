@@ -5,24 +5,24 @@ VALUES (0x72952001,  1154, 0x2952001F, 93.58729, 160.0739, 7.307073, -0.9437171,
 /* @teleloc 0x2952001F [93.587290 160.073900 7.307073] -0.943717 0.000000 0.000000 -0.330754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72952001, 0x72952002, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72952001, 0x72952003, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72952001, 0x72952004, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72952001, 0x72952005, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72952001, 0x72952006, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72952001, 0x72952007, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72952001, 0x72952008, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72952001, 0x72952009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72952001, 0x7295200A, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72952001, 0x7295200B, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x72952001, 0x7295200C, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72952001, 0x7295200D, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72952001, 0x7295200E, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72952001, 0x7295200F, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72952001, 0x72952010, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72952001, 0x72952011, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72952001, 0x72952012, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72952001, 0x72952013, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x72952001, 0x72952002, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72952001, 0x72952003, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72952001, 0x72952004, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72952001, 0x72952005, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72952001, 0x72952006, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72952001, 0x72952007, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72952001, 0x72952008, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72952001, 0x72952009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72952001, 0x7295200A, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72952001, 0x7295200B, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x72952001, 0x7295200C, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72952001, 0x7295200D, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72952001, 0x7295200E, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72952001, 0x7295200F, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72952001, 0x72952010, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72952001, 0x72952011, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72952001, 0x72952012, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72952001, 0x72952013, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72952002, 25563, 0x2952001F, 93.58729, 160.0739, 7.307073, -0.9437171, 0, 0, -0.3307539,  True, '2019-02-10 00:00:00'); /* Drudge Seraph Mystic */
@@ -101,7 +101,7 @@ VALUES (0x72952014,  1542, 0x2952001F, 94.05288, 163.9556, 7.653577, -0.9437171,
 /* @teleloc 0x2952001F [94.052880 163.955600 7.653577] -0.943717 0.000000 0.000000 -0.330754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72952014, 0x72952015, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72952014, 0x72952015, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72952015, 46284, 0x2952001F, 94.05288, 163.9556, 7.653577, -0.9437171, 0, 0, -0.3307539,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

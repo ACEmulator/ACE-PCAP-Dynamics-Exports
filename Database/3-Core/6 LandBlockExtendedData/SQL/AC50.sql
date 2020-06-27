@@ -5,15 +5,15 @@ VALUES (0x7AC50001,  1154, 0xAC500016, 53.99343, 125.1255, 39.57537, 0.7660445, 
 /* @teleloc 0xAC500016 [53.993430 125.125500 39.575370] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC50001, 0x7AC50002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AC50001, 0x7AC50003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AC50001, 0x7AC50004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC50001, 0x7AC50005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AC50001, 0x7AC50006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AC50001, 0x7AC50007, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AC50001, 0x7AC50008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC50001, 0x7AC50009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AC50001, 0x7AC5000A, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7AC50001, 0x7AC50002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AC50001, 0x7AC50003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AC50001, 0x7AC50004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC50001, 0x7AC50005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AC50001, 0x7AC50006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AC50001, 0x7AC50007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AC50001, 0x7AC50008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC50001, 0x7AC50009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AC50001, 0x7AC5000A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC50002,  1761, 0xAC500016, 53.99343, 125.1255, 39.57537, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

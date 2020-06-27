@@ -5,9 +5,9 @@ VALUES (0x78379001,  1154, 0x8379002D, 141.3676, 107.2523, 10.0075, 0.9238795, 0
 /* @teleloc 0x8379002D [141.367600 107.252300 10.007500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78379001, 0x78379002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78379001, 0x78379003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78379001, 0x78379004, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x78379001, 0x78379002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78379001, 0x78379003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78379001, 0x78379004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78379002,   950, 0x8379002D, 141.3676, 107.2523, 10.0075, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */

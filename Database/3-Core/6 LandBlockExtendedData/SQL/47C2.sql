@@ -5,11 +5,11 @@ VALUES (0x747C2001,  1154, 0x47C20039, 178.6924, 6.460978, -0.1075001, 0.8068104
 /* @teleloc 0x47C20039 [178.692400 6.460978 -0.107500] 0.806810 0.000000 0.000000 -0.590810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747C2001, 0x747C2002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x747C2001, 0x747C2003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x747C2001, 0x747C2004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x747C2001, 0x747C2005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x747C2001, 0x747C2006, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x747C2001, 0x747C2002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x747C2001, 0x747C2003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x747C2001, 0x747C2004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x747C2001, 0x747C2005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x747C2001, 0x747C2006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747C2002, 24294, 0x47C20039, 178.6924, 6.460978, -0.1075001, 0.8068104, 0, 0, -0.5908104,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

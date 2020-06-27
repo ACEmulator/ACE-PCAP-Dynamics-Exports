@@ -5,12 +5,12 @@ VALUES (0x7406C001,  1154, 0x406C0013, 66.45139, 56.59793, 1.293506, 0.9848931, 
 /* @teleloc 0x406C0013 [66.451390 56.597930 1.293506] 0.984893 0.000000 0.000000 -0.173164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7406C001, 0x7406C002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7406C001, 0x7406C003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7406C001, 0x7406C004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7406C001, 0x7406C005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7406C001, 0x7406C006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7406C001, 0x7406C007, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x7406C001, 0x7406C002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7406C001, 0x7406C003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7406C001, 0x7406C004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7406C001, 0x7406C005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7406C001, 0x7406C006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7406C001, 0x7406C007, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7406C002, 36828, 0x406C0013, 66.45139, 56.59793, 1.293506, 0.9848931, 0, 0, -0.1731637,  True, '2019-02-10 00:00:00'); /* Coral Golem */

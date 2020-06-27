@@ -5,15 +5,15 @@ VALUES (0x7C992001,  1154, 0xC992002B, 125.0347, 63.65659, 10.00715, -0.9023035,
 /* @teleloc 0xC992002B [125.034700 63.656590 10.007150] -0.902304 0.000000 0.000000 -0.431102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C992001, 0x7C992002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C992001, 0x7C992003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C992001, 0x7C992004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C992001, 0x7C992005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C992001, 0x7C992006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C992001, 0x7C992007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C992001, 0x7C992008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C992001, 0x7C992009, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C992001, 0x7C99200A, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7C992001, 0x7C992002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C992001, 0x7C992003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C992001, 0x7C992004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C992001, 0x7C992005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C992001, 0x7C992006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C992001, 0x7C992007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C992001, 0x7C992008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C992001, 0x7C992009, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C992001, 0x7C99200A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C992002,     6, 0xC992002B, 125.0347, 63.65659, 10.00715, -0.9023035, 0, 0, -0.4311015,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

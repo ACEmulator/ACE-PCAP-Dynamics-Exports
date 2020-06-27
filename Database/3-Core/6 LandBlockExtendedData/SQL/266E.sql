@@ -5,12 +5,12 @@ VALUES (0x7266E001,  1154, 0x266E003D, 180.8712, 107.3767, 84.02066, 0.04570199,
 /* @teleloc 0x266E003D [180.871200 107.376700 84.020660] 0.045702 0.000000 0.000000 -0.998955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266E001, 0x7266E002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7266E001, 0x7266E003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7266E001, 0x7266E004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7266E001, 0x7266E005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7266E001, 0x7266E006, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7266E001, 0x7266E007, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x7266E001, 0x7266E002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7266E001, 0x7266E003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7266E001, 0x7266E004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7266E001, 0x7266E005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7266E001, 0x7266E006, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7266E001, 0x7266E007, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266E002, 23616, 0x266E003D, 180.8712, 107.3767, 84.02066, 0.04570199, 0, 0, -0.9989551,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -41,8 +41,8 @@ VALUES (0x7266E008,  1542, 0x266E003D, 172.4555, 111.3608, 83.9763, -0.9483178, 
 /* @teleloc 0x266E003D [172.455500 111.360800 83.976300] -0.948318 0.000000 0.000000 -0.317322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266E008, 0x7266E009, '2019-02-10 00:00:00') /* Rock */
-     , (0x7266E008, 0x7266E00A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7266E008, 0x7266E009, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7266E008, 0x7266E00A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266E009, 42528, 0x266E003D, 172.4555, 111.3608, 83.9763, -0.9483178, 0, 0, -0.3173223,  True, '2019-02-10 00:00:00'); /* Rock */

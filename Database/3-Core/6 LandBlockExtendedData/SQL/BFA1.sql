@@ -5,17 +5,17 @@ VALUES (0x7BFA1001,  1154, 0xBFA10032, 155.526, 42.02916, 5.024501, -0.8556036, 
 /* @teleloc 0xBFA10032 [155.526000 42.029160 5.024501] -0.855604 0.000000 0.000000 -0.517632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA1001, 0x7BFA1002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BFA1001, 0x7BFA1003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BFA1001, 0x7BFA1004, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BFA1001, 0x7BFA1005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BFA1001, 0x7BFA1006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BFA1001, 0x7BFA1007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BFA1001, 0x7BFA1008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BFA1001, 0x7BFA1009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BFA1001, 0x7BFA100A, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BFA1001, 0x7BFA100B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BFA1001, 0x7BFA100C, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7BFA1001, 0x7BFA1002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BFA1001, 0x7BFA1003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BFA1001, 0x7BFA1004, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BFA1001, 0x7BFA1005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BFA1001, 0x7BFA1006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BFA1001, 0x7BFA1007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BFA1001, 0x7BFA1008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BFA1001, 0x7BFA1009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BFA1001, 0x7BFA100A, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BFA1001, 0x7BFA100B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BFA1001, 0x7BFA100C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA1002,  8010, 0xBFA10032, 155.526, 42.02916, 5.024501, -0.8556036, 0, 0, -0.5176315,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -66,8 +66,8 @@ VALUES (0x7BFA100D,  1542, 0xBFA10031, 148.7572, 5.268225, 3.603569, 1, 0, 0, 0,
 /* @teleloc 0xBFA10031 [148.757200 5.268225 3.603569] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA100D, 0x7BFA100E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BFA100D, 0x7BFA100F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BFA100D, 0x7BFA100E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BFA100D, 0x7BFA100F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA100E,  4179, 0xBFA10031, 148.7572, 5.268225, 3.603569, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

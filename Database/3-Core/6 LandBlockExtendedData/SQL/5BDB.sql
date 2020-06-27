@@ -5,13 +5,13 @@ VALUES (0x75BDB001,  1154, 0x5BDB0038, 167.018, 190.769, 190.0818, -0.7021279, 0
 /* @teleloc 0x5BDB0038 [167.018000 190.769000 190.081800] -0.702128 0.000000 0.000000 -0.712051 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BDB001, 0x75BDB002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x75BDB001, 0x75BDB003, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x75BDB001, 0x75BDB004, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x75BDB001, 0x75BDB005, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x75BDB001, 0x75BDB006, '2019-02-10 00:00:00') /* Decaying Ruschk Sadist */
-     , (0x75BDB001, 0x75BDB007, '2019-02-10 00:00:00') /* Decaying Ruschk Sadist */
-     , (0x75BDB001, 0x75BDB008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x75BDB001, 0x75BDB002, '2019-02-10 00:00:00') /* Exploration Marker (39781) */
+     , (0x75BDB001, 0x75BDB003, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x75BDB001, 0x75BDB004, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x75BDB001, 0x75BDB005, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x75BDB001, 0x75BDB006, '2019-02-10 00:00:00') /* Decaying Ruschk Sadist (33748) */
+     , (0x75BDB001, 0x75BDB007, '2019-02-10 00:00:00') /* Decaying Ruschk Sadist (33748) */
+     , (0x75BDB001, 0x75BDB008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BDB002, 39781, 0x5BDB0038, 167.018, 190.769, 190.0818, -0.7021279, 0, 0, -0.7120509,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -46,7 +46,7 @@ VALUES (0x75BDB009,  1542, 0x5BDB0030, 130.443, 189.306, 191.937, 1, 0, 0, 0, Fa
 /* @teleloc 0x5BDB0030 [130.443000 189.306000 191.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BDB009, 0x75BDB00A, '2019-02-10 00:00:00') /* Black Spear Temple */;
+VALUES (0x75BDB009, 0x75BDB00A, '2019-02-10 00:00:00') /* Black Spear Temple (33780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BDB00A, 33780, 0x5BDB0030, 130.443, 189.306, 191.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Spear Temple */

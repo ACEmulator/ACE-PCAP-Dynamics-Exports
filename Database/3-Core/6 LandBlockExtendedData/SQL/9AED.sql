@@ -5,34 +5,34 @@ VALUES (0x79AED001,  1154, 0x9AED003E, 174.3991, 134.6342, 3.9925, -4.371139E-08
 /* @teleloc 0x9AED003E [174.399100 134.634200 3.992500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AED001, 0x79AED002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AED001, 0x79AED003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AED001, 0x79AED004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AED001, 0x79AED005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AED001, 0x79AED006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79AED001, 0x79AED007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AED001, 0x79AED008, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79AED001, 0x79AED009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79AED001, 0x79AED00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79AED001, 0x79AED00B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x79AED001, 0x79AED00C, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x79AED001, 0x79AED00D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AED001, 0x79AED00E, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79AED001, 0x79AED00F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AED001, 0x79AED010, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x79AED001, 0x79AED011, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AED001, 0x79AED012, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AED001, 0x79AED013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AED001, 0x79AED014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AED001, 0x79AED015, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AED001, 0x79AED016, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AED001, 0x79AED017, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79AED001, 0x79AED018, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AED001, 0x79AED019, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AED001, 0x79AED01A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AED001, 0x79AED01B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AED001, 0x79AED01C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AED001, 0x79AED01D, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x79AED001, 0x79AED002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AED001, 0x79AED003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AED001, 0x79AED004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AED001, 0x79AED005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AED001, 0x79AED006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79AED001, 0x79AED007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AED001, 0x79AED008, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79AED001, 0x79AED009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79AED001, 0x79AED00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79AED001, 0x79AED00B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x79AED001, 0x79AED00C, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x79AED001, 0x79AED00D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AED001, 0x79AED00E, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79AED001, 0x79AED00F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AED001, 0x79AED010, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x79AED001, 0x79AED011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AED001, 0x79AED012, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AED001, 0x79AED013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AED001, 0x79AED014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AED001, 0x79AED015, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AED001, 0x79AED016, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AED001, 0x79AED017, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79AED001, 0x79AED018, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AED001, 0x79AED019, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AED001, 0x79AED01A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AED001, 0x79AED01B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AED001, 0x79AED01C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AED001, 0x79AED01D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AED002, 24293, 0x9AED003E, 174.3991, 134.6342, 3.9925, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -151,7 +151,7 @@ VALUES (0x79AED01E,  1542, 0x9AED0017, 67.67165, 163.3501, 3.475238, 0.9990482, 
 /* @teleloc 0x9AED0017 [67.671650 163.350100 3.475238] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AED01E, 0x79AED01F, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x79AED01E, 0x79AED01F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AED01F,  6117, 0x9AED0017, 67.67165, 163.3501, 3.475238, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

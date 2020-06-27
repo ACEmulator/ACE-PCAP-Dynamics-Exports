@@ -5,10 +5,10 @@ VALUES (0x764CA001,  1154, 0x64CA0016, 61.0112, 122.4099, 80.48859, -0.9547227, 
 /* @teleloc 0x64CA0016 [61.011200 122.409900 80.488590] -0.954723 0.000000 0.000000 -0.297497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764CA001, 0x764CA002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x764CA001, 0x764CA003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764CA001, 0x764CA004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764CA001, 0x764CA005, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x764CA001, 0x764CA002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x764CA001, 0x764CA003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764CA001, 0x764CA004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764CA001, 0x764CA005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764CA002, 28653, 0x64CA0016, 61.0112, 122.4099, 80.48859, -0.9547227, 0, 0, -0.2974972,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

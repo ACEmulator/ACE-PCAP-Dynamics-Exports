@@ -9,22 +9,22 @@ VALUES (0x762D5001,  1154, 0x62D50028, 113.8861, 181.045, 87.95492, 0.7332625, 0
 /* @teleloc 0x62D50028 [113.886100 181.045000 87.954920] 0.733263 0.000000 0.000000 -0.679946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D5001, 0x762D5002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x762D5001, 0x762D5003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D5001, 0x762D5004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D5001, 0x762D5005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D5001, 0x762D5006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x762D5001, 0x762D5007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x762D5001, 0x762D5008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x762D5001, 0x762D5009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x762D5001, 0x762D500A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x762D5001, 0x762D500B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x762D5001, 0x762D500C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x762D5001, 0x762D500D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x762D5001, 0x762D500E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x762D5001, 0x762D500F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x762D5001, 0x762D5010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x762D5001, 0x762D5011, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x762D5001, 0x762D5002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x762D5001, 0x762D5003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D5001, 0x762D5004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D5001, 0x762D5005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D5001, 0x762D5006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x762D5001, 0x762D5007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x762D5001, 0x762D5008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x762D5001, 0x762D5009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x762D5001, 0x762D500A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x762D5001, 0x762D500B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x762D5001, 0x762D500C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x762D5001, 0x762D500D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x762D5001, 0x762D500E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x762D5001, 0x762D500F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x762D5001, 0x762D5010, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x762D5001, 0x762D5011, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D5002, 36832, 0x62D50028, 113.8861, 181.045, 87.95492, 0.7332625, 0, 0, -0.6799457,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -95,7 +95,7 @@ VALUES (0x762D5012,  1542, 0x62D50017, 70.73706, 144.3585, 77.99267, -4.371139E-
 /* @teleloc 0x62D50017 [70.737060 144.358500 77.992670] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762D5012, 0x762D5013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x762D5012, 0x762D5013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762D5013,  4380, 0x62D50017, 70.73706, 144.3585, 77.99267, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

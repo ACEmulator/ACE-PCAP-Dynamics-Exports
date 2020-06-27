@@ -5,37 +5,37 @@ VALUES (0x792ED001,  1154, 0x92ED002C, 130.4397, 80.00006, 20.0075, 0.5578386, 0
 /* @teleloc 0x92ED002C [130.439700 80.000060 20.007500] 0.557839 0.000000 0.000000 -0.829949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792ED001, 0x792ED002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x792ED001, 0x792ED003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792ED001, 0x792ED004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x792ED001, 0x792ED005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x792ED001, 0x792ED006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x792ED001, 0x792ED007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x792ED001, 0x792ED008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792ED001, 0x792ED009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792ED001, 0x792ED00A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792ED001, 0x792ED00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x792ED001, 0x792ED00C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x792ED001, 0x792ED00D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x792ED001, 0x792ED00E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792ED001, 0x792ED00F, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792ED001, 0x792ED010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792ED001, 0x792ED011, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792ED001, 0x792ED012, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x792ED001, 0x792ED013, '2019-02-10 00:00:00') /* Static */
-     , (0x792ED001, 0x792ED014, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x792ED001, 0x792ED015, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x792ED001, 0x792ED016, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x792ED001, 0x792ED017, '2019-02-10 00:00:00') /* Ember */
-     , (0x792ED001, 0x792ED018, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792ED001, 0x792ED019, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x792ED001, 0x792ED01A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x792ED001, 0x792ED01B, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x792ED001, 0x792ED01C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x792ED001, 0x792ED01D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x792ED001, 0x792ED01E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x792ED001, 0x792ED01F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x792ED001, 0x792ED020, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x792ED001, 0x792ED002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x792ED001, 0x792ED003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792ED001, 0x792ED004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x792ED001, 0x792ED005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x792ED001, 0x792ED006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x792ED001, 0x792ED007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x792ED001, 0x792ED008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792ED001, 0x792ED009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792ED001, 0x792ED00A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792ED001, 0x792ED00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x792ED001, 0x792ED00C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x792ED001, 0x792ED00D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x792ED001, 0x792ED00E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792ED001, 0x792ED00F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792ED001, 0x792ED010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792ED001, 0x792ED011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792ED001, 0x792ED012, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x792ED001, 0x792ED013, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x792ED001, 0x792ED014, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x792ED001, 0x792ED015, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x792ED001, 0x792ED016, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x792ED001, 0x792ED017, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x792ED001, 0x792ED018, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792ED001, 0x792ED019, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x792ED001, 0x792ED01A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x792ED001, 0x792ED01B, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x792ED001, 0x792ED01C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x792ED001, 0x792ED01D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x792ED001, 0x792ED01E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x792ED001, 0x792ED01F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x792ED001, 0x792ED020, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792ED002,  7124, 0x92ED002C, 130.4397, 80.00006, 20.0075, 0.5578386, 0, 0, -0.8299494,  True, '2019-02-10 00:00:00'); /* Dark Magus */

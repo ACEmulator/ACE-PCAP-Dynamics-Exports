@@ -5,8 +5,8 @@ VALUES (0x776AB001,  1154, 0x76AB0011, 64.20074, 5.490261, 97.36113, -0.9955701,
 /* @teleloc 0x76AB0011 [64.200740 5.490261 97.361130] -0.995570 0.000000 0.000000 -0.094023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776AB001, 0x776AB002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x776AB001, 0x776AB003, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x776AB001, 0x776AB002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x776AB001, 0x776AB003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776AB002,  9253, 0x76AB0011, 64.20074, 5.490261, 97.36113, -0.9955701, 0, 0, -0.09402282,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

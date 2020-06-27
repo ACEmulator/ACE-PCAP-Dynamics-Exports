@@ -5,16 +5,16 @@ VALUES (0x78073001,  1154, 0x80730010, 43.29595, 168.3375, 13.95575, 1, 0, 0, 0,
 /* @teleloc 0x80730010 [43.295950 168.337500 13.955750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78073001, 0x78073002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78073001, 0x78073003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78073001, 0x78073004, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78073001, 0x78073005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78073001, 0x78073006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78073001, 0x78073007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78073001, 0x78073008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78073001, 0x78073009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78073001, 0x7807300A, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78073001, 0x7807300B, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x78073001, 0x78073002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78073001, 0x78073003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78073001, 0x78073004, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78073001, 0x78073005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78073001, 0x78073006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78073001, 0x78073007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78073001, 0x78073008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78073001, 0x78073009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78073001, 0x7807300A, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78073001, 0x7807300B, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78073002,  1623, 0x80730010, 43.29595, 168.3375, 13.95575, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Desert Rat */
@@ -61,8 +61,8 @@ VALUES (0x7807300C,  1542, 0x80730010, 38.58076, 171.5812, 13.91196, 1, 0, 0, 0,
 /* @teleloc 0x80730010 [38.580760 171.581200 13.911960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7807300C, 0x7807300D, '2019-02-10 00:00:00') /* Scroll of Stamina to Mana Self II */
-     , (0x7807300C, 0x7807300E, '2019-02-10 00:00:00') /* Studded Leather Coat */;
+VALUES (0x7807300C, 0x7807300D, '2019-02-10 00:00:00') /* Scroll of Stamina to Mana Self II (9655) */
+     , (0x7807300C, 0x7807300E, '2019-02-10 00:00:00') /* Studded Leather Coat (48) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7807300D,  9655, 0x80730010, 38.58076, 171.5812, 13.91196, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Stamina to Mana Self II */

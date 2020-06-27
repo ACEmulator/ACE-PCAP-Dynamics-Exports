@@ -9,16 +9,16 @@ VALUES (0x7B6B2001,  1154, 0xB6B2001E, 90.1999, 126.3924, 82.49049, -0.9124926, 
 /* @teleloc 0xB6B2001E [90.199900 126.392400 82.490490] -0.912493 0.000000 0.000000 -0.409093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6B2001, 0x7B6B2002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7B6B2001, 0x7B6B2003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B6B2001, 0x7B6B2004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B6B2001, 0x7B6B2005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B6B2001, 0x7B6B2006, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B6B2001, 0x7B6B2007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B6B2001, 0x7B6B2008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B6B2001, 0x7B6B2009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6B2001, 0x7B6B200A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6B2001, 0x7B6B200B, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7B6B2001, 0x7B6B2002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B6B2001, 0x7B6B2003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B6B2001, 0x7B6B2004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B6B2001, 0x7B6B2005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B6B2001, 0x7B6B2006, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B6B2001, 0x7B6B2007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B6B2001, 0x7B6B2008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B6B2001, 0x7B6B2009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6B2001, 0x7B6B200A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6B2001, 0x7B6B200B, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6B2002,   183, 0xB6B2001E, 90.1999, 126.3924, 82.49049, -0.9124926, 0, 0, -0.4090932,  True, '2019-02-10 00:00:00'); /* Banderling Raver */

@@ -5,12 +5,12 @@ VALUES (0x76911001,  1154, 0x6911003A, 169.9665, 24.45543, 0.1721281, 0.9304472,
 /* @teleloc 0x6911003A [169.966500 24.455430 0.172128] 0.930447 0.000000 0.000000 -0.366426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76911001, 0x76911002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76911001, 0x76911003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x76911001, 0x76911004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76911001, 0x76911005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x76911001, 0x76911006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76911001, 0x76911007, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x76911001, 0x76911002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76911001, 0x76911003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x76911001, 0x76911004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76911001, 0x76911005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x76911001, 0x76911006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76911001, 0x76911007, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76911002,   619, 0x6911003A, 169.9665, 24.45543, 0.1721281, 0.9304472, 0, 0, -0.366426,  True, '2019-02-10 00:00:00'); /* Revenant */

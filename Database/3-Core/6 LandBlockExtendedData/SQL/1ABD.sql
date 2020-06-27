@@ -5,20 +5,20 @@ VALUES (0x71ABD001,  1154, 0x1ABD003E, 188.5895, 126.8086, 136.2902, 1, 0, 0, 0,
 /* @teleloc 0x1ABD003E [188.589500 126.808600 136.290200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABD001, 0x71ABD002, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABD001, 0x71ABD003, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABD001, 0x71ABD004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABD001, 0x71ABD005, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABD001, 0x71ABD006, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71ABD001, 0x71ABD007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABD001, 0x71ABD008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABD001, 0x71ABD009, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71ABD001, 0x71ABD00A, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABD001, 0x71ABD00B, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABD001, 0x71ABD00C, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABD001, 0x71ABD00D, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABD001, 0x71ABD00E, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABD001, 0x71ABD00F, '2019-02-10 00:00:00') /* Cultist */;
+VALUES (0x71ABD001, 0x71ABD002, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABD001, 0x71ABD003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABD001, 0x71ABD004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABD001, 0x71ABD005, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABD001, 0x71ABD006, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71ABD001, 0x71ABD007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABD001, 0x71ABD008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABD001, 0x71ABD009, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71ABD001, 0x71ABD00A, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABD001, 0x71ABD00B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABD001, 0x71ABD00C, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABD001, 0x71ABD00D, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABD001, 0x71ABD00E, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABD001, 0x71ABD00F, '2019-02-10 00:00:00') /* Cultist (11501) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABD002, 11520, 0x1ABD003E, 188.5895, 126.8086, 136.2902, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Nualuan */
@@ -81,11 +81,11 @@ VALUES (0x71ABD010,  1542, 0x1ABD0032, 163.5444, 31.7362, 118.3723, 1, 0, 0, 0, 
 /* @teleloc 0x1ABD0032 [163.544400 31.736200 118.372300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABD010, 0x71ABD011, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71ABD010, 0x71ABD012, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71ABD010, 0x71ABD013, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71ABD010, 0x71ABD014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71ABD010, 0x71ABD015, '2019-02-10 00:00:00') /* Cultist Altar */;
+VALUES (0x71ABD010, 0x71ABD011, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71ABD010, 0x71ABD012, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71ABD010, 0x71ABD013, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71ABD010, 0x71ABD014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71ABD010, 0x71ABD015, '2019-02-10 00:00:00') /* Cultist Altar (11556) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABD011, 11225, 0x1ABD0032, 163.5444, 31.7362, 118.3723, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

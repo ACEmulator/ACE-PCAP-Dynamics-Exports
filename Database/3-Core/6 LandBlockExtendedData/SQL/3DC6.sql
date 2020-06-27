@@ -5,22 +5,22 @@ VALUES (0x73DC6001,  1154, 0x3DC6000D, 47.69963, 109.8062, -0.09750003, 0.908075
 /* @teleloc 0x3DC6000D [47.699630 109.806200 -0.097500] 0.908076 0.000000 0.000000 -0.418807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DC6001, 0x73DC6002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DC6001, 0x73DC6003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DC6001, 0x73DC6004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73DC6001, 0x73DC6005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73DC6001, 0x73DC6006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73DC6001, 0x73DC6007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73DC6001, 0x73DC6008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DC6001, 0x73DC6009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73DC6001, 0x73DC600A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DC6001, 0x73DC600B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73DC6001, 0x73DC600C, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x73DC6001, 0x73DC600D, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73DC6001, 0x73DC600E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DC6001, 0x73DC600F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DC6001, 0x73DC6010, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DC6001, 0x73DC6011, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73DC6001, 0x73DC6002, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DC6001, 0x73DC6003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DC6001, 0x73DC6004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73DC6001, 0x73DC6005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73DC6001, 0x73DC6006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73DC6001, 0x73DC6007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73DC6001, 0x73DC6008, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DC6001, 0x73DC6009, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x73DC6001, 0x73DC600A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DC6001, 0x73DC600B, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73DC6001, 0x73DC600C, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x73DC6001, 0x73DC600D, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73DC6001, 0x73DC600E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DC6001, 0x73DC600F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DC6001, 0x73DC6010, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DC6001, 0x73DC6011, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DC6002, 24315, 0x3DC6000D, 47.69963, 109.8062, -0.09750003, 0.9080755, 0, 0, -0.4188065,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -91,7 +91,7 @@ VALUES (0x73DC6012,  1542, 0x3DC6000E, 43.70535, 123.2337, -0.09999999, 0.999048
 /* @teleloc 0x3DC6000E [43.705350 123.233700 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DC6012, 0x73DC6013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73DC6012, 0x73DC6013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DC6013,  4179, 0x3DC6000E, 43.70535, 123.2337, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

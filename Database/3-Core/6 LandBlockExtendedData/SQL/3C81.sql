@@ -5,14 +5,14 @@ VALUES (0x73C81001,  1154, 0x3C81001D, 84.57315, 119.6143, 2.959738, 0.9705646, 
 /* @teleloc 0x3C81001D [84.573150 119.614300 2.959738] 0.970565 0.000000 0.000000 -0.240841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C81001, 0x73C81002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73C81001, 0x73C81003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73C81001, 0x73C81004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73C81001, 0x73C81005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73C81001, 0x73C81006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73C81001, 0x73C81007, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73C81001, 0x73C81008, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73C81001, 0x73C81009, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x73C81001, 0x73C81002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73C81001, 0x73C81003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73C81001, 0x73C81004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73C81001, 0x73C81005, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73C81001, 0x73C81006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73C81001, 0x73C81007, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73C81001, 0x73C81008, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73C81001, 0x73C81009, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C81002, 41534, 0x3C81001D, 84.57315, 119.6143, 2.959738, 0.9705646, 0, 0, -0.240841,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */

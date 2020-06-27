@@ -5,17 +5,17 @@ VALUES (0x73670001,  1154, 0x36700003, 20.20445, 57.57972, 36.97403, -0.2331787,
 /* @teleloc 0x36700003 [20.204450 57.579720 36.974030] -0.233179 0.000000 0.000000 -0.972434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73670001, 0x73670002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73670001, 0x73670003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73670001, 0x73670004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73670001, 0x73670005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73670001, 0x73670006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73670001, 0x73670007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73670001, 0x73670008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73670001, 0x73670009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73670001, 0x7367000A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73670001, 0x7367000B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73670001, 0x7367000C, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x73670001, 0x73670002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73670001, 0x73670003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73670001, 0x73670004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73670001, 0x73670005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73670001, 0x73670006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73670001, 0x73670007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73670001, 0x73670008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73670001, 0x73670009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73670001, 0x7367000A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73670001, 0x7367000B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73670001, 0x7367000C, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73670002, 36832, 0x36700003, 20.20445, 57.57972, 36.97403, -0.2331787, 0, 0, -0.9724339,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -66,7 +66,7 @@ VALUES (0x7367000D,  1542, 0x36700003, 14.57082, 70.59292, 38.9881, -4.371139E-0
 /* @teleloc 0x36700003 [14.570820 70.592920 38.988100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7367000D, 0x7367000E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7367000D, 0x7367000E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7367000E,  4380, 0x36700003, 14.57082, 70.59292, 38.9881, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

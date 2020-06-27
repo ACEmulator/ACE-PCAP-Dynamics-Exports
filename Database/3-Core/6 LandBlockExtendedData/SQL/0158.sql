@@ -13,19 +13,19 @@ VALUES (0x70158009,  1154, 0x0158019C, 21.1568, -51.3034, 36.00333, 0.601467, 0,
 /* @teleloc 0x0158019C [21.156800 -51.303400 36.003330] 0.601467 0.000000 0.000000 -0.798898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70158009, 0x7015800A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x7015800B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x7015800C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x70158009, 0x7015800D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x70158009, 0x7015800E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x7015800F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x70158010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x70158011, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x70158009, 0x70158012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x70158009, 0x70158013, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x70158009, 0x70158014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x70158015, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x70158009, 0x70158016, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x70158009, 0x7015800A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x7015800B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x7015800C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x70158009, 0x7015800D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x70158009, 0x7015800E, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x7015800F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x70158010, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x70158011, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x70158009, 0x70158012, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x70158009, 0x70158013, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x70158009, 0x70158014, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x70158015, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x70158009, 0x70158016, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015800A,     7, 0x0158019C, 21.1568, -51.3034, 36.00333, 0.601467, 0, 0, -0.798898,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -84,9 +84,9 @@ VALUES (0x70158017,  1542, 0x01580138, 39.5996, -69.9631, 12, 0.7071068, 0, 0, -
 /* @teleloc 0x01580138 [39.599600 -69.963100 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70158017, 0x70158018, '2019-02-10 00:00:00') /* Broken Taper */
-     , (0x70158017, 0x70158019, '2019-02-10 00:00:00') /* Broken Taper */
-     , (0x70158017, 0x7015801A, '2019-02-10 00:00:00') /* Inuo-Kon Kou's Book */;
+VALUES (0x70158017, 0x70158018, '2019-02-10 00:00:00') /* Broken Taper (5124) */
+     , (0x70158017, 0x70158019, '2019-02-10 00:00:00') /* Broken Taper (5124) */
+     , (0x70158017, 0x7015801A, '2019-02-10 00:00:00') /* Inuo-Kon Kou's Book (5123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70158018,  5124, 0x01580138, 39.5996, -69.9631, 12, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Broken Taper */

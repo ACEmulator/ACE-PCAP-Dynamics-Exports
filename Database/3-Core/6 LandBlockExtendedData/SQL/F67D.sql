@@ -9,39 +9,39 @@ VALUES (0x7F67D001,  1154, 0xF67D0004, 20.63086, 85.20287, 40.07048, -0.823876, 
 /* @teleloc 0xF67D0004 [20.630860 85.202870 40.070480] -0.823876 0.000000 0.000000 -0.566770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F67D001, 0x7F67D002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F67D001, 0x7F67D003, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F67D001, 0x7F67D004, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F67D001, 0x7F67D005, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F67D001, 0x7F67D006, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67D001, 0x7F67D007, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67D001, 0x7F67D008, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67D001, 0x7F67D009, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67D001, 0x7F67D00A, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67D001, 0x7F67D00B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D00C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D00D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D00E, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67D001, 0x7F67D00F, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67D001, 0x7F67D010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D011, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D012, '2019-02-10 00:00:00') /* Horned Chittick */
-     , (0x7F67D001, 0x7F67D013, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67D001, 0x7F67D014, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D015, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67D001, 0x7F67D016, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D017, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D018, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D019, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F67D001, 0x7F67D01B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D01C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67D001, 0x7F67D01D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F67D001, 0x7F67D01E, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67D001, 0x7F67D01F, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67D001, 0x7F67D020, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D021, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67D001, 0x7F67D022, '2019-02-10 00:00:00') /* Tusker Minion */;
+VALUES (0x7F67D001, 0x7F67D002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F67D001, 0x7F67D003, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F67D001, 0x7F67D004, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F67D001, 0x7F67D005, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F67D001, 0x7F67D006, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67D001, 0x7F67D007, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67D001, 0x7F67D008, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67D001, 0x7F67D009, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67D001, 0x7F67D00A, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67D001, 0x7F67D00B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D00C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D00D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D00E, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67D001, 0x7F67D00F, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F67D001, 0x7F67D010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D011, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D012, '2019-02-10 00:00:00') /* Horned Chittick (4243) */
+     , (0x7F67D001, 0x7F67D013, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67D001, 0x7F67D014, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D015, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67D001, 0x7F67D016, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D017, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D018, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D019, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F67D001, 0x7F67D01B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D01C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67D001, 0x7F67D01D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F67D001, 0x7F67D01E, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67D001, 0x7F67D01F, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F67D001, 0x7F67D020, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D021, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67D001, 0x7F67D022, '2019-02-10 00:00:00') /* Tusker Minion (22512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F67D002,  7183, 0xF67D0004, 20.63086, 85.20287, 40.07048, -0.823876, 0, 0, -0.5667701,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

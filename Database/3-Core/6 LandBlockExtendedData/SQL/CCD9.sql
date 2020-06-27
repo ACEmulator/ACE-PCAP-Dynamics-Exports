@@ -5,19 +5,19 @@ VALUES (0x7CCD9001,  1154, 0xCCD9002E, 124.8785, 123.6531, 21.18691, 0.5629132, 
 /* @teleloc 0xCCD9002E [124.878500 123.653100 21.186910] 0.562913 0.000000 0.000000 -0.826516 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCD9001, 0x7CCD9002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7CCD9001, 0x7CCD9003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCD9001, 0x7CCD9004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCD9001, 0x7CCD9005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CCD9001, 0x7CCD9006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD9001, 0x7CCD9007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7CCD9001, 0x7CCD9008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCD9001, 0x7CCD9009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD9001, 0x7CCD900A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD9001, 0x7CCD900B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD9001, 0x7CCD900C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD9001, 0x7CCD900D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCD9001, 0x7CCD900E, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7CCD9001, 0x7CCD9002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7CCD9001, 0x7CCD9003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCD9001, 0x7CCD9004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCD9001, 0x7CCD9005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CCD9001, 0x7CCD9006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD9001, 0x7CCD9007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7CCD9001, 0x7CCD9008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCD9001, 0x7CCD9009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD9001, 0x7CCD900A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD9001, 0x7CCD900B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD9001, 0x7CCD900C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD9001, 0x7CCD900D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCD9001, 0x7CCD900E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCD9002, 35735, 0xCCD9002E, 124.8785, 123.6531, 21.18691, 0.5629132, 0, 0, -0.826516,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */

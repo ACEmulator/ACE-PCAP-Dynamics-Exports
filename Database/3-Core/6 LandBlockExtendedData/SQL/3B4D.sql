@@ -13,66 +13,66 @@ VALUES (0x73B4D008,  1154, 0x3B4D0037, 155.9872, 152.7104, 34.95077, 0.8782663, 
 /* @teleloc 0x3B4D0037 [155.987200 152.710400 34.950770] 0.878266 0.000000 0.000000 -0.478172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4D008, 0x73B4D009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73B4D008, 0x73B4D00A, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73B4D008, 0x73B4D00B, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73B4D008, 0x73B4D00C, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73B4D008, 0x73B4D00D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D00E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D00F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D010, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73B4D008, 0x73B4D011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4D008, 0x73B4D012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4D008, 0x73B4D013, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D014, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D015, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D016, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73B4D008, 0x73B4D017, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D018, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D019, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D01A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D01B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D01C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D01D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D01E, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D01F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B4D008, 0x73B4D020, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4D008, 0x73B4D021, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4D008, 0x73B4D022, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4D008, 0x73B4D023, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73B4D008, 0x73B4D024, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73B4D008, 0x73B4D025, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73B4D008, 0x73B4D026, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73B4D008, 0x73B4D027, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D028, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D029, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D02A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73B4D008, 0x73B4D02B, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D02C, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D02D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D02E, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D02F, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D030, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D031, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73B4D008, 0x73B4D032, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73B4D008, 0x73B4D033, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D034, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73B4D008, 0x73B4D035, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B4D008, 0x73B4D036, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D037, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D038, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73B4D008, 0x73B4D039, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D03A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4D008, 0x73B4D03B, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4D008, 0x73B4D03C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73B4D008, 0x73B4D03D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D03E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D03F, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B4D008, 0x73B4D040, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4D008, 0x73B4D041, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73B4D008, 0x73B4D042, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73B4D008, 0x73B4D043, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73B4D008, 0x73B4D044, '2019-02-10 00:00:00') /* Desolation Moarsman */;
+VALUES (0x73B4D008, 0x73B4D009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73B4D008, 0x73B4D00A, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73B4D008, 0x73B4D00B, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73B4D008, 0x73B4D00C, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73B4D008, 0x73B4D00D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D00E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D00F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D010, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73B4D008, 0x73B4D011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4D008, 0x73B4D012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4D008, 0x73B4D013, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D014, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D015, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D016, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73B4D008, 0x73B4D017, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D018, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D019, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D01A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D01B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D01C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D01D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D01E, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D01F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B4D008, 0x73B4D020, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4D008, 0x73B4D021, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4D008, 0x73B4D022, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4D008, 0x73B4D023, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73B4D008, 0x73B4D024, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73B4D008, 0x73B4D025, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73B4D008, 0x73B4D026, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73B4D008, 0x73B4D027, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D028, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D029, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D02A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73B4D008, 0x73B4D02B, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D02C, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D02D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D02E, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D02F, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D030, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D031, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73B4D008, 0x73B4D032, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73B4D008, 0x73B4D033, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D034, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73B4D008, 0x73B4D035, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B4D008, 0x73B4D036, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D037, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D038, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73B4D008, 0x73B4D039, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D03A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4D008, 0x73B4D03B, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4D008, 0x73B4D03C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73B4D008, 0x73B4D03D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D03E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D03F, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B4D008, 0x73B4D040, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4D008, 0x73B4D041, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73B4D008, 0x73B4D042, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73B4D008, 0x73B4D043, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73B4D008, 0x73B4D044, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4D009, 24319, 0x3B4D0037, 155.9872, 152.7104, 34.95077, 0.8782663, 0, 0, -0.4781717,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -319,12 +319,12 @@ VALUES (0x73B4D045,  1542, 0x3B4D0022, 107.6695, 30.96445, 18.40761, 0.9990482, 
 /* @teleloc 0x3B4D0022 [107.669500 30.964450 18.407610] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4D045, 0x73B4D046, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B4D045, 0x73B4D047, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B4D045, 0x73B4D048, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x73B4D045, 0x73B4D049, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B4D045, 0x73B4D04A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B4D045, 0x73B4D04B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B4D045, 0x73B4D046, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B4D045, 0x73B4D047, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B4D045, 0x73B4D048, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x73B4D045, 0x73B4D049, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B4D045, 0x73B4D04A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B4D045, 0x73B4D04B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4D046,  4179, 0x3B4D0022, 107.6695, 30.96445, 18.40761, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

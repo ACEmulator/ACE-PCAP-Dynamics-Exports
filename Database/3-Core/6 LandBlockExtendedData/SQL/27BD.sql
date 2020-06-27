@@ -5,11 +5,11 @@ VALUES (0x727BD001,  1154, 0x27BD003F, 187.8419, 158.1936, 35.86682, 0.9971076, 
 /* @teleloc 0x27BD003F [187.841900 158.193600 35.866820] 0.997108 0.000000 0.000000 -0.076003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727BD001, 0x727BD002, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x727BD001, 0x727BD003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x727BD001, 0x727BD004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x727BD001, 0x727BD005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x727BD001, 0x727BD006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x727BD001, 0x727BD002, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x727BD001, 0x727BD003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x727BD001, 0x727BD004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x727BD001, 0x727BD005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x727BD001, 0x727BD006, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727BD002, 11491, 0x27BD003F, 187.8419, 158.1936, 35.86682, 0.9971076, 0, 0, -0.07600272,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */

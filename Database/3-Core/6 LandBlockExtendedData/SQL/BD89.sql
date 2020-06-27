@@ -5,11 +5,11 @@ VALUES (0x7BD89001,  1154, 0xBD89003B, 174.1295, 71.69932, 38.95786, 0.109183, 0
 /* @teleloc 0xBD89003B [174.129500 71.699320 38.957860] 0.109183 0.000000 0.000000 -0.994022 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD89001, 0x7BD89002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD89001, 0x7BD89003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD89001, 0x7BD89004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BD89001, 0x7BD89005, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BD89001, 0x7BD89006, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7BD89001, 0x7BD89002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD89001, 0x7BD89003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD89001, 0x7BD89004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BD89001, 0x7BD89005, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BD89001, 0x7BD89006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD89002,  1612, 0xBD89003B, 174.1295, 71.69932, 38.95786, 0.109183, 0, 0, -0.9940217,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -36,7 +36,7 @@ VALUES (0x7BD89007,  1542, 0xBD890035, 152.5469, 116.8017, 39.6372, 1, 0, 0, 0, 
 /* @teleloc 0xBD890035 [152.546900 116.801700 39.637200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD89007, 0x7BD89008, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7BD89007, 0x7BD89008, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD89008,   265, 0xBD890035, 152.5469, 116.8017, 39.6372, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

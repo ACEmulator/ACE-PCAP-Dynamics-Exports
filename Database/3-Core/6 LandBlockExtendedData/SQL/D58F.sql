@@ -5,18 +5,18 @@ VALUES (0x7D58F001,  1154, 0xD58F002C, 137.478, 76.04572, -0.01499999, -0.869129
 /* @teleloc 0xD58F002C [137.478000 76.045720 -0.015000] -0.869130 0.000000 0.000000 -0.494585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D58F001, 0x7D58F002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D58F001, 0x7D58F003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D58F001, 0x7D58F004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D58F001, 0x7D58F005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D58F001, 0x7D58F006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D58F001, 0x7D58F007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D58F001, 0x7D58F008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D58F001, 0x7D58F009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D58F001, 0x7D58F00A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D58F001, 0x7D58F00B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D58F001, 0x7D58F00C, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D58F001, 0x7D58F00D, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7D58F001, 0x7D58F002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D58F001, 0x7D58F003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D58F001, 0x7D58F004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D58F001, 0x7D58F005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D58F001, 0x7D58F006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D58F001, 0x7D58F007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D58F001, 0x7D58F008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D58F001, 0x7D58F009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D58F001, 0x7D58F00A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D58F001, 0x7D58F00B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D58F001, 0x7D58F00C, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D58F001, 0x7D58F00D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D58F002,  8014, 0xD58F002C, 137.478, 76.04572, -0.01499999, -0.8691295, 0, 0, -0.4945846,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -71,7 +71,7 @@ VALUES (0x7D58F00E,  1542, 0xD58F0013, 58.10612, 57.91674, 1.184605, 0.7738394, 
 /* @teleloc 0xD58F0013 [58.106120 57.916740 1.184605] 0.773839 0.000000 0.000000 -0.633382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D58F00E, 0x7D58F00F, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7D58F00E, 0x7D58F00F, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D58F00F, 31686, 0xD58F0013, 58.10612, 57.91674, 1.184605, 0.7738394, 0, 0, -0.633382,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

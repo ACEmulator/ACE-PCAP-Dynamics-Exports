@@ -5,72 +5,72 @@ VALUES (0x7CC3F001,  1154, 0xCC3F0018, 64.89928, 176.1825, 83.86246, 0.4486255, 
 /* @teleloc 0xCC3F0018 [64.899280 176.182500 83.862460] 0.448626 0.000000 0.000000 -0.893720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC3F001, 0x7CC3F002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3F001, 0x7CC3F003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC3F001, 0x7CC3F004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3F001, 0x7CC3F005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CC3F001, 0x7CC3F007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC3F001, 0x7CC3F009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC3F001, 0x7CC3F00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3F001, 0x7CC3F00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F00D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CC3F001, 0x7CC3F00E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F00F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F011, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F012, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC3F001, 0x7CC3F013, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CC3F001, 0x7CC3F014, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F015, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC3F001, 0x7CC3F016, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC3F001, 0x7CC3F017, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F018, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC3F001, 0x7CC3F019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F01A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F01C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC3F001, 0x7CC3F01D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC3F001, 0x7CC3F01E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC3F001, 0x7CC3F01F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F020, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F021, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CC3F001, 0x7CC3F022, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F023, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F024, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F025, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F026, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F027, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F028, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC3F001, 0x7CC3F029, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC3F001, 0x7CC3F02A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F02B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3F001, 0x7CC3F02C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC3F001, 0x7CC3F02D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC3F001, 0x7CC3F02E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC3F001, 0x7CC3F02F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC3F001, 0x7CC3F030, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F031, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F032, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F033, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F034, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC3F001, 0x7CC3F035, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CC3F001, 0x7CC3F036, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CC3F001, 0x7CC3F037, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F039, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F03A, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CC3F001, 0x7CC3F03B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC3F001, 0x7CC3F03C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC3F001, 0x7CC3F03D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CC3F001, 0x7CC3F03E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CC3F001, 0x7CC3F03F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CC3F001, 0x7CC3F040, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CC3F001, 0x7CC3F041, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC3F001, 0x7CC3F042, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3F001, 0x7CC3F043, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7CC3F001, 0x7CC3F002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3F001, 0x7CC3F003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC3F001, 0x7CC3F004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3F001, 0x7CC3F005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CC3F001, 0x7CC3F007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC3F001, 0x7CC3F009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC3F001, 0x7CC3F00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3F001, 0x7CC3F00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CC3F001, 0x7CC3F00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F00F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F011, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F012, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC3F001, 0x7CC3F013, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CC3F001, 0x7CC3F014, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F015, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC3F001, 0x7CC3F016, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC3F001, 0x7CC3F017, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F018, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC3F001, 0x7CC3F019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F01A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F01B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F01C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC3F001, 0x7CC3F01D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC3F001, 0x7CC3F01E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC3F001, 0x7CC3F01F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F020, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F021, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CC3F001, 0x7CC3F022, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F023, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F024, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F025, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F026, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F027, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F028, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC3F001, 0x7CC3F029, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC3F001, 0x7CC3F02A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F02B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3F001, 0x7CC3F02C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC3F001, 0x7CC3F02D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC3F001, 0x7CC3F02E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC3F001, 0x7CC3F02F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC3F001, 0x7CC3F030, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F031, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F032, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F033, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F034, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC3F001, 0x7CC3F035, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CC3F001, 0x7CC3F036, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CC3F001, 0x7CC3F037, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F039, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F03A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CC3F001, 0x7CC3F03B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC3F001, 0x7CC3F03C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC3F001, 0x7CC3F03D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CC3F001, 0x7CC3F03E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CC3F001, 0x7CC3F03F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CC3F001, 0x7CC3F040, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CC3F001, 0x7CC3F041, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC3F001, 0x7CC3F042, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3F001, 0x7CC3F043, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC3F002,  1609, 0xCC3F0018, 64.89928, 176.1825, 83.86246, 0.4486255, 0, 0, -0.8937198,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -341,13 +341,13 @@ VALUES (0x7CC3F044,  1542, 0xCC3F0013, 65.89903, 66.13108, 99.26972, 0.9990482, 
 /* @teleloc 0xCC3F0013 [65.899030 66.131080 99.269720] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC3F044, 0x7CC3F045, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CC3F044, 0x7CC3F046, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CC3F044, 0x7CC3F047, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7CC3F044, 0x7CC3F048, '2019-02-10 00:00:00') /* Frankincense */
-     , (0x7CC3F044, 0x7CC3F049, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7CC3F044, 0x7CC3F04A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CC3F044, 0x7CC3F04B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CC3F044, 0x7CC3F045, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CC3F044, 0x7CC3F046, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CC3F044, 0x7CC3F047, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7CC3F044, 0x7CC3F048, '2019-02-10 00:00:00') /* Frankincense (771) */
+     , (0x7CC3F044, 0x7CC3F049, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7CC3F044, 0x7CC3F04A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CC3F044, 0x7CC3F04B, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC3F045,  4179, 0xCC3F0013, 65.89903, 66.13108, 99.26972, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

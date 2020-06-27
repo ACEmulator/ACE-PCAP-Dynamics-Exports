@@ -5,18 +5,18 @@ VALUES (0x7EB38001,  1154, 0xEB38000B, 41.14591, 54.36589, -0.4454, 0.5949337, 0
 /* @teleloc 0xEB38000B [41.145910 54.365890 -0.445400] 0.594934 0.000000 0.000000 -0.803775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB38001, 0x7EB38002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EB38001, 0x7EB38003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7EB38001, 0x7EB38004, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EB38001, 0x7EB38005, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EB38001, 0x7EB38006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EB38001, 0x7EB38007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7EB38001, 0x7EB38008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7EB38001, 0x7EB38009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7EB38001, 0x7EB3800A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EB38001, 0x7EB3800B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EB38001, 0x7EB3800C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EB38001, 0x7EB3800D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7EB38001, 0x7EB38002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EB38001, 0x7EB38003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7EB38001, 0x7EB38004, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EB38001, 0x7EB38005, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EB38001, 0x7EB38006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EB38001, 0x7EB38007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7EB38001, 0x7EB38008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7EB38001, 0x7EB38009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7EB38001, 0x7EB3800A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EB38001, 0x7EB3800B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EB38001, 0x7EB3800C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EB38001, 0x7EB3800D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB38002,  4246, 0xEB38000B, 41.14591, 54.36589, -0.4454, 0.5949337, 0, 0, -0.8037748,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -71,7 +71,7 @@ VALUES (0x7EB3800E,  1542, 0xEB38000B, 44.18015, 56.25247, 0, 1, 0, 0, 0, False,
 /* @teleloc 0xEB38000B [44.180150 56.252470 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB3800E, 0x7EB3800F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7EB3800E, 0x7EB3800F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB3800F, 31443, 0xEB38000B, 44.18015, 56.25247, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

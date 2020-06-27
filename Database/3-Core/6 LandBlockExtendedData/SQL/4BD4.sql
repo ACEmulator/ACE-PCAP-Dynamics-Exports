@@ -5,22 +5,22 @@ VALUES (0x74BD4001,  1154, 0x4BD4001A, 77.26665, 45.42482, 25.35366, 0.2588191, 
 /* @teleloc 0x4BD4001A [77.266650 45.424820 25.353660] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BD4001, 0x74BD4002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74BD4001, 0x74BD4003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74BD4001, 0x74BD4004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BD4001, 0x74BD4005, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x74BD4001, 0x74BD4006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74BD4001, 0x74BD4007, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x74BD4001, 0x74BD4008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x74BD4001, 0x74BD4009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BD4001, 0x74BD400A, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74BD4001, 0x74BD400B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74BD4001, 0x74BD400C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74BD4001, 0x74BD400D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BD4001, 0x74BD400E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74BD4001, 0x74BD400F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74BD4001, 0x74BD4010, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74BD4001, 0x74BD4011, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74BD4001, 0x74BD4002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74BD4001, 0x74BD4003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74BD4001, 0x74BD4004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BD4001, 0x74BD4005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x74BD4001, 0x74BD4006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74BD4001, 0x74BD4007, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x74BD4001, 0x74BD4008, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x74BD4001, 0x74BD4009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BD4001, 0x74BD400A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74BD4001, 0x74BD400B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74BD4001, 0x74BD400C, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74BD4001, 0x74BD400D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BD4001, 0x74BD400E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74BD4001, 0x74BD400F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74BD4001, 0x74BD4010, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74BD4001, 0x74BD4011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BD4002,  7086, 0x4BD4001A, 77.26665, 45.42482, 25.35366, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -91,9 +91,9 @@ VALUES (0x74BD4012,  1542, 0x4BD4002D, 121.6114, 114.2082, 36.55204, 1, 0, 0, 0,
 /* @teleloc 0x4BD4002D [121.611400 114.208200 36.552040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BD4012, 0x74BD4013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BD4012, 0x74BD4014, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x74BD4012, 0x74BD4015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74BD4012, 0x74BD4013, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x74BD4012, 0x74BD4014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x74BD4012, 0x74BD4015, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BD4013, 22566, 0x4BD4002D, 121.6114, 114.2082, 36.55204, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

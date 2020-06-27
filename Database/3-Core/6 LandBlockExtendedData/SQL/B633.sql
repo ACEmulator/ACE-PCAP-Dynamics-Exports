@@ -5,11 +5,11 @@ VALUES (0x7B633001,  1154, 0xB633003D, 182.9821, 112.7458, 180.01, 0.2588191, 0,
 /* @teleloc 0xB633003D [182.982100 112.745800 180.010000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B633001, 0x7B633002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B633001, 0x7B633003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B633001, 0x7B633004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B633001, 0x7B633005, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7B633001, 0x7B633006, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7B633001, 0x7B633002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B633001, 0x7B633003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B633001, 0x7B633004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B633001, 0x7B633005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B633001, 0x7B633006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B633002, 24941, 0xB633003D, 182.9821, 112.7458, 180.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */

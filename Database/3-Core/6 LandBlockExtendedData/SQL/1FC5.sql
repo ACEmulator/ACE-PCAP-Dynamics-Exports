@@ -5,39 +5,39 @@ VALUES (0x71FC5001,  1154, 0x1FC5003B, 185.8078, 69.38761, 60.25523, 0.8191521, 
 /* @teleloc 0x1FC5003B [185.807800 69.387610 60.255230] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC5001, 0x71FC5002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5003, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5004, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x71FC5001, 0x71FC5005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC5001, 0x71FC5006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC5001, 0x71FC5007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC5001, 0x71FC5008, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC5001, 0x71FC5009, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71FC5001, 0x71FC500A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC5001, 0x71FC500B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC5001, 0x71FC500C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC5001, 0x71FC500D, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71FC5001, 0x71FC500E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71FC5001, 0x71FC500F, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5010, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5011, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5012, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC5001, 0x71FC5013, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC5001, 0x71FC5014, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5015, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC5001, 0x71FC5016, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5017, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5018, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5019, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC501A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC5001, 0x71FC501B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC5001, 0x71FC501C, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC5001, 0x71FC501D, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC5001, 0x71FC501E, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC501F, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71FC5001, 0x71FC5020, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC5001, 0x71FC5021, '2019-02-10 00:00:00') /* Diseased Carnivorous Carenzi Liver */
-     , (0x71FC5001, 0x71FC5022, '2019-02-10 00:00:00') /* Diseased Carnivorous Carenzi Liver */;
+VALUES (0x71FC5001, 0x71FC5002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5003, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5004, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x71FC5001, 0x71FC5005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC5001, 0x71FC5006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC5001, 0x71FC5007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC5001, 0x71FC5008, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC5001, 0x71FC5009, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71FC5001, 0x71FC500A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC5001, 0x71FC500B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC5001, 0x71FC500C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC5001, 0x71FC500D, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71FC5001, 0x71FC500E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71FC5001, 0x71FC500F, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5010, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5011, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5012, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC5001, 0x71FC5013, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC5001, 0x71FC5014, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5015, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC5001, 0x71FC5016, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5017, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5018, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5019, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC501A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC5001, 0x71FC501B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC5001, 0x71FC501C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC5001, 0x71FC501D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC5001, 0x71FC501E, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC501F, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71FC5001, 0x71FC5020, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC5001, 0x71FC5021, '2019-02-10 00:00:00') /* Diseased Carnivorous Carenzi Liver (34247) */
+     , (0x71FC5001, 0x71FC5022, '2019-02-10 00:00:00') /* Diseased Carnivorous Carenzi Liver (34247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC5002, 27717, 0x1FC5003B, 185.8078, 69.38761, 60.25523, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */
@@ -176,9 +176,9 @@ VALUES (0x71FC5023,  1542, 0x1FC50025, 119.7875, 96.28488, 60.02977, 1, 0, 0, 0,
 /* @teleloc 0x1FC50025 [119.787500 96.284880 60.029770] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC5023, 0x71FC5024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FC5023, 0x71FC5025, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FC5023, 0x71FC5026, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x71FC5023, 0x71FC5024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FC5023, 0x71FC5025, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FC5023, 0x71FC5026, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC5024,  4179, 0x1FC50025, 119.7875, 96.28488, 60.02977, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

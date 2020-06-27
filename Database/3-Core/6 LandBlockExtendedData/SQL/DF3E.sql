@@ -5,12 +5,12 @@ VALUES (0x7DF3E001,  1154, 0xDF3E0031, 164.1807, 17.30536, 48.57895, -0.9611952,
 /* @teleloc 0xDF3E0031 [164.180700 17.305360 48.578950] -0.961195 0.000000 0.000000 -0.275869 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF3E001, 0x7DF3E002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DF3E001, 0x7DF3E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DF3E001, 0x7DF3E004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DF3E001, 0x7DF3E005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DF3E001, 0x7DF3E006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7DF3E001, 0x7DF3E007, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7DF3E001, 0x7DF3E002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DF3E001, 0x7DF3E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DF3E001, 0x7DF3E004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DF3E001, 0x7DF3E005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DF3E001, 0x7DF3E006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7DF3E001, 0x7DF3E007, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3E002,   217, 0xDF3E0031, 164.1807, 17.30536, 48.57895, -0.9611952, 0, 0, -0.2758693,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -41,7 +41,7 @@ VALUES (0x7DF3E008,  1542, 0xDF3E0009, 27.53378, 21.5593, 34.50176, 0.9238795, 0
 /* @teleloc 0xDF3E0009 [27.533780 21.559300 34.501760] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF3E008, 0x7DF3E009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7DF3E008, 0x7DF3E009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3E009,  4380, 0xDF3E0009, 27.53378, 21.5593, 34.50176, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

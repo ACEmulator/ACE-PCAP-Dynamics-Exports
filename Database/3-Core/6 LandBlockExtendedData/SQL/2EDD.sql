@@ -9,15 +9,15 @@ VALUES (0x72EDD003,  1154, 0x2EDD003C, 189.1117, 93.20689, 20.00332, 0.705514, 0
 /* @teleloc 0x2EDD003C [189.111700 93.206890 20.003320] 0.705514 0.000000 0.000000 -0.708696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EDD003, 0x72EDD004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x72EDD003, 0x72EDD005, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x72EDD003, 0x72EDD006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x72EDD003, 0x72EDD007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x72EDD003, 0x72EDD008, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x72EDD003, 0x72EDD009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x72EDD003, 0x72EDD00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x72EDD003, 0x72EDD00B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x72EDD003, 0x72EDD00C, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x72EDD003, 0x72EDD004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x72EDD003, 0x72EDD005, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x72EDD003, 0x72EDD006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x72EDD003, 0x72EDD007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x72EDD003, 0x72EDD008, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x72EDD003, 0x72EDD009, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x72EDD003, 0x72EDD00A, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x72EDD003, 0x72EDD00B, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x72EDD003, 0x72EDD00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EDD004, 19258, 0x2EDD003C, 189.1117, 93.20689, 20.00332, 0.705514, 0, 0, -0.7086961,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

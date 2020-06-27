@@ -5,21 +5,21 @@ VALUES (0x7CC8E001,  1154, 0xCC8E0025, 98.59155, 99.40307, 14.22196, 0.9238795, 
 /* @teleloc 0xCC8E0025 [98.591550 99.403070 14.221960] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC8E001, 0x7CC8E002, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7CC8E001, 0x7CC8E003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7CC8E001, 0x7CC8E004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7CC8E001, 0x7CC8E005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CC8E001, 0x7CC8E006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC8E001, 0x7CC8E007, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CC8E001, 0x7CC8E008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7CC8E001, 0x7CC8E009, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7CC8E001, 0x7CC8E00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CC8E001, 0x7CC8E00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CC8E001, 0x7CC8E00C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7CC8E001, 0x7CC8E00D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CC8E001, 0x7CC8E00E, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CC8E001, 0x7CC8E00F, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CC8E001, 0x7CC8E010, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7CC8E001, 0x7CC8E002, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7CC8E001, 0x7CC8E003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7CC8E001, 0x7CC8E004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7CC8E001, 0x7CC8E005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CC8E001, 0x7CC8E006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC8E001, 0x7CC8E007, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CC8E001, 0x7CC8E008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7CC8E001, 0x7CC8E009, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7CC8E001, 0x7CC8E00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CC8E001, 0x7CC8E00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CC8E001, 0x7CC8E00C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7CC8E001, 0x7CC8E00D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CC8E001, 0x7CC8E00E, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7CC8E001, 0x7CC8E00F, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CC8E001, 0x7CC8E010, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8E002,   209, 0xCC8E0025, 98.59155, 99.40307, 14.22196, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Mite Squib */
@@ -86,30 +86,30 @@ VALUES (0x7CC8E011,  1542, 0xCC8E0033, 151.5121, 53.61206, 23.09565, -0.1416041,
 /* @teleloc 0xCC8E0033 [151.512100 53.612060 23.095650] -0.141604 0.000000 0.000000 0.989923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC8E011, 0x7CC8E012, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E013, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E014, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E015, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E016, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E017, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E018, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E019, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01A, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01B, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01C, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01D, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01E, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E01F, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E020, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E021, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E022, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E023, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E024, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E025, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CC8E011, 0x7CC8E027, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E028, '2019-02-10 00:00:00') /* Apple */
-     , (0x7CC8E011, 0x7CC8E029, '2019-02-10 00:00:00') /* Apple */;
+VALUES (0x7CC8E011, 0x7CC8E012, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E013, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E014, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E015, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E016, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E017, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E018, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E019, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01A, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01B, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01E, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E01F, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E020, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E021, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E022, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E023, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E024, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E025, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E026, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7CC8E011, 0x7CC8E027, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E028, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7CC8E011, 0x7CC8E029, '2019-02-10 00:00:00') /* Apple (258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8E012,   258, 0xCC8E0033, 151.5121, 53.61206, 23.09565, -0.1416041, 0, 0, 0.9899234,  True, '2019-02-10 00:00:00'); /* Apple */

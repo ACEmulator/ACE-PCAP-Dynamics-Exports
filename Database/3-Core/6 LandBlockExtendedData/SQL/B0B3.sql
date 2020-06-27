@@ -5,12 +5,12 @@ VALUES (0x7B0B3001,  1154, 0xB0B30028, 99.91167, 174.6183, 65.21112, -0.9488172,
 /* @teleloc 0xB0B30028 [99.911670 174.618300 65.211120] -0.948817 0.000000 0.000000 -0.315826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0B3001, 0x7B0B3002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B0B3001, 0x7B0B3003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B0B3001, 0x7B0B3004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B0B3001, 0x7B0B3005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0B3001, 0x7B0B3006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B0B3001, 0x7B0B3007, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x7B0B3001, 0x7B0B3002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B0B3001, 0x7B0B3003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B0B3001, 0x7B0B3004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B0B3001, 0x7B0B3005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0B3001, 0x7B0B3006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B0B3001, 0x7B0B3007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0B3002,   182, 0xB0B30028, 99.91167, 174.6183, 65.21112, -0.9488172, 0, 0, -0.3158258,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

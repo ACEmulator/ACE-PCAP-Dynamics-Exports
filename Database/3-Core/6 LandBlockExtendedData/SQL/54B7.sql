@@ -5,11 +5,11 @@ VALUES (0x754B7001,  1154, 0x54B7001F, 95.20736, 148.861, 48.27298, -0.7222938, 
 /* @teleloc 0x54B7001F [95.207360 148.861000 48.272980] -0.722294 0.000000 0.000000 -0.691586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754B7001, 0x754B7002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x754B7001, 0x754B7003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x754B7001, 0x754B7004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x754B7001, 0x754B7005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x754B7001, 0x754B7006, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x754B7001, 0x754B7002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x754B7001, 0x754B7003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x754B7001, 0x754B7004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x754B7001, 0x754B7005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x754B7001, 0x754B7006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754B7002,  6041, 0x54B7001F, 95.20736, 148.861, 48.27298, -0.7222938, 0, 0, -0.6915863,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

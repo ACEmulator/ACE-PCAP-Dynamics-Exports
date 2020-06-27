@@ -5,17 +5,17 @@ VALUES (0x74D9A001,  1154, 0x4D9A0020, 91.31201, 171.9268, 30.31695, -0.9664236,
 /* @teleloc 0x4D9A0020 [91.312010 171.926800 30.316950] -0.966424 0.000000 0.000000 -0.256954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D9A001, 0x74D9A002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74D9A001, 0x74D9A003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74D9A001, 0x74D9A004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74D9A001, 0x74D9A005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x74D9A001, 0x74D9A006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74D9A001, 0x74D9A007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D9A001, 0x74D9A008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74D9A001, 0x74D9A009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74D9A001, 0x74D9A00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74D9A001, 0x74D9A00B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74D9A001, 0x74D9A00C, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x74D9A001, 0x74D9A002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74D9A001, 0x74D9A003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74D9A001, 0x74D9A004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74D9A001, 0x74D9A005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x74D9A001, 0x74D9A006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74D9A001, 0x74D9A007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D9A001, 0x74D9A008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74D9A001, 0x74D9A009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74D9A001, 0x74D9A00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74D9A001, 0x74D9A00B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74D9A001, 0x74D9A00C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D9A002,  9252, 0x4D9A0020, 91.31201, 171.9268, 30.31695, -0.9664236, 0, 0, -0.256954,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -66,8 +66,8 @@ VALUES (0x74D9A00D,  1542, 0x4D9A0034, 159.3488, 89.58275, 11.65139, 1, 0, 0, 0,
 /* @teleloc 0x4D9A0034 [159.348800 89.582750 11.651390] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D9A00D, 0x74D9A00E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74D9A00D, 0x74D9A00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74D9A00D, 0x74D9A00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x74D9A00D, 0x74D9A00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D9A00E, 22571, 0x4D9A0034, 159.3488, 89.58275, 11.65139, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

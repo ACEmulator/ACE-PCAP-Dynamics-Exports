@@ -5,17 +5,17 @@ VALUES (0x75FA3001,  1154, 0x5FA30008, 13.67831, 185.6816, 45.74519, 0.7071068, 
 /* @teleloc 0x5FA30008 [13.678310 185.681600 45.745190] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA3001, 0x75FA3002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75FA3001, 0x75FA3003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75FA3001, 0x75FA3004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75FA3001, 0x75FA3005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75FA3001, 0x75FA3006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75FA3001, 0x75FA3007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75FA3001, 0x75FA3008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75FA3001, 0x75FA3009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75FA3001, 0x75FA300A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75FA3001, 0x75FA300B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75FA3001, 0x75FA300C, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x75FA3001, 0x75FA3002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75FA3001, 0x75FA3003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75FA3001, 0x75FA3004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75FA3001, 0x75FA3005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75FA3001, 0x75FA3006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75FA3001, 0x75FA3007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75FA3001, 0x75FA3008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75FA3001, 0x75FA3009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75FA3001, 0x75FA300A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75FA3001, 0x75FA300B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75FA3001, 0x75FA300C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA3002, 24289, 0x5FA30008, 13.67831, 185.6816, 45.74519, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -66,7 +66,7 @@ VALUES (0x75FA300D,  1542, 0x5FA30026, 107.4594, 121.6533, 54.95495, 0.860589, 0
 /* @teleloc 0x5FA30026 [107.459400 121.653300 54.954950] 0.860589 0.000000 0.000000 -0.509300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FA300D, 0x75FA300E, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75FA300D, 0x75FA300E, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FA300E,  8039, 0x5FA30026, 107.4594, 121.6533, 54.95495, 0.860589, 0, 0, -0.5093,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

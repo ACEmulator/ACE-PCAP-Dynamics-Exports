@@ -9,15 +9,15 @@ VALUES (0x701AF007,  1154, 0x01AF0109, 20.30803, -17.01215, 0.004949987, 0.78158
 /* @teleloc 0x01AF0109 [20.308030 -17.012150 0.004950] 0.781588 0.000000 0.000000 -0.623795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AF007, 0x701AF008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701AF007, 0x701AF009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701AF007, 0x701AF00A, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701AF007, 0x701AF00B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701AF007, 0x701AF00C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701AF007, 0x701AF00D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701AF007, 0x701AF00E, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701AF007, 0x701AF00F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701AF007, 0x701AF010, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x701AF007, 0x701AF008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701AF007, 0x701AF009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701AF007, 0x701AF00A, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701AF007, 0x701AF00B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701AF007, 0x701AF00C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701AF007, 0x701AF00D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701AF007, 0x701AF00E, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701AF007, 0x701AF00F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701AF007, 0x701AF010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AF008,   948, 0x01AF0109, 20.30803, -17.01215, 0.004949987, 0.781588, 0, 0, -0.623795,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */

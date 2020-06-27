@@ -5,12 +5,12 @@ VALUES (0x7F043001,  1154, 0xF0430015, 67.60439, 100.7217, 4.744603, -0.7820482,
 /* @teleloc 0xF0430015 [67.604390 100.721700 4.744603] -0.782048 0.000000 0.000000 -0.623218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F043001, 0x7F043002, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7F043001, 0x7F043003, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7F043001, 0x7F043004, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7F043001, 0x7F043005, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7F043001, 0x7F043006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7F043001, 0x7F043007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7F043001, 0x7F043002, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7F043001, 0x7F043003, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7F043001, 0x7F043004, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7F043001, 0x7F043005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7F043001, 0x7F043006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7F043001, 0x7F043007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F043002,  2610, 0xF0430015, 67.60439, 100.7217, 4.744603, -0.7820482, 0, 0, -0.6232179,  True, '2019-02-10 00:00:00'); /* Kilif Zefir */
@@ -41,8 +41,8 @@ VALUES (0x7F043008,  1542, 0xF0430015, 56.9627, 105.343, 6.506218, 1, 0, 0, 0, F
 /* @teleloc 0xF0430015 [56.962700 105.343000 6.506218] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F043008, 0x7F043009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7F043008, 0x7F04300A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7F043008, 0x7F043009, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7F043008, 0x7F04300A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F043009, 22568, 0xF0430015, 56.9627, 105.343, 6.506218, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

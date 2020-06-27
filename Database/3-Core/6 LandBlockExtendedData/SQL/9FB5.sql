@@ -9,16 +9,16 @@ VALUES (0x79FB5001,  1154, 0x9FB50039, 169.5847, 12.31262, 82.99885, -0.9973907,
 /* @teleloc 0x9FB50039 [169.584700 12.312620 82.998850] -0.997391 0.000000 0.000000 -0.072192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB5001, 0x79FB5002, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FB5001, 0x79FB5003, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x79FB5001, 0x79FB5004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FB5001, 0x79FB5005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FB5001, 0x79FB5006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FB5001, 0x79FB5007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79FB5001, 0x79FB5008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79FB5001, 0x79FB5009, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x79FB5001, 0x79FB500A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FB5001, 0x79FB500B, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x79FB5001, 0x79FB5002, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FB5001, 0x79FB5003, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x79FB5001, 0x79FB5004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FB5001, 0x79FB5005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FB5001, 0x79FB5006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FB5001, 0x79FB5007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79FB5001, 0x79FB5008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79FB5001, 0x79FB5009, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x79FB5001, 0x79FB500A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FB5001, 0x79FB500B, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB5002, 32203, 0x9FB50039, 169.5847, 12.31262, 82.99885, -0.9973907, 0, 0, -0.07219172,  True, '2019-02-10 00:00:00'); /* Pumpkin Kin */
@@ -65,9 +65,9 @@ VALUES (0x79FB500C,  1542, 0x9FB50031, 167.2164, 15.6494, 83.36942, -0.9973907, 
 /* @teleloc 0x9FB50031 [167.216400 15.649400 83.369420] -0.997391 0.000000 0.000000 -0.072192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB500C, 0x79FB500D, '2019-02-10 00:00:00') /* Pumpkin Follower */
-     , (0x79FB500C, 0x79FB500E, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79FB500C, 0x79FB500F, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79FB500C, 0x79FB500D, '2019-02-10 00:00:00') /* Pumpkin Follower (32199) */
+     , (0x79FB500C, 0x79FB500E, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79FB500C, 0x79FB500F, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB500D, 32199, 0x9FB50031, 167.2164, 15.6494, 83.36942, -0.9973907, 0, 0, -0.07219172,  True, '2019-02-10 00:00:00'); /* Pumpkin Follower */

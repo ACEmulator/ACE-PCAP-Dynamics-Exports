@@ -5,11 +5,11 @@ VALUES (0x73041001,  1154, 0x30410023, 99.88617, 55.60014, 22.96544, -0.2700026,
 /* @teleloc 0x30410023 [99.886170 55.600140 22.965440] -0.270003 0.000000 0.000000 -0.962860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73041001, 0x73041002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73041001, 0x73041003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73041001, 0x73041004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73041001, 0x73041005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73041001, 0x73041006, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x73041001, 0x73041002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73041001, 0x73041003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73041001, 0x73041004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73041001, 0x73041005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73041001, 0x73041006, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73041002, 24319, 0x30410023, 99.88617, 55.60014, 22.96544, -0.2700026, 0, 0, -0.9628596,  True, '2019-02-10 00:00:00'); /* Dark Master */

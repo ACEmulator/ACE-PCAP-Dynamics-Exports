@@ -5,11 +5,11 @@ VALUES (0x7A552001,  1154, 0xA5520040, 170.2023, 168.5556, 84.64651, 0.9660395, 
 /* @teleloc 0xA5520040 [170.202300 168.555600 84.646510] 0.966040 0.000000 0.000000 -0.258394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A552001, 0x7A552002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A552001, 0x7A552003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A552001, 0x7A552004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A552001, 0x7A552005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A552001, 0x7A552006, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x7A552001, 0x7A552002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A552001, 0x7A552003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A552001, 0x7A552004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A552001, 0x7A552005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A552001, 0x7A552006, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A552002,  1758, 0xA5520040, 170.2023, 168.5556, 84.64651, 0.9660395, 0, 0, -0.2583944,  True, '2019-02-10 00:00:00'); /* Shadow */

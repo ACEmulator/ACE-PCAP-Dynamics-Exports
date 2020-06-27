@@ -29,42 +29,42 @@ VALUES (0x70062007,  1154, 0x0062027C, 91.1104, -71.0036, -12, 1, 0, 0, 0, False
 /* @teleloc 0x0062027C [91.110400 -71.003600 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70062007, 0x70062008, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x70062007, 0x70062009, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x7006200A, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x70062007, 0x7006200B, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x7006200C, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x70062007, 0x7006200D, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x70062007, 0x7006200E, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x7006200F, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x70062007, 0x70062010, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x70062007, 0x70062011, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x70062007, 0x70062012, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x70062013, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x70062007, 0x70062014, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x70062007, 0x70062015, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x70062007, 0x70062016, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x70062007, 0x70062017, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x70062018, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x70062019, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x7006201A, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x70062007, 0x7006201B, '2019-02-10 00:00:00') /* Infused Empyrean Blood Golem */
-     , (0x70062007, 0x7006201C, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x7006201D, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x7006201E, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x7006201F, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062020, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062021, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062022, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062023, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062024, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062025, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062026, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062027, '2019-02-10 00:00:00') /* Ley Line */
-     , (0x70062007, 0x70062028, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x70062007, 0x70062029, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x70062007, 0x7006202A, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x70062007, 0x7006202B, '2019-02-10 00:00:00') /* Doomed Spirit */;
+VALUES (0x70062007, 0x70062008, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x70062007, 0x70062009, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x7006200A, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x70062007, 0x7006200B, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x7006200C, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x70062007, 0x7006200D, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x70062007, 0x7006200E, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x7006200F, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x70062007, 0x70062010, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x70062007, 0x70062011, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x70062007, 0x70062012, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x70062013, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x70062007, 0x70062014, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x70062007, 0x70062015, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x70062007, 0x70062016, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x70062007, 0x70062017, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x70062018, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x70062019, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x7006201A, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x70062007, 0x7006201B, '2019-02-10 00:00:00') /* Infused Empyrean Blood Golem (34976) */
+     , (0x70062007, 0x7006201C, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x7006201D, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x7006201E, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x7006201F, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062020, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062021, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062022, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062023, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062024, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062025, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062026, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062027, '2019-02-10 00:00:00') /* Ley Line (34952) */
+     , (0x70062007, 0x70062028, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x70062007, 0x70062029, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x70062007, 0x7006202A, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x70062007, 0x7006202B, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70062008, 34980, 0x0062027C, 91.1104, -71.0036, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Thralled Guruk Spore Seeker */
@@ -215,18 +215,18 @@ VALUES (0x7006202C,  1154, 0x00620166, 79.6211, -123.847, -59.99, 0.8336214, 0, 
 /* @teleloc 0x00620166 [79.621100 -123.847000 -59.990000] 0.833621 0.000000 0.000000 0.552336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7006202C, 0x7006202D, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x7006202E, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x7006202F, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062030, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062031, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062032, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062033, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062034, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062035, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062036, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062037, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */
-     , (0x7006202C, 0x70062038, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron */;
+VALUES (0x7006202C, 0x7006202D, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x7006202E, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35103) */
+     , (0x7006202C, 0x7006202F, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062030, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062031, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062032, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35103) */
+     , (0x7006202C, 0x70062033, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062034, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35103) */
+     , (0x7006202C, 0x70062035, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062036, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35103) */
+     , (0x7006202C, 0x70062037, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35104) */
+     , (0x7006202C, 0x70062038, '2019-02-10 00:00:00') /* Corpse of a Servitor of Asheron (35103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7006202D, 35104, 0x00620166, 79.6211, -123.847, -59.99, 0.8336214, 0, 0, 0.5523362,  True, '2019-02-10 00:00:00'); /* Corpse of a Servitor of Asheron */
@@ -281,8 +281,8 @@ VALUES (0x70062039,  1542, 0x00620265, 70.2295, -70.8034, -12, 1, 0, 0, 0, False
 /* @teleloc 0x00620265 [70.229500 -70.803400 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70062039, 0x7006203A, '2019-02-10 00:00:00') /* Small Skeletal Falatacot Reliquary */
-     , (0x70062039, 0x7006203B, '2019-02-10 00:00:00') /* Small Skeletal Falatacot Reliquary */;
+VALUES (0x70062039, 0x7006203A, '2019-02-10 00:00:00') /* Small Skeletal Falatacot Reliquary (35047) */
+     , (0x70062039, 0x7006203B, '2019-02-10 00:00:00') /* Small Skeletal Falatacot Reliquary (35047) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7006203A, 35047, 0x00620265, 70.2295, -70.8034, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Skeletal Falatacot Reliquary */

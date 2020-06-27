@@ -5,10 +5,10 @@ VALUES (0x723DF001,  1154, 0x23DF0019, 79.48116, 21.55608, 27.09366, -0.8462833,
 /* @teleloc 0x23DF0019 [79.481160 21.556080 27.093660] -0.846283 0.000000 0.000000 -0.532733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723DF001, 0x723DF002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x723DF001, 0x723DF003, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x723DF001, 0x723DF004, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x723DF001, 0x723DF005, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x723DF001, 0x723DF002, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x723DF001, 0x723DF003, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x723DF001, 0x723DF004, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x723DF001, 0x723DF005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DF002,  7330, 0x23DF0019, 79.48116, 21.55608, 27.09366, -0.8462833, 0, 0, -0.5327331,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

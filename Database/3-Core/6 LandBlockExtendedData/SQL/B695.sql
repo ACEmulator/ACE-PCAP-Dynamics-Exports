@@ -5,14 +5,14 @@ VALUES (0x7B695001,  1154, 0xB6950010, 37.58724, 170.42, 52.80818, -0.9999118, 0
 /* @teleloc 0xB6950010 [37.587240 170.420000 52.808180] -0.999912 0.000000 0.000000 -0.013282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B695001, 0x7B695002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B695001, 0x7B695003, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B695001, 0x7B695004, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B695001, 0x7B695005, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B695001, 0x7B695006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B695001, 0x7B695007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B695001, 0x7B695008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B695001, 0x7B695009, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7B695001, 0x7B695002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B695001, 0x7B695003, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B695001, 0x7B695004, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B695001, 0x7B695005, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B695001, 0x7B695006, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B695001, 0x7B695007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B695001, 0x7B695008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B695001, 0x7B695009, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B695002,   193, 0xB6950010, 37.58724, 170.42, 52.80818, -0.9999118, 0, 0, -0.01328206,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

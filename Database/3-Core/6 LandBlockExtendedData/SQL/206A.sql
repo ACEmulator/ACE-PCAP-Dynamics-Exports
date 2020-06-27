@@ -5,16 +5,16 @@ VALUES (0x7206A001,  1154, 0x206A0014, 71.91033, 92.49309, 65.40287, -0.9210173,
 /* @teleloc 0x206A0014 [71.910330 92.493090 65.402870] -0.921017 0.000000 0.000000 -0.389522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7206A001, 0x7206A002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7206A001, 0x7206A003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7206A001, 0x7206A004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7206A001, 0x7206A005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7206A001, 0x7206A006, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7206A001, 0x7206A007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7206A001, 0x7206A008, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7206A001, 0x7206A009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7206A001, 0x7206A00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7206A001, 0x7206A00B, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7206A001, 0x7206A002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7206A001, 0x7206A003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7206A001, 0x7206A004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7206A001, 0x7206A005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7206A001, 0x7206A006, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7206A001, 0x7206A007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7206A001, 0x7206A008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7206A001, 0x7206A009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7206A001, 0x7206A00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7206A001, 0x7206A00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7206A002, 24134, 0x206A0014, 71.91033, 92.49309, 65.40287, -0.9210173, 0, 0, -0.3895216,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -61,7 +61,7 @@ VALUES (0x7206A00C,  1542, 0x206A000A, 28.55834, 38.6583, 49.88247, -4.371139E-0
 /* @teleloc 0x206A000A [28.558340 38.658300 49.882470] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7206A00C, 0x7206A00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7206A00C, 0x7206A00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7206A00D,  4380, 0x206A000A, 28.55834, 38.6583, 49.88247, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

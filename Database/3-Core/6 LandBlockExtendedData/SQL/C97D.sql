@@ -5,12 +5,12 @@ VALUES (0x7C97D001,  1154, 0xC97D0038, 164.8009, 187.3445, 37.18954, 0.8702045, 
 /* @teleloc 0xC97D0038 [164.800900 187.344500 37.189540] 0.870205 0.000000 0.000000 -0.492691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C97D001, 0x7C97D002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C97D001, 0x7C97D003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C97D001, 0x7C97D004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C97D001, 0x7C97D005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C97D001, 0x7C97D006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C97D001, 0x7C97D007, '2019-02-10 00:00:00') /* Tan Rat */;
+VALUES (0x7C97D001, 0x7C97D002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C97D001, 0x7C97D003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C97D001, 0x7C97D004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C97D001, 0x7C97D005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C97D001, 0x7C97D006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C97D001, 0x7C97D007, '2019-02-10 00:00:00') /* Tan Rat (4131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C97D002,  7989, 0xC97D0038, 164.8009, 187.3445, 37.18954, 0.8702045, 0, 0, -0.4926907,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
@@ -41,7 +41,7 @@ VALUES (0x7C97D008,  1542, 0xC97D001D, 88.91125, 116.5854, 71.20309, -0.7890329,
 /* @teleloc 0xC97D001D [88.911250 116.585400 71.203090] -0.789033 0.000000 0.000000 -0.614351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C97D008, 0x7C97D009, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C97D008, 0x7C97D009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C97D009,  8646, 0xC97D001D, 88.91125, 116.5854, 71.20309, -0.7890329, 0, 0, -0.6143509,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

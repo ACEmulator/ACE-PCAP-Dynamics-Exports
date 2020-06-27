@@ -5,16 +5,16 @@ VALUES (0x7F516001,  1154, 0xF5160005, 14.512, 111.3763, 93.42104, 1, 0, 0, 0, F
 /* @teleloc 0xF5160005 [14.512000 111.376300 93.421040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F516001, 0x7F516002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F516001, 0x7F516008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F516009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F516001, 0x7F51600A, '2019-02-10 00:00:00') /* Blood Fiend */
-     , (0x7F516001, 0x7F51600B, '2019-02-10 00:00:00') /* Blood Fiend */;
+VALUES (0x7F516001, 0x7F516002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F516001, 0x7F516008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F516009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F516001, 0x7F51600A, '2019-02-10 00:00:00') /* Blood Fiend (27799) */
+     , (0x7F516001, 0x7F51600B, '2019-02-10 00:00:00') /* Blood Fiend (27799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F516002,  7124, 0xF5160005, 14.512, 111.3763, 93.42104, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -61,7 +61,7 @@ VALUES (0x7F51600C,  1542, 0xF516002E, 129.4513, 131.7608, 112.7975, 0.7995775, 
 /* @teleloc 0xF516002E [129.451300 131.760800 112.797500] 0.799578 0.000000 0.000000 -0.600563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F51600C, 0x7F51600D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7F51600C, 0x7F51600D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51600D,  1955, 0xF516002E, 129.4513, 131.7608, 112.7975, 0.7995775, 0, 0, -0.6005629,  True, '2019-02-10 00:00:00'); /* Gateway */

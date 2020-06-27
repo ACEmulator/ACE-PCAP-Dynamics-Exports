@@ -5,9 +5,9 @@ VALUES (0x74161001,  1154, 0x4161003B, 172.3313, 64.30697, 1.430511E-06, 0.81176
 /* @teleloc 0x4161003B [172.331300 64.306970 0.000001] 0.811762 0.000000 0.000000 -0.583989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74161001, 0x74161002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74161001, 0x74161003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74161001, 0x74161004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x74161001, 0x74161002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74161001, 0x74161003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74161001, 0x74161004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74161002,  7126, 0x4161003B, 172.3313, 64.30697, 1.430511E-06, 0.8117619, 0, 0, -0.5839886,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

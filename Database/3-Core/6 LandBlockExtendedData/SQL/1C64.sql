@@ -5,12 +5,12 @@ VALUES (0x71C64001,  1154, 0x1C640035, 158.5782, 112.0112, 19.10647, -0.00530185
 /* @teleloc 0x1C640035 [158.578200 112.011200 19.106470] -0.005302 0.000000 0.000000 -0.999986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C64001, 0x71C64002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x71C64001, 0x71C64003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71C64001, 0x71C64004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71C64001, 0x71C64005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71C64001, 0x71C64006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x71C64001, 0x71C64007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x71C64001, 0x71C64002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x71C64001, 0x71C64003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71C64001, 0x71C64004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71C64001, 0x71C64005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71C64001, 0x71C64006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x71C64001, 0x71C64007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C64002, 24319, 0x1C640035, 158.5782, 112.0112, 19.10647, -0.005301852, 0, 0, -0.9999859,  True, '2019-02-10 00:00:00'); /* Dark Master */

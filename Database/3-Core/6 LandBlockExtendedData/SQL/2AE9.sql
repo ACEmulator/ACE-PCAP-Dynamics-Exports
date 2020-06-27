@@ -5,16 +5,16 @@ VALUES (0x72AE9001,  1154, 0x2AE9001F, 75.54694, 149.0156, 20.5367, -0.9891794, 
 /* @teleloc 0x2AE9001F [75.546940 149.015600 20.536700] -0.989179 0.000000 0.000000 -0.146711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE9001, 0x72AE9002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72AE9001, 0x72AE9003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72AE9001, 0x72AE9004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AE9001, 0x72AE9005, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72AE9001, 0x72AE9006, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AE9001, 0x72AE9007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72AE9001, 0x72AE9008, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AE9001, 0x72AE9009, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AE9001, 0x72AE900A, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AE9001, 0x72AE900B, '2019-02-10 00:00:00') /* Ebon Mattekar */;
+VALUES (0x72AE9001, 0x72AE9002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72AE9001, 0x72AE9003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72AE9001, 0x72AE9004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AE9001, 0x72AE9005, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72AE9001, 0x72AE9006, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AE9001, 0x72AE9007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72AE9001, 0x72AE9008, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AE9001, 0x72AE9009, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AE9001, 0x72AE900A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AE9001, 0x72AE900B, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE9002,  4253, 0x2AE9001F, 75.54694, 149.0156, 20.5367, -0.9891794, 0, 0, -0.146711,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

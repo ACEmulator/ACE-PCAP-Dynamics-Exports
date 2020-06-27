@@ -5,15 +5,15 @@ VALUES (0x741BB001,  1154, 0x41BB0011, 66.07937, 1.809204, 21.34835, 0.7071068, 
 /* @teleloc 0x41BB0011 [66.079370 1.809204 21.348350] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741BB001, 0x741BB002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x741BB001, 0x741BB003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x741BB001, 0x741BB004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x741BB001, 0x741BB005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x741BB001, 0x741BB006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x741BB001, 0x741BB007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x741BB001, 0x741BB008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x741BB001, 0x741BB009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x741BB001, 0x741BB00A, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x741BB001, 0x741BB002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x741BB001, 0x741BB003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x741BB001, 0x741BB004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x741BB001, 0x741BB005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x741BB001, 0x741BB006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x741BB001, 0x741BB007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x741BB001, 0x741BB008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x741BB001, 0x741BB009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x741BB001, 0x741BB00A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741BB002, 24294, 0x41BB0011, 66.07937, 1.809204, 21.34835, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -56,7 +56,7 @@ VALUES (0x741BB00B,  1542, 0x41BB0021, 102.4894, 0.9065387, 24.54078, 0.9990482,
 /* @teleloc 0x41BB0021 [102.489400 0.906539 24.540780] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741BB00B, 0x741BB00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x741BB00B, 0x741BB00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741BB00C,  4179, 0x41BB0021, 102.4894, 0.9065387, 24.54078, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

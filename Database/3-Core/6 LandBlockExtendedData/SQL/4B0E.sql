@@ -5,12 +5,12 @@ VALUES (0x74B0E001,  1154, 0x4B0E0021, 110.5858, 8.035429, 68.0065, 0.9763292, 0
 /* @teleloc 0x4B0E0021 [110.585800 8.035429 68.006500] 0.976329 0.000000 0.000000 -0.216290 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B0E001, 0x74B0E002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x74B0E001, 0x74B0E003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0E001, 0x74B0E004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0E001, 0x74B0E005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0E001, 0x74B0E006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74B0E001, 0x74B0E007, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x74B0E001, 0x74B0E002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74B0E001, 0x74B0E003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74B0E001, 0x74B0E004, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74B0E001, 0x74B0E005, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74B0E001, 0x74B0E006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74B0E001, 0x74B0E007, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B0E002, 21549, 0x4B0E0021, 110.5858, 8.035429, 68.0065, 0.9763292, 0, 0, -0.2162899,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

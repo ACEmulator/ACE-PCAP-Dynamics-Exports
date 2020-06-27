@@ -5,17 +5,17 @@ VALUES (0x73690001,  1154, 0x36900005, 16.38748, 114.3885, 56.78274, 0.2588191, 
 /* @teleloc 0x36900005 [16.387480 114.388500 56.782740] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73690001, 0x73690002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73690001, 0x73690003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73690001, 0x73690004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73690001, 0x73690005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73690001, 0x73690006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73690001, 0x73690007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73690001, 0x73690008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73690001, 0x73690009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73690001, 0x7369000A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73690001, 0x7369000B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73690001, 0x7369000C, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x73690001, 0x73690002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73690001, 0x73690003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73690001, 0x73690004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73690001, 0x73690005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73690001, 0x73690006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73690001, 0x73690007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73690001, 0x73690008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73690001, 0x73690009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73690001, 0x7369000A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73690001, 0x7369000B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73690001, 0x7369000C, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73690002,  7088, 0x36900005, 16.38748, 114.3885, 56.78274, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -66,8 +66,8 @@ VALUES (0x7369000D,  1542, 0x36900005, 13.78751, 117.1888, 56.23281, 1, 0, 0, 0,
 /* @teleloc 0x36900005 [13.787510 117.188800 56.232810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7369000D, 0x7369000E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7369000D, 0x7369000F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7369000D, 0x7369000E, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7369000D, 0x7369000F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7369000E, 22566, 0x36900005, 13.78751, 117.1888, 56.23281, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

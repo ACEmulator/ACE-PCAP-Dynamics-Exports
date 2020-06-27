@@ -5,12 +5,12 @@ VALUES (0x73649001,  1154, 0x3649002F, 121.2911, 162.8255, 0.006600022, -0.71475
 /* @teleloc 0x3649002F [121.291100 162.825500 0.006600] -0.714752 0.000000 0.000000 -0.699378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73649001, 0x73649002, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x73649001, 0x73649003, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73649001, 0x73649004, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73649001, 0x73649005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73649001, 0x73649006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73649001, 0x73649007, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73649001, 0x73649002, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x73649001, 0x73649003, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73649001, 0x73649004, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73649001, 0x73649005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73649001, 0x73649006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73649001, 0x73649007, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73649002, 27421, 0x3649002F, 121.2911, 162.8255, 0.006600022, -0.7147518, 0, 0, -0.6993783,  True, '2019-02-10 00:00:00'); /* Enthralled Idolator */

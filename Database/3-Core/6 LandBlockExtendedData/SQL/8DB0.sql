@@ -5,9 +5,9 @@ VALUES (0x78DB0001,  1154, 0x8DB00037, 167.1989, 145.9508, 47.9, 0.9758723, 0, 0
 /* @teleloc 0x8DB00037 [167.198900 145.950800 47.900000] 0.975872 0.000000 0.000000 -0.218342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB0001, 0x78DB0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78DB0001, 0x78DB0003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78DB0001, 0x78DB0004, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x78DB0001, 0x78DB0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78DB0001, 0x78DB0003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78DB0001, 0x78DB0004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB0002, 28551, 0x8DB00037, 167.1989, 145.9508, 47.9, 0.9758723, 0, 0, -0.2183419,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

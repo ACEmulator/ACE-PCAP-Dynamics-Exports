@@ -5,20 +5,20 @@ VALUES (0x751C2001,  1154, 0x51C20023, 96.2579, 71.38335, 13.85234, -0.9888225, 
 /* @teleloc 0x51C20023 [96.257900 71.383350 13.852340] -0.988823 0.000000 0.000000 -0.149098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x751C2001, 0x751C2002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x751C2001, 0x751C2003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x751C2001, 0x751C2004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x751C2001, 0x751C2005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x751C2001, 0x751C2006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x751C2001, 0x751C2007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x751C2001, 0x751C2008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x751C2001, 0x751C2009, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x751C2001, 0x751C200A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x751C2001, 0x751C200B, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x751C2001, 0x751C200C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x751C2001, 0x751C200D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x751C2001, 0x751C200E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x751C2001, 0x751C200F, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x751C2001, 0x751C2002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x751C2001, 0x751C2003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x751C2001, 0x751C2004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x751C2001, 0x751C2005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x751C2001, 0x751C2006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x751C2001, 0x751C2007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x751C2001, 0x751C2008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x751C2001, 0x751C2009, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x751C2001, 0x751C200A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x751C2001, 0x751C200B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x751C2001, 0x751C200C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x751C2001, 0x751C200D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x751C2001, 0x751C200E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x751C2001, 0x751C200F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x751C2002, 23617, 0x51C20023, 96.2579, 71.38335, 13.85234, -0.9888225, 0, 0, -0.1490979,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -81,8 +81,8 @@ VALUES (0x751C2010,  1542, 0x51C20032, 158.5652, 40.82027, 5.589611, -0.303721, 
 /* @teleloc 0x51C20032 [158.565200 40.820270 5.589611] -0.303721 0.000000 0.000000 -0.952761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x751C2010, 0x751C2011, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x751C2010, 0x751C2012, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x751C2010, 0x751C2011, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x751C2010, 0x751C2012, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x751C2011, 11555, 0x51C20032, 158.5652, 40.82027, 5.589611, -0.303721, 0, 0, -0.9527611,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

@@ -5,10 +5,10 @@ VALUES (0x73469001,  1154, 0x34690027, 107.6514, 153.9045, 147.1553, 0.5641586, 
 /* @teleloc 0x34690027 [107.651400 153.904500 147.155300] 0.564159 0.000000 0.000000 -0.825666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73469001, 0x73469002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73469001, 0x73469003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73469001, 0x73469004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73469001, 0x73469005, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x73469001, 0x73469002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73469001, 0x73469003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73469001, 0x73469004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73469001, 0x73469005, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73469002,  8138, 0x34690027, 107.6514, 153.9045, 147.1553, 0.5641586, 0, 0, -0.8256664,  True, '2019-02-10 00:00:00'); /* Extas Raider */

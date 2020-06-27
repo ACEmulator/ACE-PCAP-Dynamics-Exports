@@ -5,9 +5,9 @@ VALUES (0x71BC3001,  1154, 0x1BC30037, 150.586, 146.2138, 35.46922, 0.9961947, 0
 /* @teleloc 0x1BC30037 [150.586000 146.213800 35.469220] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BC3001, 0x71BC3002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71BC3001, 0x71BC3003, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71BC3001, 0x71BC3004, '2019-02-10 00:00:00') /* Zharalim */;
+VALUES (0x71BC3001, 0x71BC3002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71BC3001, 0x71BC3003, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71BC3001, 0x71BC3004, '2019-02-10 00:00:00') /* Zharalim (12186) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC3002, 27717, 0x1BC30037, 150.586, 146.2138, 35.46922, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

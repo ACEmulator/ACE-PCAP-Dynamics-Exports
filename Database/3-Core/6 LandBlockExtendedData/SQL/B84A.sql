@@ -5,15 +5,15 @@ VALUES (0x7B84A001,  1154, 0xB84A0008, 11.67981, 177.9945, 45.24889, -0.08715577
 /* @teleloc 0xB84A0008 [11.679810 177.994500 45.248890] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B84A001, 0x7B84A002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B84A001, 0x7B84A003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B84A001, 0x7B84A004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B84A001, 0x7B84A005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B84A001, 0x7B84A006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B84A001, 0x7B84A007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B84A001, 0x7B84A008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B84A001, 0x7B84A009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B84A001, 0x7B84A00A, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7B84A001, 0x7B84A002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B84A001, 0x7B84A003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B84A001, 0x7B84A004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B84A001, 0x7B84A005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B84A001, 0x7B84A006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B84A001, 0x7B84A007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B84A001, 0x7B84A008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B84A001, 0x7B84A009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B84A001, 0x7B84A00A, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B84A002, 24940, 0xB84A0008, 11.67981, 177.9945, 45.24889, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

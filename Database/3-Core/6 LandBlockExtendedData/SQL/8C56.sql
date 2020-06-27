@@ -5,8 +5,8 @@ VALUES (0x78C56001,  1154, 0x8C560030, 134.1646, 186.0321, 21.50367, 0.2387528, 
 /* @teleloc 0x8C560030 [134.164600 186.032100 21.503670] 0.238753 0.000000 0.000000 -0.971080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C56001, 0x78C56002, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x78C56001, 0x78C56003, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x78C56001, 0x78C56002, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x78C56001, 0x78C56003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C56002,  2578, 0x8C560030, 134.1646, 186.0321, 21.50367, 0.2387528, 0, 0, -0.9710804,  True, '2019-02-10 00:00:00'); /* Shallows Lurker */

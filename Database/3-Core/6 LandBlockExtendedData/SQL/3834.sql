@@ -5,12 +5,12 @@ VALUES (0x73834001,  1154, 0x38340008, 21.35172, 180.2329, 46.24633, 0.8191521, 
 /* @teleloc 0x38340008 [21.351720 180.232900 46.246330] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73834001, 0x73834002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73834001, 0x73834003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73834001, 0x73834004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73834001, 0x73834005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73834001, 0x73834006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x73834001, 0x73834007, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x73834001, 0x73834002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73834001, 0x73834003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73834001, 0x73834004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73834001, 0x73834005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73834001, 0x73834006, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x73834001, 0x73834007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73834002, 36860, 0x38340008, 21.35172, 180.2329, 46.24633, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

@@ -5,10 +5,10 @@ VALUES (0x790A8001,  1154, 0x90A8001F, 94.43092, 146.6077, 43.9985, 0.4275452, 0
 /* @teleloc 0x90A8001F [94.430920 146.607700 43.998500] 0.427545 0.000000 0.000000 -0.903994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790A8001, 0x790A8002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x790A8001, 0x790A8003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x790A8001, 0x790A8004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x790A8001, 0x790A8005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x790A8001, 0x790A8002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x790A8001, 0x790A8003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x790A8001, 0x790A8004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x790A8001, 0x790A8005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790A8002,  7979, 0x90A8001F, 94.43092, 146.6077, 43.9985, 0.4275452, 0, 0, -0.903994,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

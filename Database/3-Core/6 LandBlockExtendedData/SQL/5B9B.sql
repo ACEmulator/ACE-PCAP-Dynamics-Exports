@@ -5,15 +5,15 @@ VALUES (0x75B9B001,  1154, 0x5B9B0026, 114.5699, 121.8304, -0.09000003, 0.551531
 /* @teleloc 0x5B9B0026 [114.569900 121.830400 -0.090000] 0.551532 0.000000 0.000000 -0.834154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9B001, 0x75B9B002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x75B9B001, 0x75B9B003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75B9B001, 0x75B9B004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75B9B001, 0x75B9B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9B001, 0x75B9B006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9B001, 0x75B9B007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75B9B001, 0x75B9B008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75B9B001, 0x75B9B009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75B9B001, 0x75B9B00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x75B9B001, 0x75B9B002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x75B9B001, 0x75B9B003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75B9B001, 0x75B9B004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75B9B001, 0x75B9B005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9B001, 0x75B9B006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9B001, 0x75B9B007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75B9B001, 0x75B9B008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75B9B001, 0x75B9B009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75B9B001, 0x75B9B00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9B002, 23082, 0x5B9B0026, 114.5699, 121.8304, -0.09000003, 0.5515319, 0, 0, -0.8341538,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

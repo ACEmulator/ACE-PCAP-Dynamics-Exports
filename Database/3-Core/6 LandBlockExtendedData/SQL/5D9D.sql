@@ -5,10 +5,10 @@ VALUES (0x75D9D001,  1154, 0x5D9D0028, 117.4566, 190.9332, 29.8353, 0.7071068, 0
 /* @teleloc 0x5D9D0028 [117.456600 190.933200 29.835300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D9D001, 0x75D9D002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75D9D001, 0x75D9D003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75D9D001, 0x75D9D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75D9D001, 0x75D9D005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x75D9D001, 0x75D9D002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75D9D001, 0x75D9D003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75D9D001, 0x75D9D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75D9D001, 0x75D9D005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D9D002, 24294, 0x5D9D0028, 117.4566, 190.9332, 29.8353, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

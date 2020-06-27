@@ -5,13 +5,13 @@ VALUES (0x7C06C001,  1154, 0xC06C0027, 108.4439, 154.7474, 61.13338, 0.5198966, 
 /* @teleloc 0xC06C0027 [108.443900 154.747400 61.133380] 0.519897 0.000000 0.000000 -0.854229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06C001, 0x7C06C002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7C06C001, 0x7C06C003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7C06C001, 0x7C06C004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7C06C001, 0x7C06C005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7C06C001, 0x7C06C006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C06C001, 0x7C06C007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C06C001, 0x7C06C008, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7C06C001, 0x7C06C002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7C06C001, 0x7C06C003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7C06C001, 0x7C06C004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7C06C001, 0x7C06C005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7C06C001, 0x7C06C006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C06C001, 0x7C06C007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C06C001, 0x7C06C008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06C002,  5497, 0xC06C0027, 108.4439, 154.7474, 61.13338, 0.5198966, 0, 0, -0.8542292,  True, '2019-02-10 00:00:00'); /* Virindi Director */

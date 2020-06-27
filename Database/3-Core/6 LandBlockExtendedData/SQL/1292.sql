@@ -5,18 +5,18 @@ VALUES (0x71292001,  1154, 0x1292003F, 185.6106, 148.5201, 0.006500006, 0.090931
 /* @teleloc 0x1292003F [185.610600 148.520100 0.006500] 0.090931 0.000000 0.000000 -0.995857 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71292001, 0x71292002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x71292001, 0x71292003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71292001, 0x71292004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71292001, 0x71292005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71292001, 0x71292006, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71292001, 0x71292007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71292001, 0x71292008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71292001, 0x71292009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71292001, 0x7129200A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71292001, 0x7129200B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71292001, 0x7129200C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71292001, 0x7129200D, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71292001, 0x71292002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x71292001, 0x71292003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71292001, 0x71292004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71292001, 0x71292005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71292001, 0x71292006, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71292001, 0x71292007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71292001, 0x71292008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71292001, 0x71292009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71292001, 0x7129200A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71292001, 0x7129200B, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71292001, 0x7129200C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71292001, 0x7129200D, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71292002, 23567, 0x1292003F, 185.6106, 148.5201, 0.006500006, 0.09093124, 0, 0, -0.9958572,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */

@@ -5,15 +5,15 @@ VALUES (0x778C3001,  1154, 0x78C3001B, 80.67566, 65.17784, 204.909, -0.7660444, 
 /* @teleloc 0x78C3001B [80.675660 65.177840 204.909000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778C3001, 0x778C3002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C3001, 0x778C3003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C3001, 0x778C3004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C3001, 0x778C3005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x778C3001, 0x778C3006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x778C3001, 0x778C3007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x778C3001, 0x778C3008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x778C3001, 0x778C3009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x778C3001, 0x778C300A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x778C3001, 0x778C3002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C3001, 0x778C3003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C3001, 0x778C3004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C3001, 0x778C3005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x778C3001, 0x778C3006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x778C3001, 0x778C3007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x778C3001, 0x778C3008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x778C3001, 0x778C3009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x778C3001, 0x778C300A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778C3002, 24497, 0x78C3001B, 80.67566, 65.17784, 204.909, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -56,9 +56,9 @@ VALUES (0x778C300B,  1542, 0x78C30023, 114.9815, 55.91512, 219.6888, 0.9990482, 
 /* @teleloc 0x78C30023 [114.981500 55.915120 219.688800] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778C300B, 0x778C300C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x778C300B, 0x778C300D, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x778C300B, 0x778C300E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x778C300B, 0x778C300C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x778C300B, 0x778C300D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x778C300B, 0x778C300E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778C300C,  4179, 0x78C30023, 114.9815, 55.91512, 219.6888, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

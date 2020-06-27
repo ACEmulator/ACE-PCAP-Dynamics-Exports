@@ -5,19 +5,19 @@ VALUES (0x7B819001,  1154, 0xB819001C, 95.43906, 84.1496, 112.9439, 0.9613296, 0
 /* @teleloc 0xB819001C [95.439060 84.149600 112.943900] 0.961330 0.000000 0.000000 -0.275400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B819001, 0x7B819002, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7B819001, 0x7B819003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B819001, 0x7B819004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B819001, 0x7B819005, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B819001, 0x7B819006, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7B819001, 0x7B819007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B819001, 0x7B819008, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B819001, 0x7B819009, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B819001, 0x7B81900A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B819001, 0x7B81900B, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B819001, 0x7B81900C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B819001, 0x7B81900D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B819001, 0x7B81900E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7B819001, 0x7B819002, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7B819001, 0x7B819003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B819001, 0x7B819004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B819001, 0x7B819005, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B819001, 0x7B819006, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7B819001, 0x7B819007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B819001, 0x7B819008, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B819001, 0x7B819009, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B819001, 0x7B81900A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B819001, 0x7B81900B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B819001, 0x7B81900C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B819001, 0x7B81900D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B819001, 0x7B81900E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B819002, 26469, 0xB819001C, 95.43906, 84.1496, 112.9439, 0.9613296, 0, 0, -0.2754002,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
@@ -76,20 +76,20 @@ VALUES (0x7B81900F,  1542, 0xB8190014, 48.10275, 89.51633, 106.002, 0.8107697, 0
 /* @teleloc 0xB8190014 [48.102750 89.516330 106.002000] 0.810770 0.000000 0.000000 -0.585365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B81900F, 0x7B819010, '2019-02-10 00:00:00') /* Rock */
-     , (0x7B81900F, 0x7B819011, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B81900F, 0x7B819012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7B81900F, 0x7B819013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B81900F, 0x7B819014, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7B81900F, 0x7B819015, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7B81900F, 0x7B819016, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7B81900F, 0x7B819017, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7B81900F, 0x7B819018, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7B81900F, 0x7B819019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B81900F, 0x7B81901A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7B81900F, 0x7B81901B, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7B81900F, 0x7B81901C, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7B81900F, 0x7B81901D, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7B81900F, 0x7B819010, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B81900F, 0x7B819011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B81900F, 0x7B819012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7B81900F, 0x7B819013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B81900F, 0x7B819014, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7B81900F, 0x7B819015, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7B81900F, 0x7B819016, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7B81900F, 0x7B819017, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7B81900F, 0x7B819018, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7B81900F, 0x7B819019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B81900F, 0x7B81901A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7B81900F, 0x7B81901B, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7B81900F, 0x7B81901C, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7B81900F, 0x7B81901D, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B819010, 42528, 0xB8190014, 48.10275, 89.51633, 106.002, 0.8107697, 0, 0, -0.5853653,  True, '2019-02-10 00:00:00'); /* Rock */

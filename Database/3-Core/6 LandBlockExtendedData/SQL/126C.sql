@@ -5,11 +5,11 @@ VALUES (0x7126C001,  1154, 0x126C0040, 185.8436, 177.0269, 43.76969, 0.9971256, 
 /* @teleloc 0x126C0040 [185.843600 177.026900 43.769690] 0.997126 0.000000 0.000000 -0.075766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7126C001, 0x7126C002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7126C001, 0x7126C003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7126C001, 0x7126C004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7126C001, 0x7126C005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7126C001, 0x7126C006, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7126C001, 0x7126C002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7126C001, 0x7126C003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7126C001, 0x7126C004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7126C001, 0x7126C005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7126C001, 0x7126C006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7126C002,  7114, 0x126C0040, 185.8436, 177.0269, 43.76969, 0.9971256, 0, 0, -0.07576636,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

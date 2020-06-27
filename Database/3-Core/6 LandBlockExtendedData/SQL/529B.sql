@@ -5,13 +5,13 @@ VALUES (0x7529B001,  1154, 0x529B003E, 176.9477, 134.4918, -0.8934, 0.8660254, 0
 /* @teleloc 0x529B003E [176.947700 134.491800 -0.893400] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7529B001, 0x7529B002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7529B001, 0x7529B003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7529B001, 0x7529B004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7529B001, 0x7529B005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7529B001, 0x7529B006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7529B001, 0x7529B007, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7529B001, 0x7529B008, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7529B001, 0x7529B002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7529B001, 0x7529B003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7529B001, 0x7529B004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7529B001, 0x7529B005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7529B001, 0x7529B006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7529B001, 0x7529B007, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7529B001, 0x7529B008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7529B002,  7102, 0x529B003E, 176.9477, 134.4918, -0.8934, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

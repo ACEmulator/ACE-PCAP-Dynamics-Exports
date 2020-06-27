@@ -5,12 +5,12 @@ VALUES (0x7B660001,  1154, 0xB660000B, 47.88815, 60.1024, 19.996, -0.7934971, 0,
 /* @teleloc 0xB660000B [47.888150 60.102400 19.996000] -0.793497 0.000000 0.000000 -0.608574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B660001, 0x7B660002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B660001, 0x7B660003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B660001, 0x7B660004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B660001, 0x7B660005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B660001, 0x7B660006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B660001, 0x7B660007, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7B660001, 0x7B660002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B660001, 0x7B660003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B660001, 0x7B660004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B660001, 0x7B660005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B660001, 0x7B660006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B660001, 0x7B660007, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B660002,  4109, 0xB660000B, 47.88815, 60.1024, 19.996, -0.7934971, 0, 0, -0.608574,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

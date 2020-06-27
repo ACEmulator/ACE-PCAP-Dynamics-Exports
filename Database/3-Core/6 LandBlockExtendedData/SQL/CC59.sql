@@ -5,16 +5,16 @@ VALUES (0x7CC59001,  1154, 0xCC590022, 96.09105, 39.15942, 20.94416, -0.9620172,
 /* @teleloc 0xCC590022 [96.091050 39.159420 20.944160] -0.962017 0.000000 0.000000 -0.272989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC59001, 0x7CC59002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC59001, 0x7CC59003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC59001, 0x7CC59004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CC59001, 0x7CC59005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CC59001, 0x7CC59006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CC59001, 0x7CC59007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CC59001, 0x7CC59008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC59001, 0x7CC59009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC59001, 0x7CC5900A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CC59001, 0x7CC5900B, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7CC59001, 0x7CC59002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC59001, 0x7CC59003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC59001, 0x7CC59004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CC59001, 0x7CC59005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CC59001, 0x7CC59006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CC59001, 0x7CC59007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CC59001, 0x7CC59008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC59001, 0x7CC59009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC59001, 0x7CC5900A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CC59001, 0x7CC5900B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC59002,  2575, 0xCC590022, 96.09105, 39.15942, 20.94416, -0.9620172, 0, 0, -0.2729888,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -61,10 +61,10 @@ VALUES (0x7CC5900C,  1542, 0xCC590033, 162.4932, 58.92284, 20.45134, 0.9238795, 
 /* @teleloc 0xCC590033 [162.493200 58.922840 20.451340] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC5900C, 0x7CC5900D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CC5900C, 0x7CC5900E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CC5900C, 0x7CC5900F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CC5900C, 0x7CC59010, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7CC5900C, 0x7CC5900D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CC5900C, 0x7CC5900E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CC5900C, 0x7CC5900F, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7CC5900C, 0x7CC59010, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC5900D,  4380, 0xCC590033, 162.4932, 58.92284, 20.45134, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

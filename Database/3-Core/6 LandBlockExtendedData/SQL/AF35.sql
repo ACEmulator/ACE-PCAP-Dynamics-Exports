@@ -5,12 +5,12 @@ VALUES (0x7AF35001,  1154, 0xAF350014, 48.87654, 85.0489, 43.17045, 0.119132, 0,
 /* @teleloc 0xAF350014 [48.876540 85.048900 43.170450] 0.119132 0.000000 0.000000 -0.992878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF35001, 0x7AF35002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AF35001, 0x7AF35003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF35001, 0x7AF35004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF35001, 0x7AF35005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AF35001, 0x7AF35006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7AF35001, 0x7AF35007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7AF35001, 0x7AF35002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AF35001, 0x7AF35003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF35001, 0x7AF35004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF35001, 0x7AF35005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AF35001, 0x7AF35006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7AF35001, 0x7AF35007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF35002, 11528, 0xAF350014, 48.87654, 85.0489, 43.17045, 0.119132, 0, 0, -0.9928784,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -41,7 +41,7 @@ VALUES (0x7AF35008,  1542, 0xAF350018, 59.57935, 184.3065, 45.87091, -0.6328909,
 /* @teleloc 0xAF350018 [59.579350 184.306500 45.870910] -0.632891 0.000000 0.000000 -0.774241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF35008, 0x7AF35009, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7AF35008, 0x7AF35009, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF35009, 31686, 0xAF350018, 59.57935, 184.3065, 45.87091, -0.6328909, 0, 0, -0.774241,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

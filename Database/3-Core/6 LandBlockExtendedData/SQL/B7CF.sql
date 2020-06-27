@@ -5,13 +5,13 @@ VALUES (0x7B7CF001,  1154, 0xB7CF0021, 117.5731, 6.06514, 151.1112, 0.6427876, 0
 /* @teleloc 0xB7CF0021 [117.573100 6.065140 151.111200] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7CF001, 0x7B7CF002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B7CF001, 0x7B7CF003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B7CF001, 0x7B7CF004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B7CF001, 0x7B7CF005, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B7CF001, 0x7B7CF006, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B7CF001, 0x7B7CF007, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B7CF001, 0x7B7CF008, '2019-02-10 00:00:00') /* K'nath N'gell */;
+VALUES (0x7B7CF001, 0x7B7CF002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B7CF001, 0x7B7CF003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B7CF001, 0x7B7CF004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B7CF001, 0x7B7CF005, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B7CF001, 0x7B7CF006, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B7CF001, 0x7B7CF007, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B7CF001, 0x7B7CF008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7CF002,  1608, 0xB7CF0021, 117.5731, 6.06514, 151.1112, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -46,7 +46,7 @@ VALUES (0x7B7CF009,  1542, 0xB7CF0021, 118.1817, 8.602119, 148.8694, 1, 0, 0, 0,
 /* @teleloc 0xB7CF0021 [118.181700 8.602119 148.869400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7CF009, 0x7B7CF00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B7CF009, 0x7B7CF00A, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7CF00A, 22576, 0xB7CF0021, 118.1817, 8.602119, 148.8694, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

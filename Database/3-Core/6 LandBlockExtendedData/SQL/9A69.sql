@@ -5,13 +5,13 @@ VALUES (0x79A69001,  1154, 0x9A690037, 144.0811, 166.1127, 31.52304, 0.9969993, 
 /* @teleloc 0x9A690037 [144.081100 166.112700 31.523040] 0.996999 0.000000 0.000000 -0.077411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A69001, 0x79A69002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79A69001, 0x79A69003, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79A69001, 0x79A69004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79A69001, 0x79A69005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79A69001, 0x79A69006, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79A69001, 0x79A69007, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79A69001, 0x79A69008, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x79A69001, 0x79A69002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79A69001, 0x79A69003, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79A69001, 0x79A69004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79A69001, 0x79A69005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79A69001, 0x79A69006, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79A69001, 0x79A69007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79A69001, 0x79A69008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A69002,  1766, 0x9A690037, 144.0811, 166.1127, 31.52304, 0.9969993, 0, 0, -0.07741079,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

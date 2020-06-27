@@ -9,25 +9,25 @@ VALUES (0x7394A001,  1154, 0x394A0102, 58.4932, 183.132, 2.4065, 0.00915264, 0, 
 /* @teleloc 0x394A0102 [58.493200 183.132000 2.406500] 0.009153 0.000000 0.000000 -0.999958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7394A001, 0x7394A002, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7394A001, 0x7394A003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7394A001, 0x7394A004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7394A001, 0x7394A005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7394A001, 0x7394A008, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7394A001, 0x7394A009, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7394A001, 0x7394A00A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7394A001, 0x7394A00B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7394A001, 0x7394A00C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A00D, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7394A001, 0x7394A00E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7394A001, 0x7394A00F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A010, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x7394A001, 0x7394A011, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A012, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7394A001, 0x7394A013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7394A001, 0x7394A014, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x7394A001, 0x7394A002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A001, 0x7394A003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A001, 0x7394A004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A001, 0x7394A005, '2019-02-10 00:00:00') /* Tumerok Major (2482) */
+     , (0x7394A001, 0x7394A006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7394A001, 0x7394A007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A001, 0x7394A008, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A001, 0x7394A009, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A001, 0x7394A00A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A001, 0x7394A00B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A001, 0x7394A00C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7394A001, 0x7394A00D, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A001, 0x7394A00E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A001, 0x7394A00F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7394A001, 0x7394A010, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x7394A001, 0x7394A011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7394A001, 0x7394A012, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7394A001, 0x7394A013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7394A001, 0x7394A014, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7394A002,   230, 0x394A0102, 58.4932, 183.132, 2.4065, 0.00915264, 0, 0, -0.999958,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */

@@ -9,23 +9,23 @@ VALUES (0x727EA001,  1154, 0x27EA0039, 171.1505, 17.4, 29.9925, -0.2403165, 0, 0
 /* @teleloc 0x27EA0039 [171.150500 17.400000 29.992500] -0.240317 0.000000 0.000000 -0.970695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727EA001, 0x727EA002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x727EA001, 0x727EA003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x727EA001, 0x727EA004, '2019-02-10 00:00:00') /* Eater */
-     , (0x727EA001, 0x727EA005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x727EA001, 0x727EA006, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x727EA001, 0x727EA007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x727EA001, 0x727EA008, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x727EA001, 0x727EA009, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x727EA001, 0x727EA00A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x727EA001, 0x727EA00B, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x727EA001, 0x727EA00C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x727EA001, 0x727EA00D, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x727EA001, 0x727EA00E, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x727EA001, 0x727EA00F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x727EA001, 0x727EA010, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x727EA001, 0x727EA011, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x727EA001, 0x727EA012, '2019-02-10 00:00:00') /* Auroch Ravager */;
+VALUES (0x727EA001, 0x727EA002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x727EA001, 0x727EA003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x727EA001, 0x727EA004, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x727EA001, 0x727EA005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x727EA001, 0x727EA006, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x727EA001, 0x727EA007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x727EA001, 0x727EA008, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x727EA001, 0x727EA009, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x727EA001, 0x727EA00A, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x727EA001, 0x727EA00B, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x727EA001, 0x727EA00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x727EA001, 0x727EA00D, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x727EA001, 0x727EA00E, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x727EA001, 0x727EA00F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x727EA001, 0x727EA010, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x727EA001, 0x727EA011, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x727EA001, 0x727EA012, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727EA002, 24294, 0x27EA0039, 171.1505, 17.4, 29.9925, -0.2403165, 0, 0, -0.9706946,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

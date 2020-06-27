@@ -5,12 +5,12 @@ VALUES (0x7C43C001,  1154, 0xC43C0024, 96.74566, 88.35668, 58.60516, 0.7071068, 
 /* @teleloc 0xC43C0024 [96.745660 88.356680 58.605160] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C43C001, 0x7C43C002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C43C001, 0x7C43C003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C43C001, 0x7C43C004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C43C001, 0x7C43C005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C43C001, 0x7C43C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C43C001, 0x7C43C007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C43C001, 0x7C43C002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C43C001, 0x7C43C003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C43C001, 0x7C43C004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C43C001, 0x7C43C005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C43C001, 0x7C43C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C43C001, 0x7C43C007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C43C002,  1608, 0xC43C0024, 96.74566, 88.35668, 58.60516, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -41,7 +41,7 @@ VALUES (0x7C43C008,  1542, 0xC43C001A, 77.06579, 45.34512, 56.99446, 0.7071068, 
 /* @teleloc 0xC43C001A [77.065790 45.345120 56.994460] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C43C008, 0x7C43C009, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7C43C008, 0x7C43C009, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C43C009,  6118, 0xC43C001A, 77.06579, 45.34512, 56.99446, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

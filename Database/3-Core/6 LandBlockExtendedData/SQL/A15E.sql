@@ -5,20 +5,20 @@ VALUES (0x7A15E001,  1154, 0xA15E003F, 187.3109, 161.6115, 11.55, 0.7608815, 0, 
 /* @teleloc 0xA15E003F [187.310900 161.611500 11.550000] 0.760882 0.000000 0.000000 -0.648891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A15E001, 0x7A15E002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A15E001, 0x7A15E006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A15E001, 0x7A15E007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A15E001, 0x7A15E008, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A15E001, 0x7A15E00A, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A15E001, 0x7A15E00B, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E00C, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A15E001, 0x7A15E00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A15E001, 0x7A15E00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A15E001, 0x7A15E00F, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7A15E001, 0x7A15E002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A15E001, 0x7A15E006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A15E001, 0x7A15E007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A15E001, 0x7A15E008, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A15E001, 0x7A15E00A, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A15E001, 0x7A15E00B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E00C, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A15E001, 0x7A15E00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A15E001, 0x7A15E00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A15E001, 0x7A15E00F, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A15E002,  5429, 0xA15E003F, 187.3109, 161.6115, 11.55, 0.7608815, 0, 0, -0.6488908,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

@@ -5,14 +5,14 @@ VALUES (0x7490E001,  1154, 0x490E0019, 94.04719, 22.85688, 3.674532, -0.6348176,
 /* @teleloc 0x490E0019 [94.047190 22.856880 3.674532] -0.634818 0.000000 0.000000 -0.772662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7490E001, 0x7490E002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7490E001, 0x7490E003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7490E001, 0x7490E004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7490E001, 0x7490E005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7490E001, 0x7490E006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7490E001, 0x7490E007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7490E001, 0x7490E008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7490E001, 0x7490E009, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7490E001, 0x7490E002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7490E001, 0x7490E003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7490E001, 0x7490E004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7490E001, 0x7490E005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7490E001, 0x7490E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7490E001, 0x7490E007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7490E001, 0x7490E008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7490E001, 0x7490E009, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7490E002,  7126, 0x490E0019, 94.04719, 22.85688, 3.674532, -0.6348176, 0, 0, -0.772662,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

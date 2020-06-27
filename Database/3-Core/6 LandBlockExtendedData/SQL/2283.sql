@@ -5,10 +5,10 @@ VALUES (0x72283001,  1154, 0x22830001, 6.151765, 15.54367, 331.1638, 0.6295736, 
 /* @teleloc 0x22830001 [6.151765 15.543670 331.163800] 0.629574 0.000000 0.000000 -0.776941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72283001, 0x72283002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72283001, 0x72283003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72283001, 0x72283004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72283001, 0x72283005, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x72283001, 0x72283002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72283001, 0x72283003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72283001, 0x72283004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72283001, 0x72283005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72283002,  8138, 0x22830001, 6.151765, 15.54367, 331.1638, 0.6295736, 0, 0, -0.7769408,  True, '2019-02-10 00:00:00'); /* Extas Raider */

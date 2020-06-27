@@ -9,38 +9,38 @@ VALUES (0x7C5AB001,  1154, 0xC5AB0032, 163.1543, 33.29958, 51.992, -0.9727163, 0
 /* @teleloc 0xC5AB0032 [163.154300 33.299580 51.992000] -0.972716 0.000000 0.000000 -0.231998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5AB001, 0x7C5AB002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB003, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7C5AB001, 0x7C5AB004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C5AB001, 0x7C5AB005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C5AB001, 0x7C5AB007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C5AB001, 0x7C5AB008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C5AB001, 0x7C5AB009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C5AB001, 0x7C5AB00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C5AB001, 0x7C5AB00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB00C, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7C5AB001, 0x7C5AB00D, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C5AB001, 0x7C5AB00E, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7C5AB001, 0x7C5AB00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB010, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C5AB001, 0x7C5AB011, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C5AB001, 0x7C5AB012, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C5AB001, 0x7C5AB013, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C5AB001, 0x7C5AB014, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C5AB001, 0x7C5AB015, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C5AB001, 0x7C5AB016, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB017, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C5AB001, 0x7C5AB018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C5AB001, 0x7C5AB019, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C5AB001, 0x7C5AB01A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C5AB001, 0x7C5AB01B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C5AB001, 0x7C5AB01C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C5AB001, 0x7C5AB01D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB01E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C5AB001, 0x7C5AB01F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C5AB001, 0x7C5AB020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C5AB001, 0x7C5AB021, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C5AB001, 0x7C5AB002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB003, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7C5AB001, 0x7C5AB004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C5AB001, 0x7C5AB005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C5AB001, 0x7C5AB007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C5AB001, 0x7C5AB008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C5AB001, 0x7C5AB009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C5AB001, 0x7C5AB00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C5AB001, 0x7C5AB00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB00C, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7C5AB001, 0x7C5AB00D, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C5AB001, 0x7C5AB00E, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7C5AB001, 0x7C5AB00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB010, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C5AB001, 0x7C5AB011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C5AB001, 0x7C5AB012, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C5AB001, 0x7C5AB013, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C5AB001, 0x7C5AB014, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C5AB001, 0x7C5AB015, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C5AB001, 0x7C5AB016, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB017, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C5AB001, 0x7C5AB018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C5AB001, 0x7C5AB019, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C5AB001, 0x7C5AB01A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C5AB001, 0x7C5AB01B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C5AB001, 0x7C5AB01C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C5AB001, 0x7C5AB01D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB01E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C5AB001, 0x7C5AB01F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C5AB001, 0x7C5AB020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C5AB001, 0x7C5AB021, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5AB002, 24937, 0xC5AB0032, 163.1543, 33.29958, 51.992, -0.9727163, 0, 0, -0.2319978,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -175,10 +175,10 @@ VALUES (0x7C5AB022,  1542, 0xC5AB0023, 110.4602, 59.64139, 52.96796, 1, 0, 0, 0,
 /* @teleloc 0xC5AB0023 [110.460200 59.641390 52.967960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5AB022, 0x7C5AB023, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7C5AB022, 0x7C5AB024, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C5AB022, 0x7C5AB025, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C5AB022, 0x7C5AB026, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7C5AB022, 0x7C5AB023, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7C5AB022, 0x7C5AB024, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C5AB022, 0x7C5AB025, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C5AB022, 0x7C5AB026, '2019-02-10 00:00:00') /* Old Gravestone (34104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5AB023, 31443, 0xC5AB0023, 110.4602, 59.64139, 52.96796, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

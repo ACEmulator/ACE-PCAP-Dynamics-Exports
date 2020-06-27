@@ -5,18 +5,18 @@ VALUES (0x75E9F001,  1154, 0x5E9F000A, 40.90522, 27.92758, 56.17312, -0.6502225,
 /* @teleloc 0x5E9F000A [40.905220 27.927580 56.173120] -0.650223 0.000000 0.000000 -0.759744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9F001, 0x75E9F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75E9F001, 0x75E9F003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75E9F001, 0x75E9F004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75E9F001, 0x75E9F005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75E9F001, 0x75E9F006, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F007, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F008, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F009, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75E9F001, 0x75E9F00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F00C, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E9F001, 0x75E9F00D, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75E9F001, 0x75E9F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75E9F001, 0x75E9F003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75E9F001, 0x75E9F004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75E9F001, 0x75E9F005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75E9F001, 0x75E9F006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F009, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75E9F001, 0x75E9F00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F00B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F00C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E9F001, 0x75E9F00D, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9F002, 28551, 0x5E9F000A, 40.90522, 27.92758, 56.17312, -0.6502225, 0, 0, -0.7597438,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

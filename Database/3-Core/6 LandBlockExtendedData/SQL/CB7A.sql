@@ -5,15 +5,15 @@ VALUES (0x7CB7A001,  1154, 0xCB7A0038, 166.2602, 176.8093, 30.14638, 1, 0, 0, 0,
 /* @teleloc 0xCB7A0038 [166.260200 176.809300 30.146380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB7A001, 0x7CB7A002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CB7A001, 0x7CB7A003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CB7A001, 0x7CB7A004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CB7A001, 0x7CB7A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CB7A001, 0x7CB7A006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CB7A001, 0x7CB7A007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB7A001, 0x7CB7A008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB7A001, 0x7CB7A009, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7CB7A001, 0x7CB7A00A, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7CB7A001, 0x7CB7A002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CB7A001, 0x7CB7A003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CB7A001, 0x7CB7A004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7CB7A001, 0x7CB7A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CB7A001, 0x7CB7A006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7CB7A001, 0x7CB7A007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB7A001, 0x7CB7A008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB7A001, 0x7CB7A009, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7CB7A001, 0x7CB7A00A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB7A002,    18, 0xCB7A0038, 166.2602, 176.8093, 30.14638, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -56,7 +56,7 @@ VALUES (0x7CB7A00B,  1542, 0xCB7A0040, 168.3937, 177.479, 29.95703, 1, 0, 0, 0, 
 /* @teleloc 0xCB7A0040 [168.393700 177.479000 29.957030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB7A00B, 0x7CB7A00C, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7CB7A00B, 0x7CB7A00C, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB7A00C,   265, 0xCB7A0040, 168.3937, 177.479, 29.95703, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

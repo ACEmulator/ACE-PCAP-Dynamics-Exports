@@ -5,16 +5,16 @@ VALUES (0x79B6A001,  1154, 0x9B6A001E, 73.37567, 125.0222, 43.69212, 0.7071068, 
 /* @teleloc 0x9B6A001E [73.375670 125.022200 43.692120] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B6A001, 0x79B6A002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B6A001, 0x79B6A003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B6A001, 0x79B6A004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B6A001, 0x79B6A005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79B6A001, 0x79B6A006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x79B6A001, 0x79B6A007, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79B6A001, 0x79B6A008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79B6A001, 0x79B6A009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x79B6A001, 0x79B6A00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79B6A001, 0x79B6A00B, '2019-02-10 00:00:00') /* Ethereal Wisp */;
+VALUES (0x79B6A001, 0x79B6A002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B6A001, 0x79B6A003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B6A001, 0x79B6A004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B6A001, 0x79B6A005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79B6A001, 0x79B6A006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x79B6A001, 0x79B6A007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79B6A001, 0x79B6A008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79B6A001, 0x79B6A009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x79B6A001, 0x79B6A00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79B6A001, 0x79B6A00B, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B6A002,  4109, 0x9B6A001E, 73.37567, 125.0222, 43.69212, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -61,7 +61,7 @@ VALUES (0x79B6A00C,  1542, 0x9B6A0023, 111.5891, 59.44946, 31.65504, 1, 0, 0, 0,
 /* @teleloc 0x9B6A0023 [111.589100 59.449460 31.655040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B6A00C, 0x79B6A00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79B6A00C, 0x79B6A00D, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B6A00D, 22572, 0x9B6A0023, 111.5891, 59.44946, 31.65504, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

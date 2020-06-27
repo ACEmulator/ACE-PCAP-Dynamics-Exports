@@ -5,13 +5,13 @@ VALUES (0x73E42001,  1154, 0x3E42003B, 171.7684, 59.27225, 90.43635, 0.9686484, 
 /* @teleloc 0x3E42003B [171.768400 59.272250 90.436350] 0.968648 0.000000 0.000000 -0.248436 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E42001, 0x73E42002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73E42001, 0x73E42003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73E42001, 0x73E42004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73E42001, 0x73E42005, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x73E42001, 0x73E42006, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x73E42001, 0x73E42007, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73E42001, 0x73E42008, '2019-02-10 00:00:00') /* Guruk Miscreant */;
+VALUES (0x73E42001, 0x73E42002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73E42001, 0x73E42003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73E42001, 0x73E42004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73E42001, 0x73E42005, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x73E42001, 0x73E42006, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x73E42001, 0x73E42007, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73E42001, 0x73E42008, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E42002, 21549, 0x3E42003B, 171.7684, 59.27225, 90.43635, 0.9686484, 0, 0, -0.2484356,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

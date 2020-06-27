@@ -5,8 +5,8 @@ VALUES (0x7C91B001,  1154, 0xC91B0027, 117.453, 148.9391, 131.7899, 0.9238795, 0
 /* @teleloc 0xC91B0027 [117.453000 148.939100 131.789900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91B001, 0x7C91B002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C91B001, 0x7C91B003, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7C91B001, 0x7C91B002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C91B001, 0x7C91B003, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C91B002,  7124, 0xC91B0027, 117.453, 148.9391, 131.7899, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -21,7 +21,7 @@ VALUES (0x7C91B004,  1542, 0xC91B0027, 115.9981, 148.9967, 131.7899, 0.9238795, 
 /* @teleloc 0xC91B0027 [115.998100 148.996700 131.789900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91B004, 0x7C91B005, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C91B004, 0x7C91B005, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C91B005,  4180, 0xC91B0027, 115.9981, 148.9967, 131.7899, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,16 +5,16 @@ VALUES (0x7D938001,  1154, 0xD9380020, 80.1489, 187.7081, 56.23984, 0.9063078, 0
 /* @teleloc 0xD9380020 [80.148900 187.708100 56.239840] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D938001, 0x7D938002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7D938001, 0x7D938003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D938001, 0x7D938004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D938001, 0x7D938005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D938001, 0x7D938006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D938001, 0x7D938007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D938001, 0x7D938008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D938001, 0x7D938009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D938001, 0x7D93800A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D938001, 0x7D93800B, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7D938001, 0x7D938002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7D938001, 0x7D938003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D938001, 0x7D938004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D938001, 0x7D938005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D938001, 0x7D938006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D938001, 0x7D938007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D938001, 0x7D938008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D938001, 0x7D938009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D938001, 0x7D93800A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D938001, 0x7D93800B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D938002,  2575, 0xD9380020, 80.1489, 187.7081, 56.23984, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

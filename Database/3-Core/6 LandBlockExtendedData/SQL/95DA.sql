@@ -5,34 +5,34 @@ VALUES (0x795DA001,  1154, 0x95DA0039, 187.6801, 16.84583, 105.7748, -4.371139E-
 /* @teleloc 0x95DA0039 [187.680100 16.845830 105.774800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DA001, 0x795DA002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x795DA001, 0x795DA003, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x795DA001, 0x795DA004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x795DA001, 0x795DA005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x795DA001, 0x795DA006, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x795DA001, 0x795DA007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x795DA001, 0x795DA008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x795DA001, 0x795DA009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x795DA001, 0x795DA00A, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x795DA001, 0x795DA00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x795DA001, 0x795DA00C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795DA001, 0x795DA00D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x795DA001, 0x795DA00E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x795DA001, 0x795DA00F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795DA001, 0x795DA010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795DA001, 0x795DA011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795DA001, 0x795DA012, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x795DA001, 0x795DA013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795DA001, 0x795DA014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795DA001, 0x795DA015, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795DA001, 0x795DA016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795DA001, 0x795DA017, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795DA001, 0x795DA018, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x795DA001, 0x795DA019, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x795DA001, 0x795DA01A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x795DA001, 0x795DA01B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x795DA001, 0x795DA01C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x795DA001, 0x795DA01D, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x795DA001, 0x795DA002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x795DA001, 0x795DA003, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x795DA001, 0x795DA004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x795DA001, 0x795DA005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x795DA001, 0x795DA006, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x795DA001, 0x795DA007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x795DA001, 0x795DA008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x795DA001, 0x795DA009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x795DA001, 0x795DA00A, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x795DA001, 0x795DA00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x795DA001, 0x795DA00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795DA001, 0x795DA00D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x795DA001, 0x795DA00E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x795DA001, 0x795DA00F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x795DA001, 0x795DA010, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x795DA001, 0x795DA011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x795DA001, 0x795DA012, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x795DA001, 0x795DA013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795DA001, 0x795DA014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795DA001, 0x795DA015, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795DA001, 0x795DA016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795DA001, 0x795DA017, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795DA001, 0x795DA018, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x795DA001, 0x795DA019, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x795DA001, 0x795DA01A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x795DA001, 0x795DA01B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x795DA001, 0x795DA01C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x795DA001, 0x795DA01D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DA002,  1628, 0x95DA0039, 187.6801, 16.84583, 105.7748, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -151,7 +151,7 @@ VALUES (0x795DA01E,  1542, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 
 /* @teleloc 0x95DA0029 [133.454700 18.161730 107.937000] -0.398192 0.000000 0.000000 -0.917302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DA01E, 0x795DA01F, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x795DA01E, 0x795DA01F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DA01F,  9071, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 0, 0, -0.9173021,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

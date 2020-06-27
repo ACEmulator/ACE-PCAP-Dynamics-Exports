@@ -5,25 +5,25 @@ VALUES (0x7D623001,  1154, 0xD6230019, 79.2967, 14.32399, 110.2018, 0.9238795, 0
 /* @teleloc 0xD6230019 [79.296700 14.323990 110.201800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D623001, 0x7D623002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D623001, 0x7D623003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D623001, 0x7D623004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D623001, 0x7D623005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7D623001, 0x7D623006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D623001, 0x7D623007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D623001, 0x7D623008, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7D623001, 0x7D623009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D623001, 0x7D62300A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D623001, 0x7D62300B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D623001, 0x7D62300C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D623001, 0x7D62300D, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D62300E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D62300F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D623010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D623011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D623012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D623001, 0x7D623013, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D623001, 0x7D623014, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7D623001, 0x7D623002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D623001, 0x7D623003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D623001, 0x7D623004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D623001, 0x7D623005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7D623001, 0x7D623006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D623001, 0x7D623007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D623001, 0x7D623008, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7D623001, 0x7D623009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D623001, 0x7D62300A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D623001, 0x7D62300B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D623001, 0x7D62300C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D623001, 0x7D62300D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D62300E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D62300F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D623010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D623011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D623012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D623001, 0x7D623013, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D623001, 0x7D623014, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D623002,  4254, 0xD6230019, 79.2967, 14.32399, 110.2018, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -106,7 +106,7 @@ VALUES (0x7D623015,  1542, 0xD623000C, 34.54524, 81.33602, 105.61, 0.7226064, 0,
 /* @teleloc 0xD623000C [34.545240 81.336020 105.610000] 0.722606 0.000000 0.000000 -0.691260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D623015, 0x7D623016, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D623015, 0x7D623016, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D623016,  8037, 0xD623000C, 34.54524, 81.33602, 105.61, 0.7226064, 0, 0, -0.6912597,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

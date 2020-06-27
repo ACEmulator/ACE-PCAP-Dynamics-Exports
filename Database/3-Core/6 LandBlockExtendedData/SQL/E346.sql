@@ -5,14 +5,14 @@ VALUES (0x7E346001,  1154, 0xE346000F, 28.1895, 151.8796, 25.65088, -0.08904276,
 /* @teleloc 0xE346000F [28.189500 151.879600 25.650880] -0.089043 0.000000 0.000000 -0.996028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E346001, 0x7E346002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E346001, 0x7E346003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7E346001, 0x7E346004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E346001, 0x7E346005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E346001, 0x7E346006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E346001, 0x7E346007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E346001, 0x7E346008, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7E346001, 0x7E346009, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7E346001, 0x7E346002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E346001, 0x7E346003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7E346001, 0x7E346004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E346001, 0x7E346005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E346001, 0x7E346006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E346001, 0x7E346007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E346001, 0x7E346008, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7E346001, 0x7E346009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E346002,  2582, 0xE346000F, 28.1895, 151.8796, 25.65088, -0.08904276, 0, 0, -0.9960278,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
@@ -51,7 +51,7 @@ VALUES (0x7E34600A,  1542, 0xE346000A, 25.75144, 30.09787, 26, -0.3433551, 0, 0,
 /* @teleloc 0xE346000A [25.751440 30.097870 26.000000] -0.343355 0.000000 0.000000 -0.939206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34600A, 0x7E34600B, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7E34600A, 0x7E34600B, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34600B, 14789, 0xE346000A, 25.75144, 30.09787, 26, -0.3433551, 0, 0, -0.9392057,  True, '2019-02-10 00:00:00'); /* Ginger */

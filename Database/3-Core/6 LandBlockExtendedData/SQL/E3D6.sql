@@ -5,9 +5,9 @@ VALUES (0x7E3D6001,  1154, 0xE3D6003B, 173.3615, 64.92168, 5.9985, -0.9342427, 0
 /* @teleloc 0xE3D6003B [173.361500 64.921680 5.998500] -0.934243 0.000000 0.000000 -0.356638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E3D6001, 0x7E3D6002, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D6001, 0x7E3D6003, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E3D6001, 0x7E3D6004, '2019-02-10 00:00:00') /* Grievver Violator */;
+VALUES (0x7E3D6001, 0x7E3D6002, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D6001, 0x7E3D6003, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D6001, 0x7E3D6004, '2019-02-10 00:00:00') /* Grievver Violator (43487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E3D6002, 43486, 0xE3D6003B, 173.3615, 64.92168, 5.9985, -0.9342427, 0, 0, -0.3566378,  True, '2019-02-10 00:00:00'); /* Burrowing Grievver */

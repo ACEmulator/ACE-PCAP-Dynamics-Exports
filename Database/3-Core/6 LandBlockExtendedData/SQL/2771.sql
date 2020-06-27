@@ -5,17 +5,17 @@ VALUES (0x72771001,  1154, 0x27710014, 70.74953, 88.52154, 106.4457, 0.9238795, 
 /* @teleloc 0x27710014 [70.749530 88.521540 106.445700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72771001, 0x72771002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72771001, 0x72771003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72771001, 0x72771004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72771001, 0x72771005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72771001, 0x72771006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72771001, 0x72771007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72771001, 0x72771008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72771001, 0x72771009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72771001, 0x7277100A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72771001, 0x7277100B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72771001, 0x7277100C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72771001, 0x72771002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72771001, 0x72771003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72771001, 0x72771004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72771001, 0x72771005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72771001, 0x72771006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72771001, 0x72771007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72771001, 0x72771008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72771001, 0x72771009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72771001, 0x7277100A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72771001, 0x7277100B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72771001, 0x7277100C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72771002, 24497, 0x27710014, 70.74953, 88.52154, 106.4457, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -66,9 +66,9 @@ VALUES (0x7277100D,  1542, 0x27710020, 74.03908, 173.6511, 101.5175, -4.371139E-
 /* @teleloc 0x27710020 [74.039080 173.651100 101.517500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277100D, 0x7277100E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7277100D, 0x7277100F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7277100D, 0x72771010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7277100D, 0x7277100E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7277100D, 0x7277100F, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7277100D, 0x72771010, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277100E,  4380, 0x27710020, 74.03908, 173.6511, 101.5175, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

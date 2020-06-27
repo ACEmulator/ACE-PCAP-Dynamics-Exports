@@ -5,31 +5,31 @@ VALUES (0x79FDA001,  1154, 0x9FDA0039, 175.6843, 19.64235, 70.96577, 0.7071068, 
 /* @teleloc 0x9FDA0039 [175.684300 19.642350 70.965770] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FDA001, 0x79FDA002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79FDA001, 0x79FDA003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79FDA001, 0x79FDA004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79FDA001, 0x79FDA005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79FDA001, 0x79FDA006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79FDA001, 0x79FDA007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x79FDA001, 0x79FDA008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79FDA001, 0x79FDA009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79FDA001, 0x79FDA00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79FDA001, 0x79FDA00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79FDA001, 0x79FDA00C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FDA001, 0x79FDA00D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79FDA001, 0x79FDA00E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x79FDA001, 0x79FDA00F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79FDA001, 0x79FDA010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79FDA001, 0x79FDA011, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79FDA001, 0x79FDA012, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79FDA001, 0x79FDA013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FDA001, 0x79FDA014, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79FDA001, 0x79FDA015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79FDA001, 0x79FDA016, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FDA001, 0x79FDA017, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79FDA001, 0x79FDA018, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79FDA001, 0x79FDA019, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79FDA001, 0x79FDA01A, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79FDA001, 0x79FDA002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79FDA001, 0x79FDA003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79FDA001, 0x79FDA004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79FDA001, 0x79FDA005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79FDA001, 0x79FDA006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79FDA001, 0x79FDA007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x79FDA001, 0x79FDA008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79FDA001, 0x79FDA009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79FDA001, 0x79FDA00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79FDA001, 0x79FDA00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79FDA001, 0x79FDA00C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FDA001, 0x79FDA00D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79FDA001, 0x79FDA00E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x79FDA001, 0x79FDA00F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79FDA001, 0x79FDA010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79FDA001, 0x79FDA011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79FDA001, 0x79FDA012, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79FDA001, 0x79FDA013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FDA001, 0x79FDA014, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79FDA001, 0x79FDA015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79FDA001, 0x79FDA016, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FDA001, 0x79FDA017, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79FDA001, 0x79FDA018, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79FDA001, 0x79FDA019, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79FDA001, 0x79FDA01A, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FDA002,   199, 0x9FDA0039, 175.6843, 19.64235, 70.96577, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -136,7 +136,7 @@ VALUES (0x79FDA01B,  1542, 0x9FDA0017, 48.39364, 147.214, 89.93439, -0.991466, 0
 /* @teleloc 0x9FDA0017 [48.393640 147.214000 89.934390] -0.991466 0.000000 0.000000 -0.130365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FDA01B, 0x79FDA01C, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79FDA01B, 0x79FDA01C, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FDA01C,  8041, 0x9FDA0017, 48.39364, 147.214, 89.93439, -0.991466, 0, 0, -0.1303653,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

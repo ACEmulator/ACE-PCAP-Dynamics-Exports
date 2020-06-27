@@ -5,18 +5,18 @@ VALUES (0x7F85E001,  1154, 0xF85E002C, 134.373, 81.6431, 141, 1, 0, 0, 0, False,
 /* @teleloc 0xF85E002C [134.373000 81.643100 141.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85E001, 0x7F85E002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7F85E001, 0x7F85E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F85E001, 0x7F85E004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7F85E001, 0x7F85E005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F85E001, 0x7F85E006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F85E001, 0x7F85E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F85E001, 0x7F85E008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F85E001, 0x7F85E009, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7F85E001, 0x7F85E00A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F85E001, 0x7F85E00B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F85E001, 0x7F85E00C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F85E001, 0x7F85E00D, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7F85E001, 0x7F85E002, '2019-02-10 00:00:00') /* Exploration Marker (39828) */
+     , (0x7F85E001, 0x7F85E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F85E001, 0x7F85E004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7F85E001, 0x7F85E005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F85E001, 0x7F85E006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F85E001, 0x7F85E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F85E001, 0x7F85E008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F85E001, 0x7F85E009, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7F85E001, 0x7F85E00A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F85E001, 0x7F85E00B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F85E001, 0x7F85E00C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F85E001, 0x7F85E00D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85E002, 39828, 0xF85E002C, 134.373, 81.6431, 141, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -71,7 +71,7 @@ VALUES (0x7F85E00E,  1542, 0xF85E0004, 14.04109, 83.08659, 60.88072, 1, 0, 0, 0,
 /* @teleloc 0xF85E0004 [14.041090 83.086590 60.880720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85E00E, 0x7F85E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7F85E00E, 0x7F85E00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85E00F,  4380, 0xF85E0004, 14.04109, 83.08659, 60.88072, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

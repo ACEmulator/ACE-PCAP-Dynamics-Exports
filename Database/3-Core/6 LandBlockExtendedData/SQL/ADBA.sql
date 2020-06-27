@@ -5,21 +5,21 @@ VALUES (0x7ADBA001,  1154, 0xADBA0029, 122.8342, 11.91159, 99.00463, 0.5850503, 
 /* @teleloc 0xADBA0029 [122.834200 11.911590 99.004630] 0.585050 0.000000 0.000000 -0.810997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADBA001, 0x7ADBA002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADBA001, 0x7ADBA003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADBA001, 0x7ADBA004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ADBA001, 0x7ADBA005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ADBA001, 0x7ADBA006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ADBA001, 0x7ADBA007, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ADBA001, 0x7ADBA008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADBA001, 0x7ADBA009, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ADBA001, 0x7ADBA00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADBA001, 0x7ADBA00B, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7ADBA001, 0x7ADBA00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADBA001, 0x7ADBA00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADBA001, 0x7ADBA00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ADBA001, 0x7ADBA00F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADBA001, 0x7ADBA010, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7ADBA001, 0x7ADBA002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADBA001, 0x7ADBA003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADBA001, 0x7ADBA004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ADBA001, 0x7ADBA005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ADBA001, 0x7ADBA006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ADBA001, 0x7ADBA007, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ADBA001, 0x7ADBA008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADBA001, 0x7ADBA009, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ADBA001, 0x7ADBA00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADBA001, 0x7ADBA00B, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7ADBA001, 0x7ADBA00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADBA001, 0x7ADBA00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADBA001, 0x7ADBA00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ADBA001, 0x7ADBA00F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADBA001, 0x7ADBA010, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADBA002,   215, 0xADBA0029, 122.8342, 11.91159, 99.00463, 0.5850503, 0, 0, -0.810997,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -86,8 +86,8 @@ VALUES (0x7ADBA011,  1542, 0xADBA0015, 61.71871, 110.9014, 96.53474, 0.5, 0, 0, 
 /* @teleloc 0xADBA0015 [61.718710 110.901400 96.534740] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADBA011, 0x7ADBA012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ADBA011, 0x7ADBA013, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7ADBA011, 0x7ADBA012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ADBA011, 0x7ADBA013, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADBA012,  4179, 0xADBA0015, 61.71871, 110.9014, 96.53474, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

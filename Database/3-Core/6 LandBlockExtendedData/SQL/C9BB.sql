@@ -5,39 +5,39 @@ VALUES (0x7C9BB001,  1154, 0xC9BB0007, 5.259048, 155.7643, 97.44029, -0.9567094,
 /* @teleloc 0xC9BB0007 [5.259048 155.764300 97.440290] -0.956709 0.000000 0.000000 -0.291045 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9BB001, 0x7C9BB002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9BB001, 0x7C9BB003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9BB001, 0x7C9BB004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9BB001, 0x7C9BB005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C9BB001, 0x7C9BB006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB00A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9BB001, 0x7C9BB00B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9BB001, 0x7C9BB00C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C9BB001, 0x7C9BB00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB00E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB00F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB010, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C9BB001, 0x7C9BB011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB012, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C9BB001, 0x7C9BB013, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7C9BB001, 0x7C9BB014, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7C9BB001, 0x7C9BB015, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C9BB001, 0x7C9BB016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB017, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB018, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB019, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9BB001, 0x7C9BB01A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB01B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB01C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB01D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C9BB001, 0x7C9BB01E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB01F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C9BB001, 0x7C9BB020, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9BB001, 0x7C9BB021, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9BB001, 0x7C9BB022, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */;
+VALUES (0x7C9BB001, 0x7C9BB002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9BB001, 0x7C9BB003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C9BB001, 0x7C9BB004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C9BB001, 0x7C9BB005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C9BB001, 0x7C9BB006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB00A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9BB001, 0x7C9BB00B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9BB001, 0x7C9BB00C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C9BB001, 0x7C9BB00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB00E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB00F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB010, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C9BB001, 0x7C9BB011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB012, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C9BB001, 0x7C9BB013, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7C9BB001, 0x7C9BB014, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7C9BB001, 0x7C9BB015, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C9BB001, 0x7C9BB016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB018, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB019, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9BB001, 0x7C9BB01A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB01B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB01C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB01D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C9BB001, 0x7C9BB01E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB01F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C9BB001, 0x7C9BB020, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9BB001, 0x7C9BB021, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9BB001, 0x7C9BB022, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9BB002, 11478, 0xC9BB0007, 5.259048, 155.7643, 97.44029, -0.9567094, 0, 0, -0.2910448,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -176,7 +176,7 @@ VALUES (0x7C9BB023,  1542, 0xC9BB003C, 191.6952, 95.77355, 76.13033, 1, 0, 0, 0,
 /* @teleloc 0xC9BB003C [191.695200 95.773550 76.130330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9BB023, 0x7C9BB024, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C9BB023, 0x7C9BB024, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9BB024, 22571, 0xC9BB003C, 191.6952, 95.77355, 76.13033, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

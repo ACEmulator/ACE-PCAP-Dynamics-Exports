@@ -5,9 +5,9 @@ VALUES (0x76B8D001,  1154, 0x6B8D000D, 36.25695, 112.5516, 0.4012104, -0.9997917
 /* @teleloc 0x6B8D000D [36.256950 112.551600 0.401210] -0.999792 0.000000 0.000000 -0.020412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B8D001, 0x76B8D002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76B8D001, 0x76B8D003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76B8D001, 0x76B8D004, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x76B8D001, 0x76B8D002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76B8D001, 0x76B8D003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76B8D001, 0x76B8D004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B8D002,  7987, 0x6B8D000D, 36.25695, 112.5516, 0.4012104, -0.9997917, 0, 0, -0.02041166,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

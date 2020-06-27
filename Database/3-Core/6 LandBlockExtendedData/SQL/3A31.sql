@@ -5,26 +5,26 @@ VALUES (0x73A31001,  1154, 0x3A310028, 105.6861, 169.2484, 47.62104, 1, 0, 0, 0,
 /* @teleloc 0x3A310028 [105.686100 169.248400 47.621040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A31001, 0x73A31002, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73A31001, 0x73A31003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A31001, 0x73A31004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A31001, 0x73A31005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73A31001, 0x73A31006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73A31001, 0x73A31007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73A31001, 0x73A31008, '2019-02-10 00:00:00') /* Dire Champion Drudge */
-     , (0x73A31001, 0x73A31009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73A31001, 0x73A3100A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73A31001, 0x73A3100B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73A31001, 0x73A3100C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73A31001, 0x73A3100D, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73A31001, 0x73A3100E, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73A31001, 0x73A3100F, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73A31001, 0x73A31010, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73A31001, 0x73A31011, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73A31001, 0x73A31012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A31001, 0x73A31013, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73A31001, 0x73A31014, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73A31001, 0x73A31015, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x73A31001, 0x73A31002, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73A31001, 0x73A31003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A31001, 0x73A31004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73A31001, 0x73A31005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73A31001, 0x73A31006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73A31001, 0x73A31007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73A31001, 0x73A31008, '2019-02-10 00:00:00') /* Dire Champion Drudge (36824) */
+     , (0x73A31001, 0x73A31009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73A31001, 0x73A3100A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73A31001, 0x73A3100B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73A31001, 0x73A3100C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73A31001, 0x73A3100D, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73A31001, 0x73A3100E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73A31001, 0x73A3100F, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73A31001, 0x73A31010, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73A31001, 0x73A31011, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73A31001, 0x73A31012, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73A31001, 0x73A31013, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73A31001, 0x73A31014, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73A31001, 0x73A31015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A31002, 10787, 0x3A310028, 105.6861, 169.2484, 47.62104, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Terebrous Hollow Minion */

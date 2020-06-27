@@ -5,17 +5,17 @@ VALUES (0x7B56A001,  1154, 0xB56A001F, 75.04745, 163.7293, 19.39855, -0.9976466,
 /* @teleloc 0xB56A001F [75.047450 163.729300 19.398550] -0.997647 0.000000 0.000000 -0.068566 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56A001, 0x7B56A002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B56A001, 0x7B56A003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B56A001, 0x7B56A004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B56A001, 0x7B56A005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B56A001, 0x7B56A006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B56A001, 0x7B56A007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B56A001, 0x7B56A008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B56A001, 0x7B56A009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B56A001, 0x7B56A00A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B56A001, 0x7B56A00B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B56A001, 0x7B56A00C, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7B56A001, 0x7B56A002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B56A001, 0x7B56A003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B56A001, 0x7B56A004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B56A001, 0x7B56A005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B56A001, 0x7B56A006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B56A001, 0x7B56A007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B56A001, 0x7B56A008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B56A001, 0x7B56A009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B56A001, 0x7B56A00A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B56A001, 0x7B56A00B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B56A001, 0x7B56A00C, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56A002,   218, 0xB56A001F, 75.04745, 163.7293, 19.39855, -0.9976466, 0, 0, -0.06856604,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -66,8 +66,8 @@ VALUES (0x7B56A00D,  1542, 0xB56A003F, 173.5528, 164.8621, 16.26149, 0.9238795, 
 /* @teleloc 0xB56A003F [173.552800 164.862100 16.261490] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56A00D, 0x7B56A00E, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B56A00D, 0x7B56A00F, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7B56A00D, 0x7B56A00E, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B56A00D, 0x7B56A00F, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56A00E,  4180, 0xB56A003F, 173.5528, 164.8621, 16.26149, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,11 +5,11 @@ VALUES (0x7A046001,  1154, 0xA0460031, 162.9715, 1.371186, 100.2941, -0.975509, 
 /* @teleloc 0xA0460031 [162.971500 1.371186 100.294100] -0.975509 0.000000 0.000000 -0.219960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A046001, 0x7A046002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A046001, 0x7A046003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A046001, 0x7A046004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A046001, 0x7A046005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A046001, 0x7A046006, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7A046001, 0x7A046002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A046001, 0x7A046003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A046001, 0x7A046004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A046001, 0x7A046005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A046001, 0x7A046006, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A046002,  8673, 0xA0460031, 162.9715, 1.371186, 100.2941, -0.975509, 0, 0, -0.2199596,  True, '2019-02-10 00:00:00'); /* Risen Knight */

@@ -5,9 +5,9 @@ VALUES (0x79329001,  1154, 0x93290008, 8.650009, 170.2174, 105.2506, 1, 0, 0, 0,
 /* @teleloc 0x93290008 [8.650009 170.217400 105.250600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79329001, 0x79329002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79329001, 0x79329003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79329001, 0x79329004, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x79329001, 0x79329002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79329001, 0x79329003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79329001, 0x79329004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79329002,  7107, 0x93290008, 8.650009, 170.2174, 105.2506, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -26,7 +26,7 @@ VALUES (0x79329005,  1542, 0x93290008, 9.591327, 175.1402, 104.369, 1, 0, 0, 0, 
 /* @teleloc 0x93290008 [9.591327 175.140200 104.369000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79329005, 0x79329006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79329005, 0x79329006, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79329006,  4379, 0x93290008, 9.591327, 175.1402, 104.369, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

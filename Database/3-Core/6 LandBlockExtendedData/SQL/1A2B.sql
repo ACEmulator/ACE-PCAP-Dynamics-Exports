@@ -5,15 +5,15 @@ VALUES (0x71A2B001,  1154, 0x1A2B003E, 186.0123, 130.5907, 25.90951, 0.9659258, 
 /* @teleloc 0x1A2B003E [186.012300 130.590700 25.909510] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A2B001, 0x71A2B002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71A2B001, 0x71A2B003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71A2B001, 0x71A2B004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71A2B001, 0x71A2B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A2B001, 0x71A2B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A2B001, 0x71A2B007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71A2B001, 0x71A2B008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A2B001, 0x71A2B009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A2B001, 0x71A2B00A, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71A2B001, 0x71A2B002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71A2B001, 0x71A2B003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71A2B001, 0x71A2B004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71A2B001, 0x71A2B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A2B001, 0x71A2B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A2B001, 0x71A2B007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71A2B001, 0x71A2B008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71A2B001, 0x71A2B009, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71A2B001, 0x71A2B00A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A2B002, 10814, 0x1A2B003E, 186.0123, 130.5907, 25.90951, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */

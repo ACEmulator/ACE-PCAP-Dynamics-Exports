@@ -5,22 +5,22 @@ VALUES (0x79DEA001,  1154, 0x9DEA003C, 177.3324, 90.36629, 162.65, 1, 0, 0, 0, F
 /* @teleloc 0x9DEA003C [177.332400 90.366290 162.650000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DEA001, 0x79DEA002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79DEA001, 0x79DEA003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79DEA001, 0x79DEA004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79DEA001, 0x79DEA005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79DEA001, 0x79DEA006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x79DEA001, 0x79DEA007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79DEA001, 0x79DEA008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79DEA001, 0x79DEA009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79DEA001, 0x79DEA00A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79DEA001, 0x79DEA00B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79DEA001, 0x79DEA00C, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79DEA001, 0x79DEA00D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79DEA001, 0x79DEA00E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79DEA001, 0x79DEA00F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79DEA001, 0x79DEA010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79DEA001, 0x79DEA011, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x79DEA001, 0x79DEA002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79DEA001, 0x79DEA003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79DEA001, 0x79DEA004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79DEA001, 0x79DEA005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79DEA001, 0x79DEA006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x79DEA001, 0x79DEA007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79DEA001, 0x79DEA008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79DEA001, 0x79DEA009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79DEA001, 0x79DEA00A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79DEA001, 0x79DEA00B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79DEA001, 0x79DEA00C, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79DEA001, 0x79DEA00D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79DEA001, 0x79DEA00E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79DEA001, 0x79DEA00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79DEA001, 0x79DEA010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79DEA001, 0x79DEA011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DEA002,  7994, 0x9DEA003C, 177.3324, 90.36629, 162.65, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -91,7 +91,7 @@ VALUES (0x79DEA012,  1542, 0x9DEA000E, 39.93774, 120.334, 131.9566, 1, 0, 0, 0, 
 /* @teleloc 0x9DEA000E [39.937740 120.334000 131.956600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DEA012, 0x79DEA013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79DEA012, 0x79DEA013, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DEA013, 22571, 0x9DEA000E, 39.93774, 120.334, 131.9566, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7E05C001,  1154, 0xE05C0020, 78.91348, 182.672, 16.0025, 0.4982547, 0,
 /* @teleloc 0xE05C0020 [78.913480 182.672000 16.002500] 0.498255 0.000000 0.000000 -0.867031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E05C001, 0x7E05C002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E05C001, 0x7E05C003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E05C001, 0x7E05C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7E05C001, 0x7E05C002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E05C001, 0x7E05C003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E05C001, 0x7E05C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E05C002,  1762, 0xE05C0020, 78.91348, 182.672, 16.0025, 0.4982547, 0, 0, -0.8670307,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

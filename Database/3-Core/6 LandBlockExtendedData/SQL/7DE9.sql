@@ -5,13 +5,13 @@ VALUES (0x77DE9001,  1154, 0x7DE9003C, 172.7727, 84.12888, 31.1005, 0.7071068, 0
 /* @teleloc 0x7DE9003C [172.772700 84.128880 31.100500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DE9001, 0x77DE9002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x77DE9001, 0x77DE9008, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x77DE9001, 0x77DE9002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x77DE9001, 0x77DE9008, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DE9002,  7987, 0x7DE9003C, 172.7727, 84.12888, 31.1005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

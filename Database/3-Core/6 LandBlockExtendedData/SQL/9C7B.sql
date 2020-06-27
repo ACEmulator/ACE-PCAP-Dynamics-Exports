@@ -5,17 +5,17 @@ VALUES (0x79C7B001,  1154, 0x9C7B0036, 149.7589, 131.5447, 22.0075, 1, 0, 0, 0, 
 /* @teleloc 0x9C7B0036 [149.758900 131.544700 22.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C7B001, 0x79C7B002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79C7B001, 0x79C7B003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79C7B001, 0x79C7B004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79C7B001, 0x79C7B005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79C7B001, 0x79C7B006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79C7B001, 0x79C7B007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79C7B001, 0x79C7B008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79C7B001, 0x79C7B009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79C7B001, 0x79C7B00A, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79C7B001, 0x79C7B00B, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79C7B001, 0x79C7B00C, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x79C7B001, 0x79C7B002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79C7B001, 0x79C7B003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79C7B001, 0x79C7B004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79C7B001, 0x79C7B005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79C7B001, 0x79C7B006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79C7B001, 0x79C7B007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79C7B001, 0x79C7B008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79C7B001, 0x79C7B009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79C7B001, 0x79C7B00A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79C7B001, 0x79C7B00B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79C7B001, 0x79C7B00C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C7B002,   950, 0x9C7B0036, 149.7589, 131.5447, 22.0075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zombie */

@@ -5,8 +5,8 @@ VALUES (0x74455001,  1154, 0x44550028, 102.6018, 189.3612, 35.03665, -0.08715577
 /* @teleloc 0x44550028 [102.601800 189.361200 35.036650] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74455001, 0x74455002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74455001, 0x74455003, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74455001, 0x74455002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74455001, 0x74455003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74455002,  7119, 0x44550028, 102.6018, 189.3612, 35.03665, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

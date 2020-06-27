@@ -5,36 +5,36 @@ VALUES (0x7B15E001,  1154, 0xB15E0025, 116.0454, 108.6117, 20.029, 0.9894391, 0,
 /* @teleloc 0xB15E0025 [116.045400 108.611700 20.029000] 0.989439 0.000000 0.000000 -0.144950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B15E001, 0x7B15E002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7B15E001, 0x7B15E003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B15E001, 0x7B15E004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B15E001, 0x7B15E005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B15E001, 0x7B15E006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B15E001, 0x7B15E007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B15E001, 0x7B15E008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B15E001, 0x7B15E009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B15E001, 0x7B15E00A, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B15E001, 0x7B15E00B, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7B15E001, 0x7B15E00C, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B15E001, 0x7B15E00D, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B15E001, 0x7B15E00E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B15E001, 0x7B15E00F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B15E001, 0x7B15E010, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B15E001, 0x7B15E011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B15E001, 0x7B15E012, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B15E001, 0x7B15E013, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B15E001, 0x7B15E014, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B15E001, 0x7B15E015, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B15E001, 0x7B15E016, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B15E001, 0x7B15E017, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B15E001, 0x7B15E018, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B15E001, 0x7B15E019, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B15E001, 0x7B15E01A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B15E001, 0x7B15E01B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B15E001, 0x7B15E01C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B15E001, 0x7B15E01D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B15E001, 0x7B15E01E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B15E001, 0x7B15E01F, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7B15E001, 0x7B15E002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7B15E001, 0x7B15E003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B15E001, 0x7B15E004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B15E001, 0x7B15E005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B15E001, 0x7B15E006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B15E001, 0x7B15E007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B15E001, 0x7B15E008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B15E001, 0x7B15E009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B15E001, 0x7B15E00A, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B15E001, 0x7B15E00B, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7B15E001, 0x7B15E00C, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B15E001, 0x7B15E00D, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B15E001, 0x7B15E00E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B15E001, 0x7B15E00F, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B15E001, 0x7B15E010, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B15E001, 0x7B15E011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B15E001, 0x7B15E012, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B15E001, 0x7B15E013, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B15E001, 0x7B15E014, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B15E001, 0x7B15E015, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B15E001, 0x7B15E016, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B15E001, 0x7B15E017, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B15E001, 0x7B15E018, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B15E001, 0x7B15E019, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B15E001, 0x7B15E01A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B15E001, 0x7B15E01B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B15E001, 0x7B15E01C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B15E001, 0x7B15E01D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B15E001, 0x7B15E01E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B15E001, 0x7B15E01F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15E002,    23, 0xB15E0025, 116.0454, 108.6117, 20.029, 0.9894391, 0, 0, -0.1449495,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -161,8 +161,8 @@ VALUES (0x7B15E020,  1542, 0xB15E0030, 132.1642, 186.9277, 19.40901, 0.9990482, 
 /* @teleloc 0xB15E0030 [132.164200 186.927700 19.409010] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B15E020, 0x7B15E021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B15E020, 0x7B15E022, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7B15E020, 0x7B15E021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B15E020, 0x7B15E022, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15E021,  4179, 0xB15E0030, 132.1642, 186.9277, 19.40901, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

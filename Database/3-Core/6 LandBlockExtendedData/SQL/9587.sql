@@ -5,11 +5,11 @@ VALUES (0x79587001,  1154, 0x95870017, 53.99238, 161.2485, 30.51237, -0.7789592,
 /* @teleloc 0x95870017 [53.992380 161.248500 30.512370] -0.778959 0.000000 0.000000 -0.627075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79587001, 0x79587002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79587001, 0x79587003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79587001, 0x79587004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79587001, 0x79587005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79587001, 0x79587006, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x79587001, 0x79587002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79587001, 0x79587003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79587001, 0x79587004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79587001, 0x79587005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79587001, 0x79587006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79587002,   217, 0x95870017, 53.99238, 161.2485, 30.51237, -0.7789592, 0, 0, -0.6270746,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

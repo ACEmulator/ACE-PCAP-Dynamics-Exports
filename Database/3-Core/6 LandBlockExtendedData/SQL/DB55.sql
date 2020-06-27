@@ -85,20 +85,20 @@ VALUES (0x7DB55016,  1154, 0xDB550037, 148.1753, 160.315, 16.0044, -0.9984228, 0
 /* @teleloc 0xDB550037 [148.175300 160.315000 16.004400] -0.998423 0.000000 0.000000 -0.056142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB55016, 0x7DB55017, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB55016, 0x7DB55018, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB55016, 0x7DB55019, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DB55016, 0x7DB5501A, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7DB55016, 0x7DB5501B, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7DB55016, 0x7DB5501C, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DB55016, 0x7DB5501D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7DB55016, 0x7DB5501E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DB55016, 0x7DB5501F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DB55016, 0x7DB55020, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB55016, 0x7DB55021, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB55016, 0x7DB55022, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB55016, 0x7DB55023, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DB55016, 0x7DB55024, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7DB55016, 0x7DB55017, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB55016, 0x7DB55018, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB55016, 0x7DB55019, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DB55016, 0x7DB5501A, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7DB55016, 0x7DB5501B, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7DB55016, 0x7DB5501C, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DB55016, 0x7DB5501D, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7DB55016, 0x7DB5501E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DB55016, 0x7DB5501F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DB55016, 0x7DB55020, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB55016, 0x7DB55021, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB55016, 0x7DB55022, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB55016, 0x7DB55023, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DB55016, 0x7DB55024, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB55017, 19262, 0xDB550037, 148.1753, 160.315, 16.0044, -0.9984228, 0, 0, -0.0561418,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -161,9 +161,9 @@ VALUES (0x7DB55025,  1154, 0xDB550006, 3.86, 130.691, 20.005, 0.9999995, 0, 0, -
 /* @teleloc 0xDB550006 [3.860000 130.691000 20.005000] 1.000000 0.000000 0.000000 -0.000960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB55025, 0x7DB55026, '2019-02-10 00:00:00') /* Gonjoku Den */
-     , (0x7DB55025, 0x7DB55027, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DB55025, 0x7DB55028, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7DB55025, 0x7DB55026, '2019-02-10 00:00:00') /* Gonjoku Den (28857) */
+     , (0x7DB55025, 0x7DB55027, '2019-02-10 00:00:00') /* Town Crier (5776) */
+     , (0x7DB55025, 0x7DB55028, '2019-02-10 00:00:00') /* Town Crier (5776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB55026, 28857, 0xDB550006, 3.86, 130.691, 20.005, 0.9999995, 0, 0, -0.0009598025,  True, '2019-02-10 00:00:00'); /* Gonjoku Den */

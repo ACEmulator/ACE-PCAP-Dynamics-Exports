@@ -5,22 +5,22 @@ VALUES (0x7137A001,  1154, 0x137A0010, 26.98722, 189.5616, 130.0253, 0.9207115, 
 /* @teleloc 0x137A0010 [26.987220 189.561600 130.025300] 0.920712 0.000000 0.000000 -0.390244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137A001, 0x7137A002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7137A001, 0x7137A003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7137A001, 0x7137A004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7137A001, 0x7137A005, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7137A001, 0x7137A006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7137A001, 0x7137A007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7137A001, 0x7137A008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7137A001, 0x7137A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7137A001, 0x7137A00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7137A001, 0x7137A00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7137A001, 0x7137A00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7137A001, 0x7137A00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137A001, 0x7137A00E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7137A001, 0x7137A00F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137A001, 0x7137A010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7137A001, 0x7137A011, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x7137A001, 0x7137A002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7137A001, 0x7137A003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7137A001, 0x7137A004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7137A001, 0x7137A005, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7137A001, 0x7137A006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7137A001, 0x7137A007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7137A001, 0x7137A008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7137A001, 0x7137A009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7137A001, 0x7137A00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7137A001, 0x7137A00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7137A001, 0x7137A00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7137A001, 0x7137A00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137A001, 0x7137A00E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7137A001, 0x7137A00F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137A001, 0x7137A010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7137A001, 0x7137A011, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137A002, 23563, 0x137A0010, 26.98722, 189.5616, 130.0253, 0.9207115, 0, 0, -0.3902439,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -91,7 +91,7 @@ VALUES (0x7137A012,  1542, 0x137A0020, 95.44957, 183.9329, 125.925, 1, 0, 0, 0, 
 /* @teleloc 0x137A0020 [95.449570 183.932900 125.925000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137A012, 0x7137A013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7137A012, 0x7137A013, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137A013, 22566, 0x137A0020, 95.44957, 183.9329, 125.925, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

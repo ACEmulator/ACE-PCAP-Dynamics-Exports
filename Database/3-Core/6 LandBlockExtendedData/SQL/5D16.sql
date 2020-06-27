@@ -5,26 +5,26 @@ VALUES (0x75D16001,  1154, 0x5D160031, 158.6017, 4.575452, 12.9564, -0.8695626, 
 /* @teleloc 0x5D160031 [158.601700 4.575452 12.956400] -0.869563 0.000000 0.000000 -0.493823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D16001, 0x75D16002, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x75D16001, 0x75D16003, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75D16001, 0x75D16004, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x75D16001, 0x75D16005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75D16001, 0x75D16006, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75D16001, 0x75D16007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x75D16001, 0x75D16008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75D16001, 0x75D16009, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75D16001, 0x75D1600A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D16001, 0x75D1600B, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75D16001, 0x75D1600C, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75D16001, 0x75D1600D, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75D16001, 0x75D1600E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x75D16001, 0x75D1600F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D16001, 0x75D16010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75D16001, 0x75D16011, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75D16001, 0x75D16012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75D16001, 0x75D16013, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D16001, 0x75D16014, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D16001, 0x75D16015, '2019-02-10 00:00:00') /* Virindi Councillor */;
+VALUES (0x75D16001, 0x75D16002, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x75D16001, 0x75D16003, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75D16001, 0x75D16004, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x75D16001, 0x75D16005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75D16001, 0x75D16006, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75D16001, 0x75D16007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x75D16001, 0x75D16008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75D16001, 0x75D16009, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75D16001, 0x75D1600A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D16001, 0x75D1600B, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75D16001, 0x75D1600C, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75D16001, 0x75D1600D, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75D16001, 0x75D1600E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x75D16001, 0x75D1600F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D16001, 0x75D16010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75D16001, 0x75D16011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75D16001, 0x75D16012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75D16001, 0x75D16013, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D16001, 0x75D16014, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D16001, 0x75D16015, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D16002, 34297, 0x5D160031, 158.6017, 4.575452, 12.9564, -0.8695626, 0, 0, -0.4938227,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */
@@ -111,10 +111,10 @@ VALUES (0x75D16016,  1542, 0x5D16003B, 191.2588, 48.35154, 0.2235361, 0.9990482,
 /* @teleloc 0x5D16003B [191.258800 48.351540 0.223536] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D16016, 0x75D16017, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x75D16016, 0x75D16018, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x75D16016, 0x75D16019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75D16016, 0x75D1601A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75D16016, 0x75D16017, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x75D16016, 0x75D16018, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x75D16016, 0x75D16019, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75D16016, 0x75D1601A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D16017,  6117, 0x5D16003B, 191.2588, 48.35154, 0.2235361, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

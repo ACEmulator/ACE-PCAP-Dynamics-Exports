@@ -5,9 +5,9 @@ VALUES (0x7DE60001,  1154, 0xDE600034, 154.6781, 75.69237, 15.42535, 0.8870109, 
 /* @teleloc 0xDE600034 [154.678100 75.692370 15.425350] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE60001, 0x7DE60002, '2019-02-10 00:00:00') /* Lich */
-     , (0x7DE60001, 0x7DE60003, '2019-02-10 00:00:00') /* Lich */
-     , (0x7DE60001, 0x7DE60004, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x7DE60001, 0x7DE60002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7DE60001, 0x7DE60003, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7DE60001, 0x7DE60004, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE60002,   204, 0xDE600034, 154.6781, 75.69237, 15.42535, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Lich */

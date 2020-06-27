@@ -5,13 +5,13 @@ VALUES (0x7E448001,  1154, 0xE4480032, 156.403, 38.41924, 25.01859, -0.6812569, 
 /* @teleloc 0xE4480032 [156.403000 38.419240 25.018590] -0.681257 0.000000 0.000000 -0.732044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E448001, 0x7E448002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E448001, 0x7E448003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7E448001, 0x7E448004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E448001, 0x7E448005, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E448001, 0x7E448006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E448001, 0x7E448007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E448001, 0x7E448008, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x7E448001, 0x7E448002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E448001, 0x7E448003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7E448001, 0x7E448004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E448001, 0x7E448005, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E448001, 0x7E448006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E448001, 0x7E448007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E448001, 0x7E448008, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E448002,  4111, 0xE4480032, 156.403, 38.41924, 25.01859, -0.6812569, 0, 0, -0.7320444,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

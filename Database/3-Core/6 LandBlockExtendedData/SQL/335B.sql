@@ -5,16 +5,16 @@ VALUES (0x7335B001,  1154, 0x335B0031, 158.482, 23.06981, 21.13782, 0.6979432, 0
 /* @teleloc 0x335B0031 [158.482000 23.069810 21.137820] 0.697943 0.000000 0.000000 -0.716153 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335B001, 0x7335B002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7335B001, 0x7335B003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7335B001, 0x7335B004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7335B001, 0x7335B005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7335B001, 0x7335B006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7335B001, 0x7335B007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7335B001, 0x7335B008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7335B001, 0x7335B009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7335B001, 0x7335B00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7335B001, 0x7335B00B, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x7335B001, 0x7335B002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7335B001, 0x7335B003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7335B001, 0x7335B004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7335B001, 0x7335B005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7335B001, 0x7335B006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7335B001, 0x7335B007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7335B001, 0x7335B008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7335B001, 0x7335B009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7335B001, 0x7335B00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7335B001, 0x7335B00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335B002,  7092, 0x335B0031, 158.482, 23.06981, 21.13782, 0.6979432, 0, 0, -0.7161531,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -61,7 +61,7 @@ VALUES (0x7335B00C,  1542, 0x335B0024, 112.0181, 81.98361, 24.83649, -0.09532171
 /* @teleloc 0x335B0024 [112.018100 81.983610 24.836490] -0.095322 0.000000 0.000000 -0.995447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335B00C, 0x7335B00D, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7335B00C, 0x7335B00D, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335B00D, 11554, 0x335B0024, 112.0181, 81.98361, 24.83649, -0.09532171, 0, 0, -0.9954465,  True, '2019-02-10 00:00:00'); /* Colban Plant */

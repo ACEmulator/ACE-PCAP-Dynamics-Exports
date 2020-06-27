@@ -5,15 +5,15 @@ VALUES (0x7A5A1001,  1154, 0xA5A10001, 6.420646, 9.178983, 119.9919, 0.4166125, 
 /* @teleloc 0xA5A10001 [6.420646 9.178983 119.991900] 0.416613 0.000000 0.000000 -0.909084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A1001, 0x7A5A1002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A5A1001, 0x7A5A1003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A5A1001, 0x7A5A1004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A5A1001, 0x7A5A1005, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7A5A1001, 0x7A5A1006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A5A1001, 0x7A5A1007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A5A1001, 0x7A5A1008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A5A1001, 0x7A5A1009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A5A1001, 0x7A5A100A, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7A5A1001, 0x7A5A1002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A5A1001, 0x7A5A1003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A5A1001, 0x7A5A1004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A5A1001, 0x7A5A1005, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7A5A1001, 0x7A5A1006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A5A1001, 0x7A5A1007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A5A1001, 0x7A5A1008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A5A1001, 0x7A5A1009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A5A1001, 0x7A5A100A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A1002,  2575, 0xA5A10001, 6.420646, 9.178983, 119.9919, 0.4166125, 0, 0, -0.9090842,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -56,8 +56,8 @@ VALUES (0x7A5A100B,  1542, 0xA5A10006, 14.78475, 142.0381, 131.673, -0.9409207, 
 /* @teleloc 0xA5A10006 [14.784750 142.038100 131.673000] -0.940921 0.000000 0.000000 -0.338627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A100B, 0x7A5A100C, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A5A100B, 0x7A5A100D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A5A100B, 0x7A5A100C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A5A100B, 0x7A5A100D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A100C,  8037, 0xA5A10006, 14.78475, 142.0381, 131.673, -0.9409207, 0, 0, -0.3386269,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

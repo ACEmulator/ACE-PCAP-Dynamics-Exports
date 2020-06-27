@@ -5,17 +5,17 @@ VALUES (0x77710001,  1154, 0x7710001E, 74.80478, 141.0628, -0.09750003, 0.991444
 /* @teleloc 0x7710001E [74.804780 141.062800 -0.097500] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77710001, 0x77710002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77710001, 0x77710003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77710001, 0x77710004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x77710001, 0x77710005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77710001, 0x77710006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x77710001, 0x77710007, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x77710001, 0x77710008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77710001, 0x77710009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77710001, 0x7771000A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x77710001, 0x7771000B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x77710001, 0x7771000C, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x77710001, 0x77710002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77710001, 0x77710003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77710001, 0x77710004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x77710001, 0x77710005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77710001, 0x77710006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x77710001, 0x77710007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x77710001, 0x77710008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77710001, 0x77710009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77710001, 0x7771000A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x77710001, 0x7771000B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x77710001, 0x7771000C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77710002,  7334, 0x7710001E, 74.80478, 141.0628, -0.09750003, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -66,7 +66,7 @@ VALUES (0x7771000D,  1542, 0x77100035, 153.358, 104.9818, -0.45, 0.9990482, 0, 0
 /* @teleloc 0x77100035 [153.358000 104.981800 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7771000D, 0x7771000E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7771000D, 0x7771000E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7771000E,  4179, 0x77100035, 153.358, 104.9818, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

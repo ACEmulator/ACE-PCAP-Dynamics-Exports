@@ -5,20 +5,20 @@ VALUES (0x7470F001,  1154, 0x470F0031, 156.8054, 17.89849, -0.4475, -0.9978092, 
 /* @teleloc 0x470F0031 [156.805400 17.898490 -0.447500] -0.997809 0.000000 0.000000 -0.066157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7470F001, 0x7470F002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7470F001, 0x7470F003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7470F001, 0x7470F004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x7470F001, 0x7470F005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7470F001, 0x7470F006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7470F001, 0x7470F007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7470F001, 0x7470F008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7470F001, 0x7470F009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7470F001, 0x7470F00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7470F001, 0x7470F00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7470F001, 0x7470F00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7470F001, 0x7470F00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7470F001, 0x7470F00E, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7470F001, 0x7470F00F, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7470F001, 0x7470F002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7470F001, 0x7470F003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7470F001, 0x7470F004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x7470F001, 0x7470F005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7470F001, 0x7470F006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7470F001, 0x7470F007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7470F001, 0x7470F008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7470F001, 0x7470F009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7470F001, 0x7470F00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7470F001, 0x7470F00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7470F001, 0x7470F00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7470F001, 0x7470F00D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7470F001, 0x7470F00E, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7470F001, 0x7470F00F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7470F002, 36859, 0x470F0031, 156.8054, 17.89849, -0.4475, -0.9978092, 0, 0, -0.06615706,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -81,7 +81,7 @@ VALUES (0x7470F010,  1542, 0x470F0021, 116.1799, 13.5927, 1.73455, 1, 0, 0, 0, F
 /* @teleloc 0x470F0021 [116.179900 13.592700 1.734550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7470F010, 0x7470F011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7470F010, 0x7470F011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7470F011, 22571, 0x470F0021, 116.1799, 13.5927, 1.73455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

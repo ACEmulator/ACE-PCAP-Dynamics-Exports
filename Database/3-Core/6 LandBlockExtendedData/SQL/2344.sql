@@ -5,12 +5,12 @@ VALUES (0x72344001,  1154, 0x23440035, 147.9836, 116.3371, 41.58566, 0.7071068, 
 /* @teleloc 0x23440035 [147.983600 116.337100 41.585660] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72344001, 0x72344002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72344001, 0x72344003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72344001, 0x72344004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72344001, 0x72344005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72344001, 0x72344006, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x72344001, 0x72344007, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x72344001, 0x72344002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72344001, 0x72344003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72344001, 0x72344004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72344001, 0x72344005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72344001, 0x72344006, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x72344001, 0x72344007, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72344002,   228, 0x23440035, 147.9836, 116.3371, 41.58566, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -41,9 +41,9 @@ VALUES (0x72344008,  1542, 0x23440035, 146.3155, 108.2613, 43.32059, 0.9990482, 
 /* @teleloc 0x23440035 [146.315500 108.261300 43.320590] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72344008, 0x72344009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72344008, 0x7234400A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72344008, 0x7234400B, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x72344008, 0x72344009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72344008, 0x7234400A, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72344008, 0x7234400B, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72344009,  4179, 0x23440035, 146.3155, 108.2613, 43.32059, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,16 +5,16 @@ VALUES (0x7A21D001,  1154, 0xA21D000F, 35.287, 152.146, 532.01, 0.8146529, 0, 0,
 /* @teleloc 0xA21D000F [35.287000 152.146000 532.010000] 0.814653 0.000000 0.000000 -0.579949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21D001, 0x7A21D002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A21D001, 0x7A21D003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A21D001, 0x7A21D004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A21D001, 0x7A21D005, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7A21D001, 0x7A21D006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7A21D001, 0x7A21D007, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7A21D001, 0x7A21D008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7A21D001, 0x7A21D009, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21D001, 0x7A21D00A, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21D001, 0x7A21D00B, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7A21D001, 0x7A21D002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21D001, 0x7A21D003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21D001, 0x7A21D004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21D001, 0x7A21D005, '2019-02-10 00:00:00') /* Exploration Marker (39793) */
+     , (0x7A21D001, 0x7A21D006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7A21D001, 0x7A21D007, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x7A21D001, 0x7A21D008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7A21D001, 0x7A21D009, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21D001, 0x7A21D00A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21D001, 0x7A21D00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21D002,  8142, 0xA21D000F, 35.287, 152.146, 532.01, 0.8146529, 0, 0, -0.5799489,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */

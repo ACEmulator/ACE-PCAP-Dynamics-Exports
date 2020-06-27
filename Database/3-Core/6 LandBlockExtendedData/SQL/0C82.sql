@@ -5,26 +5,26 @@ VALUES (0x70C82001,  1154, 0x0C820038, 165.8653, 173.8397, 0.004999965, 0.891583
 /* @teleloc 0x0C820038 [165.865300 173.839700 0.005000] 0.891583 0.000000 0.000000 -0.452857 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C82001, 0x70C82002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x70C82001, 0x70C82003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x70C82001, 0x70C82004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70C82001, 0x70C82005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x70C82001, 0x70C82006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x70C82001, 0x70C82007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70C82001, 0x70C82008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x70C82001, 0x70C82009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70C82001, 0x70C8200A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C82001, 0x70C8200B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C82001, 0x70C8200C, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x70C82001, 0x70C8200D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70C82001, 0x70C8200E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x70C82001, 0x70C8200F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x70C82001, 0x70C82010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x70C82001, 0x70C82011, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70C82001, 0x70C82012, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C82001, 0x70C82013, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C82001, 0x70C82014, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C82001, 0x70C82015, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x70C82001, 0x70C82002, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x70C82001, 0x70C82003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x70C82001, 0x70C82004, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70C82001, 0x70C82005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x70C82001, 0x70C82006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x70C82001, 0x70C82007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70C82001, 0x70C82008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x70C82001, 0x70C82009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70C82001, 0x70C8200A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C82001, 0x70C8200B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C82001, 0x70C8200C, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x70C82001, 0x70C8200D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70C82001, 0x70C8200E, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x70C82001, 0x70C8200F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x70C82001, 0x70C82010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x70C82001, 0x70C82011, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70C82001, 0x70C82012, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C82001, 0x70C82013, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C82001, 0x70C82014, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C82001, 0x70C82015, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C82002, 23090, 0x0C820038, 165.8653, 173.8397, 0.004999965, 0.8915831, 0, 0, -0.4528572,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
@@ -111,7 +111,7 @@ VALUES (0x70C82016,  1542, 0x0C820027, 99.92229, 145.2341, 3.794312, 0.9990482, 
 /* @teleloc 0x0C820027 [99.922290 145.234100 3.794312] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C82016, 0x70C82017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70C82016, 0x70C82017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C82017,  4179, 0x0C820027, 99.92229, 145.2341, 3.794312, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

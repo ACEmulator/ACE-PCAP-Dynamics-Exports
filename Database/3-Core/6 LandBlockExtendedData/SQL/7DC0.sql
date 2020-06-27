@@ -5,10 +5,10 @@ VALUES (0x77DC0001,  1154, 0x7DC0002D, 135.1567, 102.2191, 316.283, 0.4256379, 0
 /* @teleloc 0x7DC0002D [135.156700 102.219100 316.283000] 0.425638 0.000000 0.000000 -0.904894 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC0001, 0x77DC0002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x77DC0001, 0x77DC0003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x77DC0001, 0x77DC0004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77DC0001, 0x77DC0005, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x77DC0001, 0x77DC0002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x77DC0001, 0x77DC0003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x77DC0001, 0x77DC0004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77DC0001, 0x77DC0005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC0002, 14518, 0x7DC0002D, 135.1567, 102.2191, 316.283, 0.4256379, 0, 0, -0.9048936,  True, '2019-02-10 00:00:00'); /* Shivver */
@@ -31,7 +31,7 @@ VALUES (0x77DC0006,  1542, 0x7DC0003D, 188.4674, 108.9939, 315.4142, 0.9990482, 
 /* @teleloc 0x7DC0003D [188.467400 108.993900 315.414200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC0006, 0x77DC0007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77DC0006, 0x77DC0007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC0007,  4179, 0x7DC0003D, 188.4674, 108.9939, 315.4142, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

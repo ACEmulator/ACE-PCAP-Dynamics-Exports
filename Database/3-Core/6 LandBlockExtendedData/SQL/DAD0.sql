@@ -5,10 +5,10 @@ VALUES (0x7DAD0001,  1154, 0xDAD00035, 154.9739, 106.582, 36.09797, -0.9931597, 
 /* @teleloc 0xDAD00035 [154.973900 106.582000 36.097970] -0.993160 0.000000 0.000000 -0.116764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DAD0001, 0x7DAD0002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DAD0001, 0x7DAD0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DAD0001, 0x7DAD0004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DAD0001, 0x7DAD0005, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x7DAD0001, 0x7DAD0002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DAD0001, 0x7DAD0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DAD0001, 0x7DAD0004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DAD0001, 0x7DAD0005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DAD0002,     3, 0xDAD00035, 154.9739, 106.582, 36.09797, -0.9931597, 0, 0, -0.1167643,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -31,7 +31,7 @@ VALUES (0x7DAD0006,  1542, 0xDAD00035, 151.1338, 107.8856, 35.60402, -0.7866327,
 /* @teleloc 0xDAD00035 [151.133800 107.885600 35.604020] -0.786633 0.000000 0.000000 -0.617421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DAD0006, 0x7DAD0007, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7DAD0006, 0x7DAD0007, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DAD0007, 11555, 0xDAD00035, 151.1338, 107.8856, 35.60402, -0.7866327, 0, 0, -0.6174213,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

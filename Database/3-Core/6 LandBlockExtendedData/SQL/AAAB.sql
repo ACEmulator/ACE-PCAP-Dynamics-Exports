@@ -5,120 +5,120 @@ VALUES (0x7AAAB001,  1154, 0xAAAB0005, 4.780027, 117.9076, 88.41034, -0.4272027,
 /* @teleloc 0xAAAB0005 [4.780027 117.907600 88.410340] -0.427203 0.000000 0.000000 -0.904156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAAB001, 0x7AAAB002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AAAB001, 0x7AAAB00A, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AAAB001, 0x7AAAB00B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAB001, 0x7AAAB00F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAB001, 0x7AAAB010, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAAB001, 0x7AAAB011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAB001, 0x7AAAB013, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAAB001, 0x7AAAB014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAB001, 0x7AAAB015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB017, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAAB001, 0x7AAAB018, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB019, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB01A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB01B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB01C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB01D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB01E, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB01F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB020, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB021, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB022, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB023, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB024, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB025, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB026, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AAAB001, 0x7AAAB027, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB028, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB029, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB02A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB02B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB02C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB02D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB02E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB02F, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7AAAB001, 0x7AAAB030, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AAAB001, 0x7AAAB031, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AAAB001, 0x7AAAB032, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB033, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AAAB001, 0x7AAAB034, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB035, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB036, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB037, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB038, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7AAAB001, 0x7AAAB039, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB03A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AAAB001, 0x7AAAB03B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AAAB001, 0x7AAAB03C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AAAB001, 0x7AAAB03D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AAAB001, 0x7AAAB03E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB03F, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AAAB001, 0x7AAAB040, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB041, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB042, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB043, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AAAB001, 0x7AAAB044, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AAAB001, 0x7AAAB045, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AAAB001, 0x7AAAB046, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AAAB001, 0x7AAAB047, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB048, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7AAAB001, 0x7AAAB049, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AAAB001, 0x7AAAB04A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB04B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AAAB001, 0x7AAAB04C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAAB001, 0x7AAAB04D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAAB001, 0x7AAAB04E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AAAB001, 0x7AAAB04F, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AAAB001, 0x7AAAB050, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB051, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AAAB001, 0x7AAAB052, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB053, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7AAAB001, 0x7AAAB054, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB055, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB056, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB057, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AAAB001, 0x7AAAB058, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB059, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB05A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB05B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB05C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB05D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB05E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AAAB001, 0x7AAAB05F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB060, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AAAB001, 0x7AAAB061, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AAAB001, 0x7AAAB062, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB063, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AAAB001, 0x7AAAB064, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAAB001, 0x7AAAB065, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AAAB001, 0x7AAAB066, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AAAB001, 0x7AAAB067, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7AAAB001, 0x7AAAB068, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AAAB001, 0x7AAAB069, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AAAB001, 0x7AAAB06A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AAAB001, 0x7AAAB06B, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AAAB001, 0x7AAAB06C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AAAB001, 0x7AAAB06D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAAB001, 0x7AAAB06E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAAB001, 0x7AAAB06F, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7AAAB001, 0x7AAAB070, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AAAB001, 0x7AAAB071, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AAAB001, 0x7AAAB072, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAAB001, 0x7AAAB073, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7AAAB001, 0x7AAAB002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AAAB001, 0x7AAAB00A, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AAAB001, 0x7AAAB00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AAAB001, 0x7AAAB00F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AAAB001, 0x7AAAB010, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAAB001, 0x7AAAB011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB012, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AAAB001, 0x7AAAB013, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAAB001, 0x7AAAB014, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AAAB001, 0x7AAAB015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB017, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAAB001, 0x7AAAB018, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB019, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB01A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB01B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB01C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB01D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB01E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB01F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB020, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB021, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB022, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB023, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB024, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB025, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB026, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AAAB001, 0x7AAAB027, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB028, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB029, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB02A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB02B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB02C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB02D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB02E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB02F, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7AAAB001, 0x7AAAB030, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AAAB001, 0x7AAAB031, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AAAB001, 0x7AAAB032, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB033, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AAAB001, 0x7AAAB034, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB035, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB036, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB037, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB038, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7AAAB001, 0x7AAAB039, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB03A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AAAB001, 0x7AAAB03B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AAAB001, 0x7AAAB03C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AAAB001, 0x7AAAB03D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AAAB001, 0x7AAAB03E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB03F, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AAAB001, 0x7AAAB040, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB041, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB042, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB043, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AAAB001, 0x7AAAB044, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AAAB001, 0x7AAAB045, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AAAB001, 0x7AAAB046, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AAAB001, 0x7AAAB047, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB048, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7AAAB001, 0x7AAAB049, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AAAB001, 0x7AAAB04A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB04B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AAAB001, 0x7AAAB04C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAAB001, 0x7AAAB04D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAAB001, 0x7AAAB04E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AAAB001, 0x7AAAB04F, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AAAB001, 0x7AAAB050, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB051, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AAAB001, 0x7AAAB052, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB053, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7AAAB001, 0x7AAAB054, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB055, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB056, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB057, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AAAB001, 0x7AAAB058, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB059, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB05A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB05B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB05C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB05D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB05E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AAAB001, 0x7AAAB05F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB060, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AAAB001, 0x7AAAB061, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AAAB001, 0x7AAAB062, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB063, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AAAB001, 0x7AAAB064, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAAB001, 0x7AAAB065, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AAAB001, 0x7AAAB066, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AAAB001, 0x7AAAB067, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7AAAB001, 0x7AAAB068, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AAAB001, 0x7AAAB069, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AAAB001, 0x7AAAB06A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AAAB001, 0x7AAAB06B, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AAAB001, 0x7AAAB06C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AAAB001, 0x7AAAB06D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAAB001, 0x7AAAB06E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAAB001, 0x7AAAB06F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7AAAB001, 0x7AAAB070, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AAAB001, 0x7AAAB071, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AAAB001, 0x7AAAB072, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAAB001, 0x7AAAB073, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAAB002,   215, 0xAAAB0005, 4.780027, 117.9076, 88.41034, -0.4272027, 0, 0, -0.9041559,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -581,14 +581,14 @@ VALUES (0x7AAAB074,  1542, 0xAAAB003E, 178.4684, 120.4705, 89.08842, 1, 0, 0, 0,
 /* @teleloc 0xAAAB003E [178.468400 120.470500 89.088420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAAB074, 0x7AAAB075, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAAB074, 0x7AAAB076, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAAB074, 0x7AAAB077, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAAB074, 0x7AAAB078, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AAAB074, 0x7AAAB079, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7AAAB074, 0x7AAAB07A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAAB074, 0x7AAAB07B, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AAAB074, 0x7AAAB07C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AAAB074, 0x7AAAB075, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAAB074, 0x7AAAB076, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAAB074, 0x7AAAB077, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAAB074, 0x7AAAB078, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AAAB074, 0x7AAAB079, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7AAAB074, 0x7AAAB07A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAAB074, 0x7AAAB07B, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AAAB074, 0x7AAAB07C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAAB075,  4179, 0xAAAB003E, 178.4684, 120.4705, 89.08842, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

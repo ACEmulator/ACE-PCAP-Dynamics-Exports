@@ -5,22 +5,22 @@ VALUES (0x7B960001,  1154, 0xB9600011, 62.94757, 12.08439, 5.550001, -0.2601409,
 /* @teleloc 0xB9600011 [62.947570 12.084390 5.550001] -0.260141 0.000000 0.000000 -0.965571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B960001, 0x7B960002, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B960001, 0x7B960003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B960001, 0x7B960004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B960001, 0x7B960005, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B960001, 0x7B960006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B960001, 0x7B960007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B960001, 0x7B960008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B960001, 0x7B960009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B960001, 0x7B96000A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B960001, 0x7B96000B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B960001, 0x7B96000C, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B960001, 0x7B96000D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B960001, 0x7B96000E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B960001, 0x7B96000F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B960001, 0x7B960010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B960001, 0x7B960011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7B960001, 0x7B960002, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B960001, 0x7B960003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B960001, 0x7B960004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B960001, 0x7B960005, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B960001, 0x7B960006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B960001, 0x7B960007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B960001, 0x7B960008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B960001, 0x7B960009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B960001, 0x7B96000A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B960001, 0x7B96000B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B960001, 0x7B96000C, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B960001, 0x7B96000D, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B960001, 0x7B96000E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B960001, 0x7B96000F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B960001, 0x7B960010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B960001, 0x7B960011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B960002,  1987, 0xB9600011, 62.94757, 12.08439, 5.550001, -0.2601409, 0, 0, -0.9655707,  True, '2019-02-10 00:00:00'); /* Ghost Wisp */
@@ -91,8 +91,8 @@ VALUES (0x7B960012,  1542, 0xB9600012, 50.39138, 34.11385, 6, 0.8660254, 0, 0, -
 /* @teleloc 0xB9600012 [50.391380 34.113850 6.000000] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B960012, 0x7B960013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B960012, 0x7B960014, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7B960012, 0x7B960013, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7B960012, 0x7B960014, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B960013,  4382, 0xB9600012, 50.39138, 34.11385, 6, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

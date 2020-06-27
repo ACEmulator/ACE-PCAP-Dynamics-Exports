@@ -5,9 +5,9 @@ VALUES (0x792A7001,  1154, 0x92A70029, 139.2556, 18.31363, 46.8348, 0.7236632, 0
 /* @teleloc 0x92A70029 [139.255600 18.313630 46.834800] 0.723663 0.000000 0.000000 -0.690153 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792A7001, 0x792A7002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792A7001, 0x792A7003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792A7001, 0x792A7004, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x792A7001, 0x792A7002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792A7001, 0x792A7003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792A7001, 0x792A7004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792A7002,  7345, 0x92A70029, 139.2556, 18.31363, 46.8348, 0.7236632, 0, 0, -0.6901532,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

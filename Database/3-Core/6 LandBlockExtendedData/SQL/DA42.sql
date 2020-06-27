@@ -5,10 +5,10 @@ VALUES (0x7DA42001,  1154, 0xDA420005, 5.305732, 97.57031, 100.9949, 0.9238795, 
 /* @teleloc 0xDA420005 [5.305732 97.570310 100.994900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA42001, 0x7DA42002, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7DA42001, 0x7DA42003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7DA42001, 0x7DA42004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7DA42001, 0x7DA42005, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7DA42001, 0x7DA42002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7DA42001, 0x7DA42003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7DA42001, 0x7DA42004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7DA42001, 0x7DA42005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA42002, 24942, 0xDA420005, 5.305732, 97.57031, 100.9949, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */

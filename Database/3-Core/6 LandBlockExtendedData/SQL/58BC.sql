@@ -5,21 +5,21 @@ VALUES (0x758BC001,  1154, 0x58BC002A, 132.9744, 27.51118, 13.3763, 0.403181, 0,
 /* @teleloc 0x58BC002A [132.974400 27.511180 13.376300] 0.403181 0.000000 0.000000 -0.915120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758BC001, 0x758BC002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x758BC001, 0x758BC003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x758BC001, 0x758BC004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x758BC001, 0x758BC005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x758BC001, 0x758BC006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x758BC001, 0x758BC007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758BC001, 0x758BC008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758BC001, 0x758BC009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x758BC001, 0x758BC00A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x758BC001, 0x758BC00B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x758BC001, 0x758BC00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x758BC001, 0x758BC00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x758BC001, 0x758BC00E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x758BC001, 0x758BC00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x758BC001, 0x758BC010, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x758BC001, 0x758BC002, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x758BC001, 0x758BC003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x758BC001, 0x758BC004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x758BC001, 0x758BC005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x758BC001, 0x758BC006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x758BC001, 0x758BC007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758BC001, 0x758BC008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758BC001, 0x758BC009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x758BC001, 0x758BC00A, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x758BC001, 0x758BC00B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x758BC001, 0x758BC00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x758BC001, 0x758BC00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x758BC001, 0x758BC00E, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x758BC001, 0x758BC00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x758BC001, 0x758BC010, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758BC002, 24314, 0x58BC002A, 132.9744, 27.51118, 13.3763, 0.403181, 0, 0, -0.9151202,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */

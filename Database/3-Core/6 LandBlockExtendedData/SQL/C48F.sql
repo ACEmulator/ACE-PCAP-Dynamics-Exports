@@ -5,12 +5,12 @@ VALUES (0x7C48F001,  1154, 0xC48F0027, 105.2275, 166.8085, 8.880253, 0.781917, 0
 /* @teleloc 0xC48F0027 [105.227500 166.808500 8.880253] 0.781917 0.000000 0.000000 -0.623383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C48F001, 0x7C48F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C48F001, 0x7C48F003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C48F001, 0x7C48F004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C48F001, 0x7C48F005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C48F001, 0x7C48F006, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C48F001, 0x7C48F007, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C48F001, 0x7C48F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C48F001, 0x7C48F003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C48F001, 0x7C48F004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C48F001, 0x7C48F005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C48F001, 0x7C48F006, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C48F001, 0x7C48F007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C48F002,   215, 0xC48F0027, 105.2275, 166.8085, 8.880253, 0.781917, 0, 0, -0.6233825,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

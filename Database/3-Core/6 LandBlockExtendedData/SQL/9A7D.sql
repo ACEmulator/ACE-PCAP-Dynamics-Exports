@@ -5,23 +5,23 @@ VALUES (0x79A7D001,  1154, 0x9A7D000B, 28.10704, 63.90987, 23.991, -0.2034754, 0
 /* @teleloc 0x9A7D000B [28.107040 63.909870 23.991000] -0.203475 0.000000 0.000000 -0.979080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7D001, 0x79A7D002, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79A7D001, 0x79A7D003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79A7D001, 0x79A7D004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79A7D001, 0x79A7D005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79A7D001, 0x79A7D006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x79A7D001, 0x79A7D007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79A7D001, 0x79A7D008, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A7D001, 0x79A7D009, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A7D001, 0x79A7D00A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A7D001, 0x79A7D00B, '2019-02-10 00:00:00') /* Lich */
-     , (0x79A7D001, 0x79A7D00C, '2019-02-10 00:00:00') /* Lich */
-     , (0x79A7D001, 0x79A7D00D, '2019-02-10 00:00:00') /* Lich */
-     , (0x79A7D001, 0x79A7D00E, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79A7D001, 0x79A7D00F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79A7D001, 0x79A7D010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79A7D001, 0x79A7D011, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79A7D001, 0x79A7D012, '2019-02-10 00:00:00') /* Seared Skeleton */;
+VALUES (0x79A7D001, 0x79A7D002, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79A7D001, 0x79A7D003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79A7D001, 0x79A7D004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79A7D001, 0x79A7D005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79A7D001, 0x79A7D006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x79A7D001, 0x79A7D007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79A7D001, 0x79A7D008, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A7D001, 0x79A7D009, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A7D001, 0x79A7D00A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A7D001, 0x79A7D00B, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79A7D001, 0x79A7D00C, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79A7D001, 0x79A7D00D, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79A7D001, 0x79A7D00E, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79A7D001, 0x79A7D00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79A7D001, 0x79A7D010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79A7D001, 0x79A7D011, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79A7D001, 0x79A7D012, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7D002,  2574, 0x9A7D000B, 28.10704, 63.90987, 23.991, -0.2034754, 0, 0, -0.9790801,  True, '2019-02-10 00:00:00'); /* Rough Monouga */
@@ -96,10 +96,10 @@ VALUES (0x79A7D013,  1542, 0x9A7D0018, 67.46046, 184.5914, 50, 0.9238795, 0, 0, 
 /* @teleloc 0x9A7D0018 [67.460460 184.591400 50.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7D013, 0x79A7D014, '2019-02-10 00:00:00') /* Lead Pea */
-     , (0x79A7D013, 0x79A7D015, '2019-02-10 00:00:00') /* Ring */
-     , (0x79A7D013, 0x79A7D016, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x79A7D013, 0x79A7D017, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79A7D013, 0x79A7D014, '2019-02-10 00:00:00') /* Lead Pea (8329) */
+     , (0x79A7D013, 0x79A7D015, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x79A7D013, 0x79A7D016, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x79A7D013, 0x79A7D017, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7D014,  8329, 0x9A7D0018, 67.46046, 184.5914, 50, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Lead Pea */

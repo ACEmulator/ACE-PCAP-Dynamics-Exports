@@ -5,17 +5,17 @@ VALUES (0x76BD7001,  1154, 0x6BD70018, 60.81769, 175.7004, 251.5417, 1, 0, 0, 0,
 /* @teleloc 0x6BD70018 [60.817690 175.700400 251.541700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BD7001, 0x76BD7002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x76BD7001, 0x76BD7003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76BD7001, 0x76BD7004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76BD7001, 0x76BD7005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76BD7001, 0x76BD7006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76BD7001, 0x76BD7007, '2019-02-10 00:00:00') /* Dire Champion Golem */
-     , (0x76BD7001, 0x76BD7008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76BD7001, 0x76BD7009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x76BD7001, 0x76BD700A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76BD7001, 0x76BD700B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x76BD7001, 0x76BD700C, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x76BD7001, 0x76BD7002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x76BD7001, 0x76BD7003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76BD7001, 0x76BD7004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76BD7001, 0x76BD7005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x76BD7001, 0x76BD7006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x76BD7001, 0x76BD7007, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */
+     , (0x76BD7001, 0x76BD7008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x76BD7001, 0x76BD7009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x76BD7001, 0x76BD700A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76BD7001, 0x76BD700B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x76BD7001, 0x76BD700C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BD7002, 36829, 0x6BD70018, 60.81769, 175.7004, 251.5417, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -66,7 +66,7 @@ VALUES (0x76BD700D,  1542, 0x6BD70017, 68.44006, 160.6098, 245.2162, 1, 0, 0, 0,
 /* @teleloc 0x6BD70017 [68.440060 160.609800 245.216200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BD700D, 0x76BD700E, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x76BD700D, 0x76BD700E, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BD700E, 42528, 0x6BD70017, 68.44006, 160.6098, 245.2162, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rock */

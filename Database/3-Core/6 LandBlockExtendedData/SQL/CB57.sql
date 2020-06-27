@@ -5,15 +5,15 @@ VALUES (0x7CB57001,  1154, 0xCB570010, 41.94224, 174.3638, 41.07648, 0.8964315, 
 /* @teleloc 0xCB570010 [41.942240 174.363800 41.076480] 0.896432 0.000000 0.000000 -0.443182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB57001, 0x7CB57002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CB57001, 0x7CB57003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CB57001, 0x7CB57004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CB57001, 0x7CB57005, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7CB57001, 0x7CB57006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CB57001, 0x7CB57007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CB57001, 0x7CB57008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CB57001, 0x7CB57009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB57001, 0x7CB5700A, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7CB57001, 0x7CB57002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CB57001, 0x7CB57003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CB57001, 0x7CB57004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CB57001, 0x7CB57005, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7CB57001, 0x7CB57006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CB57001, 0x7CB57007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CB57001, 0x7CB57008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CB57001, 0x7CB57009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB57001, 0x7CB5700A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB57002,     3, 0xCB570010, 41.94224, 174.3638, 41.07648, 0.8964315, 0, 0, -0.4431823,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

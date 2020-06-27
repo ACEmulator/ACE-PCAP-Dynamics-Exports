@@ -5,10 +5,10 @@ VALUES (0x7A066001,  1154, 0xA066000A, 24.11316, 25.91163, 61.5038, 0.5188031, 0
 /* @teleloc 0xA066000A [24.113160 25.911630 61.503800] 0.518803 0.000000 0.000000 -0.854894 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A066001, 0x7A066002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A066001, 0x7A066003, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7A066001, 0x7A066004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A066001, 0x7A066005, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7A066001, 0x7A066002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A066001, 0x7A066003, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7A066001, 0x7A066004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A066001, 0x7A066005, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A066002,  6645, 0xA066000A, 24.11316, 25.91163, 61.5038, 0.5188031, 0, 0, -0.8548938,  True, '2019-02-10 00:00:00'); /* Magma Golem */

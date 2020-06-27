@@ -5,26 +5,26 @@ VALUES (0x7B9A1001,  1154, 0xB9A1002A, 134.8795, 44.21806, 7.469473, 0.9537169, 
 /* @teleloc 0xB9A1002A [134.879500 44.218060 7.469473] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A1001, 0x7B9A1002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B9A1001, 0x7B9A1003, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B9A1001, 0x7B9A1004, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B9A1001, 0x7B9A1005, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B9A1001, 0x7B9A1006, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B9A1001, 0x7B9A1007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B9A1001, 0x7B9A1008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B9A1001, 0x7B9A1009, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B9A1001, 0x7B9A100A, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B9A1001, 0x7B9A100B, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B9A1001, 0x7B9A100C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B9A1001, 0x7B9A100D, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B9A1001, 0x7B9A100E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B9A1001, 0x7B9A100F, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B9A1001, 0x7B9A1010, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B9A1001, 0x7B9A1011, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B9A1001, 0x7B9A1012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B9A1001, 0x7B9A1013, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B9A1001, 0x7B9A1014, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B9A1001, 0x7B9A1015, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B9A1001, 0x7B9A1002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B9A1001, 0x7B9A1003, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B9A1001, 0x7B9A1004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B9A1001, 0x7B9A1005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B9A1001, 0x7B9A1006, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B9A1001, 0x7B9A1007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B9A1001, 0x7B9A1008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B9A1001, 0x7B9A1009, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B9A1001, 0x7B9A100A, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B9A1001, 0x7B9A100B, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B9A1001, 0x7B9A100C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B9A1001, 0x7B9A100D, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B9A1001, 0x7B9A100E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B9A1001, 0x7B9A100F, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B9A1001, 0x7B9A1010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B9A1001, 0x7B9A1011, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B9A1001, 0x7B9A1012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B9A1001, 0x7B9A1013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B9A1001, 0x7B9A1014, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B9A1001, 0x7B9A1015, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A1002,   223, 0xB9A1002A, 134.8795, 44.21806, 7.469473, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

@@ -5,15 +5,15 @@ VALUES (0x7377F001,  1154, 0x377F0034, 151.5487, 76.84253, 41.05144, 0.8870109, 
 /* @teleloc 0x377F0034 [151.548700 76.842530 41.051440] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7377F001, 0x7377F002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7377F001, 0x7377F003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7377F001, 0x7377F004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7377F001, 0x7377F005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7377F001, 0x7377F006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7377F001, 0x7377F007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7377F001, 0x7377F008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7377F001, 0x7377F009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7377F001, 0x7377F00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7377F001, 0x7377F002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7377F001, 0x7377F003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7377F001, 0x7377F004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7377F001, 0x7377F005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7377F001, 0x7377F006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7377F001, 0x7377F007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7377F001, 0x7377F008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7377F001, 0x7377F009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7377F001, 0x7377F00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7377F002,  4254, 0x377F0034, 151.5487, 76.84253, 41.05144, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -56,7 +56,7 @@ VALUES (0x7377F00B,  1542, 0x377F0015, 53.46552, 108.5648, 41.09919, -0.992974, 
 /* @teleloc 0x377F0015 [53.465520 108.564800 41.099190] -0.992974 0.000000 0.000000 -0.118333 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7377F00B, 0x7377F00C, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7377F00B, 0x7377F00C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7377F00C,  8648, 0x377F0015, 53.46552, 108.5648, 41.09919, -0.992974, 0, 0, -0.1183326,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

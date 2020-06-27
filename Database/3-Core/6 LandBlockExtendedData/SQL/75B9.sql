@@ -5,26 +5,26 @@ VALUES (0x775B9001,  1154, 0x75B90011, 66.68025, 6.585427, 126.4651, 0.7090501, 
 /* @teleloc 0x75B90011 [66.680250 6.585427 126.465100] 0.709050 0.000000 0.000000 -0.705158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B9001, 0x775B9002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x775B9001, 0x775B9003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x775B9001, 0x775B9004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x775B9001, 0x775B9005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x775B9001, 0x775B9006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x775B9001, 0x775B9007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x775B9001, 0x775B9008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x775B9001, 0x775B9009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x775B9001, 0x775B900A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x775B9001, 0x775B900B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x775B9001, 0x775B900C, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x775B9001, 0x775B900D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B9001, 0x775B900E, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B9001, 0x775B900F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B9001, 0x775B9010, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x775B9001, 0x775B9011, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x775B9001, 0x775B9012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x775B9001, 0x775B9013, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x775B9001, 0x775B9014, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x775B9001, 0x775B9015, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x775B9001, 0x775B9002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x775B9001, 0x775B9003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x775B9001, 0x775B9004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x775B9001, 0x775B9005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x775B9001, 0x775B9006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x775B9001, 0x775B9007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x775B9001, 0x775B9008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x775B9001, 0x775B9009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x775B9001, 0x775B900A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x775B9001, 0x775B900B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x775B9001, 0x775B900C, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x775B9001, 0x775B900D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B9001, 0x775B900E, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B9001, 0x775B900F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B9001, 0x775B9010, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x775B9001, 0x775B9011, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x775B9001, 0x775B9012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x775B9001, 0x775B9013, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x775B9001, 0x775B9014, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x775B9001, 0x775B9015, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B9002,   228, 0x75B90011, 66.68025, 6.585427, 126.4651, 0.7090501, 0, 0, -0.7051582,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -111,7 +111,7 @@ VALUES (0x775B9016,  1542, 0x75B90003, 14.65946, 69.27377, 108.1192, -0.1423665,
 /* @teleloc 0x75B90003 [14.659460 69.273770 108.119200] -0.142367 0.000000 0.000000 -0.989814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B9016, 0x775B9017, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x775B9016, 0x775B9017, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B9017,  8039, 0x75B90003, 14.65946, 69.27377, 108.1192, -0.1423665, 0, 0, -0.989814,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

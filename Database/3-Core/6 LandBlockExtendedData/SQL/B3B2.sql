@@ -5,19 +5,19 @@ VALUES (0x7B3B2001,  1154, 0xB3B2003E, 179.4984, 141.1913, 117.2043, 0.7716349, 
 /* @teleloc 0xB3B2003E [179.498400 141.191300 117.204300] 0.771635 0.000000 0.000000 -0.636066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3B2001, 0x7B3B2002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B3B2001, 0x7B3B2003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B3B2001, 0x7B3B2004, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B3B2001, 0x7B3B2005, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7B3B2001, 0x7B3B2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B3B2001, 0x7B3B2007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B3B2001, 0x7B3B2008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B3B2001, 0x7B3B2009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B3B2001, 0x7B3B200A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B3B2001, 0x7B3B200B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B3B2001, 0x7B3B200C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B3B2001, 0x7B3B200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B3B2001, 0x7B3B200E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7B3B2001, 0x7B3B2002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B3B2001, 0x7B3B2003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B3B2001, 0x7B3B2004, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B3B2001, 0x7B3B2005, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7B3B2001, 0x7B3B2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B3B2001, 0x7B3B2007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B3B2001, 0x7B3B2008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B3B2001, 0x7B3B2009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B3B2001, 0x7B3B200A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B3B2001, 0x7B3B200B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B3B2001, 0x7B3B200C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B3B2001, 0x7B3B200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B3B2001, 0x7B3B200E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3B2002,   215, 0xB3B2003E, 179.4984, 141.1913, 117.2043, 0.7716349, 0, 0, -0.6360657,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -76,7 +76,7 @@ VALUES (0x7B3B200F,  1542, 0xB3B2001D, 74.09945, 111.2754, 110.727, 0.9990482, 0
 /* @teleloc 0xB3B2001D [74.099450 111.275400 110.727000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3B200F, 0x7B3B2010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B3B200F, 0x7B3B2010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3B2010,  4179, 0xB3B2001D, 74.09945, 111.2754, 110.727, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

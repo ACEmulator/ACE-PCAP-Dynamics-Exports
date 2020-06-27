@@ -5,17 +5,17 @@ VALUES (0x72E2B001,  1154, 0x2E2B0005, 4.637417, 100.5767, 80.41545, 0.04572283,
 /* @teleloc 0x2E2B0005 [4.637417 100.576700 80.415450] 0.045723 0.000000 0.000000 -0.998954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E2B001, 0x72E2B002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2B001, 0x72E2B003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72E2B001, 0x72E2B004, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72E2B001, 0x72E2B005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72E2B001, 0x72E2B006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72E2B001, 0x72E2B007, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E2B001, 0x72E2B008, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E2B001, 0x72E2B009, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72E2B001, 0x72E2B00A, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E2B001, 0x72E2B00B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E2B001, 0x72E2B00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x72E2B001, 0x72E2B002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2B001, 0x72E2B003, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72E2B001, 0x72E2B004, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72E2B001, 0x72E2B005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72E2B001, 0x72E2B006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72E2B001, 0x72E2B007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E2B001, 0x72E2B008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E2B001, 0x72E2B009, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72E2B001, 0x72E2B00A, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72E2B001, 0x72E2B00B, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72E2B001, 0x72E2B00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E2B002, 36860, 0x2E2B0005, 4.637417, 100.5767, 80.41545, 0.04572283, 0, 0, -0.9989542,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

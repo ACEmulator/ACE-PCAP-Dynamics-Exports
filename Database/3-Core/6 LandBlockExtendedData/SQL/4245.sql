@@ -5,16 +5,16 @@ VALUES (0x74245001,  1154, 0x42450037, 162.6931, 150.3279, 0.4487416, 0.26224, 0
 /* @teleloc 0x42450037 [162.693100 150.327900 0.448742] 0.262240 0.000000 0.000000 -0.965003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74245001, 0x74245002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x74245001, 0x74245003, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x74245001, 0x74245004, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x74245001, 0x74245005, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74245001, 0x74245006, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74245001, 0x74245007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74245001, 0x74245008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74245001, 0x74245009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74245001, 0x7424500A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74245001, 0x7424500B, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x74245001, 0x74245002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74245001, 0x74245003, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x74245001, 0x74245004, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x74245001, 0x74245005, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74245001, 0x74245006, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74245001, 0x74245007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74245001, 0x74245008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74245001, 0x74245009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74245001, 0x7424500A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74245001, 0x7424500B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74245002, 21549, 0x42450037, 162.6931, 150.3279, 0.4487416, 0.26224, 0, 0, -0.9650027,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -61,7 +61,7 @@ VALUES (0x7424500C,  1542, 0x42450024, 108.1736, 72.75868, 19.93678, 0.9990482, 
 /* @teleloc 0x42450024 [108.173600 72.758680 19.936780] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424500C, 0x7424500D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7424500C, 0x7424500D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424500D,  4179, 0x42450024, 108.1736, 72.75868, 19.93678, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

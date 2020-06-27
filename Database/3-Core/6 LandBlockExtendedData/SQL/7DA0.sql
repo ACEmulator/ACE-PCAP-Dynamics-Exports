@@ -5,15 +5,15 @@ VALUES (0x77DA0001,  1154, 0x7DA00038, 149.8031, 186.1008, 86.46097, -0.5222625,
 /* @teleloc 0x7DA00038 [149.803100 186.100800 86.460970] -0.522263 0.000000 0.000000 -0.852785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DA0001, 0x77DA0002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77DA0001, 0x77DA0003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DA0001, 0x77DA0004, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x77DA0001, 0x77DA0005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77DA0001, 0x77DA0006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77DA0001, 0x77DA0007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77DA0001, 0x77DA0008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77DA0001, 0x77DA0009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77DA0001, 0x77DA000A, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x77DA0001, 0x77DA0002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77DA0001, 0x77DA0003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DA0001, 0x77DA0004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x77DA0001, 0x77DA0005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77DA0001, 0x77DA0006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77DA0001, 0x77DA0007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77DA0001, 0x77DA0008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77DA0001, 0x77DA0009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77DA0001, 0x77DA000A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DA0002,  1628, 0x7DA00038, 149.8031, 186.1008, 86.46097, -0.5222625, 0, 0, -0.8527848,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -56,7 +56,7 @@ VALUES (0x77DA000B,  1542, 0x7DA00006, 5.315676, 138.1153, 86.80009, 0.9990482, 
 /* @teleloc 0x7DA00006 [5.315676 138.115300 86.800090] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DA000B, 0x77DA000C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77DA000B, 0x77DA000C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DA000C,  4179, 0x7DA00006, 5.315676, 138.1153, 86.80009, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

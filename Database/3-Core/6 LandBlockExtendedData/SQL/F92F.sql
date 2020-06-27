@@ -13,128 +13,128 @@ VALUES (0x7F92F002,  1154, 0xF92F0140, 60.2727, 58.3634, 148.0066, -0.9663619, 0
 /* @teleloc 0xF92F0140 [60.272700 58.363400 148.006600] -0.966362 0.000000 0.000000 -0.257186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92F002, 0x7F92F003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F92F002, 0x7F92F004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F92F002, 0x7F92F005, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F006, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F92F002, 0x7F92F008, '2019-02-10 00:00:00') /* K'nath Y'nda */
-     , (0x7F92F002, 0x7F92F009, '2019-02-10 00:00:00') /* K'nath B'orret */
-     , (0x7F92F002, 0x7F92F00A, '2019-02-10 00:00:00') /* K'nath N'da */
-     , (0x7F92F002, 0x7F92F00B, '2019-02-10 00:00:00') /* K'nath C'ire */
-     , (0x7F92F002, 0x7F92F00C, '2019-02-10 00:00:00') /* K'nath R'ajed */
-     , (0x7F92F002, 0x7F92F00D, '2019-02-10 00:00:00') /* K'nath Y'nda */
-     , (0x7F92F002, 0x7F92F00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F92F002, 0x7F92F00F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F010, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F012, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F92F002, 0x7F92F013, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F92F002, 0x7F92F014, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F92F002, 0x7F92F015, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F017, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F92F002, 0x7F92F018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F019, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F01A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F01B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F01C, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7F92F002, 0x7F92F01D, '2019-02-10 00:00:00') /* K'nath C'ire */
-     , (0x7F92F002, 0x7F92F01E, '2019-02-10 00:00:00') /* K'nath Y'bot */
-     , (0x7F92F002, 0x7F92F01F, '2019-02-10 00:00:00') /* K'nath B'orret */
-     , (0x7F92F002, 0x7F92F020, '2019-02-10 00:00:00') /* K'nath N'da */
-     , (0x7F92F002, 0x7F92F021, '2019-02-10 00:00:00') /* K'nath C'ire */
-     , (0x7F92F002, 0x7F92F022, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower */
-     , (0x7F92F002, 0x7F92F023, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F025, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F026, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F029, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F02A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F02B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F02C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F02D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F02E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F02F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F92F002, 0x7F92F030, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F031, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F032, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F033, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F034, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7F92F002, 0x7F92F035, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F036, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F037, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire */
-     , (0x7F92F002, 0x7F92F038, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F039, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F03A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F03B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F03C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F03D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F03E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F03F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F040, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F041, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F042, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F043, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F046, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F047, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard */
-     , (0x7F92F002, 0x7F92F048, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F049, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F04A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F04B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F04C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F92F002, 0x7F92F04D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F04E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F92F002, 0x7F92F04F, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F050, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F051, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F052, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F053, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F054, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F055, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F056, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F057, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F058, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F059, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F05A, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F05B, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F05C, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F05D, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F05E, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F05F, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F060, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F061, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F062, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F063, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F064, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F065, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F066, '2019-02-10 00:00:00') /* Celestial Hand Crystal Array */
-     , (0x7F92F002, 0x7F92F067, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F068, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F069, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F06A, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F06B, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F06C, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F06D, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F06E, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F06F, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F070, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F071, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F072, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F073, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F074, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F075, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F076, '2019-02-10 00:00:00') /* Master Mage */
-     , (0x7F92F002, 0x7F92F077, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F078, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F079, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F07A, '2019-02-10 00:00:00') /* Master Archer */
-     , (0x7F92F002, 0x7F92F07B, '2019-02-10 00:00:00') /* Master Soldier */
-     , (0x7F92F002, 0x7F92F07C, '2019-02-10 00:00:00') /* Master Mage */;
+VALUES (0x7F92F002, 0x7F92F003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x7F92F002, 0x7F92F004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x7F92F002, 0x7F92F005, '2019-02-10 00:00:00') /* Master Soldier (38847) */
+     , (0x7F92F002, 0x7F92F006, '2019-02-10 00:00:00') /* Master Soldier (38847) */
+     , (0x7F92F002, 0x7F92F007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x7F92F002, 0x7F92F008, '2019-02-10 00:00:00') /* K'nath Y'nda (38011) */
+     , (0x7F92F002, 0x7F92F009, '2019-02-10 00:00:00') /* K'nath B'orret (38014) */
+     , (0x7F92F002, 0x7F92F00A, '2019-02-10 00:00:00') /* K'nath N'da (38009) */
+     , (0x7F92F002, 0x7F92F00B, '2019-02-10 00:00:00') /* K'nath C'ire (38015) */
+     , (0x7F92F002, 0x7F92F00C, '2019-02-10 00:00:00') /* K'nath R'ajed (38010) */
+     , (0x7F92F002, 0x7F92F00D, '2019-02-10 00:00:00') /* K'nath Y'nda (38011) */
+     , (0x7F92F002, 0x7F92F00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x7F92F002, 0x7F92F00F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F010, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F012, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x7F92F002, 0x7F92F013, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x7F92F002, 0x7F92F014, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x7F92F002, 0x7F92F015, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F017, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x7F92F002, 0x7F92F018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F019, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F01A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F01B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F01C, '2019-02-10 00:00:00') /* Exploration Marker (39789) */
+     , (0x7F92F002, 0x7F92F01D, '2019-02-10 00:00:00') /* K'nath C'ire (38015) */
+     , (0x7F92F002, 0x7F92F01E, '2019-02-10 00:00:00') /* K'nath Y'bot (38016) */
+     , (0x7F92F002, 0x7F92F01F, '2019-02-10 00:00:00') /* K'nath B'orret (38014) */
+     , (0x7F92F002, 0x7F92F020, '2019-02-10 00:00:00') /* K'nath N'da (38009) */
+     , (0x7F92F002, 0x7F92F021, '2019-02-10 00:00:00') /* K'nath C'ire (38015) */
+     , (0x7F92F002, 0x7F92F022, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (37550) */
+     , (0x7F92F002, 0x7F92F023, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F025, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F026, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F029, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F02A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F02B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F02C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F02D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x7F92F002, 0x7F92F02E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F02F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x7F92F002, 0x7F92F030, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F031, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F032, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F033, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F034, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x7F92F002, 0x7F92F035, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F036, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F037, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (37547) */
+     , (0x7F92F002, 0x7F92F038, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F039, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F03A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F03B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F03C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F03D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F03E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F03F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F040, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F041, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F042, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F043, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F046, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F047, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (37544) */
+     , (0x7F92F002, 0x7F92F048, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F049, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F04A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x7F92F002, 0x7F92F04B, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F04C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x7F92F002, 0x7F92F04D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F04E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x7F92F002, 0x7F92F04F, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F050, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F051, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F052, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F053, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F054, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F055, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F056, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F057, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F058, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F059, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F05A, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F05B, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F05C, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F05D, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F05E, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F05F, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F060, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F061, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F062, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F063, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F064, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F065, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F066, '2019-02-10 00:00:00') /* Celestial Hand Crystal Array (40543) */
+     , (0x7F92F002, 0x7F92F067, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F068, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F069, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F06A, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F06B, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F06C, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F06D, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F06E, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F06F, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F070, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F071, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F072, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F073, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F074, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F075, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F076, '2019-02-10 00:00:00') /* Master Mage (38842) */
+     , (0x7F92F002, 0x7F92F077, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F078, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F079, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F07A, '2019-02-10 00:00:00') /* Master Archer (38839) */
+     , (0x7F92F002, 0x7F92F07B, '2019-02-10 00:00:00') /* Master Soldier (38845) */
+     , (0x7F92F002, 0x7F92F07C, '2019-02-10 00:00:00') /* Master Mage (38842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F003, 38872, 0xF92F0140, 60.2727, 58.3634, 148.0066, -0.9663619, 0, 0, -0.257186,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
@@ -629,7 +629,7 @@ VALUES (0x7F92F07D,  1154, 0xF92F001A, 80.5355, 29.9116, 148, 1, 0, 0, 0, False,
 /* @teleloc 0xF92F001A [80.535500 29.911600 148.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92F07D, 0x7F92F07E, '2019-02-10 00:00:00') /* Celestial Hand Buffing Array */;
+VALUES (0x7F92F07D, 0x7F92F07E, '2019-02-10 00:00:00') /* Celestial Hand Buffing Array (40534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F07E, 40534, 0xF92F001A, 80.5355, 29.9116, 148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Celestial Hand Buffing Array */
@@ -640,12 +640,12 @@ VALUES (0x7F92F07F,  1542, 0xF92F0017, 55.0462, 144.829, 148, 1, 0, 0, 0, False,
 /* @teleloc 0xF92F0017 [55.046200 144.829000 148.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92F07F, 0x7F92F080, '2019-02-10 00:00:00') /* Celestial Hand Banner */
-     , (0x7F92F07F, 0x7F92F081, '2019-02-10 00:00:00') /* Celestial Hand Banner */
-     , (0x7F92F07F, 0x7F92F082, '2019-02-10 00:00:00') /* Celestial Hand Banner */
-     , (0x7F92F07F, 0x7F92F083, '2019-02-10 00:00:00') /* Celestial Hand Banner */
-     , (0x7F92F07F, 0x7F92F084, '2019-02-10 00:00:00') /* Celestial Hand Banner */
-     , (0x7F92F07F, 0x7F92F085, '2019-02-10 00:00:00') /* Celestial Hand Banner */;
+VALUES (0x7F92F07F, 0x7F92F080, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x7F92F07F, 0x7F92F081, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x7F92F07F, 0x7F92F082, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x7F92F07F, 0x7F92F083, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x7F92F07F, 0x7F92F084, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */
+     , (0x7F92F07F, 0x7F92F085, '2019-02-10 00:00:00') /* Celestial Hand Banner (38053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F080, 38053, 0xF92F0017, 55.0462, 144.829, 148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Celestial Hand Banner */

@@ -5,12 +5,12 @@ VALUES (0x75D1B001,  1154, 0x5D1B0004, 11.29318, 83.98466, -0.09930003, 0.899764
 /* @teleloc 0x5D1B0004 [11.293180 83.984660 -0.099300] 0.899765 0.000000 0.000000 -0.436375 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D1B001, 0x75D1B002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75D1B001, 0x75D1B003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75D1B001, 0x75D1B004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75D1B001, 0x75D1B005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75D1B001, 0x75D1B006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x75D1B001, 0x75D1B007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75D1B001, 0x75D1B002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75D1B001, 0x75D1B003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75D1B001, 0x75D1B004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75D1B001, 0x75D1B005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75D1B001, 0x75D1B006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x75D1B001, 0x75D1B007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D1B002,  7988, 0x5D1B0004, 11.29318, 83.98466, -0.09930003, 0.8997649, 0, 0, -0.436375,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

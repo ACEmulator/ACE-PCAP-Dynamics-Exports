@@ -5,12 +5,12 @@ VALUES (0x782D9001,  1154, 0x82D90005, 19.94929, 116.1502, 325.0075, -0.9929444,
 /* @teleloc 0x82D90005 [19.949290 116.150200 325.007500] -0.992944 0.000000 0.000000 -0.118581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782D9001, 0x782D9002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x782D9001, 0x782D9003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x782D9001, 0x782D9004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x782D9001, 0x782D9005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x782D9001, 0x782D9006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x782D9001, 0x782D9007, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x782D9001, 0x782D9002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x782D9001, 0x782D9003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x782D9001, 0x782D9004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x782D9001, 0x782D9005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x782D9001, 0x782D9006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x782D9001, 0x782D9007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782D9002, 24958, 0x82D90005, 19.94929, 116.1502, 325.0075, -0.9929444, 0, 0, -0.118581,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

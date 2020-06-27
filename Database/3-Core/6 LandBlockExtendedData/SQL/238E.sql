@@ -9,36 +9,36 @@ VALUES (0x7238E014,  1154, 0x238E010A, 63.1274, 154.775, 260.0065, 0.692534, 0, 
 /* @teleloc 0x238E010A [63.127400 154.775000 260.006500] 0.692534 0.000000 0.000000 0.721385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7238E014, 0x7238E015, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E017, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E018, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E019, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E01A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7238E014, 0x7238E01B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7238E014, 0x7238E01C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7238E014, 0x7238E01D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E01E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E01F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E020, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E021, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E022, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E023, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E024, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E025, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E026, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E027, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E028, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E029, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7238E014, 0x7238E02A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E02B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E02C, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E02D, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7238E014, 0x7238E02E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E02F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E030, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7238E014, 0x7238E031, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7238E014, 0x7238E032, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7238E014, 0x7238E015, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E016, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E017, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E018, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E019, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E01A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7238E014, 0x7238E01B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7238E014, 0x7238E01C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7238E014, 0x7238E01D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E01E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E01F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E020, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E021, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E022, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E023, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E024, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E025, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E026, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E027, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E028, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E029, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E014, 0x7238E02A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E02B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E02C, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E02D, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E014, 0x7238E02E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E02F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E030, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E014, 0x7238E031, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7238E014, 0x7238E032, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7238E015, 23617, 0x238E010A, 63.1274, 154.775, 260.0065, 0.692534, 0, 0, 0.721385,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -165,7 +165,7 @@ VALUES (0x7238E033,  1542, 0x238E001F, 94.04522, 163.4856, 260, 1, 0, 0, 0, Fals
 /* @teleloc 0x238E001F [94.045220 163.485600 260.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7238E033, 0x7238E034, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7238E033, 0x7238E034, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7238E034, 22566, 0x238E001F, 94.04522, 163.4856, 260, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,13 +5,13 @@ VALUES (0x7295C001,  1154, 0x295C003A, 184.6881, 28.72025, 0.002499998, 0.996441
 /* @teleloc 0x295C003A [184.688100 28.720250 0.002500] 0.996442 0.000000 0.000000 -0.084285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7295C001, 0x7295C002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7295C001, 0x7295C003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7295C001, 0x7295C004, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7295C001, 0x7295C005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7295C001, 0x7295C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7295C001, 0x7295C007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7295C001, 0x7295C008, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x7295C001, 0x7295C002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7295C001, 0x7295C003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7295C001, 0x7295C004, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7295C001, 0x7295C005, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7295C001, 0x7295C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7295C001, 0x7295C007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7295C001, 0x7295C008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295C002, 36859, 0x295C003A, 184.6881, 28.72025, 0.002499998, 0.9964417, 0, 0, -0.08428451,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -46,7 +46,7 @@ VALUES (0x7295C009,  1542, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -
 /* @teleloc 0x295C002D [142.962500 112.678400 0.000000] 0.316160 0.000000 0.000000 -0.948706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7295C009, 0x7295C00A, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7295C009, 0x7295C00A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295C00A, 11555, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -0.948706,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

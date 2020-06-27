@@ -5,11 +5,11 @@ VALUES (0x74232001,  1154, 0x4232000A, 24.87615, 24.11113, 32.57058, 0.479182, 0
 /* @teleloc 0x4232000A [24.876150 24.111130 32.570580] 0.479182 0.000000 0.000000 -0.877716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74232001, 0x74232002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74232001, 0x74232003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74232001, 0x74232004, '2019-02-10 00:00:00') /* Flare */
-     , (0x74232001, 0x74232005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74232001, 0x74232006, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x74232001, 0x74232002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74232001, 0x74232003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74232001, 0x74232004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x74232001, 0x74232005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74232001, 0x74232006, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74232002, 23563, 0x4232000A, 24.87615, 24.11113, 32.57058, 0.479182, 0, 0, -0.8777155,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

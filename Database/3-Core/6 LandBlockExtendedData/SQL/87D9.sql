@@ -5,12 +5,12 @@ VALUES (0x787D9001,  1154, 0x87D9003F, 183.3996, 159.8327, 117.9002, -0.7967828,
 /* @teleloc 0x87D9003F [183.399600 159.832700 117.900200] -0.796783 0.000000 0.000000 -0.604266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787D9001, 0x787D9002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x787D9001, 0x787D9003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x787D9001, 0x787D9004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x787D9001, 0x787D9005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x787D9001, 0x787D9006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x787D9001, 0x787D9007, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x787D9001, 0x787D9002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x787D9001, 0x787D9003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x787D9001, 0x787D9004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x787D9001, 0x787D9005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x787D9001, 0x787D9006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x787D9001, 0x787D9007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787D9002,  7092, 0x87D9003F, 183.3996, 159.8327, 117.9002, -0.7967828, 0, 0, -0.6042659,  True, '2019-02-10 00:00:00'); /* Firestorm */

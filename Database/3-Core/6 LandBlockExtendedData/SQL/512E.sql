@@ -5,14 +5,14 @@ VALUES (0x7512E001,  1154, 0x512E0015, 54.33646, 105.903, -0.895, -0.9884379, 0,
 /* @teleloc 0x512E0015 [54.336460 105.903000 -0.895000] -0.988438 0.000000 0.000000 -0.151626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7512E001, 0x7512E002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7512E001, 0x7512E003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7512E001, 0x7512E004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7512E001, 0x7512E005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7512E001, 0x7512E006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7512E001, 0x7512E007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7512E001, 0x7512E008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7512E001, 0x7512E009, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7512E001, 0x7512E002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7512E001, 0x7512E003, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7512E001, 0x7512E004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7512E001, 0x7512E005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7512E001, 0x7512E006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7512E001, 0x7512E007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7512E001, 0x7512E008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7512E001, 0x7512E009, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7512E002, 23564, 0x512E0015, 54.33646, 105.903, -0.895, -0.9884379, 0, 0, -0.1516264,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

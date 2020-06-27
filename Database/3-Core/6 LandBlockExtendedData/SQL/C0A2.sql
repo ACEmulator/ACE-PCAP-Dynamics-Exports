@@ -5,18 +5,18 @@ VALUES (0x7C0A2001,  1154, 0xC0A20006, 23.59778, 137.1319, 10.57374, 1, 0, 0, 0,
 /* @teleloc 0xC0A20006 [23.597780 137.131900 10.573740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A2001, 0x7C0A2002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C0A2001, 0x7C0A2003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C0A2001, 0x7C0A2004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C0A2001, 0x7C0A2005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C0A2001, 0x7C0A2006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C0A2001, 0x7C0A2007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C0A2001, 0x7C0A2008, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C0A2001, 0x7C0A2009, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C0A2001, 0x7C0A200A, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7C0A2001, 0x7C0A200B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C0A2001, 0x7C0A200C, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C0A2001, 0x7C0A200D, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x7C0A2001, 0x7C0A2002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C0A2001, 0x7C0A2003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C0A2001, 0x7C0A2004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C0A2001, 0x7C0A2005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C0A2001, 0x7C0A2006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C0A2001, 0x7C0A2007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C0A2001, 0x7C0A2008, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C0A2001, 0x7C0A2009, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C0A2001, 0x7C0A200A, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7C0A2001, 0x7C0A200B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C0A2001, 0x7C0A200C, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C0A2001, 0x7C0A200D, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A2002,   222, 0xC0A20006, 23.59778, 137.1319, 10.57374, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -71,8 +71,8 @@ VALUES (0x7C0A200E,  1542, 0xC0A20008, 9.521013, 191.3614, 6.064216, 0.4727525, 
 /* @teleloc 0xC0A20008 [9.521013 191.361400 6.064216] 0.472753 0.000000 0.000000 -0.881195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A200E, 0x7C0A200F, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7C0A200E, 0x7C0A2010, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C0A200E, 0x7C0A200F, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7C0A200E, 0x7C0A2010, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A200F, 31686, 0xC0A20008, 9.521013, 191.3614, 6.064216, 0.4727525, 0, 0, -0.8811952,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

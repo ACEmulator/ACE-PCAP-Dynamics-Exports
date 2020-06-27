@@ -5,10 +5,10 @@ VALUES (0x7269C001,  1154, 0x269C0040, 184.491, 178.8454, 75.49107, 0.5078964, 0
 /* @teleloc 0x269C0040 [184.491000 178.845400 75.491070] 0.507896 0.000000 0.000000 -0.861418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7269C001, 0x7269C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7269C001, 0x7269C003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7269C001, 0x7269C004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7269C001, 0x7269C005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7269C001, 0x7269C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7269C001, 0x7269C003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7269C001, 0x7269C004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7269C001, 0x7269C005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7269C002, 36829, 0x269C0040, 184.491, 178.8454, 75.49107, 0.5078964, 0, 0, -0.8614181,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

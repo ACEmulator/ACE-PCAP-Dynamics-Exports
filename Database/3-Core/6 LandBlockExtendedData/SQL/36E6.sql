@@ -5,18 +5,18 @@ VALUES (0x736E6001,  1154, 0x36E60017, 55.50956, 147.5604, -0.1054096, -0.598569
 /* @teleloc 0x36E60017 [55.509560 147.560400 -0.105410] -0.598570 0.000000 0.000000 -0.801071 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736E6001, 0x736E6002, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x736E6001, 0x736E6003, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x736E6001, 0x736E6004, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x736E6001, 0x736E6005, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x736E6001, 0x736E6006, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x736E6001, 0x736E6007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736E6001, 0x736E6008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736E6001, 0x736E6009, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x736E6001, 0x736E600A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x736E6001, 0x736E600B, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x736E6001, 0x736E600C, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736E6001, 0x736E600D, '2019-02-10 00:00:00') /* Polar Ursuin */;
+VALUES (0x736E6001, 0x736E6002, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x736E6001, 0x736E6003, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x736E6001, 0x736E6004, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x736E6001, 0x736E6005, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x736E6001, 0x736E6006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x736E6001, 0x736E6007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736E6001, 0x736E6008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736E6001, 0x736E6009, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x736E6001, 0x736E600A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x736E6001, 0x736E600B, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x736E6001, 0x736E600C, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736E6001, 0x736E600D, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736E6002, 28643, 0x36E60017, 55.50956, 147.5604, -0.1054096, -0.5985699, 0, 0, -0.8010706,  True, '2019-02-10 00:00:00'); /* Deranged Fiun */

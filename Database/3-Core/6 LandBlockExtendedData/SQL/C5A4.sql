@@ -5,23 +5,23 @@ VALUES (0x7C5A4001,  1154, 0xC5A4001E, 85.44819, 127.5862, 47.96483, 0.8529468, 
 /* @teleloc 0xC5A4001E [85.448190 127.586200 47.964830] 0.852947 0.000000 0.000000 -0.521998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5A4001, 0x7C5A4002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C5A4001, 0x7C5A4003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C5A4001, 0x7C5A4004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C5A4001, 0x7C5A4005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C5A4001, 0x7C5A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C5A4001, 0x7C5A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C5A4001, 0x7C5A4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C5A4001, 0x7C5A4009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C5A4001, 0x7C5A400A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C5A4001, 0x7C5A400B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C5A4001, 0x7C5A400C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C5A4001, 0x7C5A400D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C5A4001, 0x7C5A400E, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C5A4001, 0x7C5A400F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C5A4001, 0x7C5A4010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C5A4001, 0x7C5A4011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C5A4001, 0x7C5A4012, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7C5A4001, 0x7C5A4002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C5A4001, 0x7C5A4003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C5A4001, 0x7C5A4004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C5A4001, 0x7C5A4005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C5A4001, 0x7C5A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C5A4001, 0x7C5A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C5A4001, 0x7C5A4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C5A4001, 0x7C5A4009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C5A4001, 0x7C5A400A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C5A4001, 0x7C5A400B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C5A4001, 0x7C5A400C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C5A4001, 0x7C5A400D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C5A4001, 0x7C5A400E, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C5A4001, 0x7C5A400F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C5A4001, 0x7C5A4010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C5A4001, 0x7C5A4011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C5A4001, 0x7C5A4012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5A4002, 21168, 0xC5A4001E, 85.44819, 127.5862, 47.96483, 0.8529468, 0, 0, -0.5219979,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -96,8 +96,8 @@ VALUES (0x7C5A4013,  1542, 0xC5A4001C, 93.54604, 91.74665, 50.21485, -0.8337437,
 /* @teleloc 0xC5A4001C [93.546040 91.746650 50.214850] -0.833744 0.000000 0.000000 -0.552152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5A4013, 0x7C5A4014, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C5A4013, 0x7C5A4015, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C5A4013, 0x7C5A4014, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x7C5A4013, 0x7C5A4015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5A4014, 34130, 0xC5A4001C, 93.54604, 91.74665, 50.21485, -0.8337437, 0, 0, -0.5521516,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

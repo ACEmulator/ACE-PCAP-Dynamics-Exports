@@ -5,11 +5,11 @@ VALUES (0x7E947001,  1154, 0xE947001E, 84.91016, 132.2383, 16.93415, 0.9996428, 
 /* @teleloc 0xE947001E [84.910160 132.238300 16.934150] 0.999643 0.000000 0.000000 -0.026724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E947001, 0x7E947002, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E947001, 0x7E947003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E947001, 0x7E947004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E947001, 0x7E947005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E947001, 0x7E947006, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7E947001, 0x7E947002, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E947001, 0x7E947003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E947001, 0x7E947004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7E947001, 0x7E947005, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7E947001, 0x7E947006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E947002,     5, 0xE947001E, 84.91016, 132.2383, 16.93415, 0.9996428, 0, 0, -0.02672386,  True, '2019-02-10 00:00:00'); /* Laigus Lugian */

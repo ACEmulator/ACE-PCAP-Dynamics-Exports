@@ -5,17 +5,17 @@ VALUES (0x7B66C001,  1154, 0xB66C001D, 87.80134, 113.5017, 17.985, -0.9824817, 0
 /* @teleloc 0xB66C001D [87.801340 113.501700 17.985000] -0.982482 0.000000 0.000000 -0.186359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66C001, 0x7B66C002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B66C001, 0x7B66C003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66C001, 0x7B66C004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66C001, 0x7B66C005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66C001, 0x7B66C006, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B66C001, 0x7B66C007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66C001, 0x7B66C008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B66C001, 0x7B66C009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66C001, 0x7B66C00A, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66C001, 0x7B66C00B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66C001, 0x7B66C00C, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7B66C001, 0x7B66C002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B66C001, 0x7B66C003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66C001, 0x7B66C004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66C001, 0x7B66C005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66C001, 0x7B66C006, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B66C001, 0x7B66C007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66C001, 0x7B66C008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B66C001, 0x7B66C009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66C001, 0x7B66C00A, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66C001, 0x7B66C00B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66C001, 0x7B66C00C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66C002,  8010, 0xB66C001D, 87.80134, 113.5017, 17.985, -0.9824817, 0, 0, -0.1863592,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -66,7 +66,7 @@ VALUES (0x7B66C00D,  1542, 0xB66C0002, 16.63283, 29.00533, 18, -0.9999995, 0, 0,
 /* @teleloc 0xB66C0002 [16.632830 29.005330 18.000000] -1.000000 0.000000 0.000000 -0.001044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66C00D, 0x7B66C00E, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7B66C00D, 0x7B66C00E, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66C00E, 14789, 0xB66C0002, 16.63283, 29.00533, 18, -0.9999995, 0, 0, -0.001043709,  True, '2019-02-10 00:00:00'); /* Ginger */

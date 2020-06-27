@@ -9,13 +9,13 @@ VALUES (0x7C361001,  1154, 0xC3610031, 147.0763, 19.56968, 5.55, -0.7226279, 0, 
 /* @teleloc 0xC3610031 [147.076300 19.569680 5.550000] -0.722628 0.000000 0.000000 -0.691237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C361001, 0x7C361002, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C361001, 0x7C361003, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C361001, 0x7C361004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7C361001, 0x7C361005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C361001, 0x7C361006, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C361001, 0x7C361007, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C361001, 0x7C361008, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7C361001, 0x7C361002, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C361001, 0x7C361003, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C361001, 0x7C361004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7C361001, 0x7C361005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C361001, 0x7C361006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C361001, 0x7C361007, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C361001, 0x7C361008, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C361002,  2585, 0xC3610031, 147.0763, 19.56968, 5.55, -0.7226279, 0, 0, -0.6912372,  True, '2019-02-10 00:00:00'); /* Essa Sclavus */
@@ -50,7 +50,7 @@ VALUES (0x7C361009,  1542, 0xC3610021, 118.8762, 2.356085, 5.9, 1, 0, 0, 0, Fals
 /* @teleloc 0xC3610021 [118.876200 2.356085 5.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C361009, 0x7C36100A, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7C361009, 0x7C36100A, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C36100A,  8588, 0xC3610021, 118.8762, 2.356085, 5.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,24 +5,24 @@ VALUES (0x7334E001,  1154, 0x334E002A, 130.0875, 32.15747, 17.61451, 0.7071068, 
 /* @teleloc 0x334E002A [130.087500 32.157470 17.614510] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334E001, 0x7334E002, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7334E001, 0x7334E003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7334E001, 0x7334E004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7334E001, 0x7334E005, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7334E001, 0x7334E006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7334E001, 0x7334E007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7334E001, 0x7334E008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7334E001, 0x7334E009, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7334E001, 0x7334E00A, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7334E001, 0x7334E00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7334E001, 0x7334E00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7334E001, 0x7334E00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7334E001, 0x7334E00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7334E001, 0x7334E00F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7334E001, 0x7334E010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7334E001, 0x7334E011, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7334E001, 0x7334E012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7334E001, 0x7334E013, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x7334E001, 0x7334E002, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7334E001, 0x7334E003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7334E001, 0x7334E004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7334E001, 0x7334E005, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7334E001, 0x7334E006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7334E001, 0x7334E007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7334E001, 0x7334E008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7334E001, 0x7334E009, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7334E001, 0x7334E00A, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7334E001, 0x7334E00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7334E001, 0x7334E00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7334E001, 0x7334E00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7334E001, 0x7334E00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7334E001, 0x7334E00F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7334E001, 0x7334E010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7334E001, 0x7334E011, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7334E001, 0x7334E012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7334E001, 0x7334E013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334E002, 24310, 0x334E002A, 130.0875, 32.15747, 17.61451, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Direland Rat */
@@ -101,7 +101,7 @@ VALUES (0x7334E014,  1542, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 
 /* @teleloc 0x334E0034 [151.222400 86.978390 8.336463] 0.739252 0.000000 0.000000 -0.673429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334E014, 0x7334E015, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7334E014, 0x7334E015, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334E015,  9288, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 0, 0, -0.6734291,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

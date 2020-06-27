@@ -5,13 +5,13 @@ VALUES (0x7B42D001,  1154, 0xB42D0010, 43.52981, 183.7049, 156.5677, 0.9238795, 
 /* @teleloc 0xB42D0010 [43.529810 183.704900 156.567700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B42D001, 0x7B42D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B42D001, 0x7B42D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B42D001, 0x7B42D004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B42D001, 0x7B42D005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B42D001, 0x7B42D006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B42D001, 0x7B42D007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B42D001, 0x7B42D008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7B42D001, 0x7B42D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B42D001, 0x7B42D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B42D001, 0x7B42D004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B42D001, 0x7B42D005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B42D001, 0x7B42D006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B42D001, 0x7B42D007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B42D001, 0x7B42D008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B42D002,  4254, 0xB42D0010, 43.52981, 183.7049, 156.5677, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

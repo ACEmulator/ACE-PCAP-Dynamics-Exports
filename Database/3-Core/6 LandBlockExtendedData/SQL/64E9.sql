@@ -5,23 +5,23 @@ VALUES (0x764E9001,  1154, 0x64E90005, 4.667233, 112.5159, 47.49528, 0.109139, 0
 /* @teleloc 0x64E90005 [4.667233 112.515900 47.495280] 0.109139 0.000000 0.000000 -0.994027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E9001, 0x764E9002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764E9001, 0x764E9003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764E9001, 0x764E9004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x764E9001, 0x764E9005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764E9001, 0x764E9006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E9001, 0x764E9007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E9001, 0x764E9008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x764E9001, 0x764E9009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E9001, 0x764E900A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E9001, 0x764E900B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E9001, 0x764E900C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x764E9001, 0x764E900D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x764E9001, 0x764E900E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x764E9001, 0x764E900F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x764E9001, 0x764E9010, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E9001, 0x764E9011, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x764E9001, 0x764E9012, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x764E9001, 0x764E9002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764E9001, 0x764E9003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764E9001, 0x764E9004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x764E9001, 0x764E9005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764E9001, 0x764E9006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E9001, 0x764E9007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E9001, 0x764E9008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x764E9001, 0x764E9009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E9001, 0x764E900A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E9001, 0x764E900B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E9001, 0x764E900C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x764E9001, 0x764E900D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x764E9001, 0x764E900E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x764E9001, 0x764E900F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x764E9001, 0x764E9010, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E9001, 0x764E9011, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x764E9001, 0x764E9012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E9002,  7184, 0x64E90005, 4.667233, 112.5159, 47.49528, 0.109139, 0, 0, -0.9940265,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -96,9 +96,9 @@ VALUES (0x764E9013,  1542, 0x64E90028, 112.0162, 177.3442, 15.88664, 1, 0, 0, 0,
 /* @teleloc 0x64E90028 [112.016200 177.344200 15.886640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E9013, 0x764E9014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x764E9013, 0x764E9015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x764E9013, 0x764E9016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x764E9013, 0x764E9014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x764E9013, 0x764E9015, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x764E9013, 0x764E9016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E9014,  4179, 0x64E90028, 112.0162, 177.3442, 15.88664, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

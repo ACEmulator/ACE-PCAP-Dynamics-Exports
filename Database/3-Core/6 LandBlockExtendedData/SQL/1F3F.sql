@@ -5,19 +5,19 @@ VALUES (0x71F3F001,  1154, 0x1F3F0002, 5.527551, 30.32007, 77.63067, -0.3707924,
 /* @teleloc 0x1F3F0002 [5.527551 30.320070 77.630670] -0.370792 0.000000 0.000000 -0.928716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F3F001, 0x71F3F002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71F3F001, 0x71F3F003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71F3F001, 0x71F3F004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71F3F001, 0x71F3F005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F3F001, 0x71F3F006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71F3F001, 0x71F3F007, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71F3F001, 0x71F3F008, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x71F3F001, 0x71F3F009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71F3F001, 0x71F3F00A, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71F3F001, 0x71F3F00B, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71F3F001, 0x71F3F00C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71F3F001, 0x71F3F00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71F3F001, 0x71F3F00E, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x71F3F001, 0x71F3F002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71F3F001, 0x71F3F003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71F3F001, 0x71F3F004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71F3F001, 0x71F3F005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F3F001, 0x71F3F006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71F3F001, 0x71F3F007, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71F3F001, 0x71F3F008, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x71F3F001, 0x71F3F009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71F3F001, 0x71F3F00A, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71F3F001, 0x71F3F00B, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71F3F001, 0x71F3F00C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71F3F001, 0x71F3F00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71F3F001, 0x71F3F00E, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F3F002, 36839, 0x1F3F0002, 5.527551, 30.32007, 77.63067, -0.3707924, 0, 0, -0.9287158,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

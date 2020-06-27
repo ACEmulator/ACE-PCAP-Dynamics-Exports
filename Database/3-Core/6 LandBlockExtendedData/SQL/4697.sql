@@ -5,11 +5,11 @@ VALUES (0x74697001,  1154, 0x46970034, 147.3097, 83.2416, 31.68079, -0.4650716, 
 /* @teleloc 0x46970034 [147.309700 83.241600 31.680790] -0.465072 0.000000 0.000000 -0.885273 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74697001, 0x74697002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74697001, 0x74697003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74697001, 0x74697004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74697001, 0x74697005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74697001, 0x74697006, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x74697001, 0x74697002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74697001, 0x74697003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74697001, 0x74697004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74697001, 0x74697005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74697001, 0x74697006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74697002, 24288, 0x46970034, 147.3097, 83.2416, 31.68079, -0.4650716, 0, 0, -0.8852731,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -36,7 +36,7 @@ VALUES (0x74697007,  1542, 0x46970031, 147.2794, 5.029022, 16.97859, -0.1736482,
 /* @teleloc 0x46970031 [147.279400 5.029022 16.978590] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74697007, 0x74697008, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x74697007, 0x74697008, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74697008, 25957, 0x46970031, 147.2794, 5.029022, 16.97859, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

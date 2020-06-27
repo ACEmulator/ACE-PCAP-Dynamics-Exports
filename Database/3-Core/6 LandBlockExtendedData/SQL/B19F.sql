@@ -5,9 +5,9 @@ VALUES (0x7B19F001,  1154, 0xB19F0017, 49.74265, 151.6216, 78.78535, 0.9588197, 
 /* @teleloc 0xB19F0017 [49.742650 151.621600 78.785350] 0.958820 0.000000 0.000000 -0.284015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B19F001, 0x7B19F002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B19F001, 0x7B19F003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B19F001, 0x7B19F004, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7B19F001, 0x7B19F002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B19F001, 0x7B19F003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B19F001, 0x7B19F004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B19F002,    10, 0xB19F0017, 49.74265, 151.6216, 78.78535, 0.9588197, 0, 0, -0.2840154,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

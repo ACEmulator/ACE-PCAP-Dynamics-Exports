@@ -5,9 +5,9 @@ VALUES (0x79D73001,  1154, 0x9D730010, 33.28587, 190.9996, 24.0075, 0.2300106, 0
 /* @teleloc 0x9D730010 [33.285870 190.999600 24.007500] 0.230011 0.000000 0.000000 -0.973188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D73001, 0x79D73002, '2019-02-10 00:00:00') /* Undead */
-     , (0x79D73001, 0x79D73003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79D73001, 0x79D73004, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x79D73001, 0x79D73002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79D73001, 0x79D73003, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x79D73001, 0x79D73004, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D73002,    16, 0x9D730010, 33.28587, 190.9996, 24.0075, 0.2300106, 0, 0, -0.9731882,  True, '2019-02-10 00:00:00'); /* Undead */

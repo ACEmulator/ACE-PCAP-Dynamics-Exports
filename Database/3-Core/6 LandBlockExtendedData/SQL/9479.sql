@@ -5,11 +5,11 @@ VALUES (0x79479001,  1154, 0x9479003E, 186.765, 127.3289, 0.007499993, 1, 0, 0, 
 /* @teleloc 0x9479003E [186.765000 127.328900 0.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79479001, 0x79479002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79479001, 0x79479003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79479001, 0x79479004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79479001, 0x79479005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79479001, 0x79479006, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x79479001, 0x79479002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79479001, 0x79479003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79479001, 0x79479004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79479001, 0x79479005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79479001, 0x79479006, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79479002,   950, 0x9479003E, 186.765, 127.3289, 0.007499993, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zombie */

@@ -5,12 +5,12 @@ VALUES (0x72020001,  1154, 0x20200027, 100.6282, 145.9872, 9.9979, 0.4069873, 0,
 /* @teleloc 0x20200027 [100.628200 145.987200 9.997900] 0.406987 0.000000 0.000000 -0.913434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72020001, 0x72020002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72020001, 0x72020003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x72020001, 0x72020004, '2019-02-10 00:00:00') /* Conflagration */
-     , (0x72020001, 0x72020005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72020001, 0x72020006, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72020001, 0x72020007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72020001, 0x72020002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72020001, 0x72020003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x72020001, 0x72020004, '2019-02-10 00:00:00') /* Conflagration (19539) */
+     , (0x72020001, 0x72020005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72020001, 0x72020006, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72020001, 0x72020007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72020002,  7982, 0x20200027, 100.6282, 145.9872, 9.9979, 0.4069873, 0, 0, -0.9134338,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

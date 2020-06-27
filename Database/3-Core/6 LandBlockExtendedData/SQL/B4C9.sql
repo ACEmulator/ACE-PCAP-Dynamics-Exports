@@ -5,11 +5,11 @@ VALUES (0x7B4C9001,  1154, 0xB4C90035, 162.6696, 103.2579, 164.7504, 0.848161, 0
 /* @teleloc 0xB4C90035 [162.669600 103.257900 164.750400] 0.848161 0.000000 0.000000 -0.529739 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4C9001, 0x7B4C9002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B4C9001, 0x7B4C9003, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B4C9001, 0x7B4C9004, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B4C9001, 0x7B4C9005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B4C9001, 0x7B4C9006, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7B4C9001, 0x7B4C9002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B4C9001, 0x7B4C9003, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B4C9001, 0x7B4C9004, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B4C9001, 0x7B4C9005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B4C9001, 0x7B4C9006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4C9002,  8014, 0xB4C90035, 162.6696, 103.2579, 164.7504, 0.848161, 0, 0, -0.5297385,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -36,7 +36,7 @@ VALUES (0x7B4C9007,  1542, 0xB4C9003E, 184.0082, 128.6724, 170.7794, 0.9238795, 
 /* @teleloc 0xB4C9003E [184.008200 128.672400 170.779400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4C9007, 0x7B4C9008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B4C9007, 0x7B4C9008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4C9008,  4380, 0xB4C9003E, 184.0082, 128.6724, 170.7794, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

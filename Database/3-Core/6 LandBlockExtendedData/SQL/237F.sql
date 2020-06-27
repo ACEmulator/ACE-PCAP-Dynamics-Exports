@@ -5,19 +5,19 @@ VALUES (0x7237F001,  1154, 0x237F0035, 167.6656, 106.5604, 188.7727, 0.8870109, 
 /* @teleloc 0x237F0035 [167.665600 106.560400 188.772700] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7237F001, 0x7237F002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7237F001, 0x7237F003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7237F001, 0x7237F004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7237F001, 0x7237F005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7237F001, 0x7237F006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7237F001, 0x7237F007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7237F001, 0x7237F008, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7237F001, 0x7237F009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7237F001, 0x7237F00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7237F001, 0x7237F00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7237F001, 0x7237F00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7237F001, 0x7237F00D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7237F001, 0x7237F00E, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7237F001, 0x7237F002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7237F001, 0x7237F003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7237F001, 0x7237F004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7237F001, 0x7237F005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7237F001, 0x7237F006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7237F001, 0x7237F007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7237F001, 0x7237F008, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7237F001, 0x7237F009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7237F001, 0x7237F00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7237F001, 0x7237F00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7237F001, 0x7237F00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7237F001, 0x7237F00D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7237F001, 0x7237F00E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7237F002,  4254, 0x237F0035, 167.6656, 106.5604, 188.7727, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -76,8 +76,8 @@ VALUES (0x7237F00F,  1542, 0x237F0035, 163.2293, 107.3827, 186.8457, 1, 0, 0, 0,
 /* @teleloc 0x237F0035 [163.229300 107.382700 186.845700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7237F00F, 0x7237F010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7237F00F, 0x7237F011, '2019-02-10 00:00:00') /* Glenden Wood Portal */;
+VALUES (0x7237F00F, 0x7237F010, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7237F00F, 0x7237F011, '2019-02-10 00:00:00') /* Glenden Wood Portal (42814) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7237F010, 22566, 0x237F0035, 163.2293, 107.3827, 186.8457, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

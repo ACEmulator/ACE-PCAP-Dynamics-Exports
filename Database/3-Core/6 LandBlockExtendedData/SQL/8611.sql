@@ -5,11 +5,11 @@ VALUES (0x78611001,  1154, 0x8611001C, 76.93974, 86.77004, 56.10815, 0.1725089, 
 /* @teleloc 0x8611001C [76.939740 86.770040 56.108150] 0.172509 0.000000 0.000000 -0.985008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78611001, 0x78611002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78611001, 0x78611003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78611001, 0x78611004, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x78611001, 0x78611005, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x78611001, 0x78611006, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x78611001, 0x78611002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78611001, 0x78611003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78611001, 0x78611004, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x78611001, 0x78611005, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x78611001, 0x78611006, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78611002,  4254, 0x8611001C, 76.93974, 86.77004, 56.10815, 0.1725089, 0, 0, -0.9850079,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -36,7 +36,7 @@ VALUES (0x78611007,  1542, 0x86110035, 161.9809, 116.0618, 62.51324, 0.9923292, 
 /* @teleloc 0x86110035 [161.980900 116.061800 62.513240] 0.992329 0.000000 0.000000 -0.123624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78611007, 0x78611008, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x78611007, 0x78611008, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78611008,  8646, 0x86110035, 161.9809, 116.0618, 62.51324, 0.9923292, 0, 0, -0.1236238,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

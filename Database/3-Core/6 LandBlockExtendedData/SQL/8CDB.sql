@@ -5,17 +5,17 @@ VALUES (0x78CDB001,  1154, 0x8CDB0025, 119.7248, 114.1507, 107.8991, -0.08401199
 /* @teleloc 0x8CDB0025 [119.724800 114.150700 107.899100] -0.084012 0.000000 0.000000 -0.996465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDB001, 0x78CDB002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x78CDB001, 0x78CDB003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78CDB001, 0x78CDB004, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x78CDB001, 0x78CDB005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78CDB001, 0x78CDB006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78CDB001, 0x78CDB007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78CDB001, 0x78CDB008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78CDB001, 0x78CDB009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x78CDB001, 0x78CDB00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CDB001, 0x78CDB00B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CDB001, 0x78CDB00C, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x78CDB001, 0x78CDB002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x78CDB001, 0x78CDB003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78CDB001, 0x78CDB004, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x78CDB001, 0x78CDB005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78CDB001, 0x78CDB006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78CDB001, 0x78CDB007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78CDB001, 0x78CDB008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78CDB001, 0x78CDB009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x78CDB001, 0x78CDB00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CDB001, 0x78CDB00B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CDB001, 0x78CDB00C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDB002, 11478, 0x8CDB0025, 119.7248, 114.1507, 107.8991, -0.08401199, 0, 0, -0.9964647,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -66,8 +66,8 @@ VALUES (0x78CDB00D,  1542, 0x8CDB003D, 176.2206, 96.62366, 126.1103, -0.8577971,
 /* @teleloc 0x8CDB003D [176.220600 96.623660 126.110300] -0.857797 0.000000 0.000000 -0.513988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDB00D, 0x78CDB00E, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x78CDB00D, 0x78CDB00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78CDB00D, 0x78CDB00E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x78CDB00D, 0x78CDB00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDB00E,  8644, 0x8CDB003D, 176.2206, 96.62366, 126.1103, -0.8577971, 0, 0, -0.5139884,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

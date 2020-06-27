@@ -5,13 +5,13 @@ VALUES (0x7C212001,  1154, 0xC2120005, 19.64283, 104.8922, 0.7492638, 0.9810734,
 /* @teleloc 0xC2120005 [19.642830 104.892200 0.749264] 0.981073 0.000000 0.000000 -0.193636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C212001, 0x7C212002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C212001, 0x7C212003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C212001, 0x7C212004, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7C212001, 0x7C212005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C212001, 0x7C212006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C212001, 0x7C212007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C212001, 0x7C212008, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7C212001, 0x7C212002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C212001, 0x7C212003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C212001, 0x7C212004, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7C212001, 0x7C212005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C212001, 0x7C212006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C212001, 0x7C212007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C212001, 0x7C212008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C212002,   619, 0xC2120005, 19.64283, 104.8922, 0.7492638, 0.9810734, 0, 0, -0.1936359,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -46,7 +46,7 @@ VALUES (0x7C212009,  1542, 0xC2120024, 106.1451, 82.31114, 0, -0.7113696, 0, 0, 
 /* @teleloc 0xC2120024 [106.145100 82.311140 0.000000] -0.711370 0.000000 0.000000 -0.702818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C212009, 0x7C21200A, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C212009, 0x7C21200A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C21200A,  8644, 0xC2120024, 106.1451, 82.31114, 0, -0.7113696, 0, 0, -0.7028182,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

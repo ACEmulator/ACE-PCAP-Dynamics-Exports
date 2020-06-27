@@ -5,18 +5,18 @@ VALUES (0x72EE6001,  1154, 0x2EE60017, 50.24276, 165.5999, 3.99459, -0.1371285, 
 /* @teleloc 0x2EE60017 [50.242760 165.599900 3.994590] -0.137129 0.000000 0.000000 -0.990553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE6001, 0x72EE6002, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72EE6001, 0x72EE6003, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72EE6001, 0x72EE6004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72EE6001, 0x72EE6005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72EE6001, 0x72EE6006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72EE6001, 0x72EE6007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72EE6001, 0x72EE6008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72EE6001, 0x72EE6009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72EE6001, 0x72EE600A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72EE6001, 0x72EE600B, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72EE6001, 0x72EE600C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72EE6001, 0x72EE600D, '2019-02-10 00:00:00') /* Eater */;
+VALUES (0x72EE6001, 0x72EE6002, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72EE6001, 0x72EE6003, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72EE6001, 0x72EE6004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72EE6001, 0x72EE6005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72EE6001, 0x72EE6006, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72EE6001, 0x72EE6007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72EE6001, 0x72EE6008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72EE6001, 0x72EE6009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72EE6001, 0x72EE600A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72EE6001, 0x72EE600B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72EE6001, 0x72EE600C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72EE6001, 0x72EE600D, '2019-02-10 00:00:00') /* Eater (28640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE6002, 28650, 0x2EE60017, 50.24276, 165.5999, 3.99459, -0.1371285, 0, 0, -0.9905533,  True, '2019-02-10 00:00:00'); /* Demented Fiun */

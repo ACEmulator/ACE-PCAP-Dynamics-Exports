@@ -9,20 +9,20 @@ VALUES (0x7C360001,  1154, 0xC3600020, 78.76035, 177.8141, 5.55, 0.9781752, 0, 0
 /* @teleloc 0xC3600020 [78.760350 177.814100 5.550000] 0.978175 0.000000 0.000000 -0.207782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C360001, 0x7C360002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C360001, 0x7C360003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C360001, 0x7C360004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C360001, 0x7C360005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C360001, 0x7C360006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C360001, 0x7C360007, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C360001, 0x7C360008, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C360001, 0x7C360009, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C360001, 0x7C36000A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C360001, 0x7C36000B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C360001, 0x7C36000C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C360001, 0x7C36000D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C360001, 0x7C36000E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C360001, 0x7C36000F, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7C360001, 0x7C360002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C360001, 0x7C360003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C360001, 0x7C360004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C360001, 0x7C360005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C360001, 0x7C360006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C360001, 0x7C360007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C360001, 0x7C360008, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C360001, 0x7C360009, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C360001, 0x7C36000A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C360001, 0x7C36000B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C360001, 0x7C36000C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C360001, 0x7C36000D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C360001, 0x7C36000E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C360001, 0x7C36000F, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C360002,  2584, 0xC3600020, 78.76035, 177.8141, 5.55, 0.9781752, 0, 0, -0.2077818,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -85,7 +85,7 @@ VALUES (0x7C360010,  1542, 0xC3600017, 49.10764, 163.2962, 6, 0.9990482, 0, 0, -
 /* @teleloc 0xC3600017 [49.107640 163.296200 6.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C360010, 0x7C360011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C360010, 0x7C360011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C360011,  4179, 0xC3600017, 49.10764, 163.2962, 6, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,14 +5,14 @@ VALUES (0x7C91F001,  1154, 0xC91F0036, 149.1046, 125.1794, 110.7214, -0.9662824,
 /* @teleloc 0xC91F0036 [149.104600 125.179400 110.721400] -0.966282 0.000000 0.000000 -0.257485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91F001, 0x7C91F002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C91F001, 0x7C91F003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7C91F001, 0x7C91F004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7C91F001, 0x7C91F005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C91F001, 0x7C91F006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C91F001, 0x7C91F007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C91F001, 0x7C91F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C91F001, 0x7C91F009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7C91F001, 0x7C91F002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C91F001, 0x7C91F003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7C91F001, 0x7C91F004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7C91F001, 0x7C91F005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C91F001, 0x7C91F006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C91F001, 0x7C91F007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C91F001, 0x7C91F008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C91F001, 0x7C91F009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C91F002, 14559, 0xC91F0036, 149.1046, 125.1794, 110.7214, -0.9662824, 0, 0, -0.2574848,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -51,8 +51,8 @@ VALUES (0x7C91F00A,  1542, 0xC91F002A, 129.7319, 30.2404, 128.669, 1, 0, 0, 0, F
 /* @teleloc 0xC91F002A [129.731900 30.240400 128.669000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91F00A, 0x7C91F00B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C91F00A, 0x7C91F00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C91F00A, 0x7C91F00B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7C91F00A, 0x7C91F00C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C91F00B, 22567, 0xC91F002A, 129.7319, 30.2404, 128.669, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

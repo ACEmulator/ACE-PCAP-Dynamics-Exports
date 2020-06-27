@@ -5,39 +5,39 @@ VALUES (0x71F74001,  1154, 0x1F74003D, 179.647, 97.75069, 44.97774, 0.3987491, 0
 /* @teleloc 0x1F74003D [179.647000 97.750690 44.977740] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F74001, 0x71F74002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F74001, 0x71F74003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71F74001, 0x71F74004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71F74001, 0x71F74005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F74001, 0x71F74006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71F74001, 0x71F74007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71F74001, 0x71F74008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71F74001, 0x71F74009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F74001, 0x71F7400A, '2019-02-10 00:00:00') /* Invading Copper Cog Knight */
-     , (0x71F74001, 0x71F7400B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x71F74001, 0x71F7400C, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x71F74001, 0x71F7400D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71F74001, 0x71F7400E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F74001, 0x71F7400F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71F74001, 0x71F74010, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */
-     , (0x71F74001, 0x71F74011, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71F74001, 0x71F74012, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F74001, 0x71F74013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F74001, 0x71F74014, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F74001, 0x71F74015, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71F74001, 0x71F74016, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F74017, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x71F74001, 0x71F74018, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x71F74001, 0x71F74019, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F7401A, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x71F74001, 0x71F7401B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F7401C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F7401D, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F7401E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71F74001, 0x71F7401F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire */
-     , (0x71F74001, 0x71F74020, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71F74001, 0x71F74021, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71F74001, 0x71F74022, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */;
+VALUES (0x71F74001, 0x71F74002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F74001, 0x71F74003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71F74001, 0x71F74004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71F74001, 0x71F74005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F74001, 0x71F74006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F74001, 0x71F74007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71F74001, 0x71F74008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71F74001, 0x71F74009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F74001, 0x71F7400A, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x71F74001, 0x71F7400B, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x71F74001, 0x71F7400C, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x71F74001, 0x71F7400D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71F74001, 0x71F7400E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F74001, 0x71F7400F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F74001, 0x71F74010, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x71F74001, 0x71F74011, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71F74001, 0x71F74012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F74001, 0x71F74013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F74001, 0x71F74014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F74001, 0x71F74015, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71F74001, 0x71F74016, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F74017, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x71F74001, 0x71F74018, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x71F74001, 0x71F74019, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F7401A, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x71F74001, 0x71F7401B, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F7401C, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F7401D, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F7401E, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71F74001, 0x71F7401F, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x71F74001, 0x71F74020, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71F74001, 0x71F74021, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71F74001, 0x71F74022, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F74002, 24275, 0x1F74003D, 179.647, 97.75069, 44.97774, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -176,8 +176,8 @@ VALUES (0x71F74023,  1542, 0x1F74003C, 174.9658, 95.31435, 44.63762, 0.9990482, 
 /* @teleloc 0x1F74003C [174.965800 95.314350 44.637620] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F74023, 0x71F74024, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71F74023, 0x71F74025, '2019-02-10 00:00:00') /* Baishi Portal */;
+VALUES (0x71F74023, 0x71F74024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71F74023, 0x71F74025, '2019-02-10 00:00:00') /* Baishi Portal (42845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F74024,  4179, 0x1F74003C, 174.9658, 95.31435, 44.63762, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

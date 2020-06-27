@@ -5,15 +5,15 @@ VALUES (0x7F54D001,  1154, 0xF54D0029, 135.8378, 15.39189, 30.3155, 0.1736482, 0
 /* @teleloc 0xF54D0029 [135.837800 15.391890 30.315500] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F54D001, 0x7F54D002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7F54D001, 0x7F54D003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F54D001, 0x7F54D004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F54D001, 0x7F54D005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F54D001, 0x7F54D006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F54D001, 0x7F54D007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F54D001, 0x7F54D008, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7F54D001, 0x7F54D009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7F54D001, 0x7F54D00A, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7F54D001, 0x7F54D002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7F54D001, 0x7F54D003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F54D001, 0x7F54D004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F54D001, 0x7F54D005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F54D001, 0x7F54D006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F54D001, 0x7F54D007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F54D001, 0x7F54D008, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7F54D001, 0x7F54D009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7F54D001, 0x7F54D00A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F54D002,  1609, 0xF54D0029, 135.8378, 15.39189, 30.3155, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -56,7 +56,7 @@ VALUES (0x7F54D00B,  1542, 0xF54D0035, 147.9896, 111.9437, 56.59327, 1, 0, 0, 0,
 /* @teleloc 0xF54D0035 [147.989600 111.943700 56.593270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F54D00B, 0x7F54D00C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7F54D00B, 0x7F54D00C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F54D00C, 31443, 0xF54D0035, 147.9896, 111.9437, 56.59327, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

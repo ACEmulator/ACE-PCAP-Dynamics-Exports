@@ -5,17 +5,17 @@ VALUES (0x7255C001,  1154, 0x255C0028, 105.995, 186.3245, 92.75723, -0.4974806, 
 /* @teleloc 0x255C0028 [105.995000 186.324500 92.757230] -0.497481 0.000000 0.000000 -0.867475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7255C001, 0x7255C002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7255C001, 0x7255C003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7255C001, 0x7255C004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7255C001, 0x7255C005, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7255C001, 0x7255C006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7255C001, 0x7255C007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7255C001, 0x7255C008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7255C001, 0x7255C009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7255C001, 0x7255C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7255C001, 0x7255C00B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7255C001, 0x7255C00C, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7255C001, 0x7255C002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7255C001, 0x7255C003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7255C001, 0x7255C004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7255C001, 0x7255C005, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7255C001, 0x7255C006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7255C001, 0x7255C007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7255C001, 0x7255C008, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7255C001, 0x7255C009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7255C001, 0x7255C00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7255C001, 0x7255C00B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7255C001, 0x7255C00C, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7255C002, 10806, 0x255C0028, 105.995, 186.3245, 92.75723, -0.4974806, 0, 0, -0.8674751,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -66,9 +66,9 @@ VALUES (0x7255C00D,  1542, 0x255C002A, 136.9812, 35.91125, 42.92448, 1, 0, 0, 0,
 /* @teleloc 0x255C002A [136.981200 35.911250 42.924480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7255C00D, 0x7255C00E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7255C00D, 0x7255C00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7255C00D, 0x7255C010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7255C00D, 0x7255C00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7255C00D, 0x7255C00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7255C00D, 0x7255C010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7255C00E, 22571, 0x255C002A, 136.9812, 35.91125, 42.92448, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7289C001,  1154, 0x289C0035, 161.7812, 116.7112, 0.006600022, 0.687441
 /* @teleloc 0x289C0035 [161.781200 116.711200 0.006600] 0.687442 0.000000 0.000000 -0.726239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7289C001, 0x7289C002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7289C001, 0x7289C003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7289C001, 0x7289C004, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x7289C001, 0x7289C002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7289C001, 0x7289C003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7289C001, 0x7289C004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7289C002,  4248, 0x289C0035, 161.7812, 116.7112, 0.006600022, 0.6874419, 0, 0, -0.7262394,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

@@ -5,16 +5,16 @@ VALUES (0x7A753001,  1154, 0xA7530002, 11.42193, 45.14601, 34.98083, -0.7474011,
 /* @teleloc 0xA7530002 [11.421930 45.146010 34.980830] -0.747401 0.000000 0.000000 -0.664373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A753001, 0x7A753002, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A753001, 0x7A753003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A753001, 0x7A753004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A753001, 0x7A753005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A753001, 0x7A753006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A753001, 0x7A753007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A753001, 0x7A753008, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A753001, 0x7A753009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A753001, 0x7A75300A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7A753001, 0x7A75300B, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7A753001, 0x7A753002, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A753001, 0x7A753003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A753001, 0x7A753004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A753001, 0x7A753005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A753001, 0x7A753006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A753001, 0x7A753007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A753001, 0x7A753008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A753001, 0x7A753009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A753001, 0x7A75300A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7A753001, 0x7A75300B, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A753002, 10767, 0xA7530002, 11.42193, 45.14601, 34.98083, -0.7474011, 0, 0, -0.664373,  True, '2019-02-10 00:00:00'); /* Battered Doll */
@@ -61,8 +61,8 @@ VALUES (0x7A75300C,  1542, 0xA7530002, 10.25844, 31.84891, 34.99624, 1, 0, 0, 0,
 /* @teleloc 0xA7530002 [10.258440 31.848910 34.996240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A75300C, 0x7A75300D, '2019-02-10 00:00:00') /* Meat */
-     , (0x7A75300C, 0x7A75300E, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7A75300C, 0x7A75300D, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7A75300C, 0x7A75300E, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A75300D,   265, 0xA7530002, 10.25844, 31.84891, 34.99624, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

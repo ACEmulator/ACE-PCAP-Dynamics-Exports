@@ -5,16 +5,16 @@ VALUES (0x7C58B001,  1154, 0xC58B0020, 78.10719, 180.7589, 30.001, 0.9537169, 0,
 /* @teleloc 0xC58B0020 [78.107190 180.758900 30.001000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C58B001, 0x7C58B002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C58B001, 0x7C58B003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C58B001, 0x7C58B004, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C58B001, 0x7C58B005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C58B001, 0x7C58B006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C58B001, 0x7C58B007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C58B001, 0x7C58B008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C58B001, 0x7C58B009, '2019-02-10 00:00:00') /* Static */
-     , (0x7C58B001, 0x7C58B00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C58B001, 0x7C58B00B, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C58B001, 0x7C58B002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C58B001, 0x7C58B003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C58B001, 0x7C58B004, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C58B001, 0x7C58B005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C58B001, 0x7C58B006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C58B001, 0x7C58B007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C58B001, 0x7C58B008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C58B001, 0x7C58B009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C58B001, 0x7C58B00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C58B001, 0x7C58B00B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C58B002,   223, 0xC58B0020, 78.10719, 180.7589, 30.001, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

@@ -5,16 +5,16 @@ VALUES (0x74C10001,  1154, 0x4C100029, 129.2965, 1.247924, 0.00999999, 0.5, 0, 0
 /* @teleloc 0x4C100029 [129.296500 1.247924 0.010000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C10001, 0x74C10002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74C10001, 0x74C10003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74C10001, 0x74C10004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74C10001, 0x74C10005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74C10001, 0x74C10006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74C10001, 0x74C10007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74C10001, 0x74C10008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74C10001, 0x74C10009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74C10001, 0x74C1000A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74C10001, 0x74C1000B, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x74C10001, 0x74C10002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74C10001, 0x74C10003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74C10001, 0x74C10004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74C10001, 0x74C10005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74C10001, 0x74C10006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74C10001, 0x74C10007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74C10001, 0x74C10008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74C10001, 0x74C10009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74C10001, 0x74C1000A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74C10001, 0x74C1000B, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C10002, 36830, 0x4C100029, 129.2965, 1.247924, 0.00999999, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -61,7 +61,7 @@ VALUES (0x74C1000C,  1542, 0x4C100013, 56.60586, 69.88223, -0.45, 1, 0, 0, 0, Fa
 /* @teleloc 0x4C100013 [56.605860 69.882230 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C1000C, 0x74C1000D, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x74C1000C, 0x74C1000D, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C1000D,  8999, 0x4C100013, 56.60586, 69.88223, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

@@ -5,9 +5,9 @@ VALUES (0x7D08F001,  1154, 0xD08F0005, 22.6925, 106.5014, 33.24384, -0.08715577,
 /* @teleloc 0xD08F0005 [22.692500 106.501400 33.243840] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D08F001, 0x7D08F002, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7D08F001, 0x7D08F003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D08F001, 0x7D08F004, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7D08F001, 0x7D08F002, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D08F001, 0x7D08F003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D08F001, 0x7D08F004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D08F002, 24939, 0xD08F0005, 22.6925, 106.5014, 33.24384, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Amploth */

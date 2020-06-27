@@ -5,20 +5,20 @@ VALUES (0x74CC5001,  1154, 0x4CC50011, 54.9516, 5.250373, 18.04686, -0.9911673, 
 /* @teleloc 0x4CC50011 [54.951600 5.250373 18.046860] -0.991167 0.000000 0.000000 -0.132617 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC5001, 0x74CC5002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74CC5001, 0x74CC5003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC5004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC5005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC5006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CC5001, 0x74CC5007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74CC5001, 0x74CC5008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74CC5001, 0x74CC5009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74CC5001, 0x74CC500A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC500B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC500C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74CC5001, 0x74CC500D, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x74CC5001, 0x74CC500E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74CC5001, 0x74CC500F, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x74CC5001, 0x74CC5002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74CC5001, 0x74CC5003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC5004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC5005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC5006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CC5001, 0x74CC5007, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74CC5001, 0x74CC5008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x74CC5001, 0x74CC5009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74CC5001, 0x74CC500A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC500B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC500C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74CC5001, 0x74CC500D, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x74CC5001, 0x74CC500E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74CC5001, 0x74CC500F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC5002, 11541, 0x4CC50011, 54.9516, 5.250373, 18.04686, -0.9911673, 0, 0, -0.1326173,  True, '2019-02-10 00:00:00'); /* Plated Tusker */

@@ -5,11 +5,11 @@ VALUES (0x7C584001,  1154, 0xC5840036, 156.1638, 140.6575, 47.31265, -0.9998995,
 /* @teleloc 0xC5840036 [156.163800 140.657500 47.312650] -0.999900 0.000000 0.000000 -0.014178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C584001, 0x7C584002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C584001, 0x7C584003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C584001, 0x7C584004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C584001, 0x7C584005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C584001, 0x7C584006, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7C584001, 0x7C584002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C584001, 0x7C584003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C584001, 0x7C584004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C584001, 0x7C584005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C584001, 0x7C584006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C584002,  1464, 0xC5840036, 156.1638, 140.6575, 47.31265, -0.9998995, 0, 0, -0.01417843,  True, '2019-02-10 00:00:00'); /* Drudge Robber */

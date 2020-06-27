@@ -5,10 +5,10 @@ VALUES (0x77AC7001,  1154, 0x7AC7000A, 35.9607, 38.47883, 152.01, -0.08715577, 0
 /* @teleloc 0x7AC7000A [35.960700 38.478830 152.010000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC7001, 0x77AC7002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77AC7001, 0x77AC7003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77AC7001, 0x77AC7004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x77AC7001, 0x77AC7005, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x77AC7001, 0x77AC7002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77AC7001, 0x77AC7003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77AC7001, 0x77AC7004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x77AC7001, 0x77AC7005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC7002, 24497, 0x7AC7000A, 35.9607, 38.47883, 152.01, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -31,7 +31,7 @@ VALUES (0x77AC7006,  1542, 0x7AC7000A, 30.86388, 42.3547, 152.5349, 1, 0, 0, 0, 
 /* @teleloc 0x7AC7000A [30.863880 42.354700 152.534900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC7006, 0x77AC7007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77AC7006, 0x77AC7007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC7007,  4380, 0x7AC7000A, 30.86388, 42.3547, 152.5349, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

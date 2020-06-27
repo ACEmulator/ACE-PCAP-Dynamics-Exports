@@ -5,24 +5,24 @@ VALUES (0x7A6EB001,  1154, 0xA6EB0031, 162.6147, 19.85354, 0.3530387, 0.9716808,
 /* @teleloc 0xA6EB0031 [162.614700 19.853540 0.353039] 0.971681 0.000000 0.000000 -0.236297 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6EB001, 0x7A6EB002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6EB001, 0x7A6EB003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A6EB001, 0x7A6EB004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A6EB001, 0x7A6EB005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A6EB001, 0x7A6EB006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A6EB001, 0x7A6EB007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A6EB001, 0x7A6EB008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A6EB001, 0x7A6EB009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A6EB001, 0x7A6EB00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A6EB001, 0x7A6EB00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A6EB001, 0x7A6EB00C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A6EB001, 0x7A6EB00D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6EB001, 0x7A6EB00E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A6EB001, 0x7A6EB00F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A6EB001, 0x7A6EB010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A6EB001, 0x7A6EB011, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A6EB001, 0x7A6EB012, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A6EB001, 0x7A6EB013, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7A6EB001, 0x7A6EB002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6EB001, 0x7A6EB003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A6EB001, 0x7A6EB004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A6EB001, 0x7A6EB005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A6EB001, 0x7A6EB006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A6EB001, 0x7A6EB007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A6EB001, 0x7A6EB008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A6EB001, 0x7A6EB009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A6EB001, 0x7A6EB00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A6EB001, 0x7A6EB00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A6EB001, 0x7A6EB00C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A6EB001, 0x7A6EB00D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6EB001, 0x7A6EB00E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A6EB001, 0x7A6EB00F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A6EB001, 0x7A6EB010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A6EB001, 0x7A6EB011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A6EB001, 0x7A6EB012, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A6EB001, 0x7A6EB013, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6EB002,  7124, 0xA6EB0031, 162.6147, 19.85354, 0.3530387, 0.9716808, 0, 0, -0.2362972,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -101,8 +101,8 @@ VALUES (0x7A6EB014,  1542, 0xA6EB001D, 78.89131, 98.59688, -0.11, 0.6843164, 0, 
 /* @teleloc 0xA6EB001D [78.891310 98.596880 -0.110000] 0.684316 0.000000 0.000000 -0.729185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6EB014, 0x7A6EB015, '2019-02-10 00:00:00') /* Master's Holding */
-     , (0x7A6EB014, 0x7A6EB016, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7A6EB014, 0x7A6EB015, '2019-02-10 00:00:00') /* Master's Holding (9287) */
+     , (0x7A6EB014, 0x7A6EB016, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6EB015,  9287, 0xA6EB001D, 78.89131, 98.59688, -0.11, 0.6843164, 0, 0, -0.7291852,  True, '2019-02-10 00:00:00'); /* Master's Holding */

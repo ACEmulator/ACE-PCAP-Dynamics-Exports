@@ -5,50 +5,50 @@ VALUES (0x7BAEE001,  1154, 0xBAEE0031, 148.7916, 21.33015, 78.12452, 1, 0, 0, 0,
 /* @teleloc 0xBAEE0031 [148.791600 21.330150 78.124520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAEE001, 0x7BAEE002, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEE001, 0x7BAEE003, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BAEE001, 0x7BAEE004, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEE001, 0x7BAEE005, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BAEE001, 0x7BAEE006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BAEE001, 0x7BAEE007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE009, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEE001, 0x7BAEE00A, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAEE001, 0x7BAEE00B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEE001, 0x7BAEE00C, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE00D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE00E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEE001, 0x7BAEE00F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE010, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE011, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE012, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE013, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEE001, 0x7BAEE014, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEE001, 0x7BAEE015, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE016, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE017, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEE001, 0x7BAEE018, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BAEE001, 0x7BAEE019, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BAEE001, 0x7BAEE01A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BAEE001, 0x7BAEE01B, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BAEE001, 0x7BAEE01C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE01D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE01E, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BAEE001, 0x7BAEE01F, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE020, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE021, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE022, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE023, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BAEE001, 0x7BAEE024, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE025, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE026, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BAEE001, 0x7BAEE027, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7BAEE001, 0x7BAEE028, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BAEE001, 0x7BAEE029, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BAEE001, 0x7BAEE02A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7BAEE001, 0x7BAEE02B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7BAEE001, 0x7BAEE02C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BAEE001, 0x7BAEE02D, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7BAEE001, 0x7BAEE002, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEE001, 0x7BAEE003, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BAEE001, 0x7BAEE004, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEE001, 0x7BAEE005, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BAEE001, 0x7BAEE006, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BAEE001, 0x7BAEE007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEE001, 0x7BAEE00A, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAEE001, 0x7BAEE00B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEE001, 0x7BAEE00C, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE00D, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE00E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEE001, 0x7BAEE00F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE010, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE011, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE012, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE013, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEE001, 0x7BAEE014, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEE001, 0x7BAEE015, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE016, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE017, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEE001, 0x7BAEE018, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BAEE001, 0x7BAEE019, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BAEE001, 0x7BAEE01A, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BAEE001, 0x7BAEE01B, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BAEE001, 0x7BAEE01C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE01D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE01E, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BAEE001, 0x7BAEE01F, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE020, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE021, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE022, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE023, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BAEE001, 0x7BAEE024, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE025, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE026, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BAEE001, 0x7BAEE027, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7BAEE001, 0x7BAEE028, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BAEE001, 0x7BAEE029, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BAEE001, 0x7BAEE02A, '2019-02-10 00:00:00') /* Flamma (21163) */
+     , (0x7BAEE001, 0x7BAEE02B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7BAEE001, 0x7BAEE02C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEE001, 0x7BAEE02D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAEE002, 28244, 0xBAEE0031, 148.7916, 21.33015, 78.12452, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Phantom */

@@ -5,9 +5,9 @@ VALUES (0x7A72A001,  1154, 0xA72A001D, 74.18536, 102.1515, 114.8027, 0.9156518, 
 /* @teleloc 0xA72A001D [74.185360 102.151500 114.802700] 0.915652 0.000000 0.000000 -0.401972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A72A001, 0x7A72A002, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A72A001, 0x7A72A003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A72A001, 0x7A72A004, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7A72A001, 0x7A72A002, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A72A001, 0x7A72A003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A72A001, 0x7A72A004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A72A002,  7100, 0xA72A001D, 74.18536, 102.1515, 114.8027, 0.9156518, 0, 0, -0.4019724,  True, '2019-02-10 00:00:00'); /* Extas Lugian */
@@ -26,7 +26,7 @@ VALUES (0x7A72A005,  1542, 0xA72A000D, 44.0813, 96.88983, 118.9885, 1, 0, 0, 0, 
 /* @teleloc 0xA72A000D [44.081300 96.889830 118.988500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A72A005, 0x7A72A006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A72A005, 0x7A72A006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A72A006,  4380, 0xA72A000D, 44.0813, 96.88983, 118.9885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

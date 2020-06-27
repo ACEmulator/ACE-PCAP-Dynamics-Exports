@@ -5,17 +5,17 @@ VALUES (0x793AE001,  1154, 0x93AE0019, 75.30353, 4.339737, 22.46879, -0.218127, 
 /* @teleloc 0x93AE0019 [75.303530 4.339737 22.468790] -0.218127 0.000000 0.000000 -0.975920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793AE001, 0x793AE002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AE001, 0x793AE003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AE001, 0x793AE004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AE001, 0x793AE005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x793AE001, 0x793AE006, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x793AE001, 0x793AE007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x793AE001, 0x793AE008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x793AE001, 0x793AE009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x793AE001, 0x793AE00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x793AE001, 0x793AE00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x793AE001, 0x793AE00C, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x793AE001, 0x793AE002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AE001, 0x793AE003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AE001, 0x793AE004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AE001, 0x793AE005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x793AE001, 0x793AE006, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x793AE001, 0x793AE007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x793AE001, 0x793AE008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x793AE001, 0x793AE009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x793AE001, 0x793AE00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x793AE001, 0x793AE00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x793AE001, 0x793AE00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793AE002,  1609, 0x93AE0019, 75.30353, 4.339737, 22.46879, -0.218127, 0, 0, -0.9759204,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

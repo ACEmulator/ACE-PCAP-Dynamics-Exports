@@ -5,11 +5,11 @@ VALUES (0x7CD7A001,  1154, 0xCD7A0029, 141.8617, 23.43775, 4, -0.840407, 0, 0, -
 /* @teleloc 0xCD7A0029 [141.861700 23.437750 4.000000] -0.840407 0.000000 0.000000 -0.541956 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD7A001, 0x7CD7A002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7CD7A001, 0x7CD7A003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7CD7A001, 0x7CD7A004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7CD7A001, 0x7CD7A005, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7CD7A001, 0x7CD7A006, '2019-02-10 00:00:00') /* Parfal Niffis */;
+VALUES (0x7CD7A001, 0x7CD7A002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7CD7A001, 0x7CD7A003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7CD7A001, 0x7CD7A004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7CD7A001, 0x7CD7A005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7CD7A001, 0x7CD7A006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD7A002,  7986, 0xCD7A0029, 141.8617, 23.43775, 4, -0.840407, 0, 0, -0.5419558,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */

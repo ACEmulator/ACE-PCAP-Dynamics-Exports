@@ -5,24 +5,24 @@ VALUES (0x7E32A001,  1154, 0xE32A0023, 101.7182, 65.80226, 44.03551, -0.2405566,
 /* @teleloc 0xE32A0023 [101.718200 65.802260 44.035510] -0.240557 0.000000 0.000000 -0.970635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E32A001, 0x7E32A002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E32A001, 0x7E32A003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E32A001, 0x7E32A004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7E32A001, 0x7E32A005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7E32A001, 0x7E32A006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E32A001, 0x7E32A007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7E32A001, 0x7E32A008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7E32A001, 0x7E32A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E32A001, 0x7E32A00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E32A001, 0x7E32A00B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E32A001, 0x7E32A00C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E32A001, 0x7E32A00D, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E32A001, 0x7E32A00E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E32A001, 0x7E32A00F, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7E32A001, 0x7E32A010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E32A001, 0x7E32A011, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7E32A001, 0x7E32A012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E32A001, 0x7E32A013, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x7E32A001, 0x7E32A002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E32A001, 0x7E32A003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E32A001, 0x7E32A004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7E32A001, 0x7E32A005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7E32A001, 0x7E32A006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E32A001, 0x7E32A007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7E32A001, 0x7E32A008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7E32A001, 0x7E32A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E32A001, 0x7E32A00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E32A001, 0x7E32A00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E32A001, 0x7E32A00C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E32A001, 0x7E32A00D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E32A001, 0x7E32A00E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E32A001, 0x7E32A00F, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7E32A001, 0x7E32A010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E32A001, 0x7E32A011, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7E32A001, 0x7E32A012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E32A001, 0x7E32A013, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E32A002,  7124, 0xE32A0023, 101.7182, 65.80226, 44.03551, -0.2405566, 0, 0, -0.9706351,  True, '2019-02-10 00:00:00'); /* Dark Magus */

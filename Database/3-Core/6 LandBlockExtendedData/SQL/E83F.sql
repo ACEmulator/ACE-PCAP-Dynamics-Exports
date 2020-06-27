@@ -5,12 +5,12 @@ VALUES (0x7E83F001,  1154, 0xE83F001C, 93.23475, 90.23028, 63.29875, -0.9906099,
 /* @teleloc 0xE83F001C [93.234750 90.230280 63.298750] -0.990610 0.000000 0.000000 -0.136719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E83F001, 0x7E83F002, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E83F001, 0x7E83F003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7E83F001, 0x7E83F004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7E83F001, 0x7E83F005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7E83F001, 0x7E83F006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E83F001, 0x7E83F007, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7E83F001, 0x7E83F002, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E83F001, 0x7E83F003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7E83F001, 0x7E83F004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7E83F001, 0x7E83F005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7E83F001, 0x7E83F006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E83F001, 0x7E83F007, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E83F002,  1617, 0xE83F001C, 93.23475, 90.23028, 63.29875, -0.9906099, 0, 0, -0.136719,  True, '2019-02-10 00:00:00'); /* Amploth Lugian */
@@ -41,8 +41,8 @@ VALUES (0x7E83F008,  1542, 0xE83F0039, 176.4806, 15.16062, 55.28389, 1, 0, 0, 0,
 /* @teleloc 0xE83F0039 [176.480600 15.160620 55.283890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E83F008, 0x7E83F009, '2019-02-10 00:00:00') /* Ring */
-     , (0x7E83F008, 0x7E83F00A, '2019-02-10 00:00:00') /* Leather Bracers */;
+VALUES (0x7E83F008, 0x7E83F009, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7E83F008, 0x7E83F00A, '2019-02-10 00:00:00') /* Leather Bracers (25637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E83F009,   297, 0xE83F0039, 176.4806, 15.16062, 55.28389, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ring */

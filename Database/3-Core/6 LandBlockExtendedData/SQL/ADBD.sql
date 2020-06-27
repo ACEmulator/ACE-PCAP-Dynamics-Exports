@@ -5,12 +5,12 @@ VALUES (0x7ADBD001,  1154, 0xADBD000C, 39.5365, 91.55184, 128.9651, 0.8870109, 0
 /* @teleloc 0xADBD000C [39.536500 91.551840 128.965100] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADBD001, 0x7ADBD002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ADBD001, 0x7ADBD003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ADBD001, 0x7ADBD004, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ADBD001, 0x7ADBD005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7ADBD001, 0x7ADBD006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7ADBD001, 0x7ADBD007, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7ADBD001, 0x7ADBD002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ADBD001, 0x7ADBD003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ADBD001, 0x7ADBD004, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ADBD001, 0x7ADBD005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7ADBD001, 0x7ADBD006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7ADBD001, 0x7ADBD007, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADBD002,    10, 0xADBD000C, 39.5365, 91.55184, 128.9651, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

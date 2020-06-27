@@ -5,12 +5,12 @@ VALUES (0x7CC77001,  1154, 0xCC770018, 52.05144, 171.3877, 14.92494, 0.7071068, 
 /* @teleloc 0xCC770018 [52.051440 171.387700 14.924940] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC77001, 0x7CC77002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CC77001, 0x7CC77003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CC77001, 0x7CC77004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CC77001, 0x7CC77005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CC77001, 0x7CC77006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CC77001, 0x7CC77007, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x7CC77001, 0x7CC77002, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7CC77001, 0x7CC77003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CC77001, 0x7CC77004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CC77001, 0x7CC77005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CC77001, 0x7CC77006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CC77001, 0x7CC77007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC77002,  5761, 0xCC770018, 52.05144, 171.3877, 14.92494, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

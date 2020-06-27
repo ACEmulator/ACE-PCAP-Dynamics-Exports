@@ -5,22 +5,22 @@ VALUES (0x756D4001,  1154, 0x56D40018, 58.48538, 174.386, 84.6383, 0.3959805, 0,
 /* @teleloc 0x56D40018 [58.485380 174.386000 84.638300] 0.395981 0.000000 0.000000 -0.918259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756D4001, 0x756D4002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x756D4001, 0x756D4003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x756D4001, 0x756D4004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x756D4001, 0x756D4005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x756D4001, 0x756D4006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x756D4001, 0x756D4007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x756D4001, 0x756D4008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x756D4001, 0x756D4009, '2019-02-10 00:00:00') /* Brumal */
-     , (0x756D4001, 0x756D400A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x756D4001, 0x756D400B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x756D4001, 0x756D400C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x756D4001, 0x756D400D, '2019-02-10 00:00:00') /* Horripal */
-     , (0x756D4001, 0x756D400E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x756D4001, 0x756D400F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x756D4001, 0x756D4010, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x756D4001, 0x756D4011, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x756D4001, 0x756D4002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x756D4001, 0x756D4003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x756D4001, 0x756D4004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x756D4001, 0x756D4005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x756D4001, 0x756D4006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x756D4001, 0x756D4007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x756D4001, 0x756D4008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x756D4001, 0x756D4009, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x756D4001, 0x756D400A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x756D4001, 0x756D400B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x756D4001, 0x756D400C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x756D4001, 0x756D400D, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x756D4001, 0x756D400E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x756D4001, 0x756D400F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x756D4001, 0x756D4010, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x756D4001, 0x756D4011, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756D4002, 32483, 0x56D40018, 58.48538, 174.386, 84.6383, 0.3959805, 0, 0, -0.9182589,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */
@@ -91,8 +91,8 @@ VALUES (0x756D4012,  1542, 0x56D4003E, 175.967, 141.6152, 71.1291, 0.5033233, 0,
 /* @teleloc 0x56D4003E [175.967000 141.615200 71.129100] 0.503323 0.000000 0.000000 -0.864098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756D4012, 0x756D4013, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x756D4012, 0x756D4014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x756D4012, 0x756D4013, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x756D4012, 0x756D4014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756D4013,  8648, 0x56D4003E, 175.967, 141.6152, 71.1291, 0.5033233, 0, 0, -0.8640982,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

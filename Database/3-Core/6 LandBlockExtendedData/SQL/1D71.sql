@@ -5,13 +5,13 @@ VALUES (0x71D71001,  1154, 0x1D71003E, 169.5486, 124.5689, 60.25241, 0.2588191, 
 /* @teleloc 0x1D71003E [169.548600 124.568900 60.252410] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D71001, 0x71D71002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71D71001, 0x71D71003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71D71001, 0x71D71004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D71001, 0x71D71005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71D71001, 0x71D71006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71D71001, 0x71D71007, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71D71001, 0x71D71008, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x71D71001, 0x71D71002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71D71001, 0x71D71003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71D71001, 0x71D71004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D71001, 0x71D71005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71D71001, 0x71D71006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71D71001, 0x71D71007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71D71001, 0x71D71008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D71002, 24277, 0x1D71003E, 169.5486, 124.5689, 60.25241, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

@@ -5,12 +5,12 @@ VALUES (0x76F96001,  1154, 0x6F96000E, 28.35146, 138.7579, 105.2773, 0.8578362, 
 /* @teleloc 0x6F96000E [28.351460 138.757900 105.277300] 0.857836 0.000000 0.000000 -0.513923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F96001, 0x76F96002, '2019-02-10 00:00:00') /* Ember */
-     , (0x76F96001, 0x76F96003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76F96001, 0x76F96004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76F96001, 0x76F96005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76F96001, 0x76F96006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76F96001, 0x76F96007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x76F96001, 0x76F96002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x76F96001, 0x76F96003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76F96001, 0x76F96004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76F96001, 0x76F96005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76F96001, 0x76F96006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76F96001, 0x76F96007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F96002,  7607, 0x6F96000E, 28.35146, 138.7579, 105.2773, 0.8578362, 0, 0, -0.5139232,  True, '2019-02-10 00:00:00'); /* Ember */

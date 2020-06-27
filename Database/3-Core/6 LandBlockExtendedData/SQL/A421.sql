@@ -9,15 +9,15 @@ VALUES (0x7A421001,  1154, 0xA4210020, 83.74055, 174.7404, 255.3217, 0.8506256, 
 /* @teleloc 0xA4210020 [83.740550 174.740400 255.321700] 0.850626 0.000000 0.000000 -0.525772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A421001, 0x7A421002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A421001, 0x7A421003, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A421001, 0x7A421004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A421001, 0x7A421005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A421001, 0x7A421006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A421001, 0x7A421007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A421001, 0x7A421008, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A421001, 0x7A421009, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A421001, 0x7A42100A, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7A421001, 0x7A421002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A421001, 0x7A421003, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A421001, 0x7A421004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A421001, 0x7A421005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A421001, 0x7A421006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A421001, 0x7A421007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A421001, 0x7A421008, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A421001, 0x7A421009, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A421001, 0x7A42100A, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A421002,  8141, 0xA4210020, 83.74055, 174.7404, 255.3217, 0.8506256, 0, 0, -0.525772,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -60,9 +60,9 @@ VALUES (0x7A42100B,  1542, 0xA421002A, 122.5566, 37.07508, 354.0921, 1, 0, 0, 0,
 /* @teleloc 0xA421002A [122.556600 37.075080 354.092100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A42100B, 0x7A42100C, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7A42100B, 0x7A42100D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A42100B, 0x7A42100E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A42100B, 0x7A42100C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7A42100B, 0x7A42100D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7A42100B, 0x7A42100E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A42100C,  8646, 0xA421002A, 122.5566, 37.07508, 354.0921, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

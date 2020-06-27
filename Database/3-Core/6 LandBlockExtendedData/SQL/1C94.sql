@@ -5,9 +5,9 @@ VALUES (0x71C94001,  1154, 0x1C940040, 171.4437, 174.9287, 2.004811, -0.9118764,
 /* @teleloc 0x1C940040 [171.443700 174.928700 2.004811] -0.911876 0.000000 0.000000 -0.410465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C94001, 0x71C94002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71C94001, 0x71C94003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71C94001, 0x71C94004, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x71C94001, 0x71C94002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71C94001, 0x71C94003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71C94001, 0x71C94004, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C94002, 24320, 0x1C940040, 171.4437, 174.9287, 2.004811, -0.9118764, 0, 0, -0.4104649,  True, '2019-02-10 00:00:00'); /* Great Revenant */

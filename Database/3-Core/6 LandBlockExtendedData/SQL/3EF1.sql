@@ -5,17 +5,17 @@ VALUES (0x73EF1001,  1154, 0x3EF10009, 30.99658, 23.3958, 23.47445, 0.9679732, 0
 /* @teleloc 0x3EF10009 [30.996580 23.395800 23.474450] 0.967973 0.000000 0.000000 -0.251053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EF1001, 0x73EF1002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73EF1001, 0x73EF1003, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73EF1001, 0x73EF1004, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EF1001, 0x73EF1005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73EF1001, 0x73EF1006, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73EF1001, 0x73EF1007, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x73EF1001, 0x73EF1008, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF1001, 0x73EF1009, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EF1001, 0x73EF100A, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EF1001, 0x73EF100B, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x73EF1001, 0x73EF100C, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x73EF1001, 0x73EF1002, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73EF1001, 0x73EF1003, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73EF1001, 0x73EF1004, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EF1001, 0x73EF1005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73EF1001, 0x73EF1006, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73EF1001, 0x73EF1007, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x73EF1001, 0x73EF1008, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF1001, 0x73EF1009, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF1001, 0x73EF100A, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EF1001, 0x73EF100B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73EF1001, 0x73EF100C, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF1002, 23479, 0x3EF10009, 30.99658, 23.3958, 23.47445, 0.9679732, 0, 0, -0.2510533,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

@@ -5,11 +5,11 @@ VALUES (0x73F3A001,  1154, 0x3F3A0012, 53.78967, 38.70493, 26.9691, 0.385493, 0,
 /* @teleloc 0x3F3A0012 [53.789670 38.704930 26.969100] 0.385493 0.000000 0.000000 -0.922711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F3A001, 0x73F3A002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F3A001, 0x73F3A003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F3A001, 0x73F3A004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73F3A001, 0x73F3A005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73F3A001, 0x73F3A006, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x73F3A001, 0x73F3A002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F3A001, 0x73F3A003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F3A001, 0x73F3A004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73F3A001, 0x73F3A005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73F3A001, 0x73F3A006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F3A002,  7340, 0x3F3A0012, 53.78967, 38.70493, 26.9691, 0.385493, 0, 0, -0.9227108,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

@@ -9,15 +9,15 @@ VALUES (0x7C8DC001,  1154, 0xC8DC0026, 109.257, 121.2993, 34.47216, 0.7071068, 0
 /* @teleloc 0xC8DC0026 [109.257000 121.299300 34.472160] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8DC001, 0x7C8DC002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C8DC001, 0x7C8DC003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C8DC001, 0x7C8DC004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C8DC001, 0x7C8DC005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C8DC001, 0x7C8DC006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C8DC001, 0x7C8DC007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C8DC001, 0x7C8DC008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C8DC001, 0x7C8DC009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C8DC001, 0x7C8DC00A, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7C8DC001, 0x7C8DC002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C8DC001, 0x7C8DC003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C8DC001, 0x7C8DC004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C8DC001, 0x7C8DC005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C8DC001, 0x7C8DC006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C8DC001, 0x7C8DC007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C8DC001, 0x7C8DC008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C8DC001, 0x7C8DC009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C8DC001, 0x7C8DC00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8DC002,   201, 0xC8DC0026, 109.257, 121.2993, 34.47216, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -60,7 +60,7 @@ VALUES (0x7C8DC00B,  1154, 0xC8DC002B, 137.775, 63.3671, 32.006, 0.981126, 0, 0,
 /* @teleloc 0xC8DC002B [137.775000 63.367100 32.006000] 0.981126 0.000000 0.000000 -0.193367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8DC00B, 0x7C8DC00C, '2019-02-10 00:00:00') /* Shade of Farelaith */;
+VALUES (0x7C8DC00B, 0x7C8DC00C, '2019-02-10 00:00:00') /* Shade of Farelaith (32493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8DC00C, 32493, 0xC8DC002B, 137.775, 63.3671, 32.006, 0.981126, 0, 0, -0.193367,  True, '2019-02-10 00:00:00'); /* Shade of Farelaith */
@@ -71,7 +71,7 @@ VALUES (0x7C8DC00D,  1542, 0xC8DC003A, 184.9652, 24.07611, 30.58624, 0.6345617, 
 /* @teleloc 0xC8DC003A [184.965200 24.076110 30.586240] 0.634562 0.000000 0.000000 -0.772872 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8DC00D, 0x7C8DC00E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7C8DC00D, 0x7C8DC00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8DC00E,  8041, 0xC8DC003A, 184.9652, 24.07611, 30.58624, 0.6345617, 0, 0, -0.7728722,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

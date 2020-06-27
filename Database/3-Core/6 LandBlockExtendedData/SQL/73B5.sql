@@ -5,31 +5,31 @@ VALUES (0x773B5001,  1154, 0x73B50013, 62.33191, 61.62016, 97.14601, 0.7071068, 
 /* @teleloc 0x73B50013 [62.331910 61.620160 97.146010] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B5001, 0x773B5002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x773B5001, 0x773B5003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x773B5001, 0x773B5004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x773B5001, 0x773B5005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x773B5001, 0x773B5006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B5001, 0x773B5007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B5001, 0x773B5008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B5001, 0x773B5009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B5001, 0x773B500A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B5001, 0x773B500B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B5001, 0x773B500C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B5001, 0x773B500D, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x773B5001, 0x773B500E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x773B5001, 0x773B500F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773B5001, 0x773B5010, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x773B5001, 0x773B5011, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x773B5001, 0x773B5012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x773B5001, 0x773B5013, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x773B5001, 0x773B5014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x773B5001, 0x773B5015, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B5001, 0x773B5016, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x773B5001, 0x773B5017, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x773B5001, 0x773B5018, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x773B5001, 0x773B5019, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x773B5001, 0x773B501A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x773B5001, 0x773B5002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x773B5001, 0x773B5003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x773B5001, 0x773B5004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x773B5001, 0x773B5005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x773B5001, 0x773B5006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B5001, 0x773B5007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B5001, 0x773B5008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B5001, 0x773B5009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B5001, 0x773B500A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B5001, 0x773B500B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B5001, 0x773B500C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B5001, 0x773B500D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x773B5001, 0x773B500E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x773B5001, 0x773B500F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773B5001, 0x773B5010, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x773B5001, 0x773B5011, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x773B5001, 0x773B5012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x773B5001, 0x773B5013, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x773B5001, 0x773B5014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x773B5001, 0x773B5015, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B5001, 0x773B5016, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x773B5001, 0x773B5017, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x773B5001, 0x773B5018, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x773B5001, 0x773B5019, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x773B5001, 0x773B501A, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B5002,  1629, 0x73B50013, 62.33191, 61.62016, 97.14601, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -136,7 +136,7 @@ VALUES (0x773B501B,  1542, 0x73B5003D, 172.4248, 102.5907, 97.81951, 1, 0, 0, 0,
 /* @teleloc 0x73B5003D [172.424800 102.590700 97.819510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B501B, 0x773B501C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x773B501B, 0x773B501C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B501C, 22567, 0x73B5003D, 172.4248, 102.5907, 97.81951, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

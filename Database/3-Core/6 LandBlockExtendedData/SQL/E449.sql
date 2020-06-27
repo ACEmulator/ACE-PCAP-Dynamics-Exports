@@ -5,10 +5,10 @@ VALUES (0x7E449001,  1154, 0xE4490008, 6.361603, 170.9677, 24.0045, -0.3468617, 
 /* @teleloc 0xE4490008 [6.361603 170.967700 24.004500] -0.346862 0.000000 0.000000 -0.937916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E449001, 0x7E449002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E449001, 0x7E449003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E449001, 0x7E449004, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E449001, 0x7E449005, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7E449001, 0x7E449002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E449001, 0x7E449003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E449001, 0x7E449004, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E449001, 0x7E449005, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E449002,  1614, 0xE4490008, 6.361603, 170.9677, 24.0045, -0.3468617, 0, 0, -0.9379163,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

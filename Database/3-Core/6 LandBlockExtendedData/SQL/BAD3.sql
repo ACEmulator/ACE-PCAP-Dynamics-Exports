@@ -5,15 +5,15 @@ VALUES (0x7BAD3001,  1154, 0xBAD3003A, 171.8942, 45.73331, 53.4916, 0.508828, 0,
 /* @teleloc 0xBAD3003A [171.894200 45.733310 53.491600] 0.508828 0.000000 0.000000 -0.860868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAD3001, 0x7BAD3002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BAD3001, 0x7BAD3003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BAD3001, 0x7BAD3004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BAD3001, 0x7BAD3005, '2019-02-10 00:00:00') /* Static */
-     , (0x7BAD3001, 0x7BAD3006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BAD3001, 0x7BAD3007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BAD3001, 0x7BAD3008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BAD3001, 0x7BAD3009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BAD3001, 0x7BAD300A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7BAD3001, 0x7BAD3002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BAD3001, 0x7BAD3003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BAD3001, 0x7BAD3004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BAD3001, 0x7BAD3005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BAD3001, 0x7BAD3006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BAD3001, 0x7BAD3007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BAD3001, 0x7BAD3008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BAD3001, 0x7BAD3009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BAD3001, 0x7BAD300A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAD3002,  1757, 0xBAD3003A, 171.8942, 45.73331, 53.4916, 0.508828, 0, 0, -0.8608682,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

@@ -5,19 +5,19 @@ VALUES (0x7AEAD001,  1154, 0xAEAD0028, 97.93809, 191.0496, 98.61392, 0.9238795, 
 /* @teleloc 0xAEAD0028 [97.938090 191.049600 98.613920] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEAD001, 0x7AEAD002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEAD001, 0x7AEAD003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEAD001, 0x7AEAD004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEAD001, 0x7AEAD005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AEAD001, 0x7AEAD006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEAD001, 0x7AEAD007, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AEAD001, 0x7AEAD008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEAD001, 0x7AEAD009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEAD001, 0x7AEAD00A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AEAD001, 0x7AEAD00B, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AEAD001, 0x7AEAD00C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AEAD001, 0x7AEAD00D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7AEAD001, 0x7AEAD00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7AEAD001, 0x7AEAD002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEAD001, 0x7AEAD003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEAD001, 0x7AEAD004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEAD001, 0x7AEAD005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AEAD001, 0x7AEAD006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEAD001, 0x7AEAD007, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AEAD001, 0x7AEAD008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEAD001, 0x7AEAD009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEAD001, 0x7AEAD00A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AEAD001, 0x7AEAD00B, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AEAD001, 0x7AEAD00C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AEAD001, 0x7AEAD00D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7AEAD001, 0x7AEAD00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEAD002,   182, 0xAEAD0028, 97.93809, 191.0496, 98.61392, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

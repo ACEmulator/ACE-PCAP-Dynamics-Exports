@@ -5,14 +5,14 @@ VALUES (0x7A7AE001,  1154, 0xA7AE0025, 117.461, 106.5677, 78.46248, 0.621483, 0,
 /* @teleloc 0xA7AE0025 [117.461000 106.567700 78.462480] 0.621483 0.000000 0.000000 -0.783428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7AE001, 0x7A7AE002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A7AE001, 0x7A7AE003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A7AE001, 0x7A7AE004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A7AE001, 0x7A7AE005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7AE001, 0x7A7AE006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A7AE001, 0x7A7AE007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A7AE001, 0x7A7AE008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7AE001, 0x7A7AE009, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7A7AE001, 0x7A7AE002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A7AE001, 0x7A7AE003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A7AE001, 0x7A7AE004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A7AE001, 0x7A7AE005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7AE001, 0x7A7AE006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A7AE001, 0x7A7AE007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A7AE001, 0x7A7AE008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7AE001, 0x7A7AE009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7AE002,    10, 0xA7AE0025, 117.461, 106.5677, 78.46248, 0.621483, 0, 0, -0.7834277,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

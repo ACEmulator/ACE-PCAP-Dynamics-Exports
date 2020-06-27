@@ -5,10 +5,10 @@ VALUES (0x723BF001,  1154, 0x23BF0026, 112.2154, 133.7376, 117.1533, 1, 0, 0, 0,
 /* @teleloc 0x23BF0026 [112.215400 133.737600 117.153300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723BF001, 0x723BF002, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x723BF001, 0x723BF003, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x723BF001, 0x723BF004, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x723BF001, 0x723BF005, '2019-02-10 00:00:00') /* Aun Elder Shaman */;
+VALUES (0x723BF001, 0x723BF002, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x723BF001, 0x723BF003, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x723BF001, 0x723BF004, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x723BF001, 0x723BF005, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723BF002,  7095, 0x23BF0026, 112.2154, 133.7376, 117.1533, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scathisa */

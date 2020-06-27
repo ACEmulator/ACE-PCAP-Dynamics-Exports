@@ -5,11 +5,11 @@ VALUES (0x7ABD5001,  1154, 0xABD50013, 64.18417, 66.8834, 89.53258, 0.9238795, 0
 /* @teleloc 0xABD50013 [64.184170 66.883400 89.532580] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABD5001, 0x7ABD5002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABD5001, 0x7ABD5003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABD5001, 0x7ABD5004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7ABD5001, 0x7ABD5005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7ABD5001, 0x7ABD5006, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7ABD5001, 0x7ABD5002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABD5001, 0x7ABD5003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABD5001, 0x7ABD5004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7ABD5001, 0x7ABD5005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7ABD5001, 0x7ABD5006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABD5002,  1758, 0xABD50013, 64.18417, 66.8834, 89.53258, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

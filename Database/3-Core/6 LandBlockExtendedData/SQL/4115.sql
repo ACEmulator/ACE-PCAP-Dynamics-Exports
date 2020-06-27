@@ -5,15 +5,15 @@ VALUES (0x74115001,  1154, 0x41150039, 170.4603, 11.8554, 40.33768, 0.8191521, 0
 /* @teleloc 0x41150039 [170.460300 11.855400 40.337680] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74115001, 0x74115002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74115001, 0x74115003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74115001, 0x74115004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74115001, 0x74115005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74115001, 0x74115006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74115001, 0x74115007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74115001, 0x74115008, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74115001, 0x74115009, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x74115001, 0x7411500A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x74115001, 0x74115002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74115001, 0x74115003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74115001, 0x74115004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74115001, 0x74115005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74115001, 0x74115006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74115001, 0x74115007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74115001, 0x74115008, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74115001, 0x74115009, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x74115001, 0x7411500A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74115002,  7334, 0x41150039, 170.4603, 11.8554, 40.33768, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -56,8 +56,8 @@ VALUES (0x7411500B,  1542, 0x41150039, 172.1343, 11.69611, 25.73025, 1, 0, 0, 0,
 /* @teleloc 0x41150039 [172.134300 11.696110 25.730250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7411500B, 0x7411500C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7411500B, 0x7411500D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7411500B, 0x7411500C, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7411500B, 0x7411500D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7411500C, 22566, 0x41150039, 172.1343, 11.69611, 25.73025, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

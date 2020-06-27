@@ -5,14 +5,14 @@ VALUES (0x7D7DB001,  1154, 0xD7DB0038, 165.9347, 178.0862, 0.0004000068, -0.4352
 /* @teleloc 0xD7DB0038 [165.934700 178.086200 0.000400] -0.435273 0.000000 0.000000 -0.900299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7DB001, 0x7D7DB002, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7DB001, 0x7D7DB003, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7DB001, 0x7D7DB004, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D7DB001, 0x7D7DB005, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7DB001, 0x7D7DB006, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D7DB001, 0x7D7DB007, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7DB001, 0x7D7DB008, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7DB001, 0x7D7DB009, '2019-02-10 00:00:00') /* Remoran Sand Stalker */;
+VALUES (0x7D7DB001, 0x7D7DB002, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DB001, 0x7D7DB003, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DB001, 0x7D7DB004, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D7DB001, 0x7D7DB005, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DB001, 0x7D7DB006, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7DB001, 0x7D7DB007, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DB001, 0x7D7DB008, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DB001, 0x7D7DB009, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7DB002, 32033, 0xD7DB0038, 165.9347, 178.0862, 0.0004000068, -0.4352731, 0, 0, -0.9002985,  True, '2019-02-10 00:00:00'); /* Benek Niffis */

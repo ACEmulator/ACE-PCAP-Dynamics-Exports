@@ -5,18 +5,18 @@ VALUES (0x71937001,  1154, 0x19370038, 156.3197, 176.2288, 73.77564, -0.4805633,
 /* @teleloc 0x19370038 [156.319700 176.228800 73.775640] -0.480563 0.000000 0.000000 -0.876960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71937001, 0x71937002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71937001, 0x71937003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71937001, 0x71937004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71937001, 0x71937005, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71937001, 0x71937006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71937001, 0x71937007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71937001, 0x71937008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71937001, 0x71937009, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71937001, 0x7193700A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71937001, 0x7193700B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71937001, 0x7193700C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71937001, 0x7193700D, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71937001, 0x71937002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71937001, 0x71937003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71937001, 0x71937004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71937001, 0x71937005, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71937001, 0x71937006, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71937001, 0x71937007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71937001, 0x71937008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71937001, 0x71937009, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71937001, 0x7193700A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71937001, 0x7193700B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71937001, 0x7193700C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71937001, 0x7193700D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71937002,  7097, 0x19370038, 156.3197, 176.2288, 73.77564, -0.4805633, 0, 0, -0.87696,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -71,8 +71,8 @@ VALUES (0x7193700E,  1542, 0x19370019, 95.68302, 15.65209, 53.4775, -0.1736482, 
 /* @teleloc 0x19370019 [95.683020 15.652090 53.477500] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7193700E, 0x7193700F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7193700E, 0x71937010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7193700E, 0x7193700F, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7193700E, 0x71937010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193700F,  4381, 0x19370019, 95.68302, 15.65209, 53.4775, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

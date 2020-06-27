@@ -9,24 +9,24 @@ VALUES (0x7ADAF00C,  1154, 0xADAF0034, 155.7135, 83.84612, 94.01525, -0.4684393,
 /* @teleloc 0xADAF0034 [155.713500 83.846120 94.015250] -0.468439 0.000000 0.000000 -0.883496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADAF00C, 0x7ADAF00D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADAF00C, 0x7ADAF00E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADAF00C, 0x7ADAF00F, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7ADAF00C, 0x7ADAF010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADAF00C, 0x7ADAF011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7ADAF00C, 0x7ADAF012, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7ADAF00C, 0x7ADAF013, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7ADAF00C, 0x7ADAF014, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7ADAF00C, 0x7ADAF015, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7ADAF00C, 0x7ADAF016, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7ADAF00C, 0x7ADAF017, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADAF00C, 0x7ADAF018, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADAF00C, 0x7ADAF019, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADAF00C, 0x7ADAF01A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADAF00C, 0x7ADAF01B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADAF00C, 0x7ADAF01C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ADAF00C, 0x7ADAF01D, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADAF00C, 0x7ADAF01E, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7ADAF00C, 0x7ADAF00D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADAF00C, 0x7ADAF00E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADAF00C, 0x7ADAF00F, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7ADAF00C, 0x7ADAF010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADAF00C, 0x7ADAF011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7ADAF00C, 0x7ADAF012, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7ADAF00C, 0x7ADAF013, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7ADAF00C, 0x7ADAF014, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7ADAF00C, 0x7ADAF015, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7ADAF00C, 0x7ADAF016, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7ADAF00C, 0x7ADAF017, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADAF00C, 0x7ADAF018, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADAF00C, 0x7ADAF019, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADAF00C, 0x7ADAF01A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADAF00C, 0x7ADAF01B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADAF00C, 0x7ADAF01C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ADAF00C, 0x7ADAF01D, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADAF00C, 0x7ADAF01E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADAF00D,   940, 0xADAF0034, 155.7135, 83.84612, 94.01525, -0.4684393, 0, 0, -0.8834957,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

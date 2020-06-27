@@ -5,16 +5,16 @@ VALUES (0x7B517001,  1154, 0xB517002C, 120.5955, 73.95943, 94.11867, 0.9979525, 
 /* @teleloc 0xB517002C [120.595500 73.959430 94.118670] 0.997953 0.000000 0.000000 -0.063959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B517001, 0x7B517002, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7B517001, 0x7B517003, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7B517001, 0x7B517004, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7B517001, 0x7B517005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B517001, 0x7B517006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B517001, 0x7B517007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B517001, 0x7B517008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B517001, 0x7B517009, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B517001, 0x7B51700A, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7B517001, 0x7B51700B, '2019-02-10 00:00:00') /* K'nath N'osaj */;
+VALUES (0x7B517001, 0x7B517002, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7B517001, 0x7B517003, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7B517001, 0x7B517004, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x7B517001, 0x7B517005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B517001, 0x7B517006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B517001, 0x7B517007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B517001, 0x7B517008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B517001, 0x7B517009, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B517001, 0x7B51700A, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7B517001, 0x7B51700B, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B517002, 34296, 0xB517002C, 120.5955, 73.95943, 94.11867, 0.9979525, 0, 0, -0.06395915,  True, '2019-02-10 00:00:00'); /* Acolyte of Storms */
@@ -61,9 +61,9 @@ VALUES (0x7B51700C,  1542, 0xB5170037, 165.7139, 161.9032, 104.2839, -0.9951618,
 /* @teleloc 0xB5170037 [165.713900 161.903200 104.283900] -0.995162 0.000000 0.000000 -0.098250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B51700C, 0x7B51700D, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7B51700C, 0x7B51700E, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7B51700C, 0x7B51700F, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B51700C, 0x7B51700D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7B51700C, 0x7B51700E, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7B51700C, 0x7B51700F, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B51700D,  8646, 0xB5170037, 165.7139, 161.9032, 104.2839, -0.9951618, 0, 0, -0.09825009,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

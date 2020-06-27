@@ -113,7 +113,7 @@ VALUES (0x700CA041,  1154, 0x00CA01A7, 31.32092, -22.52748, -0.063, 1, 0, 0, 0, 
 /* @teleloc 0x00CA01A7 [31.320920 -22.527480 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CA041, 0x700CA042, '2019-02-10 00:00:00') /* Unstable Test Portal */;
+VALUES (0x700CA041, 0x700CA042, '2019-02-10 00:00:00') /* Unstable Test Portal (40273) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CA042, 40273, 0x00CA01A7, 31.32092, -22.52748, -0.063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Unstable Test Portal */
@@ -124,7 +124,7 @@ VALUES (0x700CA043,  1542, 0x00CA0183, 16.9549, -12.5576, 0.079, 0.13703, 0, 0, 
 /* @teleloc 0x00CA0183 [16.954900 -12.557600 0.079000] 0.137030 0.000000 0.000000 -0.990567 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CA043, 0x700CA044, '2019-02-10 00:00:00') /* Scrap of Paper */;
+VALUES (0x700CA043, 0x700CA044, '2019-02-10 00:00:00') /* Scrap of Paper (40879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CA044, 40879, 0x00CA0183, 16.9549, -12.5576, 0.079, 0.13703, 0, 0, -0.9905669,  True, '2019-02-10 00:00:00'); /* Scrap of Paper */

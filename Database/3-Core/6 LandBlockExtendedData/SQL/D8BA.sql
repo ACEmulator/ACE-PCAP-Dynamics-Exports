@@ -5,28 +5,28 @@ VALUES (0x7D8BA001,  1154, 0xD8BA0014, 61.11102, 82.30415, 0.9074148, 0.9843399,
 /* @teleloc 0xD8BA0014 [61.111020 82.304150 0.907415] 0.984340 0.000000 0.000000 -0.176281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8BA001, 0x7D8BA002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BA001, 0x7D8BA005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7D8BA001, 0x7D8BA006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BA001, 0x7D8BA007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D8BA001, 0x7D8BA00A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA00B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA00C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA00D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA00E, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BA001, 0x7D8BA00F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D8BA001, 0x7D8BA010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D8BA001, 0x7D8BA011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA012, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BA001, 0x7D8BA014, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA015, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BA001, 0x7D8BA016, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BA001, 0x7D8BA017, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */;
+VALUES (0x7D8BA001, 0x7D8BA002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BA001, 0x7D8BA005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7D8BA001, 0x7D8BA006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BA001, 0x7D8BA007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D8BA001, 0x7D8BA00A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA00B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA00E, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BA001, 0x7D8BA00F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D8BA001, 0x7D8BA010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D8BA001, 0x7D8BA011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA012, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BA001, 0x7D8BA014, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA015, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BA001, 0x7D8BA016, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BA001, 0x7D8BA017, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8BA002,     3, 0xD8BA0014, 61.11102, 82.30415, 0.9074148, 0.9843399, 0, 0, -0.176281,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

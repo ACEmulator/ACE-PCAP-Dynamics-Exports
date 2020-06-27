@@ -5,22 +5,22 @@ VALUES (0x72C5A001,  1154, 0x2C5A0036, 146.0877, 132.4953, 0.00999999, -0.875298
 /* @teleloc 0x2C5A0036 [146.087700 132.495300 0.010000] -0.875299 0.000000 0.000000 -0.483582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C5A001, 0x72C5A002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72C5A001, 0x72C5A003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C5A001, 0x72C5A004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72C5A001, 0x72C5A005, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72C5A001, 0x72C5A006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72C5A001, 0x72C5A007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72C5A001, 0x72C5A008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72C5A001, 0x72C5A009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C5A001, 0x72C5A00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C5A001, 0x72C5A00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C5A001, 0x72C5A00C, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C5A001, 0x72C5A00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C5A001, 0x72C5A00E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72C5A001, 0x72C5A00F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72C5A001, 0x72C5A010, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72C5A001, 0x72C5A011, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x72C5A001, 0x72C5A002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72C5A001, 0x72C5A003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C5A001, 0x72C5A004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72C5A001, 0x72C5A005, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72C5A001, 0x72C5A006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72C5A001, 0x72C5A007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72C5A001, 0x72C5A008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72C5A001, 0x72C5A009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C5A001, 0x72C5A00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C5A001, 0x72C5A00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C5A001, 0x72C5A00C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C5A001, 0x72C5A00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C5A001, 0x72C5A00E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C5A001, 0x72C5A00F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72C5A001, 0x72C5A010, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C5A001, 0x72C5A011, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C5A002,  8138, 0x2C5A0036, 146.0877, 132.4953, 0.00999999, -0.8752989, 0, 0, -0.4835823,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -91,7 +91,7 @@ VALUES (0x72C5A012,  1542, 0x2C5A0037, 158.739, 146.1075, 0.1734613, 1, 0, 0, 0,
 /* @teleloc 0x2C5A0037 [158.739000 146.107500 0.173461] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C5A012, 0x72C5A013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72C5A012, 0x72C5A013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C5A013, 31445, 0x2C5A0037, 158.739, 146.1075, 0.1734613, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

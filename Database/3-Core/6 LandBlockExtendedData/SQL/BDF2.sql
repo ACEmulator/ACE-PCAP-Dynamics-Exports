@@ -5,11 +5,11 @@ VALUES (0x7BDF2001,  1154, 0xBDF20009, 41.4553, 6.81786, -0.09000003, 0.9695867,
 /* @teleloc 0xBDF20009 [41.455300 6.817860 -0.090000] 0.969587 0.000000 0.000000 0.244748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF2001, 0x7BDF2002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7BDF2001, 0x7BDF2003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BDF2001, 0x7BDF2004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BDF2001, 0x7BDF2005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7BDF2001, 0x7BDF2006, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7BDF2001, 0x7BDF2002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7BDF2001, 0x7BDF2003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BDF2001, 0x7BDF2004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BDF2001, 0x7BDF2005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7BDF2001, 0x7BDF2006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF2002,  7098, 0xBDF20009, 41.4553, 6.81786, -0.09000003, 0.9695867, 0, 0, 0.2447479,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

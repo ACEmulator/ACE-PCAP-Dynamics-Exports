@@ -5,22 +5,22 @@ VALUES (0x7C05A001,  1154, 0xC05A0025, 103.6312, 107.6647, 6.032046, -0.01726987
 /* @teleloc 0xC05A0025 [103.631200 107.664700 6.032046] -0.017270 0.000000 0.000000 -0.999851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05A001, 0x7C05A002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C05A001, 0x7C05A003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C05A001, 0x7C05A004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C05A001, 0x7C05A005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C05A001, 0x7C05A006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C05A001, 0x7C05A009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A00A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A00D, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C05A001, 0x7C05A00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C05A001, 0x7C05A00F, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C05A001, 0x7C05A010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C05A001, 0x7C05A011, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7C05A001, 0x7C05A002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C05A001, 0x7C05A003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C05A001, 0x7C05A004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C05A001, 0x7C05A005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C05A001, 0x7C05A006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C05A001, 0x7C05A009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A00D, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C05A001, 0x7C05A00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C05A001, 0x7C05A00F, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C05A001, 0x7C05A010, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C05A001, 0x7C05A011, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05A002, 26018, 0xC05A0025, 103.6312, 107.6647, 6.032046, -0.01726987, 0, 0, -0.9998509,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */

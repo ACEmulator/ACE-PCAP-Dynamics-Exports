@@ -5,13 +5,13 @@ VALUES (0x714B4001,  1154, 0x14B4002B, 132.9547, 55.04407, 5.668562, 0.6467375, 
 /* @teleloc 0x14B4002B [132.954700 55.044070 5.668562] 0.646738 0.000000 0.000000 -0.762713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B4001, 0x714B4002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x714B4001, 0x714B4003, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x714B4001, 0x714B4004, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x714B4001, 0x714B4005, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x714B4001, 0x714B4006, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x714B4001, 0x714B4007, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x714B4001, 0x714B4008, '2019-02-10 00:00:00') /* Tidal Siraluun */;
+VALUES (0x714B4001, 0x714B4002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x714B4001, 0x714B4003, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x714B4001, 0x714B4004, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x714B4001, 0x714B4005, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x714B4001, 0x714B4006, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x714B4001, 0x714B4007, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x714B4001, 0x714B4008, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B4002,  7990, 0x14B4002B, 132.9547, 55.04407, 5.668562, 0.6467375, 0, 0, -0.7627127,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -46,7 +46,7 @@ VALUES (0x714B4009,  1542, 0x14B4003D, 181.6415, 116.574, 14.42358, 0.2553937, 0
 /* @teleloc 0x14B4003D [181.641500 116.574000 14.423580] 0.255394 0.000000 0.000000 -0.966837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B4009, 0x714B400A, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator */;
+VALUES (0x714B4009, 0x714B400A, '2019-02-10 00:00:00') /* Carenzi Pouchling Camp Generator (11565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B400A, 11565, 0x14B4003D, 181.6415, 116.574, 14.42358, 0.2553937, 0, 0, -0.9668372,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling Camp Generator */

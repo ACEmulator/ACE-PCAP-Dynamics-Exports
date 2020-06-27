@@ -5,13 +5,13 @@ VALUES (0x7818D001,  1154, 0x818D002F, 122.3772, 160.9067, 132.6165, 0.2387552, 
 /* @teleloc 0x818D002F [122.377200 160.906700 132.616500] 0.238755 0.000000 0.000000 -0.971080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7818D001, 0x7818D002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7818D001, 0x7818D003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7818D001, 0x7818D004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7818D001, 0x7818D005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7818D001, 0x7818D006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7818D001, 0x7818D007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7818D001, 0x7818D008, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7818D001, 0x7818D002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7818D001, 0x7818D003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7818D001, 0x7818D004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7818D001, 0x7818D005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7818D001, 0x7818D006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7818D001, 0x7818D007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7818D001, 0x7818D008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7818D002,   213, 0x818D002F, 122.3772, 160.9067, 132.6165, 0.2387552, 0, 0, -0.9710798,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
@@ -46,7 +46,7 @@ VALUES (0x7818D009,  1542, 0x818D003F, 168.4556, 154.1331, 124.981, 1, 0, 0, 0, 
 /* @teleloc 0x818D003F [168.455600 154.133100 124.981000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7818D009, 0x7818D00A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7818D009, 0x7818D00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7818D00A, 31443, 0x818D003F, 168.4556, 154.1331, 124.981, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

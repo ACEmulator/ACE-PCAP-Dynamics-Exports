@@ -5,10 +5,10 @@ VALUES (0x755EA001,  1154, 0x55EA0009, 34.96479, 21.34527, -0.8899999, 0.4942028
 /* @teleloc 0x55EA0009 [34.964790 21.345270 -0.890000] 0.494203 0.000000 0.000000 -0.869347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755EA001, 0x755EA002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x755EA001, 0x755EA003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x755EA001, 0x755EA004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x755EA001, 0x755EA005, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x755EA001, 0x755EA002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x755EA001, 0x755EA003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x755EA001, 0x755EA004, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x755EA001, 0x755EA005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755EA002,  7507, 0x55EA0009, 34.96479, 21.34527, -0.8899999, 0.4942028, 0, 0, -0.8693467,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -31,7 +31,7 @@ VALUES (0x755EA006,  1542, 0x55EA000A, 28.36545, 44.91794, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x55EA000A [28.365450 44.917940 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755EA006, 0x755EA007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x755EA006, 0x755EA007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755EA007,  4179, 0x55EA000A, 28.36545, 44.91794, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

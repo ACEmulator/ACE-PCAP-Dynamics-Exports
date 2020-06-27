@@ -5,21 +5,21 @@ VALUES (0x7B3EB001,  1154, 0xB3EB003D, 168.7362, 107.671, 17.10243, 0.7071068, 0
 /* @teleloc 0xB3EB003D [168.736200 107.671000 17.102430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EB001, 0x7B3EB002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EB001, 0x7B3EB003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B3EB001, 0x7B3EB004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B3EB001, 0x7B3EB005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B3EB001, 0x7B3EB006, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EB001, 0x7B3EB007, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B3EB001, 0x7B3EB008, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EB001, 0x7B3EB009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EB001, 0x7B3EB00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EB001, 0x7B3EB00B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EB001, 0x7B3EB00C, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EB001, 0x7B3EB00D, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EB001, 0x7B3EB00E, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EB001, 0x7B3EB00F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EB001, 0x7B3EB010, '2019-02-10 00:00:00') /* Specter */;
+VALUES (0x7B3EB001, 0x7B3EB002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EB001, 0x7B3EB003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B3EB001, 0x7B3EB004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B3EB001, 0x7B3EB005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B3EB001, 0x7B3EB006, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB007, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B3EB001, 0x7B3EB008, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EB001, 0x7B3EB00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EB001, 0x7B3EB00B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB00C, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB00D, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB00E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EB001, 0x7B3EB00F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EB001, 0x7B3EB010, '2019-02-10 00:00:00') /* Specter (28048) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EB002,  7333, 0xB3EB003D, 168.7362, 107.671, 17.10243, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -86,8 +86,8 @@ VALUES (0x7B3EB011,  1542, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-0
 /* @teleloc 0xB3EB003D [171.036200 111.771000 17.820290] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EB011, 0x7B3EB012, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B3EB011, 0x7B3EB013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B3EB011, 0x7B3EB012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B3EB011, 0x7B3EB013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EB012,  4380, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

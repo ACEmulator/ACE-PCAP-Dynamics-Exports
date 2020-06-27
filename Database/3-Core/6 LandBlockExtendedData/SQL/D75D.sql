@@ -5,35 +5,35 @@ VALUES (0x7D75D001,  1154, 0xD75D002C, 139.2598, 76.61485, 6.0025, -0.9071246, 0
 /* @teleloc 0xD75D002C [139.259800 76.614850 6.002500] -0.907125 0.000000 0.000000 -0.420862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D75D001, 0x7D75D002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75D001, 0x7D75D003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75D001, 0x7D75D004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75D001, 0x7D75D005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75D001, 0x7D75D006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75D001, 0x7D75D007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D75D001, 0x7D75D008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D75D001, 0x7D75D009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D75D001, 0x7D75D00A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75D001, 0x7D75D00B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75D001, 0x7D75D00C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75D001, 0x7D75D00D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D75D001, 0x7D75D00E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D75D001, 0x7D75D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D75D001, 0x7D75D010, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D75D001, 0x7D75D011, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75D001, 0x7D75D012, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75D001, 0x7D75D013, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D75D001, 0x7D75D014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D75D001, 0x7D75D015, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D75D001, 0x7D75D016, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75D001, 0x7D75D017, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7D75D001, 0x7D75D018, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75D001, 0x7D75D019, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D75D001, 0x7D75D01A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7D75D001, 0x7D75D01B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75D001, 0x7D75D01C, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75D001, 0x7D75D01D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7D75D001, 0x7D75D01E, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7D75D001, 0x7D75D002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75D001, 0x7D75D003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75D001, 0x7D75D004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75D001, 0x7D75D005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75D001, 0x7D75D006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75D001, 0x7D75D007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D75D001, 0x7D75D008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D75D001, 0x7D75D009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D75D001, 0x7D75D00A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75D001, 0x7D75D00B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75D001, 0x7D75D00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75D001, 0x7D75D00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75D001, 0x7D75D00E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D75D001, 0x7D75D00F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D75D001, 0x7D75D010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D75D001, 0x7D75D011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75D001, 0x7D75D012, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75D001, 0x7D75D013, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D75D001, 0x7D75D014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D75D001, 0x7D75D015, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D75D001, 0x7D75D016, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75D001, 0x7D75D017, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7D75D001, 0x7D75D018, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75D001, 0x7D75D019, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75D001, 0x7D75D01A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7D75D001, 0x7D75D01B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75D001, 0x7D75D01C, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75D001, 0x7D75D01D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7D75D001, 0x7D75D01E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75D002,  1759, 0xD75D002C, 139.2598, 76.61485, 6.0025, -0.9071246, 0, 0, -0.4208621,  True, '2019-02-10 00:00:00'); /* Skeleton */

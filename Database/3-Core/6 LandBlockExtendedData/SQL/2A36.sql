@@ -5,12 +5,12 @@ VALUES (0x72A36001,  1154, 0x2A360035, 150.2777, 96.23775, 101.463, 0.05289286, 
 /* @teleloc 0x2A360035 [150.277700 96.237750 101.463000] 0.052893 0.000000 0.000000 -0.998600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A36001, 0x72A36002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A36001, 0x72A36003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72A36001, 0x72A36004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72A36001, 0x72A36005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A36001, 0x72A36006, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72A36001, 0x72A36007, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x72A36001, 0x72A36002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A36001, 0x72A36003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72A36001, 0x72A36004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72A36001, 0x72A36005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A36001, 0x72A36006, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72A36001, 0x72A36007, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A36002, 23566, 0x2A360035, 150.2777, 96.23775, 101.463, 0.05289286, 0, 0, -0.9986002,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

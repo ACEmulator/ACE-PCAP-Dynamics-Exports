@@ -5,19 +5,19 @@ VALUES (0x7BF44001,  1154, 0xBF440024, 118.7042, 85.85728, 46.10798, -0.8545524,
 /* @teleloc 0xBF440024 [118.704200 85.857280 46.107980] -0.854552 0.000000 0.000000 -0.519365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF44001, 0x7BF44002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BF44001, 0x7BF44003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BF44001, 0x7BF44004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BF44001, 0x7BF44005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BF44001, 0x7BF44006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BF44001, 0x7BF44007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BF44001, 0x7BF44008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BF44001, 0x7BF44009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7BF44001, 0x7BF4400A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BF44001, 0x7BF4400B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BF44001, 0x7BF4400C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BF44001, 0x7BF4400D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BF44001, 0x7BF4400E, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7BF44001, 0x7BF44002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BF44001, 0x7BF44003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BF44001, 0x7BF44004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BF44001, 0x7BF44005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BF44001, 0x7BF44006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BF44001, 0x7BF44007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BF44001, 0x7BF44008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BF44001, 0x7BF44009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7BF44001, 0x7BF4400A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BF44001, 0x7BF4400B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BF44001, 0x7BF4400C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BF44001, 0x7BF4400D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BF44001, 0x7BF4400E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF44002,     3, 0xBF440024, 118.7042, 85.85728, 46.10798, -0.8545524, 0, 0, -0.5193652,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -76,8 +76,8 @@ VALUES (0x7BF4400F,  1542, 0xBF44002F, 138.6616, 164.0172, 48.44487, 0.9878543, 
 /* @teleloc 0xBF44002F [138.661600 164.017200 48.444870] 0.987854 0.000000 0.000000 -0.155383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF4400F, 0x7BF44010, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7BF4400F, 0x7BF44011, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7BF4400F, 0x7BF44010, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7BF4400F, 0x7BF44011, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF44010,  8037, 0xBF44002F, 138.6616, 164.0172, 48.44487, 0.9878543, 0, 0, -0.1553832,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

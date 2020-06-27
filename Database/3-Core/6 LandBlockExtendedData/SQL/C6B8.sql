@@ -5,14 +5,14 @@ VALUES (0x7C6B8001,  1154, 0xC6B80021, 114.8163, 22.08231, 146.9896, 0.9600016, 
 /* @teleloc 0xC6B80021 [114.816300 22.082310 146.989600] 0.960002 0.000000 0.000000 -0.279995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6B8001, 0x7C6B8002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B8001, 0x7C6B8003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6B8001, 0x7C6B8004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C6B8001, 0x7C6B8005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C6B8001, 0x7C6B8006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C6B8001, 0x7C6B8007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C6B8001, 0x7C6B8008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C6B8001, 0x7C6B8009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */;
+VALUES (0x7C6B8001, 0x7C6B8002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B8001, 0x7C6B8003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6B8001, 0x7C6B8004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C6B8001, 0x7C6B8005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C6B8001, 0x7C6B8006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C6B8001, 0x7C6B8007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C6B8001, 0x7C6B8008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C6B8001, 0x7C6B8009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6B8002, 24958, 0xC6B80021, 114.8163, 22.08231, 146.9896, 0.9600016, 0, 0, -0.2799945,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

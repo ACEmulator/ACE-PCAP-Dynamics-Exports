@@ -5,12 +5,12 @@ VALUES (0x79BC4001,  1154, 0x9BC4003A, 181.7528, 47.7873, 27.1105, -0.9935843, 0
 /* @teleloc 0x9BC4003A [181.752800 47.787300 27.110500] -0.993584 0.000000 0.000000 -0.113094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BC4001, 0x79BC4002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x79BC4001, 0x79BC4003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BC4001, 0x79BC4004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79BC4001, 0x79BC4005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BC4001, 0x79BC4006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BC4001, 0x79BC4007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x79BC4001, 0x79BC4002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x79BC4001, 0x79BC4003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BC4001, 0x79BC4004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79BC4001, 0x79BC4005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BC4001, 0x79BC4006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BC4001, 0x79BC4007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BC4002,  2564, 0x9BC4003A, 181.7528, 47.7873, 27.1105, -0.9935843, 0, 0, -0.1130942,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

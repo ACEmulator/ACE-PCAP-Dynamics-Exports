@@ -5,12 +5,12 @@ VALUES (0x7B185001,  1154, 0xB185002D, 120.9252, 101.8983, 30.1832, 0.7071068, 0
 /* @teleloc 0xB185002D [120.925200 101.898300 30.183200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B185001, 0x7B185002, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B185001, 0x7B185003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B185001, 0x7B185004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B185001, 0x7B185005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B185001, 0x7B185006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B185001, 0x7B185007, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7B185001, 0x7B185002, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B185001, 0x7B185003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B185001, 0x7B185004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B185001, 0x7B185005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B185001, 0x7B185006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B185001, 0x7B185007, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B185002, 10767, 0xB185002D, 120.9252, 101.8983, 30.1832, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Battered Doll */

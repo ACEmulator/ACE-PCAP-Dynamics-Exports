@@ -5,12 +5,12 @@ VALUES (0x7B9C9001,  1154, 0xB9C9002C, 129.2501, 92.4269, 257.9329, 0.7660445, 0
 /* @teleloc 0xB9C9002C [129.250100 92.426900 257.932900] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9C9001, 0x7B9C9002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9C9001, 0x7B9C9003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B9C9001, 0x7B9C9004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B9C9001, 0x7B9C9005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7B9C9001, 0x7B9C9006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9C9001, 0x7B9C9007, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B9C9001, 0x7B9C9002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9C9001, 0x7B9C9003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B9C9001, 0x7B9C9004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B9C9001, 0x7B9C9005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7B9C9001, 0x7B9C9006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9C9001, 0x7B9C9007, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9C9002,   195, 0xB9C9002C, 129.2501, 92.4269, 257.9329, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -41,9 +41,9 @@ VALUES (0x7B9C9008,  1542, 0xB9C9002C, 126.1686, 94.97721, 257.9329, 0.7660445, 
 /* @teleloc 0xB9C9002C [126.168600 94.977210 257.932900] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9C9008, 0x7B9C9009, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7B9C9008, 0x7B9C900A, '2019-02-10 00:00:00') /* Ring */
-     , (0x7B9C9008, 0x7B9C900B, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x7B9C9008, 0x7B9C9009, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7B9C9008, 0x7B9C900A, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7B9C9008, 0x7B9C900B, '2019-02-10 00:00:00') /* Gem (2393) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9C9009,   295, 0xB9C9002C, 126.1686, 94.97721, 257.9329, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Bracelet */

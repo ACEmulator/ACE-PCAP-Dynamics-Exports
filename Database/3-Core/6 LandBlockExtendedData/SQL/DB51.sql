@@ -5,16 +5,16 @@ VALUES (0x7DB51001,  1154, 0xDB510009, 31.68356, 16.75804, 27.9925, 0.9760652, 0
 /* @teleloc 0xDB510009 [31.683560 16.758040 27.992500] 0.976065 0.000000 0.000000 -0.217478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB51001, 0x7DB51002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DB51001, 0x7DB51003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DB51001, 0x7DB51004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DB51001, 0x7DB51005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB51001, 0x7DB51006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB51001, 0x7DB51007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB51001, 0x7DB51008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DB51001, 0x7DB51009, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DB51001, 0x7DB5100A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DB51001, 0x7DB5100B, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7DB51001, 0x7DB51002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DB51001, 0x7DB51003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DB51001, 0x7DB51004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DB51001, 0x7DB51005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB51001, 0x7DB51006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB51001, 0x7DB51007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB51001, 0x7DB51008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DB51001, 0x7DB51009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DB51001, 0x7DB5100A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DB51001, 0x7DB5100B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB51002,  2612, 0xDB510009, 31.68356, 16.75804, 27.9925, 0.9760652, 0, 0, -0.217478,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

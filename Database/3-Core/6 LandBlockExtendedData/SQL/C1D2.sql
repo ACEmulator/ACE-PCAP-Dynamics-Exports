@@ -5,19 +5,19 @@ VALUES (0x7C1D2001,  1154, 0xC1D20021, 111.4908, 23.9152, 384.8289, -0.04549177,
 /* @teleloc 0xC1D20021 [111.490800 23.915200 384.828900] -0.045492 0.000000 0.000000 -0.998965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1D2001, 0x7C1D2002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7C1D2001, 0x7C1D2003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7C1D2001, 0x7C1D2004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7C1D2001, 0x7C1D2005, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7C1D2001, 0x7C1D2006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7C1D2001, 0x7C1D2007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1D2001, 0x7C1D2008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1D2001, 0x7C1D2009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C1D2001, 0x7C1D200A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C1D2001, 0x7C1D200B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C1D2001, 0x7C1D200C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C1D2001, 0x7C1D200D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1D2001, 0x7C1D200E, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7C1D2001, 0x7C1D2002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7C1D2001, 0x7C1D2003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7C1D2001, 0x7C1D2004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7C1D2001, 0x7C1D2005, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7C1D2001, 0x7C1D2006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7C1D2001, 0x7C1D2007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1D2001, 0x7C1D2008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1D2001, 0x7C1D2009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C1D2001, 0x7C1D200A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C1D2001, 0x7C1D200B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C1D2001, 0x7C1D200C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C1D2001, 0x7C1D200D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1D2001, 0x7C1D200E, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1D2002, 24294, 0xC1D20021, 111.4908, 23.9152, 384.8289, -0.04549177, 0, 0, -0.9989647,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

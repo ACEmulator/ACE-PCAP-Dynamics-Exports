@@ -21,38 +21,38 @@ VALUES (0x7A953021,  1154, 0xA9530100, 85.0429, 107.848, 119.4871, 0.707107, 0, 
 /* @teleloc 0xA9530100 [85.042900 107.848000 119.487100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A953021, 0x7A953022, '2019-02-10 00:00:00') /* Spear of the Given Heart */
-     , (0x7A953021, 0x7A953023, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953024, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953025, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953026, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953027, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953028, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953029, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95302A, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95302B, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95302C, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95302D, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95302E, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95302F, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953030, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953031, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953032, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953033, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953034, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953035, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953036, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953037, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A953038, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A953021, 0x7A953039, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95303A, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95303B, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95303C, '2019-02-10 00:00:00') /* Champion of the Blood */
-     , (0x7A953021, 0x7A95303D, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95303E, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A95303F, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A953021, 0x7A953040, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7A953021, 0x7A953041, '2019-02-10 00:00:00') /* Auroch Fire Cow */;
+VALUES (0x7A953021, 0x7A953022, '2019-02-10 00:00:00') /* Spear of the Given Heart (23511) */
+     , (0x7A953021, 0x7A953023, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953024, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953025, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953026, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953027, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953028, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953029, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95302A, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95302B, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95302C, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95302D, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95302E, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95302F, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953030, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953031, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953032, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953033, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953034, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953035, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953036, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953037, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A953038, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A953021, 0x7A953039, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95303A, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95303B, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95303C, '2019-02-10 00:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953021, 0x7A95303D, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95303E, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A95303F, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953021, 0x7A953040, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7A953021, 0x7A953041, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953022, 23511, 0xA9530100, 85.0429, 107.848, 119.4871, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Spear of the Given Heart */
@@ -187,7 +187,7 @@ VALUES (0x7A953042,  1542, 0xA953001D, 83.702, 107.111, 148.624, -4.37114E-08, 0
 /* @teleloc 0xA953001D [83.702000 107.111000 148.624000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A953042, 0x7A953043, '2019-02-10 00:00:00') /* A Note from Tamian Wilmot */;
+VALUES (0x7A953042, 0x7A953043, '2019-02-10 00:00:00') /* A Note from Tamian Wilmot (23517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953043, 23517, 0xA953001D, 83.702, 107.111, 148.624, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* A Note from Tamian Wilmot */

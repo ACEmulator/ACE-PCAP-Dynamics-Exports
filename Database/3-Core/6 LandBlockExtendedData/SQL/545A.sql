@@ -9,39 +9,39 @@ VALUES (0x7545A012,  1154, 0x545A0158, 39.2578, -62.253, 6.0065, 0.8206493, 0, 0
 /* @teleloc 0x545A0158 [39.257800 -62.253000 6.006500] 0.820649 0.000000 0.000000 0.571432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545A012, 0x7545A013, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A014, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A015, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A016, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A017, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A018, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A019, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A01A, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A01B, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A01C, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A01D, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A01E, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A01F, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A020, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A021, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A022, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A023, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A024, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A025, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A026, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A027, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A028, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A029, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A02A, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A02B, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A02C, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A02D, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A02E, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie */
-     , (0x7545A012, 0x7545A02F, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A030, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge */
-     , (0x7545A012, 0x7545A031, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart */
-     , (0x7545A012, 0x7545A032, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */
-     , (0x7545A012, 0x7545A033, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark */;
+VALUES (0x7545A012, 0x7545A013, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A014, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A015, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A016, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A017, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A018, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A019, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A01A, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A01B, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A01C, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A01D, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A01E, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A01F, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A020, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A021, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A022, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A023, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A024, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A025, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A026, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A027, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A028, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A029, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A02A, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A02B, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A02C, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A02D, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A02E, '2019-02-10 00:00:00') /* Bronze Statue of a Gromnie (19291) */
+     , (0x7545A012, 0x7545A02F, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A030, '2019-02-10 00:00:00') /* Bronze Statue of a Drudge (19288) */
+     , (0x7545A012, 0x7545A031, '2019-02-10 00:00:00') /* Bronze Statue of a Mosswart (19294) */
+     , (0x7545A012, 0x7545A032, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */
+     , (0x7545A012, 0x7545A033, '2019-02-10 00:00:00') /* Bronze Statue of a Reedshark (19297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545A013, 19291, 0x545A0158, 39.2578, -62.253, 6.0065, 0.8206493, 0, 0, 0.5714322,  True, '2019-02-10 00:00:00'); /* Bronze Statue of a Gromnie */
@@ -180,7 +180,7 @@ VALUES (0x7545A034,  1542, 0x545A013C, 9.877312, -49.34145, 6, 1, 0, 0, 0, False
 /* @teleloc 0x545A013C [9.877312 -49.341450 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545A034, 0x7545A035, '2019-02-10 00:00:00') /* Black Spawn Den Portal Device */;
+VALUES (0x7545A034, 0x7545A035, '2019-02-10 00:00:00') /* Black Spawn Den Portal Device (29608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545A035, 29608, 0x545A013C, 9.877312, -49.34145, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Spawn Den Portal Device */

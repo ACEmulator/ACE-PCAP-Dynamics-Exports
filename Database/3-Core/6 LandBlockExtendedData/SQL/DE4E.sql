@@ -5,10 +5,10 @@ VALUES (0x7DE4E001,  1154, 0xDE4E0029, 139.9591, 14.75133, 20.32174, -0.4262263,
 /* @teleloc 0xDE4E0029 [139.959100 14.751330 20.321740] -0.426226 0.000000 0.000000 -0.904617 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE4E001, 0x7DE4E002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DE4E001, 0x7DE4E003, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DE4E001, 0x7DE4E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DE4E001, 0x7DE4E005, '2019-02-10 00:00:00') /* Virtuous Doll */;
+VALUES (0x7DE4E001, 0x7DE4E002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DE4E001, 0x7DE4E003, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DE4E001, 0x7DE4E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DE4E001, 0x7DE4E005, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE4E002,  4111, 0xDE4E0029, 139.9591, 14.75133, 20.32174, -0.4262263, 0, 0, -0.9046165,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

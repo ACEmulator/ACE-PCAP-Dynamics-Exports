@@ -5,11 +5,11 @@ VALUES (0x7E13E001,  1154, 0xE13E0039, 170.7447, 5.298223, 103.7872, 0.957574, 0
 /* @teleloc 0xE13E0039 [170.744700 5.298223 103.787200] 0.957574 0.000000 0.000000 -0.288188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13E001, 0x7E13E002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7E13E001, 0x7E13E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E13E001, 0x7E13E004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7E13E001, 0x7E13E005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7E13E001, 0x7E13E006, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7E13E001, 0x7E13E002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7E13E001, 0x7E13E003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E13E001, 0x7E13E004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7E13E001, 0x7E13E005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7E13E001, 0x7E13E006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13E002, 22010, 0xE13E0039, 170.7447, 5.298223, 103.7872, 0.957574, 0, 0, -0.2881877,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

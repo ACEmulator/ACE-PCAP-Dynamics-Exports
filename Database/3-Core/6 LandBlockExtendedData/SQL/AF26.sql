@@ -5,12 +5,12 @@ VALUES (0x7AF26001,  1154, 0xAF260016, 52.10176, 129.7449, 271.3994, 0.2588191, 
 /* @teleloc 0xAF260016 [52.101760 129.744900 271.399400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF26001, 0x7AF26002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AF26001, 0x7AF26003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AF26001, 0x7AF26004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AF26001, 0x7AF26005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AF26001, 0x7AF26006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AF26001, 0x7AF26007, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7AF26001, 0x7AF26002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AF26001, 0x7AF26003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AF26001, 0x7AF26004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AF26001, 0x7AF26005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7AF26001, 0x7AF26006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AF26001, 0x7AF26007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF26002, 14559, 0xAF260016, 52.10176, 129.7449, 271.3994, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */

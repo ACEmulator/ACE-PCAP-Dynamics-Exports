@@ -5,11 +5,11 @@ VALUES (0x7B074001,  1154, 0xB0740036, 146.1222, 136.3864, 39.92725, -0.6498756,
 /* @teleloc 0xB0740036 [146.122200 136.386400 39.927250] -0.649876 0.000000 0.000000 -0.760041 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B074001, 0x7B074002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7B074001, 0x7B074003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B074001, 0x7B074004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B074001, 0x7B074005, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B074001, 0x7B074006, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7B074001, 0x7B074002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7B074001, 0x7B074003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B074001, 0x7B074004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B074001, 0x7B074005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B074001, 0x7B074006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B074002, 10799, 0xB0740036, 146.1222, 136.3864, 39.92725, -0.6498756, 0, 0, -0.7600406,  True, '2019-02-10 00:00:00'); /* Narrow Rift */

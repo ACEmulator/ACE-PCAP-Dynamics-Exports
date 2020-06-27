@@ -5,25 +5,25 @@ VALUES (0x7C2DD001,  1154, 0xC2DD0007, 12.57741, 147.15, 7.481602, 1, 0, 0, 0, F
 /* @teleloc 0xC2DD0007 [12.577410 147.150000 7.481602] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2DD001, 0x7C2DD002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C2DD001, 0x7C2DD003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C2DD001, 0x7C2DD004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C2DD001, 0x7C2DD005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C2DD001, 0x7C2DD006, '2019-02-10 00:00:00') /* Ember */
-     , (0x7C2DD001, 0x7C2DD007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C2DD001, 0x7C2DD008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C2DD001, 0x7C2DD009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C2DD001, 0x7C2DD00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C2DD001, 0x7C2DD00B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C2DD001, 0x7C2DD00C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C2DD001, 0x7C2DD00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C2DD001, 0x7C2DD00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C2DD001, 0x7C2DD00F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C2DD001, 0x7C2DD010, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C2DD001, 0x7C2DD011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C2DD001, 0x7C2DD012, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C2DD001, 0x7C2DD013, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C2DD001, 0x7C2DD014, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7C2DD001, 0x7C2DD002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C2DD001, 0x7C2DD003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C2DD001, 0x7C2DD004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7C2DD001, 0x7C2DD005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C2DD001, 0x7C2DD006, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7C2DD001, 0x7C2DD007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C2DD001, 0x7C2DD008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C2DD001, 0x7C2DD009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C2DD001, 0x7C2DD00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C2DD001, 0x7C2DD00B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C2DD001, 0x7C2DD00C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C2DD001, 0x7C2DD00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C2DD001, 0x7C2DD00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C2DD001, 0x7C2DD00F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C2DD001, 0x7C2DD010, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C2DD001, 0x7C2DD011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C2DD001, 0x7C2DD012, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C2DD001, 0x7C2DD013, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C2DD001, 0x7C2DD014, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2DD002,  7102, 0xC2DD0007, 12.57741, 147.15, 7.481602, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

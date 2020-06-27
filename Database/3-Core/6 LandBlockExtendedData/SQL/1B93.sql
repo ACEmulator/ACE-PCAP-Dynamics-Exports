@@ -5,19 +5,19 @@ VALUES (0x71B93001,  1154, 0x1B93000D, 38.03512, 116.4676, -0.09499997, 0.728527
 /* @teleloc 0x1B93000D [38.035120 116.467600 -0.095000] 0.728528 0.000000 0.000000 -0.685016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B93001, 0x71B93002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71B93001, 0x71B93003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71B93001, 0x71B93004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71B93001, 0x71B93005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71B93001, 0x71B93006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71B93001, 0x71B93007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71B93001, 0x71B93008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71B93001, 0x71B93009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B93001, 0x71B9300A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x71B93001, 0x71B9300B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71B93001, 0x71B9300C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x71B93001, 0x71B9300D, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71B93001, 0x71B9300E, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x71B93001, 0x71B93002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71B93001, 0x71B93003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71B93001, 0x71B93004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71B93001, 0x71B93005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71B93001, 0x71B93006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71B93001, 0x71B93007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71B93001, 0x71B93008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71B93001, 0x71B93009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B93001, 0x71B9300A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x71B93001, 0x71B9300B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71B93001, 0x71B9300C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x71B93001, 0x71B9300D, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71B93001, 0x71B9300E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B93002, 23563, 0x1B93000D, 38.03512, 116.4676, -0.09499997, 0.7285278, 0, 0, -0.6850162,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -76,8 +76,8 @@ VALUES (0x71B9300F,  1542, 0x1B930015, 60.57619, 114.0792, 1.048016, 0.9990482, 
 /* @teleloc 0x1B930015 [60.576190 114.079200 1.048016] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B9300F, 0x71B93010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71B9300F, 0x71B93011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B9300F, 0x71B93010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71B9300F, 0x71B93011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B93010,  4179, 0x1B930015, 60.57619, 114.0792, 1.048016, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

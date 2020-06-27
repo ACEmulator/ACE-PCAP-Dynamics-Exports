@@ -5,17 +5,17 @@ VALUES (0x79FA2001,  1154, 0x9FA2002D, 142.9205, 97.69785, 115.8301, -0.7660444,
 /* @teleloc 0x9FA2002D [142.920500 97.697850 115.830100] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA2001, 0x79FA2002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79FA2001, 0x79FA2003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FA2001, 0x79FA2004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79FA2001, 0x79FA2005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FA2001, 0x79FA2006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FA2001, 0x79FA2007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FA2001, 0x79FA2008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79FA2001, 0x79FA2009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79FA2001, 0x79FA200A, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x79FA2001, 0x79FA200B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79FA2001, 0x79FA200C, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79FA2001, 0x79FA2002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79FA2001, 0x79FA2003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FA2001, 0x79FA2004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79FA2001, 0x79FA2005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FA2001, 0x79FA2006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FA2001, 0x79FA2007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FA2001, 0x79FA2008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FA2001, 0x79FA2009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FA2001, 0x79FA200A, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x79FA2001, 0x79FA200B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FA2001, 0x79FA200C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA2002, 24940, 0x9FA2002D, 142.9205, 97.69785, 115.8301, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -66,9 +66,9 @@ VALUES (0x79FA200D,  1542, 0x9FA2002C, 143.1039, 90.40958, 115.4595, 1, 0, 0, 0,
 /* @teleloc 0x9FA2002C [143.103900 90.409580 115.459500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA200D, 0x79FA200E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79FA200D, 0x79FA200F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79FA200D, 0x79FA2010, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79FA200D, 0x79FA200E, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x79FA200D, 0x79FA200F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79FA200D, 0x79FA2010, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA200E, 22576, 0x9FA2002C, 143.1039, 90.40958, 115.4595, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

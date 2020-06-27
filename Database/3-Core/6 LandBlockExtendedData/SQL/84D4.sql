@@ -5,15 +5,15 @@ VALUES (0x784D4001,  1154, 0x84D4000E, 27.14715, 142.6692, 168.7933, -0.7345717,
 /* @teleloc 0x84D4000E [27.147150 142.669200 168.793300] -0.734572 0.000000 0.000000 -0.678531 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784D4001, 0x784D4002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x784D4001, 0x784D4003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x784D4001, 0x784D4004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x784D4001, 0x784D4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x784D4001, 0x784D4006, '2019-02-10 00:00:00') /* Brumal */
-     , (0x784D4001, 0x784D4007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x784D4001, 0x784D4008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x784D4001, 0x784D4009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x784D4001, 0x784D400A, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x784D4001, 0x784D4002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x784D4001, 0x784D4003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x784D4001, 0x784D4004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x784D4001, 0x784D4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x784D4001, 0x784D4006, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x784D4001, 0x784D4007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x784D4001, 0x784D4008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x784D4001, 0x784D4009, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x784D4001, 0x784D400A, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784D4002, 20189, 0x84D4000E, 27.14715, 142.6692, 168.7933, -0.7345717, 0, 0, -0.6785311,  True, '2019-02-10 00:00:00'); /* Brumal */

@@ -5,18 +5,18 @@ VALUES (0x723DE001,  1154, 0x23DE0003, 23.39254, 58.40257, 39.991, 0.8913175, 0,
 /* @teleloc 0x23DE0003 [23.392540 58.402570 39.991000] 0.891318 0.000000 0.000000 -0.453380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723DE001, 0x723DE002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x723DE001, 0x723DE003, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x723DE001, 0x723DE004, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x723DE001, 0x723DE005, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x723DE001, 0x723DE006, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x723DE001, 0x723DE007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x723DE001, 0x723DE008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x723DE001, 0x723DE009, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x723DE001, 0x723DE00A, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x723DE001, 0x723DE00B, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x723DE001, 0x723DE00C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x723DE001, 0x723DE00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x723DE001, 0x723DE002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x723DE001, 0x723DE003, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x723DE001, 0x723DE004, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x723DE001, 0x723DE005, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x723DE001, 0x723DE006, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x723DE001, 0x723DE007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x723DE001, 0x723DE008, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x723DE001, 0x723DE009, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x723DE001, 0x723DE00A, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x723DE001, 0x723DE00B, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x723DE001, 0x723DE00C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x723DE001, 0x723DE00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DE002,  9253, 0x23DE0003, 23.39254, 58.40257, 39.991, 0.8913175, 0, 0, -0.4533796,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

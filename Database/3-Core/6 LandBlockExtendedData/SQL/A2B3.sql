@@ -5,14 +5,14 @@ VALUES (0x7A2B3001,  1154, 0xA2B30018, 57.05117, 188.9752, 96.50719, 0.9977704, 
 /* @teleloc 0xA2B30018 [57.051170 188.975200 96.507190] 0.997770 0.000000 0.000000 -0.066741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B3001, 0x7A2B3002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A2B3001, 0x7A2B3003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B3001, 0x7A2B3004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A2B3001, 0x7A2B3005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A2B3001, 0x7A2B3006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B3001, 0x7A2B3007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A2B3001, 0x7A2B3008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A2B3001, 0x7A2B3009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7A2B3001, 0x7A2B3002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A2B3001, 0x7A2B3003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B3001, 0x7A2B3004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A2B3001, 0x7A2B3005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A2B3001, 0x7A2B3006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B3001, 0x7A2B3007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A2B3001, 0x7A2B3008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A2B3001, 0x7A2B3009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B3002,   946, 0xA2B30018, 57.05117, 188.9752, 96.50719, 0.9977704, 0, 0, -0.06674079,  True, '2019-02-10 00:00:00'); /* Mite Squire */

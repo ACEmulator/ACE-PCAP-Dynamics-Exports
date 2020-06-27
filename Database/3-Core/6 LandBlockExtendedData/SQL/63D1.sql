@@ -5,19 +5,19 @@ VALUES (0x763D1001,  1154, 0x63D10020, 90.65372, 180.9911, 16.19418, 0.0270798, 
 /* @teleloc 0x63D10020 [90.653720 180.991100 16.194180] 0.027080 0.000000 0.000000 -0.999633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D1001, 0x763D1002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x763D1001, 0x763D1003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D1001, 0x763D1004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x763D1001, 0x763D1005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x763D1001, 0x763D1006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763D1001, 0x763D1007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D1001, 0x763D1008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763D1001, 0x763D1009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763D1001, 0x763D100A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x763D1001, 0x763D100B, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x763D1001, 0x763D100C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763D1001, 0x763D100D, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763D1001, 0x763D100E, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x763D1001, 0x763D1002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x763D1001, 0x763D1003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D1001, 0x763D1004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x763D1001, 0x763D1005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x763D1001, 0x763D1006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763D1001, 0x763D1007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D1001, 0x763D1008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763D1001, 0x763D1009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763D1001, 0x763D100A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x763D1001, 0x763D100B, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x763D1001, 0x763D100C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763D1001, 0x763D100D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763D1001, 0x763D100E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D1002, 22914, 0x63D10020, 90.65372, 180.9911, 16.19418, 0.0270798, 0, 0, -0.9996333,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -76,7 +76,7 @@ VALUES (0x763D100F,  1542, 0x63D1003F, 175.4203, 144.6158, 26.5458, 0.9990482, 0
 /* @teleloc 0x63D1003F [175.420300 144.615800 26.545800] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D100F, 0x763D1010, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x763D100F, 0x763D1010, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D1010,  6117, 0x63D1003F, 175.4203, 144.6158, 26.5458, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

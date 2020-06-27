@@ -5,15 +5,15 @@ VALUES (0x7B916001,  1154, 0xB916000D, 35.14653, 103.5978, 54.95012, 0.2588191, 
 /* @teleloc 0xB916000D [35.146530 103.597800 54.950120] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B916001, 0x7B916002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B916001, 0x7B916003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B916001, 0x7B916004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B916001, 0x7B916005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B916001, 0x7B916006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B916001, 0x7B916007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B916001, 0x7B916008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B916001, 0x7B916009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B916001, 0x7B91600A, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7B916001, 0x7B916002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B916001, 0x7B916003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B916001, 0x7B916004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B916001, 0x7B916005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B916001, 0x7B916006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B916001, 0x7B916007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B916001, 0x7B916008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B916001, 0x7B916009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B916001, 0x7B91600A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B916002, 14559, 0xB916000D, 35.14653, 103.5978, 54.95012, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -56,7 +56,7 @@ VALUES (0x7B91600B,  1542, 0xB9160011, 53.60917, 0.159451, 52.49401, 0.9659258, 
 /* @teleloc 0xB9160011 [53.609170 0.159451 52.494010] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91600B, 0x7B91600C, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */;
+VALUES (0x7B91600B, 0x7B91600C, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91600C,  9025, 0xB9160011, 53.60917, 0.159451, 52.49401, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Zairente's Cooking Pot */

@@ -5,10 +5,10 @@ VALUES (0x7C656001,  1154, 0xC6560015, 52.86555, 118.1077, 15.9925, -0.9789355, 
 /* @teleloc 0xC6560015 [52.865550 118.107700 15.992500] -0.978936 0.000000 0.000000 -0.204169 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C656001, 0x7C656002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C656001, 0x7C656003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C656001, 0x7C656004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C656001, 0x7C656005, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7C656001, 0x7C656002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C656001, 0x7C656003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C656001, 0x7C656004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C656001, 0x7C656005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C656002,  2576, 0xC6560015, 52.86555, 118.1077, 15.9925, -0.9789355, 0, 0, -0.2041694,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -31,7 +31,7 @@ VALUES (0x7C656006,  1542, 0xC656002E, 132.1151, 123.3031, 15.73574, 0.5338354, 
 /* @teleloc 0xC656002E [132.115100 123.303100 15.735740] 0.533835 0.000000 0.000000 -0.845588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C656006, 0x7C656007, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7C656006, 0x7C656007, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C656007, 31686, 0xC656002E, 132.1151, 123.3031, 15.73574, 0.5338354, 0, 0, -0.8455884,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

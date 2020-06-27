@@ -5,9 +5,9 @@ VALUES (0x73C97001,  1154, 0x3C970024, 116.0405, 76.5306, 3.406202, -0.25172, 0,
 /* @teleloc 0x3C970024 [116.040500 76.530600 3.406202] -0.251720 0.000000 0.000000 -0.967800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C97001, 0x73C97002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73C97001, 0x73C97003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73C97001, 0x73C97004, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x73C97001, 0x73C97002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73C97001, 0x73C97003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73C97001, 0x73C97004, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C97002,   619, 0x3C970024, 116.0405, 76.5306, 3.406202, -0.25172, 0, 0, -0.9678001,  True, '2019-02-10 00:00:00'); /* Revenant */

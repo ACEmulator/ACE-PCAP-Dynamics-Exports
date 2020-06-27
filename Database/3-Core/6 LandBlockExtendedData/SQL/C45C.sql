@@ -5,10 +5,10 @@ VALUES (0x7C45C001,  1154, 0xC45C002F, 121.5514, 149.4567, 5.9025, 0.7071068, 0,
 /* @teleloc 0xC45C002F [121.551400 149.456700 5.902500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C45C001, 0x7C45C002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C45C001, 0x7C45C003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45C001, 0x7C45C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C45C001, 0x7C45C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7C45C001, 0x7C45C002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C45C001, 0x7C45C003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45C001, 0x7C45C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C45C001, 0x7C45C005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C45C002,  1762, 0xC45C002F, 121.5514, 149.4567, 5.9025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -31,7 +31,7 @@ VALUES (0x7C45C006,  1542, 0xC45C001F, 75.34456, 150.7943, 5.9, -0.5451712, 0, 0
 /* @teleloc 0xC45C001F [75.344560 150.794300 5.900000] -0.545171 0.000000 0.000000 -0.838325 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C45C006, 0x7C45C007, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7C45C006, 0x7C45C007, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C45C007,  8588, 0xC45C001F, 75.34456, 150.7943, 5.9, -0.5451712, 0, 0, -0.8383247,  True, '2019-02-10 00:00:00'); /* Idol */

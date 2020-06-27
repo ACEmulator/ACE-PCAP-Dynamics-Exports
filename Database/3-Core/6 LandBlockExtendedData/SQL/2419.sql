@@ -5,18 +5,18 @@ VALUES (0x72419001,  1154, 0x2419003A, 179.9074, 36.4579, 11.99457, 0.7071068, 0
 /* @teleloc 0x2419003A [179.907400 36.457900 11.994570] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72419001, 0x72419002, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x72419001, 0x72419003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72419001, 0x72419004, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72419001, 0x72419005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72419001, 0x72419006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72419001, 0x72419007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72419001, 0x72419008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72419001, 0x72419009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72419001, 0x7241900A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72419001, 0x7241900B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72419001, 0x7241900C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72419001, 0x7241900D, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72419001, 0x72419002, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x72419001, 0x72419003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x72419001, 0x72419004, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72419001, 0x72419005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72419001, 0x72419006, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x72419001, 0x72419007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72419001, 0x72419008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72419001, 0x72419009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72419001, 0x7241900A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72419001, 0x7241900B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72419001, 0x7241900C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72419001, 0x7241900D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72419002, 36837, 0x2419003A, 179.9074, 36.4579, 11.99457, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
@@ -71,7 +71,7 @@ VALUES (0x7241900E,  1542, 0x2419003A, 178.3903, 34.50898, 12.28296, -4.371139E-
 /* @teleloc 0x2419003A [178.390300 34.508980 12.282960] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241900E, 0x7241900F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7241900E, 0x7241900F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241900F,  4380, 0x2419003A, 178.3903, 34.50898, 12.28296, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -17,22 +17,22 @@ VALUES (0x7B56F00C,  1154, 0xB56F0016, 67, 123, 22.00332, -0.7071068, 0, 0, -0.7
 /* @teleloc 0xB56F0016 [67.000000 123.000000 22.003320] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56F00C, 0x7B56F00D, '2019-02-10 00:00:00') /* Wood Target Drudge */
-     , (0x7B56F00C, 0x7B56F00E, '2019-02-10 00:00:00') /* Wood Target Drudge */
-     , (0x7B56F00C, 0x7B56F00F, '2019-02-10 00:00:00') /* Wood Target Drudge */
-     , (0x7B56F00C, 0x7B56F010, '2019-02-10 00:00:00') /* Straw Target Drudge */
-     , (0x7B56F00C, 0x7B56F011, '2019-02-10 00:00:00') /* Straw Target Drudge */
-     , (0x7B56F00C, 0x7B56F012, '2019-02-10 00:00:00') /* Straw Target Drudge */
-     , (0x7B56F00C, 0x7B56F013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B56F00C, 0x7B56F014, '2019-02-10 00:00:00') /* Static */
-     , (0x7B56F00C, 0x7B56F015, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B56F00C, 0x7B56F016, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B56F00C, 0x7B56F017, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B56F00C, 0x7B56F018, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B56F00C, 0x7B56F019, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B56F00C, 0x7B56F01A, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B56F00C, 0x7B56F01B, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B56F00C, 0x7B56F01C, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B56F00C, 0x7B56F00D, '2019-02-10 00:00:00') /* Wood Target Drudge (6076) */
+     , (0x7B56F00C, 0x7B56F00E, '2019-02-10 00:00:00') /* Wood Target Drudge (6076) */
+     , (0x7B56F00C, 0x7B56F00F, '2019-02-10 00:00:00') /* Wood Target Drudge (6076) */
+     , (0x7B56F00C, 0x7B56F010, '2019-02-10 00:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F00C, 0x7B56F011, '2019-02-10 00:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F00C, 0x7B56F012, '2019-02-10 00:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F00C, 0x7B56F013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B56F00C, 0x7B56F014, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B56F00C, 0x7B56F015, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B56F00C, 0x7B56F016, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B56F00C, 0x7B56F017, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B56F00C, 0x7B56F018, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B56F00C, 0x7B56F019, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B56F00C, 0x7B56F01A, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B56F00C, 0x7B56F01B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B56F00C, 0x7B56F01C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56F00D,  6076, 0xB56F0016, 67, 123, 22.00332, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wood Target Drudge */
@@ -103,8 +103,8 @@ VALUES (0x7B56F01D,  1542, 0xB56F003B, 190.5548, 49.26618, 35.65478, -0.8411854,
 /* @teleloc 0xB56F003B [190.554800 49.266180 35.654780] -0.841185 0.000000 0.000000 -0.540747 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56F01D, 0x7B56F01E, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7B56F01D, 0x7B56F01F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B56F01D, 0x7B56F01E, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7B56F01D, 0x7B56F01F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56F01E,  8646, 0xB56F003B, 190.5548, 49.26618, 35.65478, -0.8411854, 0, 0, -0.5407469,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

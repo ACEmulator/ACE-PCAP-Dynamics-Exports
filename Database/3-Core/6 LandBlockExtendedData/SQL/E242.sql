@@ -5,13 +5,13 @@ VALUES (0x7E242001,  1154, 0xE242000E, 34.86726, 137.7448, 32, 0.01051366, 0, 0,
 /* @teleloc 0xE242000E [34.867260 137.744800 32.000000] 0.010514 0.000000 0.000000 -0.999945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E242001, 0x7E242002, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7E242001, 0x7E242003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E242001, 0x7E242004, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E242001, 0x7E242005, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E242001, 0x7E242006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E242001, 0x7E242007, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E242001, 0x7E242008, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7E242001, 0x7E242002, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7E242001, 0x7E242003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E242001, 0x7E242004, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E242001, 0x7E242005, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E242001, 0x7E242006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E242001, 0x7E242007, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E242001, 0x7E242008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E242002,  1987, 0xE242000E, 34.86726, 137.7448, 32, 0.01051366, 0, 0, -0.9999447,  True, '2019-02-10 00:00:00'); /* Ghost Wisp */

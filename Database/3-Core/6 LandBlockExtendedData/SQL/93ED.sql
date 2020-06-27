@@ -5,22 +5,22 @@ VALUES (0x793ED001,  1154, 0x93ED0040, 169.4904, 176.3649, 5.302925, -0.4666426,
 /* @teleloc 0x93ED0040 [169.490400 176.364900 5.302925] -0.466643 0.000000 0.000000 -0.884446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793ED001, 0x793ED002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x793ED001, 0x793ED003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x793ED001, 0x793ED004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x793ED001, 0x793ED005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x793ED001, 0x793ED006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x793ED001, 0x793ED007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x793ED001, 0x793ED008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x793ED001, 0x793ED009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x793ED001, 0x793ED00A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793ED001, 0x793ED00B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x793ED001, 0x793ED00C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x793ED001, 0x793ED00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x793ED001, 0x793ED00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x793ED001, 0x793ED00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x793ED001, 0x793ED010, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x793ED001, 0x793ED011, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x793ED001, 0x793ED002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x793ED001, 0x793ED003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x793ED001, 0x793ED004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x793ED001, 0x793ED005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x793ED001, 0x793ED006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x793ED001, 0x793ED007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x793ED001, 0x793ED008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x793ED001, 0x793ED009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x793ED001, 0x793ED00A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793ED001, 0x793ED00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x793ED001, 0x793ED00C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x793ED001, 0x793ED00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x793ED001, 0x793ED00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x793ED001, 0x793ED00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x793ED001, 0x793ED010, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x793ED001, 0x793ED011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793ED002, 28551, 0x93ED0040, 169.4904, 176.3649, 5.302925, -0.4666426, 0, 0, -0.884446,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -91,7 +91,7 @@ VALUES (0x793ED012,  1542, 0x93ED0019, 90.5671, 14.41521, 20, 0.9990482, 0, 0, -
 /* @teleloc 0x93ED0019 [90.567100 14.415210 20.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793ED012, 0x793ED013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x793ED012, 0x793ED013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793ED013,  4179, 0x93ED0019, 90.5671, 14.41521, 20, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

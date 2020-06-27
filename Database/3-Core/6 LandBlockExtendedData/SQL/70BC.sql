@@ -5,11 +5,11 @@ VALUES (0x770BC001,  1154, 0x70BC0004, 12.33441, 83.30425, 102.3863, -0.08808796
 /* @teleloc 0x70BC0004 [12.334410 83.304250 102.386300] -0.088088 0.000000 0.000000 -0.996113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770BC001, 0x770BC002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x770BC001, 0x770BC003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x770BC001, 0x770BC004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x770BC001, 0x770BC005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x770BC001, 0x770BC006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x770BC001, 0x770BC002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x770BC001, 0x770BC003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x770BC001, 0x770BC004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x770BC001, 0x770BC005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x770BC001, 0x770BC006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770BC002, 26470, 0x70BC0004, 12.33441, 83.30425, 102.3863, -0.08808796, 0, 0, -0.9961127,  True, '2019-02-10 00:00:00'); /* Fire Shreth */

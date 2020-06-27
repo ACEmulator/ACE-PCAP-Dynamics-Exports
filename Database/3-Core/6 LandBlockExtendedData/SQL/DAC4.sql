@@ -5,14 +5,14 @@ VALUES (0x7DAC4001,  1154, 0xDAC40008, 22.96481, 174.3138, 104.0908, -0.919667, 
 /* @teleloc 0xDAC40008 [22.964810 174.313800 104.090800] -0.919667 0.000000 0.000000 -0.392699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DAC4001, 0x7DAC4002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DAC4001, 0x7DAC4003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DAC4001, 0x7DAC4004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DAC4001, 0x7DAC4005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DAC4001, 0x7DAC4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7DAC4001, 0x7DAC4007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7DAC4001, 0x7DAC4008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7DAC4001, 0x7DAC4009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */;
+VALUES (0x7DAC4001, 0x7DAC4002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7DAC4001, 0x7DAC4003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DAC4001, 0x7DAC4004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DAC4001, 0x7DAC4005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DAC4001, 0x7DAC4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7DAC4001, 0x7DAC4007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7DAC4001, 0x7DAC4008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7DAC4001, 0x7DAC4009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DAC4002,  7089, 0xDAC40008, 22.96481, 174.3138, 104.0908, -0.919667, 0, 0, -0.3926991,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

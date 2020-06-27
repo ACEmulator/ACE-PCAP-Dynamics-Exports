@@ -5,25 +5,25 @@ VALUES (0x72C4D001,  1154, 0x2C4D0003, 20.42473, 50.02108, 2.30794, 0.9539858, 0
 /* @teleloc 0x2C4D0003 [20.424730 50.021080 2.307940] 0.953986 0.000000 0.000000 -0.299852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C4D001, 0x72C4D002, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72C4D001, 0x72C4D003, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72C4D001, 0x72C4D004, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72C4D001, 0x72C4D005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72C4D001, 0x72C4D006, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72C4D001, 0x72C4D007, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72C4D001, 0x72C4D008, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72C4D001, 0x72C4D009, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72C4D001, 0x72C4D00A, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72C4D001, 0x72C4D00B, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72C4D001, 0x72C4D00C, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72C4D001, 0x72C4D00D, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72C4D001, 0x72C4D00E, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72C4D001, 0x72C4D00F, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72C4D001, 0x72C4D010, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72C4D001, 0x72C4D011, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72C4D001, 0x72C4D012, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72C4D001, 0x72C4D013, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72C4D001, 0x72C4D014, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */;
+VALUES (0x72C4D001, 0x72C4D002, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72C4D001, 0x72C4D003, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72C4D001, 0x72C4D004, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72C4D001, 0x72C4D005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72C4D001, 0x72C4D006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72C4D001, 0x72C4D007, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72C4D001, 0x72C4D008, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72C4D001, 0x72C4D009, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72C4D001, 0x72C4D00A, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72C4D001, 0x72C4D00B, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72C4D001, 0x72C4D00C, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72C4D001, 0x72C4D00D, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72C4D001, 0x72C4D00E, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72C4D001, 0x72C4D00F, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72C4D001, 0x72C4D010, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72C4D001, 0x72C4D011, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72C4D001, 0x72C4D012, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72C4D001, 0x72C4D013, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72C4D001, 0x72C4D014, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C4D002, 23088, 0x2C4D0003, 20.42473, 50.02108, 2.30794, 0.9539858, 0, 0, -0.299852,  True, '2019-02-10 00:00:00'); /* Raider Prefect */

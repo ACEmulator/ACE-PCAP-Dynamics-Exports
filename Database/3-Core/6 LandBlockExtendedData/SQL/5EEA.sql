@@ -5,42 +5,42 @@ VALUES (0x75EEA001,  1154, 0x5EEA002C, 126.6624, 83.19759, 5.075118, 0.7076746, 
 /* @teleloc 0x5EEA002C [126.662400 83.197590 5.075118] 0.707675 0.000000 0.000000 -0.706539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EEA001, 0x75EEA002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75EEA001, 0x75EEA003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75EEA001, 0x75EEA004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75EEA001, 0x75EEA005, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x75EEA001, 0x75EEA006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x75EEA001, 0x75EEA007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75EEA001, 0x75EEA008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75EEA001, 0x75EEA009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75EEA001, 0x75EEA00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75EEA001, 0x75EEA00B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75EEA001, 0x75EEA00C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75EEA001, 0x75EEA00D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75EEA001, 0x75EEA00E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x75EEA001, 0x75EEA00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EEA001, 0x75EEA010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75EEA001, 0x75EEA011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EEA001, 0x75EEA012, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75EEA001, 0x75EEA013, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EEA001, 0x75EEA014, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EEA001, 0x75EEA015, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75EEA001, 0x75EEA016, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75EEA001, 0x75EEA017, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75EEA001, 0x75EEA018, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75EEA001, 0x75EEA019, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x75EEA001, 0x75EEA01A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75EEA001, 0x75EEA01B, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x75EEA001, 0x75EEA01C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75EEA001, 0x75EEA01D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75EEA001, 0x75EEA01E, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75EEA001, 0x75EEA01F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75EEA001, 0x75EEA020, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75EEA001, 0x75EEA021, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75EEA001, 0x75EEA022, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75EEA001, 0x75EEA023, '2019-02-10 00:00:00') /* Rampager */
-     , (0x75EEA001, 0x75EEA024, '2019-02-10 00:00:00') /* Rampager */
-     , (0x75EEA001, 0x75EEA025, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x75EEA001, 0x75EEA002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75EEA001, 0x75EEA003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75EEA001, 0x75EEA004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75EEA001, 0x75EEA005, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x75EEA001, 0x75EEA006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x75EEA001, 0x75EEA007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x75EEA001, 0x75EEA008, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75EEA001, 0x75EEA009, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75EEA001, 0x75EEA00A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75EEA001, 0x75EEA00B, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75EEA001, 0x75EEA00C, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75EEA001, 0x75EEA00D, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75EEA001, 0x75EEA00E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x75EEA001, 0x75EEA00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EEA001, 0x75EEA010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75EEA001, 0x75EEA011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EEA001, 0x75EEA012, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75EEA001, 0x75EEA013, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EEA001, 0x75EEA014, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EEA001, 0x75EEA015, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75EEA001, 0x75EEA016, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x75EEA001, 0x75EEA017, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x75EEA001, 0x75EEA018, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x75EEA001, 0x75EEA019, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x75EEA001, 0x75EEA01A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75EEA001, 0x75EEA01B, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x75EEA001, 0x75EEA01C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75EEA001, 0x75EEA01D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75EEA001, 0x75EEA01E, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75EEA001, 0x75EEA01F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75EEA001, 0x75EEA020, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75EEA001, 0x75EEA021, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75EEA001, 0x75EEA022, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75EEA001, 0x75EEA023, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x75EEA001, 0x75EEA024, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x75EEA001, 0x75EEA025, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EEA002, 24319, 0x5EEA002C, 126.6624, 83.19759, 5.075118, 0.7076746, 0, 0, -0.7065385,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -191,8 +191,8 @@ VALUES (0x75EEA026,  1542, 0x5EEA0024, 110.2201, 83.39559, 5.882027, -4.371139E-
 /* @teleloc 0x5EEA0024 [110.220100 83.395590 5.882027] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EEA026, 0x75EEA027, '2019-02-10 00:00:00') /* Bones */
-     , (0x75EEA026, 0x75EEA028, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75EEA026, 0x75EEA027, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75EEA026, 0x75EEA028, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EEA027,  4380, 0x5EEA0024, 110.2201, 83.39559, 5.882027, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

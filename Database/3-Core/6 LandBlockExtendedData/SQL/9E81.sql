@@ -5,16 +5,16 @@ VALUES (0x79E81001,  1154, 0x9E810021, 113.7368, 19.39425, 44.74423, 0.8303493, 
 /* @teleloc 0x9E810021 [113.736800 19.394250 44.744230] 0.830349 0.000000 0.000000 -0.557243 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E81001, 0x79E81002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79E81001, 0x79E81003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79E81001, 0x79E81004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79E81001, 0x79E81005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79E81001, 0x79E81006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x79E81001, 0x79E81007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79E81001, 0x79E81008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79E81001, 0x79E81009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E81001, 0x79E8100A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79E81001, 0x79E8100B, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x79E81001, 0x79E81002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79E81001, 0x79E81003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79E81001, 0x79E81004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79E81001, 0x79E81005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79E81001, 0x79E81006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x79E81001, 0x79E81007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79E81001, 0x79E81008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79E81001, 0x79E81009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E81001, 0x79E8100A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79E81001, 0x79E8100B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E81002, 22809, 0x9E810021, 113.7368, 19.39425, 44.74423, 0.8303493, 0, 0, -0.5572433,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

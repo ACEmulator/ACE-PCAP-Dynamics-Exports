@@ -5,20 +5,20 @@ VALUES (0x7E723001,  1154, 0xE7230021, 113.6279, 5.773899, 0.001199961, -0.04226
 /* @teleloc 0xE7230021 [113.627900 5.773899 0.001200] -0.042269 0.000000 0.000000 -0.999106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E723001, 0x7E723002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E723003, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E723001, 0x7E723004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E723005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E723006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E723007, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E723001, 0x7E723008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E723009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300C, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E723001, 0x7E72300F, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7E723001, 0x7E723002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E723003, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E723001, 0x7E723004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E723005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E723006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E723007, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E723001, 0x7E723008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E723009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300C, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E723001, 0x7E72300F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E723002,  7108, 0xE7230021, 113.6279, 5.773899, 0.001199961, -0.04226931, 0, 0, -0.9991062,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

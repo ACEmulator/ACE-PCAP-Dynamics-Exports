@@ -5,18 +5,18 @@ VALUES (0x780D9001,  1154, 0x80D90007, 11.84854, 151.0851, 343.0143, -0.4006212,
 /* @teleloc 0x80D90007 [11.848540 151.085100 343.014300] -0.400621 0.000000 0.000000 -0.916244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780D9001, 0x780D9002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x780D9001, 0x780D9003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x780D9001, 0x780D9004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x780D9001, 0x780D9005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x780D9001, 0x780D9006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x780D9001, 0x780D9007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x780D9001, 0x780D9008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x780D9001, 0x780D9009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x780D9001, 0x780D900A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x780D9001, 0x780D900B, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x780D9001, 0x780D900C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x780D9001, 0x780D900D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x780D9001, 0x780D9002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x780D9001, 0x780D9003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x780D9001, 0x780D9004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x780D9001, 0x780D9005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x780D9001, 0x780D9006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x780D9001, 0x780D9007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x780D9001, 0x780D9008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x780D9001, 0x780D9009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x780D9001, 0x780D900A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x780D9001, 0x780D900B, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x780D9001, 0x780D900C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x780D9001, 0x780D900D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780D9002,  4216, 0x80D90007, 11.84854, 151.0851, 343.0143, -0.4006212, 0, 0, -0.9162437,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -71,9 +71,9 @@ VALUES (0x780D900E,  1542, 0x80D90014, 71.01432, 85.58131, 379.1443, 1, 0, 0, 0,
 /* @teleloc 0x80D90014 [71.014320 85.581310 379.144300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780D900E, 0x780D900F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x780D900E, 0x780D9010, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x780D900E, 0x780D9011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x780D900E, 0x780D900F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x780D900E, 0x780D9010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x780D900E, 0x780D9011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780D900F, 22567, 0x80D90014, 71.01432, 85.58131, 379.1443, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

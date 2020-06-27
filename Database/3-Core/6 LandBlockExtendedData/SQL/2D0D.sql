@@ -5,39 +5,39 @@ VALUES (0x72D0D001,  1154, 0x2D0D0009, 45.93153, 0.7775979, 0.07479978, 0.923879
 /* @teleloc 0x2D0D0009 [45.931530 0.777598 0.074800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0D001, 0x72D0D002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72D0D001, 0x72D0D003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72D0D001, 0x72D0D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72D0D001, 0x72D0D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D0D001, 0x72D0D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D0D001, 0x72D0D007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72D0D001, 0x72D0D008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72D0D001, 0x72D0D009, '2019-02-10 00:00:00') /* Caustic */
-     , (0x72D0D001, 0x72D0D00A, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x72D0D001, 0x72D0D00B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D0D001, 0x72D0D00C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72D0D001, 0x72D0D00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72D0D001, 0x72D0D00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72D0D001, 0x72D0D00F, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D0D001, 0x72D0D010, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D0D001, 0x72D0D011, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72D0D001, 0x72D0D012, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72D0D001, 0x72D0D013, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72D0D001, 0x72D0D014, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72D0D001, 0x72D0D015, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0D001, 0x72D0D016, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D0D001, 0x72D0D017, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D0D001, 0x72D0D018, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D0D001, 0x72D0D019, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72D0D001, 0x72D0D01A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0D001, 0x72D0D01B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72D0D001, 0x72D0D01C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D0D001, 0x72D0D01D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D0D001, 0x72D0D01E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D0D001, 0x72D0D01F, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72D0D001, 0x72D0D020, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D0D001, 0x72D0D021, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0D001, 0x72D0D022, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x72D0D001, 0x72D0D002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72D0D001, 0x72D0D003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x72D0D001, 0x72D0D004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72D0D001, 0x72D0D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D0D001, 0x72D0D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D0D001, 0x72D0D007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72D0D001, 0x72D0D008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72D0D001, 0x72D0D009, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x72D0D001, 0x72D0D00A, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x72D0D001, 0x72D0D00B, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D0D001, 0x72D0D00C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72D0D001, 0x72D0D00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72D0D001, 0x72D0D00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72D0D001, 0x72D0D00F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72D0D001, 0x72D0D010, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D0D001, 0x72D0D011, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72D0D001, 0x72D0D012, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72D0D001, 0x72D0D013, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72D0D001, 0x72D0D014, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72D0D001, 0x72D0D015, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0D001, 0x72D0D016, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D0D001, 0x72D0D017, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D0D001, 0x72D0D018, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72D0D001, 0x72D0D019, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72D0D001, 0x72D0D01A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0D001, 0x72D0D01B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72D0D001, 0x72D0D01C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72D0D001, 0x72D0D01D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72D0D001, 0x72D0D01E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D0D001, 0x72D0D01F, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72D0D001, 0x72D0D020, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72D0D001, 0x72D0D021, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0D001, 0x72D0D022, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0D002, 36828, 0x2D0D0009, 45.93153, 0.7775979, 0.07479978, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -176,7 +176,7 @@ VALUES (0x72D0D023,  1542, 0x2D0D000A, 43.42117, 46.40312, 3.866926, 1, 0, 0, 0,
 /* @teleloc 0x2D0D000A [43.421170 46.403120 3.866926] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0D023, 0x72D0D024, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72D0D023, 0x72D0D024, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0D024, 22571, 0x2D0D000A, 43.42117, 46.40312, 3.866926, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

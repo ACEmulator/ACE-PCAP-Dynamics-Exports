@@ -5,26 +5,26 @@ VALUES (0x70D74001,  1154, 0x0D74003E, 188.3292, 128.6174, 82.88226, 0.9238795, 
 /* @teleloc 0x0D74003E [188.329200 128.617400 82.882260] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D74001, 0x70D74002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D74001, 0x70D74003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D74001, 0x70D74004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70D74001, 0x70D74005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D74001, 0x70D74006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D74001, 0x70D74007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D74001, 0x70D74008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70D74001, 0x70D74009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D74001, 0x70D7400A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D74001, 0x70D7400B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D74001, 0x70D7400C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70D74001, 0x70D7400D, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70D74001, 0x70D7400E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70D74001, 0x70D7400F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70D74001, 0x70D74010, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70D74001, 0x70D74011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70D74001, 0x70D74012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70D74001, 0x70D74013, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D74001, 0x70D74014, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D74001, 0x70D74015, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70D74001, 0x70D74002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D74001, 0x70D74003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D74001, 0x70D74004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70D74001, 0x70D74005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D74001, 0x70D74006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D74001, 0x70D74007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D74001, 0x70D74008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70D74001, 0x70D74009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D74001, 0x70D7400A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D74001, 0x70D7400B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D74001, 0x70D7400C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70D74001, 0x70D7400D, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70D74001, 0x70D7400E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70D74001, 0x70D7400F, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70D74001, 0x70D74010, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70D74001, 0x70D74011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70D74001, 0x70D74012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70D74001, 0x70D74013, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D74001, 0x70D74014, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D74001, 0x70D74015, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D74002, 36822, 0x0D74003E, 188.3292, 128.6174, 82.88226, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -111,7 +111,7 @@ VALUES (0x70D74016,  1542, 0x0D74003E, 188.6337, 140.5296, 71.43598, -0.7945349,
 /* @teleloc 0x0D74003E [188.633700 140.529600 71.435980] -0.794535 0.000000 0.000000 -0.607219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D74016, 0x70D74017, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70D74016, 0x70D74017, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D74017,  9288, 0x0D74003E, 188.6337, 140.5296, 71.43598, -0.7945349, 0, 0, -0.6072185,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

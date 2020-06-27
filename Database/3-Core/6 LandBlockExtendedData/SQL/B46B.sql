@@ -5,15 +5,15 @@ VALUES (0x7B46B001,  1154, 0xB46B002E, 129.9763, 139.6973, 34.4753, -0.9721752, 
 /* @teleloc 0xB46B002E [129.976300 139.697300 34.475300] -0.972175 0.000000 0.000000 -0.234255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46B001, 0x7B46B002, '2019-02-10 00:00:00') /* Static */
-     , (0x7B46B001, 0x7B46B003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B46B001, 0x7B46B004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B46B001, 0x7B46B005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B46B001, 0x7B46B006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B46B001, 0x7B46B007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B46B001, 0x7B46B008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B46B001, 0x7B46B009, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B46B001, 0x7B46B00A, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B46B001, 0x7B46B002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B46B001, 0x7B46B003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B46B001, 0x7B46B004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B46B001, 0x7B46B005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B46B001, 0x7B46B006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B46B001, 0x7B46B007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B46B001, 0x7B46B008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B46B001, 0x7B46B009, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B46B001, 0x7B46B00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46B002,  6382, 0xB46B002E, 129.9763, 139.6973, 34.4753, -0.9721752, 0, 0, -0.2342549,  True, '2019-02-10 00:00:00'); /* Static */

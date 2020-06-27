@@ -5,11 +5,11 @@ VALUES (0x7A211001,  1154, 0xA211000A, 36.47357, 39.82772, 164.9533, 0.868636, 0
 /* @teleloc 0xA211000A [36.473570 39.827720 164.953300] 0.868636 0.000000 0.000000 -0.495451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A211001, 0x7A211002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A211001, 0x7A211003, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7A211001, 0x7A211004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7A211001, 0x7A211005, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7A211001, 0x7A211006, '2019-02-10 00:00:00') /* K'nath Z'bog */;
+VALUES (0x7A211001, 0x7A211002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A211001, 0x7A211003, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7A211001, 0x7A211004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7A211001, 0x7A211005, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7A211001, 0x7A211006, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A211002,  5890, 0xA211000A, 36.47357, 39.82772, 164.9533, 0.868636, 0, 0, -0.4954508,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */
@@ -36,7 +36,7 @@ VALUES (0x7A211007,  1542, 0xA211001B, 79.56002, 48.4666, 168.4897, 0.308344, 0,
 /* @teleloc 0xA211001B [79.560020 48.466600 168.489700] 0.308344 0.000000 0.000000 -0.951275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A211007, 0x7A211008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7A211007, 0x7A211008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A211008, 42528, 0xA211001B, 79.56002, 48.4666, 168.4897, 0.308344, 0, 0, -0.9512749,  True, '2019-02-10 00:00:00'); /* Rock */

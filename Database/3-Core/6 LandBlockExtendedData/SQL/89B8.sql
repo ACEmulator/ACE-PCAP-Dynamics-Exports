@@ -5,15 +5,15 @@ VALUES (0x789B8001,  1154, 0x89B80036, 147.0984, 139.4734, 87.9057, 0.7372774, 0
 /* @teleloc 0x89B80036 [147.098400 139.473400 87.905700] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789B8001, 0x789B8002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x789B8001, 0x789B8003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x789B8001, 0x789B8004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x789B8001, 0x789B8005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x789B8001, 0x789B8006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x789B8001, 0x789B8007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x789B8001, 0x789B8008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x789B8001, 0x789B8009, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x789B8001, 0x789B800A, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x789B8001, 0x789B8002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x789B8001, 0x789B8003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x789B8001, 0x789B8004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x789B8001, 0x789B8005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x789B8001, 0x789B8006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x789B8001, 0x789B8007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x789B8001, 0x789B8008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x789B8001, 0x789B8009, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x789B8001, 0x789B800A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789B8002,  7335, 0x89B80036, 147.0984, 139.4734, 87.9057, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

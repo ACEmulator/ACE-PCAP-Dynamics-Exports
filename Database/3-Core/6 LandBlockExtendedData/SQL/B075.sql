@@ -5,16 +5,16 @@ VALUES (0x7B075001,  1154, 0xB075003E, 169.9705, 134.0475, 32.69084, 0.7071068, 
 /* @teleloc 0xB075003E [169.970500 134.047500 32.690840] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B075001, 0x7B075002, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x7B075001, 0x7B075003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B075001, 0x7B075004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B075001, 0x7B075005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B075001, 0x7B075006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B075001, 0x7B075007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B075001, 0x7B075008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B075001, 0x7B075009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B075001, 0x7B07500A, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7B075001, 0x7B07500B, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B075001, 0x7B075002, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x7B075001, 0x7B075003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B075001, 0x7B075004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B075001, 0x7B075005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B075001, 0x7B075006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B075001, 0x7B075007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B075001, 0x7B075008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B075001, 0x7B075009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B075001, 0x7B07500A, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7B075001, 0x7B07500B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B075002, 14466, 0xB075003E, 169.9705, 134.0475, 32.69084, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Two Headed Snowman */
@@ -61,7 +61,7 @@ VALUES (0x7B07500C,  1542, 0xB075001C, 79.65923, 92.7645, 44.40502, 0.7071068, 0
 /* @teleloc 0xB075001C [79.659230 92.764500 44.405020] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B07500C, 0x7B07500D, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7B07500C, 0x7B07500D, '2019-02-10 00:00:00') /* Snowman (9009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B07500D,  9009, 0xB075001C, 79.65923, 92.7645, 44.40502, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

@@ -5,13 +5,13 @@ VALUES (0x7A224001,  1154, 0xA2240010, 38.21405, 179.3056, 296.4113, 0.8823829, 
 /* @teleloc 0xA2240010 [38.214050 179.305600 296.411300] 0.882383 0.000000 0.000000 -0.470532 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A224001, 0x7A224002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A224001, 0x7A224003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A224001, 0x7A224004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A224001, 0x7A224005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A224001, 0x7A224006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A224001, 0x7A224007, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A224001, 0x7A224008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7A224001, 0x7A224002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A224001, 0x7A224003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A224001, 0x7A224004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A224001, 0x7A224005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A224001, 0x7A224006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A224001, 0x7A224007, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A224001, 0x7A224008, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A224002,  8139, 0xA2240010, 38.21405, 179.3056, 296.4113, 0.8823829, 0, 0, -0.470532,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -46,8 +46,8 @@ VALUES (0x7A224009,  1542, 0xA2240028, 100.5515, 175.9022, 296.1757, -0.2595516,
 /* @teleloc 0xA2240028 [100.551500 175.902200 296.175700] -0.259552 0.000000 0.000000 -0.965729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A224009, 0x7A22400A, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7A224009, 0x7A22400B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A224009, 0x7A22400A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7A224009, 0x7A22400B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A22400A,  8646, 0xA2240028, 100.5515, 175.9022, 296.1757, -0.2595516, 0, 0, -0.9657292,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

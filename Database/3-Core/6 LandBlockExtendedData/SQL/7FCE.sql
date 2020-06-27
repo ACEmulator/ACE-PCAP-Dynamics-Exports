@@ -5,12 +5,12 @@ VALUES (0x77FCE001,  1154, 0x7FCE001C, 90.57831, 89.75854, 155.0281, 0.6131166, 
 /* @teleloc 0x7FCE001C [90.578310 89.758540 155.028100] 0.613117 0.000000 0.000000 -0.789993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FCE001, 0x77FCE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x77FCE001, 0x77FCE003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77FCE001, 0x77FCE004, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x77FCE001, 0x77FCE005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77FCE001, 0x77FCE006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x77FCE001, 0x77FCE007, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x77FCE001, 0x77FCE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x77FCE001, 0x77FCE003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77FCE001, 0x77FCE004, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x77FCE001, 0x77FCE005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77FCE001, 0x77FCE006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x77FCE001, 0x77FCE007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FCE002, 28551, 0x7FCE001C, 90.57831, 89.75854, 155.0281, 0.6131166, 0, 0, -0.7899925,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

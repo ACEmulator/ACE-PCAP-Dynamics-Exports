@@ -29,52 +29,52 @@ VALUES (0x7039C031,  1154, 0x039C0199, 90.3918, -97.6928, -5.996675, 0.999783, 0
 /* @teleloc 0x039C0199 [90.391800 -97.692800 -5.996675] 0.999783 0.000000 0.000000 -0.020821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7039C031, 0x7039C032, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C033, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C034, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C035, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C036, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C037, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C038, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C039, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C03A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C03B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C03C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C03D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C03E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C03F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C040, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C041, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C042, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C043, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C044, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C045, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C046, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C047, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C048, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C049, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C04A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C04B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C04C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C04D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C04E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C04F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C050, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C051, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7039C031, 0x7039C052, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C053, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C054, '2019-02-10 00:00:00') /* Minion Leader */
-     , (0x7039C031, 0x7039C055, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C056, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C057, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C058, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C059, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C05A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C05B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C05C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C05D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7039C031, 0x7039C05E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7039C031, 0x7039C05F, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7039C031, 0x7039C032, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C033, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C034, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C035, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C036, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C037, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C038, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C039, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C03A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C03B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C03C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C03D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C03E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C03F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C040, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C041, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C042, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C043, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C044, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C045, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C046, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C047, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C048, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C049, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C04A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C04B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C04C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C04D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C04E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C04F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C050, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C051, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7039C031, 0x7039C052, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C053, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C054, '2019-02-10 00:00:00') /* Minion Leader (12681) */
+     , (0x7039C031, 0x7039C055, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C056, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C057, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C058, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C059, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C05A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C05B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C05C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C05D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7039C031, 0x7039C05E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7039C031, 0x7039C05F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039C032,  1608, 0x039C0199, 90.3918, -97.6928, -5.996675, 0.999783, 0, 0, -0.020821,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -265,7 +265,7 @@ VALUES (0x7039C060,  1154, 0x039C018F, 81.1815, -71.0769, -5.995, -0.676243, 0, 
 /* @teleloc 0x039C018F [81.181500 -71.076900 -5.995000] -0.676243 0.000000 0.000000 0.736679 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7039C060, 0x7039C061, '2019-02-10 00:00:00') /* Arcanum Envoy */;
+VALUES (0x7039C060, 0x7039C061, '2019-02-10 00:00:00') /* Arcanum Envoy (12686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039C061, 12686, 0x039C018F, 81.1815, -71.0769, -5.995, -0.676243, 0, 0, 0.736679,  True, '2019-02-10 00:00:00'); /* Arcanum Envoy */
@@ -276,8 +276,8 @@ VALUES (0x7039C062,  1542, 0x039C0106, 75.2072, -180.59, -17.921, -0.9953989, 0,
 /* @teleloc 0x039C0106 [75.207200 -180.590000 -17.921000] -0.995399 0.000000 0.000000 0.095818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7039C062, 0x7039C063, '2019-02-10 00:00:00') /* A Near Illegible Note */
-     , (0x7039C062, 0x7039C064, '2019-02-10 00:00:00') /* Sceptre */;
+VALUES (0x7039C062, 0x7039C063, '2019-02-10 00:00:00') /* A Near Illegible Note (12682) */
+     , (0x7039C062, 0x7039C064, '2019-02-10 00:00:00') /* Sceptre (2548) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039C063, 12682, 0x039C0106, 75.2072, -180.59, -17.921, -0.9953989, 0, 0, 0.09581798,  True, '2019-02-10 00:00:00'); /* A Near Illegible Note */

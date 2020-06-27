@@ -5,10 +5,10 @@ VALUES (0x7DD4A001,  1154, 0xDD4A0012, 59.1108, 36.55517, 28.01, 0.8527201, 0, 0
 /* @teleloc 0xDD4A0012 [59.110800 36.555170 28.010000] 0.852720 0.000000 0.000000 -0.522368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD4A001, 0x7DD4A002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7DD4A001, 0x7DD4A003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7DD4A001, 0x7DD4A004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7DD4A001, 0x7DD4A005, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7DD4A001, 0x7DD4A002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7DD4A001, 0x7DD4A003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7DD4A001, 0x7DD4A004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7DD4A001, 0x7DD4A005, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD4A002, 11528, 0xDD4A0012, 59.1108, 36.55517, 28.01, 0.8527201, 0, 0, -0.522368,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -31,7 +31,7 @@ VALUES (0x7DD4A006,  1542, 0xDD4A000F, 40.47951, 148.9197, 26.62671, 0.2038682, 
 /* @teleloc 0xDD4A000F [40.479510 148.919700 26.626710] 0.203868 0.000000 0.000000 -0.978998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD4A006, 0x7DD4A007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7DD4A006, 0x7DD4A007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD4A007,  8037, 0xDD4A000F, 40.47951, 148.9197, 26.62671, 0.2038682, 0, 0, -0.9789984,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

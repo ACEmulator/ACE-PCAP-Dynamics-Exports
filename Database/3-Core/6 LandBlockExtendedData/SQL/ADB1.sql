@@ -5,14 +5,14 @@ VALUES (0x7ADB1001,  1154, 0xADB10030, 138.8418, 174.8508, 38.29231, 0.91456, 0,
 /* @teleloc 0xADB10030 [138.841800 174.850800 38.292310] 0.914560 0.000000 0.000000 -0.404450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB1001, 0x7ADB1002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ADB1001, 0x7ADB1003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7ADB1001, 0x7ADB1004, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ADB1001, 0x7ADB1005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7ADB1001, 0x7ADB1006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB1001, 0x7ADB1007, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB1001, 0x7ADB1008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB1001, 0x7ADB1009, '2019-02-10 00:00:00') /* Mite Snippet */;
+VALUES (0x7ADB1001, 0x7ADB1002, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ADB1001, 0x7ADB1003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7ADB1001, 0x7ADB1004, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ADB1001, 0x7ADB1005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7ADB1001, 0x7ADB1006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB1001, 0x7ADB1007, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB1001, 0x7ADB1008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ADB1001, 0x7ADB1009, '2019-02-10 00:00:00') /* Mite Snippet (19260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB1002, 19259, 0xADB10030, 138.8418, 174.8508, 38.29231, 0.91456, 0, 0, -0.4044501,  True, '2019-02-10 00:00:00'); /* Mite Scion */

@@ -5,11 +5,11 @@ VALUES (0x7265A001,  1154, 0x265A002D, 126.5792, 112.0834, 0.00999999, 0.8915453
 /* @teleloc 0x265A002D [126.579200 112.083400 0.010000] 0.891545 0.000000 0.000000 -0.452932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7265A001, 0x7265A002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7265A001, 0x7265A003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7265A001, 0x7265A004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7265A001, 0x7265A005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7265A001, 0x7265A006, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x7265A001, 0x7265A002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7265A001, 0x7265A003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7265A001, 0x7265A004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7265A001, 0x7265A005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7265A001, 0x7265A006, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7265A002,  8138, 0x265A002D, 126.5792, 112.0834, 0.00999999, 0.8915453, 0, 0, -0.4529315,  True, '2019-02-10 00:00:00'); /* Extas Raider */

@@ -5,17 +5,17 @@ VALUES (0x7164E001,  1154, 0x164E0013, 68.47157, 55.73878, 40.52877, 0.8191521, 
 /* @teleloc 0x164E0013 [68.471570 55.738780 40.528770] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164E001, 0x7164E002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7164E001, 0x7164E003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7164E001, 0x7164E004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7164E001, 0x7164E005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7164E001, 0x7164E006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7164E001, 0x7164E007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164E001, 0x7164E008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164E001, 0x7164E009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7164E001, 0x7164E00A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164E001, 0x7164E00B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7164E001, 0x7164E00C, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x7164E001, 0x7164E002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7164E001, 0x7164E003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7164E001, 0x7164E004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7164E001, 0x7164E005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7164E001, 0x7164E006, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7164E001, 0x7164E007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164E001, 0x7164E008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164E001, 0x7164E009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7164E001, 0x7164E00A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164E001, 0x7164E00B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7164E001, 0x7164E00C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164E002, 23566, 0x164E0013, 68.47157, 55.73878, 40.52877, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -66,7 +66,7 @@ VALUES (0x7164E00D,  1542, 0x164E0013, 69.47769, 55.6801, 40.34041, 1, 0, 0, 0, 
 /* @teleloc 0x164E0013 [69.477690 55.680100 40.340410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164E00D, 0x7164E00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7164E00D, 0x7164E00E, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164E00E, 22566, 0x164E0013, 69.47769, 55.6801, 40.34041, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

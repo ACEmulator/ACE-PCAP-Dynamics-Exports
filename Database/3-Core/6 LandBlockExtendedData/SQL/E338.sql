@@ -5,18 +5,18 @@ VALUES (0x7E338001,  1154, 0xE3380021, 97.31826, 9.675327, 97.68766, 0.4226182, 
 /* @teleloc 0xE3380021 [97.318260 9.675327 97.687660] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E338001, 0x7E338002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E338001, 0x7E338003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E338001, 0x7E338004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E338001, 0x7E338005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E338001, 0x7E338006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7E338001, 0x7E338007, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7E338001, 0x7E338008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7E338001, 0x7E338009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E338001, 0x7E33800A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E338001, 0x7E33800B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E338001, 0x7E33800C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E338001, 0x7E33800D, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7E338001, 0x7E338002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E338001, 0x7E338003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E338001, 0x7E338004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E338001, 0x7E338005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E338001, 0x7E338006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7E338001, 0x7E338007, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7E338001, 0x7E338008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7E338001, 0x7E338009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E338001, 0x7E33800A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E338001, 0x7E33800B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E338001, 0x7E33800C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E338001, 0x7E33800D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E338002,  1609, 0xE3380021, 97.31826, 9.675327, 97.68766, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

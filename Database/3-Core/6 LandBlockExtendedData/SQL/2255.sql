@@ -5,9 +5,9 @@ VALUES (0x72255001,  1154, 0x2255001B, 84.14986, 52.52995, 0.006500006, 0.484771
 /* @teleloc 0x2255001B [84.149860 52.529950 0.006500] 0.484771 0.000000 0.000000 -0.874641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72255001, 0x72255002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72255001, 0x72255003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72255001, 0x72255004, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x72255001, 0x72255002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72255001, 0x72255003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72255001, 0x72255004, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72255002, 21551, 0x2255001B, 84.14986, 52.52995, 0.006500006, 0.4847713, 0, 0, -0.8746409,  True, '2019-02-10 00:00:00'); /* Strife Wisp */

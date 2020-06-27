@@ -5,12 +5,12 @@ VALUES (0x71847001,  1154, 0x18470012, 51.46549, 26.66228, 5.569498, 0.9714216, 
 /* @teleloc 0x18470012 [51.465490 26.662280 5.569498] 0.971422 0.000000 0.000000 -0.237361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71847001, 0x71847002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x71847001, 0x71847003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71847001, 0x71847004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71847001, 0x71847005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71847001, 0x71847006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71847001, 0x71847007, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x71847001, 0x71847002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x71847001, 0x71847003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71847001, 0x71847004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71847001, 0x71847005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71847001, 0x71847006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71847001, 0x71847007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71847002, 22053, 0x18470012, 51.46549, 26.66228, 5.569498, 0.9714216, 0, 0, -0.2373606,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -41,7 +41,7 @@ VALUES (0x71847008,  1542, 0x18470034, 146.8599, 76.89515, 58.02217, -0.4693564,
 /* @teleloc 0x18470034 [146.859900 76.895150 58.022170] -0.469356 0.000000 0.000000 -0.883009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71847008, 0x71847009, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71847008, 0x71847009, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71847009,  9288, 0x18470034, 146.8599, 76.89515, 58.02217, -0.4693564, 0, 0, -0.8830088,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

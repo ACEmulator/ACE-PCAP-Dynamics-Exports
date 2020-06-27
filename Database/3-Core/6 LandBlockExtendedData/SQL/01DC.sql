@@ -29,33 +29,33 @@ VALUES (0x701DC01A,  1154, 0x01DC0124, 24.2404, -11.3246, 0.003324986, -0.729119
 /* @teleloc 0x01DC0124 [24.240400 -11.324600 0.003325] -0.729119 0.000000 0.000000 -0.684387 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DC01A, 0x701DC01B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC01C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC01D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC01E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC01F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC020, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC021, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC022, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC023, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC024, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC025, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DC01A, 0x701DC026, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DC01A, 0x701DC027, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC028, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC029, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC02A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x701DC01A, 0x701DC02B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701DC01A, 0x701DC02C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DC01A, 0x701DC02D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC02E, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC02F, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC030, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC031, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC032, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DC01A, 0x701DC033, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701DC01A, 0x701DC034, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701DC01A, 0x701DC035, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x701DC01A, 0x701DC01B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC01C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC01D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC01E, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC01F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC020, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC021, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC022, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC023, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC024, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC025, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DC01A, 0x701DC026, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DC01A, 0x701DC027, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC028, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC029, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC02A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x701DC01A, 0x701DC02B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701DC01A, 0x701DC02C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DC01A, 0x701DC02D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC02E, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC02F, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC030, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC031, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC032, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DC01A, 0x701DC033, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701DC01A, 0x701DC034, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC01A, 0x701DC035, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DC01B,     7, 0x01DC0124, 24.2404, -11.3246, 0.003324986, -0.729119, 0, 0, -0.684387,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

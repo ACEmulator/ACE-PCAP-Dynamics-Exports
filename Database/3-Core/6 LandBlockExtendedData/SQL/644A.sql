@@ -425,180 +425,180 @@ VALUES (0x7644A11E,  1154, 0x644A0344, 120, -60, -5.995, 1, 0, 0, 0, False, '201
 /* @teleloc 0x644A0344 [120.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A11E, 0x7644A11F, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A120, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A121, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A122, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A123, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A124, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A125, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A126, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A127, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A128, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A129, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A12A, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A12B, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A12C, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A12D, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A12E, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A12F, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A130, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7644A11E, 0x7644A131, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7644A11E, 0x7644A132, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7644A11E, 0x7644A133, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A134, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A135, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A136, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A137, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A138, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A139, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A13A, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A13B, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A13C, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A13D, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A13E, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A13F, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A140, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A141, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A142, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A143, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A144, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A145, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A146, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A147, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A148, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A149, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A14A, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A14B, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A14C, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A14D, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A14E, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A14F, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A150, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A151, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A152, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A153, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A154, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A155, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A156, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A157, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A158, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A159, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A15A, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A15B, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A15C, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A15D, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A15E, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A15F, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A160, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A161, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7644A11E, 0x7644A162, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A163, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A164, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A165, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A166, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A167, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A168, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A169, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A16A, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A16B, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A16C, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A16D, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A16E, '2019-02-10 00:00:00') /* Rayssid Ibn Alhath */
-     , (0x7644A11E, 0x7644A16F, '2019-02-10 00:00:00') /* Rheth Al'Thok */
-     , (0x7644A11E, 0x7644A170, '2019-02-10 00:00:00') /* Tiyol Ibn Yufaj */
-     , (0x7644A11E, 0x7644A171, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A172, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A173, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A174, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A175, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A176, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A177, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7644A11E, 0x7644A178, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A179, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A17A, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A17B, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A17C, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A17D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A17E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A17F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7644A11E, 0x7644A180, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A181, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A182, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A183, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A184, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A185, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A186, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A187, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A188, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A189, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A18A, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A18B, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A18C, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A18D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A18E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A18F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A190, '2019-02-10 00:00:00') /* Tiyol Ibn Yufaj */
-     , (0x7644A11E, 0x7644A191, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7644A11E, 0x7644A192, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A193, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A194, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A195, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A196, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7644A11E, 0x7644A197, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A198, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A199, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A19A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A19B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A19C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A19D, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A19E, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A19F, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1A0, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A1A1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A1A2, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A1A3, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A1A4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A1A5, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1A6, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A1A7, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A1A8, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1A9, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7644A11E, 0x7644A1AA, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1AB, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1AC, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1AD, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A1AE, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1AF, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1B0, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1B1, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A1B2, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A1B3, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1B4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A1B5, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1B6, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1B7, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7644A11E, 0x7644A1B8, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7644A11E, 0x7644A1B9, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1BA, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A1BB, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1BC, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A1BD, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A1BE, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A1BF, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7644A11E, 0x7644A1C0, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1C1, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1C2, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1C3, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7644A11E, 0x7644A1C4, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7644A11E, 0x7644A1C5, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7644A11E, 0x7644A1C6, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1C7, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1C8, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1C9, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1CA, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7644A11E, 0x7644A1CB, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7644A11E, 0x7644A1CC, '2019-02-10 00:00:00') /* Crazed Zharalim */;
+VALUES (0x7644A11E, 0x7644A11F, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A120, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A121, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A122, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A123, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A124, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A125, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A126, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A127, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A128, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A129, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A12A, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A12B, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A12C, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A12D, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A12E, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A12F, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A130, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7644A11E, 0x7644A131, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7644A11E, 0x7644A132, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7644A11E, 0x7644A133, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A134, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A135, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A136, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A137, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A138, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A139, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A13A, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A13B, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A13C, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A13D, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A13E, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A13F, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A140, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A141, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A142, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A143, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A144, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A145, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A146, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A147, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A148, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A149, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A14A, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A14B, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A14C, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A14D, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A14E, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A14F, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A150, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A151, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A152, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A153, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A154, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A155, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A156, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A157, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A158, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A159, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A15A, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A15B, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A15C, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A15D, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A15E, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A15F, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A160, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A161, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7644A11E, 0x7644A162, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A163, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A164, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A165, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A166, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A167, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A168, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A169, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A16A, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A16B, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A16C, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A16D, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A16E, '2019-02-10 00:00:00') /* Rayssid Ibn Alhath (25967) */
+     , (0x7644A11E, 0x7644A16F, '2019-02-10 00:00:00') /* Rheth Al'Thok (25968) */
+     , (0x7644A11E, 0x7644A170, '2019-02-10 00:00:00') /* Tiyol Ibn Yufaj (25969) */
+     , (0x7644A11E, 0x7644A171, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A172, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A173, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A174, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A175, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A176, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A177, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A11E, 0x7644A178, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A179, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A17A, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A17B, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A17C, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A17D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A17E, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A17F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7644A11E, 0x7644A180, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A181, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A182, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A183, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A184, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A185, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A186, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A187, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A188, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A189, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A18A, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A18B, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A18C, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A18D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A18E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A18F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A190, '2019-02-10 00:00:00') /* Tiyol Ibn Yufaj (25969) */
+     , (0x7644A11E, 0x7644A191, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A11E, 0x7644A192, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A193, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A194, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A195, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A196, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7644A11E, 0x7644A197, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A198, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A199, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A19A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A19B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A19C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A19D, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A19E, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A19F, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1A0, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A1A1, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A1A2, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A1A3, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A1A4, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A1A5, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1A6, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A1A7, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A1A8, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A1A9, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A11E, 0x7644A1AA, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A1AB, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1AC, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1AD, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A11E, 0x7644A1AE, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1AF, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1B0, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A1B1, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A1B2, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A1B3, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1B4, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A1B5, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1B6, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1B7, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A11E, 0x7644A1B8, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A11E, 0x7644A1B9, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1BA, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A1BB, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1BC, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A1BD, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A1BE, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A1BF, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A11E, 0x7644A1C0, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1C1, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A1C2, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1C3, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A11E, 0x7644A1C4, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A11E, 0x7644A1C5, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A11E, 0x7644A1C6, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1C7, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1C8, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A11E, 0x7644A1C9, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A11E, 0x7644A1CA, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A11E, 0x7644A1CB, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A11E, 0x7644A1CC, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A11F, 25965, 0x644A0344, 120, -60, -5.995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Maddened Zharalim */
@@ -1301,7 +1301,7 @@ VALUES (0x7644A1CD,  1154, 0x644A0390, 117.039, -52.0268, 0.004999995, 0.9623619
 /* @teleloc 0x644A0390 [117.039000 -52.026800 0.005000] 0.962362 0.000000 0.000000 -0.271771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A1CD, 0x7644A1CE, '2019-02-10 00:00:00') /* Yalik Ibn Ujsef */;
+VALUES (0x7644A1CD, 0x7644A1CE, '2019-02-10 00:00:00') /* Yalik Ibn Ujsef (25974) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A1CE, 25974, 0x644A0390, 117.039, -52.0268, 0.004999995, 0.9623619, 0, 0, -0.271771,  True, '2019-02-10 00:00:00'); /* Yalik Ibn Ujsef */
@@ -1312,8 +1312,8 @@ VALUES (0x7644A1CF,  1542, 0x644A0194, 131.736, -62.7425, -35.943, 0.338137, 0, 
 /* @teleloc 0x644A0194 [131.736000 -62.742500 -35.943000] 0.338137 0.000000 0.000000 0.941097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A1CF, 0x7644A1D0, '2019-02-10 00:00:00') /* Zharalim Foreman's Journal */
-     , (0x7644A1CF, 0x7644A1D1, '2019-02-10 00:00:00') /* Zharalim Master's Journal */;
+VALUES (0x7644A1CF, 0x7644A1D0, '2019-02-10 00:00:00') /* Zharalim Foreman's Journal (25979) */
+     , (0x7644A1CF, 0x7644A1D1, '2019-02-10 00:00:00') /* Zharalim Master's Journal (25980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A1D0, 25979, 0x644A0194, 131.736, -62.7425, -35.943, 0.338137, 0, 0, 0.9410969,  True, '2019-02-10 00:00:00'); /* Zharalim Foreman's Journal */

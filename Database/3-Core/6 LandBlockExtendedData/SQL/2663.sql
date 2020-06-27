@@ -5,9 +5,9 @@ VALUES (0x72663001,  1154, 0x26630037, 156.2068, 156.3341, 45.09615, -0.2310318,
 /* @teleloc 0x26630037 [156.206800 156.334100 45.096150] -0.231032 0.000000 0.000000 -0.972946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72663001, 0x72663002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72663001, 0x72663003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72663001, 0x72663004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72663001, 0x72663002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72663001, 0x72663003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72663001, 0x72663004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72663002, 36830, 0x26630037, 156.2068, 156.3341, 45.09615, -0.2310318, 0, 0, -0.9729462,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

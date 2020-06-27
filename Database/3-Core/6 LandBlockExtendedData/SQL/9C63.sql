@@ -5,12 +5,12 @@ VALUES (0x79C63001,  1154, 0x9C63000F, 41.49439, 149.4098, 60.44671, -0.5308917,
 /* @teleloc 0x9C63000F [41.494390 149.409800 60.446710] -0.530892 0.000000 0.000000 -0.847440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C63001, 0x79C63002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79C63001, 0x79C63003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79C63001, 0x79C63004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79C63001, 0x79C63005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79C63001, 0x79C63006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79C63001, 0x79C63007, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x79C63001, 0x79C63002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79C63001, 0x79C63003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79C63001, 0x79C63004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79C63001, 0x79C63005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79C63001, 0x79C63006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79C63001, 0x79C63007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C63002,   202, 0x9C63000F, 41.49439, 149.4098, 60.44671, -0.5308917, 0, 0, -0.8474396,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

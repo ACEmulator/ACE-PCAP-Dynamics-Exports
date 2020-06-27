@@ -5,10 +5,10 @@ VALUES (0x7D55A001,  1154, 0xD55A0011, 54.61837, 18.43598, 27.90464, 0.6537739, 
 /* @teleloc 0xD55A0011 [54.618370 18.435980 27.904640] 0.653774 0.000000 0.000000 -0.756690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D55A001, 0x7D55A002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D55A001, 0x7D55A003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D55A001, 0x7D55A004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D55A001, 0x7D55A005, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7D55A001, 0x7D55A002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D55A001, 0x7D55A003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D55A001, 0x7D55A004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D55A001, 0x7D55A005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D55A002,  2612, 0xD55A0011, 54.61837, 18.43598, 27.90464, 0.6537739, 0, 0, -0.75669,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

@@ -5,13 +5,13 @@ VALUES (0x71058001,  1154, 0x10580010, 26.73288, 188.0901, -0.4435, 0.9961947, 0
 /* @teleloc 0x10580010 [26.732880 188.090100 -0.443500] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71058001, 0x71058002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71058001, 0x71058003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71058001, 0x71058004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71058001, 0x71058005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71058001, 0x71058006, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71058001, 0x71058007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71058001, 0x71058008, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x71058001, 0x71058002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71058001, 0x71058003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71058001, 0x71058004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71058001, 0x71058005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71058001, 0x71058006, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71058001, 0x71058007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71058001, 0x71058008, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71058002, 22910, 0x10580010, 26.73288, 188.0901, -0.4435, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

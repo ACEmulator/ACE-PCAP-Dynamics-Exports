@@ -49,20 +49,20 @@ VALUES (0x7015501A,  1154, 0x01550184, 8.975473, -35.357, 5.849475, -0.563526, 0
 /* @teleloc 0x01550184 [8.975473 -35.357000 5.849475] -0.563526 0.000000 0.000000 -0.826099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015501A, 0x7015501B, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x7015501C, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x7015501D, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x7015501E, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7015501A, 0x7015501F, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7015501A, 0x70155020, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7015501A, 0x70155021, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x70155022, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x70155023, '2019-02-10 00:00:00') /* Crazed Zharalim */
-     , (0x7015501A, 0x70155024, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7015501A, 0x70155025, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x70155026, '2019-02-10 00:00:00') /* Maddened Zharalim */
-     , (0x7015501A, 0x70155027, '2019-02-10 00:00:00') /* Demented Zharalim */
-     , (0x7015501A, 0x70155028, '2019-02-10 00:00:00') /* Demented Zharalim */;
+VALUES (0x7015501A, 0x7015501B, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7015501A, 0x7015501C, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7015501A, 0x7015501D, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7015501A, 0x7015501E, '2019-02-10 00:00:00') /* Crazed Zharalim (25962) */
+     , (0x7015501A, 0x7015501F, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7015501A, 0x70155020, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7015501A, 0x70155021, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7015501A, 0x70155022, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7015501A, 0x70155023, '2019-02-10 00:00:00') /* Crazed Zharalim (25961) */
+     , (0x7015501A, 0x70155024, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7015501A, 0x70155025, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7015501A, 0x70155026, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7015501A, 0x70155027, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
+     , (0x7015501A, 0x70155028, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015501B, 25965, 0x01550184, 8.975473, -35.357, 5.849475, -0.563526, 0, 0, -0.826099,  True, '2019-02-10 00:00:00'); /* Maddened Zharalim */
@@ -125,8 +125,8 @@ VALUES (0x70155029,  1542, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.64
 /* @teleloc 0x01550104 [30.000000 -50.000000 -11.983500] 0.764842 0.000000 0.000000 -0.644218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70155029, 0x7015502A, '2019-02-10 00:00:00') /* Samsur Town Stamp */
-     , (0x70155029, 0x7015502B, '2019-02-10 00:00:00') /* The Hundred Trackless Paths */;
+VALUES (0x70155029, 0x7015502A, '2019-02-10 00:00:00') /* Samsur Town Stamp (8739) */
+     , (0x70155029, 0x7015502B, '2019-02-10 00:00:00') /* The Hundred Trackless Paths (5129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015502A,  8739, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.644218,  True, '2019-02-10 00:00:00'); /* Samsur Town Stamp */

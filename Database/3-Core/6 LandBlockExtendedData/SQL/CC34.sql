@@ -5,11 +5,11 @@ VALUES (0x7CC34001,  1154, 0xCC34001B, 73.336, 56.37733, 254, -0.2149919, 0, 0, 
 /* @teleloc 0xCC34001B [73.336000 56.377330 254.000000] -0.214992 0.000000 0.000000 -0.976616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC34001, 0x7CC34002, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7CC34001, 0x7CC34003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CC34001, 0x7CC34004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CC34001, 0x7CC34005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CC34001, 0x7CC34006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7CC34001, 0x7CC34002, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7CC34001, 0x7CC34003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CC34001, 0x7CC34004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CC34001, 0x7CC34005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CC34001, 0x7CC34006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC34002, 12000, 0xCC34001B, 73.336, 56.37733, 254, -0.2149919, 0, 0, -0.9766158,  True, '2019-02-10 00:00:00'); /* Tundra Mattekar */

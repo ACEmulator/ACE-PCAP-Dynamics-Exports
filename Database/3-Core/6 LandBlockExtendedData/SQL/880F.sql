@@ -5,15 +5,15 @@ VALUES (0x7880F001,  1154, 0x880F0014, 58.7167, 89.88432, 26.14297, -0.7930434, 
 /* @teleloc 0x880F0014 [58.716700 89.884320 26.142970] -0.793043 0.000000 0.000000 -0.609165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7880F001, 0x7880F002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7880F001, 0x7880F003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7880F001, 0x7880F004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7880F001, 0x7880F005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7880F001, 0x7880F006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7880F001, 0x7880F007, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7880F001, 0x7880F008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7880F001, 0x7880F009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880F001, 0x7880F00A, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7880F001, 0x7880F002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7880F001, 0x7880F003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7880F001, 0x7880F004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7880F001, 0x7880F005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7880F001, 0x7880F006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7880F001, 0x7880F007, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7880F001, 0x7880F008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7880F001, 0x7880F009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880F001, 0x7880F00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880F002,  7105, 0x880F0014, 58.7167, 89.88432, 26.14297, -0.7930434, 0, 0, -0.6091652,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

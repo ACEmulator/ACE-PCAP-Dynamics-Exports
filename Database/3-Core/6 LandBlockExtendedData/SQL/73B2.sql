@@ -5,17 +5,17 @@ VALUES (0x773B2001,  1154, 0x73B20001, 21.88476, 13.56488, 106.3645, -0.9940931,
 /* @teleloc 0x73B20001 [21.884760 13.564880 106.364500] -0.994093 0.000000 0.000000 -0.108530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B2001, 0x773B2002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B2001, 0x773B2003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B2001, 0x773B2004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B2001, 0x773B2005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x773B2001, 0x773B2006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x773B2001, 0x773B2007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x773B2001, 0x773B2008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x773B2001, 0x773B2009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x773B2001, 0x773B200A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x773B2001, 0x773B200B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x773B2001, 0x773B200C, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x773B2001, 0x773B2002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B2001, 0x773B2003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B2001, 0x773B2004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B2001, 0x773B2005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x773B2001, 0x773B2006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x773B2001, 0x773B2007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x773B2001, 0x773B2008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x773B2001, 0x773B2009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x773B2001, 0x773B200A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x773B2001, 0x773B200B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x773B2001, 0x773B200C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B2002,  7105, 0x73B20001, 21.88476, 13.56488, 106.3645, -0.9940931, 0, 0, -0.1085303,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -66,8 +66,8 @@ VALUES (0x773B200D,  1542, 0x73B20022, 118.888, 43.92384, 114.5486, 1, 0, 0, 0, 
 /* @teleloc 0x73B20022 [118.888000 43.923840 114.548600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773B200D, 0x773B200E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x773B200D, 0x773B200F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x773B200D, 0x773B200E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x773B200D, 0x773B200F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773B200E, 22567, 0x73B20022, 118.888, 43.92384, 114.5486, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

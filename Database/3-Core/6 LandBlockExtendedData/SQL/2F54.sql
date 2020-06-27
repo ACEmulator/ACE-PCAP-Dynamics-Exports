@@ -5,13 +5,13 @@ VALUES (0x72F54001,  1154, 0x2F54001D, 90.59386, 96.0857, 25.55913, -0.9992363, 
 /* @teleloc 0x2F54001D [90.593860 96.085700 25.559130] -0.999236 0.000000 0.000000 -0.039074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F54001, 0x72F54002, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72F54001, 0x72F54003, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72F54001, 0x72F54004, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72F54001, 0x72F54005, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72F54001, 0x72F54006, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72F54001, 0x72F54007, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72F54001, 0x72F54008, '2019-02-10 00:00:00') /* Obliterator */;
+VALUES (0x72F54001, 0x72F54002, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72F54001, 0x72F54003, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72F54001, 0x72F54004, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72F54001, 0x72F54005, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72F54001, 0x72F54006, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72F54001, 0x72F54007, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72F54001, 0x72F54008, '2019-02-10 00:00:00') /* Obliterator (22903) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F54002, 25806, 0x2F54001D, 90.59386, 96.0857, 25.55913, -0.9992363, 0, 0, -0.03907416,  True, '2019-02-10 00:00:00'); /* Tormenter */

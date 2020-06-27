@@ -5,23 +5,23 @@ VALUES (0x7A383001,  1154, 0xA3830033, 164.9091, 68.05251, 23.8877, 0.9238795, 0
 /* @teleloc 0xA3830033 [164.909100 68.052510 23.887700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A383001, 0x7A383002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A383001, 0x7A383003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A383001, 0x7A383004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A383001, 0x7A383005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A383001, 0x7A383006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A383001, 0x7A383007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A383001, 0x7A383008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A383001, 0x7A383009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A383001, 0x7A38300A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A383001, 0x7A38300B, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A383001, 0x7A38300C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A383001, 0x7A38300D, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A383001, 0x7A38300E, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A383001, 0x7A38300F, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A383001, 0x7A383010, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A383001, 0x7A383011, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A383001, 0x7A383012, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7A383001, 0x7A383002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A383001, 0x7A383003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A383001, 0x7A383004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A383001, 0x7A383005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A383001, 0x7A383006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A383001, 0x7A383007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A383001, 0x7A383008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A383001, 0x7A383009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A383001, 0x7A38300A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A383001, 0x7A38300B, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A383001, 0x7A38300C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A383001, 0x7A38300D, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A383001, 0x7A38300E, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A383001, 0x7A38300F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A383001, 0x7A383010, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A383001, 0x7A383011, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A383001, 0x7A383012, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A383002,  8270, 0xA3830033, 164.9091, 68.05251, 23.8877, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
@@ -96,7 +96,7 @@ VALUES (0x7A383013,  1542, 0xA3830011, 69.90257, 23.15878, 19.83451, 1, 0, 0, 0,
 /* @teleloc 0xA3830011 [69.902570 23.158780 19.834510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A383013, 0x7A383014, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7A383013, 0x7A383014, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A383014,  5779, 0xA3830011, 69.90257, 23.15878, 19.83451, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Strange Stick */

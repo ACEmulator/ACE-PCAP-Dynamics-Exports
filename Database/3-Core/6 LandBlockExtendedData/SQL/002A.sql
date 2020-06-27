@@ -9,16 +9,16 @@ VALUES (0x7002A0DD,  1154, 0x002A02C8, 130.576, -204.319, -11.99, 0.98496, 0, 0,
 /* @teleloc 0x002A02C8 [130.576000 -204.319000 -11.990000] 0.984960 0.000000 0.000000 0.172783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7002A0DD, 0x7002A0DE, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0DF, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E0, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E1, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E2, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E3, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E4, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E5, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E6, '2019-02-10 00:00:00') /* Tukora Sentinel */
-     , (0x7002A0DD, 0x7002A0E7, '2019-02-10 00:00:00') /* Tukora Sentinel */;
+VALUES (0x7002A0DD, 0x7002A0DE, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0DF, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E0, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E1, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E2, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E3, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E4, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E5, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E6, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */
+     , (0x7002A0DD, 0x7002A0E7, '2019-02-10 00:00:00') /* Tukora Sentinel (31004) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002A0DE, 31004, 0x002A02C8, 130.576, -204.319, -11.99, 0.98496, 0, 0, 0.172783,  True, '2019-02-10 00:00:00'); /* Tukora Sentinel */

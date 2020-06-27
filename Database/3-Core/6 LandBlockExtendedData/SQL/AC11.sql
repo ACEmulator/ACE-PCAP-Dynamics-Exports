@@ -5,9 +5,9 @@ VALUES (0x7AC11001,  1154, 0xAC110016, 70.44132, 129.1229, 122.4026, 0.8751901, 
 /* @teleloc 0xAC110016 [70.441320 129.122900 122.402600] 0.875190 0.000000 0.000000 -0.483779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC11001, 0x7AC11002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AC11001, 0x7AC11003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AC11001, 0x7AC11004, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7AC11001, 0x7AC11002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AC11001, 0x7AC11003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AC11001, 0x7AC11004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC11002,  1757, 0xAC110016, 70.44132, 129.1229, 122.4026, 0.8751901, 0, 0, -0.4837791,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

@@ -5,9 +5,9 @@ VALUES (0x7AB5F001,  1154, 0xAB5F0027, 108.9972, 144.3113, 27.41466, -0.5832587,
 /* @teleloc 0xAB5F0027 [108.997200 144.311300 27.414660] -0.583259 0.000000 0.000000 -0.812286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB5F001, 0x7AB5F002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB5F001, 0x7AB5F003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AB5F001, 0x7AB5F004, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7AB5F001, 0x7AB5F002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AB5F001, 0x7AB5F003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AB5F001, 0x7AB5F004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB5F002,   226, 0xAB5F0027, 108.9972, 144.3113, 27.41466, -0.5832587, 0, 0, -0.8122864,  True, '2019-02-10 00:00:00'); /* High Tumerok */

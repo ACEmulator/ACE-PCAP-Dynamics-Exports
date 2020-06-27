@@ -5,12 +5,12 @@ VALUES (0x72497001,  1154, 0x2497003B, 168.4064, 59.99043, 54.99002, -4.371139E-
 /* @teleloc 0x2497003B [168.406400 59.990430 54.990020] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72497001, 0x72497002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72497001, 0x72497003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72497001, 0x72497004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x72497001, 0x72497005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72497001, 0x72497006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72497001, 0x72497007, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72497001, 0x72497002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72497001, 0x72497003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72497001, 0x72497004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x72497001, 0x72497005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72497001, 0x72497006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72497001, 0x72497007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72497002, 36843, 0x2497003B, 168.4064, 59.99043, 54.99002, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */

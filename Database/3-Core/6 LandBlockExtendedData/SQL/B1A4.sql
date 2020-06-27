@@ -5,32 +5,32 @@ VALUES (0x7B1A4001,  1154, 0xB1A4000C, 34.04717, 95.49836, 85.9703, 0.5664063, 0
 /* @teleloc 0xB1A4000C [34.047170 95.498360 85.970300] 0.566406 0.000000 0.000000 -0.824126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A4001, 0x7B1A4002, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A4003, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A4004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A4001, 0x7B1A4005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A4001, 0x7B1A4006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B1A4001, 0x7B1A4007, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B1A4001, 0x7B1A4008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1A4001, 0x7B1A4009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A4001, 0x7B1A400A, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A400B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1A4001, 0x7B1A400C, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B1A4001, 0x7B1A400D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B1A4001, 0x7B1A400E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1A4001, 0x7B1A400F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B1A4001, 0x7B1A4010, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1A4001, 0x7B1A4011, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B1A4001, 0x7B1A4012, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A4013, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A4014, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1A4001, 0x7B1A4015, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A4001, 0x7B1A4016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A4001, 0x7B1A4017, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1A4001, 0x7B1A4018, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A4001, 0x7B1A4019, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A4001, 0x7B1A401A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1A4001, 0x7B1A401B, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7B1A4001, 0x7B1A4002, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A4003, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A4004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A4001, 0x7B1A4005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A4001, 0x7B1A4006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B1A4001, 0x7B1A4007, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B1A4001, 0x7B1A4008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1A4001, 0x7B1A4009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A4001, 0x7B1A400A, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A400B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1A4001, 0x7B1A400C, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B1A4001, 0x7B1A400D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B1A4001, 0x7B1A400E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1A4001, 0x7B1A400F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B1A4001, 0x7B1A4010, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1A4001, 0x7B1A4011, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B1A4001, 0x7B1A4012, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A4013, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A4014, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1A4001, 0x7B1A4015, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A4001, 0x7B1A4016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A4001, 0x7B1A4017, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1A4001, 0x7B1A4018, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A4001, 0x7B1A4019, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A4001, 0x7B1A401A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1A4001, 0x7B1A401B, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A4002,    11, 0xB1A4000C, 34.04717, 95.49836, 85.9703, 0.5664063, 0, 0, -0.8241262,  True, '2019-02-10 00:00:00'); /* Male Tusker */
@@ -141,7 +141,7 @@ VALUES (0x7B1A401C,  1542, 0xB1A4000D, 27.10009, 102.8077, 86, 0.9659258, 0, 0, 
 /* @teleloc 0xB1A4000D [27.100090 102.807700 86.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A401C, 0x7B1A401D, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B1A401C, 0x7B1A401D, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A401D,  4180, 0xB1A4000D, 27.10009, 102.8077, 86, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

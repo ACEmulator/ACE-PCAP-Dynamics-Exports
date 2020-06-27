@@ -5,21 +5,21 @@ VALUES (0x71D6F001,  1154, 0x1D6F0020, 85.41374, 179.0175, 43.4185, 0.9238795, 0
 /* @teleloc 0x1D6F0020 [85.413740 179.017500 43.418500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6F001, 0x71D6F002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71D6F001, 0x71D6F003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x71D6F001, 0x71D6F004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71D6F001, 0x71D6F005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71D6F001, 0x71D6F006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6F001, 0x71D6F007, '2019-02-10 00:00:00') /* Frost */
-     , (0x71D6F001, 0x71D6F008, '2019-02-10 00:00:00') /* Gelid */
-     , (0x71D6F001, 0x71D6F009, '2019-02-10 00:00:00') /* Frost */
-     , (0x71D6F001, 0x71D6F00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6F001, 0x71D6F00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6F001, 0x71D6F00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D6F001, 0x71D6F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71D6F001, 0x71D6F00E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71D6F001, 0x71D6F00F, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71D6F001, 0x71D6F010, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71D6F001, 0x71D6F002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71D6F001, 0x71D6F003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x71D6F001, 0x71D6F004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71D6F001, 0x71D6F005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71D6F001, 0x71D6F006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6F001, 0x71D6F007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71D6F001, 0x71D6F008, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x71D6F001, 0x71D6F009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71D6F001, 0x71D6F00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6F001, 0x71D6F00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6F001, 0x71D6F00C, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D6F001, 0x71D6F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71D6F001, 0x71D6F00E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71D6F001, 0x71D6F00F, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71D6F001, 0x71D6F010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D6F002,  4254, 0x1D6F0020, 85.41374, 179.0175, 43.4185, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

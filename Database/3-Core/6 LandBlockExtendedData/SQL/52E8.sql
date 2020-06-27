@@ -5,8 +5,8 @@ VALUES (0x752E8001,  1154, 0x52E80026, 118.6852, 120.9201, 33.90417, 0.8191521, 
 /* @teleloc 0x52E80026 [118.685200 120.920100 33.904170] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752E8001, 0x752E8002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x752E8001, 0x752E8003, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x752E8001, 0x752E8002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x752E8001, 0x752E8003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752E8002,  9264, 0x52E80026, 118.6852, 120.9201, 33.90417, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -21,7 +21,7 @@ VALUES (0x752E8004,  1542, 0x52E80025, 118.1263, 118.755, 33.90417, 1, 0, 0, 0, 
 /* @teleloc 0x52E80025 [118.126300 118.755000 33.904170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752E8004, 0x752E8005, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x752E8004, 0x752E8005, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752E8005,  8999, 0x52E80025, 118.1263, 118.755, 33.90417, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

@@ -5,13 +5,13 @@ VALUES (0x758A3001,  1154, 0x58A30030, 126.7134, 186.0708, 40.23407, 0.8758528, 
 /* @teleloc 0x58A30030 [126.713400 186.070800 40.234070] 0.875853 0.000000 0.000000 -0.482578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758A3001, 0x758A3002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x758A3001, 0x758A3003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x758A3001, 0x758A3004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x758A3001, 0x758A3005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x758A3001, 0x758A3006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x758A3001, 0x758A3007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x758A3001, 0x758A3008, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x758A3001, 0x758A3002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x758A3001, 0x758A3003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x758A3001, 0x758A3004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x758A3001, 0x758A3005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x758A3001, 0x758A3006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x758A3001, 0x758A3007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x758A3001, 0x758A3008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758A3002,  7780, 0x58A30030, 126.7134, 186.0708, 40.23407, 0.8758528, 0, 0, -0.4825783,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -46,8 +46,8 @@ VALUES (0x758A3009,  1542, 0x58A30015, 59.91475, 115.9038, 39.67286, -0.3628334,
 /* @teleloc 0x58A30015 [59.914750 115.903800 39.672860] -0.362833 0.000000 0.000000 -0.931854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758A3009, 0x758A300A, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x758A3009, 0x758A300B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x758A3009, 0x758A300A, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x758A3009, 0x758A300B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758A300A,  8041, 0x58A30015, 59.91475, 115.9038, 39.67286, -0.3628334, 0, 0, -0.931854,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

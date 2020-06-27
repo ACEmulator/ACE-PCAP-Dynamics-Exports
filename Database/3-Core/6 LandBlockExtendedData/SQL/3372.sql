@@ -5,15 +5,15 @@ VALUES (0x73372001,  1154, 0x33720008, 13.98754, 185.6868, 45.92458, 1, 0, 0, 0,
 /* @teleloc 0x33720008 [13.987540 185.686800 45.924580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73372001, 0x73372002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73372001, 0x73372003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73372001, 0x73372004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73372001, 0x73372005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73372001, 0x73372006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73372001, 0x73372007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73372001, 0x73372008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73372001, 0x73372009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73372001, 0x7337200A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x73372001, 0x73372002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73372001, 0x73372003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73372001, 0x73372004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73372001, 0x73372005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73372001, 0x73372006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73372001, 0x73372007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73372001, 0x73372008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73372001, 0x73372009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73372001, 0x7337200A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73372002, 23566, 0x33720008, 13.98754, 185.6868, 45.92458, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -56,8 +56,8 @@ VALUES (0x7337200B,  1542, 0x33720008, 13.08194, 186.4721, 45.88634, 1, 0, 0, 0,
 /* @teleloc 0x33720008 [13.081940 186.472100 45.886340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7337200B, 0x7337200C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7337200B, 0x7337200D, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7337200B, 0x7337200C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7337200B, 0x7337200D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7337200C, 31445, 0x33720008, 13.08194, 186.4721, 45.88634, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

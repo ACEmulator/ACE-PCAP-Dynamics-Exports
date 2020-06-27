@@ -5,13 +5,13 @@ VALUES (0x714B9001,  1154, 0x14B9003A, 171.136, 37.67319, 19.991, -0.9214056, 0,
 /* @teleloc 0x14B9003A [171.136000 37.673190 19.991000] -0.921406 0.000000 0.000000 -0.388602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B9001, 0x714B9002, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x714B9001, 0x714B9003, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x714B9001, 0x714B9004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x714B9001, 0x714B9005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x714B9001, 0x714B9006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x714B9001, 0x714B9007, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x714B9001, 0x714B9008, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x714B9001, 0x714B9002, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x714B9001, 0x714B9003, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x714B9001, 0x714B9004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x714B9001, 0x714B9005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x714B9001, 0x714B9006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x714B9001, 0x714B9007, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x714B9001, 0x714B9008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B9002, 11491, 0x14B9003A, 171.136, 37.67319, 19.991, -0.9214056, 0, 0, -0.3886022,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */

@@ -5,14 +5,14 @@ VALUES (0x70FB8001,  1154, 0x0FB80037, 144.3212, 153.9243, -0.8939999, -0.492157
 /* @teleloc 0x0FB80037 [144.321200 153.924300 -0.894000] -0.492158 0.000000 0.000000 -0.870506 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70FB8001, 0x70FB8002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x70FB8001, 0x70FB8003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x70FB8001, 0x70FB8004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x70FB8001, 0x70FB8005, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x70FB8001, 0x70FB8006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x70FB8001, 0x70FB8007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x70FB8001, 0x70FB8008, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x70FB8001, 0x70FB8009, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x70FB8001, 0x70FB8002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x70FB8001, 0x70FB8003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x70FB8001, 0x70FB8004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x70FB8001, 0x70FB8005, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x70FB8001, 0x70FB8006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x70FB8001, 0x70FB8007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x70FB8001, 0x70FB8008, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x70FB8001, 0x70FB8009, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70FB8002, 11519, 0x0FB80037, 144.3212, 153.9243, -0.8939999, -0.4921578, 0, 0, -0.870506,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */

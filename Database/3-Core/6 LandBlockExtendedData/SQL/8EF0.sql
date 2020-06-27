@@ -5,40 +5,40 @@ VALUES (0x78EF0001,  1154, 0x8EF00038, 148.7558, 190.847, 10.10323, -0.9717422, 
 /* @teleloc 0x8EF00038 [148.755800 190.847000 10.103230] -0.971742 0.000000 0.000000 -0.236045 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EF0001, 0x78EF0002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EF0001, 0x78EF0003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78EF0001, 0x78EF0004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EF0001, 0x78EF0005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EF0001, 0x78EF0006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EF0001, 0x78EF0007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78EF0001, 0x78EF0008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78EF0001, 0x78EF0009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78EF0001, 0x78EF000A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EF0001, 0x78EF000B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EF0001, 0x78EF000C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EF0001, 0x78EF000D, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78EF0001, 0x78EF000E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78EF0001, 0x78EF000F, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EF0001, 0x78EF0010, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EF0001, 0x78EF0011, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EF0001, 0x78EF0012, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EF0001, 0x78EF0013, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EF0001, 0x78EF0014, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EF0001, 0x78EF0015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EF0001, 0x78EF0016, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EF0001, 0x78EF0017, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78EF0001, 0x78EF0018, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78EF0001, 0x78EF0019, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EF0001, 0x78EF001A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78EF0001, 0x78EF001B, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78EF0001, 0x78EF001C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78EF0001, 0x78EF001D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EF0001, 0x78EF001E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EF0001, 0x78EF001F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78EF0001, 0x78EF0020, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EF0001, 0x78EF0021, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EF0001, 0x78EF0022, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EF0001, 0x78EF0023, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78EF0001, 0x78EF0002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EF0001, 0x78EF0003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78EF0001, 0x78EF0004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EF0001, 0x78EF0005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EF0001, 0x78EF0006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EF0001, 0x78EF0007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78EF0001, 0x78EF0008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78EF0001, 0x78EF0009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78EF0001, 0x78EF000A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EF0001, 0x78EF000B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EF0001, 0x78EF000C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EF0001, 0x78EF000D, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78EF0001, 0x78EF000E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78EF0001, 0x78EF000F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EF0001, 0x78EF0010, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EF0001, 0x78EF0011, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EF0001, 0x78EF0012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EF0001, 0x78EF0013, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EF0001, 0x78EF0014, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EF0001, 0x78EF0015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EF0001, 0x78EF0016, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EF0001, 0x78EF0017, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78EF0001, 0x78EF0018, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78EF0001, 0x78EF0019, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EF0001, 0x78EF001A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78EF0001, 0x78EF001B, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78EF0001, 0x78EF001C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78EF0001, 0x78EF001D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EF0001, 0x78EF001E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EF0001, 0x78EF001F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78EF0001, 0x78EF0020, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EF0001, 0x78EF0021, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EF0001, 0x78EF0022, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EF0001, 0x78EF0023, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EF0002,  7333, 0x8EF00038, 148.7558, 190.847, 10.10323, -0.9717422, 0, 0, -0.2360445,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -181,20 +181,20 @@ VALUES (0x78EF0024,  1542, 0x8EF00025, 105.5176, 107.538, 18.0093, 0.9537169, 0,
 /* @teleloc 0x8EF00025 [105.517600 107.538000 18.009300] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EF0024, 0x78EF0025, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x78EF0024, 0x78EF0026, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x78EF0024, 0x78EF0027, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x78EF0024, 0x78EF0028, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x78EF0024, 0x78EF0029, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78EF0024, 0x78EF002A, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x78EF0024, 0x78EF002B, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x78EF0024, 0x78EF002C, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x78EF0024, 0x78EF002D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x78EF0024, 0x78EF002E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78EF0024, 0x78EF002F, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x78EF0024, 0x78EF0030, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x78EF0024, 0x78EF0031, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x78EF0024, 0x78EF0032, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x78EF0024, 0x78EF0025, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x78EF0024, 0x78EF0026, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x78EF0024, 0x78EF0027, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x78EF0024, 0x78EF0028, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x78EF0024, 0x78EF0029, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78EF0024, 0x78EF002A, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x78EF0024, 0x78EF002B, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x78EF0024, 0x78EF002C, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x78EF0024, 0x78EF002D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x78EF0024, 0x78EF002E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78EF0024, 0x78EF002F, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x78EF0024, 0x78EF0030, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x78EF0024, 0x78EF0031, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x78EF0024, 0x78EF0032, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EF0025,  5779, 0x8EF00025, 105.5176, 107.538, 18.0093, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

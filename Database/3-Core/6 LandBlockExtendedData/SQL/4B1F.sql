@@ -5,28 +5,28 @@ VALUES (0x74B1F001,  1154, 0x4B1F0006, 23.25109, 122.5485, 59.80115, 0.938606, 0
 /* @teleloc 0x4B1F0006 [23.251090 122.548500 59.801150] 0.938606 0.000000 0.000000 -0.344991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B1F001, 0x74B1F002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74B1F001, 0x74B1F003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74B1F001, 0x74B1F004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74B1F001, 0x74B1F005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74B1F001, 0x74B1F006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B1F001, 0x74B1F007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B1F001, 0x74B1F008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74B1F001, 0x74B1F009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74B1F001, 0x74B1F00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74B1F001, 0x74B1F00B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74B1F001, 0x74B1F00C, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74B1F001, 0x74B1F00D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74B1F001, 0x74B1F00E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74B1F001, 0x74B1F00F, '2019-02-10 00:00:00') /* Flare */
-     , (0x74B1F001, 0x74B1F010, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74B1F001, 0x74B1F011, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74B1F001, 0x74B1F012, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74B1F001, 0x74B1F013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74B1F001, 0x74B1F014, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74B1F001, 0x74B1F015, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74B1F001, 0x74B1F016, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74B1F001, 0x74B1F017, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x74B1F001, 0x74B1F002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74B1F001, 0x74B1F003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74B1F001, 0x74B1F004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74B1F001, 0x74B1F005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74B1F001, 0x74B1F006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B1F001, 0x74B1F007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B1F001, 0x74B1F008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74B1F001, 0x74B1F009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74B1F001, 0x74B1F00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74B1F001, 0x74B1F00B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74B1F001, 0x74B1F00C, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74B1F001, 0x74B1F00D, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74B1F001, 0x74B1F00E, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74B1F001, 0x74B1F00F, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x74B1F001, 0x74B1F010, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74B1F001, 0x74B1F011, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74B1F001, 0x74B1F012, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74B1F001, 0x74B1F013, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74B1F001, 0x74B1F014, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74B1F001, 0x74B1F015, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74B1F001, 0x74B1F016, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74B1F001, 0x74B1F017, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B1F002, 36859, 0x4B1F0006, 23.25109, 122.5485, 59.80115, 0.938606, 0, 0, -0.3449911,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -121,8 +121,8 @@ VALUES (0x74B1F018,  1542, 0x4B1F003B, 179.9802, 53.42954, 46.63931, 0.9990482, 
 /* @teleloc 0x4B1F003B [179.980200 53.429540 46.639310] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B1F018, 0x74B1F019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74B1F018, 0x74B1F01A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x74B1F018, 0x74B1F019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74B1F018, 0x74B1F01A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B1F019,  4179, 0x4B1F003B, 179.9802, 53.42954, 46.63931, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

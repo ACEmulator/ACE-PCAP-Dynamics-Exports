@@ -5,10 +5,10 @@ VALUES (0x728C2001,  1154, 0x28C2001F, 89.0759, 145.5777, 27.73704, -0.8893388, 
 /* @teleloc 0x28C2001F [89.075900 145.577700 27.737040] -0.889339 0.000000 0.000000 -0.457249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728C2001, 0x728C2002, '2019-02-10 00:00:00') /* Canescent Mattekar */
-     , (0x728C2001, 0x728C2003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x728C2001, 0x728C2004, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x728C2001, 0x728C2005, '2019-02-10 00:00:00') /* Woodland Ursuin */;
+VALUES (0x728C2001, 0x728C2002, '2019-02-10 00:00:00') /* Canescent Mattekar (11539) */
+     , (0x728C2001, 0x728C2003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x728C2001, 0x728C2004, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x728C2001, 0x728C2005, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728C2002, 11539, 0x28C2001F, 89.0759, 145.5777, 27.73704, -0.8893388, 0, 0, -0.4572488,  True, '2019-02-10 00:00:00'); /* Canescent Mattekar */

@@ -5,12 +5,12 @@ VALUES (0x7C682001,  1154, 0xC6820022, 96.09312, 40.42324, 38.012, -0.8851591, 0
 /* @teleloc 0xC6820022 [96.093120 40.423240 38.012000] -0.885159 0.000000 0.000000 -0.465289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C682001, 0x7C682002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C682001, 0x7C682003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C682001, 0x7C682004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C682001, 0x7C682005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C682001, 0x7C682006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C682001, 0x7C682007, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7C682001, 0x7C682002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C682001, 0x7C682003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C682001, 0x7C682004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C682001, 0x7C682005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C682001, 0x7C682006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C682001, 0x7C682007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C682002,   215, 0xC6820022, 96.09312, 40.42324, 38.012, -0.8851591, 0, 0, -0.4652885,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

@@ -5,27 +5,27 @@ VALUES (0x797EC001,  1154, 0x97EC0036, 144.0783, 120.5562, 10.45611, 0.2588191, 
 /* @teleloc 0x97EC0036 [144.078300 120.556200 10.456110] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797EC001, 0x797EC002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797EC001, 0x797EC003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x797EC001, 0x797EC004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x797EC001, 0x797EC005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797EC001, 0x797EC006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x797EC001, 0x797EC007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x797EC001, 0x797EC008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x797EC001, 0x797EC009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797EC001, 0x797EC00A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x797EC001, 0x797EC00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x797EC001, 0x797EC00C, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x797EC001, 0x797EC00D, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x797EC001, 0x797EC00E, '2019-02-10 00:00:00') /* Frost */
-     , (0x797EC001, 0x797EC00F, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x797EC001, 0x797EC010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x797EC001, 0x797EC011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797EC001, 0x797EC012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797EC001, 0x797EC013, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x797EC001, 0x797EC014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x797EC001, 0x797EC015, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x797EC001, 0x797EC016, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x797EC001, 0x797EC002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797EC001, 0x797EC003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x797EC001, 0x797EC004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x797EC001, 0x797EC005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797EC001, 0x797EC006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x797EC001, 0x797EC007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x797EC001, 0x797EC008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x797EC001, 0x797EC009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797EC001, 0x797EC00A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x797EC001, 0x797EC00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x797EC001, 0x797EC00C, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x797EC001, 0x797EC00D, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x797EC001, 0x797EC00E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x797EC001, 0x797EC00F, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x797EC001, 0x797EC010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x797EC001, 0x797EC011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797EC001, 0x797EC012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797EC001, 0x797EC013, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x797EC001, 0x797EC014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x797EC001, 0x797EC015, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x797EC001, 0x797EC016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797EC002, 24294, 0x97EC0036, 144.0783, 120.5562, 10.45611, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -116,8 +116,8 @@ VALUES (0x797EC017,  1542, 0x97EC0035, 146.608, 116.1289, 10.45611, 0.9990482, 0
 /* @teleloc 0x97EC0035 [146.608000 116.128900 10.456110] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797EC017, 0x797EC018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x797EC017, 0x797EC019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x797EC017, 0x797EC018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x797EC017, 0x797EC019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797EC018,  4179, 0x97EC0035, 146.608, 116.1289, 10.45611, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

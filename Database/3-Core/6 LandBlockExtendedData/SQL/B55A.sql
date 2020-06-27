@@ -5,17 +5,17 @@ VALUES (0x7B55A001,  1154, 0xB55A0017, 59.13856, 153.6309, 16.8059, 0.7660445, 0
 /* @teleloc 0xB55A0017 [59.138560 153.630900 16.805900] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B55A001, 0x7B55A002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B55A001, 0x7B55A003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B55A001, 0x7B55A004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B55A001, 0x7B55A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B55A001, 0x7B55A006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B55A001, 0x7B55A007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B55A001, 0x7B55A008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B55A001, 0x7B55A009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B55A001, 0x7B55A00A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B55A001, 0x7B55A00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B55A001, 0x7B55A00C, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B55A001, 0x7B55A002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B55A001, 0x7B55A003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B55A001, 0x7B55A004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B55A001, 0x7B55A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B55A001, 0x7B55A006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B55A001, 0x7B55A007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B55A001, 0x7B55A008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B55A001, 0x7B55A009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B55A001, 0x7B55A00A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B55A001, 0x7B55A00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B55A001, 0x7B55A00C, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B55A002,  1608, 0xB55A0017, 59.13856, 153.6309, 16.8059, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

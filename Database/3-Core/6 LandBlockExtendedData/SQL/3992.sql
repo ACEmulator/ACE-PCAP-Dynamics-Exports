@@ -5,12 +5,12 @@ VALUES (0x73992001,  1154, 0x3992000F, 47.66336, 148.0246, 38.59376, -0.629651, 
 /* @teleloc 0x3992000F [47.663360 148.024600 38.593760] -0.629651 0.000000 0.000000 -0.776878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73992001, 0x73992002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73992001, 0x73992003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73992001, 0x73992004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73992001, 0x73992005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73992001, 0x73992006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73992001, 0x73992007, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73992001, 0x73992002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73992001, 0x73992003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73992001, 0x73992004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73992001, 0x73992005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73992001, 0x73992006, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73992001, 0x73992007, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73992002, 24275, 0x3992000F, 47.66336, 148.0246, 38.59376, -0.629651, 0, 0, -0.7768781,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

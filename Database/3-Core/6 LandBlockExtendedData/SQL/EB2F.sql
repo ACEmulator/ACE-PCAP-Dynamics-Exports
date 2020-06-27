@@ -5,20 +5,20 @@ VALUES (0x7EB2F001,  1154, 0xEB2F0020, 86.5658, 177.935, 34.005, 0.834126, 0, 0,
 /* @teleloc 0xEB2F0020 [86.565800 177.935000 34.005000] 0.834126 0.000000 0.000000 0.551574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB2F001, 0x7EB2F002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7EB2F001, 0x7EB2F003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7EB2F001, 0x7EB2F004, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7EB2F001, 0x7EB2F005, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7EB2F001, 0x7EB2F006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7EB2F001, 0x7EB2F007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7EB2F001, 0x7EB2F008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7EB2F001, 0x7EB2F009, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7EB2F001, 0x7EB2F00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7EB2F001, 0x7EB2F00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7EB2F001, 0x7EB2F00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7EB2F001, 0x7EB2F00D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7EB2F001, 0x7EB2F00E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7EB2F001, 0x7EB2F00F, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7EB2F001, 0x7EB2F002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7EB2F001, 0x7EB2F003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7EB2F001, 0x7EB2F004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7EB2F001, 0x7EB2F005, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7EB2F001, 0x7EB2F006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7EB2F001, 0x7EB2F007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7EB2F001, 0x7EB2F008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7EB2F001, 0x7EB2F009, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7EB2F001, 0x7EB2F00A, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7EB2F001, 0x7EB2F00B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7EB2F001, 0x7EB2F00C, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7EB2F001, 0x7EB2F00D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7EB2F001, 0x7EB2F00E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7EB2F001, 0x7EB2F00F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB2F002,  1615, 0xEB2F0020, 86.5658, 177.935, 34.005, 0.834126, 0, 0, 0.551574,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */

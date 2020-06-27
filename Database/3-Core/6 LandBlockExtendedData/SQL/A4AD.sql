@@ -5,12 +5,12 @@ VALUES (0x7A4AD001,  1154, 0xA4AD0038, 166.6243, 168.5776, 67.82973, -0.7741332,
 /* @teleloc 0xA4AD0038 [166.624300 168.577600 67.829730] -0.774133 0.000000 0.000000 -0.633023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4AD001, 0x7A4AD002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4AD001, 0x7A4AD003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A4AD001, 0x7A4AD004, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A4AD001, 0x7A4AD005, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A4AD001, 0x7A4AD006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A4AD001, 0x7A4AD007, '2019-02-10 00:00:00') /* Mite Squire */;
+VALUES (0x7A4AD001, 0x7A4AD002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4AD001, 0x7A4AD003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A4AD001, 0x7A4AD004, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A4AD001, 0x7A4AD005, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A4AD001, 0x7A4AD006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A4AD001, 0x7A4AD007, '2019-02-10 00:00:00') /* Mite Squire (946) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4AD002,  2612, 0xA4AD0038, 166.6243, 168.5776, 67.82973, -0.7741332, 0, 0, -0.6330227,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

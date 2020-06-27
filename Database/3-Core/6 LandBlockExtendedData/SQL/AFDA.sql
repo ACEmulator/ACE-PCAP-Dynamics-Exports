@@ -5,18 +5,18 @@ VALUES (0x7AFDA001,  1154, 0xAFDA002A, 120.1675, 43.11541, 16.41205, 0.7071068, 
 /* @teleloc 0xAFDA002A [120.167500 43.115410 16.412050] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFDA001, 0x7AFDA002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AFDA001, 0x7AFDA003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AFDA001, 0x7AFDA004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AFDA001, 0x7AFDA005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AFDA001, 0x7AFDA006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AFDA001, 0x7AFDA007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AFDA001, 0x7AFDA008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AFDA001, 0x7AFDA009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AFDA001, 0x7AFDA00A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7AFDA001, 0x7AFDA00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AFDA001, 0x7AFDA00C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AFDA001, 0x7AFDA00D, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x7AFDA001, 0x7AFDA002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AFDA001, 0x7AFDA003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AFDA001, 0x7AFDA004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AFDA001, 0x7AFDA005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AFDA001, 0x7AFDA006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AFDA001, 0x7AFDA007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AFDA001, 0x7AFDA008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AFDA001, 0x7AFDA009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AFDA001, 0x7AFDA00A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7AFDA001, 0x7AFDA00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AFDA001, 0x7AFDA00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AFDA001, 0x7AFDA00D, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFDA002,  4253, 0xAFDA002A, 120.1675, 43.11541, 16.41205, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7AFDA00E,  1542, 0xAFDA0013, 48.30806, 62.04039, 12.02567, 0.9238795, 
 /* @teleloc 0xAFDA0013 [48.308060 62.040390 12.025670] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFDA00E, 0x7AFDA00F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7AFDA00E, 0x7AFDA00F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFDA00F,  4180, 0xAFDA0013, 48.30806, 62.04039, 12.02567, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

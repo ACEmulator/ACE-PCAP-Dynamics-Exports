@@ -5,61 +5,61 @@ VALUES (0x75EB7001,  1154, 0x5EB70022, 119.6858, 45.75598, 0.00999999, 0.9238795
 /* @teleloc 0x5EB70022 [119.685800 45.755980 0.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EB7001, 0x75EB7002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75EB7001, 0x75EB7003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75EB7001, 0x75EB7004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75EB7001, 0x75EB7005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75EB7001, 0x75EB7006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75EB7001, 0x75EB7007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75EB7001, 0x75EB7008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75EB7001, 0x75EB7009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75EB7001, 0x75EB700A, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75EB7001, 0x75EB700B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75EB7001, 0x75EB700C, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EB7001, 0x75EB700D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75EB7001, 0x75EB700E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75EB7001, 0x75EB700F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75EB7001, 0x75EB7010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75EB7001, 0x75EB7011, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x75EB7001, 0x75EB7012, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x75EB7001, 0x75EB7013, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x75EB7001, 0x75EB7014, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x75EB7001, 0x75EB7015, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75EB7001, 0x75EB7016, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EB7001, 0x75EB7017, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75EB7001, 0x75EB7018, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EB7001, 0x75EB7019, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EB7001, 0x75EB701A, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EB7001, 0x75EB701B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75EB7001, 0x75EB701C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EB7001, 0x75EB701D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75EB7001, 0x75EB701E, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x75EB7001, 0x75EB701F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75EB7001, 0x75EB7020, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75EB7001, 0x75EB7021, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75EB7001, 0x75EB7022, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75EB7001, 0x75EB7023, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75EB7001, 0x75EB7024, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75EB7001, 0x75EB7025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75EB7001, 0x75EB7026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75EB7001, 0x75EB7027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75EB7001, 0x75EB7028, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75EB7001, 0x75EB7029, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75EB7001, 0x75EB702A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75EB7001, 0x75EB702B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75EB7001, 0x75EB702C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EB7001, 0x75EB702D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75EB7001, 0x75EB702E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75EB7001, 0x75EB702F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EB7001, 0x75EB7030, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x75EB7001, 0x75EB7031, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75EB7001, 0x75EB7032, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75EB7001, 0x75EB7033, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75EB7001, 0x75EB7034, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75EB7001, 0x75EB7035, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75EB7001, 0x75EB7036, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75EB7001, 0x75EB7037, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75EB7001, 0x75EB7038, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x75EB7001, 0x75EB7002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75EB7001, 0x75EB7003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75EB7001, 0x75EB7004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75EB7001, 0x75EB7005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75EB7001, 0x75EB7006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75EB7001, 0x75EB7007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75EB7001, 0x75EB7008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75EB7001, 0x75EB7009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75EB7001, 0x75EB700A, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75EB7001, 0x75EB700B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75EB7001, 0x75EB700C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EB7001, 0x75EB700D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75EB7001, 0x75EB700E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75EB7001, 0x75EB700F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75EB7001, 0x75EB7010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75EB7001, 0x75EB7011, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x75EB7001, 0x75EB7012, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x75EB7001, 0x75EB7013, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x75EB7001, 0x75EB7014, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x75EB7001, 0x75EB7015, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75EB7001, 0x75EB7016, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EB7001, 0x75EB7017, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75EB7001, 0x75EB7018, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EB7001, 0x75EB7019, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EB7001, 0x75EB701A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EB7001, 0x75EB701B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75EB7001, 0x75EB701C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EB7001, 0x75EB701D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75EB7001, 0x75EB701E, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x75EB7001, 0x75EB701F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75EB7001, 0x75EB7020, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75EB7001, 0x75EB7021, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75EB7001, 0x75EB7022, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75EB7001, 0x75EB7023, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75EB7001, 0x75EB7024, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75EB7001, 0x75EB7025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75EB7001, 0x75EB7026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75EB7001, 0x75EB7027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75EB7001, 0x75EB7028, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75EB7001, 0x75EB7029, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75EB7001, 0x75EB702A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75EB7001, 0x75EB702B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75EB7001, 0x75EB702C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EB7001, 0x75EB702D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75EB7001, 0x75EB702E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75EB7001, 0x75EB702F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EB7001, 0x75EB7030, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x75EB7001, 0x75EB7031, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75EB7001, 0x75EB7032, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75EB7001, 0x75EB7033, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75EB7001, 0x75EB7034, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75EB7001, 0x75EB7035, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75EB7001, 0x75EB7036, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75EB7001, 0x75EB7037, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75EB7001, 0x75EB7038, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EB7002,   199, 0x5EB70022, 119.6858, 45.75598, 0.00999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -286,10 +286,10 @@ VALUES (0x75EB7039,  1542, 0x5EB70005, 11.79269, 103.3791, 0.9542754, 0.9537169,
 /* @teleloc 0x5EB70005 [11.792690 103.379100 0.954275] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EB7039, 0x75EB703A, '2019-02-10 00:00:00') /* Direlands Valleys Portal */
-     , (0x75EB7039, 0x75EB703B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x75EB7039, 0x75EB703C, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x75EB7039, 0x75EB703D, '2019-02-10 00:00:00') /* Bistort */;
+VALUES (0x75EB7039, 0x75EB703A, '2019-02-10 00:00:00') /* Direlands Valleys Portal (8386) */
+     , (0x75EB7039, 0x75EB703B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x75EB7039, 0x75EB703C, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x75EB7039, 0x75EB703D, '2019-02-10 00:00:00') /* Bistort (766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EB703A,  8386, 0x5EB70005, 11.79269, 103.3791, 0.9542754, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Valleys Portal */

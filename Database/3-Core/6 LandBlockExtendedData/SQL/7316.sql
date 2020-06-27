@@ -5,9 +5,9 @@ VALUES (0x77316001,  1154, 0x73160039, 190.9823, 5.364917, 1.922696, 0.9238795, 
 /* @teleloc 0x73160039 [190.982300 5.364917 1.922696] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77316001, 0x77316002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77316001, 0x77316003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77316001, 0x77316004, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x77316001, 0x77316002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77316001, 0x77316003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77316001, 0x77316004, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77316002,  7123, 0x73160039, 190.9823, 5.364917, 1.922696, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */

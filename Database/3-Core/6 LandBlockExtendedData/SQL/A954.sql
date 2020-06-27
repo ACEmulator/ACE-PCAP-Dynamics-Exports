@@ -9,15 +9,15 @@ VALUES (0x7A954001,  1154, 0xA9540029, 132.7177, 5.743564, 53.27489, -0.8597115,
 /* @teleloc 0xA9540029 [132.717700 5.743564 53.274890] -0.859712 0.000000 0.000000 -0.510780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A954001, 0x7A954002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A954001, 0x7A954003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A954001, 0x7A954004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A954001, 0x7A954005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A954001, 0x7A954006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A954001, 0x7A954007, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A954001, 0x7A954008, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A954001, 0x7A954009, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A954001, 0x7A95400A, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A954001, 0x7A954002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A954001, 0x7A954003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A954001, 0x7A954004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A954001, 0x7A954005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A954001, 0x7A954006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A954001, 0x7A954007, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A954001, 0x7A954008, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A954001, 0x7A954009, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A954001, 0x7A95400A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A954002,   194, 0xA9540029, 132.7177, 5.743564, 53.27489, -0.8597115, 0, 0, -0.5107799,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -60,7 +60,7 @@ VALUES (0x7A95400B,  1542, 0xA9540024, 100.0645, 81.40111, 48.77186, 0.9990482, 
 /* @teleloc 0xA9540024 [100.064500 81.401110 48.771860] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A95400B, 0x7A95400C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A95400B, 0x7A95400C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A95400C,  4179, 0xA9540024, 100.0645, 81.40111, 48.77186, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

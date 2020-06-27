@@ -5,18 +5,18 @@ VALUES (0x79116001,  1154, 0x91160026, 112.3007, 121.5585, 314.4123, 0.1268039, 
 /* @teleloc 0x91160026 [112.300700 121.558500 314.412300] 0.126804 0.000000 0.000000 -0.991928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79116001, 0x79116002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79116001, 0x79116003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79116001, 0x79116004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79116001, 0x79116005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79116001, 0x79116006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79116001, 0x79116007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79116001, 0x79116008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79116001, 0x79116009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79116001, 0x7911600A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79116001, 0x7911600B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79116001, 0x7911600C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79116001, 0x7911600D, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x79116001, 0x79116002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79116001, 0x79116003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79116001, 0x79116004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79116001, 0x79116005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79116001, 0x79116006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79116001, 0x79116007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79116001, 0x79116008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79116001, 0x79116009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79116001, 0x7911600A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79116001, 0x7911600B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79116001, 0x7911600C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79116001, 0x7911600D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79116002,   199, 0x91160026, 112.3007, 121.5585, 314.4123, 0.1268039, 0, 0, -0.9919278,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -71,10 +71,10 @@ VALUES (0x7911600E,  1542, 0x9116001D, 85.87753, 118.3762, 307.0211, 0.1268039, 
 /* @teleloc 0x9116001D [85.877530 118.376200 307.021100] 0.126804 0.000000 0.000000 -0.991928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7911600E, 0x7911600F, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7911600E, 0x79116010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7911600E, 0x79116011, '2019-02-10 00:00:00') /* Rock */
-     , (0x7911600E, 0x79116012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7911600E, 0x7911600F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7911600E, 0x79116010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7911600E, 0x79116011, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7911600E, 0x79116012, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7911600F,  8646, 0x9116001D, 85.87753, 118.3762, 307.0211, 0.1268039, 0, 0, -0.9919278,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

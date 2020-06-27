@@ -401,138 +401,138 @@ VALUES (0x700F10FF,  1154, 0x00F105BA, 120, -140, -5.9975, -0.382683, 0, 0, -0.9
 /* @teleloc 0x00F105BA [120.000000 -140.000000 -5.997500] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F10FF, 0x700F1100, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1101, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1102, '2019-02-10 00:00:00') /* Pandemic Child */
-     , (0x700F10FF, 0x700F1103, '2019-02-10 00:00:00') /* Pandemic Child */
-     , (0x700F10FF, 0x700F1104, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1105, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1106, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1107, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1108, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1109, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F110A, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F110B, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F110C, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F110D, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F110E, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F110F, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1110, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1111, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1112, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1113, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1114, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1115, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1116, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1117, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1118, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1119, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F111A, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F111B, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F111C, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F111D, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F111E, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F111F, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1120, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700F10FF, 0x700F1121, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700F10FF, 0x700F1122, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1123, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1124, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1125, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1126, '2019-02-10 00:00:00') /* Abyssal Child */
-     , (0x700F10FF, 0x700F1127, '2019-02-10 00:00:00') /* Abyssal Child */
-     , (0x700F10FF, 0x700F1128, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x700F10FF, 0x700F1129, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F112A, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x700F10FF, 0x700F112B, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F112C, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F112D, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F112E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F112F, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1130, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1131, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1132, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1133, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1134, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1135, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1136, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1137, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1138, '2019-02-10 00:00:00') /* Abyssal Child */
-     , (0x700F10FF, 0x700F1139, '2019-02-10 00:00:00') /* Abyssal Child */
-     , (0x700F10FF, 0x700F113A, '2019-02-10 00:00:00') /* Depraved Child */
-     , (0x700F10FF, 0x700F113B, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x700F10FF, 0x700F113C, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x700F10FF, 0x700F113D, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x700F10FF, 0x700F113E, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x700F10FF, 0x700F113F, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1140, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1141, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1142, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1143, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1144, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1145, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1146, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1147, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1148, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1149, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F114A, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F114B, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700F10FF, 0x700F114C, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x700F10FF, 0x700F114D, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700F10FF, 0x700F114E, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F114F, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1150, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x700F10FF, 0x700F1151, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1152, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1153, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1154, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1155, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1156, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1157, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1158, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1159, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F115A, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F115B, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F115C, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F115D, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F115E, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F115F, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1160, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1161, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1162, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F1163, '2019-02-10 00:00:00') /* High Archon Kraest */
-     , (0x700F10FF, 0x700F1164, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x700F10FF, 0x700F1165, '2019-02-10 00:00:00') /* Penumbral Horror */
-     , (0x700F10FF, 0x700F1166, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1167, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1168, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1169, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F116A, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F116B, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F116C, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x700F10FF, 0x700F116D, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F116E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F116F, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1170, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x700F10FF, 0x700F1171, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700F10FF, 0x700F1172, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700F10FF, 0x700F1173, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1174, '2019-02-10 00:00:00') /* Pandemic Child */
-     , (0x700F10FF, 0x700F1175, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1176, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment */
-     , (0x700F10FF, 0x700F1177, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1178, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x700F10FF, 0x700F1179, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F117A, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F117B, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x700F10FF, 0x700F117C, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F117D, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F117E, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700F10FF, 0x700F117F, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700F10FF, 0x700F1180, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700F10FF, 0x700F1181, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x700F10FF, 0x700F1182, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700F10FF, 0x700F1183, '2019-02-10 00:00:00') /* Raven Conscript */;
+VALUES (0x700F10FF, 0x700F1100, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x700F10FF, 0x700F1101, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1102, '2019-02-10 00:00:00') /* Pandemic Child (27287) */
+     , (0x700F10FF, 0x700F1103, '2019-02-10 00:00:00') /* Pandemic Child (27287) */
+     , (0x700F10FF, 0x700F1104, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1105, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1106, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1107, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1108, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F10FF, 0x700F1109, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x700F10FF, 0x700F110A, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x700F10FF, 0x700F110B, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F110C, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F10FF, 0x700F110D, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x700F10FF, 0x700F110E, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F110F, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1110, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1111, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x700F10FF, 0x700F1112, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1113, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1114, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1115, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1116, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1117, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1118, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1119, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F111A, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F111B, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F111C, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F111D, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F111E, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F111F, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1120, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700F10FF, 0x700F1121, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700F10FF, 0x700F1122, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1123, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1124, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1125, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1126, '2019-02-10 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F10FF, 0x700F1127, '2019-02-10 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F10FF, 0x700F1128, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x700F10FF, 0x700F1129, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F112A, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x700F10FF, 0x700F112B, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F112C, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F112D, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F112E, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F112F, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F1130, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F1131, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F1132, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F1133, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x700F10FF, 0x700F1134, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1135, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1136, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1137, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1138, '2019-02-10 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F10FF, 0x700F1139, '2019-02-10 00:00:00') /* Abyssal Child (27284) */
+     , (0x700F10FF, 0x700F113A, '2019-02-10 00:00:00') /* Depraved Child (27285) */
+     , (0x700F10FF, 0x700F113B, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x700F10FF, 0x700F113C, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x700F10FF, 0x700F113D, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x700F10FF, 0x700F113E, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x700F10FF, 0x700F113F, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1140, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1141, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1142, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1143, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1144, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1145, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1146, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1147, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1148, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1149, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F114A, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F114B, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700F10FF, 0x700F114C, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x700F10FF, 0x700F114D, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700F10FF, 0x700F114E, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F114F, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1150, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x700F10FF, 0x700F1151, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x700F10FF, 0x700F1152, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1153, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1154, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1155, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1156, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1157, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1158, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1159, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F115A, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F115B, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F115C, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F115D, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F115E, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F115F, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1160, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1161, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1162, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F1163, '2019-02-10 00:00:00') /* High Archon Kraest (31718) */
+     , (0x700F10FF, 0x700F1164, '2019-02-10 00:00:00') /* Raven Hunter (31405) */
+     , (0x700F10FF, 0x700F1165, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x700F10FF, 0x700F1166, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1167, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1168, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1169, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F116A, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F116B, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F116C, '2019-02-10 00:00:00') /* Exploration Marker (39808) */
+     , (0x700F10FF, 0x700F116D, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F116E, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x700F10FF, 0x700F116F, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x700F10FF, 0x700F1170, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x700F10FF, 0x700F1171, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700F10FF, 0x700F1172, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700F10FF, 0x700F1173, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1174, '2019-02-10 00:00:00') /* Pandemic Child (27287) */
+     , (0x700F10FF, 0x700F1175, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1176, '2019-02-10 00:00:00') /* Obsidian Sentient Fragment (31418) */
+     , (0x700F10FF, 0x700F1177, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1178, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x700F10FF, 0x700F1179, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F117A, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F117B, '2019-02-10 00:00:00') /* Raven Augur (31403) */
+     , (0x700F10FF, 0x700F117C, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F117D, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F117E, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700F10FF, 0x700F117F, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700F10FF, 0x700F1180, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700F10FF, 0x700F1181, '2019-02-10 00:00:00') /* Raven Conscript (31401) */
+     , (0x700F10FF, 0x700F1182, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700F10FF, 0x700F1183, '2019-02-10 00:00:00') /* Raven Conscript (31401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F1100,  8423, 0x00F105BA, 120, -140, -5.9975, -0.382683, 0, 0, -0.92388,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */
@@ -1067,10 +1067,10 @@ VALUES (0x700F1184,  1542, 0x00F1014E, 117.532, -113.411, -71.058, 0.4724821, 0,
 /* @teleloc 0x00F1014E [117.532000 -113.411000 -71.058000] 0.472482 0.000000 0.000000 -0.881340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F1184, 0x700F1185, '2019-02-10 00:00:00') /* Unreadable Dericost Tome */
-     , (0x700F1184, 0x700F1186, '2019-02-10 00:00:00') /* Journal of High Archon Kraest */
-     , (0x700F1184, 0x700F1187, '2019-02-10 00:00:00') /* Dark Speck */
-     , (0x700F1184, 0x700F1188, '2019-02-10 00:00:00') /* Electric Crossbow */;
+VALUES (0x700F1184, 0x700F1185, '2019-02-10 00:00:00') /* Unreadable Dericost Tome (31412) */
+     , (0x700F1184, 0x700F1186, '2019-02-10 00:00:00') /* Journal of High Archon Kraest (31414) */
+     , (0x700F1184, 0x700F1187, '2019-02-10 00:00:00') /* Dark Speck (6060) */
+     , (0x700F1184, 0x700F1188, '2019-02-10 00:00:00') /* Electric Crossbow (31808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F1185, 31412, 0x00F1014E, 117.532, -113.411, -71.058, 0.4724821, 0, 0, -0.8813403,  True, '2019-02-10 00:00:00'); /* Unreadable Dericost Tome */

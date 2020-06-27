@@ -5,15 +5,15 @@ VALUES (0x7B39E001,  1154, 0xB39E0010, 38.88928, 169.6999, 66.77132, 0.9997567, 
 /* @teleloc 0xB39E0010 [38.889280 169.699900 66.771320] 0.999757 0.000000 0.000000 -0.022057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B39E001, 0x7B39E002, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B39E001, 0x7B39E003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B39E001, 0x7B39E004, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B39E001, 0x7B39E005, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B39E001, 0x7B39E006, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B39E001, 0x7B39E007, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B39E001, 0x7B39E008, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7B39E001, 0x7B39E009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B39E001, 0x7B39E00A, '2019-02-10 00:00:00') /* Jibrit Zefir */;
+VALUES (0x7B39E001, 0x7B39E002, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B39E001, 0x7B39E003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B39E001, 0x7B39E004, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B39E001, 0x7B39E005, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B39E001, 0x7B39E006, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B39E001, 0x7B39E007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B39E001, 0x7B39E008, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B39E001, 0x7B39E009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B39E001, 0x7B39E00A, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B39E002,    11, 0xB39E0010, 38.88928, 169.6999, 66.77132, 0.9997567, 0, 0, -0.02205706,  True, '2019-02-10 00:00:00'); /* Male Tusker */

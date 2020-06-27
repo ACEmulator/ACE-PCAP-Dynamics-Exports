@@ -5,21 +5,21 @@ VALUES (0x7217D001,  1154, 0x217D0028, 101.9545, 175.925, 156.4998, -4.371139E-0
 /* @teleloc 0x217D0028 [101.954500 175.925000 156.499800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217D001, 0x7217D002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7217D001, 0x7217D003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7217D001, 0x7217D004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7217D001, 0x7217D005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7217D001, 0x7217D006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7217D001, 0x7217D007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7217D001, 0x7217D008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7217D001, 0x7217D009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7217D001, 0x7217D00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7217D001, 0x7217D00B, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7217D001, 0x7217D00C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7217D001, 0x7217D00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7217D001, 0x7217D00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7217D001, 0x7217D00F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7217D001, 0x7217D010, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7217D001, 0x7217D002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7217D001, 0x7217D003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7217D001, 0x7217D004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7217D001, 0x7217D005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7217D001, 0x7217D006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7217D001, 0x7217D007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7217D001, 0x7217D008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7217D001, 0x7217D009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7217D001, 0x7217D00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7217D001, 0x7217D00B, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7217D001, 0x7217D00C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7217D001, 0x7217D00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7217D001, 0x7217D00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7217D001, 0x7217D00F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7217D001, 0x7217D010, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217D002,  7346, 0x217D0028, 101.9545, 175.925, 156.4998, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -86,8 +86,8 @@ VALUES (0x7217D011,  1542, 0x217D0008, 9.808523, 184.7617, 151.688, 0.7248307, 0
 /* @teleloc 0x217D0008 [9.808523 184.761700 151.688000] 0.724831 0.000000 0.000000 -0.688927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7217D011, 0x7217D012, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7217D011, 0x7217D013, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7217D011, 0x7217D012, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7217D011, 0x7217D013, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217D012,  8644, 0x217D0008, 9.808523, 184.7617, 151.688, 0.7248307, 0, 0, -0.6889271,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -9,14 +9,14 @@ VALUES (0x78FB2001,  1154, 0x8FB2002A, 128.0098, 36.68548, 76.23849, -0.7660444,
 /* @teleloc 0x8FB2002A [128.009800 36.685480 76.238490] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FB2001, 0x78FB2002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78FB2001, 0x78FB2003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78FB2001, 0x78FB2004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78FB2001, 0x78FB2005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78FB2001, 0x78FB2006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FB2001, 0x78FB2007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FB2001, 0x78FB2008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78FB2001, 0x78FB2009, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x78FB2001, 0x78FB2002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78FB2001, 0x78FB2003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78FB2001, 0x78FB2004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78FB2001, 0x78FB2005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78FB2001, 0x78FB2006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FB2001, 0x78FB2007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FB2001, 0x78FB2008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78FB2001, 0x78FB2009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FB2002, 24497, 0x8FB2002A, 128.0098, 36.68548, 76.23849, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -55,9 +55,9 @@ VALUES (0x78FB200A,  1542, 0x8FB2002A, 128.3608, 28.72066, 73.87689, 1, 0, 0, 0,
 /* @teleloc 0x8FB2002A [128.360800 28.720660 73.876890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FB200A, 0x78FB200B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78FB200A, 0x78FB200C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78FB200A, 0x78FB200D, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x78FB200A, 0x78FB200B, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x78FB200A, 0x78FB200C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x78FB200A, 0x78FB200D, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FB200B, 22571, 0x8FB2002A, 128.3608, 28.72066, 73.87689, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

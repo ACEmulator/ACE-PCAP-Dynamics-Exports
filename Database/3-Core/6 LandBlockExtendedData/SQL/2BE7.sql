@@ -5,21 +5,21 @@ VALUES (0x72BE7001,  1154, 0x2BE7003D, 184.1577, 114.1571, 30.85957, 0.2091264, 
 /* @teleloc 0x2BE7003D [184.157700 114.157100 30.859570] 0.209126 0.000000 0.000000 -0.977889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BE7001, 0x72BE7002, '2019-02-10 00:00:00') /* Eater */
-     , (0x72BE7001, 0x72BE7003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72BE7001, 0x72BE7004, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72BE7001, 0x72BE7005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BE7001, 0x72BE7006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72BE7001, 0x72BE7007, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72BE7001, 0x72BE7008, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72BE7001, 0x72BE7009, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72BE7001, 0x72BE700A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BE7001, 0x72BE700B, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72BE7001, 0x72BE700C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72BE7001, 0x72BE700D, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72BE7001, 0x72BE700E, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72BE7001, 0x72BE700F, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72BE7001, 0x72BE7010, '2019-02-10 00:00:00') /* Auroch Ravager */;
+VALUES (0x72BE7001, 0x72BE7002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72BE7001, 0x72BE7003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72BE7001, 0x72BE7004, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72BE7001, 0x72BE7005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BE7001, 0x72BE7006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72BE7001, 0x72BE7007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72BE7001, 0x72BE7008, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72BE7001, 0x72BE7009, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72BE7001, 0x72BE700A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BE7001, 0x72BE700B, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72BE7001, 0x72BE700C, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72BE7001, 0x72BE700D, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72BE7001, 0x72BE700E, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72BE7001, 0x72BE700F, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72BE7001, 0x72BE7010, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BE7002, 28640, 0x2BE7003D, 184.1577, 114.1571, 30.85957, 0.2091264, 0, 0, -0.9778886,  True, '2019-02-10 00:00:00'); /* Eater */

@@ -5,44 +5,44 @@ VALUES (0x700A6001,  1154, 0x00A60195, 60.5313, -211.591, 0.004999995, 0.0090619
 /* @teleloc 0x00A60195 [60.531300 -211.591000 0.005000] 0.009062 0.000000 0.000000 -0.999959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A6001, 0x700A6002, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6003, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6004, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6005, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6006, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6007, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6008, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6009, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A600A, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A600B, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A600C, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A600D, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A600E, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A600F, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6010, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6011, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6012, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6013, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6014, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6015, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6016, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6017, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6018, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6019, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A601A, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A601B, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A601C, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A601D, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A601E, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A601F, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6020, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6021, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6022, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6023, '2019-02-10 00:00:00') /* Tanada Soroku */
-     , (0x700A6001, 0x700A6024, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6025, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */
-     , (0x700A6001, 0x700A6026, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer */
-     , (0x700A6001, 0x700A6027, '2019-02-10 00:00:00') /* Tanada Burrows Sapper */;
+VALUES (0x700A6001, 0x700A6002, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6003, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6004, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6005, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6006, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6007, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6008, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6009, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A600A, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A600B, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A600C, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A600D, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A600E, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A600F, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6010, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6011, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6012, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6013, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6014, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6015, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6016, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6017, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6018, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6019, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A601A, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A601B, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A601C, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A601D, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A601E, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A601F, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6020, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6021, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6022, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6023, '2019-02-10 00:00:00') /* Tanada Soroku (37082) */
+     , (0x700A6001, 0x700A6024, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6025, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */
+     , (0x700A6001, 0x700A6026, '2019-02-10 00:00:00') /* Tanada Burrows Enforcer (37085) */
+     , (0x700A6001, 0x700A6027, '2019-02-10 00:00:00') /* Tanada Burrows Sapper (37084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A6002, 37085, 0x00A60195, 60.5313, -211.591, 0.004999995, 0.00906195, 0, 0, -0.999959,  True, '2019-02-10 00:00:00'); /* Tanada Burrows Enforcer */
@@ -201,7 +201,7 @@ VALUES (0x700A6028,  1542, 0x00A60109, 134.8906, -10.61346, -6.063, 0.3801536, 0
 /* @teleloc 0x00A60109 [134.890600 -10.613460 -6.063000] 0.380154 0.000000 0.000000 -0.924923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A6028, 0x700A6029, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700A6028, 0x700A6029, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A6029,  1955, 0x00A60109, 134.8906, -10.61346, -6.063, 0.3801536, 0, 0, -0.9249234,  True, '2019-02-10 00:00:00'); /* Gateway */

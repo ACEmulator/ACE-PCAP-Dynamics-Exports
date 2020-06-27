@@ -5,9 +5,9 @@ VALUES (0x78D97001,  1154, 0x8D970025, 112.3963, 115.1434, 162.2725, 0.05366614,
 /* @teleloc 0x8D970025 [112.396300 115.143400 162.272500] 0.053666 0.000000 0.000000 -0.998559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D97001, 0x78D97002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x78D97001, 0x78D97003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x78D97001, 0x78D97004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x78D97001, 0x78D97002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x78D97001, 0x78D97003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x78D97001, 0x78D97004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D97002, 27254, 0x8D970025, 112.3963, 115.1434, 162.2725, 0.05366614, 0, 0, -0.9985589,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

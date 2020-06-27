@@ -5,18 +5,18 @@ VALUES (0x776F3001,  1154, 0x76F30040, 181.4146, 168.8458, 21.29067, -4.371139E-
 /* @teleloc 0x76F30040 [181.414600 168.845800 21.290670] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776F3001, 0x776F3002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x776F3001, 0x776F3003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x776F3001, 0x776F3004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x776F3001, 0x776F3005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F3006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F3007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x776F3001, 0x776F3008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x776F3001, 0x776F3009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F300A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F300B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F300C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x776F3001, 0x776F300D, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x776F3001, 0x776F3002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x776F3001, 0x776F3003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x776F3001, 0x776F3004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x776F3001, 0x776F3005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F3006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F3007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x776F3001, 0x776F3008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x776F3001, 0x776F3009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F300A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F300B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F300C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x776F3001, 0x776F300D, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776F3002, 24326, 0x76F30040, 181.4146, 168.8458, 21.29067, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -71,7 +71,7 @@ VALUES (0x776F300E,  1542, 0x76F30028, 119.8636, 178.5166, 0, -4.371139E-08, 0, 
 /* @teleloc 0x76F30028 [119.863600 178.516600 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776F300E, 0x776F300F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x776F300E, 0x776F300F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776F300F,  4380, 0x76F30028, 119.8636, 178.5166, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

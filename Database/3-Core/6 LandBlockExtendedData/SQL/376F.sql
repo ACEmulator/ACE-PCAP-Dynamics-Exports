@@ -5,12 +5,12 @@ VALUES (0x7376F001,  1154, 0x376F0001, 22.47765, 5.79471, 43.75277, -0.7437657, 
 /* @teleloc 0x376F0001 [22.477650 5.794710 43.752770] -0.743766 0.000000 0.000000 -0.668440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7376F001, 0x7376F002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7376F001, 0x7376F003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7376F001, 0x7376F004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7376F001, 0x7376F005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7376F001, 0x7376F006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7376F001, 0x7376F007, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x7376F001, 0x7376F002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7376F001, 0x7376F003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7376F001, 0x7376F004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7376F001, 0x7376F005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7376F001, 0x7376F006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7376F001, 0x7376F007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7376F002, 20189, 0x376F0001, 22.47765, 5.79471, 43.75277, -0.7437657, 0, 0, -0.6684404,  True, '2019-02-10 00:00:00'); /* Brumal */

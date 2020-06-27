@@ -5,9 +5,9 @@ VALUES (0x71A35001,  1154, 0x1A350027, 116.1451, 163.5186, 1.192093E-06, 0.74878
 /* @teleloc 0x1A350027 [116.145100 163.518600 0.000001] 0.748783 0.000000 0.000000 -0.662816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A35001, 0x71A35002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71A35001, 0x71A35003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A35001, 0x71A35004, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71A35001, 0x71A35002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71A35001, 0x71A35003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A35001, 0x71A35004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A35002,  7127, 0x1A350027, 116.1451, 163.5186, 1.192093E-06, 0.7487825, 0, 0, -0.6628158,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
@@ -26,7 +26,7 @@ VALUES (0x71A35005,  1542, 0x1A350026, 116.761, 138.7818, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x1A350026 [116.761000 138.781800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A35005, 0x71A35006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71A35005, 0x71A35006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A35006,  4179, 0x1A350026, 116.761, 138.7818, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

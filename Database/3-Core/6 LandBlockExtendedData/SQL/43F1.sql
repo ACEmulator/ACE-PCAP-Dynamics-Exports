@@ -17,11 +17,11 @@ VALUES (0x743F1003,  1154, 0x43F1000F, 26.65899, 160.6059, 43.78092, -0.9300153,
 /* @teleloc 0x43F1000F [26.658990 160.605900 43.780920] -0.930015 0.000000 0.000000 -0.367521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743F1003, 0x743F1004, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x743F1003, 0x743F1005, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x743F1003, 0x743F1006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x743F1003, 0x743F1007, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x743F1003, 0x743F1008, '2019-02-10 00:00:00') /* Ruschk Sadist */;
+VALUES (0x743F1003, 0x743F1004, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x743F1003, 0x743F1005, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x743F1003, 0x743F1006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x743F1003, 0x743F1007, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x743F1003, 0x743F1008, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743F1004, 29355, 0x43F1000F, 26.65899, 160.6059, 43.78092, -0.9300153, 0, 0, -0.3675209,  True, '2019-02-10 00:00:00'); /* Floeshark */

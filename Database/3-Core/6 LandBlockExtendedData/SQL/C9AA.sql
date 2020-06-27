@@ -5,18 +5,18 @@ VALUES (0x7C9AA001,  1154, 0xC9AA000B, 44.28229, 56.28682, 101.1683, 0.558849, 0
 /* @teleloc 0xC9AA000B [44.282290 56.286820 101.168300] 0.558849 0.000000 0.000000 -0.829269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9AA001, 0x7C9AA002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C9AA001, 0x7C9AA003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C9AA001, 0x7C9AA004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C9AA001, 0x7C9AA005, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C9AA001, 0x7C9AA006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C9AA001, 0x7C9AA007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C9AA001, 0x7C9AA008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C9AA001, 0x7C9AA009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C9AA001, 0x7C9AA00A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C9AA001, 0x7C9AA00B, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C9AA001, 0x7C9AA00C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C9AA001, 0x7C9AA00D, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7C9AA001, 0x7C9AA002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C9AA001, 0x7C9AA003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C9AA001, 0x7C9AA004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C9AA001, 0x7C9AA005, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C9AA001, 0x7C9AA006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C9AA001, 0x7C9AA007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C9AA001, 0x7C9AA008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C9AA001, 0x7C9AA009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C9AA001, 0x7C9AA00A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C9AA001, 0x7C9AA00B, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C9AA001, 0x7C9AA00C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C9AA001, 0x7C9AA00D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9AA002,   213, 0xC9AA000B, 44.28229, 56.28682, 101.1683, 0.558849, 0, 0, -0.8292694,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
@@ -71,7 +71,7 @@ VALUES (0x7C9AA00E,  1542, 0xC9AA0013, 63.07782, 69.55884, 96.14872, 0.9990482, 
 /* @teleloc 0xC9AA0013 [63.077820 69.558840 96.148720] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9AA00E, 0x7C9AA00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C9AA00E, 0x7C9AA00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9AA00F,  4179, 0xC9AA0013, 63.07782, 69.55884, 96.14872, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

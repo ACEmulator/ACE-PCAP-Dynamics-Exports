@@ -5,21 +5,21 @@ VALUES (0x72D77001,  1154, 0x2D770038, 158.6593, 177.3387, 176.4507, 0.3987491, 
 /* @teleloc 0x2D770038 [158.659300 177.338700 176.450700] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D77001, 0x72D77002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72D77001, 0x72D77003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72D77001, 0x72D77004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72D77001, 0x72D77005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D77001, 0x72D77006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72D77001, 0x72D77007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72D77001, 0x72D77008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72D77001, 0x72D77009, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72D77001, 0x72D7700A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D77001, 0x72D7700B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72D77001, 0x72D7700C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D77001, 0x72D7700D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D77001, 0x72D7700E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D77001, 0x72D7700F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72D77001, 0x72D77010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x72D77001, 0x72D77002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72D77001, 0x72D77003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72D77001, 0x72D77004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72D77001, 0x72D77005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D77001, 0x72D77006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72D77001, 0x72D77007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72D77001, 0x72D77008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72D77001, 0x72D77009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72D77001, 0x72D7700A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D77001, 0x72D7700B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72D77001, 0x72D7700C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D77001, 0x72D7700D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D77001, 0x72D7700E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D77001, 0x72D7700F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72D77001, 0x72D77010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D77002, 24275, 0x2D770038, 158.6593, 177.3387, 176.4507, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -86,8 +86,8 @@ VALUES (0x72D77011,  1542, 0x2D77003E, 176.6258, 132.798, 178, -4.371139E-08, 0,
 /* @teleloc 0x2D77003E [176.625800 132.798000 178.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D77011, 0x72D77012, '2019-02-10 00:00:00') /* Bones */
-     , (0x72D77011, 0x72D77013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D77011, 0x72D77012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72D77011, 0x72D77013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D77012,  4380, 0x2D77003E, 176.6258, 132.798, 178, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

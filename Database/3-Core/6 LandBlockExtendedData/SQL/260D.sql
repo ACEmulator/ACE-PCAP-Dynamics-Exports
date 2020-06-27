@@ -5,30 +5,30 @@ VALUES (0x7260D001,  1154, 0x260D0004, 6.148219, 87.51631, -0.09175003, -0.99844
 /* @teleloc 0x260D0004 [6.148219 87.516310 -0.091750] -0.998442 0.000000 0.000000 -0.055798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7260D001, 0x7260D002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7260D001, 0x7260D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7260D001, 0x7260D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7260D001, 0x7260D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7260D001, 0x7260D006, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7260D001, 0x7260D007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7260D001, 0x7260D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7260D001, 0x7260D009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7260D001, 0x7260D00A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7260D001, 0x7260D00B, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7260D001, 0x7260D00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7260D001, 0x7260D00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D00E, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D00F, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D010, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7260D001, 0x7260D011, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7260D001, 0x7260D012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D013, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7260D001, 0x7260D014, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D015, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7260D001, 0x7260D016, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D017, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7260D001, 0x7260D018, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7260D001, 0x7260D019, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7260D001, 0x7260D002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7260D001, 0x7260D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7260D001, 0x7260D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7260D001, 0x7260D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7260D001, 0x7260D006, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7260D001, 0x7260D007, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7260D001, 0x7260D008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7260D001, 0x7260D009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7260D001, 0x7260D00A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7260D001, 0x7260D00B, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7260D001, 0x7260D00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7260D001, 0x7260D00D, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7260D001, 0x7260D00E, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7260D001, 0x7260D00F, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260D001, 0x7260D010, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7260D001, 0x7260D011, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7260D001, 0x7260D012, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260D001, 0x7260D013, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7260D001, 0x7260D014, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260D001, 0x7260D015, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7260D001, 0x7260D016, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260D001, 0x7260D017, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7260D001, 0x7260D018, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7260D001, 0x7260D019, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7260D002, 24320, 0x260D0004, 6.148219, 87.51631, -0.09175003, -0.9984421, 0, 0, -0.05579806,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -131,7 +131,7 @@ VALUES (0x7260D01A,  1542, 0x260D0040, 176.129, 185.76, 2.800423, 1, 0, 0, 0, Fa
 /* @teleloc 0x260D0040 [176.129000 185.760000 2.800423] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7260D01A, 0x7260D01B, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7260D01A, 0x7260D01B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7260D01B, 31445, 0x260D0040, 176.129, 185.76, 2.800423, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

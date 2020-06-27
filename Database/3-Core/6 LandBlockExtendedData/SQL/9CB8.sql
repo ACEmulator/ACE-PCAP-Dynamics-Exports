@@ -5,8 +5,8 @@ VALUES (0x79CB8001,  1154, 0x9CB80030, 123.0622, 184.1856, 83.20105, 0.1523339, 
 /* @teleloc 0x9CB80030 [123.062200 184.185600 83.201050] 0.152334 0.000000 0.000000 -0.988329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CB8001, 0x79CB8002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CB8001, 0x79CB8003, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x79CB8001, 0x79CB8002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CB8001, 0x79CB8003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CB8002,   217, 0x9CB80030, 123.0622, 184.1856, 83.20105, 0.1523339, 0, 0, -0.9883291,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -21,7 +21,7 @@ VALUES (0x79CB8004,  1542, 0x9CB80016, 55.54087, 130.5241, 101.1525, -0.6187004,
 /* @teleloc 0x9CB80016 [55.540870 130.524100 101.152500] -0.618700 0.000000 0.000000 -0.785627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CB8004, 0x79CB8005, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x79CB8004, 0x79CB8005, '2019-02-10 00:00:00') /* Old Gravestone (34131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CB8005, 34131, 0x9CB80016, 55.54087, 130.5241, 101.1525, -0.6187004, 0, 0, -0.7856269,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

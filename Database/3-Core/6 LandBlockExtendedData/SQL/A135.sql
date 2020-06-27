@@ -5,14 +5,14 @@ VALUES (0x7A135001,  1154, 0xA1350001, 10.13577, 11.29636, 61.15385, 0.9063078, 
 /* @teleloc 0xA1350001 [10.135770 11.296360 61.153850] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A135001, 0x7A135002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A135001, 0x7A135003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A135001, 0x7A135004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A135001, 0x7A135005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A135001, 0x7A135006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A135001, 0x7A135007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A135001, 0x7A135008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A135001, 0x7A135009, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7A135001, 0x7A135002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A135001, 0x7A135003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A135001, 0x7A135004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A135001, 0x7A135005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A135001, 0x7A135006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A135001, 0x7A135007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A135001, 0x7A135008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A135001, 0x7A135009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A135002,  7978, 0xA1350001, 10.13577, 11.29636, 61.15385, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

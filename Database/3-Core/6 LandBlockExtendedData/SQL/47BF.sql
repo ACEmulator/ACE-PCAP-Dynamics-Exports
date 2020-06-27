@@ -5,10 +5,10 @@ VALUES (0x747BF001,  1154, 0x47BF0006, 16.34958, 124.7465, 8.249497, -0.7746843,
 /* @teleloc 0x47BF0006 [16.349580 124.746500 8.249497] -0.774684 0.000000 0.000000 -0.632348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747BF001, 0x747BF002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x747BF001, 0x747BF003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x747BF001, 0x747BF004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x747BF001, 0x747BF005, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x747BF001, 0x747BF002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x747BF001, 0x747BF003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x747BF001, 0x747BF004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x747BF001, 0x747BF005, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747BF002,  7123, 0x47BF0006, 16.34958, 124.7465, 8.249497, -0.7746843, 0, 0, -0.6323482,  True, '2019-02-10 00:00:00'); /* Dark Leech */

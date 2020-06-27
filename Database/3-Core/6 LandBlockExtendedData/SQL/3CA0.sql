@@ -5,28 +5,28 @@ VALUES (0x73CA0001,  1154, 0x3CA0002A, 142.3579, 46.96861, 17.64037, -0.8542078,
 /* @teleloc 0x3CA0002A [142.357900 46.968610 17.640370] -0.854208 0.000000 0.000000 -0.519932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73CA0001, 0x73CA0002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73CA0001, 0x73CA0003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73CA0001, 0x73CA0004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73CA0001, 0x73CA0005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73CA0001, 0x73CA0006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73CA0001, 0x73CA0007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73CA0001, 0x73CA0008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73CA0001, 0x73CA0009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73CA0001, 0x73CA000A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73CA0001, 0x73CA000B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73CA0001, 0x73CA000C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73CA0001, 0x73CA000D, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73CA0001, 0x73CA000E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73CA0001, 0x73CA000F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73CA0001, 0x73CA0010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73CA0001, 0x73CA0011, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73CA0001, 0x73CA0012, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73CA0001, 0x73CA0013, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73CA0001, 0x73CA0014, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x73CA0001, 0x73CA0015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73CA0001, 0x73CA0016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73CA0001, 0x73CA0017, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x73CA0001, 0x73CA0002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73CA0001, 0x73CA0003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73CA0001, 0x73CA0004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73CA0001, 0x73CA0005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73CA0001, 0x73CA0006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73CA0001, 0x73CA0007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73CA0001, 0x73CA0008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73CA0001, 0x73CA0009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73CA0001, 0x73CA000A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73CA0001, 0x73CA000B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73CA0001, 0x73CA000C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73CA0001, 0x73CA000D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73CA0001, 0x73CA000E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73CA0001, 0x73CA000F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73CA0001, 0x73CA0010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73CA0001, 0x73CA0011, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73CA0001, 0x73CA0012, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73CA0001, 0x73CA0013, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73CA0001, 0x73CA0014, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x73CA0001, 0x73CA0015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73CA0001, 0x73CA0016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73CA0001, 0x73CA0017, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73CA0002,  7111, 0x3CA0002A, 142.3579, 46.96861, 17.64037, -0.8542078, 0, 0, -0.5199319,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

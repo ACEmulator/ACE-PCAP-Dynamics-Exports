@@ -5,12 +5,12 @@ VALUES (0x7806E001,  1154, 0x806E001A, 88.38451, 32.71312, 14.01682, 1, 0, 0, 0,
 /* @teleloc 0x806E001A [88.384510 32.713120 14.016820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7806E001, 0x7806E002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7806E001, 0x7806E003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7806E001, 0x7806E004, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7806E001, 0x7806E005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7806E001, 0x7806E006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7806E001, 0x7806E007, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7806E001, 0x7806E002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7806E001, 0x7806E003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7806E001, 0x7806E004, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7806E001, 0x7806E005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7806E001, 0x7806E006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7806E001, 0x7806E007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7806E002,   950, 0x806E001A, 88.38451, 32.71312, 14.01682, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zombie */

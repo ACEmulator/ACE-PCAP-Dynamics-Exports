@@ -5,21 +5,21 @@ VALUES (0x7BFEE001,  1154, 0xBFEE0001, 17.71036, 15.66507, 14.90683, 1, 0, 0, 0,
 /* @teleloc 0xBFEE0001 [17.710360 15.665070 14.906830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFEE001, 0x7BFEE002, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BFEE001, 0x7BFEE003, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BFEE001, 0x7BFEE004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEE001, 0x7BFEE005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEE001, 0x7BFEE006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BFEE001, 0x7BFEE007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BFEE001, 0x7BFEE008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEE001, 0x7BFEE009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BFEE001, 0x7BFEE00A, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7BFEE001, 0x7BFEE00B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BFEE001, 0x7BFEE00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFEE001, 0x7BFEE00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BFEE001, 0x7BFEE00E, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BFEE001, 0x7BFEE00F, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7BFEE001, 0x7BFEE010, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7BFEE001, 0x7BFEE002, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BFEE001, 0x7BFEE003, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BFEE001, 0x7BFEE004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEE001, 0x7BFEE005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEE001, 0x7BFEE006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BFEE001, 0x7BFEE007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BFEE001, 0x7BFEE008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEE001, 0x7BFEE009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BFEE001, 0x7BFEE00A, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7BFEE001, 0x7BFEE00B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BFEE001, 0x7BFEE00C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BFEE001, 0x7BFEE00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BFEE001, 0x7BFEE00E, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BFEE001, 0x7BFEE00F, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7BFEE001, 0x7BFEE010, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFEE002, 28246, 0xBFEE0001, 17.71036, 15.66507, 14.90683, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Spirit */
@@ -86,7 +86,7 @@ VALUES (0x7BFEE011,  1542, 0xBFEE000C, 36.25557, 86.08584, 15.91481, 0.9990482, 
 /* @teleloc 0xBFEE000C [36.255570 86.085840 15.914810] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFEE011, 0x7BFEE012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BFEE011, 0x7BFEE012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFEE012,  4179, 0xBFEE000C, 36.25557, 86.08584, 15.91481, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

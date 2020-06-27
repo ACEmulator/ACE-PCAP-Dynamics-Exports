@@ -5,18 +5,18 @@ VALUES (0x74E18001,  1154, 0x4E18003E, 182.1112, 132.4604, 68.01, 0.6739382, 0, 
 /* @teleloc 0x4E18003E [182.111200 132.460400 68.010000] 0.673938 0.000000 0.000000 -0.738788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E18001, 0x74E18002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74E18001, 0x74E18003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74E18001, 0x74E18004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x74E18001, 0x74E18005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74E18001, 0x74E18006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74E18001, 0x74E18007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74E18001, 0x74E18008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74E18001, 0x74E18009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74E18001, 0x74E1800A, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74E18001, 0x74E1800B, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74E18001, 0x74E1800C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74E18001, 0x74E1800D, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x74E18001, 0x74E18002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74E18001, 0x74E18003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74E18001, 0x74E18004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x74E18001, 0x74E18005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74E18001, 0x74E18006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74E18001, 0x74E18007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74E18001, 0x74E18008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74E18001, 0x74E18009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74E18001, 0x74E1800A, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74E18001, 0x74E1800B, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74E18001, 0x74E1800C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74E18001, 0x74E1800D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E18002, 24497, 0x4E18003E, 182.1112, 132.4604, 68.01, 0.6739382, 0, 0, -0.7387877,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -71,9 +71,9 @@ VALUES (0x74E1800E,  1542, 0x4E18000E, 40.16891, 120.8334, 67.99, -0.1087824, 0,
 /* @teleloc 0x4E18000E [40.168910 120.833400 67.990000] -0.108782 0.000000 0.000000 -0.994066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E1800E, 0x74E1800F, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x74E1800E, 0x74E18010, '2019-02-10 00:00:00') /* North Desert Edge */
-     , (0x74E1800E, 0x74E18011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74E1800E, 0x74E1800F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x74E1800E, 0x74E18010, '2019-02-10 00:00:00') /* North Desert Edge (1905) */
+     , (0x74E1800E, 0x74E18011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E1800F,  9288, 0x4E18000E, 40.16891, 120.8334, 67.99, -0.1087824, 0, 0, -0.9940656,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

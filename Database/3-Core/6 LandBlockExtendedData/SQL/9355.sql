@@ -5,9 +5,9 @@ VALUES (0x79355001,  1154, 0x93550012, 66.10606, 25.60026, 17.02318, -0.8828405,
 /* @teleloc 0x93550012 [66.106060 25.600260 17.023180] -0.882841 0.000000 0.000000 -0.469673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79355001, 0x79355002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x79355001, 0x79355003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79355001, 0x79355004, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x79355001, 0x79355002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x79355001, 0x79355003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79355001, 0x79355004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79355002,  2439, 0x93550012, 66.10606, 25.60026, 17.02318, -0.8828405, 0, 0, -0.469673,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

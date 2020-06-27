@@ -5,10 +5,10 @@ VALUES (0x72B36001,  1154, 0x2B360018, 67.5247, 172.2396, 101.2613, 0.7071068, 0
 /* @teleloc 0x2B360018 [67.524700 172.239600 101.261300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B36001, 0x72B36002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72B36001, 0x72B36003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72B36001, 0x72B36004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72B36001, 0x72B36005, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72B36001, 0x72B36002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72B36001, 0x72B36003, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72B36001, 0x72B36004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72B36001, 0x72B36005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B36002, 36820, 0x2B360018, 67.5247, 172.2396, 101.2613, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -31,7 +31,7 @@ VALUES (0x72B36006,  1542, 0x2B360018, 71.79633, 169.2946, 101.966, 0.9990482, 0
 /* @teleloc 0x2B360018 [71.796330 169.294600 101.966000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B36006, 0x72B36007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72B36006, 0x72B36007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B36007,  4179, 0x2B360018, 71.79633, 169.2946, 101.966, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -37,7 +37,7 @@ VALUES (0x72BB500A,  1154, 0x2BB50031, 151.673, 14.3261, 99, -0.964044, 0, 0, -0
 /* @teleloc 0x2BB50031 [151.673000 14.326100 99.000000] -0.964044 0.000000 0.000000 -0.265742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BB500A, 0x72BB500B, '2019-02-10 00:00:00') /* Exploration Marker */;
+VALUES (0x72BB500A, 0x72BB500B, '2019-02-10 00:00:00') /* Exploration Marker (39831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BB500B, 39831, 0x2BB50031, 151.673, 14.3261, 99, -0.964044, 0, 0, -0.265742,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -48,11 +48,11 @@ VALUES (0x72BB500C,  1154, 0x2BB50024, 115.501, 77.4764, 0.004999995, -0.424105,
 /* @teleloc 0x2BB50024 [115.501000 77.476400 0.005000] -0.424105 0.000000 0.000000 -0.905613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BB500C, 0x72BB500D, '2019-02-10 00:00:00') /* Tamara du Cinghalle */
-     , (0x72BB500C, 0x72BB500E, '2019-02-10 00:00:00') /* Enrico di Bellenesse */
-     , (0x72BB500C, 0x72BB500F, '2019-02-10 00:00:00') /* Rico Cellini */
-     , (0x72BB500C, 0x72BB5010, '2019-02-10 00:00:00') /* Romeo Osemmi */
-     , (0x72BB500C, 0x72BB5011, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x72BB500C, 0x72BB500D, '2019-02-10 00:00:00') /* Tamara du Cinghalle (38820) */
+     , (0x72BB500C, 0x72BB500E, '2019-02-10 00:00:00') /* Enrico di Bellenesse (32084) */
+     , (0x72BB500C, 0x72BB500F, '2019-02-10 00:00:00') /* Rico Cellini (32108) */
+     , (0x72BB500C, 0x72BB5010, '2019-02-10 00:00:00') /* Romeo Osemmi (32067) */
+     , (0x72BB500C, 0x72BB5011, '2019-02-10 00:00:00') /* Town Crier (30064) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BB500D, 38820, 0x2BB50024, 115.501, 77.4764, 0.004999995, -0.424105, 0, 0, -0.905613,  True, '2019-02-10 00:00:00'); /* Tamara du Cinghalle */

@@ -5,9 +5,9 @@ VALUES (0x774F0001,  1154, 0x74F00025, 113.591, 114.5665, 50.99687, -0.835103, 0
 /* @teleloc 0x74F00025 [113.591000 114.566500 50.996870] -0.835103 0.000000 0.000000 -0.550094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774F0001, 0x774F0002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x774F0001, 0x774F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x774F0001, 0x774F0004, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x774F0001, 0x774F0002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x774F0001, 0x774F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x774F0001, 0x774F0004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774F0002, 14520, 0x74F00025, 113.591, 114.5665, 50.99687, -0.835103, 0, 0, -0.5500936,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

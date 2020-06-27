@@ -9,635 +9,635 @@ VALUES (0x72C3101E,  1154, 0x2C310038, 161.7793, 172.06, 91.69067, 0.7492168, 0,
 /* @teleloc 0x2C310038 [161.779300 172.060000 91.690670] 0.749217 0.000000 0.000000 0.662325 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C3101E, 0x72C3101F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31020, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31021, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31022, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31023, '2019-02-10 00:00:00') /* Rynthid Crystal */
-     , (0x72C3101E, 0x72C31024, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31025, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31026, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31027, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31028, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31029, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3102A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3102B, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3102C, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3102D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3102E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3102F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31030, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31031, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31032, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31033, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31034, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31035, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31036, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31037, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31038, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31039, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3103A, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3103B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3103C, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C3103D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3103E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3103F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31040, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31041, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31042, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31043, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31044, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31045, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31046, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31047, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31048, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31049, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3104A, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3104B, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3104C, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3104D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3104E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3104F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31050, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31051, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31052, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31053, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31054, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31055, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31056, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31057, '2019-02-10 00:00:00') /* Rynthid Crystal */
-     , (0x72C3101E, 0x72C31058, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31059, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3105A, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3105B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3105C, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3105D, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3105E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3105F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31060, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31061, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31062, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31063, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31064, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31065, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31066, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31067, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31068, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31069, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3106A, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3106B, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3106C, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C3106D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3106E, '2019-02-10 00:00:00') /* Rift of Blind Rage */
-     , (0x72C3101E, 0x72C3106F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31070, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31071, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31072, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31073, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31074, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31075, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31076, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31077, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31078, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31079, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3107A, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3107B, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3107C, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3107D, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3107E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3107F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31080, '2019-02-10 00:00:00') /* Rift of Consuming Torment */
-     , (0x72C3101E, 0x72C31081, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31082, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31083, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31084, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31085, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31086, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31087, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31088, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31089, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3108A, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3108B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3108C, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3108D, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3108E, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3108F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31090, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31091, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31092, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31093, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31094, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31095, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31096, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31097, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31098, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31099, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3109A, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3109B, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3109C, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3109D, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3109E, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3109F, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310A0, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310A1, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310A2, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310A3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310A4, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310A5, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310A6, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310A7, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310A8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C310A9, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C310AA, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C310AB, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310AC, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310AD, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310AE, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310AF, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310B0, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310B1, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310B2, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310B3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310B4, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C310B5, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310B6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310B7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310B8, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310B9, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310BA, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310BB, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310BC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310BD, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310BE, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C310BF, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310C0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310C1, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310C2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310C3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310C4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310C5, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310C6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310C7, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310C8, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310C9, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310CA, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310CB, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310CC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310CD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310CE, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310CF, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310D0, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310D1, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310D2, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310D3, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310D4, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310D5, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310D6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C310D7, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310D8, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310D9, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310DA, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310DB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310DC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310DD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310DE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310DF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310E0, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310E1, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C310E2, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310E3, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310E4, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310E5, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310E6, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310E7, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310E8, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310E9, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310EA, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310EB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310EC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310ED, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310EE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310EF, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C310F0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310F1, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310F2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310F3, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310F4, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310F5, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310F6, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C310F7, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C310F8, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310F9, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310FA, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310FB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310FC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C310FD, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C310FE, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C310FF, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31100, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31101, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31102, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31103, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31104, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31105, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31106, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31107, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31108, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31109, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3110A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3110B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3110C, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3110D, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C3110E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3110F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31110, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31111, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31112, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31113, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31114, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31115, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31116, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31117, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31118, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31119, '2019-02-10 00:00:00') /* Rift of Consuming Torment */
-     , (0x72C3101E, 0x72C3111A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C3111B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C3111C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C3111D, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3111E, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C3111F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31120, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31121, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31122, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31123, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31124, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31125, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31126, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31127, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31128, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31129, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C3112A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3112B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3112C, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3112D, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3112E, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C3112F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31130, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31131, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31132, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31133, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31134, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31135, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31136, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31137, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31138, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31139, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3113A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3113B, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3113C, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3113D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3113E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3113F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31140, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31141, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31142, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31143, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31144, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31145, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31146, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31147, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31148, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31149, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3114A, '2019-02-10 00:00:00') /* Rift of Consuming Torment */
-     , (0x72C3101E, 0x72C3114B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3114C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C3114D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C3114E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3114F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31150, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31151, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31152, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31153, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31154, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31155, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31156, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31157, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31158, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31159, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3115A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3115B, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3115C, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3115D, '2019-02-10 00:00:00') /* Rift of Consuming Torment */
-     , (0x72C3101E, 0x72C3115E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3115F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31160, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31161, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C31162, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31163, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31164, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31165, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31166, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31167, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31168, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31169, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3116A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3116B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3116C, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3116D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3116E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3116F, '2019-02-10 00:00:00') /* Rift of Blind Rage */
-     , (0x72C3101E, 0x72C31170, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31171, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31172, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31173, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31174, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C31175, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31176, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31177, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31178, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31179, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C3117A, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3117B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3117C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3117D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3117E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3117F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31180, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31181, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31182, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31183, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31184, '2019-02-10 00:00:00') /* Empowered Hatred Wisp */
-     , (0x72C3101E, 0x72C31185, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31186, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C31187, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31188, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31189, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3118A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3118B, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C3118C, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C3118D, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C3118E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3118F, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31190, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31191, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31192, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31193, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31194, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31195, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31196, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31197, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31198, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31199, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3119A, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp */
-     , (0x72C3101E, 0x72C3119B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3119C, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3119D, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3119E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3119F, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311A0, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311A1, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311A2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311A3, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C311A4, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311A5, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311A6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311A7, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311A8, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311A9, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311AA, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311AB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311AC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311AD, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311AE, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311AF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311B0, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311B1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311B2, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311B3, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311B4, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311B5, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C311B6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311B7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311B8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311B9, '2019-02-10 00:00:00') /* Rift of Blind Rage */
-     , (0x72C3101E, 0x72C311BA, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C311BB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C311BC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage */
-     , (0x72C3101E, 0x72C311BD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311BE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311BF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311C0, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311C1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311C2, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311C3, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311C4, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311C5, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311C6, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311C7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311C8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311C9, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311CA, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311CB, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311CC, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311CD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311CE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311CF, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311D0, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311D1, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311D2, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311D3, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311D4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311D5, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311D6, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311D7, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311D8, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311D9, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311DA, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C311DB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311DC, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C311DD, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C311DE, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C311DF, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311E0, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311E1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311E2, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311E3, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311E4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C311E5, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C311E6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311E7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311E8, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311E9, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311EA, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311EB, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311EC, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C311ED, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C311EE, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C311EF, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F1, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F2, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C311F3, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C311F4, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C311F5, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C311F6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311F9, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C311FA, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp */
-     , (0x72C3101E, 0x72C311FB, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311FC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment */
-     , (0x72C3101E, 0x72C311FD, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C311FE, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C311FF, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31200, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31201, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31202, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31203, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31204, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31205, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31206, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31207, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31208, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31209, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3120A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3120B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C3120C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3120D, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3120E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3120F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31210, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31211, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31212, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31213, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31214, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31215, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31216, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31217, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31218, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31219, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3121A, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C3121B, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C3121C, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3121D, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3121E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3121F, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp */
-     , (0x72C3101E, 0x72C31220, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31221, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31222, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31223, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31224, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31225, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31226, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31227, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31228, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31229, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3122A, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3122B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3122C, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3122D, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C3122E, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3122F, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31230, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31231, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31232, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31233, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31234, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31235, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31236, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31237, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31238, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31239, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3123A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3123B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3123C, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C3123D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3123E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3123F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31240, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31241, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31242, '2019-02-10 00:00:00') /* Rift of Torment */
-     , (0x72C3101E, 0x72C31243, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31244, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31245, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31246, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31247, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31248, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31249, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3124A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3124B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3124C, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3124D, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3124E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3124F, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31250, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31251, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31252, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31253, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31254, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31255, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31256, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31257, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment */
-     , (0x72C3101E, 0x72C31258, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31259, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3125A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3125B, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3125C, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3125D, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3125E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3125F, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31260, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31261, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31262, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31263, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31264, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31265, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31266, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31267, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31268, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31269, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3126A, '2019-02-10 00:00:00') /* Empowered Despair Wisp */
-     , (0x72C3101E, 0x72C3126B, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3126C, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3126D, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3126E, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C3126F, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31270, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31271, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31272, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31273, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31274, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31275, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31276, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31277, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31278, '2019-02-10 00:00:00') /* Rynthid Rager */
-     , (0x72C3101E, 0x72C31279, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3127A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3127B, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C3127C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3127D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3127E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C3127F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31280, '2019-02-10 00:00:00') /* Rynthid Minion of Rage */
-     , (0x72C3101E, 0x72C31281, '2019-02-10 00:00:00') /* Rynthid Minion */
-     , (0x72C3101E, 0x72C31282, '2019-02-10 00:00:00') /* Empowered Despair Wisp */
-     , (0x72C3101E, 0x72C31283, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31284, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C31285, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31286, '2019-02-10 00:00:00') /* Rynthid Slayer */
-     , (0x72C3101E, 0x72C31287, '2019-02-10 00:00:00') /* Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C31288, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31289, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3128A, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer */
-     , (0x72C3101E, 0x72C3128B, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C3128C, '2019-02-10 00:00:00') /* Tormented Shadow */
-     , (0x72C3101E, 0x72C3128D, '2019-02-10 00:00:00') /* Enraged Shadow */
-     , (0x72C3101E, 0x72C3128E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C3128F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31290, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31291, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */
-     , (0x72C3101E, 0x72C31292, '2019-02-10 00:00:00') /* Rift of Rage */
-     , (0x72C3101E, 0x72C31293, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage */;
+VALUES (0x72C3101E, 0x72C3101F, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31020, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31021, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31022, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31023, '2019-02-10 00:00:00') /* Rynthid Crystal (52276) */
+     , (0x72C3101E, 0x72C31024, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C31025, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31026, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31027, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31028, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31029, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3102A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3102B, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3102C, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C3102D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3102E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3102F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31030, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C31031, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31032, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31033, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31034, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31035, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31036, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31037, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31038, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31039, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3103A, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3103B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3103C, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C3103D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C3103E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C3103F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31040, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31041, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31042, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31043, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31044, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31045, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31046, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C31047, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31048, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31049, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3104A, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3104B, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3104C, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3104D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3104E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3104F, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31050, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31051, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31052, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31053, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31054, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31055, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31056, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31057, '2019-02-10 00:00:00') /* Rynthid Crystal (52276) */
+     , (0x72C3101E, 0x72C31058, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31059, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3105A, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3105B, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3105C, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3105D, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3105E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3105F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31060, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31061, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31062, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31063, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C31064, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C31065, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31066, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31067, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31068, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31069, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3106A, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3106B, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C3106C, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C3106D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3106E, '2019-02-10 00:00:00') /* Rift of Blind Rage (51723) */
+     , (0x72C3101E, 0x72C3106F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31070, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31071, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31072, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31073, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31074, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31075, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31076, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31077, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31078, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31079, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3107A, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3107B, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3107C, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C3107D, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3107E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3107F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31080, '2019-02-10 00:00:00') /* Rift of Consuming Torment (51731) */
+     , (0x72C3101E, 0x72C31081, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31082, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31083, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31084, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31085, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31086, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31087, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31088, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31089, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3108A, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3108B, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3108C, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3108D, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3108E, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3108F, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31090, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31091, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31092, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31093, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31094, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31095, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31096, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31097, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C31098, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31099, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3109A, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3109B, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3109C, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3109D, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3109E, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3109F, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C310A0, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310A1, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310A2, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C310A3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51761) */
+     , (0x72C3101E, 0x72C310A4, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C310A5, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C310A6, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310A7, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310A8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C310A9, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C310AA, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C310AB, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C310AC, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310AD, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310AE, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310AF, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C310B0, '2019-02-10 00:00:00') /* Rynthid Slayer (52279) */
+     , (0x72C3101E, 0x72C310B1, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C310B2, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C310B3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C310B4, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C310B5, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310B6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310B7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C310B8, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310B9, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C310BA, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C310BB, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C310BC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310BD, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C310BE, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C310BF, '2019-02-10 00:00:00') /* Rynthid Sorcerer (52278) */
+     , (0x72C3101E, 0x72C310C0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C310C1, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C310C2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C310C3, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C310C4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310C5, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C310C6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310C7, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310C8, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C310C9, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C310CA, '2019-02-10 00:00:00') /* Rynthid Minion (52280) */
+     , (0x72C3101E, 0x72C310CB, '2019-02-10 00:00:00') /* Rynthid Slayer (52279) */
+     , (0x72C3101E, 0x72C310CC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310CD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310CE, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C310CF, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310D0, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310D1, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310D2, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310D3, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C310D4, '2019-02-10 00:00:00') /* Rynthid Sorcerer (52278) */
+     , (0x72C3101E, 0x72C310D5, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C310D6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C310D7, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C310D8, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C310D9, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C310DA, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C310DB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C310DC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C310DD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C310DE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C310DF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C310E0, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C310E1, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C310E2, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C310E3, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310E4, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310E5, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C310E6, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310E7, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310E8, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310E9, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310EA, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310EB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310EC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310ED, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310EE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310EF, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C310F0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C310F1, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C310F2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C310F3, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310F4, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310F5, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310F6, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C310F7, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C310F8, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310F9, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310FA, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310FB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310FC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C310FD, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C310FE, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C310FF, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31100, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31101, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31102, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C31103, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C31104, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31105, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C31106, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C31107, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C31108, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31109, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3110A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C3110B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3110C, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3110D, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C3110E, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3110F, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31110, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31111, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31112, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31113, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31114, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31115, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31116, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31117, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31118, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31119, '2019-02-10 00:00:00') /* Rift of Consuming Torment (51731) */
+     , (0x72C3101E, 0x72C3111A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C3111B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C3111C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C3111D, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3111E, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C3111F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31120, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31121, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31122, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31123, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31124, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31125, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31126, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31127, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31128, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31129, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C3112A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3112B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3112C, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3112D, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3112E, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C3112F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31130, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31131, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31132, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C31133, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C31134, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51761) */
+     , (0x72C3101E, 0x72C31135, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31136, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31137, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31138, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31139, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3113A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3113B, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3113C, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3113D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3113E, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3113F, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31140, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31141, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31142, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31143, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31144, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31145, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31146, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31147, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31148, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31149, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51761) */
+     , (0x72C3101E, 0x72C3114A, '2019-02-10 00:00:00') /* Rift of Consuming Torment (51733) */
+     , (0x72C3101E, 0x72C3114B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3114C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51734) */
+     , (0x72C3101E, 0x72C3114D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51734) */
+     , (0x72C3101E, 0x72C3114E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3114F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31150, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31151, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31152, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31153, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31154, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31155, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31156, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31157, '2019-02-10 00:00:00') /* Rift of Torment (51737) */
+     , (0x72C3101E, 0x72C31158, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C31159, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C3115A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C3115B, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3115C, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3115D, '2019-02-10 00:00:00') /* Rift of Consuming Torment (51731) */
+     , (0x72C3101E, 0x72C3115E, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3115F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31160, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31161, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C31162, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31163, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31164, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31165, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31166, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31167, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C31168, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31169, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3116A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3116B, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3116C, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3116D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3116E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3116F, '2019-02-10 00:00:00') /* Rift of Blind Rage (51723) */
+     , (0x72C3101E, 0x72C31170, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31171, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31172, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31173, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31174, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51724) */
+     , (0x72C3101E, 0x72C31175, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31176, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C31177, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31178, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C31179, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C3117A, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C3117B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3117C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3117D, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C3117E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C3117F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31180, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31181, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C31182, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31183, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31184, '2019-02-10 00:00:00') /* Empowered Hatred Wisp (51807) */
+     , (0x72C3101E, 0x72C31185, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C31186, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C31187, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31188, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31189, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3118A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C3118B, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C3118C, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C3118D, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C3118E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3118F, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31190, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31191, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31192, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C31193, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31194, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31195, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31196, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C31197, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31198, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31199, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3119A, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp (51808) */
+     , (0x72C3101E, 0x72C3119B, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3119C, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3119D, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3119E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3119F, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C311A0, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311A1, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311A2, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311A3, '2019-02-10 00:00:00') /* Rift of Torment (51737) */
+     , (0x72C3101E, 0x72C311A4, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311A5, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311A6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311A7, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311A8, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311A9, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311AA, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51761) */
+     , (0x72C3101E, 0x72C311AB, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311AC, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311AD, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C311AE, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C311AF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311B0, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311B1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311B2, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C311B3, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C311B4, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C311B5, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C311B6, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311B7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C311B8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C311B9, '2019-02-10 00:00:00') /* Rift of Blind Rage (51725) */
+     , (0x72C3101E, 0x72C311BA, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51726) */
+     , (0x72C3101E, 0x72C311BB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51726) */
+     , (0x72C3101E, 0x72C311BC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Blind Rage (51726) */
+     , (0x72C3101E, 0x72C311BD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311BE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311BF, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311C0, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311C1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311C2, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311C3, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C311C4, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311C5, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311C6, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311C7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C311C8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C311C9, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311CA, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C311CB, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C311CC, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C311CD, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311CE, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311CF, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C311D0, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C311D1, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C311D2, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C311D3, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C311D4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C311D5, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311D6, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311D7, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311D8, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311D9, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C311DA, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C311DB, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51762) */
+     , (0x72C3101E, 0x72C311DC, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C311DD, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C311DE, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C311DF, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C311E0, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C311E1, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311E2, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311E3, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311E4, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C311E5, '2019-02-10 00:00:00') /* Rift of Torment (51737) */
+     , (0x72C3101E, 0x72C311E6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311E7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311E8, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C311E9, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C311EA, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C311EB, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C311EC, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C311ED, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C311EE, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C311EF, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C311F0, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C311F1, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C311F2, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C311F3, '2019-02-10 00:00:00') /* Tormented Shadow (51881) */
+     , (0x72C3101E, 0x72C311F4, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C311F5, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C311F6, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C311F7, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C311F8, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C311F9, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C311FA, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp (51808) */
+     , (0x72C3101E, 0x72C311FB, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C311FC, '2019-02-10 00:00:00') /* Discorporate Rynthid of Consuming Torment (51732) */
+     , (0x72C3101E, 0x72C311FD, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C311FE, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C311FF, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C31200, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31201, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31202, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31203, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31204, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31205, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31206, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31207, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C31208, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31209, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3120A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3120B, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C3120C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3120D, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3120E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3120F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31210, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31211, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C31212, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31213, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31214, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31215, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31216, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31217, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31218, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31219, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C3121A, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C3121B, '2019-02-10 00:00:00') /* Enraged Shadow (51879) */
+     , (0x72C3101E, 0x72C3121C, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3121D, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3121E, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3121F, '2019-02-10 00:00:00') /* Empowered Sorrow Wisp (51808) */
+     , (0x72C3101E, 0x72C31220, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31221, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31222, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C31223, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31224, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31225, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31226, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31227, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31228, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31229, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3122A, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3122B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3122C, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3122D, '2019-02-10 00:00:00') /* Rynthid Rager (51751) */
+     , (0x72C3101E, 0x72C3122E, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C3122F, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31230, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31231, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51746) */
+     , (0x72C3101E, 0x72C31232, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C31233, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31234, '2019-02-10 00:00:00') /* Rift of Torment (51737) */
+     , (0x72C3101E, 0x72C31235, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51738) */
+     , (0x72C3101E, 0x72C31236, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C31237, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C31238, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51745) */
+     , (0x72C3101E, 0x72C31239, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3123A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3123B, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3123C, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C3123D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3123E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3123F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31240, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31241, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31242, '2019-02-10 00:00:00') /* Rift of Torment (51735) */
+     , (0x72C3101E, 0x72C31243, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C31244, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31245, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31246, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31247, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31248, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31249, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3124A, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3124B, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3124C, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51760) */
+     , (0x72C3101E, 0x72C3124D, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C3124E, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3124F, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31250, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C31251, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31252, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C31253, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31254, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31255, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31256, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31257, '2019-02-10 00:00:00') /* Discorporate Rynthid of Torment (51736) */
+     , (0x72C3101E, 0x72C31258, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31259, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3125A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51748) */
+     , (0x72C3101E, 0x72C3125B, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3125C, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3125D, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C3125E, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3125F, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C31260, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31261, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31262, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31263, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31264, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31265, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31266, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31267, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C31268, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31269, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */
+     , (0x72C3101E, 0x72C3126A, '2019-02-10 00:00:00') /* Empowered Despair Wisp (51806) */
+     , (0x72C3101E, 0x72C3126B, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3126C, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3126D, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3126E, '2019-02-10 00:00:00') /* Rynthid Minion (51749) */
+     , (0x72C3101E, 0x72C3126F, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C31270, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31271, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31272, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31273, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31274, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31275, '2019-02-10 00:00:00') /* Rynthid Slayer (51756) */
+     , (0x72C3101E, 0x72C31276, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31277, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31278, '2019-02-10 00:00:00') /* Rynthid Rager (51752) */
+     , (0x72C3101E, 0x72C31279, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51758) */
+     , (0x72C3101E, 0x72C3127A, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3127B, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C3127C, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3127D, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3127E, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C3127F, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31280, '2019-02-10 00:00:00') /* Rynthid Minion of Rage (51747) */
+     , (0x72C3101E, 0x72C31281, '2019-02-10 00:00:00') /* Rynthid Minion (51750) */
+     , (0x72C3101E, 0x72C31282, '2019-02-10 00:00:00') /* Empowered Despair Wisp (51806) */
+     , (0x72C3101E, 0x72C31283, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C31284, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C31285, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31286, '2019-02-10 00:00:00') /* Rynthid Slayer (51755) */
+     , (0x72C3101E, 0x72C31287, '2019-02-10 00:00:00') /* Rynthid Sorcerer (51759) */
+     , (0x72C3101E, 0x72C31288, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51761) */
+     , (0x72C3101E, 0x72C31289, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3128A, '2019-02-10 00:00:00') /* Raging Rynthid Sorcerer (51757) */
+     , (0x72C3101E, 0x72C3128B, '2019-02-10 00:00:00') /* Rift of Rage (51727) */
+     , (0x72C3101E, 0x72C3128C, '2019-02-10 00:00:00') /* Tormented Shadow (51880) */
+     , (0x72C3101E, 0x72C3128D, '2019-02-10 00:00:00') /* Enraged Shadow (51878) */
+     , (0x72C3101E, 0x72C3128E, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C3128F, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31290, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31291, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51728) */
+     , (0x72C3101E, 0x72C31292, '2019-02-10 00:00:00') /* Rift of Rage (51729) */
+     , (0x72C3101E, 0x72C31293, '2019-02-10 00:00:00') /* Discorporate Rynthid of Rage (51730) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C3101F, 51750, 0x2C310038, 161.7793, 172.06, 91.69067, 0.7492168, 0, 0, 0.6623248,  True, '2019-02-10 00:00:00'); /* Rynthid Minion */
@@ -3160,7 +3160,7 @@ VALUES (0x72C31294,  1154, 0x2C31002D, 135.917, 108.216, 107.5, 0.6963451, 0, 0,
 /* @teleloc 0x2C31002D [135.917000 108.216000 107.500000] 0.696345 0.000000 0.000000 -0.717707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C31294, 0x72C31295, '2019-02-10 00:00:00') /* Rynthid Assessment Crystal */;
+VALUES (0x72C31294, 0x72C31295, '2019-02-10 00:00:00') /* Rynthid Assessment Crystal (52077) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C31295, 52077, 0x2C31002D, 135.917, 108.216, 107.5, 0.6963451, 0, 0, -0.7177071,  True, '2019-02-10 00:00:00'); /* Rynthid Assessment Crystal */
@@ -3171,8 +3171,8 @@ VALUES (0x72C31296,  1542, 0x2C31002F, 129.301, 151.02, 93.33, 1, 0, 0, 0, False
 /* @teleloc 0x2C31002F [129.301000 151.020000 93.330000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C31296, 0x72C31297, '2019-02-10 00:00:00') /* Unknown */
-     , (0x72C31296, 0x72C31298, '2019-02-10 00:00:00') /* Unknown */;
+VALUES (0x72C31296, 0x72C31297, '2019-02-10 00:00:00') /* Unknown (52296) */
+     , (0x72C31296, 0x72C31298, '2019-02-10 00:00:00') /* Unknown (52296) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C31297, 52296, 0x2C31002F, 129.301, 151.02, 93.33, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Unknown */

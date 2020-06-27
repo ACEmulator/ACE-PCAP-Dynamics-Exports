@@ -5,11 +5,11 @@ VALUES (0x7B484001,  1154, 0xB484001A, 89.9939, 28.76594, 31.44487, 0.9654021, 0
 /* @teleloc 0xB484001A [89.993900 28.765940 31.444870] 0.965402 0.000000 0.000000 -0.260766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B484001, 0x7B484002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B484001, 0x7B484003, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7B484001, 0x7B484004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7B484001, 0x7B484005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B484001, 0x7B484006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7B484001, 0x7B484002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B484001, 0x7B484003, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7B484001, 0x7B484004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7B484001, 0x7B484005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B484001, 0x7B484006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B484002,  8270, 0xB484001A, 89.9939, 28.76594, 31.44487, 0.9654021, 0, 0, -0.2607659,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

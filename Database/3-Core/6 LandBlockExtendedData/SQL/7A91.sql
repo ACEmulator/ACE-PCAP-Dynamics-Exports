@@ -5,25 +5,25 @@ VALUES (0x77A91001,  1154, 0x7A910029, 131.4319, 5.173168, 106, 0.8391622, 0, 0,
 /* @teleloc 0x7A910029 [131.431900 5.173168 106.000000] 0.839162 0.000000 0.000000 -0.543881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A91001, 0x77A91002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77A91001, 0x77A91003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77A91001, 0x77A91004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x77A91001, 0x77A91005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x77A91001, 0x77A91006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x77A91001, 0x77A91007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77A91001, 0x77A91008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77A91001, 0x77A91009, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77A91001, 0x77A9100A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77A91001, 0x77A9100B, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x77A91001, 0x77A9100C, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77A91001, 0x77A9100D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77A91001, 0x77A9100E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77A91001, 0x77A9100F, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77A91001, 0x77A91010, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77A91001, 0x77A91011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77A91001, 0x77A91012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x77A91001, 0x77A91013, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x77A91001, 0x77A91014, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x77A91001, 0x77A91002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77A91001, 0x77A91003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77A91001, 0x77A91004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x77A91001, 0x77A91005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x77A91001, 0x77A91006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x77A91001, 0x77A91007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77A91001, 0x77A91008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77A91001, 0x77A91009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77A91001, 0x77A9100A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77A91001, 0x77A9100B, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x77A91001, 0x77A9100C, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77A91001, 0x77A9100D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77A91001, 0x77A9100E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77A91001, 0x77A9100F, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77A91001, 0x77A91010, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77A91001, 0x77A91011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77A91001, 0x77A91012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x77A91001, 0x77A91013, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x77A91001, 0x77A91014, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A91002,  1989, 0x7A910029, 131.4319, 5.173168, 106, 0.8391622, 0, 0, -0.5438812,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -106,8 +106,8 @@ VALUES (0x77A91015,  1542, 0x7A91002C, 127.8, 80.24064, 101.2633, 0.1807113, 0, 
 /* @teleloc 0x7A91002C [127.800000 80.240640 101.263300] 0.180711 0.000000 0.000000 -0.983536 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A91015, 0x77A91016, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x77A91015, 0x77A91017, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x77A91015, 0x77A91016, '2019-02-10 00:00:00') /* Old Gravestone (34132) */
+     , (0x77A91015, 0x77A91017, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A91016, 34132, 0x7A91002C, 127.8, 80.24064, 101.2633, 0.1807113, 0, 0, -0.9835362,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

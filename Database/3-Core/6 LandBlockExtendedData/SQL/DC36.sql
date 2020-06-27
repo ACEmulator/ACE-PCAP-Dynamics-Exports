@@ -5,9 +5,9 @@ VALUES (0x7DC36001,  1154, 0xDC36001F, 90.78547, 146.544, 43.15146, -0.4201221, 
 /* @teleloc 0xDC36001F [90.785470 146.544000 43.151460] -0.420122 0.000000 0.000000 -0.907468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC36001, 0x7DC36002, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7DC36001, 0x7DC36003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DC36001, 0x7DC36004, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7DC36001, 0x7DC36002, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7DC36001, 0x7DC36003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DC36001, 0x7DC36004, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC36002,  1618, 0xDC36001F, 90.78547, 146.544, 43.15146, -0.4201221, 0, 0, -0.9074676,  True, '2019-02-10 00:00:00'); /* Gigas Lugian */
@@ -26,9 +26,9 @@ VALUES (0x7DC36005,  1542, 0xDC36001F, 76.40619, 161.1393, 40.54803, 0.2534936, 
 /* @teleloc 0xDC36001F [76.406190 161.139300 40.548030] 0.253494 0.000000 0.000000 -0.967337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC36005, 0x7DC36006, '2019-02-10 00:00:00') /* Rock */
-     , (0x7DC36005, 0x7DC36007, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7DC36005, 0x7DC36008, '2019-02-10 00:00:00') /* Gorget */;
+VALUES (0x7DC36005, 0x7DC36006, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7DC36005, 0x7DC36007, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7DC36005, 0x7DC36008, '2019-02-10 00:00:00') /* Gorget (2367) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC36006, 42528, 0xDC36001F, 76.40619, 161.1393, 40.54803, 0.2534936, 0, 0, -0.9673371,  True, '2019-02-10 00:00:00'); /* Rock */

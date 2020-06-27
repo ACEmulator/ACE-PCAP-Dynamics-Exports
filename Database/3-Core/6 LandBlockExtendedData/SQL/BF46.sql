@@ -5,12 +5,12 @@ VALUES (0x7BF46001,  1154, 0xBF460011, 51.94298, 22.53144, 41.9925, 0.8870109, 0
 /* @teleloc 0xBF460011 [51.942980 22.531440 41.992500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF46001, 0x7BF46002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BF46001, 0x7BF46003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BF46001, 0x7BF46004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BF46001, 0x7BF46005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7BF46001, 0x7BF46006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BF46001, 0x7BF46007, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7BF46001, 0x7BF46002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BF46001, 0x7BF46003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BF46001, 0x7BF46004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BF46001, 0x7BF46005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7BF46001, 0x7BF46006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BF46001, 0x7BF46007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF46002,  2576, 0xBF460011, 51.94298, 22.53144, 41.9925, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -41,9 +41,9 @@ VALUES (0x7BF46008,  1542, 0xBF460012, 53.67199, 25.69538, 42, 0.9990482, 0, 0, 
 /* @teleloc 0xBF460012 [53.671990 25.695380 42.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF46008, 0x7BF46009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BF46008, 0x7BF4600A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BF46008, 0x7BF4600B, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7BF46008, 0x7BF46009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BF46008, 0x7BF4600A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BF46008, 0x7BF4600B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF46009,  4179, 0xBF460012, 53.67199, 25.69538, 42, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

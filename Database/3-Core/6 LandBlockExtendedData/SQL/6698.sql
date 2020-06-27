@@ -5,11 +5,11 @@ VALUES (0x76698001,  1154, 0x66980032, 167.6269, 28.28675, 23.96141, -0.9884663,
 /* @teleloc 0x66980032 [167.626900 28.286750 23.961410] -0.988466 0.000000 0.000000 -0.151441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76698001, 0x76698002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76698001, 0x76698003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76698001, 0x76698004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76698001, 0x76698005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76698001, 0x76698006, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x76698001, 0x76698002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76698001, 0x76698003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76698001, 0x76698004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76698001, 0x76698005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76698001, 0x76698006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76698002, 24293, 0x66980032, 167.6269, 28.28675, 23.96141, -0.9884663, 0, 0, -0.1514412,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

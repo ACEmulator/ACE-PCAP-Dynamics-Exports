@@ -5,16 +5,16 @@ VALUES (0x71371001,  1154, 0x1371001E, 94.66737, 131.264, 97.52161, 0.9063078, 0
 /* @teleloc 0x1371001E [94.667370 131.264000 97.521610] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71371001, 0x71371002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71371001, 0x71371003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71371001, 0x71371004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71371001, 0x71371005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71371001, 0x71371006, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71371001, 0x71371007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71371001, 0x71371008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71371001, 0x71371009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71371001, 0x7137100A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71371001, 0x7137100B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x71371001, 0x71371002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71371001, 0x71371003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71371001, 0x71371004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71371001, 0x71371005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71371001, 0x71371006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71371001, 0x71371007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71371001, 0x71371008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71371001, 0x71371009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71371001, 0x7137100A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71371001, 0x7137100B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71371002,  7980, 0x1371001E, 94.66737, 131.264, 97.52161, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */

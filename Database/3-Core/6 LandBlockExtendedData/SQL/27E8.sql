@@ -5,23 +5,23 @@ VALUES (0x727E8001,  1154, 0x27E80038, 153.5428, 186.2435, 7.992, -0.9708901, 0,
 /* @teleloc 0x27E80038 [153.542800 186.243500 7.992000] -0.970890 0.000000 0.000000 -0.239525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727E8001, 0x727E8002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x727E8001, 0x727E8003, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x727E8001, 0x727E8004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x727E8001, 0x727E8005, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x727E8001, 0x727E8006, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x727E8001, 0x727E8007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x727E8001, 0x727E8008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x727E8001, 0x727E8009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x727E8001, 0x727E800A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x727E8001, 0x727E800B, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x727E8001, 0x727E800C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x727E8001, 0x727E800D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x727E8001, 0x727E800E, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x727E8001, 0x727E800F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x727E8001, 0x727E8010, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x727E8001, 0x727E8011, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x727E8001, 0x727E8012, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x727E8001, 0x727E8002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x727E8001, 0x727E8003, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x727E8001, 0x727E8004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x727E8001, 0x727E8005, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x727E8001, 0x727E8006, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x727E8001, 0x727E8007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x727E8001, 0x727E8008, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x727E8001, 0x727E8009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x727E8001, 0x727E800A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x727E8001, 0x727E800B, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x727E8001, 0x727E800C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x727E8001, 0x727E800D, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x727E8001, 0x727E800E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x727E8001, 0x727E800F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x727E8001, 0x727E8010, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x727E8001, 0x727E8011, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x727E8001, 0x727E8012, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727E8002, 24288, 0x27E80038, 153.5428, 186.2435, 7.992, -0.9708901, 0, 0, -0.2395254,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

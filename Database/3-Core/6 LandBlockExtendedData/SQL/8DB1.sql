@@ -5,18 +5,18 @@ VALUES (0x78DB1001,  1154, 0x8DB10013, 54.93145, 60.13832, 54.25408, 0.7660445, 
 /* @teleloc 0x8DB10013 [54.931450 60.138320 54.254080] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB1001, 0x78DB1002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB1001, 0x78DB1003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB1001, 0x78DB1004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78DB1001, 0x78DB1005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78DB1001, 0x78DB1006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB1001, 0x78DB1007, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78DB1001, 0x78DB1008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB1001, 0x78DB1009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78DB1001, 0x78DB100A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB1001, 0x78DB100B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB1001, 0x78DB100C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x78DB1001, 0x78DB100D, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x78DB1001, 0x78DB1002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB1001, 0x78DB1003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB1001, 0x78DB1004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78DB1001, 0x78DB1005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78DB1001, 0x78DB1006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB1001, 0x78DB1007, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78DB1001, 0x78DB1008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB1001, 0x78DB1009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78DB1001, 0x78DB100A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB1001, 0x78DB100B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB1001, 0x78DB100C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x78DB1001, 0x78DB100D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB1002,  7096, 0x8DB10013, 54.93145, 60.13832, 54.25408, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */

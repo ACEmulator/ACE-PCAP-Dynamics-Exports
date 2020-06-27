@@ -5,18 +5,18 @@ VALUES (0x742A5001,  1154, 0x42A5003C, 187.1176, 76.54974, 72.79601, 0.000953511
 /* @teleloc 0x42A5003C [187.117600 76.549740 72.796010] 0.000954 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742A5001, 0x742A5002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x742A5001, 0x742A5003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x742A5001, 0x742A5004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x742A5001, 0x742A5005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x742A5001, 0x742A5006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x742A5001, 0x742A5007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x742A5001, 0x742A5008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x742A5001, 0x742A5009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x742A5001, 0x742A500A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742A5001, 0x742A500B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x742A5001, 0x742A500C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x742A5001, 0x742A500D, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x742A5001, 0x742A5002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x742A5001, 0x742A5003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x742A5001, 0x742A5004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x742A5001, 0x742A5005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x742A5001, 0x742A5006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x742A5001, 0x742A5007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x742A5001, 0x742A5008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x742A5001, 0x742A5009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x742A5001, 0x742A500A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742A5001, 0x742A500B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x742A5001, 0x742A500C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x742A5001, 0x742A500D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742A5002, 14800, 0x42A5003C, 187.1176, 76.54974, 72.79601, 0.0009535113, 0, 0, -0.9999995,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -71,7 +71,7 @@ VALUES (0x742A500E,  1542, 0x42A50002, 9.668393, 44.07752, 74.76768, 0.9990482, 
 /* @teleloc 0x42A50002 [9.668393 44.077520 74.767680] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742A500E, 0x742A500F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x742A500E, 0x742A500F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742A500F,  4179, 0x42A50002, 9.668393, 44.07752, 74.76768, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

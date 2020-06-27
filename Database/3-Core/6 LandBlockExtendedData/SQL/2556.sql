@@ -5,11 +5,11 @@ VALUES (0x72556001,  1154, 0x25560007, 13.51682, 153.6151, 16.49877, 0.3135627, 
 /* @teleloc 0x25560007 [13.516820 153.615100 16.498770] 0.313563 0.000000 0.000000 -0.949568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72556001, 0x72556002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72556001, 0x72556003, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x72556001, 0x72556004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72556001, 0x72556005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72556001, 0x72556006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72556001, 0x72556002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72556001, 0x72556003, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x72556001, 0x72556004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72556001, 0x72556005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72556001, 0x72556006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72556002, 36859, 0x25560007, 13.51682, 153.6151, 16.49877, 0.3135627, 0, 0, -0.9495675,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

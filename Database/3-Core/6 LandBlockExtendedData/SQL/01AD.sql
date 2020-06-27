@@ -17,18 +17,18 @@ VALUES (0x701AD007,  1154, 0x01AD0155, 29.78913, -20.78797, 12.0035, 1, 0, 0, 0,
 /* @teleloc 0x01AD0155 [29.789130 -20.787970 12.003500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AD007, 0x701AD008, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x701AD007, 0x701AD009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701AD007, 0x701AD00A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x701AD007, 0x701AD00B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x701AD007, 0x701AD00C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701AD007, 0x701AD00D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701AD007, 0x701AD00E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701AD007, 0x701AD00F, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701AD007, 0x701AD010, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701AD007, 0x701AD011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x701AD007, 0x701AD012, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701AD007, 0x701AD013, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x701AD007, 0x701AD008, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x701AD007, 0x701AD009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701AD007, 0x701AD00A, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x701AD007, 0x701AD00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x701AD007, 0x701AD00C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701AD007, 0x701AD00D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701AD007, 0x701AD00E, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701AD007, 0x701AD00F, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701AD007, 0x701AD010, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701AD007, 0x701AD011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x701AD007, 0x701AD012, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701AD007, 0x701AD013, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AD008,  1464, 0x01AD0155, 29.78913, -20.78797, 12.0035, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -83,9 +83,9 @@ VALUES (0x701AD014,  1542, 0x01AD016E, 39.07629, 3.494867, 18, 0.7071068, 0, 0, 
 /* @teleloc 0x01AD016E [39.076290 3.494867 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AD014, 0x701AD015, '2019-02-10 00:00:00') /* Fresh Fish */
-     , (0x701AD014, 0x701AD016, '2019-02-10 00:00:00') /* Aura of Defender Self III */
-     , (0x701AD014, 0x701AD017, '2019-02-10 00:00:00') /* Tunic */;
+VALUES (0x701AD014, 0x701AD015, '2019-02-10 00:00:00') /* Fresh Fish (1445) */
+     , (0x701AD014, 0x701AD016, '2019-02-10 00:00:00') /* Aura of Defender Self III (2808) */
+     , (0x701AD014, 0x701AD017, '2019-02-10 00:00:00') /* Tunic (134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AD015,  1445, 0x01AD016E, 39.07629, 3.494867, 18, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Fresh Fish */

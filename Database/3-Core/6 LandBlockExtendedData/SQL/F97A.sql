@@ -5,16 +5,16 @@ VALUES (0x7F97A001,  1154, 0xF97A0034, 147.4699, 81.53316, -0.445, 0.1079408, 0,
 /* @teleloc 0xF97A0034 [147.469900 81.533160 -0.445000] 0.107941 0.000000 0.000000 -0.994157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F97A001, 0x7F97A002, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F97A001, 0x7F97A003, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F97A001, 0x7F97A004, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F97A001, 0x7F97A005, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F97A001, 0x7F97A006, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F97A001, 0x7F97A007, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7F97A001, 0x7F97A008, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F97A001, 0x7F97A009, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7F97A001, 0x7F97A00A, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F97A001, 0x7F97A00B, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7F97A001, 0x7F97A002, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F97A001, 0x7F97A003, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F97A001, 0x7F97A004, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F97A001, 0x7F97A005, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F97A001, 0x7F97A006, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F97A001, 0x7F97A007, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7F97A001, 0x7F97A008, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F97A001, 0x7F97A009, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7F97A001, 0x7F97A00A, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F97A001, 0x7F97A00B, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F97A002, 22509, 0xF97A0034, 147.4699, 81.53316, -0.445, 0.1079408, 0, 0, -0.9941573,  True, '2019-02-10 00:00:00'); /* Tusker Kin */

@@ -5,16 +5,16 @@ VALUES (0x7C144001,  1154, 0xC1440022, 101.9852, 41.88879, 159.0341, -0.7660444,
 /* @teleloc 0xC1440022 [101.985200 41.888790 159.034100] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C144001, 0x7C144002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C144001, 0x7C144003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C144001, 0x7C144004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C144001, 0x7C144005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7C144001, 0x7C144006, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C144001, 0x7C144007, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C144001, 0x7C144008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C144001, 0x7C144009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C144001, 0x7C14400A, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C144001, 0x7C14400B, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7C144001, 0x7C144002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C144001, 0x7C144003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C144001, 0x7C144004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C144001, 0x7C144005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7C144001, 0x7C144006, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C144001, 0x7C144007, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C144001, 0x7C144008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C144001, 0x7C144009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C144001, 0x7C14400A, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C144001, 0x7C14400B, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C144002, 24941, 0xC1440022, 101.9852, 41.88879, 159.0341, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */

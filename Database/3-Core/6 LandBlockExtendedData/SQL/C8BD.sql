@@ -5,28 +5,28 @@ VALUES (0x7C8BD001,  1154, 0xC8BD0037, 144.1243, 153.7007, 52.3625, -0.99608, 0,
 /* @teleloc 0xC8BD0037 [144.124300 153.700700 52.362500] -0.996080 0.000000 0.000000 -0.088456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8BD001, 0x7C8BD002, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7C8BD001, 0x7C8BD003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8BD001, 0x7C8BD004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8BD001, 0x7C8BD007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C8BD001, 0x7C8BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD00C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7C8BD001, 0x7C8BD00D, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C8BD001, 0x7C8BD00E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7C8BD001, 0x7C8BD00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8BD001, 0x7C8BD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C8BD001, 0x7C8BD011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8BD001, 0x7C8BD012, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C8BD001, 0x7C8BD013, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C8BD001, 0x7C8BD014, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8BD001, 0x7C8BD015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C8BD001, 0x7C8BD016, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C8BD001, 0x7C8BD017, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7C8BD001, 0x7C8BD002, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7C8BD001, 0x7C8BD003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8BD001, 0x7C8BD004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8BD001, 0x7C8BD007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C8BD001, 0x7C8BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD00C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7C8BD001, 0x7C8BD00D, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C8BD001, 0x7C8BD00E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7C8BD001, 0x7C8BD00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8BD001, 0x7C8BD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C8BD001, 0x7C8BD011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8BD001, 0x7C8BD012, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C8BD001, 0x7C8BD013, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C8BD001, 0x7C8BD014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8BD001, 0x7C8BD015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C8BD001, 0x7C8BD016, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C8BD001, 0x7C8BD017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8BD002, 14872, 0xC8BD0037, 144.1243, 153.7007, 52.3625, -0.99608, 0, 0, -0.08845641,  True, '2019-02-10 00:00:00'); /* Altered Olthoi */

@@ -5,9 +5,9 @@ VALUES (0x7B9C8001,  1154, 0xB9C80004, 18.4325, 89.53941, 230.6275, 0.7071068, 0
 /* @teleloc 0xB9C80004 [18.432500 89.539410 230.627500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9C8001, 0x7B9C8002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B9C8001, 0x7B9C8003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9C8001, 0x7B9C8004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B9C8001, 0x7B9C8002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B9C8001, 0x7B9C8003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9C8001, 0x7B9C8004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9C8002,   194, 0xB9C80004, 18.4325, 89.53941, 230.6275, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Golem */

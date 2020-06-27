@@ -5,11 +5,11 @@ VALUES (0x795CF001,  1154, 0x95CF0023, 97.83638, 48.59598, 139.4435, 0.2494131, 
 /* @teleloc 0x95CF0023 [97.836380 48.595980 139.443500] 0.249413 0.000000 0.000000 -0.968397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795CF001, 0x795CF002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x795CF001, 0x795CF003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x795CF001, 0x795CF004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x795CF001, 0x795CF005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x795CF001, 0x795CF006, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x795CF001, 0x795CF002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x795CF001, 0x795CF003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x795CF001, 0x795CF004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x795CF001, 0x795CF005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x795CF001, 0x795CF006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795CF002, 23082, 0x95CF0023, 97.83638, 48.59598, 139.4435, 0.2494131, 0, 0, -0.9683972,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

@@ -25,16 +25,16 @@ VALUES (0x7C661005,  1154, 0xC6610103, 156, 36, 8, 1, 0, 0, 0, False, '2019-02-1
 /* @teleloc 0xC6610103 [156.000000 36.000000 8.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C661005, 0x7C661006, '2019-02-10 00:00:00') /* Shrine of Black Water */
-     , (0x7C661005, 0x7C661007, '2019-02-10 00:00:00') /* Acolyte of the Depths */
-     , (0x7C661005, 0x7C661008, '2019-02-10 00:00:00') /* Acolyte of the Depths */
-     , (0x7C661005, 0x7C661009, '2019-02-10 00:00:00') /* Acolyte of the Depths */
-     , (0x7C661005, 0x7C66100A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C661005, 0x7C66100B, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C661005, 0x7C66100C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C661005, 0x7C66100D, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C661005, 0x7C66100E, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C661005, 0x7C66100F, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x7C661005, 0x7C661006, '2019-02-10 00:00:00') /* Shrine of Black Water (35858) */
+     , (0x7C661005, 0x7C661007, '2019-02-10 00:00:00') /* Acolyte of the Depths (35859) */
+     , (0x7C661005, 0x7C661008, '2019-02-10 00:00:00') /* Acolyte of the Depths (35859) */
+     , (0x7C661005, 0x7C661009, '2019-02-10 00:00:00') /* Acolyte of the Depths (35859) */
+     , (0x7C661005, 0x7C66100A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C661005, 0x7C66100B, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C661005, 0x7C66100C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C661005, 0x7C66100D, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C661005, 0x7C66100E, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C661005, 0x7C66100F, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C661006, 35858, 0xC6610103, 156, 36, 8, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shrine of Black Water */

@@ -5,18 +5,18 @@ VALUES (0x786EF001,  1154, 0x86EF0031, 159.2364, 19.13721, 72.73781, -0.2012665,
 /* @teleloc 0x86EF0031 [159.236400 19.137210 72.737810] -0.201267 0.000000 0.000000 -0.979537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786EF001, 0x786EF002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x786EF001, 0x786EF003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x786EF001, 0x786EF004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x786EF001, 0x786EF005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x786EF001, 0x786EF006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x786EF001, 0x786EF007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x786EF001, 0x786EF008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x786EF001, 0x786EF009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x786EF001, 0x786EF00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x786EF001, 0x786EF00B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x786EF001, 0x786EF00C, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x786EF001, 0x786EF00D, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x786EF001, 0x786EF002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x786EF001, 0x786EF003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x786EF001, 0x786EF004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x786EF001, 0x786EF005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x786EF001, 0x786EF006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x786EF001, 0x786EF007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x786EF001, 0x786EF008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x786EF001, 0x786EF009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x786EF001, 0x786EF00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x786EF001, 0x786EF00B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x786EF001, 0x786EF00C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x786EF001, 0x786EF00D, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786EF002,  7123, 0x86EF0031, 159.2364, 19.13721, 72.73781, -0.2012665, 0, 0, -0.9795365,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -71,8 +71,8 @@ VALUES (0x786EF00E,  1542, 0x86EF003C, 178.9937, 85.79742, 68, 1, 0, 0, 0, False
 /* @teleloc 0x86EF003C [178.993700 85.797420 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786EF00E, 0x786EF00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x786EF00E, 0x786EF010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x786EF00E, 0x786EF00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x786EF00E, 0x786EF010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786EF00F, 22567, 0x86EF003C, 178.9937, 85.79742, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

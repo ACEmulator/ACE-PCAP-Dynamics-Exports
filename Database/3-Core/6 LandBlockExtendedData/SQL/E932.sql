@@ -5,12 +5,12 @@ VALUES (0x7E932001,  1154, 0xE9320005, 6.592377, 111.1721, 4.368754, -0.888392, 
 /* @teleloc 0xE9320005 [6.592377 111.172100 4.368754] -0.888392 0.000000 0.000000 -0.459086 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E932001, 0x7E932002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E932001, 0x7E932003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7E932001, 0x7E932004, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7E932001, 0x7E932005, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7E932001, 0x7E932006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7E932001, 0x7E932007, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7E932001, 0x7E932002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E932001, 0x7E932003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7E932001, 0x7E932004, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7E932001, 0x7E932005, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7E932001, 0x7E932006, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7E932001, 0x7E932007, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E932002, 28552, 0xE9320005, 6.592377, 111.1721, 4.368754, -0.888392, 0, 0, -0.4590858,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

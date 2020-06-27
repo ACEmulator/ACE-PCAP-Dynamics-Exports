@@ -53,35 +53,35 @@ VALUES (0x702D203A,  1154, 0x02D2012A, 89.90609, -99.91766, 0.007149994, 0.91558
 /* @teleloc 0x02D2012A [89.906090 -99.917660 0.007150] 0.915590 0.000000 0.000000 -0.402114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D203A, 0x702D203B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702D203A, 0x702D203C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702D203A, 0x702D203D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D203E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702D203A, 0x702D203F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D2040, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x702D203A, 0x702D2041, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702D203A, 0x702D2042, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702D203A, 0x702D2043, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D2044, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x702D203A, 0x702D2045, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x702D203A, 0x702D2046, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702D203A, 0x702D2047, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D2048, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x702D203A, 0x702D2049, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x702D203A, 0x702D204A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D204B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x702D203A, 0x702D204C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x702D203A, 0x702D204D, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x702D203A, 0x702D204E, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x702D203A, 0x702D204F, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x702D203A, 0x702D2050, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x702D203A, 0x702D2051, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x702D203A, 0x702D2052, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x702D203A, 0x702D2053, '2019-02-10 00:00:00') /* Mite Warrior Princess */
-     , (0x702D203A, 0x702D2054, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x702D203A, 0x702D2055, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x702D203A, 0x702D2056, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x702D203A, 0x702D2057, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x702D203A, 0x702D203B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702D203A, 0x702D203C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702D203A, 0x702D203D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D203E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702D203A, 0x702D203F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D2040, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x702D203A, 0x702D2041, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702D203A, 0x702D2042, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702D203A, 0x702D2043, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D2044, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x702D203A, 0x702D2045, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x702D203A, 0x702D2046, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702D203A, 0x702D2047, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D2048, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x702D203A, 0x702D2049, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x702D203A, 0x702D204A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D204B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x702D203A, 0x702D204C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x702D203A, 0x702D204D, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x702D203A, 0x702D204E, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x702D203A, 0x702D204F, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x702D203A, 0x702D2050, '2019-02-10 00:00:00') /* Mite Squire (8216) */
+     , (0x702D203A, 0x702D2051, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x702D203A, 0x702D2052, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x702D203A, 0x702D2053, '2019-02-10 00:00:00') /* Mite Warrior Princess (8215) */
+     , (0x702D203A, 0x702D2054, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x702D203A, 0x702D2055, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x702D203A, 0x702D2056, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x702D203A, 0x702D2057, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D203B,     6, 0x02D2012A, 89.90609, -99.91766, 0.007149994, 0.9155895, 0, 0, -0.4021144,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

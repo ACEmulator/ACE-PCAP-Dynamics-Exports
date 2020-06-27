@@ -5,24 +5,24 @@ VALUES (0x7D259001,  1154, 0xD259003C, 174.9263, 77.5432, 30.48394, -0.815713, 0
 /* @teleloc 0xD259003C [174.926300 77.543200 30.483940] -0.815713 0.000000 0.000000 -0.578457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D259001, 0x7D259002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D259001, 0x7D259003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D259001, 0x7D259004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D259001, 0x7D259005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D259001, 0x7D259006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D259001, 0x7D259007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7D259001, 0x7D259008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D259001, 0x7D259009, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7D259001, 0x7D25900A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7D259001, 0x7D25900B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D259001, 0x7D25900C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7D259001, 0x7D25900D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D259001, 0x7D25900E, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D259001, 0x7D25900F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D259001, 0x7D259010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D259001, 0x7D259011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D259001, 0x7D259012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D259001, 0x7D259013, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7D259001, 0x7D259002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D259001, 0x7D259003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D259001, 0x7D259004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7D259001, 0x7D259005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D259001, 0x7D259006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D259001, 0x7D259007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7D259001, 0x7D259008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D259001, 0x7D259009, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7D259001, 0x7D25900A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7D259001, 0x7D25900B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D259001, 0x7D25900C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7D259001, 0x7D25900D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7D259001, 0x7D25900E, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D259001, 0x7D25900F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7D259001, 0x7D259010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D259001, 0x7D259011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D259001, 0x7D259012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D259001, 0x7D259013, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D259002,  4111, 0xD259003C, 174.9263, 77.5432, 30.48394, -0.815713, 0, 0, -0.5784568,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -101,10 +101,10 @@ VALUES (0x7D259014,  1542, 0xD259003B, 183.4595, 67.5049, 30.71171, 1, 0, 0, 0, 
 /* @teleloc 0xD259003B [183.459500 67.504900 30.711710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D259014, 0x7D259015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D259014, 0x7D259016, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7D259014, 0x7D259017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7D259014, 0x7D259018, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7D259014, 0x7D259015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D259014, 0x7D259016, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7D259014, 0x7D259017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7D259014, 0x7D259018, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D259015,  4179, 0xD259003B, 183.4595, 67.5049, 30.71171, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

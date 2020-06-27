@@ -5,11 +5,11 @@ VALUES (0x7344C001,  1154, 0x344C002C, 120.7485, 87.149, 28.36562, -0.9048016, 0
 /* @teleloc 0x344C002C [120.748500 87.149000 28.365620] -0.904802 0.000000 0.000000 -0.425833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7344C001, 0x7344C002, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x7344C001, 0x7344C003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7344C001, 0x7344C004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7344C001, 0x7344C005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7344C001, 0x7344C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x7344C001, 0x7344C002, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x7344C001, 0x7344C003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7344C001, 0x7344C004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7344C001, 0x7344C005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7344C001, 0x7344C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7344C002, 12026, 0x344C002C, 120.7485, 87.149, 28.36562, -0.9048016, 0, 0, -0.4258333,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */

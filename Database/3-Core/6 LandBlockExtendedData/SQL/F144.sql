@@ -5,13 +5,13 @@ VALUES (0x7F144001,  1154, 0xF144001B, 75.23354, 71.19336, -0.8954999, -0.222319
 /* @teleloc 0xF144001B [75.233540 71.193360 -0.895500] -0.222320 0.000000 0.000000 -0.974974 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F144001, 0x7F144002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F144001, 0x7F144003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7F144001, 0x7F144004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F144001, 0x7F144005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F144001, 0x7F144006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F144001, 0x7F144007, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7F144001, 0x7F144008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7F144001, 0x7F144002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F144001, 0x7F144003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7F144001, 0x7F144004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F144001, 0x7F144005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F144001, 0x7F144006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F144001, 0x7F144007, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7F144001, 0x7F144008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F144002,  1612, 0xF144001B, 75.23354, 71.19336, -0.8954999, -0.2223195, 0, 0, -0.9749739,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -46,7 +46,7 @@ VALUES (0x7F144009,  1542, 0xF144002A, 130.4429, 39.19109, 0, 0.891535, 0, 0, -0
 /* @teleloc 0xF144002A [130.442900 39.191090 0.000000] 0.891535 0.000000 0.000000 -0.452952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F144009, 0x7F14400A, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7F144009, 0x7F14400A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F14400A,  8644, 0xF144002A, 130.4429, 39.19109, 0, 0.891535, 0, 0, -0.4529518,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

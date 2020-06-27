@@ -5,16 +5,16 @@ VALUES (0x7DF38001,  1154, 0xDF380039, 174.9935, 21.83761, 58.59489, 0.7071068, 
 /* @teleloc 0xDF380039 [174.993500 21.837610 58.594890] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF38001, 0x7DF38002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF38001, 0x7DF38003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF38001, 0x7DF38004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7DF38001, 0x7DF38005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7DF38001, 0x7DF38006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DF38001, 0x7DF38007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DF38001, 0x7DF38008, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DF38001, 0x7DF38009, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7DF38001, 0x7DF3800A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7DF38001, 0x7DF3800B, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7DF38001, 0x7DF38002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF38001, 0x7DF38003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF38001, 0x7DF38004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7DF38001, 0x7DF38005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7DF38001, 0x7DF38006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DF38001, 0x7DF38007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DF38001, 0x7DF38008, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DF38001, 0x7DF38009, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7DF38001, 0x7DF3800A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7DF38001, 0x7DF3800B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF38002,  1627, 0xDF380039, 174.9935, 21.83761, 58.59489, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -61,8 +61,8 @@ VALUES (0x7DF3800C,  1542, 0xDF38003E, 187.7282, 133.7306, 39.68786, -0.4997954,
 /* @teleloc 0xDF38003E [187.728200 133.730600 39.687860] -0.499795 0.000000 0.000000 -0.866144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF3800C, 0x7DF3800D, '2019-02-10 00:00:00') /* Rock */
-     , (0x7DF3800C, 0x7DF3800E, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7DF3800C, 0x7DF3800D, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7DF3800C, 0x7DF3800E, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3800D, 42528, 0xDF38003E, 187.7282, 133.7306, 39.68786, -0.4997954, 0, 0, -0.8661435,  True, '2019-02-10 00:00:00'); /* Rock */

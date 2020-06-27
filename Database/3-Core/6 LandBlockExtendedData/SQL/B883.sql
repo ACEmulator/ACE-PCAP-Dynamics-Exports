@@ -5,11 +5,11 @@ VALUES (0x7B883001,  1154, 0xB8830026, 116.347, 143.4964, 27.39717, -0.908629, 0
 /* @teleloc 0xB8830026 [116.347000 143.496400 27.397170] -0.908629 0.000000 0.000000 -0.417604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B883001, 0x7B883002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B883001, 0x7B883003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B883001, 0x7B883004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B883001, 0x7B883005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B883001, 0x7B883006, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7B883001, 0x7B883002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B883001, 0x7B883003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B883001, 0x7B883004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B883001, 0x7B883005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B883001, 0x7B883006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B883002,   226, 0xB8830026, 116.347, 143.4964, 27.39717, -0.908629, 0, 0, -0.4176042,  True, '2019-02-10 00:00:00'); /* High Tumerok */

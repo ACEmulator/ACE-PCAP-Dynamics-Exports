@@ -5,11 +5,11 @@ VALUES (0x7CD32001,  1154, 0xCD32002F, 141.2121, 144.8872, 265.8152, -0.959073, 
 /* @teleloc 0xCD32002F [141.212100 144.887200 265.815200] -0.959073 0.000000 0.000000 -0.283159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD32001, 0x7CD32002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7CD32001, 0x7CD32003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7CD32001, 0x7CD32004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7CD32001, 0x7CD32005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7CD32001, 0x7CD32006, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7CD32001, 0x7CD32002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7CD32001, 0x7CD32003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7CD32001, 0x7CD32004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7CD32001, 0x7CD32005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7CD32001, 0x7CD32006, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD32002, 38181, 0xCD32002F, 141.2121, 144.8872, 265.8152, -0.959073, 0, 0, -0.2831588,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

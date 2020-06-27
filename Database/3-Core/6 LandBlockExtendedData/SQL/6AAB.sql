@@ -5,10 +5,10 @@ VALUES (0x76AAB001,  1154, 0x6AAB0036, 144.0266, 137.8324, 124.0453, 0.8337017, 
 /* @teleloc 0x6AAB0036 [144.026600 137.832400 124.045300] 0.833702 0.000000 0.000000 -0.552215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76AAB001, 0x76AAB002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x76AAB001, 0x76AAB003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x76AAB001, 0x76AAB004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x76AAB001, 0x76AAB005, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x76AAB001, 0x76AAB002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x76AAB001, 0x76AAB003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x76AAB001, 0x76AAB004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x76AAB001, 0x76AAB005, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76AAB002,  7088, 0x6AAB0036, 144.0266, 137.8324, 124.0453, 0.8337017, 0, 0, -0.552215,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

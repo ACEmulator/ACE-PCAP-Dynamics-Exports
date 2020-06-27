@@ -5,9 +5,9 @@ VALUES (0x73F47001,  1154, 0x3F470031, 153.8291, 11.13685, 25.64643, 0.7071068, 
 /* @teleloc 0x3F470031 [153.829100 11.136850 25.646430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F47001, 0x73F47002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F47001, 0x73F47003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73F47001, 0x73F47004, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x73F47001, 0x73F47002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F47001, 0x73F47003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73F47001, 0x73F47004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F47002, 24319, 0x3F470031, 153.8291, 11.13685, 25.64643, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -26,8 +26,8 @@ VALUES (0x73F47005,  1542, 0x3F470031, 157.6439, 7.620145, 26.77596, 0.9990482, 
 /* @teleloc 0x3F470031 [157.643900 7.620145 26.775960] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F47005, 0x73F47006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73F47005, 0x73F47007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73F47005, 0x73F47006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73F47005, 0x73F47007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F47006,  4179, 0x3F470031, 157.6439, 7.620145, 26.77596, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

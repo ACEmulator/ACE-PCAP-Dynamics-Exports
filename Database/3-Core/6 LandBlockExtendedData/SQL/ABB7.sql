@@ -5,10 +5,10 @@ VALUES (0x7ABB7001,  1154, 0xABB70014, 69.9014, 84.27723, 81.0351, 0.810508, 0, 
 /* @teleloc 0xABB70014 [69.901400 84.277230 81.035100] 0.810508 0.000000 0.000000 -0.585728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB7001, 0x7ABB7002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABB7001, 0x7ABB7003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB7001, 0x7ABB7004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB7001, 0x7ABB7005, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7ABB7001, 0x7ABB7002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABB7001, 0x7ABB7003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB7001, 0x7ABB7004, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB7001, 0x7ABB7005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB7002,   215, 0xABB70014, 69.9014, 84.27723, 81.0351, 0.810508, 0, 0, -0.5857276,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

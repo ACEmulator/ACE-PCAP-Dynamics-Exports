@@ -5,17 +5,17 @@ VALUES (0x7ACE5001,  1154, 0xACE50019, 72.99681, 16.98628, -0.08800006, -0.95892
 /* @teleloc 0xACE50019 [72.996810 16.986280 -0.088000] -0.958924 0.000000 0.000000 -0.283662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACE5001, 0x7ACE5002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE5001, 0x7ACE5003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE5001, 0x7ACE5004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ACE5001, 0x7ACE5005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ACE5001, 0x7ACE5006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ACE5001, 0x7ACE5007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7ACE5001, 0x7ACE5008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7ACE5001, 0x7ACE5009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7ACE5001, 0x7ACE500A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ACE5001, 0x7ACE500B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ACE5001, 0x7ACE500C, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7ACE5001, 0x7ACE5002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE5001, 0x7ACE5003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE5001, 0x7ACE5004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ACE5001, 0x7ACE5005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ACE5001, 0x7ACE5006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ACE5001, 0x7ACE5007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7ACE5001, 0x7ACE5008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7ACE5001, 0x7ACE5009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7ACE5001, 0x7ACE500A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ACE5001, 0x7ACE500B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ACE5001, 0x7ACE500C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACE5002,  7105, 0xACE50019, 72.99681, 16.98628, -0.08800006, -0.9589244, 0, 0, -0.2836616,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -66,10 +66,10 @@ VALUES (0x7ACE500D,  1542, 0xACE5001B, 94.40675, 51.54944, 0, -0.9589244, 0, 0, 
 /* @teleloc 0xACE5001B [94.406750 51.549440 0.000000] -0.958924 0.000000 0.000000 -0.283662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACE500D, 0x7ACE500E, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7ACE500D, 0x7ACE500F, '2019-02-10 00:00:00') /* Master's Holding */
-     , (0x7ACE500D, 0x7ACE5010, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7ACE500D, 0x7ACE5011, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7ACE500D, 0x7ACE500E, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7ACE500D, 0x7ACE500F, '2019-02-10 00:00:00') /* Master's Holding (9287) */
+     , (0x7ACE500D, 0x7ACE5010, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7ACE500D, 0x7ACE5011, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACE500E, 31687, 0xACE5001B, 94.40675, 51.54944, 0, -0.9589244, 0, 0, -0.2836616,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

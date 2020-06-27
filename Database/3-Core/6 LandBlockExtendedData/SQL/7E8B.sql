@@ -5,9 +5,9 @@ VALUES (0x77E8B001,  1154, 0x7E8B0034, 162.1667, 76.82767, 135.9436, -0.7372018,
 /* @teleloc 0x7E8B0034 [162.166700 76.827670 135.943600] -0.737202 0.000000 0.000000 -0.675673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E8B001, 0x77E8B002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77E8B001, 0x77E8B003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x77E8B001, 0x77E8B004, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x77E8B001, 0x77E8B002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77E8B001, 0x77E8B003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x77E8B001, 0x77E8B004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E8B002,     3, 0x7E8B0034, 162.1667, 76.82767, 135.9436, -0.7372018, 0, 0, -0.6756727,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

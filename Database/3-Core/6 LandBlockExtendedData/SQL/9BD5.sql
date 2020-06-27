@@ -5,7 +5,7 @@ VALUES (0x79BD5001,  1154, 0x9BD50031, 152.6527, 2.827809, 172.1007, -0.1740537,
 /* @teleloc 0x9BD50031 [152.652700 2.827809 172.100700] -0.174054 0.000000 0.000000 -0.984736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD5001, 0x79BD5002, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x79BD5001, 0x79BD5002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD5002,   212, 0x9BD50031, 152.6527, 2.827809, 172.1007, -0.1740537, 0, 0, -0.9847361,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -16,12 +16,12 @@ VALUES (0x79BD5003,  1542, 0x9BD50001, 12.99584, 3.696744, 152.088, 1, 0, 0, 0, 
 /* @teleloc 0x9BD50001 [12.995840 3.696744 152.088000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD5003, 0x79BD5004, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x79BD5003, 0x79BD5005, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79BD5003, 0x79BD5006, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x79BD5003, 0x79BD5007, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x79BD5003, 0x79BD5008, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x79BD5003, 0x79BD5009, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x79BD5003, 0x79BD5004, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x79BD5003, 0x79BD5005, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79BD5003, 0x79BD5006, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x79BD5003, 0x79BD5007, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x79BD5003, 0x79BD5008, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x79BD5003, 0x79BD5009, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD5004,  9024, 0x9BD50001, 12.99584, 3.696744, 152.088, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

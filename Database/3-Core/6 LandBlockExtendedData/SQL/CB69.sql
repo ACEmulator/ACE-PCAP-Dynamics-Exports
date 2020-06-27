@@ -5,13 +5,13 @@ VALUES (0x7CB69001,  1154, 0xCB69001E, 76.44398, 132.259, 64.029, -0.2482191, 0,
 /* @teleloc 0xCB69001E [76.443980 132.259000 64.029000] -0.248219 0.000000 0.000000 -0.968704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB69001, 0x7CB69002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7CB69001, 0x7CB69003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7CB69001, 0x7CB69004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7CB69001, 0x7CB69005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB69001, 0x7CB69006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7CB69001, 0x7CB69007, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7CB69001, 0x7CB69008, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7CB69001, 0x7CB69002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7CB69001, 0x7CB69003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7CB69001, 0x7CB69004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7CB69001, 0x7CB69005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB69001, 0x7CB69006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7CB69001, 0x7CB69007, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7CB69001, 0x7CB69008, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB69002,    23, 0xCB69001E, 76.44398, 132.259, 64.029, -0.2482191, 0, 0, -0.9687039,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

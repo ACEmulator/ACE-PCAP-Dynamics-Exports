@@ -5,12 +5,12 @@ VALUES (0x7C71B001,  1154, 0xC71B000C, 33.04017, 82.43819, 57.771, -0.8497332, 0
 /* @teleloc 0xC71B000C [33.040170 82.438190 57.771000] -0.849733 0.000000 0.000000 -0.527213 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C71B001, 0x7C71B002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C71B001, 0x7C71B003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C71B001, 0x7C71B004, '2019-02-10 00:00:00') /* Flare */
-     , (0x7C71B001, 0x7C71B005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C71B001, 0x7C71B006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7C71B001, 0x7C71B007, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x7C71B001, 0x7C71B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C71B001, 0x7C71B003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C71B001, 0x7C71B004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7C71B001, 0x7C71B005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C71B001, 0x7C71B006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7C71B001, 0x7C71B007, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C71B002,  4254, 0xC71B000C, 33.04017, 82.43819, 57.771, -0.8497332, 0, 0, -0.527213,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

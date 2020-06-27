@@ -5,13 +5,13 @@ VALUES (0x77D81001,  1154, 0x7D810028, 113.6083, 181.3881, 70.61688, -0.7712937,
 /* @teleloc 0x7D810028 [113.608300 181.388100 70.616880] -0.771294 0.000000 0.000000 -0.636479 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D81001, 0x77D81002, '2019-02-10 00:00:00') /* Charge */
-     , (0x77D81001, 0x77D81003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D81001, 0x77D81004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D81001, 0x77D81005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D81001, 0x77D81006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x77D81001, 0x77D81007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77D81001, 0x77D81008, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x77D81001, 0x77D81002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x77D81001, 0x77D81003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D81001, 0x77D81004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D81001, 0x77D81005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D81001, 0x77D81006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x77D81001, 0x77D81007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77D81001, 0x77D81008, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D81002, 21168, 0x7D810028, 113.6083, 181.3881, 70.61688, -0.7712937, 0, 0, -0.6364794,  True, '2019-02-10 00:00:00'); /* Charge */

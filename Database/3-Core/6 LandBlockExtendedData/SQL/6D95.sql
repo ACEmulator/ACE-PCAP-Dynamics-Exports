@@ -5,17 +5,17 @@ VALUES (0x76D95001,  1154, 0x6D95003A, 183.1534, 26.25502, 39.4427, 0.7071068, 0
 /* @teleloc 0x6D95003A [183.153400 26.255020 39.442700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76D95001, 0x76D95002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76D95001, 0x76D95003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76D95001, 0x76D95004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x76D95001, 0x76D95005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x76D95001, 0x76D95006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76D95001, 0x76D95007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76D95001, 0x76D95008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x76D95001, 0x76D95009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x76D95001, 0x76D9500A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76D95001, 0x76D9500B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76D95001, 0x76D9500C, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x76D95001, 0x76D95002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76D95001, 0x76D95003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76D95001, 0x76D95004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x76D95001, 0x76D95005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x76D95001, 0x76D95006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76D95001, 0x76D95007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76D95001, 0x76D95008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x76D95001, 0x76D95009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x76D95001, 0x76D9500A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76D95001, 0x76D9500B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76D95001, 0x76D9500C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76D95002, 24288, 0x6D95003A, 183.1534, 26.25502, 39.4427, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

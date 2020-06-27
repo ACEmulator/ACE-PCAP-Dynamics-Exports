@@ -5,19 +5,19 @@ VALUES (0x7266D001,  1154, 0x266D0033, 154.9592, 53.57044, 82.92338, -0.9904574,
 /* @teleloc 0x266D0033 [154.959200 53.570440 82.923380] -0.990457 0.000000 0.000000 -0.137819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266D001, 0x7266D002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7266D001, 0x7266D003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7266D001, 0x7266D004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7266D001, 0x7266D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7266D001, 0x7266D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7266D001, 0x7266D007, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7266D001, 0x7266D008, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7266D001, 0x7266D009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7266D001, 0x7266D00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7266D001, 0x7266D00B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7266D001, 0x7266D00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7266D001, 0x7266D00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7266D001, 0x7266D00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7266D001, 0x7266D002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7266D001, 0x7266D003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7266D001, 0x7266D004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7266D001, 0x7266D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7266D001, 0x7266D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7266D001, 0x7266D007, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7266D001, 0x7266D008, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7266D001, 0x7266D009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7266D001, 0x7266D00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7266D001, 0x7266D00B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7266D001, 0x7266D00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7266D001, 0x7266D00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7266D001, 0x7266D00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266D002, 23616, 0x266D0033, 154.9592, 53.57044, 82.92338, -0.9904574, 0, 0, -0.137819,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -76,8 +76,8 @@ VALUES (0x7266D00F,  1542, 0x266D003A, 175.8406, 35.45117, 87.98647, -0.5391604,
 /* @teleloc 0x266D003A [175.840600 35.451170 87.986470] -0.539160 0.000000 0.000000 -0.842203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266D00F, 0x7266D010, '2019-02-10 00:00:00') /* Rock */
-     , (0x7266D00F, 0x7266D011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7266D00F, 0x7266D010, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7266D00F, 0x7266D011, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266D010, 42528, 0x266D003A, 175.8406, 35.45117, 87.98647, -0.5391604, 0, 0, -0.8422031,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -9,19 +9,19 @@ VALUES (0x78C43001,  1154, 0x8C430023, 114.7805, 60.09558, 9.713079, -0.9925173,
 /* @teleloc 0x8C430023 [114.780500 60.095580 9.713079] -0.992517 0.000000 0.000000 -0.122104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C43001, 0x78C43002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78C43001, 0x78C43003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78C43001, 0x78C43004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78C43001, 0x78C43005, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78C43001, 0x78C43006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78C43001, 0x78C43007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78C43001, 0x78C43008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78C43001, 0x78C43009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78C43001, 0x78C4300A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78C43001, 0x78C4300B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x78C43001, 0x78C4300C, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78C43001, 0x78C4300D, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x78C43001, 0x78C4300E, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */;
+VALUES (0x78C43001, 0x78C43002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x78C43001, 0x78C43003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78C43001, 0x78C43004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78C43001, 0x78C43005, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78C43001, 0x78C43006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78C43001, 0x78C43007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78C43001, 0x78C43008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78C43001, 0x78C43009, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x78C43001, 0x78C4300A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78C43001, 0x78C4300B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x78C43001, 0x78C4300C, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78C43001, 0x78C4300D, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x78C43001, 0x78C4300E, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C43002,  6645, 0x8C430023, 114.7805, 60.09558, 9.713079, -0.9925173, 0, 0, -0.122104,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -80,7 +80,7 @@ VALUES (0x78C4300F,  1542, 0x8C43001A, 81.11198, 39.91324, 0.1708699, 1, 0, 0, 0
 /* @teleloc 0x8C43001A [81.111980 39.913240 0.170870] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C4300F, 0x78C43010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78C4300F, 0x78C43010, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C43010, 22576, 0x8C43001A, 81.11198, 39.91324, 0.1708699, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

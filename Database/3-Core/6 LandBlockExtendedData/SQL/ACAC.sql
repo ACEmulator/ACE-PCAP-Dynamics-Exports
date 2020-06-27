@@ -5,37 +5,37 @@ VALUES (0x7ACAC001,  1154, 0xACAC0001, 20.78796, 4.940355, 81.5808, 0.9537169, 0
 /* @teleloc 0xACAC0001 [20.787960 4.940355 81.580800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACAC001, 0x7ACAC002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ACAC001, 0x7ACAC004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC006, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7ACAC001, 0x7ACAC007, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ACAC001, 0x7ACAC008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ACAC001, 0x7ACAC009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ACAC001, 0x7ACAC00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC00C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAC001, 0x7ACAC00D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ACAC001, 0x7ACAC00E, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ACAC001, 0x7ACAC00F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC010, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAC001, 0x7ACAC011, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ACAC001, 0x7ACAC012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAC001, 0x7ACAC013, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC015, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC016, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC017, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ACAC001, 0x7ACAC018, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ACAC001, 0x7ACAC019, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC01A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC01B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC01C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAC001, 0x7ACAC01D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAC001, 0x7ACAC01E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ACAC001, 0x7ACAC01F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAC001, 0x7ACAC020, '2019-02-10 00:00:00') /* Mite Squire */;
+VALUES (0x7ACAC001, 0x7ACAC002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ACAC001, 0x7ACAC004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7ACAC001, 0x7ACAC007, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ACAC001, 0x7ACAC008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ACAC001, 0x7ACAC009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ACAC001, 0x7ACAC00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC00C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAC001, 0x7ACAC00D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ACAC001, 0x7ACAC00E, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ACAC001, 0x7ACAC00F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC010, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAC001, 0x7ACAC011, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ACAC001, 0x7ACAC012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAC001, 0x7ACAC013, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC015, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC016, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC017, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ACAC001, 0x7ACAC018, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ACAC001, 0x7ACAC019, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC01A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC01B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC01C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAC001, 0x7ACAC01D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAC001, 0x7ACAC01E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ACAC001, 0x7ACAC01F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAC001, 0x7ACAC020, '2019-02-10 00:00:00') /* Mite Squire (946) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACAC002,  2612, 0xACAC0001, 20.78796, 4.940355, 81.5808, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -166,9 +166,9 @@ VALUES (0x7ACAC021,  1542, 0xACAC0040, 184.9661, 176.2722, 83.41384, 0.9990482, 
 /* @teleloc 0xACAC0040 [184.966100 176.272200 83.413840] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACAC021, 0x7ACAC022, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ACAC021, 0x7ACAC023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ACAC021, 0x7ACAC024, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ACAC021, 0x7ACAC022, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ACAC021, 0x7ACAC023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ACAC021, 0x7ACAC024, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACAC022,  4179, 0xACAC0040, 184.9661, 176.2722, 83.41384, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

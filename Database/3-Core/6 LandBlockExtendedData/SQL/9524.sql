@@ -5,9 +5,9 @@ VALUES (0x79524001,  1154, 0x95240001, 19.12053, 8.87944, 97.48241, -0.9942481, 
 /* @teleloc 0x95240001 [19.120530 8.879440 97.482410] -0.994248 0.000000 0.000000 -0.107102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79524001, 0x79524002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79524001, 0x79524003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79524001, 0x79524004, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x79524001, 0x79524002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79524001, 0x79524003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79524001, 0x79524004, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79524002,  7179, 0x95240001, 19.12053, 8.87944, 97.48241, -0.9942481, 0, 0, -0.1071018,  True, '2019-02-10 00:00:00'); /* Relic Bones */

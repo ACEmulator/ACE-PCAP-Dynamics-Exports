@@ -5,53 +5,53 @@ VALUES (0x7CD92001,  1154, 0xCD920021, 111.3268, 8.984291, 12.70777, 0.6980924, 
 /* @teleloc 0xCD920021 [111.326800 8.984291 12.707770] 0.698092 0.000000 0.000000 -0.716008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD92001, 0x7CD92002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD92001, 0x7CD92003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD92001, 0x7CD92004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CD92001, 0x7CD92005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD92001, 0x7CD92006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD92001, 0x7CD92007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD92001, 0x7CD92008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CD92001, 0x7CD92009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CD92001, 0x7CD9200A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CD92001, 0x7CD9200B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD92001, 0x7CD9200C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CD92001, 0x7CD9200D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CD92001, 0x7CD9200E, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD92001, 0x7CD9200F, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CD92001, 0x7CD92010, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD92001, 0x7CD92011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD92001, 0x7CD92012, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7CD92001, 0x7CD92013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD92001, 0x7CD92014, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD92001, 0x7CD92015, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD92001, 0x7CD92016, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CD92001, 0x7CD92017, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CD92001, 0x7CD92018, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CD92001, 0x7CD92019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD92001, 0x7CD9201A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD92001, 0x7CD9201B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD92001, 0x7CD9201C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CD92001, 0x7CD9201D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD92001, 0x7CD9201E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD92001, 0x7CD9201F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD92001, 0x7CD92020, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD92001, 0x7CD92021, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD92001, 0x7CD92022, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CD92001, 0x7CD92023, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD92001, 0x7CD92024, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD92001, 0x7CD92025, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD92001, 0x7CD92026, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD92001, 0x7CD92027, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CD92001, 0x7CD92028, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CD92001, 0x7CD92029, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CD92001, 0x7CD9202A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD92001, 0x7CD9202B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CD92001, 0x7CD9202C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CD92001, 0x7CD9202D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CD92001, 0x7CD9202E, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CD92001, 0x7CD9202F, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CD92001, 0x7CD92030, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7CD92001, 0x7CD92002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD92001, 0x7CD92003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD92001, 0x7CD92004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CD92001, 0x7CD92005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD92001, 0x7CD92006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD92001, 0x7CD92007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD92001, 0x7CD92008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CD92001, 0x7CD92009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CD92001, 0x7CD9200A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CD92001, 0x7CD9200B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD92001, 0x7CD9200C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CD92001, 0x7CD9200D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CD92001, 0x7CD9200E, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD92001, 0x7CD9200F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CD92001, 0x7CD92010, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD92001, 0x7CD92011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD92001, 0x7CD92012, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7CD92001, 0x7CD92013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD92001, 0x7CD92014, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD92001, 0x7CD92015, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD92001, 0x7CD92016, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CD92001, 0x7CD92017, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CD92001, 0x7CD92018, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CD92001, 0x7CD92019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD92001, 0x7CD9201A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD92001, 0x7CD9201B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD92001, 0x7CD9201C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CD92001, 0x7CD9201D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD92001, 0x7CD9201E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD92001, 0x7CD9201F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD92001, 0x7CD92020, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD92001, 0x7CD92021, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD92001, 0x7CD92022, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CD92001, 0x7CD92023, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD92001, 0x7CD92024, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD92001, 0x7CD92025, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD92001, 0x7CD92026, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD92001, 0x7CD92027, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CD92001, 0x7CD92028, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CD92001, 0x7CD92029, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CD92001, 0x7CD9202A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD92001, 0x7CD9202B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CD92001, 0x7CD9202C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CD92001, 0x7CD9202D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CD92001, 0x7CD9202E, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CD92001, 0x7CD9202F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CD92001, 0x7CD92030, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD92002, 28552, 0xCD920021, 111.3268, 8.984291, 12.70777, 0.6980924, 0, 0, -0.7160077,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -246,12 +246,12 @@ VALUES (0x7CD92031,  1542, 0xCD920026, 96.30229, 123.8924, 19.6727, 0.9990482, 0
 /* @teleloc 0xCD920026 [96.302290 123.892400 19.672700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD92031, 0x7CD92032, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CD92031, 0x7CD92033, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CD92031, 0x7CD92034, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CD92031, 0x7CD92035, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CD92031, 0x7CD92036, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CD92031, 0x7CD92037, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CD92031, 0x7CD92032, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CD92031, 0x7CD92033, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7CD92031, 0x7CD92034, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CD92031, 0x7CD92035, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CD92031, 0x7CD92036, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CD92031, 0x7CD92037, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD92032,  4179, 0xCD920026, 96.30229, 123.8924, 19.6727, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

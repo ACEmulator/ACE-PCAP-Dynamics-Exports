@@ -5,17 +5,17 @@ VALUES (0x7CE6F001,  1154, 0xCE6F0015, 70.81624, 103.1564, 46.60237, 0.9238795, 
 /* @teleloc 0xCE6F0015 [70.816240 103.156400 46.602370] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE6F001, 0x7CE6F002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CE6F001, 0x7CE6F003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7CE6F001, 0x7CE6F004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7CE6F001, 0x7CE6F005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE6F001, 0x7CE6F006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CE6F001, 0x7CE6F007, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7CE6F001, 0x7CE6F008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7CE6F001, 0x7CE6F009, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CE6F001, 0x7CE6F00A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CE6F001, 0x7CE6F00B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CE6F001, 0x7CE6F00C, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7CE6F001, 0x7CE6F002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CE6F001, 0x7CE6F003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7CE6F001, 0x7CE6F004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7CE6F001, 0x7CE6F005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE6F001, 0x7CE6F006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CE6F001, 0x7CE6F007, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7CE6F001, 0x7CE6F008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7CE6F001, 0x7CE6F009, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CE6F001, 0x7CE6F00A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CE6F001, 0x7CE6F00B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CE6F001, 0x7CE6F00C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE6F002,   226, 0xCE6F0015, 70.81624, 103.1564, 46.60237, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -66,8 +66,8 @@ VALUES (0x7CE6F00D,  1542, 0xCE6F000C, 29.79299, 73.47665, 50.465, 1, 0, 0, 0, F
 /* @teleloc 0xCE6F000C [29.792990 73.476650 50.465000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE6F00D, 0x7CE6F00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CE6F00D, 0x7CE6F00F, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7CE6F00D, 0x7CE6F00E, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7CE6F00D, 0x7CE6F00F, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE6F00E,  4379, 0xCE6F000C, 29.79299, 73.47665, 50.465, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

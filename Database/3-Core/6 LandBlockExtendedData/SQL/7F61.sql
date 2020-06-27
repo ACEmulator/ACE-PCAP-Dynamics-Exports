@@ -9,11 +9,11 @@ VALUES (0x77F61001,  1154, 0x7F610007, 6.672654, 161.2916, 47.12057, -0.9698831,
 /* @teleloc 0x7F610007 [6.672654 161.291600 47.120570] -0.969883 0.000000 0.000000 -0.243571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F61001, 0x77F61002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77F61001, 0x77F61003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x77F61001, 0x77F61004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77F61001, 0x77F61005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x77F61001, 0x77F61006, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x77F61001, 0x77F61002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77F61001, 0x77F61003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x77F61001, 0x77F61004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77F61001, 0x77F61005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x77F61001, 0x77F61006, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F61002,  1759, 0x7F610007, 6.672654, 161.2916, 47.12057, -0.9698831, 0, 0, -0.2435709,  True, '2019-02-10 00:00:00'); /* Skeleton */

@@ -5,11 +5,11 @@ VALUES (0x7C961001,  1154, 0xC9610036, 150.4236, 140.9937, 6, -0.1574899, 0, 0, 
 /* @teleloc 0xC9610036 [150.423600 140.993700 6.000000] -0.157490 0.000000 0.000000 -0.987521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C961001, 0x7C961002, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C961001, 0x7C961003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C961001, 0x7C961004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C961001, 0x7C961005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C961001, 0x7C961006, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7C961001, 0x7C961002, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C961001, 0x7C961003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C961001, 0x7C961004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C961001, 0x7C961005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C961001, 0x7C961006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C961002,  2585, 0xC9610036, 150.4236, 140.9937, 6, -0.1574899, 0, 0, -0.9875206,  True, '2019-02-10 00:00:00'); /* Essa Sclavus */

@@ -5,9 +5,9 @@ VALUES (0x71EAE001,  1154, 0x1EAE0006, 15.44804, 123.7324, -0.4605001, 0.8606907
 /* @teleloc 0x1EAE0006 [15.448040 123.732400 -0.460500] 0.860691 0.000000 0.000000 -0.509128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EAE001, 0x71EAE002, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71EAE001, 0x71EAE003, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71EAE001, 0x71EAE004, '2019-02-10 00:00:00') /* Littoral Siraluun */;
+VALUES (0x71EAE001, 0x71EAE002, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71EAE001, 0x71EAE003, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71EAE001, 0x71EAE004, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EAE002, 11489, 0x1EAE0006, 15.44804, 123.7324, -0.4605001, 0.8606907, 0, 0, -0.5091283,  True, '2019-02-10 00:00:00'); /* Strand Siraluun */

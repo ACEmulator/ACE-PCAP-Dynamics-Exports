@@ -5,16 +5,16 @@ VALUES (0x73046001,  1154, 0x3046003F, 188.9184, 155.1328, 13.69531, -0.9820987,
 /* @teleloc 0x3046003F [188.918400 155.132800 13.695310] -0.982099 0.000000 0.000000 -0.188367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73046001, 0x73046002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73046001, 0x73046003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73046001, 0x73046004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73046001, 0x73046005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73046001, 0x73046006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73046001, 0x73046007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73046001, 0x73046008, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73046001, 0x73046009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73046001, 0x7304600A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73046001, 0x7304600B, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73046001, 0x73046002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73046001, 0x73046003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73046001, 0x73046004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73046001, 0x73046005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73046001, 0x73046006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73046001, 0x73046007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73046001, 0x73046008, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73046001, 0x73046009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73046001, 0x7304600A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73046001, 0x7304600B, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73046002, 36829, 0x3046003F, 188.9184, 155.1328, 13.69531, -0.9820987, 0, 0, -0.1883672,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -61,7 +61,7 @@ VALUES (0x7304600C,  1542, 0x30460009, 43.71401, 4.279892, 93.99768, 1, 0, 0, 0,
 /* @teleloc 0x30460009 [43.714010 4.279892 93.997680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304600C, 0x7304600D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7304600C, 0x7304600D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304600D,  4380, 0x30460009, 43.71401, 4.279892, 93.99768, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

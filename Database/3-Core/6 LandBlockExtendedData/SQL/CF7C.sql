@@ -5,35 +5,35 @@ VALUES (0x7CF7C001,  1154, 0xCF7C0004, 7.545063, 79.22594, 4.006, 0.716031, 0, 0
 /* @teleloc 0xCF7C0004 [7.545063 79.225940 4.006000] 0.716031 0.000000 0.000000 0.698069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF7C001, 0x7CF7C002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7CF7C001, 0x7CF7C003, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7CF7C001, 0x7CF7C004, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CF7C001, 0x7CF7C005, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7CF7C001, 0x7CF7C006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7CF7C001, 0x7CF7C007, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7CF7C001, 0x7CF7C008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7CF7C001, 0x7CF7C009, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7CF7C001, 0x7CF7C00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7CF7C001, 0x7CF7C00B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7CF7C001, 0x7CF7C00C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CF7C001, 0x7CF7C00D, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CF7C001, 0x7CF7C00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7CF7C001, 0x7CF7C00F, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7CF7C001, 0x7CF7C010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7CF7C001, 0x7CF7C011, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7CF7C001, 0x7CF7C012, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CF7C001, 0x7CF7C013, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7CF7C001, 0x7CF7C014, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7CF7C001, 0x7CF7C015, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7CF7C001, 0x7CF7C016, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7CF7C001, 0x7CF7C017, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CF7C001, 0x7CF7C018, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7CF7C001, 0x7CF7C019, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7CF7C001, 0x7CF7C01A, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7CF7C001, 0x7CF7C01B, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7CF7C001, 0x7CF7C01C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7CF7C001, 0x7CF7C01D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7CF7C001, 0x7CF7C01E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7CF7C001, 0x7CF7C002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7CF7C001, 0x7CF7C003, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7CF7C001, 0x7CF7C004, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CF7C001, 0x7CF7C005, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7CF7C001, 0x7CF7C006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7CF7C001, 0x7CF7C007, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7CF7C001, 0x7CF7C008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7CF7C001, 0x7CF7C009, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7CF7C001, 0x7CF7C00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7CF7C001, 0x7CF7C00B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7CF7C001, 0x7CF7C00C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CF7C001, 0x7CF7C00D, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CF7C001, 0x7CF7C00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7CF7C001, 0x7CF7C00F, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7CF7C001, 0x7CF7C010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7CF7C001, 0x7CF7C011, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7CF7C001, 0x7CF7C012, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CF7C001, 0x7CF7C013, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7CF7C001, 0x7CF7C014, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7CF7C001, 0x7CF7C015, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7CF7C001, 0x7CF7C016, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7CF7C001, 0x7CF7C017, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CF7C001, 0x7CF7C018, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7CF7C001, 0x7CF7C019, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7CF7C001, 0x7CF7C01A, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7CF7C001, 0x7CF7C01B, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7CF7C001, 0x7CF7C01C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7CF7C001, 0x7CF7C01D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7CF7C001, 0x7CF7C01E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF7C002, 23565, 0xCF7C0004, 7.545063, 79.22594, 4.006, 0.716031, 0, 0, 0.698069,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -156,8 +156,8 @@ VALUES (0x7CF7C01F,  1542, 0xCF7C0004, 15.95476, 74.17361, 3.937, 0.716031, 0, 0
 /* @teleloc 0xCF7C0004 [15.954760 74.173610 3.937000] 0.716031 0.000000 0.000000 0.698069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF7C01F, 0x7CF7C020, '2019-02-10 00:00:00') /* Renegade Stronghold */
-     , (0x7CF7C01F, 0x7CF7C021, '2019-02-10 00:00:00') /* Renegade Stronghold */;
+VALUES (0x7CF7C01F, 0x7CF7C020, '2019-02-10 00:00:00') /* Renegade Stronghold (27692) */
+     , (0x7CF7C01F, 0x7CF7C021, '2019-02-10 00:00:00') /* Renegade Stronghold (27692) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF7C020, 27692, 0xCF7C0004, 15.95476, 74.17361, 3.937, 0.716031, 0, 0, 0.698069,  True, '2019-02-10 00:00:00'); /* Renegade Stronghold */

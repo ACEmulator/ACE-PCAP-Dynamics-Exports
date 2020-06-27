@@ -5,17 +5,17 @@ VALUES (0x79EEB001,  1154, 0x9EEB0021, 114.0986, 8.485966, 124.0497, 1, 0, 0, 0,
 /* @teleloc 0x9EEB0021 [114.098600 8.485966 124.049700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EEB001, 0x79EEB002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x79EEB001, 0x79EEB003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79EEB001, 0x79EEB004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79EEB001, 0x79EEB005, '2019-02-10 00:00:00') /* Frost */
-     , (0x79EEB001, 0x79EEB006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79EEB001, 0x79EEB007, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79EEB001, 0x79EEB008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79EEB001, 0x79EEB009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x79EEB001, 0x79EEB00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79EEB001, 0x79EEB00B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79EEB001, 0x79EEB00C, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x79EEB001, 0x79EEB002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x79EEB001, 0x79EEB003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79EEB001, 0x79EEB004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79EEB001, 0x79EEB005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79EEB001, 0x79EEB006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79EEB001, 0x79EEB007, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79EEB001, 0x79EEB008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79EEB001, 0x79EEB009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x79EEB001, 0x79EEB00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79EEB001, 0x79EEB00B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79EEB001, 0x79EEB00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EEB002, 11481, 0x9EEB0021, 114.0986, 8.485966, 124.0497, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

@@ -5,23 +5,23 @@ VALUES (0x7BD95001,  1154, 0xBD950040, 187.3482, 170.3479, 1.108925, 0.6387814, 
 /* @teleloc 0xBD950040 [187.348200 170.347900 1.108925] 0.638781 0.000000 0.000000 -0.769388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD95001, 0x7BD95002, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BD95001, 0x7BD95003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD95001, 0x7BD95004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD95001, 0x7BD95005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BD95001, 0x7BD95006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD95001, 0x7BD95007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BD95001, 0x7BD95008, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BD95001, 0x7BD95009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD95001, 0x7BD9500A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD95001, 0x7BD9500B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD95001, 0x7BD9500C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD95001, 0x7BD9500D, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BD95001, 0x7BD9500E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BD95001, 0x7BD9500F, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BD95001, 0x7BD95010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD95001, 0x7BD95011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BD95001, 0x7BD95012, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7BD95001, 0x7BD95002, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BD95001, 0x7BD95003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD95001, 0x7BD95004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD95001, 0x7BD95005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BD95001, 0x7BD95006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD95001, 0x7BD95007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BD95001, 0x7BD95008, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BD95001, 0x7BD95009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD95001, 0x7BD9500A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD95001, 0x7BD9500B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD95001, 0x7BD9500C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD95001, 0x7BD9500D, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BD95001, 0x7BD9500E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BD95001, 0x7BD9500F, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BD95001, 0x7BD95010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD95001, 0x7BD95011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BD95001, 0x7BD95012, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD95002,   177, 0xBD950040, 187.3482, 170.3479, 1.108925, 0.6387814, 0, 0, -0.7693883,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
@@ -96,7 +96,7 @@ VALUES (0x7BD95013,  1542, 0xBD950011, 70.48278, 6.479703, 1.9, 0.9819803, 0, 0,
 /* @teleloc 0xBD950011 [70.482780 6.479703 1.900000] 0.981980 0.000000 0.000000 -0.188984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD95013, 0x7BD95014, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BD95013, 0x7BD95014, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD95014,  8644, 0xBD950011, 70.48278, 6.479703, 1.9, 0.9819803, 0, 0, -0.1889835,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,23 +5,23 @@ VALUES (0x72CED001,  1154, 0x2CED0001, 22.35248, 4.65863, 8.002601, 0.9477889, 0
 /* @teleloc 0x2CED0001 [22.352480 4.658630 8.002601] 0.947789 0.000000 0.000000 -0.318898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CED001, 0x72CED002, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72CED001, 0x72CED003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CED001, 0x72CED004, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CED001, 0x72CED005, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CED001, 0x72CED006, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CED001, 0x72CED007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72CED001, 0x72CED008, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CED001, 0x72CED009, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72CED001, 0x72CED00A, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CED001, 0x72CED00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72CED001, 0x72CED00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72CED001, 0x72CED00D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CED001, 0x72CED00E, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72CED001, 0x72CED00F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CED001, 0x72CED010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72CED001, 0x72CED011, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72CED001, 0x72CED012, '2019-02-10 00:00:00') /* Dread Mu-miyah */;
+VALUES (0x72CED001, 0x72CED002, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72CED001, 0x72CED003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CED001, 0x72CED004, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CED001, 0x72CED005, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CED001, 0x72CED006, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CED001, 0x72CED007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72CED001, 0x72CED008, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CED001, 0x72CED009, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72CED001, 0x72CED00A, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CED001, 0x72CED00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72CED001, 0x72CED00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72CED001, 0x72CED00D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CED001, 0x72CED00E, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72CED001, 0x72CED00F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CED001, 0x72CED010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72CED001, 0x72CED011, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72CED001, 0x72CED012, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CED002, 27715, 0x2CED0001, 22.35248, 4.65863, 8.002601, 0.9477889, 0, 0, -0.3188984,  True, '2019-02-10 00:00:00'); /* Ferocious Ursuin */

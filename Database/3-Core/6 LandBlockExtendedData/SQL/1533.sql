@@ -5,25 +5,25 @@ VALUES (0x71533001,  1154, 0x1533000B, 38.61658, 61.91979, 53.64067, 0.9063078, 
 /* @teleloc 0x1533000B [38.616580 61.919790 53.640670] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71533001, 0x71533002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71533001, 0x71533003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71533001, 0x71533004, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71533001, 0x71533005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71533001, 0x71533006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71533001, 0x71533007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71533001, 0x71533008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71533001, 0x71533009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71533001, 0x7153300A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71533001, 0x7153300B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71533001, 0x7153300C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71533001, 0x7153300D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71533001, 0x7153300E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71533001, 0x7153300F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x71533001, 0x71533010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71533001, 0x71533011, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71533001, 0x71533012, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71533001, 0x71533013, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71533001, 0x71533014, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x71533001, 0x71533002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71533001, 0x71533003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71533001, 0x71533004, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71533001, 0x71533005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71533001, 0x71533006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71533001, 0x71533007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71533001, 0x71533008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71533001, 0x71533009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71533001, 0x7153300A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71533001, 0x7153300B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71533001, 0x7153300C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71533001, 0x7153300D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71533001, 0x7153300E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71533001, 0x7153300F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x71533001, 0x71533010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71533001, 0x71533011, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71533001, 0x71533012, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71533001, 0x71533013, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71533001, 0x71533014, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71533002,  7982, 0x1533000B, 38.61658, 61.91979, 53.64067, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -106,7 +106,7 @@ VALUES (0x71533015,  1542, 0x1533002A, 139.419, 26.55969, 58, 1, 0, 0, 0, False,
 /* @teleloc 0x1533002A [139.419000 26.559690 58.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71533015, 0x71533016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71533015, 0x71533016, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71533016, 22566, 0x1533002A, 139.419, 26.55969, 58, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x7B79C001,  1154, 0xB79C0037, 149.5965, 160.1965, 51.1522, -0.8279881, 
 /* @teleloc 0xB79C0037 [149.596500 160.196500 51.152200] -0.827988 0.000000 0.000000 -0.560746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B79C001, 0x7B79C002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B79C001, 0x7B79C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B79C001, 0x7B79C004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B79C001, 0x7B79C005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B79C001, 0x7B79C006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B79C001, 0x7B79C007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B79C001, 0x7B79C002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B79C001, 0x7B79C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B79C001, 0x7B79C004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B79C001, 0x7B79C005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B79C001, 0x7B79C006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B79C001, 0x7B79C007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79C002,    20, 0xB79C0037, 149.5965, 160.1965, 51.1522, -0.8279881, 0, 0, -0.5607456,  True, '2019-02-10 00:00:00'); /* Auroch Bull */

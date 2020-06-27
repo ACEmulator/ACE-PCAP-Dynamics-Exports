@@ -5,12 +5,12 @@ VALUES (0x7BEAE001,  1154, 0xBEAE0030, 123.0576, 175.6444, 93.77882, 0.9368264, 
 /* @teleloc 0xBEAE0030 [123.057600 175.644400 93.778820] 0.936826 0.000000 0.000000 -0.349795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEAE001, 0x7BEAE002, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7BEAE001, 0x7BEAE003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7BEAE001, 0x7BEAE004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7BEAE001, 0x7BEAE005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7BEAE001, 0x7BEAE006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7BEAE001, 0x7BEAE007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7BEAE001, 0x7BEAE002, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7BEAE001, 0x7BEAE003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7BEAE001, 0x7BEAE004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7BEAE001, 0x7BEAE005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7BEAE001, 0x7BEAE006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7BEAE001, 0x7BEAE007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEAE002, 28879, 0xBEAE0030, 123.0576, 175.6444, 93.77882, 0.9368264, 0, 0, -0.3497947,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
@@ -41,9 +41,9 @@ VALUES (0x7BEAE008,  1542, 0xBEAE0030, 125.0325, 175.7344, 92.64455, 1, 0, 0, 0,
 /* @teleloc 0xBEAE0030 [125.032500 175.734400 92.644550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEAE008, 0x7BEAE009, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7BEAE008, 0x7BEAE00A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7BEAE008, 0x7BEAE00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BEAE008, 0x7BEAE009, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7BEAE008, 0x7BEAE00A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7BEAE008, 0x7BEAE00B, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEAE009,  8232, 0xBEAE0030, 125.0325, 175.7344, 92.64455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

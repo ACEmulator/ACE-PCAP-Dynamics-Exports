@@ -5,19 +5,19 @@ VALUES (0x754E9001,  1154, 0x54E90028, 100.8046, 179.7323, -0.9000001, -0.264181
 /* @teleloc 0x54E90028 [100.804600 179.732300 -0.900000] -0.264181 0.000000 0.000000 -0.964473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754E9001, 0x754E9002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x754E9001, 0x754E9003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x754E9001, 0x754E9004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x754E9001, 0x754E9005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x754E9001, 0x754E9006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x754E9001, 0x754E9007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x754E9001, 0x754E9008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x754E9001, 0x754E9009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x754E9001, 0x754E900A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x754E9001, 0x754E900B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x754E9001, 0x754E900C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x754E9001, 0x754E900D, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x754E9001, 0x754E900E, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x754E9001, 0x754E9002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x754E9001, 0x754E9003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x754E9001, 0x754E9004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x754E9001, 0x754E9005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x754E9001, 0x754E9006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x754E9001, 0x754E9007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x754E9001, 0x754E9008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x754E9001, 0x754E9009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x754E9001, 0x754E900A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x754E9001, 0x754E900B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x754E9001, 0x754E900C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x754E9001, 0x754E900D, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x754E9001, 0x754E900E, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754E9002,  7112, 0x54E90028, 100.8046, 179.7323, -0.9000001, -0.264181, 0, 0, -0.9644731,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -76,7 +76,7 @@ VALUES (0x754E900F,  1542, 0x54E9002C, 128.1563, 77.70821, 15.8911, 1, 0, 0, 0, 
 /* @teleloc 0x54E9002C [128.156300 77.708210 15.891100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754E900F, 0x754E9010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x754E900F, 0x754E9010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754E9010, 31445, 0x54E9002C, 128.1563, 77.70821, 15.8911, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

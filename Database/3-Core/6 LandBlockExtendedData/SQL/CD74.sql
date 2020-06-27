@@ -5,19 +5,19 @@ VALUES (0x7CD74001,  1154, 0xCD74002C, 140.8498, 89.53499, 28.02472, 0.9659258, 
 /* @teleloc 0xCD74002C [140.849800 89.534990 28.024720] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD74001, 0x7CD74002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD74001, 0x7CD74003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD74001, 0x7CD74004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD74001, 0x7CD74005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD74001, 0x7CD74006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CD74001, 0x7CD74007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD74001, 0x7CD74008, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7CD74001, 0x7CD74009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD74001, 0x7CD7400A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CD74001, 0x7CD7400B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7CD74001, 0x7CD7400C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CD74001, 0x7CD7400D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD74001, 0x7CD7400E, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7CD74001, 0x7CD74002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD74001, 0x7CD74003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD74001, 0x7CD74004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD74001, 0x7CD74005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD74001, 0x7CD74006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CD74001, 0x7CD74007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD74001, 0x7CD74008, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7CD74001, 0x7CD74009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD74001, 0x7CD7400A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CD74001, 0x7CD7400B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7CD74001, 0x7CD7400C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CD74001, 0x7CD7400D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD74001, 0x7CD7400E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD74002,   195, 0xCD74002C, 140.8498, 89.53499, 28.02472, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -76,8 +76,8 @@ VALUES (0x7CD7400F,  1542, 0xCD740003, 9.847717, 57.27803, 24.82064, 1, 0, 0, 0,
 /* @teleloc 0xCD740003 [9.847717 57.278030 24.820640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD7400F, 0x7CD74010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CD7400F, 0x7CD74011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CD7400F, 0x7CD74010, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CD7400F, 0x7CD74011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD74010, 22570, 0xCD740003, 9.847717, 57.27803, 24.82064, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x78699001,  1154, 0x86990038, 146.5559, 175.3265, 138.4829, -0.9999204,
 /* @teleloc 0x86990038 [146.555900 175.326500 138.482900] -0.999920 0.000000 0.000000 -0.012615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78699001, 0x78699002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78699001, 0x78699003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78699001, 0x78699004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78699001, 0x78699005, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x78699001, 0x78699002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78699001, 0x78699003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78699001, 0x78699004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78699001, 0x78699005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78699002,  1609, 0x86990038, 146.5559, 175.3265, 138.4829, -0.9999204, 0, 0, -0.01261502,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

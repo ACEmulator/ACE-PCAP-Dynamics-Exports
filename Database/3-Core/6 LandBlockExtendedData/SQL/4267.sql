@@ -5,16 +5,16 @@ VALUES (0x74267001,  1154, 0x4267001F, 94.85648, 152.7884, 30.92692, 0.3987491, 
 /* @teleloc 0x4267001F [94.856480 152.788400 30.926920] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74267001, 0x74267002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74267001, 0x74267003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x74267001, 0x74267004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74267001, 0x74267005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74267001, 0x74267006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74267001, 0x74267007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74267001, 0x74267008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74267001, 0x74267009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74267001, 0x7426700A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74267001, 0x7426700B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x74267001, 0x74267002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74267001, 0x74267003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x74267001, 0x74267004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74267001, 0x74267005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74267001, 0x74267006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74267001, 0x74267007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74267001, 0x74267008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74267001, 0x74267009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74267001, 0x7426700A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74267001, 0x7426700B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74267002,  7088, 0x4267001F, 94.85648, 152.7884, 30.92692, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -61,8 +61,8 @@ VALUES (0x7426700C,  1542, 0x42670027, 100.6019, 156.0267, 25.98663, 1, 0, 0, 0,
 /* @teleloc 0x42670027 [100.601900 156.026700 25.986630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7426700C, 0x7426700D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7426700C, 0x7426700E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7426700C, 0x7426700D, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7426700C, 0x7426700E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7426700D, 22566, 0x42670027, 100.6019, 156.0267, 25.98663, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

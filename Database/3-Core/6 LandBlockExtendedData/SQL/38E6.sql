@@ -5,18 +5,18 @@ VALUES (0x738E6001,  1154, 0x38E6000F, 45.13588, 163.2, 7.295969, -0.9923331, 0,
 /* @teleloc 0x38E6000F [45.135880 163.200000 7.295969] -0.992333 0.000000 0.000000 -0.123593 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738E6001, 0x738E6002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E6001, 0x738E6003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x738E6001, 0x738E6004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x738E6001, 0x738E6005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x738E6001, 0x738E6006, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738E6001, 0x738E6007, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738E6001, 0x738E6008, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738E6001, 0x738E6009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x738E6001, 0x738E600A, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x738E6001, 0x738E600B, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x738E6001, 0x738E600C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x738E6001, 0x738E600D, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x738E6001, 0x738E6002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x738E6001, 0x738E6003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x738E6001, 0x738E6004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x738E6001, 0x738E6005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x738E6001, 0x738E6006, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x738E6001, 0x738E6007, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738E6001, 0x738E6008, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738E6001, 0x738E6009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x738E6001, 0x738E600A, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x738E6001, 0x738E600B, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x738E6001, 0x738E600C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x738E6001, 0x738E600D, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738E6002, 28050, 0x38E6000F, 45.13588, 163.2, 7.295969, -0.9923331, 0, 0, -0.1235926,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

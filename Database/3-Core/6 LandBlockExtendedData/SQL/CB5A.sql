@@ -5,17 +5,17 @@ VALUES (0x7CB5A001,  1154, 0xCB5A0003, 19.24582, 70.47125, 5.55, 0.1629179, 0, 0
 /* @teleloc 0xCB5A0003 [19.245820 70.471250 5.550000] 0.162918 0.000000 0.000000 -0.986640 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5A001, 0x7CB5A002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5A001, 0x7CB5A003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7CB5A001, 0x7CB5A004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB5A001, 0x7CB5A005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB5A001, 0x7CB5A006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5A001, 0x7CB5A007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CB5A001, 0x7CB5A008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CB5A001, 0x7CB5A009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5A001, 0x7CB5A00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CB5A001, 0x7CB5A00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB5A001, 0x7CB5A00C, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7CB5A001, 0x7CB5A002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5A001, 0x7CB5A003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7CB5A001, 0x7CB5A004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB5A001, 0x7CB5A005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB5A001, 0x7CB5A006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5A001, 0x7CB5A007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CB5A001, 0x7CB5A008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CB5A001, 0x7CB5A009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5A001, 0x7CB5A00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CB5A001, 0x7CB5A00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB5A001, 0x7CB5A00C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5A002,  2567, 0xCB5A0003, 19.24582, 70.47125, 5.55, 0.1629179, 0, 0, -0.9866396,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */

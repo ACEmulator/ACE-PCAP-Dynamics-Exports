@@ -5,15 +5,15 @@ VALUES (0x77B7A001,  1154, 0x7B7A003A, 175.226, 46.2112, 12.0075, 1, 0, 0, 0, Fa
 /* @teleloc 0x7B7A003A [175.226000 46.211200 12.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B7A001, 0x77B7A002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77B7A001, 0x77B7A003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77B7A001, 0x77B7A004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77B7A001, 0x77B7A005, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x77B7A001, 0x77B7A006, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x77B7A001, 0x77B7A007, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x77B7A001, 0x77B7A008, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x77B7A001, 0x77B7A009, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77B7A001, 0x77B7A00A, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77B7A001, 0x77B7A002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77B7A001, 0x77B7A003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77B7A001, 0x77B7A004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77B7A001, 0x77B7A005, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x77B7A001, 0x77B7A006, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x77B7A001, 0x77B7A007, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x77B7A001, 0x77B7A008, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x77B7A001, 0x77B7A009, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x77B7A001, 0x77B7A00A, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B7A002,   950, 0x7B7A003A, 175.226, 46.2112, 12.0075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -56,7 +56,7 @@ VALUES (0x77B7A00B,  1542, 0x7B7A003A, 174.0217, 44.6144, 12, 0.9238795, 0, 0, -
 /* @teleloc 0x7B7A003A [174.021700 44.614400 12.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B7A00B, 0x77B7A00C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x77B7A00B, 0x77B7A00C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B7A00C,  4180, 0x7B7A003A, 174.0217, 44.6144, 12, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

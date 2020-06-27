@@ -5,18 +5,18 @@ VALUES (0x7C3B2001,  1154, 0xC3B20034, 162.4407, 85.37995, 250.2333, -0.9209338,
 /* @teleloc 0xC3B20034 [162.440700 85.379950 250.233300] -0.920934 0.000000 0.000000 -0.389719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3B2001, 0x7C3B2002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C3B2001, 0x7C3B2003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C3B2001, 0x7C3B2004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C3B2001, 0x7C3B2005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3B2001, 0x7C3B2006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C3B2001, 0x7C3B2007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C3B2001, 0x7C3B2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C3B2001, 0x7C3B2009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C3B2001, 0x7C3B200A, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C3B2001, 0x7C3B200B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C3B2001, 0x7C3B200C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C3B2001, 0x7C3B200D, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7C3B2001, 0x7C3B2002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C3B2001, 0x7C3B2003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C3B2001, 0x7C3B2004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C3B2001, 0x7C3B2005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3B2001, 0x7C3B2006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C3B2001, 0x7C3B2007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C3B2001, 0x7C3B2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C3B2001, 0x7C3B2009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C3B2001, 0x7C3B200A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C3B2001, 0x7C3B200B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7C3B2001, 0x7C3B200C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C3B2001, 0x7C3B200D, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3B2002,  1989, 0xC3B20034, 162.4407, 85.37995, 250.2333, -0.9209338, 0, 0, -0.3897189,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

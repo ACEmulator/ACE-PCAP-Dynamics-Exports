@@ -5,25 +5,25 @@ VALUES (0x766EB001,  1154, 0x66EB0007, 23.23201, 153.1772, 5.235234, -0.9851535,
 /* @teleloc 0x66EB0007 [23.232010 153.177200 5.235234] -0.985154 0.000000 0.000000 -0.171676 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766EB001, 0x766EB002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x766EB001, 0x766EB003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x766EB001, 0x766EB004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x766EB001, 0x766EB005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x766EB001, 0x766EB006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x766EB001, 0x766EB007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x766EB001, 0x766EB008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x766EB001, 0x766EB009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x766EB001, 0x766EB00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x766EB001, 0x766EB00B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x766EB001, 0x766EB00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x766EB001, 0x766EB00D, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x766EB001, 0x766EB00E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x766EB001, 0x766EB00F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x766EB001, 0x766EB010, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x766EB001, 0x766EB011, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x766EB001, 0x766EB012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x766EB001, 0x766EB013, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x766EB001, 0x766EB014, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x766EB001, 0x766EB002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x766EB001, 0x766EB003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x766EB001, 0x766EB004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x766EB001, 0x766EB005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x766EB001, 0x766EB006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x766EB001, 0x766EB007, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x766EB001, 0x766EB008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x766EB001, 0x766EB009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x766EB001, 0x766EB00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x766EB001, 0x766EB00B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x766EB001, 0x766EB00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x766EB001, 0x766EB00D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x766EB001, 0x766EB00E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x766EB001, 0x766EB00F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x766EB001, 0x766EB010, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x766EB001, 0x766EB011, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x766EB001, 0x766EB012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x766EB001, 0x766EB013, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x766EB001, 0x766EB014, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766EB002,  7126, 0x66EB0007, 23.23201, 153.1772, 5.235234, -0.9851535, 0, 0, -0.1716757,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -106,8 +106,8 @@ VALUES (0x766EB015,  1542, 0x66EB0006, 19.49454, 126.8269, 11.27883, -4.371139E-
 /* @teleloc 0x66EB0006 [19.494540 126.826900 11.278830] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766EB015, 0x766EB016, '2019-02-10 00:00:00') /* Bones */
-     , (0x766EB015, 0x766EB017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x766EB015, 0x766EB016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x766EB015, 0x766EB017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766EB016,  4380, 0x66EB0006, 19.49454, 126.8269, 11.27883, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

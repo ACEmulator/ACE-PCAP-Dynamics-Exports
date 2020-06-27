@@ -5,21 +5,21 @@ VALUES (0x7D7CC001,  1154, 0xD7CC0033, 147.021, 60.20395, 116.4985, 0.7071068, 0
 /* @teleloc 0xD7CC0033 [147.021000 60.203950 116.498500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7CC001, 0x7D7CC002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D7CC001, 0x7D7CC003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D7CC001, 0x7D7CC004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D7CC001, 0x7D7CC005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7D7CC001, 0x7D7CC006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7CC001, 0x7D7CC007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7CC001, 0x7D7CC008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D7CC001, 0x7D7CC009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7CC001, 0x7D7CC00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7CC001, 0x7D7CC00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D7CC001, 0x7D7CC00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7CC001, 0x7D7CC00D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7CC001, 0x7D7CC00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D7CC001, 0x7D7CC00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D7CC001, 0x7D7CC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7D7CC001, 0x7D7CC002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D7CC001, 0x7D7CC003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D7CC001, 0x7D7CC004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D7CC001, 0x7D7CC005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7D7CC001, 0x7D7CC006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7CC001, 0x7D7CC007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7CC001, 0x7D7CC008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D7CC001, 0x7D7CC009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7CC001, 0x7D7CC00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7CC001, 0x7D7CC00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D7CC001, 0x7D7CC00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7CC001, 0x7D7CC00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7CC001, 0x7D7CC00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D7CC001, 0x7D7CC00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D7CC001, 0x7D7CC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7CC002,  1758, 0xD7CC0033, 147.021, 60.20395, 116.4985, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -86,8 +86,8 @@ VALUES (0x7D7CC011,  1542, 0xD7CC0033, 149.6722, 61.21222, 117.7351, 1, 0, 0, 0,
 /* @teleloc 0xD7CC0033 [149.672200 61.212220 117.735100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7CC011, 0x7D7CC012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D7CC011, 0x7D7CC013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D7CC011, 0x7D7CC012, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7D7CC011, 0x7D7CC013, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7CC012, 22571, 0xD7CC0033, 149.6722, 61.21222, 117.7351, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

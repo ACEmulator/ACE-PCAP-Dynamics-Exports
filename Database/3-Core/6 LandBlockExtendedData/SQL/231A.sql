@@ -5,12 +5,12 @@ VALUES (0x7231A001,  1154, 0x231A003C, 186.0516, 78.79931, 18.4957, 0.0960037, 0
 /* @teleloc 0x231A003C [186.051600 78.799310 18.495700] 0.096004 0.000000 0.000000 -0.995381 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7231A001, 0x7231A002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7231A001, 0x7231A003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7231A001, 0x7231A004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7231A001, 0x7231A005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7231A001, 0x7231A006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7231A001, 0x7231A007, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x7231A001, 0x7231A002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7231A001, 0x7231A003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7231A001, 0x7231A004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7231A001, 0x7231A005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7231A001, 0x7231A006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7231A001, 0x7231A007, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7231A002, 23481, 0x231A003C, 186.0516, 78.79931, 18.4957, 0.0960037, 0, 0, -0.995381,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

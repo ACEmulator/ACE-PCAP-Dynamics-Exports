@@ -5,9 +5,9 @@ VALUES (0x7936E001,  1154, 0x936E0010, 28.62933, 191.9181, 9.632877, 0.9063078, 
 /* @teleloc 0x936E0010 [28.629330 191.918100 9.632877] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7936E001, 0x7936E002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7936E001, 0x7936E003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7936E001, 0x7936E004, '2019-02-10 00:00:00') /* Charred Skeleton */;
+VALUES (0x7936E001, 0x7936E002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7936E001, 0x7936E003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7936E001, 0x7936E004, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7936E002,   232, 0x936E0010, 28.62933, 191.9181, 9.632877, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

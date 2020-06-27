@@ -5,22 +5,22 @@ VALUES (0x73A92001,  1154, 0x3A920029, 132.1088, 4.425386, 0, 0.9704917, 0, 0, -
 /* @teleloc 0x3A920029 [132.108800 4.425386 0.000000] 0.970492 0.000000 0.000000 -0.241134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A92001, 0x73A92002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73A92001, 0x73A92003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73A92001, 0x73A92004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73A92001, 0x73A92005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73A92001, 0x73A92006, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73A92001, 0x73A92007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A92001, 0x73A92008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73A92001, 0x73A92009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A92001, 0x73A9200A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A92001, 0x73A9200B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73A92001, 0x73A9200C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73A92001, 0x73A9200D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73A92001, 0x73A9200E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73A92001, 0x73A9200F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73A92001, 0x73A92010, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A92001, 0x73A92011, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73A92001, 0x73A92002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73A92001, 0x73A92003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73A92001, 0x73A92004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73A92001, 0x73A92005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73A92001, 0x73A92006, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73A92001, 0x73A92007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A92001, 0x73A92008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73A92001, 0x73A92009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A92001, 0x73A9200A, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A92001, 0x73A9200B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73A92001, 0x73A9200C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73A92001, 0x73A9200D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73A92001, 0x73A9200E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73A92001, 0x73A9200F, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73A92001, 0x73A92010, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73A92001, 0x73A92011, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A92002,  7112, 0x3A920029, 132.1088, 4.425386, 0, 0.9704917, 0, 0, -0.2411344,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

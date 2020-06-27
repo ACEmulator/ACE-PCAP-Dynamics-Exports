@@ -5,13 +5,13 @@ VALUES (0x7175C001,  1154, 0x175C0036, 157.8746, 138.9302, 75.98125, 0.7372774, 
 /* @teleloc 0x175C0036 [157.874600 138.930200 75.981250] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7175C001, 0x7175C002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7175C001, 0x7175C003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7175C001, 0x7175C004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7175C001, 0x7175C005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7175C001, 0x7175C006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7175C001, 0x7175C007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7175C001, 0x7175C008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */;
+VALUES (0x7175C001, 0x7175C002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7175C001, 0x7175C003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7175C001, 0x7175C004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7175C001, 0x7175C005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7175C001, 0x7175C006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7175C001, 0x7175C007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7175C001, 0x7175C008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7175C002,  7114, 0x175C0036, 157.8746, 138.9302, 75.98125, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

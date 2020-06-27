@@ -9,9 +9,9 @@ VALUES (0x77C73001,  1154, 0x7C73000C, 32.58168, 94.91642, 13.43278, 0.791324, 0
 /* @teleloc 0x7C73000C [32.581680 94.916420 13.432780] 0.791324 0.000000 0.000000 -0.611397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C73001, 0x77C73002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77C73001, 0x77C73003, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x77C73001, 0x77C73004, '2019-02-10 00:00:00') /* Rust Gromnie */;
+VALUES (0x77C73001, 0x77C73002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77C73001, 0x77C73003, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x77C73001, 0x77C73004, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C73002,  1760, 0x7C73000C, 32.58168, 94.91642, 13.43278, 0.791324, 0, 0, -0.611397,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

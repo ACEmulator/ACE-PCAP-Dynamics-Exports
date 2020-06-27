@@ -5,11 +5,11 @@ VALUES (0x78BA3001,  1154, 0x8BA30006, 5.859146, 122.1772, 55.16387, -0.05578117
 /* @teleloc 0x8BA30006 [5.859146 122.177200 55.163870] -0.055781 0.000000 0.000000 -0.998443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BA3001, 0x78BA3002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x78BA3001, 0x78BA3003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78BA3001, 0x78BA3004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x78BA3001, 0x78BA3005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78BA3001, 0x78BA3006, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x78BA3001, 0x78BA3002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x78BA3001, 0x78BA3003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78BA3001, 0x78BA3004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x78BA3001, 0x78BA3005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78BA3001, 0x78BA3006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BA3002,  7128, 0x8BA30006, 5.859146, 122.1772, 55.16387, -0.05578117, 0, 0, -0.998443,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

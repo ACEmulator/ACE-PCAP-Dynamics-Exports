@@ -5,9 +5,9 @@ VALUES (0x788D3001,  1154, 0x88D30035, 148.8359, 109.176, 201.896, -0.7454305, 0
 /* @teleloc 0x88D30035 [148.835900 109.176000 201.896000] -0.745431 0.000000 0.000000 -0.666583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D3001, 0x788D3002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x788D3001, 0x788D3003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x788D3001, 0x788D3004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x788D3001, 0x788D3002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x788D3001, 0x788D3003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x788D3001, 0x788D3004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D3002, 24289, 0x88D30035, 148.8359, 109.176, 201.896, -0.7454305, 0, 0, -0.6665833,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -26,7 +26,7 @@ VALUES (0x788D3005,  1542, 0x88D30010, 34.8496, 174.3761, 210.6415, 0.9960216, 0
 /* @teleloc 0x88D30010 [34.849600 174.376100 210.641500] 0.996022 0.000000 0.000000 -0.089112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D3005, 0x788D3006, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x788D3005, 0x788D3006, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D3006,  8644, 0x88D30010, 34.8496, 174.3761, 210.6415, 0.9960216, 0, 0, -0.08911196,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

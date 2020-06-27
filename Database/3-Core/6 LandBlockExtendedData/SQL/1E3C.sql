@@ -5,9 +5,9 @@ VALUES (0x71E3C001,  1154, 0x1E3C001E, 72.84155, 130.2287, 40.64914, 0.9416326, 
 /* @teleloc 0x1E3C001E [72.841550 130.228700 40.649140] 0.941633 0.000000 0.000000 -0.336642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E3C001, 0x71E3C002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71E3C001, 0x71E3C003, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71E3C001, 0x71E3C004, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x71E3C001, 0x71E3C002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71E3C001, 0x71E3C003, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71E3C001, 0x71E3C004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E3C002, 41004, 0x1E3C001E, 72.84155, 130.2287, 40.64914, 0.9416326, 0, 0, -0.3366423,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

@@ -5,13 +5,13 @@ VALUES (0x7353C001,  1154, 0x353C0012, 57.03836, 34.19505, 232.3972, -0.2520269,
 /* @teleloc 0x353C0012 [57.038360 34.195050 232.397200] -0.252027 0.000000 0.000000 -0.967720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7353C001, 0x7353C002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7353C001, 0x7353C003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7353C001, 0x7353C004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7353C001, 0x7353C005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7353C001, 0x7353C006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7353C001, 0x7353C007, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7353C001, 0x7353C008, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7353C001, 0x7353C002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7353C001, 0x7353C003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7353C001, 0x7353C004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7353C001, 0x7353C005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7353C001, 0x7353C006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7353C001, 0x7353C007, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7353C001, 0x7353C008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7353C002, 23482, 0x353C0012, 57.03836, 34.19505, 232.3972, -0.2520269, 0, 0, -0.9677202,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -46,7 +46,7 @@ VALUES (0x7353C009,  1542, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0,
 /* @teleloc 0x353C0012 [58.614410 24.167550 233.972100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7353C009, 0x7353C00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7353C009, 0x7353C00A, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7353C00A, 22566, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

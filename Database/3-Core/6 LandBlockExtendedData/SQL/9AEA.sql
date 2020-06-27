@@ -5,12 +5,12 @@ VALUES (0x79AEA001,  1154, 0x9AEA000A, 41.82377, 29.23838, 114.9538, -0.9142361,
 /* @teleloc 0x9AEA000A [41.823770 29.238380 114.953800] -0.914236 0.000000 0.000000 -0.405182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AEA001, 0x79AEA002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79AEA001, 0x79AEA003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x79AEA001, 0x79AEA004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79AEA001, 0x79AEA005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79AEA001, 0x79AEA006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79AEA001, 0x79AEA007, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x79AEA001, 0x79AEA002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79AEA001, 0x79AEA003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x79AEA001, 0x79AEA004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79AEA001, 0x79AEA005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79AEA001, 0x79AEA006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79AEA001, 0x79AEA007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AEA002,  7994, 0x9AEA000A, 41.82377, 29.23838, 114.9538, -0.9142361, 0, 0, -0.4051819,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -41,7 +41,7 @@ VALUES (0x79AEA008,  1542, 0x9AEA0001, 16.77964, 23.15065, 115.8347, -0.9142361,
 /* @teleloc 0x9AEA0001 [16.779640 23.150650 115.834700] -0.914236 0.000000 0.000000 -0.405182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AEA008, 0x79AEA009, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x79AEA008, 0x79AEA009, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AEA009, 42528, 0x9AEA0001, 16.77964, 23.15065, 115.8347, -0.9142361, 0, 0, -0.4051819,  True, '2019-02-10 00:00:00'); /* Rock */

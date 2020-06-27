@@ -5,10 +5,10 @@ VALUES (0x7E748001,  1154, 0xE7480019, 86.21774, 5.878061, 45.94435, -0.4664771,
 /* @teleloc 0xE7480019 [86.217740 5.878061 45.944350] -0.466477 0.000000 0.000000 -0.884533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E748001, 0x7E748002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E748001, 0x7E748003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E748001, 0x7E748004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E748001, 0x7E748005, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7E748001, 0x7E748002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E748001, 0x7E748003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E748001, 0x7E748004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E748001, 0x7E748005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E748002,  8010, 0xE7480019, 86.21774, 5.878061, 45.94435, -0.4664771, 0, 0, -0.8845333,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

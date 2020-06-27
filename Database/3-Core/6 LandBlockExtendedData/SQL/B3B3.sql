@@ -5,10 +5,10 @@ VALUES (0x7B3B3001,  1154, 0xB3B30028, 115.4851, 184.4257, 110.0085, 0.9659258, 
 /* @teleloc 0xB3B30028 [115.485100 184.425700 110.008500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3B3001, 0x7B3B3002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B3B3001, 0x7B3B3003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B3B3001, 0x7B3B3004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B3B3001, 0x7B3B3005, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B3B3001, 0x7B3B3002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B3B3001, 0x7B3B3003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B3B3001, 0x7B3B3004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B3B3001, 0x7B3B3005, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3B3002,   181, 0xB3B30028, 115.4851, 184.4257, 110.0085, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

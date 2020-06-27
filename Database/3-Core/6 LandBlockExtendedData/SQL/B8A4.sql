@@ -5,16 +5,16 @@ VALUES (0x7B8A4001,  1154, 0xB8A40019, 91.49004, 4.330881, 72.58744, 1, 0, 0, 0,
 /* @teleloc 0xB8A40019 [91.490040 4.330881 72.587440] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8A4001, 0x7B8A4002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B8A4001, 0x7B8A4003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B8A4001, 0x7B8A4004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B8A4001, 0x7B8A4005, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7B8A4001, 0x7B8A4006, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B8A4001, 0x7B8A4007, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B8A4001, 0x7B8A4008, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B8A4001, 0x7B8A4009, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B8A4001, 0x7B8A400A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B8A4001, 0x7B8A400B, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7B8A4001, 0x7B8A4002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B8A4001, 0x7B8A4003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B8A4001, 0x7B8A4004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B8A4001, 0x7B8A4005, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7B8A4001, 0x7B8A4006, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B8A4001, 0x7B8A4007, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B8A4001, 0x7B8A4008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B8A4001, 0x7B8A4009, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B8A4001, 0x7B8A400A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B8A4001, 0x7B8A400B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8A4002,    18, 0xB8A40019, 91.49004, 4.330881, 72.58744, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -61,7 +61,7 @@ VALUES (0x7B8A400C,  1542, 0xB8A40017, 53.91379, 161.603, 86.04026, 0.9990482, 0
 /* @teleloc 0xB8A40017 [53.913790 161.603000 86.040260] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8A400C, 0x7B8A400D, '2019-02-10 00:00:00') /* Chest */;
+VALUES (0x7B8A400C, 0x7B8A400D, '2019-02-10 00:00:00') /* Chest (1918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8A400D,  1918, 0xB8A40017, 53.91379, 161.603, 86.04026, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */

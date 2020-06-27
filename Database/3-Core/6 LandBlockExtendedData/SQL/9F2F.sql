@@ -5,17 +5,17 @@ VALUES (0x79F2F001,  1154, 0x9F2F001A, 78.81033, 35.25433, 64.01, -0.8674829, 0,
 /* @teleloc 0x9F2F001A [78.810330 35.254330 64.010000] -0.867483 0.000000 0.000000 -0.497467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F2F001, 0x79F2F002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x79F2F001, 0x79F2F003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x79F2F001, 0x79F2F004, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x79F2F001, 0x79F2F005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x79F2F001, 0x79F2F006, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x79F2F001, 0x79F2F007, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x79F2F001, 0x79F2F008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79F2F001, 0x79F2F009, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x79F2F001, 0x79F2F00A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x79F2F001, 0x79F2F00B, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x79F2F001, 0x79F2F00C, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x79F2F001, 0x79F2F002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x79F2F001, 0x79F2F003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x79F2F001, 0x79F2F004, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x79F2F001, 0x79F2F005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F001, 0x79F2F006, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F001, 0x79F2F007, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F001, 0x79F2F008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79F2F001, 0x79F2F009, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x79F2F001, 0x79F2F00A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x79F2F001, 0x79F2F00B, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F001, 0x79F2F00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F2F002, 24941, 0x9F2F001A, 78.81033, 35.25433, 64.01, -0.8674829, 0, 0, -0.497467,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */

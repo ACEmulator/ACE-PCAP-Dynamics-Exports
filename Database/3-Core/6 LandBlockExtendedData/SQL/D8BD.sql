@@ -5,25 +5,25 @@ VALUES (0x7D8BD001,  1154, 0xD8BD003D, 177.1096, 96.82405, 30.55754, 0.7071068, 
 /* @teleloc 0xD8BD003D [177.109600 96.824050 30.557540] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8BD001, 0x7D8BD002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D8BD001, 0x7D8BD003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D8BD001, 0x7D8BD004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D8BD001, 0x7D8BD005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D8BD001, 0x7D8BD006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7D8BD001, 0x7D8BD007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7D8BD001, 0x7D8BD008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7D8BD001, 0x7D8BD009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D8BD001, 0x7D8BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D8BD001, 0x7D8BD00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D8BD001, 0x7D8BD00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D8BD001, 0x7D8BD00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D8BD001, 0x7D8BD00E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D8BD001, 0x7D8BD00F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D8BD001, 0x7D8BD010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7D8BD001, 0x7D8BD011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D8BD001, 0x7D8BD012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D8BD001, 0x7D8BD013, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D8BD001, 0x7D8BD014, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7D8BD001, 0x7D8BD002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D8BD001, 0x7D8BD003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D8BD001, 0x7D8BD004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D8BD001, 0x7D8BD005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D8BD001, 0x7D8BD006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7D8BD001, 0x7D8BD007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7D8BD001, 0x7D8BD008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7D8BD001, 0x7D8BD009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D8BD001, 0x7D8BD00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D8BD001, 0x7D8BD00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D8BD001, 0x7D8BD00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D8BD001, 0x7D8BD00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D8BD001, 0x7D8BD00E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D8BD001, 0x7D8BD00F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D8BD001, 0x7D8BD010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7D8BD001, 0x7D8BD011, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D8BD001, 0x7D8BD012, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D8BD001, 0x7D8BD013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D8BD001, 0x7D8BD014, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8BD002,  7346, 0xD8BD003D, 177.1096, 96.82405, 30.55754, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -106,9 +106,9 @@ VALUES (0x7D8BD015,  1542, 0xD8BD003C, 178.3833, 94.70795, 31.49192, -4.371139E-
 /* @teleloc 0xD8BD003C [178.383300 94.707950 31.491920] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8BD015, 0x7D8BD016, '2019-02-10 00:00:00') /* Bones */
-     , (0x7D8BD015, 0x7D8BD017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D8BD015, 0x7D8BD018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D8BD015, 0x7D8BD016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7D8BD015, 0x7D8BD017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D8BD015, 0x7D8BD018, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8BD016,  4380, 0xD8BD003C, 178.3833, 94.70795, 31.49192, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

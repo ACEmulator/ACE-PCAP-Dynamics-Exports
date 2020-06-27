@@ -5,17 +5,17 @@ VALUES (0x727F0001,  1154, 0x27F0002A, 141.3454, 30.83069, 15.41535, -0.8024612,
 /* @teleloc 0x27F0002A [141.345400 30.830690 15.415350] -0.802461 0.000000 0.000000 -0.596704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727F0001, 0x727F0002, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x727F0001, 0x727F0003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x727F0001, 0x727F0004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x727F0001, 0x727F0005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x727F0001, 0x727F0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x727F0001, 0x727F0007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x727F0001, 0x727F0008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x727F0001, 0x727F0009, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x727F0001, 0x727F000A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x727F0001, 0x727F000B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x727F0001, 0x727F000C, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x727F0001, 0x727F0002, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x727F0001, 0x727F0003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x727F0001, 0x727F0004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x727F0001, 0x727F0005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x727F0001, 0x727F0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x727F0001, 0x727F0007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x727F0001, 0x727F0008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x727F0001, 0x727F0009, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x727F0001, 0x727F000A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x727F0001, 0x727F000B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x727F0001, 0x727F000C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727F0002, 29353, 0x27F0002A, 141.3454, 30.83069, 15.41535, -0.8024612, 0, 0, -0.5967042,  True, '2019-02-10 00:00:00'); /* Arctic Mattekar */

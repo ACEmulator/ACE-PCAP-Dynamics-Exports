@@ -5,19 +5,19 @@ VALUES (0x722C0001,  1154, 0x22C0000F, 47.24819, 150.5213, 108.7926, 0.7071068, 
 /* @teleloc 0x22C0000F [47.248190 150.521300 108.792600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C0001, 0x722C0002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x722C0001, 0x722C0003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x722C0001, 0x722C0004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x722C0001, 0x722C0005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C0001, 0x722C0006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C0001, 0x722C0007, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C0001, 0x722C0008, '2019-02-10 00:00:00') /* Cultist */
-     , (0x722C0001, 0x722C0009, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x722C0001, 0x722C000A, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x722C0001, 0x722C000B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x722C0001, 0x722C000C, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x722C0001, 0x722C000D, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x722C0001, 0x722C000E, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x722C0001, 0x722C0002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x722C0001, 0x722C0003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x722C0001, 0x722C0004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x722C0001, 0x722C0005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C0001, 0x722C0006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C0001, 0x722C0007, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C0001, 0x722C0008, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x722C0001, 0x722C0009, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x722C0001, 0x722C000A, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x722C0001, 0x722C000B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x722C0001, 0x722C000C, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x722C0001, 0x722C000D, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x722C0001, 0x722C000E, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C0002, 27711, 0x22C0000F, 47.24819, 150.5213, 108.7926, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
@@ -76,12 +76,12 @@ VALUES (0x722C000F,  1542, 0x22C0000D, 29.69284, 102.0722, 78.98064, 1, 0, 0, 0,
 /* @teleloc 0x22C0000D [29.692840 102.072200 78.980640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C000F, 0x722C0010, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x722C000F, 0x722C0011, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x722C000F, 0x722C0012, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x722C000F, 0x722C0013, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x722C000F, 0x722C0014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722C000F, 0x722C0015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x722C000F, 0x722C0010, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x722C000F, 0x722C0011, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x722C000F, 0x722C0012, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x722C000F, 0x722C0013, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x722C000F, 0x722C0014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722C000F, 0x722C0015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C0010, 11221, 0x22C0000D, 29.69284, 102.0722, 78.98064, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

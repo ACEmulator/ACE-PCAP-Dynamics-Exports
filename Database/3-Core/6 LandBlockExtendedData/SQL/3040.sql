@@ -5,14 +5,14 @@ VALUES (0x73040001,  1154, 0x3040000F, 35.95571, 163.721, 26.68349, -0.06722733,
 /* @teleloc 0x3040000F [35.955710 163.721000 26.683490] -0.067227 0.000000 0.000000 -0.997738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73040001, 0x73040002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73040001, 0x73040003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73040001, 0x73040004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73040001, 0x73040005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73040001, 0x73040006, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73040001, 0x73040007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73040001, 0x73040008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73040001, 0x73040009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73040001, 0x73040002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73040001, 0x73040003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73040001, 0x73040004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73040001, 0x73040005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73040001, 0x73040006, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73040001, 0x73040007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73040001, 0x73040008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73040001, 0x73040009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73040002,  9264, 0x3040000F, 35.95571, 163.721, 26.68349, -0.06722733, 0, 0, -0.9977377,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

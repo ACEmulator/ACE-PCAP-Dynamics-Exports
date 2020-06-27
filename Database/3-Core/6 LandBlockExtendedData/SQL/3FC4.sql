@@ -5,12 +5,12 @@ VALUES (0x73FC4001,  1154, 0x3FC40014, 53.79548, 88.31139, 12.51196, 0.8191521, 
 /* @teleloc 0x3FC40014 [53.795480 88.311390 12.511960] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FC4001, 0x73FC4002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73FC4001, 0x73FC4003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73FC4001, 0x73FC4004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x73FC4001, 0x73FC4005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73FC4001, 0x73FC4006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73FC4001, 0x73FC4007, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73FC4001, 0x73FC4002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73FC4001, 0x73FC4003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73FC4001, 0x73FC4004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x73FC4001, 0x73FC4005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73FC4001, 0x73FC4006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73FC4001, 0x73FC4007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FC4002,  9264, 0x3FC40014, 53.79548, 88.31139, 12.51196, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

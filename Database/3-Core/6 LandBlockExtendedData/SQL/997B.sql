@@ -9,19 +9,19 @@ VALUES (0x7997B001,  1154, 0x997B0023, 106.4341, 62.71299, 20, -0.7534292, 0, 0,
 /* @teleloc 0x997B0023 [106.434100 62.712990 20.000000] -0.753429 0.000000 0.000000 -0.657529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997B001, 0x7997B002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7997B001, 0x7997B003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7997B001, 0x7997B004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7997B001, 0x7997B005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7997B001, 0x7997B006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7997B001, 0x7997B007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7997B001, 0x7997B008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7997B001, 0x7997B009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7997B001, 0x7997B00A, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7997B001, 0x7997B00B, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7997B001, 0x7997B00C, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7997B001, 0x7997B00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7997B001, 0x7997B00E, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7997B001, 0x7997B002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7997B001, 0x7997B003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7997B001, 0x7997B004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7997B001, 0x7997B005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7997B001, 0x7997B006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7997B001, 0x7997B007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7997B001, 0x7997B008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7997B001, 0x7997B009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7997B001, 0x7997B00A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7997B001, 0x7997B00B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7997B001, 0x7997B00C, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7997B001, 0x7997B00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7997B001, 0x7997B00E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7997B002,  5429, 0x997B0023, 106.4341, 62.71299, 20, -0.7534292, 0, 0, -0.6575291,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -80,8 +80,8 @@ VALUES (0x7997B00F,  1542, 0x997B003F, 185.8718, 155.4643, 14.7768, 1, 0, 0, 0, 
 /* @teleloc 0x997B003F [185.871800 155.464300 14.776800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997B00F, 0x7997B010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7997B00F, 0x7997B011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7997B00F, 0x7997B010, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7997B00F, 0x7997B011, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7997B010, 22568, 0x997B003F, 185.8718, 155.4643, 14.7768, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

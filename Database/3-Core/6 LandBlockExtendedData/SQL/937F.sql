@@ -29,29 +29,29 @@ VALUES (0x7937F00C,  1154, 0x937F0008, 15.5675, 188.1837, 43.996, 0.7071068, 0, 
 /* @teleloc 0x937F0008 [15.567500 188.183700 43.996000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F00C, 0x7937F00D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7937F00C, 0x7937F00E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7937F00C, 0x7937F00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7937F00C, 0x7937F010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7937F00C, 0x7937F011, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F012, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7937F00C, 0x7937F013, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7937F00C, 0x7937F014, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F015, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F016, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F017, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7937F00C, 0x7937F018, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F019, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F01A, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F01B, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7937F00C, 0x7937F01D, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7937F00C, 0x7937F01E, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7937F00C, 0x7937F01F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7937F00C, 0x7937F020, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7937F00C, 0x7937F021, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7937F00C, 0x7937F022, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7937F00C, 0x7937F023, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7937F00C, 0x7937F00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7937F00C, 0x7937F00E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7937F00C, 0x7937F00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7937F00C, 0x7937F010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7937F00C, 0x7937F011, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F012, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7937F00C, 0x7937F013, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7937F00C, 0x7937F014, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F015, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F016, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F017, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7937F00C, 0x7937F018, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F019, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F01A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F01B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7937F00C, 0x7937F01D, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7937F00C, 0x7937F01E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7937F00C, 0x7937F01F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7937F00C, 0x7937F020, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7937F00C, 0x7937F021, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7937F00C, 0x7937F022, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7937F00C, 0x7937F023, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F00D,  4109, 0x937F0008, 15.5675, 188.1837, 43.996, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -150,7 +150,7 @@ VALUES (0x7937F024,  1154, 0x937F0101, 156.734, 86.894, 33.705, -0.998841, 0, 0,
 /* @teleloc 0x937F0101 [156.734000 86.894000 33.705000] -0.998841 0.000000 0.000000 -0.048127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F024, 0x7937F025, '2019-02-10 00:00:00') /* Rubid al-Jurma */;
+VALUES (0x7937F024, 0x7937F025, '2019-02-10 00:00:00') /* Rubid al-Jurma (5137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F025,  5137, 0x937F0101, 156.734, 86.894, 33.705, -0.998841, 0, 0, -0.0481271,  True, '2019-02-10 00:00:00'); /* Rubid al-Jurma */
@@ -161,10 +161,10 @@ VALUES (0x7937F026,  1542, 0x937F0101, 151.956, 82.9753, 34.3603, -0.160934, 0, 
 /* @teleloc 0x937F0101 [151.956000 82.975300 34.360300] -0.160934 0.000000 0.000000 -0.986965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F026, 0x7937F027, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem */
-     , (0x7937F026, 0x7937F028, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem */
-     , (0x7937F026, 0x7937F029, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem */
-     , (0x7937F026, 0x7937F02A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7937F026, 0x7937F027, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */
+     , (0x7937F026, 0x7937F028, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
+     , (0x7937F026, 0x7937F029, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
+     , (0x7937F026, 0x7937F02A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F027, 45981, 0x937F0101, 151.956, 82.9753, 34.3603, -0.160934, 0, 0, -0.986965,  True, '2019-02-10 00:00:00'); /* Explorer Light Weapons Gem */

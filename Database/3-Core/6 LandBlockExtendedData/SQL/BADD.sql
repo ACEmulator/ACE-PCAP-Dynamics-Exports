@@ -5,16 +5,16 @@ VALUES (0x7BADD001,  1154, 0xBADD0008, 15.0277, 188.598, -0.00387503, 0.999484, 
 /* @teleloc 0xBADD0008 [15.027700 188.598000 -0.003875] 0.999484 0.000000 0.000000 -0.032122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BADD001, 0x7BADD002, '2019-02-10 00:00:00') /* Blue Coral Reef */
-     , (0x7BADD001, 0x7BADD003, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD004, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD005, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD006, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD007, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD008, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD009, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD00A, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */
-     , (0x7BADD001, 0x7BADD00B, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem */;
+VALUES (0x7BADD001, 0x7BADD002, '2019-02-10 00:00:00') /* Blue Coral Reef (31329) */
+     , (0x7BADD001, 0x7BADD003, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD004, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD005, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD006, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD007, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD008, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD009, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD00A, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */
+     , (0x7BADD001, 0x7BADD00B, '2019-02-10 00:00:00') /* Guardian Blue Coral Golem (31340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADD002, 31329, 0xBADD0008, 15.0277, 188.598, -0.00387503, 0.999484, 0, 0, -0.0321218,  True, '2019-02-10 00:00:00'); /* Blue Coral Reef */

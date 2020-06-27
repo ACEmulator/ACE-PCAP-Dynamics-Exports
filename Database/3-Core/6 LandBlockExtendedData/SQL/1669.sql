@@ -5,10 +5,10 @@ VALUES (0x71669001,  1154, 0x16690019, 79.93162, 18.43173, 24.43941, -0.5180937,
 /* @teleloc 0x16690019 [79.931620 18.431730 24.439410] -0.518094 0.000000 0.000000 -0.855324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71669001, 0x71669002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71669001, 0x71669003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71669001, 0x71669004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71669001, 0x71669005, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71669001, 0x71669002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71669001, 0x71669003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71669001, 0x71669004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71669001, 0x71669005, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71669002, 23616, 0x16690019, 79.93162, 18.43173, 24.43941, -0.5180937, 0, 0, -0.8553239,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

@@ -5,23 +5,23 @@ VALUES (0x740F0001,  1154, 0x40F00002, 8.573638, 43.30489, 3.217484, -0.8876575,
 /* @teleloc 0x40F00002 [8.573638 43.304890 3.217484] -0.887658 0.000000 0.000000 -0.460504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740F0001, 0x740F0002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x740F0001, 0x740F0003, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x740F0001, 0x740F0004, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740F0001, 0x740F0005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x740F0001, 0x740F0006, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740F0001, 0x740F0007, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740F0001, 0x740F0008, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x740F0001, 0x740F0009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x740F0001, 0x740F000A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x740F0001, 0x740F000B, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740F0001, 0x740F000C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x740F0001, 0x740F000D, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740F0001, 0x740F000E, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740F0001, 0x740F000F, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x740F0001, 0x740F0010, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x740F0001, 0x740F0011, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x740F0001, 0x740F0012, '2019-02-10 00:00:00') /* Ruschk Laktar */;
+VALUES (0x740F0001, 0x740F0002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x740F0001, 0x740F0003, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x740F0001, 0x740F0004, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740F0001, 0x740F0005, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x740F0001, 0x740F0006, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740F0001, 0x740F0007, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740F0001, 0x740F0008, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x740F0001, 0x740F0009, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x740F0001, 0x740F000A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x740F0001, 0x740F000B, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740F0001, 0x740F000C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x740F0001, 0x740F000D, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740F0001, 0x740F000E, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740F0001, 0x740F000F, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x740F0001, 0x740F0010, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x740F0001, 0x740F0011, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x740F0001, 0x740F0012, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740F0002,  7127, 0x40F00002, 8.573638, 43.30489, 3.217484, -0.8876575, 0, 0, -0.4605043,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
@@ -96,7 +96,7 @@ VALUES (0x740F0013,  1542, 0x40F00023, 113.7195, 48.19459, 11.38311, -0.9899667,
 /* @teleloc 0x40F00023 [113.719500 48.194590 11.383110] -0.989967 0.000000 0.000000 -0.141301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740F0013, 0x740F0014, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x740F0013, 0x740F0014, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740F0014, 31032, 0x40F00023, 113.7195, 48.19459, 11.38311, -0.9899667, 0, 0, -0.1413008,  True, '2019-02-10 00:00:00'); /* Snow Lily */

@@ -5,16 +5,16 @@ VALUES (0x73FCF001,  1154, 0x3FCF0019, 89.19355, 14.15687, 21.18799, 0.7071068, 
 /* @teleloc 0x3FCF0019 [89.193550 14.156870 21.187990] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FCF001, 0x73FCF002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73FCF001, 0x73FCF003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73FCF001, 0x73FCF004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73FCF001, 0x73FCF005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73FCF001, 0x73FCF006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73FCF001, 0x73FCF007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73FCF001, 0x73FCF008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x73FCF001, 0x73FCF009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73FCF001, 0x73FCF00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73FCF001, 0x73FCF00B, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x73FCF001, 0x73FCF002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73FCF001, 0x73FCF003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73FCF001, 0x73FCF004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73FCF001, 0x73FCF005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73FCF001, 0x73FCF006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73FCF001, 0x73FCF007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73FCF001, 0x73FCF008, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x73FCF001, 0x73FCF009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73FCF001, 0x73FCF00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73FCF001, 0x73FCF00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FCF002, 24320, 0x3FCF0019, 89.19355, 14.15687, 21.18799, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Revenant */

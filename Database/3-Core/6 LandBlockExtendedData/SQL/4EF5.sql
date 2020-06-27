@@ -5,15 +5,15 @@ VALUES (0x74EF5001,  1154, 0x4EF50038, 163.836, 187.8659, 0, -0.01342583, 0, 0, 
 /* @teleloc 0x4EF50038 [163.836000 187.865900 0.000000] -0.013426 0.000000 0.000000 -0.999910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EF5001, 0x74EF5002, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x74EF5001, 0x74EF5003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74EF5001, 0x74EF5004, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74EF5001, 0x74EF5005, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x74EF5001, 0x74EF5006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74EF5001, 0x74EF5007, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74EF5001, 0x74EF5008, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74EF5001, 0x74EF5009, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x74EF5001, 0x74EF500A, '2019-02-10 00:00:00') /* Fractured Glacial Golem */;
+VALUES (0x74EF5001, 0x74EF5002, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x74EF5001, 0x74EF5003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74EF5001, 0x74EF5004, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74EF5001, 0x74EF5005, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x74EF5001, 0x74EF5006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74EF5001, 0x74EF5007, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74EF5001, 0x74EF5008, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74EF5001, 0x74EF5009, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x74EF5001, 0x74EF500A, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EF5002, 28637, 0x4EF50038, 163.836, 187.8659, 0, -0.01342583, 0, 0, -0.9999099,  True, '2019-02-10 00:00:00'); /* Ravenous Eater */

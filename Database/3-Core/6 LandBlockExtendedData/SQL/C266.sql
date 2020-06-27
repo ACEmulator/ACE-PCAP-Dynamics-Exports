@@ -5,17 +5,17 @@ VALUES (0x7C266001,  1154, 0xC266001D, 75.381, 99.0295, 50.25706, -0.7071068, 0,
 /* @teleloc 0xC266001D [75.381000 99.029500 50.257060] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C266001, 0x7C266002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C266001, 0x7C266003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C266001, 0x7C266004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C266001, 0x7C266005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C266001, 0x7C266006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C266001, 0x7C266007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C266001, 0x7C266008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C266001, 0x7C266009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C266001, 0x7C26600A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C266001, 0x7C26600B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C266001, 0x7C26600C, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7C266001, 0x7C266002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C266001, 0x7C266003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C266001, 0x7C266004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C266001, 0x7C266005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C266001, 0x7C266006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C266001, 0x7C266007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C266001, 0x7C266008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C266001, 0x7C266009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C266001, 0x7C26600A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C266001, 0x7C26600B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C266001, 0x7C26600C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C266002,  4246, 0xC266001D, 75.381, 99.0295, 50.25706, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

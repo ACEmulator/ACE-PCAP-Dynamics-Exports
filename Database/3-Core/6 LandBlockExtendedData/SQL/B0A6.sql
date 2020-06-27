@@ -5,18 +5,18 @@ VALUES (0x7B0A6001,  1154, 0xB0A60011, 61.65992, 6.839582, 100.8727, -0.9839842,
 /* @teleloc 0xB0A60011 [61.659920 6.839582 100.872700] -0.983984 0.000000 0.000000 -0.178255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A6001, 0x7B0A6002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B0A6001, 0x7B0A6003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0A6001, 0x7B0A6004, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B0A6001, 0x7B0A6005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B0A6001, 0x7B0A6006, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B0A6001, 0x7B0A6007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0A6001, 0x7B0A6008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B0A6001, 0x7B0A6009, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B0A6001, 0x7B0A600A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B0A6001, 0x7B0A600B, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B0A6001, 0x7B0A600C, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B0A6001, 0x7B0A600D, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B0A6001, 0x7B0A6002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B0A6001, 0x7B0A6003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0A6001, 0x7B0A6004, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B0A6001, 0x7B0A6005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B0A6001, 0x7B0A6006, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B0A6001, 0x7B0A6007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0A6001, 0x7B0A6008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B0A6001, 0x7B0A6009, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B0A6001, 0x7B0A600A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B0A6001, 0x7B0A600B, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B0A6001, 0x7B0A600C, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B0A6001, 0x7B0A600D, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A6002,   236, 0xB0A60011, 61.65992, 6.839582, 100.8727, -0.9839842, 0, 0, -0.1782554,  True, '2019-02-10 00:00:00'); /* Female Tusker */
@@ -71,8 +71,8 @@ VALUES (0x7B0A600E,  1542, 0xB0A6000D, 38.23127, 97.65855, 108.1624, 0.9990482, 
 /* @teleloc 0xB0A6000D [38.231270 97.658550 108.162400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A600E, 0x7B0A600F, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x7B0A600E, 0x7B0A6010, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7B0A600E, 0x7B0A600F, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7B0A600E, 0x7B0A6010, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A600F,  6118, 0xB0A6000D, 38.23127, 97.65855, 108.1624, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

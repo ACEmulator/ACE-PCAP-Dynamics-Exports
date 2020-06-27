@@ -5,14 +5,14 @@ VALUES (0x71C87001,  1154, 0x1C870033, 154.403, 53.56912, 52.32697, 0.8225095, 0
 /* @teleloc 0x1C870033 [154.403000 53.569120 52.326970] 0.822510 0.000000 0.000000 -0.568751 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C87001, 0x71C87002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71C87001, 0x71C87003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71C87001, 0x71C87004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C87001, 0x71C87005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C87001, 0x71C87006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C87001, 0x71C87007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C87001, 0x71C87008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71C87001, 0x71C87009, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x71C87001, 0x71C87002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71C87001, 0x71C87003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71C87001, 0x71C87004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C87001, 0x71C87005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C87001, 0x71C87006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C87001, 0x71C87007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C87001, 0x71C87008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71C87001, 0x71C87009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C87002, 10806, 0x1C870033, 154.403, 53.56912, 52.32697, 0.8225095, 0, 0, -0.5687513,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -51,8 +51,8 @@ VALUES (0x71C8700A,  1542, 0x1C870033, 166.6763, 61.74957, 55.72899, 1, 0, 0, 0,
 /* @teleloc 0x1C870033 [166.676300 61.749570 55.728990] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C8700A, 0x71C8700B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71C8700A, 0x71C8700C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C8700A, 0x71C8700B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x71C8700A, 0x71C8700C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C8700B, 22567, 0x1C870033, 166.6763, 61.74957, 55.72899, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x74B95001,  1154, 0x4B950027, 107.4932, 151.0778, -0.4434, -0.6961725, 
 /* @teleloc 0x4B950027 [107.493200 151.077800 -0.443400] -0.696173 0.000000 0.000000 -0.717875 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B95001, 0x74B95002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B95001, 0x74B95003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B95001, 0x74B95004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B95001, 0x74B95005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74B95001, 0x74B95006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74B95001, 0x74B95007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74B95001, 0x74B95008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74B95001, 0x74B95009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74B95001, 0x74B9500A, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x74B95001, 0x74B95002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B95001, 0x74B95003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B95001, 0x74B95004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B95001, 0x74B95005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74B95001, 0x74B95006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74B95001, 0x74B95007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74B95001, 0x74B95008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74B95001, 0x74B95009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74B95001, 0x74B9500A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B95002,  7102, 0x4B950027, 107.4932, 151.0778, -0.4434, -0.6961725, 0, 0, -0.7178745,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -56,7 +56,7 @@ VALUES (0x74B9500B,  1542, 0x4B950017, 61.85422, 158.5436, 0.3727347, 0.9990482,
 /* @teleloc 0x4B950017 [61.854220 158.543600 0.372735] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B9500B, 0x74B9500C, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x74B9500B, 0x74B9500C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B9500C,  6117, 0x4B950017, 61.85422, 158.5436, 0.3727347, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

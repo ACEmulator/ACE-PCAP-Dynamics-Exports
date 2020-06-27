@@ -5,45 +5,45 @@ VALUES (0x7E25C001,  1154, 0xE25C0031, 160.6003, 19.3753, 0.002499998, -0.696456
 /* @teleloc 0xE25C0031 [160.600300 19.375300 0.002500] -0.696456 0.000000 0.000000 -0.717600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E25C001, 0x7E25C002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E25C001, 0x7E25C003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E25C001, 0x7E25C004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E25C001, 0x7E25C005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E25C001, 0x7E25C006, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E25C001, 0x7E25C007, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7E25C001, 0x7E25C008, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E25C001, 0x7E25C009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E25C001, 0x7E25C00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E25C001, 0x7E25C00B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E25C001, 0x7E25C00C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E25C001, 0x7E25C00D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E25C001, 0x7E25C00E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E25C001, 0x7E25C00F, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7E25C001, 0x7E25C010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E25C001, 0x7E25C011, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C012, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C013, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E25C001, 0x7E25C014, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E25C001, 0x7E25C015, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C016, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E25C001, 0x7E25C017, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E25C001, 0x7E25C018, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E25C001, 0x7E25C019, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E25C001, 0x7E25C01A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E25C001, 0x7E25C01B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C01C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C01D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E25C001, 0x7E25C01E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E25C001, 0x7E25C01F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E25C001, 0x7E25C020, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E25C001, 0x7E25C021, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E25C001, 0x7E25C022, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E25C001, 0x7E25C023, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E25C001, 0x7E25C024, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E25C001, 0x7E25C025, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E25C001, 0x7E25C026, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E25C001, 0x7E25C027, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E25C001, 0x7E25C028, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7E25C001, 0x7E25C002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E25C001, 0x7E25C003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E25C001, 0x7E25C004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E25C001, 0x7E25C005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E25C001, 0x7E25C006, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E25C001, 0x7E25C007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7E25C001, 0x7E25C008, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E25C001, 0x7E25C009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E25C001, 0x7E25C00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E25C001, 0x7E25C00B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E25C001, 0x7E25C00C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E25C001, 0x7E25C00D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E25C001, 0x7E25C00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E25C001, 0x7E25C00F, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7E25C001, 0x7E25C010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E25C001, 0x7E25C011, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C012, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C013, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E25C001, 0x7E25C014, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E25C001, 0x7E25C015, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C016, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E25C001, 0x7E25C017, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E25C001, 0x7E25C018, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E25C001, 0x7E25C019, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E25C001, 0x7E25C01A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E25C001, 0x7E25C01B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C01C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C01D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E25C001, 0x7E25C01E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E25C001, 0x7E25C01F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E25C001, 0x7E25C020, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E25C001, 0x7E25C021, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E25C001, 0x7E25C022, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E25C001, 0x7E25C023, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E25C001, 0x7E25C024, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E25C001, 0x7E25C025, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E25C001, 0x7E25C026, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E25C001, 0x7E25C027, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E25C001, 0x7E25C028, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E25C002,  1762, 0xE25C0031, 160.6003, 19.3753, 0.002499998, -0.696456, 0, 0, -0.7175995,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -206,8 +206,8 @@ VALUES (0x7E25C029,  1542, 0xE25C0035, 155.7696, 110.8448, 0.011, -0.8596532, 0,
 /* @teleloc 0xE25C0035 [155.769600 110.844800 0.011000] -0.859653 0.000000 0.000000 -0.510878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E25C029, 0x7E25C02A, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7E25C029, 0x7E25C02B, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7E25C029, 0x7E25C02A, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7E25C029, 0x7E25C02B, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E25C02A, 31686, 0xE25C0035, 155.7696, 110.8448, 0.011, -0.8596532, 0, 0, -0.5108781,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

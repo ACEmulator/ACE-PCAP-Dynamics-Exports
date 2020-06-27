@@ -5,10 +5,10 @@ VALUES (0x78272001,  1154, 0x82720013, 53.31646, 56.9305, 23.43668, -0.7499455, 
 /* @teleloc 0x82720013 [53.316460 56.930500 23.436680] -0.749946 0.000000 0.000000 -0.661500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78272001, 0x78272002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78272001, 0x78272003, '2019-02-10 00:00:00') /* Undead */
-     , (0x78272001, 0x78272004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78272001, 0x78272005, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x78272001, 0x78272002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78272001, 0x78272003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x78272001, 0x78272004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78272001, 0x78272005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78272002,  4266, 0x82720013, 53.31646, 56.9305, 23.43668, -0.7499455, 0, 0, -0.6614996,  True, '2019-02-10 00:00:00'); /* Old Bones */

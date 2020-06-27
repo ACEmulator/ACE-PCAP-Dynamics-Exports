@@ -5,12 +5,12 @@ VALUES (0x77CE9001,  1154, 0x7CE9002C, 141.4254, 93.35296, 82.65081, 0.3987491, 
 /* @teleloc 0x7CE9002C [141.425400 93.352960 82.650810] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CE9001, 0x77CE9002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77CE9001, 0x77CE9003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77CE9001, 0x77CE9004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77CE9001, 0x77CE9005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77CE9001, 0x77CE9006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77CE9001, 0x77CE9007, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x77CE9001, 0x77CE9002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77CE9001, 0x77CE9003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77CE9001, 0x77CE9004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77CE9001, 0x77CE9005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77CE9001, 0x77CE9006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77CE9001, 0x77CE9007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CE9002,  7088, 0x7CE9002C, 141.4254, 93.35296, 82.65081, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

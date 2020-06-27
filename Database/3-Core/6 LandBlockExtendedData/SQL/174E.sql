@@ -5,14 +5,14 @@ VALUES (0x7174E001,  1154, 0x174E003B, 175.1973, 56.49804, 0.00454998, -0.857458
 /* @teleloc 0x174E003B [175.197300 56.498040 0.004550] -0.857459 0.000000 0.000000 -0.514553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174E001, 0x7174E002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7174E001, 0x7174E003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174E001, 0x7174E004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174E001, 0x7174E005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7174E001, 0x7174E006, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7174E001, 0x7174E007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174E001, 0x7174E008, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7174E001, 0x7174E009, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7174E001, 0x7174E002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7174E001, 0x7174E003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174E001, 0x7174E004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174E001, 0x7174E005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7174E001, 0x7174E006, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x7174E001, 0x7174E007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174E001, 0x7174E008, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7174E001, 0x7174E009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174E002, 36826, 0x174E003B, 175.1973, 56.49804, 0.00454998, -0.8574586, 0, 0, -0.514553,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */
@@ -51,7 +51,7 @@ VALUES (0x7174E00A,  1542, 0x174E003B, 181.6064, 67.38995, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x174E003B [181.606400 67.389950 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174E00A, 0x7174E00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7174E00A, 0x7174E00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174E00B,  4179, 0x174E003B, 181.6064, 67.38995, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

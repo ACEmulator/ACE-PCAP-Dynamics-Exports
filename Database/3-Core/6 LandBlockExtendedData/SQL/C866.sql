@@ -5,9 +5,9 @@ VALUES (0x7C866001,  1154, 0xC866003E, 187.2158, 127.9912, 42.93868, 0.7884975, 
 /* @teleloc 0xC866003E [187.215800 127.991200 42.938680] 0.788498 0.000000 0.000000 -0.615038 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C866001, 0x7C866002, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C866001, 0x7C866003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C866001, 0x7C866004, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7C866001, 0x7C866002, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C866001, 0x7C866003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C866001, 0x7C866004, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C866002,  1619, 0xC866003E, 187.2158, 127.9912, 42.93868, 0.7884975, 0, 0, -0.615038,  True, '2019-02-10 00:00:00'); /* Mosswart Shaman */

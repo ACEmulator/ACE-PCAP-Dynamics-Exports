@@ -5,11 +5,11 @@ VALUES (0x7897F001,  1154, 0x897F002B, 123.0446, 71.21218, 59.16381, 0.8934805, 
 /* @teleloc 0x897F002B [123.044600 71.212180 59.163810] 0.893481 0.000000 0.000000 -0.449102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7897F001, 0x7897F002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7897F001, 0x7897F003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7897F001, 0x7897F004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7897F001, 0x7897F005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7897F001, 0x7897F006, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7897F001, 0x7897F002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7897F001, 0x7897F003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7897F001, 0x7897F004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7897F001, 0x7897F005, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7897F001, 0x7897F006, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7897F002, 28552, 0x897F002B, 123.0446, 71.21218, 59.16381, 0.8934805, 0, 0, -0.449102,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

@@ -5,12 +5,12 @@ VALUES (0x7BCBC001,  1154, 0xBCBC0016, 62.12169, 141.2889, 225.2487, 0.8729369, 
 /* @teleloc 0xBCBC0016 [62.121690 141.288900 225.248700] 0.872937 0.000000 0.000000 -0.487833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCBC001, 0x7BCBC002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7BCBC001, 0x7BCBC003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BCBC001, 0x7BCBC004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BCBC001, 0x7BCBC005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7BCBC001, 0x7BCBC006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BCBC001, 0x7BCBC007, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7BCBC001, 0x7BCBC002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7BCBC001, 0x7BCBC003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BCBC001, 0x7BCBC004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BCBC001, 0x7BCBC005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7BCBC001, 0x7BCBC006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BCBC001, 0x7BCBC007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCBC002,  7128, 0xBCBC0016, 62.12169, 141.2889, 225.2487, 0.8729369, 0, 0, -0.4878331,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

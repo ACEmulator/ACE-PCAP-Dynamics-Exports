@@ -5,14 +5,14 @@ VALUES (0x7B1BA001,  1154, 0xB1BA0012, 53.67244, 40.08232, 138.1921, 0.8870109, 
 /* @teleloc 0xB1BA0012 [53.672440 40.082320 138.192100] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1BA001, 0x7B1BA002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B1BA001, 0x7B1BA003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B1BA001, 0x7B1BA004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1BA001, 0x7B1BA005, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B1BA001, 0x7B1BA006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1BA001, 0x7B1BA007, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1BA001, 0x7B1BA008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1BA001, 0x7B1BA009, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7B1BA001, 0x7B1BA002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B1BA001, 0x7B1BA003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B1BA001, 0x7B1BA004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1BA001, 0x7B1BA005, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B1BA001, 0x7B1BA006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1BA001, 0x7B1BA007, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1BA001, 0x7B1BA008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1BA001, 0x7B1BA009, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1BA002,    10, 0xB1BA0012, 53.67244, 40.08232, 138.1921, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
@@ -51,8 +51,8 @@ VALUES (0x7B1BA00A,  1542, 0xB1BA0012, 57.26134, 38.3011, 138.1365, 0.9990482, 0
 /* @teleloc 0xB1BA0012 [57.261340 38.301100 138.136500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1BA00A, 0x7B1BA00B, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7B1BA00A, 0x7B1BA00C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B1BA00A, 0x7B1BA00B, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7B1BA00A, 0x7B1BA00C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1BA00B,  6117, 0xB1BA0012, 57.26134, 38.3011, 138.1365, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -5,10 +5,10 @@ VALUES (0x7C1D9001,  1154, 0xC1D9001F, 94.3507, 148.6111, 109.9802, 0.4892635, 0
 /* @teleloc 0xC1D9001F [94.350700 148.611100 109.980200] 0.489264 0.000000 0.000000 -0.872136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1D9001, 0x7C1D9002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C1D9001, 0x7C1D9003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C1D9001, 0x7C1D9004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C1D9001, 0x7C1D9005, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7C1D9001, 0x7C1D9002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C1D9001, 0x7C1D9003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C1D9001, 0x7C1D9004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C1D9001, 0x7C1D9005, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1D9002,  4217, 0xC1D9001F, 94.3507, 148.6111, 109.9802, 0.4892635, 0, 0, -0.872136,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

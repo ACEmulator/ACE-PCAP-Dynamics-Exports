@@ -5,32 +5,32 @@ VALUES (0x71E3E001,  1154, 0x1E3E0002, 21.51491, 31.82683, 75.04, -0.4559375, 0,
 /* @teleloc 0x1E3E0002 [21.514910 31.826830 75.040000] -0.455938 0.000000 0.000000 -0.890012 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E3E001, 0x71E3E002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71E3E001, 0x71E3E003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71E3E001, 0x71E3E004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71E3E001, 0x71E3E005, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71E3E001, 0x71E3E006, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x71E3E001, 0x71E3E007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71E3E001, 0x71E3E008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71E3E001, 0x71E3E009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71E3E001, 0x71E3E00A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71E3E001, 0x71E3E00B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71E3E001, 0x71E3E00C, '2019-02-10 00:00:00') /* Miasma */
-     , (0x71E3E001, 0x71E3E00D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71E3E001, 0x71E3E00E, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71E3E001, 0x71E3E00F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71E3E001, 0x71E3E010, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x71E3E001, 0x71E3E011, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71E3E001, 0x71E3E012, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71E3E001, 0x71E3E013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E3E001, 0x71E3E014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71E3E001, 0x71E3E015, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71E3E001, 0x71E3E016, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71E3E001, 0x71E3E017, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71E3E001, 0x71E3E018, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E3E001, 0x71E3E019, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71E3E001, 0x71E3E01A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71E3E001, 0x71E3E01B, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x71E3E001, 0x71E3E002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71E3E001, 0x71E3E003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71E3E001, 0x71E3E004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71E3E001, 0x71E3E005, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71E3E001, 0x71E3E006, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x71E3E001, 0x71E3E007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71E3E001, 0x71E3E008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71E3E001, 0x71E3E009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71E3E001, 0x71E3E00A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71E3E001, 0x71E3E00B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71E3E001, 0x71E3E00C, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x71E3E001, 0x71E3E00D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71E3E001, 0x71E3E00E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71E3E001, 0x71E3E00F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71E3E001, 0x71E3E010, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x71E3E001, 0x71E3E011, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71E3E001, 0x71E3E012, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71E3E001, 0x71E3E013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E3E001, 0x71E3E014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71E3E001, 0x71E3E015, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71E3E001, 0x71E3E016, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71E3E001, 0x71E3E017, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71E3E001, 0x71E3E018, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E3E001, 0x71E3E019, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71E3E001, 0x71E3E01A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71E3E001, 0x71E3E01B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E3E002, 36825, 0x1E3E0002, 21.51491, 31.82683, 75.04, -0.4559375, 0, 0, -0.8900118,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -141,8 +141,8 @@ VALUES (0x71E3E01C,  1542, 0x1E3E0014, 68.25937, 89.2416, 64.92516, -0.07408708,
 /* @teleloc 0x1E3E0014 [68.259370 89.241600 64.925160] -0.074087 0.000000 0.000000 -0.997252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E3E01C, 0x71E3E01D, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x71E3E01C, 0x71E3E01E, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x71E3E01C, 0x71E3E01D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x71E3E01C, 0x71E3E01E, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E3E01D,  9288, 0x1E3E0014, 68.25937, 89.2416, 64.92516, -0.07408708, 0, 0, -0.9972517,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

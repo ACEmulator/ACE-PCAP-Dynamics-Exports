@@ -5,20 +5,20 @@ VALUES (0x71ECA001,  1154, 0x1ECA002A, 136.6917, 44.5736, -0.871, -0.9907476, 0,
 /* @teleloc 0x1ECA002A [136.691700 44.573600 -0.871000] -0.990748 0.000000 0.000000 -0.135717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ECA001, 0x71ECA002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71ECA001, 0x71ECA003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71ECA001, 0x71ECA004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71ECA001, 0x71ECA005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71ECA001, 0x71ECA006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71ECA001, 0x71ECA007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71ECA001, 0x71ECA008, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA009, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA00A, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA00B, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA00C, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA00D, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x71ECA001, 0x71ECA00E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71ECA001, 0x71ECA00F, '2019-02-10 00:00:00') /* Hea Elder Shaman */;
+VALUES (0x71ECA001, 0x71ECA002, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71ECA001, 0x71ECA003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71ECA001, 0x71ECA004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71ECA001, 0x71ECA005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71ECA001, 0x71ECA006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71ECA001, 0x71ECA007, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71ECA001, 0x71ECA008, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA009, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA00A, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA00B, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA00C, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA00D, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x71ECA001, 0x71ECA00E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71ECA001, 0x71ECA00F, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ECA002, 10954, 0x1ECA002A, 136.6917, 44.5736, -0.871, -0.9907476, 0, 0, -0.135717,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

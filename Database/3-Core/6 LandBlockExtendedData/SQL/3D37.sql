@@ -5,24 +5,24 @@ VALUES (0x73D37001,  1154, 0x3D370022, 109.8821, 42.05357, -0.44, -0.8673027, 0,
 /* @teleloc 0x3D370022 [109.882100 42.053570 -0.440000] -0.867303 0.000000 0.000000 -0.497781 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D37001, 0x73D37002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D37001, 0x73D37003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73D37001, 0x73D37004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D37001, 0x73D37005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73D37001, 0x73D37006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73D37001, 0x73D37007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73D37001, 0x73D37008, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73D37001, 0x73D37009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73D37001, 0x73D3700A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D37001, 0x73D3700B, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73D37001, 0x73D3700C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D37001, 0x73D3700D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73D37001, 0x73D3700E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73D37001, 0x73D3700F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73D37001, 0x73D37010, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73D37001, 0x73D37011, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73D37001, 0x73D37012, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73D37001, 0x73D37013, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x73D37001, 0x73D37002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D37001, 0x73D37003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73D37001, 0x73D37004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D37001, 0x73D37005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73D37001, 0x73D37006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73D37001, 0x73D37007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73D37001, 0x73D37008, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73D37001, 0x73D37009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73D37001, 0x73D3700A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D37001, 0x73D3700B, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73D37001, 0x73D3700C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D37001, 0x73D3700D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73D37001, 0x73D3700E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73D37001, 0x73D3700F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73D37001, 0x73D37010, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73D37001, 0x73D37011, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73D37001, 0x73D37012, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73D37001, 0x73D37013, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D37002, 36829, 0x3D370022, 109.8821, 42.05357, -0.44, -0.8673027, 0, 0, -0.497781,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -101,7 +101,7 @@ VALUES (0x73D37014,  1542, 0x3D37001B, 82.95381, 64.77351, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x3D37001B [82.953810 64.773510 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D37014, 0x73D37015, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73D37014, 0x73D37015, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D37015,  8999, 0x3D37001B, 82.95381, 64.77351, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

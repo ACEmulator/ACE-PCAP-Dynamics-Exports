@@ -5,23 +5,23 @@ VALUES (0x7B1A6001,  1154, 0xB1A6000B, 34.94535, 48.38881, 89.29706, 0.9025133, 
 /* @teleloc 0xB1A6000B [34.945350 48.388810 89.297060] 0.902513 0.000000 0.000000 -0.430662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A6001, 0x7B1A6002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B1A6001, 0x7B1A6003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A6001, 0x7B1A6004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A6001, 0x7B1A6005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A6001, 0x7B1A6006, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7B1A6001, 0x7B1A6007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1A6001, 0x7B1A6008, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B1A6001, 0x7B1A6009, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B1A6001, 0x7B1A600A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B1A6001, 0x7B1A600B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B1A6001, 0x7B1A600C, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B1A6001, 0x7B1A600D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1A6001, 0x7B1A600E, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B1A6001, 0x7B1A600F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1A6001, 0x7B1A6010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1A6001, 0x7B1A6011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1A6001, 0x7B1A6012, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7B1A6001, 0x7B1A6002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B1A6001, 0x7B1A6003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A6001, 0x7B1A6004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A6001, 0x7B1A6005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A6001, 0x7B1A6006, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B1A6001, 0x7B1A6007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1A6001, 0x7B1A6008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B1A6001, 0x7B1A6009, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B1A6001, 0x7B1A600A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B1A6001, 0x7B1A600B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B1A6001, 0x7B1A600C, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B1A6001, 0x7B1A600D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1A6001, 0x7B1A600E, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B1A6001, 0x7B1A600F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1A6001, 0x7B1A6010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1A6001, 0x7B1A6011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1A6001, 0x7B1A6012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A6002,   223, 0xB1A6000B, 34.94535, 48.38881, 89.29706, 0.9025133, 0, 0, -0.430662,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -96,7 +96,7 @@ VALUES (0x7B1A6013,  1542, 0xB1A60007, 5.903904, 151.1962, 101.0965, 0.9990482, 
 /* @teleloc 0xB1A60007 [5.903904 151.196200 101.096500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A6013, 0x7B1A6014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B1A6013, 0x7B1A6014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A6014,  4179, 0xB1A60007, 5.903904, 151.1962, 101.0965, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,10 +5,10 @@ VALUES (0x7233B001,  1154, 0x233B000F, 34.33313, 166.2554, 24.33513, -0.9733468,
 /* @teleloc 0x233B000F [34.333130 166.255400 24.335130] -0.973347 0.000000 0.000000 -0.229338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7233B001, 0x7233B002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7233B001, 0x7233B003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7233B001, 0x7233B004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7233B001, 0x7233B005, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7233B001, 0x7233B002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7233B001, 0x7233B003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7233B001, 0x7233B004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7233B001, 0x7233B005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7233B002, 22914, 0x233B000F, 34.33313, 166.2554, 24.33513, -0.9733468, 0, 0, -0.229338,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

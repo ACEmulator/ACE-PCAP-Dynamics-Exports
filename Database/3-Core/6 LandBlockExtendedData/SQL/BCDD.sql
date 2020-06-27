@@ -5,23 +5,23 @@ VALUES (0x7BCDD001,  1154, 0xBCDD0027, 101.701, 162.356, -0.8989001, -0.0168647,
 /* @teleloc 0xBCDD0027 [101.701000 162.356000 -0.898900] -0.016865 0.000000 0.000000 -0.999858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCDD001, 0x7BCDD002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BCDD001, 0x7BCDD003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BCDD001, 0x7BCDD004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BCDD001, 0x7BCDD005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BCDD001, 0x7BCDD006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BCDD001, 0x7BCDD007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCDD001, 0x7BCDD008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BCDD001, 0x7BCDD009, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7BCDD001, 0x7BCDD00A, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BCDD001, 0x7BCDD00B, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7BCDD001, 0x7BCDD00C, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BCDD001, 0x7BCDD00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCDD001, 0x7BCDD00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCDD001, 0x7BCDD00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BCDD001, 0x7BCDD010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BCDD001, 0x7BCDD011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BCDD001, 0x7BCDD012, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7BCDD001, 0x7BCDD002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BCDD001, 0x7BCDD003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BCDD001, 0x7BCDD004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BCDD001, 0x7BCDD005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BCDD001, 0x7BCDD006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BCDD001, 0x7BCDD007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCDD001, 0x7BCDD008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BCDD001, 0x7BCDD009, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7BCDD001, 0x7BCDD00A, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BCDD001, 0x7BCDD00B, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7BCDD001, 0x7BCDD00C, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BCDD001, 0x7BCDD00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCDD001, 0x7BCDD00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCDD001, 0x7BCDD00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BCDD001, 0x7BCDD010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BCDD001, 0x7BCDD011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BCDD001, 0x7BCDD012, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCDD002,  2577, 0xBCDD0027, 101.701, 162.356, -0.8989001, -0.0168647, 0, 0, -0.9998578,  True, '2019-02-10 00:00:00'); /* Shallows Shark */

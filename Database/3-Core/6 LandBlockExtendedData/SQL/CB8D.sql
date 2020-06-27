@@ -5,29 +5,29 @@ VALUES (0x7CB8D001,  1154, 0xCB8D0001, 11.24545, 18.72468, 15.992, -0.8478019, 0
 /* @teleloc 0xCB8D0001 [11.245450 18.724680 15.992000] -0.847802 0.000000 0.000000 -0.530313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB8D001, 0x7CB8D002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D00F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D011, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D012, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D014, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D015, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8D001, 0x7CB8D016, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D017, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8D001, 0x7CB8D018, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7CB8D001, 0x7CB8D002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D00F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D014, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D015, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8D001, 0x7CB8D016, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8D001, 0x7CB8D018, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB8D002, 24937, 0xCB8D0001, 11.24545, 18.72468, 15.992, -0.8478019, 0, 0, -0.5303131,  True, '2019-02-10 00:00:00'); /* Chicken */

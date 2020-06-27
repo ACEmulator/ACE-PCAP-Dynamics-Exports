@@ -5,14 +5,14 @@ VALUES (0x79586001,  1154, 0x9586002F, 131.0467, 146.8194, 32.22595, 0.4146491, 
 /* @teleloc 0x9586002F [131.046700 146.819400 32.225950] 0.414649 0.000000 0.000000 -0.909981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79586001, 0x79586002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79586001, 0x79586003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79586001, 0x79586004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79586001, 0x79586005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79586001, 0x79586006, '2019-02-10 00:00:00') /* Gout */
-     , (0x79586001, 0x79586007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79586001, 0x79586008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79586001, 0x79586009, '2019-02-10 00:00:00') /* Copper Golem Kingpin */;
+VALUES (0x79586001, 0x79586002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79586001, 0x79586003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79586001, 0x79586004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79586001, 0x79586005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79586001, 0x79586006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79586001, 0x79586007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79586001, 0x79586008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79586001, 0x79586009, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79586002,  9253, 0x9586002F, 131.0467, 146.8194, 32.22595, 0.4146491, 0, 0, -0.9099814,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7958600A,  1542, 0x9586000F, 44.04073, 152.1553, 33.66771, 0.4753564, 
 /* @teleloc 0x9586000F [44.040730 152.155300 33.667710] 0.475356 0.000000 0.000000 -0.879793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7958600A, 0x7958600B, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7958600A, 0x7958600B, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7958600B, 15715, 0x9586000F, 44.04073, 152.1553, 33.66771, 0.4753564, 0, 0, -0.8797933,  True, '2019-02-10 00:00:00'); /* Sunflower */

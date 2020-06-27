@@ -5,10 +5,10 @@ VALUES (0x72F12001,  1154, 0x2F120021, 106.8715, 10.78149, 11.10979, -0.3556831,
 /* @teleloc 0x2F120021 [106.871500 10.781490 11.109790] -0.355683 0.000000 0.000000 -0.934607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F12001, 0x72F12002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F12001, 0x72F12003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72F12001, 0x72F12004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F12001, 0x72F12005, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x72F12001, 0x72F12002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F12001, 0x72F12003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72F12001, 0x72F12004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F12001, 0x72F12005, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F12002, 24325, 0x2F120021, 106.8715, 10.78149, 11.10979, -0.3556831, 0, 0, -0.9346066,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -31,7 +31,7 @@ VALUES (0x72F12006,  1542, 0x2F12002A, 137.2119, 26.02113, 17.87, 0.9990482, 0, 
 /* @teleloc 0x2F12002A [137.211900 26.021130 17.870000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F12006, 0x72F12007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72F12006, 0x72F12007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F12007,  4179, 0x2F12002A, 137.2119, 26.02113, 17.87, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

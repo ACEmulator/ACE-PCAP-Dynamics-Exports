@@ -5,15 +5,15 @@ VALUES (0x7D824001,  1154, 0xD8240018, 57.32441, 191.1066, 237.6001, -0.4750443,
 /* @teleloc 0xD8240018 [57.324410 191.106600 237.600100] -0.475044 0.000000 0.000000 -0.879962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D824001, 0x7D824002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7D824001, 0x7D824003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D824001, 0x7D824004, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7D824001, 0x7D824005, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7D824001, 0x7D824006, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7D824001, 0x7D824007, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7D824001, 0x7D824008, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7D824001, 0x7D824009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D824001, 0x7D82400A, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7D824001, 0x7D824002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7D824001, 0x7D824003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D824001, 0x7D824004, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7D824001, 0x7D824005, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7D824001, 0x7D824006, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7D824001, 0x7D824007, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7D824001, 0x7D824008, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7D824001, 0x7D824009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D824001, 0x7D82400A, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D824002,  7107, 0xD8240018, 57.32441, 191.1066, 237.6001, -0.4750443, 0, 0, -0.8799619,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -56,7 +56,7 @@ VALUES (0x7D82400B,  1542, 0xD824000C, 30.35524, 88.34994, 249.0565, -0.3604969,
 /* @teleloc 0xD824000C [30.355240 88.349940 249.056500] -0.360497 0.000000 0.000000 -0.932760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D82400B, 0x7D82400C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7D82400B, 0x7D82400C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D82400C, 42528, 0xD824000C, 30.35524, 88.34994, 249.0565, -0.3604969, 0, 0, -0.9327604,  True, '2019-02-10 00:00:00'); /* Rock */

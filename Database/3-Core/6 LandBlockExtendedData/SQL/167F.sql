@@ -5,10 +5,10 @@ VALUES (0x7167F001,  1154, 0x167F002B, 140.7509, 54.4796, 146.9649, 0.9238795, 0
 /* @teleloc 0x167F002B [140.750900 54.479600 146.964900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7167F001, 0x7167F002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7167F001, 0x7167F003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7167F001, 0x7167F004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7167F001, 0x7167F005, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7167F001, 0x7167F002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7167F001, 0x7167F003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7167F001, 0x7167F004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7167F001, 0x7167F005, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7167F002, 24497, 0x167F002B, 140.7509, 54.4796, 146.9649, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

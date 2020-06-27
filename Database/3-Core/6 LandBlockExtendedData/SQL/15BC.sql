@@ -5,16 +5,16 @@ VALUES (0x715BC001,  1154, 0x15BC0032, 163.6176, 44.42433, 54.90939, 0.9727002, 
 /* @teleloc 0x15BC0032 [163.617600 44.424330 54.909390] 0.972700 0.000000 0.000000 -0.232065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715BC001, 0x715BC002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x715BC001, 0x715BC003, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x715BC001, 0x715BC004, '2019-02-10 00:00:00') /* Woodland Ursuin */
-     , (0x715BC001, 0x715BC005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x715BC001, 0x715BC006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x715BC001, 0x715BC007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x715BC001, 0x715BC008, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x715BC001, 0x715BC009, '2019-02-10 00:00:00') /* Assassin */
-     , (0x715BC001, 0x715BC00A, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x715BC001, 0x715BC00B, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x715BC001, 0x715BC002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x715BC001, 0x715BC003, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x715BC001, 0x715BC004, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x715BC001, 0x715BC005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x715BC001, 0x715BC006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x715BC001, 0x715BC007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x715BC001, 0x715BC008, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x715BC001, 0x715BC009, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x715BC001, 0x715BC00A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x715BC001, 0x715BC00B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715BC002, 11526, 0x15BC0032, 163.6176, 44.42433, 54.90939, 0.9727002, 0, 0, -0.2320652,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -61,8 +61,8 @@ VALUES (0x715BC00C,  1542, 0x15BC001F, 95.90839, 147.7689, 42.21433, 1, 0, 0, 0,
 /* @teleloc 0x15BC001F [95.908390 147.768900 42.214330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715BC00C, 0x715BC00D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x715BC00C, 0x715BC00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x715BC00C, 0x715BC00D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x715BC00C, 0x715BC00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715BC00D,  9024, 0x15BC001F, 95.90839, 147.7689, 42.21433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

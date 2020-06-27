@@ -5,34 +5,34 @@ VALUES (0x7CBEB001,  1154, 0xCBEB0020, 94.65365, 188.4727, -0.9, 0.9171421, 0, 0
 /* @teleloc 0xCBEB0020 [94.653650 188.472700 -0.900000] 0.917142 0.000000 0.000000 -0.398560 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBEB001, 0x7CBEB002, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB003, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB004, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB005, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB006, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB007, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB008, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB009, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB00A, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB00B, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB00C, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7CBEB001, 0x7CBEB00D, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB00E, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB00F, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB010, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB011, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB012, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7CBEB001, 0x7CBEB013, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7CBEB001, 0x7CBEB014, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7CBEB001, 0x7CBEB015, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7CBEB001, 0x7CBEB016, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7CBEB001, 0x7CBEB017, '2019-02-10 00:00:00') /* Shambling Ruschk Chieftain */
-     , (0x7CBEB001, 0x7CBEB018, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CBEB001, 0x7CBEB019, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CBEB001, 0x7CBEB01A, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CBEB001, 0x7CBEB01B, '2019-02-10 00:00:00') /* Glissnal Sleech */
-     , (0x7CBEB001, 0x7CBEB01C, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7CBEB001, 0x7CBEB01D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */;
+VALUES (0x7CBEB001, 0x7CBEB002, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7CBEB001, 0x7CBEB003, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB004, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB005, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB006, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7CBEB001, 0x7CBEB007, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB008, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB009, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7CBEB001, 0x7CBEB00A, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB00B, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB00C, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7CBEB001, 0x7CBEB00D, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7CBEB001, 0x7CBEB00E, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB00F, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB010, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7CBEB001, 0x7CBEB011, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB012, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CBEB001, 0x7CBEB013, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7CBEB001, 0x7CBEB014, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7CBEB001, 0x7CBEB015, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7CBEB001, 0x7CBEB016, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7CBEB001, 0x7CBEB017, '2019-02-10 00:00:00') /* Shambling Ruschk Chieftain (33639) */
+     , (0x7CBEB001, 0x7CBEB018, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CBEB001, 0x7CBEB019, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CBEB001, 0x7CBEB01A, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7CBEB001, 0x7CBEB01B, '2019-02-10 00:00:00') /* Glissnal Sleech (33636) */
+     , (0x7CBEB001, 0x7CBEB01C, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CBEB001, 0x7CBEB01D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBEB002, 33736, 0xCBEB0020, 94.65365, 188.4727, -0.9, 0.9171421, 0, 0, -0.3985604,  True, '2019-02-10 00:00:00'); /* Remoran Corsair */

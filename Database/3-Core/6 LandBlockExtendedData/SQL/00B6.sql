@@ -29,812 +29,812 @@ VALUES (0x700B600C,  1154, 0x00B60129, 220.1682, -193.1928, -12, -4.371139E-08, 
 /* @teleloc 0x00B60129 [220.168200 -193.192800 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B600C, 0x700B600D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B600E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B600F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6010, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6011, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6012, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6013, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6014, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6015, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6016, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6017, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B6018, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6019, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601C, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601D, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601E, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B601F, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6020, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6021, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6022, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6023, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6024, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6025, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6026, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6027, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6028, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6029, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B602A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B602B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B602C, '2019-02-10 00:00:00') /* The Master */
-     , (0x700B600C, 0x700B602D, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B602E, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B602F, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B6030, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B6031, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B6032, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B6033, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B6034, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6035, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6036, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6037, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6038, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6039, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B603A, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B603B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B603C, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B603D, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B603E, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B603F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6040, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6041, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6042, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6043, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6044, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6045, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6046, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6047, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6048, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6049, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B604A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B604B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B604C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B604D, '2019-02-10 00:00:00') /* Stone Fists */
-     , (0x700B600C, 0x700B604E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B604F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6050, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6051, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6052, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6053, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6054, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6055, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6056, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6057, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6058, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6059, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B605A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B605B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B605C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B605D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B605E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B605F, '2019-02-10 00:00:00') /* Azaxis */
-     , (0x700B600C, 0x700B6060, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6061, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6062, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6063, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6064, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6065, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6066, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6067, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6068, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6069, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B606A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B606B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B606C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B606D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B606E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B606F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6070, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6071, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6072, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6073, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6074, '2019-02-10 00:00:00') /* Killagurg */
-     , (0x700B600C, 0x700B6075, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6076, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6077, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6078, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6079, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B607A, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B607B, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B607C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B607D, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B607E, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B607F, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6080, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6081, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B6082, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6083, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6084, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6085, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6086, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6087, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6088, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6089, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B608A, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B608B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B608C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B608D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B608E, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B608F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6090, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6091, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6092, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6093, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6094, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6095, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6096, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6097, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6098, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B6099, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B609A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B609B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B609C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B609D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B609E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B609F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60A0, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60A1, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60A2, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60A3, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60A4, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60A5, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60A6, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60A7, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60A8, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60A9, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60AA, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60AB, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B60AC, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B60AD, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60AE, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B60AF, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B60B0, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B1, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B2, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B3, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B4, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B5, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B6, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B7, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B8, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60B9, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60BA, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60BB, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60BC, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B60BD, '2019-02-10 00:00:00') /* The Master */
-     , (0x700B600C, 0x700B60BE, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60BF, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C0, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C1, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C2, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C3, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C4, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C5, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C6, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C7, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C8, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60C9, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60CA, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B60CB, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60CC, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60CD, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60CE, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60CF, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60D0, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen */
-     , (0x700B600C, 0x700B60D1, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B60D2, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B60D3, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B60D4, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B60D5, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B60D6, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B60D7, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60D8, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60D9, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60DA, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60DB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60DC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60DD, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B60DE, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60DF, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60E0, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60E1, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60E2, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60E3, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60E4, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60E5, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60E6, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B60E7, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60E8, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B60E9, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60EA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60EB, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60EC, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60ED, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60EE, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60EF, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60F0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60F1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60F2, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60F3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60F4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B60F5, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B60F6, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B60F7, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B60F8, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B60F9, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B60FA, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B60FB, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B60FC, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B60FD, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B60FE, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B60FF, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6100, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6101, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6102, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6103, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6104, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6105, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6106, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6107, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6108, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6109, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B610A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B610B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B610C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B610D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B610E, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B610F, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6110, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6111, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6112, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6113, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6114, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6115, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6116, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6117, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6118, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6119, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B611A, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B611B, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B611C, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B611D, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B611E, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B611F, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6120, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6121, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6122, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6123, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6124, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6125, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6126, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6127, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6128, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6129, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B612A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B612B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B612C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B612D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B612E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B612F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6130, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6131, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6132, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6133, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6134, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6135, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6136, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6137, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6138, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6139, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B613A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B613B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B613C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B613D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B613E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B613F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6140, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6141, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6142, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6143, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6144, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6145, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6146, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6147, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6148, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6149, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B614A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B614B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B614C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B614D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B614E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B614F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6150, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6151, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6152, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6153, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6154, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6155, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6156, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6157, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6158, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6159, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B615A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B615B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B615C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B615D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B615E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B615F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6160, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6161, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6162, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6163, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6164, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6165, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6166, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6167, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6168, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6169, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B616A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B616B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B616C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B616D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B616E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B616F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6170, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6171, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6172, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6173, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6174, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6175, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6176, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6177, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6178, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6179, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B617A, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B617B, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B617C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B617D, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B617E, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B617F, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6180, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6181, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6182, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6183, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6184, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6185, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6186, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6187, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6188, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6189, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B618A, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B618B, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B618C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B618D, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B618E, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B618F, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6190, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6191, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6192, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6193, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6194, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6195, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6196, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6197, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6198, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6199, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B619A, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B619B, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B619C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B619D, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B619E, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B619F, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61A0, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61A1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61A2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61A3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61A4, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61A5, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61A6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61A7, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61A8, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61A9, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61AA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61AB, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61AC, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61AD, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61AE, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61AF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B2, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61B3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61B5, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61B6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B7, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61B8, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61B9, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61BA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61BB, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61BC, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61BD, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61BE, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61BF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61C0, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61C1, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61C2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61C3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61C4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61C5, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61C6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61C7, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61C8, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61C9, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61CA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61CB, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61CC, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61CD, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61CE, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61CF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61D0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61D1, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D2, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61D4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D5, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D6, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D7, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61D8, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61D9, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61DA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61DB, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61DC, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61DD, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61DE, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61DF, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E0, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E1, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61E3, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E4, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61E5, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E6, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61E7, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61E8, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61E9, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61EA, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61EB, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61EC, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61ED, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61EE, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61EF, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61F0, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61F1, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61F2, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61F3, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61F4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61F5, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61F6, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61F7, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61F8, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61F9, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61FA, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61FB, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61FC, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B61FD, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61FE, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B61FF, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6200, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6201, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6202, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6203, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6204, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6205, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6206, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B6207, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6208, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6209, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B620A, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B620B, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B620C, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B620D, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B620E, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B620F, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B6210, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6211, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6212, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6213, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6214, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6215, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6216, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6217, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6218, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6219, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B621A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B621B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B621C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B621D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B621E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B621F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6220, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6221, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6222, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6223, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6224, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6225, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6226, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6227, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6228, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6229, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B622A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B622B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B622C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B622D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B622E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B622F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6230, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6231, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6232, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6233, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6234, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6235, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6236, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6237, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6238, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6239, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B623A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B623B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B623C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B623D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B623E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B623F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6240, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6241, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6242, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6243, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6244, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6245, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6246, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6247, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6248, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6249, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B624A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B624B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B624C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B624D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B624E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B624F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6250, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6251, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6252, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6253, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6254, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6255, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6256, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6257, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6258, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6259, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B625A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B625B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B625C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B625D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B625E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B625F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6260, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6261, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6262, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6263, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6264, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6265, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6266, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6267, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6268, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6269, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B626A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B626B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B626C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B626D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B626E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B626F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6270, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6271, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6272, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6273, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6274, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6275, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6276, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6277, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6278, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6279, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B627A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B627B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B627C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B627D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B627E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B627F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6280, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6281, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6282, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6283, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6284, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6285, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6286, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6287, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6288, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6289, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B628A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B628B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B628C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B628D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B628E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B628F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6290, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6291, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6292, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6293, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6294, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6295, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6296, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6297, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B6298, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B6299, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B629A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B629B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B629C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B629D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B629E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B629F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A0, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A1, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62A2, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A3, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62A4, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A5, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62A6, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A7, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62A8, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62A9, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62AA, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62AB, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62AC, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62AD, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62AE, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62AF, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B0, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62B1, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62B2, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B3, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B4, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B5, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62B6, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B7, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62B8, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62B9, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62BA, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62BB, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62BC, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62BD, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62BE, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62BF, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C0, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C1, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C2, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C3, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62C4, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62C5, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C6, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C7, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62C8, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62C9, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62CA, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62CB, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62CC, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62CD, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62CE, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62CF, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62D0, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62D1, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62D2, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B62D3, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x700B600C, 0x700B62D4, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x700B600C, 0x700B62D5, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62D6, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62D7, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62D8, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62D9, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62DA, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62DB, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62DC, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62DD, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x700B600C, 0x700B62DE, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x700B600C, 0x700B62DF, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B62E0, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62E1, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B62E2, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62E3, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62E4, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62E5, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62E6, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62E7, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62E8, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62E9, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B62EA, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B62EB, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B62EC, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B62ED, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B62EE, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B62EF, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B62F0, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B62F1, '2019-02-10 00:00:00') /* The Master */
-     , (0x700B600C, 0x700B62F2, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B62F3, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B62F4, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B62F5, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B62F6, '2019-02-10 00:00:00') /* Master's Acolyte */
-     , (0x700B600C, 0x700B62F7, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B62F8, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62F9, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62FA, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62FB, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B62FC, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62FD, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x700B600C, 0x700B62FE, '2019-02-10 00:00:00') /* Gladiator Diemos */
-     , (0x700B600C, 0x700B62FF, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6300, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6301, '2019-02-10 00:00:00') /* Guardian of Diemos */
-     , (0x700B600C, 0x700B6302, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x700B600C, 0x700B6303, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6304, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x700B600C, 0x700B6305, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6306, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B6307, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6308, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6309, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B630A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B630B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B630C, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B630D, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B630E, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B630F, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6310, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6311, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6312, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6313, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6314, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6315, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6316, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6317, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6318, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6319, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B631A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B631B, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B631C, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B631D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B631E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B631F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6320, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6321, '2019-02-10 00:00:00') /* Demon Swarm Matron */
-     , (0x700B600C, 0x700B6322, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6323, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6324, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6325, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6326, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6327, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6328, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer */
-     , (0x700B600C, 0x700B6329, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632B, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632C, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B632F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6330, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6331, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x700B600C, 0x700B6332, '2019-02-10 00:00:00') /* Stone Fists */;
+VALUES (0x700B600C, 0x700B600D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B600E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B600F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6010, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6011, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6012, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6013, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6014, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6015, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6016, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6017, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B6018, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6019, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601C, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601D, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601E, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B601F, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6020, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6021, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6022, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6023, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6024, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6025, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6026, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6027, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6028, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6029, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B602A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B602B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B602C, '2019-02-10 00:00:00') /* The Master (34617) */
+     , (0x700B600C, 0x700B602D, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B602E, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B602F, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B6030, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B6031, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B6032, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B6033, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B6034, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6035, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6036, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6037, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6038, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6039, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B603A, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B603B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B603C, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B603D, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B603E, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B603F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6040, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6041, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6042, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6043, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6044, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6045, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6046, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6047, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6048, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6049, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B604A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B604B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B604C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B604D, '2019-02-10 00:00:00') /* Stone Fists (34607) */
+     , (0x700B600C, 0x700B604E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B604F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6050, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6051, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6052, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6053, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6054, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6055, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6056, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6057, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6058, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6059, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B605A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B605B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B605C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B605D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B605E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B605F, '2019-02-10 00:00:00') /* Azaxis (34623) */
+     , (0x700B600C, 0x700B6060, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6061, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6062, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6063, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6064, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6065, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6066, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6067, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6068, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6069, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B606A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B606B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B606C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B606D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B606E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B606F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6070, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6071, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6072, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6073, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6074, '2019-02-10 00:00:00') /* Killagurg (34621) */
+     , (0x700B600C, 0x700B6075, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6076, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6077, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6078, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6079, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B607A, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B607B, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B607C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B607D, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B607E, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B607F, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6080, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6081, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B6082, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6083, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6084, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6085, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6086, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6087, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6088, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6089, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B608A, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B608B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B608C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B608D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B608E, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B608F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6090, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6091, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6092, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6093, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6094, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6095, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6096, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6097, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6098, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B6099, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B609A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B609B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B609C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B609D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B609E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B609F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60A0, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60A1, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60A2, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60A3, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60A4, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60A5, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60A6, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60A7, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60A8, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60A9, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60AA, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60AB, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B60AC, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B60AD, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60AE, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B60AF, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B60B0, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B1, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B2, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B3, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B4, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B5, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B6, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B7, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B8, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60B9, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60BA, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60BB, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60BC, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B60BD, '2019-02-10 00:00:00') /* The Master (34617) */
+     , (0x700B600C, 0x700B60BE, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60BF, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C0, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C1, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C2, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C3, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C4, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C5, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C6, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C7, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C8, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60C9, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60CA, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B60CB, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60CC, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60CD, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60CE, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60CF, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60D0, '2019-02-10 00:00:00') /* Disgraced Nanjou Shou-jen (34618) */
+     , (0x700B600C, 0x700B60D1, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B60D2, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B60D3, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B60D4, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B60D5, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B60D6, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B60D7, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60D8, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60D9, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60DA, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60DB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60DC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60DD, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B60DE, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60DF, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60E0, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60E1, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60E2, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60E3, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60E4, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60E5, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60E6, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B60E7, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60E8, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B60E9, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60EA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60EB, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60EC, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60ED, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60EE, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60EF, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60F0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60F1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60F2, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60F3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60F4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B60F5, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B60F6, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B60F7, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B60F8, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B60F9, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B60FA, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B60FB, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B60FC, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B60FD, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B60FE, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B60FF, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6100, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6101, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6102, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6103, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6104, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6105, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6106, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6107, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6108, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6109, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B610A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B610B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B610C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B610D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B610E, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B610F, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6110, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6111, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6112, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6113, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6114, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6115, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6116, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6117, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6118, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6119, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B611A, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B611B, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B611C, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B611D, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B611E, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B611F, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6120, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6121, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6122, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6123, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6124, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6125, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6126, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6127, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6128, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6129, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B612A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B612B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B612C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B612D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B612E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B612F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6130, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6131, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6132, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6133, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6134, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6135, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6136, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6137, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6138, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6139, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B613A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B613B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B613C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B613D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B613E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B613F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6140, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6141, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6142, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6143, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6144, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6145, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6146, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6147, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6148, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6149, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B614A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B614B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B614C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B614D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B614E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B614F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6150, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6151, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6152, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6153, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6154, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6155, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6156, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6157, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6158, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6159, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B615A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B615B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B615C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B615D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B615E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B615F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6160, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6161, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6162, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6163, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6164, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6165, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6166, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6167, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6168, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6169, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B616A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B616B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B616C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B616D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B616E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B616F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6170, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6171, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6172, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6173, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6174, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6175, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6176, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6177, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6178, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6179, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B617A, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B617B, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B617C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B617D, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B617E, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B617F, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6180, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6181, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6182, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6183, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6184, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6185, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6186, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6187, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6188, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6189, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B618A, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B618B, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B618C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B618D, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B618E, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B618F, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6190, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6191, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6192, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6193, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6194, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6195, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6196, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6197, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6198, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6199, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B619A, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B619B, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B619C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B619D, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B619E, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B619F, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61A0, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61A1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61A2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61A3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61A4, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61A5, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61A6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61A7, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61A8, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61A9, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61AA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61AB, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61AC, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61AD, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61AE, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61AF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B2, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61B3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61B5, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61B6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B7, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61B8, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61B9, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61BA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61BB, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61BC, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61BD, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61BE, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61BF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61C0, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61C1, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61C2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61C3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61C4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61C5, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61C6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61C7, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61C8, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61C9, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61CA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61CB, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61CC, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61CD, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61CE, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61CF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61D0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61D1, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D2, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61D4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D5, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D6, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D7, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61D8, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61D9, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61DA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61DB, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61DC, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61DD, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61DE, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61DF, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E0, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E1, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61E3, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E4, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61E5, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E6, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61E7, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61E8, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61E9, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61EA, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61EB, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61EC, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61ED, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61EE, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61EF, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61F0, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61F1, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61F2, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61F3, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61F4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61F5, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61F6, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61F7, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61F8, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61F9, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61FA, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61FB, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61FC, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B61FD, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61FE, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B61FF, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6200, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6201, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6202, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6203, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6204, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6205, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6206, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B6207, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6208, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6209, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B620A, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B620B, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B620C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B620D, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B620E, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B620F, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B6210, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6211, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6212, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6213, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6214, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6215, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6216, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6217, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6218, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6219, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B621A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B621B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B621C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B621D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B621E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B621F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6220, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6221, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6222, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6223, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6224, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6225, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6226, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6227, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6228, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6229, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B622A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B622B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B622C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B622D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B622E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B622F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6230, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6231, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6232, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6233, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6234, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6235, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6236, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6237, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6238, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6239, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B623A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B623B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B623C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B623D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B623E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B623F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6240, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6241, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6242, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6243, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6244, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6245, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6246, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6247, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6248, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6249, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B624A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B624B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B624C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B624D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B624E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B624F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6250, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6251, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6252, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6253, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6254, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6255, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6256, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6257, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6258, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6259, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B625A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B625B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B625C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B625D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B625E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B625F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6260, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6261, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6262, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6263, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6264, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6265, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6266, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6267, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6268, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6269, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B626A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B626B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B626C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B626D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B626E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B626F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6270, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6271, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6272, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6273, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6274, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6275, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6276, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6277, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6278, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6279, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B627A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B627B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B627C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B627D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B627E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B627F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6280, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6281, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6282, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6283, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6284, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6285, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6286, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6287, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6288, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6289, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B628A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B628B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B628C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B628D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B628E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B628F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6290, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6291, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6292, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6293, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6294, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6295, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6296, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6297, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B6298, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B6299, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B629A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B629B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B629C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B629D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B629E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B629F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A0, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A1, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62A2, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A3, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62A4, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A5, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62A6, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A7, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62A8, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62A9, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62AA, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62AB, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62AC, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62AD, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62AE, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62AF, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B0, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62B1, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62B2, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B3, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B4, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B5, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62B6, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B7, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62B8, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62B9, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62BA, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62BB, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62BC, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62BD, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62BE, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62BF, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C0, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C1, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C2, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C3, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62C4, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62C5, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C6, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C7, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62C8, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62C9, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62CA, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62CB, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62CC, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62CD, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62CE, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62CF, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62D0, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62D1, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62D2, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B62D3, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x700B600C, 0x700B62D4, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x700B600C, 0x700B62D5, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62D6, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62D7, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62D8, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62D9, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62DA, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62DB, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62DC, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62DD, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x700B600C, 0x700B62DE, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x700B600C, 0x700B62DF, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B62E0, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62E1, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B62E2, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62E3, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62E4, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62E5, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62E6, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62E7, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62E8, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62E9, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B62EA, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B62EB, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B62EC, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B62ED, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B62EE, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B62EF, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B62F0, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B62F1, '2019-02-10 00:00:00') /* The Master (34617) */
+     , (0x700B600C, 0x700B62F2, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B62F3, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B62F4, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B62F5, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B62F6, '2019-02-10 00:00:00') /* Master's Acolyte (35666) */
+     , (0x700B600C, 0x700B62F7, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B62F8, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62F9, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62FA, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62FB, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B62FC, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62FD, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x700B600C, 0x700B62FE, '2019-02-10 00:00:00') /* Gladiator Diemos (34614) */
+     , (0x700B600C, 0x700B62FF, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6300, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6301, '2019-02-10 00:00:00') /* Guardian of Diemos (35670) */
+     , (0x700B600C, 0x700B6302, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x700B600C, 0x700B6303, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6304, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x700B600C, 0x700B6305, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6306, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B6307, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6308, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6309, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B630A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B630B, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B630C, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B630D, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B630E, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B630F, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6310, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6311, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6312, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6313, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6314, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6315, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6316, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6317, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6318, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6319, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B631A, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B631B, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B631C, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B631D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B631E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B631F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6320, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6321, '2019-02-10 00:00:00') /* Demon Swarm Matron (34622) */
+     , (0x700B600C, 0x700B6322, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6323, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6324, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6325, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6326, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6327, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6328, '2019-02-10 00:00:00') /* Demon Swarm Clawbearer (35662) */
+     , (0x700B600C, 0x700B6329, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632B, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632C, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632E, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B632F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6330, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6331, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x700B600C, 0x700B6332, '2019-02-10 00:00:00') /* Stone Fists (34607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B600D, 24453, 0x00B60129, 220.1682, -193.1928, -12, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
@@ -4065,12 +4065,12 @@ VALUES (0x700B6333,  1542, 0x00B6010F, 30, -306, -12, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x00B6010F [30.000000 -306.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B6333, 0x700B6334, '2019-02-10 00:00:00') /* The Colosseum */
-     , (0x700B6333, 0x700B6335, '2019-02-10 00:00:00') /* The Colosseum */
-     , (0x700B6333, 0x700B6336, '2019-02-10 00:00:00') /* The Colosseum */
-     , (0x700B6333, 0x700B6337, '2019-02-10 00:00:00') /* The Colosseum */
-     , (0x700B6333, 0x700B6338, '2019-02-10 00:00:00') /* The Colosseum */
-     , (0x700B6333, 0x700B6339, '2019-02-10 00:00:00') /* The Colosseum */;
+VALUES (0x700B6333, 0x700B6334, '2019-02-10 00:00:00') /* The Colosseum (35003) */
+     , (0x700B6333, 0x700B6335, '2019-02-10 00:00:00') /* The Colosseum (35003) */
+     , (0x700B6333, 0x700B6336, '2019-02-10 00:00:00') /* The Colosseum (35003) */
+     , (0x700B6333, 0x700B6337, '2019-02-10 00:00:00') /* The Colosseum (35003) */
+     , (0x700B6333, 0x700B6338, '2019-02-10 00:00:00') /* The Colosseum (35003) */
+     , (0x700B6333, 0x700B6339, '2019-02-10 00:00:00') /* The Colosseum (35003) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B6334, 35003, 0x00B6010F, 30, -306, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Colosseum */

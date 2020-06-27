@@ -5,14 +5,14 @@ VALUES (0x7C23A001,  1154, 0xC23A0030, 120.8136, 173.3031, 62.56943, -0.5385004,
 /* @teleloc 0xC23A0030 [120.813600 173.303100 62.569430] -0.538500 0.000000 0.000000 -0.842625 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C23A001, 0x7C23A002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C23A001, 0x7C23A003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C23A001, 0x7C23A004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C23A001, 0x7C23A005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C23A001, 0x7C23A006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C23A001, 0x7C23A007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C23A001, 0x7C23A008, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C23A001, 0x7C23A009, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7C23A001, 0x7C23A002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C23A001, 0x7C23A003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C23A001, 0x7C23A004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C23A001, 0x7C23A005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C23A001, 0x7C23A006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C23A001, 0x7C23A007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C23A001, 0x7C23A008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C23A001, 0x7C23A009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C23A002,  2575, 0xC23A0030, 120.8136, 173.3031, 62.56943, -0.5385004, 0, 0, -0.8426253,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -51,8 +51,8 @@ VALUES (0x7C23A00A,  1542, 0xC23A0030, 141.5675, 172.5245, 64.65137, 0.9990482, 
 /* @teleloc 0xC23A0030 [141.567500 172.524500 64.651370] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C23A00A, 0x7C23A00B, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7C23A00A, 0x7C23A00C, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7C23A00A, 0x7C23A00B, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7C23A00A, 0x7C23A00C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C23A00B,  6117, 0xC23A0030, 141.5675, 172.5245, 64.65137, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

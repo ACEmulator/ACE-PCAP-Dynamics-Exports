@@ -9,24 +9,24 @@ VALUES (0x7CEA2001,  1154, 0xCEA20006, 19.368, 128.4401, 26.32559, -0.8184317, 0
 /* @teleloc 0xCEA20006 [19.368000 128.440100 26.325590] -0.818432 0.000000 0.000000 -0.574604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA2001, 0x7CEA2002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CEA2001, 0x7CEA2003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CEA2001, 0x7CEA2004, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CEA2001, 0x7CEA2005, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CEA2001, 0x7CEA2006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CEA2001, 0x7CEA2007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CEA2001, 0x7CEA2008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CEA2001, 0x7CEA2009, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CEA2001, 0x7CEA200A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CEA2001, 0x7CEA200B, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CEA2001, 0x7CEA200C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CEA2001, 0x7CEA200D, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7CEA2001, 0x7CEA200E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CEA2001, 0x7CEA200F, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CEA2001, 0x7CEA2010, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7CEA2001, 0x7CEA2011, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CEA2001, 0x7CEA2012, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CEA2001, 0x7CEA2013, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7CEA2001, 0x7CEA2002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CEA2001, 0x7CEA2003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CEA2001, 0x7CEA2004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CEA2001, 0x7CEA2005, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CEA2001, 0x7CEA2006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CEA2001, 0x7CEA2007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CEA2001, 0x7CEA2008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CEA2001, 0x7CEA2009, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CEA2001, 0x7CEA200A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CEA2001, 0x7CEA200B, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CEA2001, 0x7CEA200C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CEA2001, 0x7CEA200D, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7CEA2001, 0x7CEA200E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CEA2001, 0x7CEA200F, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CEA2001, 0x7CEA2010, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7CEA2001, 0x7CEA2011, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CEA2001, 0x7CEA2012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CEA2001, 0x7CEA2013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA2002,  8673, 0xCEA20006, 19.368, 128.4401, 26.32559, -0.8184317, 0, 0, -0.5746039,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -105,7 +105,7 @@ VALUES (0x7CEA2014,  1542, 0xCEA20036, 151.7602, 137.3442, 26.15199, 0.9990482, 
 /* @teleloc 0xCEA20036 [151.760200 137.344200 26.151990] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA2014, 0x7CEA2015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CEA2014, 0x7CEA2015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA2015,  4179, 0xCEA20036, 151.7602, 137.3442, 26.15199, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

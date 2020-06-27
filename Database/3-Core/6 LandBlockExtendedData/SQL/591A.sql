@@ -21,43 +21,43 @@ VALUES (0x7591A01B,  1154, 0x591A0107, 84.7839, 46.943, -6.341675, -0.999897, 0,
 /* @teleloc 0x591A0107 [84.783900 46.943000 -6.341675] -0.999897 0.000000 0.000000 -0.014351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7591A01B, 0x7591A01C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7591A01B, 0x7591A01D, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7591A01B, 0x7591A01E, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7591A01B, 0x7591A01F, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7591A01B, 0x7591A020, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A021, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7591A01B, 0x7591A022, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A023, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A024, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A025, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7591A01B, 0x7591A026, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A027, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A028, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A029, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A02A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A02B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7591A01B, 0x7591A02C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7591A01B, 0x7591A02D, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7591A01B, 0x7591A02E, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7591A01B, 0x7591A02F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7591A01B, 0x7591A030, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7591A01B, 0x7591A031, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7591A01B, 0x7591A032, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7591A01B, 0x7591A033, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7591A01B, 0x7591A034, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x7591A01B, 0x7591A035, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x7591A01B, 0x7591A036, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7591A01B, 0x7591A037, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7591A01B, 0x7591A038, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7591A01B, 0x7591A039, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7591A01B, 0x7591A03A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7591A01B, 0x7591A03B, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x7591A01B, 0x7591A03C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7591A01B, 0x7591A03D, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x7591A01B, 0x7591A03E, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7591A01B, 0x7591A03F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7591A01B, 0x7591A040, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7591A01B, 0x7591A01C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7591A01B, 0x7591A01D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7591A01B, 0x7591A01E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7591A01B, 0x7591A01F, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7591A01B, 0x7591A020, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A021, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7591A01B, 0x7591A022, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A023, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A024, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A025, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7591A01B, 0x7591A026, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A027, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A028, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A029, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A02A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A02B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7591A01B, 0x7591A02C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7591A01B, 0x7591A02D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7591A01B, 0x7591A02E, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7591A01B, 0x7591A02F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7591A01B, 0x7591A030, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7591A01B, 0x7591A031, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7591A01B, 0x7591A032, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A01B, 0x7591A033, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7591A01B, 0x7591A034, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x7591A01B, 0x7591A035, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x7591A01B, 0x7591A036, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7591A01B, 0x7591A037, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7591A01B, 0x7591A038, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7591A01B, 0x7591A039, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7591A01B, 0x7591A03A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7591A01B, 0x7591A03B, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x7591A01B, 0x7591A03C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7591A01B, 0x7591A03D, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x7591A01B, 0x7591A03E, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7591A01B, 0x7591A03F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7591A01B, 0x7591A040, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7591A01C,  1631, 0x591A0107, 84.7839, 46.943, -6.341675, -0.999897, 0, 0, -0.0143509,  True, '2019-02-10 00:00:00'); /* Drudge Servant */
@@ -212,13 +212,13 @@ VALUES (0x7591A041,  1542, 0x591A003F, 178.0243, 160.18, 67.29644, 1, 0, 0, 0, F
 /* @teleloc 0x591A003F [178.024300 160.180000 67.296440] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7591A041, 0x7591A042, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7591A041, 0x7591A043, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7591A041, 0x7591A044, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7591A041, 0x7591A045, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7591A041, 0x7591A046, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7591A041, 0x7591A047, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7591A041, 0x7591A048, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7591A041, 0x7591A042, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7591A041, 0x7591A043, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7591A041, 0x7591A044, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7591A041, 0x7591A045, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7591A041, 0x7591A046, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7591A041, 0x7591A047, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7591A041, 0x7591A048, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7591A042, 22571, 0x591A003F, 178.0243, 160.18, 67.29644, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

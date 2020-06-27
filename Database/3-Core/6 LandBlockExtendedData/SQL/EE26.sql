@@ -5,14 +5,14 @@ VALUES (0x7EE26001,  1154, 0xEE260015, 57.34491, 104.5396, 26.42236, 0.7910129, 
 /* @teleloc 0xEE260015 [57.344910 104.539600 26.422360] 0.791013 0.000000 0.000000 -0.611800 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE26001, 0x7EE26002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE26001, 0x7EE26003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE26001, 0x7EE26004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE26001, 0x7EE26005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE26001, 0x7EE26006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EE26001, 0x7EE26007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE26001, 0x7EE26008, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE26001, 0x7EE26009, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7EE26001, 0x7EE26002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE26001, 0x7EE26003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE26001, 0x7EE26004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE26001, 0x7EE26005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE26001, 0x7EE26006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EE26001, 0x7EE26007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE26001, 0x7EE26008, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE26001, 0x7EE26009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE26002,  7109, 0xEE260015, 57.34491, 104.5396, 26.42236, 0.7910129, 0, 0, -0.6117995,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -51,8 +51,8 @@ VALUES (0x7EE2600A,  1542, 0xEE26003D, 179.0542, 118.7226, 0.9580443, 0.9990482,
 /* @teleloc 0xEE26003D [179.054200 118.722600 0.958044] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE2600A, 0x7EE2600B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7EE2600A, 0x7EE2600C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7EE2600A, 0x7EE2600B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7EE2600A, 0x7EE2600C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE2600B,  4179, 0xEE26003D, 179.0542, 118.7226, 0.9580443, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

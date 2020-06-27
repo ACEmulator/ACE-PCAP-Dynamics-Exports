@@ -5,19 +5,19 @@ VALUES (0x78DAD001,  1154, 0x8DAD0011, 48.95499, 2.246521, 54.27012, -0.7457975,
 /* @teleloc 0x8DAD0011 [48.954990 2.246521 54.270120] -0.745798 0.000000 0.000000 -0.666173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAD001, 0x78DAD002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78DAD001, 0x78DAD003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78DAD001, 0x78DAD004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78DAD001, 0x78DAD005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78DAD001, 0x78DAD006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DAD001, 0x78DAD007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78DAD001, 0x78DAD008, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x78DAD001, 0x78DAD009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78DAD001, 0x78DAD00A, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x78DAD001, 0x78DAD00B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78DAD001, 0x78DAD00C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78DAD001, 0x78DAD00D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78DAD001, 0x78DAD00E, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x78DAD001, 0x78DAD002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78DAD001, 0x78DAD003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78DAD001, 0x78DAD004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78DAD001, 0x78DAD005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78DAD001, 0x78DAD006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DAD001, 0x78DAD007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78DAD001, 0x78DAD008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x78DAD001, 0x78DAD009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78DAD001, 0x78DAD00A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x78DAD001, 0x78DAD00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78DAD001, 0x78DAD00C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78DAD001, 0x78DAD00D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78DAD001, 0x78DAD00E, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAD002,  1608, 0x8DAD0011, 48.95499, 2.246521, 54.27012, -0.7457975, 0, 0, -0.6661727,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -76,7 +76,7 @@ VALUES (0x78DAD00F,  1542, 0x8DAD003F, 185.2712, 166.3108, 58.3178, 1, 0, 0, 0, 
 /* @teleloc 0x8DAD003F [185.271200 166.310800 58.317800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DAD00F, 0x78DAD010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78DAD00F, 0x78DAD010, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DAD010, 22570, 0x8DAD003F, 185.2712, 166.3108, 58.3178, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

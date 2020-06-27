@@ -5,11 +5,11 @@ VALUES (0x797A6001,  1154, 0x97A6003C, 181.6775, 87.68609, 76, 0.9238795, 0, 0, 
 /* @teleloc 0x97A6003C [181.677500 87.686090 76.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797A6001, 0x797A6002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x797A6001, 0x797A6003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x797A6001, 0x797A6004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x797A6001, 0x797A6005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x797A6001, 0x797A6006, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x797A6001, 0x797A6002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x797A6001, 0x797A6003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x797A6001, 0x797A6004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x797A6001, 0x797A6005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x797A6001, 0x797A6006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797A6002,  1758, 0x97A6003C, 181.6775, 87.68609, 76, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -36,7 +36,7 @@ VALUES (0x797A6007,  1542, 0x97A60034, 151.8681, 78.45259, 69.84906, 0.577443, 0
 /* @teleloc 0x97A60034 [151.868100 78.452590 69.849060] 0.577443 0.000000 0.000000 -0.816431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797A6007, 0x797A6008, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x797A6007, 0x797A6008, '2019-02-10 00:00:00') /* Old Gravestone (34131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797A6008, 34131, 0x97A60034, 151.8681, 78.45259, 69.84906, 0.577443, 0, 0, -0.816431,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

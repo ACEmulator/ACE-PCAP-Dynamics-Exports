@@ -9,24 +9,24 @@ VALUES (0x776EA003,  1154, 0x76EA0036, 151.4427, 138.1524, 196.9504, 0.9791898, 
 /* @teleloc 0x76EA0036 [151.442700 138.152400 196.950400] 0.979190 0.000000 0.000000 -0.202947 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776EA003, 0x776EA004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776EA003, 0x776EA005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x776EA003, 0x776EA006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776EA003, 0x776EA007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776EA003, 0x776EA008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776EA003, 0x776EA009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776EA003, 0x776EA00A, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x776EA003, 0x776EA00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x776EA003, 0x776EA00C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x776EA003, 0x776EA00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x776EA003, 0x776EA00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776EA003, 0x776EA00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776EA003, 0x776EA010, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x776EA003, 0x776EA011, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x776EA003, 0x776EA012, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x776EA003, 0x776EA013, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x776EA003, 0x776EA014, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x776EA003, 0x776EA015, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x776EA003, 0x776EA004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776EA003, 0x776EA005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x776EA003, 0x776EA006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776EA003, 0x776EA007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776EA003, 0x776EA008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776EA003, 0x776EA009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776EA003, 0x776EA00A, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x776EA003, 0x776EA00B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x776EA003, 0x776EA00C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x776EA003, 0x776EA00D, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x776EA003, 0x776EA00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776EA003, 0x776EA00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776EA003, 0x776EA010, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x776EA003, 0x776EA011, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x776EA003, 0x776EA012, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x776EA003, 0x776EA013, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x776EA003, 0x776EA014, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x776EA003, 0x776EA015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776EA004, 24277, 0x76EA0036, 151.4427, 138.1524, 196.9504, 0.9791898, 0, 0, -0.2029465,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -105,11 +105,11 @@ VALUES (0x776EA016,  1542, 0x76EA0025, 105.969, 119.427, 191.8876, -0.9947324, 0
 /* @teleloc 0x76EA0025 [105.969000 119.427000 191.887600] -0.994732 0.000000 0.000000 0.102506 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776EA016, 0x776EA017, '2019-02-10 00:00:00') /* Note from Wardley */
-     , (0x776EA016, 0x776EA018, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x776EA016, 0x776EA019, '2019-02-10 00:00:00') /* Rock */
-     , (0x776EA016, 0x776EA01A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x776EA016, 0x776EA01B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x776EA016, 0x776EA017, '2019-02-10 00:00:00') /* Note from Wardley (44988) */
+     , (0x776EA016, 0x776EA018, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x776EA016, 0x776EA019, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x776EA016, 0x776EA01A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x776EA016, 0x776EA01B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776EA017, 44988, 0x76EA0025, 105.969, 119.427, 191.8876, -0.9947324, 0, 0, 0.102506,  True, '2019-02-10 00:00:00'); /* Note from Wardley */

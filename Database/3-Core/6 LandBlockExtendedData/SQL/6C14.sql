@@ -5,14 +5,14 @@ VALUES (0x76C14001,  1154, 0x6C14003F, 189.6928, 163.2073, 25.41484, -0.6816078,
 /* @teleloc 0x6C14003F [189.692800 163.207300 25.414840] -0.681608 0.000000 0.000000 -0.731718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76C14001, 0x76C14002, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x76C14001, 0x76C14003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76C14001, 0x76C14004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76C14001, 0x76C14005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76C14001, 0x76C14006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x76C14001, 0x76C14007, '2019-02-10 00:00:00') /* Flare */
-     , (0x76C14001, 0x76C14008, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x76C14001, 0x76C14009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x76C14001, 0x76C14002, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x76C14001, 0x76C14003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76C14001, 0x76C14004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76C14001, 0x76C14005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76C14001, 0x76C14006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x76C14001, 0x76C14007, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x76C14001, 0x76C14008, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x76C14001, 0x76C14009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76C14002,  7116, 0x6C14003F, 189.6928, 163.2073, 25.41484, -0.6816078, 0, 0, -0.7317177,  True, '2019-02-10 00:00:00'); /* High Mu-miyah */
@@ -51,7 +51,7 @@ VALUES (0x76C1400A,  1542, 0x6C140012, 60.28068, 43.09626, 22.51365, 0.9238795, 
 /* @teleloc 0x6C140012 [60.280680 43.096260 22.513650] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76C1400A, 0x76C1400B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x76C1400A, 0x76C1400B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76C1400B,  4180, 0x6C140012, 60.28068, 43.09626, 22.51365, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

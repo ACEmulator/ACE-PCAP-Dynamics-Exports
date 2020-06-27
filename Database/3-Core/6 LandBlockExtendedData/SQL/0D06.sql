@@ -5,26 +5,26 @@ VALUES (0x70D06001,  1154, 0x0D06000E, 37.2505, 140.8391, 22.00124, 0.4960242, 0
 /* @teleloc 0x0D06000E [37.250500 140.839100 22.001240] 0.496024 0.000000 0.000000 -0.868309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D06001, 0x70D06002, '2019-02-10 00:00:00') /* Helcan Margul */
-     , (0x70D06001, 0x70D06003, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D06001, 0x70D06004, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D06001, 0x70D06005, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D06001, 0x70D06006, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70D06001, 0x70D06007, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70D06001, 0x70D06008, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D06001, 0x70D06009, '2019-02-10 00:00:00') /* Contagion Rat */
-     , (0x70D06001, 0x70D0600A, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D06001, 0x70D0600B, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70D06001, 0x70D0600C, '2019-02-10 00:00:00') /* Befouled Doll */
-     , (0x70D06001, 0x70D0600D, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D06001, 0x70D0600E, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D06001, 0x70D0600F, '2019-02-10 00:00:00') /* Ebon Rift */
-     , (0x70D06001, 0x70D06010, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D06001, 0x70D06011, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D06001, 0x70D06012, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D06001, 0x70D06013, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D06001, 0x70D06014, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D06001, 0x70D06015, '2019-02-10 00:00:00') /* Monstrous Mite */;
+VALUES (0x70D06001, 0x70D06002, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x70D06001, 0x70D06003, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D06001, 0x70D06004, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D06001, 0x70D06005, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D06001, 0x70D06006, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70D06001, 0x70D06007, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70D06001, 0x70D06008, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D06001, 0x70D06009, '2019-02-10 00:00:00') /* Contagion Rat (25877) */
+     , (0x70D06001, 0x70D0600A, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D06001, 0x70D0600B, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70D06001, 0x70D0600C, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x70D06001, 0x70D0600D, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D06001, 0x70D0600E, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D06001, 0x70D0600F, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
+     , (0x70D06001, 0x70D06010, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D06001, 0x70D06011, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D06001, 0x70D06012, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D06001, 0x70D06013, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D06001, 0x70D06014, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D06001, 0x70D06015, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D06002, 25862, 0x0D06000E, 37.2505, 140.8391, 22.00124, 0.4960242, 0, 0, -0.8683087,  True, '2019-02-10 00:00:00'); /* Helcan Margul */
@@ -111,7 +111,7 @@ VALUES (0x70D06016,  1542, 0x0D060035, 161.9367, 103.2134, 24.53812, -0.8026248,
 /* @teleloc 0x0D060035 [161.936700 103.213400 24.538120] -0.802625 0.000000 0.000000 -0.596484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D06016, 0x70D06017, '2019-02-10 00:00:00') /* The Orphanage */;
+VALUES (0x70D06016, 0x70D06017, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D06017, 27298, 0x0D060035, 161.9367, 103.2134, 24.53812, -0.8026248, 0, 0, -0.5964842,  True, '2019-02-10 00:00:00'); /* The Orphanage */

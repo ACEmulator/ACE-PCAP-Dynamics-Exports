@@ -5,9 +5,9 @@ VALUES (0x749D5001,  1154, 0x49D5003B, 169.1359, 56.33134, 68.49914, 0.8191521, 
 /* @teleloc 0x49D5003B [169.135900 56.331340 68.499140] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749D5001, 0x749D5002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749D5001, 0x749D5003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749D5001, 0x749D5004, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x749D5001, 0x749D5002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749D5001, 0x749D5003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749D5001, 0x749D5004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749D5002, 23566, 0x49D5003B, 169.1359, 56.33134, 68.49914, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

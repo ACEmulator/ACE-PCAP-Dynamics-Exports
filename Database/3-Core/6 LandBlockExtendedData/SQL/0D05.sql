@@ -5,18 +5,18 @@ VALUES (0x70D05001,  1154, 0x0D05000C, 39.20574, 72.95986, 181.1193, 1, 0, 0, 0,
 /* @teleloc 0x0D05000C [39.205740 72.959860 181.119300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D05001, 0x70D05002, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70D05001, 0x70D05003, '2019-02-10 00:00:00') /* Ebon Rift */
-     , (0x70D05001, 0x70D05004, '2019-02-10 00:00:00') /* Soiled Doll */
-     , (0x70D05001, 0x70D05005, '2019-02-10 00:00:00') /* Soiled Doll */
-     , (0x70D05001, 0x70D05006, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70D05001, 0x70D05007, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D05001, 0x70D05008, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D05001, 0x70D05009, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70D05001, 0x70D0500A, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70D05001, 0x70D0500B, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D05001, 0x70D0500C, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D05001, 0x70D0500D, '2019-02-10 00:00:00') /* Desecrated Doll */;
+VALUES (0x70D05001, 0x70D05002, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70D05001, 0x70D05003, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
+     , (0x70D05001, 0x70D05004, '2019-02-10 00:00:00') /* Soiled Doll (25858) */
+     , (0x70D05001, 0x70D05005, '2019-02-10 00:00:00') /* Soiled Doll (25858) */
+     , (0x70D05001, 0x70D05006, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70D05001, 0x70D05007, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D05001, 0x70D05008, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D05001, 0x70D05009, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70D05001, 0x70D0500A, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70D05001, 0x70D0500B, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D05001, 0x70D0500C, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D05001, 0x70D0500D, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D05002, 25874, 0x0D05000C, 39.20574, 72.95986, 181.1193, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Listris Nefane */

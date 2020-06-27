@@ -5,22 +5,22 @@ VALUES (0x79B1D001,  1154, 0x9B1D001C, 74.20792, 86.73415, 253.1501, -0.5756466,
 /* @teleloc 0x9B1D001C [74.207920 86.734150 253.150100] -0.575647 0.000000 0.000000 -0.817699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B1D001, 0x79B1D002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x79B1D001, 0x79B1D003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79B1D001, 0x79B1D004, '2019-02-10 00:00:00') /* Shivver */
-     , (0x79B1D001, 0x79B1D005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79B1D001, 0x79B1D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x79B1D001, 0x79B1D007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79B1D001, 0x79B1D008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B1D001, 0x79B1D009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B1D001, 0x79B1D00A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79B1D001, 0x79B1D00B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79B1D001, 0x79B1D00C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79B1D001, 0x79B1D00D, '2019-02-10 00:00:00') /* Shivver */
-     , (0x79B1D001, 0x79B1D00E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79B1D001, 0x79B1D00F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79B1D001, 0x79B1D010, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79B1D001, 0x79B1D011, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x79B1D001, 0x79B1D002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x79B1D001, 0x79B1D003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79B1D001, 0x79B1D004, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x79B1D001, 0x79B1D005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79B1D001, 0x79B1D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x79B1D001, 0x79B1D007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79B1D001, 0x79B1D008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B1D001, 0x79B1D009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B1D001, 0x79B1D00A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79B1D001, 0x79B1D00B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79B1D001, 0x79B1D00C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79B1D001, 0x79B1D00D, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x79B1D001, 0x79B1D00E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79B1D001, 0x79B1D00F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79B1D001, 0x79B1D010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79B1D001, 0x79B1D011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B1D002,  8139, 0x9B1D001C, 74.20792, 86.73415, 253.1501, -0.5756466, 0, 0, -0.8176986,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -91,7 +91,7 @@ VALUES (0x79B1D012,  1542, 0x9B1D002D, 126.721, 105.4013, 257.1928, -0.9798681, 
 /* @teleloc 0x9B1D002D [126.721000 105.401300 257.192800] -0.979868 0.000000 0.000000 -0.199646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B1D012, 0x79B1D013, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x79B1D012, 0x79B1D013, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B1D013, 42528, 0x9B1D002D, 126.721, 105.4013, 257.1928, -0.9798681, 0, 0, -0.1996459,  True, '2019-02-10 00:00:00'); /* Rock */

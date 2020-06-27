@@ -5,32 +5,32 @@ VALUES (0x75D14001,  1154, 0x5D140028, 109.3937, 185.9299, 70.00388, 0.8191521, 
 /* @teleloc 0x5D140028 [109.393700 185.929900 70.003880] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D14001, 0x75D14002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D14001, 0x75D14003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75D14001, 0x75D14004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75D14001, 0x75D14005, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14006, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D14001, 0x75D14008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x75D14001, 0x75D14009, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1400A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1400B, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D1400C, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1400D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1400E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1400F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75D14001, 0x75D14010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75D14001, 0x75D14011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x75D14001, 0x75D14012, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14013, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75D14001, 0x75D14014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75D14001, 0x75D14015, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75D14001, 0x75D14016, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14017, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14018, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D14001, 0x75D14019, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75D14001, 0x75D1401A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75D14001, 0x75D1401B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x75D14001, 0x75D14002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D14001, 0x75D14003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75D14001, 0x75D14004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75D14001, 0x75D14005, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14006, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D14001, 0x75D14008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x75D14001, 0x75D14009, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1400A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1400B, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75D14001, 0x75D1400C, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1400D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1400E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1400F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75D14001, 0x75D14010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75D14001, 0x75D14011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x75D14001, 0x75D14012, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14013, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75D14001, 0x75D14014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75D14001, 0x75D14015, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75D14001, 0x75D14016, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14017, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14018, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D14001, 0x75D14019, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75D14001, 0x75D1401A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75D14001, 0x75D1401B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D14002,  7334, 0x5D140028, 109.3937, 185.9299, 70.00388, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -141,8 +141,8 @@ VALUES (0x75D1401C,  1542, 0x5D140019, 86.73558, 8.809687, 52.03645, 1, 0, 0, 0,
 /* @teleloc 0x5D140019 [86.735580 8.809687 52.036450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D1401C, 0x75D1401D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75D1401C, 0x75D1401E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75D1401C, 0x75D1401D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75D1401C, 0x75D1401E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D1401D, 22567, 0x5D140019, 86.73558, 8.809687, 52.03645, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

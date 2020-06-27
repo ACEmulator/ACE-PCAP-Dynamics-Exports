@@ -5,10 +5,10 @@ VALUES (0x7B72D001,  1154, 0xB72D0005, 7.576584, 115.1505, 320.9539, -0.9994996,
 /* @teleloc 0xB72D0005 [7.576584 115.150500 320.953900] -0.999500 0.000000 0.000000 -0.031630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72D001, 0x7B72D002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7B72D001, 0x7B72D003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B72D001, 0x7B72D004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B72D001, 0x7B72D005, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7B72D001, 0x7B72D002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7B72D001, 0x7B72D003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B72D001, 0x7B72D004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B72D001, 0x7B72D005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B72D002, 14800, 0xB72D0005, 7.576584, 115.1505, 320.9539, -0.9994996, 0, 0, -0.0316304,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -31,7 +31,7 @@ VALUES (0x7B72D006,  1542, 0xB72D0005, 2.140657, 109.407, 323.3352, 1, 0, 0, 0, 
 /* @teleloc 0xB72D0005 [2.140657 109.407000 323.335200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72D006, 0x7B72D007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B72D006, 0x7B72D007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B72D007,  4380, 0xB72D0005, 2.140657, 109.407, 323.3352, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

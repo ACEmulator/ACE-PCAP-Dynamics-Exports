@@ -5,12 +5,12 @@ VALUES (0x7290F001,  1154, 0x290F0007, 11.2453, 148.3732, 10.37093, 0.6427876, 0
 /* @teleloc 0x290F0007 [11.245300 148.373200 10.370930] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7290F001, 0x7290F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7290F001, 0x7290F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7290F001, 0x7290F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7290F001, 0x7290F005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7290F001, 0x7290F006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7290F001, 0x7290F007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7290F001, 0x7290F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7290F001, 0x7290F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7290F001, 0x7290F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7290F001, 0x7290F005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7290F001, 0x7290F006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7290F001, 0x7290F007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7290F002,  8431, 0x290F0007, 11.2453, 148.3732, 10.37093, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

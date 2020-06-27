@@ -5,14 +5,14 @@ VALUES (0x7F827001,  1154, 0xF827003D, 178.2324, 112.756, 35.20732, -0.6922632, 
 /* @teleloc 0xF827003D [178.232400 112.756000 35.207320] -0.692263 0.000000 0.000000 -0.721645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F827001, 0x7F827002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F827001, 0x7F827003, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F827001, 0x7F827004, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F827001, 0x7F827005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F827001, 0x7F827006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F827001, 0x7F827007, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F827001, 0x7F827008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F827001, 0x7F827009, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7F827001, 0x7F827002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F827001, 0x7F827003, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F827001, 0x7F827004, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F827001, 0x7F827005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F827001, 0x7F827006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F827001, 0x7F827007, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F827001, 0x7F827008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F827001, 0x7F827009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F827002,  7111, 0xF827003D, 178.2324, 112.756, 35.20732, -0.6922632, 0, 0, -0.7216451,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

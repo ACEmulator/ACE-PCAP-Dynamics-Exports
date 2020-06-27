@@ -5,11 +5,11 @@ VALUES (0x7BF16001,  1154, 0xBF16000E, 43.24667, 140.2133, 64.74776, -0.08177145
 /* @teleloc 0xBF16000E [43.246670 140.213300 64.747760] -0.081771 0.000000 0.000000 -0.996651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF16001, 0x7BF16002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BF16001, 0x7BF16003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BF16001, 0x7BF16004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BF16001, 0x7BF16005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BF16001, 0x7BF16006, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x7BF16001, 0x7BF16002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BF16001, 0x7BF16003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BF16001, 0x7BF16004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BF16001, 0x7BF16005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BF16001, 0x7BF16006, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF16002,   201, 0xBF16000E, 43.24667, 140.2133, 64.74776, -0.08177145, 0, 0, -0.9966511,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

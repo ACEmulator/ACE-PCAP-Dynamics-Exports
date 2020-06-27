@@ -5,12 +5,12 @@ VALUES (0x79F77001,  1154, 0x9F770009, 25.12157, 2.341095, 22.01, 0.8203757, 0, 
 /* @teleloc 0x9F770009 [25.121570 2.341095 22.010000] 0.820376 0.000000 0.000000 -0.571825 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F77001, 0x79F77002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79F77001, 0x79F77003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79F77001, 0x79F77004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79F77001, 0x79F77005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F77001, 0x79F77006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F77001, 0x79F77007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79F77001, 0x79F77002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79F77001, 0x79F77003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79F77001, 0x79F77004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79F77001, 0x79F77005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F77001, 0x79F77006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F77001, 0x79F77007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F77002,   194, 0x9F770009, 25.12157, 2.341095, 22.01, 0.8203757, 0, 0, -0.5718249,  True, '2019-02-10 00:00:00'); /* Copper Golem */

@@ -5,21 +5,21 @@ VALUES (0x7A90C001,  1154, 0xA90C0015, 60.6156, 103.9158, -0.8899999, 0.7876055,
 /* @teleloc 0xA90C0015 [60.615600 103.915800 -0.890000] 0.787606 0.000000 0.000000 -0.616180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90C001, 0x7A90C002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A90C001, 0x7A90C003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A90C001, 0x7A90C004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A90C001, 0x7A90C005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A90C001, 0x7A90C006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A90C001, 0x7A90C007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A90C001, 0x7A90C008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A90C001, 0x7A90C009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A90C001, 0x7A90C00A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A90C001, 0x7A90C00B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7A90C001, 0x7A90C00C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A90C001, 0x7A90C00D, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A90C001, 0x7A90C00E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A90C001, 0x7A90C00F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A90C001, 0x7A90C010, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7A90C001, 0x7A90C002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A90C001, 0x7A90C003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A90C001, 0x7A90C004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A90C001, 0x7A90C005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A90C001, 0x7A90C006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A90C001, 0x7A90C007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A90C001, 0x7A90C008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A90C001, 0x7A90C009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A90C001, 0x7A90C00A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A90C001, 0x7A90C00B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7A90C001, 0x7A90C00C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A90C001, 0x7A90C00D, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A90C001, 0x7A90C00E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A90C001, 0x7A90C00F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A90C001, 0x7A90C010, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90C002, 22933, 0xA90C0015, 60.6156, 103.9158, -0.8899999, 0.7876055, 0, 0, -0.6161798,  True, '2019-02-10 00:00:00'); /* Mist Golem */
@@ -86,8 +86,8 @@ VALUES (0x7A90C011,  1542, 0xA90C002C, 139.7073, 84.79089, 2.063099, 0.9990482, 
 /* @teleloc 0xA90C002C [139.707300 84.790890 2.063099] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A90C011, 0x7A90C012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A90C011, 0x7A90C013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A90C011, 0x7A90C012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A90C011, 0x7A90C013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A90C012,  4179, 0xA90C002C, 139.7073, 84.79089, 2.063099, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

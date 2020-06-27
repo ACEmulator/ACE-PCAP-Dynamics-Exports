@@ -5,21 +5,21 @@ VALUES (0x746C5001,  1154, 0x46C50001, 11.36814, 17.32548, 0.01320004, -0.173648
 /* @teleloc 0x46C50001 [11.368140 17.325480 0.013200] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746C5001, 0x746C5002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x746C5001, 0x746C5003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x746C5001, 0x746C5004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x746C5001, 0x746C5005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x746C5001, 0x746C5006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x746C5001, 0x746C5007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x746C5001, 0x746C5008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x746C5001, 0x746C5009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x746C5001, 0x746C500A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x746C5001, 0x746C500B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x746C5001, 0x746C500C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x746C5001, 0x746C500D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x746C5001, 0x746C500E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x746C5001, 0x746C500F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x746C5001, 0x746C5010, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x746C5001, 0x746C5002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x746C5001, 0x746C5003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x746C5001, 0x746C5004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x746C5001, 0x746C5005, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x746C5001, 0x746C5006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x746C5001, 0x746C5007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x746C5001, 0x746C5008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x746C5001, 0x746C5009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x746C5001, 0x746C500A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x746C5001, 0x746C500B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x746C5001, 0x746C500C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x746C5001, 0x746C500D, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x746C5001, 0x746C500E, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x746C5001, 0x746C500F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x746C5001, 0x746C5010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746C5002,  7184, 0x46C50001, 11.36814, 17.32548, 0.01320004, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

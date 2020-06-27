@@ -5,34 +5,34 @@ VALUES (0x7294A001,  1154, 0x294A0026, 99.33116, 135.2973, 2.5541, 0.1309297, 0,
 /* @teleloc 0x294A0026 [99.331160 135.297300 2.554100] 0.130930 0.000000 0.000000 -0.991392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7294A001, 0x7294A002, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294A001, 0x7294A003, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x7294A001, 0x7294A004, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7294A001, 0x7294A005, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7294A001, 0x7294A006, '2019-02-10 00:00:00') /* Sentient Crystal Shard */
-     , (0x7294A001, 0x7294A007, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x7294A001, 0x7294A008, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x7294A001, 0x7294A009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x7294A001, 0x7294A00A, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x7294A001, 0x7294A00B, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x7294A001, 0x7294A00C, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7294A001, 0x7294A00D, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294A001, 0x7294A00E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7294A001, 0x7294A00F, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x7294A001, 0x7294A010, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7294A001, 0x7294A011, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x7294A001, 0x7294A012, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x7294A001, 0x7294A013, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294A001, 0x7294A014, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294A001, 0x7294A015, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7294A001, 0x7294A016, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x7294A001, 0x7294A017, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x7294A001, 0x7294A018, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x7294A001, 0x7294A019, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x7294A001, 0x7294A01A, '2019-02-10 00:00:00') /* Chimera */
-     , (0x7294A001, 0x7294A01B, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x7294A001, 0x7294A01C, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7294A001, 0x7294A01D, '2019-02-10 00:00:00') /* Void Knight */;
+VALUES (0x7294A001, 0x7294A002, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A003, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x7294A001, 0x7294A004, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7294A001, 0x7294A005, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7294A001, 0x7294A006, '2019-02-10 00:00:00') /* Sentient Crystal Shard (23548) */
+     , (0x7294A001, 0x7294A007, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7294A001, 0x7294A008, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x7294A001, 0x7294A009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x7294A001, 0x7294A00A, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x7294A001, 0x7294A00B, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x7294A001, 0x7294A00C, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7294A001, 0x7294A00D, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A00E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7294A001, 0x7294A00F, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x7294A001, 0x7294A010, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7294A001, 0x7294A011, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x7294A001, 0x7294A012, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7294A001, 0x7294A013, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A014, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A015, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A016, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x7294A001, 0x7294A017, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x7294A001, 0x7294A018, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x7294A001, 0x7294A019, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x7294A001, 0x7294A01A, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x7294A001, 0x7294A01B, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x7294A001, 0x7294A01C, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7294A001, 0x7294A01D, '2019-02-10 00:00:00') /* Void Knight (25663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294A002, 22899, 0x294A0026, 99.33116, 135.2973, 2.5541, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */

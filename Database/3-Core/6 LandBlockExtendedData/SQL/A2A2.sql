@@ -5,23 +5,23 @@ VALUES (0x7A2A2001,  1154, 0xA2A20037, 164.3047, 151.691, 129.6971, 0.9238795, 0
 /* @teleloc 0xA2A20037 [164.304700 151.691000 129.697100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A2001, 0x7A2A2002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A2001, 0x7A2A2003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A2001, 0x7A2A2004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7A2A2001, 0x7A2A2005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A2A2001, 0x7A2A2006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A2A2001, 0x7A2A2007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A2A2001, 0x7A2A2008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A2A2001, 0x7A2A2009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A2A2001, 0x7A2A200A, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7A2A2001, 0x7A2A200B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A2001, 0x7A2A200C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A2A2001, 0x7A2A200D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A2A2001, 0x7A2A200E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A2A2001, 0x7A2A200F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A2A2001, 0x7A2A2010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A2A2001, 0x7A2A2011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A2A2001, 0x7A2A2012, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7A2A2001, 0x7A2A2002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A2001, 0x7A2A2003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A2001, 0x7A2A2004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7A2A2001, 0x7A2A2005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A2A2001, 0x7A2A2006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A2A2001, 0x7A2A2007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A2A2001, 0x7A2A2008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A2A2001, 0x7A2A2009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A2A2001, 0x7A2A200A, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7A2A2001, 0x7A2A200B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A2001, 0x7A2A200C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A2A2001, 0x7A2A200D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A2A2001, 0x7A2A200E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A2A2001, 0x7A2A200F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A2A2001, 0x7A2A2010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A2A2001, 0x7A2A2011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A2A2001, 0x7A2A2012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A2002,  1758, 0xA2A20037, 164.3047, 151.691, 129.6971, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -96,10 +96,10 @@ VALUES (0x7A2A2013,  1542, 0xA2A2003F, 184.8515, 158.4502, 130.47, 1, 0, 0, 0, F
 /* @teleloc 0xA2A2003F [184.851500 158.450200 130.470000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2A2013, 0x7A2A2014, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7A2A2013, 0x7A2A2015, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7A2A2013, 0x7A2A2016, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7A2A2013, 0x7A2A2017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A2A2013, 0x7A2A2014, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7A2A2013, 0x7A2A2015, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7A2A2013, 0x7A2A2016, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7A2A2013, 0x7A2A2017, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A2014, 31443, 0xA2A2003F, 184.8515, 158.4502, 130.47, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,14 +5,14 @@ VALUES (0x7B2AF001,  1154, 0xB2AF0025, 112.1205, 104.9929, 32.43854, 0.1636347, 
 /* @teleloc 0xB2AF0025 [112.120500 104.992900 32.438540] 0.163635 0.000000 0.000000 -0.986521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2AF001, 0x7B2AF002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2AF001, 0x7B2AF003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B2AF001, 0x7B2AF004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2AF001, 0x7B2AF005, '2019-02-10 00:00:00') /* Drudge Vagabond */
-     , (0x7B2AF001, 0x7B2AF006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2AF001, 0x7B2AF007, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B2AF001, 0x7B2AF008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B2AF001, 0x7B2AF009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7B2AF001, 0x7B2AF002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2AF001, 0x7B2AF003, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B2AF001, 0x7B2AF004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2AF001, 0x7B2AF005, '2019-02-10 00:00:00') /* Drudge Vagabond (11989) */
+     , (0x7B2AF001, 0x7B2AF006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2AF001, 0x7B2AF007, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B2AF001, 0x7B2AF008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B2AF001, 0x7B2AF009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2AF002,   215, 0xB2AF0025, 112.1205, 104.9929, 32.43854, 0.1636347, 0, 0, -0.986521,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -51,7 +51,7 @@ VALUES (0x7B2AF00A,  1542, 0xB2AF0040, 174.3209, 174.9866, 69.18677, 0.8191521, 
 /* @teleloc 0xB2AF0040 [174.320900 174.986600 69.186770] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2AF00A, 0x7B2AF00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B2AF00A, 0x7B2AF00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2AF00B,  4380, 0xB2AF0040, 174.3209, 174.9866, 69.18677, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

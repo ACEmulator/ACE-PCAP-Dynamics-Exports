@@ -5,9 +5,9 @@ VALUES (0x7B829001,  1154, 0xB829003D, 174.6421, 99.03831, 267.457, 0.8810792, 0
 /* @teleloc 0xB829003D [174.642100 99.038310 267.457000] 0.881079 0.000000 0.000000 -0.472969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B829001, 0x7B829002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B829001, 0x7B829003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B829001, 0x7B829004, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B829001, 0x7B829002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B829001, 0x7B829003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B829001, 0x7B829004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B829002,  7084, 0xB829003D, 174.6421, 99.03831, 267.457, 0.8810792, 0, 0, -0.4729688,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

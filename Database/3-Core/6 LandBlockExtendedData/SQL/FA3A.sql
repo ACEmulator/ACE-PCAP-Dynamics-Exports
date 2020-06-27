@@ -5,22 +5,22 @@ VALUES (0x7FA3A001,  1154, 0xFA3A0002, 17.59184, 31.93449, 3.204581, 0.9765743, 
 /* @teleloc 0xFA3A0002 [17.591840 31.934490 3.204581] 0.976574 0.000000 0.000000 -0.215180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA3A001, 0x7FA3A002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA3A001, 0x7FA3A003, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7FA3A001, 0x7FA3A004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA3A001, 0x7FA3A005, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA3A001, 0x7FA3A006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA3A001, 0x7FA3A007, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA3A001, 0x7FA3A008, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA3A001, 0x7FA3A009, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA3A001, 0x7FA3A00A, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3A001, 0x7FA3A00B, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3A001, 0x7FA3A00C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7FA3A001, 0x7FA3A00D, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA3A001, 0x7FA3A00E, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3A001, 0x7FA3A00F, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA3A001, 0x7FA3A010, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3A001, 0x7FA3A011, '2019-02-10 00:00:00') /* Blessed Moarsman */;
+VALUES (0x7FA3A001, 0x7FA3A002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA3A001, 0x7FA3A003, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7FA3A001, 0x7FA3A004, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA3A001, 0x7FA3A005, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA3A001, 0x7FA3A006, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA3A001, 0x7FA3A007, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA3A001, 0x7FA3A008, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA3A001, 0x7FA3A009, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA3A001, 0x7FA3A00A, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3A001, 0x7FA3A00B, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3A001, 0x7FA3A00C, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7FA3A001, 0x7FA3A00D, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA3A001, 0x7FA3A00E, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3A001, 0x7FA3A00F, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA3A001, 0x7FA3A010, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3A001, 0x7FA3A011, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA3A002, 40307, 0xFA3A0002, 17.59184, 31.93449, 3.204581, 0.9765743, 0, 0, -0.2151804,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

@@ -5,14 +5,14 @@ VALUES (0x73E92001,  1154, 0x3E92000B, 40.08671, 49.40725, 165.4643, 0.7031816, 
 /* @teleloc 0x3E92000B [40.086710 49.407250 165.464300] 0.703182 0.000000 0.000000 -0.711010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E92001, 0x73E92002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73E92001, 0x73E92003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73E92001, 0x73E92004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73E92001, 0x73E92005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73E92001, 0x73E92006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73E92001, 0x73E92007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E92001, 0x73E92008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E92001, 0x73E92009, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x73E92001, 0x73E92002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73E92001, 0x73E92003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73E92001, 0x73E92004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73E92001, 0x73E92005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73E92001, 0x73E92006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73E92001, 0x73E92007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E92001, 0x73E92008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E92001, 0x73E92009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E92002, 10807, 0x3E92000B, 40.08671, 49.40725, 165.4643, 0.7031816, 0, 0, -0.7110102,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

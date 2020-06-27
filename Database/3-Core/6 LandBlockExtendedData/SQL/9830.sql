@@ -5,8 +5,8 @@ VALUES (0x79830001,  1154, 0x98300001, 3.872604, 20.54441, 107.9302, -0.9831691,
 /* @teleloc 0x98300001 [3.872604 20.544410 107.930200] -0.983169 0.000000 0.000000 -0.182698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79830001, 0x79830002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x79830001, 0x79830003, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x79830001, 0x79830002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x79830001, 0x79830003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79830002,  5497, 0x98300001, 3.872604, 20.54441, 107.9302, -0.9831691, 0, 0, -0.1826976,  True, '2019-02-10 00:00:00'); /* Virindi Director */

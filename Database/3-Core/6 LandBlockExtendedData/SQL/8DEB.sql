@@ -5,19 +5,19 @@ VALUES (0x78DEB001,  1154, 0x8DEB003A, 185.1816, 47.15314, 34.28791, 0.7071068, 
 /* @teleloc 0x8DEB003A [185.181600 47.153140 34.287910] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DEB001, 0x78DEB002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DEB001, 0x78DEB003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78DEB001, 0x78DEB004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DEB001, 0x78DEB005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DEB001, 0x78DEB006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78DEB001, 0x78DEB007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78DEB001, 0x78DEB008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78DEB001, 0x78DEB009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x78DEB001, 0x78DEB00A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78DEB001, 0x78DEB00B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78DEB001, 0x78DEB00C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78DEB001, 0x78DEB00D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DEB001, 0x78DEB00E, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x78DEB001, 0x78DEB002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DEB001, 0x78DEB003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78DEB001, 0x78DEB004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DEB001, 0x78DEB005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DEB001, 0x78DEB006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78DEB001, 0x78DEB007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78DEB001, 0x78DEB008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78DEB001, 0x78DEB009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x78DEB001, 0x78DEB00A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78DEB001, 0x78DEB00B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78DEB001, 0x78DEB00C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78DEB001, 0x78DEB00D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DEB001, 0x78DEB00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DEB002, 24294, 0x8DEB003A, 185.1816, 47.15314, 34.28791, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

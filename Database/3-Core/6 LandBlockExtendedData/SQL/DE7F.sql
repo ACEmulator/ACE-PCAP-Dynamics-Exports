@@ -5,14 +5,14 @@ VALUES (0x7DE7F001,  1154, 0xDE7F0037, 165.6865, 159.2723, 0.9283557, -0.9762362
 /* @teleloc 0xDE7F0037 [165.686500 159.272300 0.928356] -0.976236 0.000000 0.000000 -0.216709 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE7F001, 0x7DE7F002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DE7F001, 0x7DE7F003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DE7F001, 0x7DE7F004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DE7F001, 0x7DE7F005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DE7F001, 0x7DE7F006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DE7F001, 0x7DE7F007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7DE7F001, 0x7DE7F008, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DE7F001, 0x7DE7F009, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7DE7F001, 0x7DE7F002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DE7F001, 0x7DE7F003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DE7F001, 0x7DE7F004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DE7F001, 0x7DE7F005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DE7F001, 0x7DE7F006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DE7F001, 0x7DE7F007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7DE7F001, 0x7DE7F008, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DE7F001, 0x7DE7F009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE7F002,   619, 0xDE7F0037, 165.6865, 159.2723, 0.9283557, -0.9762362, 0, 0, -0.2167093,  True, '2019-02-10 00:00:00'); /* Revenant */

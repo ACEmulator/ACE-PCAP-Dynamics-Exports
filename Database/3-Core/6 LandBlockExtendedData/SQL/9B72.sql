@@ -5,14 +5,14 @@ VALUES (0x79B72001,  1154, 0x9B720040, 168.2312, 170.9057, 29.76501, 0.9537169, 
 /* @teleloc 0x9B720040 [168.231200 170.905700 29.765010] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B72001, 0x79B72002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79B72001, 0x79B72003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79B72001, 0x79B72004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x79B72001, 0x79B72005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79B72001, 0x79B72006, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79B72001, 0x79B72007, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x79B72001, 0x79B72008, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79B72001, 0x79B72009, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x79B72001, 0x79B72002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79B72001, 0x79B72003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79B72001, 0x79B72004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x79B72001, 0x79B72005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79B72001, 0x79B72006, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79B72001, 0x79B72007, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x79B72001, 0x79B72008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79B72001, 0x79B72009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B72002,     6, 0x9B720040, 168.2312, 170.9057, 29.76501, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -51,7 +51,7 @@ VALUES (0x79B7200A,  1542, 0x9B72003E, 175.2731, 137.585, 33.3409, 0.5232124, 0,
 /* @teleloc 0x9B72003E [175.273100 137.585000 33.340900] 0.523212 0.000000 0.000000 -0.852202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B7200A, 0x79B7200B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79B7200A, 0x79B7200B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B7200B,  8041, 0x9B72003E, 175.2731, 137.585, 33.3409, 0.5232124, 0, 0, -0.8522024,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

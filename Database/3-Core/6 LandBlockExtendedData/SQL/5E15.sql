@@ -5,31 +5,31 @@ VALUES (0x75E15001,  1154, 0x5E150040, 171.3532, 170.2225, 68.19621, -0.1736482,
 /* @teleloc 0x5E150040 [171.353200 170.222500 68.196210] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E15001, 0x75E15002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E15001, 0x75E15003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75E15001, 0x75E15004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E15001, 0x75E15005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75E15001, 0x75E15006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E15001, 0x75E15007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E15001, 0x75E15008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E15001, 0x75E15009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75E15001, 0x75E1500A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75E15001, 0x75E1500B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75E15001, 0x75E1500C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75E15001, 0x75E1500D, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75E15001, 0x75E1500E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75E15001, 0x75E1500F, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75E15001, 0x75E15010, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x75E15001, 0x75E15011, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E15001, 0x75E15012, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75E15001, 0x75E15013, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75E15001, 0x75E15014, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75E15001, 0x75E15015, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75E15001, 0x75E15016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75E15001, 0x75E15017, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E15001, 0x75E15018, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75E15001, 0x75E15019, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75E15001, 0x75E1501A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */;
+VALUES (0x75E15001, 0x75E15002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E15001, 0x75E15003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75E15001, 0x75E15004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E15001, 0x75E15005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75E15001, 0x75E15006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E15001, 0x75E15007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75E15001, 0x75E15008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x75E15001, 0x75E15009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75E15001, 0x75E1500A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75E15001, 0x75E1500B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75E15001, 0x75E1500C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75E15001, 0x75E1500D, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75E15001, 0x75E1500E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75E15001, 0x75E1500F, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75E15001, 0x75E15010, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x75E15001, 0x75E15011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E15001, 0x75E15012, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75E15001, 0x75E15013, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75E15001, 0x75E15014, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75E15001, 0x75E15015, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x75E15001, 0x75E15016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75E15001, 0x75E15017, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E15001, 0x75E15018, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75E15001, 0x75E15019, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75E15001, 0x75E1501A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E15002,  1629, 0x5E150040, 171.3532, 170.2225, 68.19621, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -136,7 +136,7 @@ VALUES (0x75E1501B,  1542, 0x5E150036, 155.5768, 124.076, 72.60025, 0.9990482, 0
 /* @teleloc 0x5E150036 [155.576800 124.076000 72.600250] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E1501B, 0x75E1501C, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x75E1501B, 0x75E1501C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E1501C,  6117, 0x5E150036, 155.5768, 124.076, 72.60025, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

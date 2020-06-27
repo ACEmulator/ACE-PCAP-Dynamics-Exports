@@ -5,23 +5,23 @@ VALUES (0x740E7001,  1154, 0x40E70026, 99.8967, 133.037, 200.0068, -0.9991651, 0
 /* @teleloc 0x40E70026 [99.896700 133.037000 200.006800] -0.999165 0.000000 0.000000 -0.040854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E7001, 0x740E7002, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7004, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7005, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7006, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E7007, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E7008, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E7009, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E700A, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E700B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E700C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E700D, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E700E, '2019-02-10 00:00:00') /* General Corcima */
-     , (0x740E7001, 0x740E700F, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7010, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740E7001, 0x740E7011, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740E7001, 0x740E7012, '2019-02-10 00:00:00') /* Royal Thaumaturge */;
+VALUES (0x740E7001, 0x740E7002, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7004, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7005, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7006, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E7007, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E7008, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E7009, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E700A, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E700B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E700C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E700D, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E700E, '2019-02-10 00:00:00') /* General Corcima (29417) */
+     , (0x740E7001, 0x740E700F, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7010, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740E7001, 0x740E7011, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740E7001, 0x740E7012, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E7002, 28652, 0x40E70026, 99.8967, 133.037, 200.0068, -0.9991651, 0, 0, -0.0408544,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */
@@ -96,7 +96,7 @@ VALUES (0x740E7013,  1542, 0x40E7002A, 124.5162, 42.8638, 199.937, -0.8540466, 0
 /* @teleloc 0x40E7002A [124.516200 42.863800 199.937000] -0.854047 0.000000 0.000000 -0.520196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E7013, 0x740E7014, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x740E7013, 0x740E7014, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E7014,  1955, 0x40E7002A, 124.5162, 42.8638, 199.937, -0.8540466, 0, 0, -0.5201964,  True, '2019-02-10 00:00:00'); /* Gateway */

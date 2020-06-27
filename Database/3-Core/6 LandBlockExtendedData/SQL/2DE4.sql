@@ -5,12 +5,12 @@ VALUES (0x72DE4001,  1154, 0x2DE4003E, 179.6636, 123.6625, 8.005, 0.1634201, 0, 
 /* @teleloc 0x2DE4003E [179.663600 123.662500 8.005000] 0.163420 0.000000 0.000000 -0.986557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DE4001, 0x72DE4002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x72DE4001, 0x72DE4003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x72DE4001, 0x72DE4004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x72DE4001, 0x72DE4005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72DE4001, 0x72DE4006, '2019-02-10 00:00:00') /* Banderling Ogre */
-     , (0x72DE4001, 0x72DE4007, '2019-02-10 00:00:00') /* Banderling Blade */;
+VALUES (0x72DE4001, 0x72DE4002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x72DE4001, 0x72DE4003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x72DE4001, 0x72DE4004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x72DE4001, 0x72DE4005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72DE4001, 0x72DE4006, '2019-02-10 00:00:00') /* Banderling Ogre (7087) */
+     , (0x72DE4001, 0x72DE4007, '2019-02-10 00:00:00') /* Banderling Blade (7332) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DE4002,   946, 0x2DE4003E, 179.6636, 123.6625, 8.005, 0.1634201, 0, 0, -0.9865566,  True, '2019-02-10 00:00:00'); /* Mite Squire */

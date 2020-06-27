@@ -5,15 +5,15 @@ VALUES (0x7C558001,  1154, 0xC558002F, 130.1807, 156.3617, 10.86049, -0.5081909,
 /* @teleloc 0xC558002F [130.180700 156.361700 10.860490] -0.508191 0.000000 0.000000 -0.861245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C558001, 0x7C558002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C558001, 0x7C558003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C558001, 0x7C558004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C558001, 0x7C558005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C558001, 0x7C558006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C558001, 0x7C558007, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C558001, 0x7C558008, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C558001, 0x7C558009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C558001, 0x7C55800A, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7C558001, 0x7C558002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C558001, 0x7C558003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C558001, 0x7C558004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C558001, 0x7C558005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C558001, 0x7C558006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C558001, 0x7C558007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C558001, 0x7C558008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C558001, 0x7C558009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C558001, 0x7C55800A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C558002,  1627, 0xC558002F, 130.1807, 156.3617, 10.86049, -0.5081909, 0, 0, -0.8612445,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

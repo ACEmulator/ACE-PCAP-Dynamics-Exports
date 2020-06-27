@@ -5,13 +5,13 @@ VALUES (0x72BC3001,  1154, 0x2BC3003D, 186.5523, 113.3126, 9.671852, -0.1801288,
 /* @teleloc 0x2BC3003D [186.552300 113.312600 9.671852] -0.180129 0.000000 0.000000 -0.983643 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BC3001, 0x72BC3002, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72BC3001, 0x72BC3003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BC3001, 0x72BC3004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72BC3001, 0x72BC3005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72BC3001, 0x72BC3006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72BC3001, 0x72BC3007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72BC3001, 0x72BC3008, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x72BC3001, 0x72BC3002, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72BC3001, 0x72BC3003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BC3001, 0x72BC3004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72BC3001, 0x72BC3005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72BC3001, 0x72BC3006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72BC3001, 0x72BC3007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72BC3001, 0x72BC3008, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BC3002, 28642, 0x2BC3003D, 186.5523, 113.3126, 9.671852, -0.1801288, 0, 0, -0.9836431,  True, '2019-02-10 00:00:00'); /* Engorged Eater */

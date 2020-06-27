@@ -5,18 +5,18 @@ VALUES (0x7A463001,  1154, 0xA463000E, 27.10647, 122.7763, 17.77514, 0.8837808, 
 /* @teleloc 0xA463000E [27.106470 122.776300 17.775140] 0.883781 0.000000 0.000000 -0.467901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A463001, 0x7A463002, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7A463001, 0x7A463003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A463001, 0x7A463004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A463001, 0x7A463005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A463001, 0x7A463006, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A463001, 0x7A463007, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A463001, 0x7A463008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A463001, 0x7A463009, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A463001, 0x7A46300A, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A463001, 0x7A46300B, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A463001, 0x7A46300C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A463001, 0x7A46300D, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A463001, 0x7A463002, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A463001, 0x7A463003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A463001, 0x7A463004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A463001, 0x7A463005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A463001, 0x7A463006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A463001, 0x7A463007, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A463001, 0x7A463008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A463001, 0x7A463009, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A463001, 0x7A46300A, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A463001, 0x7A46300B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A463001, 0x7A46300C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A463001, 0x7A46300D, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A463002,  1765, 0xA463000E, 27.10647, 122.7763, 17.77514, 0.8837808, 0, 0, -0.4679011,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */
@@ -71,8 +71,8 @@ VALUES (0x7A46300E,  1542, 0xA4630031, 154.0972, 15.77244, 19.937, 0.8433914, 0,
 /* @teleloc 0xA4630031 [154.097200 15.772440 19.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A46300E, 0x7A46300F, '2019-02-10 00:00:00') /* Tufa Portal */
-     , (0x7A46300E, 0x7A463010, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7A46300E, 0x7A46300F, '2019-02-10 00:00:00') /* Tufa Portal (42829) */
+     , (0x7A46300E, 0x7A463010, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A46300F, 42829, 0xA4630031, 154.0972, 15.77244, 19.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Tufa Portal */

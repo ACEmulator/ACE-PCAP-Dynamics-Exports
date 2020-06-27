@@ -5,8 +5,8 @@ VALUES (0x798B8001,  1154, 0x98B80028, 96.07034, 172.0548, 173.6801, -0.8030488,
 /* @teleloc 0x98B80028 [96.070340 172.054800 173.680100] -0.803049 0.000000 0.000000 -0.595913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798B8001, 0x798B8002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x798B8001, 0x798B8003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x798B8001, 0x798B8002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x798B8001, 0x798B8003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798B8002,  1627, 0x98B80028, 96.07034, 172.0548, 173.6801, -0.8030488, 0, 0, -0.5959132,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

@@ -5,11 +5,11 @@ VALUES (0x7DD34001,  1154, 0xDD340100, 157.41, 96.576, 134.8065, -0.2860229, 0, 
 /* @teleloc 0xDD340100 [157.410000 96.576000 134.806500] -0.286023 0.000000 0.000000 -0.958223 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD34001, 0x7DD34002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DD34001, 0x7DD34003, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DD34001, 0x7DD34004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DD34001, 0x7DD34005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7DD34001, 0x7DD34006, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x7DD34001, 0x7DD34002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DD34001, 0x7DD34003, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DD34001, 0x7DD34004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DD34001, 0x7DD34005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7DD34001, 0x7DD34006, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD34002, 21170, 0xDD340100, 157.41, 96.576, 134.8065, -0.2860229, 0, 0, -0.9582227,  True, '2019-02-10 00:00:00'); /* Voltarc */
@@ -36,9 +36,9 @@ VALUES (0x7DD34007,  1542, 0xDD340100, 156.236, 102.922, 134.8165, -0.9989747, 0
 /* @teleloc 0xDD340100 [156.236000 102.922000 134.816500] -0.998975 0.000000 0.000000 0.045272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD34007, 0x7DD34008, '2019-02-10 00:00:00') /* Minor Sparking Stone */
-     , (0x7DD34007, 0x7DD34009, '2019-02-10 00:00:00') /* Hastily Scrawled Note */
-     , (0x7DD34007, 0x7DD3400A, '2019-02-10 00:00:00') /* Textbook */;
+VALUES (0x7DD34007, 0x7DD34008, '2019-02-10 00:00:00') /* Minor Sparking Stone (6318) */
+     , (0x7DD34007, 0x7DD34009, '2019-02-10 00:00:00') /* Hastily Scrawled Note (6409) */
+     , (0x7DD34007, 0x7DD3400A, '2019-02-10 00:00:00') /* Textbook (6407) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD34008,  6318, 0xDD340100, 156.236, 102.922, 134.8165, -0.9989747, 0, 0, 0.04527169,  True, '2019-02-10 00:00:00'); /* Minor Sparking Stone */

@@ -5,9 +5,9 @@ VALUES (0x7299B001,  1154, 0x299B0037, 149.9991, 151.6026, -0.8999987, 0.2914666
 /* @teleloc 0x299B0037 [149.999100 151.602600 -0.899999] 0.291467 0.000000 0.000000 -0.956581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7299B001, 0x7299B002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7299B001, 0x7299B003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7299B001, 0x7299B004, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7299B001, 0x7299B002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7299B001, 0x7299B003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7299B001, 0x7299B004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7299B002,  7126, 0x299B0037, 149.9991, 151.6026, -0.8999987, 0.2914666, 0, 0, -0.956581,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

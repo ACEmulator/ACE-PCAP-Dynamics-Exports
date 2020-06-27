@@ -5,9 +5,9 @@ VALUES (0x71842001,  1154, 0x1842003D, 174.3425, 103.0348, 40.00715, 0.7071068, 
 /* @teleloc 0x1842003D [174.342500 103.034800 40.007150] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71842001, 0x71842002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71842001, 0x71842003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71842001, 0x71842004, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x71842001, 0x71842002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71842001, 0x71842003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71842001, 0x71842004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71842002, 36819, 0x1842003D, 174.3425, 103.0348, 40.00715, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -26,7 +26,7 @@ VALUES (0x71842005,  1542, 0x1842003D, 175.8066, 107.5021, 40, -4.371139E-08, 0,
 /* @teleloc 0x1842003D [175.806600 107.502100 40.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71842005, 0x71842006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71842005, 0x71842006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71842006,  4380, 0x1842003D, 175.8066, 107.5021, 40, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

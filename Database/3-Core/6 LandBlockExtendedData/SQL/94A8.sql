@@ -5,11 +5,11 @@ VALUES (0x794A8001,  1154, 0x94A80021, 113.9986, 6.934683, 51.92223, -0.9957329,
 /* @teleloc 0x94A80021 [113.998600 6.934683 51.922230] -0.995733 0.000000 0.000000 -0.092282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794A8001, 0x794A8002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x794A8001, 0x794A8003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x794A8001, 0x794A8004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x794A8001, 0x794A8005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x794A8001, 0x794A8006, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x794A8001, 0x794A8002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x794A8001, 0x794A8003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x794A8001, 0x794A8004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x794A8001, 0x794A8005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x794A8001, 0x794A8006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794A8002,     3, 0x94A80021, 113.9986, 6.934683, 51.92223, -0.9957329, 0, 0, -0.09228209,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

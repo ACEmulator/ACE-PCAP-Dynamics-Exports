@@ -5,19 +5,19 @@ VALUES (0x71F86001,  1154, 0x1F860031, 167.1624, 21.70503, 115.9982, 0.9251353, 
 /* @teleloc 0x1F860031 [167.162400 21.705030 115.998200] 0.925135 0.000000 0.000000 -0.379638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F86001, 0x71F86002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71F86001, 0x71F86003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71F86001, 0x71F86004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71F86001, 0x71F86005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F86001, 0x71F86006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71F86001, 0x71F86007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71F86001, 0x71F86008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71F86001, 0x71F86009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71F86001, 0x71F8600A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F86001, 0x71F8600B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71F86001, 0x71F8600C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71F86001, 0x71F8600D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71F86001, 0x71F8600E, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71F86001, 0x71F86002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71F86001, 0x71F86003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71F86001, 0x71F86004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71F86001, 0x71F86005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F86001, 0x71F86006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71F86001, 0x71F86007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71F86001, 0x71F86008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71F86001, 0x71F86009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71F86001, 0x71F8600A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F86001, 0x71F8600B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71F86001, 0x71F8600C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71F86001, 0x71F8600D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71F86001, 0x71F8600E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F86002, 28553, 0x1F860031, 167.1624, 21.70503, 115.9982, 0.9251353, 0, 0, -0.3796377,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

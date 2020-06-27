@@ -5,21 +5,21 @@ VALUES (0x7CA60001,  1154, 0xCA600030, 137.6062, 190.9873, 6, -0.1353266, 0, 0, 
 /* @teleloc 0xCA600030 [137.606200 190.987300 6.000000] -0.135327 0.000000 0.000000 -0.990801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA60001, 0x7CA60002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CA60001, 0x7CA60003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA60001, 0x7CA60004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA60001, 0x7CA60005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CA60001, 0x7CA60006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CA60001, 0x7CA60007, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CA60001, 0x7CA60008, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CA60001, 0x7CA60009, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CA60001, 0x7CA6000A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CA60001, 0x7CA6000B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CA60001, 0x7CA6000C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CA60001, 0x7CA6000D, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CA60001, 0x7CA6000E, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CA60001, 0x7CA6000F, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CA60001, 0x7CA60010, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7CA60001, 0x7CA60002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CA60001, 0x7CA60003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA60001, 0x7CA60004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA60001, 0x7CA60005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CA60001, 0x7CA60006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CA60001, 0x7CA60007, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CA60001, 0x7CA60008, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CA60001, 0x7CA60009, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CA60001, 0x7CA6000A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CA60001, 0x7CA6000B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CA60001, 0x7CA6000C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CA60001, 0x7CA6000D, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CA60001, 0x7CA6000E, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CA60001, 0x7CA6000F, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CA60001, 0x7CA60010, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA60002, 22010, 0xCA600030, 137.6062, 190.9873, 6, -0.1353266, 0, 0, -0.990801,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -86,7 +86,7 @@ VALUES (0x7CA60011,  1542, 0xCA600030, 143.5582, 168.3892, 5.997839, 1, 0, 0, 0,
 /* @teleloc 0xCA600030 [143.558200 168.389200 5.997839] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA60011, 0x7CA60012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CA60011, 0x7CA60012, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA60012, 31443, 0xCA600030, 143.5582, 168.3892, 5.997839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

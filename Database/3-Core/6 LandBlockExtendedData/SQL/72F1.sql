@@ -5,21 +5,21 @@ VALUES (0x772F1001,  1154, 0x72F10007, 5.189971, 145.3705, -0.8899999, 0.0828164
 /* @teleloc 0x72F10007 [5.189971 145.370500 -0.890000] 0.082816 0.000000 0.000000 -0.996565 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772F1001, 0x772F1002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x772F1001, 0x772F1003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x772F1001, 0x772F1004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x772F1001, 0x772F1005, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x772F1001, 0x772F1006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x772F1001, 0x772F1007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x772F1001, 0x772F1008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x772F1001, 0x772F1009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x772F1001, 0x772F100A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x772F1001, 0x772F100B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x772F1001, 0x772F100C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x772F1001, 0x772F100D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x772F1001, 0x772F100E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x772F1001, 0x772F100F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x772F1001, 0x772F1010, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x772F1001, 0x772F1002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x772F1001, 0x772F1003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x772F1001, 0x772F1004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x772F1001, 0x772F1005, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x772F1001, 0x772F1006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x772F1001, 0x772F1007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x772F1001, 0x772F1008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x772F1001, 0x772F1009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x772F1001, 0x772F100A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x772F1001, 0x772F100B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x772F1001, 0x772F100C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x772F1001, 0x772F100D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x772F1001, 0x772F100E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x772F1001, 0x772F100F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x772F1001, 0x772F1010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772F1002,  7507, 0x72F10007, 5.189971, 145.3705, -0.8899999, 0.08281649, 0, 0, -0.9965648,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -86,7 +86,7 @@ VALUES (0x772F1011,  1542, 0x72F1002A, 143.6424, 39.30657, 13.79198, 1, 0, 0, 0,
 /* @teleloc 0x72F1002A [143.642400 39.306570 13.791980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772F1011, 0x772F1012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x772F1011, 0x772F1012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772F1012, 31445, 0x72F1002A, 143.6424, 39.30657, 13.79198, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

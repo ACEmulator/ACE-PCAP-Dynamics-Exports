@@ -5,17 +5,17 @@ VALUES (0x7108C001,  1154, 0x108C0040, 190.9633, 176.5831, -0.1, 0.999557, 0, 0,
 /* @teleloc 0x108C0040 [190.963300 176.583100 -0.100000] 0.999557 0.000000 0.000000 -0.029763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7108C001, 0x7108C002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7108C001, 0x7108C003, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7108C001, 0x7108C004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7108C001, 0x7108C005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7108C001, 0x7108C006, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7108C001, 0x7108C007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7108C001, 0x7108C008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7108C001, 0x7108C009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7108C001, 0x7108C00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7108C001, 0x7108C00B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7108C001, 0x7108C00C, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7108C001, 0x7108C002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7108C001, 0x7108C003, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7108C001, 0x7108C004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7108C001, 0x7108C005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7108C001, 0x7108C006, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7108C001, 0x7108C007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7108C001, 0x7108C008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7108C001, 0x7108C009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7108C001, 0x7108C00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7108C001, 0x7108C00B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7108C001, 0x7108C00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7108C002, 23482, 0x108C0040, 190.9633, 176.5831, -0.1, 0.999557, 0, 0, -0.02976311,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -66,7 +66,7 @@ VALUES (0x7108C00D,  1542, 0x108C002C, 128.5949, 82.84773, 1.762505, -4.371139E-
 /* @teleloc 0x108C002C [128.594900 82.847730 1.762505] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7108C00D, 0x7108C00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7108C00D, 0x7108C00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7108C00E,  4380, 0x108C002C, 128.5949, 82.84773, 1.762505, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

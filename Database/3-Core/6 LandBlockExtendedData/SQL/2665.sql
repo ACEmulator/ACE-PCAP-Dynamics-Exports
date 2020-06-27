@@ -5,8 +5,8 @@ VALUES (0x72665001,  1154, 0x26650034, 152.3536, 76.5006, 57.47305, 0.2293945, 0
 /* @teleloc 0x26650034 [152.353600 76.500600 57.473050] 0.229395 0.000000 0.000000 -0.973334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72665001, 0x72665002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72665001, 0x72665003, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x72665001, 0x72665002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72665001, 0x72665003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72665002,  8138, 0x26650034, 152.3536, 76.5006, 57.47305, 0.2293945, 0, 0, -0.9733335,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -21,7 +21,7 @@ VALUES (0x72665004,  1542, 0x2665000C, 28.29449, 94.9755, 21.07669, 0.9914449, 0
 /* @teleloc 0x2665000C [28.294490 94.975500 21.076690] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72665004, 0x72665005, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72665004, 0x72665005, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72665005,  4380, 0x2665000C, 28.29449, 94.9755, 21.07669, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

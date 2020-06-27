@@ -5,13 +5,13 @@ VALUES (0x7A1AF001,  1154, 0xA1AF0028, 100.7139, 177.1247, 108.1649, 0.7071068, 
 /* @teleloc 0xA1AF0028 [100.713900 177.124700 108.164900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1AF001, 0x7A1AF002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A1AF001, 0x7A1AF003, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7A1AF001, 0x7A1AF004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A1AF001, 0x7A1AF005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A1AF001, 0x7A1AF006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1AF001, 0x7A1AF007, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A1AF001, 0x7A1AF008, '2019-02-10 00:00:00') /* Mite Sentry */;
+VALUES (0x7A1AF001, 0x7A1AF002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A1AF001, 0x7A1AF003, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7A1AF001, 0x7A1AF004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A1AF001, 0x7A1AF005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A1AF001, 0x7A1AF006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1AF001, 0x7A1AF007, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A1AF001, 0x7A1AF008, '2019-02-10 00:00:00') /* Mite Sentry (945) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1AF002,   937, 0xA1AF0028, 100.7139, 177.1247, 108.1649, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -46,7 +46,7 @@ VALUES (0x7A1AF009,  1542, 0xA1AF0028, 96.07559, 176.9463, 103.7697, 1, 0, 0, 0,
 /* @teleloc 0xA1AF0028 [96.075590 176.946300 103.769700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1AF009, 0x7A1AF00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A1AF009, 0x7A1AF00A, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1AF00A, 22568, 0xA1AF0028, 96.07559, 176.9463, 103.7697, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

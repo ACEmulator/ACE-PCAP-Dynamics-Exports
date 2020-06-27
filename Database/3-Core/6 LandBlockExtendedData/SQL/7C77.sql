@@ -5,17 +5,17 @@ VALUES (0x77C77001,  1154, 0x7C77002C, 126.5146, 87.99933, 10.0075, 0.3077577, 0
 /* @teleloc 0x7C77002C [126.514600 87.999330 10.007500] 0.307758 0.000000 0.000000 -0.951465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C77001, 0x77C77002, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x77C77001, 0x77C77003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77C77001, 0x77C77004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77C77001, 0x77C77005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77C77001, 0x77C77006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x77C77001, 0x77C77007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77C77001, 0x77C77008, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x77C77001, 0x77C77009, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77C77001, 0x77C7700A, '2019-02-10 00:00:00') /* Undead */
-     , (0x77C77001, 0x77C7700B, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C77001, 0x77C7700C, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x77C77001, 0x77C77002, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x77C77001, 0x77C77003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77C77001, 0x77C77004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77C77001, 0x77C77005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77C77001, 0x77C77006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x77C77001, 0x77C77007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77C77001, 0x77C77008, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x77C77001, 0x77C77009, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77C77001, 0x77C7700A, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x77C77001, 0x77C7700B, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C77001, 0x77C7700C, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C77002, 10801, 0x7C77002C, 126.5146, 87.99933, 10.0075, 0.3077577, 0, 0, -0.9514648,  True, '2019-02-10 00:00:00'); /* Shallow Rift */
@@ -66,7 +66,7 @@ VALUES (0x77C7700D,  1542, 0x7C77003D, 182.1116, 119.4347, 13.15481, 1, 0, 0, 0,
 /* @teleloc 0x7C77003D [182.111600 119.434700 13.154810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C7700D, 0x77C7700E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77C7700D, 0x77C7700E, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C7700E, 22568, 0x7C77003D, 182.1116, 119.4347, 13.15481, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

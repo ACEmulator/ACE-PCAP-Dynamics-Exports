@@ -5,17 +5,17 @@ VALUES (0x7F75F001,  1154, 0xF75F0021, 103.1339, 5.388855, 24.73907, 0.4120346, 
 /* @teleloc 0xF75F0021 [103.133900 5.388855 24.739070] 0.412035 0.000000 0.000000 -0.911168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75F001, 0x7F75F002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7F75F001, 0x7F75F003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F75F001, 0x7F75F004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F75F001, 0x7F75F005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F75F001, 0x7F75F006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F75F001, 0x7F75F007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F75F001, 0x7F75F008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F75F001, 0x7F75F009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F75F001, 0x7F75F00A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F75F001, 0x7F75F00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F75F001, 0x7F75F00C, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7F75F001, 0x7F75F002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7F75F001, 0x7F75F003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F75F001, 0x7F75F004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F75F001, 0x7F75F005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F75F001, 0x7F75F006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F75F001, 0x7F75F007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F75F001, 0x7F75F008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F75F001, 0x7F75F009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F75F001, 0x7F75F00A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F75F001, 0x7F75F00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F75F001, 0x7F75F00C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75F002, 28552, 0xF75F0021, 103.1339, 5.388855, 24.73907, 0.4120346, 0, 0, -0.9111682,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

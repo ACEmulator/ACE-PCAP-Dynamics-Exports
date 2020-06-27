@@ -5,35 +5,35 @@ VALUES (0x7C620001,  1154, 0xC620001B, 95.87103, 66.10579, 216.0528, -0.3144369,
 /* @teleloc 0xC620001B [95.871030 66.105790 216.052800] -0.314437 0.000000 0.000000 -0.949278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C620001, 0x7C620002, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7C620001, 0x7C620003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7C620001, 0x7C620004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C620001, 0x7C620005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C620001, 0x7C620006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C620001, 0x7C620007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C620001, 0x7C620008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C620001, 0x7C620009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C620001, 0x7C62000A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7C620001, 0x7C62000B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C620001, 0x7C62000C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C620001, 0x7C62000D, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7C620001, 0x7C62000E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C620001, 0x7C62000F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C620001, 0x7C620010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C620001, 0x7C620011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C620001, 0x7C620012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C620013, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C620014, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C620001, 0x7C620015, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C620001, 0x7C620016, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C620017, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C620001, 0x7C620018, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C620019, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C62001A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C620001, 0x7C62001B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C620001, 0x7C62001C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C620001, 0x7C62001D, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C620001, 0x7C62001E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7C620001, 0x7C620002, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7C620001, 0x7C620003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7C620001, 0x7C620004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C620001, 0x7C620005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C620001, 0x7C620006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C620001, 0x7C620007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C620001, 0x7C620008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C620001, 0x7C620009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C620001, 0x7C62000A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7C620001, 0x7C62000B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C620001, 0x7C62000C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C620001, 0x7C62000D, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7C620001, 0x7C62000E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C620001, 0x7C62000F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C620001, 0x7C620010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C620001, 0x7C620011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C620001, 0x7C620012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C620013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C620014, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C620001, 0x7C620015, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C620001, 0x7C620016, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C620017, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C620001, 0x7C620018, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C620019, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C62001A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C620001, 0x7C62001B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C620001, 0x7C62001C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C620001, 0x7C62001D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C620001, 0x7C62001E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C620002, 27565, 0xC620001B, 95.87103, 66.10579, 216.0528, -0.3144369, 0, 0, -0.9492784,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */
@@ -156,7 +156,7 @@ VALUES (0x7C62001F,  1542, 0xC6200028, 119.5548, 185.2621, 223.7562, 0.9537169, 
 /* @teleloc 0xC6200028 [119.554800 185.262100 223.756200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C62001F, 0x7C620020, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal */;
+VALUES (0x7C62001F, 0x7C620020, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C620020,  8390, 0xC6200028, 119.5548, 185.2621, 223.7562, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands South Landbridge Portal */

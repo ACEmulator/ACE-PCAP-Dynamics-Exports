@@ -5,17 +5,17 @@ VALUES (0x7A3B2001,  1154, 0xA3B20026, 113.3794, 134.0409, 59.22964, -0.4956673,
 /* @teleloc 0xA3B20026 [113.379400 134.040900 59.229640] -0.495667 0.000000 0.000000 -0.868513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3B2001, 0x7A3B2002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3B2001, 0x7A3B2003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3B2001, 0x7A3B2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A3B2001, 0x7A3B2005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3B2001, 0x7A3B2006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3B2001, 0x7A3B2007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3B2001, 0x7A3B2008, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A3B2001, 0x7A3B2009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A3B2001, 0x7A3B200A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A3B2001, 0x7A3B200B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A3B2001, 0x7A3B200C, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7A3B2001, 0x7A3B2002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3B2001, 0x7A3B2003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3B2001, 0x7A3B2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A3B2001, 0x7A3B2005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3B2001, 0x7A3B2006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3B2001, 0x7A3B2007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3B2001, 0x7A3B2008, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A3B2001, 0x7A3B2009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A3B2001, 0x7A3B200A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A3B2001, 0x7A3B200B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A3B2001, 0x7A3B200C, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3B2002,   182, 0xA3B20026, 113.3794, 134.0409, 59.22964, -0.4956673, 0, 0, -0.8685125,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

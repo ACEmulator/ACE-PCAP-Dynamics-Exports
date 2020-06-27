@@ -5,21 +5,21 @@ VALUES (0x7AE9F001,  1154, 0xAE9F0019, 86.26447, 0.1229401, 76.39454, 0.8676805,
 /* @teleloc 0xAE9F0019 [86.264470 0.122940 76.394540] 0.867681 0.000000 0.000000 -0.497122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9F001, 0x7AE9F002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9F001, 0x7AE9F003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE9F001, 0x7AE9F004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9F001, 0x7AE9F005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AE9F001, 0x7AE9F006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE9F001, 0x7AE9F007, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE9F001, 0x7AE9F008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AE9F001, 0x7AE9F009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE9F001, 0x7AE9F00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE9F001, 0x7AE9F00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE9F001, 0x7AE9F00C, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AE9F001, 0x7AE9F00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9F001, 0x7AE9F00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9F001, 0x7AE9F00F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE9F001, 0x7AE9F010, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AE9F001, 0x7AE9F002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9F001, 0x7AE9F003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE9F001, 0x7AE9F004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9F001, 0x7AE9F005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AE9F001, 0x7AE9F006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE9F001, 0x7AE9F007, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE9F001, 0x7AE9F008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AE9F001, 0x7AE9F009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE9F001, 0x7AE9F00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE9F001, 0x7AE9F00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE9F001, 0x7AE9F00C, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AE9F001, 0x7AE9F00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9F001, 0x7AE9F00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9F001, 0x7AE9F00F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE9F001, 0x7AE9F010, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9F002,  7345, 0xAE9F0019, 86.26447, 0.1229401, 76.39454, 0.8676805, 0, 0, -0.4971222,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -86,7 +86,7 @@ VALUES (0x7AE9F011,  1542, 0xAE9F0032, 155.6759, 46.66349, 86, 0.4912431, 0, 0, 
 /* @teleloc 0xAE9F0032 [155.675900 46.663490 86.000000] 0.491243 0.000000 0.000000 -0.871023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9F011, 0x7AE9F012, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7AE9F011, 0x7AE9F012, '2019-02-10 00:00:00') /* Old Gravestone (34130) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9F012, 34130, 0xAE9F0032, 155.6759, 46.66349, 86, 0.4912431, 0, 0, -0.8710225,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

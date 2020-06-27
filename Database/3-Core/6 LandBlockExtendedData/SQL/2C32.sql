@@ -5,40 +5,40 @@ VALUES (0x72C32001,  1154, 0x2C32002D, 121.3873, 100.556, 77.62683, -0.4700125, 
 /* @teleloc 0x2C32002D [121.387300 100.556000 77.626830] -0.470013 0.000000 0.000000 -0.882660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C32001, 0x72C32002, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72C32001, 0x72C32003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72C32001, 0x72C32004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72C32001, 0x72C32005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C32001, 0x72C32006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C32001, 0x72C32007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72C32001, 0x72C32008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C32001, 0x72C32009, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72C32001, 0x72C3200A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72C32001, 0x72C3200B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72C32001, 0x72C3200C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72C32001, 0x72C3200D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72C32001, 0x72C3200E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72C32001, 0x72C3200F, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72C32001, 0x72C32010, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72C32001, 0x72C32011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C32001, 0x72C32012, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72C32001, 0x72C32013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72C32001, 0x72C32014, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72C32001, 0x72C32015, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72C32001, 0x72C32016, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72C32001, 0x72C32017, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72C32001, 0x72C32018, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72C32001, 0x72C32019, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C32001, 0x72C3201A, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72C32001, 0x72C3201B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72C32001, 0x72C3201C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C32001, 0x72C3201D, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C32001, 0x72C3201E, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72C32001, 0x72C3201F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72C32001, 0x72C32020, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C32001, 0x72C32021, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72C32001, 0x72C32022, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C32001, 0x72C32023, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x72C32001, 0x72C32002, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72C32001, 0x72C32003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72C32001, 0x72C32004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72C32001, 0x72C32005, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72C32001, 0x72C32006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C32001, 0x72C32007, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72C32001, 0x72C32008, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C32001, 0x72C32009, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72C32001, 0x72C3200A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72C32001, 0x72C3200B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72C32001, 0x72C3200C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72C32001, 0x72C3200D, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72C32001, 0x72C3200E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72C32001, 0x72C3200F, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72C32001, 0x72C32010, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72C32001, 0x72C32011, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C32001, 0x72C32012, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72C32001, 0x72C32013, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72C32001, 0x72C32014, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72C32001, 0x72C32015, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72C32001, 0x72C32016, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72C32001, 0x72C32017, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72C32001, 0x72C32018, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72C32001, 0x72C32019, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C32001, 0x72C3201A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72C32001, 0x72C3201B, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72C32001, 0x72C3201C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C32001, 0x72C3201D, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C32001, 0x72C3201E, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72C32001, 0x72C3201F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72C32001, 0x72C32020, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C32001, 0x72C32021, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72C32001, 0x72C32022, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C32001, 0x72C32023, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C32002, 21552, 0x2C32002D, 121.3873, 100.556, 77.62683, -0.4700125, 0, 0, -0.8826597,  True, '2019-02-10 00:00:00'); /* Tempest Wisp */
@@ -181,7 +181,7 @@ VALUES (0x72C32024,  1542, 0x2C320025, 102.9823, 108.2997, 76.97502, 1, 0, 0, 0,
 /* @teleloc 0x2C320025 [102.982300 108.299700 76.975020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C32024, 0x72C32025, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72C32024, 0x72C32025, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C32025,  4179, 0x2C320025, 102.9823, 108.2997, 76.97502, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,20 +5,20 @@ VALUES (0x7E262001,  1154, 0xE262000A, 44.70063, 26.28526, 0.01050007, 0.862799,
 /* @teleloc 0xE262000A [44.700630 26.285260 0.010500] 0.862799 0.000000 0.000000 -0.505547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E262001, 0x7E262002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E262001, 0x7E262003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E262001, 0x7E262004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E262001, 0x7E262005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E262001, 0x7E262006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E262001, 0x7E262007, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E262001, 0x7E262008, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E262001, 0x7E262009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E262001, 0x7E26200A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E262001, 0x7E26200B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E262001, 0x7E26200C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E262001, 0x7E26200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E262001, 0x7E26200E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E262001, 0x7E26200F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7E262001, 0x7E262002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E262001, 0x7E262003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E262001, 0x7E262004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E262001, 0x7E262005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E262001, 0x7E262006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E262001, 0x7E262007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E262001, 0x7E262008, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E262001, 0x7E262009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E262001, 0x7E26200A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E262001, 0x7E26200B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E262001, 0x7E26200C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E262001, 0x7E26200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E262001, 0x7E26200E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E262001, 0x7E26200F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E262002,  7082, 0xE262000A, 44.70063, 26.28526, 0.01050007, 0.862799, 0, 0, -0.5055472,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

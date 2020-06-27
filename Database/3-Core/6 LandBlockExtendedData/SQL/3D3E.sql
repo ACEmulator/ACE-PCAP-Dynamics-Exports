@@ -5,17 +5,17 @@ VALUES (0x73D3E001,  1154, 0x3D3E003B, 180.1648, 65.54191, 20.98507, -0.1203752,
 /* @teleloc 0x3D3E003B [180.164800 65.541910 20.985070] -0.120375 0.000000 0.000000 -0.992729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D3E001, 0x73D3E002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D3E001, 0x73D3E003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73D3E001, 0x73D3E004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D3E001, 0x73D3E005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D3E001, 0x73D3E006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D3E001, 0x73D3E007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D3E001, 0x73D3E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73D3E001, 0x73D3E009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73D3E001, 0x73D3E00A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73D3E001, 0x73D3E00B, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73D3E001, 0x73D3E00C, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x73D3E001, 0x73D3E002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D3E001, 0x73D3E003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73D3E001, 0x73D3E004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D3E001, 0x73D3E005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D3E001, 0x73D3E006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D3E001, 0x73D3E007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D3E001, 0x73D3E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73D3E001, 0x73D3E009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73D3E001, 0x73D3E00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73D3E001, 0x73D3E00B, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73D3E001, 0x73D3E00C, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D3E002,  7119, 0x3D3E003B, 180.1648, 65.54191, 20.98507, -0.1203752, 0, 0, -0.9927285,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

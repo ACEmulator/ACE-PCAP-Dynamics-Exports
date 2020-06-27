@@ -5,10 +5,10 @@ VALUES (0x7B457001,  1154, 0xB4570040, 170.5526, 172.7817, 29.57707, -0.08715577
 /* @teleloc 0xB4570040 [170.552600 172.781700 29.577070] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B457001, 0x7B457002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B457001, 0x7B457003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B457001, 0x7B457004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B457001, 0x7B457005, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B457001, 0x7B457002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B457001, 0x7B457003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B457001, 0x7B457004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B457001, 0x7B457005, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B457002,  8270, 0xB4570040, 170.5526, 172.7817, 29.57707, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

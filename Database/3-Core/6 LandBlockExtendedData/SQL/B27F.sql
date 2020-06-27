@@ -5,30 +5,30 @@ VALUES (0x7B27F001,  1154, 0xB27F000A, 45.4842, 42.30733, 46.4043, 0.1220123, 0,
 /* @teleloc 0xB27F000A [45.484200 42.307330 46.404300] 0.122012 0.000000 0.000000 -0.992529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B27F001, 0x7B27F002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B27F001, 0x7B27F003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B27F001, 0x7B27F004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B27F001, 0x7B27F005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B27F001, 0x7B27F006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B27F001, 0x7B27F007, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B27F001, 0x7B27F008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B27F001, 0x7B27F009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B27F001, 0x7B27F00A, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B27F001, 0x7B27F00B, '2019-02-10 00:00:00') /* Chilly the Snowman */
-     , (0x7B27F001, 0x7B27F00C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B27F001, 0x7B27F00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B27F001, 0x7B27F00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B27F001, 0x7B27F00F, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B27F001, 0x7B27F010, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7B27F001, 0x7B27F011, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B27F001, 0x7B27F012, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B27F001, 0x7B27F013, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B27F001, 0x7B27F014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B27F001, 0x7B27F015, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B27F001, 0x7B27F016, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B27F001, 0x7B27F017, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B27F001, 0x7B27F018, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B27F001, 0x7B27F019, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7B27F001, 0x7B27F002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B27F001, 0x7B27F003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B27F001, 0x7B27F004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B27F001, 0x7B27F005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B27F001, 0x7B27F006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B27F001, 0x7B27F007, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B27F001, 0x7B27F008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B27F001, 0x7B27F009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B27F001, 0x7B27F00A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B27F001, 0x7B27F00B, '2019-02-10 00:00:00') /* Chilly the Snowman (5760) */
+     , (0x7B27F001, 0x7B27F00C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B27F001, 0x7B27F00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B27F001, 0x7B27F00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B27F001, 0x7B27F00F, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B27F001, 0x7B27F010, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7B27F001, 0x7B27F011, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B27F001, 0x7B27F012, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B27F001, 0x7B27F013, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B27F001, 0x7B27F014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B27F001, 0x7B27F015, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B27F001, 0x7B27F016, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B27F001, 0x7B27F017, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B27F001, 0x7B27F018, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B27F001, 0x7B27F019, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B27F002, 28552, 0xB27F000A, 45.4842, 42.30733, 46.4043, 0.1220123, 0, 0, -0.9925286,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -131,8 +131,8 @@ VALUES (0x7B27F01A,  1542, 0xB27F0001, 11.17828, 18.34677, 49.66585, 0.7071068, 
 /* @teleloc 0xB27F0001 [11.178280 18.346770 49.665850] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B27F01A, 0x7B27F01B, '2019-02-10 00:00:00') /* Chest */
-     , (0x7B27F01A, 0x7B27F01C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B27F01A, 0x7B27F01B, '2019-02-10 00:00:00') /* Chest (1919) */
+     , (0x7B27F01A, 0x7B27F01C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B27F01B,  1919, 0xB27F0001, 11.17828, 18.34677, 49.66585, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chest */

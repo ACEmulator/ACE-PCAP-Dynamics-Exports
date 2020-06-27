@@ -5,13 +5,13 @@ VALUES (0x737F0001,  1154, 0x37F0002A, 120.7333, 31.64072, 40, 0.5739922, 0, 0, 
 /* @teleloc 0x37F0002A [120.733300 31.640720 40.000000] 0.573992 0.000000 0.000000 -0.818861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737F0001, 0x737F0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x737F0001, 0x737F0003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x737F0001, 0x737F0004, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x737F0001, 0x737F0005, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x737F0001, 0x737F0006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x737F0001, 0x737F0007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x737F0001, 0x737F0008, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x737F0001, 0x737F0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x737F0001, 0x737F0003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x737F0001, 0x737F0004, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x737F0001, 0x737F0005, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x737F0001, 0x737F0006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x737F0001, 0x737F0007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x737F0001, 0x737F0008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737F0002, 28551, 0x37F0002A, 120.7333, 31.64072, 40, 0.5739922, 0, 0, -0.8188608,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

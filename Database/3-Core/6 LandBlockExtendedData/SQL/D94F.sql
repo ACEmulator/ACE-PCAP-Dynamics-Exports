@@ -5,12 +5,12 @@ VALUES (0x7D94F001,  1154, 0xD94F0010, 42.15028, 185.6389, 32.47247, 0.9998832, 
 /* @teleloc 0xD94F0010 [42.150280 185.638900 32.472470] 0.999883 0.000000 0.000000 -0.015284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D94F001, 0x7D94F002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D94F001, 0x7D94F003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D94F001, 0x7D94F004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D94F001, 0x7D94F005, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D94F001, 0x7D94F006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7D94F001, 0x7D94F007, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7D94F001, 0x7D94F002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D94F001, 0x7D94F003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D94F001, 0x7D94F004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D94F001, 0x7D94F005, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D94F001, 0x7D94F006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7D94F001, 0x7D94F007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D94F002,  4110, 0xD94F0010, 42.15028, 185.6389, 32.47247, 0.9998832, 0, 0, -0.01528411,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

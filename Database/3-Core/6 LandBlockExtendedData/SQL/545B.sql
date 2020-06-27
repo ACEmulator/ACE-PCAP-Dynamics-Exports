@@ -101,22 +101,22 @@ VALUES (0x7545B043,  1154, 0x545B0150, 80, -80, 0.004999995, 1, 0, 0, 0, False, 
 /* @teleloc 0x545B0150 [80.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545B043, 0x7545B044, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B045, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B046, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B047, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B048, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B049, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B043, 0x7545B04A, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B04B, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B04C, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B043, 0x7545B04D, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B04E, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B04F, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B050, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7545B043, 0x7545B051, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B043, 0x7545B052, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B043, 0x7545B053, '2019-02-10 00:00:00') /* Martinate Simulacrum */;
+VALUES (0x7545B043, 0x7545B044, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B045, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B046, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B047, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B048, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B049, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B043, 0x7545B04A, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B04B, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B04C, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B043, 0x7545B04D, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B04E, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B04F, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B050, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B043, 0x7545B051, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B043, 0x7545B052, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B043, 0x7545B053, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545B044, 15299, 0x545B0150, 80, -80, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Martinate Simulacrum */
@@ -187,25 +187,25 @@ VALUES (0x7545B054,  1542, 0x545B0102, 7.73212, -30.649, 0, 0.9921976, 0, 0, -0.
 /* @teleloc 0x545B0102 [7.732120 -30.649000 0.000000] 0.992198 0.000000 0.000000 -0.124675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545B054, 0x7545B055, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B056, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B057, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B058, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B059, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05A, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05B, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05C, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05D, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05E, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B05F, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B060, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B061, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B062, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B063, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B064, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B065, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B066, '2019-02-10 00:00:00') /* Enchanted Decanter */
-     , (0x7545B054, 0x7545B067, '2019-02-10 00:00:00') /* Enchanted Decanter */;
+VALUES (0x7545B054, 0x7545B055, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B056, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B057, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B058, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B059, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05A, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05B, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05C, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05D, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05E, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B05F, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B060, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B061, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B062, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B063, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B064, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B065, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B066, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B054, 0x7545B067, '2019-02-10 00:00:00') /* Enchanted Decanter (19482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545B055, 19482, 0x545B0102, 7.73212, -30.649, 0, 0.9921976, 0, 0, -0.124675,  True, '2019-02-10 00:00:00'); /* Enchanted Decanter */

@@ -5,18 +5,18 @@ VALUES (0x7BEC5001,  1154, 0xBEC50015, 55.25443, 112.7507, 260.0076, 0.3539356, 
 /* @teleloc 0xBEC50015 [55.254430 112.750700 260.007600] 0.353936 0.000000 0.000000 -0.935270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEC5001, 0x7BEC5002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BEC5001, 0x7BEC5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC5004, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x7BEC5001, 0x7BEC5005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BEC5001, 0x7BEC5006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC5007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC5008, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7BEC5001, 0x7BEC5009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC500A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC500B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC500C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEC5001, 0x7BEC500D, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7BEC5001, 0x7BEC5002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BEC5001, 0x7BEC5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC5004, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x7BEC5001, 0x7BEC5005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BEC5001, 0x7BEC5006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC5007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC5008, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7BEC5001, 0x7BEC5009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC500A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC500B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC500C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEC5001, 0x7BEC500D, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEC5002, 22809, 0xBEC50015, 55.25443, 112.7507, 260.0076, 0.3539356, 0, 0, -0.9352698,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

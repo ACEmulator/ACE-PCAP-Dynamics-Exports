@@ -5,12 +5,12 @@ VALUES (0x72B54001,  1154, 0x2B540003, 7.462183, 56.22319, 149.4626, -0.9758259,
 /* @teleloc 0x2B540003 [7.462183 56.223190 149.462600] -0.975826 0.000000 0.000000 -0.218549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B54001, 0x72B54002, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72B54001, 0x72B54003, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72B54001, 0x72B54004, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72B54001, 0x72B54005, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72B54001, 0x72B54006, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72B54001, 0x72B54007, '2019-02-10 00:00:00') /* Bile Grievver */;
+VALUES (0x72B54001, 0x72B54002, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72B54001, 0x72B54003, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B54001, 0x72B54004, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72B54001, 0x72B54005, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B54001, 0x72B54006, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B54001, 0x72B54007, '2019-02-10 00:00:00') /* Bile Grievver (22900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B54002,  4212, 0x2B540003, 7.462183, 56.22319, 149.4626, -0.9758259, 0, 0, -0.2185493,  True, '2019-02-10 00:00:00'); /* Tremendous Monouga */

@@ -5,16 +5,16 @@ VALUES (0x7B1BB001,  1154, 0xB1BB0003, 8.178189, 57.92443, 116.827, -0.1677368, 
 /* @teleloc 0xB1BB0003 [8.178189 57.924430 116.827000] -0.167737 0.000000 0.000000 -0.985832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1BB001, 0x7B1BB002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B1BB001, 0x7B1BB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B1BB001, 0x7B1BB004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B1BB001, 0x7B1BB005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B1BB001, 0x7B1BB006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B1BB001, 0x7B1BB007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B1BB001, 0x7B1BB008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B1BB001, 0x7B1BB009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B1BB001, 0x7B1BB00A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B1BB001, 0x7B1BB00B, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7B1BB001, 0x7B1BB002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B1BB001, 0x7B1BB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B1BB001, 0x7B1BB004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B1BB001, 0x7B1BB005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B1BB001, 0x7B1BB006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B1BB001, 0x7B1BB007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B1BB001, 0x7B1BB008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B1BB001, 0x7B1BB009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B1BB001, 0x7B1BB00A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B1BB001, 0x7B1BB00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1BB002,  1989, 0xB1BB0003, 8.178189, 57.92443, 116.827, -0.1677368, 0, 0, -0.9858318,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

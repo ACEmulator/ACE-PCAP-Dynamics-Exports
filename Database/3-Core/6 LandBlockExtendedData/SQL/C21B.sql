@@ -5,24 +5,24 @@ VALUES (0x7C21B001,  1154, 0xC21B000A, 44.09521, 38.3757, 84.80453, -0.3261183, 
 /* @teleloc 0xC21B000A [44.095210 38.375700 84.804530] -0.326118 0.000000 0.000000 -0.945329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C21B001, 0x7C21B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C21B001, 0x7C21B003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21B001, 0x7C21B004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C21B001, 0x7C21B005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C21B001, 0x7C21B006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7C21B001, 0x7C21B007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C21B001, 0x7C21B008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21B001, 0x7C21B009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C21B001, 0x7C21B00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C21B001, 0x7C21B00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C21B001, 0x7C21B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C21B001, 0x7C21B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C21B001, 0x7C21B00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C21B001, 0x7C21B00F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C21B001, 0x7C21B010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21B001, 0x7C21B011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21B001, 0x7C21B012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C21B001, 0x7C21B013, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7C21B001, 0x7C21B002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C21B001, 0x7C21B003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C21B001, 0x7C21B004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C21B001, 0x7C21B005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C21B001, 0x7C21B006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7C21B001, 0x7C21B007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C21B001, 0x7C21B008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C21B001, 0x7C21B009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C21B001, 0x7C21B00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C21B001, 0x7C21B00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C21B001, 0x7C21B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C21B001, 0x7C21B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C21B001, 0x7C21B00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C21B001, 0x7C21B00F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C21B001, 0x7C21B010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C21B001, 0x7C21B011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C21B001, 0x7C21B012, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C21B001, 0x7C21B013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C21B002,  7334, 0xC21B000A, 44.09521, 38.3757, 84.80453, -0.3261183, 0, 0, -0.945329,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -101,8 +101,8 @@ VALUES (0x7C21B014,  1542, 0xC21B0012, 50.26427, 43.87889, 84.34342, 1, 0, 0, 0,
 /* @teleloc 0xC21B0012 [50.264270 43.878890 84.343420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C21B014, 0x7C21B015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C21B014, 0x7C21B016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C21B014, 0x7C21B015, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7C21B014, 0x7C21B016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C21B015, 22567, 0xC21B0012, 50.26427, 43.87889, 84.34342, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

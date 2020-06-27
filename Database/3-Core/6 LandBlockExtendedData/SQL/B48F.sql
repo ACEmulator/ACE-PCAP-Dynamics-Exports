@@ -5,11 +5,11 @@ VALUES (0x7B48F001,  1154, 0xB48F0019, 83.50013, 4.395637, 41.91912, 0.9238795, 
 /* @teleloc 0xB48F0019 [83.500130 4.395637 41.919120] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B48F001, 0x7B48F002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B48F001, 0x7B48F003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B48F001, 0x7B48F004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B48F001, 0x7B48F005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B48F001, 0x7B48F006, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B48F001, 0x7B48F002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B48F001, 0x7B48F003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B48F001, 0x7B48F004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B48F001, 0x7B48F005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B48F001, 0x7B48F006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B48F002,  1758, 0xB48F0019, 83.50013, 4.395637, 41.91912, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -36,7 +36,7 @@ VALUES (0x7B48F007,  1542, 0xB48F0010, 31.59312, 177.9669, 48.33323, 1, 0, 0, 0,
 /* @teleloc 0xB48F0010 [31.593120 177.966900 48.333230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B48F007, 0x7B48F008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B48F007, 0x7B48F008, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B48F008, 22576, 0xB48F0010, 31.59312, 177.9669, 48.33323, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

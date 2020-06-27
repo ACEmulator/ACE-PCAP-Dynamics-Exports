@@ -13,26 +13,26 @@ VALUES (0x7BC1D003,  1154, 0xBC1D0024, 106.6522, 87.7037, 71.91723, 0.6893631, 0
 /* @teleloc 0xBC1D0024 [106.652200 87.703700 71.917230] 0.689363 0.000000 0.000000 -0.724416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1D003, 0x7BC1D004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1D003, 0x7BC1D005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1D003, 0x7BC1D006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1D003, 0x7BC1D007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC1D003, 0x7BC1D008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC1D003, 0x7BC1D009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC1D003, 0x7BC1D00A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC1D003, 0x7BC1D00B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC1D003, 0x7BC1D00C, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BC1D003, 0x7BC1D00D, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BC1D003, 0x7BC1D00E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC1D003, 0x7BC1D00F, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BC1D003, 0x7BC1D010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1D003, 0x7BC1D011, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BC1D003, 0x7BC1D012, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BC1D003, 0x7BC1D013, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BC1D003, 0x7BC1D014, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BC1D003, 0x7BC1D015, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC1D003, 0x7BC1D016, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BC1D003, 0x7BC1D017, '2019-02-10 00:00:00') /* K'nath N'gell */;
+VALUES (0x7BC1D003, 0x7BC1D004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1D003, 0x7BC1D005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1D003, 0x7BC1D006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1D003, 0x7BC1D007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC1D003, 0x7BC1D008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC1D003, 0x7BC1D009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC1D003, 0x7BC1D00A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC1D003, 0x7BC1D00B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC1D003, 0x7BC1D00C, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BC1D003, 0x7BC1D00D, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7BC1D003, 0x7BC1D00E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BC1D003, 0x7BC1D00F, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7BC1D003, 0x7BC1D010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1D003, 0x7BC1D011, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BC1D003, 0x7BC1D012, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BC1D003, 0x7BC1D013, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BC1D003, 0x7BC1D014, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BC1D003, 0x7BC1D015, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC1D003, 0x7BC1D016, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BC1D003, 0x7BC1D017, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1D004,  7107, 0xBC1D0024, 106.6522, 87.7037, 71.91723, 0.6893631, 0, 0, -0.724416,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -119,9 +119,9 @@ VALUES (0x7BC1D018,  1542, 0xBC1D0025, 112.7544, 114.9932, 77.87379, 0.6893631, 
 /* @teleloc 0xBC1D0025 [112.754400 114.993200 77.873790] 0.689363 0.000000 0.000000 -0.724416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1D018, 0x7BC1D019, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BC1D018, 0x7BC1D01A, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BC1D018, 0x7BC1D01B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BC1D018, 0x7BC1D019, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BC1D018, 0x7BC1D01A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BC1D018, 0x7BC1D01B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1D019,  8644, 0xBC1D0025, 112.7544, 114.9932, 77.87379, 0.6893631, 0, 0, -0.724416,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

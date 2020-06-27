@@ -9,28 +9,28 @@ VALUES (0x70F85001,  1154, 0x0F85001B, 72.87138, 52.43365, 3.268208, -0.1690068,
 /* @teleloc 0x0F85001B [72.871380 52.433650 3.268208] -0.169007 0.000000 0.000000 -0.985615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F85001, 0x70F85002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70F85001, 0x70F85003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70F85001, 0x70F85004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F85001, 0x70F85005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F85001, 0x70F85006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F85001, 0x70F85007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F85001, 0x70F85008, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x70F85001, 0x70F85009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F85001, 0x70F8500A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F85001, 0x70F8500B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F85001, 0x70F8500C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F85001, 0x70F8500D, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70F85001, 0x70F8500E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F85001, 0x70F8500F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F85001, 0x70F85010, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F85001, 0x70F85011, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F85001, 0x70F85012, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F85001, 0x70F85013, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x70F85001, 0x70F85014, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70F85001, 0x70F85015, '2019-02-10 00:00:00') /* Assailer */
-     , (0x70F85001, 0x70F85016, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F85001, 0x70F85017, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70F85001, 0x70F85002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70F85001, 0x70F85003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70F85001, 0x70F85004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F85001, 0x70F85005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70F85001, 0x70F85006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F85001, 0x70F85007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F85001, 0x70F85008, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x70F85001, 0x70F85009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F85001, 0x70F8500A, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F85001, 0x70F8500B, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70F85001, 0x70F8500C, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F85001, 0x70F8500D, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70F85001, 0x70F8500E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F85001, 0x70F8500F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70F85001, 0x70F85010, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70F85001, 0x70F85011, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F85001, 0x70F85012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F85001, 0x70F85013, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x70F85001, 0x70F85014, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70F85001, 0x70F85015, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x70F85001, 0x70F85016, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F85001, 0x70F85017, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F85002, 36818, 0x0F85001B, 72.87138, 52.43365, 3.268208, -0.1690068, 0, 0, -0.9856149,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -125,8 +125,8 @@ VALUES (0x70F85018,  1542, 0x0F850015, 64.7266, 115.3507, -0.009999931, 0.398393
 /* @teleloc 0x0F850015 [64.726600 115.350700 -0.010000] 0.398393 0.000000 0.000000 -0.917215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F85018, 0x70F85019, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x70F85018, 0x70F8501A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x70F85018, 0x70F85019, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x70F85018, 0x70F8501A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F85019,  9286, 0x0F850015, 64.7266, 115.3507, -0.009999931, 0.3983932, 0, 0, -0.9172148,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

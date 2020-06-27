@@ -5,9 +5,9 @@ VALUES (0x7E045001,  1154, 0xE0450032, 161.7087, 36.31223, 21.985, 0.124804, 0, 
 /* @teleloc 0xE0450032 [161.708700 36.312230 21.985000] 0.124804 0.000000 0.000000 -0.992181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E045001, 0x7E045002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E045001, 0x7E045003, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E045001, 0x7E045004, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7E045001, 0x7E045002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E045001, 0x7E045003, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E045001, 0x7E045004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E045002,  4110, 0xE0450032, 161.7087, 36.31223, 21.985, 0.124804, 0, 0, -0.9921814,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
